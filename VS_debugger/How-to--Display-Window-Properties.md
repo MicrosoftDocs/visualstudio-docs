@@ -1,0 +1,37 @@
+---
+title: "How to: Display Window Properties"
+ms.custom: na
+ms.date: 10/03/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - vs-ide-debug
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 4c2f52de-bd91-42cf-9028-67aa75f8bd26
+caps.latest.revision: 4
+manager: ghogen
+translation.priority.ht: 
+  - cs-cz
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - pl-pl
+  - pt-br
+  - ru-ru
+  - tr-tr
+  - zh-cn
+  - zh-tw
+---
+# How to: Display Window Properties
+To find out more about a window listed in [Windows View](../VS_debugger/Windows-View.md), use the [Window Properties Dialog Box](../VS_debugger/Window-Properties-Dialog-Box.md).  
+  
+### To open the Window Properties dialog box  
+  
+1.  Select the item, then choose **Properties** from the **View** menu.  
+  
+ Properties dialog boxes are not modal. As you click from item to item in a view window, the dialog box is automatically refreshed with information on each item selected.
