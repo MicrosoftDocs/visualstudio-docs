@@ -1,0 +1,1 @@
+        Me.CustomersTableAdapter.Fill(Me.NorthwindDataSet.Customers)
