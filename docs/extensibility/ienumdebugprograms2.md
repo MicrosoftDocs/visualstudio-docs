@@ -1,0 +1,82 @@
+---
+title: "IEnumDebugPrograms2"
+ms.custom: na
+ms.date: "10/14/2016"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - "vs-ide-sdk"
+ms.tgt_pltfrm: na
+ms.topic: "article"
+f1_keywords: 
+  - "IEnumDebugPrograms2"
+helpviewer_keywords: 
+  - "IEnumDebugPrograms2"
+ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
+caps.latest.revision: 11
+ms.author: "gregvanl"
+manager: "ghogen"
+translation.priority.mt: 
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
+---
+# IEnumDebugPrograms2
+This interface enumerates the programs running in the current debug session.  
+  
+## Syntax  
+  
+```  
+IEnumDebugPrograms2 : IUnknown  
+```  
+  
+## Notes for Implementers  
+ The debug engine (DE) implements this interface to provide a list of programs being debugged by the DE.  
+  
+## Notes for Callers  
+ Visual Studio calls [EnumPrograms](../extensibility/idebugprocess2--enumprograms.md) to obtain this interface. [EnumPrograms](../extensibility/idebugengine2--enumprograms.md) is not used by Visual Studio.  
+  
+## Methods in Vtable Order  
+ The following table shows the methods of `IEnumDebugPrograms2`.  
+  
+|Method|Description|  
+|------------|-----------------|  
+|[Next](../extensibility/ienumdebugprograms2--next.md)|Retrieves a specified number of programs in an enumeration sequence.|  
+|[Skip](../extensibility/ienumdebugprograms2--skip.md)|Skips a specified number of programs in an enumeration sequence.|  
+|[Reset](../extensibility/ienumdebugprograms2--reset.md)|Resets an enumeration sequence to the beginning.|  
+|[Clone](../extensibility/ienumdebugprograms2--clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
+|[GetCount](../extensibility/ienumdebugprograms2--getcount.md)|Gets the number of programs in an enumerator.|  
+  
+## Remarks  
+ Visual Studio uses this interface to:  
+  
+-   Populate the **Modules** window (by calling [EnumPrograms](../extensibility/idebugprocess2--enumprograms.md) and then calling [EnumModules](../extensibility/idebugprogram2--enummodules.md) on each program).  
+  
+-   Populate the **Attach to Process** list (by calling `IDebugProcess2::EnumPrograms` and then calling [QueryInterface](../Topic/QueryInterface.md) on each [IDebugProgram2](../extensibility/idebugprogram2.md) interface to obtain an [IDebugEngineProgram2](../extensibility/idebugengineprogram2.md) interface).  
+  
+-   Generate a list of DEs that can debug each program in the process (using [GetEngineInfo](../extensibility/idebugprogram2--getengineinfo.md)).  
+  
+-   Apply Edit and Continue (ENC) updates to each program (by calling IDebugProcess2::EnumPrograms and then calling [GetENCUpdate](../extensibility/idebugprogram2--getencupdate.md)).  
+  
+## Requirements  
+ Header: msdbg.h  
+  
+ Namespace: Microsoft.VisualStudio.Debugger.Interop  
+  
+ Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
+  
+## See Also  
+ [Core Interfaces](../extensibility/core-interfaces.md)   
+ [EnumPrograms](../extensibility/idebugengine2--enumprograms.md)   
+ [EnumPrograms](../extensibility/idebugprocess2--enumprograms.md)

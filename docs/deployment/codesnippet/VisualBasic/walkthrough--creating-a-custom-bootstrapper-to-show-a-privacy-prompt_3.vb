@@ -1,0 +1,1 @@
+    Public accepted As Boolean = False
