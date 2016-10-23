@@ -1,0 +1,53 @@
+---
+title: "FlowSwitch&lt;T&gt; Activity Designer"
+ms.custom: na
+ms.date: 10/02/2016
+ms.prod: .net-framework-4.6
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
+caps.latest.revision: 4
+manager: erikre
+translation.priority.ht: 
+  - cs-cz
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - pl-pl
+  - pt-br
+  - ru-ru
+  - tr-tr
+  - zh-cn
+  - zh-tw
+---
+# FlowSwitch&lt;T&gt; Activity Designer
+The <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False> activity is a conditional node that provides branching for the flow of control based on match criterion when more than two alternative branches are required. If the flow branching requires only two paths, use the <xref:System.Activities.Statements.FlowDecision?qualifyHint=False> activity instead.  
+  
+## The FlowSwitch<T\> Activity  
+ The <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False> activity contains an <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False> that returns a value of type *T* (specified by the generic parameter) when evaluated. The activity also contains a set of <xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False>, which specifies a unique mapping from possible results of this evaluation to a set of <xref:System.Activities.Statements.FlowNode?qualifyHint=False> objects. The <xref:System.Activities.Statements.FlowNode?qualifyHint=False> executed is the one whose object of type *T* matches the value of the evaluated <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False>. A <xref:System.Activities.Statements.FlowSwitch`1.Default?qualifyHint=False> case can (optionally) be provided for the case in which no match is obtained.  
+  
+### Using the FlowSwitch<T\> Activity Designer  
+ The **FlowSwitch<T\>** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)  
+  
+ The **FlowSwitch<T\>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface within a **Flowchart** activity designer. Use the **Select Types** window that displays to specify the type (associated in code with the <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False> by its generic parameter) obtained from evaluating the <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False>. This procedure creates a <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False> activity labeled **Switch** within the <xref:System.Activities.Statements.Flowchart?qualifyHint=False> activity. The <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False> can be typed in the **Expression** box of the **Properties** window by clicking where the hint text says “Enter a VB expression”.  
+  
+ Mouse over the **FlowSwitch<T\>** activity designer to cause the square handles that are used to link up <xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False> to appear around its edges. After dragging the **FlowSwitch<T\>** activity designer and other activity designers onto the **Flowchart**, the <xref:System.Activities.Activity?qualifyHint=False> objects they represent are ready to be linked together to specify the order of execution. To create one of the <xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False> associated with the <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False>, click one of the square case handles on the perimeter of the **FlowSwitch<T\>** and drag it (by holding down the mouse button) to one of the handles that appears in a similar manner around the destination activity when the mouse hovers over its designer. Release the mouse button and an arrow from the **FlowSwitch<T\>** to the destination designer appears representing this case. The default value for this case displays on the arrow and it can be edited in the **Case** box of the **Properties** window.  
+  
+### The FlowSwitch<T\> Properties  
+ The following table shows the <xref:System.Activities.Statements.FlowSwitch`1?qualifyHint=False> properties and describes how they are used in the designer. These properties can be edited in the property grid or on designer surface.  
+  
+|Property Name|Required|Usage|  
+|-------------------|--------------|-----------|  
+|<xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False>|True|Specifies the expression that is evaluated to determine which of the <xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False> to switch to in the path of execution.|  
+|<xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False>|False|Specifies a unique mapping from possible results obtained from evaluating the <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False> to a set of <xref:System.Activities.Statements.FlowNode?qualifyHint=False> objects.|  
+|<xref:System.Activities.Statements.FlowSwitch`1.Default?qualifyHint=False>|True|Specifies the mapping when the evaluation of the <xref:System.Activities.Statements.FlowSwitch`1.Expression?qualifyHint=False> does not match one of the values contained in the <xref:System.Activities.Statements.FlowSwitch`1.Cases?qualifyHint=False> object.|  
+  
+## See Also  
+ [Flowchart](../WF_Design/Flowchart-Activity-Designers.md)   
+ [Flowchart](../WF_Design/Flowchart-Activity-Designer.md)   
+ [FlowDecision](../WF_Design/FlowDecision-Activity-Designer.md)

@@ -1,0 +1,308 @@
+---
+title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt"
+ms.custom: na
+ms.date: 10/10/2016
+ms.devlang: 
+  - FSharp
+  - VB
+  - CSharp
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - vs-ide-deployment
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
+caps.latest.revision: 10
+manager: wpickett
+translation.priority.ht: 
+  - cs-cz
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - pl-pl
+  - pt-br
+  - ru-ru
+  - tr-tr
+  - zh-cn
+  - zh-tw
+---
+# Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt
+You can configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available. To make sure that your customers consent to this behavior, you can display a privacy prompt to them. Then, they can choose whether to grant permission to the application to update automatically. If the application is not allowed to update automatically, it does not install.  
+  
+ > [!NOTE]
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalizing the  IDE](../VS_IDE/Personalizing-the-Visual-Studio-IDE.md).  
+  
+## Prerequisites  
+ You need the following components to complete this walkthrough:  
+  
+-   Visual Studio 2010.  
+  
+## Creating an Update Consent Dialog Box  
+ To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.  
+  
+#### To create a consent dialog box  
+  
+1.  On the **File** menu, point to **New**, and then click **Project**.  
+  
+2.  In the **New Project** dialog box, click **Windows**, and then click **WindowsFormsApplication**.  
+  
+3.  For the **Name**, type **ConsentDialog**, and then click **OK**.  
+  
+4.  In the designer, click the form.  
+  
+5.  In the **Properties** window, change the **Text** property to **Update Consent Dialog**.  
+  
+6.  In the **Toolbox**, expand **All Windows Forms**, and drag a **Label** control to the form.  
+  
+7.  In the designer, click the label control.  
+  
+8.  In the **Properties** window, change the **Text** property under **Appearance** to the following:  
+  
+     The application that you are about to install checks for the latest updates on the Web. By clicking on "I Agree", you authorize the application to check for and install updates automatically from the Internet.  
+  
+9. In the **Toolbox**, drag a **Checkbox** control to the middle of the form.  
+  
+10. In the **Properties** window, change the **Text** property under **Layout** to **I Agree**.  
+  
+11. In the **Toolbox**, drag a **Button** control to the lower left of the form.  
+  
+12. In the **Properties** window, change the **Text** property under **Layout** to **Proceed**.  
+  
+13. In the **Properties** window, change the **(Name)** property under **Design** to **ProceedButton**.  
+  
+14. In the **Toolbox**, drag a **Button** control to the bottom right of the form.  
+  
+15. In the **Properties** window, change the **Text** property under **Layout** to **Cancel**.  
+  
+16. In the **Properties** window, change the **(Name)** property under **Design** to **CancelButton**.  
+  
+17. In the designer, double-click the **I Agree** checkbox to generate the CheckedChanged event handler.  
+  
+18. In the Form1 code file, add the following code for the CheckedChanged event handler.  
+  
+     [!CODE [ConsentDialog#1](../CodeSnippet/VS_Snippets_ProTools/consentdialog#1)]  
+  
+19. Update the class constructor to disable the **Proceed** button by default.  
+  
+     [!CODE [ConsentDialog#6](../CodeSnippet/VS_Snippets_ProTools/consentdialog#6)]  
+  
+20. In the Form1 code file, add the following code for a Boolean variable to track if the end user has consented to online updates.  
+  
+     [!CODE [ConsentDialog#3](../CodeSnippet/VS_Snippets_ProTools/consentdialog#3)]  
+  
+21. In the designer, double-click the **Proceed** button to generate the Click event handler.  
+  
+22. In the Form1 code file, add the following code to the Click event handler for the **Proceed** button.  
+  
+     [!CODE [ConsentDialog#2](../CodeSnippet/VS_Snippets_ProTools/consentdialog#2)]  
+  
+23. In the designer, double-click the **Cancel** button to generate the Click event handler.  
+  
+24. In the Form1 code file, add the following code for the Click event handler for the **Cancel** button.  
+  
+     [!CODE [ConsentDialog#4](../CodeSnippet/VS_Snippets_ProTools/consentdialog#4)]  
+  
+25. Update the application to return an error if the end user does not consent to online updates.  
+  
+     For Visual Basic developers only:  
+  
+    1.  In **Solution Explorer**, click **ConsentDialog**.  
+  
+    2.  On the **Project** menu, click **Add Module**, and then click **Add**.  
+  
+    3.  In the Module1.vb code file, add the following code.  
+  
+         [!CODE [ConsentDialog#7](../CodeSnippet/VS_Snippets_ProTools/consentdialog#7)]  
+  
+    4.  On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
+  
+    5.  Uncheck **Enable application framework**.  
+  
+    6.  In the **Startup object** drop-down menu, select **Module1**.  
+  
+        > [!NOTE]
+        >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../VS_IDE/Application-Page--Project-Designer--Visual-Basic-.md).  
+  
+     For Visual C# developers only:  
+  
+     Open the Program.cs code file, and add the following code.  
+  
+     [!CODE [ConsentDialog#5](../CodeSnippet/VS_Snippets_ProTools/consentdialog#5)]  
+  
+26. On the **Build** menu, click **BuildSolution**.  
+  
+## Creating the Custom Bootstrapper Package  
+ To show the privacy prompt to end users, you can create a custom bootstrapper package for the Update Consent Dialog application and include it as a prerequisite in all of your ClickOnce applications.  
+  
+ This procedure demonstrates how to create a custom bootstrapper package by creating the following documents:  
+  
+-   A product.xml manifest file to describe the contents of the bootstrapper.  
+  
+-   A package.xml manifest file to list the localization-specific aspects of your package, such as strings and the software license terms.  
+  
+-   A document for the software license terms.  
+  
+#### Step 1: To create the bootstrapper directory  
+  
+1.  Create a directory named **UpdateConsentDialog** in the %PROGRAMFILES%\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages.  
+  
+    > [!NOTE]
+    >  You may need administrative privileges to create this folder.  
+  
+2.  In the UpdateConsentDialog directory, create a subdirectory named en.  
+  
+    > [!NOTE]
+    >  Create a new directory for each locale. For example, you can add subdirectories for the fr and de locales. These directories would contain the French and German strings and language packs, if necessary.  
+  
+#### Step 2: To create the product.xml manifest file  
+  
+1.  Create a text file called `product.xml`.  
+  
+2.  In the product.xml file, add the following XML code. Make sure that you do not overwrite the existing XML code.  
+  
+    ```  
+    <Product  
+      xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
+      ProductCode="Microsoft.Sample.EULA">  
+      <!-- Defines the list of files to be copied on build. -->  
+      <PackageFiles CopyAllPackageFiles="false">  
+        <PackageFile Name="ConsentDialog.exe"/>  
+      </PackageFiles>  
+  
+      <!-- Defines how to run the Setup package.-->  
+      <Commands >  
+        <Command PackageFile = "ConsentDialog.exe" Arguments=''>  
+          <ExitCodes>  
+            <ExitCode Value="0" Result="Success" />  
+            <ExitCode Value="-1" Result="Fail" String="AU_Unaccepted" />  
+            <DefaultExitCode Result="Fail"   
+              FormatMessageFromSystem="true" String="GeneralFailure" />  
+          </ExitCodes>  
+        </Command>  
+      </Commands>  
+  
+    </Product>  
+    ```  
+  
+3.  Save the file to the UpdateConsentDialog bootstrapper directory.  
+  
+#### Step 3: To create the package.xml manifest file and the software license terms  
+  
+1.  Create a text file called `package.xml`.  
+  
+2.  In the package.xml file, add the following XML code to define the locale and include the software license terms. Make sure that you do not overwrite the existing XML code.  
+  
+    ```  
+    <Package   
+      xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
+      Name="DisplayName"  
+      Culture="Culture"  
+      LicenseAgreement="eula.rtf">  
+      <PackageFiles>  
+        <PackageFile Name="eula.rtf"/>  
+      </PackageFiles>  
+  
+      <!-- Defines a localizable string table for error messages. -->  
+      <Strings>  
+        <String Name="DisplayName">Update Consent Dialog</String>  
+        <String Name="Culture">en</String>  
+        <String Name="AU_Unaccepted">The automatic update agreement is not accepted.</String>  
+        <String Name="GeneralFailure">A failure occurred attempting to launch the setup.</String>  
+      </Strings>  
+    </Package>  
+    ```  
+  
+3.  Save the file to the en subdirectory in the UpdateConsentDialog bootstrapper directory.  
+  
+4.  Create a document called eula.rtf for the software license terms.  
+  
+    > [!NOTE]
+    >  The software license terms should include information about licensing, warranties, liabilities, and local laws. These files should be locale-specific, so make sure that the file is saved in a format that supports MBCS or UNICODE characters. Consult your legal department about the content of the software license terms.  
+  
+5.  Save the document to the en subdirectory in the UpdateConsentDialog bootstrapper directory.  
+  
+6.  If necessary, create a new package.xml manifest file and a new eula.rtf document for the software license terms for each locale. For example, if you created subdirectories for the fr and de locales, create separate package.xml manifest files and software license terms and save them to the fr and de subdirectories.  
+  
+## Setting the Update Consent Application as a Prerequisite  
+ In Visual Studio, you can set the Update Consent application as a prerequisite.  
+  
+#### To set the Update Consent Application as a prerequisite  
+  
+1.  In **Solution Explorer**, click the name of your application that you want to deploy.  
+  
+2.  On the **Project** menu, click *ProjectName* **Properties**.  
+  
+3.  Click the **Publish** page, and then click **Prerequisites**.  
+  
+4.  Select **Update Consent Dialog**.  
+  
+    > [!NOTE]
+    >  You may have to close and reopen Visual Studio to see the Update Consent Dialog in the Prerequisites Dialog Box.  
+  
+5.  Click **OK**.  
+  
+## Creating and Testing the Setup Program  
+ After you set the Update Consent application as a prerequisite, you can generate the installer and bootstrapper for your application.  
+  
+#### To create and test the Setup program by not clicking I agree  
+  
+1.  In **Solution Explorer**, click the name of your application that you want to deploy.  
+  
+2.  On the **Project** menu, click *ProjectName* **Properties**.  
+  
+3.  Click the **Publish** page, and then click **Publish Now**.  
+  
+4.  If the publish output does not open automatically, navigate to the publish output.  
+  
+5.  Run the Setup.exe program.  
+  
+     The Setup program shows the Update Consent Dialog software license agreement.  
+  
+6.  Read the software license agreement, and then click **Accept**.  
+  
+     The Update Consent Dialog application appears and shows the following text: The application that you are about to install checks for the latest updates on the Web. By clicking on I Agree, you authorize the application to check for updates automatically on the Internet.  
+  
+7.  Close the application or click Cancel.  
+  
+     The application shows an error: An error occurred while installing system components for *ApplicationName*. Setup cannot continue until all system components have been successfully installed.  
+  
+8.  Click Details to show the following error message: Component Update Consent Dialog has failed to install with the following error message: "The automatic update agreement is not accepted." The following components failed to install: - Update Consent Dialog  
+  
+9. Click **Close**.  
+  
+#### To create and test the Setup program by clicking I agree  
+  
+1.  In **Solution Explorer**, click the name of your application that you want to deploy.  
+  
+2.  On the **Project** menu, click *ProjectName* **Properties**.  
+  
+3.  Click the **Publish** page, and then click **Publish Now**.  
+  
+4.  If the publish output does not open automatically, navigate to the publish output.  
+  
+5.  Run the Setup.exe program.  
+  
+     The Setup program shows the Update Consent Dialog software license agreement.  
+  
+6.  Read the software license agreement, and then click **Accept**.  
+  
+     The Update Consent Dialog application appears and shows the following text: The application that you are about to install checks for the latest updates on the Web. By clicking on I Agree, you authorize the application to check for updates automatically on the Internet.  
+  
+7.  Click **I Agree**, and then click **Proceed**.  
+  
+     The application starts to install.  
+  
+8.  If the Application Install dialog box appears, click **Install**.  
+  
+## See Also  
+ [Application Deployment Prerequisites](../VS_IDE/Application-Deployment-Prerequisites.md)   
+ [Creating Bootstrapper Packages](../VS_IDE/Creating-Bootstrapper-Packages.md)   
+ [How to: Create a Product Manifest](../VS_IDE/How-to--Create-a-Product-Manifest.md)   
+ [How to: Create a Package Manifest](../VS_IDE/How-to--Create-a-Package-Manifest.md)   
+ [Product and Package Schema Reference](../VS_IDE/Product-and-Package-Schema-Reference.md)

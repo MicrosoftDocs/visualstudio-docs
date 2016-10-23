@@ -1,0 +1,36 @@
+---
+title: "Resource Compiler Fatal Error RC1207"
+ms.custom: na
+ms.date: 10/01/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 19fe448b-1196-4db5-aa64-fed8e6418773
+caps.latest.revision: 7
+manager: douge
+translation.priority.ht: 
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - ru-ru
+  - zh-cn
+  - zh-tw
+translation.priority.mt: 
+  - cs-cz
+  - pl-pl
+  - pt-br
+  - tr-tr
+---
+# Resource Compiler Fatal Error RC1207
+default code page is invalid  
+  
+ The code page specified by the **RCCODEPAGE** environment variable is not valid. See [Code Pages](../Topic/Code%20Pages.md) in the *Run-Time Library Reference* for more information.

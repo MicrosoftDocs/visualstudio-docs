@@ -1,0 +1,68 @@
+---
+title: "CA2237: Mark ISerializable types with SerializableAttribute"
+ms.custom: na
+ms.date: 10/03/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - vs-devops-test
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
+caps.latest.revision: 13
+manager: douge
+translation.priority.ht: 
+  - cs-cz
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - pl-pl
+  - pt-br
+  - ru-ru
+  - tr-tr
+  - zh-cn
+  - zh-tw
+---
+# CA2237: Mark ISerializable types with SerializableAttribute
+|||  
+|-|-|  
+|TypeName|MarkISerializableTypesWithSerializable|  
+|CheckId|CA2237|  
+|Category|Microsoft.Usage|  
+|Breaking Change|Non Breaking|  
+  
+## Cause  
+ An externally visible type implements the <xref:System.Runtime.Serialization.ISerializable?qualifyHint=True> interface and the type is not marked with the <xref:System.SerializableAttribute?qualifyHint=True> attribute. The rule ignores derived types whose base type is not serializable.  
+  
+## Rule Description  
+ To be recognized by the common language runtime as serializable, types must be marked with the <xref:System.SerializableAttribute?qualifyHint=False> attribute even if the type uses a custom serialization routine through implementation of the <xref:System.Runtime.Serialization.ISerializable?qualifyHint=False> interface.  
+  
+## How to Fix Violations  
+ To fix a violation of this rule, apply the <xref:System.SerializableAttribute?qualifyHint=False> attribute to the type.  
+  
+## When to Suppress Warnings  
+ Do not suppress a warning from this rule for exception classes because they must be serializable to work correctly across application domains.  
+  
+## Example  
+ The following example shows a type that violates the rule. Uncomment the <xref:System.SerializableAttribute?qualifyHint=False> attribute line to satisfy the rule.  
+  
+ [!CODE [FxCop.Usage.MarkSerializable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.MarkSerializable#1)]  
+  
+## Related Rules  
+ [CA2236: Call base class methods on ISerializable types](../VS_IDE/CA2236--Call-base-class-methods-on-ISerializable-types.md)  
+  
+ [CA2240: Implement ISerializable correctly](../VS_IDE/CA2240--Implement-ISerializable-correctly.md)  
+  
+ [CA2229: Implement serialization constructors](../VS_IDE/CA2229--Implement-serialization-constructors.md)  
+  
+ [CA2238: Implement serialization methods correctly](../VS_IDE/CA2238--Implement-serialization-methods-correctly.md)  
+  
+ [CA2235: Mark all non-serializable fields](../VS_IDE/CA2235--Mark-all-non-serializable-fields.md)  
+  
+ [CA2239: Provide deserialization methods for optional fields](../VS_IDE/CA2239--Provide-deserialization-methods-for-optional-fields.md)  
+  
+ [CA2120: Secure serialization constructors](../VS_IDE/CA2120--Secure-serialization-constructors.md)

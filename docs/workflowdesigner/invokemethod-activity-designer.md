@@ -1,0 +1,75 @@
+---
+title: "InvokeMethod Activity Designer"
+ms.custom: na
+ms.date: "10/02/2016"
+ms.prod: ".net-framework-4.6"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "reference"
+f1_keywords: 
+  - "System.Activities.Statements.InvokeMethod.UI"
+ms.assetid: 15e6efdc-52ca-46d8-9c5e-063f7c8265a6
+caps.latest.revision: 6
+ms.author: "erikre"
+manager: "erikre"
+translation.priority.ht: 
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
+---
+# InvokeMethod Activity Designer
+**InvokeMethod** designer is used to create and configure an \<xref:System.Activities.Statements.InvokeMethod> activity.  
+  
+## The InvokeMethod Activity  
+ The \<xref:System.Activities.Statements.InvokeMethod> calls a public method of a specified object or type.  
+  
+### Using the InvokeMethod Activity Designer  
+ The **InvokeMethod** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CRTL+ALT+X.)  
+  
+ The **InvokeMethod** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] surface where ever activities are usually placed, such as inside a \<xref:System.Activities.Statements.Sequence>. This creates an \<xref:System.Activities.Statements.InvokeMethod> activity with a default \<xref:System.Activities.Activity.DisplayName*> of InvokeMethod. The \<xref:System.Activities.Activity.DisplayName*> can be edited in the header of the **InvokeMethod** activity designer or in the **DisplayName** box of the property grid.  
+  
+### The InvokeMethod Properties  
+ The following table shows the \<xref:System.Activities.Statements.InvokeMethod> properties and describes how they are used in the designer. These properties can be edited in property grid and some can be edited on [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)]designer surface.  
+  
+|Property Name|Required|Usage|  
+|-------------------|--------------|-----------|  
+|\<xref:System.Activities.Activity.DisplayName*>|False|The friendly name of the \<xref:System.Activities.Statements.InvokeMethod> activity. The default value is InvokeMethod.<br /><br /> Although the \<xref:System.Activities.Activity.DisplayName*> is not strictly required, it is a best practice to use one.|  
+|\<xref:System.Activities.Statements.InvokeMethod.MethodName*>|True|The name of the method to be called when the activity executes. The called method must be declared as **public**. This property can be edited on designer surface. This is a mandatory property.|  
+|\<xref:System.Activities.Statements.InvokeMethod.Parameters*>|False|The parameter collection of the called method. The parameters must be added to the collection in the same order that they appear in the method signature. In the property grid, click the ellipses button in the **Parameters** field, it displays the **Parameters** dialog to let you set this property. Click the **Create Argument** button to add the parameters.|  
+|\<xref:System.Activities.Statements.InvokeMethod.Result*>|False|The return value of the method call.|  
+|\<xref:System.Activities.Statements.InvokeMethod.RunAsynchronously*>|True|Specifies whether the method is called asynchronously. The default value is **False**.|  
+|\<xref:System.Activities.Statements.InvokeMethod.TargetObject*>|False|The object that contains the method to call. This property can be edited on designer surface.<br /><br /> Either the \<xref:System.Activities.Statements.InvokeMethod.TargetObject*> or the \<xref:System.Activities.Statements.InvokeMethod.TargetType*> is required to be set.|  
+|\<xref:System.Activities.Statements.InvokeMethod.TargetType*>|False|The type of \<xref:System.Activities.Statements.InvokeMethod.TargetObject*>. This property can be edited on the designer surface. This property must only be set if the method called is static.|  
+  
+ To pass parameters as a C# **out** parameter (for example, `Method1(out myParam)),` you should use **OutArgument** instead of **InOutArgument**  
+  
+ Methods with arguments called **TargetObject** or **Result** cannot be invoked using the \<xref:System.Activities.Statements.InvokeMethod> activity. The reason for this is that \<xref:System.Activities.Statements.InvokeMethod> activity registers the \<xref:System.Activities.Statements.InvokeMethod.GenericTypeArguments*>, \<xref:System.Activities.Statements.InvokeMethod.TargetObject*> and \<xref:System.Activities.Statements.InvokeMethod.Result*> in \<xref:System.Activities.Activity.CacheMetadata*>.  
+  
+ The algorithm for registering the parameters in \<xref:System.Activities.Activity.CacheMetadata*> is shown in the following list:  
+  
+1.  Register \<xref:System.Activities.Statements.InvokeMethod.TargetObject*> argument.  
+  
+2.  Register \<xref:System.Activities.Statements.InvokeMethod.Result*> argument.  
+  
+3.  Iterate through the \<xref:System.Activities.Statements.InvokeMethod.Parameters*> collection and register each argument.  
+  
+ The resulting exception is of type \<xref:System.Activities.InvalidWorkflowException> with the following message: 'InvokeMethod': A variable, RuntimeArgument or a DelegateArgument already exists with the name 'TargetObject'. Names must be unique within an environment scope.  
+  
+ This restriction does not apply to \<xref:System.Activities.Statements.InvokeMethod.TargetType*> and \<xref:System.Activities.Statements.InvokeMethod.RunAsynchronously*> because they are not workflow arguments and therefore are not registered in the \<xref:System.Activities.Statements.InvokeMethod.GenericTypeArguments*> collection of \<xref:System.Activities.Statements.InvokeMethod> activity in \<xref:System.Activities.Activity.CacheMetadata*> method.  
+  
+## See Also  
+ [Primitives](../workflowdesigner/primitives-activity-designers.md)   
+ [Assign](../workflowdesigner/assign-activity-designer.md)   
+ [Delay](../workflowdesigner/delay-activity-designer.md)   
+ [WriteLine](../workflowdesigner/writeline-activity-designer.md)

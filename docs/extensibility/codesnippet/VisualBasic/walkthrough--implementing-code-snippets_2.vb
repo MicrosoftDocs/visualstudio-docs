@@ -1,0 +1,1 @@
+    Friend Const LanguageServiceGuidStr As String = "00000000-0000-0000-0000-00000000"
