@@ -1,0 +1,49 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+            "breadcrumb_path": "/aspnet/core/api/breadcrumb.json",
+            "ms.locale": "en-us",
+            "ROBOTS": "INDEX,FOLLOW",
+            "author": "",
+            "ms.author": "",
+            "manager": "ghogen", 
+            "ms.date": "11/16/2016",
+            "ms.topic": "article",
+            "audience": "developer",
+            "ms.reviewer": "",
+            "ms.prod": "",
+            "ms.technology": "",
+            "ms.tgt_pltfrm": "dotnet"},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "vsdocsdocs"
+  }
+}

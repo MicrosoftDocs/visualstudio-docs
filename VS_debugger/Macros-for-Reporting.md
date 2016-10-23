@@ -1,0 +1,87 @@
+---
+title: "Macros for Reporting"
+ms.custom: na
+ms.date: 10/03/2016
+ms.devlang: 
+  - FSharp
+  - VB
+  - CSharp
+  - C++
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - vs-ide-debug
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: f2085314-a3a8-4caf-a5a4-2af9ad5aad05
+caps.latest.revision: 15
+manager: ghogen
+translation.priority.ht: 
+  - cs-cz
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - pl-pl
+  - pt-br
+  - ru-ru
+  - tr-tr
+  - zh-cn
+  - zh-tw
+---
+# Macros for Reporting
+You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replace the use of `printf` statements for debugging. These macros automatically disappear in your release build when **_DEBUG** is not defined, so there is no need to enclose them in **#ifdef**s.  
+  
+|Macro|Description|  
+|-----------|-----------------|  
+|**_RPT0**, **_RPT1**, **_RPT2**, **_RPT3**, **_RPT4**|Outputs a message string and zero to four arguments. For _RPT1 through **_RPT4**, the message string serves as a printf-style formatting string for the arguments.|  
+|**_RPTF0**, **_RPTF1**, **,_RPTF2**, **_RPTF4**|Same as **_RPTn** , but these macros also output the file name and line number where the macro is located.|  
+  
+ Consider the following example:  
+  
+```  
+#ifdef _DEBUG  
+    if ( someVar > MAX_SOMEVAR )  
+        printf( "OVERFLOW! In NameOfThisFunc( ),  
+               someVar=%d, otherVar=%d.\n",  
+               someVar, otherVar );  
+#endif  
+```  
+  
+ This code outputs the values of `someVar` and `otherVar` to **stdout**. You can use the following call to `_RPTF2` to report these same values and, additionally, the file name and line number:  
+  
+```  
+if (someVar > MAX_SOMEVAR) _RPTF2(_CRT_WARN, "In NameOfThisFunc( ), someVar= %d, otherVar= %d\n", someVar, otherVar );  
+```  
+  
+ If you find that a particular application needs debug reporting that the macros supplied with the C run-time library do not provide, you can write a macro designed specifically to fit your own requirements. In one of your header files, for example, you could include code like the following to define a macro called **ALERT_IF2**:  
+  
+```  
+#ifndef _DEBUG                  /* For RELEASE builds */  
+#define  ALERT_IF2(expr, msg, arg1, arg2)  do {} while (0)  
+#else                           /* For DEBUG builds   */  
+#define  ALERT_IF2(expr, msg, arg1, arg2) \  
+    do { \  
+        if ((expr) && \  
+            (1 == _CrtDbgReport(_CRT_ERROR, \  
+                __FILE__, __LINE__, msg, arg1, arg2))) \  
+            _CrtDbgBreak( ); \  
+    } while (0)  
+#endif  
+```  
+  
+ One call to **ALERT_IF2** could perform all the functions of the **printf** code at the start of this topic:  
+  
+```  
+ALERT_IF2(someVar > MAX_SOMEVAR, "OVERFLOW! In NameOfThisFunc( ),   
+someVar=%d, otherVar=%d.\n", someVar, otherVar );  
+```  
+  
+ Because a custom macro can easily be changed to report more or less information to different destinations (depending on what is more convenient), this approach can be particularly useful as your debugging requirements evolve.  
+  
+## See Also  
+ [CRT Debugging Techniques](../VS_debugger/CRT-Debugging-Techniques.md)

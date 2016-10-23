@@ -1,0 +1,42 @@
+---
+title: "&#39;Finally&#39; statements are not valid in the Immediate window"
+ms.custom: na
+ms.date: 10/02/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 04ec9e29-b505-4b32-bce8-c952059368af
+caps.latest.revision: 9
+manager: douge
+translation.priority.ht: 
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - ru-ru
+  - zh-cn
+  - zh-tw
+translation.priority.mt: 
+  - cs-cz
+  - pl-pl
+  - pt-br
+  - tr-tr
+---
+# &#39;Finally&#39; statements are not valid in the Immediate window
+`Finally` statements can only be used in source code.  
+  
+ **Error ID:** BC30716  
+  
+### To correct this error  
+  
+-   Remove `Finally` statements from debugging code.  
+  
+## See Also  
+ [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
+ [Debugging in Visual Studio](../VS_debugger/Debugging-in-Visual-Studio.md)

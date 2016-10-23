@@ -1,0 +1,36 @@
+---
+title: "Troubleshooting Exceptions: System.DirectoryServices.Protocols.BerConversionException"
+ms.custom: na
+ms.date: 10/01/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: e154d3a3-6cc6-4f16-8f89-2fe53efd3dfa
+caps.latest.revision: 4
+manager: douge
+translation.priority.ht: 
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - ru-ru
+  - zh-cn
+  - zh-tw
+translation.priority.mt: 
+  - cs-cz
+  - pl-pl
+  - pt-br
+  - tr-tr
+---
+# Troubleshooting Exceptions: System.DirectoryServices.Protocols.BerConversionException
+The exception that is thrown when an error occurs while converting data using a <xref:System.DirectoryServices.Protocols.BerConverter?qualifyHint=False> object.  
+  
+## See Also  
+ <xref:System.DirectoryServices.Protocols.BerConversionException?qualifyHint=False>   
+ [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

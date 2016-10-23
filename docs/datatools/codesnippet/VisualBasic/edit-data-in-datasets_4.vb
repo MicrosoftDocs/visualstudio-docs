@@ -1,0 +1,1 @@
+        NorthwindDataSet1.Customers.Rows(0).Delete()

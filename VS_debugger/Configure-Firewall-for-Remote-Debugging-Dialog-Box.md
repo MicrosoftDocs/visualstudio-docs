@@ -1,0 +1,56 @@
+---
+title: "Configure Firewall for Remote Debugging Dialog Box"
+ms.custom: na
+ms.date: 10/03/2016
+ms.devlang: 
+  - FSharp
+  - VB
+  - CSharp
+  - C++
+  - JScript
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - vs-ide-debug
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
+caps.latest.revision: 11
+manager: ghogen
+translation.priority.ht: 
+  - de-de
+  - es-es
+  - fr-fr
+  - it-it
+  - ja-jp
+  - ko-kr
+  - ru-ru
+  - zh-cn
+  - zh-tw
+translation.priority.mt: 
+  - cs-cz
+  - pl-pl
+  - pt-br
+  - tr-tr
+---
+# Configure Firewall for Remote Debugging Dialog Box
+This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a hole in the firewall so the debugger can receive information.  
+  
+> [!CAUTION]
+>  Opening a hole in the Firewall may expose your machine to security threats that the Firewall is designed to block. Opening a hole for remote debugging unblocks ports 4020 and 4021 in Visual Studio 2015. In other versions of Visual Studio, other port numbers are used. For more information, see [Remote Debugger Port Assignments](../VS_debugger/Remote-Debugger-Port-Assignments.md). In addition, it allows the debugger to open additional ports. For more information, see [Configure the Windows Firewall for Remote Debugging](../VS_debugger/Configure-the-Windows-Firewall-for-Remote-Debugging.md).  
+  
+## UIElement List  
+ **Cancel remote debugging**  
+ Cancels the remote debugging attempt. The security settings of your machine remain intact.  
+  
+ **Unblock remote debugging from computers on the local network (subnet)**  
+ Enables remote debugging of machines on your local subnet. This may open vulnerabilities to machines on your local subnet, but the firewall continues to block information coming from outside the subnet.  
+  
+ **Unblock remote debugging from any computer**  
+ Enables remote debugging of machines anywhere on the network. This setting is the least secure.  
+  
+## See Also  
+ [Debugger Security](../VS_debugger/Debugger-Security.md)   
+ [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)   
+ [Debugging User Interface Reference](../VS_debugger/Debugging-User-Interface-Reference.md)
