@@ -1,0 +1,2 @@
+    [Import]
+    internal IClassifierAggregatorService AggregatorService;
