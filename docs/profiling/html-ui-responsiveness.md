@@ -1,13 +1,13 @@
 ---
 title: "HTML UI responsiveness"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -85,7 +85,7 @@ This topic describes how to isolate performance problems in your apps using the 
 6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.  
   
 ##  <a name="IsolateAnIssue"></a> Isolate an issue  
- The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough--improving-ui-responsiveness--html-.md).  
+ The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md).  
   
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem  
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:  

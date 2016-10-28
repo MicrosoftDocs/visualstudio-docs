@@ -1,19 +1,20 @@
 ---
 title: "Understanding Generated Properties and Methods"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, generated methods"
   - "Domain-Specific Language, generated properties"
 ms.assetid: 991d0dd4-cead-404c-afbf-3a68269911cc
 caps.latest.revision: 19
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

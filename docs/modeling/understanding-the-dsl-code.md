@@ -1,18 +1,19 @@
 ---
 title: "Understanding the DSL Code"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, generated code"
 ms.assetid: 8e5c10e4-6323-433e-b88a-5d3d92639030
 caps.latest.revision: 19
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -29,7 +30,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Understanding the DSL Code
-A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.  
+A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.  
   
 ## The example solution: Component Diagrams  
  To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.  
@@ -42,7 +43,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
  ![Components and interconnected ports](../modeling/media/componentsample.png "ComponentSample")  
   
 ## The Structure of the DSL Solution  
- The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can also add your own projects, which can also contain code generated from the model.  
+ The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also add your own projects, which can also contain code generated from the model.  
   
 ### The code directories  
  Most of the code in each of these projects is generated from **Dsl\DslDefinition.dsl**. The generated code is in the **Generated Code** folder. To see a generated file, click **[+]** next to the generating **.tt** file.  
@@ -63,7 +64,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.  
   
--   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project templates to set up projects that are initialized with your own file structure.  
+-   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates to set up projects that are initialized with your own file structure.  
   
 ## Generated Files in Dsl  
  The following generated files appear in the **Dsl** project.  
@@ -94,15 +95,15 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `Connectors.cs`  
   
- Contains the classes for the connectors, which are the diagram elements that typically represent reference relationships. Each class is generated from one connector in the DSL Definition. Every connector class is derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
+ Contains the classes for the connectors, which are the diagram elements that typically represent reference relationships. Each class is generated from one connector in the DSL Definition. Every connector class is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
- To make additional style features variable at run time, see for example \<xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>.  
+ To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>.  
   
  `Diagram.cs`  
   
- Contains the class that defines the diagram. It is derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>.  
+ Contains the class that defines the diagram. It is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>.  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
@@ -116,7 +117,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainClasses.cs`  
   
- Implementations of domain classes that you have defined, including abstract classes and the model root class. They are derived from \<xref:Microsoft.VisualStudio.Modeling.ModelElement>.  
+ Implementations of domain classes that you have defined, including abstract classes and the model root class. They are derived from <xref:Microsoft.VisualStudio.Modeling.ModelElement>.  
   
  Each domain class contains:  
   
@@ -138,12 +139,12 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainModel.cs`  
   
- The class that represents the domain model. It is derived from \<xref:Microsoft.VisualStudio.Modeling.DomainModel>.  
+ The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.  
   
 > [!NOTE]
 >  This is not the same as the root class of the model.  
   
- Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to--program-copy-and-paste-behavior---redirect.md).  
+ Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md).  
   
  `DomainModelResx.resx`  
   
@@ -153,7 +154,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainRelationships.cs`  
   
- Each link between two elements in a model is represented by an instance of a domain relationship class. All relationship classes are derived from \<xref:Microsoft.VisualStudio.Modeling.ElementLink>, which in turn is derived from \<xref:Microsoft.VisualStudio.Modeling.ModelElement>. Because it is a ModelElement, an instance of a relationship can have properties and can be the source or target of a relationship.  
+ Each link between two elements in a model is represented by an instance of a domain relationship class. All relationship classes are derived from <xref:Microsoft.VisualStudio.Modeling.ElementLink>, which in turn is derived from <xref:Microsoft.VisualStudio.Modeling.ModelElement>. Because it is a ModelElement, an instance of a relationship can have properties and can be the source or target of a relationship.  
   
  `HelpKeywordHelper.cs`  
   
@@ -183,22 +184,22 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `Shapes.cs`  
   
- A class for every shape class in the DSL Definition. Shapes are derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
+ A class for every shape class in the DSL Definition. Shapes are derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
   
  To override the generated methods with your own methods in a partial class, set **Generates Double Derived** for the connector in the DSL Definition. To replace a constructor with your own code, set **Has Custom Constructor**.  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
- To make additional style features variable at run time, see for example \<xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
+ To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
   
  `ToolboxHelper.cs`  
   
  Sets up the toolbox by installing element group prototypes into the element tools. Copies of these prototypes are merged with the target elements when the user runs the tool.  
   
- You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to clear the toolbox cache.  
+ You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to clear the toolbox cache.  
   
 ## Generated files in the DslPackage project  
- DslPackage couples the DSL model to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell, managing the window, toolbox, and menu commands. Most of the classes are double derived, so that you can override any of their methods.  
+ DslPackage couples the DSL model to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell, managing the window, toolbox, and menu commands. Most of the classes are double derived, so that you can override any of their methods.  
   
  `CommandSet.cs`  
   
@@ -289,7 +290,7 @@ namespace Company.EmbedInForm
   
  `EditorFactory.cs`  
   
- Instantiates `DocData` and `DocView`. It fulfills a standard interface that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses to open an editor when your DSL package starts. It is referenced in the `ProvideEditorFactory` attribute in Package.cs  
+ Instantiates `DocData` and `DocView`. It fulfills a standard interface that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses to open an editor when your DSL package starts. It is referenced in the `ProvideEditorFactory` attribute in Package.cs  
   
  `GeneratedVSCT.vsct`  
   
@@ -345,7 +346,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
   
  `Package.cs`  
   
- This file defines how the DSL integrates into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Attributes on the package class register the DSL as the handler for files that have your file extension, define its toolbox, and define how to open a new window. The Initialize() method is called one time when the first DSL is loaded into a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] instance.  
+ This file defines how the DSL integrates into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Attributes on the package class register the DSL as the handler for files that have your file extension, define its toolbox, and define how to open a new window. The Initialize() method is called one time when the first DSL is loaded into a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] instance.  
   
  `Source.extension.vsixmanifest`  
   
@@ -358,6 +359,6 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md)   
+ [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

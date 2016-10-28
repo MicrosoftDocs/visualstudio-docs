@@ -1,13 +1,13 @@
 ---
 title: "Extending the Status Bar"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "status bars, about status bars"
@@ -36,7 +36,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
  When you extend the status bar, you can display information and UI in four regions: the feedback region, the progress bar, the animation region, and the designer region. The feedback region allows you to display text and highlight the displayed text. The progress bar shows incremental progress for short-running operations such as saving a file. The animation region displays a continuously-looped animation for long-running operations or operation of undetermined length, such as building multiple projects in a solution. And the designer region shows the line and column number of the cursor location.  
   
- You can get the status bar by using the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface (from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service). In addition, any object sited on a window frame can register as a status bar client object by implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> interface. Whenever a window is activated, Visual Studio queries the object sited on that window for the `IVsStatusbarUser` interface. If found, it calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo*> method on the returned interface and the object can update the status bar from within that method. Document windows, for example, can use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo*> method to update information in the designer region when they become active.  
+ You can get the status bar by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface (from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service). In addition, any object sited on a window frame can register as a status bar client object by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> interface. Whenever a window is activated, Visual Studio queries the object sited on that window for the `IVsStatusbarUser` interface. If found, it calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo*> method on the returned interface and the object can update the status bar from within that method. Document windows, for example, can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo*> method to update information in the designer region when they become active.  
   
  The following procedures assume that you understand how to create a VSIX project and add a custom menu command. For information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   

@@ -1,20 +1,21 @@
 ---
 title: "Device unavailable"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID68"
 ms.assetid: 9a89beda-140e-4b32-8d0a-2dc598ef279a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

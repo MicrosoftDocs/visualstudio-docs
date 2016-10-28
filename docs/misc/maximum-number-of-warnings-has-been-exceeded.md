@@ -1,13 +1,13 @@
 ---
 title: "Maximum number of warnings has been exceeded"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc42206"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC42206"
 ms.assetid: 4e55fa8a-2927-43a4-b6b1-5ed8e8bd877f
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

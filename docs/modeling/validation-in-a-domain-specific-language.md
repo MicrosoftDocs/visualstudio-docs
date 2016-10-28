@@ -1,19 +1,20 @@
 ---
 title: "Validation in a Domain-Specific Language"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, constraints"
   - "Domain-Specific Language, validation"
 ms.assetid: 65b93df8-af3c-462b-904c-60292f8ed381
 caps.latest.revision: 33
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -84,7 +85,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
     -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
   
-4.  Add validation methods to the classes. Each validation method can have any name, but have one parameter of type \<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
+4.  Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
   
      It must be prefixed with one or more `ValidationMethod` attributes:  
   
@@ -154,15 +155,15 @@ public partial class ParentsHaveChildren
  ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")  
   
 ## Validation Categories  
- In the \<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.  
+ In the <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.  
   
 |Category|Execution|  
 |--------------|---------------|  
-|\<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the user invokes the Validate menu command.|  
-|\<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the model file is opened.|  
-|\<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are validation errors, the user will be given the option of canceling the save operation.|  
-|\<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are errors from methods in this category, the user is warned that it might not be possible to re-open the file.<br /><br /> Use this category for validation methods that test for duplicated names or IDs, or other conditions that might cause loading errors.|  
-|\<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the ValidateCustom method is called. Validations in this category can be invoked only from program code.<br /><br /> For more information, see [Custom Validation Categories](#custom).|  
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the user invokes the Validate menu command.|  
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the model file is opened.|  
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are validation errors, the user will be given the option of canceling the save operation.|  
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are errors from methods in this category, the user is warned that it might not be possible to re-open the file.<br /><br /> Use this category for validation methods that test for duplicated names or IDs, or other conditions that might cause loading errors.|  
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the ValidateCustom method is called. Validations in this category can be invoked only from program code.<br /><br /> For more information, see [Custom Validation Categories](#custom).|  
   
 ## Where to Place Validation Methods  
  You can often achieve the same effect by placing a validation method on a different type. For example, you could add a method to the Person class instead of the ParentsHaveChildren relationship, and have it iterate through the links:  
@@ -226,7 +227,7 @@ partial class MyLanguageCommandSet
   
 ```  
   
- For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md).  
+ For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
  You can also create a separate validation controller, and manage the errors yourself. For example:  
   
@@ -249,7 +250,7 @@ if (!validator.Validate(store, ValidationCategories.Save))
 ## Running validation when a change occurs  
  If you want to make sure that the user is warned immediately if the model becomes invalid, you can define a store event that runs validation. For more information about store events, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
- In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] error list.  
+ In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error list.  
   
 ```c#  
 using System;  

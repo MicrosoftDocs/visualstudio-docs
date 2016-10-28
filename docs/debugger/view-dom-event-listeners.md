@@ -1,13 +1,13 @@
 ---
 title: "View DOM event listeners"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -38,7 +38,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # View DOM event listeners
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  The **Events** tab of DOM Explorer shows the events that are associated with a DOM element. Each top node in the **Events** tab represents an event that has active subscribers. The top node contains subnodes that represent the registered event listeners for the specific event. In addition to viewing the event listeners, you can use this tab to navigate to the location of the event listener in the JavaScript code. The information in this topic applies to Store apps using HTML and JavaScript.  
   
@@ -120,6 +120,6 @@ translation.priority.mt:
 -   Use the JavaScript memory analyzer to [JavaScript Memory](../profiling/javascript-memory.md) in your app. Event listeners that must be explicitly removed might appear as a memory leak.  
   
 ## See Also  
- [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
+ [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)

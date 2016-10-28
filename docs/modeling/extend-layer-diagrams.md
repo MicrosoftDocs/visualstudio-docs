@@ -1,21 +1,22 @@
 ---
 title: "Extend layer diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "layer diagrams, creating extensions"
   - "layer models"
 ms.assetid: 83fca301-b008-485a-87eb-218050e71451
 caps.latest.revision: 39
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -37,9 +38,9 @@ You can write code to create and update layer diagrams, and to validate the stru
   
  For more information about layer diagrams, see:  
   
--   [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)  
+-   [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)  
   
--   [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)  
+-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
   
 -   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
@@ -73,8 +74,8 @@ You can write code to create and update layer diagrams, and to validate the stru
   
 ## See Also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
- [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)   
- [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)   
+ [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
+ [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)   
  [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)   
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   

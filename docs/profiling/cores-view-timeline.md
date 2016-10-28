@@ -1,13 +1,13 @@
 ---
 title: "Cores View Timeline"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.cores.timeline.threads"
@@ -37,4 +37,4 @@ Every row in the timeline represents a logical processor core on the profiled sy
   
 ## See Also  
  [Cores View](../profiling/cores-view.md)   
- [Zoom Control (Threads View)](../profiling/zoom-control--threads-view-.md)
+ [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)

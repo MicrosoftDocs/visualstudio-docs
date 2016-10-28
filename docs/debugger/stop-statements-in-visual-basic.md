@@ -1,13 +1,13 @@
 ---
 title: "Stop Statements in Visual Basic"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -73,5 +73,5 @@ Debug.Fail("a clever output string goes here")
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation--csharp--fsharp--and-visual-basic-project-types.md)   
+ [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

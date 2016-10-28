@@ -1,13 +1,13 @@
 ---
 title: "Customizing window layouts in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.windows"
@@ -64,7 +64,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
  When you have to view or edit two locations at once in a document, you can split windows. To divide your document into two independently scrolling sections, click **Split** on the **Window** menu. Click **Remove Split** on the **Window** menu to restore the single view.  
   
 ### Toolbars  
- Toolbars can be arranged by dragging, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize Menus and Toolbars](../ide/how-to--customize-menus-and-toolbars-in-visual-studio.md).  
+ Toolbars can be arranged by dragging, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).  
   
 ## Arranging and Docking Windows  
  Both document windows and tool windows can be *docked*, so that it has a position and size within the IDE window frame, or floating as a separate window independent of the IDE. Tool windows can be docked anywhere inside the IDE frame; some tool windows can be docked as tabbed windows in the editor frame. Document windows can be docked within the editor frame, and they can be pinned to their current position in the tab order. You can dock multiple windows to float together in a “raft” over or outside of the IDE. Tool windows can also be hidden or minimized.  
@@ -88,7 +88,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
  Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### Docking Windows  
  When you click and drag the title bar of a tool window, or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area will appear that shows you where the window will be docked if you release the mouse button now.  
@@ -117,7 +117,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
  ![Auto hide](../ide/media/vs2015_auto_hide.png "vs2015_auto_hide")  
   
 > [!NOTE]
->  To set whether Auto Hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md).  
+>  To set whether Auto Hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md).  
   
 > [!NOTE]
 >  Tool windows that have Auto Hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.  
@@ -191,6 +191,6 @@ In Visual Studio you can customize the position, size and behavior of windows to
 |Title|Description|  
 |-----------|-----------------|  
 |[Kinds of Windows](../misc/kinds-of-windows.md)|Discusses the differences between tool windows and document windows in the IDE.|  
-|[How to: Arrange and Dock Windows](../misc/how-to--arrange-and-dock-windows.md)|Describes how to dock, auto hide, and tile windows, and also how to reset the window layout.|  
-|[How to: Move Around in the IDE](../ide/how-to--move-around-in-the-visual-studio-ide.md)|Describes how you can cycle through open windows in the IDE, by order of usage. Also describes how you can jump to specific documents.|  
-|[Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3)|Contains information about settings combinations and how settings affect window layouts, keyboard shortcuts, and other elements in the IDE.|
+|[How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)|Describes how to dock, auto hide, and tile windows, and also how to reset the window layout.|  
+|[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)|Describes how you can cycle through open windows in the IDE, by order of usage. Also describes how you can jump to specific documents.|  
+|[Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|Contains information about settings combinations and how settings affect window layouts, keyboard shortcuts, and other elements in the IDE.|

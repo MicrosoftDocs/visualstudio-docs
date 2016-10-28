@@ -1,13 +1,13 @@
 ---
 title: "Getting Started with WPF"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3be98cb-870f-472c-9da5-cb815e4f6598
 caps.latest.revision: 5
@@ -36,7 +36,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
   
 |||  
 |-|-|  
-|I want to jump right in…|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough--my-first-wpf-desktop-application2.md)<br /><br /> [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough--create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)|  
+|I want to jump right in…|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)<br /><br /> [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)|  
 |How do I design the application UI?|[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)|  
 |New to .NET?|[Overview of the .NET Framework](https://msdn.microsoft.com/en-us/library/zw4w595w\(v=vs.140\).aspx)<br /><br /> [Application Essentials](../Topic/.NET%20Framework%20Application%20Essentials.md)<br /><br /> [Getting Started with Visual C# and Visual Basic](https://msdn.microsoft.com/en-us/library/dd492171\(v=vs.140\).aspx)|  
 |Tell me more about WPF…|[Introduction to WPF](../designers/introduction-to-wpf.md)<br /><br /> [XAML Overview (WPF)](https://msdn.microsoft.com/en-us/library/ms752059\(v=vs.100\).aspx)<br /><br /> [Controls](https://msdn.microsoft.com/en-us/library/bb613551\(v=vs.100\).aspx)<br /><br /> [Data Binding Overview](https://msdn.microsoft.com/en-us/library/ms752347\(v=vs.100\).aspx)<br /><br /> [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)|  

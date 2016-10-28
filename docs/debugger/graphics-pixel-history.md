@@ -1,13 +1,13 @@
 ---
 title: "Graphics Pixel History"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.pixelhistory"
@@ -88,5 +88,5 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
  To understand the graphics events in the pixel history, you might need information about the device state at the time of the event or about the Direct3D objects that are referenced by the event. For each event in the pixel history, the **Graphics Pixel History** provides links to the then-current device state and to related objects.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough--missing-objects-due-to-device-state.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough--debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

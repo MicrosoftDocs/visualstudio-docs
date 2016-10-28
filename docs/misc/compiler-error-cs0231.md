@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0231"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0231"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0231"
 ms.assetid: e5e6a8e1-6c9f-4a88-8935-7bedfba88f8c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

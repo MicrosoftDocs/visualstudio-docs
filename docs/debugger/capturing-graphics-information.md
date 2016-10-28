@@ -1,13 +1,13 @@
 ---
 title: "Capturing Graphics Information"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.frame"
@@ -90,10 +90,10 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
  How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Set Up Remote Debugging for a Visual Studio Project](../Topic/Set%20Up%20Remote%20Debugging%20for%20a%20Visual%20Studio%20Project.md).  
   
- Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to--change-the-graphics-diagnostics-playback-machine.md).  
+ Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
   
 ## Capturing graphics information from the command line  
  Graphics information can be captured from an app by using a command-line tool. This tool, DXCap.exe, can quickly capture and play back graphics information without using Visual Studio or programmatic capture. In particular, you can use DXCap.exe for automation, or in a test environment. For more information about DXCap.exe, see [Command-Line Capture Tool](../debugger/command-line-capture-tool.md)  
   
 ## See Also  
- [Walkthrough: Capturing Graphics Information](../debugger/walkthrough--capturing-graphics-information.md)
+ [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)

@@ -1,17 +1,18 @@
 ---
 title: "Working with Textures and Images"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
 caps.latest.revision: 10
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -30,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Working with Textures and Images
-You can use the Image Editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  
+You can use the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  
   
 > [!NOTE]
 >  The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons](../Topic/Image%20Editor%20for%20Icons.md).  

@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0255"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0255"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0255"
 ms.assetid: b45f5d5a-1923-4fe1-a858-e5ef5590a108
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

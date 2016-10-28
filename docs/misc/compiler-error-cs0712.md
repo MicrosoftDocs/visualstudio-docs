@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0712"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0712"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0712"
 ms.assetid: cde64c0c-3953-4563-8c24-8b646230bbb8
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

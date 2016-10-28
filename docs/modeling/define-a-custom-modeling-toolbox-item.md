@@ -1,18 +1,19 @@
 ---
 title: "Define a custom modeling toolbox item"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending, customizing the toolbox"
 ms.assetid: a2463606-1100-40ac-97f3-5ba22ca47b7c
 caps.latest.revision: 31
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -147,7 +148,7 @@ To make it easy to create an element or group of elements according to a pattern
 >  If you start to use a .tbxinfo file after experimenting with using diagram files on their own, you might find that the toolbox contains both the old and the new versions of a toolbox item. This can also occur if the name of the diagram file was mistyped in the .tbxinfo file. If this occurs, on the shortcut menu of the toolbox choose **Reset Toolbox**. The custom toolbox items will disappear. Restart Visual Studio, and the correct custom items will appear.  
   
 ##  <a name="Extension"></a> How to Distribute Toolbox Items in a Visual Studio Extension  
- You can distribute toolbox items to other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
+ You can distribute toolbox items to other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
   
  The usual way to build a Visual Studio extension is to use the VSIX project template. To do this, you must have installed [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)].  
   
@@ -205,7 +206,7 @@ To make it easy to create an element or group of elements according to a pattern
   
      In the experimental instance, create or open a UML diagram of the relevant type. Verify that your new tool appears in the toolbox and that it creates elements correctly.  
   
-10. **To obtain a VSIX file for deployment:** In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] Extension file. It can be installed on your computer, and also sent to other Visual Studio users.  
+10. **To obtain a VSIX file for deployment:** In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] Extension file. It can be installed on your computer, and also sent to other Visual Studio users.  
   
 #### To install custom tools from a Visual Studio Extension  
   
@@ -237,9 +238,9 @@ To make it easy to create an element or group of elements according to a pattern
  You cannot use this method to install different versions of the prototype diagram. The names of elements and connectors will be the same in every installation.  
   
 ## Other Toolbox Operations  
- Ordinarily, in [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], you can personalize the toolbox by renaming tools, moving them to different toolbox tabs, and deleting them. But these changes do not persist for custom modeling tools created with the procedures that are described in this topic. When you restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], custom tools will reappear with their defined names and toolbox locations.  
+ Ordinarily, in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can personalize the toolbox by renaming tools, moving them to different toolbox tabs, and deleting them. But these changes do not persist for custom modeling tools created with the procedures that are described in this topic. When you restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], custom tools will reappear with their defined names and toolbox locations.  
   
- Furthermore, your custom tools will disappear if you perform the **Reset Toolbox** command. However, they will reappear when you restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+ Furthermore, your custom tools will disappear if you perform the **Reset Toolbox** command. However, they will reappear when you restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   

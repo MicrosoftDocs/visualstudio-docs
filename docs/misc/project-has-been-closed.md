@@ -1,13 +1,13 @@
 ---
 title: "Project has been closed"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc32301"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32301"
 ms.assetid: cc865b5c-8782-4228-ac51-df4bc4648245
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Project has been closed
-A code model access error has occurred inside the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+A code model access error has occurred inside the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
  **Error ID:** BC32301  
   
@@ -43,9 +44,9 @@ A code model access error has occurred inside the [!INCLUDE[vbprvb](../codequali
   
 1.  Compile the program again to see if the error recurs.  
   
-2.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+2.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
 3.  If the error persists after reinstallation, gather information about the circumstances and notify Microsoft Product Support Services.  
   
 ## See Also  
- [PAVEOVER Product Support and Accessibility](assetId:///14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

@@ -1,13 +1,13 @@
 ---
 title: "Creating a Multi-Instance Tool Window"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "multi"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Creating a Multi-Instance Tool Window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  
   
- When you use a multi-instance tool window, you can show several related sources of information at the same time. For example, you could put a multi-line \<xref:System.Windows.Forms.TextBox> control in a multi-instance tool window so that several code snippets are simultaneously available during a programming session. Also for example, you could put a \<xref:System.Windows.Forms.DataGrid> control and a drop-down list box in a multi-instance tool window so that several real-time data sources can be tracked simultaneously.  
+ When you use a multi-instance tool window, you can show several related sources of information at the same time. For example, you could put a multi-line <xref:System.Windows.Forms.TextBox> control in a multi-instance tool window so that several code snippets are simultaneously available during a programming session. Also for example, you could put a <xref:System.Windows.Forms.DataGrid> control and a drop-down list box in a multi-instance tool window so that several real-time data sources can be tracked simultaneously.  
   
 ## Creating a Basic (Single-Instance) Tool Window  
   
@@ -57,13 +57,13 @@ You can program a tool window so that multiple instances of it can be open simul
     {. . .}  
     ```  
   
-2.  In the MIToolWindowCommand.cs file, find the ShowToolWindos() method. In this method, call the \<xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method and set its `create` flag to `false` so that it will iterate through existing tool window instances until an available `id` is found.  
+2.  In the MIToolWindowCommand.cs file, find the ShowToolWindos() method. In this method, call the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method and set its `create` flag to `false` so that it will iterate through existing tool window instances until an available `id` is found.  
   
-3.  To create a tool window instance, call the \<xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method and set its `id` to an available value and its `create` flag to `true`.  
+3.  To create a tool window instance, call the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method and set its `id` to an available value and its `create` flag to `true`.  
   
-     By default, the value of the `id` parameter of the \<xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method is `0`. This makes a single-instance tool window. For more than one instance to be hosted, every instance must have its own unique `id`.  
+     By default, the value of the `id` parameter of the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow*> method is `0`. This makes a single-instance tool window. For more than one instance to be hosted, every instance must have its own unique `id`.  
   
-4.  Call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show*> method on the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is returned by the \<xref:Microsoft.VisualStudio.Shell.ToolWindowPane.Frame*> property of the tool window instance.  
+4.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show*> method on the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is returned by the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane.Frame*> property of the tool window instance.  
   
 5.  By default, the `ShowToolWindow` method that is created by the tool window item template creates a single-instance tool window. The following example shows how to modify the `ShowToolWindow` method to create multiple instances.  
   

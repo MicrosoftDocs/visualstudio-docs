@@ -1,13 +1,13 @@
 ---
 title: "Insert controls and modify their behavior in XAML Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a80fff74-bf01-41c9-ab85-ada7a873c3a9
 caps.latest.revision: 15

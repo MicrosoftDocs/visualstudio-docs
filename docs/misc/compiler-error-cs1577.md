@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS1577"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1577"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1577"
 ms.assetid: d48d05b6-2ec2-419d-a33f-26a94543b0af
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1577
 Assembly generation failed —reason  
   
- The assembly-generation part of the compilation failed after the C# compiler successfully compiled the source code. See the errors documentation for the ALink utility ([Al.exe Tool Errors and Warnings](assetId:///7f125d49-0a03-47a6-9ba9-d61a679a7d4b)) for more information.  
+ The assembly-generation part of the compilation failed after the C# compiler successfully compiled the source code. See the errors documentation for the ALink utility ([Al.exe Tool Errors and Warnings](http://msdn.microsoft.com/en-us/7f125d49-0a03-47a6-9ba9-d61a679a7d4b)) for more information.  
   
 ## See Also  
  [Al.exe (Assembly Linker)](../Topic/Al.exe%20\(Assembly%20Linker\).md)

@@ -1,20 +1,21 @@
 ---
 title: "Cannot rename with different drive"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID74"
 ms.assetid: eddb087d-b2e9-4bc7-a567-0bb6c45e0d42
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -39,4 +40,4 @@ The `Rename` statement cannot specify a drive letter in the file path.
 -   Remove the drive letter from the file path.  
   
 ## See Also  
- [NOT IN BUILD: Rename Function](assetId:///464062d8-2320-4305-8a8c-1f43e96c94df)
+ [NOT IN BUILD: Rename Function](http://msdn.microsoft.com/en-us/464062d8-2320-4305-8a8c-1f43e96c94df)

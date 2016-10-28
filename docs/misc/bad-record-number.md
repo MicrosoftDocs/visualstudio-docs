@@ -1,20 +1,21 @@
 ---
 title: "Bad record number"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID63"
 ms.assetid: 1fcc33f8-822a-4de9-a6e3-228ddb5824a6
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
 title: "Stop Debugging In Progress Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.stopnow"
@@ -52,4 +52,4 @@ This dialog box appears when the debugger is trying to stop a debugging session,
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Detaching Programs](assetId:///f2c756c2-8079-474b-94c2-01c19a141a01)
+ [Detaching Programs](http://msdn.microsoft.com/en-us/f2c756c2-8079-474b-94c2-01c19a141a01)

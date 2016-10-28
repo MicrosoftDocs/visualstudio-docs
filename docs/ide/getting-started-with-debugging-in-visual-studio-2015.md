@@ -1,13 +1,13 @@
 ---
 title: "Getting Started with Debugging in Visual Studio 2015"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 5
@@ -195,9 +195,9 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 ### Running Unit Tests  
  Unit tests are programs that exercise code paths in your app or service. Visual Studio 2015 installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. When you use Visual Studio 2015 Enterprise, you can run tests automatically after every build.  
   
- To get started, read [Generate unit tests for your code with IntelliTest](../codequality/generate-unit-tests-for-your-code-with-intellitest.md).  
+ To get started, read [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).  
   
- To learn more about unit tests in Visual Studio 2015 and how they can help you create better quality code, read [Unit Test Basics](../codequality/unit-test-basics.md).  
+ To learn more about unit tests in Visual Studio 2015 and how they can help you create better quality code, read [Unit Test Basics](../test/unit-test-basics.md).  
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   

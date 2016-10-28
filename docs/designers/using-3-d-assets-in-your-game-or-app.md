@@ -1,13 +1,13 @@
 ---
 title: "Using 3-D Assets in Your Game or App"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VC.Project.ImageContentTask.ContentOutput"
@@ -18,16 +18,17 @@ f1_keywords:
   - "VC.Project.ImageContentTask.GenerateMips"
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 17
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Using 3-D Assets in Your Game or App
-This article describes how you can use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to process 3-D assets and include them in your builds.  
+This article describes how you can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to process 3-D assets and include them in your builds.  
   
- After you use the tools in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  
+ After you use the tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  
   
 ## Configuring your project  
- Before you can deploy your 3-D assets as part of your build, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] has to know about the kinds of assets that you want to deploy. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] already knows about many common file types, but because only certain kinds of apps use 3-D assets, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] doesn't assume that a project will build these kinds of files. You can tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that your app uses these kinds of assets by using the *build customizations*—files that tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] how to process different types of files in a useful way—that are provided for each asset type. Because these customizations are applied on a per-project basis, all you have to do is add the appropriate customizations to your project.  
+ Before you can deploy your 3-D assets as part of your build, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] has to know about the kinds of assets that you want to deploy. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] already knows about many common file types, but because only certain kinds of apps use 3-D assets, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] doesn't assume that a project will build these kinds of files. You can tell [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that your app uses these kinds of assets by using the *build customizations*—files that tell [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] how to process different types of files in a useful way—that are provided for each asset type. Because these customizations are applied on a per-project basis, all you have to do is add the appropriate customizations to your project.  
   
 #### To add the build customizations to your project  
   
@@ -55,7 +56,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../codequality/includes
 3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
     > [!IMPORTANT]
-    >  By default, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+    >  By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
 4.  Choose the **OK** button.  
   
@@ -198,8 +199,8 @@ cbuffer MiscVars : register(b3)
   
 |Title|Description|  
 |-----------|-----------------|  
-|[How to: Export a Texture that Contains Mipmaps](../designers/how-to--export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|  
-|[How to: Export a Texture that has Premultiplied Alpha](../designers/how-to--export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|  
-|[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to--export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
+|[How to: Export a Texture that Contains Mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|  
+|[How to: Export a Texture that has Premultiplied Alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|  
+|[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3-D assets, which include textures and images, 3-D models, and shaders.|  
-|[How to: Export a Shader](../designers/how-to--export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
+|[How to: Export a Shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|

@@ -1,13 +1,13 @@
 ---
 title: "Memory Windows"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.memory"
@@ -57,7 +57,7 @@ The **Memory** window provides a view into the memory space that is used by your
   
 1.  Start debugging, if you are not already in debug mode.  
   
-2.  In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
+2.  In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
   
 ## Paging in the Memory Window  
  The **Memory** window has a vertical scrollbar that operates in a nonstandard manner. The address space of a modern computer is very large, and you could easily get lost by grabbing the scrollbar thumb and dragging it to a random location. For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.  

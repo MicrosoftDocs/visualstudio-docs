@@ -1,13 +1,13 @@
 ---
 title: "Extending and Customizing Tool Windows"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "user interfaces, essentials"
@@ -47,17 +47,17 @@ Visual Studio provides several different types of windows, for example tool wind
   
  Tool windows can be docked, floating, or tabbed in the document frame. The tool window frame is provided by the IDE and is used to control the size, location, docking state, and other persistent properties. The tool window pane displays the contents. The default size and location apply only when the tool window is first opened; after that the tool window state is persisted.  
   
- Tool window panes can host WPF user controls and support toolbars. You can override the \<xref:Microsoft.VisualStudio.Shell.WindowPane.Window*> property to return the handle of the hosted control.  
+ Tool window panes can host WPF user controls and support toolbars. You can override the <xref:Microsoft.VisualStudio.Shell.WindowPane.Window*> property to return the handle of the hosted control.  
   
  You can add many different features to tool windows. For example, you can add a toolbar: [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md) or a shortcut menu: [Adding a Shortcut Menu in a Tool Window](../extensibility/adding-a-shortcut-menu-in-a-tool-window.md). You can add a Search control that allows you to search items inside your tool window: [Adding Search to a Tool Window](../extensibility/adding-search-to-a-tool-window.md).  
   
  You can subscribe to tool window events: [Subscribing to an Event](../extensibility/subscribing-to-an-event.md).  
   
 ## Extending Existing Tool Windows  
- You can add information about your tool window to a new **Options** page and a new setting on the **Properties** page, write to the **Task List** and **Output** windows. For more information, see [Extending the Properties, Task List, Output, and Options Windows](../extensibility/extending-the-properties--task-list--output--and-options-windows.md) and [Extending the Properties, Task List, Output, and Options Windows](../extensibility/extending-the-properties--task-list--output--and-options-windows.md).  
+ You can add information about your tool window to a new **Options** page and a new setting on the **Properties** page, write to the **Task List** and **Output** windows. For more information, see [Extending the Properties, Task List, Output, and Options Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md) and [Extending the Properties, Task List, Output, and Options Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md).  
   
 ## Modal Dialog Boxes  
- In a Visual Studio extension you should create modal dialog boxes by deriving them from \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, which allows you to control them and the rest of the UI. For more information, see . [Creating and Managing Modal Dialog Boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).  
+ In a Visual Studio extension you should create modal dialog boxes by deriving them from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, which allows you to control them and the rest of the UI. For more information, see . [Creating and Managing Modal Dialog Boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).  
   
 ## See Also  
  [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)

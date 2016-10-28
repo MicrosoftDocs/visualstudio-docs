@@ -1,20 +1,21 @@
 ---
 title: "Use models in your development process"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "UML, using models"
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 29
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -44,7 +45,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 -   Communicating with models helps you communicate important concepts less ambiguously than with natural language. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
--   You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../codequality/includes/vsultshort_md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
+-   You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
   
  You can use models in a wide variety of processes, from extreme agile to high ceremony.  
   
@@ -58,7 +59,7 @@ In Visual Studio, you can use a model to help you understand and change a system
  In both cases creating a model almost always results in a significant reduction in inconsistencies and ambiguities. Different stakeholders frequently have different understandings of the business world in which the system works, and different developers frequently have different understandings of how the system works. Using a model as the focus of a discussion usually exposes these differences. For more information about how to use a model to reduce inconsistencies, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 ### Use Models with Other Artifacts  
- A model is not by itself a requirements specification or an architecture. It is a tool for expressing some aspects of these things more clearly, but not all the concepts required during software design can be expressed. The models should therefore be used together with other means of communication, such as OneNote pages or paragraphs, Microsoft Office documents, work items in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)], or sticky notes on the project room wall. Apart from the last item, all of these object types can be linked to elements parts of the model.  
+ A model is not by itself a requirements specification or an architecture. It is a tool for expressing some aspects of these things more clearly, but not all the concepts required during software design can be expressed. The models should therefore be used together with other means of communication, such as OneNote pages or paragraphs, Microsoft Office documents, work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)], or sticky notes on the project room wall. Apart from the last item, all of these object types can be linked to elements parts of the model.  
   
  Other aspects of specification that are ordinarily used together with models include the following. Depending on the scale and style of your project, you might use several of these aspects or not use any at all:  
   
@@ -96,20 +97,20 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 -   Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.  
   
--   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+-   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../modeling/includes/tcmext_md.md)].  
   
 -   In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.  
   
 -   Nontechnical stakeholders usually have no problems understanding UML diagrams, with some guidance from you.  
   
 #### Link Model to Work Items  
- After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] to elements in the model. To learn how to do this, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+ After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model. To learn how to do this, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
   
  You can link any element to work items, but the most useful elements are as follows:  
   
 -   Use cases. You can link a use case to the development tasks that will implement it.  
   
--   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md).  
+-   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
   
 -   Comments describing business rules or quality of service requirements. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
@@ -142,13 +143,13 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 |**Category**|**Links**|  
 |------------------|---------------|  
-|**Videos**|![link to video](../codequality/media/playvideo.gif "PlayVideo") [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../codequality/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../codequality/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
+|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|  
   
 ## See Also  
- [Use models in Agile development](assetId:///592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   

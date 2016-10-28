@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0447"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0447"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0447"
 ms.assetid: a25486c5-e9bf-4528-8533-c1aaab22ace0
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

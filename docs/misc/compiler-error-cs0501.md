@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0501"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0501"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0501"
 ms.assetid: 3ff45208-5b9b-42f6-8a12-1eb38a665f33
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
 title: "VSPerfCmd"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "performance tools, VSPerfCmd tool"
@@ -49,13 +49,13 @@ VSPerfCmd [/U] [/options]
 |[Start](../profiling/start.md) **:** `mode`|Starts the profiling service in the specified mode.|  
 |[Output](../profiling/output.md) **:** `filename`|Specifies the output file name. Use only with **Start**.|  
 |[CrossSession&#124;CS](../profiling/crosssession.md)|Enables profiling across Windows sessions. Use only with **Start**, **Attach**, **or Launch**.|  
-|[User](../profiling/user--vsperfcmd-.md) **:**[`domain\`]`username`|Enables the specified account access to the profiler service. Use only with **Start**.|  
+|[User](../profiling/user-vsperfcmd.md) **:**[`domain\`]`username`|Enables the specified account access to the profiler service. Use only with **Start**.|  
 |[WaitStart](../profiling/waitstart.md)[**:**`n`]|Waits for the data collection logger to initialize. If `n` is specified, **VSPerfCmd** will wait at most `n` seconds. If `n` is not specified, **VSPerfCmd** will wait indefinitely. This eases use of **VSPerfCmd** as part of a batch process.|  
 |[Counter](../profiling/counter.md) **:** `cfg`|When the sample profiling method is used, specifies a CPU counter and the number of events to use as the sampling interval. You can sample only one counter value.<br /><br /> When the instrumentation profiling method is used, specifies a CPU counter to be collected at each instrumentation point. Use only with **Start:**`Trace`, **Attach**,or **Launch**.|  
 |[QueryCounters](../profiling/querycounters.md)|Displays a list of valid CPU counters for the current machine.|  
 |[WinCounter](../profiling/wincounter.md) **:** *path*|Specifies a Windows performance counter event to include with profile mark data. Use only with **Start**.|  
 |[AutoMark](../profiling/automark.md) **:** *n*|Specifies the time interval (in milliseconds) between Windows performance counter data collection events. Use with **WinCounter**.|  
-|[Events](../profiling/events--vsperfcmd-.md) **:** `option`|Controls collection of specified Event Tracing for Windows (ETW) events. ETW data is collected to an .itl file that is not the profiling data (.vsp) file.|  
+|[Events](../profiling/events-vsperfcmd.md) **:** `option`|Controls collection of specified Event Tracing for Windows (ETW) events. ETW data is collected to an .itl file that is not the profiling data (.vsp) file.|  
 |[Status](../profiling/status.md)|Displays the state of the profiler, information about processes that are currently being profiled, and accounts that have authority to control the profiler.|  
 |[Shutdown](../profiling/shutdown.md)[**:**`n`]|Closes the profiling data file and turns the profiler off.|  
 |[GlobalOn](../profiling/globalon-and-globaloff.md)|Resumes data collection after a call to **VSPerfCmdGlobalOff**.|  
@@ -76,7 +76,7 @@ VSPerfCmd [/U] [/options]
 |[Console](../profiling/console.md)|Starts the specified command in a new command prompt window.|  
 |[Attach](../profiling/attach.md) **:** *PID*[**,***PID*]|Begins profiling the specified processes. Processes can be identified by the process id or by the process name.|  
 |[Detach](../profiling/detach.md)[**:***PID*[,*PID*]]|Stops profiling the specified processes. Processes can be identified by the process id or by the process name. If no process is specified, profiling is halted for all processes.|  
-|[GC](../profiling/gc--vsperfcmd-.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|Collects .NET memory allocation and object lifetime data. Use only with the **VSPerfCmdLaunch** option.|  
+|[GC](../profiling/gc-vsperfcmd.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|Collects .NET memory allocation and object lifetime data. Use only with the **VSPerfCmdLaunch** option.|  
   
 ### Sampling Interval Options  
  The following options specify the type and duration of sampling intervals. The default is **Timer**. You can also specify a CPU counter as the interval by using the **Counter** option. These options can only be specified with **Launch** or with the first **Attach** of a profiling session.  
@@ -84,7 +84,7 @@ VSPerfCmd [/U] [/options]
 |Option|Description|  
 |------------|-----------------|  
 |[PF](../profiling/pf.md)[**:***n*]|Samples on every n-th page fault (default=10).|  
-|[Sys](../profiling/sys--vsperfcmd-.md)[**:***n*]|Samples on every n-th system call (default=10).|  
+|[Sys](../profiling/sys-vsperfcmd.md)[**:***n*]|Samples on every n-th system call (default=10).|  
 |[Timer](../profiling/timer.md)[**:***n*]|Samples on every n-th processor cycle (default=10000000).|  
   
 ## Service Component and Kernel Mode Device Options  

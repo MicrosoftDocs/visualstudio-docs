@@ -1,13 +1,13 @@
 ---
 title: "Installing Multiple Language Versions of Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "installing Visual Studio, multiple languages"
@@ -43,5 +43,5 @@ By installing one or more language packages, you can run Visual Studio in other 
 -   You can uninstall language packages by using the maintenance mode of Visual Studio setup. Open **Control Panel**, open **Programs and Features**, choose your edition of Visual Studio, and then choose **Uninstall/Change**.  
   
 ## See Also  
- [Microsoft Language Interface Packs (LIPs) and Visual Studio](../install/microsoft-language-interface-packs--lips--and-visual-studio.md)   
+ [Microsoft Language Interface Packs (LIPs) and Visual Studio](../install/microsoft-language-interface-packs-lips-and-visual-studio.md)   
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)

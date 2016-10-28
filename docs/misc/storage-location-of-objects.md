@@ -1,18 +1,19 @@
 ---
 title: "Storage Location of Objects"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: e28ad51e-e809-43d5-bfc0-20701dbbaf24
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

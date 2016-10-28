@@ -1,10 +1,10 @@
 ---
 title: "MSBuild Error MSB8011"
-ms.custom: na
-ms.date: "10/13/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.custom: ""
+ms.date: "10/19/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSB8011"

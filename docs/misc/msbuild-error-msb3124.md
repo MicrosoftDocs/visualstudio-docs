@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3124"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "GenerateManifest.FileAssociationsDuplicateExtensions"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3124"
 ms.assetid: d8365103-aa9d-400e-9c24-0a43e2bfbd14
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,5 +44,5 @@ translation.priority.mt:
 -   Remove [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)`extension` attributes that are not unique. Each listed \<fileAssociation> element's extension attributes must be unique.  
   
 ## See Also  
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

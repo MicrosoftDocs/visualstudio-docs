@@ -1,16 +1,17 @@
 ---
 title: "Structure your modeling solution"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
 caps.latest.revision: 14
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -31,7 +32,7 @@ To use models effectively in a development project, the team members must be abl
   
  To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.  
   
- This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.  
+ This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.  
   
  To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -42,7 +43,7 @@ To use models effectively in a development project, the team members must be abl
   
 1.  Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](http://go.microsoft.com/fwlink/?LinkId=196681).  
   
-2.  Create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution, which we will call the Architecture solution. This solution will be used to create the overall design of the system. It will contain models but no code.  
+2.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, which we will call the Architecture solution. This solution will be used to create the overall design of the system. It will contain models but no code.  
   
      Add a layer diagram to this solution. On the layer diagram, draw the architecture you have chosen for your application. For example, the diagram might show these layers and the dependencies between them: Presentation; Business logic; and Data.  
   

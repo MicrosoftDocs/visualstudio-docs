@@ -1,13 +1,13 @@
 ---
 title: "Debugger Security"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -51,9 +51,9 @@ The ability to debug another process gives you extremely broad powers that you w
 ### Managed Debugging Security  
  Here are some general recommendations that apply to all managed debugging.  
   
--   Be careful when attaching to an untrusted user’s process: when you do so, you assume that it is trustworthy. When you attempt to attach to an untrusted user's process, a security warning dialog box confirmation will appear asking whether you want to attach to the process. "Trusted users" include you, and a set of standard users commonly defined on machines that have the .NET Framework installed, such as **aspnet**, **localsystem**, **networkservice**, and **localservice**. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/52246c1e-a371-40a0-b756-a435cc51876f.md).  
+-   Be careful when attaching to an untrusted user’s process: when you do so, you assume that it is trustworthy. When you attempt to attach to an untrusted user's process, a security warning dialog box confirmation will appear asking whether you want to attach to the process. "Trusted users" include you, and a set of standard users commonly defined on machines that have the .NET Framework installed, such as **aspnet**, **localsystem**, **networkservice**, and **localservice**. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md).  
   
--   Be careful when downloading a project off the Internet and loading it into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.  
+-   Be careful when downloading a project off the Internet and loading it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.  
   
  For more information, see [Debugging Managed Code](../debugger/debugging-managed-code.md).  
   
@@ -71,7 +71,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ### Web Services Debugging Security  
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](assetId:///c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/en-us/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
   
 -   Do not enable debugging on a Web server that has been compromised.  
   
@@ -80,19 +80,19 @@ The ability to debug another process gives you extremely broad powers that you w
 -   Be especially careful if you are debugging a Web service that is exposed on the Internet.  
   
 ### External Components  
- Be aware of the trust status of external components that your program interacts with, especially if you did not write the code. Also be aware of components that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or the debugger might use.  
+ Be aware of the trust status of external components that your program interacts with, especially if you did not write the code. Also be aware of components that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or the debugger might use.  
   
 ### Symbols and Source Code  
- Two [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tools that require thinking about security are the following:  
+ Two [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that require thinking about security are the following:  
   
--   Source Server, which provides you with versions of source code from a source code repository. It is useful when you do not have the current version of a program's source code. [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning--debugger-must-execute-untrusted-command.md).  
+-   Source Server, which provides you with versions of source code from a source code repository. It is useful when you do not have the current version of a program's source code. [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).  
   
 -   Symbol Server, which is used to supply the symbols needed to debug a crash during a system call.  
   
- See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)  
+ See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/52246c1e-a371-40a0-b756-a435cc51876f.md)   
- [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning--debugger-must-execute-untrusted-command.md)
+ [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)   
+ [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)

@@ -1,13 +1,13 @@
 ---
 title: "How Graphics Diagnostics Works"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ae14497-c77c-4399-bc0c-595caba23656
 caps.latest.revision: 2
@@ -48,9 +48,9 @@ Insert introduction here.
   
 ##### To open a graphics log (vsglog) file  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], on the menu bar, choose **File**, **Open**, **File**. The **Open File** dialog box appears.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the menu bar, choose **File**, **Open**, **File**. The **Open File** dialog box appears.  
   
 2.  Specify a graphics log (.vsglog) file to open, and then choose the **Open** button.  
   
 > [!NOTE]
->  You can extract, modify, and save copies of meshes and textures from a graphics log by using graphics tools that are a part of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. However, the contents of the graphics log are not affected by these modifications. For information about these graphics tools, see [Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md).
+>  You can extract, modify, and save copies of meshes and textures from a graphics log by using graphics tools that are a part of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. However, the contents of the graphics log are not affected by these modifications. For information about these graphics tools, see [Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md).

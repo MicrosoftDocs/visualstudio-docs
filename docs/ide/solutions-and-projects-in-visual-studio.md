@@ -1,13 +1,13 @@
 ---
 title: "Solutions and Projects in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.savedeferredsaveprojectonclose"
@@ -51,7 +51,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], setting up"
   - "miscellaneous files"
 ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
-caps.latest.revision: 34
+caps.latest.revision: 35
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -86,7 +86,7 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
  You can also create custom project and item templates. For more information, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).  
   
 ## Creating new projects  
- The easiest way to create a new project is to start with a pre-defined project template, which consists of a basic set of pre-generated code files, config files, assets, and settings that get you started creating a particular type of application or website in a particular programming language. These templates are what you see in the **New Project Dialog** when you choose **File &#124; New &#124; Project** or **File &#124; New &#124; Web Site** from the main menu, and then navigate. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md) and  [NIB Creating Projects from Templates](assetId:///7c36d86a-6b79-4480-8228-0f925f1204b2).  
+ The easiest way to create a new project is to start with a pre-defined project template, which consists of a basic set of pre-generated code files, config files, assets, and settings that get you started creating a particular type of application or website in a particular programming language. These templates are what you see in the **New Project Dialog** when you choose **File &#124; New &#124; Project** or **File &#124; New &#124; Web Site** from the main menu, and then navigate. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md) and  [NIB Creating Projects from Templates](http://msdn.microsoft.com/en-us/7c36d86a-6b79-4480-8228-0f925f1204b2).  
   
 ## Managing projects in Solution Explorer  
  After you create a new project, you use **Solution Explorer** to view and manage projects and solutions and their associated items. The following illustration shows Server Explorer with a C# solution that contains two projects.  
@@ -103,13 +103,13 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
   
 -   [Managing references in a project](../ide/managing-references-in-a-project.md)  
   
--   Application Properties  
+-   [Application Properties](../ide/application-properties.md)  
   
 -   [Managing Assembly and Manifest Signing](../ide/managing-assembly-and-manifest-signing.md)  
   
--   [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to--specify-an-application-icon--visual-basic--csharp-.md)  
+-   [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)  
   
--   [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-.net-framework-version.md)  
+-   [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)  
   
 -   [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
   

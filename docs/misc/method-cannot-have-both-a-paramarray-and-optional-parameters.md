@@ -1,13 +1,13 @@
 ---
 title: "Method cannot have both a ParamArray and Optional parameters"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30046"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30046"
 ms.assetid: 41066df8-c9ee-4f67-9f6c-4f62e3abc7be
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

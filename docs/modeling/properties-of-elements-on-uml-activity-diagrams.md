@@ -1,11 +1,11 @@
 ---
 title: "Properties of elements on UML activity diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.activitydiagram.shapes.properties"
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "activity diagrams, properties"
 ms.assetid: 9849d45e-65d5-46bd-a319-757e90b7c748
 caps.latest.revision: 17
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -35,7 +36,7 @@ translation.priority.ht:
 On a UML activity diagram, each element on the diagram has properties. To see the properties of an element, right-click the element on the diagram or in **UML Model Explorer** and then click **Properties**. The properties appear in the **Properties** window.  
   
 > [!NOTE]
->  This topic is about the properties of elements on UML activity diagrams. For information about how to read UML activity diagrams, see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams--reference.md). For more information about how to draw UML activity diagrams, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams--guidelines.md).  
+>  This topic is about the properties of elements on UML activity diagrams. For information about how to read UML activity diagrams, see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md). For more information about how to draw UML activity diagrams, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
   
 ## Properties of Elements  
   
@@ -66,5 +67,5 @@ On a UML activity diagram, each element on the diagram has properties. To see th
 |**Is Single Execution**|False|Activity Diagram|-   If set, there is at most one execution of this diagram at a time.|  
   
 ## See Also  
- [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams--reference.md)   
- [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams--guidelines.md)
+ [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
+ [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)

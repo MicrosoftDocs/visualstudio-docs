@@ -1,13 +1,13 @@
 ---
 title: "More Debugging Features"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -52,7 +52,7 @@ This section contains additional features that you can use with the Visual Studi
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)  
  Discusses Just-In-Time debugging, which can start the debugger automatically when a program crashes while running outside of Visual Studio.  
   
- [Walkthrough: Debugging at Design Time](../debugger/walkthrough--debugging-at-design-time.md)  
+ [Walkthrough: Debugging at Design Time](../debugger/walkthrough-debugging-at-design-time.md)  
  Shows how to use the Visual Studio Immediate window to execute a function or subroutine while your application is not running. 
   
  [Edit and Continue](../debugger/edit-and-continue.md)  
@@ -61,5 +61,5 @@ This section contains additional features that you can use with the Visual Studi
  [Using Dump Files](../debugger/using-dump-files.md)
  Describes dump files, including instructions on saving and opening. Dump files contain a snapshot of your program's state at some point in time, usually after a crash. If you test your program on a machine that does not have source files or PDBs installed, you can save a dump file when a crash occurs and use the dump file to debug the crash on the build machine that has the source files and PDBs. 
   
- [How to: Restore Hidden Debugger Commands](../debugger/how-to--restore-hidden-debugger-commands.md)  
+ [How to: Restore Hidden Debugger Commands](../debugger/how-to-restore-hidden-debugger-commands.md)  
  Describes how to make debugger commands visible that have been hidden by IDE default settings.

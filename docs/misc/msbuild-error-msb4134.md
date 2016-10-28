@@ -1,18 +1,19 @@
 ---
 title: "MSBuild Error MSB4134"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSB4134"
 ms.assetid: 2e4e6beb-c0c9-40ef-b75c-1c16244eba10
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -34,14 +35,14 @@ translation.priority.mt:
 # MSBuild Error MSB4134
 **MSB4134: DefaultToolsVersion cannot be set after a project has been loaded into the Engine.**  
   
- This error occurs when an attempt to change the value of `DefaultToolsVersion` is made after [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] already has built a project.  
+ This error occurs when an attempt to change the value of `DefaultToolsVersion` is made after [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] already has built a project.  
   
 ### To correct this error  
   
 -   Change the value of `DefaultToolsVersion` before you build a project.  
   
 ## See Also  
- \<xref:Microsoft.Build.Utilities.Task.BuildEngine*>   
- \<xref:Microsoft.Build.Utilities.Task.BuildEngine2*>   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ <xref:Microsoft.Build.Utilities.Task.BuildEngine*>   
+ <xref:Microsoft.Build.Utilities.Task.BuildEngine2*>   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

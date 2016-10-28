@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0529"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0529"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0529"
 ms.assetid: 61de8086-f991-455c-b009-bb8cd05f34bd
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

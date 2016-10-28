@@ -1,16 +1,17 @@
 ---
 title: "T4 Import Directive"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 713ca975-b9aa-4210-bf6d-b7660f5b193b
 caps.latest.revision: 3
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,7 +28,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Import Directive
-In the code blocks of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../codequality/includes/vb_current_short_md.md)].  
+In the code blocks of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)].  
   
  For a general overview of writing T4 text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   

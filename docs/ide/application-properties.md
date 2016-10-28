@@ -1,13 +1,13 @@
 ---
 title: "Application Properties"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "application properties [Visual Studio]"
@@ -64,15 +64,15 @@ You can set general application properties for Visual Basic, C#, and F# applicat
  The tasks available for your application depend on the development language being used.  
   
 ## In This Section  
- [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to--specify-an-application-icon--visual-basic--csharp-.md)  
+ [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)  
   
 ## See Also  
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
- [Introduction to the Project Designer](assetId:///898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
+ [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
+ [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Managing Debugging Properties](assetId:///92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
- [Managing Compilation Properties](assetId:///94308881-f10f-4caf-a729-f1028e596a2c)   
- [Managing Application Resources (.NET)](../ide/managing-application-resources--.net-.md)   
- [Managing Application Settings (.NET)](../ide/managing-application-settings--.net-.md)
+ [Managing Debugging Properties](http://msdn.microsoft.com/en-us/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
+ [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)   
+ [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)

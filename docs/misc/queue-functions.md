@@ -1,18 +1,19 @@
 ---
 title: "queue Functions"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: 30121cc8-d39a-492d-b72e-f3bfac36f7f6
 caps.latest.revision: 7
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

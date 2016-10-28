@@ -1,13 +1,13 @@
 ---
 title: "Best Practices for Using Code Snippets"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code snippets, best practices"
@@ -44,7 +44,7 @@ The code in a code snippet shows only the most basic way to do something. For mo
   
 -   Finding a secure location. Storing files in the root folder (C:\\) is not secure. For application data, we recommend the \Application Data folder. For individual user data, the application can create a file for each user in the \My Documents folder.  
   
--   Using a valid file name. You can use the \<xref:System.Windows.Forms.OpenFileDialog> and \<xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Be aware that between the time the user selects a file and the time your code manipulates the file, the file may be deleted. In addition, the user may not have permissions to write to the file.  
+-   Using a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Be aware that between the time the user selects a file and the time your code manipulates the file, the file may be deleted. In addition, the user may not have permissions to write to the file.  
   
 ## Security  
  How secure a snippet is depends on where it is used in the source code and how it is modified once it is in the code. The following list contains a few of the areas that must be considered.  

@@ -1,18 +1,19 @@
 ---
 title: "Integrate UML models with other models and tools"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending, references to models"
 ms.assetid: 9e75e7d1-93cf-4196-baa3-bd10b9af16d3
 caps.latest.revision: 15
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -44,7 +45,7 @@ UML models can be integrated with other models and with domain-specific language
   
      The stereotype and its properties are visible to the user in the Properties window.  
   
-     To deploy this extension, you would package the profile definition and the extension code in a single [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension.  
+     To deploy this extension, you would package the profile definition and the extension code in a single [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension.  
   
      For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).  
   
@@ -73,12 +74,12 @@ UML models can be integrated with other models and with domain-specific language
   
 2.  **VMSDK Events** can be used to propagate changes outside the model – for example, to change the filename of a linked document, or to change an element in another model.  
   
- For information about both these mechanisms, see [How to: Respond to Changes in a UML Model](../misc/how-to--respond-to-changes-in-a-uml-model.md).  
+ For information about both these mechanisms, see [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md).  
   
  Drag elements to copy them from one model to another  
  You can let the user create elements by dragging items onto a UML diagram. The created element does not have to be a copy of the original. For example, you could let the user drag an activity diagram from solution explorer onto another activity diagram, to create a new action.  
   
- For more information see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md).  
+ For more information see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).  
   
 ## Samples  
  Please see the code sample [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813). The sample lets users drag a file onto any UML element, and later open the file by double-clicking the element. For example, you could link an activity diagram to a use case element. An icon shows which elements have links.  
@@ -93,7 +94,7 @@ UML models can be integrated with other models and with domain-specific language
   
      The sample adds an image decorator to the UML shapes.  
   
--   [How to: Respond to Changes in a UML Model](../misc/how-to--respond-to-changes-in-a-uml-model.md)  
+-   [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md)  
   
      The sample demonstrates how to define a rule that responds to new shapes appearing on a diagram.  
   
@@ -103,12 +104,12 @@ UML models can be integrated with other models and with domain-specific language
   
      The sample demonstrates how to handle items dragged from Windows Explorer (or File Explorer), Solution Explorer, and other UML elements.  
   
- For an example in which a UML model is be read by a DSL, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md).  
+ For an example in which a UML model is be read by a DSL, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).  
   
 ## See Also  
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
- [How to: Respond to Changes in a UML Model](../misc/how-to--respond-to-changes-in-a-uml-model.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
+ [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md)   
  [Sample: UML Profiles](http://go.microsoft.com/fwlink/?LinkID=213811)   
  [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813)

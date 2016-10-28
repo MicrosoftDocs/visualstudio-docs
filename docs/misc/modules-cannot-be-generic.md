@@ -1,13 +1,13 @@
 ---
 title: "Modules cannot be generic"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "BC32073"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32073"
 ms.assetid: 47246e2b-51d4-4a10-a3ac-bc77b44fa2ca
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

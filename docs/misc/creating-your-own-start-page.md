@@ -1,13 +1,13 @@
 ---
 title: "Creating Your Own Start Page"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Create start page"
@@ -45,7 +45,7 @@ You can create a custom Start Page either by using the Start Page Project Templa
 1.  Download and install the [Start Page project template](http://go.microsoft.com/fwlink/?LinkId=186204) from Visual Studio Gallery.  
   
     > [!WARNING]
-    >  At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to--upgrade-a-visual-studio-custom-start-page.md).  
+    >  At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
   
 2.  After you have installed the template, create a new start page project with it.  
   
@@ -70,9 +70,9 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 2.  Open StartPage.xaml.  
   
-3.  Remove all of the page content, leaving only the outer xml elements and the containing grid \<xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
+3.  Remove all of the page content, leaving only the outer xml elements and the containing grid <xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
   
-     [!code[BlankStartPage#01](../misc/codesnippet/Xaml/creating-your-own-start-page_1.xaml)]  
+     [!code-xml[BlankStartPage#01](../misc/codesnippet/Xaml/creating-your-own-start-page_1.xaml)]  
   
 4.  Remove any supporting files you do not intend to use.  
   
@@ -101,4 +101,4 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough--adding-custom-xaml-to-the-start-page.md)
+ [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

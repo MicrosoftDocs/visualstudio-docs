@@ -1,13 +1,13 @@
 ---
 title: "Exception Assistant Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debugger.exceptionassistant"
@@ -50,7 +50,7 @@ The **Exception Assistant** dialog box appears when a run-time exception is thro
   
  To perform actions associated with the exception, click one of the actions displayed in the action pane.  
   
- For information about how to enable or disable the Exception Assistant, see [General, Debugging, Options Dialog Box](../debugger/general--debugging--options-dialog-box.md).  
+ For information about how to enable or disable the Exception Assistant, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
   
 ## User Interface Element List  
  **Type of Exception**  

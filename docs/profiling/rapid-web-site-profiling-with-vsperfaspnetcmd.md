@@ -1,13 +1,13 @@
 ---
 title: "Rapid Web Site Profiling with VSPerfASPNETCmd"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "proflilng tools,VSPerfASPNETCmd"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Rapid Web Site Profiling with VSPerfASPNETCmd
-The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the Stand-Alone Profiler](../profiling/how-to--install-the-stand-alone-profiler.md).  
+The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the Stand-Alone Profiler](../profiling/how-to-install-the-stand-alone-profiler.md).  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
@@ -41,10 +41,10 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
  In some scenarios, such as collecting concurrency data or pausing and resuming profiling, using **VSPerfCmd** is the preferred profiling method.  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers,, use the VSPerfASPNETCmd tool located in the 32 bit \Team Tools\Performance Tools directory. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers,, use the VSPerfASPNETCmd tool located in the 32 bit \Team Tools\Performance Tools directory. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
 ## Profiling an ASP.NET Application  
- To profile an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application, type one of the commands described in the following sections. The Web site is started and the profiler starts to collect data. Exercise your application and then close the browser. To stop profiling, press the Enter key in the command prompt window.  
+ To profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, type one of the commands described in the following sections. The Web site is started and the profiler starts to collect data. Exercise your application and then close the browser. To stop profiling, press the Enter key in the command prompt window.  
   
 > [!NOTE]
 >  By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the **/nowait** option to force the command prompt to return. See [Using the /NoWait option](#UsingNoWait).  
@@ -55,7 +55,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
  **vsperfaspnetcmd**  *websiteUrl*  
   
 ## To collect detailed timing data by using the instrumentation method  
- Use the following command line to collect detailed timing data from a dynamically compiled [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application:  
+ Use the following command line to collect detailed timing data from a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application:  
   
  **vsperfaspnetcmd /trace**  *websiteUrl*  
   
@@ -77,7 +77,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
 ## To collect tier interaction data  
   
 > [!WARNING]
->  Tier interaction profiling (TIP) data can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+>  Tier interaction profiling (TIP) data can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
 >   
 >  To collect TIP data on Windows 8 or Windows Server 2012, you must use the the instrumentation (**/trace**) option.  
   

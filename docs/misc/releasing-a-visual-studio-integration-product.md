@@ -1,13 +1,13 @@
 ---
 title: "Releasing a Visual Studio Integration Product"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, shipping"
@@ -38,12 +38,12 @@ The topics in this section show you how to release your Visual Studio integratio
  [Installing VSPackages](../misc/installing-vspackages.md)  
  Discusses how to build and install VSPackages and how to support users who are running multiple versions of Visual Studio at the same time.  
   
- [RegPkg Utility](../extensibility/regpkg-utility.md)  
+ [RegPkg Utility](../extensibility/internals/regpkg-utility.md)  
  Describes the RegPkg utility, which is used to register a VSPackage and prepare it for deployment.  
   
- [Premier Partner Edition Setup and User Guide](assetId:///8ee4dad7-95d3-4f2d-a8d4-3ba9a80ecae2)  
+ [Premier Partner Edition Setup and User Guide](http://msdn.microsoft.com/en-us/8ee4dad7-95d3-4f2d-a8d4-3ba9a80ecae2)  
  Provides VSIP partners with a redistributable version of the Visual Studio integrated development environment (IDE) so that they can add their own development tools and computer languages.  
   
 ## Related Sections  
- [Customizing for Testing By Using the Visual Studio SDK](assetId:///9cf7a840-dd66-4b00-90f7-e00e40370a69)  
+ [Customizing for Testing By Using the Visual Studio SDK](http://msdn.microsoft.com/en-us/9cf7a840-dd66-4b00-90f7-e00e40370a69)  
  Describes how to use the [!INCLUDE[esprtest](../misc/includes/esprtest_md.md)] suite to create, manage, edit, and run tests, and also obtain and store test results.

@@ -1,13 +1,13 @@
 ---
 title: "Code Generation and T4 Text Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
@@ -19,8 +19,9 @@ helpviewer_keywords:
   - "generating code"
 ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 82
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Code Generation and T4 Text Templates
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a Web page, or a resource file, or program source code in any language.  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a Web page, or a resource file, or program source code in any language.  
   
  There are two kinds of T4 text templates:  
   
@@ -62,14 +63,14 @@ string webResponseText = new MyTemplate().TransformText();
   
 ```  
   
- Your application can run on a computer that does not have [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installed.  
+ Your application can run on a computer that does not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed.  
   
  To create a run-time template, add a **Preprocessed text template** file to your project. Alternatively, you can add a plain text file and set its **Custom Tool** property to **TextTemplatingFilePreprocessor**.  
   
  For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
- **Design-time T4 text templates** are executed in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to define part of the source code and other resources of your application.  
- Typically you would use several templates that read the data in a single input file or database, and generate some of your `.cs`, `.vb`, or other source files. Each template generates one file. They are executed within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ **Design-time T4 text templates** are executed in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to define part of the source code and other resources of your application.  
+ Typically you would use several templates that read the data in a single input file or database, and generate some of your `.cs`, `.vb`, or other source files. Each template generates one file. They are executed within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
  For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates would regenerate part of the application code. One of the templates could resemble the following example:  
   
@@ -116,12 +117,12 @@ namespace Fabrikam.FirstJob
  Generating code and other resources from a model lets you update your application by updating the model.  
   
  [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)  
- If you have installed [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can ensure the generated software keeps up to date with changes in the model.  
+ If you have installed [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can ensure the generated software keeps up to date with changes in the model.  
   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)  
  The syntax of a text template file.  
   
- [Walkthrough: Generating Code by using Text Templates](../modeling/walkthrough--generating-code-by-using-text-templates.md)  
+ [Walkthrough: Generating Code by using Text Templates](../modeling/walkthrough-generating-code-by-using-text-templates.md)  
  A demonstration of one way to use code generation.  
   
  [Debugging a T4 Text Template](../modeling/debugging-a-t4-text-template.md)  

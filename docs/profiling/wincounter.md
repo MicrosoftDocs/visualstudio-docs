@@ -1,13 +1,13 @@
 ---
 title: "WinCounter"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff319ffc-f249-4c3f-9eb2-06e392e3ae80
 caps.latest.revision: 8
@@ -69,5 +69,5 @@ VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp /WinCounter:"\Processor(0)\%
 ## See Also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)   
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)

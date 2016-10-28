@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS1593"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1593"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1593"
 ms.assetid: 7476e799-8a8d-457d-b4e7-2d5e073799d8
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

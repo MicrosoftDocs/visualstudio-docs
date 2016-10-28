@@ -1,18 +1,19 @@
 ---
 title: "A failure occurred writing to the resources file"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.fail_writing_resources_file"
 ms.assetid: bfff0629-eb29-4226-b0d7-ea02bf086dad
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ The .resources output file could not be written by the project system. As part o
  This error will cause the build process to fail.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

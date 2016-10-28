@@ -1,13 +1,13 @@
 ---
 title: "Debugging WPF"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -37,14 +37,14 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging WPF
-[!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.  
+[!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.  
   
 ## Related Topics  
   
 |Title|Description|  
 |-----------|-----------------|  
-|[How to: Use the WPF Tree Visualizer](../debugger/how-to--use-the-wpf-tree-visualizer.md)|You can use the WPF Tree Visualizer to explore the visual tree of a WPF object and view the WPF dependency properties for the objects in that tree. This topic describes the user interface of the WPF Tree Visualizer.|  
-|[How to: Display WPF Trace Information](../debugger/how-to--display-wpf-trace-information.md)|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] can receive debug trace information from WPF applications and display that information in the **Output** window. This topic describes how to enable and customize the display of WPF trace information.|  
+|[How to: Use the WPF Tree Visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md)|You can use the WPF Tree Visualizer to explore the visual tree of a WPF object and view the WPF dependency properties for the objects in that tree. This topic describes the user interface of the WPF Tree Visualizer.|  
+|[How to: Display WPF Trace Information](../debugger/how-to-display-wpf-trace-information.md)|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can receive debug trace information from WPF applications and display that information in the **Output** window. This topic describes how to enable and customize the display of WPF trace information.|  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

@@ -1,18 +1,19 @@
 ---
 title: "Display a UML model on diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: adf1f1f2-2ad9-4ade-82de-c6a5194ab471
 caps.latest.revision: 23
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -122,7 +123,7 @@ Context.CurrentDiagram.ModelStore.Diagrams()
 ```  
   
 ## To access the diagrams in a project  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API can be used to open and create modeling projects and diagrams.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API can be used to open and create modeling projects and diagrams.  
   
  Notice the cast from `EnvDTE.ProjectItem` to `IDiagramContext`.  
   
@@ -160,9 +161,9 @@ foreach (ProjectItem item in project.ProjectItems)
   { ... } } }  
 ```  
   
- Instances of `IDiagram` and its subtypes are not valid after you return control to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Instances of `IDiagram` and its subtypes are not valid after you return control to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- You can also obtain the model store from a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project:  
+ You can also obtain the model store from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project:  
   
 ```  
   

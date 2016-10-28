@@ -1,13 +1,13 @@
 ---
 title: "Retain Topics for Later Use"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_favorites"
@@ -43,4 +43,4 @@ When you locate a useful topic, you can access it later by copying it and pastin
  On the **Favorites** tab, you can open the shortcut menu for any entry and then rename it, delete it, or organize entries into folders.  
   
 ## See Also  
- [Shortcut Keys (Help Viewer)](../ide/shortcut-keys--help-viewer-.md)
+ [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)

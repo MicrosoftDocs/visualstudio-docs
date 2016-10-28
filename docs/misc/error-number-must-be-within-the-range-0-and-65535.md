@@ -1,20 +1,21 @@
 ---
 title: "Error number must be within the range 0 and 65535"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrMaxErrNumber"
 ms.assetid: c5cb5753-516e-4568-9d63-0e9a2a4c5812
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -39,5 +40,5 @@ An error number falls outside the allowable of between 0 and 65535.
 -   Ensure that the number falls within the valid range.  
   
 ## See Also  
- [NOTINBUILD Err Object (Visual Basic)](assetId:///d6f42bdc-4f5f-4a5f-a9db-f5b530be8f1c)   
- [Number Property (Err Object)](assetId:///3b1991c4-b349-4ed0-a6ad-b5e2003c9028)
+ [NOTINBUILD Err Object (Visual Basic)](http://msdn.microsoft.com/en-us/d6f42bdc-4f5f-4a5f-a9db-f5b530be8f1c)   
+ [Number Property (Err Object)](http://msdn.microsoft.com/en-us/3b1991c4-b349-4ed0-a6ad-b5e2003c9028)

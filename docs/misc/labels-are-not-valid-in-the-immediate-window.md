@@ -1,13 +1,13 @@
 ---
 title: "Labels are not valid in the Immediate window"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30134"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30134"
 ms.assetid: ad36b56a-8e17-4699-a69b-afdc70b7dc5a
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,5 +45,5 @@ Line labels enable branching and are not permitted in a debugging context.
 -   Do not enter a line label in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../reference/immediate-window.md)   
+ [Immediate Window](../ide/reference/immediate-window.md)   
  [How to: Label Statements](../Topic/How%20to:%20Label%20Statements%20\(Visual%20Basic\).md)

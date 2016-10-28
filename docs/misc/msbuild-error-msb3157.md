@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3157"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vsdeploy.chm:13157"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSB3157"
 ms.assetid: ccfcbea4-eb9b-42ae-9908-47079ecc84a7
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
 -   Provide the appropriate package manifest file.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

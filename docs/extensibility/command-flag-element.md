@@ -1,13 +1,13 @@
 ---
 title: "Command Flag Element"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "CommandFlag element (VSCT XML schema)"
@@ -89,4 +89,4 @@ Modifies its parent element.
 |[Menus Element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

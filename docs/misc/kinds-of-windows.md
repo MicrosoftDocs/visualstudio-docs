@@ -1,13 +1,13 @@
 ---
 title: "Kinds of Windows"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "windows, splitting"
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 31b6ff46-8820-40ff-92ab-561d90e89ec6
 caps.latest.revision: 20
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

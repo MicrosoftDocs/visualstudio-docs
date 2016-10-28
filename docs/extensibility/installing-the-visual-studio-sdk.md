@@ -1,13 +1,13 @@
 ---
 title: "Installing the Visual Studio SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "visual-studio-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 caps.latest.revision: 3

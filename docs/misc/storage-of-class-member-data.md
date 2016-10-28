@@ -1,13 +1,13 @@
 ---
 title: "Storage of Class-Member Data"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "pack pragma"
 ms.assetid: 865614b6-6afe-4dfe-acd3-78011ab088ff
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3114"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateManifest.ResolveFailedInReadOnlyMode"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3114"
 ms.assetid: 6438ae52-609e-49f6-8598-eab93f82bb4d
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   Check your manifests for conflicts in file references.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

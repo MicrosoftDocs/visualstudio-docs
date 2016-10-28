@@ -1,13 +1,13 @@
 ---
 title: "Using a Custom Registration Attribute to Register an Extension"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 98068fa7-bda1-4922-b3f6-28680de58c3d
 caps.latest.revision: 3
@@ -29,7 +29,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using a Custom Registration Attribute to Register an Extension
-In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register*> and \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister*> methods.  
+In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register*> and <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister*> methods.  
   
 ## Creating a Custom Attribute  
  The following code shows how to create a new registration attribute.  
@@ -42,7 +42,7 @@ In certain cases you may need to create a new registration attribute for your ex
   
 ```  
   
- The \<xref:System.AttributeUsageAttribute> is used on attribute classes to specify the program element (class, method, etc.) to which the attribute pertains, whether it can be used more than once, and whether it can be inherited.  
+ The <xref:System.AttributeUsageAttribute> is used on attribute classes to specify the program element (class, method, etc.) to which the attribute pertains, whether it can be used more than once, and whether it can be inherited.  
   
 ### Creating a Registry Key  
  In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  

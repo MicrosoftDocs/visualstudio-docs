@@ -1,13 +1,13 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.AccessRequiredDialog"
@@ -53,30 +53,30 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md)  
   
- [Failed to Apply Code Changes Dialog Box](../debugger/edit-and-continue-dialog-box--c---.md)  
+ [Failed to Apply Code Changes Dialog Box](../debugger/edit-and-continue-dialog-box-cpp.md)  
   
- [Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box](../debugger/microsoft-visual-studio-debugger--exception-thrown--dialog-box.md)  
+ [Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box](../debugger/microsoft-visual-studio-debugger-exception-thrown-dialog-box.md)  
   
  [No Source Code Available for the Current Location Dialog Box](../debugger/no-source-available.md)  
   
- [No Symbolic Information Dialog Box](assetId:///18de4888-9cca-4059-a165-48b135fee4c9)  
+ [No Symbolic Information Dialog Box](http://msdn.microsoft.com/en-us/18de4888-9cca-4059-a165-48b135fee4c9)  
   
  [Resolve Ambiguity Dialog Box](../debugger/resolve-ambiguity-dialog-box.md)  
   
  [Stale Code Warning Dialog Box](../debugger/stale-code-warning-dialog-box.md)  
   
- [Unable to Connect to the Machine](../debugger/error--unable-to-connect-to-the-machine--name-.-the-machine-cannot-be-found-on-the-network..md)  
+ [Unable to Connect to the Machine](../debugger/error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)  
   
- [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/error--debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)  
+ [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)  
   
 ## Related Sections  
- [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications--errors-and-troubleshooting.md)  
+ [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)  
   
  [Remote Debugging Errors](../debugger/remote-debugging-errors-and-troubleshooting.md)  
   
- [Attach Errors](assetId:///2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
+ [Attach Errors](http://msdn.microsoft.com/en-us/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
   
- [Troubleshooting SQL Debugging Setup](assetId:///b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
+ [Troubleshooting SQL Debugging Setup](http://msdn.microsoft.com/en-us/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
   
  [Debugging Visual C++ FAQs](../debugger/debugging-native-code-faqs.md)  
   

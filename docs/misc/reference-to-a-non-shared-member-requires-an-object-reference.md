@@ -1,13 +1,13 @@
 ---
 title: "Reference to a non-shared member requires an object reference"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30469"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30469"
 ms.assetid: af503e8b-2e1f-4f91-a07f-b1ddd73dd4a6
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,7 +47,7 @@ You have referenced a non-shared member within your code and failed to supply an
 2.  Reference the instance by the variable name.  
   
 ## See Also  
- [NOT IN BUILD: Understanding Classes](assetId:///cc2355a2-cb98-4353-9440-736585aec46c)   
- [NOT IN BUILD: Shared Members in Visual Basic](assetId:///dbc3783f-83a2-4225-995d-c2d6d025663d)   
+ [NOT IN BUILD: Understanding Classes](http://msdn.microsoft.com/en-us/cc2355a2-cb98-4353-9440-736585aec46c)   
+ [NOT IN BUILD: Shared Members in Visual Basic](http://msdn.microsoft.com/en-us/dbc3783f-83a2-4225-995d-c2d6d025663d)   
  [Shared](../Topic/Shared%20\(Visual%20Basic\).md)   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](assetId:///9601e39f-1911-44e1-ace5-3f6e090408b9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)

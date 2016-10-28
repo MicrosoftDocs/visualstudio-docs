@@ -1,13 +1,13 @@
 ---
 title: "Managing External Tools"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.externaltools"
@@ -80,7 +80,7 @@ translation.priority.ht:
 You can call external tools from inside Visual Studio. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
   
 ## Tools Available on the Visual Studio Tools Menu  
- You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
+ You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
   
 1.  Create GUID: generates a GUID.  
   
@@ -95,7 +95,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
 6.  WCF Service Configuration Editor: Allows you to create and modify configuration settings for WCF services.  
   
 > [!WARNING]
->  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Adding New Tools  
  You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  

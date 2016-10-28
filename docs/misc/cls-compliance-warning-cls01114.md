@@ -1,13 +1,13 @@
 ---
 title: "CLS Compliance Warning CLS01114"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CLS01114"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01114"
 ms.assetid: f3382da6-d3d0-4209-a229-400701c53ede
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ All types appearing in a signature shall be CLS-compliant
   
  If a delegate is CLS compliant, then all types in the delegate signature must be CLS compliant.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS01114:  
   

@@ -1,13 +1,13 @@
 ---
 title: "Debugging LINQ"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging LINQ
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
   
 ##  <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results  
  You can view the result of a LINQ statement by using DataTips, the Watch window, and the QuickWatch dialog box. When you use a source window, you can pause the pointer on a query in the source window and a DataTip will appear. You can copy a LINQ variable and paste it into the Watch window or QuickWatch dialog box.  
@@ -127,7 +127,7 @@ End Function
  In Visual Basic, you can use Edit and Continue on non-LINQ code, even in a method that contains a LINQ query. You can add or remove code before the LINQ statement, even if the changes affect the line number of the LINQ query. Your Visual Basic debugging experience for non-LINQ code remains the same as it was before LINQ was introduced. You cannot change, add, or remove a LINQ query, however, unless you want to stop debugging to apply the changes.  
   
 ## See Also  
- [Debugging SQL](assetId:///f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
+ [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
  [Side Effects and Expressions](../Topic/Side%20Effects%20and%20Expressions.md)   
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
  [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md)   

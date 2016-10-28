@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0756"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0756"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0756"
 ms.assetid: 847b20b0-bbf0-43a2-8728-4b54cb3d9cd6
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
 title: "CvInitProvider Function"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkers/CvInitProvider"
@@ -59,4 +59,4 @@ HRESULT CvInitProvider(
  **Header:** cvmarkers.h  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

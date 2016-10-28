@@ -1,13 +1,13 @@
 ---
 title: "HLSL Shader Debugger"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.shaderviewer"
@@ -38,7 +38,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
  ![Debugging HLSL using watch and call stack windows.](../debugger/media/gfx_diag_demo_hlsl_debugger_orientation.png "gfx_diag_demo_hlsl_debugger_orientation")  
   
 ## Understanding the HLSL debugger  
- The HLSL debugger can help you understand problems that arise in your shader code. Debugging HLSL code in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] resembles debugging code that's written in other languages—for example, C++, C#, or Visual Basic. You can inspect the contents of variables, set break points, step through code, and walk up the call-stack, just like you can when you debug other languages.  
+ The HLSL debugger can help you understand problems that arise in your shader code. Debugging HLSL code in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] resembles debugging code that's written in other languages—for example, C++, C#, or Visual Basic. You can inspect the contents of variables, set break points, step through code, and walk up the call-stack, just like you can when you debug other languages.  
   
  However, because GPUs achieve high performance by running shader code on hundreds of threads simultaneously, the HLSL debugger is designed to work together with the other Graphics Analyzer tools to present all of this information in a way that helps you make sense of it. Graphics Analyzer recreates captured frames by using information that was recorded in a graphics log; the HLSL debugger does not monitor GPU execution in real time as it runs shader code. Because a graphics log contains enough information to recreate any part of the output, and because Graphics Analysis provides tools that can help you pinpoint the exact pixel and event where an error occurs, the HLSL debugger only has to simulate the exact shader thread that you are interested in. This means that the work of the shader can be simulated on the CPU, where its inner workings are in full view. This is what gives the HLSL debugger a CPU-like debugging experience.  
   
@@ -86,6 +86,6 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
  For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](../debugger/graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough--missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough--debugging-rendering-errors-due-to-shading.md)   
- [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough--using-graphics-diagnostics-to-debug-a-compute-shader.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)   
+ [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)

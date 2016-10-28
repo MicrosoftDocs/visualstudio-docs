@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0182"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0182"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0182"
 ms.assetid: a9e97bb8-f06e-499f-aadf-26abc2082f98
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -50,7 +50,7 @@ An attribute argument must be a constant expression, typeof expression or array 
   
 -   [decimal](../Topic/decimal%20\(C%23%20Reference\).md)  
   
- For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](assetId:///7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
+ For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](http://msdn.microsoft.com/en-us/7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
   
 ## Example  
  The following sample generates CS0182:  

@@ -1,13 +1,13 @@
 ---
 title: "JavaScript IntelliSense"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense [JavaScript]"
@@ -70,7 +70,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   [JavaScript Validation](#Validation)  
   
- For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
+ For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
   
 ##  <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context  
  JavaScript IntelliSense provides coding choices based on all script that is relevant to your current script context. This includes scripting elements in the current file. It also includes any code that is referenced directly or indirectly from your script, such as script file references, assembly script references, service references, and page-associated references.  
@@ -87,7 +87,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   References to XML Web services.  
   
--   The \<xref:System.Web.UI.ScriptManager> and \<xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
+-   The <xref:System.Web.UI.ScriptManager> and <xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
   
 -   The [!INCLUDE[atlaslib_current_ext](../ide/includes/atlaslib_current_ext_md.md)], if you are working in an AJAX-enabled ASP.NET Web application.  
   
@@ -135,7 +135,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`. For more information about intrinsic objects, see [Intrinsic Objects](../Topic/Intrinsic%20Objects%20\(JavaScript\).md).  
   
 ###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects  
- When you change a JavaScript file, [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
+ When you change a JavaScript file, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
   
  For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](http://go.microsoft.com/fwlink/?LinkId=108671) on the MSDN website.  
   
@@ -155,9 +155,9 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 </script>  
 ```  
   
- If you are working with an ASP.NET AJAX-enabled Web page, you can reference script files by using the \<xref:System.Web.UI.ScriptReference> object of the \<xref:System.Web.UI.ScriptManager> control.  
+ If you are working with an ASP.NET AJAX-enabled Web page, you can reference script files by using the <xref:System.Web.UI.ScriptReference> object of the <xref:System.Web.UI.ScriptManager> control.  
   
- The following example shows markup that uses a \<xref:System.Web.UI.ScriptReference> object in a \<xref:System.Web.UI.ScriptManager> control to reference a script file.  
+ The following example shows markup that uses a <xref:System.Web.UI.ScriptReference> object in a <xref:System.Web.UI.ScriptManager> control to reference a script file.  
   
 ```html  
 <asp:ScriptManager ID="ScriptManager1" runat="server">  
@@ -170,7 +170,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](../Topic/Walkthrough:%20Embedding%20a%20JavaScript%20File%20as%20a%20Resource%20in%20an%20Assembly.md).  
   
 ####  <a name="ReferenceDirectives"></a> Reference Directives  
- A `reference` directive enables [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
+ A `reference` directive enables [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
   
  You create a `reference` directive in the form of an XML comment. The directive must be declared earlier in the file than any script. A `reference` directive can include a disk-based script reference, an assembly-based script reference, a service-based script reference, or a page-based script reference.  
   
@@ -232,7 +232,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ####  <a name="ReferenceGroups"></a> Reference Groups  
  You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:  
   
--   Implicit (Windows), for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
+-   Implicit (Windows), for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   
@@ -240,7 +240,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Generic, for other JavaScript project types.  
   
- In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../reference/options--text-editor--javascript--intellisense.md).  
+ In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
 > [!TIP]
 >  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.  
@@ -251,13 +251,13 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 > [!NOTE]
 >  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.  
   
- For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../reference/options--text-editor--javascript--intellisense.md).  
+ For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
 > [!WARNING]
 >  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.  
   
 ###  <a name="XMLDocComments"></a> XML Documentation Comments  
- XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
+ XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
   
  IntelliSense can display XML documentation comments in the following scenarios:  
   
@@ -279,7 +279,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  The JavaScript language service provides objects and functions that enable you to modify the IntelliSense experience for developers who use third-party libraries. These features are especially useful when the default language service isn't able to provide all the information that you want to provide to customers. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).  
   
 ##  <a name="Validation"></a> JavaScript Validation  
- JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
+ JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
   
 -   Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.  
   
@@ -292,7 +292,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md)   
  [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)   
  [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)   
- [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md)   
+ [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
  [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)   
- [List Members](assetId:///1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
+ [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
  [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)

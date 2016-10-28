@@ -1,13 +1,13 @@
 ---
 title: "AutoMark"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4de965e-0364-4f78-9936-1f509e85df74
 caps.latest.revision: 9
@@ -58,5 +58,5 @@ VSPerfCmd.exe /Launch:TestApp.exe
 ## See Also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)   
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)

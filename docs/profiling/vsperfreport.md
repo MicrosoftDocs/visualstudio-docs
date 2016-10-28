@@ -1,13 +1,13 @@
 ---
 title: "VSPerfReport"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "command-line tools, VSPerfReporttool"
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # VSPerfReport
-VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
+VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
   
  VSPerfReport uses the following syntax:  
   
@@ -55,7 +55,7 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
  `vspfilename1 and vspfilename2` must be valid .vsp or .vsps files.  
   
 ## Symbol Files  
- To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to--specify-symbol-file-locations-from-the-command-line.md).  
+ To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md).  
   
 ## General Report Options  
  The following table describes the general report formatting options and the options that select the data to be reported.  

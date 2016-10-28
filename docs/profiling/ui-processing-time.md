@@ -1,13 +1,13 @@
 ---
 title: "UI Processing Time"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.uiprocessing"
@@ -40,4 +40,4 @@ These segments in the timeline are associated with blocking times that are categ
  The UI Processing category is important for understanding the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it is probably very responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

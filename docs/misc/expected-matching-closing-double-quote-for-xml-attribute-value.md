@@ -1,13 +1,13 @@
 ---
 title: "Expected matching closing double quote for XML attribute value"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc31164"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31164"
 ms.assetid: 65212e42-f9f2-4779-9654-a9d1962ddde7
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

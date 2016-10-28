@@ -1,13 +1,13 @@
 ---
 title: "Profiling Tools APIs"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd9ca972-e5bf-45a6-9a5d-ac30a4d9ee02
 caps.latest.revision: 8
@@ -29,16 +29,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Profiling Tools APIs
-You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
+You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
   
 ## In This Section  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)  
+ [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)  
  Describes the C++ Profiling Tools methods.  
   
- \<xref:Microsoft.VisualStudio.Profiler>  
+ <xref:Microsoft.VisualStudio.Profiler>  
  Describes the .NET Profiling Tools methods.  
   
- [Walkthrough: Using Profiler APIs](../profiling/walkthrough--using-profiler-apis.md)  
+ [Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)  
  Learn how to use the .NET Profiling Tools methods in this complete example.  
   
 ## Related Sections  

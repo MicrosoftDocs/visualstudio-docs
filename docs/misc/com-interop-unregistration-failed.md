@@ -1,18 +1,19 @@
 ---
 title: "COM Interop unregistration failed"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.cannot_unregister_com2"
 ms.assetid: 1172b560-c4b0-4aff-9f74-cf9b29ff76d9
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

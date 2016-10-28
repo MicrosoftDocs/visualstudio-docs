@@ -1,13 +1,13 @@
 ---
 title: "Attribute specifier is not a complete statement"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc32035"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32035"
 ms.assetid: a0ddd673-4170-4bea-9c22-777d7bf21dfd
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -50,5 +51,5 @@ Attribute specifier is not a complete statement. Use a line continuation to appl
 -   If the attribute is to apply to the entire assembly or to the current assembly module, the attribute block remains on a separate source-code line. Precede the attribute name inside the angle brackets (`< >`) with `Assembly:` or `Module:` and do not add a space or underscore following the attribute block. Also, be sure this attribute block is at the beginning of your source file.  
   
 ## See Also  
- [NOT IN BUILD: Application of Attributes](assetId:///2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/en-us/2b1703ed-4437-49b3-bc0b-568094324f47)   
  [How to: Break and Combine Statements in Code](../Topic/How%20to:%20Break%20and%20Combine%20Statements%20in%20Code%20\(Visual%20Basic\).md)

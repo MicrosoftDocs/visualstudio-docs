@@ -1,13 +1,13 @@
 ---
 title: "Adding an Attribute to a Project Item"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "attributes [Visual Studio], adding to a project item"
@@ -31,13 +31,13 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Adding an Attribute to a Project Item
-The methods \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetItemAttribute*> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> get and set the value of the attributes of a project item. SetItemAttribute creates the attribute if it does not already exist, adding it to the project item metadata.  
+The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetItemAttribute*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> get and set the value of the attributes of a project item. SetItemAttribute creates the attribute if it does not already exist, adding it to the project item metadata.  
   
 ## Adding an attribute to a project item  
   
 #### To add an attribute to a project item  
   
--   The following code uses the \<xref:EnvDTE.DTE> automation object and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> method to add an attribute to a project item. The project item ID is obtained from the project item name "program.cs". The attribute "MyAttribute" is added to this project item and given the value "MyValue".  
+-   The following code uses the <xref:EnvDTE.DTE> automation object and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> method to add an attribute to a project item. The project item ID is obtained from the project item name "program.cs". The attribute "MyAttribute" is added to this project item and given the value "MyValue".  
   
     ```  
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));  
@@ -60,4 +60,4 @@ The methods \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.
     ```  
   
 ## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility/persisting-data-in-the-msbuild-project-file.md)
+ [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

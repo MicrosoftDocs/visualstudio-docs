@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0272"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0272"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0272"
 ms.assetid: 16a9aab6-922a-45a3-a0ef-f32e99f3950f
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

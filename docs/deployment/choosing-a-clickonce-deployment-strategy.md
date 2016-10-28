@@ -1,13 +1,13 @@
 ---
 title: "Choosing a ClickOnce Deployment Strategy"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce"
 ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
 caps.latest.revision: 19
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -52,9 +53,9 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  Because this strategy depends on network connectivity, it works best for applications that will be deployed to users who have access to a local-area network or a high-speed Internet connection.  
   
- If you deploy the application from the Web, you can pass arguments into the application when it is activated using a URL. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md). You cannot pass arguments into an application that is activated by using any of the other methods described in this document.  
+ If you deploy the application from the Web, you can pass arguments into the application when it is activated using a URL. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md). You cannot pass arguments into an application that is activated by using any of the other methods described in this document.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **From the Web** or **From a UNC path or file share** on the **How Installed** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From the Web** or **From a UNC path or file share** on the **How Installed** page of the Publish Wizard.  
   
  This is the default deployment strategy.  
   
@@ -63,7 +64,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  This strategy works best for applications that will be deployed to users without persistent network connectivity or with low-bandwidth connections. Because the application is installed from removable media, no network connection is necessary for installation; however, network connectivity is still required for application updates.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
   
  To enable this deployment strategy manually, change the **deploymentProvider** tag in the deployment manifest. (In Visual Studio, this property is exposed as **Installation URL** on the **Publish** page of the Project Designer. In Mage.exe it is **Start Location**.)  
   
@@ -75,7 +76,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  This strategy works best for applications that are used infrequently—for example, an employee-benefits tool that is typically run only one time each year.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **Do not install the application** on the **Install or Run From Web** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **Do not install the application** on the **Install or Run From Web** page of the Publish Wizard.  
   
  To enable this deployment strategy, manually, change the **install** tag in the deployment manifest. (Its value can be **true** or **false**. In Mage.exe, use the **Online Only** option in the **Application Type** list.)  
   
@@ -87,5 +88,5 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to--publish-a-clickonce-application-using-the-publish-wizard.md)   
+ [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)

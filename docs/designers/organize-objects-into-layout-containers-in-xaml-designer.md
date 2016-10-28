@@ -1,13 +1,13 @@
 ---
 title: "Organize objects into layout containers in XAML Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 caps.latest.revision: 15

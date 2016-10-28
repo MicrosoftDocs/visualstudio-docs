@@ -1,13 +1,13 @@
 ---
 title: "Identifying and Customizing Keyboard Shortcuts in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.Keyboard"
@@ -155,4 +155,4 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
      ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png "ImportShortcuts")  
   
 ## See Also  
- [Accessibility Features of Visual Studio](../reference/accessibility-features-of-visual-studio.md)
+ [Accessibility Features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

@@ -1,13 +1,13 @@
 ---
 title: "Debug 64-Bit Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -51,7 +51,7 @@ You can debug a 64-bit application that is running on the local computer or on a
   
 1.  Create a Visual Studio solution, for example a C# console application.  
   
-2.  Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md).  
+2.  Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).  
   
 3.  At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.  
   

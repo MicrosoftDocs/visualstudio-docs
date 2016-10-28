@@ -1,20 +1,21 @@
 ---
 title: "MSBuild Error MSB1006"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.InvalidPropertyError"
 helpviewer_keywords: 
   - "MSB1006"
 ms.assetid: 6d97d164-66f1-47bf-9cd9-7422a6c0dbb3
-caps.latest.revision: 11
+caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,5 @@ translation.priority.mt:
 1.  Specify both the property name and the property value, for example, `/property:Configuration=Debug`.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [MSBuild Properties](../msbuild/msbuild-properties.md)  
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

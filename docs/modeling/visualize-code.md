@@ -1,13 +1,13 @@
 ---
 title: "Visualize code"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code, understanding"
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "code, exploring"
 ms.assetid: 0dd7d438-393a-4cd3-b417-9bf37379e1b0
 caps.latest.revision: 47
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -52,8 +53,8 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 |||  
 |-|-|  
 |**Understand code and its relationships:**<br /><br /> Map relationships between specific pieces of code.<br /><br /> See an overview of the relationships in your code for the entire solution.<br /><br /> **Note**: In this release of Visual Studio, the term *code map* is used in place of *dependency graph*.|-   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />-   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)<br />-   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)<br />-   [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)|  
-|**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to--add-class-diagrams-to-projects--class-designer-.md)|  
-|**Describe the high-level system design and validate code against this design:**<br /><br /> Describe the high-level system design and its intended dependencies by creating layer diagrams. Validate code against this design to make sure dependencies in code remain consistent with the design.|-   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)<br />-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
+|**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)|  
+|**Describe the high-level system design and validate code against this design:**<br /><br /> Describe the high-level system design and its intended dependencies by creating layer diagrams. Validate code against this design to make sure dependencies in code remain consistent with the design.|-   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
 |**Communicate the user requirements and architecture:**<br /><br /> Model the user requirements and architecture of your software system by drawing the following UML diagrams: activity, component, class, sequence, and use case.|-   [Create models for your app](../modeling/create-models-for-your-app.md)<br />-   [Model user requirements](../modeling/model-user-requirements.md)<br />-   [Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
 ## External Resources  
@@ -65,7 +66,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 |**Technical Articles and Journals**|[MSDN Architecture Forum](http://go.microsoft.com/fwlink/?LinkId=201343)|  
   
 ## See Also  
- [Scenario: Change your design using visualization and modeling](../modeling/scenario--change-your-design-using-visualization-and-modeling.md)   
+ [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   

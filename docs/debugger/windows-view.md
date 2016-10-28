@@ -1,13 +1,13 @@
 ---
 title: "Windows View"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.externaltools.spyplus.windowsview"
@@ -45,20 +45,20 @@ Spy++ Windows View
  When Windows view has the focus, you can use the Finder tool in the [Window Search Dialog Box](../debugger/window-search-dialog-box.md) to display information from any window open on your system.  
   
 ## In This Section  
- [How to: Use the Finder Tool](../debugger/how-to--use-the-finder-tool.md)  
+ [How to: Use the Finder Tool](../debugger/how-to-use-the-finder-tool.md)  
  Shows how this tool scans windows for properties or messages.  
   
- [How to: Search for a Window in Windows View](../debugger/how-to--search-for-a-window-in-windows-view.md)  
+ [How to: Search for a Window in Windows View](../debugger/how-to-search-for-a-window-in-windows-view.md)  
  Explains how to find a specific window in Windows view.  
   
- [How to: Display Window Properties](../debugger/how-to--display-window-properties.md) m  
+ [How to: Display Window Properties](../debugger/how-to-display-window-properties.md) m  
  Procedures for opening the Window Properties dialog box.  
   
 ## Related Sections  
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
  [Find Window Dialog Box](../debugger/find-window-dialog-box.md)  
@@ -70,5 +70,5 @@ Spy++ Windows View
  [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md)  
  Used to display the properties of a window selected in Windows view.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.

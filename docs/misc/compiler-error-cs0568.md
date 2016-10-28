@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0568"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0568"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0568"
 ms.assetid: dc9e1263-f58d-4c95-9165-27ba7757bc7b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

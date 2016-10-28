@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB1013"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.RepeatedResponseFileError"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1013"
 ms.assetid: 3e85c710-99e6-4141-b058-63a144a06454
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -47,4 +48,4 @@ translation.priority.mt:
 -   Remove the reference to the original response file from the response file that it references.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

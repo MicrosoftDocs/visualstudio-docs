@@ -1,13 +1,13 @@
 ---
 title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
 caps.latest.revision: 14
@@ -39,9 +39,9 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Attach the profiler to a .NET service**|-   [How to: Attach the Profiler to a .NET Service to Collect Application Statistics](../profiling/a0046c47-26c8-4bec-96a0-81da05e5104a.md)|  
+|**Attach the profiler to a .NET service**|-   [How to: Attach the Profiler to a .NET Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md)|  
 |**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
-|**Attach the profiler to a C/C++ service**|-   [How to: Attach the Profiler to a Native Service to Collect Application Statistics](../profiling/f783817f-77a0-4eb8-985b-ec3b77eadc42.md)|  
+|**Attach the profiler to a C/C++ service**|-   [How to: Attach the Profiler to a Native Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md)|  
   
 ## Related Tasks  
   
@@ -49,8 +49,8 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea.md)|  
-|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-.net-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md)|  
+|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
 |**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Profiling by Using the Sampling Method  
@@ -58,7 +58,7 @@ This section describes the procedures and options for collecting performance sta
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/f8383ab1-eb49-4d3f-8608-d8b4d51a81be.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
   
 ### Analyzing Sampling Data Views and Reports  
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)

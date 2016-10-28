@@ -1,13 +1,13 @@
 ---
 title: "Symbol Load Information Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.symbols.loadinfo"
@@ -46,4 +46,4 @@ The **Symbol Load Information** dialog box opens when you right-click on the **M
  Click this button to change symbol settings in the **Options** dialog box (**Debugging** category, **Symbols** page). On that page, you can add or remove symbol locations, specify a local cache location if you are using a symbol server, and control when symbol locations are searched.  
   
 ## See Also  
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

@@ -1,20 +1,21 @@
 ---
 title: "The stream passed to TextFieldParser cannot be read"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrTextFieldParser_StreamNotReadable"
 ms.assetid: b6ac8043-b939-441c-822f-de6f16f45525
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,6 +41,6 @@ The [TextFieldParser Object](../Topic/TextFieldParser%20Object.md) cannot read t
   
 ## See Also  
  [How to: Read From Text Files with Multiple Formats](../Topic/How%20to:%20Read%20From%20Text%20Files%20with%20Multiple%20Formats%20in%20Visual%20Basic.md)   
- [My.Computer.FileSystem.OpenTextFieldParser Method](assetId:///e5869f85-c078-485f-8323-8dc716494546)   
+ [My.Computer.FileSystem.OpenTextFieldParser Method](http://msdn.microsoft.com/en-us/e5869f85-c078-485f-8323-8dc716494546)   
  [Parsing Text Files with the TextFieldParser Object](../Topic/Parsing%20Text%20Files%20with%20the%20TextFieldParser%20Object%20\(Visual%20Basic\).md)   
  [TextFieldParser Object](../Topic/TextFieldParser%20Object.md)

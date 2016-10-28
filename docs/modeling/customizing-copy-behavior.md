@@ -1,19 +1,20 @@
 ---
 title: "Customizing Copy Behavior"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 87fff01c-60ba-440a-b8a0-185edcef83ac
 caps.latest.revision: 16
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Copy Behavior
-In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
+In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
   
 ## Standard Copy and Paste Behavior  
  To enable copying, set the **Enable Copy Paste** property of the **Editor** node in DSL Explorer.  
@@ -28,7 +29,7 @@ In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../codequ
   
  ![Copied and pasted elements](../modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")  
   
- The copied elements and links are serialized and stored in an \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which is placed on the clipboard.  
+ The copied elements and links are serialized and stored in an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which is placed on the clipboard.  
   
  An image of the copied elements is also placed on the clipboard. This allows the user to paste into other applications such as Word.  
   
@@ -209,7 +210,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
 ```  
   
  **Let the user drag and drop elements.**  
- See [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md).  
+ See [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).  
   
 ##  <a name="customizeLinks"></a> Customizing Link Copy Behavior  
  When the user copies an element, the standard behavior is that any embedded elements are also copied. You can modify the standard copying behavior. In the DSL Definition, select a role at one side of a relationship and in the Properties window set the **Propagates Copy** value.  
@@ -229,7 +230,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  The changes that you make will affect both the elements and the image that is copied.  
   
 ## Programming Copy and Paste Behavior  
- Many aspects of a DSL’s behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of \<xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL’s behavior by deriving your own class from \<xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations*> property of your diagram class.  
+ Many aspects of a DSL’s behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL’s behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations*> property of your diagram class.  
   
 > [!TIP]
 >  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
@@ -240,11 +241,11 @@ partial class MyDslClipboardCommandSet // EDIT NAME
   
 #### To define your own ElementOperations  
   
-1.  In a new file in your DSL project, create a class that is derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.DesignSurfaceElementOperations>.  
+1.  In a new file in your DSL project, create a class that is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.DesignSurfaceElementOperations>.  
   
 2.  Add a partial class definition for your diagram class. The name of this class can be found in **Dsl\GeneratedCode\Diagrams.cs**.  
   
-     In the diagram class, override  \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations*> to return an instance of your ElementOperations subclass. You should return the same instance at every call.  
+     In the diagram class, override  <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations*> to return an instance of your ElementOperations subclass. You should return the same instance at every call.  
   
  Add this code in a custom code file in the DslPackage project:  
   
@@ -281,7 +282,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
 ```  
   
 ## Receiving items dragged from other models  
- ElementOperations can also be used to define copy, move, deletion and drag-and-drop behavior. As a demonstration of the use of ElementOperations, the example given here defines custom drag-and-drop behavior. However, for that purpose you might consider the alternative approach described in [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md), which is more extensible.  
+ ElementOperations can also be used to define copy, move, deletion and drag-and-drop behavior. As a demonstration of the use of ElementOperations, the example given here defines custom drag-and-drop behavior. However, for that purpose you might consider the alternative approach described in [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md), which is more extensible.  
   
  Define two methods in your ElementOperations class:  
   
@@ -290,7 +291,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
 -   `MergeElementGroupPrototype(ModelElement targetElement, ElementGroupPrototype sourcePrototype)` which combines the source element into the target.  
   
 ### CanMerge()  
- `CanMerge()` is called to determine feedback that should be given to the user as the mouse moves across the diagram. The parameters to the method are the element over which the mouse is hovering, and data about the source from which the drag operation has been performed. The user can drag from anywhere on the screen. Therefore, the source object can be of many different types and can be serialized in different formats. If the source is a DSL or UML model, the data parameter is the serialization of an \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. Drag, copy and toolbox operations use ElementGroupPrototypes to represent fragments of models.  
+ `CanMerge()` is called to determine feedback that should be given to the user as the mouse moves across the diagram. The parameters to the method are the element over which the mouse is hovering, and data about the source from which the drag operation has been performed. The user can drag from anywhere on the screen. Therefore, the source object can be of many different types and can be serialized in different formats. If the source is a DSL or UML model, the data parameter is the serialization of an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. Drag, copy and toolbox operations use ElementGroupPrototypes to represent fragments of models.  
   
  An Element Group Prototype can contain any number of elements and links. Element types can be identified by their GUIDs. The GUID is of the shape that was dragged, not the underlying model element. In following example, `CanMerge()` returns true if a class shape from a UML diagram is dragged onto this diagram.  
   
@@ -369,7 +370,7 @@ private ElementGroupPrototype ConvertDraggedTypeToLocal (MyTargetShape snapshot,
 ## Standard Copy Behavior  
  The code in this section shows methods that can you can override to alter copying behavior. To help you see how to achieve your own customizations, this section shows code that overrides the methods involved in copying, but does not change the standard behavior.  
   
- When the user presses CTRL+C or uses the Copy menu command, the method \<xref:Microsoft.VisualStudio.Modeling.Shell.ClipboardCommandSet.ProcessOnMenuCopyCommand*> is called. You can see how this is set up in **DslPackage\Generated Code\CommandSet.cs**. For more information about how commands are set up, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md).  
+ When the user presses CTRL+C or uses the Copy menu command, the method <xref:Microsoft.VisualStudio.Modeling.Shell.ClipboardCommandSet.ProcessOnMenuCopyCommand*> is called. You can see how this is set up in **DslPackage\Generated Code\CommandSet.cs**. For more information about how commands are set up, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
  You can override ProcessOnMenuCopyCommand by adding a partial class definition of *MyDsl*`ClipboardCommandSet` in the DslPackage project.  
   
@@ -559,6 +560,6 @@ namespace Company.MyDsl
   
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)   
  [Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)

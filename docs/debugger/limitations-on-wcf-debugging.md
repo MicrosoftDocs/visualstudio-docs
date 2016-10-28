@@ -1,13 +1,13 @@
 ---
 title: "Limitations on WCF Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -72,7 +72,7 @@ There are three ways that you can begin debugging a WCF service:
 ## Limitations on Automatic Attach to a Service  
  Automatically attaching to a service has the following limitations:  
   
--   The service must be part of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution you are debugging.  
+-   The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.  
   
 -   The service must be hosted. It may be part of a Web Site Project (File System and HTTP), Web Application Project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
   
@@ -87,11 +87,11 @@ There are three ways that you can begin debugging a WCF service:
     ```  
   
 ## Self-Hosting  
- A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md).  
+ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).  
   
 ## Self-Hosting  
- To enable debugging of [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel**, **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] installation.  
+ To enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel**, **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] installation.  
   
 ## See Also  
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   
- [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md)
+ [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

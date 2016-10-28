@@ -1,13 +1,13 @@
 ---
 title: "Resource Compiler Error RC2115"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC2115"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2115"
 ms.assetid: 1b90feb0-f1fb-4f3c-8a9a-c44f9f8dc366
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

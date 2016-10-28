@@ -1,13 +1,13 @@
 ---
 title: "Visualizer API Reference"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -42,17 +42,17 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
   
 ## In This Section  
   
--   \<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer?displayProperty=fullName>  
+-   <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer?displayProperty=fullName>  
   
--   \<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService?displayProperty=fullName>  
+-   <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService?displayProperty=fullName>  
   
--   \<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider?displayProperty=fullName>  
+-   <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider?displayProperty=fullName>  
   
--   \<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost?displayProperty=fullName>  
+-   <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost?displayProperty=fullName>  
   
--   \<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource?displayProperty=fullName>  
+-   <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource?displayProperty=fullName>  
   
 ## See Also  
- [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough--writing-a-visualizer-in-csharp.md)   
- [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md)   
+ [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)   
+ [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

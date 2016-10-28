@@ -1,13 +1,13 @@
 ---
 title: "Extension methods can be defined only in modules"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36551"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36551"
 ms.assetid: c832d523-5bf6-4baf-b91c-bd26d94453ed
 caps.latest.revision: 22
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -61,7 +62,7 @@ End Namespace
 ```  
   
 ## See Also  
- [NOT IN BUILD: Application of Attributes](assetId:///2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/en-us/2b1703ed-4437-49b3-bc0b-568094324f47)   
  [Extension Methods](../Topic/Extension%20Methods%20\(Visual%20Basic\).md)   
  [Module \<keyword>](../Topic/Module%20%3Ckeyword%3E%20\(Visual%20Basic\).md)   
  [Module Statement](../Topic/Module%20Statement.md)

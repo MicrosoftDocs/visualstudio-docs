@@ -1,13 +1,13 @@
 ---
 title: "Managing VSPackages"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, autoloading"
@@ -46,13 +46,13 @@ In most cases you don’t need to worry about managing VSPackages, since the pro
  VSPackages can be set to autoload when a particular CMDUICONTEXT GUID is turned on. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
 ## Using AsyncPackage to Load VSPackages in the Background  
- The AsyncPackage class enables package loading on a background thread for better UI responsiveness in Visual Studio. For more information, see [How to: Use AsyncPackage to Load VSPackages in the Background](../extensibility/how-to--use-asyncpackage-to-load-vspackages-in-the-background.md).  
+ The AsyncPackage class enables package loading on a background thread for better UI responsiveness in Visual Studio. For more information, see [How to: Use AsyncPackage to Load VSPackages in the Background](../extensibility/how-to-use-asyncpackage-to-load-vspackages-in-the-background.md).  
   
 ## Rule-based UI Context for Extensions  
- Rules-based UI Contexts allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded. For more information, see [How to: Use Rule-based UI Context for Visual Studio Extensions](../extensibility/how-to--use-rule-based-ui-context-for-visual-studio-extensions.md).  
+ Rules-based UI Contexts allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded. For more information, see [How to: Use Rule-based UI Context for Visual Studio Extensions](../extensibility/how-to-use-rule-based-ui-context-for-visual-studio-extensions.md).  
   
 ## Troubleshooting VSPackages  
  Find out the techniques for troubleshooting VSPackages that don’t load or are experiencing errors: [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

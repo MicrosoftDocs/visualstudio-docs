@@ -1,13 +1,13 @@
 ---
 title: "Tool Windows in the Registry"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tool windows, registering"
@@ -31,12 +31,12 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Tool Windows in the Registry
-VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] as tool window providers. Tool windows created by using the Visual Studio Package template do this by default. Tool window providers have system registry keys that specify visibility attributes, such as default tool window size and location, the GUID of the window that serves as the tool window pane, and docking style.  
+VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] as tool window providers. Tool windows created by using the Visual Studio Package template do this by default. Tool window providers have system registry keys that specify visibility attributes, such as default tool window size and location, the GUID of the window that serves as the tool window pane, and docking style.  
   
  During development, managed tool window providers register tool windows by adding attributes to the source code, and then running the RegPkg.exe utility on the resulting assembly. For more information, see [Registering a Tool Window](../extensibility/registering-a-tool-window.md).  
   
 ## Registering Unmanaged Tool Window Providers  
- Unmanaged tool window providers must register with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the ToolWindows section of the system registry. The following .reg file fragment shows how a dynamic tool window might be registered:  
+ Unmanaged tool window providers must register with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the ToolWindows section of the system registry. The following .reg file fragment shows how a dynamic tool window might be registered:  
   
 ```  
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\<version number>\ToolWindows\{f0e1e9a1-9860-484d-ad5d-367d79aabf55}]  
@@ -49,7 +49,7 @@ VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../cod
 "{f1536ef8-92ec-443c-9ed7-fdadf150da82}"=dword:00000000  
 ```  
   
- In the first key in the example above, version number is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], such as 7.1 or 8.0, the subkey {f0e1e9a1-9860-484d-ad5d-367d79aabf55} is the GUID of the tool window pane (DynamicWindowPane), and the default value {01069cdd-95ce-4620-ac21-ddff6c57f012} is the GUID of the VSPackage providing the tool window. For an explanation of the Float and DontForceCreate subkeys, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).  
+ In the first key in the example above, version number is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as 7.1 or 8.0, the subkey {f0e1e9a1-9860-484d-ad5d-367d79aabf55} is the GUID of the tool window pane (DynamicWindowPane), and the default value {01069cdd-95ce-4620-ac21-ddff6c57f012} is the GUID of the VSPackage providing the tool window. For an explanation of the Float and DontForceCreate subkeys, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).  
   
  The second optional key, ToolWindows\Visibility, specifies the GUIDs of commands that require the tool window to be made visible. In this case, there are no commands specified. For more information, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).  
   

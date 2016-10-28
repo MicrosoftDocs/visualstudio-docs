@@ -1,13 +1,13 @@
 ---
 title: "COM Interop Wrapper Error"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.cannotcopyassembly"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "COM Interop Wrapper dialog box"
 ms.assetid: 9a9d6374-ee26-4dbc-9e34-e1d90f6254b4
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -51,7 +52,7 @@ This message box is displayed when the project system could not create a COM int
 >  COM interop wrappers are sometimes referred to as "primary interop assemblies." These terms are synonymous  
   
 ## See Also  
- [Component Model Namespaces in Visual Studio](assetId:///705d0add-0707-44ba-a6de-637381d9c937)   
+ [Component Model Namespaces in Visual Studio](http://msdn.microsoft.com/en-us/705d0add-0707-44ba-a6de-637381d9c937)   
  [Component Authoring](../Topic/Component%20Authoring.md)   
  [COM Interop](../Topic/COM%20Interop%20\(Visual%20Basic\).md)   
  [Common Language Runtime](../Topic/Common%20Language%20Runtime%20\(CLR\).md)   

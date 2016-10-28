@@ -1,13 +1,13 @@
 ---
 title: "COM and ActiveX Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.com"
@@ -48,7 +48,7 @@ This section provides tips on debugging COM applications and ActiveX controls.
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)  
  Mentions special considerations when debugging COM applications. Issues include: debugging a COM server and container using two projects within the same solution, tracing into calls that go across process boundaries, setting breakpoints in callback functions, and stepping across and into containers and servers.  
   
- [How to: Debug an ActiveX Control](../debugger/how-to--debug-an-activex-control.md)  
+ [How to: Debug an ActiveX Control](../debugger/how-to-debug-an-activex-control.md)  
  Contains information on debugging ActiveX controls. This includes: specifying a container for the debug session to see how the code in your ActiveX control executes, debugging a data-bound ActiveX control, simulating a particular container, and stepping into the container's code.  
   
  [COM Debugging Tools](../debugger/com-debugging-tools.md)  

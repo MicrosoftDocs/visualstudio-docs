@@ -1,13 +1,13 @@
 ---
 title: "Visual Studio User Interface Design Guidelines"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "application design, Visual Studio user interface"
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio User Interface Design Guidelines
-This content has been removed. For more information, see [User Experience Guidelines for Visual Studio](assetId:///baa3b2d5-82b2-4492-b5e7-b5ae91381ef5).
+This content has been removed. For more information, see [User Experience Guidelines for Visual Studio](http://msdn.microsoft.com/en-us/baa3b2d5-82b2-4492-b5e7-b5ae91381ef5).

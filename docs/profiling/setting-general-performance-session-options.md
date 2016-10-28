@@ -1,13 +1,13 @@
 ---
 title: "Setting General Performance Session Options"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.property.general"
@@ -31,11 +31,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Setting General Performance Session Options
-You can set the collection method and profiling data naming conventions for a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools performance session on the **General** page of the properties dialog box for the performance session. To open this dialog box from **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+You can set the collection method and profiling data naming conventions for a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools performance session on the **General** page of the properties dialog box for the performance session. To open this dialog box from **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 ## Choosing Data Collection Methods  
  You set the base collection method by selecting one of the options under **Profiling collection**. The options are described following in the following table:  
@@ -50,7 +50,7 @@ You can set the collection method and profiling data naming conventions for a [!
   
 |||  
 |-|-|  
-|**Collect .NET object allocation information**. By default, data includes the number and size of allocated objects. Select or clear this check box to enable or disable .NET memory data collection.<br /><br /> **Also collect .NET object lifetime information**. Select this check box to include data about the garbage collection generations that were used to reclaim the memory objects.|-   [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-.net-memory-allocation-and-lifetime-data.md)|  
+|**Collect .NET object allocation information**. By default, data includes the number and size of allocated objects. Select or clear this check box to enable or disable .NET memory data collection.<br /><br /> **Also collect .NET object lifetime information**. Select this check box to include data about the garbage collection generations that were used to reclaim the memory objects.|-   [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)|  
   
  A profiling session page appears when you start to profile an application, where you can pause, resume, and stop profiling.  
   
@@ -60,4 +60,4 @@ You can set the collection method and profiling data naming conventions for a [!
   
 |||  
 |-|-|  
-|**Report**. By default, the profiling data (.vsp) file is given the name of the profiled application and is located in the solution or project folder. A date string is also appended to the name, and an incremented number is added to data files that otherwise would have duplicate names. You can change these options.|-   [How to: Set Performance Data File Name Options](../profiling/how-to--set-performance-data-file-name-options.md)|
+|**Report**. By default, the profiling data (.vsp) file is given the name of the profiled application and is located in the solution or project folder. A date string is also appended to the name, and an incremented number is added to data files that otherwise would have duplicate names. You can change these options.|-   [How to: Set Performance Data File Name Options](../profiling/how-to-set-performance-data-file-name-options.md)|

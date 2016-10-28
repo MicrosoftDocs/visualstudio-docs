@@ -1,13 +1,13 @@
 ---
 title: "Several Documents About Server Explorer Are Available"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.serverexplorer.addnewserver"
@@ -20,6 +20,7 @@ f1_keywords:
   - "vb.serverexplorer"
 ms.assetid: 41d50ca4-37db-4c47-8444-6dc2b06d8e8b
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -38,14 +39,14 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Several Documents About Server Explorer Are Available
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Help contains the following documents about **Server Explorer** that may apply to your Help request. Select the document that best corresponds to the task you are trying to accomplish.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Help contains the following documents about **Server Explorer** that may apply to your Help request. Select the document that best corresponds to the task you are trying to accomplish.  
   
 |Title|Description|  
 |-----------|-----------------|  
 |[Add Server Dialog Box](../Topic/Add%20Server%20Dialog%20Box.md)|Describes the **Add Server** dialog box, which you can use to specify a server to be displayed in **Server Explorer**.|  
-|[Additional resources for troubleshooting data access errors](../datatools/additional-resources-for-troubleshooting-data-access-errors.md)|Links to documents about data services.|  
+|[Additional resources for troubleshooting data access errors](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)|Links to documents about data services.|  
 |[Connect As Dialog Box](../Topic/Connect%20As%20Dialog%20Box.md)|Describes the **Connect As** dialog box, which lets you change the logon security for a specified server.|  
 |[Create Message Queue Dialog Box](../Topic/Create%20Message%20Queue%20Dialog%20Box.md)|Describes the **Create Message Queue** dialog box, which lets you create and name a queue on the specified server.|  
-|[Server Explorer](../Topic/Server%20Explorer.md)|Describes the **Server Explorer**/**Database Explorer**, which is the server management console for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|[Server Explorer](../Topic/Server%20Explorer.md)|Describes the **Server Explorer**/**Database Explorer**, which is the server management console for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |[Browsing SharePoint Connections Using Server Explorer](../Topic/Browsing%20SharePoint%20Connections%20Using%20Server%20Explorer.md)|Describes how to browse SharePoint sites by using **Server Explorer**.|  
-|[Local Data Overview](../datatools/local-data-overview.md)|Describes how to convert a database file (.mdf) to a format that is used by [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)].|
+|[Local Data Overview](../data-tools/local-data-overview.md)|Describes how to convert a database file (.mdf) to a format that is used by [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|

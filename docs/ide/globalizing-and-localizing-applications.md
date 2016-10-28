@@ -1,13 +1,13 @@
 ---
 title: "Globalizing and Localizing Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "globalization [Visual Studio]"
@@ -36,13 +36,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Globalizing and Localizing Applications
-If you plan on distributing your application to an international audience, you'll need to keep several things in mind during the design and development phases. Even if you don't have such plans, a small effort up front can make things considerably easier should your plans change in future versions of your application. Services built into the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] make it easy to develop a single application that can adapt to different locales using managed development with Visual Studio.  
+If you plan on distributing your application to an international audience, you'll need to keep several things in mind during the design and development phases. Even if you don't have such plans, a small effort up front can make things considerably easier should your plans change in future versions of your application. Services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] make it easy to develop a single application that can adapt to different locales using managed development with Visual Studio.  
   
- Visual Studio was designed from the start to make developing for an international audience easy by taking advantage of services built into the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. The following pages will help introduce you to the internationalization features built into Visual Studio.  
+ Visual Studio was designed from the start to make developing for an international audience easy by taking advantage of services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. The following pages will help introduce you to the internationalization features built into Visual Studio.  
   
 ## In This Section  
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  
- Introduces the concepts related to developing software for an international market using Visual Studio and the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
+ Introduces the concepts related to developing software for an international market using Visual Studio and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
  [Localizing Applications](../ide/localizing-applications.md)  
  Provides links to pages about customizing applications for a given culture.  
@@ -52,10 +52,10 @@ If you plan on distributing your application to an international audience, you'l
   
 ## Related Sections  
  [Globalizing your app (Windows Store apps using JavaScript and HTML)](http://go.microsoft.com/fwlink/?LinkId=258266)  
- Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app built using JavaScript and HTML.  
+ Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app built using JavaScript and HTML.  
   
  [Globalizing your app (Windows Store apps using C#/VB/C++ and XAML)](http://go.microsoft.com/fwlink/?LinkId=258267)  
- Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app built using XAML and Visual C#, Visual Basic, or Visual C++.  
+ Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app built using XAML and Visual C#, Visual Basic, or Visual C++.  
   
  [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
  Provides background information on programming for an international audience.  
@@ -63,8 +63,8 @@ If you plan on distributing your application to an international audience, you'l
  [Class Library Overview](../Topic/.NET%20Framework%20Class%20Library%20Overview.md)  
  Introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.  
   
- \<xref:System.Globalization>  
+ <xref:System.Globalization>  
  Points out the classes in this namespace, which define culture-related information, including the language, the country/region, the calendars in use, the format patterns for dates, currency and numbers, and the sort order for strings.  
   
- \<xref:System.Resources>  
+ <xref:System.Resources>  
  Points out the classes and interfaces in this namespace, which allows developers to create, store, and manage various culture-specific resources used in an application.

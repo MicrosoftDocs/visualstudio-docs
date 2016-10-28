@@ -1,13 +1,13 @@
 ---
 title: "Resource Compiler Warning RC4111"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC4111"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4111"
 ms.assetid: b7e46eb0-b318-4438-8e21-09c89a0e81b4
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

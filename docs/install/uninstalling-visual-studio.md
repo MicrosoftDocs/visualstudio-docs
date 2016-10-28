@@ -1,13 +1,13 @@
 ---
 title: "Uninstalling Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "2016-05-05"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "uninstalling"
@@ -71,7 +71,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
   
 2.  Install or reinstall the earlier version of Visual Studio that you want to use.  
   
- Even if you install a previous version of Visual Studio, the Setup program might still try to use a newer version or release if one is available. For more detailed information, see the [How to: Install a Specific Release of Visual Studio](../install/how-to--install-a-specific-release-of-visual-studio.md) topic.  
+ Even if you install a previous version of Visual Studio, the Setup program might still try to use a newer version or release if one is available. For more detailed information, see the [How to: Install a Specific Release of Visual Studio](../install/how-to-install-a-specific-release-of-visual-studio.md) topic.  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)

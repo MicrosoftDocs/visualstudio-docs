@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS2019"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS2019"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2019"
 ms.assetid: eafd2531-8b3a-499c-9e12-a605a011396f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

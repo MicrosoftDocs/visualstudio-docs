@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3481"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.SignFile.CertNotInStore"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3481"
 ms.assetid: 55f99775-3bd5-4e1b-b184-c6405d75e8ff
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   Make sure that a valid certificate that matches your project's .pfx file is in your personal certificate store.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

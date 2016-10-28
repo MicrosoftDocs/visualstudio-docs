@@ -1,18 +1,19 @@
 ---
 title: "At least one configuration was not loaded because it does not have a configuration name attribute"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.projfile_nameless_config"
 ms.assetid: 711f7253-308b-44e0-b8bc-ca5c16536a2c
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -48,4 +49,4 @@ Each `<Config>` section in a .csproj or .vbproj file must have a Name attribute 
   
 ## See Also  
  [Project Files](../Topic/Project%20Files.md)   
- [NIB: Project Properties (Visual Studio)](assetId:///eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

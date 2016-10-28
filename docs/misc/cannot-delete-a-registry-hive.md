@@ -1,18 +1,19 @@
 ---
 title: "Cannot delete a registry hive"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 53ed771c-83f8-4657-a70d-5f9252cd448e
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,5 +39,5 @@ An attempt has been made to delete a registry hive. Hives are top-level registry
   
 ## See Also  
  [My.Computer.Registry Object](../Topic/My.Computer.Registry%20Object.md)   
- [Common Registry Tasks (Visual Basic)](assetId:///0bde9f77-b38b-4c76-bac2-ff6cda3087c4)   
+ [Common Registry Tasks (Visual Basic)](http://msdn.microsoft.com/en-us/0bde9f77-b38b-4c76-bac2-ff6cda3087c4)   
  [How to: Delete a Registry Key](../Topic/How%20to:%20Delete%20a%20Registry%20Key%20in%20Visual%20Basic.md)

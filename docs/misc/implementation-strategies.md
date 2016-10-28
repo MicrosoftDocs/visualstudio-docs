@@ -1,13 +1,13 @@
 ---
 title: "Implementation Strategies"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, implementation strategies"
@@ -35,7 +35,7 @@ You can extend Visual Studio with automation add-ins, VSPackages, Managed Extens
   
  VSPackages can be written in unmanaged or managed code. We recommend that you write new VSPackages in managed code by using the managed package framework (MPF). Almost anything that can be written in unmanaged code can be implemented more easily and securely in managed code. However, legacy applications written in unmanaged code will continue to run in Visual Studio.  
   
- Simple extensions can add tool windows or send information to Visual Studio UI elements, such as the status bar or output window. More complex applications can be written as Visual Studio hierarchies, such as the Server Explorer. Still more power can be obtained by implementing a project, editor, or designer. For example, [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] are themselves implemented as language services.  
+ Simple extensions can add tool windows or send information to Visual Studio UI elements, such as the status bar or output window. More complex applications can be written as Visual Studio hierarchies, such as the Server Explorer. Still more power can be obtained by implementing a project, editor, or designer. For example, [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] are themselves implemented as language services.  
   
 ## Related Sections  
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
@@ -50,16 +50,16 @@ You can extend Visual Studio with automation add-ins, VSPackages, Managed Extens
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
  Discusses common UI application elements in Visual Studio, such as the Status and Output windows.  
   
- [Hierarchies in Visual Studio](../extensibility/hierarchies-in-visual-studio.md)  
+ [Hierarchies in Visual Studio](../extensibility/internals/hierarchies-in-visual-studio.md)  
  Gives an overview of Visual Studio hierarchies, which appear in the integrated development environment (IDE) as trees of nodes.  
   
- [Projects](../extensibility/projects.md)  
+ [Projects](../extensibility/internals/projects.md)  
  Provides an overview of project and solution classes.  
   
  [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md)  
  Shows how to extend the code and text editor, and how to create custom editors and designers.  
   
- [Legacy Language Service Extensibility](../extensibility/legacy-language-service-extensibility.md)  
+ [Legacy Language Service Extensibility](../extensibility/internals/legacy-language-service-extensibility.md)  
  Shows how to create language services.  
   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)  

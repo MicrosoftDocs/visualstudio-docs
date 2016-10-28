@@ -1,16 +1,17 @@
 ---
 title: "Export UML diagrams to image files"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b29ce2a5-0ee3-4ab7-9aa3-13ca9c6b37a2
 caps.latest.revision: 8
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,7 +28,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Export UML diagrams to image files
-You can export a UML document from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
+You can export a UML document from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
   
  If you want to export a document to an image manually, you can copy and paste the shapes from a diagram into other programs such as Word. You can also print documents to XPS format. For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  
   
@@ -37,7 +38,7 @@ You can export a UML document from [!INCLUDE[vsprvs](../codequality/includes/vsp
 > [!NOTE]
 >  To make this code work as a menu command, you must incorporate it into a MEF component. For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
- The code first uses \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject*> to get the \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> of the underlying implementation. This type has a method \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap*>.  
+ The code first uses <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject*> to get the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> of the underlying implementation. This type has a method <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap*>.  
   
 ```  
 namespace SaveToImage  

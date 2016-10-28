@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0629"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0629"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0629"
 ms.assetid: 20f22ef0-3c6f-4108-ab09-3f0752375a10
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS0629
 Conditional member 'member' cannot implement interface member 'base class member' in type 'Type Name'  
   
- The [Conditional](assetId:///e1c4913b-74d0-421a-8a6d-c14b3f0e68fb) attribute cannot be used on the implementation of an interface.  
+ The [Conditional](http://msdn.microsoft.com/en-us/e1c4913b-74d0-421a-8a6d-c14b3f0e68fb) attribute cannot be used on the implementation of an interface.  
   
  The following sample generates CS0629:  
   

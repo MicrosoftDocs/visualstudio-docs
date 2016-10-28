@@ -1,13 +1,13 @@
 ---
 title: "Understanding Resource Contention Data Values"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "concurrency profiling method"
@@ -37,7 +37,7 @@ Resource contention profiling collects detailed call stack information each time
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  Resource contention reports display the total number of contentions and the total time that was spent waiting for a resource for the modules, functions, source code lines, and instructions in which the waiting occured.  
   
@@ -47,8 +47,8 @@ Resource contention profiling collects detailed call stack information each time
   
  Resource contention report views also include timeline graphs that show the individual contention events over time and show the call stacks that created the particular event. For more information, see one of the following topics:  
   
--   [Thread Details View](../profiling/thread-details-view---contention-data.md)  
+-   [Thread Details View](../profiling/thread-details-view-contention-data.md)  
   
--   [Resource Details View](../profiling/resource-details-view---contention-data.md)  
+-   [Resource Details View](../profiling/resource-details-view-contention-data.md)  
   
  For more information about the second mode of concurrency profiling, see [Concurrency Visualizer](../profiling/concurrency-visualizer.md).

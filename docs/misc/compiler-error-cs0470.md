@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0470"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0470"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0470"
 ms.assetid: b5a8e820-aa5c-4f69-b5c6-01c6a6bb82d9
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

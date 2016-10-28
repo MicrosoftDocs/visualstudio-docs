@@ -1,13 +1,13 @@
 ---
 title: "Using the Toolbox"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.chooseitems"
@@ -77,4 +77,4 @@ You can use the toolbox to add controls and other items to your project. You can
 -   **Move Down** - Moves the selected item down.  
   
 ## Creating and Distributing Custom Toolbox Controls  
- You can create a custom toolbox control in either Visual Basic or Visual C#, and you can start with a project template that's based on [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) or [Windows Forms](../misc/how-to--create-a-toolbox-control-that-uses-windows-forms.md). You can then distribute your control to your teammates or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
+ You can create a custom toolbox control in either Visual Basic or Visual C#, and you can start with a project template that's based on [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) or [Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md). You can then distribute your control to your teammates or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).

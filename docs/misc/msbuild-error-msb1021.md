@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB1021"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.LoggerCreationError"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1021"
 ms.assetid: 1a240035-a58c-439b-8174-e04fa7e2c3fc
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,8 +41,8 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   For more information about the cause and possible resolutions of an MSBuild error, see [Additional Resources](../reference/additional-msbuild-resources.md).  
+-   For more information about the cause and possible resolutions of an MSBuild error, see [Additional Resources](../msbuild/additional-msbuild-resources.md).  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
- [Build Loggers](../reference/build-loggers.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
+ [Build Loggers](../msbuild/build-loggers.md)

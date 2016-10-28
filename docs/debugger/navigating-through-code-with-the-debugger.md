@@ -1,13 +1,13 @@
 ---
 title: "Navigating through Code with the Debugger"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.execution"
@@ -119,7 +119,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
      To break into the next available line of code in an executing app, choose **Debug**, **Break All** (keyboard: **Ctrl+Alt+Break**).  
   
-     If you break while executing code without corresponding source or symbol (.pdb) files), the debugger displays a **Source Files Not Found** or a **Symbols Not Found** page that can help you find the appropriate files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md). If you can't access the supporting files, you can still debug the assembly instructions in the Disassembly window.  
+     If you break while executing code without corresponding source or symbol (.pdb) files), the debugger displays a **Source Files Not Found** or a **Symbols Not Found** page that can help you find the appropriate files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't access the supporting files, you can still debug the assembly instructions in the Disassembly window.  
   
 -   **Run to a function on the call stack**  
   
@@ -183,7 +183,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  If you have loaded debugging symbols for system code and Just My Code is not enabled, you can step into a system call just as you can any other call.  
   
- To access Microsoft symbol files, see [Use symbol servers to find symbol files not on your local machine](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md#BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine) in the [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md) topic.  
+ To access Microsoft symbol files, see [Use symbol servers to find symbol files not on your local machine](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine) in the [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) topic.  
   
  To load symbols for a specific system component while you are debugging:  
   

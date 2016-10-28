@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS1945"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1945"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1945"
 ms.assetid: 787f61b0-4767-451c-8c78-8e456b5057eb
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
 title: "Timeline Caret"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.caret"
@@ -37,4 +37,4 @@ translation.priority.mt:
 When you select a point on the timeline of an executing thread segment, a Timeline caret appears above it. The call stack that is displayed on the current stack tab is the one that is closest in time to where you clicked the segment. The caret is used to associate the call stack, which is displayed under the **Current** tab, with the instant when it was sampled. The caret shows the exact location of the call stack, which is the closest call stack to the location that the user selected.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

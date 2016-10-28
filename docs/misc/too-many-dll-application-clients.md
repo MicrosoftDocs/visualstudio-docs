@@ -1,20 +1,21 @@
 ---
 title: "Too many DLL application clients"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID47"
 ms.assetid: 4b87780b-67ad-4c96-9253-db954a751dad
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -32,11 +33,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Too many DLL application clients
-The dynamic-link library (DLL) for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] can only accommodate access by a limited number of host applications. Your application and other applications that are [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] hosts (some of which may be accessed by your application) are all attempting to access the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] DLL at the same time.  
+The dynamic-link library (DLL) for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] can only accommodate access by a limited number of host applications. Your application and other applications that are [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] hosts (some of which may be accessed by your application) are all attempting to access the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] DLL at the same time.  
   
 ### To correct this error  
   
--   Reduce the number of open applications accessing [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+-   Reduce the number of open applications accessing [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 ## See Also  
  [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)

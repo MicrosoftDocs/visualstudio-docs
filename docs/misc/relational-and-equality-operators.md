@@ -1,13 +1,13 @@
 ---
 title: "Relational and Equality Operators"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "less-than operators"
 ms.assetid: 477c18d4-cf7d-4b6d-a5af-ca7623f822c7
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

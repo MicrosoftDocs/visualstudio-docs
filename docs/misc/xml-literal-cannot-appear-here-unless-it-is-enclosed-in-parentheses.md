@@ -1,13 +1,13 @@
 ---
 title: "XML literal cannot appear here unless it is enclosed in parentheses"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc31198"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31198"
 ms.assetid: 97b16076-39ff-430a-9c65-073d01bcb08e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # XML literal cannot appear here unless it is enclosed in parentheses
-An XML literal declaration is used in an expression in a location that is ambiguous to the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler. That is, the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler cannot determine whether the less-than character (<) is intended as a comparative operator or the start of an XML literal. The following code provides an example:  
+An XML literal declaration is used in an expression in a location that is ambiguous to the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler. That is, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler cannot determine whether the less-than character (<) is intended as a comparative operator or the start of an XML literal. The following code provides an example:  
   
  [Visual Basic]  
   

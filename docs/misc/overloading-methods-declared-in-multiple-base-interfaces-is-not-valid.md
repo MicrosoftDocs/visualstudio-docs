@@ -1,13 +1,13 @@
 ---
 title: "Overloading methods declared in multiple base interfaces is not valid"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc31410"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31410"
 ms.assetid: 7d1831c2-837c-4b02-8492-d0fc038fe184
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

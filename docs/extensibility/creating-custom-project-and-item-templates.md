@@ -1,13 +1,13 @@
 ---
 title: "Creating Custom Project and Item Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 caps.latest.revision: 10
@@ -45,7 +45,7 @@ The Visual Studio SDK includes project templates that create a custom project te
   
 2.  Add and remove items from the project as required for your project. Do not remove the editable project file, the AssemblyInfo file, or the .vstemplate file.  
   
-3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element--visual-studio-templates-.md) element must contain a [ProjectItem](../extensibility/projectitem-element--visual-studio-item-templates-.md) element for each file to be included in the template.  
+3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element-visual-studio-templates.md) element must contain a [ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md) element for each file to be included in the template.  
   
 4.  Modify your code files and other user-facing content, and add appropriate parameter substitutions.  
   
@@ -63,7 +63,7 @@ The Visual Studio SDK includes project templates that create a custom project te
   
 2.  Add and remove items from the project as required for your project.  
   
-3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element--visual-studio-templates-.md) element must contain a [ProjectItem](../extensibility/projectitem-element--visual-studio-item-templates-.md) element for each file to be included in the template.  
+3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element-visual-studio-templates.md) element must contain a [ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md) element for each file to be included in the template.  
   
 4.  Modify your code files and other user-facing content, and add appropriate parameter substitutions.  
   

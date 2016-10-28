@@ -1,13 +1,13 @@
 ---
 title: "Creating a Custom Start Page"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 caps.latest.revision: 18
@@ -53,7 +53,7 @@ If you cannot create a custom Start Page by using the Start Page project templat
   
      These namespaces let you access Visual Studio commands, controls, and UI settings. For more information, see [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md).  
   
-     The following example shows the markup in the .xaml file for a blank Start Page. Any custom content should go in the inner \<xref:System.Windows.Controls.Grid> element.  
+     The following example shows the markup in the .xaml file for a blank Start Page. Any custom content should go in the inner <xref:System.Windows.Controls.Grid> element.  
   
     ```vb  
     <UserControl  
@@ -97,8 +97,8 @@ If you cannot create a custom Start Page by using the Start Page project templat
 -   After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio  
   
 ## See Also  
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough--adding-custom-xaml-to-the-start-page.md)   
+ [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)   
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)   
- [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough--saving-user-settings-on-a-start-page.md)   
+ [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)   
  [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md)

@@ -1,13 +1,13 @@
 ---
 title: "Neutral Resources Languages for Localization"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "localization [Visual Studio], resources"
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Neutral Resources Languages for Localization
-The \<xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies the culture of the resources included in the main assembly. This attribute is used as a performance enhancement, so that the \<xref:System.Resources.ResourceManager> object does not search for resources that are included in the main assembly.  
+The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies the culture of the resources included in the main assembly. This attribute is used as a performance enhancement, so that the <xref:System.Resources.ResourceManager> object does not search for resources that are included in the main assembly.  
   
  The following code shows how to set the neutral resources language. The code can be placed in either a build script or in the AssemblyInfo.vb or AssemblyInfo.cs file.  
   
@@ -52,8 +52,8 @@ The \<xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies t
 ```  
   
 ## See Also  
- \<xref:System.Resources.ResourceManager>   
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)   
+ <xref:System.Resources.ResourceManager>   
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
  [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

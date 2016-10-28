@@ -1,18 +1,19 @@
 ---
 title: "Domain Path Syntax"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, domain path"
 ms.assetid: 945994f9-72b9-42e0-81b2-e5fb3d0e282d
 caps.latest.revision: 25
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.  
@@ -34,4 +35,4 @@ DSL Definitions use an XPath-like syntax to locate specific elements in a model.
  The name that you use for the element-to-link hop is the value of the role's `Property Name`. The name that you use for the link-to-element hop is the target role name.  
   
 ## See Also  
- [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md)
+ [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

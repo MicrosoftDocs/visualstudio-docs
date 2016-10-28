@@ -1,13 +1,13 @@
 ---
 title: "Find in Files"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.findreplace.findinfiles"
@@ -106,4 +106,4 @@ translation.priority.ht:
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Replace in Files](../ide/replace-in-files.md)   
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

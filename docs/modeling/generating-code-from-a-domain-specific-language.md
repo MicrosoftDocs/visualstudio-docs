@@ -1,16 +1,17 @@
 ---
 title: "Generating Code from a Domain-Specific Language"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3706cc9-2afd-456a-a879-68425a248ebc
 caps.latest.revision: 13
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Generating Code from a Domain-Specific Language
 Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful way to generate code, documents, configuration files and other artifacts from data represented in models. Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.  
@@ -27,7 +28,7 @@ Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful wa
   
  When the customer database is processed, the XML file is read into the model store. A *directive processor*, created by using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], makes the Customer class available to the code in the text template. Many text templates can be run against the same store.  
   
- Text templates are essential to [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Text templates are essential to [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  This section discusses some of the ways to create, modify, and debug text templates used in [!INCLUDE[dsl](../modeling/includes/dsl_md.md)].  
   
@@ -36,11 +37,11 @@ Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful wa
   
  Provides basic information about referring to domain-specific language in text templates.  
   
- [Walkthrough: Debugging a Text Template that Accesses a Model](../modeling/walkthrough--debugging-a-text-template-that-accesses-a-model.md)  
+ [Walkthrough: Debugging a Text Template that Accesses a Model](../modeling/walkthrough-debugging-a-text-template-that-accesses-a-model.md)  
   
  Describes how to do troubleshooting and debugging on a text template that refers to a domain-specific language.  
   
- [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough--connecting-a-host-to-a-generated-directive-processor.md)  
+ [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)  
   
  Describes how to connect a custom host to a generated directive processor.  
   

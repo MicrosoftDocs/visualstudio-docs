@@ -1,13 +1,13 @@
 ---
 title: "IDSymbol Element"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDSymbol element (VSCT XML schema)"
@@ -63,4 +63,4 @@ The `IDSymbol` element contains the ID of the GUID:ID pair that represents a men
  Every `IDSymbol` element in a given `GuidSymbol` element must have a unique `value`. However, `IDSymbol` elements that have identical values can exist in a package as long as they have different parents.  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

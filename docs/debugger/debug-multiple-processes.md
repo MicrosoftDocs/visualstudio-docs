@@ -1,13 +1,13 @@
 ---
 title: "Debug Multiple Processes"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.programs"
@@ -60,14 +60,14 @@ Here’s how to start debugging processes, switch between processes, break and c
   
 2.  On the **Debugging**, **General** page, clear the **Break all processes when one process breaks** check box.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files  
- To navigate the source code of a process, the debugger needs access to the source files and symbol files of the process. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).  
+ To navigate the source code of a process, the debugger needs access to the source files and symbol files of the process. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
- If you can’t access the files for a process, you can navigate by using the Disassemby window. See [How to: Use the Disassembly Window](../debugger/how-to--use-the-disassembly-window.md)  
+ If you can’t access the files for a process, you can navigate by using the Disassemby window. See [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger"></a> Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger  
   
@@ -92,9 +92,9 @@ Here’s how to start debugging processes, switch between processes, break and c
 ####  <a name="BKMK_Start_a_specific_project_in_a_solution"></a> Start a specific project in a solution  
  To start a project for a solution without changing the default startup project, select the project in Solution Explorer and then choose **Debug** from the context menu. You can then choose **Start new instance** or **Step Into new instance**.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ####  <a name="BKMK_Start_multiple_projects_in_a_solution"></a> Start multiple projects in a solution  
   
@@ -104,9 +104,9 @@ Here’s how to start debugging processes, switch between processes, break and c
   
 3.  For each project that you want to change, choose either **Start**, **Start without debugging**, or **None**.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Attach_to_a_process"></a> Attach to a process  
  The debugger can also to *attach* to programs that are running in processes outside of Visual Studio, including programs that are running on a remote device. After you attach to a program, you can use debugger execution commands, inspect the program state, and so on. Your ability to inspect the program might be limited, depending on whether the program was built with debug information and whether you have access to the program's source code, and whether the common language runtime JIT compiler is tracking debug information.  
@@ -119,7 +119,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  ![Attach to Process dialog box](../debugger/media/dbg_attachtoprocessdlg.png "DBG_AttachToProcessDlg")  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Automatically start a process in the debugger  
  Sometimes, you might need to debug the startup code for a program that is launched by another process. Examples include services and custom setup actions. In these scenarios, you can have the debugger launch and automatically attach when your application starts.  
@@ -144,7 +144,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  ![Automatic debugger start entry in regedit.exe](../debugger/media/dbg_execution_automaticstart_result.png "DBG_Execution_AutomaticStart_Result")  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Switch processes, break and continue execution, step through source  
   
@@ -169,9 +169,9 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  Switching to a project sets it the current process for debugging purposes. Any debugger window that you view will show the state for the current process, and all stepping commands affect only the current process.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Switch processes, break and continue execution, step through source](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Switch processes, break and continue execution, step through source](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands  
   
@@ -190,9 +190,9 @@ Here’s how to start debugging processes, switch between processes, break and c
 |**Processes** window context menu:<br /><br /> -   **Break Process**|N/A|Selected process breaks.<br /><br /> Other processes maintain their existing state (suspended or running).|  
 |**Processes** window context menu:<br /><br /> -   **Continue  Process**|N/A|Selected process resumes.<br /><br /> Other processes maintain their existing state (suspended or running).|  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Switch processes, break and continue execution, step through source](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Switch processes, break and continue execution, step through source](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Stop_debugging__terminate_or_detach_from_processes"></a> Stop debugging, terminate or detach from processes  
   
@@ -225,12 +225,12 @@ Here’s how to start debugging processes, switch between processes, break and c
 |**Processes** window context menu:<br /><br /> -   **Terminate Process**|The selected process is terminated.<br /><br /> Other processes maintain their existing state (suspended or running).|  
 |**Processes** window context menu:<br /><br /> -   **Detach when debugging stops**|Toggles the behavior of **Debug**, **Stop Debugging** for the selected process:<br /><br /> -   Checked: The debugger detaches from the process.<br />-   Cleared: The process is terminated.|  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Stop debugging, terminate or detach from processes](../debugger/debug-multiple-processes.md#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Stop debugging, terminate or detach from processes](../debugger/debug-multiple-processes.md#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)   
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   

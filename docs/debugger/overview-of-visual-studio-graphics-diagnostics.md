@@ -1,13 +1,13 @@
 ---
 title: "Overview of Visual Studio Graphics Diagnostics"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ddd429d9-ac70-4ac4-9e69-299c6ea2df09
 caps.latest.revision: 29
@@ -34,7 +34,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 ## Using Graphics Diagnostics to debug rendering problems  
  Debugging rendering problems in a graphically-rich app is not as straight-forward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.  
   
- The Graphics Diagnostics tools in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state—in the app's own source code.  
+ The Graphics Diagnostics tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state—in the app's own source code.  
   
 ## DirectX version compatibility  
  Graphics Diagnostics supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.  

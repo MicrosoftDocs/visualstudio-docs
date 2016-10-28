@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0214"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0214"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0214"
 ms.assetid: be1ef909-a53e-485f-a79b-b1cc56cead15
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

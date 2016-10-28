@@ -1,13 +1,13 @@
 ---
 title: "ClickOnce Deployment on Windows Vista"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Windows, ClickOnce deployment"
 ms.assetid: b21a0ebc-0ff6-4f49-8993-7d1ad3f8cac2
 caps.latest.revision: 12
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -56,12 +57,12 @@ Building applications in Visual Studio for User Account Control (UAC) on Windows
   
  Note that the method for configuring UAC manifest generation in the Visual Studio IDE differs depending on project type (Visual C# and Visual Basic).  
   
- For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md).  
+ For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).  
   
- For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md).  
+ For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [User Permissions and Visual Studio](assetId:///d5c55084-1e7b-4b61-b478-137db01c0fc0)   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)
+ [User Permissions and Visual Studio](http://msdn.microsoft.com/en-us/d5c55084-1e7b-4b61-b478-137db01c0fc0)   
+ [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)

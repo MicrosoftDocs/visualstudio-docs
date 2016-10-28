@@ -1,13 +1,13 @@
 ---
 title: "Troubleshooting Specific Errors in ClickOnce Deployments"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.UncRequired"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, troubleshooting"
 ms.assetid: 22dfe8f1-8271-4708-9c25-6bbb13920ac8
 caps.latest.revision: 13
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -49,7 +50,7 @@ This topic lists the following common errors that can occur when you deploy a [!
   
  First, make sure that the server is configured to associate the .application extension with content type "application/x-ms-application".  
   
- If the server is configured correctly, ensure that the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] to re-register the content type on the client.  
+ If the server is configured correctly, ensure that the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] to re-register the content type on the client.  
   
 #### Error message says, "Unable to retrieve application. Files missing in deployment" or "Application download has been interrupted, check for network errors and try again later"  
  This message indicates that one or more files being referenced by the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests cannot be downloaded. The easiest way to debug this error is to try to download the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] says it cannot download. Here are some possible causes:  
@@ -72,7 +73,7 @@ This topic lists the following common errors that can occur when you deploy a [!
  For more information, see "Windows Server 2003: Locked-Down Content Types" in [Server and Client Configuration Issues in ClickOnce Deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
   
 #### Error message: "Application is improperly formatted;" Log file contains "XML signature is invalid"  
- Ensure that you updated the manifest file and signed it again. Republish your application by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or use Mage to sign the application again.  
+ Ensure that you updated the manifest file and signed it again. Republish your application by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or use Mage to sign the application again.  
   
 #### You updated your application on the server, but the client does not download the update  
  This problem might be solved by completing one of the following tasks:  
@@ -118,7 +119,7 @@ This topic lists the following common errors that can occur when you deploy a [!
  Ensure that you have the Microsoft Visual Studio Web Authoring Component installed on the machine that you are publishing from. For Express users, this component is not installed by default. For more information, see [http://go.microsoft.com/fwlink/?LinkId=102310](http://go.microsoft.com/fwlink/?LinkId=102310).  
   
 #### Error Message: Could not find file 'Microsoft.Windows.Common-Controls, Version=6.0.0.0, Culture=*, PublicKeyToken=6595b64144ccf1df, ProcessorArchitecture=\*, Type=win32'  
- This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to--publish-a-wpf-application-with-visual-styles-enabled.md).  
+ This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md).  
   
 ## Using Mage  
   

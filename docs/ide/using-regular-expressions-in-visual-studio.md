@@ -1,13 +1,13 @@
 ---
 title: "Using Regular Expressions in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vsregularexpressionhelp"
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using Regular Expressions in Visual Studio
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](../Topic/.NET%20Framework%20Regular%20Expressions.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](../Topic/.NET%20Framework%20Regular%20Expressions.md).  
   
  Before Visual Studio 2012, Visual Studio used custom regular expression syntax in the Find and Replace windows. See [Visual Studio Regular Expression Conversions](https://msdn.microsoft.com/en-us/library/2k3te2cs\(v=vs.110\).aspx) for an explanation of how to convert some of the more commonly-used custom regular expression symbols to the .NET versions.  
   

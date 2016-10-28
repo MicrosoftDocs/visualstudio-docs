@@ -1,20 +1,21 @@
 ---
 title: "MSBuild Error MSB1005"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.MissingPropertyError"
 helpviewer_keywords: 
   - "MSB1005"
 ms.assetid: cf4e8503-46fb-4c1e-a1ca-aa344276ebb0
-caps.latest.revision: 12
+caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,5 @@ translation.priority.mt:
 1.  Specify a property name and value using the format `/property:<name>=<value>`. You can use either a comma or a semicolon to separate a list of properties, for example, `/property:WarningLevel=2;OutputDir=bin\Debug` or `/property:WarningLevel=2,OutputDir=bin\Debug`. Alternatively, you can repeat the switch, for example, `/p:WarningLevel=2 /p:OutputDir=bin\Debug`  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)  
+ [MSBuild Properties](../msbuild/msbuild-properties.md)

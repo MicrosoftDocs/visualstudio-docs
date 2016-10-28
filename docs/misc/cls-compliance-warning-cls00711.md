@@ -1,13 +1,13 @@
 ---
 title: "CLS Compliance Warning CLS00711"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CLS00711"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS00711"
 ms.assetid: 76481641-bda1-4128-8da8-ccba577b7ba1
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ The underlying type of an enum shall be a built-in CLS integer type
   
  For more information about CLR enums, see [enum class](../Topic/enum%20class%20%20\(C++%20Component%20Extensions\).md).  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS00711:  
   

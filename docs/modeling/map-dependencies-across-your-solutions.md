@@ -1,11 +1,11 @@
 ---
 title: "Map dependencies across your solutions"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.codemap"
@@ -29,8 +29,9 @@ helpviewer_keywords:
   - "code exploration, visualizing"
 ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
 caps.latest.revision: 243
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -319,8 +320,8 @@ When you want to understand dependencies across your code, visualize them by cre
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
 |The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
-|Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../reference/options--text-editor--c-c----advanced.md).|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
+|Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md).|  
 |The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.<br /><br /> See [/FIXED (Fixed Base Address)](../Topic/-FIXED%20\(Fixed%20Base%20Address\).md).|  
 ||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.<br /><br /> See [/DEBUG (Generate Debug Info)](../Topic/-DEBUG%20\(Generate%20Debug%20Info\).md).|  
 ||Cannot open or find the .pdb file in the expected locations.|Make sure that the .pdb file exists in the expected locations.|  
@@ -344,7 +345,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
  Although Visual Studio can run with 1 GB of memory, we recommended that your computer have at least 2 GB of memory to avoid long delays while Visual Studio creates the code index and generates the map.  
   
- It might take more time to create maps or add items to a map from Solution Explorer when a project item's **Copy to Output Directory** property is set to **Copy Always**. This might cause issues with incremental builds and Visual Studio to rebuild the project each time. To increase performance, change this property to **Copy if newer** or `PreserveNewest`. See [Incremental Builds](../reference/incremental-builds.md).  
+ It might take more time to create maps or add items to a map from Solution Explorer when a project item's **Copy to Output Directory** property is set to **Copy Always**. This might cause issues with incremental builds and Visual Studio to rebuild the project each time. To increase performance, change this property to **Copy if newer** or `PreserveNewest`. See [Incremental Builds](../msbuild/incremental-builds.md).  
   
  The completed map will show dependencies only for successfully-built code. If build errors occur for certain components, these errors appear on the map. Make sure that a component actually builds and has dependencies on it before you make architectural decisions based on the map.  
   

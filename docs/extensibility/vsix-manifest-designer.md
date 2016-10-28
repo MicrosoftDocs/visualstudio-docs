@@ -1,13 +1,13 @@
 ---
 title: "VSIX Manifest Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.Sdk.VsixManifestEditor"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # VSIX Manifest Designer
 Modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.  
   
- The **VSIX Manifest Designer** maps to the underlying VSIX schema. Every element in the schema can be set by using a corresponding control in the designer. For more information about the schema, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md).  
+ The **VSIX Manifest Designer** maps to the underlying VSIX schema. Every element in the schema can be set by using a corresponding control in the designer. For more information about the schema, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md).  
   
  To open the **VSIX Manifest Designer**, locate a source.extension.vsixmanifest file in **Solution Explorer**, and open the file. If the file does not contain valid XML, the manifest designer will not open.  
   
@@ -162,5 +162,5 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
  The identifier must match the `ID` attribute of the dependency package metadata. The source can be a project in the current solution, a currently installed extension, or a file. The **How is dependency resolved** setting can be the relative path of a nested package or the URL of the download location for the dependency. The ID, the version, and the resolution of the dependency package correspond to the `Id`, `Version`, and `Location` attributes of the associated `Dependency` element.  
   
 ## See Also  
- [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md)   
+ [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)

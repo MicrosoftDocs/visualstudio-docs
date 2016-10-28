@@ -1,13 +1,13 @@
 ---
 title: "Resource Compiler Warning RC4000"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC4000"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4000"
 ms.assetid: 1b87ddb4-2760-409c-b680-8a11bc52a42d
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -38,4 +39,4 @@ translation.priority.mt:
 # Resource Compiler Warning RC4000
 UNKNOWN WARNING  
   
- Note the circumstances of the warning and try to isolate the problem and create a reproducible test case before contacting Microsoft Product Support Services. For more information, see [Getting Help from Microsoft Product Support Services (Microsoft Document Explorer Help)](assetId:///74c7b279-eba3-43ea-8d82-398d8a427c5b).
+ Note the circumstances of the warning and try to isolate the problem and create a reproducible test case before contacting Microsoft Product Support Services. For more information, see [Getting Help from Microsoft Product Support Services (Microsoft Document Explorer Help)](http://msdn.microsoft.com/en-us/74c7b279-eba3-43ea-8d82-398d8a427c5b).

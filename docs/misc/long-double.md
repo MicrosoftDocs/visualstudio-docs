@@ -1,13 +1,13 @@
 ---
 title: "Long Double"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-cpp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "c.types"
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "80 bit precision"
 ms.assetid: bb581e20-b5c2-4079-8ee8-ac6739a37852
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -54,7 +55,7 @@ Previous 16-bit versions of Microsoft C/C++ and Microsoft Visual C++ supported t
 |[atan](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atanl`|[ldexp](../Topic/ldexp.md)|`ldexpl`|  
 |[atan2](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atan2l`|[log](../Topic/log,%20logf,%20log10,%20log10f.md)|`logl`|  
 |[atof](../Topic/atof,%20_atof_l,%20_wtof,%20_wtof_l.md)|`_atold`|[log10](../Topic/log,%20logf,%20log10,%20log10f.md)|`log10l`|  
-|[Bessel functions j0, j1, jn](../misc/bessel-functions--_j0--_j1--_jn.md)|`j0l, j1l, jnl`|[_matherr](../Topic/_matherr.md)|`_matherrl`|  
+|[Bessel functions j0, j1, jn](../misc/bessel-functions-j0-j1-jn.md)|`j0l, j1l, jnl`|[_matherr](../Topic/_matherr.md)|`_matherrl`|  
 |[Bessel functions y0, y1, yn](../Topic/Bessel%20Functions:%20_y0,%20_y1,%20_yn.md)|`y0l, y1l, ynl`|[modf](../Topic/modf,%20modff,%20modfl.md)|`modfl`|  
 |[_cabs](../Topic/_cabs.md)|`_cabsl`|[pow](../Topic/pow,%20powf,%20powl.md)|`powl`|  
 |[ceil](../Topic/ceil,%20ceilf,%20ceill.md)|`ceill`|[sin](../Topic/sin,%20sinf,%20sinl,%20sinh,%20sinhf,%20sinhl.md)|`sinl`|  

@@ -1,13 +1,13 @@
 ---
 title: "Full width characters are not valid as XML delimiters"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc31197"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31197"
 ms.assetid: f5d724f8-545b-4cf8-9606-12c63814c6e8
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

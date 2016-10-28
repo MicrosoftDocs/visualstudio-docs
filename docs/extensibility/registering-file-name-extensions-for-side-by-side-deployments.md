@@ -1,13 +1,13 @@
 ---
 title: "Registering File Name Extensions for Side-By-Side Deployments"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "file extensions, registering for side-by-side"
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Registering File Name Extensions for Side-By-Side Deployments
-For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## In This Section  
  [About File Name Extensions](../extensibility/about-file-name-extensions.md)  
@@ -44,8 +44,8 @@ For VSPackages deployed in a side-by-side environment, you must register file na
  Discusses how to register verbs.  
   
  [Managing Side-by-Side File Associations](../extensibility/managing-side-by-side-file-associations.md)  
- Discusses how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] should be invoked to open a file.  
+ Discusses how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should be invoked to open a file.  
   
 ## Related Sections  
  [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
- Describes issues related to multiple versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.
+ Describes issues related to multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.

@@ -1,13 +1,13 @@
 ---
 title: "Using Dump Files"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crashdump"
@@ -65,7 +65,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  Dumps are primarily used for debugging issues that occur on machines that the developer doesn’t have access to. For example, you can use a dump file from a customer's machine when you can’t reproduce the customer's crash or hang on your machine. Dumps are also created by testers to save crash or hang data so that the test machine can be used for more testing. The Visual Studio debugger can save dump files for managed or native code. The debugger can load dump files that were created by Visual Studio or by other programs that save files in the *minidump* format.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files, with or without heaps  
  You can create dump files with or without heap information.  
@@ -74,7 +74,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 -   **Dump files without heaps** are much smaller than dumps with heap information. However, the debugger has to load the app binaries to find the symbol information. The binaries must be an exact match of the binaries that were used when the dump was created. Only the values of stack variables are saved in dump files without heap data.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations  
   
@@ -92,7 +92,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 -   To debug with the [SOS.dll (SOS Debugging Extension)](../Topic/SOS.dll%20\(SOS%20Debugging%20Extension\).md) in Visual Studio, you must install the Debugging Tools for Windows that is part of the Windows Driver Kit (WDK). See [Windows 8.1 Preview: Download kits, bits, and tools](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx).  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Create_a_dump_file"></a> Create a dump file  
  To create a dump file with Visual Studio:  
@@ -103,7 +103,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  You can also create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on-demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) in this topic for additional information about using other tools to create dump files.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Open_a_dump_file"></a> Open a dump file  
   
@@ -144,11 +144,11 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  **Using the No Binary / Symbol / Source pages**  
   
- If Visual Studio can’t find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).  
+ If Visual Studio can’t find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)   
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)

@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0424"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0424"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0424"
 ms.assetid: 09ae482c-255a-4f99-8dc8-ba31c3ea8c71
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS0424
 'class': a class with the ComImport attribute cannot specify a base class  
   
- Specifying the \<xref:System.Runtime.InteropServices.ComImportAttribute> attribute implies that the implementation for the class is to be imported from a COM module. Additional methods or fields inherited from the base class are not allowed to be added to the implementation defined in the COM module.  
+ Specifying the <xref:System.Runtime.InteropServices.ComImportAttribute> attribute implies that the implementation for the class is to be imported from a COM module. Additional methods or fields inherited from the base class are not allowed to be added to the implementation defined in the COM module.  
   
  The following sample generates CS0424:  
   

@@ -1,21 +1,22 @@
 ---
 title: "Working with 3-D Models"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 caps.latest.revision: 8
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Working with 3-D Models
-You can use the Model Editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create 3-D models. You can use the models in your DirectX-based game or app.  
+You can use the Model Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create 3-D models. You can use the models in your DirectX-based game or app.  
   
 ## 3-D models  
  3-D models define the shape of objects as they exist in a 3-D scene. Models can be basic solitary objects, complex objects that are formed from hierarchies of basic objects, or even entire 3-D scenes. A 3-D object is made up of points in 3-D space (known as *vertices*), indices that define triangles, lines, or other primitives that are made up of those points, and attributes that might apply on a per-vertex or per-primitive basis—for example, surface normals. Additionally, some information might apply on a per-object basis—for example, which shader and textures will give the object its unique appearance.  

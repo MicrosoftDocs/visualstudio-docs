@@ -1,13 +1,13 @@
 ---
 title: "Watch and QuickWatch Windows"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.watch"
@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "registers, evaluating"
   - "debugging [Visual Studio], expression evaluation"
 ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
-caps.latest.revision: 44
+caps.latest.revision: 45
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +45,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Watch and QuickWatch Windows
-You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (**Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
+You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
   
 ## Observing a single variable with QuickWatch  
  You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  

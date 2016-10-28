@@ -1,13 +1,13 @@
 ---
 title: "Debugging WCF Services"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -41,11 +41,11 @@ translation.priority.ht:
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)  
  Describes restrictions on debugging WCF.  
   
- [How to: Step into WCF Services](../debugger/how-to--step-into-wcf-services.md)  
+ [How to: Step into WCF Services](../debugger/how-to-step-into-wcf-services.md)  
  Explains debugger support for stepping into a WCF Service.  
   
- [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md)  
- Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Development server.  
+ [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)  
+ Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development server.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

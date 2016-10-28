@@ -1,13 +1,13 @@
 ---
 title: "Opening an Options Page"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "open an options page"
@@ -37,28 +37,28 @@ You can display an options page programmatically so that users of your package c
   
 ### To display a custom options page  
   
-1.  Create an options page. For more information, see [Creating Options Pages](../extensibility/creating-options-pages.md).  
+1.  Create an options page. For more information, see [Creating Options Pages](../extensibility/internals/creating-options-pages.md).  
   
-2.  Get the \<xref:System.Type> of the options page by applying the `typeof` keyword to the name of the class that defines the options page.  
+2.  Get the <xref:System.Type> of the options page by applying the `typeof` keyword to the name of the class that defines the options page.  
   
-3.  Call the \<xref:Microsoft.VisualStudio.Shell.Package.ShowOptionPage*> method by using the \<xref:System.Type> of the options page as a parameter.  
+3.  Call the <xref:Microsoft.VisualStudio.Shell.Package.ShowOptionPage*> method by using the <xref:System.Type> of the options page as a parameter.  
   
      The following example displays an options page named **HelloWorldOptions**.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#5](../extensibility/codesnippet/CSharp/opening-an-options-page_1.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#5](../extensibility/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
+     [!code-cs[UI_UserSettings_ToolsOptionPages#5](../extensibility/internals/codesnippet/CSharp/opening-an-options-page_1.cs)]
+     [!code-vb[UI_UserSettings_ToolsOptionPages#5](../extensibility/internals/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
   
 ### To display an options page that is defined by Visual Studio  
   
 1.  In the registry subkey HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\ToolsOptionsPages\\, find the node for the options page that you want to display and then copy its GUID, which is the value of the Page key.  
   
-2.  Create a \<xref:System.ComponentModel.Design.CommandID> instance that has the constants \<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> and \<xref:Microsoft.VisualStudio.VSConstants.VSStd97CmdID> as parameters.  
+2.  Create a <xref:System.ComponentModel.Design.CommandID> instance that has the constants <xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> and <xref:Microsoft.VisualStudio.VSConstants.VSStd97CmdID> as parameters.  
   
      This specifies the **Options** dialog box.  
   
-3.  Call the \<xref:System.ComponentModel.Design.MenuCommandService.GlobalInvoke*> method by using the \<xref:System.ComponentModel.Design.CommandID> instance and the GUID string as parameters.  
+3.  Call the <xref:System.ComponentModel.Design.MenuCommandService.GlobalInvoke*> method by using the <xref:System.ComponentModel.Design.CommandID> instance and the GUID string as parameters.  
   
      The following example displays the **General** tab of the **Text Editor** options page.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#6](../extensibility/codesnippet/CSharp/opening-an-options-page_2.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#6](../extensibility/codesnippet/VisualBasic/opening-an-options-page_2.vb)]
+     [!code-cs[UI_UserSettings_ToolsOptionPages#6](../extensibility/internals/codesnippet/CSharp/opening-an-options-page_2.cs)]
+     [!code-vb[UI_UserSettings_ToolsOptionPages#6](../extensibility/internals/codesnippet/VisualBasic/opening-an-options-page_2.vb)]

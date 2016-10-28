@@ -1,13 +1,13 @@
 ---
 title: "Conversion operators cannot convert from an interface type"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc33029"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC33029"
 ms.assetid: 0d0ee461-dd48-424b-b83a-484bfc648d4d
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -37,7 +38,7 @@ translation.priority.mt:
 # Conversion operators cannot convert from an interface type
 A conversion operator is declared with an interface type for the parameter.  
   
- At compile time, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any interface to any reference type. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
+ At compile time, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any interface to any reference type. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
   
  Because the compiler considers this conversion to be already defined, it does not allow you to redefine it.  
   

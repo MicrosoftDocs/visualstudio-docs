@@ -1,13 +1,13 @@
 ---
 title: "Extending the Automation Model"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "automation object model, extending"
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Automation Model
-This section discusses how the automation model and the VSPackage model represent a two-prong approach to extensibility in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment. Extensibility is the capacity to enhance and extend the functionality of the IDE. Automation, on the one hand, refers to user-created code and tools that automate tasks in the existing environment and programmatically drive the IDE. VSPackages, on the other hand, let you add new functionality to the environment.  
+This section discusses how the automation model and the VSPackage model represent a two-prong approach to extensibility in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. Extensibility is the capacity to enhance and extend the functionality of the IDE. Automation, on the one hand, refers to user-created code and tools that automate tasks in the existing environment and programmatically drive the IDE. VSPackages, on the other hand, let you add new functionality to the environment.  
   
- It is possible to combine automation and VSPackages in an extensibility application. For an example, see [Walkthrough: Extending Managed VSPackages By Using Automation](../misc/walkthrough--extending-managed-vspackages-by-using-automation.md).  
+ It is possible to combine automation and VSPackages in an extensibility application. For an example, see [Walkthrough: Extending Managed VSPackages By Using Automation](../misc/walkthrough-extending-managed-vspackages-by-using-automation.md).  
   
  For an end-to-end sample of a language project system that supports the automation model, see the [VSSDK Samples](../misc/vssdk-samples.md).  
   
@@ -41,9 +41,9 @@ This section discusses how the automation model and the VSPackage model represen
  [Automation Model](../misc/automation-model.md)  
  Provides an overview of the automation model and discusses how the automation model lets you customize, adjust, and automate the environment.  
   
- [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md)  
+ [Contributing to the Automation Model](../extensibility/internals/contributing-to-the-automation-model.md)  
  Provides a more detailed view of the automation model and discusses the ways to provide automation for your VSPackage. This section also provides code examples that show how an automation consumer obtains the initial project automation objects.  
   
 ## Related Sections  
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
- Discusses using automation, VSPackages, or a combination to create [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility applications.
+ Discusses using automation, VSPackages, or a combination to create [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility applications.

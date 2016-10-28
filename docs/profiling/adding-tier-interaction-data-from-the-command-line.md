@@ -1,13 +1,13 @@
 ---
 title: "Adding tier interaction data from the command line"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tier interaction profiling method"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Adding tier interaction data from the command line
-Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
+Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
   
  **Windows 8 and Windows Server 2012**  
   
@@ -41,7 +41,7 @@ Tier interaction profiling provides additional information about the execution t
   
  **Visual Studio editions**  
   
- Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+ Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
  **Collecting TIP data on a remote machine**  
   
@@ -49,13 +49,13 @@ Tier interaction profiling provides additional information about the execution t
   
  **TIP reports**  
   
- Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
+ Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
   
 ## Adding tier interaction data with VSPerfCmd  
  The VSPerfASPNETCmd command line tool lets you access the complete functionality available in the Profiling Tools. To add tier interaction to profiling data collected by using VSPerfCmd, you must use the **VSPerfCLREnv** utility to set and remove the environment variables that enables tier interaction data. The options that you specify and the procedures required to collect data depend on the type of application that you are profiling.  
   
 ### Profiling stand-alone applications  
- To add tier interaction data to an application that is not run by another process, such as a Windows desktop application that makes synchronous [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)] calls to a SQLServer database, use the **VSPerfClrEnv /InteractionOn** option to set the environment variables, and the **VSPerfClrEnv /InteractionOff** option to remove them.  
+ To add tier interaction data to an application that is not run by another process, such as a Windows desktop application that makes synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls to a SQLServer database, use the **VSPerfClrEnv /InteractionOn** option to set the environment variables, and the **VSPerfClrEnv /InteractionOff** option to remove them.  
   
  In the following example, a Windows desktop application is profiled by using the instrumentation method and tier interaction data is collected.  
   
@@ -93,9 +93,9 @@ Tier interaction profiling provides additional information about the execution t
  For more information, see [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md).  
   
 ### Profiling services  
- To profile services, including [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.  
+ To profile services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.  
   
- When you are profiling services, including [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web applications, you will often need to restart the computer to enable profiling.  
+ When you are profiling services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications, you will often need to restart the computer to enable profiling.  
   
  In the following example, a Windows service is profiled by using the instrumenation method and tier interaction data is collected.  
   
@@ -151,14 +151,14 @@ Tier interaction profiling provides additional information about the execution t
   
  For more information, see one of the following topics:  
   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)  
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)  
   
 ## Adding tier interaction data with VSPerfASPNETCmd  
- The VSPerfASPNETCmd command-line tool enables you to easily profile [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web applications. Compared with the **VSPerfCmd** command-line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. These features of VSPerfASPNETCmd make the collection of tier interaction data exceptionally easy.  
+ The VSPerfASPNETCmd command-line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. Compared with the **VSPerfCmd** command-line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. These features of VSPerfASPNETCmd make the collection of tier interaction data exceptionally easy.  
   
- To add tier interaction to profiling data collected by using VSPerfASPNETCmd, add the **/TIP** option to the command line. For example, use the following command line to collect tier interaction data for an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application by using the instrumentation method:  
+ To add tier interaction to profiling data collected by using VSPerfASPNETCmd, add the **/TIP** option to the command line. For example, use the following command line to collect tier interaction data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application by using the instrumentation method:  
   
 ```  
 vsperfaspnetcmd /tip /trace http://localhost/MyWebApp  

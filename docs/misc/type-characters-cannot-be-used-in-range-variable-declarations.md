@@ -1,13 +1,13 @@
 ---
 title: "Type characters cannot be used in range variable declarations"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36601"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36601"
 ms.assetid: f855bee8-3f79-446a-8c58-f927461e4ff1
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

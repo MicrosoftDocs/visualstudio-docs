@@ -1,16 +1,17 @@
 ---
 title: "Run unit tests on UML extensions"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 745d74ae-e48c-4fd9-a755-4354b81b9f8a
 caps.latest.revision: 7
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -28,11 +29,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Run unit tests on UML extensions
-To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../codequality/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
+To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
   
 -   [Setting up a Unit Test for VSIX Extensions](#Host)  
   
-     Run tests with the VS IDE host adapter. Prefix each test method with `[HostType("VS IDE")]`. This host adapter starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] when your tests run.  
+     Run tests with the VS IDE host adapter. Prefix each test method with `[HostType("VS IDE")]`. This host adapter starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when your tests run.  
   
 -   [Accessing DTE and ModelStore](#DTE)  
   
@@ -62,15 +63,15 @@ To help keep your code stable through successive changes, we recommend that you 
 ##  <a name="Host"></a> Setting up a Unit Test for VSIX Extensions  
  The methods in your modeling extensions usually work with a diagram that is already open. The methods use MEF imports such as **IDiagramContext** and **ILinkedUndoContext**. Your test environment must set up this context before you run the tests.  
   
-#### To set up a unit test that executes in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]  
+#### To set up a unit test that executes in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
   
 1.  Create the UML extension project and the unit test project.  
   
     1.  **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-    2.  **A unit test project.** For more information, see [Unit Test Your Code](../codequality/unit-test-your-code.md).  
+    2.  **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
-2.  Create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
+2.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
 3.  **In the UML extension project**, edit the .csproj file as text and make sure that the following lines show `true`:  
   
@@ -108,7 +109,7 @@ To help keep your code stable through successive changes, we recommend that you 
      This will ensure that the test will run in an experimental instance of Visual Studio.  
   
 ##  <a name="DTE"></a> Accessing DTE and ModelStore  
- Write a method to open a modeling project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Typically, you want to open a solution only once in each test run. To run the method only once, prefix the method with the `[AssemblyInitialize]` attribute. Don’t forget that you also need the [HostType("VS IDE")] attribute on each test method.  For example:  
+ Write a method to open a modeling project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Typically, you want to open a solution only once in each test run. To run the method only once, prefix the method with the `[AssemblyInitialize]` attribute. Don’t forget that you also need the [HostType("VS IDE")] attribute on each test method.  For example:  
   
 ```c#  
 using EnvDTE;  
@@ -175,9 +176,9 @@ namespace UnitTests
   
  Notice the following points:  
   
--   \<xref:Microsoft.VSSDK.Tools.VsIdeTesting.VsIdeTestHostContext?displayProperty=fullName> provides access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API \<xref:EnvDTE.DTE?displayProperty=fullName>, and also to the DTE service provider.  
+-   <xref:Microsoft.VSSDK.Tools.VsIdeTesting.VsIdeTestHostContext?displayProperty=fullName> provides access to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API <xref:EnvDTE.DTE?displayProperty=fullName>, and also to the DTE service provider.  
   
--   If an instance of \<xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
+-   If an instance of <xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
   
 ##  <a name="Opening"></a> Opening a Model Diagram  
  For each test or class of tests, you typically want to work with an open diagram. The following example uses the `[ClassInitialize]` attribute, which executes this method before other methods in this test class. Again, don’t forget that you also need the attribute [HostType("VS IDE")] on each test method:  
@@ -392,9 +393,9 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
 ```  
   
  Define accessors by using reflection  
- This is the way that we recommend least. Older versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provided a utility that automatically created an accessor method for each private method. Although this is convenient, our experience suggests that it tends to result in unit tests that are very strongly coupled to the internal structure of the application that they are testing. This results in extra work when the requirements or architecture change, because the tests have to be changed along with the implementation. Also, any erroneous assumptions in the design of the implementation are also built into the tests, so that the tests do not find errors.  
+ This is the way that we recommend least. Older versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provided a utility that automatically created an accessor method for each private method. Although this is convenient, our experience suggests that it tends to result in unit tests that are very strongly coupled to the internal structure of the application that they are testing. This results in extra work when the requirements or architecture change, because the tests have to be changed along with the implementation. Also, any erroneous assumptions in the design of the implementation are also built into the tests, so that the tests do not find errors.  
   
 ## See Also  
- [Anatomy of a Unit Test](assetId:///a03d1ee7-9999-4e7c-85df-7d9073976144)   
+ [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)

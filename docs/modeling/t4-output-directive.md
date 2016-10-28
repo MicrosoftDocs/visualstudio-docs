@@ -1,16 +1,17 @@
 ---
 title: "T4 Output Directive"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03a14993-47ad-4f2e-8032-57db28d5842a
 caps.latest.revision: 4
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,13 +28,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Output Directive
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.  
   
- For example, if your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project includes a template file named **MyTemplate.tt** which contains the following directive:  
+ For example, if your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project includes a template file named **MyTemplate.tt** which contains the following directive:  
   
  `<#@output extension=".cs"#>`  
   
- then [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will generate a file named **MyTemplate.cs**  
+ then [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will generate a file named **MyTemplate.cs**  
   
  The `output` directive is not required in a run-time (preprocessed) text template. Instead, your application obtains the generated string by calling `TextTransform()`. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
@@ -84,4 +85,4 @@ In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text templates, the 
   
  `0` (System default)  
   
- In general, you can use the WebName string or the CodePage number of any of the encodings returned by \<xref:System.Text.Encoding.GetEncodings*?displayProperty=fullName>.
+ In general, you can use the WebName string or the CodePage number of any of the encodings returned by <xref:System.Text.Encoding.GetEncodings*?displayProperty=fullName>.

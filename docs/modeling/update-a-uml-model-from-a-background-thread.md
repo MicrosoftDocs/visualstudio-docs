@@ -1,16 +1,17 @@
 ---
 title: "Update a UML model from a background thread"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 42c06b0b-b681-4e19-b5f3-6116dd2a4072
 caps.latest.revision: 13
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -31,7 +32,7 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  
   
--   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use \<xref:System.Windows.Forms.Control.Invoke*> or `Dispatcher.`\<xref:System.Windows.Threading.Dispatcher.Invoke*> to have the UI thread perform the actual updates.  
+-   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke*> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke*> to have the UI thread perform the actual updates.  
   
 -   If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
   
@@ -62,9 +63,9 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 5.  Build and run the project.  
   
-     A new instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will start in experimental mode.  
+     A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will start in experimental mode.  
   
-6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 7.  Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
   

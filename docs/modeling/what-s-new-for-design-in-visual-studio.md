@@ -1,13 +1,13 @@
 ---
 title: "What&#39;s new for design in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "what's new [VIsual Studio ALM], architecture and modeling"
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "modeling software [Visual Studio ALM], What's New"
 ms.assetid: 36ab5c17-6dc0-4075-a28e-a0fa49b11260
 caps.latest.revision: 32
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

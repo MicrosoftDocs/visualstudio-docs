@@ -1,18 +1,19 @@
 ---
 title: "Using Escape Sequences in Text Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, escape sequences"
 ms.assetid: 36fff542-2f42-460f-a2d5-03fc76817f3b
 caps.latest.revision: 29
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -48,4 +49,4 @@ You can use escape sequences in text templates to generate text template tags an
 -   If an escape (\\) character appears anywhere else in any sequence other than where it escapes a control character or a quote (in C# only), the character will be output directly.  
   
 ## See Also  
- [How to: Generate Templates from Templates By Using Escape Sequences](../modeling/how-to--generate-templates-from-templates-by-using-escape-sequences.md)
+ [How to: Generate Templates from Templates By Using Escape Sequences](../modeling/how-to-generate-templates-from-templates-by-using-escape-sequences.md)

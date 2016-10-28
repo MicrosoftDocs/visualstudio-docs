@@ -1,13 +1,13 @@
 ---
 title: "Trigonometry Functions"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "trigonometry functions sample [STL]"
 ms.assetid: 2edf51f4-f86e-4a2b-89cf-8a2c9cb8d0c6
 caps.latest.revision: 7
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

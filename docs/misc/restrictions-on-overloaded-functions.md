@@ -1,13 +1,13 @@
 ---
 title: "Restrictions on Overloaded Functions"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "function overloading, restrictions"
 ms.assetid: afc5f987-675a-4311-9b42-881555940de7
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

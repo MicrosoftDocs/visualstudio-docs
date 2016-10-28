@@ -1,13 +1,13 @@
 ---
 title: "Customizing Project and Item Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "customizing Visual Studio templates"
@@ -38,27 +38,27 @@ After project and item templates have been created, you still have the ability t
   
 -   Modify and export an existing template as a custom template.  
   
-     For more information, see [How to: Update Existing Templates](../ide/how-to--update-existing-templates.md).  
+     For more information, see [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md).  
   
 -   Pass custom parameters into a template to replace existing values.  
   
-     For more information, see [How to: Substitute Parameters in a Template](../ide/how-to--substitute-parameters-in-a-template.md).  
+     For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
 -   Customize the wizards that create projects from templates.  
   
-     For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to--use-wizards-with-project-templates.md).  
+     For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md).  
   
 ## Related Sections  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
   
- [How to: Troubleshoot Templates](../ide/how-to--troubleshoot-templates.md)  
+ [How to: Troubleshoot Templates](../ide/how-to-troubleshoot-templates.md)  
   
- [How to: Create Project Templates](../ide/how-to--create-project-templates.md)  
+ [How to: Create Project Templates](../ide/how-to-create-project-templates.md)  
   
- [How to: Create Item Templates](../ide/how-to--create-item-templates.md)  
+ [How to: Create Item Templates](../ide/how-to-create-item-templates.md)  
   
- [How to: Create Starter Kits](../ide/how-to--create-starter-kits.md)  
+ [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)  
   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
   
- \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
+ <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>

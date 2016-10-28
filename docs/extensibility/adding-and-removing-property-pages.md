@@ -1,13 +1,13 @@
 ---
 title: "Adding and Removing Property Pages"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "property pages, adding"
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Adding and Removing Property Pages
-The Project Designer provides a centralized location for managing project properties, settings, and resources in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. It appears as a single window in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) and contains a number of panes on the right that are accessed through the tabs on the left. The panes (often referred to as property pages) in the Project Designer vary by project type and language. The Project Designer can be accessed with the **Properties** command on the **Project** menu.  
+The Project Designer provides a centralized location for managing project properties, settings, and resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It appears as a single window in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) and contains a number of panes on the right that are accessed through the tabs on the left. The panes (often referred to as property pages) in the Project Designer vary by project type and language. The Project Designer can be accessed with the **Properties** command on the **Project** menu.  
   
- A project subtype frequently needs to display additional property pages in the Project Designer. Likewise, some project subtypes might require that built-in property pages be removed. To do either, your project subtype must implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface and override the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*> method. By overriding this method and using `propId` parameter containing one of the values of the \<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> enumeration, you can filter, add or remove project properties. For example, you might need to add a page to the configuration-dependent property pages. To do this, you need to filter configuration-dependent property pages and then add a new page to the existing list.  
+ A project subtype frequently needs to display additional property pages in the Project Designer. Likewise, some project subtypes might require that built-in property pages be removed. To do either, your project subtype must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface and override the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*> method. By overriding this method and using `propId` parameter containing one of the values of the <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> enumeration, you can filter, add or remove project properties. For example, you might need to add a page to the configuration-dependent property pages. To do this, you need to filter configuration-dependent property pages and then add a new page to the existing list.  
   
 ## Adding and Removing Property Pages in Project Designer  
   
@@ -219,4 +219,4 @@ The Project Designer provides a centralized location for managing project proper
 >  All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
   
 ## See Also  
- [Project Subtypes](../extensibility/project-subtypes.md)
+ [Project Subtypes](../extensibility/internals/project-subtypes.md)

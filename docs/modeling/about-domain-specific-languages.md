@@ -1,18 +1,19 @@
 ---
 title: "About Domain-Specific Languages"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language"
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # About Domain-Specific Languages
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.  
@@ -42,9 +43,9 @@ Unlike a general-purpose language such as C# or UML, a domain-specific language 
   
  For example, you could write templates that take an airport plan and generate part of the software for baggage handling, as well as some of the user documents that describe the plan.  
   
- When you have defined a DSL, you can distribute it to other users who can install it on their own computers. Users of your DSL can create and edit models in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ When you have defined a DSL, you can distribute it to other users who can install it on their own computers. Users of your DSL can create and edit models in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- You can also define menu commands and other tools that help users edit the DSL, validation constraints to help ensure that the DSL is used correctly, and item templates that help users create new instances. You can wrap one or more DSLs with their tools and other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions as an integrated package.  
+ You can also define menu commands and other tools that help users edit the DSL, validation constraints to help ensure that the DSL is used correctly, and item templates that help users create new instances. You can wrap one or more DSLs with their tools and other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions as an integrated package.  
   
  Typically, a domain-specific language is created when a development team has to write similar code for several products. For example, a company that specializes in baggage handling systems might define a baggage track DSL from which they can generate some of the code for each installation. The benefits of the DSL are that it can be understood by their customers, that the code generated from it is reliable, and that the system can be rapidly updated if the customers' requirements change.  
   
@@ -79,9 +80,9 @@ Unlike a general-purpose language such as C# or UML, a domain-specific language 
  A domain-specific language must be persisted in some form that can be edited, saved, closed, and reloaded. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] uses an XML format that lets you define and customize how your domain-specific language is serialized or persisted.  
   
 ### Integration with Visual Studio  
- Because [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] is hosted in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], it extends many [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] windows and controls. It also lets you customize the behavior of menu commands, toolbox items, and other elements of the user interface.  
+ Because [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] is hosted in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], it extends many [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] windows and controls. It also lets you customize the behavior of menu commands, toolbox items, and other elements of the user interface.  
   
- You can also create a Model Bus Adapter for your domain-specific language. This adapter lets you reference a model and elements within a model, and lets you write code that can access and update an instance of the DSL. By using the powerful Model Bus mechanism, you can write [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions that work with multiple models. You can also write stand-alone applications that work with models. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).  
+ You can also create a Model Bus Adapter for your domain-specific language. This adapter lets you reference a model and elements within a model, and lets you write code that can access and update an instance of the DSL. By using the powerful Model Bus mechanism, you can write [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions that work with multiple models. You can also write stand-alone applications that work with models. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).  
   
 ## Benefits of Domain-Specific Development  
  A domain-specific language can provide the following benefits:  

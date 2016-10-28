@@ -1,13 +1,13 @@
 ---
 title: "Enum types cannot be nullable"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc32129"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32129"
 ms.assetid: 9e0fe5c9-72c7-4905-b177-d00cc3469ea9
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

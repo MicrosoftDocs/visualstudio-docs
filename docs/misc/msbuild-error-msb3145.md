@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3145"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.InvalidUrl"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3145"
 ms.assetid: 183d4e7e-bdc6-402f-a1b6-531505be605f
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ translation.priority.mt:
  This error occurs when the value of the `SupportUrl`, `ComponentsUrl`, or `ApplicationUrl` project property is not valid. The value must be a valid URI or UNC path.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

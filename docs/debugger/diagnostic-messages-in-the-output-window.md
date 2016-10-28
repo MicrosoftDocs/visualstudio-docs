@@ -1,13 +1,13 @@
 ---
 title: "Diagnostic Messages in the Output Window"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.output"
@@ -49,16 +49,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Diagnostic Messages in the Output Window
-You can write run-time messages to the Output window using the Debug class or the Trace class, which are part of the \<xref:System.Diagnostics> class library. Use the Debug class if you only output in the Debug version of your program. Use the Trace class if you want output in both the Debug and Release versions.  
+You can write run-time messages to the Output window using the Debug class or the Trace class, which are part of the <xref:System.Diagnostics> class library. Use the Debug class if you only output in the Debug version of your program. Use the Trace class if you want output in both the Debug and Release versions.  
   
 ## Output Methods  
- The \<xref:System.Diagnostics.Trace> and \<xref:System.Diagnostics.Debug> classes provide the following output methods:  
+ The <xref:System.Diagnostics.Trace> and <xref:System.Diagnostics.Debug> classes provide the following output methods:  
   
 -   Various `Write` methods, which output information without breaking execution. These methods replace the `Debug.Print` method used in previous versions of Visual Basic.  
   
--   \<xref:System.Diagnostics.Debug.Assert*?displayProperty=fullName> and \<xref:System.Diagnostics.Trace.Assert*?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
+-   <xref:System.Diagnostics.Debug.Assert*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert*?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
   
--   The \<xref:System.Diagnostics.Debug.Fail*?displayProperty=fullName> and \<xref:System.Diagnostics.Trace.Fail*?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
+-   The <xref:System.Diagnostics.Debug.Fail*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail*?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
   
  In addition to program out from your application, the **Output** window can display the information about:  
   
@@ -72,8 +72,8 @@ You can write run-time messages to the Output window using the Debug class or th
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Output Window](../reference/output-window.md)   
+ [Output Window](../ide/reference/output-window.md)   
  [Tracing and Instrumenting Applications](../Topic/Tracing%20and%20Instrumenting%20Applications.md)   
- [Introduction to Instrumentation and Tracing](assetId:///e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation--csharp--fsharp--and-visual-basic-project-types.md)   
+ [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
+ [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

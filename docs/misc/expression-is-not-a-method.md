@@ -1,13 +1,13 @@
 ---
 title: "Expression is not a method"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30454"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30454"
 ms.assetid: 4480968a-1364-480a-b33c-c65458acbc07
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,5 +45,5 @@ The target of your method call is not a method.
 -   Make sure you did not mistype the method name.  
   
 ## See Also  
- [NOT IN BUILD: Properties vs. Methods](assetId:///8822c325-a360-402d-98f5-7a9b4a1b13bf)   
- [NOT IN BUILD: Class Methods](assetId:///326214bb-6367-48e7-bb24-714844791400)
+ [NOT IN BUILD: Properties vs. Methods](http://msdn.microsoft.com/en-us/8822c325-a360-402d-98f5-7a9b4a1b13bf)   
+ [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/en-us/326214bb-6367-48e7-bb24-714844791400)

@@ -1,13 +1,13 @@
 ---
 title: "Debugging User Interface Reference"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.uiref"
@@ -48,9 +48,9 @@ You may encounter the following dialog boxes as you debug your application.
   
 -   [Choose Breakpoints Dialog Box](../debugger/choose-breakpoints-dialog-box.md)  
   
--   [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](../debugger/debug-source-files--common-properties--solution-property-pages-dialog-box.md)  
+-   [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)  
   
--   [Debugging, Options Dialog Box](../debugger/debugging--options-dialog-box.md)  
+-   [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)  
   
 -   [Edit and Continue Dialog Box](../debugger/edit-and-continue-dialog-box.md)  
   
@@ -60,4 +60,4 @@ You may encounter the following dialog boxes as you debug your application.
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [Command Window](../reference/command-window.md)
+ [Command Window](../ide/reference/command-window.md)

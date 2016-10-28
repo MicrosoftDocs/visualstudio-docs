@@ -1,28 +1,29 @@
 ---
 title: "Event Handlers Propagate Changes Outside the Model"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
 ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 18
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Event Handlers Propagate Changes Outside the Model
-In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
+In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
   
  The graphical surface and other user interface controls are examples of external resources that can be handled by store events.  
   
 ### To define a store event  
   
-1.  Choose the type of event that you want to monitor. For a full list, look at the properties of \<xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
+1.  Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
     -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
   

@@ -1,13 +1,13 @@
 ---
 title: "Visible Timeline Profile"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.activelegend"
@@ -37,4 +37,4 @@ translation.priority.mt:
 The Visible Timeline Profile for the Thread Blocking View provides statistical information and links to reports. As you zoom in, zoom out, scroll horizontally, hide channels, or show channels, the numbers in the active legend change to reflect what is currently in view. To view a report about an item in the Legend, click the item.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

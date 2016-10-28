@@ -1,11 +1,11 @@
 ---
 title: "Customizing the Model Explorer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.explorerbehavior"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
 ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 20
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  
@@ -31,7 +32,7 @@ You can change the appearance and behavior of the explorer for your domain-speci
  To change the window title of the generated explorer, select **Explorer Behavior** in the **DSL Explorer**, and then in the **Properties** window, set the **Title** property to the title you want.  
   
 ## Changing the Tab Icon  
- To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.  
+ To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.  
   
 ## Setting Custom Icons on Explorer Nodes  
  You can customize nodes in your explorer by using explorer node settings. The following procedure shows how to add an icon to a node.  
@@ -110,4 +111,4 @@ You can change the appearance and behavior of the explorer for your domain-speci
      The explorer should show only an **Actors** node, and should not show the **Comments** node.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](assetId:///ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

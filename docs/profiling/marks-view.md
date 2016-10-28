@@ -1,13 +1,13 @@
 ---
 title: "Marks View"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.marks"
@@ -38,7 +38,7 @@ The Marks view displays sampling and ETW events that were inserted into the appl
   
  The default marks that are prepopulated in the report label the start of the program and the end of the program.  
   
- Windows counters data from automatically generated marks is also presented in this view. For more information, see [How to: Collect Windows Counter Data](../profiling/how-to--collect-windows-counter-data.md).  
+ Windows counters data from automatically generated marks is also presented in this view. For more information, see [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md).  
   
  To create a filter between two marks, select the marks, right-click, and then click **Add Filter by Marks** or **Add Filter by Timestamp**.  
   
@@ -60,5 +60,5 @@ The Marks view displays sampling and ETW events that were inserted into the appl
  [Performance Report Overview](../profiling/performance-report-overview.md)   
  [<PAVE_OVER> How to: Configure Profiling Marks](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Configure%20Profiling%20Marks.md)   
  [<PAVE_OVER> How to: Insert Marks in a Profiler Data File](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Insert%20Marks%20in%20a%20Profiler%20Data%20File.md)   
- [How to: Collect Windows Counter Data](../profiling/how-to--collect-windows-counter-data.md)   
- [&#91;NIB&#93; Data Collection Control Window](assetId:///98d740d8-459f-4605-bf04-fb17aafaaa8f)
+ [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)   
+ [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)

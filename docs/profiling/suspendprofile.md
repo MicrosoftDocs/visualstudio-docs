@@ -1,13 +1,13 @@
 ---
 title: "SuspendProfile"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "SuspendProfile"
@@ -83,7 +83,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(
  Import library: VSPerf.lib  
   
 ## Example  
- The following example illustrates the SuspendProfile method. This example assumes that a prior call to StartProfile has been made for the process or thread identified by [PROFILE_CURRENTID](../profiling/profile_currentid.md).  
+ The following example illustrates the SuspendProfile method. This example assumes that a prior call to StartProfile has been made for the process or thread identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
 ```  
 void ExerciseSuspendProfile()  
@@ -118,4 +118,4 @@ void ExerciseSuspendProfile()
 ```  
   
 ## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)
+ [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)

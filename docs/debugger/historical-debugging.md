@@ -1,13 +1,13 @@
 ---
 title: "Historical Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7cc5ddf2-2f7c-4f83-b7ca-58e92e9bfdd2
 caps.latest.revision: 3
@@ -41,7 +41,7 @@ Historical debugging is a mode of debugging that depends on the information coll
  You can use IntelliTrace and Historical Debugging to roam around in your application and inspect its state (call stack and local variables) without having to set breakpoints, restart debugging, and repeat test steps. This can save you a lot of time, especially when the bug is located deep in a test scenario that takes a long time to execute.  
   
 ## How do I start using Historical Debugging?  
- IntelliTrace is on by default. All you have to do is decide which events and function calls are of interest to you. For more information about defining what you want to look for, see [IntelliTrace Features](../debugger/intellitrace-features.md). For a step-by-step account of debugging with IntelliTrace, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough--using-intellitrace.md).  
+ IntelliTrace is on by default. All you have to do is decide which events and function calls are of interest to you. For more information about defining what you want to look for, see [IntelliTrace Features](../debugger/intellitrace-features.md). For a step-by-step account of debugging with IntelliTrace, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).  
   
 ## Navigating your code with Historical Debugging  
  Let’s start with a simple program that has a bug. In a C# console application, add the following code:  

@@ -1,13 +1,13 @@
 ---
 title: "Create Custom Visualizers of Data"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.visualizer.troubleshoot"
@@ -43,9 +43,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Create Custom Visualizers of Data
-Visualizers are components of the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] debugger user interface. A *visualizer* creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window; a bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers enable you to modify as well as view the data.  
+Visualizers are components of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface. A *visualizer* creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window; a bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers enable you to modify as well as view the data.  
   
- The [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. These are the text, HTML, XML, and JSON visualizers, all of which work on string objects; the WPF Tree visualizer, for displaying the properties of a WPF object visual tree; and the dataset visualizer, which works for DataSet, DataView, and DataTable objects. Additional visualizers may be available for download from Microsoft Corporation in the future, and are available from third-parties and the community. In addition, you can write your own visualizers and install them in the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] debugger.  
+ The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. These are the text, HTML, XML, and JSON visualizers, all of which work on string objects; the WPF Tree visualizer, for displaying the properties of a WPF object visual tree; and the dataset visualizer, which works for DataSet, DataView, and DataTable objects. Additional visualizers may be available for download from Microsoft Corporation in the future, and are available from third-parties and the community. In addition, you can write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.  
   
 > [!NOTE]
 >  In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
@@ -58,13 +58,13 @@ Visualizers are components of the [!INCLUDE[vs_current_short](../codequality/inc
 >  Debugger visualizers require greater privileges than are allowed by a partial trust application. As a result, visualizers do not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.  
   
 ## In This Section  
- [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md)  
+ [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)  
   
- [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough--writing-a-visualizer-in-csharp.md)  
+ [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)  
   
- [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md)  
+ [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)  
   
- [How to: Test and Debug a Visualizer](../debugger/how-to--test-and-debug-a-visualizer.md)  
+ [How to: Test and Debug a Visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)  
   
  [Visualizer API Reference](../debugger/visualizer-api-reference.md)  
   

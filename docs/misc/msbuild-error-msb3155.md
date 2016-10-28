@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3155"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.ProductNotFound"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3155"
 ms.assetid: 59bf2293-ef13-4bb1-8f29-5d6966bbe313
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.ht:
 # MSBuild Error MSB3155
 **MSBuild Error MSB3155: Item '\<package>' could not be located in '\<path>'**  
   
- This warning occurs when a package with the specified \<xref:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode*> cannot be found in the bootstrapper cache.  
+ This warning occurs when a package with the specified <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode*> cannot be found in the bootstrapper cache.  
   
 > [!NOTE]
 >  Microsoft Data Access Components (MDAC) are no longer included as a bootstrapper package. They can be downloaded from the [Microsoft Windows Update](http://go.microsoft.com/fwlink/?LinkId=86676) Web site.  
@@ -46,6 +47,6 @@ translation.priority.ht:
   
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)   
- [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md)   
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)   
+ [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md)

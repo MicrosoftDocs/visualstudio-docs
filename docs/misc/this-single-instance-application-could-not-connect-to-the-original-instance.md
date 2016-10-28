@@ -1,20 +1,21 @@
 ---
 title: "This single-instance application could not connect to the original instance"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrAppModel_SingleInstanceCantConnect"
 ms.assetid: 7c2c0cee-02a1-4157-be03-39d18e18408f
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -53,6 +54,6 @@ This single-instance application could not connect to the original instance. Som
 5.  Note the circumstances under which the error occurred, and telephone Microsoft Product Support Services.  
   
 ## See Also  
- [NIB: How to: Specify Instancing Behavior for an Application (Visual Basic)](assetId:///48539ad8-d960-4210-beab-ee65f6c6dc6e)   
+ [NIB: How to: Specify Instancing Behavior for an Application (Visual Basic)](http://msdn.microsoft.com/en-us/48539ad8-d960-4210-beab-ee65f6c6dc6e)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [PAVEOVER Product Support and Accessibility](assetId:///14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

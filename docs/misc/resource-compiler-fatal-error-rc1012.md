@@ -1,13 +1,13 @@
 ---
 title: "Resource Compiler Fatal Error RC1012"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC1012"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1012"
 ms.assetid: e880c307-1105-46d4-8869-7804411ee20a
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

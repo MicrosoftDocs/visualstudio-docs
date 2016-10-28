@@ -1,13 +1,13 @@
 ---
 title: "Just-In-Time Debugging in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -105,7 +105,7 @@ Just-In-Time debugging launches Visual Studio automatically when an exception or
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];   
     ```  
   
-     For more information, see \<xref:System.Diagnostics.DebuggableAttribute>.  
+     For more information, see <xref:System.Diagnostics.DebuggableAttribute>.  
   
 ## Use Just-In-Time Debugging  
  This section shows what happens when an executable throws an exception.  
@@ -116,7 +116,7 @@ Just-In-Time debugging launches Visual Studio automatically when an exception or
   
  For the purposes of this section, we'll make a C# console app in Visual Studio that throws a [NullReferenceException](../Topic/NullReferenceException%20Class.md).  
   
- In Visual Studio, create a C# console app (**File / New / Project / Visual C# / Console Application**) named **ThrowsNullException**. For more information about creating projects in Visual Studio, see [Walkthrough: Create a Simple Application](../ide/walkthrough--create-a-simple-application-with-visual-csharp-or-visual-basic.md).  
+ In Visual Studio, create a C# console app (**File / New / Project / Visual C# / Console Application**) named **ThrowsNullException**. For more information about creating projects in Visual Studio, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md).  
   
  When the project opens in Visual Studio, open the Program.cs file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:  
   
@@ -129,7 +129,7 @@ static void Main(string[] args)
 ```  
   
 > [!IMPORTANT]
->  In order for this procedure to work in a [release configuration](../debugger/how-to--set-debug-and-release-configurations.md), you need to turn off [Just My Code](../debugger/just-my-code.md). In Visual Studio, click **Tools / Options**. In the **Options** dialog, select **Debugging**. Remove the check from **Enable Just My Code**.  
+>  In order for this procedure to work in a [release configuration](../debugger/how-to-set-debug-and-release-configurations.md), you need to turn off [Just My Code](../debugger/just-my-code.md). In Visual Studio, click **Tools / Options**. In the **Options** dialog, select **Debugging**. Remove the check from **Enable Just My Code**.  
   
  Build the solution (in Visual Studio, choose **Build / Rebuild Solution**). You can choose either the Debug or the Release configuration. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   
@@ -188,5 +188,5 @@ static void Main(string[] args)
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time--debugging--options-dialog-box.md)   
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/52246c1e-a371-40a0-b756-a435cc51876f.md)
+ [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)   
+ [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)

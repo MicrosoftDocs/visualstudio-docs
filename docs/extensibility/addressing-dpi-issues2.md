@@ -1,10 +1,10 @@
 ---
 title: "Addressing DPI Issues2"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.custom: ""
+ms.date: "10/28/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
 caps.latest.revision: 9
@@ -85,7 +85,7 @@ ImageList_Create(VsUI::DpiHelper::LogicalToDeviceUnitsX(16),VsUI::DpiHelper::Log
   
  Functions in the library allow specifying the resizing algorithm. When scaling images to be placed in imagelists, make sure to specify the background color that is used for transparency, or use NearestNeighbor scaling (which will cause distortions at 125% and 150%).  
   
- Consult the \<xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> documentation on MSDN.  
+ Consult the <xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> documentation on MSDN.  
   
  The following table shows examples of how images should be scaled at corresponding DPI scaling factors. The images in green denote our best practice as of Visual Studio 2013 (100%-200% DPI scaling):  
   
@@ -100,7 +100,7 @@ ImageList_Create(VsUI::DpiHelper::LogicalToDeviceUnitsX(16),VsUI::DpiHelper::Log
   
 -   Hard-coded sizes or space between elements will also need to be scaled up. Sizes that are based only on text dimensions are typically fine, because fonts are automatically scaled up.  
   
- Helper functions are available in the \<xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> class to allow scaling on the X and Y axis:  
+ Helper functions are available in the <xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> class to allow scaling on the X and Y axis:  
   
 -   LogicalToDeviceUnitsX/LogicalToDeviceUnitsY  (functions allow scaling on X/Y axis)  
   
@@ -153,13 +153,13 @@ VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
   
  Recommendations:  
   
--   For logo image and banners artwork, the default \<xref:System.Windows.Media.BitmapScalingMode> resizing mode could be used.  
+-   For logo image and banners artwork, the default <xref:System.Windows.Media.BitmapScalingMode> resizing mode could be used.  
   
--   For menu items and iconography images, the \<xref:System.Windows.Media.BitmapScalingMode> should be used when it doesn’t cause other distortion artifacts to eliminate fuzziness (at 200% and 300%).  
+-   For menu items and iconography images, the <xref:System.Windows.Media.BitmapScalingMode> should be used when it doesn’t cause other distortion artifacts to eliminate fuzziness (at 200% and 300%).  
   
 -   •   For large zoom levels not multiples of 100% (for example, 250% or 350%), scaling iconography images with bicubic results in fuzzy, washed-out UI. A better result is obtained by first scaling the image with NearestNeighbor to the largest multiple of 100% (for example, 200% or 300%) and scaling with bicubic from there. See Special case: prescaling WPF images for large DPI levels for more information.  
   
- The DpiHelper class in the Microsoft.VisualStudio.PlatformUI namespace provides a member \<xref:System.Windows.Media.BitmapScalingMode> that can be used for binding. It will allow the Visual Studio shell to control the bitmap scaling mode across the product uniformly, depending on the DPI scaling factor.  
+ The DpiHelper class in the Microsoft.VisualStudio.PlatformUI namespace provides a member <xref:System.Windows.Media.BitmapScalingMode> that can be used for binding. It will allow the Visual Studio shell to control the bitmap scaling mode across the product uniformly, depending on the DPI scaling factor.  
   
  To use it in XAML, add:  
   
@@ -196,7 +196,7 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.V
   
 ```  
   
- If the image also needs to be themed (most, if not all, should), the markup can use a different converter that first does theming of the image and then pre-scaling. The markup can use either \<xref:Microsoft.VisualStudio.PlatformUI.DpiPrescaleThemedImageConverter> or \<xref:Microsoft.VisualStudio.PlatformUI.DpiPrescaleThemedImageSourceConverter>, depending on the desired conversion output.  
+ If the image also needs to be themed (most, if not all, should), the markup can use a different converter that first does theming of the image and then pre-scaling. The markup can use either <xref:Microsoft.VisualStudio.PlatformUI.DpiPrescaleThemedImageConverter> or <xref:Microsoft.VisualStudio.PlatformUI.DpiPrescaleThemedImageSourceConverter>, depending on the desired conversion output.  
   
 ```xaml  
 <vsui:DpiPrescaleThemedImageSourceConverter x:Key="DpiPrescaleThemedImageSourceConverter" />  

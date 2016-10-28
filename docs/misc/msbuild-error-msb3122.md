@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3122"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "GenerateManifest.FileAssociationsApplicationNotFullTrust"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3122"
 ms.assetid: 523e4160-f165-437a-9f19-fb2ec77d46f5
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,9 +41,9 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Enable ClickOnce security settings and set the application to a full trust application. For more information, see [How to: Enable ClickOnce Security Settings](../deployment/how-to--enable-clickonce-security-settings.md).  
+-   Enable ClickOnce security settings and set the application to a full trust application. For more information, see [How to: Enable ClickOnce Security Settings](../deployment/how-to-enable-clickonce-security-settings.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)

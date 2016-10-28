@@ -1,20 +1,21 @@
 ---
 title: "Shader Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.designer.effectdesigner"
   - "vs.graphics.shaderdesigner"
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 caps.latest.revision: 32
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -33,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Shader Designer
-This document describes how to work with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
+This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
   
  You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.  
   
@@ -48,7 +49,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |C++ header (HLSL bytecode array)|.h|Export|  
   
 ## Getting Started  
- This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and provides basic information to help you get started.  
+ This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.  
   
 #### To add a DGSL shader to your project  
   
@@ -69,7 +70,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 ### Shader Designer toolbars  
  The Shader Designer toolbars contain commands that help you work with DGSL shader graphs.  
   
- Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.  
+ Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.  
   
  Here's the **Shader Designer Mode** toolbar:  
   
@@ -83,7 +84,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |**Pan**|Enables movement of a shader graph relative to the window frame. To pan, select a point on the design surface and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|  
 |**Zoom**|Enables the display of more or less shader-graph detail relative to the window frame. In **Zoom** mode, select a point on the design surface and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can press and hold Ctrl to zoom in or out by using the mouse wheel.|  
 |**Zoom to Fit**|Displays the full shader graph in the window frame.|  
-|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
+|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
 |**Preview with sphere**|When enabled, a model of a sphere is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Preview with cube**|When enabled, a model of a cube is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Preview with Cylinder**|When enabled, a model of a cylinder is used to preview the shader. Only one preview shape at a time can be enabled.|  
@@ -92,7 +93,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |**Preview with plane**|When enabled, a model of a plane is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Toolbox**|Alternately shows or hides the **Toolbox**.|  
 |**Properties**|Alternatively shows or hides the **Properties** window.|  
-|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to--export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
+|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
   
 > [!TIP]
 >  You can choose the **Advanced** button to run the last command again.  
@@ -165,7 +166,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
  You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an .hlsl file name extension. Shader bytecode can be exported either to a raw binary file that has a .cso file name extension, or to a C++ header (.h) file that encodes the shader bytecode into an array.  
   
- For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to--export-a-shader.md).  
+ For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).  
   
 ## Keyboard shortcuts  
   
@@ -196,6 +197,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3-D models, and shader effects.|  
-|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|
+|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3-D models, and shader effects.|  
+|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
+|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|

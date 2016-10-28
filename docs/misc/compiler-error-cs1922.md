@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS1922"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1922"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1922"
 ms.assetid: a4098a25-6581-4966-b61d-318cd12f76d3
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

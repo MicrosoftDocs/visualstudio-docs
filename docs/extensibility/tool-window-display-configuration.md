@@ -1,13 +1,13 @@
 ---
 title: "Tool Window Display Configuration"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tool windows, configuring"
@@ -53,7 +53,7 @@ HKEY_LOCAL_MACHINE\
 |Name|REG_SZ|"Short name goes here"|A short name that describes the tool window. Used only for reference in the registry.|  
 |Float|REG_SZ|"X1,Y1,X2,Y2"|Four comma separated values. X1, Y1 is the coordinate of the upper-left corner of the tool window. X2, Y2 is the coordinate of the lower-right corner. All values are in screen coordinates.|  
 |Style|REG_SZ|"MDI"<br /><br /> "Float"<br /><br /> "Linked"<br /><br /> "Tabbed"<br /><br /> "AlwaysFloat"|A keyword specifying the initial display state of the tool window.<br /><br /> "MDI" = docked with MDI window.<br /><br /> "Float" = floating.<br /><br /> "Linked" = linked with another window (specified in the Window entry).<br /><br /> "Tabbed" = combined with another tool window.<br /><br /> "AlwaysFloat" = cannot be docked.<br /><br /> For more information, see the Comments section below.|  
-|Window|REG_SZ|*\<GUID>*|The GUID of a window to which the tool window can be linked or tabbed. The GUID may belong to one of your own windows or one of the windows in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.|  
+|Window|REG_SZ|*\<GUID>*|The GUID of a window to which the tool window can be linked or tabbed. The GUID may belong to one of your own windows or one of the windows in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.|  
 |Orientation|REG_SZ|"Left"<br /><br /> "Right"<br /><br /> "Top"<br /><br /> "Bottom"|See the Comments section below.|  
 |DontForceCreate|REG_DWORD|0 or 1|When this entry is present and its value is not zero, the window is loaded, but not immediately displayed.|  
   

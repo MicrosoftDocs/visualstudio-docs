@@ -1,13 +1,13 @@
 ---
 title: "VSPackage State"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "state, VSPackages"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VSPackage State
-Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] application.  
+Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application.  
   
 -   Projects have project and configuration properties.  
   
@@ -45,7 +45,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
   
 -   Objects that an application creates can have properties of their own.  
   
- Here are some of the ways that a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] application state can be managed:  
+ Here are some of the ways that a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application state can be managed:  
   
 -   Through the project and solution property pages.  
   
@@ -63,7 +63,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  [Support for State Persistence](../misc/support-for-state-persistence.md)  
  Lists common strategies for saving, restoring, and resetting the state of a VSPackage.  
   
- [Options and Options Pages](../extensibility/options-and-options-pages.md)  
+ [Options and Options Pages](../extensibility/internals/options-and-options-pages.md)  
  Introduces general and custom Options pages and explains how to implement them.  
   
  [Creating an Options Page](../extensibility/creating-an-options-page.md)  
@@ -73,7 +73,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  Discusses user settings and how they are created and persisted.  
   
  [Creating a Settings Category](../extensibility/creating-a-settings-category.md)  
- Explains how to create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings category and use it to save values to and restore values from a settings file.  
+ Explains how to create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings category and use it to save values to and restore values from a settings file.  
   
  [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)  
  Explains how to display and change the value of an object in the **Properties** window.  
@@ -81,7 +81,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  [Exposing Properties to the Properties Window](../extensibility/exposing-properties-to-the-properties-window.md)  
  Explains how to expose the public properties of an object to the **Properties** window.  
   
- [Support for Project and Configuration Properties](../extensibility/support-for-project-and-configuration-properties.md)  
+ [Support for Project and Configuration Properties](../extensibility/internals/support-for-project-and-configuration-properties.md)  
  Explains how to display and change project and configuration properties.  
   
  [Getting Project Properties](../extensibility/getting-project-properties.md)  
@@ -91,5 +91,5 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  Explains the Settings Store persistence mechanism and how to use it.  
   
 ## Related Sections  
- [VSPackages](../extensibility/vspackages.md)  
+ [VSPackages](../extensibility/internals/vspackages.md)  
  Provides a general orientation to topics that explain how to create and use VSPackages.

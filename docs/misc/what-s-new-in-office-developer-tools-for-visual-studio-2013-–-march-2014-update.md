@@ -1,16 +1,17 @@
 ---
 title: "What&#39;s New in Office Developer Tools for Visual Studio 2013 – March 2014 Update"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e701c650-2a2b-4b18-9f7b-04d4fc59a05d
 caps.latest.revision: 2
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

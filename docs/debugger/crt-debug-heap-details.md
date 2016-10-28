@@ -1,13 +1,13 @@
 ---
 title: "CRT Debug Heap Details"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -155,9 +155,9 @@ typedef struct _CrtMemBlockHeader
  New objects (0xCD)  
  New objects are filled with 0xCD when they are allocated.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop")  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop")  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap  
  Every memory block in the debug heap is assigned to one of five allocation types. These types are tracked and reported differently for purposes of leak detection and state reporting. You can specify a block's type by allocating it using a direct call to one of the debug heap allocation functions such as [_malloc_dbg](../Topic/_malloc_dbg.md). The five types of memory blocks in the debug heap (set in the **nBlockUse** member of the **_CrtMemBlockHeader** structure) are as follows:  
@@ -191,7 +191,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 #define _BLOCK_SUBTYPE(block)       (block >> 16 & 0xFFFF)  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> Check for heap integrity and memory leaks  
  Many of the debug heap's features must be accessed from within your code. The following section describes some of the features and how to use them.  
@@ -212,7 +212,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 |**_CRTDBG_CHECK_CRT_DF**|Off|Causes blocks marked as type **_CRT_BLOCK** to be included in leak-detection and state-difference operations. When this bit is off, the memory used internally by the run-time library is ignored during such operations.|  
 |**_CRTDBG_LEAK_CHECK_DF**|Off|Causes leak checking to be performed at program exit via a call to **_CrtDumpMemoryLeaks**. An error report is generated if the application has failed to free all the memory that it allocated.|  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Configure_the_debug_heap"></a> Configure the debug heap  
  All calls to heap functions such as `malloc`, `free`, `calloc`, `realloc`, `new`, and `delete` resolve to debug versions of those functions that operate in the debug heap. When you free a memory block, the debug heap automatically checks the integrity of the buffers on either side of your allocated area and issues an error report if overwriting has occurred.  
@@ -247,7 +247,7 @@ tmpFlag &= ~_CRTDBG_CHECK_CRT_DF;
 _CrtSetDbgFlag( tmpFlag );  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
  The debug versions of the C run-time library contain debug versions of the C++ `new` and `delete` operators. If you use the `_CLIENT_BLOCK` allocation type, you must call the debug version of the `new` operator directly or create macros that replace the `new` operator in debug mode, as shown in the following example:  
@@ -285,7 +285,7 @@ int main( )   {
   
  The Debug version of the `delete` operator works with all block types and requires no changes in your program when you compile a Release version.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions  
  **_CrtMemState**  
@@ -322,7 +322,7 @@ typedef struct _CrtMemState
 |[_CrtMemDumpAllObjectsSince](../Topic/_CrtMemDumpAllObjectsSince.md)|Dumps information about all objects allocated since a given snapshot was taken of the heap or from the start of execution. Every time it dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
 |[_CrtDumpMemoryLeaks](../Topic/_CrtDumpMemoryLeaks.md)|Determines whether any memory leaks occurred since the start of program execution and, if so, dumps all allocated objects. Every time **_CrtDumpMemoryLeaks** dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Track_Heap_Allocation_Requests"></a> Track Heap Allocation Requests  
  Although pinpointing the source file name and line number at which an assert or reporting macro executes is often very useful in locating the cause of a problem, the same is not as likely to be true of heap allocation functions. While macros can be inserted at many appropriate points in an application's logic tree, an allocation is often buried in a special routine that is called from many different places at many different times. The question is usually not what line of code made a bad allocation, but rather which one of the thousands of allocations made by that line of code was bad and why.  
@@ -377,7 +377,7 @@ int addNewRecord(struct RecStruct *prevRecord,
   
  Now the source file name and line number where `addNewRecord` was called will be stored in each resulting block allocated in the debug heap and will be reported when that block is examined.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)

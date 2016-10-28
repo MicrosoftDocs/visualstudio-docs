@@ -1,13 +1,13 @@
 ---
 title: "Debugger Basics"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -63,7 +63,7 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
  Explains how to attach to a process that is already running.  
   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)  
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
  Explains how to specify symbol and source files for debugging.  
   
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)  

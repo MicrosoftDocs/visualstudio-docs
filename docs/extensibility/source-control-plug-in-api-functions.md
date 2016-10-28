@@ -1,13 +1,13 @@
 ---
 title: "Source Control Plug-in API Functions"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, functions"
@@ -100,4 +100,4 @@ The Source Control Plug-in API provides the following functions, which must be i
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

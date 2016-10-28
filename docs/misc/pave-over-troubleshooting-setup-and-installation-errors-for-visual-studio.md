@@ -1,19 +1,20 @@
 ---
 title: "PAVE OVER Troubleshooting Setup and Installation Errors for Visual Studio"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "installation errors"
   - "installing Visual Studio, errors"
 ms.assetid: d7f231cf-c4cd-4f7f-9836-14e278944298
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -32,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # PAVE OVER Troubleshooting Setup and Installation Errors for Visual Studio
-Use the following resources to find assistance with troubleshooting setup and installation issues for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+Use the following resources to find assistance with troubleshooting setup and installation issues for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 -   [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.  
   

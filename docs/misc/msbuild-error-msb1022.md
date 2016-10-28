@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB1022"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.ResponseFileNotFoundError"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1022"
 ms.assetid: 19fb46ea-6b37-497f-8978-2d1b8fc45e17
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 1.  Check that the response file exists in the specified directory if you have specified the absolute or relative location of the response file.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

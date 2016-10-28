@@ -1,13 +1,13 @@
 ---
 title: "Statement cannot appear within a property body"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30634"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30634"
 ms.assetid: 35cc3b86-0814-4a4f-a65b-0956f004b1bd
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -47,4 +48,4 @@ Statement cannot appear within a property body. End of property assumed.
   
 ## See Also  
  [Property Statement](../Topic/Property%20Statement.md)   
- [Property Changes in Visual Basic](assetId:///1c138efa-9bc2-44d7-80a0-f3a7c2510264)
+ [Property Changes in Visual Basic](http://msdn.microsoft.com/en-us/1c138efa-9bc2-44d7-80a0-f3a7c2510264)

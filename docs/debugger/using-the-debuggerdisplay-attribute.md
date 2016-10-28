@@ -1,13 +1,13 @@
 ---
 title: "Using the DebuggerDisplay Attribute"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -192,5 +192,5 @@ class MyHashtable
   
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
- [Create custom views of .managed objects](../debugger/create-custom-views-of-.managed-objects.md)   
+ [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)   
  [Enhancing Debugging with the Debugger Display Attributes](../Topic/Enhancing%20Debugging%20with%20the%20Debugger%20Display%20Attributes.md)

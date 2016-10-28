@@ -1,18 +1,19 @@
 ---
 title: "MSBuild Error MSB4143"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSB4143"
 ms.assetid: 25019aa4-f0da-4bcd-862e-9b5a57913bb4
-caps.latest.revision: 9
+caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,6 +41,7 @@ translation.priority.mt:
   
 -   Make sure that the property follows the correct syntax to read a value from the registry. For example: `$(Registry:HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\8.0\MSBuild@MSBuildBinPath)`.  
   
-## See Also  
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+## See Also
+ [MSBuild Properties](../msbuild/msbuild-properties.md)  
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

@@ -1,13 +1,13 @@
 ---
 title: "Edit and Continue Error Message Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.ENC.SupportedButNotAvaiable"
@@ -70,4 +70,4 @@ This dialog box appears when you are debugging in a language that supports Edit 
  Exit the dialog box and cancel the immediately preceding edit attempt.  
   
 ## See Also  
- [Supported Code Changes (C++)](../debugger/supported-code-changes--c---.md)
+ [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

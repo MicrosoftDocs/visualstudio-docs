@@ -1,13 +1,13 @@
 ---
 title: "Private Galleries"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSIX galleries, private"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Private Galleries
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:  
   
--   Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom Feed for a Private Gallery](../extensibility/how-to--create-an-atom-feed-for-a-private-gallery.md).  
+-   Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom Feed for a Private Gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).  
   
 -   Distribute a .pkgdef file that describes the private gallery. We recommend this configuration for administrators who want to connect a private gallery to many computers at the same time.  
   
@@ -74,7 +74,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 ```  
   
- For more information, see [How to: Manage a Private Gallery By Using Registry Settings](../extensibility/how-to--manage-a-private-gallery-by-using-registry-settings.md).  
+ For more information, see [How to: Manage a Private Gallery By Using Registry Settings](../extensibility/how-to-manage-a-private-gallery-by-using-registry-settings.md).  
   
 ## Installing Extensions from a Private Gallery  
  You can search for and install Visual Studio extensions from a private gallery in **Extensions and Updates**. The following steps use a private gallery named `My Gallery`.  

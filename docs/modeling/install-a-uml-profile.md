@@ -1,18 +1,19 @@
 ---
 title: "Install a UML profile"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending, profiles"
 ms.assetid: 586f9ba5-4d01-4a1d-b001-32e2efaa4f24
 caps.latest.revision: 11
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -41,7 +42,7 @@ You can extend Visual Studio with a UML profile. A profile lets you add stereoty
   
      Move the `.vsix` file to a convenient location on your computer.  
   
-2.  Double-click the `.vsix` file in Windows Explorer (or File Explorer), or open it within [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+2.  Double-click the `.vsix` file in Windows Explorer (or File Explorer), or open it within [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 3.  Click **Install** in the dialog box that appears.  
   

@@ -1,13 +1,13 @@
 ---
 title: "Report Based on Visible Time Range"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.reportnav.profile"
@@ -38,14 +38,14 @@ The Profile view displays reports that are based on the currently visible time r
  You can find more information about the data in the tables here.  
   
 ## See Also  
- [No Thread Activity to Show](../profiling/no-thread-activity-to-show--threads-view-.md)   
+ [No Thread Activity to Show](../profiling/no-thread-activity-to-show-threads-view.md)   
  [Execution Profile Report](../profiling/execution-profile-report.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   
- [I/O Time (Threads View)](../profiling/i-o-time--threads-view-.md)   
+ [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md)   
  [Sleep Time](../profiling/sleep-time.md)   
  [Memory Management Time](../profiling/memory-management-time.md)   
  [Preemption Time](../profiling/preemption-time.md)   
  [UI Processing Time](../profiling/ui-processing-time.md)   
- [Disk Operations Report](../profiling/disk-operations-report--threads-view-.md)   
+ [Disk Operations Report](../profiling/disk-operations-report-threads-view.md)   
  [Per Thread Summary Report](../profiling/per-thread-summary-report.md)   
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

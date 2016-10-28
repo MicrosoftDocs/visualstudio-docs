@@ -1,13 +1,13 @@
 ---
 title: "Server and Client Configuration Issues in ClickOnce Deployments"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
 ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 caps.latest.revision: 33
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -40,9 +41,9 @@ translation.priority.ht:
 # Server and Client Configuration Issues in ClickOnce Deployments
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.  
   
- Additionally, some Web servers and Web application software, such as [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)], contain a list of files and file types that you cannot download. For example, [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] prevents the download of all Web.config files. These files may contain sensitive information such as user names and passwords.  
+ Additionally, some Web servers and Web application software, such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], contain a list of files and file types that you cannot download. For example, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] prevents the download of all Web.config files. These files may contain sensitive information such as user names and passwords.  
   
- Although this restriction should cause no problems for downloading core [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files such as manifests and assemblies, this restriction may prevent you from downloading data files included as part of your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. In [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)], you can resolve this error by removing the handler that prohibits downloading of such files from the IIS configuration manager. See the IIS server documentation for additional details.  
+ Although this restriction should cause no problems for downloading core [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files such as manifests and assemblies, this restriction may prevent you from downloading data files included as part of your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. In [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], you can resolve this error by removing the handler that prohibits downloading of such files from the IIS configuration manager. See the IIS server documentation for additional details.  
   
  Some Web servers might block files with extensions such as .dll, .config, and .mdf. Windows-based applications typically include files with some of these extensions. If a user attempts to run a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that accesses a blocked file on a Web server, an error will result. Rather than unblocking all file extensions, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publishes every application file with a ".deploy" file extension by default. Therefore, the administrator only needs to configure the Web server to unblock the following three file extensions:  
   
@@ -52,9 +53,9 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 -   .deploy  
   
- However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](assetId:///fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
+ However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
   
- You will have to configure .manifest, .application, and .deploy, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], or if you are using another Web server (for example, Apache).  
+ You will have to configure .manifest, .application, and .deploy, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], or if you are using another Web server (for example, Apache).  
   
 ## ClickOnce and Secure Sockets Layer (SSL)  
  A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.  
@@ -120,7 +121,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## Windows Server: Enable FrontPage server extensions  
  FrontPage Server Extensions from Microsoft is required for publishing applications to a Windows Web server that uses HTTP.  
   
- By default, Windows Server does not have FrontPage Server Extensions installed. If you want to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to publish to a Windows Server Web server that uses HTTP with FrontPage Server Extensions, you must install FrontPage Server Extensions first. You can perform the installation by using the Manage Your Server administration tool in Windows Server.  
+ By default, Windows Server does not have FrontPage Server Extensions installed. If you want to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to publish to a Windows Server Web server that uses HTTP with FrontPage Server Extensions, you must install FrontPage Server Extensions first. You can perform the installation by using the Manage Your Server administration tool in Windows Server.  
   
 ## Windows Server: Locked-Down Content Types  
  IIS on [!INCLUDE[WinXPSvr](../debugger/includes/winxpsvr_md.md)] locks down all file types except for certain known content types (for example, .htm, .html, .txt, and so on). To enable deployment of [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications using this server, you need to change the IIS settings to allow downloading files of type .application, .manifest, and any other custom file types used by your application.  
@@ -134,7 +135,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 Does Not Serve Unknown MIME Types" at [http://support.microsoft.com/default.aspx?scid=kb;en-us;326965](http://support.microsoft.com/default.aspx?scid=kb;en-us;326965).  
   
 ## Content Type Mappings  
- When publishing over HTTP, the content type (also known as MIME type) for the .application file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).  
+ When publishing over HTTP, the content type (also known as MIME type) for the .application file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).  
   
  If you deploy using an IIS server, run inetmgr.exe and add a new content type of "application/x-ms-application" for the .application extension.  
   

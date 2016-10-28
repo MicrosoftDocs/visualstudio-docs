@@ -1,13 +1,13 @@
 ---
 title: "Making Custom Projects Version-Aware"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
@@ -32,9 +32,9 @@ translation.priority.mt:
 In your custom project system, you can allow projects of that type to load in multiple versions of Visual Studio. You can also prevent projects of that type from loading in an earlier version of Visual Studio. You can also enable that project to identify itself to a later version in case the project requires repair, conversion, or deprecation.  
   
 ## Allowing Projects to Load in Multiple Versions  
- You can modify most projects that were created in [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] with SP1 or later to work in multiple versions.  
+ You can modify most projects that were created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] with SP1 or later to work in multiple versions.  
   
- Before a project is loaded, Visual Studio calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly*> method to determine whether the project can be upgraded. If the project can be upgraded, the `UpgradeProject_CheckOnly` method sets a flag that causes a later call to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject*> method to upgrade the project. Because incompatible projects can’t be upgraded, `UpgradeProject_CheckOnly` must first check for project compatibility, as described in the earlier section.  
+ Before a project is loaded, Visual Studio calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly*> method to determine whether the project can be upgraded. If the project can be upgraded, the `UpgradeProject_CheckOnly` method sets a flag that causes a later call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject*> method to upgrade the project. Because incompatible projects can’t be upgraded, `UpgradeProject_CheckOnly` must first check for project compatibility, as described in the earlier section.  
   
  You, as the author of a project system, implement `UpgradeProject_CheckOnly` (from the `IVsProjectUpgradeViaFactory4` interface) to provide users of your project system with an upgrade check. When users open a project, this method is called to determine whether a project must be repaired before it is loaded. The possible upgrade requirements are enumerated in `VSPUVF_REPAIRFLAGS`, and they include the following possibilities:  
   
@@ -64,15 +64,15 @@ In your custom project system, you can allow projects of that type to load in mu
  Here is an example to help summarize the compatibility user experience. If a project was created in an earlier version, and the current version determines that an upgrade is required, Visual Studio displays a dialog box to ask the user for permission to make the changes. If the user agrees, the project is modified and then loaded. If the solution is then closed and reopened in the earlier version, the one-way-upgraded project will be incompatible and not loaded. If the project had only required a repair (instead of an upgrade), the repaired project will still open in both versions.  
   
 ##  <a name="BKMK_Incompat"></a> Marking a Project as Incompatible  
- You can mark a project as incompatible with earlier versions of Visual Studio.  For example, suppose you create a project that uses a .NET Framework 4.5 feature. Because this project can’t be built in [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)], you can mark it as incompatible to prevent that version from trying to load it.  
+ You can mark a project as incompatible with earlier versions of Visual Studio.  For example, suppose you create a project that uses a .NET Framework 4.5 feature. Because this project can’t be built in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)], you can mark it as incompatible to prevent that version from trying to load it.  
   
- The component that adds the incompatible feature is responsible for marking the project as incompatible. The component must have access to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface that represents the projects of interest.  
+ The component that adds the incompatible feature is responsible for marking the project as incompatible. The component must have access to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface that represents the projects of interest.  
   
 #### To mark a project as incompatible  
   
 1.  In the component, get an `IVsAppCompat` interface from the global service SVsSolution.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>.  
+     For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>.  
   
 2.  In the component, call `IVsAppCompat.AskForUserConsentToBreakAssetCompat`, and pass it an array of `IVsHierarchy` interfaces that represent the projects of interest.  
   
@@ -109,7 +109,7 @@ In your custom project system, you can allow projects of that type to load in mu
   
      The BreakAssetCompatibility method then calls the `IVsHierarchy.SetProperty` method to set the root `VSHPROPID_MinimumDesignTimeCompatVersion` property to the value of the version string that you obtained in the previous step.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetProperty*>.  
+     For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetProperty*>.  
   
 > [!IMPORTANT]
 >  You must implement the `VSHPROPID_MinimumDesignTimeCompatVersion` property to mark a project as compatible or incompatible. For example, if the project system uses an MSBuild project file, add to the project file a `<MinimumVisualStudioVersion>` build property that has a value equal to the corresponding `VSHPROPID_MinimumDesignTimeCompatVersion` property value.  
@@ -117,7 +117,7 @@ In your custom project system, you can allow projects of that type to load in mu
 ## Detecting Whether a Project is Incompatible  
  A project that is incompatible with the current version of Visual Studio must be kept from loading. Furthermore, a project that is incompatible can’t be upgraded or repaired. Therefore, a project must be checked for compatibility twice: first, when it is being considered for upgrade or repair, and second, before it is loaded.  
   
- To enable the detection of project incompatibility, you must implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly*> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject*> methods. If a project is incompatible, `UpgradeProject_CheckOnly` must return the success code `VS_S_INCOMPATIBLEPROJECT`, and `CreateProject` must return the error code `VS_E_INCOMPATIBLEPROJECT`. For flavored projects, you must implement `IVsProjectFlavorUpgradeViaFactory2.UpgradeProjectFlavor_CheckOnly` instead of `IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly`.  
+ To enable the detection of project incompatibility, you must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject*> methods. If a project is incompatible, `UpgradeProject_CheckOnly` must return the success code `VS_S_INCOMPATIBLEPROJECT`, and `CreateProject` must return the error code `VS_E_INCOMPATIBLEPROJECT`. For flavored projects, you must implement `IVsProjectFlavorUpgradeViaFactory2.UpgradeProjectFlavor_CheckOnly` instead of `IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly`.  
   
  A project system is referred to as flavored if it has a web, Office (VSTO), Silverlight, or other project type built on top of it. Older project systems that already implement `IVsProjectUpgradeViaFactory.UpgradeProject_CheckOnly` and flavored project systems that already implement `IVsProjectFlavorUpgradeViaFactory.UpgradeProjectFlavor_CheckOnly` continue to be supported. The older version of `IVsProjectUpgradeViaFactory.UpgradeProject_CheckOnly` has the following implementation signature:  
   
@@ -145,7 +145,7 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
 > [!NOTE]
 >  You can cache the result of the compatibility check by the `UpgradeProject_CheckOnly` method so that it can also be used by the subsequent call to `CreateProject`.  
   
- For example, if the `UpgradeProject_CheckOnly` and `CreateProject` methods that are written for a [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] with SP1 project system examine a project file and find that the `<MinimumVisualStudioVersion>` build property is "11.0", Visual Studio 2010 with SP1 won’t load the project. In addition, **Solution Navigator** would indicate that the project is “incompatible” and won’t load it.  
+ For example, if the `UpgradeProject_CheckOnly` and `CreateProject` methods that are written for a [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] with SP1 project system examine a project file and find that the `<MinimumVisualStudioVersion>` build property is "11.0", Visual Studio 2010 with SP1 won’t load the project. In addition, **Solution Navigator** would indicate that the project is “incompatible” and won’t load it.  
   
 ##  <a name="BKMK_UpgradeLogger"></a> The Upgrade Logger  
  The call to `IVsProjectUpgradeViaFactory::UpgradeProject` contains an `IVsUpgradeLogger` logger, which project systems and flavors should use to provide detailed upgrade tracing for troubleshooting. If a warning or an error is logged, Visual Studio shows the upgrade report.  

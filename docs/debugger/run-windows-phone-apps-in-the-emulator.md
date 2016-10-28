@@ -1,13 +1,13 @@
 ---
 title: "Run Windows Phone apps in the emulator"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Run Windows Phone apps in the emulator
 The Windows Phone emulator provides a virtualized environment in which you can debug and test Windows Phone apps on your computer without a physical device. You can simulate common touch and rotation events and choose the physical screen size and resolution that you want to emulate. You can also test many commonly used features, such as location, networking, notifications, sensors, the accelerometer, and the optional SD card.  
   
- For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](assetId:///c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
+ For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
   
  Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
   

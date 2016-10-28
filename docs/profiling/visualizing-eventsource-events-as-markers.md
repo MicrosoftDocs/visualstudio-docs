@@ -1,13 +1,13 @@
 ---
 title: "Visualizing EventSource Events as Markers"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 caps.latest.revision: 10
@@ -30,16 +30,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visualizing EventSource Events as Markers
-The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box--concurrency-visualizer-.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see \<xref:System.Diagnostics.Tracing>.  
+The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.  
   
 ## Default Visualization of EventSource Events  
  By default, the Concurrency Visualizer uses the following conventions to represent EventSource events.  
   
 ### Marker Type  
   
-1.  Events that have [Opcode](assetId:///d97953df-669b-4c55-b1a8-925022b339b7) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.  
+1.  Events that have [Opcode](http://msdn.microsoft.com/en-us/d97953df-669b-4c55-b1a8-925022b339b7) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.  
   
-2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](assetId:///dfa4e0a9-4d89-4f50-aef9-1dae0dc11726) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.  
+2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](http://msdn.microsoft.com/en-us/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.  
   
 3.  In all other cases, the event is treated as a message.  
   
@@ -102,7 +102,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
  Use the `cvTextW` field, a string, to control the description that the Concurrency Visualizer gives to an EventSource event.  
   
 ### SpanID  
- Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as \<xref:System.Threading.Interlocked.Exchange*> to ensure that the key (the value that's used for CvSpanID) is correct.  
+ Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange*> to ensure that the key (the value that's used for CvSpanID) is correct.  
   
 > [!NOTE]
 >  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.  

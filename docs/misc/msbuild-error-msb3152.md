@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3152"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.PackageFileNotFound"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3152"
 ms.assetid: 5a3859d4-4107-4e46-bb42-04de92b551de
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

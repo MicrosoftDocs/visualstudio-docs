@@ -1,13 +1,13 @@
 ---
 title: "Localizing Menu Commands"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "localize"
@@ -168,5 +168,5 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs.-olemenucommands.md)   
+ [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
  [Globalization and Localization](../Topic/Globalizing%20and%20Localizing%20.NET%20Framework%20Applications.md)

@@ -1,13 +1,13 @@
 ---
 title: "Specifying File Handlers for File Name Extensions"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "file extensions, specifying file handlers"
@@ -52,7 +52,7 @@ HKEY_CLASSES_ROOT\
  By adding an OpenWithList key, you declare that your application supports a file extension even if another application takes ownership of the extension. This could be a future version of your application or another application.  
   
 ## OpenWithProgIDs  
- Programmatic identifiers (ProgIDs) are friendly versions of ClassIDs that identify a version of an application or COM object. Every co-creatable object should have its own ProgID. For example, VisualStudio.DTE.7.1 starts Visual Studio .NET 2003 while VisualStudio.DTE.10.0 starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. As the owner of a project type or project item type, you must create a version-specific ProgID for your file extension. These ProgIDs may be redundant in that more than one ProgID may start the same application. For more information, see [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md).  
+ Programmatic identifiers (ProgIDs) are friendly versions of ClassIDs that identify a version of an application or COM object. Every co-creatable object should have its own ProgID. For example, VisualStudio.DTE.7.1 starts Visual Studio .NET 2003 while VisualStudio.DTE.10.0 starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. As the owner of a project type or project item type, you must create a version-specific ProgID for your file extension. These ProgIDs may be redundant in that more than one ProgID may start the same application. For more information, see [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md).  
   
  Use the following naming convention for versioned file ProgIDs to avoid duplication with registration from other vendors:  
   
@@ -76,7 +76,7 @@ HKEY_CLASSES_ROOT\
          otherprogid   REG_NONE (zero-length binary value)  
 ```  
   
- The ProgID specified as the default value for the file extension is the default file handler. If you modify the ProgID for a file extension that shipped with a previous version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or that can be taken over by other applications, then you must register the `OpenWithProgids` key for your file extension and specify the new ProgID in the list along with the old ProgIDs you support. For example:  
+ The ProgID specified as the default value for the file extension is the default file handler. If you modify the ProgID for a file extension that shipped with a previous version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or that can be taken over by other applications, then you must register the `OpenWithProgids` key for your file extension and specify the new ProgID in the list along with the old ProgIDs you support. For example:  
   
 ```  
 HKEY_CLASSES_ROOT\  

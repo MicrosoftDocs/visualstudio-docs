@@ -1,11 +1,11 @@
 ---
 title: "Customizing File Storage and XML Serialization"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.xmlbehavior"
@@ -13,11 +13,12 @@ helpviewer_keywords:
   - "Domain-Specific Language, serialization"
 ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
 caps.latest.revision: 17
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing File Storage and XML Serialization
-When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
+When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
   
  You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There is a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.  
   

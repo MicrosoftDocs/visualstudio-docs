@@ -1,13 +1,13 @@
 ---
 title: "Installing Visual Studio 2015"
-ms.custom: na
+ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.about"
@@ -41,7 +41,7 @@ translation.priority.mt:
 # Installing Visual Studio 2015
 This page includes detailed information to help you with installing Visual Studio, our integrated suite of productivity tools for developers. We've also included links to get you quickly to information about [features](https://www.visualstudio.com/news/vs2015-vs.aspx), [editions](http://go.microsoft.com/fwlink/?LinkID=242142), [system requirements](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs), [downloads](http://go.microsoft.com/fwlink/?LinkId=517106), and more.  
   
- (To view installation information about previous versions of Visual Studio, click the "Other Versions" link at the top of this page. And, to view installation information about the next version of Visual Studio, see our [Installing Visual Studio "15" Preview 5](../install/installing-visual-studio--15--preview-5.md) page.
+ (To view installation information about previous versions of Visual Studio, click the "Other Versions" link at the top of this page. And, to view installation information about the next version of Visual Studio, see our [Installing Visual Studio "15" Preview 5](../install/installing-visual-studio-15-preview-5.md) page.
 ## Quick Links  
  Before we dig in to the details, here's a list of our most frequently requested links.  
   
@@ -51,7 +51,7 @@ This page includes detailed information to help you with installing Visual Studi
 |![Find out what's in each SKU](../install/media/sku.png "SKUs") |**SKUs**: To find out what's available in each edition of Visual Studio 2015, see our [Compare Visual Studio Offerings](http://go.microsoft.com/fwlink/?LinkID=242142) page.|  
 |![View system requirements](../install/media/system-requirements.png "System Requirements") |**System Requirements**: To view the system requirements for each edition of Visual Studio 2015, see the [Visual Studio 2015 Compatibility](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs) page.|  
 |![Download Visual Studio](../install/media/downloads.png "Downloads") |**Downloads**: To install Visual Studio, you can download the web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) page, or you can download a product executable file from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page (subscription required), or use the installation media from the boxed product.|  
-|![Locate your Product Key](../install/media/product-keys.png "Product Keys") |**Product Keys**: To locate your product key, see the [How to: Locate the Visual Studio Product Key](../install/how-to--locate-the-visual-studio-product-key.md) topic.|  
+|![Locate your Product Key](../install/media/product-keys.png "Product Keys") |**Product Keys**: To locate your product key, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) topic.|  
 |![Find out about licensing](../install/media/licensing.png "Licensing") |**Licensing**: To find out about licensing options for both individuals or enterprise customers, see  the [Visual Studio and MSDN Licensing](https://www.microsoft.com/download/details.aspx?id=13350) white paper.|  
   
 ##  <a name="custom"></a> Default vs. Custom Setup  
@@ -79,7 +79,7 @@ This page includes detailed information to help you with installing Visual Studi
  You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic for more details).  
   
 > [!IMPORTANT]
->  You need administrator credentials to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] after you install it.  
+>  You need administrator credentials to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] after you install it.  
   
  Your local administrator account must have the following privileges enabled to install everything in Visual Studio.  
   
@@ -92,7 +92,7 @@ This page includes detailed information to help you with installing Visual Studi
  For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/en-us/kb/2000257).  
   
 ###  <a name="BKMK_Media"></a> Using installation media  
- To install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], in the root directory on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation media, run the installation file for the edition you want:  
+ To install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], in the root directory on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, run the installation file for the edition you want:  
   
 |Edition|Installation File|  
 |-------------|-----------------------|  
@@ -107,10 +107,10 @@ This page includes detailed information to help you with installing Visual Studi
  Visit  the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page, and select the edition of Visual Studio that you want.  
   
 ###  <a name="BKMK_Offline"></a> Creating an offline installation  layout  
- If you do not have the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic.  
+ If you do not have the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic.  
   
 ##  <a name="enterprise"></a> Deploying Visual Studio in an Enterprise  
- For information about how to deploy [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] over a network, see the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).  
+ For information about how to deploy [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] over a network, see the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).  
   
 ###  <a name="BKMK_Virtualized"></a> Installing Visual Studio in a virtualized environment  
  **Video Issues with Hyper-V**  
@@ -135,11 +135,11 @@ This page includes detailed information to help you with installing Visual Studi
 3.  Choose **Next**, and then follow the remaining instructions.  
   
 ##  <a name="helpContent"></a> Installing offline Help content  
- After you install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can download additional Help content so that it will be available offline.  
+ After you install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can download additional Help content so that it will be available offline.  
   
 #### To install or uninstall Help content  
   
-1.  On the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
+1.  On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
   
 2.  On the **Manage Content** tab of the **Microsoft Help Viewer**, select the installation source for your Help content.  
   
@@ -210,7 +210,7 @@ This page includes detailed information to help you with installing Visual Studi
 |[Uninstalling Visual Studio](../install/uninstalling-visual-studio.md)|Describes how to uninstall Visual Studio.|  
 |[Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)|Provides information about deployment options for Visual Studio.|  
 |[Installing Multiple Language Versions of Visual Studio](../install/installing-multiple-language-versions-of-visual-studio.md)|Provides information about how to install different language versions of Visual Studio.|  
-|[How to: Locate the Visual Studio Product Key](../install/how-to--locate-the-visual-studio-product-key.md)|Describes how to locate the product key for your installation of Visual Studio.|  
+|[How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)|Describes how to locate the product key for your installation of Visual Studio.|  
 |[The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)|Provides information about how to install graphics that you can use in Visual Studio applications.|  
 |[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|Provides information and links that can help you use Visual Studio more effectively.|  
   

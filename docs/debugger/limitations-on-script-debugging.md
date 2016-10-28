@@ -1,13 +1,13 @@
 ---
 title: "Limitations on Script Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -38,10 +38,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Limitations on Script Debugging
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
   
 ## Limitations on Breakpoint Mapping with Client-Side Script  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] enables you to set a breakpoint in a server-side ASPX or HTML file that is transformed to a client-side file at run time. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] maps the breakpoint from the server-side file to a corresponding breakpoint in the client-side file, subject to the following limitations:  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set a breakpoint in a server-side ASPX or HTML file that is transformed to a client-side file at run time. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] maps the breakpoint from the server-side file to a corresponding breakpoint in the client-side file, subject to the following limitations:  
   
 -   Breakpoints must be set inside `<script>` blocks. Breakpoints in inline script or `<% %>` blocks cannot be mapped.  
   

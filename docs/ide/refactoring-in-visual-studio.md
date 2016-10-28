@@ -1,13 +1,13 @@
 ---
 title: "Refactoring in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
 caps.latest.revision: 3
@@ -42,7 +42,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
  Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
   
 ### Refactoring in C#  
- [Refactoring (C#)](../Topic/Refactoring%20\(C%23\).md)  
+ [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  
   
 ### Refactoring in Visual Basic  
  [Refactoring and Rename Dialog Box (Visual Basic)](../Topic/Refactoring%20and%20Rename%20Dialog%20Box%20\(Visual%20Basic\).md)  

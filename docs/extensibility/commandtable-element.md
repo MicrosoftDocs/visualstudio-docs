@@ -1,13 +1,13 @@
 ---
 title: "CommandTable Element"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CommandTable"
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # CommandTable Element
-CommandTable is the root element of the .vsct file. This is the file that defines the actual layout and type of the commands that a VSPackage provides to the IDE. Commands may include menu items, menus, toolbars, and combo boxes. For more information, see [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md).  
+CommandTable is the root element of the .vsct file. This is the file that defines the actual layout and type of the commands that a VSPackage provides to the IDE. Commands may include menu items, menus, toolbars, and combo boxes. For more information, see [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
   
 ## Syntax  
   
@@ -74,7 +74,7 @@ CommandTable is the root element of the .vsct file. This is the file that define
 |[VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md)|Optional. Determines the static visibility of commands and toolbars.|  
 |[KeyBindings Element](../extensibility/keybindings-element.md)|Optional. Specifies the shortcut key combinations, if any, for the commands.|  
 |[UsedCommands Element](../extensibility/usedcommands-element.md)|Optional. Allows a VSPackage to optionally implement its own version of functionality originally supported by other VSPackages.|  
-|[Symbols Element](assetId:///f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
+|[Symbols Element](http://msdn.microsoft.com/en-us/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
   
 ### Parent Elements  
   
@@ -83,4 +83,4 @@ CommandTable is the root element of the .vsct file. This is the file that define
 |None||  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

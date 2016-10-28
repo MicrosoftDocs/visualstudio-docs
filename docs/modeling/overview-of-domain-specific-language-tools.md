@@ -1,21 +1,22 @@
 ---
 title: "Overview of Domain-Specific Language Tools"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language"
 ms.assetid: 50d93ea2-8c88-4522-853b-40ab194953db
 caps.latest.revision: 54
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Overview of Domain-Specific Language Tools
-Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.  
+Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.  
   
  The following tools are included in DSL Tools:  
   
@@ -46,7 +47,7 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
  For more information, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).  
   
- The wizard creates a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution that has the following projects:  
+ The wizard creates a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that has the following projects:  
   
 -   Dsl  
   
@@ -54,7 +55,7 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
 -   **DslPackage**  
   
-     The DslPackage project determines how the language tools integrate with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     The DslPackage project determines how the language tools integrate with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## The DSL Tools Graphical Interface  
  You can use the DSL Tools graphical interface to add elements and relationships to your domain-specific language. After you have added the elements, you can define their appearance by mapping them to shapes, customizing colors, and adding decorators. You can also add the elements to the toolbox.  
@@ -62,16 +63,16 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
 ## Validation in DSL Tools  
  Dsl provides one level of validation to make sure that the domain model meets the basic requirements for code generation. Typically, when you create your own domain-specific language, you would add your own validation to express your business logic rules. For more information about custom validation, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).  
   
- We recommend that you validate your domain-specific language often when you are designing it. If your domain-specific language has validation errors, you cannot generate source code. The process of generating source code from the templates is performed by clicking **Transform All Templates** in the toolbar of Solution Explorer. Whenever you modify the language definition, also make sure to **Transform All Templates**. For more information, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md).  
+ We recommend that you validate your domain-specific language often when you are designing it. If your domain-specific language has validation errors, you cannot generate source code. The process of generating source code from the templates is performed by clicking **Transform All Templates** in the toolbar of Solution Explorer. Whenever you modify the language definition, also make sure to **Transform All Templates**. For more information, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).  
   
 ## Customization of DSL Tools  
  You can provide additional code to refine the behavior of the model and to define constraints over your language. If required, you can make significant changes by modifying the text templates.  
   
 ## Distributing Your DSL Solution  
- DSL Tools generates a package that is hosted in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The package displays a toolbox, a DSL explorer, and other UI elements that let users create models by using your domain-specific language.  
+ DSL Tools generates a package that is hosted in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The package displays a toolbox, a DSL explorer, and other UI elements that let users create models by using your domain-specific language.  
   
- When you build and run the DSL Tools solution in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], a second instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
+ When you build and run the DSL Tools solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], a second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
   
 ## See Also  
  [The Experimental Instance](../extensibility/the-experimental-instance.md)   
- [Domain-Specific Language Tools Glossary](assetId:///ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

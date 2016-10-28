@@ -1,13 +1,13 @@
 ---
 title: "Type characters are not allowed on Imports aliases"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc31398"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31398"
 ms.assetid: 0620669d-b529-49f3-9deb-aeda4dacc58a
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -49,4 +50,4 @@ An import alias in an `Imports` statement contains at least one identifier type 
  [Type Characters](../Topic/Type%20Characters%20\(Visual%20Basic\).md)   
  [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)   
  [Imports Statement (.NET Namespace and Type)](../Topic/Imports%20Statement%20\(.NET%20Namespace%20and%20Type\).md)   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](assetId:///9601e39f-1911-44e1-ace5-3f6e090408b9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)

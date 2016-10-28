@@ -1,18 +1,19 @@
 ---
 title: "MSBuild Error MSB3254"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSB3254"
 ms.assetid: cb9636b2-d9b3-466d-959c-14c7c8017a78
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ translation.priority.mt:
   
  This error occurs when the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] XML file, client.xml, cannot be read. The file is unreadable because of corruption, locking, or some other problem.  
   
- The [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+ The [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
  Procedures  
   
@@ -45,5 +46,5 @@ translation.priority.mt:
 -   Ensure that you have full permissions and full access to the file, or reinstall the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] redistributable run-time library to replace the corrupted file.  
   
 ## See Also  
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

@@ -1,13 +1,13 @@
 ---
 title: "Generic methods cannot be exposed to COM"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30943"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30943"
 ms.assetid: 0e3bff62-f187-4864-8520-70f6be22e869
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Generic methods cannot be exposed to COM
-A [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component containing one or more generic procedures is exported to a COM component.  
+A [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] component containing one or more generic procedures is exported to a COM component.  
   
  The Component Object Model (COM) does not support generic types, and it cannot interoperate with them.  
   
@@ -43,7 +44,7 @@ A [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component c
   
 ### To correct this error  
   
--   Remove the generic procedure or procedures from the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component, or do not use it for COM interop.  
+-   Remove the generic procedure or procedures from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] component, or do not use it for COM interop.  
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   

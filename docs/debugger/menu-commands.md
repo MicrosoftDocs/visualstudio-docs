@@ -1,13 +1,13 @@
 ---
 title: "Menu Commands"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Spy++, menu commands"
@@ -57,11 +57,11 @@ The Help topics in this section list the commands available on the Spy++ menus.
  Describes each command available from the **Help** menu.  
   
 ## Related Sections  
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes this section, and sections describing each Spy++ dialog box.

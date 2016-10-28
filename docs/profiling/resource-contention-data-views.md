@@ -1,13 +1,13 @@
 ---
 title: "Resource Contention Data Views"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profilng tools,concurrency profiling method view"
@@ -38,34 +38,34 @@ This section contains reference information for the views and reports of profile
  [Summary View - Profiler Contention Data](../profiling/resource-contention-data-views.md)  
  Displays a graphical timeline of the profiling data and lists the functions and resources that participated in the most blocking events.  
   
- [Call Tree View](../profiling/call-tree-view---contention-data.md)  
+ [Call Tree View](../profiling/call-tree-view-contention-data.md)  
  Displays a hierarchical tree that represents the execution paths and resource contention data of functions in the profiling run.  
   
- [Modules View](../profiling/modules-view---contention-data.md)  
+ [Modules View](../profiling/modules-view-contention-data.md)  
  Organizes thread and resource contention data by module and lists the functions, source code lines, and instructions that were executing when blocking events occurred.  
   
- [Caller / Callee View -  Contention Data](../profiling/caller---callee-view----contention-data.md)  
+ [Caller / Callee View -  Contention Data](../profiling/caller-callee-view-contention-data.md)  
  Lists thread and resource contention data for a selected function and the functions that called and were called by the selected function.  
   
- [Resource Details View](../profiling/resource-details-view---contention-data.md)  
+ [Resource Details View](../profiling/resource-details-view-contention-data.md)  
  Displays a graphical timeline of the blocking events for each contended resource and lists the call stack for the blocking events.  
   
- [Thread Details View](../profiling/thread-details-view---contention-data.md)  
+ [Thread Details View](../profiling/thread-details-view-contention-data.md)  
  Displays a graphical timeline of the blocking events for each thread and lists the call stack for the blocking events.  
   
- [Functions View](../profiling/functions-view---contention-data.md)  
+ [Functions View](../profiling/functions-view-contention-data.md)  
  Lists thread and resource contention data by function.  
   
- [Resource Contentions View](../profiling/resource-contentions-view---contention-data.md)  
+ [Resource Contentions View](../profiling/resource-contentions-view-contention-data.md)  
  Lists resource contention data by blocked resource.  
   
- [Lines View](../profiling/lines-view---contention-data.md)  
+ [Lines View](../profiling/lines-view-contention-data.md)  
  Lists resource contention data by source code line.  
   
- [Instruction Pointers (IPs) View](../profiling/instruction-pointers--ips--view---contention-data.md)  
+ [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-contention-data.md)  
  Lists resource contention by instruction.  
   
- [Process View](../profiling/process-view---contention-data.md)  
+ [Process View](../profiling/process-view-contention-data.md)  
  Lists resource contention by process and thread.  
   
 ## Reference  

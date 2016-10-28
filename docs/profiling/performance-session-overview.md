@@ -1,13 +1,13 @@
 ---
 title: "Performance Session Overview"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools, performance session"
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Session Overview
-This overview explains the basics of profiling. Developers who are new to performance work will see how the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools can help them become productive quickly and increase the performance of their code. Developers who are experienced in profiling can gain an overview of specific Profiling Tools features and processes.  
+This overview explains the basics of profiling. Developers who are new to performance work will see how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools can help them become productive quickly and increase the performance of their code. Developers who are experienced in profiling can gain an overview of specific Profiling Tools features and processes.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools help you identify performance issues in source code and compare the performance of possible solutions. Profiling Tools wizards and default settings can give you immediate insight into many performance issues. The features and options of the Profiling Tools provide exact control over the profiling process. This control includes the precise targeting of code sections, the collection of block-level timing information, and the inclusion of additional processor and system performance data in your data.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools help you identify performance issues in source code and compare the performance of possible solutions. Profiling Tools wizards and default settings can give you immediate insight into many performance issues. The features and options of the Profiling Tools provide exact control over the profiling process. This control includes the precise targeting of code sections, the collection of block-level timing information, and the inclusion of additional processor and system performance data in your data.  
   
  The following steps make up the basic process of using the Profiling Tools:  
   
@@ -45,7 +45,7 @@ This overview explains the basics of profiling. Developers who are new to perfor
   
 3.  Analyze the data to identify the performance issue.  
   
-4.  Modify code in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) to increases the application performance of the code  
+4.  Modify code in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) to increases the application performance of the code  
   
 5.  Collect profiling data on the changed code, and compare the profiling data of the original and changed data.  
   
@@ -60,14 +60,14 @@ This overview explains the basics of profiling. Developers who are new to perfor
   
 -   Data values include time, processor and operating system performance counters, and application events such as page faults and kernel transitions.  
   
- You can configure a performance session in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project as part of the project solution, or profile arbitrary binaries through the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. You can specify session properties in the Performance Session property pages or you can use the Profiling Wizard.  
+ You can configure a performance session in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project as part of the project solution, or profile arbitrary binaries through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. You can specify session properties in the Performance Session property pages or you can use the Profiling Wizard.  
   
 ## Collect Profiling Data  
  You start the collection of profiling data from **Performance Explorer**. You can pause and resume profiling to limit the amount of data that you collect. You can also attach to a process that is already running.  
   
- As soon as the application starts, the **Data Collection Control** window appears in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. From the **Data Collection Control** window, you can profile specific parts of your application by pausing and resuming the collection process. You can also use the **Data Collection Control** window to insert marks into the data that is collected. Marks are user-defined data points that are displayed in profile views and that can be used to filter the profiling data.  
+ As soon as the application starts, the **Data Collection Control** window appears in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. From the **Data Collection Control** window, you can profile specific parts of your application by pausing and resuming the collection process. You can also use the **Data Collection Control** window to insert marks into the data that is collected. Marks are user-defined data points that are displayed in profile views and that can be used to filter the profiling data.  
   
- When the target application shuts down, the Profiling Tools generates a profiling data file (*.vsp) and displays the Summary Report view in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+ When the target application shuts down, the Profiling Tools generates a profiling data file (*.vsp) and displays the Summary Report view in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
 ## Analyze the Data and Identify Performance Issues  
  When you end a profiling run, the data is analyzed and a summary is displayed in the Profiling Tools **Performance Report** view windows. Profiling data is collected for the call stack and individual functions of the target application. Report views display performance analysis for data ranges of the processes, threads, modules, functions, and source code lines of the application. Profiling data values for a function include the following:  
@@ -79,7 +79,7 @@ This overview explains the basics of profiling. Developers who are new to perfor
  Over twelve different views enable you to analyze the profiling data in the most efficient way. View customizations enable you to filter and sort the data to find the functions that might be causing performance issues. Hot Path filtering provides immediate highlighting of the most active paths in Call Tree and Module views.  
   
 ## Modify the Application Code  
- After you have isolated one or more relevant performance issues, you can modify code by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE, and then collect profiling data for your changes.  
+ After you have isolated one or more relevant performance issues, you can modify code by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE, and then collect profiling data for your changes.  
   
 ## Collect Profiling Data Again and Compare the Data between the Profiling Runs  
  The Profiling Tools Comparison Report View displays the difference in module, function, or line performance between two selected profiling data files. You can specify the profiling data values that you want to compare, and you can switch between the Comparison View and views of the individual files.  
@@ -88,5 +88,5 @@ This overview explains the basics of profiling. Developers who are new to perfor
  You can paste rows of any performance report view into e-mails and spreadsheets, and you can generate reports that contain the data for one or more views.  
   
 ## See Also  
- [Overviews](../profiling/overviews--performance-tools-.md)   
- [Walkthrough: Identifying Performance Problems](../profiling/walkthrough--identifying-performance-problems.md)
+ [Overviews](../profiling/overviews-performance-tools.md)   
+ [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)

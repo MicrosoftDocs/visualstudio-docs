@@ -1,13 +1,13 @@
 ---
 title: "JavaScript Memory"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -58,7 +58,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
      Objects that aren't created directly in your app code are automatically filtered out. You can also filter data by object name.  
   
- For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough--find-a-memory-leak--javascript-.md).  
+ For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).  
   
  In this topic:  
   
@@ -79,7 +79,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
  [Tips for identifying memory issues](#Tips)  
   
 ##  <a name="Run"></a> Run the JavaScript memory analyzer  
- You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../codequality/includes/win8_md.md)] or later.  
+ You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.  
   
 #### To run the memory analyzer  
   
@@ -137,7 +137,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 -   [View a snapshot diff](#SnapshotDiff). Shows differential values between snapshots. These views show differences in object size and object counts.  
   
 ##  <a name="Isolate"></a> Isolate a memory leak  
- These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough--find-a-memory-leak--javascript-.md).  
+ These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).  
   
 1.  Open your app in Visual Studio.  
   
@@ -412,4 +412,4 @@ if (performance && performance.mark) {
     -   Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.  
   
 ## See Also  
- [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough--find-a-memory-leak--javascript-.md)
+ [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md)

@@ -1,13 +1,13 @@
 ---
 title: "Creating Basic Profiling Reports from the Command Line"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6d73e21e-c04e-48ea-91cc-e517a5f2cd3f
 caps.latest.revision: 9
@@ -48,19 +48,19 @@ This topic describes the basic VSPerfReport commands that generate comma-separat
   
 |Summary Parameter|Report Description|Report Reference|  
 |-----------------------|------------------------|----------------------|  
-|**CallerCallee**|Represents parent/child relationships between functions.|-   [Sampling Data](../profiling/caller---callee-view---sampling-data.md)<br />-   [Instrumentation Data](../profiling/caller-callee-view---instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/caller-callee-view---.net-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/caller-callee-view---net-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/caller---callee-view----contention-data.md)|  
-|**Function**|Lists profiling data by function.|-   [Sampling Data](../profiling/functions-view---sampling-data.md)<br />-   [Instrumentation Data](../profiling/functions-view---instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/functions-view---.net-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/functions-view---.net-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/functions-view---contention-data.md)|  
-|**CallTree**|Represents the execution paths and profiling data of functions in the profiling run.|-   [Instrumentation Data](../profiling/call-tree-view---instrumentation-data.md)<br />-   [Sampling Data](../profiling/call-tree-view---sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/call-tree-view---.net-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/call-tree-view---.net-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/call-tree-view---contention-data.md)|  
+|**CallerCallee**|Represents parent/child relationships between functions.|-   [Sampling Data](../profiling/caller-callee-view-sampling-data.md)<br />-   [Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/caller-callee-view-contention-data.md)|  
+|**Function**|Lists profiling data by function.|-   [Sampling Data](../profiling/functions-view-sampling-data.md)<br />-   [Instrumentation Data](../profiling/functions-view-instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/functions-view-dotnet-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/functions-view-dotnet-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/functions-view-contention-data.md)|  
+|**CallTree**|Represents the execution paths and profiling data of functions in the profiling run.|-   [Instrumentation Data](../profiling/call-tree-view-instrumentation-data.md)<br />-   [Sampling Data](../profiling/call-tree-view-sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/call-tree-view-dotnet-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/call-tree-view-contention-data.md)|  
 |**Counter**|Lists profiling marks and Windows performance counter values that were collected during the profiling run.|-   [Marks View](../profiling/marks-view.md)|  
-|**Ip**|Lists profiling data by instruction.|-   [Sampling Data](../profiling/instruction-pointers--ips--view---sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/instruction-pointers--ips--view---.net-memory-sampling-data.md)<br />-   [Contention Data](../profiling/instruction-pointers--ips--view---contention-data.md)|  
+|**Ip**|Lists profiling data by instruction.|-   [Sampling Data](../profiling/instruction-pointers-ips-view-sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)<br />-   [Contention Data](../profiling/instruction-pointers-ips-view-contention-data.md)|  
 |**Life**|Lists the lifetime of allocated objects.|-   [Object Lifetime View](../profiling/object-lifetime-view.md)|  
-|**Line**|Lists profiling data by source code line.|-   [Sampling Data](../profiling/lines-view---sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/lines-view---.net-memory-sampling-data.md)<br />-   [Contention Data](../profiling/lines-view---contention-data.md)|  
+|**Line**|Lists profiling data by source code line.|-   [Sampling Data](../profiling/lines-view-sampling-data.md)<br />-   [.NET Memory Sampling Data](../profiling/lines-view-dotnet-memory-sampling-data.md)<br />-   [Contention Data](../profiling/lines-view-contention-data.md)|  
 |**Header**|Profiling data file header information.|Specific to file.|  
 |**Mark**|Profiling marks collected in the profiling run.|-   [Marks View](../profiling/marks-view.md)|  
-|**Module**|Lists profiling data for modules.|-   [Sampling Data](../profiling/modules-view---sampling-data.md)<br />-   [Instrumentation Data](../profiling/modules-view---instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/modules-view---.net-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/modules-view---.net-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/modules-view---contention-data.md)|  
-|**Process**|Lists profiling data for processes.|-   [Process View](../profiling/process-view.md)<br />-   [Contention Data](../profiling/process-view---contention-data.md)|  
+|**Module**|Lists profiling data for modules.|-   [Sampling Data](../profiling/modules-view-sampling-data.md)<br />-   [Instrumentation Data](../profiling/modules-view-instrumentation-data.md)<br />-   [.NET Memory Sampling Data](../profiling/modules-view-dotnet-memory-sampling-data.md)<br />-   [.NET Memory Instrumentation Data](../profiling/modules-view-dotnet-memory-instrumentation-data.md)<br />-   [Contention Data](../profiling/modules-view-contention-data.md)|  
+|**Process**|Lists profiling data for processes.|-   [Process View](../profiling/process-view.md)<br />-   [Contention Data](../profiling/process-view-contention-data.md)|  
 |**Thread**|Lists profiling data for threads.|-   [Process View](../profiling/process-view.md)|  
-|**Type**|Lists allocation profiling data by type.|-   [Allocations View](../profiling/.net-memory-allocations-view.md)|  
-|**Contention**|Resource contentions.|-   [Resource Contentions](../profiling/resource-contentions-view---contention-data.md)|  
+|**Type**|Lists allocation profiling data by type.|-   [Allocations View](../profiling/dotnet-memory-allocations-view.md)|  
+|**Contention**|Resource contentions.|-   [Resource Contentions](../profiling/resource-contentions-view-contention-data.md)|  
 |**RuleWarnings**|Lists performance rule issues.|-   Lists the CheckId, description, and source code location of the rule issue.|  
-|**ETW**|Lists Event Tracing for Windows (ETW) events collected in the profiling run.|-   [ETW Report](../profiling/event-tracing-for-windows--etw--report.md)|
+|**ETW**|Lists Event Tracing for Windows (ETW) events collected in the profiling run.|-   [ETW Report](../profiling/event-tracing-for-windows-etw-report.md)|

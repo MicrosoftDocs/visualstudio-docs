@@ -1,13 +1,13 @@
 ---
 title: "Customizing the Start Page for Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.startpage"
@@ -54,7 +54,7 @@ You can customize the start page for Visual Studio in several default ways, such
     -   Install it from the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=start%20page), another website, or a page on your local intranet.  
   
         > [!NOTE]
-        >  If you like a page that's targeted for an earlier version of Visual Studio, you can upgrade the page by using the Visual Studio SDK. See [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to--upgrade-a-visual-studio-custom-start-page.md).  
+        >  If you like a page that's targeted for an earlier version of Visual Studio, you can upgrade the page by using the Visual Studio SDK. See [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
   
          Open a .vsix file that contains a custom start page, or copy and paste the start-page files into the **%USERPROFILE% \My Documents\Visual Studio 2015\StartPages** folder on your computer.  
   
@@ -69,8 +69,8 @@ You can customize the start page for Visual Studio in several default ways, such
 4.  In the **Customize Start Page** list, choose the page that you want.  
   
 > [!NOTE]
->  If an error in a custom start page causes Visual Studio to crash, you can start Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../reference/-safemode--devenv.exe-.md).  
+>  If an error in a custom start page causes Visual Studio to crash, you can start Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../ide/reference/safemode-devenv-exe.md).  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)

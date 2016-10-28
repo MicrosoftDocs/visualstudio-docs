@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3126"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "GenerateManifest.FileAssociationsNotInstalled"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3126"
 ms.assetid: 0c92cbb6-9100-4433-8113-f2f3a1432243
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,8 +41,8 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Set the **Install Mode and Settings** to **The application is available offline as well (launchable from Start menu)**. For more information, see [How to: Specify the ClickOnce Offline or Online Install Mode](../deployment/how-to--specify-the-clickonce-offline-or-online-install-mode.md).  
+-   Set the **Install Mode and Settings** to **The application is available offline as well (launchable from Start menu)**. For more information, see [How to: Specify the ClickOnce Offline or Online Install Mode](../deployment/how-to-specify-the-clickonce-offline-or-online-install-mode.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

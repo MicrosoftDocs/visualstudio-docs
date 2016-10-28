@@ -1,11 +1,11 @@
 ---
 title: "Visual Studio IDE"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 35
@@ -40,7 +40,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.  
   
- Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../Topic/Visual%20Studio%20Tools%20for%20Unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
+ Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
   
  If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.  
   
@@ -65,14 +65,14 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  The notification icon in the upper right of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../ide/visual-studio-notifications.md).  
   
 ### Finding things and getting help  
- The [Quick Launch](../reference/quick-launch--environment--options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.  
+ The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.  
   
  ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")  
   
- MSDN is the Microsoft web site for technical documentation; you are reading this page on MSDN right now! In Visual Studio, you can press **F1** to go to the MSDN help page for the active window. You can also press **F1** in the code editor to go to the MSDN help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the MSDN help page for \<xref:System.String>.  
+ MSDN is the Microsoft web site for technical documentation; you are reading this page on MSDN right now! In Visual Studio, you can press **F1** to go to the MSDN help page for the active window. You can also press **F1** in the code editor to go to the MSDN help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the MSDN help page for <xref:System.String>.  
   
 ### Giving feedback  
- It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../Topic/Talk%20to%20Us.md).  
+ It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).  
   
 ### Personalizing the IDE  
  You can customize the window layout to fit your development style. You can dock, float or hide any window at any time, and you also can run the editor in full-screen mode. You can create and save multiple custom window layouts that show only the windows you need for specific contexts. For example, you can create a full-screen layout so that all you see is the code editor. And you can create different layouts for debugging and for team operations. For more information, see [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md).  
@@ -98,7 +98,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  ![Visual Studio New Project Dialog](../ide/media/vs2015_newprojectdialog.png "VS2015_NewProjectDialog")  
   
 ## Designing the user interface  
- A designer is an intuitive tool that enables you to create a user interface without writing code. You can drag UI controls such as list boxes, calendars, and buttons from the [Toolbox](../reference/toolbox.md) window onto a design surface that represents the window or dialog box. You can resize and rearrange the elements without writing any code. Designers are included for any project type that has a user interface.  
+ A designer is an intuitive tool that enables you to create a user interface without writing code. You can drag UI controls such as list boxes, calendars, and buttons from the [Toolbox](../ide/reference/toolbox.md) window onto a design surface that represents the window or dialog box. You can resize and rearrange the elements without writing any code. Designers are included for any project type that has a user interface.  
   
  If your project has a XAML-based user interface, the default designer is Blend for Visual Studio, a sophisticated graphics tool that works seamlessly with Visual Studio.  
   
@@ -125,7 +125,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 1.  [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, redordering function parameters, and more.  
   
-2.  *IntelliSense* is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It’s like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-c---intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
+2.  *IntelliSense* is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It’s like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
   
      ![Visual Studio Member List](../ide/media/vs2015_intellisense.png "vs2015_Intellisense")  
   
@@ -135,7 +135,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  [Bookmarks](../ide/setting-bookmarks-in-code.md) enable you to navigate quickly to specific lines in files that you are actively working on.  
   
-5.  The [Call Hierarchy](../reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.  
+5.  The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.  
   
 6.  **Code Lens** enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor. For more information, see [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).  
   
@@ -143,7 +143,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 8.  The **Go To Definition** context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.  
   
-9. A related tool, the [Object Browser](assetId:///f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what methods and properties those types contain.  
+9. A related tool, the [Object Browser](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what methods and properties those types contain.  
   
      ![Obect Browser showing System.Timer](../ide/media/objectbrowser.png "ObjectBrowser")  
   
@@ -163,19 +163,19 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
  The debugger itself has multiple windows that enable you to view and manipulate local variables, the call stack, and other aspects of the runtime environment. You can find these windows on the **Debug** menu.  
   
- The [Immediate Window](../reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
+ The [Immediate Window](../ide/reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
   
- The [IntelliTrace](assetId:///629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
+ The [IntelliTrace](http://msdn.microsoft.com/en-us/629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
   
  For more information, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
   
 ## Testing your code  
- Visual Studio includes a unit test framework for managed code (.NET) and one for native C++. To create unit tests, simply add a Test Project to your solution, write your tests, and then run them from the Test Explorer window. For more information, see [Unit Test Your Code](../codequality/unit-test-your-code.md).  
+ Visual Studio includes a unit test framework for managed code (.NET) and one for native C++. To create unit tests, simply add a Test Project to your solution, write your tests, and then run them from the Test Explorer window. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
- ![Unit Test Explorer](../codequality/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
+ ![Unit Test Explorer](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
 ## Analyzing code quality and performance  
- Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../codequality/improve-code-quality.md).  
+ Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../Topic/Improve%20Code%20Quality.md).  
   
 ## Connecting to cloud services and databases  
  The [Server Explorer](../Topic/Server%20Explorer.md) window in Visual Studio shows the resources in all the accounts managed under your personalization account (the one you logged in with), including SQL Server instances, Azure, Salesforce.com, Office 365, and websites.  
@@ -189,7 +189,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png "vs2015_SQLObjectExplorer")  
   
 ## Deploying your finished application  
- When your application is ready to deploy to customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible via the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md).  
+ When your application is ready to deploy to customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible via the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).  
   
 ## Architecture and modeling tools (Enterprise only)  
  You can use Visual Studio architecture and modeling tools to design and model your app. These tools help you to visualize the code's structure, behavior, and relationships. You can create models at different levels of detail throughout the application lifecycle as part of your development process. You can track requirements, tasks, test cases, bugs, and other work associated with your models by linking model elements to Team Foundation Server work items and your development plan. For more information, see [Design and model your app](../modeling/analyze-and-model-your-architecture.md).  
@@ -197,26 +197,26 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 ## Extending Visual Studio through the Visual Studio SDK  
  Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Developing Visual Studio Extensions](../Topic/Developing%20Visual%20Studio%20Extensions.md).  
   
- The [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
+ The [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
   
 ## In this Guide  
   
 |||  
 |-|-|  
 |[User Accounts and Updates](../ide/user-accounts-and-updates.md)|[Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)|  
-|[How to: Move Around in the IDE](../ide/how-to--move-around-in-the-visual-studio-ide.md)|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|  
+|[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|  
 |[Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)|[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|  
 |[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|  
-|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](../codequality/improve-code-quality.md)|  
+|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](../Topic/Improve%20Code%20Quality.md)|  
 |[Designing User Interfaces](../designers/designing-user-interfaces.md)|[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|  
-|[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md)|  
+|[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)|  
 |[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|  
 |[Visual Studio Samples](../ide/visual-studio-samples.md)|[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)|  
-|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../reference/visual-studio-reference.md)|  
+|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../ide/reference/visual-studio-reference.md)|  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   
- [Talk to Us](../Topic/Talk%20to%20Us.md)
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [Talk to Us](../ide/talk-to-us.md)

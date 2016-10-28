@@ -1,11 +1,11 @@
 ---
 title: "Customizing Element Creation and Movement"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.elementmergedirective"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
 ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 36
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Element Creation and Movement
 You can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation. You can have the moved elements linked to the target elements, using the relationships that you specify.  
@@ -117,7 +118,7 @@ The role of an Element Merge Directive
   
          Rebuilding will take longer than usual because the generated code will be updated from text templates to conform to the new DSL Definition.  
   
-    2.  When the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] has started, open a model file of your DSL. Create some example elements.  
+    2.  When the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] has started, open a model file of your DSL. Create some example elements.  
   
     3.  Drag from the **Example Element** tool onto an existing shape.  
   
@@ -186,11 +187,11 @@ The role of an Element Merge Directive
   
     ```  
   
-     This simple example restricts the number of elements that can be merged into the parent model. For more interesting conditions, the method can inspect any of the properties and links of the receiving object. It can also inspect the properties of the merging elements, which are carried in a \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. For more information about `ElementGroupPrototypes`, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md). For more information about how to write code that reads a model, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
+     This simple example restricts the number of elements that can be merged into the parent model. For more interesting conditions, the method can inspect any of the properties and links of the receiving object. It can also inspect the properties of the merging elements, which are carried in a <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. For more information about `ElementGroupPrototypes`, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md). For more information about how to write code that reads a model, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
 6.  Test the DSL:  
   
-    1.  Press F5 to rebuild the solution. When the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] opens, open an instance of your DSL.  
+    1.  Press F5 to rebuild the solution. When the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens, open an instance of your DSL.  
   
     2.  Create new elements in several ways:  
   
@@ -303,7 +304,7 @@ The role of an Element Merge Directive
   
 9. Save the solution, and then transform the templates by clicking the rightmost button on the **Solution Explorer** toolbar.  
   
-10. Build and run the solution. A new instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] appears.  
+10. Build and run the solution. A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] appears.  
   
 11. In **Solution Explorer**, open Sample.mydsl. The diagram and the **ComponentLanguage Toolbox** appear.  
   

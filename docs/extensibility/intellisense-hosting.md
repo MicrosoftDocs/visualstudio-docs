@@ -1,13 +1,13 @@
 ---
 title: "IntelliSense Hosting"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - IntelliSense hosting"
@@ -39,17 +39,17 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
 ### Implementation Interfaces  
   
 #### IVsIntellisenseHost  
- Any UI component that hosts IntelliSense pop-up windows must support the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface. The default core editor text view includes a stock \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface implementation to retain the current IntelliSense functionality. For the most part, the methods of the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface represent a subset of what is implemented on the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface. The subset includes IntelliSense UI handling, caret and selection manipulation, and simple text replacement functionality. In addition, the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface enables separate IntelliSense "subject" and "context" so that IntelliSense can be provided for subjects that do not directly exist in the text buffer that is being used for context.  
+ Any UI component that hosts IntelliSense pop-up windows must support the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface. The default core editor text view includes a stock <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface implementation to retain the current IntelliSense functionality. For the most part, the methods of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface represent a subset of what is implemented on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface. The subset includes IntelliSense UI handling, caret and selection manipulation, and simple text replacement functionality. In addition, the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface enables separate IntelliSense "subject" and "context" so that IntelliSense can be provided for subjects that do not directly exist in the text buffer that is being used for context.  
   
 #### IVsIntellisenseHost.GetHostFlags  
- An \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface provider must implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetHostFlags*> method to enable a client to determine what type of IntelliSense features the host supports.  
+ An <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface provider must implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetHostFlags*> method to enable a client to determine what type of IntelliSense features the host supports.  
   
  The host flags, defined in [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md), are summarized below.  
   
 |IntelliSense Host Flag|Description|  
 |----------------------------|-----------------|  
 |IHF_READONLYCONTEXT|Setting this flag means that the context buffer is read-only and editing occurs only within the subject text.|  
-|IHF_NOSEPERATESUBJECT|Setting this flag means that there is no separate IntelliSense subject. The subject exists in the context buffer, such as in the traditional \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> IntelliSense system.|  
+|IHF_NOSEPERATESUBJECT|Setting this flag means that there is no separate IntelliSense subject. The subject exists in the context buffer, such as in the traditional <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> IntelliSense system.|  
 |IHF_SINGLELINESUBJECT|Setting this flag means that the subject is not multi-line capable, such as in a single line edit in the **Watch** window.|  
 |IHF_FORCECOMMITTOCONTEXT|If this flag is set and the context buffer must be updated, the host enables the read-only flag on the context buffer to be ignored and edits to proceed.|  
 |IHF_OVERTYPE|Editing (in subject or context) should be done in overtype mode.|  
@@ -58,7 +58,7 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
  These callback methods are called by the completion window before and after text is committed, to enable pre-processing and post-processing.  
   
 #### IVsIntellisenseCompletor  
- The \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
+ The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.TextManager.Interop>
+ <xref:Microsoft.VisualStudio.TextManager.Interop>

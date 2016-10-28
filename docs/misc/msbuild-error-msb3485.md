@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3485"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.SignFile.BadTimestampUrl"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3485"
 ms.assetid: 84ce7137-954f-4ced-b7c2-0cdfb551d83a
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -41,4 +42,4 @@ translation.priority.mt:
 -   Provide the URL of a valid timestamp server.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

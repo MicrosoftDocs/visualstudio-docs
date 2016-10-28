@@ -1,11 +1,11 @@
 ---
 title: "Customizing Tools and the Toolbox"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectiondialog"
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, toolbox"
 ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Tools and the Toolbox
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.  
@@ -84,9 +85,9 @@ Editor
   
      **For a connector tool:** Set the **Connection Builder** property of the tool to one of the items that are offered in the drop-down list. Connection builders are automatically created when you map a connector to a domain relationship. If you have recently created a connector, you would normally select the associated connection builder.  
   
-5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.  
+5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.  
   
-     If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.  
+     If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.  
   
 ##  <a name="customizing"></a> Customizing Element Tools  
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:  
@@ -100,7 +101,7 @@ Editor
 -   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
   
 ##  <a name="groups"></a> Creating Groups of Elements from a Tool  
- Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  
+ Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  
   
  The following example is taken from a DSL in which there is a type Transistor. Each Transistor has three named Terminals. The element tool for Transistors stores a prototype containing four model elements and three relationship links. When the user drags the tool onto the diagram, the prototype is instantiated and linked to the model root.  
   
@@ -245,6 +246,6 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

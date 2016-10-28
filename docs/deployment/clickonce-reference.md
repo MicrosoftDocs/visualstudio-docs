@@ -1,13 +1,13 @@
 ---
 title: "ClickOnce Reference"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 ms.assetid: 2a7d5704-5e8c-452c-9ef3-5e8ec5e952fe
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -57,7 +58,7 @@ The following pages describe the structure of the XML files used to represent Cl
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)  
  Provides detailed conceptual information about ClickOnce deployment.  
   
- \<xref:System.Deployment.Application>  
+ <xref:System.Deployment.Application>  
  Provides links to reference documentation of the public classes that support ClickOnce within managed code.  
   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)  

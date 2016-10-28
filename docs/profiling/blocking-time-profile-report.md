@@ -1,13 +1,13 @@
 ---
 title: "Blocking Time Profile Report"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.report.blocking"
@@ -61,7 +61,7 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The Sleep report shows the calls that are responsible for blocking time that was attributed to time that was spent sleeping, and the aggregate blocking times of each call stack. For more information, see [Sleep Time](../profiling/sleep-time.md).  
   
 ### I/O  
- The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O Time (Threads View)](../profiling/i-o-time--threads-view-.md).  
+ The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md).  
   
 ### Memory Management  
  The Memory Management report shows the calls that are responsible for segments that are blocking on memory management operations, and the aggregate blocking times of each call stack. For more information, see [Memory Management Time](../profiling/memory-management-time.md).  
@@ -73,4 +73,4 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The UI Processing report shows the calls that are responsible for blocking segments that are blocking on UI processing blocks, and the aggregate blocking times of each call stack. For more information, see [UI Processing Time](../profiling/ui-processing-time.md).  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

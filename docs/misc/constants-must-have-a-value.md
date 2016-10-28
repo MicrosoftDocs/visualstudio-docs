@@ -1,13 +1,13 @@
 ---
 title: "Constants must have a value"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30438"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30438"
 ms.assetid: 845e49d6-cff4-41c2-8a68-475cec11e1b1
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,5 +45,5 @@ You declared a constant without assigning it a value.
 -   Assign a value to the constant.  
   
 ## See Also  
- [NOTINBUILD Constants Overview](assetId:///5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
+ [NOTINBUILD Constants Overview](http://msdn.microsoft.com/en-us/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20\(Visual%20Basic\).md)

@@ -1,13 +1,13 @@
 ---
 title: "Visual Studio IDE 64-Bit Support"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "64-bit applications [C++]"
@@ -33,28 +33,28 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual Studio IDE 64-Bit Support
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
   
 ## Deploying a 64-bit application  
  The following topics discuss deploying 64-bit applications.  
   
 -   [Deploying Prerequisites for 64-bit Applications](../deployment/deploying-prerequisites-for-64-bit-applications.md)  
   
--   [How to: Create a Windows Installer for a 64-bit Platform](assetId:///232bfc64-f99a-4cc6-9806-ba70bb9a09ff)  
+-   [How to: Create a Windows Installer for a 64-bit Platform](http://msdn.microsoft.com/en-us/232bfc64-f99a-4cc6-9806-ba70bb9a09ff)  
   
 ## Configuring projects as 64-bit applications  
  The following topics discuss configuring projects to be built to 64-bit applications.  
   
--   [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md)  
+-   [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)  
   
 ## Debugging a 64-bit application  
- Edit and Continue does not work when [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)] is running on a 64-bit Windows operating system. The following topics discuss debugging 64-bit applications.  
+ Edit and Continue does not work when [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] is running on a 64-bit Windows operating system. The following topics discuss debugging 64-bit applications.  
   
--   [How to: Debug on 64-bit Platforms](assetId:///27495e23-a624-46fb-996f-043d0a816dd5)  
+-   [How to: Debug on 64-bit Platforms](http://msdn.microsoft.com/en-us/27495e23-a624-46fb-996f-043d0a816dd5)  
   
 -   [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)  
   
 -   [Using Dump Files](../debugger/using-dump-files.md)  
   
 ## See Also  
- [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md)
+ [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)

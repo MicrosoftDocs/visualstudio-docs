@@ -1,18 +1,19 @@
 ---
 title: "Could not copy temporary files to the output directory"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.cannot_copy_to_run_dir"
 ms.assetid: b8b54984-74c9-4b9b-8164-d0d13c141055
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -48,7 +49,7 @@ The project system could not copy temporary files to the output directory. Compi
   
 -   Verify that you do not have the Object Browser window open.  
   
--   Verify that you do not have the same project (or projects) open in another instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Verify that you do not have the same project (or projects) open in another instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
- [NIB: How to: Set the Copy Local Property of a Reference](assetId:///dfe2ba13-f27f-4356-a481-ea67d5acacbd)
+ [NIB: How to: Set the Copy Local Property of a Reference](http://msdn.microsoft.com/en-us/dfe2ba13-f27f-4356-a481-ea67d5acacbd)

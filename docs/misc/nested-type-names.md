@@ -1,13 +1,13 @@
 ---
 title: "Nested Type Names"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "anonymous class types"
 ms.assetid: 8faafeaf-797a-48f9-a546-c61e05b12b15
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -42,7 +43,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Nested Type Names
-This content has moved [(NOTINBUILD)Simple Type Names](assetId:///333f45cb-2c72-4d81-8e59-e346b05f55e3).  
+This content has moved [(NOTINBUILD)Simple Type Names](http://msdn.microsoft.com/en-us/333f45cb-2c72-4d81-8e59-e346b05f55e3).  
   
 ## Syntax  
   

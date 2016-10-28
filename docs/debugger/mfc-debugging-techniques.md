@@ -1,13 +1,13 @@
 ---
 title: "MFC Debugging Techniques"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AfxEnableMemoryTracking"
@@ -96,7 +96,7 @@ _asm int 3
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_The_TRACE_macro"></a> The TRACE macro  
- To display messages from your program in the debugger [Output window](../reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-c---assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
+ To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
   
  The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.  
   
@@ -173,7 +173,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots  
   
-1.  Create a [CMemoryState](assetId:///8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md) member function. This creates the first memory snapshot.  
+1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md) member function. This creates the first memory snapshot.  
   
 2.  After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.  
   
@@ -373,7 +373,7 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../reference/output-window.md).  
+ When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
  The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](../Topic/CDumpContext%20Class.md)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   
@@ -449,9 +449,9 @@ pMyPerson->Dump( afxDump );
   
     1.  In the **\<Project> Property Pages** dialog box, click the **Configuration Manager** button.  
   
-    2.  In the [Configuration Manager dialog box](assetId:///fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
+    2.  In the [Configuration Manager dialog box](http://msdn.microsoft.com/en-us/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
   
-    3.  In the [New Project Configuration dialog box](assetId:///cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
+    3.  In the [New Project Configuration dialog box](http://msdn.microsoft.com/en-us/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
   
     4.  In the **Copy Settings from** list, choose **Release**.  
   

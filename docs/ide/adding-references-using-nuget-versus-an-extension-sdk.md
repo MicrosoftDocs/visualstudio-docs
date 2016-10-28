@@ -1,13 +1,13 @@
 ---
 title: "Adding References Using NuGet Versus an Extension SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.toolsoptionspages.nuget_package_manager.general"
@@ -60,10 +60,10 @@ You can provide a package for consumption within Visual Studio projects by using
 |The mechanism supports specifying registration info for native WinMDs.|Y|You can specify the correlation between the .winmd file and the .dll file in SDKManifest.xml.|N||  
 |The mechanism supports specifying dependencies on other SDKs.|Y|The SDK only notifies the user; the user must still install them and reference them manually.|Y|NuGet pulls them automatically; the user isn't notified.|  
 |The mechanism integrates with  [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)] concepts such as app manifest and Framework ID.|Y|The SDK must pass concepts that are specific to the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)] so that packaging and F5 work correctly with SDKs that are available in the[!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|N||  
-|The mechanism  integrates with the app debugging pipeline for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps.|Y|The SDK must pass [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)]-specific concepts so that packaging and F5 work correctly with SDKs available in the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|Y|NuGet content becomes part of the project. No special F5 consideration is needed.|  
+|The mechanism  integrates with the app debugging pipeline for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.|Y|The SDK must pass [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)]-specific concepts so that packaging and F5 work correctly with SDKs available in the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|Y|NuGet content becomes part of the project. No special F5 consideration is needed.|  
 |The mechanism integrates with app manifests.|Y|The SDK must pass [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)]-specific concepts so that packaging and F5 work correctly with SDKs available in the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|Y|NuGet content becomes part of the project. No special F5 consideration is needed.|  
-|The mechanism deploys non-reference files (for example, deploy test framework upon which to run tests of [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps).|Y|If you drop the files in the \redist folder, the files are automatically deployed.|Y||  
-|The mechanism automatically adds the platform SDKs in Visual Studio IDE.|Y|If you drop the [!INCLUDE[win8](../codequality/includes/win8_md.md)] SDK or the Windows Phone SDK in a specific location with a specific layout, the SDK is automatically integrated with all the Visual Studio features.|N||  
+|The mechanism deploys non-reference files (for example, deploy test framework upon which to run tests of [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps).|Y|If you drop the files in the \redist folder, the files are automatically deployed.|Y||  
+|The mechanism automatically adds the platform SDKs in Visual Studio IDE.|Y|If you drop the [!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK or the Windows Phone SDK in a specific location with a specific layout, the SDK is automatically integrated with all the Visual Studio features.|N||  
 |The mechanism supports a clean developer machine. (That is, no installation is required, and simple retrieval from source code control will work.)|N|Because you reference an SDK, you must check in your solution and the SDK separately. You can check in the SDK from the two non-registry default locations from which MSBuild iterates SDKs (for details, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)). As an alternative, if a custom location consists of the SDKs, you can specify the following code in the project file:<br /><br /> `<PropertyGroup>    <SDKReferenceDirectoryRoot>C:\MySDKs</SDKReferenceDirectoryRoot>   </PropertyGroup>`<br /><br /> Then check the SDKs into that location.|Y|You can check out the solution, and Visual Studio immediately recognizes and acts on the files.|  
 |You can join a large existing community of package authors.|N/A|The community is new.|Y||  
 |You can join a large existing community of package consumers.|N/A|The community is new.|Y||  
@@ -77,8 +77,8 @@ You can provide a package for consumption within Visual Studio projects by using
 |You can use a Symbol package for debugging support.|Y|If you drop .pdb files in the SDK, the files get picked up automatically.|Y||  
 |The mechanism supports package manager auto-updates.|N/A|The SDK gets revised with MSBuild.|Y||  
 |The mechanism supports a lightweight manifest format.|Y|SDKManifest.xml supports many attributes, but a small subset is usually necessary.|Y||  
-|The mechanism is available for  all Visual Studio editions.|Y|The SDK supports all Visual Studio editions, from Visual Studio Express through [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)].|Y|NuGet supports all Visual Studio editions, Express up through [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)].|  
-|The mechanism is available for  all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)].|N|You can review a list of allowed projects.|  
+|The mechanism is available for  all Visual Studio editions.|Y|The SDK supports all Visual Studio editions, from Visual Studio Express through [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)].|Y|NuGet supports all Visual Studio editions, Express up through [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)].|  
+|The mechanism is available for  all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|N|You can review a list of allowed projects.|  
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)

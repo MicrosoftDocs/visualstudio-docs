@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0011"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0011"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0011"
 ms.assetid: 892553d7-a516-4631-84cd-94db5722c90d
 caps.latest.revision: 18
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,7 +40,7 @@ The base class or interface 'class' in assembly 'assembly' referenced by type 't
   
  A class that was imported from a file with **/reference**, is derived from a class or implements an interface that is not found. This can occur if a required DLL is not also included in the compilation with **/reference**.  
   
- For more information, see [Add Reference Dialog Box](assetId:///2feb0fe2-0805-4cc9-8cba-b0315849dfb7) and [/reference (C# Compiler Options)](../Topic/-reference%20\(C%23%20Compiler%20Options\).md).  
+ For more information, see [Add Reference Dialog Box](http://msdn.microsoft.com/en-us/2feb0fe2-0805-4cc9-8cba-b0315849dfb7) and [/reference (C# Compiler Options)](../Topic/-reference%20\(C%23%20Compiler%20Options\).md).  
   
 ## Example  
   
@@ -93,5 +93,5 @@ class M
 ```  
   
 ## See Also  
- [Add Reference Dialog Box](assetId:///2feb0fe2-0805-4cc9-8cba-b0315849dfb7)   
+ [Add Reference Dialog Box](http://msdn.microsoft.com/en-us/2feb0fe2-0805-4cc9-8cba-b0315849dfb7)   
  [/reference (C# Compiler Options)](../Topic/-reference%20\(C%23%20Compiler%20Options\).md)

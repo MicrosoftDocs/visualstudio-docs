@@ -1,13 +1,13 @@
 ---
 title: "Replace in Files"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.findreplace.replaceinfiles"
@@ -39,7 +39,7 @@ translation.priority.ht:
 **Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window.  
   
@@ -103,4 +103,4 @@ translation.priority.ht:
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

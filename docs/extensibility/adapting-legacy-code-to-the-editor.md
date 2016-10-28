@@ -1,13 +1,13 @@
 ---
 title: "Adapting Legacy Code to the Editor"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - adapters"
@@ -34,10 +34,10 @@ translation.priority.mt:
 The Visual Studio editor has many features that you can access from existing code components. The following instructions show how to adapt a non-MEF component, for example, a VSPackage, to consume editor functionality. The instructions also show how to use adapters to get the services of the editor in both managed and unmanaged code.  
   
 ## Editor Adapters  
- Editor adapters, or shims, are wrappers for editor objects that also expose the classes and interfaces in the \<xref:Microsoft.VisualStudio.TextManager.Interop> API. You can use the adapters to move between non-editor services for example, Visual Studio shell commands, and editor services. (This is how the editor is currently hosted in Visual Studio.) Adapters also enable legacy editor and language service extensions to work correctly in Visual Studio.  
+ Editor adapters, or shims, are wrappers for editor objects that also expose the classes and interfaces in the <xref:Microsoft.VisualStudio.TextManager.Interop> API. You can use the adapters to move between non-editor services for example, Visual Studio shell commands, and editor services. (This is how the editor is currently hosted in Visual Studio.) Adapters also enable legacy editor and language service extensions to work correctly in Visual Studio.  
   
 ## Using Editor Adapters  
- The \<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> provides methods that switch between the new editor interfaces and the legacy interfaces, and also methods that create adapters.  
+ The <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> provides methods that switch between the new editor interfaces and the legacy interfaces, and also methods that create adapters.  
   
  If you are using this service in a MEF component part, you can import the service as follows.  
   
@@ -53,23 +53,23 @@ internal IVsEditorAdaptersFactoryService editorFactory;
   
 |Method|Conversion|  
 |------------|----------------|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetBufferAdapter*>|Converts an \<xref:Microsoft.VisualStudio.Text.ITextBuffer> to an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDataBuffer*>|Converts an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an \<xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDocumentBuffer*>|Converts an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an \<xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetViewAdapter*>|Converts an \<xref:Microsoft.VisualStudio.Text.Editor.ITextView> to an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetWpfTextView*>|Converts an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to an \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetBufferAdapter*>|Converts an <xref:Microsoft.VisualStudio.Text.ITextBuffer> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDataBuffer*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDocumentBuffer*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetViewAdapter*>|Converts an <xref:Microsoft.VisualStudio.Text.Editor.ITextView> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetWpfTextView*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to an <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>.|  
   
 ## Creating Adapters  
  Use the following methods to create adapters for legacy interfaces.  
   
 |Method|Conversion|  
 |------------|----------------|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsCodeWindowAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> for a specified \<xref:Microsoft.VisualStudio.Utilities.IContentType>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferCoordinatorAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> for an \<xref:Microsoft.VisualStudio.Text.Editor.ITextViewRoleSet>.|  
-|\<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsCodeWindowAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> for a specified <xref:Microsoft.VisualStudio.Utilities.IContentType>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferCoordinatorAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> for an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewRoleSet>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
   
 ## Creating Adapters in Unmanaged Code  
  All adapter classes are registered to be local co-creatable, and can be instantiated by using the `VsLocalCreateInstance()` function.  
@@ -88,7 +88,7 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 1.  Add a reference to Microsoft.VisualStudio.Editor.dll. Make sure that `CopyLocal` is set to `false`.  
   
-2.  Instantiate the \<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>, as follows.  
+2.  Instantiate the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>, as follows.  
   
     ```  
     using Microsoft.VisualStudio.Editor;  
@@ -103,7 +103,7 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
     ```  
   
 ## Using the Visual Studio Editor Directly from Unmanaged Code  
- The Microsoft.VisualStudio.Platform.VSEditor namespace and the Microsoft.VisualStudio.Platform.VSEditor.Interop namespace expose COM-callable interfaces as IVx* interfaces. For example, the Microsoft.VisualStudio.Platform.VSEditor.Interop.IVxTextBuffer interface is the COM version of the \<xref:Microsoft.VisualStudio.Text.ITextBuffer> interface. From the `IVxTextBuffer`, you can get access to the buffer snapshots, modify the buffer, listen for text-change events on the buffer, and create tracking points and spans. The following steps show how to access an `IVxTextBuffer` from a `IVsTextBuffer`.  
+ The Microsoft.VisualStudio.Platform.VSEditor namespace and the Microsoft.VisualStudio.Platform.VSEditor.Interop namespace expose COM-callable interfaces as IVx* interfaces. For example, the Microsoft.VisualStudio.Platform.VSEditor.Interop.IVxTextBuffer interface is the COM version of the <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface. From the `IVxTextBuffer`, you can get access to the buffer snapshots, modify the buffer, listen for text-change events on the buffer, and create tracking points and spans. The following steps show how to access an `IVxTextBuffer` from a `IVsTextBuffer`.  
   
 #### To get an IVxTextBuffer  
   

@@ -1,18 +1,19 @@
 ---
 title: "Navigate the UML model"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: 6d789b6d-2aa9-4ceb-92c4-84a300065a76
 caps.latest.revision: 18
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -34,7 +35,7 @@ This topic introduces the main types of the UML model.
 ## The Model Elements, Model, and Model Store  
  The types defined in the assembly **Microsoft.VisualStudio.Uml.Interfaces.dll** correspond to the types defined in the [UML Specification, version 2.1.2](http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF/).  
   
- Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: \<xref:Microsoft.VisualStudio.Uml.Classes.IElement>, \<xref:Microsoft.VisualStudio.Uml.Classes.IClass>, \<xref:Microsoft.VisualStudio.Uml.Interactions.IInteraction>, \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation>.  
+ Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: <xref:Microsoft.VisualStudio.Uml.Classes.IElement>, <xref:Microsoft.VisualStudio.Uml.Classes.IClass>, <xref:Microsoft.VisualStudio.Uml.Interactions.IInteraction>, <xref:Microsoft.VisualStudio.Uml.Classes.IOperation>.  
   
  All the types except IElement inherit properties from one or more supertypes.  
   
@@ -58,11 +59,11 @@ This topic introduces the main types of the UML model.
  For more information about traversing relationships, see [Navigate relationships with the UML API](../modeling/navigate-relationships-with-the-uml-api.md).  
   
 ### The Ownership Tree  
- A model contains a tree of \<xref:Microsoft.VisualStudio.Uml.Classes.IElement> objects. Every element has properties `OwnedElements` and `Owner`.  
+ A model contains a tree of <xref:Microsoft.VisualStudio.Uml.Classes.IElement> objects. Every element has properties `OwnedElements` and `Owner`.  
   
- In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class*>, and in every \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
+ In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named <xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class*>, and in every <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
   
- The topmost element of the tree, which has no Owner, is a \<xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root*>.  
+ The topmost element of the tree, which has no Owner, is a <xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root*>.  
   
  Every model element is created with an Owner. For more information, see [Create elements and relationships in UML models](../modeling/create-elements-and-relationships-in-uml-models.md).  
   
@@ -78,13 +79,13 @@ This topic introduces the main types of the UML model.
  For more information about shapes, see [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
 ## Access to the Model in Extensions  
- In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions defined as MEF Components, you can declare properties that import information from the context in which the extension runs.  
+ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions defined as MEF Components, you can declare properties that import information from the context in which the extension runs.  
   
 |Attribute type|What this provides access to|More information|  
 |--------------------|----------------------------------|----------------------|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation<br /><br /> .IDiagramContext<br /><br /> (in Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll)|The current focus diagram.|[Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)|  
 |Microsoft.VisualStudio.Modeling.ExtensionEnablement<br /><br /> .ILinkedUndoContext<br /><br /> (in Microsoft.VisualStudio.Modeling.Sdk.[version].dll)|Allows you to group changes into transactions.|[Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md)|  
-|Microsoft.VisualStudio.Shell .SVsServiceProvider<br /><br /> (in Microsoft.VisualStudio.Shell.Immutable.[version].dll)|The host [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. From there you can access files, projects and other aspects.|[Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)|  
+|Microsoft.VisualStudio.Shell .SVsServiceProvider<br /><br /> (in Microsoft.VisualStudio.Shell.Immutable.[version].dll)|The host [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. From there you can access files, projects and other aspects.|[Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)|  
   
 ### To get the Context  
  Declare one or both of the following interfaces inside your extension class:  
@@ -130,11 +131,11 @@ foreach (IShape<IInterface> in
 ## Accessing another model or diagrams  
  You can:  
   
--   Use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+-   Use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
--   Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
+-   Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
--   Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
+-   Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   

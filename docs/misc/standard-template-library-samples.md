@@ -1,13 +1,13 @@
 ---
 title: "Standard Template Library Samples"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Standard C++ Library, examples"
 ms.assetid: 46142523-9e31-4a75-868b-0ced3ca6be7d
 caps.latest.revision: 10
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

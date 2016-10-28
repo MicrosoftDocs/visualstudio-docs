@@ -1,13 +1,13 @@
 ---
 title: "Enumerators"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, enumerators"
@@ -47,7 +47,7 @@ This section lists the enumerator data types in the Source Control Plug-in API t
  Contains named constant values that specify the state of a directory under source control.  
   
 ## Related Sections  
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)  
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)  
  Defines the Source Control Plug-in SDK and describes the included resources.  
   
  [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)  

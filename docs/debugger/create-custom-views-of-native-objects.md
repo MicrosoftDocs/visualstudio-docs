@@ -1,13 +1,13 @@
 ---
 title: "Create custom views of native objects"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "natvis"
@@ -116,13 +116,13 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Use the **.natvisreload** command when you are upgrading the natvis file to a newer version (for example, if it’s checked into source control and you want to pick up recent changes that somebody else made to the file). It is recommended that you edit natvis files using the Visual Studio xml editor.  
   
 ##  <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting  
- Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger that are described in [Context Operator (C++)](../debugger/context-operator--c---.md), you should be aware of the following differences:  
+ Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger that are described in [Context Operator (C++)](../debugger/context-operator-cpp.md), you should be aware of the following differences:  
   
 -   Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, this refers to the field named `x` in the object being visualized, not to a local variable named `x` in the currently-executing function. You cannot access local variables in Natvis expressions, although you can access global variables.  
   
 -   Natvis expressions do not allow function evaluation or side effects. This means that function calls and assignment operators are ignored. Because [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) are side-effect free, they may be freely called from any Natvis expression, even though other function calls are disallowed.  
   
- To control how an expression is displayed in a variable window, you can use any of the format specifiers that are described in the [Format Specifiers](../debugger/format-specifiers-in-c--.md#BKMK_Visual_Studio_2012_format_specifiers) section of the [Format Specifiers in C++](../debugger/format-specifiers-in-c--.md) topic. Note that format specifiers are ignored when the virtualization entry is used internally by Natvis, such as the `Size` expression in in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
+ To control how an expression is displayed in a variable window, you can use any of the format specifiers that are described in the [Format Specifiers](../debugger/format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers) section of the [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) topic. Note that format specifiers are ignored when the virtualization entry is used internally by Natvis, such as the `Size` expression in in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
   
 ## Natvis views  
  Natvis views allow you to see any type in more than one way. For example, you can define a view named **simple** that gives you a simplified view of a type. For example, here is the visualization of `std::vector`:  
@@ -348,7 +348,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  ![CStringT data with StringView visualizer](../debugger/media/dbg_natvis_stringview_cstringt.png "DBG_NATVIS_StringView_CStringT")  
   
 > [!NOTE]
->  Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-c--.md) for more information.  
+>  Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) for more information.  
   
 ###  <a name="BKMK_Expand"></a> Expand  
  The `Expand` node is used to customize the children of the visualized type when the user expands it in the variable windows. It accepts a list of child nodes that define the child elements.  
@@ -608,7 +608,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ```  
   
 ###  <a name="BKMK_UIVisualizer"></a> UIVisualizer  
- A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer plug-in creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/vspackages.md) and needs to expose a service that can be consumed by the debugger. The .natvis file contains registration information for the plug-in such as its name, the GUID of the service exposed, and also the types it can visualize.  
+ A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer plug-in creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md) and needs to expose a service that can be consumed by the debugger. The .natvis file contains registration information for the plug-in such as its name, the GUID of the service exposed, and also the types it can visualize.  
   
  Here's an example of a UIVisualizer element:  
   

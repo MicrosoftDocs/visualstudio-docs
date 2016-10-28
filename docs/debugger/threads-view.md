@@ -1,13 +1,13 @@
 ---
 title: "Threads View"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.externaltools.spyplus.threadsview"
@@ -47,17 +47,17 @@ Spy++ Threads View
  The figure above shows the Threads view.  
   
 ## In This Section  
- [Searching for a Thread in Threads View](../debugger/how-to--search-for-a-thread-in-threads-view.md)  
+ [Searching for a Thread in Threads View](../debugger/how-to-search-for-a-thread-in-threads-view.md)  
  Explains how to find a specific thread in Threads view.  
   
- [Displaying Thread Properties](../debugger/how-to--display-thread-properties.md)  
+ [Displaying Thread Properties](../debugger/how-to-display-thread-properties.md)  
  Explains how to show more information about a thread.  
   
 ## Related Sections  
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
  [Thread Search Dialog Box](../debugger/thread-search-dialog-box.md)  
@@ -66,5 +66,5 @@ Spy++ Threads View
  [Thread Properties Dialog Box](../debugger/message-properties-dialog-box.md)  
  Displays the properties of a thread selected in Threads view or Messages view.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.

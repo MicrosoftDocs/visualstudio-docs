@@ -1,13 +1,13 @@
 ---
 title: "Finding Memory Leaks Using the CRT Library"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -54,7 +54,7 @@ translation.priority.mt:
 # Finding Memory Leaks Using the CRT Library
 Memory leaks, defined as the failure to correctly deallocate memory that was previously allocated, are among the most subtle and hard-to-detect bugs in C/C++ applications. A small memory leak might not be noticed at first, but over time, a progressive memory leak can cause symptoms that range from decreased performance to crashing when the application runs out of memory. Worse, a leaking application that uses up all available memory can cause another application to crash, creating confusion as to which application is responsible. Even seemingly harmless memory leaks might be symptomatic of other problems that should be corrected.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
   
 ## Enabling Memory Leak Detection  
  The primary tools for detecting memory leaks are the debugger and the C Run-Time Libraries (CRT) debug heap functions.  
@@ -121,7 +121,7 @@ Object dump complete.
   
 -   The memory allocation number, which is `18` in this example  
   
--   The [block type](assetId:///e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
+-   The [block type](http://msdn.microsoft.com/en-us/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
   
 -   The hexadecimal memory location, which is `0x00780E80` in this example.  
   

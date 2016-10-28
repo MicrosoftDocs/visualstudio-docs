@@ -1,13 +1,13 @@
 ---
 title: "Source Control Plug-ins"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, reference"
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Source Control Plug-ins
-The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
 ## In This Section  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)  
@@ -55,7 +55,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)  
  Describes keys for accessing the registry to find the source control plug-in.  
   
- [MSSCCPRJ.SCC File](../extensibility/mssccprj.scc-file.md)  
+ [MSSCCPRJ.SCC File](../extensibility/mssccprj-scc-file.md)  
  Describes a client-side file that contains information opaque to the IDE, but that is used by the source control plug-in to locate the solution or project in version control.  
   
  [Best Practices for Implementing a Source Control Plug-in](../extensibility/best-practices-for-implementing-a-source-control-plug-in.md)  
@@ -67,18 +67,18 @@ The Source Control Plug-in SDK reference section contains the complete interface
  [Glossary](../extensibility/source-control-plug-in-glossary.md)  
  Provides helpful terms and their definitions for reading the Source Control Plug-in SDK documentation.  
   
- [How to: Turn Off Compatibility Warnings for Source Control Plug-ins](../extensibility/how-to--turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
+ [How to: Turn Off Compatibility Warnings for Source Control Plug-ins](../extensibility/how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
  Describes how to disable warnings.  
   
 ## Related Sections  
- [Source Control Plug-in Sample](assetId:///61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
+ [Source Control Plug-in Sample](http://msdn.microsoft.com/en-us/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
  Provides a sample of source control plug-in functionality.  
   
- [Test Guide for Source Control Plug-ins](../extensibility/test-guide-for-source-control-plug-ins.md)  
+ [Test Guide for Source Control Plug-ins](../extensibility/internals/test-guide-for-source-control-plug-ins.md)  
  Describes testing procedures related to a source control plug-in.  
   
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)  
- Discusses how to create a source control plug-in that supplies source control functionality while you are using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source control user interface (UI).  
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)  
+ Discusses how to create a source control plug-in that supplies source control functionality while you are using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source control user interface (UI).  
   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)  
  Presents a list of reference topics.

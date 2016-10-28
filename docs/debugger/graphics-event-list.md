@@ -1,13 +1,13 @@
 ---
 title: "Graphics Event List"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.eventlist"
@@ -96,10 +96,10 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
   
 |API Description|[ID3D12CommandQueue](https://msdn.microsoft.com/library/dn788627.aspx)|[ID3D12GraphicsCommandList](https://msdn.microsoft.com/library/dn903537.aspx)|  
 |---------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|  
-|Check user-defined event availability|[PIXGetStatus](assetId:///f7ebd985-fb5d-46d7-abec-099df4b9be0e)|[PIXGetStatus](assetId:///1046ac43-a0a3-42bf-bae8-14aa72fa7567)|  
-|Begin an event group|[PIXBeginEvent](assetId:///5f51fff7-f313-4558-965b-2a443653cd7b)|[PIXBeginEvent](assetId:///4ddb3311-b9b5-449a-bbfb-7634e0d56e87)|  
-|End   an event group|[PIXEndEvent](assetId:///fb526bf2-c17d-4a2a-8665-3b577a0f7fba)|[PIXEndEvent](assetId:///a3cd34a9-9dd9-40e1-ae86-0214b25ff185)|  
-|Create an event marker|[PIXSetMarker](assetId:///0caf49ed-c99d-405e-89f4-0c887b8474ad)|[PIXSetMarker](assetId:///6610e5b9-a0c5-4236-b551-b6eb9fac64c1)|  
+|Check user-defined event availability|[PIXGetStatus](http://msdn.microsoft.com/en-us/f7ebd985-fb5d-46d7-abec-099df4b9be0e)|[PIXGetStatus](http://msdn.microsoft.com/en-us/1046ac43-a0a3-42bf-bae8-14aa72fa7567)|  
+|Begin an event group|[PIXBeginEvent](http://msdn.microsoft.com/en-us/5f51fff7-f313-4558-965b-2a443653cd7b)|[PIXBeginEvent](http://msdn.microsoft.com/en-us/4ddb3311-b9b5-449a-bbfb-7634e0d56e87)|  
+|End   an event group|[PIXEndEvent](http://msdn.microsoft.com/en-us/fb526bf2-c17d-4a2a-8665-3b577a0f7fba)|[PIXEndEvent](http://msdn.microsoft.com/en-us/a3cd34a9-9dd9-40e1-ae86-0214b25ff185)|  
+|Create an event marker|[PIXSetMarker](http://msdn.microsoft.com/en-us/0caf49ed-c99d-405e-89f4-0c887b8474ad)|[PIXSetMarker](http://msdn.microsoft.com/en-us/6610e5b9-a0c5-4236-b551-b6eb9fac64c1)|  
   
 ### User-defined events in Direct3D 11 and earlier  
  To create groups and markers in Direct3D 11 or earlier, use the APIs described in this section. The table below summarizes the APIs that you can use for different versions of Direct3D 11 and earlier versions of Direct3D.  
@@ -113,4 +113,4 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  You can use any of these APIs that your version of Direct3D supports—for example, if you are targeting the Direct3D 11.1 API, you can use either `SetMarker` or `D3DPerf_SetMarker` to create an event marker, but not `SetMarkerInt` because its only available in Direct3D 11.2—and you can even mix those that support different versions of Direct3D together in the same app.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough--missing-objects-due-to-device-state.md)
+ [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)

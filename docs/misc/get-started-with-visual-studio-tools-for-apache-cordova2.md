@@ -1,13 +1,13 @@
 ---
 title: "Get started with Visual Studio Tools for Apache Cordova2"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16c8e3e6-0b9b-42d9-a67a-5333209c6f57
 caps.latest.revision: 2

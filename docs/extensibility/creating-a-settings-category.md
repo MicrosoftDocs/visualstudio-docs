@@ -1,13 +1,13 @@
 ---
 title: "Creating a Settings Category"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profile settings, creating categories"
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Creating a Settings Category
-In this walkthrough you create a Visual Studio settings category and use it to save values to and restore values from a settings file. A settings category is a group of related properties that appear as a "custom settings point"; that is, as a check box in the **Import and Exports Settings** Wizard. (You can find it on the **Tools** menu.) Settings are saved or restored as a category, and individual settings are not displayed in the wizard. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+In this walkthrough you create a Visual Studio settings category and use it to save values to and restore values from a settings file. A settings category is a group of related properties that appear as a "custom settings point"; that is, as a check box in the **Import and Exports Settings** Wizard. (You can find it on the **Tools** menu.) Settings are saved or restored as a category, and individual settings are not displayed in the wizard. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
- You create a settings category by deriving it from the \<xref:Microsoft.VisualStudio.Shell.DialogPage> class.  
+ You create a settings category by deriving it from the <xref:Microsoft.VisualStudio.Shell.DialogPage> class.  
   
  To start this walkthrough, you must first complete the first section of [Creating an Options Page](../extensibility/creating-an-options-page.md). The resulting Options property grid lets you examine and change the properties in the category. After you save the property category in a settings file, you examine the file to see how the property values are stored.  
   
@@ -90,7 +90,7 @@ In this walkthrough you create a Visual Studio settings category and use it to s
     > [!NOTE]
     >  The `OptionPageGrid` category named "My Category" now consists of the two properties, `OptionInteger` and `OptionFloat`.  
   
-4.  Add a \<xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.  
+4.  Add a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.  
   
     ```c#  
     [ProvideProfileAttribute(typeof(OptionPageGrid),   

@@ -1,18 +1,19 @@
 ---
 title: "Some files and folders caused exceptions during the operation"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b0471302-907c-42a6-a326-8d3d805ebe98
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -37,5 +38,5 @@ Directories and files may cause exceptions when an operation is attempted but th
 -   Add the permissions necessary to access all files and folders.  
   
 ## See Also  
- \<xref:System.Security.Permissions.FileIOPermission>   
+ <xref:System.Security.Permissions.FileIOPermission>   
  [Troubleshooting: Reading from and Writing to Text Files](../Topic/Troubleshooting:%20Reading%20from%20and%20Writing%20to%20Text%20Files%20\(Visual%20Basic\).md)

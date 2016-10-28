@@ -1,13 +1,13 @@
 ---
 title: "Additional Information About Class Designer Errors"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound"
@@ -53,7 +53,7 @@ Class Designer does not track the location of your source files, so modifying yo
   
  You can find assistance with other errors and warnings in the following resources:  
   
- [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-c---code--class-designer-.md)  
+ [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)  
  Includes troubleshooting information about displaying C++ in a class diagram.  
   
  [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?LinkId=160754)  

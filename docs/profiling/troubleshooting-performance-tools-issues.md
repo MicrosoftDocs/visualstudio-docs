@@ -1,13 +1,13 @@
 ---
 title: "Troubleshooting Performance Tools Issues"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0b61cdf7-75b7-4abd-aff2-7bd997717626
 caps.latest.revision: 10
@@ -45,7 +45,7 @@ You might experience one of the following issues when you use the Profiling Tool
   
 -   A process that was profiled by using the sampling or the .NET memory method starts a child process that becomes the process that performs the application work. For example, some applications read the command line to determine whether they were started as a Windows application or as a command-line application. If a Windows application was requested, the original process starts a new process configured as a Windows application and then the original process exits. Because the Profiling Tools do not automatically collect data for child processes, no data is collected.  
   
-     To collect profiling data in this situation, attach the profiler to the child process instead of starting the application with the profiler. For more information, see [How to: Attach and Detach Performance Tools to Running Processes](../profiling/how-to--attach-and-detach-performance-tools-to-running-processes.md) and [Attach (VSPerfCmd)](../profiling/attach.md)  
+     To collect profiling data in this situation, attach the profiler to the child process instead of starting the application with the profiler. For more information, see [How to: Attach and Detach Performance Tools to Running Processes](../profiling/how-to-attach-and-detach-performance-tools-to-running-processes.md) and [Attach (VSPerfCmd)](../profiling/attach.md)  
   
 ##  <a name="NoSymbols"></a> Performance Views and Reports Display Numbers for Function Names  
  After you profile an application, you see numbers instead of function names in reports and views.  

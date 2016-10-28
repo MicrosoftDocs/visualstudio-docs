@@ -1,13 +1,13 @@
 ---
 title: "Synchronized Settings in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.RoamingSettings"
@@ -36,7 +36,7 @@ When you use the same personalization account to sign in to Visual Studio on mul
 ## Synchronized settings  
  By default, the following settings are synchronized.  
   
--   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).)  
+-   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).)  
   
 -   The following options in the **Tools &#124; Options** pages:  
   
@@ -54,7 +54,7 @@ When you use the same personalization account to sign in to Visual Studio on mul
   
 -   All settings on the XAML Designer options pages  
   
--   User-defined command aliases. For more information about how to define command aliases, see [Visual Studio Command Aliases](../reference/visual-studio-command-aliases.md).  
+-   User-defined command aliases. For more information about how to define command aliases, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
 -   User-defined window layouts in **Window &#124; Manage Window Layouts** page  
   

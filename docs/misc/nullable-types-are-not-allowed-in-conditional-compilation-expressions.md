@@ -1,13 +1,13 @@
 ---
 title: "Nullable types are not allowed in conditional compilation expressions"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc33111"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC33111"
 ms.assetid: 2c2587e5-2179-4a31-bcf7-7004db6f2d73
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

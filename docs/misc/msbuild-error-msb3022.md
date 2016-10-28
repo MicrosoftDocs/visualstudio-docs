@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Error MSB3022"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.Copy.ExactlyOneTypeOfDestination"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3022"
 ms.assetid: 74ebcced-8a56-4502-8fef-43d36c79a640
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,5 +44,5 @@ translation.priority.mt:
 -   Specify either `DestinationFiles` or `DestinationDirectory` for the `Copy` task in the project file.  
   
 ## See Also  
- [Copy Task](../reference/copy-task.md)   
- [Tasks](../reference/msbuild-tasks.md)
+ [Copy Task](../msbuild/copy-task.md)   
+ [Tasks](../msbuild/msbuild-tasks.md)

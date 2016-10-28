@@ -1,11 +1,11 @@
 ---
 title: "Define packages and namespaces"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, namespaces"
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "UML model, packages"
 ms.assetid: 79147068-02d5-4b70-933d-f647c1da3829
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -232,6 +233,6 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)

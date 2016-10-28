@@ -1,13 +1,13 @@
 ---
 title: "Implemented type must be an interface"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30232"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30232"
 ms.assetid: 63f3dd4c-2f99-4070-b506-2fa808df24d4
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -48,4 +49,4 @@ An `Implements` statement does not specify an interface. A class can implement o
 ## See Also  
  [Implements Statement](../Topic/Implements%20Statement.md)   
  [Inherits Statement](../Topic/Inherits%20Statement.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](assetId:///e5e6e240-ed31-4657-820c-079b7c79313c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)

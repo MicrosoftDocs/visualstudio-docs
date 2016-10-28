@@ -1,13 +1,13 @@
 ---
 title: "Configuring Warnings in Visual Basic"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "errors [Visual Basic], warnings"
@@ -33,9 +33,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Configuring Warnings in Visual Basic
-The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.  
+The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.  
   
- Sometimes the compiler provides extra logic on the user's behalf so that the user can focus on the task at hand, rather than on anticipating possible errors. In previous versions of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], `Option Strict` was used to limit the additional logic that the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler provides. Configuring warnings allows you to limit this logic in a more granular way, at the level of the individual warnings.  
+ Sometimes the compiler provides extra logic on the user's behalf so that the user can focus on the task at hand, rather than on anticipating possible errors. In previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], `Option Strict` was used to limit the additional logic that the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler provides. Configuring warnings allows you to limit this logic in a more granular way, at the level of the individual warnings.  
   
  You may want to customize your project and turn off some warnings not pertinent to your application while turning other warnings into errors. This page explains how to turn individual warnings on and off.  
   
@@ -135,5 +135,5 @@ The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler includes a
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
  [/nowarn](../Topic/-nowarn.md)   
  [/warnaserror (Visual Basic)](../Topic/-warnaserror%20\(Visual%20Basic\).md)   
- [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
+ [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Compiler Warnings That Are Off by Default](../Topic/Compiler%20Warnings%20That%20Are%20Off%20by%20Default.md)

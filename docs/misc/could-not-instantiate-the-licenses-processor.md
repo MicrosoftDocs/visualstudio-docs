@@ -1,18 +1,19 @@
 ---
 title: "Could not instantiate the licenses processor"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.no_licx_generator"
 ms.assetid: 9e95d590-f41f-4cfa-bc73-fadeacfdb879
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ The tool used to transform .licx files into binary resources could not be instan
   
  **To correct this error**  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [How to: License Components and Controls](../Topic/How%20to:%20License%20Components%20and%20Controls.md)

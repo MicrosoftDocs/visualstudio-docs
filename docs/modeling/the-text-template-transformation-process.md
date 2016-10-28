@@ -1,18 +1,19 @@
 ---
 title: "The Text Template Transformation Process"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, transformation process"
 ms.assetid: 80b3f0e0-49e7-4865-a1ac-dba068abe96b
 caps.latest.revision: 30
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -40,7 +41,7 @@ The text template transformation process takes a text template file as the input
 |Component|Description|Customizable (Yes/No)|  
 |---------------|-----------------|------------------------------|  
 |Engine|The engine component controls the text template transformation process|No.|  
-|Host|The host is the interface between the engine and the user environment. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is a host of the text transformation process.|Yes. You can write a custom host.|  
+|Host|The host is the interface between the engine and the user environment. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is a host of the text transformation process.|Yes. You can write a custom host.|  
 |Directive Processors|Directive processors are classes that handle directives in text templates. You can use directives to provide data to a text template from an input source.|Yes. You can write custom directive processors|  
   
 ## The Engine  
@@ -59,7 +60,7 @@ The text template transformation process takes a text template file as the input
   
 -   Setting the default extension for the generated output file.  
   
--   Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], errors are displayed in the Error Message Window.)  
+-   Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], errors are displayed in the Error Message Window.)  
   
 -   Providing a required parameter value if a user has called a directive without providing a value. The directive processor can specify the name of the directive and the parameter and ask the host to provide a default value if it has one.  
   

@@ -1,13 +1,13 @@
 ---
 title: "All parameters must be explicitly typed if any are"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30529"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30529"
 ms.assetid: 5d271ef4-c1a8-4400-822b-e9686720ff64
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,4 +45,4 @@ You have mixed different types of type declarations in a function.
 -   Make sure all parameters are explicitly typed.  
   
 ## See Also  
- \<xref:System.Type>
+ <xref:System.Type>

@@ -1,13 +1,13 @@
 ---
 title: "SccRunScc Function"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SccRunScc"
@@ -77,10 +77,10 @@ SCCRTN SccRunScc(
   
  This function is called with a count and an array of file names for the currently selected files. If the administration tool supports it, the list of files can be used to preselect files in the administration interface; otherwise, the list can be ignored.  
   
- This function is typically invoked when the user selects the **Launch \<Source Control Server>** from the **File** -> **Source Control** menu. This **Launch** menu option can be always disabled or even hidden by setting a registry entry. See [How to: Install a Source Control Plug-in](../extensibility/how-to--install-a-source-control-plug-in.md) for details. This function is called only if [SccInitialize](../extensibility/sccinitialize-function.md) returns the `SCC_CAP_RUNSCC` capability bit (see [Capability Flags](../extensibility/capability-flags.md) for details on this and other capability bits).  
+ This function is typically invoked when the user selects the **Launch \<Source Control Server>** from the **File** -> **Source Control** menu. This **Launch** menu option can be always disabled or even hidden by setting a registry entry. See [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md) for details. This function is called only if [SccInitialize](../extensibility/sccinitialize-function.md) returns the `SCC_CAP_RUNSCC` capability bit (see [Capability Flags](../extensibility/capability-flags.md) for details on this and other capability bits).  
   
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
- [How to: Install a Source Control Plug-in](../extensibility/how-to--install-a-source-control-plug-in.md)   
+ [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md)   
  [Capability Flags](../extensibility/capability-flags.md)   
  [SccInitialize](../extensibility/sccinitialize-function.md)

@@ -1,13 +1,13 @@
 ---
 title: "Attributes cannot be applied to parameters of lambda expressions"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36634"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36634"
 ms.assetid: ed751d8d-11b7-4210-97e0-0319edff8c34
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -53,6 +54,6 @@ End Sub
 -   Remove the attribute, or consider revising your code by changing the lambda expression to a regular function.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.InAttribute>   
+ <xref:System.Runtime.InteropServices.InAttribute>   
  [Lambda Expressions](../Topic/Lambda%20Expressions%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

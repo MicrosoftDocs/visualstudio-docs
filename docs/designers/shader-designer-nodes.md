@@ -1,17 +1,18 @@
 ---
 title: "Shader Designer Nodes"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
 caps.latest.revision: 6
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Shader Designer Nodes

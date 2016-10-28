@@ -1,13 +1,13 @@
 ---
 title: "ClickOnce Cache Overview"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, cache"
 ms.assetid: e379921e-9ef1-4326-bbf3-53ba67925526
 caps.latest.revision: 12
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,13 +1,13 @@
 ---
 title: "Conversion operators cannot convert from a derived type"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc33031"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC33031"
 ms.assetid: e8cfef89-9fde-4f33-ab0d-cc2094e8b8eb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -37,7 +38,7 @@ translation.priority.mt:
 # Conversion operators cannot convert from a derived type
 A conversion operator is declared with a parameter type that derives from the return type.  
   
- At compile time, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any type in its inheritance hierarchy, that is, any type from which it derives or which derives from it. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
+ At compile time, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any type in its inheritance hierarchy, that is, any type from which it derives or which derives from it. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
   
  Because the compiler considers this conversion to be already defined, it does not allow you to redefine it.  
   

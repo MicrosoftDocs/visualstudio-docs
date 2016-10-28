@@ -1,18 +1,19 @@
 ---
 title: "Model your app&#39;s architecture"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML, modeling architecture"
 ms.assetid: aedce746-9df5-49e1-9662-67eb1b83d313
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -113,7 +114,7 @@ To help ensure that your software system or application meets your users' needs,
  These points are elaborated in the rest of this section.  
   
 ### Components  
- The central views of an architecture model are the component diagrams that show the major parts of the system and how they depend on one another. For more information about component diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams--reference.md).  
+ The central views of an architecture model are the component diagrams that show the major parts of the system and how they depend on one another. For more information about component diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md).  
   
  ![UML component diagram showing parts](../modeling/media/uml_barecomponent.png "UML_BareComponent")  
   
@@ -142,7 +143,7 @@ To help ensure that your software system or application meets your users' needs,
   
  You can show dependencies directly between components, or you can show dependencies between required and provided interfaces that are attached to the components. By using interfaces, you can define what operations are used in each dependency. Typically, dependencies are shown between components when the diagrams are first drawn, and then replaced by dependencies between interfaces as more information is added. Both versions are correct descriptions of the software, but the version with interfaces provides more detail than the earlier version.  
   
- Managing dependencies is most important for the production of maintainable software. The component diagrams should reflect all the dependencies in your code. If the code already exists, make sure that all the dependencies are shown in the diagrams. If the code is being developed, make sure that it does not include dependencies that are not planned in the component diagram. To help you discover dependencies in the code, you can generate layer diagrams. To help you ensure that your planned dependency constraints are met, you can validate the code against layer diagrams. For more information, see [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md).  
+ Managing dependencies is most important for the production of maintainable software. The component diagrams should reflect all the dependencies in your code. If the code already exists, make sure that all the dependencies are shown in the diagrams. If the code is being developed, make sure that it does not include dependencies that are not planned in the component diagram. To help you discover dependencies in the code, you can generate layer diagrams. To help you ensure that your planned dependency constraints are met, you can validate the code against layer diagrams. For more information, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md).  
   
 ### Interfaces  
  By placing interfaces on your components, you can separate and name the major groups of operations that are provided by each component. For example, components in a web-based sales system might have an interface through which customers buy goods, an interface through which suppliers update their catalogs, and a third interface through which the system is managed.  
@@ -166,7 +167,7 @@ To help ensure that your software system or application meets your users' needs,
 ### Decomposing a Component into Parts  
  You can apply the procedure that is described in the preceding sections to each component.  
   
- Within each component, you can show its sub-components as Parts. A Part is effectively an attribute of its parent component, which is a kind of class. Each Part has its own type, which can be a component. You can place this component on a diagram and show its parts. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams--guidelines.md).  
+ Within each component, you can show its sub-components as Parts. A Part is effectively an attribute of its parent component, which is a kind of class. Each Part has its own type, which can be a component. You can place this component on a diagram and show its parts. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
   
  It is useful to apply this technique to the whole system. Draw it as a single component, and show its major components as parts. This helps you identify clearly the interfaces of your system with the external world.  
   
@@ -204,7 +205,7 @@ To help ensure that your software system or application meets your users' needs,
 ### Identifying the initiating events  
  The work done by most software systems can be conveniently divided up by the responses it gives to different inputs or events. The initiating event might be one of the following events:  
   
--   The first action in a use case. It might appear in the requirements model as a step in a use case, or an action in an activity diagram. For more information, [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md) and [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams--guidelines.md).  
+-   The first action in a use case. It might appear in the requirements model as a step in a use case, or an action in an activity diagram. For more information, [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md) and [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
   
 -   A message at a programmatic interface. If the system that you are developing is a component in a larger system, it should be described as an operation in one of the component's interfaces. See [Components and their Interfaces](#Components).  
   
@@ -215,9 +216,9 @@ To help ensure that your software system or application meets your users' needs,
   
  Draw a lifeline for each component instance that takes part in a typical sequence. In some cases, there might be more than one instance of each type. If you have described your whole system as a single component, there should be one lifeline for each Part that it contains.  
   
- For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md).  
+ For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
- Activity diagrams are also useful in some cases. For example, if your components have a continuous flow of data, you can describe it as an object flow. If your component has a complex algorithm, you can describe it as a control flow. Make sure that you make it clear which component performs each action, for example by using comments. For more information, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams--guidelines.md).  
+ Activity diagrams are also useful in some cases. For example, if your components have a continuous flow of data, you can describe it as an object flow. If your component has a complex algorithm, you can describe it as a control flow. Make sure that you make it clear which component performs each action, for example by using comments. For more information, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
   
 ### Specify the operations  
  The diagrams show operations that are performed by each component, represented either as messages on a sequence diagram, or actions in an activity diagram.  
@@ -252,7 +253,7 @@ To help ensure that your software system or application meets your users' needs,
   
 -   Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:  
   
-    -   Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md).  
+    -   Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
   
     -   Elements describing framework classes that the developer should use.  
   

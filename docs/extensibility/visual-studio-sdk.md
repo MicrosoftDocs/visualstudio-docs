@@ -1,13 +1,13 @@
 ---
 title: "Visual Studio SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VSSDK.v90.StartPage"
@@ -60,7 +60,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  The Visual Studio SDK has some new features, including light bulbs and new project items that allow you to create menu commands, tool windows, and editor extensions using a VSIX package. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
   
 ## Visual Studio User Experience Guidelines  
- Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md).  
+ Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  
   
  You can also learn how to make your extension look great on high DPI devices with our [Addressing DPI Issues](../extensibility/addressing-dpi-issues2.md) topic.  
   
@@ -88,8 +88,8 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
 ## See Also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   
- [How to: Migrate Extensibility Projects to Visual Studio 2015](../extensibility/how-to--migrate-extensibility-projects-to-visual-studio-2015.md)   
- [FAQ: Converting Add-ins to VSPackage Extensions](../extensibility/faq--converting-add-ins-to-vspackage-extensions.md)   
+ [How to: Migrate Extensibility Projects to Visual Studio 2015](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)   
+ [FAQ: Converting Add-ins to VSPackage Extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   
  [Managing Multiple Threads in Managed Code](../extensibility/managing-multiple-threads-in-managed-code.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [Adding Commands to Toolbars](../extensibility/adding-commands-to-toolbars.md)   
@@ -105,7 +105,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  [Managing VSPackages](../extensibility/managing-vspackages.md)   
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)   
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
- [Inside the Visual Studio SDK](../extensibility/inside-the-visual-studio-sdk.md)   
+ [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)   
  [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)   
  [Archive](../extensibility/archive.md)   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)

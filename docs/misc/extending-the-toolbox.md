@@ -1,13 +1,13 @@
 ---
 title: "Extending the Toolbox"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tools [Visual Studio], Toolbox"
@@ -32,16 +32,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Toolbox
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** provides a collection of objects that provide functionality to editors and designers through the IDE's drag-and-drop mechanism.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** provides a collection of objects that provide functionality to editors and designers through the IDE's drag-and-drop mechanism.  
   
- There are two basic ways in which a VSPackage works with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**:  
+ There are two basic ways in which a VSPackage works with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**:  
   
 -   A VSPackage can add new data items and controls to the **Toolbox**.  
   
 -   A VSPackage can be a target or consumer of existing **Toolbox** functionality, supporting the drag-and-drop operations and configuring the **Toolbox**'s appearance.  
   
 ## In This Section  
- [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to--create-a-toolbox-control-that-uses-windows-forms.md)  
+ [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md)  
  Describes out to create a Toolbox control by using the Windows Forms Toolbox Control template.  
   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)  
@@ -51,11 +51,11 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** provide
  Describes how a VSPackage can manage the content and appearance of the **Toolbox**.  
   
 ## Related Sections  
- [How to: Manage the Toolbox Window](assetId:///a022c3fe-298c-4a59-a48f-b050da90ebc2)  
- Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+ [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+ Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
  [How to: Control the Toolbox](../Topic/How%20to:%20Control%20the%20Toolbox.md)  
  Describes how to manage the **Toolbox** using the automation programming model.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
- Explains how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+ Explains how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

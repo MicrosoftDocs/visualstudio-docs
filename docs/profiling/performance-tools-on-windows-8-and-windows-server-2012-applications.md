@@ -1,13 +1,13 @@
 ---
 title: "Performance Tools on Windows 8 and Windows Server 2012 applications"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a704215d-d252-4087-921b-ac81ebe2a9c9
 caps.latest.revision: 15
@@ -79,11 +79,11 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
 -   [Analyze JavaScript Function Timing data](../Topic/Analyze%20JavaScript%20Function%20Timing%20data.md)  
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](assetId:///2d0c939e-0bac-48c5-b727-46f6c6113060)  
+-   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](assetId:///b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+-   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
--   [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](assetId:///5de4a413-d924-425f-afc4-e1ecfb0fca18)  
+-   [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -131,7 +131,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **Visual Studio editions**  
   
- Tier interaction profiling data can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+ Tier interaction profiling data can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
  **Windows 8 and Windows Server 2012**  
   
@@ -153,7 +153,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **TIP reports**  
   
- Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] or [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
+ Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] or [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   

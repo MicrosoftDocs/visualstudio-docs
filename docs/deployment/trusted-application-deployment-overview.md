@@ -1,13 +1,13 @@
 ---
 title: "Trusted Application Deployment Overview"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/28/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "trusted application deployment"
 ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 caps.latest.revision: 31
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -89,22 +90,22 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
  If you are not deploying your application in a managed desktop environment, you have the following options for adding a certificate to the trusted publisher store:  
   
--   The \<xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
+-   The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
   
 -   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](../Topic/Certmgr.exe%20\(Certificate%20Manager%20Tool\).md).  
   
 ### Create a ClickOnce Application  
- A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md).  
+ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
   
  Trusted Application Deployment is specific to [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], and can only be used with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications.  
   
 ### Sign the Deployment  
- After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) or [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)).  
+ After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) or [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)).  
   
 > [!CAUTION]
 >  We do not recommend that the application be deployed with a test certificate.  
   
- You can also sign the application by using the Mage.exe or MageUI.exe SDK tools. For more information, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md). For a full list of command-line options related to deployment signing, see [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md).  
+ You can also sign the application by using the Mage.exe or MageUI.exe SDK tools. For more information, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). For a full list of command-line options related to deployment signing, see [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md).  
   
 ### Publish the Application  
  As soon as you have signed your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests, the application is ready to publish to your install location. The installation location can be a Web server, a file share, or the local disk. When a client accesses the deployment manifest for the first time, the trust manager must choose whether the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application has been granted authority or not to run at a higher level of trust by an installed trusted publisher. The trust manager makes this choice by comparing the certificate used to sign the deployment with the certificates stored in the client's trusted publisher store. If the trust manager finds a match, the application runs with high trust.  
@@ -117,4 +118,4 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
 ## See Also  
  [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)   
- [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)
+ [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

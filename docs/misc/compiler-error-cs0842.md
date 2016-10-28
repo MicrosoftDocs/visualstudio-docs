@@ -1,13 +1,13 @@
 ---
 title: "Compiler Error CS0842"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0842"
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0842"
 ms.assetid: 93a8b333-efc4-40c7-ae53-5264f721a74f
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS0842
 Automatically implemented properties cannot be used inside a type marked with StructLayout(LayoutKind.Explicit).  
   
- Auto-implemented properties have their backing fields provided by the compiler and the field is not accessible to source code. Therefore, they are not compatible with \<xref:System.Runtime.InteropServices.LayoutKind?displayProperty=fullName>.  
+ Auto-implemented properties have their backing fields provided by the compiler and the field is not accessible to source code. Therefore, they are not compatible with <xref:System.Runtime.InteropServices.LayoutKind?displayProperty=fullName>.  
   
 ### To correct this error  
   

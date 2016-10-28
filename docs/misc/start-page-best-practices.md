@@ -1,13 +1,13 @@
 ---
 title: "Start Page Best Practices"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "start page tips"
@@ -105,9 +105,9 @@ Because the Start Page can access Visual Studio commands, and opens whenever Vis
 #### VSIX  
  These practices apply to VSIX deployment:  
   
--   Use the [GettingStartedGuide](assetId:///261bb1fd-abae-4ed6-80a8-90d5fc3bb8c6) element in the VSIX manifest to point to instructions about how to set the default Start Page.  
+-   Use the [GettingStartedGuide](http://msdn.microsoft.com/en-us/261bb1fd-abae-4ed6-80a8-90d5fc3bb8c6) element in the VSIX manifest to point to instructions about how to set the default Start Page.  
   
--   Use the [Name](assetId:///d99d38d1-060b-401a-9b9f-ede2c6213a11) element and [Description](assetId:///24ddc57e-e991-4a43-b0c9-0e76da293e99) element of the VSIX manifest to clearly identify the extension as a Start Page and describe its purpose.  
+-   Use the [Name](http://msdn.microsoft.com/en-us/d99d38d1-060b-401a-9b9f-ede2c6213a11) element and [Description](http://msdn.microsoft.com/en-us/24ddc57e-e991-4a43-b0c9-0e76da293e99) element of the VSIX manifest to clearly identify the extension as a Start Page and describe its purpose.  
   
 -   Verify that your VSIX manifest does not contain absolute paths.  
   
