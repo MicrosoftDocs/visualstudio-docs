@@ -1,1 +1,0 @@
-            customersBindingSource.Filter = "CompanyName like 'B'";
