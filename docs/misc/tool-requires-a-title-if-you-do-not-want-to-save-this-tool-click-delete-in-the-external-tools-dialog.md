@@ -1,7 +1,7 @@
 ---
-title: "Tool requires a title. If you do not want to save this tool, click Delete in the External Tools dialog."
+title: "Tool requires a title. If you do not want to save this tool, click Delete in the External Tools dialog. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

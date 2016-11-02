@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, C#, Advanced"
+title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,7 +78,7 @@ Use this dialog box to modify the settings for editor formatting, code refactori
   
 ## XML Documentation Comments  
  Generate XML documentation comments for ///  
- When selected, inserts the \<summary> start and end tags automatically for XML documentation comments after you type the /// comment introduction. For more information about XML documentation, see [XML Documentation Comments](../Topic/XML%20Documentation%20Comments%20\(C%23%20Programming%20Guide\).md).  
+ When selected, inserts the \<summary> start and end tags automatically for XML documentation comments after you type the /// comment introduction. For more information about XML documentation, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
   
 ## Implement Interface  
  Surround generated code with #region  
@@ -89,6 +89,6 @@ Use this dialog box to modify the settings for editor formatting, code refactori
  When selected, `System` using directives appear before other using directives. For more information, see [Sort Usings](../../misc/sort-usings.md).  
   
 ## See Also  
- [XML Documentation Comments](../Topic/XML%20Documentation%20Comments%20\(C%23%20Programming%20Guide\).md)   
+ [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
  [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)

@@ -1,7 +1,7 @@
 ---
-title: "Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)"
+title: "Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

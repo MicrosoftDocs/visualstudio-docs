@@ -1,7 +1,7 @@
 ---
-title: "Result of Assignment Operators"
+title: "Result of Assignment Operators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Result of Assignment Operators
-This content has moved [Assignment Operators](../Topic/Assignment%20Operators.md).
+This content has moved [Assignment Operators](/visual-cpp/cpp/assignment-operators).

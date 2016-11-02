@@ -1,7 +1,7 @@
 ---
-title: "binomial_distribution::p"
+title: "binomial_distribution::p | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ double p() const;
  The `p` parameter from the stored `param_type`.  
   
 ## Remarks  
- For a code example, see [binomial_distribution Class](../Topic/binomial_distribution%20Class.md).  
+ For a code example, see [binomial_distribution Class](/visual-cpp/standard-library/binomial-distribution-class).  
   
 ## Requirements  
  **Header:** \<random>  
@@ -65,5 +65,5 @@ double p() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [binomial_distribution Class](../Topic/binomial_distribution%20Class.md)   
+ [binomial_distribution Class](/visual-cpp/standard-library/binomial-distribution-class)   
  [binomial_distribution::t](../misc/binomial-distribution-t.md)

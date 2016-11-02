@@ -1,7 +1,7 @@
 ---
-title: "seed_seq::param"
+title: "seed_seq::param | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,6 +43,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # seed_seq::param
-Topic deprecated, see [\<random>](../Topic/%3Crandom%3E.md) and [seed_seq Class](../Topic/seed_seq%20Class.md).  
+Topic deprecated, see [\<random>](../Topic/%3Crandom%3E.md) and [seed_seq Class](/visual-cpp/standard-library/seed-seq-class).  
   
 ## Syntax

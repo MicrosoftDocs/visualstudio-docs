@@ -1,7 +1,7 @@
 ---
-title: "CA2218: Override GetHashCode on overriding Equals"
+title: "CA2218: Override GetHashCode on overriding Equals | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

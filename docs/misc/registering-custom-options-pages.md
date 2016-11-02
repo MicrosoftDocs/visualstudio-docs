@@ -1,7 +1,7 @@
 ---
-title: "Registering Custom Options Pages"
+title: "Registering Custom Options Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -159,7 +159,7 @@ For a **Tools Options** page to be available to users and support automation, it
 |ProfileSave|DWORD|1/0|Optional.<br /><br /> This value indicates whether the **Tools Options** page settings are saved by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism when a user clicks the **Import/Export Settings** command on the **Tools** menu.<br /><br /> If the key is present and its value is 1, then the **Tools Options** page is requesting settings support.<br /><br /> Implementations based on the managed package framework set this value if the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor is supplied with the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsProfiles*> property set to `true`.|  
   
 ## See Also  
- [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
+ [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts)   
  [Using Options Pages](../misc/using-options-pages.md)   
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
  [How to: Create Custom Options Pages](../Topic/How%20to:%20Create%20Custom%20Options%20Pages.md)   

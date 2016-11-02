@@ -1,7 +1,7 @@
 ---
-title: "The user options settings file for this project is missing the &#39;section&#39; section"
+title: "The user options settings file for this project is missing the &#39;section&#39; section | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,5 +44,5 @@ The Build node is missing from the.vbproj.user or .csproj.user file.
  This is an informational warning.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

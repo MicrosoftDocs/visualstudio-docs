@@ -1,5 +1,5 @@
 ---
-title: "Typed vs. untyped datasets"
+title: "Typed vs. untyped datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2016"
 ms.reviewer: ""

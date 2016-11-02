@@ -1,7 +1,7 @@
 ---
-title: "CL Task"
+title: "CL Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # CL Task
-Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.exe) files, dynamic-link library (.dll) files, or code module (.netmodule) files. For more information, see [Compiler Options](../Topic/Compiler%20Options.md).  
+Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.exe) files, dynamic-link library (.dll) files, or code module (.netmodule) files. For more information, see [Compiler Options](/visual-cpp/build/reference/compiler-options).  
   
 ## Parameters  
  The following table describes the parameters of the **CL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
@@ -53,7 +53,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Adds a directory to the list of directories that are searched for include files.  
   
-     For more information, see [/I (Additional Include Directories)](../Topic/-I%20\(Additional%20Include%20Directories\).md).  
+     For more information, see [/I (Additional Include Directories)](/visual-cpp/build/reference/i-additional-include-directories).  
   
 -   **AdditionalOptions**  
   
@@ -61,13 +61,13 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      A list of command-line options. For example, "/*option1* /*option2* /*option#*". Use this parameter to specify command-line options that are not represented by any other task parameter.  
   
-     For more information, see [Compiler Options](../Topic/Compiler%20Options.md).  
+     For more information, see [Compiler Options](/visual-cpp/build/reference/compiler-options).  
   
 -   **AdditionalUsingDirectories**Optional String[] parameter.  
   
      Specifies a directory that the compiler will search to resolve file references passed to the **#using** directive.  
   
-     For more information, see [/AI (Specify Metadata Directories)](../Topic/-AI%20\(Specify%20Metadata%20Directories\).md).  
+     For more information, see [/AI (Specify Metadata Directories)](/visual-cpp/build/reference/ai-specify-metadata-directories).  
   
 -   **AlwaysAppend**  
   
@@ -79,7 +79,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Creates a listing file that contains assembly code.  
   
-     For more information, see the **/Fa** option in [/FA, /Fa (Listing File)](../Topic/-FA,%20-Fa%20\(Listing%20File\).md).  
+     For more information, see the **/Fa** option in [/FA, /Fa (Listing File)](/visual-cpp/build/reference/fa-fa-listing-file).  
   
 -   **AssemblerOutput**  
   
@@ -99,13 +99,13 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **All** - **/FAcs**  
   
-     For more information, see the **/FA**, **/FAc**, **/FAs**, and **/FAcs** options in [/FA, /Fa (Listing File)](../Topic/-FA,%20-Fa%20(Listing%20File).md).  
+     For more information, see the **/FA**, **/FAc**, **/FAs**, and **/FAcs** options in [/FA, /Fa (Listing File)](/visual-cpp/build/reference/fa-fa-listing-file).  
   
 -   **BasicRuntimeChecks**  
   
      Optional String parameter.  
   
-     Enables and disables the run-time error checks feature, in conjunction with the [runtime_checks](../Topic/runtime_checks.md) pragma.  
+     Enables and disables the run-time error checks feature, in conjunction with the [runtime_checks](/visual-cpp/preprocessor/runtime-checks) pragma.  
   
      Specify one of the following values, each of which corresponds to a command-line option.  
   
@@ -117,7 +117,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **EnableFastChecks** -                          **/RTC1**  
   
-     For more information, see [/RTC (Run-Time Error Checks)](../Topic/-RTC%20\(Run-Time%20Error%20Checks\).md).  
+     For more information, see [/RTC (Run-Time Error Checks)](/visual-cpp/build/reference/rtc-run-time-error-checks).  
   
 -   **BrowseInformation**  
   
@@ -125,7 +125,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, creates a browse information file.  
   
-     For more information, see the **/FR** option in [/FR, /Fr (Create .Sbr File)](../Topic/-FR,%20-Fr%20\(Create%20.Sbr%20File\).md).  
+     For more information, see the **/FR** option in [/FR, /Fr (Create .Sbr File)](/visual-cpp/build/reference/fr-fr-create-dot-sbr-file).  
   
 -   **BrowseInformationFile**  
   
@@ -133,7 +133,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies a file name for the browse information file.  
   
-     For more information, see the **BrowseInformation** parameter in this table, and also see [/FR, /Fr (Create .Sbr File)](../Topic/-FR,%20-Fr%20\(Create%20.Sbr%20File\).md).  
+     For more information, see the **BrowseInformation** parameter in this table, and also see [/FR, /Fr (Create .Sbr File)](/visual-cpp/build/reference/fr-fr-create-dot-sbr-file).  
   
 -   **BufferSecurityCheck**  
   
@@ -141,7 +141,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, detects some buffer overruns that overwrite the return address, a common technique for exploiting code that does not enforce buffer size restrictions.  
   
-     For more information, see [/GS (Buffer Security Check)](../Topic/-GS%20\(Buffer%20Security%20Check\).md).  
+     For more information, see [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check).  
   
 -   **BuildingInIDE**  
   
@@ -163,7 +163,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **StdCall** -                          **/Gz**  
   
-     For more information, see [/Gd, /Gr, /Gv, /Gz (Calling Convention)](../Topic/-Gd,%20-Gr,%20-Gv,%20-Gz%20\(Calling%20Convention\).md).  
+     For more information, see [/Gd, /Gr, /Gv, /Gz (Calling Convention)](/visual-cpp/build/reference/gd-gr-gv-gz-calling-convention).  
   
 -   **CompileAs**  
   
@@ -179,7 +179,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **CompileAsCpp** - **/TP**  
   
-     For more information, see [/Tc, /Tp, /TC, /TP (Specify Source File Type)](../Topic/-Tc,%20-Tp,%20-TC,%20-TP%20\(Specify%20Source%20File%20Type\).md).  
+     For more information, see [/Tc, /Tp, /TC, /TP (Specify Source File Type)](/visual-cpp/build/reference/tc-tp-tc-tp-specify-source-file-type).  
   
 -   **CompileAsManaged**  
   
@@ -199,7 +199,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **OldSyntax** - **/clr:oldSyntax**  
   
-     For more information, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
+     For more information, see [/clr (Common Language Runtime Compilation)](/visual-cpp/build/reference/clr-common-language-runtime-compilation).  
   
 -   **CreateHotpatchableImage**  
   
@@ -207,7 +207,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, tells the compiler to prepare an image for *hot patching*. This parameter ensures that the first instruction of each function is two bytes, which is required for hot patching.  
   
-     For more information, see [/hotpatch (Create Hotpatchable Image)](../Topic/-hotpatch%20\(Create%20Hotpatchable%20Image\).md).  
+     For more information, see [/hotpatch (Create Hotpatchable Image)](/visual-cpp/build/reference/hotpatch-create-hotpatchable-image).  
   
 -   **DebugInformationFormat**  
   
@@ -223,7 +223,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **EditAndContinue** - **/ZI**  
   
-     For more information, see [/Z7, /Zi, /ZI (Debug Information Format)](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md).  
+     For more information, see [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format).  
   
 -   **DisableLanguageExtensions**  
   
@@ -231,7 +231,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If **true**, tells the compiler to emit an error for language constructs that are not compatible with either ANSI C or ANSI C++.  
   
-     For more information, see the **/Za** option in [/Za, /Ze (Disable Language Extensions)](../Topic/-Za,%20-Ze%20\(Disable%20Language%20Extensions\).md).  
+     For more information, see the **/Za** option in [/Za, /Ze (Disable Language Extensions)](/visual-cpp/build/reference/za-ze-disable-language-extensions).  
   
 -   **DisableSpecificWarnings**  
   
@@ -239,7 +239,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Disables the warning numbers that are specified in a semicolon-delimited list.  
   
-     For more information, see the `/wd` option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](../Topic/-w,%20-W0,%20-W1,%20-W2,%20-W3,%20-W4,%20-w1,%20-w2,%20-w3,%20-w4,%20-Wall,%20-wd,%20-we,%20-wo,%20-Wv,%20-WX%20\(Warning%20Level\).md).  
+     For more information, see the `/wd` option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](/visual-cpp/build/reference/compiler-option-warning-level).  
   
 -   **EnableEnhancedInstructionSet**  
   
@@ -253,7 +253,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **StreamingSIMDExtensions2** - **/arch:SSE2**  
   
-     For more information, see [/arch (x86)](../Topic/-arch%20\(x86\).md).  
+     For more information, see [/arch (x86)](/visual-cpp/build/reference/arch-x86).  
   
 -   **EnableFiberSafeOptimizations**  
   
@@ -261,7 +261,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, support fiber safety for data allocated by using static thread-local storage, that is, data allocated by using `__declspec(thread)`.  
   
-     For more information, see [/GT (Support Fiber-Safe Thread-Local Storage)](../Topic/-GT%20\(Support%20Fiber-Safe%20Thread-Local%20Storage\).md).  
+     For more information, see [/GT (Support Fiber-Safe Thread-Local Storage)](/visual-cpp/build/reference/gt-support-fiber-safe-thread-local-storage).  
   
 -   **EnablePREfast**  
   
@@ -269,7 +269,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enable code analysis.  
   
-     For more information, see [/analyze (Code Analysis)](../Topic/-analyze%20\(Code%20Analysis\).md).  
+     For more information, see [/analyze (Code Analysis)](/visual-cpp/build/reference/analyze-code-analysis).  
   
 -   **ErrorReporting**  
   
@@ -287,7 +287,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **Send** - **/errorReport:send**  
   
-     For more information, see [/errorReport (Report Internal Compiler Errors)](../Topic/-errorReport%20\(Report%20Internal%20Compiler%20Errors\).md).  
+     For more information, see [/errorReport (Report Internal Compiler Errors)](/visual-cpp/build/reference/errorreport-report-internal-compiler-errors).  
   
 -   **ExceptionHandling**  
   
@@ -305,7 +305,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **SyncCThrow** - **/EHs**  
   
-     For more information, see [/EH (Exception Handling Model)](../Topic/-EH%20\(Exception%20Handling%20Model\).md).  
+     For more information, see [/EH (Exception Handling Model)](/visual-cpp/build/reference/eh-exception-handling-model).  
   
 -   **ExpandAttributedSource**  
   
@@ -313,7 +313,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, creates a listing file that has expanded attributes injected into the source file.  
   
-     For more information, see [/Fx (Merge Injected Code)](../Topic/-Fx%20\(Merge%20Injected%20Code\).md).  
+     For more information, see [/Fx (Merge Injected Code)](/visual-cpp/build/reference/fx-merge-injected-code).  
   
 -   **FavorSizeOrSpeed**  
   
@@ -329,7 +329,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **Speed** - **/Ot**  
   
-     For more information, see [/Os, /Ot (Favor Small Code, Favor Fast Code)](../Topic/-Os,%20-Ot%20\(Favor%20Small%20Code,%20Favor%20Fast%20Code\).md).  
+     For more information, see [/Os, /Ot (Favor Small Code, Favor Fast Code)](/visual-cpp/build/reference/os-ot-favor-small-code-favor-fast-code).  
   
 -   **FloatingPointExceptions**  
   
@@ -337,7 +337,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enables the reliable floating-point exception model. Exceptions will be raised immediately after they are triggered.  
   
-     For more information, see the /**fp:except** option in [/fp (Specify Floating-Point Behavior)](../Topic/-fp%20\(Specify%20Floating-Point%20Behavior\).md).  
+     For more information, see the /**fp:except** option in [/fp (Specify Floating-Point Behavior)](/visual-cpp/build/reference/fp-specify-floating-point-behavior).  
   
 -   **FloatingPointModel**  
   
@@ -353,13 +353,13 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **Fast** - **/fp:fast**  
   
-     For more information, see [/fp (Specify Floating-Point Behavior)](../Topic/-fp%20\(Specify%20Floating-Point%20Behavior\).md).  
+     For more information, see [/fp (Specify Floating-Point Behavior)](/visual-cpp/build/reference/fp-specify-floating-point-behavior).  
   
 -   **ForceConformanceInForLoopScope**  
   
      Optional Boolean parameter.  
   
-     If `true`, implements standard C++ behavior in [for](../Topic/for%20Statement%20\(C++\).md) loops that use Microsoft extensions ([/Ze](../Topic/-Za,%20-Ze%20\(Disable%20Language%20Extensions\).md)).  
+     If `true`, implements standard C++ behavior in [for](/visual-cpp/cpp/for-statement-cpp) loops that use Microsoft extensions ([/Ze](/visual-cpp/build/reference/za-ze-disable-language-extensions)).  
   
      For more information, see [/Zc:forScope (Force Conformance in for Loop Scope)](../Topic/-Zc:forScope%20\(Force%20Conformance%20in%20for%20Loop%20Scope\).md).  
   
@@ -369,7 +369,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Causes the preprocessor to process one or more specified header files.  
   
-     For more information, see [/FI (Name Forced Include File)](../Topic/-FI%20\(Name%20Forced%20Include%20File\).md).  
+     For more information, see [/FI (Name Forced Include File)](/visual-cpp/build/reference/fi-name-forced-include-file).  
   
 -   **ForcedUsingFiles**  
   
@@ -377,7 +377,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Causes the preprocessor to process one or more specified **#using** files.  
   
-     For more information, see [/FU (Name Forced #using File)](../Topic/-FU%20\(Name%20Forced%20%23using%20File\).md).  
+     For more information, see [/FU (Name Forced #using File)](/visual-cpp/build/reference/fu-name-forced-hash-using-file).  
   
 -   **FunctionLevelLinking**  
   
@@ -385,7 +385,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enables the compiler to package individual functions in the form of packaged functions (COMDATs).  
   
-     For more information, see [/Gy (Enable Function-Level Linking)](../Topic/-Gy%20\(Enable%20Function-Level%20Linking\).md).  
+     For more information, see [/Gy (Enable Function-Level Linking)](/visual-cpp/build/reference/gy-enable-function-level-linking).  
   
 -   **GenerateXMLDocumentationFiles**  
   
@@ -393,7 +393,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, causes the compiler to process documentation comments in source code files and to create an .xdc file for each source code file that has documentation comments.  
   
-     For more information, see [/doc (Process Documentation Comments) (C/C++)](../Topic/-doc%20\(Process%20Documentation%20Comments\)%20\(C-C++\).md). Also see the **XMLDocumentationFileName** parameter in this table.  
+     For more information, see [/doc (Process Documentation Comments) (C/C++)](/visual-cpp/build/reference/doc-process-documentation-comments-c-cpp). Also see the **XMLDocumentationFileName** parameter in this table.  
   
 -   **IgnoreStandardIncludePath**  
   
@@ -401,7 +401,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, prevents the compiler from searching for include files in directories specified in the PATH and INCLUDE environment variables.  
   
-     For more information, see [/X (Ignore Standard Include Paths)](../Topic/-X%20\(Ignore%20Standard%20Include%20Paths\).md).  
+     For more information, see [/X (Ignore Standard Include Paths)](/visual-cpp/build/reference/x-ignore-standard-include-paths).  
   
 -   **InlineFunctionExpansion**  
   
@@ -419,7 +419,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **AnySuitable** - **/Ob2**  
   
-     For more information, see [/Ob (Inline Function Expansion)](../Topic/-Ob%20\(Inline%20Function%20Expansion\).md).  
+     For more information, see [/Ob (Inline Function Expansion)](/visual-cpp/build/reference/ob-inline-function-expansion).  
   
 -   **IntrinsicFunctions**  
   
@@ -427,7 +427,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, replaces some function calls with intrinsic or otherwise special forms of the function that help your application run faster.  
   
-     For more information, see [/Oi (Generate Intrinsic Functions)](../Topic/-Oi%20\(Generate%20Intrinsic%20Functions\).md).  
+     For more information, see [/Oi (Generate Intrinsic Functions)](/visual-cpp/build/reference/oi-generate-intrinsic-functions).  
   
 -   **MinimalRebuild**  
   
@@ -435,7 +435,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enables minimal rebuild, which determines whether C++ source files that include changed C++ class definitions (stored in header (.h) files) must be recompiled.  
   
-     For more information, see [/Gm (Enable Minimal Rebuild)](../Topic/-Gm%20\(Enable%20Minimal%20Rebuild\).md).  
+     For more information, see [/Gm (Enable Minimal Rebuild)](/visual-cpp/build/reference/gm-enable-minimal-rebuild).  
   
 -   **MultiProcessorCompilation**  
   
@@ -443,7 +443,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, use multiple processors to compile. This parameter creates a process for each effective processor on your computer.  
   
-     For more information, see [/MP (Build with Multiple Processes)](../Topic/-MP%20\(Build%20with%20Multiple%20Processes\).md). Also, see the **ProcessorNumber** parameter in this table.  
+     For more information, see [/MP (Build with Multiple Processes)](/visual-cpp/build/reference/mp-build-with-multiple-processes). Also, see the **ProcessorNumber** parameter in this table.  
   
 -   **ObjectFileName**  
   
@@ -451,7 +451,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies an object (.obj) file name or directory to be used instead of the default.  
   
-     For more information, see [/Fo (Object File Name)](../Topic/-Fo%20\(Object%20File%20Name\).md).  
+     For more information, see [/Fo (Object File Name)](/visual-cpp/build/reference/fo-object-file-name).  
   
 -   **ObjectFiles**  
   
@@ -465,7 +465,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, omits the default C run-time library name from the object (.obj) file. By default, the compiler puts the name of the library into the .obj file to direct the linker to the correct library.  
   
-     For more information, see [/Zl (Omit Default Library Name)](../Topic/-Zl%20\(Omit%20Default%20Library%20Name\).md).  
+     For more information, see [/Zl (Omit Default Library Name)](/visual-cpp/build/reference/zl-omit-default-library-name).  
   
 -   **OmitFramePointers**  
   
@@ -473,7 +473,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, suppresses creation of frame pointers on the call stack.  
   
-     For more information, see [/Oy (Frame-Pointer Omission)](../Topic/-Oy%20\(Frame-Pointer%20Omission\).md).  
+     For more information, see [/Oy (Frame-Pointer Omission)](/visual-cpp/build/reference/oy-frame-pointer-omission).  
   
 -   **OpenMPSupport**  
   
@@ -481,7 +481,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, causes the compiler to process OpenMP clauses and directives.  
   
-     For more information, see [/openmp (Enable OpenMP 2.0 Support)](../Topic/-openmp%20\(Enable%20OpenMP%202.0%20Support\).md).  
+     For more information, see [/openmp (Enable OpenMP 2.0 Support)](/visual-cpp/build/reference/openmp-enable-openmp-2-0-support).  
   
 -   **Optimization**  
   
@@ -499,7 +499,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **Full** - **/Ox**  
   
-     For more information, see [/O Options (Optimize Code)](../Topic/-O%20Options%20\(Optimize%20Code\).md).  
+     For more information, see [/O Options (Optimize Code)](/visual-cpp/build/reference/o-options-optimize-code).  
   
 -   **PrecompiledHeader**  
   
@@ -515,7 +515,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **Use** - **/Yu**  
   
-     For more information, see [/Yc (Create Precompiled Header File)](../Topic/-Yc%20\(Create%20Precompiled%20Header%20File\).md) and [/Yu (Use Precompiled Header File)](../Topic/-Yu%20\(Use%20Precompiled%20Header%20File\).md). Also, see the **PrecompiledHeaderFile** and **PrecompiledHeaderOutputFile** parameters in this table.  
+     For more information, see [/Yc (Create Precompiled Header File)](/visual-cpp/build/reference/yc-create-precompiled-header-file) and [/Yu (Use Precompiled Header File)](/visual-cpp/build/reference/yu-use-precompiled-header-file). Also, see the **PrecompiledHeaderFile** and **PrecompiledHeaderOutputFile** parameters in this table.  
   
 -   **PrecompiledHeaderFile**  
   
@@ -523,7 +523,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies a precompiled header file name to create or use.  
   
-     For more information, see [/Yc (Create Precompiled Header File)](../Topic/-Yc%20\(Create%20Precompiled%20Header%20File\).md) and [/Yu (Use Precompiled Header File)](../Topic/-Yu%20\(Use%20Precompiled%20Header%20File\).md).  
+     For more information, see [/Yc (Create Precompiled Header File)](/visual-cpp/build/reference/yc-create-precompiled-header-file) and [/Yu (Use Precompiled Header File)](/visual-cpp/build/reference/yu-use-precompiled-header-file).  
   
 -   **PrecompiledHeaderOutputFile**  
   
@@ -531,7 +531,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies a path name for a precompiled header instead of using the default path name.  
   
-     For more information, see [/Fp (Name .Pch File)](../Topic/-Fp%20\(Name%20.Pch%20File\).md).  
+     For more information, see [/Fp (Name .Pch File)](/visual-cpp/build/reference/fp-name-dot-pch-file).  
   
 -   **PreprocessKeepComments**  
   
@@ -539,7 +539,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, preserves comments during preprocessing.  
   
-     For more information, see [/C (Preserve Comments During Preprocessing)](../Topic/-C%20\(Preserve%20Comments%20During%20Preprocessing\).md).  
+     For more information, see [/C (Preserve Comments During Preprocessing)](/visual-cpp/build/reference/c-preserve-comments-during-preprocessing).  
   
 -   **PreprocessorDefinitions**  
   
@@ -547,7 +547,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Defines a preprocessing symbol for your source file.  
   
-     For more information, see [/D (Preprocessor Definitions)](../Topic/-D%20\(Preprocessor%20Definitions\).md).  
+     For more information, see [/D (Preprocessor Definitions)](/visual-cpp/build/reference/d-preprocessor-definitions).  
   
 -   **PreprocessOutput**  
   
@@ -561,7 +561,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies the name of the output file to which the **PreprocessToFile** parameter writes preprocessed output.  
   
-     For more information, see [/Fi (Preprocess Output File Name)](../Topic/-Fi%20\(Preprocess%20Output%20File%20Name\).md).  
+     For more information, see [/Fi (Preprocess Output File Name)](/visual-cpp/build/reference/fi-preprocess-output-file-name).  
   
 -   **PreprocessSuppressLineNumbers**  
   
@@ -569,7 +569,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, preprocesses C and C++ source files and copies the preprocessed files to the standard output device.  
   
-     For more information, see [/EP (Preprocess to stdout Without #line Directives)](../Topic/-EP%20\(Preprocess%20to%20stdout%20Without%20%23line%20Directives\).md).  
+     For more information, see [/EP (Preprocess to stdout Without #line Directives)](/visual-cpp/build/reference/ep-preprocess-to-stdout-without-hash-line-directives).  
   
 -   **PreprocessToFile**  
   
@@ -577,7 +577,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, preprocesses C and C++ source files and writes the preprocessed output to a file.  
   
-     For more information, see [/P (Preprocess to a File)](../Topic/-P%20\(Preprocess%20to%20a%20File\).md).  
+     For more information, see [/P (Preprocess to a File)](/visual-cpp/build/reference/p-preprocess-to-a-file).  
   
 -   **ProcessorNumber**  
   
@@ -591,7 +591,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies a file name for the program database (PDB) file.  
   
-     For more information, see [/Fd (Program Database File Name)](../Topic/-Fd%20\(Program%20Database%20File%20Name\).md).  
+     For more information, see [/Fd (Program Database File Name)](/visual-cpp/build/reference/fd-program-database-file-name).  
   
 -   **RuntimeLibrary**  
   
@@ -609,7 +609,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **MultiThreadedDebugDLL** - **/MDd**  
   
-     For more information, see [/MD, /MT, /LD (Use Run-Time Library)](../Topic/-MD,%20-MT,%20-LD%20\(Use%20Run-Time%20Library\).md).  
+     For more information, see [/MD, /MT, /LD (Use Run-Time Library)](/visual-cpp/build/reference/md-mt-ld-use-run-time-library).  
   
 -   **RuntimeTypeInfo**  
   
@@ -617,7 +617,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, adds code to check C++ object types at run time (run-time type information).  
   
-     For more information, see [/GR (Enable Run-Time Type Information)](../Topic/-GR%20(Enable%20Run-Time%20Type%20Information).md).  
+     For more information, see [/GR (Enable Run-Time Type Information)](/visual-cpp/build/reference/gr-enable-run-time-type-information).  
   
 -   **ShowIncludes**  
   
@@ -625,7 +625,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, causes the compiler to output a list of the include files.  
   
-     For more information, see [/showIncludes (List Include Files)](../Topic/-showIncludes%20\(List%20Include%20Files\).md).  
+     For more information, see [/showIncludes (List Include Files)](/visual-cpp/build/reference/showincludes-list-include-files).  
   
 -   **SmallerTypeCheck**  
   
@@ -633,7 +633,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, reports a run-time error if a value is assigned to a smaller data type and causes a data loss.  
   
-     For more information, see the **/RTCc** option in [/RTC (Run-Time Error Checks)](../Topic/-RTC%20\(Run-Time%20Error%20Checks\).md).  
+     For more information, see the **/RTCc** option in [/RTC (Run-Time Error Checks)](/visual-cpp/build/reference/rtc-run-time-error-checks).  
   
 -   **Sources**  
   
@@ -647,7 +647,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enables the compiler to create one copy of identical strings in the program image.  
   
-     For more information, see [/GF (Eliminate Duplicate Strings)](../Topic/-GF%20\(Eliminate%20Duplicate%20Strings\).md).  
+     For more information, see [/GF (Eliminate Duplicate Strings)](/visual-cpp/build/reference/gf-eliminate-duplicate-strings).  
   
 -   **StructMemberAlignment**  
   
@@ -669,7 +669,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **16Bytes** - **/Zp16**  
   
-     For more information, see [/Zp (Struct Member Alignment)](../Topic/-Zp%20\(Struct%20Member%20Alignment\).md).  
+     For more information, see [/Zp (Struct Member Alignment)](/visual-cpp/build/reference/zp-struct-member-alignment).  
   
 -   **SuppressStartupBanner**  
   
@@ -677,7 +677,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, prevents the display of the copyright and version number message when the task starts.  
   
-     For more information, see [/nologo (Suppress Startup Banner) (C/C++)](../Topic/-nologo%20\(Suppress%20Startup%20Banner\)%20\(C-C++\).md).  
+     For more information, see [/nologo (Suppress Startup Banner) (C/C++)](/visual-cpp/build/reference/nologo-suppress-startup-banner-c-cpp).  
   
 -   **TrackerLogDirectory**  
   
@@ -693,7 +693,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Treats the specified list of compiler warnings as errors.  
   
-     For more information, see the **/we**`n` option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](../Topic/-w,%20-W0,%20-W1,%20-W2,%20-W3,%20-W4,%20-w1,%20-w2,%20-w3,%20-w4,%20-Wall,%20-wd,%20-we,%20-wo,%20-Wv,%20-WX%20\(Warning%20Level\).md).  
+     For more information, see the **/we**`n` option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](/visual-cpp/build/reference/compiler-option-warning-level).  
   
 -   **TreatWarningAsError**  
   
@@ -701,7 +701,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, treat all compiler warnings as errors.  
   
-     For more information, see **/WX** option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](../Topic/-w,%20-W0,%20-W1,%20-W2,%20-W3,%20-W4,%20-w1,%20-w2,%20-w3,%20-w4,%20-Wall,%20-wd,%20-we,%20-wo,%20-Wv,%20-WX%20\(Warning%20Level\).md).  
+     For more information, see **/WX** option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](/visual-cpp/build/reference/compiler-option-warning-level).  
   
 -   **TreatWChar_tAsBuiltInType**  
   
@@ -717,7 +717,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, undefines the Microsoft-specific symbols that the compiler defines.  
   
-     For more information, see the **/u** option in [/U, /u (Undefine Symbols)](../Topic/-U,%20-u%20\(Undefine%20Symbols\).md).  
+     For more information, see the **/u** option in [/U, /u (Undefine Symbols)](/visual-cpp/build/reference/u-u-undefine-symbols).  
   
 -   **UndefinePreprocessorDefinitions**  
   
@@ -725,7 +725,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies a list of one or more preprocessor symbols to undefine.  
   
-     For more information, see **/U** option in [/U, /u (Undefine Symbols)](../Topic/-U,%20-u%20\(Undefine%20Symbols\).md).  
+     For more information, see **/U** option in [/U, /u (Undefine Symbols)](/visual-cpp/build/reference/u-u-undefine-symbols).  
   
 -   **UseFullPaths**  
   
@@ -733,7 +733,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, displays the full path of source code files passed to the compiler in diagnostics.  
   
-     For more information, see [/FC (Full Path of Source Code File in Diagnostics)](../Topic/-FC%20\(Full%20Path%20of%20Source%20Code%20File%20in%20Diagnostics\).md).  
+     For more information, see [/FC (Full Path of Source Code File in Diagnostics)](/visual-cpp/build/reference/fc-full-path-of-source-code-file-in-diagnostics).  
   
 -   **UseUnicodeForAssemblerListing**  
   
@@ -741,7 +741,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, causes the output file to be created in UTF-8 format.  
   
-     For more information, see the **/FAu** option in [/FA, /Fa (Listing File)](../Topic/-FA,%20-Fa%20\(Listing%20File\).md).  
+     For more information, see the **/FAu** option in [/FA, /Fa (Listing File)](/visual-cpp/build/reference/fa-fa-listing-file).  
   
 -   **WarningLevel**  
   
@@ -763,7 +763,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **EnableAllWarnings** - **/Wall**  
   
-     For more information, see the **/W***n* option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](../Topic/-w,%20-W0,%20-W1,%20-W2,%20-W3,%20-W4,%20-w1,%20-w2,%20-w3,%20-w4,%20-Wall,%20-wd,%20-we,%20-wo,%20-Wv,%20-WX%20\(Warning%20Level\).md).  
+     For more information, see the **/W***n* option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](/visual-cpp/build/reference/compiler-option-warning-level).  
   
 -   **WholeProgramOptimization**  
   
@@ -771,7 +771,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, enables whole program optimization.  
   
-     For more information, see [/GL (Whole Program Optimization)](../Topic/-GL%20\(Whole%20Program%20Optimization\).md).  
+     For more information, see [/GL (Whole Program Optimization)](/visual-cpp/build/reference/gl-whole-program-optimization).  
   
 -   **XMLDocumentationFileName**  
   
@@ -779,7 +779,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      Specifies the name of the generated XML documentation files. This parameter can be a file or directory name.  
   
-     For more information, see the `name` argument in [/doc (Process Documentation Comments) (C/C++)](../Topic/-doc%20\(Process%20Documentation%20Comments\)%20\(C-C++\).md). Also see the **GenerateXMLDocumentationFiles** parameter in this table.  
+     For more information, see the `name` argument in [/doc (Process Documentation Comments) (C/C++)](/visual-cpp/build/reference/doc-process-documentation-comments-c-cpp). Also see the **GenerateXMLDocumentationFiles** parameter in this table.  
   
 -   **MinimalRebuildFromTracking**  
   

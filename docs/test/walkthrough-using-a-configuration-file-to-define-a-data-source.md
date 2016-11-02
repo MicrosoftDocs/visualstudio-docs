@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source"
+title: "Walkthrough: Using a Configuration File to Define a Data Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -282,5 +282,5 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Testing the application](../Topic/Test%20apps%20early%20and%20often.md)   
+ [Testing the application](/devops-test-docs/test/test-apps-early-and-often)   
  [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

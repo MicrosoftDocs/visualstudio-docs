@@ -1,7 +1,7 @@
 ---
-title: "Visual C++ Structures in Class Designer"
+title: "Visual C++ Structures in Class Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ struct MyStructure
 };  
 ```  
   
- For more information about using the `struct` type, see [struct](../Topic/struct%20\(C++\).md).  
+ For more information about using the `struct` type, see [struct](/visual-cpp/cpp/struct-cpp).  
   
  A C++ structure shape in a class diagram looks and works like a class shape, except that the label reads **Struct** and it has square corners instead of rounded corners.  
   
@@ -52,5 +52,5 @@ struct MyStructure
   
 ## See Also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [Classes and Structs](../Topic/Classes%20and%20Structs%20\(C++\).md)   
- [struct](../Topic/struct%20\(C++\).md)
+ [Classes and Structs](/visual-cpp/cpp/classes-and-structs-cpp)   
+ [struct](/visual-cpp/cpp/struct-cpp)

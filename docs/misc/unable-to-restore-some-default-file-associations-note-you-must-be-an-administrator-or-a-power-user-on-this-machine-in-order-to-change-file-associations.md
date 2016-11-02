@@ -1,7 +1,7 @@
 ---
-title: "Unable to restore some default file associations. Note: you must be an administrator or a power user on this machine in order to change file associations."
+title: "Unable to restore some default file associations. Note: you must be an administrator or a power user on this machine in order to change file associations. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

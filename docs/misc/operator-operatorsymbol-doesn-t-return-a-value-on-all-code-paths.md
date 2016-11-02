@@ -1,5 +1,5 @@
 ---
-title: "Operator &#39;&lt;operatorsymbol&gt;&#39; doesn&#39;t return a value on all code paths"
+title: "Operator &#39;&lt;operatorsymbol&gt;&#39; doesn&#39;t return a value on all code paths | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -40,9 +40,9 @@ Operator '\<operatorsymbol>' doesn't return a value on all code paths. A null re
   
  An operator procedure has at least one possible path through its code that does not return a value.  
   
- You can return a value from an operator procedure only by including it in a [Return Statement](../Topic/Return%20Statement%20\(Visual%20Basic\).md).  
+ You can return a value from an operator procedure only by including it in a [Return Statement](/dotnet/visual-basic/language-reference/statements/return-statement).  
   
- If control passes to the `End Operator` statement, the operator procedure returns the default value of the property's data type. For more information, see "Behavior" in [Function Statement](../Topic/Function%20Statement%20\(Visual%20Basic\).md).  
+ If control passes to the `End Operator` statement, the operator procedure returns the default value of the property's data type. For more information, see "Behavior" in [Function Statement](/dotnet/visual-basic/language-reference/statements/function-statement).  
   
  By default, this message is a warning. For more information on hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
@@ -53,5 +53,5 @@ Operator '\<operatorsymbol>' doesn't return a value on all code paths. A null re
 -   Check your control flow logic and make sure every possible path ends with a `Return` statement. In particular, the last statement before `End Operator` should be a `Return` statement.  
   
 ## See Also  
- [Operator Procedures](../Topic/Operator%20Procedures%20\(Visual%20Basic\).md)   
- [Operator Statement](../Topic/Operator%20Statement.md)
+ [Operator Procedures](/dotnet/visual-basic/language-reference/procedures/operator-procedures)   
+ [Operator Statement](/dotnet/visual-basic/language-reference/statements/operator-statement)

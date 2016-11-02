@@ -1,7 +1,7 @@
 ---
-title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box"
+title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -89,5 +89,5 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
  Configures **Solution Explorer** to show files in the project and files on disk in the project folder.  
   
 ## See Also  
- [Building C/C++ Programs](../Topic/Building%20C-C++%20Programs.md)   
- [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)
+ [Building C/C++ Programs](/visual-cpp/build/building-c-cpp-programs)   
+ [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)

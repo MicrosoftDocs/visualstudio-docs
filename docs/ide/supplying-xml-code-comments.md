@@ -1,7 +1,7 @@
 ---
-title: "Supplying XML Code Comments"
+title: "Supplying XML Code Comments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,9 +39,9 @@ You can make the comments in source code files available as IntelliSense. When y
   
  For more information about documenting code in Visual Basic, see see [How to: Create XML Documentation](../Topic/How%20to:%20Create%20XML%20Documentation%20in%20Visual%20Basic.md).  
   
- For more information about documenting code in C#, see [XML Documentation Comments](../Topic/XML%20Documentation%20Comments%20\(C%23%20Programming%20Guide\).md).  
+ For more information about documenting code in C#, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
   
- For more information about documenting code in C++, see [Comments](../Topic/Comments%20\(C++\).md) and [XML Documentation](../Topic/XML%20Documentation%20\(Visual%20C++\).md).  
+ For more information about documenting code in C++, see [Comments](/visual-cpp/cpp/comments-cpp) and [XML Documentation](/visual-cpp/ide/xml-documentation-visual-cpp).  
   
 ## See Also  
  [Using IntelliSense](../ide/using-intellisense.md)

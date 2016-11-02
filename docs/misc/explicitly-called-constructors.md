@@ -1,7 +1,7 @@
 ---
-title: "Explicitly Called Constructors"
+title: "Explicitly Called Constructors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Explicitly Called Constructors
-This content has moved to [Constructors](../Topic/Constructors%20\(C++\).md).  
+This content has moved to [Constructors](/visual-cpp/cpp/constructors-cpp).  
   
 ## See Also  
  [Rules for Declaring Constructors](../misc/rules-for-declaring-constructors.md)

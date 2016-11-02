@@ -1,7 +1,7 @@
 ---
-title: "How to: Write a Run-Time Error Reporting Function"
+title: "How to: Write a Run-Time Error Reporting Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,7 +77,7 @@ int MyErrorFunc(int errorType, const wchar_t *filename,
 ```  
   
 ## Example  
- The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](../Topic/_RTC_SetErrorType.md).  
+ The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](/visual-cpp/c-runtime-library/reference/rtc-seterrortype).  
   
 ```  
 #include <windows.h>  
@@ -122,7 +122,7 @@ int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
 ```  
   
 ## Example  
- Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](../Topic/_RTC_SetErrorFuncW.md). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
+ Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](/visual-cpp/c-runtime-library/reference/rtc-seterrorfuncw). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
   
 ```  
 #include <rtcapi.h>  

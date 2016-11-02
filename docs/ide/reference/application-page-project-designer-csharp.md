@@ -1,7 +1,7 @@
 ---
-title: "Application Page, Project Designer (C#)"
+title: "Application Page, Project Designer (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,12 +46,12 @@ Use the **Application** page of the **Project Designer** to specify the project'
  The following options enable you to configure general settings for the application.  
   
  **Assembly name**  
- Specifies the name of the output file that will hold the assembly manifest. Changing this property will also change the **Output Name** property. You can also make this change from the command line by using [/out (C# Compiler Options)](../Topic/-out%20\(C%23%20Compiler%20Options\).md). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName*>.  
+ Specifies the name of the output file that will hold the assembly manifest. Changing this property will also change the **Output Name** property. You can also make this change from the command line by using [/out (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/out-compiler-option). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName*>.  
   
  **Default namespace**  
  Specifies the base namespace for files added to the project.  
   
- See [namespace](../Topic/namespace%20\(C%23%20Reference\).md) for more information about creating namespaces in your code.  
+ See [namespace](/dotnet/csharp/language-reference/keywords/namespace) for more information about creating namespaces in your code.  
   
  To access this property programmatically, see <xref:VSLangProj.ProjectProperties.RootNamespace*>.  
   
@@ -75,7 +75,7 @@ Use the **Application** page of the **Project Designer** to specify the project'
 > [!NOTE]
 >  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
- For more information about the **Application type** property, see [/target (C# Compiler Options)](../Topic/-target%20\(C%23%20Compiler%20Options\).md). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType*>.  
+ For more information about the **Application type** property, see [/target (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/target-compiler-option). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType*>.  
   
  **Assembly Information**  
  Clicking this button displays the [Assembly Information Dialog Box](../../ide/reference/assembly-information-dialog-box.md).  
@@ -85,7 +85,7 @@ Use the **Application** page of the **Project Designer** to specify the project'
   
  By default, in a WPF Browser Application project, this option is **(Not set)**. The other option is *Projectname*.App. In this kind of project, you have to set the startup URI to load a UI resource when the application starts. To do this, open the Application.xaml file in your project and set the `StartupUri` property to a .xaml file in your project, such as Window1.xaml. For a list of acceptable root elements, see <xref:System.Windows.Application.StartupUri*>. You also have to define a `public static void Main()` method in a class in the project. This class will appear in the **Startup object** list as *ProjectName.ClassName*. You can then select the class as the startup object.  
   
- See [/main (C# Compiler Options)](../Topic/-main%20\(C%23%20Compiler%20Options\).md) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject*>.  
+ See [/main (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/main-compiler-option) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject*>.  
   
 ## Resources  
  The following options enable you to configure general settings for the application.  
@@ -94,7 +94,7 @@ Use the **Application** page of the **Project Designer** to specify the project'
  By default, this radio button is selected and the **Icon** and **Manifest** options are enabled. This enables you to select your own icon, or to select different manifest generation options. Leave this radio button selected unless you are providing a resource file for the project.  
   
  **Icon**  
- Sets the .ico file that you want to use as your program icon. Click the ellipsis button to browse for an existing graphic, or type the name of the file that you want. See [/win32icon (C# Compiler Options)](../Topic/-win32icon%20\(C%23%20Compiler%20Options\).md) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon*>.  
+ Sets the .ico file that you want to use as your program icon. Click the ellipsis button to browse for an existing graphic, or type the name of the file that you want. See [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon*>.  
   
  **Manifest**  
  Selects a manifest generation option when the application runs on Windows Vista under User Account Control (UAC). This option can have the following values:  
@@ -112,4 +112,4 @@ Use the **Application** page of the **Project Designer** to specify the project'
   
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)  
- [Writing Code in Office Solutions](../Topic/Writing%20Code%20in%20Office%20Solutions.md)
+ [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)

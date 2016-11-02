@@ -1,7 +1,7 @@
 ---
-title: "unchecked_adjacent_difference"
+title: "unchecked_adjacent_difference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ template<class InputIterator, class OutputIterator, class BinaryOperation>
 ## Remarks  
  See [adjacent_difference](../Topic/adjacent_difference.md) for a code sample.  
   
- For more information on checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+ For more information on checked iterators, see [Checked Iterators](/visual-cpp/standard-library/checked-iterators).  
   
 ## Requirements  
  **Header:** \<numeric>  

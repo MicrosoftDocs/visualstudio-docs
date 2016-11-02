@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Building an Application"
+title: "Walkthrough: Building an Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -201,9 +201,9 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      The build information includes the time that the build started (located at the beginning), the order in which files were processed, and the amount of time that the process took to complete (located at the end). This information also includes the actual compiler syntax that Visual Studio runs during the build.  
   
-     For example, in the Visual C# build, the [/nowarn](../Topic/-nowarn.md) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
+     For example, in the Visual C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
   
-     In the Visual Basic build, [/nowarn](../Topic/-nowarn.md) doesn’t include specific warnings to exclude, so no warnings appear.  
+     In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn’t include specific warnings to exclude, so no warnings appear.  
   
     > [!TIP]
     >  You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.  

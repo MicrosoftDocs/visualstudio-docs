@@ -1,7 +1,7 @@
 ---
-title: "Supported Code Changes (C++)"
+title: "Supported Code Changes (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 ##  <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios  
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:  
   
--   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](../Topic/-Zo%20\(Enhance%20Optimized%20Debugging\).md)  
+-   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/visual-cpp/build/reference/zo-enhance-optimized-debugging)  
   
 -   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging Windows Store apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
   
@@ -151,7 +151,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 3.  Clear the **Allow Precompiling** check box.  
   
 ##  <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations  
- Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](../Topic/IDL%20Attributes.md).  
+ Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/visual-cpp/windows/idl-attributes).  
   
 ## See Also  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)

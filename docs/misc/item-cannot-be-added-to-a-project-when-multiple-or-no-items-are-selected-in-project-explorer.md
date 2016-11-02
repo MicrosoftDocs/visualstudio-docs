@@ -1,7 +1,7 @@
 ---
-title: "Item cannot be added to a project when multiple or no items are selected in Project Explorer."
+title: "Item cannot be added to a project when multiple or no items are selected in Project Explorer. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortEx2"
+title: "IDebugPortEx2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugPortEx2 : IUnknown
  A custom port supplier implements this interface on the same object that implements [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md).  
   
 ## Notes for Callers  
- The SDM calls [QueryInterface](../Topic/QueryInterface.md) on the `IDebugPort2` interface to obtain this interface.  
+ The SDM calls [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPort2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortEx2`.  

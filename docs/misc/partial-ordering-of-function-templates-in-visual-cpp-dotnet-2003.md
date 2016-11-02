@@ -1,7 +1,7 @@
 ---
-title: "Partial Ordering of Function Templates in Visual C++ .NET 2003"
+title: "Partial Ordering of Function Templates in Visual C++ .NET 2003 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Partial Ordering of Function Templates in Visual C++ .NET 2003
-This content has been removed. For complete information, see [Partial Ordering of Function Templates](../Topic/Partial%20Ordering%20of%20Function%20Templates%20\(C++\).md).
+This content has been removed. For complete information, see [Partial Ordering of Function Templates](/visual-cpp/cpp/partial-ordering-of-function-templates-cpp).

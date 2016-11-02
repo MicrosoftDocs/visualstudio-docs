@@ -1,7 +1,7 @@
 ---
-title: "How to: Change the Build Output Directory"
+title: "How to: Change the Build Output Directory | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,5 +54,5 @@ You can specify the location of output on a per-configuration basis (for debug, 
   
 ## See Also  
  [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
- [General Property Page (Project)](../Topic/General%20Property%20Page%20\(Project\).md)   
+ [General Property Page (Project)](/visual-cpp/ide/general-property-page-project)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

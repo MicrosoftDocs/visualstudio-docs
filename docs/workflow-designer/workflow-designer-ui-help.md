@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer UI Help"
+title: "Workflow Designer UI Help | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Workflow Designer UI Help
-This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. When working in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], you can access these topics from the user interface by pressing **F1** when a [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
+This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. When working in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], you can access these topics from the user interface by pressing **F1** when a [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
   
  This section also contains several topics concerned with navigation and error messages.  
   

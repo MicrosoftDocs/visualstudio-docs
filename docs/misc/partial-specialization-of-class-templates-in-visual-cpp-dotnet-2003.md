@@ -1,7 +1,7 @@
 ---
-title: "Partial Specialization of Class Templates in Visual C++ .NET 2003"
+title: "Partial Specialization of Class Templates in Visual C++ .NET 2003 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Partial Specialization of Class Templates in Visual C++ .NET 2003
-This content has been removed. For more information, see [Partial Specialization of Class Templates](../Topic/Template%20Specialization%20\(C++\).md).
+This content has been removed. For more information, see [Partial Specialization of Class Templates](/visual-cpp/cpp/template-specialization-cpp).

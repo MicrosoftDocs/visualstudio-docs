@@ -1,7 +1,7 @@
 ---
-title: "Application Page, Project Designer (Visual Basic)"
+title: "Application Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The following options enable you to configure general settings for an application.  
   
  **Assembly name**  
- Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property will also change. You can also make this change at a command prompt by using [/out (Visual Basic)](../Topic/-out%20\(Visual%20Basic\).md). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName*>.  
+ Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property will also change. You can also make this change at a command prompt by using [/out (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/out). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName*>.  
   
  **Root namespace**  
  Specifies the base namespace for all files in the project. For example, if you set the **Root Namespace** to `Project1` and you have a `Class1` outside of any namespace in your code, its namespace would be `Project1.Class1`. If you have a `Class2` in a namespace `Order` in code, its namespace would be `Project1.Order.Class2`.  
@@ -54,11 +54,11 @@ Use the **Application** page of the Project Designer to specify a project's appl
  If you clear the **Root Namespace**, you can specify the namespace structure of your project in code.  
   
 > [!NOTE]
->  If you use the Global keyword in a [Namespace Statement](../Topic/Namespace%20Statement.md), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](../Topic/Namespaces%20in%20Visual%20Basic.md).  
+>  If you use the Global keyword in a [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/namespaces).  
   
- For information about how to create namespaces in your code, see [Namespace Statement](../Topic/Namespace%20Statement.md).  
+ For information about how to create namespaces in your code, see [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement).  
   
- For more information about the root namespace property, see [/rootnamespace](../Topic/-rootnamespace.md).  
+ For more information about the root namespace property, see [/rootnamespace](/dotnet/visual-basic/reference/command-line-compiler/rootnamespace).  
   
  For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.RootNamespace*>.  
   
@@ -82,10 +82,10 @@ Use the **Application** page of the Project Designer to specify a project's appl
 > [!NOTE]
 >  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
- For more information about the **Application type** property, see [/target (Visual Basic)](../Topic/-target%20\(Visual%20Basic\).md). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType*>.  
+ For more information about the **Application type** property, see [/target (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/target). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType*>.  
   
  **Icon**  
- Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](../Topic/-win32icon.md) (or [/win32icon (C# Compiler Options)](../Topic/-win32icon%20\(C%23%20Compiler%20Options\).md)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon*>.  
+ Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) (or [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon*>.  
   
  **Startup form / Startup object / Startup URI**  
  Specifies the application's startup form or entry point.  
@@ -96,7 +96,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
   
  If **Enable application framework** is cleared, this list becomes **Startup object** and shows both forms and classes or modules with a `Sub Main`.  
   
- **Startup object** defines the entry point to be called when the application loads. Generally this is set to either the main form in your application or to the `Sub Main` procedure that should run when the application starts. Because class libraries do not have an entry point, their only option for this property is **(None)**. For more information, see [/main](../Topic/-main.md). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject*>.  
+ **Startup object** defines the entry point to be called when the application loads. Generally this is set to either the main form in your application or to the `Sub Main` procedure that should run when the application starts. Because class libraries do not have an entry point, their only option for this property is **(None)**. For more information, see [/main](/dotnet/visual-basic/reference/command-line-compiler/main). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject*>.  
   
  **Assembly Information**  
  Click this button to display the [Assembly Information Dialog Box](../../ide/reference/assembly-information-dialog-box.md).  
@@ -171,4 +171,4 @@ Use the **Application** page of the Project Designer to specify a project's appl
   
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)
- [Writing Code in Office Solutions](../Topic/Writing%20Code%20in%20Office%20Solutions.md)
+ [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)

@@ -1,7 +1,7 @@
 ---
-title: "Just-In-Time Debugging in Visual Studio"
+title: "Just-In-Time Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
-caps.latest.revision: 45
+caps.latest.revision: 48
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,11 +37,33 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Just-In-Time Debugging in Visual Studio
-Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.  
+Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.
+
+Just-In-Time debugging works for Windows desktop apps. It does not work for Windows Universal apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.
+
+## <a name="BKMK_Scenario"></a> Did the Just-in-Time debugger dialog box appear when trying to run an app?
+
+The actions you should take when you see the Visual Studio Just-in-Time debugger dialog box depend on what you are trying to do:
+
+#### If you want to get rid of the dialog box and just run the app normally
+
+1. (Advanced users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
+
+2. If you are running a web app in Internet Explorer, disable script debugging.
+
+    Disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and Internet Explorer).
+
+    ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
+
+3. Re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
+
+4. If you are running another type of Windows app, you will need to contact the owner of the app to fix the error, and then re-install the fixed version of the app.
+
+#### If you want to fix or debug the error (advanced users)
+
+- You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. See [Using JIT](#BKMK_Using_JIT) for detailed instructions. If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
   
- Just-In-Time debugging works for Windows desktop apps. It does not work for Windows Universal apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.  
-  
-##  <a name="BKMK_Enabling"></a> Enabling or disabling Just-In-Time debugging  
+##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging  
  You can enable or disable Just-In-Time debugging from the Visual Studio **Tools / Options** dialog box.  
   
 #### To enable or disable Just-In-Time debugging  
@@ -99,7 +121,7 @@ Just-In-Time debugging launches Visual Studio automatically when an exception or
     </configuration>  
     ```  
   
-3.  In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md) and without [/Og](../Topic/-Og%20\(Global%20Optimizations\).md), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:  
+3.  In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/visual-cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:  
   
     ```  
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];   
@@ -107,7 +129,7 @@ Just-In-Time debugging launches Visual Studio automatically when an exception or
   
      For more information, see <xref:System.Diagnostics.DebuggableAttribute>.  
   
-## Use Just-In-Time Debugging  
+## <a name="BKMK_Using_JIT">Use Just-In-Time Debugging  
  This section shows what happens when an executable throws an exception.  
   
  You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio 2015 Community Edition](https://www.microsoft.com/en-us/download/details.aspx?id=48146).  
@@ -163,7 +185,7 @@ static void Main(string[] args)
  You can start debugging at this point. If this were a real application, you would need to find out why the code is throwing the exception.  
   
 ## Just-In-Time debugging errors  
- if you don’t see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](https://msdn.microsoft.com/en-us/library/windows/desktop/bb513638\(v=vs.85\).aspx).  
+ if you don’t see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](https://msdn.microsoft.com/library/windows/desktop/bb513638\(v=vs.85\).aspx).  
   
  You might see the following error messages that are associated with Just-In-Time debugging.  
   

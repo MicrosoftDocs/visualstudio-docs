@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Inheritance Between Types (Class Designer)"
+title: "How to: Create Inheritance Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ To create an inheritance relationship between two types on a class diagram using
     >  Although you can visualize existing generic types, you can't create new generic types. You also can't change the type parameters for existing generic types.  
   
 ## See Also  
- [Inheritance](../Topic/Inheritance%20\(C%23%20Programming%20Guide\).md)   
- [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)   
+ [Inheritance](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)   
+ [Inheritance Basics](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)   
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [Visual C++ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)

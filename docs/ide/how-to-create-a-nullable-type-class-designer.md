@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Nullable Type (Class Designer)"
+title: "How to: Create a Nullable Type (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
  Class Designer displays a nullable type just as it displays its underlying type.  
   
- For more information about nullable types in Visual C#, see [Nullable Types](../Topic/Nullable%20Types%20\(C%23%20Programming%20Guide\).md). For more information about nullable types in Visual Basic, see [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md).  
+ For more information about nullable types in Visual C#, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index). For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types).  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
@@ -80,7 +80,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
 ## See Also  
  <xref:System.Nullable`1>   
- [Nullable Types](../Topic/Nullable%20Types%20\(C%23%20Programming%20Guide\).md)   
- [Using Nullable Types](../Topic/Using%20Nullable%20Types%20\(C%23%20Programming%20Guide\).md)   
+ [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
+ [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
  [How to: Identify a Nullable Type](../Topic/How%20to:%20Identify%20a%20Nullable%20Type%20\(C%23%20Programming%20Guide\).md)   
- [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md)
+ [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)

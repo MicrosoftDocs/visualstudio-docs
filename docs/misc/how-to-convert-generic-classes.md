@@ -1,7 +1,7 @@
 ---
-title: "How to: Convert Generic Classes"
+title: "How to: Convert Generic Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,4 +33,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Convert Generic Classes
-Content moved to [User-Defined Conversions (C++/CLI)](../Topic/User-Defined%20Conversions%20\(C++-CLI\).md)
+Content moved to [User-Defined Conversions (C++/CLI)](/visual-cpp/dotnet/user-defined-conversions-cpp-cli)

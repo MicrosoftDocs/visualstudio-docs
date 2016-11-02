@@ -1,7 +1,7 @@
 ---
-title: "Managing External Tools"
+title: "Managing External Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -84,7 +84,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
   
 1.  Create GUID: generates a GUID.  
   
-2.  Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](../Topic/ERRLOOK%20Reference.md).  
+2.  Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](/visual-cpp/build/reference/errlook-reference).  
   
 3.  ATL/MFC Trace Tool: shows debug trace messages in the ATL and MFC sources.  
   
@@ -132,4 +132,4 @@ You can call external tools from inside Visual Studio. A few default tools are a
 |Solution file name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|  
   
 ## See Also  
- [C/C++ Build Tools](../Topic/C-C++%20Build%20Tools.md)
+ [C/C++ Build Tools](/visual-cpp/build/reference/c-cpp-build-tools)

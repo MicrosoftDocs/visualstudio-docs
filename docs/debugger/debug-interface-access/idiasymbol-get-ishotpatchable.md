@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_isHotpatchable"
+title: "IDiaSymbol::get_isHotpatchable | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_isHotpatchable
-Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](../Topic/-hotpatch%20\(Create%20Hotpatchable%20Image\).md) compiler switch.  
+Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](/visual-cpp/build/reference/hotpatch-create-hotpatchable-image) compiler switch.  
   
 ## Syntax  
   

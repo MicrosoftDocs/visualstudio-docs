@@ -1,7 +1,7 @@
 ---
-title: "Application Lifecycle Management (ALM) with Xamarin apps"
+title: "Application Lifecycle Management (ALM) with Xamarin apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -91,7 +91,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
 ## Testing  
- Reference link: **[Testing the application](../Topic/Test%20apps%20early%20and%20often.md)**  
+ Reference link: **[Testing the application](/devops-test-docs/test/test-apps-early-and-often)**  
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  

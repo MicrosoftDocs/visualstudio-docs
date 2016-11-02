@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_noInline"
+title: "IDiaSymbol::get_noInline | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noInline
-Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](../Topic/noinline.md) attribute).  
+Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/visual-cpp/cpp/noinline) attribute).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noInline(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noinline](../Topic/noinline.md)
+ [noinline](/visual-cpp/cpp/noinline)

@@ -1,7 +1,7 @@
 ---
-title: "Defining Member Templates Outside a Class"
+title: "Defining Member Templates Outside a Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Defining Member Templates Outside a Class
-This content has been removed. For information about defining member templates outside a class, see [Member Function Templates](../Topic/Member%20Function%20Templates.md) and [Nested Class Templates](../Topic/Nested%20Class%20Templates.md).
+This content has been removed. For information about defining member templates outside a class, see [Member Function Templates](/visual-cpp/cpp/member-function-templates) and [Nested Class Templates](../Topic/Nested%20Class%20Templates.md).

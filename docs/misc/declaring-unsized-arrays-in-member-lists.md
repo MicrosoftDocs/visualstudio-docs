@@ -1,7 +1,7 @@
 ---
-title: "Declaring Unsized Arrays in Member Lists"
+title: "Declaring Unsized Arrays in Member Lists | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Declaring Unsized Arrays in Member Lists
-This content moved to  [Class Member Overview](../Topic/Class%20Member%20Overview.md)
+This content moved to  [Class Member Overview](/visual-cpp/cpp/class-member-overview)

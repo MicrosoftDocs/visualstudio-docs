@@ -1,7 +1,7 @@
 ---
-title: "21.1.1 Character Traits Requirements"
+title: "21.1.1 Character Traits Requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # 21.1.1 Character Traits Requirements
-This content has been removed. Please see [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md).
+This content has been removed. Please see [Nonstandard Behavior](/visual-cpp/cpp/nonstandard-behavior).

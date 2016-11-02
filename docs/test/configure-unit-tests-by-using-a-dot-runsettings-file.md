@@ -1,7 +1,7 @@
 ---
-title: "Configure unit tests by using a .runsettings file"
+title: "Configure unit tests by using a .runsettings file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 > [!NOTE]
 >  **.runsettings and .testsettings**  
 >   
->  There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](../Topic/Specifying%20Test%20Settings%20for%20Visual%20Studio%20Tests.md), web performance and load tests, and for customizing some types of diagnostic data adapters such as Intellitrace and event log adapters.  
+>  There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests), web performance and load tests, and for customizing some types of diagnostic data adapters such as Intellitrace and event log adapters.  
 >   
 >  In previous editions of Visual Studio up to 2010, unit tests were also customized by using *.testsettings files. You can still do that, but the tests will run more slowly than if you use the equivalent configurations in a \*.runsettings file.  
   
@@ -153,7 +153,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 #### Other diagnostic data adapters  
  The code coverage adapter is currently the only adapter that can be customized by using the run settings file.  
   
- To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](../Topic/Specifying%20Test%20Settings%20for%20Visual%20Studio%20Tests.md).  
+ To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).  
   
 #### TestRunParameters  
  TestRunParameters provides a way to define variables and values that are available to the tests at runtime.  
@@ -176,4 +176,4 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
   
 ## See Also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
- [Specifying Test Settings for Visual Studio Tests](../Topic/Specifying%20Test%20Settings%20for%20Visual%20Studio%20Tests.md)
+ [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests)

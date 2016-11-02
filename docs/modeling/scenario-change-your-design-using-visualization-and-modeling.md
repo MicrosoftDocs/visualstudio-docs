@@ -1,7 +1,7 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -371,7 +371,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Testing the application](../Topic/Test%20apps%20early%20and%20often.md)  
+-   [Testing the application](/devops-test-docs/test/test-apps-early-and-often)  
   
 -   [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   

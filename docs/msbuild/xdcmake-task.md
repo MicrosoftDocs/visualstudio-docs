@@ -1,7 +1,7 @@
 ---
-title: "XDCMake Task"
+title: "XDCMake Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.ht:
 # XDCMake Task
 Wraps the XML Documentation tool (xdcmake.exe), which merges XML document comment (.xdc) files into an .xml file.  
   
- An .xdc file is created when you provide documentation comments in your Visual C++ source code and compile by using the [/doc](../Topic/-doc%20\(Process%20Documentation%20Comments\)%20\(C-C++\).md) compiler option. For more information, see [XDCMake Reference](../Topic/XDCMake%20Reference.md), [XML Document Generator Tool Property Pages](../Topic/XML%20Document%20Generator%20Tool%20Property%20Pages.md), and command-line help option (**/?**) for xdcmake.exe.  
+ An .xdc file is created when you provide documentation comments in your Visual C++ source code and compile by using the [/doc](/visual-cpp/build/reference/doc-process-documentation-comments-c-cpp) compiler option. For more information, see [XDCMake Reference](/visual-cpp/ide/xdcmake-reference), [XML Document Generator Tool Property Pages](/visual-cpp/ide/xml-document-generator-tool-property-pages), and command-line help option (**/?**) for xdcmake.exe.  
   
 ## Remarks  
  By default, the xdcmake.exe tool supports a few command-line options. Additional options are supported when you specify the **/old** command-line option.  
@@ -52,14 +52,14 @@ Wraps the XML Documentation tool (xdcmake.exe), which merges XML document commen
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|**AdditionalDocumentFile**|Optional **String[]** parameter.<br /><br /> Specifies one or more additional .xdc files to merge.<br /><br /> For more information, see the **Additional Document Files** description in [XML Document Generator Tool Property Pages](../Topic/XML%20Document%20Generator%20Tool%20Property%20Pages.md). Also see the **/old** and **/Fs** command-line options for xdcmake.exe.|  
-|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of options as specified on the command line. For example, "*/option1 /option2 /option#*". Use this parameter to specify options that are not represented by any other **XDCMake** task parameter.<br /><br /> For more information, see [XDCMake Reference](../Topic/XDCMake%20Reference.md), [XML Document Generator Tool Property Pages](../Topic/XML%20Document%20Generator%20Tool%20Property%20Pages.md), and command-line help (**/?**) for xdcmake.exe.|  
-|**DocumentLibraryDependencies**|Optional **Boolean** parameter.<br /><br /> If `true` and the current project has a dependency on a static library (.lib) project in the solution, the .xdc files for that library project are included in the .xml file output for the current project.<br /><br /> For more information, see the **Document Library Dependencies** description in [XML Document Generator Tool Property Pages](../Topic/XML%20Document%20Generator%20Tool%20Property%20Pages.md).|  
-|**OutputFile**|Optional **String** parameter.<br /><br /> Overrides the default output file name. The default name is derived from the name of the first .xdc file that is processed.<br /><br /> For more information, see the **/out:**`filename` option in [XDCMake Reference](../Topic/XDCMake%20Reference.md). Also see the **/old** and **/Fo** command-line options for xdcmake.exe.|  
+|**AdditionalDocumentFile**|Optional **String[]** parameter.<br /><br /> Specifies one or more additional .xdc files to merge.<br /><br /> For more information, see the **Additional Document Files** description in [XML Document Generator Tool Property Pages](/visual-cpp/ide/xml-document-generator-tool-property-pages). Also see the **/old** and **/Fs** command-line options for xdcmake.exe.|  
+|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of options as specified on the command line. For example, "*/option1 /option2 /option#*". Use this parameter to specify options that are not represented by any other **XDCMake** task parameter.<br /><br /> For more information, see [XDCMake Reference](/visual-cpp/ide/xdcmake-reference), [XML Document Generator Tool Property Pages](/visual-cpp/ide/xml-document-generator-tool-property-pages), and command-line help (**/?**) for xdcmake.exe.|  
+|**DocumentLibraryDependencies**|Optional **Boolean** parameter.<br /><br /> If `true` and the current project has a dependency on a static library (.lib) project in the solution, the .xdc files for that library project are included in the .xml file output for the current project.<br /><br /> For more information, see the **Document Library Dependencies** description in [XML Document Generator Tool Property Pages](/visual-cpp/ide/xml-document-generator-tool-property-pages).|  
+|**OutputFile**|Optional **String** parameter.<br /><br /> Overrides the default output file name. The default name is derived from the name of the first .xdc file that is processed.<br /><br /> For more information, see the **/out:**`filename` option in [XDCMake Reference](/visual-cpp/ide/xdcmake-reference). Also see the **/old** and **/Fo** command-line options for xdcmake.exe.|  
 |**ProjectName**|Optional **String** parameter.<br /><br /> The name of the current project.|  
 |**SlashOld**|Optional **Boolean** parameter.<br /><br /> If `true`, enables additional xdcmake.exe options.<br /><br /> For more information, see the **/old** command-line option for xdcmake.exe.|  
 |**Sources**|Required `ITaskItem[]` parameter.<br /><br /> Defines an array of MSBuild source file items that can be consumed and emitted by tasks.|  
-|**SuppressStartupBanner**|Optional **Boolean** parameter.<br /><br /> If `true`, prevents the display of the copyright and version number message when the task starts.<br /><br /> For more information, see the **/nologo** option in [XDCMake Reference](../Topic/XDCMake%20Reference.md).|  
+|**SuppressStartupBanner**|Optional **Boolean** parameter.<br /><br /> If `true`, prevents the display of the copyright and version number message when the task starts.<br /><br /> For more information, see the **/nologo** option in [XDCMake Reference](/visual-cpp/ide/xdcmake-reference).|  
 |**TrackerLogDirectory**|Optional **String** parameter.<br /><br /> Specifies the directory for the tracker log.|  
   
 ## See Also  

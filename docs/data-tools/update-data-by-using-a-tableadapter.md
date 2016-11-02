@@ -1,5 +1,5 @@
 ---
-title: "Update data by using a TableAdapter"
+title: "Update data by using a TableAdapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

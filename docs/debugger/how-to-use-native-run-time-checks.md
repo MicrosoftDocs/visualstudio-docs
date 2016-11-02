@@ -1,7 +1,7 @@
 ---
-title: "How to: Use Native Run-Time Checks"
+title: "How to: Use Native Run-Time Checks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use Native Run-Time Checks
-In Visual C++, you can use native [runtime_checks](../Topic/runtime_checks.md) to catch common run-time errors such as:  
+In Visual C++, you can use native [runtime_checks](/visual-cpp/preprocessor/runtime-checks) to catch common run-time errors such as:  
   
 -   Stack pointer corruption.  
   
@@ -96,5 +96,5 @@ In Visual C++, you can use native [runtime_checks](../Topic/runtime_checks.md) t
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [runtime_checks](../Topic/runtime_checks.md)   
- [Run-Time Error Checking](../Topic/Run-Time%20Error%20Checking.md)
+ [runtime_checks](/visual-cpp/preprocessor/runtime-checks)   
+ [Run-Time Error Checking](/visual-cpp/c-runtime-library/run-time-error-checking)

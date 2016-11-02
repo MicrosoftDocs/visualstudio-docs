@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_isSafeBuffers"
+title: "IDiaSymbol::get_isSafeBuffers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,4 +65,4 @@ HRESULT get_isSafeBuffers( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [strict_gs_check](../Topic/strict_gs_check.md)
+ [strict_gs_check](/visual-cpp/preprocessor/strict-gs-check)

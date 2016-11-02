@@ -1,7 +1,7 @@
 ---
-title: "C++ Operators"
+title: "C++ Operators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # C++ Operators
-The content on this page has been moved to the following page: [C++ Built-in Operators, Precedence and Associativity](../Topic/C++%20Built-in%20Operators,%20Precedence%20and%20Associativity.md).
+The content on this page has been moved to the following page: [C++ Built-in Operators, Precedence and Associativity](/visual-cpp/cpp/cpp-built-in-operators-precedence-and-associativity).

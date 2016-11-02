@@ -1,7 +1,7 @@
 ---
-title: "Pointer-to-Member Conversions"
+title: "Pointer-to-Member Conversions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Pointer-to-Member Conversions
-This content has moved to [Standard Conversions](../Topic/Standard%20Conversions.md).
+This content has moved to [Standard Conversions](/visual-cpp/cpp/standard-conversions).

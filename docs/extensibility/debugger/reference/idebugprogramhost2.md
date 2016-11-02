@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramHost2"
+title: "IDebugProgramHost2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugProgramHost2 : IUnknown
  The debug engine implements this interface on the same object as the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to provide information about the hosting process. This is an optional interface.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProgram2` interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgram2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramHost2`.  

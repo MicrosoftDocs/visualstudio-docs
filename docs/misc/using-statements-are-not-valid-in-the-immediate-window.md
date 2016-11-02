@@ -1,5 +1,5 @@
 ---
-title: "&#39;Using&#39; statements are not valid in the Immediate window"
+title: "&#39;Using&#39; statements are not valid in the Immediate window | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -45,6 +45,6 @@ translation.priority.mt:
 -   Remove the `Using` statement from the **Immediate** window.  
   
 ## See Also  
- [Using Statement](../Topic/Using%20Statement%20\(Visual%20Basic\).md)   
+ [Using Statement](/dotnet/visual-basic/language-reference/statements/using-statement)   
  [Immediate Window](../ide/reference/immediate-window.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

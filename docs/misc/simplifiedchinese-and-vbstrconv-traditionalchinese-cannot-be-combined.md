@@ -1,5 +1,5 @@
 ---
-title: "SimplifiedChinese and VbStrConv.TraditionalChinese cannot be combined"
+title: "SimplifiedChinese and VbStrConv.TraditionalChinese cannot be combined | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

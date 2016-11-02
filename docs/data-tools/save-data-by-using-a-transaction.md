@@ -1,5 +1,5 @@
 ---
-title: "Save data by using a transaction"
+title: "Save data by using a transaction | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -46,7 +46,7 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
 > [!NOTE]
 >  The <xref:System.Transactions> namespace is supported in Windows 2000 or later.  
   
- The easiest way to implement a transaction is to instantiate a <xref:System.Transactions.TransactionScope> object in a `using` statement. (For more information, see [Using Statement](../Topic/Using%20Statement%20\(Visual%20Basic\).md), and [using Statement](../Topic/using%20Statement%20\(C%23%20Reference\).md).) The code that runs within the `using` statement participates in the transaction.  
+ The easiest way to implement a transaction is to instantiate a <xref:System.Transactions.TransactionScope> object in a `using` statement. (For more information, see [Using Statement](/dotnet/visual-basic/language-reference/statements/using-statement), and [using Statement](/dotnet/csharp/language-reference/keywords/using-statement).) The code that runs within the `using` statement participates in the transaction.  
   
  To commit the transaction, call the <xref:System.Transactions.TransactionScope.Complete*> method as the last statement in the using block.  
   

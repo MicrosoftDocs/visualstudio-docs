@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Activities to the Toolbox (Legacy)"
+title: "How to: Add Activities to the Toolbox (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

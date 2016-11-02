@@ -1,7 +1,7 @@
 ---
-title: "Default Initialization of Scalar Types"
+title: "Default Initialization of Scalar Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Default Initialization of Scalar Types
-This content has been removed. For more information, see [Initializers](../Topic/Initializers.md)
+This content has been removed. For more information, see [Initializers](/visual-cpp/cpp/initializers)

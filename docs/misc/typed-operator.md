@@ -1,7 +1,7 @@
 ---
-title: "typed operator"
+title: "typed operator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,4 +40,4 @@ The `typeid` operator is supported in both ISO C++ and in C++ Component Extensio
   
  [typeid (ISO C++)](http://msdn.microsoft.com/en-us/3dbe7b36-124e-49ba-8570-ec3cc92b2595)  
   
- [typeid](../Topic/typeid%20%20\(C++%20Component%20Extensions\).md)
+ [typeid](/visual-cpp/windows/typeid-cpp-component-extensions)

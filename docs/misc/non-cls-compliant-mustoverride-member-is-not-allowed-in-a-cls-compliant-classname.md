@@ -1,5 +1,5 @@
 ---
-title: "Non-CLS-compliant &#39;MustOverride&#39; member is not allowed in a CLS-compliant &lt;classname&gt;"
+title: "Non-CLS-compliant &#39;MustOverride&#39; member is not allowed in a CLS-compliant &lt;classname&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -57,5 +57,5 @@ A class is marked as `<CLSCompliant(True)>`, but it contains a `MustOverride` pr
 -   If you require that this member remain noncompliant, remove the `MustOverride` keyword from its definition, remove the <xref:System.CLSCompliantAttribute> from the class definition, or mark the class as `<CLSCompliant(False)>`.  
   
 ## See Also  
- [MustOverride](../Topic/MustOverride%20\(Visual%20Basic\).md)   
+ [MustOverride](/dotnet/visual-basic/language-reference/modifiers/mustoverride)   
  [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

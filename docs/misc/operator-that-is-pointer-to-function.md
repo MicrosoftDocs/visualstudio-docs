@@ -1,7 +1,7 @@
 ---
-title: "Operator That is Pointer to Function"
+title: "Operator That is Pointer to Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Operator That is Pointer to Function
-This content has been removed. For information, see [Overloading the Function Call Operator](../Topic/Function%20Call%20\(C++\).md).  
+This content has been removed. For information, see [Overloading the Function Call Operator](/visual-cpp/cpp/function-call-cpp).  
   
 ```  
 // operator_that_is_pointer_to_function.cpp  

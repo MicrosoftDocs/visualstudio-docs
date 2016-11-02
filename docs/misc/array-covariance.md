@@ -1,7 +1,7 @@
 ---
-title: "Array Covariance"
+title: "Array Covariance | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -87,4 +87,4 @@ int main() {
 ```  
   
 ## See Also  
- [Arrays](../Topic/Arrays%20\(C++%20Component%20Extensions\).md)
+ [Arrays](/visual-cpp/windows/arrays-cpp-component-extensions)

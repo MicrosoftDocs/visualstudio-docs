@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a TableAdapter with Multiple Queries"
+title: "Walkthrough: Creating a TableAdapter with Multiple Queries | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

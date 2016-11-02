@@ -1,5 +1,5 @@
 ---
-title: "Object created by Edit and Continue is not yet available for evaluation"
+title: "Object created by Edit and Continue is not yet available for evaluation | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

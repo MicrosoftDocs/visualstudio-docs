@@ -1,7 +1,7 @@
 ---
-title: "Breaking Changes in Visual C++ 2015 Update 2"
+title: "Breaking Changes in Visual C++ 2015 Update 2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ translation.priority.mt:
 # Breaking Changes in Visual C++ 2015 Update 2
 When you upgrade to Visual C++ 2015 Update 2 CTP you might encounter compilation and/or runtime errors in code that previously compiled and ran correctly. Changes in compiler or runtime behavior that cause such problems are known as *breaking changes*, and typically they're required by modifications in the C++ language standard, function signatures, or the layout of objects in memory.  
   
- The rest of this article describes specific breaking changes in Visual C++ 2015 Update 2 CTP, and in this article the terms "new behavior" or "now" refer to that version. The terms "old behavior" and "previous" refer to Visual C++ 2015 Update 1 and earlier releases. For information on breaking changes that occurred between the initial release of Visual C++ 2015 and Visual C++ 2015 Update 1, see [Breaking Changes in Update 1](../misc/breaking-changes-in-visual-cpp-2015-update-1.md). For information on breaking changes that occurred between Visual C++ 2013 and Visual C++ 2015, see [Visual C++ change history 2003 - 2015](../Topic/Visual%20C++%20change%20history%202003%20-%2020151.md).  
+ The rest of this article describes specific breaking changes in Visual C++ 2015 Update 2 CTP, and in this article the terms "new behavior" or "now" refer to that version. The terms "old behavior" and "previous" refer to Visual C++ 2015 Update 1 and earlier releases. For information on breaking changes that occurred between the initial release of Visual C++ 2015 and Visual C++ 2015 Update 1, see [Breaking Changes in Update 1](../misc/breaking-changes-in-visual-cpp-2015-update-1.md). For information on breaking changes that occurred between Visual C++ 2013 and Visual C++ 2015, see [Visual C++ change history 2003 - 2015](/visual-cpp/porting/visual-cpp-change-history-2003-20151).  
   
 -   [Compiler Breaking Changes](#BK_compiler)  
   

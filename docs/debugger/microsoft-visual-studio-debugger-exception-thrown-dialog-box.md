@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box"
+title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,4 +58,4 @@ An exception has occurred in your program. This dialog box reports the kind of e
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
  [Best Practices for Exceptions](../Topic/Best%20Practices%20for%20Exceptions.md)   
- [Exception Handling](../Topic/Exception%20Handling%20%20\(C++%20Component%20Extensions\).md)
+ [Exception Handling](/visual-cpp/windows/exception-handling-cpp-component-extensions)

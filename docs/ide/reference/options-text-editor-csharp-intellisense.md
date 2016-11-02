@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, C#, IntelliSense"
+title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,10 +51,10 @@ Use the **IntelliSense** property page to modify settings that affect the behavi
  When this option is selected, IntelliSense automatically displays the completion list when you begin typing. When this option is not selected, IntelliSense completion is still available from the **IntelliSense** menu or by pressing CTRL+SPACE.  
   
  **Place keywords in completion lists**  
- When this option is selected, IntelliSense adds C# keywords, for example, [class](../Topic/class%20\(C%23%20Reference\).md), to the completion list.  
+ When this option is selected, IntelliSense adds C# keywords, for example, [class](/dotnet/csharp/language-reference/keywords/class), to the completion list.  
   
  **Place code snippets in completion lists**  
- When this option is selected, IntelliSense adds aliases for C# code snippets to the completion list. In the case where the code snippet alias is the same as a keyword, for example, [class](../Topic/class%20\(C%23%20Reference\).md), the keyword is replaced by the shortcut. For more information, see [Visual C# Code Snippets](../../ide/visual-csharp-code-snippets.md).  
+ When this option is selected, IntelliSense adds aliases for C# code snippets to the completion list. In the case where the code snippet alias is the same as a keyword, for example, [class](/dotnet/csharp/language-reference/keywords/class), the keyword is replaced by the shortcut. For more information, see [Visual C# Code Snippets](../../ide/visual-csharp-code-snippets.md).  
   
 ## Selection in Completion Lists  
  **Committed by typing the following characters:**  
@@ -82,5 +82,5 @@ Use the **IntelliSense** property page to modify settings that affect the behavi
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
- [XML Documentation Comments](../Topic/XML%20Documentation%20Comments%20\(C%23%20Programming%20Guide\).md)   
+ [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   
  [Using IntelliSense](../../ide/using-intellisense.md)

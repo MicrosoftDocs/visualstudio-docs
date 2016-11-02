@@ -1,7 +1,7 @@
 ---
-title: "CA2002: Do not lock on objects with weak identity"
+title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -84,5 +84,5 @@ translation.priority.mt:
 ## See Also  
  <xref:System.Threading.Monitor>   
  <xref:System.AppDomain>   
- [lock Statement](../Topic/lock%20Statement%20\(C%23%20Reference\).md)   
- [SyncLock Statement](../Topic/SyncLock%20Statement.md)
+ [lock Statement](/dotnet/csharp/language-reference/keywords/lock-statement)   
+ [SyncLock Statement](/dotnet/visual-basic/language-reference/statements/synclock-statement)

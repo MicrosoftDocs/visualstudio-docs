@@ -1,5 +1,5 @@
 ---
-title: "Construct makes an indirect reference to project &#39;&lt;projectname&gt;&#39;, which contains &#39;&lt;typename&gt;&#39;"
+title: "Construct makes an indirect reference to project &#39;&lt;projectname&gt;&#39;, which contains &#39;&lt;typename&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

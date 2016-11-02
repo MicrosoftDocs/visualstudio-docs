@@ -1,5 +1,5 @@
 ---
-title: "The connection property in the Application Settings file is missing or incorrect"
+title: "The connection property in the Application Settings file is missing or incorrect | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

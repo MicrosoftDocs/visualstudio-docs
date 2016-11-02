@@ -1,5 +1,5 @@
 ---
-title: "Dataset tools in Visual Studio"
+title: "Dataset tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"

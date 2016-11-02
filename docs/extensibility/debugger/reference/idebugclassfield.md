@@ -1,7 +1,7 @@
 ---
-title: "IDebugClassField"
+title: "IDebugClassField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugClassField : IDebugContainerField
  A symbol provider implements this interface on the same object that implements the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface. This interface is a specialization that represents a class type.  
   
 ## Notes for Callers  
- A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](../Topic/QueryInterface.md) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
+ A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) and [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interfaces, this interface implements the following:  

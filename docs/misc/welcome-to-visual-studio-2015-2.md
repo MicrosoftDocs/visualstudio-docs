@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Visual Studio 2015 (2)"
+title: "Welcome to Visual Studio 2015 (2) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/02/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 5
 |||||  
 |-|-|-|-|  
 |![HomePageTools&#95;VS2015](../misc/media/homepagetools_vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../cross-platform/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud_vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages_vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
-|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
+|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](/visual-cpp/top/visual-cpp-in-visual-studio-2015), [C#](/dotnet/csharp/csharp), [VB](/dotnet/visual-basic/index), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
   
  Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one IDE. Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
   
@@ -23,7 +23,7 @@ caps.latest.revision: 5
   
  And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly!  
   
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md).  
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md).  
   
 ## Extend Visual Studio  
  Add your own Visual Studio extension to include a tool or script that you often use while coding. You can create custom menu items and tool windows to integrate your own tools into the Visual Studio IDE. You can extend the Visual Studio editor to analyze and fix code, or add a new project type to include just what you need.  
@@ -83,15 +83,15 @@ caps.latest.revision: 5
   
 |||||  
 |-|-|-|-|  
-|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
-|[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
+|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](/dotnet/csharp/getting-started/whats-new-for-visual-csharp)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
+|[What’s new for C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2015)|[What's New for Visual Basic](/dotnet/visual-basic/getting-started/whats-new)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
 |[Python](../python/getting-started-with-python.md)||||  
   
 ## In this section  
   
 1.  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)  
   
-2.  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)  
+2.  [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)  
   
 3.  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)  
   
@@ -103,7 +103,7 @@ caps.latest.revision: 5
   
 7.  [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
   
-8.  [Visual C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md)  
+8.  [Visual C++](/visual-cpp/top/visual-cpp-in-visual-studio-2015)  
   
 9. [JavaScript](../javascript/javascript-in-visual-studio.md)  
   

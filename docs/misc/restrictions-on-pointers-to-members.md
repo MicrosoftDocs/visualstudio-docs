@@ -1,7 +1,7 @@
 ---
-title: "Restrictions on Pointers to Members"
+title: "Restrictions on Pointers to Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Restrictions on Pointers to Members
-This content has moved to [Pointers to Members](../Topic/Pointers%20to%20Members.md).
+This content has moved to [Pointers to Members](/visual-cpp/cpp/pointers-to-members).

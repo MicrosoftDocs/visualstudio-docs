@@ -1,7 +1,7 @@
 ---
-title: "Compiler-Generated Copying"
+title: "Compiler-Generated Copying | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,4 +42,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Compiler-Generated Copying
-Moved content to [Copy Constructors and Copy Assignment Operators](../Topic/Copy%20Constructors%20and%20Copy%20Assignment%20Operators%20\(C++\).md)
+Moved content to [Copy Constructors and Copy Assignment Operators](/visual-cpp/cpp/copy-constructors-and-copy-assignment-operators-cpp)

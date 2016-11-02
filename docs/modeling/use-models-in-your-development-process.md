@@ -1,7 +1,7 @@
 ---
-title: "Use models in your development process"
+title: "Use models in your development process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -97,7 +97,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 -   Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.  
   
--   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../modeling/includes/tcmext_md.md)].  
+-   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)].  
   
 -   In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.  
   

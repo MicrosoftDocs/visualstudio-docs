@@ -1,7 +1,7 @@
 ---
-title: "How new Works"
+title: "How new Works | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How new Works
-This content has moved [new Operator](../Topic/new%20Operator%20\(C++\).md).
+This content has moved [new Operator](/visual-cpp/cpp/new-operator-cpp).

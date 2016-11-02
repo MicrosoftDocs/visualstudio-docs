@@ -1,7 +1,7 @@
 ---
-title: "Grammar Summary (C++)"
+title: "Grammar Summary (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Grammar Summary (C++)
-This content has been removed. For information about C++ syntax, see [C++ Language Reference](../Topic/C++%20Language%20Reference.md)
+This content has been removed. For information about C++ syntax, see [C++ Language Reference](/visual-cpp/cpp/cpp-language-reference)

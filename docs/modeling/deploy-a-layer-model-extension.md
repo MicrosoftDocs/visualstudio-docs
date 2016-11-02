@@ -1,7 +1,7 @@
 ---
-title: "Deploy a layer model extension"
+title: "Deploy a layer model extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,11 +53,11 @@ Other users of Visual Studio can install layer modeling extensions that you crea
 2.  Click the name of the extension and then click **Uninstall**.  
   
 ## Installing an Extension on a Team Foundation Build Server  
- [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] servers do not normally have Visual Studio installed, and so you cannot install the VSIX by double-clicking it. The installation of [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] includes some components that allow a VSIX extension to run, but you must install the extension manually.  
+ [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] servers do not normally have Visual Studio installed, and so you cannot install the VSIX by double-clicking it. The installation of [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] includes some components that allow a VSIX extension to run, but you must install the extension manually.  
   
-#### To install your layer extension on a [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] Server  
+#### To install your layer extension on a [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] Server  
   
-1.  Copy the **.vsix** files from your development computer to the [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] computer.  
+1.  Copy the **.vsix** files from your development computer to the [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] computer.  
   
      Place the VSIX file in one of the following locations:  
   
@@ -65,11 +65,11 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
          %ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft  
   
-    -   To install only for the network service that runs [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)]:  
+    -   To install only for the network service that runs [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)]:  
   
          %WinDir%\ServiceProfiles\NetworkService\AppData\Local\Microsoft\VisualStudio\\[version]\Extensions\Microsoft  
   
-    -   If you have configured [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] to run in interactive mode as a particular user, you can install just for that user:  
+    -   If you have configured [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] to run in interactive mode as a particular user, you can install just for that user:  
   
          %LocalAppData%\Microsoft\VisualStudio\\[version]\Extensions\Microsoft  
   
@@ -84,4 +84,4 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
     3.  Delete the .zip file  
   
-3.  Restart [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)].
+3.  Restart [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)].

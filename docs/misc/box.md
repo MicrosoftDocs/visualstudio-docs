@@ -1,7 +1,7 @@
 ---
-title: "__box"
+title: "__box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.mt:
 ---
 # __box
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Boxing](../Topic/Boxing%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Boxing](/visual-cpp/windows/boxing-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Creates a managed copy of a __value class object.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Visual C++ Enumerations in Class Designer"
+title: "Visual C++ Enumerations in Class Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,8 +54,8 @@ enum class CardSuit {
   
  A C++ enumeration shape in a class diagram looks and works like a structure shape, except that the label reads **Enum** or **Enum class**, it is pink instead of blue, and it has a colored border on the left and top margins. Both enumeration shapes and structure shapes have square corners.  
   
- For more information about using the `enum` type, see [Enumerations](../Topic/Enumerations%20\(C++\).md).  
+ For more information about using the `enum` type, see [Enumerations](/visual-cpp/cpp/enumerations-cpp).  
   
 ## See Also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [Enumerations](../Topic/Enumerations%20\(C++\).md)
+ [Enumerations](/visual-cpp/cpp/enumerations-cpp)

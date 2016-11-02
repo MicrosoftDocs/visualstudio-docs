@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_hasSecurityChecks"
+title: "IDiaSymbol::get_hasSecurityChecks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_hasSecurityChecks
-Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](../Topic/-GS%20\(Buffer%20Security%20Check\).md) compiler switch).  
+Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check) compiler switch).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_hasSecurityChecks(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/GS (Buffer Security Check)](../Topic/-GS%20\(Buffer%20Security%20Check\).md)
+ [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check)

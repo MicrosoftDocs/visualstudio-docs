@@ -1,7 +1,7 @@
 ---
-title: "IPropertyProxyProvider"
+title: "IPropertyProxyProvider | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IPropertyProxyProvider : IUnknown
  The expression evaluator (EE) implements this interface on the same object that implements the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface as part of the EE's support of type visualizers.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProperty3` interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProperty3` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  The `IPropertyProxyProvider` interface implements the following method:  

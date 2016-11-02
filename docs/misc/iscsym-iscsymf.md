@@ -1,7 +1,7 @@
 ---
-title: "iscsym, iscsymf"
+title: "iscsym, iscsymf | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,4 +46,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # iscsym, iscsymf
-These POSIX functions are deprecated. Use the ISO C++ conformant [iscsym, iscsymf, __iscsym, \__iswcsym, \__iscsymf, \__iswcsymf, _iscsym_l, _iswcsym_l, _iscsymf_l, _iswcsymf_l](../Topic/iscsym,%20iscsymf,%20__iscsym,%20__iswcsym,%20__iscsymf,%20__iswcsymf,%20_iscsym_l,%20_iswcsym_l,%20_iscsymf_l,%20_iswcsymf_l.md) instead.
+These POSIX functions are deprecated. Use the ISO C++ conformant [iscsym, iscsymf, __iscsym, \__iswcsym, \__iscsymf, \__iswcsymf, _iscsym_l, _iswcsym_l, _iscsymf_l, _iswcsymf_l](/visual-cpp/c-runtime-library/reference/iscsym-functions) instead.

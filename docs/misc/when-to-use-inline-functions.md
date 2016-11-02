@@ -1,7 +1,7 @@
 ---
-title: "When to Use Inline Functions"
+title: "When to Use Inline Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # When to Use Inline Functions
-This content has moved to [Inline Functions](../Topic/Inline%20Functions%20\(C++\).md).
+This content has moved to [Inline Functions](/visual-cpp/cpp/inline-functions-cpp).

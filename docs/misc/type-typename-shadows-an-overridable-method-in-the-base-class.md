@@ -1,5 +1,5 @@
 ---
-title: "&lt;type&gt; &#39;&lt;typename&gt;&#39; shadows an overridable method in the base class"
+title: "&lt;type&gt; &#39;&lt;typename&gt;&#39; shadows an overridable method in the base class | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -54,6 +54,6 @@ translation.priority.mt:
   
 ## See Also  
  [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)   
- [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)   
- [Overrides](../Topic/Overrides%20\(Visual%20Basic\).md)   
- [Shadows](../Topic/Shadows%20\(Visual%20Basic\).md)
+ [Shadowing in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/declared-elements/shadowing)   
+ [Overrides](/dotnet/visual-basic/language-reference/modifiers/overrides)   
+ [Shadows](/dotnet/visual-basic/language-reference/modifiers/shadows)

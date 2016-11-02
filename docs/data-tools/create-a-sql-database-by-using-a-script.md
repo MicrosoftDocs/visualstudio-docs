@@ -1,5 +1,5 @@
 ---
-title: "Create a SQL database by using a script"
+title: "Create a SQL database by using a script | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"

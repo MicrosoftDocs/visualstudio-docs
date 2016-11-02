@@ -1,5 +1,5 @@
 ---
-title: "Create lookup tables in WPF applications"
+title: "Create lookup tables in WPF applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

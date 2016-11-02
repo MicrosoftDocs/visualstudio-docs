@@ -1,7 +1,7 @@
 ---
-title: "Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis"
+title: "Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -103,7 +103,7 @@ translation.priority.ht:
   
  ![Search and filter the code analysis window](../test/media/ca_searchfilter.png "CA_SearchFilter")  
   
- In [!INCLUDE[vs_dev11_expwin_long](../porting/includes/vs_dev11_expwin_long_md.md)], all code analysis warnings have the severity level of Warning.  
+ In [!INCLUDE[vs_dev11_expwin_long](../misc/includes/vs_dev11_expwin_long_md.md)], all code analysis warnings have the severity level of Warning.  
   
 ##  <a name="BKMK_Warnings"></a> Visual Basic and C# code analysis warnings  
  Code analysis raises the following warnings:  

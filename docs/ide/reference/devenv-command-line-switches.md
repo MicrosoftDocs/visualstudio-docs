@@ -1,7 +1,7 @@
 ---
-title: "Devenv Command Line Switches"
+title: "Devenv Command Line Switches | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -87,7 +87,7 @@ Devenv lets you set various options for the integrated development environment (
 |[/Log (devenv.exe)](../../ide/reference/log-devenv-exe.md)|Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and logs all activity to the log file.|  
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|Compiles and runs the specified solution.|  
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|  
-|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](../Topic/Setting%20the%20Path%20and%20Environment%20Variables%20for%20Command-Line%20Builds.md)|  
+|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/visual-cpp/build/setting-the-path-and-environment-variables-for-command-line-builds)|  
 |[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it will start a new instance with a simplified window layout.|  
 |[/ResetAddin (devenv.exe)](../../ide/reference/resetaddin-devenv-exe.md)|Starts an instance of the Visual Studio IDE without loading the specified Add-in.|  
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|  

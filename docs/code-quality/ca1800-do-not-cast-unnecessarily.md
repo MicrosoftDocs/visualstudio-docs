@@ -1,7 +1,7 @@
 ---
-title: "CA1800: Do not cast unnecessarily"
+title: "CA1800: Do not cast unnecessarily | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,5 +70,5 @@ translation.priority.mt:
  [!code-cs[FxCop.Performance.UnnecessaryCasts#1](../code-quality/codesnippet/CSharp/ca1800-do-not-cast-unnecessarily_2.cs)]  
   
 ## See Also  
- [as](../Topic/as%20\(C%23%20Reference\).md)   
- [is](../Topic/is%20\(C%23%20Reference\).md)
+ [as](/dotnet/csharp/language-reference/keywords/as)   
+ [is](/dotnet/csharp/language-reference/keywords/is)

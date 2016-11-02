@@ -1,5 +1,5 @@
 ---
-title: "Add new data sources"
+title: "Add new data sources | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

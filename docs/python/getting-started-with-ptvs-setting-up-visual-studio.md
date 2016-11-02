@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with PTVS: Setting up Visual Studio"
+title: "Getting Started with PTVS: Setting up Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec491c1d-bdb2-4c2b-a390-bd808cec635a
-caps.latest.revision: 4
+caps.latest.revision: 5
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +39,7 @@ Installing PTVS and related libraries is quick if you have Visual Studio.  If yo
   
  Once you've installed Visual Studio, you'll need to [install PTVS](http://pytools.codeplex.com/wikipage?title=PTVS%20Installation).  This is a free, standalone extension that's fully supported by Microsoft and developed openly with contributions from the community.  
   
- Now you need to [install Python](http://python.org/download/).  Python is completely maintained by the community, and its home page is python.org.  Continuum Analytics produces a free bundle called Anaconda that has Python and many useful libraries (especially for science and data processing), and Enthought releases Canopy which is a similar bundle.  You only need to install one of these.  If you're not sure which one, start with [Anaconda](http://continuum.io/downloads), which gives you the most up-to-date Python and most of the difficult-to-install packages.  
+ Now you need to [install Python](http://python.org/download/).  Python is completely maintained by the community, and its home page is python.org.  Continuum Analytics produces a free bundle called Anaconda that has Python and many useful libraries (especially for science and data processing), and Enthought releases Canopy which is a similar bundle.  You only need to install one of these.  If you're not sure which one, start with [Anaconda](https://www.continuum.io/downloads), which gives you the most up-to-date Python and most of the difficult-to-install packages.  
   
  Start Visual Studio and make sure everything is working.  Under the View menu, choose Other Windows.  You see an item called Python Environments.  This window shows all of the Python installations PTVS detected and all of the packages you have installed.  The window also controls the database refresh for showing completions when you are editing code.  This refresh process takes some time and a lot of CPU and memory, but once it's done PTVS can show more helpful information about packages.  
   

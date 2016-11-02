@@ -1,7 +1,7 @@
 ---
-title: "Order of Evaluation"
+title: "Order of Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Order of Evaluation
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md)
+This content has moved [Semantics of Expressions](/visual-cpp/cpp/semantics-of-expressions)

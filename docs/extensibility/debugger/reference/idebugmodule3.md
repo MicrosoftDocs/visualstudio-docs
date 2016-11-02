@@ -1,7 +1,7 @@
 ---
-title: "IDebugModule3"
+title: "IDebugModule3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugModule3 : IDebugModule2
  The debug engine (DE) implements this interface to support alternate locations of symbols and to work with JustMyCode states (see the [Visual Studio Debugger Glossary](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md) for a definition of "JustMyCode").  
   
 ## Notes for Callers  
- A call to [GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) returns this interface. The DE sends the [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) interface to the session debug manager (SDM) using the [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) method. Also, a call to [QueryInterface](../Topic/QueryInterface.md) on an [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) interface returns this interface.  
+ A call to [GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) returns this interface. The DE sends the [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) interface to the session debug manager (SDM) using the [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) method. Also, a call to [QueryInterface](/visual-cpp/atl/queryinterface) on an [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) interface returns this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) interface, this interface implements the following methods:  

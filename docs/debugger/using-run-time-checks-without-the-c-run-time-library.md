@@ -1,7 +1,7 @@
 ---
-title: "Using Run-Time Checks Without the C Run-Time Library"
+title: "Using Run-Time Checks Without the C Run-Time Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,7 +77,7 @@ extern "C" _RTC_error_fnW __cdecl _CRT_RTC_INITW(
 }  
 ```  
   
- After you have installed the default error reporting function, you can install additional error reporting functions with `_RTC_SetErrorFuncW`. For more information, see [_RTC_SetErrorFuncW](../Topic/_RTC_SetErrorFuncW.md).  
+ After you have installed the default error reporting function, you can install additional error reporting functions with `_RTC_SetErrorFuncW`. For more information, see [_RTC_SetErrorFuncW](/visual-cpp/c-runtime-library/reference/rtc-seterrorfuncw).  
   
 ## See Also  
  [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)

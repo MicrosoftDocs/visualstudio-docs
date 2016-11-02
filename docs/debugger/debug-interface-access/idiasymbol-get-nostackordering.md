@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_noStackOrdering"
+title: "IDiaSymbol::get_noStackOrdering | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noStackOrdering
-This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](../Topic/-GS%20\(Buffer%20Security%20Check\).md) compiler option).  
+This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check) compiler option).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noStackOrdering(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/GS (Buffer Security Check)](../Topic/-GS%20\(Buffer%20Security%20Check\).md)
+ [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check)

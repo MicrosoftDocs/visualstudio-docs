@@ -1,7 +1,7 @@
 ---
-title: "How to: Use the Call Stack Window"
+title: "How to: Use the Call Stack Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "aspx"
 helpviewer_keywords: 
   - "threading [Visual Studio], displaying calls to or from"
@@ -33,7 +30,7 @@ helpviewer_keywords:
   - "stack, switching stack frames"
   - "Call Stack window, viewing disassembly code for functions on the call stack"
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
-caps.latest.revision: 38
+caps.latest.revision: 40
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -113,11 +110,11 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To run to a specific function from the Call Stack window  
   
--   See [Run to a specified location or function](../debugger/navigating-through-code-with-the-debugger.md#BKMK_Run_to_a_specified_location_or_function).  
+-  In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
   
 ### To set a breakpoint on the exit point of a function call  
   
--   See [Set a breakpoint at a source line, assembly instruction, or call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_at_a_source_line__assembly_instruction__or_call_stack_function_).  
+-   See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).  
   
 ### To load symbols for a module  
   

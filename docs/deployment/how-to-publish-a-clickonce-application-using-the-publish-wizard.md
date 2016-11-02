@@ -1,7 +1,7 @@
 ---
-title: "How to: Publish a ClickOnce Application using the Publish Wizard"
+title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -114,4 +114,4 @@ To make a ClickOnce application available to users, you must publish it to a fil
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Deploying an Office Solution by Using ClickOnce](../Topic/Deploying%20an%20Office%20Solution%20by%20Using%20ClickOnce.md)
+ [Deploying an Office Solution by Using ClickOnce](/office-dev/office-dev/deploying-an-office-solution-by-using-clickonce)

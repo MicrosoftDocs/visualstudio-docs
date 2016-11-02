@@ -1,7 +1,7 @@
 ---
-title: "How to: Associate Delegates to Members of a Value Class"
+title: "How to: Associate Delegates to Members of a Value Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,4 +41,4 @@ translation.priority.mt:
 ### Output  
   
 ## See Also  
- [delegate  (C++ Component Extensions)](../Topic/delegate%20%20\(C++%20Component%20Extensions\).md)
+ [delegate  (C++ Component Extensions)](/visual-cpp/windows/delegate-cpp-component-extensions)

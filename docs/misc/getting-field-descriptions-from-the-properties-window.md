@@ -1,7 +1,7 @@
 ---
-title: "Getting Field Descriptions from the Properties Window"
+title: "Getting Field Descriptions from the Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,9 +77,9 @@ STDAPI DLLGetDocumentation
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>   
  [Properties Window Fields and Interfaces](../extensibility/internals/properties-window-fields-and-interfaces.md)   
  [Extending Properties](../extensibility/internals/extending-properties.md)   
- [helpstringdll](../Topic/helpstringdll.md)   
- [helpstring](../Topic/helpstring.md)   
- [helpstringcontext](../Topic/helpstringcontext.md)   
- [helpcontext](../Topic/helpcontext.md)   
- [helpfile](../Topic/helpfile.md)   
- [lcid](../Topic/lcid.md)
+ [helpstringdll](/visual-cpp/windows/helpstringdll)   
+ [helpstring](/visual-cpp/windows/helpstring)   
+ [helpstringcontext](/visual-cpp/windows/helpstringcontext)   
+ [helpcontext](/visual-cpp/windows/helpcontext)   
+ [helpfile](/visual-cpp/windows/helpfile)   
+ [lcid](/visual-cpp/windows/lcid)

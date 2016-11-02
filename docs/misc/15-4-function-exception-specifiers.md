@@ -1,7 +1,7 @@
 ---
-title: "15.4 Function Exception Specifiers"
+title: "15.4 Function Exception Specifiers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # 15.4 Function Exception Specifiers
-This content has been removed. Please see [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md).
+This content has been removed. Please see [Nonstandard Behavior](/visual-cpp/cpp/nonstandard-behavior).

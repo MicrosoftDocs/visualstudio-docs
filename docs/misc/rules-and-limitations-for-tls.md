@@ -1,7 +1,7 @@
 ---
-title: "Rules and Limitations for TLS"
+title: "Rules and Limitations for TLS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,4 +40,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Rules and Limitations for TLS
-This content has moved to [Thread Local Storage (TLS)](../Topic/Thread%20Local%20Storage%20\(TLS\).md)
+This content has moved to [Thread Local Storage (TLS)](/visual-cpp/parallel/multithreading/thread-local-storage-tls)

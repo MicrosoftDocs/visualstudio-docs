@@ -1,7 +1,7 @@
 ---
-title: "Standard Template Library"
+title: "Standard Template Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Standard Template Library
-This content has moved to [C++ Standard Library](../Topic/C++%20Standard%20Library%20Reference.md).
+This content has moved to [C++ Standard Library](/visual-cpp/standard-library/cpp-standard-library-reference).

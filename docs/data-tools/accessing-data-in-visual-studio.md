@@ -1,7 +1,7 @@
 ---
-title: "Accessing data in Visual Studio"
+title: "Accessing data in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -157,7 +157,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [WCF Data Services 4.5](../Topic/WCF%20Data%20Services%204.5.md)  
  Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.  
   
  [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md)  

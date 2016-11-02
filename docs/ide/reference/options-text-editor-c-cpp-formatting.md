@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, C-C++, Formatting"
+title: "Options, Text Editor, C-C++, Formatting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -76,16 +76,16 @@ Lets you change the default behavior of the Code Editor when you are programming
  When you bring a file into the text editor, you can enable the outlining feature. For more information, see [Outlining](../../ide/outlining.md). When this option is selected, the outlining feature is enabled when you open a file.  
   
  **Automatic outlining of #pragma region blocks**  
- When this option is selected, automatic outlining for [pragma directives](../Topic/Pragma%20Directives%20and%20the%20__Pragma%20Keyword.md) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
+ When this option is selected, automatic outlining for [pragma directives](/visual-cpp/preprocessor/pragma-directives-and-the-pragma-keyword) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
   
  **Automatic outlining of statement blocks**  
  When this option is selected, automatic outlining is enabled for the following statement constructs:  
   
--   [if-else](../Topic/if-else%20\(C%23%20Reference\).md)  
+-   [if-else](/dotnet/csharp/language-reference/keywords/if-else)  
   
--   [switch Statement (C++)](../Topic/switch%20Statement%20\(C++\).md)  
+-   [switch Statement (C++)](/visual-cpp/cpp/switch-statement-cpp)  
   
--   [while Statement (C++)](../Topic/while%20Statement%20\(C++\).md)  
+-   [while Statement (C++)](/visual-cpp/cpp/while-statement-cpp)  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

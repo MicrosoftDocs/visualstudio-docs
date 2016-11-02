@@ -1,7 +1,7 @@
 ---
-title: "Default Keyboard Shortcuts in Visual Studio"
+title: "Default Keyboard Shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -1171,5 +1171,5 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |XsdDesigner.ShowStartView|Ctrl+1|  
   
 ## See Also  
- [Image Editor for Icons](../Topic/Image%20Editor%20for%20Icons.md)   
+ [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons)   
  [Using IntelliSense](../ide/using-intellisense.md)

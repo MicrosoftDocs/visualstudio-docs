@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Imports Designer"
+title: "How to: Use the Imports Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -43,7 +43,7 @@ The imports designer enables you to enter namespaces for the types that you will
   
 ### To add a namespace to the list of imported namespaces  
   
-1.  Open a WCF Workflow service application, workflow console application, or activity library project in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] or a rehosted workflow application.  
+1.  Open a WCF Workflow service application, workflow console application, or activity library project in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] or a rehosted workflow application.  
   
 2.  Click **Imports** on the bottom of the main canvas. The Imports designer will appear.  
   

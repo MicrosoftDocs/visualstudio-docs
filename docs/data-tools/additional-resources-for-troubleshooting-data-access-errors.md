@@ -1,5 +1,5 @@
 ---
-title: "Additional resources for troubleshooting data access errors"
+title: "Additional resources for troubleshooting data access errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

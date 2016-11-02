@@ -1,7 +1,7 @@
 ---
-title: "MSBuild1"
+title: "MSBuild1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
   
  Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.  
   
- For information about MSBuild for C++, see [MSBuild (Visual C++)](../Topic/MSBuild%20\(Visual%20C++\).md).  
+ For information about MSBuild for C++, see [MSBuild (Visual C++)](/visual-cpp/build/msbuild-visual-cpp).  
   
  The following examples illustrate when you might run builds by using an MSBuild command line instead of the Visual Studio IDE.  
   

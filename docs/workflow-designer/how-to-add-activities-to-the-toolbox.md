@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Activities to the Toolbox"
+title: "How to: Add Activities to the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -38,7 +38,7 @@ Activities can be added to the **Toolbox** in your solution in several different
 3.  Build the project. If the build was successful, a new category in the **Toolbox** named "\<*project name*>" with the custom activity included in that category is displayed.  
   
     > [!NOTE]
-    >  If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
+    >  If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
     > [!NOTE]
     >  The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.  

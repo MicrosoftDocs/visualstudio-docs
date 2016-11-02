@@ -1,7 +1,7 @@
 ---
-title: "How to: Access the Built-in Fonts and Color Scheme"
+title: "How to: Access the Built-in Fonts and Color Scheme | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 2.  The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.  
   
-     For more information, see [Adding or Deleting a String](../Topic/Adding%20or%20Deleting%20a%20String.md).  
+     For more information, see [Adding or Deleting a String](/visual-cpp/windows/adding-or-deleting-a-string).  
   
 ### To register a category using built-in fonts and colors  
   

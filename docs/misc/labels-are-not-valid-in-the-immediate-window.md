@@ -1,5 +1,5 @@
 ---
-title: "Labels are not valid in the Immediate window"
+title: "Labels are not valid in the Immediate window | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

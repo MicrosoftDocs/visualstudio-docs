@@ -1,7 +1,7 @@
 ---
-title: "discrete_distribution::probabilities"
+title: "discrete_distribution::probabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,4 +61,4 @@ std::vector<double> probabilities() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [discrete_distribution Class](../Topic/discrete_distribution%20Class.md)
+ [discrete_distribution Class](/visual-cpp/standard-library/discrete-distribution-class)

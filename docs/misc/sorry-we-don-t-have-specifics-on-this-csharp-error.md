@@ -1,7 +1,7 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this C# error"
+title: "Sorry, we don&#39;t have specifics on this C# error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -919,10 +919,10 @@ We’re sorry, but we don’t have any specific information about this error. Yo
  Provides a forum for questions about and issues with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
  Also see:  
- [Additional Resources for Visual C# Programmers](../Topic/Additional%20Resources%20for%20Visual%20C%23%20Programmers.md)  
+ [Additional Resources for Visual C# Programmers](/dotnet/csharp/getting-started/additional-resources-for-visual-csharp-programmers)  
   
 ## See Also  
- [C# Programming Guide](../Topic/C%23%20Programming%20Guide.md)   
- [C# Reference](../Topic/C%23%20Reference.md)   
+ [C# Programming Guide](/dotnet/csharp/programming-guide/index)   
+ [C# Reference](/dotnet/csharp/language-reference/index)   
  [Talk to Us](../ide/talk-to-us.md)   
  [Talk to Us](../ide/talk-to-us.md)

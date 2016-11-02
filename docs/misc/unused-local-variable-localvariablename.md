@@ -1,5 +1,5 @@
 ---
-title: "Unused local variable: &#39;&lt;localvariablename&gt;&#39;"
+title: "Unused local variable: &#39;&lt;localvariablename&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -51,5 +51,5 @@ A local variable in a procedure is declared but never used.
 2.  If there is no spelling mistake, either remove the declaration of this variable or use it in another statement in the procedure.  
   
 ## See Also  
- [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)   
- [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)
+ [Declared Element Names](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names)   
+ [Dim Statement](/dotnet/visual-basic/language-reference/statements/dim-statement)

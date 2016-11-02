@@ -1,7 +1,7 @@
 ---
-title: "queue Functions"
+title: "queue Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,6 +32,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # queue Functions
-Topic deprecated, see [Welcome Back to C++](../Topic/Welcome%20Back%20to%20C++%20\(Modern%20C++\).md) and [\<queue>](../Topic/%3Cqueue%3E.md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [\<queue>](../Topic/%3Cqueue%3E.md).  
   
 ## Syntax

@@ -1,7 +1,7 @@
 ---
-title: "Error: You do not have permission to inspect the process&#39;s identity"
+title: "Error: You do not have permission to inspect the process&#39;s identity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

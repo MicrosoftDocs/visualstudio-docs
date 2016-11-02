@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Breakpoints in Workflows (Legacy)"
+title: "How to: Set Breakpoints in Workflows (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -34,7 +34,7 @@ translation.priority.ht:
 # How to: Set Breakpoints in Workflows (Legacy)
 This topic describes how to set breakpoints in [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications build using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when your [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] application needs to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
   
- When you use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] to build a [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] application, you can set breakpoints in C# and Visual Basic code as you do in Visual Studio. As expected, workflow execution stops at each breakpoint that you set.  
+ When you use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] to build a [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] application, you can set breakpoints in C# and Visual Basic code as you do in Visual Studio. As expected, workflow execution stops at each breakpoint that you set.  
   
  A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it is Pending, and it is represented by a hollow red icon. When the runtime has loaded the workflow type, it becomes Bound and is represented by a solid red icon. If you specify an incorrect format for the breakpoint, as with an activity name that is not valid, an error window appears. The breakpoint is still added to the breakpoint window, but it is marked with a small "x".  
   

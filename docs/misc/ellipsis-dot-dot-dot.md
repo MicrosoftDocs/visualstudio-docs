@@ -1,7 +1,7 @@
 ---
-title: "Ellipsis (...)"
+title: "Ellipsis (...) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,15 +41,15 @@ The ellipsis operator (`...`) has many uses in C and C++, depending on context. 
   
 -   [Ellipses and Default Arguments](../misc/ellipses-and-default-arguments.md)  
   
--   [Ellipses and Variadic Templates](../Topic/Ellipses%20and%20Variadic%20Templates.md)  
+-   [Ellipses and Variadic Templates](/visual-cpp/cpp/ellipses-and-variadic-templates)  
   
--   [try, throw, and catch Statements (C++)](../Topic/try,%20throw,%20and%20catch%20Statements%20\(C++\).md)  
+-   [try, throw, and catch Statements (C++)](/visual-cpp/cpp/try-throw-and-catch-statements-cpp)  
   
 -   [Variable Argument Lists](../misc/variable-argument-lists.md)  
   
--   [Variable Argument Lists (...) (C++/CLI)](../Topic/Variable%20Argument%20Lists%20\(...\)%20\(C++-CLI\).md)  
+-   [Variable Argument Lists (...) (C++/CLI)](/visual-cpp/windows/variable-argument-lists-dot-dot-dot-cpp-cli)  
   
--   [Variadic Macros](../Topic/Variadic%20Macros.md)  
+-   [Variadic Macros](/visual-cpp/preprocessor/variadic-macros)  
   
 ## See Also  
- [Expressions](../Topic/Expressions%20\(C++\).md)
+ [Expressions](/visual-cpp/cpp/expressions-cpp)

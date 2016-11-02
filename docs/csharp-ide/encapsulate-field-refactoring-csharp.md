@@ -1,7 +1,7 @@
 ---
-title: "Encapsulate Field Refactoring (C#)"
+title: "Encapsulate Field Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,9 +38,9 @@ translation.priority.ht:
 # Encapsulate Field Refactoring (C#)
 The **Encapsulate Field** refactoring operation enables you to quickly create a property from an existing field, and then seamlessly update your code with references to the new property.  
   
- When a [field](../Topic/Fields%20\(C%23%20Programming%20Guide\).md) is [public](../Topic/public%20\(C%23%20Reference\).md), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](../Topic/Properties%20\(C%23%20Programming%20Guide\).md) to encapsulate that field, you can disallow direct access to fields.  
+ When a [field](/dotnet/csharp/programming-guide/classes-and-structs/fields) is [public](/dotnet/csharp/language-reference/keywords/public), other objects have direct access to that field and can modify it, undetected by the object that owns that field. By using [properties](/dotnet/csharp/programming-guide/classes-and-structs/properties) to encapsulate that field, you can disallow direct access to fields.  
   
- To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](../Topic/private%20\(C%23%20Reference\).md), and then generates [get](../Topic/get%20\(C%23%20Reference\).md) and [set](../Topic/set%20\(C%23%20Reference\).md) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
+ To create the new property, the **Encapsulate Field** operation changes the access modifier for the field that you want to encapsulate to [private](/dotnet/csharp/language-reference/keywords/private), and then generates [get](/dotnet/csharp/language-reference/keywords/get) and [set](/dotnet/csharp/language-reference/keywords/set) accessors for that field. In some cases, only a `get` accessor is generated, such as when the field is declared read-only.  
   
  The refactoring engine updates your code with references to the new property in the areas specified in the **Update References** section of the **Encapsulate Field** dialog box.  
   

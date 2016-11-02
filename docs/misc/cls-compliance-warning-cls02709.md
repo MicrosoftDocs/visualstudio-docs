@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS02709"
+title: "CLS Compliance Warning CLS02709 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ Type used in a property declaration was not CLS compliant
   
  All types in a property declaration were not CLS-compliant.  
   
- For more information about properties, see [property](../Topic/property%20%20\(C++%20Component%20Extensions\).md).  
+ For more information about properties, see [property](/visual-cpp/windows/property-cpp-component-extensions).  
   
  For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

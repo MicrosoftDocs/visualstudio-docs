@@ -1,5 +1,5 @@
 ---
-title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer)"
+title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

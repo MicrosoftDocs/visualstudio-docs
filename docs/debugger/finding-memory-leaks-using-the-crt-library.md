@@ -1,7 +1,7 @@
 ---
-title: "Finding Memory Leaks Using the CRT Library"
+title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,7 +69,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  For the CRT functions to work correctly, the `#include` statements must follow the order shown here.  
   
- Including crtdbg.h maps the `malloc` and the [free](../Topic/free.md) functions to their debug versions, [_malloc_dbg](../Topic/_malloc_dbg.md) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+ Including crtdbg.h maps the `malloc` and the [free](/visual-cpp/c-runtime-library/reference/free) functions to their debug versions, [_malloc_dbg](/visual-cpp/c-runtime-library/reference/malloc-dbg) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
   
  The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be less detailed.  
   
@@ -79,7 +79,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
 _CrtDumpMemoryLeaks();  
 ```  
   
- If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](../Topic/_CrtDumpMemoryLeaks.md) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
+ If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
   
 ```  
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -94,7 +94,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 ```  
   
 ## Interpreting the Memory-Leak Report  
- If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](../Topic/_CrtDumpMemoryLeaks.md) displays a memory-leak report that looks like this:  
+ If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
   
 ```  
 Detected memory leaks!  

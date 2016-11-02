@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment"
+title: "How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

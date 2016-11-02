@@ -1,7 +1,7 @@
 ---
-title: "How to: Support Toolbox Drag-and-Drop Functionality"
+title: "How to: Support Toolbox Drag-and-Drop Functionality | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ translation.priority.mt:
   
 1.  Provide drag-and-drop support by implementing <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> on a view object. This provides the view with OLE drag-and-drop functionality and serialization of the control.  
   
-     For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](../Topic/Drag%20and%20Drop%20\(OLE\).md).  
+     For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](/visual-cpp/mfc/drag-and-drop-ole).  
   
      Drops can either be Clipboard items or controls being dropped on a designer. For information on standard Clipboard formats supported by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "IDebugDefaultPort2"
+title: "IDebugDefaultPort2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugDefaultPort2 : IDebugPort2
  Visual Studio implements this interface to represent the debug port for accessing programs. A custom port supplier can also implement this interface if it handles remote debugging.  
   
 ## Notes for Callers  
- An argument to methods on the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface supplies this interface. Calling [QueryInterface](../Topic/QueryInterface.md) on an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface can also obtain this interface.  
+ An argument to methods on the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface supplies this interface. Calling [QueryInterface](/visual-cpp/atl/queryinterface) on an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface can also obtain this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods defined in [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md), this interface implements the following methods:  

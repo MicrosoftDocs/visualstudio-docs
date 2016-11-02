@@ -1,7 +1,7 @@
 ---
-title: "The folder &#39;folder&#39; could not be added to the project. &lt;reason&gt;"
+title: "The folder &#39;folder&#39; could not be added to the project. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,5 +50,5 @@ A folder read from the .vbproj or .csproj file cannot be added to the project. R
      Any folder, and any files below the folder, for which this diagnostic is displayed will not be added to the project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

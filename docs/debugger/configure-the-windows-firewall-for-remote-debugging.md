@@ -1,7 +1,7 @@
 ---
-title: "Configure the Windows Firewall for Remote Debugging"
+title: "Configure the Windows Firewall for Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

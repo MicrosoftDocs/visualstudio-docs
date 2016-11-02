@@ -1,7 +1,7 @@
 ---
-title: "Restrictions on Using Abstract Classes"
+title: "Restrictions on Using Abstract Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Restrictions on Using Abstract Classes
-Content has moved to [Abstract Classes](../Topic/Abstract%20Classes%20\(C++\).md) .
+Content has moved to [Abstract Classes](/visual-cpp/cpp/abstract-classes-cpp) .

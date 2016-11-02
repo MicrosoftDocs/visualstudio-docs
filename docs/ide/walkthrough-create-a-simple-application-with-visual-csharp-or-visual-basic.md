@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic"
+title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

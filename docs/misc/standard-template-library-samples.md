@@ -1,7 +1,7 @@
 ---
-title: "Standard Template Library Samples"
+title: "Standard Template Library Samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Standard Template Library Samples
-This content is no longer maintained. STL code samples have been moved to their respective reference topics under [STL Headers](../Topic/C++%20Standard%20Library%20Header%20Files.md).  
+This content is no longer maintained. STL code samples have been moved to their respective reference topics under [STL Headers](/visual-cpp/standard-library/cpp-standard-library-header-files).  
   
 ## See Also  
- [C++ Standard Library](../Topic/C++%20Standard%20Library%20Reference.md)
+ [C++ Standard Library](/visual-cpp/standard-library/cpp-standard-library-reference)

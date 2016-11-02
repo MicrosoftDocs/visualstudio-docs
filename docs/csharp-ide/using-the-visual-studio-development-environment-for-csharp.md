@@ -1,7 +1,7 @@
 ---
-title: "Using the Visual Studio Development Environment for C#"
+title: "Using the Visual Studio Development Environment for C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,6 +60,6 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |[Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)|Shows how to add or edit resources for your project, such as strings, images, icons, audio, and files.|  
   
 ## See Also  
- [C#](../Topic/C%23.md)   
- [Getting Started with C#](../Topic/Getting%20Started%20with%20C%23.md)   
- [C# Reference](../Topic/C%23%20Reference.md)
+ [C#](/dotnet/csharp/csharp)   
+ [Getting Started with C#](/dotnet/csharp/getting-started/getting-started-with-csharp)   
+ [C# Reference](/dotnet/csharp/language-reference/index)

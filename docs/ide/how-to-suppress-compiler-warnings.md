@@ -1,7 +1,7 @@
 ---
-title: "How to: Suppress Compiler Warnings"
+title: "How to: Suppress Compiler Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -115,7 +115,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
      The **Output** window no longer shows the warnings that you specified.  
   
- For more information, see [/nowarn](../Topic/-nowarn.md).  
+ For more information, see [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn).  
   
 ## See Also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   

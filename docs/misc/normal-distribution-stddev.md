@@ -1,7 +1,7 @@
 ---
-title: "normal_distribution::stddev"
+title: "normal_distribution::stddev | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,5 +61,5 @@ RealType stddev() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [normal_distribution Class](../Topic/normal_distribution%20Class.md)   
+ [normal_distribution Class](/visual-cpp/standard-library/normal-distribution-class)   
  [normal_distribution::mean](../misc/normal-distribution-mean.md)

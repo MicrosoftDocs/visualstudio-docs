@@ -1,7 +1,7 @@
 ---
-title: "Step 11: Run Your Program and Try Other Features"
+title: "Step 11: Run Your Program and Try Other Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,9 +66,9 @@ Color dialog box
   
 -   To learn more about programming in Visual Studio, see [Programming Concepts](../Topic/Programming%20Concepts.md).  
   
--   To learn more about Visual Basic, see [Developing Applications with Visual Basic](../Topic/Developing%20Applications%20with%20Visual%20Basic.md).  
+-   To learn more about Visual Basic, see [Developing Applications with Visual Basic](/dotnet/visual-basic/developing-apps/index).  
   
--   To learn more about Visual C#, see [Introduction to the C# Language and the .NET Framework](../Topic/Introduction%20to%20the%20C%23%20Language%20and%20the%20.NET%20Framework.md).  
+-   To learn more about Visual C#, see [Introduction to the C# Language and the .NET Framework](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework).  
   
 -   To go to the next tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   

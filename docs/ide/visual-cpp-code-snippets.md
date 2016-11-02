@@ -1,7 +1,7 @@
 ---
-title: "Visual C++ Code Snippets"
+title: "Visual C++ Code Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -149,7 +149,7 @@ for (int i = length - 1; i >= 0; i--)
 }  
 ```  
   
- The **rfor** snippet provides a [range-based](../Topic/Range-based%20for%20Statement%20\(C++\).md) for loop (link):  
+ The **rfor** snippet provides a [range-based](/visual-cpp/cpp/range-based-for-statement-cpp) for loop (link):  
   
 ```cpp  
 for (auto& i : v)  

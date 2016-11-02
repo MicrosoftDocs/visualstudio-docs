@@ -1,7 +1,7 @@
 ---
-title: "How to: Configure Projects to Target Platforms"
+title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -67,14 +67,14 @@ translation.priority.ht:
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
--   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
+-   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).  
   
 -   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
+-   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](/visual-cpp/build/reference/clr-common-language-runtime-compilation).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
- [/platform (C# Compiler Options)](../Topic/-platform%20\(C%23%20Compiler%20Options\).md)   
+ [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)   
  [64-bit Applications](../Topic/64-bit%20Applications.md)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)

@@ -1,7 +1,7 @@
 ---
-title: "Variable Argument Lists"
+title: "Variable Argument Lists | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Variable Argument Lists
-This content has moved to [Functions with Variable Argument Lists](../Topic/Functions%20with%20Variable%20Argument%20Lists%20%20\(C++\).md)
+This content has moved to [Functions with Variable Argument Lists](/visual-cpp/cpp/functions-with-variable-argument-lists-cpp)

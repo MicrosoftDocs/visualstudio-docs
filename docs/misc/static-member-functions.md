@@ -1,7 +1,7 @@
 ---
-title: "Static Member Functions"
+title: "Static Member Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Static Member Functions
-This content moved to  [Overview of Member Functions](../Topic/Overview%20of%20Member%20Functions.md)
+This content moved to  [Overview of Member Functions](/visual-cpp/cpp/overview-of-member-functions)

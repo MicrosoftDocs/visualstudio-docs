@@ -1,7 +1,7 @@
 ---
-title: "IDebugPropertyCreateEvent2"
+title: "IDebugPropertyCreateEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugPropertyCreateEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE implements this interface to report that a property has been created. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](../Topic/QueryInterface.md) to access the `IDebugEvent2` interface. This interface is implemented if the DE has created a property associated with a script that has been loaded or created and if that script needs to appear in the IDE.  
+ The DE implements this interface to report that a property has been created. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface. This interface is implemented if the DE has created a property associated with a script that has been loaded or created and if that script needs to appear in the IDE.  
   
 ## Notes for Callers  
  The DE creates and sends this event object to report a property has been created. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it is attached to the program being debugged.  
@@ -55,7 +55,7 @@ IDebugPropertyCreateEvent2 : IUnknown
 |[GetDebugProperty](../../../extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty.md)|Gets the new property.|  
   
 ## Remarks  
- If a property has a specific document or script associated with it, the DE can send this event to the SDM in order to update the **Script Documents** window with the name of the document. The SDM will call [GetExtendedInfo](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md) with the argument `guidDocument` to retrieve a `VARIANT` containing an [IUnknown](../Topic/IUnknown.md) pointer. The SDM will call [QueryInterface](../Topic/QueryInterface.md) on this pointer to retrieve the [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interface that is used to update the **Script Documents** window.  
+ If a property has a specific document or script associated with it, the DE can send this event to the SDM in order to update the **Script Documents** window with the name of the document. The SDM will call [GetExtendedInfo](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md) with the argument `guidDocument` to retrieve a `VARIANT` containing an [IUnknown](/visual-cpp/atl/iunknown) pointer. The SDM will call [QueryInterface](/visual-cpp/atl/queryinterface) on this pointer to retrieve the [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interface that is used to update the **Script Documents** window.  
   
 ## Requirements  
  Header: msdbg.h  

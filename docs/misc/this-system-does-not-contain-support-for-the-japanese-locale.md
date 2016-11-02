@@ -1,5 +1,5 @@
 ---
-title: "This system does not contain support for the Japanese locale"
+title: "This system does not contain support for the Japanese locale | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

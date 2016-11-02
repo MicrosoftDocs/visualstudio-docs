@@ -1,5 +1,5 @@
 ---
-title: "Sequential Workflow Views (Legacy)"
+title: "Sequential Workflow Views (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Sequential Workflow Views (Legacy)
-[!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] provides a legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] that can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
+[!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] provides a legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] that can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
   
  The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provides a way to graphically create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications using the familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface. [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications are composed of workflow process steps called activities. To create a workflow, compose activities on the design surface by dragging their respective activity designers from **Toolbox** onto the design surface.  
   

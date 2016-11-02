@@ -1,7 +1,7 @@
 ---
-title: "The Visual Studio Image Library"
+title: "The Visual Studio Image Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,5 +45,5 @@ The Visual Studio Image Library contains application images that appear in Micro
  The image library is divided into five categories: Common Elements, Actions, Annotations, Icons and Objects. Readme files are included in the PDF format for the Common Elements and Icon types. They contain information about how to use these images appropriately in your applications.  
   
 ## See Also  
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
  [Images, Bitmaps, and Metafiles](../Topic/Images,%20Bitmaps,%20and%20Metafiles.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer)"
+title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

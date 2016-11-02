@@ -1,7 +1,7 @@
 ---
-title: "poisson_distribution::mean"
+title: "poisson_distribution::mean | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,4 +62,4 @@ RealType mean() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [poisson_distribution Class](../Topic/poisson_distribution%20Class.md)
+ [poisson_distribution Class](/visual-cpp/standard-library/poisson-distribution-class)

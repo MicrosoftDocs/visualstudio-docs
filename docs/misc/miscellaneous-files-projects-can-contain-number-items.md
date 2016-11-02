@@ -1,7 +1,7 @@
 ---
-title: "Miscellaneous Files projects can contain &lt;number&gt; items."
+title: "Miscellaneous Files projects can contain &lt;number&gt; items. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

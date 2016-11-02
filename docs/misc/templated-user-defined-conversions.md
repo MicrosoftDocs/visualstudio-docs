@@ -1,7 +1,7 @@
 ---
-title: "Templated User Defined Conversions"
+title: "Templated User Defined Conversions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Templated User Defined Conversions
-This content has been removed. For more information, see [Member Function Templates](../Topic/Member%20Function%20Templates.md).
+This content has been removed. For more information, see [Member Function Templates](/visual-cpp/cpp/member-function-templates).

@@ -1,5 +1,5 @@
 ---
-title: "Customize how Visual Studio creates captions for data-bound controls"
+title: "Customize how Visual Studio creates captions for data-bound controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

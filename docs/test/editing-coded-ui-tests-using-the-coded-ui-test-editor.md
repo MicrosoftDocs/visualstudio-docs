@@ -1,7 +1,7 @@
 ---
-title: "Editing Coded UI Tests Using the Coded UI Test Editor"
+title: "Editing Coded UI Tests Using the Coded UI Test Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -231,5 +231,5 @@ Edit control properties
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)   
- [Generating a Coded UI Test from an Existing Action Recording](../Topic/Generating%20a%20Coded%20UI%20Test%20from%20an%20Existing%20Action%20Recording.md)   
+ [Generating a Coded UI Test from an Existing Action Recording](/devops-test-docs/test/generating-a-coded-ui-test-from-an-existing-action-recording)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_noReturn"
+title: "IDiaSymbol::get_noReturn | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noReturn
-Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](../Topic/noreturn.md) attribute.  
+Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/visual-cpp/cpp/noreturn) attribute.  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noReturn(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noreturn](../Topic/noreturn.md)
+ [noreturn](/visual-cpp/cpp/noreturn)

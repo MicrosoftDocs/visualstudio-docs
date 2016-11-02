@@ -1,5 +1,5 @@
 ---
-title: "Codepage &#39;&lt;name&gt;&#39; is invalid or not installed"
+title: "Codepage &#39;&lt;name&gt;&#39; is invalid or not installed | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

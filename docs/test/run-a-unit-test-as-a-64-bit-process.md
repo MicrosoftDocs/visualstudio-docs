@@ -1,7 +1,7 @@
 ---
-title: "Run a unit test as a 64-bit process"
+title: "Run a unit test as a 64-bit process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,4 +52,4 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 ## See Also  
  [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Specifying Test Settings for Visual Studio Tests](../Topic/Specifying%20Test%20Settings%20for%20Visual%20Studio%20Tests.md)
+ [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests)

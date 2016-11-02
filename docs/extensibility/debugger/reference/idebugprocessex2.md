@@ -1,7 +1,7 @@
 ---
-title: "IDebugProcessEx2"
+title: "IDebugProcessEx2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ IDebugProcessEx2 : IUnknown
   
 ## Notes for Callers  
   
--   The SDM calls [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProcess2` interface to obtain this interface.  
+-   The SDM calls [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProcess2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProcessEx2`.  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer)"
+title: "How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -66,5 +66,5 @@ Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_shor
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [Introduction to LINQ in Visual Basic](../Topic/Introduction%20to%20LINQ%20in%20Visual%20Basic.md)   
+ [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)   
  [How to: Write LINQ Queries in C#](../Topic/How%20to:%20Write%20LINQ%20Queries%20in%20C%23.md)

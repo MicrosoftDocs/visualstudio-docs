@@ -1,7 +1,7 @@
 ---
-title: "Project and Solution File Types"
+title: "Project and Solution File Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,11 +64,11 @@ translation.priority.ht:
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses a variety of file formats to store information specific to projects. For more information, see the following Help topics:  
   
  [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)]  
- [File Types Created for Visual C++ Projects](../Topic/File%20Types%20Created%20for%20Visual%20C++%20Projects.md)  
+ [File Types Created for Visual C++ Projects](/visual-cpp/ide/file-types-created-for-visual-cpp-projects)  
   
- [Creating and Managing Visual C++ Projects](../Topic/Creating%20and%20Managing%20Visual%20C++%20Projects.md)  
+ [Creating and Managing Visual C++ Projects](/visual-cpp/ide/creating-and-managing-visual-cpp-projects)  
   
- [Unicode](../Topic/Unicode%20in%20MFC.md)  
+ [Unicode](/visual-cpp/mfc/unicode-in-mfc)  
   
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

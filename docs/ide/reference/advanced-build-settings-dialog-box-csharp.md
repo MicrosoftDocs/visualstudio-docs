@@ -1,7 +1,7 @@
 ---
-title: "Advanced Build Settings Dialog Box (C#)"
+title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,16 +49,16 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
   
      Targets the current version.  
   
- For more information, see [/langversion (C# Compiler Options)](../Topic/-langversion%20\(C%23%20Compiler%20Options\).md).  
+ For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).  
   
  **Internal Compiler Error Reporting**  
- Specifies whether to report compiler errors to Microsoft. If set to **prompt** (the default), you will receive a prompt if an internal compiler error occurs, giving you the option of sending an error report electronically to Microsoft. If set to **send**, an error report will be sent automatically. If set to **queue**, error reports will be queued. If set to **none**, the error will be reported only in the compiler's text output. For more information, see [/errorreport (C# Compiler Options)](../Topic/-errorreport%20\(C%23%20Compiler%20Options\).md).  
+ Specifies whether to report compiler errors to Microsoft. If set to **prompt** (the default), you will receive a prompt if an internal compiler error occurs, giving you the option of sending an error report electronically to Microsoft. If set to **send**, an error report will be sent automatically. If set to **queue**, error reports will be queued. If set to **none**, the error will be reported only in the compiler's text output. For more information, see [/errorreport (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option).  
   
  **Check for arithmetic overflow/underflow**  
- Specifies whether an integer arithmetic statement that is not in the scope of the [checked](../Topic/checked%20\(C%23%20Reference\).md) or [unchecked](../Topic/unchecked%20\(C%23%20Reference\).md) keywords and that results in a value outside the range of the data type will cause a run-time exception.For more information, see [/checked (C# Compiler Options)](../Topic/-checked%20\(C%23%20Compiler%20Options\).md).  
+ Specifies whether an integer arithmetic statement that is not in the scope of the [checked](/dotnet/csharp/language-reference/keywords/checked) or [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) keywords and that results in a value outside the range of the data type will cause a run-time exception.For more information, see [/checked (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/checked-compiler-option).  
   
  **Do not reference mscorlib.dll**  
- Specifies whether mscorlib.dll will be imported into your program, defining the entire <xref:System> namespace. Check this box if you want to define or create your own <xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](../Topic/-nostdlib%20\(C%23%20Compiler%20Options\).md).  
+ Specifies whether mscorlib.dll will be imported into your program, defining the entire <xref:System> namespace. Check this box if you want to define or create your own <xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/nostdlib-compiler-option).  
   
 ## Output  
  The following options enable you to specify advanced output options.  
@@ -78,14 +78,14 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
   
      Allows source code debugging when the program is started in the debugger but will only display assembler when the running program is attached to the debugger.  
   
- For more information, see [/debug (C# Compiler Options)](../Topic/-debug%20\(C%23%20Compiler%20Options\).md).  
+ For more information, see [/debug (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option).  
   
  **File Alignment**  
- Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](../Topic/-filealign%20\(C%23%20Compiler%20Options\).md).  
+ Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option).  
   
  **DLL Base Address**  
- Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](../Topic/-baseaddress%20\(C%23%20Compiler%20Options\).md).  
+ Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).  
   
 ## See Also  
- [C# Compiler Options](../Topic/C%23%20Compiler%20Options.md)   
+ [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options)   
  [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

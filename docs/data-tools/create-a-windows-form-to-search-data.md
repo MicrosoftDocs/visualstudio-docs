@@ -1,5 +1,5 @@
 ---
-title: "Create a Windows Form to search data"
+title: "Create a Windows Form to search data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

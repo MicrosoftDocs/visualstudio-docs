@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Visual Studio 2015"
+title: "Welcome to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
   
  And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly!  
   
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md).  
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md).  
   
 ## Extend Visual Studio  
  Add your own Visual Studio extension to include a tool or script that you often use while coding. You can create custom menu items and tool windows to integrate your own tools into the Visual Studio IDE. You can extend the Visual Studio editor to analyze and fix code, or add a new project type to include just what you need.  
@@ -106,15 +106,15 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
   
 |||||  
 |-|-|-|-|  
-|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
-|[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
+|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](/dotnet/csharp/getting-started/whats-new-for-visual-csharp)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
+|[What’s new for C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2015)|[What's New for Visual Basic](/dotnet/visual-basic/getting-started/whats-new)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
 |[Python](../python/getting-started-with-python.md)||||  
   
 ## In this section  
   
 -   [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)  
   
--   [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)  
+-   [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)  
   
 -   [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)  
   
@@ -128,7 +128,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
   
 -   [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
   
--   [Visual C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md)  
+-   [Visual C++](/visual-cpp/top/visual-cpp-in-visual-studio-2015)  
   
 -   [JavaScript](../javascript/javascript-in-visual-studio.md)  
   

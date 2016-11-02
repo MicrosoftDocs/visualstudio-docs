@@ -1,7 +1,7 @@
 ---
-title: "Execution Control and State Evaluation"
+title: "Execution Control and State Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

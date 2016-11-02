@@ -1,7 +1,7 @@
 ---
-title: "__sealed"
+title: "__sealed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
 ---
 # __sealed
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [sealed](../Topic/sealed%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [sealed](/visual-cpp/windows/sealed-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Prevents a method from being overridden or a class from being a base class.  
   
@@ -64,7 +64,7 @@ __sealed function-declarator
   
 -   A `__sealed` method cannot be pure.  
   
--   The **__sealed** keyword is not allowed when used with the [__interface](../Topic/__interface.md) keyword.  
+-   The **__sealed** keyword is not allowed when used with the [__interface](/visual-cpp/cpp/interface) keyword.  
   
  When a class (or struct) is marked with `__sealed`, the class cannot be used as a base class. For example:  
   

@@ -1,7 +1,7 @@
 ---
-title: "Friend Functions"
+title: "Friend Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,6 +35,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Friend Functions
-This content has moved to [friend](../Topic/friend%20\(C++\).md).  
+This content has moved to [friend](/visual-cpp/cpp/friend-cpp).  
   
 ## Example

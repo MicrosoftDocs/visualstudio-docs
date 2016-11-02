@@ -1,7 +1,7 @@
 ---
-title: "exponential_distribution::lambda"
+title: "exponential_distribution::lambda | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,4 +62,4 @@ RealType lambda() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [exponential_distribution Class](../Topic/exponential_distribution%20Class.md)
+ [exponential_distribution Class](/visual-cpp/standard-library/exponential-distribution-class)

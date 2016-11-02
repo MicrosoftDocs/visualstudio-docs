@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug an ActiveX Control"
+title: "How to: Debug an ActiveX Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,7 +69,7 @@ translation.priority.ht:
      If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.  
   
 ## See Also  
- [ActiveX Controls](../Topic/ActiveX%20Controls.md)   
- [Testing Properties and Events with Test Container](../Topic/Testing%20Properties%20and%20Events%20with%20Test%20Container.md)   
+ [ActiveX Controls](/visual-cpp/mfc/activex-controls)   
+ [Testing Properties and Events with Test Container](/visual-cpp/mfc/testing-properties-and-events-with-test-container)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

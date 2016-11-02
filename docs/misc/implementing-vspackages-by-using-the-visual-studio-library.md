@@ -1,7 +1,7 @@
 ---
-title: "Implementing VSPackages By Using the Visual Studio Library"
+title: "Implementing VSPackages By Using the Visual Studio Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ The `IVsPackageImpl` class in the Visual Studio Library provides a minimal imple
     > [!NOTE]
     >  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
   
- Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](../Topic/CComObjectRootEx%20Class.md) and [CComCoClass Class](../Topic/CComCoClass%20Class.md) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
+ Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](/visual-cpp/atl/reference/ccomobjectrootex-class) and [CComCoClass Class](/visual-cpp/atl/reference/ccomcoclass-class) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
   
 ```  
 class ATL_NO_VTABLE BasicPackage :   
@@ -66,7 +66,7 @@ BEGIN_COM_MAP(BasicPackage)
 END_COM_MAP()  
 ```  
   
- For more information about COM maps, see [Implementing CComObjectRootEx](../Topic/Implementing%20CComObjectRootEx.md) and [COM_INTERFACE_ENTRY Macros](../Topic/COM_INTERFACE_ENTRY%20Macros.md).  
+ For more information about COM maps, see [Implementing CComObjectRootEx](/visual-cpp/atl/implementing-ccomobjectrootex) and [COM_INTERFACE_ENTRY Macros](../Topic/COM_INTERFACE_ENTRY%20Macros.md).  
   
 ## Supporting Registration with Registry Maps  
  Visual Studio Library uses ATL-style .RGS files to support registration of COM objects. To support token replacement in the .RGS file, Visual Studio Library uses registry maps. Registry maps list symbols to be replaced and support the use of IDs for string table resources.  

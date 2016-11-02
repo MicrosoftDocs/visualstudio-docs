@@ -1,5 +1,5 @@
 ---
-title: "Developing Applications with the Workflow Designer"
+title: "Developing Applications with the Workflow Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/28/2016"
 ms.prod: ".net-framework-4.6"
@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Developing Applications with the Workflow Designer
-The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] that is hosted in the [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../test/includes/crabout_md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](../Topic/Windows%20Workflow%20Foundation.md).  
+The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] that is hosted in the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../test/includes/crabout_md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](../Topic/Windows%20Workflow%20Foundation.md).  
   
  The following are several new design features that set this new version of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] apart from older versions of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]:  
   
@@ -47,7 +47,7 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
   
 -   The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] has a new variable designer that allows you to declare and scope variables within your workflows, binding them to activities.  
   
--   In [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provides full IntelliSense capabilities when authoring Visual Basic expressions within your [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)] workflows.  
+-   In [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provides full IntelliSense capabilities when authoring Visual Basic expressions within your [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)] workflows.  
   
 -   The debugging experience now extends into XAML, allowing you to set breakpoints in your XAML workflow definition and to step into your XAML code at runtime, which provides an experience similar to that in managed code.  
   

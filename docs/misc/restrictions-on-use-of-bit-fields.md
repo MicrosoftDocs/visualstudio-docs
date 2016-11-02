@@ -1,7 +1,7 @@
 ---
-title: "Restrictions on Use of Bit Fields"
+title: "Restrictions on Use of Bit Fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Restrictions on Use of Bit Fields
-This content has moved to [C++ Bit Fields](../Topic/C++%20Bit%20Fields.md)
+This content has moved to [C++ Bit Fields](/visual-cpp/cpp/cpp-bit-fields)

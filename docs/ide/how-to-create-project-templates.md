@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Project Templates"
+title: "How to: Create Project Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ This procedure enables you to create a template using the **Export Template** wi
 1.  Create a project.  
   
     > [!NOTE]
-    >  Use only valid identifier characters when naming a project that will be the source for a template. A template exported from a project named with invalid characters can cause compilation errors in future projects based on the template. For more information on valid identifier characters, see [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md).  
+    >  Use only valid identifier characters when naming a project that will be the source for a template. A template exported from a project named with invalid characters can cause compilation errors in future projects based on the template. For more information on valid identifier characters, see [Declared Element Names](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names).  
   
 2.  Edit the project until it is ready to be exported as a template.  
   

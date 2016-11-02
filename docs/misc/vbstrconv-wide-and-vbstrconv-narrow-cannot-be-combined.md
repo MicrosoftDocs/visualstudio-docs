@@ -1,5 +1,5 @@
 ---
-title: "VbStrConv.Wide and VbStrConv.Narrow cannot be combined"
+title: "VbStrConv.Wide and VbStrConv.Narrow cannot be combined | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

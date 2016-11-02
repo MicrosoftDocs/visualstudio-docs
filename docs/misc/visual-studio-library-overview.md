@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Library Overview"
+title: "Visual Studio Library Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 Visual Studio Library is a set of template-based C++ classes for simplifying the creation of VSPackages in native C++. Visual Studio Library includes complete source code, as a set of C++ header files. The header files are installed in *Visual Studio SDK installation path*\VisualStudioIntegration \Common\Source\CPP\VSL\Include\\.  
   
 > [!NOTE]
->  Visual Studio Library relies on the Active Template Library (ATL) for its support of COM objects. For more information, see [Introduction to ATL](../Topic/Introduction%20to%20ATL.md).  
+>  Visual Studio Library relies on the Active Template Library (ATL) for its support of COM objects. For more information, see [Introduction to ATL](/visual-cpp/atl/introduction-to-atl).  
   
  Visual Studio Library supports unit testing, both for its own code and for your code. Some unit tests are included, as follows:  
   

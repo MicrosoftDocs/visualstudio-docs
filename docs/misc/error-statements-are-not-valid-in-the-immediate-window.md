@@ -1,5 +1,5 @@
 ---
-title: "&#39;Error&#39; statements are not valid in the Immediate window"
+title: "&#39;Error&#39; statements are not valid in the Immediate window | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -45,5 +45,5 @@ translation.priority.mt:
 -   Remove `Error` statements from debugging code.  
   
 ## See Also  
- [Error Statement](../Topic/Error%20Statement.md)   
+ [Error Statement](/dotnet/visual-basic/language-reference/statements/error-statement)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

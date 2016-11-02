@@ -1,7 +1,7 @@
 ---
-title: "^ operator (C++)"
+title: "^ operator (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ The `^` operator has two meanings in Visual C++, depending on its context. For m
   
 -   [Bitwise Exclusive OR Operator: ^](../Topic/Bitwise%20Exclusive%20OR%20Operator:%20%5E.md), for use in all flavors of C++.  
   
--   [Handle to Object Operator (^)](../Topic/Handle%20to%20Object%20Operator%20\(%5E\)%20%20\(C++%20Component%20Extensions\).md), for use in [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)] and [!INCLUDE[cppcli](../misc/includes/cppcli_md.md)]
+-   [Handle to Object Operator (^)](/visual-cpp/windows/handle-to-object-operator-hat-cpp-component-extensions), for use in [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)] and [!INCLUDE[cppcli](../misc/includes/cppcli_md.md)]

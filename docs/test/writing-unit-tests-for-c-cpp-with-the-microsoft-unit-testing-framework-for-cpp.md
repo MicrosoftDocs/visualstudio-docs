@@ -1,7 +1,7 @@
 ---
-title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++"
+title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
     -   `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
   
-         The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](../Topic/Importing%20and%20Exporting.md).  
+         The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](/visual-cpp/build/importing-and-exporting).  
   
          Your unit tests can access only functions that are exported from the DLL under test.  
   
@@ -180,7 +180,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
      ![New DLL code project and .h file with API macros](../test/media/utecpp07.png "UteCpp07")  
   
-     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](../Topic/Using%20dllimport%20and%20dllexport%20in%20C++%20Classes.md).  
+     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/visual-cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).  
   
 4.  In the principal .cpp file, add a minimal body for the function:  
   
@@ -410,4 +410,4 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
  [An Overview of Managed/Unmanaged Code Interoperability](http://msdn.microsoft.com/library/ms973872.aspx)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Walkthrough: Creating and Using a Dynamic Link Library (C++)](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Dynamic%20Link%20Library%20\(C++\).md)   
- [Importing and Exporting](../Topic/Importing%20and%20Exporting.md)
+ [Importing and Exporting](/visual-cpp/build/importing-and-exporting)

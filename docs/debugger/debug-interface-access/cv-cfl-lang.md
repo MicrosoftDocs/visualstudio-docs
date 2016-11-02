@@ -1,7 +1,7 @@
 ---
-title: "CV_CFL_LANG"
+title: "CV_CFL_LANG | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -107,7 +107,7 @@ typedef enum CV_CFL_LANG { 
  Application language is Jscript.  
   
  CV_CFL_MSIL  
- Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](../Topic/-LTCG%20\(Link-time%20Code%20Generation\).md) switch.  
+ Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](/visual-cpp/build/reference/ltcg-link-time-code-generation) switch.  
   
  CV_CFL_HLSL  
  Application language is High Level Shader Language.  

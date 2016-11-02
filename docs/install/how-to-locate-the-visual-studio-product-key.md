@@ -1,5 +1,5 @@
 ---
-title: "How to: Locate the Visual Studio Product Key"
+title: "How to: Locate the Visual Studio Product Key | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-01"
 ms.prod: "visual-studio-dev14"
@@ -47,5 +47,5 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../code-quality/inc
   
 ## See Also  
  [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)   
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
  [Visual Studio and MSDN Licensing White Paper](http://go.microsoft.com/fwlink/?LinkId=191417)

@@ -1,10 +1,7 @@
 ---
-title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type"
-langs:
-- csharp
-- vb
+title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +59,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 3.  Reference the following assemblies from your code.  
   
-    ```vb
+    ```vb#  
     Imports System.Runtime.InteropServices  
     Imports Microsoft.VisualStudio  
     Imports Microsoft.VisualStudio.Shell  
@@ -72,7 +69,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     Imports IOleServiceProvider = Microsoft.VisualStudio.OLE.Interop.IServiceProvider  
     ```  
   
-    ```csharp
+    ```c#  
     using System.Runtime.InteropServices;  
     using Microsoft.VisualStudio;  
     using Microsoft.VisualStudio.Shell;  
@@ -80,62 +77,63 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     using Microsoft.VisualStudio.OLE.Interop;  
     using Microsoft.VisualStudio.TextManager.Interop;  
     using IOleServiceProvider = Microsoft.VisualStudio.OLE.Interop.IServiceProvider;  
+  
     ```  
   
 4.  Add a GUID to the `EditorFactory` class by adding the `Guid` attribute immediately before the class declaration.  
   
      You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
   
-    ```vb
+    ```vb#  
     <Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")> _  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     [Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")]   
     ```  
   
 5.  In the class definition, add two private variables to contain the parent package and a service provider.  
   
-    ```vb
+    ```vb#  
     Class EditorFactory  
         Private parentPackage As Package  
         Private serviceProvider As IOleServiceProvider  
-    ```
-
-    ```csharp
+    ```  
+  
+    ```c#  
     class EditorFactory  
     {  
         private Package parentPackage;  
         private IOleServiceProvider serviceProvider;  
     }  
   
-    ```
+    ```  
   
 6.  Add a public class constructor that takes one parameter of type <xref:Microsoft.VisualStudio.Shell.Package>:  
   
-    ```vb
+    ```vb#  
     Public Sub New(ByVal parentPackage As Package)  
         Me.parentPackage = parentPackage  
     End Sub  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     public EditorFactory(Package parentPackage)  
     {  
         this.parentPackage = parentPackage;  
     }  
-    ```
+    ```  
   
 7.  Modify the `EditorFactory` class declaration to derive from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
-    ```vb
+    ```vb#  
     Class EditorFactory Implements IVsEditorFacto  
     ```  
   
-    ```csharp
+    ```c#  
     class EditorFactory : IVsEditorFactory  
   
-    ```
+    ```  
   
 8.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
   
@@ -143,29 +141,29 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 9. Replace the contents of the `IVsEditorFactory.Close` method with the following code.  
   
-    ```vb
+    ```vb#  
     Return VSConstants.S_OK  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     return VSConstants.S_OK;  
-    ```
+    ```  
   
 10. Replace the contents of the `IVsEditorFactory.SetSite` with the following code.  
   
-    ```vb
+    ```vb#  
     Me.serviceProvider = psp  
     Return VSConstants.S_OK  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     this.serviceProvider = psp;  
     return VSConstants.S_OK;  
-    ```
+    ```  
   
 11. Replace the contents of the `IVsEditorFactory.MapLogicalView` method with the following code.  
   
-    ```vb
+    ```vb#  
     Dim retval As Integer = VSConstants.E_NOTIMPL  
     pbstrPhysicalView = Nothing ' We support only one view.  
     If rguidLogicalView.Equals(VSConstants.LOGVIEWID_Designer)OrElse _  
@@ -173,9 +171,9 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
         retval = VSConstants.S_OK  
     End If  
     Return retval  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     int retval = VSConstants.E_NOTIMPL;  
     pbstrPhysicalView = null;   // We support only one view.  
     if (rguidLogicalView.Equals(VSConstants.LOGVIEWID_Designer) ||  
@@ -184,11 +182,11 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
         retval = VSConstants.S_OK;  
     }  
     return retval;  
-    ```
+    ```  
   
 12. Replace the contents of the `IVsEditorFactory.CreateEditorInstance` method with the following code.  
   
-    ```vb
+    ```vb#  
     Dim retval As Integer = VSConstants.E_FAIL          
   
     ' Initialize these to empty to start with   
@@ -253,9 +251,9 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
         End If  
     End If  
     Return retval  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     int retval = VSConstants.E_FAIL;  
   
     // Initialize these to empty to start with  
@@ -327,7 +325,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
         }   
     }   
     return retval;   
-    ```
+    ```  
   
 13. Compile the project and make sure there are no errors.  
   
@@ -348,43 +346,44 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 5.  Add the following user attributes just before the `Guid` attribute.  
   
-    ```vb
+    ```vb#  
     <ProvideEditorFactoryAttribute(GetType(EditorFactory), 101)> _  
     <ProvideEditorExtensionAttribute(GetType(EditorFactory), _  
           ".myext", 32, NameResourceID:=101 )> _  
-    ```
+    ```  
   
-    ```csharp
+    ```c#  
     [ProvideEditorFactory(typeof(EditorFactory), 101)]  
     [ProvideEditorExtension(typeof(EditorFactory),   
           ".myext", 32, NameResourceID = 101)]   
-    ```
+    ```  
   
      The <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the .myext file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
   
 6.  Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
   
-    ```vb  
+    ```vb#  
     Private editorFactory As EditorFactory  
-    ```
+    ```  
   
-    ```csharp  
+    ```c#  
     private EditorFactory editorFactory;  
-    ```
+    ```  
   
 7.  Find the `Initialize` method (you may have to open the `Package Members` hidden region) and add the following code after the call to `base.Initialize()`.  
   
-    ```vb
+    ```vb#  
     'Create our editor factory and register it.   
     Me.editorFactory = New EditorFactory(Me)  
     MyBase.RegisterEditorFactory(Me.editorFactory)  
-    ```
+    ```  
   
-    ```csharp  
+    ```c#  
     // Create our editor factory and register it.  
     this.editorFactory = new EditorFactory(this);  
     base.RegisterEditorFactory(this.editorFactory);  
-    ```
+  
+    ```  
   
 8.  Compile the program and make sure there are no errors.  
   

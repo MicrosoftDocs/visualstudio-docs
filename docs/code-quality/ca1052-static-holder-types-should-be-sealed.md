@@ -1,7 +1,7 @@
 ---
-title: "CA1052: Static holder types should be sealed"
+title: "CA1052: Static holder types should be sealed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ translation.priority.mt:
 |Breaking Change|Breaking|  
   
 ## Cause  
- A public or protected type contains only static members and is not declared with the [sealed](../Topic/sealed%20\(C%23%20Reference\).md) ([NotInheritable](../Topic/NotInheritable%20\(Visual%20Basic\).md)) modifier.  
+ A public or protected type contains only static members and is not declared with the [sealed](/dotnet/csharp/language-reference/keywords/sealed) ([NotInheritable](/dotnet/visual-basic/language-reference/modifiers/notinheritable)) modifier.  
   
 ## Rule Description  
  This rule assumes that a type that contains only static members is not designed to be inherited, because the type does not provide any functionality that can be overridden in a derived type. A type that is not meant to be inherited should be marked with the `sealed` modifier to prohibit its use as a base type.  

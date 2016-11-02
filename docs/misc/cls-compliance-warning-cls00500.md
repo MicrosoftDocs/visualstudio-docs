@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS00500"
+title: "CLS Compliance Warning CLS00500 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
 # CLS Compliance Warning CLS00500
 All names in a CLS-compliant scope shall be distinct independent of kind  
   
- All names introduced in a CLS-compliant scope shall be distinct independent of kind, except where the names are identical and resolved via overloading. For CLS purposes, two names are the same if their lowercase mappings are the same. Only properties and functions may be overloaded. When overloaded, properties and functions shall be overloaded based only on the number and types of their parameters, except the conversion operators, which may also be overloaded based on their return type; see [User-Defined Conversions (C++/CLI)](../Topic/User-Defined%20Conversions%20\(C++-CLI\).md) for more information.  
+ All names introduced in a CLS-compliant scope shall be distinct independent of kind, except where the names are identical and resolved via overloading. For CLS purposes, two names are the same if their lowercase mappings are the same. Only properties and functions may be overloaded. When overloaded, properties and functions shall be overloaded based only on the number and types of their parameters, except the conversion operators, which may also be overloaded based on their return type; see [User-Defined Conversions (C++/CLI)](/visual-cpp/dotnet/user-defined-conversions-cpp-cli) for more information.  
   
  For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

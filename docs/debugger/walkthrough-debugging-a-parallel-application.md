@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging a Parallel Application"
+title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Debugging a Parallel Application
-This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the runtime behavior of code that uses the [Task Parallel Library (TPL)](../Topic/Task%20Parallel%20Library%20\(TPL\).md) or the [Concurrency Runtime](../Topic/Concurrency%20Runtime.md). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.  
+This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the runtime behavior of code that uses the [Task Parallel Library (TPL)](../Topic/Task%20Parallel%20Library%20\(TPL\).md) or the [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.  
   
  This walkthrough teaches these tasks:  
   
@@ -319,6 +319,6 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)   
- [Concurrency Runtime](../Topic/Concurrency%20Runtime.md)   
+ [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)

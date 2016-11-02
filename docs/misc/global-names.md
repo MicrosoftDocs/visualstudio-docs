@@ -1,7 +1,7 @@
 ---
-title: "Global Names"
+title: "Global Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Global Names
-Content has moved to  [Summary of Scope Rules](../Topic/Summary%20of%20Scope%20Rules.md).
+Content has moved to  [Summary of Scope Rules](/visual-cpp/cpp/summary-of-scope-rules).

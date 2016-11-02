@@ -1,7 +1,7 @@
 ---
-title: "Validate code with layer diagrams"
+title: "Validate code with layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -204,7 +204,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
      `/p:ValidateArchitecture=true`  
   
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)], see:  
+ For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)], see:  
   
 -   [Build the application](../Topic/Build%20the%20application.md)  
   

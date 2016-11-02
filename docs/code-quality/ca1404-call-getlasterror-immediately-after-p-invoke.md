@@ -1,7 +1,7 @@
 ---
-title: "CA1404: Call GetLastError immediately after P-Invoke"
+title: "CA1404: Call GetLastError immediately after P-Invoke | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

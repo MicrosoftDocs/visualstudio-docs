@@ -1,7 +1,7 @@
 ---
-title: "IDebugMessageEvent2"
+title: "IDebugMessageEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugMessageEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE implements this interface to send a message to Visual Studio that requires a user response. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](../Topic/QueryInterface.md) to access the `IDebugEvent2` interface.  
+ The DE implements this interface to send a message to Visual Studio that requires a user response. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface.  
   
  The implementation of this interface must communicate Visual Studio's call of [SetResponse](../../../extensibility/debugger/reference/idebugmessageevent2-setresponse.md) to the DE. For example, this can be done with a message posted to the DE's message handling thread, or the object implementing this interface could hold a reference to the DE and call back to the DE with the response passed into `IDebugMessageEvent2::SetResponse`.  
   

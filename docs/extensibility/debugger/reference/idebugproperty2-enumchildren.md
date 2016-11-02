@@ -1,7 +1,7 @@
 ---
-title: "IDebugProperty2::EnumChildren"
+title: "IDebugProperty2::EnumChildren | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

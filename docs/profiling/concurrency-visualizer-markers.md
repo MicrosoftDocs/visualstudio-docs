@@ -1,7 +1,7 @@
 ---
-title: "Concurrency Visualizer Markers"
+title: "Concurrency Visualizer Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,11 +63,11 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 -   [Parallel LINQ (PLINQ)](../Topic/Parallel%20LINQ%20\(PLINQ\).md)  
   
--   [Concurrency Runtime](../Topic/Concurrency%20Runtime.md)  
+-   [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)  
   
 -   [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
   
--   [C++ AMP (C++ Accelerated Massive Parallelism)](../Topic/C++%20AMP%20\(C++%20Accelerated%20Massive%20Parallelism\).md)  
+-   [C++ AMP (C++ Accelerated Massive Parallelism)](/visual-cpp/parallel/amp/cpp-amp-cpp-accelerated-massive-parallelism)  
   
  You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
   

@@ -1,7 +1,7 @@
 ---
-title: "CA1003: Use generic event handler instances"
+title: "CA1003: Use generic event handler instances | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -82,4 +82,4 @@ translation.priority.ht:
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)  
   
 ## See Also  
- [Generics](../Topic/Generics%20\(C%23%20Programming%20Guide\).md)
+ [Generics](/dotnet/csharp/programming-guide/generics/index)

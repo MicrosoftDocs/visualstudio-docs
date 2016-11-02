@@ -1,7 +1,7 @@
 ---
-title: "Static (C++)"
+title: "Static (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Static (C++)
-This content has moved to [Storage classes](../Topic/Storage%20classes%20\(C++\).md)
+This content has moved to [Storage classes](/visual-cpp/cpp/storage-classes-cpp)

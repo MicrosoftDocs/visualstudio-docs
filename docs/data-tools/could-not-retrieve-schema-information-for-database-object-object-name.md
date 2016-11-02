@@ -1,5 +1,5 @@
 ---
-title: "Could not retrieve schema information for database object &lt;object name&gt;"
+title: "Could not retrieve schema information for database object &lt;object name&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

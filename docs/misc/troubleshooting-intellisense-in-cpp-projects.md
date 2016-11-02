@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting IntelliSense in C++ Projects"
+title: "Troubleshooting IntelliSense in C++ Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IntelliSense can stop working under certain conditions. Use the following steps 
   
     1.  If the project is a Makefile project, see [How to: Enable IntelliSense for Makefile Projects](../Topic/How%20to:%20Enable%20IntelliSense%20for%20Makefile%20Projects.md).  
   
-2.  Make sure that stdafx.h is on the include path. For more information about include paths in Visual C++ projects, see [#include Directive (C/C++)](../Topic/%23include%20Directive%20\(C-C++\).md) and [/I (Additional Include Directories)](../Topic/-I%20\(Additional%20Include%20Directories\).md).  
+2.  Make sure that stdafx.h is on the include path. For more information about include paths in Visual C++ projects, see [#include Directive (C/C++)](/visual-cpp/preprocessor/hash-include-directive-c-cpp) and [/I (Additional Include Directories)](/visual-cpp/build/reference/i-additional-include-directories).  
   
 ## IntelliSense Limitations  
  IntelliSense does not work in C++ projects under the following circumstances:  

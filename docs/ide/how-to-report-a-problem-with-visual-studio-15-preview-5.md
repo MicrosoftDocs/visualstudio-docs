@@ -1,5 +1,5 @@
 ---
-title: "How to Report a Problem with Visual Studio &quot;15&quot; Preview 5"
+title: "How to Report a Problem with Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-05"
 ms.prod: "visual-studio-dev14"

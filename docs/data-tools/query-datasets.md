@@ -1,5 +1,5 @@
 ---
-title: "Query datasets"
+title: "Query datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

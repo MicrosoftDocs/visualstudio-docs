@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify Debugger Settings"
+title: "How to: Specify Debugger Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,4 +61,4 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify va
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)   
  [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Common Macros for Build Commands and Properties](../Topic/Common%20Macros%20for%20Build%20Commands%20and%20Properties.md)
+ [Common Macros for Build Commands and Properties](/visual-cpp/ide/common-macros-for-build-commands-and-properties)

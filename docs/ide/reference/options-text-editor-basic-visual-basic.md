@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, Basic (Visual Basic)"
+title: "Options, Text Editor, Basic (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:  
   
  **Automatic insertion of end constructs**  
- When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.  
+ When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.  
   
  **Pretty Listing (reformatting) of code**  
  The text editor reformats your code as appropriate. When this option is selected, the code editor will:  

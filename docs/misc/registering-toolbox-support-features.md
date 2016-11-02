@@ -1,7 +1,7 @@
 ---
-title: "Registering Toolbox Support Features"
+title: "Registering Toolbox Support Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ VSPackages must update the registry if they extend the default set of **Toolbox*
     > [!NOTE]
     >  VSPackages developed with the Managed Package Framework use <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> applied to their implementation of the <xref:Microsoft.VisualStudio.Shell.Package> class, and the <xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> class applied to their implementations of the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> class to register this support.  
   
- Unmanaged VSPackages must explicitly update the registry either by manually editing it or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md).  
+ Unmanaged VSPackages must explicitly update the registry either by manually editing it or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts).  
   
 ## Automatic Toolbox Tab Selection  
  Editors or designers, provided by an instance of an editor factory object, can require a particular toolbox tab or category to be made active when they are themselves active. For example, if a forms designer is activated, you may want the **All Windows Forms** tab selected.  

@@ -1,7 +1,7 @@
 ---
-title: "toascii"
+title: "toascii | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,4 +45,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # toascii
-This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](../Topic/toascii,%20__toascii.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](/visual-cpp/c-runtime-library/reference/toascii-toascii) instead.

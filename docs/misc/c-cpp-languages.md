@@ -1,7 +1,7 @@
 ---
-title: "C-C++ Languages"
+title: "C-C++ Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,4 +37,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # C/C++ Languages
-This content has moved to [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md).
+This content has moved to [C/C++ Language and Standard Libraries](/visual-cpp/cpp/c-cpp-language-and-standard-libraries).

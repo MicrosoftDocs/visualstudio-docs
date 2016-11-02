@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1207"
+title: "Resource Compiler Fatal Error RC1207 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,4 +39,4 @@ translation.priority.mt:
 # Resource Compiler Fatal Error RC1207
 default code page is invalid  
   
- The code page specified by the **RCCODEPAGE** environment variable is not valid. See [Code Pages](../Topic/Code%20Pages.md) in the *Run-Time Library Reference* for more information.
+ The code page specified by the **RCCODEPAGE** environment variable is not valid. See [Code Pages](/visual-cpp/c-runtime-library/code-pages) in the *Run-Time Library Reference* for more information.

@@ -1,7 +1,7 @@
 ---
-title: "__delegate"
+title: "__delegate | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # __delegate
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [delegate  (C++ Component Extensions)](../Topic/delegate%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [delegate  (C++ Component Extensions)](/visual-cpp/windows/delegate-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Defines a reference type that can be used to encapsulate a method with a specific signature.  
   

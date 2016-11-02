@@ -1,7 +1,7 @@
 ---
-title: "IDebugObject2"
+title: "IDebugObject2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ IDebugObject2 : IDebugObject
  The expression evaluator implements this interface to offer support for aliases and access to information about the object.  
   
 ## Notes for Callers  
- An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](../Topic/QueryInterface.md). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
+ An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods on the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface, the `IDebugObject2` interface implements the following:  

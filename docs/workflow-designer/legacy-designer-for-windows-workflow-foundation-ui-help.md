@@ -1,5 +1,5 @@
 ---
-title: "Legacy Designer for Windows Workflow Foundation UI Help"
+title: "Legacy Designer for Windows Workflow Foundation UI Help | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Legacy Designer for Windows Workflow Foundation UI Help
-This section contains the context-sensitive Help topics for the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)]. Use the legacy designer when you need to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
+This section contains the context-sensitive Help topics for the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. Use the legacy designer when you need to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
   
  You can access these topics from the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] user interface by pressing **F1** when a legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
   

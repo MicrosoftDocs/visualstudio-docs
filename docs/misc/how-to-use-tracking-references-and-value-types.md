@@ -1,7 +1,7 @@
 ---
-title: "How to: Use Tracking References and Value Types"
+title: "How to: Use Tracking References and Value Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,4 +37,4 @@ translation.priority.mt:
 Content moved to [How to: Use Tracking References in C++/CLI](../Topic/How%20to:%20Use%20Tracking%20References%20in%20C++-CLI.md).  
   
 ## See Also  
- [Tracking Reference Operator](../Topic/Tracking%20Reference%20Operator%20\(C++%20Component%20Extensions\).md)
+ [Tracking Reference Operator](/visual-cpp/windows/tracking-reference-operator-cpp-component-extensions)

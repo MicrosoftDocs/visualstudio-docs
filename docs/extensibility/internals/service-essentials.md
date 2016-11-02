@@ -1,7 +1,7 @@
 ---
-title: "Service Essentials"
+title: "Service Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Registering Services](../../misc/registering-services.md).  
   
--   After you obtain a service, use [QueryInterface](../Topic/QueryInterface.md) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
+-   After you obtain a service, use [QueryInterface](/visual-cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
     ```vb#  
     TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
@@ -73,5 +73,5 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 ## See Also  
  [List of Available Services](../../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)   
- [Casting and Type Conversions](../Topic/Casting%20and%20Type%20Conversions%20\(C%23%20Programming%20Guide\).md)   
- [Casting](../Topic/Casting.md)
+ [Casting and Type Conversions](/dotnet/csharp/programming-guide/types/casting-and-type-conversions)   
+ [Casting](/visual-cpp/cpp/casting)

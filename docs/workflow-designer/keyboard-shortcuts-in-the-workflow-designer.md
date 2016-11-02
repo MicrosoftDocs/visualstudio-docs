@@ -1,5 +1,5 @@
 ---
-title: "Keyboard Shortcuts in the Workflow Designer"
+title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -32,7 +32,7 @@ translation.priority.ht:
 All of the core functionality of the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] can be accessed by keyboard.  
   
 ## Navigating the Workflow Designer using the keyboard  
- Inside [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], the global shortcuts and debugging shortcuts apply to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. Also, a number of [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] specific keyboard shortcuts have been created. In [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], all of the keyboard shortcuts can be remapped. However, in a rehosted application, these keyboard shortcuts are hardcoded.  
+ Inside [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], the global shortcuts and debugging shortcuts apply to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. Also, a number of [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] specific keyboard shortcuts have been created. In [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], all of the keyboard shortcuts can be remapped. However, in a rehosted application, these keyboard shortcuts are hardcoded.  
   
 ### Workflow Designer keyboard shortcuts  
  The following table summarizes the default keyboard shortcuts assigned to [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] commands.  
@@ -54,7 +54,7 @@ All of the core functionality of the [!INCLUDE[wfd1](../workflow-designer/includ
 |CTRL+ALT+F6|Moves keyboard focus from the current UI area to the next area in the sequence. The order is as follows:<br /><br /> 1.  Breadcrumb navigation bar.<br />2.  Designer surface<br />3.  Arguments/Variables/Imports designer if open<br />4.  Shell|  
   
 ### Flowchart  
- The following list shows the gestures used to construct a flowchart by keyboard. As in the rest of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)], activities are added to the designer surface using the global toolbox shortcuts provided with [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
+ The following list shows the gestures used to construct a flowchart by keyboard. As in the rest of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)], activities are added to the designer surface using the global toolbox shortcuts provided with [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
 -   To move an activity, select the activity and use the arrow keys to reposition it.  
   
@@ -97,4 +97,4 @@ All of the core functionality of the [!INCLUDE[wfd1](../workflow-designer/includ
   
     6.  Redo  
   
--   To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).
+-   To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).

@@ -1,7 +1,7 @@
 ---
-title: "Common MSBuild Project Properties"
+title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -124,7 +124,7 @@ The following table lists frequently used properties that are defined in the Vis
 |Satellite_Version|Specifies the version information for the satellite assembly.|  
 |Satellite_Win32Icon|Inserts an .ico icon file in the satellite assembly.|  
 |Satellite_Win32Resource|Inserts a Win32 resource (.res file) into the satellite assembly.|  
-|SubsystemVersion|Specifies the minimum version of the subsystem that the generated executable file can use. This property is equivalent to the `/subsystemversion` compiler switch. For information about the default value of this property, see [/subsystemversion (Visual Basic)](../Topic/-subsystemversion%20\(Visual%20Basic\).md) or [/subsystemversion (C# Compiler Options)](../Topic/-subsystemversion%20\(C%23%20Compiler%20Options\).md).|  
+|SubsystemVersion|Specifies the minimum version of the subsystem that the generated executable file can use. This property is equivalent to the `/subsystemversion` compiler switch. For information about the default value of this property, see [/subsystemversion (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/subsystemversion) or [/subsystemversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/subsystemversion-compiler-option).|  
 |TargetCompactFramework|The version of the .NET Compact Framework that is required to run the application that you are building. Specifying this lets you reference certain framework assemblies that you may not be able to reference otherwise.|  
 |TargetFrameworkVersion|The version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is required to run the application that you are building. Specifying this lets you reference certain framework assemblies that you may not be able to reference otherwise.|  
 |TreatWarningsAsErrors|A boolean parameter that, if `true`, causes all warnings to be treated as errors. This parameter is equivalent to the `/nowarn` compiler switch.|  

@@ -1,7 +1,7 @@
 ---
-title: "Compile Page, Project Designer (Visual Basic)"
+title: "Compile Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,9 +69,9 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  **Option explicit**  
  Specifies whether to allow implicit declaration of variables. Select **On** to require explicit declaration of variables. This causes the compiler to report errors if variables are not declared before they are used. Select **Off** to allow implicit declaration of variables.  
   
- This setting corresponds to the [/optionexplicit](../Topic/-optionexplicit.md) compiler option.  
+ This setting corresponds to the [/optionexplicit](/dotnet/visual-basic/reference/command-line-compiler/optionexplicit) compiler option.  
   
- If a source code file contains an [Option Explicit Statement](../Topic/Option%20Explicit%20Statement%20\(Visual%20Basic\).md), the `On` or `Off` value in the statement overrides the **Option Explicit** setting on the **Compile page**.  
+ If a source code file contains an [Option Explicit Statement](/dotnet/visual-basic/language-reference/statements/option-explicit-statement), the `On` or `Off` value in the statement overrides the **Option Explicit** setting on the **Compile page**.  
   
  When you create a new project, the **Option Explicit** setting on the **Compile page** is set to the value of the **Option Explicit** setting in the **Options** dialog box. To view or change the setting in this dialog box, on the **Tools** menu, click **Options**. In the **Options** dialog box, expand **Projects and Solutions**, and then click **VB Defaults**. The initial default setting of **Option Explicit** in **VB Defaults** is **On**.  
   
@@ -86,15 +86,15 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
   
 -   Implicit typing that results in an `Object` type  
   
- Implicit narrowing conversion errors occur when there is an implicit data type conversion that is a narrowing conversion. For more information, see [Option Strict Statement](../Topic/Option%20Strict%20Statement.md), [Implicit and Explicit Conversions](../Topic/Implicit%20and%20Explicit%20Conversions%20\(Visual%20Basic\).md), and [Widening and Narrowing Conversions](../Topic/Widening%20and%20Narrowing%20Conversions%20\(Visual%20Basic\).md).  
+ Implicit narrowing conversion errors occur when there is an implicit data type conversion that is a narrowing conversion. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Implicit and Explicit Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions), and [Widening and Narrowing Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions).  
   
- An object is late bound when it is assigned to a property or method of a variable that is declared to be of type `Object`. For more information, see [Option Strict Statement](../Topic/Option%20Strict%20Statement.md) and [Early and Late Binding](../Topic/Early%20and%20Late%20Binding%20\(Visual%20Basic\).md).  
+ An object is late bound when it is assigned to a property or method of a variable that is declared to be of type `Object`. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement) and [Early and Late Binding](/dotnet/visual-basic/programming-guide/language-features/early-late-binding/early-and-late-binding).  
   
- Implicit object type errors occur when an appropriate type cannot be inferred for a declared variable, so a type of `Object` is inferred. This primarily occurs when you use a `Dim` statement to declare a variable without using an `As` clause, and `Option Infer` is off. For more information, see [Option Strict Statement](../Topic/Option%20Strict%20Statement.md), [Option Infer Statement](../Topic/Option%20Infer%20Statement.md), and the [Visual Basic Language Specification](../Topic/Visual%20Basic%20Language%20Specification.md).  
+ Implicit object type errors occur when an appropriate type cannot be inferred for a declared variable, so a type of `Object` is inferred. This primarily occurs when you use a `Dim` statement to declare a variable without using an `As` clause, and `Option Infer` is off. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement), and the [Visual Basic Language Specification](/dotnet/visual-basic/reference/visual-basic-language-specification).  
   
- The **Option Strict** setting corresponds to the [/optionstrict](../Topic/-optionstrict.md) compiler option.  
+ The **Option Strict** setting corresponds to the [/optionstrict](/dotnet/visual-basic/reference/command-line-compiler/optionstrict) compiler option.  
   
- If a source code file contains an [Option Strict Statement](../Topic/Option%20Strict%20Statement.md), the `On` or `Off` value in the statement overrides the **Option Strict** setting on the **Compile page**.  
+ If a source code file contains an [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), the `On` or `Off` value in the statement overrides the **Option Strict** setting on the **Compile page**.  
   
  When you create a project, the **Option Strict** setting on the **Compile page** is set to the value of the **Option Strict** setting in the **Options** dialog box. To view or change the setting in this dialog box, on the **Tools** menu, click **Options**. In the **Options** dialog box, expand **Projects and Solutions**, and then click **VB Defaults**. The initial default setting of **Option Strict** in **VB Defaults** is **Off**.  
   
@@ -113,25 +113,25 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  **Option compare**  
  Specifies the type of string comparison to use. Select **Binary** to instruct the compiler to use binary, case-sensitive string comparisons. Select **Text** to use locale-specific, case-insensitive text string comparisons.  
   
- This setting corresponds to the [/optioncompare](../Topic/-optioncompare.md) compiler option.  
+ This setting corresponds to the [/optioncompare](/dotnet/visual-basic/reference/command-line-compiler/optioncompare) compiler option.  
   
- If a source code file contains an [Option Compare Statement](../Topic/Option%20Compare%20Statement.md), the `Binary` or `Text` value in the statement overrides the **Option Compare** setting on the **Compile page**.  
+ If a source code file contains an [Option Compare Statement](/dotnet/visual-basic/language-reference/statements/option-compare-statement), the `Binary` or `Text` value in the statement overrides the **Option Compare** setting on the **Compile page**.  
   
  When you create a project, the **Option Compare** setting on the **Compile page** is set to the value of the **Option Compare** setting in the **Options** dialog box. To view or change the setting in this dialog box, on the **Tools** menu, click **Options**. In the **Options** dialog box, expand **Projects and Solutions**, and then click **VB Defaults**. The initial default setting of **Option Compare** in **VB Defaults** is **Binary**.  
   
  **Option infer**  
  Specifies whether to allow local type inference in variable declarations. Select **On** to allow the use of local type inference. Select **Off** to block local type inference.  
   
- This setting corresponds to the [/optioninfer](../Topic/-optioninfer.md) compiler option.  
+ This setting corresponds to the [/optioninfer](/dotnet/visual-basic/reference/command-line-compiler/optioninfer) compiler option.  
   
- If a source code file contains an [Option Infer Statement](../Topic/Option%20Infer%20Statement.md), the `On` or `Off` value in the statement overrides the **Option Infer** setting on the **Compile page**.  
+ If a source code file contains an [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement), the `On` or `Off` value in the statement overrides the **Option Infer** setting on the **Compile page**.  
   
  When you create a project, the **Option Infer** setting on the **Compile page** is set to the value of the **Option Infer** setting in the **Options** dialog box. To view or change the setting in this dialog box, on the **Tools** menu, click **Options**. In the **Options** dialog box, expand **Projects and Solutions**, and then click **VB Defaults**. The initial default setting of **Option Infer** in **VB Defaults** is **On**.  
   
  **Target CPU**  
  Specifies the processor to be targeted by the output file. Specify **x86** for any 32-bit Intel-compatible processor, **x64** for any 64-bit Intel-compatible processor, **ARM** for any ARM processor, or **Any CPU** to specify that any processor is acceptable. **Any CPU** is the default value for new projects because it allows the application to run on the largest number of hardware types.  
   
- For more information, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
+ For more information, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).  
   
  **Prefer 32-bit**  
  If the **Prefer32-bit** check box is selected, the application runs as a 32-bit application on both 32-bit and 64-bit versions of Windows. Otherwise, the application runs as a 32-bit application on 32-bit versions of Windows and as a 64-bit application on 64-bit versions of Windows.  
@@ -154,7 +154,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  **Disable all warnings**  
  Specifies whether to allow the compiler to issue notifications as specified in the **Condition and Notification** table described earlier in this document. By default, this check box is cleared. Select this check box to instruct the compiler not to issue warnings or errors.  
   
- This setting corresponds to the [/nowarn](../Topic/-nowarn.md) compiler option.  
+ This setting corresponds to the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) compiler option.  
   
  **Treat all warnings as errors**  
  Specifies how to treat warnings. By default, this check box is cleared, so that all warning notifications remain set to **Warning**. Select this check box to change all warning notifications to **Error**.  
@@ -164,7 +164,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  **Generate XML documentation file**  
  Specifies whether to generate documentation information. By default, this check box is selected, instructing the compiler to generate documentation information and include it in an XML file. Clear this check box to instruct the compiler not to create documentation.  
   
- This setting corresponds to the [/doc](../Topic/-doc.md) compiler option.  
+ This setting corresponds to the [/doc](/dotnet/visual-basic/reference/command-line-compiler/doc) compiler option.  
   
  **Register for COM interop**  
  Specifies whether your managed application will expose a COM object (a COM-callable wrapper) that enables a COM object to interact with the application.  
@@ -183,5 +183,5 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
  [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
- [Visual Basic Command-Line Compiler](../Topic/Visual%20Basic%20Command-Line%20Compiler.md)   
+ [Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index)   
  [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)

@@ -1,7 +1,7 @@
 ---
-title: "How to: Compose Delegates"
+title: "How to: Compose Delegates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.ht:
 Content moved to [How to: Define and Use Delegates (C++/CLI)](../Topic/How%20to:%20Define%20and%20Use%20Delegates%20\(C++-CLI\).md)  
   
 ## See Also  
- [delegate  (C++ Component Extensions)](../Topic/delegate%20%20\(C++%20Component%20Extensions\).md)
+ [delegate  (C++ Component Extensions)](/visual-cpp/windows/delegate-cpp-component-extensions)

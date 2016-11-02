@@ -1,5 +1,5 @@
 ---
-title: "Method &#39;&lt;methodname&gt;&#39; has a link demand, but overrides or implements the following methods which do not have a link demand. A security hole may exist:"
+title: "Method &#39;&lt;methodname&gt;&#39; has a link demand, but overrides or implements the following methods which do not have a link demand. A security hole may exist: | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

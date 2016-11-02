@@ -1,7 +1,7 @@
 ---
-title: "Compiler Errors when Implementing a CObject-Derived Class"
+title: "Compiler Errors when Implementing a CObject-Derived Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -94,4 +94,4 @@ int main()
 ```  
   
 ## See Also  
- [Compiler Warnings C4600 Through C4799](../Topic/Compiler%20Warnings%20C4600%20Through%20C4799.md)
+ [Compiler Warnings C4600 Through C4799](/visual-cpp/error-messages/compiler-warnings/compiler-warnings-c4600-through-c4799)

@@ -1,7 +1,7 @@
 ---
-title: "Declarations"
+title: "Declarations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Declarations
-This content has moved to [Declarations and Definitions](../Topic/Declarations%20and%20Definitions%20\(C++\).md).
+This content has moved to [Declarations and Definitions](/visual-cpp/cpp/declarations-and-definitions-cpp).

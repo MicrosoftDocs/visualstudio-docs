@@ -1,7 +1,7 @@
 ---
-title: "IDebugArrayObject"
+title: "IDebugArrayObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ IDebugArrayObject : IDebugObject
  The expression evaluator implements this interface to represent an array.  
   
 ## Notes for Callers  
- The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](../Topic/QueryInterface.md) if the object represents an array.  
+ The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface) if the object represents an array.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the `IDebugObject` interface, the following methods are implemented on the `IDebugArrayObject` interface.  

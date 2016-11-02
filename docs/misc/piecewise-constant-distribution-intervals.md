@@ -1,7 +1,7 @@
 ---
-title: "piecewise_constant_distribution::intervals"
+title: "piecewise_constant_distribution::intervals | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,4 +61,4 @@ std::vector<RealType> intervals() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [piecewise_constant_distribution Class](../Topic/piecewise_constant_distribution%20Class.md)
+ [piecewise_constant_distribution Class](/visual-cpp/standard-library/piecewise-constant-distribution-class)

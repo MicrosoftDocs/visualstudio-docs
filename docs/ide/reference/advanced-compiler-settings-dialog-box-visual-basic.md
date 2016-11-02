@@ -1,7 +1,7 @@
 ---
-title: "Advanced Compiler Settings Dialog Box (Visual Basic)"
+title: "Advanced Compiler Settings Dialog Box (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,7 +66,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
  Select **None**, **Full**, or **pdb-only** from the list. **None** specifies that no debugging information be generated. **Full** specifies that full debugging information be generated, and **pdb-only** specifies that only PDB debugging information be generated. By default, this option is set to **Full**.  
   
 ## Compilation Constants  
- Conditional compilation constants have an effect similar to that of using a [#Const](../Topic/%23Const%20Directive.md) preprocessor directive in a source file, except that constants defined are public and apply to all files in the project. You can use conditional compilation constants together with the [#If...Then...#Else](../Topic/%23If...Then...%23Else%20Directives.md) directive to compile source files conditionally. See [Conditional Compilation](../Topic/Conditional%20Compilation%20in%20Visual%20Basic.md).  
+ Conditional compilation constants have an effect similar to that of using a [#Const](/dotnet/visual-basic/language-reference/directives/const-directive) preprocessor directive in a source file, except that constants defined are public and apply to all files in the project. You can use conditional compilation constants together with the [#If...Then...#Else](/dotnet/visual-basic/language-reference/directives/if-then-else-directives) directive to compile source files conditionally. See [Conditional Compilation](/dotnet/visual-basic/programming-guide/program-structure/conditional-compilation).  
   
  **Define DEBUG constant**  
  By default, this check box is selected, specifying that a DEBUG constant be set.  

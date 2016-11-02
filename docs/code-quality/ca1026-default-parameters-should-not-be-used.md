@@ -1,7 +1,7 @@
 ---
-title: "CA1026: Default parameters should not be used"
+title: "CA1026: Default parameters should not be used | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ translation.priority.ht:
 ## Rule Description  
  Methods that use default parameters are allowed under the Common Language Specification (CLS); however, the CLS allows compilers to ignore the values that are assigned to these parameters. Code that is written for compilers that ignore default parameter values must explicitly provide arguments for each default parameter. To maintain the behavior that you want across programming languages, methods that use default parameters should be replaced with method overloads that provide the default parameters.  
   
- The compiler ignores the values of default parameters for Managed Extension for C++ when it accesses managed code. The Visual Basic compiler supports methods that have default parameters that use the [Optional](../Topic/Optional%20\(Visual%20Basic\).md) keyword.  
+ The compiler ignores the values of default parameters for Managed Extension for C++ when it accesses managed code. The Visual Basic compiler supports methods that have default parameters that use the [Optional](/dotnet/visual-basic/language-reference/modifiers/optional) keyword.  
   
 ## How to Fix Violations  
  To fix a violation of this rule, replace the method that uses default parameters with method overloads that supply the default parameters.  

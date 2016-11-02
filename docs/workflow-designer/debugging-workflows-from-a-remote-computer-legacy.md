@@ -1,5 +1,5 @@
 ---
-title: "Debugging Workflows from a Remote Computer (Legacy)"
+title: "Debugging Workflows from a Remote Computer (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

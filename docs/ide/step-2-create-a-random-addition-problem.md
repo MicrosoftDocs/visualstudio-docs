@@ -1,7 +1,7 @@
 ---
-title: "Step 2: Create a Random Addition Problem"
+title: "Step 2: Create a Random Addition Problem | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
      `Random` is known as an object. You've probably heard that word before, and you learn more about what it means for programming in the next tutorial. For now, just remember that you can use `new` statements to create buttons, labels, panels, OpenFileDialogs, ColorDialogs, SoundPlayers, Randoms, and even forms, and those items are referred to as objects. When you run your program, the form is started, and the code behind it creates a `Random` object and names it **randomizer**.  
   
-     Soon you'll build a method to check the answers, so your quiz must use variables to store the random numbers that it generates for each problem. See [Variables](../Topic/Variables%20in%20Visual%20Basic.md) or [Types](../Topic/Types%20\(C%23%20Programming%20Guide\).md). To properly use variables, you must declare them, which means listing their names and data types.  
+     Soon you'll build a method to check the answers, so your quiz must use variables to store the random numbers that it generates for each problem. See [Variables](/dotnet/visual-basic/programming-guide/language-features/variables/index) or [Types](/dotnet/csharp/programming-guide/types/index). To properly use variables, you must declare them, which means listing their names and data types.  
   
 4.  Add two integer variables to the form, and name them **addend1** and **addend2**.  
   

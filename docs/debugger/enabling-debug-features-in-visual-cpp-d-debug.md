@@ -1,7 +1,7 @@
 ---
-title: "Enabling Debug Features in Visual C++ (-D_DEBUG)"
+title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], debugging features
   
  When **_DEBUG** is defined, the compiler compiles sections of code surrounded by **#ifdef _DEBUG** and `#endif`.  
   
- The Debug configuration of an MFC program must link with a Debug version of the MFC library. The MFC header files determine the correct version of the MFC library to link with based on the symbols you have defined, such as **_DEBUG** and **_UNICODE**. For details, see [MFC Library Versions](../Topic/MFC%20Library%20Versions.md).  
+ The Debug configuration of an MFC program must link with a Debug version of the MFC library. The MFC header files determine the correct version of the MFC library to link with based on the symbols you have defined, such as **_DEBUG** and **_UNICODE**. For details, see [MFC Library Versions](/visual-cpp/mfc/mfc-library-versions).  
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   

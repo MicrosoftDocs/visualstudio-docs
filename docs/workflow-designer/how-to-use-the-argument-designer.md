@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Argument Designer"
+title: "How to: Use the Argument Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -34,7 +34,7 @@ Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/incl
   
 ### To create a new argument  
   
-1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
+1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
 2.  Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.  
   

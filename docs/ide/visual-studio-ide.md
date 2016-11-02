@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio IDE"
+title: "Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 ## Visual Studio Setup  
  You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](http://www.visualstudio.com/products/visual-studio-with-msdn-overview-vs).  
   
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md).  
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md).  
   
 ## IDE Basics  
  The following image shows the Visual Studio IDE with an open project, and the Solution Explorer window for navigating in the project files, and the Team Explorer window for navigating source control and work item tracking. The features in the title bar that are called out are explained below in more detail.  
@@ -215,7 +215,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 |[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../ide/reference/visual-studio-reference.md)|  
   
 ## See Also  
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   

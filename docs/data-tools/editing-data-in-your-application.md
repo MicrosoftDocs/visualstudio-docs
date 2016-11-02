@@ -1,5 +1,5 @@
 ---
-title: "Editing Data in Your Application"
+title: "Editing Data in Your Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

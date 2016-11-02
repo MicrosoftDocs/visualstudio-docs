@@ -1,7 +1,7 @@
 ---
-title: "Configuring Performance Sessions"
+title: "Configuring Performance Sessions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

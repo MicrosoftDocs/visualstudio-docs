@@ -1,7 +1,7 @@
 ---
-title: "cabs"
+title: "cabs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,4 +45,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # cabs
-This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](../Topic/_cabs.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](/visual-cpp/c-runtime-library/reference/cabs) instead.

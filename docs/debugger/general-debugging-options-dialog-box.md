@@ -1,7 +1,7 @@
 ---
-title: "General, Debugging, Options Dialog Box"
+title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Break when exceptions cross AppDomain or managed/native boundaries**  
  In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when the following conditions are true:  
   
- 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](../Topic/Introduction%20to%20COM%20Interop%20\(Visual%20Basic\).md).  
+ 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
   
  2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
   
@@ -134,7 +134,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Load dll exports**  
  Loads dll export tables. Symbol information from dll export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you do not have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.  
   
- To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](../Topic/-EXPORTS.md).  
+ To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/visual-cpp/build/reference/dash-exports).  
   
  **Show parallel stacks diagram bottom-up**  
  Controls the direction in which stacks are displayed in the **Parallel Stacks** window.  

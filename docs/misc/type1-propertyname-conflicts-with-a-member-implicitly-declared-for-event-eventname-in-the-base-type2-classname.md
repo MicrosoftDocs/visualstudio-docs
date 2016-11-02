@@ -1,5 +1,5 @@
 ---
-title: "&lt;type1&gt; &#39;&lt;propertyname&gt;&#39; conflicts with a member implicitly declared for event &#39;&lt;eventname&gt;&#39; in the base &lt;type2&gt; &#39;&lt;classname&gt;&#39;"
+title: "&lt;type1&gt; &#39;&lt;propertyname&gt;&#39; conflicts with a member implicitly declared for event &#39;&lt;eventname&gt;&#39; in the base &lt;type2&gt; &#39;&lt;classname&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -49,7 +49,7 @@ A property is declared with the same name as an implicit member formed from an e
 2.  If you do not intend to hide the base class member, change the property name.  
   
 ## See Also  
- [Property Statement](../Topic/Property%20Statement.md)   
- [Event Statement](../Topic/Event%20Statement.md)   
- [Shadows](../Topic/Shadows%20\(Visual%20Basic\).md)   
- [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)
+ [Property Statement](/dotnet/visual-basic/language-reference/statements/property-statement)   
+ [Event Statement](/dotnet/visual-basic/language-reference/statements/event-statement)   
+ [Shadows](/dotnet/visual-basic/language-reference/modifiers/shadows)   
+ [Shadowing in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/declared-elements/shadowing)

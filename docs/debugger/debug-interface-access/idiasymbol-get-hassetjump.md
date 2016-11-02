@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_hasSetJump"
+title: "IDiaSymbol::get_hasSetJump | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_hasSetJump
-Retrieves a flag that specifies whether the function contains a use of the [setjmp](../Topic/setjmp.md) command (paired with the [longjmp](../Topic/longjmp.md) command, these form the C-style method of exception handling).  
+Retrieves a flag that specifies whether the function contains a use of the [setjmp](/visual-cpp/c-runtime-library/reference/setjmp) command (paired with the [longjmp](/visual-cpp/c-runtime-library/reference/longjmp) command, these form the C-style method of exception handling).  
   
 ## Syntax  
   
@@ -64,5 +64,5 @@ HRESULT get_hasSetJump(
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasLongJump](../../debugger/debug-interface-access/idiasymbol-get-haslongjump.md)   
- [longjmp](../Topic/longjmp.md)   
- [setjmp](../Topic/setjmp.md)
+ [longjmp](/visual-cpp/c-runtime-library/reference/longjmp)   
+ [setjmp](/visual-cpp/c-runtime-library/reference/setjmp)

@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug Injected Code"
+title: "How to: Debug Injected Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,11 +49,11 @@ translation.priority.ht:
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
- Using attributes can greatly simplify C++ programming. For more information, see [Concepts](../Topic/Attributed%20Programming%20Concepts.md). Some attributes are interpreted directly by the compiler. Other attributes inject code into the program source, which the compiler then compiles. This injected code makes programming easier by reducing the amount of code you have to write. Sometimes, however, a bug may cause your application to fail while it is executing injected code. When this happens, you will probably want to look at the injected code. Visual Studio provides two ways for you to see injected code:  
+ Using attributes can greatly simplify C++ programming. For more information, see [Concepts](/visual-cpp/windows/attributed-programming-concepts). Some attributes are interpreted directly by the compiler. Other attributes inject code into the program source, which the compiler then compiles. This injected code makes programming easier by reducing the amount of code you have to write. Sometimes, however, a bug may cause your application to fail while it is executing injected code. When this happens, you will probably want to look at the injected code. Visual Studio provides two ways for you to see injected code:  
   
 -   You can view injected code in the **Disassembly** window.  
   
--   Using [/Fx](../Topic/-Fx%20\(Merge%20Injected%20Code\).md), you can create a merged source file that contains original and injected code.  
+-   Using [/Fx](/visual-cpp/build/reference/fx-merge-injected-code), you can create a merged source file that contains original and injected code.  
   
  The **Disassembly** window shows assembly-language instructions that correspond to the source code and the code injected by attributes. In addition, the **Disassembly** window can show the source-code annotation.  
   

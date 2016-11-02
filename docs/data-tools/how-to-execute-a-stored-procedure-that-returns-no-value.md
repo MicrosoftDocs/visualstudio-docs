@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute a Stored Procedure that Returns No Value"
+title: "How to: Execute a Stored Procedure that Returns No Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Activity Library"
+title: "How to: Create an Activity Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -27,11 +27,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Create an Activity Library
-Custom activities are used to model your particular business processes in a workflow. The Activity Library template in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] has been provided to enable you to create such custom activities visually using the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  
+Custom activities are used to model your particular business processes in a workflow. The Activity Library template in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] has been provided to enable you to create such custom activities visually using the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  
   
 ### To create a Workflow Activity Library  
   
-1.  Start [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
+1.  Start [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
 2.  On the **File** menu, point to **New**, and then select **Project…**.  
   
@@ -48,7 +48,7 @@ Custom activities are used to model your particular business processes in a work
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
 8.  The project template creates an activity definition in XAML. [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] opens and displays the canvas for your custom activity.  
   

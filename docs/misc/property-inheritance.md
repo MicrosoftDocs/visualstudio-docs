@@ -1,7 +1,7 @@
 ---
-title: "Property Inheritance"
+title: "Property Inheritance | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,4 +34,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Property Inheritance
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).

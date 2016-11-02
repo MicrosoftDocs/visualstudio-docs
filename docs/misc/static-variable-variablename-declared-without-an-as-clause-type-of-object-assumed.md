@@ -1,5 +1,5 @@
 ---
-title: "Static variable &#39;&lt;variablename&gt;&#39; declared without an &#39;As&#39; clause; type of &#39;Object&#39; assumed"
+title: "Static variable &#39;&lt;variablename&gt;&#39; declared without an &#39;As&#39; clause; type of &#39;Object&#39; assumed | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -62,8 +62,8 @@ End Sub
     ```  
   
 ## See Also  
- [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
+ [Dim Statement](/dotnet/visual-basic/language-reference/statements/dim-statement)   
  [NOTINBUILD How to: Lengthen a Variable's Lifetime](http://msdn.microsoft.com/en-us/04e7c56c-1db0-4fe5-a678-859a39ec654b)   
- [Local Type Inference](../Topic/Local%20Type%20Inference%20\(Visual%20Basic\).md)   
- [Option Infer Statement](../Topic/Option%20Infer%20Statement.md)   
- [Static](../Topic/Static%20\(Visual%20Basic\).md)
+ [Local Type Inference](/dotnet/visual-basic/programming-guide/language-features/variables/local-type-inference)   
+ [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement)   
+ [Static](/dotnet/visual-basic/language-reference/modifiers/static)

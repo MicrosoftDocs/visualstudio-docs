@@ -1,5 +1,5 @@
 ---
-title: "Debug Stepping Options (Legacy)"
+title: "Debug Stepping Options (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

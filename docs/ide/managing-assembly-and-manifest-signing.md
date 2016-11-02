@@ -1,7 +1,7 @@
 ---
-title: "Managing Assembly and Manifest Signing"
+title: "Managing Assembly and Manifest Signing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  For information about signing assemblies in Visual Basic and C# projects, see [Creating and Using Strong-Named Assemblies](../Topic/Creating%20and%20Using%20Strong-Named%20Assemblies.md).  
   
- For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](../Topic/Strong%20Name%20Assemblies%20\(Assembly%20Signing\)%20\(C++-CLI\).md).  
+ For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).  
   
 ## Asset Types and Signing  
  You can sign .NET assemblies and application manifests. These include the following:  
@@ -79,4 +79,4 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
 ## See Also  
  [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
- [Strong Name Assemblies (Assembly Signing) (C++/CLI)](../Topic/Strong%20Name%20Assemblies%20\(Assembly%20Signing\)%20\(C++-CLI\).md)
+ [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

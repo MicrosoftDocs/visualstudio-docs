@@ -1,7 +1,7 @@
 ---
-title: "new"
+title: "new | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,8 +40,8 @@ Briefly describes the uses of the `new` keyword and links to more information.
   
 |Title|Description|  
 |-----------|-----------------|  
-|[operator new](../Topic/operator%20new%20\(CRT\).md)|Allocates a block of memory from the heap.|  
+|[operator new](/visual-cpp/c-runtime-library/operator-new-crt)|Allocates a block of memory from the heap.|  
 |[operator new](../Topic/operator%20new%20\(%3Cnew%3E\).md)|The function that's called by a new-expression to allocate storage for individual objects.|  
-|[new Operator](../Topic/new%20Operator%20\(C++\).md)|Allocates memory for an object or array of objects from the free store and returns a suitably typed, nonzero pointer to the object.|  
-|[new (new slot in vtable)](../Topic/new%20\(new%20slot%20in%20vtable\)%20%20\(C++%20Component%20Extensions\).md)|In a C++/CLI project, indicates that a virtual member gets a new slot in the vtable. In other words, the function does not override a base class method.|  
-|[ref new, gcnew](../Topic/ref%20new,%20gcnew%20%20\(C++%20Component%20Extensions\).md)|In a [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)] (`ref new`) or C++/CLI (`gcnew`) project, this compound keyword creates a reference-counted object.|
+|[new Operator](/visual-cpp/cpp/new-operator-cpp)|Allocates memory for an object or array of objects from the free store and returns a suitably typed, nonzero pointer to the object.|  
+|[new (new slot in vtable)](/visual-cpp/windows/new-new-slot-in-vtable-cpp-component-extensions)|In a C++/CLI project, indicates that a virtual member gets a new slot in the vtable. In other words, the function does not override a base class method.|  
+|[ref new, gcnew](/visual-cpp/windows/ref-new-gcnew-cpp-component-extensions)|In a [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)] (`ref new`) or C++/CLI (`gcnew`) project, this compound keyword creates a reference-counted object.|

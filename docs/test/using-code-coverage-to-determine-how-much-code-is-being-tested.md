@@ -1,7 +1,7 @@
 ---
-title: "Using Code Coverage to Determine How Much Code is being Tested"
+title: "Using Code Coverage to Determine How Much Code is being Tested | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -276,7 +276,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  After the build runs, the code coverage results are attached to the test run and appear in the build summary.  
   
 ## Analyzing Code Coverage in a Command Line  
- To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](../Topic/VSTest.Console.exe%20command-line%20options.md).  
+ To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](/devops-test-docs/test/vstest-console-exe-command-line-options).  
   
 1.  Launch the Visual Studio Developer Command Prompt:  
   

@@ -1,7 +1,7 @@
 ---
-title: "unchecked_uninitialized_copy"
+title: "unchecked_uninitialized_copy | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # unchecked_uninitialized_copy
-Same as [uninitialized_copy](../Topic/uninitialized_copy.md) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](../Topic/stdext%20Namespace.md) namespace.  
+Same as [uninitialized_copy](../Topic/uninitialized_copy.md) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](/visual-cpp/standard-library/stdext-namespace) namespace.  
   
 > [!NOTE]
 >  This algorithm is a Microsoft extension to the Standard C++ Library. Code implemented using this algorithm will not be portable.  
@@ -81,7 +81,7 @@ template<class InputIterator, class ForwardIterator, class Allocator>
 ## Remarks  
  See [uninitialized_copy](../Topic/uninitialized_copy.md) for a code sample.  
   
- For more information on checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+ For more information on checked iterators, see [Checked Iterators](/visual-cpp/standard-library/checked-iterators).  
   
 ## Requirements  
  **Header:** \<memory>  

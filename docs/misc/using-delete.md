@@ -1,7 +1,7 @@
 ---
-title: "Using delete"
+title: "Using delete | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Using delete
-This content has moved [delete Operator](../Topic/delete%20Operator%20\(C++\).md).
+This content has moved [delete Operator](/visual-cpp/cpp/delete-operator-cpp).

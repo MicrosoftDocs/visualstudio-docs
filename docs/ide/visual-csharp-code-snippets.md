@@ -1,7 +1,7 @@
 ---
-title: "Visual C# Code Snippets"
+title: "Visual C# Code Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,44 +47,44 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
   
 |Name (or shortcut)|Description|Valid locations to insert snippet|  
 |--------------------------|-----------------|---------------------------------------|  
-|#if|Creates a [#if](../Topic/%23if%20\(C%23%20Reference\).md) directive and a [#endif](../Topic/%23endif%20\(C%23%20Reference\).md) directive.|Anywhere.|  
-|#region|Creates a [#region](../Topic/%23region%20\(C%23%20Reference\).md) directive and a [#endregion](../Topic/%23endregion%20\(C%23%20Reference\).md) directive.|Anywhere.|  
+|#if|Creates a [#if](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directive and a [#endif](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endif) directive.|Anywhere.|  
+|#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region) directive and a [#endregion](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endregion) directive.|Anywhere.|  
 |~|Creates a destructor for the containing class.|Inside a class.|  
 |attribute|Creates a declaration for a class that derives from <xref:System.Attribute>.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|checked|Creates a [checked](../Topic/checked%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|checked|Creates a [checked](/dotnet/csharp/language-reference/keywords/checked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |class|Creates a class declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |ctor|Creates a constructor for the containing class.|Inside a class.|  
 |cw|Creates a call to <xref:System.Console.WriteLine*>.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|do|Creates a [do](../Topic/do%20\(C%23%20Reference\).md)`while` loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|else|Creates an [else](../Topic/if-else%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|enum|Creates an [enum](../Topic/enum%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|do|Creates a [do](/dotnet/csharp/language-reference/keywords/do)`while` loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|else|Creates an [else](/dotnet/csharp/language-reference/keywords/if-else) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|enum|Creates an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |equals|Creates a method declaration that overrides the <xref:System.Object.Equals*> method defined in the <xref:System.Object> class.|Inside a class or a struct.|  
 |exception|Creates a declaration for a class that derives from an exception (<xref:System.Exception> by default).|Inside a namespace (including the global namespace), a class, or a struct.|  
-|for|Creates a [for](../Topic/for%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|foreach|Creates a [foreach](../Topic/foreach,%20in%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|forr|Creates a [for](../Topic/for%20\(C%23%20Reference\).md) loop that decrements the loop variable after each iteration.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|if|Creates an [if](../Topic/if-else%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|for|Creates a [for](/dotnet/csharp/language-reference/keywords/for) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|foreach|Creates a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|forr|Creates a [for](/dotnet/csharp/language-reference/keywords/for) loop that decrements the loop variable after each iteration.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|if|Creates an [if](/dotnet/csharp/language-reference/keywords/if-else) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |indexer|Creates an indexer declaration.|Inside a class or a struct.|  
-|interface|Creates an [interface](../Topic/interface%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|interface|Creates an [interface](/dotnet/csharp/language-reference/keywords/interface) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |invoke|Creates a block that safely invokes an event.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |iterator|Creates an iterator.|Inside a class or a struct.|  
 |iterindex|Creates a "named" iterator and indexer pair by using a nested class.|Inside a class or a struct.|  
-|lock|Creates a [lock](../Topic/lock%20Statement%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|lock|Creates a [lock](/dotnet/csharp/language-reference/keywords/lock-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show*?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|namespace|Creates a [namespace](../Topic/namespace%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace).|  
-|prop|Creates an [auto-implemented property](../Topic/Auto-Implemented%20Properties%20\(C%23%20Programming%20Guide\).md) declaration.|Inside a class or a struct.|  
+|namespace|Creates a [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration.|Inside a namespace (including the global namespace).|  
+|prop|Creates an [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|  
 ropfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
-|propg|Creates a read-only [auto-implemented property](../Topic/Auto-Implemented%20Properties%20\(C%23%20Programming%20Guide\).md) with a private "set" accessor.|Inside a class or a struct.|  
-|sim|Creates a [static](../Topic/static%20\(C%23%20Reference\).md)[int](../Topic/int%20\(C%23%20Reference\).md) Main method declaration.|Inside a class or a struct.|  
-|struct|Creates a [struct](../Topic/struct%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|svm|Creates a [static](../Topic/static%20\(C%23%20Reference\).md)[void](../Topic/void%20\(C%23%20Reference\).md) Main method declaration.|Inside a class or a struct.|  
-|switch|Creates a [switch](../Topic/switch%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|try|Creates a [try-catch](../Topic/try-catch%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|tryf|Creates a [try-finally](../Topic/try-finally%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|unchecked|Creates an [unchecked](../Topic/unchecked%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|unsafe|Creates an [unsafe](../Topic/unsafe%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|using|Creates a [using](../Topic/using%20Directive%20\(C%23%20Reference\).md) directive.|Inside a namespace (including the global namespace).|  
-|while|Creates a [while](../Topic/while%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|propg|Creates a read-only [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) with a private "set" accessor.|Inside a class or a struct.|  
+|sim|Creates a [static](/dotnet/csharp/language-reference/keywords/static)[int](/dotnet/csharp/language-reference/keywords/int) Main method declaration.|Inside a class or a struct.|  
+|struct|Creates a [struct](/dotnet/csharp/language-reference/keywords/struct) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|svm|Creates a [static](/dotnet/csharp/language-reference/keywords/static)[void](/dotnet/csharp/language-reference/keywords/void) Main method declaration.|Inside a class or a struct.|  
+|switch|Creates a [switch](/dotnet/csharp/language-reference/keywords/switch) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|try|Creates a [try-catch](/dotnet/csharp/language-reference/keywords/try-catch) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|tryf|Creates a [try-finally](/dotnet/csharp/language-reference/keywords/try-finally) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|unchecked|Creates an [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|unsafe|Creates an [unsafe](/dotnet/csharp/language-reference/keywords/unsafe) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|using|Creates a [using](/dotnet/csharp/language-reference/keywords/using-directive) directive.|Inside a namespace (including the global namespace).|  
+|while|Creates a [while](/dotnet/csharp/language-reference/keywords/while) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
   
 ## See Also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   

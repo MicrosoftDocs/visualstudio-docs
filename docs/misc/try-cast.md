@@ -1,7 +1,7 @@
 ---
-title: "__try_cast"
+title: "__try_cast | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # __try_cast
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [safe_cast](../Topic/safe_cast%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [safe_cast](/visual-cpp/windows/safe-cast-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Performs the specified cast or throws an exception if the cast fails.  
   
@@ -54,11 +54,11 @@ __try_cast <
 ```  
   
 ## Remarks  
- The `__try_cast` keyword (similar in behavior to [dynamic_cast](../Topic/dynamic_cast%20Operator.md)) provides support for automatically throwing an exception (of type **System::InvalidCastException**) whenever the specified casting operation fails.  
+ The `__try_cast` keyword (similar in behavior to [dynamic_cast](/visual-cpp/cpp/dynamic-cast-operator)) provides support for automatically throwing an exception (of type **System::InvalidCastException**) whenever the specified casting operation fails.  
   
  The `__try_cast` keyword can be used during the testing phase of your application, automatically alerting you to possible casting failures.  
   
- When porting Managed Extensions for C++, replace `__try_cast` calls with [safe_cast](../Topic/safe_cast%20\(C++%20Component%20Extensions\).md).  
+ When porting Managed Extensions for C++, replace `__try_cast` calls with [safe_cast](/visual-cpp/windows/safe-cast-cpp-component-extensions).  
   
  `__try_cast` does not work on casts of pointer to value types ([__value](../misc/value.md)), since it is not possible to check the types at runtime.  
   

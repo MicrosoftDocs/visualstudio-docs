@@ -1,7 +1,7 @@
 ---
-title: "Declaration Matching"
+title: "Declaration Matching | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Declaration Matching
-This content has moved to [Function Overloading](../Topic/Function%20Overloading.md)
+This content has moved to [Function Overloading](/visual-cpp/cpp/function-overloading)

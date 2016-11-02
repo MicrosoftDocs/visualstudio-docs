@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer Shell Features"
+title: "Workflow Designer Shell Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -46,4 +46,4 @@ translation.priority.ht:
  To copy as image, right-click anywhere in the designer and select **Copy as Image**. To save as image, right-click anywhere in the designer and select **Save as Image**. Workflows can be saved in JPG, PNG, GIF, or XPS format. The format is selected on the **Save As** dialog box in the **Save as Type:** drop down list box at the bottom of the window.  
   
 ## Fonts and Colors  
- The fonts used in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] inside [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] are controlled by the environment font. The colors displayed in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] change if you are using a high contrast color scheme for your operating system theme. You must restart [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] after making a change to the font or color settings before the changes take effect in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)].
+ The fonts used in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] inside [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] are controlled by the environment font. The colors displayed in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] change if you are using a high contrast color scheme for your operating system theme. You must restart [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] after making a change to the font or color settings before the changes take effect in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)].

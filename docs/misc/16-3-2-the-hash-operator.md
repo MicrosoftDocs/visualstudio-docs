@@ -1,7 +1,7 @@
 ---
-title: "16.3.2 The # Operator"
+title: "16.3.2 The # Operator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # 16.3.2 The # Operator
-This content has been removed. For information about the # (stringize) operator, see [Stringizing Operator (#)](../Topic/Stringizing%20Operator%20\(%23\).md).  
+This content has been removed. For information about the # (stringize) operator, see [Stringizing Operator (#)](/visual-cpp/preprocessor/stringizing-operator-hash).  
   
 ## See Also  
- [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md)
+ [Nonstandard Behavior](/visual-cpp/cpp/nonstandard-behavior)

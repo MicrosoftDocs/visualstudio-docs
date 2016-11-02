@@ -1,7 +1,7 @@
 ---
-title: "International Settings, Environment, Options Dialog Box"
+title: "International Settings, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,5 +51,5 @@ The International Settings page allows you to change the default language when y
 >  In a system with multiple languages installed, the Visual C++ build tools (cl.exe, link.exe, nmake.exe, bscmake.exe and related files) are not affected by this setting. These tools use the version for last language installed and the tools for the previously installed language are overwritten because the Visual C++ build tools do not use the satellite DLL model.  
   
 ## See Also  
- [Installing Multiple Language Versions of Visual Studio](../../install/installing-multiple-language-versions-of-visual-studio.md)   
+ [Installing Multiple Language Versions of Visual Studio](../Topic/Installing%20Multiple%20Language%20Versions%20of%20Visual%20Studio.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

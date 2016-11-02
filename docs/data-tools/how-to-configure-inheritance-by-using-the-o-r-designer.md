@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure inheritance by using the O-R Designer"
+title: "How to: Configure inheritance by using the O-R Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -71,4 +71,4 @@ The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.m
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)   
  [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
- [Inheritance](../Topic/Inheritance%20\(C%23%20Programming%20Guide\).md)
+ [Inheritance](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)

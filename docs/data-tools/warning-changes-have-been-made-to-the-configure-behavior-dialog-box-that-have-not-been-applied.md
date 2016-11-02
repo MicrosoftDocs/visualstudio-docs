@@ -1,5 +1,5 @@
 ---
-title: "Warning. Changes have been made to the Configure Behavior dialog box that have not been applied"
+title: "Warning. Changes have been made to the Configure Behavior dialog box that have not been applied | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

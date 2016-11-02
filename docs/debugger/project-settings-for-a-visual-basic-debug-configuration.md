@@ -1,7 +1,7 @@
 ---
-title: "Project Settings for a Visual Basic Debug Configuration"
+title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ You can change the project settings for a [!INCLUDE[vbprvb](../code-quality/incl
 |Setting|Description|  
 |-------------|-----------------|  
 |**Enable optimizations**|This option should be unchecked. Optimization causes the code that is actually executed to be different from the source code seen in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and thus makes debugging difficult. If code is optimized, symbols are not be loaded by default when debugging with Just My Code.|  
-|**Generate debug info**|Defined by default in both debug and release versions, this setting (equivalent to the /debug compiler option) creates debug information at build time. The debugger uses this information to show variable names and other information in a useful form when you are debugging. If you compile your program without this information, debugger functionality will be limited. For more information, see [/debug](../Topic/-debug%20\(Visual%20Basic\).md).|  
+|**Generate debug info**|Defined by default in both debug and release versions, this setting (equivalent to the /debug compiler option) creates debug information at build time. The debugger uses this information to show variable names and other information in a useful form when you are debugging. If you compile your program without this information, debugger functionality will be limited. For more information, see [/debug](/dotnet/visual-basic/reference/command-line-compiler/debug).|  
 |**Define DEBUG Constant**|Defining this symbol enables conditional compiling of output functions from the [Debug class](https://msdn.microsoft.com/en-us/library/system.diagnostics.debug.aspx). With this symbol defined, Debug class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Debug class methods are not compiled and no output is generated. This symbol should be defined in the Debug version and not defined in the Release version. Defining this symbol in a Release version creates unnecessary code that slows your program down.|  
 |**Define TRACE Constant**|Defining this symbol enables conditional compiling of output functions from the [Trace class](https://msdn.microsoft.com/en-us/library/system.diagnostics.trace.aspx). With this symbol defined, the Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Trace class methods are not compiled and no Trace output is generated. This symbol is defined by default for both Debug and Release versions.|  
   

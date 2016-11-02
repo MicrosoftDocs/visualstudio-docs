@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Reference"
+title: "Visual Studio Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,14 +61,14 @@ This section includes user interface reference, language equivalents, and other 
  Contains tips about how to change accessibility options.  
   
 ## Related Sections  
- [Visual Basic Reference](../Topic/Reference%20\(Visual%20Basic\).md)  
+ [Visual Basic Reference](/dotnet/visual-basic/reference/index)  
  Contains [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] upgrading information and the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] language and run-time reference.  
   
- [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md)  
+ [C/C++ Language and Standard Libraries](/visual-cpp/cpp/c-cpp-language-and-standard-libraries)  
  Contains language reference documentation.  
   
  [JScript Reference](http://msdn.microsoft.com/en-us/2e47f004-963c-4661-b887-a14e4660aadd)  
  Contains documents about the [!INCLUDE[jsprjscript](../../debugger/debug-interface-access/includes/jsprjscript_md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
   
- [.NET Framework Reference Information](../Topic/.NET%20Framework%20Reference%20Information%20\(Visual%20Basic\).md)  
+ [.NET Framework Reference Information](/dotnet/visual-basic/reference/net-framework-reference-information)  
  Contains documents about the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] syntax, XSD reference, and other topics.

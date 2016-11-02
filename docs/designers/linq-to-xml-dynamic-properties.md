@@ -1,7 +1,7 @@
 ---
-title: "LINQ to XML Dynamic Properties"
+title: "LINQ to XML Dynamic Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ This section provides reference information about the dynamic properties in LINQ
   
 -   Indexed values, such as the [Elements](../designers/elements-xelement-dynamic-property.md) and [Descendants](../designers/descendants-xelement-dynamic-property.md) properties of <xref:System.Xml.Linq.XElement>, that resolve into an indexer type. For indexer types to be resolved to the desired value or collection, an expanded name parameter must be passed to them.  
   
- All the dynamic properties that return an indexed value of type <xref:System.Collections.Generic.IEnumerable`1> use deffered execution. For more information about deferred execution, see [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md).  
+ All the dynamic properties that return an indexed value of type <xref:System.Collections.Generic.IEnumerable`1> use deffered execution. For more information about deferred execution, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).  
   
 ## In This Section  
   
@@ -58,4 +58,4 @@ This section provides reference information about the dynamic properties in LINQ
 ## See Also  
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [WPF Data Binding with LINQ to XML Overview](../designers/wpf-data-binding-with-linq-to-xml-overview.md)   
- [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md)
+ [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)

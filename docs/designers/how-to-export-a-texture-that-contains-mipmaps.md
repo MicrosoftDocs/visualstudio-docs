@@ -1,7 +1,7 @@
 ---
-title: "How to: Export a Texture that Contains Mipmaps"
+title: "How to: Export a Texture that Contains Mipmaps | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

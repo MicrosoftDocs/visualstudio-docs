@@ -1,7 +1,7 @@
 ---
-title: "CA2119: Seal methods that satisfy private interfaces"
+title: "CA2119: Seal methods that satisfy private interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -80,5 +80,5 @@ translation.priority.ht:
  [!code-vb[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/VisualBasic/ca2119-seal-methods-that-satisfy-private-interfaces_2.vb)]  
   
 ## See Also  
- [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md)   
- [Interfaces](../Topic/Interfaces%20\(Visual%20Basic\).md)
+ [Interfaces](/dotnet/csharp/programming-guide/interfaces/index)   
+ [Interfaces](/dotnet/visual-basic/programming-guide/language-features/interfaces/index)

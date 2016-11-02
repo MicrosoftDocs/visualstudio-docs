@@ -1,7 +1,7 @@
 ---
-title: "Storage Location of Objects"
+title: "Storage Location of Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Storage Location of Objects
-This content has been removed. For information about object storage location, see [/OPT](../Topic/-OPT%20\(Optimizations\).md)
+This content has been removed. For information about object storage location, see [/OPT](/visual-cpp/build/reference/opt-optimizations)

@@ -1,7 +1,7 @@
 ---
-title: "The project file is missing the &#39;section&#39; section"
+title: "The project file is missing the &#39;section&#39; section | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,5 +54,5 @@ The .vbproj or .csproj file is corrupt. One of the following sections is missing
 -   Recreate your project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

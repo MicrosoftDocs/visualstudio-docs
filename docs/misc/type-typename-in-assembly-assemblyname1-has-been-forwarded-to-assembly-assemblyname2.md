@@ -1,5 +1,5 @@
 ---
-title: "Type &#39;&lt;typename&gt;&#39; in assembly &#39;&lt;assemblyname1&gt;&#39; has been forwarded to assembly &#39;&lt;assemblyname2&gt;&#39;"
+title: "Type &#39;&lt;typename&gt;&#39; in assembly &#39;&lt;assemblyname1&gt;&#39; has been forwarded to assembly &#39;&lt;assemblyname2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -55,6 +55,6 @@ Type '\<typename>' in assembly '\<assemblyname1>' has been forwarded to assembly
   
 ## See Also  
  <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>   
- [Type Forwarding (C++/CLI)](../Topic/Type%20Forwarding%20\(C++-CLI\).md)   
+ [Type Forwarding (C++/CLI)](/visual-cpp/windows/type-forwarding-cpp-cli)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)   
  [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

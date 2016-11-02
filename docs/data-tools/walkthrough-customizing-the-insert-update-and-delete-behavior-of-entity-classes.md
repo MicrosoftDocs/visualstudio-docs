@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes"
+title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -265,7 +265,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 -   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](../Topic/Optimistic%20Concurrency:%20Overview.md).  
   
--   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md).  
+-   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

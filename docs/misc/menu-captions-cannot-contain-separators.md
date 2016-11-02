@@ -1,7 +1,7 @@
 ---
-title: "Menu captions cannot contain separators."
+title: "Menu captions cannot contain separators. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,4 +40,4 @@ This error generally occurs when the dash character ( - ) is used in the name of
 1.  Enter a new name for the caption that does not use the dash character.  
   
 ## See Also  
- [Menu Editor](../Topic/Menu%20Editor.md)
+ [Menu Editor](/visual-cpp/windows/menu-editor)

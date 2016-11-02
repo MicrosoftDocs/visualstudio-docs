@@ -1,5 +1,5 @@
 ---
-title: "Event &#39;&lt;eventname&gt;&#39; implicitly declares &#39;&lt;membername&gt;&#39;, which conflicts with a member in the base &lt;type&gt; &#39;&lt;classname&gt;&#39;, and so the event should be declared &#39;Shadows&#39;"
+title: "Event &#39;&lt;eventname&gt;&#39; implicitly declares &#39;&lt;membername&gt;&#39;, which conflicts with a member in the base &lt;type&gt; &#39;&lt;classname&gt;&#39;, and so the event should be declared &#39;Shadows&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -49,6 +49,6 @@ An event is declared with a name that combines to form an implicit member with t
 2.  If you do not intend to hide the base class member, change the name of the event.  
   
 ## See Also  
- [Event Statement](../Topic/Event%20Statement.md)   
- [Shadows](../Topic/Shadows%20\(Visual%20Basic\).md)   
- [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)
+ [Event Statement](/dotnet/visual-basic/language-reference/statements/event-statement)   
+ [Shadows](/dotnet/visual-basic/language-reference/modifiers/shadows)   
+ [Shadowing in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/declared-elements/shadowing)

@@ -1,5 +1,5 @@
 ---
-title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39;"
+title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -48,4 +48,4 @@ A `Catch` block within the code is never reached.
   
 ## See Also  
  [How to: Test Code with a Try…Catch Block in Visual Basic](http://msdn.microsoft.com/en-us/8368e205-ed73-4185-a247-af84fb4fafa9)   
- [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)
+ [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)

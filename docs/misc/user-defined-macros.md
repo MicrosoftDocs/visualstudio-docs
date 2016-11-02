@@ -1,7 +1,7 @@
 ---
-title: "User-Defined Macros"
+title: "User-Defined Macros | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # User-Defined Macros
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).

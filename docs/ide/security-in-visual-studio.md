@@ -1,7 +1,7 @@
 ---
-title: "Security in Visual Studio"
+title: "Security in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,5 +49,5 @@ You should consider security in all aspects of your application development, fro
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)  
  Provides guidelines for classifying your components to address security issues.  
   
- [Security Best Practices](../Topic/Security%20Best%20Practices%20for%20C++.md)  
+ [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
  Discusses buffer overruns and the complete picture of the Microsoft Visual C++ security checks feature provided by the /GS compile-time flag.

@@ -1,7 +1,7 @@
 ---
-title: "list::list (STL Samples)"
+title: "list::list (STL Samples) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,6 +34,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # list::list (STL Samples)
-Topic deprecated, see [Welcome Back to C++](../Topic/Welcome%20Back%20to%20C++%20\(Modern%20C++\).md) and [list::list](../Topic/list::list.md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [list::list](../Topic/list::list.md).  
   
 ## Syntax

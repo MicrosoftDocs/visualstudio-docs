@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Displaying Related Data in a WPF Application"
+title: "Walkthrough: Displaying Related Data in a WPF Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "__pin"
+title: "__pin | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # __pin
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [pin_ptr (C++/CLI)](../Topic/pin_ptr%20\(C++-CLI\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [pin_ptr (C++/CLI)](/visual-cpp/windows/pin-ptr-cpp-cli) for information on using the equivalent functionality in the new syntax.  
   
  Prevents an object or embedded object of a managed class from being moved by the common language runtime during garbage collection.  
   

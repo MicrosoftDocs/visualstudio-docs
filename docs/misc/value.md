@@ -1,7 +1,7 @@
 ---
-title: "__value"
+title: "__value | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
 ---
 # __value
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Classes and Structs](../Topic/Classes%20and%20Structs%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Classes and Structs](/visual-cpp/windows/classes-and-structs-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Declares a class to be a __value type.  
   
@@ -85,8 +85,8 @@ __nogc pointer-specifier
   
 |Managed Extensions for C++|C#|For more information|  
 |----------------------------------|---------|--------------------------|  
-|__gc struct<br /><br /> -or-<br /><br /> \__gc class|class|[class](../Topic/class%20\(C%23%20Reference\).md) keyword|  
-|__value struct<br /><br /> -or-<br /><br /> \__value class|struct|[struct](../Topic/struct%20\(C%23%20Reference\).md) keyword|  
+|__gc struct<br /><br /> -or-<br /><br /> \__gc class|class|[class](/dotnet/csharp/language-reference/keywords/class) keyword|  
+|__value struct<br /><br /> -or-<br /><br /> \__value class|struct|[struct](/dotnet/csharp/language-reference/keywords/struct) keyword|  
   
 ## Example  
  In the following example, a `__value` type (`V`) is declared and then two instances of the `__value` type are manipulated:  

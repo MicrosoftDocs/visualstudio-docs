@@ -1,7 +1,7 @@
 ---
-title: "Storage of Class-Member Data"
+title: "Storage of Class-Member Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Storage of Class-Member Data
-This content has moved to  [Class Member Overview](../Topic/Class%20Member%20Overview.md).
+This content has moved to  [Class Member Overview](/visual-cpp/cpp/class-member-overview).

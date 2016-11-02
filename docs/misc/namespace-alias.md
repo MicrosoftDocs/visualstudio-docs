@@ -1,7 +1,7 @@
 ---
-title: "namespace Alias"
+title: "namespace Alias | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,6 +35,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # namespace Alias
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).  
+This content has moved to [Namespaces](/visual-cpp/cpp/namespaces-cpp).  
   
 ## Syntax

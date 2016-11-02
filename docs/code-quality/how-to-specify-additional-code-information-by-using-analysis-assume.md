@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify Additional Code Information by Using __analysis_assume"
+title: "How to: Specify Additional Code Information by Using __analysis_assume | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,4 +70,4 @@ void test( )
 ```  
   
 ## See Also  
- [__assume](../Topic/__assume.md)
+ [__assume](/visual-cpp/intrinsics/assume)

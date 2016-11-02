@@ -1,7 +1,7 @@
 ---
-title: "geometric_distribution::p"
+title: "geometric_distribution::p | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ double p() const;
  The `p` parameter from the stored `param_type`.  
   
 ## Remarks  
- For a code example, see [geometric_distribution Class](../Topic/geometric_distribution%20Class.md).  
+ For a code example, see [geometric_distribution Class](/visual-cpp/standard-library/geometric-distribution-class).  
   
 ## Requirements  
  **Header:** \<random>  
@@ -65,4 +65,4 @@ double p() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [geometric_distribution Class](../Topic/geometric_distribution%20Class.md)
+ [geometric_distribution Class](/visual-cpp/standard-library/geometric-distribution-class)

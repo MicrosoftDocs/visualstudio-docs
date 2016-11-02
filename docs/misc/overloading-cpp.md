@@ -1,7 +1,7 @@
 ---
-title: "Overloading  (C++)"
+title: "Overloading  (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,9 +50,9 @@ This section explains how to use C++ overloaded functions and overloaded operato
   
 -   [Address of overloaded functions](../misc/address-of-overloaded-functions.md)  
   
--   [Overloaded operators](../Topic/Operator%20Overloading.md)  
+-   [Overloaded operators](/visual-cpp/cpp/operator-overloading)  
   
--   [General rules for operator overloading](../Topic/General%20Rules%20for%20Operator%20Overloading.md)  
+-   [General rules for operator overloading](/visual-cpp/cpp/general-rules-for-operator-overloading)  
   
 ## See Also  
- [C++ Language Reference](../Topic/C++%20Language%20Reference.md)
+ [C++ Language Reference](/visual-cpp/cpp/cpp-language-reference)

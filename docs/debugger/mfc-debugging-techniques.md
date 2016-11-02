@@ -1,7 +1,7 @@
 ---
-title: "MFC Debugging Techniques"
+title: "MFC Debugging Techniques | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -124,7 +124,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ```  
   
- For more information on the **TRACE** macro, see [Diagnostic Services](../Topic/Diagnostic%20Services.md).  
+ For more information on the **TRACE** macro, see [Diagnostic Services](/visual-cpp/mfc/reference/diagnostic-services).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -202,7 +202,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
     #endif  
     ```  
   
-     Notice that the memory-checking statements are bracketed by `#ifdef`[_DEBUG](../Topic/_DEBUG.md)/ **#endif** blocks so that they are compiled only in Debug versions of your program.  
+     Notice that the memory-checking statements are bracketed by `#ifdef`[_DEBUG](/visual-cpp/c-runtime-library/debug)/ **#endif** blocks so that they are compiled only in Debug versions of your program.  
   
      Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](../Topic/CMemoryState::DumpStatistics.md) that will help you locate it.  
   
@@ -285,7 +285,7 @@ Phone #: 581-0215
   
  You can set a breakpoint on a particular memory allocation by setting the global variable `_afxBreakAlloc` to the number shown in the braces. If you rerun the program the debugger will break execution when that allocation takes place. You can then look at the call stack to see how your program got to that point.  
   
- The C run-time library has a similar function, [_CrtSetBreakAlloc](../Topic/_CrtSetBreakAlloc.md), that you can use for C run-time allocations.  
+ The C run-time library has a similar function, [_CrtSetBreakAlloc](/visual-cpp/c-runtime-library/reference/crtsetbreakalloc), that you can use for C run-time allocations.  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -373,9 +373,9 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
+ When you derive a class from [CObject](/visual-cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
- The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](../Topic/CDumpContext%20Class.md)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
+ The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](/visual-cpp/mfc/reference/cdumpcontext-class)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   
  When you override the `Dump` function, you should first call the base class version of `Dump` to dump the contents of the base class object. Then output a textual description and value for each member variable of your derived class.  
   
@@ -430,9 +430,9 @@ pMyPerson->Dump( afxDump );
 ##  <a name="BKMK_Reducing_the_size_of_an_MFC_Debug_build"></a> Reducing the size of an MFC Debug build  
  The debug information for a large MFC application can take up a lot of disk space. You can use one of these procedures to reduce the size:  
   
-1.  Rebuild the MFC libraries using the [/Z7, /Zi, /ZI (Debug Information Format)](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md) option, instead of **/Z7**. These options build a single program database (PDB) file that contains debug information for the entire library, reducing redundancy and saving space.  
+1.  Rebuild the MFC libraries using the [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) option, instead of **/Z7**. These options build a single program database (PDB) file that contains debug information for the entire library, reducing redundancy and saving space.  
   
-2.  Rebuild the MFC libraries without debug information (no [/Z7, /Zi, /ZI (Debug Information Format)](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md) option). In this case, the lack of debug information will prevent you from using most debugger facilities within the MFC library code, but because the MFC libraries are already thoroughly debugged, this may not be a problem.  
+2.  Rebuild the MFC libraries without debug information (no [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) option). In this case, the lack of debug information will prevent you from using most debugger facilities within the MFC library code, but because the MFC libraries are already thoroughly debugged, this may not be a problem.  
   
 3.  Build your own application with debug information for selected modules only as described below.  
   
@@ -493,7 +493,7 @@ pMyPerson->Dump( afxDump );
   
 7.  From the **Build** menu, select **Build** to rebuild project files that are out of date.  
   
- As an alternative to the technique described in this topic, you can use an external makefile to define individual options for each file. In that case, to link with the MFC debug libraries, you must define the [_DEBUG](../Topic/_DEBUG.md) flag for each module. If you want to use MFC release libraries, you must define NDEBUG. For more information on writing external makefiles, see the [NMAKE Reference](../Topic/Running%20NMAKE.md).  
+ As an alternative to the technique described in this topic, you can use an external makefile to define individual options for each file. In that case, to link with the MFC debug libraries, you must define the [_DEBUG](/visual-cpp/c-runtime-library/debug) flag for each module. If you want to use MFC release libraries, you must define NDEBUG. For more information on writing external makefiles, see the [NMAKE Reference](/visual-cpp/build/running-nmake).  
   
  [In this topic](#BKMK_In_this_topic)  
   

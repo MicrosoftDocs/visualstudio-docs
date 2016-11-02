@@ -1,7 +1,7 @@
 ---
-title: "COM and ActiveX Debugging"
+title: "COM and ActiveX Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,6 +60,6 @@ This section provides tips on debugging COM applications and ActiveX controls.
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Introduction to COM](../Topic/Introduction%20to%20COM.md)   
- [ActiveX Controls](../Topic/ActiveX%20Controls.md)   
+ [Introduction to COM](/visual-cpp/atl/introduction-to-com)   
+ [ActiveX Controls](/visual-cpp/mfc/activex-controls)   
  [SDI Server Applications](../debugger/sdi-server-applications.md)

@@ -1,7 +1,7 @@
 ---
-title: "Unit Test Your Code"
+title: "Unit Test Your Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,9 +70,9 @@ Unit tests give developers and testers a quick way to look for logic errors in t
   
  Describes test results and ways to work with them, including how to view, save, and delete them.  
   
- [Running System Tests Using Microsoft Visual Studio](../Topic/Running%20Automated%20Tests%20Using%20Microsoft%20Visual%20Studio.md)  
+ [Running System Tests Using Microsoft Visual Studio](/devops-test-docs/test/running-automated-tests-using-microsoft-visual-studio)  
   
- Provides links to information about using Visual Studio as opposed to using [!INCLUDE[TCMext](../modeling/includes/tcmext_md.md)] to run automated tests.  
+ Provides links to information about using Visual Studio as opposed to using [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] to run automated tests.  
   
 ## Reference  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>  
@@ -97,4 +97,4 @@ Unit tests give developers and testers a quick way to look for logic errors in t
   
 ## See Also  
  [Improve Code Quality](../Topic/Improve%20Code%20Quality.md)   
- [Testing the application](../Topic/Test%20apps%20early%20and%20often.md)
+ [Testing the application](/devops-test-docs/test/test-apps-early-and-often)

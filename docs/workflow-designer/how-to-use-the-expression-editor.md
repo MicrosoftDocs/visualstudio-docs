@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Expression Editor"
+title: "How to: Use the Expression Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -42,11 +42,11 @@ The Expression Editor is a [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md
 -   If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
   
 > [!NOTE]
->  IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)]. In both the [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
+>  IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. In both the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
   
 ### Using the Expression editor  
   
-1.  In [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], open a new or existing workflow project.  
+1.  In [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], open a new or existing workflow project.  
   
 2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.  
   

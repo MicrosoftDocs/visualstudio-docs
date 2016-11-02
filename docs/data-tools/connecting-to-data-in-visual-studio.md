@@ -1,5 +1,5 @@
 ---
-title: "Connecting to Data in Visual Studio"
+title: "Connecting to Data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -74,7 +74,7 @@ translation.priority.ht:
  [Data Binding (WPF)](../Topic/Data%20Binding%20\(WPF\).md)  
  Provides information on data binding in WPF applications.  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Contains links to topics that explain how data works in Office solutions, including information about schema-oriented programming, data caching, and server-side data access.  
   
 ## See Also  

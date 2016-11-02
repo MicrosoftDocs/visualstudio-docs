@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2145"
+title: "Resource Compiler Error RC2145 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,4 +39,4 @@ translation.priority.mt:
 # Resource Compiler Error RC2145
 PRIMARY LANGUAGE ID too large  
   
- The PRIMARY LANGUAGE ID must be a valid hexadecimal language ID. See [Language and Country/Region Strings](../Topic/Locale%20Names,%20Languages,%20and%20Country-Region%20Strings.md) in the *Run-Time Library Reference* for a list of valid Language IDs.
+ The PRIMARY LANGUAGE ID must be a valid hexadecimal language ID. See [Language and Country/Region Strings](/visual-cpp/c-runtime-library/locale-names-languages-and-country-region-strings) in the *Run-Time Library Reference* for a list of valid Language IDs.

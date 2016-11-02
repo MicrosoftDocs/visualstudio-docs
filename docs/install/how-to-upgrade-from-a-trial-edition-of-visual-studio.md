@@ -1,7 +1,7 @@
 ---
-title: "How to: Upgrade from a Trial Edition of Visual Studio"
+title: "How to: Upgrade from a Trial Edition of Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
     >  Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.  
   
 ## See Also  
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)   
  [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)   
  [Locate or Change the Product Key for Team Foundation Server](../Topic/Locate%20or%20Change%20the%20Product%20Key%20for%20Team%20Foundation%20Server.md)   

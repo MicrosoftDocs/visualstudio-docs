@@ -1,7 +1,7 @@
 ---
-title: "Could not determine whether &#39;assembly&#39; is a multifile assembly. The assembly manifest may be corrupt. Assuming a non-multifile assembly."
+title: "Could not determine whether &#39;assembly&#39; is a multifile assembly. The assembly manifest may be corrupt. Assuming a non-multifile assembly. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

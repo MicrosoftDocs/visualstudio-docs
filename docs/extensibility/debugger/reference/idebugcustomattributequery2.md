@@ -1,7 +1,7 @@
 ---
-title: "IDebugCustomAttributeQuery2"
+title: "IDebugCustomAttributeQuery2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery
  A symbol provider implements this interface on the same object that implements [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) in order to support custom attributes.  
   
 ## Notes for Callers  
- Use [QueryInterface](../Topic/QueryInterface.md) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
+ Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of the **IDebugCustomAttributeQuery** interface.  

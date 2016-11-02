@@ -1,7 +1,7 @@
 ---
-title: "How to: Update the Status Bar"
+title: "How to: Update the Status Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,11 +53,11 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   
 -   Editor information  
   
- For more information, see [Status Bars](../Topic/Status%20Bars.md).  
+ For more information, see [Status Bars](/visual-cpp/mfc/status-bars).  
   
  The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo*> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
   
  The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
   
 ## See Also  
- [Status Bars](../Topic/Status%20Bars.md)
+ [Status Bars](/visual-cpp/mfc/status-bars)

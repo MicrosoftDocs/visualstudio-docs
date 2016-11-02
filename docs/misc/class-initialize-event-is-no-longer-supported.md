@@ -1,5 +1,5 @@
 ---
-title: "&#39;Class_Initialize&#39; event is no longer supported"
+title: "&#39;Class_Initialize&#39; event is no longer supported | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

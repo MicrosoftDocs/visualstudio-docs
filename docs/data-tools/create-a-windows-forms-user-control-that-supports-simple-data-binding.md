@@ -1,5 +1,5 @@
 ---
-title: "Create a Windows Forms user control that supports simple data binding"
+title: "Create a Windows Forms user control that supports simple data binding | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

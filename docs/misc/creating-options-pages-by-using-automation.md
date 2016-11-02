@@ -1,7 +1,7 @@
 ---
-title: "Creating Options Pages By Using Automation"
+title: "Creating Options Pages By Using Automation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,6 +95,6 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../code-qu
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
  [Creating Options Pages](../extensibility/internals/creating-options-pages.md)   
  [How to: Create Custom Options Pages](../Topic/How%20to:%20Create%20Custom%20Options%20Pages.md)   
- [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
+ [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts)   
  [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md)   
  [Using Options Pages](../misc/using-options-pages.md)

@@ -1,5 +1,5 @@
 ---
-title: "Method call did not return a value"
+title: "Method call did not return a value | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"

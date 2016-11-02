@@ -1,7 +1,7 @@
 ---
-title: "At least one file is missing the &#39;attribute&#39; attribute"
+title: "At least one file is missing the &#39;attribute&#39; attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,5 +44,5 @@ A file node that has been read from the .vbproj or .csproj file is missing certa
      Any file for which the `RelPath` attribute is missing will not be added to the project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

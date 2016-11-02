@@ -1,7 +1,7 @@
 ---
-title: "Customizing Code Coverage Analysis"
+title: "Customizing Code Coverage Analysis | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -192,7 +192,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
  Choose **Test**, **Test Settings**, **Select Test Settings File** and select the .runsettings file. The file appears on the Test Settings menu, and you can select or cancel it. While selected, your .runsettings file applies whenever you use **Analyze Code Coverage**.  
   
 ### To customize run settings in a command line test  
- To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](../Topic/Using%20VSTest.console%20from%20the%20command%20line.md).  
+ To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](/devops-test-docs/test/using-vstest-console-from-the-command-line).  
   
 1.  Launch the Visual Studio Developer Command Prompt:  
   

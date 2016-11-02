@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Adding Custom Validation to a Domain Model"
+title: "Walkthrough: Adding Custom Validation to a Domain Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

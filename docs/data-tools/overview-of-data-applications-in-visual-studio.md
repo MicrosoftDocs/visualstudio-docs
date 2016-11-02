@@ -1,5 +1,5 @@
 ---
-title: "Overview of Data Applications in Visual Studio"
+title: "Overview of Data Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -100,5 +100,5 @@ This section provides information and preparatory instructions for working with 
  [ADO.NET](../Topic/ADO.NET.md)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Provides links to topics that explain how data works in Office solutions. Includes information about schema-oriented programming, data caching, and server-side data access.

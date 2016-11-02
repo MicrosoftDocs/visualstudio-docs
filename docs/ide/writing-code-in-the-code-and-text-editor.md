@@ -1,7 +1,7 @@
 ---
-title: "Writing Code in the Code and Text Editor"
+title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -201,7 +201,7 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
--   [Visual Basic Settings](../Topic/Visual%20Basic%20Settings.md)  
+-   [Visual Basic Settings](/dotnet/visual-basic/developing-apps/using-ide/visual-basic-settings)  
 
 -   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 

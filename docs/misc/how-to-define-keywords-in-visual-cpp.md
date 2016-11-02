@@ -1,7 +1,7 @@
 ---
-title: "How to: Define Keywords in Visual C++"
+title: "How to: Define Keywords in Visual C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,8 +59,8 @@ Keywords are predefined, reserved identifiers that have special meanings. They c
   
 6.  Set the font and color properties of your user-defined keywords as described in [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
- For more information, see [Keywords](../Topic/Keywords%20\(C++\).md).  
+ For more information, see [Keywords](/visual-cpp/cpp/keywords-cpp).  
   
 ## See Also  
- [Running as a Member of the Users Group](../Topic/Running%20as%20a%20Member%20of%20the%20Users%20Group.md)   
+ [Running as a Member of the Users Group](/visual-cpp/top/running-as-a-member-of-the-users-group)   
  [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)

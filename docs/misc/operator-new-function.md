@@ -1,7 +1,7 @@
 ---
-title: "operator new Function"
+title: "operator new Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,6 +40,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # operator new Function
-This content has moved to [new and delete Operators](../Topic/new%20and%20delete%20Operators.md).  
+This content has moved to [new and delete Operators](/visual-cpp/cpp/new-and-delete-operators).  
   
 ## Remarks

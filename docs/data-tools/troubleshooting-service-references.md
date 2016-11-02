@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Service References"
+title: "Troubleshooting Service References | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"

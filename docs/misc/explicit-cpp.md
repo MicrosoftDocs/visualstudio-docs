@@ -1,7 +1,7 @@
 ---
-title: "explicit (C++)"
+title: "explicit (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # explicit (C++)
-This content has been relocated. For information about the `explicit` keyword, see [User-Defined Type Conversions](../Topic/User-Defined%20Type%20Conversions%20\(C++\).md).
+This content has been relocated. For information about the `explicit` keyword, see [User-Defined Type Conversions](/visual-cpp/cpp/user-defined-type-conversions-cpp).

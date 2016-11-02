@@ -1,7 +1,7 @@
 ---
-title: "__property"
+title: "__property | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
 ---
 # __property
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [property](../Topic/property%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [property](/visual-cpp/windows/property-cpp-component-extensions) for information on using the equivalent functionality in the new syntax.  
   
  Declares either a scalar or indexed property for the managed class.  
   

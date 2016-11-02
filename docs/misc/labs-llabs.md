@@ -1,7 +1,7 @@
 ---
-title: "labs, llabs"
+title: "labs, llabs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,4 +48,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # labs, llabs
-This content has moved. See [abs, labs, llabs, _abs64](../Topic/abs,%20labs,%20llabs,%20_abs64.md).
+This content has moved. See [abs, labs, llabs, _abs64](/visual-cpp/c-runtime-library/reference/abs-labs-llabs-abs64).

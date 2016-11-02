@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Workflow Windows (Legacy)"
+title: "Visual Studio Workflow Windows (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual Studio Workflow Windows (Legacy)
-The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)]. The legacy designer is a visual designer that you can use to create a workflow. You can drag activities from the **Toolbox** to the design surface and then configure them there. As a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor window, it occupies the main window area used by other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor windows. The name of the workflow is displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window title bar.  
+The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)]. The legacy designer is a visual designer that you can use to create a workflow. You can drag activities from the **Toolbox** to the design surface and then configure them there. As a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor window, it occupies the main window area used by other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor windows. The name of the workflow is displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window title bar.  
   
  Most of the legacy designer windows should be familiar to the experienced [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user. The following table describes the primary windows.  
   

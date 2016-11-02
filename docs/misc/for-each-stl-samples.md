@@ -1,7 +1,7 @@
 ---
-title: "for_each (STL Samples)"
+title: "for_each (STL Samples) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,6 +34,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # for_each (STL Samples)
-Topic deprecated, see [Welcome Back to C++](../Topic/Welcome%20Back%20to%20C++%20\(Modern%20C++\).md) and [Range-based for Statement (C++)](../Topic/Range-based%20for%20Statement%20\(C++\).md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [Range-based for Statement (C++)](/visual-cpp/cpp/range-based-for-statement-cpp).  
   
 ## Syntax

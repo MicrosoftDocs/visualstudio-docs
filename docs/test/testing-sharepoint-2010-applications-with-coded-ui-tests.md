@@ -1,7 +1,7 @@
 ---
-title: "Testing SharePoint 2010 Applications with Coded UI Tests"
+title: "Testing SharePoint 2010 Applications with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -157,8 +157,8 @@ uiGridKeyboardInputEdit.Text=value;
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](../Topic/Web%20performance%20and%20load%20testing%20SharePoint%202010%20and%202013%20applications.md)   
- [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md)   
- [Verifying and Debugging SharePoint Code](../Topic/Verifying%20and%20Debugging%20SharePoint%20Code.md)   
- [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md)   
- [Profiling the Performance of SharePoint Applications](../Topic/Profiling%20the%20Performance%20of%20SharePoint%20Applications.md)
+ [Web performance and load testing SharePoint 2010 and 2013 applications](/devops-test-docs/test/web-performance-and-load-testing-sharepoint-2010-and-2013-applications)   
+ [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
+ [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code)   
+ [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
+ [Profiling the Performance of SharePoint Applications](/office-dev/office-dev/profiling-the-performance-of-sharepoint-applications)

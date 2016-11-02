@@ -1,7 +1,7 @@
 ---
-title: "IDebugEnumField"
+title: "IDebugEnumField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugEnumField : IDebugContainerField
  A symbol provider implements this interface to represent an enumeration.  
   
 ## Notes for Callers  
- Use [QueryInterface](../Topic/QueryInterface.md) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_ENUM`.  
+ Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_ENUM`.  
   
 ## Methods in VTable order  
  In addition to the methods on the `IDebugField` and `IDebugContainerField` interfaces, this interface implements the following methods:  

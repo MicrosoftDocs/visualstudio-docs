@@ -1,7 +1,7 @@
 ---
-title: "bernoulli_distribution::p"
+title: "bernoulli_distribution::p | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,4 +62,4 @@ double p() const;
   
 ## See Also  
  [\<random>](../Topic/%3Crandom%3E.md)   
- [bernoulli_distribution Class](../Topic/bernoulli_distribution%20Class.md)
+ [bernoulli_distribution Class](/visual-cpp/standard-library/bernoulli-distribution-class)

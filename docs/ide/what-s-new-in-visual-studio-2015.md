@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Visual Studio 2015"
+title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -101,7 +101,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 #### C++  
  Visual C++ provides significant advances in C++11/14 language conformance, support for cross-platform mobile device development, support for resumable functions and await (currently planned for standardization in C++17), improvements and bug fixes in the C Runtime Library (CRT) and C++ standard library (STL) implementations, resizeable dialogs in MFC, new compiler optimizations, better build performance, new diagnostics capabilities and new productivity tools in the code editor.  
   
- For more information, see [What's New for Visual C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md) and the [Visual C++ Blog](http://blogs.msdn.com/b/vcblog/).  
+ For more information, see [What's New for Visual C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2015) and the [Visual C++ Blog](http://blogs.msdn.com/b/vcblog/).  
   
 ## Device Preview menu bar  
  In Universal Windows Platform projects, the device preview menu bar enables you to see how your XAML-based UI will render on various screen sizes.  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Workflow Console Application"
+title: "How to: Create a Workflow Console Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
@@ -29,11 +29,11 @@ translation.priority.ht:
 # How to: Create a Workflow Console Application
 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] allows you to create workflows for executing system or human processes. The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides the design surface for creating these workflows. The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] can be used to create workflows from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or it can be integrated into other applications that rehost the designer.  
   
- This topic describes how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] to create a workflow in a console application.  
+ This topic describes how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] to create a workflow in a console application.  
   
 ### To create a workflow console application  
   
-1.  Start [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
+1.  Start [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
 2.  On the **File** menu, point to **New**, and then select **Project…**.  
   
@@ -50,7 +50,7 @@ translation.priority.ht:
 7.  In the **Solution** box, enter the name for the new solution. Click **OK** to create the application.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
 8.  The project template creates a workflow definition in XAML and the console application definition is in source code. The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] opens and displays the canvas for the workflow you created.  
   

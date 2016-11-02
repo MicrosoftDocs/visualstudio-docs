@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Run an Unattended Installation of Visual Studio"
+title: "How to: Create and Run an Unattended Installation of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"
@@ -187,4 +187,4 @@ You can run the installation application for [!INCLUDE[vsprvs](../code-quality/i
      (For more information, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and the [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) topics.)  
   
 ## See Also  
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)

@@ -1,7 +1,7 @@
 ---
-title: "CA1402: Avoid overloads in COM visible interfaces"
+title: "CA1402: Avoid overloads in COM visible interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -87,4 +87,4 @@ void SomeMethod_3(int valueOne, int valueTwo);
   
 ## See Also  
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
- [Long Data Type](../Topic/Long%20Data%20Type%20\(Visual%20Basic\).md)
+ [Long Data Type](/dotnet/visual-basic/language-reference/data-types/long-data-type)

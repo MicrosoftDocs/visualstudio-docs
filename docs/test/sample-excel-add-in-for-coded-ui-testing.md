@@ -1,7 +1,7 @@
 ---
-title: "Sample Excel Add-In for Coded UI Testing"
+title: "Sample Excel Add-In for Coded UI Testing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,4 +59,4 @@ This sample Add-In for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] i
 ## See Also  
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
  [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md)   
- [Office and SharePoint Development](../Topic/Office%20and%20SharePoint%20Development%20in%20Visual%20Studio.md)
+ [Office and SharePoint Development](/office-dev/office-dev/office-and-sharepoint-development-in-visual-studio)

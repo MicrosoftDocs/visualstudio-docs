@@ -1,5 +1,5 @@
 ---
-title: "Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)"
+title: "Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

@@ -1,7 +1,7 @@
 ---
-title: "Debug Multithreaded Applications in Visual Studio"
+title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -112,7 +112,7 @@ A thread is a sequence of instructions to which the operating system allocates p
  [Multithreading in Components](../Topic/Multithreading%20in%20Components.md)  
  How to use multithreading in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components.  
   
- [Multithreading Support for Older Code (Visual C++)](../Topic/Multithreading%20Support%20for%20Older%20Code%20\(Visual%20C++\).md)  
+ [Multithreading Support for Older Code (Visual C++)](/visual-cpp/parallel/multithreading/multithreading-support-for-older-code-visual-cpp)  
  Threading concepts and example code for C++ programmers using MFC.  
   
 ## See Also  

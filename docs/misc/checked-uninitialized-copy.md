@@ -1,7 +1,7 @@
 ---
-title: "checked_uninitialized_copy"
+title: "checked_uninitialized_copy | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # checked_uninitialized_copy
-`checked_uninitialized_copy` has been deprecated. For information about checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+`checked_uninitialized_copy` has been deprecated. For information about checked iterators, see [Checked Iterators](/visual-cpp/standard-library/checked-iterators).  
   
 ## Syntax  
   

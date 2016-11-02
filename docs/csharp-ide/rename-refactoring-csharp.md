@@ -1,7 +1,7 @@
 ---
-title: "Rename Refactoring (C#)"
+title: "Rename Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,7 +59,7 @@ translation.priority.mt:
 |-----------------|----------------------|  
 |Field|Changes the declaration and usages of the field to the new name.|  
 |Local variable|Changes the declaration and usages of the variable to the new name.|  
-|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](../Topic/Extension%20Methods%20\(C%23%20Programming%20Guide\).md).|  
+|Method|Changes the name of the method and all references to that method to the new name. **Note:**  When you rename an extension method, the rename operation propagates to all instances of the method that are in scope, regardless of whether the extension method is being used as a static method or an instance method. For more information, see [Extension Methods](/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).|  
 |Namespace|Changes the name of the namespace to the new name in the declaration, all `using` statements, and fully qualified names. **Note:**  When renaming a namespace, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] also updates the **Default Namespace** property on the **Application** page of the **Project Designer**. This property cannot be reset by selecting **Undo** from the **Edit** menu. To reset the **Default Namespace** property value, you must modify the property in the **Project Designer**. For more information, see [Application Page](../ide/reference/application-page-project-designer-csharp.md).|  
 |Property|Changes the declaration and usages of the property to the new name.|  
 |Type|Changes all declarations and all usages of the type to the new name, including constructors and destructors. For partial types, the rename operation will propagate to all parts.|  
@@ -181,4 +181,4 @@ var orderIDs =
   
 ## See Also  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
- [Anonymous Types](../Topic/Anonymous%20Types%20\(C%23%20Programming%20Guide\).md)
+ [Anonymous Types](/dotnet/csharp/programming-guide/classes-and-structs/anonymous-types)

@@ -1,7 +1,7 @@
 ---
-title: "How to: Split a Class into Partial Classes (Class Designer)"
+title: "How to: Split a Class into Partial Classes (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ You can divide the declaration of a class or structure among several declaration
 > [!NOTE]
 >  Visual Basic uses partial-class definitions to separate Visual Studio—generated code from user-authored code. The code is separated into discrete source files. For example, the **Windows Form Designer** defines partial classes for controls such as `Form`. You should not modify the generated code in these controls.  
   
- For more information about partial types in Visual Basic, see [Partial](../Topic/Partial%20\(Visual%20Basic\).md).  
+ For more information about partial types in Visual Basic, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial).  
   
 ## Example  
  To split a class definition in Visual Basic, use the `Partial` keyword, as shown in the following example.  
@@ -86,7 +86,7 @@ public partial class Employee
 ```  
   
 ## See Also  
- [Partial Classes and Methods](../Topic/Partial%20Classes%20and%20Methods%20\(C%23%20Programming%20Guide\).md)   
- [partial (Type)](../Topic/partial%20\(Type\)%20\(C%23%20Reference\).md)   
- [partial (Method) (C# Reference)](../Topic/partial%20\(Method\)%20\(C%23%20Reference\).md)   
- [Partial](../Topic/Partial%20\(Visual%20Basic\).md)
+ [Partial Classes and Methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)   
+ [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type)   
+ [partial (Method) (C# Reference)](/dotnet/csharp/language-reference/keywords/partial-method)   
+ [Partial](/dotnet/visual-basic/language-reference/modifiers/partial)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Invoke the Workflow Debugger"
+title: "How to: Invoke the Workflow Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

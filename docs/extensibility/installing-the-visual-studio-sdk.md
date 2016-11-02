@@ -1,7 +1,7 @@
 ---
-title: "Installing the Visual Studio SDK"
+title: "Installing the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,7 +64,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
  ![SolutionExplorerInstall](../extensibility/media/solutionexplorerinstall.png "SolutionExplorerInstall")  
   
 ## Installing the Visual Studio SDK from the Command Line  
- You can install the VSSDK from the command line by using the **/InstallSelectableItems** switch with the Visual Studio installer. For details about using command-line parameters with the installer, see [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md).  
+ You can install the VSSDK from the command line by using the **/InstallSelectableItems** switch with the Visual Studio installer. For details about using command-line parameters with the installer, see [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md).  
   
  Here is how to install the VSSDK silently using the Visual Studio 2015 Community installer:  
   

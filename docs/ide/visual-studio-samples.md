@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Samples"
+title: "Visual Studio Samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsof
 |[JavaScript Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=JavaScript)|Shows how to use different features in JavaScript.|  
 |[C++ Samples](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=C%2B%2B)|Shows how to use different features in C++.|  
 |[DirectX Samples](http://code.msdn.microsoft.com/site/search?query=DirectX&f%5B1%5D.Value=DirectX&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=C%20%20&f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Text=Invalid%20Value&ac=2)|Shows how to use DirectX.|  
-|[Office Development Samples](../Topic/Office%20Development%20Samples.md)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199).|  
+|[Office Development Samples](/office-dev/office-dev/office-development-samples)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199).|  
 |[VSSDK Samples](http://aka.ms/vs2015sdksamples)|Shows how to extend Visual Studio.|  
   
 ## See Also  

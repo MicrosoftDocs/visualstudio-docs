@@ -1,5 +1,5 @@
 ---
-title: "Create a simple data application with WPF and Entity Framework 6"
+title: "Create a simple data application with WPF and Entity Framework 6 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

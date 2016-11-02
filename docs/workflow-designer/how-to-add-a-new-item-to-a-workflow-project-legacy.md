@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a New Item to a Workflow Project (Legacy)"
+title: "How to: Add a New Item to a Workflow Project (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Add a New Item to a Workflow Project (Legacy)
-After you have created a workflow project using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provided by [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] that targets either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)], you can add [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] items and other familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items to your project.  
+After you have created a workflow project using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] that targets either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)], you can add [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] items and other familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items to your project.  
   
  The following table lists the [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] items that you can add to a workflow project.  
   

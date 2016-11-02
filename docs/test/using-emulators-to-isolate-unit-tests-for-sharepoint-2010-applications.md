@@ -1,7 +1,7 @@
 ---
-title: "Using emulators to isolate unit tests for Sharepoint 2010 applications"
+title: "Using emulators to isolate unit tests for Sharepoint 2010 applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -601,5 +601,5 @@ namspace MySPAppTests
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](../Topic/Web%20performance%20and%20load%20testing%20SharePoint%202010%20and%202013%20applications.md)   
- [Developing SharePoint Solutions](../Topic/Developing%20SharePoint%20Solutions.md)
+ [Web performance and load testing SharePoint 2010 and 2013 applications](/devops-test-docs/test/web-performance-and-load-testing-sharepoint-2010-and-2013-applications)   
+ [Developing SharePoint Solutions](/office-dev/office-dev/developing-sharepoint-solutions)

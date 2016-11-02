@@ -1,7 +1,7 @@
 ---
-title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework"
+title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
  **Testing SharePoint Applications**  
   
- The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../test/includes/crabout_md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md), [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md) and [Verifying and Debugging SharePoint Code](../Topic/Verifying%20and%20Debugging%20SharePoint%20Code.md).  
+ The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../test/includes/crabout_md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions), [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions) and [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code).  
   
  **Limitations**  
   
@@ -139,6 +139,6 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
 ## See Also  
  [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md)   
- [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md)   
+ [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
+ [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
  [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)

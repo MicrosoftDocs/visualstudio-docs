@@ -1,7 +1,7 @@
 ---
-title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt;"
+title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,5 +48,5 @@ A file that has been read from the .vbproj or .csproj file cannot be added to th
  Any file for which this diagnostic is displayed will not be added to the project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)

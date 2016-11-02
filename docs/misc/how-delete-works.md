@@ -1,7 +1,7 @@
 ---
-title: "How delete Works"
+title: "How delete Works | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How delete Works
-This content has moved [delete Operator](../Topic/delete%20Operator%20\(C++\).md).  
+This content has moved [delete Operator](/visual-cpp/cpp/delete-operator-cpp).  
   
 ## See Also  
- [Expressions with Unary Operators](../Topic/Expressions%20with%20Unary%20Operators.md)
+ [Expressions with Unary Operators](/visual-cpp/cpp/expressions-with-unary-operators)

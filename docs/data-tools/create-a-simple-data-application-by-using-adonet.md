@@ -1,5 +1,5 @@
 ---
-title: "Create a simple data application by using ADO.NET"
+title: "Create a simple data application by using ADO.NET | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

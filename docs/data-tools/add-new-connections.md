@@ -1,5 +1,5 @@
 ---
-title: "Add new connections"
+title: "Add new connections | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

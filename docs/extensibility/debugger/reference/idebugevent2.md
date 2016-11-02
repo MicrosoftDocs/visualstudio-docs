@@ -1,7 +1,7 @@
 ---
-title: "IDebugEvent2"
+title: "IDebugEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugEvent2 : IUnknown
  The debug engine (DE) and custom port supplier implement this interface on the same object as all other event interfaces.  
   
 ## Notes for Callers  
- Using the interface ID (IID) argument given to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) or [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md), the session debug manager (SDM) calls [QueryInterface](../Topic/QueryInterface.md) on the `IDebugEvent2` interface to obtain the appropriate event interface.  
+ Using the interface ID (IID) argument given to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) or [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md), the session debug manager (SDM) calls [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugEvent2` interface to obtain the appropriate event interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugEvent2`.  

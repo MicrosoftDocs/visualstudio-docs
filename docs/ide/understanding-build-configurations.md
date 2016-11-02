@@ -1,7 +1,7 @@
 ---
-title: "Understanding Build Configurations"
+title: "Understanding Build Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -98,5 +98,5 @@ You can store different configurations of solution and project properties to use
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
+ [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

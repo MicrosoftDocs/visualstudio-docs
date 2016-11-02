@@ -1,7 +1,7 @@
 ---
-title: "Concurrency Namespace (Concurrency Visualizer)"
+title: "Concurrency Namespace (Concurrency Visualizer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Concurrency Namespace (Concurrency Visualizer)
-The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](../Topic/Concurrency%20Runtime.md).  
+The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime).  
   
 ## Syntax  
   

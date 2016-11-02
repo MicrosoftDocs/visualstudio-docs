@@ -1,7 +1,7 @@
 ---
-title: "Anonymous Structures"
+title: "Anonymous Structures | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/29/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Anonymous Structures
-This content has moved to [Anonymous Class Types](../Topic/Anonymous%20Class%20Types.md)
+This content has moved to [Anonymous Class Types](/visual-cpp/cpp/anonymous-class-types)

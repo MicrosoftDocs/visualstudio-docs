@@ -1,7 +1,7 @@
 ---
-title: "CA2210: Assemblies should have valid strong names"
+title: "CA2210: Assemblies should have valid strong names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/28/2016"
+ms.date: "11/01/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,7 +78,7 @@ translation.priority.ht:
   
 -   For the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.  
   
--   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](../Topic/-KEYFILE%20\(Specify%20Key%20or%20Key%20Pair%20to%20Sign%20an%20Assembly\).md) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](../Topic/-KEYCONTAINER%20\(Specify%20a%20Key%20Container%20to%20Sign%20an%20Assembly\).md) linker option in C++).  
+-   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/visual-cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/visual-cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).  
   
  **To sign your assembly with a strong name in Visual Studio**  
   

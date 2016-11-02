@@ -1,5 +1,5 @@
 ---
-title: "Working with a Conceptual Model (WCF Data Services)"
+title: "Working with a Conceptual Model (WCF Data Services) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

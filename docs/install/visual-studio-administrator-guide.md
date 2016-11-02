@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Administrator Guide"
+title: "Visual Studio Administrator Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio Administrator Guide
-You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](http://www.microsoft.com/visualstudio/eng/products/2013-editions). You can create a network share by running the installation file with the /layout switch (as described in the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
+You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](http://www.microsoft.com/visualstudio/eng/products/2013-editions). You can create a network share by running the installation file with the /layout switch (as described in the [Creating an Offline Installation of Visual Studio](Creating%20an%20Offline%20Installation%20of%20Visual%20Studio.md) topic) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
   
  Note that installations from a network share “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime you expect to have Visual Studio 2015 clients running in your organization.  
   
@@ -47,7 +47,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
  For Windows and Android device emulation, you might need to reboot computers if you do not already have Windows feature Hyper-V turned on. For Web development, you may need to reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. To learn more about how to automate the detection and installation of Windows features, see [Installing a server role on a server running a Server Core installation of Windows Server 2008 R2](https://technet.microsoft.com/library/ee441260(v=ws.10).aspx).  
   
 ## Error Return Codes  
- The following table lists important error codes. You can use these error codes in your automation to decide if a reboot is required and if the install succeeded. If you receive an error code, consider the troubleshooting steps in the [Installing Visual Studio](../install/installing-visual-studio-2015.md#installing) topic.  
+ The following table lists important error codes. You can use these error codes in your automation to decide if a reboot is required and if the install succeeded. If you receive an error code, consider the troubleshooting steps in the [Installing Visual Studio](../Topic/Installing%20Visual%20Studio%202015.md#installing) topic.  
   
 |Setup Status|Restart not required|Restart required|Description|  
 |------------------|--------------------------|----------------------|-----------------|  
@@ -63,7 +63,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
 ## Controlling What Is Installed  
  If you want to control what your end user can install, there are two options: the administrator file install and the command-line options. Select the administrator file install if your goal is to restrict what your end user can choose from their Visual Studio installer experience. Select the command-line parameters if you want to create an initial configuration but allow your end user to choose their own Visual Studio installer experience.  
   
- For more information on the administrator file experience, see [How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) and [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md).  For more information on the command-line controls, see [Using Command-Line Parameters to Install Visual Studio](../install/using-command-line-parameters-to-install-visual-studio.md).  
+ For more information on the administrator file experience, see [How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) and [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md).  For more information on the command-line controls, see [Using Command-Line Parameters to Install Visual Studio](Using%20Command-Line%20Parameters%20to%20Install%20Visual%20Studio.md).  
   
 ## Specifying Customer Feedback Settings  
  By default, the Visual Studio installation enables customer feedback. You can configure Visual Studio to disable customer feedback on individual computers by changing the value of the following registry key to string "0":  
@@ -81,4 +81,4 @@ You can deploy Visual Studio on a network as long as each target computer meets 
 |[How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|Describes how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in unattended mode.|  
 |[How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)|Describes how to apply product keys when deploying to multiple machines.|  
 |[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)|Provides information about  how to manage local Help installations for network environments that either have or do not have internet access.|  
-|[Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)|Provides instructions and  links to topics that describe how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|
+|[Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)|Provides instructions and  links to topics that describe how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|
