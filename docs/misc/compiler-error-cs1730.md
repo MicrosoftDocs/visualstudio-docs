@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1730"
 ms.assetid: 20900ca0-702f-4f35-9a60-2dee9cb11902
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

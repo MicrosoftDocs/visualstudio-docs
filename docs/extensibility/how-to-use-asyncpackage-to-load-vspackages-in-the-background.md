@@ -41,7 +41,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
     ```  
   
-     To indicate to Visual Studio that it is safe to instantiate your service on a background thread, you should set the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttributeBase.IsAsyncQueryable*> property to true in the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> constructor.  
+     To indicate to Visual Studio that it is safe to instantiate your service on a background thread, you should set the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttributeBase.IsAsyncQueryable%2A> property to true in the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> constructor.  
   
     ```c#  
     [ProvideService(typeof(SMyTestService), IsAsyncQueryable = true)]  
@@ -55,7 +55,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
     ```  
   
-4.  If you have asynchronous initialization work to do, you should override <xref:Microsoft.VisualStudio.Shell.AsyncPackage.InitializeAsync*>. Remove the **Initialize()** method provided by the VSIX template. (The **Initialize()** method in **AsyncPackage** is sealed). You can use any of the <xref:Microsoft.VisualStudio.Shell.AsyncPackage.AddService*> methods to add asynchronous services to your package.  
+4.  If you have asynchronous initialization work to do, you should override <xref:Microsoft.VisualStudio.Shell.AsyncPackage.InitializeAsync%2A>. Remove the **Initialize()** method provided by the VSIX template. (The **Initialize()** method in **AsyncPackage** is sealed). You can use any of the <xref:Microsoft.VisualStudio.Shell.AsyncPackage.AddService%2A> methods to add asynchronous services to your package.  
   
      NOTE: To call **base.InitializeAsync()**, you can change your source code to:  
   
@@ -63,9 +63,9 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
     await base.InitializeAsync(cancellationToken, progress);  
     ```  
   
-5.  You must take care to NOT make RPCs (Remove Procedure Call) from your asynchronous initialization code (in **InitializeAsync**). These can occur when you call <xref:Microsoft.VisualStudio.Shell.Package.GetService*> directly or indirectly.  When sync loads are required, the UI thread will block using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory>. The default blocking model disables RPCs. This means that if you attempt to use an RPC from your async tasks, you will deadlock if the UI thread is itself waiting for your package to load. The general alternative is to marshal your code to the UI thread if needed using something like **Joinable Task Factory**'s <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync*> or some other mechanism that does not use an RPC.  Do NOT use **ThreadHelper.Generic.Invoke** or generally block the calling thread waiting to get to the UI thread.  
+5.  You must take care to NOT make RPCs (Remove Procedure Call) from your asynchronous initialization code (in **InitializeAsync**). These can occur when you call <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> directly or indirectly.  When sync loads are required, the UI thread will block using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory>. The default blocking model disables RPCs. This means that if you attempt to use an RPC from your async tasks, you will deadlock if the UI thread is itself waiting for your package to load. The general alternative is to marshal your code to the UI thread if needed using something like **Joinable Task Factory**'s <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A> or some other mechanism that does not use an RPC.  Do NOT use **ThreadHelper.Generic.Invoke** or generally block the calling thread waiting to get to the UI thread.  
   
-     NOTE: You should avoid using **GetService** or **QueryService** in your **InitializeAsync** method. If you have to use those, you will need to switch to the UI thread first. The alternative is to use <xref:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync*> from your **AsyncPackage** (by casting it to <xref:Microsoft.VisualStudio.Shell.Interop.IAsyncServiceProvider>.)  
+     NOTE: You should avoid using **GetService** or **QueryService** in your **InitializeAsync** method. If you have to use those, you will need to switch to the UI thread first. The alternative is to use <xref:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync%2A> from your **AsyncPackage** (by casting it to <xref:Microsoft.VisualStudio.Shell.Interop.IAsyncServiceProvider>.)  
   
  C#: Create an AsyncPackage :  
   

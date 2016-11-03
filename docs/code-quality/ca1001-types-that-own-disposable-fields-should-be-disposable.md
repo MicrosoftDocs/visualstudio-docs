@@ -51,7 +51,7 @@ translation.priority.mt:
  A class implements the <xref:System.IDisposable> interface to dispose of unmanaged resources that it owns. An instance field that is an <xref:System.IDisposable> type indicates that the field owns an unmanaged resource. A class that declares an <xref:System.IDisposable> field indirectly owns an unmanaged resource and should implement the <xref:System.IDisposable> interface. If the class does not directly own any unmanaged resources, it should not implement a finalizer.  
   
 ## How to Fix Violations  
- To fix a violation of this rule, implement <xref:System.IDisposable> and from the <xref:System.IDisposable.Dispose*?displayProperty=fullName> method call the <xref:System.IDisposable.Dispose*> method of the field.  
+ To fix a violation of this rule, implement <xref:System.IDisposable> and from the <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> method call the <xref:System.IDisposable.Dispose%2A> method of the field.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule.  

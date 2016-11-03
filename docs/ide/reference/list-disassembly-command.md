@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

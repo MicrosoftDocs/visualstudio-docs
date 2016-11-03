@@ -45,23 +45,23 @@ translation.priority.ht:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- A public type implements the equality operator, but does not override <xref:System.Object.Equals*?displayProperty=fullName>.  
+ A public type implements the equality operator, but does not override <xref:System.Object.Equals%2A?displayProperty=fullName>.  
   
 ## Rule Description  
- The equality operator is intended to be a syntactically convenient way to access the functionality of the <xref:System.Object.Equals*> method. If you implement the equality operator, its logic must be identical to that of <xref:System.Object.Equals*>.  
+ The equality operator is intended to be a syntactically convenient way to access the functionality of the <xref:System.Object.Equals%2A> method. If you implement the equality operator, its logic must be identical to that of <xref:System.Object.Equals%2A>.  
   
  The C# compiler issues a warning if your code violates this rule.  
   
 ## How to Fix Violations  
- To fix a violation of this rule, you should either remove the implementation of the equality operator, or override <xref:System.Object.Equals*> and have the two methods return the same values. If the equality operator does not introduce inconsistent behavior, you can fix the violation by providing an implementation of <xref:System.Object.Equals*> that calls the <xref:System.Object.Equals*> method in the base class.  
+ To fix a violation of this rule, you should either remove the implementation of the equality operator, or override <xref:System.Object.Equals%2A> and have the two methods return the same values. If the equality operator does not introduce inconsistent behavior, you can fix the violation by providing an implementation of <xref:System.Object.Equals%2A> that calls the <xref:System.Object.Equals%2A> method in the base class.  
   
 ## When to Suppress Warnings  
- It is safe to suppress a warning from this rule if the equality operator returns the same value as the inherited implementation of <xref:System.Object.Equals*>. The Example section includes a type that could safely suppress a warning from this rule.  
+ It is safe to suppress a warning from this rule if the equality operator returns the same value as the inherited implementation of <xref:System.Object.Equals%2A>. The Example section includes a type that could safely suppress a warning from this rule.  
   
 ## Examples of Inconsistent Equality Definitions  
   
 ### Description  
- The following example shows a type with inconsistent definitions of equality. `BadPoint` changes the meaning of equality by providing a custom implementation of the equality operator, but does not override <xref:System.Object.Equals*> so that it behaves identically.  
+ The following example shows a type with inconsistent definitions of equality. `BadPoint` changes the meaning of equality by providing a custom implementation of the equality operator, but does not override <xref:System.Object.Equals%2A> so that it behaves identically.  
   
 ### Code  
  [!code-cs[FxCop.Usage.OperatorEqualsRequiresEquals#1](../code-quality/codesnippet/CSharp/ca2224-override-equals-on-overloading-operator-equals_1.cs)]  
@@ -106,7 +106,7 @@ translation.priority.ht:
  [!code-cs[FxCop.Usage.OverrideEqualsClassViolation#1](../code-quality/codesnippet/CSharp/ca2224-override-equals-on-overloading-operator-equals_5.cs)]  
   
 ## Example  
- The following example fixes the violation by overriding <xref:System.Object.Equals*?displayProperty=fullName>.  
+ The following example fixes the violation by overriding <xref:System.Object.Equals%2A?displayProperty=fullName>.  
   
  [!code-cs[FxCop.Usage.OverrideEqualsClassFixed#1](../code-quality/codesnippet/CSharp/ca2224-override-equals-on-overloading-operator-equals_6.cs)]  
   
@@ -119,7 +119,7 @@ translation.priority.ht:
  [!code-cs[FxCop.Usage.OverrideEqualsStructViolation#1](../code-quality/codesnippet/CSharp/ca2224-override-equals-on-overloading-operator-equals_7.cs)]  
   
 ## Example  
- The following example fixes the violation by overriding <xref:System.ValueType.Equals*?displayProperty=fullName>.  
+ The following example fixes the violation by overriding <xref:System.ValueType.Equals%2A?displayProperty=fullName>.  
   
  [!code-cs[FxCop.Usage.OverrideEqualsStructFixed#1](../code-quality/codesnippet/CSharp/ca2224-override-equals-on-overloading-operator-equals_8.cs)]  
   

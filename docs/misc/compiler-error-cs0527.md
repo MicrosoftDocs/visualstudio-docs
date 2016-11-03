@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0527"
 ms.assetid: 1acd244b-c55b-424f-b038-a130d65b8685
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

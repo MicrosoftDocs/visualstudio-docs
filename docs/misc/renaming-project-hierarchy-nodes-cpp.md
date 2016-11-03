@@ -52,7 +52,7 @@ You can rename a project folder hierarchy node by using the HierUtil7 project fr
   
      You can find the Hu_node.h file in the folder, \<installation root>\Program Files\VSIP 8.0\EnvSDK\common\hierutil7:  
   
-2.  Rename the folder by posting the rename command by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand*>  
+2.  Rename the folder by posting the rename command by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand%2A>  
   
     ```  
     IfFailGo(srpVsUIShell->PostExecCommand(&guidVSStd97, cmdidRename, 0, NULL));  

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "multitargeting [MSBuild]"
 ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
 caps.latest.revision: 30
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -93,15 +94,15 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  Alternately, you can determine the Toolset programmatically by calling the methods of the <xref:Microsoft.Build.Utilities.ToolLocationHelper> class. The class includes these methods:  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework*> returns the path of the .NET Framework folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework%2A> returns the path of the .NET Framework folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile*> returns the path of a file in the .NET Framework folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A> returns the path of a file in the .NET Framework folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk*> returns the path of the managed tools folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk%2A> returns the path of the managed tools folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile*> returns the path of a file, which is typically located in the managed tools folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile%2A> returns the path of a file, which is typically located in the managed tools folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools*> returns the path of the build tools.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.  
   
 ### Sub-toolsets  
  As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  

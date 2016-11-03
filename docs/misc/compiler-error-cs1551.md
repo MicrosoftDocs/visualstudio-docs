@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1551"
 ms.assetid: 09fde2a2-7466-418a-88ef-395321358b07
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Intercepting Legacy Language Service Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ With [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can have 
 ## Getting and Routing the Command  
  A command filter is an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object that monitors certain character sequences or key commands. You can associate more than one command filter with a single text view. Each text view maintains a chain of command filters. After you create a new command filter, you add the filter to the chain for the appropriate text view.  
   
- Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to add your command filter to the chain. When you call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*>, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] returns another command filter to which you can pass the commands that your command filter does not handle.  
+ Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to add your command filter to the chain. When you call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A>, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] returns another command filter to which you can pass the commands that your command filter does not handle.  
   
  You have the following options for command handling:  
   

@@ -34,11 +34,11 @@ translation.priority.mt:
 # How to: Force a VSPackage to Load
 VSPackages are ordinarily loaded only when their accompanying functionality is required to complete a process. Under some circumstances, however, a VSPackage may have to force another VSPackage to be loaded. For example, a lightweight VSPackage might load a larger VSPackage in a programming context that is not available as a CMDUIContext.  
   
- You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage*> method to force a VSPackage to load.  
+ You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage%2A> method to force a VSPackage to load.  
   
 ### To force a VSPackage to load  
   
--   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method of the VSPackage that forces another VSPackage to load:  
+-   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method of the VSPackage that forces another VSPackage to load:  
   
      [!code-cs[ForceVSPackageLoad#01](../misc/codesnippet/CSharp/how-to-force-a-vspackage-to-load_1.cs)]  
   

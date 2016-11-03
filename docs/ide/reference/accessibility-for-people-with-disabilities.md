@@ -1,7 +1,7 @@
 ---
 title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6bbcfc31-edbe-4143-a703-fde023efbb62
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

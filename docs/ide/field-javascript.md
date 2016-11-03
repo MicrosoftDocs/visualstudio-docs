@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "field JavaScript XML tag"
 ms.assetid: c494bae0-3095-42a3-aa0a-4c415188c65c
 caps.latest.revision: 19
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

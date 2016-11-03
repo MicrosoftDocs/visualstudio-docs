@@ -1,7 +1,7 @@
 ---
 title: "How to: Open Editors for Open Documents | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ Before a project opens a document window, the project first must determine wheth
   
 #### To open a project-specific editor for an open file  
   
-1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen*> method.  
+1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> method.  
   
      This call returns pointers to the document's hierarchy, hierarchy item, and window frame, if appropriate.  
   
@@ -59,9 +59,9 @@ Before a project opens a document window, the project first must determine wheth
   
 #### To open a standard editor for an open file  
   
-1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor*>.  
+1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>.  
   
-     This method first verifies that the document is not already open by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen*>. If the document is already open, then its editor window is resurfaced.  
+     This method first verifies that the document is not already open by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A>. If the document is already open, then its editor window is resurfaced.  
   
 2.  If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md).  
   

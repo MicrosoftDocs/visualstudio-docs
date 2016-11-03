@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Visual Studio 2010 Workflow Designer [WFD], activity designer"
 ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
 caps.latest.revision: 9
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

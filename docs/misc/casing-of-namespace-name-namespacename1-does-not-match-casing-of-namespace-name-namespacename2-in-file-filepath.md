@@ -52,4 +52,4 @@ A namespace appears more than once in the project, but with different casings.
  [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement)   
  [Namespaces in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/namespaces)   
  [Declared Element Names](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names)   
- [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/visual-basic-naming-conventions)
+ [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)

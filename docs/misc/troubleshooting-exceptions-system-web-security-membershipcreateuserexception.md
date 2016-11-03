@@ -39,7 +39,7 @@ translation.priority.mt:
 The exception that is thrown when a user is not successfully created by a membership provider.  
   
 ## Remarks  
- The <xref:System.Web.Security.MembershipCreateUserException.StatusCode*> property indicates the reason for the exception.  
+ The <xref:System.Web.Security.MembershipCreateUserException.StatusCode%2A> property indicates the reason for the exception.  
   
 ## See Also  
  <xref:System.Web.Security.MembershipCreateUserException>   

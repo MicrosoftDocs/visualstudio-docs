@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

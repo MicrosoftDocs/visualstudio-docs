@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Visual C#, default snippets"
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 33
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -54,11 +55,11 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 |checked|Creates a [checked](/dotnet/csharp/language-reference/keywords/checked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |class|Creates a class declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |ctor|Creates a constructor for the containing class.|Inside a class.|  
-|cw|Creates a call to <xref:System.Console.WriteLine*>.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|cw|Creates a call to <xref:System.Console.WriteLine%2A>.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |do|Creates a [do](/dotnet/csharp/language-reference/keywords/do)`while` loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |else|Creates an [else](/dotnet/csharp/language-reference/keywords/if-else) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |enum|Creates an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|equals|Creates a method declaration that overrides the <xref:System.Object.Equals*> method defined in the <xref:System.Object> class.|Inside a class or a struct.|  
+|equals|Creates a method declaration that overrides the <xref:System.Object.Equals%2A> method defined in the <xref:System.Object> class.|Inside a class or a struct.|  
 |exception|Creates a declaration for a class that derives from an exception (<xref:System.Exception> by default).|Inside a namespace (including the global namespace), a class, or a struct.|  
 |for|Creates a [for](/dotnet/csharp/language-reference/keywords/for) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |foreach|Creates a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
@@ -70,7 +71,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 |iterator|Creates an iterator.|Inside a class or a struct.|  
 |iterindex|Creates a "named" iterator and indexer pair by using a nested class.|Inside a class or a struct.|  
 |lock|Creates a [lock](/dotnet/csharp/language-reference/keywords/lock-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show*?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |namespace|Creates a [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration.|Inside a namespace (including the global namespace).|  
 |prop|Creates an [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|  
 ropfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  

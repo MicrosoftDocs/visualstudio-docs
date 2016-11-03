@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSBuild, properties"
 ms.assetid: 962912ac-8931-49bf-a88c-0200b6e37362
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -64,7 +65,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
   
  Each MSBuild project has an isolated environment block: it only sees reads and writes to its own block.  MSBuild only reads environment variables when it initializes the property collection, before the project file is evaluated or built. After that, environment properties are static, that is, each spawned tool starts with the same names and values.  
   
- To get the current value of environment variables from within a spawned tool, use the [Property Functions](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable. The preferred method, however, is to use the task parameter <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables*>. Environment properties set in this string array can be passed to the spawned tool without affecting the system environment variables.  
+ To get the current value of environment variables from within a spawned tool, use the [Property Functions](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable. The preferred method, however, is to use the task parameter <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables%2A>. Environment properties set in this string array can be passed to the spawned tool without affecting the system environment variables.  
   
 > [!TIP]
 >  Not all environment variables are read in to become initial properties. Any environment variable whose name is not a valid MSBuild property names, such as "386", is ignored.  

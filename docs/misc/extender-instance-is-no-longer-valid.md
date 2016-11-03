@@ -45,4 +45,4 @@ The Extender instance could not be created successfully or was destroyed.
   
 ## See Also  
  <xref:EnvDTE.ObjectExtenders>   
- <xref:EnvDTE.ObjectExtenders.GetExtender*>
+ <xref:EnvDTE.ObjectExtenders.GetExtender%2A>

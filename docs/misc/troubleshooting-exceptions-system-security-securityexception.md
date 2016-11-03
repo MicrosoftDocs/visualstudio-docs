@@ -45,12 +45,12 @@ A <xref:System.Security.SecurityException> exception is thrown when a security e
   
 ## Associated Tips  
  Adjust the permission level of the assembly via the property page.  
- For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCConfiguration.SqlPermissionLevel*>.  
+ For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCConfiguration.SqlPermissionLevel%2A>.  
   
  Store application data in isolated storage.  
  Isolated storage is a data storage that provides isolation and safety by defining standardized ways of associating code with saved data. For more information, [Isolated Storage](../Topic/Isolated%20Storage.md).  
   
- If using <xref:System.Windows.Forms.OpenFileDialog> , use the <xref:System.Windows.Forms.OpenFileDialog.OpenFile*> method to open or save a file.  
+ If using <xref:System.Windows.Forms.OpenFileDialog> , use the <xref:System.Windows.Forms.OpenFileDialog.OpenFile%2A> method to open or save a file.  
  This allows the application to perform in a partial-trust situation.  
   
  Make sure the application is reading and writing to existing event logs on the local computer.  

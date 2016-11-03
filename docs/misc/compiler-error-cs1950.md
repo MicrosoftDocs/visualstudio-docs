@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1950"
 ms.assetid: e37fb5b1-09e0-47a6-9db5-a48f90ea7bbb
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

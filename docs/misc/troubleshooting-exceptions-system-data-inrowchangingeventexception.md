@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Data.InRowChangingEventException
-The exception that is thrown when calling the <xref:System.Data.DataRow.EndEdit*> method within the <xref:System.Data.DataTable.RowChanging> event.  
+The exception that is thrown when calling the <xref:System.Data.DataRow.EndEdit%2A> method within the <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See Also  
  <xref:System.Data.InRowChangingEventException>   

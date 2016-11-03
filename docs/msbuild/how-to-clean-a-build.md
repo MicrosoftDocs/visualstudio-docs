@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "output, removing items"
 ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

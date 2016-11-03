@@ -1,7 +1,7 @@
 ---
 title: "Creating a Workflow Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "creating a workflow project"
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
 caps.latest.revision: 15
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

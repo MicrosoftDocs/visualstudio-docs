@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1031"
 ms.assetid: 14196659-aaac-4df2-a4ed-0bebb8097d59
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

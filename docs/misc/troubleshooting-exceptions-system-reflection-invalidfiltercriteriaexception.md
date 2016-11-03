@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Reflection.InvalidFilterCriteriaException
-The exception that is thrown in <xref:System.Type.FindMembers*> when the filter criteria is not valid for the type of filter you are using.  
+The exception that is thrown in <xref:System.Type.FindMembers%2A> when the filter criteria is not valid for the type of filter you are using.  
   
 ## See Also  
  <xref:System.Reflection.InvalidFilterCriteriaException>   

@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "msbuild.exe"
 ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
 caps.latest.revision: 57
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Build options [C#], advanced"
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -87,5 +88,5 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
  Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).  
   
 ## See Also  
- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options)   
+ [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)   
  [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

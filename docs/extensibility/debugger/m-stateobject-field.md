@@ -46,7 +46,7 @@ An object that represents data that the action will use.
 ```  
   
 ## Remarks  
- This is the `state` parameter in the <xref:System.Threading.Tasks.Task.#ctor*> constructor. It is also the backing field for the <xref:System.Threading.Tasks.Task.AsyncState*?displayProperty=fullName> property.  
+ This is the `state` parameter in the <xref:System.Threading.Tasks.Task.%23ctor%2A> constructor. It is also the backing field for the <xref:System.Threading.Tasks.Task.AsyncState%2A?displayProperty=fullName> property.  
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)

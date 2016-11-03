@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, MakeDir task"
 ms.assetid: bc951577-1bfb-4100-b1f1-bc8278c45bf7
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

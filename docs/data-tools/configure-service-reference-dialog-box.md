@@ -82,7 +82,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.  
   
  **Dictionary collection type**  
- Specifies the dictionary collection type for a WCF client. The default type is <xref:System.Collections.Generic.Dictionary`2>.  
+ Specifies the dictionary collection type for a WCF client. The default type is <xref:System.Collections.Generic.Dictionary%602>.  
   
  **Reuse types in referenced assemblies**  
  Determines whether a WCF client will try to reuse that already exist in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.  

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSBuild, task batching"
 ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

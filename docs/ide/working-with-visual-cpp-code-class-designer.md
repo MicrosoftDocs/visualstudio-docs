@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "C++, Class Designer"
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
 caps.latest.revision: 23
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

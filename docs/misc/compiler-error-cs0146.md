@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0146"
 ms.assetid: 2be796e5-da2c-4939-af12-3145cd1828c8
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

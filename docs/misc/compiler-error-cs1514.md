@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1514"
 ms.assetid: 61c25e0e-84b1-4b94-b790-ef1e4ff9fc4e
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

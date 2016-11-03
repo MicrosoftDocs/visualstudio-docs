@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Security in the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/29/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

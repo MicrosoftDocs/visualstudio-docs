@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSBuild, property functions"
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 caps.latest.revision: 33
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

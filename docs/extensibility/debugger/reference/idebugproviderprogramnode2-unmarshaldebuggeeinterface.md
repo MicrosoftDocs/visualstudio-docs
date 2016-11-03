@@ -1,7 +1,7 @@
 ---
 title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ int UnmarshalDebuggeeInterface(
  [in] GUID of the interface to obtain.  
   
  `ppvObject`  
- [out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown*> method to get the desired interface.  
+ [out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

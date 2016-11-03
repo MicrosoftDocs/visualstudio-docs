@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1101"
 ms.assetid: d6fc8834-eadf-4497-b442-0751895e6764
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

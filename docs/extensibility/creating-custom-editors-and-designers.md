@@ -1,7 +1,7 @@
 ---
 title: "Creating Custom Editors and Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
 ##### External Editors  
  External editors are editors that are not integrated into Visual Studio, such as Microsoft Word, Notepad, or Microsoft FrontPage. You might call such an editor if, for example, you are passing text to it from your VSPackage. External editors register themselves and can be used outside Visual Studio. When you call an external editor, and it can be embedded in a host window, then it appears in a window in the IDE. If not, then the IDE creates a separate window for it.  
   
- The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method sets the document priority by using the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration. If the `DP_External` value is specified, the file can be opened by an external editor.  
+ The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method sets the document priority by using the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration. If the `DP_External` value is specified, the file can be opened by an external editor.  
   
 ## Editor Design Decisions  
  The following design questions will help you to choose the type of editor best suited to your application:  
@@ -80,7 +80,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
 -   If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]?  
   
-     If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
+     If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
   
 ## In This Section  
  [Walkthrough: Creating a Custom Editor](../extensibility/walkthrough-creating-a-custom-editor.md)  

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Rule Condition Editor dialog box"
 ms.assetid: 804b6129-c433-408f-a424-46987967730c
 caps.latest.revision: 5
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0205"
 ms.assetid: 616d98cf-e7a5-4f8e-93da-fcd6e1e4de35
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

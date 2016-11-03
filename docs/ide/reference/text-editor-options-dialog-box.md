@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "editor settings"
 ms.assetid: 90d4e522-6391-4571-927d-b466a9766342
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

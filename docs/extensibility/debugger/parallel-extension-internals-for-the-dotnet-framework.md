@@ -47,7 +47,7 @@ This section describes the internal types, methods, and fields of classes that h
  Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> structure.  
   
  [AsyncTaskMethodBuilder\<TResult> Structure](../../extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members.md)  
- Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1> structure.  
+ Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> structure.  
   
  [AsyncVoidMethodBuilder Structure](../../extensibility/debugger/asyncvoidmethodbuilder-structure-internal-members.md)  
  Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> structure.  

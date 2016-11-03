@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 717f11fe-be6c-4d6e-9006-e7e5220c02bb
-caps.latest.revision: 27
+caps.latest.revision: 28
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -54,7 +54,7 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
     >  Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.  
   
 ## See Also  
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
+ [Install Visual Studio](../install/install-visual-studio-2015.md)   
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)   
  [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)   
  [Locate or Change the Product Key for Team Foundation Server](../Topic/Locate%20or%20Change%20the%20Product%20Key%20for%20Team%20Foundation%20Server.md)   

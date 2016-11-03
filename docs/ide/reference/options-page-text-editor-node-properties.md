@@ -1,7 +1,7 @@
 ---
 title: "Options Page, Text Editor Node Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
 ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

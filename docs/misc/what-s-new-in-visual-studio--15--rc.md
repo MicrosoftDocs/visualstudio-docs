@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in Visual Studio &quot;15&quot; RC | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/31/2016"
+ms.date: "11/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -63,7 +63,7 @@ This page highlights some of the most important features that are new in the rel
  Visual Studio 2015 continues to support classic desktop and Windows Store development. As Windows evolves, Visual Studio will evolve along with it.  In Visual Studio 2015, the libraries and languages for .NET as well as C++ have made significant advances that are applicable to all versions of Windows.  
   
 #### The .NET Framework  
- The Microsoft [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement <xref:System.Collections.Generic.IReadOnlyCollection`1> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
+ The Microsoft [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement <xref:System.Collections.Generic.IReadOnlyCollection%601> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
   
  Windows Store apps written in C# that target the .NET Framework can now take advantage of .NET Native, which compiles apps to native code rather than IL, and [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] also adds RyuJIT, a 64-bit Just-In-Time (JIT) compiler.  
   

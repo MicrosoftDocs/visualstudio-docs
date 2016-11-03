@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "creating an assembly [WPF MSBuild], XAML page refers to a locally declared type"
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

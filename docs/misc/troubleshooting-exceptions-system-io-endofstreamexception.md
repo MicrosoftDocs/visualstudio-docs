@@ -42,7 +42,7 @@ An <xref:System.IO.EndOfStreamException> exception is thrown when there is an at
   
 ## Associated Tips  
  **Check whether the end of the file has been reached before reading.**  
- Use the <xref:System.IO.StreamReader.Peek*> method to check the end of the file before reading from the stream.  
+ Use the <xref:System.IO.StreamReader.Peek%2A> method to check the end of the file before reading from the stream.  
   
 ## See Also  
  <xref:System.IO.EndOfStreamException>   

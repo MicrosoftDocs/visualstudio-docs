@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "code snippets, security"
 ms.assetid: a293ec17-4dd7-4a99-8eeb-99f44a822a8b
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -77,6 +78,6 @@ The code in a code snippet shows only the most basic way to do something. For mo
     -   The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
   
 ## See Also  
- [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/visual-basic-intellisense-code-snippets)   
+ [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)   
  [Securing Applications](../ide/securing-applications.md)   
  [Code Snippets](../ide/code-snippets.md)

@@ -42,7 +42,7 @@ You can migrate a legacy language service to a later version of Visual Studio by
  The following steps show how to adapt a Visual Studio 2008 sample named RegExLanguageService. You can find this sample in a Visual Studio 2008 SDK installation, in the *Visual Studio SDK installation path*\VisualStudioIntegration\Samples\IDE\CSharp\Example.RegExLanguageService\ folder.  
   
 > [!IMPORTANT]
->  If your language service does not define colors, you must explicitly set <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute.RequestStockColors*> to `true` on the VSPackage:  
+>  If your language service does not define colors, you must explicitly set <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute.RequestStockColors%2A> to `true` on the VSPackage:  
   
 ```  
 [Microsoft.VisualStudio.Shell.ProvideLanguageService(typeof(YourLanguageService), YourLanguageServiceName, 0, RequestStockColors = true)]  

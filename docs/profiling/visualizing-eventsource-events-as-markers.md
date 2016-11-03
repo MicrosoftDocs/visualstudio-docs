@@ -102,7 +102,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
  Use the `cvTextW` field, a string, to control the description that the Concurrency Visualizer gives to an EventSource event.  
   
 ### SpanID  
- Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange*> to ensure that the key (the value that's used for CvSpanID) is correct.  
+ Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange%2A> to ensure that the key (the value that's used for CvSpanID) is correct.  
   
 > [!NOTE]
 >  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.  

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "class diagrams, mouse shortcuts"
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

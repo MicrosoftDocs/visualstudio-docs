@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0712"
 ms.assetid: cde64c0c-3953-4563-8c24-8b646230bbb8
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

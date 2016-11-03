@@ -47,22 +47,22 @@ translation.priority.mt:
 ## Cause  
  A method or constructor calls one or more members that have overloads that accept a <xref:System.IFormatProvider?displayProperty=fullName> parameter, and the method or constructor does not call the overload that takes the <xref:System.IFormatProvider> parameter. This rule ignores calls to [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] methods that are documented as ignoring the <xref:System.IFormatProvider> parameter and additionally the following methods:  
   
--   <xref:System.Activator.CreateInstance*?displayProperty=fullName>  
+-   <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>  
   
--   <xref:System.Resources.ResourceManager.GetObject*?displayProperty=fullName>  
+-   <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=fullName>  
   
--   <xref:System.Resources.ResourceManager.GetString*?displayProperty=fullName>  
+-   <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=fullName>  
   
 ## Rule Description  
  When a <xref:System.Globalization.CultureInfo?displayProperty=fullName> or <xref:System.IFormatProvider> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] members choose default culture and formatting based on assumptions that might not be correct for your code. To make sure that the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:  
   
--   If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture*?displayProperty=fullName>.  
+-   If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=fullName>.  
   
--   If the value will be stored and accessed by software (persisted to a file or database), use the invariant culture. See <xref:System.Globalization.CultureInfo.InvariantCulture*?displayProperty=fullName>.  
+-   If the value will be stored and accessed by software (persisted to a file or database), use the invariant culture. See <xref:System.Globalization.CultureInfo.InvariantCulture%2A?displayProperty=fullName>.  
   
 -   If you do not know the destination of the value, have the data consumer or provider specify the culture.  
   
- Note that <xref:System.Globalization.CultureInfo.CurrentUICulture*?displayProperty=fullName> is used only to retrieve localized resources by using an instance of the <xref:System.Resources.ResourceManager?displayProperty=fullName> class.  
+ Note that <xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName> is used only to retrieve localized resources by using an instance of the <xref:System.Resources.ResourceManager?displayProperty=fullName> class.  
   
  Even if the default behavior of the overloaded member is appropriate for your needs, it is better to explicitly call the culture-specific overload so that your code is self-documenting and more easily maintained.  
   
@@ -73,7 +73,7 @@ translation.priority.mt:
  It is safe to suppress a warning from this rule when it is certain that the default culture/format provider is the correct choice and where code maintainability is not an important development priority.  
   
 ## Example  
- In the following example, `BadMethod` causes two violations of this rule. `GoodMethod` corrects the first violation by passing the invariant culture to <xref:System.String.Compare*>, and corrects the second violation by passing the current culture to <xref:System.String.ToLower*> because `string3` is displayed to the user.  
+ In the following example, `BadMethod` causes two violations of this rule. `GoodMethod` corrects the first violation by passing the invariant culture to <xref:System.String.Compare%2A>, and corrects the second violation by passing the current culture to <xref:System.String.ToLower%2A> because `string3` is displayed to the user.  
   
  [!code-cs[FxCop.Globalization.CultureInfo#1](../code-quality/codesnippet/CSharp/ca1305-specify-iformatprovider_1.cs)]  
   

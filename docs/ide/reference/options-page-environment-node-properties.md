@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Tools Options settings, Environment node properties"
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,7 +67,7 @@ This document describes the pages (or properties collections) that are associate
 |ReuseSavedActiveDocWindow|Get/Set (Boolean)|Determines whether opening a new file reuses the current document window if the current document is saved. `false` means always open a new document window for each document opened.|  
 |DetectFileChangesOutsideIDE|Get/Set (Boolean)|Determines whether the environment automatically reloads files opened in the IDE when the operating system notifies the IDE that the files have been modified on disk.|  
 |AutoloadExternalChanges|Get/Set (Boolean)|Determines whether detected external modifications to open documents automatically reload the modified file if the open document is not modified. If the open document is modified and this property is `true`, then the IDE prompts as if this property were `false`.|  
-|InitializeOpenFileFromCurrentDocument|Get/Set (Boolean)|Determines whether the <xref:EnvDTE.DTEClass.OpenFile*> command seeds the directory and file name from the last active document, or from the last place you opened a file.|  
+|InitializeOpenFileFromCurrentDocument|Get/Set (Boolean)|Determines whether the <xref:EnvDTE.DTEClass.OpenFile%2A> command seeds the directory and file name from the last active document, or from the last place you opened a file.|  
 |MiscFilesProjectSavesLastNItems|Get/Set (Short)|Determines how many files the Miscellaneous Files project records. As a result, you can see what you most recently had open as a miscellaneous file on disk when you next use the IDE.|  
 |ShowMiscFilesProject|Get/Set (Boolean)|Determines whether the Miscellaneous Files project is shown.|  
 |CheckForConsisentLineEndings|Get/Set (Boolean)|Checks for consistent line endings on file load.|  

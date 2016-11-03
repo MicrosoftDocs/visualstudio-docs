@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSBuild, environment variables"
 ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

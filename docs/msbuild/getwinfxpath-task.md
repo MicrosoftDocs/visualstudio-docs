@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "obtaining the path to the current .NET Framework runtime [WPF MSBuild]"
 ms.assetid: b1dfb467-f3d3-47f3-83ef-af7b0e33a772
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

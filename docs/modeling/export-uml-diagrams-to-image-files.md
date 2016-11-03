@@ -1,7 +1,7 @@
 ---
 title: "Export UML diagrams to image files | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ You can export a UML document from [!INCLUDE[vsprvs](../code-quality/includes/vs
 > [!NOTE]
 >  To make this code work as a menu command, you must incorporate it into a MEF component. For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
- The code first uses <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject*> to get the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> of the underlying implementation. This type has a method <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap*>.  
+ The code first uses <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject%2A> to get the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> of the underlying implementation. This type has a method <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap%2A>.  
   
 ```  
 namespace SaveToImage  

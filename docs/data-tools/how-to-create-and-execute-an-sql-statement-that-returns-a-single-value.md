@@ -116,7 +116,7 @@ To execute an SQL statement that returns a single value, you can run a TableAdap
   
 #### To execute an SQL statement returning a single value using a DataCommand  
   
--   Add the following code to a method that you want to execute the code from. You return a single value by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an <xref:System.Object>.  
+-   Add the following code to a method that you want to execute the code from. You return a single value by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar%2A>). The data is returned in an <xref:System.Object>.  
   
      [!code-cs[VbRaddataFillingAndExecuting#10](../data-tools/codesnippet/CSharp/how-to-create-and-execute-an-sql-statement-that-returns-a-single-value_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#10](../data-tools/codesnippet/VisualBasic/how-to-create-and-execute-an-sql-statement-that-returns-a-single-value_2.vb)]  
@@ -125,10 +125,10 @@ To execute an SQL statement that returns a single value, you can run a TableAdap
  The application requires permission to access the database and execute the SQL statement.  
   
 ## See Also  
- <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.OleDb.OleDbCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.Odbc.OdbcCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.OracleClient.OracleCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.OleDb.OleDbCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.Odbc.OdbcCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A?displayProperty=fullName>   
  [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md)   
  [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md)   

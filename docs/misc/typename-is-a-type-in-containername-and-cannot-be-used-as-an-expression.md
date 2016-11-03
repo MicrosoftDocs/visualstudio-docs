@@ -48,4 +48,4 @@ One of the names being used is already declared as the name of a type, and canno
   
 ## See Also  
  [Keywords as Element Names in Code](/dotnet/visual-basic/programming-guide/program-structure/keywords-as-element-names-in-code)   
- [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/visual-basic-naming-conventions)
+ [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)

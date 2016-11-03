@@ -1,7 +1,7 @@
 ---
 title: "-Upgrade (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "upgrade Devenv switch"
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

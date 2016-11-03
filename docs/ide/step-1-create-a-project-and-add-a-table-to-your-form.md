@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 caps.latest.revision: 19
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

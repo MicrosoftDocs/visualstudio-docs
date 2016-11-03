@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2003"
 ms.assetid: 87ce44c8-ed0f-40d1-8c13-8edb998fabb8
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

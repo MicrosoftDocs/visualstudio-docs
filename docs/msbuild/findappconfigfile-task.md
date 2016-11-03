@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, FindAppConfigFile task"
 ms.assetid: e292de3e-7482-4426-83ce-d921061808bf
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

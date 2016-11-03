@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3001"
 ms.assetid: c4f3e247-5e47-4182-b415-c573fb1a152f
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

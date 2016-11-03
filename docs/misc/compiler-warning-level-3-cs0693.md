@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0693"
 ms.assetid: a3902336-49db-4808-b41f-8f0936bff53a
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

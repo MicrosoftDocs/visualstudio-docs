@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0197"
 ms.assetid: 2b5b1b8d-ce13-4bd7-b80a-abb80e9f79ad
 caps.latest.revision: 17
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0200"
 ms.assetid: 1990704a-edfa-4dbd-8477-d9c7aae58c96
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

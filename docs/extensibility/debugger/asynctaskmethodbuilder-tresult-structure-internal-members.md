@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members
-This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1> reference topic.  
+This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> reference topic.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
   
@@ -56,5 +56,5 @@ This topic describes the internal members of the <xref:System.Runtime.CompilerSe
 |[m_task field](../../extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field.md)|Represents the lazily initialized built task.|  
   
 ## See Also  
- <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1>   
+ <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>   
  [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

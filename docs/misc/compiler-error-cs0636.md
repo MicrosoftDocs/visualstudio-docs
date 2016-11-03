@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0636"
 ms.assetid: 47597f89-fbe6-4708-9493-3c86c6f0ce56
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

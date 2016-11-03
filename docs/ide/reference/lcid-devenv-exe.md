@@ -1,7 +1,7 @@
 ---
 title: "-LCID (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "/lcid Devenv switch"
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

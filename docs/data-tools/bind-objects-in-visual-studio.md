@@ -87,12 +87,12 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ### Create a typed collection of objects  
  You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](../Topic/BindingSource%20Component.md).  
   
- When you are creating a custom collection class for objects, we suggest that you inherit from <xref:System.ComponentModel.BindingList`1>. This generic class provides functionality to administer your collection, as well as the ability to raise events that send notifications to the data-binding infrastructure in Windows Forms.  
+ When you are creating a custom collection class for objects, we suggest that you inherit from <xref:System.ComponentModel.BindingList%601>. This generic class provides functionality to administer your collection, as well as the ability to raise events that send notifications to the data-binding infrastructure in Windows Forms.  
   
- The automatically-generated collection in the <xref:System.Windows.Forms.BindingSource> uses a <xref:System.ComponentModel.BindingList`1> for its typed collection. If your application does not require additional functionality, then you can maintain your collection within the <xref:System.Windows.Forms.BindingSource>. For more information, see the <xref:System.Windows.Forms.BindingSource.List*> property of the <xref:System.Windows.Forms.BindingSource> class.  
+ The automatically-generated collection in the <xref:System.Windows.Forms.BindingSource> uses a <xref:System.ComponentModel.BindingList%601> for its typed collection. If your application does not require additional functionality, then you can maintain your collection within the <xref:System.Windows.Forms.BindingSource>. For more information, see the <xref:System.Windows.Forms.BindingSource.List%2A> property of the <xref:System.Windows.Forms.BindingSource> class.  
   
 > [!NOTE]
->  If your collection requires functionality not provided by the base implementation of the <xref:System.ComponentModel.BindingList`1>, you should create a custom collection so you can add to the class as needed.  
+>  If your collection requires functionality not provided by the base implementation of the <xref:System.ComponentModel.BindingList%601>, you should create a custom collection so you can add to the class as needed.  
   
  The following code shows how to create the class for a strongly-typed collection of `Order` objects:  
   
@@ -107,14 +107,14 @@ Visual Studio provides design-time tools for working with custom objects as the 
  For an example of adding objects to a custom collection, see the `LoadOrders` method in [Walkthrough: Connecting to Data in Objects (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20Objects%20\(Windows%20Forms\).md).  
   
 > [!NOTE]
->  The `Add` method is automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList`1>.  
+>  The `Add` method is automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.  
   
  The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:  
   
  [!code-cs[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
  [!code-vb[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]  
   
- The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList`1>:  
+ The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:  
   
 > [!NOTE]
 >  In this example the `Orders` collection is a property of the `Customer` object.  
@@ -126,9 +126,9 @@ Visual Studio provides design-time tools for working with custom objects as the 
  You remove objects from a collection by calling the `Remove` or `RemoveAt` method of your custom collection class or of <xref:System.Windows.Forms.BindingSource>.  
   
 > [!NOTE]
->  The `Remove` and `RemoveAt` methods are automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList`1>.  
+>  The `Remove` and `RemoveAt` methods are automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.  
   
- The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt*> method:  
+ The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> method:  
   
  [!code-cs[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]
  [!code-vb[VbRaddataConnecting#7](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_5.vb)]  
@@ -139,7 +139,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ### Modify the data in objects  
  To edit data in custom objects that are data-bound to Windows Forms controls, simply edit the data in the bound control (or directly in the object's properties). Data-binding architecture updates the data in the object.  
   
- If your application requires the tracking of changes and the rolling back of proposed changes to their original values, then you must implement this functionality in your object model. For examples of how data tables keep track of proposed changes, see <xref:System.Data.DataRowState>, <xref:System.Data.DataSet.HasChanges*>, and <xref:System.Data.DataTable.GetChanges*>.  
+ If your application requires the tracking of changes and the rolling back of proposed changes to their original values, then you must implement this functionality in your object model. For examples of how data tables keep track of proposed changes, see <xref:System.Data.DataRowState>, <xref:System.Data.DataSet.HasChanges%2A>, and <xref:System.Data.DataTable.GetChanges%2A>.  
   
 ### Savedata in objects back to the database  
  Save data back to the database by passing the values from your object to the TableAdapter's DBDirect methods.  

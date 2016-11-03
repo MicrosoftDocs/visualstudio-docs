@@ -1,7 +1,7 @@
 ---
 title: "How to: Fill a dataset with data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,7 +73,7 @@ The phrase "filling a dataset with data" refers to loading data into the individ
   
 #### To fill a dataset with data using a DataAdapter  
   
--   Call the <xref:System.Data.Common.DataAdapter.Fill*> method of the <xref:System.Data.Common.DataAdapter>, passing in the <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to load the data into. For example:  
+-   Call the <xref:System.Data.Common.DataAdapter.Fill%2A> method of the <xref:System.Data.Common.DataAdapter>, passing in the <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to load the data into. For example:  
   
      [!code-cs[VbRaddataFillingAndExecuting#6](../data-tools/codesnippet/CSharp/how-to-fill-a-dataset-with-data_3.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#6](../data-tools/codesnippet/VisualBasic/how-to-fill-a-dataset-with-data_3.vb)]  

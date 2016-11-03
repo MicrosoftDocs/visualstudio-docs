@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, item definitions"
 ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

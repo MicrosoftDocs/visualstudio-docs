@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3010"
 ms.assetid: d57bd750-df15-4e6a-9579-66de8b276b7e
 caps.latest.revision: 12
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

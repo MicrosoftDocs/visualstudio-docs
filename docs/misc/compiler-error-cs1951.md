@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1951"
 ms.assetid: 799ba212-a000-44d9-b7da-a8c00eae63fa
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

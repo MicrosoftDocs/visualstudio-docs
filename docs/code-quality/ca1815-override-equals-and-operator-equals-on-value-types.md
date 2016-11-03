@@ -45,13 +45,13 @@ translation.priority.mt:
 |Breaking Change|Non-breaking|  
   
 ## Cause  
- A public value type does not override <xref:System.Object.Equals*?displayProperty=fullName>, or does not implement the equality operator (==). This rule does not check enumerations.  
+ A public value type does not override <xref:System.Object.Equals%2A?displayProperty=fullName>, or does not implement the equality operator (==). This rule does not check enumerations.  
   
 ## Rule Description  
- For value types, the inherited implementation of <xref:System.Object.Equals*> uses the Reflection library, and compares the contents of all fields. Reflection is computationally expensive, and comparing every field for equality might be unnecessary. If you expect users to compare or sort instances, or use them as hash table keys, your value type should implement <xref:System.Object.Equals*>. If your programming language supports operator overloading, you should also provide an implementation of the equality and inequality operators.  
+ For value types, the inherited implementation of <xref:System.Object.Equals%2A> uses the Reflection library, and compares the contents of all fields. Reflection is computationally expensive, and comparing every field for equality might be unnecessary. If you expect users to compare or sort instances, or use them as hash table keys, your value type should implement <xref:System.Object.Equals%2A>. If your programming language supports operator overloading, you should also provide an implementation of the equality and inequality operators.  
   
 ## How to Fix Violations  
- To fix a violation of this rule, provide an implementation of <xref:System.Object.Equals*>. If you can, implement the equality operator.  
+ To fix a violation of this rule, provide an implementation of <xref:System.Object.Equals%2A>. If you can, implement the equality operator.  
   
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule if instances of the value type will not be compared to each other.  
@@ -67,7 +67,7 @@ translation.priority.mt:
 ## Example of How to Fix  
   
 ### Description  
- The following example fixes the previous violation by overriding <xref:System.ValueType.Equals*?displayProperty=fullName> and implementing the equality operators (==, !=).  
+ The following example fixes the previous violation by overriding <xref:System.ValueType.Equals%2A?displayProperty=fullName> and implementing the equality operators (==, !=).  
   
 ### Code  
  [!code-cs[FxCop.Performance.OverrideEqualsFixed#1](../code-quality/codesnippet/CSharp/ca1815-override-equals-and-operator-equals-on-value-types_2.cs)]  
@@ -80,4 +80,4 @@ translation.priority.mt:
  [CA2226: Operators should have symmetrical overloads](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md)  
   
 ## See Also  
- <xref:System.Object.Equals*?displayProperty=fullName>
+ <xref:System.Object.Equals%2A?displayProperty=fullName>

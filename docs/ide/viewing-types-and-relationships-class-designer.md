@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "relationships, visualizing"
 ms.assetid: c4f46d94-9972-42ac-ae63-6ff306369965
 caps.latest.revision: 33
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

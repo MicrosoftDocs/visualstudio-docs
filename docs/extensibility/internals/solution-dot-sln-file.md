@@ -35,7 +35,7 @@ translation.priority.mt:
 # Solution (.Sln) File
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in .sln (text-based, shared) and .suo (binary, user-specific solution options) files. For further information on .suo files, see [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).  
   
- If your VSPackage is loaded as a result of being referenced in the .sln file, the environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps*> to read in the .sln file.  
+ If your VSPackage is loaded as a result of being referenced in the .sln file, the environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> to read in the .sln file.  
   
  The .sln file contains text-based information the environment uses to find and load the name-value parameters for the persisted data and the project VSPackages it references. When a user opens a solution, the environment cycles through the `preSolution`, `Project`, and `postSolution` information in the .sln file to load the solution, projects within the solution, and any persisted information attached to the solution.  
   
@@ -81,7 +81,7 @@ EndGlobal
   
      When the environment reads the `GlobalSection('name')` tag, it maps the name to a VSPackage using the registry. The key name should exist in the registry under [HKLM\\<Application ID Registry Root\>\SolutionPersistence\AggregateGUIDs]. The keys' default value is the Package GUID (REG_SZ) of the VSPackage that wrote the entries.  
   
-2.  The environment loads the VSPackage, calls `QueryInterface` on the VSPackage for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface, and calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps*> method with the data in the section so the VSPackage can store the data. The environment repeats this process for each `preSolution` section.  
+2.  The environment loads the VSPackage, calls `QueryInterface` on the VSPackage for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface, and calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> method with the data in the section so the VSPackage can store the data. The environment repeats this process for each `preSolution` section.  
   
 3.  The environment iterates through the project persistence blocks. In this case, there is one project.  
   
@@ -99,11 +99,11 @@ EndGlobal
   
 5.  After all sections of the .sln file are processed, the solution is displayed in Solution Explorer and is ready for modification by the user.  
   
- If any VSPackage that implements a project in the solution fails to load, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.OnProjectLoadFailure*> method is called and every other project in the solution is given a chance to ignore changes it might have made during loading. If parsing errors occur, as much information as possible is preserved with the solution files and the environment displays a dialog box warning the user that the solution is corrupted.  
+ If any VSPackage that implements a project in the solution fails to load, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.OnProjectLoadFailure%2A> method is called and every other project in the solution is given a chance to ignore changes it might have made during loading. If parsing errors occur, as much information as possible is preserved with the solution files and the environment displays a dialog box warning the user that the solution is corrupted.  
   
- When the solution is saved or closed, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.QuerySaveSolutionProps*> method is called and passed to the hierarchy to see if changes have been made to the solution that need to be entered into the .sln file. A null value, passed in to `QuerySaveSolutionProps` in <xref:Microsoft.VisualStudio.Shell.Interop.VSQUERYSAVESLNPROPS>, indicates that information is being persisted for the solution. If the value is not null, the persisted information is for a specific project, determined by the pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface.  
+ When the solution is saved or closed, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.QuerySaveSolutionProps%2A> method is called and passed to the hierarchy to see if changes have been made to the solution that need to be entered into the .sln file. A null value, passed in to `QuerySaveSolutionProps` in <xref:Microsoft.VisualStudio.Shell.Interop.VSQUERYSAVESLNPROPS>, indicates that information is being persisted for the solution. If the value is not null, the persisted information is for a specific project, determined by the pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface.  
   
- If there is information to be saved, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> interface is called with a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.SaveSolutionProps*> method. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.WriteSolutionProps*> method is then called by the environment to retrieve the name-value pairs from `IPropertyBag` interface and write the information to the .sln file.  
+ If there is information to be saved, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> interface is called with a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.SaveSolutionProps%2A> method. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.WriteSolutionProps%2A> method is then called by the environment to retrieve the name-value pairs from `IPropertyBag` interface and write the information to the .sln file.  
   
  `SaveSolutionProps` and `WriteSolutionProps` objects are called recursively by the environment to retrieve information to be saved from the `IPropertyBag` interface until all changes have been entered into the .sln file. In this way, you can insure that the information will be persisted with the solution and available next time the solution is opened.  
   

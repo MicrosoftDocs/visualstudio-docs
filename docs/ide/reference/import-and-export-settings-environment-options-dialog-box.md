@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Profiles"
 ms.assetid: 4e69f97b-2bd2-4619-a5f9-92ca2e814de3
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

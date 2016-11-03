@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0133"
 ms.assetid: b5be456f-824d-4e6d-802b-0b1b5889efbd
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1534"
 ms.assetid: afb28c3a-a74c-4e47-b016-9e3245a5a1b1
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

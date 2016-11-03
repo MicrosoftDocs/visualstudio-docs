@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "output directory, changing"
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

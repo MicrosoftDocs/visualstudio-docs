@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2005"
 ms.assetid: 03535d2a-ae30-4272-ab45-e277df5ee8e1
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS2005
 Missing file specification for 'option' option  
   
- A [compiler option](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options) was only partially specified.  
+ A [compiler option](/dotnet/csharp/language-reference/compiler-options/index) was only partially specified.  
   
  For example, when using [/recurse](/dotnet/csharp/language-reference/compiler-options/recurse-compiler-option), you must specify the file to search: **/recurse:***filename***.cs**.  
   

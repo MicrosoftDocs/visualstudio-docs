@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "statement completion, JavaScript IntelliSense"
 ms.assetid: c2cd4945-c67e-471b-8057-96cfd25f7fb2
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

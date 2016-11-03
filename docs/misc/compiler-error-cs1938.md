@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1938"
 ms.assetid: fc8de996-f7a1-46e8-b07b-aea520b391b9
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

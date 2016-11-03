@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0724"
 ms.assetid: bcdb2017-7a43-4242-b4e2-a1ae03d6d73f
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

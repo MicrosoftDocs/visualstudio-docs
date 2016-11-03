@@ -62,6 +62,7 @@ helpviewer_keywords:
   - "code"
 ms.assetid: cb53ab9a-5b76-4759-b9e8-7bf32298ecbe
 caps.latest.revision: 44
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -201,7 +202,7 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
--   [Visual Basic Settings](/dotnet/visual-basic/developing-apps/using-ide/visual-basic-settings)  
+-   [Visual Basic Settings](/dotnet/visual-basic/developing-apps/using-ide/settings)  
 
 -   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 

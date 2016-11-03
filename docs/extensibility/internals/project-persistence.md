@@ -1,7 +1,7 @@
 ---
 title: "Project Persistence | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,9 +51,9 @@ Persistence is a key design consideration for your project. Most projects use pr
   
  In the case where items are not files, `IPersistFileFormat` is still how non-file-based items are persisted. Project files, such as .vbp files for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] projects or .vcproj files for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects, must also be persisted.  
   
- For save actions, the IDE examines the running document table (RDT) and the hierarchy passes the commands to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> interfaces. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.IsItemDirty*> method is implemented to determine whether the item has been modified. If the item has, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.SaveItem*> method is implemented to save the modified item.  
+ For save actions, the IDE examines the running document table (RDT) and the hierarchy passes the commands to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> interfaces. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.IsItemDirty%2A> method is implemented to determine whether the item has been modified. If the item has, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.SaveItem%2A> method is implemented to save the modified item.  
   
- The methods on the `IVsPersistHierarchyItem2` interface are used to determine whether an item can be reloaded and, if the item can be, to reload it. Additionally, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges*> method can be implemented to cause changed items to be discarded without being saved.  
+ The methods on the `IVsPersistHierarchyItem2` interface are used to determine whether an item can be reloaded and, if the item can be, to reload it. Additionally, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges%2A> method can be implemented to cause changed items to be discarded without being saved.  
   
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   

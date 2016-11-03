@@ -45,4 +45,4 @@ translation.priority.mt:
 -   Use the appropriate function from the `Microsoft.VisualBasic` namespace.  
   
 ## See Also  
- [Visual Basic Runtime Library Members](/dotnet/visual-basic/language-reference/visual-basic-runtime-library-members)
+ [Visual Basic Runtime Library Members](/dotnet/visual-basic/language-reference/runtime-library-members)

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2015"
 ms.assetid: 282c1c27-0bcd-44a5-8a97-644333aca5c3
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

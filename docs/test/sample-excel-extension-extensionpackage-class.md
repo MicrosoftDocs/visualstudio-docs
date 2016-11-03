@@ -1,7 +1,7 @@
 ---
 title: "Sample Excel Extension: ExtensionPackage Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
  This class has properties that provide values that are used by the coded UI testing framework to identify and describe the extension and the assembly. See the code comments for more information.  
   
 ## GetService Method  
- The <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService*> method is the single entry point used by the coded UI testing framework to gain access to the technology manager, the property provider, and the action filter, as identified by the base class for each object.  
+ The <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> method is the single entry point used by the coded UI testing framework to gain access to the technology manager, the property provider, and the action filter, as identified by the base class for each object.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>   

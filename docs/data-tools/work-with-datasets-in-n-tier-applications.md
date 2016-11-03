@@ -73,7 +73,7 @@ translation.priority.mt:
 ## Reference  
  <xref:System.Data.DataSet>  
   
- <xref:System.Data.TypedTableBase`1>  
+ <xref:System.Data.TypedTableBase%601>  
   
 ## Related Sections  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)  

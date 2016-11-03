@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1620"
 ms.assetid: 13933976-218a-4fe2-8fde-5b9af522e2e5
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

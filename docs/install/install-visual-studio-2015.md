@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "install Visual Studio"
   - "visual studio installer"
 ms.assetid: da049020-cfda-40d7-8ff4-7492772b620f
-caps.latest.revision: 173
+caps.latest.revision: 175
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +41,7 @@ translation.priority.mt:
 # Install Visual Studio 2015
 This page includes detailed information to help you with installing Visual Studio, our integrated suite of productivity tools for developers. We've also included links to get you quickly to information about [features](https://www.visualstudio.com/news/vs2015-vs.aspx), [editions](http://go.microsoft.com/fwlink/?LinkID=242142), [system requirements](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs), [downloads](http://go.microsoft.com/fwlink/?LinkId=517106), and more.  
   
- (To view installation information about previous versions of Visual Studio, click the "Other Versions" link at the top of this page. And, to view installation information about the next version of Visual Studio, see our [Installing Visual Studio "15" Preview 5](Installing%20Visual%20Studio%20%2215%22%20Preview%205.md) page.
+ (To view installation information about previous versions of Visual Studio, click the "Other Versions" link at the top of this page. And, to view installation information about the next version of Visual Studio, see our [Install Visual Studio "15" Preview 5](https://go.microsoft.com/fwlink/?linkid=833223) page.
 ## Quick Links  
  Before we dig in to the details, here's a list of our most frequently requested links.  
   
@@ -76,7 +76,7 @@ This page includes detailed information to help you with installing Visual Studi
 |**Common Tools**|Git for Windows (3rd Party)<br />GitHub Extension for Visual Studio (3rd Party)<br /> Visual Studio Extensibility Tools|  
   
 ##  <a name="installing"></a> Installing Visual Studio  
- You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Creating an Offline Installation of Visual Studio](../Topic/Creating%20an%20Offline%20Installation%20of%20Visual%20Studio.md) topic for more details).  
+ You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page for more details).  
   
 > [!IMPORTANT]
 >  You need administrator credentials to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] after you install it.  
@@ -107,7 +107,7 @@ This page includes detailed information to help you with installing Visual Studi
  Visit  the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page, and select the edition of Visual Studio that you want.  
   
 ###  <a name="BKMK_Offline"></a> Creating an offline installation  layout  
- If you do not have the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Creating an Offline Installation of Visual Studio](../Topic/Creating%20an%20Offline%20Installation%20of%20Visual%20Studio.md) topic.  
+ If you do not have the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page.  
   
 ##  <a name="enterprise"></a> Deploying Visual Studio in an Enterprise  
  For information about how to deploy [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] over a network, see the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).  
@@ -205,14 +205,13 @@ This page includes detailed information to help you with installing Visual Studi
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Installing Visual Studio Versions Side-by-Side](../Topic/Installing%20Visual%20Studio%20Versions%20Side-by-Side.md)|Provides information about how to install multiple versions of Visual Studio on the same computer.|  
-|[Using Command-Line Parameters to Install Visual Studio](../Topic/Using%20Command-Line%20Parameters%20to%20Install%20Visual%20Studio.md)|Lists the command-line parameters that you can use when you install Visual Studio from a command prompt.|  
-|[Uninstalling Visual Studio](../Topic/Uninstalling%20Visual%20Studio.md)|Describes how to uninstall Visual Studio.|  
+|[Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)|Describes how to install Visual Studio when you are not connected to the Internet.
+|[Install Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md)|Provides information about how to install multiple versions of Visual Studio on the same computer.|  
+|[Use Command-Line Parameters to Install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)|Lists the command-line parameters that you can use when you install Visual Studio from a command prompt.|  
+|[Uninstall Visual Studio](../install/uninstall-visual-studio.md)|Describes how to uninstall Visual Studio.|  
 |[Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)|Provides information about deployment options for Visual Studio.|  
-|[Installing Multiple Language Versions of Visual Studio](../Topic/Installing%20Multiple%20Language%20Versions%20of%20Visual%20Studio.md)|Provides information about how to install different language versions of Visual Studio.|  
-|[How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)|Describes how to locate the product key for your installation of Visual Studio.|  
 |[The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)|Provides information about how to install graphics that you can use in Visual Studio applications.|  
-|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|Provides information and links that can help you use Visual Studio more effectively.|  
+|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|Includes information and links that can help you use Visual Studio more effectively.|  
   
 ## See Also  
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)

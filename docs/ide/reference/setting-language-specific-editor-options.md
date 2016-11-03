@@ -1,7 +1,7 @@
 ---
 title: "Setting Language-Specific Editor Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "editor settings"
 ms.assetid: ba64d517-a60d-409b-9860-5d75065a5bb7
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

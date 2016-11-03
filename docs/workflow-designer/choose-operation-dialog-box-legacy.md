@@ -11,6 +11,7 @@ f1_keywords:
   - "System.Workflow.Activities.Design.OperationPickerDialog.UI"
 ms.assetid: bc3ec902-7797-494e-af48-e70c97eb6779
 caps.latest.revision: 10
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -43,7 +44,7 @@ This topic describes how use the **Choose Operation** dialog box in the legacy [
 |**Operation Name**|Name of the currently selected operation. This text box is available for editing only if you have created an operation through the **Choose Operation** dialog box.|  
 |**Parameters**|Tab containing the parameter definitions for the currently selected operation. **Note:**  Parameter definitions can be changed only if you have created an operation through the **Choose Operation** dialog box.|  
 |**Properties**|Tab containing the <xref:System.Net.Security.ProtectionLevel> settings for messages sent between the client and service. **Note:**  This tab is enabled only if you have created an operation through the **Choose Operation** dialog box.|  
-|**Permissions**|Tab containing the <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionName*> and <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionRole*> properties of users that are allowed to call that operation. For example, if only users from the Administrators group were allowed to call that operation, then you would write "Administrators" in the **Role** text box.<br /><br /> This tab is enabled for both operations created through the **ChooseOperation** dialog box and operations that were imported through the **Import** button.|  
+|**Permissions**|Tab containing the <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionName%2A> and <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionRole%2A> properties of users that are allowed to call that operation. For example, if only users from the Administrators group were allowed to call that operation, then you would write "Administrators" in the **Role** text box.<br /><br /> This tab is enabled for both operations created through the **ChooseOperation** dialog box and operations that were imported through the **Import** button.|  
   
 > [!NOTE]
 >  The **Choose Operation** dialog box shows only contracts or operations that are used by other <xref:System.Workflow.Activities.SendActivity> activities in the workflow. Similarly, the **Choose Operation** dialog box for <xref:System.Workflow.Activities.ReceiveActivity> activities shows only contracts or operations that are used by other **ReceiveActivity** activities in the workflow.  

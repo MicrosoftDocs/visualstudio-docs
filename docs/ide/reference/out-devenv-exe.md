@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "output files, build errors"
 ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

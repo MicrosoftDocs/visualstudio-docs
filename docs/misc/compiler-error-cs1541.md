@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1541"
 ms.assetid: db3350fe-6432-4617-8b4a-64bc6cdf83f8
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

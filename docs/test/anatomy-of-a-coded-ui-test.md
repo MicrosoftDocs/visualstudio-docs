@@ -151,7 +151,7 @@ Assert.AreEqual(
     uIItemEdit.Text);  
 ```  
   
- The text box name is listed as unknown because the developer of the Windows Calculator application did not provide a publicly available name for the control. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual*?displayProperty=fullName> method fails when the actual value is not equal to the expected value, which would cause the test to fail. Also notice that the expected value includes a decimal point that is followed by a space. If you ever have to modify the functionality of this particular test, you must allow for that decimal point and the space.  
+ The text box name is listed as unknown because the developer of the Windows Calculator application did not provide a publicly available name for the control. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName> method fails when the actual value is not equal to the expected value, which would cause the test to fail. Also notice that the expected value includes a decimal point that is followed by a space. If you ever have to modify the functionality of this particular test, you must allow for that decimal point and the space.  
   
 #####  <a name="UIMapProperties"></a> UIMap properties  
  The code for each property is also very standard throughout the class. The following code for the `AddItemsParams` property is used in the `AddItems()` method.  
@@ -195,7 +195,7 @@ public class AddItemsParams
 }  
 ```  
   
- As with all classes in the `UIMap.cs` file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys*?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.  
+ As with all classes in the `UIMap.cs` file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.  
   
 ###  <a name="UIMapCS"></a> UIMap.cs  
  By default, this file contains a partial `UIMap` class that has no methods or properties.  
@@ -284,8 +284,8 @@ public void MyTestCleanup()
  <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>   
  <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>   
  <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual*?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys*?displayProperty=fullName>   
+ <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName>   
+ <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName>   
  <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>   

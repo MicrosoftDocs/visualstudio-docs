@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "loc JavaScript XML tag"
 ms.assetid: 0d3349b6-4bdd-418f-bc11-73665305baae
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

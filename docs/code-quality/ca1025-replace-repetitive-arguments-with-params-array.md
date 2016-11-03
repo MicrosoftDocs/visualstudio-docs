@@ -48,7 +48,7 @@ translation.priority.mt:
  A public or protected method in a public type has more than three parameters, and its last three parameters are the same type.  
   
 ## Rule Description  
- Use a parameter array instead of repeated arguments when the exact number of arguments is unknown and the variable arguments are the same type, or can be passed as the same type. For example, the <xref:System.Console.WriteLine*> method provides a general-purpose overload that uses a parameter array to accept any number of <xref:System.Object> arguments.  
+ Use a parameter array instead of repeated arguments when the exact number of arguments is unknown and the variable arguments are the same type, or can be passed as the same type. For example, the <xref:System.Console.WriteLine%2A> method provides a general-purpose overload that uses a parameter array to accept any number of <xref:System.Object> arguments.  
   
 ## How to Fix Violations  
  To fix a violation of this rule, replace the repeated arguments with a parameter array.  

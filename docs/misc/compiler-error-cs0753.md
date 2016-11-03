@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0753"
 ms.assetid: 287dd9da-da74-4290-9fa1-21ef1a8150fe
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

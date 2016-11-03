@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1957"
 ms.assetid: a4823211-52ce-4ffa-b19b-ee874069409f
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

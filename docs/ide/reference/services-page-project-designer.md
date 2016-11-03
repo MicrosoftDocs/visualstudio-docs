@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Project Designer, Services page"
 ms.assetid: 6dd9e0fa-acba-4d7d-b081-705b0fc86ff5
 caps.latest.revision: 26
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,7 +67,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  Used only with forms authentication. Specifies the location of the authentication service.  
   
  **Optional: Credentials provider**  
- Used only with forms authentication. Indicates the <xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`<xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the <xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see <xref:System.Type.AssemblyQualifiedName*?displayProperty=fullName> and [Assembly Names](../Topic/Assembly%20Names.md). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
+ Used only with forms authentication. Indicates the <xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`<xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the <xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see <xref:System.Type.AssemblyQualifiedName%2A?displayProperty=fullName> and [Assembly Names](../Topic/Assembly%20Names.md). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
   
  **Roles service location**  
  Specifies the location of the roles service.  

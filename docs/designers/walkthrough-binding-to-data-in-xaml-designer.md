@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.XamlDesigner.DataBinding"
 ms.assetid: 1a99aeae-c3ef-407d-ba79-b8055489a43d
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

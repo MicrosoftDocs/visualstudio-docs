@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "LC task [MSBuild]"
 ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -66,7 +66,7 @@ This topic describes the best practices to follow when you develop coded UI test
   
  Coded UI tests automatically adapt to many changes in the user interface. If, for example, a UI element has changed position or color, most of the time the coded UI test will still find the correct element.  
   
- During a test run, the UI controls are located by the testing framework by using a set of search properties which are applied to each control class in the definitions created by the **Coded UI Test Builder** in the `UIMap.Designer.cs` file. The search properties contain name-value pairs of property names and property values that can be used to identify the control, such as the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FriendlyName*>, <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Name*>, and <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.ControlType*> properties of the control. If the search properties are unchanged, the coded UI test will successfully find the control in the UI. If the search properties are changed, coded UI tests have a smart match algorithm which applies heuristics to find controls and windows in the UI. When the UI has changed, you might be able to modify the search properties of previously identified elements to make sure that they are found.  
+ During a test run, the UI controls are located by the testing framework by using a set of search properties which are applied to each control class in the definitions created by the **Coded UI Test Builder** in the `UIMap.Designer.cs` file. The search properties contain name-value pairs of property names and property values that can be used to identify the control, such as the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FriendlyName%2A>, <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Name%2A>, and <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.ControlType%2A> properties of the control. If the search properties are unchanged, the coded UI test will successfully find the control in the UI. If the search properties are changed, coded UI tests have a smart match algorithm which applies heuristics to find controls and windows in the UI. When the UI has changed, you might be able to modify the search properties of previously identified elements to make sure that they are found.  
   
 ## What to do if your user interface changes  
  User interfaces frequently change during development. Here are some ways to reduce the effect of these changes:  
@@ -84,7 +84,7 @@ This topic describes the best practices to follow when you develop coded UI test
  For more information about how to record coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).  
   
 ## What to do if a background process needs to complete before the test can continue  
- You might have to wait until a process finishes before you can continue with the next UI action. To do this you can use <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.WaitForReadyLevel*> to wait before the test continues as in the following sample.  
+ You might have to wait until a process finishes before you can continue with the next UI action. To do this you can use <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.WaitForReadyLevel%2A> to wait before the test continues as in the following sample.  
   
 ```  
 // Set the playback to wait for all threads to finish  

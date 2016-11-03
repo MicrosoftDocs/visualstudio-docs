@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1032"
 ms.assetid: fe318a6c-4403-4b9b-b3d8-753ec31c00ff
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

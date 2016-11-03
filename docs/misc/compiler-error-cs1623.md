@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1623"
 ms.assetid: e52bc2d6-5116-40a2-90bc-23a3fa2c73e7
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

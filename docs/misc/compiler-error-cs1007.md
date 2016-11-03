@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1007"
 ms.assetid: b56ee2c6-8e79-4b9b-8c59-194bdb22bc3e
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

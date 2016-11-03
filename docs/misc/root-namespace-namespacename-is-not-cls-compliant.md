@@ -60,5 +60,5 @@ An assembly is marked as `<CLSCompliant(True)>`, but the root namespace name beg
  [/rootnamespace](/dotnet/visual-basic/reference/command-line-compiler/rootnamespace)   
  [NIB: How to: Change the Namespace for an Application (Visual Basic)](http://msdn.microsoft.com/en-us/029d85c0-e173-4f7a-afba-a29f3aaf6ebf)   
  [Declared Element Names](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names)   
- [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/visual-basic-naming-conventions)   
+ [Visual Basic Naming Conventions](/dotnet/visual-basic/programming-guide/program-structure/naming-conventions)   
  [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

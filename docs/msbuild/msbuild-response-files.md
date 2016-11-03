@@ -21,6 +21,7 @@ helpviewer_keywords:
   - ".rsp files"
 ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

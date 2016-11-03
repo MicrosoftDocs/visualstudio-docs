@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), VCMessage task"
 ms.assetid: 956675fd-05dc-40b4-856f-616145103498
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

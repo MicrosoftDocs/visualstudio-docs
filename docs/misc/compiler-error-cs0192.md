@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0192"
 ms.assetid: d3fb6d18-dbf3-42c3-a280-afe55b97c2d1
 caps.latest.revision: 11
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

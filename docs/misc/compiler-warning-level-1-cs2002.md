@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2002"
 ms.assetid: 4acd054e-d3fe-4be6-a660-53a0a5e8c6a4
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

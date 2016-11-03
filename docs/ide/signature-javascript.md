@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "signature JavaScript XML tag"
 ms.assetid: 319138e7-cfbe-4b37-9643-2ddb7f9c63d4
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

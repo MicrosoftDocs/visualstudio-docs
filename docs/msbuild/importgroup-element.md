@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ImportGroup element [MSBuild]"
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1958"
 ms.assetid: bb6f3bb2-ea93-4d2e-984c-da9c99f5653f
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

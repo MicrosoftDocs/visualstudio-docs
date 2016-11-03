@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ReadLinesFromFile task [MSBuild]"
 ms.assetid: a18af929-b53a-4d9e-b7bf-e3d3737ee85f
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

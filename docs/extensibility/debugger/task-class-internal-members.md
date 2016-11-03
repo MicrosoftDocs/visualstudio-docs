@@ -69,7 +69,7 @@ This topic describes the internal members of the <xref:System.Threading.Tasks.Ta
 |[m_parent](../../extensibility/debugger/m-parent-field.md)|The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> parent property.|  
 |[m_stateFlags](../../extensibility/debugger/m-stateflags-field.md)|Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.|  
 |[m_stateObject](../../extensibility/debugger/m-stateobject-field.md)|An object that represents data that will be used by the action.|  
-|[m_taskId](../../extensibility/debugger/m-taskid-field.md)|The backing field for the <xref:System.Threading.Tasks.Task.Id*?displayProperty=fullName> property.|  
+|[m_taskId](../../extensibility/debugger/m-taskid-field.md)|The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.|  
 |[s_taskIdCounter](../../extensibility/debugger/s-taskidcounter-field.md)|The next available identifier for a <xref:System.Threading.Tasks.Task> object.|  
 |[TASK_STATE_CANCELED](../../extensibility/debugger/task-state-canceled-field.md)|Indicates that the task was canceled before it reached the running state, or that the task acknowledged its cancellation and completed without exception.|  
 |[TASK_STATE_EXECUTED](../../extensibility/debugger/task-state-executed-field.md)|Indicates that the task is running.|  

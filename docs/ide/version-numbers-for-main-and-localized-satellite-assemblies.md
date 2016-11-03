@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "versioning, assemblies"
 ms.assetid: 5489aea1-57b4-4561-9bb4-24d490269602
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

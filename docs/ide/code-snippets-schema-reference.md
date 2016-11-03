@@ -1,7 +1,7 @@
 ---
 title: "Code Snippets Schema Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "IntelliSense Code Snippets, XML Schema"
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

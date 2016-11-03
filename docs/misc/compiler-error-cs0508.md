@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0508"
 ms.assetid: 28403573-6e64-4496-918d-fb50c8851e51
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

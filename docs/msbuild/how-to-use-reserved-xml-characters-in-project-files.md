@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, reserved XML characters"
 ms.assetid: 1ae37275-96bf-4e6e-897b-6b048e5bbe93
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

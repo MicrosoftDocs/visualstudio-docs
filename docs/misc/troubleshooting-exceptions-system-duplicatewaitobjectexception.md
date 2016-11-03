@@ -38,7 +38,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DuplicateWaitObjectException
-A <xref:System.DuplicateWaitObjectException> exception is thrown if the array of <xref:System.Threading.WaitHandle> objects passed to <xref:System.Threading.WaitHandle.WaitAll*> or <xref:System.Threading.WaitHandle.WaitAny*> contains any duplicate operating system handles.  
+A <xref:System.DuplicateWaitObjectException> exception is thrown if the array of <xref:System.Threading.WaitHandle> objects passed to <xref:System.Threading.WaitHandle.WaitAll%2A> or <xref:System.Threading.WaitHandle.WaitAny%2A> contains any duplicate operating system handles.  
   
 ## Associated Tips  
  **Make sure the WaitHandle objects passed to WaitAll or WaitAny are unique.**  

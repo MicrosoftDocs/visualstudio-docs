@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1100"
 ms.assetid: ea233371-36b6-49ae-a98c-a00ee3b79e53
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

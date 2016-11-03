@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1945"
 ms.assetid: 787f61b0-4767-451c-8c78-8e456b5057eb
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

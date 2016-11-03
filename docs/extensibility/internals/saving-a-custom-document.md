@@ -44,16 +44,16 @@ Save, Save As, and Save All command handling for a custom editor
   
      For the Save All command, the environment uses the information in the running document table to compile the list of all items to save.  
   
-2.  When the solution receives an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> call, it iterates through the set of selected items (that is, the multiple selections exposed by the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service).  
+2.  When the solution receives an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> call, it iterates through the set of selected items (that is, the multiple selections exposed by the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service).  
   
-3.  On each item in the selection, the solution uses the hierarchy pointer to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IsItemDirty*> method to determine whether the Save menu command should be enabled. If one or more items are dirty, then the Save command is enabled. If the hierarchy uses a standard editor, then the hierarchy delegates querying for dirty status to the editor by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.IsDocDataDirty*> method.  
+3.  On each item in the selection, the solution uses the hierarchy pointer to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IsItemDirty%2A> method to determine whether the Save menu command should be enabled. If one or more items are dirty, then the Save command is enabled. If the hierarchy uses a standard editor, then the hierarchy delegates querying for dirty status to the editor by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.IsDocDataDirty%2A> method.  
   
-4.  On each selected item that is dirty, the solution uses the hierarchy pointer to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.SaveItem*> method on the appropriate hierarchies.  
+4.  On each selected item that is dirty, the solution uses the hierarchy pointer to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.SaveItem%2A> method on the appropriate hierarchies.  
   
      In the case of a custom editor, the communication between the document data object and the project is private. Thus, any special persistence concerns are handled between these two objects.  
   
     > [!NOTE]
-    >  If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles*> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).  
+    >  If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   

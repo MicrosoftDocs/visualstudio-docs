@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1504"
 ms.assetid: d4845325-8d6a-4c04-9b5c-c5be4eed84a4
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

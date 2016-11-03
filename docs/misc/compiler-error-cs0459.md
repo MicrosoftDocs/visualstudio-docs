@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0459"
 ms.assetid: 01b058dd-8d65-4e9d-9de1-d47f9488d22a
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

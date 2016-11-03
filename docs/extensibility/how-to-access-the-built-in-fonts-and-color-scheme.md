@@ -81,9 +81,9 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 1.  Create an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer` interface as part of the window's implementation and initialization.  
   
-2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory*> method to obtain an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer` interface corresponding to the current <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.  
+2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> method to obtain an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer` interface corresponding to the current <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.  
   
-3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty*> twice.  
+3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> twice.  
   
     -   Call once with `VSEDITPROPID_ViewGeneral_ColorCategory`as an argument.  
   

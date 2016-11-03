@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1562"
 ms.assetid: fbadbcc6-9cf2-4af6-b372-fd4e4da4402e
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

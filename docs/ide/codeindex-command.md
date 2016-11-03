@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CodeIndex command [Team Foundation Server]"
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

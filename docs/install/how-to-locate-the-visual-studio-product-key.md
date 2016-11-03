@@ -13,7 +13,7 @@ f1_keywords:
   - "product key, Visual Studio"
   - "product keys"
 ms.assetid: 65536281-7843-4121-b4b7-61b498bbd5f5
-caps.latest.revision: 23
+caps.latest.revision: 24
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,5 +47,5 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../code-quality/inc
   
 ## See Also  
  [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)   
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
+ [Install Visual Studio](../install/install-visual-studio-2015.md)   
  [Visual Studio and MSDN Licensing White Paper](http://go.microsoft.com/fwlink/?LinkId=191417)

@@ -12,6 +12,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\C++.Experimental"
 ms.assetid: b9e9dda2-350c-460d-b368-37d6c5342eee
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

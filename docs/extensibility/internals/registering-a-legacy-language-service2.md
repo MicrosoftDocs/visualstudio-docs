@@ -1,7 +1,7 @@
 ---
 title: "Registering a Legacy Language Service2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -100,7 +100,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
 |----------|----------|-----------|-----------------|  
 |(Default)|REG_SZ|ResID|The localized display name of this option page. The name can be literal text, or #`nnn`, where `nnn` is a string resource ID in the satellite DLL of the specified VSPackage.|  
 |Package|REG_SZ|*GUID*|The GUID of the VSPackage that implements this options page.|  
-|Page|REG_SZ|*GUID*|The GUID of the property page to request from the VSPackage by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method. If this registry entry is not present, the registry key describes a node, not a page.|  
+|Page|REG_SZ|*GUID*|The GUID of the property page to request from the VSPackage by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method. If this registry entry is not present, the registry key describes a node, not a page.|  
   
 ### Example  
   

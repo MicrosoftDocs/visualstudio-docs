@@ -1,7 +1,7 @@
 ---
 title: "FAQ: Converting Add-ins to VSPackage Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 >  Starting in Visual Studio 2015, for C# and Visual Basic projects, you can use the VSIX project and add item templates for menu commands, tool windows, and VSPackages. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
   
 > [!IMPORTANT]
->  In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling <xref:Microsoft.VisualStudio.Shell.Package.GetService*> in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+>  In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
 >   
 >  `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
 >   
@@ -87,7 +87,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
@@ -140,7 +140,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 #### To get the DTE object from a VSPackage  
   
-1.  In a VSIX project with a Visual Studio Package item template, look for the *\<project name>*Package.cs file. This is the class that derives from <xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object.  
+1.  In a VSIX project with a Visual Studio Package item template, look for the *\<project name>*Package.cs file. This is the class that derives from <xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object.  
   
 2.  Add these `using` statements:  
   
@@ -149,7 +149,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the DTE object:  
+3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the DTE object:  
   
     ```c#  
     DTE dte = (DTE)GetService(typeof(DTE));  
@@ -181,7 +181,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
@@ -229,7 +229,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  

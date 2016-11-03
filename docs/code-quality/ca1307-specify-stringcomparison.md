@@ -48,7 +48,7 @@ translation.priority.mt:
  A string comparison operation uses a method overload that does not set a <xref:System.StringComparison> parameter.  
   
 ## Rule Description  
- Many string operations, most important the <xref:System.String.Compare*> and <xref:System.String.Equals*> methods, provide an overload that accepts a <xref:System.StringComparison> enumeration value as a parameter.  
+ Many string operations, most important the <xref:System.String.Compare%2A> and <xref:System.String.Equals%2A> methods, provide an overload that accepts a <xref:System.StringComparison> enumeration value as a parameter.  
   
  Whenever an overload exists that takes a <xref:System.StringComparison> parameter, it should be used instead of an overload that does not take this parameter. By explicitly setting this parameter, your code is often made clearer and easier to maintain.  
   

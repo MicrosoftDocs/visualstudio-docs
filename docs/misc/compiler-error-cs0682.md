@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0682"
 ms.assetid: 71c658d2-ac3c-4555-a2d3-52251be709b9
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

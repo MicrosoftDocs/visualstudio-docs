@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Delete Records in a Database
-To delete records from a database, use the `TableAdapter.Update` method or the `TableAdapter.Delete` method. Or, if your application does not use TableAdapters, you can use command objects to delete records from a database (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>).  
+To delete records from a database, use the `TableAdapter.Update` method or the `TableAdapter.Delete` method. Or, if your application does not use TableAdapters, you can use command objects to delete records from a database (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery%2A>).  
   
  The `TableAdapter.Update` method is typically used when your application uses datasets to store data, whereas the `TableAdapter.Delete` method is typically used when your application uses objects to store data.  
   

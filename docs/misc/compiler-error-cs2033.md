@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2033"
 ms.assetid: edb5784a-5195-4f72-b73d-d1ec9ed3766e
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

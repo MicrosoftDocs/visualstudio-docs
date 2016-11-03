@@ -1,7 +1,7 @@
 ---
 title: "Upgrading Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,14 +50,14 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../../code-qu
 ### Multi-Project Solutions  
  If a solution contains multiple projects and the upgrade strategies differ, such as when a C++ project that only supports SxS backup and a Web project that only support copy backup, the project factories must negotiate the upgrade strategy.  
   
- The solution queries each project factory for <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>. It then calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject_CheckOnly*> to see if global project files need upgrading and to determine the supported upgrade strategies. The **Upgrade Wizard** is then invoked.  
+ The solution queries each project factory for <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>. It then calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject_CheckOnly%2A> to see if global project files need upgrading and to determine the supported upgrade strategies. The **Upgrade Wizard** is then invoked.  
   
- After the user completes the wizard, <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject*> is called on each project factory to perform the actual upgrade. To facilitate backup, IVsProjectUpgradeViaFactory methods provide the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUpgradeLogger> service to log the details of the upgrade process. This service cannot be cached.  
+ After the user completes the wizard, <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> is called on each project factory to perform the actual upgrade. To facilitate backup, IVsProjectUpgradeViaFactory methods provide the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUpgradeLogger> service to log the details of the upgrade process. This service cannot be cached.  
   
- After updating all relevant global files, each project factory can choose to instantiate a project. The project implementation must support <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject*> method is then called to upgrade all relevant project items.  
+ After updating all relevant global files, each project factory can choose to instantiate a project. The project implementation must support <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is then called to upgrade all relevant project items.  
   
 > [!NOTE]
->  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject*> method does not provide the SVsUpgradeLogger service. This service can be obtained by calling <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService*>.  
+>  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method does not provide the SVsUpgradeLogger service. This service can be obtained by calling <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>.  
   
 ## Best Practices  
  Use the <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave> service to check if you can edit a file before editing it, and can save it before saving it. This will help your backup and upgrade implementations handle project files under source control, files with insufficient permissions, and so forth.  

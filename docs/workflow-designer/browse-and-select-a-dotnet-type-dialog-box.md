@@ -12,6 +12,7 @@ f1_keywords:
   - "ActivityTypeResolver.UI"
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 caps.latest.revision: 13
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

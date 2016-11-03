@@ -37,20 +37,20 @@ translation.priority.mt:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing*> instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.  
+ If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.  
   
 ## Rule Description  
  A [Document Type Definition (DTD)](https://msdn.microsoft.com/en-us/library/aa468547.aspx) is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](../Topic/Information%20Disclosure.md) threats, which may lead to [Denial of Service (DoS)](../Topic/Denial%20of%20Service.md) attacks. This rule triggers when:  
   
 -   DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.  
   
--   The <xref:System.Xml.XmlNode.InnerXml*> property in the XML is set.  
+-   The <xref:System.Xml.XmlNode.InnerXml%2A> property in the XML is set.  
   
--   <xref:System.Xml.XmlReaderSettings.DtdProcessing*> property is set  to Parse    .  
+-   <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> property is set  to Parse    .  
   
 -   Untrusted input is processed using <xref:System.Xml.XmlResolver> instead of <xref:System.Xml.XmlSecureResolver> .  
   
--   The XmlReader.<xref:System.Xml.XmlReader.Create*> method is invoked with an insecure <xref:System.Xml.XmlReaderSettings> instance or no instance at all.  
+-   The XmlReader.<xref:System.Xml.XmlReader.Create%2A> method is invoked with an insecure <xref:System.Xml.XmlReaderSettings> instance or no instance at all.  
   
 -   <xref:System.Xml.XmlReader> is created with insecure default settings or values    .  
   
@@ -64,11 +64,11 @@ translation.priority.mt:
   
 -   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.  
   
--   Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString*> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.  
+-   Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.  
   
  .NET 3.5 and earlier  
   
--   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd*> property to **true** .  
+-   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
   
 -   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
   

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Office documents [Visual Studio]"
 ms.assetid: c43061ad-d258-46b1-be66-f97a312e86d5
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

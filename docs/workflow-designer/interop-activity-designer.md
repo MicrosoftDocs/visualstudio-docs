@@ -11,6 +11,7 @@ f1_keywords:
   - "System.Activities.Statements.Interop.UI"
 ms.assetid: 800a3403-ba86-41c4-8de1-c4fee9703eb1
 caps.latest.revision: 6
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -43,7 +44,7 @@ The **Interop** activity designer is used to create and configure an <xref:Syste
   
  For VB projects, you can re-target the project to use the full [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)] by right-clicking on the project in the **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list** and then click **OK**. Click the **Yes** button in the **Target Framework Change** dialog that displays asking you to confirm this change.  
   
- The **Interop** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. The <xref:System.Activities.Activity.DisplayName*> can be edited in the header of the **Interop** activity designer or in the **DisplayName** box of the property grid.  
+ The **Interop** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Interop** activity designer or in the **DisplayName** box of the property grid.  
   
  Click the **Click to browse…** text in the **ActivityType** box, either on the **Interop**  activity designer or in the property grid, to bring up the **Browse and Select a .Net Type** dialog box. Only types for workflow 3.0 or workflow 3.5 activities are shown (that is, only types derived from <xref:System.Workflow.ComponentModel.Activity>). [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this box to specify a type, see the [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md) topic.  
   
@@ -52,8 +53,8 @@ The **Interop** activity designer is used to create and configure an <xref:Syste
   
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
-|<xref:System.Activities.Activity.DisplayName*>|False|The friendly name of the <xref:System.Activities.Statements.Interop> activity. The default is Interop. Although the display name is not strictly required, it is a best practice to use a display name.|  
-|<xref:System.Activities.Statements.Interop.ActivityType*>|True|Specifies the type of the activity contained by the <xref:System.Activities.Statements.Interop> activity. This type specified must derive from <xref:System.Workflow.ComponentModel.Activity>.|  
+|<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Interop> activity. The default is Interop. Although the display name is not strictly required, it is a best practice to use a display name.|  
+|<xref:System.Activities.Statements.Interop.ActivityType%2A>|True|Specifies the type of the activity contained by the <xref:System.Activities.Statements.Interop> activity. This type specified must derive from <xref:System.Workflow.ComponentModel.Activity>.|  
   
 ## See Also  
  [Migration](../workflow-designer/migration-activity-designers.md)

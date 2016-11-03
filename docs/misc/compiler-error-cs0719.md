@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0719"
 ms.assetid: 308a1a54-43b9-4970-8206-88e8f76d394e
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

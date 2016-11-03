@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Text Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,12 +42,12 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
     > [!NOTE]
     >  The core editor automatically applies standard text markers to any document that it is editing, and it should not be necessary to apply standard text markers explicitly.  
   
-2.  Obtain a marker type ID of the marker you are interested in by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID*> method with the `GUID` of the text marker you wish to work with.  
+2.  Obtain a marker type ID of the marker you are interested in by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> method with the `GUID` of the text marker you wish to work with.  
   
     > [!NOTE]
     >  Do not use the `GUID` of the VSPackage or of the service that provides the text marker.  
   
-3.  Use the marker type ID obtained by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID*> method as a parameter to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker*> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker*> method to apply a text marker to a given region of text.  
+3.  Use the marker type ID obtained by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> method as a parameter to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method to apply a text marker to a given region of text.  
   
 #### To add features to text markers  
   
@@ -57,13 +57,13 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
   
 3.  If additional functionality is desired, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientEx>, and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientAdvanced> interfaces on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-4.  Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker*> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker*> method used to apply the text marker to a given region of text.  
+4.  Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method used to apply the text marker to a given region of text.  
   
 5.  When adding context menu support to a text marker region it is necessary to create the menu.  
   
      For more information on how to create a context menu see, [Context Menus](../extensibility/context-menus.md).  
   
-6.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText*> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand*> method as needed.  
+6.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
   
 ## See Also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   

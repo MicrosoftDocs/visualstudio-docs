@@ -46,8 +46,8 @@ translation.priority.mt:
 -   If using the GenerateDeploymentManifest task, make sure that you specify valid entry points in your manifests. For a deployment manifest, a valid entry point is an application manifest.  
   
 ## See Also  
- <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
- <xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion*>   
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser%2A>   
+ <xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion%2A>   
  [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)   
  [MSBuild Error MSB3116](../misc/msbuild-error-msb3116.md)   

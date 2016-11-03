@@ -46,7 +46,7 @@ translation.priority.mt:
 |Breaking Change|Non-breaking|  
   
 ## Cause  
- A method sets the <xref:System.Data.IDbCommand.CommandText*?displayProperty=fullName> property by using a string that is built from a string argument to the method.  
+ A method sets the <xref:System.Data.IDbCommand.CommandText%2A?displayProperty=fullName> property by using a string that is built from a string argument to the method.  
   
 ## Rule Description  
  This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. In a SQL injection attack, a malicious user supplies input that alters the design of a query in an attempt to damage or gain unauthorized access to the underlying database. Typical techniques include injection of a single quotation mark or apostrophe, which is the SQL literal string delimiter; two dashes, which signifies a SQL comment; and a semicolon, which indicates that a new command follows. If user input must be part of the query, use one of the following, listed in order of effectiveness, to reduce the risk of attack.  
@@ -57,7 +57,7 @@ translation.priority.mt:
   
 -   Validate the user input for both type and content before you build the command string.  
   
- The following [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] types implement the <xref:System.Data.IDbCommand.CommandText*> property or provide constructors that set the property by using a string argument.  
+ The following [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] types implement the <xref:System.Data.IDbCommand.CommandText%2A> property or provide constructors that set the property by using a string argument.  
   
 -   <xref:System.Data.Odbc.OdbcCommand?displayProperty=fullName> and <xref:System.Data.Odbc.OdbcDataAdapter?displayProperty=fullName>  
   

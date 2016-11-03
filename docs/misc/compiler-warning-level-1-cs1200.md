@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1200"
 ms.assetid: da1a9948-8deb-4a39-824d-5fcc678c279f
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Automation for Configuration and SelectedItem Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,9 +40,9 @@ You can automate the build and selected item processes in [!INCLUDE[vsprvs](../.
  If you create a VSPackage and want to control configuration options, you must use the automation model.  
   
 ## Automation for SelectedItem  
- You do not have to provide an implementation for the `SelectedItem` object because Visual Studio contains a standard implementation. However, you can implement the `SelectedItem` object if you prefer. You must implement an object that contains the `SelectedItem` interface and return a response to a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method with VSITEMID set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>.  
+ You do not have to provide an implementation for the `SelectedItem` object because Visual Studio contains a standard implementation. However, you can implement the `SelectedItem` object if you prefer. You must implement an object that contains the `SelectedItem` interface and return a response to a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method with VSITEMID set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>.  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A>   
  [Contributing to the Automation Model](../../extensibility/internals/contributing-to-the-automation-model.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)

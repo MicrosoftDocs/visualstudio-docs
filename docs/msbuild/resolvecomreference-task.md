@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ResolveCOMReference task [MSBuild]"
 ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 caps.latest.revision: 26
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Launching a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ Users who want to debug a program can press F5 to run the debugger from the IDE.
   
  The newly created program, along with any other programs, related or unrelated, launched or attached to from the same IDE, compose a debug session.  
   
- Programmatically, when the user first presses **F5**, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]'s debug package calls the project package (which is associated with the type of program being launched) through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch*> method, which in turn fills out a <xref:Microsoft.VisualStudio.Shell.Interop.VsDebugTargetInfo2> structure with the solution's active project debug settings. This structure is passed back to the debug package through a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebugger2.LaunchDebugTargets2*> method. The debug package then instantiates the session debug manager (SDM), which launches the program being debugged and any associated debug engines.  
+ Programmatically, when the user first presses **F5**, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]'s debug package calls the project package (which is associated with the type of program being launched) through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method, which in turn fills out a <xref:Microsoft.VisualStudio.Shell.Interop.VsDebugTargetInfo2> structure with the solution's active project debug settings. This structure is passed back to the debug package through a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebugger2.LaunchDebugTargets2%2A> method. The debug package then instantiates the session debug manager (SDM), which launches the program being debugged and any associated debug engines.  
   
  One of the arguments passed to the SDM is the GUID of the DE to be used to launch the program.  
   

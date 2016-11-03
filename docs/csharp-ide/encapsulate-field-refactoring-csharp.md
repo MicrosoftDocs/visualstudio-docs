@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "refactoring [C#], Encapsulate Field"
 ms.assetid: bf714a04-ab1e-49ce-99ce-dda1ebb1a17f
 caps.latest.revision: 26
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

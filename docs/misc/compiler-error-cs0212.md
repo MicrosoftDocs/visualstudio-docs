@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0212"
 ms.assetid: 1b8973b8-03c9-42a6-bf61-2e401b89387e
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

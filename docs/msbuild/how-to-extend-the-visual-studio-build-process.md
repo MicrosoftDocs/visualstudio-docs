@@ -1,7 +1,7 @@
 ---
 title: "How to: Extend the Visual Studio Build Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSBuild, DependsOn properties"
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

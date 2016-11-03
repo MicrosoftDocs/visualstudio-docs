@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Project Designer, Build page"
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
 caps.latest.revision: 43
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -131,4 +132,4 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
   
 ## See Also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options)
+ [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)

@@ -36,7 +36,7 @@ With automatic formatting, a language service automatically inserts a snippet of
 ## Automatic Formatting Behavior  
  For example, when you type `if`, the language service automatically inserts matching braces, or if you press the ENTER key, the language service forces the insertion point on the new line to the appropriate indent level, depending on whether the preceding line opens up a new scope.  
   
- The command filter used for the rest of the language service can also be used for automatic formatting. You can also highlight matching braces by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.HighlightMatchingBrace*>.  
+ The command filter used for the rest of the language service can also be used for automatic formatting. You can also highlight matching braces by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.HighlightMatchingBrace%2A>.  
   
 ## See Also  
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

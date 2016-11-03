@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "expansions, unsafe"
 ms.assetid: 12114273-7f2f-43d0-abcb-2d4711a3a68d
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

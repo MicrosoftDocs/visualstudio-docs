@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Threading.ThreadAbortException
-The exception that is thrown when a call is made to the <xref:System.Threading.Thread.Abort*> method.  
+The exception that is thrown when a call is made to the <xref:System.Threading.Thread.Abort%2A> method.  
   
 ## See Also  
  <xref:System.Threading.ThreadAbortException>   

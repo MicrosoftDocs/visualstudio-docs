@@ -39,9 +39,9 @@ You can provide automation for document and tool windows. Providing automation i
   
 #### To provide automation for tool windows  
   
-1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty*> method via the environment with <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> as `VSFPROPID` parameter to get the `Window` object.  
+1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method via the environment with <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> as `VSFPROPID` parameter to get the `Window` object.  
   
-2.  When a caller requests a VSPackage-specific automation object for your tool window through <xref:EnvDTE.Window.Object*>, the environment calls `QueryInterface` for `IExtensibleObject`, <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, or the `IDispatch` interfaces. Both `IExtensibleObject` and `IVsExtensibleObject` provide a <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject.GetAutomationObject*> method.  
+2.  When a caller requests a VSPackage-specific automation object for your tool window through <xref:EnvDTE.Window.Object%2A>, the environment calls `QueryInterface` for `IExtensibleObject`, <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, or the `IDispatch` interfaces. Both `IExtensibleObject` and `IVsExtensibleObject` provide a <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject.GetAutomationObject%2A> method.  
   
 3.  When the environment then calls the `GetAutomationObject` method passing `NULL`, respond by passing back your VSPackage-specific object.  
   
@@ -50,7 +50,7 @@ You can provide automation for document and tool windows. Providing automation i
 ## Automation for Document Windows  
  A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the `T:EnvDTE.Document` object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.  
   
- In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object*> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](../../misc/vssdk-samples.md) contributes an RTF document-specific automation object.  
+ In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](../../misc/vssdk-samples.md) contributes an RTF document-specific automation object.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

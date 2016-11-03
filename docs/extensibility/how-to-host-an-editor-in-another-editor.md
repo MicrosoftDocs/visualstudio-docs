@@ -39,13 +39,13 @@ In Visual Studio you can host one editor inside another by specifying the hostin
   
      This pane is where the editor's text will go.  
   
-2.  Create the hosting editor using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor*> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenSpecificEditor*> method.  
+2.  Create the hosting editor using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenSpecificEditor%2A> method.  
   
-3.  Set the <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> and <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> properties in the window frame implementation of the hosted editor by passing these properties as the parameters to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.SetProperty*> method, respectively.  
+3.  Set the <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> and <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> properties in the window frame implementation of the hosted editor by passing these properties as the parameters to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.SetProperty%2A> method, respectively.  
   
-     If you need to retrieve these parameters, pass these properties to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty*> method.  
+     If you need to retrieve these parameters, pass these properties to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method.  
   
-4.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show*> method for the contained editor.  
+4.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> method for the contained editor.  
   
      The editor appears in the hosted pane of the containing editor.  
   

@@ -45,13 +45,13 @@ translation.priority.mt:
 |Breaking Change|Non-breaking|  
   
 ## Cause  
- A method calls an overload of the <xref:System.Windows.Forms.MessageBox.Show*?displayProperty=fullName> method that does not take a <xref:System.Windows.Forms.MessageBoxOptions?displayProperty=fullName> argument.  
+ A method calls an overload of the <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName> method that does not take a <xref:System.Windows.Forms.MessageBoxOptions?displayProperty=fullName> argument.  
   
 ## Rule Description  
- To display a message box correctly for cultures that use a right-to-left reading order, the <xref:System.Windows.Forms.MessageBoxOptions> and <xref:System.Windows.Forms.MessageBoxOptions> members of the <xref:System.Windows.Forms.MessageBoxOptions> enumeration must be passed to the <xref:System.Windows.Forms.MessageBox.Show*> method. Examine the <xref:System.Windows.Forms.Control.RightToLeft*?displayProperty=fullName> property of the containing control to determine whether to use a right-to-left reading order.  
+ To display a message box correctly for cultures that use a right-to-left reading order, the <xref:System.Windows.Forms.MessageBoxOptions> and <xref:System.Windows.Forms.MessageBoxOptions> members of the <xref:System.Windows.Forms.MessageBoxOptions> enumeration must be passed to the <xref:System.Windows.Forms.MessageBox.Show%2A> method. Examine the <xref:System.Windows.Forms.Control.RightToLeft%2A?displayProperty=fullName> property of the containing control to determine whether to use a right-to-left reading order.  
   
 ## How to Fix Violations  
- To fix a violation of this rule, call an overload of the <xref:System.Windows.Forms.MessageBox.Show*> method that takes a <xref:System.Windows.Forms.MessageBoxOptions> argument.  
+ To fix a violation of this rule, call an overload of the <xref:System.Windows.Forms.MessageBox.Show%2A> method that takes a <xref:System.Windows.Forms.MessageBoxOptions> argument.  
   
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule when the code library will not be localized for a culture that uses a right-to-left reading order.  

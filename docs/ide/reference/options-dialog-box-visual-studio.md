@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "tools [Visual Studio], customizing"
 ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
 caps.latest.revision: 19
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

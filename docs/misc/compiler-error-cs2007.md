@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2007"
 ms.assetid: 9be20e8e-2424-4435-9371-778fb12823c0
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS2007
 Unrecognized command-line option: 'option'  
   
- The compiler was passed a string that was not a [compiler option](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options), even though it began with a forward slash (/).  
+ The compiler was passed a string that was not a [compiler option](/dotnet/csharp/language-reference/compiler-options/index), even though it began with a forward slash (/).  
   
  The following sample generates CS2007:  
   

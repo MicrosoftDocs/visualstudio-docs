@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Starter Kits, creating"
 ms.assetid: ed7d1844-7c01-424a-a831-5003efe0f7bc
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

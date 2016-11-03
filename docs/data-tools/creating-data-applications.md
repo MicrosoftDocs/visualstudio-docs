@@ -1,7 +1,7 @@
 ---
 title: "Creating Data Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -114,7 +114,7 @@ The Data Cycle
  To learn how to add validation to a dataset that is separated into an n-tier application, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).  
   
 ## Saving Data  
- After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the <xref:System.Data.Objects.ObjectContext.SaveChanges*> method to save data.  
+ After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the <xref:System.Data.Objects.ObjectContext.SaveChanges%2A> method to save data.  
   
  For more information on sending updated data back to a database, see [Saving Data](../data-tools/saving-data.md).  
   

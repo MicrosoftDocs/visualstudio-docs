@@ -1,7 +1,7 @@
 ---
 title: "Domain Property Value Change Handlers | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -171,5 +171,5 @@ namespace msft.FieldChangeSample
 ```  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanged*>   
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanging*>
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanged%2A>   
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanging%2A>

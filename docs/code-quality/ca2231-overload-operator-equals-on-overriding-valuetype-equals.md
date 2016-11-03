@@ -45,10 +45,10 @@ translation.priority.ht:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- A value type overrides <xref:System.Object.Equals*?displayProperty=fullName> but does not implement the equality operator.  
+ A value type overrides <xref:System.Object.Equals%2A?displayProperty=fullName> but does not implement the equality operator.  
   
 ## Rule Description  
- In most programming languages there is no default implementation of the equality operator (==) for value types. If your programming language supports operator overloads, you should consider implementing the equality operator. Its behavior should be identical to that of <xref:System.Object.Equals*>.  
+ In most programming languages there is no default implementation of the equality operator (==) for value types. If your programming language supports operator overloads, you should consider implementing the equality operator. Its behavior should be identical to that of <xref:System.Object.Equals%2A>.  
   
  You cannot use the default equality operator in an overloaded implementation of the equality operator. Doing so will cause a stack overflow. To implement the equality operator, use the Object.Equals method in your implementation. For example:  
   
@@ -89,4 +89,4 @@ return left.Equals(right);
  [CA2218: Override GetHashCode on overriding Equals](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)  
   
 ## See Also  
- <xref:System.Object.Equals*?displayProperty=fullName>
+ <xref:System.Object.Equals%2A?displayProperty=fullName>

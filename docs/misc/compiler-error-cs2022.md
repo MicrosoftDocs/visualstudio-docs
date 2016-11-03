@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2022"
 ms.assetid: d22de497-c4ef-466f-8fbc-6faba7ba5ad0
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

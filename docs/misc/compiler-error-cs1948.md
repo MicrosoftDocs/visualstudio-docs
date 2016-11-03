@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1948"
 ms.assetid: 3dac3abe-0edd-4ee1-8fb1-bc597ea63e1f
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

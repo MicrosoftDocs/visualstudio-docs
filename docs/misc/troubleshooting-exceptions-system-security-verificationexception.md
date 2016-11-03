@@ -48,5 +48,5 @@ A <xref:System.Security.VerificationException> exception is thrown when the secu
   
 ## See Also  
  <xref:System.Security.VerificationException>   
- <xref:System.Security.Permissions.SecurityPermissionAttribute.SkipVerification*>   
+ <xref:System.Security.Permissions.SecurityPermissionAttribute.SkipVerification%2A>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

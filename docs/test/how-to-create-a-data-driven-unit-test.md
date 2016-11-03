@@ -63,7 +63,7 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
 3.  Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
   
-4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow*> indexer property to retrieve the values that you use in a test.  
+4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
   
 ##  <a name="BKMK_The_method_under_test"></a> The method under test  
  As an example, let's assume that we have created:  
@@ -197,7 +197,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow*?displayProperty=fullName>   
+ <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A?displayProperty=fullName>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>   
  [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
  [Unit Test Your Code](../test/unit-test-your-code.md)   

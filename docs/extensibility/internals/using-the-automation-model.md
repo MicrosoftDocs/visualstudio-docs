@@ -1,7 +1,7 @@
 ---
 title: "Using the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Using the Automation Model
-After you have connected your VSPackage to automation, you can obtain the properties and methods by calling the <xref:EnvDTE.DTEClass.GetObject*> method on the <xref:EnvDTE._DTE> object, passing a string representing the object you wish to retrieve.  
+After you have connected your VSPackage to automation, you can obtain the properties and methods by calling the <xref:EnvDTE.DTEClass.GetObject%2A> method on the <xref:EnvDTE._DTE> object, passing a string representing the object you wish to retrieve.  
   
 ## Obtaining Project Objects  
  The following are two code examples that show how an automation consumer obtains the project automation objects. For information about how to get the DTE object, see [How to: Get References to the DTE and DTE2 Objects](../Topic/How%20to:%20Get%20References%20to%20the%20DTE%20and%20DTE2%20Objects.md).  
@@ -85,4 +85,4 @@ Next
 ```  
   
 ## See Also  
- <xref:EnvDTE.DTEClass.GetObject*>
+ <xref:EnvDTE.DTEClass.GetObject%2A>

@@ -1,7 +1,7 @@
 ---
 title: "Registration and Selection (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,7 +73,7 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
  A source control VSPackage should load any components it needs only when they are actually going to be used (otherwise known as delayed loading).  
   
 ### Automatic Solution-based VSPackage Swapping  
- You can manually swap source control VSPackages through the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Options** dialog box under the **Source Control** category. Automatic solution-based package swapping means that a source control package that has been designated for a particular solution is automatically set to active when that solution is opened. Every source control package should implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetActive*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetInactive*>. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] handles the switch between both source control plug-ins (implementing the Source Control Plug-in API) and source control VSPackages.  
+ You can manually swap source control VSPackages through the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Options** dialog box under the **Source Control** category. Automatic solution-based package swapping means that a source control package that has been designated for a particular solution is automatically set to active when that solution is opened. Every source control package should implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetActive%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetInactive%2A>. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] handles the switch between both source control plug-ins (implementing the Source Control Plug-in API) and source control VSPackages.  
   
  The Source Control Adapter Package is used to switch to any Source Control Plug-in API-based plug-in. The process of switching to the intermediate Source Control Adapter Package and determining which source control plug-in must be set to active or inactive is transparent to the user. The Adapter Package is always active when any source control plug-in is active. Switching between two source control plug-ins amounts to simply loading and unloading the plug-in DLL. Switching to a source control VSPackage, however, involves interacting with the IDE to load the appropriate VSPackage.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Updating Shapes and Connectors to Reflect the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -113,7 +113,7 @@ partial class MyLanguageDiagram
 ##  <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape  
  For some features of a shape, such as whether it has a shadow, or the arrow style of a connector, there is no built-in method of exposing the feature as a domain property.  Changes to such features are not under the control of the transaction system. Therefore, it is not appropriate to update them using rules, because rules are not invoked when the user performs the Undo command.  
   
- Instead, you can update such features by using <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged*>. In the following example, the arrow style of a connector is controlled by a value of a domain property in the relationship that the connector displays:  
+ Instead, you can update such features by using <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged%2A>. In the following example, the arrow style of a connector is controlled by a value of a domain property in the relationship that the connector displays:  
   
 ```  
 public partial class ArrowConnector // My connector class.   

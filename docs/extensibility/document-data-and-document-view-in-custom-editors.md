@@ -1,7 +1,7 @@
 ---
 title: "Document Data and Document View in Custom Editors | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ A custom editor consists of two parts: a document data object and a document vie
 ## Document Data Object  
  A document data object is a data representation of text in the text buffer. It is a COM object that stores document text and other information, handles document persistence, and enables multiple views of its data. For more information, see  
   
- <xref:EnvDTE80.Window2.DocumentData*> and [Document Windows](../extensibility/internals/document-windows.md).  
+ <xref:EnvDTE80.Window2.DocumentData%2A> and [Document Windows](../extensibility/internals/document-windows.md).  
   
  Custom editors and designers can opt to use the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object or their own custom buffer. <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> follows the simplified embedding model for a standard editor, supports multiple views, and provides event interfaces that are used to manage multiple views.  
   

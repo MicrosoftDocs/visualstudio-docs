@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3005"
 ms.assetid: 64b687e3-2dbd-45dd-b6da-81f77eb7d6bd
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

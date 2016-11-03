@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "ContinueOnError attribute [MSBuild]"
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

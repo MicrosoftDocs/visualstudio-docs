@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, logging"
 ms.assetid: 3aebf9c8-b62c-4cb2-b2d6-8cdfcd369a24
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ Forwarding loggers improve logging efficiency by letting you choose the events y
 ## Register Events and Respond to Them  
  A forwarding logger gathers information about build events as they are reported by the secondary build engine, which is a worker process that is created by the main build process during a build on a multi-processor system. Then the forwarding logger selects events to forward to the central logger, based on the instructions you have given it.  
   
- You must register forwarding loggers to handle the events you want to monitor. To register for events, loggers must override the <xref:Microsoft.Build.Utilities.Logger.Initialize*> method. This method now includes an optional parameter, `nodecount`, that can be set to the number of processors in the system. (By default, the value is 1.)  
+ You must register forwarding loggers to handle the events you want to monitor. To register for events, loggers must override the <xref:Microsoft.Build.Utilities.Logger.Initialize%2A> method. This method now includes an optional parameter, `nodecount`, that can be set to the number of processors in the system. (By default, the value is 1.)  
   
  Examples of events you can monitor are <xref:Microsoft.Build.Framework.IEventSource.TargetStarted>, <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished>.  
   

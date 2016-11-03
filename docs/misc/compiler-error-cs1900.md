@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1900"
 ms.assetid: 08141138-bfea-4af3-a9a0-ec54cf2caa13
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

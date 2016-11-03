@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSBuild, building a project with resources"
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

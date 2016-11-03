@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0622"
 ms.assetid: aef77a69-d8b7-41f8-9539-258deaef5cc4
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

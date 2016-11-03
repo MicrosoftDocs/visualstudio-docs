@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1003"
 ms.assetid: 59f4d053-13c0-4f79-830e-263acdbe94fa
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

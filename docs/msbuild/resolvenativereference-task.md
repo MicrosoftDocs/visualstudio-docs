@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ResolveNativeReference task [MSBuild]"
 ms.assetid: 56acd101-de77-4eec-92c6-f5c6d2187579
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

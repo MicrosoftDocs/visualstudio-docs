@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: a9058345-708f-4fcf-8739-2a43e5285b7a
 caps.latest.revision: 8
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflow-designer/inc
   
 2.  In the **Properties** pane, specify a name for the <xref:System.Workflow.Activities.ChannelToken>. This name uniquely identifies the channel token.  
   
-3.  Expand the channel token node and specify a name for the client endpoint you are going to use in the <xref:System.Workflow.Activities.ChannelToken.EndpointName*> field. The endpoint configuration of the same name in the configuration file will be used to configure the channel.  
+3.  Expand the channel token node and specify a name for the client endpoint you are going to use in the <xref:System.Workflow.Activities.ChannelToken.EndpointName%2A> field. The endpoint configuration of the same name in the configuration file will be used to configure the channel.  
   
 4.  Create the endpoint configuration in your configuration file, if it does not exist already. For more information about configuring your client, see [WCF Client Overview](../Topic/WCF%20Client%20Overview.md).  
   

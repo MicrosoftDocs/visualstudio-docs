@@ -47,4 +47,4 @@ translation.priority.mt:
 ## See Also  
  <xref:System.IO>   
  [Get Statement](/dotnet/visual-basic/language-reference/statements/get-statement)   
- [File Access with Visual Basic](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access-with-visual-basic)
+ [File Access with Visual Basic](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access)

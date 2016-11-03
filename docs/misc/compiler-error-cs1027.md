@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1027"
 ms.assetid: a6657f0f-5664-47a5-95cf-803f5a0e0c90
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

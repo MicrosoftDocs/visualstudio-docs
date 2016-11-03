@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1930"
 ms.assetid: d28d2334-825c-4ffc-b9e9-f5d61f44d672
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

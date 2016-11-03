@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Bind to an Activity's Property dialog box"
 ms.assetid: 19ebb207-e0a9-4642-8f5f-a5e31395c683
 caps.latest.revision: 5
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

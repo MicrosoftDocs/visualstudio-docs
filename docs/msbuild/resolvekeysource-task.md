@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, ResolveKeySource task"
 ms.assetid: 449f06c2-e9aa-4236-ab1e-c45c25452b2e
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

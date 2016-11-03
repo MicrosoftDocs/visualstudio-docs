@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "File.AddExistingProject"
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

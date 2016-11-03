@@ -51,7 +51,7 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
   
 -   A task provider (that is, an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2>) that maintains a record of changes in line information in order to identify the lines to be re-parsed.  
   
--   A text view filter that captures caret change events from the view using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine*>) method.  
+-   A text view filter that captures caret change events from the view using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine%2A>) method.  
   
  The parser, task provider, and filter provide the infrastructure necessary to make error markers possible. The following steps provide the process for displaying error markers.  
   

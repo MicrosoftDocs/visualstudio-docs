@@ -40,5 +40,5 @@ You have specified a cookie that is no longer valid.
 1.  Return the same cookie value that you got back from calling RegisterExtenderProvider().  
   
 ## See Also  
- <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
+ <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider%2A>   
  <xref:EnvDTE.ObjectExtenders>

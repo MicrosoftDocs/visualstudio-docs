@@ -38,7 +38,7 @@ Depending on the development language and the product type, certain buttons are 
   
  There are 11 predefined property categories, which have negative values. You can define custom categories, but we recommend that you assign them positive values to distinguish them from the predefined categories.  
   
- The <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties.MapPropertyToCategory*> method returns the appropriate property category value for the specified property. The <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties.GetCategoryName*> method returns a string that contains the category name. You only have to provide support for custom category values because Visual Studio knows the standard property category values.  
+ The <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties.MapPropertyToCategory%2A> method returns the appropriate property category value for the specified property. The <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties.GetCategoryName%2A> method returns a string that contains the category name. You only have to provide support for custom category values because Visual Studio knows the standard property category values.  
   
  When you click the **Alphabetized** button, the properties are displayed in alphabetical order by name. The names are retrieved by `IDispatch` according to a localized sorting algorithm.  
   

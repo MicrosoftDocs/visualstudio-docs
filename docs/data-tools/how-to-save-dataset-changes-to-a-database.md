@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Save Dataset Changes to a Database
-After the data in your dataset has been modified and validated, you probably want to send the updated data back to a database. In order to send the modified data to a database, you call the `Update` method of a [TableAdapter](../data-tools/tableadapter-overview.md) or data adapter. The adapter's `Update` method updates a single data table and executes the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState*> of each data row in the table.  
+After the data in your dataset has been modified and validated, you probably want to send the updated data back to a database. In order to send the modified data to a database, you call the `Update` method of a [TableAdapter](../data-tools/tableadapter-overview.md) or data adapter. The adapter's `Update` method updates a single data table and executes the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState%2A> of each data row in the table.  
   
  When saving data in related tables, Visual Studio provides a TableAdapterManager component that assists in performing saves in the proper order based on the foreign-key constraints defined in the database. For more information, see [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md).  
   
@@ -53,7 +53,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
 2.  If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](../Topic/How%20to:%20Locate%20Rows%20that%20Have%20Errors.md).  
   
-3.  Reconcile the problem in the data row (programmatically if possible, or by presenting the invalid row to the user for modification), and then reattempt the update (<xref:System.Data.DataRow.HasErrors*> property, <xref:System.Data.DataTable.GetErrors*> method).  
+3.  Reconcile the problem in the data row (programmatically if possible, or by presenting the invalid row to the user for modification), and then reattempt the update (<xref:System.Data.DataRow.HasErrors%2A> property, <xref:System.Data.DataTable.GetErrors%2A> method).  
   
 ## Saving Data to a Database  
  Call the `Update` method of a TableAdapter or data adapter, passing the name of the data table that contains the values to be written to the database. For more information on saving data from a single data table back to a database, see [Walkthrough: Saving Data to a Database (Single Table)](../Topic/Walkthrough:%20Saving%20Data%20to%20a%20Database%20\(Single%20Table\).md).  

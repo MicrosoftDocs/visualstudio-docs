@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1949"
 ms.assetid: 959f553e-ac3d-43a1-b0a0-11e270f2ad64
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

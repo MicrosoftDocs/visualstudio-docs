@@ -42,10 +42,10 @@ A <xref:System.Net.WebException> exception is thrown when an error occurs while 
   
 ## Associated Tips  
  **Check the Response property of the exception to determine why the request failed.**  
- When a <xref:System.Net.WebException> exception is thrown by a descendent of the <xref:System.Net.WebRequest> class, the <xref:System.Net.WebException.Response*> property provides the Internet response to the application.  
+ When a <xref:System.Net.WebException> exception is thrown by a descendent of the <xref:System.Net.WebRequest> class, the <xref:System.Net.WebException.Response%2A> property provides the Internet response to the application.  
   
  **Check the Status property of the exception to determine why the request failed.**  
- The <xref:System.Net.WebException.Status*> property of the exception provides status information for the error. For more information, see <xref:System.Net.WebExceptionStatus>.  
+ The <xref:System.Net.WebException.Status%2A> property of the exception provides status information for the error. For more information, see <xref:System.Net.WebExceptionStatus>.  
   
  **If you are timing out when stepping into an XML Web Service, set the timeout value for the XML Web Service call to infinite.**  
  For more information, see [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md).  

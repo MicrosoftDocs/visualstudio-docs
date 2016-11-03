@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 ms.assetid: af1a3171-c9d8-45a3-9c96-a763e3b163ef
 caps.latest.revision: 63
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

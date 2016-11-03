@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IntelliSense [Visual Studio], Visual Basic"
 ms.assetid: 4dec8753-05e5-4f74-b304-5f8c4ed8723b
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

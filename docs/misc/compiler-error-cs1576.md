@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1576"
 ms.assetid: 3e39cb80-e7de-4c78-a22a-57e267121a96
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

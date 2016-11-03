@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1580"
 ms.assetid: ffd1b6d7-6cab-47e3-b7fe-c79cb435cddf
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

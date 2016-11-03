@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "moving localization comments and attributes to a separate file [WPF MSBuild]"
 ms.assetid: 9095b4f1-88da-4194-914b-ee1456826830
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

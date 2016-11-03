@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Built-In Colorable Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ Before you use the built-in colorable items, you must first signal to the integr
   
 2.  Set the `RequestStockColors` registry entry value to 1.  
   
-     After you create the registry entry, your colorizer's <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> method can use the members of the <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> enumeration to fill in the array of color attributes for use by the editor.  
+     After you create the registry entry, your colorizer's <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method can use the members of the <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> enumeration to fill in the array of color attributes for use by the editor.  
   
     > [!NOTE]
     >  Do not set this registry entry if you are providing custom colorable items. For more information, see [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md).  

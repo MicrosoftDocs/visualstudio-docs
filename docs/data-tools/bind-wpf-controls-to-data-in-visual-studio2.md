@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to data in Visual Studio2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

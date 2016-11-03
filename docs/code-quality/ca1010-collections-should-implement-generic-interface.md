@@ -1,7 +1,7 @@
 ---
 title: "CA1010: Collections should implement generic interface | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,25 +45,25 @@ translation.priority.mt:
 |Breaking Change|Non-breaking|  
   
 ## Cause  
- An externally visible type implements the <xref:System.Collections.IEnumerable?displayProperty=fullName> interface but does not implement the <xref:System.Collections.Generic.IEnumerable`1?displayProperty=fullName> interface, and the containing assembly targets [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]. This rule ignores types that implement <xref:System.Collections.IDictionary?displayProperty=fullName>.  
+ An externally visible type implements the <xref:System.Collections.IEnumerable?displayProperty=fullName> interface but does not implement the <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> interface, and the containing assembly targets [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]. This rule ignores types that implement <xref:System.Collections.IDictionary?displayProperty=fullName>.  
   
 ## Rule Description  
  To broaden the usability of a collection, implement one of the generic collection interfaces. Then the collection can be used to populate generic collection types such as the following:  
   
--   <xref:System.Collections.Generic.List`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.List%601?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.Queue`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.Queue%601?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.Stack`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.Stack%601?displayProperty=fullName>  
   
 ## How to Fix Violations  
  To fix a violation of this rule, implement one of the following generic collection interfaces:  
   
--   <xref:System.Collections.Generic.IEnumerable`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.ICollection`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.IList`1?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.IList%601?displayProperty=fullName>  
   
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule; however, the collection will have a more limited use.  

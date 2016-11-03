@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Compile page in Project Designer"
 ms.assetid: b2a80230-906e-4e85-b3e0-fcd9c40426e1
 caps.latest.revision: 60
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -90,7 +91,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
   
  An object is late bound when it is assigned to a property or method of a variable that is declared to be of type `Object`. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement) and [Early and Late Binding](/dotnet/visual-basic/programming-guide/language-features/early-late-binding/early-and-late-binding).  
   
- Implicit object type errors occur when an appropriate type cannot be inferred for a declared variable, so a type of `Object` is inferred. This primarily occurs when you use a `Dim` statement to declare a variable without using an `As` clause, and `Option Infer` is off. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement), and the [Visual Basic Language Specification](/dotnet/visual-basic/reference/visual-basic-language-specification).  
+ Implicit object type errors occur when an appropriate type cannot be inferred for a declared variable, so a type of `Object` is inferred. This primarily occurs when you use a `Dim` statement to declare a variable without using an `As` clause, and `Option Infer` is off. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement), and the [Visual Basic Language Specification](/dotnet/visual-basic/reference/language-specification).  
   
  The **Option Strict** setting corresponds to the [/optionstrict](/dotnet/visual-basic/reference/command-line-compiler/optionstrict) compiler option.  
   

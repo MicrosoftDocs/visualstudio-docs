@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "security [Visual Studio], additional information"
 ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "WriteCodeFragment task [MSBuild]"
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

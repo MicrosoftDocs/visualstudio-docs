@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1934"
 ms.assetid: 18624be3-d534-4695-bafd-cc664fcde15e
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

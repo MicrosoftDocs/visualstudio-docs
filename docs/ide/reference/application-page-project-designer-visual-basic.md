@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,7 +47,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The following options enable you to configure general settings for an application.  
   
  **Assembly name**  
- Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property will also change. You can also make this change at a command prompt by using [/out (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/out). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName*>.  
+ Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property will also change. You can also make this change at a command prompt by using [/out (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/out). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName%2A>.  
   
  **Root namespace**  
  Specifies the base namespace for all files in the project. For example, if you set the **Root Namespace** to `Project1` and you have a `Class1` outside of any namespace in your code, its namespace would be `Project1.Class1`. If you have a `Class2` in a namespace `Order` in code, its namespace would be `Project1.Order.Class2`.  
@@ -60,7 +61,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
   
  For more information about the root namespace property, see [/rootnamespace](/dotnet/visual-basic/reference/command-line-compiler/rootnamespace).  
   
- For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.RootNamespace*>.  
+ For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.RootNamespace%2A>.  
   
  **Target framework (all configurations)**  
  Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.  
@@ -82,21 +83,21 @@ Use the **Application** page of the Project Designer to specify a project's appl
 > [!NOTE]
 >  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
- For more information about the **Application type** property, see [/target (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/target). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType*>.  
+ For more information about the **Application type** property, see [/target (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/target). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType%2A>.  
   
  **Icon**  
- Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) (or [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon*>.  
+ Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) (or [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>.  
   
  **Startup form / Startup object / Startup URI**  
  Specifies the application's startup form or entry point.  
   
  If **Enable application framework** is selected (the default), this list is titled **Startup form** and shows only forms because the application framework supports only startup forms, not objects.  
   
- If the project is a WPF Browser Application, this list is titled **Startup URI**, and the default is **Page1.xaml**. The **Startup URI** list enables you to specify the user interface resource (a XAML element) that the application displays when the application starts. For more information, see <xref:System.Windows.Application.StartupUri*>.  
+ If the project is a WPF Browser Application, this list is titled **Startup URI**, and the default is **Page1.xaml**. The **Startup URI** list enables you to specify the user interface resource (a XAML element) that the application displays when the application starts. For more information, see <xref:System.Windows.Application.StartupUri%2A>.  
   
  If **Enable application framework** is cleared, this list becomes **Startup object** and shows both forms and classes or modules with a `Sub Main`.  
   
- **Startup object** defines the entry point to be called when the application loads. Generally this is set to either the main form in your application or to the `Sub Main` procedure that should run when the application starts. Because class libraries do not have an entry point, their only option for this property is **(None)**. For more information, see [/main](/dotnet/visual-basic/reference/command-line-compiler/main). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject*>.  
+ **Startup object** defines the entry point to be called when the application loads. Generally this is set to either the main form in your application or to the `Sub Main` procedure that should run when the application starts. Because class libraries do not have an entry point, their only option for this property is **(None)**. For more information, see [/main](/dotnet/visual-basic/reference/command-line-compiler/main). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject%2A>.  
   
  **Assembly Information**  
  Click this button to display the [Assembly Information Dialog Box](../../ide/reference/assembly-information-dialog-box.md).  
@@ -153,13 +154,13 @@ Use the **Application** page of the Project Designer to specify a project's appl
  **Shutdown mode**  
  This property is applicable only to Windows Presentation Foundation applications.  
   
- Select **On explicit shutdown** to specify that the application exit when you explicitly call <xref:System.Windows.Application.Shutdown*>.  
+ Select **On explicit shutdown** to specify that the application exit when you explicitly call <xref:System.Windows.Application.Shutdown%2A>.  
   
- Select **On last window close** to specify that the application exit when the last window closes or when you explicitly call <xref:System.Windows.Application.Shutdown*>. This is the default setting.  
+ Select **On last window close** to specify that the application exit when the last window closes or when you explicitly call <xref:System.Windows.Application.Shutdown%2A>. This is the default setting.  
   
- Select **On main window close** to specify that the application exit when the main window closes or when you explicitly call <xref:System.Windows.Application.Shutdown*>.  
+ Select **On main window close** to specify that the application exit when the main window closes or when you explicitly call <xref:System.Windows.Application.Shutdown%2A>.  
   
- For more information about using this setting, see <xref:System.Windows.Application.Shutdown*>  
+ For more information about using this setting, see <xref:System.Windows.Application.Shutdown%2A>  
   
  **Edit XAML**  
  Click this button to open and modify the application definition file (Application.xaml) in the XAML editor. When you click this button, Application.xaml opens at the application definition node. You might have to edit this file to perform certain tasks, such as defining resources. If the application definition file does not exist, the Project Designer creates one.  

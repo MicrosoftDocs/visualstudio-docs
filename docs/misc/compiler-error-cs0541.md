@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0541"
 ms.assetid: ed812c07-24f7-43c6-9a44-553f27f6249d
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

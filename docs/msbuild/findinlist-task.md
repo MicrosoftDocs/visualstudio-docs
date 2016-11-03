@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, FindInList task"
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

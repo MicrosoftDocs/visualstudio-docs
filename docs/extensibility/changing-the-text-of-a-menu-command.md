@@ -65,7 +65,7 @@ The following steps show how to change the text label of a menu command by using
     }  
     ```  
   
-     You can also update the status of the menu command in this method by changing the <xref:System.ComponentModel.Design.MenuCommand.Visible*>, <xref:System.ComponentModel.Design.MenuCommand.Checked*>, and <xref:System.ComponentModel.Design.MenuCommand.Enabled*> properties on the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object.  
+     You can also update the status of the menu command in this method by changing the <xref:System.ComponentModel.Design.MenuCommand.Visible%2A>, <xref:System.ComponentModel.Design.MenuCommand.Checked%2A>, and <xref:System.ComponentModel.Design.MenuCommand.Enabled%2A> properties on the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object.  
   
 4.  In the ChangeMenuText constructor, replace the original command initialization and placement code with code that creates a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> (rather than a `MenuCommand`) that represents the menu command, adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event handler, and gives the menu command to the menu command service.  
   

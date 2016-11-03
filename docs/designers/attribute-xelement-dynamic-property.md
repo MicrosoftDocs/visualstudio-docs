@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8440fc7d-b3b4-4726-8ec8-492e6af79642
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,9 +42,9 @@ elem.Attribute[{namespaceName}attribName]
  An indexer of the type `XAttribute Item(String expandedName)`. This indexer takes the expanded name of the specified attribute and returns the corresponding <xref:System.Xml.Linq.XAttribute>, or `null` if there is no attribute with the specified name.  
   
 ## Remarks  
- This property is equivalent to the <xref:System.Xml.Linq.XElement.Attribute*> method of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  
+ This property is equivalent to the <xref:System.Xml.Linq.XElement.Attribute%2A> method of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  
   
 ## See Also  
- <xref:System.Xml.Linq.XElement.Attribute*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XElement.Attribute%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Value](../designers/value-xattribute-dynamic-property.md)

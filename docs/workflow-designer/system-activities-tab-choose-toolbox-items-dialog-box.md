@@ -12,6 +12,7 @@ f1_keywords:
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS"
 ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
 caps.latest.revision: 5
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

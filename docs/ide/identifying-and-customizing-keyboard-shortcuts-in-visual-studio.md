@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "exporting shortcut keys [Visual Studio]"
 ms.assetid: d2774be2-60a4-4d6f-95f1-79d0d9e55b56
 caps.latest.revision: 26
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

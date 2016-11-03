@@ -1,7 +1,7 @@
 ---
 title: "Toolbox, Components Tab | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Toolbox, Components tab"
 ms.assetid: 332fafab-a763-4244-b388-15d1b5b5cc04
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

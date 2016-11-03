@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1725"
 ms.assetid: baef9ae3-b036-41d6-972c-9f3cdae1e8bd
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

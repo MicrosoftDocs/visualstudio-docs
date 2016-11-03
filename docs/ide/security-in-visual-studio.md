@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "security [.NET Framework], about security"
 ms.assetid: 318c34ce-f643-468c-83a1-843196f5d845
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

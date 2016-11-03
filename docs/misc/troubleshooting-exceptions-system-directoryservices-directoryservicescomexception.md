@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DirectoryServices.DirectoryServicesCOMException
-The exception that is thrown when an error occurs while calling the <xref:System.DirectoryServices.DirectoryEntry.InvokeGet*> method.  
+The exception that is thrown when an error occurs while calling the <xref:System.DirectoryServices.DirectoryEntry.InvokeGet%2A> method.  
   
 ## See Also  
  <xref:System.DirectoryServices.DirectoryServicesCOMException>   

@@ -35,6 +35,7 @@ helpviewer_keywords:
   - "Solution Explorer, displaying files in"
 ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

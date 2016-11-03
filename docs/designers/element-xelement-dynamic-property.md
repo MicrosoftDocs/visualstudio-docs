@@ -14,6 +14,7 @@ apiname:
 apitype: "Assembly"
 ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,9 +45,9 @@ elem.Element[{namespaceName}localName]
  An indexer of the type `XElement Item(String expandedName)`. This indexer takes an expanded name parameter and returns the corresponding <xref:System.Xml.Linq.XElement>, or `null` if there is no element with the specified name.  
   
 ## Remarks  
- This property is equivalent to <xref:System.Xml.Linq.XContainer.Element*> method of the <xref:System.Xml.Linq.XContainer?displayProperty=fullName> class.  
+ This property is equivalent to <xref:System.Xml.Linq.XContainer.Element%2A> method of the <xref:System.Xml.Linq.XContainer?displayProperty=fullName> class.  
   
 ## See Also  
- <xref:System.Xml.Linq.XContainer.Element*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XContainer.Element%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Elements](../designers/elements-xelement-dynamic-property.md)

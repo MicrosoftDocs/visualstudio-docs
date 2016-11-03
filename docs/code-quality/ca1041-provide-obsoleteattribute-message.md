@@ -45,16 +45,16 @@ translation.priority.mt:
 |Breaking Change|Non-breaking|  
   
 ## Cause  
- A type or member is marked by using a <xref:System.ObsoleteAttribute?displayProperty=fullName> attribute that does not have its <xref:System.ObsoleteAttribute.Message*?displayProperty=fullName> property specified.  
+ A type or member is marked by using a <xref:System.ObsoleteAttribute?displayProperty=fullName> attribute that does not have its <xref:System.ObsoleteAttribute.Message%2A?displayProperty=fullName> property specified.  
   
 ## Rule Description  
- <xref:System.ObsoleteAttribute> is used to mark deprecated library types and members. Library consumers should avoid the use of any type or member that is marked obsolete. This is because it might not be supported and will eventually be removed from later versions of the library. When a type or member marked by using <xref:System.ObsoleteAttribute> is compiled, the <xref:System.ObsoleteAttribute.Message*> property of the attribute is displayed. This gives the user information about the obsolete type or member. This information generally includes how long the obsolete type or member will be supported by the library designers and the preferred replacement to use.  
+ <xref:System.ObsoleteAttribute> is used to mark deprecated library types and members. Library consumers should avoid the use of any type or member that is marked obsolete. This is because it might not be supported and will eventually be removed from later versions of the library. When a type or member marked by using <xref:System.ObsoleteAttribute> is compiled, the <xref:System.ObsoleteAttribute.Message%2A> property of the attribute is displayed. This gives the user information about the obsolete type or member. This information generally includes how long the obsolete type or member will be supported by the library designers and the preferred replacement to use.  
   
 ## How to Fix Violations  
  To fix a violation of this rule, add the `message` parameter to the <xref:System.ObsoleteAttribute> constructor.  
   
 ## When to Suppress Warnings  
- Do not suppress a warning from this rule because the <xref:System.ObsoleteAttribute.Message*> property provides critical information about the obsolete type or member.  
+ Do not suppress a warning from this rule because the <xref:System.ObsoleteAttribute.Message%2A> property provides critical information about the obsolete type or member.  
   
 ## Example  
  The following example shows an obsolete member that has a correctly declared <xref:System.ObsoleteAttribute>.  

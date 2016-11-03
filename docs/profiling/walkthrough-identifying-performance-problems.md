@@ -147,7 +147,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 1.  The timeline graph of the **Summary** view of the report shows the CPU utilization of the program over the duration of the profiling run. The export data operation should be the large peak or plateau on the right side of the graph. We can filter the performance session to display and analyze only the data that was collected in the export operation. Click to the left of the point on the graph where the export data operation begins. Click again to the right side of the operation. Then click **Filter by Selection** in the list of links to the right of the timeline.  
   
-     The **Hot Path** tree show that the <xref:System.String.Concat*> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
+     The **Hot Path** tree show that the <xref:System.String.Concat%2A> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
   
 2.  Double-click **System.String.Concat** in either of the summary tables to see more information in the Function Details view.  
   

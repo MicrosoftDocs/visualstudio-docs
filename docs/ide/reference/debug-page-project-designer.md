@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug page in Project Designer"
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

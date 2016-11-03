@@ -1,7 +1,7 @@
 ---
 title: "Contributing to the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,7 +69,7 @@ Visual Studio provides a set of automation interfaces for customizing the enviro
  Provides information about automation for Configuration Options and automation for Selected Items.  
   
 ## Reference  
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>  
  Provides a code sample that shows how a VSPackage participates in the DTE automation object model. Lists parameters, return values, and selected remarks.  
   
 ## Related Sections

@@ -1,7 +1,7 @@
 ---
 title: "How to: Disable the Hosting Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "vshost.exe, disabling the hosting process"
 ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

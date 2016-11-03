@@ -28,6 +28,7 @@ f1_keywords:
   - "javascript.project.property.reference.version"
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

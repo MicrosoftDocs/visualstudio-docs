@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1696"
 ms.assetid: 69a45988-1aba-4a01-a84e-7ca59f8dde28
 caps.latest.revision: 11
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

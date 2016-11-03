@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1939"
 ms.assetid: 9a7cdd48-3d45-473a-a799-c7771ef8158d
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

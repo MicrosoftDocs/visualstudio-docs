@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], nullable types"
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
  A *nullable type* is a value type that you extend so that it takes the typical range of values for that type and also a null value. For example, a nullable of `Int32`, also denoted as Nullable\<Int32>, can be assigned any value from -2147483648 to 2147483647, or it can be assigned a null value. A Nullable\<bool> can be assigned the values `True`, `False`, or null (no value at all).  
   
- Nullable types are instances of the <xref:System.Nullable`1> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:  
+ Nullable types are instances of the <xref:System.Nullable%601> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:  
   
 -   `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.  
   
@@ -79,7 +80,7 @@ Certain value types do not always have (or need) a defined value. This is common
 5.  Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.  
   
 ## See Also  
- <xref:System.Nullable`1>   
+ <xref:System.Nullable%601>   
  [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
  [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
  [How to: Identify a Nullable Type](../Topic/How%20to:%20Identify%20a%20Nullable%20Type%20\(C%23%20Programming%20Guide\).md)   

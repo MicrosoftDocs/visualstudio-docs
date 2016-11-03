@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1677"
 ms.assetid: 8c974669-15c6-4010-8b02-21021bed5af9
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Navigate the UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,9 +61,9 @@ This topic introduces the main types of the UML model.
 ### The Ownership Tree  
  A model contains a tree of <xref:Microsoft.VisualStudio.Uml.Classes.IElement> objects. Every element has properties `OwnedElements` and `Owner`.  
   
- In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named <xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class*>, and in every <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
+ In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named <xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class%2A>, and in every <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
   
- The topmost element of the tree, which has no Owner, is a <xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root*>.  
+ The topmost element of the tree, which has no Owner, is a <xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root%2A>.  
   
  Every model element is created with an Owner. For more information, see [Create elements and relationships in UML models](../modeling/create-elements-and-relationships-in-uml-models.md).  
   

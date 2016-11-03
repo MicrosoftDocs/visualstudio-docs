@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
 caps.latest.revision: 19
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

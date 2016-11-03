@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "transforms [MSBuild]"
 ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

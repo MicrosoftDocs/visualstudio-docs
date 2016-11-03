@@ -18,7 +18,7 @@ The properties in the following table are associated with a domain role. For inf
   
 |Property|Description|Default|  
 |--------------|-----------------|-------------|  
-|Collection Type|If this role has multiplicity of 0..* or 1..\*, this property customizes the generic type that is used to store the collection of links.|`(none)` - <xref:Microsoft.VisualStudio.Modeling.LinkedElementCollection`1> is used|  
+|Collection Type|If this role has multiplicity of 0..* or 1..\*, this property customizes the generic type that is used to store the collection of links.|`(none)` - <xref:Microsoft.VisualStudio.Modeling.LinkedElementCollection%601> is used|  
 |Custom Attributes|Attributes that you specify here will be added as attributes to the generated code class.|<none\>|  
 |Is Property Browsable|If `True`, and if the multiplicity of the relationship is 0..1 or 1..1, the role property can be browsed by the user in the **Properties** window. The property displays the name of the element at the other end of the relationship link.|`True`|  
 |Is Property Generator|If `True`, a role property is generated for this role, which you can use to traverse the relationship in program code. If you set this false, you can traverse the relationship in a less efficient manner by using static methods of the domain relationship.|`True`|  

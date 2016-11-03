@@ -1,7 +1,7 @@
 ---
 title: "Making Commands Available | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
  Notice that delayed loading may also improve start-up performance.  
   
 ## Current Context and the Visibility of Commands  
- You can program VSPackage commands to be visible or hidden, depending on the current state of the VSPackage data or the actions that are currently relevant. You can enable the VSPackage to set the state of its commands, typically by using an implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus*> method from the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, but this requires the VSPackage to be loaded before it can execute the code. Instead, we recommend that you enable the IDE to manage the visibility of the commands without loading the package. To do this, in the .vsct file, associate commands with one or more special UI contexts. These UI contexts are identified by a GUID known as a *command context GUID*.  
+ You can program VSPackage commands to be visible or hidden, depending on the current state of the VSPackage data or the actions that are currently relevant. You can enable the VSPackage to set the state of its commands, typically by using an implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method from the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, but this requires the VSPackage to be loaded before it can execute the code. Instead, we recommend that you enable the IDE to manage the visibility of the commands without loading the package. To do this, in the .vsct file, associate commands with one or more special UI contexts. These UI contexts are identified by a GUID known as a *command context GUID*.  
   
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] monitors changes that result from user actions such as loading a project or going from editing to building. As changes occur, the appearance of the IDE is automatically modified. The following table shows four major contexts of IDE change that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] monitors.  
   
@@ -105,11 +105,11 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 ### Custom Context GUIDs  
  If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands. Use the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service to:  
   
--   Register context GUIDs (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie*> method).  
+-   Register context GUIDs (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method).  
   
--   Get the state of a context `GUID` (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive*> method).  
+-   Get the state of a context `GUID` (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method).  
   
--   Turn context `GUID`s on and off (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext*> method).  
+-   Turn context `GUID`s on and off (by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method).  
   
     > [!CAUTION]
     >  Make sure that your VSPackage does not affect the state of any existing context GUID because other VSPackages may depend on them.  

@@ -44,21 +44,21 @@ Word completion fills in the missing characters on a partially typed word. If th
   
 1.  When the user selects **Complete Word** from the **IntelliSense** menu, the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> command is sent to the language service.  
   
-2.  The <xref:Microsoft.VisualStudio.Package.ViewFilter> class catches the command and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>.  
+2.  The <xref:Microsoft.VisualStudio.Package.ViewFilter> class catches the command and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>.  
   
-3.  The <xref:Microsoft.VisualStudio.Package.Source> class then calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*> method to get the list of possible word completions and then displays the words in a tool tip list using the <xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
+3.  The <xref:Microsoft.VisualStudio.Package.Source> class then calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method to get the list of possible word completions and then displays the words in a tool tip list using the <xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
   
      If there is only one matching word, the <xref:Microsoft.VisualStudio.Package.Source> class completes the word.  
   
- Alternatively, if the scanner returns the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> when the first character of an identifier is typed, the <xref:Microsoft.VisualStudio.Package.Source> class detects this and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>. In this case the parser must detect the presence of a member selection character and provide a list of members.  
+ Alternatively, if the scanner returns the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> when the first character of an identifier is typed, the <xref:Microsoft.VisualStudio.Package.Source> class detects this and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>. In this case the parser must detect the presence of a member selection character and provide a list of members.  
   
 ## Enabling Support for the Complete Word  
- To enable support for word completion set the `CodeSense` named parameter passed to the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> user attribute associated with the language package. This sets the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense*> property on the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
+ To enable support for word completion set the `CodeSense` named parameter passed to the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> user attribute associated with the language package. This sets the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense%2A> property on the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
   
  Your parser must return a list of declarations in response to the parse reason value <xref:Microsoft.VisualStudio.Package.ParseReason>, for word completion to operate.  
   
 ## Implementing Complete Word in the ParseSource Method  
- For word completion, the <xref:Microsoft.VisualStudio.Package.Source> class calls the <xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDeclarations*> method on the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class to obtain a list of possible word matches. You must implement the list in a class that is derived from the <xref:Microsoft.VisualStudio.Package.Declarations> class. See the <xref:Microsoft.VisualStudio.Package.Declarations> class for details on the methods you must implement.  
+ For word completion, the <xref:Microsoft.VisualStudio.Package.Source> class calls the <xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDeclarations%2A> method on the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class to obtain a list of possible word matches. You must implement the list in a class that is derived from the <xref:Microsoft.VisualStudio.Package.Declarations> class. See the <xref:Microsoft.VisualStudio.Package.Declarations> class for details on the methods you must implement.  
   
  If the list contains only a single word, then the <xref:Microsoft.VisualStudio.Package.Source> class automatically inserts that word in place of the partial word. If the list contains more than one word, the <xref:Microsoft.VisualStudio.Package.Source> class presents a tool tip list from which the user can select the appropriate choice.  
   

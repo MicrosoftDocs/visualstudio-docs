@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "partial classes, Class Designer"
 ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

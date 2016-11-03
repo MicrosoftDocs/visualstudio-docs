@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1547"
 ms.assetid: 40029557-076a-47d8-aabc-d86c56a846d7
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

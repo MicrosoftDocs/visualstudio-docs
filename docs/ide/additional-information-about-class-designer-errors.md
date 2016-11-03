@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "class diagrams, errors"
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

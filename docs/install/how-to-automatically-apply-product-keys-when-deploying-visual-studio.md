@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -67,4 +67,4 @@ You can apply your product key programmatically as part of a script used to auto
  If StorePID.exe successfully applied the product key, it will return 0. If it encounters errors, it will return a number ranging from 1 to 6.  
   
 ## See Also  
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)
+ [Install Visual Studio](../install/install-visual-studio-2015.md)

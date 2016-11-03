@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2024"
 ms.assetid: 65cf7419-a5a6-4128-88af-176dc8dba14f
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

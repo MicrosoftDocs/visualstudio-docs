@@ -1,7 +1,7 @@
 ---
 title: "Sorry, we don&#39;t have specifics on this C# error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/29/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -886,6 +886,7 @@ helpviewer_keywords:
   - "errors [C#], additional information"
 ms.assetid: 48320e4a-6e17-45a6-9966-88c6ec89bd2f
 caps.latest.revision: 15
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -919,7 +920,7 @@ We’re sorry, but we don’t have any specific information about this error. Yo
  Provides a forum for questions about and issues with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
  Also see:  
- [Additional Resources for Visual C# Programmers](/dotnet/csharp/getting-started/additional-resources-for-visual-csharp-programmers)  
+ [Additional Resources for Visual C# Programmers](/dotnet/csharp/getting-started/additional-resources)  
   
 ## See Also  
  [C# Programming Guide](/dotnet/csharp/programming-guide/index)   

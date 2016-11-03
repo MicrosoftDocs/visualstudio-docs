@@ -43,7 +43,7 @@ ClickOnce uses the file version information specified in an application's deploy
 ## File Patching  
  When updating an application, ClickOnce does not download all of the files for the new version of the application unless the files have changed. Instead, it compares the hash signatures of the files specified in the application manifest for the current application against the signatures in the manifest for the new version. If a file's signatures are different, ClickOnce downloads the new version. If the signatures match, the file has not changed from one version to the next. In this case, ClickOnce copies the existing file and uses it in the new version of the application. This approach prevents ClickOnce from having to download the entire application again, even if only one or two files have changed.  
   
- File patching also works for assemblies that are downloaded on demand using the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup*> and <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsync*> methods.  
+ File patching also works for assemblies that are downloaded on demand using the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup%2A> and <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsync%2A> methods.  
   
  If you use Visual Studio to compile your application, it will generate new hash signatures for all files whenever you rebuild the entire project. In this case, all assemblies will be downloaded to the client, although only a few assemblies may have changed.  
   

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1675"
 ms.assetid: add10021-f751-45c7-addc-0f73fa4a267c
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

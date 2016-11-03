@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1914"
 ms.assetid: e61361b6-4660-41fd-a574-cc48e1b3873c
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

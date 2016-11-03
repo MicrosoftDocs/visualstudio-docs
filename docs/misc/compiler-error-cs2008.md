@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2008"
 ms.assetid: 13a25a0a-0638-41b7-8b35-9b5d3013bb00
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

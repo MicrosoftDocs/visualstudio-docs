@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
 caps.latest.revision: 4
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -44,7 +45,7 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.FlowDecision>  
   
- <xref:System.Activities.Statements.FlowSwitch`1>  
+ <xref:System.Activities.Statements.FlowSwitch%601>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "64-bit applications [Visual Studio]"
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

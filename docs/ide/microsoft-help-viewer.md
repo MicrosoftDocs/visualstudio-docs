@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "toolbar [Help Viewer 2.0]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

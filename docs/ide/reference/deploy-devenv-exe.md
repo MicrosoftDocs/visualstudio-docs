@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "/deploy Devenv switch"
 ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

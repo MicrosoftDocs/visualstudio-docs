@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, batching"
 ms.assetid: d35c085b-27b8-49d7-b6f8-8f2f3a0eec38
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -102,7 +103,7 @@ translation.priority.ht:
   
  `$([System.IO.Path]::Combine($(RootPath),%(Compile.Identity)))`  
   
- uses <xref:System.IO.Path.Combine*> to combine a root folder path with a Compile item path.  
+ uses <xref:System.IO.Path.Combine%2A> to combine a root folder path with a Compile item path.  
   
  Property functions may not appear within metadata values.  For example,  
   

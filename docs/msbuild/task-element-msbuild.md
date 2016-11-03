@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "<Task> element [MSBuild]"
 ms.assetid: d82e2485-e5f0-4936-a357-745bacccc299
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

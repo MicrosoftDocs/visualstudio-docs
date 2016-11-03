@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.addexistingproject"
 ms.assetid: 4b6db52f-4352-4313-8f4f-50a451fd12f7
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

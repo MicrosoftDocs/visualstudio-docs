@@ -1,7 +1,7 @@
 ---
 title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Visual Studio, regular expressions"
 ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
 caps.latest.revision: 53
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

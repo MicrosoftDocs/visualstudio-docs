@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Reflection.ReflectionTypeLoadException
-The exception that is thrown by the <xref:System.Reflection.Module.GetTypes*> method if any of the classes in a module cannot be loaded.  
+The exception that is thrown by the <xref:System.Reflection.Module.GetTypes%2A> method if any of the classes in a module cannot be loaded.  
   
 ## See Also  
  <xref:System.Reflection.ReflectionTypeLoadException>   

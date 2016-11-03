@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, multiple processor systems"
 ms.assetid: 49fa36c9-8e14-44f5-8a2b-34146cf6807b
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ MSBuild can take advantage of systems that have multiple processors, or multiple
  Cycle detection functions the same as it did in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, except that now [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can report the detection of the cycle at a different time or in the build.  
   
 ## Errors and Exceptions During Parallel Builds  
- In parallel builds, errors and exceptions can occur at different times than they do in a non-parallel build, and when one project does not build, the other project builds continue. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will not stop any project build that is building in parallel with the one that failed. Other projects continue to build until they either succeed or fail. However, if <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError*> has been enabled, then no builds will stop even if an error occurs.  
+ In parallel builds, errors and exceptions can occur at different times than they do in a non-parallel build, and when one project does not build, the other project builds continue. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will not stop any project build that is building in parallel with the one that failed. Other projects continue to build until they either succeed or fail. However, if <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError%2A> has been enabled, then no builds will stop even if an error occurs.  
   
 ## Visual C++ Project (.vcproj) and Solution (.sln) Files  
  Both [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects (.vcproj) and solution (.sln) files can be passed to the [MSBuild Task](../msbuild/msbuild-task.md). For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, VCWrapperProject is called, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project is created. For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] solutions, a SolutionWrapperProject is created, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project is created. In both cases, the resulting project is treated the same as any other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project.  

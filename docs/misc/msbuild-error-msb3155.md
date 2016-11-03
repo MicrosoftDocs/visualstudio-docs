@@ -36,7 +36,7 @@ translation.priority.ht:
 # MSBuild Error MSB3155
 **MSBuild Error MSB3155: Item '\<package>' could not be located in '\<path>'**  
   
- This warning occurs when a package with the specified <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode*> cannot be found in the bootstrapper cache.  
+ This warning occurs when a package with the specified <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode%2A> cannot be found in the bootstrapper cache.  
   
 > [!NOTE]
 >  Microsoft Data Access Components (MDAC) are no longer included as a bootstrapper package. They can be downloaded from the [Microsoft Windows Update](http://go.microsoft.com/fwlink/?LinkId=86676) Web site.  

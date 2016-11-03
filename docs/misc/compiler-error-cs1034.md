@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1034"
 ms.assetid: 07edf234-92c6-42de-a140-8e9964fcfe71
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

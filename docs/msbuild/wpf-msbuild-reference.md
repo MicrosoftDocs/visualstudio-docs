@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild [WPF]"
 ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

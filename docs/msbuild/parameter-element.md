@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "<Parameter> element [MSBuild]"
 ms.assetid: b273afff-b500-4e97-8cfd-31f39fa64a51
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

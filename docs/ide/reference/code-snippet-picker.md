@@ -1,7 +1,7 @@
 ---
 title: "Code Snippet Picker | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 ms.assetid: f0862d48-fbbc-4cfe-b228-24492d5c89c4
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,6 +67,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code Editor pro
   
 ## See Also  
  [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/visual-basic-intellisense-code-snippets)   
+ [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

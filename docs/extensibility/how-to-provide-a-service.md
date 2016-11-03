@@ -38,7 +38,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
  For more information about services, see [Service Essentials](../extensibility/internals/service-essentials.md) .  
   
 > [!NOTE]
->  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method to revoke a service when unloading.  
+>  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> method to revoke a service when unloading.  
   
 #### Implementing a service  
   
@@ -106,7 +106,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 ### Adding a Service  
   
-1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method:  
+1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
   
     ```c#  
     protected override void Initialize()  

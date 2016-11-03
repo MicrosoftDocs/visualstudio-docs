@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "class diagrams, printing"
 ms.assetid: 62c87425-3446-41fb-943c-1f86397883c8
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

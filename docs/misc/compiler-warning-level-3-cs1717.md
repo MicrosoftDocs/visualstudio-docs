@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1717"
 ms.assetid: 5b150a2c-5d61-4cd8-b4d4-e6c2b93b52c6
 caps.latest.revision: 14
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

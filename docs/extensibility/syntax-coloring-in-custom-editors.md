@@ -40,7 +40,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
   
 2.  Obtain an interface to a particular language service by querying the VSPackage's service provider using the languages service's identifying GUID.  
   
-3.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer.SetLanguageServiceID*> method of the object implementing <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>. This method associates the language service with the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> implementation that the VSPackage uses to manage the text that is to be colorized.  
+3.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer.SetLanguageServiceID%2A> method of the object implementing <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>. This method associates the language service with the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> implementation that the VSPackage uses to manage the text that is to be colorized.  
   
 ## Core Editor Usage of a Language Service's Colorizer  
  When a language service with a colorizer is obtained by an instance of the core editor, the parsing and rendering of text by a language service's colorizer occurs automatically without requiring any further intervention on your part.  
@@ -56,13 +56,13 @@ Visual Studio Environment SDK editors, including the core editor, use language s
   
  To do this requires a non-core editor to:  
   
-1.  Obtain a language service's colorizer object (which implements `T:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer` and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer2>). Your VSPackage does this by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer*> method on the language service's interface.  
+1.  Obtain a language service's colorizer object (which implements `T:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer` and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer2>). Your VSPackage does this by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method on the language service's interface.  
   
-2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> method to request that a particular span of text be colorized.  
+2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method to request that a particular span of text be colorized.  
   
-     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> method returns an array of values, one for each letter in the text span being colorized. It also identifies the text span as a particular type of colorable item, such as a comment, keyword, or data type.  
+     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method returns an array of values, one for each letter in the text span being colorized. It also identifies the text span as a particular type of colorable item, such as a comment, keyword, or data type.  
   
-3.  Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> to repaint and display its text.  
+3.  Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> to repaint and display its text.  
   
 > [!NOTE]
 >  In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  

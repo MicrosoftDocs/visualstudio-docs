@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Select Condition dialog box"
 ms.assetid: fe3b415c-cb55-4295-b853-3f40765b28d0
 caps.latest.revision: 5
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

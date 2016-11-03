@@ -1,7 +1,7 @@
 ---
 title: "How VSPackages Add User Interface Elements | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -302,7 +302,7 @@ priority="0x0100" type="Menu">
   
 -   [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers many UI elements that appear differently depending on placement.  
   
--   A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus*> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
+-   A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
   
 -   Even a successfully positioned command may not be displayed. This is because the IDE automatically hides or displays some commands, depending on interfaces that the VSPackage has (or has not) implemented. For example, a VSPackage's implementation of some build interfaces causes build-related menu items to be automatically shown.  
   

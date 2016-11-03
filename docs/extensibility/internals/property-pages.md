@@ -1,7 +1,7 @@
 ---
 title: "Property Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -82,7 +82,7 @@ Property Pages dialog box with properties grid
   
      You can specify a project or projects from the solution's property page that will be started when the user presses F5 or selects Run from the Build menu. This works in a manner similar to the old active project in the sense that its name is displayed in Solution Explorer with bold font.  
   
-     You can retrieve the startup project as a property in the automation model by calling `DTE.Solution.SolutionBuild.StartupProjects`. In a VSPackage, you call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> methods. `IVsSolutionBuildManager` is available as a service by `QueryService` on SID_SVsSolutionBuildManager. For more information, see [Project Configuration Object](../../extensibility/internals/project-configuration-object.md) and [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
+     You can retrieve the startup project as a property in the automation model by calling `DTE.Solution.SolutionBuild.StartupProjects`. In a VSPackage, you call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject%2A> or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject%2A> methods. `IVsSolutionBuildManager` is available as a service by `QueryService` on SID_SVsSolutionBuildManager. For more information, see [Project Configuration Object](../../extensibility/internals/project-configuration-object.md) and [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
   
 -   Active solution build configuration  
   
@@ -90,7 +90,7 @@ Property Pages dialog box with properties grid
   
 -   Project currently selected  
   
-     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] documents.  
+     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection%2A> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] documents.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>   

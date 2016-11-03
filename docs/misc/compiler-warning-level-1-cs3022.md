@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3022"
 ms.assetid: 9340645c-10c3-4e21-a825-3f05fae02ff7
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

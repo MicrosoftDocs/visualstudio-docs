@@ -1,7 +1,7 @@
 ---
 title: "Custom Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ translation.priority.mt:
  <xref:EnvDTE.ProjectItem>  
  Explains the `ProjectItem` interface, which represents an item in a project.  
   
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.DefaultExtension*>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.DefaultExtension%2A>  
  Provides details about the `DefaultExtension` method, which retrieves the file name extension that is given to the output file name.  
   
 ## Related Sections  

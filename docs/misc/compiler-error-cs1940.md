@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1940"
 ms.assetid: 546e9bba-725d-4ea9-826f-37ec9d832add
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, formatting item collections"
 ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

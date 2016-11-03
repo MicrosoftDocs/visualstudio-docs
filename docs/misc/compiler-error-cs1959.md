@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1959"
 ms.assetid: 20a31619-3e30-446a-becc-a7f8cfcec66d
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

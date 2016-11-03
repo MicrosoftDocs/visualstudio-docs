@@ -42,7 +42,7 @@ A <xref:System.Net.Sockets.SocketException> exception is thrown by the <xref:Sys
   
 ## Associated Tips  
  **Check the Errorcode property to determine why the socket error occurred.**  
- The default constructor for the <xref:System.Net.Sockets.SocketException> class sets the <xref:System.Net.Sockets.SocketException.ErrorCode*> property to the last operating-system socket error that occurred.  
+ The default constructor for the <xref:System.Net.Sockets.SocketException> class sets the <xref:System.Net.Sockets.SocketException.ErrorCode%2A> property to the last operating-system socket error that occurred.  
   
 ## See Also  
  <xref:System.Net.Sockets.SocketException>   

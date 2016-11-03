@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
 ms.assetid: a0b8fcec-8c8d-4867-85ac-5304c5108e5e
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

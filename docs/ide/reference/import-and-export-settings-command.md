@@ -1,7 +1,7 @@
 ---
 title: "Import and Export Settings Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Import and Export Settings command"
 ms.assetid: 94a06468-a44d-403d-a931-77bbc9d06e56
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

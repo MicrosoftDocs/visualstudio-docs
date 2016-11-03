@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2016"
 ms.assetid: 69f77502-f726-4856-ac87-e556eeb67349
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

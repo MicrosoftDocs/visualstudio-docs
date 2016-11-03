@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2017"
 ms.assetid: 16fd0c3b-018f-4734-809d-8d98d05a254c
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

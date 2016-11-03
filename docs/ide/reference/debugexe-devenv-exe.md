@@ -1,7 +1,7 @@
 ---
 title: "-DebugExe (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "/DebugExe [devenv.exe]"
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

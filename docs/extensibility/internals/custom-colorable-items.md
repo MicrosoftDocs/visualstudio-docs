@@ -1,7 +1,7 @@
 ---
 title: "Custom Colorable Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,9 +59,9 @@ You can override the list of types for colorizing, such as keywords and comments
   
      For example, the values representing the token types could be the same values in the custom colorable items enumeration.  
   
-4.  In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> method in your <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> object, fill the attributes list with the values from your custom colorable items enumeration corresponding to the token types returned from the parser or scanner.  
+4.  In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method in your <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> object, fill the attributes list with the values from your custom colorable items enumeration corresponding to the token types returned from the parser or scanner.  
   
-5.  In the same class that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> interface and its two methods, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount*> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem*>.  
+5.  In the same class that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> interface and its two methods, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount%2A> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A>.  
   
 6.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> interface.  
   
@@ -71,9 +71,9 @@ You can override the list of types for colorizing, such as keywords and comments
   
      You can access each item in the list by using the corresponding value from the custom colorable items enumeration. Use the enumeration values as an index into the list. The first item in the list is never accessed, because it corresponds to the default text style that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] always handles itself. You can compensate for this by inserting a placeholder colorable item at the beginning of your list.  
   
-9. In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount*> method, return the number of items in your custom colorable items list.  
+9. In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount%2A> method, return the number of items in your custom colorable items list.  
   
-10. In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem*> method, return the requested colorable item from your list.  
+10. In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A> method, return the requested colorable item from your list.  
   
  For an example of how to implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem> interfaces, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem>.  
   

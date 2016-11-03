@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0698"
 ms.assetid: 68211652-fdfa-4d37-9451-f0b4238f9fe6
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSBuild, creating tasks"
 ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 caps.latest.revision: 19
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

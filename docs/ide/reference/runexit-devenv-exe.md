@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "/runexit Devenv switch"
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

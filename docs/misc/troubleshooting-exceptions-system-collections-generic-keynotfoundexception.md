@@ -40,7 +40,7 @@ A <xref:System.Collections.Generic.KeyNotFoundException> is thrown when an attem
  This exception occurs when an operation attempts to retrieve an element in a collection using a key that does not exist in that collection.  
   
 ### Remarks  
- The <xref:System.Collections.Generic.Dictionary`2.ContainsKey*> method can be used to determine whether a key exists.  
+ The <xref:System.Collections.Generic.Dictionary%602.ContainsKey%2A> method can be used to determine whether a key exists.  
   
 ## See Also  
  <xref:System.Collections.Generic>   

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0273"
 ms.assetid: 851ad056-feee-48fd-834c-578a1a13e926
 caps.latest.revision: 13
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

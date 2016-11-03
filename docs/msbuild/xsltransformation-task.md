@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "XslTransformation task [MSBuild]"
 ms.assetid: 6f3a7d81-3ae3-4703-9a06-870b32b69d80
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

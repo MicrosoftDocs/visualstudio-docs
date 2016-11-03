@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 624e96d4-6d27-4195-8ac2-2f3835f6c57e
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +38,7 @@ This topic contains and describes the XAML source file for the [WPF Data Binding
   
  The client area is contained within a <xref:System.Windows.Controls.StackPanel> that is given a light blue background. This panel contains four <xref:System.Windows.Controls.DockPanel> UI sections separated by <xref:System.Windows.Controls.Separator> bars. The purpose of these sections is described in the **Remarks** in the [previous topic](../designers/walkthrough-linqtoxmldatabinding-example.md).  
   
- Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform*>. The remainder of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.  
+ Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform%2A>. The remainder of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.  
   
 ## Window Resource Section  
  The opening `<Window.Resources>` tag on line 9 indicates the start of the window resource section. It ends with the closing tag on line 35.  
@@ -53,7 +54,7 @@ Text="{Binding Path=Attribute[id].Value}"Text="{Binding Path=Value}"
 ## Data Binding Code  
  In addition to the <xref:System.Windows.DataTemplate> element, data binding is used in a number of other places in this file.  
   
- In the opening `<StackPanel>` tag on line 38, the <xref:System.Windows.FrameworkElement.DataContext*> property of this panel is set to the `LoadedBooks` data provider.  
+ In the opening `<StackPanel>` tag on line 38, the <xref:System.Windows.FrameworkElement.DataContext%2A> property of this panel is set to the `LoadedBooks` data provider.  
   
 ```  
 DataContext="{Binding Source={StaticResource LoadedBooks}}  
@@ -79,7 +80,7 @@ ItemTemplate ="{StaticResource BookTemplate}"
 </ListBox.ItemsSource>  
 ```  
   
- The third UI section, **Edit Selected Book**, first binds the <xref:System.Windows.FrameworkElement.DataContext*> of the parent <xref:System.Windows.Controls.StackPanel> to the currently selected item in from the **Book List** UI section (line 82):  
+ The third UI section, **Edit Selected Book**, first binds the <xref:System.Windows.FrameworkElement.DataContext%2A> of the parent <xref:System.Windows.Controls.StackPanel> to the currently selected item in from the **Book List** UI section (line 82):  
   
 ```  
 DataContext="{Binding ElementName=lbBooks, Path=SelectedItem}"  

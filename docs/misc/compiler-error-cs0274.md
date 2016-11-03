@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0274"
 ms.assetid: bbd2d64e-a756-4713-b9ed-711d50b65e00
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

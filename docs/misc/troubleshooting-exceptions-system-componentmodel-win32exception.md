@@ -37,7 +37,7 @@ translation.priority.mt:
 The exception that is thrown for a Win32 error code.  
   
 ## Remarks  
- Win32 error codes are translated from their numeric representations into a system message when they are displayed. Use the <xref:System.ComponentModel.Win32Exception.NativeErrorCode*> property to access the numeric representation of the error code.  
+ Win32 error codes are translated from their numeric representations into a system message when they are displayed. Use the <xref:System.ComponentModel.Win32Exception.NativeErrorCode%2A> property to access the numeric representation of the error code.  
   
 ## See Also  
  <xref:System.ComponentModel.Win32Exception>   

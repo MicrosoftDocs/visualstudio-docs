@@ -99,7 +99,7 @@ translation.priority.mt:
 ### Equals Methods  
  The following **Equals** methods should not throw exceptions:  
   
--   <xref:System.Object.Equals*?displayProperty=fullName>  
+-   <xref:System.Object.Equals%2A?displayProperty=fullName>  
   
 -   [M:IEquatable.Equals](http://go.microsoft.com/fwlink/?LinkId=113472)  
   
@@ -108,7 +108,7 @@ translation.priority.mt:
 ### GetHashCode Methods  
  The following **GetHashCode** methods should usually not throw exceptions:  
   
--   <xref:System.Object.GetHashCode*>  
+-   <xref:System.Object.GetHashCode%2A>  
   
 -   [M:IEqualityComparer.GetHashCode(T)](http://go.microsoft.com/fwlink/?LinkId=113477)  
   
@@ -117,7 +117,7 @@ translation.priority.mt:
  The versions of **GetHashCode** that take an argument can throw an <xref:System.ArgumentException>. However, **Object.GetHashCode** should never throw an exception.  
   
 ### ToString Methods  
- The debugger uses <xref:System.Object.ToString*?displayProperty=fullName> to help display information about objects in string format. Therefore, **ToString** should not change the state of an object and it should not throw exceptions.  
+ The debugger uses <xref:System.Object.ToString%2A?displayProperty=fullName> to help display information about objects in string format. Therefore, **ToString** should not change the state of an object and it should not throw exceptions.  
   
 ### Static Constructors  
  Throwing exceptions from a static constructor causes the type to be unusable in the current application domain. You should have a very good reason (such as a security issue) for throwing an exception from a static constructor.  
@@ -126,7 +126,7 @@ translation.priority.mt:
  Throwing an exception from a finalizer causes the CLR to fail fast, which tears down the process. Therefore, throwing exceptions in a finalizer should always be avoided.  
   
 ### Dispose Methods  
- A <xref:System.IDisposable.Dispose*?displayProperty=fullName> method should not throw an exception. Dispose is often called as part of the clean up logic in a `finally` clause. Therefore, explicitly throwing an exception from Dispose forces the user to add exception handling inside the `finally` clause.  
+ A <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> method should not throw an exception. Dispose is often called as part of the clean up logic in a `finally` clause. Therefore, explicitly throwing an exception from Dispose forces the user to add exception handling inside the `finally` clause.  
   
  The **Dispose(false)** code path should never throw exceptions, because this is almost always called from a finalizer.  
   

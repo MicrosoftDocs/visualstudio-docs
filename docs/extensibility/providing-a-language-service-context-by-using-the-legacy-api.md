@@ -1,7 +1,7 @@
 ---
 title: "Providing a Language Service Context by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ There are two options for a language service to provide user context using the [
 ## Provide All User Context to the Editor  
  If you are creating a language service and are using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor, then you can implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface to provide context for your language service.  
   
- For the implementation of `IVsLanguageContextProvider`, a context bag (collection) is attached to the editor, which is responsible for updating the context bag. When the **Dynamic Help** window calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.Update*> interface on this context bag at idle time, the context bag queries the editor for an update. The editor then notifies the language service that it should update the editor, and passes a pointer to the context bag. This is done by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider.UpdateLanguageContext*> method from the editor to the language service. Using the pointer to the context bag, the language service can now add and remove attributes and keywords. For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider>.  
+ For the implementation of `IVsLanguageContextProvider`, a context bag (collection) is attached to the editor, which is responsible for updating the context bag. When the **Dynamic Help** window calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.Update%2A> interface on this context bag at idle time, the context bag queries the editor for an update. The editor then notifies the language service that it should update the editor, and passes a pointer to the context bag. This is done by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider.UpdateLanguageContext%2A> method from the editor to the language service. Using the pointer to the context bag, the language service can now add and remove attributes and keywords. For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider>.  
   
  There are two different ways to implement `IVsLanguageContextProvider`:  
   

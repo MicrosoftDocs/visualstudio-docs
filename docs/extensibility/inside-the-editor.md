@@ -95,7 +95,7 @@ The editor is composed of a number of different subsystems, which are designed t
   
  The <xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService> is used to create an empty text buffer, or a text buffer that is initialized from a string or from <xref:System.IO.TextReader>. The text buffer can be persisted to the file system as an <xref:Microsoft.VisualStudio.Text.ITextDocument>.  
   
- The text buffer can be edited by any thread until a thread takes ownership of the text buffer by calling <xref:Microsoft.VisualStudio.Text.ITextBuffer.TakeThreadOwnership*>. After that, only that thread can perform edits.  
+ The text buffer can be edited by any thread until a thread takes ownership of the text buffer by calling <xref:Microsoft.VisualStudio.Text.ITextBuffer.TakeThreadOwnership%2A>. After that, only that thread can perform edits.  
   
  A text buffer can go through many versions during its lifetime. A new version is generated every time the buffer is edited, and an immutable <xref:Microsoft.VisualStudio.Text.ITextSnapshot> represents the contents of that version of the buffer. Because text snapshots are immutable, you can access a text snapshot on any thread, without restrictions, even if the text buffer it represents continues to change.  
   
@@ -166,7 +166,7 @@ abXefYj
 #### Text Views  
  The <xref:Microsoft.VisualStudio.Text.Editor.ITextView> interface is a platform-independent representation of a text view. It is used primarily to display text documents in a window, but it can also be used for other purposes, for example, in a tooltip.  
   
- The text view references different kinds of text buffers. The <xref:Microsoft.VisualStudio.Text.Editor.ITextView.TextViewModel*> property refers to an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewModel> object that points to these three different text buffers: the data buffer, which is the top data-level buffer, the edit buffer, in which editing occurs, and the visual buffer, which is the buffer that is displayed in the text view.  
+ The text view references different kinds of text buffers. The <xref:Microsoft.VisualStudio.Text.Editor.ITextView.TextViewModel%2A> property refers to an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewModel> object that points to these three different text buffers: the data buffer, which is the top data-level buffer, the edit buffer, in which editing occurs, and the visual buffer, which is the buffer that is displayed in the text view.  
   
  The text is formatted based on the classifiers that are attached to the underlying text buffer, and is adorned by using the adornment providers that are attached to the text view itself.  
   

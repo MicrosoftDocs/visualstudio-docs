@@ -1,7 +1,7 @@
 ---
 title: "Creating Options Pages By Using Automation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/29/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,9 +44,9 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../code-qu
 ## Automation Support for Tools Options Pages Implemented with the Interop Assemblies  
  To support the automation model, a VSPackage must create and register an automation object. See [Providing Automation for VSPackages](../extensibility/internals/providing-automation-for-vspackages.md) for more information.  
   
- When code that uses the automation model calls `DTE.Properties` for the properties collection of a given **Tools Options** page, the IDE uses the automation object provided by the VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> to return the collection and allow access to its constituent <xref:EnvDTE.Property> objects.  
+ When code that uses the automation model calls `DTE.Properties` for the properties collection of a given **Tools Options** page, the IDE uses the automation object provided by the VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> to return the collection and allow access to its constituent <xref:EnvDTE.Property> objects.  
   
- **Note** The automation object returned by <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> depends on the GUID supplied (as a VSPackage can support more than one automation object). For more information on implementing automation objects, see [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md).  
+ **Note** The automation object returned by <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> depends on the GUID supplied (as a VSPackage can support more than one automation object). For more information on implementing automation objects, see [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md).  
   
  A **Tools Options** page is specified by two identifiers. The first identifier is a string that indicates the folder containing the item on the **Options** section of the **Tools** menu. The second identifier is a string that indicates the specific item in the folder. For more information, see [Using Options Pages](../misc/using-options-pages.md).  
   
@@ -81,7 +81,7 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../code-qu
  The properties of the **Fonts and Colors** dialog box is an example of a **Tools Options** page that cannot be modified through the automation model. Instead, a separate API is provided, based on the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface to allow programmatic manipulation of the **Fonts and ColorsTools Options** page. For more information on controlling the **Fonts and ColorsTools Options** page, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
 ## Automation Support for Tools Options Pages Within the Managed Package Framework  
- Set the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsAutomation*> property of an implementation's registering <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> instance to indicate that a Managed Package Framework-base implementation of a **Tools Options** page supports automation.  
+ Set the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsAutomation%2A> property of an implementation's registering <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> instance to indicate that a Managed Package Framework-base implementation of a **Tools Options** page supports automation.  
   
  **Tools Options** pages derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> are supplied with a default automation object, which can be overridden.  
   

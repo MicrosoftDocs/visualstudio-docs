@@ -1,7 +1,7 @@
 ---
 title: "Legacy Language Service Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ You must provide a language service to integrate a programming language into Vis
 |Statement completion|Completes a statement or keyword that the user has started typing. Statement completion helps users enter difficult statements more easily, with less typing and fewer chances for error.<br /><br /> For general information, see [Statement Completion in a Legacy Language Service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md).<br /><br /> For information about this feature in the MPF, see [Word Completion in a Legacy Language Service](../../extensibility/internals/word-completion-in-a-legacy-language-service.md).|  
 |Brace matching|Highlights paired characters such as braces. When the user types a closing character such as "}", brace matching highlights the corresponding opening character, such as "{". When there are several levels of enclosing characters, this feature helps users confirm that the enclosing characters are paired correctly.<br /><br /> For information about this feature in the MPF, see [Brace Matching in a Legacy Language Service](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md).|  
 |Parameter information tooltips|Displays a list of possible signatures for the overloaded method that the user is currently typing.<br /><br /> For general information, see [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md).<br /><br /> For information about this feature in the MPF, see [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service2.md).|  
-|Error markers|Displays a wavy red underline, also known as a squiggly, under text that is syntactically incorrect. Error markers usually are used to make users aware of misspelled keywords, unclosed parentheses, invalid characters, and similar errors.<br /><br /> In the MPF classes, error markers are handled automatically in the <xref:Microsoft.VisualStudio.Package.AuthoringSink.AddError*> method of the <xref:Microsoft.VisualStudio.Package.AuthoringSink> class.|  
+|Error markers|Displays a wavy red underline, also known as a squiggly, under text that is syntactically incorrect. Error markers usually are used to make users aware of misspelled keywords, unclosed parentheses, invalid characters, and similar errors.<br /><br /> In the MPF classes, error markers are handled automatically in the <xref:Microsoft.VisualStudio.Package.AuthoringSink.AddError%2A> method of the <xref:Microsoft.VisualStudio.Package.AuthoringSink> class.|  
   
  Many of these features require the language service to parse source code. You often can reuse the tokenizing and parsing code for your compiler or interpreter.  
   

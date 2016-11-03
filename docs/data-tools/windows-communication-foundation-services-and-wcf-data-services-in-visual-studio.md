@@ -1,7 +1,7 @@
 ---
 title: "Windows Communication Foundation Services and WCF Data Services in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

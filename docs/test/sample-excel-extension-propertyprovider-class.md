@@ -1,7 +1,7 @@
 ---
 title: "Sample Excel Extension: PropertyProvider Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> class and provides property services for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] elements to record and play back user interface (UI) tests.  
   
 ## GetControlSupportLevel Method  
- The <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel*> method returns a number that indicates the level of support that the property provider can offer for the provided control. The higher the returned value, the more the property provider can support the control. In this case, the method checks the value of the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IUITechnologyElement.TechnologyName*> property of the provided control. If the value is "Excel" and if the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IUITechnologyElement.ControlTypeName*> indicates it is a `CellElement`, the method returns the highest value; otherwise, it returns zero, which indicates that no support is provided.  
+ The <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel%2A> method returns a number that indicates the level of support that the property provider can offer for the provided control. The higher the returned value, the more the property provider can support the control. In this case, the method checks the value of the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IUITechnologyElement.TechnologyName%2A> property of the provided control. If the value is "Excel" and if the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IUITechnologyElement.ControlTypeName%2A> indicates it is a `CellElement`, the method returns the highest value; otherwise, it returns zero, which indicates that no support is provided.  
   
 ## GetPropertyNames Method  
  Returns a dictionary of property names and property descriptors for the supported properties of an Excel Cell control.  

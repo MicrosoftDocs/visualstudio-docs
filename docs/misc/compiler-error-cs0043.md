@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0043"
 ms.assetid: 471e2cf8-4275-4618-ad20-408f829d2119
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

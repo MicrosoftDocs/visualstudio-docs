@@ -113,7 +113,7 @@ To execute an SQL statement that returns no value, you can run a TableAdapter qu
   
 #### To execute an SQL statement that returns no value using a DataCommand  
   
--   Add the following code to a method that you want to execute the SQL statement from. Call the `ExecuteNonQuery` method of a command to return no value (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*?displayProperty=fullName>).  
+-   Add the following code to a method that you want to execute the SQL statement from. Call the `ExecuteNonQuery` method of a command to return no value (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery%2A?displayProperty=fullName>).  
   
      [!code-cs[VbRaddataFillingAndExecuting#12](../data-tools/codesnippet/CSharp/how-to-create-and-execute-an-sql-statement-that-returns-no-value_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#12](../data-tools/codesnippet/VisualBasic/how-to-create-and-execute-an-sql-statement-that-returns-no-value_2.vb)]  
@@ -122,10 +122,10 @@ To execute an SQL statement that returns no value, you can run a TableAdapter qu
  The application requires permission to access the database and execute the SQL statement.  
   
 ## See Also  
- <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*?displayProperty=fullName>   
- <xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery*?displayProperty=fullName>   
- <xref:System.Data.Odbc.OdbcCommand.ExecuteNonQuery*?displayProperty=fullName>   
- <xref:System.Data.OracleClient.OracleCommand.ExecuteNonQuery*?displayProperty=fullName>   
+ <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery%2A?displayProperty=fullName>   
+ <xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery%2A?displayProperty=fullName>   
+ <xref:System.Data.Odbc.OdbcCommand.ExecuteNonQuery%2A?displayProperty=fullName>   
+ <xref:System.Data.OracleClient.OracleCommand.ExecuteNonQuery%2A?displayProperty=fullName>   
  [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md)   
  [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md)   

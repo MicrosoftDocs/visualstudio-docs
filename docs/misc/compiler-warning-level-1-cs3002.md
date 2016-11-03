@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3002"
 ms.assetid: 34f19735-76d2-4d78-bd52-45989a86fca4
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

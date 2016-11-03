@@ -8,6 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

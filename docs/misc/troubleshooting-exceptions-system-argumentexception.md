@@ -81,7 +81,7 @@ End Module
   
  All instances of the `ArgumentException` class should include information that specifies which argument is not valid, and what the range of acceptable values is. If a more precise exception, such as <xref:System.ArgumentNullException> or <xref:System.ArgumentOutOfRangeException>, accurately describes the situation, it should be used instead of `ArgumentException`.  
   
- For more information about this exception, including examples in other languages, see <xref:System.ArgumentException>. For a list of additional constructors, see <xref:System.ArgumentException.#ctor*>.  
+ For more information about this exception, including examples in other languages, see <xref:System.ArgumentException>. For a list of additional constructors, see <xref:System.ArgumentException.%23ctor%2A>.  
   
 ## See Also  
  <xref:System.ArgumentException>   

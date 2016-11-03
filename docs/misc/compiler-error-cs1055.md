@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1055"
 ms.assetid: a93cb577-95fc-490a-97c4-2f366409f2c3
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

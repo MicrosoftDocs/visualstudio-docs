@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1039"
 ms.assetid: 266e9f7f-fe17-445a-aefd-6b7795167d68
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

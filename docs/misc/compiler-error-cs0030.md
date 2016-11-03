@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0030"
 ms.assetid: 3c9bd3f9-dea2-46dd-be1e-46c843ffd3de
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

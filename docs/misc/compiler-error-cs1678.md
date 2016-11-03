@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1678"
 ms.assetid: 2be8aa17-81e2-47b0-b239-e41e0c5c0d97
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

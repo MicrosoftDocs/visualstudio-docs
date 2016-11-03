@@ -64,8 +64,8 @@ translation.priority.mt:
 |<xref:System.Collections.IEnumerable?displayProperty=fullName>|Collection|  
 |<xref:System.Collections.Queue?displayProperty=fullName>|Collection or Queue|  
 |<xref:System.Collections.Stack?displayProperty=fullName>|Collection or Stack|  
-|<xref:System.Collections.Generic.ICollection`1?displayProperty=fullName>|Collection|  
-|<xref:System.Collections.Generic.IDictionary`2?displayProperty=fullName>|Dictionary|  
+|<xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>|Collection|  
+|<xref:System.Collections.Generic.IDictionary%602?displayProperty=fullName>|Dictionary|  
 |<xref:System.Data.DataSet?displayProperty=fullName>|DataSet|  
 |<xref:System.Data.DataTable?displayProperty=fullName>|Collection or DataTable|  
 |<xref:System.IO.Stream?displayProperty=fullName>|Stream|  

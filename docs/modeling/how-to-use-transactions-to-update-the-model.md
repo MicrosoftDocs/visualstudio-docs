@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Transactions to Update the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ catch (Exception ex)
   
  If an exception that prevents the final `Commit()` occurs during the changes, the Store will be reset to its previous state. This helps you make sure that errors do not leave the model in an inconsistent state.  
   
- You can make any number of changes inside one transaction. You can open new transactions inside an active transaction. The nested transactions must commit or roll back before the containing transaction ends. For more information, see the example for the <xref:Microsoft.VisualStudio.Modeling.Transaction.TransactionDepth*> property.  
+ You can make any number of changes inside one transaction. You can open new transactions inside an active transaction. The nested transactions must commit or roll back before the containing transaction ends. For more information, see the example for the <xref:Microsoft.VisualStudio.Modeling.Transaction.TransactionDepth%2A> property.  
   
  To make your changes permanent, you should `Commit` the transaction before it is disposed. If an exception occurs that is not caught inside the transaction, the Store will be reset to its state before the changes.  
   

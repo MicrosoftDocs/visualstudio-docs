@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0820"
 ms.assetid: 38c05162-ef20-42a8-9611-02698360dec5
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

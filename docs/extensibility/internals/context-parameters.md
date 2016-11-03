@@ -1,7 +1,7 @@
 ---
 title: "Context Parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Context Parameters
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), you can add wizards to the **New Project**, **Add New Item**, or **Add Sub Project** dialog boxes. The added wizards are available on the **File** menu or by right-clicking a project in **Solution Explorer**. The IDE passes context parameters to the implementation of the wizard. The context parameters define the state of the project when the IDE calls the wizard.  
   
- The IDE starts wizards by setting the <xref:Microsoft.VisualStudio.Shell.Interop.VSADDITEMOPERATION> flag in the IDE's call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.AddItem*> method for the project. When set, the project must cause the `IVsExtensibility::RunWizardFile` method to be executed by using the registered wizard name or GUID and other context parameters that the IDE passes to it.  
+ The IDE starts wizards by setting the <xref:Microsoft.VisualStudio.Shell.Interop.VSADDITEMOPERATION> flag in the IDE's call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.AddItem%2A> method for the project. When set, the project must cause the `IVsExtensibility::RunWizardFile` method to be executed by using the registered wizard name or GUID and other context parameters that the IDE passes to it.  
   
 ## Context Parameters for New Project  
   
@@ -45,7 +45,7 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 |`LocalDirectory`|Local location of working project files.|  
 |`InstallationDirectory`|Directory path of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is installation.|  
 |`FExclusive`|Boolean flag which indicates that the project should close open solutions.|  
-|`SolutionName`|Name of the solution file without the directory portion or the .sln extension. The .suo file name is also created by using `SolutionName`. When this argument is not an empty string, the wizard uses <xref:EnvDTE._Solution.Create*> before adding the project with <xref:EnvDTE._Solution.AddFromTemplate*>. If this name is an empty string, use <xref:EnvDTE._Solution.AddFromTemplate*> without calling <xref:EnvDTE._Solution.Create*>.|  
+|`SolutionName`|Name of the solution file without the directory portion or the .sln extension. The .suo file name is also created by using `SolutionName`. When this argument is not an empty string, the wizard uses <xref:EnvDTE._Solution.Create%2A> before adding the project with <xref:EnvDTE._Solution.AddFromTemplate%2A>. If this name is an empty string, use <xref:EnvDTE._Solution.AddFromTemplate%2A> without calling <xref:EnvDTE._Solution.Create%2A>.|  
 |`Silent`|Boolean that indicates whether the wizard should run silently as if **Finish** were clicked (`TRUE`).|  
   
 ## Context Parameters for Add New Item  

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1953"
 ms.assetid: b8af5eed-0f3b-4258-b4e2-f5d184288239
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

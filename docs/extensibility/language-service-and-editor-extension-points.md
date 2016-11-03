@@ -265,7 +265,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 ```  
   
 ## Extending Tags  
- Tags are a way of associating data with different kinds of text. In many cases, the associated data is displayed as a visual effect, but not all tags have a visual presentation. You can define your own kind of tag by implementing <xref:Microsoft.VisualStudio.Text.Tagging.ITag>. You must also implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1> to provide the tags for a given set of text spans, and an <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider> to provide the tagger. You must export the tagger provider together with the following attributes:  
+ Tags are a way of associating data with different kinds of text. In many cases, the associated data is displayed as a visual effect, but not all tags have a visual presentation. You can define your own kind of tag by implementing <xref:Microsoft.VisualStudio.Text.Tagging.ITag>. You must also implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> to provide the tags for a given set of text spans, and an <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider> to provide the tagger. You must export the tagger provider together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") for which your tag is valid.  
   
@@ -291,7 +291,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
   
 -   <xref:Microsoft.VisualStudio.Text.Editor.IntraTextAdornmentTag>: provides automatic spacing and sizing for the adornment.  
   
- To find and use tags for buffers and views, import the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService> or the <xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>, which give you an <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator`1> of the requested type. The following code imports this service as a property.  
+ To find and use tags for buffers and views, import the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService> or the <xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>, which give you an <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator%601> of the requested type. The following code imports this service as a property.  
   
 ```  
 [Import]  
@@ -305,7 +305,7 @@ internal IViewTagAggregatorFactoryService ViewTagAggregatorFactoryService { get;
   
 -   <xref:Microsoft.VisualStudio.Text.Classification.UserVisibleAttribute>: this causes the format to appear in the UI  
   
- In the constructor, you define the display name and appearance of the tag. <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.BackgroundColor*> defines the fill color, and <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.ForegroundColor*> defines the border color. The <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.DisplayName*> is the localizable name of the format definition.  
+ In the constructor, you define the display name and appearance of the tag. <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.BackgroundColor%2A> defines the fill color, and <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.ForegroundColor%2A> defines the border color. The <xref:Microsoft.VisualStudio.Text.Classification.EditorFormatDefinition.DisplayName%2A> is the localizable name of the format definition.  
   
  The following is an example of a format definition:  
   
@@ -349,7 +349,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
 internal AdornmentLayerDefinition testLayerDefinition;  
 ```  
   
- You must create a second class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> and handles its <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> event by instantiating the adornment. You must export this class together with the following attributes:  
+ You must create a second class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> and handles its <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> event by instantiating the adornment. You must export this class together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") for which the adornment is valid.  
   
@@ -479,11 +479,11 @@ internal class TestDropHandlerProvider : IDropHandlerProvider
   
  To add a new option, derive a class from one of these option definition classes:  
   
--   <xref:Microsoft.VisualStudio.Text.Editor.EditorOptionDefinition`1>  
+-   <xref:Microsoft.VisualStudio.Text.Editor.EditorOptionDefinition%601>  
   
--   <xref:Microsoft.VisualStudio.Text.Editor.ViewOptionDefinition`1>  
+-   <xref:Microsoft.VisualStudio.Text.Editor.ViewOptionDefinition%601>  
   
--   <xref:Microsoft.VisualStudio.Text.Editor.WpfViewOptionDefinition`1>  
+-   <xref:Microsoft.VisualStudio.Text.Editor.WpfViewOptionDefinition%601>  
   
  The following example shows how to export an option definition that has a Boolean value.  
   

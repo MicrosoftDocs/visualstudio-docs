@@ -1,7 +1,7 @@
 ---
 title: "Project Subtypes Design | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -82,18 +82,18 @@ Project Subtype Automation Extender.
 ## Multi-level Aggregation  
  A project subtype implementation that wraps a lower level project subtype needs to be programmed cooperatively to allow the inner project subtype to function properly. A list of programming responsibilities includes:  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the project subtype that is wrapping the inner subtype must delegate to the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the inner project subtype for both <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load*> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save*> methods.  
+-   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the project subtype that is wrapping the inner subtype must delegate to the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> implementation of the inner project subtype for both <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> methods.  
   
--   The <xref:EnvDTE80.IInternalExtenderProvider> implementation of the wrapper project subtype must delegate to that of its inner project subtype. In particular, the implementation of <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames*> needs to get the string of names from the inner project subtype and then concatenate the strings it wants to add as extenders.  
+-   The <xref:EnvDTE80.IInternalExtenderProvider> implementation of the wrapper project subtype must delegate to that of its inner project subtype. In particular, the implementation of <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames%2A> needs to get the string of names from the inner project subtype and then concatenate the strings it wants to add as extenders.  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> implementation of a wrapper project subtype must instantiate the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> object of its inner project subtype and hold it as a private delegate, since only the base project's project configuration object directly knows that the wrapper project subtype configuration object exists. The outer project subtype can initially choose configuration interfaces it wants to handle directly, and then delegate the rest to the inner project subtype's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType*>.  
+-   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> implementation of a wrapper project subtype must instantiate the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> object of its inner project subtype and hold it as a private delegate, since only the base project's project configuration object directly knows that the wrapper project subtype configuration object exists. The outer project subtype can initially choose configuration interfaces it wants to handle directly, and then delegate the rest to the inner project subtype's implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType%2A>.  
   
 ## Supporting Interfaces  
  The base project delegates calls to supporting interfaces added by a project subtype, to extend various aspects of its implementation. This includes extending project configuration objects and various property browser objects. These interfaces are retrieved by calling `QueryInterface` on `punkOuter` (a pointer to the `IUnknown`) of the outermost project subtype aggregator.  
   
 |Interface|Project Subtype|  
 |---------------|---------------------|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg>|Allows the project subtype to:<br /><br /> -   Provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg>.<br />-   Control the launch of the debugger by allowing the project subtype to provide its own implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg>.<br />-   Disable design-time expression evaluation by appropriately handling the `DBGLAUNCH_DesignTimeExprEval` case in its implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.QueryDebugLaunch*>.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg>|Allows the project subtype to:<br /><br /> -   Provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg>.<br />-   Control the launch of the debugger by allowing the project subtype to provide its own implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg>.<br />-   Disable design-time expression evaluation by appropriately handling the `DBGLAUNCH_DesignTimeExprEval` case in its implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.QueryDebugLaunch%2A>.|  
 |<xref:EnvDTE80.IInternalExtenderProvider>|Allows the project subtype to:<br /><br /> -   Extend the <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> of the project to add or remove configuration independent properties of the project.<br />-   Extend the project automation object (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>) of the project.<br /><br /> Property values above are taken from <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> enumeration.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgBrowseObject>|Allows the project subtype to map back to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg> object given the project configuration browse object.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsBrowseObject>|Allows the project subtype to map back to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> or the `VSITEMID` object, given the project configuration browse object.|  

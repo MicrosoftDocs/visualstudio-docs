@@ -45,19 +45,19 @@ translation.priority.mt:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- A method implementation contains code paths that could cause multiple calls to <xref:System.IDisposable.Dispose*?displayProperty=fullName> or a Dispose equivalent, such as a Close() method on some types, on the same object.  
+ A method implementation contains code paths that could cause multiple calls to <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> or a Dispose equivalent, such as a Close() method on some types, on the same object.  
   
 ## Rule Description  
- A correctly implemented <xref:System.IDisposable.Dispose*> method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a <xref:System.ObjectDisposedException?displayProperty=fullName> you should not call <xref:System.IDisposable.Dispose*> more than one time on an object.  
+ A correctly implemented <xref:System.IDisposable.Dispose%2A> method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a <xref:System.ObjectDisposedException?displayProperty=fullName> you should not call <xref:System.IDisposable.Dispose%2A> more than one time on an object.  
   
 ## Related Rules  
  [CA2000: Dispose objects before losing scope](../code-quality/ca2000-dispose-objects-before-losing-scope.md)  
   
 ## How to Fix Violations  
- To fix a violation of this rule, change the implementation so that regardless of the code path, <xref:System.IDisposable.Dispose*> is called only one time for the object.  
+ To fix a violation of this rule, change the implementation so that regardless of the code path, <xref:System.IDisposable.Dispose%2A> is called only one time for the object.  
   
 ## When to Suppress Warnings  
- Do not suppress a warning from this rule. Even if <xref:System.IDisposable.Dispose*> for the object is known to be safely callable multiple times, the implementation might change in the future.  
+ Do not suppress a warning from this rule. Even if <xref:System.IDisposable.Dispose%2A> for the object is known to be safely callable multiple times, the implementation might change in the future.  
   
 ## Example  
  Nested `using` statements (`Using` in Visual Basic) can cause violations of the CA2202 warning. If the IDisposable resource of the nested inner `using` statement contains the resource of the outer `using` statement, the `Dispose` method of the nested resource releases the contained resource. When this situation occurs, the `Dispose` method of the outer `using` statement attempts to dispose its resource for a second time.  

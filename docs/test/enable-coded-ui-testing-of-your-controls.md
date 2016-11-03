@@ -57,7 +57,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
  ![CUIT&#95;Accessible](../test/media/cuit_accessible.png "CUIT_Accessible")  
   
-1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject*> property to return an object of your class.  
+1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.  
   
     ```c#  
     public partial class ChartControl : UserControl  
@@ -82,11 +82,11 @@ Your control can be more easily tested if you implement support for the coded UI
     }  
     ```  
   
-2.  Override the accessible object’s <xref:System.Windows.Forms.AccessibleObject.Role*>, <xref:System.Windows.Forms.AccessibleObject.State*>, <xref:System.Windows.Forms.AccessibleObject.GetChild*> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount*> properties and methods.  
+2.  Override the accessible object’s <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.  
   
-3.  Implement another accessibility object for the child control and   override the child control’s <xref:System.Windows.Forms.Control.AccessibilityObject*> property to return that accessibility object.  
+3.  Implement another accessibility object for the child control and   override the child control’s <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return that accessibility object.  
   
-4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds*>, <xref:System.Windows.Forms.AccessibleObject.Name*>, <xref:System.Windows.Forms.AccessibleObject.Parent*>, <xref:System.Windows.Forms.AccessibleObject.Role*>, <xref:System.Windows.Forms.AccessibleObject.State*>, <xref:System.Windows.Forms.AccessibleObject.Navigate*>, and <xref:System.Windows.Forms.AccessibleObject.Select*> properties and methods for the child control’s accessibility object.  
+4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control’s accessibility object.  
   
 > [!NOTE]
 >  This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject> in this procedure, and then builds on that in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in Program.cs with the sample code. You’ll need to add references to Accessibility, System.Drawing, and System.Windows.Forms. You should change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project’s output type to from **Console Application** to **Windows Application** so that a console window doesn’t appear when you run the application.  
@@ -99,7 +99,7 @@ Your control can be more easily tested if you implement support for the coded UI
 ### To support custom property validation  
  ![CUIT&#95;Props](../test/media/cuit_props.png "CUIT_Props")  
   
-1.  Override the curve legend accessible object’s <xref:System.Windows.Forms.AccessibleObject.Description*> property to pass rich property values in the description string, separated from the main description (and each other if you are implementing multiple properties) by semicolons (;).  
+1.  Override the curve legend accessible object’s <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string, separated from the main description (and each other if you are implementing multiple properties) by semicolons (;).  
   
     ```c#  
     public class CurveLegendAccessibleObject : AccessibleObject  
@@ -138,10 +138,10 @@ Your control can be more easily tested if you implement support for the coded UI
     }  
     ```  
   
-4.  Implement the property provider by placing property names and property descriptors in a <xref:System.Collections.Generic.Dictionary`2>.  
+4.  Implement the property provider by placing property names and property descriptors in a <xref:System.Collections.Generic.Dictionary%602>.  
   
 <CodeContentPlaceHolder>3</CodeContentPlaceHolder>  
-5.  Override <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel*?displayProperty=fullName> to indicate that your assembly provides control-specific support for your control and its children.  
+5.  Override <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel%2A?displayProperty=fullName> to indicate that your assembly provides control-specific support for your control and its children.  
   
 <CodeContentPlaceHolder>4</CodeContentPlaceHolder>  
 6.  Override the remaining abstract methods of <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider?displayProperty=fullName>.  
@@ -153,7 +153,7 @@ Your control can be more easily tested if you implement support for the coded UI
 8.  Define the `UITestExtensionPackage` attribute for the assembly.  
   
 <CodeContentPlaceHolder>7</CodeContentPlaceHolder>  
-9. In the extension package class, override <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService*?displayProperty=fullName> to return the property provider class when a property provider is requested.  
+9. In the extension package class, override <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A?displayProperty=fullName> to return the property provider class when a property provider is requested.  
   
 <CodeContentPlaceHolder>8</CodeContentPlaceHolder>  
 10. Override the remaining abstract methods and properties of <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>.  
@@ -180,10 +180,10 @@ Your control can be more easily tested if you implement support for the coded UI
 2.  Implement your control’s custom properties as properties of the class.  
   
 <CodeContentPlaceHolder>13</CodeContentPlaceHolder>  
-3.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass*?displayProperty=fullName> method to return the type of the new class for the curve legend child controls.  
+3.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass%2A?displayProperty=fullName> method to return the type of the new class for the curve legend child controls.  
   
 <CodeContentPlaceHolder>14</CodeContentPlaceHolder>  
-4.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType*> method to return the type of the new class’ PropertyNames method.  
+4.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType%2A> method to return the type of the new class’ PropertyNames method.  
   
 <CodeContentPlaceHolder>15</CodeContentPlaceHolder>  
 ##  <a name="intentawareactions"></a> Support Intent-Aware Actions by implementing an Action Filter  
@@ -192,13 +192,13 @@ Your control can be more easily tested if you implement support for the coded UI
 ### To support intent-aware actions  
  ![CUIT&#95;Actions](../test/media/cuit_actions.png "CUIT_Actions")  
   
-1.  Implement an action filter class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout*>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category*>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled*>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType*>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group*> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name*>.  
+1.  Implement an action filter class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>.  
   
 <CodeContentPlaceHolder>16</CodeContentPlaceHolder>  
-2.  Override <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule*>. The example here realpces a double-click action with a single click action.  
+2.  Override <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>. The example here realpces a double-click action with a single click action.  
   
 <CodeContentPlaceHolder>17</CodeContentPlaceHolder>  
-3.  Add the action filter to the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService*> method of your extension package.  
+3.  Add the action filter to the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> method of your extension package.  
   
 <CodeContentPlaceHolder>18</CodeContentPlaceHolder>  
 4.  Build your binaries and copy them to %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages.  

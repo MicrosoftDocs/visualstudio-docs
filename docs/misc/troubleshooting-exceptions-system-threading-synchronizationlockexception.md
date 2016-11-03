@@ -37,7 +37,7 @@ translation.priority.mt:
 The exception that is thrown when a method requires the caller to own the lock on a given `Monitor`, and the method is invoked by a caller that does not own that lock.  
   
 ## Remarks  
- A <xref:System.Threading.SynchronizationLockException> is thrown by calling the <xref:System.Threading.Monitor.Exit*>, <xref:System.Threading.Monitor.Pulse*>, <xref:System.Threading.Monitor.PulseAll*>, and <xref:System.Threading.Monitor.Wait*> methods of the `Monitor` class from an unsynchronized block of code.  
+ A <xref:System.Threading.SynchronizationLockException> is thrown by calling the <xref:System.Threading.Monitor.Exit%2A>, <xref:System.Threading.Monitor.Pulse%2A>, <xref:System.Threading.Monitor.PulseAll%2A>, and <xref:System.Threading.Monitor.Wait%2A> methods of the `Monitor` class from an unsynchronized block of code.  
   
 ## See Also  
  <xref:System.Threading.SynchronizationLockException>   

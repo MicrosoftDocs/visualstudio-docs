@@ -46,7 +46,7 @@ Text view object
 ## Adding Functionality to the Text View  
  You can customize text view behavior by handling specific keystrokes. To intercept the keystrokes, you implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> on your object, and provide a command target (<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>) to monitor and intercept commands.  
   
- The text view uses sequential architecture for command filters. New command filters (<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> objects) are added to the sequence by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method.  
+ The text view uses sequential architecture for command filters. New command filters (<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> objects) are added to the sequence by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method.  
   
  Event notification for the text view is provided by using the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents` interface. Implement this interface on your client object to receive notification of changes to the text view. Expose this interface to the text view by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text view to receive notification of changes from the view.  
   

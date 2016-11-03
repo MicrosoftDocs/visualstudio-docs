@@ -1,7 +1,7 @@
 ---
 title: "Custom Document Properties in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -134,7 +134,7 @@ namespace TestLanguagePackage
 ```  
   
 ## Instantiating the Custom DocumentProperties class  
- To instantiate your custom document properties class, you must override the <xref:Microsoft.VisualStudio.Package.LanguageService.CreateDocumentProperties*> method in your version of the <xref:Microsoft.VisualStudio.Package.LanguageService> class to return a single instance of your <xref:Microsoft.VisualStudio.Package.DocumentProperties> class.  
+ To instantiate your custom document properties class, you must override the <xref:Microsoft.VisualStudio.Package.LanguageService.CreateDocumentProperties%2A> method in your version of the <xref:Microsoft.VisualStudio.Package.LanguageService> class to return a single instance of your <xref:Microsoft.VisualStudio.Package.DocumentProperties> class.  
   
 ### Example  
   

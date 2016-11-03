@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

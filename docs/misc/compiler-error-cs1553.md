@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1553"
 ms.assetid: aec64251-b4ac-45c0-b143-7ebda138af6e
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Data.EvaluateException
-The exception that is thrown when the <xref:System.Data.DataColumn.Expression*> property of a <xref:System.Data.DataColumn> cannot be evaluated.  
+The exception that is thrown when the <xref:System.Data.DataColumn.Expression%2A> property of a <xref:System.Data.DataColumn> cannot be evaluated.  
   
 ## See Also  
  <xref:System.Data.EvaluateException>   

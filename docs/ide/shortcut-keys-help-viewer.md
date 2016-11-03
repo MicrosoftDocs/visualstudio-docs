@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, shortcut keys"
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "MSBuild, additional resources"
 ms.assetid: 3206dc09-daa4-43c4-8073-731a82e36a89
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

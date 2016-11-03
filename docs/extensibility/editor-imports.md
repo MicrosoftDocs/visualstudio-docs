@@ -91,7 +91,7 @@ internal SVsServiceProvider ServiceProvider = null;
 |<xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearchFactoryService>|An <xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearch> object for a given text view.|  
 |<xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService>|An <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
 |<xref:Microsoft.VisualStudio.Text.ITextDocumentFactoryService>|An <xref:Microsoft.VisualStudio.Text.ITextDocument>.|  
-|<xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceCollection`1> of differences.|  
+|<xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceCollection%601> of differences.|  
 |<xref:Microsoft.VisualStudio.Text.Differencing.IHierarchicalStringDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IHierarchicalDifferenceCollection> of differences.|  
 |<xref:Microsoft.VisualStudio.Text.Projection.IProjectionBufferFactoryService>|An <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBuffer> or an <xref:Microsoft.VisualStudio.Text.Projection.IElisionBuffer>.|  
 |<xref:Microsoft.VisualStudio.Text.Projection.IBufferGraphFactoryService>|An <xref:Microsoft.VisualStudio.Text.Projection.IBufferGraph> for a set of <xref:Microsoft.VisualStudio.Text.ITextBuffer> objects.|  
@@ -100,8 +100,8 @@ internal SVsServiceProvider ServiceProvider = null;
 |<xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMapService>|An <xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMap> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMapService>|An <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>|Maintains the collection of <xref:Microsoft.VisualStudio.Text.Classification.IClassificationType> objects.|  
-|<xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator`1> for a text buffer.|  
-|<xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator`1> for a text view.|  
+|<xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator%601> for a text buffer.|  
+|<xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator%601> for a text view.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.IEditorOptionsFactoryService>|The <xref:Microsoft.VisualStudio.Text.Editor.IEditorOptions> for the specified scope.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.IScrollMapFactoryService>|An <xref:Microsoft.VisualStudio.Text.Editor.IScrollMap> for a text view.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.ISmartIndentationService>|An <xref:Microsoft.VisualStudio.Text.Editor.ISmartIndent> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
@@ -126,8 +126,8 @@ internal SVsServiceProvider ServiceProvider = null;
   
 |Import|Provides|  
 |------------|--------------|  
-|<xref:Microsoft.VisualStudio.Text.Adornments.IErrorProviderFactory>|A <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger`1> of type <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>) for the given buffer.|  
-|<xref:Microsoft.VisualStudio.Text.Adornments.ITextMarkerProviderFactory>|A text marker tagger (a <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger`1> of type <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>).|  
+|<xref:Microsoft.VisualStudio.Text.Adornments.IErrorProviderFactory>|A <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> of type <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>) for the given buffer.|  
+|<xref:Microsoft.VisualStudio.Text.Adornments.ITextMarkerProviderFactory>|A text marker tagger (a <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> of type <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>).|  
 |<xref:Microsoft.VisualStudio.Text.Adornments.IToolTipProviderFactory>|An <xref:Microsoft.VisualStudio.Text.Adornments.IToolTipProvider> for a given <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>|An <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>.|  
 |<xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoBroker>|An <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSession>.|  

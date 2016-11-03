@@ -1,7 +1,7 @@
 ---
 title: "-Setup (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Devenv, /setup switch"
 ms.assetid: 87608b7f-a156-400c-80f5-fc823f843e61
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

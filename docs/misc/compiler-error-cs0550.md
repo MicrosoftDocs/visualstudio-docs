@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0550"
 ms.assetid: 57278c17-443c-40f2-9ebd-853558743564
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

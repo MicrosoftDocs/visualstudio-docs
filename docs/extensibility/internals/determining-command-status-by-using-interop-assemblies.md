@@ -35,9 +35,9 @@ translation.priority.mt:
 A VSPackage must keep track of the state of the commands it can handle. The environment cannot determine when a command handled within your VSPackage becomes enabled or disabled. It is the responsibility of your VSPackage to inform the environment about command states, for example, the state of general commands such as **Cut**, **Copy**, and **Paste**.  
   
 ## Status Notification Sources  
- The environment receives information about commands through the VSPackages' <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method, which is part of the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. The environment calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method of the VSPackage under two conditions:  
+ The environment receives information about commands through the VSPackages' <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method, which is part of the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. The environment calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method of the VSPackage under two conditions:  
   
--   When a user opens a main menu or a context menu (by right-clicking), the environment executes the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method on all of the commands on that menu to determine their state.  
+-   When a user opens a main menu or a context menu (by right-clicking), the environment executes the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method on all of the commands on that menu to determine their state.  
   
 -   When the VSPackage requests that the environment update the current user interface (UI). This occurs as commands that are currently visible to the user, such as the **Cut**, **Copy**, and **Paste** grouping on the standard toolbar, become enabled and disabled in response to context and user actions.  
   

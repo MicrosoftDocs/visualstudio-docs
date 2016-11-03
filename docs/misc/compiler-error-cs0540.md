@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0540"
 ms.assetid: 2da2cd4a-0ff1-45ea-bb72-ea078bc95dea
 caps.latest.revision: 12
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

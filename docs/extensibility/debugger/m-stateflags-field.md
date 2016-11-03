@@ -46,7 +46,7 @@ Stores information about the current state of the <xref:System.Threading.Tasks.T
 ```  
   
 ## Remarks  
- You typically use the <xref:System.Threading.Tasks.Task.Status*?displayProperty=fullName> property to access this value.  
+ You typically use the <xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName> property to access this value.  
   
  This member can be any combination of the following values:  
   

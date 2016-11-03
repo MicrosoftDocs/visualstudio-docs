@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "refactoring, classes"
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 caps.latest.revision: 26
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

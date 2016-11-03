@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0828"
 ms.assetid: e18ffe72-2fcc-436d-be7f-8c8365b86129
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

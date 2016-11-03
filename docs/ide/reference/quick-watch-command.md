@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.Quickwatch command"
 ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

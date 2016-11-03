@@ -1,7 +1,7 @@
 ---
 title: "Accessing Text Layers by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
   
 -   The view communicates to layers through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLayeredTextView> interface. Use this interface to reconcile view coordinates with buffer coordinates.  
   
--   Any layer such as the synthetic text layer that originates text must provide a local implementation of <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer.CreateTrackingPoint*>.  
+-   Any layer such as the synthetic text layer that originates text must provide a local implementation of <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer.CreateTrackingPoint%2A>.  
   
 -   Besides <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer>, a text layer must implement <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> and fire the events in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents> interface.  
   

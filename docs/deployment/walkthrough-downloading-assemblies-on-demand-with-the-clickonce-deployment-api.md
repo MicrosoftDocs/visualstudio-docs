@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -94,7 +94,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
      [!code-cs[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
      [!code-vb[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]  
   
-10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile*>.  
+10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile%2A>.  
   
 11. Set`PublicKeyToken` to the value that you retrieved earlier.  
   

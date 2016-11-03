@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1928"
 ms.assetid: bcc9dbef-ded5-4ddd-8c03-a9837cb6d165
 caps.latest.revision: 5
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Inside the Core Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor is a s
   
 ## In This Section  
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)  
- Provides step-by-step instructions about how to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> to create an instance of the core editor.  
+ Provides step-by-step instructions about how to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> to create an instance of the core editor.  
   
  [Accessing the Text Buffer by Using the Legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)  
  Discusses the text buffer's role in the core editor, explains the associated systems that are used to access the buffer, and provides a list of the interfaces implemented by the text buffer object, <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>.  

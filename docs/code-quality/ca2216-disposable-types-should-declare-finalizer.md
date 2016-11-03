@@ -44,7 +44,7 @@ translation.priority.ht:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- A type that implements <xref:System.IDisposable?displayProperty=fullName>, and has fields that suggest the use of unmanaged resources, does not implement a finalizer as described by <xref:System.Object.Finalize*?displayProperty=fullName>.  
+ A type that implements <xref:System.IDisposable?displayProperty=fullName>, and has fields that suggest the use of unmanaged resources, does not implement a finalizer as described by <xref:System.Object.Finalize%2A?displayProperty=fullName>.  
   
 ## Rule Description  
  A violation of this rule is reported if the disposable type contains fields of the following types:  
@@ -56,7 +56,7 @@ translation.priority.ht:
 -   <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>  
   
 ## How to Fix Violations  
- To fix a violation of this rule, implement a finalizer that calls your <xref:System.IDisposable.Dispose*> method.  
+ To fix a violation of this rule, implement a finalizer that calls your <xref:System.IDisposable.Dispose%2A> method.  
   
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule if the type does not implement <xref:System.IDisposable> for the purpose of releasing unmanaged resources.  
@@ -78,5 +78,5 @@ translation.priority.ht:
  <xref:System.IntPtr?displayProperty=fullName>   
  <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>   
  <xref:System.UIntPtr?displayProperty=fullName>   
- <xref:System.Object.Finalize*?displayProperty=fullName>   
+ <xref:System.Object.Finalize%2A?displayProperty=fullName>   
  [Dispose Pattern](../Topic/Dispose%20Pattern.md)

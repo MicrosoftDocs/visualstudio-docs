@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3017"
 ms.assetid: 8e56b2f0-9caf-4c9a-98c2-d3ad0b70e767
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

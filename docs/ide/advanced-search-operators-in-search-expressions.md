@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "searching titles [Help Viewer 2.0]"
 ms.assetid: 0cdc1746-8481-45ec-9c53-d0d89cdcbd5e
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

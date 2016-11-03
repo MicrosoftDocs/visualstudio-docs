@@ -49,5 +49,5 @@ The text that follows the option is not a plus sign (+) or a minus sign (-).
 -   Replace the text that follows the option with a minus sign (-) to turn the option off.  
   
 ## See Also  
- [Visual Basic Compiler Options Listed Alphabetically](/dotnet/visual-basic/reference/command-line-compiler/visual-basic-compiler-options-listed-alphabetically)   
+ [Visual Basic Compiler Options Listed Alphabetically](/dotnet/visual-basic/reference/command-line-compiler/compiler-options-listed-alphabetically)   
  [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

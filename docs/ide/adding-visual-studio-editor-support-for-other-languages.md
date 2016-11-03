@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "language support"
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 ---

@@ -102,7 +102,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 2.  Name the column `SongID`.  
   
-3.  In the **Properties** window, set the <xref:System.Data.DataColumn.DataType*> property to <xref:System.Int16?displayProperty=fullName>.  
+3.  In the **Properties** window, set the <xref:System.Data.DataColumn.DataType%2A> property to <xref:System.Int16?displayProperty=fullName>.  
   
 4.  Repeat this process and add the following columns:  
   

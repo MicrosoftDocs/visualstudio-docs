@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, incremental builds"
 ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

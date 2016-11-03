@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "installing Visual Studio, multiple languages"
   - "install Visual Studio, multiple languages"
 ms.assetid: ee09497d-75ea-4359-9f55-889b3b2e342a
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,4 +45,4 @@ By installing one or more language packages, you can run Visual Studio in other 
   
 ## See Also  
  [Microsoft Language Interface Packs (LIPs) and Visual Studio](../install/microsoft-language-interface-packs-lips-and-visual-studio.md)   
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)
+ [Install Visual Studio](../install/install-visual-studio-2015.md)

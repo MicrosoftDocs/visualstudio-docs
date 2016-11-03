@@ -75,5 +75,5 @@ translation.priority.ht:
  [CA1013: Overload operator equals on overloading add and subtract](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)  
   
 ## See Also  
- <xref:System.Object.Equals*?displayProperty=fullName>   
+ <xref:System.Object.Equals%2A?displayProperty=fullName>   
  [Equality Operators](../Topic/Equality%20Operators.md)

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1570"
 ms.assetid: a121d5c4-8b90-4cda-af5b-6ba8f23b2b1e
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

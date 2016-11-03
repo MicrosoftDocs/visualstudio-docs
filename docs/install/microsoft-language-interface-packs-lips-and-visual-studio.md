@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Language Interface Packs (LIPs) and Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

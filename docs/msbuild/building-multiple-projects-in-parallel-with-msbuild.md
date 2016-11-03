@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "msbuild, building projects in parallel"
 ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +38,7 @@ You can use MSBuild to build multiple projects faster by running them in paralle
   
 -   The `/maxcpucount` switch at a command prompt.  
   
--   The <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel*> task parameter on an MSBuild task.  
+-   The <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> task parameter on an MSBuild task.  
   
 > [!NOTE]
 >  The **/verbosity** (**/v**) switch in a command line can also affect build performance. Your build performance might decrease if the verbosity of your build log information is set to detailed or diagnostic, which are used for troubleshooting. For more information, see [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  

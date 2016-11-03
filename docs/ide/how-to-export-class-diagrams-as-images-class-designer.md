@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "class diagrams, exporting as images"
 ms.assetid: c57055c5-1340-449f-b9d3-ca6f87e2f69a
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

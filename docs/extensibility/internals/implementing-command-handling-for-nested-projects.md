@@ -44,11 +44,11 @@ The IDE can pass commands that are passed through the <xref:Microsoft.VisualStud
   
 1.  When the user selects a nested project or a node in a nested project:  
   
-    1.  The IDE calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method.  
+    1.  The IDE calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method.  
   
      — or —  
   
-    1.  If the command originated in a hierarchy window, such as a shortcut menu command in Solution Explorer, the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> method on the project's parent.  
+    1.  If the command originated in a hierarchy window, such as a shortcut menu command in Solution Explorer, the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> method on the project's parent.  
   
 2.  The parent project can examine parameters to be passed to `QueryStatus`, such as `pguidCmdGroup` and `prgCmds`, to determine whether the parent project should filter the commands. If the parent project is implemented to filter commands, it should set:  
   

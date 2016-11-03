@@ -1,7 +1,7 @@
 ---
 title: "T4 Output Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,4 +85,4 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text templates, the
   
  `0` (System default)  
   
- In general, you can use the WebName string or the CodePage number of any of the encodings returned by <xref:System.Text.Encoding.GetEncodings*?displayProperty=fullName>.
+ In general, you can use the WebName string or the CodePage number of any of the encodings returned by <xref:System.Text.Encoding.GetEncodings%2A?displayProperty=fullName>.

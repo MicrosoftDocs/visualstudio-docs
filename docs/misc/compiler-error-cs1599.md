@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1599"
 ms.assetid: 4cdb282d-0f5d-459b-afc1-8980fbb22067
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

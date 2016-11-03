@@ -43,7 +43,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Displaying Related Data on a Windows Form
-In many application scenarios, you want to work with data that comes from more than one table and, often, data from related tables. That is, you want to work with a parent-child relationship. For example, you might want to create a form where selecting a customer record displays the orders for that customer. Displaying the related records on the form is achieved by setting the <xref:System.Windows.Forms.BindingSource.DataSource*> property of the child <xref:System.Windows.Forms.BindingSource> to the parent <xref:System.Windows.Forms.BindingSource> (not the child table), and setting the <xref:System.Windows.Forms.BindingSource.DataMember*> property of the child <xref:System.Windows.Forms.BindingSource> to the data relation that ties the parent and child tables together.  
+In many application scenarios, you want to work with data that comes from more than one table and, often, data from related tables. That is, you want to work with a parent-child relationship. For example, you might want to create a form where selecting a customer record displays the orders for that customer. Displaying the related records on the form is achieved by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the child <xref:System.Windows.Forms.BindingSource> to the parent <xref:System.Windows.Forms.BindingSource> (not the child table), and setting the <xref:System.Windows.Forms.BindingSource.DataMember%2A> property of the child <xref:System.Windows.Forms.BindingSource> to the data relation that ties the parent and child tables together.  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -126,7 +126,7 @@ In many application scenarios, you want to work with data that comes from more t
      A <xref:System.Windows.Forms.DataGridView> is added to the form, and a new <xref:System.Windows.Forms.BindingSource> (`OrdersBindingSource`) and TableAdapter (`OrdersTableAdapter`) are added to the component tray.  
   
     > [!NOTE]
-    >  Open the [Properties Window](../ide/reference/properties-window.md) and select the **OrdersBindingSource**. Inspect the <xref:System.Windows.Forms.BindingSource.DataSource*> and <xref:System.Windows.Forms.BindingSource.DataMember*> properties to see how binding is configured to display related records. The <xref:System.Windows.Forms.BindingSource.DataSource*> is set to the `CustomersBindingSource` (the parent table's <xref:System.Windows.Forms.BindingSource>), rather than the `Orders` table. The <xref:System.Windows.Forms.BindingSource.DataMember*> property is set to `FK_Orders_Customers`, which is the name of the <xref:System.Data.DataRelation> object that relates the tables together.  
+    >  Open the [Properties Window](../ide/reference/properties-window.md) and select the **OrdersBindingSource**. Inspect the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties to see how binding is configured to display related records. The <xref:System.Windows.Forms.BindingSource.DataSource%2A> is set to the `CustomersBindingSource` (the parent table's <xref:System.Windows.Forms.BindingSource>), rather than the `Orders` table. The <xref:System.Windows.Forms.BindingSource.DataMember%2A> property is set to `FK_Orders_Customers`, which is the name of the <xref:System.Data.DataRelation> object that relates the tables together.  
   
 ## Testing the Application  
   

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.SetRadix command"
 ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1668"
 ms.assetid: 313775ad-85f3-4695-8ab8-31c677f9c5f4
 caps.latest.revision: 12
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -41,5 +42,5 @@ Invalid search path 'path' specified in 'path string' --  'system error message'
  The path supplied to [/lib](/dotnet/csharp/language-reference/compiler-options/lib-compiler-option) at the command line was not valid, or a path in the LIB environment variable is invalid. Check the path used to verify that it exists and can be accessed. The error message in single quotation marks is the error returned from the operating system.  
   
 ## See Also  
- [C# Compiler Options Listed Alphabetically](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options-listed-alphabetically)   
+ [C# Compiler Options Listed Alphabetically](/dotnet/csharp/language-reference/compiler-options/listed-alphabetically)   
  [C# Compiler Errors](/dotnet/csharp/language-reference/compiler-messages/index)

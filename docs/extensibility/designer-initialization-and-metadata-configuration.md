@@ -1,7 +1,7 @@
 ---
 title: "Designer Initialization and Metadata Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,7 +68,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
 2.  Instantiates and initializes an instance of each design surface extension provider's <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> object  
   
-3.  Calls each design surface extension provider's <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension.OnDesignerCreated*> method or <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension.OnComponentCreated*> method (as appropriate).  
+3.  Calls each design surface extension provider's <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension.OnDesignerCreated%2A> method or <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension.OnComponentCreated%2A> method (as appropriate).  
   
  When implementing the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> object as a member of a VSPackage, it is important to understand that:  
   
@@ -91,7 +91,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
  The `IsGlobal` property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> instance applied to a VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Package> determines this scope.  
   
- Applying the attribute to an implementation of <xref:Microsoft.VisualStudio.Shell.Package> with the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute.IsGlobal*> property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> object set to `true`, as below, changes the browser for the entire [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment:  
+ Applying the attribute to an implementation of <xref:Microsoft.VisualStudio.Shell.Package> with the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute.IsGlobal%2A> property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> object set to `true`, as below, changes the browser for the entire [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment:  
   
  `[ProvideDesignerMetadata(typeof(Color), typeof(CustomBrowser),`   `IsGlobal=true`  `)]`  
   

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Code Editor, windows management"
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

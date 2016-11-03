@@ -43,7 +43,7 @@ translation.priority.ht:
 You can use the `TableAdapter.Update` method to update (edit) records in a database. The `TableAdapter.Update` method provides several overloads that perform different operations depending on the parameters passed in. It is important to understand the results of calling these different method signatures.  
   
 > [!NOTE]
->  If your application does not use TableAdapters, then you can use command objects to update records in your database (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>). For more information on updating data with command objects, see "Update Records using Command Objects" below.  
+>  If your application does not use TableAdapters, then you can use command objects to update records in your database (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery%2A>). For more information on updating data with command objects, see "Update Records using Command Objects" below.  
   
  The following table describes the behavior of the various `TableAdapter.Update` methods:  
   

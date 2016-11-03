@@ -1,7 +1,7 @@
 ---
 title: "Creating Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "templates [Visual Studio], about templates"
 ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -42,7 +42,7 @@ A <xref:System.Data.ConstraintException> exception is thrown when an action is a
   
 ## Associated Tips  
  **Relax or turn off constraints in your DataSets**.  
- You can use the <xref:System.Data.DataSet.EnforceConstraints*> property to temporarily turn off constraints while filling tables in a <xref:System.Data.DataSet> object.  
+ You can use the <xref:System.Data.DataSet.EnforceConstraints%2A> property to temporarily turn off constraints while filling tables in a <xref:System.Data.DataSet> object.  
   
  **Make sure you are not trying to assign a value to a primary key field where the primary key already exists in the data table.**  
  If the primary key exists, this exception is thrown.  

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Include attribute [MSBuild]"
 ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

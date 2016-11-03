@@ -48,7 +48,7 @@ An <xref:System.IndexOutOfRangeException> exception is thrown when an attempt is
  This exception will be thrown if the index is less than zero.  
   
  **Make sure data column names are correct.**  
- This exception may be thrown if the data column name being supplied to the <xref:System.Data.DataView.Sort*?displayProperty=fullName> property is not valid. For more information, see the <xref:System.Data.DataView> class.  
+ This exception may be thrown if the data column name being supplied to the <xref:System.Data.DataView.Sort%2A?displayProperty=fullName> property is not valid. For more information, see the <xref:System.Data.DataView> class.  
   
 ## Example  
   

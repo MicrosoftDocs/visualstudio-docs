@@ -1,7 +1,7 @@
 ---
 title: "How to: Register Editor File Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,9 +54,9 @@ The easiest way to register editor file types is by using the registration attri
   
      `NameResourceID` is defined in the Resources.h file of the BasicEditorUI project, and identifies the editor as "My Editor".  
   
-2.  Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+2.  Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
-     In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory*> method and pass the instance of your editor factory as demonstrated below.  
+     In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory%2A> method and pass the instance of your editor factory as demonstrated below.  
   
     ```  
     protected override void Initialize()  
@@ -107,7 +107,7 @@ The easiest way to register editor file types is by using the registration attri
   
 3.  Register the editor factory.  
   
-     The editor factory is registered in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor*> implementation.  
+     The editor factory is registered in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor%2A> implementation.  
   
     ```  
     // create editor factory.  

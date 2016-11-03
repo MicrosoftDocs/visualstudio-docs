@@ -36,6 +36,6 @@ translation.priority.mt:
 Registry-based providers do not need to be registered and unregistered explicitly.  
   
 ## See Also  
- <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
- <xref:EnvDTE.ObjectExtenders.UnregisterExtenderProvider*>   
+ <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider%2A>   
+ <xref:EnvDTE.ObjectExtenders.UnregisterExtenderProvider%2A>   
  <xref:EnvDTE.ObjectExtenders>

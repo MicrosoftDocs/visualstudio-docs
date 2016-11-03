@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Windows.Automation.NoClickablePointException
-A <xref:System.Windows.Automation.NoClickablePointException> exception contains information about the exception that is raised when <xref:System.Windows.Automation.AutomationElement.GetClickablePoint*> is called on a UI <xref:System.Windows.Automation.AutomationElement> that has no clickable point.  
+A <xref:System.Windows.Automation.NoClickablePointException> exception contains information about the exception that is raised when <xref:System.Windows.Automation.AutomationElement.GetClickablePoint%2A> is called on a UI <xref:System.Windows.Automation.AutomationElement> that has no clickable point.  
   
 ## Remarks  
  This exception might be raised when the application window is minimized, or the element is off-screen.  

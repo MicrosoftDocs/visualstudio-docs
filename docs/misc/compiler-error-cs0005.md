@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0005"
 ms.assetid: abe0dffe-3683-4439-969b-4c08465b20c0
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -40,4 +41,4 @@ Compiler option 'compiler_option' must be followed by an argument
   
  Some compiler options require parameters. If you do not pass the arguments required by the compiler option, CS0005 is generated.  
   
- For more information, see [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options).
+ For more information, see [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index).

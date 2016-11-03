@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, index search tips"
 ms.assetid: f9ffa8e9-3ece-419d-a465-f9c2c21fd4ba
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

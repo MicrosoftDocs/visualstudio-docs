@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1535"
 ms.assetid: 19f41e78-9aea-4575-abd0-60ddb927276f
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

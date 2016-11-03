@@ -14,6 +14,7 @@ apiname:
 apitype: "Assembly"
 ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,9 +51,9 @@ attrib.Value
 |<xref:System.ArgumentNullException>|When setting, the `value` is `null`.|  
   
 ## Remarks  
- This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value*> property of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
+ This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value%2A> property of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
   
 ## See Also  
- <xref:System.Xml.Linq.XAttribute.Value*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)   
  [Attribute](../designers/attribute-xelement-dynamic-property.md)

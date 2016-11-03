@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Theme Configuration dialog box"
 ms.assetid: 10225f34-aced-432a-846c-82cf6137d7c0
 caps.latest.revision: 5
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

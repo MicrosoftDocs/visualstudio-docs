@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0100"
 ms.assetid: b49e4846-2a82-48ed-9ca8-953eb5c1baaa
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

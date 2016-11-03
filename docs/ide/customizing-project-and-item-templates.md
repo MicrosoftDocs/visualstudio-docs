@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Visual Studio templates, customizing"
 ms.assetid: d7344a0a-d93f-4b69-bbc4-0c2d67ef272b
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0514"
 ms.assetid: 74ce3010-f9e9-458c-8b68-cfb908a3e7a2
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

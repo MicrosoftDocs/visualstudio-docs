@@ -45,19 +45,19 @@ translation.priority.mt:
 |Breaking Change|Breaking|  
   
 ## Cause  
- A type contains an externally visible member that is a <xref:System.Collections.Generic.List`1?displayProperty=fullName> type, returns a <xref:System.Collections.Generic.List`1?displayProperty=fullName> type, or whose signature includes a <xref:System.Collections.Generic.List`1?displayProperty=fullName> parameter.  
+ A type contains an externally visible member that is a <xref:System.Collections.Generic.List%601?displayProperty=fullName> type, returns a <xref:System.Collections.Generic.List%601?displayProperty=fullName> type, or whose signature includes a <xref:System.Collections.Generic.List%601?displayProperty=fullName> parameter.  
   
 ## Rule Description  
- <xref:System.Collections.Generic.List`1?displayProperty=fullName> is a generic collection that is designed for performance and not inheritance. <xref:System.Collections.Generic.List`1?displayProperty=fullName> does not contain virtual members that make it easier to change the behavior of an inherited class. The following generic collections are designed for inheritance and should be exposed instead of <xref:System.Collections.Generic.List`1?displayProperty=fullName>.  
+ <xref:System.Collections.Generic.List%601?displayProperty=fullName> is a generic collection that is designed for performance and not inheritance. <xref:System.Collections.Generic.List%601?displayProperty=fullName> does not contain virtual members that make it easier to change the behavior of an inherited class. The following generic collections are designed for inheritance and should be exposed instead of <xref:System.Collections.Generic.List%601?displayProperty=fullName>.  
   
--   <xref:System.Collections.ObjectModel.Collection`1?displayProperty=fullName>  
+-   <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>  
   
--   <xref:System.Collections.ObjectModel.ReadOnlyCollection`1?displayProperty=fullName>  
+-   <xref:System.Collections.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>  
   
--   <xref:System.Collections.ObjectModel.KeyedCollection`2?displayProperty=fullName>  
+-   <xref:System.Collections.ObjectModel.KeyedCollection%602?displayProperty=fullName>  
   
 ## How to Fix Violations  
- To fix a violation of this rule, change the <xref:System.Collections.Generic.List`1?displayProperty=fullName> type to one of the generic collections that is designed for inheritance.  
+ To fix a violation of this rule, change the <xref:System.Collections.Generic.List%601?displayProperty=fullName> type to one of the generic collections that is designed for inheritance.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule unless the assembly that raises this warning is not meant to be a reusable library. For example, it would be safe to suppress this warning in a performance tuned application where a performance benefit was gained from the use of generic lists.  

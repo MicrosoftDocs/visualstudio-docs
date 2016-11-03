@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "ResourcesGenerator task [WPF MSBuild], parameters"
 ms.assetid: e782bbac-9ee6-472b-8171-3ee008c77b4e
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2023"
 ms.assetid: 2201fcbc-0eb6-4a1e-baa0-50c5968d1d92
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

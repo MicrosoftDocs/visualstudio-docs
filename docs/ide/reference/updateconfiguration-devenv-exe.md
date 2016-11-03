@@ -1,7 +1,7 @@
 ---
 title: "-Updateconfiguration (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "updateconfiguration Devenv switch"
 ms.assetid: 9a1084cc-8b68-4ccc-aaea-f95939164338
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.mt: 

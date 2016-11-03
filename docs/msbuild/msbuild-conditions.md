@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "conditions [MSBuild]"
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

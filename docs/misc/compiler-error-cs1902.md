@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1902"
 ms.assetid: 120c5978-9ebc-4ec1-bcec-f840af6fdf5d
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1698"
 ms.assetid: 65cac5d0-e045-40f9-911c-1bf50e710b18
 caps.latest.revision: 20
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

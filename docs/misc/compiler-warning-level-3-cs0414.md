@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0414"
 ms.assetid: 6a0a80be-799b-4d9c-a7e0-6b91e9ce7be0
 caps.latest.revision: 11
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -68,4 +69,4 @@ class C
   
 ## See Also  
  [C# Compiler Errors](/dotnet/csharp/language-reference/compiler-messages/index)   
- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options)
+ [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)

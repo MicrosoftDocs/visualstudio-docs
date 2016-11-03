@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "<ItemDefinitionGroup> Element [MSBuild]"
 ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

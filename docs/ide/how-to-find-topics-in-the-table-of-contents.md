@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "table of contents filtering [Help Viewer 2.0]"
 ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

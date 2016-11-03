@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, index filtering"
 ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

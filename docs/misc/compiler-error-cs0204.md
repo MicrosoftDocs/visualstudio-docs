@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0204"
 ms.assetid: c1811479-41b3-4a0b-9160-ecc14bf255a3
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2019"
 ms.assetid: eafd2531-8b3a-499c-9e12-a605a011396f
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

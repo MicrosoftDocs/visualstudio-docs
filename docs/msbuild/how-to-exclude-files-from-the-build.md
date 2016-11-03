@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "wildcards, MSBuild"
 ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

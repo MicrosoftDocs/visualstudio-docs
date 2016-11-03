@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "modifying visual studio"
   - "changing visual studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "tglee"
 manager: "ghogen"
 ---
@@ -54,5 +54,5 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
   
 ## See Also  
-*  [Installing Visual Studio "15" Preview 5](Installing%20Visual%20Studio%20%2215%22%20Preview%205.md)
+*  [Install Visual Studio "15" Preview 5](https://go.microsoft.com/fwlink/?linkid=833223)
 * [How to Report a Problem with Visual Studio "15" Preview 5](../ide/how-to-report-a-problem-with-visual-studio-15-preview-5.md)

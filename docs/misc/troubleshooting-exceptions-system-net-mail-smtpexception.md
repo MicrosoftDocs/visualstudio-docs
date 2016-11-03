@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Net.Mail.SmtpException
-The exception that is thrown when the <xref:System.Net.Mail.SmtpClient> is not able to send a <xref:System.Net.Mail.SmtpClient.Send*> or <xref:System.Net.Mail.SmtpClient.SendAsync*> message.  
+The exception that is thrown when the <xref:System.Net.Mail.SmtpClient> is not able to send a <xref:System.Net.Mail.SmtpClient.Send%2A> or <xref:System.Net.Mail.SmtpClient.SendAsync%2A> message.  
   
 ## See Also  
  <xref:System.Net.Mail.SmtpException>   

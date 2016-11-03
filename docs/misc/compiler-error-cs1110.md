@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1110"
 ms.assetid: 5b571a76-1891-4f33-b23d-7c4cc654a05f
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 caps.latest.revision: 7
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -65,13 +66,13 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.DoWhile>  
   
- <xref:System.Activities.Statements.ForEach`1>  
+ <xref:System.Activities.Statements.ForEach%601>  
   
  <xref:System.Activities.Statements.If>  
   
  <xref:System.Activities.Statements.Parallel>  
   
- <xref:System.Activities.Statements.ParallelForEach`1>  
+ <xref:System.Activities.Statements.ParallelForEach%601>  
   
  <xref:System.Activities.Statements.Pick>  
   
@@ -79,7 +80,7 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.Sequence>  
   
- <xref:System.Activities.Statements.Switch`1>  
+ <xref:System.Activities.Statements.Switch%601>  
   
  <xref:System.Activities.Statements.While>  
   

@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "My Extensions page in Project Designer"
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

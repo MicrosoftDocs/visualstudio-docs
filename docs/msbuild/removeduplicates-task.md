@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "RemoveDuplicates task [MSBuild]"
 ms.assetid: 481cbab6-73ff-488c-aba5-2c09f9eb1e04
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

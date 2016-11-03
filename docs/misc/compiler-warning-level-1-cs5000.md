@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS5000"
 ms.assetid: 8751c338-8cf4-41b3-9565-f65ffda4744a
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -38,4 +39,4 @@ translation.priority.mt:
 # Compiler Warning (level 1) CS5000
 Unknown compiler option '/option'  
   
- An invalid [compiler option](/dotnet/csharp/language-reference/compiler-options/csharp-compiler-options) was specified.
+ An invalid [compiler option](/dotnet/csharp/language-reference/compiler-options/index) was specified.

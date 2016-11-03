@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "installing Visual Studio, unattended"
   - "unattended installation, Visual Studio"
 ms.assetid: 3867b5dc-ed34-4ee2-be32-a42e7e320517
-caps.latest.revision: 43
+caps.latest.revision: 44
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
@@ -187,4 +187,4 @@ You can run the installation application for [!INCLUDE[vsprvs](../code-quality/i
      (For more information, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and the [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) topics.)  
   
 ## See Also  
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)
+ [Install Visual Studio](../install/install-visual-studio-2015.md)

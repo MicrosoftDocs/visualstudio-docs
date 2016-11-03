@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "speed up start time [Visual Studio]"
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 ---

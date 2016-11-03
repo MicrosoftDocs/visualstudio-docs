@@ -72,7 +72,7 @@ You can use the settings store to find all available services or to determine wh
      To verify these settings, you can use the registry editor.  
   
 ## Finding a Specific Service  
- You can also use the <xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists*> method to determine whether a particular service is installed. You must know the type of the service class.  
+ You can also use the <xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists%2A> method to determine whether a particular service is installed. You must know the type of the service class.  
   
 1.  In the MenuItemCallback of the project you created in the previous procedure, search the configuration settings store for the `Services` collection that has the subcollection named by the GUID of the service. In this case we will look for the Help service.  
   

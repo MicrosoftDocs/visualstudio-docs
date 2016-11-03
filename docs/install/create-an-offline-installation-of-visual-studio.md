@@ -14,7 +14,7 @@ f1_keywords:
   - "offline install"
   - "ISO"
 ms.assetid: 85d65709-42be-449f-9663-914bf1045089
-caps.latest.revision: 18
+caps.latest.revision: 19
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.mt: 
@@ -60,7 +60,7 @@ You can install Visual Studio when you are not connected to the Internet. Howeve
   
 |Component or Package|Solution|  
 |--------------------------|--------------|  
-|Dotfuscator and Analytics Community Edition 5.19.1 (for the Community, Professional, and Enterprise editions of Visual Studio, as installed on **Windows 7 SP1** and **Windows Server 2008 R2**)|If your offline machine is running **Windows 7 SP1** or **Windows Server 2008 R2**, you must perform the following steps before you install Visual Studio 2015:<br /><br /> 1.  Configure a file or web server to download the CTL files.<br /><br /> 2.    Redirect the Microsoft Automatic Update URL for a disconnected environment.<br /><br /> For more information, see the [Configure Trusted Roots and Disallowed Certificates](https://technet.microsoft.com/en-us/library/dn265983.aspx) page on the Microsoft TechNet site.|  
+|Dotfuscator and Analytics Community Edition 5.19.1 (for the Community, Professional, and Enterprise editions of Visual Studio, as installed on **Windows 7 SP1** and **Windows Server 2008 R2**)|If your offline machine is running **Windows 7 SP1** or **Windows Server 2008 R2**, you must perform the following steps before you install Visual Studio 2015:<br /><br /> 1.  Configure a file or web server to download the CTL files.<br /><br /> 2.    Redirect the Microsoft Automatic Update URL for a disconnected environment.<br /><br /> For more information, see the [Configure Trusted Roots and Disallowed Certificates](https://technet.microsoft.com/library/dn265983.aspx) page on the Microsoft TechNet site.|  
 |Android SDK Setup (API Level)|You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio:<br /><br /> -   http://dl.google.com:443<br />-   http://dl-ssl.google.com:443<br />-   https://dl-ssl.google.com/android/repository/*|  
 |Visual Studio Extensibility Item Templates<br /><br /> GitHub Extension for Visual Studio<br /><br /> PowerShell Tools for Visual Studio|If you do not have an internet connection when you install Visual Studio 2015, you can use a special offline feed to generate the offline installation layout. **Note:**  This special feed includes the most recent Updates to Visual Studio 2015. <br /><br /> To create the special offline feed, run the following command: /layout *Drive:*\VisualStudio2015 /overridefeeduri *URL-to-feed-xml*<br /><br /> For example, for an English-language special offline feed of Visual Studio 2015 Enterprise, run:<br /><br /> `vs_enterprise_ENU.exe /layout D:\VisualStudio2015 /overridefeeduri "http://go.microsoft.com/fwlink/?LinkID=785882&clcid0x409"`<br /><br /> For a complete list of URLs that you can use to create a special offline feed in the language of your choice, see the table below.|  
   
@@ -84,4 +84,4 @@ You can install Visual Studio when you are not connected to the Internet. Howeve
 |Turkish|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F|  
   
 ## See Also  
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)
+ [Install Visual Studio](../install/install-visual-studio-2015.md)

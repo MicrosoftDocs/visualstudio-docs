@@ -42,7 +42,7 @@ translation.priority.mt:
 -   Change the value of `DefaultToolsVersion` before you build a project.  
   
 ## See Also  
- <xref:Microsoft.Build.Utilities.Task.BuildEngine*>   
- <xref:Microsoft.Build.Utilities.Task.BuildEngine2*>   
+ <xref:Microsoft.Build.Utilities.Task.BuildEngine%2A>   
+ <xref:Microsoft.Build.Utilities.Task.BuildEngine2%2A>   
  [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
  [Additional Resources](../msbuild/additional-msbuild-resources.md)

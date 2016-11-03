@@ -52,7 +52,7 @@ To implement a command in a VSPackage, you must perform the following tasks:
   
 ```  
   
- In addition, you must register the command with the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService>. You can get this service by using the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method if your VSPackage is derived from <xref:Microsoft.VisualStudio.Shell.Package>.  
+ In addition, you must register the command with the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService>. You can get this service by using the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method if your VSPackage is derived from <xref:Microsoft.VisualStudio.Shell.Package>.  
   
 ```  
 OleMenuCommandService mcs = GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
@@ -72,7 +72,7 @@ if ( null != mcs )
  When a command is added to the command service, it becomes one of a chain of commands. When you implement the status notification and execution methods for the command, take care to provide only for that particular command and to pass all other cases on to the other commands in the chain. If you fail to pass the command on (usually by returning <xref:Microsoft.VisualStudio.OLE.Interop.Constants>), Visual Studio may stop working properly.  
   
 ## Query Status Methods  
- If you are implementing either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> method, check for the GUID of the command set to which the command belongs and the ID of the command. Follow these guidelines:  
+ If you are implementing either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> method, check for the GUID of the command set to which the command belongs and the ID of the command. Follow these guidelines:  
   
 -   If the GUID is not recognized, your implementation of either method must return <xref:Microsoft.VisualStudio.OLE.Interop.Constants>.  
   

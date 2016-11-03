@@ -1,7 +1,7 @@
 ---
 title: "How to: Manually Create Web Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio], Web"
 ms.assetid: 731c4027-a152-48c5-bfc4-93490bf1949f
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -46,7 +46,7 @@ The task was canceled before it reached the running state, or it acknowledged it
 ```  
   
 ## Remarks  
- If the [m_stateFlags](../../extensibility/debugger/m-stateflags-field.md) field contains this value, the <xref:System.Threading.Tasks.Task.Status*> property returns <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>.  
+ If the [m_stateFlags](../../extensibility/debugger/m-stateflags-field.md) field contains this value, the <xref:System.Threading.Tasks.Task.Status%2A> property returns <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>.  
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)

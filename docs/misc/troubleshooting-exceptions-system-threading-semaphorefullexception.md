@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Threading.SemaphoreFullException
-The exception that is thrown when the <xref:System.Threading.Semaphore.Release*> method overload is called on a semaphore whose count is already at the maximum.  
+The exception that is thrown when the <xref:System.Threading.Semaphore.Release%2A> method overload is called on a semaphore whose count is already at the maximum.  
   
 ## See Also  
  <xref:System.Threading.SemaphoreFullException>   

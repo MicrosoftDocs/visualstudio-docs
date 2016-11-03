@@ -1,7 +1,7 @@
 ---
 title: "VSPackage Structure (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # VSPackage Structure (Source Control VSPackage)
 The Source Control Package SDK provides guidelines for creating a VSPackage that allow a source control implementer to integrate his or her source control functionality with the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment. A VSPackage is a COM component that is typically loaded on demand by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) based on the services that are advertised by the package in its registry entries. Every VSPackage must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. A VSPackage typically consumes services offered by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE and proffers some services of its own.  
   
- A VSPackage declares its menu items and establishes a default item state via the .vsct file. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE displays the menu items in this state until the VSPackage is loaded. Subsequently, the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method is called to enable or disable menu items.  
+ A VSPackage declares its menu items and establishes a default item state via the .vsct file. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE displays the menu items in this state until the VSPackage is loaded. Subsequently, the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.  
   
 ## Source Control Package Characteristics  
  A source control VSPackage is deeply integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

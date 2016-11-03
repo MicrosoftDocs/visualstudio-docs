@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2001"
 ms.assetid: a6912345-cb26-4a2d-b969-18519555f4f5
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

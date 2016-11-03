@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "var JavaScript XML tag"
 ms.assetid: 34ff9023-c81c-46d1-85b6-0022f0962e66
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

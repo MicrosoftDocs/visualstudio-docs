@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), RC task"
 ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

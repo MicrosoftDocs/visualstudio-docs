@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3019"
 ms.assetid: b41117cf-8956-4989-93fd-9903812e2d2f
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

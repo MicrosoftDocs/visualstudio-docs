@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, msbuild properties"
 ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,9 +86,9 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 ## Properties and Items in Tasks  
  Properties and items are used as inputs and outputs to MSBuild tasks. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
- Properties are passed to tasks as attributes. Within the task, an MSBuild property is represented by a property type whose value can be converted to and from a string. The supported property types include `bool`, `char`, `DateTime`, `Decimal`, `Double`, `int`, `string`, and any type that <xref:System.Convert.ChangeType*> can handle.  
+ Properties are passed to tasks as attributes. Within the task, an MSBuild property is represented by a property type whose value can be converted to and from a string. The supported property types include `bool`, `char`, `DateTime`, `Decimal`, `Double`, `int`, `string`, and any type that <xref:System.Convert.ChangeType%2A> can handle.  
   
- Items are passed to tasks as <xref:Microsoft.Build.Framework.ITaskItem> objects. Within the task, <xref:Microsoft.Build.Framework.ITaskItem.ItemSpec*> represents the value of the item and <xref:Microsoft.Build.Framework.ITaskItem.GetMetadata*> retrieves its metadata.  
+ Items are passed to tasks as <xref:Microsoft.Build.Framework.ITaskItem> objects. Within the task, <xref:Microsoft.Build.Framework.ITaskItem.ItemSpec%2A> represents the value of the item and <xref:Microsoft.Build.Framework.ITaskItem.GetMetadata%2A> retrieves its metadata.  
   
  The item list of an item type can be passed as an array of `ITaskItem` objects. Beginning with the .NET Framework 3.5, items can be removed from an item list in a target by using the `Remove` attribute. Because items can be removed from an item list, it is possible for an item type to have zero items. If an item list is passed to a task, the code in the task should check for this possibility.  
   

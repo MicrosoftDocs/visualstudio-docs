@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1947"
 ms.assetid: e2822fba-a176-4466-9cdc-63c44e22ebcb
 caps.latest.revision: 6
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

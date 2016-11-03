@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], opening"
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
 caps.latest.revision: 39
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

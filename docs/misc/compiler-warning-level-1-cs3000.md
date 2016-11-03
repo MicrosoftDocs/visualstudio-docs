@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3000"
 ms.assetid: 37cdd3dc-8481-4e29-b78c-281baeca2d64
 caps.latest.revision: 11
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

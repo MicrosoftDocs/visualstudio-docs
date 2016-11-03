@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "project files, referencing"
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

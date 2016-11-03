@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Rule Condition dialog box"
 ms.assetid: c7ca8be9-de31-4a64-939c-4d53a50d5e29
 caps.latest.revision: 6
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

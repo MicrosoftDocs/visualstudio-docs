@@ -1,7 +1,7 @@
 ---
 title: "Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ This section lists all the source control VSPackage-related interfaces in the [!
 |---------------|-------------|--------------------|----------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>|Editors call this interface before modifying or saving a file. The source control VSPackage can check out the file or deny the operation if the checkout fails.|Source control VSPackage|Recommended|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>|This interface provides basic source control functionality for projects, such as registering and unregistering projects with source control and providing support for basic source control glyphs.|Source control VSPackage|Required|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|This interface is obtained from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> using the <xref:System.Runtime.InteropServices.Marshal.QueryInterface*> function, or by simply casting the object implementing `IVsHierarchy` to `IVsSccProject2`. It is used for getting the files under source control in a project or for informing the project of the current source control status or location.|Project|Required|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|This interface is obtained from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> using the <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> function, or by simply casting the object implementing `IVsHierarchy` to `IVsSccProject2`. It is used for getting the files under source control in a project or for informing the project of the current source control status or location.|Project|Required|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>|The integration module uses this interface to set the current active VSPackage.|Source control VSPackage|Required|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>|This interface is based on a subscription model. Any VSPackage can signal that it wants to receive document events and be advised by the shell on events that are about to happen. It is implemented and handled by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], which in turn passes events implementing the `IVsTrackProjectDocumentsEvents2` to the VSPackage.|Source Control Stub|Required|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments3>|This interface provides batch processing, synchronized read/write operations, and an advanced `OnQueryAddFiles` method.|Source Control Stub|Required|  

@@ -1,7 +1,7 @@
 ---
 title: "Customizing Deletion Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -135,13 +135,13 @@ partial class MusicLibDeleteClosure
 ##  <a name="ondeleting"></a> Using OnDeleting and OnDeleted  
  You can override `OnDeleting()` or `OnDeleted()` either in a domain class, or in a domain relationship.  
   
-1.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting*> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.  
+1.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting%2A> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.  
   
      If several elements are deleted at the same time, OnDeleting is called for all of them before performing the deletions.  
   
      `IsDeleting` is true.  
   
-2.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted*> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.  
+2.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.  
   
 3.  OnDeleting and OnDeleted are called when the user invokes Undo after a creating an element, and when an earlier deletion is repeated in Redo. Use `this.Store.InUndoRedoOrRollback` to avoid updating store elements in these cases. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
@@ -197,7 +197,7 @@ partial class Artist
   
 ```  
   
- When you perform <xref:Microsoft.VisualStudio.Modeling.ModelElement.Delete*> on an element, OnDeleting and OnDeleted will be called. These methods are always performed inline – that is, immediately before and after the actual deletion. If your code deletes two or more elements, OnDeleting and OnDeleted will be called in alternation on all of them in turn.  
+ When you perform <xref:Microsoft.VisualStudio.Modeling.ModelElement.Delete%2A> on an element, OnDeleting and OnDeleted will be called. These methods are always performed inline – that is, immediately before and after the actual deletion. If your code deletes two or more elements, OnDeleting and OnDeleted will be called in alternation on all of them in turn.  
   
 ##  <a name="rules"></a> Deletion Rules and Events  
  As an alternative  to  OnDelete handlers, you can define deletion rules and deletion events.  

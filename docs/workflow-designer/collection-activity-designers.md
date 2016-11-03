@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 6a07ed95-8319-44a2-8a1d-b4a89f16d0d9
 caps.latest.revision: 4
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -31,13 +32,13 @@ The Collection activity designers are used to create and configure activities us
   
 ## In This Section  
  [AddToCollection\<T>](../workflow-designer/addtocollection-t-activity-designer.md)  
- Used to create and configure an <xref:System.Activities.Statements.AddToCollection`1> activity.  
+ Used to create and configure an <xref:System.Activities.Statements.AddToCollection%601> activity.  
   
  [ClearCollection<T\>](../workflow-designer/clearcollection-t-activity-designer.md)  
- Used to create and configure a <xref:System.Activities.Statements.ClearCollection`1> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.  
   
  [ExistsInCollection\<T>](../workflow-designer/existsincollection-t-activity-designer.md)  
- Used to create and configure an <xref:System.Activities.Statements.ExistsInCollection`1> activity.  
+ Used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.  
   
  [RemoveFromCollection<T\>](../workflow-designer/removefromcollection-t-activity-designer.md)  
- Used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection`1> activity.
+ Used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.

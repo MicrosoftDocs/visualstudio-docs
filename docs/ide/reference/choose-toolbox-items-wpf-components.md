@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Choose Toolbox Items dialog box, WPF Components tab"
 ms.assetid: 6ce1d178-88c0-4295-8915-59fdeedabb11
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

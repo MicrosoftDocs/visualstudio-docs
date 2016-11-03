@@ -152,7 +152,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
      ![Concurrency Visualizer with markers and alerts](../profiling/media/cvmarkersmanaged.png "CvMarkersManaged")  
   
-5.  Add code to create customer marker series by using the static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries*> method. The <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> class contains methods for creating spans and writing flags, messages, and alerts.  
+5.  Add code to create customer marker series by using the static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> method. The <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> class contains methods for creating spans and writing flags, messages, and alerts.  
   
     ```vb  
   

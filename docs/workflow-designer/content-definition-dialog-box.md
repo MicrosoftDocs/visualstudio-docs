@@ -11,6 +11,7 @@ f1_keywords:
   - "MessageContent.UI"
 ms.assetid: 7e4237c3-90a1-4149-bd8a-3643d1dde0df
 caps.latest.revision: 3
+author: "ErikeRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ The **Content Definition** dialog box is used in [!INCLUDE[wfd1](../workflow-des
   
  The **Content Definition** dialog box is used by the **Send**, **Receive**, **ReceiveAndSendReply**, and **SendAndReceiveReply** designers. Accessing them is similar in each case and the Receive case is used here to illustrate the procedure.  
   
- The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName*> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Content) text for the **Content** property in the property grid for the **Content Definition** dialog box to appear.  
+ The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Content) text for the **Content** property in the property grid for the **Content Definition** dialog box to appear.  
   
  The content can be specified within the **Message** section for a <xref:System.ServiceModel.Activities.ReceiveMessageContent> activity or within the **Parameter** section for a <xref:System.ServiceModel.Activities.ReceiveParametersContent> activity.  
   

@@ -47,7 +47,7 @@ Visual Studio provides several different types of windows, for example tool wind
   
  Tool windows can be docked, floating, or tabbed in the document frame. The tool window frame is provided by the IDE and is used to control the size, location, docking state, and other persistent properties. The tool window pane displays the contents. The default size and location apply only when the tool window is first opened; after that the tool window state is persisted.  
   
- Tool window panes can host WPF user controls and support toolbars. You can override the <xref:Microsoft.VisualStudio.Shell.WindowPane.Window*> property to return the handle of the hosted control.  
+ Tool window panes can host WPF user controls and support toolbars. You can override the <xref:Microsoft.VisualStudio.Shell.WindowPane.Window%2A> property to return the handle of the hosted control.  
   
  You can add many different features to tool windows. For example, you can add a toolbar: [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md) or a shortcut menu: [Adding a Shortcut Menu in a Tool Window](../extensibility/adding-a-shortcut-menu-in-a-tool-window.md). You can add a Search control that allows you to search items inside your tool window: [Adding Search to a Tool Window](../extensibility/adding-search-to-a-tool-window.md).  
   

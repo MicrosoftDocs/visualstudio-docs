@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1583"
 ms.assetid: e8ae63bc-f1ef-47e0-be9f-8c49e65a9122
 caps.latest.revision: 9
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1642"
 ms.assetid: 2efeedf1-1839-485d-8b8c-9045df1951f0
 caps.latest.revision: 10
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

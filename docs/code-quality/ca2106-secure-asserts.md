@@ -57,5 +57,5 @@ translation.priority.mt:
  Suppress a warning from this rule only after a careful security review.  
   
 ## See Also  
- <xref:System.Security.CodeAccessPermission.Assert*?displayProperty=fullName>   
+ <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>   
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS2012"
 ms.assetid: 34cf0564-125b-47ed-ac39-d3b707be0ff3
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

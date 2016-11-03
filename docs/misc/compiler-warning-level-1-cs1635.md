@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1635"
 ms.assetid: e1795880-f7ea-4dca-b15b-4ba549d7ed78
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1021"
 ms.assetid: 0346ba58-d7cd-40bd-bcad-b90117fdc9b5
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

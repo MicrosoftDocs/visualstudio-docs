@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3014"
 ms.assetid: 6825b42f-1820-4265-b8d8-9b3387d7c130
 caps.latest.revision: 12
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

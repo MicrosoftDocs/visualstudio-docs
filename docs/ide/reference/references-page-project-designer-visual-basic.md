@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "Unused References dialog box"
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 caps.latest.revision: 34
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

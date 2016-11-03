@@ -61,7 +61,7 @@ Application settings for Windows Forms makes it easy to create, store, and maint
 |Setting's default changed; local setting still set to original default in user.config|The setting is merged into the current version's user.config with the new default as the value|  
 |Setting's default changed; setting set to non-default in user.config|The setting is merged into the current version's user.config with the non-default value retained|  
   
- If you have created your own application settings wrapper class and wish to customize the update logic, you can override the <xref:System.Configuration.ApplicationSettingsBase.Upgrade*> method.  
+ If you have created your own application settings wrapper class and wish to customize the update logic, you can override the <xref:System.Configuration.ApplicationSettingsBase.Upgrade%2A> method.  
   
 ## ClickOnce and Roaming Settings  
  ClickOnce does not work with roaming settings, which allows your settings file to follow you across machines on a network. If you need roaming settings, you will need either to implement an application settings provider that stores settings over the network, or develop your own custom settings classes for storing settings on a remote computer. For more information in settings providers, see [Application Settings Architecture](../Topic/Application%20Settings%20Architecture.md).  

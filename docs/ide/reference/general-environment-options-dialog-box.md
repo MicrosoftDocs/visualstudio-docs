@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "General Environment Options dialog box"
 ms.assetid: 90fc2e6f-572f-4384-96d8-5678299ce58e
 caps.latest.revision: 34
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration for Building | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,11 +62,11 @@ Project dependencies
   
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] build processes include the typical compile and link operations that are invoked with a single Build command. Two other build processes can also be supported: a clean operation to delete all output items from a previous build, and an up-to-date check to determine if an output item in a configuration has changed.  
   
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> objects return a corresponding <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> (returned from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType*>) to manage their build processes. To report the status of a build operation while it is occurring, configurations make calls to <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildStatusCallback>, an interface implemented by the environment and any other object interested in build status events.  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> objects return a corresponding <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> (returned from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>) to manage their build processes. To report the status of a build operation while it is occurring, configurations make calls to <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildStatusCallback>, an interface implemented by the environment and any other object interested in build status events.  
   
  Once built, configuration settings can be used to determine whether or not they can be run under the control of the debugger. Configurations implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg> to support debugging.  
   
- After implementing the project dependencies, you can programmatically manipulate the dependencies through the automation model. You call <xref:EnvDTE.SolutionBuild.BuildDependencies*> in the automation model. There are no available VSIP API-level interfaces that allow the direct manipulation of the solution build manager configurations and their properties.  
+ After implementing the project dependencies, you can programmatically manipulate the dependencies through the automation model. You call <xref:EnvDTE.SolutionBuild.BuildDependencies%2A> in the automation model. There are no available VSIP API-level interfaces that allow the direct manipulation of the solution build manager configurations and their properties.  
   
  In addition, you can provide a grid in the project dependencies window. For more information, see [Properties Display Grid](../../extensibility/internals/properties-display-grid.md).  
   

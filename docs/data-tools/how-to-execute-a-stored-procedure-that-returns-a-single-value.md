@@ -114,16 +114,16 @@ To execute a stored procedure that returns a single value, you can run TableAdap
   
 #### To execute a stored procedure that returns a single value using a DataCommand  
   
--   Add the following code to a method that you want to execute the code from. You return single values by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an `object`.  
+-   Add the following code to a method that you want to execute the code from. You return single values by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar%2A>). The data is returned in an `object`.  
   
      [!code-cs[VbRaddataFillingAndExecuting#14](../data-tools/codesnippet/CSharp/how-to-execute-a-stored-procedure-that-returns-a-single-value_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#14](../data-tools/codesnippet/VisualBasic/how-to-execute-a-stored-procedure-that-returns-a-single-value_2.vb)]  
   
 ## See Also  
- <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.OleDb.OleDbCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.Odbc.OdbcCommand.ExecuteScalar*?displayProperty=fullName>   
- <xref:System.Data.OracleClient.OracleCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.OleDb.OleDbCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.Odbc.OdbcCommand.ExecuteScalar%2A?displayProperty=fullName>   
+ <xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A?displayProperty=fullName>   
  [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md)   
  [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md)   

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS3021"
 ms.assetid: 89f09e4d-65b0-4422-86ea-85c7e05ac29b
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

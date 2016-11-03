@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1503"
 ms.assetid: 65e4c63d-928d-49f5-8fac-8e113b07e128
 caps.latest.revision: 12
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], dependencies"
 ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

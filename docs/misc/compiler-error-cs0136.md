@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0136"
 ms.assetid: 379a1a7d-c52c-4f2b-9e77-c1107d26faf4
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
@@ -61,6 +62,6 @@ namespace MyNamespace
 }  
 ```  
   
- From the [C# Language Specification](/dotnet/csharp/language-reference/csharp-language-specification), Section 7.5.2.1:  
+ From the [C# Language Specification](/dotnet/csharp/language-reference/language-specification), Section 7.5.2.1:  
   
  For each occurrence of a given identifier as a simple-name in an expression or declarator, within the local variable declaration space (§3.3) immediately enclosing that occurrence, every other occurrence of the same identifier as a simple-name in an expression or declarator must refer to the same entity. This rule ensures that the meaning of a name is always the same within a given block, switch block, for-, foreach- or using-statement, or anonymous function.

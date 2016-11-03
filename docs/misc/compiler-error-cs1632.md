@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1632"
 ms.assetid: fa18061a-8c6c-4788-b74e-62bacb16aed8
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

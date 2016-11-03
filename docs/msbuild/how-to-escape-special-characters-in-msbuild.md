@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSBuild, escaping special characters"
 ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

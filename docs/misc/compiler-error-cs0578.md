@@ -147,6 +147,7 @@ helpviewer_keywords:
   - "CS0578"
 ms.assetid: fbc5c884-e358-48f1-aeac-5ec8fd9f0c40
 caps.latest.revision: 8
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

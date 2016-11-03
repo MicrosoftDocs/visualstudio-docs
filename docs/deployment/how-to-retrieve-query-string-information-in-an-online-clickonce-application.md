@@ -66,7 +66,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
      [!code-cs[ClickOnceQueryString#1](../deployment/codesnippet/CSharp/how-to-retrieve-query-string-information-in-an-online-clickonce-application_1.cs)]
      [!code-vb[ClickOnceQueryString#1](../deployment/codesnippet/VisualBasic/how-to-retrieve-query-string-information-in-an-online-clickonce-application_1.vb)]  
   
-2.  Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary*> of the query string parameters, indexed by name.  
+2.  Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.  
   
 ### To enable query string passing in a ClickOnce application with MageUI.exe  
   

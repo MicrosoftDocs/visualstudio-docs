@@ -48,9 +48,9 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
   
  The easiest way to implement a transaction is to instantiate a <xref:System.Transactions.TransactionScope> object in a `using` statement. (For more information, see [Using Statement](/dotnet/visual-basic/language-reference/statements/using-statement), and [using Statement](/dotnet/csharp/language-reference/keywords/using-statement).) The code that runs within the `using` statement participates in the transaction.  
   
- To commit the transaction, call the <xref:System.Transactions.TransactionScope.Complete*> method as the last statement in the using block.  
+ To commit the transaction, call the <xref:System.Transactions.TransactionScope.Complete%2A> method as the last statement in the using block.  
   
- To roll back the transaction, throw an exception prior to calling the <xref:System.Transactions.TransactionScope.Complete*> method.  
+ To roll back the transaction, throw an exception prior to calling the <xref:System.Transactions.TransactionScope.Complete%2A> method.  
   
  For more information, see [Save data in a transaction](../data-tools/save-data-in-a-transaction.md).  
   

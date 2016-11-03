@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "MarkupCompilePass2 task [WPF MSBuild], parameters"
 ms.assetid: 1d25689a-d21f-4b05-be26-95aa0ed4fd03
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

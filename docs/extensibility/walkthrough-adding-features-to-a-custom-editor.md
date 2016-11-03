@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Adding Features to a Custom Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,17 +68,17 @@ After you create a custom editor, you can add more features to it.
   
     1.  Obtain a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.  
   
-    2.  When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles*> method.  
+    2.  When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method.  
   
          This prompts the user to check out the file if it is not already checked out. Be sure to handle a "file not checked out" condition to avert errors  
   
-    3.  Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile*> method.  
+    3.  Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> method.  
   
          This method prompts the user to save the file if it has not been saved or if it has changed since the last save.  
   
 8.  Enable the **Properties** window to display properties for text selected in the editor. To do this:  
   
-    1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange*> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
+    1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
   
     2.  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
   
@@ -88,7 +88,7 @@ After you create a custom editor, you can add more features to it.
   
     2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.  
   
-    3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.  
+    3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.  
   
          This enables your VSPackage to add new items to the **Toolbox**.  
   
@@ -136,7 +136,7 @@ After you create a custom editor, you can add more features to it.
   
 ## Robust Programming  
   
--   The editor instance is created when the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
+-   The editor instance is created when the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
 -   If you use the simplified embedding approach, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface.  
   
@@ -157,7 +157,7 @@ After you create a custom editor, you can add more features to it.
   
 -   `ISelectionContainer` can express both single and multiple selections. Each selected object is implemented as an `IDispatch` object.  
   
--   The IDE implements `IOleUndoManager` as a service accessible from a <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*> or as an object that can be instantiated through <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
+-   The IDE implements `IOleUndoManager` as a service accessible from a <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A> or as an object that can be instantiated through <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
   
 -   There are two places a custom editor can expose automation objects:  
   

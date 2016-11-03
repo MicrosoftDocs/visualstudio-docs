@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "IntelliSense [JavaScript], XML documentation comments"
 ms.assetid: db0aa50d-f0a4-47ef-ac02-7b1cc015fc7e
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS0513"
 ms.assetid: 6f8569df-713d-4c9c-a675-6576dad139ce
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

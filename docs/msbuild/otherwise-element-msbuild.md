@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Otherwise Element [MSBuild]"
 ms.assetid: de3997e9-1595-4263-a886-95530b56a319
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

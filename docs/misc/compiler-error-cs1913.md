@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1913"
 ms.assetid: 652494b3-9576-4a4c-a9ee-695f86c4a023
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

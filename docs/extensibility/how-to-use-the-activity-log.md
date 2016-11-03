@@ -39,7 +39,7 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 ### To write an entry to the activity log  
   
-1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method or in any other method except the VSPackage constructor:  
+1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:  
   
     ```c#  
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
@@ -51,7 +51,7 @@ VSPackages can write messages to the activity log. This feature is especially us
         "Called for: {0}", this.ToString()));  
     ```  
   
-     This code gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry*> writes an informational entry into the activity log using the current cultural context.  
+     This code gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry%2A> writes an informational entry into the activity log using the current cultural context.  
   
 2.  When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.  
   

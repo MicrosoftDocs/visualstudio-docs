@@ -70,9 +70,9 @@ You can add command-line switches that apply to your VSPackage when devenv.exe i
 ## Retrieving Command-Line Switches  
  When your package is loaded, you can retrieve the command-line switches by completing the following steps.  
   
-1.  In your VSPackage's <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> implementation, call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsAppCommandLine> to get the <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine> interface.  
+1.  In your VSPackage's <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation, call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsAppCommandLine> to get the <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine> interface.  
   
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine.GetOption*> to retrieve the command-line switches that the user entered.  
+2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine.GetOption%2A> to retrieve the command-line switches that the user entered.  
   
  The following code shows how to find out whether the MySwitch command-line switch was entered by the user:  
   
@@ -89,7 +89,7 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine>   
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
  [CreatePkgDef Utility](../extensibility/internals/createpkgdef-utility.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)

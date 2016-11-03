@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Code Editor, customizing"
 ms.assetid: 7f4eee2a-586f-49ae-a763-4d9c0ac5bc71
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

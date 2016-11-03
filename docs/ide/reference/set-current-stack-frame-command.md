@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.SetCurrentStackFrame command"
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

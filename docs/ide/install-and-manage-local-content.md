@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

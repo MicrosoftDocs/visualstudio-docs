@@ -56,9 +56,9 @@ You can write run-time messages to the Output window using the Debug class or th
   
 -   Various `Write` methods, which output information without breaking execution. These methods replace the `Debug.Print` method used in previous versions of Visual Basic.  
   
--   <xref:System.Diagnostics.Debug.Assert*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert*?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
+-   <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
   
--   The <xref:System.Diagnostics.Debug.Fail*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail*?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
+-   The <xref:System.Diagnostics.Debug.Fail%2A?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail%2A?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
   
  In addition to program out from your application, the **Output** window can display the information about:  
   

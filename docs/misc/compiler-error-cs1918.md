@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CS1918"
 ms.assetid: 9ad2cbbd-3c10-4d56-b4cd-385103d005d4
 caps.latest.revision: 7
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 
