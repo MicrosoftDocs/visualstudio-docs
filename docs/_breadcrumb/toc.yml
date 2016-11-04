@@ -12,7 +12,7 @@
     - name: Cross Platform
       tocHref: /visual-studio/cross-platform/
       topicHref: /visual-studio/cross-platform/cross-platform-mobile-development-in-visual-studio.md
-   - name: C# IDE
+   - name: CSharp IDE
       tocHref: /visual-studio/csharp-ide/
       topicHref: /visual-studio/csharp-ide/using-the-visual-studio-development-environment-for-csharp.md
    - name: Data Tools
