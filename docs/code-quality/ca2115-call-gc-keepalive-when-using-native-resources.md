@@ -1,7 +1,7 @@
 ---
 title: "CA2115: Call GC.KeepAlive when using native resources | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CallGCKeepAliveWhenUsingNativeResources"
 ms.assetid: f00a59a7-2c6a-4bbe-a1b3-7bf77d366f34
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

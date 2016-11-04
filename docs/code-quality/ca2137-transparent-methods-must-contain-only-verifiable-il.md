@@ -1,7 +1,7 @@
 ---
 title: "CA2137: Transparent methods must contain only verifiable IL | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "CA2137"
 ms.assetid: cbaeb0e1-56b6-43b4-812a-596b2859c329
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

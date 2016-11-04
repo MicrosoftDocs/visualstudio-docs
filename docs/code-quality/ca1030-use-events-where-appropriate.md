@@ -1,7 +1,7 @@
 ---
 title: "CA1030: Use events where appropriate | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "UseEventsWhereAppropriate"
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

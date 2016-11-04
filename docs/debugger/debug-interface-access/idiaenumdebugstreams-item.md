@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::Item method"
 ms.assetid: 6b388fe1-eabc-4720-9d59-dc09b0ceaeac
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

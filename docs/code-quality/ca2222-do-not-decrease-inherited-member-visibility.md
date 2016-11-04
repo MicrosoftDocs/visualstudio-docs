@@ -1,7 +1,7 @@
 ---
 title: "CA2222: Do not decrease inherited member visibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2222"
 ms.assetid: 066c8675-381f-43cc-956c-d757cc494028
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

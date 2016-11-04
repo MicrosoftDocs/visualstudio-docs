@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Average CPU Utilization"
 ms.assetid: 5797d004-2325-46cf-bbf3-6739a15958ec
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

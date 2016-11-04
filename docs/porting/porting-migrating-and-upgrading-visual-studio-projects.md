@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "projects, conversion"
 ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 caps.latest.revision: 105
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

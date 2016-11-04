@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.cpu.graph.gpu"
 ms.assetid: d7c769af-95fb-49a3-b5ab-deafecee46fa
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

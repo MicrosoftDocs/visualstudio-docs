@@ -1,7 +1,7 @@
 ---
 title: "CA2201: Do not raise reserved exception types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotRaiseReservedExceptionTypes"
 ms.assetid: dd14ef5c-80e6-41a5-834e-eba8e2eae75e
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaInjectedSource interface"
 ms.assetid: 75192c5c-812d-4675-9dc5-4c2cff3ba503
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Blocking Time Profile Report"
 ms.assetid: 3bc45af0-3ba6-4fa3-a336-be8e9ae95107
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

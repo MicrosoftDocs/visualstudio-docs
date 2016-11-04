@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::findFile method"
 ms.assetid: a215dc21-b316-40d7-9923-55bfa014976b
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

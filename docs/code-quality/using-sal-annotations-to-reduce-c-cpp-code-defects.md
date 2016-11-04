@@ -1,7 +1,7 @@
 ---
 title: "Using SAL Annotations to Reduce C-C++ Code Defects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "code analysis, annotation"
 ms.assetid: a16e47d0-6f3e-4ed6-8883-459b2874e9a4
 caps.latest.revision: 27
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

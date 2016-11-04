@@ -1,7 +1,7 @@
 ---
 title: "CA1703: Resource strings should be spelled correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ResourceStringsShouldBeSpelledCorrectly"
 ms.assetid: 693f4970-f512-40cb-ae3b-a0f3a5c6d6f1
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

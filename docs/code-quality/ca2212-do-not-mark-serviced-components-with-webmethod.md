@@ -1,7 +1,7 @@
 ---
 title: "CA2212: Do not mark serviced components with WebMethod | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotMarkServicedComponentsWithWebMethod"
 ms.assetid: 774bc55d-e588-48ee-8f38-c228580feca2
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

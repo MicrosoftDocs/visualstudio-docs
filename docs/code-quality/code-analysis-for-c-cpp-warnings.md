@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for C-C++ Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,9 +21,9 @@ helpviewer_keywords:
   - "warnings, C/C++ analysis"
 ms.assetid: 28f3fda6-35e8-485b-9755-1991aaccec3f
 caps.latest.revision: 41
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

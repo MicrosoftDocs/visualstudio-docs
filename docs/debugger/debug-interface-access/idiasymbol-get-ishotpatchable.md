@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isHotpatchable method"
 ms.assetid: b7b6f490-1cf2-4a68-9237-b152dac84d3c
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

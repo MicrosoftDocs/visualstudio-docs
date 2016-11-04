@@ -1,7 +1,7 @@
 ---
 title: "Intrinsic Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,9 @@ f1_keywords:
   - "_Inexpressible_"
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 caps.latest.revision: 7
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

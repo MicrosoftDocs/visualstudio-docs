@@ -1,7 +1,7 @@
 ---
 title: "CA2239: Provide deserialization methods for optional fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2239"
 ms.assetid: 6480ff5e-0caa-4707-814e-2f927cdafef5
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

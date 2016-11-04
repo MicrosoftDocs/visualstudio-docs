@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumStackFrames::Reset method"
 ms.assetid: efaba727-f271-44e9-beec-8441fb57664d
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

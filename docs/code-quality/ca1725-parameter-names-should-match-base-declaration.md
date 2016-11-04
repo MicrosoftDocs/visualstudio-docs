@@ -1,7 +1,7 @@
 ---
 title: "CA1725: Parameter names should match base declaration | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ParameterNamesShouldMatchBaseDeclaration"
 ms.assetid: 9b657ab0-fe81-4f4c-9481-ba746988c922
 caps.latest.revision: 11
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

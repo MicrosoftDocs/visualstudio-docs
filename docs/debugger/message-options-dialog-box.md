@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Spy++, message options"
 ms.assetid: 88ad85af-3f56-4df1-98b6-fab34c1e5874
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

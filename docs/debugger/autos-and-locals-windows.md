@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], variable windows"
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Attach to Running Processes with the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "debugger, processes"
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 caps.latest.revision: 53
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

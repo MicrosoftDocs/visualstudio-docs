@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "visualizers, string"
 ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

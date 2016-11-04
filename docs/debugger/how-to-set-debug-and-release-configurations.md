@@ -37,6 +37,7 @@ helpviewer_keywords:
   - "Visual Basic projects, debug and release builds"
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

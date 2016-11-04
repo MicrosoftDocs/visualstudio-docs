@@ -1,7 +1,7 @@
 ---
 title: "CA2225: Operator overloads have named alternates | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2225"
 ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
 caps.latest.revision: 20
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

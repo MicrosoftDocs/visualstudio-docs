@@ -13,9 +13,9 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 ms.assetid: b3000b31-fd9d-489e-81a2-a4bee49453ba
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

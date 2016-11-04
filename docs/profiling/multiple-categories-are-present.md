@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Multiple Categories Are Present"
 ms.assetid: f5c7ec07-8052-4df7-a0ca-7ec8bb3eee18
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

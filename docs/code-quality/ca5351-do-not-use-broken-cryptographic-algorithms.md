@@ -1,7 +1,7 @@
 ---
 title: "CA5351 Do Not Use Broken Cryptographic Algorithms | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,7 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 483f51b3-e186-4433-b48e-5ca24a9a9c94
 caps.latest.revision: 12
-ms.author: "gregvanl"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

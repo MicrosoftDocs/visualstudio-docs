@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_targetVirtualAddress method"
 ms.assetid: a0a5ce72-95f8-443e-bb4b-8c21194faad0
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

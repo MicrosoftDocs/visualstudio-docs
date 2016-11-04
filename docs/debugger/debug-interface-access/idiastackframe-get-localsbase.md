@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_localsBase method"
 ms.assetid: eb0bd73e-d92d-468e-a0b1-fbc279919f54
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

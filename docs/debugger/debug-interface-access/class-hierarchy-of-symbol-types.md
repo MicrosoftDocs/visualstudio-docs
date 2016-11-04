@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "symbols [DIA SDK], class hierarchies"
 ms.assetid: 0ccd6990-4654-44cd-a6f3-bdd82fe90f6c
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], specifying .NET Framework version"
 ms.assetid: 7a4893ba-4620-4774-893f-378d4ca28893
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "logs, starting message log display"
 ms.assetid: 3036611c-acf3-42b6-b5d7-1a0c653f6af9
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "CA1046: Do not overload operator equals on reference types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotOverloadOperatorEqualsOnReferenceTypes"
 ms.assetid: c1dfbfe3-63f9-4005-a81a-890427b77e79
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

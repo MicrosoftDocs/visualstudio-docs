@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "debugging ASP.NET Web applications, during development"
 ms.assetid: 6440d12e-6b29-42c5-a958-99aeaaff480f
 caps.latest.revision: 37
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

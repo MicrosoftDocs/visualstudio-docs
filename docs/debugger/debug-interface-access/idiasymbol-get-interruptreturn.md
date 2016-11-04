@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_interruptReturn method"
 ms.assetid: 9665da6c-4cc0-41d7-b2e2-0d9e50174cf8
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

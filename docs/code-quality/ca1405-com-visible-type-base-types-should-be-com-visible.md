@@ -1,7 +1,7 @@
 ---
 title: "CA1405: COM visible type base types should be COM visible | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ComVisibleTypeBaseTypesShouldBeComVisible"
 ms.assetid: a762ea2f-5285-4f73-bfb9-9eb10aea4290
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

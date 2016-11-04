@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_functionParent method"
 ms.assetid: f00b9ab1-d4da-4818-973a-58f8f0e66769
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

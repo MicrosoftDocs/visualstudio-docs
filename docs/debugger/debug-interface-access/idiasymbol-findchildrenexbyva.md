@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::findChildrenExByVA"
 ms.assetid: 29080009-36e4-4697-acd7-50f2e3e1bf1b
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

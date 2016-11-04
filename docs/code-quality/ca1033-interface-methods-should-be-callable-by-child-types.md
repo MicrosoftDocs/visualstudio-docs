@@ -1,7 +1,7 @@
 ---
 title: "CA1033: Interface methods should be callable by child types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "InterfaceMethodsShouldBeCallableByChildTypes"
 ms.assetid: 9f171497-a5e3-4769-a77b-7aed755b2662
 caps.latest.revision: 17
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

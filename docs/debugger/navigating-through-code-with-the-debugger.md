@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "execution, controlling in debugger"
 ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
 caps.latest.revision: 42
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

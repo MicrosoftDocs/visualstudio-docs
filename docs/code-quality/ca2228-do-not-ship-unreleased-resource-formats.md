@@ -1,7 +1,7 @@
 ---
 title: "CA2228: Do not ship unreleased resource formats | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotShipUnreleasedResourceFormats"
 ms.assetid: 2c614edc-4e94-4b4f-8067-eea677a75cd9
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

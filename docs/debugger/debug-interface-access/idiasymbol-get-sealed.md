@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_sealed method"
 ms.assetid: cd1fef1f-47de-47c7-885f-f6f0a9a07d8c
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

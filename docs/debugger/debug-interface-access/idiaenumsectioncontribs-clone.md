@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSectionContribs::Clone method"
 ms.assetid: 81d3f3a7-3684-4e5c-b028-29b268684a2c
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

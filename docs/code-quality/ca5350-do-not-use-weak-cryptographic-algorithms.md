@@ -1,7 +1,7 @@
 ---
 title: "CA5350: Do Not Use Weak Cryptographic Algorithms | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,7 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4c51bb8a-fcfa-46aa-ab61-634be84c4a7a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

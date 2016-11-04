@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Label symbol"
 ms.assetid: 8cef7620-5bc8-4500-8bd0-e9e638bccb24
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

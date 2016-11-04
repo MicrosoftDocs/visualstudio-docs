@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "performance sessions, launching"
 ms.assetid: ba77fcf4-8d78-49f1-b8f3-7dd0acf84306
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

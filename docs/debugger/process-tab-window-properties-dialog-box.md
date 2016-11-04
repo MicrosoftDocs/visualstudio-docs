@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Window Properties dialog box, Process Tab"
 ms.assetid: bb464429-4e7c-4919-98b5-1aaafe89bb5f
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::findInjectedSource method"
 ms.assetid: 907531b6-1ef8-4153-986d-b72611a1632d
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

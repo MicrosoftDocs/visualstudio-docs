@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "install a specific release, Visual Studio"
 ms.assetid: d69ad0f8-f0a0-438e-a0ef-777c4868f139
 caps.latest.revision: 20
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

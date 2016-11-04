@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSegment::get_read method"
 ms.assetid: aafbc86d-352c-4e1a-911a-1472d2d59212
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

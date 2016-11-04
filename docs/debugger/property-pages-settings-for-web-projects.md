@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debug configurations, Web projects"
 ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

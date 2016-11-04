@@ -1,7 +1,7 @@
 ---
 title: "CA2146: Types must be at least as critical as their base types and interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "CA2146"
 ms.assetid: 241fb784-1f6b-46e5-8ceb-c438e341d38e
 caps.latest.revision: 11
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

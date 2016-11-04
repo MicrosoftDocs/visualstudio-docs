@@ -1,7 +1,7 @@
 ---
 title: "CA1052: Static holder types should be sealed | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "StaticHolderTypesShouldBeSealed"
 ms.assetid: 51a3165d-781e-4a55-aa0d-ea25fee7d4f2
 caps.latest.revision: 19
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

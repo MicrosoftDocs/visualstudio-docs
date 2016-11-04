@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.graphics.eventlist"
 ms.assetid: a1252e19-b27d-4dc7-a16b-fdac894c1f0e
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "CA2000: Dispose objects before losing scope | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "DisposeObjectsBeforeLosingScope"
 ms.assetid: 0c3d7d8d-b94d-46e8-aa4c-38df632c1463
 caps.latest.revision: 32
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

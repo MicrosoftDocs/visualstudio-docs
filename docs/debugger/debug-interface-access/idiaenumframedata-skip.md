@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumFrameData::Skip method"
 ms.assetid: 67140b4c-7125-4895-932d-42412326da29
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "sampling profiling method"
 ms.assetid: 8e36361b-bb3d-40c6-b286-0e68c0ecb915
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

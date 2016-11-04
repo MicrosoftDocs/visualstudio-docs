@@ -1,7 +1,7 @@
 ---
 title: "CA1719: Parameter names should not match member names | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ParameterNamesShouldNotMatchMemberNames"
 ms.assetid: c6fea690-1659-4ee7-a1c5-125ad6754525
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

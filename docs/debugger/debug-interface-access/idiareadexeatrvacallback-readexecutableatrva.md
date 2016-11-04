@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaReadExeAtRVACallback::ReadExecutableAtRVA method"
 ms.assetid: 3c1e965f-8f05-41a8-86d8-01830b2377c9
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

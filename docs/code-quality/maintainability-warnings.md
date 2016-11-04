@@ -1,7 +1,7 @@
 ---
 title: "Maintainability Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "maintainability warnings"
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
 caps.latest.revision: 19
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Zoom Control (Threads View)"
 ms.assetid: 7f9bda07-53a8-4f11-9846-a3e31064c596
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

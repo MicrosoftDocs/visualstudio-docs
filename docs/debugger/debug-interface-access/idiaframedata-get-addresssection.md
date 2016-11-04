@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_addressSection method"
 ms.assetid: e4eedede-4a1c-4da2-a812-b92df328fd8d
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

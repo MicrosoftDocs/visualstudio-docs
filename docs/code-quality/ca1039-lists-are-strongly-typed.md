@@ -1,7 +1,7 @@
 ---
 title: "CA1039: Lists are strongly typed | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ListsAreStronglyTyped"
 ms.assetid: 5ac366c4-fd87-4d5c-95d5-f755510c8e5c
 caps.latest.revision: 15
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

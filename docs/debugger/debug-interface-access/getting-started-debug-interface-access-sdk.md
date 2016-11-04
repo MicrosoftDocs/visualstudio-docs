@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "DBG files"
 ms.assetid: cb3d040a-2846-40d7-bdbc-8a5beb5dd2f6
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

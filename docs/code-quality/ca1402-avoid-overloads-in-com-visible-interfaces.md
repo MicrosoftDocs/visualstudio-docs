@@ -1,7 +1,7 @@
 ---
 title: "CA1402: Avoid overloads in COM visible interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA1402"
 ms.assetid: 2724c1f9-d5d3-4704-b124-21c4d398e5df
 caps.latest.revision: 17
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

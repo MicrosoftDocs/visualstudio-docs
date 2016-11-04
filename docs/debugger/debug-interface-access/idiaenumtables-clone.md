@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumTables::Clone method"
 ms.assetid: beb21109-b12c-44d8-8c1f-a332216b3713
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: e9deb370-c459-45ac-84d3-14d646590d05
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "DataTips tool"
 ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 caps.latest.revision: 38
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

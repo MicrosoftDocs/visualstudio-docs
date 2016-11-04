@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Profiling Tools, profiling methods"
 ms.assetid: ea4881fd-bd04-4875-9b7b-28490d6706f9
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

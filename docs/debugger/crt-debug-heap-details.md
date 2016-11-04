@@ -77,6 +77,7 @@ helpviewer_keywords:
   - "debug heap, reporting functions"
 ms.assetid: bf78ace6-28e4-4a04-97c6-39e0cdd00ba4
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

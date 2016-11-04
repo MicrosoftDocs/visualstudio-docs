@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLoadCallback::NotifyOpenPDB method"
 ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

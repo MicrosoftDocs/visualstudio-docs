@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "debugging [C++]"
 ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

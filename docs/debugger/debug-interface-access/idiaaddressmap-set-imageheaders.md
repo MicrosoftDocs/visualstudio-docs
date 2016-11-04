@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaAddressMap::set_imageHeaders method"
 ms.assetid: a46b9d0e-43e6-433f-b2c7-aa203981e4e4
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

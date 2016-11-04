@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Expanding and Collapsing Spy++ Trees"
 ms.assetid: 22993182-7026-4155-8046-b84fd99f803c
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

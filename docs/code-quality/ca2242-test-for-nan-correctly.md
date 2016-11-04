@@ -1,7 +1,7 @@
 ---
 title: "CA2242: Test for NaN correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2242"
 ms.assetid: e12dcffc-e255-4e1e-8fdf-3c6054d44abe
 caps.latest.revision: 11
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

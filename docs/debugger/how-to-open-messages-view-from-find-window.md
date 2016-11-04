@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "opening Messages View in Spy++"
 ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Analyzing Managed Code for Code Defects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "code analysis tool, walkthroughs"
 ms.assetid: 22b99f49-1924-4fb5-a421-c8b23e5d5cd4
 caps.latest.revision: 45
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

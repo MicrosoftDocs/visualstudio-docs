@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "performance tools, setting profiling permissions"
 ms.assetid: 69f27896-8f46-4ef3-bfb7-726d95304f3a
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

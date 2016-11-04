@@ -1,7 +1,7 @@
 ---
 title: "CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "CA2145"
 ms.assetid: 81970700-b438-4b3b-9239-16887e16f7b7
 caps.latest.revision: 11
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

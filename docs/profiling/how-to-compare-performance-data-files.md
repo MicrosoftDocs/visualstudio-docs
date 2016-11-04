@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "profiler result files, how to compare"
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

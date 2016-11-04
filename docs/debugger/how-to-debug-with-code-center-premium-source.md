@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Code Center Premium"
 ms.assetid: 18b4769d-b007-4428-9dae-9e72c283ff0d
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

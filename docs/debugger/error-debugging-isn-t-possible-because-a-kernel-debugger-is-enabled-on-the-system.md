@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "kernel debugger"
 ms.assetid: 630a7abd-3303-4aaa-888a-6de3de14bc01
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

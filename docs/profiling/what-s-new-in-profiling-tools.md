@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "what's new"
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 42
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

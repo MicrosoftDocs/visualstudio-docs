@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumTables::Next method"
 ms.assetid: 8d7bd359-d33e-4317-9674-d89283efd7de
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "CommentMarkProfileA"
 ms.assetid: 33ccff45-c33a-4672-b41f-5b317b848cd1
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

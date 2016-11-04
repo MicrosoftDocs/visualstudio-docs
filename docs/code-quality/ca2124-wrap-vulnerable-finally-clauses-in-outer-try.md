@@ -1,7 +1,7 @@
 ---
 title: "CA2124: Wrap vulnerable finally clauses in outer try | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "WrapVulnerableFinallyClausesInOuterTry"
 ms.assetid: 82efd224-9e60-4b88-a0f5-dfabcc49a254
 caps.latest.revision: 20
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

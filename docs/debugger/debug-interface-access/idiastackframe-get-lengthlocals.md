@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_lengthLocals method"
 ms.assetid: dbc3e544-578a-4f0b-8d20-f21ad4cbb604
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

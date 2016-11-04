@@ -1,7 +1,7 @@
 ---
 title: "Automatic feature suspension | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"

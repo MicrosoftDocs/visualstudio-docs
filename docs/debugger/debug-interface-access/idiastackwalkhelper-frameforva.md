@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackWalkHelper2::frameForVA method"
 ms.assetid: f35fc61b-f8dd-473a-b583-82c304059422
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

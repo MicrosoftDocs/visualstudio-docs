@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumTables::Item method"
 ms.assetid: d65ab262-10c6-48ce-95a3-b5e4cb2c85af
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

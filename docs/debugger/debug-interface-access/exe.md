@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "executable files, Exe symbol"
 ms.assetid: a781d2cf-55fe-4373-9cf1-b732864244e0
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

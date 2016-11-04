@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "profiling tools, folding"
 ms.assetid: b07e0375-bb73-47e3-8d1d-b9b492fb16c9
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

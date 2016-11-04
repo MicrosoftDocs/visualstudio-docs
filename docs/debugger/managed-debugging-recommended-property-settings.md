@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "debugging managed code, recommended property settings"
 ms.assetid: 3d14a8d4-2925-44d0-be41-ec546d411db9
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

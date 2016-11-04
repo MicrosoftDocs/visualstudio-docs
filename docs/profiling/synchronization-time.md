@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Synchronization Time"
 ms.assetid: affa04cc-8bba-4848-9301-b19846d3c2cb
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

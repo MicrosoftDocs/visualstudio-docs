@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "managed code, stepping out of"
 ms.assetid: 97cdd2a8-02a9-4a06-a5b1-c92b1e431979
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

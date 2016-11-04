@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_lengthBlock method"
 ms.assetid: 2e54deb7-7744-428e-913c-1d47a2aa89b0
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

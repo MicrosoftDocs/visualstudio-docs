@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_lexicalParentId method"
 ms.assetid: 6c0c2874-cc47-4e4f-ad9c-02a18a108d9d
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

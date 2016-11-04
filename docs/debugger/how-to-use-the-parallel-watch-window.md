@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger, parallel watch window"
 ms.assetid: 28004d9b-420c-48f7-b80e-ab1519802558
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series::is_enabled method"
 ms.assetid: 8ce4dd50-ca29-4c72-98d6-582693f7d501
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

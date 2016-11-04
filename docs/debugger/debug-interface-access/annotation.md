@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Annotation symbol"
 ms.assetid: eb9f759b-98a5-45fc-b085-91f1f2666e72
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

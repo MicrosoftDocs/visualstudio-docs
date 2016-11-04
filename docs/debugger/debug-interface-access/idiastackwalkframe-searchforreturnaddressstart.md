@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame::searchForReturnAddressStart method"
 ms.assetid: 47660b9b-6e4f-4dfa-88ab-63dce28f7412
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

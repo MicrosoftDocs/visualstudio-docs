@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "Development Edition, rule sets"
 ms.assetid: bcc42508-9592-4802-9f66-a50111641d73
 caps.latest.revision: 24
-ms.author: "susanno"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View Timeline"
 ms.assetid: 10f0c666-ac2f-4ac5-9fb5-a88f660ab840
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_virtualFilename method"
 ms.assetid: b9977075-8fd1-4b11-bfff-d87e9f2586dc
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

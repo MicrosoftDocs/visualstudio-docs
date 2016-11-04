@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_addressSection method"
 ms.assetid: a01c1bae-04b2-4c30-8621-60939a3124c2
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

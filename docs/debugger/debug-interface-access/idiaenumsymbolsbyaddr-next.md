@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::Next method"
 ms.assetid: a1320587-7ce7-401f-9548-2f8bcece5cc3
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

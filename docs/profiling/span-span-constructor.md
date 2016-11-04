@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::span constructor"
 ms.assetid: 8b5578aa-5e5c-4ac7-87c7-ce87c4246e2c
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

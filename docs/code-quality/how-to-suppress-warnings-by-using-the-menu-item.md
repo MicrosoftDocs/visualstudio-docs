@@ -1,7 +1,7 @@
 ---
 title: "How to: Suppress Warnings by Using the Menu Item | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "code analysis, suppressing warnings"
 ms.assetid: 36bd1850-dcde-4ed0-9bc3-0b83df434362
 caps.latest.revision: 24
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

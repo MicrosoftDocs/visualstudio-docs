@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_classParent method"
 ms.assetid: 99db875a-caae-4d60-ae70-64bc8a9f6fba
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

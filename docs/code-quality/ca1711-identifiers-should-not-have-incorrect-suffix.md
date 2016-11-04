@@ -1,7 +1,7 @@
 ---
 title: "CA1711: Identifiers should not have incorrect suffix | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectSuffix"
 ms.assetid: a63359ab-386d-44ae-b381-ee3a983aca29
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

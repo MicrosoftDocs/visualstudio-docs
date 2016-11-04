@@ -1,7 +1,7 @@
 ---
 title: "Globalization Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "managed code analysis warnings, globalization warnings"
 ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
 caps.latest.revision: 21
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

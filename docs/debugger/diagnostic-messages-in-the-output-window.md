@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "Debug class"
 ms.assetid: 386e9524-be17-4573-83fb-4f7c5cae0be0
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "install Visual Studio, multiple languages"
 ms.assetid: ee09497d-75ea-4359-9f55-889b3b2e342a
 caps.latest.revision: 13
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

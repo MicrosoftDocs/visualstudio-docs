@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Block symbol"
 ms.assetid: 95b7b0c1-ecc9-405f-8456-5f9cfb866498
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

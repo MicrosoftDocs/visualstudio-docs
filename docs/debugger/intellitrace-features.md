@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 ms.assetid: 5ccc059c-6097-46b4-9d4b-34236c02d549
 caps.latest.revision: 67
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

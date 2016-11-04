@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "window properties"
 ms.assetid: 4c2f52de-bd91-42cf-9028-67aa75f8bd26
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

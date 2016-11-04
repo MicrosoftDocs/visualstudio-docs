@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "options, debugging"
 ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

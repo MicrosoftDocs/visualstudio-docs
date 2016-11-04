@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "debug configurations, Visual Basic"
 ms.assetid: 72a8483a-af0b-4403-8b0d-ee9ad71ee435
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

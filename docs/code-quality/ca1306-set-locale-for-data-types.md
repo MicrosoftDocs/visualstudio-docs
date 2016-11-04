@@ -1,7 +1,7 @@
 ---
 title: "CA1306: Set locale for data types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "SetLocaleForDataTypes"
 ms.assetid: 104297b2-5806-4de0-a8d9-c589380a796c
 caps.latest.revision: 15
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

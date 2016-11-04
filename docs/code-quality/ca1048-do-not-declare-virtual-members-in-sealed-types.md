@@ -1,7 +1,7 @@
 ---
 title: "CA1048: Do not declare virtual members in sealed types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA1048"
 ms.assetid: 5dcf4a30-6f98-48a8-b8cc-7b89ea757262
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

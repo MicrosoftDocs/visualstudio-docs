@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "debugger, viewing data"
 ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
 caps.latest.revision: 30
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

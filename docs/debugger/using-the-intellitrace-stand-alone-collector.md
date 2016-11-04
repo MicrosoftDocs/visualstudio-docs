@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging applications in production"
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 caps.latest.revision: 105
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

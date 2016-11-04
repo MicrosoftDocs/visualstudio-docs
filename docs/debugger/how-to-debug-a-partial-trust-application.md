@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "security [Visual Studio], partial trust applications"
 ms.assetid: 9d30ad92-28ce-4b21-91d8-698474cddf64
 caps.latest.revision: 25
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

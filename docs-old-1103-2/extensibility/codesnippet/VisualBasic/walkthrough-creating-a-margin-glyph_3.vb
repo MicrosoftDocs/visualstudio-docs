@@ -1,0 +1,1 @@
+    Const m_glyphSize As Double = 16.0

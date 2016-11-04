@@ -1,7 +1,7 @@
 ---
 title: "How to: View Managed Code Defects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "code, viewing defects"
 ms.assetid: 58aa6c23-d0b3-414d-930d-82e676cb7e5f
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

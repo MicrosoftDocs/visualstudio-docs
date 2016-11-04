@@ -1,7 +1,7 @@
 ---
 title: "CA1600: Do not use idle process priority | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotUseIdleProcessPriority"
 ms.assetid: 9b0d073b-78b6-41be-8ef3-14692a735283
 caps.latest.revision: 15
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

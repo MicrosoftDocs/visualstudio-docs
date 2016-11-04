@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CvCreateMarkerSeriesWithCodePageA method"
 ms.assetid: 3d7ed601-2222-4be9-a557-f217db008753
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

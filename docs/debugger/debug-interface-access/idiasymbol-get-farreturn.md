@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_farReturn method"
 ms.assetid: 141df0e9-f4d9-4330-a043-5d9ea865257f
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

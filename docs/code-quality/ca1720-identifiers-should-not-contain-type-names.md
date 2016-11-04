@@ -1,7 +1,7 @@
 ---
 title: "CA1720: Identifiers should not contain type names | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA1720"
 ms.assetid: c95ee48f-f23a-45f0-ac9e-a3c1ecfabdea
 caps.latest.revision: 15
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio], debugging"
 ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 caps.latest.revision: 81
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.graphics.pixelhistory"
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

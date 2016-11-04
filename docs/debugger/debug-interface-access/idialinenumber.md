@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber interface"
 ms.assetid: 1071f7d0-1f8c-4384-933f-c49c7eb930bd
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

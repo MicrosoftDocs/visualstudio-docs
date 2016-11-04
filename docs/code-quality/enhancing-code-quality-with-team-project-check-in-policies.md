@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "team-based development, enhancing code quality"
 ms.assetid: 0ab72c33-148a-4a8a-a7bf-046995514c84
 caps.latest.revision: 25
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

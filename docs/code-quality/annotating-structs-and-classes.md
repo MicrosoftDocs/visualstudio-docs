@@ -1,7 +1,7 @@
 ---
 title: "Annotating Structs and Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,9 @@ f1_keywords:
   - "_Field_size_full_opt_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 caps.latest.revision: 9
-ms.author: "susanno"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

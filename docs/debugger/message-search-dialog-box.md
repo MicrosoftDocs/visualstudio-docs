@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "message options, Search"
 ms.assetid: 44fb43b7-b006-46cc-a70c-036aac3cceec
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

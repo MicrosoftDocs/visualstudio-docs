@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaDataSource::get_lastError method"
 ms.assetid: cf08850b-8b75-4e8c-90bd-bd0214756f99
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

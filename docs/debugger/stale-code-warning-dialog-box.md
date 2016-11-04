@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "Edit and Continue, stale code"
 ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

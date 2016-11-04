@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "languages, multiple language support"
 ms.assetid: dc86304b-65b7-47e6-9314-1dfd02ecfa65
 caps.latest.revision: 28
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Messages view, controlling"
 ms.assetid: 32685ab2-6c5b-41fc-b429-29260caef585
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

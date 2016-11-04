@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugging [MFC]"
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

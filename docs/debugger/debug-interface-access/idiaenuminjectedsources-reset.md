@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumInjectedSources::Reset method"
 ms.assetid: c28e8820-1c67-4658-821d-b5879f90cce5
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

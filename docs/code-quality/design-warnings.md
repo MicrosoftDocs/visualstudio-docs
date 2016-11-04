@@ -1,7 +1,7 @@
 ---
 title: "Design Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "warnings, design"
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
 caps.latest.revision: 25
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

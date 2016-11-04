@@ -1,7 +1,7 @@
 ---
 title: "CA1820: Test for empty strings using string length | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA1820"
 ms.assetid: da1e70c8-b1dc-46b9-8b8f-4e6e48339681
 caps.latest.revision: 21
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

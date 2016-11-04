@@ -35,6 +35,7 @@ helpviewer_keywords:
   - "exceptions, debugging"
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 caps.latest.revision: 35
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

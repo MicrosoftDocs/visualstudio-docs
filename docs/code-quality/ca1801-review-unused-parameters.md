@@ -1,7 +1,7 @@
 ---
 title: "CA1801: Review unused parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "ReviewUnusedParameters"
 ms.assetid: 5d73545c-e153-4b7c-a7b2-be6bf5aca5be
 caps.latest.revision: 30
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

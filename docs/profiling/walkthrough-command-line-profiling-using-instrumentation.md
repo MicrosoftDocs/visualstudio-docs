@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "performance tools, command-line tools"
 ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

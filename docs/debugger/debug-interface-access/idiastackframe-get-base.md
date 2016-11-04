@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_base method"
 ms.assetid: f27477d7-26fe-4c1c-a08a-c52cb20c8293
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
