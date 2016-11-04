@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Refresh [Windows Store apps]"
 ms.assetid: fd99ee60-fa94-46df-8b17-369f60bfd908
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

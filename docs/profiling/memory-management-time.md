@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Paging Time"
 ms.assetid: 67af3509-3a7d-435d-bc37-5262448da915
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

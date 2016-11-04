@@ -16,6 +16,7 @@ helpviewer_keywords:
   - ".pdb files, querying"
 ms.assetid: 8da07d1c-2712-45f9-8fbf-f34040408a8a
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

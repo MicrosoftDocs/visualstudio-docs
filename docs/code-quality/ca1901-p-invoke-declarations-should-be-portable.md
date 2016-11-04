@@ -1,7 +1,7 @@
 ---
 title: "CA1901: P-Invoke declarations should be portable | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "PInvokeDeclarationsShouldBePortable"
 ms.assetid: 90361812-55ca-47f7-bce9-b8775d3b8803
 caps.latest.revision: 23
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

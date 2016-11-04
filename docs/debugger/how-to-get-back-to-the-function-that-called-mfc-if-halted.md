@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "functions [debugger]"
 ms.assetid: d254a5a9-afbd-4923-9d7a-7422d824cabf
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

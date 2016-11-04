@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "thread properties"
 ms.assetid: f0e64c0e-cdb3-4ad4-9723-09934166f3a2
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

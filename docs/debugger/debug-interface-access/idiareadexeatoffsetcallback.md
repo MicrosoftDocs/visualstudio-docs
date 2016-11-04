@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaReadExeAtOffsetCallback interface"
 ms.assetid: 3c961641-3ce3-4bc3-bd6e-a802fa3bec49
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

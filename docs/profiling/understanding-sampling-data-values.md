@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Profiling Tools, sampling"
 ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

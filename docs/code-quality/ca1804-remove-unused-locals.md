@@ -1,7 +1,7 @@
 ---
 title: "CA1804: Remove unused locals | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA1804"
 ms.assetid: cc332e67-6543-4813-bd8a-6f6fc75bf22a
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

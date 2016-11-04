@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "performance, samples"
 ms.assetid: 86d7f8f7-d812-4e76-bed1-e66d81709c15
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "MarkBooleanPInvokeArgumentsWithMarshalAs"
 ms.assetid: c0c84cf5-7701-4897-9114-66fc4b895699
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

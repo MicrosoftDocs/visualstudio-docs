@@ -1,7 +1,7 @@
 ---
 title: "CA2147: Transparent methods may not use security asserts | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "SecurityTransparentCodeShouldNotAssert"
 ms.assetid: 5d31e940-e599-4b23-9b28-1c336f8d910e
 caps.latest.revision: 18
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

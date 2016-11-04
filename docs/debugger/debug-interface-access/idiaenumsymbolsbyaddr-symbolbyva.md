@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::symbolByVA method"
 ms.assetid: ac84339f-70c6-48ed-85d0-6d7d1b5194e8
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

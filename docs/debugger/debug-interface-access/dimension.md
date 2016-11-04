@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Dimension Symbol"
 ms.assetid: 94f791da-bfea-454f-8a14-da31e8e1596a
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

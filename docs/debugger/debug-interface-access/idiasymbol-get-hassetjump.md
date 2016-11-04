@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasSetJump method"
 ms.assetid: 22656206-dccf-40ed-b179-fc016d1b262a
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

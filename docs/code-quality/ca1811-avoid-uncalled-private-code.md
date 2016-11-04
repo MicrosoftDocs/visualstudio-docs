@@ -1,7 +1,7 @@
 ---
 title: "CA1811: Avoid uncalled private code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "AvoidUncalledPrivateCode"
 ms.assetid: aadbba74-7821-475f-8980-34d17c0a0a8b
 caps.latest.revision: 20
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

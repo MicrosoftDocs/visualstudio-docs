@@ -1,7 +1,7 @@
 ---
 title: "CA1012: Abstract types should not have constructors | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1012"
 ms.assetid: 09f458ac-dd88-4cd7-a47f-4106c1e80ece
 caps.latest.revision: 25
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

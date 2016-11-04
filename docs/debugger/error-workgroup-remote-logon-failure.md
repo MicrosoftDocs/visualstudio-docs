@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "remote debugging, logon failure"
 ms.assetid: 7be2c5bb-40fe-48d6-8cfc-c231fbd3d64e
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

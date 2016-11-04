@@ -1,7 +1,7 @@
 ---
 title: "CA1408: Do not use AutoDual ClassInterfaceType | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DoNotUseAutoDualClassInterfaceType"
 ms.assetid: 60ca5e02-3c51-42dd-942b-4f950eecfa0f
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

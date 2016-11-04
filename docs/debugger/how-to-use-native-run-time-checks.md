@@ -43,6 +43,7 @@ helpviewer_keywords:
   - "arrays [Visual Studio], debugging"
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "CA2102: Catch non-CLSCompliant exceptions in general handlers | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2102"
 ms.assetid: bf2df68f-d386-4379-ad9e-930a2c2e930d
 caps.latest.revision: 19
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

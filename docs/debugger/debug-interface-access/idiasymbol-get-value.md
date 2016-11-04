@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_value method"
 ms.assetid: 2e40174a-2a61-4e5f-bb32-9e0ceec2178a
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

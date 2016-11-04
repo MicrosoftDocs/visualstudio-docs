@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "HPC profiling"
 ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

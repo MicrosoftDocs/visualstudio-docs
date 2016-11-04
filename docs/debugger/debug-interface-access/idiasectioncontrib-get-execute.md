@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_execute method"
 ms.assetid: 66eb38ce-a5e1-467e-b845-b3dc433eda91
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

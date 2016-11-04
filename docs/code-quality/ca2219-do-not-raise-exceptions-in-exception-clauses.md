@@ -1,7 +1,7 @@
 ---
 title: "CA2219: Do not raise exceptions in exception clauses | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2219"
 ms.assetid: 7b9b0bee-4e8e-49a4-8c40-52142b49061f
 caps.latest.revision: 5
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "DOM Explorer [Windows Store apps]"
 ms.assetid: 6d156cff-36c6-425a-acf8-e1f02d4f7869
 caps.latest.revision: 101
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -10,6 +10,7 @@ f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
 ms.assetid: 0a9f70ed-21ad-4a10-8535-b9c5885ad8f4
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Summary view"
 ms.assetid: 0a3b3a1f-e22b-4ac8-b46e-71694e9b2cf1
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

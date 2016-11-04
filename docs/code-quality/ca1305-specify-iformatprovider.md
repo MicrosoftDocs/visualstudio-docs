@@ -1,7 +1,7 @@
 ---
 title: "CA1305: Specify IFormatProvider | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "SpecifyIFormatProvider"
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
 caps.latest.revision: 22
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

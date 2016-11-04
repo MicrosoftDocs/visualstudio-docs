@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "failures, finding locations"
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

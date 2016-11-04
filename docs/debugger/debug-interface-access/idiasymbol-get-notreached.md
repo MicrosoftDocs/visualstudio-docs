@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_notReached method"
 ms.assetid: e44ba922-6cda-40c2-9b62-44e5a8628e63
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

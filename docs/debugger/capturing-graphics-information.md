@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.graphics.capturewindow"
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 caps.latest.revision: 41
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

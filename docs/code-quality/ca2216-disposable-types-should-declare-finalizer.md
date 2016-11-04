@@ -1,7 +1,7 @@
 ---
 title: "CA2216: Disposable types should declare finalizer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "DisposableTypesShouldDeclareFinalizer"
 ms.assetid: 0cabcc5e-b526-452b-8c2a-0cbe3b93c0ef
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

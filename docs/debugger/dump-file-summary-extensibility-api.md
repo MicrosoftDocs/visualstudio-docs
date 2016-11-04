@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: bf008cdc-03f8-496b-868d-4c2644f1d7ee
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

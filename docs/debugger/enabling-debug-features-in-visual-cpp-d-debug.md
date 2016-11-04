@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "_DEBUG macro"
 ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

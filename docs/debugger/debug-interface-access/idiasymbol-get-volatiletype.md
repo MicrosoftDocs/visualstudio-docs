@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_volatileType method"
 ms.assetid: 19782a4d-40a8-467b-ab7d-58bc4d812309
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

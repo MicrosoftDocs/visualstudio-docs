@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis Warnings for Managed Code by CheckId | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -261,9 +261,9 @@ f1_keywords:
   - "CA5122"
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 caps.latest.revision: 21
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -1,7 +1,7 @@
 ---
 title: "CA1502: Avoid excessive complexity | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "AvoidExcessiveComplexity"
 ms.assetid: d735454b-2f8f-47ce-907d-f7a5a5391221
 caps.latest.revision: 30
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

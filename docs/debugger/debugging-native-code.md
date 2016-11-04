@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "native code, debugging"
 ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

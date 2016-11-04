@@ -1,7 +1,7 @@
 ---
 title: "CA2144: Transparent code should not load assemblies from byte arrays | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "CA2144"
 ms.assetid: 777b1310-6e16-4413-b4ee-5f3136304f82
 caps.latest.revision: 12
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

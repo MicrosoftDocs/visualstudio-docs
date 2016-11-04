@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "high-perfomance debugging"
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

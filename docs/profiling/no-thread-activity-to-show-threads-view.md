@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, No Thread Activity to Show (Threads View)"
 ms.assetid: aa5ae9d0-561d-4ef8-b36b-258ce553d50a
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

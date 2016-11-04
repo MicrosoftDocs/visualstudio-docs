@@ -1,7 +1,7 @@
 ---
 title: "CA1704: Identifiers should be spelled correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "IdentifiersShouldBeSpelledCorrectly"
 ms.assetid: f2c7a44d-1690-44ca-9cd0-681b04b12b2a
 caps.latest.revision: 25
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_nested method"
 ms.assetid: 6ae46d43-8486-48d6-a6f2-d73ebf4023e3
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

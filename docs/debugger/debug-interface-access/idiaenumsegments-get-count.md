@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSegments::get_Count method"
 ms.assetid: c62a0fda-17b8-4cf6-b321-6014ce581096
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_symbolsFileName method"
 ms.assetid: c1aa39ee-d645-431e-bf5f-0640c0998934
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

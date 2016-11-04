@@ -1,7 +1,7 @@
 ---
 title: "Quick Start: Code Analysis for C-C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "code analysis,C/C++"
 ms.assetid: 6110b8ba-0af6-4acd-b1ba-bb0551f90e44
 caps.latest.revision: 8
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

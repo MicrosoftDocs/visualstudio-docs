@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_targetOffset method"
 ms.assetid: 7d141223-132a-409c-a5a4-94f97340313c
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

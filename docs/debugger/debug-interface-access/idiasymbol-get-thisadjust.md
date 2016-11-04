@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_thisAdjust method"
 ms.assetid: 56b9a147-e8c0-4d4b-a42a-398214dd5f86
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

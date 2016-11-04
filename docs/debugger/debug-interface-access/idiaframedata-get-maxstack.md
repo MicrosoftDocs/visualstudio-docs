@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_maxStack method"
 ms.assetid: 2585e13c-c0f3-49fe-9a84-08adb0dbeaa4
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib interface"
 ms.assetid: 371d40f6-ca0e-4d7e-9210-64d3768996c6
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

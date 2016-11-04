@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, UI Processing Time"
 ms.assetid: 0ddb05a3-8c6b-448b-8488-2751c1e5abcc
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

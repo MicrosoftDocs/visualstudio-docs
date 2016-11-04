@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MarkProfile"
 ms.assetid: 54dac8c8-c8ee-4023-af27-b25466e3a6ec
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

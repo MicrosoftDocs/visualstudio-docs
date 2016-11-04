@@ -1,7 +1,7 @@
 ---
 title: "CA1726: Use preferred terms | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "UsePreferredTerms"
 ms.assetid: 642b2acd-3a33-4d1f-b0a7-67073ae73be2
 caps.latest.revision: 23
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

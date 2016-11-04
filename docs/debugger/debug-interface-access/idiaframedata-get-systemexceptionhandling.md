@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_systemExceptionHandling method"
 ms.assetid: e8df1972-913c-446c-9779-775575b0caa9
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

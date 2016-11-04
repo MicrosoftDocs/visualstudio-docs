@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "register groups, displaying and hiding"
 ms.assetid: 6be5dfb4-4cfe-4daf-b538-60405640857d
 caps.latest.revision: 26
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

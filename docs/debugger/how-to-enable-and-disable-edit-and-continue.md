@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "Go command"
 ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
 caps.latest.revision: 26
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

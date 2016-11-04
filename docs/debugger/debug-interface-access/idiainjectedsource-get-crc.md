@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_crc method"
 ms.assetid: 2ecdda93-950e-40d6-b79b-4ae3c55b6cfc
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

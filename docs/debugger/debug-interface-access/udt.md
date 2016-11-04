@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "structs [C++]"
 ms.assetid: f12459dd-c64d-4cc9-9ee3-a56e19e9e573
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

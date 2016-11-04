@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasInlAsm method"
 ms.assetid: 7001c7cc-1459-4929-851b-a08066a803c6
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

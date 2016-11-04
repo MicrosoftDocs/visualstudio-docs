@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_customCallingConvention method"
 ms.assetid: 0aa97951-f7e1-4fa5-a87f-2920460c122d
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

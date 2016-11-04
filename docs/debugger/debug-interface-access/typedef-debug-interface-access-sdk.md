@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Typedef symbol [DIA SDK]"
 ms.assetid: 9ab441b9-cc72-47fa-83e2-87b3c2b891b4
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

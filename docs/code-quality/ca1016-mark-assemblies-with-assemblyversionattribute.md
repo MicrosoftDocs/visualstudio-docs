@@ -1,7 +1,7 @@
 ---
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "MarkAssembliesWithAssemblyVersion"
 ms.assetid: 4340aed8-d92b-4cde-a398-cb6963c6da5a
 caps.latest.revision: 19
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

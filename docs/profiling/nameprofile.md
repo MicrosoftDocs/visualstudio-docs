@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "NameProfileA"
 ms.assetid: 1bb05441-c4ff-4323-9fef-f3924fba4430
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

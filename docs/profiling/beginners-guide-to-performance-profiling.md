@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Performance Wizard"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

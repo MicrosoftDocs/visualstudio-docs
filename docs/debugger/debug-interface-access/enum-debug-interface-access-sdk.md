@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Enum symbol"
 ms.assetid: c777e2e6-88be-435b-b632-8d43f42b0b49
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

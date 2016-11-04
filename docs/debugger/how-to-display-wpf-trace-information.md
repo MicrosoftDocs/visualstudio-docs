@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "debugging, WPF"
 ms.assetid: be3c6859-06e1-459e-9fd0-46375b5f55ef
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

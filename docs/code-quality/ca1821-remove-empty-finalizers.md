@@ -1,7 +1,7 @@
 ---
 title: "CA1821: Remove empty finalizers | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1821"
 ms.assetid: 3f4855a0-e4a0-46e6-923c-4c3b7074048d
 caps.latest.revision: 13
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "ETW profiling report"
 ms.assetid: 81e88162-b88a-40b6-8b85-a232c8096a47
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

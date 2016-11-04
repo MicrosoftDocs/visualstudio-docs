@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.sdk.about"
 ms.assetid: 4b22cdf9-59b1-4c88-a6d8-1644a4a11e08
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

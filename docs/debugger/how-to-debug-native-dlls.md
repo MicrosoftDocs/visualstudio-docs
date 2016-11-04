@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "executable files, specifying for debug sessions"
 ms.assetid: 76b34d15-a66d-4963-842e-c8b955c81696
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

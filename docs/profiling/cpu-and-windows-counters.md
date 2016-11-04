@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "CPU counters in Profiling Tools"
 ms.assetid: d2c45c6a-f975-45ab-b8a5-4768ddd518fb
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

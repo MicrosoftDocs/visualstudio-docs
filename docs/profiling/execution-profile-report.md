@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Execution Profile Report"
 ms.assetid: c8128472-a8ed-46f4-b1c8-a25358d6f2c1
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

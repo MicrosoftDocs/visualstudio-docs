@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Per Thread Summary Report"
 ms.assetid: 5a0aa339-03f5-4727-90b3-8950446bbdbe
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

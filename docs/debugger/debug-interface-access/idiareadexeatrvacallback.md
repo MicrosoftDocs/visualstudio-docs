@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaReadExeAtRVACallback interface"
 ms.assetid: b2892513-3952-4f99-9b98-60cb9b1fdc91
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

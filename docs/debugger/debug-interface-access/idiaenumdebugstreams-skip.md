@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::Skip method"
 ms.assetid: 6ec7753c-d7af-4879-b107-1b3442e0b025
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

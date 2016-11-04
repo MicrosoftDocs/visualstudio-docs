@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_addressSection method"
 ms.assetid: fe80d479-3bb5-4f55-9b62-1bd58d0a60ce
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_unalignedType method"
 ms.assetid: fdcb38fb-490e-4d15-b4e5-3770043a366c
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

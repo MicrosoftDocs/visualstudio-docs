@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsbyAddr interface"
 ms.assetid: 37d3dcdf-e4fa-4354-b5e1-8843566b52ac
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

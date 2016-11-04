@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Process properties for Windows NT"
 ms.assetid: daf41a06-8a55-48f6-95f5-49a8416bd308
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

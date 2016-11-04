@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::symsAreEquiv method"
 ms.assetid: 9941d520-e203-46c0-83c3-b3a967f4fc59
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

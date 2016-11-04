@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "HTML debugging [Windows Store apps]"
 ms.assetid: 2dfef7c6-7db2-4550-b694-783b0e535cea
 caps.latest.revision: 44
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

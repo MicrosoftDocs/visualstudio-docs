@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "managed code analyis"
 ms.assetid: 68510a55-da51-4381-81a5-0feba76b8b4f
 caps.latest.revision: 24
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

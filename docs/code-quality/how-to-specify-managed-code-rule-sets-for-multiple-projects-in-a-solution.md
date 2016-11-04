@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.solution"
 ms.assetid: 92dc3250-a010-4396-b515-f03a0b30cd2a
 caps.latest.revision: 12
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

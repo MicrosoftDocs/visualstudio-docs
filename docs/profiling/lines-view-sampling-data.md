@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Lines view"
 ms.assetid: 46497249-c797-42c5-a02c-3e4bb3b4ee60
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

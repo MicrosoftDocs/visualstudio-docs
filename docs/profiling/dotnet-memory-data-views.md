@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools,.NET memory profiling views"
 ms.assetid: 79184d8e-769b-4ace-be2b-521147772081
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

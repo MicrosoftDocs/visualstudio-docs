@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "message options, Messages"
 ms.assetid: fb9fa211-e82c-40a5-9e4b-ba8de07313c0
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

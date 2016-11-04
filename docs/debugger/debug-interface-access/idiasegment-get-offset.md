@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSegment::get_offset method"
 ms.assetid: 97415ac6-b072-4e3c-9dd3-73087ae605fc
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "CA1035: ICollection implementations have strongly typed members | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "ICollectionImplementationsHaveStronglyTypedMembers"
 ms.assetid: ad404eb5-cf6a-44b7-b78a-8ebfb654bc7f
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

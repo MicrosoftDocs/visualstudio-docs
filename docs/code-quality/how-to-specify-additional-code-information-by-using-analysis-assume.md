@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Additional Code Information by Using __analysis_assume | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "__analysis_assume"
 ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
 caps.latest.revision: 10
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

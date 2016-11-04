@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSectionContribs::Reset method"
 ms.assetid: 97ea62ed-bdf8-4df2-b178-b17b9df20adc
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isSafeBuffers method"
 ms.assetid: f29e373d-e7bb-4181-ab9f-bf708d401d83
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

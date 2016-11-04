@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaTable interface"
 ms.assetid: c99a2c44-7b72-4e3c-b963-25fe3df3a555
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

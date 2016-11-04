@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "threads, switching [debugging]"
 ms.assetid: 5cd76c52-76fa-4fcc-b37e-e9f0ecac0e9e
 caps.latest.revision: 26
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

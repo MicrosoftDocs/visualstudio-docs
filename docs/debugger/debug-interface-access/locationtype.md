@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "LocationType enumeration"
 ms.assetid: d3e1eedc-bfd3-4c91-881b-d69565138d0f
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

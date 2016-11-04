@@ -1,7 +1,7 @@
 ---
 title: "How to: Create or Update Standard Code Analysis Check-in Policies | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "code analysis, migrating check-in policy"
 ms.assetid: 458eb3b8-bb5e-4056-82b7-7079ce9c4089
 caps.latest.revision: 29
-ms.author: "susanno"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

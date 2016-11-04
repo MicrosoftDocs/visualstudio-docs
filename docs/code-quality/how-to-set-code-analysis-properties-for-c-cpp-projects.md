@@ -1,7 +1,7 @@
 ---
 title: "How to: Set Code Analysis Properties for C-C++ Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,9 +21,9 @@ helpviewer_keywords:
   - "C/C++ code analysis properties"
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 caps.latest.revision: 17
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

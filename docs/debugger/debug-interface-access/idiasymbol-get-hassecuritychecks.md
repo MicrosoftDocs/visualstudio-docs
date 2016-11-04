@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasSecurityChecks method"
 ms.assetid: 4bb51f62-8645-41a4-bc44-1451010623fd
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

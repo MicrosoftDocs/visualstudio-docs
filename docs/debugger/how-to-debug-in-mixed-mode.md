@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "mixed-mode debugging"
 ms.assetid: 2859067d-7fcc-46b0-a4df-8c2101500977
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

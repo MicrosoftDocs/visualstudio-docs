@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_noStackOrdering method"
 ms.assetid: a1753917-705b-4165-9880-d05e91e6dcb4
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

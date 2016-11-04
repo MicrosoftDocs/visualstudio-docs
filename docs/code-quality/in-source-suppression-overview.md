@@ -1,7 +1,7 @@
 ---
 title: "In Source Suppression Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "code analysis, source suppression"
 ms.assetid: f1a2dc6a-a9eb-408c-9078-2571e57d207d
 caps.latest.revision: 40
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

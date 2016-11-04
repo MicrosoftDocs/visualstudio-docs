@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
 ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

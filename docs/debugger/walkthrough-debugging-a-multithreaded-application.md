@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "walkthroughs, multithreaded debugging"
 ms.assetid: 590ffd57-0556-43d8-8962-ee27e5b2b7d7
 caps.latest.revision: 38
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

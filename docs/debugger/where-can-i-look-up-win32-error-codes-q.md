@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "Win32, error codes"
 ms.assetid: 8fb4ff42-b8eb-4152-b49e-b802d194b05e
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

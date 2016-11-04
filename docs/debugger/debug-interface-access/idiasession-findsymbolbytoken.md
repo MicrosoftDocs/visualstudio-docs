@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::findSymbolByToken method"
 ms.assetid: 3c92149c-6eef-454f-86be-66e89557b9e6
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "profiling tools, using windows counters"
 ms.assetid: db4fbac2-bea5-4558-aa8b-160fcccf4b33
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

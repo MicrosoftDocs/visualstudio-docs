@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_scoped method"
 ms.assetid: 588163f7-958e-4072-bf66-db5c5f07d3cb
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

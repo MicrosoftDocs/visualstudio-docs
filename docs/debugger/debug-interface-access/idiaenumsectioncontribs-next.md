@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSectionContribs::Next method"
 ms.assetid: a6bb2adb-ee6d-4f3c-ab5b-e89361c8880e
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

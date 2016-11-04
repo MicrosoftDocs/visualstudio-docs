@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "profiler, JavaScript [Windows Store apps]"
 ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 47
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

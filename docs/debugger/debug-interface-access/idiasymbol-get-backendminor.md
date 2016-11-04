@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_backEndMinor method"
 ms.assetid: 37f38d19-6685-440d-a477-7127c4f8699e
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

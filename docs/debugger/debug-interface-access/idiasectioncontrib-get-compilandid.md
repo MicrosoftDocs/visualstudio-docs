@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_compilandId method"
 ms.assetid: 71ef2e63-d095-42b6-88d8-626e3129f0d9
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

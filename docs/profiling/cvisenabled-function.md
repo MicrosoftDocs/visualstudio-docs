@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CvIsEnabledEx method"
 ms.assetid: 2e4fea6d-758d-4150-8744-6102a1d58c1c
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

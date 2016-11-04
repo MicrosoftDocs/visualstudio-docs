@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_intrinsic method"
 ms.assetid: f969f595-d9f9-48b9-adaa-63a6e4e09575
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

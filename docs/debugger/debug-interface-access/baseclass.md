@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "base classes, user-defined types"
 ms.assetid: 9375ca35-cb91-45f5-8903-7344ee4528e8
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

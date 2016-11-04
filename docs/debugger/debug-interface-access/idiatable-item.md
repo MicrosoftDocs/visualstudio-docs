@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaTable::Item method"
 ms.assetid: eae11b26-4807-400c-be25-e85bbc0c6b20
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

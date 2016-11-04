@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "Profiling Tools,process report"
 ms.assetid: 6d4e2a5d-9f17-4ece-a6f1-75836e1fc382
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

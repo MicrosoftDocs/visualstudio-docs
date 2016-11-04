@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for C-C++ Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,9 +24,9 @@ helpviewer_keywords:
   - "C, code analysis"
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 caps.latest.revision: 25
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

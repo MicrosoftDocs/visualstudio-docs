@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "profiling tools, instrumented binaries"
 ms.assetid: 258f49e8-4b09-477e-a132-8fad685b66f4
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

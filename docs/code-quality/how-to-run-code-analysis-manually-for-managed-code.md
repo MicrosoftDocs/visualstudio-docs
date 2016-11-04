@@ -1,7 +1,7 @@
 ---
 title: "How to: Run Code Analysis Manually for Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "code analysis, running"
 ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

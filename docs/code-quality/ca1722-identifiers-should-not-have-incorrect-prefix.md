@@ -1,7 +1,7 @@
 ---
 title: "CA1722: Identifiers should not have incorrect prefix | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectPrefix"
 ms.assetid: c3313c51-d004-4f9a-a0d1-6c4c4a1fb1e6
 caps.latest.revision: 16
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

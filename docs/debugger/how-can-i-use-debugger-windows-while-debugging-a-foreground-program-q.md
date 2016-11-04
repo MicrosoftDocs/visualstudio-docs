@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], foreground programs"
 ms.assetid: 9e67a308-1c81-42ab-966b-7fc3c1d2bf7a
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

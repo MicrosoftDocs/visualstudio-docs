@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "breakpoints, DebugBreak function"
 ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

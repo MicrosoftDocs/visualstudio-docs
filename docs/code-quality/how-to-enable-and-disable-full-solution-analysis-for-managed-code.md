@@ -1,7 +1,7 @@
 ---
 title: "How to: Enable and Disable Full Solution Analysis for Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "full solution analysis"
 ms.assetid: 04315147-5792-47f0-8b5f-9ac8413c6a57
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"

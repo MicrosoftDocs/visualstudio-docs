@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "vs.cv.threads.activelegendConcurrency Visualizer, Threads View Active Legend"
 ms.assetid: 559841d1-967c-4b51-8574-6ace23969580
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

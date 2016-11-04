@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_columnNumber method"
 ms.assetid: e317f29a-6525-46a7-8421-33985392f8fd
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

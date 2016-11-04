@@ -32,6 +32,7 @@ helpviewer_keywords:
   - "/LDd compiler function [C++]"
 ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isCVTCIL method"
 ms.assetid: 711b81fd-9549-44dc-9761-5eb862ed64c0
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

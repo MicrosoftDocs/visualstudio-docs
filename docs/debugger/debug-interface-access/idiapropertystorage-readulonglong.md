@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaPropertyStorage::ReadULONGLONG"
 ms.assetid: f80a2e24-5744-4fec-bab0-3ed51aef6e58
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

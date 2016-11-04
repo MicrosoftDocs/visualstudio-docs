@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_relativeVirtualAddress method"
 ms.assetid: 32f9674d-94f1-4590-99de-a2eb60da4af8
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

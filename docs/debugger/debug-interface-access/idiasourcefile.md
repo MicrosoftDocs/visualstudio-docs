@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSourceFile interface"
 ms.assetid: 6e9be757-797f-4960-ba62-c14092620bbd
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

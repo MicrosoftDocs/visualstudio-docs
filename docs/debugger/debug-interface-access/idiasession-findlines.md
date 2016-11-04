@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::findLines method"
 ms.assetid: d6e84916-fd55-457e-b057-57f97b51fe73
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

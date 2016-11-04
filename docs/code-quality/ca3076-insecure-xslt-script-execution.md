@@ -1,7 +1,7 @@
 ---
 title: "CA3076: Insecure XSLT Script Execution | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,8 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 53cb7a46-c564-488f-bc51-0e210a7853c9
 caps.latest.revision: 5
-ms.author: "gregvanl"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

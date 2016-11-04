@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_RValueReference method"
 ms.assetid: c6c8c543-253e-4c23-a939-3e66f3db0ee2
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
