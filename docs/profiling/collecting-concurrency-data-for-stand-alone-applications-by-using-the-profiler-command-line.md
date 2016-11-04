@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools,concurrency method"
 ms.assetid: 0a2c6d8a-50b3-48aa-b617-9137b049d21e
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "Options dialog box, debugging"
 ms.assetid: 7f11b2e3-3fb5-449d-b07c-6ecf1d6a487d
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

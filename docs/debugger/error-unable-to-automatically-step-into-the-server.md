@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "remote debugging, notification error"
 ms.assetid: 9a370ccc-d358-429c-b285-9b6c0649bc68
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

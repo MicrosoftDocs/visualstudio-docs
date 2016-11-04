@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Configuring and Using a Custom Rule Set | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 7fe0a4e3-1ce0-4f38-a87a-7d81238ec7cd
 caps.latest.revision: 40
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

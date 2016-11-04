@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_remove method"
 ms.assetid: fd30ab7b-022b-4402-a42a-2d38e274c1b1
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

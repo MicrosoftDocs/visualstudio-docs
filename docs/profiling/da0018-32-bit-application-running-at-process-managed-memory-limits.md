@@ -15,6 +15,7 @@ f1_keywords:
   - "vs.performance.rules.DA0018"
 ms.assetid: 98eb2d96-f92f-42f9-915c-e5ac2330ffbf
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

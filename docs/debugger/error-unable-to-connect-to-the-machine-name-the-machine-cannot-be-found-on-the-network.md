@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "DCOM, unable to connect error"
 ms.assetid: b584b5db-ef52-45ed-8561-1314da3cc5b8
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

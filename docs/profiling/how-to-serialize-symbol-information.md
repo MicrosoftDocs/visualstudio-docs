@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "performance tools, serializing symbol information"
 ms.assetid: 9e0da706-6325-4073-83d1-aeab3b7c137a
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

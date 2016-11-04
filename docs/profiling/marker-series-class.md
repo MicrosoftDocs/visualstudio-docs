@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series class"
 ms.assetid: b8445ed0-c512-4f92-b6b4-3d05c044f939
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

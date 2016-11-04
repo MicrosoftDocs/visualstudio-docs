@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "remote debugging, errors"
 ms.assetid: b2f41a80-e3e0-4064-a487-8e8446270dec
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

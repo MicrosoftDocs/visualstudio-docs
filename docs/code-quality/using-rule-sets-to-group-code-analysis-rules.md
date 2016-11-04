@@ -1,7 +1,7 @@
 ---
 title: "Using Rule Sets to Group Code Analysis Rules | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: ed0f3a2a-1516-42e2-92de-b8986dc75d42
 caps.latest.revision: 36
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

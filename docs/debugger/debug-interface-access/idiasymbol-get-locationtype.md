@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_locationType method"
 ms.assetid: fbb09c43-ebb7-4b4f-be53-ccff86eb183a
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

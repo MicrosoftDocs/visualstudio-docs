@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "debugging [C++], resolving ambiguity"
 ms.assetid: d9f47455-a116-4c84-8bad-2dfbf4d77f74
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

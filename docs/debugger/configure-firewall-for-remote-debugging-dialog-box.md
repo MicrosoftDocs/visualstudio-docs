@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "firewalls, configuring for remote debugging"
 ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

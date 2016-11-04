@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::Clone method"
 ms.assetid: e85ec592-de97-4f95-a774-1623315ba415
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

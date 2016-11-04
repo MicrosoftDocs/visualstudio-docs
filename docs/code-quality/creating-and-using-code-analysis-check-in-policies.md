@@ -1,7 +1,7 @@
 ---
 title: "Creating and Using Code Analysis Check-In Policies | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "code analysis, check-in policies"
 ms.assetid: 3fa5a849-e05f-4e31-8ba3-b014c889d94d
 caps.latest.revision: 39
-ms.author: "susanno"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

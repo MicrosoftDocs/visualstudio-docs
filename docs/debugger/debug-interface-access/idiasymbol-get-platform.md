@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_platform method"
 ms.assetid: dff1c1eb-bcb2-4275-bb07-f2fdc076d6fb
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

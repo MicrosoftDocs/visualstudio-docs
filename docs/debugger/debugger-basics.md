@@ -1,7 +1,7 @@
 ---
 title: "Debugger Basics | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger, roadmap"
 ms.assetid: 4da42a10-384d-44d7-b4dc-032202ff784b
 caps.latest.revision: 27
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

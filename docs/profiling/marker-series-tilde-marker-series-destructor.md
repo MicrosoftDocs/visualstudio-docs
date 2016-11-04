@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series::~marker_series destructor"
 ms.assetid: 5632523b-fd58-40aa-8523-f29ee9083a65
 caps.latest.revision: 2
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

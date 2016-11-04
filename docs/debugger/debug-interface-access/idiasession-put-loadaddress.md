@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSession::put_loadAddress method"
 ms.assetid: b157b245-1ea0-4b80-8962-d8b278dbc742
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

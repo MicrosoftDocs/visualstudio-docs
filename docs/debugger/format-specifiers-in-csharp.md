@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugger, format specifiers recognized by"
 ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

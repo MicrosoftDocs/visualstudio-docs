@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CompilandEnv symbol"
 ms.assetid: 808404bb-ece1-47f1-b9ea-c76d4d86ddd9
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

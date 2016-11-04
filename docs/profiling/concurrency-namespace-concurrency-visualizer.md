@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency namespace"
 ms.assetid: 001fbfce-a278-4502-aa27-26d65dd61453
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

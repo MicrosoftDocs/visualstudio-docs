@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "compilands, compiland symbol"
 ms.assetid: c798eb2b-664a-41ec-ae90-5e9d292507ca
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

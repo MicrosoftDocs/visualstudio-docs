@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools, stand-alone profiler"
 ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

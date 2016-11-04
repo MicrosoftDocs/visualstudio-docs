@@ -1,7 +1,7 @@
 ---
 title: "Cryptography Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,7 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d96723ea-a293-488d-b9db-adb437e50cdd
 caps.latest.revision: 7
-ms.author: "gregvanl"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

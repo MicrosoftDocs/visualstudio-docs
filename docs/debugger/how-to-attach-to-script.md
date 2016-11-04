@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "remote debugging, attaching to script"
 ms.assetid: 82013e9a-ef53-4fd2-b451-a6891cdc6307
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

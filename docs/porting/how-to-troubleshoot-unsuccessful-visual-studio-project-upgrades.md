@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Conversion wizard"
 ms.assetid: 842fe448-c044-4343-8eae-d81711cf48ba
 caps.latest.revision: 30
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

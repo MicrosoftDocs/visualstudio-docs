@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "UsingNamespace symbol tag"
 ms.assetid: e8e1beb5-7cb9-43b4-9ff4-760d5f91ea2d
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

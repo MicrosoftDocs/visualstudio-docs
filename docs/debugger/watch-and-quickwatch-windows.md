@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
 ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "sampling data views"
 ms.assetid: 798de693-e43a-4056-aff5-48310c2172c5
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "vs.performance.rules.DA0029"
 ms.assetid: 76247259-c6f3-44c4-b3f9-d8dac16b5e0d
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

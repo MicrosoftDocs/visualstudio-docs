@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "remote debugging, Windows version error"
 ms.assetid: ba08a59b-6dbc-4bbc-9c52-379d3bf5241f
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_notCached method"
 ms.assetid: 5408ea53-f64c-431e-9f62-62819026b038
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

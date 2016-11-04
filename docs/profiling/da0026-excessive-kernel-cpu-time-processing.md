@@ -15,6 +15,7 @@ f1_keywords:
   - "vs.performance.26"
 ms.assetid: 4cfc8a29-b29b-4a72-b386-03d8856fdf8a
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

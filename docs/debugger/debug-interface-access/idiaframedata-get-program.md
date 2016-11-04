@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_program method"
 ms.assetid: 9201409e-b4b1-4e2e-a9f8-d17678ac538b
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

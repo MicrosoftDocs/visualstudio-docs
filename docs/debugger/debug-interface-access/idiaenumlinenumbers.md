@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers interface"
 ms.assetid: cdf07b4f-19e4-4dcd-8af8-c2dbca586a7c
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

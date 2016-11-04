@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaPropertyStorage::ReadBOOL"
 ms.assetid: ad1822db-4572-48f7-9919-f8137f6701f2
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasLongJump method"
 ms.assetid: 14484cb1-43b0-47a1-a9a8-081b55566886
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

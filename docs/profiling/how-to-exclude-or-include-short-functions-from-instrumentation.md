@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "profiling tools, exclude short functions"
 ms.assetid: eaeead79-aafe-4490-86ff-6ed4cad9c15f
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], settings and preparation"
 ms.assetid: 9450589a-42ea-45bf-b128-89447225cca6
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

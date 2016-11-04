@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_pure method"
 ms.assetid: b61107e9-9144-4981-b7ef-58a339b80c58
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Search menu commands"
 ms.assetid: f36dff9a-49ef-46ce-8c9a-76246458c0d0
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

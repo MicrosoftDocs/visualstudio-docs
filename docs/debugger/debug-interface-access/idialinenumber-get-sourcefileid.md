@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_sourceFileId method"
 ms.assetid: 4f482a1e-e85f-4173-98de-8e5f7622554b
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

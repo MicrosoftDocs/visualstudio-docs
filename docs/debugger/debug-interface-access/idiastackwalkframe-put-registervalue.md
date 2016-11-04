@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame::put_registerValue method"
 ms.assetid: 2d8b79b6-7240-43fe-b24e-e4ff3e2c15b0
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

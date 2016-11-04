@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "executable images"
 ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

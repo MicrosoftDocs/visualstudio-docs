@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Noise Reduction Percentage"
 ms.assetid: 1c10cd4c-2fdd-48c9-b562-a334b3b2df6c
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

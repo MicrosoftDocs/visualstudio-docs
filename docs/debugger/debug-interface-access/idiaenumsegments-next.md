@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSegments::Next method"
 ms.assetid: 53f61874-d821-47ab-a1f5-27e982804a6a
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

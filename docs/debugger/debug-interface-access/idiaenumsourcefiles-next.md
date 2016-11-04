@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSourceFiles::Next method"
 ms.assetid: 83bf6317-ff39-4c5c-8987-cba34e7a6983
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

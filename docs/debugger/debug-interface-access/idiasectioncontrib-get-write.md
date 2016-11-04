@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_write method"
 ms.assetid: 7e75348e-c12c-44ec-b004-e97767580a3f
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: c0c4d74a-0314-4b71-81c9-b0b019347ab8
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

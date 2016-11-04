@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaImageData::get_virtualAddress method"
 ms.assetid: 67ecdc8c-d342-4d0b-b02a-c6b88e22fd02
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

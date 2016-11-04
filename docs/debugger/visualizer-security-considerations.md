@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "security [Visual Studio], visualizers"
 ms.assetid: cdd86bd5-b729-409b-a7c6-374efa091eb1
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

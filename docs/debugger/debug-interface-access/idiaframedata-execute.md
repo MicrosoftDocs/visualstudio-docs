@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::execute method"
 ms.assetid: 7a6c7d03-1ff1-4059-bd54-5f407eeebc26
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

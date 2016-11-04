@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "ASP.NET, installation error messages"
 ms.assetid: 6286dd3d-3e2b-4edd-959d-81e0ed45500b
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

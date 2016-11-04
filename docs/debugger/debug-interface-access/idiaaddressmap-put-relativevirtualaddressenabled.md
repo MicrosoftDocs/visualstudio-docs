@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaAddressMap::put_relativeVirtualAddressEnabled method"
 ms.assetid: 767c078e-8ad7-4940-9e00-cae7704aadee
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

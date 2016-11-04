@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_relativeVirtualAddress method"
 ms.assetid: ba8142e3-5c77-43cc-bd33-c077dcc18cab
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

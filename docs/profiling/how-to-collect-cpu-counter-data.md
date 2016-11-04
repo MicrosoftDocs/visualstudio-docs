@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "performance tools, portable CPU counters"
 ms.assetid: 102fb6ca-5fbf-4b05-925f-56912ce3f44b
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

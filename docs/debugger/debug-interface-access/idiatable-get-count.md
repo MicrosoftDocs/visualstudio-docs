@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaTable::get_Count method"
 ms.assetid: bb47abe8-6706-4679-bc52-79f6444dae7e
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

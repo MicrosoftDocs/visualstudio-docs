@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_allocatesBasePointer method"
 ms.assetid: 8a33db5d-008c-4fe5-b64f-210c9b77f686
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

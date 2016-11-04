@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_dataCrc method"
 ms.assetid: 33b7488f-dc9c-47b3-b08c-737e0eb1bf7d
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

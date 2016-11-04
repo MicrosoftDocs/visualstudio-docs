@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackWalkHelper2::searchForReturnAddress method"
 ms.assetid: 904223b1-6e26-4980-b310-d0b222cdbbbd
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

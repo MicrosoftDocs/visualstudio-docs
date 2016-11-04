@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_returnAddress method"
 ms.assetid: 0df91981-919f-48ed-9c70-4121567d645b
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

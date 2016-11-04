@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 288922be-ba3f-411e-af50-bba39c9529cc
 caps.latest.revision: 25
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

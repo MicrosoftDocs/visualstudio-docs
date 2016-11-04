@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeLength"
 ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

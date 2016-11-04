@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "message properties in SpyHelp"
 ms.assetid: 8b72b071-691b-48b7-8852-f748c20fc787
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

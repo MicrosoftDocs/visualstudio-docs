@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Manage Channels"
 ms.assetid: 507b06e9-bb56-4a72-8fd5-f91f958da6fc
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

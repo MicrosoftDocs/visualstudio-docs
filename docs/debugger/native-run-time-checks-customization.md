@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "native run-time checks, customizing"
 ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

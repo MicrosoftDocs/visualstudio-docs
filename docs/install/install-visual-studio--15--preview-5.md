@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Visual Studio installer"
 ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 caps.latest.revision: 18
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---

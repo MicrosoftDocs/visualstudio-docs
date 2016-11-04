@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumTables::get_Count method"
 ms.assetid: 30fa316b-a746-4028-acae-4efcd2066f38
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

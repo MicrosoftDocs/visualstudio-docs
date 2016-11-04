@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series::write_flag method"
 ms.assetid: ca07f388-e5d5-46fd-b991-fe6e9029a68f
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

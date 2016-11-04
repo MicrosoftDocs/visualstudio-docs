@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "ManagedType symbol"
 ms.assetid: 5db99e2a-4f2e-4796-89b7-b401b151826f
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

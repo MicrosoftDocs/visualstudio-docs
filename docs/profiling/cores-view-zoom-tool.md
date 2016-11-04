@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View Zoom Tool"
 ms.assetid: f7d48602-ba32-4487-b51a-89e596124108
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Registers window"
 ms.assetid: ab354047-053e-4f94-8ac1-26e761442b6f
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

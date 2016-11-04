@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpupaging"
 ms.assetid: 95284ac5-3492-4f7b-a79f-7d2840a07679
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

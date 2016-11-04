@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "debugging [DIA SDK], start point"
 ms.assetid: 1cbc6ca5-87d0-4c30-a39e-0a9dc62ce1a9
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

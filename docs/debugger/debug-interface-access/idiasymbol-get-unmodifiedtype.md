@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_unmodifiedType method"
 ms.assetid: bf914dc0-ff84-4f5d-9f75-1733b17f3be0
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

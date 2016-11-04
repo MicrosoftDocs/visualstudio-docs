@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View Logical Cores"
 ms.assetid: 8a471929-9a26-43e4-adef-d3b40f00f9e3
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

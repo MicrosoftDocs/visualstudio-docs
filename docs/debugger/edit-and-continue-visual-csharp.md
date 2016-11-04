@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "debugging [C#], Edit and Continue"
 ms.assetid: 591bd1b7-ef10-4d10-817b-3f92ca4be006
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

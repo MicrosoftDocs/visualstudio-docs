@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "SDI server applications, debugging"
 ms.assetid: 09713718-1376-4753-b119-26f36639693e
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

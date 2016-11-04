@@ -15,6 +15,7 @@ f1_keywords:
   - "command prompt"
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 caps.latest.revision: 8
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.mt: 

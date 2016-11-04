@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Instruction Pointers view"
 ms.assetid: 7d91cc14-e8e9-4ebb-b14f-b9f0da770508
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

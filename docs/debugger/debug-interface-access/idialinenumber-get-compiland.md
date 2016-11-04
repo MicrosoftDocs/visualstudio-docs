@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_compiland method"
 ms.assetid: c476d0b8-c473-47eb-96f5-c4e8f577b1c9
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

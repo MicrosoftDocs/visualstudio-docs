@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "profiling tools, ending sessions"
 ms.assetid: 9f6eb0d5-d9e9-4bec-b627-445065610bce
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

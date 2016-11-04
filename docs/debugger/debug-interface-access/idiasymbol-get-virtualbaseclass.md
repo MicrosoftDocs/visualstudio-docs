@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_virtualBaseClass method"
 ms.assetid: 474eddc6-bf16-4731-9145-6db2f2a0b4fd
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

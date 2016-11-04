@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_udtKind method"
 ms.assetid: 4002f887-aea6-4475-b302-67c57079fe0a
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

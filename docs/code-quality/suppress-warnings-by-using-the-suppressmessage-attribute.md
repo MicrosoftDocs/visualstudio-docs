@@ -1,7 +1,7 @@
 ---
 title: "Suppress Warnings By Using the SuppressMessage Attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,9 +21,9 @@ helpviewer_keywords:
   - "code analysis, SuppressMessage attribute"
 ms.assetid: a38c57a2-d29d-43c0-84ff-3308b2484ce6
 caps.latest.revision: 19
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

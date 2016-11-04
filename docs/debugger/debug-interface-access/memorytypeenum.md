@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MemoryTypeEnum enumeration"
 ms.assetid: 8778c047-edeb-4495-8f9f-3f8bbb297099
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

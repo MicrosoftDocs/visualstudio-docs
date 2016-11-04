@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debugging [C++], CRT debug support"
 ms.assetid: 9be561f6-14a8-44ff-925d-d911d5b8e6ff
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

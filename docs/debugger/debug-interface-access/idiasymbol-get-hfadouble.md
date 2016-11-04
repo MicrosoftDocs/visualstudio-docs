@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hfaDouble method"
 ms.assetid: efc247b9-c16e-4fa3-89b0-901caf7b74c3
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

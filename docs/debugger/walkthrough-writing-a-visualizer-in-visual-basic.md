@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], visualizers"
 ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

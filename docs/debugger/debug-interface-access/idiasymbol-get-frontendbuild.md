@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_frontEndBuild method"
 ms.assetid: f7dab1c6-112b-4966-baa5-afc976949c76
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

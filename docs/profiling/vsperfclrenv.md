@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "VSPerfCLREnv tool"
 ms.assetid: 4bc9dd6e-379c-4930-9bba-59a4faa93303
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

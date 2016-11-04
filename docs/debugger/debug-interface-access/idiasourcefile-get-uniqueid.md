@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSourceFile::get_uniqueId method"
 ms.assetid: e0b8dbc0-6061-4f31-bead-2cd72be44e41
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

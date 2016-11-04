@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_virtualAddress method"
 ms.assetid: de137bee-132f-4aae-a067-9578b7a3e6d4
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

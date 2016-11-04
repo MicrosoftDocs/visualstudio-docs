@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "BasicType enumeration"
 ms.assetid: 19ae53ba-cd6e-47b6-9f94-27ae663ce955
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

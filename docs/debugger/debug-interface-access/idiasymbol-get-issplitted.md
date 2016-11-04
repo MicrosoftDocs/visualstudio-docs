@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isSplitted method"
 ms.assetid: ff160cf6-003b-4ef5-a406-20a7b287b2bf
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

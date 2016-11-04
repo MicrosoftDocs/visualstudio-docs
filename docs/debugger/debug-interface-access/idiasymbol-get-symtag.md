@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_symTag method"
 ms.assetid: 139a35bd-faeb-4878-be72-394dedfbb18f
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

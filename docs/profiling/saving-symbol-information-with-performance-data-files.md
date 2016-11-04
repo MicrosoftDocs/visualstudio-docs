@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools, packsymbols"
 ms.assetid: 8b802505-e94d-4ee0-83e4-fdd790a332c1
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

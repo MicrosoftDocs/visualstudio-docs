@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSourceFile::get_checksum method"
 ms.assetid: aad63a7e-4e22-44e4-8a5b-81b5174ced1e
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

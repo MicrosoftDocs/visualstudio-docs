@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaLoadCallback2::RestrictReferencePathAccess method"
 ms.assetid: e20cb45c-0360-4ff0-a92c-b1b6f76d6e85
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

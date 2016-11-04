@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::get__NewEnum method"
 ms.assetid: 972372ff-abfc-4987-a302-7788fab90348
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

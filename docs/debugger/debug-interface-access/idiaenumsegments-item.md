@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSegments::Item method"
 ms.assetid: ee44dd55-39a0-4b7b-97ff-2e1226eeb2bd
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

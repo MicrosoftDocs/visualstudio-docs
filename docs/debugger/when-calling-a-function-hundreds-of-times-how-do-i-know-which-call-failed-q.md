@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "Skip Count"
 ms.assetid: 66cfac86-f5be-4d3a-9329-d44cd74bc586
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
