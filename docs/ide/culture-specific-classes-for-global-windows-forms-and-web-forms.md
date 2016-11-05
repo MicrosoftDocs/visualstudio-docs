@@ -1,7 +1,7 @@
 ---
 title: "Culture-Specific Classes for Global Windows Forms and Web Forms | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

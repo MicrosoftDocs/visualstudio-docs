@@ -1,7 +1,7 @@
 ---
 title: "Select Rule Set Dialog Box (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Select Rule Set dialog box"
 ms.assetid: cb2bc3f9-7730-4fb2-9f7b-303a9d9f0c8e
 caps.latest.revision: 6
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a State Machine Workflow Library (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "workflows, state machine workflow library"
 ms.assetid: 5bd68c6e-6a98-47d9-826d-9bb7a4fd72f8
 caps.latest.revision: 6
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "How to: Create an Activity Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 1eeebe74-7303-4345-8a83-fe37a26bc84b
 caps.latest.revision: 12
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

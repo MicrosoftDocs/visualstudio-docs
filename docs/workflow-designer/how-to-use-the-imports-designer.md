@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the Imports Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ f1_keywords:
   - "System.Activities.Presentation.View.ImportDesigner.UI"
 ms.assetid: 61328ab6-9b66-4e12-8630-22e30ee8c9d1
 caps.latest.revision: 10
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

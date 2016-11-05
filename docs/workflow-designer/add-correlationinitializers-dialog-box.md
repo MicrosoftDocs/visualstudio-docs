@@ -1,7 +1,7 @@
 ---
 title: "Add CorrelationInitializers Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ f1_keywords:
   - "AddCorrelationInitializers.UI"
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
 caps.latest.revision: 5
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

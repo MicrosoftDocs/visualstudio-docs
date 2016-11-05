@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-            "breadcrumb_path": "/aspnet/core/api/breadcrumb.json",
+            "breadcrumb_path": "~/_breadcrumb/toc.yml",
             "ms.locale": "en-us",
             "ROBOTS": "INDEX,FOLLOW",
             "author": "",

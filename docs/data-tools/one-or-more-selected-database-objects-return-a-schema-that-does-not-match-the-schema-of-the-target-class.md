@@ -1,7 +1,7 @@
 ---
 title: "One or more selected database objects return a schema that does not match the schema of the target class | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

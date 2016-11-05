@@ -1,7 +1,7 @@
 ---
 title: "DoWhile Activity Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ f1_keywords:
   - "System.Activities.Statements.DoWhile.UI"
 ms.assetid: 948deb35-d72f-462b-bea6-4b119c10a148
 caps.latest.revision: 7
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

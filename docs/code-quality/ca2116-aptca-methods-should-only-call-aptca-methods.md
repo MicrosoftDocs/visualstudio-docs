@@ -1,7 +1,7 @@
 ---
 title: "CA2116: APTCA methods should only call APTCA methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

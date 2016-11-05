@@ -1,7 +1,7 @@
 ---
 title: "Workflow Designer Shell Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ f1_keywords:
   - "WFDShellFeatures.UI"
 ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
 caps.latest.revision: 6
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

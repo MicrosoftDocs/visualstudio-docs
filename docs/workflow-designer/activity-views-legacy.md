@@ -1,7 +1,7 @@
 ---
 title: "Activity Views (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "activity views"
 ms.assetid: 83dc68cd-2cb2-45c2-9a6e-10d82053171a
 caps.latest.revision: 5
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

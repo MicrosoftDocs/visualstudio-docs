@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a PolicyActivity Rule Set (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "rule sets, creating for PolicyActivity"
 ms.assetid: f272489d-3342-4511-8b59-6a0fd7a42d70
 caps.latest.revision: 4
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

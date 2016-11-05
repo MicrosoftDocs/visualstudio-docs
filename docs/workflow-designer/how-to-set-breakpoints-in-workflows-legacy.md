@@ -1,7 +1,7 @@
 ---
 title: "How to: Set Breakpoints in Workflows (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "workflows, setting breakpoints"
 ms.assetid: 78e0be39-3e99-487c-bfef-19db0daf6f42
 caps.latest.revision: 6
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

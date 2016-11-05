@@ -1,7 +1,7 @@
 ---
 title: "Install Visual Studio Versions Side-by-Side | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ You can install this version of Visual Studio on a computer that already has an 
   
 -   If you use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)], you can later open and modify the solution again in the older version as long as you haven't implemented any features that are specific to Visual Studio 2015.  
   
--   If you try to use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2015. For more information, see the [Port, Migrate, and Upgrade Visual Studio Projects](../misc/port--migrate--and-upgrade-visual-studio-projects-in-visual-studio--15--rc.md) page.  
+-   If you try to use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2015. For more information, see the [Port, Migrate, and Upgrade Visual Studio Projects](../misc/port-migrate-and-upgrade-visual-studio-projects-in-visual-studio-15-rc.md) page.  
   
 -   If you uninstall a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on a computer that has more than one version installed, the file associations for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are removed for all versions. You can remap these file associations by using the **Restore File Associations** button on the **Environment**, **General** page of the [Options](../ide/reference/general-environment-options-dialog-box.md) dialog box.  
   
@@ -68,6 +68,6 @@ You can install this version of Visual Studio on a computer that already has an 
   
 ## See Also  
  [Install Visual Studio](../install/install-visual-studio-2015.md)
- [Port, Migrate, and Upgrade Visual Studio Projects](../misc/port--migrate--and-upgrade-visual-studio-projects-in-visual-studio--15--rc.md)   
+ [Port, Migrate, and Upgrade Visual Studio Projects](../misc/port-migrate-and-upgrade-visual-studio-projects-in-visual-studio-15-rc.md)   
  [Building C/C++ Isolated Applications and Side-by-side Assemblies](/visual-cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies)   
  [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

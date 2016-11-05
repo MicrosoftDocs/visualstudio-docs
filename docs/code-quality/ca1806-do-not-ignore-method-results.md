@@ -1,7 +1,7 @@
 ---
 title: "CA1806: Do not ignore method results | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,7 +73,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a class that ignores the result of calling String.Trim.  
   
-   
+ [!CODE [FxCop.Usage.DoNotIgnoreMethodResults#1](FxCop.Usage.DoNotIgnoreMethodResults#1)]  
   
 ## Example  
  The following example fixes the previous violation by assigning the result of String.Trim back to the variable it was called on.  

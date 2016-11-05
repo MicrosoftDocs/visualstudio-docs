@@ -1,7 +1,7 @@
 ---
 title: "CompensableActivity Activity Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
 caps.latest.revision: 6
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "Runtime Activity Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
 caps.latest.revision: 3
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
 title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/01/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

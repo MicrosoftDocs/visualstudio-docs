@@ -1,7 +1,7 @@
 ---
 title: "Browse and Select a .NET Type Dialog Box (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Browse and Select a .NET Type dialog box"
 ms.assetid: 1e66c9bc-94b2-46e2-bedf-871752e5f917
 caps.latest.revision: 5
-author: "ErikeRe"
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 

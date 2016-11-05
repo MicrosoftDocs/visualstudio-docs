@@ -1,7 +1,7 @@
 ---
 title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""

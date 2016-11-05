@@ -1,7 +1,7 @@
 ---
 title: "CA2153: Avoid Handling Corrupted State Exceptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

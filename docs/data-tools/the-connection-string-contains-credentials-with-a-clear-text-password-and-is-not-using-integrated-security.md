@@ -1,7 +1,7 @@
 ---
 title: "The connection string contains credentials with a clear text password and is not using integrated security | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
