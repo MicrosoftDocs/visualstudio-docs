@@ -1,7 +1,7 @@
 ---
 title: "CA1407: Avoid static members in COM visible types | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

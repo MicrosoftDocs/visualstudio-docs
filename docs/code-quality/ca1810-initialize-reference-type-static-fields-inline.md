@@ -1,7 +1,7 @@
 ---
 title: "CA1810: Initialize reference type static fields inline | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

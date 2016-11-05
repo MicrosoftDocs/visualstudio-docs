@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using the Debugger with Async Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/29/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "Step Out command, within async method"
 ms.assetid: 5adb2531-3f09-4b7e-8baa-29de80abee6e
 caps.latest.revision: 23
+author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
 translation.priority.ht: 

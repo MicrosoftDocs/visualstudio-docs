@@ -12,5 +12,5 @@
 ## [How to: Upgrade from a Trial Edition of Visual Studio](how-to-upgrade-from-a-trial-edition-of-visual-studio.md)
 ## [How to: Locate the Visual Studio Product Key](how-to-locate-the-visual-studio-product-key.md)
 ## [Visual Studio Lifecycle Policy Exceptions](visual-studio-lifecycle-policy-exceptions.md)
-# [Install Visual Studio "15" Preview 5](install-visual-studio--15--preview-5.md)
-## [Modify Visual Studio "15" Preview 5](modify-visual-studio--15--preview-5.md)
+# [Install Visual Studio "15" Preview 5](install-visual-studio-15-preview-5.md)
+## [Modify Visual Studio "15" Preview 5](modify-visual-studio-15-preview-5.md)

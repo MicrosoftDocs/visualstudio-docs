@@ -1,7 +1,7 @@
 ---
 title: "CA1013: Overload operator equals on overloading add and subtract | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

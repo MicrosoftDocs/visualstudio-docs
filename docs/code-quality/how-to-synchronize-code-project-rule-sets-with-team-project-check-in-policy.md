@@ -1,7 +1,7 @@
 ---
 title: "How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
