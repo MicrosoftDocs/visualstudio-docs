@@ -135,7 +135,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class. The Visual Studio wizard implements the `Initialize` method by using `MenuCommand`. For dynamic menu item displays, you must change this to `OleMenuCommand`, as is shown in the next step. Furthermore, to change the menu item text, you must add a TextChanges command flag to the menu command button in the .vsct file, as is shown in the following example  
   
-     [!CODE [MenuText#02](../CodeSnippet/VS_Snippets_VSSDK/menutext#02)]  
+     <!--FIXME [!CODE [MenuText#02](../CodeSnippet/VS_Snippets_VSSDK/menutext#02)]-->  
   
 5.  Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
   
