@@ -75,7 +75,7 @@ int GetStringChars(
 >  In C++, the returned string does not include a terminating null character. If given, `pceltFetched` will specify the number of characters in the string.  
   
 ## Example  
- [!CODE [[cpp]]([cpp])]  
+ <!--FIXME [!CODE [[cpp]]([cpp])]-->  
   
 ```  
 CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)  
@@ -97,7 +97,7 @@ CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)
     return(returnString);  
 ```  
   
- [!CODE [}](})]  
+ <!--FIXME [!CODE [}](})]-->  
   
 ## See Also  
  [GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)   

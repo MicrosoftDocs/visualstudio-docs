@@ -73,12 +73,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a class that ignores the result of calling String.Trim.  
   
- [!CODE [FxCop.Usage.DoNotIgnoreMethodResults#1](FxCop.Usage.DoNotIgnoreMethodResults#1)]  
+ <!--FIXME [!CODE [FxCop.Usage.DoNotIgnoreMethodResults#1](FxCop.Usage.DoNotIgnoreMethodResults#1)]  -->
   
 ## Example  
  The following example fixes the previous violation by assigning the result of String.Trim back to the variable it was called on.  
   
- [!CODE [FxCop.Usage.DoNotIgnoreMethodResults2#1](FxCop.Usage.DoNotIgnoreMethodResults2#1)]  
+ <!--FIXME [!CODE [FxCop.Usage.DoNotIgnoreMethodResults2#1](FxCop.Usage.DoNotIgnoreMethodResults2#1)]-->  
   
 ## Example  
  The following example shows a method that does not use an object that it creates.  

@@ -82,7 +82,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 6.  Replace the existing XML with the following XML:  
   
-     [!CODE [CreatingAnSDKUsingWinRT#2](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrt#2)]  
+     <!-- FIXME [!CODE [CreatingAnSDKUsingWinRT#2](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrt#2)]-->  
   
 7.  In **Solution Explorer**, choose the **SimpleMathVSIX** project.  
   

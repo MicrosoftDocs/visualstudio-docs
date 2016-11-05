@@ -65,7 +65,7 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
 3.  Create an [IDSymbol](../extensibility/idsymbol-element.md) element for each menu, group, or command that you want to add, as shown in the following example.  
   
-     [!CODE [ButtonGroup#01](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#01)]  
+     <!--FIXME [!CODE [ButtonGroup#01](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#01)]-->  
   
      The `name` attributes of the `GuidSymbol` and `IDSymbol` elements provide the GUID:ID pair for each new menu, group, or command. The `GUID` represents a command set that is defined for your VSPackage. You can define multiple command sets. Each GUID:ID pair must be unique.  
   
@@ -97,11 +97,11 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
          The following example shows a menu that will appear on the Visual Studio menu bar.  
   
-         [!CODE [TopLevelMenu#01](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#01)]  
+         <!--FIXME [!CODE [TopLevelMenu#01](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#01)] --> 
   
     -   You may omit the `Parent` element if the menu is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) section before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the GUID:ID of the menu, a priority, and a parent, as shown in the following example.  
   
-         [!CODE [ButtonGroup#04](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#04)]  
+         <!--[!CODE [ButtonGroup#04](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#04)]  -->
   
          Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements Element](../extensibility/commandplacements-element.md).  
   
@@ -109,7 +109,7 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
      Shortcut menus do not have parents or command placements. Instead, they must be activated in code. Typically, a shortcut menu is activated in response to a right-click on a control surface. The following example defines a shortcut menu.  
   
-     [!CODE [ButtonGroup#06](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#06)]  
+     <!--FIXME [!CODE [ButtonGroup#06](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#06)]  -->
   
 6.  In the [Groups](../extensibility/groups-element.md) section, create a [Group](../extensibility/group-element.md) element to contain the commands that are to appear on your menu. The `Symbols` section must include an entry that has the same GUID:ID as the new `Group` element.  
   
@@ -121,11 +121,11 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
      The group in the following example appears on the top-level menu that was shown in an earlier example.  
   
-     [!CODE [TopLevelMenu#02](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#02)]  
+     <!--[!CODE [TopLevelMenu#02](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#02)]-->  
   
      Menus can contain both commands and submenus. A submenu (sometimes referred to as a cascading menu) is just a menu, but it is one that is added to another menu's group and is exposed only when that other menu is invoked. By putting the menu that is shown in the following example in a group in the top-level menu, it becomes a submenu.  
   
-     [!CODE [TopLevelMenu#06](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#06)]  
+     <!--[!CODE [TopLevelMenu#06](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#06)]-->  
   
 7.  Add commands to the menu by creating command entries in the [Buttons](../extensibility/buttons-element.md) section and setting the parent of each to the GUID:ID of your group. Each [Button](../extensibility/button-element.md) element must have a GUID:ID that corresponds to an entry in the `Symbols` section.  
   
@@ -133,7 +133,7 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
      The following example defines a command that will appear on the top-level menu.  
   
-     [!CODE [TopLevelMenu#03](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#03)]  
+     <!--[!CODE [TopLevelMenu#03](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#03)]-->  
   
      For more information about buttons and menu items, see [Button Element](../extensibility/button-element.md).  
   
