@@ -244,5 +244,5 @@
 ## [Creating Applications in Bi-directional Languages](creating-applications-in-bi-directional-languages.md)
 ### [How to: Save and Open Files with Encoding](how-to-save-and-open-files-with-encoding.md)
 # [Adding Visual Studio editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
-# [csharp-ide](~/csharp-ide/TOC.md)
-# [reference](~\ide\reference)
+# [Using the Visual Studio Development Environment for C#](../csharp-ide/TOC.md)
+# [Visual Studio IDE Reference](eference)
