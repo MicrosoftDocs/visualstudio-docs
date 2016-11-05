@@ -56,13 +56,13 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 3.  Create an [IDSymbol](../extensibility/idsymbol-element.md) element for each menu, group, or command that you want to add, as shown in the following example.  
   
-     [!CODE [ButtonGroup#01](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#01)]  
+     <!--FIXME [!CODE [ButtonGroup#01](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#01)]  -->
   
      The `name` attributes of the `GuidSymbol` and `IDSymbol` elements provide the GUID:ID pair for each new menu, group, or command. The `guid` represents a command set that is defined for your VSPackage. You can define multiple command sets. Each GUID:ID pair must be unique.  
   
 4.  In the [Buttons](../extensibility/buttons-element.md) section, create a [Button](../extensibility/button-element.md) element to define the command, as shown in the following example.  
   
-     [!CODE [ButtonGroup#03](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#03)]  
+     <!--FIXME [!CODE [ButtonGroup#03](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#03)]  -->
   
     1.  Set the `guid` and `id` fields to match the GUID:ID of the new command.  
   
@@ -94,11 +94,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
          The following example defines a command that will appear on a user-defined menu.  
   
-         [!CODE [TopLevelMenu#03](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#03)]  
+         <!--FIXME [!CODE [TopLevelMenu#03](../CodeSnippet/VS_Snippets_VSSDK/toplevelmenu#03)]  -->
   
     -   You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
   
-         [!CODE [ButtonGroup#04](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#04)]  
+         <!-- FIXME [!CODE [ButtonGroup#04](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#04)] --> 
   
          Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements](../extensibility/commandplacements-element.md) element.  
   

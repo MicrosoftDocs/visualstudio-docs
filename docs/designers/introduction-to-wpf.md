@@ -497,7 +497,7 @@ End Namespace
  [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]  
 [!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/CSharp/introduction-to-wpf_35.cs)]
 [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/VisualBasic/introduction-to-wpf_35.vb)]  
-[!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)]  
+<!--FIXME [!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)] --> 
   
  The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.  
   
