@@ -38,7 +38,7 @@ We're interested in your ideas for improving our documentation. We can’t respo
  Please use our feedback button (**Was this page helpful?**) at the bottom of the page. You can find this button on all MSDN pages. If you’re looking for an answer and you can’t find it, please tell us what information you’re looking for.  
   
 ## I would like to report a problem with Visual Studio  
- If you are running into issues using Visual Studio such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by right-clicking on the feedback icon next to **QuickLaunch**, or by choosing **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio](../Topic/How%20to%20Report%20a%20Problem%20with%20Visual%20Studio.md).  
+ If you are running into issues using Visual Studio such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by right-clicking on the feedback icon next to **QuickLaunch**, or by choosing **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017 RC](how-to-report-a-problem-with-visual-studio-2017.md).  
   
 ## I want to make a suggestion about Visual Studio features  
  If there's something we can do better please let us know! Choose **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Your suggestion will automatically be posted to [UserVoice](https://visualstudio.uservoice.com) where others can vote for for it.  
@@ -63,4 +63,4 @@ We're interested in your ideas for improving our documentation. We can’t respo
  If you want to share your questions and answers with other developers, you can use the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home) or [StackOverflow](http://stackoverflow.com/). You can view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) and [CodePlex](http://www.codeplex.com/) websites.  
   
 ## See Also  
- [How to Report a Problem with Visual Studio](../Topic/How%20to%20Report%20a%20Problem%20with%20Visual%20Studio.md)
+ [How to Report a Problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
