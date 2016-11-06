@@ -225,7 +225,7 @@
 #### [Specifying File Handlers for File Name Extensions](specifying-file-handlers-for-file-name-extensions.md)
 #### [Registering Verbs for File Name Extensions](registering-verbs-for-file-name-extensions.md)
 #### [Managing Side-by-Side File Associations](managing-side-by-side-file-associations.md)
-# [Inside the Visual Studio SDK](extensibility/internals/TOC.md)
+# [Inside the Visual Studio SDK](internals/TOC.md)
 # [Support for the Visual Studio SDK](support-for-the-visual-studio-sdk.md)
 # [Archive](archive.md)
 ## [Legacy Interfaces in the Editor](legacy-interfaces-in-the-editor.md)
