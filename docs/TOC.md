@@ -1,5 +1,5 @@
-# [Welcome to Visual Studio 2017 RC](welcome-to-visual-studio.md)
-# [What's New in Visual Studio 2017](ide\what-s-new-in-visual-studio-2017.md)
+# [Welcome to Visual Studio 2017 RC!](welcome-to-visual-studio.md)
+# [What's New in Visual Studio 2017 RC](ide\what-s-new-in-visual-studio-2017.md)
 # [Install Visual Studio](install\TOC.md)
 # [Visual Studio IDE](ide/TOC.md)
 # [Visual Basic](/dotnet/articles/visual-basic.md)
