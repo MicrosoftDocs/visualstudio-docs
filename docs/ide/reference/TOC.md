@@ -152,7 +152,7 @@
 ## [Toggle Breakpoint Command](toggle-breakpoint-command.md)
 ## [Watch Command](watch-command.md)
 # [XML Tools in Visual Studio](../../xml-tools/TOC.md)
-# [MSBuild1](../msbuild/TOC.md)
+# [MSBuild1](../../msbuild/TOC.md)
 # [Accessibility for People with Disabilities](accessibility-for-people-with-disabilities.md)
 ## [Accessibility Features of Visual Studio](accessibility-features-of-visual-studio.md)
 ### [How to: Set IDE Accessibility Options](how-to-set-ide-accessibility-options.md)
