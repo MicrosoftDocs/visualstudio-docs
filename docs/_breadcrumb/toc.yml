@@ -44,13 +44,17 @@
       - name: Modeling Architecture
         tocHref: /visual-studio/modeling/
         topicHref: /visual-studio/modeling/analyze-and-model-your-architecture
-      - name: Debug
+      - name: Debugger
         tocHref: /visual-studio/debugger/ 
         topicHref: /visual-studio/debugger/debugging-in-visual-studio
+        items:
+        - name: DIA SDK
+          tocHref: /visual-studio/debugger/debug-interface-access/
+          topicHref: /visual-studio/debugger/debug-interface-access/debug-interface-access-sdk
       - name: Profiling
         tocHref: /visual-studio/profiling/
         topicHref: /visual-studio/profiling/profiling-tools
-      - name: Test
+      - name: Testing
         tocHref: /visual-studio/test/
         topicHref: /visual-studio/test/improve-code-quality
       - name: Workflow Designer
