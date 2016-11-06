@@ -185,7 +185,7 @@
 # [Support for User Settings](support-for-user-settings.md)
 # [Service Essentials](service-essentials.md)
 ## [List of Available Services](list-of-available-services.md)
-# [Visual Studio Debugger Extensibility](~/extensibility/debugger)
+# [Visual Studio Debugger Extensibility](../debugger/TOC.md)
 # [Source Control](source-control.md)
 ## [Source Control Integration Essentials](source-control-integration-essentials.md)
 ## [Source Control Integration Overview](source-control-integration-overview.md)
