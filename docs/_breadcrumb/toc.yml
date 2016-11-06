@@ -44,7 +44,7 @@
       - name: Modeling Architecture
         tocHref: /visual-studio/modeling/
         topicHref: /visual-studio/modeling/analyze-and-model-your-architecture
-      - name: Debugger
+      - name: Debugging
         tocHref: /visual-studio/debugger/ 
         topicHref: /visual-studio/debugger/debugging-in-visual-studio
         items:
@@ -60,7 +60,7 @@
       - name: Workflow Designer
         tocHref: /visual-studio/workflow-designer/
         topicHref: /visual-studio/workflow-designer/developing-applications-with-the-workflow-designer
-      - name: IDE Reference
+      - name: Reference
         tocHref: /visual-studio/ide/reference/
         topicHref: /visual-studio/ide/reference/visual-studio-reference
         items:

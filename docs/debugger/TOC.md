@@ -352,7 +352,7 @@
 ### [Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater](mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoft-dotnet-framework-4-or-greater.md)
 ### [Mixed mode debugging for IA64 processes is unsupported.](mixed-mode-debugging-for-ia64-processes-is-unsupported.md)
 ### [Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0](mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0.md)
-# [Debug Interface Access SDK](debug-interface-access)
+# [Debug Interface Access SDK](debug-interface-access/debug-interface-access-sdk.md)
 # [Spy++ Help](spy-increment-help.md)
 ## [Using Spy++](using-spy-increment.md)
 ### [Introducing Spy++](introducing-spy-increment.md)
