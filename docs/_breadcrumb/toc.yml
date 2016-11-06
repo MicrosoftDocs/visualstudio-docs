@@ -4,62 +4,62 @@
   items:
   - name: Visual Studio
     tocHref: /visual-studio/
-    topicHref: /visual-studio/welcome-to-visual-studio.md
+    topicHref: /visual-studio/welcome-to-visual-studio
     items:
     - name: Code Quality
       tocHref: /visual-studio/code-quality/
-      topicHref: /visual-studio/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md
+      topicHref: /visual-studio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
     - name: Cross Platform
       tocHref: /visual-studio/cross-platform/
-      topicHref: /visual-studio/cross-platform/cross-platform-mobile-development-in-visual-studio.md
+      topicHref: /visual-studio/cross-platform/cross-platform-mobile-development-in-visual-studio
     - name: CSharp IDE
       tocHref: /visual-studio/csharp-ide/
-      topicHref: /visual-studio/csharp-ide/using-the-visual-studio-development-environment-for-csharp.md
+      topicHref: /visual-studio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
     - name: Data Tools
       tocHref: /visual-studio/data-tools/ 
-      topicHref: /visual-studio/data-tools/accessing-data-in-visual-studio.md
+      topicHref: /visual-studio/data-tools/accessing-data-in-visual-studio
     - name: Debugger
       tocHref: /visual-studio/debugger/ 
-      topicHref: /visual-studio/debugger/debugging-in-visual-studio.md
+      topicHref: /visual-studio/debugger/debugging-in-visual-studio
     - name: Deployment
       tocHref: /visual-studio/deployment/
-      topicHref: /visual-studio/deployment/deploying-applications-services-and-components.md
+      topicHref: /visual-studio/deployment/deploying-applications-services-and-components
     - name: Designers
       tocHref: /visual-studio/designers/
-      topicHref: /visual-studio/designers/designing-user-interfaces.md
+      topicHref: /visual-studio/designers/designing-user-interfaces
     - name: Extensibility
       tocHref: /visual-studio/extensibility/
-      topicHref: /visual-studio/extensibility/extensibility-in-visual-studio.md
+      topicHref: /visual-studio/extensibility/extensibility-in-visual-studio
     - name: IDE 
       tocHref: /visual-studio/ide/
-      topicHref: /visual-studio/ide/visual-studio-ide.md
+      topicHref: /visual-studio/ide/visual-studio-ide
     - name: Installation
       tocHref: /visual-studio/install/
-      topicHref: /visual-studio/install/install-visual-studio-2015.md
+      topicHref: /visual-studio/install/install-visual-studio-2015
     - name: JavaScript
       tocHref: /visual-studio/javascript/
-      topicHref: /visual-studio/javascript/javascript-in-visual-studio.md
+      topicHref: /visual-studio/javascript/javascript-in-visual-studio
     - name: Modeling
       tocHref: /visual-studio/modeling/
-      topicHref: /visual-studio/modeling/analyze-and-model-your-architecture.md
+      topicHref: /visual-studio/modeling/analyze-and-model-your-architecture
     - name: MSBuild
       tocHref: /visual-studio/msbuild/
-      topicHref: /visual-studio/msbuild/msbuild1.md
+      topicHref: /visual-studio/msbuild/msbuild1
     - name: Porting
       tocHref: /visual-studio/porting/
-      topicHref: /visual-studio/porting/porting-migrating-and-upgrading-visual-studio-projects.md
+      topicHref: /visual-studio/porting/porting-migrating-and-upgrading-visual-studio-projects
     - name: Profiling
       tocHref: /visual-studio/profiling/
-      topicHref: /visual-studio/profiling/profiling-tools.md
+      topicHref: /visual-studio/profiling/profiling-tools
     - name: Python
       tocHref: /visual-studio/python/
-      topicHref: /visual-studio/python/getting-started-with-python.md
+      topicHref: /visual-studio/python/getting-started-with-python
     - name: Testing
       tocHref: /visual-studio/test/
-      topicHref: /visual-studio/test/improve-code-quality.md
+      topicHref: /visual-studio/test/improve-code-quality
     - name: Workflow Designer
       tocHref: /visual-studio/workflow-designer/
-      topicHref: /visual-studio/workflow-designer/developing-applications-with-the-workflow-designer.md
+      topicHref: /visual-studio/workflow-designer/developing-applications-with-the-workflow-designer
     - name: XML Tools
       tocHref: /visual-studio/xml-tools/
-      topicHref: /visual-studio/xml-tools/xml-tools-in-visual-studio.md
+      topicHref: /visual-studio/xml-tools/xml-tools-in-visual-studio
