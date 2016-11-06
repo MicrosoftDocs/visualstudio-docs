@@ -174,7 +174,7 @@
 ## [Using the Task List](using-the-task-list.md)
 ## [Find code changes and other history with CodeLens](find-code-changes-and-other-history-with-codelens.md)
 ### [CodeIndex Command](codeindex-command.md)
-# [Debugging in Visual Studio](../debugging/debugging-in-visual-studio.md)
+# [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
 # [Profiling Tools](../profiling/profiling-tools.md)
 # [Improve Code Quality](,,/test/improve-code-quality.md)
 # [Designing User Interfaces](../designers/TOC.md)
