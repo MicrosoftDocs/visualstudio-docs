@@ -179,6 +179,7 @@
 ## [Loading VSPackages](loading-vspackages.md)
 ## [How to: Use AsyncPackage to Load VSPackages in the Background](how-to-use-asyncpackage-to-load-vspackages-in-the-background.md)
 ## [How to: Use Rule-based UI Context for Visual Studio Extensions](how-to-use-rule-based-ui-context-for-visual-studio-extensions.md)
+## [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md)
 ## [Troubleshooting VSPackages](troubleshooting-vspackages.md)
 # [Shell (Isolated or Integrated)](shell-isolated-or-integrated.md)
 ## [Visual Studio Isolated Shell](visual-studio-isolated-shell.md)
