@@ -51,6 +51,9 @@ In most cases you don’t need to worry about managing VSPackages, since the pro
 ## Rule-based UI Context for Extensions  
  Rules-based UI Contexts allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded. For more information, see [How to: Use Rule-based UI Context for Visual Studio Extensions](../extensibility/how-to-use-rule-based-ui-context-for-visual-studio-extensions.md).  
   
+## Diagnosing extension performance  
+Extensions can impact startup and solution load performance. Learn how Visual Studio extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension. For more information, see [How to: Diagnose Extension Performance](how-to-diagnose-extension-performance.md). 
+  
 ## Troubleshooting VSPackages  
  Find out the techniques for troubleshooting VSPackages that don’t load or are experiencing errors: [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)  
   
