@@ -7,7 +7,6 @@
       "docset_name": "docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
-      "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
