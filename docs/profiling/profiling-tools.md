@@ -37,13 +37,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
   
  Check out the summary at the bottom to see what tools are available for your project type (for example, desktop, UWP, ASP.NET).  
   
- You can access the profiling tools by using **Debug / Windows / Show Diagnostic Tools** to use the tools during your debug session, or by using **Debug / Performance Profiler...** to do a focused performance analysis.  See [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) for more information on the different approaches.  
+ You can access the profiling tools by using **Debug / Windows / Show Diagnostic Tools** to use the tools during your debug session, or you can do a post-mortem analysis by using some other approaches.  See [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) for more information on the different approaches.
   
- ![DebugDiagnosticsToolsMenu](../profiling/media/debugdiagnosticstoolsmenu.png "DebugDiagnosticsToolsMenu")  
+ ![DebugDiagnosticsToolsMenu](../profiling/media/debugdiagnosticstoolsmenu.png "DebugDiagnosticsToolsMenu")
   
- See [What's New in Profiling Tools](../profiling/what-s-new-in-profiling-tools.md) to learn about new features for this release.  
+ See [What's New in Profiling Tools](../profiling/what-s-new-in-profiling-tools.md) to learn about new features for this release.
   
- The following sections describe the different performance tools that are available in Visual Studio.  
+ The following sections describe the different performance tools that are available in Visual Studio.
   
 ## Memory Usage  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
@@ -53,7 +53,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## CPU Usage  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
   
- The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as Azure App Services apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [CPU Usage](../profiling/cpu-usage.md) for more information.  
+ The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as Azure App Services apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) for more information.
   
 ## Performance Explorer  
  ![PerfTools](../profiling/media/perftools.png "PerfTools")  
