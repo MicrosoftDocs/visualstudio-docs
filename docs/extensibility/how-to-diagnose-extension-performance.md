@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 caps.latest.revision: 1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: "BertanAygun"
+ms.author: "bertaygu"
 manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"
@@ -28,8 +28,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Measuring extension impact in startup
-
-By Bertan Aygun, Microsoft Visual Studio IDE Platform Team
 
 ## Focus on extension performance in Visual Studio 2017
 
