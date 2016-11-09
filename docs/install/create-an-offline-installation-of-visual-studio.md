@@ -1,6 +1,6 @@
 ---
 title: "Create an Offline Installation of Visual Studio 2017 RC | Microsoft Docs"
-description: "Learn how to create an offline installation of Visual Studio without using the Internet."
+description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
 ms.date: "2016-11-16"
 ms.prod: "visual-studio-dev15"
@@ -28,12 +28,13 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-  translation.priority.ht: 
+  translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
 ---
+
 # Create an offline install of Visual Studio 2017 RC 
 ## Create a layout 
 You can create an offline installation layout that contains all the files you need to install the product without requiring Internet access.  
@@ -43,21 +44,21 @@ You can create an offline installation layout that contains all the files you ne
   For example, [download the vs_enterprise.exe file](https://aka.ms/vs/15/release/vs_enterprise.exe).
 2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt:
 
-   a. `--layout <path>`, where `<path>` is the location where you want the layout to download to. By default, all languages are downloaded. (See <a href="exA">Example A</a>.) 
+   a. `--layout <path>`, where `<path>` is the location where you want the layout to download to. By default, all languages are downloaded. (See Example A.) 
   
-   b. Restrict the download to a single language by providing the `--lang <language>` argument, where `<language>` is one of the ISO country codes.  (See <a href="exB">Example B</a> and <a href="exC">Example C</a>.)
+   b. Restrict the download to a single language by providing the `--lang <language>` argument, where `<language>` is one of the ISO country codes.  (See Example B and Example C.)
 
-### Examples: 
-<a name="exA"></a> A. Install all languages 
-  > * `vs_enterprise.exe --layout C:\layout` 
+### Examples 
+<a name="exA"></a> **Example A**. Install all languages 
+  > ```vs_enterprise.exe --layout C:\layout``` 
 
-<a name="exB"></a> B. Install one language (English only) 
-  > * `vs_enterprise.exe --layout C:\layout --lang en-US` 
+<a name="exB"></a> **Example B**. Install one language (in this case, English only) 
+  > ```vs_enterprise.exe --layout C:\layout --lang en-US``` 
 
-<a name="exC"></a> C. Install multiple languages 
-  > * `vs_enterprise.exe --layout C:\layout --lang en-us de-DE ja-JP` 
+<a name="exC"></a> **Example C**. Install multiple languages 
+  > ```vs_enterprise.exe --layout C:\layout --lang en-US de-DE ja-JP``` 
 
-### ISO country codes of the languages that you can use: 
+### ISO country codes  
 | ISO Code | Language | 
 | -----   | ----- | 
 | cs-CZ	| Czech | 
@@ -81,6 +82,7 @@ You can create an offline installation layout that contains all the files you ne
 1. On the target machine, navigate to the **Certificates** folder, which is in the Layout folder. 
 2. Right-click and install each certificate in the **Certificates** folder. 
 3. Run `vs_enterprise.exe` from the **Layout** folder. 
-> [!NOTE]  
-> The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
+
+[!NOTE]  
+The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
 
