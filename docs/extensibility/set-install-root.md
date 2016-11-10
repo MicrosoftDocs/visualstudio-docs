@@ -59,7 +59,7 @@ This will add some metadata to the corresponding ProjectReference property insid
  </ProjectReference>
 ```
 
-Note that you can always just edit the csproj file, if you’d like.
+>**Note:** You can edit the csproj file directly, if you prefer.
 
 ## How to set a subpath under the InstallRoot
 

@@ -5,7 +5,7 @@ ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -14,7 +14,7 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
+translation.priority.mt:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -33,9 +33,9 @@ translation.priority.mt:
 
 With Visual Studio 2017, extension developers can now "ngen" their assemblies at installation time.
 
-Below is an excerpt from MSDN that explains what "ngen" is: 
+Below is an excerpt from MSDN that explains what "ngen" is:
 
->The Native Image Generator (Ngen.exe) is a tool that improves the performance of managed applications. Ngen.exe creates native images, which are files containing compiled processorspecific machine code, and installs them into the native image cache on the local computer. The runtime can use native images from the cache instead of using the just-in-time (JIT) compiler to compile the original assembly. 
+>The Native Image Generator (Ngen.exe) is a tool that improves the performance of managed applications. Ngen.exe creates native images, which are files containing compiled processor-specific machine code, and installs them into the native image cache on the local computer. The runtime can use native images from the cache instead of using the just-in-time (JIT) compiler to compile the original assembly.
 >
 >from [Ngen.exe [Native Image Generator)[https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx]
 
@@ -73,8 +73,8 @@ This will add some metadata to the project reference inside of the VSIXProjectâ€
 </ProjectReference>
  ```
 
- Note that you can always just edit the csproj file, if you prefer.
+ >**Note:** You can edit the csproj file directly, if you prefer.
 
 ## Extra information
 
-The property designer changes apply to more than just project references; you can set the Ngen metadata for items inside of your project as well (using the same methods described above) as long as the items are .NET assemblies. 
+The property designer changes apply to more than just project references; you can set the Ngen metadata for items inside of your project as well (using the same methods described above) as long as the items are .NET assemblies.

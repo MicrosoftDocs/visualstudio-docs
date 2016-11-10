@@ -29,13 +29,15 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Breaking Changes to Extensibility in Visual Studio 2017
+# Breaking Changes in Extensibility in Visual Studio 2017
 
 With Visual Studio 2017, we’re offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we’ve made changes to the extensibility model, and have made some breaking changes to Visual Studio. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
 
 ## Changes Affecting VSIX Format and Installation
 
-We’re introducing the VSIX v3 (version 3) format to support the light-weight installation experience. Changes to the VSIX format include:
+We’re introducing the VSIX v3 (version 3) format to support the light-weight installation experience.
+
+Changes to the VSIX format include:
 
 * Declaration of setup prerequisites. To deliver on the promise of a lightweight, fast-installing Visual Studio, the installer now offers more configuration options to users. As a result, to ensure that the features and components required by an extension are installed, extensions will need to declare their dependencies.
   * With the RC release, the Visual Studio 2017 installer will automatically offer to acquire and install the necessary components for the user as part of installing your extension.
@@ -45,14 +47,14 @@ We’re introducing the VSIX v3 (version 3) format to support the light-weight i
   The new capabilities include:
 
   * Registration into the specified Visual Studio instance
-  * Installation to external directories (More info available in separate technical doc)
+  * Installation to [external directories](set-install-root.md)
   * Detection of processor architecture
   * Dependence on language-separated language packs
-  * Installation with NGEN support (More info available in separate technical doc)
+  * Installation with [NGEN support](ngen-support.md)
 
 ## Building an extension for Visual Studio 2017
 
-Designer tooling for authoring of the new VSIX v3 format is now available in Visual Studio 2017 RC. See the accompanying document [VSIX v3 Upgrade Instructions - RC](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
+Designer tooling for authoring of the new VSIX v3 format is now available in Visual Studio 2017 RC. See the accompanying document [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
 
 ## Change: Visual Studio user data path
 
@@ -100,9 +102,9 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 ### Visual Studio registry
 
 * Previously, Visual Studio installed many registry keys into the system’s local machine and user hives under a Visual Studio-specific key:
-  * HKLM\Software\Microsoft\VisualStudio\**Version**: Registry keys created by MSI installers and per-machine extensions.
-  * HKCU\Software\Microsoft\VisualStudio\**Version**: Registry keys created by Visual Studio to store user-specific settings.
-  * HKCU\Software\Microsoft\VisualStudio\**Version**_Config: A copy of Visual Studio HKLM key above, plus the registry keys merged from PKGDEF files by extensions.
+  * HKLM\Software\Microsoft\VisualStudio\\**Version**: Registry keys created by MSI installers and per-machine extensions.
+  * HKCU\Software\Microsoft\VisualStudio\\**Version**: Registry keys created by Visual Studio to store user-specific settings.
+  * HKCU\Software\Microsoft\VisualStudio\\**Version**_Config: A copy of Visual Studio HKLM key above, plus the registry keys merged from PKGDEF files by extensions.
 * To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724886(v=vs.85).aspx) function to store registry keys in a private binary file under %VsAppDataFolder%\privateregistry.bin. Only a very small number of Visual Studio-specific keys remain in the system registry.
 * Existing code running inside the Visual Studio process is not impacted. Visual Studio will redirect all registry operations under the HKCU Visual Studio-specific key to the private registry. Reading and writing to other registry locations will continue to use the system registry.
 * External code will need to load and read from this file for Visual Studio registry entries.
