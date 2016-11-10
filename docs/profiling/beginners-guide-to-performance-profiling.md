@@ -51,7 +51,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 3.  You can choose whether to see **CPU Usage**, [Memory Usage](../Topic/Memory%20Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
 
-     ![Show Diagnostics Tools](../Image/DiagToolsSelectTool.png "DiagToolsSelectTool")
+     ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so choose **CPU Usage**.
 
@@ -59,23 +59,23 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
-     ![Diagnostics Tools Summary Tab](../Image/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+     ![Diagnostics Tools Summary Tab](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
 
      For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx)
 
 5.  Enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
-     ![Diagnostics Tools Enable CPU Profiling](../Image/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
+     ![Diagnostics Tools Enable CPU Profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
   
 6.  Run the scenario that will cause your breakpoint to be hit.
 
      The profiler begins preparing thread data. Wait for it to finish.
 
-     ![Diagnostics Tools Preparing Threads](../Image/DiagToolsPreparingThreads.png "DiagToolsPreparingThreads")
+     ![Diagnostics Tools Preparing Threads](../profiling/media/DiagToolsPreparingThreads.png "DiagToolsPreparingThreads")
   
      The CPU Usage tool displays the report in the **CPU Usage** tab.
   
-     ![Diagnostics Tools CPU Usage Tab](../Image/DiagToolsCPUUsageTab.png "DiagToolsCPUUsageTab")
+     ![Diagnostics Tools CPU Usage Tab](../profiling/media/DiagToolsCPUUsageTab.png "DiagToolsCPUUsageTab")
 
      Now, you can begin to analyze the data.
 
@@ -83,7 +83,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 7. If you want to limit CPU usage data to a particular period when your app was running, select the region you're interested in analyzing in the CPU timeline.
 
-    ![Diagnostics Tools Selecting a Time Segment](../Image/DiagToolsSelectTimeSegment.png "DiagToolsSelectTimeSegment")
+    ![Diagnostics Tools Selecting a Time Segment](../profiling/media/DiagToolsSelectTimeSegment.png "DiagToolsSelectTimeSegment")
 
     The CPU usage data in the function list is immediately updated.
 
@@ -93,7 +93,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 1. In the function list, examine the functions that are doing the most work.
 
-    ![Diagnostics Tools CPU Usage Function List](../Image/DiagToolsCPUUsageFunctionList.png "DiagToolsCPUUsageFunctionList")
+    ![Diagnostics Tools CPU Usage Function List](../profiling/media/DiagToolsCPUUsageFunctionList.png "DiagToolsCPUUsageFunctionList")
 
     > [!TIP] Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
 
@@ -101,7 +101,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     When you select a function, the **Caller/Callee** view opens in the left pane. 
 
-    ![Diagnostics Tools Caller Callee View](../Image/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
+    ![Diagnostics Tools Caller Callee View](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
 
     In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
@@ -115,14 +115,14 @@ We recommend that you begin analyzing your data by examining the list of functio
  
     Each numbered area in the figure relates to a step in the procedure.
   
-    ![Diagnostics Tools Call Tree](../Image/DiagToolsCallTree.png "DiagToolsCallTree")
+    ![Diagnostics Tools Call Tree](../profiling/media/DiagToolsCallTree.png "DiagToolsCallTree")
   
 |||
 |-|-|
-|![Step 1](../Image/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|  
-|![Step 2](../Image/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#BKMK_External_Code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|  
-|![Step 3](../Image/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
-|![Step 4](../Image/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
+|![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|  
+|![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#BKMK_External_Code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|  
+|![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
+|![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
 Here is more information on the column values:
 
@@ -138,7 +138,7 @@ External code are functions in system and framework components that executed by 
   
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
   
-![Choose Filter View, then Show External Code](../Image/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
+![Choose Filter View, then Show External Code](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
   
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[…]**.
   
@@ -151,7 +151,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method’s execution. Conceptually, the class is a state machine that includes a list of compiler-generated functions that call operations of the original method asynchronously, and the callbacks, scheduler, and iterators required to them correctly. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent, and runs the methods of the hidden class in the context of the system and framework code that control the app’s execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code is shown in the CPU Usage call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
-![Diagnostic Tools Asynchronous Functions](../Image/DiagToolsAsyncFunctions.png "DiagToolsAsyncFunctions")
+![Diagnostic Tools Asynchronous Functions](../profiling/media/DiagToolsAsyncFunctions.png "DiagToolsAsyncFunctions")
 
 The first node under **[External Code]** is a compiler-generated method of the state machine class. 
   
