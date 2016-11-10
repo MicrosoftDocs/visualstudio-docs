@@ -69,14 +69,14 @@ To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
 ## Make changes to the VSIX extension manifest
 
-To ensure that the user's installation of Visual Studio has all the assemblies required to run the extension, specify all the prerequisite components or packages in the extension manifest file. Note: When a user attempts to install the extension, the installer will check to see if all the prerequisites are installed. If some are missing, the user will be prompted to install the missing components as part of the extension installation process.
+To ensure that the user's installation of Visual Studio has all the assemblies required to run the extension, specify all the prerequisite components or packages in the extension manifest file. When a user attempts to install the extension, the VSIXInstaller will check to see if all the prerequisites are installed. If some are missing, the user will be prompted to install the missing components as part of the extension installation process.
 
 * Edit the extension manifest file (usually called source.extension.vsixmanifest).
 * Ensure InstallationTarget includes 15.0.
-* Add required installation prerequisites (as shown in example below).
+* Add required installation prerequisites (as shown in the example below).
   * We recommend you specify only Component IDs for installation prerequisites.
-  * DisplayName attribute is optional.
-  * See the section at the end of this document for instructions on identifying Component IDs.
+  * The DisplayName attribute is optional.
+  * See the section at the end of this document for [instructions on identifying Component IDs](#finding-component-ids).
 
 Example:
 
@@ -94,9 +94,9 @@ Example:
 
 ### Option: Use the designer to make changes to the VSIX extension manifest
 
-Instead of directly editing the manifest XML, you can use the new **Prerequisites** tab in the Manifest Designer to select the prerequisites and the XML will be updated for you. 
+Instead of directly editing the manifest XML, you can use the new **Prerequisites** tab in the Manifest Designer to select the prerequisites and the XML will be updated for you.
 
->**Note:** The Designer will only allow you to select Components (not Workloads or Packages) that are installed on the current Visual Studio instance. If you need to add a prerequisite for a workload or a package, or a component that is not currently installed, edit the manifest XML directly.
+>**Note:** The Designer will only allow you to select Components (not Workloads or Packages) that are installed on the current Visual Studio instance. If you need to add a prerequisite for a workload, package, or component that is not currently installed, edit the manifest XML directly.
 
 * Open source.extension.vsixmanifest [Design] file.
 * Select **Prerequisites** tab and press **New** button.
@@ -123,7 +123,7 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
 
 ## Update Debug settings for project
 
-If you wish to Debug your extension in an experimental instance of Visual Studio, make sure that the project settings for **Debug** > **Start action** has the "Start external program:" set to the devenv.exe file of your Visual Studio 2017 installation.
+If you wish to debug your extension in an experimental instance of Visual Studio, make sure that the project settings for **Debug** > **Start action** has the **Start external program:** value set to the devenv.exe file of your Visual Studio 2017 installation.
 
 It might look like:
 
@@ -133,24 +133,24 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ![start external program](media/start-external-program.png)
 
->**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current VS install directory. But if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous VS version’s install directory. Setting the value for **Debug** > **Start action** will allow the correct VS experimental instance to launch when you try to debug your extension.
+>**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. But if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version’s install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
 
-## Check that the extension built correctly (as a VSIX v3)
+## Check that the extension builds correctly (as a VSIX v3)
 
-* Build the VSIX project
-* Unzip the generated VSIX
-  * By default, lives inside bin/Debug or bin/Release as [YourCustomExtension].vsix
-  * Rename .vsix to .zip if it helps
+* Build the VSIX project.
+* Unzip the generated VSIX.
+  * By default, lives inside bin/Debug or bin/Release as [YourCustomExtension].vsix.
+  * Rename .vsix to .zip if it helps.
 * Check for the existence of three files:
   * extension.vsixmanifest
   * manifest.json
   * catalog.json
 
-## Check when all required prerequisites installed
+## Check when all required prerequisites are installed
 
 Test that the VSIX installs successfully on a machine with all required prerequisites installed.
 
-Before installing any extension, please shut down all instances of Visual Studio.
+>**Note:** Before installing any extension, please shut down all instances of Visual Studio.
 
 Attempt to install the extension:
 
@@ -158,18 +158,18 @@ Attempt to install the extension:
 
 ![VSIX installer on Visual Studio 2017](media/vsixinstaller-vs-2017.png)
 
-* Optional: On previous versions of Visual Studio
-  * Proves backward compatibility
-  * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015
-* Optional: Check that VSIX Installer Version Checker offers a choice of versions
-  * Includes previous versions of Visual Studio (if installed)
-  * Includes Visual Studio 2017 RC
+* Optional: Check on previous versions of Visual Studio.
+  * Proves backward compatibility.
+  * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
+* Optional: Check that VSIX Installer Version Checker offers a choice of versions.
+  * Includes previous versions of Visual Studio (if installed).
+  * Includes Visual Studio 2017 RC.
 
 If Visual Studio was recently opened, you might see a dialog box like this:
 
 ![vs running processes](media/vs-running-processes.png)
 
-Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis. 
+Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis.
 
 >**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you’ve shut down all instances of Visual Studio on the machine – including those from other users, then continue to retry.
 

@@ -5,7 +5,7 @@ ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -14,7 +14,7 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
+translation.priority.mt:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -30,9 +30,10 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
+
 The Visual Studio SDK has the following new and updated features for Visual Studio 2017.
 
-## VSIX v3
+## VSIX v3 format
 
 To support the new light-weight install of Visual Studio 2017, the VSIX extension manifest format has been updated to version 3 (VSIX v3).
 
@@ -49,10 +50,14 @@ To learn about these changes, see the following topics:
 * [Set Install Root](set-install-root.md)
 * [Frequently Asked Questions for Visual Studio 2017](faq-2017.md)
 
+## Migrating extensibility project to Visual Studio 2017
+
+To learn how to update your extensibility projects and their VSIX manifests to Visual Studio 2017, see [How to: Migrate Extensibility Projects to Visual Studio 2010](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
+
 ## Custom project and item templates
 
-Starting in Visual Studio "15" Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio “15”](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-“15”.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).  
+Starting in Visual Studio "15" Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio “15”](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-“15”.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
 
-## Updated Extension Performance Guidelines 
+## Updated Extension Performance Guidelines
 
-There is a new [How to: Diagnose extension performance]how-to-diagnose-extension-performance.md) topic under [Managing VSPackages](managing-vs-packages.md) to show how to detect and analyze extension impact on Visual Studio startup and solution load times.
+There is a new [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md) topic under [Managing VSPackages](managing-vspackages.md) to show how to detect and analyze extension impact on Visual Studio startup and solution load times.

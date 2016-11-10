@@ -29,7 +29,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Breaking Changes in Extensibility in Visual Studio 2017
+# Breaking Changes in Extensibility (Visual Studio 2017)
 
 With Visual Studio 2017, we’re offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we’ve made changes to the extensibility model, and have made some breaking changes to Visual Studio. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
 

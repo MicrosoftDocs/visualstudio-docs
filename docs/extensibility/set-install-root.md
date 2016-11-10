@@ -1,5 +1,5 @@
 ---
-title: "Setting the InstallRoot with VSIX v3 | Microsoft Docs"
+title: "Installing to external directories with VSIX v3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,9 +29,9 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Installing outside of the extension cone with VSIX V3
+# Installing to external directories
 
-Support for installing outside of the extensions folder has been enabled with Visual Studio 2017. Currently, the following locations are enabled as valid installation locations (where [installdir] is mapped to the Visual Studio instance’s installation directory):
+Starting with Visual Studio 2017 and VSIX v3 (version 3) there is now support for installing extension assets outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [installdir] is mapped to the Visual Studio instance’s installation directory):
 
 * [installdir]\Common7\IDE\PublicAssemblies
 * [installdir]\Common7\IDE\ReferenceAssemblies
@@ -44,6 +44,8 @@ In order to support installing to these directories, the VSIX must be installed 
 ![check all users](media/check-all-users.png)
 
 ## How to set the InstallRoot
+
+can`t can't 
 
 To set the installation directories, you can use the properties window in VS. For instance, you can set the **InstallRoot** property of a project reference to one of the above locations:
 
