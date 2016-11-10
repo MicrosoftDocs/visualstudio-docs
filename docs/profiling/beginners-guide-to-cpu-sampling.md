@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Beginners Guide to CPU Sampling
-You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
 
 > [!NOTE]
 >  We recommend you use the [CPU Usage](../profiling/beginners-guide-to-performance-profiling.md) tool in the Diagnostics Tools window instead of the legacy CPU sampling tool, unless you need specialized features such as instrumentation support.
