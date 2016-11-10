@@ -2,7 +2,7 @@
 title: "Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,9 +20,9 @@ helpviewer_keywords:
   - "refactoring [C#]"
 ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
 caps.latest.revision: 23
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
+author: "BrianPeek"
+ms.author: "brpeek"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -41,20 +41,15 @@ translation.priority.ht:
 # Refactoring (C#)
 Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  
   
- Visual C# provides the following refactoring commands on the **Refactoring** menu:  
+Visual C# provides the following refactoring features:  
   
--   [Extract Method Refactoring (C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
-  
--   [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md)  
-  
--   [Encapsulate Field Refactoring (C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
-  
--   [Extract Interface Refactoring (C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
-  
--   [Remove Parameters Refactoring (C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
-  
--   [Reorder Parameters Refactoring (C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
-  
+* [Change Method Signature](refactoring/change-method-signature.md)
+* [Extract Interface](refactoring/extract-interface.md)
+* [Extract Method](refactoring/extract-method.md)
+* [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
+* [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
+* [Rename](refactoring/rename.md)
+
 ## Multi-Project Refactoring  
  Visual Studio supports multi-project refactoring for projects that are in the same solution. All of the refactoring operations that correct references across files correct those references across all projects of the same language. This works for any project-to-project references. For example, if you have a console application that references a class library, when you rename a class library type (using the `Rename` refactoring operation), the references to the class library type in the console application are also updated.  
   
@@ -87,7 +82,7 @@ Refactoring is the process of improving your code after it has been written by c
 ### References whose definition will no longer be the renamed symbol  
  This kind of rebinding issue occurs when a reference no longer refers to a renamed symbol. For example, consider the following code:  
   
-```c#  
+```cs  
 class Example  
 {  
     private int a;  
@@ -103,7 +98,7 @@ class Example
 ### References whose definition will now become the renamed symbol  
  This kind of rebinding issue occurs when a reference that previously did not refer to the renamed symbol now does refer to the renamed symbol. For example, consider the following code:  
   
-```c#  
+```cs
 class Example  
 {  
     private static void Method(object a) { }  

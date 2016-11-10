@@ -1,5 +1,5 @@
 ---
-title: "Move Type to Matching File"
+title: "Move Type to Matching File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -40,7 +40,7 @@ translation.priority.ht:
 
 1. Highlight or place the text cursor inside the name of the type to move:
 
-   ![Highlighted code](images/movetype_highlight.png)
+   ![Highlighted code](media/movetype_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -50,4 +50,4 @@ translation.priority.ht:
 
    The type will instantly moved to a new file with that name inside of your solution.
 
-   ![Inline result](images/movetype_result.png)
+   ![Inline result](media/movetype_result.png)

@@ -1,5 +1,5 @@
 ---
-title: "Rename"
+title: "Rename | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -40,7 +40,7 @@ translation.priority.ht:
 
 1. Highlight or place the text cursor inside the item to be renamed:
 
-   ![Highlighted code](images/rename_highlight.png)
+   ![Highlighted code](media/rename_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -51,7 +51,7 @@ translation.priority.ht:
 
 1. Rename the item simply by typing the new name.
 
-   ![Rename animation](images/rename_animated.gif)
+   ![Rename animation](media/rename_animated.gif)
 
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as preview changes before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
@@ -61,7 +61,7 @@ translation.priority.ht:
 > [!NOTE]
 > If you use a name that already exists which would cause a conflict, the **Rename** box in your IDE will warn you.
 >
-> ![Rename Conflict](images/rename_conflict.png)
+> ![Rename Conflict](media/rename_conflict.png)
 
 
-<!--   ![Rename item](images/rename_rename.png)-->
+<!--   ![Rename item](media/rename_rename.png)-->

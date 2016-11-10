@@ -1,5 +1,5 @@
 ---
-title: "Change Method Signature"
+title: "Change Method Signature | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -40,7 +40,7 @@ translation.priority.ht:
 
 1. Highlight or place the text cursor inside the name of the method to modify, or one of its usages:
 
-   ![Highlighted code](images/changesignature_highlight.png)
+   ![Highlighted code](media/changesignature_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -53,7 +53,7 @@ translation.priority.ht:
 
 1. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
 
-   ![Change Signature dialog](images/changesignature_dialog.png)
+   ![Change Signature dialog](media/changesignature_dialog.png)
 
    | Button | Description
    | ------ | ---
@@ -66,4 +66,4 @@ translation.priority.ht:
 
 1. When you are finished, press the **OK** button to make the changes.
 
-   ![Change Signature result](images/changesignature_result.png)
+   ![Change Signature result](media/changesignature_result.png)

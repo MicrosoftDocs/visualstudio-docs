@@ -1,5 +1,5 @@
 ---
-title: "Inline Temporary Variable"
+title: "Inline Temporary Variable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -40,7 +40,7 @@ translation.priority.ht:
 
 1. Highlight or place the text cursor inside the temporary variable to be inlined:
 
-   ![Highlighted code](images/inline_highlight.png)
+   ![Highlighted code](media/inline_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -50,4 +50,4 @@ translation.priority.ht:
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
-   ![Inline result](images/inline_result.png)
+   ![Inline result](media/inline_result.png)
