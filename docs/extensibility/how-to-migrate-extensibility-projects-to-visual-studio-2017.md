@@ -1,5 +1,5 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2017 RC | Microsoft Docs"
+title: "How to: Migrate Extensibility Projects to Visual Studio 2017| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,9 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Migrate Extensibility Projects to Visual Studio 2017 RC 
+# How to: Migrate Extensibility Projects to Visual Studio 2017
+
+>**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
 This document explains how to upgrade extensibility projects to Visual Studio 2017. In addition to describing how to update the project files, it also describes how to upgrade from extension manifest version 2 (VSIX v2) to the new version 3 VSIX manifest format (VSIX v3).
 

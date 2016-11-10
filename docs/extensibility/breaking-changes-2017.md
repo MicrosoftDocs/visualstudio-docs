@@ -1,5 +1,5 @@
 ---
-title: "Breaking Changes to Extensibility in Visual Studio 2017 | Microsoft Docs"
+title: "Breaking Changes in Visual Studio 2017 extensibility| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,9 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Changes in Extensibility (Visual Studio 2017)
+# Changes in Visual Studio 2017 extensibility
+
+>**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
 With Visual Studio 2017, we’re offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we’ve made changes to the extensibility model, and have made some breaking changes to Visual Studio. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
 
@@ -54,7 +56,7 @@ Changes to the VSIX format include:
 
 ## Building an extension for Visual Studio 2017
 
-Designer tooling for authoring of the new VSIX v3 format is now available in Visual Studio 2017 RC. See the accompanying document [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
+Designer tooling for authoring of the new VSIX v3 format is now available in Visual Studio 2017. See the accompanying document [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
 
 ## Change: Visual Studio user data path
 

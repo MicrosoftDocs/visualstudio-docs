@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in the Visual Studio 2017 RC SDK | Microsoft Docs"
+title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
 ms.prod: "visual-studio-dev15"
@@ -30,6 +30,8 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
+
+>**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
 The Visual Studio SDK has the following new and updated features for Visual Studio 2017.
 
