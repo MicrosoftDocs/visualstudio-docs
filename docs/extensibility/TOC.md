@@ -6,7 +6,7 @@
 ## [Breaking Changes in Extensibility](breaking-changes-2017.md)
 ## [Ngen support in VSIX v3](ngen-support.md)
 ## [Installing to external directories](set-install-root.md)
-## [Extensibility 2017 FAQ](faq-2017.md)
+## [Frequently Asked Questions](faq-2017.md)
 # [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
 # [What's New in the Visual Studio 2015 SDK](what-s-new-in-the-visual-studio-2015-sdk.md)
 # [How to: Migrate Extensibility Projects to Visual Studio 2015](how-to-migrate-extensibility-projects-to-visual-studio-2015.md)
