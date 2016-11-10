@@ -1,5 +1,5 @@
 ---
-title: "Refactoring (C#) | Microsoft Docs"
+title: "Refactoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev15"
@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Refactoring (C#)
+# Refactoring
 Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  
   
 Visual C# provides the following refactoring features:  
