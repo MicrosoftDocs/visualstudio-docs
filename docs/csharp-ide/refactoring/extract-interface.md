@@ -1,5 +1,5 @@
 ---
-title: "Extract Interface | Microsoft Docs
+title: "Extract Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
