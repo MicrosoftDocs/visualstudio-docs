@@ -33,7 +33,7 @@ translation.priority.mt:
 
 >**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
-With Visual Studio 2017, we’re offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we’ve made changes to the extensibility model, and have made some breaking changes to Visual Studio. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
+With Visual Studio 2017, we’re offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we’ve made changes to the extensibility model, and have made some breaking changes to Visual Studio extensibility. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
 
 ## Changes Affecting VSIX Format and Installation
 
@@ -48,15 +48,15 @@ Changes to the VSIX format include:
 
   The new capabilities include:
 
-  * Registration into the specified Visual Studio instance
-  * Installation to [external directories](set-install-root.md)
-  * Detection of processor architecture
-  * Dependence on language-separated language packs
-  * Installation with [NGEN support](ngen-support.md)
+  * Registration into the specified Visual Studio instance.
+  * Installation to [external directories](set-install-root.md).
+  * Detection of processor architecture.
+  * Dependence on language-separated language packs.
+  * Installation with [NGEN support](ngen-support.md).
 
 ## Building an extension for Visual Studio 2017
 
-Designer tooling for authoring of the new VSIX v3 format is now available in Visual Studio 2017. See the accompanying document [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
+Designer tooling for authoring of the new VSIX v3 manifest format is now available in Visual Studio 2017. See the accompanying document [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md) for details on using the designer tools or making manual updates to the project and manifest to develop VSIX v3 extensions.
 
 ## Change: Visual Studio user data path
 
@@ -66,13 +66,13 @@ Code running inside the Visual Studio process should be updated to use the Visua
 
 ## Change: Global Assembly Cache (GAC)
 
-Most Visual Studio core assemblies are no longer installed into the GAC. The following changes were made so that code running in VS process can still find required assemblies at runtime.
+Most Visual Studio core assemblies are no longer installed into the GAC. The following changes were made so that code running in Visual Studio process can still find required assemblies at runtime.
 
 * Assemblies that were only installed into the GAC:
   * These assemblies are now installed under %VsFolder%\Common7\IDE\, %VsFolder%\Common7\IDE\PublicAssemblies or %VsFolder%\Common7\IDE\PrivateAssemblies. These folders are part of the Visual Studio process’s probing paths.
 * Assemblies that were installed into a non-probing path and into the GAC:
   * The copy in the GAC was removed from setup.
-  * A PKGDEF file was added to specify a code base entry for the assembly.
+  * A .pkgdef file was added to specify a code base entry for the assembly.
 
     For example:
     
@@ -83,14 +83,14 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
     "culture"="neutral"
     "version"=15.0.0.0
     ```
-    At runtime, the Visual Studio PKGDEF subsystem will merge these entries into the Visual Studio process’s runtime configuration file (under %VsAppDataFolder%\devenv.exe.config) as [`<codeBase>`](https://msdn.microsoft.com/en-us/library/efs781xb(v=vs.110).aspx) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
+    At runtime, the Visual Studio pkgdef subsystem will merge these entries into the Visual Studio process’s runtime configuration file (under %VsAppDataFolder%\devenv.exe.config) as [`<codeBase>`](https://msdn.microsoft.com/en-us/library/efs781xb(v=vs.110).aspx) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
 
 ### Reacting to this breaking change
 
-* If your code is running within the Visual Studio process:
+* If your extension is running within the Visual Studio process:
   * Your code will be able to find Visual Studio core assemblies.
-  * Consider using a PKGDEF file to specify a path to your assemblies if necessary.
-* If your code is running outside the Visual Studio process:
+  * Consider using a .pkgdef file to specify a path to your assemblies if necessary.
+* If your extension is running outside the Visual Studio process:
   * Consider looking for Visual Studio core assemblies under %VsFolder%\Common7\IDE\, %VsFolder%\Common7\IDE\PublicAssemblies or %VsFolder%\Common7\IDE\PrivateAssemblies using configuration file or assembly resolver.
 
 ## Change: Reduce registry impact
@@ -103,10 +103,10 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 
 ### Visual Studio registry
 
-* Previously, Visual Studio installed many registry keys into the system’s local machine and user hives under a Visual Studio-specific key:
+* Previously, Visual Studio installed many registry keys into the system’s HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER hives under a Visual Studio-specific key:
   * HKLM\Software\Microsoft\VisualStudio\\**Version**: Registry keys created by MSI installers and per-machine extensions.
   * HKCU\Software\Microsoft\VisualStudio\\**Version**: Registry keys created by Visual Studio to store user-specific settings.
-  * HKCU\Software\Microsoft\VisualStudio\\**Version**_Config: A copy of Visual Studio HKLM key above, plus the registry keys merged from PKGDEF files by extensions.
+  * HKCU\Software\Microsoft\VisualStudio\\**Version**_Config: A copy of Visual Studio HKLM key above, plus the registry keys merged from .pkgdef files by extensions.
 * To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724886(v=vs.85).aspx) function to store registry keys in a private binary file under %VsAppDataFolder%\privateregistry.bin. Only a very small number of Visual Studio-specific keys remain in the system registry.
 * Existing code running inside the Visual Studio process is not impacted. Visual Studio will redirect all registry operations under the HKCU Visual Studio-specific key to the private registry. Reading and writing to other registry locations will continue to use the system registry.
 * External code will need to load and read from this file for Visual Studio registry entries.
@@ -116,3 +116,4 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 * External code should be converted to use Registration-Free activation for COM components as well.
 * External components can find the Visual Studio location [by following the guidance here](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup).
 * We recommend that external components use the [External Settings Manager](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.settings.externalsettingsmanager.aspx) instead of reading/writing directly to Visual Studio registry keys.
+* Check whether the components your extension is using may have implemented another technique for registration. For example, debugger extensions may be able to take advantage of the new [msvsmon JSON-file COM registration](migrate-debugger-COM-registration.md).
