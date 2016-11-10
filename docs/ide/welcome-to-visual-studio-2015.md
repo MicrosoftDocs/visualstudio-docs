@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Visual Studio 2015 | Microsoft Docs"
+title: "Welcome to Visual Studio 2017 RC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -41,9 +41,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
  Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](http://www.visualstudio.com).)  
 
- You can install Visual Studio 2017 RC by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223).  
-
- Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get familiar with the tools.  
+ You can install Visual Studio 2017 RC by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223). Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get familiar with the tools.  
 
  And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly! Check out the many Visual Studio videos on [Channel 9](https://channel9.msdn.com/VisualStudio).
 
@@ -54,15 +52,15 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
  Choose the tools you need based on your app requirements and the language you want to use.  
 
-1.  [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
+- [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
 
-2.  [Apache Cordova with Visual Studio](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md): A common code base for HTML, CSS, and JavaScript or Typescript  
+- [Visual Studio Tools for Apache Cordova](../cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript  
 
-3.  [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
+- [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
 
-4.  [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
+- [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
 
-5.  [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
+- [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
 
 ## Connect your apps to services  
  You can connect to these services out of the box (assuming that you have an account for each service):  
@@ -79,7 +77,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 ## Build, test, and manage your code  
 
 ### Check in your code  
- If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. Learn about which version control system is best for your needs: [Use version control](../Topic/Use%20version%20control.md).  
+ If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. Learn about which version control system is best for your needs: [Choosing the right version control for your project](https://www.visualstudio.com/en-us/docs/tfvc/comparison-git-tfvc).  
 
 ### Build your app  
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
@@ -87,10 +85,19 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 ### Test your app  
  [Create unit tests](../test/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
 
- Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../Topic/Improve%20Code%20Quality.md).  
+ Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../test/improve-code-quality.md).  
 
 ### Deliver your team’s code faster  
- Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md) for more details.  
+ Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](https://www.visualstudio.com/en-us/docs/vsts-tfs-overview) for more details.  
+
+## What’s new?  
+
+|||  
+|-|-|  
+|[What’s new in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md)|[What’s new for C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2017)
+|[What's New for Visual C#](/dotnet/csharp/getting-started/whats-new)|[What's New for Visual Basic](/dotnet/visual-basic/getting-started/whats-new)|
+|[What’s new for JavaScript](https://aka.ms/xvlidg)|[Python](https://aka.ms/uikukw)|
+|[What’s new for .NET Framework 4.6.2](https://blogs.msdn.microsoft.com/dotnet/2016/08/02/announcing-net-framework-4-6-2/)|[What’s new for ALM](https://www.visualstudio.com/en-us/docs/vsts-tfs-overview)|
 
 ## Extend Visual Studio  
 Add your own Visual Studio extension to include a tool or script that you often use while coding. You can create custom menu items and tool windows to integrate your own tools into the Visual Studio IDE. You can extend the Visual Studio editor to analyze and fix code, or add a new project type to include just what you need.  
@@ -100,43 +107,3 @@ To find the latest version of the Visual Studio Extensibility Tools (VS SDK), se
 You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).  
 
 Find [existing extensions for the VS IDE](https://visualstudiogallery.msdn.microsoft.com/) created by Microsoft developers as well as our development community.  
-
-## What’s new?  
-
-|||||  
-|-|-|-|-|  
-|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](/dotnet/csharp/getting-started/whats-new)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
-|[What’s new for C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2015)|[What's New for Visual Basic](/dotnet/visual-basic/getting-started/whats-new)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
-|[Python](../python/getting-started-with-python.md)||||  
-
-## In this section  
-
--   [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)  
-
--   [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)  
-
--   [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)  
-
--   [Visual Studio IDE](../ide/visual-studio-ide.md)  
-
--   [Extensibility in Visual Studio](../extensibility/extensibility-in-visual-studio.md)  
-
--   [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
-
--   [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)  
-
--   [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
-
--   [Visual C++](/visual-cpp/top/visual-cpp-in-visual-studio-2015)  
-
--   [JavaScript](../javascript/javascript-in-visual-studio.md)  
-
--   [Python](../python/getting-started-with-python.md)  
-
--   [Visual F#](../Topic/Visual%20F%23.md)  
-
--   [Visual Studio LightSwitch](../Topic/Visual%20Studio%20LightSwitch.md)  
-
--   [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md)  
-
--   [Talk to Us](../ide/talk-to-us.md)

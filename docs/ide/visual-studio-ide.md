@@ -42,15 +42,15 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  - games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.
 
 
- Visual Studio by default provides support for C#, C and C++, JavaScript, TypeScript, F#, and Visual Basic. Visual Studio works and integrates well with Xamarin through [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio), and third-party applications like Unity through the [Visual Studio Tools for Unity](../Topic/Visual%20Studio%20Tools%20for%20Unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks though the [Visual Studio SDK](https://msdn.microsoft.com/en-us/library/bb166441.aspx).
+ Visual Studio by default provides support for C#, C and C++, JavaScript, TypeScript, F#, and Visual Basic. Visual Studio works and integrates well with Xamarin through [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio), and third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/Topic/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../misc/get-started-with-visual-studio-tools-for-apache-cordova2.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks though the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
- If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](https://go.microsoft.com/fwlink/?linkid=833058).
+ If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md).
  If you want to find out about new features in Visual Studio "15" RC, see [What's New in Visual Studio "15" RC](https://go.microsoft.com/fwlink/?linkid=834481).  
 
 ### Set up Visual Studio
  You can find out which edition of Visual Studio is right for you at [Visual Studio Products](https://www.visualstudio.com/products/).
 
- You can install Visual Studio "15" RC by downloading it from [Visual Studio Downloads](https://www.visualstudio.com/vs/). If you need to know more about the installation process, see [Installing Visual Studio "15" RC](https://go.microsoft.com/fwlink/?linkid=833223).
+ You can install Visual Studio 2017 RC by downloading it from [Visual Studio Downloads](https://www.visualstudio.com/vs/). To learn more about the installation process, see [Installing Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223).
 
 ## Quick tour of the IDE
  The following image shows the Visual Studio IDE with an open project along with several key tool windows.
@@ -64,29 +64,29 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  ![Visual Studio IDE](../ide/media/visualstudioide.png "VisualStudioIDE")  
 
  ### Sign in
-  When you start Visual Studio for the first time, you can sign in using your Microsoft account, or your work or school account. Being signed in allows you to synchronize your settings, such as window layouts, across multiple devices and connect automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services. If you have a subscription-based license, you'll need to sign in to Visual Studio on a regular basis in order to keep your license token fresh. If you have a product key license, you don't have to sign in, but doing so makes it more convenient to connect to Visual Studio Team Services and your accounts with Azure, Office 365, Salesforce.com. For more information, see [Signing in to Visual Studio](../Topic/Signing%20in%20to%20Visual%20Studio.md).
+  When you start Visual Studio for the first time, you can sign in using your Microsoft account, or your work or school account. Being signed in allows you to synchronize your settings, such as window layouts, across multiple devices and connect automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services. If you have a subscription-based license, you'll need to sign in to Visual Studio on a regular basis in order to keep your license token fresh. If you have a product key license, you don't have to sign in, but doing so makes it more convenient to connect to Visual Studio Team Services and your accounts with Azure, Office 365, Salesforce.com. For more information, see [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md).
 
-  If you have multiple Visual Studio Team Services accounts, Azure accounts or MSDN subscriptions, you can link them and access resources and services in all your accounts with a single sign-in. For more information, see [Work with multiple user accounts](../Topic/Work%20with%20multiple%20user%20accounts.md).
+  If you have multiple Visual Studio Team Services accounts, Azure accounts or MSDN subscriptions, you can link them and access resources and services in all your accounts with a single sign-in. For more information, see [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md).
 
  ### Stay up to date
-  The notification icon in the upper right of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../Topic/Visual%20Studio%20Notifications.md).
+  The notification icon in the upper right of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../ide/visual-studio-notifications.md).
 
  ### Find things and get help
-  The [Quick Launch](../Topic/Quick%20Launch,%20Environment,%20Options%20Dialog%20Box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.
+  The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.
 
  ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
 
  In Visual Studio, you can press **F1** to go to the online help page for the active window. You can also press **F1** in the code editor to go to the MSDN help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the MSDN help page for [String](assetId:///T:System.String?qualifyHint=False&autoUpgrade=True).
 
 ### Give feedback
- It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../Topic/Talk%20to%20Us.md).
+ It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).
 
 ### Personalize the IDE
- You can customize the window layout to fit your development style. You can dock, float or hide any window at any time, and you also can run the editor in full-screen mode. You can create and save multiple custom window layouts that show only the windows you need for specific contexts. For example, you can create a full-screen layout so that all you see is the code editor. And you can create different layouts for debugging and for team operations. For more information, see [Customizing window layouts](../Topic/Customizing%20window%20layouts%20in%20Visual%20Studio.md).
+ You can customize the window layout to fit your development style. You can dock, float or hide any window at any time, and you also can run the editor in full-screen mode. You can create and save multiple custom window layouts that show only the windows you need for specific contexts. For example, you can create a full-screen layout so that all you see is the code editor. And you can create different layouts for debugging and for team operations. For more information, see [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md).
 
- You can customize Visual Studio in many other ways, and roam your settings if you work on multiple machines. For more information, see [Personalizing the  IDE](../Topic/Personalizing%20the%20Visual%20Studio%20IDE.md).
+ You can customize Visual Studio in many other ways, and roam your settings if you work on multiple machines. For more information, see [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md).
 
- There are keyboard shortcuts for almost everything, and you can customize them as well. To create new shortcuts, type "Keyboard" in Quick Launch to open the Keyboard dialog box. From there, you can press F1 to go to the MSDN help page if you need more information about the options. For more information, see [Default Keyboard Shortcuts in Visual Studio](../Topic/Default%20Keyboard%20Shortcuts%20in%20Visual%20Studio.md).
+ There are keyboard shortcuts for almost everything, and you can customize them as well. To create new shortcuts, type "Keyboard" in Quick Launch to open the Keyboard dialog box. From there, you can press F1 to go to the MSDN help page if you need more information about the options. For more information, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Connect to Visual Studio Team Services and Team Foundation Server
   Visual Studio Team Services (VSTS) is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes. Team Foundation Server (TFS) 2015 is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
@@ -100,7 +100,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 ## Create solutions and projects
   Although you can use Visual Studio to browse individual code files, more commonly you will be working in a *project*. A Visual Studio project is a collection of files and resources that are compiled to a single binary executable file for applications (for example, an .exe, DLL, or appx). For non-ASP.NET websites, no executable is produced and the project contains only the HTML, JavaScript files, and images. Because sometimes you might need to create multiple binaries or websites that are closely related, Visual Studio has the concept of the Solution, which can contain multiple projects or websites. When you create a project, you are actually creating a project-in-a-solution, and you can add more projects to that solution later if you need to. For example, if you have a DLL project, you can add an .exe project to the solution that loads and consumes the DLL.
 
-  A *project template* is a collection of pre-populated code files and configuration settings that get you set up quickly to create a specific kind of application. Visual Studio comes with many project templates to choose from, and if none of the default templates work for you, you can create your own. After you create a project with a template, you can start writing your own code in it, either in the files provided or in new files you add. For more information, see [Solutions and Projects](../Topic/Solutions%20and%20Projects%20in%20Visual%20Studio.md). The following illustration shows the New Project dialog with the project templates that are available for ASP.NET applications.
+  A *project template* is a collection of pre-populated code files and configuration settings that get you set up quickly to create a specific kind of application. Visual Studio comes with many project templates to choose from, and if none of the default templates work for you, you can create your own. After you create a project with a template, you can start writing your own code in it, either in the files provided or in new files you add. For more information, see [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md). The following illustration shows the New Project dialog with the project templates that are available for ASP.NET applications.
 
  ![Visual Studio New Project Dialog](../ide/media/vs2017_newprojectdialog.png "VS2017_NewProjectDialog")  
 
@@ -155,7 +155,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
  The [Immediate Window](../ide/reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
 
- The [IntelliTrace](http://msdn.microsoft.com/en-us/629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
+ The [IntelliTrace](../debugger/intellitrace.md) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
 
  For more information, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
 
@@ -165,10 +165,10 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  ![Unit Test Explorer](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
 
 ## Analyze code quality and performance  
- Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../Topic/Improve%20Code%20Quality.md).  
+ Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../test/improve-code-quality.md).  
 
 ## Connect to cloud services and databases  
- The [Cloud Explorer](../Topic/Server%20Explorer.md) window in Visual Studio shows the Azure resources in all the accounts managed under the Azure subscription you are logged into.
+ The [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) window in Visual Studio shows the Azure resources in all the accounts managed under the Azure subscription you are logged into.
 
  ![Cloud Explorer](../ide/media/vside_cloud_explorer.png "vs2017_CloudExplorer")  
 
@@ -187,13 +187,13 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  You can use Visual Studio architecture and modeling tools to design and model your app. These tools help you to visualize the code's structure, behavior, and relationships. You can create models at different levels of detail throughout the application lifecycle as part of your development process. You can track requirements, tasks, test cases, bugs, and other work associated with your models by linking model elements to Team Foundation Server work items and your development plan. For more information, see [Design and model your app](../modeling/analyze-and-model-your-architecture.md).  
 
 ## Extend Visual Studio through the Visual Studio SDK  
- Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Developing Visual Studio Extensions](../Topic/Developing%20Visual%20Studio%20Extensions.md).  
+ Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Starting to Develop Visual Studio Extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
 
  The [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
 
 ## See Also  
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
+ [Installing Visual Studio 2017 RC](../install/install-visual-studio-2017.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
- [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
+ [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
  [Talk to Us](../ide/talk-to-us.md)
