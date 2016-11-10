@@ -1,8 +1,8 @@
 ---
 title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/16/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 caps.latest.revision: 363
-author: "kempb"
-ms.author: "kempb"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# What&#39;s New in Visual Studio 2015
-Welcome to Visual Studio 2015, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
+# What&#39;s New in Visual Studio 2017
+Welcome to Visual Studio 2017, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
   
  This page highlights some of the most important features that are new since Visual Studio 2013 RTM, including features that were first introduced in one of the Visual Studio 2013 updates. For a complete list of what’s new in Visual Studio 2015, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).  
   
