@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a
 caps.latest.revision: 1
-author: "gregg-miskelly
+author: "gregg-miskelly"
 ms.author: "greggm"
 manager: "ghogen"
 translation.priority.mt: 
