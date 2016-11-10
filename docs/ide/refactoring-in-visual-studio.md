@@ -42,7 +42,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
   
  Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
   
-### Refactoring in C#  
+### Refactoring in C\#
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  
   
 ### Refactoring in Visual Basic  
