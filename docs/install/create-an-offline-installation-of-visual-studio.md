@@ -37,7 +37,7 @@ translation.priority.mt:
 # Create an offline installation of Visual Studio 2017 RC
 
 > [!NOTE]
-> If you are looking for offline installation information for our *previous* version, please see our [Creating an Offline Installation of Visual Studio 2015 ](https://msdn.microsoft.com/library/mt706497.aspx) page on MSDN.
+> If you are looking for offline installation information for our *previous* version, please see the [Creating an Offline Installation of Visual Studio 2015 ](https://msdn.microsoft.com/library/mt706497.aspx) page on MSDN.
 
 ## Create a layout
 You can create an offline installation layout that contains all the files you need to install Visual Studio 2017 RC without requiring Internet access.  
