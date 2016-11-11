@@ -1,21 +1,21 @@
 ---
 title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.texteditor"
-dev_langs: 
+dev_langs:
   - "JScript"
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code editor, word wrap"
   - "outlining"
   - "code, editing"
@@ -65,7 +65,7 @@ caps.latest.revision: 44
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -75,7 +75,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt: 
+translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
@@ -169,7 +169,7 @@ The Visual Studio editor provides many features that make it easier for you to w
  In a partial class, members defined outside the current code file may be grayed out.  
 
 ## Find code using Navigate To
-Visual Studio's "Navigate To" command does a focused search of your code to help you quickly find specified elements in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Navigate To limits its search to areas where actual code lives, such as files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get several hits, including instances of the string in code remarks. By using Navigate To, however, you might only get a single function, ignoring any instances of the string in code remarks.
+Visual Studio's **Navigate To** command does a focused search of your code to help you quickly find specified elements in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Navigate To limits its search to areas where actual code lives, such as files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get several hits, including instances of the string in code remarks. By using Navigate To, however, your search might only return a single function, ignoring any instances of the string in code remarks.
 
 ### Navigate code using Navigate To
 
@@ -189,7 +189,7 @@ Visual Studio's "Navigate To" command does a focused search of your code to help
 
 To limit your search to only code symbols, preface your Navigate To query with an "@" character. For example, if you search for `@application`, Navigate To displays, for example, only classes that have the word "application" in them.
 
-If you use camel casing in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a component called `ViewSwitcher`, you can find it by entering just the capital letters of the name (`"VS"`) in the Navigate To window.
+If you use camel casing in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a component called `ViewSwitcher`, you can find it by entering just the capital letters of the name (`VS`) in the Navigate To window.
 
 ![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png "Navigate To window - searching with capitals")
 

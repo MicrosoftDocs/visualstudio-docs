@@ -45,7 +45,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  Visual Studio by default provides support for C#, C and C++, JavaScript, TypeScript, F#, and Visual Basic. Visual Studio works and integrates well with Xamarin through [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio), and third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/Topic/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../misc/get-started-with-visual-studio-tools-for-apache-cordova2.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks though the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
  If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md).
- If you want to find out about new features in Visual Studio "15" RC, see [What's New in Visual Studio "15" RC](https://go.microsoft.com/fwlink/?linkid=834481).  
+ If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=834481).  
 
 ### Set up Visual Studio
  You can find out which edition of Visual Studio is right for you at [Visual Studio Products](https://www.visualstudio.com/products/).
@@ -54,29 +54,29 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
 ## Quick tour of the IDE
  The following image shows the Visual Studio IDE with an open project along with several key tool windows.
- - The **Solution Explorer** window lets you view and navigate your code files.
- - The **Team Explorer** window lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
- - The **Cloud Explorer** window lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more.
- - The **Editor** window enables you to view and edit source code and designer data.
- - The **Output** window displays output from compiling, running, debugging, and more.
+ - [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view and navigate your code files.
+ - [Team Explorer](https://www.visualstudio.com/en-us/docs/connect/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
+ - [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more.
+ - The [Editor](../ide/writing-code-in-the-code-and-text-editor.md) window enables you to view and edit source code and designer data.
+ - The [Output](../ide/reference/output-window.md) window displays output from compiling, running, debugging, and more.
 
 
  ![Visual Studio IDE](../ide/media/visualstudioide.png "VisualStudioIDE")  
 
  ### Sign in
-  When you start Visual Studio for the first time, you can sign in using your Microsoft account, or your work or school account. Being signed in allows you to synchronize your settings, such as window layouts, across multiple devices and connect automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services. If you have a subscription-based license, you'll need to sign in to Visual Studio on a regular basis in order to keep your license token fresh. If you have a product key license, you don't have to sign in, but doing so makes it more convenient to connect to Visual Studio Team Services and your accounts with Azure, Office 365, Salesforce.com. For more information, see [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md).
+  When you start Visual Studio for the first time, you can sign in using your Microsoft account, or your work or school account. Being signed in enables you to synchronize your settings, such as window layouts, across multiple devices and connect automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services. If you have a subscription-based license, you'll need to sign in to Visual Studio on a regular basis in order to keep your license token fresh. If you have a product key license, you don't have to sign in, but doing so makes it more convenient to connect to Visual Studio Team Services and your accounts with Azure, Office 365, Salesforce.com. For more information, see [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md).
 
   If you have multiple Visual Studio Team Services accounts, Azure accounts or MSDN subscriptions, you can link them and access resources and services in all your accounts with a single sign-in. For more information, see [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md).
 
  ### Stay up to date
-  The notification icon in the upper right of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../ide/visual-studio-notifications.md).
+  The flag notification icon in the upper corner of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../ide/visual-studio-notifications.md).
 
  ### Find things and get help
-  The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.
+  The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) window, outlined in red in the following screenshot, is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.
 
- ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
+ ![Quick Launch Results for 'new project'](../ide/media/Productivity_QuickLaunch.png "Productivity_QuickLaunch")
 
- In Visual Studio, you can press **F1** to go to the online help page for the active window. You can also press **F1** in the code editor to go to the MSDN help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the MSDN help page for [String](assetId:///T:System.String?qualifyHint=False&autoUpgrade=True).
+ In Visual Studio, you can press **F1** to go to online help for the active window. You can also press **F1** in the code editor to go to the help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the help page for [String](assetId:///T:System.String?qualifyHint=False&autoUpgrade=True).
 
 ### Give feedback
  It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).
@@ -86,7 +86,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
  You can customize Visual Studio in many other ways, and roam your settings if you work on multiple machines. For more information, see [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md).
 
- There are keyboard shortcuts for almost everything, and you can customize them as well. To create new shortcuts, type "Keyboard" in Quick Launch to open the Keyboard dialog box. From there, you can press F1 to go to the MSDN help page if you need more information about the options. For more information, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+ There are keyboard shortcuts for almost everything, and you can customize them as well. To create new shortcuts, type "Keyboard" in Quick Launch to open the Keyboard dialog box. From there, you can press F1 to go to the help page if you need more information about the options. For more information, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Connect to Visual Studio Team Services and Team Foundation Server
   Visual Studio Team Services (VSTS) is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes. Team Foundation Server (TFS) 2015 is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
@@ -140,14 +140,14 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  Most of the items on the Edit menu and View menu relate to the code editor in some way. For more information about the editor, see [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md) and [Editing Your Code](https://www.visualstudio.com/features/ide-vs).  
 
 ## Compile and build your code  
- To build a project means to compile the source code and perform whatever steps are necessary to produce the executable. Different languages have different build operations, and regular websites don't build at all. Regardless of the project type, the Build menu is the standard location for these commands. To compile and run your code with a single keystroke, press F5. Every compiler is completely configurable through the IDE. The Build toolbar enables you to specify whether to build a debug version of your program, with symbols and extra error checking enabled to support breakpoints and single stepping in the debugger, or a release build, which is what you will ultimately give to customers. You can configure more build settings and many other settings on the property page for a project. Right-click on the project node in Solution Explorer and choose Properties. You can also run builds from the command line.  
+ To build a project means to compile the source code and perform whatever steps are necessary to produce the executable. Different languages have different build operations, and regular websites don't build at all. Regardless of the project type, the **Build** menu is the standard location for these commands. To compile and run your code with a single keystroke, press the F5 key. Every compiler is completely configurable through the IDE. The Build toolbar enables you to specify whether to build a debug version of your program, with symbols and extra error checking enabled to support breakpoints and single stepping in the debugger, or a release build, which is what you will ultimately give to users. You can configure more build settings and many other settings on the property page for a project. Choose the context (right-click) menu of the project's node in Solution Explorer and then choose the Properties command. You can also run builds from the command line.  
 
- The output from the build, including an error or success messages, appear in the Output Window. The Error List window (shown below) gives detailed information on build errors.  
+ The output from the build, including error or success messages, appear in the Output Window. The Error List (shown below) gives detailed information on build errors.  
 
  ![Error list showing C&#35; compiler error](../ide/media/VS2017_errorlist.png "VS2017_error_list")  
 
 ## Debug your code  
- Visual Studio’s state-of-the-art debugger enables you to debug code running in your local project, on a remote device, or on an emulator such as the ones for Android or Windows Phone. You can step through code one statement at a time and inspect variables as you go, you can step through multi-threaded applications, and you can set breakpoints that are only hit when a specified condition is true. All of this can be configured in the code editor itself, so that you don't have to leave the context of your code.  
+ Visual Studio’s cutting edge debugger enables you to debug code running in your local project, on a remote device, or on an emulator such as the ones for Android or Windows Phone devices. You can step through code one statement at a time and inspect variables as you go, you can step through multi-threaded applications, and you can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs. All of this can be managed in the code editor itself, so that you don't have to leave the context of your code.  
 
  ![Breakpoint settings Peek window](../ide/media/dbg_breakpoints_peekwindow.png "DBG_Breakpoints_PeekWindow")  
 
@@ -168,15 +168,15 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../test/improve-code-quality.md).  
 
 ## Connect to cloud services and databases  
- The [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) window in Visual Studio shows the Azure resources in all the accounts managed under the Azure subscription you are logged into.
+ The [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) in Visual Studio shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by installing the [Azure SDK](https://azure.microsoft.com/en-us/downloads/).
 
  ![Cloud Explorer](../ide/media/vside_cloud_explorer.png "vs2017_CloudExplorer")  
 
- You can also use [Server Explorer](https://msdn.microsoft.com/en-us/library/cd2cz7yy.aspx) to browse and manage SQL Server instances, Azure, Salesforce.com, Office 365, and websites.
+ [Server Explorer](https://msdn.microsoft.com/en-us/library/cd2cz7yy.aspx) is also available to help you browse and manage SQL Server instances and assets on Azure, Salesforce.com, Office 365, and websites.
 
  Visual Studio includes [Microsoft SQL Server Data Tools](https://msdn.microsoft.com/en-us/data/tools.aspx) (SSDT), which enable you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.  
 
- The **SQL Server Object Explorer** in Visual Studio offers a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer allows you to do light-duty database administration and design work, including editing table data, comparing schemas, and executing queries by using contextual menus right from the SQL Server Object Explorer. SSDT also includes special project types and tools for developing SQL Server 2012 Analysis Services, Reporting Services, and Integration Services Business Intelligence (BI) solutions (formerly known as Business Intelligence Development Studio).  
+ The [SQL Server Object Explorer](https://msdn.microsoft.com/en-us/library/hh231250.aspx) in Visual Studio offers a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer allows you to do light-duty database administration and design work, including editing table data, comparing schemas, and executing queries by using contextual menus right from the SQL Server Object Explorer. SSDT also includes special project types and tools for developing SQL Server 2012 Analysis Services, Reporting Services, and Integration Services Business Intelligence (BI) solutions (formerly known as Business Intelligence Development Studio).  
 
  ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png "vs2015_SQLObjectExplorer")  
 
