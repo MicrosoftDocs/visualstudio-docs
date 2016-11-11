@@ -2,7 +2,7 @@
 title: "Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,7 +44,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
   
  For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/features/debugging-and-diagnostics-vs).  
   
--   [What’s New for the Debugger in Visual Studio 2015](../debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md) Describes new functionality in Visual Studio 2015.  
+-   [What’s New for the Debugger in Visual Studio](../debugger/what’s-new-for-the-debugger-in-visual-studio.md) Describes new functionality in Visual Studio.  
   
 -   [Debugger Windows](../debugger/debugger-windows.md)Lists the different debugger windows.  
   
