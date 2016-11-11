@@ -79,7 +79,11 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  In Visual Studio, you can press **F1** to go to online help for the active window. You can also press **F1** in the code editor to go to the help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the help page for [String](assetId:///T:System.String?qualifyHint=False&autoUpgrade=True).
 
 ### Give feedback
- It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).
+ It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**.
+
+![Give feedback](../ide/media/VSIDE_reportproblem.png)
+
+ Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).
 
 ### Personalize the IDE
  You can customize the window layout to fit your development style. You can dock, float or hide any window at any time, and you also can run the editor in full-screen mode. You can create and save multiple custom window layouts that show only the windows you need for specific contexts. For example, you can create a full-screen layout so that all you see is the code editor. And you can create different layouts for debugging and for team operations. For more information, see [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md).
@@ -113,7 +117,9 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
  The text editor is highly interactive (if you want it to be) with many productivity features that help you write better code faster. The features vary by language, and you don’t have to use any of them (Type "Editor" in Quick Launch) to turn features on or off: Some of the common productivity features are:  
 
--  [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, redordering function parameters, and more.  
+-  [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, reordering function parameters, and more.
+
+  ![Refactoring](../ide/media/VSIDE_refactor.png)  
 
 -  **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It’s like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
 
@@ -123,15 +129,27 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
   ![Squiggles](../ide/media/vs2017_squiggle.png "VS2017_Squiggles")  
 
--  [Bookmarks](../ide/setting-bookmarks-in-code.md) enable you to navigate quickly to specific lines in files that you are actively working on.  
+-  [Bookmarks](../ide/setting-bookmarks-in-code.md) enable you to navigate quickly to specific lines in files that you are actively working on.
 
--  The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.  
+    ![Bookmarks window](../ide/media/VSIDE_bookmarks.png)
 
--  **Code Lens** enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor. For more information, see [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).  
+-  The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.
+
+    ![Call Hierarchy window](../ide/media/VSIDE_call_hierarchy.png)
+
+-  **CodeLens** enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
+
+    ![CodeLens](../ide/media/codelensoverview.png)
+
+  For more information, see [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).  
 
 -  The **Peek to Definition** window shows a method or type definition inline, without navigating away from your current context. This window now works for XAML, too.  
 
--  The **Go To Definition** context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.  
+    ![Peek to Definition](../ide/media/VSIDE_peek_definition.png)
+
+-  The **Go To Definition** context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
+
+    ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
 - A related tool, the [Object Browser](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what methods and properties those types contain.  
 
@@ -153,9 +171,11 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
  The debugger itself has multiple windows that enable you to view and manipulate local variables, the call stack, and other aspects of the runtime environment. You can find these windows on the **Debug** menu.  
 
- The [Immediate Window](../ide/reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
+ The [Immediate Window](../ide/reference/immediate-window.md) enables you to type in an expression and see its result immediately.
 
- The [IntelliTrace](../debugger/intellitrace.md) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
+![Immediate Window](../ide/media/VSIDE_immediate_window.png)
+
+ The [IntelliTrace](../debugger/intellitrace.md) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.
 
  For more information, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
 
