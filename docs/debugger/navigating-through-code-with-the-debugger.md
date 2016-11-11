@@ -141,7 +141,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 ##  <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow  
  While the debugger is paused, you can move the instruction pointer to set the next statement of code to be executed. A yellow arrowhead in the margin of a source or Disassembly window marks the location of the next statement to be executed. By moving this arrowhead, you can skip over a portion of code or return to a line previously executed. You can use this for situations such as skipping a section of code that contains a known bug.  
   
- ![Example2](../debugger/media/dbg_basics_example2.png "DBG_Basics_Example2")  
+ ![Moving the Pointer](../debugger/media/dbg_basics_example3.gif "DBG_Basics_Example3")
   
  To set the next statement to execute, use one of these procedures:  
   

@@ -57,19 +57,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Maintain your context without having to leave the code editor.  
   
--   Support custom IntelliSense with XML documentation comments and JavaScript IntelliSense extensibility.  
-  
- This topic contains the following sections:  
-  
--   [Determining IntelliSense Context](#DeterminingIntelliSenseContext)  
-  
--   [Processing IntelliSense Information](#ProcessingIntelliSenseInformation)  
-  
--   [JavaScript IntelliSense Features](#Features)  
-  
--   [JavaScript IntelliSense Extensibility](#Extensibility)  
-  
--   [JavaScript Validation](#Validation)  
+-   Support custom IntelliSense with XML documentation comments and JavaScript IntelliSense extensibility.
   
  For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
   
@@ -117,13 +105,11 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Objects defined in external files using references such as [script references](#Script), [reference directives](#ReferenceDirectives), and [reference groups](#ReferenceGroups).  
   
--   Objects defined in remote files that are downloaded by Visual Studio.  
+-   Objects defined in remote files that are downloaded by Visual Studio.
   
--   Objects specified in [XML documentation comments](#XMLDocComments), such as parameters and fields.  
+-   Objects specified in [JSDoc comments](../ide/create-jsdoc-comments-for-javascript-intellisense.md).
   
--   Objects described using standard JavaScript comment tags (//). For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).  
-  
--   Objects supported using the [JavaScript IntelliSense Extensibility](#Extensibility) mechanism. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).  
+-   Objects described using standard JavaScript comment tags (//).
   
 -   [ASP.NET AJAX objects](#ASPNet)  
   
@@ -133,7 +119,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  JavaScript IntelliSense provides programming references for Dynamic HTML (DHTML) DOM elements, such as `body`, `form`, and `div`. Only the elements that are included in the current document and master page are displayed by IntelliSense. JavaScript IntelliSense also supports the `window` and `document` objects and their members.  
   
 ###  <a name="IntrinsicObjects"></a> Intrinsic Objects  
- JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`. For more information about intrinsic objects, see [Intrinsic Objects](../Topic/Intrinsic%20Objects%20\(JavaScript\).md).  
+ JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`.
   
 ###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects  
  When you change a JavaScript file, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
@@ -168,7 +154,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 </asp:ScriptManager>  
 ```  
   
- IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](../Topic/Walkthrough:%20Embedding%20a%20JavaScript%20File%20as%20a%20Resource%20in%20an%20Assembly.md).  
+ IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications.  
   
 ####  <a name="ReferenceDirectives"></a> Reference Directives  
  A `reference` directive enables [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
@@ -255,29 +241,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
 > [!WARNING]
->  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.  
-  
-###  <a name="XMLDocComments"></a> XML Documentation Comments  
- XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
-  
- IntelliSense can display XML documentation comments in the following scenarios:  
-  
--   A .js file that references another .js file.  
-  
--   A .js file that references an .aspx file.  
-  
--   An .aspx file that references a .js file.  
-  
- IntelliSense is not available when one .aspx file references another .aspx file.  
-  
-###  <a name="ASPNet"></a> ASP.NET AJAX Objects  
- ASP.NET AJAX also supports JavaScript IntelliSense. ASP.NET AJAX includes a client framework that extends the standard types that are available in ECMAScript (JavaScript). To enable JavaScript IntelliSense to provide details about ASP.NET AJAX objects, XML documentation comments have been added throughout the [!INCLUDE[atlaslib_current_ext](../ide/includes/atlaslib_current_ext_md.md)]. These XML documentation comments are displayed when you use types and members that are contained in the ASP.NET AJAX Library.  
-  
-> [!NOTE]
->  Private members are not displayed by JavaScript IntelliSense. Private members are denoted in ASP.NET AJAX as members that begin with an underscore (_).  
-  
-##  <a name="Extensibility"></a> JavaScript IntelliSense Extensibility  
- The JavaScript language service provides objects and functions that enable you to modify the IntelliSense experience for developers who use third-party libraries. These features are especially useful when the default language service isn't able to provide all the information that you want to provide to customers. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).  
+>  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.
   
 ##  <a name="Validation"></a> JavaScript Validation  
  JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
@@ -289,11 +253,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 -   The Output window shows references that were not loaded.  
   
 ## See Also  
- [Using IntelliSense](../ide/using-intellisense.md)   
- [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md)   
- [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)   
- [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)   
- [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
+ [Using IntelliSense](../ide/using-intellisense.md)     
  [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)   
  [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
  [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)
