@@ -119,7 +119,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  JavaScript IntelliSense provides programming references for Dynamic HTML (DHTML) DOM elements, such as `body`, `form`, and `div`. Only the elements that are included in the current document and master page are displayed by IntelliSense. JavaScript IntelliSense also supports the `window` and `document` objects and their members.  
   
 ###  <a name="IntrinsicObjects"></a> Intrinsic Objects  
- JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`. For more information about intrinsic objects, see [Intrinsic Objects](../Topic/Intrinsic%20Objects%20\(JavaScript\).md).  
+ JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`.
   
 ###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects  
  When you change a JavaScript file, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
@@ -154,7 +154,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 </asp:ScriptManager>  
 ```  
   
- IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](../Topic/Walkthrough:%20Embedding%20a%20JavaScript%20File%20as%20a%20Resource%20in%20an%20Assembly.md).  
+ IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications.  
   
 ####  <a name="ReferenceDirectives"></a> Reference Directives  
  A `reference` directive enables [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
