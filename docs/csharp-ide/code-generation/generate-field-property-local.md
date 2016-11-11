@@ -40,21 +40,21 @@ translation.priority.ht:
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a field, local or property that doesn't yet exist.
 
-   ![Highlighted code](mediafield_highlight.png)
+   ![Highlighted code](media/field_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Generate field/property/local** from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select **Generate field/property/local** from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](mediabulb.png) icon which appears.
-     * Click the ![Lightbulb](mediabulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+     * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
+     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Generate field/property/local preview](mediafield_preview.png)
+   ![Generate field/property/local preview](media/field_preview.png)
 
    >[!TIP]
    >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The field, property or local will be created automatically with the type inferred from its usage.
 
-   ![Generate field/property/local result](mediafield_result.png)
+   ![Generate field/property/local result](media/field_result.png)

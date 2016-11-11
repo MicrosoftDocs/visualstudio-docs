@@ -40,17 +40,17 @@ translation.priority.ht:
 
 1. Place your cursor on the line where there is a red squiggle indicating you have inherited from an abstract class but have not implemented all required members.
 
-   ![Highlighted code](mediaabstract_highlight.png)
+   ![Highlighted code](media/abstract_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Implement Abstract Class** from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select **Implement Abstract Class** from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](mediabulb.png) icon which appears.
-     * Click the ![Lightbulb](mediabulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+     * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
+     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Implement class preview](mediaabstract_preview.png)
+   ![Implement class preview](media/abstract_preview.png)
 
    >[!TIP]
    >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
@@ -59,4 +59,4 @@ translation.priority.ht:
 
 1. The abstract method signatures will be created automatically, ready to be implemented.
 
-   ![Implement class result](mediaabstract_result.png)
+   ![Implement class result](media/abstract_result.png)

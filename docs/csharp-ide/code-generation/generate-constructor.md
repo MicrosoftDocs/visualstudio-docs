@@ -40,22 +40,22 @@ translation.priority.ht:
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
 
-   ![Highlighted code](mediaconstructor_highlight.png)
+   ![Highlighted code](media/constructor_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Generate constructor in '*TypeName*'** from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select **Generate constructor in '*TypeName*'** from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](mediabulb.png) icon which appears.
-     * Click the ![Lightbulb](mediabulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+     * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
+     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Generate constructor preview](mediaconstructor_preview.png)
+   ![Generate constructor preview](media/constructor_preview.png)
 
    >[!TIP]
    >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The constructor will be created automatically with any parameters inferred from its usage.
 
-   ![Generate constructor result](mediaconstructor_result.png)
+   ![Generate constructor result](media/constructor_result.png)
   
