@@ -95,7 +95,7 @@ Input        | Function
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt+F12**
 **Mouse**    | Right-click on the type name and select **Peek Definition**
 
-If you peek another definition from the popup window, you will start a breadcrumb path which you can navigate using the circles and arrows which appear above the popup.
+If you peek another definition from the popup window, you will start a breadcrumb path which you can navigate using the circles and arrows which appear above the popup.  For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
 ## Go To Implementation
 To navigate to the implementation of a type:
