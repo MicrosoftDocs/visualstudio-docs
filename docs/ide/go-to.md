@@ -1,5 +1,5 @@
 ---
-title: "Go To... | Microsoft Docs"
+title: "Go To | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,8 +29,8 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Go To...
-There are many ways to easily navigate your code inside of the Visual Studio IDE, but from the keyboard and the mouse.
+# Go To
+There are many ways to easily navigate your code inside of the Visual Studio IDE, both from the keyboard and the mouse.
 
 ## Go To All
 This feature lets you navigate through your code to find the specific bits you are looking for.  You can search for a specific line, type, symbol, file, and more from a simple interface.

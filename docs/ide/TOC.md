@@ -111,7 +111,7 @@
 ### [How to: Manage Editor Modes](how-to-manage-editor-modes.md)
 ### [How to: Manage Editor Windows](how-to-manage-editor-windows.md)
 ## [How to: Track Your Code by Customizing the Scrollbar](how-to-track-your-code-by-customizing-the-scrollbar.md)
-## [Navigate Your Code]
+## Navigating Your Code
 ### [Go To](go-to.md)
 ### [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 ## [Perform quick actions with light bulbs](perform-quick-actions-with-light-bulbs.md)
