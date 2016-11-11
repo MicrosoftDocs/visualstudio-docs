@@ -34,9 +34,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # What&#39;s New in Visual Studio 2017 
-Welcome to our newest release, [!INCLUDE[vs_dev15_md.md](.../docs/misc/includes/vs_dev15_md.md)], an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
+Welcome to our newest release, Visual Studio 2017 RC, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
   
- This page highlights some of the most important features that are new since our previous version, Visual Studio 2015. For a complete list of what’s new in [!INCLUDE[vs_dev15_md.md](.../docs/misc/includes/vs_dev15_md.md)], see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
+ This page highlights some of the most important features that are new since our previous version, Visual Studio 2015. For a complete list of what’s new in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
  
   
 ## A new setup experience  
