@@ -1,8 +1,8 @@
 ---
-title: "Modify Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
+title: "Modify Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/16/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,6 +13,8 @@ helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
   - "Visual Studio Preview"
+  - "Visual Studio Release Candidate"
+  - "Visual Studio RC"
   - "modifying visual studio"
   - "changing visual studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
@@ -55,5 +57,5 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
   
 ## See Also  
-*  [Install Visual Studio "15" Preview 5](https://go.microsoft.com/fwlink/?linkid=833223)
-* [How to Report a Problem with Visual Studio "15" Preview 5](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+* [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
+* [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
