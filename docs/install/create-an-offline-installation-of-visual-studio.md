@@ -28,7 +28,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-  translation.priority.mt:
+translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
