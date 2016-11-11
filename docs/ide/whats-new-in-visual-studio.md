@@ -13,7 +13,6 @@ helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
-caps.latest.revision: 363
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
