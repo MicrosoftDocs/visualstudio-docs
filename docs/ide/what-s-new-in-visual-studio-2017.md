@@ -34,17 +34,26 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # What&#39;s New in Visual Studio 2017 
-Welcome to our newest release, Visual Studio 2017 RC, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
+Welcome to our newest release, [!INCLUDE[vs_dev15_md.md](.../docs/misc/includes/vs_dev15_md.md)], an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
   
- This page highlights some of the most important features that are new since our previous version, Visual Studio 2015. For a complete list of what’s new in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
+ This page highlights some of the most important features that are new since our previous version, Visual Studio 2015. For a complete list of what’s new in [!INCLUDE[vs_dev15_md.md](.../docs/misc/includes/vs_dev15_md.md)], see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
  
   
 ## A new setup experience  
  [!INCLUDE[downloadvs](../debugger/includes/downloadvs_md.md)]  
   
- We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them.  has been componentized so that you only have to install the parts that you need. This makes installation faster for many common scenarios involving .NET or Web development. If you do other types of development, such as cross-platform mobile development, or you work in C++ or F#, choose **Custom** installation and then choose the components and optional third-party SDKs that you require. You can also install any of the custom components later. For example, if you choose Basic installation, and then attempt to create a new C++ project, you will be prompted to download the C++ development tools.  
+ We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them. We've also reduced the minimum footprint, so that Visual Studio installs more quickly with less system impact. And, it it uninstalls cleanly, too. 
+
+ The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to data science with R, Python, and F#.  
   
- ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS20117RC_Setup_screen")  
+ ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS20117RC_Setup_screen")
+
+Choose the workloads you need, and change them up when you need to. The smallest install is just a few hundred megabytes, yet still contains basic code editing support for more than twenty languages along with source code control. 
+
+We've also added different ways to install Visual Studio. Want to pick your own components instead of using workloads? Simply select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Install language** tab of the installer.  
+
+>[!NOTE]
+>
   
 ## Sign in across multiple accounts  
  With Visual Studio 2015, the new streamlined sign-in experience is designed to greatly simplify your access to online resources, even when you have multiple Visual Studio accounts. After you sign-in to Visual Studio, you are automatically signed in to all instances of Visual Studio 2015 and Blend on your machine. Signing in automatically starts roaming your settings for you. In Visual Studio 2015, your account is shared across features so, as long as you have a good token, you can access your Visual Studio Team Services account(s) from **Team Explorer**, and resources and websites from your Microsoft Azure subscription in Server Explorer. You’ll also see your Azure resources in the New Project Dialog for Application Insights projects, and you’ll see your Azure Mobile, Azure Storage, [Microsoft Office 365](http://msdn.microsoft.com/office/aa905340.aspx) and [Saleforce.com developer](https://developer.salesforce.com/) accounts in the new **Add a Connected Service** dialog.  
@@ -257,32 +266,22 @@ Welcome to our newest release, Visual Studio 2017 RC, an integrated suite of dev
 ## Please give feedback  
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. In fact, we review each piece of feedback that comes into our feedback system. Your feedback drives a lot of what we do.  
   
-### Send a smile  
- Telling us what you like helps us understand when we meet or exceed your expectations. When we are designing and implementing new features, we use data about the features you like to help with our design decisions. So, if you like a feature in Visual Studio, do tell us about it. It’s easy and you can do it directly from within the IDE.  
+For more information about how to make a suggestion about Visual Studio features, see [Talk to Us](../ide/talk-to-us.md).  
   
- Just click the yellow smiley face on the title bar, tell us what you liked then click the **Send a smile** button.  
+### Report a problem  
+ Sometimes, a quick note isn't enough to convey the full impact of a problem you've encountered. For the times when you have a hang, crash, or performance issue, you can easily share repro steps, crash dumps, and trace files by using the **Report a Problem** tool.  
   
- That’s it! We’ll route your feedback to the correct team where they’ll pat themselves on the back then quickly begin thinking of ways to delight you even more.  
-  
-### Send a frown  
- Hearing where we need to make improvements in the product helps us to manage our backlog by focusing first on the things that are most important to our customers. If there is something that’s bugging you, tell us about it by using the **Send a Frown** feature from directly within the IDE. We’ve made this a super simple process too:  
-  
- Click the yellow smiley face on the title bar, then click **Send a Frown**. Tell us what you did not like then click the Send a frown button. For more information, see [Talk to Us](../ide/talk-to-us.md).  
-  
-### Report crashes, hangs and performance issues  
- Sometimes, a quick note in a frown just isn’t enough to convey the full impact of something that you do not like. For the times when you have a hang, crash or performance issue, you can easily share repro steps, crash dumps and trace files by using the dialog that’s displayed after you send a frown.  
-  
- First, send a frown as described above. On the dialog that pops up, you can tag your feedback with either one of the default tags or create your own tag. Tags help us route your feedback to the appropriate feature team. In the **Choose a category** drop down list, select the option that represents the issue you’re reporting then follow the steps to reproduce the issue. Detailed steps on how to use Visual Studio to report feedback are also available. For more information, see [Visual Studio Send a Smile Instructions](../Topic/Visual%20Studio%20Send%20a%20Smile%20Instructions.md).  
+ For more information about how to report of problem, and how to include optional screenshots and trace/heap dump files, see [How to Report a Problem with Visual Studio 2017](.../how-to-report-a-problem-with-visual-studio-2017.md).  
   
 ### Track your issue in Connect  
- If you’d like to track the status of your Visual Studio 2015 feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After reporting the bug, you’ll be able to return to Connect to track its status.  
+ If you’d like to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After reporting the bug, you'll be able to return to Connect to track its status.  
   
 ## See Also  
- [Build cross-platform apps with Apache Cordova](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md)   
- [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)   
- [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-cpp.md)   
- [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)   
- [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)   
- [Create custom window layouts](../misc/create-custom-window-layouts.md)   
- [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md)   
- [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)
+ [What's New in Visual Studio C++](../.md)   
+ [What's New in Visual Studio C#](../.md)   
+ [What's New in Visual Basic](../.md)   
+ [What's New in the .NET Framework](../.md)   
+ [What's New in ALM](../.md)   
+ [What's New in JavaScript](../.md)   
+ [What's New in Pythong](../.md)   
+ 
