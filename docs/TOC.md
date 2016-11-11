@@ -1,5 +1,5 @@
 # [Welcome to Visual Studio 2017 RC!](welcome-to-visual-studio.md)
-# [What's New in Visual Studio 2017 RC](ide\what-s-new-in-visual-studio-2017.md)
+# [What's New in Visual Studio 2017 RC](ide\whats-new-in-visual-studio.md)
 # [Install Visual Studio](install\TOC.md)
 # [Visual Studio IDE](ide/TOC.md)
 # [Visual Basic](/dotnet/articles/visual-basic)
@@ -14,4 +14,3 @@
 # [Extensibility](extensibility/extensibility-in-visual-studio.md)
 # [Talk to Us](ide/talk-to-us.md)
 ## [How to Report a Problem with Visual Studio 2017 RC](ide/how-to-report-a-problem-with-visual-studio-2017.md)
-
