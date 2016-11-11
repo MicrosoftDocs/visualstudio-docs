@@ -33,19 +33,18 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# What&#39;s New in Visual Studio 2017
-Welcome to Visual Studio 2017, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
+# What&#39;s New in Visual Studio 2017 
+Welcome to our newest release, Visual Studio 2017 RC, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
   
- This page highlights some of the most important features that are new since Visual Studio 2013 RTM, including features that were first introduced in one of the Visual Studio 2013 updates. For a complete list of what’s new in Visual Studio 2015, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).  
-  
- To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938).  
+ This page highlights some of the most important features that are new since our previous version, Visual Studio 2015. For a complete list of what’s new in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
+ 
   
 ## A new setup experience  
  [!INCLUDE[downloadvs](../debugger/includes/downloadvs_md.md)]  
   
- The Visual Studio 2015 setup experience has been componentized so that you only have to install the parts that you need. This makes installation faster for many common scenarios involving .NET or Web development. If you do other types of development, such as cross-platform mobile development, or you work in C++ or F#, choose **Custom** installation and then choose the components and optional third-party SDKs that you require. You can also install any of the custom components later. For example, if you choose Basic installation, and then attempt to create a new C++ project, you will be prompted to download the C++ development tools.  
+ We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them.  has been componentized so that you only have to install the parts that you need. This makes installation faster for many common scenarios involving .NET or Web development. If you do other types of development, such as cross-platform mobile development, or you work in C++ or F#, choose **Custom** installation and then choose the components and optional third-party SDKs that you require. You can also install any of the custom components later. For example, if you choose Basic installation, and then attempt to create a new C++ project, you will be prompted to download the C++ development tools.  
   
- ![Visual Studio 2015 Setup Dialog](../ide/media/vs2015_setup_screen.png "VS2015_Setup_screen")  
+ ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS20117RC_Setup_screen")  
   
 ## Sign in across multiple accounts  
  With Visual Studio 2015, the new streamlined sign-in experience is designed to greatly simplify your access to online resources, even when you have multiple Visual Studio accounts. After you sign-in to Visual Studio, you are automatically signed in to all instances of Visual Studio 2015 and Blend on your machine. Signing in automatically starts roaming your settings for you. In Visual Studio 2015, your account is shared across features so, as long as you have a good token, you can access your Visual Studio Team Services account(s) from **Team Explorer**, and resources and websites from your Microsoft Azure subscription in Server Explorer. You’ll also see your Azure resources in the New Project Dialog for Application Insights projects, and you’ll see your Azure Mobile, Azure Storage, [Microsoft Office 365](http://msdn.microsoft.com/office/aa905340.aspx) and [Saleforce.com developer](https://developer.salesforce.com/) accounts in the new **Add a Connected Service** dialog.  

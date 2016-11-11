@@ -13,6 +13,8 @@ helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
   - "Visual Studio Preview"
+  - "Visual Studio Release Candidate"
+  - "Visual Studio RC"
   - "modifying visual studio"
   - "changing visual studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
@@ -55,5 +57,5 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
   
 ## See Also  
-*  [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
+* [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
