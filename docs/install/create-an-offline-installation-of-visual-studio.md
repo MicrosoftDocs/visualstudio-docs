@@ -34,7 +34,6 @@ translation.priority.ht:
   - "pt-br"
   - "tr-tr"
 ---
-
 # Create an offline install of Visual Studio 2017 RC 
 ## Create a layout 
 You can create an offline installation layout that contains all the files you need to install the product without requiring Internet access.  
