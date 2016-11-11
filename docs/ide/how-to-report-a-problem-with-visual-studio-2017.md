@@ -1,5 +1,5 @@
 ---
-title: "How to Report a Problem with Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
+title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-05"
 ms.prod: "visual-studio-dev14"
@@ -14,7 +14,7 @@ ms.author: "tglee"
 manager: "ghogen"
 robots: noindex,nofollow
 ---
-# How to Report a Problem with Visual Studio &quot;15&quot; Preview 5
+# How to Report a Problem with Visual Studio 2017 RC
 If you encounter a problem with Visual Studio, we want to know about it so that we can diagnose and fix it.  By using the **Report a Problem** tool, you can collect detailed  information about the problem, and send it to Microsoft with just a few button clicks.  
   
  Microsoft respects your privacy. For information about how we treat the data that you send to us, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/en-us/dn948229).  
