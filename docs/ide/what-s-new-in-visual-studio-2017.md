@@ -60,7 +60,25 @@ We've introduced a new identity service in Visual Studio 2017 RC that allows you
 
 As well, you can stay signed in longer; we won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
 
+## Visual Studio IDE enhancements
+### Interact with Git
+Controls in the bottom corner of the Visual Studio IDE enable you to quickly commit and publish your projects to Git and manage your Git repositories.
 
+![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-GitInteraction.png "Git-tools-in-the-VS2017RC-IDE")
+
+### View and navigate code with Structure Visualizer
+A new feature called Structure Visualizer is available in the Visual Studio code editor. This feature displays vertical guidelines between nested areas of code, making it easier for you to view and navigate through your code. This feature is available for all TextMate-backed languages as well as Visual C#, Visual Basic, and XAML.
+
+![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-StructureVisualizer.png "Structure-Visualizer-in-VS2017RC")
+
+### Start Visual Studio faster
+If Visual Studio detects that IDE startup time is slow, it provides a new Visual Studio Performance Center to help you speed things up. The Performance Center lists all the extensions and tool windows that are slowing down IDE startup. You can use it to improve startup performance by determining when extensions start, or whether tool windows are open at startup.
+
+### Navigate To improved
+We've improved the Navigate To function. We've simplified the Navigate To window, and we've added support for additional filter characters that enable you to narrow your code searches.
+
+### Visual Studio editor supports multiple programming languages
+You can create apps in Visual Studio using a larger number of programming languages than in previous versions, and solutions and projects are no longer required. Your code gets syntax colorization, basic statement completion, and in some cases, Navigate To and other support. If your favorite language isn’t supported, you can create support for it by using TextMate Grammars.
 
 ## Please give feedback  
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. In fact, we review each piece of feedback that comes into our feedback system. Your feedback drives a lot of what we do.  
