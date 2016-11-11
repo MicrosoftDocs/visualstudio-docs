@@ -61,7 +61,8 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
  For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
 
-> [!NOTE] The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses the new "Salsa" engine. For information on Salsa, see this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/04/08/previewing-salsa-javascript-language-service-visual-studio-15/).
+> [!NOTE]
+> The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses the new "Salsa" engine. For information on Salsa, see this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/04/08/previewing-salsa-javascript-language-service-visual-studio-15/).
   
 ##  <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context  
  JavaScript IntelliSense provides coding choices based on all script that is relevant to your current script context. This includes scripting elements in the current file. It also includes any code that is referenced directly or indirectly from your script, such as script file references, assembly script references, service references, and page-associated references.  
