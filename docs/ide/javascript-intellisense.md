@@ -47,215 +47,204 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # JavaScript IntelliSense
-IntelliSense helps you write code faster and with fewer errors by providing information while you code. As you work with client script in the JavaScript editor, IntelliSense lists the objects, functions, properties, and parameters that are available based on your current context. You can select a coding option from the pop-up list provided by IntelliSense to complete the code.  
-  
- IntelliSense makes it easier to complete the following tasks:  
-  
--   Find member information.  
-  
--   Insert language elements directly into your code.  
-  
--   Maintain your context without having to leave the code editor.  
-  
--   Support custom IntelliSense with XML documentation comments and JavaScript IntelliSense extensibility.
-  
- For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
+[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
 
-> [!NOTE] The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses the new "Salsa" engine. For information on Salsa, see this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/04/08/previewing-salsa-javascript-language-service-visual-studio-15/).
-  
-##  <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context  
- JavaScript IntelliSense provides coding choices based on all script that is relevant to your current script context. This includes scripting elements in the current file. It also includes any code that is referenced directly or indirectly from your script, such as script file references, assembly script references, service references, and page-associated references.  
-  
- Your current script context is created based on the following items:  
-  
--   Functions that are defined in all script blocks in the active document. Inline script blocks are supported in files that have the file-name extensions .aspx., .ascx, .master, .html, and .htm.  
-  
--   `script` elements with `src` attributes that point to another script file. The target script file must have the file-name extension .js.  
-  
--   JavaScript files that reference other JavaScript files by using a `reference` directive.  
-  
--   Reference groups for global objects, IntelliSense extensions, or delay-loaded script files.  
-  
--   References to XML Web services.  
-  
--   The <xref:System.Web.UI.ScriptManager> and <xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
-  
--   The [!INCLUDE[atlaslib_current_ext](../ide/includes/atlaslib_current_ext_md.md)], if you are working in an AJAX-enabled ASP.NET Web application.  
-  
-    > [!NOTE]
-    >  IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.  
-  
-##  <a name="ProcessingIntelliSenseInformation"></a> Processing IntelliSense Information  
- To provide JavaScript IntelliSense, the language service performs the following operations:  
-  
--   Creates a list of dependent JavaScript files that are based on references in the active document, and based on recursively examining script references in the referenced files.  
-  
--   Traverses the list and collects type information and other relevant data from each file.  
-  
--   Aggregates the data and passes it to the JavaScript language service, which makes the type information and data available to IntelliSense.  
-  
--   Monitors the files for changes that might affect the IntelliSense list and updates the list as needed. Scripts on remote stores (such as those referenced using HTTP) do not get monitored.  
-  
-##  <a name="Features"></a> JavaScript IntelliSense Features  
- JavaScript IntelliSense supports the following objects:  
-  
--   [Document Object Model (DOM) elements](#HTMLDom)  
-  
--   [Intrinsic objects](#IntrinsicObjects)  
-  
--   [User-defined variables, functions, and objects](#UserDefined)  
-  
--   Objects defined in external files using references such as [script references](#Script), [reference directives](#ReferenceDirectives), and [reference groups](#ReferenceGroups).  
-  
--   Objects defined in remote files that are downloaded by Visual Studio.
-  
--   Objects specified in [JSDoc comments](../ide/create-jsdoc-comments-for-javascript-intellisense.md).
-  
--   Objects described using standard JavaScript comment tags (//).
-  
--   [ASP.NET AJAX objects](#ASPNet)  
-  
- When IntelliSense is unable to determine the type of an object, it provides options for statement completion using identifiers in the active document. For more information, see [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md).  
-  
-###  <a name="HTMLDom"></a> HTML DOM Elements  
- JavaScript IntelliSense provides programming references for Dynamic HTML (DHTML) DOM elements, such as `body`, `form`, and `div`. Only the elements that are included in the current document and master page are displayed by IntelliSense. JavaScript IntelliSense also supports the `window` and `document` objects and their members.  
-  
-###  <a name="IntrinsicObjects"></a> Intrinsic Objects  
- JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`.
-  
-###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects  
- When you change a JavaScript file, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
-  
- For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](http://go.microsoft.com/fwlink/?LinkId=108671) on the MSDN website.  
-  
-###  <a name="External"></a> External File References  
- You can include various types of external file references to achieve IntelliSense support in your code. External file references may be script references, reference directives, or they can be specified using reference groups.  
-  
-####  <a name="Script"></a> Script References  
- Instead of writing all client script in a page, you can reference external files that include scripting code. This makes it easier for you to reuse code between pages, and it enables client script to be cached by the browser.  
-  
- If you are not working with an ASP.NET AJAX-enabled Web page, you can reference an external script file by using the `src` attribute in the opening tag of a `script` element. The `src` attribute specifies the URL to an external file that contains the source code or data.  
-  
- The following example shows markup that uses the `src` attribute in a <`script`> tag to reference a script file.  
-  
-```html  
-<script type="text/javascript" src="~/Scripts/JavaScript.js">  
-  
-</script>  
-```  
-  
- If you are working with an ASP.NET AJAX-enabled Web page, you can reference script files by using the <xref:System.Web.UI.ScriptReference> object of the <xref:System.Web.UI.ScriptManager> control.  
-  
- The following example shows markup that uses a <xref:System.Web.UI.ScriptReference> object in a <xref:System.Web.UI.ScriptManager> control to reference a script file.  
-  
-```html  
-<asp:ScriptManager ID="ScriptManager1" runat="server">  
-  <Scripts>  
-    <asp:ScriptReference Path="~/Scripts/JavaScript.js" />  
-  </Scripts>  
-</asp:ScriptManager>  
-```  
-  
- IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications.  
-  
-####  <a name="ReferenceDirectives"></a> Reference Directives  
- A `reference` directive enables [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
-  
- You create a `reference` directive in the form of an XML comment. The directive must be declared earlier in the file than any script. A `reference` directive can include a disk-based script reference, an assembly-based script reference, a service-based script reference, or a page-based script reference.  
-  
- The following example shows examples of using disk-based reference directives. In the first example, the language service looks for the file in the same folder that contains the project file (for example, .jsproj).  
-  
- `/// <reference path="ScriptFile1.js" />`  
-  
- `/// <reference path="Scripts/ScriptFile2.js" />`  
-  
- `/// <reference path="../ScriptFile3.js" />`  
-  
- `/// <reference path="~/Scripts/ScriptFile4.js" />`  
-  
- The following example shows how to create a reference to an assembly-based script.  
-  
- `/// <reference name "Ajax.js" assembly="System.Web.Extensions, ..." />`  
-  
- The following example shows how to reference service-based script:  
-  
- `/// <reference path="MyService.asmx" />`  
-  
- `/// <reference path="Services/MyService.asmx" />`  
-  
- `/// <reference path="../MyService.asmx" />`  
-  
- `/// <reference path="~/Services/MyService.asmx" />`  
-  
 > [!NOTE]
->  JavaScript IntelliSense is not supported for script that is contained in Web service (.asmx) files in Web Application Projects (WAP).  
-  
- The following example shows how to reference page-based script.  
-  
- `/// <reference path="Default.aspx" />`  
-  
- `/// <reference path="Admin/Default.aspx" />`  
-  
- `/// <reference path="../Default.aspx" />`  
-  
- `/// <reference path="~/Admin/Default.aspx" />`  
-  
- The following rules apply to a `reference` directive.  
-  
--   The `reference` XML comment must be declared before any script.  
-  
--   You must use XML comments syntax with three slashes. References made by using standard comments syntax (two slashes) are ignored.  
-  
--   Only one file or resource can be specified per directive.  
-  
--   Multiple references to page-based scripts are not allowed.  
-  
--   If a page reference is specified, no other type of reference directives is allowed.  
-  
--   File names use relative paths. You can use the tilde operator (`~`) to make application-root-relative paths.  
-  
--   Absolute paths are ignored.  
-  
--   Reference directives in referenced pages will not be processed—that is, reference directives are not resolved recursively for pages. Only script that is referenced directly by the page is included.  
-  
-####  <a name="ReferenceGroups"></a> Reference Groups  
- You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:  
-  
--   Implicit (Windows), for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
-  
--   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
-  
--   Dedicated worker reference groups, for HTML5 Web Workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.  
-  
--   Generic, for other JavaScript project types.  
-  
- In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
-  
-> [!TIP]
->  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.  
-  
-### Remote File References  
- You can instruct Visual Studio to download remote JavaScript files that are referenced in a JavaScript file in order to provide IntelliSense support for the remote file or library. When you use this feature, files will download when you include them as a reference in your JavaScript file.  
-  
+>  The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service ("salsa"). For more information, see this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/04/08/previewing-salsa-javascript-language-service-visual-studio-15/). The new editing experience also mostly applies in VS Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
+
+For more information about the general IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md). 
+
+## What's New in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+
+- Richer IntelliSense
+
+    JavaScript IntelliSense in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] will now display a lot more information on parameter and member lists.
+This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
+TypeScript uses several sources to build up this information.
+    - [IntelliSense based on type inference](#TypeInference)
+    - [IntelliSense based on JSDoc](#JsDoc)
+    - [IntelliSense based on TypeScript Declaration Files](#TSDeclFiles)
+
+- [Automatic acquisition of type definitions](#Auto)
+- [Support for ES6 and beyond](#ES6)
+- [JSX syntax support](#JSX)
+
+## <a name="TypeInference"></a>IntelliSense based on type inference
+In JavaScript, most of the time there is no explicit type information available. 
+Luckily, it is usually fairly easy to deduce a type given the surrounding code context.
+This process is called type inference.
+
+For a variable or property, the type is typically the type of the value used to initialize it or the most recent value assignment. 
+
+```js
+var nextItem = 10;
+nextItem; // here we know nextItem is a number
+
+nextItem = "box";
+nextItem; // now we know nextItem is a string
+```
+
+For a function, the return type can be inferred from the return statements. 
+
+For function parameters, there is currently no inference, but there are ways to work around this using JSDoc or TypeScript `.d.ts` files (see later sections).
+
+Additionally, there is special inference for the following:
+ - "ES3-style" classes, specified using a constructor function and assignments to
+the prototype property.
+ - CommonJS-style module patterns, specified as property assignments on the `exports`
+object, or assignments to the `module.exports` property.
+
+```js
+function Foo(param1) {
+    this.prop = param1;
+}
+Foo.prototype.getIt = function () { return this.prop; };
+// Foo will appear as a class, and instances will have a 'prop' property and a 'getIt' method.
+
+exports.Foo = Foo;
+// This file will appear as an external module with a 'Foo' export.
+// Note that assigning a value to "module.exports" is also supported.
+```
+
+## <a name="JsDoc"></a> IntelliSense based on JSDoc
+
+Where type inference does not provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
+
+```js
+/**
+ * @type {{a: boolean, b: boolean, c: number}}
+ */
+var x = {a: true};
+x.b = false;
+x. // <- "x" is shown as having properties a, b, and c of the types specified
+```
+
+As mentioned, function parameters are never inferred. However, using the JSDoc `@param` tag you can add types to function parameters as well. 
+
+```js
+/**
+ * @param {string} param1 - The first argument to this function
+ */
+function Foo(param1) {
+    this.prop = param1; // "param1" (and thus "this.prop") are now of type "string".
+}
+```
+ 
+See [this doc](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) 
+for the JsDoc annotations currently supported.
+
+## <a name="TsDeclFiles"></a> IntelliSense based on TypeScript Declaration Files
+
+Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a `.d.ts` file ([more info](https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Writing%20Definition%20Files.md)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments. 
+
+Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a JsDoc tag).
+
+_**TypeScript declarations used in JavaScript**_
+
+<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640"/>
+
+## <a name="Auto"></a> Automatic acquisition of type definitions
+In the TypeScript world, most popular JavaScript libraries have their APIs described by `.d.ts` files, and the most common repository for such definitions is on [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).
+
+By default, the Salsa language service will try to detect which JavaScript libraries are in use and automatically download and reference the corresponding `.d.ts` file that describes the library in order to provide richer IntelliSense. The files are downloaded to a cache located under the user folder at `%LOCALAPPDATA%\Microsoft\TypeScript`. 
+
 > [!NOTE]
->  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.  
-  
- For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
-  
-> [!WARNING]
->  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.
-  
-##  <a name="Validation"></a> JavaScript Validation  
- JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
-  
--   Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.  
-  
--   **Error List** window. The **Error List** window displays the error description, the file where the error occurred, the line and column number, and the project. To display the **Error List** window, in the **View** menu, click **Error List**.  
-  
--   The Output window shows references that were not loaded.  
-  
-## See Also  
- [Using IntelliSense](../ide/using-intellisense.md)     
- [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)   
- [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
- [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)
+> This feature is **disabled** by default if using a `tsconfig.json` configuration file, but may be set to enabled as outlined further below).
+
+Currently auto-detection works for dependencies downloaded from npm (by reading the `package.json` file), Bower (by reading the `bower.json` file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have `jquery-1.10.min.js` in your project, the file `jquery.d.ts` will be fetched and loaded in order to provide a better editing experience. This `.d.ts` file will have no impact on your project. 
+
+If you do not wish to use auto-acquisition, disable it by adding a configuration file as outlined below. You can still place definition files for use directly within your project manually.
+
+## <a name="ES6"></a> Support for ES6 and beyond
+
+ES6, or ECMAScript 2015, is the next version of JavaScript. It brings new syntax to the language such as classes, arrow functions, `let`/`const`, and more. All of this new syntax is supported in Visual Studio.
+
+One of the key features TypeScript provides is the ability to use ES6 features, and emit code that can execute in JavaScript runtimes that don't yet understand those newer features. This is commonly known as "transpiling". Because JavaScript uses the same language service, it too can take advantage of ES6+ to ES5 transpilation.
+
+Before this can be set up, some understanding of the configuration options is required.  TypeScript is configured via a `tsconfig.json` file. In the absence of such a file, some default values are used. For compatibility reasons, these defaults are different in a context where only JavaScript files (and optionally `.d.ts` files) are present. To compile JavaScript files, a `tsconfig.json` file must be added, and some of these defaults must then be set explicitly.
+
+The required settings for the tsconfig file are outlined below:
+
+ - `allowJs`: This value must be set to `true` for JavaScript files to be recognized.
+By default this is `false`, as TypeScript compiles to JavaScript, and this is necessary to avoid the compiler including files it just compiled.
+ - `outDir`: This should be set to a location not included in the project, in order that the emitted JavaScript files are not detected and then included in the project (see `exclude` below).
+ - `module`: If using modules, this setting tells the compiler which module format the emitted code should use (e.g. `commonjs` for Node or bundlers such as Browserify).
+ - `exclude`: This setting states which folders not to include in the project. 
+ The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
+ - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined above.
+ - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
+
+In order to convert JavaScript files to CommonJS modules in an `./out` folder, settings
+similar to the below might be included in a `tsconfig.json` file.
+
+```json
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "out"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "out"
+  ],
+  "compileOnSave": true,
+  "typingOptions": {
+    "enableAutoDiscovery": true
+  }
+}
+```
+
+With the above settings in place, if a source file (`./app.js`) existed which contains several ECMAScript 2015 language features as shown below:
+
+```js
+import {Subscription} from 'rxjs/Subscription';
+
+class Foo {
+    sayHi(name) {
+        return `Hi ${name}, welcome to Salsa!`;
+    }
+}
+
+export let sqr = x => x * x;
+export default Subscription;
+```
+
+Then a file would be emitted to `./out/app.js` targeting ECMAScript 5 (the default) that looks something like the below:
+
+```js
+"use strict";
+var Subscription_1 = require('rxjs/Subscription');
+var Foo = (function () {
+    function Foo() {
+    }
+    Foo.prototype.sayHi = function (name) {
+        return "Hi " + name + ", welcome to Salsa!";
+    };
+    return Foo;
+}());
+exports.sqr = function (x) { return x * x; };
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = Subscription_1.Subscription;
+//# sourceMappingURL=app.js.map
+```
+
+## <a name="JSX"></a> JSX syntax support
+
+JavaScript in Visual Studio 2017 has rich support for the JSX syntax. JSX is a syntax set that allows HTML tags within JavaScript files. 
+
+The illustration below shows a React component defined in the `comps.tsx` TypeScript file, and then this component being used from the `app.jsx` file, complete with IntelliSense for completions and documentation within the JSX expressions.
+You don't need TypeScript here, this specific example just happens to contain some TypeScript code as well.
+<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/react.png" height="500" width="640"/>
+
+> [!NOTE]
+> To convert the JSX syntax to React calls, the setting `"jsx": "react"` must be added to the `compilerOptions` in the `tsconfig.json` file outlined above.
+
+The JavaScript file created at `./out/app.js' upon build would contain the code:
+
+```js
+"use strict";
+var comps_1 = require('./comps');
+var x = React.createElement(comps_1.RepoDisplay, {description: "test"});
+```
