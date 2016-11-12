@@ -105,7 +105,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 
 -   A component that uses [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].  
 
-     When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default. For more information, see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+     When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default.  
 
 -   You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
 
