@@ -47,4 +47,4 @@ Visual Studio can help generate portions of source code for you, letting you foc
  
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
+ 

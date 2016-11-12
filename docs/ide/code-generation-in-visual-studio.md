@@ -40,8 +40,9 @@ Visual Studio can help generate portions of source code for you, letting you foc
 
 Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities. For more information, see the following pages:  
   
-* [Code Generation (C#)](../csharp-ide/code-generation-csharp.md) 
-* [Code Generation (Visual Basic)](/dotnet/visual-basic/developing-apps/using-ide/refactoring-and-rename-dialog-box)  
+* [Code Generation (C#)](../csharp-ide/code-generation-csharp.md)
+
+Other languages coming soon...
 
 ## See Also  
 [Visual Studio IDE](../ide/visual-studio-ide.md)   
