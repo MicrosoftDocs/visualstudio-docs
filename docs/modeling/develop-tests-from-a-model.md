@@ -1,18 +1,19 @@
 ---
-title: "Develop tests from a model"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Develop tests from a model | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tests and requirements"
 ms.assetid: 40f87192-ba85-4552-8804-314a678261ae
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -29,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Develop tests from a model
-You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can also maintain links between the models and the tests.  
+You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.  
   
  To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -44,13 +45,13 @@ You can use requirements and architectural models to help you organize the tests
   
  Subsystem testing applies the same principles to the major components of a system. Each component is tested separately from other components. Subsystem tests focus on the behavior visible at the component's user interfaces or API.  
   
- For more information about how to run tests, see [Testing the application](../test/test-apps-early-and-often.md).  
+ For more information about how to run tests, see [Testing the application](/devops-test-docs/test/test-apps-early-and-often).  
   
 ## Deriving System Tests from a Requirements Model  
  You can create and maintain a relationship between system tests and a requirements model. To establish this relationship, you write tests that correspond to the main elements of the requirements model. Visual Studio helps you maintain that relationship by letting you create links between the tests and parts of the model. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 ### Write Tests for Each Use Case  
- If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. For more information about use cases, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md).  
+ If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. For more information about use cases, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
  These guidelines might be helpful:  
   
@@ -71,9 +72,9 @@ You can use requirements and architectural models to help you organize the tests
   
 ###### To link tests to a use case  
   
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](../test/test-apps-early-and-often.md).  
+1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](/devops-test-docs/test/test-apps-early-and-often).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
   
 2.  Link the requirement work item to one or more use cases in your model.  
   
@@ -114,14 +115,14 @@ Assert (countAfter == countBefore = 1);
   
  Many of the accessors and updaters will already be available through the application's normal API. But some additional functions might have to be written in order to enable the tests. These additional accessors and updaters are sometimes known as 'test instrumentation'. Because they depend on the internal design of the system, it is the responsibility of the system's developers to provide them, whereas the testers write the code of the tests in terms of the requirements model.  
   
- When you write automated tests, you can use Generic Tests to wrap the accessors and updaters. For more information, see [Creating an Automated Test That Runs an Executable Using Generic Tests](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md).  
+ When you write automated tests, you can use Generic Tests to wrap the accessors and updaters. For more information, see [Creating an Automated Test That Runs an Executable Using Generic Tests](/devops-test-docs/test/creating-an-automated-test-that-runs-an-executable-using-generic-tests).  
   
 ### Tests for Business Rules  
  Some requirements are not directly related to any one use case. For example, the DinnerNow business allows customers to choose from many Menus, but requires that in every Order, all the chosen Items shall be from a single Menu. This business rule can be expressed as an invariant about the associations between Orders, Menus, and Items in the requirements class model.  
   
  An invariant rule of this kind governs not only all the use cases that are currently defined, but also any other use cases that will be defined later. Therefore, it is useful to write it separately from any use case, and to test it separately from the use cases.  
   
- You can write an invariant business rule as a comment in a class diagram. For more information, see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md).  
+ You can write an invariant business rule as a comment in a class diagram. For more information, see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
   
  You can link tests to a business rule by linking the comment to a requirement or user story work item, which you can link to a test suite in [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)]. For more information, see [Attaching Test Cases to Model Elements](#Attaching).  
   
@@ -135,7 +136,7 @@ Assert (countAfter == countBefore = 1);
  Try to verify the state of the system after each message or action. This might require additional instrumentation.  
   
 ## Deriving Subsystem Tests from Models  
- In the high-level design of a large system, you can identify components or subsystems. These represent parts that can be separately designed, or are located on different computers, or are reusable modules that can be recombined in many ways. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams--guidelines.md).  
+ In the high-level design of a large system, you can identify components or subsystems. These represent parts that can be separately designed, or are located on different computers, or are reusable modules that can be recombined in many ways. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
   
  You can apply to each major component the same principles as you use for the complete system. In a large project, each component can have its own requirements model. In smaller projects, an architectural model or high-level design can be created to show the major components and their interactions. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
@@ -172,9 +173,9 @@ Assert (countAfter == countBefore = 1);
   
 #### To link tests to a model element or relationship  
   
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](../test/test-apps-early-and-often.md).  
+1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](/devops-test-docs/test/test-apps-early-and-often).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
   
 2.  Link the requirement work item to one or more elements in your model.  
   

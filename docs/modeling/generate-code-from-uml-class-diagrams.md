@@ -1,11 +1,11 @@
 ---
-title: "Generate code from UML class diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Generate code from UML class diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.shapes.properties.Templates"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "UML diagrams, generating code"
 ms.assetid: 2790e64d-7728-4c2e-a4dd-4131e795f730
 caps.latest.revision: 51
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -44,9 +45,9 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
   
  For more information about UML class diagrams in Visual Studio, see the following topics:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)  
+-   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)  
+-   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
  To see which versions of Visual Studio support UML class diagrams, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -177,7 +178,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
     |Name|A name for this binding. To override a binding inherited from a containing package or model, use the same name as the binding you want to override.|  
     |Overwrite|If true, any existing code is overwritten.|  
     |Target Name|The name of the file that is generated.<br /><br /> You can insert expressions into this string such as `{Name}` or `{Owner.Name}`. For example, you could write: `{Owner.Name}_{Name}`. The expression is evaluated on the model element. It can use properties of elements, but not methods. To find what properties can be used, look at the properties of types in **Microsoft.VisualStudio.Uml.\***. **Important:**  `{Name}` or `{Owner.Name}` can be used only in the **Target Name** property. To change the name of the generated class, you have to modify the template. For more information, see [Writing a Text Template](#writing).|  
-    |Project Path|Specifies the path to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project that will contain the transformation's output files. Use typed values to create a new project. Choose the ellipsis button (**[…]**) to select an existing project.<br /><br /> A new project will be created if it does not exist. It will be a C# class library project.<br /><br /> To do this, you must type the project directly. You can include environment variable macros such as %ProgramFiles% or %LocalAppData%.|  
+    |Project Path|Specifies the path to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project that will contain the transformation's output files. Use typed values to create a new project. Choose the ellipsis button (**[…]**) to select an existing project.<br /><br /> A new project will be created if it does not exist. It will be a C# class library project.<br /><br /> To do this, you must type the project directly. You can include environment variable macros such as %ProgramFiles% or %LocalAppData%.|  
     |Target Directory|The folder in which the target file is generated. The path is relative to the project folder.<br /><br /> You can use the `{PackageStructure}` expression to insert a path that corresponds to the names of the containing packages. The default value is `\GeneratedCode\{PackageStructure}`. You can also include environment variables such as %TEMP% or %HomePath%. **Important:**  `{PackageStructure}` can be used only in the **Target Directory** property.|  
     |Template File Path|The template that will perform the transform.<br /><br /> You can either use the provided templates or create your own. You can find the provided templates in the following location:<br /><br /> …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\|  
   
@@ -204,21 +205,21 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
   
  In the template, `this` belongs to a temporary class that has the following properties:  
   
--   `Element` = the UML \<xref:Microsoft.VisualStudio.Uml.Classes.IElement> to which the template is being applied.  
+-   `Element` = the UML <xref:Microsoft.VisualStudio.Uml.Classes.IElement> to which the template is being applied.  
   
--   `Errors`: \<xref:System.CodeDom.Compiler.CompilerErrorCollection>  
+-   `Errors`: <xref:System.CodeDom.Compiler.CompilerErrorCollection>  
   
--   `Host`: \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
+-   `Host`: <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
   
--   `ModelBus`: \<xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus>. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+-   `ModelBus`: <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus>. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
 -   `ProfileName` = "C#Profile"  
   
--   `ServiceProvider`: \<xref:System.IServiceProvider>  
+-   `ServiceProvider`: <xref:System.IServiceProvider>  
   
--   `Session`: \<xref:Microsoft.VisualStudio.TextTemplating.TextTemplatingSession>.  
+-   `Session`: <xref:Microsoft.VisualStudio.TextTemplating.TextTemplatingSession>.  
   
--   `Store`: \<xref:Microsoft.VisualStudio.Modeling.Store>. This is the Visualization and Modeling SDK Store on which the UML ModelStore is implemented. To obtain the UML \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, use `this.Element.GetModelStore()`.  
+-   `Store`: <xref:Microsoft.VisualStudio.Modeling.Store>. This is the Visualization and Modeling SDK Store on which the UML ModelStore is implemented. To obtain the UML <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, use `this.Element.GetModelStore()`.  
   
  You might find the following points helpful while you write a text template. This information is described in detail in [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
@@ -243,6 +244,6 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 -   `<#= Expressions #>` are evaluated and converted to strings.  
   
 ## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)

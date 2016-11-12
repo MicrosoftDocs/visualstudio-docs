@@ -1,13 +1,13 @@
 ---
-title: "Resource Compiler Error RC2149"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Resource Compiler Error RC2149 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC2149"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2149"
 ms.assetid: f0057230-5594-4696-8895-0adab5ba7f64
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

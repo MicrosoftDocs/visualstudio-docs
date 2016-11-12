@@ -1,13 +1,13 @@
 ---
-title: "The maximum number of errors has been exceeded"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "The maximum number of errors has been exceeded | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc2020"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC2020"
 ms.assetid: 08694da7-9864-4da6-9513-3d40b9ba046d
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,4 +45,4 @@ The compiler maximum of 100 errors has been reached.
 -   Decrease the number of generated errors by debugging and addressing each in turn.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

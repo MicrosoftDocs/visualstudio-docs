@@ -1,18 +1,19 @@
 ---
-title: "Graphics Pipeline Stages"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Graphics Pipeline Stages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.pipeline"
 ms.assetid: 2bf5c12e-2a00-401c-8163-4e373d08ad3f
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -137,5 +138,5 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
  ![The vertex shader stage result preview](../debugger/media/gfx_diag_vertex_shader_preview.png "gfx_diag_vertex_shader_preview")  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough--missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough--debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

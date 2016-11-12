@@ -1,20 +1,21 @@
 ---
-title: "Argument cannot be Nothing"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Argument cannot be Nothing | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrGeneral_ArgumentNullException"
 ms.assetid: 2abd995b-36a5-45f0-b3c1-6e0c3b31a875
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,4 +42,4 @@ A null value has been supplied for an argument that must have a value.
 -   Check that the value is calculated correctly.  
   
 ## See Also  
- [Troubleshooting Exceptions: System.NullReferenceException](../misc/troubleshooting-exceptions--system.nullreferenceexception.md)
+ [Troubleshooting Exceptions: System.NullReferenceException](../misc/troubleshooting-exceptions-system-nullreferenceexception.md)

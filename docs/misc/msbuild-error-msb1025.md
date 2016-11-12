@@ -1,20 +1,21 @@
 ---
-title: "MSBuild Error MSB1025"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB1025 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.FatalError"
 helpviewer_keywords: 
   - "MSB1025"
 ms.assetid: 527604c2-4378-4cd8-ab45-47237cba5db6
-caps.latest.revision: 9
+caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.ht:
 # MSBuild Error MSB1025
 **An internal failure occurred while running MSBuild.**  
   
- There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   
@@ -44,4 +45,5 @@ translation.priority.ht:
 2.  Contact Microsoft Product Support Services and report the error.  
   
 ## See Also  
- [Talk to Us](../Topic/Talk%20to%20Us.md)
+[MSBuild](../msbuild/msbuild1.md)
+ [Talk to Us](../ide/talk-to-us.md)

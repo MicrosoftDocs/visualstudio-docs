@@ -1,13 +1,13 @@
 ---
-title: "Expression cannot be converted into an expression tree"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Expression cannot be converted into an expression tree | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36534"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36534"
 ms.assetid: c6ea9349-2b38-4345-9118-45cf184ab9ef
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,5 +41,5 @@ Most expressions can be converted into expression trees, but some cannot. This e
  **Error ID:** BC36534  
   
 ## See Also  
- [NOT IN BUILD: Expression Trees in LINQ](assetId:///1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)   
+ [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/en-us/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)   
  [How to: Use Expression Trees to Build Dynamic Queries](../Topic/How%20to:%20Use%20Expression%20Trees%20to%20Build%20Dynamic%20Queries%20\(C%23%20and%20Visual%20Basic\).md)

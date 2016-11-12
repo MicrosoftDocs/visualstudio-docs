@@ -1,13 +1,13 @@
 ---
-title: "Extending Projects"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extending Projects | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "solutions [Visual Studio]"
@@ -34,15 +34,15 @@ translation.priority.mt:
 # Extending Projects
 Projects and solutions are the ways Visual Studio organizes code and resource files into compilation and deployment units. You can find more information about projects in [Projects (Visual Studio SDK)](../extensibility/extending-projects.md).  
   
- You can create your own project types with the Visual Studio SDK and the Managed Package Framework for Projects, which you can download at [Managed Package Framework for Projects](http://mpfproj12.codeplex.com/). To understand how custom projects are implemented, see [New Project Generation: Under the Hood, Part One](../extensibility/new-project-generation--under-the-hood--part-one.md) and [New Project Generation: Under the Hood, Part Two](../extensibility/new-project-generation--under-the-hood--part-two.md).  
+ You can create your own project types with the Visual Studio SDK and the Managed Package Framework for Projects, which you can download at [Managed Package Framework for Projects](http://mpfproj12.codeplex.com/). To understand how custom projects are implemented, see [New Project Generation: Under the Hood, Part One](../extensibility/internals/new-project-generation-under-the-hood-part-one.md) and [New Project Generation: Under the Hood, Part Two](../extensibility/internals/new-project-generation-under-the-hood-part-two.md).  
   
  The topics in this section describe how to create custom projects and how to manage different types of Visual Studio solution.  
   
 ## In This Section  
- [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md)  
+ [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md)  
  Describes how to create a custom project system.  
   
- [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system--part-2.md)  
+ [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system-part-2.md)  
  Describes how to create a custom project system.  
   
  [Saving Data in Project Files](../extensibility/saving-data-in-project-files.md)  

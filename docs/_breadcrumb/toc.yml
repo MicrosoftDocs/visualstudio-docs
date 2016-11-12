@@ -1,0 +1,85 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Visual Studio
+    tocHref: /visualstudio/
+    topicHref: /visualstudio/welcome-to-visual-studio
+    items:
+    - name: Cross Platform
+      tocHref: /visualstudio/cross-platform/
+      topicHref: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
+    - name: Data Tools
+      tocHref: /visualstudio/data-tools/ 
+      topicHref: /visualstudio/data-tools/accessing-data-in-visual-studio
+    - name: Extensibility
+      tocHref: /visualstudio/extensibility/
+      topicHref: /visualstudio/extensibility/extensibility-in-visual-studio
+      items:
+      - name: Inside the Visual Studio SDK
+        tocHref: /visualstudio/extensibility/internals/
+        topicHref: /visualstudio/extensibility/internals/inside-the-visual-studio-sdk
+      - name: Debugger Extensibility
+        tocHref: /visualstudio/extensibility/debugger/
+        topicHref: /visualstudio/extensibility/debugger/visual-studio-debugger-extensibility
+      - name: User Experience Guidelines
+        tocHref: /visualstudio/extensibility/ux-guidelines/
+        topicHref: /visualstudio/extensibility/visual-studio-user-experience-guidelines
+    - name: IDE 
+      tocHref: /visualstudio/ide/
+      topicHref: /visualstudio/ide/visual-studio-ide
+      items:
+      - name: Deployment
+        tocHref: /visualstudio/deployment/
+        topicHref: /visualstudio/deployment/deploying-applications-services-and-components
+      - name: Designers
+        tocHref: /visualstudio/designers/
+        topicHref: /visualstudio/designers/designing-user-interfaces
+      - name: CSharp IDE
+        tocHref: /visualstudio/csharp-ide/
+        topicHref: /visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
+      - name: Code Quality
+        tocHref: /visualstudio/code-quality/
+        topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
+      - name: Modeling Architecture
+        tocHref: /visualstudio/modeling/
+        topicHref: /visualstudio/modeling/analyze-and-model-your-architecture
+      - name: Debugging
+        tocHref: /visualstudio/debugger/ 
+        topicHref: /visualstudio/debugger/debugging-in-visual-studio
+        items:
+        - name: DIA SDK
+          tocHref: /visualstudio/debugger/debug-interface-access/
+          topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
+      - name: Profiling
+        tocHref: /visualstudio/profiling/
+        topicHref: /visualstudio/profiling/profiling-tools
+      - name: Testing
+        tocHref: /visualstudio/test/
+        topicHref: /visualstudio/test/improve-code-quality
+      - name: Workflow Designer
+        tocHref: /visualstudio/workflow-designer/
+        topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
+      - name: Reference
+        tocHref: /visualstudio/ide/reference/
+        topicHref: /visualstudio/ide/reference/visual-studio-reference
+        items:
+        - name: XML Tools
+          tocHref: /visualstudio/xml-tools/
+          topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
+        - name: MSBuild
+          tocHref: /visualstudio/msbuild/
+          topicHref: /visualstudio/msbuild/msbuild1
+    - name: Installation
+      tocHref: /visualstudio/install/
+      topicHref: /visualstudio/install/install-visual-studio-2015
+    - name: JavaScript
+      tocHref: /visualstudio/javascript/
+      topicHref: /visualstudio/javascript/javascript-in-visual-studio
+    - name: Porting
+      tocHref: /visualstudio/porting/
+      topicHref: /visualstudio/porting/porting-migrating-and-upgrading-visual-studio-projects
+    - name: Python
+      tocHref: /visualstudio/python/
+      topicHref: /visualstudio/python/getting-started-with-python
+

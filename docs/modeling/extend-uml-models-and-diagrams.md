@@ -1,21 +1,22 @@
 ---
-title: "Extend UML models and diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extend UML models and diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending"
   - "UML model, extending"
 ms.assetid: b5bfa61e-ea59-4c3b-b5af-53475d7d13cd
 caps.latest.revision: 37
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,7 +42,7 @@ This topic summarizes the different ways in which you can extend the UML modelin
   
  Fabrikam's tools team makes a series of enhancements to help the development teams. The following sections describe the different kinds of extensions that you can define. You can combine several of these techniques into one Visual Studio extension.  
   
- For more information, see this video: ![link to video](../codequality/media/playvideo.gif "PlayVideo")[MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467).  
+ For more information, see this video: ![link to video](../data-tools/media/playvideo.gif "PlayVideo")[MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467).  
   
 ##  <a name="Requirements"></a> Requirements  
   
@@ -69,7 +70,7 @@ This topic summarizes the different ways in which you can extend the UML modelin
  For more information, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
   
 ## Menu Commands  
- You can define commands that users can invoke by right-clicking elements on a UML diagram. The commands can update the model and diagrams or perform other operations in [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+ You can define commands that users can invoke by right-clicking elements on a UML diagram. The commands can update the model and diagrams or perform other operations in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
  Fabrikam defines menu commands to automate frequently-performed operations, such as create a check-in desk and connect it to a selected conveyor belt or rearrange a diagram according to the company's layout rules.  
   
@@ -87,10 +88,10 @@ This topic summarizes the different ways in which you can extend the UML modelin
   
  Fabrikam’s developers create code that automatically sets the color of an element dependent on its stereotype. This makes it easy for users to distinguish the different roles played by elements in the models.  
   
- For more information, see [How to: Respond to Changes in a UML Model](../misc/how-to--respond-to-changes-in-a-uml-model.md).  
+ For more information, see [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md).  
   
 ## Model Bus  
- Model Bus allows you to access a diagram or model from another diagram or from another [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] Extension. Among other things, this allows you to spread information across more than one model, so that several people can work on the combined model at the same time.  
+ Model Bus allows you to access a diagram or model from another diagram or from another [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] Extension. Among other things, this allows you to spread information across more than one model, so that several people can work on the combined model at the same time.  
   
  Fabrikam uses elements on activity diagrams to represent baggage handling equipment. Each item of equipment can have a more detailed specification in another diagram, which can be in another model. The validation constraints on the baggage flow diagram can retrieve relevant properties of the equipment from the other diagrams. The references to the other diagrams are stored in additional properties defined in stereotypes.  
   
@@ -118,13 +119,13 @@ This topic summarizes the different ways in which you can extend the UML modelin
  For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
 ## Domain-Specific Languages  
- Where you frequently use a particular type of model, it can be useful to create a domain-specific language. This can be made to fit your business needs more closely than a UML model, but requires more effort to build it and maintain it. For more information, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md).  
+ Where you frequently use a particular type of model, it can be useful to create a domain-specific language. This can be made to fit your business needs more closely than a UML model, but requires more effort to build it and maintain it. For more information, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md).  
   
 ## External Resources  
   
 |**Category**|**Links**|  
 |------------------|---------------|  
-|**Videos**|![link to video](../codequality/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![link to video](../codequality/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio](http://go.microsoft.com/fwlink/?LinkId=199957)|  
+|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio](http://go.microsoft.com/fwlink/?LinkId=199957)|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|  

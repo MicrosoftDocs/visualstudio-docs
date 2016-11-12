@@ -1,13 +1,13 @@
 ---
-title: "Localizing Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Localizing Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,13 +46,13 @@ translation.priority.ht:
  Discusses signing satellite assemblies with public-private key pairs.  
   
  [Version Numbers for Main and Localized Satellite Assemblies](../ide/version-numbers-for-main-and-localized-satellite-assemblies.md)  
- Introduces the \<xref:System.Resources.SatelliteContractVersionAttribute> class, which determines which satellite assemblies work with an application's main assembly.  
+ Introduces the <xref:System.Resources.SatelliteContractVersionAttribute> class, which determines which satellite assemblies work with an application's main assembly.  
   
  [Neutral Resources Languages for Localization](../ide/neutral-resources-languages-for-localization.md)  
- Introduces the \<xref:System.Resources.NeutralResourcesLanguageAttribute> class, which specifies the culture of the resources included in an application's main assembly.  
+ Introduces the <xref:System.Resources.NeutralResourcesLanguageAttribute> class, which specifies the culture of the resources included in an application's main assembly.  
   
 ## Related Sections  
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
   
  [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)  

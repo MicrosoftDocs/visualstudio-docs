@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1511"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1511 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1511"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1511"
 ms.assetid: c04b5268-5bc3-41db-af6b-463ab1d802b4
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1511
 Keyword 'base' is not available in a static method  
   
- The [base](../Topic/base%20\(C%23%20Reference\).md) keyword was used in a [static](../Topic/static%20\(C%23%20Reference\).md) method. `base` can only be called in an instance constructor, instance method, or instance accessor.  
+ The [base](/dotnet/csharp/language-reference/keywords/base) keyword was used in a [static](/dotnet/csharp/language-reference/keywords/static) method. `base` can only be called in an instance constructor, instance method, or instance accessor.  
   
 ## Example  
  The following sample generates CS1511.  

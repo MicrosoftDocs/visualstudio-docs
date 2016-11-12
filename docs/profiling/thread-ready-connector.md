@@ -1,13 +1,13 @@
 ---
-title: "Thread Ready Connector"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Thread Ready Connector | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.threadready"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Thread Ready"
 ms.assetid: 68e1ec38-4b10-4b01-b32f-6c9a00b2443c
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

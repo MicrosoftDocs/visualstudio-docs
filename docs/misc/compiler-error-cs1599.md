@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1599"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1599 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1599"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1599"
 ms.assetid: 4cdb282d-0f5d-459b-afc1-8980fbb22067
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1599
 Method or delegate cannot return type 'type'  
   
- Some types in the .NET Framework class library, for example, \<xref:System.TypedReference>, \<xref:System.RuntimeArgumentHandle> and \<xref:System.ArgIterator> cannot be used as return types because they can potentially be used to perform unsafe operations.  
+ Some types in the .NET Framework class library, for example, <xref:System.TypedReference>, <xref:System.RuntimeArgumentHandle> and <xref:System.ArgIterator> cannot be used as return types because they can potentially be used to perform unsafe operations.  
   
  The following sample generates CS1599:  
   

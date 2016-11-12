@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Help System Feature Overview"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Microsoft Help System Feature Overview | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1838dc17-b428-4db2-938e-10fa07f63e81
 caps.latest.revision: 14

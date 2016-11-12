@@ -1,11 +1,11 @@
 ---
-title: "Create layer diagrams from your code"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Create layer diagrams from your code | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "architecture, layer diagrams"
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 ms.assetid: 58c3ea71-2dbc-4963-bf82-40f1924cf973
 caps.latest.revision: 64
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -145,7 +146,7 @@ To visualize your software system's high-level, logical architecture, create a *
   
 ## See Also  
  [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073)   
- [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)   
- [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)   
+ [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
+ [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)   
  [Visualize code](../modeling/visualize-code.md)

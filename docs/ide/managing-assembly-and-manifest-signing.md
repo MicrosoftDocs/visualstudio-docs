@@ -1,13 +1,13 @@
 ---
-title: "Managing Assembly and Manifest Signing"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Managing Assembly and Manifest Signing | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "manifests [Visual Studio]"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "assemblies [Visual Studio], signing"
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  For information about signing assemblies in Visual Basic and C# projects, see [Creating and Using Strong-Named Assemblies](../Topic/Creating%20and%20Using%20Strong-Named%20Assemblies.md).  
   
- For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](../Topic/Strong%20Name%20Assemblies%20\(Assembly%20Signing\)%20\(C++-CLI\).md).  
+ For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).  
   
 ## Asset Types and Signing  
  You can sign .NET assemblies and application manifests. These include the following:  
@@ -75,8 +76,8 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  If you have access only to a public key, you can use delay signing to defer assigning the key. You enable delay signing by selecting the **Delay sign only** check box. A delay-signed project won’t run, and you can’t debug it. However, you can skip verification during development by using the [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md) with the `-Vr` option.  
   
- For information about signing manifests, see [How to: Sign Application and Deployment Manifests](../ide/how-to--sign-application-and-deployment-manifests.md).  
+ For information about signing manifests, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
 ## See Also  
  [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
- [Strong Name Assemblies (Assembly Signing) (C++/CLI)](../Topic/Strong%20Name%20Assemblies%20\(Assembly%20Signing\)%20\(C++-CLI\).md)
+ [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

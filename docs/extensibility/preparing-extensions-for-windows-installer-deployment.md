@@ -1,13 +1,13 @@
 ---
-title: "Preparing Extensions for Windows Installer Deployment"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Preparing Extensions for Windows Installer Deployment | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "vsix msi"
@@ -42,7 +42,7 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
   
 2.  Open the VSIX manifest in the code editor.  
   
-3.  Set the InstalledByMsi element of the VSIX manifest to `true`. For more information about the VSIX manifest, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md).  
+3.  Set the InstalledByMsi element of the VSIX manifest to `true`. For more information about the VSIX manifest, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md).  
   
      This prevents the VSIX installer from attempting to install the component.  
   
@@ -68,5 +68,5 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
 5.  Add the remaining files to your Setup project.  
   
 ## See Also  
- [Visual Studio Installer Deployment](assetId:///121be21b-b916-43e2-8f10-8b080516d2a0)   
- [Walkthrough: Creating a Custom Action](assetId:///4bd4b63a-2b91-431e-839c-5752443f0eaf)
+ [Visual Studio Installer Deployment](http://msdn.microsoft.com/en-us/121be21b-b916-43e2-8f10-8b080516d2a0)   
+ [Walkthrough: Creating a Custom Action](http://msdn.microsoft.com/en-us/4bd4b63a-2b91-431e-839c-5752443f0eaf)

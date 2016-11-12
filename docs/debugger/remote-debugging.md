@@ -1,13 +1,13 @@
 ---
-title: "Remote Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Remote Debugging | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.remote.overview"
@@ -20,7 +20,8 @@ dev_langs:
 helpviewer_keywords: 
   - "remote debugging, setup"
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
-caps.latest.revision: 64
+caps.latest.revision: 65
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -136,13 +137,15 @@ You can debug a Visual Studio application that has been deployed on a different 
   
 -   To enable other users to connect to the remote debugger, choose **Tools / Permissions**. You must have administrator privileges to grant or deny permissions.
 
+     > [!IMPORTANT] You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions. 
+
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
   
 -   To change the Authentication mode or the port number, or to specify a timeout value for the remote tools: choose **Tools / Options**.  
   
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).  
   
-> [!WARNING]
+     > [!WARNING]
 >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
 ##  <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
@@ -171,9 +174,9 @@ You can debug a Visual Studio application that has been deployed on a different 
  You can stop and start the remote debugger service from **Control Panel / Services**.  
 
 ## Remote debug an ASP.NET application  
- Deploying an ASP.NET application to a remote computer running IIS has different steps, depending on the operating system and version of IIS. For remote computers running Windows Server 2008 or Windows Server 2012 that have IIS 7.5 or later installed, please see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md).
+ Deploying an ASP.NET application to a remote computer running IIS has different steps, depending on the operating system and version of IIS. For remote computers running Windows Server 2008 or Windows Server 2012 that have IIS 7.5 or later installed, please see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
  
- If you are debugging an ASP.NET Core app, please see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html). Different steps are required to publish an ASP.NET Core on IIS. Once you publish an ASP.NET Core app successfully, you can remote debug it [just like other ASP.NET apps](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md), except that the process you need to attach to is dnx.exe instead of w3wp.exe.
+ If you are debugging an ASP.NET Core app, please see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html). Different steps are required to publish an ASP.NET Core on IIS. Once you publish an ASP.NET Core app successfully, you can remote debug it [just like other ASP.NET apps](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), except that the process you need to attach to is dnx.exe instead of w3wp.exe.
 
 ## Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
@@ -295,5 +298,5 @@ You can debug a Visual Studio application that has been deployed on a different 
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)  
+ [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

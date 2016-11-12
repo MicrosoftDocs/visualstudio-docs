@@ -1,13 +1,13 @@
 ---
-title: "Automatic"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Automatic | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Auto keyword"
 ms.assetid: 8d24a224-06fb-410d-9604-8c4779a71fd8
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Automatic
-This content has moved to [Storage classes](../Topic/Storage%20classes%20\(C++\).md)
+This content has moved to [Storage classes](/visual-cpp/cpp/storage-classes-cpp)

@@ -1,13 +1,13 @@
 ---
-title: "CLS Compliance Warning CLS01106"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "CLS Compliance Warning CLS01106 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CLS01106"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01106"
 ms.assetid: 0c964444-387d-4348-aed5-05f1ccc241c8
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ translation.priority.mt:
   
  If a type is CLS compliant, then all functions in the type, unless marked not CLS compliant, must have CLS compliant type parameters.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS01106:  
   

@@ -1,13 +1,13 @@
 ---
-title: "Globalizing Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Globalizing Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Visual C#, international applications"
 ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,7 +47,7 @@ Globalization is the process of designing and developing a software product that
  [Globalization and Localization](../Topic/ASP.NET%20Globalization%20and%20Localization.md)  
  Provides links to Help pages about globalization of Web Forms pages.  
   
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the essential concepts about developing software for an international market using Visual Basic or Visual C#.  
   
  [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  

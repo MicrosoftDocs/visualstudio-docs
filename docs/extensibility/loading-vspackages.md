@@ -1,13 +1,13 @@
 ---
-title: "Loading VSPackages"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Loading VSPackages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, autoloading"
@@ -37,7 +37,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
 > [!NOTE]
 >  Visual Studio can determine certain VSPackage information, such as the commands that a VSPackage offers, without loading the VSPackage.  
   
- VSPackages can be set to autoload in a particular user interface (UI) context, for example, when a solution is open. The \<xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute sets this context.  
+ VSPackages can be set to autoload in a particular user interface (UI) context, for example, when a solution is open. The <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute sets this context.  
   
 ### Autoloading a VSPackage in a specific context  
   
@@ -52,9 +52,9 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
     {. . .}  
     ```  
   
-     See the enumerated fields of \<xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> for a list of the UI contexts and their GUID values.  
+     See the enumerated fields of <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> for a list of the UI contexts and their GUID values.  
   
--   Set a breakpoint in the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+-   Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
 -   Build the VSPackage and start debugging.  
   
@@ -65,9 +65,9 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
 ## Forcing a VSPackage to load  
  Under some circumstances a VSPackage may have to force another VSPackage to be loaded. For example, a lightweight VSPackage might load a larger VSPackage in a context that is not available as a CMDUIContext.  
   
- You can use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage*> method to force a VSPackage to load.  
+ You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage%2A> method to force a VSPackage to load.  
   
--   Insert this code into the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method of the VSPackage that forces another VSPackage to load:  
+-   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method of the VSPackage that forces another VSPackage to load:  
   
     ```c#  
     IVsShell shell = GetService(typeof(SVsShell)) as IVsShell;  
@@ -85,7 +85,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
      Force loading should not be used for VSPackage communication. Use [Using and Providing Services](../extensibility/using-and-providing-services.md) instead.  
   
 ## Using a custom attribute to register a VSPackage  
- In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register*> and \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister*> methods.  
+ In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register%2A> and <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister%2A> methods.  
   
 ## Creating a Registry Key  
  In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
@@ -139,4 +139,4 @@ public override void Unregister(RegistrationContext context)
 ```  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

@@ -1,13 +1,13 @@
 ---
-title: "Property Inheritance"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Property Inheritance | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "property inheritance"
 ms.assetid: 3cb16223-ca67-497e-b535-b38ad0799356
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -33,4 +34,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Property Inheritance
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).

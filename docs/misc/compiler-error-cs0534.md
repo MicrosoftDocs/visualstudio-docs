@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0534"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0534 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0534"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0534"
 ms.assetid: 39fde9d1-3041-41fc-9dc2-43394c13c6c9
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0534
 'function1' does not implement inherited abstract member 'function2'  
   
- A class is required to implement all the [abstract](../Topic/abstract%20\(C%23%20Reference\).md) members in the base class, unless the class is also abstract.  
+ A class is required to implement all the [abstract](/dotnet/csharp/language-reference/keywords/abstract) members in the base class, unless the class is also abstract.  
   
  The following sample generates CS0534:  
   

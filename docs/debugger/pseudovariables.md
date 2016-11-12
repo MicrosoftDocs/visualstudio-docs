@@ -1,13 +1,13 @@
 ---
-title: "Pseudovariables"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Pseudovariables | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "pseudovariables"
 ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 caps.latest.revision: 35
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

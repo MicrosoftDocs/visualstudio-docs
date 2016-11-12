@@ -1,13 +1,13 @@
 ---
-title: "Messages View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Messages View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.externaltools.spyplus.messagesview"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Messages view"
 ms.assetid: 14c2a786-c23a-4b2d-acad-8c32a856c70d
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,29 +62,29 @@ Spy++ Messages View
 6.  When you have enough messages, choose **Stop Logging** from the **Messages** menu.  
   
 ## In This Section  
- [Controlling Messages View](../debugger/how-to--control-messages-view.md)  
+ [Controlling Messages View](../debugger/how-to-control-messages-view.md)  
  Explains how to manage Messages view.  
   
  [Opening Messages View from Find Window](_asug_choosing_message_options)  
  Explains how to open Messages view from the Find Window dialog box.  
   
- [Searching for a Message in Messages View](../debugger/how-to--search-for-a-message-in-messages-view.md)  
+ [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  
  Explains how to find a specific message in Messages view.  
   
- [Starting and Stopping the Message Log Display](../debugger/how-to--start-and-stop-the-message-log-display.md)  
+ [Starting and Stopping the Message Log Display](../debugger/how-to-start-and-stop-the-message-log-display.md)  
  Explains how to start and stop message logging.  
   
  [Message Codes](../debugger/message-codes.md)  
  Defines the codes for messages listed in Messages view.  
   
- [Displaying Message Properties](../debugger/how-to--display-message-properties.md)  
+ [Displaying Message Properties](../debugger/how-to-display-message-properties.md)  
  How to show more information about a message.  
   
 ## Related Sections  
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
  [Message Options Dialog Box](../debugger/message-options-dialog-box.md)  
@@ -95,5 +96,5 @@ Spy++ Messages View
  [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md)  
  Used to display the properties of a message selected in Message view.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.

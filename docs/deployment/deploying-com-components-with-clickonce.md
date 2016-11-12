@@ -1,13 +1,13 @@
 ---
-title: "Deploying COM Components with ClickOnce"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Deploying COM Components with ClickOnce | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "components, deploying"
 ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
 caps.latest.revision: 12
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -176,7 +177,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 -   The component manages a physical or virtual device for the system, for example, a device driver for a print spooler.  
   
--   The component is a Data Access redistributable. Data applications generally require a separate Data Access redistributable to be installed before they can run. You should not attempt to isolate components such as the Microsoft ADO Data Control, Microsoft OLE DB, or Microsoft Data Access Components (MDAC). Instead, if your application uses MDAC or SQL Server Express, you should set them as prerequisites; see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md).  
+-   The component is a Data Access redistributable. Data applications generally require a separate Data Access redistributable to be installed before they can run. You should not attempt to isolate components such as the Microsoft ADO Data Control, Microsoft OLE DB, or Microsoft Data Access Components (MDAC). Instead, if your application uses MDAC or SQL Server Express, you should set them as prerequisites; see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md).  
   
  In some cases, it may be possible for the developer of the component to redesign it for registration-free COM. If this is not possible, you can still build and publish applications that depend on them through the standard registration scheme using the Bootstrapper. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
   

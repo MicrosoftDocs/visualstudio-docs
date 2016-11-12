@@ -1,13 +1,13 @@
 ---
-title: "Inline Functions versus Macros"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Inline Functions versus Macros | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "inline expansion, macros vs. functions"
 ms.assetid: 97a756e2-24bb-4d58-92f4-d1319c64c978
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Inline Functions versus Macros
-This content has moved to [Inline Functions](../Topic/Inline%20Functions%20\(C++\).md).
+This content has moved to [Inline Functions](/visual-cpp/cpp/inline-functions-cpp).

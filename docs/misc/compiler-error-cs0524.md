@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0524"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0524 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0524"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0524"
 ms.assetid: a5cd8fb0-f5df-4580-9116-a6be4dffd1cb
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0524
 'type' : interfaces cannot declare types  
   
- An [interface](../Topic/interface%20\(C%23%20Reference\).md) cannot contain a user-defined type; it should contain only methods and properties.  
+ An [interface](/dotnet/csharp/language-reference/keywords/interface) cannot contain a user-defined type; it should contain only methods and properties.  
   
 ## Example  
  The following sample generates CS0524:  

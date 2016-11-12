@@ -1,20 +1,21 @@
 ---
-title: "File format not valid"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "File format not valid | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID321"
 ms.assetid: d41e6286-6e4a-463b-87fa-e140723e5c7e
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,4 +42,4 @@ Either you tried to load a file into a component, but the format of the data in 
 2.  Consult the documentation for the component to determine whether it provides support for converting from one format to another.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

@@ -1,13 +1,13 @@
 ---
-title: "Using the Gradient Service in a Tool Window"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Using the Gradient Service in a Tool Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "services, walkthroughs"
@@ -34,9 +34,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using the Gradient Service in a Tool Window
-Because [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tool windows are built with Windows Presentation Foundation (WPF), you do not have to call the gradient service in code. Instead, in the designer that represents the tool window surface, select the `StackPanel` element, and then, in the **Properties** window, modify the **Background** property to set the gradient. For more information, see [Setting Colors, Gradients, and Opacity](../misc/setting-colors--gradients--and-opacity.md).  
+Because [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tool windows are built with Windows Presentation Foundation (WPF), you do not have to call the gradient service in code. Instead, in the designer that represents the tool window surface, select the `StackPanel` element, and then, in the **Properties** window, modify the **Background** property to set the gradient. For more information, see [Setting Colors, Gradients, and Opacity](../misc/setting-colors-gradients-and-opacity.md).  
   
 ## See Also  
- [NOT IN BUILD: Tool Window Walkthroughs](assetId:///ecffc579-0e96-48ad-90f3-01a3d80f3ce5)   
+ [NOT IN BUILD: Tool Window Walkthroughs](http://msdn.microsoft.com/en-us/ecffc579-0e96-48ad-90f3-01a3d80f3ce5)   
  [Extending Tool Windows](../misc/extending-tool-windows.md)   
- [Setting Colors, Gradients, and Opacity](../misc/setting-colors--gradients--and-opacity.md)
+ [Setting Colors, Gradients, and Opacity](../misc/setting-colors-gradients-and-opacity.md)

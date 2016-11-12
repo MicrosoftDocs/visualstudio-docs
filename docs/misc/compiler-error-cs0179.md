@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0179"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0179 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0179"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0179"
 ms.assetid: bef000ca-64d7-4809-b2a0-de6927b04b0d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0179
 'member' cannot be extern and declare a body  
   
- When a class member is marked [extern](../Topic/extern%20\(C%23%20Reference\).md), it means that the member's definition is located in another file. Therefore, a class member marked as **extern** cannot be defined in the class. Either remove the `extern` keyword or delete the definition. For more information, see [Methods](../Topic/Methods%20\(C%23%20Programming%20Guide\).md).  
+ When a class member is marked [extern](/dotnet/csharp/language-reference/keywords/extern), it means that the member's definition is located in another file. Therefore, a class member marked as **extern** cannot be defined in the class. Either remove the `extern` keyword or delete the definition. For more information, see [Methods](/dotnet/csharp/programming-guide/classes-and-structs/methods).  
   
  The following sample generates CS0179:  
   

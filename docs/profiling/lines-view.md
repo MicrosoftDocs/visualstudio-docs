@@ -1,13 +1,13 @@
 ---
-title: "Lines View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Lines View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.lines"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Lines view"
 ms.assetid: 71ec0781-6031-4e17-af09-f50226018437
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,6 +58,6 @@ The Lines view is available only for profiler data that was collected by using t
 -   The character in the source line at which the statement ends.  
   
 ## See Also  
- [Lines View](../profiling/lines-view---sampling-data.md)   
- [Lines View - Sampling](../profiling/lines-view---.net-memory-sampling-data.md)   
- [Lines View](../profiling/lines-view---contention-data.md)
+ [Lines View](../profiling/lines-view-sampling-data.md)   
+ [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
+ [Lines View](../profiling/lines-view-contention-data.md)

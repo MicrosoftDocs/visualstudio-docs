@@ -1,11 +1,11 @@
 ---
-title: "Properties of Geometry Shapes"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Properties of Geometry Shapes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.geometryshape"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
 ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
 caps.latest.revision: 21
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Geometry Shapes
 You can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
@@ -50,4 +51,4 @@ You can use geometry shapes to specify how instances of domain classes are displ
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](assetId:///ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3185"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3185 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateManifest.NoEntryPoint"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3185"
 ms.assetid: 032c63c5-d662-42ba-84e1-e3ccca8cee05
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -45,10 +46,10 @@ translation.priority.mt:
 -   If using the GenerateDeploymentManifest task, make sure that you specify valid entry points in your manifests. For a deployment manifest, a valid entry point is an application manifest.  
   
 ## See Also  
- \<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
- \<xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion*>   
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)   
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser%2A>   
+ <xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion%2A>   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)   
  [MSBuild Error MSB3116](../misc/msbuild-error-msb3116.md)   
  [MSBuild Error MSB3117](../misc/msbuild-error-msb3117.md)   
  [MSBuild Error MSB3118](../misc/msbuild-error-msb3118.md)   

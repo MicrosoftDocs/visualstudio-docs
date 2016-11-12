@@ -1,13 +1,13 @@
 ---
-title: "Property access must assign to the property or use its value"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Property access must assign to the property or use its value | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30545"
@@ -15,9 +15,10 @@ f1_keywords:
 helpviewer_keywords: 
   - "BC30545"
 ms.assetid: df271c05-1e7a-44e8-bf53-79f06ef916ab
-caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+caps.latest.revision: 11
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -35,24 +36,18 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Property access must assign to the property or use its value
-You have tried to access a property without assigning to it or using its value. The following code provides an example:  
-  
- [!CODE [VbVbalrErrorSamples#1](VbVbalrErrorSamples#1)]  
+You have tried to access a property without assigning to it or using its value.
   
  **Error ID:** BC30545  
   
 ### To correct this error  
   
--   Assign a value to the property, as shown in the following example:  
-  
-     [!CODE [VbVbalrErrorSamples#3](VbVbalrErrorSamples#3)]  
+-   Assign a value to the property.  
   
      \- or -  
   
--   Use the value of the property, as shown in the following example:  
-  
-     [!CODE [VbVbalrErrorSamples#2](VbVbalrErrorSamples#2)]  
+-   Use the value of the property.  
   
 ## See Also  
- [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)   
- [Assignment Operators](../Topic/Assignment%20Operators%20\(Visual%20Basic\).md)
+ [Property Procedures](/dotnet/visual-basic/language-reference/procedures/property-procedures)   
+ [Assignment Operators](/dotnet/visual-basic/language-reference/operators/assignment-operators)

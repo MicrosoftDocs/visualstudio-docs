@@ -1,13 +1,13 @@
 ---
-title: "Creating Applications in Bi-directional Languages"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating Applications in Bi-directional Languages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Hebrew character display, creating applications"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Arabic language, creating applications"
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 -   **Object names** You can use bi-directional languages to assign names to solutions, projects, files, folders, and so on. In code, you can use bi-directional languages for the names of variables, classes, object, attributes, metadata, and other elements.  
   
--   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and Open Files with Encoding](../ide/how-to--save-and-open-files-with-encoding.md).  
+-   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and Open Files with Encoding](../ide/how-to-save-and-open-files-with-encoding.md).  
   
 ## Features with Limited or No Support  
  Other features common to bi-directional language applications are not fully supported in Visual Studio, or in some cases, not at all. These include:  
@@ -89,7 +90,7 @@ You can use Visual Studio to create applications that correctly display text in 
 -   Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
     > [!TIP]
-    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](assetId:///9a96220d-a19b-4de0-9f48-01e5d82679e5).  
+    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/en-us/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
   
     > [!NOTE]
     >  You must be consistent in how you refer to objects named in these languages. For example, if you use Kashida in naming an Arabic variable, you must always use Kashida when referring to that variable, or errors will result.  

@@ -1,13 +1,13 @@
 ---
-title: "Access Specifiers"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Access Specifiers | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "access specifiers [C++]"
 ms.assetid: 8e97f8fd-43c1-48fb-ab06-c69ba3322fcf
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Access Specifiers
-This content has moved to [Member Access Control](../Topic/Member%20Access%20Control%20\(C++\).md).
+This content has moved to [Member Access Control](/visual-cpp/cpp/member-access-control-cpp).

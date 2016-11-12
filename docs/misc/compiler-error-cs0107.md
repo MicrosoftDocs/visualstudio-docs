@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0107"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0107 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0107"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0107"
 ms.assetid: 505763c5-6d68-4c57-a8bd-7b03682da4c5
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0107
 More than one protection modifier  
   
- Only one access modifier ([public](../Topic/public%20\(C%23%20Reference\).md), [private](../Topic/private%20\(C%23%20Reference\).md), [protected](../Topic/protected%20\(C%23%20Reference\).md), or [internal](../Topic/internal%20\(C%23%20Reference\).md)) is allowed on a class member, with the exception of except **internal protected**.  
+ Only one access modifier ([public](/dotnet/csharp/language-reference/keywords/public), [private](/dotnet/csharp/language-reference/keywords/private), [protected](/dotnet/csharp/language-reference/keywords/protected), or [internal](/dotnet/csharp/language-reference/keywords/internal)) is allowed on a class member, with the exception of except **internal protected**.  
   
  The following sample generates CS0107:  
   

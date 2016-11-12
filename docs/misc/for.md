@@ -1,13 +1,13 @@
 ---
-title: "for"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "for | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "for"
@@ -40,7 +40,7 @@ For information about the different uses of `for`, see the following articles.
   
 |||  
 |-|-|  
-|[for Statement](../Topic/for%20Statement%20\(C\).md)|The traditional C `for` loop.|  
-|[for Statement (C++)](../Topic/for%20Statement%20\(C++\).md)|The traditional C++ `for` loop.|  
-|[Range-based for Statement (C++)](../Topic/Range-based%20for%20Statement%20\(C++\).md)|The C++11 range-based `for` loop.|  
-|[for each, in](../Topic/for%20each,%20in.md)|The [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)]`for each, in` loop.|
+|[for Statement](/visual-cpp/c-language/for-statement-c)|The traditional C `for` loop.|  
+|[for Statement (C++)](/visual-cpp/cpp/for-statement-cpp)|The traditional C++ `for` loop.|  
+|[Range-based for Statement (C++)](/visual-cpp/cpp/range-based-for-statement-cpp)|The C++11 range-based `for` loop.|  
+|[for each, in](/visual-cpp/dotnet/for-each-in)|The [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)]`for each, in` loop.|

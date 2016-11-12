@@ -1,13 +1,13 @@
 ---
-title: "Managed Extensibility Framework in the Editor"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - using MEF for extensions"
@@ -49,20 +49,20 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
   
  For example, consider a shopping application that has an order entry component that depends on product availability data provided by a warehouse inventory component. In MEF terms, the inventory part can *export* product availability data, and the order entry part can *import* the data. The order entry part and the inventory part do not have to know about each other; the *composition container* (provided by the host application) is responsible for maintaining the set of exports, and resolving the exports and imports.  
   
- The composition container, \<xref:System.ComponentModel.Composition.Hosting.CompositionContainer>, is typically owned by the host. The composition container maintains a *catalog* of exported component parts.  
+ The composition container, <xref:System.ComponentModel.Composition.Hosting.CompositionContainer>, is typically owned by the host. The composition container maintains a *catalog* of exported component parts.  
   
 ### Exporting and Importing Component Parts  
- You can export any functionality, as long as it is implemented as a public class or a public member of a class (property or method). You do not have to derive your component part from \<xref:System.ComponentModel.Composition.Primitives.ComposablePart>. Instead, you must add a \<xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class or class member that you want to export. This attribute specifies the *contract* by which another component part can import your functionality.  
+ You can export any functionality, as long as it is implemented as a public class or a public member of a class (property or method). You do not have to derive your component part from <xref:System.ComponentModel.Composition.Primitives.ComposablePart>. Instead, you must add a <xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class or class member that you want to export. This attribute specifies the *contract* by which another component part can import your functionality.  
   
 ### The Export Contract  
- The \<xref:System.ComponentModel.Composition.ExportAttribute> defines the entity (class, interface, or structure) that is being exported. Typically, the export attribute takes a parameter that specifies the type of the export.  
+ The <xref:System.ComponentModel.Composition.ExportAttribute> defines the entity (class, interface, or structure) that is being exported. Typically, the export attribute takes a parameter that specifies the type of the export.  
   
 ```  
 [Export(typeof(ContentTypeDefinition))]  
 class TestContentTypeDefinition : ContentTypeDefinition {   }  
 ```  
   
- By default, the \<xref:System.ComponentModel.Composition.ExportAttribute> attribute defines a contract that is the type of the exporting class.  
+ By default, the <xref:System.ComponentModel.Composition.ExportAttribute> attribute defines a contract that is the type of the exporting class.  
   
 ```  
 [Export]  
@@ -83,7 +83,7 @@ public AdornmentLayerDefinition scarletLayerDefinition;
 ```  
   
 ### Importing a MEF Export  
- When you want to consume a MEF export, you must know the contract (typically the type) by which it was exported, and add a \<xref:System.ComponentModel.Composition.ImportAttribute> attribute that has that value. By default, the import attribute takes one parameter, which is the type of the class that it modifies. The following lines of code import the \<xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService> type.  
+ When you want to consume a MEF export, you must know the contract (typically the type) by which it was exported, and add a <xref:System.ComponentModel.Composition.ImportAttribute> attribute that has that value. By default, the import attribute takes one parameter, which is the type of the class that it modifies. The following lines of code import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService> type.  
   
 ```  
 [Import]  

@@ -1,13 +1,13 @@
 ---
-title: "Cores View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Cores View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.cores"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View"
 ms.assetid: e47af672-9785-4899-bd45-4d9dda3c396f
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ The Cores View shows how thread execution was mapped to the logical processor co
 ## See Also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)   
  [Utilization View](../profiling/utilization-view.md)   
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

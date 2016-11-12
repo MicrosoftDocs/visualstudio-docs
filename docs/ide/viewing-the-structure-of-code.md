@@ -1,13 +1,13 @@
 ---
-title: "Viewing the Structure of Code"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Viewing the Structure of Code | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.documentoutline.window"
@@ -30,6 +30,7 @@ helpviewer_keywords:
   - "object browser"
 ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 28
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

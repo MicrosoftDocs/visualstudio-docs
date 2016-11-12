@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0535"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0535 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0535"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0535"
 ms.assetid: 282ed5d6-acb7-445b-999f-27a973ccc0b5
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0535
 'class' does not implement interface member 'member'  
   
- A [class](../Topic/class%20\(C%23%20Reference\).md) derived from an [interface](../Topic/interface%20\(C%23%20Reference\).md), but the class did not implement one or more of the interface's members. A class must implement all members of interfaces from which it derives or else be declared `abstract`.  
+ A [class](/dotnet/csharp/language-reference/keywords/class) derived from an [interface](/dotnet/csharp/language-reference/keywords/interface), but the class did not implement one or more of the interface's members. A class must implement all members of interfaces from which it derives or else be declared `abstract`.  
   
 ## Example  
  The following sample generates CS0535.  

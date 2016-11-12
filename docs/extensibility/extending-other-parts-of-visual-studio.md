@@ -1,13 +1,13 @@
 ---
-title: "Extending Other Parts of Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extending Other Parts of Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "user interfaces"
@@ -50,4 +50,4 @@ There are many more parts of the Visual Studio UI that you can extend. Here we s
  Learn how to make your own start page, either from scratch or from a downloadable start page sample: [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md).  
   
 ## Write to the Activity Log  
- Learn how to write to the Activity Log: [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).
+ Learn how to write to the Activity Log: [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).

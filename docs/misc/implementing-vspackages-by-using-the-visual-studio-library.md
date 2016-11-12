@@ -1,13 +1,13 @@
 ---
-title: "Implementing VSPackages By Using the Visual Studio Library"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Implementing VSPackages By Using the Visual Studio Library | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio Library, implementing VSPackages"
@@ -31,20 +31,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Implementing VSPackages By Using the Visual Studio Library
-The `IVsPackageImpl` class in the Visual Studio Library provides a minimal implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface. `IVsPackageImpl` takes care of most of the maintenance methods of \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. Other methods you might need to override to provide a meaningful implementation include:  
+The `IVsPackageImpl` class in the Visual Studio Library provides a minimal implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface. `IVsPackageImpl` takes care of most of the maintenance methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. Other methods you might need to override to provide a meaningful implementation include:  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.CreateTool*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.CreateTool%2A>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A>  
   
     > [!NOTE]
-    >  The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
+    >  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
   
- Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](../Topic/CComObjectRootEx%20Class.md) and [CComCoClass Class](../Topic/CComCoClass%20Class.md) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
+ Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](/visual-cpp/atl/reference/ccomobjectrootex-class) and [CComCoClass Class](/visual-cpp/atl/reference/ccomcoclass-class) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
   
 ```  
 class ATL_NO_VTABLE BasicPackage :   
@@ -66,7 +66,7 @@ BEGIN_COM_MAP(BasicPackage)
 END_COM_MAP()  
 ```  
   
- For more information about COM maps, see [Implementing CComObjectRootEx](../Topic/Implementing%20CComObjectRootEx.md) and [COM_INTERFACE_ENTRY Macros](../Topic/COM_INTERFACE_ENTRY%20Macros.md).  
+ For more information about COM maps, see [Implementing CComObjectRootEx](/visual-cpp/atl/implementing-ccomobjectrootex) and [COM_INTERFACE_ENTRY Macros](../Topic/COM_INTERFACE_ENTRY%20Macros.md).  
   
 ## Supporting Registration with Registry Maps  
  Visual Studio Library uses ATL-style .RGS files to support registration of COM objects. To support token replacement in the .RGS file, Visual Studio Library uses registry maps. Registry maps list symbols to be replaced and support the use of IDs for string table resources.  

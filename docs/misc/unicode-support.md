@@ -1,18 +1,19 @@
 ---
-title: "Unicode Support"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Unicode Support | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: 093927bc-96ba-49b0-958f-e4392fe2ed61
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -31,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Unicode Support
-This content has been removed. For information about Unicode support, see [Support for Unicode](../Topic/Support%20for%20Unicode.md).
+This content has been removed. For information about Unicode support, see [Support for Unicode](/visual-cpp/text/support-for-unicode).

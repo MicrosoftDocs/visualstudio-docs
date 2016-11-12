@@ -1,13 +1,13 @@
 ---
-title: "Designing and Viewing Classes and Types"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Designing and Viewing Classes and Types | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.diagram"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "class designer"
 ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -48,17 +49,17 @@ Design, visualize, and refactor classes and other types in your code with Class 
 -   **Refactor**: Override methods, rename identifiers, refactor parameters, and implement interfaces and abstract classes.  
   
 ## In This Section  
- [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types--class-designer-.md)  
+ [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)  
   
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams--class-designer-.md)  
+ [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)  
   
- [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types--class-designer-.md)  
+ [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)  
   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships--class-designer-.md)  
+ [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)  
   
- [Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types--class-designer-.md)  
+ [Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types-class-designer.md)  
   
- [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-c---code--class-designer-.md)  
+ [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)  
   
  [Additional Information About Class Designer Errors](../ide/additional-information-about-class-designer-errors.md)  
   

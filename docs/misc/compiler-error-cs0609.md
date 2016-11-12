@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0609"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0609 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0609"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0609"
 ms.assetid: f3ff07a6-1190-4a1c-86a5-f607e1a32b78
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0609
 Cannot set the IndexerName attribute on an indexer marked override  
   
- The name attribute (**IndexerNameAttribute**) cannot be applied to an indexed property that is an override. For more information, see [Indexers](../Topic/Indexers%20\(C%23%20Programming%20Guide\).md).  
+ The name attribute (**IndexerNameAttribute**) cannot be applied to an indexed property that is an override. For more information, see [Indexers](/dotnet/csharp/programming-guide/indexers/index).  
   
  The following sample generates CS0609:  
   

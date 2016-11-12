@@ -1,13 +1,13 @@
 ---
-title: "Continuing Execution After an Exception"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Continuing Execution After an Exception | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "programs, executing"
 ms.assetid: 6fe97aac-2131-4615-bd92-d3afee741558
 caps.latest.revision: 25
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0533"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0533 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0533"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0533"
 ms.assetid: f8b38c5a-d365-4081-a101-6282bdd19069
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,9 +39,9 @@ translation.priority.mt:
 # Compiler Error CS0533
 'derived-class member' hides inherited abstract member 'base-class member'  
   
- A base [class](../Topic/class%20\(C%23%20Reference\).md) method is hidden. Check the syntax of your declaration to see if it is correct.  
+ A base [class](/dotnet/csharp/language-reference/keywords/class) method is hidden. Check the syntax of your declaration to see if it is correct.  
   
- For more information, see [base](../Topic/base%20\(C%23%20Reference\).md).  
+ For more information, see [base](/dotnet/csharp/language-reference/keywords/base).  
   
  The following sample generates CS0533:  
   

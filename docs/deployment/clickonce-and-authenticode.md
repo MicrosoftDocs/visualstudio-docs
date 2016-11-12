@@ -1,13 +1,13 @@
 ---
-title: "ClickOnce and Authenticode"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "ClickOnce and Authenticode | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, security"
 ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 caps.latest.revision: 18
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -67,7 +68,7 @@ translation.priority.mt:
 ### Timestamps  
  The certificates used to sign [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications expire after a certain length of time, typically twelve months. In order to remove the need to constantly re-sign applications with new certificates, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports timestamp. When an application is signed with a timestamp, its certificate will continue to be accepted even after expiration, provided the timestamp is valid. This allows [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with expired certificates, but valid timestamps, to download and run. It also allows installed applications with expired certificates to continue to download and install updates.  
   
- To include a timestamp in an application server, a timestamp server must be available. For information about how to select a timestamp server, see [How to: Sign Application and Deployment Manifests](../ide/how-to--sign-application-and-deployment-manifests.md).  
+ To include a timestamp in an application server, a timestamp server must be available. For information about how to select a timestamp server, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
 ### Updating Expired Certificates  
  In earlier versions of the .NET Framework, updating an application whose certificate had expired could cause that application to stop functioning. To resolve this problem, use one of the following methods:  
@@ -80,7 +81,7 @@ translation.priority.mt:
   
 ### Storing Certificates  
   
--   You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../debugger/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
+-   You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   

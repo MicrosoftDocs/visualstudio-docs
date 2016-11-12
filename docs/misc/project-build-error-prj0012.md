@@ -1,13 +1,13 @@
 ---
-title: "Project Build Error PRJ0012"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Project Build Error PRJ0012 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "PRJ0012"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "PRJ0012"
 ms.assetid: a2055026-d333-4152-9d0c-a27c7d590f4e
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

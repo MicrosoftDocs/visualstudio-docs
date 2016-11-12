@@ -1,13 +1,13 @@
 ---
-title: "Execution Profile Report"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Execution Profile Report | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.report.execution"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Execution Profile Report"
 ms.assetid: c8128472-a8ed-46f4-b1c8-a25358d6f2c1
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -51,7 +52,7 @@ The Execution Profile Report is a traditional sampling profile. Samples are take
 |% Exclusive|The percentage of total samples that is shown in the exclusive samples column. Percentages are rounded to two decimal places.|  
 |Details|Fully qualified name of the function. This includes line count when it is available.|  
   
- This report table can be seen in the [Execution Time (Threads View)](../profiling/execution-time--threads-view-.md) view.  
+ This report table can be seen in the [Execution Time (Threads View)](../profiling/execution-time-threads-view.md) view.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

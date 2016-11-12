@@ -1,13 +1,13 @@
 ---
-title: "Anonymous type initializers are not valid in debug windows"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Anonymous type initializers are not valid in debug windows | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc36577"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36577"
 ms.assetid: c16c5f56-fd41-4058-9d43-35e5c0f7bf03
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,6 +45,6 @@ An anonymous type initializer has been entered in the **Watch** or **Immediate**
 -   Test anonymous type initializers in the Code Editor.  
   
 ## See Also  
- [Anonymous Types](../Topic/Anonymous%20Types%20\(Visual%20Basic\).md)   
- [Closer Look: What If... Testing Code in the Immediate Window](assetId:///3613a627-09a4-44e1-9cc2-f2a29f4e0744)   
- [Debugging Your Visual Basic Application](../Topic/Debugging%20Your%20Visual%20Basic%20Application.md)
+ [Anonymous Types](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/anonymous-types)   
+ [Closer Look: What If... Testing Code in the Immediate Window](http://msdn.microsoft.com/en-us/3613a627-09a4-44e1-9cc2-f2a29f4e0744)   
+ [Debugging Your Visual Basic Application](/dotnet/visual-basic/developing-apps/debugging)

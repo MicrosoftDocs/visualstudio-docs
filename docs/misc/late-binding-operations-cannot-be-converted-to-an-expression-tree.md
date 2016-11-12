@@ -1,13 +1,13 @@
 ---
-title: "Late binding operations cannot be converted to an expression tree"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Late binding operations cannot be converted to an expression tree | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36604"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36604"
 ms.assetid: 6fd66d12-8c99-46e0-9095-fe1b29fd2692
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -55,5 +56,5 @@ End Module
  **Error ID:** BC36604  
   
 ## See Also  
- [Early and Late Binding](../Topic/Early%20and%20Late%20Binding%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Expression Trees in LINQ](assetId:///1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)
+ [Early and Late Binding](/dotnet/visual-basic/programming-guide/language-features/early-late-binding/early-and-late-binding)   
+ [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/en-us/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)

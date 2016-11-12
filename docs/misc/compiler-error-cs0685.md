@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0685"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0685 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0685"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0685"
 ms.assetid: 20d7c6cf-a388-430f-b22b-232536912491
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0685
 Conditional member 'member' cannot have an out parameter  
   
- When using the \<xref:System.Diagnostics.ConditionalAttribute> attribute on a method, that method may not have an out parameter. This is because the value of the variable used for the out parameter would not be defined in the case that the method call is compiled to nothing. To avoid this error, remove the out parameter from the conditional method declaration, or don't use the Conditional Attribute.  
+ When using the <xref:System.Diagnostics.ConditionalAttribute> attribute on a method, that method may not have an out parameter. This is because the value of the variable used for the out parameter would not be defined in the case that the method call is compiled to nothing. To avoid this error, remove the out parameter from the conditional method declaration, or don't use the Conditional Attribute.  
   
 ## Example  
  The following sample generates CS0685:  

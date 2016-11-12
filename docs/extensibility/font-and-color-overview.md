@@ -1,13 +1,13 @@
 ---
-title: "Font and Color Overview"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Font and Color Overview | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], font and color"
@@ -32,10 +32,10 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Font and Color Overview
-This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
+This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
   
 ## The Fonts and Colors Property Page  
- You can manage attributes of displayed text in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) through the **Fonts and Colors** property page. To find the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment**, and then click **Fonts and Colors**.  
+ You can manage attributes of displayed text in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through the **Fonts and Colors** property page. To find the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment**, and then click **Fonts and Colors**.  
   
 ## Categories and Display Items  
  Fonts and colors are organized into **Categories** and **Display Items**.  
@@ -63,11 +63,11 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
  There are two ways to interact with font and color selections within the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)].  
   
--   One way is referred to as *Syntax Coloring*. It is used by a VSPackage that customizes the existing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editor to implement a language service and create a source editor.  
+-   One way is referred to as *Syntax Coloring*. It is used by a VSPackage that customizes the existing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor to implement a language service and create a source editor.  
   
      Only one **Category** supports this mechanism, namely, the **Text Editor**.  
   
--   A more general alternative supports all other **Categories** and user interface components other than the source editor when displaying text. For more information, see \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>.  
+-   A more general alternative supports all other **Categories** and user interface components other than the source editor when displaying text. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>.  
   
 ## Core Editor Text Settings  
  Font and color settings for the core editor of a language service object are governed by the **Text EditorCategory** found in the **Show settings for** drop-down box of the **Fonts and Colors** property page.  
@@ -76,20 +76,20 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
 -   A simplified technique for managing the fonts and colors of display items.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> and \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem>.  
+     For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem>.  
   
 -   A well-defined and optimized colorization mechanism.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>.  
+     For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>.  
   
 -   The ability to both use built-in display items from the **Text EditorCategory** and to extend them.  
   
-     For more information, see [How to: Use Built-In Colorable Items](../extensibility/how-to--use-built-in-colorable-items.md) and [Custom Colorable Items](../extensibility/custom-colorable-items.md).  
+     For more information, see [How to: Use Built-In Colorable Items](../extensibility/internals/how-to-use-built-in-colorable-items.md) and [Custom Colorable Items](../extensibility/internals/custom-colorable-items.md).  
   
 -   Automatic persistence of the current state of both built-in and custom display items with the **Text Editor** category.  
   
- For more information on syntax coloring see [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md).  
+ For more information on syntax coloring see [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).  
   
 ## See Also  
  [Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)   
- [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md)
+ [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)

@@ -1,13 +1,13 @@
 ---
-title: "Dynamically Adding Menu Items"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Dynamically Adding Menu Items | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "DYNAMICITEMSTART"
@@ -39,7 +39,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
  This walkthrough shows how to set the startup project in a Visual Studio solution with a command on the **Solution Explorer** toolbar. It uses a menu controller that has a dynamic dropdown list of the projects in the active solution. To keep this command from appearing when no solution is open or when the open solution has only one project, the VSPackage is loaded only when a solution has multiple projects.  
   
- For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md).  
+ For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
   
 ## Creating an Extension with a Menu Command  
   
@@ -153,9 +153,9 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     ```  
   
 ## Implementing the dynamic menu command  
- You create a dynamic menu command class that inherits from \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand>. In this implementation, the constructor specifies a predicate to be used for matching commands. You must override the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch*> method to use this predicate to set the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId*> property, which identifies the command to be invoked.  
+ You create a dynamic menu command class that inherits from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>. In this implementation, the constructor specifies a predicate to be used for matching commands. You must override the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> method to use this predicate to set the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> property, which identifies the command to be invoked.  
   
-1.  Create a new C# class file named DynamicItemMenuCommand.cs, and add a class named **DynamicItemMenuCommand** that inherits from \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand>:  
+1.  Create a new C# class file named DynamicItemMenuCommand.cs, and add a class named **DynamicItemMenuCommand** that inherits from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>:  
   
     ```c#  
     class DynamicItemMenuCommand : OleMenuCommand  
@@ -180,7 +180,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
     ```  
   
-4.  Add a constructor that inherits from the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> constructor and specifies a command handler and a \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> handler. Add a predicate for matching the command:  
+4.  Add a constructor that inherits from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> constructor and specifies a command handler and a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> handler. Add a predicate for matching the command:  
   
     ```c#  
     public DynamicItemMenuCommand(CommandID rootId, Predicate<int> matches, EventHandler invokeHandler, EventHandler beforeQueryStatusHandler)  
@@ -195,7 +195,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     }  
     ```  
   
-5.  Override the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch*> method so that it calls the matches predicate and sets the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId*> property:  
+5.  Override the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> method so that it calls the matches predicate and sets the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> property:  
   
     ```c#  
     public override bool DynamicItemMatch(int cmdId)  
@@ -276,7 +276,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Implementing the handlers  
  To implement dynamic menu items on a menu controller, you must handle the command when a dynamic item is clicked. You must also implement the logic that sets the state of the menu item. Add the handlers to the DynamicMenu class.  
   
-1.  To implement the **Set Startup Project** command, add the **OnInvokedDynamicItem** event handler. It looks for the project whose name is the same as the text of the command that has been invoked, and sets it as the startup project by setting its absolute path in the \<xref:EnvDTE.SolutionBuild.StartupProjects*> property.  
+1.  To implement the **Set Startup Project** command, add the **OnInvokedDynamicItem** event handler. It looks for the project whose name is the same as the text of the command that has been invoked, and sets it as the startup project by setting its absolute path in the <xref:EnvDTE.SolutionBuild.StartupProjects%2A> property.  
   
     ```c#  
     private void OnInvokedDynamicItem(object sender, EventArgs args)  
@@ -344,7 +344,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     ```  
   
 ## Setting the VSPackage to load only when a solution has multiple projects  
- Because the **Set Startup Project** command doesn’t make sense unless the active solution has more than one project, you can set your VSPackage to auto-load only in that case. You use \<xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> together with the UI context \<xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>. In the DynamicMenuPackage.cs file add the following attributes to the DynamicMenuPackage class:  
+ Because the **Set Startup Project** command doesn’t make sense unless the active solution has more than one project, you can set your VSPackage to auto-load only in that case. You use <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> together with the UI context <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>. In the DynamicMenuPackage.cs file add the following attributes to the DynamicMenuPackage class:  
   
 ```c#  
 [PackageRegistration(UseManagedResourcesOnly = true)]  
@@ -370,5 +370,5 @@ public sealed class DynamicMenuItemsPackage : Package
 4.  When you close the solution, or open a solution that has only one project, the toolbar icon should disappear.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)   
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
+ [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)

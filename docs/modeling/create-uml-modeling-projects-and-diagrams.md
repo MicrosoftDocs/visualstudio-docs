@@ -1,11 +1,11 @@
 ---
-title: "Create UML modeling projects and diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Create UML modeling projects and diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.addnewdiagramdialog"
@@ -25,8 +25,9 @@ helpviewer_keywords:
   - "projects, modeling"
 ms.assetid: c178b04b-4fd2-4bed-97e3-d793dae8649c
 caps.latest.revision: 48
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

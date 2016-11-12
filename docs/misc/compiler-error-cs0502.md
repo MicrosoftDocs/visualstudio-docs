@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0502"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0502 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0502"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0502"
 ms.assetid: 6cd6deda-73a1-42d8-893b-45a685e63380
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0502
 'member' cannot be both abstract and sealed  
   
- A class member cannot be both [abstract](../Topic/abstract%20\(C%23%20Reference\).md) and [sealed](../Topic/sealed%20\(C%23%20Reference\).md).  
+ A class member cannot be both [abstract](/dotnet/csharp/language-reference/keywords/abstract) and [sealed](/dotnet/csharp/language-reference/keywords/sealed).  
   
  The following sample generates CS0502:  
   

@@ -1,13 +1,13 @@
 ---
-title: "CLS Compliance Warning CLS03506"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "CLS Compliance Warning CLS03506 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CLS03506"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS03506"
 ms.assetid: baec820c-aabb-44c4-b0cd-043c3ca9c537
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ translation.priority.mt:
   
  Make sure that method signatures do not contain types marked with publicly visible required modifiers.  
   
- For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS03506:  
   

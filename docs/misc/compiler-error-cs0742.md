@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0742"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0742 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0742"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0742"
 ms.assetid: 078ee7af-17e4-4572-8fee-d97e09c9002b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -42,7 +43,7 @@ A query body must end with a select clause or a group clause
   
 ### To correct this error  
   
-1.  Add a [select clause](../Topic/select%20clause%20\(C%23%20Reference\).md) or [group clause](../Topic/group%20clause%20\(C%23%20Reference\).md) to the query.  
+1.  Add a [select clause](/dotnet/csharp/language-reference/keywords/select-clause) or [group clause](/dotnet/csharp/language-reference/keywords/group-clause) to the query.  
   
 ## Example  
  The following code generates CS0742:  
@@ -61,7 +62,7 @@ public class Test
 }  
 ```  
   
- If the `group` clause uses the [into](../Topic/into%20\(C%23%20Reference\).md) keyword to store the results of the grouping into a temporary identifier, it cannot be the last clause in a query. A `select` or second `group` clause is still required.  
+ If the `group` clause uses the [into](/dotnet/csharp/language-reference/keywords/into) keyword to store the results of the grouping into a temporary identifier, it cannot be the last clause in a query. A `select` or second `group` clause is still required.  
   
 ## See Also  
- [LINQ Query Expressions](../Topic/LINQ%20Query%20Expressions%20\(C%23%20Programming%20Guide\).md)
+ [LINQ Query Expressions](/dotnet/csharp/programming-guide/linq-query-expressions/index)

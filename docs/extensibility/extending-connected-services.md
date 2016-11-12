@@ -1,13 +1,13 @@
 ---
-title: "Extending Connected Services"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extending Connected Services | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "tgt-pltfrm-azure"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e559471b-5e0f-468f-a5b8-903c44fe9073
 caps.latest.revision: 3

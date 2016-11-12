@@ -1,13 +1,13 @@
 ---
-title: "Processes View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Processes View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.externaltools.spyplus.processesview"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Processes view"
 ms.assetid: e144e70e-eef2-45a7-a562-a177f177d9a1
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -51,17 +52,17 @@ Spy++ Processes View
  The figure above shows the Processes view with process and thread nodes expanded.  
   
 ### In This Section  
- [Searching for a Process in Processes View](../debugger/how-to--search-for-a-process-in-processes-view.md)  
+ [Searching for a Process in Processes View](../debugger/how-to-search-for-a-process-in-processes-view.md)  
  Explains how to find a specific process in Processes view.  
   
- [Displaying Process Properties](../debugger/how-to--display-process-properties.md)  
+ [Displaying Process Properties](../debugger/how-to-display-process-properties.md)  
  Explains how to show more information about a message.  
   
 ### Related Sections  
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
  [Process Search Dialog Box](../debugger/process-search-dialog-box.md)  
@@ -70,5 +71,5 @@ Spy++ Processes View
  [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md)  
  Displays the properties of a process selected in Processes View.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.

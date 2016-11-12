@@ -1,13 +1,13 @@
 ---
-title: "Creating a Software Development Kit"
-ms.custom: na
-ms.date: "10/15/2016"
+title: "Creating a Software Development Kit | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 caps.latest.revision: 54
@@ -33,7 +33,7 @@ A software development kit (SDK) is a collection of APIs that you can reference 
   
  There are two types of SDKs:  
   
--   Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps.  
+-   Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.  
   
 -   Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
   
@@ -184,9 +184,9 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
   
 7.  AppliesTo: specifies the SDKs that are available in the Reference Manager by specifying applicable Visual Studio project types. Nine values are recognized: WindowsAppContainer, VisualC, VB, CSharp, WindowsXAML, JavaScript, Managed, and Native. The SDK author can use and (“+’), or (“&#124;”), not (“!”) operators to specify exactly the scope of project types that apply to the SDK.  
   
-     WindowsAppContainer identifies projects for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps.  
+     WindowsAppContainer identifies projects for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.  
   
-8.  SupportPrefer32Bit: Supported values are “True” and “False”. The default is "True". If the value is set to “False”, MSBuild returns an error for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md) or [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md).  
+8.  SupportPrefer32Bit: Supported values are “True” and “False”. The default is "True". If the value is set to “False”, MSBuild returns an error for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md) or [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md).  
   
 9. SupportedArchitectures: a semi-colon delimited list of architectures that the SDK supports. MSBuild displays a warning if the targeted SDK architecture in the consuming project isn't supported. If this attribute isn't specified, MSBuild never displays this type of warning.  
   
@@ -276,6 +276,6 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
     ```  
   
 ## See Also  
- [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough--creating-an-sdk-using-c--.md)   
- [Walkthrough: Creating an SDK using C# or Visual Basic](../extensibility/walkthrough--creating-an-sdk-using-csharp-or-visual-basic.md)   
+ [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
+ [Walkthrough: Creating an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)

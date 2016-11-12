@@ -1,13 +1,13 @@
 ---
-title: "Supporting Multiple Versions of Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Supporting Multiple Versions of Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio, supporting multiple versions"
@@ -46,10 +46,10 @@ The term *side-by-side* means that you can install and maintain multiple version
   
 -   Your installer must handle your implementation strategy so that versioned components, and also components shared across all versions, are correctly installed and registered.  
   
-     For more information, see [Installing VSPackages With Windows Installer](../extensibility/installing-vspackages-with-windows-installer.md) and also [Component Management](../extensibility/component-management.md).  
+     For more information, see [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md) and also [Component Management](../extensibility/internals/component-management.md).  
   
     > [!NOTE]
-    >  Installing a version of Visual Studio also installs a corresponding version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], respectively.  
+    >  Installing a version of Visual Studio also installs a corresponding version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], respectively.  
   
 ## In This Section  
  [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)  

@@ -1,13 +1,13 @@
 ---
-title: "cabs"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "cabs | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-cpp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "cabs"
@@ -25,6 +25,7 @@ dev_langs:
   - "C"
 ms.assetid: f91172cd-6b03-4266-8bba-8010fc6233a0
 caps.latest.revision: 4
+author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # cabs
-This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](../Topic/_cabs.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](/visual-cpp/c-runtime-library/reference/cabs) instead.

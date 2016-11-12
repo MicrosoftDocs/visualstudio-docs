@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0077"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0077 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0077"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0077"
 ms.assetid: 55d3d290-d172-41a3-b326-ebf5a0a7e81f
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0077
 The as operator must be used with a reference type or nullable type ('int' is a non-nullable value type).  
   
- The [as](../Topic/as%20\(C%23%20Reference\).md) operator was passed a [value type](../Topic/Value%20Types%20\(C%23%20Reference\).md). Because `as` can return [null](../Topic/null%20\(C%23%20Reference\).md), it can only be passed [reference types](../Topic/Reference%20Types%20\(C%23%20Reference\).md) or nullable type. For more information about nullable types, see [Nullable Types](../Topic/Nullable%20Types%20\(C%23%20Programming%20Guide\).md).  
+ The [as](/dotnet/csharp/language-reference/keywords/as) operator was passed a [value type](/dotnet/csharp/language-reference/keywords/value-types). Because `as` can return [null](/dotnet/csharp/language-reference/keywords/null), it can only be passed [reference types](/dotnet/csharp/language-reference/keywords/reference-types) or nullable type. For more information about nullable types, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index).  
   
  The following sample generates CS0077:  
   

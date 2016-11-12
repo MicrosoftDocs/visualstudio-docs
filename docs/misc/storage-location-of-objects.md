@@ -1,18 +1,19 @@
 ---
-title: "Storage Location of Objects"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Storage Location of Objects | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: e28ad51e-e809-43d5-bfc0-20701dbbaf24
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -31,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Storage Location of Objects
-This content has been removed. For information about object storage location, see [/OPT](../Topic/-OPT%20\(Optimizations\).md)
+This content has been removed. For information about object storage location, see [/OPT](/visual-cpp/build/reference/opt-optimizations)

@@ -1,13 +1,13 @@
 ---
-title: "Long Double"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Long Double | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-cpp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "c.types"
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "80 bit precision"
 ms.assetid: bb581e20-b5c2-4079-8ee8-ac6739a37852
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,21 +50,21 @@ Previous 16-bit versions of Microsoft C/C++ and Microsoft Visual C++ supported t
   
 |Function|Long double<br /><br /> counterpart|Function|Long double<br /><br /> counterpart|  
 |--------------|---------------------------------|--------------|---------------------------------|  
-|[acos](../Topic/acos,%20acosf,%20acosl.md)|`acosl`|[frexp](../Topic/frexp.md)|`frexpl`|  
-|[asin](../Topic/asin,%20asinf,%20asinl.md)|`asinl`|[_hypot](../Topic/hypot,%20hypotf,%20hypotl,%20_hypot,%20_hypotf,%20_hypotl.md)|`_hypotl`|  
-|[atan](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atanl`|[ldexp](../Topic/ldexp.md)|`ldexpl`|  
-|[atan2](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atan2l`|[log](../Topic/log,%20logf,%20log10,%20log10f.md)|`logl`|  
-|[atof](../Topic/atof,%20_atof_l,%20_wtof,%20_wtof_l.md)|`_atold`|[log10](../Topic/log,%20logf,%20log10,%20log10f.md)|`log10l`|  
-|[Bessel functions j0, j1, jn](../misc/bessel-functions--_j0--_j1--_jn.md)|`j0l, j1l, jnl`|[_matherr](../Topic/_matherr.md)|`_matherrl`|  
-|[Bessel functions y0, y1, yn](../Topic/Bessel%20Functions:%20_y0,%20_y1,%20_yn.md)|`y0l, y1l, ynl`|[modf](../Topic/modf,%20modff,%20modfl.md)|`modfl`|  
-|[_cabs](../Topic/_cabs.md)|`_cabsl`|[pow](../Topic/pow,%20powf,%20powl.md)|`powl`|  
-|[ceil](../Topic/ceil,%20ceilf,%20ceill.md)|`ceill`|[sin](../Topic/sin,%20sinf,%20sinl,%20sinh,%20sinhf,%20sinhl.md)|`sinl`|  
-|[cos](../Topic/cos,%20cosf,%20cosl,%20cosh,%20coshf,%20coshl.md)|`cosl`|[sinh](../Topic/sin,%20sinf,%20sinl,%20sinh,%20sinhf,%20sinhl.md)|`sinhl`|  
-|[cosh](../Topic/cos,%20cosf,%20cosl,%20cosh,%20coshf,%20coshl.md)|`coshl`|[sqrt](../Topic/sqrt,%20sqrtf,%20sqrtl.md)|`sqrtl`|  
-|[exp](../Topic/exp,%20expf.md)|`expl`|[strtod](../Topic/strtod,%20_strtod_l,%20wcstod,%20_wcstod_l.md)|`_strtold`|  
-|[fabs](../Topic/fabs,%20fabsf,%20fabsl.md)|`fabsl`|[tan](../Topic/tan,%20tanf,%20tanl,%20tanh,%20tanhf,%20tanhl.md)|`tanl`|  
-|[floor](../Topic/floor,%20floorf,%20floorl.md)|`floorl`|[tanh](../Topic/tan,%20tanf,%20tanl,%20tanh,%20tanhf,%20tanhl.md)|`tanhl`|  
-|[fmod](../Topic/fmod,%20fmodf.md)|`fmodl`|||  
+|[acos](/visual-cpp/c-runtime-library/reference/acos-acosf-acosl)|`acosl`|[frexp](/visual-cpp/c-runtime-library/reference/frexp)|`frexpl`|  
+|[asin](/visual-cpp/c-runtime-library/reference/asin-asinf-asinl)|`asinl`|[_hypot](/visual-cpp/c-runtime-library/reference/hypot-hypotf-hypotl-hypot-hypotf-hypotl)|`_hypotl`|  
+|[atan](/visual-cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l)|`atanl`|[ldexp](/visual-cpp/c-runtime-library/reference/ldexp)|`ldexpl`|  
+|[atan2](/visual-cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l)|`atan2l`|[log](/visual-cpp/c-runtime-library/reference/log-logf-log10-log10f)|`logl`|  
+|[atof](/visual-cpp/c-runtime-library/reference/atof-atof-l-wtof-wtof-l)|`_atold`|[log10](/visual-cpp/c-runtime-library/reference/log-logf-log10-log10f)|`log10l`|  
+|[Bessel functions j0, j1, jn](../misc/bessel-functions-j0-j1-jn.md)|`j0l, j1l, jnl`|[_matherr](/visual-cpp/c-runtime-library/reference/matherr)|`_matherrl`|  
+|[Bessel functions y0, y1, yn](../Topic/Bessel%20Functions:%20_y0,%20_y1,%20_yn.md)|`y0l, y1l, ynl`|[modf](/visual-cpp/c-runtime-library/reference/modf-modff-modfl)|`modfl`|  
+|[_cabs](/visual-cpp/c-runtime-library/reference/cabs)|`_cabsl`|[pow](/visual-cpp/c-runtime-library/reference/pow-powf-powl)|`powl`|  
+|[ceil](/visual-cpp/c-runtime-library/reference/ceil-ceilf-ceill)|`ceill`|[sin](/visual-cpp/c-runtime-library/reference/sin-sinf-sinl-sinh-sinhf-sinhl)|`sinl`|  
+|[cos](/visual-cpp/c-runtime-library/reference/cos-cosf-cosl-cosh-coshf-coshl)|`cosl`|[sinh](/visual-cpp/c-runtime-library/reference/sin-sinf-sinl-sinh-sinhf-sinhl)|`sinhl`|  
+|[cosh](/visual-cpp/c-runtime-library/reference/cos-cosf-cosl-cosh-coshf-coshl)|`coshl`|[sqrt](/visual-cpp/c-runtime-library/reference/sqrt-sqrtf-sqrtl)|`sqrtl`|  
+|[exp](/visual-cpp/c-runtime-library/reference/exp-expf)|`expl`|[strtod](/visual-cpp/c-runtime-library/reference/strtod-strtod-l-wcstod-wcstod-l)|`_strtold`|  
+|[fabs](/visual-cpp/c-runtime-library/reference/fabs-fabsf-fabsl)|`fabsl`|[tan](/visual-cpp/c-runtime-library/reference/tan-tanf-tanl-tanh-tanhf-tanhl)|`tanl`|  
+|[floor](/visual-cpp/c-runtime-library/reference/floor-floorf-floorl)|`floorl`|[tanh](/visual-cpp/c-runtime-library/reference/tan-tanf-tanl-tanh-tanhf-tanhl)|`tanhl`|  
+|[fmod](/visual-cpp/c-runtime-library/reference/fmod-fmodf)|`fmodl`|||  
   
 ## See Also  
- [Run-Time Routines by Category](../Topic/Run-Time%20Routines%20by%20Category.md)
+ [Run-Time Routines by Category](/visual-cpp/c-runtime-library/run-time-routines-by-category)

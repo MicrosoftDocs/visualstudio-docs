@@ -1,13 +1,13 @@
 ---
-title: "Destructors for Nonvirtual Base Classes"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Destructors for Nonvirtual Base Classes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "base classes, destructors for nonvirtual"
 ms.assetid: 9f8e9b3b-7ff6-4f36-a47d-7b87c44e0873
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Destructors for Nonvirtual Base Classes
-This content has moved to [Destructors](../Topic/Destructors%20\(C++\).md)
+This content has moved to [Destructors](/visual-cpp/cpp/destructors-cpp)

@@ -1,13 +1,13 @@
 ---
-title: "Type expected"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Type expected | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30182"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30182"
 ms.assetid: 896e3936-7caa-4083-8058-9018ddabc65b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,8 +47,8 @@ Source code characters occur that are not recognizable as a type name. The conte
 -   Check that the type name is spelled correctly.  
   
 ## See Also  
- [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)   
- [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [Function Statement](../Topic/Function%20Statement%20\(Visual%20Basic\).md)   
- [Property Statement](../Topic/Property%20Statement.md)   
- [Structure Statement](../Topic/Structure%20Statement.md)
+ [Class Statement](/dotnet/visual-basic/language-reference/statements/class-statement)   
+ [Dim Statement](/dotnet/visual-basic/language-reference/statements/dim-statement)   
+ [Function Statement](/dotnet/visual-basic/language-reference/statements/function-statement)   
+ [Property Statement](/dotnet/visual-basic/language-reference/statements/property-statement)   
+ [Structure Statement](/dotnet/visual-basic/language-reference/statements/structure-statement)

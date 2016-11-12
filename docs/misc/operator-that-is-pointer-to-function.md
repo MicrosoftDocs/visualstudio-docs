@@ -1,18 +1,19 @@
 ---
-title: "Operator That is Pointer to Function"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Operator That is Pointer to Function | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: bb576b9c-4cde-406a-9069-e8500a7da9f7
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -31,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Operator That is Pointer to Function
-This content has been removed. For information, see [Overloading the Function Call Operator](../Topic/Function%20Call%20\(C++\).md).  
+This content has been removed. For information, see [Overloading the Function Call Operator](/visual-cpp/cpp/function-call-cpp).  
   
 ```  
 // operator_that_is_pointer_to_function.cpp  
@@ -57,4 +58,4 @@ int main()
 ```  
   
 ## See Also  
- [Visual C++ .NET 2003 Enhanced Compiler Conformance](../misc/visual-c---.net-2003-enhanced-compiler-conformance.md)
+ [Visual C++ .NET 2003 Enhanced Compiler Conformance](../misc/visual-cpp-dotnet-2003-enhanced-compiler-conformance.md)

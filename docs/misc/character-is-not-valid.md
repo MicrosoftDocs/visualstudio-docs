@@ -1,13 +1,13 @@
 ---
-title: "Character is not valid"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Character is not valid | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30037"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30037"
 ms.assetid: bc34e427-f3fa-43a7-bbf6-2e608c9d2494
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,4 +47,4 @@ The current context does not permit this character. For example, a tilde (`~`) o
 2.  Check that the programming element is spelled or constructed using only characters that are valid for that kind of element.  
   
 ## See Also  
- [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)
+ [Declared Element Names](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names)

@@ -1,19 +1,20 @@
 ---
-title: "Message Properties Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Message Properties Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "message options"
   - "message options, General"
 ms.assetid: 58e9dc24-baf6-4ab8-916c-aea28b72e3b0
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,20 +62,20 @@ Use this dialog box to find out more about a specific message. To display this d
  [Message Search Dialog Box](../debugger/message-search-dialog-box.md)  
  Used to find the node for a specific message in Messages view.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.  
   
  [Opening Messages View from Find Window](_asug_choosing_message_options)  
  Explains how to open Messages view from the Find Window dialog box.  
   
- [Searching for a Message in Messages View](../debugger/how-to--search-for-a-message-in-messages-view.md)  
+ [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  
  Explains how to find a specific message in Messages view.  
   
  [Messages View](../debugger/messages-view.md)  
  Displays the message stream associated with a window, process, or thread.  
   
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.

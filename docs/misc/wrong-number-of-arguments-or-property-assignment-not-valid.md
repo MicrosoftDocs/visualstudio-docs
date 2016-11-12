@@ -1,20 +1,21 @@
 ---
-title: "Wrong number of arguments or property assignment not valid"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Wrong number of arguments or property assignment not valid | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID450"
 ms.assetid: 61700dd4-ebd0-4088-b439-2cd1ef9fc8f4
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,4 +42,4 @@ An assignment has been attempted that is not valid.
 2.  Check the property assignment.  
   
 ## See Also  
- [Assignment Operators](../Topic/Assignment%20Operators%20\(Visual%20Basic\).md)
+ [Assignment Operators](/dotnet/visual-basic/language-reference/operators/assignment-operators)

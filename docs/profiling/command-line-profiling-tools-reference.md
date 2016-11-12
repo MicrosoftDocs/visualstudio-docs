@@ -1,16 +1,17 @@
 ---
-title: "Command-Line Profiling Tools Reference"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Command-Line Profiling Tools Reference | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a34ba40e-01b1-4386-90b1-c8e628a8c527
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

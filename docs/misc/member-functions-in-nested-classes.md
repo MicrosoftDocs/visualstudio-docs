@@ -1,13 +1,13 @@
 ---
-title: "Member Functions in Nested Classes"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Member Functions in Nested Classes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "classes [C++], nested"
 ms.assetid: e1e8e06e-23c5-4356-a39d-3f7360e0e999
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Member Functions in Nested Classes
-This content has moved to [Nested Class Declarations](../Topic/Nested%20Class%20Declarations.md) .
+This content has moved to [Nested Class Declarations](/visual-cpp/cpp/nested-class-declarations) .

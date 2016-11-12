@@ -1,18 +1,19 @@
 ---
-title: "Profiling Tools"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Profiling Tools | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.diagnosticshub.overview"
 ms.assetid: 0fb6cd5d-e16a-4526-84a5-19e63c625bc5
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,13 +37,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
   
  Check out the summary at the bottom to see what tools are available for your project type (for example, desktop, UWP, ASP.NET).  
   
- You can access the profiling tools by using **Debug / Windows / Show Diagnostic Tools** to use the tools during your debug session, or by using **Debug / Performance Profiler...** to do a focused performance analysis.  See [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) for more information on the different approaches.  
+ You can access the profiling tools by using **Debug / Windows / Show Diagnostic Tools** to use the tools during your debug session, or you can do a post-mortem analysis by using some other approaches.  See [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) for more information on the different approaches.
   
- ![DebugDiagnosticsToolsMenu](../profiling/media/debugdiagnosticstoolsmenu.png "DebugDiagnosticsToolsMenu")  
+ ![DebugDiagnosticsToolsMenu](../profiling/media/debugdiagnosticstoolsmenu.png "DebugDiagnosticsToolsMenu")
   
- See [What's New in Profiling Tools](../profiling/what-s-new-in-profiling-tools.md) to learn about new features for this release.  
+ See [What's New in Profiling Tools](../profiling/what-s-new-in-profiling-tools.md) to learn about new features for this release.
   
- The following sections describe the different performance tools that are available in Visual Studio.  
+ The following sections describe the different performance tools that are available in Visual Studio.
   
 ## Memory Usage  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
@@ -52,12 +53,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## CPU Usage  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
   
- The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as Azure App Services apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [CPU Usage](../profiling/cpu-usage.md) for more information.  
-  
-## Performance Explorer  
- ![PerfTools](../profiling/media/perftools.png "PerfTools")  
-  
- The **Performance Explorer** (**Debug / Profiler / Performance Explorer**) allows you to use many different tools, including **CPU Sampling**,  **Instrumentation**, **.NET Memory Allocation**, and **Resource Contention**. You can use Performance Explorer tools with desktop apps and ASP.NET apps, but not Windows Universal apps. For more information, see [Performance Explorer](../profiling/performance-explorer.md).  
+ The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as ASP.NET and Azure App Service apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) for more information.
   
 ## GPU Usage  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  
@@ -67,12 +63,19 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## Application Timeline  
  ![DiagAppTimeline](../profiling/media/diagapptimeline.png "DiagAppTimeline")  
   
- The [Application Timeline](../profiling/application-timeline.md) tool helps improve the performance of XAML applications by providing a detailed view of their resource consumption. You can use the **Application Timeline** with desktop and Windows Universal apps, but not  ASP.NET apps. The **Application Timeline** tool can be run from the **Diagnostics Tools** window (**Debug / Performance Profiler...**).  
+ The [Application Timeline](../profiling/application-timeline.md) tool helps improve the performance of XAML applications by providing a detailed view of their resource consumption. You can use the **Application Timeline** with desktop and Windows Universal apps, but not  ASP.NET apps. The **Application Timeline** tool can be run from the **Diagnostics Tools** window (**Debug / Performance Profiler...**).
   
 ## PerfTips  
  ![DiagPerfTips](../profiling/media/diagperftips.png "DiagPerfTips")  
   
- When the debugger stops execution at a breakpoint or stepping operation, the elapsed time between the break and the previous breakpoint appears as a tip in the editor window. These [PerfTips](../profiling/perftips.md) help you to monitor and analyze the performance of your app while you are debugging. You can see **PerfTips** in desktop, Windows Universal, and ASP.NET apps.  
+ When the debugger stops execution at a breakpoint or stepping operation, the elapsed time between the break and the previous breakpoint appears as a tip in the editor window. These [PerfTips](../profiling/perftips.md) help you to monitor and analyze the performance of your app while you are debugging. You can see **PerfTips** in desktop, Windows Universal, and ASP.NET apps.
+
+## Performance Explorer  
+ ![PerfTools](../profiling/media/perftools.png "PerfTools")  
+  
+ The **Performance Explorer** (**Debug / Profiler / Performance Explorer**) allows you to use many different tools, including **CPU Sampling**,  **Instrumentation**, **.NET Memory Allocation**, and **Resource Contention**. You can use Performance Explorer tools with desktop apps and ASP.NET apps, but not Windows Universal apps. For more information, see [Performance Explorer](../profiling/performance-explorer.md).
+
+ > [!NOTE] Unless you want to do a specialized task such as instrumentation, use the Diagnostics Tools such as Memory Usage and CPU Usage instead the Performance Explorer (which is now a legacy tool).
   
 ## JavaScript Memory  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
@@ -97,8 +100,8 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
   
 |Performance Tool|Windows desktop|Windows Universal/Store|ASP.NET|  
 |----------------------|---------------------|------------------------------|-------------|  
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|no|  
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|Azure App Service only|  
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|  
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|  
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|  
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|no|  

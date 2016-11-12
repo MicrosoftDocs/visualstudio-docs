@@ -1,13 +1,13 @@
 ---
-title: "Options Pages"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Options Pages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "user settings [Visual Studio SDK], Tools Options pages"
@@ -36,12 +36,12 @@ This content has been removed. For information about extending Tools Options pag
   
 ## In This Section  
  [Using Options Pages](../misc/using-options-pages.md)  
- Provides an overview of how a VSPackage can use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model to manage the state of **Tools Options** pages.  
+ Provides an overview of how a VSPackage can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automation model to manage the state of **Tools Options** pages.  
   
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)  
  Explains how an application can create and manage new **Tools Options** pages by using interop assemblies.  
   
- [Creating Options Pages](../extensibility/creating-options-pages.md)  
+ [Creating Options Pages](../extensibility/internals/creating-options-pages.md)  
  Explains how an application can create and manage new **Tools Options** pages by using the managed package framework.  
   
  [Creating Options Pages By Using Automation](../misc/creating-options-pages-by-using-automation.md)  

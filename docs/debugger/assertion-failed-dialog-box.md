@@ -1,13 +1,13 @@
 ---
-title: "Assertion Failed Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Assertion Failed Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.assertions"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "Assertion Failed dialog box"
 ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,4 +51,4 @@ An assertion statement specifies a condition that you expect to hold true at som
 |Abort|Halt execution of the program and end the debugging session.|  
   
 ## See Also  
- [C/C++ Assertions](../debugger/c-c---assertions.md)
+ [C/C++ Assertions](../debugger/c-cpp-assertions.md)

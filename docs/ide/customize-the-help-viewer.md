@@ -1,13 +1,13 @@
 ---
-title: "Customize the Help Viewer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Customize the Help Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_options"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Viewer Options [Help Viewer 2.0]"
 ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

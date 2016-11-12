@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3112"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3112 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateManifest.DuplicateAssemblyIdentity"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3112"
 ms.assetid: 90f25254-8148-49ea-9a5a-213feda16df0
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   Remove one of the referenced assemblies from the project.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

@@ -1,13 +1,13 @@
 ---
-title: "Additional Resources for Microsoft Help Viewer"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Additional Resources for Microsoft Help Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 43fe5298-0061-4c8c-826d-a83de3d242d6
 caps.latest.revision: 6

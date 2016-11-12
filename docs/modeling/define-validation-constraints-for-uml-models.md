@@ -1,18 +1,19 @@
 ---
-title: "Define validation constraints for UML models"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Define validation constraints for UML models | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, validation constraints"
 ms.assetid: 87b3b0da-122d-4121-9318-200c38ff49d0
 caps.latest.revision: 47
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,7 +45,7 @@ You can define validation constraints that test whether the model meets a condit
 ## Applying Validation Constraints  
  Validation constraints are applied in three cases: when you save a model; when you open a model; and when you click **Validate UML Model** on the **Architecture** menu. In each case, only those constraints that have been defined for that case will be applied, although typically you would define each constraint to apply in more than one case.  
   
- Validation errors are reported in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] errors window, and you can double-click the error to select the model elements that are in error.  
+ Validation errors are reported in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] errors window, and you can double-click the error to select the model elements that are in error.  
   
  For more information about applying validation, see [Validate your UML model](../modeling/validate-your-uml-model.md).  
   
@@ -194,17 +195,17 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts.  
   
-     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not start:  
+     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not start:  
   
     -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], typically:  
+    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], typically:  
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
-2.  In the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2.  In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
 3.  To set up a test for the sample constraint given in the previous section:  
   
@@ -278,7 +279,7 @@ public void ValidateSomething
   
  `context.LogError("error string", errorCode, elementsWithError);`  
   
--   `"error string"` appears in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Error List  
+-   `"error string"` appears in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Error List  
   
 -   `errorCode` is a string that should be a unique identifier of the error  
   
@@ -373,7 +374,7 @@ context.LogError(... , usecase);
 |`Context.GetValue<T>()`|Get a value of the specified type.|  
   
 ##  <a name="Installing"></a> Installing and uninstalling an extension  
- You can install a [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
+ You can install a [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
   
@@ -385,13 +386,13 @@ context.LogError(... , usecase);
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
+    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
   
 3.  On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+4.  Start or restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 #### To uninstall an extension  
   

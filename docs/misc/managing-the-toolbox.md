@@ -1,13 +1,13 @@
 ---
-title: "Managing the Toolbox"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Managing the Toolbox | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Toolbox [Visual Studio SDK], automatic tab selection"
@@ -50,36 +50,36 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] allows a VSPack
   
 |Interface|Description|  
 |---------------|-----------------|  
-|\<xref:System.Drawing.Design.IToolboxService>|Allows applications to manage, add, and remove \<xref:System.Drawing.Design.ToolboxItem> objects from the **Toolbox**. Also enables configuration of appearance and **Toolbox** categories.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>|Allows applications to manage, add, and remove Active-based **Toolbox** controls, as well as configure **Toolbox** categories and appearance.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>|Extends functionality found in \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> by providing complete support for persistence and localization.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox4>||  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox5>||  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox6>||  
+|<xref:System.Drawing.Design.IToolboxService>|Allows applications to manage, add, and remove <xref:System.Drawing.Design.ToolboxItem> objects from the **Toolbox**. Also enables configuration of appearance and **Toolbox** categories.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>|Allows applications to manage, add, and remove Active-based **Toolbox** controls, as well as configure **Toolbox** categories and appearance.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>|Extends functionality found in <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> by providing complete support for persistence and localization.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox4>||  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox5>||  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox6>||  
   
  There are several important points to keep in mind when working with these interfaces:  
   
--   \<xref:System.Drawing.Design.IToolboxService> is available only to Managed Package Framework-based VSPackages.  
+-   <xref:System.Drawing.Design.IToolboxService> is available only to Managed Package Framework-based VSPackages.  
   
--   Controls cannot be directly added to the **Toolbox** using \<xref:System.Drawing.Design.IToolboxService>.  
+-   Controls cannot be directly added to the **Toolbox** using <xref:System.Drawing.Design.IToolboxService>.  
   
--   A VSPackage must either use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> to add controls or host the control in a wrapper control that derives from \<xref:System.Windows.Forms.AxHost>.  
+-   A VSPackage must either use <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> to add controls or host the control in a wrapper control that derives from <xref:System.Windows.Forms.AxHost>.  
   
-     Visual Studio provides the `Aximp.exe` tool for automating the wrapping of an ActiveX control in a control derived from \<xref:System.Windows.Forms.AxHost>. For more information, see [Aximp.exe (Windows Forms ActiveX Control Importer)](../Topic/Aximp.exe%20\(Windows%20Forms%20ActiveX%20Control%20Importer\).md).  
+     Visual Studio provides the `Aximp.exe` tool for automating the wrapping of an ActiveX control in a control derived from <xref:System.Windows.Forms.AxHost>. For more information, see [Aximp.exe (Windows Forms ActiveX Control Importer)](../Topic/Aximp.exe%20\(Windows%20Forms%20ActiveX%20Control%20Importer\).md).  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox>, \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> are COM-based interfaces available through the interop assemblies.  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox>, <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> are COM-based interfaces available through the interop assemblies.  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> derives from \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox> and implements all its methods.  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> derives from <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox> and implements all its methods.  
   
-     Objects only obtain an instance of \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>.  
+     Objects only obtain an instance of <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>.  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> does not derive from \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and does not implement its methods.  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> does not derive from <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and does not implement its methods.  
   
      Objects needing functionality in both interfaces must obtain instances of both interfaces from the environment.  
   
--   When working with \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, information about the canonical (non-localized) names of tabs is handled by the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.GetIDOfTab*> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.SetIDOfTab*> methods.  
+-   When working with <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, information about the canonical (non-localized) names of tabs is handled by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.GetIDOfTab%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.SetIDOfTab%2A> methods.  
   
--   When using \<xref:System.Drawing.Design.IToolboxService>, it is up to the implementer to manage localized information, such as names of categories.  
+-   When using <xref:System.Drawing.Design.IToolboxService>, it is up to the implementer to manage localized information, such as names of categories.  
   
  Use the settings mechanism to enable users to save **Toolbox** settings accessed by users from the **Import/Export Settings** command, found on the IDE's **Tools** menu. For more information on how to use settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).  
   

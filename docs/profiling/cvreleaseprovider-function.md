@@ -1,13 +1,13 @@
 ---
-title: "CvReleaseProvider Function"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "CvReleaseProvider Function | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkers/CvReleaseProvider"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CvReleaseProvider method"
 ms.assetid: 8d74379e-295d-452b-bd5f-0769df387d4f
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,4 +56,4 @@ HRESULT CvReleaseProvider(
  **Header:** cvmarkers.h  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

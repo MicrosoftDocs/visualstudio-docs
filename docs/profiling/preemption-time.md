@@ -1,13 +1,13 @@
 ---
-title: "Preemption Time"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Preemption Time | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.preemption"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Preemption Time"
 ms.assetid: 6b78f91e-a006-440c-83fb-e7368040951d
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ These segments in the timeline are associated with the blocking time that is cat
  The tooltip for a preempted segment displays the name of the process or thread that caused the preemption. However, this does not imply that the process or thread that took over actually ran throughout the preempted period.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

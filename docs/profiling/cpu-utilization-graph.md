@@ -1,13 +1,13 @@
 ---
-title: "CPU Utilization Graph"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "CPU Utilization Graph | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.cpu.graph"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CPU Utilization GraphConcurrency Visualizer, CPU Utilization Graph"
 ms.assetid: 5332fd38-622d-47a3-874f-8c2fd7a30f95
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

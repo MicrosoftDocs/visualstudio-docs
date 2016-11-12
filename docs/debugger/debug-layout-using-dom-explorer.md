@@ -1,13 +1,13 @@
 ---
-title: "Debug layout using DOM Explorer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Debug layout using DOM Explorer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "layout, debugging [Windows Store apps]"
 ms.assetid: ded6566d-fc29-49a7-8029-dee8e50fe733
 caps.latest.revision: 33
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,14 +40,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug layout using DOM Explorer
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
+ The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
   
 > [!TIP]
 >  Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  
   
- To use DOM Explorer to modify aspects of layout that aren’t shown in the box model, see [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md) and [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
+ To use DOM Explorer to modify aspects of layout that aren’t shown in the box model, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
   
 ## Example of fixing a layout issue  
  This example shows how to select a list element in the Hub/Pivot template, interpret the box model values that are on the **Layout** tab, and then change one of the property values to fix a layout issue.  
@@ -94,7 +95,7 @@ translation.priority.mt:
 8.  Switch to Visual Studio and choose **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click.  
   
     > [!TIP]
-    >  You can also use arrow keys or other methods to select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md).  
+    >  You can also use arrow keys or other methods to select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
 9. In the Phone Emulator or Simulator, select the gray right half of one of the images that are cut in half. Highlighting appears around the selected element, as shown here in the Windows Phone Emulator:  
   
@@ -138,6 +139,6 @@ translation.priority.mt:
 15. Switch to the Phone Emulator or the Simulator. The updated margin-left values have been applied to the Section 4 images. These values are also updated in the **Computed** tab under the margin-left rule.  
   
 ## See Also  
- [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
+ [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)

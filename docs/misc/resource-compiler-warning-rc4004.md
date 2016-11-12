@@ -1,13 +1,13 @@
 ---
-title: "Resource Compiler Warning RC4004"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Resource Compiler Warning RC4004 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC4004"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4004"
 ms.assetid: 07803542-40a8-438f-8cd5-f8058f0e2ac8
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

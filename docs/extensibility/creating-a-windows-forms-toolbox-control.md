@@ -1,13 +1,13 @@
 ---
-title: "Creating a Windows Forms Toolbox Control"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "winforms"
@@ -47,10 +47,10 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 2.  When the project opens, add a **Windows Forms Toolbox Control** item template named `Counter`. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Windows Forms Toolbox Control**  
   
-3.  This adds a user control, a `ProvideToolboxControlAttribute`\<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> to place the control in the **Toolbox**, and a **Microsoft.VisualStudio.ToolboxControl** Asset entry in the VSIX manifest for deployment.  
+3.  This adds a user control, a `ProvideToolboxControlAttribute`<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> to place the control in the **Toolbox**, and a **Microsoft.VisualStudio.ToolboxControl** Asset entry in the VSIX manifest for deployment.  
   
 ### Building a User Interface for the Control  
- The `Counter` control requires two child controls: a \<xref:System.Windows.Forms.Label> to display the current count, and a \<xref:System.Windows.Forms.Button> to reset the count to 0. No other child controls are required because callers will increment the counter programmatically.  
+ The `Counter` control requires two child controls: a <xref:System.Windows.Forms.Label> to display the current count, and a <xref:System.Windows.Forms.Button> to reset the count to 0. No other child controls are required because callers will increment the counter programmatically.  
   
 ##### To build the user interface  
   
@@ -116,7 +116,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
     ```  
   
-     Setting the **Label** text in the \<xref:System.Windows.Forms.UserControl.Load> event enables the target properties to load before their values are applied. Setting the **Label** text in the constructor would result in an empty **Label**.  
+     Setting the **Label** text in the <xref:System.Windows.Forms.UserControl.Load> event enables the target properties to load before their values are applied. Setting the **Label** text in the constructor would result in an empty **Label**.  
   
 5.  Create the following public method to increment the counter.  
   
@@ -173,11 +173,11 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 4.  In the **Toolbox**, the `Counter` control should be displayed in the **General** section.  
   
-5.  Drag a `Counter` control to your form, and then select it. The `Value`, `Message`, and `ShowReset` properties will be displayed in the **Properties** window, together with the properties that are inherited from \<xref:System.Windows.Forms.UserControl>.  
+5.  Drag a `Counter` control to your form, and then select it. The `Value`, `Message`, and `ShowReset` properties will be displayed in the **Properties** window, together with the properties that are inherited from <xref:System.Windows.Forms.UserControl>.  
   
 6.  Set the `Message` property to `Count:`.  
   
-7.  Drag a \<xref:System.Windows.Forms.Button> control to the form, and then set the name and text properties of the button to `Test`.  
+7.  Drag a <xref:System.Windows.Forms.Button> control to the form, and then set the name and text properties of the button to `Test`.  
   
 8.  Double-click the button to open Form1.cs in code view and create a click handler.  
   

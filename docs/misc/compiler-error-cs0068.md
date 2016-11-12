@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0068"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0068 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0068"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0068"
 ms.assetid: 9c9ac915-e12f-4ceb-8eb0-806790f11a09
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0068
 'event': event in interface cannot have initializer  
   
- An event in an interface cannot have an initializer. For more information, see [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md).  
+ An event in an interface cannot have an initializer. For more information, see [Interfaces](/dotnet/csharp/programming-guide/interfaces/index).  
   
  The following sample generates CS0068:  
   

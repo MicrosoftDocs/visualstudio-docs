@@ -1,13 +1,13 @@
 ---
-title: "Supplying XML Code Comments"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Supplying XML Code Comments | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vc.tools.viewing.comments"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "code comments"
 ms.assetid: f36b46af-443a-4fa6-a2c3-0c4962bbd4aa
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,9 +40,9 @@ You can make the comments in source code files available as IntelliSense. When y
   
  For more information about documenting code in Visual Basic, see see [How to: Create XML Documentation](../Topic/How%20to:%20Create%20XML%20Documentation%20in%20Visual%20Basic.md).  
   
- For more information about documenting code in C#, see [XML Documentation Comments](../Topic/XML%20Documentation%20Comments%20\(C%23%20Programming%20Guide\).md).  
+ For more information about documenting code in C#, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
   
- For more information about documenting code in C++, see [Comments](../Topic/Comments%20\(C++\).md) and [XML Documentation](../Topic/XML%20Documentation%20\(Visual%20C++\).md).  
+ For more information about documenting code in C++, see [Comments](/visual-cpp/cpp/comments-cpp) and [XML Documentation](/visual-cpp/ide/xml-documentation-visual-cpp).  
   
 ## See Also  
  [Using IntelliSense](../ide/using-intellisense.md)

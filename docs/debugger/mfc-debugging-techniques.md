@@ -1,13 +1,13 @@
 ---
-title: "MFC Debugging Techniques"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "MFC Debugging Techniques | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AfxEnableMemoryTracking"
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugging [MFC]"
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -96,7 +97,7 @@ _asm int 3
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_The_TRACE_macro"></a> The TRACE macro  
- To display messages from your program in the debugger [Output window](../reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-c---assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
+ To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
   
  The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.  
   
@@ -124,7 +125,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ```  
   
- For more information on the **TRACE** macro, see [Diagnostic Services](../Topic/Diagnostic%20Services.md).  
+ For more information on the **TRACE** macro, see [Diagnostic Services](/visual-cpp/mfc/reference/diagnostic-services).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -173,7 +174,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots  
   
-1.  Create a [CMemoryState](assetId:///8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md) member function. This creates the first memory snapshot.  
+1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md) member function. This creates the first memory snapshot.  
   
 2.  After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.  
   
@@ -202,7 +203,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
     #endif  
     ```  
   
-     Notice that the memory-checking statements are bracketed by `#ifdef`[_DEBUG](../Topic/_DEBUG.md)/ **#endif** blocks so that they are compiled only in Debug versions of your program.  
+     Notice that the memory-checking statements are bracketed by `#ifdef`[_DEBUG](/visual-cpp/c-runtime-library/debug)/ **#endif** blocks so that they are compiled only in Debug versions of your program.  
   
      Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](../Topic/CMemoryState::DumpStatistics.md) that will help you locate it.  
   
@@ -285,7 +286,7 @@ Phone #: 581-0215
   
  You can set a breakpoint on a particular memory allocation by setting the global variable `_afxBreakAlloc` to the number shown in the braces. If you rerun the program the debugger will break execution when that allocation takes place. You can then look at the call stack to see how your program got to that point.  
   
- The C run-time library has a similar function, [_CrtSetBreakAlloc](../Topic/_CrtSetBreakAlloc.md), that you can use for C run-time allocations.  
+ The C run-time library has a similar function, [_CrtSetBreakAlloc](/visual-cpp/c-runtime-library/reference/crtsetbreakalloc), that you can use for C run-time allocations.  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -373,9 +374,9 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../reference/output-window.md).  
+ When you derive a class from [CObject](/visual-cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
- The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](../Topic/CDumpContext%20Class.md)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
+ The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](/visual-cpp/mfc/reference/cdumpcontext-class)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   
  When you override the `Dump` function, you should first call the base class version of `Dump` to dump the contents of the base class object. Then output a textual description and value for each member variable of your derived class.  
   
@@ -430,9 +431,9 @@ pMyPerson->Dump( afxDump );
 ##  <a name="BKMK_Reducing_the_size_of_an_MFC_Debug_build"></a> Reducing the size of an MFC Debug build  
  The debug information for a large MFC application can take up a lot of disk space. You can use one of these procedures to reduce the size:  
   
-1.  Rebuild the MFC libraries using the [/Z7, /Zi, /ZI (Debug Information Format)](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md) option, instead of **/Z7**. These options build a single program database (PDB) file that contains debug information for the entire library, reducing redundancy and saving space.  
+1.  Rebuild the MFC libraries using the [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) option, instead of **/Z7**. These options build a single program database (PDB) file that contains debug information for the entire library, reducing redundancy and saving space.  
   
-2.  Rebuild the MFC libraries without debug information (no [/Z7, /Zi, /ZI (Debug Information Format)](../Topic/-Z7,%20-Zi,%20-ZI%20\(Debug%20Information%20Format\).md) option). In this case, the lack of debug information will prevent you from using most debugger facilities within the MFC library code, but because the MFC libraries are already thoroughly debugged, this may not be a problem.  
+2.  Rebuild the MFC libraries without debug information (no [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) option). In this case, the lack of debug information will prevent you from using most debugger facilities within the MFC library code, but because the MFC libraries are already thoroughly debugged, this may not be a problem.  
   
 3.  Build your own application with debug information for selected modules only as described below.  
   
@@ -449,9 +450,9 @@ pMyPerson->Dump( afxDump );
   
     1.  In the **\<Project> Property Pages** dialog box, click the **Configuration Manager** button.  
   
-    2.  In the [Configuration Manager dialog box](assetId:///fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
+    2.  In the [Configuration Manager dialog box](http://msdn.microsoft.com/en-us/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
   
-    3.  In the [New Project Configuration dialog box](assetId:///cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
+    3.  In the [New Project Configuration dialog box](http://msdn.microsoft.com/en-us/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
   
     4.  In the **Copy Settings from** list, choose **Release**.  
   
@@ -493,7 +494,7 @@ pMyPerson->Dump( afxDump );
   
 7.  From the **Build** menu, select **Build** to rebuild project files that are out of date.  
   
- As an alternative to the technique described in this topic, you can use an external makefile to define individual options for each file. In that case, to link with the MFC debug libraries, you must define the [_DEBUG](../Topic/_DEBUG.md) flag for each module. If you want to use MFC release libraries, you must define NDEBUG. For more information on writing external makefiles, see the [NMAKE Reference](../Topic/Running%20NMAKE.md).  
+ As an alternative to the technique described in this topic, you can use an external makefile to define individual options for each file. In that case, to link with the MFC debug libraries, you must define the [_DEBUG](/visual-cpp/c-runtime-library/debug) flag for each module. If you want to use MFC release libraries, you must define NDEBUG. For more information on writing external makefiles, see the [NMAKE Reference](/visual-cpp/build/running-nmake).  
   
  [In this topic](#BKMK_In_this_topic)  
   

@@ -1,16 +1,17 @@
 ---
-title: "Integrating Models by using Visual Studio Modelbus"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Integrating Models by using Visual Studio Modelbus | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ff722f3-21d6-44e2-9efd-f6694aee9987
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -27,21 +28,21 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Integrating Models by using Visual Studio Modelbus
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.  
   
  ModelBus lets you create a unique reference to a model or to a specific element inside a model. This reference can be stored outside the model, for example, in an element in another model. When, on a later occasion, a tool wants to obtain access to the element, the Model Bus infrastructure will load the appropriate model and return the element. If you want, you can display the model to the user. If the file cannot be accessed in its previous location, ModelBus will ask the user to find it. If the user finds the file, ModelBus will fix all the references to that file.  
   
 > [!NOTE]
->  In the current [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] implementation of ModelBus, the linked models must be items in the same [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution.  
+>  In the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] implementation of ModelBus, the linked models must be items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  
   
  For additional information and sample code, see:  
   
--   [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)  
+-   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)  
   
 -   [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754)  
   
 ##  <a name="provide"></a> Providing Access to a DSL  
- Before you can create ModelBus references to a model or its elements, you must define a ModelBusAdapter for the DSL. The easiest way to do this is to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Bus Extension, which adds commands to the DSL Designer.  
+ Before you can create ModelBus references to a model or its elements, you must define a ModelBusAdapter for the DSL. The easiest way to do this is to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Bus Extension, which adds commands to the DSL Designer.  
   
 ###  <a name="expose"></a> To expose a DSL Definition to Model Bus  
   
@@ -55,7 +56,7 @@ translation.priority.mt:
   
 5.  If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).  
   
-    1.  Change the base class of AdapterManagerBase to \<xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.  
+    1.  Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.  
   
     2.  Near the end of the file, insert this additional attribute in front of class AdapterManager:  
   
@@ -74,7 +75,7 @@ translation.priority.mt:
  The folder `ModelBusAdapters\bin\*` contains the assemblies built by the `Dsl` project and the `ModelBusAdapters` project. To reference this DSL from another DSL, you should import these assemblies.  
   
 ### Making sure that elements can be referenced  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] ModelBus adapters use the guid of an element to identify it, by default. These identifiers must therefore be persisted in the model file.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus adapters use the guid of an element to identify it, by default. These identifiers must therefore be persisted in the model file.  
   
 ##### To ensure that element IDs are persisted  
   
@@ -148,10 +149,10 @@ translation.priority.mt:
   
 2.  Run one of the DSLs in experimental mode by pressing F5 or CTRL+F5.  
   
-3.  In the Debugging project in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], add files that are instances of each DSL.  
+3.  In the Debugging project in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], add files that are instances of each DSL.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.  
+    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.  
   
 4.  Create some elements and links in the instance of the exposed DSL, and save it.  
   
@@ -166,12 +167,12 @@ translation.priority.mt:
 ## Creating References in Program Code  
  When you want to store a reference to a model or an element inside a model, you create a `ModelBusReference`. There are two kinds of `ModelBusReference`: model references and element references.  
   
- To create a model reference, you need the AdapterManager of the DSL of which the model is an instance, and the filename or [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project item of the model.  
+ To create a model reference, you need the AdapterManager of the DSL of which the model is an instance, and the filename or [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project item of the model.  
   
  To create an element reference, you need an adapter for the model file, and the element you want to refer to.  
   
 > [!NOTE]
->  With the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] ModelBus, you can create references only to items in the same [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution.  
+>  With the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus, you can create references only to items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  
   
 ### Import the exposed DSL assemblies  
  In the consuming project, add project references to the DSL and ModelBusAdapter assemblies of the exposed DSL.  
@@ -357,7 +358,7 @@ ModelBusReference elementReferenceRestored =
     modelBus.DeserializeReference(serialized, null);  
 ```  
   
- A MBR that is serialized in this manner is independent of context. If you are using the simple file-based Model Bus Adapter, the MBR contains an absolute file path. This is sufficient if the instance model files will never move. However, the model files will typically be items in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. Your users will expect to be able to move the whole project to different parts of the file system. They will also expect to be able to keep the project under source control and open it on different computers. Path names should therefore be serialized relative to the location of the project that contains the files.  
+ A MBR that is serialized in this manner is independent of context. If you are using the simple file-based Model Bus Adapter, the MBR contains an absolute file path. This is sufficient if the instance model files will never move. However, the model files will typically be items in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Your users will expect to be able to move the whole project to different parts of the file system. They will also expect to be able to keep the project under source control and open it on different computers. Path names should therefore be serialized relative to the location of the project that contains the files.  
   
 ### Serializing Relative to a Specified File Path  
  A `ModelBusReference` contains a `ReferenceContext`, which is a dictionary in which you can store information such as the file path relative to which it should be serialized.  
@@ -518,7 +519,7 @@ private const string INVALID_REF_FORMAT =
 -   In **DslPackage\source.extention.tt**, `|ModelBusAdapter|` is added as a MEF Component.  
   
 ## See Also  
- [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md)   
+ [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
  [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md)

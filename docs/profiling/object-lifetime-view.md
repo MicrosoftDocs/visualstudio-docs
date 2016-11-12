@@ -1,13 +1,13 @@
 ---
-title: "Object Lifetime View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Object Lifetime View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.objectlifetime"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "profiling tools, Lifetime view"
 ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ translation.priority.ht:
 # Object Lifetime View
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  
   
- The garbage collector of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  
+ The garbage collector of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  
   
  The garbage collector reclaims memory by deallocating a whole generation of objects. For objects that were created by the profiled application, the Object Lifetime view displays the number and size of the objects and the generation in which they are reclaimed.  
   
@@ -85,4 +86,4 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Large Object Heap Bytes Collected**|The size, in bytes, of the instances of this type that were located in the large object heap and that were collected in the profiling run.|  
   
 ## See Also  
- [.NET Memory Data Views](../profiling/.net-memory-data-views.md)
+ [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)

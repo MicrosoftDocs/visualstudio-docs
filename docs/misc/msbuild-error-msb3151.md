@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3151"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3151 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.IncludedProductIncluded"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3151"
 ms.assetid: e4766734-2e90-436e-850b-a8a9da535dee
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

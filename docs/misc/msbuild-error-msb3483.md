@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3483"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3483 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.SignFile.SignToolWarning"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3483"
 ms.assetid: f6df6e16-ea50-40e4-bf1f-365cf1662692
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,4 +41,4 @@ translation.priority.mt:
   
 ## See Also  
  [SignTool.exe (Sign Tool)](../Topic/SignTool.exe%20\(Sign%20Tool\).md)   
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

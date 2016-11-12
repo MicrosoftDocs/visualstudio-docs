@@ -1,13 +1,13 @@
 ---
-title: "CRT Debugging Techniques"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "CRT Debugging Techniques | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "c.runtime.debugging"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debugging [C++], CRT debug support"
 ms.assetid: 9be561f6-14a8-44ff-925d-d911d5b8e6ff
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

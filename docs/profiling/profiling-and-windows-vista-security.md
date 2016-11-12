@@ -1,19 +1,20 @@
 ---
-title: "Profiling and Windows Vista Security"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Profiling and Windows Vista Security | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools,security"
   - "performance tools, security"
 ms.assetid: 842112fc-b886-4801-8cd7-a25b314b0393
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,6 +58,6 @@ Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] Use
      When this option is not selected, the list displays processes in the current session. When this option is selected, the list displays processes in all sessions.  
   
 ## See Also  
- [Overviews](../profiling/overviews--performance-tools-.md)   
+ [Overviews](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a Running Process](assetId:///636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a Running Process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)

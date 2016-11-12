@@ -1,13 +1,13 @@
 ---
-title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -72,7 +73,7 @@ This topic discusses a new feature of ClickOnce introduced in the .NET Framework
  In the second example, you publish a ClickOnce application that specifies `deploymentProvider`, and you then decide to remove it. Once the new version without `deploymentProvider` has been downloaded to clients, you will not be able to redirect the path used for updates until you release a version of your application that has `deploymentProvider` restored. As with the first example, `deploymentProvider` must initially point to the current update location, not your new location. In this case, if you attempt to insert a `deploymentProvider` that refers to http://subdomain.adatum.com/MyApplication/, then the next update will fail.  
   
 ## Creating a Deployment  
- For step by step guidance on creating deployments that can be deployed from different network locations, see [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/c21822fb-d4ee-42e4-b72d-41ee9786efe5.md).  
+ For step by step guidance on creating deployments that can be deployed from different network locations, see [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md).  
   
 ## See Also  
  [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)   

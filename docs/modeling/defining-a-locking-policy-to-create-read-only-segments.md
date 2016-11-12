@@ -1,16 +1,17 @@
 ---
-title: "Defining a Locking Policy to Create Read-Only Segments"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Defining a Locking Policy to Create Read-Only Segments | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa549c71-2bf6-4b08-b7b2-7756dd6f1dc8
 caps.latest.revision: 12
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
@@ -18,14 +19,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Defining a Locking Policy to Create Read-Only Segments
-The Immutability API of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
+The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
   
  In addition, as author of a DSL, you can define a *locking policy.* A locking policy defines which locks are permitted, not permitted, or mandatory. For example, when you publish a DSL, you can encourage third-party developers to extend it with new commands. But you could also use a locking policy to prevent them from altering the read-only status of specified parts of the model.  
   
 > [!NOTE]
 >  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
   
- More information and samples are available at the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
+ More information and samples are available at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
   
 ## Setting and Getting Locks  
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:  
@@ -43,7 +44,7 @@ element.SetLocks(Locks.Delete | Locks.Property);
   
  You can set a lock without using a transaction. The lock database is not part of the store. If you set a lock in response to a change of a value in the store, for example in OnValueChanged, you should allow changes that are part of an Undo operation.  
   
- These methods are extension methods that are defined in the \<xref:Microsoft.VisualStudio.Modeling.Immutability> namespace.  
+ These methods are extension methods that are defined in the <xref:Microsoft.VisualStudio.Modeling.Immutability> namespace.  
   
 ### Locks on partitions and stores  
  Locks can also be applied to partitions and the store. A lock that is set on a partition applies to all the elements in the partition. Therefore, for example, the following statement will prevent all the elements in a partition from being deleted, irrespective of the states of their own locks. Nevertheless, other locks such as `Locks.Property` could still be set on individual elements:  
@@ -96,12 +97,12 @@ partition.SetLocks(Locks.Delete);
   
  To define a locking policy, you have to:  
   
--   Create a class that implements \<xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.  
+-   Create a class that implements <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.  
   
 -   Add this class to the services that are available through the DocData of your DSL.  
   
 ### To define a locking policy  
- \<xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> has the following definition:  
+ <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> has the following definition:  
   
 ```  
 public interface ILockingPolicy  

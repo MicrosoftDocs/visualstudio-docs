@@ -1,18 +1,19 @@
 ---
-title: "MSBuild Error MSB3253"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3253 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSB3253"
 ms.assetid: d4b5eb5b-703b-4b80-aa5d-6c70ff9fe84d
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -36,17 +37,17 @@ translation.priority.mt:
   
  One of the assemblies, or dependent assemblies, referenced in the project depends on another assembly that is not contained in the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)].  
   
- This message typically occurs when a project references a third-party control or DLL that itself references an external assembly. For example, a project uses a control that in turn uses functionality that is contained in the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. If the application is re-targeted to [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] and is installed on a system that does not have [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)], the application may not work correctly if it tries to access functionality that is not contained in the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset.  
+ This message typically occurs when a project references a third-party control or DLL that itself references an external assembly. For example, a project uses a control that in turn uses functionality that is contained in the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If the application is re-targeted to [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] and is installed on a system that does not have [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)], the application may not work correctly if it tries to access functionality that is not contained in the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset.  
   
  This "error" message is actually only a warning; the application will still compile. However, it may fail later if the control or DLL refers to functionality that is located in a missing assembly.  
   
- The [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+ The [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
 ### To correct this error  
   
--   Either remove the specified assembly reference from the project, or target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either remove the specified assembly reference from the project, or target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
 ## See Also  
- [Target Framework and Target Platform](../reference/msbuild-target-framework-and-target-platform.md)   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Target Framework and Target Platform](../msbuild/msbuild-target-framework-and-target-platform.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

@@ -1,13 +1,13 @@
 ---
-title: "Per Thread Summary Report"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Per Thread Summary Report | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.report.executionbreakdown"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Per Thread Summary Report"
 ms.assetid: 5a0aa339-03f5-4727-90b3-8950446bbdbe
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,11 +38,11 @@ translation.priority.mt:
 This bar graph shows the proportion of time each unhidden thread spends in each activity category during the currently visible time range. "Execution" means that the thread is executing; all other categories mean that the thread is waiting for something.  
   
 ## See Also  
- [Execution Time (Threads View)](../profiling/execution-time--threads-view-.md)   
- [I/O Time (Threads View)](../profiling/i-o-time--threads-view-.md)   
+ [Execution Time (Threads View)](../profiling/execution-time-threads-view.md)   
+ [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md)   
  [Memory Management Time](../profiling/memory-management-time.md)   
  [Preemption Time](../profiling/preemption-time.md)   
  [Sleep Time](../profiling/sleep-time.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   
  [UI Processing Time](../profiling/ui-processing-time.md)   
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

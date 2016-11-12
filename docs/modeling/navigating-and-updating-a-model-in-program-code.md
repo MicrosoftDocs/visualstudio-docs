@@ -1,18 +1,19 @@
 ---
-title: "Navigating and Updating a Model in Program Code"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
 ms.assetid: 1427ae91-be8a-4ce7-85df-00038faa2cbb
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -62,7 +63,7 @@ You can write code to create and delete model elements, set their properties, an
   
  [DocView and DocData](#docdata)  
   
- Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to--navigate-and-update-a-diagram.md).  
+ Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
   
 ##  <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  
@@ -136,7 +137,7 @@ You can write code to create and delete model elements, set their properties, an
   
  `foreach (Person p in ParentsHaveChildren.GetChildren(henry)) { ... }`  
   
- The most frequently used example is the \<xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship, which links a model element to the shape that displays it on a diagram:  
+ The most frequently used example is the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship, which links a model element to the shape that displays it on a diagram:  
   
  `PresentationViewsSubject.GetPresentation(henry)[0] as PersonShape`  
   
@@ -173,7 +174,7 @@ You can write code to create and delete model elements, set their properties, an
 -   ElementLink - all relationships are ElementLinks  
   
 ##  <a name="transaction"></a> Perform Changes inside a Transaction  
- Whenever your program code changes anything in the Store, it must do so inside a transaction. This applies to all model elements, relationships, shapes, diagrams, and their properties. For more information, see \<xref:Microsoft.VisualStudio.Modeling.Transaction>.  
+ Whenever your program code changes anything in the Store, it must do so inside a transaction. This applies to all model elements, relationships, shapes, diagrams, and their properties. For more information, see <xref:Microsoft.VisualStudio.Modeling.Transaction>.  
   
  The most convenient method of managing a transaction is with a `using` statement enclosed in a `try...catch` statement:  
   
@@ -234,7 +235,7 @@ using (Transaction t =
   
 -   Set the properties of a new element, particularly the property for which `IsName` is true in the DslDefinition. This flag marks the property that serves to identify the element uniquely within its owner. In this case, the Name property has that flag.  
   
--   The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use \<xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md).  
+-   The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
   
  When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).  
   
@@ -329,12 +330,12 @@ using (Transaction t =
  `link.MoveBefore(role, nextLink);`  
   
 ##  <a name="locks"></a> Locks  
- Your changes might be prevented by a lock. Locks can be set on individual elements, on partitions, and on the store. If any of these levels has a lock that prevents the kind of change that you want to make, an exception might be thrown when you attempt it. You can discover whether locks are set by using element.GetLocks(), which is an extension method that is defined in the namespace \<xref:Microsoft.VisualStudio.Modeling.Immutability>.  
+ Your changes might be prevented by a lock. Locks can be set on individual elements, on partitions, and on the store. If any of these levels has a lock that prevents the kind of change that you want to make, an exception might be thrown when you attempt it. You can discover whether locks are set by using element.GetLocks(), which is an extension method that is defined in the namespace <xref:Microsoft.VisualStudio.Modeling.Immutability>.  
   
  For more information, see [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md).  
   
 ##  <a name="copy"></a> Copy and Paste  
- You can copy elements or groups of elements to an \<xref:System.Windows.Forms.IDataObject>:  
+ You can copy elements or groups of elements to an <xref:System.Windows.Forms.IDataObject>:  
   
 ```  
 Person person = personShape.ModelElement as Person;  
@@ -368,20 +369,20 @@ using (Transaction t = targetDiagram.Store.
   
 |Kind of element|Base class|  
 |---------------------|----------------|  
-|Domain class|\<xref:Microsoft.VisualStudio.Modeling.ModelElement>|  
-|Domain relationship|\<xref:Microsoft.VisualStudio.Modeling.ElementLink>|  
-|Shape|\<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|  
-|Connector|\<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>|  
-|Diagram|\<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>|  
+|Domain class|<xref:Microsoft.VisualStudio.Modeling.ModelElement>|  
+|Domain relationship|<xref:Microsoft.VisualStudio.Modeling.ElementLink>|  
+|Shape|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|  
+|Connector|<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>|  
+|Diagram|<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>|  
   
- An element on a diagram usually represents a model element. Typically (but not always), a \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape> represents a domain class instance, and a \<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape> represents a domain relationship instance. The \<xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship links a node or link shape to the model element that it represents.  
+ An element on a diagram usually represents a model element. Typically (but not always), a <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape> represents a domain class instance, and a <xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape> represents a domain relationship instance. The <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship links a node or link shape to the model element that it represents.  
   
  Every node or link shape belongs to one diagram. A binary link shape connects two node shapes.  
   
  Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent – for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
   
 ###  <a name="views"></a> Navigating between shapes and elements  
- Domain model elements and shape elements are related by the \<xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  
+ Domain model elements and shape elements are related by the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  
   
 ```c#  
 // using Microsoft.VisualStudio.Modeling;  
@@ -434,21 +435,21 @@ FamilyTreeDiagram diagram =
   
  The ancestor classes of shapes and connectors are:  
   
- \<xref:Microsoft.VisualStudio.Modeling.ModelElement>  
+ <xref:Microsoft.VisualStudio.Modeling.ModelElement>  
   
- -- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationElement>  
+ -- <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationElement>  
   
- -- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
+ -- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
   
- ----- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>  
+ ----- <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>  
   
- ------- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>  
+ ------- <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>  
   
  ------- *YourShape*  
   
- ----- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.LinkShape>  
+ ----- <xref:Microsoft.VisualStudio.Modeling.Diagrams.LinkShape>  
   
- ------- \<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
+ ------- <xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
   
  --------- *YourConnector*  
   
@@ -457,15 +458,15 @@ FamilyTreeDiagram diagram =
   
  However, it is useful to make some explicit changes to shapes in properties that are independent of the model elements. For example, you could change these properties:  
   
--   \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size*> - determines the height and width of the shape.  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size%2A> - determines the height and width of the shape.  
   
--   \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location*> - position relative to the parent shape or diagram  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location%2A> - position relative to the parent shape or diagram  
   
--   \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet*> - the set of pens and brushes used for drawing the shape or connector  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet%2A> - the set of pens and brushes used for drawing the shape or connector  
   
--   \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide*> - makes the shape invisible  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide%2A> - makes the shape invisible  
   
--   \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show*> - makes the shape visible after a `Hide()`  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`  
   
 ###  <a name="merge"></a> Creating an Element and its Shape  
  When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.  
@@ -518,7 +519,7 @@ partial class MyDiagram
  You can also set the color and other exposed properties of connectors using this method.  
   
 ### Use Transactions  
- Shapes, connectors and diagrams are subtypes of \<xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to--use-transactions-to-update-the-model.md).  
+ Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
 ##  <a name="docdata"></a> Document View and Document Data  
  ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")  
@@ -527,9 +528,9 @@ partial class MyDiagram
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Modeling.ModelElement>   
+ <xref:Microsoft.VisualStudio.Modeling.ModelElement>   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   
- [How to: Use Transactions to Update the Model](../modeling/how-to--use-transactions-to-update-the-model.md)   
+ [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md)   
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)

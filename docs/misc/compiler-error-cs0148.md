@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0148"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0148 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0148"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0148"
 ms.assetid: d199afbf-02e1-4a1c-9e36-07bf86f1a2fb
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,4 +39,4 @@ translation.priority.mt:
 # Compiler Error CS0148
 The delegate 'delegate' does not have a valid constructor  
   
- You imported and used a managed program (one that uses the .NET Framework common language runtime) that was created with another compiler. That compiler allowed an ill-formed [delegate](../Topic/delegate%20\(C%23%20Reference\).md) constructor. For more information, see [Delegates](../Topic/Delegates%20\(C%23%20Programming%20Guide\).md).
+ You imported and used a managed program (one that uses the .NET Framework common language runtime) that was created with another compiler. That compiler allowed an ill-formed [delegate](/dotnet/csharp/language-reference/keywords/delegate) constructor. For more information, see [Delegates](/dotnet/csharp/programming-guide/delegates/index).

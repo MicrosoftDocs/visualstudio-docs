@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS2019"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS2019 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS2019"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS2019"
 ms.assetid: eafd2531-8b3a-499c-9e12-a605a011396f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS2019
 Invalid target type for /target: must specify 'exe', 'winexe', 'library', or 'module'  
   
- The [/target](../Topic/-target%20\(C%23%20Compiler%20Options\).md) compiler option was used, but an invalid parameter was passed. To resolve this error, recompile the program using the form of the **/target** option that is appropriate to your output file.  
+ The [/target](/dotnet/csharp/language-reference/compiler-options/target-compiler-option) compiler option was used, but an invalid parameter was passed. To resolve this error, recompile the program using the form of the **/target** option that is appropriate to your output file.  
   
  The following sample generates CS2017:  
   

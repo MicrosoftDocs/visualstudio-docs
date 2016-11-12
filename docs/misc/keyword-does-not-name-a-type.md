@@ -1,13 +1,13 @@
 ---
-title: "Keyword does not name a type"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Keyword does not name a type | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30180"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30180"
 ms.assetid: 3d684f99-d5f5-49ee-931e-1fa8f54231e5
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,8 +45,8 @@ A keyword appears where a type name is required. The context calls for either an
 -   Replace the keyword with a valid type name.  
   
 ## See Also  
- [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)   
- [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [Function Statement](../Topic/Function%20Statement%20\(Visual%20Basic\).md)   
- [Property Statement](../Topic/Property%20Statement.md)   
- [Structure Statement](../Topic/Structure%20Statement.md)
+ [Class Statement](/dotnet/visual-basic/language-reference/statements/class-statement)   
+ [Dim Statement](/dotnet/visual-basic/language-reference/statements/dim-statement)   
+ [Function Statement](/dotnet/visual-basic/language-reference/statements/function-statement)   
+ [Property Statement](/dotnet/visual-basic/language-reference/statements/property-statement)   
+ [Structure Statement](/dotnet/visual-basic/language-reference/statements/structure-statement)

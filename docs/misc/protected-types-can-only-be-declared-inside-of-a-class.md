@@ -1,13 +1,13 @@
 ---
-title: "Protected types can only be declared inside of a class"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Protected types can only be declared inside of a class | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc31047"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31047"
 ms.assetid: b2d79254-8efd-4b8f-b691-dc168caed207
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,5 +47,5 @@ A type within a module was declared as `Protected`.
 2.  Remove the `Protected` modifier.  
   
 ## See Also  
- [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)   
- [Protected](../Topic/Protected%20\(Visual%20Basic\).md)
+ [Class Statement](/dotnet/visual-basic/language-reference/statements/class-statement)   
+ [Protected](/dotnet/visual-basic/language-reference/modifiers/protected)

@@ -1,18 +1,19 @@
 ---
-title: "Read models and diagrams in other Visual Studio editions"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "models, versions of Visual Studio"
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -36,7 +37,7 @@ When you open a model in a version of Visual Studio that does not support model 
 ## Obtaining Access to a Model and Diagrams  
  To read a UML diagram or a layer diagram, you must first use Visual Studio to open the modeling project, and then open the diagram within it.  
   
- For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)], or by obtaining a copy of the project files.  
+ For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], or by obtaining a copy of the project files.  
   
 > [!NOTE]
 >  This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  
@@ -67,12 +68,12 @@ When you open a model in a version of Visual Studio that does not support model 
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)|A layer diagram shows the structure of an existing or proposed architecture. When code is written, it can be automatically validated against a layer diagram.|  
-|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams--reference.md)|An activity diagram shows a flow of work, either in a business process or in software.|  
-|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)|A class diagram shows types and relationships used in many contexts such as code, database schemas, communications protocols, or the glossary of terms used to describe a business domain.|  
-|[UML Component Diagrams: Reference](../modeling/uml-component-diagrams--reference.md)|A component diagram shows separable parts in a software design, and their interfaces.|  
-|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md)|A sequence diagram shows interactions between elements in a software design.|  
-|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md)|A use case diagram shows the users of a system and the activities that they can perform to achieve specific goals.|  
+|[Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)|A layer diagram shows the structure of an existing or proposed architecture. When code is written, it can be automatically validated against a layer diagram.|  
+|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)|An activity diagram shows a flow of work, either in a business process or in software.|  
+|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|A class diagram shows types and relationships used in many contexts such as code, database schemas, communications protocols, or the glossary of terms used to describe a business domain.|  
+|[UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)|A component diagram shows separable parts in a software design, and their interfaces.|  
+|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)|A sequence diagram shows interactions between elements in a software design.|  
+|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|A use case diagram shows the users of a system and the activities that they can perform to achieve specific goals.|  
   
 ## See Also  
  [Create models for your app](../modeling/create-models-for-your-app.md)

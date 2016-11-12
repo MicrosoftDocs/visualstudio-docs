@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1553"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1553 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1553"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1553"
 ms.assetid: aec64251-b4ac-45c0-b143-7ebda138af6e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1553
 Declaration is not valid; use 'modifier operator \<dest-type> (...' instead  
   
- The return type for an [operator](../Topic/operator%20\(C%23%20Reference\)2.md) must immediately precede the parameter list, and *modifier* is either `implicit` or **explicit**.  
+ The return type for an [operator](/dotnet/csharp/language-reference/keywords/operator) must immediately precede the parameter list, and *modifier* is either `implicit` or **explicit**.  
   
  The following sample generates CS1553:  
   

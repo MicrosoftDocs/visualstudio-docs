@@ -1,19 +1,20 @@
 ---
-title: "Code Generation in a Build Process"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Code Generation in a Build Process | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
-caps.latest.revision: 27
+caps.latest.revision: 28
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -30,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Generation in a Build Process
-[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](../Topic/Build%20the%20application.md) of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.  
+[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](../Topic/Build%20the%20application.md) of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.  
   
  There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn’t true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.  
   
@@ -39,7 +40,7 @@ translation.priority.ht:
 ##  <a name="buildserver"></a> Configure your machines  
  To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754).  
   
- If [your build server](../Topic/Deploy%20and%20configure%20a%20build%20controller.md) runs on a computer on which [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.  
+ If [your build server](../Topic/Deploy%20and%20configure%20a%20build%20controller.md) runs on a computer on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.  
   
 -   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating  
   
@@ -216,7 +217,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 ```  
   
 ##  <a name="parameters"></a> Pass build context data into the templates  
- You can set parameter values in the project file. For example, you can pass "build"" properties and [environment variables](../reference/how-to--use-environment-variables-in-a-build.md):  
+ You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):  
   
 ```xml  
 <ItemGroup>  
@@ -236,7 +237,7 @@ The project folder is: <#= ProjectFolder #>
   
 ```  
   
- In a directive processor, you can call \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue*>:  
+ In a directive processor, you can call <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue%2A>:  
   
 ```c#  
 string value = Host.ResolveParameterValue("-", "-", "parameterName");  

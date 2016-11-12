@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0192"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0192 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0192"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0192"
 ms.assetid: d3fb6d18-dbf3-42c3-a280-afe55b97c2d1
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,9 +39,9 @@ translation.priority.mt:
 # Compiler Error CS0192
 Fields of static readonly field 'name' cannot be passed ref or out (except in a static constructor)  
   
- A field (variable) marked with the [readonly](../Topic/readonly%20\(C%23%20Reference\).md) keyword cannot be passed either to a [ref](../Topic/ref%20\(C%23%20Reference\).md) or [out](../Topic/out%20\(C%23%20Reference\).md) parameter except inside a constructor. For more information, see [Fields](../Topic/Fields%20\(C%23%20Programming%20Guide\).md).  
+ A field (variable) marked with the [readonly](/dotnet/csharp/language-reference/keywords/readonly) keyword cannot be passed either to a [ref](/dotnet/csharp/language-reference/keywords/ref) or [out](/dotnet/csharp/language-reference/keywords/out) parameter except inside a constructor. For more information, see [Fields](/dotnet/csharp/programming-guide/classes-and-structs/fields).  
   
- CS0192 also results if the `readonly` field is [static](../Topic/static%20\(C%23%20Reference\).md) and the constructor is not marked `static`.  
+ CS0192 also results if the `readonly` field is [static](/dotnet/csharp/language-reference/keywords/static) and the constructor is not marked `static`.  
   
 ## Example  
  The following sample generates CS0192.  

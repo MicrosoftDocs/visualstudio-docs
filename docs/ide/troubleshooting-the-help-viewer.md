@@ -1,19 +1,20 @@
 ---
-title: "Troubleshooting the Help Viewer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Troubleshooting the Help Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "troubleshooting [Help Viewer 2.0]"
   - "Help Viewer 2.0, troubleshooting"
 ms.assetid: 461a4553-064a-4142-a2d2-058658b9ba12
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

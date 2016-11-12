@@ -1,13 +1,13 @@
 ---
-title: "Finding Memory Leaks Using the CRT Library"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -33,6 +33,7 @@ helpviewer_keywords:
   - "_CrtSetDbgFlag"
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -54,7 +55,7 @@ translation.priority.mt:
 # Finding Memory Leaks Using the CRT Library
 Memory leaks, defined as the failure to correctly deallocate memory that was previously allocated, are among the most subtle and hard-to-detect bugs in C/C++ applications. A small memory leak might not be noticed at first, but over time, a progressive memory leak can cause symptoms that range from decreased performance to crashing when the application runs out of memory. Worse, a leaking application that uses up all available memory can cause another application to crash, creating confusion as to which application is responsible. Even seemingly harmless memory leaks might be symptomatic of other problems that should be corrected.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
   
 ## Enabling Memory Leak Detection  
  The primary tools for detecting memory leaks are the debugger and the C Run-Time Libraries (CRT) debug heap functions.  
@@ -69,7 +70,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  For the CRT functions to work correctly, the `#include` statements must follow the order shown here.  
   
- Including crtdbg.h maps the `malloc` and the [free](../Topic/free.md) functions to their debug versions, [_malloc_dbg](../Topic/_malloc_dbg.md) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+ Including crtdbg.h maps the `malloc` and the [free](/visual-cpp/c-runtime-library/reference/free) functions to their debug versions, [_malloc_dbg](/visual-cpp/c-runtime-library/reference/malloc-dbg) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
   
  The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be less detailed.  
   
@@ -79,7 +80,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
 _CrtDumpMemoryLeaks();  
 ```  
   
- If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](../Topic/_CrtDumpMemoryLeaks.md) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
+ If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
   
 ```  
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -94,7 +95,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 ```  
   
 ## Interpreting the Memory-Leak Report  
- If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](../Topic/_CrtDumpMemoryLeaks.md) displays a memory-leak report that looks like this:  
+ If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
   
 ```  
 Detected memory leaks!  
@@ -121,7 +122,7 @@ Object dump complete.
   
 -   The memory allocation number, which is `18` in this example  
   
--   The [block type](assetId:///e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
+-   The [block type](http://msdn.microsoft.com/en-us/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
   
 -   The hexadecimal memory location, which is `0x00780E80` in this example.  
   

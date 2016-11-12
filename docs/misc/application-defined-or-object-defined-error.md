@@ -1,20 +1,21 @@
 ---
-title: "Application-defined or object-defined error"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Application-defined or object-defined error | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID95"
 ms.assetid: 02b8e145-7988-48ad-abad-ed7656b4933c
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -39,4 +40,4 @@ An application-defined or user-defined error occurred. Check the error.
 -   Consult the error to see where it is defined and how to address it.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

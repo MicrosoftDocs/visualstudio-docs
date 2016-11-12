@@ -1,25 +1,26 @@
 ---
-title: "Debugging by Using the Store Viewer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Debugging by Using the Store Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, store viewer"
   - "Domain-Specific Language, store"
 ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 17
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Debugging by Using the Store Viewer
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.  
   
 ## Opening Store Viewer  
- When you are in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] experimental build, stop your code at a breakpoint where an instance of the store contains model information. Then, open the Store Viewer by typing the following command in the **Immediate** window:  
+ When you are in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] experimental build, stop your code at a breakpoint where an instance of the store contains model information. Then, open the Store Viewer by typing the following command in the **Immediate** window:  
   
 ```  
 Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);  

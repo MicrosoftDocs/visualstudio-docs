@@ -1,21 +1,22 @@
 ---
-title: "Working with Shaders"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Working with Shaders | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6b2ea1ed-b995-4e75-af19-c68fd37a3bc5
 caps.latest.revision: 8
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Working with Shaders
-You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  
+You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  
   
 ## Shaders  
  A *shader* is a computer program that performs graphics calculations—for example, vertex transformations or pixel coloring—and typically runs on a graphics processing unit (GPU) instead of the CPU. Because most stages of the traditional, fixed-function graphics pipeline are now performed by shader programs, you can use them to create a pipeline that's specific to the needs of your app.  
@@ -33,6 +34,6 @@ You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../codequality/
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|  
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|  
 |[Shader Designer Nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|  
 |[Shader Designer Examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|

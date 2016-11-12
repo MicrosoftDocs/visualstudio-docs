@@ -1,13 +1,13 @@
 ---
-title: "ClickOnce Unmanaged API Reference"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "ClickOnce Unmanaged API Reference | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
 ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
 caps.latest.revision: 6
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -93,4 +94,4 @@ translation.priority.ht:
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).  
   
 ## See Also  
- \<xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache*>
+ <xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache%2A>

@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0241"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0241 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0241"
@@ -21,8 +21,9 @@ helpviewer_keywords:
   - "CS0241"
 ms.assetid: be31b194-3de5-4aab-b23a-6cf790f940ab
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -42,7 +43,7 @@ translation.priority.mt:
 # Compiler Error CS0241
 Default parameter specifiers are not permitted  
   
- [Method parameters](../Topic/Method%20Parameters%20\(C%23%20Reference\).md) cannot have default values. Use method overloads if you want to achieve the same effect. For more information, see [Passing Parameters](../Topic/Passing%20Parameters%20\(C%23%20Programming%20Guide\).md).  
+ [Method parameters](/dotnet/csharp/language-reference/keywords/method-parameters) cannot have default values. Use method overloads if you want to achieve the same effect. For more information, see [Passing Parameters](/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters).  
   
 ## Example  
  The following sample generates CS0241. In addition, the sample shows how to simulate, with overloading, a method with default arguments.  

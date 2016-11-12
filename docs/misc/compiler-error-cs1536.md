@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1536"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1536 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1536"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1536"
 ms.assetid: 65f14fbb-df79-4759-8911-93f8f90f5a60
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1536
 Invalid parameter type void  
   
- It is not necessary or valid to specify a [void](../Topic/void%20\(C%23%20Reference\).md) parameter other than a void pointer.  
+ It is not necessary or valid to specify a [void](/dotnet/csharp/language-reference/keywords/void) parameter other than a void pointer.  
   
  The following sample generates CS1536:  
   

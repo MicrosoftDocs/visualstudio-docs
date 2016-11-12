@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0220"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0220 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0220"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0220"
 ms.assetid: f520bf34-bff8-4796-882b-1a9b1d5b977c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0220
 The operation overflows at compile time in checked mode  
   
- An operation was detected by [checked](../Topic/checked%20\(C%23%20Reference\).md), which is the default, and a data loss resulted. Either correct the inputs to the assignment or use [unchecked](../Topic/unchecked%20\(C%23%20Reference\).md) to resolve this error. For more information, see [Checked and Unchecked](../Topic/Checked%20and%20Unchecked%20\(C%23%20Reference\).md).  
+ An operation was detected by [checked](/dotnet/csharp/language-reference/keywords/checked), which is the default, and a data loss resulted. Either correct the inputs to the assignment or use [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) to resolve this error. For more information, see [Checked and Unchecked](/dotnet/csharp/language-reference/keywords/checked-and-unchecked).  
   
  The following sample generates CS0220:  
   

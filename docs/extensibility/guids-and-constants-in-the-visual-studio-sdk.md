@@ -1,13 +1,13 @@
 ---
-title: "GUIDs and Constants in the Visual Studio SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "GUIDs and Constants in the Visual Studio SDK | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "constants, Visual Studio SDK"
@@ -32,18 +32,18 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # GUIDs and Constants in the Visual Studio SDK
-The \<xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
+The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
   
 ## In This Section  
  [IDE GUIDs](../extensibility/ide-guids.md)  
- Lists GUIDs provided by \<xref:Microsoft.VisualStudio.VSConstants>.  
+ Lists GUIDs provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
  [IDE Constants](../extensibility/ide-constants.md)  
- Lists SDK constants provided by \<xref:Microsoft.VisualStudio.VSConstants>.  
+ Lists SDK constants provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
 ## Related Sections  
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)  
  Lists the standard COM constants available to managed code from the managed package framework (MPF).  
   
- [IDE-Defined Commands for Extending Project Systems](../extensibility/ide-defined-commands-for-extending-project-systems.md)  
+ [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)  
  Lists different types of command items used for extending project systems.

@@ -1,13 +1,13 @@
 ---
-title: "Statement cannot appear within an Enum body"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Statement cannot appear within an Enum body | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30619"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30619"
 ms.assetid: 5d91d601-2a2d-418c-ae26-791d14a6f3cd
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -48,4 +49,4 @@ Statement cannot occur within an Enum body. End of Enum assumed.
 2.  Make sure that the interface definition ends with an `End Enum` construct.  
   
 ## See Also  
- [Enum Statement](../Topic/Enum%20Statement%20\(Visual%20Basic\).md)
+ [Enum Statement](/dotnet/visual-basic/language-reference/statements/enum-statement)

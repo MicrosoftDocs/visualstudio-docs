@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0154"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0154 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0154"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0154"
 ms.assetid: 815150da-09b4-4593-825f-1dd435c92da8
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0154
 The property or indexer 'property' cannot be used in this context because it lacks the get accessor  
   
- An attempt to use a [property](../Topic/Using%20Properties%20\(C%23%20Programming%20Guide\).md) failed because no get accessor method was defined in the property. For more information, see [Fields](../Topic/Fields%20\(C%23%20Programming%20Guide\).md).  
+ An attempt to use a [property](/dotnet/csharp/programming-guide/classes-and-structs/using-properties) failed because no get accessor method was defined in the property. For more information, see [Fields](/dotnet/csharp/programming-guide/classes-and-structs/fields).  
   
 ## Example  
  The following sample generates CS0154:  

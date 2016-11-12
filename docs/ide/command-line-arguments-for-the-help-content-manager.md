@@ -1,16 +1,17 @@
 ---
-title: "Command-Line Arguments for the Help Content Manager"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Command-Line Arguments for the Help Content Manager | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,7 +64,7 @@ hlpctntmgr.exe /operation install /catalogname VisualStudio14 /locale en-us /sou
 |/sourceURI|No|Specifies the URL from which content is installed (Service API) or the path to the content installation file (.msha). The URL can point to the Product Group (top-level node) or to the Product Books (leaf-level node) in a Visual Studio 2010 style endpoint. You don’t need to include a slash (/) at the end of the URL. If you do include a trailing slash, it will be handled appropriately.<br /><br /> An error message is logged in the event log if you specify a file that isn’t found, isn't valid, or isn't accessible or if a connection to the Internet isn’t available or is interrupted while content is being managed.|  
 |/vendor|No|Specifies the vendor for the product content that will be removed (for example, `Microsoft`). The default argument for this switch is Microsoft.|  
 |/productName|No|Specifies the product name for the books that will be removed. The product name is identified in the helpcontentsetup.msha or books.html files that shipped with the content. You can remove books from only one product at a time. To remove books from multiple products, you must perform multiple installations.|  
-|/booklist|No|Specifies the names of the books to be managed, separated by spaces. Values must match the book names as listed on the installation media.<br /><br /> If you don’t specify this argument, all recommended books for the specified product in the /sourceURI are installed if the installation source is in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] format.<br /><br /> If the name of a book contains one or more spaces, surround it with double quotes (“) so that the list is delimited appropriately.<br /><br /> Error messages will be logged if you specify a /sourceURI that isn’t valid or isn't reachable.|  
+|/booklist|No|Specifies the names of the books to be managed, separated by spaces. Values must match the book names as listed on the installation media.<br /><br /> If you don’t specify this argument, all recommended books for the specified product in the /sourceURI are installed if the installation source is in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] format.<br /><br /> If the name of a book contains one or more spaces, surround it with double quotes (“) so that the list is delimited appropriately.<br /><br /> Error messages will be logged if you specify a /sourceURI that isn’t valid or isn't reachable.|  
 |/skuId|No|Specifies the stock keeping unit (SKU) of the product from the installation source, and filters books that the /SourceURI switch identifies.|  
 |/membership|No|-   **Minimum**-- Installs a minimum set of Help content based on the SKU that you specify by using the /skuId switch. The mapping between the SKU and the content set is exposed in the Service API.<br />-   **Recommended**—Installs a set of recommended books for the SKU that you specify by using the /skuId argument. The Installation source is the service API or .MSHA.<br />-   **Full**-- Installs the entire set of books for the SKU that you specify by using the /skuId argument. The Installation source is the service API or .MSHA.|  
 |/locationpath|No|Specifies the default folder for local Help content. You must use this switch only to install or move content. If you specify this switch, you must also specify the /silent switch.|  

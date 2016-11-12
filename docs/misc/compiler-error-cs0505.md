@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0505"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0505 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0505"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0505"
 ms.assetid: e3cb9e33-7338-4869-859b-81d7439f0d23
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0505
 'member1': cannot override because 'member2' is not a function  
   
- A class declaration attempted to override a non-method in a base class. Overrides must match the member type. If a method with the same name as a method in a base class is desired, use [new](../Topic/new%20\(C%23%20Reference\).md) (and not [override](../Topic/override%20\(C%23%20Reference\).md)) on the method declaration in the base class.  
+ A class declaration attempted to override a non-method in a base class. Overrides must match the member type. If a method with the same name as a method in a base class is desired, use [new](/dotnet/csharp/language-reference/keywords/new) (and not [override](/dotnet/csharp/language-reference/keywords/override)) on the method declaration in the base class.  
   
  The following sample generates CS0505:  
   

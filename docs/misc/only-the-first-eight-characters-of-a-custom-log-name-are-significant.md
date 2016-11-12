@@ -1,18 +1,19 @@
 ---
-title: "Only the first eight characters of a custom log name are significant"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Only the first eight characters of a custom log name are significant | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db2a0252-9ddd-4e93-a239-6a690cc09557
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -37,5 +38,5 @@ When checking event log names for uniqueness, only the first eight characters ar
 -   Give the event log a name in which the first eight characters are unique.  
   
 ## See Also  
- [How to: Create and Remove Custom Event Logs](assetId:///af9b7da0-80c7-46ac-b7f7-897063ddd503)   
- [Administering Event Logs](assetId:///35f53238-bdd2-417b-acd8-2fd9f7397f18)
+ [How to: Create and Remove Custom Event Logs](http://msdn.microsoft.com/en-us/af9b7da0-80c7-46ac-b7f7-897063ddd503)   
+ [Administering Event Logs](http://msdn.microsoft.com/en-us/35f53238-bdd2-417b-acd8-2fd9f7397f18)

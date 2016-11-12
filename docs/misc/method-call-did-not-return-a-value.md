@@ -1,13 +1,13 @@
 ---
-title: "Method call did not return a value"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Method call did not return a value | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30723"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30723"
 ms.assetid: 9afb9ae0-2338-4b97-b09b-34aa745c64a4
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

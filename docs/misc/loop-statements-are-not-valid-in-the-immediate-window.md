@@ -1,13 +1,13 @@
 ---
-title: "Loop statements are not valid in the Immediate window"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Loop statements are not valid in the Immediate window | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30708"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30708"
 ms.assetid: d4342b05-aef8-4163-8009-d77047d942ec
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,5 +45,5 @@ translation.priority.mt:
 -   Remove `Loop` statements from the debugging code.  
   
 ## See Also  
- [Loop - delete](assetId:///707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
+ [Loop - delete](http://msdn.microsoft.com/en-us/707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

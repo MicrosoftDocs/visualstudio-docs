@@ -1,18 +1,19 @@
 ---
-title: "Library Example Dsl Definition"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Library Example Dsl Definition | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, Library sample"
 ms.assetid: 2e33ba7f-2cae-464c-8e91-e13d97427da0
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

@@ -1,19 +1,20 @@
 ---
-title: "Accessibility Features of the Help Viewer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Accessibility Features of the Help Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility features [Help Viewer 2.0]"
   - "Help Viewer 2.0, accessibility features"
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.ht:
 Microsoft is committed to making its products and services easier for everyone to use. This topic includes information about the features, products, and services that help make Microsoft Help Viewer 2.2 accessible for people with a wide range of abilities.  
   
 ## Keyboard access  
- You can access all features of the Help Viewer by using the keyboard. For more information, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys--help-viewer-.md).  
+ You can access all features of the Help Viewer by using the keyboard. For more information, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).  
   
 ## Font size  
  You can modify the font size in which topic text appears in the document window. For more information, see [Customize the Help Viewer](../ide/customize-the-help-viewer.md).  

@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1056"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1056 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1056"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1056"
 ms.assetid: bf66d164-ab5b-4181-b93e-a1d29620b4d2
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

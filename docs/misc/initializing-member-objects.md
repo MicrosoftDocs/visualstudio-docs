@@ -1,13 +1,13 @@
 ---
-title: "Initializing Member Objects"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Initializing Member Objects | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "member object initialization"
 ms.assetid: ce6b1115-f3f9-4dad-bc03-fb5eea69a21e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Initializing Member Objects
-This content has moved to  [(NOTINBUILD) Initializing Bases and Members](assetId:///2f71377e-2b6b-49da-9a26-18e9b40226a1)
+This content has moved to  [(NOTINBUILD) Initializing Bases and Members](http://msdn.microsoft.com/en-us/2f71377e-2b6b-49da-9a26-18e9b40226a1)

@@ -1,13 +1,13 @@
 ---
-title: "Delegates cannot implement interface methods"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Delegates cannot implement interface methods | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30018"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30018"
 ms.assetid: 71851072-c0c7-4131-aaf7-f3e9e6a2a448
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,7 +45,7 @@ A delegate is a reference type that points to a shared procedure or to an instan
 -   Remove the `Implements` clause from the `Delegate` statement.  
   
 ## See Also  
- [NOT IN BUILD: Delegates and the AddressOf Operator](assetId:///7b2ed932-8598-4355-b2f7-5cedb23ee86f)   
- [Delegate Statement](../Topic/Delegate%20Statement.md)   
- [Handles](../Topic/Handles%20Clause%20\(Visual%20Basic\).md)   
- [Implements Statement](../Topic/Implements%20Statement.md)
+ [NOT IN BUILD: Delegates and the AddressOf Operator](http://msdn.microsoft.com/en-us/7b2ed932-8598-4355-b2f7-5cedb23ee86f)   
+ [Delegate Statement](/dotnet/visual-basic/language-reference/statements/delegate-statement)   
+ [Handles](/dotnet/visual-basic/language-reference/statements/handles-clause)   
+ [Implements Statement](/dotnet/visual-basic/language-reference/statements/implements-statement)

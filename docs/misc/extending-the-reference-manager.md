@@ -1,13 +1,13 @@
 ---
-title: "Extending the Reference Manager"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Extending the Reference Manager | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fb43a2a0-be0f-4ef4-96e8-8fc940e9389e
 caps.latest.revision: 13
@@ -29,19 +29,19 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Reference Manager
-You can add references to your project by using the Reference Manager in a Visual Studio extension. Before the Reference Manager appears, your projects must configure it to show data from the correct locations. For example, a project that targets the [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] must populate assemblies from a different folder than a project that targets the [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)].  
+You can add references to your project by using the Reference Manager in a Visual Studio extension. Before the Reference Manager appears, your projects must configure it to show data from the correct locations. For example, a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] must populate assemblies from a different folder than a project that targets the [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)].  
   
  You typically configure the Reference Manager by using a collection of ProviderContexts from the following providers:  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsAssemblyReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsAssemblyReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsComReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsComReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFileReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPlatformReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPlatformReferenceProviderContext>  
   
  A client component displays the Reference Manager by calling the ShowReferenceManager method on the Visual Studio service that's named SVsReferenceManager. A collection of IVsReferenceProviderContext classes is passed into this method as an argument. These contexts determine which tabs appear along the left side of the Reference Manager dialog box. Each provider contains all of the information necessary for the dialog box to populate and display the necessary data for you to add a reference to your project.  
   
@@ -156,4 +156,4 @@ m_bstrStartBrowse);
 ```  
   
 ## See Also  
- [How to: Add or Remove References By Using the Reference Manager](../ide/how-to--add-or-remove-references-by-using-the-reference-manager.md)
+ [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

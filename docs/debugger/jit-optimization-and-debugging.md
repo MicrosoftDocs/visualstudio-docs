@@ -1,13 +1,13 @@
 ---
-title: "JIT Optimization and Debugging"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "JIT Optimization and Debugging | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "optimized code, debugging"
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,9 +38,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # JIT Optimization and Debugging
-When you debug a managed application, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
+When you debug a managed application, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
   
- JIT optimization is controlled in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  
+ JIT optimization is controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  
   
  If you clear the **Suppress JIT optimization on module load** option, you can debug optimized JIT code, but your ability to debug may be limited because the optimized code does not match the source code. As a result, debugger windows such as the **Locals** and **Autos** window may not display as much information as they would if you were debugging non-optimized code.  
   

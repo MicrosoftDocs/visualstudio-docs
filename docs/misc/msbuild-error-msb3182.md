@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3182"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3182 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateManifest.TargetPathTooLong"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3182"
 ms.assetid: b257a206-b12b-453b-97d8-2cb9a0d3dcc9
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   Edit the value of the `TargetPath` property to make it shorter.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

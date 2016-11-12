@@ -1,18 +1,19 @@
 ---
-title: "Manage models and diagrams under version control"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Manage models and diagrams under version control | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "models, version control"
 ms.assetid: ca6443e3-6d11-4da8-aae7-ca7dcc410076
 caps.latest.revision: 30
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -70,7 +71,7 @@ Manage different versions of your modeling projects and diagrams, including code
   
 -   To help you keep track of packages, rename the package files to reflect the actual package names.  
   
--   In [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)], always perform **Check In** and **Get Latest Version** operations on the complete modeling project, never on individual files.  
+-   In [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], always perform **Check In** and **Get Latest Version** operations on the complete modeling project, never on individual files.  
   
 -   Always perform a **Get** operation immediately before you check in the modeling project.  
   
@@ -106,7 +107,7 @@ Manage different versions of your modeling projects and diagrams, including code
     >  You cannot move the file to a different project.  
   
 ##  <a name="Merging"></a> Merging Changes in Model Files and Diagrams  
- After more than one user has worked on a model concurrently, [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)] will prompt you to merge the changes in the model files. Working on separate projects as described in the previous preceding sections will avoid most of the merges. Ordinarily, the remaining conflicts can be safely merged automatically. The following kinds of changes should cause no difficulty:  
+ After more than one user has worked on a model concurrently, [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)] will prompt you to merge the changes in the model files. Working on separate projects as described in the previous preceding sections will avoid most of the merges. Ordinarily, the remaining conflicts can be safely merged automatically. The following kinds of changes should cause no difficulty:  
   
 -   Types of lifelines. When you add a lifeline to an interaction (sequence diagram), its type is stored in the root model, unless you have created the lifeline from an existing type.  
   

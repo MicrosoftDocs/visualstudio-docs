@@ -1,13 +1,13 @@
 ---
-title: "Function Specifiers"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Function Specifiers | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "virtual functions, specifier"
 ms.assetid: e932b852-8241-48de-b30b-4c7f62ebcd58
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,7 +39,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Function Specifiers
-You can use the [inline](../misc/inline--__inline--__forceinline.md) and [virtual](../Topic/virtual%20Specifier.md) keywords as specifiers in function declarations. This use of **virtual** differs from its use in the base-class specifier of a class definition.  
+You can use the [inline](../misc/inline-inline-forceinline.md) and [virtual](/visual-cpp/cpp/virtual-specifier) keywords as specifiers in function declarations. This use of **virtual** differs from its use in the base-class specifier of a class definition.  
   
 ## See Also  
- [Specifiers](../Topic/Specifiers.md)
+ [Specifiers](/visual-cpp/cpp/specifiers)

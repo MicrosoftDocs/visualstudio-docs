@@ -1,13 +1,13 @@
 ---
-title: "Adding a Shortcut Menu in a Tool Window"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Adding a Shortcut Menu in a Tool Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "context menus, adding to tool windows"
@@ -36,11 +36,11 @@ translation.priority.mt:
 # Adding a Shortcut Menu in a Tool Window
 This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a menu that appears when a user right-clicks a button, text box, or window background. Commands on a shortcut menu behave the same as commands on other menus or toolbars. To support a shortcut menu, specify it in the .vsct file and display it in response to the right-click of the mouse.  
   
- A tool window consists of a WPF user control in a custom tool window class that inherits from \<xref:Microsoft.VisualStudio.Shell.ToolWindowPane>.  
+ A tool window consists of a WPF user control in a custom tool window class that inherits from <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>.  
   
  This walkthrough shows how to create a shortcut menu as a Visual Studio menu, by declaring menu items in the .vsct file, and then using the Managed Package Framework to implement them in the class that defines the tool window. This approach facilitates access to Visual Studio commands, UI elements, and the Automation object model.  
   
- Alternatively, if your shortcut menu will not access Visual Studio functionality, you can use the \<xref:System.Windows.FrameworkElement.ContextMenu*> property of a XAML element in the user control. For more information, see [ContextMenu](../Topic/ContextMenu.md).  
+ Alternatively, if your shortcut menu will not access Visual Studio functionality, you can use the <xref:System.Windows.FrameworkElement.ContextMenu%2A> property of a XAML element in the user control. For more information, see [ContextMenu](../Topic/ContextMenu.md).  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -196,7 +196,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-6.  In ShortcutMenuControl.xaml, add a \<xref:System.Windows.UIElement.MouseRightButtonDown> event to the top level \<xref:System.Windows.Controls.UserControl> element. The XAML file should now look like this:  
+6.  In ShortcutMenuControl.xaml, add a <xref:System.Windows.UIElement.MouseRightButtonDown> event to the top level <xref:System.Windows.Controls.UserControl> element. The XAML file should now look like this:  
   
     ```vb  
     <UserControl x:Class="TWShortcutMenu.ShortcutMenuControl"  
@@ -253,7 +253,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-     This creates a \<xref:System.ComponentModel.Design.CommandID> object for the shortcut menu, identifies the location of the mouse click, and opens the shortcut menu in that location by using the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService.ShowContextMenu*> method.  
+     This creates a <xref:System.ComponentModel.Design.CommandID> object for the shortcut menu, identifies the location of the mouse click, and opens the shortcut menu in that location by using the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService.ShowContextMenu%2A> method.  
   
 10. Implement the command handler.  
   
@@ -277,7 +277,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-     In this case, just one method handles events for all of the menu items by identifying the \<xref:System.ComponentModel.Design.CommandID> and setting the background color accordingly. If the menu items had contained unrelated commands, you would have created a separate event handler for each command.  
+     In this case, just one method handles events for all of the menu items by identifying the <xref:System.ComponentModel.Design.CommandID> and setting the background color accordingly. If the menu items had contained unrelated commands, you would have created a separate event handler for each command.  
   
 ## Testing the Tool Window Features  
   
@@ -290,5 +290,5 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
 4.  Click a color on the shortcut menu. The tool window background color should be changed to the selected color.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)   
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)

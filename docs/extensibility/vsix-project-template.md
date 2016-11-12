@@ -1,13 +1,13 @@
 ---
-title: "VSIX Project Template"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "VSIX Project Template | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "deploy packages"
@@ -55,7 +55,7 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
  You do not have to use the VSIX Project template to deploy VSPackages or other kinds of extensions that already have VSIX support.  
   
 ## Packaging an Extension in an Empty VSIX Project  
- You can package an existing extension, or an extension that does not already have VSIX support, by wrapping it in an empty VSIX project. The extension to be wrapped must be of a type that is supported by the [VSIX schema](../extensibility/vsix-extension-schema-2.0-reference.md).  
+ You can package an existing extension, or an extension that does not already have VSIX support, by wrapping it in an empty VSIX project. The extension to be wrapped must be of a type that is supported by the [VSIX schema](../extensibility/vsix-extension-schema-2-0-reference.md).  
   
 #### To package an extension by using a VSIX project  
   
@@ -91,8 +91,8 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
 8.  Build the solution.  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
   
 ## See Also  
- [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md)   
+ [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)

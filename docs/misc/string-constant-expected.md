@@ -1,13 +1,13 @@
 ---
-title: "String constant expected"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "String constant expected | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30217"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30217"
 ms.assetid: 02e4f418-fd5d-41a4-8896-70d06eb5035a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,4 +47,4 @@ A character other than a double quotation mark (") occurs where the context requ
 2.  Supply a string constant.  
   
 ## See Also  
- [Constant and Literal Data Types](../Topic/Constant%20and%20Literal%20Data%20Types%20\(Visual%20Basic\).md)
+ [Constant and Literal Data Types](/dotnet/visual-basic/programming-guide/language-features/constants-enums/constant-and-literal-data-types)

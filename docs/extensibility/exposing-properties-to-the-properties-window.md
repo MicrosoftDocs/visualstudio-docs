@@ -1,13 +1,13 @@
 ---
-title: "Exposing Properties to the Properties Window"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Exposing Properties to the Properties Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "properties [Visual Studio SDK], exposing in Property Browser"
@@ -43,7 +43,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 #### To expose properties to the Properties window  
   
-1.  Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] VSIX project named `MyObjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
+1.  Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `MyObjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
   
 2.  Add a tool window by adding a Custom Tool Window item template named `MyToolWindow`. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item dialog**, go to **Visual C# Items / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the dialog, change the file name to `MyToolWindow.cs`. For more information about how to create a custom tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
@@ -100,7 +100,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
     }  
     ```  
   
-     The `TrackSelection` property uses `GetService` to obtain an `STrackSelection` service, which provides an \<xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface. The `OnToolWindowCreated` event handler and `SelectList` method together create a list of selected objects that contains only the tool window pane object itself. The `UpdateSelection` method tells the **Properties** window to display the public properties of the tool window pane.  
+     The `TrackSelection` property uses `GetService` to obtain an `STrackSelection` service, which provides an <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface. The `OnToolWindowCreated` event handler and `SelectList` method together create a list of selected objects that contains only the tool window pane object itself. The `UpdateSelection` method tells the **Properties** window to display the public properties of the tool window pane.  
   
 6.  Build the project and start debugging. The experimental instance of Visual Studio should appear.  
   
@@ -188,7 +188,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
 10. Check the check box in the **MyToolWindow** window. **IsChecked** in the **Properties** window changes to **True**. Clear the check box in the **MyToolWindow** window. **IsChecked** in the **Properties** window changes to **False**. Change the value of **IsChecked** in the **Properties** window. The check box in the **MyToolWindow** window changes to match the new value.  
   
     > [!NOTE]
-    >  If you must dispose of an object that is displayed in the **Properties** window, call `OnSelectChange` with a `null` selection container first. After disposing the property or object, you can change to a selection container that has updated \<xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectableObjects*> and \<xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectedObjects*> lists.  
+    >  If you must dispose of an object that is displayed in the **Properties** window, call `OnSelectChange` with a `null` selection container first. After disposing the property or object, you can change to a selection container that has updated <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectableObjects%2A> and <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectedObjects%2A> lists.  
   
 ## Changing Selection Lists  
  In this section, you add a selection list for a basic property class and use the tool window interface to choose which selection list to display.  
@@ -275,9 +275,9 @@ This walkthrough exposes the public properties of an object to the **Properties*
     >  The display name of **SomeText** is **My Text**.  
   
 ## Best Practice  
- In this walkthrough, \<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is implemented so that the selectable object collection and the selected object collection are the same collection. Only the selected object appears in the Property Browser list. For a more complete ISelectionContainer implementation, see the Reference.ToolWindow samples.  
+ In this walkthrough, <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is implemented so that the selectable object collection and the selected object collection are the same collection. Only the selected object appears in the Property Browser list. For a more complete ISelectionContainer implementation, see the Reference.ToolWindow samples.  
   
- Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see \<xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
+ Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
   
 ## See Also  
  [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)

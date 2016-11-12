@@ -1,13 +1,13 @@
 ---
-title: "Order of Evaluation"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Order of Evaluation | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "expressions [C++], evaluation order"
 ms.assetid: 5e3b1106-922b-4a22-abf2-e14336945bc4
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Order of Evaluation
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md)
+This content has moved [Semantics of Expressions](/visual-cpp/cpp/semantics-of-expressions)

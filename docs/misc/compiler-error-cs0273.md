@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0273"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0273 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0273"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0273"
 ms.assetid: 851ad056-feee-48fd-834c-578a1a13e926
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,7 +41,7 @@ The accessibility modifier of the 'property_accessor' accessor must be more rest
   
  The accessibility modifier of the set/get accessor must be more restrictive than the property or indexer 'property/indexer'  
   
- This error occurs when you declare a property or indexer with an access modifier that is less restrictive than the access modifier on one of its accessors. To resolve this error, use the appropriate access modifier on either the property or the set accessor. For more information, see [Accessor Accessibility](../Topic/Restricting%20Accessor%20Accessibility%20\(C%23%20Programming%20Guide\).md).  
+ This error occurs when you declare a property or indexer with an access modifier that is less restrictive than the access modifier on one of its accessors. To resolve this error, use the appropriate access modifier on either the property or the set accessor. For more information, see [Accessor Accessibility](/dotnet/csharp/programming-guide/classes-and-structs/restricting-accessor-accessibility).  
   
 ## Example  
  This sample contains an internal property with an internal set method. The following sample generates CS0273.  

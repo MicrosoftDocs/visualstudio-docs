@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0200"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0200 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0200"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0200"
 ms.assetid: 1990704a-edfa-4dbd-8477-d9c7aae58c96
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0200
 Property or indexer 'property' cannot be assigned to — it is read only  
   
- An attempt was made to assign a value to a [property](../Topic/Using%20Properties%20\(C%23%20Programming%20Guide\).md), but the property does not have a set accessor. Resolve the error by adding a set accessor. For more information, see [How to: Declare and Use Read Write Properties](../Topic/How%20to:%20Declare%20and%20Use%20Read%20Write%20Properties%20\(C%23%20Programming%20Guide\).md).  
+ An attempt was made to assign a value to a [property](/dotnet/csharp/programming-guide/classes-and-structs/using-properties), but the property does not have a set accessor. Resolve the error by adding a set accessor. For more information, see [How to: Declare and Use Read Write Properties](../Topic/How%20to:%20Declare%20and%20Use%20Read%20Write%20Properties%20\(C%23%20Programming%20Guide\).md).  
   
 ## Example  
  The following sample generates CS0200:  

@@ -1,13 +1,13 @@
 ---
-title: "Install and Manage Local Content"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Install and Manage Local Content | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_manage"
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

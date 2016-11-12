@@ -1,18 +1,19 @@
 ---
-title: "Graphics Frame Analysis"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Graphics Frame Analysis | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.frameanalysis"
 ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -201,10 +202,10 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 |**0x MSAA**|Disables multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../debugger/0x-2x-4x-msaa-variants.md)|  
 |**2x MSAA**|Enables 2x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../debugger/0x-2x-4x-msaa-variants.md)|  
 |**4x MSAA**|Enables 4x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../debugger/0x-2x-4x-msaa-variants.md)|  
-|**Point Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_POINT` (point texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point--bilinear--trilinear--and-anisotropic-texture-filtering-variants.md).|  
-|**Bilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_LINEAR_MIP_POINT` (bilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point--bilinear--trilinear--and-anisotropic-texture-filtering-variants.md).|  
-|**Trilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_LINEAR` (trilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point--bilinear--trilinear--and-anisotropic-texture-filtering-variants.md).|  
-|**Anisotropic Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_ANISOTROPIC` and `MaxAnisotropy` to `16` (16x anisotropic texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point--bilinear--trilinear--and-anisotropic-texture-filtering-variants.md).|  
+|**Point Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_POINT` (point texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Bilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_LINEAR_MIP_POINT` (bilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Trilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_LINEAR` (trilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Anisotropic Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_ANISOTROPIC` and `MaxAnisotropy` to `16` (16x anisotropic texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
 |**16bpp Render Target Format**|Sets the pixel format to `DXGI_FORMAT_B5G6R5_UNORM` (16bpp, 565 format) for all render targets and backbuffers.<br /><br /> For more information, see [16bpp Render Target Format Variant](../debugger/16bpp-render-target-format-variant.md)|  
 |**Mip-map Generation**|Enables mip-maps on all textures that are not render targets.<br /><br /> For more information, see [Mip-map Generation Variant](../debugger/mip-map-generation-variant.md).|  
 |**Half Texture Dimensions**|Reduces the texture dimensions on all textures that are not render targets to half of their original size in each dimension. For example, a 256x128 texture is reduced to 128x64 texels.<br /><br /> For more information, see [Half/Quarter Texture Dimensions Variant](../debugger/half-quarter-texture-dimensions-variant.md).|  

@@ -1,13 +1,13 @@
 ---
-title: "Function Declaration Syntax"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Function Declaration Syntax | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "syntax, function procedures"
 ms.assetid: 2983da20-75a5-4d33-938b-3bafc72ebc5c
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Function Declaration Syntax
-This content has moved to [Functions (C++)](../Topic/Functions%20\(C++\).md)
+This content has moved to [Functions (C++)](/visual-cpp/cpp/functions-cpp)

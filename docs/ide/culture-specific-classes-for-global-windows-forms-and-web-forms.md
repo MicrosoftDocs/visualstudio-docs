@@ -1,13 +1,13 @@
 ---
-title: "Culture-Specific Classes for Global Windows Forms and Web Forms"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Culture-Specific Classes for Global Windows Forms and Web Forms | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "globalization [Windows Forms], classes"
@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "localization [Visual Studio], culture-specific classes"
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,12 +47,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Culture-Specific Classes for Global Windows Forms and Web Forms
-Each culture has different conventions for displaying dates, time, numbers, currency, and other information. The \<xref:System.Globalization> namespace contains classes that can be used to modify how culture-specific values are displayed, such as \<xref:System.Globalization.DateTimeFormatInfo>, **Calendar**, and \<xref:System.Globalization.NumberFormatInfo>.  
+Each culture has different conventions for displaying dates, time, numbers, currency, and other information. The <xref:System.Globalization> namespace contains classes that can be used to modify how culture-specific values are displayed, such as <xref:System.Globalization.DateTimeFormatInfo>, **Calendar**, and <xref:System.Globalization.NumberFormatInfo>.  
   
 ## Using the Culture Setting  
- But most of the time you will use the culture setting, stored either in the application or in the **Regional Options** control panel, to automatically determine the conventions at run time and format the information accordingly. For more information on setting the culture, see [How to: Set the Culture and UI Culture for Windows Forms Globalization](assetId:///694e049f-0b91-474a-9789-d35124f248f0) or [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](../Topic/How%20to:%20Set%20the%20Culture%20and%20UI%20Culture%20for%20ASP.NET%20Web%20Page%20Globalization.md). Classes that automatically format information according to the culture setting are called culture-specific. Some culture-specific methods are \<xref:System.IFormattable.ToString*?displayProperty=fullName>, \<xref:System.Console.WriteLine*?displayProperty=fullName>, and \<xref:System.String.Format*?displayProperty=fullName>. Some culture-specific functions (in the Visual Basic language) are `MonthName` and `WeekDayName`.  
+ But most of the time you will use the culture setting, stored either in the application or in the **Regional Options** control panel, to automatically determine the conventions at run time and format the information accordingly. For more information on setting the culture, see [How to: Set the Culture and UI Culture for Windows Forms Globalization](http://msdn.microsoft.com/en-us/694e049f-0b91-474a-9789-d35124f248f0) or [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](../Topic/How%20to:%20Set%20the%20Culture%20and%20UI%20Culture%20for%20ASP.NET%20Web%20Page%20Globalization.md). Classes that automatically format information according to the culture setting are called culture-specific. Some culture-specific methods are <xref:System.IFormattable.ToString%2A?displayProperty=fullName>, <xref:System.Console.WriteLine%2A?displayProperty=fullName>, and <xref:System.String.Format%2A?displayProperty=fullName>. Some culture-specific functions (in the Visual Basic language) are `MonthName` and `WeekDayName`.  
   
- For example, the following code shows how you can use the \<xref:System.IFormattable.ToString*> method to format currency for the current culture:  
+ For example, the following code shows how you can use the <xref:System.IFormattable.ToString%2A> method to format currency for the current culture:  
   
 ```vb#  
 ' Put the Imports statements at the beginning of the code module  
@@ -81,10 +82,10 @@ Console.WriteLine(myInt.ToString("C", Thread.CurrentThread.CurrentCulture));
  `$100.00`  
   
 ## See Also  
- \<xref:System.IFormattable.ToString*?displayProperty=fullName>   
- \<xref:System.Globalization.DateTimeFormatInfo>   
- \<xref:System.Globalization.NumberFormatInfo>   
- \<xref:System.Globalization.Calendar>   
- \<xref:System.Console.WriteLine*?displayProperty=fullName>   
- \<xref:System.String.Format*?displayProperty=fullName>   
+ <xref:System.IFormattable.ToString%2A?displayProperty=fullName>   
+ <xref:System.Globalization.DateTimeFormatInfo>   
+ <xref:System.Globalization.NumberFormatInfo>   
+ <xref:System.Globalization.Calendar>   
+ <xref:System.Console.WriteLine%2A?displayProperty=fullName>   
+ <xref:System.String.Format%2A?displayProperty=fullName>   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

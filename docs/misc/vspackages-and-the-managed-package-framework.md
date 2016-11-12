@@ -1,13 +1,13 @@
 ---
-title: "VSPackages and the Managed Package Framework"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "VSPackages and the Managed Package Framework | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "managed package framework"
@@ -37,11 +37,11 @@ You can reduce development time by creating a VSPackage with the managed package
   
  There are two ways to create a managed VSPackage:  
   
--   Use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package project template  
+-   Use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package project template  
   
      For more information, see [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](../Topic/Walkthrough:%20Creating%20a%20Menu%20Command%20By%20Using%20the%20Visual%20Studio%20Package%20Template.md).  
   
--   Build your VSPackage without the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package project template  
+-   Build your VSPackage without the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package project template  
   
      For example, you can copy a sample VSPackage and change the GUIDs and the names. You can find samples in the VSX section of [Code Gallery](http://code.msdn.microsoft.com/vsx/).  
   

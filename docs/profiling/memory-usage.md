@@ -1,16 +1,17 @@
 ---
-title: "Memory Usage"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Memory Usage | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bbb58d6c-3362-4ca3-8e87-64b2d4415bf6
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
  You can also use the memory tool outside of the debugger. See [Memory Usage without Debugging](../Topic/Memory%20Usage%20without%20Debugging1.md).  
   
 > [!NOTE]
->  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](../Topic/__declspec.md)(allocator), as seen in this example for myMalloc:  
+>  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/visual-cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  
 >   
 >  `__declspec(allocator) void* myMalloc(size_t size)`  
   

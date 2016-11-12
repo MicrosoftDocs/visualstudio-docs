@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3482"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3482 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.SignFile.SignToolError"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3482"
 ms.assetid: fd09371f-2658-4534-affa-edb485575f1a
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -79,9 +80,9 @@ translation.priority.mt:
 ## See Also  
  [Introduction to Code Signing](https://msdn.microsoft.com/en-us/library/ms537361\(v=vs.85\).aspx)   
  [SignTool.exe (Sign Tool)](../Topic/SignTool.exe%20\(Sign%20Tool\).md)   
- [Signing Page, Project Designer](../reference/signing-page--project-designer.md)   
- [How to: Sign an Assembly (Visual Studio)](assetId:///f468a7d3-234c-4353-924d-8e0ae5896564)   
+ [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)   
+ [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)   
  [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md)   
  [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
- [Strong-Name Signing for Managed Applications](assetId:///5fef3490-c519-4363-94fd-8b1ad260dab5)   
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

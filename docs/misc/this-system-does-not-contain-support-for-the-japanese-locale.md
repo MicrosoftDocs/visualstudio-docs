@@ -1,20 +1,21 @@
 ---
-title: "This system does not contain support for the Japanese locale"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "This system does not contain support for the Japanese locale | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_JPNNotSupported"
 ms.assetid: 986d0379-c9d1-4004-b9ac-8d3bd95dfe85
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -39,6 +40,6 @@ You are attempting to use the `VbStrConv.Japanese` enumeration member, but your 
 1.  Upgrade the machine to support the Japanese locale, or run the application on a machine that supports the locale.  
   
 ## See Also  
- \<xref:System.Globalization>   
- [NOTINBUILD VbStrConv Enumeration](assetId:///59f83dd9-6361-47df-a836-02ba9d4cb936)   
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)
+ <xref:System.Globalization>   
+ [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/en-us/59f83dd9-6361-47df-a836-02ba9d4cb936)   
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)

@@ -1,13 +1,13 @@
 ---
-title: "Managed Package Framework Classes"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Managed Package Framework Classes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "managed package framework, helper classes"
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Managed Package Framework Classes
-The managed package framework (MPF) classes can be used to create VSPackages using managed code. They provide default implementations for many VSPackage interfaces. By hiding implementation details and complexities, MPF enables you to create [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integration products with a minimum amount of code.  
+The managed package framework (MPF) classes can be used to create VSPackages using managed code. They provide default implementations for many VSPackage interfaces. By hiding implementation details and complexities, MPF enables you to create [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integration products with a minimum amount of code.  
   
 > [!WARNING]
 >  Most of the assemblies that contain Managed Package Framework classes are shipped with the Visual Studio SDK. You can download the source code for the Managed Packaged Framework for Projects at [Managed Package Framework for Projects](http://mpfproj11.codeplex.com/).  
@@ -44,15 +44,15 @@ The managed package framework (MPF) classes can be used to create VSPackages usi
   
 |Name space|Contents|  
 |----------------|--------------|  
-|\<xref:Microsoft.VisualStudio>|Contains useful classes for handling COM errors, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] constants, and Win32 windows.|  
-|\<xref:Microsoft.VisualStudio.Package>|Includes managed code wrappers for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects, editors, and MSBuild.|  
-|\<xref:Microsoft.VisualStudio.Shell>|Includes MPF base classes from which you can derive an implementation of many common Visual Studio objects.|  
-|\<xref:Microsoft.VisualStudio.Shell.Design>|Contains [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] designer extensions.|  
-|\<xref:Microsoft.VisualStudio.Shell.Design.Serialization>|Contains [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] serialization designer extensions.|  
-|\<xref:Microsoft.VisualStudio.Shell.Design.Serialization.CodeDom>|Contains [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] CodeDom designer extensions.|  
-|\<xref:Microsoft.VisualStudio.Shell.Flavor>|Supports project subtypes (also known as "flavors").|  
+|<xref:Microsoft.VisualStudio>|Contains useful classes for handling COM errors, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] constants, and Win32 windows.|  
+|<xref:Microsoft.VisualStudio.Package>|Includes managed code wrappers for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects, editors, and MSBuild.|  
+|<xref:Microsoft.VisualStudio.Shell>|Includes MPF base classes from which you can derive an implementation of many common Visual Studio objects.|  
+|<xref:Microsoft.VisualStudio.Shell.Design>|Contains [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] designer extensions.|  
+|<xref:Microsoft.VisualStudio.Shell.Design.Serialization>|Contains [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] serialization designer extensions.|  
+|<xref:Microsoft.VisualStudio.Shell.Design.Serialization.CodeDom>|Contains [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CodeDom designer extensions.|  
+|<xref:Microsoft.VisualStudio.Shell.Flavor>|Supports project subtypes (also known as "flavors").|  
   
 ## See Also  
  [VSPackages and the Managed Package Framework](../misc/vspackages-and-the-managed-package-framework.md)   
- [Using Visual Studio Interop Assemblies](../extensibility/using-visual-studio-interop-assemblies.md)   
+ [Using Visual Studio Interop Assemblies](../extensibility/internals/using-visual-studio-interop-assemblies.md)   
  [VSPackages and the Managed Package Framework](../misc/vspackages-and-the-managed-package-framework.md)

@@ -1,13 +1,13 @@
 ---
-title: "Unsupported Edits in Visual Basic Edit and Continue"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Unsupported Edits in Visual Basic Edit and Continue | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "Edit and Continue [Visual Basic], unsupported method and property body edits"
 ms.assetid: 9b8fdc41-a193-49ad-ad72-dfcadd46f4b3
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -228,5 +229,5 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
 -   Changing the type of a field.  
   
 ## See Also  
- [How to: Apply Edits in Break Mode with Edit and Continue](../debugger/how-to--apply-edits-in-break-mode-with-edit-and-continue.md)   
- [Edit and Continue (Visual Basic)](../debugger/edit-and-continue--visual-basic-.md)
+ [How to: Apply Edits in Break Mode with Edit and Continue](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)   
+ [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)

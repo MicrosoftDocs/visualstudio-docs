@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1667"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1667 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1667"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1667"
 ms.assetid: 59f64828-58bc-487c-862a-75537e21d4ea
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1667
 Attribute 'attribute' is not valid on property or event accessors. It is valid on 'declaration type' declarations only.  
   
- This error occurs if you use an attribute on a property or event accessor, when it should be on the property or event itself. This error could occur with the attributes \<xref:System.CLSCompliantAttribute>, \<xref:System.Diagnostics.ConditionalAttribute>, and \<xref:System.ObsoleteAttribute>.  
+ This error occurs if you use an attribute on a property or event accessor, when it should be on the property or event itself. This error could occur with the attributes <xref:System.CLSCompliantAttribute>, <xref:System.Diagnostics.ConditionalAttribute>, and <xref:System.ObsoleteAttribute>.  
   
 ## Example  
  The following sample generates CS1670:  

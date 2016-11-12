@@ -1,13 +1,13 @@
 ---
-title: "Getting Service Information from the Settings Store"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Getting Service Information from the Settings Store | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
 caps.latest.revision: 4
@@ -72,7 +72,7 @@ You can use the settings store to find all available services or to determine wh
      To verify these settings, you can use the registry editor.  
   
 ## Finding a Specific Service  
- You can also use the \<xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists*> method to determine whether a particular service is installed. You must know the type of the service class.  
+ You can also use the <xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists%2A> method to determine whether a particular service is installed. You must know the type of the service class.  
   
 1.  In the MenuItemCallback of the project you created in the previous procedure, search the configuration settings store for the `Services` collection that has the subcollection named by the GUID of the service. In this case we will look for the Help service.  
   

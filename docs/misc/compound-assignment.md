@@ -1,13 +1,13 @@
 ---
-title: "Compound Assignment"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compound Assignment | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "assignment operators, compound"
 ms.assetid: 86236060-7449-44da-8bff-ad39b3520cdd
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Compound Assignment
-This content has moved [Assignment Operators](../Topic/Assignment%20Operators.md).  
+This content has moved [Assignment Operators](/visual-cpp/cpp/assignment-operators).  
   
 ## See Also  
- [Expressions with Binary Operators](../Topic/Expressions%20with%20Binary%20Operators.md)
+ [Expressions with Binary Operators](/visual-cpp/cpp/expressions-with-binary-operators)

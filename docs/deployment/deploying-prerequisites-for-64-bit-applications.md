@@ -1,13 +1,13 @@
 ---
-title: "Deploying Prerequisites for 64-bit Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Deploying Prerequisites for 64-bit Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "64-bit applications [Visual Studio]"
 ms.assetid: 87399e20-5510-41e4-b5b7-4a87c5773f21
 caps.latest.revision: 23
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -55,6 +56,6 @@ ClickOnce deployment supports the installation of applications on 64-bit platfor
 |Microsoft .NET Framework 4 Client Profile (x86 and x64)|Yes||  
   
 ## See Also  
- [Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md)   
- [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md)   
+ [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)   
+ [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
  [64-bit Applications](../Topic/64-bit%20Applications.md)

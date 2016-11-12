@@ -1,23 +1,24 @@
 ---
-title: "Properties of Domain Roles"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Properties of Domain Roles | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a7bb18c-638e-45e8-9d79-9aa6a9e14b0e
 caps.latest.revision: 9
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Domain Roles
-The properties in the following table are associated with a domain role. For information about domain roles, see [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
+The properties in the following table are associated with a domain role. For information about domain roles, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
 |Property|Description|Default|  
 |--------------|-----------------|-------------|  
-|Collection Type|If this role has multiplicity of 0..* or 1..\*, this property customizes the generic type that is used to store the collection of links.|`(none)` - <xref:Microsoft.VisualStudio.Modeling.LinkedElementCollection`1> is used|  
+|Collection Type|If this role has multiplicity of 0..* or 1..\*, this property customizes the generic type that is used to store the collection of links.|`(none)` - <xref:Microsoft.VisualStudio.Modeling.LinkedElementCollection%601> is used|  
 |Custom Attributes|Attributes that you specify here will be added as attributes to the generated code class.|<none\>|  
 |Is Property Browsable|If `True`, and if the multiplicity of the relationship is 0..1 or 1..1, the role property can be browsed by the user in the **Properties** window. The property displays the name of the element at the other end of the relationship link.|`True`|  
 |Is Property Generator|If `True`, a role property is generated for this role, which you can use to traverse the relationship in program code. If you set this false, you can traverse the relationship in a less efficient manner by using static methods of the domain relationship.|`True`|  

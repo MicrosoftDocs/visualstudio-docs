@@ -1,13 +1,13 @@
 ---
-title: "Using the Text Manager to Monitor Global Settings"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using the Text Manager to Monitor Global Settings | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - monitor global settings"
@@ -49,8 +49,8 @@ If you implement a core editor, you must monitor the changes that are made to gl
   
  Preferences that are unique to a given language are not managed by the text manager. These settings must be managed by each language service.  
   
- Event notification for the text manager is provided by the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> interface. Implement this interface on your client object to handle events raised the text manager. You register for these events by using the \<xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text manager.  
+ Event notification for the text manager is provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> interface. Implement this interface on your client object to handle events raised the text manager. You register for these events by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text manager.  
   
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Editor Features](assetId:///bdac940d-1f14-4019-a01f-fd0bb3dc7198)
+ [Editor Features](http://msdn.microsoft.com/en-us/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

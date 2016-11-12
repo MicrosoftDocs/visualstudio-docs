@@ -1,13 +1,13 @@
 ---
-title: "Using Run-Time Checks Without the C Run-Time Library"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using Run-Time Checks Without the C Run-Time Library | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.runtime"
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], run-time routines"
 ms.assetid: 30ed90f3-9323-4784-80a4-937449eb54f6
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -77,7 +78,7 @@ extern "C" _RTC_error_fnW __cdecl _CRT_RTC_INITW(
 }  
 ```  
   
- After you have installed the default error reporting function, you can install additional error reporting functions with `_RTC_SetErrorFuncW`. For more information, see [_RTC_SetErrorFuncW](../Topic/_RTC_SetErrorFuncW.md).  
+ After you have installed the default error reporting function, you can install additional error reporting functions with `_RTC_SetErrorFuncW`. For more information, see [_RTC_SetErrorFuncW](/visual-cpp/c-runtime-library/reference/rtc-seterrorfuncw).  
   
 ## See Also  
- [How to: Use Native Run-Time Checks](../debugger/how-to--use-native-run-time-checks.md)
+ [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)

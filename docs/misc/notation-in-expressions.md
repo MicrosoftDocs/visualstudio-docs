@@ -1,13 +1,13 @@
 ---
-title: "Notation in Expressions"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Notation in Expressions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "operands, expression notation"
 ms.assetid: 2762d401-0a1c-4dbf-8502-f88908f6f93e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Notation in Expressions
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md)
+This content has moved [Semantics of Expressions](/visual-cpp/cpp/semantics-of-expressions)

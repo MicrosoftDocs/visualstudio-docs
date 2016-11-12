@@ -1,13 +1,13 @@
 ---
-title: "Creating Custom Task List Views"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Creating Custom Task List Views | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Task List, custom views"
@@ -63,7 +63,7 @@ You can display a custom task list in Visual Studio by creating a custom task li
   
 |Name|Type|Range|Description|  
 |----------|----------|-----------|-----------------|  
-|Field|REG_DWORD||A \<xref:Microsoft.VisualStudio.Shell.Interop.VSTASKFIELD> that is the field of the column.|  
+|Field|REG_DWORD||A <xref:Microsoft.VisualStudio.Shell.Interop.VSTASKFIELD> that is the field of the column.|  
 |Width|REG_DWORD||Optional. The width of the column in pixels. If the column is not sizeable, this parameter is ignored.|  
 |Index|REG_DWORD||Optional. If the Field is FLD_CUSTOM, this is the custom column index.|  
 |Name|REG_SZ|Text|If Field is FLD_CUSTOM, this is the name of the custom column.<br /><br /> Name can also be a resource string in #xxx format.|  
@@ -76,18 +76,18 @@ You can display a custom task list in Visual Studio by creating a custom task li
   
 |Name|Type|Range|Description|  
 |----------|----------|-----------|-----------------|  
-|Field|REG_DWORD||A \<xref:Microsoft.VisualStudio.Shell.Interop.VSTASKFIELD> that is the field of the column.|  
+|Field|REG_DWORD||A <xref:Microsoft.VisualStudio.Shell.Interop.VSTASKFIELD> that is the field of the column.|  
 |Index|REG_DWORD||Optional. If the Field is FLD_CUSTOM, this is the custom column index.|  
   
- To implement a custom column, you must implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2> interface on your task items and you must implement the following methods on that interface:  
+ To implement a custom column, you must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2> interface on your task items and you must implement the following methods on that interface:  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.get_CustomColumnText*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.get_CustomColumnText%2A>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.put_CustomColumnText*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.put_CustomColumnText%2A>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.IsCustomColumnReadOnly*>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2.IsCustomColumnReadOnly%2A>  
   
- When required, the task list queries your \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2> implementation by using a custom column number from a specific view, represented by *some guid*. If your task has the appropriate information about that column in that view, you supply information to that column, and specify whether that text is read-only.  
+ When required, the task list queries your <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem2> implementation by using a custom column number from a specific view, represented by *some guid*. If your task has the appropriate information about that column in that view, you supply information to that column, and specify whether that text is read-only.  
   
 ## See Also  
- [How to: Create Custom Categories of Task Lists](../misc/how-to--create-custom-categories-of-task-lists.md)
+ [How to: Create Custom Categories of Task Lists](../misc/how-to-create-custom-categories-of-task-lists.md)

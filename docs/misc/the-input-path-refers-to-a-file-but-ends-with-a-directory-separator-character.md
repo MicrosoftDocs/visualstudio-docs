@@ -1,18 +1,19 @@
 ---
-title: "The input path refers to a file but ends with a directory separator character"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "The input path refers to a file but ends with a directory separator character | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 319181c1-a015-4038-a23f-f53c0d91d806
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,5 +41,5 @@ An operation was attempted requiring that a filename be supplied, but the suppli
   
 ## See Also  
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)   
- [Reading from Files](../Topic/Reading%20from%20Files%20in%20Visual%20Basic.md)   
- [Writing to Files](../Topic/Writing%20to%20Files%20in%20Visual%20Basic.md)
+ [Reading from Files](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files)   
+ [Writing to Files](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files)

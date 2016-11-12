@@ -1,11 +1,11 @@
 ---
-title: "Describe control flow with fragments on UML sequence diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Describe control flow with fragments on UML sequence diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.sequencediagram.combinedfragment.interactionoperand"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "sequence diagrams, control flow"
 ms.assetid: efcc0949-be7e-4cf4-99ef-47c36b3803ae
 caps.latest.revision: 15
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,7 +42,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
  A combined fragment consists of one or more *interaction operands*, and each of these encloses one or more messages, interaction uses, or combined fragments.  
   
 > [!NOTE]
->  This topic is about fragments in sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md).  
+>  This topic is about fragments in sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
  ![Combined Fragment with two Interaction Operands](../modeling/media/uml_seqfragments.png "UML_SeqFragments")  
   
@@ -140,6 +141,6 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
 |**Neg**|The sequence shown in this fragment must not happen. Typically used within a Consider or Ignore fragment.|  
   
 ## See Also  
- [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md)   
- [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md)   
+ [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
+ [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)

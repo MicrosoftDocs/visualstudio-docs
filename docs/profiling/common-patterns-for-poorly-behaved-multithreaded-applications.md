@@ -1,13 +1,13 @@
 ---
-title: "Common Patterns for Poorly-Behaved Multithreaded Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.tools.gallery"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 ms.assetid: 00d10629-e20f-4d6d-8643-c59a3879812e
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -78,4 +79,4 @@ The Concurrency Visualizer helps developers to visualize the behavior of a multi
  Lock convoys occur when the application acquires locks in a first-come, first-served order, and when the arrival rate at the lock is higher than the acquisition rate. The combination of these two conditions causes requests for the lock to start backing up. One way to combat this problem is to use "unfair" locks, or locks that give access to the first thread to find them in unlocked states. The previous illustration shows this convoy behavior. To solve the problem, try reducing contention for the synchronization objects and try using unfair locks.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

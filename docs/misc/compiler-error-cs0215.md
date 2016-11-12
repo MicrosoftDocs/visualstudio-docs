@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0215"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0215 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0215"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0215"
 ms.assetid: 2060440d-be22-4c10-8b26-43b08b615447
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0215
 The return type of operator True or False must be bool  
   
- User-defined [true](../Topic/true%20\(C%23%20Reference\).md) and [false](../Topic/false%20\(C%23%20Reference\).md) operators must have a return type of [bool](../Topic/bool%20\(C%23%20Reference\).md). For more information, see [Overloadable Operators](../Topic/Overloadable%20Operators%20\(C%23%20Programming%20Guide\).md).  
+ User-defined [true](/dotnet/csharp/language-reference/keywords/true) and [false](/dotnet/csharp/language-reference/keywords/false) operators must have a return type of [bool](/dotnet/csharp/language-reference/keywords/bool). For more information, see [Overloadable Operators](/dotnet/csharp/programming-guide/statements-expressions-operators/overloadable-operators).  
   
  The following sample generates CS0215:  
   

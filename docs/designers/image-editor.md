@@ -1,24 +1,25 @@
 ---
-title: "Image Editor"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Image Editor | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 45
-ms.author: "mithom"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Image Editor
-This document describes how to work with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.  
+This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.  
   
  You can use the Image Editor to work with the kinds of rich texture and image formats that are used in DirectX app development—this includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.  
   
@@ -36,7 +37,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |TGA (Targa)|.tga|  
   
 ## Getting started  
- This section describes how to add an image to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and configure it for your requirements.  
+ This section describes how to add an image to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and configure it for your requirements.  
   
 #### To add an image to your project  
   
@@ -132,7 +133,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |**Trim**|Trims the image to the active selection.|  
   
 ### Working with MIP levels  
- Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to--create-and-modify-mip-levels.md)  
+ Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md)  
   
 ### Working with transparency  
  Some image formats—for example, DirectDraw Surface (.dds)—support transparency. There are several ways that transparency can be used, depending on the tool that you are using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:  
@@ -267,6 +268,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|  
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|
+|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
+|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|  
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|

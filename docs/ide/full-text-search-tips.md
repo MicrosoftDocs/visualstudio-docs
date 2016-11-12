@@ -1,13 +1,13 @@
 ---
-title: "Full-Text Search Tips"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Full-Text Search Tips | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_search"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "full-text search tips [Help Viewer 2.0]"
 ms.assetid: bcaad23d-2ca7-4bec-8b54-b884bc34e70b
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

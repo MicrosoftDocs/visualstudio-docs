@@ -1,16 +1,17 @@
 ---
-title: "Accessing Visual Studio or other Hosts from a Text Template"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Accessing Visual Studio or other Hosts from a Text Template | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a68886da-7416-4785-8145-3796bb382cba
 caps.latest.revision: 5
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,12 +28,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Accessing Visual Studio or other Hosts from a Text Template
-In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  This applies to regular text templates, not preprocessed text templates.  
   
 ## Obtaining access to the host  
- Set `hostspecific="true"` in the `template` directive. This lets you use  `this.Host`, which has type \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This type has members that you can use, for example, to resolve file names and to log errors.  
+ Set `hostspecific="true"` in the `template` directive. This lets you use  `this.Host`, which has type <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This type has members that you can use, for example, to resolve file names and to log errors.  
   
 ### Resolving File Names  
  To find the full path of a file relative to the text template, use this.Host.ResolvePath().  
@@ -51,7 +52,7 @@ Content of myFile is:
 ```  
   
 ### Displaying Error Messages  
- This example logs messages when you transform the template. If the host is [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], they are added to the error window.  
+ This example logs messages when you transform the template. If the host is [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], they are added to the error window.  
   
 ```c#  
 <#@ template hostspecific="true" language="C#" #>  
@@ -69,11 +70,11 @@ Content of myFile is:
 ```  
   
 ## Using the Visual Studio API  
- If you are executing a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can use `this.Host` to access services provided by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and any packages or extensions that are loaded.  
+ If you are executing a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can use `this.Host` to access services provided by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and any packages or extensions that are loaded.  
   
- Set hostspecific="true" and cast `this.Host` to \<xref:System.IServiceProvider>.  
+ Set hostspecific="true" and cast `this.Host` to <xref:System.IServiceProvider>.  
   
- This example gets the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API, \<xref:EnvDTE.DTE>, as a service:  
+ This example gets the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API, <xref:EnvDTE.DTE>, as a service:  
   
 ```c#  
 <#@ template hostspecific="true" language="C#" #>  

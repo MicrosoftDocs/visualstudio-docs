@@ -1,13 +1,13 @@
 ---
-title: "Utilization View"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Utilization View | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.cpuutilization"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, CPU Utilization View"
 ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
 caps.latest.revision: 21
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

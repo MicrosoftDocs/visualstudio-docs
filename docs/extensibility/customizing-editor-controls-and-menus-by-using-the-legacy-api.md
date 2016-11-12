@@ -1,13 +1,13 @@
 ---
-title: "Customizing Editor Controls and Menus by Using the Legacy API"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Customizing Editor Controls and Menus by Using the Legacy API | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - controls and menus"
@@ -43,7 +43,7 @@ A language service or a text view can control the context menus and controls in 
  [Context Menus](../extensibility/context-menus.md)  
  Describes editor context menus.  
   
- [How to: Update the Status Bar](../extensibility/how-to--update-the-status-bar.md)  
+ [How to: Update the Status Bar](../extensibility/how-to-update-the-status-bar.md)  
  Provides instructions for updating the **Status Bar**.  
   
 ## Related Sections  

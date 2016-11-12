@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0463"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0463 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0463"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0463"
 ms.assetid: 0cb4be4e-86ea-4ade-8817-b17d4cacd4d5
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
-title: "Using the IntelliTrace stand-alone collector"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.historicaldebug.collectdataoutsideVS"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging applications in production"
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 caps.latest.revision: 105
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -394,7 +395,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 -   From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
--   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to--collect-intellitrace-data-to-help-debug-difficult-issues.md).  
+-   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../Topic/How%20to:%20Collect%20IntelliTrace%20Data%20to%20Help%20Debug%20Difficult%20Issues.md).  
   
 ## Where can I get more information?  
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  

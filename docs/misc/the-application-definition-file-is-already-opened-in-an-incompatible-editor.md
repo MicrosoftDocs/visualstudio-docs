@@ -1,13 +1,13 @@
 ---
-title: "The application definition file is already opened in an incompatible editor"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "The application definition file is already opened in an incompatible editor | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vb.ProjProp.WPFApp.AppXamlOpenInUnsupportedEditor"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "msbuild, errors"
 ms.assetid: c5bde1ec-f410-4143-ba30-767b272b7ccb
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -47,6 +48,6 @@ translation.priority.mt:
 3.  On the **Project** menu, click **Properties** to re-open the Project Designer.  
   
 ## See Also  
- [Additional Resources](../reference/additional-msbuild-resources.md)   
- [There was an error trying to open or create the application definition file for this project. '\<error>'](../misc/ca2f2204-acfc-4fc6-8306-4dfd96ec507f.md)   
- [An error occurred trying to create the application events file. '\<error>'](../misc/an-error-occurred-trying-to-create-the-application-events-file.---error--.md)
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)   
+ [There was an error trying to open or create the application definition file for this project. '\<error>'](../misc/there-was-an-error-trying-to-open-or-create-the-application-definition-file-for-this-project-error.md)   
+ [An error occurred trying to create the application events file. '\<error>'](../misc/an-error-occurred-trying-to-create-the-application-events-file-error.md)

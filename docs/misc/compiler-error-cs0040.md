@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0040"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0040 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0040"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0040"
 ms.assetid: 6a600166-0335-4b6d-b050-6821b4624c96
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,4 +39,4 @@ translation.priority.mt:
 # Compiler Error CS0040
 Unexpected error creating debug information file — 'reason'  
   
- This error can occur when using the [/debug](../Topic/-debug%20\(C%23%20Compiler%20Options\).md) compiler option and indicates that the compiler was unable to write to the .pdb file. Possible resolutions to this error include reinstalling Visual Studio, ensuring that the compiler has write access to a file or directory, or not compiling with /debug.
+ This error can occur when using the [/debug](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) compiler option and indicates that the compiler was unable to write to the .pdb file. Possible resolutions to this error include reinstalling Visual Studio, ensuring that the compiler has write access to a file or directory, or not compiling with /debug.

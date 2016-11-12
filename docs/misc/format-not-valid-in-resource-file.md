@@ -1,20 +1,21 @@
 ---
-title: "Format not valid in resource file"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Format not valid in resource file | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID325"
 ms.assetid: e986ab45-e3ce-430e-8704-5882e5da1104
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -32,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Format not valid in resource file
-A resource file in your project does not follow the standard format for a Windows resource file or there is a mismatch between the resource file and the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project.  
+A resource file in your project does not follow the standard format for a Windows resource file or there is a mismatch between the resource file and the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project.  
   
 ### To correct this error  
   
@@ -41,4 +42,4 @@ A resource file in your project does not follow the standard format for a Window
 2.  Remove the invalid resource file from the project.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

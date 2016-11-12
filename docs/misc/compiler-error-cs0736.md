@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0736"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0736 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0736"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0736"
 ms.assetid: 06b14feb-81d5-495f-ab2d-6dc3f5e7216f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -42,7 +43,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Remove the [static](../Topic/static%20\(C%23%20Reference\).md) modifier from the method declaration.  
+-   Remove the [static](/dotnet/csharp/language-reference/keywords/static) modifier from the method declaration.  
   
 -   Change the name of the interface method.  
   
@@ -72,4 +73,4 @@ namespace CS0736
 ```  
   
 ## See Also  
- [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md)
+ [Interfaces](/dotnet/csharp/programming-guide/interfaces/index)

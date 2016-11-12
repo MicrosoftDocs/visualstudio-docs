@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1556"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1556 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1556"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1556"
 ms.assetid: 960307d2-d815-4d7a-8f96-e3e78c038ade
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,4 +39,4 @@ translation.priority.mt:
 # Compiler Error CS1556
 'construct' specified for Main method must be a valid class or struct  
   
- The [/main](../Topic/-main%20\(C%23%20Compiler%20Options\).md) compiler option was passed an identifier that was not a class name.
+ The [/main](/dotnet/csharp/language-reference/compiler-options/main-compiler-option) compiler option was passed an identifier that was not a class name.

@@ -1,13 +1,13 @@
 ---
-title: "Strings Used as Keys for Finding a Source Control Plug-in"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, strings used for finding"
@@ -61,5 +61,5 @@ The following strings are the keys for accessing the registry to find informatio
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [How to: Install a Source Control Plug-in](../extensibility/how-to--install-a-source-control-plug-in.md)   
- [MSSCCPRJ.SCC File](../extensibility/mssccprj.scc-file.md)
+ [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md)   
+ [MSSCCPRJ.SCC File](../extensibility/mssccprj-scc-file.md)

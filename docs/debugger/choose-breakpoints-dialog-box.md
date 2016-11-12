@@ -1,13 +1,13 @@
 ---
-title: "Choose Breakpoints Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Choose Breakpoints Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.breakpt.choose"
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "Choose Breakpoints dialog box"
 ms.assetid: 35cbd591-4c4f-4035-8731-8162ba1c8318
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

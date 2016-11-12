@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1937"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1937 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1937"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1937"
 ms.assetid: f13e8dc9-8c20-477e-8b74-7192848e08a2
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -69,4 +70,4 @@ class Test
  The left side is generally called the "outer" side and the right is generally called the "inner" side.  
   
 ## See Also  
- [join clause](../Topic/join%20clause%20\(C%23%20Reference\).md)
+ [join clause](/dotnet/csharp/language-reference/keywords/join-clause)

@@ -1,13 +1,13 @@
 ---
-title: "Unscheduled Fiber"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Unscheduled Fiber | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30948"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30948"
 ms.assetid: 982bf6d2-ce62-4451-8a23-82dacf8ee100
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,5 +47,5 @@ The debugger cannot evaluate an expression because it is in a logical fiber that
 -   Make sure that fiber is scheduled on a physical thread.  
   
 ## See Also  
- [Debugging SQL](assetId:///f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
+ [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

@@ -1,13 +1,13 @@
 ---
-title: "Adding a Tool Window"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Adding a Tool Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tutorials"
@@ -264,7 +264,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
 ## Set the Default Position for the Tool Window  
  Next, specify a default location in the IDE for the tool window. Configuration information for the tool window is in the FirstToolWindowPackage.cs file.  
   
-1.  In FirstToolWindowPackage.cs, find the \<xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> attribute on the `FirstToolWindowPackage` class, which passes the FirstToolWindow type to the constructor. To specify a default position, you must add more parameters to the constructor following example.  
+1.  In FirstToolWindowPackage.cs, find the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> attribute on the `FirstToolWindowPackage` class, which passes the FirstToolWindow type to the constructor. To specify a default position, you must add more parameters to the constructor following example.  
   
     ```c#  
     [ProvideToolWindow(typeof(FirstToolWindow),  
@@ -275,7 +275,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
      The first named parameter is `Style` and its value is `Tabbed`, which means that the window will be a tab in an existing window. The docking position is specified by the `Window` parameter, n this case, the GUID of the **Solution Explorer**.  
   
     > [!NOTE]
-    >  For more information about the types of windows in the IDE, see \<xref:EnvDTE.vsWindowType>.  
+    >  For more information about the types of windows in the IDE, see <xref:EnvDTE.vsWindowType>.  
   
 ## Testing the Tool Window  
   
@@ -290,4 +290,4 @@ public System.Windows.Controls.MediaElement MediaPlayer
      You should hear the chime sound.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

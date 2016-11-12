@@ -1,18 +1,19 @@
 ---
-title: "Filtering Report Views"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Filtering Report Views | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling tools, configuring"
 ms.assetid: 820cf192-7fd6-4bee-9a51-aa69154aca85
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,9 +34,9 @@ translation.priority.ht:
 # Filtering Report Views
 You can apply filters to profiling data files to limit the profiling data that is displayed in the Performance Report views and exported to report files. You can limit a report to the data between time stamp values, and you can limit the data to specific processes and threads. You can save filters to a file and then create a filter on a different profiling data file by importing the saved filter.  
   
- You can also limit a report to a time segment by using the graphical timeline on the Summary View. See [How to: Filter Report Views from the Summary Timeline](../profiling/how-to--filter-report-views-from-the-summary-timeline.md).  
+ You can also limit a report to a time segment by using the graphical timeline on the Summary View. See [How to: Filter Report Views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  
   
- To exclude system and third-party code from a report, see [How to: Filter Profiling Tools Report Views to Display Just My Code](../profiling/how-to--filter-profiling-tools-report-views-to-display-just-my-code.md)  
+ To exclude system and third-party code from a report, see [How to: Filter Profiling Tools Report Views to Display Just My Code](../profiling/how-to-filter-profiling-tools-report-views-to-display-just-my-code.md)  
   
 ## Procedures  
   

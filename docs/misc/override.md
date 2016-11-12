@@ -1,13 +1,13 @@
 ---
-title: "override"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "override | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "override_CPP"
@@ -15,6 +15,7 @@ dev_langs:
   - "C++"
 ms.assetid: d50bcaaa-634f-4684-a319-4100ffefa1fd
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,10 +41,10 @@ The `override` keyword has essentially the same meaning and syntax in both ISO C
   
 -   ISO C++ [override](../misc/override.md)  
   
--   ISO C++ [Explicit Overrides (C++)](../Topic/Explicit%20Overrides%20\(C++\).md)  
+-   ISO C++ [Explicit Overrides (C++)](/visual-cpp/cpp/explicit-overrides-cpp)  
   
 -   (Windows Store apps) [Ref classes and structs (C++/CX)](../Topic/Ref%20classes%20and%20structs%20\(C++-CX\).md)  
   
--   [override](../Topic/override%20%20\(C++%20Component%20Extensions\).md)  
+-   [override](/visual-cpp/windows/override-cpp-component-extensions)  
   
--   [Explicit Overrides  (C++ Component Extensions)](../Topic/Explicit%20Overrides%20%20\(C++%20Component%20Extensions\).md)
+-   [Explicit Overrides  (C++ Component Extensions)](/visual-cpp/windows/explicit-overrides-cpp-component-extensions)

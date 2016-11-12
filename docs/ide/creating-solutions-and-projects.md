@@ -1,13 +1,13 @@
 ---
-title: "Creating Solutions and Projects"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating Solutions and Projects | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.openprojectfromweb"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], creating"
 ms.assetid: 836f8ca0-3fc9-4f4b-9090-45f2e4d2e9c8
 caps.latest.revision: 46
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,10 +40,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Creating Solutions and Projects
-Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
+Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a project from an installed project template  
  **File &#124; New &#124; Project** from the main menu to bring up the New Project dialog. In the left pane under **Intalled &#124; Templates** chose the programming language and platform or technology, then choose from the available templates in the middle pane.  
@@ -91,7 +92,7 @@ Projects are the logical containers for everything that's needed to build your a
  After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
   
 ### Deleting Solutions  
- You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
+ You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
   
 > [!NOTE]
 >  The .suo file is a hidden file that is not displayed under default File Explorer settings.  
@@ -106,4 +107,4 @@ Projects are the logical containers for everything that's needed to build your a
   
 ## See Also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [NIB How to: Create Multi-Project Solutions](assetId:///02ecd6dd-0114-46fe-b335-ba9c5e3020d6)
+ [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/en-us/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)

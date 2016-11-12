@@ -1,13 +1,13 @@
 ---
-title: "Performance Explorer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Performance Explorer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 ms.assetid: df52b717-a55d-4b1d-8c2e-d5a6a38042f4
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Explorer
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  
   
  Profiling an application is straightforward. You begin by creating a new performance session. In Visual Studio Team System Development Edition, you can use the Performance Session Wizard to create a new performance session. After a performance session ends, data gathered during profiling is saved in a .vsp file. You can view the .vsp file inside the IDE. There are several report views available to help visualize and detect performance issues from the data gathered.  
   
@@ -48,7 +49,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools let
 |Task|Related Content|  
 |----------|---------------------|  
 |**New techniques for Windows 8**|[Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)|  
-|**Understand profiling concepts:** Learn the concepts and terms that you will use to collect, view, and analyze code performance using the profiling tools.|[Overviews](../profiling/overviews--performance-tools-.md)|  
+|**Understand profiling concepts:** Learn the concepts and terms that you will use to collect, view, and analyze code performance using the profiling tools.|[Overviews](../profiling/overviews-performance-tools.md)|  
 |**Jump in and do it:** Learn the basic procedures that you will use when you collect, view, and analyze code performance by using the profiling tools. Try it out with a hands-on walkthrough.|[Getting Started](../profiling/getting-started-with-performance-tools.md)|  
 |**Configure a profiling session:** Learn advanced methods of how to specify the projects or binaries to profile, select a profiling method, choose the performance data to collect, and set other profiling session options.|[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)|  
 |**Control the data that the profiler collects:** Learn how to use performance session properties and interactive procedures to start and stop profiling, and how to limit the performance data that you collect to just the information that you want.|[Controlling Data Collection](../profiling/controlling-data-collection.md)|  

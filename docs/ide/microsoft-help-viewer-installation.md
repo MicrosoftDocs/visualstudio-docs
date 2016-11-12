@@ -1,19 +1,20 @@
 ---
-title: "Microsoft Help Viewer Installation"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Microsoft Help Viewer Installation | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "installing the Help Viewer [Help Viewer 2.0]"
   - "Help Viewer 2.0, installing"
 ms.assetid: 51e72eac-d5d7-45e6-8899-04935499d1a6
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

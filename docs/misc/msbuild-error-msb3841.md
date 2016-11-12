@@ -1,18 +1,19 @@
 ---
-title: "MSBuild Error MSB3841"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3841 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.ResolveSDKReference.InvalidDependencyInPlatform"
 ms.assetid: 80ed22a1-bd62-4ace-892f-6b6009dff8e5
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -38,15 +39,15 @@ translation.priority.mt:
   
 ### To correct this error for project references  
   
-1.  Visual Basic, C#, C++, and JavaScript projects that target [!INCLUDE[win81](../debugger/includes/win81_md.md)] Store projects cannot reference C++ Windows Store projects that target [!INCLUDE[win8](../codequality/includes/win8_md.md)] because it will cause runtime issues. If any project in your app targets [!INCLUDE[win81](../debugger/includes/win81_md.md)] and your app consists of a C++Windows Store project, you will need to perform the following steps:  
+1.  Visual Basic, C#, C++, and JavaScript projects that target [!INCLUDE[win81](../debugger/includes/win81_md.md)] Store projects cannot reference C++ Windows Store projects that target [!INCLUDE[win8](../debugger/includes/win8_md.md)] because it will cause runtime issues. If any project in your app targets [!INCLUDE[win81](../debugger/includes/win81_md.md)] and your app consists of a C++Windows Store project, you will need to perform the following steps:  
   
 2.  Retarget all the projects in your app to [!INCLUDE[win81](../debugger/includes/win81_md.md)]. You can do this by right-clicking on each project in your app, selecting the **Retarget to Windows 8.1** command, and clicking **OK** on the **Review Project and Solution Changes** dialog.  
   
 3.  Right-click on each Visual Basic, C#, and JavaScript project that depends on a C++ Windows Store project, choose **Add Reference**, go to the **Windows** tab, then the **Extensions** sub-tab, uncheck **Microsoft Visual C++ Runtime Package v11.0** and check **Microsoft Visual C++ Runtime Package v12.0**, then click **OK**.  
   
-4.  Visual Basic, C#, and JavaScript Windows Store projects that target [!INCLUDE[win81](../debugger/includes/win81_md.md)] can reference Visual Basic and C# Windows Store projects that target [!INCLUDE[win8](../codequality/includes/win8_md.md)] provided that the [!INCLUDE[win8](../codequality/includes/win8_md.md)] Store projects do not use APIs that have been deprecated in [!INCLUDE[win81](../debugger/includes/win81_md.md)]. See [Migrating Windows 8 apps to Windows 8.1 Preview](http://msdn.microsoft.com/library/windows/apps/dn263113.aspx) to ascertain whether the [!INCLUDE[win8](../codequality/includes/win8_md.md)] Store projects will continue to behave as expected when referenced from a [!INCLUDE[win81](../debugger/includes/win81_md.md)] project.  
+4.  Visual Basic, C#, and JavaScript Windows Store projects that target [!INCLUDE[win81](../debugger/includes/win81_md.md)] can reference Visual Basic and C# Windows Store projects that target [!INCLUDE[win8](../debugger/includes/win8_md.md)] provided that the [!INCLUDE[win8](../debugger/includes/win8_md.md)] Store projects do not use APIs that have been deprecated in [!INCLUDE[win81](../debugger/includes/win81_md.md)]. See [Migrating Windows 8 apps to Windows 8.1 Preview](http://msdn.microsoft.com/library/windows/apps/dn263113.aspx) to ascertain whether the [!INCLUDE[win8](../debugger/includes/win8_md.md)] Store projects will continue to behave as expected when referenced from a [!INCLUDE[win81](../debugger/includes/win81_md.md)] project.  
   
-     [!INCLUDE[win8](../codequality/includes/win8_md.md)] Store projects cannot depend upon Windows Store projects or binaries that target [!INCLUDE[win81](../debugger/includes/win81_md.md)].  
+     [!INCLUDE[win8](../debugger/includes/win8_md.md)] Store projects cannot depend upon Windows Store projects or binaries that target [!INCLUDE[win81](../debugger/includes/win81_md.md)].  
   
 ### To correct this error for Extension SDK references  
   

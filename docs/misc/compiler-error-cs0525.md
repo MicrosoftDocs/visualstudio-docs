@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0525"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0525 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0525"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0525"
 ms.assetid: fcecfd4f-221f-41e6-a95c-1685be78926e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0525
 Interfaces cannot contain fields  
   
- An [interface](../Topic/interface%20\(C%23%20Reference\).md) can contain methods and properties but not fields.  
+ An [interface](/dotnet/csharp/language-reference/keywords/interface) can contain methods and properties but not fields.  
   
  The following sample generates CS0525:  
   

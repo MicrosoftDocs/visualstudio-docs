@@ -1,20 +1,21 @@
 ---
-title: "MSBuild Error MSB1003"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "MSBuild Error MSB1003 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.MissingProjectError"
 helpviewer_keywords: 
   - "MSB1003"
 ms.assetid: db4aa779-af86-4bb6-b86f-9a31866f70f5
-caps.latest.revision: 13
+caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ translation.priority.mt:
 # MSBuild Error MSB1003
 **Specify a project or solution file. The current working directory does not contain a project or solution file.**  
   
- If a project or solution file is not specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory does not contain a file that has a file extension that ends in "proj" or "sln".  
+ If a project or solution file is not specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory does not contain a file that has a file extension that ends in "proj" or "sln".  
   
 ### To correct this error  
   
@@ -47,5 +48,6 @@ translation.priority.mt:
 -   If the project or solution file has a file extension that does not end in "proj", change the file extension so that it does end in "proj".  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
- [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)  
+ [MSBuild](../msbuild/msbuild1.md)   
+ [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

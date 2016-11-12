@@ -1,13 +1,13 @@
 ---
-title: "Command-Line Warning D9042"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Command-Line Warning D9042 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "D9042"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "D9042"
 ms.assetid: d710693b-e422-40b2-b2dd-79e1b163b9e6
 caps.latest.revision: 3
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -50,5 +51,5 @@ cl /EHsc /LD /wd6001 /analyze filename.cpp
  To remedy this warning, either switch to the x86 version of Visual Studio Team System, or remove the **/analyze** and **/wd6001** command line options.  
   
 ## See Also  
- [Command-Line Errors D8000 Through D9999](../Topic/Command-Line%20Errors%20D8000%20Through%20D9999.md)   
- [Compiler Options](../Topic/Compiler%20Options.md)
+ [Command-Line Errors D8000 Through D9999](/visual-cpp/error-messages/tool-errors/command-line-errors-d8000-through-d9999)   
+ [Compiler Options](/visual-cpp/build/reference/compiler-options)

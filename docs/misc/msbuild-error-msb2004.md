@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB2004"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB2004 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.MultipleLanguageNodesNotAllowed"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2004"
 ms.assetid: ae426d42-7a97-44b6-b0df-12fdef7d0ee7
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ translation.priority.ht:
   
 ### To correct this error  
   
--   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
+-   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
 ## See Also  
- [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)
+ [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

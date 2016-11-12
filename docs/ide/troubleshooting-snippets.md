@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting Snippets"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Troubleshooting Snippets | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense Code Snippets, troubleshooting"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "troubleshooting Visual Basic, IntelliSense Code Snippets"
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,9 +40,9 @@ Problems with IntelliSense code snippets are typically caused by two problems: a
   
 ### The Snippet Cannot Be Dragged from File Explorer to a Visual Studio Source File  
   
--   The XML in the snippet file may be corrupt. The **XML Editor** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
+-   The XML in the snippet file may be corrupt. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
   
--   The snippet file may not conform to the snippet schema. The **XML Editor** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
+-   The snippet file may not conform to the snippet schema. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
   
 ### The Code Has Compiler Errors That Are Not Highlighted  
   

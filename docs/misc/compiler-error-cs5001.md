@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS5001"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS5001 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS5001"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS5001"
 ms.assetid: e1e26e75-84e0-47c7-be8a-3c4fd0d6f497
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,9 +39,9 @@ translation.priority.mt:
 # Compiler Error CS5001
 Program 'program' does not contain a static 'Main' method suitable for an entry point  
   
- This error occurs when no static [Main](../Topic/Main\(\)%20and%20Command-Line%20Arguments%20\(C%23%20Programming%20Guide\).md) method with a correct signature is found in the code that produces an executable file. This error also occurs if the entry point function, `Main`, is defined with the wrong case, such as lower-case `main`.  
+ This error occurs when no static [Main](/dotnet/csharp/programming-guide/main-and-command-args/main-and-command-line-arguments) method with a correct signature is found in the code that produces an executable file. This error also occurs if the entry point function, `Main`, is defined with the wrong case, such as lower-case `main`.  
   
--   `Main` must be declared as static and it must return [void](../Topic/void%20\(C%23%20Reference\).md) or [int](../Topic/int%20\(C%23%20Reference\).md), and it must have either no parameters or else one parameter of type `string[]`.  
+-   `Main` must be declared as static and it must return [void](/dotnet/csharp/language-reference/keywords/void) or [int](/dotnet/csharp/language-reference/keywords/int), and it must have either no parameters or else one parameter of type `string[]`.  
   
 ## Example  
  The following example generates CS5001:  
@@ -56,4 +57,4 @@ public class a
 ```  
   
 ## See Also  
- [Main() and Command-Line Arguments](../Topic/Main\(\)%20and%20Command-Line%20Arguments%20\(C%23%20Programming%20Guide\).md)
+ [Main() and Command-Line Arguments](/dotnet/csharp/programming-guide/main-and-command-args/main-and-command-line-arguments)

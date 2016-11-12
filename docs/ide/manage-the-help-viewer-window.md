@@ -1,19 +1,20 @@
 ---
-title: "Manage the Help Viewer Window"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Manage the Help Viewer Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Help Viewer 2.0, rearranging the window"
   - "Help Viewer 2.0, restoring the default window layout"
 ms.assetid: 98625016-acce-46c9-9b5a-2107d2939a5e
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

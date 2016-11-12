@@ -1,13 +1,13 @@
 ---
-title: "File name already declared with a different GUID and checksum value"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "File name already declared with a different GUID and checksum value | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc42034"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC42034"
 ms.assetid: 86da5e21-d41a-419e-a216-8712a560a2ad
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -46,4 +47,4 @@ An attempt has been made to declare a file, but the file already exists with a d
 -   Delete the redundant file if it is not needed.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

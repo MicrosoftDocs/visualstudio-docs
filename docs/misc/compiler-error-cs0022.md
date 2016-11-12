@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0022"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0022 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0022"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0022"
 ms.assetid: 531c3ed2-0d75-4046-8d57-89f79381af8e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0022
 Wrong number of indices inside [], expected 'number'  
   
- An array-access operation specified the incorrect number of dimensions within the square brackets. For more information, see [Arrays](../Topic/Arrays%20\(C%23%20Programming%20Guide\).md).  
+ An array-access operation specified the incorrect number of dimensions within the square brackets. For more information, see [Arrays](/dotnet/csharp/programming-guide/arrays/index).  
   
 ## Example  
  The following sample generates CS0022:  

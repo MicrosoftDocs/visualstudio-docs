@@ -1,18 +1,19 @@
 ---
-title: "MSBuild Error MSB4133"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB4133 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSB4133"
 ms.assetid: 5f18937a-fda1-4315-81f9-7cee02802a6d
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -34,13 +35,13 @@ translation.priority.mt:
 # MSBuild Error MSB4133
 **MSB4133: A default tools version "\<x.x.>" was specified, but its definition could not be found.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] cannot find the Toolset that is defined in the project file as the `DefaultToolsVersion`.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] cannot find the Toolset that is defined in the project file as the `DefaultToolsVersion`.  
   
 ### To correct this error  
   
--   Make sure that `DefaultToolsVersion` is specified correctly, and that this Toolset is defined either in the registry or in the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] configuration file.  
+-   Make sure that `DefaultToolsVersion` is specified correctly, and that this Toolset is defined either in the registry or in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] configuration file.  
   
 ## See Also  
- \<xref:Microsoft.Build.BuildEngine.Toolset>   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ <xref:Microsoft.Build.BuildEngine.Toolset>   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

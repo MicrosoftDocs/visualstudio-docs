@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0758"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0758 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0758"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0758"
 ms.assetid: 06ddd548-1311-40db-9078-8a18107b8346
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -66,5 +67,5 @@ using System;
 ```  
   
 ## See Also  
- [Partial Classes and Methods](../Topic/Partial%20Classes%20and%20Methods%20\(C%23%20Programming%20Guide\).md)   
- [params](../Topic/params%20\(C%23%20Reference\).md)
+ [Partial Classes and Methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)   
+ [params](/dotnet/csharp/language-reference/keywords/params)

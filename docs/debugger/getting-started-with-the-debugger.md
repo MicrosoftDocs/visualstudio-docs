@@ -1,13 +1,13 @@
 ---
-title: "Getting Started with the Debugger"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Getting Started with the Debugger | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +38,7 @@ translation.priority.ht:
 The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.  
   
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  
- Let’s start with a simple C# console application (**File / New / Project**, then select **Visual C#** and then **Console Application**). If you’ve never worked with Visual Studio before, see [Walkthrough: Create a Simple Application](../ide/walkthrough--create-a-simple-application-with-visual-csharp-or-visual-basic.md). The **Main** method just adds 1 to an integer variable 10 times and prints the result to the console:  
+ Let’s start with a simple C# console application (**File / New / Project**, then select **Visual C#** and then **Console Application**). If you’ve never worked with Visual Studio before, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md). The **Main** method just adds 1 to an integer variable 10 times and prints the result to the console:  
   
 ```c#  
 static void Main(string[] args)  

@@ -1,13 +1,13 @@
 ---
-title: "Floating and Integral Conversions"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Floating and Integral Conversions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -40,4 +40,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Floating and Integral Conversions
-This content has moved to [Standard Conversions](../Topic/Standard%20Conversions.md).
+This content has moved to [Standard Conversions](/visual-cpp/cpp/standard-conversions).

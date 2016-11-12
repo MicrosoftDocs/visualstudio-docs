@@ -1,19 +1,20 @@
 ---
-title: "Logical Operators in Search Expressions"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Logical Operators in Search Expressions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Help Viewer 2.0, logical operators in search"
   - "logical operators in search [Help Viewer 2.0]"
 ms.assetid: 0c38ae7d-3e20-4d47-a020-9677cd285916
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

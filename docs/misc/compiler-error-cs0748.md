@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0748"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0748 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0748"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0748"
 ms.assetid: da1935af-a5ea-41f4-84ae-58559b750566
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -57,4 +58,4 @@ class CS0748
 ```  
   
 ## See Also  
- [Lambda Expressions](../Topic/Lambda%20Expressions%20\(C%23%20Programming%20Guide\).md)
+ [Lambda Expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)

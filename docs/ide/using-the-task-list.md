@@ -1,13 +1,13 @@
 ---
-title: "Using the Task List"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using the Task List | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "TaskListWindow"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Visual Studio, task list"
 ms.assetid: f46a75a8-47b3-4cb6-bb59-b72e3356a664
 caps.latest.revision: 29
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -107,7 +108,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 2.  Open the **Environment** folder and then choose **Task List**.  
   
-     The [Task List, Environment, Options Dialog Box](../reference/task-list--environment--options-dialog-box.md) is displayed.  
+     The [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md) is displayed.  
   
      ![Visual Studio Task List](../ide/media/vs2015_task_list_options.png "vs2015_task_list_options")  
   
@@ -138,4 +139,4 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
      To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the shortcut menu.  
   
 ## See Also  
- [Task List, Environment, Options Dialog Box](../reference/task-list--environment--options-dialog-box.md)
+ [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)

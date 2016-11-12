@@ -1,13 +1,13 @@
 ---
-title: "String Visualizer Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "String Visualizer Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.stringviewer"
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "visualizers, string"
 ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,13 +1,13 @@
 ---
-title: "Creating an Extension with a Menu Command"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating an Extension with a Menu Command | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "write a vspackage"
@@ -98,7 +98,7 @@ This walkthrough shows how to create an extension with a menu command that launc
   
 4.  Now try it out. When you start debugging the project and click **Tools / Invoke FirstCommand**, you should see an instance of Notepad come up.  
   
-     You can use an instance of the \<xref:System.Diagnostics.Process> class to run any executable, not just Notepad. Try it with calc.exe, for example.  
+     You can use an instance of the <xref:System.Diagnostics.Process> class to run any executable, not just Notepad. Try it with calc.exe, for example.  
   
 ## Cleaning up the Experimental Environment  
  If you are developing multiple extensions, or just exploring outcomes with different versions of your extension code, your experimental environment may stop working the way it should. In this case, you should run the reset script. It’s called **Reset the Visual Studio 2015 Experimental Instance**, and it ships as part of the Visual Studio SDK. This script removes all references to your extensions from the experimental environment, so you can start from scratch.  

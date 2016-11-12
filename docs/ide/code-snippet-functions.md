@@ -1,13 +1,13 @@
 ---
-title: "Code Snippet Functions"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Code Snippet Functions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code snippets [Visual Studio], functions"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,16 +34,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Snippet Functions
-There are three functions available to use with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](assetId:///572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
+There are three functions available to use with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   
 ## Functions  
  The following table describes the functions available for use with the `Function` element in code snippets.  
   
 |Function|Description|Language|  
 |--------------|-----------------|--------------|  
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
-|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
-|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
+|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
+|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
+|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
   
 ## Example  
  The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.  
@@ -132,7 +133,7 @@ There are three functions available to use with [!INCLUDE[csprcs](../datatools/i
 ```  
   
 ## Example  
- This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the \<xref:System.Console> type in the context in which the snippet was invoked.  
+ This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.  
   
 ```  
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
@@ -164,5 +165,5 @@ There are three functions available to use with [!INCLUDE[csprcs](../datatools/i
 ```  
   
 ## See Also  
- [Function Element (Intellisense Code Snippets)](assetId:///572c5549-5821-4e15-8ecd-0fa86c1c65df)   
+ [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

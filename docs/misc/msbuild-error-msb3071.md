@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3071"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3071 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.Exec.AllDriveLettersMappedError"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3071"
 ms.assetid: 8afbc6ec-e399-4f06-a30b-f33c87642ef7
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -45,4 +46,4 @@ translation.priority.mt:
 -   Specify a local working directory before attempting this command again.  
   
 ## See Also  
- [Exec Task](../reference/exec-task.md)
+ [Exec Task](../msbuild/exec-task.md)

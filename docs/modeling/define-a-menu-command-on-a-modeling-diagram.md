@@ -1,18 +1,19 @@
 ---
-title: "Define a menu command on a modeling diagram"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Define a menu command on a modeling diagram | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending, menu commands"
 ms.assetid: 79c277de-5871-4fc7-9701-55eec5c3cd46
 caps.latest.revision: 61
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -176,7 +177,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
          **Project** = *Your class library project*  
   
 ##  <a name="Implementing"></a> Implementing the Menu Command  
- The menu command class implements the required methods for \<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.  
+ The menu command class implements the required methods for <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.  
   
 |||  
 |-|-|  
@@ -211,7 +212,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
   
  The API also allows you to change the properties of elements, delete elements and relationships, and create new elements and relationships.  
   
- By default, each change that you make in your Execute method will be performed in a separate transaction. The user will be able to undo each change separately. If you want to group the changes into a single transaction, use a \<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoTransaction> as described in [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).  
+ By default, each change that you make in your Execute method will be performed in a separate transaction. The user will be able to undo each change separately. If you want to group the changes into a single transaction, use a <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoTransaction> as described in [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).  
   
 ### Use the UI Thread for Updates  
  In some cases it can be useful to make updates to the model from a background thread. For example, if your command loads data from a slow resource, you can perform the loading in a brackground thread so that the user can see the changes while they are in progress, and cancel the operation if it is necessary.  
@@ -225,17 +226,17 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
   
 1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts.  
   
-     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not start:  
+     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not start:  
   
     -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], typically:  
+    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], typically:  
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
-2.  In the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types that are listed in the attributes of your menu command class.  
+2.  In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types that are listed in the attributes of your menu command class.  
   
 3.  Open the shortcut menu anywhere on the diagram. Your command should appear in the menu.  
   
@@ -250,7 +251,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
     -   The type of model diagram that you are using (UML class, sequence, and so on) is listed as one of the menu command class attributes `[ClassDesignerExtension]`, `[SequenceDesignerExtension]` and so on.  
   
 ##  <a name="Installing"></a> Installing and uninstalling an extension  
- You can install a [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
+ You can install a [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
   
@@ -262,13 +263,13 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-     The target computer must have one of the editions of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
+     The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
   
 3.  On the target computer, open the **.vsix** file, for example by double-clicking it.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+4.  Start or restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 #### To uninstall an extension  
   
@@ -283,7 +284,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
  *%LocalAppData%* **\Local\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ##  <a name="MenuExample"></a> Example  
- The following example shows the code for a menu command that will interchange the names of two elements on a class diagram. This code must be built in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension project and installed as described in the previous sections.  
+ The following example shows the code for a menu command that will interchange the names of two elements on a class diagram. This code must be built in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension project and installed as described in the previous sections.  
   
 ```  
 using System.Collections.Generic; // for IEnumerable  

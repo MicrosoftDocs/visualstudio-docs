@@ -1,13 +1,13 @@
 ---
-title: "Extending the Isolated Shell"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extending the Isolated Shell | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode"
@@ -34,7 +34,7 @@ translation.priority.mt:
 You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed Extensibility Framework (MEF) component part, or a generic VSIX project to your isolated shell application.  
   
 > [!NOTE]
->  The following steps presuppose that you have created a basic isolated shell application by using the Visual Studio Shell Isolated project template. For more information about this project template, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md).  
+>  The following steps presuppose that you have created a basic isolated shell application by using the Visual Studio Shell Isolated project template. For more information about this project template, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ## Locations for the Visual Studio Package Project Template  
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:  
@@ -132,4 +132,4 @@ You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed
 8.  Build and run the solution.  
   
 ## See Also  
- [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md)
+ [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)

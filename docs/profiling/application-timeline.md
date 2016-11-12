@@ -1,16 +1,17 @@
 ---
-title: "Application Timeline"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Application Timeline | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -132,5 +133,5 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
 ## See Also  
  [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
- [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](assetId:///567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
+ [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
  [Optimizing WPF Application Performance](../Topic/Optimizing%20WPF%20Application%20Performance.md)

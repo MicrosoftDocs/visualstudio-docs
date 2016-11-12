@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting Broken References"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Troubleshooting Broken References | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual C# projects, references"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "referencing components, troubleshooting"
 ms.assetid: 00a9ade9-652e-40de-8ada-85f63cd183ee
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,7 +51,7 @@ If your application attempts to use a broken reference, an exception error is ge
  The following are remedies to these problems.  
   
 > [!NOTE]
->  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](../Topic/Programming%20with%20Assemblies.md).  
+>  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](../Topic/Programming%20with%20Assemblies.md).  
   
 ## Reference Path Is Incorrect  
  If projects are shared on different computers, some references might not be found when a component is located in a different directory on each computer. References are stored under the name of the component file (for example, MyComponent). When a reference is added to a project, the folder location of the component file (for example, C:\MyComponents\\) is appended to the **ReferencePath** project property.  
@@ -83,7 +84,7 @@ If your application attempts to use a broken reference, an exception error is ge
   
 -   If the reference exists in another location on your computer, read it from that location.  
   
--   For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+-   For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ## Referenced File Has Been Renamed  
  It is possible that the file being referenced has been renamed.  
@@ -92,15 +93,15 @@ If your application attempts to use a broken reference, an exception error is ge
   
 -   Delete the reference, and then add a reference to the renamed file.  
   
--   If the reference exists in another location on your computer, you have to read it in from that location. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+-   If the reference exists in another location on your computer, you have to read it in from that location. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ## Network Connection or Authentication Has Failed  
- There can be many possible causes for inaccessible files: a failed network connection or a failed authentication, for example. Each cause might have a unique means of recovery; for example, you might have to contact the local administrator for access to the required resources. However, deleting the reference and fixing the code which used it is always an option. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+ There can be many possible causes for inaccessible files: a failed network connection or a failed authentication, for example. Each cause might have a unique means of recovery; for example, you might have to contact the local administrator for access to the required resources. However, deleting the reference and fixing the code which used it is always an option. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ## COM Component Is Not Installed on Computer  
- If a user has added a reference to a COM component and a second user tries to run the code on a computer that does not have this component installed, the second user will receive an error that the reference is broken. Installing the component on the second computer will correct the error. For more information about how to use references to COM components in your projects, see [COM Interoperability in .NET Framework Applications](../Topic/COM%20Interoperability%20in%20.NET%20Framework%20Applications%20\(Visual%20Basic\).md).  
+ If a user has added a reference to a COM component and a second user tries to run the code on a computer that does not have this component installed, the second user will receive an error that the reference is broken. Installing the component on the second computer will correct the error. For more information about how to use references to COM components in your projects, see [COM Interoperability in .NET Framework Applications](/dotnet/visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications).  
   
 ## See Also  
- [Introduction to the Project Designer](assetId:///898dd854-c98d-430c-ba1b-a913ce3c73d7)   
- [References Page, Project Designer (Visual Basic)](../reference/references-page--project-designer--visual-basic-.md)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9)
+ [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

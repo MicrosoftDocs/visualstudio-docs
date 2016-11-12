@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1958"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1958 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1958"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1958"
 ms.assetid: bb6f3bb2-ea93-4d2e-984c-da9c99f5653f
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,11 +1,11 @@
 ---
-title: "Run-Time Text Generation with T4 Text Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Preprocessed Text Template project item"
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "text templates, generating files at run time"
 ms.assetid: 79b4b3c6-a9a7-4446-b6fd-e2388fc6b05f
 caps.latest.revision: 22
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -32,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Run-Time Text Generation with T4 Text Templates
-You can generate text strings in your application at run time by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] runtime text templates. The computer where the application executes does not have to have [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Runtime templates are sometimes called "preprocessed text templates" because at compile time, the template generates code that is executed at run time.  
+You can generate text strings in your application at run time by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runtime text templates. The computer where the application executes does not have to have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Runtime templates are sometimes called "preprocessed text templates" because at compile time, the template generates code that is executed at run time.  
   
  Each template is a mixture of the text as it will appear in the generated string, and fragments of program code. The program fragments supply values for the variable parts of the string, and also control conditional and repeated parts.  
   
@@ -63,7 +64,7 @@ This report is Company Confidential.
   
 1.  In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, select **Runtime Text Template**. (In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] look under **Common Items\General**.)  
+2.  In the **Add New Item** dialog box, select **Runtime Text Template**. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] look under **Common Items\General**.)  
   
 3.  Type a name for your template file.  
   
@@ -83,11 +84,11 @@ This report is Company Confidential.
     ```  
   
 ## Converting an Existing File to a Run-Time Template  
- A good way to create a template is to convert an existing example of the output. For example, if your application will generate HTML files, you can start by creating a plain HTML file. Make sure that it works correctly and that its appearance is correct. Then include it into your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and convert it to a template.  
+ A good way to create a template is to convert an existing example of the output. For example, if your application will generate HTML files, you can start by creating a plain HTML file. Make sure that it works correctly and that its appearance is correct. Then include it into your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and convert it to a template.  
   
 #### To convert an existing text file to a run-time template  
   
-1.  Include the file into your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. In Solution Explorer, on the shortcut menu of the project, choose **Add**, **Existing Item**.  
+1.  Include the file into your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. In Solution Explorer, on the shortcut menu of the project, choose **Add**, **Existing Item**.  
   
 2.  Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.  
   
@@ -219,7 +220,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent);
 ```  
   
 #### Constructor parameters in Visual Basic  
- In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], the separate file **MyWebPageCode.vb** contains:  
+ In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the separate file **MyWebPageCode.vb** contains:  
   
 ```vb#  
 Namespace My.Templates  
@@ -431,7 +432,7 @@ End material for DerivedTemplate1.
 ## Related Topics  
  Design Time Templates: If you want to use a template to generate code that becomes part of your application, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).  
   
- Runtime templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
+ Runtime templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
   
 ## See Also  
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)   

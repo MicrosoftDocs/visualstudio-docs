@@ -1,18 +1,19 @@
 ---
-title: "Read a UML model in program code"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Read a UML model in program code | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML API, reading models"
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 23
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -32,7 +33,7 @@ translation.priority.ht:
 You can load a UML model and its diagrams using the UML API.  
   
 ##  <a name="Reading"></a> Reading a Model in Program Code  
- To access the content of a model without showing it in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window, use `ModelingProject.LoadReadOnly()`.  
+ To access the content of a model without showing it in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window, use `ModelingProject.LoadReadOnly()`.  
   
  For example:  
   
@@ -74,12 +75,12 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
 ```  
   
 ## Alternative methods  
- For many applications, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Modelbus allows you to reference models and elements within them, with greater robustness and flexibility than with the methods described in this topic. It provides a standard method of making links between arbitrary elements, either in the same or different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+ For many applications, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Modelbus allows you to reference models and elements within them, with greater robustness and flexibility than with the methods described in this topic. It provides a standard method of making links between arbitrary elements, either in the same or different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
- You can also open models and diagrams in the user interface using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
+ You can also open models and diagrams in the user interface using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
 ##  <a name="Standalone"></a> Stand-Alone Applications  
- The example in the previous section will work in Visual Studio extensions. It is possible to read a model in a stand-alone application, but you must add some references to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project.  
+ The example in the previous section will work in Visual Studio extensions. It is possible to read a model in a stand-alone application, but you must add some references to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project.  
   
 > [!NOTE]
 >  The details of how to read a model in a stand-alone application are likely to change in future versions of the product. Some features that are accessible in the current version might not be available in future versions.  

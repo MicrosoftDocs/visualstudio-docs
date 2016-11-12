@@ -1,13 +1,13 @@
 ---
-title: "XML comment block must immediately precede the language element to which it applies"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "XML comment block must immediately precede the language element to which it applies | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc42300"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC42300"
 ms.assetid: f9f7d1da-a723-4237-bd78-6db7ed8bc4aa
 caps.latest.revision: 16
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -49,4 +50,4 @@ XML comment block must immediately precede the language element to which it appl
   
 ## See Also  
  [How to: Create XML Documentation](../Topic/How%20to:%20Create%20XML%20Documentation%20in%20Visual%20Basic.md)   
- [XML Comment Tags](../Topic/Recommended%20XML%20Tags%20for%20Documentation%20Comments%20\(Visual%20Basic\).md)
+ [XML Comment Tags](/dotnet/visual-basic/language-reference/xmldoc/recommended-xml-tags-for-documentation-comments)

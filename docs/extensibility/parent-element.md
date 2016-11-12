@@ -1,13 +1,13 @@
 ---
-title: "Parent Element"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Parent Element | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSCT XML schema elements, Parent"
@@ -63,4 +63,4 @@ The parent of a button or combo box may only be a group. The parent of a menu or
 |[Groups Element](../extensibility/groups-element.md)|Contains entries that define the command groups of a VSPackage.|  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -1,19 +1,20 @@
 ---
-title: "VSPerfASPNetCmd"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "VSPerfASPNetCmd | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling tools,VSPerfASPNETCmd"
   - "VSPerfASPNETCmd"
 ms.assetid: f9e9f895-57bb-41e8-8bd1-cdaa738ec220
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,4 +54,4 @@ The **VSPerfASPNetCmd.exe** command line tool allows you to profile ASP.Net webs
   
 ## See Also  
  [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)

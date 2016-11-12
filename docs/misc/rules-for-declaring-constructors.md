@@ -1,13 +1,13 @@
 ---
-title: "Rules for Declaring Constructors"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Rules for Declaring Constructors | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "copy constructors"
 ms.assetid: 487d94eb-3327-4e29-8dd9-a7e144fcce69
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,6 +39,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Rules for Declaring Constructors
-This content has moved to [Constructors](../Topic/Constructors%20\(C++\).md).  
+This content has moved to [Constructors](/visual-cpp/cpp/constructors-cpp).  
   
 ## Syntax

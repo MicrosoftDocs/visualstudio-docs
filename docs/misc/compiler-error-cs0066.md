@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0066"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0066 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0066"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0066"
 ms.assetid: 9b50b49b-78b8-4562-8839-d59e5edbec6b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0066
 'event': event must be of a delegate type  
   
- The event keyword requires a [delegate](../Topic/delegate%20\(C%23%20Reference\).md) type. For more information, see [Events](../Topic/Events%20\(C%23%20Programming%20Guide\).md) and [Delegates](../Topic/Delegates%20\(C%23%20Programming%20Guide\).md).  
+ The event keyword requires a [delegate](/dotnet/csharp/language-reference/keywords/delegate) type. For more information, see [Events](/dotnet/csharp/programming-guide/events/index) and [Delegates](/dotnet/csharp/programming-guide/delegates/index).  
   
  The following sample generates CS0066:  
   

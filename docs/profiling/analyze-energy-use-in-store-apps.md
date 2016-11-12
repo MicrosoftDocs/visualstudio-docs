@@ -1,13 +1,13 @@
 ---
-title: "Analyze energy use in Store apps"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Analyze energy use in Store apps | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 caps.latest.revision: 34
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -71,7 +72,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
->  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)\<xref:Windows.Foundation.Diagnostics.LoggingChannel.Close*>() ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](assetId:///Windows.Foundation.Diagnostics.LoggingChannel.Dispose?qualifyHint=False&autoUpgrade=True)()in C# and VB) when you are finished with a logging channel.  
+>  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)<xref:Windows.Foundation.Diagnostics.LoggingChannel.Close%2A>() ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](assetId:///Windows.Foundation.Diagnostics.LoggingChannel.Dispose?qualifyHint=False&autoUpgrade=True)()in C# and VB) when you are finished with a logging channel.  
 > -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
@@ -159,7 +160,7 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](assetId:///0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](assetId:///372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+-   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   

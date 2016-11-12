@@ -1,13 +1,13 @@
 ---
-title: "Choosing a ClickOnce Update Strategy"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, update strategies"
 ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 caps.latest.revision: 23
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -47,7 +48,7 @@ translation.priority.ht:
 >  Application updates require network connectivity. If a network connection is not present, the application will run without checking for updates, regardless of the update strategy that you choose.  
   
 > [!NOTE]
->  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the \<xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
+>  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
   
 ## Checking for Updates After Application Startup  
  By using this strategy, the application will attempt to locate and read the deployment manifest file in the background while the application is running. If an update is available, the next time that the user runs the application, he will be prompted to download and install the update.  
@@ -109,7 +110,7 @@ translation.priority.ht:
  For example, you may want to check each time the application runs, or one time a week, or one time a month. If a network connection is not present at the specified time, the update check is performed the next time that the application runs.  
   
 ## Providing a User Interface for Updates  
- When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the \<xref:System.Deployment.Application> namespace.  
+ When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.  
   
  If your application uses deployment APIs to control its own update logic, you should block update checking as described in "Blocking Update Checking" in the following section.  
   
@@ -130,9 +131,9 @@ translation.priority.ht:
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
 ## See Also  
- \<xref:System.Deployment.Application>   
+ <xref:System.Deployment.Application>   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [How ClickOnce Performs Application Updates](../deployment/how-clickonce-performs-application-updates.md)   
- [How to: Manage Updates for a ClickOnce Application](../deployment/how-to--manage-updates-for-a-clickonce-application.md)
+ [How to: Manage Updates for a ClickOnce Application](../deployment/how-to-manage-updates-for-a-clickonce-application.md)

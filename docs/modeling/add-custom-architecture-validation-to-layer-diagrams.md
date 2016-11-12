@@ -1,18 +1,19 @@
 ---
-title: "Add custom architecture validation to layer diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Add custom architecture validation to layer diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "layer diagrams, adding custom validation"
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 42
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -69,7 +70,7 @@ In Visual Studio, users can validate the source code in a project against a laye
     > [!NOTE]
     >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
   
-5.  To install the extension in the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
+5.  To install the extension in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Layer Validator to a Separate VSIX  
  If you want to create one VSIX that contains layer validators, commands, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
@@ -126,7 +127,7 @@ In Visual Studio, users can validate the source code in a project against a laye
     > [!NOTE]
     >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
   
-8.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer. (File Explorer in Windows 8.)  
+8.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer. (File Explorer in Windows 8.)  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
@@ -160,7 +161,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
  When the user invokes the **Validate Architecture** menu command, the layer runtime system analyses the layers and their artifacts to produce a graph. The graph has four parts:  
   
--   The layer models of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution that are represented as nodes and links in the graph.  
+-   The layer models of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that are represented as nodes and links in the graph.  
   
 -   The code, project items, and other artifacts that are defined in the solution and represented as nodes, and links that represent the dependencies discovered by the analysis process.  
   
@@ -175,7 +176,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
  Validation methods should not change the layer model or the code that is being validated.  
   
- The graph model is defined in \<xref:Microsoft.VisualStudio.GraphModel>. Its principal classes are \<xref:Microsoft.VisualStudio.GraphModel.GraphNode> and \<xref:Microsoft.VisualStudio.GraphModel.GraphLink>.  
+ The graph model is defined in <xref:Microsoft.VisualStudio.GraphModel>. Its principal classes are <xref:Microsoft.VisualStudio.GraphModel.GraphNode> and <xref:Microsoft.VisualStudio.GraphModel.GraphLink>.  
   
  Each Node and each Link has one or more Categories which specify the type of element or relationship that it represents. The nodes of a typical graph have the following categories:  
   
@@ -200,7 +201,7 @@ In Visual Studio, users can validate the source code in a project against a laye
  Links from layers to elements in the code have the category "Represents".  
   
 ##  <a name="debugging"></a> Debugging Validation  
- To debug your layer validation extension, press CTRL+F5. An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] opens. In this instance, open or create a layer model. This model must be associated with code, and must have at least one dependency.  
+ To debug your layer validation extension, press CTRL+F5. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, open or create a layer model. This model must be associated with code, and must have at least one dependency.  
   
 ### Test with a Solution that contains Dependencies  
  Validation is not executed unless the following characteristics are present:  
@@ -209,7 +210,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 -   There are layers in the model that are associated with code elements.  
   
- The first time that you start an experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to test your validation extension, open or create a solution that has these characteristics.  
+ The first time that you start an experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to test your validation extension, open or create a solution that has these characteristics.  
   
 ### Run Clean Solution before Validate Architecture  
  Whenever you update your validation code, use the **Clean Solution** command on the **Build** menu in the experimental solution, before you test the Validate command. This is necessary because the results of validation are cached. If you have not updated the test layer diagram or its code, the validation methods will not be executed.  
@@ -217,14 +218,14 @@ In Visual Studio, users can validate the source code in a project against a laye
 ### Launch the Debugger Explicitly  
  Validation runs in a separate process. Therefore, the breakpoints in your validation method will not be triggered. You must attach the debugger to the process explicitly when validation has started.  
   
- To attach the debugger to the validation process, insert a call to `System.Diagnostics.Debugger.Launch()` at the start of your validation method. When the debugging dialog box appears, select the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ To attach the debugger to the validation process, insert a call to `System.Diagnostics.Debugger.Launch()` at the start of your validation method. When the debugging dialog box appears, select the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- Alternatively, you can insert a call to `System.Windows.Forms.MessageBox.Show()`. When the message box appears, go to the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and on the **Debug** menu click **Attach to Process**. Select the process that is named **Graphcmd.exe**.  
+ Alternatively, you can insert a call to `System.Windows.Forms.MessageBox.Show()`. When the message box appears, go to the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and on the **Debug** menu click **Attach to Process**. Select the process that is named **Graphcmd.exe**.  
   
  Always start the experimental instance by pressing CTRL+F5 (**Start without Debugging**).  
   
 ### Deploying a Validation Extension  
- To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer. To install on a computer on which [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)] is installed, you must manually extract the VSIX contents into an Extensions folder. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
+ To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer. To install on a computer on which [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] is installed, you must manually extract the VSIX contents into an Extensions folder. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
   
 ##  <a name="example"></a> Example code  
   

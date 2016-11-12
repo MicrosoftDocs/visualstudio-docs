@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0503"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0503 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0503"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0503"
 ms.assetid: 12a337c9-8c5d-473d-8ce6-057b2c7e7935
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0503
 The abstract method 'method' cannot be marked virtual  
   
- It is redundant to mark a member method as both [abstract](../Topic/abstract%20\(C%23%20Reference\).md) and [virtual](../Topic/virtual%20\(C%23%20Reference\).md) because **abstract** implies **virtual**.  
+ It is redundant to mark a member method as both [abstract](/dotnet/csharp/language-reference/keywords/abstract) and [virtual](/dotnet/csharp/language-reference/keywords/virtual) because **abstract** implies **virtual**.  
   
  The following sample generates CS0503:  
   

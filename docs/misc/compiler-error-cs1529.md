@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1529"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1529 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1529"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1529"
 ms.assetid: 672a6fd1-3a1f-422c-a29f-46f196d15211
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1529
 A using clause must precede all other elements defined in the namespace except extern alias declarations  
   
- A [using](../Topic/using%20\(C%23%20Reference\).md) clause must appear first in a namespace.  
+ A [using](/dotnet/csharp/language-reference/keywords/using) clause must appear first in a namespace.  
   
 ## Example  
  The following sample generates CS1529:  

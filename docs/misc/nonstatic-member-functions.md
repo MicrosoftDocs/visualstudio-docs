@@ -1,13 +1,13 @@
 ---
-title: "Nonstatic Member Functions"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Nonstatic Member Functions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "member functions, nonstatic"
 ms.assetid: 801f811f-ef8f-45bf-a3b9-612df426faeb
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Nonstatic Member Functions
-This content moved to  [Overview of Member Functions](../Topic/Overview%20of%20Member%20Functions.md)
+This content moved to  [Overview of Member Functions](/visual-cpp/cpp/overview-of-member-functions)

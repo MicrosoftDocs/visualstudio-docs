@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0631"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0631 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0631"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0631"
 ms.assetid: 5ae06b13-7874-4d0d-b256-7d8b33396156
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0631
 ref and out are not valid in this context  
   
- The declaration for an [indexer](../Topic/Indexers%20\(C%23%20Programming%20Guide\).md) cannot include the use of [ref](../Topic/ref%20\(C%23%20Reference\).md) or [out](../Topic/out%20\(C%23%20Reference\).md) parameters.  
+ The declaration for an [indexer](/dotnet/csharp/programming-guide/indexers/index) cannot include the use of [ref](/dotnet/csharp/language-reference/keywords/ref) or [out](/dotnet/csharp/language-reference/keywords/out) parameters.  
   
 ## Example  
  The following sample generates CS0631:  

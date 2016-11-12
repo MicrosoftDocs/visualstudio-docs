@@ -1,18 +1,19 @@
 ---
-title: "Message Markers"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Message Markers | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.markers.message"
 ms.assetid: 721f40ca-5af2-4a01-b8b6-2b90f6cb7f89
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

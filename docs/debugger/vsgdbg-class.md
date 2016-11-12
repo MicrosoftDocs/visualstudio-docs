@@ -1,16 +1,17 @@
 ---
-title: "VsgDbg Class"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "VsgDbg Class | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6722263c-ccef-40c7-a0ae-87a863fbab00
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,8 +46,8 @@ class VsgDbg;
   
 |Name|Description|  
 |----------|-----------------|  
-|[VsgDbg::VsgDbg (Constructor)](../debugger/vsgdbg--vsgdbg--constructor-.md)|Constructs an instance of the `VsgDbg` class and optionally prepares the in-app component of graphics diagnostics to actively capture and record graphics information.|  
-|[VsgDbg::~VsgDbg (Destructor)](../debugger/vsgdbg--~vsgdbg--destructor-.md)|Destroys an instance of the `VsgDbg` class.|  
+|[VsgDbg::VsgDbg (Constructor)](../debugger/vsgdbg-vsgdbg-constructor.md)|Constructs an instance of the `VsgDbg` class and optionally prepares the in-app component of graphics diagnostics to actively capture and record graphics information.|  
+|[VsgDbg::~VsgDbg (Destructor)](../debugger/vsgdbg-tilde-vsgdbg-destructor.md)|Destroys an instance of the `VsgDbg` class.|  
   
 ### Public Methods  
   
@@ -55,7 +56,7 @@ class VsgDbg;
 |[AddMessage](../debugger/addmessage.md)|Adds a custom message to the graphics diagnostics HUD (Head-Up Display).|  
 |[BeginCapture](../debugger/begincapture.md)|Begins a capture interval that will end with `EndCapture`.|  
 |[CaptureCurrentFrame](../debugger/capturecurrentframe.md)|Captures the remainder of the current frame to the graphics log file.|  
-|[Copy (Programmatic Capture)](../debugger/copy--programmatic-capture-.md)|Copies the contents of the active graphics log (.vsglog) file into a new file.|  
+|[Copy (Programmatic Capture)](../debugger/copy-programmatic-capture.md)|Copies the contents of the active graphics log (.vsglog) file into a new file.|  
 |[EndCapture](../debugger/endcapture.md)|Ends a capture interval that was started with `BeginCapture`.|  
 |[Init](../debugger/init.md)|Prepares the in-app component of graphics diagnostics to actively capture and record graphics information.|  
 |[ToggleHUD](../debugger/togglehud.md)|Toggles the graphics diagnostics HUD overlay on or off.|  

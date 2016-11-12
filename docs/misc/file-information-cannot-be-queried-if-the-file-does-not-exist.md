@@ -1,18 +1,19 @@
 ---
-title: "File information cannot be queried if the file does not exist"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "File information cannot be queried if the file does not exist | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2bf50d79-2a74-403f-833c-6cabd2c213ce
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -30,13 +31,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # File information cannot be queried if the file does not exist
-An attempt has been made to query a \<xref:System.IO.FileInfo> object for information about a file that does not exist. Usually this is due to a mistake made when supplying the file name.  
+An attempt has been made to query a <xref:System.IO.FileInfo> object for information about a file that does not exist. Usually this is due to a mistake made when supplying the file name.  
   
 ### To correct this error  
   
 -   Check that you are supplying the correct file name.  
   
 ## See Also  
- [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)   
- [How to: Get Information About a File in Visual Basic](assetId:///ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
+ [My.Computer.FileSystem Object](/dotnet/visual-basic/language-reference/objects/my-computer-filesystem-object)   
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/en-us/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)

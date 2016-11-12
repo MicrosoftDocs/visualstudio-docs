@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0030"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0030 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0030"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0030"
 ms.assetid: 3c9bd3f9-dea2-46dd-be1e-46c843ffd3de
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0030
 Cannot convert type 'type' to 'type'  
   
- You must provide conversion routines to support certain operator overloads. For more information, see [Conversion Operators](../Topic/Conversion%20Operators%20\(C%23%20Programming%20Guide\).md).  
+ You must provide conversion routines to support certain operator overloads. For more information, see [Conversion Operators](/dotnet/csharp/programming-guide/statements-expressions-operators/conversion-operators).  
   
  The following sample generates CS0030:  
   

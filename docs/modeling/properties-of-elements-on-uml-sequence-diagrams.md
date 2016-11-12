@@ -1,11 +1,11 @@
 ---
-title: "Properties of elements on UML sequence diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Properties of elements on UML sequence diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.sequencediagram.combinedfragment.properties"
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "sequence diagrams, properties"
 ms.assetid: 475c10f3-a2d2-4a1e-b366-dc28997d437e
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -36,7 +37,7 @@ translation.priority.ht:
 In a UML sequence diagram, each element on the diagram has properties. To see the properties of an element, right-click the element on the diagram or in **UML Model Explorer** and then click **Properties**. The properties appear in the **Properties** window.  
   
 > [!NOTE]
->  This topic is about the properties of elements in UML sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md).  
+>  This topic is about the properties of elements in UML sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
 ## Properties of Elements  
   
@@ -59,6 +60,6 @@ In a UML sequence diagram, each element on the diagram has properties. To see th
 |**Messages**|(empty)|Consider and<br /><br /> Ignore Combined Fragments|The messages that are considered or ignored in this fragment.|  
   
 ## See Also  
- [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md)   
- [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md)   
+ [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
+ [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [Describe control flow with fragments on UML sequence diagrams](../modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md)

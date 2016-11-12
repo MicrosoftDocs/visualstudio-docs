@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0138"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0138 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0138"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0138"
 ms.assetid: 970545f8-5ee5-428e-921a-3aa29f68d16d
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0138
 A using namespace directive can only be applied to namespaces; 'type' is a type not a namespace  
   
- A [using](../Topic/using%20\(C%23%20Reference\).md) directive can only take the name of a namespace as a parameter. For more information, see [Namespaces](../Topic/Namespaces%20\(C%23%20Programming%20Guide\).md).  
+ A [using](/dotnet/csharp/language-reference/keywords/using) directive can only take the name of a namespace as a parameter. For more information, see [Namespaces](/dotnet/csharp/programming-guide/namespaces/index).  
   
  The following sample generates CS0138:  
   

@@ -1,13 +1,13 @@
 ---
-title: "Storage of Class-Member Data"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Storage of Class-Member Data | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "pack pragma"
 ms.assetid: 865614b6-6afe-4dfe-acd3-78011ab088ff
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Storage of Class-Member Data
-This content has moved to  [Class Member Overview](../Topic/Class%20Member%20Overview.md).
+This content has moved to  [Class Member Overview](/visual-cpp/cpp/class-member-overview).

@@ -1,13 +1,13 @@
 ---
-title: "Using the Tasks Window"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using the Tasks Window | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.paralleltasks"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -38,11 +39,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using the Tasks Window
-The **Tasks** window resembles the **Threads** window, except that it shows information about \<xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](../Topic/task_group%20Class.md), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.  
+The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](../Topic/task_group%20Class.md), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.  
   
- In managed code, you can use the **Tasks** window when you work with \<xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md).  
+ In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md).  
   
- In native code, you can use the **Tasks** window when you work with [task groups](../Topic/Task%20Parallelism%20\(Concurrency%20Runtime\).md), [parallel algorithms](../Topic/Parallel%20Algorithms.md), [asynchronous agents](../Topic/Asynchronous%20Agents.md), and [lightweight tasks](../Topic/Task%20Scheduler%20\(Concurrency%20Runtime\).md). For more information about tasks in native code, see [Concurrency Runtime](../Topic/Concurrency%20Runtime.md).  
+ In native code, you can use the **Tasks** window when you work with [task groups](/visual-cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/visual-cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/visual-cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/visual-cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime).  
   
  In JavaScript, you can use the Tasks window when you are working with promise .then code.  
   
@@ -51,7 +52,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
  ![Parallel Tasks window](../debugger/media/parallel_tasks_window.png "Parallel_Tasks_Window")  
   
 > [!NOTE]
->  In managed code, a \<xref:System.Threading.Tasks.Task> that has a status of \<xref:System.Threading.Tasks.TaskStatus>, \<xref:System.Threading.Tasks.TaskStatus>, or \<xref:System.Threading.Tasks.TaskStatus> might not be displayed in the Tasks window when managed threads are in a sleep or join state.  
+>  In managed code, a <xref:System.Threading.Tasks.Task> that has a status of <xref:System.Threading.Tasks.TaskStatus>, <xref:System.Threading.Tasks.TaskStatus>, or <xref:System.Threading.Tasks.TaskStatus> might not be displayed in the Tasks window when managed threads are in a sleep or join state.  
   
 ## Tasks Column Information  
  The columns in the **Tasks** window show the following information.  
@@ -61,7 +62,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 |**Flags**|Shows which tasks are flagged and lets you flag or unflag a task.|  
 |**Icons**|A yellow arrow indicates the current task. The current task is the top-most task on the current thread.<br /><br /> A white arrow indicates the breaking task, that is, the one that was current when the debugger was invoked.<br /><br /> The pause icon indicates a task that has been frozen by the user. You can freeze and unfreeze a task by right-clicking it in the list.|  
 |**ID**|A system-provided number for the task. In native code, this is the address of the task.|  
-|**Status**|The current state (scheduled, active, deadlocked, waiting, or completed) of the task. A scheduled task is one that has not yet been run and, therefore, does not yet have a call stack, assigned thread, or related information.<br /><br /> A active task is one that was executing code before breaking in the debugger.<br /><br /> A waiting task is one that is blocked because it is waiting on an event to be signaled, a lock to be released, or another task to finish.<br /><br /> A deadlocked task is a waiting task whose thread is deadlocked with another thread.<br /><br /> Hover over the **Status** cell for a deadlocked or waiting task to see more information about the block. **Warning:**  The **Tasks** window reports deadlock only for a blocked task that uses a synchronization primitive that is supported by Wait Chain Traversal (WCT). For example, for a deadlocked \<xref:System.Threading.Tasks.Task> object, which uses WCT, the debugger reports **Waiting-deadlocked**. For a deadlocked task that is managed by the Concurrency Runtime, which does not use WCT, the debugger reports **Waiting**. For more information about WCT, see [Wait Chain Traversal](http://msdn.microsoft.com/library/ms681622\(VS.85\).aspx).|  
+|**Status**|The current state (scheduled, active, deadlocked, waiting, or completed) of the task. A scheduled task is one that has not yet been run and, therefore, does not yet have a call stack, assigned thread, or related information.<br /><br /> A active task is one that was executing code before breaking in the debugger.<br /><br /> A waiting task is one that is blocked because it is waiting on an event to be signaled, a lock to be released, or another task to finish.<br /><br /> A deadlocked task is a waiting task whose thread is deadlocked with another thread.<br /><br /> Hover over the **Status** cell for a deadlocked or waiting task to see more information about the block. **Warning:**  The **Tasks** window reports deadlock only for a blocked task that uses a synchronization primitive that is supported by Wait Chain Traversal (WCT). For example, for a deadlocked <xref:System.Threading.Tasks.Task> object, which uses WCT, the debugger reports **Waiting-deadlocked**. For a deadlocked task that is managed by the Concurrency Runtime, which does not use WCT, the debugger reports **Waiting**. For more information about WCT, see [Wait Chain Traversal](http://msdn.microsoft.com/library/ms681622\(VS.85\).aspx).|  
 |**Start Time**|The time at which the task became active.|  
 |**Duration**|The number of seconds that the task has been active.|  
 |**Completion Time**|The time at which the task completed.|  
@@ -106,6 +107,6 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)   
- [Concurrency Runtime](../Topic/Concurrency%20Runtime.md)   
+ [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough--debugging-a-parallel-application.md)
+ [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)

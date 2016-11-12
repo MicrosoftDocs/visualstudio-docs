@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1105"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1105 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1105"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1105"
 ms.assetid: fcbd91ad-a76a-4b22-868d-16824fa96f85
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -56,5 +57,5 @@ public class Extensions
 ```  
   
 ## See Also  
- [Extension Methods](../Topic/Extension%20Methods%20\(C%23%20Programming%20Guide\).md)   
- [static](../Topic/static%20\(C%23%20Reference\).md)
+ [Extension Methods](/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)   
+ [static](/dotnet/csharp/language-reference/keywords/static)

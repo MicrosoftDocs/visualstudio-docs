@@ -1,18 +1,19 @@
 ---
-title: "ResumeProfile"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "ResumeProfile | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "ResumeProfile"
 ms.assetid: 876f145b-ec07-4240-ade6-4f6e44baadce
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -83,7 +84,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI ResumeProfile(
  Import library: VSPerf.lib  
   
 ## Example  
- The following example illustrates the ResumeProfile function. The example assumes that a call to the SuspendProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile_currentid.md).  
+ The following example illustrates the ResumeProfile function. The example assumes that a call to the SuspendProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
 ```  
 void ExerciseResumeProfile()  
@@ -116,4 +117,4 @@ void ExerciseResumeProfile()
 ```  
   
 ## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)
+ [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)

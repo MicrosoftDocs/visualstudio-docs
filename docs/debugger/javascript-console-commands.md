@@ -1,13 +1,13 @@
 ---
-title: "JavaScript Console commands"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "JavaScript Console commands | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugging JavaScript, console [Windows Store apps]"
 ms.assetid: 359e2b24-6bb7-48e7-8b55-b570df0cb774
 caps.latest.revision: 47
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,9 +40,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # JavaScript Console commands
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart--debug-javascript-using-the-console.md). The information in this topic applies to Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](../Topic/Debug%20Your%20App%20Built%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
+ You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](../Topic/Debug%20Your%20App%20Built%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
   
  If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.  
   
@@ -73,7 +74,7 @@ translation.priority.mt:
 |`msIsIndependentlyComposed(element)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
 |`profile(reportName)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
 |`profileEnd()`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
-|`select(element)`|Selects the specified HTML `element` in the [DOM Explorer](../debugger/quickstart--debug-html-and-css.md).|console.select(element);|  
+|`select(element)`|Selects the specified HTML `element` in the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md).|console.select(element);|  
 |`time (name)`|Starts a timer that's identified by the optional `name` parameter. When used with `console.timeEnd`, calculates the time that elapses between `time` and `timeEnd`, and sends the result (measured in ms) to the console using the `name` string as a prefix. Used to enable instrumentation of app code for measuring performance.|`console.time("app start");  app.start();  console.timeEnd("app start");`|  
 |`timeEnd(name)`|Stops a timer that's identified by the optional `name` parameter. See the `time` console command.|`console.time("app start"); app.start(); console.timeEnd("app start");`|  
 |`trace()`|Sends a stack trace to the console window. The trace includes the complete call stack, and includes info such as filename, line number, and column number.|`console.trace();`|  
@@ -88,7 +89,7 @@ translation.priority.mt:
 |`$(id)`|Returns an element by ID. This is a shortcut command for `document.getElementById(id)`, where `id` is a string that represents the element ID.|`$("contenthost")`|  
 |`$$(selector)`|Returns an array of elements that match the specified selector using CSS selector syntax. This is a shortcut command for `document.querySelectorAll()`.|`$$(".itemlist")`|  
 |`cd()`<br /><br /> `cd(window)`|Enables you to change the context for expression evaluation from the default top-level window of the page to the window of the specified frame. Calling `cd()` without parameters returns the context to the top-level window.|`cd();`<br /><br /> `cd(myframe);`|  
-|`select(element)`|Selects the specified element in [DOM Explorer](../debugger/quickstart--debug-html-and-css.md).|`select(document.getElementById("element"));`<br /><br /> `select($("element"));`<br /><br /> `select($1);`|  
+|`select(element)`|Selects the specified element in [DOM Explorer](../debugger/quickstart-debug-html-and-css.md).|`select(document.getElementById("element"));`<br /><br /> `select($("element"));`<br /><br /> `select($1);`|  
 |`dir(object)`|Returns a visualizer for the specified object. You can use the visualizer to inspect properties in the console window.|`dir(obj);`|  
   
 ## Checking whether a console command exists  
@@ -149,5 +150,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```  
   
 ## See Also  
- [QuickStart: Debug JavaScript](../debugger/quickstart--debug-javascript-using-the-console.md)   
- [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)
+ [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)   
+ [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

@@ -1,10 +1,10 @@
 ---
-title: "Adding Visual Studio editor support for other languages"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+title: "Adding Visual Studio editor support for other languages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "syntax colorization"
@@ -16,7 +16,9 @@ helpviewer_keywords:
   - "language support"
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
+manager: "ghogen"
 ---
 # Adding Visual Studio editor support for other languages
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  
@@ -78,5 +80,5 @@ Learn about how the Visual Studio editor supports reading and navigating through
   
 ## See Also  
  [Visual Studio 2013 Navigate To Improvements](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)   
- [Walkthrough: Creating a Code Snippet](../ide/walkthrough--creating-a-code-snippet.md)   
- [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough--displaying-statement-completion.md)
+ [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)   
+ [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)

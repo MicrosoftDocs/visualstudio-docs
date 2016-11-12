@@ -1,11 +1,11 @@
 ---
-title: "Customize your model with profiles and stereotypes"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Customize your model with profiles and stereotypes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, profiles"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "UML model, customizing"
 ms.assetid: fd607157-0d3a-4583-a84e-427a4b2a5acb
 caps.latest.revision: 18
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

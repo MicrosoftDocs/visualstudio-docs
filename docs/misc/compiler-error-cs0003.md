@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0003"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0003 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0003"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0003"
 ms.assetid: 6aee4b0e-e24f-47b5-8281-ca4c7ee8a3cf
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

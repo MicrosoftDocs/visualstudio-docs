@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3164"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3164 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.PackageHomeSiteMissing"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3164"
 ms.assetid: 5a1e31fc-0322-4d4e-8c26-013b1efb82c9
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -45,4 +46,4 @@ translation.priority.mt:
 -   Alternatively, do not use HomeSite.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

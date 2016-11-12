@@ -1,11 +1,11 @@
 ---
-title: "Use code maps to debug your applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Use code maps to debug your applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Visual Studio Ultimate, visualizing code"
@@ -18,8 +18,9 @@ helpviewer_keywords:
   - "mapping relationships in code"
 ms.assetid: 9fd0c9a2-d351-40c8-be88-0749788264bf
 caps.latest.revision: 49
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

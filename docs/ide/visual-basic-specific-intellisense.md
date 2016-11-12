@@ -1,19 +1,20 @@
 ---
-title: "Visual Basic-Specific IntelliSense"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Visual Basic-Specific IntelliSense | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense [Visual Basic]"
   - "IntelliSense [Visual Studio], Visual Basic"
 ms.assetid: 4dec8753-05e5-4f74-b304-5f8c4ed8723b
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ The Visual Basic source code editor offers the following IntelliSense features:
   
 -   Syntax tips  
   
-     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](../Topic/Declare%20Statement.md).  
+     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](/dotnet/visual-basic/language-reference/statements/declare-statement).  
   
 ## Automatic Completion  
   

@@ -1,13 +1,13 @@
 ---
-title: "Argument Matching and the this Pointer"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Argument Matching and the this Pointer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "this pointer, and argument matching"
 ms.assetid: 1d58f8ef-39e4-44f0-8ef2-c09ed71d42bb
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Argument Matching and the this Pointer
-This content has moved to [Function Overloading](../Topic/Function%20Overloading.md)
+This content has moved to [Function Overloading](/visual-cpp/cpp/function-overloading)

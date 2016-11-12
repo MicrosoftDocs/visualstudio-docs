@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS2024"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS2024 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS2023"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS2024"
 ms.assetid: 65cf7419-a5a6-4128-88af-176dc8dba14f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS2024
 Invalid file section alignment number '#'  
   
- An invalid value was passed to the [/filealign](../Topic/-filealign%20\(C%23%20Compiler%20Options\).md) compiler option.  
+ An invalid value was passed to the [/filealign](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option) compiler option.  
   
  The following sample generates CS2024:  
   

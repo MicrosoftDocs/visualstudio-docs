@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1527"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1527 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1527"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1527"
 ms.assetid: a0d52130-d6da-41bb-b153-8e96cbb7e316
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1527
 Elements defined in a namespace cannot be explicitly declared as private, protected, or protected internal  
   
- Type declarations in a namespace can have either [public](../Topic/public%20\(C%23%20Reference\).md) or [internal](../Topic/internal%20\(C%23%20Reference\).md) access. If no accessibility is specified, **internal** is the default.  
+ Type declarations in a namespace can have either [public](/dotnet/csharp/language-reference/keywords/public) or [internal](/dotnet/csharp/language-reference/keywords/internal) access. If no accessibility is specified, **internal** is the default.  
   
  The following sample generates CS1527:  
   
@@ -63,8 +64,8 @@ private struct S1{}
 ```  
   
 ## See Also  
- [Namespaces](../Topic/Namespaces%20\(C%23%20Programming%20Guide\).md)   
- [global](../Topic/global%20\(C%23%20Reference\).md)   
+ [Namespaces](/dotnet/csharp/programming-guide/namespaces/index)   
+ [global](/dotnet/csharp/language-reference/keywords/global)   
  [:: Operator](../Topic/::%20Operator%20\(C%23%20Reference\).md)   
- [Accessibility Domain](../Topic/Accessibility%20Domain%20\(C%23%20Reference\).md)   
- [Access Modifiers](../Topic/Access%20Modifiers%20\(C%23%20Programming%20Guide\).md)
+ [Accessibility Domain](/dotnet/csharp/language-reference/keywords/accessibility-domain)   
+ [Access Modifiers](/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)

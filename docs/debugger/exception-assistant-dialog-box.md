@@ -1,13 +1,13 @@
 ---
-title: "Exception Assistant Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Exception Assistant Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debugger.exceptionassistant"
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "Exception Assistant dialog box"
 ms.assetid: 57999577-0129-47ca-8b87-77b80fdc317a
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,7 +51,7 @@ The **Exception Assistant** dialog box appears when a run-time exception is thro
   
  To perform actions associated with the exception, click one of the actions displayed in the action pane.  
   
- For information about how to enable or disable the Exception Assistant, see [General, Debugging, Options Dialog Box](../debugger/general--debugging--options-dialog-box.md).  
+ For information about how to enable or disable the Exception Assistant, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
   
 ## User Interface Element List  
  **Type of Exception**  
@@ -72,4 +73,4 @@ The **Exception Assistant** dialog box appears when a run-time exception is thro
  [Debugger Security](../debugger/debugger-security.md)   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Correct Run-Time Errors with the Exception Assistant](../Topic/How%20to:%20Correct%20Run-Time%20Errors%20with%20the%20Exception%20Assistant.md)   
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

@@ -1,21 +1,22 @@
 ---
-title: "Domain Property Value Change Handlers"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Domain Property Value Change Handlers | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, overriding event handlers"
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Domain Property Value Change Handlers
-In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
+In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
   
 ## Overriding the Property Handler methods  
  Each domain property of your domain-specific language is handled by a class that is nested inside its parent domain class. Its name follows the format *PropertyName*PropertyHandler. You can inspect this property handler class in the file **Dsl\Generated Code\DomainClasses.cs**. In the class, `OnValueChanging()` is called immediately before the value changes, and `OnValueChanged()` is called immediately after the value changes.  
@@ -170,5 +171,5 @@ namespace msft.FieldChangeSample
 ```  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanged*>   
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanging*>
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanged%2A>   
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanging%2A>

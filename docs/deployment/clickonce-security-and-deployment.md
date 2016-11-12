@@ -1,13 +1,13 @@
 ---
-title: "ClickOnce Security and Deployment"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "ClickOnce Security and Deployment | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
 caps.latest.revision: 32
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -38,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # ClickOnce Security and Deployment
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](../Topic/ClickOnce%20Deployment%20for%20Visual%20C++%20Applications.md).  
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/visual-cpp/ide/clickonce-deployment-for-visual-cpp-applications).  
   
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment overcomes three major issues in deployment:  
   
@@ -67,13 +68,13 @@ translation.priority.ht:
  Code access security helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **ProjectDesigner** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).  
   
 ### ClickOnce Trust Prompt  
- If the application requests more permissions than the zone allows, the end user can be prompted to make a trust decision. The end user can decide if ClickOnce applications such as Windows Forms applications, Windows Presentation Foundation applications, console applications, XAML browser applications, and Office solutions are trusted to run. For more information, see [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to--configure-the-clickonce-trust-prompt-behavior.md).  
+ If the application requests more permissions than the zone allows, the end user can be prompted to make a trust decision. The end user can decide if ClickOnce applications such as Windows Forms applications, Windows Presentation Foundation applications, console applications, XAML browser applications, and Office solutions are trusted to run. For more information, see [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).  
   
 ## How ClickOnce Deployment Works  
  The core [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment architecture is based on two XML manifest files: an application manifest and a deployment manifest. The files are used to describe where the ClickOnce applications are installed from, how they are updated, and when they are updated.  
   
 ### Publishing ClickOnce Applications  
- The application manifest describes the application itself. This includes the assemblies, the dependencies and files that make up the application, the required permissions, and the location where updates will be available. The application developer authors the application manifest by using the Publish Wizard in Visual Studio or the Manifest Generation and Editing Tool (Mage.exe) in the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to--publish-a-clickonce-application-using-the-publish-wizard.md).  
+ The application manifest describes the application itself. This includes the assemblies, the dependencies and files that make up the application, the required permissions, and the location where updates will be available. The application developer authors the application manifest by using the Publish Wizard in Visual Studio or the Manifest Generation and Editing Tool (Mage.exe) in the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
  The deployment manifest describes how the application is deployed. This includes the location of the application manifest, and the version of the application that clients should run.  
   
@@ -106,14 +107,14 @@ translation.priority.ht:
   
 |Tool|Description|  
 |----------|-----------------|  
-|[Security Page, Project Designer](../reference/security-page--project-designer.md)|Signs the application and deployment manifests.|  
-|[Publish Page, Project Designer](../reference/publish-page--project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
+|[Security Page, Project Designer](../ide/reference/security-page-project-designer.md)|Signs the application and deployment manifests.|  
+|[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
 |[Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
 |[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
-|[GenerateApplicationManifest Task](../reference/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|[GenerateDeploymentManifest Task](../reference/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|[SignFile Task](../reference/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|\<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|  
+|[GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
+|[GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
+|[SignFile Task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
+|<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|  
   
  The following table shows the .NET Framework version required to support ClickOnce applications in these browsers.  
   
@@ -128,4 +129,4 @@ translation.priority.ht:
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Deploying COM Components with ClickOnce](../deployment/deploying-com-components-with-clickonce.md)   
  [Building ClickOnce Applications from the Command Line](../deployment/building-clickonce-applications-from-the-command-line.md)   
- [Debugging ClickOnce Applications That Use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system.deployment.application.md)
+ [Debugging ClickOnce Applications That Use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)

@@ -1,13 +1,13 @@
 ---
-title: "Creating an Extension with a VSPackage"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating an Extension with a VSPackage | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
 caps.latest.revision: 5
@@ -59,7 +59,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
     public sealed class FirstPackage : Package  
     ```  
   
-2.  Let’s add a message that lets us know that the VSPackage has loaded. We use the VSPackage’s Initialize() method to do this, because you can get Visual Studio services only after the VSPackage has been sited. (For more information about getting services, see [How to: Get a Service](../extensibility/how-to--get-a-service.md).) Replace the Initialize() method of FirstPackage with code that gets the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, gets the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, and calls its \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox*> method.  
+2.  Let’s add a message that lets us know that the VSPackage has loaded. We use the VSPackage’s Initialize() method to do this, because you can get Visual Studio services only after the VSPackage has been sited. (For more information about getting services, see [How to: Get a Service](../extensibility/how-to-get-a-service.md).) Replace the Initialize() method of FirstPackage with code that gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, gets the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, and calls its <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox%2A> method.  
   
     ```c#  
     protected override void Initialize()  

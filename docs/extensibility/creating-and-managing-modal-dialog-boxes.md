@@ -1,13 +1,13 @@
 ---
-title: "Creating and Managing Modal Dialog Boxes"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating and Managing Modal Dialog Boxes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dialog boxes, managing in Visual Studio"
@@ -33,15 +33,15 @@ translation.priority.mt:
 # Creating and Managing Modal Dialog Boxes
 When you create a modal dialog box inside Visual Studio, you must make sure that the parent window of the dialog box is disabled while the dialog box is displayed, then re-enable the parent window after the dialog box is closed. If you do not do so, you may receive the error: "Microsoft Visual Studio cannot shut down because a modal dialog is active. Close the active dialog and try again."  
   
- There are two ways of doing this. The recommended way, if you have a WPF dialog box, is to derive it from \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>, and then call \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow.ShowModal*> to display the dialog box. If you do this, you do not need to manage the modal state of the parent window.  
+ There are two ways of doing this. The recommended way, if you have a WPF dialog box, is to derive it from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>, and then call <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow.ShowModal%2A> to display the dialog box. If you do this, you do not need to manage the modal state of the parent window.  
   
- If your dialog box is not WPF, or for some other reason you cannot derive your dialog box class from \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>, then you must get the parent of the dialog box by calling \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.GetDialogOwnerHwnd*> and manage the modal state yourself, by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.EnableModeless*> method with a parameter of 0 (false) before displaying the dialog box and calling the method again with a parameter of 1 (true) after closing the dialog box.  
+ If your dialog box is not WPF, or for some other reason you cannot derive your dialog box class from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>, then you must get the parent of the dialog box by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.GetDialogOwnerHwnd%2A> and manage the modal state yourself, by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.EnableModeless%2A> method with a parameter of 0 (false) before displaying the dialog box and calling the method again with a parameter of 1 (true) after closing the dialog box.  
   
 ## Creating a dialog box derived from DialogWindow  
   
 1.  Create a VSIX project named **OpenDialogTest** and add a menu command named **OpenDialog**. For more information about how to do this, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-2.  To use the \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> class, you must add references to the following assemblies (in the Framework tab of the **Add Reference** dialog box):  
+2.  To use the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> class, you must add references to the following assemblies (in the Framework tab of the **Add Reference** dialog box):  
   
     -   PresentationCore  
   
@@ -57,14 +57,14 @@ When you create a modal dialog box inside Visual Studio, you must make sure that
     using Microsoft.VisualStudio.PlatformUI;  
     ```  
   
-4.  Declare a class named **TestDialogWindow** that derives from \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>:  
+4.  Declare a class named **TestDialogWindow** that derives from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow>:  
   
     ```c#  
     class TestDialogWindow : DialogWindow  
     {. . .}  
     ```  
   
-5.  To be able to minimize and maximize the dialog box, set \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindowBase.HasMaximizeButton*> and \<xref:Microsoft.VisualStudio.PlatformUI.DialogWindowBase.HasMinimizeButton*> to true:  
+5.  To be able to minimize and maximize the dialog box, set <xref:Microsoft.VisualStudio.PlatformUI.DialogWindowBase.HasMaximizeButton%2A> and <xref:Microsoft.VisualStudio.PlatformUI.DialogWindowBase.HasMinimizeButton%2A> to true:  
   
     ```c#  
     internal TestDialogWindow()  
@@ -94,20 +94,20 @@ When you create a modal dialog box inside Visual Studio, you must make sure that
     using Microsoft.Internal.VisualStudio.PlatformUI;  
     ```  
   
-3.  Create a class named **TestDialogWindow2** that derives from \<xref:System.Windows.Window>:  
+3.  Create a class named **TestDialogWindow2** that derives from <xref:System.Windows.Window>:  
   
     ```c#  
     class TestDialogWindow2 : Window  
     {. . .}  
     ```  
   
-4.  Add a private reference to \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell>:  
+4.  Add a private reference to <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell>:  
   
     ```  
     private IVsUIShell shell;  
     ```  
   
-5.  Add a constructor that sets the reference to \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell>:  
+5.  Add a constructor that sets the reference to <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell>:  
   
     ```c#  
     public TestDialogWindow2(IVsUIShell uiShell)  

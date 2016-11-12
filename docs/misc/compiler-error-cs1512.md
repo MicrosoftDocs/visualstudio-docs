@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1512"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1512 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1512"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1512"
 ms.assetid: 50740d85-598d-478f-bfe3-e8c2e1a02ab8
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1512
 Keyword 'base' is not available in the current context  
   
- The [base](../Topic/base%20\(C%23%20Reference\).md) keyword was used outside of a method, property, or constructor.  
+ The [base](/dotnet/csharp/language-reference/keywords/base) keyword was used outside of a method, property, or constructor.  
   
  The following example generates CS1512:  
   

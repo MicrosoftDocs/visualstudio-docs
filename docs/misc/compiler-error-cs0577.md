@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0577"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0577 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0577"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0577"
 ms.assetid: 34f8f453-f016-4f2c-981a-0d61449cd74b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0185"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0185 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0185"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0185"
 ms.assetid: d6546e10-0af3-4860-8e6f-2da7dbeb3d28
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0185
 'type' is not a reference type as required by the lock statement  
   
- The [lock](../Topic/lock%20Statement%20\(C%23%20Reference\).md) statement can only evaluate reference types. For more information, see [Thread Synchronization](../Topic/Thread%20Synchronization%20\(C%23%20and%20Visual%20Basic\).md) and [Reference Types](../Topic/Reference%20Types%20\(C%23%20Reference\).md).  
+ The [lock](/dotnet/csharp/language-reference/keywords/lock-statement) statement can only evaluate reference types. For more information, see [Thread Synchronization](../Topic/Thread%20Synchronization%20\(C%23%20and%20Visual%20Basic\).md) and [Reference Types](/dotnet/csharp/language-reference/keywords/reference-types).  
   
 ## Example  
  The following sample generates CS0185:  

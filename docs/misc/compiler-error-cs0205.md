@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0205"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0205 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0205"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0205"
 ms.assetid: 616d98cf-e7a5-4f8e-93da-fcd6e1e4de35
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0205
 Cannot call an abstract base member: 'method'  
   
- You cannot call an [abstract](../Topic/abstract%20\(C%23%20Reference\).md) method because it does not have a method body. For more information, see [Abstract and Sealed Classes and Class Members](../Topic/Abstract%20and%20Sealed%20Classes%20and%20Class%20Members%20\(C%23%20Programming%20Guide\).md).  
+ You cannot call an [abstract](/dotnet/csharp/language-reference/keywords/abstract) method because it does not have a method body. For more information, see [Abstract and Sealed Classes and Class Members](/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members).  
   
  The following sample generates CS0205:  
   

@@ -1,13 +1,13 @@
 ---
-title: "Property Pages Settings for Web Projects"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Property Pages Settings for Web Projects | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debug configurations, Web projects"
 ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Property Pages Settings for Web Projects
-You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
+You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
   
 ### Configuration Properties folder (Start Options category)  
   
@@ -52,14 +53,14 @@ You can change the property settings for a web site debug configuration in the *
 |**Specific page:**|Specifies the Web page where you want to begin debugging.|  
 |**Start external program:**|Specifies the command for launching the program you want to debug.|  
 |**Command line arguments:**|Specifies arguments for the command specified above.|  
-|**Working directory:**|Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], the working directory is the directory the application is launched from, \bin\debug by default.|  
+|**Working directory:**|Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from, \bin\debug by default.|  
 |**Start URL**|Specifies the location of the Web application you want to debug.|  
 |**Don't open a page. Wait for a request from an external application**|Says to wait for a request from an external application. This option does not launch Internet Explorer or another application. It just prepares for debugging when called by an application.|  
 |**Server**|Heading that groups options related to the server to be used.|  
 |**Use default Web server**|Says to use the default Web server.|  
 |**Use custom server**|Allows you to enter the Base URL to use as the server.|  
 |**Debuggers**|Heading that groups options related to type of debugging to be done.|  
-|**ASP.NET debugging**|Enables debugging of server pages written for the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] development platform. You must specify a URL in **Start URL**.|  
+|**ASP.NET debugging**|Enables debugging of server pages written for the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] development platform. You must specify a URL in **Start URL**.|  
 |**Native code debugging**|Enables you to debug calls to native (unmanaged) Win32 code from your managed application.|  
 |**SQL Server debugging**|Allows debugging of SQL Server database objects.|  
 |**Silverlight debugging**|Allows debugging of Silverlight components.|  

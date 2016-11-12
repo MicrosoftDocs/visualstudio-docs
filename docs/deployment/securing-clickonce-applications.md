@@ -1,13 +1,13 @@
 ---
-title: "Securing ClickOnce Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Securing ClickOnce Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce security"
 ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 caps.latest.revision: 45
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -52,19 +53,19 @@ translation.priority.mt:
 |Install from network file share|Local Intranet Zone|  
 |Install from CD-ROM|Full Trust|  
   
- The default permissions are based on the location from which the original version of the application was deployed; updates to the application will inherit those permissions. If the application is configured to check for updates from a Web or network location and a newer version is available, the original installation can receive permissions for the Internet or Intranet zone instead of full-trust permissions. To prevent users from being prompted, a System Administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. For computers on which this policy is deployed, permissions will be granted automatically and the user will not be prompted. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md). To configure trusted application deployment, the certificate can be installed to the machine or enterprise level. For more information, see [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to--add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md).  
+ The default permissions are based on the location from which the original version of the application was deployed; updates to the application will inherit those permissions. If the application is configured to check for updates from a Web or network location and a newer version is available, the original installation can receive permissions for the Internet or Intranet zone instead of full-trust permissions. To prevent users from being prompted, a System Administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. For computers on which this policy is deployed, permissions will be granted automatically and the user will not be prompted. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md). To configure trusted application deployment, the certificate can be installed to the machine or enterprise level. For more information, see [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md).  
   
 ## Code Access Security Policies  
- Permissions for an application are determined by the settings in the [\<trustInfo> Element](../deployment/-trustinfo--element--clickonce-application-.md) element of the application manifest. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically generates this information based on the settings on the project's **Security** property page. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is granted only the specific permissions that it requests. For example, where file access requires full-trust permissions, if the application requests file-access permission, it will only be granted file-access permission, not full-trust permissions. When developing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you should make sure that you request only the specific permissions that the application needs. In most cases, you can use the Internet or Local Intranet zones to limit your application to partial trust. For more information, see [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to--set-a-security-zone-for-a-clickonce-application.md). If your application requires custom permissions, you can create a custom zone. For more information, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md).  
+ Permissions for an application are determined by the settings in the [\<trustInfo> Element](../deployment/trustinfo-element-clickonce-application.md) element of the application manifest. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically generates this information based on the settings on the project's **Security** property page. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is granted only the specific permissions that it requests. For example, where file access requires full-trust permissions, if the application requests file-access permission, it will only be granted file-access permission, not full-trust permissions. When developing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you should make sure that you request only the specific permissions that the application needs. In most cases, you can use the Internet or Local Intranet zones to limit your application to partial trust. For more information, see [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md). If your application requires custom permissions, you can create a custom zone. For more information, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md).  
   
  Including a permission that is not part of the default permission set for the zone from which the application is deployed will cause the end user to be prompted to grant permission at install or update time. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. On computers where this policy is deployed, permissions will automatically be granted and the user will not be prompted.  
   
- As a developer, it is your responsibility to make sure that your application will run with the appropriate permissions. If the application requests permissions outside of a zone during run time, a security exception may appear. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] enables you to debug your application in the target security zone. and provides help in developing secure applications. For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to--debug-a-clickonce-application-with-restricted-permissions.md).  
+ As a developer, it is your responsibility to make sure that your application will run with the appropriate permissions. If the application requests permissions outside of a zone during run time, a security exception may appear. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to debug your application in the target security zone. and provides help in developing secure applications. For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md).  
   
  For more information about code access security and ClickOnce, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).  
   
 ## Code-Signing Certificates  
- To publish an application by using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../reference/signing-page--project-designer.md). Alternatively, you can sign the manifests with a key file during the publishing process, using the Publish Wizard.  
+ To publish an application by using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md). Alternatively, you can sign the manifests with a key file during the publishing process, using the Publish Wizard.  
   
  After the manifests are signed, the publisher information based on the Authenticode signature will be displayed to the user in the permissions dialog box during installation, to show the user that the application originated from a trusted source.  
   
@@ -80,7 +81,7 @@ translation.priority.mt:
   
  `http://servername.adatum.com/WindowsApp1.application?username=joeuser`  
   
- By default, query-string arguments are disabled. To enable them, the attribute `trustUrlParameters` must be set in the application's deployment manifest. This value can be set from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and from MageUI.exe. For detailed steps on how to enable passing query strings, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md).  
+ By default, query-string arguments are disabled. To enable them, the attribute `trustUrlParameters` must be set in the application's deployment manifest. This value can be set from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and from MageUI.exe. For detailed steps on how to enable passing query strings, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md).  
   
  You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they are safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.  
   

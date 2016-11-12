@@ -1,13 +1,13 @@
 ---
-title: "Type parameter cannot have the same name as its defining function"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Type parameter cannot have the same name as its defining function | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc32090"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32090"
 ms.assetid: 02f4d82c-dcd7-44cc-b725-81e235f680f6
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -52,5 +53,5 @@ A type parameter of a generic type is declared with the same name as the generic
 -   Rename the type parameter to be distinct from every name cited in the list on this Help page.  
   
 ## See Also  
- [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)
+ [Generic Types in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/data-types/generic-types)   
+ [Type List](/dotnet/visual-basic/language-reference/statements/type-list)

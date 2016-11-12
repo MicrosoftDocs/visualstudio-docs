@@ -1,13 +1,13 @@
 ---
-title: "Using the Settings Store"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using the Settings Store | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Settings Store, using"
@@ -42,7 +42,7 @@ There are two kinds of settings stores:
 ## Creating the Example Project  
  This section shows how to create a simple extension project with a menu command for demonstration.  
   
-1.  Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] VSIX project named `SettingsStoreExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
+1.  Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `SettingsStoreExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
   
 2.  Now add a custom command item template named **SettingsStoreCommand**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to **SettingsStoreCommand.cs**. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)  
   
@@ -65,7 +65,7 @@ There are two kinds of settings stores:
     SettingsStore configurationSettingsStore = settingsManager.GetReadOnlySettingsStore(SettingsScope.Configuration);  
     ```  
   
-     The \<xref:Microsoft.VisualStudio.Shell.Settings.ShellSettingsManager> is a managed helper class over the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> service.  
+     The <xref:Microsoft.VisualStudio.Shell.Settings.ShellSettingsManager> is a managed helper class over the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> service.  
   
 3.  Now find out whether Windows Phone Tools are installed. The code should look like this:  
   

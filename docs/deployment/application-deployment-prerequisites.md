@@ -1,13 +1,13 @@
 ---
-title: "Application Deployment Prerequisites"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Application Deployment Prerequisites | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "dependencies, ClickOnce"
 ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 caps.latest.revision: 51
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -40,9 +41,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Application Deployment Prerequisites
-To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  
+To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  
   
- You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and other redistributables as a part of your installation. This practice is known as *bootstrapping*. Next, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] generates a Windows executable program named Setup.exe, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md).  
+ You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and other redistributables as a part of your installation. This practice is known as *bootstrapping*. Next, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named Setup.exe, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md).  
   
  Each prerequisite is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. If your application prerequisites are not listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
   
@@ -53,14 +54,14 @@ To ensure that your application will install and run successfully, you must firs
   
 -   The minimum required version of the common language runtime, which is specified as an assembly dependency in the application manifest.  
   
--   The minimum required version of the Windows operating system required by the application, as specified in the application manifest using the `<osVersionInfo>` element. (See [\<dependency> Element](../deployment/-dependency--element--clickonce-application-.md))  
+-   The minimum required version of the Windows operating system required by the application, as specified in the application manifest using the `<osVersionInfo>` element. (See [\<dependency> Element](../deployment/dependency-element-clickonce-application.md))  
   
 -   The minimum version of any and all assemblies that must be preinstalled in the global assembly cache (GAC), as specified by assembly dependency declarations in the assembly manifest.  
   
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] can detect missing prerequisites, and you can install prerequisites by using a bootstrapper. For more information, see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md).  
+ [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] can detect missing prerequisites, and you can install prerequisites by using a bootstrapper. For more information, see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md).  
   
 > [!NOTE]
->  To change the values in the manifests generated by tools such as [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and MageUI.exe, you need to edit the application manifest in a text editor, and then re-sign both the application and deployment manifests. For more information, see [How to: Re-sign Application and Deployment Manifests](../deployment/how-to--re-sign-application-and-deployment-manifests.md).  
+>  To change the values in the manifests generated by tools such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and MageUI.exe, you need to edit the application manifest in a text editor, and then re-sign both the application and deployment manifests. For more information, see [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).  
   
  If you use Visual Studio and ClickOnce to deploy your application, the bootstrapper packages that are selected by default depend on the version of the .NET Framework in the solution. However, if you change the target .NET Framework version, you must update the options in the **Prerequisites Dialog Box** manually.  
   
@@ -74,12 +75,12 @@ To ensure that your application will install and run successfully, you must firs
  If you generate the bootstrapper by using the ClickOnce Publish Wizard or the Publish Page in Visual Studio, the Setup.exe is automatically signed. However, if you want to use your customer's certificate to sign the bootstrapper, you can sign the file later.  
   
 ## Bootstrapping and MSBuild  
- If you do not use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], but compile your applications on the command line, you can create the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper Task](../reference/generatebootstrapper-task.md).  
+ If you do not use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but compile your applications on the command line, you can create the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper Task](../msbuild/generatebootstrapper-task.md).  
   
  As an alternative to bootstrapping, you can pre-deploy components using an electronic software distribution system, such as Microsoft Systems Management Server (SMS).  
   
 ## Bootstrapper (Setup.exe) Command Line Arguments  
- The Setup.exe generated by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the MSBuild tasks supports the following small set of command-line arguments. Any arguments supplied to the bootstrapping application beyond these are forwarded to the application installer.  
+ The Setup.exe generated by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the MSBuild tasks supports the following small set of command-line arguments. Any arguments supplied to the bootstrapping application beyond these are forwarded to the application installer.  
   
  If you change any bootstrapper options, you must change the unsigned bootstrapper and then sign the bootstrapper file later.  
   
@@ -88,7 +89,7 @@ To ensure that your application will install and run successfully, you must firs
 |**-?, -h, -help**|Displays a Help dialog box.|  
 |**-url, -componentsurl**|Shows the stored URL and components url for this set up.|  
 |**-url=** `location`|Sets the URL where Setup.exe will look for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.|  
-|**-componentsurl=** `location`|Sets the URL where Setup.exe will look for the dependencies, such as the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].|  
+|**-componentsurl=** `location`|Sets the URL where Setup.exe will look for the dependencies, such as the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].|  
 |**-homesite=** `true` **&#124;** `false`|When `true`, downloads the dependencies from the preferred location on the vendor's site. This overrides the **-componentsurl** setting. When `false`, downloads the dependencies from the URL specified by **-componentsurl**.|  
   
 ## Operating System Support  

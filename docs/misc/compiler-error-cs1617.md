@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1617"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1617 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1617"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1617"
 ms.assetid: fd3371ed-39eb-4d3d-b8f5-d96ac0c79398
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,6 +39,6 @@ translation.priority.mt:
 # Compiler Error CS1617
 Invalid option 'option' for /langversion; must be ISO-1, ISO-2 or Default  
   
- This error occurs if you used the [/langversion](../Topic/-langversion%20\(C%23%20Compiler%20Options\).md) command line switch or project setting but didn't specify a valid language option. To resolve this error, check the command line syntax or project setting and change it to one of the listed options.  
+ This error occurs if you used the [/langversion](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option) command line switch or project setting but didn't specify a valid language option. To resolve this error, check the command line syntax or project setting and change it to one of the listed options.  
   
  For example, compiling with `csc /langversion:ISO` will generate error CS1617.

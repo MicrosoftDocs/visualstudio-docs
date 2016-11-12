@@ -1,13 +1,13 @@
 ---
-title: "Use of typedef with Class Types"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Use of typedef with Class Types | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "class types, with typedef declarations"
 ms.assetid: c1868714-6364-4ff0-9572-2ec25b5009fa
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Use of typedef with Class Types
-This content has moved to [(NOTINBUILD)typedef Specifier](assetId:///cc96cf26-ba93-4179-951e-695d1f5fdcf1).
+This content has moved to [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/en-us/cc96cf26-ba93-4179-951e-695d1f5fdcf1).

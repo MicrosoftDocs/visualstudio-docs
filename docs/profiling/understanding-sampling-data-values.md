@@ -1,19 +1,20 @@
 ---
-title: "Understanding Sampling Data Values"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Understanding Sampling Data Values | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "sampling profiling method"
   - "Profiling Tools, sampling"
 ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,11 +34,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Understanding Sampling Data Values
-The *sampling* profiling method of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
+The *sampling* profiling method of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  The profiler analysis determines whether the processor is executing code in the target process. If the processor is not executing code in the target process, the sample is discarded.  
   
@@ -64,5 +65,5 @@ The *sampling* profiling method of the [!INCLUDE[vsprvs](../codequality/includes
  The percentage of the total number of exclusive samples in the profiling run that are exclusive samples of the function or data range.  
   
 ## See Also  
- [How to: Choose Collection Methods](../profiling/how-to--choose-collection-methods.md)   
+ [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

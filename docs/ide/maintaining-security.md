@@ -1,13 +1,13 @@
 ---
-title: "Maintaining Security"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Maintaining Security | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unauthorized access"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "security [.NET Framework], maintaining after deployment"
 ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

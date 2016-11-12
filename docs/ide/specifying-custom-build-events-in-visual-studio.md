@@ -1,18 +1,19 @@
 ---
-title: "Specifying Custom Build Events in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Specifying Custom Build Events in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "build events, customizing"
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,14 +36,14 @@ By specifying a custom build event, you can automatically run commands before a 
   
  For specific information about the programming language that you’re using, see the following topics:  
   
--   Visual Basic--[How to: Specify Build Events (Visual Basic)](../ide/how-to--specify-build-events--visual-basic-.md).  
+-   Visual Basic--[How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).  
   
--   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to--specify-build-events--csharp-.md).  
+-   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md).  
   
--   Visual C++--[Specifying Build Events](../Topic/Specifying%20Build%20Events.md).  
+-   Visual C++--[Specifying Build Events](/visual-cpp/ide/specifying-build-events).  
   
 ## Syntax  
- Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
+ Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
   
  For best results, follow these formatting tips:  
   
@@ -54,7 +55,7 @@ By specifying a custom build event, you can automatically run commands before a 
   
 -   Enclose file paths in quotation marks.  
   
-     Example (for [!INCLUDE[win8](../codequality/includes/win8_md.md)]): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"  
+     Example (for [!INCLUDE[win8](../debugger/includes/win8_md.md)]): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"  
   
 -   Separate multiple commands by using line breaks.  
   
@@ -67,6 +68,6 @@ By specifying a custom build event, you can automatically run commands before a 
   
 ## See Also  
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
- [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
- [MSBuild Special Characters](../reference/msbuild-special-characters.md)   
- [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md)
+ [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+ [MSBuild Special Characters](../msbuild/msbuild-special-characters.md)   
+ [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)

@@ -1,13 +1,13 @@
 ---
-title: "Format Specifiers in C#"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Format Specifiers in C# | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugger, format specifiers recognized by"
 ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

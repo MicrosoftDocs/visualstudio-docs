@@ -1,16 +1,17 @@
 ---
-title: "Getting Started with Domain-Specific Languages"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Getting Started with Domain-Specific Languages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 024392a2-2c04-404f-a27b-7273553c3b60
 caps.latest.revision: 16
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -34,7 +35,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## What can you do with a Domain-Specific Language?  
  A domain-specific language is a notation, usually graphical, that is designed to be used for a particular purpose. By contrast, languages such as UML are general-purpose. In a DSL, you can define the types of model element and their relationships, and how they are presented on the screen.  
   
- When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+ When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
  ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png "FamilyT_Instance")  
   
@@ -42,19 +43,19 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
  One of the principal applications of DSLs is to generate program code, configuration files, and other artifacts. Especially in large projects and product lines, where several variants of a product will be created, generating many of the variable aspects from DSLs can provide a large increase in reliability and a very rapid response to requirements changes.  
   
- The rest of this overview is a walkthrough that introduces the basic operations of creating and using a domain-specific language in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ The rest of this overview is a walkthrough that introduces the basic operations of creating and using a domain-specific language in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Prerequisites  
  To define a DSL, you must have installed the following components:  
   
 |||  
 |-|-|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
 |Modeling SDK for Visual Studio|[Download MSDK](http://www.microsoft.com/download/details.aspx?id=40754)|  
   
 ## Creating a DSL Solution  
- To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution by using the Domain-Specific Language project template.  
+ To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution by using the Domain-Specific Language project template.  
   
 #### To create a DSL solution  
   
@@ -102,7 +103,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 -   **Dsl project** This project contains code that defines the domain-specific language.  
   
--   **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ##  <a name="Debugging"></a> Running the DSL  
  You can run the DSL solution as soon as you have created it. Later, you can modify the DSL definition gradually, running the solution again after each change.  
@@ -112,15 +113,15 @@ This topic explains the basic concepts in defining and using a domain-specific l
 1.  Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
     > [!NOTE]
-    >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](assetId:///b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+    >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2.  Press F5, or on the **Debug** menu, click **Start Debugging**.  
   
-     The DSL builds and is installed in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     The DSL builds and is installed in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts. The experimental instance takes its settings from a separate subtree of the registry, where [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions are registered for debugging purposes. Normal instances of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] do not have access to extensions registered there.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts. The experimental instance takes its settings from a separate subtree of the registry, where [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions are registered for debugging purposes. Normal instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] do not have access to extensions registered there.  
   
-3.  In the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open the model file named **Test** from **Solution Explorer**.  
+3.  In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open the model file named **Test** from **Solution Explorer**.  
   
      \- or -  
   
@@ -138,7 +139,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 5.  Click the labels of the shapes to change them.  
   
- Your experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will resemble the following example:  
+ Your experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will resemble the following example:  
   
  ![](../modeling/media/dsl_min.png "DSL_min")  
   
@@ -149,12 +150,12 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
  You can view a model as a tree in the **Explorer** view while you are editing a model. As you add shapes to the diagram, the model elements also appear in the explorer. The explorer can be used even if there is no diagram.  
   
- If you cannot see the Explorer in the debugging instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], on the **View** menu point to **Other Windows**, and then click *\<Your Language>* **Explorer**.  
+ If you cannot see the Explorer in the debugging instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **View** menu point to **Other Windows**, and then click *\<Your Language>* **Explorer**.  
   
 ### The API of your DSL  
  Your DSL generates an API that allows you to read and update models that are instances of the DSL. One application of the API is to generate text files from a model. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).  
   
- In the Debugging solution, open the template files with extension ".tt". These samples demonstrate how you can generate text from models, and allow you to test the API of your DSL. One of the samples is written in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], the other in [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+ In the Debugging solution, open the template files with extension ".tt". These samples demonstrate how you can generate text from models, and allow you to test the API of your DSL. One of the samples is written in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the other in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
  Under each template file is the file that it generates. Expand the template file in Solution Explorer, and open the generated file.  
   
@@ -166,7 +167,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 ##### To regenerate text files after you change the model file  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], save the model file.  
+1.  In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], save the model file.  
   
 2.  Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.  
   
@@ -184,7 +185,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
  For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).  
   
 ## Customizing the DSL  
- When you want to modify the DSL definition, close the experimental instance and update the definition in the main [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] instance.  
+ When you want to modify the DSL definition, close the experimental instance and update the definition in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] instance.  
   
 > [!NOTE]
 >  After you have modified the DSL definition, you might lose information in the test models that you have created by using earlier versions.  For example, the debugging solution contains a file that is named Sample, which contains some shapes and connectors. After you start to develop your DSL definition, they will not be visible, and they will be lost when you save the file.  
@@ -224,9 +225,9 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     2.  Click **Transform All Templates** in the toolbar of Solution Explorer  
   
-    3.  Press F5. Wait until the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] appears.  
+    3.  Press F5. Wait until the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] appears.  
   
-4.  In the Debugging solution in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.  
+4.  In the Debugging solution in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.  
   
 5.  Save the model file.  
   
@@ -350,7 +351,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 8.  Save the DSL Definition, click **Transform All Templates**, and then press **F5**.  
   
-9. In the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open a test model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.  
+9. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a test model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.  
   
 10. Create code that lists the town in which each person lives. Text templates are one of the places where you can run such code. For example, you could modify the existing Sample.tt file in the Debugging solution so that it contains the following code:  
   
@@ -382,31 +383,31 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## Validation and Commands  
  You could develop this DSL further by adding validation constraints. These constraints are methods that you can define, that make sure that the model is in a correct state. For example, you could define a constraint to make sure that the birth date of a child is later than that of its parents. The validation feature displays a warning if the DSL user tries to save a model that breaks any of the constraints. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).  
   
- You can also define menu commands that the user can invoke. Commands can modify the model. They can also interact with other models in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and with external resources. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to--modify-a-standard-menu-command-in-a-domain-specific-language.md).  
+ You can also define menu commands that the user can invoke. Commands can modify the model. They can also interact with other models in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and with external resources. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).  
   
 ## Deploying the DSL  
- To allow other users to use the domain-specific language, you distribute a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension (VSIX) file. This is created when you build the DSL solution.  
+ To allow other users to use the domain-specific language, you distribute a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) file. This is created when you build the DSL solution.  
   
- Locate the .vsix file in the bin folder of your solution. Copy it to the computer on which you want to install it. On that computer, double-click the VSIX file. The DSL can be used in all instances of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] on that computer.  
+ Locate the .vsix file in the bin folder of your solution. Copy it to the computer on which you want to install it. On that computer, double-click the VSIX file. The DSL can be used in all instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on that computer.  
   
- You can use the same procedure to install the DSL on your own computer so that you do not have to use the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ You can use the same procedure to install the DSL on your own computer so that you do not have to use the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
   
 ##  <a name="Reset"></a> Removing old Experimental DSLs  
- If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Experimental instance.  
+ If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Experimental instance.  
   
- This will remove from your computer all experimental DSLs and other experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions. These are extensions that have been executed in debugging mode.  
+ This will remove from your computer all experimental DSLs and other experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions. These are extensions that have been executed in debugging mode.  
   
- This procedure does not remove DSLs or other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions that have been fully installed by executing the VSIX file.  
+ This procedure does not remove DSLs or other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions that have been fully installed by executing the VSIX file.  
   
 #### To reset the Visual Studio Experimental instance  
   
 1.  Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.  
   
-2.  Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions that you still want to use.  
+2.  Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions that you still want to use.  
   
 ## See Also  
- [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md)   
+ [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)

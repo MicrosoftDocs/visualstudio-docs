@@ -1,13 +1,13 @@
 ---
-title: "Class View and Object Browser Icons"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Class View and Object Browser Icons | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "icons, in Object Browser"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Object Browser, icons in Class View"
 ms.assetid: 58cc3f44-c296-4a88-a008-09d28598d9c0
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

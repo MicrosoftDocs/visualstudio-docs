@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0136"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0136 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0136"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0136"
 ms.assetid: 379a1a7d-c52c-4f2b-9e77-c1107d26faf4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -61,6 +62,6 @@ namespace MyNamespace
 }  
 ```  
   
- From the [C# Language Specification](../Topic/C%23%20Language%20Specification.md), Section 7.5.2.1:  
+ From the [C# Language Specification](/dotnet/csharp/language-reference/language-specification), Section 7.5.2.1:  
   
  For each occurrence of a given identifier as a simple-name in an expression or declarator, within the local variable declaration space (§3.3) immediately enclosing that occurrence, every other occurrence of the same identifier as a simple-name in an expression or declarator must refer to the same entity. This rule ensures that the meaning of a name is always the same within a given block, switch block, for-, foreach- or using-statement, or anonymous function.

@@ -1,20 +1,21 @@
 ---
-title: "Search text not found"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Search text not found | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID744"
 ms.assetid: 145f0a6d-7fdd-4d73-9dc6-5fea39a52896
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -39,4 +40,4 @@ The text you specified was not found.
 1.  Check that the specified text is spelled correctly.  
   
 ## See Also  
- [How to: Search Interactively](assetId:///e9fdbfab-bd59-401a-92d3-7ce1652b243c)
+ [How to: Search Interactively](http://msdn.microsoft.com/en-us/e9fdbfab-bd59-401a-92d3-7ce1652b243c)

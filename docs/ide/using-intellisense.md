@@ -1,13 +1,13 @@
 ---
-title: "Using IntelliSense"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Using IntelliSense | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vc.tools.intellisense"
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "List Members"
 ms.assetid: 9fdb489b-8b46-4b92-9ccc-c8f8cc184081
 caps.latest.revision: 29
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

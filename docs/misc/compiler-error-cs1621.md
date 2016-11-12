@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1621"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1621 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1621"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1621"
 ms.assetid: 11b4fb94-0dd7-4484-99aa-e06eacc6a658
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -73,6 +74,6 @@ class C : IEnumerable
   
 ## See Also  
  [Iterators](../Topic/Iterators%20\(C%23%20and%20Visual%20Basic\).md)   
- [yield](../Topic/yield%20\(C%23%20Reference\).md)   
- [Lambda Expressions](../Topic/Lambda%20Expressions%20\(C%23%20Programming%20Guide\).md)   
- [Anonymous Methods](../Topic/Anonymous%20Methods%20\(C%23%20Programming%20Guide\).md)
+ [yield](/dotnet/csharp/language-reference/keywords/yield)   
+ [Lambda Expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)   
+ [Anonymous Methods](/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-methods)

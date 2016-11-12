@@ -1,19 +1,20 @@
 ---
-title: "Import UML model elements from XMI files"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Import UML model elements from XMI files | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML diagrams, importing elements"
   - "UML model, importing elements"
 ms.assetid: 3677e4f9-2fef-487d-9e6e-829b4195207f
 caps.latest.revision: 29
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "kamrani"
 translation.priority.ht: 

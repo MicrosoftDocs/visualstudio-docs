@@ -1,19 +1,20 @@
 ---
-title: "Define and install a modeling extension"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Define and install a modeling extension | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML - extending"
   - "UML model, extending"
 ms.assetid: 82a58dc5-c7cf-4521-a6da-7ff09cd0de9d
 caps.latest.revision: 37
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,7 +42,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
 ## Creating a Modeling Extension Solution  
  To define a modeling extension, you must create a solution containing these projects:  
   
--   A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
+-   A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
   
 -   A class library project, required for components that include program code.  
   
@@ -106,9 +107,9 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To run an extension during its development  
   
-1.  In the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] **Debug** menu, choose **Start Debugging**.  
+1.  In the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] **Debug** menu, choose **Start Debugging**.  
   
-     The project builds, and a new instance of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] starts in Experimental mode.  
+     The project builds, and a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] starts in Experimental mode.  
   
     -   Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
   

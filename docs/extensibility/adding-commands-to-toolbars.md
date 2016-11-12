@@ -1,13 +1,13 @@
 ---
-title: "Adding Commands to Toolbars"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Adding Commands to Toolbars | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f8cfba8-0653-4ccc-a2da-acf064c83aa7
 caps.latest.revision: 3

@@ -1,13 +1,13 @@
 ---
-title: "Security and Localized Satellite Assemblies"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Security and Localized Satellite Assemblies | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "key pairs for strong-named assemblies"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "localization, satellite assemblies"
 ms.assetid: 6d953840-b301-47d5-8d34-30c1b29b5071
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,6 +46,6 @@ If your main assembly uses strong naming, satellite assemblies must be signed wi
 ## See Also  
  [Assembly Security Considerations](../Topic/Assembly%20Security%20Considerations.md)   
  [Key Security Concepts](../Topic/Key%20Security%20Concepts.md)   
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)   
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

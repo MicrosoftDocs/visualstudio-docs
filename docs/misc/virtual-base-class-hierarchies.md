@@ -1,13 +1,13 @@
 ---
-title: "Virtual Base Class Hierarchies"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Virtual Base Class Hierarchies | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "hierarchies, virtual base class"
 ms.assetid: d24fda17-f829-48d6-84ec-8100f26bc5cf
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -41,7 +42,7 @@ translation.priority.mt:
 # Virtual Base Class Hierarchies
 Some class hierarchies are broad but have many things in common. The common code is implemented in a base class, whereas the specific code is in the derived classes.  
   
- It is important for the base classes to establish a protocol through which the derived classes can attain maximum functionality. These protocols are commonly implemented using virtual functions. Sometimes the base class provides a default implementation for such functions. In a class hierarchy such as the `Document` hierarchy in the figure Sample of Directed Acyclic Graph (see [Single Inheritance](../Topic/Single%20Inheritance.md)), two useful functions are `Identify` and `WhereIs`.  
+ It is important for the base classes to establish a protocol through which the derived classes can attain maximum functionality. These protocols are commonly implemented using virtual functions. Sometimes the base class provides a default implementation for such functions. In a class hierarchy such as the `Document` hierarchy in the figure Sample of Directed Acyclic Graph (see [Single Inheritance](/visual-cpp/cpp/single-inheritance)), two useful functions are `Identify` and `WhereIs`.  
   
  When called, the `Identify` function returns a correct identification, appropriate to the kind of document: For a `Book`, a function call such as `doc->Identify()` must return the ISBN number; however, for a `HelpFile`, a product name and revision number are probably more appropriate. Similarly, `WhereIs` should return a row and shelf for a `Book`, but for a `HelpFile` it should return a disk location — perhaps a directory and filename.  
   

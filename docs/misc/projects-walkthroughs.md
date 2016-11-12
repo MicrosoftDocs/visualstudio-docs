@@ -1,13 +1,13 @@
 ---
-title: "Projects Walkthroughs"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Projects Walkthroughs | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "visual studio project system"
@@ -37,12 +37,12 @@ Visual Studio projects are the containers that developers use to organize source
  The walkthroughs in this section teach how to create and extend Visual Studio projects. For more information about Visual Studio projects and what they can do, see [Extending Projects](../extensibility/extending-projects.md).  
   
 ## In This Section  
- [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md)  
+ [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md)  
  Shows how to create a project type that includes a prototype template, a custom icon, and a basic project factory implementation.  
   
- [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system--part-2.md)  
+ [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system-part-2.md)  
  Shows how to build deploy and test a project type.  
   
 ## Related Sections  
- [VSSDK Utilities](../extensibility/vssdk-utilities.md)  
+ [VSSDK Utilities](../extensibility/internals/vssdk-utilities.md)  
  Describes how you can customize elements of the Visual Studio integrated development environment (IDE).

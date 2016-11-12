@@ -1,19 +1,20 @@
 ---
-title: "Understanding Instrumentation Data Values"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Understanding Instrumentation Data Values | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools,instrumentation"
   - "instrumentation profiling method"
 ms.assetid: 2cf94cf9-c317-4a52-bf00-670f1262165e
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,11 +34,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Understanding Instrumentation Data Values
-The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] records detailed timing information for the function calls, lines, and instructions in the profiled application  
+The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] records detailed timing information for the function calls, lines, and instructions in the profiled application  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following:  
   
@@ -47,7 +48,7 @@ The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../codequality/i
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  For each interval, the profiler analysis reconstructs the call stack that was present at the end of the interval. A call stack is the list of functions that are active on a processor at a point in time. Only one function (the current function) is executing code; the other functions are the chain of function calls that resulted in the call to the current function (the call stack).  
   
@@ -111,4 +112,4 @@ The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../codequality/i
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [How to: Choose Collection Methods](../profiling/how-to--choose-collection-methods.md)
+ [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)

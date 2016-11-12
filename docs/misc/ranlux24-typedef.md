@@ -1,13 +1,13 @@
 ---
-title: "ranlux24 TypeDef"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "ranlux24 TypeDef | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "random/std::tr1::ranlux24"
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "ranlux24 typedef"
 ms.assetid: 2a2c1fcf-8bf7-447e-8b1d-f78e7b6f02d7
 caps.latest.revision: 8
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

@@ -1,16 +1,17 @@
 ---
-title: "T4 Parameter Directive"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "T4 Parameter Directive | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d590387-1d9d-40a5-a72c-65fae7a8bdf3
 caps.latest.revision: 3
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,7 +28,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Parameter Directive
-In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
+In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
   
 ## Using the Parameter Directive  
   
@@ -35,9 +36,9 @@ In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text template, the
 <#@ parameter type="Full.TypeName" name="ParameterName" #>  
 ```  
   
- The `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation. The values can be passed either in the `Session` dictionary, or in \<xref:System.Runtime.Remoting.Messaging.CallContext>.  
+ The `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation. The values can be passed either in the `Session` dictionary, or in <xref:System.Runtime.Remoting.Messaging.CallContext>.  
   
- You can declare parameters of any remotable type. That is, the type must be declared with \<xref:System.SerializableAttribute>, or it must derive from \<xref:System.MarshalByRefObject>. This allows parameter values to be passed into the AppDomain in which the template is processed.  
+ You can declare parameters of any remotable type. That is, the type must be declared with <xref:System.SerializableAttribute>, or it must derive from <xref:System.MarshalByRefObject>. This allows parameter values to be passed into the AppDomain in which the template is processed.  
   
  For example, you could write a text template with the following content:  
   
@@ -53,7 +54,7 @@ Line <#= i #>
 ```  
   
 ## Passing parameter values to a template  
- If you are writing a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
+ If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
   
 ```c#  
 // Get a service provider – how you do this depends on the context:  
@@ -72,7 +73,7 @@ string result = t4.ProcessTemplate("MyTemplateFile.t4",
 ```  
   
 ## Passing values in the Call Context  
- You can alternatively pass values as logical data in \<xref:System.Runtime.Remoting.Messaging.CallContext>.  
+ You can alternatively pass values as logical data in <xref:System.Runtime.Remoting.Messaging.CallContext>.  
   
  The following example passes values by using both methods:  
   

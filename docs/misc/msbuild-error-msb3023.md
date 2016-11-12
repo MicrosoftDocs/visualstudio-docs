@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3023"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3023 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.Copy.NeedsDestination"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3023"
 ms.assetid: 3505ad1e-d54f-4cb4-a299-ac03684cb391
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,5 +44,5 @@ translation.priority.mt:
 -   Specify either `DestinationFiles`or`DestinationDirectory`for the `Copy` task.  
   
 ## See Also  
- [Copy Task](../reference/copy-task.md)   
- [Tasks](../reference/msbuild-tasks.md)
+ [Copy Task](../msbuild/copy-task.md)   
+ [Tasks](../msbuild/msbuild-tasks.md)

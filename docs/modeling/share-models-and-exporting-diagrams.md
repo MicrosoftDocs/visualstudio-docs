@@ -1,19 +1,20 @@
 ---
-title: "Share models and exporting diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Share models and exporting diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, sharing"
   - "UML diagrams, saving"
 ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
 caps.latest.revision: 14
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -39,7 +40,7 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
   
  Different users can work at the same time on a UML model, but should work on different packages.  
   
- We recommend that you use [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)].  
+ We recommend that you use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].  
   
  For more information, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md).  
   

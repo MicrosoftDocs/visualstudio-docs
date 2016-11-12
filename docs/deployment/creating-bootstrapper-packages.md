@@ -1,13 +1,13 @@
 ---
-title: "Creating Bootstrapper Packages"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Creating Bootstrapper Packages | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "redistributables list"
 ms.assetid: ba1a785b-693d-446b-bcae-b88cadee73d1
 caps.latest.revision: 45
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -47,7 +48,7 @@ The Setup program is a generic installer that can be configured to detect and in
  The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end-user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  
   
 ## Creating Custom Packages  
- You can generate the manifests by using the XML Editor in Visual Studio. For more information, see [How to: Create a Package Manifest](../deployment/how-to--create-a-package-manifest.md) and [How to: Create a Product Manifest](../deployment/how-to--create-a-product-manifest.md). To see an example of creating a bootstrapper package, see [Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt](../deployment/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md).  
+ You can generate the manifests by using the XML Editor in Visual Studio. For more information, see [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md) and [How to: Create a Product Manifest](../deployment/how-to-create-a-product-manifest.md). To see an example of creating a bootstrapper package, see [Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt](../deployment/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md).  
   
  To create a bootstrapper package, you have to supply the redistributable in the form of an EXE or MSI file.to the Bootstrapper Manifest Generator. Then, the Bootstrapper Manifest Generator creates the following files:  
   
@@ -81,7 +82,7 @@ The Setup program is a generic installer that can be configured to detect and in
   
  `package.xml`  
   
- Finally, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a Localized Bootstrapper Package](../deployment/how-to--create-a-localized-bootstrapper-package.md).  
+ Finally, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a Localized Bootstrapper Package](../deployment/how-to-create-a-localized-bootstrapper-package.md).  
   
 ```  
 \Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages  
@@ -107,7 +108,7 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
   
  Each redistributable component appears in its own subfolder under the packages directory. The product manifest and redistributable files are put into this subfolder. Localized versions of the component and package manifests are put in subfolders named according to Culture Name.  
   
- After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio prerequisites dialog box. If your custom bootstrapper package does not appear, close and then reopen the Prerequisites Dialog Box. For more information, see [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md).  
+ After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio prerequisites dialog box. If your custom bootstrapper package does not appear, close and then reopen the Prerequisites Dialog Box. For more information, see [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md).  
   
  The following table shows the properties that are automatically populated by the bootstrapper.  
   
@@ -136,7 +137,7 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
 ```  
   
 ## See Also  
- [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md)   
- [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md)   
+ [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
+ [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](http://go.microsoft.com/fwlink/?LinkId=107537)

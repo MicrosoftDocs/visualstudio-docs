@@ -1,13 +1,13 @@
 ---
-title: "Default Keyboard Shortcuts in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Default Keyboard Shortcuts in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "shortcut keys [Visual Studio], keyboard binding schemes"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "keyboard shortcuts"
 ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 55
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -1171,5 +1172,5 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |XsdDesigner.ShowStartView|Ctrl+1|  
   
 ## See Also  
- [Image Editor for Icons](../Topic/Image%20Editor%20for%20Icons.md)   
+ [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons)   
  [Using IntelliSense](../ide/using-intellisense.md)

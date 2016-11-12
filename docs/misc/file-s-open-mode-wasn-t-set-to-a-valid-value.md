@@ -1,18 +1,19 @@
 ---
-title: "File&#39;s open mode wasn&#39;t set to a valid value"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "File&#39;s open mode wasn&#39;t set to a valid value | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 969541f6-9ff6-4804-ba61-0d17370060ef
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -30,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # File&#39;s open mode wasn&#39;t set to a valid value
-The value supplied for the file's open mode was not valid. The following table shows valid values for the \<xref:Microsoft.VisualBasic.OpenMode> enumeration.  
+The value supplied for the file's open mode was not valid. The following table shows valid values for the <xref:Microsoft.VisualBasic.OpenMode> enumeration.  
   
 |Value|Mode|  
 |-----------|----------|  
@@ -45,7 +46,7 @@ The value supplied for the file's open mode was not valid. The following table s
 -   Verify the value being supplied for the file's open mode.  
   
 ## See Also  
- [NOTINBUILD OpenMode Enumeration](assetId:///e995bd42-d11f-455c-88c4-308345172633)   
- [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)   
- [Reading from Files](../Topic/Reading%20from%20Files%20in%20Visual%20Basic.md)   
- [Writing to Files](../Topic/Writing%20to%20Files%20in%20Visual%20Basic.md)
+ [NOTINBUILD OpenMode Enumeration](http://msdn.microsoft.com/en-us/e995bd42-d11f-455c-88c4-308345172633)   
+ [My.Computer.FileSystem Object](/dotnet/visual-basic/language-reference/objects/my-computer-filesystem-object)   
+ [Reading from Files](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files)   
+ [Writing to Files](/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files)

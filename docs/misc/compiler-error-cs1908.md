@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1908"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1908 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1908"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1908"
 ms.assetid: d7da31c2-48ef-4401-b885-3459b4d7f6f6
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1908
 The type of the argument to the DefaultValue attribute must match the parameter type  
   
- This error is generated when you use the wrong argument for the \<xref:System.ComponentModel.DefaultValueAttribute> attribute value. Use a value that matches the parameter type.  
+ This error is generated when you use the wrong argument for the <xref:System.ComponentModel.DefaultValueAttribute> attribute value. Use a value that matches the parameter type.  
   
 ## Example  
  The following sample generates CS1908.  

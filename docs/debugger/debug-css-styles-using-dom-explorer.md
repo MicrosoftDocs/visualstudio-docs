@@ -1,13 +1,13 @@
 ---
-title: "Debug CSS styles using DOM Explorer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Debug CSS styles using DOM Explorer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "HTML debugging [Windows Store apps]"
 ms.assetid: 2dfef7c6-7db2-4550-b694-783b0e535cea
 caps.latest.revision: 44
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug CSS styles using DOM Explorer
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  When you're debugging Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova, you can view and change CSS rules for selected DOM elements and their child elements.  
   
@@ -59,17 +60,17 @@ translation.priority.mt:
 -   Use the **Changes** tab (Windows Store and Windows Phone Store apps only) to identify and track CSS styles that you have changed during a debugging session.  
   
 > [!TIP]
->  Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app--javascript-.md).  
+>  Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
   
 ## Example of fixing a CSS rule  
- This example shows how to inspect CSS rules and debug a style issue. For this example, let's say that you want to change the color of a font used to display group titles in the [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] Split App template.  
+ This example shows how to inspect CSS rules and debug a style issue. For this example, let's say that you want to change the color of a font used to display group titles in the [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] Split App template.  
   
 > [!NOTE]
 >  This example shows a Windows Store app, but all the DOM Explorer features shown also apply to a Windows Phone Store app and, except for the Changes tab, an app created using Visual Studio Tools for Apache Cordova.  
   
 #### To view and change CSS rules  
   
-1.  In Visual Studio, create a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app using JavaScript and HTML in the Split App project template.  
+1.  In Visual Studio, create a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app using JavaScript and HTML in the Split App project template.  
   
 2.  In **Solution Explorer**, open items.css. (You can find items.css in the pages folder.)  
   
@@ -114,7 +115,7 @@ translation.priority.mt:
 6.  Switch to Visual Studio and click **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click. Here is the **Select Element** button. ![Select Element Button in DOM Explorer](../debugger/media/js_dom_select_element_button.png "JS_DOM_Select_Element_Button")  
   
     > [!TIP]
-    >  You can also select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md).  
+    >  You can also select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
 7.  In the Simulator, hover over the title of the first item in the list, **Group Title: 1**, in the left panel of the home page. The title is highlighted, as shown here:  
   
@@ -168,7 +169,7 @@ translation.priority.mt:
 16. To make changes to the source CSS file, click the **items.css** link on the **Styles** tab. This opens items.css, where you can change the value of the `color` style in your app code. To refresh the app without stopping and restarting the debugger, click the  ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh") (**Refresh Windows app**) button on the **Debug** toolbar.  
   
 ## See Also  
- [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
+ [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)   
  [Product Support and Accessibility](http://go.microsoft.com/fwlink/?LinkId=253502)

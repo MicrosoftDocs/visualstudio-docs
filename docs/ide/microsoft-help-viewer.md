@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Help Viewer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Microsoft Help Viewer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_general"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "toolbar [Help Viewer 2.0]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,13 +1,13 @@
 ---
-title: "Native Run-Time Checks Customization"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Native Run-Time Checks Customization | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crt"
@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "native run-time checks, customizing"
 ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -56,7 +57,7 @@ When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pra
   
  To customize run-time error checking, you can:  
   
--   Write a run-time error reporting function. For more information, see [How to: Write a Run-Time Error Reporting Function](../debugger/how-to--write-a-run-time-error-reporting-function.md).  
+-   Write a run-time error reporting function. For more information, see [How to: Write a Run-Time Error Reporting Function](../debugger/how-to-write-a-run-time-error-reporting-function.md).  
   
 -   Customize the error message destination.  
   
@@ -68,9 +69,9 @@ When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pra
  If you use a custom reporting function, use `_RTC_SetErrorType` to associate an error with a report type.  
   
 ## Query for Information About Run-Time Checks  
- `_RTC_NumErrors` returns the number of error types detected by run-time error checks. To get a brief description of each error, you can loop from 0 to the return value of `_RTC_NumErrors`, passing the iteration value to `_RTC_GetErrDesc` on each loop. For more information, see [_RTC_NumErrors](../Topic/_RTC_NumErrors.md) and [_RTC_GetErrDesc](../Topic/_RTC_GetErrDesc.md).  
+ `_RTC_NumErrors` returns the number of error types detected by run-time error checks. To get a brief description of each error, you can loop from 0 to the return value of `_RTC_NumErrors`, passing the iteration value to `_RTC_GetErrDesc` on each loop. For more information, see [_RTC_NumErrors](/visual-cpp/c-runtime-library/reference/rtc-numerrors) and [_RTC_GetErrDesc](/visual-cpp/c-runtime-library/reference/rtc-geterrdesc).  
   
 ## See Also  
- [How to: Use Native Run-Time Checks](../debugger/how-to--use-native-run-time-checks.md)   
- [runtime_checks](../Topic/runtime_checks.md)   
- [_CrtDbgReport, _CrtDbgReportW](../Topic/_CrtDbgReport,%20_CrtDbgReportW.md)
+ [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   
+ [runtime_checks](/visual-cpp/preprocessor/runtime-checks)   
+ [_CrtDbgReport, _CrtDbgReportW](/visual-cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw)

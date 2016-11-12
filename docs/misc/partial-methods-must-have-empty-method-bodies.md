@@ -1,13 +1,13 @@
 ---
-title: "Partial methods must have empty method bodies"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Partial methods must have empty method bodies | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc31435"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31435"
 ms.assetid: 279f283d-ce40-401c-8494-4bf06394fdd3
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -58,4 +59,4 @@ End Sub
 -   Remove any code from the partial method declaration.  
   
 ## See Also  
- [Partial Methods](../Topic/Partial%20Methods%20\(Visual%20Basic\).md)
+ [Partial Methods](/dotnet/visual-basic/language-reference/procedures/partial-methods)

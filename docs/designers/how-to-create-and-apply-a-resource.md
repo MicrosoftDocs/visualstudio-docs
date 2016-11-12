@@ -1,19 +1,20 @@
 ---
-title: "How to create and apply a resource"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "How to create and apply a resource | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.XamlDesigner.CreateResource"
   - "VS.XamlDesigner.EditResource"
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -75,7 +76,7 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
         > [!NOTE]
         >  **Edit Template** is used to apply control templates. **Edit Additional Templates** is used to apply other template types.  
   
-     Resources can be applied wherever they're compatible. For example, a brush resource can be applied to the **Foreground** property of a \<xref:Windows.UI.Xaml.Controls.TextBox> control.  
+     Resources can be applied wherever they're compatible. For example, a brush resource can be applied to the **Foreground** property of a <xref:Windows.UI.Xaml.Controls.TextBox> control.  
   
 ### To edit a resource  
   

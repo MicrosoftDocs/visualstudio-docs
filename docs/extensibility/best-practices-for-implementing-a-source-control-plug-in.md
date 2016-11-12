@@ -1,13 +1,13 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, best practices"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Best Practices for Implementing a Source Control Plug-in
-The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Memory Management Issues  
  In most cases, the integrated development environment (IDE), which is the caller, releases and allocates memory. The source control plug-in returns strings and other items in caller-allocated buffers. Exceptions are noted in descriptions of specific functions where they occur.  
@@ -72,4 +72,4 @@ The following technical details can help you reliably implement a source control
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -1,11 +1,11 @@
 ---
-title: "Adding a Tracking Property to a Domain-Specific Language Definition"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "tracking properties [Domain-Specific Language Tools], walkthrough"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 22
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"
@@ -37,7 +38,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
  For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.  
   
- In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](assetId:///0538b0e4-6221-4e7d-911a-b92cd622f0be).  
+ In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/en-us/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
   
 -   The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.  
   
@@ -58,7 +59,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 |||  
 |-|-|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|  
 |[!INCLUDE[dsl](../modeling/includes/dsl_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|  
   
@@ -151,7 +152,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  On the **Solution Explorer** toolbar, click **Transform All Templates**.  
   
-2.  The system regenerates the code for the solution, and saves DslDefinition.dsl. For information about the XML format of definition files, see [The DslDefinition.dsl File](../modeling/the-dsldefinition.dsl-file.md).  
+2.  The system regenerates the code for the solution, and saves DslDefinition.dsl. For information about the XML format of definition files, see [The DslDefinition.dsl File](../modeling/the-dsldefinition-dsl-file.md).  
   
 ## Creating Files for Custom Code  
  When you transform all templates, the system generates the source code that defines your domain-specific language in the Dsl and DslPackage projects. So that you can avoid interfering with the generated text, write your custom code in files that are distinct from the generated code files.  
@@ -726,7 +727,7 @@ This walkthrough shows how to add a tracking property to a domain model.
     ```  
   
 ## Testing the Language  
- The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.  
+ The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.  
   
 #### To exercise the language  
   
@@ -734,7 +735,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 2.  On the **Debug** menu, click **Start Debugging**.  
   
-     The experimental build of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.  
+     The experimental build of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.  
   
 3.  In **Solution Explorer**, double-click the Test.trackingPropertyDsl file to open it in the designer, and then click the design surface.  
   
@@ -768,8 +769,8 @@ This walkthrough shows how to add a tracking property to a domain model.
  If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
- \<xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
+ <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
+ <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md)   
- [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough--customizing-the-domain-specific-language-definition.md)
+ [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)   
+ [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)

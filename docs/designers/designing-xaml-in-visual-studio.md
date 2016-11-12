@@ -1,16 +1,17 @@
 ---
-title: "Designing XAML in Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Designing XAML in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -52,7 +53,7 @@ Visual Studio and Blend for Visual Studio both provide visual tools for building
   
      ![File reload experience](../designers/media/blendfilereload.png "BlendFileReload")  
   
--   **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio will synchronize these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+-   **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio will synchronize these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 -   **A common Solution Explorer:** The Solution Explorer provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md).  
   
@@ -68,7 +69,7 @@ Visual Studio and Blend for Visual Studio both provide visual tools for building
 |**Create animations**|There is no design tool for animations; you have to create them programmatically. This requires an understanding of the animation and timing system in WPF and extensive coding expertise.|You create animations visually and can preview them in Blend for Visual Studio. This is faster and more accurate than building your animations in code. You can add triggers to handle user interaction, and you can switch to code to add event handlers and other functionality.|[Animate objects](../designers/animate-objects-in-xaml-designer.md)|  
 |**Turn shapes and text into paths for easier manipulation**|Not supported.|You can make subtle or dramatic changes to shapes (such as rectangles and ellipses) by converting them to paths, which provide better editing control.  You can reshape or combine paths, and create compound paths from multiple shapes.<br /><br /> You can also convert text blocks into paths to manipulate them as vector images.|[Draw shapes and paths](../designers/draw-shapes-and-paths.md)|  
 |**Add interactivity to your UI designs**|Requires C#, Visual Basic, or C++ code.|Drag and drop behaviors onto controls to add interactivity to your static designs. Behaviors are ready-to-use code snippets that encapsulate functionality such as drag/drop, zoom, and visual state changes. There’s a growing set of behaviors you can choose from, and you can create your own.<br /><br /> You can then customize each behavior by changing its properties in Blend for Visual Studio or by adding event handlers in code.|[Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)|  
-|**Use Adobe artwork**|Not supported.|Import Adobe FXG, PhotoShop, or Illustrator artwork and implement the UI in Blend for Visual Studio.|[Insert images, videos, and audio clips](../designers/insert-images--videos--and-audio-clips-in-xaml-designer.md)|  
+|**Use Adobe artwork**|Not supported.|Import Adobe FXG, PhotoShop, or Illustrator artwork and implement the UI in Blend for Visual Studio.|[Insert images, videos, and audio clips](../designers/insert-images-videos-and-audio-clips-in-xaml-designer.md)|  
 |**Edit controls, templates, and styles**|Requires coding and knowledge of WPF styles and templates.|Turn any image into a control.<br /><br /> Use the template editing tools to make changes to controls, styles, and templates with just a few mouse clicks.<br /><br /> For example, you can use Blend for Visual Studio style resources to implement common WPF controls (such as buttons, list boxes, scroll bars, menus, etc.), and change their color, style, or underlying template directly in Blend for Visual Studio. You can then switch to code for finishing touches if you want.|[Modify the style of objects](../designers/modify-the-style-of-objects-in-blend.md)|  
 |**Connect your UI to data**|You can create a data source from resources such as SQL Server databases, WCF or web services, objects, or SharePoint lists, and bind the data source to your UI controls.<br /><br /> Design-time data must be created by hand for an interactive design experience.|Create sample data easily for prototyping and testing. Switch to live data when you’re ready.<br /><br /> Blend for Visual Studio’s data generation capabilities are outstanding (you can add names, numbers, URLs, photos easily on the fly), and can save you a lot of time.<br /><br /> For live data, you can bind your UI controls to an XML file or to any CLR data source.|[Display data](../designers/display-data-in-blend.md)|  
   

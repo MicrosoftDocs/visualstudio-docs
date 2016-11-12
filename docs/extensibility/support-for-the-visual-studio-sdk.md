@@ -1,13 +1,13 @@
 ---
-title: "Support for the Visual Studio SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Support for the Visual Studio SDK | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio SDK, support options"
@@ -57,7 +57,7 @@ Several support options are available for customers who have questions about how
 ## Included Support  
   
 ### Visual Studio Product Support  
- Some support is included with the purchase of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility.  
+ Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.  
   
 ### MSDN Subscription Support  
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).  
@@ -77,4 +77,4 @@ Several support options are available for customers who have questions about how
  Information about individual support requests can be found at [Individual Support Requests](http://go.microsoft.com/fwlink/?LinkID=82385).  
   
 ## See Also  
- [Talk to Us](../Topic/Talk%20to%20Us.md)
+ [Talk to Us](../ide/talk-to-us.md)

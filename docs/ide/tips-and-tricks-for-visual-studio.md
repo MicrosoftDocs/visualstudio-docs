@@ -1,16 +1,17 @@
 ---
-title: "Tips and Tricks for Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Tips and Tricks for Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -30,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Tips and Tricks for Visual Studio
-You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](assetId:///2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../reference/accessibility-tips-and-tricks.md).  
+You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](http://msdn.microsoft.com/en-us/2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).  
   
 -   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)  
   
@@ -148,7 +149,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Immediate Window Print Value|?varname|  
   
 ##  <a name="BKMK_ALM"></a> Application Lifecycle Management  
- See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](assetId:///35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
+ See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/en-us/35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
   
 ## See Also  
  [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)   

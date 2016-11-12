@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0739"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0739 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0739"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0739"
 ms.assetid: c2a83015-401c-4d85-bb19-ed29800904c1
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,11 +39,11 @@ translation.priority.mt:
 # Compiler Error CS0739
 'type name' duplicate TypeForwardedToAttribute.  
   
- An assembly can have no more than one \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute> to an external type.  
+ An assembly can have no more than one <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute> to an external type.  
   
 ### To correct this error  
   
-1.  Locate and remove the duplicate \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>.  
+1.  Locate and remove the duplicate <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>.  
   
 ## Example  
  The following code generates CS0739:  
@@ -66,4 +67,4 @@ namespace cs0739
 ```  
   
 ## See Also  
- \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>
+ <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>

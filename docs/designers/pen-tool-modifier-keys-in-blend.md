@@ -1,16 +1,17 @@
 ---
-title: "Pen tool modifier keys in Blend"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Pen tool modifier keys in Blend | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

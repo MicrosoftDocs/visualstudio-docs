@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1932"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1932 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1932"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1932"
 ms.assetid: fc927899-2d35-4d47-9ae9-8fc99295bb66
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -67,4 +68,4 @@ class Test
 ```  
   
 ## See Also  
- [LINQ Query Expressions](../Topic/LINQ%20Query%20Expressions%20\(C%23%20Programming%20Guide\).md)
+ [LINQ Query Expressions](/dotnet/csharp/programming-guide/linq-query-expressions/index)

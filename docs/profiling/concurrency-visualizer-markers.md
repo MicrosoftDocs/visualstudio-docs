@@ -1,18 +1,19 @@
 ---
-title: "Concurrency Visualizer Markers"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Concurrency Visualizer Markers | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.markersui"
 ms.assetid: c4692d17-6cd2-4ad1-8590-d7275c771c70
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,10 +48,10 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
  Each thread that generates markers has a separate timeline channel.  The ID of the thread that's responsible for generating the marker events is shown next to the description of the marker channel.  The ID that's shown on the left side of the marker channel matches the ID of another thread in the current process.  
   
 ## Marker Importance  
- Markers can have one of four importance levels: low, normal, high, and critical.  You can filter the sources of markers based on importance level.  For example, if you only want to see markers from a particular source that has normal or critical importance, you can configure the filter in the [Advanced Settings](../profiling/advanced-settings-dialog-box--concurrency-visualizer-.md) dialog box.The importance of a marker is displayed in its tooltip, and in the [Markers Report](../profiling/markers-report.md).  
+ Markers can have one of four importance levels: low, normal, high, and critical.  You can filter the sources of markers based on importance level.  For example, if you only want to see markers from a particular source that has normal or critical importance, you can configure the filter in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box.The importance of a marker is displayed in its tooltip, and in the [Markers Report](../profiling/markers-report.md).  
   
 ## Marker Category  
- A marker category indicates a group of marker events that come from the same source.  The Concurrency Visualizer uses color to distinguish different categories of flags and spans. You can configure the Concurrency Visualizer to use categories to filter the marker events from a particular event provider.  Use the [Advanced Settings](../profiling/advanced-settings-dialog-box--concurrency-visualizer-.md) dialog box to configure the filter.  
+ A marker category indicates a group of marker events that come from the same source.  The Concurrency Visualizer uses color to distinguish different categories of flags and spans. You can configure the Concurrency Visualizer to use categories to filter the marker events from a particular event provider.  Use the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to configure the filter.  
   
 ## Known Sources of Markers  
  Any ETW provider can generate markers, as long as the provider adheres to certain constraints. You can configure the Concurrency Visualizer to listen to additional event sources for markers. By default, it listens to these event sources:  
@@ -63,13 +64,13 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 -   [Parallel LINQ (PLINQ)](../Topic/Parallel%20LINQ%20\(PLINQ\).md)  
   
--   [Concurrency Runtime](../Topic/Concurrency%20Runtime.md)  
+-   [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)  
   
--   [Scenario Marker Support](assetId:///e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+-   [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
   
--   [C++ AMP (C++ Accelerated Massive Parallelism)](../Topic/C++%20AMP%20\(C++%20Accelerated%20Massive%20Parallelism\).md)  
+-   [C++ AMP (C++ Accelerated Massive Parallelism)](/visual-cpp/parallel/amp/cpp-amp-cpp-accelerated-massive-parallelism)  
   
- You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box--concurrency-visualizer-.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
+ You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
   
 ## Markers from EventSource  
  The Concurrency Visualizer can also display EventSource events.  For more information, see [Visualizing EventSource Events as Markers](../profiling/visualizing-eventsource-events-as-markers.md).  

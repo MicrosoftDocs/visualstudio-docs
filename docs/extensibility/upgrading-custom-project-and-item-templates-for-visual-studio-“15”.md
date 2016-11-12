@@ -1,10 +1,10 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio “15”"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
 caps.latest.revision: 3
@@ -127,7 +127,7 @@ VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.c
   
 ```  
   
- The information provided by the [TemplateData](../extensibility/templatedata-element--visual-studio-templates-.md) element remains the same. The **\<VSTemplateContainer>** element points to the .vstemplate file for the associated template.  
+ The information provided by the [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element remains the same. The **\<VSTemplateContainer>** element points to the .vstemplate file for the associated template.  
   
  Here is the default item .vstemplate file created by Visual Studio 2015:  
   

@@ -1,13 +1,13 @@
 ---
-title: "MSBuild Error MSB3252"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "MSBuild Error MSB3252 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSB3252"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3252"
 ms.assetid: 4e6982b8-84b3-4d21-94e1-05cc10bf1393
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -42,9 +43,9 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
 ## See Also  
- [Target Framework and Target Platform](../reference/msbuild-target-framework-and-target-platform.md)   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Target Framework and Target Platform](../msbuild/msbuild-target-framework-and-target-platform.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

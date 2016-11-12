@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1534"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1534 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1534"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1534"
 ms.assetid: afb28c3a-a74c-4e47-b016-9e3245a5a1b1
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1534
 Overloaded binary operator 'operator' takes two parameters  
   
- The definition of a binary [overloadable operator](../Topic/Overloadable%20Operators%20\(C%23%20Programming%20Guide\).md) must take two parameters.  
+ The definition of a binary [overloadable operator](/dotnet/csharp/programming-guide/statements-expressions-operators/overloadable-operators) must take two parameters.  
   
  The following sample generates CS1534:  
   

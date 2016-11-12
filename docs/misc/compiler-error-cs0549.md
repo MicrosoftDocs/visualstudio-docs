@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0549"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0549 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0549"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0549"
 ms.assetid: ae965019-9dee-4f28-9e9a-6f379bd0d757
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0549
 'function' is a new virtual member in sealed class 'class'  
   
- A [sealed](../Topic/sealed%20\(C%23%20Reference\).md)[class](../Topic/class%20\(C%23%20Reference\).md) cannot be used as a base class.  Therefore, it is useless to have a virtual method in sealed class.  
+ A [sealed](/dotnet/csharp/language-reference/keywords/sealed)[class](/dotnet/csharp/language-reference/keywords/class) cannot be used as a base class.  Therefore, it is useless to have a virtual method in sealed class.  
   
  The following sample generates CS0549:  
   

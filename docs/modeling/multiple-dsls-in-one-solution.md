@@ -1,21 +1,22 @@
 ---
-title: "Multiple DSLs in One Solution"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Multiple DSLs in One Solution | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 3
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Multiple DSLs in One Solution
 You can package several DSLs as part of a single solution so that they are installed together.  
   
- You can use several techniques to integrate multiple DSLs. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md) and [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).  
+ You can use several techniques to integrate multiple DSLs. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md) and [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).  
   
 ### To build more than one DSL in the same solution  
   
@@ -57,5 +58,5 @@ You can package several DSLs as part of a single solution so that they are insta
   
 ## See Also  
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)

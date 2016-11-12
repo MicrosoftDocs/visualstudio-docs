@@ -1,13 +1,13 @@
 ---
-title: "Compiler-Generated Copying"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler-Generated Copying | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "assigning values to copy objects"
 ms.assetid: 8a33be32-05a9-402e-9577-bd17e6b08ad3
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -41,4 +42,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Compiler-Generated Copying
-Moved content to [Copy Constructors and Copy Assignment Operators](../Topic/Copy%20Constructors%20and%20Copy%20Assignment%20Operators%20\(C++\).md)
+Moved content to [Copy Constructors and Copy Assignment Operators](/visual-cpp/cpp/copy-constructors-and-copy-assignment-operators-cpp)

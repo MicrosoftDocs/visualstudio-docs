@@ -1,11 +1,11 @@
 ---
-title: "Properties of operations on UML class diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Properties of operations on UML class diagrams | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.operation.properties"
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: 4128f3e2-3a51-4edf-b3e4-b7f170a32f6b
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -78,8 +79,8 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 |**Is Unique**|False|If true, there are no duplicate values in the collection. For **Multiplicity** more than 1.|  
   
 ## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)

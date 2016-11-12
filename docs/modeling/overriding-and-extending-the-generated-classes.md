@@ -1,18 +1,19 @@
 ---
-title: "Overriding and Extending the Generated Classes"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Overriding and Extending the Generated Classes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, providing overridable classes"
 ms.assetid: 30baa60d-a8ea-4611-96c1-8fcc3317cf21
 caps.latest.revision: 15
+author: "alancameronwills"
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Overriding and Extending the Generated Classes
 Your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language. Many extensions and adaptations can be made by overriding and extending the classes that are generated from the DSL Definition. These classes include not just the domain classes that you have explicitly defined in the DSL Definition diagram, but also other classes that define the toolbox, explorer, serialization, and so on.  
@@ -82,6 +83,6 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
 ### .NET Events  
  You can subscribe to some events on shapes. For example, you can listen for mouse-clicks on a shape. You have to write code that subscribes to the event for each object. This code can be written in an override of InitializeInstanceResources().  
   
- Some events are generated on ShapeFields, which are used to draw decorators on a shape. For an example, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to--intercept-a-click-on-a-shape-or-decorator.md).  
+ Some events are generated on ShapeFields, which are used to draw decorators on a shape. For an example, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).  
   
  These events usually do not occur inside a transaction. You should create a transaction if you want to make changes in the store.

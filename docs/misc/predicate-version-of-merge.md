@@ -1,13 +1,13 @@
 ---
-title: "Predicate Version of merge"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Predicate Version of merge | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "merge method"
 ms.assetid: dba6eec5-7fda-4aca-8158-0db809e69547
 caps.latest.revision: 7
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

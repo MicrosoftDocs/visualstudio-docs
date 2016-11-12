@@ -1,13 +1,13 @@
 ---
-title: "Debugging LINQ"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Debugging LINQ | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "LINQ, edit and continue"
 ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 caps.latest.revision: 25
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -40,12 +41,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging LINQ
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
   
 ##  <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results  
  You can view the result of a LINQ statement by using DataTips, the Watch window, and the QuickWatch dialog box. When you use a source window, you can pause the pointer on a query in the source window and a DataTip will appear. You can copy a LINQ variable and paste it into the Watch window or QuickWatch dialog box.  
   
- In LINQ, a query is not evaluated when it is created or declared, but only when the query is used. Therefore, the query does not have a value until it is evaluated. For a full description of query creation and evaluation, see [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md) or [Writing Your First LINQ Query](../Topic/Writing%20Your%20First%20LINQ%20Query%20\(Visual%20Basic\).md).  
+ In LINQ, a query is not evaluated when it is created or declared, but only when the query is used. Therefore, the query does not have a value until it is evaluated. For a full description of query creation and evaluation, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries) or [Writing Your First LINQ Query](/dotnet/visual-basic/programming-guide/concepts/linq/writing-your-first-linq-query).  
   
  To display the result of a query, the debugger must evaluate it. This implicit evaluation, which occurs when you view a LINQ query result in the debugger, has some effects you should consider:  
   
@@ -60,7 +61,7 @@ translation.priority.ht:
  In LINQ to SQL queries, the predicate code is beyond the control of the debugger. Therefore, you cannot step into the predicate code. Any query that compiles to an expression tree produces code that is beyond the control of the debugger.  
   
 ### Stepping in Visual Basic  
- When you are stepping through a Visual Basic program and the debugger encounters a query declaration, it does not step into the declaration but highlights the entire declaration as a single statement. This behavior occurs because the query is not evaluated until it is called. For more information, see [Introduction to LINQ in Visual Basic](../Topic/Introduction%20to%20LINQ%20in%20Visual%20Basic.md).  
+ When you are stepping through a Visual Basic program and the debugger encounters a query declaration, it does not step into the declaration but highlights the entire declaration as a single statement. This behavior occurs because the query is not evaluated until it is called. For more information, see [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq).  
   
  If you step through the following example code, the debugger highlights the query declaration, or query creation, as a single statement.  
   
@@ -127,8 +128,8 @@ End Function
  In Visual Basic, you can use Edit and Continue on non-LINQ code, even in a method that contains a LINQ query. You can add or remove code before the LINQ statement, even if the changes affect the line number of the LINQ query. Your Visual Basic debugging experience for non-LINQ code remains the same as it was before LINQ was introduced. You cannot change, add, or remove a LINQ query, however, unless you want to stop debugging to apply the changes.  
   
 ## See Also  
- [Debugging SQL](assetId:///f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
+ [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
  [Side Effects and Expressions](../Topic/Side%20Effects%20and%20Expressions.md)   
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
- [Introduction to LINQ Queries (C#)](../Topic/Introduction%20to%20LINQ%20Queries%20\(C%23\).md)   
- [Introduction to LINQ in Visual Basic](../Topic/Introduction%20to%20LINQ%20in%20Visual%20Basic.md)
+ [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)   
+ [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)

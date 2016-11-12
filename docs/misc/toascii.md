@@ -1,13 +1,13 @@
 ---
-title: "toascii"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "toascii | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-cpp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "toascii"
@@ -25,6 +25,7 @@ dev_langs:
   - "C"
 ms.assetid: 39c63fd6-860e-432a-9585-a871198cf4b2
 caps.latest.revision: 4
+author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # toascii
-This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](../Topic/toascii,%20__toascii.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](/visual-cpp/c-runtime-library/reference/toascii-toascii) instead.

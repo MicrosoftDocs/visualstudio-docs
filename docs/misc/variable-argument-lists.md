@@ -1,13 +1,13 @@
 ---
-title: "Variable Argument Lists"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Variable Argument Lists | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "function calls, variable number of arguments"
 ms.assetid: f9144236-aed7-4887-9e44-41be1fbd870d
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Variable Argument Lists
-This content has moved to [Functions with Variable Argument Lists](../Topic/Functions%20with%20Variable%20Argument%20Lists%20%20\(C++\).md)
+This content has moved to [Functions with Variable Argument Lists](/visual-cpp/cpp/functions-with-variable-argument-lists-cpp)

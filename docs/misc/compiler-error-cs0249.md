@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0249"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0249 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0249"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0249"
 ms.assetid: 8bc3572f-d949-4867-b119-6527fb924a4a
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -40,7 +41,7 @@ Do not override object.Finalize. Instead, provide a destructor.
   
  Use destructor syntax to specify instructions to execute when your object is destroyed.  
   
- For more information, see [Destructor Syntax in C# and C++](assetId:///d7901491-7e89-4b6f-8270-0635aa6581b5).  
+ For more information, see [Destructor Syntax in C# and C++](http://msdn.microsoft.com/en-us/d7901491-7e89-4b6f-8270-0635aa6581b5).  
   
  The following sample generates CS0249:  
   

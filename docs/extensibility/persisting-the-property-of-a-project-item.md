@@ -1,13 +1,13 @@
 ---
-title: "Persisting the Property of a Project Item"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Persisting the Property of a Project Item | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "properties, adding to a project item"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Persisting the Property of a Project Item
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
   
- The first step to persist a property in a project file is to obtain the hierarchy of the project as an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> to add the property.  
+ The first step to persist a property in a project file is to obtain the hierarchy of the project as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> to add the property.  
   
  In the following procedures, you persist the VsPkg.cs property `Author` with the value `Tom` in the project file.  
   
@@ -130,16 +130,16 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To verify that the property is persisted  
   
-1.  Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and then open or create a solution.  
+1.  Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open or create a solution.  
   
 2.  Select the project item VsPkg.cs in **Solution Explorer**.  
   
 3.  Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.  
   
     > [!NOTE]
-    >  You can autoload a VSPackage in the UI context \<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+    >  You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
-4.  Close [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
+4.  Close [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
   
     ```  
     <Compile Include="VsPkg.cs">  
@@ -148,4 +148,4 @@ You may want to persist a property you add to a project item, such as the author
     ```  
   
 ## See Also  
- [Custom Tools](../extensibility/custom-tools.md)
+ [Custom Tools](../extensibility/internals/custom-tools.md)

@@ -1,13 +1,13 @@
 ---
-title: "Adding User Control to the Start Page"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Adding User Control to the Start Page | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "start page dll"
@@ -161,7 +161,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 1.  In **Solution Explorer**, open the Start Page .xaml file.  
   
-2.  In the **XAML** pane, add the following namespace declaration to the top-level \<xref:System.Windows.Controls.Grid> element.  
+2.  In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
   
     ```xml  
     xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
@@ -169,7 +169,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 3.  In the **XAML** pane, scroll to the \<Grid> section.  
   
-     The section contains a \<xref:System.Windows.Controls.TabControl> element in a \<xref:System.Windows.Controls.Grid> element.  
+     The section contains a <xref:System.Windows.Controls.TabControl> element in a <xref:System.Windows.Controls.Grid> element.  
   
 4.  Add a \<TabControl> element containing a \<TabItem> that contains a reference to your user control.  
   
@@ -198,5 +198,5 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
      Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.  
   
 ## See Also  
- [WPF Container Controls](assetId:///a0177167-d7db-4205-9607-8ae316952566)   
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough--adding-custom-xaml-to-the-start-page.md)
+ [WPF Container Controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
+ [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

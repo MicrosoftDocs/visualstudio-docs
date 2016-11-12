@@ -1,13 +1,13 @@
 ---
-title: "Option Strict On disallows late binding"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Option Strict On disallows late binding | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30574"
@@ -15,9 +15,10 @@ f1_keywords:
 helpviewer_keywords: 
   - "BC30574"
 ms.assetid: 9da4b826-2e12-4a5d-9e17-762b0b68fc9b
-caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+caps.latest.revision: 11
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -35,37 +36,27 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Option Strict On disallows late binding
-[!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] allows implicit conversions of any data type to any other data type. However, data loss can occur if the value of one data type is converted to a data type with less precision or a smaller capacity. `Option Strict On` ensures compile-time notification of these types of conversions so they may be avoided. You cannot use `Option Strict On` with late binding.  
-  
- The following code example uses late binding and causes this error when `Option Strict` is set to `On`.  
-  
- [!CODE [VbVbalrOptionStrictError#1](VbVbalrOptionStrictError#1)]  
-  
+[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] allows implicit conversions of any data type to any other data type. However, data loss can occur if the value of one data type is converted to a data type with less precision or a smaller capacity. `Option Strict On` ensures compile-time notification of these types of conversions so they may be avoided. You cannot use `Option Strict On` with late binding.  
+
  **Error ID:** BC30574  
   
 ### To correct this error  
   
--   Modify the object declaration to use an explicit type, as shown in the following example:  
-  
-     [!CODE [VbVbalrOptionStrictError#2](VbVbalrOptionStrictError#2)]  
+-   Modify the object declaration to use an explicit type.  
   
  \- or -  
   
--   Modify the late-bound expression to specify an explicit type, as shown in the following example:  
-  
-     [!CODE [VbVbalrOptionStrictError#3](VbVbalrOptionStrictError#3)]  
+-   Modify the late-bound expression to specify an explicit type.  
   
  \- or -  
   
--   Let the compiler infer a specific type, as shown in the following example:  
-  
-     [!CODE [VbVbalrOptionStrictError#4](VbVbalrOptionStrictError#4)]  
+-   Let the compiler infer a specific type.  
   
  \- or -  
   
 -   Turn `Option Strict` off by removing the word `On` after it or by explicitly specifying `Off`.  
   
 ## See Also  
- [Type Conversion Functions](../Topic/Type%20Conversion%20Functions%20\(Visual%20Basic\).md)   
- [Option Strict Statement](../Topic/Option%20Strict%20Statement.md)   
- [Widening and Narrowing Conversions](../Topic/Widening%20and%20Narrowing%20Conversions%20\(Visual%20Basic\).md)
+ [Type Conversion Functions](/dotnet/visual-basic/language-reference/functions/type-conversion-functions)   
+ [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)   
+ [Widening and Narrowing Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions)

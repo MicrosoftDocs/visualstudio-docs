@@ -1,13 +1,13 @@
 ---
-title: "Tips for Debugging Threads in Native Code"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Tips for Debugging Threads in Native Code | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: 0374c8c6-57a3-4cfe-8047-2effef5ff5dc
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -43,7 +44,7 @@ Here are some tips you can use when debugging threads in native code:
   
 -   You can view the last error code for the current thread by entering `@Err` in the **Watch** window or **QuickWatch** dialog box.  
   
--   C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](../Topic/_malloc_dbg.md).  
+-   C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](/visual-cpp/c-runtime-library/reference/malloc-dbg).  
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   

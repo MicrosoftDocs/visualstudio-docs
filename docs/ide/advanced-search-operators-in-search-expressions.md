@@ -1,13 +1,13 @@
 ---
-title: "Advanced Search Operators in Search Expressions"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Advanced Search Operators in Search Expressions | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Help Viewer 2.0, searching for keywords"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "searching titles [Help Viewer 2.0]"
 ms.assetid: 0cdc1746-8481-45ec-9c53-d0d89cdcbd5e
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

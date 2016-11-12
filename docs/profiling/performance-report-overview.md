@@ -1,13 +1,13 @@
 ---
-title: "Performance Report Overview"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Performance Report Overview | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling tools, about performance rerports"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "performance reports, about performance reports"
 ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -80,10 +81,10 @@ You can view the profiling data of a performance session in the **Performance Re
  The Lines view enables you to view the specific source code lines that were executed during sampling profiling. For more information, see [Lines View](../profiling/lines-view.md).  
   
 ### Instruction Pointer (IP) View  
- The Instruction Pointer view enables you to view the specific instructions that were executed during sampling profiling. For more information, see [Instruction Pointers (IPs) View](../profiling/instruction-pointers--ips--view.md).  
+ The Instruction Pointer view enables you to view the specific instructions that were executed during sampling profiling. For more information, see [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view.md).  
   
 ### Allocation View  
- The Allocation view is available if **Collect .NET object allocation** was selected on the **General** page of the **Performance Session** properties dialog box. See [Performance Session Overview](../profiling/performance-session-overview.md). The Allocation view lists the .NET objects that were allocated by the application or component. When an object row is expanded, a call tree is displayed. The call tree shows the execution paths that resulted in the creation of the object. Information is also displayed about the number of inclusive and exclusive allocations for each function in the call tree. The Allocation view can also expand and highlight the execution path of a function that allocated the largest number of objects. To display the most active path, right-click the function and then click **Expand Hot Path**. For more information, see [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-.net-memory-allocation-and-lifetime-data.md) and [Allocations View](../profiling/.net-memory-allocations-view.md).  
+ The Allocation view is available if **Collect .NET object allocation** was selected on the **General** page of the **Performance Session** properties dialog box. See [Performance Session Overview](../profiling/performance-session-overview.md). The Allocation view lists the .NET objects that were allocated by the application or component. When an object row is expanded, a call tree is displayed. The call tree shows the execution paths that resulted in the creation of the object. Information is also displayed about the number of inclusive and exclusive allocations for each function in the call tree. The Allocation view can also expand and highlight the execution path of a function that allocated the largest number of objects. To display the most active path, right-click the function and then click **Expand Hot Path**. For more information, see [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
   
 ### Objects Lifetime View  
  The Object Lifetime view is available if **Collect .NET object allocation information** and **Also collect .NET object lifetime information** were selected on the **General** page of the **Performance Session** properties dialog box.  

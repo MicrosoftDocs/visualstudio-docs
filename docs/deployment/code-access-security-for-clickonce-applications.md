@@ -1,13 +1,13 @@
 ---
-title: "Code Access Security for ClickOnce Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "security, ClickOnce"
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 caps.latest.revision: 31
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -64,13 +65,13 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 ## Configuring Security Permissions  
  You should always configure your ClickOnce application to request the appropriate zone to limit the code access security permissions. You can configure security permissions on the **Security** page of the **Project Designer**.  
   
- The **Security** page in the **Project Designer** contains an **Enable ClickOnce Security Settings** check box. When this check box is selected, security permission requests are added to the deployment manifest for your application. At installation time, the user will be prompted to grant permissions if the requested permissions exceed the default permissions for the zone from which the application is deployed. For more information, see [How to: Enable ClickOnce Security Settings](../deployment/how-to--enable-clickonce-security-settings.md).  
+ The **Security** page in the **Project Designer** contains an **Enable ClickOnce Security Settings** check box. When this check box is selected, security permission requests are added to the deployment manifest for your application. At installation time, the user will be prompted to grant permissions if the requested permissions exceed the default permissions for the zone from which the application is deployed. For more information, see [How to: Enable ClickOnce Security Settings](../deployment/how-to-enable-clickonce-security-settings.md).  
   
  Applications deployed from different locations are granted different levels of permissions without prompting. For example, when an application is deployed from the Internet, it receives a highly restrictive set of permissions. When installed from a local Intranet, it receives more permissions, and when installed from a CD-ROM, it receives Full Trust permissions.  
   
- As a starting point for configuring permissions, you can select a security zone from the **Zone** list on the **Security** page. If your application will potentially be deployed from more than one zone, select the zone with the least permissions. For more information, see [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to--set-a-security-zone-for-a-clickonce-application.md).  
+ As a starting point for configuring permissions, you can select a security zone from the **Zone** list on the **Security** page. If your application will potentially be deployed from more than one zone, select the zone with the least permissions. For more information, see [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md).  
   
- The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see \<xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md).  
+ The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see <xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md).  
   
 ## Debugging an Application That Has Restricted Permissions  
  As a developer, you most likely run your development computer with Full Trust permissions. Therefore, you do not see the same security exceptions when you debug the application that users may see when they run it with restricted permissions.  
@@ -81,7 +82,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
   
  In addition, when you write code, the IntelliSense feature in the Code Editor will disable any members that are not included in the security permissions that you have configured.  
   
- For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to--debug-a-clickonce-application-with-restricted-permissions.md).  
+ For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md).  
   
 ## Security Permissions for Browser-Hosted Applications  
  Visual Studio provides the following project types for Windows Presentation Foundation (WPF) applications:  
@@ -106,9 +107,9 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [How to: Enable ClickOnce Security Settings](../deployment/how-to--enable-clickonce-security-settings.md)   
- [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to--set-a-security-zone-for-a-clickonce-application.md)   
- [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md)   
- [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to--debug-a-clickonce-application-with-restricted-permissions.md)   
+ [How to: Enable ClickOnce Security Settings](../deployment/how-to-enable-clickonce-security-settings.md)   
+ [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)   
+ [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
+ [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Security Page, Project Designer](../reference/security-page--project-designer.md)
+ [Security Page, Project Designer](../ide/reference/security-page-project-designer.md)

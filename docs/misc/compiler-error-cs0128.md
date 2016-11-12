@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS0128"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS0128 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS0128"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS0128"
 ms.assetid: 35db9025-2bed-437f-a78a-f2862766bde2
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS0128
 A local variable named 'variable' is already defined in this scope  
   
- The compiler detected declarations of two local variables with the same name. For more information, see [Methods](../Topic/Methods%20\(C%23%20Programming%20Guide\).md).  
+ The compiler detected declarations of two local variables with the same name. For more information, see [Methods](/dotnet/csharp/programming-guide/classes-and-structs/methods).  
   
  The following sample generates CS0128:  
   

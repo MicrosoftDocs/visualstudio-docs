@@ -1,13 +1,13 @@
 ---
-title: "Compiler Error CS1609"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Compiler Error CS1609 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CS1609"
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "CS1609"
 ms.assetid: 89e112f8-6337-4803-8741-2e38497deb8c
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -38,7 +39,7 @@ translation.priority.mt:
 # Compiler Error CS1609
 Modifiers cannot be placed on event accessor declarations  
   
- Modifiers can only be placed on event declarations and not on the event accessor declarations. For more information, see [Using Properties](../Topic/Using%20Properties%20\(C%23%20Programming%20Guide\).md).  
+ Modifiers can only be placed on event declarations and not on the event accessor declarations. For more information, see [Using Properties](/dotnet/csharp/programming-guide/classes-and-structs/using-properties).  
   
 ## Example  
  The following sample generates CS1609.  

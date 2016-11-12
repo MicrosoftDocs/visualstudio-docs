@@ -1,13 +1,13 @@
 ---
-title: "IntelliTrace Features"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "IntelliTrace Features | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTrace, debugging with events"
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 ms.assetid: 5ccc059c-6097-46b4-9d4b-34236c02d549
 caps.latest.revision: 67
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,7 +45,7 @@ translation.priority.ht:
 # IntelliTrace Features
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.  
   
- For a step-by-step description, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough--using-intellitrace.md).  
+ For a step-by-step description, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).  
   
  IntelliTrace is available in Visual Studio Enterprise edition, but not in the Visual Studio Professional or Community editions.  
   

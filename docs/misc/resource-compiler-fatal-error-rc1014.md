@@ -1,13 +1,13 @@
 ---
-title: "Resource Compiler Fatal Error RC1014"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Resource Compiler Fatal Error RC1014 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RC1014"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1014"
 ms.assetid: 30119ac9-4e2c-4e9b-8635-22fa63003da1
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

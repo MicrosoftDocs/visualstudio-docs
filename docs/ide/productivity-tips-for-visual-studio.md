@@ -1,16 +1,17 @@
 ---
-title: "Productivity Tips for Visual Studio"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Productivity Tips for Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ccc5e543-7dcf-465c-97dd-e133e869800c
 caps.latest.revision: 28
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -123,7 +124,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
 -   **Display only the errors you want to address**. If you choose the **Filter** button on the **Error List** toolbar, you can reduce the number of errors that appear in the **Error List** window. You can display only the errors in the files that are open in the editor, only the errors in the current file, or only the errors in the current project. You can also search within the Error List window to find specific errors.  
   
--   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../reference/quick-launch--environment--options-dialog-box.md) box, enter keywords or phrases for the items that you’re trying to find. For example, the following options appear if you enter `new project`:  
+-   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you’re trying to find. For example, the following options appear if you enter `new project`:  
   
      Figure 3: Quick Launch results list for `new project`  
   
@@ -146,13 +147,13 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      To move the execution point, drag the yellow arrowhead  to a location where you want to set the next statement in the same source file, and then choose the F5 key to continue debugging.  
   
--   **Capture value information for variables**. You can add a DataTip to a variable in your code and pin it so that you can access the last known value for the variable after debugging has finished. For more information, see [View data values in Data Tips](../debugger/view-data-values-in-data-tips--in-the-code-editor.md).  
+-   **Capture value information for variables**. You can add a DataTip to a variable in your code and pin it so that you can access the last known value for the variable after debugging has finished. For more information, see [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).  
   
      To add a DataTip, the debugger must be in break mode. Place the cursor on the variable, and then choose the pin button on the DataTip that appears. When debugging is stopped, a blue pin icon appears in the source file next to the line of code that contains the variable. If you point to the blue pin, the value of the variable from the most recent debugging session appears.  
   
--   **Clear the Immediate window**. You can erase the contents of the [Immediate Window](../reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`  
+-   **Clear the Immediate window**. You can erase the contents of the [Immediate Window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`  
   
-     For more information about additional commands, see [Visual Studio Command Aliases](../reference/visual-studio-command-aliases.md).  
+     For more information about additional commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
 ##  <a name="BKMK_Managing"></a> Managing Files, Toolbars, and Windows  
  At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.  
@@ -161,14 +162,14 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      To pin a file, choose the file’s tab, and then choose the **Toggle Pin Status** button.  
   
--   **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create “rafts.” For more information, see [How to: Arrange and Dock Windows](../misc/how-to--arrange-and-dock-windows.md).  
+-   **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create “rafts.” For more information, see [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md).  
   
      You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.  
   
--   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to--change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../reference/how-to--change-fonts-and-colors-in-the-editor.md).  
+-   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).  
   
 ## See Also  
  [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)   
- [How to: Customize Menus and Toolbars](../ide/how-to--customize-menus-and-toolbars-in-visual-studio.md)   
- [Walkthrough: Create a Simple Application](../ide/walkthrough--create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
- [Accessibility Tips and Tricks](../reference/accessibility-tips-and-tricks.md)
+ [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)   
+ [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
+ [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md)

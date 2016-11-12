@@ -1,13 +1,13 @@
 ---
-title: "VSInstr Warnings"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "VSInstr Warnings | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "instrumentation, VSInstr tool"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "performance tools, VSInstr tool"
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

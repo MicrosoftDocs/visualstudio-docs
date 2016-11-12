@@ -1,13 +1,13 @@
 ---
-title: "Extension methods must declare at least one parameter"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Extension methods must declare at least one parameter | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc36552"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC36552"
 ms.assetid: a8cc8cdd-cdb5-42ca-b5a1-c9a71abd46eb
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -63,6 +64,6 @@ greeting.Print()
 ```  
   
 ## See Also  
- [Extension Methods](../Topic/Extension%20Methods%20\(Visual%20Basic\).md)   
- [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)   
- [Procedures](../Topic/Procedures%20in%20Visual%20Basic.md)
+ [Extension Methods](/dotnet/visual-basic/language-reference/procedures/extension-methods)   
+ [Procedure Parameters and Arguments](/dotnet/visual-basic/language-reference/procedures/procedure-parameters-and-arguments)   
+ [Procedures](/dotnet/visual-basic/language-reference/procedures/index)

@@ -1,13 +1,13 @@
 ---
-title: "Restrictions on Use of Bit Fields"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Restrictions on Use of Bit Fields | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "bit fields"
 ms.assetid: df35b64e-276e-41ee-8ef6-9090e452bfab
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Restrictions on Use of Bit Fields
-This content has moved to [C++ Bit Fields](../Topic/C++%20Bit%20Fields.md)
+This content has moved to [C++ Bit Fields](/visual-cpp/cpp/cpp-bit-fields)

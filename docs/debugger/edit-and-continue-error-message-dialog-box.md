@@ -1,13 +1,13 @@
 ---
-title: "Edit and Continue Error Message Dialog Box"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Edit and Continue Error Message Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.ENC.SupportedButNotAvaiable"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
 ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,4 +71,4 @@ This dialog box appears when you are debugging in a language that supports Edit 
  Exit the dialog box and cancel the immediately preceding edit attempt.  
   
 ## See Also  
- [Supported Code Changes (C++)](../debugger/supported-code-changes--c---.md)
+ [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

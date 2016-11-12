@@ -1,13 +1,13 @@
 ---
-title: "Analyzing Performance Tools Data"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Analyzing Performance Tools Data | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "performance, viewing data"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "Profiling Tools,reports"
 ms.assetid: ae3e198a-b994-4ecb-a633-dec98bd4fd45
 caps.latest.revision: 41
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -38,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Analyzing Performance Tools Data
-The performance reports of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.  
+The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.  
   
 ## Common Tasks  
   

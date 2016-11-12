@@ -1,13 +1,13 @@
 ---
-title: "Autos and Locals Windows"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Autos and Locals Windows | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.autos"
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], variable windows"
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -140,7 +141,7 @@ private static int subtractVars(int i, int j)
   
  You can enter an expression for a value, for example `a + b`. The debugger accepts most valid language expressions.  
   
- In native C++ code, you might have to qualify the context of a variable name. For more information, see [Context Operator (C++)](../debugger/context-operator--c---.md).  
+ In native C++ code, you might have to qualify the context of a variable name. For more information, see [Context Operator (C++)](../debugger/context-operator-cpp.md).  
   
  However, you should exercise caution when changing values. Here are some possible issues:  
   

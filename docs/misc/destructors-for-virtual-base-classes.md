@@ -1,13 +1,13 @@
 ---
-title: "Destructors for Virtual Base Classes"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Destructors for Virtual Base Classes | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "acyclic graphs"
 ms.assetid: ad1de2fa-4e1f-485b-8d1f-eb4939954980
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Destructors for Virtual Base Classes
-This content has moved to [Destructors](../Topic/Destructors%20\(C++\).md).
+This content has moved to [Destructors](/visual-cpp/cpp/destructors-cpp).

@@ -1,18 +1,19 @@
 ---
-title: "Project Target Framework Not Installed Dialog Box"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Project Target Framework Not Installed Dialog Box | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.TargetFrameworkNotFound"
 ms.assetid: 64ce8743-d5bd-447e-ba10-54b2aafe109e
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -53,12 +54,12 @@ You have opened a project which targets a framework that is not installed on you
  If you opened a Visual C++ project, select one of the following options.  
   
  **Download the targeting pack for .NET Framework** *Version* **. The project will not change.**  
- Opens the Microsoft Download Center website, where you can download the version of the .NET Framework that you want. After the download finishes, your project is retargeted to that version. Your project is unloaded from the solution. After you download and install the desired framework, you must restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then reopen the project.  
+ Opens the Microsoft Download Center website, where you can download the version of the .NET Framework that you want. After the download finishes, your project is retargeted to that version. Your project is unloaded from the solution. After you download and install the desired framework, you must restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then reopen the project.  
   
  **Do not load the project.**  
  Leaves the project unloaded from the solution. You can later install the desired Framework and then reload the project.  
   
 ## See Also  
- [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md)   
- [Troubleshooting .NET Framework Targeting Errors](../reference/troubleshooting-.net-framework-targeting-errors.md)   
- [Adding references](../Topic/Adding%20references%20in%20Visual%20C++%20projects.md)
+ [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
+ [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
+ [Adding references](/visual-cpp/ide/adding-references-in-visual-cpp-projects)

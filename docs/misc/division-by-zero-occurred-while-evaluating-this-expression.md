@@ -1,13 +1,13 @@
 ---
-title: "Division by zero occurred while evaluating this expression"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Division by zero occurred while evaluating this expression | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: na
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30542"
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC30542"
 ms.assetid: ba7d2193-54e7-4a6a-82f0-5672bd0bbc18
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,4 +45,4 @@ In evaluating this expression, you attempted to divide a number by zero.
 1.  Check your constant and variable values to determine how zero occurs in your expression's denominator.  
   
 ## See Also  
- [Assignment Operators](../Topic/Assignment%20Operators%20\(Visual%20Basic\).md)
+ [Assignment Operators](/dotnet/visual-basic/language-reference/operators/assignment-operators)

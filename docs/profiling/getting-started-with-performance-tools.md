@@ -1,19 +1,20 @@
 ---
-title: "Getting Started with Performance Tools"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Getting Started with Performance Tools | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "getting started, performance"
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,12 +46,12 @@ This section provides an overview of the concepts and tasks that you will apply 
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Quickly profile an application or a Web site:** Use the Performance Wizard to configure and run a profiling session for a Visual Studio solution or a Web site.|-   [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)<br />-   [How to: Collect Performance Data for a Web Site](../profiling/how-to--collect-performance-data-for-a-web-site.md)|  
-|**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to--manually-create-performance-sessions.md)|  
-|**Try it:** Get hands-on experience by profiling a sample application.|-   [Walkthrough: Identifying Performance Problems](../profiling/walkthrough--identifying-performance-problems.md)<br />-   [PeopleTrax Sample](../profiling/peopletrax-sample--profiling-tools-.md)|  
+|**Quickly profile an application or a Web site:** Use the Performance Wizard to configure and run a profiling session for a Visual Studio solution or a Web site.|-   [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-cpu-sampling.md)<br />-   [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)|  
+|**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to-manually-create-performance-sessions.md)|  
+|**Try it:** Get hands-on experience by profiling a sample application.|-   [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)<br />-   [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)|  
   
 ## See Also  
- [Overviews](../profiling/overviews--performance-tools-.md)   
+ [Overviews](../profiling/overviews-performance-tools.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)

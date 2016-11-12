@@ -1,13 +1,13 @@
 ---
-title: "Extending Menus and Commands"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Extending Menus and Commands | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "menus, common tasks"
@@ -35,9 +35,9 @@ translation.priority.mt:
 # Extending Menus and Commands
 Commands are the way you add actions and processes to Visual Studio. In most cases commands are displayed on menus or toolbars. The VSPackage project template shows how to implement a very basic command. For a slightly longer but still basic implementation, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
- For more information about Visual Studio commands, menus and toolbars, see [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md).  
+ For more information about Visual Studio commands, menus and toolbars, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  
   
- Commands, menus, and toolbars are defined in the .vsct file that is part of VSPackage projects. You can find information about the Visual Studio IDE and the .vsct file in [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md).  
+ Commands, menus, and toolbars are defined in the .vsct file that is part of VSPackage projects. You can find information about the Visual Studio IDE and the .vsct file in [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md).  
   
  The following topics explain how to add different kinds of commands, menus, and toolbars.  
   

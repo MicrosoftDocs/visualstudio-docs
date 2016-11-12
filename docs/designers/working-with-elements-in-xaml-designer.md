@@ -1,16 +1,17 @@
 ---
-title: "Working with elements in XAML Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Working with elements in XAML Designer | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -104,7 +105,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
      When you open a margin adorner and the opposite margin isn't set, the opposite margin is set to the correct value according to the location of the element in the artboard. For opposite margins, such as the **Left** and **Right** margins, at least one property is always set.  
   
     > [!IMPORTANT]
-    >  Elements placed inside some layout containers, such as a \<xref:Windows.UI.Xaml.Controls.Canvas>, don't have margin adorners. Elements placed inside a \<xref:Windows.UI.Xaml.Controls.StackPanel> have margin adorners for either the left and right margins or the top and bottom margins, depending on the orientation of the `StackPanel`.  
+    >  Elements placed inside some layout containers, such as a <xref:Windows.UI.Xaml.Controls.Canvas>, don't have margin adorners. Elements placed inside a <xref:Windows.UI.Xaml.Controls.StackPanel> have margin adorners for either the left and right margins or the top and bottom margins, depending on the orientation of the `StackPanel`.  
   
 ## Grouping and ungrouping elements  
  Grouping two or more elements in XAML Designer creates a new layout container and places those elements within that container. Placing two or more elements together in a layout container enables you to easily select, move, and transform the group as if the elements in that group were one element. Grouping is also useful for identifying elements that are related to each other in some way, such as the buttons that make up a navigation element. When you ungroup elements, you are simply deleting the layout container that contained the elements.  
@@ -116,7 +117,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 2.  Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.  
   
     > [!TIP]
-    >  If you select \<xref:Windows.UI.Xaml.Controls.Viewbox>, \<xref:Windows.UI.Xaml.Controls.Border>, or \<xref:Windows.UI.Xaml.Controls.ScrollViewer> to group your elements, the elements are placed in a new \<xref:Windows.UI.Xaml.Controls.Grid> panel within the \<xref:Windows.UI.Xaml.Controls.Viewbox>, \<xref:Windows.UI.Xaml.Controls.Border>, or \<xref:Windows.UI.Xaml.Controls.ScrollViewer>. If you ungroup elements in one of these layout containers, only the \<xref:Windows.UI.Xaml.Controls.Viewbox>, \<xref:Windows.UI.Xaml.Controls.Border>, or \<xref:Windows.UI.Xaml.Controls.ScrollViewer> is deleted, and the \<xref:Windows.UI.Xaml.Controls.Grid> panel remains. To delete the `Grid` panel, ungroup the elements again.  
+    >  If you select <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> to group your elements, the elements are placed in a new <xref:Windows.UI.Xaml.Controls.Grid> panel within the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer>. If you ungroup elements in one of these layout containers, only the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> is deleted, and the <xref:Windows.UI.Xaml.Controls.Grid> panel remains. To delete the `Grid` panel, ungroup the elements again.  
   
 #### To ungroup elements and delete the layout  
   

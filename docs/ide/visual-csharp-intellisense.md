@@ -1,13 +1,13 @@
 ---
-title: "Visual C# IntelliSense"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Visual C# IntelliSense | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense [J#]"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliSense [C#]"
 ms.assetid: 79ca304d-dc1e-4dc9-a2a6-7808df2e588e
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual C# IntelliSense
-Visual C# IntelliSense is available when coding in the editor, and while you debugging in the [Immediate Mode](../reference/immediate-window.md) command window.  
+Visual C# IntelliSense is available when coding in the editor, and while you debugging in the [Immediate Mode](../ide/reference/immediate-window.md) command window.  
   
 ## Completion Lists  
  The IntelliSense completion lists in Visual C# contain tokens from List Members, Complete Word, and more. It provides quick access to:  
@@ -51,16 +52,16 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
 ###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
- In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](assetId:///052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
+ In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
   
 ###  <a name="Keywords"></a> Language Keywords in Completion Lists  
- In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](../Topic/C%23%20Keywords.md).  
+ In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](/dotnet/csharp/language-reference/keywords/index).  
   
 ###  <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]
->  The completion list does not display all extension methods for \<xref:System.String> objects.  
+>  The completion list does not display all extension methods for <xref:System.String> objects.  
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
@@ -71,7 +72,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
 -   **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
   
--   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as \<xref:System.Attribute>.  
+-   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
   
 -   `as` and `is` operators.  
   
@@ -91,7 +92,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.  
   
 ## override  
- When you type [override](../Topic/override%20\(C%23%20Reference\).md) and then press SPACEBAR, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` will prompt IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it will display all of the base class members.  
+ When you type [override](/dotnet/csharp/language-reference/keywords/override) and then press SPACEBAR, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` will prompt IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it will display all of the base class members.  
   
 ## Automatic Code Generation  
   
@@ -112,14 +113,14 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  To see the available options in the Visual Studio IDE, on the **Edit** menu, point to **IntelliSense**, and then point to **Organize Usings**. The IDE provides the following options to organize and remove `usings` directives:  
   
 ### Implement Interface  
- IntelliSense provides an option to help you implement an [interface](../Topic/interface%20\(C%23%20Reference\).md) while working in the Code Editor. Normally, to implement an interface properly you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a smart tag is displayed. The smart tag gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit Interface Implementation](../Topic/Explicit%20Interface%20Implementation%20\(C%23%20Programming%20Guide\).md).  
+ IntelliSense provides an option to help you implement an [interface](/dotnet/csharp/language-reference/keywords/interface) while working in the Code Editor. Normally, to implement an interface properly you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a smart tag is displayed. The smart tag gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit Interface Implementation](/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation).  
   
  Implement Interface will generate the minimum number of method stubs that is required to satisfy the interface. If a base class implements parts of the interface, then those stubs are not regenerated.  
   
 ### Implement abstract base class  
  IntelliSense provides an option to help you implement members of an abstract base class automatically while working in the Code Editor. Normally, to implement members of an abstract base class requires creating a new method definition for each method of the abstract base class in your derived class. Using IntelliSense, after typing the name of an abstract base class in a class declaration, a smart tag is displayed. The smart tag gives you the option to implement the base class methods automatically.  
   
- The method stubs that are generated by the Implement Abstract Base Class feature are modeled by the code snippet defined in the file MethodStub.snippet. Code Snippets are modifiable. For more information, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough--creating-a-code-snippet.md).  
+ The method stubs that are generated by the Implement Abstract Base Class feature are modeled by the code snippet defined in the file MethodStub.snippet. Code Snippets are modifiable. For more information, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md).  
   
 ### Generate from usage  
  The **Generate From Usage** feature enables you to use classes and members before you define them. You can generate a stub for any class, constructor, method, property, field, or enum that you want to use but have not yet defined. You can generate new types and members without leaving your current location in code. This minimizes interruption to your workflow.  

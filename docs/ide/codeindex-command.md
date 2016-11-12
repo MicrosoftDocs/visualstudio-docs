@@ -1,13 +1,13 @@
 ---
-title: "CodeIndex Command"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "CodeIndex Command | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "command-line tools [Team Foundation Server]"
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CodeIndex command [Team Foundation Server]"
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -135,5 +136,5 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ```  
   
 ## See Also  
- [Managing server configuration with TFSConfig](assetId:///94424190-3b6b-4f33-a6b6-5807f4225b62)   
- [Command-line tools for TFS](assetId:///be8c997a-b97b-4e59-97f5-04db0a601a6c)
+ [Managing server configuration with TFSConfig](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)   
+ [Command-line tools for TFS](http://msdn.microsoft.com/en-us/be8c997a-b97b-4e59-97f5-04db0a601a6c)
