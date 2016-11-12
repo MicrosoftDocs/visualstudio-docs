@@ -1,1 +1,0 @@
-            DataTable changedRecordsTable = dataTable1.GetChanges();
