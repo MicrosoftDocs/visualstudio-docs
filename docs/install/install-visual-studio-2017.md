@@ -84,11 +84,11 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 ## Install individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
 ## Install Language packs
 
-To install Visual Studio 2017 RC in a language of your choosing, click the **Language packs** tab, and follow the prompts.
+To install Visual Studio 2017 RC in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
 
 ## See Also  
 * [Modify Visual Studio 2017 RC](../install/modify-visual-studio.md)
