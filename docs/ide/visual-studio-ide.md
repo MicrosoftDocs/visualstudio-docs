@@ -42,11 +42,11 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  - games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.
 
 
- Visual Studio by default provides support for C#, C and C++, JavaScript, TypeScript, F#, and Visual Basic. Visual Studio works and integrates well with Xamarin through [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio), and third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/Topic/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../misc/get-started-with-visual-studio-tools-for-apache-cordova2.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks though the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+ Visual Studio by default provides support for C#, C and C++, JavaScript, TypeScript, F#, and Visual Basic. Visual Studio works and integrates well with Xamarin through [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio), and third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../misc/get-started-with-visual-studio-tools-for-apache-cordova2.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks though the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 ## Find out what's new
  If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md).
- If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=834481).
+ If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md).
 
 ## Set up Visual Studio
  You can find out which edition of Visual Studio is right for you at [Visual Studio Products](https://www.visualstudio.com/products/).

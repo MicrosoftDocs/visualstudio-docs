@@ -1,3 +1,38 @@
+---
+title: "Get Started with Visual Studio | Microsoft Docs"
+description: "Learn the basics about how to get started using Visual Studio"
+ms.custom: ""
+ms.date: "11/16/2016"
+ms.prod: "visual-studio-dev15"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology:
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords:
+  - "Visual Studio, getting started"
+ms.assetid: 38e90339-1da5-410c-8ba4-437fc556cba7
+caps.latest.revision: 65
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+translation.priority.ht:
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
+translation.priority.mt:
+  - "cs-cz"
+  - "pl-pl"
+  - "pt-br"
+  - "tr-tr"
+---
 Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://aka.ms/vs/15/preview/vs_enterprise). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
