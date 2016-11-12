@@ -1,5 +1,6 @@
 --- 
 layout: HubPage 
+title: Visual Studio 2017 RC | Microsoft Docs
 ---
 <div id="main" class="v2">
     <div class="container">
