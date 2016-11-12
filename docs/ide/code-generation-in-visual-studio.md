@@ -42,7 +42,7 @@ Because the logic of code generation is closely tied to language syntax, each la
   
 * [Code Generation (C#)](../csharp-ide/code-generation-csharp.md)
 
-Other languages coming soon...
+Documentation for other languages coming soon...
 
 ## See Also  
 [Visual Studio IDE](../ide/visual-studio-ide.md)   
