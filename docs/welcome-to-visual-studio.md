@@ -76,7 +76,7 @@ You can install [Azure development tools](https://azure.microsoft.com/en-us/tool
 In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
 ## Write great Web apps with ASP.NET  
- [ASP.NET 5](http://www.asp.net/vnext/overview/aspnet-vnext/aspnet-5-overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.  
+ [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.  
 
 ## Build, test, and manage your code  
 
