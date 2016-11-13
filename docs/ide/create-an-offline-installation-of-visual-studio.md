@@ -3,7 +3,6 @@ title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
 description: "Choose a version and learn how to create an offline installation of Visual Studio."
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
