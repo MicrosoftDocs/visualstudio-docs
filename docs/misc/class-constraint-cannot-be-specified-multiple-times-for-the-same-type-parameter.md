@@ -2,7 +2,7 @@
 title: "&#39;Class&#39; constraint cannot be specified multiple times for the same type parameter | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
-ms.prod: "visual-studio-dev14"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

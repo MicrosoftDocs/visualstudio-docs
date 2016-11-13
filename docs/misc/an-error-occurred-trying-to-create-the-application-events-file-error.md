@@ -2,7 +2,7 @@
 title: "An error occurred trying to create the application events file. &#39;&lt;error&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
