@@ -393,7 +393,6 @@
 ### [VSTextBuffer Object](vstextbuffer-object.md)
 ### [VSTextView Object](vstextview-object.md)
 ## [Visual Studio SDK Glossary](visual-studio-sdk-glossary.md)
-# [Visual Studio SDK Reference](visual-studio-sdk-reference.md)
 # [Creating a Software Development Kit](creating-a-software-development-kit.md)
 ## [Walkthrough: Creating an SDK using C# or Visual Basic](walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
 ## [Walkthrough: Creating an SDK using C++](walkthrough-creating-an-sdk-using-cpp.md)

@@ -4,7 +4,7 @@
 # [Visual Studio IDE](ide/TOC.md)
 # [Visual Basic](/dotnet/articles/visual-basic)
 # [Visual C#](/dotnet/articles/csharp)
-# [Visual C++](/cpp/top/visual-cpp-in-visual-studio-2017)
+# [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
 # [Javascript](javascript/TOC.md)
 # [Python](python/TOC.md)
 # [Visual F#](/dotnet/articles/fsharp/)
