@@ -2,7 +2,6 @@
 title: "CA2234: Pass System.Uri objects instead of strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

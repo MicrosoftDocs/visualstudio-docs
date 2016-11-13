@@ -2,7 +2,6 @@
 title: "How to: Expose Lists of Symbols Provided by the Library to the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

@@ -2,7 +2,6 @@
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

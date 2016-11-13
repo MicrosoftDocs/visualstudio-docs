@@ -2,7 +2,6 @@
 title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-06"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

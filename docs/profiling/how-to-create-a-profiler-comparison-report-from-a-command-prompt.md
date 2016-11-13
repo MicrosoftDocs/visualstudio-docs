@@ -2,7 +2,6 @@
 title: "How to: Create a Profiler Comparison Report from a Command Prompt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
