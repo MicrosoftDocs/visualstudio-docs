@@ -45,7 +45,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
 ## Find out what's new
  If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md).
- If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio.md).
+ If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](../ide/whats-new-in-visual-studio.md).
 
 ## Set up Visual Studio
  You can find out which edition of Visual Studio is right for you at [Visual Studio Products](https://www.visualstudio.com/products/).
@@ -214,6 +214,6 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 ## See Also  
  [Installing Visual Studio 2017 RC](../install/install-visual-studio.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
- [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio.md)   
+ [What's New in Visual Studio 2017 RC](../ide/whats-new-in-visual-studio.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
  [Talk to Us](../ide/talk-to-us.md)
