@@ -2,6 +2,7 @@
 title: "CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

@@ -2,6 +2,7 @@
 title: "CA1001: Types that own disposable fields should be disposable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
