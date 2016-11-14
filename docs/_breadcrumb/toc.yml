@@ -27,7 +27,7 @@
         topicHref: /visualstudio/extensibility/visual-studio-user-experience-guidelines
     - name: IDE 
       tocHref: /visualstudio/ide/
-      topicHref: /visualstudio/ide/visual-studio-ide
+      topicHref: /visualstudio/ide/index
       items:
       - name: Deployment
         tocHref: /visualstudio/deployment/
