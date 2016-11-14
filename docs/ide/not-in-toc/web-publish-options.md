@@ -2,6 +2,7 @@
 title: "What publishing options are right for me? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/07/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
