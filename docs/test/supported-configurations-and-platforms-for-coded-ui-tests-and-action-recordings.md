@@ -2,7 +2,6 @@
 title: "Supported Configurations and Platforms for Coded UI Tests and Action Recordings | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-10-04"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

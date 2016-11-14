@@ -2,7 +2,6 @@
 title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

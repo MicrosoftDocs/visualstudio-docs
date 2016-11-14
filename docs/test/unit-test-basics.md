@@ -2,7 +2,6 @@
 title: "Unit Test Basics | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-01-07"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
