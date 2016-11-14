@@ -31,7 +31,7 @@ This schema describes the format of the Visual Studio template manifest (.vstman
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.  
   
 > [!IMPORTANT]
->  This manifest is available starting in Visual Studio "15" Preview 2.  
+>  This manifest is available starting in Visual Studio 2017.  
   
 ## VSTemplateManifest Element  
  The root element of the manifest.  
