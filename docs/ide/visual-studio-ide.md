@@ -46,7 +46,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 
 ## Find out what's new
  If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md).
- If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md).
+ If you want to find out about new features in Visual Studio 2017 RC, see [What's New in Visual Studio 2017 RC](../ide/whats-new-in-visual-studio.md).
 
 ## Set up Visual Studio
  You can find out which edition of Visual Studio is right for you at [Visual Studio Products](https://www.visualstudio.com/products/).
@@ -213,8 +213,8 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  The [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
 
 ## See Also  
- [Installing Visual Studio 2017 RC](../install/install-visual-studio-2017.md)   
+ [Installing Visual Studio 2017 RC](../install/install-visual-studio.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
- [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md)   
+ [What's New in Visual Studio 2017 RC](../ide/whats-new-in-visual-studio.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
  [Talk to Us](../ide/talk-to-us.md)

@@ -50,7 +50,7 @@ Choose the workloads you need, and change them up when you need to. The smallest
 
 We've also added different ways to install Visual Studio. Want to pick your own components instead of using workloads? Simply select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Install language** tab of the installer.  
 
-To learn more about the new installation experience, including step-by-step instructions that walk you through it, see our [Install Visual Studio](.../install/install-visual-studio-2017.md) page.
+To learn more about the new installation experience, including step-by-step instructions that walk you through it, see our [Install Visual Studio](../install/install-visual-studio.md) page.
 
 >[!NOTE]
 >Because this is a prerelease, we still have a few things to work on. To learn more, see the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes.
