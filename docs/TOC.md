@@ -1,6 +1,6 @@
 # [Welcome to Visual Studio 2017 RC!](welcome-to-visual-studio.md)
 # [What's New in Visual Studio 2017 RC](ide\whats-new-in-visual-studio.md)
-# [Install Visual Studio](install\TOC.md)
+# [Installation](install\TOC.md)
 # [Visual Studio IDE](ide/TOC.md)
 # [Visual Basic](/dotnet/articles/visual-basic)
 # [Visual C#](/dotnet/articles/csharp)

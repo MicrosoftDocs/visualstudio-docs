@@ -74,5 +74,5 @@ If you want to change the language that Visual Studio is installed in, choose th
 
 ## See Also  
 * [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
-* [Uninstall Visual Studio 2017 RC](...ide/uninstall-visual-studio.md)
+* [Uninstall Visual Studio 2017 RC](uninstall-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

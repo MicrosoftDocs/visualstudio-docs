@@ -58,7 +58,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 2.  We’ll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/support/legal/mt591984) and the Microsoft [Privacy Statement](https://www.visualstudio.com/dn948229). Click **Install** to continue.  
 
-     ![Installing Visual Studio 2017 RC &#45; License Terms and Privacy Statement](../install/media/01-installingdev15prev4_licensetermsandprivacystatement.png.PNG "InstallingVisualStudio2017RC-LicenseTermsAndPrivacyStatement.PNG")  
+  ![License Terms and Privacy Statement](media/01-installingdev15prev4-licensetermsandprivacystatement.png)  
 
 3.  You’ll see several status screens that show the progress of the installation. After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want.
 
@@ -69,7 +69,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.  
 
-    ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS20117RC_Setup_screen")
+  ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png)
 
      For example, choose the .NET Desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
@@ -90,6 +90,6 @@ If you don’t want to use the handy Workloads feature to customize your Visual 
 To install Visual Studio 2017 RC in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
 
 ## See Also  
-* [Modify Visual Studio 2017 RC](../install/modify-visual-studio.md)
-* * [Uninstall Visual Studio 2017 RC](../install/uninstall-visual-studio.md)
+* [Modify Visual Studio 2017 RC](modify-visual-studio.md)
+* [Uninstall Visual Studio 2017 RC](uninstall-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
