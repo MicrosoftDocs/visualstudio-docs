@@ -212,7 +212,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  The [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
 
 ## See Also  
- [Installing Visual Studio 2017 RC](../install/install-visual-studio-2017.md)   
+ [Installing Visual Studio 2017 RC](../install/install-visual-studio.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
  [What's New in Visual Studio 2017 RC](../ide/what-s-new-in-visual-studio-2017.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
