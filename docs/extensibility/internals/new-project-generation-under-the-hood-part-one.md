@@ -2,6 +2,7 @@
 title: "New Project Generation: Under the Hood, Part One | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

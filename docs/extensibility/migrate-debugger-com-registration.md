@@ -2,6 +2,7 @@
 title: "Migrate 64-bit debugger COM class registration| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/10/2016"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
