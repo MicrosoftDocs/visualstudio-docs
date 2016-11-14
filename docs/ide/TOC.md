@@ -49,7 +49,7 @@
 #### [Step 8: Add a Method to Verify Whether the Player Won](step-8-add-a-method-to-verify-whether-the-player-won.md)
 #### [Step 9: Try Other Features](step-9-try-other-features.md)
 ## [Getting Started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)
-## [Getting Started with Debugging in Visual Studio 2015](getting-started-with-debugging-in-visual-studio-2015.md)
+## [Getting Started with Debugging in Visual Studio 2015](getting-started-with-debugging-in-visual-studio.md)
 # [Finding and Using Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
 # [Solutions and Projects in Visual Studio](solutions-and-projects-in-visual-studio.md)
 ## [Creating Solutions and Projects](creating-solutions-and-projects.md)
