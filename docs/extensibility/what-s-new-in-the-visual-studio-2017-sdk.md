@@ -53,7 +53,7 @@ To learn about these changes, see the following topics:
 
 ## Migrating extensibility project to Visual Studio 2017
 
-To learn how to update your extensibility projects and their VSIX manifests to Visual Studio 2017, see [How to: Migrate Extensibility Projects to Visual Studio 2010](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
+To learn how to update your extensibility projects and their VSIX manifests to Visual Studio 2017, see [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
 ## Custom project and item templates
 
