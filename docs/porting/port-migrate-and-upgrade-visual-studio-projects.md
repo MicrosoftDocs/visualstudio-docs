@@ -40,12 +40,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Port, Migrate, and Upgrade Visual Studio Projects
-When you move to a newer version of Visual Studio, you'll want to know if  you must modify any of the solutions, projects, files, and other assets that you created in Visual Studio 2015, Visual Studio 2013, or Visual Studio 2012 before you run them in either Visual Studio 2015 or Visual Studio 2017 RC. This page can help you with that.
+When you move to a newer version of Visual Studio, you'll want to know if  you must modify any of the solutions, projects, files, and other assets that you created in earlier versions *before* you run them in recent versions.
 
- Many widely used assets behave the same in Visual Studio 2017 RC, Visual Studio 2015, and the two earlier versions. For example, in Visual Studio 2017 RC, you can open a project that was created in Visual Studio 2015 or Visual Studio 2013, change it, and then reopen it in Visual Studio 2017 RC; your changes persist and the project behaves the same as it does in the earlier version. The same is true for many assets that were created in Visual Studio 2012.  
+ Many widely used assets behave the same in our newest version, Visual Studio 2017 RC, as they do in our recent version, Visual Studio 2015. They will also behave the same in our earlier versions, Visual Studio 2013, and Visual Studio 2012.
 
- If you use Visual Studio 2015 together with Visual Studio 2013, Visual Studio 2012, or Visual Studio 2010 SP1, you can create and modify projects and files in any of the versions. You can transfer projects and files among the versions as long as you don't add features that are not supported by one of the versions.  
+ For example, in Visual Studio 2017 RC, you can open a project that was created in Visual Studio 2015 or Visual Studio 2013, change it, and then reopen it in Visual Studio 2017 RC; your changes persist and the project behaves the same as it does in the earlier version. The same is true for many assets that were created in Visual Studio 2012.  
 
-
-## See Also  
- [Making Custom Projects Version-Aware](../Topic/Making%20Custom%20Projects%20Version-Aware.md)
+ If you use Visual Studio 2015 together with Visual Studio 2013, Visual Studio 2012, or Visual Studio 2010 SP1, you can create and modify projects and files in any of these versions. You can transfer projects and files among the versions as long as you don't add features that are not supported by one of the versions. (For more information about which features specific to which versions, see our [Release Notes](https://www.visualstudio.com/vs/release-notes/).)
