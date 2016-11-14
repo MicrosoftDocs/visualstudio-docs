@@ -10,7 +10,7 @@
 # [Visual F#](/dotnet/articles/fsharp/)
 # [Data Access](data-tools/TOC.md)
 # [Cross-Platform Mobile Development](cross-platform/TOC.md)
-# [Port, Migrate, or Upgrade Your Code](porting\TOC.md)
+# [Port, Migrate, or Upgrade Your Code](porting\porting-migrating-and-upgrading-visual-studio-projects.md)
 # [Extensibility](extensibility/TOC.md)
 # [Talk to Us](ide/talk-to-us.md)
 ## [How to Report a Problem with Visual Studio 2017 RC](ide/how-to-report-a-problem-with-visual-studio-2017.md)

@@ -1,6 +1,6 @@
---- 
-layout: HubPage 
-title: Visual Studio 2017 RC | Microsoft Docs
+---
+layout: HubPage
+title: Visual Studio Documentation
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -12,7 +12,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/gear.svg" src="images/gear.png" alt="" />
+                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -31,7 +31,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/gear.svg" src="images/gear.png" alt="" />
+                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -50,12 +50,11 @@ title: Visual Studio 2017 RC | Microsoft Docs
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/gear.svg" src="images/gear.svg" alt="" />
+                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
                                     <h3>What's New in Visual Studio 2017 RC</h3>
-                                    <p>Read about new Visual Studio features.</p>
                                 </div>
                             </div>
                         </div>
@@ -65,13 +64,14 @@ title: Visual Studio 2017 RC | Microsoft Docs
         </ul>
     </div>
     <div class="container">
+        <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
             <li>
                 <a href="#workloads">Workloads</a>
                 <ul id="workloads">
                     <li>
                         <a href="#windows">Windows</a>
-                        <ul id="windows" class="cardsC">
+                        <ul id="windows" class="cardsG">
                             <li>
                                 <div class="container intro">
                                     <p>Develop apps and games using Visual Studio to reach every device running Windows.</p>
@@ -84,7 +84,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-1.svg" src="./images/vs_windows-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -103,7 +103,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-2.svg" src="./images/vs_windows-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -122,7 +122,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-3.svg" src="./images/vs_windows-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -138,7 +138,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                     </li>
                     <li>
                         <a href="#web">Web &amp; Cloud</a>
-                        <ul id="web" class="cardsC">
+                        <ul id="web" class="cardsG">
                             <li>
                                 <div class="container intro">
                                     <p>Develop modern web apps using Visual Studio and powerful open tools.
@@ -152,7 +152,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -171,7 +171,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -190,7 +190,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -209,7 +209,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -228,7 +228,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -247,7 +247,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_web-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -266,7 +266,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="Office Development" />
+                                                        <img src="./images/vs_web-7.svg" alt="Office Development" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -282,7 +282,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                     </li>
                     <li>
                         <a href="#mobile">Mobile &amp; Gaming</a>
-                        <ul id="mobile" class="cardsC">
+                        <ul id="mobile" class="cardsG">
                             <li>
                                 <div class="container intro">
                                     <p>Create native or hybrid mobile apps that target Android, iOS, and Windows.</p>
@@ -295,7 +295,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_gaming-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -314,7 +314,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_gaming-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -333,7 +333,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_gaming-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -352,7 +352,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_gaming-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -371,7 +371,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_gaming-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -387,7 +387,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                     </li>
                     <li>
                         <a href="#other">Other Toolsets</a>
-                        <ul id="other" class="cardsC">
+                        <ul id="other" class="cardsG">
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=834750">
                                     <div class="cardSize">
@@ -395,7 +395,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_tools-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -414,7 +414,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_tools-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -442,8 +442,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-1.svg" src="./images/vs_features-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -461,8 +461,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-2.svg" src="./images/vs_features-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -480,8 +480,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-3.svg" src="./images/vs_features-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -499,8 +499,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-4.svg" src="./images/vs_features-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -518,8 +518,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-5.svg" src="./images/vs_features-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -537,8 +537,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-6.svg" src="./images/vs_features-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -556,8 +556,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-7.svg" src="./images/vs_features-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -576,8 +576,8 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-8.svg" src="./images/vs_features-8.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -607,7 +607,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -626,7 +626,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -645,7 +645,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -664,7 +664,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -683,7 +683,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -702,7 +702,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -721,7 +721,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -740,7 +740,7 @@ title: Visual Studio 2017 RC | Microsoft Docs
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/placeholder.svg" alt="" />
+                                                        <img src="./images/vs_language-8.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
