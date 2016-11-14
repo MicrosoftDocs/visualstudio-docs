@@ -2,7 +2,6 @@
 title: "DA0504: Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
