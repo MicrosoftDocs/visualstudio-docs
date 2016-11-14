@@ -2,6 +2,7 @@
 title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-05"
+ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -3,6 +3,7 @@ title: "Uninstall Visual Studio | Microsoft Docs"
 description: "Learn how to uninstall Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: "2016-05-05"
+ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
