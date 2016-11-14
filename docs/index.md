@@ -12,7 +12,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/setup-install.svg" src="images/setup-install.svg" alt="" />
+                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -31,7 +31,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/getstarted.svg" src="images/getstarted.svg" alt="" />
+                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -50,7 +50,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/whatsnew.svg" src="images/whatsnew.svg" alt="" />
+                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -84,7 +84,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="images/vs_windows-1.svg" src="images/vs_windows-1.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-1.svg" src="./images/vs_windows-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -103,7 +103,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="images/vs_windows-2.svg" src="images/vs_windows-2.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-2.svg" src="./images/vs_windows-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -122,7 +122,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="images/vs_windows-3.svg" src="images/vs_windows-3.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_windows-3.svg" src="./images/vs_windows-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -152,7 +152,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-1.svg" alt="" />
+                                                        <img src="./images/vs_web-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -171,7 +171,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-2.svg" alt="" />
+                                                        <img src="./images/vs_web-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -190,7 +190,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-3.svg" alt="" />
+                                                        <img src="./images/vs_web-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -209,7 +209,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-4.svg" alt="" />
+                                                        <img src="./images/vs_web-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -228,7 +228,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-5.svg" alt="" />
+                                                        <img src="./images/vs_web-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -247,7 +247,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-6.svg" alt="" />
+                                                        <img src="./images/vs_web-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -266,7 +266,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_web-7.svg" alt="Office Development" />
+                                                        <img src="./images/vs_web-7.svg" alt="Office Development" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -295,7 +295,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_gaming-1.svg" alt="" />
+                                                        <img src="./images/vs_gaming-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -314,7 +314,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_gaming-2.svg" alt="" />
+                                                        <img src="./images/vs_gaming-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -333,7 +333,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_gaming-3.svg" alt="" />
+                                                        <img src="./images/vs_gaming-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -352,7 +352,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_gaming-4.svg" alt="" />
+                                                        <img src="./images/vs_gaming-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -371,7 +371,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_gaming-5.svg" alt="" />
+                                                        <img src="./images/vs_gaming-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -395,7 +395,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_tools-1.svg" alt="" />
+                                                        <img src="./images/vs_tools-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -414,7 +414,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_tools-2.svg" alt="" />
+                                                        <img src="./images/vs_tools-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -443,7 +443,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-1.svg" src="images/vs_features-1.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-1.svg" src="./images/vs_features-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -462,7 +462,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-2.svg" src="images/vs_features-2.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-2.svg" src="./images/vs_features-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -481,7 +481,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-3.svg" src="images/vs_features-3.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-3.svg" src="./images/vs_features-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -500,7 +500,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-4.svg" src="images/vs_features-4.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-4.svg" src="./images/vs_features-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -519,7 +519,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-5.svg" src="images/vs_features-5.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-5.svg" src="./images/vs_features-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -538,7 +538,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-6.svg" src="images/vs_features-6.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-6.svg" src="./images/vs_features-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -557,7 +557,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-7.svg" src="images/vs_features-7.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-7.svg" src="./images/vs_features-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -577,7 +577,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="images/vs_features-8.svg" src="images/vs_features-8.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_features-8.svg" src="./images/vs_features-8.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -607,7 +607,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-1.svg" alt="" />
+                                                        <img src="./images/vs_language-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -626,7 +626,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-2.svg" alt="" />
+                                                        <img src="./images/vs_language-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -645,7 +645,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-3.svg" alt="" />
+                                                        <img src="./images/vs_language-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -664,7 +664,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-4.svg" alt="" />
+                                                        <img src="./images/vs_language-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -683,7 +683,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-5.svg" alt="" />
+                                                        <img src="./images/vs_language-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -702,7 +702,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-6.svg" alt="" />
+                                                        <img src="./images/vs_language-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -721,7 +721,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-7.svg" alt="" />
+                                                        <img src="./images/vs_language-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -740,7 +740,7 @@ title: Visual Studio Documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/vs_language-8.svg" alt="" />
+                                                        <img src="./images/vs_language-8.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
