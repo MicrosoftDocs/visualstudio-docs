@@ -48,7 +48,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
  [Refactoring and Rename Dialog Box (Visual Basic)](/dotnet/visual-basic/developing-apps/using-ide/refactoring-and-rename-dialog-box)  
   
 ### Refactoring in C++  
- [Writing and refactoring code (C++)](/visual-cpp/ide/writing-and-refactoring-code-cpp)  
+ [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
   
 ### Refactoring in F# #
  Refactoring support for F# is provided in [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff), a third-party Visual Studio extension.  
