@@ -46,10 +46,10 @@ The new format has support for:
 
 To learn about these changes, see the following topics:
 
-* [Changes to Extensibility for 2017](breaking-changes-2017.md)
+* [Changes to extensibility for 2017](breaking-changes-2017.md)
 * [Ngen support in VSIX v3](ngen-support.md)
-* [Set Install Root](set-install-root.md)
-* [Frequently Asked Questions for Visual Studio 2017](faq-2017.md)
+* [Installing to external directories](set-install-root.md)
+* [Frequently Asked Questions for Visual Studio 2017 extensibility](faq-2017.md)
 
 ## Migrating extensibility project to Visual Studio 2017
 
