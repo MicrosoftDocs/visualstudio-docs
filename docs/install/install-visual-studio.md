@@ -59,7 +59,6 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 2.  We’ll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/support/legal/mt591984) and the Microsoft [Privacy Statement](https://www.visualstudio.com/dn948229). Click **Install** to continue.  
 
   ![License Terms and Privacy Statement](media/01-installingdev15prev4-licensetermsandprivacystatement.png)  
-![blah](media/features.png)
 
 3.  You’ll see several status screens that show the progress of the installation. After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want.
 
