@@ -2,7 +2,7 @@
 title: "Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
+ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

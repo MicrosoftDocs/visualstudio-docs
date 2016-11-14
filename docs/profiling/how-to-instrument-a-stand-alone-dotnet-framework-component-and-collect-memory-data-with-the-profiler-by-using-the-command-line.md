@@ -2,7 +2,7 @@
 title: "How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
+ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
