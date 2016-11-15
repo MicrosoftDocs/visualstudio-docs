@@ -110,7 +110,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  There is no requirement to use any of these technologies. In some scenarios, especially where performance is critical, you can simply use a DataReader object to read from the database and copy the values that you need into a collection object such as List\<T>.  
   
 ### Native C++  
- C++ applications that connect to SQL Server should use the [SQL Server Native Client](https://msdn.microsoft.com/en-us/sqlserver/aa937733.aspx). You can access other databases by  using [ODBC](https://msdn.microsoft.com/en-us/library/ms710252\(v=vs.85\).aspx) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface.  OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications.  For more information, see [Data Access](../Topic/Data%20Access%20in%20Visual%20C++.md).  
+ C++ applications that connect to SQL Server should use the [SQL Server Native Client](https://msdn.microsoft.com/en-us/sqlserver/aa937733.aspx). You can access other databases by  using [ODBC](https://msdn.microsoft.com/en-us/library/ms710252\(v=vs.85\).aspx) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface.  OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications.  For more information, see [Data Access](http://msdn.microsoft.com/Library/a9455752-39c4-4457-b14e-197772d3df0b).  
   
  C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).  
   
@@ -119,7 +119,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 #### Data modeling  
  Visual Studio  does not provide an ORM layer for C++.  [ODB](http://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.  
   
- For more information about legacy Visual C++ data-access technologies, see  [Data Access](../Topic/Data%20Access%20in%20Visual%20C++.md)  
+ For more information about legacy Visual C++ data-access technologies, see  [Data Access](http://msdn.microsoft.com/Library/a9455752-39c4-4457-b14e-197772d3df0b)  
   
 ### JavaScript  
  [JavaScript in Visual Studio](https://msdn.microsoft.com/en-us/library/hh334522.aspx) is a first-class language for building cross-platform apps, UWP apps, cloud services, websites, and web apps. You can use Bower, Grunt, Gulp, npm, and NuGet  from within Visual Studio to install your favorite JavaScript libraries and database products. Connect to Azure storage and services by downloading SDKs from the [Azure website](https://azure.microsoft.com/).  Edge.js is a library that connects server-side JavaScript (Node.js) to ADO.NET data sources.  
@@ -147,23 +147,23 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx)  
  Describes the tools that simplify design, exploration, testing, and deploying of data-connected applications and databases.  
   
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](http://msdn.microsoft.com/Library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
  Describes the ADO.NET architecture and how to use the ADO.NET classes to manage application data and interact with data sources and XML.  
   
  [ADO.NET Entity Framework](https://msdn.microsoft.com/en-us/data/ef)  
  Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.  
   
- [WCF Data Services 4.5](../Topic/WCF%20Data%20Services%204.5.md)  
+ [WCF Data Services 4.5](http://msdn.microsoft.com/Library/73d2bec3-7c92-4110-b905-11bb0462357a)  
  Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).  
   
  [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.  
   
- [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md)  
+ [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d)  
  Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.  
   
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)  
  Discusses working with XML data, debugging XSLT, .NET Framework XML features, and the architecture of XML Query.  
   
- [XML Documents and Data](../Topic/XML%20Documents%20and%20Data.md)  
+ [XML Documents and Data](http://msdn.microsoft.com/Library/e695047f-3c0f-4045-8708-5baea91cc380)  
  Provides an overview to a comprehensive and integrated set of classes that work with XML documents and data in the .NET Framework.

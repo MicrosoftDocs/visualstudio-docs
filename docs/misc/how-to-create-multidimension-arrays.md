@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create Multidimension Arrays
-Content moved to [How to: Use Arrays in C++/CLI](../Topic/How%20to:%20Use%20Arrays%20in%20C++-CLI.md).
+Content moved to [How to: Use Arrays in C++/CLI](http://msdn.microsoft.com/Library/301cfb3e-199f-42c8-8151-629dce9e87f3).

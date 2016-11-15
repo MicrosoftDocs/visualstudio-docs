@@ -31,6 +31,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # queue Functions
-Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [\<queue>](../Topic/%3Cqueue%3E.md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [\<queue>](http://msdn.microsoft.com/Library/24fcf350-eb0e-48cf-9fef-978be1aeda1f).  
   
 ## Syntax

@@ -170,6 +170,6 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 ## Next Steps  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)   
- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)   
+ [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)   
+ [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14)   
  [Makecert.exe (Certificate Creation Tool)](../Topic/Makecert.exe%20\(Certificate%20Creation%20Tool\).md)

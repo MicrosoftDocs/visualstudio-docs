@@ -130,4 +130,4 @@ Authentication of the user who requested debugging was prevented by an authentic
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Microsoft Digest Authentication](http://go.microsoft.com/fwlink/?LinkId=77938)   
- [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](../Topic/Running%20Web%20Applications%20on%20Windows%20Vista%20with%20IIS%207.0%20and%20Visual%20Studio.md)
+ [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](http://msdn.microsoft.com/Library/262a82ac-dd0e-4096-86c6-fb463e88be66)

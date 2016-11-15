@@ -67,5 +67,5 @@ translation.priority.mt:
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)  
   
 ## See Also  
- [Capitalization Conventions](../Topic/Capitalization%20Conventions.md)   
- [Naming Guidelines](../Topic/Naming%20Guidelines.md)
+ [Capitalization Conventions](http://msdn.microsoft.com/Library/4c4ea526-9203-486f-b72d-29d61c5b3c6d)   
+ [Naming Guidelines](http://msdn.microsoft.com/Library/fc076d66-9b5f-42d3-aa65-61d970c794a3)

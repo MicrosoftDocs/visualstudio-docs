@@ -35,20 +35,20 @@ translation.priority.mt:
 # Basic Math Functions
 This example has been deprecated. Please refer to the following headers for your math needs:  
   
--   [\<cmath>](../Topic/%3Ccmath%3E.md) to use C Runtime `math.h` functions.  
+-   [\<cmath>](http://msdn.microsoft.com/Library/80df1dba-60ca-4918-9c2e-fbf446eaa7d6) to use C Runtime `math.h` functions.  
   
--   [\<complex>](../Topic/%3Ccomplex%3E.md)  
+-   [\<complex>](http://msdn.microsoft.com/Library/5e728995-3059-496a-9ce9-61d1bfbe4f2b)  
   
--   [\<functional>](../Topic/%3Cfunctional%3E.md) for transparent operator functors.  
+-   [\<functional>](http://msdn.microsoft.com/Library/7dd463e8-a29f-49bc-aedd-8fa53b54bfbc) for transparent operator functors.  
   
--   [\<limits>](../Topic/%3Climits%3E.md)  
+-   [\<limits>](http://msdn.microsoft.com/Library/e07d6379-5b00-4a3d-a789-40d41538b59e)  
   
--   [\<numeric>](../Topic/%3Cnumeric%3E.md)  
+-   [\<numeric>](http://msdn.microsoft.com/Library/6d6ccb94-48cc-479b-b4a9-bd9c78d4896a)  
   
--   [\<random>](../Topic/%3Crandom%3E.md)  
+-   [\<random>](http://msdn.microsoft.com/Library/60afc25c-b162-4811-97c1-1b65398d4c57)  
   
--   [\<ratio>](../Topic/%3Cratio%3E.md)  
+-   [\<ratio>](http://msdn.microsoft.com/Library/8543e912-2d84-45ea-b3c0-bd7bfacee405)  
   
--   [\<valarray>](../Topic/%3Cvalarray%3E.md)  
+-   [\<valarray>](http://msdn.microsoft.com/Library/30835415-21c1-4801-8f24-6bbef7dd8ecd)  
   
 ## Syntax

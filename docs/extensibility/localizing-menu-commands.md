@@ -168,4 +168,4 @@ You can provide localized text for menu and toolbar commands by creating localiz
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
- [Globalization and Localization](../Topic/Globalizing%20and%20Localizing%20.NET%20Framework%20Applications.md)
+ [Globalization and Localization](http://msdn.microsoft.com/Library/9a59696b-d89b-45bd-946d-c75da4732d02)

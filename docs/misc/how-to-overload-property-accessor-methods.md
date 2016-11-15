@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Overload Property Accessor Methods
-This content has been moved to [How to: Use Properties in C++/CLI](../Topic/How%20to:%20Use%20Properties%20in%20C++-CLI.md).
+This content has been moved to [How to: Use Properties in C++/CLI](http://msdn.microsoft.com/Library/f5d82547-e214-4f05-9e1b-ddb6d0dc5e4c).

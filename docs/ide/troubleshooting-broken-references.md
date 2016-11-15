@@ -50,7 +50,7 @@ If your application attempts to use a broken reference, an exception error is ge
  The following are remedies to these problems.  
   
 > [!NOTE]
->  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](../Topic/Programming%20with%20Assemblies.md).  
+>  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](http://msdn.microsoft.com/Library/25918b15-701d-42c7-95fc-c290d08648d6).  
   
 ## Reference Path Is Incorrect  
  If projects are shared on different computers, some references might not be found when a component is located in a different directory on each computer. References are stored under the name of the component file (for example, MyComponent). When a reference is added to a project, the folder location of the component file (for example, C:\MyComponents\\) is appended to the **ReferencePath** project property.  

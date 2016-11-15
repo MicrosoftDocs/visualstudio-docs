@@ -46,4 +46,4 @@ The Visual Studio Image Library contains application images that appear in Micro
   
 ## See Also  
  [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)   
- [Images, Bitmaps, and Metafiles](../Topic/Images,%20Bitmaps,%20and%20Metafiles.md)
+ [Images, Bitmaps, and Metafiles](http://msdn.microsoft.com/Library/7152b45b-a55c-49bc-8c78-ae002a844f71)

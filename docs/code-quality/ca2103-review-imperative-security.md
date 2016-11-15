@@ -58,5 +58,5 @@ translation.priority.mt:
  It is safe to suppress a warning from this rule if the permission does not rely on changing data. However, it is better to change the imperative demand to its declarative equivalent.  
   
 ## See Also  
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)
+ [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)   
+ [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6)

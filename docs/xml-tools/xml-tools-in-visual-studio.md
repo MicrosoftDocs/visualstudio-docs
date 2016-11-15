@@ -82,7 +82,7 @@ translation.priority.ht:
  Describes the classes and other elements that make up the <xref:System.Xml.Serialization> namespace and provides links to more detailed information about each item.  
   
 ## Related Sections  
- [XML Document Object Model (DOM)](../Topic/XML%20Document%20Object%20Model%20\(DOM\).md)  
+ [XML Document Object Model (DOM)](http://msdn.microsoft.com/Library/b5e52844-4820-47c0-a61d-de2da33e9f54)  
  Describes how the <xref:System.Xml.XmlDocument> and its associated classes comply with the W3C Document Object Model (Core) Level 1 and Level 2 namespace support specifications.  
   
  [Reading XML with the XmlReader](http://msdn.microsoft.com/en-us/3029834c-a27e-4331-b7aa-711924062182)  
@@ -91,11 +91,11 @@ translation.priority.ht:
  [Writing XML with the XmlWriter](http://msdn.microsoft.com/en-us/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86)  
  Describes how the <xref:System.Xml.XmlWriter> provides noncached, forward only, way of generating XML streams and helps you build XML documents that comply with the W3C standard.  
   
- [XSLT Transformations](../Topic/XSLT%20Transformations.md)  
+ [XSLT Transformations](http://msdn.microsoft.com/Library/202f8820-224c-494f-b61e-cd127eac6e03)  
  Describes how the <xref:System.Xml.Xsl.XslCompiledTransform> class implements the XSLT 1.0 recommendation.  
   
- [Process XML Data Using the XPath Data Model](../Topic/Process%20XML%20Data%20Using%20the%20XPath%20Data%20Model.md)  
+ [Process XML Data Using the XPath Data Model](http://msdn.microsoft.com/Library/536c6fce-1453-4654-9c72-bca54d47e081)  
  Describes how the <xref:System.Xml.XPath.XPathNavigator> class can process XML data stored in an <xref:System.Xml.XPath.XPathDocument> or an <xref:System.Xml.XmlDocument> object. The <xref:System.Xml.XPath.XPathNavigator> class is based on the XQuery 1.0 and XPath 2.0 Data Model and can be used to navigate and edit XML data.  
   
- [XML Schema Object Model (SOM)](../Topic/XML%20Schema%20Object%20Model%20\(SOM\).md)  
+ [XML Schema Object Model (SOM)](http://msdn.microsoft.com/Library/a897a599-ffd1-43f9-8807-e58c8a7194cd)  
  Describes the classes used for creating and manipulating XML Schemas, by providing an <xref:System.Xml.Schema.XmlSchema> class to load and edit a schema.

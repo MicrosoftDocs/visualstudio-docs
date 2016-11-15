@@ -68,7 +68,7 @@ Sets the default path of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md
  If you attempt to create a new project or open an existing project in a location that is not fully trusted (for example, on a UNC path or an HTTP path), a message is displayed. Use this option to specify whether the message is displayed each time that you attempt to create or open a project in a location that is not fully trusted.  
   
  **Show Output window when build starts**  
- Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](../Topic/How%20to:%20Control%20the%20Output%20Window.md). This option is enabled by default.  
+ Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858). This option is enabled by default.  
   
  **Prompt for symbolic renaming when renaming files**  
  When selected, displays a message box asking whether or not [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] should also rename all references in the project to the code element.  

@@ -456,17 +456,17 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What’s next?  
  **Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], or from [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)]. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.  
   
--   [How to: Run Tests from Microsoft Visual Studio](../Topic/How%20to:%20Run%20Tests%20from%20Microsoft%20Visual%20Studio.md)  
+-   [How to: Run Tests from Microsoft Visual Studio](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)  
   
 -   [Running Automated Tests in Microsoft Test Manager](http://msdn.microsoft.com/en-us/0632f265-63fe-4859-a413-9bb934c66835)  
   
 -   [How to: Configure and Run Scheduled Tests After Building Your Application](http://msdn.microsoft.com/en-us/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)  
   
--   [Run tests in your build process](../Topic/Run%20tests%20in%20your%20build%20process.md)  
+-   [Run tests in your build process](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38)  
   
 -   [Running automated tests from the command line](/devops-test-docs/test/running-automated-tests-from-the-command-line)  
   
--   [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](../Topic/How%20to:%20Set%20Up%20Your%20Test%20Agent%20to%20Run%20Tests%20that%20Interact%20with%20the%20Desktop.md)  
+-   [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)  
   
 -   [&#91;retired&#93; Using Coded UI Tests in Load Tests](/devops-test-docs/test_notintoc/using-coded-ui-tests-in-load-tests)  
   
@@ -496,7 +496,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>   
- [Improve Code Quality](../Topic/Improve%20Code%20Quality.md)   
+ [Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)   
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   

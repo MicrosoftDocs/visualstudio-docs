@@ -48,7 +48,7 @@ There is a conflict between references; more than one distinct dependency with t
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)   
- [Global Assembly Cache](../Topic/Global%20Assembly%20Cache.md)   
- [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
- [Assembly Versioning](../Topic/Assembly%20Versioning.md)   
+ [Global Assembly Cache](http://msdn.microsoft.com/Library/cf5eacd0-d3ec-4879-b6da-5fd5e4372202)   
+ [Strong-Named Assemblies](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
+ [Assembly Versioning](http://msdn.microsoft.com/Library/775ad4fb-914f-453c-98ef-ce1089b6f903)   
  [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md)

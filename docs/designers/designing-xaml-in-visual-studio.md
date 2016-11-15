@@ -56,7 +56,7 @@ Visual Studio and Blend for Visual Studio both provide visual tools for building
   
 -   **A common Solution Explorer:** The Solution Explorer provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md).  
   
--   **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](../Topic/Work%20in%20Team%20Explorer.md).  
+-   **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](http://msdn.microsoft.com/Library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02).  
   
 -   **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET Framework that simplifies the installation and removal of packages from a solution.  
   

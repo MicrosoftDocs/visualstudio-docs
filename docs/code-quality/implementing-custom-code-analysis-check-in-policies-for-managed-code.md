@@ -72,7 +72,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
   
 1.  In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.  
   
-     For more information, see [Use version control](../Topic/Use%20version%20control.md).  
+     For more information, see [Use version control](http://msdn.microsoft.com/Library/33267cee-fe5f-4aa3-b2cd-6d22ceace314).  
   
 2.  Click the rule set file that you created, and then click **Finish**.  
   

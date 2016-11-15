@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Unbound Delegates
-Content moved to [How to: Define and Use Delegates (C++/CLI)](../Topic/How%20to:%20Define%20and%20Use%20Delegates%20\(C++-CLI\).md)
+Content moved to [How to: Define and Use Delegates (C++/CLI)](http://msdn.microsoft.com/Library/1cdf3420-89c1-47c0-b796-aa984020e0f8)

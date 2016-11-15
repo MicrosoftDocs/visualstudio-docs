@@ -69,4 +69,4 @@ Sometimes Visual Studio cannot fully convert a project from an earlier version o
   
 ## See Also  
  [/Upgrade (devenv.exe)](../ide/reference/upgrade-devenv-exe.md)   
- [Converting to ASP.NET 4](../Topic/Converting%20to%20ASP.NET%204.md)
+ [Converting to ASP.NET 4](http://msdn.microsoft.com/Library/790147c6-36c1-41b5-a52d-30b9ccd2bd10)

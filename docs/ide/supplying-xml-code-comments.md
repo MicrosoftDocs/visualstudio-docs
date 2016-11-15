@@ -37,7 +37,7 @@ translation.priority.ht:
 # Supplying XML Code Comments
 You can make the comments in source code files available as IntelliSense. When you add the /doc switch to the Visual Basic, C#, or C++ compiler command line, an .xml file is generated that serves as the basis for IntelliSense documentation.  
   
- For more information about documenting code in Visual Basic, see see [How to: Create XML Documentation](../Topic/How%20to:%20Create%20XML%20Documentation%20in%20Visual%20Basic.md).  
+ For more information about documenting code in Visual Basic, see see [How to: Create XML Documentation](http://msdn.microsoft.com/Library/27b5b06c-09b9-496a-8245-f9542d846230).  
   
  For more information about documenting code in C#, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
   

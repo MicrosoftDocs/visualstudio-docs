@@ -57,10 +57,10 @@ If you plan on distributing your application to an international audience, you'l
  [Globalizing your app (Windows Store apps using C#/VB/C++ and XAML)](http://go.microsoft.com/fwlink/?LinkId=258267)  
  Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app built using XAML and Visual C#, Visual Basic, or Visual C++.  
   
- [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
+ [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides background information on programming for an international audience.  
   
- [Class Library Overview](../Topic/.NET%20Framework%20Class%20Library%20Overview.md)  
+ [Class Library Overview](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)  
  Introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.  
   
  <xref:System.Globalization>  
