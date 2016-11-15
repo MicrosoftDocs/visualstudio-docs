@@ -36,10 +36,17 @@ Welcome to Visual Studio 2017 RC, an integrated suite of developer productivity 
 
 In this release candidate (RC) of our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
-This page highlights some of our most notable changes. For a complete list of new features and functionality in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
+But before we dig in to the details, here is high-level re-cap of the changes we've made:
 
->[!NOTE]
->Because this is a prerelease, we still have a few more things to work on. To learn more, see the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes.
+* **Boosted productivity**. Enhancements to code navigation, IntelliSense, refactoring, code fixes, and debugging, saves you time and effort on everyday tasks regardless of language or platform. In addition, for teams embracing DevOps, Visual Studio 2017 streamlines the developer inner loop and speeds up code flow with the brand new real time features such as live unit testing and real-time architectural dependency validation.
+* **Redefined fundamentals**.  There is a renewed focus to enhance the efficiency of the fundamental tasks developers encounter on daily basis. From a brand-new lightweight and modular installation tailored to developers' need, a faster IDE from startup to shut down, to a new way of view, edit, and debug any code without projects and solutions. Visual Studio 2017 helps developers stay focused on the big picture.
+* **Streamlined Azure development**. Built-in suite of Azure tools that enable developers to easily create cloud-first applications powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE.
+* **Five-star mobile development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for developers to build, connect, and tune mobile apps for Android, iOS, and Windows. Developer can also choose to develop mobile apps with Apache Cordova or Visual C++ cross-platform library development in Visual Studio.  
+
+And now, here are more details on our most notable changes.
+
+> [!NOTE]
+> For a complete list of new features and functionality in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs), as well as the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes..   
 
 ## Performance improvements
 
@@ -134,7 +141,7 @@ Visual Studio 2017 RC brings many updates and fixes to the Visual C++ environmen
 
 We've also made several improvements, to include distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, adding and updating functionality in the C++ libraries, and improving the performance of the C++ IDE, installation workloads, and more.
 
-For complete details, see our [What's New for Visual C++ in Visual 2017 RC](..top/what-s-new-for-visual-cpp-in-visual-studio.md) page.  
+For complete details, see our [What's New for Visual C++ in Visual 2017 RC](cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md) page.  
 
 
 ### Debugging and Diagnostics
@@ -173,7 +180,7 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
  If you’d like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also  
-* [What's New in Visual C++](../top/what-s-new-for-visual-cpp-in-visual-studio.md)
+* [What's New in Visual C++](https://review.docs.microsoft.com/en-us/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)   
 * [What's New in JavaScript](../ide/javascript-intellisense#whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd)
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/vs2015-vs)
