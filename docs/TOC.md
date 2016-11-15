@@ -5,7 +5,7 @@
 # [Visual Basic](/dotnet/articles/visual-basic)
 # [Visual C#](/dotnet/articles/csharp)
 # [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
-# [Javascript](javaScript/TOC.md)
+# [JavaScript](javascript/TOC.md)
 # [Python](python/TOC.md)
 # [Visual F#](/dotnet/articles/fsharp/)
 # [Data Access](data-tools/TOC.md)
