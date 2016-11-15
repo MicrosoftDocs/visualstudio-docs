@@ -35,7 +35,11 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 
 | **Command-line option** | **Description** |
 | ----------------------- | --------------- |  
-| ```[--catalog] <uri>``` *[&#60;uri&#62; ...]* | Required: One or more file paths or URIs to catalogs. |
+| ```[--catalog] <uri>``` *[&#60;uri&#62; ...]* | *Required*: One or more file paths or URIs to catalogs. |
+|  ```--installDir <dir>```, ```--installationDirectory <dir>``` | *Required*: The target installation directory. |
+|  ```-l <path>, --log <path>``` | Specify the log file; otherwise, one is automatically generated. |
+|  ```-v, --verbose``` | Display verbose messages. |
+|  ```-?, -h, --help``` | Display parameter usage. |
 | ```--instanceId <id>``` | Optional: The instance ID to install or repair. |
 | ```--productId <id>``` | Optional: The product ID to install. Otherwise, the first product found is installed. |
 | ```--all``` | Optional: Whether to install all workloads and components for a product. |
@@ -43,10 +47,6 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 | ```--remove <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | Optional: One or more workload or component IDs to remove. |
 | ```--optional, --includeOptional``` | Optional: Whether to install all optional workloads and components for selected workload. |
 | ```--lang, --language <language-locale>``` *[&#60;language-locale&#62; ...]* | Optional: Install/uninstall resource packages with the specified language(s). |
-|  ```-l <path>, --log <path>``` | Specify the log file; otherwise, one is automatically generated. |
-|  ```-v, --verbose``` | Display verbose messages. |
-|  ```-?, -h, --help``` | Display parameter usage. |
-|  ```--installDir <dir>```, ```--installationDirectory <dir>``` | Required: The target installation directory. |
 |  ```--sharedInstallDir <dir>``` | Optional: The target installation directory for shared payloads. |  
 | ```--compatInstallDir <dir>``` | Optional: The target installation directory for legacy compatibility payloads. |  
 |  ```--layoutDir <dir>```, ```--layoutDirectory <dir>``` | Optional: The layout directory in which to find packages.|
