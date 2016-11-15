@@ -77,9 +77,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
     Next, status screens will appear that show the progress of your Visual Studio installation.
 
-3.  You might be asked to reboot. If so, find Visual Studio 2017 RC from your Start menu, and click to run it.   
-
-  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-InStartMenu.png)
+3.  After the new workloads and components are installed, click **Launch**.
 
 ## Install individual components
 
