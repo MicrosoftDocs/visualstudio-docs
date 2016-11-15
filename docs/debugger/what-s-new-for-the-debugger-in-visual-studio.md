@@ -46,7 +46,7 @@ For information about everything that’s new in [!include[vs_dev15](../misc/inc
 The debugger includes these new features:
 
 - You can set conditions on exceptions in the **Exception Settings** dialog box (You can do this by using the **Edit condition** icon in the Exception Settings dialog box or by using the right-click menu on the exception.
-- You can run to a mouse click while paused in the debugger
+- You can now run to a mouse click while paused in the debugger by selecting the **Run to Code** icon in the left margin.
 - Attach to Process dialog box includes a new search feature
   
 ## See Also  
