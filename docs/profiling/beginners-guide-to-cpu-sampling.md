@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "performance tools, wizard"
   - "Performance Wizard"
-ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-caps.latest.revision: 45
+ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
+caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

@@ -47,12 +47,12 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## Memory Usage  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
   
- Find memory leaks and inefficient memory while you’re debugging with the **Memory Usage** tool. The tool lets you take snapshots of the managed and native memory heap. You can use this tool with desktop apps, Windows Universal apps, and ASP.NET apps. The **Memory Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See  [Memory Usage](../profiling/memory-usage.md) and [Memory Usage without Debugging](../Topic/Memory%20Usage%20without%20Debugging1.md) for more information.  
+ Find memory leaks and inefficient memory while you’re debugging with the **Memory Usage** tool. The tool lets you take snapshots of the managed and native memory heap. You can use this tool with desktop apps, Windows Universal apps, and ASP.NET apps. The **Memory Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See  [Memory Usage](../profiling/memory-usage.md) and [Memory Usage without Debugging](../profiling/Memory-Usage-without-Debugging2.md) for more information.  
   
 ## CPU Usage  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
   
- The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as ASP.NET and Azure App Service apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) for more information.
+ The **CPU Usage** tool shows you where the CPU is spending time executing C++, C#/VB, and JavaScript code.  You can use this tool with both desktop and Windows Universal apps, as well as ASP.NET and Azure App Service apps. The **CPU Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [CPU Usage](../profiling/cpu-usage.md) for more information.
   
 ## GPU Usage  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  

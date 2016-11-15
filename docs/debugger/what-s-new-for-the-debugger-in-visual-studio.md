@@ -45,7 +45,8 @@ For information about everything that’s new in [!include[vs_dev15](../misc/inc
 ## What's New in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 The debugger includes these new features:
 
-- You can set conditions on exceptions in the **Exception Settings** dialog box (You can do this by using the **Edit condition** icon in the Exception Settings dialog box or by using the right-click menu on the exception.
+- You can set conditions on exceptions in the **Exception Settings** dialog box (You can do this by using the **Edit condition** icon in the Exception Settings dialog box or by using the right-click menu on the exception. Currently, you can select which modules apply to specific exceptions.
+- You can now run to a line of code while paused in the debugger by selecting the **Run execution to here** green arrow icon (you see the icon while hovering over a line of code).
 - Attach to Process dialog box includes a new search feature
   
 ## See Also  

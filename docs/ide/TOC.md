@@ -104,7 +104,6 @@
 ### [Visual C# IntelliSense](visual-csharp-intellisense.md)
 ### [Walkthrough: Test-First Support with the Generate From Usage Feature](walkthrough-test-first-support-with-the-generate-from-usage-feature.md)
 ### [JavaScript IntelliSense](javascript-intellisense.md)
-#### [Create JSDoc Comments for JavaScript IntelliSense](create-jsdoc-comments-for-javascript-intellisense.md)
 ### [Visual C++ Intellisense](visual-cpp-intellisense.md)
 ### [Supplying XML Code Comments](supplying-xml-code-comments.md)
 ## [Customizing the Editor](customizing-the-editor.md)
