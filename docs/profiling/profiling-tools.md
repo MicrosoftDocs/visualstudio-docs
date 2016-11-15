@@ -74,7 +74,8 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
   
  The **Performance Explorer** (**Debug / Profiler / Performance Explorer**) allows you to use many different tools, including **CPU Sampling**,  **Instrumentation**, **.NET Memory Allocation**, and **Resource Contention**. You can use Performance Explorer tools with desktop apps and ASP.NET apps, but not Windows Universal apps. For more information, see [Performance Explorer](../profiling/performance-explorer.md).
 
- > [!NOTE] Unless you want to do a specialized task such as instrumentation, use the Diagnostics Tools such as Memory Usage and CPU Usage instead the Performance Explorer (which is now a legacy tool).
+ > [!NOTE]
+ > Unless you want to do a specialized task such as instrumentation, use the Diagnostics Tools such as Memory Usage and CPU Usage instead the Performance Explorer (which is now a legacy tool).
   
 ## JavaScript Memory  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
