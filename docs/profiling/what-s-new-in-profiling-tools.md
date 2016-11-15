@@ -32,10 +32,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# What's New in Profiling Tools
-For information about everything that’s new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] debugging and diagnostics, see [[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] Release Notes](https://www.visualstudio.com/news/vs2017-vs#Debug). 
-  
-## What's New in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+# What's New in Profiling Tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.
 
 A summary tab has been added to the tools that show how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. For Visual Studio Enterprise, this view also shows IntelliTrace events.
