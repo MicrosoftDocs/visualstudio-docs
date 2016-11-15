@@ -1,5 +1,6 @@
 ---
 title: "Visual Studio Tools for Apache Cordova | Microsoft Docs"
+redirect_url: taco.visualstudio.com
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
