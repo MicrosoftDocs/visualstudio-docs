@@ -54,7 +54,7 @@ You edit data in data tables much like you edit the data in a table in any datab
  [!code-vb[VbRaddataEditing#5](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_2.vb)]  
   
 ## To insert new rows into a dataset  
- Applications that use data-bound controls typically add new records through the **Add New** button on a [BindingNavigator Control](../Topic/BindingNavigator%20Control%20\(Windows%20Forms\).md).  
+ Applications that use data-bound controls typically add new records through the **Add New** button on a [BindingNavigator Control](http://msdn.microsoft.com/Library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e).  
   
  To manually add new records to a dataset, create a new data row by calling the method on the DataTable. Then add the row to the <xref:System.Data.DataRow> collection (<xref:System.Data.DataTable.Rows%2A>) of the <xref:System.Data.DataTable>:  
   

@@ -63,7 +63,7 @@ translation.priority.ht:
   
  ![Data flow in a client application](../data-tools/media/clientdatadiagram.gif "ClientDataDiagram")  
   
- In some situations, it’s convenient to create a connection object without the assistance of any data design tools. For information on creating connections programmatically, see [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md).  
+ In some situations, it’s convenient to create a connection object without the assistance of any data design tools. For information on creating connections programmatically, see [Connecting to a Data Source](http://msdn.microsoft.com/Library/9abc3f92-1be3-4e1a-b360-762dc689650e).  
   
 > [!NOTE]
 >  For information on connecting web applications to data, see [ASP.NET Data Access Content Map](http://msdn.microsoft.com/en-us/f9219396-a0fa-481f-894d-e3d9c67d64f2).  
@@ -82,7 +82,7 @@ translation.priority.ht:
 -   [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database-windows-forms.md)  
   
 ## Creating Connections  
- In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], connections are configured using the **Add/Modify Connection** dialog box. The **Add Connection** dialog box appears when you’re editing or creating connections within one of the data wizards or [Server Explorer/Database Explorer](../Topic/Server%20Explorer.md) or when you’re editing connection properties in the **Properties** window.  
+ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], connections are configured using the **Add/Modify Connection** dialog box. The **Add Connection** dialog box appears when you’re editing or creating connections within one of the data wizards or [Server Explorer/Database Explorer](http://msdn.microsoft.com/Library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) or when you’re editing connection properties in the **Properties** window.  
   
  Data connections are automatically configured when you perform one of the following actions.  
   
@@ -91,8 +91,8 @@ translation.priority.ht:
 |Run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).|Connections are configured when the database path is chosen in the **Data Source Configuration Wizard**. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).|  
 |Run the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md).|Connections are created within the **TableAdapter Configuration Wizard**. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).|  
 |Run the [Editing TableAdapters](../data-tools/editing-tableadapters.md).|Connections are created within the **TableAdapter Query Configuration Wizard**. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).|  
-|Drag items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form or the [Component Designer](../Topic/Component%20Designer.md).|Connection objects are created when you drag items from the **Data Sources** window onto the **Windows Forms Designer** or **Component Designer**. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).|  
-|Add new data connections to [Server Explorer/Database Explorer](../Topic/Server%20Explorer.md).|Data connections in **Server Explorer/Database Explorer** appear in the list of available connections within the data wizards|  
+|Drag items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form or the [Component Designer](http://msdn.microsoft.com/Library/61a3a450-5b15-465e-bd9a-72a6c8c2b282).|Connection objects are created when you drag items from the **Data Sources** window onto the **Windows Forms Designer** or **Component Designer**. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).|  
+|Add new data connections to [Server Explorer/Database Explorer](http://msdn.microsoft.com/Library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d).|Data connections in **Server Explorer/Database Explorer** appear in the list of available connections within the data wizards|  
   
 ## Connection Strings  
  Connection strings can be stored within your compiled application or in the application configuration file. For more information, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
@@ -103,15 +103,15 @@ translation.priority.ht:
  How you secure the application and its access to the data source depends on the architecture of your system. In a web-based application, for example, users typically get anonymous access to Internet Information Services (IIS) and therefore do not provide security credentials. In that case, your application maintains its own logon information and uses it, rather than any specific user information, to open the connection and access the database.  
   
 > [!IMPORTANT]
->  Storing connection-string details such as a password can affect the security of your application. Using Windows integrated security is a more secure way to control access to a database. For more information, see [Protecting Connection Information](../Topic/Protecting%20Connection%20Information.md).  
+>  Storing connection-string details such as a password can affect the security of your application. Using Windows integrated security is a more secure way to control access to a database. For more information, see [Protecting Connection Information](http://msdn.microsoft.com/Library/1471f580-bcd4-4046-bdaf-d2541ecda2f4).  
   
  In intranet or multi-tier applications, you can take advantage of the integrated security option provided by Windows, IIS, and SQL Server. In that model, a user's authentication credentials for the local network are also used to access database resources, and no explicit user name or password is used in the connection string. Typically, permissions are established on the database server computer by means of groups, so that you do not need to establish individual permissions for every user who might access the database. In this model, you do not need to store logon information for the connection at all, and there are no extra steps required to protect connection string information.  
   
  For more information about security, see the following topics:  
   
--   [Securing ADO.NET Applications](../Topic/Securing%20ADO.NET%20Applications.md)  
+-   [Securing ADO.NET Applications](http://msdn.microsoft.com/Library/005a1d43-6ee5-471e-ad98-1d30a44d49d5)  
   
--   [More Secure File and Data Access in Windows Forms](../Topic/More%20Secure%20File%20and%20Data%20Access%20in%20Windows%20Forms.md)  
+-   [More Secure File and Data Access in Windows Forms](http://msdn.microsoft.com/Library/3cd3e55b-2f5e-40dd-835d-f50f7ce08967)  
   
 ## Design-Time Connections in Server Explorer/Database Explorer  
  **Server Explorer/Database Explorer** provides a way for you to create design-time connections to data sources. This permits you to browse available data sources; display information about the tables, columns, and other elements they contain; and edit and create database elements.  

@@ -60,5 +60,5 @@ RealType lambda() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
+ [\<random>](http://msdn.microsoft.com/Library/60afc25c-b162-4811-97c1-1b65398d4c57)   
  [exponential_distribution Class](/visual-cpp/standard-library/exponential-distribution-class)

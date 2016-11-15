@@ -66,6 +66,6 @@ The **TableAdapter Configuration Wizard** creates and edits TableAdapters in str
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
  [Validating Data](../Topic/Validating%20Data.md)   
- [How to: Sort and Filter ADO.NET Data with the Windows Forms BindingSource Component](../Topic/How%20to:%20Sort%20and%20Filter%20ADO.NET%20Data%20with%20the%20Windows%20Forms%20BindingSource%20Component.md)   
- [How to: Create a Lookup Table with the Windows Forms BindingSource Component](../Topic/How%20to:%20Create%20a%20Lookup%20Table%20with%20the%20Windows%20Forms%20BindingSource%20Component.md)   
+ [How to: Sort and Filter ADO.NET Data with the Windows Forms BindingSource Component](http://msdn.microsoft.com/Library/6c206daf-d706-4602-9dbe-435343052063)   
+ [How to: Create a Lookup Table with the Windows Forms BindingSource Component](http://msdn.microsoft.com/Library/622fce80-879d-44be-abbf-8350ec22ca2b)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)

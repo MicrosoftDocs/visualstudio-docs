@@ -37,6 +37,6 @@ See the following topics for information about the different uses of `()`.
   
 |||  
 |-|-|  
-|[Function Call Operator: ()](../Topic/Function%20Call%20Operator:%20\(\).md)|A postfix-expression followed by the function-call operator, (), specifies a function call.|  
-|[Cast Operator: ()](../Topic/Cast%20Operator:%20\(\).md)|A type cast provides a method for explicit conversion of the type of an object in a specific situation.|  
-|[Explicit Type Conversion Operator: ()](../Topic/Explicit%20Type%20Conversion%20Operator:%20\(\).md)|C++ allows explicit type conversion using syntax similar to the function-call syntax.|
+|[Function Call Operator: ()](http://msdn.microsoft.com/Library/50c92e59-a4bf-415a-a6ab-d66c679ee80a)|A postfix-expression followed by the function-call operator, (), specifies a function call.|  
+|[Cast Operator: ()](http://msdn.microsoft.com/Library/4c99eb92-1b19-4a5d-9840-5d8c29b8453e)|A type cast provides a method for explicit conversion of the type of an object in a specific situation.|  
+|[Explicit Type Conversion Operator: ()](http://msdn.microsoft.com/Library/54272006-5ffb-45ed-8283-27152ab97529)|C++ allows explicit type conversion using syntax similar to the function-call syntax.|

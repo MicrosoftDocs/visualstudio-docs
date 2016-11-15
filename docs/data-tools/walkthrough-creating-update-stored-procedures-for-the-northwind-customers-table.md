@@ -182,5 +182,5 @@ Some Help topics in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

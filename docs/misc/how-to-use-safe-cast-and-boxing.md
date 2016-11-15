@@ -32,6 +32,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Use safe_cast and Boxing
-This content has been moved to [How to: Use safe_cast in C++/CLI](../Topic/How%20to:%20Use%20safe_cast%20in%20C++-CLI.md).  
+This content has been moved to [How to: Use safe_cast in C++/CLI](http://msdn.microsoft.com/Library/0fbc87d8-ecdf-4cd5-81f4-0d8cc18e2aff).  
   
 ## Remarks

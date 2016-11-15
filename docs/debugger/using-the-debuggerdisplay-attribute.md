@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using the DebuggerDisplay Attribute
-The [DebuggerDisplayAttribute Class](../Topic/DebuggerDisplayAttribute%20Class.md) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
+The [DebuggerDisplayAttribute Class](http://msdn.microsoft.com/Library/918cc8fc-3990-4250-b5c0-7e532602ddb4) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   
  The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.  
   
@@ -193,4 +193,4 @@ class MyHashtable
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
  [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)   
- [Enhancing Debugging with the Debugger Display Attributes](../Topic/Enhancing%20Debugging%20with%20the%20Debugger%20Display%20Attributes.md)
+ [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/Library/72bb7aa9-459b-42c4-9163-9312fab4c410)

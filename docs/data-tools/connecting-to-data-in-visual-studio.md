@@ -57,11 +57,11 @@ translation.priority.ht:
  Provides information about connecting your Windows Forms applications to data with design time tools.  
   
 ## Reference  
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](http://msdn.microsoft.com/Library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
 ## Related Sections  
- [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md)  
+ [Connecting to a Data Source](http://msdn.microsoft.com/Library/9abc3f92-1be3-4e1a-b360-762dc689650e)  
  Describes the [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] connection object and how to use it to connect to a data source.  
   
  [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)  
@@ -70,7 +70,7 @@ translation.priority.ht:
  [Data Binding (Silverlight)](http://go.microsoft.com/fwlink/?LinkId=166342)  
  Provides information on data binding in Silverlight applications.  
   
- [Data Binding (WPF)](../Topic/Data%20Binding%20\(WPF\).md)  
+ [Data Binding (WPF)](http://msdn.microsoft.com/Library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)  
  Provides information on data binding in WPF applications.  
   
  [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  

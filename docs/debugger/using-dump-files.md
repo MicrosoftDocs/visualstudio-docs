@@ -90,7 +90,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 -   Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx). Note that a full user-mode dump is not the same a dump with heap.  
   
--   To debug with the [SOS.dll (SOS Debugging Extension)](../Topic/SOS.dll%20\(SOS%20Debugging%20Extension\).md) in Visual Studio, you must install the Debugging Tools for Windows that is part of the Windows Driver Kit (WDK). See [Windows 8.1 Preview: Download kits, bits, and tools](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx).  
+-   To debug with the [SOS.dll (SOS Debugging Extension)](http://msdn.microsoft.com/Library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) in Visual Studio, you must install the Debugging Tools for Windows that is part of the Windows Driver Kit (WDK). See [Windows 8.1 Preview: Download kits, bits, and tools](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx).  
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   

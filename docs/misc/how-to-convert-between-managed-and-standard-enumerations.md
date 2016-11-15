@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Convert Between Managed and Standard Enumerations
-This content has been moved to [How to: Define and consume enums in C++/CLI](../Topic/How%20to:%20Define%20and%20consume%20enums%20in%20C++-CLI.md).
+This content has been moved to [How to: Define and consume enums in C++/CLI](http://msdn.microsoft.com/Library/df8f2b91-b9d2-4fab-9be4-b1d58b8bc570).

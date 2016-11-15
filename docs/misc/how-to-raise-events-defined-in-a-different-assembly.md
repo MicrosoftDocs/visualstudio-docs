@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Raise Events Defined in a Different Assembly
-This content has moved to [How to: Use Events in C++/CLI](../Topic/How%20to:%20Use%20Events%20in%20C++-CLI.md).
+This content has moved to [How to: Use Events in C++/CLI](http://msdn.microsoft.com/Library/fbf452dc-2dd7-4322-adc0-656512d654d1).

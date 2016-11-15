@@ -80,7 +80,7 @@ The**Dataset Designer** is a set of visual tools that you can use to create and 
 >  The **Dataset Designer** connects to an underlying database only when a dataset is created; the designer doesn't automatically detect subsequent changes to the database. To refresh an existing .xsd, re-run the **Configuration Wizard**. If the table relations have changed, remove and re-add the relevant tables to the .xsd.  
   
 ## LINQ to Dataset  
- [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md).  
+ [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](http://msdn.microsoft.com/Library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17).  
   
 ## See Also  
  [Walkthrough: Creating a Dataset with the Dataset Designer](../data-tools/walkthrough-creating-a-dataset-with-the-dataset-designer.md)   

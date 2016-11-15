@@ -33,6 +33,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # random_shuffle (STL Samples)
-The std::random_shuffle() function is deprecated, replaced by [std::shuffle()](../Topic/std::shuffle.md). For a code example and more information, see [\<random>](../Topic/%3Crandom%3E.md) and the Stackoverflow posting [Why are std::random_shuffle methods being deprecated in C++14?](http://go.microsoft.com/fwlink/?LinkId=397954).  
+The std::random_shuffle() function is deprecated, replaced by [std::shuffle()](http://msdn.microsoft.com/Library/ef345cd0-ef35-4019-9340-7d062fcd2eab). For a code example and more information, see [\<random>](http://msdn.microsoft.com/Library/60afc25c-b162-4811-97c1-1b65398d4c57) and the Stackoverflow posting [Why are std::random_shuffle methods being deprecated in C++14?](http://go.microsoft.com/fwlink/?LinkId=397954).  
   
 ## Syntax

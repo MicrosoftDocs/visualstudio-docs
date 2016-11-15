@@ -75,7 +75,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  When writing async code, this option allows you to take advantage of the Task Parallel Library (TPL) that was introduced with .Net 4. See [Task Parallel Library (TPL)](http://msdn.microsoft.com/library/dd460717.aspx).  
   
  **Always generate message contracts**  
- Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](../Topic/Using%20Message%20Contracts.md).  
+ Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](http://msdn.microsoft.com/Library/1e19c64a-ae84-4c2f-9155-91c54a77c249).  
   
  **Collection type**  
  Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.  

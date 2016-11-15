@@ -44,5 +44,5 @@ This member function is not part of the ISO C++ Standard and is not supported in
 ## Syntax  
   
 ## See Also  
- [vector\<bool>::reference Class](../Topic/vector%3Cbool%3E::reference%20Class.md)   
+ [vector\<bool>::reference Class](http://msdn.microsoft.com/Library/f27854f9-0ef0-4e7e-ad2e-cd53b6cb3334)   
  [Standard Template Library](../misc/standard-template-library.md)

@@ -39,7 +39,7 @@ translation.priority.mt:
 # Create a Windows Forms user control that supports lookup data binding
 When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.ComboBox>.  
   
- For more information on control authoring, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
+ For more information on control authoring, see [Developing Windows Forms Controls at Design Time](http://msdn.microsoft.com/Library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
   
  When authoring controls for use in data-binding scenarios you need to implement one of the following data-binding attributes:  
   

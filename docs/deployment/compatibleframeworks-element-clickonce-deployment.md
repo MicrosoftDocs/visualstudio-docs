@@ -38,7 +38,7 @@ translation.priority.ht:
 Identifies the versions of the .NET Framework where this application can install and run.  
   
 > [!NOTE]
->  [MageUI.exe](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [MageUI.exe](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md). Instead, you must use [Mage.exe](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md).  
+>  [MageUI.exe](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [MageUI.exe](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14). Instead, you must use [Mage.exe](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1).  
   
 ## Syntax  
   

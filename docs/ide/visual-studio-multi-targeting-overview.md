@@ -79,7 +79,7 @@ In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], yo
  To target a .NET Framework version, you must first install the appropriate assembly references. Assembly references for the .NET Framework versions 2.0, 3.0, and 3.5 are included in the .NET Framework 3.5 SP1, which you can download from the [Microsoft Download Center, Microsoft Visual Studio](http://go.microsoft.com/fwlink/?LinkId=227602) website. Assembly references for the .NET Framework 3.5 Client Profile, the .NET Framework 4, the .NET Framework 4 Client Profile, and Silverlight are also available from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=179687) website.  
   
 > [!NOTE]
->  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+>  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](http://msdn.microsoft.com/Library/f0219919-1f02-4588-8704-327a62fd91f1).  
   
  The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
@@ -90,5 +90,5 @@ In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], yo
   
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)   
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)   
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/Library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)   
  [Platform compatibility and system requirements](http://www.microsoft.com/visualstudio/eng/products/compatibility)

@@ -209,4 +209,4 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
  [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Working with Controls in the WPF Designer](http://msdn.microsoft.com/en-us/c6235492-b10d-4c3c-ba67-6b6a545faee1)   
- [Control Authoring Overview](../Topic/Control%20Authoring%20Overview.md)
+ [Control Authoring Overview](http://msdn.microsoft.com/Library/3d864748-cff0-4e63-9b23-d8e5a635b28f)

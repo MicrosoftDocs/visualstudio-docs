@@ -67,7 +67,7 @@ The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.m
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)   
  [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [Inheritance](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)

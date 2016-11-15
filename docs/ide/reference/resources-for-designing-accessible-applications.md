@@ -46,7 +46,7 @@ Use the following links to find information about technologies that support acce
   
 ## Windows Applications  
   
--   [Walkthrough: Creating an Accessible Windows-based Application](../Topic/Walkthrough:%20Creating%20an%20Accessible%20Windows-based%20Application.md) This topic provides step-by-step instructions for including the five accessibility requirements for the Certified for Windows logo in a sample Windows application.  
+-   [Walkthrough: Creating an Accessible Windows-based Application](http://msdn.microsoft.com/Library/654c7f2f-1586-480b-9f12-9d9b8f5cc32b) This topic provides step-by-step instructions for including the five accessibility requirements for the Certified for Windows logo in a sample Windows application.  
   
 -   **Guidelines for Keyboard User Interface Design** This technical article describes how design a Windows application user interface that users can navigate from the keyboard. For more information, see [http://msdn2.microsoft.com/library/ms971323.aspx](http://msdn2.microsoft.com/library/ms971323.aspx).  
   
@@ -54,7 +54,7 @@ Use the following links to find information about technologies that support acce
   
 ## Web Sites  
   
--   [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](../Topic/Walkthrough:%20Accessibility%20Guidelines%20for%20Using%20Image%20Controls,%20Menu%20Controls,%20and%20AutoPostBack.md) This topic provides step-by-step instructions for including accessible controls in a sample Web page as well as some accessibility design tips for the Web.  
+-   [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](http://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This topic provides step-by-step instructions for including accessible controls in a sample Web page as well as some accessibility design tips for the Web.  
   
 -   **Making Web Pages More Accessible** This technical article lists HTML 3.2 elements that are accessible as well as elements that can be made accessible for use in Web site development. For more information, see [http://msdn2.microsoft.com/en-us/library/ms971309.aspx](http://msdn2.microsoft.com/library/ms971309.aspx).  
   

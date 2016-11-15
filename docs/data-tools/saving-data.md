@@ -57,4 +57,4 @@ Saving data is the process of persisting changed data in an application's data m
  Provides an overview of how changes are made in a dataset and how the dataset tracks information about changes in order to save those changes to a database.  
   
  [Saving Entity Data](../data-tools/saving-entity-data.md)  
- Describes how to save changes in [ADO.NET Entity Framework](../Topic/ADO.NET%20Entity%20Framework.md) and [WCF Data Services 4.5](../Topic/WCF%20Data%20Services%204.5.md) applications.
+ Describes how to save changes in [ADO.NET Entity Framework](http://msdn.microsoft.com/Library/a437041f-6899-4ae7-96ce-aabf528d7205) and [WCF Data Services 4.5](http://msdn.microsoft.com/Library/73d2bec3-7c92-4110-b905-11bb0462357a) applications.

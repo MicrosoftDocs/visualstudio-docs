@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Addition of Pointer Types
-This content has moved [Additive Operators: + and -](../Topic/Additive%20Operators:%20+%20and%20-.md).
+This content has moved [Additive Operators: + and -](http://msdn.microsoft.com/Library/d4afafe7-e201-4c69-a649-37f17756e784).

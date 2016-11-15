@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Use Tracking References and Value Types
-Content moved to [How to: Use Tracking References in C++/CLI](../Topic/How%20to:%20Use%20Tracking%20References%20in%20C++-CLI.md).  
+Content moved to [How to: Use Tracking References in C++/CLI](http://msdn.microsoft.com/Library/d91e471c-34ff-4786-9e0d-c6db0494b946).  
   
 ## See Also  
  [Tracking Reference Operator](/visual-cpp/windows/tracking-reference-operator-cpp-component-extensions)

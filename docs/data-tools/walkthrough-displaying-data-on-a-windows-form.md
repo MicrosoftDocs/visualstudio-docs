@@ -66,7 +66,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  Name the project `DisplayingDataonaWindowsForm`.  
   
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **DisplayingDataonaWindowsForm** project is created and added to **Solution Explorer**.  
   

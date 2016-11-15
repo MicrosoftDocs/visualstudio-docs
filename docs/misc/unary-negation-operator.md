@@ -37,7 +37,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Unary Negation Operator: -
-This content has moved [Unary Plus and Negation Operators: + and -](../Topic/Unary%20Plus%20and%20Negation%20Operators:%20+%20and%20-.md).  
+This content has moved [Unary Plus and Negation Operators: + and -](http://msdn.microsoft.com/Library/2c58c4f4-0d92-4ae3-9d0c-1a6157875cc1).  
   
 ## Syntax  
   

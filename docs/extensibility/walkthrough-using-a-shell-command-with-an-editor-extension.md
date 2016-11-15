@@ -64,7 +64,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
  Because you are adding a MEF component to the VSPackage, you must specify both kinds of assets in the manifest.  
   
 > [!NOTE]
->  For more information about MEF, see [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).  
+>  For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 #### To refer to the MEF component in the VSPackage project  
   

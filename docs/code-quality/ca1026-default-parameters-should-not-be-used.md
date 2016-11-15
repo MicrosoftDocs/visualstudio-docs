@@ -65,4 +65,4 @@ translation.priority.ht:
  [CA1025: Replace repetitive arguments with params array](../code-quality/ca1025-replace-repetitive-arguments-with-params-array.md)  
   
 ## See Also  
- [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md)
+ [Language Independence and Language-Independent Components](http://msdn.microsoft.com/Library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

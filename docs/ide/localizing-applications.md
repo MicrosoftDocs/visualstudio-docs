@@ -54,11 +54,11 @@ translation.priority.ht:
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
   
- [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)  
+ [Globalizing Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)  
  Provides links to pages about creating Windows applications that support multiple cultures.  
   
- [Globalization and Localization](../Topic/ASP.NET%20Globalization%20and%20Localization.md)  
+ [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  
  Provides links to pages about creating Web applications that support multiple cultures.  
   
- [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
+ [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides information on programming for an international audience, such as design issues and terminology.

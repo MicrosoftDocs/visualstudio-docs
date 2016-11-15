@@ -47,14 +47,14 @@ translation.priority.ht:
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   
--   [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) provides the <xref:System.Data.Linq.Table%601.Attach%2A> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md).  
+-   [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) provides the <xref:System.Data.Linq.Table%601.Attach%2A> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598).  
   
 ## Presentation Tier  
  The *presentation tier* is the tier in which users interact with an application. It often contains additional application logic also. Typical presentation tier components include the following:  
   
 -   Data binding components, such as the <xref:System.Windows.Forms.BindingSource> and <xref:System.Windows.Forms.BindingNavigator>.  
   
--   Object representations of data, such as [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) entity classes for use in the presentation tier.  
+-   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes for use in the presentation tier.  
   
  The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.  
   
@@ -65,9 +65,9 @@ translation.priority.ht:
   
 -   Data access components and logic, such as the following:  
   
-    -   [TableAdapters](../Topic/TableAdapters.md) and [DataAdapters and DataReaders](../Topic/DataAdapters%20and%20DataReaders.md).  
+    -   [TableAdapters](../Topic/TableAdapters.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
-    -   Object representations of data, such as [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) entity classes.  
+    -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
     -   Common application services, such as authentication, authorization, and personalization.  
   
@@ -97,7 +97,7 @@ Data tier
   
  [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
   
- [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md)  
+ [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)  
   
 ## See Also  
  <xref:System.Data.Linq.ITable.Attach%2A>   

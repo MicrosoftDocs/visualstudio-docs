@@ -38,4 +38,4 @@ See the following topics for information about the different uses of `*`.
 |||  
 |-|-|  
 |[Multiplicative Operators and the Modulus Operator](/visual-cpp/cpp/multiplicative-operators-and-the-modulus-operator)|The multiplication operator yields the result of multiplying the first operand by the second.|  
-|[Indirection Operator: *](../Topic/Indirection%20Operator:%20*.md)|The unary indirection operator dereferences a pointer.|
+|[Indirection Operator: *](http://msdn.microsoft.com/Library/c50309e1-6c02-4184-9fcb-2e13c1f4ac03)|The unary indirection operator dereferences a pointer.|

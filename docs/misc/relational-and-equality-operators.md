@@ -36,14 +36,14 @@ translation.priority.mt:
 # Relational and Equality Operators
 The content in this article was removed. See the following pages for information on the individual operators.  
   
--   [Equal to (==)](../Topic/Equality%20Operators:%20==%20and%20!=.md)  
+-   [Equal to (==)](http://msdn.microsoft.com/Library/ba4e9659-2392-4fb4-be5a-910a2a6df45a)  
   
--   [Not equal to (!=)](../Topic/Equality%20Operators:%20==%20and%20!=.md)  
+-   [Not equal to (!=)](http://msdn.microsoft.com/Library/ba4e9659-2392-4fb4-be5a-910a2a6df45a)  
   
--   [Less than (\<)](../Topic/Relational%20Operators:%20%3C,%20%3E,%20%3C=,%20and%20%3E=.md)  
+-   [Less than (\<)](http://msdn.microsoft.com/Library/d346b53d-f14d-4962-984f-89d39a17ca0f)  
   
--   [Greater than (>)](../Topic/Relational%20Operators:%20%3C,%20%3E,%20%3C=,%20and%20%3E=.md)  
+-   [Greater than (>)](http://msdn.microsoft.com/Library/d346b53d-f14d-4962-984f-89d39a17ca0f)  
   
--   [Less than or equal to (\<=)](../Topic/Relational%20Operators:%20%3C,%20%3E,%20%3C=,%20and%20%3E=.md)  
+-   [Less than or equal to (\<=)](http://msdn.microsoft.com/Library/d346b53d-f14d-4962-984f-89d39a17ca0f)  
   
--   [Greater than or equal to (>=)](../Topic/Relational%20Operators:%20%3C,%20%3E,%20%3C=,%20and%20%3E=.md)
+-   [Greater than or equal to (>=)](http://msdn.microsoft.com/Library/d346b53d-f14d-4962-984f-89d39a17ca0f)

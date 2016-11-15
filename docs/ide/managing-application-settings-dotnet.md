@@ -68,7 +68,7 @@ Application settings enable you to store application information dynamically. Se
 >   
 >  If you take connection string information from an external source, such as a user supplying a user ID and password, you must be careful to ensure that the values that you use to construct your connection string do not contain additional connection string parameters that change the behavior of your connection.  
 >   
->  Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. See [Protecting Connection Information](../Topic/Protecting%20Connection%20Information.md) for more information.  
+>  Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. See [Protecting Connection Information](http://msdn.microsoft.com/Library/1471f580-bcd4-4046-bdaf-d2541ecda2f4) for more information.  
   
 > [!NOTE]
 >  Because there is no configuration file model for class libraries, application settings do not apply for Class Library projects. The exception is a Visual Studio Tools for Office DLL project, which can have a configuration file.  
@@ -102,7 +102,7 @@ Properties.Settings.Default.FirstUserSetting = "abc";
 Properties.Settings.Default.Save();  
 ```  
   
- For general information about accessing application settings through the `Settings` class, see [Application Settings Overview](../Topic/Application%20Settings%20Overview.md). For information about iterating through the settings, see this [forum post](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).  
+ For general information about accessing application settings through the `Settings` class, see [Application Settings Overview](http://msdn.microsoft.com/Library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc). For information about iterating through the settings, see this [forum post](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).  
   
 ## See Also  
  [Accessing Application Settings](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)

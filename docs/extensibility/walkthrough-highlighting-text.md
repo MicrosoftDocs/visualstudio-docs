@@ -363,7 +363,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
  To create your tagger, you must implement a <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. This class is a MEF component part, so you must set the correct attributes so that this extension is recognized.  
   
 > [!NOTE]
->  For more information about MEF, see [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).  
+>  For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 #### To create a tagger provider  
   

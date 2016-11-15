@@ -73,4 +73,4 @@ translation.priority.ht:
  [!code-cs[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/CSharp/ca1303-do-not-pass-literals-as-localized-parameters_1.cs)]  
   
 ## See Also  
- [Resources in Desktop Apps](../Topic/Resources%20in%20Desktop%20Apps.md)
+ [Resources in Desktop Apps](http://msdn.microsoft.com/Library/8ad495d4-2941-40cf-bf64-e82e85825890)

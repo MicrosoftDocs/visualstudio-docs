@@ -43,7 +43,7 @@ translation.priority.mt:
 # How to: Create and Execute an SQL Statement that Returns a Single Value
 To execute an SQL statement that returns a single value, you can run a TableAdapter query that is configured to run an SQL statement (for example, `CustomersTableAdapter.CustomerCount()`).  
   
- If your application does not use TableAdapters, call the `ExecuteScalar` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
+ If your application does not use TableAdapters, call the `ExecuteScalar` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](http://msdn.microsoft.com/Library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
   
  The following examples show how to execute SQL statements that return single values from a database using either TableAdapters or command objects. For more information on querying with TableAdapters and commands, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).  
   

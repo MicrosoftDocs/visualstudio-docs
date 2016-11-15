@@ -46,7 +46,7 @@ translation.priority.ht:
  A public or protected type or member has the <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName> attribute.  
   
 ## Rule Description  
- <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute> changes the default security system behavior for members that execute unmanaged code using COM interop or platform invocation. Generally, the system makes a [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md) for unmanaged code permission. This demand occurs at run time for every invocation of the member, and checks every caller in the call stack for permission. When the attribute is present, the system makes a [Link Demands](../Topic/Link%20Demands.md) for the permission: the permissions of the immediate caller are checked when the caller is JIT-compiled.  
+ <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute> changes the default security system behavior for members that execute unmanaged code using COM interop or platform invocation. Generally, the system makes a [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6) for unmanaged code permission. This demand occurs at run time for every invocation of the member, and checks every caller in the call stack for permission. When the attribute is present, the system makes a [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) for the permission: the permissions of the immediate caller are checked when the caller is JIT-compiled.  
   
  This attribute is primarily used to increase performance; however, the performance gains come with significant security risks. If you place the attribute on public members that call native methods, the callers in the call stack (other than the immediate caller) do not need unmanaged code permission to execute unmanaged code. Depending on the public member's actions and input handling, it might allow untrustworthy callers to access functionality normally restricted to trustworthy code.  
   
@@ -83,7 +83,7 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>   
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
+ [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)   
  [Security Optimizations](http://msdn.microsoft.com/en-us/cf255069-d85d-4de3-914a-e4625215a7c0)   
- [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)   
- [Link Demands](../Topic/Link%20Demands.md)
+ [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6)   
+ [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)

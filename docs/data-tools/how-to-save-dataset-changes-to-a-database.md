@@ -82,7 +82,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
  For detailed information on saving data from multiple tables, see [Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md).  
   
- If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](../Topic/Transactions%20and%20Concurrency.md).  
+ If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](http://msdn.microsoft.com/Library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
   
 #### To update two related tables using a TableAdapter  
   

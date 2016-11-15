@@ -37,7 +37,7 @@ This sample code is provided for use in the following walkthroughs:
   
 -   [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
   
--   [Walkthrough: using the command-line test utility](../Topic/Walkthrough:%20using%20the%20command-line%20test%20utility.md). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.  
+-   [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.  
   
 ## Sample Code  
  The only intentional error in this sample is that the in Debit method "m_balance += amount" should have a minus not a plus sign before the equals sign.  
@@ -144,4 +144,4 @@ namespace BankAccountNS
 ## See Also  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
  [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
- [Walkthrough: using the command-line test utility](../Topic/Walkthrough:%20using%20the%20command-line%20test%20utility.md)
+ [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867)
