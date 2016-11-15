@@ -36,7 +36,7 @@ When you need to investigate performance issues in your app, a good place to sta
   
  For a walkthrough that analyzes the performance of a Windows Store app, see [Analyze CPU Usage in Store apps](https://msdn.microsoft.com/en-us/library/windows/apps/dn641982.aspx).  
   
- the Performance and Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Windows Store. For more information, see [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md)  
+ the Performance and Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Windows Store. For more information, see [Run profiling tools without debugging](../debugger/Run%20profiling%20tools%20without%20debugging.md)  
   
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
   
