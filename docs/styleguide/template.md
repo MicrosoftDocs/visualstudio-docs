@@ -337,12 +337,6 @@ It's important to use the following alert styles so they render with the proper 
 And they'll render like this:
 ![Alert styles](../images/alerts.png)
 
-###  Includes
-
-You can embed the Markdown of one file into another using an include.
-
-[!INCLUDE[sample include file](../includes/sampleinclude.md)]
-
 ### Buttons
 
 > [!div class="button"]
