@@ -85,7 +85,7 @@ For Windows desktop apps, you can also debug the running app using the JIT debug
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
  In order to attach to a process, you must know the name of the process. For ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html) for ASP.NET Core apps. For other apps, you may be able to find the name of the process in the Task Manager.
   
- When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
+ When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../debugger/remote-debugging.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
   
  **To select a remote computer:**  
 

@@ -100,7 +100,8 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     ![Diagnostics Tools CPU Usage Function List](../profiling/media/DiagToolsCPUUsageFunctionList.png "DiagToolsCPUUsageFunctionList")
 
-    > [!TIP] Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
+    > [!TIP]
+    > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
 
 2. In the function list, double-click one of your app functions that is doing a lot of work.
 
@@ -114,7 +115,8 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 3713 out of 3729 ms were spent in the function body, and the remaining 16 ms were spent in external code called by this function).
 
-    > [!TIP] High values in **Function Body** may indicate a performance bottleneck within the function itself.
+    > [!TIP]
+    > High values in **Function Body** may indicate a performance bottleneck within the function itself.
 
 3. If you want to see a higher-level view showing the order in which the functions are called, select **Call Tree** from the drop-down list at the top of the pane.
  
@@ -150,7 +152,7 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
->  If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../debuger/How-to-Reference-Windows-Symbol-Information.md).
+> If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../debugger/How-to-Reference-Windows-Symbol-Information.md).
   
 ## See Also  
  [[Memory Usage](../profiling/memory-usage.md)
