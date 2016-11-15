@@ -38,7 +38,22 @@ translation.priority.mt:
 # Uninstall Visual Studio
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.  
 
-More, soon...
+1.  Find the Visual Studio installer on your computer.  
+
+     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **M**, where you’ll see it listed as **Microsoft Visual Studio Installer**.  
+
+     ![00-ModifyingDev15Prev5-FindTheVisualStudioInstaller](../install/media/00-modifyingdev15prev5-findthevisualstudioinstaller.png)
+
+2.  Click to start the installer, click the ![Details icon](media/vs2017uninstall-UninstallIcon.png) icon, and then click **Uninstall**.  
+
+     ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017uninstall-ChooseUninstallFromInstaller.png "Repair or Uninstall Visual Studio 2017 RC")  
+
+3.  Click **OK** to confirm your choice.
+
+     ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017uninstall-UninstallConfirm.png "Confirm to uninstall Visual Studio 2017 RC")  
+
+If you change your mind later and want to reinstall Visual Studio 2017 RC, simply start the Visual Studio installer again, then click **Install** from the selection screen.
 
 ## See Also  
- [Install Visual Studio](../install/install-visual-studio-2015.md)
+* [Install Visual Studio](../install/install-visual-studio-2015.md)
+* [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

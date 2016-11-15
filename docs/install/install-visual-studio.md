@@ -44,15 +44,15 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
  Want to know more about what else is new in RC? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs15-relnotes). And for more in-depth info about how we’ve redesigned the installation experience, see our blog posts, “[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)” and “[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/).”  
 
- Ready to install? Let's get started!  
+ Ready to install? We'll walk you through it, step-by-step. Let's get started!  
 
 ## Install the installer  
- When you [download Visual Studio](https://www.visualstudio.com/downloads/visual-studio-next-downloads-vs), you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
+ When you download Visual Studio 2017 RC, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
 
 > [!IMPORTANT]
 > If you have a Preview release of Visual Studio 2017 installed on your computer, you will be prompted to remove it prior to installing Visual Studio 2017 RC.
 
-1.  [Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) and click **Save File**.  Then, from your **Downloads** folder, run the `vs_Enterprise.exe` file.  
+1.  [Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) and click **Save**.  Then, from your **Downloads** folder, run the `vs_Enterprise.exe` file.  
 
      If you receive a User Account Control notice, click **Yes**.  
 
@@ -77,17 +77,21 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
     Next, status screens will appear that show the progress of your Visual Studio installation.
 
-3. If you are asked to reboot your computer, do so, and then find and restart the **Microsoft Visual Studio Installer** program.  
+3.  You might be asked to reboot. If so, find Visual Studio 2017 RC from your Start menu, and click to run it.   
 
-4.    After everything’s installed, you can click either **Modify** to change your workloads, or click **Launch** to start Visual Studio.  
+  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-InStartMenu.png)
 
 ## Install individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
-## Install Language packs
+  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-IndividualComponents.PNG)
+
+## Install language packs
 
 To install Visual Studio 2017 RC in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
+
+  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-LanguagePacks.PNG)
 
 ## See Also  
 * [Modify Visual Studio 2017 RC](modify-visual-studio.md)
