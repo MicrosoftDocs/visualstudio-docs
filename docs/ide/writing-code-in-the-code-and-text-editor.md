@@ -2,7 +2,6 @@
 title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

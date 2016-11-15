@@ -2,7 +2,6 @@
 title: "How to: Migrate Extensibility Projects to Visual Studio 2017| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -183,19 +182,36 @@ Wait for the processes to shut down, or manually end the tasks. You can find the
 
 ![vsixinstaller missing prerequisite](media/vsixinstaller-missing-prerequisite.png)
 
+## Deciding on Components
+
+When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn’t mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
+
+To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
+
+Extension Type | Display Name |	Id
+--- | --- | ---
+Editor | Visual Studio core editor	| Microsoft.VisualStudio.CoreEditor
+Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
+WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
+Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime
+
 ## Finding Component IDs
 
 The list of Components can be found in the ComponentIDs folder of this [documentation ZIP file](https://aka.ms/vs2017componentIDs). Use these Component IDs for your Prerequisite IDs in your manifest.
+
+A complete list of all components names, id, version, and description can be found in AllPackages.txt.
 
 We have provided two options for looking up the components:
 
 ### Dependencies.xlsx
 
-There are three columns in the excel sheet: ComponentIds, Version, Dependency.  You can use the filters to search and find specific components and dependencies.
+There are four columns in the excel sheet: Display Name, Id, Version, and Dependency.  You can use the filters to search and find specific components and dependencies.
+
+For all your references, first determine which ones are in the core editor component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in the core editor, add filters in the dependency section to find components that have any of the subset of those references.
 
 Examples:
 
-* If you know that your project has a reference to VSDebugEng.dll and VSDebug.dll, you can add a filter on the Dependency column and find components that contain those two references.
+* If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the Dependency header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the Dependency header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the Display Name to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
 * If you know that your project deals with debugger elements, you can search on "debugger" in the filter search box to see what components contain debugger in its name.
 
 ### PackageDetails folder

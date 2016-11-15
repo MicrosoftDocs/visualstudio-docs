@@ -1,8 +1,7 @@
 ---
 title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "2016-09-06"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -14,6 +13,7 @@ f1_keywords:
   - "switches"
   - "command prompt"
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
+caps.latest.revision: 8
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
@@ -25,6 +25,7 @@ translation.priority.mt:
 ---
 # Use Command-Line Parameters to Install Visual Studio 2017 RC
 When you install Visual Studio 2017 RC from a command prompt, you can use the following command-line parameters (also known as switches).  
+
 
 > [!NOTE]
 >  Make sure that you use the actual installer and not the bootstrapper file. For example, make sure you use **`vs_enterprise.exe`** instead of vs_enterprise_*GUID*.exe. You can download an installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015).  
@@ -49,10 +50,6 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 |  ```--sharedInstallDir <dir>``` | Optional: The target installation directory for shared payloads. |  
 | ```--compatInstallDir <dir>``` | Optional: The target installation directory for legacy compatibility payloads. |  
 |  ```--layoutDir <dir>```, ```--layoutDirectory <dir>``` | Optional: The layout directory in which to find packages.|
-
-
-
-
 
 ## See Also  
  * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)

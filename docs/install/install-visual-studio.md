@@ -3,7 +3,6 @@ title: "Install Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: "2016-10-21"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

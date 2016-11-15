@@ -3,7 +3,6 @@ title: "Get Started with Visual Studio | Microsoft Docs"
 description: "Learn the basics about how to get started using Visual Studio"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -61,7 +60,7 @@ To see properties for solutions, projects, and files, choose the **Properties** 
 
 ![Properties window](../ide/media/VSIDE_SolutionExplorer4.png)
 
-You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Open Any Folder with Visual Studio “15” Preview](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) for more information.
+You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Open Any Folder](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) for more information.
 
 ### Toolbar and menus
 To run your project, create new solutions, save files, and more, use the Visual Studio toolbar and menu commands. For example, once your code is ready to run for debugging, you can choose the **Start** button on the toolbar, or you can choose **Debug, Start Debugging** on the menu. To create a new solution, choose the **New Project** button, or choose **File, New, Project** on the menu, and so forth.
@@ -86,14 +85,14 @@ To learn more about how to use the Output window for debugging, see [The Output 
 
 ## First steps
 - **Setup** - To learn about how to download and set up Visual Studio, see [Setup & Installation](https://go.microsoft.com/fwlink/?linkid=833223).
-- **The basics** - To learn more about how Visual Studio works, see [Get started with Visual Studio](https://go.microsoft.com/fwlink/?linkid=833058).
+- **The basics** - To learn more about how Visual Studio works, see [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
 - **Settings** - Customize Visual Studio for how you like to work. See [Personalizing the Visual Studio IDE](https://msdn.microsoft.com/en-us/library/mt269425.aspx).
-- **Tutorials** - To learn more about code development workflow in Visual Studio, go through a tutorial, such as [Getting Started with Visual C# and Visual Basic](https://msdn.microsoft.com/en-us/library/dd492171.aspx) and [Getting Started with C++ in Visual Studio](https://msdn.microsoft.com/en-us/library/jj620919.aspx).
-- **Videos** - To learn more about other aspects of Visual Studio, check out videos on the [Microsoft Visual Studio channel](https://www.youtube.com/user/VisualStudio/videos) on YouTube, or videos on [Channel 9](https://channel9.msdn.com/Tags/visual+studio).
+- **Tutorials** - To learn more about how to develop code in Visual Studio, go through a tutorial, such as [Getting Started with Visual C# and Visual Basic](https://msdn.microsoft.com/en-us/library/dd492171.aspx) or [Getting Started with C++ in Visual Studio](https://msdn.microsoft.com/en-us/library/jj620919.aspx).
+- **Videos** - To learn more about other features and aspects of Visual Studio, check out videos on the [Microsoft Visual Studio channel](https://www.youtube.com/user/VisualStudio/videos) on YouTube, or Visual Studio videos on [Channel 9](https://channel9.msdn.com/Tags/visual+studio).
 
 ## Access cloud-based resources
 
-If you want to use cloud-based resources in your app or game, you can do that by  including [Azure services](https://azure.microsoft.com/en-us/services/). To use Azure services in Visual Studio, download and install the [Azure SDK](https://azure.microsoft.com/en-us/downloads/). After installing Azure SDK, you get a new tool window available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires Azure, Cloud Explorer provides links that take you to the exact place in Azure you need to go.
+If you want to use cloud-based resources in your app or game, you can do that by  including [Azure services](https://azure.microsoft.com/en-us/services/). To use Azure services in Visual Studio, download and install the [Azure SDK](https://azure.microsoft.com/en-us/downloads/). After installing Azure SDK, a new tool window becomes available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 

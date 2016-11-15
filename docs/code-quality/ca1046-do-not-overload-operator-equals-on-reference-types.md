@@ -2,7 +2,6 @@
 title: "CA1046: Do not overload operator equals on reference types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

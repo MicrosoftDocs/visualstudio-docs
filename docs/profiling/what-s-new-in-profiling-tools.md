@@ -2,7 +2,6 @@
 title: "What&#39;s New in Profiling Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ The Diagnostics Tools include new visualizations to help you identify issues in 
 
 A summary tab has been added to the tools that show how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. For Visual Studio Enterprise, this view also shows IntelliTrace events.
 
-The CPU usage tool has [new visualizations](../profiling/Beginners%20Guide%20to%20Performance%20Profiling.md) to help you identify the functions that are most likely to be causing performance issues.
+The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Performance-Profiling.md) to help you identify the functions that are most likely to be causing performance issues.
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)
