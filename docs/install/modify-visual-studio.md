@@ -54,24 +54,19 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 
 2.  Click to start the installer, and then click **Modify**.  
 
-     ![Modifying Visual Studio Preview 4 &#45; Launch or Modify](../install/media/01-modifyingdev15prev4_launchormodify.png "01-ModifyingDev15Prev4_LaunchOrModify")  
+     ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017modify-ModifyOrLaunch.png "01-ModifyingDev15Prev4_LaunchOrModify")  
 
 3.  From the **Workloads** screen, click to select or deselect the workloads that you want to install or uninstall.  
 
-    ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS20117RC_Setup_screen")
+    ![Visual Studio 2017 RC Setup Dialog](media/vs2017modify-ChooseWorkload.png "VS20117RC_Setup_screen")
 
 4. Click **Modify**.  
 
 5. After the new workloads and components are installed, click **Launch**.
 
- ## Modify individual components
+## Modify individual components
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
-
-## Modify language packs
-
-If you want to change the language that Visual Studio is installed in, choose the **Language pack** option from the Visual the Visual Studio Installer, select what you want, and then follow the prompts.
-
 
 ## See Also  
 * [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
