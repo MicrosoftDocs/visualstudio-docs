@@ -38,6 +38,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # ranlux48_base TypeDef
-Topic deprecated, see [\<random>](../Topic/%3Crandom%3E.md).  
+Topic deprecated, see [\<random>](http://msdn.microsoft.com/Library/60afc25c-b162-4811-97c1-1b65398d4c57).  
   
 ## Syntax

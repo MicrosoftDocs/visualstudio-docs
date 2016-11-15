@@ -36,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Positive and Negative Subscripts
-This content has moved [Subscript Operator:](../Topic/Subscript%20Operator:.md).
+This content has moved [Subscript Operator:](http://msdn.microsoft.com/Library/69c31494-52da-4dd0-8bbe-6ccbfd50f197).

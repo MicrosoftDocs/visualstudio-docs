@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Manage models and diagrams under version control
-Manage different versions of your modeling projects and diagrams, including code maps (.dgml files), by using [use Team Foundation version control or Git](../Topic/Use%20version%20control.md); either with on-premises Team Foundation Server or in the cloud with Visual Studio Team Services.  
+Manage different versions of your modeling projects and diagrams, including code maps (.dgml files), by using [use Team Foundation version control or Git](http://msdn.microsoft.com/Library/33267cee-fe5f-4aa3-b2cd-6d22ceace314); either with on-premises Team Foundation Server or in the cloud with Visual Studio Team Services.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -86,7 +86,7 @@ Manage different versions of your modeling projects and diagrams, including code
   
 -   Changing properties of relationships that cross package boundaries.  
   
--   To learn about Check Out locks, see [Check out and edit files](../Topic/Check%20out%20and%20edit%20files.md).  
+-   To learn about Check Out locks, see [Check out and edit files](http://msdn.microsoft.com/Library/eb404d63-c448-4994-9416-3e6d50ec554a).  
   
 ##### To move a diagram file in or out of a project folder  
   

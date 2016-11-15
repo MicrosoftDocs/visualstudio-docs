@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual Studio IDE 64-Bit Support
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Deploying a 64-bit application  
  The following topics discuss deploying 64-bit applications.  

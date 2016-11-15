@@ -42,6 +42,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # seed_seq::seed_seq
-Topic deprecated, see [\<random>](../Topic/%3Crandom%3E.md) and [seed_seq Class](/visual-cpp/standard-library/seed-seq-class).  
+Topic deprecated, see [\<random>](http://msdn.microsoft.com/Library/60afc25c-b162-4811-97c1-1b65398d4c57) and [seed_seq Class](/visual-cpp/standard-library/seed-seq-class).  
   
 ## Syntax

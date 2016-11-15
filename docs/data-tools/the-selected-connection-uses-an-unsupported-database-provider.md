@@ -39,6 +39,6 @@ This message appears when you drag items that do not use the .NET Framework Data
 ## See Also  
  <xref:System.Data.SqlClient>   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [.NET Framework Data Providers](../Topic/.NET%20Framework%20Data%20Providers.md)   
+ [.NET Framework Data Providers](http://msdn.microsoft.com/Library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [Creating Data Applications](../data-tools/creating-data-applications.md)

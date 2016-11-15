@@ -85,6 +85,6 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
  [Validating Data](../Topic/Validating%20Data.md)   
- [How to: Navigate Data with the Windows Forms BindingNavigator Control](../Topic/How%20to:%20Navigate%20Data%20with%20the%20Windows%20Forms%20BindingNavigator%20Control.md)   
+ [How to: Navigate Data with the Windows Forms BindingNavigator Control](http://msdn.microsoft.com/Library/0e5d4f34-bc9b-47cf-9b8d-93acbb1f1dbb)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [Walkthrough: Creating a TableAdapter with Multiple Queries](../data-tools/walkthrough-creating-a-tableadapter-with-multiple-queries.md)

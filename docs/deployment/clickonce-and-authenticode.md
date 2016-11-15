@@ -86,4 +86,4 @@ translation.priority.mt:
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)
+ [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)

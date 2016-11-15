@@ -64,7 +64,7 @@ Color dialog box
   
 ### To continue or review  
   
--   To learn more about programming in Visual Studio, see [Programming Concepts](../Topic/Programming%20Concepts.md).  
+-   To learn more about programming in Visual Studio, see [Programming Concepts](http://msdn.microsoft.com/Library/65c12cca-af4f-4017-886e-2dbc00a189d6).  
   
 -   To learn more about Visual Basic, see [Developing Applications with Visual Basic](/dotnet/visual-basic/developing-apps/index).  
   

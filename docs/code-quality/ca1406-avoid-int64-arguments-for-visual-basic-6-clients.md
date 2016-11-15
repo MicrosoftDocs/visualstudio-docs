@@ -71,5 +71,5 @@ translation.priority.mt:
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)  
   
 ## See Also  
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
+ [Interoperating with Unmanaged Code](http://msdn.microsoft.com/Library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)   
  [Long Data Type](/dotnet/visual-basic/language-reference/data-types/long-data-type)

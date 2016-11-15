@@ -85,7 +85,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
  When you create a <xref:System.Data.DataRelation> object, you have the option of specifying that the relation be used only to enforce constraints—that is, it will not also be used to access related records. You can use this option to generate a dataset that is slightly more efficient and that contains fewer methods than one with the related-records capability. However, you will not be able to access related records. For example, a constraint-only relation prevents you from deleting a parent record that still has child records, and you cannot access the child records through the parent.  
   
 ## Manually creating a data relation in the Dataset Designer  
- When you create data tables by using the data design tools in Visual Studio, relationships are created automatically if the information can be gathered from the source of your data. If you manually add data tables from the **DataSet** tab of the **Toolbox**, you may have to create the relationship manually. For information on creating <xref:System.Data.DataRelation> objects programmatically, see [Adding DataRelations](../Topic/Adding%20DataRelations.md).  
+ When you create data tables by using the data design tools in Visual Studio, relationships are created automatically if the information can be gathered from the source of your data. If you manually add data tables from the **DataSet** tab of the **Toolbox**, you may have to create the relationship manually. For information on creating <xref:System.Data.DataRelation> objects programmatically, see [Adding DataRelations](http://msdn.microsoft.com/Library/a4a564fb-c1c4-4135-b6c2-b030e51195e4).  
   
  Relationships between data tables appear as lines in the **Dataset Designer**, with a key and infinity glyph depicting the one-to-many aspect of the relationship. By default, the name of the relationshipCommentEnd Id='1c8c78e19b7fa441' does not appear on the design surface.  
   
@@ -109,7 +109,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 7.  Select whether to create a relation, constraint, or both. For information, see [Introduction to DataRelation Objects](../Topic/Introduction%20to%20DataRelation%20Objects.md).  
   
-8.  Select or clear the **Nested Relation** box. Selecting this option sets the <xref:System.Data.DataRelation.Nested%2A> property to `true`, and it causes the child rows of the relation to be nested within the parent column when those rows are written as XML data or synchronized with <xref:System.Xml.XmlDataDocument>. For more information, see [Nesting DataRelations](../Topic/Nesting%20DataRelations.md).  
+8.  Select or clear the **Nested Relation** box. Selecting this option sets the <xref:System.Data.DataRelation.Nested%2A> property to `true`, and it causes the child rows of the relation to be nested within the parent column when those rows are written as XML data or synchronized with <xref:System.Xml.XmlDataDocument>. For more information, see [Nesting DataRelations](http://msdn.microsoft.com/Library/9530f9c9-dd98-4b93-8cdb-40d7f1e8d0ab).  
   
 9. Set the rules to be enforced when you're making changes to records in these tables. For more information, see <xref:System.Data.Rule>.  
   

@@ -45,7 +45,7 @@ Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets 
  Data tables are created as a byproduct when you create new TableAdapters in the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) as well, but they can also be created independently. You create a standalone data table by dragging a <xref:System.Data.DataTable> object from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
 > [!NOTE]
->  To create data tables programmatically, see [Creating a DataTable](../Topic/Creating%20a%20DataTable.md).  
+>  To create data tables programmatically, see [Creating a DataTable](http://msdn.microsoft.com/Library/eecf9d78-60e3-4fdc-8de0-e56c13a89414).  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
@@ -69,7 +69,7 @@ Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets 
 2.  Drag a database object (for example, a table) from **Server Explorer** onto the **Dataset Designer**.  
   
 ## Creating a Standalone DataTable  
- Standalone tables need to have `Fill` logic implemented in order to be filled with data. For information on filling standalone data tables, see [Populating a DataSet from a DataAdapter](../Topic/Populating%20a%20DataSet%20from%20a%20DataAdapter.md).  
+ Standalone tables need to have `Fill` logic implemented in order to be filled with data. For information on filling standalone data tables, see [Populating a DataSet from a DataAdapter](http://msdn.microsoft.com/Library/3fa0ac7d-e266-4954-bfac-3fbe2f913153).  
   
 #### To create a new stand alone data table  
   

@@ -64,6 +64,6 @@ Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_shor
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)   
- [How to: Write LINQ Queries in C#](../Topic/How%20to:%20Write%20LINQ%20Queries%20in%20C%23.md)
+ [How to: Write LINQ Queries in C#](http://msdn.microsoft.com/Library/45e47fcc-cfa1-4b72-b161-d038ae87bd23)

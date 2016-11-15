@@ -33,7 +33,7 @@ translation.priority.mt:
 # Start Page Architecture
 This document describes the architecture of the Start Page tool window that is included in Visual Studio. You can use this information to add or change items on the Start Page without changing its underlying structure.  
   
- The Visual Studio Start Page is written in Windows Presentation Foundation (WPF) Extensible Application Markup Language (XAML). For more information about XAML markup, see [XAML Overview (WPF)](../Topic/XAML%20Overview%20\(WPF\).md).  
+ The Visual Studio Start Page is written in Windows Presentation Foundation (WPF) Extensible Application Markup Language (XAML). For more information about XAML markup, see [XAML Overview (WPF)](http://msdn.microsoft.com/Library/a80db4cd-dd0f-479f-a45f-3740017c22e4).  
   
 ## Page Structure  
  The Start Page consists of an <xref:System.Windows.Controls.Image> element and two <xref:System.Windows.Controls.Grid> elements in a top level `Grid` element. The `Image` element spans the top of the tool window and contains the Visual Studio logo. Below the logo, the left `Grid` element contains the command buttons for new projects, the **Recent Projects** list, and an area for Start Page options. The right `Grid` element contains a <xref:System.Windows.Controls.TabControl> element that has a **Get Started** tab, a **Guidance and Resources** tab, and a **Latest News** tab. A central column is defined between the left and right `Grid` elements, but it has no content and is used only as a spacer.  

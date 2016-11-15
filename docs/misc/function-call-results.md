@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Function-Call Results
-This content has moved [Function Call Operator: ()](../Topic/Function%20Call%20Operator:%20\(\).md)
+This content has moved [Function Call Operator: ()](http://msdn.microsoft.com/Library/50c92e59-a4bf-415a-a6ab-d66c679ee80a)

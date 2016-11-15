@@ -46,4 +46,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Bessel Functions: _j0, _j1, _jn
-This content has moved. See [Bessel Functions: _j0, _j1, _jn, _y0, _y1, _yn](../Topic/Bessel%20Functions:%20_j0,%20_j1,%20_jn,%20_y0,%20_y1,%20_yn.md).
+This content has moved. See [Bessel Functions: _j0, _j1, _jn, _y0, _y1, _yn](http://msdn.microsoft.com/Library/a21a8bf1-df9d-4ba0-a8c2-e7ef71921d96).

@@ -42,7 +42,7 @@ The `override` keyword has essentially the same meaning and syntax in both ISO C
   
 -   ISO C++ [Explicit Overrides (C++)](/visual-cpp/cpp/explicit-overrides-cpp)  
   
--   (Windows Store apps) [Ref classes and structs (C++/CX)](../Topic/Ref%20classes%20and%20structs%20\(C++-CX\).md)  
+-   (Windows Store apps) [Ref classes and structs (C++/CX)](http://msdn.microsoft.com/Library/3d736b82-0bf0-48cf-bac1-cc9d110b70d1)  
   
 -   [override](/visual-cpp/windows/override-cpp-component-extensions)  
   

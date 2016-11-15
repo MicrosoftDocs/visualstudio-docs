@@ -1,46 +1,12 @@
----
-title: "Contributing | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/16/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords:
-  - "contributing"
-helpviewer_keywords:
-  - "Visual Studio, contributing"
-  - "Visual Studio 2017 RC, contributing"
-ms.assetid: f7e14b72-face-4aa9-bf69-a5dfdfa93419
-caps.latest.revision: 1
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
----
 # Contributing
 
 Thank you for your interest in contributing to the Visual Studio documentation!
 
-In this topic, you'll see the basic process for adding or updating content in the [Visual Studio documentation site](https://docs.microsoft.com/visualstudio). 
+In this topic, you'll see the basic process for adding or updating content in the [Visual Studio documentation site](https://docs.microsoft.com/visualstudio).
 
-In this topic, we'll cover: 
+In this topic, we'll cover:
 
-* [Process for contributing](#process-for-contributing) 
+* [Process for contributing](#process-for-contributing)
 * [Guidance checklist](#guidance-checklist)
 * [Building the docs](#building-the-docs)
 * [Contributing to samples](#contributing-to-samples)
@@ -57,7 +23,7 @@ You can skip this first step for small changes.
 
 **Step 3:** Create a `branch` for your article.
 
-**Step 4:** Write your article. 
+**Step 4:** Write your article.
 
 If it's a new topic, you can use this [template file](./styleguide/template.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
 
@@ -82,11 +48,11 @@ If your PR is addressing an existing issue, add the `Fixes #Issue_Number` keywor
 
 The Visual Studio team will review your PR and let you know if the change looks good or if there are any other updates/changes necessary in order to approve it.
 
-**Step 6:** Make any necessary updates to your branch as discussed with the team. 
+**Step 6:** Make any necessary updates to your branch as discussed with the team.
 
-The maintainers will merge your PR into the master branch once feedback has been applied and your change looks good. 
+The maintainers will merge your PR into the master branch once feedback has been applied and your change looks good.
 
-On a certain cadence, we push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/visualstudio/. 
+On a certain cadence, we push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/visualstudio/.
 
 ## DOs and DON'Ts
 
@@ -96,30 +62,30 @@ Below is a short list of guiding rules that you should keep in mind when you are
 - **DO** read the [style guide](./styleguide/template.md) and [voice and tone](./styleguide/voice-tone.md) guidelines.
 - **DO** use the [template](./styleguide/template.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
-- **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/). 
+- **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
 
 > [!NOTE]
-> You might notice that some of the topics are not currently following all the guidelines specified here and on the [style guide](./styleguide/template.md) as well. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal. 
+> You might notice that some of the topics are not currently following all the guidelines specified here and on the [style guide](./styleguide/template.md) as well. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
 
 ## Building the docs
 
-The documentation is written in [GitHub Flavored Markdown](https://help.github.com/categories/writing-on-github/) and built using [DocFX](http://dotnet.github.io/docfx/) and other internal publishing/building tools. It is hosted at [docs.microsoft.com](https://docs.microsoft.com/dotnet). 
+The documentation is written in [GitHub Flavored Markdown](https://help.github.com/categories/writing-on-github/) and built using [DocFX](http://dotnet.github.io/docfx/) and other internal publishing/building tools. It is hosted at [docs.microsoft.com](https://docs.microsoft.com/dotnet).
 
 If you want to build the docs locally, you need to install [DocFX](https://dotnet.github.io/docfx/); latest versions are the best.
 
-There are several ways to use DocFX, and most of them are covered in the [DocFX getting started guide](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html). 
-The following instructions use the [command-line based](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool) version of the tool. 
-If you are comfortable with other ways listed on the link above, feel free to use those. 
+There are several ways to use DocFX, and most of them are covered in the [DocFX getting started guide](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html).
+The following instructions use the [command-line based](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool) version of the tool.
+If you are comfortable with other ways listed on the link above, feel free to use those.
 
-**Note:** Currently DocFX requires the .NET Framework on Windows or Mono (for Linux or macOS). We hope to port it to .NET Core in the future. 
+**Note:** Currently DocFX requires the .NET Framework on Windows or Mono (for Linux or macOS). We hope to port it to .NET Core in the future.
 
 You can build and preview the resulting site locally using a built-in web server. Navigate to the core-docs folder on your machine and type the following command:
 
 ```
 docfx -t default --serve
 ```
-	
+
 This starts the local preview on [localhost:8080](http://localhost:8080). You can then view the changes by going to `http://localhost:8080/[path]`, such as http://localhost:8080/articles/welcome.html.
 
 **Note:** the local preview currently doesn't contain any themes at the moment so the look and feel won't be the same as in the documentation site. We're working towards fixing that experience.

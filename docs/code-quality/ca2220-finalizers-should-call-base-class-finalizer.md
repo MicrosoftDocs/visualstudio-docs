@@ -60,4 +60,4 @@ translation.priority.ht:
  [!code-vb[FxCop.Usage.IDisposableBaseCalled#1](../code-quality/codesnippet/VisualBasic/ca2220-finalizers-should-call-base-class-finalizer_1.vb)]  
   
 ## See Also  
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

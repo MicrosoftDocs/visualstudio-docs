@@ -58,7 +58,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
  2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
   
- 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](../Topic/Reflection%20in%20the%20.NET%20Framework.md).  
+ 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](http://msdn.microsoft.com/Library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775).  
   
  In 2) and 3), the exception is sometimes caught by managed code in `mscorlib` instead of the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
   

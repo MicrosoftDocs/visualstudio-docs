@@ -64,7 +64,7 @@ Creating data-bound controls that display related records
 5.  Related child tables appear as expandable nodes at the bottom of the parent table's column list. Drag the item(s) that you want to display from such a related node onto your form.  
   
     > [!NOTE]
-    >  Dragging an item from a top-level nodes creates a separate unrelated [BindingSource Component](../Topic/BindingSource%20Component.md) that does not facilitate navigating the related records. To bind related data you must select the tables from the same hierarchical node.  
+    >  Dragging an item from a top-level nodes creates a separate unrelated [BindingSource Component](http://msdn.microsoft.com/Library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9) that does not facilitate navigating the related records. To bind related data you must select the tables from the same hierarchical node.  
   
 ## See Also  
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
@@ -74,4 +74,4 @@ Creating data-bound controls that display related records
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
  [Validating Data](../Topic/Validating%20Data.md)   
- [How to: Navigate Data with the Windows Forms BindingNavigator Control](../Topic/How%20to:%20Navigate%20Data%20with%20the%20Windows%20Forms%20BindingNavigator%20Control.md)
+ [How to: Navigate Data with the Windows Forms BindingNavigator Control](http://msdn.microsoft.com/Library/0e5d4f34-bc9b-47cf-9b8d-93acbb1f1dbb)

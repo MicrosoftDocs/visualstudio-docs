@@ -52,6 +52,6 @@ A <xref:System.Net.WebException> exception is thrown when an error occurs while 
 ## See Also  
  <xref:System.Net.WebException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [How to: Send Data Using the WebRequest Class](../Topic/How%20to:%20Send%20Data%20Using%20the%20WebRequest%20Class.md)   
- [How to: Request Data Using the WebRequest Class](../Topic/How%20to:%20Request%20Data%20Using%20the%20WebRequest%20Class.md)   
- [How to: Retrieve a Protocol-Specific WebResponse that Matches a WebRequest](../Topic/How%20to:%20Retrieve%20a%20Protocol-Specific%20WebResponse%20that%20Matches%20a%20WebRequest.md)
+ [How to: Send Data Using the WebRequest Class](http://msdn.microsoft.com/Library/66686878-38ac-4aa6-bf42-ffb568ffc459)   
+ [How to: Request Data Using the WebRequest Class](http://msdn.microsoft.com/Library/368b8d0f-dc5e-4469-a8b8-b2adbf5dd800)   
+ [How to: Retrieve a Protocol-Specific WebResponse that Matches a WebRequest](http://msdn.microsoft.com/Library/d8c90785-f16b-42a5-8439-ed2f731b2ba8)

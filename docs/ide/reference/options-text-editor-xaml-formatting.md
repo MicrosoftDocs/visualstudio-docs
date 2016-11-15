@@ -137,6 +137,6 @@ Use the **Formatting** property page to specify how elements and attributes are 
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|  
   
 ## See Also  
- [XAML in WPF](../Topic/XAML%20in%20WPF.md)   
+ [XAML in WPF](http://msdn.microsoft.com/Library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
  [How to: Change XAML View Settings](http://msdn.microsoft.com/en-us/aee87c79-ca01-4f84-8fb7-a9e47048ee47)   
  [XAML and Code Walkthroughs](http://msdn.microsoft.com/en-us/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)

@@ -40,7 +40,7 @@ translation.priority.ht:
 # Using the Tasks Window
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](../Topic/task_group%20Class.md), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.  
   
- In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md).  
+ In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d).  
   
  In native code, you can use the **Tasks** window when you work with [task groups](/visual-cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/visual-cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/visual-cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/visual-cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime).  
   
@@ -105,7 +105,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)   
+ [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
  [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)

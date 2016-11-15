@@ -41,7 +41,7 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
   
  This technique can be used only for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications installed on the user's computer from a Web server. It cannot be used for online-only applications, which can be launched only by using their URL. For more information on the difference between online-only and installed applications, see [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).  
   
- This procedure uses the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)] tool MageUI.exe. For more information on this tool, see [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md). You can also perform this procedure using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+ This procedure uses the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)] tool MageUI.exe. For more information on this tool, see [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14). You can also perform this procedure using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Procedure  
   

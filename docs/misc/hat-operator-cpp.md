@@ -35,6 +35,6 @@ translation.priority.ht:
 # ^ operator (C++)
 The `^` operator has two meanings in Visual C++, depending on its context. For more information see:  
   
--   [Bitwise Exclusive OR Operator: ^](../Topic/Bitwise%20Exclusive%20OR%20Operator:%20%5E.md), for use in all flavors of C++.  
+-   [Bitwise Exclusive OR Operator: ^](http://msdn.microsoft.com/Library/f9185d85-65d5-4f64-a6d6-679758d52217), for use in all flavors of C++.  
   
 -   [Handle to Object Operator (^)](/visual-cpp/windows/handle-to-object-operator-hat-cpp-component-extensions), for use in [!INCLUDE[cppwrt_short](../misc/includes/cppwrt_short_md.md)] and [!INCLUDE[cppcli](../misc/includes/cppcli_md.md)]

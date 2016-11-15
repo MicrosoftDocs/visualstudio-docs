@@ -36,8 +36,8 @@ translation.priority.mt:
 # C++ Bitwise Operators
 The content in this article was removed. See the following pages for information on the individual operators.  
   
--   [Bitwise AND (&)](../Topic/Bitwise%20AND%20Operator:%20&.md)  
+-   [Bitwise AND (&)](http://msdn.microsoft.com/Library/76f40de3-c417-47b9-8a77-532f3fc990a5)  
   
--   [Bitwise exclusive OR (^)](../Topic/Bitwise%20Exclusive%20OR%20Operator:%20%5E.md)  
+-   [Bitwise exclusive OR (^)](http://msdn.microsoft.com/Library/f9185d85-65d5-4f64-a6d6-679758d52217)  
   
--   [Bitwise inclusive OR (&#124;)](../Topic/Bitwise%20Inclusive%20OR%20Operator:%20%7C.md)
+-   [Bitwise inclusive OR (&#124;)](http://msdn.microsoft.com/Library/4c8a6a68-d828-447d-875a-aedb4ce3aa9a)

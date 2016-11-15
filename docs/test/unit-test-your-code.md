@@ -60,7 +60,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 |**Isolating unit tests**|-   [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|  
 |**Use code coverage to identify what proportion of your project's code is being tested using unit tests:** Learn about the code coverage feature of [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] testing tools.|-   [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|  
 |**Perform stress and performance analysis by using load tests for your unit tests:** You can create a load test and add your unit tests to it to help isolate performance and stress issues in your application. **Note:**  Creating and using load tests requires Visual Studio Enterprise.|-   [Creating and Editing Load Tests](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337)<br />-   [How to: Add Web Performance Tests and Unit Tests to a Load Test Scenario](http://msdn.microsoft.com/en-us/03cc073e-9bdf-4530-ae46-504a51884594)<br />-   [How to: Remove Web Tests and Unit Tests  from a Load Test Scenario](http://msdn.microsoft.com/en-us/3d6128d2-82b0-42fc-bda2-23a8aa03be07)|  
-|**Set and enforce quality gates:** You can create quality gates to enforce that tests are run before code is checked in to help ensure the quality of the code.|-   [Set and Enforce Quality Gates](../Topic/Set%20and%20Enforce%20Quality%20Gates.md)|  
+|**Set and enforce quality gates:** You can create quality gates to enforce that tests are run before code is checked in to help ensure the quality of the code.|-   [Set and Enforce Quality Gates](http://msdn.microsoft.com/Library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)|  
 |**Extend the unit test type:** You can add functionality to your tests that might not be in the Unit Test Framework. For example, you can add a test property that specifies if a test should run as a normal user or not. Or you can extend the framework to add row attributes to a method and use the data in that row inside the test.|For sample code of how to extend the unit test framework, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=185591).|  
 |**Set testing options:** For example, you can specify where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|  
   
@@ -95,5 +95,5 @@ Unit tests give developers and testers a quick way to look for logic errors in t
  [Content Index for Unit Tests](http://go.microsoft.com/fwlink/?LinkID=254719)  
   
 ## See Also  
- [Improve Code Quality](../Topic/Improve%20Code%20Quality.md)   
+ [Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)   
  [Testing the application](/devops-test-docs/test/test-apps-early-and-often)

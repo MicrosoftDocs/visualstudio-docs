@@ -93,4 +93,4 @@ return left.Equals(right);
 **Bad type:  {2,2} {9,9} are equal? No**  
 **Good type: {3,3} {9,9} are == ?   No**   
 ## See Also  
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](http://msdn.microsoft.com/Library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

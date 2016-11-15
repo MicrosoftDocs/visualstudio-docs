@@ -35,7 +35,7 @@ translation.priority.ht:
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  
   
 ## Handling Exceptions  
- Typically, code snippet Try…Catch blocks catch and rethrow all exceptions. That may not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to: Handle an Exception Using try/catch (C# Programming Guide)](../Topic/How%20to:%20Handle%20an%20Exception%20Using%20try-catch%20\(C%23%20Programming%20Guide\).md) and [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement).  
+ Typically, code snippet Try…Catch blocks catch and rethrow all exceptions. That may not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to: Handle an Exception Using try/catch (C# Programming Guide)](http://msdn.microsoft.com/Library/ca8e3773-980e-4767-8633-7408540e9818) and [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement).  
   
 ## File Locations  
  When you adapt file locations to your application, you should think about the following:  

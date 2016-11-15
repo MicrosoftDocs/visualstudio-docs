@@ -43,7 +43,7 @@ This section contains sample applications, example code, and step-by-step walkth
   
  For information about securing applications, see the following help topics:  
   
--   [Security Overview](../Topic/Security%20Overview2.md)  
+-   [Security Overview](http://msdn.microsoft.com/Library/33e09965-61d5-48cc-9e8c-3b047cc4f194)  
   
 ## In This Section  
   

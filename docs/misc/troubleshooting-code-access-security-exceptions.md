@@ -85,4 +85,4 @@ End Try
 ## See Also  
  [Code Access Permissions](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)   
  [NIB: Requesting Permissions](http://msdn.microsoft.com/en-us/0447c49d-8cba-45e4-862c-ff0b59bebdc2)   
- [Code Access Security Basics](../Topic/Code%20Access%20Security%20Basics.md)
+ [Code Access Security Basics](http://msdn.microsoft.com/Library/4eaa6535-d9fe-41a1-91d8-b437cfc16921)

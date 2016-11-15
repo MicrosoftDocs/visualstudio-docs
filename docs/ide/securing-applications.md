@@ -58,10 +58,10 @@ While most applications possess common security challenges, each application dom
 ## Securing Web Applications  
  A poorly written Web page can compromise the integrity and security of an entire server and potentially an entire network. Therefore, you must review security considerations in planning your Web application.  
   
- [ASP.NET Security Architecture](../Topic/ASP.NET%20Security%20Architecture.md)  
+ [ASP.NET Security Architecture](http://msdn.microsoft.com/Library/c34d6f4f-f64d-4697-bd32-02dd2ddf726f)  
  Provides an overview of ASP.NET infrastructure and subsystem relationships, as related to security.  
   
- [ASP.NET Web Application Security](../Topic/ASP.NET%20Web%20Application%20Security.md)  
+ [ASP.NET Web Application Security](http://msdn.microsoft.com/Library/658d0430-1644-4744-b52d-08b0d6fcacb8)  
  Details how to address authorization and authentication issues in ASP.NET.  
   
  [Security Considerations for JScript](http://msdn.microsoft.com/en-us/8572efc9-071a-472d-a1a4-f0a3b42644c1)  
@@ -73,7 +73,7 @@ While most applications possess common security challenges, each application dom
 ## Securing Desktop Applications  
  Designing security for desktop applications is an essential step in application development.  
   
- [Windows Forms Security](../Topic/Windows%20Forms%20Security.md)  
+ [Windows Forms Security](http://msdn.microsoft.com/Library/932d438a-5285-46d8-a958-8c93d0ad6cae)  
  Provides an overview of the Windows Forms security implementation.  
   
 ## See Also  

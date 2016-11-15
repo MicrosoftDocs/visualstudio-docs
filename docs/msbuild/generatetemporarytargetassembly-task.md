@@ -88,5 +88,5 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML Browser Applications Overview](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [WPF XAML Browser Applications Overview](http://msdn.microsoft.com/Library/3a7a86a8-75d5-4898-96b9-73da151e5e16)

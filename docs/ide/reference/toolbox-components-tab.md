@@ -75,13 +75,13 @@ Displays components you can add to [!INCLUDE[vbprvb](../../code-quality/includes
  Creates a <xref:System.ServiceProcess.ServiceController> component instance you can use to manipulate existing services, including starting and stopping services and sending commands to them. For more information, see [Monitoring Windows Services](http://msdn.microsoft.com/en-us/4542ee3f-e052-4cb9-8726-58e9420de222).  
   
  **Timer**  
- Creates a <xref:System.Windows.Forms.Timer> component instance you can use to add time-based functionality to your Windows-based applications. For more information, see [Timer Component](../Topic/Timer%20Component%20\(Windows%20Forms\).md).  
+ Creates a <xref:System.Windows.Forms.Timer> component instance you can use to add time-based functionality to your Windows-based applications. For more information, see [Timer Component](http://msdn.microsoft.com/Library/6700e534-6382-43d5-98ed-14205435fff7).  
   
 > [!NOTE]
 >  There is also a system-based <xref:System.Timers.Timer> that you can add to the **Toolbox** This <xref:System.Timers.Timer> is optimized for server applications, and the Windows Forms <xref:System.Windows.Forms.Timer> is best suited for use on Windows Forms.  
   
 ## See Also  
- [Programming with Components](../Topic/Programming%20with%20Components.md)   
- [Component Programming Walkthroughs](../Topic/Component%20Programming%20Walkthroughs.md)   
+ [Programming with Components](http://msdn.microsoft.com/Library/d4d4fcb4-e0b8-46b3-b679-7ee0026eb9e3)   
+ [Component Programming Walkthroughs](http://msdn.microsoft.com/Library/373cacf7-479e-4b05-991c-5cb18824e913)   
  [Toolbox](../../ide/reference/toolbox.md)   
  [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/en-us/bd07835f-18a8-433e-bccc-7141f65263bb)

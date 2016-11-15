@@ -64,4 +64,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.FlagsAttribute?displayProperty=fullName>   
- [Enum Design](../Topic/Enum%20Design.md)
+ [Enum Design](http://msdn.microsoft.com/Library/dd53c952-9d9a-4736-86ff-9540e815d545)

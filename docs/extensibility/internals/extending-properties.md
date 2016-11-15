@@ -80,7 +80,7 @@ Properties window
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)  
  Describes how you can use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Platform for continuously testing and debugging applications as you build them.  
   
- [HTML Document Properties, Properties Window](../Topic/HTML%20Document%20Properties,%20Properties%20Window.md)  
+ [HTML Document Properties, Properties Window](http://msdn.microsoft.com/Library/46e3d164-a1a7-42f9-87b0-344e10a37b62)  
  Provides instructions for editing an HTML document directly from the Properties window, and provides a table detailing the fields in an HTML document in the Properties window.  
   
  [IDispatch](http://msdn.microsoft.com/en-us/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)  

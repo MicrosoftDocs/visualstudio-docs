@@ -132,10 +132,10 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 |To|See|  
 |--------|---------|  
 |Create a form to input data|[Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md).|  
-|Add data to the table|[Adding Data to a DataTable](../Topic/Adding%20Data%20to%20a%20DataTable.md).|  
-|View data in a table|[Viewing Data in a DataTable](../Topic/Viewing%20Data%20in%20a%20DataTable.md).|  
-|Edit data|[DataTable Edits](../Topic/DataTable%20Edits.md)|  
-|Delete a row from a table|[DataRow Deletion](../Topic/DataRow%20Deletion.md)|  
+|Add data to the table|[Adding Data to a DataTable](http://msdn.microsoft.com/Library/d6aa8474-7bde-48f7-949d-20dc38a1625b).|  
+|View data in a table|[Viewing Data in a DataTable](http://msdn.microsoft.com/Library/1d26e0fb-f6e0-4afa-9a9c-b8d55b8f20dc).|  
+|Edit data|[DataTable Edits](http://msdn.microsoft.com/Library/f08008a9-042e-4de9-94f3-4f0e502b1eb5)|  
+|Delete a row from a table|[DataRow Deletion](http://msdn.microsoft.com/Library/c34f531d-4b9b-4071-b2d7-342c402aa586)|  
   
 ## See Also  
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
