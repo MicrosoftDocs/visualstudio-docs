@@ -45,3 +45,37 @@ If a tool window is slowing down Visual Studio startup, you can choose to leave 
 ![Manage Visual Studio Performance - tool windows](../ide/media/vside_perfdialog_toolwindows.PNG "Manage Visual Studio Performance - tool windows")
 
 If you later change your mind, you can revert any of these options in the **Manage Visual Studio Performance** dialog box. To open the **Manage Visual Studio Performance** dialog box, on the menu bar, choose **Help**, **Manage Visual Studio Performance**.
+
+## Speed up solution load
+
+Visual Studio 2017 RC introduces a new feature called **lightweight solution load** that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load.
+
+Because some IDE features are not fully available when lightweight solution load is enabled, the feature is turned off by default. The following sections will help you decide whether or not to enable this feature.
+
+### Enable lightweight solution load
+
+You can enable lightweight solution load for the IDE as a whole or for individual solutions. To enable lightweight solution load for the entire IDE, go to **Tools**, **Options** and then go to the **Projects and Solutions** section.
+
+![Tools Options dialog box](../ide/media/VSIDE_LightweightSolutionLoad.png)
+
+To enable lightweight solution load for an individual solution, choose the top level solution node in Solution Explorer.  In the Properties window, choose one of the following values for the property **Lightweight load**.
+
+- **Enabled:** Lightweight solution load will be enabled for this solution regardless of the IDE-wide setting.
+- **Disabled:** Lightweight solution load will be disabled for this solution regardless of the IDE-wide setting.
+- **Default:** Lightweight solution load behavior will defer to the IDE-wide setting.
+
+![Solution Explorer](../ide/media/VSIDE_LSL Solution Setting.png)
+
+When you change the lightweight solution load setting, the change takes effect the next time the solution is loaded. You don't need to restart the IDE.
+
+### Automatically enable lightweight solution load
+
+When you open a large solution in Visual Studio 2017 RC, you may see a pop-up message offering to enable lightweight solution load. The message only appears for solutions that contain many C#, VB, or C++ projects. Choosing the **enable** command will enable lightweight solution load for that solution only. The IDE-wide setting will not be changed.
+
+![Popup window](../ide/media/VSIDE_LSL Popup.png)
+
+You can disable lightweight solution load later in the solution's Properties window.
+
+### Lightweight solution load limitations
+
+Most features of the IDE are fully available when lightweight solution load is enabled. However, some IDE features and third party extensions may not be fully compatible. See the Visual Studio 2017 RC release notes and known issues document for more details.
