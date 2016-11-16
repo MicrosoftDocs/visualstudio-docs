@@ -1,7 +1,7 @@
 ---
 title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-09-06"
+ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -13,10 +13,19 @@ f1_keywords:
   - "switches"
   - "command prompt"
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
-caps.latest.revision: 8
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
+translation.priority.ht:
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt:
   - "cs-cz"
   - "pl-pl"

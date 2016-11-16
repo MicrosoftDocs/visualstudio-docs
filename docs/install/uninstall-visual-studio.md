@@ -1,8 +1,8 @@
 ---
-title: "Uninstall Visual Studio | Microsoft Docs"
+title: "Uninstall Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to uninstall Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "2016-05-05"
+ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

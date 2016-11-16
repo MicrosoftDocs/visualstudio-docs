@@ -1,5 +1,5 @@
 ---
-title: "Modify Visual Studio 2017 | Microsoft Docs"
+title: "Modify Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: "11/16/2016"
@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "Visual Studio Preview"
   - "Visual Studio Release Candidate"
   - "Visual Studio RC"
-  - "modifying visual studio"
-  - "changing visual studio"
+  - "modifying Visual Studio"
+  - "changing Visual Studio"
+  - "customize Visual Studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: "TerryGLee"
 ms.author: "tglee"
