@@ -21,7 +21,7 @@ If you encounter a problem with Visual Studio, we want to know about it so that 
 ## Open the Report a Problem tool  
  Click the user feedback icon next to **Quick Launch** in the title bar, or click **Help &#124; Send Feedback &#124; Report a Problem**.  
 
- ![Report a Problem Menu Item](../ide/media/report-a-problem-menu-item.jpg "Report a Problem Menu Item")  
+ ![Report a Problem Menu Item](../ide/media/ReportaProblemMenuItem.jpeg "Report a Problem Menu Item")  
 
 ## Search and vote for similar problems  
 ###  <a name="search_and_vote"></a>  
