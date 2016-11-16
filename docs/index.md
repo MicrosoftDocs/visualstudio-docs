@@ -1,6 +1,18 @@
 ---
 layout: HubPage
+hide_bc: true
 title: Visual Studio Documentation
+description:
+keywords:
+author:
+manager:
+ms.date: 11/14/2016
+ms.topic: hubpage
+ms.prod:
+ms.service:
+ms.technology:
+ms.suite:
+ms.assetid:
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -12,7 +24,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.svg" alt="" />
+                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -31,7 +43,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.svg" alt="" />
+                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -50,7 +62,7 @@ title: Visual Studio Documentation
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.svg" alt="" />
+                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
