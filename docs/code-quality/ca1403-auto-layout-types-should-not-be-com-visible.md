@@ -2,7 +2,6 @@
 title: "CA1403: Auto layout types should not be COM visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -69,5 +68,5 @@ translation.priority.mt:
   
 ## See Also  
  [Introducing the Class Interface](http://msdn.microsoft.com/en-us/733c0dd2-12e5-46e6-8de1-39d5b25df024)   
- [Qualifying .NET Types for Interoperation](../Topic/Qualifying%20.NET%20Types%20for%20Interoperation.md)   
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)
+ [Qualifying .NET Types for Interoperation](http://msdn.microsoft.com/Library/4b8afb52-fb8d-4e65-b47c-fd82956a3cdd)   
+ [Interoperating with Unmanaged Code](http://msdn.microsoft.com/Library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

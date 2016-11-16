@@ -2,7 +2,6 @@
 title: "Signing Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -79,7 +78,7 @@ Use the **Signing** page of the **Project Designer** to sign the application and
  **Sign the assembly** check box  
  Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564).  
   
- This option uses the Al.exe tool provided by the [!INCLUDE[winsdklong](../../deployment/includes/winsdklong_md.md)] to sign the assembly. For more information about Al.exe, see [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md).  
+ This option uses the Al.exe tool provided by the [!INCLUDE[winsdklong](../../deployment/includes/winsdklong_md.md)] to sign the assembly. For more information about Al.exe, see [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/Library/2c30799a-a826-46b4-a25d-c584027a6c67).  
   
  **Choose a strong name key file** list  
  Enables you to specify a new or existing strongly named key file that is used to sign the assembly. Select **\<Browse...>** to select an existing key file.  
@@ -94,7 +93,7 @@ Use the **Signing** page of the **Project Designer** to sign the application and
  **Delay sign only** check box  
  Select this check box to enable delay signing.  
   
- Note that a delay signed project will not run and cannot be debugged. You can, however, use the [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md) with the `-Vr` option to skip verification during development.  
+ Note that a delay signed project will not run and cannot be debugged. You can, however, use the [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6) with the `-Vr` option to skip verification during development.  
   
 > [!NOTE]
 >  When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don’t have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.  
@@ -105,5 +104,5 @@ Use the **Signing** page of the **Project Designer** to sign the application and
  [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
  [How to: Sign Application and Deployment Manifests](../../ide/how-to-sign-application-and-deployment-manifests.md)   
  [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)   
- [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md)   
- [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)
+ [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/Library/2c30799a-a826-46b4-a25d-c584027a6c67)   
+ [Strong-Named Assemblies](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)

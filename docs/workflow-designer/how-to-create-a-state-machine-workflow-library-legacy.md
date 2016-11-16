@@ -2,7 +2,6 @@
 title: "How to: Create a State Machine Workflow Library (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -61,4 +60,4 @@ Follow these steps to create a State Machine Workflow Library project using the 
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
- [State Machine Workflows](../Topic/State%20Machine%20Workflows.md)
+ [State Machine Workflows](http://msdn.microsoft.com/Library/344caacd-bf3b-4716-bd5a-eca74fc5a61d)

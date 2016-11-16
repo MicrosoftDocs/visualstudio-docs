@@ -2,7 +2,6 @@
 title: "Just-In-Time Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -137,7 +136,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
  When you install Visual Studio, Just-In-Time debugging is enabled by default.  
   
- For the purposes of this section, we'll make a C# console app in Visual Studio that throws a [NullReferenceException](../Topic/NullReferenceException%20Class.md).  
+ For the purposes of this section, we'll make a C# console app in Visual Studio that throws a [NullReferenceException](http://msdn.microsoft.com/Library/658af786-d893-4114-a3c5-31c7d586056a).  
   
  In Visual Studio, create a C# console app (**File / New / Project / Visual C# / Console Application**) named **ThrowsNullException**. For more information about creating projects in Visual Studio, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md).  
   

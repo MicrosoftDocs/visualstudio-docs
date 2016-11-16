@@ -2,7 +2,6 @@
 title: "How to: Save and Open Files with Encoding | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -70,5 +69,5 @@ You can save files with specific character encoding to support bi-directional la
 3.  Follow Steps 2 and 3 from the preceding procedure.  
   
 ## See Also  
- [Encoding and Windows Forms Globalization](../Topic/Encoding%20and%20Windows%20Forms%20Globalization.md)   
+ [Encoding and Windows Forms Globalization](http://msdn.microsoft.com/Library/22e8965d-a712-42b3-8167-3ee346bd70f9)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

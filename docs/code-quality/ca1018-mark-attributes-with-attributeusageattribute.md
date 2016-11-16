@@ -2,7 +2,6 @@
 title: "CA1018: Mark attributes with AttributeUsageAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -70,4 +69,4 @@ translation.priority.mt:
  [CA1813: Avoid unsealed attributes](../code-quality/ca1813-avoid-unsealed-attributes.md)  
   
 ## See Also  
- [Attributes](../Topic/Attributes1.md)
+ [Attributes](http://msdn.microsoft.com/Library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)

@@ -2,7 +2,6 @@
 title: "Bind WPF controls to a dataset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -65,7 +64,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
+-   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/Library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Create the project  
  Create a new WPF project. The project will display product records.  
@@ -271,4 +270,4 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
  [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
- [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)
+ [Data Binding Overview](http://msdn.microsoft.com/Library/c707c95f-7811-401d-956e-2fffd019a211)

@@ -2,7 +2,6 @@
 title: "Securing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -93,7 +92,7 @@ translation.priority.mt:
   
 1.  Perform the obfuscation by using Dotfuscator.  
   
-2.  Use Mage.exe or MageUI.exe to generate the ClickOnce manifests and sign them. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md).  
+2.  Use Mage.exe or MageUI.exe to generate the ClickOnce manifests and sign them. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14).  
   
 3.  Manually publish (copy) the files to your deployment source location (Web server, UNC share, or CD-ROM).  
   

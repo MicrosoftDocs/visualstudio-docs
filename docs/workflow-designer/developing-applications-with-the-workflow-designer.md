@@ -2,7 +2,6 @@
 title: "Developing Applications with the Workflow Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Developing Applications with the Workflow Designer
-The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] that is hosted in the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../test/includes/crabout_md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](../Topic/Windows%20Workflow%20Foundation.md).  
+The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] that is hosted in the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../test/includes/crabout_md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](http://msdn.microsoft.com/Library/9a23ea6b-d600-483e-89cd-8889cfec5f66).  
   
  The following are several new design features that set this new version of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] apart from older versions of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]:  
   
@@ -76,8 +75,8 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
  [Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework](../workflow-designer/developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md)  
  Contains guidance on using the legacy designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
   
- [Designer ReHosting &#91;WF Samples&#93;](../Topic/Designer%20ReHosting.md)  
+ [Designer ReHosting &#91;WF Samples&#93;](http://msdn.microsoft.com/Library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  
  This sample shows how to create the WPF layout to contain the designer.  
   
- [Custom Activity Designers](../Topic/Custom%20Activity%20Designers.md)  
+ [Custom Activity Designers](http://msdn.microsoft.com/Library/dcf14dca-ce6d-4278-96ba-062f0a679075)  
  This section contains activity samples that use custom designers for display in the workflow designer.

@@ -2,7 +2,6 @@
 title: "How to: Create an XML Schema from an XML Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
   
  The schemas that are created are then used to provide IntelliSense for the XML document.  
   
- For more information about the schema inference engine, see [Inferring an XML Schema](../Topic/Inferring%20an%20XML%20Schema.md).  
+ For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/Library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
   
 ### To create an XML Schema  
   

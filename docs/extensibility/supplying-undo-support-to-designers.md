@@ -2,7 +2,6 @@
 title: "Supplying Undo Support to Designers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and the <xref:System.ComponentModel.Design.IComponentChangeService> classes.  
   
- For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md).  
+ For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
   
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides a default undo infrastructure by:  
   
@@ -56,7 +55,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
   
-     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](../Topic/Dynamic%20Source%20Code%20Generation%20and%20Compilation.md)  
+     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/Library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
   
 ## When to Use Explicit Designer Undo Support  
  Designers must supply their own undo management if they use a graphical user interface, referred to as a view adapter, other than the one supplied by <xref:System.Windows.Forms.Control>.  
@@ -116,4 +115,4 @@ Designers, like editors, typically need to support undo operations so that users
 ## See Also  
  <xref:System.ComponentModel.Design.UndoEngine>   
  <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>   
- [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md)
+ [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

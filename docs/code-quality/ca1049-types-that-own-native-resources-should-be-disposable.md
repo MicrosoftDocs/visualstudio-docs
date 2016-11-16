@@ -2,7 +2,6 @@
 title: "CA1049: Types that own native resources should be disposable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -74,5 +73,5 @@ translation.priority.mt:
  [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)  
   
 ## See Also  
- [Cleaning Up Unmanaged Resources](../Topic/Cleaning%20Up%20Unmanaged%20Resources.md)   
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Cleaning Up Unmanaged Resources](http://msdn.microsoft.com/Library/a17b0066-71c2-4ba4-9822-8e19332fc213)   
+ [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

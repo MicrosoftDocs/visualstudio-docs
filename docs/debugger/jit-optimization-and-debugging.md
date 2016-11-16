@@ -2,7 +2,6 @@
 title: "JIT Optimization and Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -52,4 +51,4 @@ When you debug a managed application, [!INCLUDE[vsprvs](../code-quality/includes
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Managed Execution Process](../Topic/Managed%20Execution%20Process.md)
+ [Managed Execution Process](http://msdn.microsoft.com/Library/476b03dc-2b12-49a7-b067-41caeaa2f533)

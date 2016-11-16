@@ -3,7 +3,6 @@ title: "Create an Offline Installation of Visual Studio 2017 RC | Microsoft Docs
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -81,6 +80,8 @@ You can create an offline installation layout that contains all the files you ne
 #### To install Visual Studio from an offline installation layout
 1. On the target machine, navigate to the **Certificates** folder, which is in the Layout folder.
 2. Right-click and install each certificate in the **Certificates** folder.
+
+  (If you are prompted for a password after you install a certificate, click **Continue**.)  
 3. Run `vs_enterprise.exe` from the **Layout** folder.
 
 > [!CAUTION]

@@ -2,7 +2,6 @@
 title: "How to: Stop Code Changes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -56,4 +55,4 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)   
- [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)
+ [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)

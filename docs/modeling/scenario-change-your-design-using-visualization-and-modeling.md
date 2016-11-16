@@ -2,7 +2,6 @@
 title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -309,11 +308,11 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Define your build process](../Topic/Define%20your%20build%20process.md)  
+-   [Define your build process](http://msdn.microsoft.com/Library/61593e10-d24b-492f-b19a-af4d85abea6b)  
   
--   [Use a gated check-in build process to validate changes](../Topic/Use%20a%20gated%20check-in%20build%20process%20to%20validate%20changes.md)  
+-   [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
   
--   [Customize your build process template](../Topic/Customize%20your%20build%20process%20template.md)  
+-   [Customize your build process template](http://msdn.microsoft.com/Library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
 ###  <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
@@ -348,13 +347,13 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md)  
+-   [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
 -   [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
   
--   [Charts, dashboards, and reports for Visual Studio ALM](../Topic/Charts,%20dashboards,%20and%20reports%20for%20Visual%20Studio%20ALM.md)  
+-   [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
--   [Create your backlog and tasks using Project](../Topic/Create%20your%20backlog%20and%20tasks%20using%20Project.md)  
+-   [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
   
 ###  <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code  
  As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and layer validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and layer validation regularly. This helps make sure that the code meets the following criteria:  
@@ -377,7 +376,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 -   [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
--   [Build the application](../Topic/Build%20the%20application.md)  
+-   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  

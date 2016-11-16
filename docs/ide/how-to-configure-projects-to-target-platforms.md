@@ -2,7 +2,6 @@
 title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Configure Projects to Target Platforms
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Targeting Platforms with the Configuration Manager  
  The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the properties for your project are modified to build your project for the selected platform.  
@@ -77,5 +76,5 @@ translation.priority.ht:
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
  [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)   
- [64-bit Applications](../Topic/64-bit%20Applications.md)   
+ [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
