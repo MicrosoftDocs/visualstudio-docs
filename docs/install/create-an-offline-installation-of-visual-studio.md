@@ -80,6 +80,8 @@ You can create an offline installation layout that contains all the files you ne
 #### To install Visual Studio from an offline installation layout
 1. On the target machine, navigate to the **Certificates** folder, which is in the Layout folder.
 2. Right-click and install each certificate in the **Certificates** folder.
+
+  (If you are prompted for a password after you install a certificate, click **Continue**.)  
 3. Run `vs_enterprise.exe` from the **Layout** folder.
 
 > [!CAUTION]

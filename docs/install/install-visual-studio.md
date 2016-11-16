@@ -1,8 +1,8 @@
 ---
-title: "Install Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
+title: "Install Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "2016-10-21"
+ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -44,7 +44,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
  Want to know more about what else is new in RC? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs15-relnotes). And for more in-depth info about how we’ve redesigned the installation experience, see our blog posts, “[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)” and “[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/).”  
 
- Ready to install? We'll walk you through it, step-by-step. Let's get started!  
+ Ready to install? We'll walk you through it, step-by-step. Let's get started.  
 
 ## Install the installer  
  When you download Visual Studio 2017 RC, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
@@ -77,9 +77,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
     Next, status screens will appear that show the progress of your Visual Studio installation.
 
-3.  You might be asked to reboot. If so, find Visual Studio 2017 RC from your Start menu, and click to run it.   
-
-  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-InStartMenu.png)
+3.  After the new workloads and components are installed, click **Launch**.
 
 ## Install individual components
 
