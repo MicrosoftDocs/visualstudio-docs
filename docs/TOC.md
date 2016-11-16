@@ -6,7 +6,7 @@
 # [Visual C#](/dotnet/articles/csharp)
 # [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
 # [JavaScript](javascript/javascript-in-visual-studio.md)
-# [Python](python/getting-started-with-pyton.md)
+# [Python](python/getting-started-with-python.md)
 # [Visual F#](/dotnet/articles/fsharp/)
 # [Data Access](data-tools/TOC.md)
 # [Cross-Platform Mobile Development](cross-platform/TOC.md)
