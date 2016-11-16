@@ -331,7 +331,7 @@ ms.assetid:
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Game development with Unity</h3>
-                                                    <p>Create 2D and 3D games with unity, a powerful cross-platform development environment.</p>
+                                                    <p>Create 2D and 3D games with Unity, a powerful cross-platform development environment.</p>
                                                 </div>
                                             </div>
                                         </div>
