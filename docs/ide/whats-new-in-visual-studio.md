@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
+title: "What&#39;s New in Visual Studio 2017 RC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
