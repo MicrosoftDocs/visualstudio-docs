@@ -141,7 +141,7 @@ Visual Studio 2017 RC brings many updates and fixes to the Visual C++ environmen
 
 We've also made several improvements, to include distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, adding and updating functionality in the C++ libraries, and improving the performance of the C++ IDE, installation workloads, and more.
 
-For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
+For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md) page.  
 
 
 ### Debugging and Diagnostics
@@ -180,7 +180,6 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
  If you’d like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also  
-* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
+* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md)
 * [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)   
-* [What's New in JavaScript](../ide/javascript-intellisense#whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd)
 * [Visual Studio Release Notes](https://www.visualstudio.com/news/vs2015-vs)
