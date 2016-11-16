@@ -55,5 +55,5 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 If you change your mind later and want to reinstall Visual Studio 2017 RC, simply start the Visual Studio installer again, then click **Install** from the selection screen.
 
 ## See Also  
-* [Install Visual Studio](../install/install-visual-studio-2015.md)
+* [Install Visual Studio](install-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

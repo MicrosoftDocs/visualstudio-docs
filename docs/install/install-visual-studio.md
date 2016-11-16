@@ -58,7 +58,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 2.  We’ll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/support/legal/mt591984) and the Microsoft [Privacy Statement](https://www.visualstudio.com/dn948229). Click **Install** to continue.  
 
-  ![License Terms and Privacy Statement](media/01-installingdev15prev4-licensetermsandprivacystatement.png)  
+  ![License Terms and Privacy Statement](media/01-installingdev15prev4-licensetermsandprivacystatement.png "Microsoft License Terms and Privacy Statement")  
 
 3.  You’ll see several status screens that show the progress of the installation. After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want.
 
@@ -69,7 +69,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.  
 
-  ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png)
+  ![Visual Studio 2017 RC setup dialog](../ide/media/willow1.png "Installing Visual Studio 2017")
 
      For example, choose the .NET Desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
@@ -83,13 +83,13 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
-  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-IndividualComponents.PNG)
+  ![Visual Studio 2017 - Install individual components](media/vs2017install-IndividualComponents.PNG "Install Visual Studio individual components")
 
 ## Install language packs
 
 To install Visual Studio 2017 RC in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
 
-  ![Visual Studio 2017 RC in Windows Start menu](media/vs2017install-LanguagePacks.PNG)
+  ![Visual Studio 2017 - Install language packs](media/vs2017install-LanguagePacks.PNG "Install Visual Studio language packs")
 
 ## See Also  
 * [Modify Visual Studio 2017 RC](modify-visual-studio.md)
