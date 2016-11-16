@@ -40,7 +40,7 @@ translation.priority.ht:
 # Prerequistes for Remote Debugging Web Applications
 With the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger, you can debug a Web application transparently on the local computer or a remote server. This means that the debugger functions the same way and allows you to use the same features on either computer. For remote debugging to work correctly, however, there are some prerequisites.  
   
--   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] remote debugging components must be installed on the server you want to debug. For more information, see [Setting Up Remote Debugging](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
+-   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] remote debugging components must be installed on the server you want to debug. For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 -   By default, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process runs as an ASPNET user process. As a result, you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runs to debug it. The name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process varies by debug scenario and version of IIS. For more information, see [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md).  
   
