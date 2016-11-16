@@ -32,6 +32,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
+# Getting Started with Visual Studio
+
 Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://aka.ms/vs/15/preview/vs_enterprise). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
