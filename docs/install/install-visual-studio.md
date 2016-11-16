@@ -52,7 +52,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 > [!IMPORTANT]
 > If you have a Preview release of Visual Studio 2017 installed on your computer, you will be prompted to remove it prior to installing Visual Studio 2017 RC.
 
-1.  [Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) and click **Save**.  Then, from your **Downloads** folder, run the `vs_Enterprise.exe` file.  
+1.  [Download Visual Studio Enterprise 2017 RC](https://www.visualstudio.com/vs/visual-studio-2017-rc/) and click **Save**.  Then, from your **Downloads** folder, run the `vs_Enterprise.exe` file.  
 
      If you receive a User Account Control notice, click **Yes**.  
 
