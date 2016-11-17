@@ -62,4 +62,5 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 
 ## See Also  
  * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
- * [Visual Studio Administrator Guide](install/visual-studio-administrator-guide.md)
+ * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+ * [Install Visual Studio](install-visual-studio.md)

@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
+This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 > [!IMPORTANT]
 >  If you believe you have received this message because of a product bug, please report this issue to Visual Studio [Send a Smile](../Topic/Visual%20Studio%20Send%20a%20Smile%20Instructions.md). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.  
