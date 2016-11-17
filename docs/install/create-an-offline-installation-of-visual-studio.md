@@ -86,3 +86,6 @@ You can create an offline installation layout that contains all the files you ne
 
 > [!CAUTION]
 > The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
+
+## Update an installation layout
+As updates become available for Visual Studio 2017 RC, you can run the `--layout` command again, pointing to the same layout folder, to  ensure that the folder contains the latest components. Only those components that have been updated since the last time `--layout` was run will be downloaded. 
