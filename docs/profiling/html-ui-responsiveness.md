@@ -335,7 +335,7 @@ if (performance.mark && performance.measure) {
   
 -   **Image decoding.** Indicates time spent decompressing and decoding images.  
   
- For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [Analyze JavaScript Function Timing data](../Topic/Analyze%20JavaScript%20Function%20Timing%20data.md).  
+ For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
   
  For the other event categories, you might be able to identify platform side effects that result from adding features to your app, but in these cases you might not be able to resolve the particular performance issues by using the UI Responsiveness Profiler.  
   
