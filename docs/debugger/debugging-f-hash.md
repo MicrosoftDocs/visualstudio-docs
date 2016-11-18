@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Debugging F#
+# Debugging F# #
 Debugging F# is similar to debugging any managed language, with a few exceptions:  
   
 -   The **Autos** window does not display F# variables.  
