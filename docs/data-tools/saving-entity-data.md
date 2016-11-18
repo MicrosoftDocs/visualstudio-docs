@@ -2,7 +2,6 @@
 title: "Saving Entity Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,8 +41,8 @@ When you create, update, or delete entities that connect to a database through W
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[How to: Add, Modify, and Delete Entities](../Topic/How%20to:%20Add,%20Modify,%20and%20Delete%20Entities%20\(WCF%20Data%20Services\).md)|Shows how to save changes in entity data back through a data service.|  
-|[How to: Execute Asynchronous Data Service Queries](../Topic/How%20to:%20Execute%20Asynchronous%20Data%20Service%20Queries%20\(WCF%20Data%20Services\).md)|Shows how to asynchronously save changes through a data service.|  
+|[How to: Add, Modify, and Delete Entities](http://msdn.microsoft.com/Library/a00f8933-b232-4445-95ba-adc634f055d8)|Shows how to save changes in entity data back through a data service.|  
+|[How to: Execute Asynchronous Data Service Queries](http://msdn.microsoft.com/Library/902a2dc1-d0e9-4b00-90a8-becc4cb1f6a7)|Shows how to asynchronously save changes through a data service.|  
   
 ## See Also  
- [Updating the Data Service](../Topic/Updating%20the%20Data%20Service%20\(WCF%20Data%20Services\).md)
+ [Updating the Data Service](http://msdn.microsoft.com/Library/00d993be-ffed-4dea-baf7-6eea982cdb54)

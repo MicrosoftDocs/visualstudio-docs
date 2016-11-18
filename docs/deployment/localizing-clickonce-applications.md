@@ -2,7 +2,6 @@
 title: "Localizing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -95,4 +94,4 @@ Localization is the process of making your application appropriate for a specifi
 ## See Also  
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)
+ [Globalizing Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)

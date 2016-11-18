@@ -2,7 +2,6 @@
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -108,7 +107,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 1.  Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](../Topic/Developer%20Command%20Prompt%20for%20Visual%20Studio.md).  
+     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219).  
   
     > [!NOTE]
     >  The remaining steps make the following assumptions about your solution:  
@@ -177,4 +176,4 @@ Visual styles enable the appearance of common controls to change based on the th
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
  [Visual Styles Overview](http://msdn.microsoft.com/en-us/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
  [Enabling Visual Styles](VS|Controls|~\controls\userex\cookbook.htm)   
- [Command Prompts](../Topic/Developer%20Command%20Prompt%20for%20Visual%20Studio.md)
+ [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219)

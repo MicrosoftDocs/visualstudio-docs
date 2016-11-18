@@ -2,7 +2,6 @@
 title: "How to: Create an association (relationship) between LINQ to SQL classes (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -61,6 +60,6 @@ Associations between entity classes in [!INCLUDE[vbtecdlinq](../data-tools/inclu
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
- [How to: Represent Primary Keys](../Topic/How%20to:%20Represent%20Primary%20Keys.md)
+ [How to: Represent Primary Keys](http://msdn.microsoft.com/Library/63c65289-6539-42b2-8493-891c232018fa)

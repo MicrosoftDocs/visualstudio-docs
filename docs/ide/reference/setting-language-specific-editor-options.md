@@ -2,7 +2,6 @@
 title: "Setting Language-Specific Editor Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -55,10 +54,10 @@ translation.priority.ht:
  [Options, Text Editor, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md)  
  Describes settings that specify how the IntelliSense completion list behaves when you work in C# and J# code.  
   
- [Validation, CSS, Text Editor, Options Dialog Box](../Topic/Validation,%20CSS,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [Validation, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
  Describes statement completion and error correction settings for cascading style sheets (CSS).  
   
- [Validation, HTML, Text Editor, Options Dialog Box](../Topic/Validation,%20HTML,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
  Describes settings for checking HTML syntax based on the schema you select.  
   
  [Options, Text Editor, XAML, Formatting](../../ide/reference/options-text-editor-xaml-formatting.md)  

@@ -2,7 +2,6 @@
 title: "General User Interface Elements (Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -105,14 +104,14 @@ This section describes some user interface elements of the integrated developmen
  [Toolbox, HTML Tab](../../ide/reference/toolbox-html-tab.md)  
  Allows you to add html tags to a design surface.  
   
- [General, CSS, Text Editor, Options Dialog Box](../Topic/General,%20CSS,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [General, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/b33a7617-e69d-4a11-938e-2e218a34a10c)  
  Allows you to specify options for CSS files.  
   
- [Validation, HTML, Text Editor, Options Dialog Box](../Topic/Validation,%20HTML,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
  Allows you to specify options for HTML pages.  
   
 ## Related Sections  
- [Automation and Extensibility Reference](../Topic/Automation%20and%20Extensibility%20Reference.md)  
+ [Automation and Extensibility Reference](http://msdn.microsoft.com/Library/93112562-db21-4188-9383-ed19ad79bddf)  
  Contains language reference topics about the automation model for the IDE. Includes the automation model for debugging.  
   
  [Reference](../../ide/reference/visual-studio-reference.md)  

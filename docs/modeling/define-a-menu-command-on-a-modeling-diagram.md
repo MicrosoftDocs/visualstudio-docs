@@ -2,7 +2,6 @@
 title: "Define a menu command on a modeling diagram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -77,7 +76,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
   
     |Reference|What this allows you to do|  
     |---------------|--------------------------------|  
-    |System.ComponentModel.Composition|Define components by using [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).|  
+    |System.ComponentModel.Composition|Define components by using [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).|  
     |Microsoft.VisualStudio.Uml.Interfaces|Read and change properties of model elements.|  
     |Microsoft.VisualStudio.ArchitectureTools.Extensibility|Create model elements, modify shapes on diagrams.|  
     |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define model event handlers.<br /><br /> Encapsulate series of changes to your model. For more information, see [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).|  

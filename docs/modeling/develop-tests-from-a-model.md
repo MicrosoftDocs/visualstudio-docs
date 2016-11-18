@@ -2,7 +2,6 @@
 title: "Develop tests from a model | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -74,7 +73,7 @@ You can use requirements and architectural models to help you organize the tests
   
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](/devops-test-docs/test/test-apps-early-and-often).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).  
   
 2.  Link the requirement work item to one or more use cases in your model.  
   
@@ -175,7 +174,7 @@ Assert (countAfter == countBefore = 1);
   
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](/devops-test-docs/test/test-apps-early-and-often).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).  
   
 2.  Link the requirement work item to one or more elements in your model.  
   

@@ -2,7 +2,6 @@
 title: "CA2100: Review SQL queries for security vulnerabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -99,4 +98,4 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
  [!code-cpp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100-review-sql-queries-for-security-vulnerabilities_1.cpp)]  
   
 ## See Also  
- [Security Overview](../Topic/Security%20Overview2.md)
+ [Security Overview](http://msdn.microsoft.com/Library/33e09965-61d5-48cc-9e8c-3b047cc4f194)

@@ -2,7 +2,6 @@
 title: "Run Windows Phone apps in the emulator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -115,7 +114,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
 ###  <a name="BKMK_depltool"></a> Run an app with the Application Deployment tool  
  You can also use the Windows Phone Application Deployment tool (**AppDeploy.exe**) to run your app in the emulator. This tool is a stand-alone app that is installed when you install the Windows Phone development tools.  
   
- For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](../Topic/Deploy%20Windows%20Phone%208.1%20apps%20with%20the%20Application%20Deployment%20tool.md).  
+ For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](http://msdn.microsoft.com/Library/23700f82-1399-44d9-bc0c-714be4a48ee6).  
   
 ##  <a name="BKMK_toolbar"></a> Configure the Windows Phone emulator with the emulator toolbar  
  This table shows the configuration buttons available on the emulator toolbar.  

@@ -2,7 +2,6 @@
 title: "WPF .Targets Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,4 +43,4 @@ translation.priority.ht:
 ## See Also  
  [.Targets Files](../msbuild/msbuild-dot-targets-files.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)

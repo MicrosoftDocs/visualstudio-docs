@@ -2,7 +2,6 @@
 title: "Edit and Continue Dialog Box (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,4 +45,4 @@ Edit and Continue could not apply the changes you made to your native code. This
  You can edit the code to fix the error while still debugging, stop debugging and fix the code, or ignore the error and continue debugging. If you continue without making the fix, your code changes will not be applied immediately.  
   
 ## See Also  
- [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)
+ [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)
