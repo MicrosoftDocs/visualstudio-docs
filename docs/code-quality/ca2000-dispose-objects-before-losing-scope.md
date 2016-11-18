@@ -62,7 +62,7 @@ translation.priority.ht:
   
 -   Nesting constructors that are protected only by one exception handler. For example,  
   
-    ```c#
+    ```cs
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
     { ... }  
     ```
