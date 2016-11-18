@@ -49,6 +49,9 @@ In this topic, we'll discuss analyzing CPU usage in your normal debugging workfl
 1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
 2.  Set a second breakpoint at the end of the function or region of code that you want to analyze.
+
+    > [!TIP]
+    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
 3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
 
