@@ -62,10 +62,10 @@ translation.priority.ht:
   
 -   Nesting constructors that are protected only by one exception handler. For example,  
   
-    ```  
+    ```cs
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
     { ... }  
-    ```  
+    ```
   
      causes CA2000 to occur because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.  
   
@@ -105,8 +105,8 @@ translation.priority.ht:
   
  To disable the emitting of overflow checks, right-click the project name in Solution Explorer and then click **Properties**. Click **Compile**, click **Advanced Compile Options**, and then check **Remove integer overflow checks**.  
   
- <!-- FIXME [!CODE [FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope.VBOverflow#1](FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope.VBOverflow#1)]-->  
-  
+  [!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope-vboverflow_1.vb)]
+
 ## See Also  
  <xref:System.IDisposable>   
  [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
