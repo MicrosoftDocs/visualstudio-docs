@@ -40,6 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # What’s New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+
 The debugger includes these new features:
 
 - The **Exception Helper** replaces the Exception Assistant and appears in a non-modal dialog box where the error occurred. The **Exception Helper** provides quicker access to any inner exceptions, additional analysis by the debugger (if available), and immediate access to the **Exception Settings** for the exception. The Exception Helper can also be dragged to a floating view if it is blocking something that you need to see.
@@ -62,7 +63,7 @@ The debugger includes these new features:
 
     ![Search in Attach to Process](../debugger/media/dbg-attach-to-process-search.png "DbgAttachToProcessSearch") 
 
-For more information on these new features, see [What's New in Visual Studio](https://review.docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio?branch=tglee-install#productivity-improvements) or the release notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#debuggingdiag).
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
