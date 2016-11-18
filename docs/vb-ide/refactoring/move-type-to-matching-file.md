@@ -43,9 +43,9 @@ translation.priority.ht:
 
 1. Next, do one of the following:
    * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.vb** from the Preview window popup, where *TypeName* is the name of the type you have selected.
    * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.vb** from the Preview window popup, where *TypeName* is the name of the type you have selected.
 
    The type will instantly moved to a new file with that name inside of your solution.
 
