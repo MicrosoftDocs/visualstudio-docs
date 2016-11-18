@@ -92,7 +92,8 @@ CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)
                                         &dwRead);  
         }  
     }  
-    return(returnString);  
+    return(returnString);
+}
 ```    
   
 ## See Also  
