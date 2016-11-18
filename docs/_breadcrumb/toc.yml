@@ -43,8 +43,11 @@
           tocHref: /visualstudio/csharp-ide/
           topicHref: /visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
         - name: Refactoring (Visual Basic)
-          tocHref: /visualstudio/vb-ide/
+          tocHref: /visualstudio/vb-ide/refactoring/
           topicHref: /visualstudio/vb-ide/refactoring-vb
+        - name: Code Generation (Visual Basic)
+          tocHref: /visualstudio/vb-ide/code-generation/
+          topicHref: /visualstudio/vb-ide/code-generation-vb
         - name: Code Quality
           tocHref: /visualstudio/code-quality/
           topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools

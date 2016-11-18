@@ -17,7 +17,7 @@ dev_langs:
   - "visual-basic"
 helpviewer_keywords: 
   - "refactoring [VB]"
-ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
+ms.assetid: 7312ea3f-7045-41e8-a699-7b580508d074
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
