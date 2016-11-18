@@ -75,8 +75,18 @@ Defines an element that the user can interact with. Buttons can be of different 
   
 ## Example  
  The following example defines a button in a .vsct file.  
-  
- <!--FIXME [!CODE [MenuText#02](../CodeSnippet/VS_Snippets_VSSDK/menutext#02)]-->  
-  
+
+ ```xml
+       <Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
+        <Parent guid="guidMenuTextCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <CommandFlag>TextChanges</CommandFlag>
+        <Strings>
+          <CommandName>cmdidMyCommand</CommandName>
+          <ButtonText>My Command name</ButtonText>
+        </Strings>
+      </Button>
+ ```
+ 
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
