@@ -1,17 +1,16 @@
 ---
 title: "Code Generation | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "11/17/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-vb"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "CSharp"
-ms.assetid: 900c16d6-e2d7-4d1d-a000-2625641aff05
-caps.latest.revision: 23
+  - "visual-basic"
+ms.assetid: 73c19226-11f2-4b8f-a9e6-98f83fee0667
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
@@ -32,7 +31,7 @@ translation.priority.ht:
 ---
 
 # Code Generation
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Visual C# provides the following code generation features:  
+Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Visual Basic provides the following code generation features:  
   
 * [Generate Class/Type](code-generation/generate-class-type.md)
 * [Generate Method](code-generation/generate-method.md)
@@ -43,7 +42,8 @@ Visual Studio can help generate portions of source code for you, letting you foc
 * [Implement Abstract Class](code-generation/implement-abstract-class.md)
 * [Implement Interface](code-generation/implement-interface.md)
 * [Introduce Local Variable](code-generation/introduce-local-variable.md)
- 
+
+<!--
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- 
+ -->
