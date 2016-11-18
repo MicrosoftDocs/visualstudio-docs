@@ -1,0 +1,7 @@
+# [Refactoring](refactoring-vb.md)
+## [Change Method Signature](refactoring/change-method-signature.md)
+## [Extract Interface](refactoring/extract-interface.md)
+## [Extract Method](refactoring/extract-method.md)
+## [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
+## [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
+## [Rename](refactoring/rename.md)
