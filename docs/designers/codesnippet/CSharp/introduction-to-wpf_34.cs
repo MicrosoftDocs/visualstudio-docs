@@ -1,4 +1,4 @@
-using System; // EventArgs
+`using System; // EventArgs
 using System.Windows; // DependencyObject, DependencyPropertyChangedEventArgs,
                       // FrameworkPropertyMetadata, PropertyChangedCallback, 
                       // RoutedPropertyChangedEventArgs
@@ -9,3 +9,5 @@ namespace SDKSample
     public partial class NumericUpDown : UserControl
     {
         // NumericUpDown user control implementation
+    }
+}
