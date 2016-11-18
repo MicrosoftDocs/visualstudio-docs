@@ -44,8 +44,8 @@ You can open most debugger windows while you are debugging your program. To see 
 |Parallel Watch|CTR:+SHIFT+D, (1, 2, 3, 4)|[Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)|  
 |Watch|CTRL+ALT+W, (1, 2, 3, 4)|[Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)|  
 |QuickWatch|SHIFT+F9|[Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)|  
-|Auto|CTRL+ALT+V, A|[Variable Windows](../Topic/Variable%20Windows.md)|  
-|Locals|CTRL+ALT+V, L|[Variable Windows](../Topic/Variable%20Windows.md)|  
+|Auto|CTRL+ALT+V, A|[Autos and Locals Windows](../debugger/autos-and-locals-windows.md)|  
+|Locals|CTRL+ALT+V, L|[Autos and Locals Windows](../debugger/autos-and-locals-windows.mdd)|  
 |Immediate|CTRL+ALT+I|[Immediate Window](../ide/reference/immediate-window.md)|  
 |Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)|  
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|  

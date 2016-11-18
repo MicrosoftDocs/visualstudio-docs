@@ -72,7 +72,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.  
   
  **Enable the exception assistant**  
- For managed code only. Managed exceptions open the  exception assistant dialog box.  See [Exception Assistant](../Topic/Exception%20Assistant.md).  
+ For managed code only. Managed exceptions open the  exception assistant dialog box. 
   
  **Unwind the call stack on unhandled exceptions**  
  Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.  
@@ -175,7 +175,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.  
   
  **Enable Diagnostic Tools while debugging**  
- The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](../Topic/Debugger-integrated%20profiling.md).  
+ The **Diagnostic Tools** window appears while you are debugging.
   
  **Show elapsed time PerfTip while debugging**  
  The code window displays the elapsed time of a given method call when you are debugging.  
