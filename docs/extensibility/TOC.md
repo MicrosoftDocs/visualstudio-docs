@@ -5,7 +5,7 @@
 # [What's New in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md)
 ## [Breaking Changes in Extensibility](breaking-changes-2017.md)
 ## [Ngen support in VSIX v3](ngen-support.md)
-## [Installing to external directories](set-install-root.md)
+## [Installing outside the extensions folder](set-install-root.md)
 ## [Migrate debugger COM registration](migrate-debugger-com-registration.md)
 ## [Frequently Asked Questions](faq-2017.md)
 # [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
