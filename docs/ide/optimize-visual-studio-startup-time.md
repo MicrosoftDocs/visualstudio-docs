@@ -77,5 +77,19 @@ When you open a large solution in Visual Studio 2017 RC, you may see a pop-up me
 You can disable lightweight solution load later in the solution's Properties window.
 
 ### Lightweight solution load limitations
+Most features of the IDE are fully available when lightweight solution load is enabled. However, some IDE features and third party extensions may not be fully compatible.  The following features are known to not work when lightweight solution load is enabled:
 
-Most features of the IDE are fully available when lightweight solution load is enabled. However, some IDE features and third party extensions may not be fully compatible. See the Visual Studio 2017 RC release notes and known issues document for more details.
+#### NuGet packages are not restored on build
+When you build a solution, NuGet packages are not automatically restored. Restore packages from the Solution node context menu or command line.
+
+#### Build is skipped if project file does not exist on disk
+When you build a solution, projects that are not backed by an on-disk MSBuild project file (e.g. Web Sites) will not be built.
+
+#### XAML designer may not be available
+If you open a XAML file with File/Open, Find, or Go To, the XAML file may open as text with no option to switch to the designer. To work around the issue, expand the parent project in the Solution Explorer before opening the XAML file.
+
+#### XAML designer may not find dependencies
+If you open a XAML file the designer may not automatically find all dependencies and instead display an "invalid markup" error.  To work around this issue, manually expand the project's dependencies in the Solution Explorer before opening a XAML file or disable lightweight Solution load
+ 
+#### "Loading..." indicator for a loaded solution
+You may see the "Loading..." indicator next to the solution name in the Solution Explorer even after the solution has finished loading. You may disregard the "Loading..." indicator.
