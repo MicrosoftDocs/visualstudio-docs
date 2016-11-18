@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "11/18/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -91,7 +91,11 @@ To install Visual Studio 2017 RC in a language of your choosing, click the **Lan
 
   ![Visual Studio 2017 - Install language packs](media/vs2017install-LanguagePacks.PNG "Install Visual Studio language packs")
 
+  > [!IMPORTANT]
+  > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
+
 ## See Also  
 * [Modify Visual Studio 2017 RC](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017 RC](uninstall-visual-studio.md)
+* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
