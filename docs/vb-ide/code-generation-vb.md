@@ -31,7 +31,7 @@ translation.priority.ht:
 ---
 
 # Code Generation
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Visual C# provides the following code generation features:  
+Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Visual Basic provides the following code generation features:  
   
 * [Generate Class/Type](code-generation/generate-class-type.md)
 * [Generate Method](code-generation/generate-method.md)
