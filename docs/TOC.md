@@ -11,6 +11,6 @@
 # [Data Access](data-tools/TOC.md)
 # [Cross-Platform Mobile Development](cross-platform/TOC.md)
 # [Port, Migrate, and Upgrade Your Code](porting\port-migrate-and-upgrade-visual-studio-projects.md)
-# [Extensibility](extensibility/TOC.md)
+# [Extensibility](extensibility/extensibility-in-visual-studio.md)
 # [Talk to Us](ide/talk-to-us.md)
 ## [How to Report a Problem with Visual Studio 2017 RC](ide/how-to-report-a-problem-with-visual-studio-2017.md)
