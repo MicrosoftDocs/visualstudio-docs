@@ -77,15 +77,15 @@ Defines an element that the user can interact with. Buttons can be of different 
  The following example defines a button in a .vsct file.  
 
  ```xml
-       <Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
-        <Parent guid="guidMenuTextCmdSet" id="MyMenuGroup" />
-        <Icon guid="guidImages" id="bmpPic1" />
-        <CommandFlag>TextChanges</CommandFlag>
-        <Strings>
+<Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
+    <Parent guid="guidMenuTextCmdSet" id="MyMenuGroup" />
+    <Icon guid="guidImages" id="bmpPic1" />
+    <CommandFlag>TextChanges</CommandFlag>
+    <Strings>
           <CommandName>cmdidMyCommand</CommandName>
           <ButtonText>My Command name</ButtonText>
-        </Strings>
-      </Button>
+    </Strings>
+</Button>
  ```
  
 ## See Also  
