@@ -4,3 +4,8 @@
     x:Class="SDKSample.UserControlWindow"
     xmlns:local="clr-namespace:SDKSample" 
     Title="User Control Window">
+
+  <!-- Numeric Up/Down user control -->
+  <local:NumericUpDown />
+
+</Window>
