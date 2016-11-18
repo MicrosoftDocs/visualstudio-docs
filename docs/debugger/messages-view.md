@@ -64,7 +64,7 @@ Spy++ Messages View
  [Controlling Messages View](../debugger/how-to-control-messages-view.md)  
  Explains how to manage Messages view.  
   
- [Opening Messages View from Find Window](_asug_choosing_message_options)  
+ [Opening Messages View from Find Window](../debugger/how-to-open-messages-view-from-find-window.md)  
  Explains how to open Messages view from the Find Window dialog box.  
   
  [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  

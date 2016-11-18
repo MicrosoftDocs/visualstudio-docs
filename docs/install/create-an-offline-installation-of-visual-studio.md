@@ -36,11 +36,11 @@ translation.priority.mt:
 # Create an offline installation of Visual Studio 2017 RC
 
 ## Create a layout
-You can create an offline installation layout that contains all the files you need to install Visual Studio 2017 RC without requiring Internet access.  
+You can create an offline installation layout that contains all the files you need to install [Visual Studio 2017 RC](https://www.visualstudio.com/vs/visual-studio-2017-rc/) without requiring Internet access.  
 
 #### To create an offline installation layout of Visual Studio
 1. Download the Visual Studio setup executable file to a drive on your local machine.
-  For example, [download the vs_enterprise.exe file](https://aka.ms/vs/15/release/vs_enterprise.exe).
+  For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).
 2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt:
 
    a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. By default, all languages are downloaded. (See Example A.)
@@ -86,3 +86,6 @@ You can create an offline installation layout that contains all the files you ne
 
 > [!CAUTION]
 > The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
+
+## Update an installation layout
+As updates become available for Visual Studio 2017 RC, you can run the `--layout` command again, pointing to the same layout folder, to  ensure that the folder contains the latest components. Only those components that have been updated since the last time `--layout` was run will be downloaded. 

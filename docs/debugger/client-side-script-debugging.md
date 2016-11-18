@@ -76,6 +76,6 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
 ## See Also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [Limitations on Script Debugging](../debugger/limitations-on-script-debugging.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)   
+ [Variable Windows](../debugger/debugger-windows.md)   
  [Immediate Window](../ide/reference/immediate-window.md)   
  [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/Library/92684ea0-7bb4-4a34-9203-3aa6394ce375)
