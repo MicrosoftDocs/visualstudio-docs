@@ -211,7 +211,7 @@
 ## [How to: Add a Dependency to a VSIX Package](how-to-add-a-dependency-to-a-vsix-package.md)
 ## [Anatomy of a VSIX Package](anatomy-of-a-vsix-package.md)
 ### [VSIX Extension Schema 2.0 Reference](vsix-extension-schema-2-0-reference.md)
-### [The Structure of the Content_types].xml File](the-structure-of-the-content-types-dot-xml-file.md)
+### [The Structure of the [Content_types].xml File](the-structure-of-the-content-types-dot-xml-file.md)
 ### [VSIX Manifest Designer](vsix-manifest-designer.md)
 ## [Localizing VSIX Packages](localizing-vsix-packages.md)
 ### [VSX Language Pack Schema Reference](vsx-language-pack-schema-reference.md)

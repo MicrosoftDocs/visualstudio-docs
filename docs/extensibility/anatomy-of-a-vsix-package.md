@@ -67,6 +67,6 @@ A VSIX package is a .vsix file that contains one or more Visual Studio extension
  By default, the installation applies only to the current user, because %LocalAppData% is a user-specific directory. However, if you set the [AllUsers](http://msdn.microsoft.com/en-us/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under ..\\*VisualStudioInstallationFolder*\Common7\IDE\Extensions and will be available to all users of the computer.  
   
 ## [Content_Types].xml  
- The [Content_Types].xml file identifies the file types in the expanded .vsix file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The Structure of the Content_types\].xml File](../Topic/The%20Structure%20of%20the%20Content_types].xml%20File.md).  
+ The [Content_Types].xml file identifies the file types in the expanded .vsix file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The Structure of the [Content_types].xml File](the-structure-of-the-content-types-dot-xml-file.md).  
   
  A [Content_Types].xml file is required by the Open Packaging Conventions (OPC) standard. For more information about OPC, see [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207) on the MSDN Web site.
