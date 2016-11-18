@@ -65,7 +65,7 @@ translation.priority.ht:
     ```c#
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
     { ... }  
-    ```c#
+    ```
   
      causes CA2000 to occur because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.  
   
