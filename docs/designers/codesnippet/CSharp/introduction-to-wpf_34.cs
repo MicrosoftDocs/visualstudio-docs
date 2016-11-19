@@ -9,3 +9,5 @@ namespace SDKSample
     public partial class NumericUpDown : UserControl
     {
         // NumericUpDown user control implementation
+    }
+}

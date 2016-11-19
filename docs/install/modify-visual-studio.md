@@ -2,7 +2,7 @@
 title: "Modify Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "11/18/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -67,6 +67,9 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 ## Modify individual components
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
+
+> [!IMPORTANT]
+> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
 ## See Also  
 * [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)

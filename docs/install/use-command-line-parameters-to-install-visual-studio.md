@@ -1,7 +1,7 @@
 ---
 title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "11/18/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -60,7 +60,10 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 | ```--compatInstallDir <dir>``` | Optional: The target installation directory for legacy compatibility payloads. |  
 |  ```--layoutDir <dir>```, ```--layoutDirectory <dir>``` | Optional: The layout directory in which to find packages.|
 
-## See Also  
- * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
- * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+> [!IMPORTANT]
+> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
+
+## See Also
  * [Install Visual Studio](install-visual-studio.md)
+ * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
+ * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017)

@@ -42,7 +42,7 @@ translation.priority.ht:
 
    ![Method to document](media/doc_highlight.png)
 
-1. Next, type **'''** (3 single quotes) which will automatically create the base template and any additional elements as necessary.  For example, when commenting a method, it will generate the **<summary>** tags as well as a **<param>** tag for every parameter that is passed to the method, and a **<returns>** tag to document what the method returns.
+1. Next, type **'''** (3 single quotes) which will automatically create the base template and any additional elements as necessary.  For example, when commenting a method, it will generate the **\<summary\>** tags as well as a **\<param\>** tag for every parameter that is passed to the method, and a **\<returns\>** tag to document what the method returns.
 
    ![Template](media/doc_preview.png)
 
