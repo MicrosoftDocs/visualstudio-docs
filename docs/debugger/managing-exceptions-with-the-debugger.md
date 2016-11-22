@@ -191,6 +191,17 @@ public class GenericException<T> : Exception
  You can add the exception to **Exception Settings** like this:  
   
  ![adding generic exception](../debugger/media/addgenericexception.png "AddGenericException")  
+
+### Adding Conditions to an Exception
+
+You can set conditions on exceptions in the **Exception Settings** dialog box. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on particular code modules, or you can avoid breaking on particular modules.
+
+> [!NOTE]
+> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+
+To add conditional exceptions, choose the **Edit condition** icon in the Exception Settings dialog box or right-click the exception and choose **Edit Conditions**.
+
+![Conditions on an Exception](../debugger/media/dbg-conditional-exception.png "DbgConditionalException")
   
 ## See Also  
  [Continuing Execution After an Exception](../debugger/continuing-execution-after-an-exception.md)   
