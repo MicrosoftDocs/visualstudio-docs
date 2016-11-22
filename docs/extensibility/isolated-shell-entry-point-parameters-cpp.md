@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Shell [Visual Studio], isolated mode%2C Start entry point"
-  - "Visual Studio shell, isolated mode%2C Start entry point"
+  - "Shell [Visual Studio], isolated mode, Start entry point"
+  - "Visual Studio shell, isolated mode, Start entry point"
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 10
 ms.author: "gregvanl"
