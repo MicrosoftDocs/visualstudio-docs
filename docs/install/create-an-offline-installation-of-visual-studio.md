@@ -40,12 +40,12 @@ You can create an offline installation layout that contains all the files you ne
 
 #### To create an offline installation layout of Visual Studio
 1. Download the Visual Studio setup executable file to a drive on your local machine.
-  For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).
-2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt:
+  For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).  It doesn't have to be the Enterprise edition, it can be the Community or Professional editions.
+2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt **with Administrator rights**:
 
-   a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. By default, all languages are downloaded. (See Example A.)
+   a. Add `--layout <path>`, where `<path>` is the location where you saved the exe in step 1. 
 
-   b. Restrict the download to a single language by providing the `--lang <language>` argument, where `<language>` is one of the ISO country codes.  (See Example B and Example C.)
+   b. Restrict the download to a single language by providing the `--lang <language>` argument, where `<language>` is one of the ISO country codes.  (See Example B and Example C.).  By default, all languages are downloaded. (See Example A.)
 
 ### Examples
 **Example A**: Install all languages
