@@ -131,9 +131,9 @@ When you create or update a tool window in your extension, you can add the same 
   
 ## To add a search box to the tool window  
   
-1.  In the TestSearch.cs file, add the following code to the `TestSearch` class. The code overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled> property so that the get accessor returns `true`.  
+1.  In the TestSearch.cs file, add the following code to the `TestSearch` class. The code overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled%2A> property so that the get accessor returns `true`.  
   
-     To enable search, you must override the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled> property. The <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch> and provides a default implementation that doesn’t enable search.  
+     To enable search, you must override the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled%2A> property. The <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch> and provides a default implementation that doesn’t enable search.  
   
     ```c#  
     public override bool SearchEnabled  
@@ -149,7 +149,7 @@ When you create or update a tool window in your extension, you can add the same 
      At the top of the tool window, a search control appears with a **Search** watermark and a magnifying-glass icon. However, search doesn’t work yet because the search process hasn’t been implemented.  
   
 ## To add the search implementation  
- When you enable search on a <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>, as in the previous procedure, the tool window creates a search host. This host sets up and manages search processes, which always occur on a background thread. Because the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class manages the creation of the search host and the setting up of the search, you need only create a search task and provide the search method. The search process occurs on a background thread, and calls to the tool window control occur on the UI thread. Therefore, you must use the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke> method to manage any calls that you make in dealing with the control.  
+ When you enable search on a <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>, as in the previous procedure, the tool window creates a search host. This host sets up and manages search processes, which always occur on a background thread. Because the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class manages the creation of the search host and the setting up of the search, you need only create a search task and provide the search method. The search process occurs on a background thread, and calls to the tool window control occur on the UI thread. Therefore, you must use the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> method to manage any calls that you make in dealing with the control.  
   
 1.  In the TestSearch.cs file, add the following `using` statements:  
   
@@ -170,11 +170,11 @@ When you create or update a tool window in your extension, you can add the same 
   
     -   Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch> method to create a search task.  
   
-    -   Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch> method to restore the state of the text box. This method is called when a user cancels a search task and when a user sets or unsets options or filters. Both <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch> are called on the UI thread. Therefore, you don’t need to access the text box by means of the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke> method.  
+    -   Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> method to restore the state of the text box. This method is called when a user cancels a search task and when a user sets or unsets options or filters. Both <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> are called on the UI thread. Therefore, you don’t need to access the text box by means of the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> method.  
   
     -   Creates a class that’s named `TestSearchTask` that inherits from <xref:Microsoft.VisualStudio.Shell.VsSearchTask>, which provides a default implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsSearchTask>.  
   
-         In `TestSearchTask`, the constructor sets a private field that references the tool window. To provide the search method, you override the <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch> and <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStopSearch> methods. The <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch> method is where you implement the search process. This process includes performing the search, displaying the search results in the text box, and calling the base class implementation of this method to report that the search is complete.  
+         In `TestSearchTask`, the constructor sets a private field that references the tool window. To provide the search method, you override the <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch%2A> and <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStopSearch%2A> methods. The <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch%2A> method is where you implement the search process. This process includes performing the search, displaying the search results in the text box, and calling the base class implementation of this method to report that the search is complete.  
   
     ```c#  
     public override IVsSearchTask CreateSearch(uint dwCookie, IVsSearchQuery pSearchQuery, IVsSearchCallback pSearchCallback)  

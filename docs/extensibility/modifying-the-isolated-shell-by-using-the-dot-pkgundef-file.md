@@ -9,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio shell, isolated mode%2C .pkgundef file"
+  - "Visual Studio shell, isolated mode, .pkgundef file"
 ms.assetid: 9cee2a20-f8ac-4d9d-aef9-068fcd9f27a4
 caps.latest.revision: 11
 ms.author: "gregvanl"
