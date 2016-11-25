@@ -34,7 +34,7 @@ Performance rules in the.NET Framework Usage category identify specific methods 
   
 |||  
 |-|-|  
-|[DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md)|Calls to <xref:System.String.Concat%28System.String%2CSystem.String%29?displayProperty=fullName> are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  
+|[DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md)|Calls to <xref:System.String.Concat(System.String,System.String)?displayProperty=fullName> are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  
 |[DA0005: Frequent GC2 collections](../profiling/da0005-frequent-gc2-collections.md)|A relatively high number of .NET memory objects are being reclaimed in generation 2 garbage collection. If too many short-lived objects survive generation 1 collection, the cost of memory management can easily become excessive.|  
 |[DA0006: Override Equals() for value types](../profiling/da0006-override-equals-parens-for-value-types.md)|Calls to the `Equals` method or the equality operators of a public value type are a significant proportion of the profiling data. Consider implementing a more efficient method.|  
 |[DA0007: Avoid using exceptions for control flow](../profiling/da0007-avoid-using-exceptions-for-control-flow.md)|A high rate of .NET Framework exception handlers were called in the profiling data. Consider using other control flow logic to reduce the number of exceptions that are thrown.|  

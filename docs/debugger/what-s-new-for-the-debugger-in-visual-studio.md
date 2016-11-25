@@ -45,7 +45,7 @@ The debugger includes these new features:
 
 - The **Exception Helper** replaces the Exception Assistant and appears in a non-modal dialog box where the error occurred. The **Exception Helper** provides quicker access to any inner exceptions, additional analysis by the debugger (if available), and immediate access to the **Exception Settings** for the exception. The Exception Helper can also be dragged to a floating view if it is blocking something that you need to see.
 
-    For example, a **NullReferenceException** now shows the variable that has the null reference.
+    For example, a **NullReferenceException** now shows the variable that has the null reference (extra information).
 
     ![Debugger's Exception Helper](../debugger/media/dbg-exception-helper.png "DbgExceptionHelper")
 

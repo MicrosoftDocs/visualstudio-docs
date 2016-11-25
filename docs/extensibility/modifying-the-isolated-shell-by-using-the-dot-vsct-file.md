@@ -9,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio shell, isolated mode%2C .vsct file"
+  - "Visual Studio shell, isolated mode, .vsct file"
 ms.assetid: 6d147c2d-10e9-400e-b8ce-5566287b41ba
 caps.latest.revision: 8
 ms.author: "gregvanl"
