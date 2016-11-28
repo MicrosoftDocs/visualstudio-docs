@@ -43,19 +43,19 @@ You can create an offline installation layout that contains all the files you ne
   For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).
 2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt:
 
-   a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. By default, all languages are downloaded. (See Example A.)
+   a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. Note that relative paths (e.g. `..\vs2017`) are not supported at present. By default, all languages are downloaded. (See Example A.)
 
-   b. Restrict the download to a single language by providing the `--lang <language>` argument, where `<language>` is one of the ISO country codes.  (See Example B and Example C.)
+   b. Restrict the download to a subset of the available languages by providing the `--lang <language>` argument, where `<language>` is one or more of the ISO country codes.  (See Example B and Example C.)
 
 ### Examples
 **Example A**: Install all languages
-  > ```vs_enterprise.exe --layout C:\layout```
+  > ```vs_enterprise.exe --layout C:\vs2017```
 
 **Example B**: Install one language  
-  > ```vs_enterprise.exe --layout C:\layout --lang en-US```
+  > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US```
 
 **Example C**: Install multiple languages
-  > ```vs_enterprise.exe --layout C:\layout --lang en-US de-DE ja-JP```
+  > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US de-DE ja-JP```
 
 ### Country codes  
 | ISO Code | Language |
