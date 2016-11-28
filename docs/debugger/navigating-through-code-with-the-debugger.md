@@ -122,7 +122,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
     ![Debugger's Run to Click](../debugger/media/dbg-run-to-click.png "DbgRunToClick") 
 
     > [!NOTE]
-    > **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md).
+    > **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
   
 -   **Manually break into code**  
   
