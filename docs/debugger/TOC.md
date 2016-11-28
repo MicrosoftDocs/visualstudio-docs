@@ -321,7 +321,6 @@
 ## [Dataset Visualizer Dialog Box](dataset-visualizer-dialog-box.md)
 ## [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](debug-source-files-common-properties-solution-property-pages-dialog-box.md)
 ## [Edit and Continue Dialog Box](edit-and-continue-dialog-box.md)
-## [Exception Assistant Dialog Box](exception-assistant-dialog-box.md)
 ## [Select Code Type Dialog Box](select-code-type-dialog-box.md)
 ## [Stop Debugging In Progress Dialog Box](stop-debugging-in-progress-dialog-box.md)
 ## [String Visualizer Dialog Box](string-visualizer-dialog-box.md)
