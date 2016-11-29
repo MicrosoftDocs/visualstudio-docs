@@ -49,7 +49,9 @@ You can debug a Visual Studio application that has been deployed on a different 
   
 1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), open the correct download page for the remote tools.
 
-     For Update 3 of the remote tools for Visual Studio 2015, open [this download page](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015).
+     Get the [remote tools for Visual Studio 2017 RC](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017-rc)
+
+     Get [Update 3 of the remote tools for Visual Studio 2015](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015-update-3).
 
      If you are not using Update 3 of Visual Studio 2015, open the [download page at My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) instead.
   
