@@ -88,7 +88,7 @@ The Azure SDK for Python, which supports Windows, Mac, and Linux, makes it easy 
   - [Storage Table](http://azure.microsoft.com/en-us/develop/python/how-to-guides/table-service/)  
   - [Service Bus Queues](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-bus-queues/)   - [Service Bus Topics/Subscriptions](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-bus-topics/) 
   - [Service Management](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-management/)  
-- The [SDK's GitHub repository](https://github.com/Azure/azure-sdk-for-python) has [unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/tests) that are also a good source of information on APIs.  
+- The [SDK's GitHub repository](https://github.com/Azure/azure-sdk-for-python) has [unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-mgmt/tests) that are also a good source of information on APIs.  
   
   
 ## Scientific Computing  
