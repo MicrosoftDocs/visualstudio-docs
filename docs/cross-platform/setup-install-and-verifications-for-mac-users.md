@@ -56,7 +56,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 1.  Create a free Apple ID at [My Apple ID](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
   
-2.  Download and install Xcode from  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/).  
+2.  Download and install Xcode from [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/).  
   
 3.  Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).  
   
