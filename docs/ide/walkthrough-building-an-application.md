@@ -238,7 +238,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
-#### To specify a release build for Visual C#  
+#### To specify a release build for Visual C# #
   
 1.  Open the **Project Designer**.  
   
