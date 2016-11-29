@@ -2,7 +2,6 @@
 title: "Continuing Execution After an Exception | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +49,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Continuing Execution After an Exception
-When the debugger breaks execution because of an exception, a dialog box appears. For Visual Basic or C#, you will see the [Exception Assistant](../Topic/Exception%20Assistant.md) dialog box, by default. For C++, you will see the older **Exception** dialog box. If you are using Visual Basic or C# but have disabled the **Exception Assistant** in the **Options** dialog box, you will see the **Exception** dialog box.  
+When the debugger breaks execution because of an exception, a dialog box appears. For Visual Basic or C#, you will see the **Exception Assistant** dialog box, by default. For C++, you will see the older **Exception** dialog box. If you are using Visual Basic or C# but have disabled the **Exception Assistant** in the **Options** dialog box, you will see the **Exception** dialog box.  
   
  When the **Exception Assistant** or **Exception** dialog box appears, you can try to fix the problem that caused the exception.  
   

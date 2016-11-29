@@ -2,7 +2,6 @@
 title: "ClickOnce Security and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -109,8 +108,8 @@ translation.priority.ht:
 |----------|-----------------|  
 |[Security Page, Project Designer](../ide/reference/security-page-project-designer.md)|Signs the application and deployment manifests.|  
 |[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
-|[Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
-|[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
+|[Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
+|[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
 |[GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
 |[GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
 |[SignFile Task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  

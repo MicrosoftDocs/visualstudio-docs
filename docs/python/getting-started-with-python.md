@@ -101,5 +101,5 @@ We recommend obtaining IPython and scientific computing libraries (matplotlib, s
  [Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs-start-coding-projects.md)   
  [Getting Started with PTVS: Editing Code](../python/getting-started-with-ptvs-editing-code.md)   
  [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)   
- [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)   
+ [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)    
  [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)

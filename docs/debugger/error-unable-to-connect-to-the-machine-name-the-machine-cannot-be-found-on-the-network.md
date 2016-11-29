@@ -2,7 +2,6 @@
 title: "Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -60,5 +59,5 @@ This behavior occurs if one of the following conditions is true:
 -   Make sure that the password that you are using to connect to the remote computer is valid and has not expired.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)   
+ [Remote Debugging](../debugger/remote-debugging.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

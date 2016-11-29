@@ -2,7 +2,6 @@
 title: "Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -67,7 +66,7 @@ Windows Forms applications can be configured for multiple cultures through the u
   
 6.  Close the **Application Files** dialog box.  
   
-### To download satellite assemblies on demand in C#  
+### To download satellite assemblies on demand in C# #
   
 1.  Open the Program.cs file. If you do not see this file in Solution Explorer, select your project, and on the **Project** menu, click **Show All Files**.  
   

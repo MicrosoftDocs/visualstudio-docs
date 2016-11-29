@@ -2,7 +2,6 @@
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -74,5 +73,5 @@ translation.priority.mt:
  [!code-cpp[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/CPP/ca1016-mark-assemblies-with-assemblyversionattribute_1.cpp)]  
   
 ## See Also  
- [Assembly Versioning](../Topic/Assembly%20Versioning.md)   
- [How to: Create a Publisher Policy](../Topic/How%20to:%20Create%20a%20Publisher%20Policy.md)
+ [Assembly Versioning](http://msdn.microsoft.com/Library/775ad4fb-914f-453c-98ef-ce1089b6f903)   
+ [How to: Create a Publisher Policy](http://msdn.microsoft.com/Library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)

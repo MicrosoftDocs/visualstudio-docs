@@ -2,7 +2,6 @@
 title: "Introduction to WPF | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -158,7 +157,7 @@ End Namespace
 ##  <a name="Controls"></a> Controls  
  The user experiences that are delivered by the application model are constructed controls. In WPF, "control" is an umbrella term that applies to a category of WPF classes that are hosted in either a window or a page, have a user interface, and implement some behavior.  
   
- For more information, see [Controls](../Topic/Controls.md).  
+ For more information, see [Controls](http://msdn.microsoft.com/Library/3f255a8a-35a8-4712-9065-472ff7d75599).  
   
 ### WPF Controls by Function  
  The built-in WPF controls are listed here.  
@@ -495,15 +494,10 @@ End Namespace
   
  [!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
  [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]  
-[!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/CSharp/introduction-to-wpf_35.cs)]
-[!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/VisualBasic/introduction-to-wpf_35.vb)]  
-<!--FIXME [!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)] --> 
   
  The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.  
   
  [!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]  
-[!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_38.xaml)]  
-[!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_39.xaml)]  
   
  The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.  
   

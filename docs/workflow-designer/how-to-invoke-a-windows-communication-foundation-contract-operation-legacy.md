@@ -2,7 +2,6 @@
 title: "How to: Invoke a Windows Communication Foundation Contract Operation (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -56,7 +55,7 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflow-designer/inc
   
 3.  Expand the channel token node and specify a name for the client endpoint you are going to use in the <xref:System.Workflow.Activities.ChannelToken.EndpointName%2A> field. The endpoint configuration of the same name in the configuration file will be used to configure the channel.  
   
-4.  Create the endpoint configuration in your configuration file, if it does not exist already. For more information about configuring your client, see [WCF Client Overview](../Topic/WCF%20Client%20Overview.md).  
+4.  Create the endpoint configuration in your configuration file, if it does not exist already. For more information about configuring your client, see [WCF Client Overview](http://msdn.microsoft.com/Library/f60d9bc5-8ade-4471-8ecf-5a07a936c82d).  
   
 ## See Also  
  [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md)   

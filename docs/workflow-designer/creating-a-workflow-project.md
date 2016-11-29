@@ -2,7 +2,6 @@
 title: "Creating a Workflow Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -55,7 +54,7 @@ Workflows, [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] work
  Describes how to add additional workflow activities or designers and other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items such as code activities to an existing project.  
   
 ## Related Sections  
- [Designing Workflows](../Topic/Designing%20Workflows.md)  
+ [Designing Workflows](http://msdn.microsoft.com/Library/41f727b5-b142-4c1b-b046-492b96135ae6)  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

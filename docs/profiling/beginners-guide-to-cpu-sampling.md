@@ -2,7 +2,6 @@
 title: "Beginners Guide to CPU Sampling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "performance tools, wizard"
   - "Performance Wizard"
-ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-caps.latest.revision: 45
+ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
+caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -36,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Beginners Guide to CPU Sampling
-You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
 
 > [!NOTE]
 >  We recommend you use the [CPU Usage](../profiling/beginners-guide-to-performance-profiling.md) tool in the Diagnostics Tools window instead of the legacy CPU sampling tool, unless you need specialized features such as instrumentation support.

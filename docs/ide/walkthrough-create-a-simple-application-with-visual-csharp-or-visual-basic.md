@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -162,7 +161,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 3.  Save your changes by pressing Ctrl-s or using the **File** menu item.  
   
- Next, you’ll add two [RadioButton](../Topic/RadioButton.md) controls to the form.  
+ Next, you’ll add two [RadioButton](http://msdn.microsoft.com/Library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) controls to the form.  
   
 ##### To add radio buttons  
   
@@ -190,7 +189,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 2.  Open the shortcut menu for RadioButton2 by pressing the right mouse button while selecting RadioButton2, choose **Edit Text**, and then enter `Goodbye`.  
   
- The final UI element that you’ll add is a [Button](../Topic/Button.md) control.  
+ The final UI element that you’ll add is a [Button](http://msdn.microsoft.com/Library/a9d8f5a5-c98c-463e-808a-5a4e63173098) control.  
   
 ##### To add the button control  
   
@@ -260,7 +259,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 3.  Save the application.  
   
 ##  <a name="BKMK_DebugTest"></a> Debug and test the application  
- Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
+ Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
  In this step, you’ll find the error that we caused earlier by changing the name of the main window XAML file.  

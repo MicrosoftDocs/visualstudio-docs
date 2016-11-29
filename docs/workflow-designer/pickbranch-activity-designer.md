@@ -2,7 +2,6 @@
 title: "PickBranch Activity Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -69,5 +68,5 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
- [Pick Activity](../Topic/Pick%20Activity.md)   
- [Using the Pick Activity](../Topic/Using%20the%20Pick%20Activity.md)
+ [Pick Activity](http://msdn.microsoft.com/Library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
+ [Using the Pick Activity](http://msdn.microsoft.com/Library/b89be812-a247-4025-b0e3-ffb20db027a6)

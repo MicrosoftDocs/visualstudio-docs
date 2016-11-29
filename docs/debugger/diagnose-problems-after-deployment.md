@@ -2,7 +2,6 @@
 title: "Diagnose problems after deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -54,7 +53,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
  Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
   
-1.  [Edit your build definition or create a new build definition.](../Topic/Create%20or%20edit%20a%20build%20definition.md)  
+1.  [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
   
      ![View build definition in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
   
@@ -68,7 +67,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      ![Set up symbols path in build defintion TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
-     For more about symbols, see [Publish symbol data](../Topic/Index%20and%20publish%20symbol%20data.md).  
+     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6).  
   
 4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
   
@@ -316,7 +315,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:  
   
-    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](../Topic/Use%20build%20numbers%20to%20give%20meaningful%20names%20to%20completed%20builds.md).  
+    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](http://msdn.microsoft.com/Library/1f302e9d-4b0a-40b5-8009-b69ca6f988c3).  
   
     -   **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.  
   
@@ -376,7 +375,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
      ![Open from source control &#45; migrated](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")  
   
 ####  <a name="WhatWorkspace"></a> Q: What's a workspace?  
- **A:** Your [workspace stores a copy of the source](../Topic/Create%20and%20work%20with%20workspaces.md) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.  
+ **A:** Your [workspace stores a copy of the source](http://msdn.microsoft.com/Library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.  
   
 ####  <a name="UntrustedSymbols"></a> Q: Why do I get this message about untrusted symbols?  
  ![Debug with untrusted symbols path?](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")  

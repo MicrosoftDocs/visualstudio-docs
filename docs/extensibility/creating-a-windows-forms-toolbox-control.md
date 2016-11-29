@@ -2,7 +2,6 @@
 title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -225,4 +224,4 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
- [Windows Forms Control Development Basics](../Topic/Windows%20Forms%20Control%20Development%20Basics.md)
+ [Windows Forms Control Development Basics](http://msdn.microsoft.com/Library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)

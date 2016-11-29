@@ -2,7 +2,6 @@
 title: "Options Page, Text Editor Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -35,7 +34,7 @@ translation.priority.ht:
 # Options Page, Text Editor Node Properties
 This document describes some pages (or properties collections) that are associated with the **Text Editor** category, `DTE.Properties("TextEditor", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the `Properties` collection, and the table in each subsection lists the properties in the collection.  
   
- The Visual Basic macros in [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md) demonstrate how to display current options and their values for each page of the **Options** dialog box.  
+ The Visual Basic macros in [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d) demonstrate how to display current options and their values for each page of the **Options** dialog box.  
   
 ## General  
  `DTE.Properties("TextEditor", "General")`  
@@ -77,7 +76,7 @@ This document describes some pages (or properties collections) that are associat
 |CutCopyBlankLines|Get/Set (Boolean)|Cuts or copies blank lines when they are selected.|  
   
 ## See Also  
- [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
- [Determining the Names of Property Items on Options Pages](../Topic/Determining%20the%20Names%20of%20Property%20Items%20on%20Options%20Pages.md)   
+ [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)

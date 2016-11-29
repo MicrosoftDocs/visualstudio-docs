@@ -14,4 +14,4 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-Visual Studio 2012
+Visual Studio

@@ -2,7 +2,6 @@
 title: "The objects you are adding to the designer use a different data connection than the designer is currently using | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -50,5 +49,5 @@ The objects you are adding to the designer use a different data connection than 
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)

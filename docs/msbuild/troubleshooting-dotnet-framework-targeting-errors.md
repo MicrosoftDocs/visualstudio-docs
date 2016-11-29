@@ -2,7 +2,6 @@
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -69,6 +68,6 @@ This topic describes MSBuild errors that might occur because of reference issues
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md)   
+ [.NET Framework Client Profile](http://msdn.microsoft.com/Library/f0219919-1f02-4588-8704-327a62fd91f1)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -2,7 +2,6 @@
 title: "How to: Create a Nullable Type (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -83,5 +82,5 @@ Certain value types do not always have (or need) a defined value. This is common
  <xref:System.Nullable%601>   
  [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
  [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
- [How to: Identify a Nullable Type](../Topic/How%20to:%20Identify%20a%20Nullable%20Type%20\(C%23%20Programming%20Guide\).md)   
+ [How to: Identify a Nullable Type](http://msdn.microsoft.com/Library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
  [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)

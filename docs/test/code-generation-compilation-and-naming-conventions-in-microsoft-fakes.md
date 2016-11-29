@@ -2,7 +2,6 @@
 title: "Code generation, compilation, and naming conventions in Microsoft Fakes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -145,7 +144,7 @@ This topic discusses options and issues in Fakes code generation and compilation
         PublicKey=<Test_assembly_public_key>)]  
     ```  
   
- If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](../Topic/Creating%20and%20Using%20Strong-Named%20Assemblies.md).  
+ If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).  
   
  The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.  
   

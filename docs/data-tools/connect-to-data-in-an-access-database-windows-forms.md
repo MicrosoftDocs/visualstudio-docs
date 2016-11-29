@@ -2,7 +2,6 @@
 title: "Connect to data in an Access database (Windows Forms) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -127,7 +126,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      The dataset is added to your project, and the tables and views appear in the **Data Sources** window.  
   
 ## Security  
- Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](../Topic/Protecting%20Connection%20Information.md).  
+ Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](http://msdn.microsoft.com/Library/1471f580-bcd4-4046-bdaf-d2541ecda2f4).  
   
 ## Next Steps  
  The dataset that you just created is now available in the **Data Sources** window. You can now perform any of the following tasks:  

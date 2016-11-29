@@ -2,7 +2,6 @@
 title: "Step 9: Try Other Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +38,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Replace the icons and colors with ones you choose.  
   
     > [!TIP]
-    >  Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) property.  
+    >  Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor.aspx) property.  
   
 -   Add a game timer that tracks how long it takes for the player to win.  
   

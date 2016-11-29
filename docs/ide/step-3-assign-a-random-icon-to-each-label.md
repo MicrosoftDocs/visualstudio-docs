@@ -2,7 +2,6 @@
 title: "Step 3: Assign a Random Icon to Each Label | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -60,7 +59,7 @@ If the icons show up in the same cells every game, it's not very challenging. To
   
      Remember, if you're not sure about what some part of the code does, you can position the mouse pointer over a code element and review the resulting tooltip. You can also step through each line of code while the program is running by using the Visual Studio debugger. See [How Do I: Step with The Debugger in Visual Studio?](http://msdn.microsoft.com/vstudio/ee672313.aspx) or [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md) for more information.  
   
-3.  To fill up the game board with icons, you need to call the `AssignIconsToSquares()` method as soon as the program starts. If you're using Visual C#, add a statement just below the call to the `InitializeComponent()` method in the `Form1`*constructor*, so your form calls your new method to set itself up before it's shown. Constructors are called when you create a new object, such as a class or struct. See [Constructors (C# Programming Guide)](http://msdn.microsoft.com/library/ace5hbzh.aspx) or [Using Constructors and Destructors](http://msdn.microsoft.com/library/2z08e49e%28v=vs.90%29.aspx) in Visual Basic for more information.  
+3.  To fill up the game board with icons, you need to call the `AssignIconsToSquares()` method as soon as the program starts. If you're using Visual C#, add a statement just below the call to the `InitializeComponent()` method in the `Form1`*constructor*, so your form calls your new method to set itself up before it's shown. Constructors are called when you create a new object, such as a class or struct. See [Constructors (C# Programming Guide)](http://msdn.microsoft.com/library/ace5hbzh.aspx) or [Using Constructors and Destructors](http://msdn.microsoft.com/library/2z08e49e.aspx) in Visual Basic for more information.  
   
      [!code-cs[VbExpressTutorial4Step2_3_4#13](../ide/codesnippet/CSharp/step-3-assign-a-random-icon-to-each-label_4.cs)]  
   

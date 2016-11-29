@@ -2,7 +2,6 @@
 title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -56,9 +55,7 @@ When trying to do remote debugging, you may get the following error message:
  The safest and best solution is to run the Remote Debugging Monitor (msvsmon.exe) under the same user account as Visual Studio. If you cannot do that, you can run Remote Debugging Monitor under the other account with the **Allow any user to debug** option selected in the Remote Debugging Monitor **Options** dialog box.  
   
 > [!CAUTION]
->  Granting other users permission to connect allows the possibility of accidentally connecting to the wrong remote debugging session. Debugging in **No Authentication** mode is never secure and should be used with caution.  
-  
- For more information, see [Start  the Remote Debugging Monitor](../Topic/Start%20%20the%20Remote%20Debugging%20Monitor.md).  
+>  Granting other users permission to connect allows the possibility of accidentally connecting to the wrong remote debugging session. Debugging in **No Authentication** mode is never secure and should be used with caution.
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   

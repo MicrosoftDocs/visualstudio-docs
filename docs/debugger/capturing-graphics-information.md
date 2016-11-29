@@ -2,7 +2,6 @@
 title: "Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -89,7 +88,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 ## Capturing graphics information remotely  
  Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](../debugger/includes/winblue_client_2_md.md)] machines and [!INCLUDE[winblue_winrt_2](../debugger/includes/winblue_winrt_2_md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
   
- How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Set Up Remote Debugging for a Visual Studio Project](../Topic/Set%20Up%20Remote%20Debugging%20for%20a%20Visual%20Studio%20Project.md).  
+ How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../debugger/remote-debugging.md).  
   
  Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
   

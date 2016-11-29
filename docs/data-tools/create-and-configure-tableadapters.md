@@ -2,7 +2,6 @@
 title: "Create and configure TableAdapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,7 +45,7 @@ TableAdapters provide communication between your application and a database. The
   
 -   Run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) and select either the **Database** or **Web Service** data source type.  
   
--   Drag database objects from [Server Explorer](../Topic/Server%20Explorer.md) into the **Dataset Designer**.  
+-   Drag database objects from [Server Explorer](http://msdn.microsoft.com/Library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) into the **Dataset Designer**.  
   
  You can create a new TableAdapter and configure it with a data source by dragging a TableAdapter from the Toolbox to an empty region in the **Dataset Designer** surface.  
   

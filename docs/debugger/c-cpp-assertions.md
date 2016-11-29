@@ -2,7 +2,6 @@
 title: "C-C++ Assertions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -56,7 +55,7 @@ An assertion statement specifies a condition that you expect to be true at a poi
   
 -   MFC assertions for MFC programs.  
   
--   [ATLASSERT](../Topic/ATLASSERT.md) for programs that use ATL.  
+-   [ATLASSERT](http://msdn.microsoft.com/Library/98e3e0fc-77e2-499b-a6f6-b17a21c6fbd3) for programs that use ATL.  
   
 -   CRT assertions for programs that use the C run-time library.  
   
@@ -105,7 +104,7 @@ ASSERT(nM++ > 0); // Don't do this!
   
 ```  
   
- Because the `ASSERT` expression is not evaluated in the Release version of your program, `nM` will have different values in the Debug and Release versions. To avoid this problem in MFC, you can use the [VERIFY](../Topic/VERIFY.md) macro instead of `ASSERT`.  `VERIFY` evaluates the expression in all versions but does not check the result in the Release version.  
+ Because the `ASSERT` expression is not evaluated in the Release version of your program, `nM` will have different values in the Debug and Release versions. To avoid this problem in MFC, you can use the [VERIFY](http://msdn.microsoft.com/Library/3e1ab4ee-cbc7-4290-a777-c92f42ce7b96) macro instead of `ASSERT`.  `VERIFY` evaluates the expression in all versions but does not check the result in the Release version.  
   
  Be especially careful about using function calls in assertion statements, because evaluating a function can have unexpected side effects.  
   
@@ -171,11 +170,11 @@ _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_MFC_assertions"></a> MFC assertions  
- MFC defines the [ASSERT](../Topic/ASSERT%20\(MFC\).md) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.  
+ MFC defines the [ASSERT](http://msdn.microsoft.com/Library/1e70902d-d58c-4e7b-9f69-2aeb6cbe476c) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.  
   
  If the argument of the MFC `ASSERT` macro evaluates to zero or false, the macro halts program execution and alerts the user; otherwise, execution continues.  
   
- When an assertion fails, a message dialog box shows the name of the source file and the line number of the assertion. If you choose Retry in the dialog box, a call to [AfxDebugBreak](../Topic/AfxDebugBreak%20\(MFC\).md) causes execution to break to the debugger. At that point, you can examine the call stack and use other debugger facilities to determine why the assertion failed. If you have enabled [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md), and the debugger was not already running, the dialog box can launch the debugger.  
+ When an assertion fails, a message dialog box shows the name of the source file and the line number of the assertion. If you choose Retry in the dialog box, a call to [AfxDebugBreak](http://msdn.microsoft.com/Library/c4cd79b9-9327-4db5-a9d6-c4004a92aa30) causes execution to break to the debugger. At that point, you can examine the call stack and use other debugger facilities to determine why the assertion failed. If you have enabled [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md), and the debugger was not already running, the dialog box can launch the debugger.  
   
  The following example shows how to use `ASSERT` to check the return value of a function:  
   
@@ -190,7 +189,7 @@ ASSERT(x >= 0);   //  Assertion fails if x is negative
 ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );  
 ```  
   
- The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](../Topic/VERIFY.md) macro instead of ASSERT.  
+ The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](http://msdn.microsoft.com/Library/3e1ab4ee-cbc7-4290-a777-c92f42ce7b96) macro instead of ASSERT.  
   
 ###  <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID and CObject::AssertValid  
  The [CObject::AssertValid](../Topic/CObject::AssertValid.md) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  

@@ -2,7 +2,6 @@
 title: "Preparing to Debug ASP.NET | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -67,4 +66,4 @@ This section describes how to set up [!INCLUDE[vsprvs](../code-quality/includes/
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [ASP.NET and IIS Configuration](../Topic/ASP.NET%20and%20IIS%20Configuration.md)
+ [ASP.NET and IIS Configuration](http://msdn.microsoft.com/Library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)

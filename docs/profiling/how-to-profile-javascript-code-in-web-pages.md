@@ -2,7 +2,6 @@
 title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,11 +43,7 @@ translation.priority.mt:
 -   Internet Explorer 8 or later.  
   
 > [!WARNING]
->  To profile JavaScript in Windows Store apps, see one of the following topics:  
->   
->  -   [JavaScript Function Timing](../Topic/JavaScript%20Function%20Timing.md) [JavaScript Function Timing on a Remote Device](../Topic/JavaScript%20Function%20Timing%20on%20a%20Remote%20Device.md)  
-> -   [Analyze JavaScript Function Timing data](../Topic/Analyze%20JavaScript%20Function%20Timing%20data.md)  
-> -  
+>  To profile JavaScript in Windows Store apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
   
  You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.  
   

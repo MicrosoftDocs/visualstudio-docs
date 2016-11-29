@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -108,7 +107,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     > [!NOTE]
     >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
   
-3.  Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
 4.  The InheritanceWalkthrough project is created and added to **Solution Explorer**.  
   
@@ -201,5 +200,5 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
  [How to: Add LINQ to SQL Classes to a Project (O-R Designer)](../Topic/How%20to:%20Add%20LINQ%20to%20SQL%20Classes%20to%20a%20Project%20\(O-R%20Designer\).md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [How to: Generate the Object Model in Visual Basic or C#](../Topic/How%20to:%20Generate%20the%20Object%20Model%20in%20Visual%20Basic%20or%20C%23.md)
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
+ [How to: Generate the Object Model in Visual Basic or C#](http://msdn.microsoft.com/Library/a0c73b33-5650-420c-b9dc-f49310c201ee)

@@ -2,7 +2,6 @@
 title: "Error: Remote machine does not appear in a Remote Connections dialog | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,4 +50,4 @@ If the remote machine does not appear in the Remote Connections dialog, check th
 -   Antivirus software is blocking communication between Visual Studio and the remote machine. To fix this, configure antivirus software to allow Visual Studio and the remote debugger (msvsmon) to communicate.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)
+ [Remote Debugging](../debugger/remote-debugging.md)

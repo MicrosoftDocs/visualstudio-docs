@@ -2,7 +2,6 @@
 title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,10 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Shell [Visual Studio], shell-based applications%2C isolated mode"
+  - "Shell [Visual Studio], shell-based applications, isolated mode"
   - "Visual Studio shell, isolated mode"
   - "isolated shell-based applications [Visual Studio]"
-  - "Visual Studio shell, shell-based applications%2C isolated mode"
+  - "Visual Studio shell, shell-based applications, isolated mode"
   - "Shell [Visual Studio], isolated mode"
 ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 35

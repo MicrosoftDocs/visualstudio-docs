@@ -2,7 +2,6 @@
 title: "Walkthrough: Building an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -239,7 +238,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
-#### To specify a release build for Visual C#  
+#### To specify a release build for Visual C# #
   
 1.  Open the **Project Designer**.  
   
@@ -267,6 +266,6 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  Congratulations: you’ve successfully completed this walkthrough.  
   
 ## See Also  
- [Walkthrough: Building a Project (C++)](../Topic/Walkthrough:%20Building%20a%20Project%20\(C++\).md)   
+ [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/Library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
  [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
  [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)

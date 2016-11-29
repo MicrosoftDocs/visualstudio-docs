@@ -2,7 +2,6 @@
 title: "CA2215: Dispose methods should call base class dispose | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -69,4 +68,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.IDisposable?displayProperty=fullName>   
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

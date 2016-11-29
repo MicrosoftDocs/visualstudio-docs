@@ -2,7 +2,6 @@
 title: "Options Page, Environment Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -172,8 +171,8 @@ This document describes the pages (or properties collections) that are associate
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|  
   
 ## See Also  
- [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
- [Determining the Names of Property Items on Options Pages](../Topic/Determining%20the%20Names%20of%20Property%20Items%20on%20Options%20Pages.md)   
+ [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

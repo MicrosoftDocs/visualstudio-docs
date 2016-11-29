@@ -2,7 +2,6 @@
 title: "Bind WPF controls to a WCF data service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -63,15 +62,15 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
  Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
--   WCF Data Services. For more information, see [Overview](../Topic/WCF%20Data%20Services%20Overview.md).  
+-   WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/Library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
   
 -   Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].  
   
--   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md).  
+-   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/Library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
 -   Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
+-   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/Library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Create the service project  
  Start this walkthrough by creating a project for a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].  
@@ -336,7 +335,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   
- [Overview](../Topic/WCF%20Data%20Services%20Overview.md)   
- [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md)   
+ [Overview](http://msdn.microsoft.com/Library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)   
+ [Entity Framework Overview](http://msdn.microsoft.com/Library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)   
  [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
- [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)
+ [Data Binding Overview](http://msdn.microsoft.com/Library/c707c95f-7811-401d-956e-2fffd019a211)

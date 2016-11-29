@@ -2,7 +2,6 @@
 title: "Messages View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -65,7 +64,7 @@ Spy++ Messages View
  [Controlling Messages View](../debugger/how-to-control-messages-view.md)  
  Explains how to manage Messages view.  
   
- [Opening Messages View from Find Window](_asug_choosing_message_options)  
+ [Opening Messages View from Find Window](../debugger/how-to-open-messages-view-from-find-window.md)  
  Explains how to open Messages view from the Find Window dialog box.  
   
  [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  

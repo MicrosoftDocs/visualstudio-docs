@@ -2,7 +2,6 @@
 title: "Walkthrough: Writing a Visualizer in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +36,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Walkthrough: Writing a Visualizer in C#
+# Walkthrough: Writing a Visualizer in C# #
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows forms message box. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.  
   
 > [!NOTE]

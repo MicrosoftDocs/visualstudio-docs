@@ -2,7 +2,6 @@
 title: "Navigating through Code with the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -114,11 +113,20 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 -   **Run to the cursor location**  
   
-     To run to the cursor location, place the cursor on an executable line of code in a source window. On the editor's context menu (right-click in the editor), choose **Run to Cursor**. This is like setting a temporary breakpoint.  
+     To run to the cursor location, place the cursor on an executable line of code in a source window. On the editor's context menu (right-click in the editor), choose **Run to Cursor**. This is like setting a temporary breakpoint.
+
+-   **Run to Click** 
+
+    To run to a point in your code while paused in the debugger, select the **Run execution to here** green arrow icon (you see the icon while hovering over a line of code). This eliminates the need to set temporary breakpoints.
+
+    ![Debugger's Run to Click](../debugger/media/dbg-run-to-click.png "DbgRunToClick") 
+
+    > [!NOTE]
+    > **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
   
 -   **Manually break into code**  
   
-     To break into the next available line of code in an executing app, choose **Debug**, **Break All** (keyboard: **Ctrl+Alt+Break**).  
+     To break into the next available line of code in an executing app, choose **Debug**, **Break All** (keyboard: **Ctrl+Alt+Break**). 
   
      If you break while executing code without corresponding source or symbol (.pdb) files), the debugger displays a **Source Files Not Found** or a **Symbols Not Found** page that can help you find the appropriate files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't access the supporting files, you can still debug the assembly instructions in the Disassembly window.  
   
@@ -141,7 +149,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 ##  <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow  
  While the debugger is paused, you can move the instruction pointer to set the next statement of code to be executed. A yellow arrowhead in the margin of a source or Disassembly window marks the location of the next statement to be executed. By moving this arrowhead, you can skip over a portion of code or return to a line previously executed. You can use this for situations such as skipping a section of code that contains a known bug.  
   
- ![Example2](../debugger/media/dbg_basics_example2.png "DBG_Basics_Example2")  
+ ![Moving the Pointer](../debugger/media/dbg_basics_example3.gif "DBG_Basics_Example3")
   
  To set the next statement to execute, use one of these procedures:  
   

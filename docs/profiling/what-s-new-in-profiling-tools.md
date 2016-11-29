@@ -2,7 +2,6 @@
 title: "What&#39;s New in Profiling Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -33,27 +32,18 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# What&#39;s New in Profiling Tools
-For information about everything that’s new in Visual Studio 2015 Update 1 debugging and diagnostics, see [Visual Studio 2015 Update 1 Release Notes](https://www.visualstudio.com/news/vs2015-update1-vs#debug).  
-  
- For information about everything that’s new in Visual Studio 2015 debugging and diagnostics, see [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs#Debug).  
-  
-## What's New in Update 1  
- Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. For more information, see [Profile Your CPU in the Debugger in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/profile-your-cpu-in-the-debugger-in-visual-studio-2015.aspx).  
-  
- The **Diagnostic Tools** window has added search and filter options to the **Events** tab. For more information, see [Debugger-integrated profiling](../Topic/Debugger-integrated%20profiling.md) and  [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
-  
-## Diagnostics with debugging UI and hotkey changes  
- You can now run diagnostic tools while debugging with the new **Diagnostic Tools** window. The window appears automatically, but you can also open it with the new menu item **Show Diagnostic Tools** (keyboard shortcut **Ctrl+Alt+F2**).  
-  
-## Diagnostics without debugging UI and hotkey changes  
- To run diagnostics without debugging, go to **Debug / Start Diagnostics tools Without Debugging** or **Debug / Profiler / Performance Profiler...**. In Visual Studio 2013, this was found in **Analyze / Performance and Diagnostics** or **Debug / Performance and Diagnostics**.  
-  
- The **Performance Explorer** can now be found in **Debug / Profiler / Performance Explorer**. In Visual Studio 2013 it was found in **Analyze / Profiler**.  
-  
- The keyboard shortcut for the **Debug / Stop Collection** command (which applies when running **Diagnostics Tools Without Debugging**) has been changed from **CTRL +ALT+F2** in Visual Studio 2013 to **CTRL+SHIFT+F2** in Visual Studio 2015.  
-  
- Windows Phone Application Analysis Tools are available from the **Debug / Profiler / Windows Phone Application Analysis Tools** (or **ALT+F1**).  
+# What's New in Profiling Tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.
+
+For additional information, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#debuggingdiag).
+
+A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application Insights](https://azure.microsoft.com/en-us/documentation/articles/app-insights-visual-studio/) or [UI Analysis](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#UIAnalysis) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
+
+![Diagnostics Tools Summary Tab](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
+
+The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Performance-Profiling.md) to help you identify the functions that are most likely to be causing performance issues. The new **Caller/Callee** view allows you to investigate costs of function calls made to and from a selected function.
+
+![Diagnostics Tools Caller Callee View](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)

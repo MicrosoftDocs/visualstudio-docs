@@ -2,7 +2,6 @@
 title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -60,6 +59,5 @@ This error occurs when the user who is trying to run the Visual Studio Remote De
     -   At the Command Prompt, run `runas.exe`.  
   
 ## See Also  
- [Remote Debugging Across Domains](../Topic/Remote%20Debugging%20Across%20Domains.md)   
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

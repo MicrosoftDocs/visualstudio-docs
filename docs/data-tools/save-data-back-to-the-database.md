@@ -2,7 +2,6 @@
 title: "Save data back to the database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -229,12 +228,12 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
 -   In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
--   In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](../Topic/User%20Input%20Validation%20in%20Windows%20Forms.md).  
+-   In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/Library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
   
 -   In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
   
     > [!IMPORTANT]
-    >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](../Topic/Script%20Exploits%20Overview.md).  
+    >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
  After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
   

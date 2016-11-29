@@ -2,7 +2,6 @@
 title: "JavaScript Console commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,7 +41,7 @@ translation.priority.mt:
 # JavaScript Console commands
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](../Topic/Debug%20Your%20App%20Built%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
+ You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
   
  If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.  
   

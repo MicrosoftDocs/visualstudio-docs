@@ -2,7 +2,6 @@
 title: "Options Page, Fonts and Colors Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -55,7 +54,7 @@ This document describes font and color properties for a tool window that is regi
 |FontSize|Get/Set (Short)|The size of font to use, in points. For example, 10 or 12.|  
   
 ## See Also  
- [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
- [Determining the Names of Property Items on Options Pages](../Topic/Determining%20the%20Names%20of%20Property%20Items%20on%20Options%20Pages.md)   
+ [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)

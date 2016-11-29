@@ -2,7 +2,6 @@
 title: "Message Search Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -58,7 +57,7 @@ Use this dialog box to find and select the node for a specific message in [Messa
  [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  
  Explains how to find a specific message in Messages view.  
   
- [Opening Messages View from Find Window](_asug_choosing_message_options)  
+ [Opening Messages View from Find Window](../debugger/how-to-open-messages-view-from-find-window.md)  
  Explains how to open Messages view from the Find Window dialog box.  
   
  [Messages View](../debugger/messages-view.md)  

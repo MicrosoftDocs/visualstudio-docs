@@ -2,7 +2,6 @@
 title: "Configuring Warnings in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -131,7 +130,6 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
  ID: 42029, 42031  
   
 ## See Also  
- [Exception Assistant Dialog Box](../debugger/exception-assistant-dialog-box.md)   
  [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
  [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
  [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn)   
