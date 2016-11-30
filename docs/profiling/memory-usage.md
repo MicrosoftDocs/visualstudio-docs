@@ -42,7 +42,7 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
   
  Although you can collect memory snapshots at any time in the **Memory Usage** tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminates the noise from the code that doesn’t interest you and can significantly reduce the amount of time it takes you to diagnose an issue.  
   
- You can also use the memory tool outside of the debugger. See [Memory Usage without Debugging](../Topic/Memory%20Usage%20without%20Debugging1.md).  
+ You can also use the memory tool outside of the debugger. See [Memory Usage without Debugging](../profiling/memory-usage-without-debugging2.md).  
   
 > [!NOTE]
 >  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/visual-cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  

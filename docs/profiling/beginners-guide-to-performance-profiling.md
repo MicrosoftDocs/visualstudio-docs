@@ -155,7 +155,7 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
-> If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../debugger/How-to-Reference-Windows-Symbol-Information.md).
+> If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pbd-and-source-files-in-the-visual-studio-debugger.md).
   
 ## See Also  
  [[Memory Usage](../profiling/memory-usage.md)

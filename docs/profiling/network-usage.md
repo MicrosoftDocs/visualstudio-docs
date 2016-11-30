@@ -85,6 +85,6 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 3.  The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript and TypeScript response payloads by increasing the readability of the content.  
   
 ## See Also  
- [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md)   
+ [Run Profiling Tools with or without the Debugger](../debugger/running-profiling-tools-with-or-without-the-debugger.md)
  [Visual Studio blog: Introducing Visual Studio’s network inspector](http://go.microsoft.com/fwlink/?LinkId=535022)   
  [Channel 9 Video: VS Diagnostics tools – New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
