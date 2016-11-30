@@ -43,7 +43,7 @@ For reasons of security you should run Visual Studio as a normal user whenever p
   
 |Area|Task|For more information|  
 |----------|----------|--------------------------|  
-|Installation|Installing Visual Studio.|[Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)|  
+|Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|  
 ||Upgrading from a trial edition of Visual Studio.|[How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)|  
 ||Installing, updating, or removing local Help content.|[Install and Manage Local Content](../ide/install-and-manage-local-content.md)|  
 |Application types|Developing solutions for SharePoint 2010.|[Requirements for Developing SharePoint Solutions](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
@@ -82,4 +82,4 @@ For reasons of security you should run Visual Studio as a normal user whenever p
   
 ## See Also  
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
- [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)
+ [Install Visual Studio](../install/install-visual-studio.md)

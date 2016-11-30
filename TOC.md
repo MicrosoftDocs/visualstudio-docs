@@ -3541,7 +3541,7 @@
 # [Concurrency Namespace (Concurrency Visualizer)](VS_IDE/Concurrency-Namespace--Concurrency-Visualizer-.md)
 # [Installing Multiple Language Versions of Visual Studio](VS_Installing/Installing-Multiple-Language-Versions-of-Visual-Studio.md)
 # [Microsoft Language Interface Packs (LIPs) and Visual Studio](VS_Installing/Microsoft-Language-Interface-Packs--LIPs--and-Visual-Studio.md)
-# [Installing Visual Studio 2015](VS_Installing/Installing-Visual-Studio-2015.md)
+# [Install Visual Studio](VS_Installing/install-visual-studio.md)
 # [How to: Automatically apply product keys when deploying Visual Studio](VS_Installing/How-to--Automatically-apply-product-keys-when-deploying-Visual-Studio.md)
 # [How to: Install a Specific Release of Visual Studio](VS_Installing/How-to--Install-a-Specific-Release-of-Visual-Studio.md)
 # [Visual Studio Lifecycle Policy Exceptions](VS_Installing/Visual-Studio-Lifecycle-Policy-Exceptions.md)
