@@ -96,4 +96,4 @@ As updates become available for Visual Studio 2017 RC, you can run the `--layout
  ## See Also
  * [Install Visual Studio](install-visual-studio.md)
  * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017)
+ * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

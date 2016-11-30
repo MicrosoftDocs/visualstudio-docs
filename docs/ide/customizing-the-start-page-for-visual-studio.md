@@ -60,7 +60,7 @@ You can customize the start page for Visual Studio in several default ways, such
 
     -   Create your own start page if you've installed the Visual Studio SDK.  
 
-         See [Creating Your Own Start Page](../misc/creating-your-own-start-page.md).  
+         See [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md).  
 
 2.  On the menu bar, choose **Tools**, **Options**.  
 
@@ -73,4 +73,3 @@ You can customize the start page for Visual Studio in several default ways, such
 
 ## See Also  
  [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
- [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)

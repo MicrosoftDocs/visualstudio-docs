@@ -70,4 +70,4 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 
  * [Install Visual Studio](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017)
+ * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

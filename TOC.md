@@ -4987,7 +4987,6 @@
 # [Range specified for 'Case' statement is not valid](VS_not_in_toc/Range-specified-for--Case--statement-is-not-valid.md)
 # [The targeted version of the Visual Basic runtime library does not support modules.](VS_not_in_toc/The-targeted-version-of-the-Visual-Basic-runtime-library-does-not-support-modules..md)
 # [The dependency 'file' cannot be found](VS_not_in_toc/The-dependency--file--cannot-be-found.md)
-# [Creating Your Own Start Page](VS_not_in_toc/Creating-Your-Own-Start-Page.md)
 # [Attribute specifier is not a complete statement](VS_not_in_toc/Attribute-specifier-is-not-a-complete-statement.md)
 # [Bad GUID format](VS_not_in_toc/Bad-GUID-format.md)
 # ['AddHandler' declaration must end with a matching 'End AddHandler'](VS_not_in_toc/-AddHandler--declaration-must-end-with-a-matching--End-AddHandler-.md)
