@@ -63,4 +63,4 @@ The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cp
   
 ## See Also  
  [Dia2dump.cpp Source File](../../debugger/debug-interface-access/dia2dump-cpp-source-file.md)   
- [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+ [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
