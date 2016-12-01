@@ -63,4 +63,4 @@ HRESULT get_inlSpec(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [inline, __inline, \__forceinline](../../../cpp/cpp/inline-functions-cpp.md)
+ [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp.md)
