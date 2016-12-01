@@ -374,4 +374,4 @@ if (performance.mark && performance.measure) {
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
 ## See Also  
- [Analyze app performance](../Topic/Analyze%20the%20performance%20of%20Windows%20Store%20apps%20using%20Visual%20Studio%20diagnostic%20tools.md)
+ [Profiling Tools](../profiling/profiling-tools.md)

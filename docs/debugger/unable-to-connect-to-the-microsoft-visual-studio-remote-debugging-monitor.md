@@ -40,7 +40,7 @@ translation.priority.mt:
 This error message appears when you enter an invalid Visual Studio Remote Debugging Monitor name in the **Attach to Process** dialog box. The Remote Debugging Monitor name is usually the same as the machine you are attempting to connect to for remote debugging. This message may occur because the remote machine does not exist on the network, the remote debugging monitor is not properly set up on the remote machine, or the remote machine is inaccessible due to network problems or the presence of a firewall.  
   
 > [!IMPORTANT]
->  If you believe you have received this message because of a product bug, please report this issue to Visual Studio [Send a Smile](../Topic/Visual%20Studio%20Send%20a%20Smile%20Instructions.md). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.  
+>  If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio-2017.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
   
 ## I got this message while I was debugging locally  
  If you are getting this message while you are debugging locally, your anti-virus software or a third-party firewall may be to blame. Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The two processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.  

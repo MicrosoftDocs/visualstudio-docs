@@ -58,7 +58,5 @@ The Marks view displays sampling and ETW events that were inserted into the appl
   
 ## See Also  
  [Performance Report Overview](../profiling/performance-report-overview.md)   
- [<PAVE_OVER> How to: Configure Profiling Marks](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Configure%20Profiling%20Marks.md)   
- [<PAVE_OVER> How to: Insert Marks in a Profiler Data File](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Insert%20Marks%20in%20a%20Profiler%20Data%20File.md)   
  [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)   
  [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)
