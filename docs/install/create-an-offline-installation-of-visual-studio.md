@@ -2,7 +2,7 @@
 title: "Create an Offline Installation of Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
-ms.date: "11/18/2016"
+ms.date: "11/30/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -37,6 +37,9 @@ translation.priority.mt:
 
 ## Create a layout
 You can create an offline installation layout that contains all the files you need to install [Visual Studio 2017 RC](https://www.visualstudio.com/vs/visual-studio-2017-rc/) without requiring Internet access.  
+
+> [!WARNING]
+> Currently, the Android SDK does not support an offline installation experience. If you install Android SDK Setup items on a computer that is not connected to the internet, the installation might fail. For more information about this, go to the [Troubleshoot an offline installation](#tshootofflineinstall) section in this topic.
 
 #### To create an offline installation layout of Visual Studio
 1. Download the Visual Studio setup executable file to a drive on your local machine.
@@ -88,7 +91,14 @@ You can create an offline installation layout that contains all the files you ne
 > The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
 
 ## Update an installation layout
-As updates become available for Visual Studio 2017 RC, you can run the `--layout` command again, pointing to the same layout folder, to  ensure that the folder contains the latest components. Only those components that have been updated since the last time `--layout` was run will be downloaded.
+As updates become available for Visual Studio 2017 RC, you can run the `--layout` command again, pointing to the same layout folder, to ensure that the folder contains the latest components. Only those components that have been updated since the last time `--layout` was run will be downloaded.
+
+## <a id="tshootofflineinstall"> </a>Troubleshoot an installation layout
+When you install offline from your offline install cache, you might see warning messages about not being able to install some components and packages. The following table includes possible solutions for these scenarios.
+
+| Component or Package | Solution |
+| -------------------- | -------- |
+|Android SDK Setup (API Level)| You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio: <br><br> - http://dl.google.com:443 <br>- http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio 2015 install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
 
  > [!IMPORTANT]
  > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
