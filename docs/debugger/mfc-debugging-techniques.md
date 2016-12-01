@@ -247,7 +247,7 @@ Total allocations: 67 bytes
  In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.  
   
 > [!NOTE]
->  Before you can use MFC object dumping, you must [enable diagnostic tracing](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_Memory_Diagnostics).  
+>  Before you can use MFC object dumping, you must [enable diagnostic tracing](BKMK_Enabling_memory_diagnostics).  
   
 > [!NOTE]
 >  MFC automatically dumps all leaked objects when your program exits, so you do not need to create code to dump objects at that point.  
