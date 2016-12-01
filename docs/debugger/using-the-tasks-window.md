@@ -71,7 +71,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 |**Thread Assignment**|The ID and name of the thread on which the task is running.|  
 |**Return Status**|The status of the task when it completed. The return status values are **Success**, **Cancelled**, and **Error**.|  
 |**AppDomain**|For managed code, the application domain in which the task is executing.|  
-|**task_group**|For native code, the address of the [task_group](cpp/parallel/concrt/reference/task-group-class.mdd) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
+|**task_group**|For native code, the address of the [task_group](/cpp/parallel/concrt/reference/task-group-class.mdd) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
 |Process|The ID of the process that the task is running on.|  
 |Async State|For managed code, the task status. By default, this column is hidden. To display this column, open the context menu for one of the column headers. Choose **Columns**, **AsyncState**.|  
   
