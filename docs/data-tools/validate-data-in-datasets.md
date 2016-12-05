@@ -2,7 +2,6 @@
 title: "Validate data in datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -57,7 +56,7 @@ Validating data is the process of confirming that the values being entered into 
   
 -   By creating your own application-specific validation that can check data to values while an entire data row is changing. For more information, see [How to: Validate Data During Row Changes](../Topic/How%20to:%20Validate%20Data%20During%20Row%20Changes.md).  
   
--   By creating keys, unique constraints, and so on as part of the actual schema definition of the dataset. For more information about incorporating validation into the schema definition, see [Constraining a DataColumn to Contain Unique Values](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md#SpecifyUniqueConstraint).  
+-   By creating keys, unique constraints, and so on as part of the actual schema definition of the dataset. For more information about incorporating validation into the schema definition, see [Constraining a DataColumn to Contain Unique Values](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md).  
   
 -   By setting the properties of the <xref:System.Data.DataColumn> object's,  such as <xref:System.Data.DataColumn.MaxLength%2A>, <xref:System.Data.DataColumn.AllowDBNull%2A>, and <xref:System.Data.DataColumn.Unique%2A>.  
   
@@ -104,7 +103,7 @@ Validating data is the process of confirming that the values being entered into 
   
 -   Reject the proposed value by setting the column error (<xref:System.Data.DataRow.SetColumnError%2A>) from within the column-changing event handler.  
   
--   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](../Topic/ErrorProvider%20Component%20\(Windows%20Forms\).md).  
+-   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](http://msdn.microsoft.com/Library/c0f2e231-c5c9-413d-a507-75af2db499b6).  
   
  Validation can also be performed during the <xref:System.Data.DataTable.RowChanging> event. For more information, see [How to: Validate Data During Row Changes](../Topic/How%20to:%20Validate%20Data%20During%20Row%20Changes.md).  
   
@@ -226,5 +225,5 @@ Validating data is the process of confirming that the values being entered into 
 ## See Also  
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [How to: Validate Data in the Windows Forms DataGridView Control](../Topic/How%20to:%20Validate%20Data%20in%20the%20Windows%20Forms%20DataGridView%20Control.md)   
- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](../Topic/How%20to:%20Display%20Error%20Icons%20for%20Form%20Validation%20with%20the%20Windows%20Forms%20ErrorProvider%20Component.md)
+ [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/Library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
+ [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/Library/3b681a32-9db4-497b-a34b-34980eabee46)

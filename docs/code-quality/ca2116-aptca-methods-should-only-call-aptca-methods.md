@@ -2,7 +2,6 @@
 title: "CA2116: APTCA methods should only call APTCA methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,7 +46,7 @@ translation.priority.ht:
  A method in an assembly with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute?displayProperty=fullName> attribute calls a method in an assembly that does not have the attribute.  
   
 ## Rule Description  
- By default, public or protected methods in assemblies with strong names are implicitly protected by a [Link Demands](../Topic/Link%20Demands.md) for full trust; only fully trusted callers can access a strong-named assembly. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the link demand, making the assembly accessible to callers that do not have full trust, such as code executing from an intranet or the Internet.  
+ By default, public or protected methods in assemblies with strong names are implicitly protected by a [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) for full trust; only fully trusted callers can access a strong-named assembly. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the link demand, making the assembly accessible to callers that do not have full trust, such as code executing from an intranet or the Internet.  
   
  When the APTCA attribute is present on a fully trusted assembly, and the assembly executes code in another assembly that does not allow partially trusted callers, a security exploit is possible. If two methods `M1` and `M2` meet the following conditions, malicious callers can use the method `M1` to bypass the implicit full trust link demand that protects `M2`:  
   
@@ -88,9 +87,9 @@ translation.priority.ht:
  [CA2117: APTCA types should only extend APTCA base types](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)  
   
 ## See Also  
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
+ [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)   
  [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/en-us/a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
- [Using Libraries from Partially Trusted Code](../Topic/Using%20Libraries%20from%20Partially%20Trusted%20Code.md)   
+ [Using Libraries from Partially Trusted Code](http://msdn.microsoft.com/Library/dd66cd4c-b087-415f-9c3e-94e3a1835f74)   
  [Demands](http://msdn.microsoft.com/en-us/e5283e28-2366-4519-b27d-ef5c1ddc1f48)   
- [Link Demands](../Topic/Link%20Demands.md)   
- [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)
+ [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)   
+ [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6)

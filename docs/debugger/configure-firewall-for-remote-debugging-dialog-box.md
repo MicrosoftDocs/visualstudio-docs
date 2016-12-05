@@ -2,7 +2,6 @@
 title: "Configure Firewall for Remote Debugging Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -60,5 +59,5 @@ This dialog box appears when the Windows Firewall blocks the debugger from recei
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)   
+ [Remote Debugging](../debugger/remote-debugging.md)
  [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

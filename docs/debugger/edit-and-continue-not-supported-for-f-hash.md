@@ -2,7 +2,6 @@
 title: "Edit and Continue Not Supported for F# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,5 +36,5 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Edit and Continue Not Supported for F#
+# Edit and Continue Not Supported for F# #
 Edit and Continue is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes are not applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that does not match the code being debugged.

@@ -2,7 +2,6 @@
 title: "Type Collection Editor Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,7 +32,7 @@ translation.priority.ht:
 The **Type Collection Editor** dialog box is used to add known types to the **Send** and **Receive** activities. This dialog is also used to add generic type arguments to the **InvokeMethod** activity. When used for the **Send** and **Receive** activities to add known types, the **Type Collection Editor** dialog box requires the type additions to be unique. If a duplicate type is added and the change is committed by clicking **OK**, an error message is returned. When used for the **InvokeMethod** activity to add generic type arguments, the **Type Collection Editor** dialog box allows the addition of duplicate types.  
   
 > [!NOTE]
->  [!INCLUDE[crabout](../test/includes/crabout_md.md)] known types, see [Data Contract Known Types](../Topic/Data%20Contract%20Known%20Types.md).  
+>  [!INCLUDE[crabout](../test/includes/crabout_md.md)] known types, see [Data Contract Known Types](http://msdn.microsoft.com/Library/1a0baea1-27b7-470d-9136-5bbad86c4337).  
   
  The following table describes the user interface (UI) elements of the **Type Collection** dialog box.  
   

@@ -2,7 +2,6 @@
 title: "Context Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -77,4 +76,4 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)   
- [Context Parameters for Launching Wizards](../Topic/Context%20Parameters%20for%20Launching%20Wizards.md)
+ [Context Parameters for Launching Wizards](http://msdn.microsoft.com/Library/051a10f4-9e45-4604-b344-123044f33a24)

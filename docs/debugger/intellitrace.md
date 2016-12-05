@@ -2,7 +2,6 @@
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -67,7 +66,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../Topic/Walkthrough:%20Debugging%20a%20SharePoint%20Application%20by%20Using%20IntelliTrace.md).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=262248).|  
+|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=262248).|  
 |**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|  
   
@@ -156,7 +155,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
     -   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
-    -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../Topic/Walkthrough:%20Debugging%20a%20SharePoint%20Application%20by%20Using%20IntelliTrace.md)  
+    -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
   
  **Collecting function call information**  
   

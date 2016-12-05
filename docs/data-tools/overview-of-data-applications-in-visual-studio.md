@@ -2,7 +2,6 @@
 title: "Overview of Data Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -97,7 +96,7 @@ This section provides information and preparatory instructions for working with 
  [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)  
  Provides links to topics about how to use Visual Studio features create n-tier applications.  
   
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](http://msdn.microsoft.com/Library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
  [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  

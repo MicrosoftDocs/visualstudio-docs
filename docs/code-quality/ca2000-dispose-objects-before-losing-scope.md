@@ -2,7 +2,6 @@
 title: "CA2000: Dispose objects before losing scope | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -63,10 +62,10 @@ translation.priority.ht:
   
 -   Nesting constructors that are protected only by one exception handler. For example,  
   
-    ```  
+    ```cs
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
     { ... }  
-    ```  
+    ```
   
      causes CA2000 to occur because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.  
   
@@ -94,11 +93,78 @@ translation.priority.ht:
  The `tempPort` is constructed and opened in a `try` block, and any other required work is performed in the same `try` block. At the end of the `try` block, the opened port is assigned to the `port` object that will be returned and the `tempPort` object is set to `null`.  
   
  The `finally` block checks the value of `tempPort`. If it is not null, an operation in the method has failed, and `tempPort` is closed to make sure that any resources are released. The returned port object will contain the opened SerialPort object if the operations of the method succeeded, or it will be null if an operation failed.  
-  
- [!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope_1.vb)]
- [!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope_1.vb)]
- [!code-cs[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/CSharp/ca2000-dispose-objects-before-losing-scope_1.cs)]  
-  
+
+```cs
+public SerialPort OpenPort1(string portName)
+{
+   SerialPort port = new SerialPort(portName);
+   port.Open();  //CA2000 fires because this might throw
+   SomeMethod(); //Other method operations can fail
+   return port;
+}
+
+public SerialPort OpenPort2(string portName)
+{
+   SerialPort tempPort = null;
+   SerialPort port = null;
+   try
+   {
+      tempPort = new SerialPort(portName);
+      tempPort.Open();
+      SomeMethod();
+      //Add any other methods above this line
+      port = tempPort;
+      tempPort = null;
+      
+   }
+   finally
+   {
+      if (tempPort != null)
+      {
+         tempPort.Close();
+      }
+   }
+   return port;
+}
+```
+
+```vb
+Public Function OpenPort1(ByVal PortName As String) As SerialPort
+
+   Dim port As New SerialPort(PortName)
+   port.Open()    'CA2000 fires because this might throw
+   SomeMethod()   'Other method operations can fail
+   Return port
+
+End Function
+
+
+Public Function OpenPort2(ByVal PortName As String) As SerialPort
+
+   Dim tempPort As SerialPort = Nothing
+   Dim port As SerialPort = Nothing
+
+   Try
+      tempPort = New SerialPort(PortName)
+      tempPort.Open()
+      SomeMethod()
+      'Add any other methods above this line
+      port = tempPort
+      tempPort = Nothing
+
+   Finally
+      If Not tempPort Is Nothing Then
+         tempPort.Close()
+      End If
+
+
+   End Try
+
+   Return port
+
+End Function
+```
+ 
 ## Example  
  By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler has all arithmetic operators check for overflow. Therefore, any Visual Basic arithmetic operation might throw an <xref:System.OverflowException>. This could lead to unexpected violations in rules such as CA2000. For example, the following CreateReader1 function will produce a CA2000 violation because the Visual Basic compiler is emitting an overflow checking instruction for the addition that could throw an exception that would cause the StreamReader not to be disposed.  
   
@@ -106,8 +172,8 @@ translation.priority.ht:
   
  To disable the emitting of overflow checks, right-click the project name in Solution Explorer and then click **Properties**. Click **Compile**, click **Advanced Compile Options**, and then check **Remove integer overflow checks**.  
   
- <!-- FIXME [!CODE [FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope.VBOverflow#1](FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope.VBOverflow#1)]-->  
-  
+  [!code-vb[FxCop.Reliability.CA2000.DisposeObjectsBeforeLosingScope#1](../code-quality/codesnippet/VisualBasic/ca2000-dispose-objects-before-losing-scope-vboverflow_1.vb)]
+
 ## See Also  
  <xref:System.IDisposable>   
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

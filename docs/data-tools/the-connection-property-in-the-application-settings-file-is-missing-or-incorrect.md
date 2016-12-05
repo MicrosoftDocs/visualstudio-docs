@@ -2,7 +2,6 @@
 title: "The connection property in the Application Settings file is missing or incorrect | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,4 +40,4 @@ The connection property in the Application Settings file is missing or incorrect
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [NIB: How to: Add or Remove Application Settings](http://msdn.microsoft.com/en-us/a233965c-126d-46ab-add4-efb758f576f4)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)

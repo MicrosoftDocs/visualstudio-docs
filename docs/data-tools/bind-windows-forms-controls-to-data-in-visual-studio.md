@@ -2,7 +2,6 @@
 title: "Bind Windows Forms controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -47,7 +46,7 @@ You can display data to users of your application by binding data to Windows For
   
  ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png "raddata Data Source drag operation")  
   
- For general information about how to create data-bound controls in Visual Studio, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about data binding in Windows Forms, see [Windows Forms Data Binding](../Topic/Windows%20Forms%20Data%20Binding.md).  
+ For general information about how to create data-bound controls in Visual Studio, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about data binding in Windows Forms, see [Windows Forms Data Binding](http://msdn.microsoft.com/Library/c3826d8e-ea25-4ad4-a669-45bfb19192aa).  
   
 ## In this section  
   
@@ -74,17 +73,17 @@ You can display data to users of your application by binding data to Windows For
   
  For more information about the <xref:System.Windows.Forms.BindingSource> component, see:  
   
--   [BindingSource Component](../Topic/BindingSource%20Component.md)  
+-   [BindingSource Component](http://msdn.microsoft.com/Library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)  
   
--   [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md)  
+-   [BindingSource Component Overview](http://msdn.microsoft.com/Library/be838caf-fcb0-4b68-827f-58b2c04b747f)  
   
--   [BindingSource Component Architecture](../Topic/BindingSource%20Component%20Architecture.md)  
+-   [BindingSource Component Architecture](http://msdn.microsoft.com/Library/7bc69c90-8a11-48b1-9336-3adab5b41591)  
   
 ## BindingNavigator control  
- This component provides a user interface for navigating through data displayed by a Windows application. For more information, see [BindingNavigator Control](../Topic/BindingNavigator%20Control%20\(Windows%20Forms\).md).  
+ This component provides a user interface for navigating through data displayed by a Windows application. For more information, see [BindingNavigator Control](http://msdn.microsoft.com/Library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e).  
   
 ## DataGridView control  
- To display and edit tabular data from many different kinds of data sources, use the <xref:System.Windows.Forms.DataGridView> control. You can bind data to a <xref:System.Windows.Forms.DataGridView> by using the <xref:System.Windows.Forms.DataGridView.DataSource%2A> property. For more information, see [DataGridView Control Overview](../Topic/DataGridView%20Control%20Overview%20\(Windows%20Forms\).md).  
+ To display and edit tabular data from many different kinds of data sources, use the <xref:System.Windows.Forms.DataGridView> control. You can bind data to a <xref:System.Windows.Forms.DataGridView> by using the <xref:System.Windows.Forms.DataGridView.DataSource%2A> property. For more information, see [DataGridView Control Overview](http://msdn.microsoft.com/Library/0a45c661-89dc-4390-9cc6-c47eee501488).  
   
 ## See Also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

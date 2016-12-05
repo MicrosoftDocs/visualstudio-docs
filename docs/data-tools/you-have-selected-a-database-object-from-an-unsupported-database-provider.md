@@ -2,7 +2,6 @@
 title: "You have selected a database object from an unsupported database provider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,6 +45,6 @@ The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.m
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [.NET Framework Data Providers](../Topic/.NET%20Framework%20Data%20Providers.md)   
+ [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
+ [.NET Framework Data Providers](http://msdn.microsoft.com/Library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)

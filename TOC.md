@@ -1111,7 +1111,6 @@
 # [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](VS_debugger/Point--Bilinear--Trilinear--and-Anisotropic-Texture-Filtering-Variants.md)
 # [How to: Set Debug and Release Configurations](VS_debugger/How-to--Set-Debug-and-Release-Configurations.md)
 # [IDiaSymbol::get_undecoratedNameEx](VS_debugger/IDiaSymbol--get_undecoratedNameEx.md)
-# [Exception Assistant Dialog Box](VS_debugger/Exception-Assistant-Dialog-Box.md)
 # [IDiaSymbol::get_isPointerBasedOnSymbolValue](VS_debugger/IDiaSymbol--get_isPointerBasedOnSymbolValue.md)
 # [Remote Debugging ASP.NET on a Remote IIS 7.5 Computer](VS_debugger/Remote-Debugging-ASP.NET-on-a-Remote-IIS-7.5-Computer.md)
 # [Error: Web site worker process has been terminated by IIS](VS_debugger/Error--Web-site-worker-process-has-been-terminated-by-IIS.md)

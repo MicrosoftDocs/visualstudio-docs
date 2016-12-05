@@ -2,7 +2,6 @@
 title: "Debug 64-Bit Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -65,10 +64,10 @@ You can debug a 64-bit application that is running on the local computer or on a
   
 -   You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.  
   
--   You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../Topic/How%20to%20Report%20a%20Problem%20with%20Visual%20Studio.md).  
+-   You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/How-to-Report-a-Problem-with-Visual-Studio-2017.md).
   
 ## See Also  
- [64-bit Applications](../Topic/64-bit%20Applications.md)   
+ [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
  [Configuring Programs for 64-Bit](/visual-cpp/build/configuring-programs-for-64-bit-visual-cpp)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)   
  [Using Dump Files](../debugger/using-dump-files.md)   

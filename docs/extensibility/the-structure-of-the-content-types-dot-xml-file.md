@@ -1,8 +1,7 @@
 ---
-title: "The Structure of the Content_types].xml File | Microsoft Docs"
+title: "The Structure of the [Content_types].xml File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -33,7 +32,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# The Structure of the Content_types].xml File
+# The Structure of the [Content_types].xml File
 Contains information about the kinds of content in a VSIX package. Visual Studio uses the [Content_Types].xml file to install the package, but it does not install the file itself.  
   
 > [!NOTE]

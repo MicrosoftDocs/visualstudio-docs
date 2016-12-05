@@ -2,7 +2,6 @@
 title: "CA1806: Do not ignore method results | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -73,38 +72,37 @@ translation.priority.ht:
 ## Example  
  The following example shows a class that ignores the result of calling String.Trim.  
   
- <!--FIXME [!CODE [FxCop.Usage.DoNotIgnoreMethodResults#1](FxCop.Usage.DoNotIgnoreMethodResults#1)]  -->
-  
-## Example  
- The following example fixes the previous violation by assigning the result of String.Trim back to the variable it was called on.  
-  
- <!--FIXME [!CODE [FxCop.Usage.DoNotIgnoreMethodResults2#1](FxCop.Usage.DoNotIgnoreMethodResults2#1)]-->  
-  
-## Example  
- The following example shows a method that does not use an object that it creates.  
-  
-> [!NOTE]
->  This violation cannot be reproduced in Visual Basic.  
-  
  [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_1.cs)]
  [!code-vb[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/VisualBasic/ca1806-do-not-ignore-method-results_1.vb)]
  [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CPP/ca1806-do-not-ignore-method-results_1.cpp)]  
   
 ## Example  
- The following example fixes the previous violation by removing the unnecessary creation of an object.  
+ The following example fixes the previous violation by assigning the result of String.Trim back to the variable it was called on.  
   
  [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_2.cs)]
  [!code-vb[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/VisualBasic/ca1806-do-not-ignore-method-results_2.vb)]
  [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CPP/ca1806-do-not-ignore-method-results_2.cpp)]  
   
 ## Example  
- The following example shows a method that ignores the error code that the native method GetShortPathName returns.  
+ The following example shows a method that does not use an object that it creates.  
   
+> [!NOTE]
+>  This violation cannot be reproduced in Visual Basic.  
+
  [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CPP/ca1806-do-not-ignore-method-results_3.cpp)]
- [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_3.cs)]  
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_3.cs)]   
+  
+## Example  
+ The following example fixes the previous violation by removing the unnecessary creation of an object.  
+
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_4.cs)]
+ [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CPP/ca1806-do-not-ignore-method-results_4.cpp)] 
+
+<!-- Examples don't exist for the below... -->
+<!--
+## Example  
+ The following example shows a method that ignores the error code that the native method GetShortPathName returns.  
   
 ## Example  
  The following example fixes the previous violation by checking the error code and throwing an exception when the call fails.  
-  
- [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CSharp/ca1806-do-not-ignore-method-results_4.cs)]
- [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CPP/ca1806-do-not-ignore-method-results_4.cpp)]
+-->

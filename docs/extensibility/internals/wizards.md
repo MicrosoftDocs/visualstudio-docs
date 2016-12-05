@@ -2,7 +2,6 @@
 title: "Wizards | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -61,7 +60,7 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides links to additional topics that offer information about how to design new project types.  
   
- [Walkthrough: Creating a Wizard](../Topic/Walkthrough:%20Creating%20a%20Wizard.md)  
+ [Walkthrough: Creating a Wizard](http://msdn.microsoft.com/Library/adb41fe9-fcca-4e87-bf4f-bf2fa68e8b06)  
  Illustrates how to create a wizard.  
   
  [Extending Projects](../../extensibility/extending-projects.md)  

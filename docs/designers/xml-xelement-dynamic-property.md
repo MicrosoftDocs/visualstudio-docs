@@ -2,7 +2,6 @@
 title: "Xml (XElement Dynamic Property) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,7 +43,7 @@ elem.Xml
  A <xref:System.String> that represents the unformatted XML content of the element.  
   
 ## Remarks  
- This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString%28System.Xml.Linq.SaveOptions%29> method of the <xref:System.Xml.Linq.XNode?displayProperty=fullName> class, with the `SaveOptions` parameter set to <xref:System.Xml.Linq.SaveOptions>.  
+ This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString(System.Xml.Linq.SaveOptions)> method of the <xref:System.Xml.Linq.XNode?displayProperty=fullName> class, with the `SaveOptions` parameter set to <xref:System.Xml.Linq.SaveOptions>.  
   
 ## See Also  
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   

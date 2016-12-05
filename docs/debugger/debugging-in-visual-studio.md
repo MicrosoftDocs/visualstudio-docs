@@ -2,7 +2,6 @@
 title: "Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,15 +41,15 @@ translation.priority.mt:
 # Debugging in Visual Studio
 The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution of your program to examine your code, examine and edit variables, view registers, see the instructions created from your source code, and view the memory space used by your application.  
   
- For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/features/debugging-and-diagnostics-vs).  
+ For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/vs/debugging-and-diagnostics/).  
   
--   [What’s New for the Debugger in Visual Studio 2015](../debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md) Describes new functionality in Visual Studio 2015.  
+-   [What’s New for the Debugger in Visual Studio](../debugger/what-s-new-for-the-debugger-in-visual-studio.md) Describes new functionality in Visual Studio.  
   
--   [Debugger Windows](../debugger/debugger-windows.md)Lists the different debugger windows.  
+-   [Debugger Windows](../debugger/debugger-windows.md) Lists the different debugger windows.  
   
 -   [Debugger Basics](../debugger/debugger-basics.md) Discusses the fundamentals of using the Visual Studio debugger. Topics include debugging basics, execution control, attaching to a running program, Just-In-Time debugging, launching the debugger automatically, dumps, breakpoints, inspecting your program, handling exceptions, Edit and Continue, and using expressions in the debugger.  
   
--   [More Debugging Features](../debugger/more-debugging-features.md)Describes different debugging features.  
+-   [More Debugging Features](../debugger/more-debugging-features.md) Describes different debugging features.  
   
 -   [Remote Debugging](../debugger/remote-debugging.md) Describes how to set up and use remote debugging.  
   

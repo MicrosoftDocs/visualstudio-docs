@@ -1,9 +1,0 @@
-Imports System
-Imports System.Collections.Generic
-Imports System.Linq
-Imports System.Text
-Imports System.ComponentModel.Composition
-Imports Microsoft.VisualStudio.Language.Intellisense
-Imports Microsoft.VisualStudio.Text
-Imports Microsoft.VisualStudio.Text.Operations
-Imports Microsoft.VisualStudio.Utilities

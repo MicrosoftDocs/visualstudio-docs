@@ -1,1 +1,0 @@
-        public bool accepted = false;

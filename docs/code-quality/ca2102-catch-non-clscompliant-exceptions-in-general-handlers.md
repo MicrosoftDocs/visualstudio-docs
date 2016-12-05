@@ -2,7 +2,6 @@
 title: "CA2102: Catch non-CLSCompliant exceptions in general handlers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -95,6 +94,6 @@ csc /r:ThrowNonClsCompliantException.dll CatchNonClsCompliantException.cs
   
 ## See Also  
  [Exceptions and Exception Handling](/dotnet/csharp/programming-guide/exceptions/exceptions-and-exception-handling)   
- [Ilasm.exe (IL Assembler)](../Topic/Ilasm.exe%20\(IL%20Assembler\).md)   
+ [Ilasm.exe (IL Assembler)](http://msdn.microsoft.com/Library/4ca3a4f0-4400-47ce-8936-8e219961c76f)   
  [Overriding Security Checks](http://msdn.microsoft.com/en-us/4acdeff5-fc05-41bf-8505-7387cdbfca28)   
- [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md)
+ [Language Independence and Language-Independent Components](http://msdn.microsoft.com/Library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

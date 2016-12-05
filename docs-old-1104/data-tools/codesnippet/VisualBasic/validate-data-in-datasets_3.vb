@@ -1,1 +1,0 @@
-        Dim changedRecordsTable As DataTable = dataTable1.GetChanges()

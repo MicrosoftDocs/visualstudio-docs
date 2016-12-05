@@ -2,7 +2,6 @@
 title: "Create custom views of .managed objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -67,4 +66,4 @@ You can customize the way Visual Studio displays data types in debugger variable
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Enhancing Debugging with the Debugger Display Attributes](../Topic/Enhancing%20Debugging%20with%20the%20Debugger%20Display%20Attributes.md)
+ [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/Library/72bb7aa9-459b-42c4-9163-9312fab4c410)

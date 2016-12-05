@@ -2,7 +2,6 @@
 title: "Filter and sort data in a Windows Forms application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -47,7 +46,7 @@ You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter%2
  You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> property to the column name you want to sort on; append `DESC` to sort in descending order, or append `ASC` to sort in ascending order.  
   
 > [!NOTE]
->  If your application does not use <xref:System.Windows.Forms.BindingSource> components, you can filter and sort data by using <xref:System.Data.DataView> objects. For more information, see [DataViews](../Topic/DataViews.md).  
+>  If your application does not use <xref:System.Windows.Forms.BindingSource> components, you can filter and sort data by using <xref:System.Data.DataView> objects. For more information, see [DataViews](http://msdn.microsoft.com/Library/0fe5dfa2-c1cd-435f-90b6-b4dd2e3ef34b).  
   
 ## To filter data by using a BindingSource component  
   

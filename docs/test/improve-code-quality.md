@@ -2,7 +2,6 @@
 title: "Improve Code Quality"
 ms.custom: na
 ms.date: "10/14/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
@@ -60,8 +59,8 @@ What is code quality? Correctness, maintainability, and even elegance are all in
  [Testing the application](../test/test-apps-early-and-often.md)  
  You can use [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] to be more productive throughout the testing life cycle. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] let you plan your testing effort. You can create, manage, edit, and run both manual and automated tests. You can also review your testing progress based on your plan.  
   
- [Build the application](../Topic/Build%20the%20application.md)  
+ [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
  You can use [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] to create and manage automated builds for your code. [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] lets you create drop servers to deploy builds. In addition, you can analyze build trends.  
   
- [Track work using Visual Studio Online or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md)  
+ [Track work using Visual Studio Online or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
  You can use [!INCLUDE[vstsTfsLong](../test/includes/vststfslong_md.md)] to plan and track your projects whether you use the agile process, the formal process, or a variation on those processes. By planning your projects, tracking your progress against the plan, and making necessary adjustments, you can reduce risks, avoid unpleasant surprises, and manage the cost of your projects.

@@ -2,7 +2,6 @@
 title: "Item Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -179,13 +178,28 @@ translation.priority.ht:
     <test>  
         <yes>1</yes>  
     </test>  
-    <i>  
+    <i> 
+        <m>m0</m>
         <m Condition="'%(test.yes)'=='1'">m1</m>  
     </i>  
 </ItemDefinitionGroup>  
+  
 ```  
   
- In this example, item "i" references item "test" in the Condition.  
+In the above example, item "i" references item "test" in its Condition. This Condition will never be true because MSBuild interprets a reference to another item's metadata in an ItemDefinitionGroup as the empty string. Therefore, "m" would be set to "m0."
+ 
+``` 
+  <ItemDefinitionGroup>
+    <i>
+      <m>m0</m>
+      <yes>1</yes>
+      <m Condition="'%(i.yes)'=='1'">m1</m>
+    </i>
+  </ItemDefinitionGroup>
+
+```
+
+In the above example, "m" would be set to the value "m1" as the Condition references item "i"'s metadata value for item "yes." 
   
 ## Overriding and Deleting Metadata  
  Metadata defined in an ItemDefinitionGroup element can be overridden in a later ItemDefinitionGroup element by setting the metadata value to blank. You can also effectively delete a metadata item by setting it to an empty value. For example:  

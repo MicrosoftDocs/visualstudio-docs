@@ -2,7 +2,6 @@
 title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -72,11 +71,11 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
 ## Debugging AJAX Script Applications  
  AJAX-enabled Web applications make heavy use of script code and pose special debugging challenges. For information about AJAX debugging techniques, see  
   
- [Debugging and Tracing Ajax Applications Overview](../Topic/Debugging%20and%20Tracing%20Ajax%20Applications%20Overview.md).  
+ [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/Library/92684ea0-7bb4-4a34-9203-3aa6394ce375).  
   
 ## See Also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [Limitations on Script Debugging](../debugger/limitations-on-script-debugging.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)   
+ [Variable Windows](../debugger/debugger-windows.md)   
  [Immediate Window](../ide/reference/immediate-window.md)   
- [Debugging and Tracing Ajax Applications Overview](../Topic/Debugging%20and%20Tracing%20Ajax%20Applications%20Overview.md)
+ [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/Library/92684ea0-7bb4-4a34-9203-3aa6394ce375)

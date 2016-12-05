@@ -2,7 +2,6 @@
 title: "Change Log (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -32,7 +31,74 @@ translation.priority.mt:
 ---
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
+
+## 2.8 (3.0 Preview)
+ Released 2016-11-17
+
+### New Features  
   
+-   **General:**  
+  
+    -   Added Visual Studio 2017 installer support.
+  
+    -   Added Visual Studio 2017 extension support.
+    
+    -   Added localization support.    
+
+-   **Code Editor:**  
+
+    -   Added C# IntelliSense for Unity messages.
+  
+    -   Added C# code coloration for Unity messages.
+
+-   **Debugger:**  
+
+    -   Added support for `is`, `as`, direct cast, `default`, `new` expressions.
+    
+    -   Added support for string concat expressions.
+    
+    -   Added support for hexadecimal display of integer values.
+    
+    -   Added support for creating new temporary variables (statements).
+    
+    -   Added support for implicit primitive conversions.
+    
+    -   Added better error messages when a type is expected or not found.
+
+-   **Project Generation:**  
+
+    -   Removed the CSharp suffix from the project names.
+    
+    -   Removed reference to a system wide msbuild targets file.
+    
+-   **Wizards:**  
+  
+    -   Added support for Unity messages in non Behaviour types such as Editor or EditorWindow.
+    
+    -   Switched to Roslyn to inject and format Unity messages.
+    
+### Bug fixes  
+  
+-   **Debugger:**  
+  
+    -   Fixed a bug crashing Unity when evaluating generic types.
+    
+    -   Fixed handling of nullable types.
+    
+    -   Fixed handling of enums.
+    
+    -   Fixed handling of nested member types.
+    
+    -   Fixed collection indexer access.
+    
+    -   Fixed support for debugging iterator frames with new C# compiler.
+
+-   **Project Generation:**  
+  
+    -   Fixed bug that prevented compilation when targeting the Unity Web player.
+    
+    -   Fixed bug that prevented compilation when compiling a script with a web encoded file name.
+
 ## 2.3  
  Released 2016-07-14  
   
@@ -171,7 +237,7 @@ Visual Studio Tools for Unity change log.
   
     -   Fixed inspecting empty arrays.  
   
-## 2.0 Preview 2  
+## 1.9.9 (2.0 Preview 2)
  Released 2015-04-02  
   
 ### New features  
@@ -260,7 +326,7 @@ Visual Studio Tools for Unity change log.
   
 -   **UI:** Support Visual Studio themes for context menu and icons.  
   
-## 2.0 Preview  
+## 1.9.8 (2.0 Preview)
  Released 2014-11-12  
   
 ### New features  

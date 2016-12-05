@@ -1,1 +1,0 @@
-                   iconLabel.ForeColor = iconLabel.BackColor;

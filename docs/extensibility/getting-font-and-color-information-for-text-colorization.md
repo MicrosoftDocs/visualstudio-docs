@@ -2,7 +2,6 @@
 title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,6 +56,6 @@ The process that renders or displays colorized text in user interface (UI) eleme
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
- [Using Fonts and Text](../Topic/Using%20Fonts%20and%20Text.md)   
+ [Using Fonts and Text](http://msdn.microsoft.com/Library/d43640f3-da94-4df2-a29d-a9d021a1c069)   
  [Working with Color](/visual-cpp/windows/working-with-color-image-editor-for-icons)   
  [GDI (graphics device interface)](http://msdn.microsoft.com/en-us/7e1d4540-bb2e-4257-8eee-eee376acba83)

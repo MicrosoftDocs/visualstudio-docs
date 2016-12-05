@@ -2,7 +2,6 @@
 title: "Getting Started with C++ in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -66,6 +65,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 2.  In the **Visual C++** category, choose the **Win32 Console Application** template, and then name the project `GreetingsConsoleApp`.  
   
      ![Win32 Console application template](../ide/media/c--ide_newprojectdlg.png "C++IDE_NewProjectDlg")  
+     Your dialog box may have different choices, depending on what you've installed. If you don't see Visual C++ project templates, you need to go back to the installer and install a C++ workload.
   
 3.  When the Win32 Application Wizard appears, choose the **Finish** button.  
   
@@ -92,9 +92,9 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
   
      ![Error text for cout](../ide/media/c--ide_couterror.png "C++IDE_CoutError")  
   
-     The error message also appears in the **Error List** window. You can display the window by, on the menu bar, choosing **View**, **Error List**.  
+     The error message also appears in the **Error List** window. You can display the window by choosing **View**, **Error List** on the menu bar.  
   
-     [cout](../Topic/cout.md) is included in the <iostream> header file.  
+     [cout](/cpp/standard-library/iostream) is included in the \<iostream> header file.  
   
 2.  To include the iostream header, enter the following code after `#include "stdafx.h"`:  
   
@@ -160,7 +160,8 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
  Congratulations on completing this walkthrough! If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
 ## See Also  
- [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
- [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)   
+ [Using the Visual Studio IDE for C++ Desktop Development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)   
+ [Walkthrough: Create a Simple Application with Visual C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
+ [Productivity Tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)   
  [Visual Studio Samples](../ide/visual-studio-samples.md)   
  [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)

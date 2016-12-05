@@ -2,7 +2,6 @@
 title: "Analyze and model your architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -90,4 +89,4 @@ Make sure your app meets user requirements by using Visual Studio architecture a
   
 ## See Also  
  [What's new](../modeling/what-s-new-for-design-in-visual-studio.md)   
- [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md)
+ [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/Library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
