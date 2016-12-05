@@ -57,19 +57,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Create models for your app
-Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support. For example, to describe and communicate user requirements, you can use Unified Modeling Language (UML) use case, activity, class, and sequence diagrams. To describe and communicate the functionality of your system, you can use UML component, class, activity, and sequence diagrams.  
-  
- See [Channel 9 Video: Improve architecture through modeling](http://go.microsoft.com/fwlink/?LinkID=252078).  
-  
- You can create the following UML diagrams in this release:  
-  
-|**Diagram**|**Shows**|  
-|-----------------|---------------|  
-|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)|Flow of work between actions and participants in a business process|  
-|[UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)|Components of a system, their interfaces, ports, and relationships|  
-|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|Types that are used to store and exchange data in the system and their relationships|  
-|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)|Sequences of interactions between objects, components, systems, or actors|  
-|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|User goals and tasks that a system supports|  
+Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
   
  To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -77,21 +65,9 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
   
 |**Diagram**|**Shows**|  
 |-----------------|---------------|  
-|[Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
+|[Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [[Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
 |Code maps<br /><br /> [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br /><br /> [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)|Dependencies and other relationships in existing code|  
 |Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)|Types and their relationships in .NET code|  
-  
-## Common Tasks  
-  
-|**Topic**|**Task**|  
-|---------------|--------------|  
-|[Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)|**Create models** and add diagrams.|  
-|[Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)|**Draw diagrams** to edit the model.|  
-|[Define packages and namespaces](../modeling/define-packages-and-namespaces.md)|**Create packages** to divide a model into units that different team members can work on.|  
-|[Generate code from UML class diagrams](../modeling/generate-code-from-uml-class-diagrams.md)|**Generate C# code from class diagrams** to start your implementation.|  
-|[Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)|**Customize model elements** using stereotypes, to extend the standard UML model elements for specific purposes.|  
-|[Link model elements and work items](../modeling/link-model-elements-and-work-items.md)|**Create links between model elements and work items** to help you track tasks, test cases, bugs, requirements, issues, or other kinds of work that are associated with specific parts of your model.|  
-|[Export diagrams as images](../modeling/export-diagrams-as-images.md)|**Save your model and diagrams** so that you can share them with other users, including those who do not use [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].|  
   
 ## Related Tasks  
   
