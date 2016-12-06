@@ -38,6 +38,8 @@ To visualize your software system's high-level, logical architecture, create a *
   
  A dependency diagram lets you organize Visual Studio solution items into logical, abstract groups called *layers*. You can use layers to describe major tasks that these artifacts perform or the system's major components. Each layer can contain other layers that describe more detailed tasks. You can also specify the intended or existing *dependencies* between layers. These dependencies, which are represented as arrows, show which layers can use or currently use the functionality represented by other layers. To maintain architectural control of the code, show the intended dependencies on the diagram and then validate the code against the diagram.  
   
+ [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4) 
+  
 ##  <a name="CreateDiagram"></a> Create a dependency diagram  
  Before you create a dependency diagram, make sure your solution has a modeling project. 
   
@@ -64,6 +66,24 @@ To visualize your software system's high-level, logical architecture, create a *
     >  The dependency diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.  
   
 5.  Make sure to save both the modeling project and the dependency diagram.  
+
+## Drag and drop, or copy and paste, from a Code Map
+
+1. Generate a Code Map for the solution using the **Architecture** menu. 
+
+2. Consider applying a Code Map filter to remove solution folders and "Test Assets" if you only want to enforce dependencies in product code.
+
+3. On the generated Code Map, remove the "External" node, or expand it to show external assemblies, depending on whether you want to enforce namespace dependencies, and delete non-required assemblies from the Code Map. 
+
+4. Create a new Dependency Diagram for the solution using the **Architecture** menu
+
+5. Select all the nodes on the Code Map (use _Ctrl_ + _A_, or use the rubber band selection by pressing the _Shift_ key before you click, drag, and release.
+
+6. Drag and drop, or a copy and paste, the selected elements to the new Dependency Validation diagram. 
+
+7. This shows the current app architecture. Decide what you want the architecture to be and modify the dependency diagram accordingly.
+
+![Dependency diagram generated from a Code Map](media/dependency-validation-01.png)
   
 ##  <a name="CreateLayers"></a> Create layers from artifacts  
  You can create layers from Visual Studio solution items, such as projects, code files, namespaces, classes, and methods. This automatically creates links between layers and items, including them in the layer validation process.  
@@ -144,7 +164,7 @@ To visualize your software system's high-level, logical architecture, create a *
 -   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
   
 ## See Also  
- [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073)   
+ [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)   
  [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)   
