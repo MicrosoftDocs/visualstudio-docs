@@ -98,7 +98,8 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
 |Code map|||√|√|√|  
 |Class Designer (code-based)||||√||  
   
- To draw dependency diagrams, you must create a modeling project as part of an existing solution or a new one. These diagrams must be created in the modeling project. Items on UML diagrams are part of a common model, and the UML diagrams are views of that model. Items on dependency diagrams are located in the modeling project, but they are not stored in the common model. Code maps and .NET class diagrams created from code exist outside the modeling project.  
+To draw dependency diagrams, you must create a modeling project as part of an existing solution or a new one. These diagrams must be created in the modeling project.
+Items on dependency diagrams are located in the modeling project, but they are not stored in the common model. Code maps and .NET class diagrams created from code exist outside the modeling project.  
   
  See:  
   
@@ -193,7 +194,7 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 |**Diagram**|**Describes**|  
 |-----------------|-------------------|  
-|*Dependency diagram*<br /><br /> See:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|  
+|*Dependency diagram*<br /><br /> See:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|  
   
  For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:  
   
@@ -236,8 +237,6 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 -   [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
--   [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
-  
 -   [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
 -   [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
@@ -257,7 +256,7 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
  See:  
   
--   [Testing the application](/devops-test-docs/test/test-apps-early-and-often)  
+-   [Testing the application](https://www.visualstudio.com/docs/test/overview)  
   
 -   [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   
@@ -348,7 +347,7 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 |**Diagram**|**Describes**|  
 |-----------------|-------------------|  
-|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|  
+|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|  
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|  
   
 ###  <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams  
@@ -416,7 +415,7 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 |**Diagram**|**Description**|  
 |-----------------|---------------------|  
-|Dependency diagram|Define the logical architecture of the system as it relates to classes.<br /><br /> Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> See:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
+|Dependency diagram|Define the logical architecture of the system as it relates to classes.<br /><br /> Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> See:<br /><br /> -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />-   [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />-   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
 |Code map|Visualize the organization and relationships in existing code.<br /><br /> To identify classes, their relationships, and their methods, create a code map that shows those elements.<br /><br /> See:<br /><br /> -   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)|  
   
 ###  <a name="DescribeLayers"></a> Describe the Logical Architecture: dependency Diagrams  

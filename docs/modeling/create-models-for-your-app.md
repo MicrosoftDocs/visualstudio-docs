@@ -51,7 +51,7 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
   
 |**Diagram**|**Shows**|  
 |-----------------|---------------|  
-|[Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [[Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
+|[Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
 |Code maps<br /><br /> [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br /><br /> [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)|Dependencies and other relationships in existing code|  
 |Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)|Types and their relationships in .NET code|  
   

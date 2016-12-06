@@ -61,7 +61,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |Diagram or document|What it describes in a requirements model|Section|  
 |-------------------------|-----------------------------------------------|-------------|  
-|Conceptual class diagram|Glossary of types that are used to describe the requirements; the types visible at the system's interface.|[Defining terms used to describe requirements](#RequirementsClasses)|  
+|Conceptual class diagram|Glossary of types that are used to describe the requirements; the types visible at the system's interface.||  
 |Additional documents or work items|Performance, security, usability and reliability criteria.|[Describing quality of service requirements](#QoSRequirements)|  
 |Additional documents or work items|Constraints and rules not specific to a particular use case|[Showing business rules](#BusinessRules)|  
   

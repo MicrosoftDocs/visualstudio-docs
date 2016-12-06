@@ -55,7 +55,7 @@ To help ensure that your software system or application meets your users' needs,
   
 -   [Architectural Patterns](#BigDecisions). The choices you made about core technologies and architectural elements of the system.  
   
--   [Data Model of the Components and Interfaces](#Data). You can draw class diagrams to describe the information that is passed between components and stored inside the components.  
+-   Data Model of the Components and Interfaces. You can draw class diagrams to describe the information that is passed between components and stored inside the components.  
   
 ##  <a name="Requirements"></a> Understanding the Requirements  
  The high-level design of a complete application is most effectively developed together with a requirements model or other description of the users' needs. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).  
