@@ -1,7 +1,7 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/06/2016"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -105,7 +105,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Learn about universal Windows apps](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx) (Windows Dev Center)|
 |[Build your first one](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows Dev Center)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
-|[Migrate apps to the Universal Windows Platform (UWP)](../misc/migrate-apps-to-the-universal-windows-platform-uwp.md)|
+|[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/en-us/library/mt148501.aspx)|
 
 ##  <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
  ![Devices](../cross-platform/media/homedevices.png "HomeDevices")
@@ -183,6 +183,6 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Learn about Unity](http://unity3d.com/) (Unity website)|
 
 ## See Also
- [Add Office 365 API’s to a Visual Studio project](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
- [Azure Mobile Services](http://msdn.microsoft.com/library/dn720832\(v=vs.110\).aspx)
- [Application Insights](../misc/application-insights-for-visual-studio-online.md)
+ - [Add Office 365 API’s to a Visual Studio project](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
+ - [Azure App Services - Mobile Apps](https://azure.microsoft.com/en-us/services/app-service/mobile/)
+ - [HockeyApp for mobile](https://azure.microsoft.com/en-us/services/hockeyapp/)
