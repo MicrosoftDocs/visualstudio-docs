@@ -138,7 +138,7 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
  Separate data-gathering from text generation  
  Try to avoid mixing computation and text blocks. In each text template, use the first \<# code block #> to set variables and perform complex computations. From the first text block down to the end of the template or the first \<#+ class feature block #>, avoid long expressions, and avoid loops and conditionals unless they contain text blocks. This practice makes the template easier to read and maintain.  
   
- Don’t use `.tt` for include files  
+ Don't use `.tt` for include files  
  Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] recognizes `.tt` files and automatically sets their properties for processing.  
   
  Start each template as a fixed prototype.  
@@ -160,7 +160,7 @@ Team Members:
   
  However, for some kinds of business requirements, it is important to clarify complex sets of relationships and work flows, and diagrams are the best suited medium. An advantage of a diagram is that it is easy to discuss with users and other stakeholders. By generating code from a model at the level of business requirements, you make your code more flexible when the requirements change.  
   
- UML class and activity diagrams can often be adapted for these purposes. You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md) and [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).  
+ You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).  
   
 ## See Also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   

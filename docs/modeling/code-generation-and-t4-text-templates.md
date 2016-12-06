@@ -134,5 +134,4 @@ namespace Fabrikam.FirstJob
  How to write directive processors and custom templating hosts for your own data sources.  
   
 ## See Also  
- [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
