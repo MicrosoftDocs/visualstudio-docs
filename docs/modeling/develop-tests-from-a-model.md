@@ -50,7 +50,7 @@ You can use requirements and architectural models to help you organize the tests
  You can create and maintain a relationship between system tests and a requirements model. To establish this relationship, you write tests that correspond to the main elements of the requirements model. Visual Studio helps you maintain that relationship by letting you create links between the tests and parts of the model. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 ### Write Tests for Each Use Case  
- If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. For more information about use cases, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
+ If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. 
   
  These guidelines might be helpful:  
   
@@ -121,21 +121,8 @@ Assert (countAfter == countBefore = 1);
   
  An invariant rule of this kind governs not only all the use cases that are currently defined, but also any other use cases that will be defined later. Therefore, it is useful to write it separately from any use case, and to test it separately from the use cases.  
   
- You can write an invariant business rule as a comment in a class diagram. For more information, see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
-  
- You can link tests to a business rule by linking the comment to a requirement or user story work item, which you can link to a test suite in [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)]. For more information, see [Attaching Test Cases to Model Elements](#Attaching).  
-  
- Performance and other quality of service requirements can be noted in comments on use case, activity, or sequence diagrams. You can link these also to requirements work items and their test suites.  
-  
-### Sequence and Activity Diagrams for Tests  
- If your requirements or architecture models include sequence or activity diagrams, you can write tests that follow the diagrams directly.  
-  
- It is sometimes useful to design tests that dynamically choose different paths through the branches and loops in the diagram.  
-  
- Try to verify the state of the system after each message or action. This might require additional instrumentation.  
-  
 ## Deriving Subsystem Tests from Models  
- In the high-level design of a large system, you can identify components or subsystems. These represent parts that can be separately designed, or are located on different computers, or are reusable modules that can be recombined in many ways. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
+ In the high-level design of a large system, you can identify components or subsystems. These represent parts that can be separately designed, or are located on different computers, or are reusable modules that can be recombined in many ways. 
   
  You can apply to each major component the same principles as you use for the complete system. In a large project, each component can have its own requirements model. In smaller projects, an architectural model or high-level design can be created to show the major components and their interactions. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   

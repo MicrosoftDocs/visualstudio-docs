@@ -41,9 +41,8 @@ Visual Studio can help keep your software consistent with the users' requirement
   
 |**Tasks**|**Associated Topics**|  
 |---------------|---------------------------|  
-|**Make sure your model is consistent:**<br /><br /> Depending on the way your project uses and interprets models, it might be useful to disallow some combinations of elements. For example, you could restrict UML classes so that they always have [!INCLUDE[TLA2#tla_net](../modeling/includes/tla2sharptla_net_md.md)]-compliant names. You can define constraints like these in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions.|-   [Validate your UML model](../modeling/validate-your-uml-model.md)<br />-   [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)|  
 |**Make sure your software meets the users' requirements**:<br /><br /> You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change.|-   [Develop tests from a model](../modeling/develop-tests-from-a-model.md)|  
-|**Make sure that your software remains consistent with the intended design of your system:**<br /><br /> Layer diagrams describe the intended dependencies between the components of your application. During development, you can verify that the actual dependencies in the code conform to the intended design.|-   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
+|**Make sure that your software remains consistent with the intended design of your system:**<br /><br /> Dependency diagrams describe the intended dependencies between the components of your application. During development, you can verify that the actual dependencies in the code conform to the intended design.|-   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|  
   
 ## External Resources  
   
@@ -56,6 +55,5 @@ Visual Studio can help keep your software consistent with the users' requirement
   
 ## See Also  
  [Testing the application](/devops-test-docs/test/test-apps-early-and-often)   
- [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)

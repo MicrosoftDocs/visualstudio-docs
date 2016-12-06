@@ -1,5 +1,5 @@
 ---
-title: "Add custom architecture validation to layer diagrams | Microsoft Docs"
+title: "Add custom architecture validation to dependency diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -7,7 +7,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "layer diagrams, adding custom validation"
+  - "dependency diagrams, adding custom validation"
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 42
 author: "alexhomer1"
@@ -29,13 +29,13 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Add custom architecture validation to layer diagrams
-In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a layer diagram. There is a standard validation algorithm, but you can define your own validation extensions.  
+# Add custom architecture validation to dependency diagrams
+In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a dependency diagram. There is a standard validation algorithm, but you can define your own validation extensions.  
   
- When the user selects the **Validate Architecture** command on a layer diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.  
+ When the user selects the **Validate Architecture** command on a dependency diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.  
   
 > [!NOTE]
->  Validation in a layer diagram is not the same as validation in UML diagrams. In a layer diagram, the main purpose is to compare the diagram with the program code in other parts of the solution.  
+>  Validation in a dependency diagram is not the same as validation in UML diagrams. In a dependency diagram, the main purpose is to compare the diagram with the program code in other parts of the solution.  
   
  You can package your layer validation extension into a Visual Studio Integration Extension (VSIX), which you can distribute to other Visual Studio users. You can either place your validator in a VSIX by itself, or you can combine it in the same VSIX as other extensions. You should write the code of the validator in its own Visual Studio project, not in the same project as other extensions.  
   
@@ -60,7 +60,7 @@ In Visual Studio, users can validate the source code in a project against a laye
     >  To makethe template work properly:  
     >   
     >  -   Edit calls to `LogValidationError` to remove the optional arguments `errorSourceNodes` and `errorTargetNodes`.  
-    > -   If you use custom properties, apply the update mentioned in [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
+    > -   If you use custom properties, apply the update mentioned in [Add custom properties to dependency diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
   
 3.  Edit the code to define your validation. For more information, see [Programming Validation](#programming).  
   
@@ -205,14 +205,14 @@ In Visual Studio, users can validate the source code in a project against a laye
 ### Test with a Solution that contains Dependencies  
  Validation is not executed unless the following characteristics are present:  
   
--   There is at least one dependency link on the layer diagram.  
+-   There is at least one dependency link on the dependency diagram.  
   
 -   There are layers in the model that are associated with code elements.  
   
  The first time that you start an experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to test your validation extension, open or create a solution that has these characteristics.  
   
 ### Run Clean Solution before Validate Architecture  
- Whenever you update your validation code, use the **Clean Solution** command on the **Build** menu in the experimental solution, before you test the Validate command. This is necessary because the results of validation are cached. If you have not updated the test layer diagram or its code, the validation methods will not be executed.  
+ Whenever you update your validation code, use the **Clean Solution** command on the **Build** menu in the experimental solution, before you test the Validate command. This is necessary because the results of validation are cached. If you have not updated the test dependency diagram or its code, the validation methods will not be executed.  
   
 ### Launch the Debugger Explicitly  
  Validation runs in a separate process. Therefore, the breakpoints in your validation method will not be triggered. You must attach the debugger to the process explicitly when validation has started.  
@@ -288,4 +288,4 @@ namespace Validator3
 ```  
   
 ## See Also  
- [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
+ [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

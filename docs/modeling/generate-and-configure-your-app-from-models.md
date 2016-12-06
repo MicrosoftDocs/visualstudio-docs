@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Generate and configure your app from models
-You can generate or configure parts of your application from a model. The model can be in UML or a DSL.  
+You can generate or configure parts of your application from a model.
   
  The model represents the requirements more directly than the code. By deriving the application's behavior directly from the model, you can respond to changed requirements much more quickly and reliably than by updating the code. Although some initial work is required to set up the derivation, this investment is returned if you expect changes in requirements, or if you plan to make several variants of the product.  
   
@@ -35,8 +35,6 @@ You can generate or configure parts of your application from a model. The model 
  The easiest way to generate code is by using text templates. You can generate code in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution in which you keep the model. For more information, see:  
   
 -   [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)  
-  
--   [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)  
   
 -   [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)  
   
@@ -49,9 +47,7 @@ You can generate or configure parts of your application from a model. The model 
  However, if you start with an existing application, you might find that a lot of refactoring is required to separate the different behaviors that are governed by the model so that they can be independently varied. We recommend that you assess this aspect of the application when you estimate the cost of your project.  
   
 ## Configuring your Application from a Model  
- If you want to vary your application's behavior at run time, you cannot use code generation, which generates source code before the application is compiled. Instead, you can design your application to read the UML or DSL model, and to vary its behavior accordingly. For more information, see:  
-  
--   [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md)  
+ If you want to vary your application's behavior at run time, you cannot use code generation, which generates source code before the application is compiled. Instead, you can design your application to read the model, and to vary its behavior accordingly. For more information, see:  
   
 -   [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)  
   
@@ -72,9 +68,9 @@ You can generate or configure parts of your application from a model. The model 
   
 -   **Separate concerns.** If the variable aspects can be divided into independent areas, use separate models for each area. Using ModelBus, you can define operations that affect both models, and constraints between them.  
   
-     For example, use one model to define navigation between the Web pages and a different model to define the layout of the pages. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+     For example, use one model to define navigation between the Web pages and a different model to define the layout of the pages.
   
--   **Model the requirement, not the solution.** Design the DSL or adapt the UML so that it describes the user requirements. By contrast, do not design the notation according to the variable aspects of the implementation.  
+-   **Model the requirement, not the solution.** Design the model so that it describes the user requirements. By contrast, do not design the notation according to the variable aspects of the implementation.  
   
      For example, the Web navigation model should represent Web pages and hyperlinks between them. The Web navigation model should not represent fragments of HTML or classes in your application.  
   
@@ -87,8 +83,6 @@ You can generate or configure parts of your application from a model. The model 
      For example, a UML class diagram is a collection of boxes and arrows; with this notation you can in theory define anything. But we do not recommend that you use the class diagram except where you are in fact describing a set of types. For example, you could adapt class diagrams to describe different types of Web pages.  
   
 ## See Also  
- [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
- [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   
  [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)

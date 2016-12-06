@@ -44,17 +44,13 @@ To use models effectively in a development project, the team members must be abl
   
 2.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, which we will call the Architecture solution. This solution will be used to create the overall design of the system. It will contain models but no code.  
   
-     Add a layer diagram to this solution. On the layer diagram, draw the architecture you have chosen for your application. For example, the diagram might show these layers and the dependencies between them: Presentation; Business logic; and Data.  
+     Add a dependency diagram to this solution. On the dependency diagram, draw the architecture you have chosen for your application. For example, the diagram might show these layers and the dependencies between them: Presentation; Business logic; and Data.  
   
-     You can create the layer diagram and a new Visual Studio solution at the same time by using the **New UML or Layer Diagram** command on the **Architecture** menu.  
-  
-3.  Add to the Architecture model UML diagrams that represent the important business concepts, and use cases that are referred to in the design of all the layers.  
-  
-4.  Create a separate Visual Studio solution for each layer in the Architecture layer diagram.  
+4.  Create a separate Visual Studio solution for each layer in the Architecture dependency diagram.  
   
      These solutions will be used to develop the code of the layers.  
   
-5.  Create UML models that will represent the designs of the layers and the concepts that are common to all the layers. Arrange the models so that all the models can be seen from the Architecture solution, and the relevant models can be seen from each layer.  
+5.  Create models that will represent the designs of the layers and the concepts that are common to all the layers. Arrange the models so that all the models can be seen from the Architecture solution, and the relevant models can be seen from each layer.  
   
      You can achieve this by using either of the following procedures. The first alternative creates a separate modeling project for each layer, and the second creates a single modeling project that is shared between the layers.  
   
@@ -62,7 +58,7 @@ To use models effectively in a development project, the team members must be abl
   
     1.  Create a modeling project in each layer solution.  
   
-         This model will contain UML diagrams that describe the requirements and design of that layer. It can also contain layer diagrams that show nested layers.  
+         This model will contain diagrams that describe the requirements and design of that layer. It can also contain dependency diagrams that show nested layers.  
   
          You now have a model for each layer, plus a model for the application architecture. Each model is contained in its own solution. This enables team members to work on the layers at the same time.  
   
@@ -70,9 +66,9 @@ To use models effectively in a development project, the team members must be abl
   
          Each model is now visible in two solutions: its "home" solution and the Architecture solution.  
   
-    3.  To the modeling project of each layer, add a layer diagram. Start with a copy of the Architecture layer diagram. You can delete parts that are not dependencies of the layer diagram.  
+    3.  To the modeling project of each layer, add a dependency diagram. Start with a copy of the Architecture dependency diagram. You can delete parts that are not dependencies of the layer diagram.  
   
-         You can also add layer diagrams that represent the detailed structure of this layer.  
+         You can also add dependency diagrams that represent the detailed structure of this layer.  
   
          These diagrams are used to validate the code that is developed in this layer.  
   
@@ -82,21 +78,21 @@ To use models effectively in a development project, the team members must be abl
   
      This method guarantees that no interference will be caused by developers who edit the layer models at the same time.  
   
-     However, because the models are separate, it is difficult to refer to common concepts. Each model must have its own copy of the elements on which it is dependent from other layers and the architecture. The layer diagram in each layer must be kept in sync with the Architecture layer diagram. It is difficult to maintain synchronization when these elements change, although you could develop tools to accomplish this.  
+     However, because the models are separate, it is difficult to refer to common concepts. Each model must have its own copy of the elements on which it is dependent from other layers and the architecture. The dependency diagram in each layer must be kept in sync with the Architecture layer diagram. It is difficult to maintain synchronization when these elements change, although you could develop tools to accomplish this.  
   
     ###### To use a separate package for each layer  
   
     1.  In the solution for each layer, add the Architecture modeling project. In Solution Explorer, right-click the solution node, point to **Add**, and then click **Existing Project**. The single modeling project can now be accessed from every solution: the Architecture project, and the development project for each layer.  
   
-    2.  In the shared UML model, create a package for each layer: In Solution Explorer, select the modeling project. In UML Model Explorer, right-click the model root node, point to **Add**, and then click **Package**.  
+    2.  In the shared model, create a package for each layer: In Solution Explorer, select the modeling project. In UML Model Explorer, right-click the model root node, point to **Add**, and then click **Package**.  
   
-         Each package will contain UML diagrams that describe the requirements and design of the corresponding layer.  
+         Each package will contain diagrams that describe the requirements and design of the corresponding layer.  
   
-    3.  If required, add local layer diagrams for the internal structure of each layer.  
+    3.  If required, add local dependency diagrams for the internal structure of each layer.  
   
      This method allows the design elements of each layer to refer directly to those of the layers and common architecture on which it depends.  
   
-     Although concurrent work on different packages can cause some conflicts, they are fairly easy to manage because the packages are stored in separate files. The major difficulty is caused by the deletion of an element that is referenced from a dependent package. For more information, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md).  
+     Although concurrent work on different packages can cause some conflicts, they are fairly easy to manage because the packages are stored in separate files.
   
 ## Creating architecture templates  
  In practice, you will not create all your Visual Studio solutions at the same time, but add them as the project progresses. You will probably also use the same solution structure in future projects.  To help you create new solutions quickly, you can create a solution or project template. You can capture the template in a Visual Studio Integration Extension (VSIX) so that it is easy to distribute and to install on other computers.  
