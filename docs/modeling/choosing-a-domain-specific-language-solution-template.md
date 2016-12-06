@@ -19,9 +19,6 @@ To create a domain-specific language solution, choose one of the solution templa
   
  The following solution templates are available in the Domain-Specific Language Designer Wizard.  
   
-> [!NOTE]
->  The purpose of the templates is to provide a starting DSL. The templates named Class and Component diagrams are not full UML diagrams. If you want to create a UML model, consider the UML modeling tools, which provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
-  
 |Template|Features|Description|  
 |--------------|--------------|-----------------|  
 |Class Diagrams|-   Compartment shapes<br />-   Class inheritance<br />-   Relationship inheritance<br />-   Shape inheritance<br />-   Relationship properties|Use this solution template if your domain-specific language includes entities and relationships that have properties. This template creates a domain-specific language that resembles UML class diagrams. The main entities are classes and interfaces, together with association, generalization, and implementation relationships. A class or interface appears as a box that contains a list of attributes.|  
