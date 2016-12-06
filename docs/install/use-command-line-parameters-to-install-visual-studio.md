@@ -59,7 +59,9 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 |  ```--sharedInstallDir <dir>``` | Optional: The target installation directory for shared payloads. |  
 | ```--compatInstallDir <dir>``` | Optional: The target installation directory for legacy compatibility payloads. |  
 |  ```--layoutDir <dir>```, ```--layoutDirectory <dir>``` | Optional: The layout directory in which to find packages.|
-
+|  ```--locale <language-locale>``` | Optional: Change the display language of the user interface for the installer. Setting will be persisted. |
+| ```--quiet``` | Optional: Do not display any user interface while performing the installation. |
+| ```--passive``` | Optional: Display the user interface, but do not request any interaction from the user. | 
 
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.

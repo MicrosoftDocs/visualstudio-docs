@@ -91,6 +91,11 @@ To install Visual Studio 2017 RC in a language of your choosing, click the **Lan
 
   ![Visual Studio 2017 - Install language packs](media/vs2017install-LanguagePacks.PNG "Install Visual Studio language packs")
 
+### Change the installer language
+
+By default, the installer program tries to match the language of the operating system when run for the first time. The installer will remember this setting. You can change this setting by running the installer from the command line. For example, you can force the installer to run in English by running `vs_installer.exe --locale en-US`. This setting will then be remembered when the installer is run the next time. The installer supports the following language tokens: zh-CN, zh-TW, cs-CZ, en-US, fr-FR, de-DE, it-IT, ja-JP, ko-KR, pl-PL, pt-BR, ru-RU, es-ES, and tr-TR. 
+
+
   > [!IMPORTANT]
   > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 

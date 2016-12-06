@@ -178,7 +178,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  You cannot set the next statement while your application is actively running. To set the next statement, the debugger must be in break mode.  
   
-## Step into non-user code  
+## <a name="BKMK_Restrict_stepping_to_Just_My_Code"></a>Step into non-user code  
  By default, the debugger tries to show you only your app code while debugging, which is determined by a debugger setting called *Just My Code*. (See [Just My Code](../debugger/just-my-code.md) to see how this works for different project types and languages and how you might customize the behavior.) However, sometimes while you are debugging, you might want to look at framework code, third-party library code, or calls to the operating system (system calls).  
   
  You can turn off Just My Code  by going to **Tools** / **Options** / **Debugging** and clear the **Enable Just My Code** checkbox.  

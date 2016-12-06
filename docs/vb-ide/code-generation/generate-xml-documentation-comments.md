@@ -50,4 +50,5 @@ translation.priority.ht:
 
    ![Completed comment](media/doc_result.png)
 
-<!-- For more informtion, please see the full documentation on [XML Documentation Comments](todo.txt).-->
+## See Also
+[Documenting Your Code with XML (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)

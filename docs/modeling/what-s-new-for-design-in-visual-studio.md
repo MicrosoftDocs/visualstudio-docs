@@ -43,14 +43,14 @@ issues, and benefitting fully from the new features in the Error list and the ed
 ![Live dependency validation in action](media/dep-validation-whatsnew-01.png)
 
 The authoring experience has changed to make dependency validation more discoverable
-and more accessible, changing the terminology from "Layer Diagram" to 
-"Dependency Diagram".
+and more accessible, changing the terminology from "Layer diagram" to 
+"Dependency diagram".
 
-The **Architecture** menu now contains a command to directly create a Dependency Diagram:
+The **Architecture** menu now contains a command to directly create a Dependency diagram:
 
 ![Live dependency item on Architecture menu](media/dep-validation-whatsnew-02.png)
 
-and the property names of a Layer in a Dependency Validation diagram, and their descriptions,
+... and the property names of a Layer in a Dependency diagram, and their descriptions,
 have been changed to make them more meaningful:
 
 ![Live dependency updated property names](media/dep-validation-whatsnew-03.png)
@@ -69,15 +69,15 @@ The UML designers have been removed from this version of Visual Studio Enterpris
 * The UML Model Explorer no longer exists
 * Modeling project references are no longer used for dependency validation
 * The "Layer References" node in Solution Explorer is no longer displayed
-* The "Validate" build action on a Layer Diagram is no longer used (the Build task has been removed) 
+* The "Validate" build action on a Dependency (Layer) diagram is no longer used - the Build task has been removed 
 * The project structure is maintained for round-tripping between versions
-* You can still open, create, edit, and save a Layer Diagram as XML
-* TFS work items linked to a Layer Diagram are not accessible on the design surface.
+* You can still open, create, edit, and save a Dependency (Layer) diagram as XML
+* TFS work items linked to a Dependency (Layer) diagram are not accessible on the design surface
 * Back linking from to DSL or a Layer is no longer supported 
 * UML extensibility in the Modeling SDK is no longer supported
 
 However, support for visualizing the architecture of .NET and C++ code is available
-through [code maps](), and the significant improvements to Layer (dependency) validation
+through [code maps](map-dependencies-across-your-solutions.md), and the significant improvements to dependency validation
 described above.
 
 If you are a significant user of the UML designers, you can continue to use Visual Studio 2015
@@ -92,9 +92,11 @@ Visual Studio is available in several versions. Not all of these provide support
   
 |**Feature**|**Enterprise**|**Professional**|**Community**|**Express**|  
 |-----------------|--------------------|----------------------|-------------------|-----------------|  
-|**Code maps**|Yes|See note (1)|-|-|  
-|**Layer (dependency) diagrams**|Yes|-|-|-|  
-|**Directed Graphs** (DGML diagrams)|Yes|Yes|-|-|  
+|**Code maps**|Yes|See Note (1)|-|-|  
+|**Dependency diagrams**|Yes|See Note (2)|See Note (2)|-|  
+|**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|-|  
 |**Code clone**|Yes|-|-|-|  
   
 Note (1): Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.
+
+Note (2): Only supports reading dependency diagrams.
