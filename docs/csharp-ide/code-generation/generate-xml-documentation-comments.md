@@ -49,4 +49,5 @@ translation.priority.ht:
 
    ![Completed comment](media/doc_result.png)
 
-<!-- For more informtion, please see the full documentation on [XML Documentation Comments](todo.txt).-->
+## See Also
+[XML Documentation Comments (C# Programming Guide)](/dotnet/articles/csharp/programming-guide/xmldoc/xml-documentation-comments)
