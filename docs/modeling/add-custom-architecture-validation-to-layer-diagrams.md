@@ -35,7 +35,7 @@ In Visual Studio, users can validate the source code in a project against a laye
  When the user selects the **Validate Architecture** command on a dependency diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.  
   
 > [!NOTE]
->  Validation in a dependency diagram is not the same as validation in UML diagrams. In a dependency diagram, the main purpose is to compare the diagram with the program code in other parts of the solution.  
+>  In a dependency diagram, the main purpose of validation is to compare the diagram with the program code in other parts of the solution.  
   
  You can package your layer validation extension into a Visual Studio Integration Extension (VSIX), which you can distribute to other Visual Studio users. You can either place your validator in a VSIX by itself, or you can combine it in the same VSIX as other extensions. You should write the code of the validator in its own Visual Studio project, not in the same project as other extensions.  
   
@@ -72,7 +72,7 @@ In Visual Studio, users can validate the source code in a project against a laye
 5.  To install the extension in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Layer Validator to a Separate VSIX  
- If you want to create one VSIX that contains layer validators, commands, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
+ If you want to create one VSIX that contains layer validators, commands, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. 
   
 #### To add layer validation to a separate VSIX  
   
@@ -171,7 +171,7 @@ In Visual Studio, users can validate the source code in a project against a laye
  When the graph has been constructed, the standard validation method is called. When this is complete, any installed extension validation methods are called in unspecified order. The graph is passed to each `ValidateArchitecture` method, which can scan the graph and report any errors that it finds.  
   
 > [!NOTE]
->  This is not the same as the validation process that is applied to UML diagrams, and it is not the same as the validation process that can be used in domain-specific languages.  
+>  This is not the same as the validation process that can be used in domain-specific languages.  
   
  Validation methods should not change the layer model or the code that is being validated.  
   

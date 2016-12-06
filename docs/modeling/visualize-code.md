@@ -41,9 +41,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
   
 -   To describe class structures, create class diagrams.  
   
--   To model and communicate various aspects of the system, draw Unified Modeling Language (UML) diagrams. For example, you can model a system's components, types, interactions, and processes.  
-  
- These tools also help you communicate more easily with the people involved with your project. For example, you can use UML class diagrams to create a common glossary for discussing the system with project stakeholders, users, and team members.  
+ These tools also help you communicate more easily with the people involved with your project. 
   
  To see which versions of Visual Studio support each feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  
   

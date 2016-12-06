@@ -37,8 +37,6 @@ This topic describes the elements and relationships in layer models, which you c
 ## Transactions  
  When you update a model, consider enclosing the changes in a `ILinkedUndoTransaction`. This groups your changes into one transaction. If any of the changes fails, the whole transaction will be rolled back. If the user undoes a change, all the changes will be undone together.  
   
- For more information, see [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).  
-  
 ```  
 using (ILinkedUndoTransaction t =  
         LinkedUndoContext.BeginTransaction("a name"))  

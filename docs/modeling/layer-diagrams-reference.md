@@ -1,5 +1,5 @@
 ---
-title: "Layer Diagrams: Reference | Microsoft Docs"
+title: "Dependency Diagrams: Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.teamarch.layerdiagram.shapes.properties"
   - "vs.teamarch.layerdiagram.toolbox"
 helpviewer_keywords: 
-  - "architecture, layer diagrams"
-  - "layer diagrams"
+  - "architecture, dependency diagrams"
+  - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
 ms.assetid: f26c986c-1e79-420e-b29a-a283e6d8a71d
@@ -39,14 +39,14 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Layer Diagrams: Reference
-In Visual Studio, you can use a *layer diagram* to visualize the high-level, logical architecture of your system. A layer diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.  
+# Dependency Diagrams: Reference
+In Visual Studio, you can use a *dependency diagram* to visualize the high-level, logical architecture of your system. A dependency diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
- You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a layer diagram can help make it easier for you to understand, reuse, and maintain your code.  
+ You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.  
   
- Use a layer diagram to help you perform the following tasks:  
+ Use a dependency diagram to help you perform the following tasks:  
   
 -   Communicate the existing or intended logical architecture of your system.  
   
@@ -56,12 +56,12 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
 -   Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.  
   
- This topic describes the elements that you can use on a layer diagram. For more detailed information about how to create and draw layer diagrams, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).  
+ This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).  
   
-## Reading Layer Diagrams  
- ![Elements on layer diagrams](../modeling/media/uml_layerrefreading.png "UML_LayerRefReading")  
+## Reading dependency diagrams  
+ ![Elements on dependency diagrams](../modeling/media/uml_layerrefreading.png "UML_LayerRefReading")  
   
- The following table describes the elements that you can use on a layer diagram.  
+ The following table describes the elements that you can use on a dependency diagram.  
   
 |**Shape**|**Element**|**Description**|  
 |---------------|-----------------|---------------------|  
@@ -82,13 +82,13 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
  For more information about linking layers and artifacts, see:  
   
--   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
+-   [Dependency diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+-   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
 #### To examine the linked artifacts  
   
--   On the layer diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
+-   On the dependency diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
   
      **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.  
   
@@ -99,7 +99,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
     |----------------------------------|---------------------|  
     |**Categories**|The kind of artifact, such as a class, namespace, source file, and so on|  
     |**Layer**|The layer that links to the artifact|  
-    |**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|  
+    |**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|  
     |**Identifier**|The reference to the linked artifact|  
   
 ## See Also  

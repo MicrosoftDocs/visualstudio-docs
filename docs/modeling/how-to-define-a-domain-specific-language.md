@@ -64,9 +64,6 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
     -   Select **Minimal Language** in other cases, or if you are uncertain.  
   
-        > [!NOTE]
-        >  If you want to create a class diagram or component diagram, consider using UML models. The UML modeling tools provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
-  
     -   Select **Minimal WinForm Designer** or **Minimal WPF Designer** to create a DSL that is displayed on a Windows Forms or WPF surface. You will have to write code to define the editor. For more information, see the following topics:  
   
          [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)  

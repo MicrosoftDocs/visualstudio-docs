@@ -66,7 +66,7 @@ To use models effectively in a development project, the team members must be abl
   
          Each model is now visible in two solutions: its "home" solution and the Architecture solution.  
   
-    3.  To the modeling project of each layer, add a dependency diagram. Start with a copy of the Architecture dependency diagram. You can delete parts that are not dependencies of the layer diagram.  
+    3.  To the modeling project of each layer, add a dependency diagram. Start with a copy of the Architecture dependency diagram. You can delete parts that are not dependencies of the dependency diagram.  
   
          You can also add dependency diagrams that represent the detailed structure of this layer.  
   
@@ -78,7 +78,7 @@ To use models effectively in a development project, the team members must be abl
   
      This method guarantees that no interference will be caused by developers who edit the layer models at the same time.  
   
-     However, because the models are separate, it is difficult to refer to common concepts. Each model must have its own copy of the elements on which it is dependent from other layers and the architecture. The dependency diagram in each layer must be kept in sync with the Architecture layer diagram. It is difficult to maintain synchronization when these elements change, although you could develop tools to accomplish this.  
+     However, because the models are separate, it is difficult to refer to common concepts. Each model must have its own copy of the elements on which it is dependent from other layers and the architecture. The dependency diagram in each layer must be kept in sync with the Architecture dependency diagram. It is difficult to maintain synchronization when these elements change, although you could develop tools to accomplish this.  
   
     ###### To use a separate package for each layer  
   

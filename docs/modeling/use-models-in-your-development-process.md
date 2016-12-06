@@ -131,7 +131,7 @@ In Visual Studio, you can use a model to help you understand and change a system
 |Business Process<br /><br /> Understanding the context within which your system will be used helps you understand what the users need from it.|-   Conceptual class diagrams describe the business concepts used within the business process.|  
 |User requirements<br /><br /> Definition of what the users need from your system.|-   Business rules and quality of service requirements can be described in separate documents.|  
 |High level design<br /><br /> The overall structure of the system: the major components and how they couple together.|-   Dependency Diagrams describe how the system is structured into interdependent parts. You can validate program code against dependency diagrams to ensure that it adheres to the architecture.|  
-|Code analysis<br /><br /> Diagrams can be generated from the code.|-  Dependency diagrams show the dependencies between classes. Updated code can be validated against a layer diagram.<br />-   Class diagrams show the classes in the code.|  
+|Code analysis<br /><br /> Diagrams can be generated from the code.|-  Dependency diagrams show the dependencies between classes. Updated code can be validated against a dependency diagram.<br />-   Class diagrams show the classes in the code.|  
   
 ## External Resources  
   

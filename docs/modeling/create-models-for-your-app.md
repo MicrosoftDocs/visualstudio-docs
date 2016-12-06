@@ -17,25 +17,11 @@ f1_keywords:
   - "vs.teamarch.common.comment.properties"
   - "vs.teamarch.UMLModelExplorer.comment"
 helpviewer_keywords: 
-  - "diagrams - modeling, sequence"
   - "software design"
-  - "diagrams - modeling, use case"
-  - "diagrams - modeling, component"
-  - "diagrams - modeling, UML component"
-  - "UML model"
-  - "diagrams - modeling, UML use case"
-  - "diagrams - modeling, class"
-  - "diagrams - modeling, activity"
-  - "diagrams - modeling, UML activity"
   - "software modeling"
-  - "diagrams - modeling, UML sequence"
-  - "UML"
-  - "diagrams - modeling, UML"
   - "diagrams - modeling, layer"
   - "software, designing"
-  - "diagrams - modeling, UML class"
   - "software, modeling"
-  - "UML diagrams"
 ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
 caps.latest.revision: 58
 author: "alexhomer1"
@@ -73,7 +59,7 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
   
 |**Topic**|**Task**|  
 |---------------|--------------|  
-|[Visualize code](../modeling/visualize-code.md)|Create code maps and layer diagrams to better understand unfamiliar code.|  
+|[Visualize code](../modeling/visualize-code.md)|Create code maps and dependency diagrams to better understand unfamiliar code.|  
 |[Model user requirements](../modeling/model-user-requirements.md)|Use models to clarify and communicate the users' needs.|  
 |[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|Use models to describe the overall structure and behavior of your system and to make sure that it meets the users' needs.|  
 |[Validate your system during development](../modeling/validate-your-system-during-development.md)|Make sure that your software stays consistent with your users' needs and the overall architecture of your system.|  
