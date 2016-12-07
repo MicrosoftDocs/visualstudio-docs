@@ -58,6 +58,7 @@ The editor in Visual Studio supports the following values of the core set of Edi
 - end_of_line
 - charset
 - root
+- [code style conventions](xref:editorconfig-code-style-settings-reference.md)
 
 EditorConfig settings are supported in all Visual Studio-supported languages except for XML.
 
