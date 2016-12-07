@@ -56,11 +56,11 @@ What is code quality? Correctness, maintainability, and even elegance are all in
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)  
  You can use [!INCLUDE[vsPreExt](../test/includes/vspreext_md.md)] to manage the challenges and complexity of designing software. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] lets you visually model your application, both as it exists now and as you want it to exist in the future. You can create and maintain diagrams to help you visualize the logical models of your application at the same time that they map to the physical models; this enables you to change, validate, and analyze the software that is "under design."  
   
- [Testing the application](../test/test-apps-early-and-often.md)  
+ [Testing the application](https://www.visualstudio.com/docs/test/overview)  
  You can use [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] to be more productive throughout the testing life cycle. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] let you plan your testing effort. You can create, manage, edit, and run both manual and automated tests. You can also review your testing progress based on your plan.  
   
- [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+ [Build the application](https://www.visualstudio.com/docs/build/overview)  
  You can use [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] to create and manage automated builds for your code. [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] lets you create drop servers to deploy builds. In addition, you can analyze build trends.  
   
- [Track work using Visual Studio Online or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
+ [Track work using Visual Studio Online or Team Foundation Server](https://www.visualstudio.com/docs/work/overview)  
  You can use [!INCLUDE[vstsTfsLong](../test/includes/vststfslong_md.md)] to plan and track your projects whether you use the agile process, the formal process, or a variation on those processes. By planning your projects, tracking your progress against the plan, and making necessary adjustments, you can reduce risks, avoid unpleasant surprises, and manage the cost of your projects.
