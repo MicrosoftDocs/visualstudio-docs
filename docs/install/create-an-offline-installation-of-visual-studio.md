@@ -41,6 +41,9 @@ You can create an offline installation layout that contains all the files you ne
 > [!WARNING]
 > Currently, the Android SDK does not support an offline installation experience. If you install Android SDK Setup items on a computer that is not connected to the internet, the installation might fail. For more information about this, go to the [Troubleshoot an offline installation](#tshootofflineinstall) section in this topic.
 
+> [!WARNING]
+> Currently, an offline installation of Visual Studio 2017 RC will silently fail to install if the layout location is a root directory (for example, D:\). This is very common when an offline installation layout is created at the root of an ISO image. To work-around this issue, please use a directory for the layout location, for example D:\VS2017.
+
 #### To create an offline installation layout of Visual Studio
 1. Download the Visual Studio setup executable file to a drive on your local machine.
   For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).
