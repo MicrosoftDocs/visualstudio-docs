@@ -254,8 +254,6 @@ private void WriteSquareLine(int i)
   
  **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
- **Use a UML model**. You can generate code from a UML model. This has the advantage that the model can be edited as a diagram in a familiar notation. Also, you do not have to design the diagram. For more information, see [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md).  
-  
 ### Relative file paths in design-time templates  
  In a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md), if you want to reference a file in a location relative to the text template, use `this.Host.ResolvePath()`. You must also set `hostspecific="true"` in the `template` directive:  
   

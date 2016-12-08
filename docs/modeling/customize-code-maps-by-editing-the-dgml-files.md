@@ -572,7 +572,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 -   To describe the changes to a class, you might link the URL of a work code element, document, or another .dgml file to the code element for a class.  
   
--   You might link a layer diagram to a group code element that represents a layer in the software's logical architecture.  
+-   You might link a dependency diagram to a group code element that represents a layer in the software's logical architecture.  
   
 -   To show more information about a component that exposes an interface, you might link a component diagram to the code element for that interface.  
   
