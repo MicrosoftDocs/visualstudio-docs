@@ -70,7 +70,7 @@ Below is a short list of guiding rules that you should keep in mind when you are
 
 ## Building the docs
 
-The documentation is written in [GitHub Flavored Markdown](https://help.github.com/categories/writing-on-github/) and built using [DocFX](http://dotnet.github.io/docfx/) and other internal publishing/building tools. It is hosted at [docs.microsoft.com](https://docs.microsoft.com/dotnet).
+The documentation is written in [GitHub Flavored Markdown](https://help.github.com/categories/writing-on-github/) and built using [DocFX](https://dotnet.github.io/docfx/) and other internal publishing/building tools. It is hosted at [docs.microsoft.com](https://docs.microsoft.com/dotnet).
 
 If you want to build the docs locally, you need to install [DocFX](https://dotnet.github.io/docfx/); latest versions are the best.
 
