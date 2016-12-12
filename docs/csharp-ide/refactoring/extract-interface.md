@@ -8,10 +8,15 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: csharp
 ms.assetid: 55e17f0a-eacb-41ec-b8ca-74f5c6bbd6de
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+	- "vs.csharp.refactoring.extractinterface"
+dev_langs:
+	- csharp
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"

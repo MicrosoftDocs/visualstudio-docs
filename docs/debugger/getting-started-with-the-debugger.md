@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -34,7 +34,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Getting Started with the Debugger
-The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.  
+The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.
+
+To watch a video showing similar features, see [Getting Started with the Debugger](https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6).
   
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  
  Let’s start with a simple C# console application (**File / New / Project**, then select **Visual C#** and then **Console Application**). If you’ve never worked with Visual Studio before, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md). The **Main** method just adds 1 to an integer variable 10 times and prints the result to the console:  
