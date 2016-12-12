@@ -50,7 +50,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attach to Running Processes with the Visual Studio Debugger
-Attaching the Visual Studio debugger to a process is often useful when you haven't started an app from Visual Studio, but you want to debug it. For example, you can attach to an IIS process  or Windows service that hosts a .NET app. The process you attach to might be local or remote. Another example is if you are running the app without the debugger and hit an exception, you might then attach to the process running the app to begin debugging.
+Attaching the Visual Studio debugger to a process is often useful when you haven't started an app from Visual Studio, but you want to debug it. For example, you can attach to an IIS process or Windows service that hosts a .NET app. The process you attach to might be local or remote. Another example is if you are running the app without the debugger and hit an exception, you might then attach to the process running the app to begin debugging.
 
 For some app types (like Windows Store apps), you don't attach directly to a process name, but use the **Debug Installed App Package** menu option instead (see table).
 
@@ -63,8 +63,8 @@ To help you identify whether you need to attach to a process for your scenario, 
 |Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
 |Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
-|Remote debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|Use **Debug Installed App Package** instead of **Attach to process**|
-|Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use **Debug Installed App Package** instead of **Attach to process**|
+|Remote debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|Use [Debug an Installed App Package](debug-installed-app-package.md) instead of **Attach to process**|
+|Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use [Debug an Installed App Package](debug-installed-app-package.md) instead of **Attach to process**|
   
 > [!WARNING]
 >  To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.  
