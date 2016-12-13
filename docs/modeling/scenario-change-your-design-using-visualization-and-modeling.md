@@ -93,10 +93,10 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 ||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|  
 |------|------------------------------------|-----------------------------------|--------------------------------------|------------------------------------------|----------------------|  
-|Domain-Specific Language (DSL) diagram|?|?|?|||  
-|Dependency diagram, layer validation|||?|?|?|  
-|Code map|||?|?|?|  
-|Class Designer (code-based)||||?||  
+|Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||  
+|Dependency diagram, layer validation|||Yes|Yes|Yes|  
+|Code map|||Yes|Yes|Yes|  
+|Class Designer (code-based)||||Yes||  
   
 To draw dependency diagrams, you must create a modeling project as part of an existing solution or a new one. These diagrams must be created in the modeling project.
 Items on dependency diagrams are located in the modeling project, but they are not stored in the common model. Code maps and .NET class diagrams created from code exist outside the modeling project.  
