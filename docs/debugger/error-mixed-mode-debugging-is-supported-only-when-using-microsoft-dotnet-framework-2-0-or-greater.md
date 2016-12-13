@@ -43,4 +43,4 @@ To debug mixed native and managed code, you must have [!INCLUDE[dnprdnshort](../
 -   Upgrade the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] to version 2.0, 3.0, 3.5, or 4.0.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)
+ [Remote Debugging](../debugger/remote-debugging.md)

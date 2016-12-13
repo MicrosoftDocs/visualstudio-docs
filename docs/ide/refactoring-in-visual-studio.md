@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -45,7 +45,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  
   
 ### Refactoring in Visual Basic  
- [Refactoring and Rename Dialog Box (Visual Basic)](/dotnet/visual-basic/developing-apps/using-ide/refactoring-and-rename-dialog-box)  
+ [Refactoring (Visual Basic)](../vb-ide/refactoring-vb.md)  
   
 ### Refactoring in C++  
  [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  

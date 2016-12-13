@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
+title: "What&#39;s New in Visual Studio 2017 RC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -51,7 +51,7 @@ And now, here are more details on our most notable changes.
 ## Performance improvements
 
 ### A new setup experience  
-[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) or [Compare Visual Studio editions](https://www.visualstudio.com/vs/compare/)
+[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
 
  We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them. We've also reduced the minimum footprint, so that Visual Studio installs more quickly with less system impact. And, it uninstalls cleanly, too.
 
@@ -141,7 +141,7 @@ Visual Studio 2017 RC brings many updates and fixes to the Visual C++ environmen
 
 We've also made several improvements, to include distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, adding and updating functionality in the C++ libraries, and improving the performance of the C++ IDE, installation workloads, and more.
 
-For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md) page.  
+For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
 
 ### Debugging and Diagnostics
@@ -180,6 +180,6 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
  If you’d like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also  
-* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md)
+* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)   
 * [Visual Studio Release Notes](https://www.visualstudio.com/news/vs2015-vs)

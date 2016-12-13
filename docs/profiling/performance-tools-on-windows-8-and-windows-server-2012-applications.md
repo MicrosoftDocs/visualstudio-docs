@@ -65,19 +65,15 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
 -   Instrumentation options, such as collecting performance and windows counter data, or specifying additional command-line options.  
   
- For more information about profiling Windows Store apps, see the following topics in the Windows Dev Center:  
+ For more information about profiling Windows Store apps, see the following topics:  
   
  [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)  
   
  [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
   
- [Analyze app performance](../Topic/Analyze%20the%20performance%20of%20Windows%20Store%20apps%20using%20Visual%20Studio%20diagnostic%20tools.md)  
+ [Profiling Tools](profiling-tools.md)  
   
--   [JavaScript Function Timing](../Topic/JavaScript%20Function%20Timing.md)  
-  
--   [JavaScript Function Timing on a Remote Device](../Topic/JavaScript%20Function%20Timing%20on%20a%20Remote%20Device.md)  
-  
--   [Analyze JavaScript Function Timing data](../Topic/Analyze%20JavaScript%20Function%20Timing%20data.md)  
+-   [JavaScript Memory](../profiling/javascript-memory.md)
   
 -   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
@@ -147,7 +143,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **Collecting TIP data on a remote machine**  
   
- To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md) download package.  
+ To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.  
   
  You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.  
   

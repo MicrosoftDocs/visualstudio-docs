@@ -1,5 +1,5 @@
 ---
-title: "Add custom properties to layer diagrams | Microsoft Docs"
+title: "Add custom properties to dependency diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -7,7 +7,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "layer diagrams, adding custom properties"
+  - "dependency diagrams, adding custom properties"
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 21
 author: "alexhomer1"
@@ -28,11 +28,11 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Add custom properties to layer diagrams
-When you write extension code for layer diagrams, you can store values with any element on a layer diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  
+# Add custom properties to dependency diagrams
+When you write extension code for dependency diagrams, you can store values with any element on a dependency diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  
   
 ## Properties not visible to the user  
- If you just want your code to attach values to any element in a layer diagram, you don’t need to define a MEF component. There is a dictionary named `Properties` in <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the layer diagram. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
+ If you just want your code to attach values to any element in a dependency diagram, you don’t need to define a MEF component. There is a dictionary named `Properties` in <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the dependency diagram. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
 ## Properties that the user can edit  
  **Initial preparation**  
@@ -57,7 +57,7 @@ When you write extension code for layer diagrams, you can store values with any 
   
  **Make sure your code is in a VSIX project**  
   
- If your property is part of a command, gesture, or validation project, you don’t need to add anything. The code for your custom property should be defined in a Visual Studio Extensibility project defined as a MEF component. For more information, see [Add commands and gestures to layer diagrams](../modeling/add-commands-and-gestures-to-layer-diagrams.md) or [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
+ If your property is part of a command, gesture, or validation project, you don’t need to add anything. The code for your custom property should be defined in a Visual Studio Extensibility project defined as a MEF component. For more information, see [Add commands and gestures to dependency diagrams](../modeling/add-commands-and-gestures-to-layer-diagrams.md) or [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
   
  **Define the custom property**  
   
@@ -171,4 +171,4 @@ namespace MyNamespace
 ```  
   
 ## See Also  
- [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
+ [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

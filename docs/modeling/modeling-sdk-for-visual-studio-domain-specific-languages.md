@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
-By using the Modeling SDK for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (MSDK), you can create powerful model-based development tools that you can integrate into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. As an example, the UML tools are created using MSDK. In the same manner, you can create one or more model definitions and integrate them into a set of tools.  
+By using the Modeling SDK for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can create powerful model-based development tools that you can integrate into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the same manner, you can create one or more model definitions and integrate them into a set of tools.  
   
  At the heart of MSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.  
   
@@ -50,10 +50,9 @@ By using the Modeling SDK for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_
   
  You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.  
   
-## Samples and the Latest Information  
- [Download the Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)  
-  
- [Samples](http://go.microsoft.com/fwlink/?LinkId=186128) for the Modeling SDK for Visual Studio.  
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+ 
+ [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
   
  For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).  
   

@@ -89,7 +89,7 @@ Application settings enable you to store application information dynamically. Se
   
  We strongly recommend that you use the `My.Settings` object and the default .settings file to access settings. This is because you can use the Settings Designer to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] application can access settings directly. In that case you have to access the `MySettings` class and use a custom .settings file in the root of the project. You must also save the user settings before ending the application, as you would do for a C# application; this is described in the following section.  
   
-## Accessing or Changing Application Settings at Run Time in Visual C#  
+## Accessing or Changing Application Settings at Run Time in Visual C# #
  In languages other than [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.  
   
 ```c#  

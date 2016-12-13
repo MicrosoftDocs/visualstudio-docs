@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/code-quality/analyzing-application-quality-using-code-analysis-tools
+redirect_url: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
 ---

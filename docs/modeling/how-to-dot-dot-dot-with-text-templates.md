@@ -88,12 +88,6 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
   
      For more information, see [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md) and [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
--   Consider generating code from a UML model. The code does not have to reflect the UML directly. For example, you do not have to generate a class for each class in the UML model. Instead, you could use the UML class diagram to represent a web site, and generate a web page from each UML class. Choose the diagram type closest to your needs. For example, choose activity diagrams to represent any type of work flow. You can define stereotypes to add information appropriate to your application to each type of element.  
-  
-     Generating from a UML model allows you to draw and edit the model in a diagrammatic form, but without having to design your own diagram type, as you would with a DSL.  
-  
-     For more information, see [Create models for your app](../modeling/create-models-for-your-app.md) and [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md).  
-  
 ### Get data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
  To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:  
   

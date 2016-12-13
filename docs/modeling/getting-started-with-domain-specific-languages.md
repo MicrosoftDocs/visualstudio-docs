@@ -28,6 +28,10 @@ translation.priority.mt:
 ---
 # Getting Started with Domain-Specific Languages
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.  
+
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
   
  If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
   
@@ -51,7 +55,11 @@ This topic explains the basic concepts in defining and using a domain-specific l
 |-|-|  
 |[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
-|Modeling SDK for Visual Studio|[Download MSDK](http://www.microsoft.com/download/details.aspx?id=40754)|  
+|Modeling SDK for Visual Studio||  
+
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
   
 ## Creating a DSL Solution  
  To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution by using the Domain-Specific Language project template.  
@@ -409,4 +417,6 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## See Also  
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
