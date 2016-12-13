@@ -103,7 +103,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 ###  <a name="BKMK_Properties"></a> Properties  
  Properties represent key/value pairs that can be used to configure builds. Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) element. For example, the following code creates a property named `BuildDir` that has a value of `Build`.  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDir>Build</BuildDir>  
 </PropertyGroup>  
@@ -111,7 +111,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` element is defined if it hasn't yet been defined.  
   
-```  
+```xml  
 <Configuration  Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
 ```  
   
@@ -124,7 +124,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Items are declared in the project file by creating an element that has the name of the item type as a child of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. For example, the following code creates an item type named `Compile`, which includes two files.  
   
-```  
+```xml  
 <ItemGroup>  
     <Compile Include = "file1.cs"/>  
     <Compile Include = "file2.cs"/>  
@@ -135,7 +135,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  In MSBuild, element and attribute names are case-sensitive. However, property, item, and metadata names are not. The following example creates the item type `Compile`, `comPile`, or any other case variation, and gives the item type the value "one.cs;two.cs".  
   
-```  
+```xml  
 <ItemGroup>  
   <Compile Include="one.cs" />  
   <comPile Include="two.cs" />  
@@ -153,7 +153,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  A task is executed in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file by creating an element that has the name of the task as a child of a [Target](../msbuild/target-element-msbuild.md) element. Tasks typically accept parameters, which are passed as attributes of the element. Both [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties and items can be used as parameters. For example, the following code calls the [MakeDir](../msbuild/makedir-task.md) task and passes it the value of the `BuildDir` property that was declared in the earlier example.  
   
-```  
+```xml  
 <Target Name="MakeBuildDirectory">  
     <MakeDir  Directories="$(BuildDir)" />  
 </Target>  
@@ -166,7 +166,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Targets are declared in the project file by using the [Target](../msbuild/target-element-msbuild.md) element. For example, the following code creates a target named `Compile`, which then calls the [Csc](../msbuild/csc-task.md) task that has the item list that was declared in the earlier example.  
   
-```  
+```xml  
 <Target Name="Compile">  
     <Csc Sources="@(Compile)" />  
 </Target>  
