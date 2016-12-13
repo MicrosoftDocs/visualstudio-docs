@@ -358,3 +358,6 @@ protected override IList<MenuCommand> GetMenuCommands()
  [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)   
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+ 
+  [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+ 

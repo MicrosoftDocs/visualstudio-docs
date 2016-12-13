@@ -52,7 +52,11 @@ You can write code to create and update dependency diagrams, and to validate the
   
 -   [Visual Studio SDK](../extensibility/visual-studio-sdk.md)  
   
--   [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)  
+-   Modeling SDK for Visual Studio  
+
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
   
  You must have a suitable version of Visual Studio installed on the computer where you want to run your layer extensions. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
   

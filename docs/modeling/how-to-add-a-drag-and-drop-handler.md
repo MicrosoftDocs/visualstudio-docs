@@ -589,3 +589,8 @@ namespace Company.CompartmentDrag  // EDIT.
 ## See Also  
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+ 
+  [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+ 
+
+ 
