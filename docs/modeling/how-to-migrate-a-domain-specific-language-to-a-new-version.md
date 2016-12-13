@@ -80,5 +80,9 @@ You can migrate projects that define and use domain-specific language to [!INCLU
   
     -   Test your designer.  
   
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
 ## See Also  
- [What's New in Visualization and Modeling SDK](../misc/what-s-new-in-visualization-and-modeling-sdk.md)
+ [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+

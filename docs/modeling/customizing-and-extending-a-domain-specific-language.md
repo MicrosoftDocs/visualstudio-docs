@@ -77,3 +77,6 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
