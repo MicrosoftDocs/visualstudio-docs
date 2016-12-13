@@ -93,10 +93,10 @@ Use tools such as code maps, dependency diagrams, and class diagrams to:
   
 ||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|  
 |------|------------------------------------|-----------------------------------|--------------------------------------|------------------------------------------|----------------------|  
-|Domain-Specific Language (DSL) diagram|√|√|√|||  
-|Dependency diagram, layer validation|||√|√|√|  
-|Code map|||√|√|√|  
-|Class Designer (code-based)||||√||  
+|Domain-Specific Language (DSL) diagram|?|?|?|||  
+|Dependency diagram, layer validation|||?|?|?|  
+|Code map|||?|?|?|  
+|Class Designer (code-based)||||?||  
   
 To draw dependency diagrams, you must create a modeling project as part of an existing solution or a new one. These diagrams must be created in the modeling project.
 Items on dependency diagrams are located in the modeling project, but they are not stored in the common model. Code maps and .NET class diagrams created from code exist outside the modeling project.  
@@ -110,6 +110,8 @@ Items on dependency diagrams are located in the modeling project, but they are n
 -   [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
   
 -   [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
   
  Both teams also use dependency validation to make sure that code under development remains consistent with the design.  
   
@@ -500,3 +502,5 @@ Items on dependency diagrams are located in the modeling project, but they are n
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
  [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
