@@ -25,8 +25,6 @@ You can customize a domain-specific language by adding commands to the diagram, 
   
 -   [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) – Allow your user to click through from an item to another item that it references.  
   
--   [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md) – How to use ElementOperations.  
-  
 -   [How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)  
   
 -   [Customizing Element Tools](../modeling/customizing-element-tools.md)  
