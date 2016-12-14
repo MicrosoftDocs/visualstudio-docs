@@ -61,7 +61,7 @@ Logs a warning during a build based on an evaluated conditional statement.
 ## Example  
  The following code example checks for properties that are set on the command line. If there are no properties set, the project raises a warning event, and logs the value of the `Text` parameter of the `Warning` task.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="ValidateCommandLine">  
         <Warning  

@@ -40,7 +40,7 @@ Suspends tracking in the current context.
   
 ## Syntax  
   
-```  
+```cpp 
 HRESULT WINAPI SuspendTracking(void);  
 ```  
   

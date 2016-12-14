@@ -54,7 +54,7 @@ The <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges
 ## Example  
  The following example merges the localization comments of several [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] binary format files into a single .loc file.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives"   

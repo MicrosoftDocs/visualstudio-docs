@@ -53,7 +53,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
   
  Then, to configure an application to be hosted from a browser, an additional element, **\<hostInBrowser />** must be added to the application manifest, as show in the following example:  
   
-```  
+```xml  
 <!--MyXBAPApplication.exe.manifest-->  
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly ... >  
@@ -72,7 +72,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 ## Example  
  The following example shows how to ensure that the `<hostInBrowser />` element is included in an application manifest file.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication"  

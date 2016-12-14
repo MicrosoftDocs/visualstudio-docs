@@ -57,4 +57,4 @@ translation.priority.ht:
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)
