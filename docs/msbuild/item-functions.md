@@ -40,7 +40,7 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
   
  The following example shows how to use these string item functions.  
   
-```  
+```xml  
 <ItemGroup>  
     <theItem Include="andromeda;tadpole;cartwheel" />  
 </ItemGroup>  
@@ -79,7 +79,7 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
   
  The following example shows how to use intrinsic item functions.  
   
-```  
+```xml  
 <ItemGroup>  
     <TheItem Include="first">  
         <Plant>geranium</Plant>  

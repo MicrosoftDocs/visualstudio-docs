@@ -61,7 +61,7 @@ When you build projects, it is often necessary to set build options using inform
 ## Example  
  The following project file uses environment variables to specify the location of directories.  
   
-```  
+```xml  
 <Project DefaultTargets="FakeBuild">  
     <PropertyGroup>  
         <FinalOutput>$(BIN_PATH)\myassembly.dll</FinalOutput>  

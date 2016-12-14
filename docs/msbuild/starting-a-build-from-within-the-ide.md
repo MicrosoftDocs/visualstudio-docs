@@ -41,7 +41,7 @@ Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBu
 ## Using IVSBuildManagerAccessor  
  The code below outlines a method that a project system can use to start a build:  
   
-```  
+```cs
   
 public bool Build(Project project, bool isDesignTimeBuild)  
 {  

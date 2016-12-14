@@ -58,7 +58,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 ## Example  
  The following code example illustrates that the `Build` target still runs and the build is considered a success, even if the `Delete` task fails.  
   
-```  
+```xml  
 <Project DefaultTargets="FakeBuild"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  

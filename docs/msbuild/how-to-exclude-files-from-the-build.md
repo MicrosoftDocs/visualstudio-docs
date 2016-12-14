@@ -38,7 +38,7 @@ In a project file you can use wildcards to include all the files in one director
 ## Excluding a File or Directory from the Inputs for a Build  
  Item lists are the input files for a build. The items that you want to include are declared either separately or as a group using the `Include` attribute. For example:  
   
-```  
+```xml  
 <CSFile Include="Form1.cs"/>  
 <CSFile Include ="File1.cs;File2.cs"/>  
 <CSFile Include="*.cs"/>  
@@ -51,13 +51,13 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use one of the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
     ```  
   
      - or -  
   
-    ```  
+    ```xml  
     <VBFile Include="*.vb" Exclude="Form2.vb"/>  
     ```  
   
@@ -65,13 +65,13 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use one of the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
     ```  
   
      - or -  
   
-    ```  
+    ```xml  
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>  
     ```  
   
@@ -79,7 +79,7 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <JPGFile  
         Include="Images\**\*.jpg"  
         Exclude = "Images\**\Version2\*.jpg"/>  
@@ -95,7 +95,7 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use a `Condition` attribute similar to the following:  
   
-    ```  
+    ```xml  
     <Compile  
         Include="Formula.vb"  
         Condition=" '$(Configuration)' == 'Release' " />  
@@ -104,7 +104,7 @@ In a project file you can use wildcards to include all the files in one director
 ## Example  
  The following code example builds a project with all of the .cs files in the directory except Form2.cs.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

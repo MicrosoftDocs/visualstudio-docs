@@ -72,7 +72,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 4.  Start Notepad or another text editor, and then type the following code.  
   
-    ```  
+    ```cs
     using System;  
   
     class HelloWorld  
@@ -115,14 +115,14 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 1.  In the text editor, replace the existing text by using these two lines:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     </Project>  
     ```  
   
 2.  Insert this `ItemGroup` node as a child element of the `Project` node:  
   
-    ```  
+    ```xml  
     <ItemGroup>  
       <Compile Include="helloworld.cs" />  
     </ItemGroup>  
@@ -132,14 +132,14 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 3.  Add a `Target` node as a child element of the `Project` node. Name the node `Build`.  
   
-    ```  
+    ```xml  
     <Target Name="Build">  
     </Target>  
     ```  
   
 4.  Insert this task element as a child element of the `Target` node:  
   
-    ```  
+    ```xml  
     <Csc Sources="@(Compile)"/>  
     ```  
   
@@ -147,7 +147,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your minimal project file should resemble the following code:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <ItemGroup>  
     <Compile Include="helloworld.cs" />  
@@ -209,7 +209,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 2.  In the project file, insert this `PropertyGroup` element just after the opening `Project` element:  
   
-    ```  
+    ```xml  
     <PropertyGroup>  
       <AssemblyName>MSBuildSample</AssemblyName>  
       <OutputPath>Bin\</OutputPath>  
@@ -218,7 +218,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 3.  Add this task to the Build target, just before the `Csc` task:  
   
-    ```  
+    ```xml  
     <MakeDir Directories="$(OutputPath)"      Condition="!Exists('$(OutputPath)')" />  
     ```  
   
@@ -226,7 +226,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 4.  Add this `OutputAssembly` attribute to the `Csc` task:  
   
-    ```  
+    ```xml  
     <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
     ```  
   
@@ -236,7 +236,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your project file should now resemble the following code:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <AssemblyName>MSBuildSample</AssemblyName>  
@@ -293,7 +293,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 1.  In the project file, add these two targets just after the Build target:  
   
-    ```  
+    ```xml  
     <Target Name="Clean" >  
       <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
     </Target>  
@@ -304,7 +304,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 2.  Add this `DefaultTargets` attribute to the opening `Project` element:  
   
-    ```  
+    ```xml  
     <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     ```  
   
@@ -312,7 +312,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your project file should now resemble the following code:  
   
-```  
+```xml  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <AssemblyName>MSBuildSample</AssemblyName>  
@@ -386,7 +386,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
      The resulting Build target should resemble the following code:  
   
-    ```  
+    ```xml  
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">  
       <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
       <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
@@ -416,7 +416,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 ### Code  
   
-```c#  
+```xml
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
@@ -456,7 +456,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 ### Code  
   
-```vb#  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
