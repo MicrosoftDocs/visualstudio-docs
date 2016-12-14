@@ -58,3 +58,6 @@ translation.priority.ht:
    ![Rename method](media/extractmethod_rename.png)
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)
