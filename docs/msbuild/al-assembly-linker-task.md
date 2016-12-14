@@ -87,7 +87,7 @@ The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklo
 ## Example  
  The following example creates an assembly with the specified options.  
   
-```  
+```xml  
 <AL  
     EmbedResources="@(EmbeddedResource)"  
     Culture="%(EmbeddedResource.Culture)"  

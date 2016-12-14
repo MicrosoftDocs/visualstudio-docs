@@ -53,13 +53,13 @@ This topic describes MSBuild errors that might occur because of reference issues
 ## You Have Re-Targeted a Project to a Different Version of the .NET Framework and References Do Not Resolve  
  If you retarget a project to a different version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], your references may not resolve properly in some cases. Explicit fully qualified references to assemblies often cause this issue, but you can resolve it by removing the references that do not resolve and then adding them back to the project. As an alternative, you can edit the project file to replace the references. First, you remove references of the following form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />  
 ```  
   
  Then you replace them with the simple form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel" />  
 ```  
   

@@ -58,7 +58,7 @@ Unregisters the specified assemblies for COM interop purposes. Performs the reve
 ## Example  
  The following example uses the `UnregisterAssembly` task to unregister the assembly at the path specified by the `OutputPath` and `FileName` properties, if it exists.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <OutputPath>\Output\</OutputPath>  

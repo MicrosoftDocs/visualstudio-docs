@@ -41,13 +41,13 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../extensibil
 ## MSBuild Special Characters  
  One example of where special characters are used is in the `Include` attribute of item lists. For example, the following item list declares two items: `MyFile.cs` and `MyClass.cs`.  
   
-```  
+```xml  
 <Compile Include="MyFile.cs;MyClass.cs"/>  
 ```  
   
  If you want to declare an item that contains a semicolon in the name, you must use the %*xx* syntax to escape the semicolon and prevent [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] from declaring two separate items. For example, the following item escapes the semicolon and declares one item named `MyFile.cs;MyClass.cs`.  
   
-```  
+```xml  
 <Compile Include="MyFile.cs%3BMyClass.cs"/>  
 ```  
   
@@ -57,5 +57,5 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../extensibil
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)
  [Items](../msbuild/msbuild-items.md)

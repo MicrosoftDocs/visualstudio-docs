@@ -44,7 +44,7 @@ Contains a user defined property name and value. Every property used in an [!INC
   
 ## Syntax  
   
-```  
+```xml  
 <Property Condition="'String A' == 'String B'">  
     Property Value  
 </Property>  
@@ -79,7 +79,7 @@ Contains a user defined property name and value. Every property used in an [!INC
 ## Example  
  The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
   
-```  
+```xml  
 <PropertyGroup>  
     <Optimization>false</Optimization>  
     <DefaultVersion Condition="'$(Version)' == ''" >1.0</DefaultVersion>  

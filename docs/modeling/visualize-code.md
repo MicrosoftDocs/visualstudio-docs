@@ -66,3 +66,5 @@ You can use the visualization and modeling tools in Visual Studio to help you un
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
+
+ [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
