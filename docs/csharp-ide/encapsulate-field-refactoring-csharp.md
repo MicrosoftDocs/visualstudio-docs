@@ -8,8 +8,6 @@ ms.technology:
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
