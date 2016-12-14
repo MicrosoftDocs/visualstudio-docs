@@ -589,5 +589,5 @@ $(PropertyName)
  To learn how to create a simple project file one step at a time, try out the [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
   
 ## See Also
-[MSBuild Overview](../msbuild/msbuild1.md)  
+[MSBuild Overview](../msbuild/msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)

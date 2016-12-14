@@ -75,6 +75,6 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 ```  
   
 ## See Also
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
