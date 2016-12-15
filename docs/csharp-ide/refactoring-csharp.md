@@ -52,5 +52,5 @@ Visual C# provides the following refactoring features:
 * [Rename](refactoring/rename.md)
  
 ## See Also  
- [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)   
+ [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
