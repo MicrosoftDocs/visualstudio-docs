@@ -14,6 +14,7 @@ author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 f1_keywords:
+    - "vs.csharp.refactoring.remove"
 	- "vs.csharp.refactoring.reorder"
 dev_langs:
 	- csharp
@@ -71,3 +72,6 @@ translation.priority.ht:
 1. When you are finished, press the **OK** button to make the changes.
 
    ![Change Signature result](media/changesignature_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

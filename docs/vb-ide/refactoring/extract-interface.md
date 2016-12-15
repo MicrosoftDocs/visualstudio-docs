@@ -68,3 +68,6 @@ translation.priority.ht:
 
    ![Resulting Class](media/extractinterface_class.png)
    ![Resulting Interface](media/extractinterface_interface.png)
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)
