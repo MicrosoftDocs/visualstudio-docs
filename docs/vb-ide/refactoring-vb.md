@@ -43,6 +43,8 @@ Refactoring is the process of improving your code after it has been written by c
 Visual Basic provides the following refactoring features:  
   
 * [Change Method Signature](refactoring/change-method-signature.md)
+* [Encapsulate Field](refactoring/encapsulate-field.md)
+* [Extract Interface](refactoring/extract-interface.md)
 * [Extract Interface](refactoring/extract-interface.md)
 * [Extract Method](refactoring/extract-method.md)
 * [Inline Temporary Variable](refactoring/inline-temporary-variable.md)

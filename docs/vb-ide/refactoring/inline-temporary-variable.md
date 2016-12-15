@@ -50,3 +50,6 @@ translation.priority.ht:
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
    ![Inline result](media/inline_result.png)
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)

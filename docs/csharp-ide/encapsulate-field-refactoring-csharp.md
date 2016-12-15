@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/encapsulate-field
+
 title: "Encapsulate Field Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -8,8 +10,6 @@ ms.technology:
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 

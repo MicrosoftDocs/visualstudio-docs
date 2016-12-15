@@ -65,3 +65,6 @@ translation.priority.ht:
 > If you use a name that already exists which would cause a conflict, the **Rename** box in your IDE will warn you.
 >
 > ![Rename Conflict](media/rename_conflict.png)
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)

@@ -72,3 +72,6 @@ translation.priority.ht:
 1. When you are finished, press the **OK** button to make the changes.
 
    ![Change Signature result](media/changesignature_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

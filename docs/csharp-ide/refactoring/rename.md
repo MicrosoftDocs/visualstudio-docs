@@ -67,5 +67,5 @@ translation.priority.ht:
 >
 > ![Rename Conflict](media/rename_conflict.png)
 
-
-<!--   ![Rename item](media/rename_rename.png)-->
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)
