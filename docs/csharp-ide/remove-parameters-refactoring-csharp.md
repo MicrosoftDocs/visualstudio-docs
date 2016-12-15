@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/change-method-signature
+
 title: "Remove Parameters Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -101,4 +103,4 @@ MyMethod(param2);
  by the refactoring operation, `param1` will not be incremented.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

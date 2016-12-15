@@ -14,6 +14,7 @@ author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 f1_keywords:
+    - "vs.csharp.refactoring.remove"
 	- "vs.csharp.refactoring.reorder"
 dev_langs:
 	- VB

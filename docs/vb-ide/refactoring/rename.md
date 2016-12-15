@@ -12,6 +12,10 @@ ms.assetid: abf1565b-c7b7-4d45-b3d3-a438a836c70e
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+    - "vs.csharp.refactoring.rename"
+dev_langs:
+	- VB
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
