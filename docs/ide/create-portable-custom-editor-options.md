@@ -1,7 +1,7 @@
 ---
 title: "Create portable, custom editor settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/29/2016"
+ms.date: "12/14/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -58,7 +58,7 @@ The editor in Visual Studio supports the following values of the core set of Edi
 - end_of_line
 - charset
 - root
-- [code style conventions](xref:editorconfig-code-style-settings-reference.md)
+- [code style conventions](../ide/editorconfig-code-style-settings-reference.md)
 
 EditorConfig settings are supported in all Visual Studio-supported languages except for XML.
 
