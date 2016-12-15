@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/encapsulate-field
+
 title: "Encapsulate Field Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
