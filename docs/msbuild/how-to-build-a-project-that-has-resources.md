@@ -56,7 +56,7 @@ If you are building localized versions of a project, all user interface elements
   
  `Resgen.exe /compile alpha.resx,alpha.resources /compile beta.txt,beta.resources`  
   
-```  
+```xml  
 <GenerateResource  
     Sources="alpha.resx; beta.txt"  
     OutputResources="alpha.resources; beta.resources">  
@@ -68,7 +68,7 @@ If you are building localized versions of a project, all user interface elements
 ## Example  
  The following example project contains two tasks: the `GenerateResource` task to compile resources and the `Csc` task to compile both the source code files and the compiled resources files. The resource files compiled by the `GenerateResource` task are stored in the `Resources` item and passed to the `Csc` task.  
   
-```  
+```xml  
 <Project DefaultTargets = "Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
@@ -90,7 +90,7 @@ If you are building localized versions of a project, all user interface elements
 ```  
   
 ## See Also  
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [GenerateResource Task](../msbuild/generateresource-task.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Resgen.exe (Resource File Generator)](http://msdn.microsoft.com/Library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)

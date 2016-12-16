@@ -40,7 +40,7 @@ Writes tracking logs for all threads and contexts.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName);  
 ```  
   

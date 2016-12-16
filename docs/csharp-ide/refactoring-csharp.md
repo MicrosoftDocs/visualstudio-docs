@@ -44,6 +44,7 @@ Refactoring is the process of improving your code after it has been written by c
 Visual C# provides the following refactoring features:  
   
 * [Change Method Signature](refactoring/change-method-signature.md)
+* [Encapsulate Field](refactoring/encapsulate-field.md)
 * [Extract Interface](refactoring/extract-interface.md)
 * [Extract Method](refactoring/extract-method.md)
 * [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
@@ -51,5 +52,5 @@ Visual C# provides the following refactoring features:
 * [Rename](refactoring/rename.md)
  
 ## See Also  
- [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)   
+ [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)

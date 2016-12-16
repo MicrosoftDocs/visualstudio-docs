@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in Visual Studio 2017 RC | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "12/13/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,17 +36,20 @@ Welcome to Visual Studio 2017 RC, an integrated suite of developer productivity 
 
 In this release candidate (RC) of our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
-But before we dig in to the details, here is high-level recap of the changes we've made:
+> [!TIP]
+> To see our new RC in action, watch the [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) video on Channel 9.   
+
+Here is a high-level recap of the changes we've made:
 
 * **Boosted productivity**. Enhancements to code navigation, IntelliSense, refactoring, code fixes, and debugging, saves you time and effort on everyday tasks regardless of language or platform. In addition, for teams embracing DevOps, Visual Studio 2017 streamlines the developer inner loop and speeds up code flow with brand new real-time features such as live unit testing and real-time architectural dependency validation.
 * **Redefined fundamentals**.  There is a renewed focus to enhance the efficiency of the fundamental tasks that developers encounter on daily basis. From a brand-new lightweight and modular installation tailored to a developer's need, a faster IDE from startup to shut down, to a new way to view, edit, and debug any code without projects and solutions, Visual Studio 2017 helps developers stay focused on the big picture.
 * **Streamlined Azure development**. Built-in suite of Azure tools that enable developers to easily create cloud-first applications powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE.
 * **Five-star mobile development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for developers to build, connect, and tune mobile apps for Android, iOS, and Windows. Developers can also choose to develop mobile apps with Apache Cordova or with Visual C++ cross-platform library development, all in Visual Studio.  
 
-And now, here are more details on our most notable changes.
+And here are more details on our most notable changes.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs), as well as the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes..   
+> For a complete list of new features and functionality in Visual Studio 2017 RC and its subsequent RC Refresh, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs). And for a list of issues and workarounds, see the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes.   
 
 ## Performance improvements
 
@@ -181,5 +184,6 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
 
 ## See Also  
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)   
+* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)  
+* [What's New for Team Foundation Server](https://www.visualstudio.com/en-us/docs/whats-new)
 * [Visual Studio Release Notes](https://www.visualstudio.com/news/vs2015-vs)

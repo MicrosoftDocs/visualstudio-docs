@@ -8,10 +8,15 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: VB
 ms.assetid: db857fb1-3e22-46e2-b15a-56ef9f329235
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+	- "vs.csharp.refactoring.extractinterface"
+dev_langs:
+	- VB
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -63,3 +68,6 @@ translation.priority.ht:
 
    ![Resulting Class](media/extractinterface_class.png)
    ![Resulting Interface](media/extractinterface_interface.png)
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)

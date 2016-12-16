@@ -54,7 +54,7 @@ The ability of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstec
   
  Although only <xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement <xref:Microsoft.Build.Framework.INodeLogger> so that the central logger initializes with the number of nodes that are participating in the build. The following overload of the <xref:Microsoft.Build.Framework.ILogger.Initialize%2A> method invokes when the engine initializes the logger.  
   
-```  
+```cs
 public interface INodeLogger: ILogger  
 {  
     public void Initialize(IEventSource eventSource, int nodeCount);  

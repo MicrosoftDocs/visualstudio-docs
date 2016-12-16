@@ -59,7 +59,7 @@ The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of
 ## Example  
  The following example classifies a single source file as a resource and then embeds it in a satellite assembly for the French-Canadian (fr-CA) culture.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask  
     TaskName="Microsoft.Build.Tasks.Windows.FileClassifier"   

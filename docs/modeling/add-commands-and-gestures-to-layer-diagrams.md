@@ -1,5 +1,5 @@
 ---
-title: "Add commands and gestures to layer diagrams | Microsoft Docs"
+title: "Add commands and gestures to dependency diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -7,8 +7,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "layer diagrams, adding custom commands"
-  - "layer diagrams, adding custom gestures"
+  - "dependency diagrams, adding custom commands"
+  - "dependency diagrams, adding custom gestures"
 ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 38
 author: "alexhomer1"
@@ -30,13 +30,13 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Add commands and gestures to layer diagrams
-You can define context menu commands and gesture handlers on layer diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.  
+# Add commands and gestures to dependency diagrams
+You can define context menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.  
   
- You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, a domain-specific language, and commands for UML diagrams.  
+ You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, and a domain-specific language.  
   
 > [!NOTE]
->  You can also customize architecture validation, in which users’ source code is compared with layer diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
+>  You can also customize architecture validation, in which users’ source code is compared with dependency diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
   
 ## Requirements  
  See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).  
@@ -54,7 +54,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 3.  To test the extension, press **CTRL+F5** or **F5**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts. In this instance, create a layer diagram. Your command or gesture extension should work in this diagram.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.  
   
 4.  Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
@@ -67,7 +67,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
 6.  To install the extension in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Command or Gesture to a separate VSIX  
- If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
+ If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers.
   
 #### To add layer extensions to a separate VSIX  
   
@@ -113,7 +113,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, create or open a layer diagram.  
+2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, create or open a dependency diagram.  
   
 3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
   
@@ -164,7 +164,7 @@ using System.Linq;
   
 namespace MyLayerExtension // Change to your preference.  
 {  
-  // This is a feature for Layer diagrams:  
+  // This is a feature for dependency diagrams:  
   [LayerDesignerExtension]  
   // This feature is a menu command:  
   [Export(typeof(ICommandExtension))]  
@@ -225,7 +225,7 @@ namespace MyLayerExtension // Change to your preference.
 ```  
   
 ##  <a name="gesture"></a> Defining a Gesture Handler  
- A gesture handler responds when the user drags items onto the layer diagram, and when the user double-clicks anywhere in the diagram.  
+ A gesture handler responds when the user drags items onto the dependency diagram, and when the user double-clicks anywhere in the diagram.  
   
  To your existing command or gesture handler VSIX project, you can add a code file that defines a gesture handler:  
   
@@ -269,11 +269,11 @@ namespace MyLayerExtensions // change to your preference
     }  
     ```  
   
--   Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a layer diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.  
+-   Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.  
   
  For more information about how to decode other items when they are dragged onto the diagram, see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).  
   
 ## See Also  
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   
- [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
+ [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)

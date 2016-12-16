@@ -8,10 +8,16 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: csharp
 ms.assetid: b4f45f9d-9c8f-46ae-99f7-7705c6d90b6e
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+    - "vs.csharp.refactoring.remove"
+	- "vs.csharp.refactoring.reorder"
+dev_langs:
+	- csharp
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -66,3 +72,6 @@ translation.priority.ht:
 1. When you are finished, press the **OK** button to make the changes.
 
    ![Change Signature result](media/changesignature_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

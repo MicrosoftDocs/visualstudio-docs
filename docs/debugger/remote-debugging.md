@@ -40,9 +40,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Remote Debugging
-You can debug a Visual Studio application that has been deployed on a different computer.  To do so, you use the Visual Studio remote debugger.  
+You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
   
- The information here applies to Windows desktop applications and ASP.NET applications.  For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).  
+ The information here applies to Windows desktop applications and ASP.NET applications. For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).
   
 ## Download and Install the Remote Tools  
  Follow these steps to download the remote tools.

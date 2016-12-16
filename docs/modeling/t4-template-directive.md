@@ -44,7 +44,7 @@ A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usu
  `compilerOptions="optimize+"`  
   
  Valid values:  
- Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](/dotnet/csharp/language-reference/compiler-options/listed-by-category) and [Visual Basic Compiler Options Listed by Category](/dotnet/visual-basic/reference/command-line-compiler/compiler-options-listed-by-category).  
+ Any valid compiler options.  
   
  Ignored for run-time (preprocessed) templates.  
   
