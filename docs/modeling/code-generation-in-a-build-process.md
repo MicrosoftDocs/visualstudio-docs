@@ -39,7 +39,7 @@ translation.priority.ht:
 ##  <a name="buildserver"></a> Configure your machines  
  To enable build tasks on your development computer, install Modeling SDK for Visual Studio.
  
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
  If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.  
   
@@ -302,5 +302,5 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
   
  [Oleg Sych: Understanding T4:MSBuild Integration](http://www.olegsych.com/2010/04/understanding-t4-msbuild-integration/)
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

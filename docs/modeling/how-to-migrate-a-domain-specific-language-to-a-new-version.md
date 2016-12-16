@@ -81,7 +81,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
     -   Test your designer.  
   
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 ## See Also  
  [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
