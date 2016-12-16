@@ -59,7 +59,7 @@ Invokes the specified targets within the project file.
 ## Example  
  The following example calls `TargetA` from inside `CallOtherTargets`.  
   
-```  
+```xml  
 <Project DefaultTargets="CallOtherTargets"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   

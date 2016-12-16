@@ -105,7 +105,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 > [!NOTE]
 >  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -158,7 +158,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 > [!NOTE]
 >  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -216,7 +216,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 > [!NOTE]
 >  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -333,7 +333,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 > [!NOTE]
 >  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
-```  
+```xml  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

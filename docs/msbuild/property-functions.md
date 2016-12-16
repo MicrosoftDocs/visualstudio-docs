@@ -246,7 +246,7 @@ $[MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile)
   
  The following code is an example of this syntax.  
   
-```  
+```xml  
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))\EnlistmentInfo.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))' != '' " />  
 ```  
   
@@ -321,7 +321,7 @@ Output:
   
  The following example shows how this function is used.  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <PropertyGroup>  
@@ -344,4 +344,4 @@ Output:
 
 ## See Also
 [MSBuild Properties](../msbuild/msbuild-properties.md)   
-[MSBuild Overview](../msbuild/msbuild1.md)
+[MSBuild Overview](../msbuild/msbuild.md)

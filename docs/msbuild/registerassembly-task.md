@@ -57,7 +57,7 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 ## Example  
  The following example uses the `RegisterAssembly` task to register the assembly specified by the `MyAssemblies` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

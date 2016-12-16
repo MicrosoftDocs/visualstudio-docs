@@ -50,7 +50,7 @@ A build platform needs the ability to execute any number of actions during the b
   
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] item lists and properties can be used as parameters. For example, the following code calls the `MakeDir` task and sets the value of the `Directories` property of the `MakeDir` object equal to the value of the `BuildDir` property declared in the previous example.  
   
-```  
+```xml  
 <Target Name="MakeBuildDirectory">  
     <MakeDir  
         Directories="$(BuildDir)" />  
@@ -59,7 +59,7 @@ A build platform needs the ability to execute any number of actions during the b
   
  Tasks can also return information to the project file, which can be stored in items or properties for later use. For example, the following code calls the `Copy` task and stores the information from the `CopiedFiles` output property in the `SuccessfullyCopiedFiles` item list.  
   
-```  
+```xml  
 <Target Name="CopyFiles">  
     <Copy  
         SourceFiles="@(MySourceFiles)"  
@@ -79,6 +79,6 @@ A build platform needs the ability to execute any number of actions during the b
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [MSBuild](../msbuild/msbuild1.md)   
+ [MSBuild](../msbuild/msbuild.md)   
  [Task Writing](../msbuild/task-writing.md)   
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)

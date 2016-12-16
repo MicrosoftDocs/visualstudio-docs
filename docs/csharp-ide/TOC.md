@@ -3,6 +3,7 @@
 ## [Metadata as Source](metadata-as-source.md)
 ## [Refactoring](refactoring-csharp.md)
 ### [Change Method Signature](refactoring/change-method-signature.md)
+### [Encapsulate Field](refactoring/encapsulate-field.md)
 ### [Extract Interface](refactoring/extract-interface.md)
 ### [Extract Method](refactoring/extract-method.md)
 ### [Inline Temporary Variable](refactoring/inline-temporary-variable.md)

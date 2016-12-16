@@ -50,3 +50,6 @@ translation.priority.ht:
    The type will instantly moved to a new file with that name inside of your solution.
 
    ![Inline result](media/movetype_result.png)
+
+## See Also
+[Refactoring (Visual Basic)](../refactoring-vb.md)

@@ -45,7 +45,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
   
 ## Syntax  
   
-```  
+```xml  
 <TaskBody Evaluate="true/false" />  
 ```  
   
@@ -73,7 +73,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
 ## Example  
  The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.  
   
-```  
+```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
        <ParameterGroup>  
               <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  

@@ -70,7 +70,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_Creating1"></a> Creating Items in a Project File  
  You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
   
-```  
+```xml  
 <ItemGroup>  
     <Compile Include = "file1.cs"/>  
     <Compile Include = "file2.cs"/>  
@@ -81,7 +81,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The following XML creates the same item type by declaring both files in one `Include` attribute. Notice that the file names are separated by a semicolon.  
   
-```  
+```xml  
 <ItemGroup>  
     <Compile Include = "file1.cs;file2.cs"/>  
 </ItemGroup>  
@@ -112,13 +112,13 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  For example, you can specify all the .cs files in the directory that contains the project file by using the following element in your project file.  
   
-```  
+```xml  
 <CSFile Include="*.cs"/>  
 ```  
   
  The following element selects all .vb files on the D: drive:  
   
-```  
+```xml  
 <VBFile Include="D:/**/*.vb"/>  
 ```  
   
@@ -127,7 +127,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_ExcludeAttribute"></a> Using the Exclude Attribute  
  Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every .cs file in the directory to the CSFile item type, except the `DoNotBuild.cs` file.  
   
-```  
+```xml  
 <ItemGroup>  
     <CSFile  Include="*.cs"  Exclude="DoNotBuild.cs"/>  
 </ItemGroup>  
@@ -135,7 +135,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The `Exclude` attribute affects only the items that are added by the `Include` attribute in the item element that contains them both. The following example wouldn’t exclude the file Form1.cs, which was added in the preceding item element.  
   
-```  
+```xml  
 <Compile Include="*.cs" />  
 <Compile Include="*.res" Exclude="Form1.cs">  
 ```  
@@ -149,7 +149,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The metadata is associated with the item element that contains it. For example, the following XML adds `Culture` metadata that has the value `Fr` to both the "one.cs" and the "two.cs" items of the CSFile item type.  
   
-```  
+```xml  
 <ItemGroup>  
     <CSFile Include="one.cs;two.cs">  
         <Culture>Fr</Culture>  
@@ -162,7 +162,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ###  <a name="BKMK_ReferencingItemMetadata"></a> Referencing Item Metadata in a Project File  
  You can reference item metadata throughout the project file by using the syntax %(`ItemMetadataName`). If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify %(*ItemType.ItemMetaDataName*).The following example uses the Display metadata to batch the Message task. For more information about how to use item metadata for batching, see [Item Metadata in Task Batching](../msbuild/item-metadata-in-task-batching.md).  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Stuff Include="One.cs" >  
@@ -186,7 +186,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The following code creates a `CultureResource` item type that contains copies of all `EmbeddedResource` items with `Culture` metadata. The `Culture` metadata value becomes the value of the new metadata `CultureResource.TargetDirectory`.  
   
-```  
+```xml  
 <Target Name="ProcessCultureResources">  
     <ItemGroup>  
         <CultureResource Include="@(EmbeddedResource)"  
@@ -202,7 +202,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_ItemDefinitions"></a> Item Definitions  
  Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items "one.cs" and "three.cs" the metadata `BuildDay` with the value "Monday". The code gives the item "two.cs" the metadata `BuildDay` with the value "Tuesday".  
   
-```  
+```xml  
 <ItemDefinitionGroup>  
     <Compile>  
         <BuildDay>Monday</BuildDay>  
@@ -226,7 +226,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The following example removes every .config file from the Compile item type.  
   
-```  
+```xml  
 <Target>  
     <ItemGroup>  
         <Compile Remove="*.config"/>  
@@ -239,7 +239,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  The following example illustrates how to use the `KeepMetadata` attribute.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
 ToolsVersion="4.0">  
   
@@ -281,7 +281,7 @@ Output:
   
  The following example illustrates how to use the `RemoveMetadata` attribute.  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <PropertyGroup>  
@@ -332,7 +332,7 @@ Output:
   
  The following example illustrates how to use the `KeepDuplicates` attribute.  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  
@@ -366,7 +366,7 @@ Output:
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
- [MSBuild](../msbuild/msbuild1.md)   
+ [MSBuild](../msbuild/msbuild.md)   
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)   
  [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   

@@ -40,7 +40,7 @@ Stops all tracking and frees any memory used by the tracking session.
   
 ## Syntax  
   
-```  
+```cpp 
 HRESULT WINAPI StopTrackingAndCleanup(void);  
 ```  
   

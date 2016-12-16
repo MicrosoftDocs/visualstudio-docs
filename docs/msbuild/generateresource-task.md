@@ -83,7 +83,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 ## Example  
  The following example uses the `GenerateResource` task to generate .resources files from the files specified by the `Resx` item collection.  
   
-```  
+```xml  
 <GenerateResource  
     Sources="@(Resx)"  
     OutputResources="@(Resx->'$(IntermediateOutputPath)%(Identity).resources')">  
@@ -97,7 +97,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
   
  Assuming that the assembly is named myAssembly, the following code generates an embedded resource named someQualifier.someResource.resources:  
   
-```  
+```xml  
 <ItemGroup>   <EmbeddedResource Include="myResource.resx">       <LogicalName>someQualifier.someResource.resources</LogicalName>   </EmbeddedResource></ItemGroup>  
 ```  
   
