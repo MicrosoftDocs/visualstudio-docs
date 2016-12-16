@@ -1,5 +1,5 @@
 ---
-title: "Refactoring | Microsoft Docs"
+title: "Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
