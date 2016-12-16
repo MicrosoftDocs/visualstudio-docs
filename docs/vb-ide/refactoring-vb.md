@@ -54,5 +54,4 @@ Visual Basic provides the following refactoring features:
 <!--
 ## See Also  
  [Using the Visual Studio Development Environment for Visual Basic](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)   
- [How to: Restore Visual Basic Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
 -->

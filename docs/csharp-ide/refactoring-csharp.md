@@ -53,4 +53,4 @@ Visual C# provides the following refactoring features:
  
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
+ 
