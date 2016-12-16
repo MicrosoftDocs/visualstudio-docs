@@ -359,5 +359,5 @@ protected override IList<MenuCommand> GetMenuCommands()
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
  
-  [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
  
