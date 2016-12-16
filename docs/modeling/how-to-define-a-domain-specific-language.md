@@ -32,7 +32,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
  If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
 
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
   
 ##  <a name="templates"></a> Selecting a Template Solution  
@@ -45,7 +45,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
 |Visual Studio Visualization and Modeling SDK||  
 
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
   
  To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution using the Domain-Specific Language project template.  
@@ -631,5 +631,5 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
  [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)   
  [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md)
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

@@ -58,4 +58,4 @@ Visual Studio can help keep your software consistent with the users' requirement
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

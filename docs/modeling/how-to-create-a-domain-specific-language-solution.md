@@ -31,7 +31,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
 |Visual Studio Visualization and Modeling SDK||  
 
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
   
 ## Creating a Domain-Specific Language Solution  
