@@ -50,7 +50,7 @@ By using the Modeling SDK for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_
   
  You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.  
   
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
  
  [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
   

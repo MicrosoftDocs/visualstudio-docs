@@ -122,7 +122,6 @@
 ### [Visual C# Code Snippets](visual-csharp-code-snippets.md)
 ### [Visual C++ Code Snippets](visual-cpp-code-snippets.md)
 ### [Code Snippet Functions](code-snippet-functions.md)
-### [How to: Restore C# Refactoring Snippets](how-to-restore-csharp-refactoring-snippets.md)
 ### [How to: Use Surround-with Code Snippets](how-to-use-surround-with-code-snippets.md)
 ### [Best Practices for Using Code Snippets](best-practices-for-using-code-snippets.md)
 ### [Troubleshooting Snippets](troubleshooting-snippets.md)

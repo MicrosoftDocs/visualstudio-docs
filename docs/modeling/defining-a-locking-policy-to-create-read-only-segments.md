@@ -27,7 +27,7 @@ The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
   
  More information and samples are available at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
   
 ## Setting and Getting Locks  
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:  

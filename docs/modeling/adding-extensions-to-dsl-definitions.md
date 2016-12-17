@@ -29,7 +29,7 @@ DSL Definition extension allows you to create a package of extensions to a domai
   
  A user of an extended DSL can create and save a model that contains instances of the additional features, and these can be read by other users who have installed the appropriate extension. Users who have not installed the extension cannot use the additional features, but they can update and save a model without losing the additional features.  
 
- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 ## See Also  
  [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
