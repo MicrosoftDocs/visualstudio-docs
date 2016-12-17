@@ -43,7 +43,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
  > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
 ## See Also
-* [Install Visual Studio 2017 RC](isntall-visual-studio.md)
+* [Install Visual Studio 2017 RC](install-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017 RC](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
