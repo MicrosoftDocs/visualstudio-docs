@@ -53,10 +53,14 @@ translation.priority.ht:
    ![Implement class preview](media/interface_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
    >
    >Additionally, you can use the **Document**, **Project**, and **Solution** links at the bottom of the preview window to create the proper method signatures across multiple classes which implement the interface.
 
 1. The interface's method signatures will be created automatically, ready to be implemented.
 
    ![Implement class result](media/interface_result.png)
+
+## See Also  
+[Code Generation (Visual Basic)](../code-generation-vb.md)  
+[Preview Changes](../../ide/preview-changes.md)

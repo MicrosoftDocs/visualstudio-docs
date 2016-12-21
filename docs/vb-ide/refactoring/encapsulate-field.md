@@ -62,9 +62,10 @@ translation.priority.ht:
    The property will be immediately created and references to the field will be updated, if selected.
 
    > [!TIP]
-   > Use the **Preview changes** link in the popup window to see what the result will be before committing to it.
+   > Use the [**Preview changes**](../../ide/preview-changes.md) link in the popup window to see what the result will be before committing to it.
 
    ![Encapsulate Property result](media/encapsulate_result.png)
 
-## See Also
-[Refactoring (Visual Basic)](../refactoring-vb.md)
+## See Also  
+[Refactoring (Visual Basic)](../refactoring-vb.md)  
+[Preview Changes](../../ide/preview-changes.md)

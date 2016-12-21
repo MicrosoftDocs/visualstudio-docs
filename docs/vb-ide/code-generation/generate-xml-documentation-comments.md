@@ -51,4 +51,5 @@ translation.priority.ht:
    ![Completed comment](media/doc_result.png)
 
 ## See Also
-[Documenting Your Code with XML (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)
+[Documenting Your Code with XML (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)  
+[Code Generation (Visual Basic)](../code-generation-vb.md) 

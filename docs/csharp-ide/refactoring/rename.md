@@ -58,7 +58,7 @@ translation.priority.ht:
    ![Rename animation](media/rename_animated.gif)
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as preview changes before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
 
@@ -68,4 +68,5 @@ translation.priority.ht:
 > ![Rename Conflict](media/rename_conflict.png)
 
 ## See Also  
-[Refactoring (C#)](../refactoring-csharp.md)
+[Refactoring (C#)](../refactoring-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

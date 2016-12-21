@@ -50,3 +50,6 @@ translation.priority.ht:
 1. The selected method or property will be added to the class as an override, ready to be implemented.
 
    ![Override result](media/override_result.png)
+
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  

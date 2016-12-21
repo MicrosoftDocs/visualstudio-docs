@@ -64,7 +64,7 @@ translation.priority.ht:
    Generate new type... | Creates a new class or struct with all of the properties you specify.
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. If you select the **Generate new type...** item, a dialog box will pop up that allows you to perform some additional actions.
 
@@ -81,3 +81,7 @@ translation.priority.ht:
 1. The class/struct will be created automatically with the constructor inferred from its usage.
 
    ![Generate class result](media/class_result.png)
+
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)
