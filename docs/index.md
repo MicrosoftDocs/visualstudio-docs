@@ -18,13 +18,13 @@ ms.assetid:
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833223">
+                <a href="/visualstudio/install/install-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.png" alt="" />
+                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -37,13 +37,13 @@ ms.assetid:
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833058">
+                <a href="/visualstudio/ide/get-started-with-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.png" alt="" />
+                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -56,13 +56,13 @@ ms.assetid:
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=834481">
+                <a href="/visualstudio/ide/whats-new-in-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.png" alt="" />
+                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
