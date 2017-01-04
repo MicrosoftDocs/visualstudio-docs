@@ -2,7 +2,6 @@
 title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -59,7 +58,7 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 ### To correct this error  
   
-1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
+1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 2.  Run the remote debugger service under an account that can access the debugger host computer, as shown in the previous table.  
   

@@ -2,7 +2,6 @@
 title: "RemoveDir Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -56,7 +55,7 @@ Removes the specified directories and all of its files and subdirectories.
 ## Example  
  The following example removes the directories specified by the `OutputDirectory` and `DebugDirectory` properties. These paths are treated as relative to the project directory.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2005">  
   
     <PropertyGroup>  

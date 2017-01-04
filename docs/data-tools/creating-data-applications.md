@@ -2,7 +2,6 @@
 title: "Creating Data Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -78,7 +77,7 @@ The Data Cycle
  To learn how to create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects, complete the procedures in [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md).  
   
 ## Fetching Data into Your Application  
- Whether your application uses a disconnected data model or not, you need to be able to fetch data into your application. You bring data into your application by executing queries or stored procedures against a database. Applications that store data in datasets execute queries and stored procedures by using `TableAdapter`s, whereas applications that store data in entities execute queries by using [LINQ to Entities](../Topic/LINQ%20to%20Entities.md) or by connecting entities directly to stored procedures. For more information about creating and editing queries that use TableAdapters, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md) and [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md).  
+ Whether your application uses a disconnected data model or not, you need to be able to fetch data into your application. You bring data into your application by executing queries or stored procedures against a database. Applications that store data in datasets execute queries and stored procedures by using `TableAdapter`s, whereas applications that store data in entities execute queries by using [LINQ to Entities](http://msdn.microsoft.com/Library/641f9b68-9046-47a1-abb0-1c8eaeda0e2d) or by connecting entities directly to stored procedures. For more information about creating and editing queries that use TableAdapters, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md) and [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md).  
   
  For more information about loading data into datasets, and about executing queries and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
   

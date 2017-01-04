@@ -2,7 +2,6 @@
 title: "GetAssemblyIdentity Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -58,7 +57,7 @@ Retrieves the assembly identities from the specified files and outputs the ident
 ## Example  
  The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

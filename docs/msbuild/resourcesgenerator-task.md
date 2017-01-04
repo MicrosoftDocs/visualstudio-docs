@@ -2,7 +2,6 @@
 title: "ResourcesGenerator Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -52,7 +51,7 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
 ## Example  
  The following example generates a .resources file with a single .bmp resource. The .bmp resource is generated to a directory that is relative to the project root directory.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.ResourcesGenerator"   
@@ -71,4 +70,4 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)

@@ -2,7 +2,6 @@
 title: "Attach to Running Processes with the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,7 +50,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attach to Running Processes with the Visual Studio Debugger
-Attaching the Visual Studio debugger to a process is often useful when you haven't started an app from Visual Studio, but you want to debug it. For example, you can attach to an IIS process  or Windows service that hosts a .NET app. The process you attach to might be local or remote. Another example is if you are running the app without the debugger and hit an exception, you might then attach to the process running the app to begin debugging.
+Attaching the Visual Studio debugger to a process is often useful when you haven't started an app from Visual Studio, but you want to debug it. For example, you can attach to an IIS process or Windows service that hosts a .NET app. The process you attach to might be local or remote. Another example is if you are running the app without the debugger and hit an exception, you might then attach to the process running the app to begin debugging.
 
 For some app types (like Windows Store apps), you don't attach directly to a process name, but use the **Debug Installed App Package** menu option instead (see table).
 
@@ -64,8 +63,8 @@ To help you identify whether you need to attach to a process for your scenario, 
 |Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
 |Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
-|Remote debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
-|Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
+|Remote debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|Use [Debug an Installed App Package](debug-installed-app-package.md) instead of **Attach to process**|
+|Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use [Debug an Installed App Package](debug-installed-app-package.md) instead of **Attach to process**|
   
 > [!WARNING]
 >  To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.  
@@ -86,7 +85,7 @@ For Windows desktop apps, you can also debug the running app using the JIT debug
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
  In order to attach to a process, you must know the name of the process. For ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html) for ASP.NET Core apps. For other apps, you may be able to find the name of the process in the Task Manager.
   
- When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
+ When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../debugger/remote-debugging.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
   
  **To select a remote computer:**  
 

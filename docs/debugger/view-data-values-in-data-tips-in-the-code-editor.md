@@ -2,7 +2,6 @@
 title: "View data values in Data Tips  in the code editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -154,6 +153,5 @@ DataTips provide a convenient way to view information about variables in your pr
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [How to: Use the QuickWatch Dialog Box](../Topic/How%20to:%20Use%20the%20QuickWatch%20Dialog%20Box.md)   
+ [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [How to: Change the Numeric Format of Debugger Windows](../Topic/How%20to:%20Change%20the%20Numeric%20Format%20of%20Debugger%20Windows.md)

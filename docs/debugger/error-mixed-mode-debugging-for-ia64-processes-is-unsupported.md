@@ -2,7 +2,6 @@
 title: "Error: Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,4 +43,4 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not 
 -   Build a 32-bit version of your application for debugging.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)
+ [Remote Debugging](../debugger/remote-debugging.md)

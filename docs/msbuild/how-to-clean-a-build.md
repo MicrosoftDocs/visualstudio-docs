@@ -2,7 +2,6 @@
 title: "How to: Clean a Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -72,7 +71,7 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
  `msbuild <file name>.proj /t:Clean;Compile`  
   
-```  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

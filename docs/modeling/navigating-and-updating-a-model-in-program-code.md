@@ -2,7 +2,6 @@
 title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -62,8 +61,6 @@ You can write code to create and delete model elements, set their properties, an
  [Properties of Shapes and Connectors](#shapeProperties)  
   
  [DocView and DocData](#docdata)  
-  
- Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
   
 ##  <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  

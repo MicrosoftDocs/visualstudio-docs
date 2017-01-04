@@ -2,7 +2,6 @@
 title: "Inline Temporary Variable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,3 +50,6 @@ translation.priority.ht:
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
    ![Inline result](media/inline_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

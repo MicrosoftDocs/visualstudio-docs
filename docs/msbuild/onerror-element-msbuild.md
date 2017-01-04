@@ -2,7 +2,6 @@
 title: "OnError Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,7 +47,7 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
   
 ## Syntax  
   
-```  
+```xml  
 <OnError ExecuteTargets="TargetName"  
     Condition="'String A'=='String B'" />  
 ```  
@@ -80,7 +79,7 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 ## Example  
  The following code executes the `TaskOne` and `TaskTwo` tasks. If `TaskOne` fails, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] evaluates the `OnError` element and executes the `OtherTarget` target.  
   
-```  
+```xml  
 <Target Name="ThisTarget">  
     <TaskOne ContinueOnError="ErrorAndStop">  
     </TaskOne>  

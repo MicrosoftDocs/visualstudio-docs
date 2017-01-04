@@ -2,7 +2,6 @@
 title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## ToolsVersion Attribute  
  Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild 12.0 Toolset.  
   
-```  
+```xml  
 <Project ToolsVersion="12.0" ... </Project>  
 ```  
   
@@ -53,7 +52,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  In the following example, MSBuild finds the Microsoft.CSharp.targets file by using the `MSBuildToolsPath` reserved property.  
   
-```  
+```xml  
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />  
 ```  
   

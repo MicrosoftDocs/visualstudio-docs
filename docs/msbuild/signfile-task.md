@@ -2,7 +2,6 @@
 title: "SignFile Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -63,7 +62,7 @@ Signs the specified file using the specified certificate.
 ## Example  
  The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <FileToSign Include="File.exe" />  
@@ -86,7 +85,7 @@ Signs the specified file using the specified certificate.
 ## Example  
  The following example uses the `Exec` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property. You can use this to sign Windows Installer files during the build process.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <FileToSign Include="File.msi" />  

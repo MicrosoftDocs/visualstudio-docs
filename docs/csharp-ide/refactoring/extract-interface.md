@@ -2,17 +2,21 @@
 title: "Extract Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: csharp
 ms.assetid: 55e17f0a-eacb-41ec-b8ca-74f5c6bbd6de
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+	- "vs.csharp.refactoring.extractinterface"
+dev_langs:
+	- csharp
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -64,3 +68,6 @@ translation.priority.ht:
 
    ![Resulting Class](media/extractinterface_class.png)
    ![Resulting Interface](media/extractinterface_interface.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

@@ -2,7 +2,6 @@
 title: "Step 6: Name Your Button Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -85,7 +84,7 @@ Form1.cs tab with Visual C# code
   
      After you add an event handler for a control, you can return to it at any time from Windows Forms Designer by double-clicking the control, or on the menu bar, choosing **View**, **Code**.  
   
-     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md) or [Refactoring and Rename Dialog Box](/dotnet/visual-basic/developing-apps/using-ide/refactoring-and-rename-dialog-box) for more information.  
+     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../csharp-ide/refactoring/rename.md) or [Rename Refactoring (Visual Basic)](../vb-ide/refactoring/rename.md) for more information.
   
 ### To continue or review  
   

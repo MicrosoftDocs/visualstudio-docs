@@ -2,13 +2,12 @@
 title: "Deploy a layer model extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "layer diagrams, deploying extensions"
+  - "dependency diagrams, deploying extensions"
   - "layer models, deploying extensions"
 ms.assetid: 00a4675b-d20e-487e-8fd5-be2b1e0ba238
 caps.latest.revision: 27

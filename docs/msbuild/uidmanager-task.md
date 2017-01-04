@@ -2,7 +2,6 @@
 title: "UidManager Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -54,7 +53,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
 ## Example  
  The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files contain [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] elements that have appropriate UIDs.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.UidManager"   
@@ -73,5 +72,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [How to: Localize an Application](../Topic/How%20to:%20Localize%20an%20Application.md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [How to: Localize an Application](http://msdn.microsoft.com/Library/5001227e-9326-48a4-9dcd-ba1b89ee6653)

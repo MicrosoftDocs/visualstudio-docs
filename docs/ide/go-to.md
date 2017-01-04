@@ -2,7 +2,6 @@
 title: "Go To | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -33,7 +32,7 @@ translation.priority.ht:
 There are many ways to easily navigate your code inside of the Visual Studio IDE, both from the keyboard and the mouse.
 
 ## Go To All
-This feature lets you navigate through your code to find the specific bits you are looking for.  You can search for a specific line, type, symbol, file, and more from a simple interface.
+Navigate through your code to find the specific bits you are looking for.  You can search for a specific line, type, symbol, file, and more from a simple interface.
 
 ### How to use
 * **Keyboard**
@@ -80,7 +79,7 @@ Show details    | Display project, file, line and summary information from docum
 Center window   | Move this window to the center of the IDE instead of the top-right
 
 ## Go To Definition
-To navigate to the definition of a type and open the result in a new tab:
+Navigate to the source of a type and open the result in a new tab:
 
 Input        | Function 
 ------------ | ---
@@ -88,7 +87,7 @@ Input        | Function
 **Mouse**    | Right-click on the type name and select **Go To Definition**
 
 ## Peek Definition
-To preview the the definition of a type in a popup window instead of a new tab:
+Preview the definition of a type in a popup window instead of a new tab:
 
 Input        | Function 
 ------------ | ---
@@ -98,12 +97,27 @@ Input        | Function
 If you peek another definition from the popup window, you will start a breadcrumb path which you can navigate using the circles and arrows which appear above the popup.  For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
 ## Go To Implementation
-To navigate to the implementation of a type:
+Navigate from a base class or type to its implementations.  If there are multiple implementations, you will see them listed in the **Find Symbol Results** window:
 
 Input        | Function 
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl+F12**
 **Mouse**    | Right-click on the type name and select **Go To Implementation**
 
-## Navigate Back
-When using any of the navigation features of Visual Studio, you can always immediately jump back to your previous position using the **Ctrl+-** keyboard shortcut, or the **View > Navigate Backward** menu item.
+## Find All References
+Find all places where a method/property/variable is being used.  You can use this to verify dead code and check possible side-effects of a large refactoring.  Press **F8** to jump between results.
+
+Input        | Function 
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl+K, R**
+**Mouse**    | Right-click on the type name and select **Find All References**
+
+## Navigating Results
+When using the navigation features of Visual Studio, you can navigate forward and backward through the stack:
+
+Input        | Function 
+------------ | ---
+**Ctrl+-**          | Navigate backward through the stack
+**Ctrl+Shift+-**    | Navigate forward through the stack
+
+You can also use the **View > Navigate Backward** and **View > Navigate Forward** menu items.

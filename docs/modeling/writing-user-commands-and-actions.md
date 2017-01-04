@@ -2,7 +2,6 @@
 title: "Writing User Commands and Actions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,8 +24,6 @@ You can customize a domain-specific language by adding commands to the diagram, 
 -   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md) – Allow the user to move items from one diagram to another, including UML diagrams. You can store references to one model in another.  
   
 -   [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) – Allow your user to click through from an item to another item that it references.  
-  
--   [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md) – How to use ElementOperations.  
   
 -   [How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)  
   

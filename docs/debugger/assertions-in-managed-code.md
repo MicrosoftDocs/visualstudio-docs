@@ -2,7 +2,6 @@
 title: "Assertions in Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -174,7 +173,7 @@ Debug.Assert ( temp != 0 );
  C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ##  <a name="BKMK_Assert_arguments"></a> Assert arguments  
- <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName>:  
+ <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName>:  
   
 ```vb  
 Debug.Assert(stacksize > 0)  
@@ -186,7 +185,7 @@ Debug.Assert ( stacksize > 0 );
 Trace.Assert ( stacksize > 0 );   
 ```  
   
- The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert%28System.Boolean%2CSystem.String%29?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert%28System.Boolean%2CSystem.String%29?displayProperty=fullName> used with two arguments:  
+ The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:  
   
 ```vb  
 Debug.Assert(stacksize > 0, "Out of stack space")  
@@ -222,7 +221,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  To customize the output in this way, your program must contain a listener, and you must inherit from <xref:System.Diagnostics.TraceListener> and override its <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method.  
   
- For more Information, see [Trace Listeners](../Topic/Trace%20Listeners.md).  
+ For more Information, see [Trace Listeners](http://msdn.microsoft.com/Library/444b0d33-67ea-4c36-9e94-79c50f839025).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -233,7 +232,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [Debugger Security](../debugger/debugger-security.md)   
- [Tracing and Instrumenting Applications](../Topic/Tracing%20and%20Instrumenting%20Applications.md)   
- [How to: Compile Conditionally with Trace and Debug](../Topic/How%20to:%20Compile%20Conditionally%20with%20Trace%20and%20Debug.md)   
+ [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)   
+ [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/Library/56d051c3-012c-42c1-9a58-7270edc624aa)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

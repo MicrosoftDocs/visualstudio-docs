@@ -2,7 +2,6 @@
 title: "MFC Debugging Techniques | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -77,7 +76,7 @@ If you are debugging an MFC program, these debugging techniques may be useful.
     -   [Building an MFC app with debug information for selected modules](#BKMK_Building_an_MFC_app_with_debug_information_for_selected_modules)  
   
 ##  <a name="BKMK_AfxDebugBreak"></a> AfxDebugBreak  
- MFC provides a special [AfxDebugBreak](../Topic/AfxDebugBreak%20\(MFC\).md) function for hard-coding breakpoints in source code:  
+ MFC provides a special [AfxDebugBreak](http://msdn.microsoft.com/Library/c4cd79b9-9327-4db5-a9d6-c4004a92aa30) function for hard-coding breakpoints in source code:  
   
 ```  
 AfxDebugBreak( );  
@@ -97,7 +96,7 @@ _asm int 3
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_The_TRACE_macro"></a> The TRACE macro  
- To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
+ To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](http://msdn.microsoft.com/Library/c796baa5-e2b9-4814-a27d-d800590b102e) macro or the MFC [TRACE](http://msdn.microsoft.com/Library/7b6f42d8-b55a-4bba-ab04-c46251778e6f) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
   
  The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.  
   
@@ -133,7 +132,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
  MFC provides classes and functions for detecting memory that is allocated but never deallocated.  
   
 ###  <a name="BKMK_Tracking_memory_allocations"></a> Tracking memory allocations  
- In MFC, you can use the macro [DEBUG_NEW](../Topic/DEBUG_NEW.md) in place of the **new** operator to help locate memory leaks. In the Debug version of your program, `DEBUG_NEW` keeps track of the file name and line number for each object that it allocates. When you compile a Release version of your program, `DEBUG_NEW` resolves to a simple **new** operation without the file name and line number information. Thus, you pay no speed penalty in the Release version of your program.  
+ In MFC, you can use the macro [DEBUG_NEW](http://msdn.microsoft.com/Library/9b379344-4093-4bec-a3eb-e0d8a63ada9d) in place of the **new** operator to help locate memory leaks. In the Debug version of your program, `DEBUG_NEW` keeps track of the file name and line number for each object that it allocates. When you compile a Release version of your program, `DEBUG_NEW` resolves to a simple **new** operation without the file name and line number information. Thus, you pay no speed penalty in the Release version of your program.  
   
  If you do not want to rewrite your entire program to use `DEBUG_NEW` in place of **new**, you can define this macro in your source files:  
   
@@ -152,17 +151,17 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
  **To enable or disable memory diagnostics**  
   
--   Call the global function [AfxEnableMemoryTracking](../Topic/AfxEnableMemoryTracking.md) to enable or disable the diagnostic memory allocator. Because memory diagnostics are on by default in the debug library, you will typically use this function to temporarily turn them off, which increases program execution speed and reduces diagnostic output.  
+-   Call the global function [AfxEnableMemoryTracking](http://msdn.microsoft.com/Library/0a40e0c4-855d-46e2-9577-a8f2346f47db) to enable or disable the diagnostic memory allocator. Because memory diagnostics are on by default in the debug library, you will typically use this function to temporarily turn them off, which increases program execution speed and reduces diagnostic output.  
   
  **To select specific memory diagnostic features with afxMemDF**  
   
--   If you want more precise control over the memory diagnostic features, you can selectively turn individual memory diagnostic features on and off by setting the value of the MFC global variable [afxMemDF](../Topic/afxMemDF.md). This variable can have the following values as specified by the enumerated type **afxMemDF**.  
+-   If you want more precise control over the memory diagnostic features, you can selectively turn individual memory diagnostic features on and off by setting the value of the MFC global variable [afxMemDF](http://msdn.microsoft.com/Library/cf117501-5446-4fce-81b3-f7194bc95086). This variable can have the following values as specified by the enumerated type **afxMemDF**.  
   
     |Value|Description|  
     |-----------|-----------------|  
     |**allocMemDF**|Turn on diagnostic memory allocator (default).|  
     |**delayFreeMemDF**|Delay freeing memory when calling `delete` or `free` until program exits. This will cause your program to allocate the maximum possible amount of memory.|  
-    |**checkAlwaysMemDF**|Call [AfxCheckMemory](../Topic/AfxCheckMemory.md) every time memory is allocated or freed.|  
+    |**checkAlwaysMemDF**|Call [AfxCheckMemory](http://msdn.microsoft.com/Library/4644da71-7d14-41dc-adc0-ee9558fd7a28) every time memory is allocated or freed.|  
   
      These values can be used in combination by performing a logical-OR operation, as shown here:  
   
@@ -174,11 +173,11 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots  
   
-1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md) member function. This creates the first memory snapshot.  
+1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Checkpoint) member function. This creates the first memory snapshot.  
   
 2.  After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.  
   
-3.  Create a third `CMemoryState` object and call its [CMemoryState::Difference](../Topic/CMemoryState::Difference.md) member function, supplying as arguments the two previous `CMemoryState` objects. If there is a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks have not been deallocated.  
+3.  Create a third `CMemoryState` object and call its [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Difference) member function, supplying as arguments the two previous `CMemoryState` objects. If there is a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks have not been deallocated.  
   
      This example shows what the code looks like:  
   
@@ -205,12 +204,12 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
      Notice that the memory-checking statements are bracketed by `#ifdef`[_DEBUG](/visual-cpp/c-runtime-library/debug)/ **#endif** blocks so that they are compiled only in Debug versions of your program.  
   
-     Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](../Topic/CMemoryState::DumpStatistics.md) that will help you locate it.  
+     Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpStatistics) that will help you locate it.  
   
  [In this topic](#BKMK_In_this_topic)  
   
 ###  <a name="BKMK_Viewing_memory_statistics"></a> Viewing memory statistics  
- The [CMemoryState::Difference](../Topic/CMemoryState::Difference.md) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](../Topic/CMemoryState::DumpStatistics.md) to get information about the objects that have not been deallocated.  
+ The [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Difference) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpStatistics) to get information about the objects that have not been deallocated.  
   
  Consider the following example:  
   
@@ -245,10 +244,10 @@ Total allocations: 67 bytes
  [In this topic](#BKMK_In_this_topic)  
   
 ###  <a name="BKMK_Taking_object_dumps"></a> Taking object dumps  
- In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](../Topic/CMemoryState::Checkpoint.md). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.  
+ In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.  
   
 > [!NOTE]
->  Before you can use MFC object dumping, you must [enable diagnostic tracing](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_Memory_Diagnostics).  
+>  Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_Memory_Diagnostics).  
   
 > [!NOTE]
 >  MFC automatically dumps all leaked objects when your program exits, so you do not need to create code to dump objects at that point.  
@@ -317,7 +316,7 @@ CPerson* p = new CPerson( "Smith", "Alan", "581-0215" );
   
  The `CPerson` constructor takes three arguments that are pointers to `char`, which are used to initialize `CString` member variables. In the memory dump, you can see the `CPerson` object along with three nonobject blocks (3, 4, and 5). These hold the characters for the `CString` member variables and will not be deleted when the `CPerson` object destructor is invoked.  
   
- Block number 2 is the `CPerson` object itself. `$51A4` represents the address of the block and is followed by the contents of the object, which were output by `CPerson`::`Dump` when called by [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md).  
+ Block number 2 is the `CPerson` object itself. `$51A4` represents the address of the block and is followed by the contents of the object, which were output by `CPerson`::`Dump` when called by [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince).  
   
  You can guess that block number 1 is associated with the `CString` frame variable because of its sequence number and size, which matches the number of characters in the frame `CString` variable. Variables allocated on the frame are automatically deallocated when the frame goes out of scope.  
   
@@ -374,7 +373,7 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](/visual-cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
+ When you derive a class from [CObject](/visual-cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
  The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](/visual-cpp/mfc/reference/cdumpcontext-class)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   

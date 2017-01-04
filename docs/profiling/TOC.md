@@ -3,7 +3,7 @@
 ## [Beginners Guide to Performance Profiling](beginners-guide-to-performance-profiling.md)
 ## [Running Profiling Tools With or Without the Debugger](running-profiling-tools-with-or-without-the-debugger.md)
 ## [Memory Usage](memory-usage.md)
-### [Memory Usage without Debugging2](memory-usage-without-debugging2.md)
+### [Memory Usage without Debugging](memory-usage-without-debugging2.md)
 ## [CPU Usage](cpu-usage.md)
 ### [Analyze CPU Usage in a Windows Universal App](analyze-cpu-usage-in-a-windows-universal-app.md)
 ## [Application Timeline](application-timeline.md)

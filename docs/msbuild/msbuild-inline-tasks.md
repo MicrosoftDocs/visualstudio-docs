@@ -2,7 +2,6 @@
 title: "MSBuild Inline Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +38,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 ## The Structure of an Inline Task  
  An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
   
-```  
+```xml  
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <!-- This simple inline task does nothing. -->  
   <UsingTask  
@@ -103,7 +102,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 ## Hello World  
  Here is a more robust inline task. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
   
-```  
+```xml  
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <!-- This simple inline task displays "Hello, world!" -->  
   <UsingTask  
@@ -128,7 +127,7 @@ Log.LogError("Hello, world!");
   
  You could save the HelloWorld task in a file that is named HelloWorld.targets, and then invoke it from a project as follows.  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <Import Project="HelloWorld.targets" />  
   <Target Name="Hello">  
@@ -140,7 +139,7 @@ Log.LogError("Hello, world!");
 ## Input and Output Parameters  
  Inline task parameters are child elements of a `ParameterGroup` element. Every parameter takes the name of the element that defines it. The following code defines the parameter `Text`.  
   
-```  
+```xml  
 <ParameterGroup>  
     <Text />  
 </ParameterGroup>  
@@ -156,7 +155,7 @@ Log.LogError("Hello, world!");
   
  For example,  
   
-```  
+```xml  
 <ParameterGroup>  
     <Expression Required="true" />  
       <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
@@ -177,7 +176,7 @@ Log.LogError("Hello, world!");
 ## Example  
  The following inline task replaces every occurrence of a token in the given file with the given value.  
   
-```  
+```xml  
 <Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="12.0">  
   
   <UsingTask TaskName="TokenReplace" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v12.0.dll">  

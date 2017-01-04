@@ -2,7 +2,6 @@
 title: "Generate Override | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,3 +50,6 @@ translation.priority.ht:
 1. The selected method or property will be added to the class as an override, ready to be implemented.
 
    ![Override result](media/override_result.png)
+
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  

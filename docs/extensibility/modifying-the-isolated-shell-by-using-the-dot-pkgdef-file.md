@@ -2,7 +2,6 @@
 title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio shell, isolated mode%2C .pkgdef file"
+  - "Visual Studio shell, isolated mode, .pkgdef file"
 ms.assetid: 69e8f78e-bcf1-46cb-8866-7de37d134997
 caps.latest.revision: 27
 ms.author: "gregvanl"

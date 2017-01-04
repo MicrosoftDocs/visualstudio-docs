@@ -2,7 +2,6 @@
 title: "GenerateBootstrapper Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -81,7 +80,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Specifies the products to build into the bootstrapper. The items passed to this parameter should have the following syntax:  
   
-    ```  
+    ```xml  
     <BootstrapperItem  
         Include="ProductCode">  
         <ProductName>  
@@ -168,7 +167,7 @@ Provides an automated way to detect, download, and install an application and it
 ## Example  
  The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed as a prerequisite.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

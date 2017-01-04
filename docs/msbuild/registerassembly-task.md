@@ -2,7 +2,6 @@
 title: "RegisterAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # RegisterAssembly Task
-Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration Tool)](../Topic/Regasm.exe%20\(Assembly%20Registration%20Tool\).md).  
+Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration Tool)](http://msdn.microsoft.com/Library/e190e342-36ef-4651-a0b4-0e8c2c0281cb).  
   
 ## Parameters  
  The following table describes the parameters of the `RegisterAssembly` task.  
@@ -58,7 +57,7 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 ## Example  
  The following example uses the `RegisterAssembly` task to register the assembly specified by the `MyAssemblies` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

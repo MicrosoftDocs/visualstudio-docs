@@ -2,7 +2,6 @@
 title: "MSBuild Targets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +36,7 @@ Targets group tasks together in a particular order and allow the build process t
 ## Declaring Targets in the Project File  
  Targets are declared in a project file with the [Target](../msbuild/target-element-msbuild.md) element. For example, the following XML creates a target named Construct, which then calls the Csc task with the Compile item type.  
   
-```  
+```xml  
 <Target Name="Construct">  
     <Csc Sources="@(Compile)" />  
 </Target>  
@@ -45,7 +44,7 @@ Targets group tasks together in a particular order and allow the build process t
   
  Like MSBuild properties, targets can be redefined. For example,  
   
-```  
+```xml  
 <Target Name="AfterBuild" >  
     <Message Text="First occurrence" />  
 </Target>  
@@ -76,7 +75,7 @@ Targets group tasks together in a particular order and allow the build process t
 ## Target Batching  
  A target element may have an `Outputs` attribute which specifies metadata in the form %(Metadata). If so, MSBuild runs the target once for each unique metadata value, grouping or "batching" the items that have that metadata value. For example,  
   
-```  
+```xml  
 <ItemGroup>  
     <Reference Include="System.Core">  
       <RequiredTargetFramework>3.5</RequiredTargetFramework>  

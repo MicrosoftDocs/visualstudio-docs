@@ -2,7 +2,6 @@
 title: "HTML UI responsiveness | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -336,7 +335,7 @@ if (performance.mark && performance.measure) {
   
 -   **Image decoding.** Indicates time spent decompressing and decoding images.  
   
- For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [Analyze JavaScript Function Timing data](../Topic/Analyze%20JavaScript%20Function%20Timing%20data.md).  
+ For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
   
  For the other event categories, you might be able to identify platform side effects that result from adding features to your app, but in these cases you might not be able to resolve the particular performance issues by using the UI Responsiveness Profiler.  
   
@@ -375,4 +374,4 @@ if (performance.mark && performance.measure) {
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
 ## See Also  
- [Analyze app performance](../Topic/Analyze%20the%20performance%20of%20Windows%20Store%20apps%20using%20Visual%20Studio%20diagnostic%20tools.md)
+ [Profiling Tools](../profiling/profiling-tools.md)

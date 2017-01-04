@@ -2,7 +2,6 @@
 title: "Generate XML Documentation Comments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,7 +41,7 @@ translation.priority.ht:
 
    ![Method to document](media/doc_highlight.png)
 
-1. Next, type **///** (3 forward slashes) which will automatically create the base template and any additional elements as necessary.  For example, when commenting a method, it will generate the **<summary>** tags as well as a **<param>** tag for every parameter that is passed to the method, and a **<returns>** tag to document what the method returns.
+1. Next, type **///** (3 forward slashes) which will automatically create the base template and any additional elements as necessary.  For example, when commenting a method, it will generate the **\<summary\>** tags as well as a **\<param\>** tag for every parameter that is passed to the method, and a **\<returns\>** tag to document what the method returns.
 
    ![Template](media/doc_preview.png)
 
@@ -50,4 +49,6 @@ translation.priority.ht:
 
    ![Completed comment](media/doc_result.png)
 
-<!-- For more informtion, please see the full documentation on [XML Documentation Comments](todo.txt).-->
+## See Also
+[Code Generation (C#)](../code-generation-csharp.md)  
+[XML Documentation Comments (C# Programming Guide)](/dotnet/articles/csharp/programming-guide/xmldoc/xml-documentation-comments)

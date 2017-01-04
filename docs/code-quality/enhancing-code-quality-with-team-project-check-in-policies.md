@@ -2,7 +2,6 @@
 title: "Enhancing Code Quality with Team Project Check-in Policies | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,7 +52,7 @@ When you use Team Foundation Version Control (TFVC), you can create check-in pol
   
 |Task|Supporting Content|  
 |----------|------------------------|  
-|**Create and use check-in policies:** You create check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].|[Set and Enforce Quality Gates](../Topic/Set%20and%20Enforce%20Quality%20Gates.md)|  
+|**Create and use check-in policies:** You create check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].|[Set and Enforce Quality Gates](http://msdn.microsoft.com/Library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)|  
 |**Create and use code analysis check-in policies:** You can choose from a standard set of code analysis rules, or you can create a custom set.|[Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)|  
   
 ## Related Tasks  

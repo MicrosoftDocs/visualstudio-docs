@@ -2,7 +2,6 @@
 title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,7 +56,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.0`, `v4.5`, `v4.5.1`, `v4.5.2`, and `v4.6`.  
   
-```  
+```xml  
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>  
 ```  
   
@@ -65,7 +64,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  The target profile is specified in the `TargetFrameworkProfile` property in a project file. You can change the target profile by using the target-framework control in the project property pages in the IDE. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
-```  
+```xml  
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>  
 <TargetFrameworkProfile>Client</TargetFrameworkProfile>  
 ```  
@@ -79,7 +78,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  A *target platform* is the particular platform that your project is built to run on. The target platform is specified in the `Platform` build property in a project file. You can change the target platform by using the project property pages or the **Configuration Manager** in the IDE.  
   
-```  
+```xml  
 <PropertyGroup>  
    <Platform>x86</Platform>  
 </PropertyGroup>  
@@ -88,7 +87,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  A *target configuration* is a subset of a target platform. For example, the `x86``Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.  
   
-```  
+```xml  
 <PropertyGroup>  
    <Platform>x86</Platform>  
    <Configuration>Debug</Configuration>  

@@ -2,7 +2,6 @@
 title: "Move Type to Matching File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,3 +50,6 @@ translation.priority.ht:
    The type will instantly moved to a new file with that name inside of your solution.
 
    ![Inline result](media/movetype_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)

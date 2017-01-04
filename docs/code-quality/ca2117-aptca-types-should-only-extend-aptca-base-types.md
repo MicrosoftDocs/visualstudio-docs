@@ -2,7 +2,6 @@
 title: "CA2117: APTCA types should only extend APTCA base types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -95,7 +94,7 @@ translation.priority.ht:
  [CA2116: APTCA methods should only call APTCA methods](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)  
   
 ## See Also  
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
+ [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)   
  [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/en-us/a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
- [Using Libraries from Partially Trusted Code](../Topic/Using%20Libraries%20from%20Partially%20Trusted%20Code.md)   
+ [Using Libraries from Partially Trusted Code](http://msdn.microsoft.com/Library/dd66cd4c-b087-415f-9c3e-94e3a1835f74)   
  [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)

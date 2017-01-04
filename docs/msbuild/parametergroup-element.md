@@ -2,7 +2,6 @@
 title: "ParameterGroup Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,7 +45,7 @@ Contains an optional list of parameters that will be present on the task that is
   
 ## Syntax  
   
-```  
+```xml  
 <ParameterGroup />  
 ```  
   
@@ -71,7 +70,7 @@ Contains an optional list of parameters that will be present on the task that is
 ## Example  
  The following example shows how to use the `ParameterGroup` element.  
   
-```  
+```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
        <ParameterGroup>  
               <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  

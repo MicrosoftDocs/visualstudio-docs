@@ -2,7 +2,6 @@
 title: "Generate Constructor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,9 +52,12 @@ translation.priority.ht:
    ![Generate constructor preview](media/constructor_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The constructor will be created automatically with any parameters inferred from its usage.
 
    ![Generate constructor result](media/constructor_result.png)
   
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

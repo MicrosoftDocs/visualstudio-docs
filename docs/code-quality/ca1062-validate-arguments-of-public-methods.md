@@ -2,7 +2,6 @@
 title: "CA1062: Validate arguments of public methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -61,24 +60,112 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule and a method that satisfies the rule.  
   
- [!code-cs[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/CSharp/ca1062-validate-arguments-of-public-methods_1.cs)]
- [!code-cs[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/CSharp/ca1062-validate-arguments-of-public-methods_1.cs)]
- [!code-vb[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/VisualBasic/ca1062-validate-arguments-of-public-methods_1.vb)]  
+ ```cs
+ using System;
+
+namespace DesignLibrary
+{
+    public class Test
+    {
+        // This method violates the rule.
+        public void DoNotValidate(string input)
+        {
+            if (input.Length != 0)
+            {
+                Console.WriteLine(input);
+            }
+        }
+
+        // This method satisfies the rule.
+        public void Validate(string input)
+        {
+            if (input == null)
+            {
+                throw new ArgumentNullException("input");
+            }
+            if (input.Length != 0)
+            {
+                Console.WriteLine(input);
+            }
+        }
+    }
+}
+```
+
+```vb
+Imports System
+
+Namespace DesignLibrary
+
+    Public Class Test
+
+        ' This method violates the rule.
+        Sub DoNotValidate(ByVal input As String)
+
+            If input.Length <> 0 Then
+                Console.WriteLine(input)
+            End If
+
+        End Sub
+
+        ' This method satisfies the rule.
+        Sub Validate(ByVal input As String)
+
+            If input Is Nothing Then
+                Throw New ArgumentNullException("input")
+            End If
+
+            If input.Length <> 0 Then
+                Console.WriteLine(input)
+            End If
+
+        End Sub
+
+    End Class
+
+End Namespace
+```
   
 ## Example  
  In [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this rule does not detect that parameters are being passed to another method that does the validation.  
-  
- [!code-cs[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/CSharp/ca1062-validate-arguments-of-public-methods_2.cs)]
- [!code-cs[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/CSharp/ca1062-validate-arguments-of-public-methods_2.cs)]
- [!code-vb[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/VisualBasic/ca1062-validate-arguments-of-public-methods_2.vb)]  
-  
+
+```cs
+public string Method(string value)
+{
+	EnsureNotNull(value);
+
+	// Fires incorrectly    
+	return value.ToString();
+}
+
+private void EnsureNotNull(string value)
+{
+	if (value == null)
+		throw new ArgumentNullException("value");
+}
+```
+
+```vb
+Public Function Method(ByVal value As String) As String
+	EnsureNotNull(value)
+
+	' Fires incorrectly    
+	Return value.ToString()
+End Function
+
+Private Sub EnsureNotNull(ByVal value As String)
+	If value Is Nothing Then
+		Throw (New ArgumentNullException("value"))
+	End If
+End Sub
+```
+
 ## Example  
  Copy constructors that populate field or properties that are reference objects can also violate the CA1062 rule. The violation occurs because the copied object that is passed to the copy constructor might be `null` (`Nothing` in Visual Basic). To resolve the violation, use a static (Shared in Visual Basic) method to check that the copied object is not null.  
   
  In the following `Person` class example, the `other` object that is passed to the `Person` copy constructor might be `null`.  
   
-```  
-  
+```cs  
 public class Person  
 {  
     public string Name { get; private set; }  
@@ -97,13 +184,12 @@ public class Person
     {  
     }  
 }  
-  
-```  
+```
   
 ## Example  
  In the following revised `Person` example, the `other` object that is passed to the copy constructor is first checked for null in the `PassThroughNonNull` method.  
   
-```  
+```cs  
 public class Person  
 {  
     public string Name { get; private set; }  

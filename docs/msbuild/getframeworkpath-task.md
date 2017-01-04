@@ -2,7 +2,6 @@
 title: "GetFrameworkPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -62,7 +61,7 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 ## Example  
  The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="GetPath">  
         <GetFrameworkPath>  

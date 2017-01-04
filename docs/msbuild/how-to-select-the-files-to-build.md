@@ -2,7 +2,6 @@
 title: "How to: Select the Files to Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -118,7 +117,7 @@ When you build a project that contains several files, you can list each file sep
 ## Example  
  The following code example shows a project that includes all of the input files separately.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
     <PropertyGroup>  
@@ -152,7 +151,7 @@ When you build a project that contains several files, you can list each file sep
 ## Example  
  The following code example uses a wildcard to include all the .cs files.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

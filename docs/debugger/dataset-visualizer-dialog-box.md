@@ -2,7 +2,6 @@
 title: "Dataset Visualizer Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,5 +56,5 @@ The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, 
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)   
+ [Debugger Windows](../debugger/debugger-windows.md)   
  [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)

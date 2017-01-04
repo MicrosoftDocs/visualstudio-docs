@@ -2,7 +2,6 @@
 title: "CA1714: Flags enums should have plural names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -65,4 +64,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.FlagsAttribute?displayProperty=fullName>   
- [Enum Design](../Topic/Enum%20Design.md)
+ [Enum Design](http://msdn.microsoft.com/Library/dd53c952-9d9a-4736-86ff-9540e815d545)

@@ -2,7 +2,6 @@
 title: "Introducing Spy++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,7 +44,7 @@ Spy++ lets you perform the following tasks:
   
 -   Use the [Finder Tool](../debugger/how-to-use-the-finder-tool.md) to select a window by mouse pointer positioning.  
   
--   Set [message options](_asug_choosing_message_options) by using complex message log selection parameters.  
+-   Set [message option](../debugger/how-to-open-messages-view-from-find-window.md) by using complex message log selection parameters.  
   
  Spy++ has a toolbar and hyperlinks to help you work faster. It also provides a **Refresh** command to update the active view, a **Window Finder Tool** to make spying easier, and a **Font** dialog box to customize view windows. Additionally, Spy++ lets you save and restore user preferences.  
   

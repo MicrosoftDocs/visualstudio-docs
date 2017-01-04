@@ -18,7 +18,8 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/*.gif"
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -39,8 +40,8 @@
             "ms.topic": "article",
             "audience": "developer",
             "ms.reviewer": "",
-            "ms.prod": "",
-            "ms.technology": "",
+            "ms.prod": "visual-studio-dev15",
+            "ms.technology": "vs-ide-general",
             "ms.tgt_pltfrm": "dotnet"},
     "fileMetadata": {},
     "template": [],

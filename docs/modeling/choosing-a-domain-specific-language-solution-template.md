@@ -2,7 +2,6 @@
 title: "Choosing a Domain-Specific Language Solution Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,9 +18,6 @@ manager: "douge"
 To create a domain-specific language solution, choose one of the solution templates that are available in the Domain-Specific Language Designer Wizard. By choosing the template that most closely resembles the language that you want to create, you can minimize the modifications that you have to make to the starting solution.  
   
  The following solution templates are available in the Domain-Specific Language Designer Wizard.  
-  
-> [!NOTE]
->  The purpose of the templates is to provide a starting DSL. The templates named Class and Component diagrams are not full UML diagrams. If you want to create a UML model, consider the UML modeling tools, which provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
   
 |Template|Features|Description|  
 |--------------|--------------|-----------------|  

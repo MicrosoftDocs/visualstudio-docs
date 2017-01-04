@@ -2,7 +2,6 @@
 title: "Create a simple data application by using ADO.NET | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -145,7 +144,7 @@ When you create an application that manipulates data in a database, you perform 
 5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
->  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](../Topic/Connection%20Strings%20and%20Configuration%20Files.md).  
+>  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/Library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
   
 ##  <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   

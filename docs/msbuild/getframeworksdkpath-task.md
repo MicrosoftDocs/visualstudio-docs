@@ -2,7 +2,6 @@
 title: "GetFrameworkSdkPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -58,7 +57,7 @@ Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklon
 ## Example  
  The following example uses the `GetFrameworkSdkPath` task to store the path to the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] in the `SdkPath` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="GetPath">  
         <GetFrameworkSdkPath>  

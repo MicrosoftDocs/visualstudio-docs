@@ -2,7 +2,6 @@
 title: "Step 10: Write Code for Additional Buttons and a Check Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

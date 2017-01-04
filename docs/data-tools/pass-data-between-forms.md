@@ -2,7 +2,6 @@
 title: "Pass data between forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -74,7 +73,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 2.  Name the project `PassingDataBetweenForms`.  
   
-3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   

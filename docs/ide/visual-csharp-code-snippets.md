@@ -2,7 +2,6 @@
 title: "Visual C# Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -93,4 +92,4 @@ ropfull|Creates a property declaration with get and set accessors.|Inside a clas
  [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/en-us/8d56d43c-097a-475b-aa85-cae1554b6338)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)   
- [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
+ 

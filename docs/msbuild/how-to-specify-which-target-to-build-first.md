@@ -2,7 +2,6 @@
 title: "How to: Specify Which Target to Build First | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -86,6 +85,6 @@ A project file can contain one or more `Target` elements that define how the pro
      `msbuild <file name>.proj /t:Clean;Compile`  
   
 ## See Also
-  [MSBuild](../msbuild/msbuild1.md)  
+  [MSBuild](../msbuild/msbuild.md)  
  [Targets](../msbuild/msbuild-targets.md)   
  [How to: Clean a Build](../msbuild/how-to-clean-a-build.md)

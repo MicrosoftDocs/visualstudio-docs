@@ -2,7 +2,6 @@
 title: "Code Generation and T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -135,5 +134,4 @@ namespace Fabrikam.FirstJob
  How to write directive processors and custom templating hosts for your own data sources.  
   
 ## See Also  
- [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

@@ -2,7 +2,6 @@
 title: "CA1036: Override methods on comparable types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -79,4 +78,4 @@ translation.priority.mt:
 ## See Also  
  <xref:System.IComparable?displayProperty=fullName>   
  <xref:System.Object.Equals%2A?displayProperty=fullName>   
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](http://msdn.microsoft.com/Library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

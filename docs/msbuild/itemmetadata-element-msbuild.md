@@ -2,7 +2,6 @@
 title: "ItemMetadata Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,7 +45,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
   
 ## Syntax  
   
-```  
+```xml  
 <ItemMetadataName> Item Metadata value</ItemMetadataName>  
 ```  
   
@@ -78,7 +77,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 ## Example  
  The following code example shows how to add `Culture` metadata with the value `fr` to the item `CSFile`.  
   
-```  
+```xml  
 <ItemGroup>  
     <CSFile Include="main.cs" >  
         <Culture>fr</Culture>  

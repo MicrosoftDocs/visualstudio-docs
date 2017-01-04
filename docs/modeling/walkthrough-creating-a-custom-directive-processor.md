@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -687,7 +686,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 ## Testing the Directive Processor  
  To test the directive processor, you need to write a text template that calls it.  
   
- In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file. For more information, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
+ In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file.
   
  The text template then uses the <xref:System.Xml.XmlDocument> property that the directive creates to navigate the XML and print the documentation comments.  
   

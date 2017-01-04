@@ -2,7 +2,6 @@
 title: "Bind controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -82,4 +81,4 @@ You can display data to users of your application by binding data to controls. Y
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)   
- [Windows Forms Data Binding](../Topic/Windows%20Forms%20Data%20Binding.md)
+ [Windows Forms Data Binding](http://msdn.microsoft.com/Library/c3826d8e-ea25-4ad4-a669-45bfb19192aa)

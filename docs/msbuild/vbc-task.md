@@ -2,7 +2,6 @@
 title: "Vbc Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -106,7 +105,7 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
 ## Example  
  The following example compiles a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project.  
   
-```  
+```xml  
 <VBC  
    Sources="@(sources)"  
    Resources="strings.resources"  

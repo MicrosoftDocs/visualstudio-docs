@@ -2,7 +2,6 @@
 title: "How to: Build the Same Source Files with Different Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,7 +45,7 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
   
-    ```  
+    ```xml  
     <PropertyGroup Condition="'$(Flavor)'=='DEBUG'">  
         <DebugType>full</DebugType>  
         <Optimize>no</Optimize>  
@@ -57,7 +56,7 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use a `Condition` attribute in a `Property` element similar to the following:  
   
-    ```  
+    ```xml  
     <DebugType Condition="'$(Flavor)'=='DEBUG'">full</DebugType>  
     ```  
   
@@ -113,7 +112,7 @@ msbuild consolehwcs1.proj /p:flavor=debug
 msbuild consolehwcs1.proj /p:flavor=retail  
 ```  
   
-```  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -174,7 +173,7 @@ msbuild consolehwcs1.proj /p:flavor=retail
 msbuild colortest.proj /t:go /property:Color=Green  
 ```  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
 ToolsVersion="4.0" TreatAsLocalProperty="Color">  
   
@@ -197,7 +196,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```  
   
 ## See Also  
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)

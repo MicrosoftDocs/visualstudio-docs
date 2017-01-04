@@ -2,7 +2,6 @@
 title: "StartTrackingContextWithRoot | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ Starts a tracking context using a response file specifying a root marker.
   
 ## Syntax  
   
-```  
+```cpp 
 HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTSTR taskName, LPCTSTR rootMarkerResponseFile);  
 ```  
   

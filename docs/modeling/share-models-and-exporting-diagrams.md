@@ -2,7 +2,6 @@
 title: "Share models and exporting diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,9 +35,9 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 ## Working on a Model as a Team  
- Users of Visual Studio can create and edit models, layer diagrams, and directed graphs.  
+ Users of Visual Studio can create and edit models, dependency diagrams, and directed graphs.  
   
- Different users can work at the same time on a UML model, but should work on different packages.  
+ Different users can work at the same time on a model, but should work on different packages.  
   
  We recommend that you use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].  
   
@@ -49,7 +48,7 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
 ## Reading and Reviewing Models  
  Team members using some versions of Visual Studio (which cannot create models) can read models, modeling diagrams, and directed graphs, but cannot edit them.  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
- A UML diagram or layer diagram can be opened only within the model in which it was created. To provide access to a diagram, you must therefore provide access to all the modeling project files, or to copies of them.  
+ A dependency diagram can be opened only within the model in which it was created. To provide access to a diagram, you must therefore provide access to all the modeling project files, or to copies of them.  
   
  For more information, see [Read models and diagrams in other Visual Studio editions](../modeling/read-models-and-diagrams-in-other-visual-studio-editions.md).  
   

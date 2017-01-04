@@ -1,8 +1,7 @@
 ---
-title: "Code Generation | Microsoft Docs"
+title: "Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
-ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
+ms.assetid: 900c16d6-e2d7-4d1d-a000-2625641aff05
 caps.latest.revision: 23
 author: "BrianPeek"
 ms.author: "brpeek"

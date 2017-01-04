@@ -2,7 +2,6 @@
 title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -54,7 +53,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
   
  Then, to configure an application to be hosted from a browser, an additional element, **\<hostInBrowser />** must be added to the application manifest, as show in the following example:  
   
-```  
+```xml  
 <!--MyXBAPApplication.exe.manifest-->  
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly ... >  
@@ -73,7 +72,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 ## Example  
  The following example shows how to ensure that the `<hostInBrowser />` element is included in an application manifest file.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication"  
@@ -91,5 +90,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML Browser Applications Overview](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [WPF XAML Browser Applications Overview](http://msdn.microsoft.com/Library/3a7a86a8-75d5-4898-96b9-73da151e5e16)

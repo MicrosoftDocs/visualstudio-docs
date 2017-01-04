@@ -2,7 +2,6 @@
 title: "Resources in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -101,5 +100,5 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 ## See Also  
  [Managed VSPackages](../../misc/managed-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
- [Localized Resources in MFC Applications: Satellite DLLs](../Topic/Localized%20Resources%20in%20MFC%20Applications:%20Satellite%20DLLs.md)   
+ [Localized Resources in MFC Applications: Satellite DLLs](http://msdn.microsoft.com/Library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   
  [Managed VSPackages](../../misc/managed-vspackages.md)

@@ -2,7 +2,6 @@
 title: "Map dependencies across your solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -294,7 +293,7 @@ When you want to understand dependencies across your code, visualize them by cre
      ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
   
 ##  <a name="SeeSourceHeader"></a> See dependencies between C and C++ source files and header files  
- If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. See [/FR, /Fr (Create .Sbr File)](/visual-cpp/build/reference/fr-fr-create-dot-sbr-file). Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to `0` or delete the key:  
+ If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to `0` or delete the key:  
   
  **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\NativeProvider : AutoEnableSbr**  
   
@@ -322,11 +321,11 @@ When you want to understand dependencies across your code, visualize them by cre
 |The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|  
 |[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
 |Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md).|  
-|The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.<br /><br /> See [/FIXED (Fixed Base Address)](/visual-cpp/build/reference/fixed-fixed-base-address).|  
-||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.<br /><br /> See [/DEBUG (Generate Debug Info)](/visual-cpp/build/reference/debug-generate-debug-info).|  
+|The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.|  
+||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.|  
 ||Cannot open or find the .pdb file in the expected locations.|Make sure that the .pdb file exists in the expected locations.|  
-||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.<br /><br /> See [/PDBSTRIPPED (Strip Private Symbols)](/visual-cpp/build/reference/pdbstripped-strip-private-symbols).|  
-||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.<br /><br /> See:<br /><br /> -   [General Rules and Limitations](/visual-cpp/cpp/general-rules-and-limitations)<br />-   [Importing Function Calls Using __declspec(dllimport)](/visual-cpp/build/importing-function-calls-using-declspec-dllimport)<br />-   [dllexport, dllimport](/visual-cpp/cpp/dllexport-dllimport)|  
+||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.|  
+||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.|  
   
 ##  <a name="RenderMoreQuickly"></a> Make code maps render more quickly  
  When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:  

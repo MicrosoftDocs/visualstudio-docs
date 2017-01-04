@@ -2,7 +2,6 @@
 title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,7 +46,7 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
   
 ## Syntax  
   
-```  
+```xml  
 <ItemGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
@@ -78,7 +77,7 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ## Example  
  The following code example defines two metadata items, m and n, in an ItemDefinitionGroup. In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemDefinitionGroup>  
         <i>  

@@ -2,7 +2,6 @@
 title: "Copy Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -88,7 +87,7 @@ Copies files to a new location in the file system.
 ## Example  
  The following example copies the items in the `MySourceFiles` item collection into the folder c:\MyProject\Destination.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  
@@ -108,7 +107,7 @@ Copies files to a new location in the file system.
 ## Example  
  The following example demonstrates how to do a recursive copy. This project copies all of the files recursively from c:\MySourceTree into c:\MyDestinationTree, while maintaining the directory structure.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

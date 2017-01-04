@@ -2,7 +2,6 @@
 title: "Memory Usage without Debugging2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -215,8 +214,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
 ## See Also  
- [JavaScript Memory](../profiling/javascript-memory.md)   
- [Analyze app performance](../Topic/Analyze%20the%20performance%20of%20Windows%20Store%20apps%20using%20Visual%20Studio%20diagnostic%20tools.md)   
- [Run performance and diagnostic tools](../Topic/Run%20analysis%20tools%20from%20the%20Performance%20and%20Diagnostic%20page.md)   
+ [JavaScript Memory](../profiling/javascript-memory.md)
+ [Profiling Tools](../profiling/profiling-tools.md)
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

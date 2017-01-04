@@ -2,7 +2,6 @@
 title: "Starting a Build from within the IDE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,7 +41,7 @@ Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBu
 ## Using IVSBuildManagerAccessor  
  The code below outlines a method that a project system can use to start a build:  
   
-```  
+```cs
   
 public bool Build(Project project, bool isDesignTimeBuild)  
 {  

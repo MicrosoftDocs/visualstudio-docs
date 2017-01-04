@@ -2,7 +2,6 @@
 title: "Extend your DSL by using MEF | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
   
  In addition, when you enable MEF in your DSL, it can be easier for you to write some of the features of your DSL, even if they are all built together with the DSL.  
   
- For more information about MEF, see [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).  
+ For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 ### To enable your DSL to be extended by MEF  
   
@@ -371,6 +370,6 @@ namespace MefExtension
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
- [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md)   
+ [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)

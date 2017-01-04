@@ -2,7 +2,6 @@
 title: "Message Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -62,7 +61,7 @@ Logs a message during a build.
 ## Example  
  The following code example logs messages to all registered loggers.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="DisplayMessages">  
         <Message Text="Project File Name = $(MSBuildProjectFile)" />  

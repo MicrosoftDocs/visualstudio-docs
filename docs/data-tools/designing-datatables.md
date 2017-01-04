@@ -2,7 +2,6 @@
 title: "Designing DataTables | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,7 +41,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Designing DataTables
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides design-time tools for creating and editing data tables (**DataTable**). For an overview of what a **DataTable** is, see [DataTables](../Topic/DataTables.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides design-time tools for creating and editing data tables (**DataTable**). For an overview of what a **DataTable** is, see [DataTables](http://msdn.microsoft.com/Library/52ff0e32-3e5a-41de-9a3b-7b04ea52b83e).  
   
  The following topics explain how to create data tables, add them to typed datasets using the **Dataset Designer**, and create and edit the data columns (**DataColumn**) that define them.  
   
@@ -73,7 +72,7 @@ translation.priority.ht:
  Represents a parent/child relationship between two <xref:System.Data.DataTable> objects.  
   
 ## Related Sections  
- [DataTables](../Topic/DataTables.md)  
+ [DataTables](http://msdn.microsoft.com/Library/52ff0e32-3e5a-41de-9a3b-7b04ea52b83e)  
  Describes how to create and customize `DataTable` objects.  
   
  [TableAdapters](../Topic/TableAdapters.md)  

@@ -2,7 +2,6 @@
 title: "Use models in your development process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -108,10 +107,6 @@ In Visual Studio, you can use a model to help you understand and change a system
   
  You can link any element to work items, but the most useful elements are as follows:  
   
--   Use cases. You can link a use case to the development tasks that will implement it.  
-  
--   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
-  
 -   Comments describing business rules or quality of service requirements. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 #### Link Model to Tests  
@@ -133,11 +128,10 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 |Design level|Diagram types|  
 |------------------|-------------------|  
-|Business Process<br /><br /> Understanding the context within which your system will be used helps you understand what the users need from it.|-   Activity diagrams describe the flow of work between people and systems to achieve business goals.<br />-   Conceptual class diagrams describe the business concepts used within the business process.|  
-|User requirements<br /><br /> Definition of what the users need from your system.|-   Use case diagrams summarize the interactions that the users and other external systems have with the system that you are developing. You can attach other documents to each use case to describe it in detail.<br />-   UML class diagrams describe the types of information that the users and system communicate about.<br />-   Business rules and quality of service requirements can be described in separate documents.|  
-|High level design<br /><br /> The overall structure of the system: the major components and how they couple together.|-   Layer Diagrams describe how the system is structured into interdependent parts. You can validate program code against layer diagrams to ensure that it adheres to the architecture.<br />-   Component diagrams show the interfaces of the parts, specifying the messages and services that are provided and required by each component.<br />-   Sequence diagrams show how the components communicate to implement each use case.<br />-   UML class diagrams describe the interfaces of the components and the types of data passed between the components.|  
-|Design patterns<br /><br /> Conventions and methods of solving design problems that are used in all parts of the design|-   UML class diagrams describe the structures of a pattern<br />-   Sequence or activity diagrams show the interactions and algorithms|  
-|Code analysis<br /><br /> Several types of diagram can be generated from the code.|-   Sequence diagrams show the interaction between objects in the code.<br />-   Layer diagrams show the dependencies between classes. Updated code can be validated against a layer diagram.<br />-   Class diagrams show the classes in the code.|  
+|Business Process<br /><br /> Understanding the context within which your system will be used helps you understand what the users need from it.|-   Conceptual class diagrams describe the business concepts used within the business process.|  
+|User requirements<br /><br /> Definition of what the users need from your system.|-   Business rules and quality of service requirements can be described in separate documents.|  
+|High level design<br /><br /> The overall structure of the system: the major components and how they couple together.|-   Dependency Diagrams describe how the system is structured into interdependent parts. You can validate program code against dependency diagrams to ensure that it adheres to the architecture.|  
+|Code analysis<br /><br /> Diagrams can be generated from the code.|-  Dependency diagrams show the dependencies between classes. Updated code can be validated against a dependency diagram.<br />-   Class diagrams show the classes in the code.|  
   
 ## External Resources  
   
@@ -155,3 +149,5 @@ In Visual Studio, you can use a model to help you understand and change a system
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
  [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

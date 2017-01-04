@@ -2,7 +2,6 @@
 title: "MSBuild .Targets Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -58,4 +57,4 @@ translation.priority.ht:
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)

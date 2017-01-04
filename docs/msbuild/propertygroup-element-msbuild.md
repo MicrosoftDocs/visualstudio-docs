@@ -2,7 +2,6 @@
 title: "PropertyGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,7 +46,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
   
 ## Syntax  
   
-```  
+```xml  
 <PropertyGroup Condition="'String A' == 'String B'">  
     <Property1>...</Property1>  
     <Property2>...</Property2>  
@@ -78,7 +77,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 ## Example  
  The following code example shows how to set properties based on a condition. In this example, if the value of the `CompileConfig` property is `DEBUG`, the `Optimization`, `Obfuscate`, and `OutputPath` properties inside of the `PropertyGroup` element are set.  
   
-```  
+```xml  
 <PropertyGroup Condition="'$(CompileConfig)' == 'DEBUG'" >  
     <Optimization>false</Optimization>  
     <Obfuscate>false</Obfuscate>  

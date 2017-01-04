@@ -2,7 +2,6 @@
 title: "GenerateResource Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GenerateResource Task
-Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](../Topic/Resgen.exe%20\(Resource%20File%20Generator\).md).  
+Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](http://msdn.microsoft.com/Library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4).  
   
 ## Parameters  
  The following table describes the parameters of the `GenerateResource` task.  
@@ -84,7 +83,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 ## Example  
  The following example uses the `GenerateResource` task to generate .resources files from the files specified by the `Resx` item collection.  
   
-```  
+```xml  
 <GenerateResource  
     Sources="@(Resx)"  
     OutputResources="@(Resx->'$(IntermediateOutputPath)%(Identity).resources')">  
@@ -98,7 +97,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
   
  Assuming that the assembly is named myAssembly, the following code generates an embedded resource named someQualifier.someResource.resources:  
   
-```  
+```xml  
 <ItemGroup>   <EmbeddedResource Include="myResource.resx">       <LogicalName>someQualifier.someResource.resources</LogicalName>   </EmbeddedResource></ItemGroup>  
 ```  
   

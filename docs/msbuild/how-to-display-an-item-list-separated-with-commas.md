@@ -2,7 +2,6 @@
 title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -63,7 +62,7 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../msbuild/includ
   
  `findstr /i /c:hello /c:world /c:msbuild phrases.txt`  
   
-```  
+```xml  
 <Project DefaultTargets = "Find"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

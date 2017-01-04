@@ -2,7 +2,6 @@
 title: "Target Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,7 +47,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
   
 ## Syntax  
   
-```  
+```xml  
 <Target Name="Target Name"  
         Inputs="Inputs"  
         Outputs="Outputs"  
@@ -117,7 +116,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 ## Example  
  The following code example shows a `Target` element that executes the `Csc` task.  
   
-```  
+```xml  
 <Target Name="Compile" DependsOnTargets="Resources" Returns="$(TargetPath)">  
     <Csc Sources="@(CSFile)"  
           TargetType="library"  

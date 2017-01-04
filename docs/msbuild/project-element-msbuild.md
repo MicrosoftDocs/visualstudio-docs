@@ -2,7 +2,6 @@
 title: "Project Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,7 +44,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
   
 ## Syntax  
   
-```  
+```xml  
 <Project InitialTargets="TargetA;TargetB"  
          DefaultTargets="TargetC;TargetD"  
          TreatAsLocalProperty="PropertyA;PropertyB"  
@@ -93,4 +92,4 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
  [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)

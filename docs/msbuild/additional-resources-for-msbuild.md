@@ -2,7 +2,6 @@
 title: "Additional Resources for MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -52,6 +51,6 @@ The following Web sites and forums can help you find answers to common questions
  A community forum dedicated to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ## See Also  
- [MSBuild](../msbuild/msbuild1.md)   
+ [MSBuild](../msbuild/msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)

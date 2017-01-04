@@ -2,7 +2,6 @@
 title: "Exec Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -68,7 +67,7 @@ Runs the specified program or command by using the specified arguments.
 ## Example  
  The following example uses the `Exec` task to run a command.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Binaries Include="*.dll;*.exe"/>  

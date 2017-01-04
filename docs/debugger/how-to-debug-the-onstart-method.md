@@ -2,7 +2,6 @@
 title: "How to: Debug the OnStart Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,7 +41,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Debug the OnStart Method
-You can debug a Windows service by starting the service and attaching the debugger to the service process. For more information, see [How to: Debug Windows Service Applications](../Topic/How%20to:%20Debug%20Windows%20Service%20Applications.md). However, to debug the <xref:System.ServiceProcess.ServiceBase.OnStart%2A?displayProperty=fullName> method of a Windows service, you must launch the debugger from inside the method.  
+You can debug a Windows service by starting the service and attaching the debugger to the service process. For more information, see [How to: Debug Windows Service Applications](http://msdn.microsoft.com/Library/63ab0800-0f05-4f1e-88e6-94c73fd920a2). However, to debug the <xref:System.ServiceProcess.ServiceBase.OnStart%2A?displayProperty=fullName> method of a Windows service, you must launch the debugger from inside the method.  
   
 1.  Add a call to <xref:System.Diagnostics.Debugger.Launch%2A> at the beginning of the `OnStart()`method.  
   

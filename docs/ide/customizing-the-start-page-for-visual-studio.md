@@ -2,7 +2,6 @@
 title: "Customizing the Start Page for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -54,14 +53,11 @@ You can customize the start page for Visual Studio in several default ways, such
 
     -   Install it from the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=start%20page), another website, or a page on your local intranet.  
 
-        > [!NOTE]
-        >  If you like a page that's targeted for an earlier version of Visual Studio, you can upgrade the page by using the Visual Studio SDK. See [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
-
-         Open a .vsix file that contains a custom start page, or copy and paste the start-page files into the **%USERPROFILE% \My Documents\Visual Studio 2017\StartPages** folder on your computer.  
+        Open a .vsix file that contains a custom start page, or copy and paste the start-page files into the **%USERPROFILE% \My Documents\Visual Studio 2017\StartPages** folder on your computer.  
 
     -   Create your own start page if you've installed the Visual Studio SDK.  
 
-         See [Creating Your Own Start Page](../misc/creating-your-own-start-page.md).  
+         See [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md).  
 
 2.  On the menu bar, choose **Tools**, **Options**.  
 
@@ -74,4 +70,3 @@ You can customize the start page for Visual Studio in several default ways, such
 
 ## See Also  
  [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
- [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)

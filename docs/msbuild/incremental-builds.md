@@ -2,7 +2,6 @@
 title: "Incremental Builds | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  Consider the following target.  
   
-```  
+```xml  
 <Target Name="Backup" Inputs="@(Compile)"   
     Outputs="@(Compile->'$(BackupFolder)%(Identity).bak')">  
     <Copy SourceFiles="@(Compile)" DestinationFiles=  
@@ -63,7 +62,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
   
-```  
+```xml  
 <CreateProperty Value="123">  
     <Output PropertyName="Easy" TaskParameter="Value" />  
 </CreateProperty>  
@@ -71,7 +70,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  This creates the property Easy, which has the value "123" whether or not the target is executed or skipped.  
   
-```  
+```xml  
 <CreateItem Include="a.cs;b.cs">  
     <Output ItemName="Simple" TaskParameter="Include" />  
 </CreateItem>  
@@ -84,7 +83,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
 ## Determining Whether a Target Has Been Run  
  Because of output inference, you have to add a `CreateProperty` task to a target to examine properties and items so that you can determine whether the target has been executed. Add the `CreateProperty` task to the target and give it an `Output` element whose `TaskParameter` is "ValueSetByTask".  
   
-```  
+```xml  
 <CreateProperty Value="true">  
     <Output TaskParameter="ValueSetByTask" PropertyName="CompileRan" />  
 </CreateProperty>  

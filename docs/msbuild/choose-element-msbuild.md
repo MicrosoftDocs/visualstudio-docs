@@ -2,7 +2,6 @@
 title: "Choose Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,7 +52,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
   
 ## Syntax  
   
-```  
+```xml  
 <Choose>  
     <When Condition="'StringA'=='StringB'">... </When>  
     <Otherwise>... </Otherwise>  
@@ -87,7 +86,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ## Example  
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
     <PropertyGroup>  

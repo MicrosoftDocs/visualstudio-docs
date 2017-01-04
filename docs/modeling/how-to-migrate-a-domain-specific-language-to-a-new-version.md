@@ -2,7 +2,6 @@
 title: "How to: Migrate a Domain-Specific Language to a New Version | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -81,5 +80,9 @@ You can migrate projects that define and use domain-specific language to [!INCLU
   
     -   Test your designer.  
   
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
 ## See Also  
- [What's New in Visualization and Modeling SDK](../misc/what-s-new-in-visualization-and-modeling-sdk.md)
+ [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+

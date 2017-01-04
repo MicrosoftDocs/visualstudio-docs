@@ -2,7 +2,6 @@
 title: "Analyze energy use in Store apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -72,7 +71,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
->  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)<xref:Windows.Foundation.Diagnostics.LoggingChannel.Close%2A>() ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](assetId:///Windows.Foundation.Diagnostics.LoggingChannel.Dispose?qualifyHint=False&autoUpgrade=True)()in C# and VB) when you are finished with a logging channel.  
+>  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx) ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](https://msdn.microsoft.com/en-us/library/windows/apps/windows.foundation.diagnostics.loggingchannel.dispose.aspx) in C# and VB) when you are finished with a logging channel.  
 > -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  

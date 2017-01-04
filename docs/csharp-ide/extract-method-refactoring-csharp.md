@@ -1,16 +1,15 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/extract-method
+
 title: "Extract Method Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.extractmethod"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -137,4 +136,4 @@ class Program
  To work around this situation, make the local variables that are used in the anonymous method fields of the class.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

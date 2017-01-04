@@ -2,7 +2,6 @@
 title: "WriteContextTLogs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ Writes logs files for the current context.
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName);  
 ```  
   

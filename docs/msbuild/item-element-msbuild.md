@@ -2,7 +2,6 @@
 title: "Item Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,7 +45,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
   
 ## Syntax  
   
-```  
+```xml  
 <Item Include="*.cs"  
         Exclude="MyFile.cs"  
         Remove="RemoveFile.cs"  
@@ -93,7 +92,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
 ## Example  
  The following code example shows how to declare two items of type `CSFile`. The second declared item contains metadata that has `MyMetadata` set to `HelloWorld`.  
   
-```  
+```xml  
 <ItemGroup>  
     <CSFile Include="engine.cs; form.cs" />  
     <CSFile Include="main.cs" >  

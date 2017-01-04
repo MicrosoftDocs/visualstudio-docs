@@ -2,7 +2,6 @@
 title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,7 +56,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 1.  Create a file that's named `projectA.proj` and that contains the following code:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
     ToolsVersion="12.0">  
   
@@ -75,7 +74,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 2.  Create another file that's named `projectB.proj` and that contains the following code:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
     ToolsVersion="12.0">  
   

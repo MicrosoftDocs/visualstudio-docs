@@ -1,15 +1,14 @@
 ---
-title: "Troubleshoot extensions for layer diagrams | Microsoft Docs"
+title: "Troubleshoot extensions for dependency diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "layer diagrams, extension errors"
-  - "layer diagrams, troubleshooting extensions"
+  - "dependency diagrams, extension errors"
+  - "dependency diagrams, troubleshooting extensions"
 ms.assetid: 1fda4f8a-38b8-482b-87b8-eade1a4e5662
 caps.latest.revision: 25
 author: "alexhomer1"
@@ -30,14 +29,14 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Troubleshoot extensions for layer diagrams
+# Troubleshoot extensions for dependency diagrams
 This topic addresses some problems that you might encounter when you create layer model extensions.  
   
-#### When I press F5 to debug my extension, my commands, gesture handlers, validation extensions, or custom properties do not appear on layer diagrams in the Experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
+#### When I press F5 to debug my extension, my commands, gesture handlers, validation extensions, or custom properties do not appear on dependency diagrams in the Experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
   
 1.  Open your extension solution in the Experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and on the **Build** menu, click **Rebuild Solution**.  
   
-2.  Press **F5** or **CTRL+F5** to start the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Open a layer diagram and test your extension.  
+2.  Press **F5** or **CTRL+F5** to start the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Open a dependency diagram and test your extension.  
   
  Continue with the next procedure if necessary.  
   
@@ -63,4 +62,4 @@ This topic addresses some problems that you might encounter when you create laye
 4.  In **source.extension.vsixmanifest** in your layer validation project, make sure that you have added both a **MEF Component** item and a **Custom Extension Type** item under **Content**.  
   
 ## See Also  
- [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
+ [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

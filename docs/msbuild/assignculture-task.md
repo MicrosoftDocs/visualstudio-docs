@@ -2,7 +2,6 @@
 title: "AssignCulture Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -59,7 +58,7 @@ This task accepts a list of items that may contain a valid .NET culture identifi
 ## Example  
  The following example executes the `AssignCulture` task with the `ResourceFiles` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ResourceFiles Include="MyResource1.fr.resx"/>  

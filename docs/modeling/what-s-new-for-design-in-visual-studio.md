@@ -2,7 +2,6 @@
 title: "What&#39;s new for design in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -34,61 +33,72 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # What&#39;s new for design in Visual Studio
-This release of Visual Studio includes the following improvements to help you better understand and design code.  
-  
- **Code maps and dependency graphs**  
-  
- In Visual Studio Enterprise, when you want to understand specific dependencies in your code, visualize them by creating code maps. You can then navigate these relationships by using the map, which appears next to your code. Code maps can also help you keep track of your place in the code while you work or debug code, so you'll read less code while you learn more about your code’s design.  
-  
- In the final (RTM) release, we made the shortcut menus for code elements and links much easier to use by grouping commands into sections related to selecting, editing, managing groups, and changing the layout of group contents. Notice also that test projects are displayed in a different style from other projects, and that we updated the icons for elements on the map to more appropriate versions.  
-  
- ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
-  
- Other improvements include:  
-  
--   **Improved top-down diagrams**. For medium to large Visual Studio solutions, you can now use a simplified Architecture menu to get a more useful code maps for your solution. The assemblies of your solution are grouped by the solution folders, so you can see them in context and leverage the effort you've put in structuring the solution. You'll immediately see project and assembly references, and then the link types appear. In addition, the assemblies external to your solution are grouped in a more compact way.  
-  
--   **Test Projects are styled differently and can be filtered**. You can now more easily and quickly identify test projects on map because they are styled differently. They can also be filtered out so that you can focus on the application’s working code.  
-  
--   **Simplified external dependency links**. Dependency links no longer represent the inheritance from System.Object, System.ValueType, System.Enum, and System.Delegate, which makes it easier to see external dependencies in your code map.  
-  
--   **'Drill-in into dependency links' takes filters into account**. You get a useful, clear diagram when expanding it to understand the contributions to a dependency link. The diagram is less cluttered, and it takes into account the link filtering options you’ve selected.  
-  
--   **Code elements are added to a code map with their context**. Because diagrams now appear with their context (up to the assembly and solution folder that you can filter out if required), you get more useful diagrams when dragging and dropping code elements from Solution Explorer, Class View, Object Browser; or when selecting elements in Solution Explorer and choosing Show on Code Map.  
-  
--   **Get reactive code maps more quickly**. Drag and drop operations produce an immediate result, and the links between nodes are created much more quickly, without affecting subsequent user-initiated operations such as expanding a node or requesting more nodes. When you create code maps without building the solution, all the corner cases—such as when assemblies are not built—are now processed.  
-  
--   **Skip rebuilding your solution.** Provides better performance when creating and editing diagrams.  
-  
--   **Filter code element nodes and groups**. You can quickly unclutter your maps by showing or hiding code elements based on their category, as well as by grouping code elements by solution folders, assemblies, namespaces, project folders, and types.  
-  
--   **Filter relationships to make diagrams easier to read**. Link filtering now also applies to cross group links, which makes working with the filter window less intrusive than it was in previous releases.  
-  
--   **Create diagrams from the Class View and Object Browser**. Drag and drop files and assemblies into a new or an existing map from the Class View and Object Browser windows.  
-  
- See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
-  
- **Other design and modeling changes in this release:**  
-  
--   **Layer diagrams**. Update these diagrams using Class View and Object Browser. To meet software design requirements, use layer diagrams to describe the desired dependencies for your software. Keep code consistent with this design by finding code that doesn’t meet these constraints, and by validating future code with this baseline.  
-  
--   **UML diagrams**. You can no longer create UML class diagrams and sequence diagrams from code. But you still create these diagrams using new UML elements.  
-  
--   **Architecture Explorer**. You can no longer use Architecture Explorer to create diagrams. But you can still use Solution Explorer.  
-  
-##  <a name="VersionSupport"></a> Version support for architecture and modeling tools  
- Visual Studio is available in several versions. Not all of these provide support for the architecture and modelling tools. The following table shows the availability of each tool.  
+
+## Live dependency validation
+
+Removing unwanted dependencies is an important part of managing your technical debt.
+Live validation of dependencies is now included, providing precise information about
+issues, and benefitting fully from the new features in the Error list and the editor.
+
+![Live dependency validation in action](media/dep-validation-whatsnew-01.png)
+
+The authoring experience has changed to make dependency validation more discoverable
+and more accessible, changing the terminology from "Layer diagram" to 
+"Dependency diagram".
+
+The **Architecture** menu now contains a command to directly create a Dependency diagram:
+
+![Live dependency item on Architecture menu](media/dep-validation-whatsnew-02.png)
+
+... and the property names of a Layer in a Dependency diagram, and their descriptions,
+have been changed to make them more meaningful:
+
+![Live dependency updated property names](media/dep-validation-whatsnew-03.png)
+
+You now see the impact of your changes immediately in the analysis results for the 
+current code in the solution each time you save the diagram. You don't have to wait
+any longer for the completion of the "Validate Dependencies" command.
+
+For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/07/live-architecture-dependency-validation-in-visual-studio-15-preview-5/). 
+ 
+## UML designers have been removed
+
+The UML designers have been removed from this version of Visual Studio Enterprise.
+
+* UML diagrams are now presented as XML files
+* The UML Model Explorer no longer exists
+* Modeling project references are no longer used for dependency validation
+* The "Layer References" node in Solution Explorer is no longer displayed
+* The "Validate" build action on a Dependency (Layer) diagram is no longer used - the Build task has been removed 
+* The project structure is maintained for round-tripping between versions
+* You can still open, create, edit, and save a Dependency (Layer) diagram as XML
+* TFS work items linked to a Dependency (Layer) diagram are not accessible on the design surface
+* Back linking from to DSL or a Layer is no longer supported 
+* UML extensibility in the Modeling SDK is no longer supported
+
+However, support for visualizing the architecture of .NET and C++ code is available
+through [code maps](map-dependencies-across-your-solutions.md), and the significant improvements to dependency validation
+described above.
+
+If you are a significant user of the UML designers, you can continue to use Visual Studio 2015
+or earlier versions while you decide on an alternative tool for your UML needs.
+
+For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/). 
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
+<a name="VersionSupport"></a>
+##  Version support for architecture and modeling tools  
+
+Visual Studio is available in several versions. Not all of these provide support for the architecture and modelling tools. The following table shows the availability of each tool.  
   
 |**Feature**|**Enterprise**|**Professional**|**Community**|**Express**|  
 |-----------------|--------------------|----------------------|-------------------|-----------------|  
-|**Code maps**|Yes|See note (1)|-|-|  
-|**UML Class diagrams**|Yes|-|-|-|  
-|**UML Sequence diagrams**|Yes|-|-|-|  
-|**UML Use Case diagrams**|Yes|-|-|-|  
-|**UML Activity diagrams**|Yes|-|-|-|  
-|**UML Component diagrams**|Yes|-|-|-|  
-|**Layer diagrams**|Yes|-|-|-|  
-|**Directed Graphs** (DGML diagrams)|Yes|Yes|-|-|  
+|**Code maps**|Yes|See Note (1)|-|-|  
+|**Dependency diagrams**|Yes|See Note (2)|See Note (2)|-|  
+|**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|-|  
 |**Code clone**|Yes|-|-|-|  
   
- Note (1): Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.
+Note (1): Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.
+
+Note (2): Only supports reading dependency diagrams.

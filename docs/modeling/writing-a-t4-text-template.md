@@ -2,7 +2,6 @@
 title: "Writing a T4 Text Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -206,8 +205,6 @@ private void WriteSquareLine(int i)
 <#@ assembly name="$(SolutionDir)library\MyAssembly.dll" #>  
 ```  
   
- For a list of macros, see [Common Macros for Build Commands and Properties](/visual-cpp/ide/common-macros-for-build-commands-and-properties).  
-  
  The assembly directive has no effect in a [preprocessed text template](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
  For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  
@@ -254,8 +251,6 @@ private void WriteSquareLine(int i)
  **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765) to create a set of classes with which you can read the XML data.  
   
  **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
-  
- **Use a UML model**. You can generate code from a UML model. This has the advantage that the model can be edited as a diagram in a familiar notation. Also, you do not have to design the diagram. For more information, see [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md).  
   
 ### Relative file paths in design-time templates  
  In a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md), if you want to reference a file in a location relative to the text template, use `this.Host.ResolvePath()`. You must also set `hostspecific="true"` in the `template` directive:  

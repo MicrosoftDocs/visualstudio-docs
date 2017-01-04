@@ -2,7 +2,6 @@
 title: "UsingTask Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,7 +46,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
   
 ## Syntax  
   
-```  
+```xml  
 <UsingTask TaskName="TaskName"  
     AssemblyName = "AssemblyName"   
     TaskFactory = "ClassName"  
@@ -91,7 +90,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ## Example  
  The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.  
   
-```  
+```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
        <ParameterGroup>  
               <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
@@ -107,7 +106,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ## Example  
  The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.  
   
-```  
+```xml  
 <UsingTask TaskName="Email"  
               AssemblyFile="c:\myTasks\myTask.dll" />  
 ```  

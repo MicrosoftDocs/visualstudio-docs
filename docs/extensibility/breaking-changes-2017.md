@@ -2,7 +2,6 @@
 title: "Breaking Changes in Visual Studio 2017 extensibility| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -49,7 +48,7 @@ Changes to the VSIX format include:
   The new capabilities include:
 
   * Registration into the specified Visual Studio instance.
-  * Installation to [external directories](set-install-root.md).
+  * Installation outside the [extensions folder](set-install-root.md).
   * Detection of processor architecture.
   * Dependence on language-separated language packs.
   * Installation with [NGEN support](ngen-support.md).

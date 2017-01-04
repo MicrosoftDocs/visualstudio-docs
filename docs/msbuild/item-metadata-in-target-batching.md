@@ -2,7 +2,6 @@
 title: "Item Metadata in Target Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ translation.priority.ht:
 ## Batching Targets  
  The following example contains an item list named `Res` that is divided into two batches based on the `Culture` item metadata. Each of these batches is passed into the `AL` task, which creates an output assembly for each batch. By using batching on the `Outputs` attribute of the `Target` element, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can determine if each of the individual batches is up-to-date before running the target. Without using target batching, both batches of items would be run by the task every time the target was executed.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   

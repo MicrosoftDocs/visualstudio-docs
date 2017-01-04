@@ -2,7 +2,6 @@
 title: "API Reference for Modeling SDK for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,10 +13,7 @@ ms.author: "awills"
 manager: "douge"
 ---
 # API Reference for Modeling SDK for Visual Studio
-The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) and the UML tools are built.  
-  
-> [!NOTE]
->  For information about the UML modeling API, see [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md). For information about text transformation, see [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md).  
+The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) tools are built.  
   
  This section contains reference material for namespaces that have names that begin with "Microsoft.VisualStudio.Modeling".  
   

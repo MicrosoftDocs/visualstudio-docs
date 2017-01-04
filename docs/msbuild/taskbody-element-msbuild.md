@@ -2,7 +2,6 @@
 title: "TaskBody Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,7 +45,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
   
 ## Syntax  
   
-```  
+```xml  
 <TaskBody Evaluate="true/false" />  
 ```  
   
@@ -74,7 +73,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
 ## Example  
  The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.  
   
-```  
+```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
        <ParameterGroup>  
               <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  

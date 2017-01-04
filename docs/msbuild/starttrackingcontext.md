@@ -2,7 +2,6 @@
 title: "StartTrackingContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,7 +40,7 @@ Start a tracking context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskName);  
 ```  
   

@@ -1,16 +1,16 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/extract-interface
+
+
 title: "Extract Interface Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.extractinterface"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -87,4 +87,4 @@ Extract Interface is a refactoring operation that provides an easy way to create
  When you invoke extract interface on a class or on a struct, the bases and interfaces list is modified to include the new interface name. When you invoke extract interface on an interface, the bases and interfaces list is not modified.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

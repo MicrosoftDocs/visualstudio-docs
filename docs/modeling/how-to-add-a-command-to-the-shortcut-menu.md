@@ -2,7 +2,6 @@
 title: "How to: Add a Command to the Shortcut Menu | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -359,3 +358,6 @@ protected override IList<MenuCommand> GetMenuCommands()
  [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)   
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+ 

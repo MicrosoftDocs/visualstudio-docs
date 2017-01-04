@@ -2,7 +2,6 @@
 title: "Csc Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -98,7 +97,7 @@ Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.d
 ## Example  
  The following example uses the `Csc` task to compile an executable from the source files in the `Compile` item collection.  
   
-```  
+```xml  
 <CSC  
     Sources="@(Compile)"  
     OutputAssembly="$(AppName).exe"  

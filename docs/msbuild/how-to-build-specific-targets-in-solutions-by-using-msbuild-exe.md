@@ -2,7 +2,6 @@
 title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -52,5 +51,5 @@ msbuild SlnFolders.sln /t:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clea
 ## See Also  
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [ MSBuild](../msbuild/msbuild1.md)  
+ [ MSBuild](../msbuild/msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)

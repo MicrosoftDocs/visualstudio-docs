@@ -2,7 +2,6 @@
 title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -217,8 +216,8 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
  When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the Mage.exe `-New` and `–Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used MageUI.exe, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)   
- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)   
+ [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)   
+ [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

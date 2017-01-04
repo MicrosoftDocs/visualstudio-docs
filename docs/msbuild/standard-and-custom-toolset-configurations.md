@@ -2,7 +2,6 @@
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -75,7 +74,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
  Specify a custom Toolset in the configuration file for MSBuild.exe (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for MSBuild.exe could include the following Toolset definition if you wished to override the default behavior of ToolsVersion 12.0.  
   
-```  
+```xml  
 <msbuildToolsets default="12.0">  
    <toolset toolsVersion="12.0">  
       <property name="MSBuildToolsPath"   
@@ -86,7 +85,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
  `<msbuildToolsets>` must also be defined in the configuration file, as follows.  
   
-```  
+```xml  
 <configSections>  
    <section name="msbuildToolsets"         
        Type="Microsoft.Build.BuildEngine.ToolsetConfigurationSection,   

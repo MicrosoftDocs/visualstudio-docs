@@ -2,7 +2,6 @@
 title: "MSBuild Well-known Item Metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +39,7 @@ translation.priority.ht:
 # MSBuild Well-known Item Metadata
 The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file `C:\MyProject\Source\Program.cs` in the project.  
   
-```  
+```xml  
 <ItemGroup>  
     <MyItem Include="Source\Program.cs" />  
 </ItemGroup>  

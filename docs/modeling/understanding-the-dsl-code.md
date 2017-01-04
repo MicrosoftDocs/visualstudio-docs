@@ -2,7 +2,6 @@
 title: "Understanding the DSL Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -144,7 +143,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 > [!NOTE]
 >  This is not the same as the root class of the model.  
   
- Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md).  
+ Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. 
   
  `DomainModelResx.resx`  
   

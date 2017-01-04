@@ -2,7 +2,6 @@
 title: "Output Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -49,7 +48,7 @@ Stores task output values in items and properties.
   
 ## Syntax  
   
-```  
+```xml  
 <Output TaskParameter="Parameter"  
     PropertyName="PropertyName"   
     Condition = "'String A' == 'String B'" />  
@@ -79,7 +78,7 @@ Stores task output values in items and properties.
 ## Example  
  The following code example shows the `Csc` task being executed inside of a `Target` element. The items and properties passed to the task parameters are declared outside of the scope of this example. The value from the output parameter `OutputAssembly` is stored in the `FinalAssemblyName` item, and the value from the output parameter `BuildSucceeded` is stored in the `BuildWorked` property. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
-```  
+```xml  
 <Target Name="Compile" DependsOnTargets="Resources">  
     <Csc  Sources="@(CSFile)"  
             TargetType="library"  

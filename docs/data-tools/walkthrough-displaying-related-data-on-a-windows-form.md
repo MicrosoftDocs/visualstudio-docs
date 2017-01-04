@@ -2,7 +2,6 @@
 title: "Walkthrough: Displaying Related Data on a Windows Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -71,7 +70,7 @@ In many application scenarios, you want to work with data that comes from more t
   
 2.  Name the project `RelatedDataWalkthrough`.  
   
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **RelatedDataWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -148,5 +147,5 @@ In many application scenarios, you want to work with data that comes from more t
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md)   
- [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md)   
- [BindingNavigator Control Overview](../Topic/BindingNavigator%20Control%20Overview%20\(Windows%20Forms\).md)
+ [BindingSource Component Overview](http://msdn.microsoft.com/Library/be838caf-fcb0-4b68-827f-58b2c04b747f)   
+ [BindingNavigator Control Overview](http://msdn.microsoft.com/Library/4423eede-f8d1-4d02-822f-5bf8432680d0)

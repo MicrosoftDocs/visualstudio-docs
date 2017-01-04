@@ -2,7 +2,6 @@
 title: "Implement Abstract Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,10 +52,14 @@ translation.priority.ht:
    ![Implement class preview](media/abstract_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
    >
    >Additionally, you can use the **Document**, **Project**, and **Solution** links at the bottom of the preview window to create the proper method signatures across multiple classes which inherit from the abstract class.
 
 1. The abstract method signatures will be created automatically, ready to be implemented.
 
    ![Implement class result](media/abstract_result.png)
+
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

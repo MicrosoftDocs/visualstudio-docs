@@ -2,7 +2,6 @@
 title: "Remote Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,16 +40,18 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Remote Debugging
-You can debug a Visual Studio application that has been deployed on a different computer.  To do so, you use the Visual Studio remote debugger.  
+You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
   
- The information here applies to Windows desktop applications and ASP.NET applications.  For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).  
+ The information here applies to Windows desktop applications and ASP.NET applications. For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).
   
 ## Download and Install the Remote Tools  
  Follow these steps to download the remote tools.
   
 1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), open the correct download page for the remote tools.
 
-     For Update 3 of the remote tools for Visual Studio 2015, open [this download page](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015).
+     Get the [remote tools for Visual Studio 2017 RC](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017-rc)
+
+     Get [Update 3 of the remote tools for Visual Studio 2015](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015-update-3).
 
      If you are not using Update 3 of Visual Studio 2015, open the [download page at My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) instead.
   
@@ -137,7 +138,8 @@ You can debug a Visual Studio application that has been deployed on a different 
   
 -   To enable other users to connect to the remote debugger, choose **Tools / Permissions**. You must have administrator privileges to grant or deny permissions.
 
-     > [!IMPORTANT] You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions. 
+     > [!IMPORTANT] 
+     > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions. 
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
   
@@ -146,7 +148,7 @@ You can debug a Visual Studio application that has been deployed on a different 
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).  
   
      > [!WARNING]
->  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+     >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
 ##  <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
  For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.

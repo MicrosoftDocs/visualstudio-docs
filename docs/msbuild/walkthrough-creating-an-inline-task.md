@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -81,7 +80,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 2.  Add the following inline task and target to the project file just before the `</Project>` tag.  
   
-    ```  
+    ```xml  
     <UsingTask TaskName="Hello" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >  
       <ParameterGroup />  
       <Task>  
@@ -126,7 +125,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 1.  In the code editor, replace the Hello task and TestBuild target by using the following code.  
   
-    ```  
+    ```xml  
     <UsingTask TaskName="Echo" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >  
       <ParameterGroup>  
         <Text Required="true" />  
@@ -157,7 +156,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 1.  In the code editor, replace the Echo task and TestBuild target by using the following code.  
   
-    ```  
+    ```xml  
     <UsingTask TaskName="Adder" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >  
       <ParameterGroup>  
         <A ParameterType="System.Int32" Required="true" />  
@@ -193,7 +192,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 1.  In the code editor, replace the Adder task and TestBuild target by using the following code.  
   
-    ```  
+    ```xml  
     <UsingTask TaskName="RegX" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >  
       <ParameterGroup>  
         <Expression Required="true" />  

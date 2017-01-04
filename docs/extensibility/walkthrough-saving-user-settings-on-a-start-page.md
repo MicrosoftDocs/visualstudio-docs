@@ -2,7 +2,6 @@
 title: "Walkthrough: Saving User Settings on a Start Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,7 +47,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 #### To configure the project for this walkthrough  
   
-1.  Create a Start Page project by using the Start Page project template, as described in [Creating Your Own Start Page](../misc/creating-your-own-start-page.md). Name the project **SaveMySettings**.  
+1.  Create a Start Page project as described in [Creating a Custom Start Page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.  
   
 2.  In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
   
@@ -213,6 +212,5 @@ You can persist user settings for your start page. By following this walkthrough
  You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values will not overwrite one another in the registry.  
   
 ## See Also  
- <xref:EnvDTE80.DTE2?displayProperty=fullName>   
- [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)   
+ <xref:EnvDTE80.DTE2?displayProperty=fullName>     
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

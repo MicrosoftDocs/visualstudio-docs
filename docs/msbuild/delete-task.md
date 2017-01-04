@@ -2,7 +2,6 @@
 title: "Delete Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,7 +56,7 @@ Deletes the specified files.
 ## Example  
  The following example deletes the file `MyApp.pdb`.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <PropertyGroup>  

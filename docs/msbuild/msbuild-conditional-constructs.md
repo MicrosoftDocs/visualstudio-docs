@@ -2,7 +2,6 @@
 title: "MSBuild Conditional Constructs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -54,7 +53,7 @@ translation.priority.ht:
 ## Example  
  The following example uses the `Choose` and `When` elements for either/or processing. The properties and items for the project are set depending on the value of the `Configuration` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
     <PropertyGroup>  
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>  

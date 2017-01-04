@@ -2,7 +2,6 @@
 title: "UnregisterAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -59,7 +58,7 @@ Unregisters the specified assemblies for COM interop purposes. Performs the reve
 ## Example  
  The following example uses the `UnregisterAssembly` task to unregister the assembly at the path specified by the `OutputPath` and `FileName` properties, if it exists.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <OutputPath>\Output\</OutputPath>  

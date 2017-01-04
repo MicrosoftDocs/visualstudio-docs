@@ -2,7 +2,6 @@
 title: "Using Visual Studio ModelBus in a Text Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -412,3 +411,5 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 ## See Also  
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

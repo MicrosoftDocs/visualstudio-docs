@@ -1,8 +1,7 @@
 ---
-title: "Installing to external directories with VSIX v3 | Microsoft Docs"
+title: "Installing outside the extensions folder with VSIX v3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,7 +28,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Installing to external directories
+# Installing outside the extensions folder
 
 >**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
@@ -40,6 +39,8 @@ Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support f
 * [installdir]\MSBuild
 * [installdir]\Schemas
 * [installdir]\Licenses
+
+>**Note:** The VSIX format does not allow you to install outside the VS install folder structure.
 
 In order to support installing to these directories, the VSIX must be installed "per-instance per-machine". This can be enabled by checking the "all-users" checkbox in the extension.vsixmanifest designer:
 

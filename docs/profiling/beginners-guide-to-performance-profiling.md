@@ -2,13 +2,12 @@
 title: "Beginners Guide to Performance Profiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 
@@ -41,25 +40,28 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../Topic/Profiling%20Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
 
-In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md).
+In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Run profiling tools without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
   
 1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
-2.  Set a second breakpoint at the end of the function or regiion of code that you want to analyze.
-  
-2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+2.  Set a second breakpoint at the end of the function or region of code that you want to analyze.
 
-3.  You can choose whether to see **CPU Usage**, [Memory Usage](../Topic/Memory%20Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
+    > [!TIP]
+    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+  
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+
+4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
 
      ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
-4.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+5.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
@@ -67,19 +69,19 @@ In this topic, we'll discuss analyzing CPU usage in your normal debugging workfl
 
      For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx)
 
-5.  Run the scenario that will cause your first breakpoint to be hit.
+6.  Run the scenario that will cause your first breakpoint to be hit.
 
-6.  While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
+7.  While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
 
-     When you choose **Enable CPU Profiling**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.eX0000.
+     When you choose **Enable CPU Profiling**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
-7.  Hit F5 to run the app to your second breakpoint.
+8.  Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
-7.  Select the region you're interested in analyzing in the CPU timeline (it must be a region that shows profiling data).
+9.  Select the region you're interested in analyzing in the CPU timeline (it must be a region that shows profiling data).
 
      ![Diagnostics Tools Selecting a Time Segment](../profiling/media/DiagToolsSelectTimeSegment.png "DiagToolsSelectTimeSegment")
 
@@ -101,7 +103,8 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     ![Diagnostics Tools CPU Usage Function List](../profiling/media/DiagToolsCPUUsageFunctionList.png "DiagToolsCPUUsageFunctionList")
 
-    > [!TIP] Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
+    > [!TIP]
+    > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
 
 2. In the function list, double-click one of your app functions that is doing a lot of work.
 
@@ -115,7 +118,8 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 3713 out of 3729 ms were spent in the function body, and the remaining 16 ms were spent in external code called by this function).
 
-    > [!TIP] High values in **Function Body** may indicate a performance bottleneck within the function itself.
+    > [!TIP]
+    > High values in **Function Body** may indicate a performance bottleneck within the function itself.
 
 3. If you want to see a higher-level view showing the order in which the functions are called, select **Call Tree** from the drop-down list at the top of the pane.
  
@@ -151,9 +155,9 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
->  If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../Topic/How%20to:%20Reference%20Windows%20Symbol%20Information.md).
+> If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
   
 ## See Also  
- [Performance Explorer](../Topic/Performance%20Explorer.md)   
- [Getting Started](../Topic/Getting%20Started%20with%20Performance%20Tools.md)   
- [Overviews](../Topic/Overviews%20\(Performance%20Tools\).md)
+ [[Memory Usage](../profiling/memory-usage.md)
+ [CPU Usage](../profiling/cpu-usage.md)
+ [Profiling Tools](../profiling/profiling-tools.md)

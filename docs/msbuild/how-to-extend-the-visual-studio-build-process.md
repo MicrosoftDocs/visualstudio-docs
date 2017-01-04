@@ -2,7 +2,6 @@
 title: "How to: Extend the Visual Studio Build Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +49,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is d
   
 2.  Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
   
-    ```  
+    ```xml  
     <Project>  
         ...  
         <Target Name="BeforeBuild">  
@@ -81,13 +80,13 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is d
   
  You can guard against unintended overrides of targets by overriding the "DependsOn" properties that are used in `DependsOnTargets` attributes throughout the Microsoft.Common.targets file. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:  
   
-```  
+```xml  
 <Target Name="Build" DependsOnTargets="$(BuildDependsOn)"/>  
 ```  
   
  This piece of XML indicates that before the `Build` target can run, all the targets specified in the `BuildDependsOn` property must run first. The `BuildDependsOn` property is defined as:  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDependsOn>  
         BeforeBuild;  
@@ -99,7 +98,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is d
   
  You can override this property value by declaring another property named `BuildDependsOn` at the end of your project file. By including the previous `BuildDependsOn` property in the new property, you can add new targets to the beginning and end of the target list. For example:  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDependsOn>  
         MyCustomTarget1;  

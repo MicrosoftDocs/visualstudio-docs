@@ -2,7 +2,6 @@
 title: "How To: Use the Concurrency Visualizer Markers SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -93,7 +92,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
      ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesnative.png "CvMarkerSeriesNative")  
   
-### To Use Visual Basic or C#  
+### To Use Visual Basic or C# #
   
 1.  Add Concurrency Visualizer SDK support to your application. For more information, see [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md).  
   

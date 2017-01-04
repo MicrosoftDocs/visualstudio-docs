@@ -2,7 +2,6 @@
 title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -149,7 +148,6 @@ protected override void ProcessOnMenuDeleteCommand()
  <xref:System.ComponentModel.Design.MenuCommand>   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md)   
- [Walkthrough: Getting Information from a Selected Link](../misc/walkthrough-getting-information-from-a-selected-link.md)   
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   

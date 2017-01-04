@@ -2,7 +2,6 @@
 title: "Substitution Strings Used in .Pkgdef and .Pkgundef Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio shell, isolated mode%2C .pkgdef and .pkgundef files"
+  - "Visual Studio shell, isolated mode, .pkgdef and .pkgundef files"
 ms.assetid: b1755d63-d794-4fd7-864b-70a9684881c2
 caps.latest.revision: 4
 ms.author: "gregvanl"

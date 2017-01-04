@@ -2,7 +2,6 @@
 title: "How to: Use the Call Stack Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -149,8 +148,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
 5.  Click **OK** to close the **Options** dialog box.  
   
 ## See Also  
- [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   
- [How to: Change the Numeric Format of Debugger Windows](../Topic/How%20to:%20Change%20the%20Numeric%20Format%20of%20Debugger%20Windows.md)   
+ [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Using Breakpoints](../debugger/using-breakpoints.md)

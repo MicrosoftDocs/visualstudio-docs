@@ -2,7 +2,6 @@
 title: "Creating a Custom Start Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,7 +28,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Creating a Custom Start Page
-If you cannot create a custom Start Page by using the Start Page project template, as described in [Start Pages](../misc/creating-your-own-start-page.md), you can manually create one by following the steps in this document.  
+You can create a custom Start Page by following the steps in this document.  
   
 ## Creating a Blank Start Page  
  First, make a blank Start Page by creating a .xaml file that has a tag structure that Visual Studio will recognize. Then, add markup and code-behind to produce the appearance and functionality you want.  

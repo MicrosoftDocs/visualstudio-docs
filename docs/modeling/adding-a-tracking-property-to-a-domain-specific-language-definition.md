@@ -2,7 +2,6 @@
 title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -773,4 +772,3 @@ This walkthrough shows how to add a tracking property to a domain model.
  <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)   
- [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)

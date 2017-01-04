@@ -2,7 +2,6 @@
 title: "Import Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,7 +47,7 @@ Imports the contents of one project file into another project file.
   
 ## Syntax  
   
-```  
+```xml  
 <Import Project="ProjectPath"  
     Condition="'String A'=='String B'" />  
 ```  
@@ -96,14 +95,14 @@ Imports the contents of one project file into another project file.
   
  This is useful if you want to offer an extensibility point so that someone else can import a file without requiring you to explicitly add the file name to the importing file. For this purpose, Microsoft.Common.Targets contains the following line at the top of the file.  
   
-```  
+```xml  
 <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore\*" Condition="'$(ImportByWildcardBeforeMicrosoftCommonTargets)' == 'true' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore')"/>  
 ```  
   
 ## Example  
  The following example shows a project that has several items and properties and imports a general project file.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   

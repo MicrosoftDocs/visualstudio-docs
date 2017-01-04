@@ -2,7 +2,6 @@
 title: "MSBuild Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -43,7 +42,7 @@ translation.priority.ht:
 > [!NOTE]
 >  If you do not reference the item list elsewhere in the task attributes, or the metadata name may be ambiguous, you can use the %(*ItemCollection.ItemMetaDataName*) notation to fully qualify the item metadata value to use for batching.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -72,7 +71,7 @@ translation.priority.ht:
   
  The following example shows a `Target` element that contains an `Outputs` attribute with the %(*ItemMetaDataName*) notation. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch are not up-to-date, the target is run. Otherwise, the target is skipped.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   

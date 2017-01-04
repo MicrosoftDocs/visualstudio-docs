@@ -2,7 +2,6 @@
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -54,13 +53,13 @@ This topic describes MSBuild errors that might occur because of reference issues
 ## You Have Re-Targeted a Project to a Different Version of the .NET Framework and References Do Not Resolve  
  If you retarget a project to a different version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], your references may not resolve properly in some cases. Explicit fully qualified references to assemblies often cause this issue, but you can resolve it by removing the references that do not resolve and then adding them back to the project. As an alternative, you can edit the project file to replace the references. First, you remove references of the following form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />  
 ```  
   
  Then you replace them with the simple form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel" />  
 ```  
   
@@ -69,6 +68,6 @@ This topic describes MSBuild errors that might occur because of reference issues
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md)   
+ [.NET Framework Client Profile](http://msdn.microsoft.com/Library/f0219919-1f02-4588-8704-327a62fd91f1)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

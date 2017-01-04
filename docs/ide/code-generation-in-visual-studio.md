@@ -2,7 +2,6 @@
 title: "Code Generation in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,6 +40,7 @@ Visual Studio can help generate portions of source code for you, letting you foc
 Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities. For more information, see the following pages:  
   
 * [Code Generation (C#)](../csharp-ide/code-generation-csharp.md)
+* [Code Generation (Visual Basic)](../vb-ide/code-generation-vb.md)
 
 Documentation for other languages coming soon...
 

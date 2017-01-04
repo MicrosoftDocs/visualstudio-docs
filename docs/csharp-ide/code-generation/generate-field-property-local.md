@@ -2,7 +2,6 @@
 title: "Generate Field/Property/Local | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,8 +52,12 @@ translation.priority.ht:
    ![Generate field/property/local preview](media/field_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The field, property or local will be created automatically with the type inferred from its usage.
 
    ![Generate field/property/local result](media/field_result.png)
+
+## See Also  
+[Code Generation (C#)](../code-generation-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md) 

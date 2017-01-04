@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_InlSpec | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -35,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_InlSpec
-This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](../../misc/inline-inline-forceinline.md) attributes).  
+This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp.md) attributes).  
   
 ## Syntax  
   
@@ -64,4 +63,4 @@ HRESULT get_inlSpec(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [inline, __inline, \__forceinline](../../misc/inline-inline-forceinline.md)
+ [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp.md)
