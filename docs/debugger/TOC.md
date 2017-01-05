@@ -93,7 +93,7 @@
 ### [Dump File Summary Extensibility API](dump-file-summary-extensibility-api.md)
 ## [How to: Restore Hidden Debugger Commands](how-to-restore-hidden-debugger-commands.md)
 # [Remote Debugging](remote-debugging.md)
-## [Remote Debugging ASP.NET on a Remote IIS 7.5 Computer](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
+## [Remote Debugging ASP.NET on a Remote IIS Computer](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 ## [Remote Debugging a C# Project](remote-debugging-csharp.md)
 ## [Remote Debugging a C++ Project](remote-debugging-cpp.md)
 ## [Configure the Windows Firewall for Remote Debugging](configure-the-windows-firewall-for-remote-debugging.md)
