@@ -31,7 +31,7 @@ translation.priority.ht:
     >   
     >  In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a  a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer.  
   
-3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. See [setup instructions](#bkmk_setup)
+3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. Follow the [setup instructions](#bkmk_setup).
 
 If you try to copy the remote debugger (msvsmon.exe) to the remote computer and run it, be aware that the **Remote Debugger Configuration Wizard** (**rdbgwiz.exe**) is installed only when you download the tools, and you may need to use the wizard for configuration later, especially if you want the remote debugger to run as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService) below.
 

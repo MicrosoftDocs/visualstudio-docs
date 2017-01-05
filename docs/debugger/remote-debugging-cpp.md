@@ -52,7 +52,7 @@ For information about remote debugging Windows Store apps and Azure apps, see [R
 
 [!INCLUDE [remote-debugger-requirements](../debugger/includes/remote-debugger-requirements.md)]
   
-## Set up the remote debugger
+## <a name="BKMK_setup"></a> Set up the remote debugger
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
