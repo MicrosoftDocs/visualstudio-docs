@@ -53,9 +53,12 @@ translation.priority.ht:
    ![Generate method preview](media/method_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The method will be created automatically with any parameters inferred from its usage.
 
    ![Generate method result](media/method_result.png)
   
+## See Also  
+[Code Generation (Visual Basic)](../code-generation-vb.md)  
+[Preview Changes](../../ide/preview-changes.md)

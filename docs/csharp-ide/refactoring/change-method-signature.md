@@ -67,11 +67,12 @@ translation.priority.ht:
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]
-   > Use the **Preview reference changes** checkbox to see what the result will be before committing to it.
+   > Use the [**Preview reference changes**](../../ide/preview-changes.md) checkbox to see what the result will be before committing to it.
 
 1. When you are finished, press the **OK** button to make the changes.
 
    ![Change Signature result](media/changesignature_result.png)
 
 ## See Also  
-[Refactoring (C#)](../refactoring-csharp.md)
+[Refactoring (C#)](../refactoring-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

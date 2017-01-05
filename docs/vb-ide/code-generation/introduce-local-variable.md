@@ -52,7 +52,7 @@ translation.priority.ht:
    ![Introduce local preview](media/local_preview.png)
 
    >[!TIP]
-   >Use the **Preview changes** link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The local variable will be created automatically with the type inferred from its usage.  Give the new local variable a new name by typing it.
 
@@ -60,3 +60,7 @@ translation.priority.ht:
 
    >[!NOTE]
    >You can use the **...all occurences of...** menu option to replace every instance of the selected expression found, not just the one you have specifically highlighted.
+
+## See Also  
+[Code Generation (Visual Basic)](../code-generation-vb.md)  
+[Preview Changes](../../ide/preview-changes.md) 
