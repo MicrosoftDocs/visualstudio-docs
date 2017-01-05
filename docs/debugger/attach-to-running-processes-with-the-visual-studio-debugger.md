@@ -68,7 +68,7 @@ You can use this capability to debug apps that are running on a local or remote 
 
      To quickly select the process you want, type the first letter of the process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
      
-     ![DBG_Basics_Attach_To_Process](../Image/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
+     ![DBG_Basics_Attach_To_Process](../media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
   
      If the process is running under a different user account, select the **Show processes from all users** check box.
   
