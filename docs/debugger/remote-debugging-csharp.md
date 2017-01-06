@@ -42,7 +42,7 @@ translation.priority.mt:
 # Remote Debugging a C# or Visual Basic project
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
   
-For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).
+For information about remote debugging apps with Azure backends, see [Debugging an Azure cloud service or virtual machine in Visual Studio](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines). For information about remote debugging Windows Universal Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
   
 ## Download and Install the Remote Tools
 
@@ -108,18 +108,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 ## Set Up Debugging with Remote Symbols 
 
-[!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)] 
-  
-##  <a name="bkmk_winstoreAzure"></a> Remote Debugging on Windows Store and Azure apps  
- For information about remote debugging with Windows Store apps, see [Debug and test Windows Store apps on a remote device from Visual Studio](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx).  
-  
- For information about debugging on Azure, see one of these topics:  
-  
--   [Debugging a Cloud Service or Virtual Machine in Visual Studio](http://msdn.microsoft.com/library/azure/ff683670.aspx)  
-  
--   [Debugging the .NET Backend in Visual Studio](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
-  
--   Introduction to Remote Debugging on Azure Web Sites ([Part 1](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/), [Part 2](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/), [Part 3](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
+[!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]  
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   

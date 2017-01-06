@@ -41,8 +41,18 @@ translation.priority.mt:
 ---
 # Remote Debugging
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.
-  
- The information here applies to Windows desktop applications and ASP.NET applications. For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).
+
+For in-depth instructions on remote debugging, see these topics.
+
+|Scenario|Link|
+|-|-|-|
+|ASP.NET|[Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
+|C# or Visual Basic|[Remote Debugging a C# or Visual Basic Project](remote-debugging-csharp.md)|
+|C++|[Remote Debugging a C++ Project](remote-debugging-cpp.md)|
+|Universal Windows Apps (UWP)|[Debug an Installed App Package](debug-installed-app-package.md)|
+|Azure|[Debugging an Azure cloud service or virtual machine in Visual Studio](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
+
+If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   
 ## Download and Install the Remote Tools  
 
@@ -80,17 +90,6 @@ For debugging in ASP.NET and other server environments, you must either run the 
  At this point the remote debugger is running as a service. You can verify this by going to **Control Panel / Services** and looking for **Visual Studio 2015 Remote Debugger**.  
   
  You can stop and start the remote debugger service from **Control Panel / Services**.
-  
-##  <a name="bkmk_winstoreAzure"></a> Remote Debugging on Windows Store and Azure apps  
- For information about remote debugging with Windows Store apps, see [Debug and test Windows Store apps on a remote device from Visual Studio](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx).  
-  
- For information about debugging on Azure, see one of these topics:  
-  
--   [Debugging a Cloud Service or Virtual Machine in Visual Studio](http://msdn.microsoft.com/library/azure/ff683670.aspx)  
-  
--   [Debugging the .NET Backend in Visual Studio](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
-  
--   Introduction to Remote Debugging on Azure Web Sites ([Part 1](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/), [Part 2](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/), [Part 3](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
 
 ## Set Up Debugging with Remote Symbols 
 
