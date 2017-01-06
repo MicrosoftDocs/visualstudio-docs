@@ -38,15 +38,16 @@ These procedures have been tested on these server configurations:
 
 Most of the information in this article also applies to remote debugging an ASP.NET Core application, except that deployment of ASP.NET core apps is different and requires extra steps. To deploy an ASP.NET Core app to IIS, You will need to complete all sections of [this article](https://docs.asp.net/en/latest/publishing/iis.html).
 
-## Prerequisites: install the remote debugger on the Windows Server computer
+## Download and Install the Remote Tools
 
-For instructions about how to download the remote debugger to the Windows Server computer, see [Remote Debugging](../debugger/remote-debugging.md).
+[!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
-To do remote debugging of ASP.NET applications, you can either run the remote debugger application as an Administrator or start the remote debugger as a service. Details about how to run the remote debugger as a service can be found in [Remote Debugging](../debugger/remote-debugging.md).
+> [!NOTE]
+>  The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported.
+  
+## <a name="BKMK_setup"></a> Set up the remote debugger
 
-Once it is installed, make sure the remote debugger is running on the target machine. (If it's not, search for **Remote Debugger** in the **Start** menu. ) The remote debugger window looks like this. (4020 is the default port number)
-
-![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
+[!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
   
 ## Create the application on the Visual Studio computer  
   

@@ -16,7 +16,7 @@ manager: "ghogen"
 f1_keywords:
 	- "vs.csharp.refactoring.extractmethod"
 dev_langs:
-	- VB
+    - "VB"
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
