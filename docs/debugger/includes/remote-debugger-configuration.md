@@ -33,6 +33,14 @@ You must have administrative permissions on the remote computer.
 7.  When configuration is complete, the Remote Debugger window appears.
   
      ![RemoteDebuggerWindow](../includes/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
+
+     test 3:
+
+     ![RemoteDebuggerWindow](../../debugger/includes/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
+
+     test 4: 
+
+     ![RemoteDebuggerWindow](../debugger/includes/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
   
      The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because you will need this later for configuration in Visual Studio.  
   
