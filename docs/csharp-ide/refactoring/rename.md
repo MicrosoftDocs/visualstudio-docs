@@ -16,7 +16,7 @@ manager: "ghogen"
 f1_keywords: 
     - "vs.csharp.refactoring.rename"
 dev_langs:
-    - csharp
+    - "CSharp"
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
