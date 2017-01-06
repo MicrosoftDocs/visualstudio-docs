@@ -44,7 +44,7 @@ You must have administrative permissions on the remote computer.
 
      test 5:
 
-     ![RemoteDebuggerWindow](media/remotedebuggerwindow.png "RemoteDebuggerWindow")
+     ![RemoteDebuggerWindow](./media/remotedebuggerwindow.png "RemoteDebuggerWindow")
 
      test 6: 
 
