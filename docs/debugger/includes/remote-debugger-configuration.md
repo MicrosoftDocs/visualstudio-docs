@@ -22,7 +22,7 @@ You must have administrative permissions on the remote computer.
   
 3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dalog box appears.  
   
-     ![RemoteDebuggerConfWizardPage](./media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
+     ![RemoteDebuggerConfWizardPage](../media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
   
 4.  If the Windows Service API is not installed (which happens only on Windows Server 2008 R2), choose the **Install** button.  
   
@@ -33,22 +33,6 @@ You must have administrative permissions on the remote computer.
 7.  When configuration is complete, the Remote Debugger window appears.
   
      ![RemoteDebuggerWindow](../media/remotedebuggerwindow.png "RemoteDebuggerWindow")
-
-     test 3:
-
-     ![RemoteDebuggerWindow](../../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
-
-     test 4: 
-
-     ![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
-
-     test 5:
-
-     ![RemoteDebuggerWindow](./media/remotedebuggerwindow.png "RemoteDebuggerWindow")
-
-     test 6: 
-
-     ![RemoteDebuggerWindow](../../media/remotedebuggerwindow.png "RemoteDebuggerWindow")
   
      The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because you will need this later for configuration in Visual Studio.  
   
