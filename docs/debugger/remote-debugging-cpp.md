@@ -18,7 +18,7 @@ dev_langs:
   - "VB"
 helpviewer_keywords: 
   - "remote debugging, setup"
-ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
+ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
