@@ -61,7 +61,7 @@
 ## [Viewing Data in the Debugger](viewing-data-in-the-debugger.md)
 ### [View data values in Data Tips  in the code editor](view-data-values-in-data-tips-in-the-code-editor.md)
 ### [Create custom views of native objects](create-custom-views-of-native-objects.md)
-### [Create custom views of .managed objects](create-custom-views-of-dot-managed-objects.md)
+### [Create custom views of managed objects](create-custom-views-of-dot-managed-objects.md)
 #### [Using DebuggerTypeProxy Attribute](using-debuggertypeproxy-attribute.md)
 #### [Using the DebuggerDisplay Attribute](using-the-debuggerdisplay-attribute.md)
 ### [Create Custom Visualizers of Data](create-custom-visualizers-of-data.md)
