@@ -68,7 +68,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Additional Build Actions  
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/en-us/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
   
-```  
+```xml  
 <ItemGroup>  
     <AvailableItemName Include="JScript"/>  
 </ItemGroup>  
@@ -103,7 +103,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Displaying Properties and Items  
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] recognizes certain property names and values. For example, the following property in a project will cause **Windows Application** to appear in the **Application Type** box in the **Project Designer**.  
   
-```  
+```xml  
 <OutputType>WinExe</OutputType>  
 ```  
   
@@ -115,7 +115,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
  Items defined in the project with arbitrary item type names are by default displayed in the Solution Explorer under their project node. To hide an item from display, set the `Visible` metadata to `false`. For example, the following item will participate in the build process but not be displayed in Solution Explorer.  
   
-```  
+```xml  
 <ItemGroup>  
     <IntermediateFile Include="cache.temp">  
         <Visible>false</Visible>  

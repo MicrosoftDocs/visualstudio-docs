@@ -1,8 +1,8 @@
 ---
-title: "Uninstall Visual Studio | Microsoft Docs"
+title: "Uninstall Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to uninstall Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "2016-05-05"
+ms.date: "11/18/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -52,8 +52,11 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
      ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017uninstall-UninstallConfirm.png "Confirm to uninstall Visual Studio 2017 RC")  
 
-If you change your mind later and want to reinstall Visual Studio 2017 RC, simply start the Visual Studio installer again, then click **Install** from the selection screen.
+If you change your mind later and want to reinstall Visual Studio 2017 RC, simply start the Visual Studio installer again, and then click **Install** from the selection screen.
+
+> [!IMPORTANT]
+> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
 ## See Also  
-* [Install Visual Studio](../install/install-visual-studio-2015.md)
+* [Install Visual Studio](install-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

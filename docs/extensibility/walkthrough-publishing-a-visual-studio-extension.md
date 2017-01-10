@@ -95,7 +95,7 @@ This walkthrough shows you how to publish a Visual Studio extension to the Visua
   
 1.  Open the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=194329) website.  
   
-2.  In the upper-right corner, click **My Extenions**. The listing for TestPublish is displayed.  
+2.  On the center, click **My Extensions**. The listing for TestPublish is displayed.  
   
 3.  Click **Delete**.  
   

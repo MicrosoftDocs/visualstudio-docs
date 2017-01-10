@@ -8,10 +8,15 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: csharp
 ms.assetid: 60e2a623-b56d-4591-93dc-e51429e4e1ba
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords: 
+    - "vs.csharp.refactoring.rename"
+dev_langs:
+    - "CSharp"
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -53,7 +58,7 @@ translation.priority.ht:
    ![Rename animation](media/rename_animated.gif)
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as preview changes before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
 
@@ -62,5 +67,6 @@ translation.priority.ht:
 >
 > ![Rename Conflict](media/rename_conflict.png)
 
-
-<!--   ![Rename item](media/rename_rename.png)-->
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

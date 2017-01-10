@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of .managed objects | Microsoft Docs"
+title: "Create custom views of managed objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -43,7 +43,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Create custom views of .managed objects
+# Create custom views of managed objects
 You can customize the way Visual Studio displays data types in debugger variable windows.  
   
 ## Attributes  

@@ -64,7 +64,7 @@ Use this dialog box to find out more about a specific message. To display this d
  [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.  
   
- [Opening Messages View from Find Window](_asug_choosing_message_options)  
+ [Opening Messages View from Find Window](../debugger/how-to-open-messages-view-from-find-window.md)  
  Explains how to open Messages view from the Find Window dialog box.  
   
  [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  

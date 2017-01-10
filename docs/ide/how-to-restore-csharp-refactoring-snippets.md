@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring-csharp
+
 title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

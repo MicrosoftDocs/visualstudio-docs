@@ -40,7 +40,7 @@ Starts a tracking context using a response file specifying a root marker.
   
 ## Syntax  
   
-```  
+```cpp 
 HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTSTR taskName, LPCTSTR rootMarkerResponseFile);  
 ```  
   

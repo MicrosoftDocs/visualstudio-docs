@@ -92,7 +92,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ### a.proj  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Build">  
         <MSBuild Projects="a1.sln..." Properties="Configuration=Debug"/>  
@@ -105,7 +105,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ### a.proj  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ProjectToBuild Include="a1.sln…">  
@@ -123,7 +123,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
  \- or -  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ProjectToBuild Include="a1.sln…"/>  
@@ -143,7 +143,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ### a.proj  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Build">  
         <MSBuild Projects="a1.sln…" Properties="Configuration=Release;   
@@ -158,7 +158,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ### a.proj  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ProjectToBuild Include="a1.sln…">  
@@ -180,7 +180,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ## Example  
  The following example uses the `MSBuild` task to build the projects specified by the `ProjectReferences` item collection. The resulting target outputs are stored in the `AssembliesBuiltByChildProjects` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

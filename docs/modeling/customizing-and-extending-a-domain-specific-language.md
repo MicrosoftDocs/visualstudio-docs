@@ -58,7 +58,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Preserve shape layout and appearance on copy and drag-drop.|Add the shapes and connectors to the copied `ElementGroupPrototype`. The most convenient method to override is `ElementOperations.CreateElementGroupPrototype()`<br /><br /> See [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).|  
 |Paste shapes in a chosen location, such as the current cursor position.|Override `ClipboardCommandSet.ProcessOnCopy()` to use the location-specific version of `ElementOperations.Merge().` See [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).|  
 |Create additional links on paste|Override ClipboardCommandSet.ProcessOnPasteCommand()|  
-|Enable drag and drop from this diagram, other DSLs or UML diagrams and Windows elements|See [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)|  
+|Enable drag and drop from this diagram, other DSLs and Windows elements|See [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)|  
 |Allow a shape or tool to be dragged onto a child shape, such as a port, as if it were dragged onto the parent.|Define an Element Merge Directive on the target object class, to forward the dropped object to the parent. See [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).|  
 |Allow a shape or tool to be dragged onto a shape and have additional links or objects created. For example, to allow a comment to be dropped onto an item to which it is to be linked.|Define an Element Merge Directive on the target domain class, and define the links to be generated. In complex cases, you can add custom code. See [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).|  
 |Create a group of elements with one tool. For example, a component with a fixed set of ports.|Override the toolbox initialization method in ToolboxHelper.cs. Create an Element Group Prototype (EGP) containing the elements and their relationship links. See [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md).<br /><br /> Either include the principal and port shapes in the EGP, or define BoundsRules to position the port shapes when the EGP is instantiated. See [BoundsRules Constrain Shape Location and Size](../modeling/boundsrules-constrain-shape-location-and-size.md).|  
@@ -77,3 +77,6 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+

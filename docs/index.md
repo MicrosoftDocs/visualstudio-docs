@@ -1,18 +1,20 @@
 ---
 layout: HubPage
+hide_bc: true
 title: Visual Studio Documentation
+description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ---
 <div id="main" class="v2">
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833223">
+                <a href="/visualstudio/install/install-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.svg" alt="" />
+                                        <img data-hoverimage="./images/setup-install.svg" src="./images/setup-install.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -25,13 +27,13 @@ title: Visual Studio Documentation
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833058">
+                <a href="/visualstudio/ide/get-started-with-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.svg" alt="" />
+                                        <img data-hoverimage="./images/getstarted.svg" src="./images/getstarted.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -44,13 +46,13 @@ title: Visual Studio Documentation
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=834481">
+                <a href="/visualstudio/ide/whats-new-in-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.svg" alt="" />
+                                        <img data-hoverimage="./images/whatsnew.svg" src="./images/whatsnew.png" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -71,7 +73,7 @@ title: Visual Studio Documentation
                 <ul id="workloads">
                     <li>
                         <a href="#windows">Windows</a>
-                        <ul id="windows" class="cardsG">
+                        <ul id="windows" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Develop apps and games using Visual Studio to reach every device running Windows.</p>
@@ -83,7 +85,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-1.svg" src="./images/vs_windows-1.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -102,7 +104,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-2.svg" src="./images/vs_windows-2.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -121,7 +123,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-3.svg" src="./images/vs_windows-3.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -138,7 +140,7 @@ title: Visual Studio Documentation
                     </li>
                     <li>
                         <a href="#web">Web &amp; Cloud</a>
-                        <ul id="web" class="cardsG">
+                        <ul id="web" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Develop modern web apps using Visual Studio and powerful open tools.
@@ -151,8 +153,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-1.svg" src="./images/vs_web-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -170,8 +172,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-2.svg" src="./images/vs_web-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -189,8 +191,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-3.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-3.svg" src="./images/vs_web-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -208,8 +210,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-4.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-4.svg" src="./images/vs_web-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -227,8 +229,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-5.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-5.svg" src="./images/vs_web-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -246,8 +248,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-6.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-6.svg" src="./images/vs_web-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -265,8 +267,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-7.svg" alt="Office Development" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-7.svg" src="./images/vs_web-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -282,7 +284,7 @@ title: Visual Studio Documentation
                     </li>
                     <li>
                         <a href="#mobile">Mobile &amp; Gaming</a>
-                        <ul id="mobile" class="cardsG">
+                        <ul id="mobile" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Create native or hybrid mobile apps that target Android, iOS, and Windows.</p>
@@ -294,8 +296,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-1.svg" src="./images/vs_gaming-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -313,8 +315,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-2.svg" src="./images/vs_gaming-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -332,8 +334,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-3.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-3.svg" src="./images/vs_gaming-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -351,8 +353,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-4.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-4.svg" src="./images/vs_gaming-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -370,8 +372,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-5.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-5.svg" src="./images/vs_gaming-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -387,15 +389,15 @@ title: Visual Studio Documentation
                     </li>
                     <li>
                         <a href="#other">Other Toolsets</a>
-                        <ul id="other" class="cardsG">
+                        <ul id="other" class="cardsC">
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=834750">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_tools-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_tools-1.svg" src="./images/vs_tools-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -413,8 +415,8 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_tools-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_tools-2.svg" src="./images/vs_tools-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -606,7 +608,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-1.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -625,7 +627,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-2.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -644,7 +646,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-3.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -663,7 +665,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-4.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -682,7 +684,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-5.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -701,7 +703,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-6.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -720,7 +722,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-7.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -739,7 +741,7 @@ title: Visual Studio Documentation
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage cardScaleImage">
                                                         <img src="./images/vs_language-8.svg" alt="" />
                                                     </div>
                                                 </div>

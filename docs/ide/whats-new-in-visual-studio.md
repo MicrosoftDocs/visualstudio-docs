@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
+title: "What&#39;s New in Visual Studio 2017 RC | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "12/13/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,22 +36,25 @@ Welcome to Visual Studio 2017 RC, an integrated suite of developer productivity 
 
 In this release candidate (RC) of our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
-But before we dig in to the details, here is high-level re-cap of the changes we've made:
+> [!TIP]
+> To see our new RC in action, watch the [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) video on Channel 9.   
 
-* **Boosted productivity**. Enhancements to code navigation, IntelliSense, refactoring, code fixes, and debugging, saves you time and effort on everyday tasks regardless of language or platform. In addition, for teams embracing DevOps, Visual Studio 2017 streamlines the developer inner loop and speeds up code flow with the brand new real time features such as live unit testing and real-time architectural dependency validation.
-* **Redefined fundamentals**.  There is a renewed focus to enhance the efficiency of the fundamental tasks developers encounter on daily basis. From a brand-new lightweight and modular installation tailored to developers' need, a faster IDE from startup to shut down, to a new way of view, edit, and debug any code without projects and solutions. Visual Studio 2017 helps developers stay focused on the big picture.
+Here is a high-level recap of the changes we've made:
+
+* **Boosted productivity**. Enhancements to code navigation, IntelliSense, refactoring, code fixes, and debugging, saves you time and effort on everyday tasks regardless of language or platform. In addition, for teams embracing DevOps, Visual Studio 2017 streamlines the developer inner loop and speeds up code flow with brand new real-time features such as live unit testing and real-time architectural dependency validation.
+* **Redefined fundamentals**.  There is a renewed focus to enhance the efficiency of the fundamental tasks that developers encounter on daily basis. From a brand-new lightweight and modular installation tailored to a developer's need, a faster IDE from startup to shut down, to a new way to view, edit, and debug any code without projects and solutions, Visual Studio 2017 helps developers stay focused on the big picture.
 * **Streamlined Azure development**. Built-in suite of Azure tools that enable developers to easily create cloud-first applications powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE.
-* **Five-star mobile development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for developers to build, connect, and tune mobile apps for Android, iOS, and Windows. Developer can also choose to develop mobile apps with Apache Cordova or Visual C++ cross-platform library development in Visual Studio.  
+* **Five-star mobile development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for developers to build, connect, and tune mobile apps for Android, iOS, and Windows. Developers can also choose to develop mobile apps with Apache Cordova or with Visual C++ cross-platform library development, all in Visual Studio.  
 
-And now, here are more details on our most notable changes.
+And here are more details on our most notable changes.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017 RC, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs), as well as the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes..   
+> For a complete list of new features and functionality in Visual Studio 2017 RC and its subsequent RC Refresh, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs). And for a list of issues and workarounds, see the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes.   
 
 ## Performance improvements
 
 ### A new setup experience  
-[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) or [Compare Visual Studio editions](https://www.visualstudio.com/vs/compare/)
+[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
 
  We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them. We've also reduced the minimum footprint, so that Visual Studio installs more quickly with less system impact. And, it uninstalls cleanly, too.
 
@@ -115,25 +118,25 @@ Errors appear in the Error List, and squiggles in the text editor show you the p
 
 ![Live Architecture Validation](../ide/media/vs2017ide-LiveArchitectureDepedendencyValidation.png "Live Architecture Dependency validation")
 
-#### Live Unit Testing
+#### Live Unit Testing:
 
 Live Unit Testing is a new feature that we are introducing and is only present in the Enterprise edition of Visual Studio. This feature visualizes unit test results and code coverage live on the editor, while you are coding. It works with C#/VB projects for the .NET Framework and supports three test frameworks of MSTest, xUnit, and NUnit.
 
 ### Visual Studio IDE enhancements
-#### Interact with Git
+#### Interact with Git:
 Controls in the bottom corner of the Visual Studio IDE enable you to quickly commit and publish your projects to Git and manage your Git repositories.
 
 ![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-GitInteraction.png "Git-tools-in-the-VS2017RC-IDE")
 
-#### View and navigate code with Structure Visualizer
+#### View and navigate code with Structure Visualizer:
 A new feature called Structure Visualizer is available in the Visual Studio code editor. This feature displays vertical guidelines between nested areas of code, making it easier for you to view and navigate through your code. This feature is available for all TextMate-backed languages as well as Visual C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-StructureVisualizer.png "Structure-Visualizer-in-VS2017RC")
 
-#### Experience an improved Navigate To
+#### Experience an improved Navigate To:
 We've improved the Navigate To function. We've simplified the Navigate To window, and we've added support for additional filter characters that enable you to narrow your code searches.
 
-#### Create apps in even more programming languages
+#### Create apps in even more programming languages:
 You can create apps in Visual Studio using a larger number of programming languages than in previous versions, and solutions and projects are no longer required. Your code gets syntax colorization, basic statement completion, and in some cases, Navigate To and other support. If your favorite language isn't supported, you can create support for it by using TextMate Grammars.
 
 ### Visual C++
@@ -141,7 +144,7 @@ Visual Studio 2017 RC brings many updates and fixes to the Visual C++ environmen
 
 We've also made several improvements, to include distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, adding and updating functionality in the C++ libraries, and improving the performance of the C++ IDE, installation workloads, and more.
 
-For complete details, see our [What's New for Visual C++ in Visual 2017 RC](cpp/top/what-s-new-for-visual-cpp-in-visual-studio.md) page.  
+For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
 
 ### Debugging and Diagnostics
@@ -151,12 +154,12 @@ For example: In an earlier version of Visual Studio, we introduced what's known 
 
 In Visual Studio 2017, we turned off the hosting process and optimized debugging so that it is just as fast without the hosting process, and even faster for projects that never used the hosting process (such as ASP.NET, Universal Windows, and C++ projects).
 
-#### Run to Click
+#### Run to Click:
 Now, while you are debugging, you can click the icon next to a line of code to run that line. You no longer have to set temporary breakpoints to perform several steps to execute your code and stop on the line you want.
 
 ![Visual Studio 2017 RC Debug - Run To click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio 2017 debug & diagnostics")
 
-#### The New Exception Helper
+#### The New Exception Helper:
 
 You can use the new Exception Helper to view your exception information at a glance in a compact, non-modal dialog with instant access to inner exceptions.
 
@@ -180,7 +183,7 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
  If you’d like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also  
-* [What's New in Visual C++](https://review.docs.microsoft.com/en-us/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)   
-* [What's New in JavaScript](../ide/javascript-intellisense#whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd)
-* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/vs2015-vs)
+* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
+* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)  
+* [What's New for Team Foundation Server](https://www.visualstudio.com/en-us/docs/whats-new)
+* [Visual Studio Release Notes](https://www.visualstudio.com/news/vs2015-vs)

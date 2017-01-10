@@ -71,4 +71,4 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/i
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Conditions](../msbuild/msbuild-conditions.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)

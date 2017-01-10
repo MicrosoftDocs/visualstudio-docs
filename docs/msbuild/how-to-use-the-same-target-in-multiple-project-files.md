@@ -52,7 +52,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
   
  When the project builds, all properties are evaluated first, followed by items. For example, the following XML defines the imported project file MyCommon.targets:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <Name>MyCommon</Name>  
@@ -66,7 +66,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
   
  The following XML defines MyApp.proj, which imports MyCommon.targets:  
   
-```  
+```xml  
 <Project  
     DefaultTargets="Go"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -96,7 +96,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ## Example  
  The following code example shows the MyCommon.targets file that the second code example imports. The .targets file evaluates properties from the importing project to configure the build.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <Flavor Condition="'$(Flavor)'==''">DEBUG</Flavor>  
@@ -114,7 +114,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ## Example  
  The following code example imports the MyCommon.targets file.  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  

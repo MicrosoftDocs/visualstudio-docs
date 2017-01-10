@@ -44,7 +44,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
   
 ## Syntax  
   
-```  
+```xml  
 <Task Parameter1="Value1"... ParameterN="ValueN"  
     ContinueOnError="WarnAndContinue/true/ErrorAndContinue/ErrorAndStop/false"  
     Condition="'String A' == 'String B'" >  
@@ -83,7 +83,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 ## Example  
  The following code example creates an instance of the [Csc task](../msbuild/csc-task.md) class, sets six of the properties, and executes the task. After execution, the value of the `OutputAssembly` property of the object is placed into an item list named `FinalAssemblyName`.  
   
-```  
+```xml  
 <Target Name="Compile" DependsOnTarget="Resources" >  
     <Csc Sources="@(CSFile)"  
           TargetType="library"  

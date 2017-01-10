@@ -110,6 +110,7 @@
 ### [How to: Change Text Case in the Editor](how-to-change-text-case-in-the-editor.md)
 ### [How to: Manage Editor Modes](how-to-manage-editor-modes.md)
 ### [How to: Manage Editor Windows](how-to-manage-editor-windows.md)
+## [Create portable, custom editor settings](create-portable-custom-editor-options.md)
 ## [How to: Track Your Code by Customizing the Scrollbar](how-to-track-your-code-by-customizing-the-scrollbar.md)
 ## Navigating Your Code
 ### [Go To](go-to.md)
@@ -121,7 +122,6 @@
 ### [Visual C# Code Snippets](visual-csharp-code-snippets.md)
 ### [Visual C++ Code Snippets](visual-cpp-code-snippets.md)
 ### [Code Snippet Functions](code-snippet-functions.md)
-### [How to: Restore C# Refactoring Snippets](how-to-restore-csharp-refactoring-snippets.md)
 ### [How to: Use Surround-with Code Snippets](how-to-use-surround-with-code-snippets.md)
 ### [Best Practices for Using Code Snippets](best-practices-for-using-code-snippets.md)
 ### [Troubleshooting Snippets](troubleshooting-snippets.md)

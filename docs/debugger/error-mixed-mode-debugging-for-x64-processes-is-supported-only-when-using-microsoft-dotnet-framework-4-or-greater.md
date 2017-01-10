@@ -47,4 +47,4 @@ To debug mixed native and managed code in a 64-bit process, you must have [!INCL
     -   Build a 32-bit version of your application for debugging.  
   
 ## See Also  
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)
+ [Remote Debugging](../debugger/remote-debugging.md)

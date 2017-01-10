@@ -2,7 +2,7 @@
 title: "Get Started with Visual Studio | Microsoft Docs"
 description: "Learn the basics about how to get started using Visual Studio"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "12/05/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -32,6 +32,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
+# Get Started with Visual Studio
+
 Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://aka.ms/vs/15/preview/vs_enterprise). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
@@ -92,7 +94,9 @@ To learn more about how to use the Output window for debugging, see [The Output 
 
 ## Access cloud-based resources
 
-If you want to use cloud-based resources in your app or game, you can do that by  including [Azure services](https://azure.microsoft.com/en-us/services/). To use Azure services in Visual Studio, download and install the [Azure SDK](https://azure.microsoft.com/en-us/downloads/). After installing Azure SDK, a new tool window becomes available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
+If you want to use cloud-based resources in your app or game, you can do that by including [Azure services](https://azure.microsoft.com/en-us/services/). You can get the Azure SDK for .NET by installing the Azure workload using the new Visual Studio Installer. The packages that are installed are at the same feature level as the 2.9.5 version of the SDK. For this version of Visual Studio and all future versions, the Azure SDK for .NET will only be available from the Visual Studio installer.
+
+After installing Azure SDK for .NET, a new tool window becomes available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 

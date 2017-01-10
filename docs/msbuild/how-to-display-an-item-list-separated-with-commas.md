@@ -62,7 +62,7 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../msbuild/includ
   
  `findstr /i /c:hello /c:world /c:msbuild phrases.txt`  
   
-```  
+```xml  
 <Project DefaultTargets = "Find"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
