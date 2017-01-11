@@ -109,7 +109,7 @@ Object dump complete.
 ```  
 Detected memory leaks!  
 Dumping objects ->  
-C:\PROGRAM FILES\VISUAL STUDIO\MyProjects\leaktest\leaktest.cpp(20) : {18}   
+c:\users\username\documents\projects\leaktest\leaktest.cpp(20) : {18}   
 normal block at 0x00780E80, 64 bytes long.  
  Data: <                > CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD  
 Object dump complete.  
@@ -133,16 +133,60 @@ Object dump complete.
   
  There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released. That means it is not leaked, by definition. An *ignore block* is memory that you have explicitly marked to exclude it from the memory-leak report.  
   
- These techniques work for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you need to redefine `new` if you want to see the file and line numbers in the memory-leak report. You can do that with a block of code that looks like this:  
+ These techniques work for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the file and line number where the implementation of global `operator new` calls `_malloc_dbg` in the memory-leak report. Because that behavior is not very useful, you can change it to report the line that made the allocation by using a macro that looks like this: 
+ 
+```cpp  
+#ifdef _DEBUG
+    #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
+    // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
+    // allocations to be of _CLIENT_BLOCK type
+#else
+    #define DBG_NEW new
+#endif
+```  
   
+Now you can replace the `new` operator by using the `DBG_NEW` macro in your code. In debug builds, this uses an overload of global `operator new` that takes additional parameters for the block type, file, and line number. This overload of `new` calls `_malloc_dbg` to record the extra information. When you use `DBG_NEW`, the memory leak reports show the filename and line number where the leaked objects were allocated. In retail builds, it uses the default `new`. (We do not recommend you create a preprocessor macro named `new`, or any other language keyword.) Here's an example of the technique:  
+  
+```cpp  
+// debug_new.cpp
+// compile by using: cl /EHsc /W4 /D_DEBUG /MDd debug_new.cpp
+#define _CRTDBG_MAP_ALLOC
+#include <cstdlib>
+#include <crtdbg.h>
+
+#ifdef _DEBUG
+    #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
+    // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
+    // allocations to be of _CLIENT_BLOCK type
+#else
+    #define DBG_NEW new
+#endif
+
+struct Pod {
+    int x;
+};
+
+void main() {
+    Pod* pPod = DBG_NEW Pod;
+    pPod = DBG_NEW Pod; // Oops, leaked the original pPod!
+    delete pPod;
+
+    _CrtDumpMemoryLeaks();
+}
 ```  
-#ifdef _DEBUG  
-   #ifndef DBG_NEW  
-      #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )  
-      #define new DBG_NEW  
-   #endif  
-#endif  // _DEBUG  
+  
+When you run this code in the debugger in Visual Studio, the call to `_CrtDumpMemoryLeaks` generates a report in the **Output** window that looks similar to this:  
+  
+```Output  
+Detected memory leaks!
+Dumping objects ->
+c:\users\username\documents\projects\debug_new\debug_new.cpp(20) : {75}
+ normal block at 0x0098B8C8, 4 bytes long.
+ Data: <    > CD CD CD CD 
+Object dump complete.
 ```  
+  
+This tells you that the leaked allocation was on line 20 of debug_new.cpp.  
   
 ## Setting Breakpoints on a Memory Allocation Number  
  The memory allocation number tells you when a leaked memory block was allocated. A block with a memory allocation number of 18, for example, is the 18th block of memory allocated during the run of the application. The CRT report counts all memory-block allocations during the run. This includes allocations by the CRT library and other libraries such as MFC. Therefore, a block with a memory allocation number of 18 may not be the 18th memory block allocated by your code. Typically, it will not be.  
