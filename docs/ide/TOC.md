@@ -92,6 +92,7 @@
 ## [Encodings and Line Breaks](encodings-and-line-breaks.md)
 ## [Outlining](outlining.md)
 ## [Refactoring in Visual Studio](refactoring-in-visual-studio.md)
+### [Preview Changes](preview-changes.md)
 ## [Code Generation in Visual Studio](code-generation-in-visual-studio.md)
 ## [Productivity Tips for Visual Studio](productivity-tips-for-visual-studio.md)
 ### [Tips and Tricks for Visual Studio](tips-and-tricks-for-visual-studio.md)
