@@ -46,4 +46,5 @@ Documentation for other languages coming soon...
 
 ## See Also  
 [Visual Studio IDE](../ide/visual-studio-ide.md)   
-[Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+[Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
+[Preview Changes](preview-changes.md)
