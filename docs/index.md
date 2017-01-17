@@ -211,7 +211,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1 cardScaleImage">
-                                                        <img data-scaleimage="./images/vs_web-4.svg" src="./images/vs_web-4.svg" alt="" />
+                                                        <img data-scaleimage="/media/logos/logo_nodejs.svg" src="/media/logos/logo_nodejs.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -603,156 +603,156 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#languages1"> </a>
                         <ul id="languages1" class="cardsF">
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833062">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-1.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Csharp.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833062">
                                                     <h3>Visual C#</h3>
                                                     <p>A simple, modern, type safe, object oriented programming language used for building applications that run on the .NET Framework.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833060">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-2.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_vb.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833060">
                                                     <h3>Visual Basic</h3>
                                                     <p>A fast, easy to learn programming language you can use to create applications.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833063">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-3.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Cplusplus.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833063">
                                                     <h3>Visual C++</h3>
                                                     <p>A powerful and flexible programming language and development environment for creating applications for Windows, Linux, iOS, and Android.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833067">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-4.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Fsharp.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833067">
                                                     <h3>Visual F#</h3>
                                                     <p>A strongly typed, cross platform programming language that is most often used as a cross platform CLI language, but can also be used to generate JavaScript and GPU code.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833064">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-5.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_js.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833064">
                                                     <h3>JavaScript</h3>
                                                     <p>A lightweight, cross-platform, scripting language often used to help make web pages more interactive.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833066">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-6.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_TS.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833066">
                                                     <h3>TypeScript</h3>
                                                     <p>A superset of JavaScript that compiles to plain JavaScript and enables you to create more scalable code.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-7.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Python.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
                                                     <h3>Python</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833070">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage">
-                                                        <img src="./images/vs_language-8.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_R.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833070">
                                                     <h3>R</h3>
                                                     <p>An extensible programming language typically used for statistical computing and graphics.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </li>
