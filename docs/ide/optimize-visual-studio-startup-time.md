@@ -1,7 +1,7 @@
 ---
 title: "Optimize Visual Studio Startup Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "01/09/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+f1_keywords:
+    - "vs.performancecenter"
 ---
 # Optimize Visual Studio Startup Time
 Ideally, Visual Studio should always start up as quickly as possible. However, Visual Studio extensions and open tool windows can adversely affect startup time because they load automatically at startup. The **Manage Visual Studio Performance** window enables you to not only see which extensions and features affect Visual Studio startup time, but also lets you determine their loading behavior so you have more control over how quickly Visual Studio starts up.

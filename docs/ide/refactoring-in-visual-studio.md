@@ -55,5 +55,5 @@ Refactoring is the process of modifying code in order to make it easier to maint
   
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)   
- [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)
- 
+ [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
+ [Preview Changes](../ide/preview-changes.md)
