@@ -613,8 +613,8 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual C#</h3>
-                                                    <p>A simple, modern, type safe, object oriented programming language used for building applications that run on the .NET Framework.</p>
+                                                    <h3>C#</h3>
+						    <p>A modern object-oriented programming language with functional programming capabilities for building any application on the .NET platform.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -633,7 +633,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Visual Basic</h3>
-                                                    <p>A fast, easy to learn programming language you can use to create applications.</p>
+                                                    <p>A modern, easy to learn, object-oriented programming language for the .NET platform, focused on easily creating Windows applications.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -670,8 +670,8 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual F#</h3>
-                                                    <p>A strongly typed, cross platform programming language that is most often used as a cross platform CLI language, but can also be used to generate JavaScript and GPU code.</p>
+                                                    <h3>F#</h3>
+						    <p>A modern functional programming language with object-oriented capabilities for the .NET platform, focused on making Functional Programming easier for any task.</p>
                                                 </div>
                                             </div>
                                         </div>
