@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 64
-author: "kraigb"
-ms.author: "kraigb"
+author: "ghogen"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht:
   - "de-de"

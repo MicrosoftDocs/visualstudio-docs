@@ -115,7 +115,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|  
-|[Analyze .NET Framework memory issues](../misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|  
+|[Analyze .NET Framework memory issues](https://msdn.microsoft.com/en-us/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|  
   
 ## Release management  
  Reference link: **[Automate deployments with Release Management](https://msdn.microsoft.com/library/vs/alm/release/overview)**  
