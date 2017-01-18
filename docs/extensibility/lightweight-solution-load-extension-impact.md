@@ -36,12 +36,12 @@ translation.priority.mt:
 
 Lightweight Solution load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive more quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
 
-LSL will effect several Visual Studio extensions. Extensions whose features depend on a project to be loaded may be broken or work incorrectly without following the guidance detailed in this document.
+LSL can effect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
 
 For further background on LSL, use the following links:
 
 * [Lightweight Solution Load Blog](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15)
-* Questions? Contact us at [lslsupport@microsoft.com](lslsupport@microsoft.com)
+* Questions? Contact us at [lslsupport@microsoft.com](mailto:lslsupport@microsoft.com)
 
 ## Enable the setting to load projects in “deferred” mode
 
@@ -172,24 +172,38 @@ public void OnClick_SeeMoreResults()
 
 ### New API
 
-* **IVsSolution7.IsSolutionLoadDeferred(out bool deferred)** - Returns true if the current solution has been loaded in deferred mode. Note that, if the solution was initially loaded in deferred mode, even if all the deferred projects are eventually loaded in the current session (due to explicit user gestures or forced by operations), this property would still return true.
-* **__VSPROPID7.VSPROPID_DeferredProjectCount** - Returns the count of projects currently in deferred mode. This property will have a value in the range [0, VSPROPID_ProjectCount].
-* **__VSHPROPID9.VSHPROPID_IsDeferred** - Returns true if a project hierarchy is in deferred load state.
-* **__VSENUMPROJFLAGS3 with values EPF_DEFERRED and EPF_NOTDEFERRED** - These flags can be passed to IVsSolution.GetProjectEnum() to iterate over deferred and non-deferred projects.
+IVsSolution7.IsSolutionLoadDeferred(out bool deferred)
+
+Returns true if the current solution has been loaded in deferred mode. Note that, if the solution was initially loaded in deferred mode, even if all the deferred projects are eventually loaded in the current session (due to explicit user gestures or forced by operations), this property would still return true.
+
+__VSPROPID7.VSPROPID_DeferredProjectCount
+
+Returns the count of projects currently in deferred mode. This property will have a value in the range [0, VSPROPID_ProjectCount].
+
+__VSHPROPID9.VSHPROPID_IsDeferred
+
+Returns true if a project hierarchy is in deferred load state.
+
+__VSENUMPROJFLAGS3 with values EPF_DEFERRED and EPF_NOTDEFERRED
+
+These flags can be passed to [IVsSolution.GetProjectEnum()](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivssolution.getprojectenum.aspx) to iterate over deferred and non-deferred projects.
 
 ### New events
 
-* **IVsSolutionEvents7.OnAfterLoadAllDeferredProjects()** - This event is raised after all deferred projects have been loaded. At this point VSPROPID_DeferredProjectCount is equal to 0. Note that this event is not raised as part of solution load, and may not be raised at all in a session. It is only fired if and when all deferred projects are loaded.
+IVsSolutionEvents7.OnAfterLoadAllDeferredProjects()
+
+This event is raised after all deferred projects have been loaded. At this point VSPROPID_DeferredProjectCount is equal to 0. Note that this event is not raised as part of solution load, and may not be raised at all in a session. It is only fired if and when all deferred projects are loaded.
 
 ### Changes to existing API
 
-* Passing __VSENUMPROJFLAGS.EPF_LOADEDINSOLUTION to IVsSolution.GetProjectEnum() returns deferred projects. Passing __VSENUMPROJFLAGS.EPF_UNLOADEDINSOLUTION does not return deferred projects.
-* KnownUIContexts.SolutionExistsAndFullyLoadedContext is set to true on solution open. Deferred projects are treated as loaded so this context is set much earlier than in non-LSL mode.
-* __VSPROPID.VSPROPID_ProjectCount returns the sum of loaded and deferred projects.
+* Passing [__VSENUMPROJFLAGS](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.__vsenumprojflags.aspx).EPF_LOADEDINSOLUTION to [IVsSolution.GetProjectEnum()](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivssolution.getprojectenum.aspx) returns deferred projects.
+* Passing [__VSENUMPROJFLAGS](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.__vsenumprojflags.aspx).EPF_UNLOADEDINSOLUTION does not return deferred projects.
+* [KnownUIContexts.SolutionExistsAndFullyLoadedContext](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.knownuicontexts.solutionexistsandfullyloadedcontext.aspx) is set to true on solution open. Deferred projects are treated as loaded so this context is set much earlier than in non-LSL mode.
+* [__VSPROPID](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.__vspropid.aspx).VSPROPID_ProjectCount returns the sum of loaded and deferred projects.
 
 ## Helpful code snippets
 
-### Check if a solution was opened in deferred load mode.
+### Check if a solution was opened in deferred load mode
 
 ```csharp
 /// <summary>
@@ -454,9 +468,9 @@ public async Task<IEnumerable<string>> GetProjectsInSolutionAsync(string solutio
 
 ## Troubleshooting
 
-Due to the nature of LSL, it is intentional that users cannot see a difference between loaded and deferred projects. This can make feature development and testing difficult. I
+Due to the nature of LSL, it is intentional that users cannot see a difference between loaded and deferred projects. This can make feature development and testing difficult.
 
-If you would like visual hints in the UI for deferred projects:
+You can enable visual hints in the UI for deferred projects by doing the following:
 
 1. Close Visual Studio
 2. Regedit.exe
@@ -469,7 +483,7 @@ If you would like visual hints in the UI for deferred projects:
 9. **File** > **Unload Hive**
 10. Start Visual Studio
 
-For any further questions, please reach out to [lslsupport@microsoft.com](lslsupport@microsoft.com).
+For any further questions, please reach out to [lslsupport@microsoft.com](mailto:lslsupport@microsoft.com).
 
 
 
