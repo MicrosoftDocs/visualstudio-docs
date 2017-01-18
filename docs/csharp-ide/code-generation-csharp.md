@@ -1,5 +1,5 @@
 ---
-title: "Code Generation | Microsoft Docs"
+title: "Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""

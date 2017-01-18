@@ -58,7 +58,7 @@ This task accepts a list of items that may contain a valid .NET culture identifi
 ## Example  
  The following example executes the `AssignCulture` task with the `ResourceFiles` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ResourceFiles Include="MyResource1.fr.resx"/>  

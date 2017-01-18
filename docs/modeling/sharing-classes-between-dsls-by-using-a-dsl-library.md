@@ -61,3 +61,5 @@ In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization a
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

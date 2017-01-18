@@ -39,7 +39,7 @@
         - name: Designers
           tocHref: /visualstudio/designers/
           topicHref: /visualstudio/designers/designing-user-interfaces
-        - name: CSharp IDE
+        - name: C# IDE
           tocHref: /visualstudio/csharp-ide/
           topicHref: /visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
         - name: Visual Basic IDE

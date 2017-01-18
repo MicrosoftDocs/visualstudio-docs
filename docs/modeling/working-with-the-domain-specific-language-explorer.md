@@ -19,9 +19,9 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
   
  It has the following nodes:  
   
--   **Connection Builders**. A list of the connection builders in the model. For more information about connection builders, see [Customizing Link Creation - redirection](../misc/customizing-link-creation-redirection.md).  
+-   **Connection Builders**. A list of the connection builders in the model.
   
--   **Connectors**. A list of the connector diagram elements in the model. For more information about connectors, see [Types of Shapes and Connectors - redirect](../misc/types-of-shapes-and-connectors-redirect.md).  
+-   **Connectors**. A list of the connector diagram elements in the model.
   
 -   **Diagram**. A set of properties that define the diagram, and lists of connector maps and shape maps.  
   

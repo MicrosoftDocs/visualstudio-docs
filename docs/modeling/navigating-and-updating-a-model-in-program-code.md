@@ -62,8 +62,6 @@ You can write code to create and delete model elements, set their properties, an
   
  [DocView and DocData](#docdata)  
   
- Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
-  
 ##  <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  
   

@@ -42,7 +42,7 @@ When you build a large project, it is important that previously built components
   
 -   Use the `Inputs` and `Outputs` attributes of the `Target` element. For example:  
   
-    ```  
+    ```xml  
     <Target Name="Build"  
         Inputs="@(CSFile)"  
         Outputs="hello.exe">  
@@ -50,7 +50,7 @@ When you build a large project, it is important that previously built components
   
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the hello.exe file, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will run the target; otherwise it will be skipped:  
   
-```  
+```xml  
 <Target Name="Build"   
     Inputs="@(CSFile)"   
     Outputs="hello.exe">  
@@ -82,7 +82,7 @@ When you build a large project, it is important that previously built components
 > [!NOTE]
 >  Although the `GenerateContentFiles` target can build incrementally, all outputs from that target always are required as inputs for the `BuildHelp` target. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

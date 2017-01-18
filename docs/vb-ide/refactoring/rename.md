@@ -12,6 +12,10 @@ ms.assetid: abf1565b-c7b7-4d45-b3d3-a438a836c70e
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+    - "vs.csharp.refactoring.rename"
+dev_langs:
+    - "VB"
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -53,7 +57,7 @@ translation.priority.ht:
    ![Rename animation](media/rename_rename.png)
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as preview changes before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
 
@@ -61,3 +65,7 @@ translation.priority.ht:
 > If you use a name that already exists which would cause a conflict, the **Rename** box in your IDE will warn you.
 >
 > ![Rename Conflict](media/rename_conflict.png)
+
+## See Also  
+[Refactoring (Visual Basic)](../refactoring-vb.md)  
+[Preview Changes](../../ide/preview-changes.md)

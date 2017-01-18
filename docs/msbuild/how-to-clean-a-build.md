@@ -71,7 +71,7 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
  `msbuild <file name>.proj /t:Clean;Compile`  
   
-```  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

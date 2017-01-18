@@ -55,7 +55,7 @@ The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory
 ## Example  
  The following example shows how to use the **GetWinFXPath** task to detect the native path to the [!INCLUDE[TLA2#tla_titlewinfx](../msbuild/includes/tla2sharptla_titlewinfx_md.md)] runtime.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.GetWinFXPath"   

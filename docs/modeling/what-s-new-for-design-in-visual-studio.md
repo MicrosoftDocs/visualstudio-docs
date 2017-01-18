@@ -85,6 +85,8 @@ or earlier versions while you decide on an alternative tool for your UML needs.
 
 For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/). 
 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
 <a name="VersionSupport"></a>
 ##  Version support for architecture and modeling tools  
 

@@ -44,7 +44,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
   
 ## Syntax  
   
-```  
+```xml  
 <ImportGroup Condition="'String A' == 'String B'">  
     <Import ... />  
     <Import ... />  
@@ -77,7 +77,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ## Example  
  The following code example shows the `ImportGroup` element.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ImportGroup>  
         <Import Project="$(Targets1.targets) />  

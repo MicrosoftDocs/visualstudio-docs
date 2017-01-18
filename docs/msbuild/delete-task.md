@@ -56,7 +56,7 @@ Deletes the specified files.
 ## Example  
  The following example deletes the file `MyApp.pdb`.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <PropertyGroup>  

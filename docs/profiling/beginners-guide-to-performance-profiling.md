@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 

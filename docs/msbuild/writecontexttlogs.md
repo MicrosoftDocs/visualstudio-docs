@@ -40,7 +40,7 @@ Writes logs files for the current context.
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName);  
 ```  
   

@@ -55,7 +55,7 @@ Creates directories and, if necessary, any parent directories.
 ## Example  
  The following code example uses the `MakeDir` task to create the directory specified by the `OutputDirectory` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <PropertyGroup>  

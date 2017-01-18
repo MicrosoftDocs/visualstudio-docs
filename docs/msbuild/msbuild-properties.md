@@ -36,7 +36,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
 ## Defining and Referencing Properties in a Project File  
  Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) element. For example, the following XML creates a property named `BuildDir` that has a value of `Build`.  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDir>Build</BuildDir>  
 </PropertyGroup>  
@@ -46,7 +46,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
   
  Property values can be changed by redefining the property. The `BuildDir` property can be given a new value by using this XML:  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDir>Alternate</BuildDir>  
 </PropertyGroup>  
@@ -86,7 +86,7 @@ $(registry:Hive\MyKey\MySubKey)
   
  This registry value can be used to initialize a build property. For example, to create a build property that represents the Visual Studio web browser home page, use this code:  
   
-```  
+```xml  
 <PropertyGroup>  
   <VisualStudioWebBrowserHomePage>  
     $(registry:HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\12.0\WebBrowser@HomePage)  
@@ -112,7 +112,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
   
  You can use string (instance) methods to operate on any property value, and you can call the static methods of many system classes. For example, you can set a build property to today's date as follows.  
   
-```  
+```xml  
 <Today>$([System.DateTime]::Now.ToString("yyyy.MM.dd"))</Today>  
 ```  
   
@@ -130,7 +130,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## Storing XML in Properties  
  Properties can contain arbitrary XML, which can help in passing values to tasks or displaying logging information. The following example shows the `ConfigTemplate` property, which has a value that contains XML and other property references. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] replaces the property references by using their respective property values. Property values are assigned in the order in which they appear. Therefore, in this example, `$(MySupportedVersion)`, `$(MyRequiredVersion)`, and `$(MySafeMode)` should have already been defined.  
   
-```  
+```xml  
   
 <PropertyGroup>  
     <ConfigTemplate>  
@@ -151,7 +151,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
- [MSBuild](../msbuild/msbuild1.md)  
+ [MSBuild](../msbuild/msbuild.md)  
  [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md)   
  [How to: Reference the Name or Location of the Project File](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)   
  [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   

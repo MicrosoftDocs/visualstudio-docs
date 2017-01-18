@@ -1,4 +1,4 @@
-# [MSBuild1](msbuild1.md)
+# [MsBuild](msbuild.md)
 ## [What's New in MSBuild 12.0](what-s-new-in-msbuild-12-0.md)
 ## [MSBuild Concepts](msbuild-concepts.md)
 ### [MSBuild Properties](msbuild-properties.md)
@@ -192,5 +192,5 @@
 ##### [UidManager Task](uidmanager-task.md)
 ##### [UpdateManifestForBrowserApplication Task](updatemanifestforbrowserapplication-task.md)
 ### [Special Characters to Escape](special-characters-to-escape.md)
-## [MSBuild Glossary1](msbuild-glossary1.md)
+## [MSBuild Glossary](msbuild-glossary.md)
 ## [Additional MSBuild Resources](additional-msbuild-resources.md)

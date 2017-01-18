@@ -63,7 +63,7 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
 ## Example  
  The following example generates a temporary assembly because `Page1.xaml` contains a reference to a type that is in the same project.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask  
     TaskName="Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly"   
