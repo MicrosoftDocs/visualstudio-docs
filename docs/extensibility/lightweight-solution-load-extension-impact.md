@@ -34,7 +34,7 @@ translation.priority.mt:
 
 ## Background information on LSL
 
-Lightweight Solution load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive more quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
+Lightweight Solution load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
 
 LSL can effect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
 
@@ -43,7 +43,7 @@ For further background on LSL, use the following links:
 * [Lightweight Solution Load Blog](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15)
 * Questions? Contact us at [lslsupport@microsoft.com](mailto:lslsupport@microsoft.com)
 
-## Enable the setting to load projects in “deferred” mode
+## Enable the setting to load projects in "deferred" mode
 
 1. Close any currently opened solution.
 2. Go to **Tools** > **Option** > **Projects and Solutions** > **General** settings page.
@@ -75,7 +75,7 @@ All UI must treat loaded and deferred projects as equal. This means any action t
 3. Any action available against a loaded project should be available against a deferred project.
 4. Features must request to load project(s) only when:
   * There is direct user interaction with a feature. Do not preemptively load projects.
-  * A "See more results" gesture is made by the user. See below for this UI guideline.
+  * A "See More Results" gesture is made by the user. See below for this UI guideline.
   * Only the fully loaded project can be used to satisfy the action. Use LSL and Open Project APIs whenever possible, and send feature request asks when functionality is missing.
 
 ### Changes in platform APIs to help drive UI
@@ -86,9 +86,9 @@ All UI must treat loaded and deferred projects as equal. This means any action t
 4. Existing APIs are updated to include deferred projects when asking for loaded projects.
 5. Existing APIs are updated to express the solution is fully loaded after solution is opened.
 
-### A proper way to add "See More Results” for a feature.
+### How to add "See More Results” for a feature.
 
-Features that perform a query on the contents of projects should consider the impact of deferred projects. In some situations, features can get the results of their query from LSL and Workspace APIs for a deferred project. In other cases, a feature’s limitations require projects to be loaded. Both of these situations should provide a new "See more results" gesture that allows users to fully load projects and re-query. This gesture enables features to give a best approximation when there are deferred projects while giving the user a way to get the perfect result when projects are actually loaded.
+Features that perform a query on the contents of projects should consider the impact of deferred projects. In some situations, features can get the results of their query from LSL and Workspace APIs for a deferred project. In other cases, a feature’s limitations require projects to be loaded. Both of these situations should provide a new "See More Results" gesture that allows users to fully load projects and re-query. This gesture enables features to give a best approximation when there are deferred projects while giving the user a way to get the perfect result when projects are actually loaded.
 
 The general algorithm for features should be:
 
@@ -104,7 +104,7 @@ public void Query(IVsHierarchy projectToQuery)
     // 2. Present results to the user
     ShowResults();
 
-    // 3. If the project was deferred, then present a "See more results" UI element
+    // 3. If the project was deferred, then present a "See More Results" UI element
     if (IsInDeferredState(projectToQuery))
     {
         ShowSeeMoreResults();
@@ -132,7 +132,7 @@ public void OnClick_SeeMoreResults()
 ### When The Query Is Performed Over the Whole Solution
 
 ```csharp
-//    Requires Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime.dll
+// Requires Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime.dll
 public void Query()
 {
     // 1. Perform calculation/query
@@ -141,7 +141,7 @@ public void Query()
     // 2. Present results to the user
     ShowResults();
 
-    // 3. If there were deferred projects, then present a "See more results from all projects" UI element
+    // 3. If there were deferred projects, then present a "See More Results from all projects" UI element
     var solution = // the solution
     object deferredCount = 0;
     int hr = ((IVsSolution)solution).GetProperty((int)__VSPROPID7.VSPROPID_DeferredProjectCount, out deferredCount);
@@ -153,7 +153,7 @@ public void Query()
 
 public void OnClick_SeeMoreResults()
 {
-    // 1. Force the solution to load, as requested by the user. This brings up a UI with a 'Cancel' button (unless supppresed with __VSBSLFLAGS.VSBSLFLAGS_NotCancelable)
+    // 1. Force the solution to load, as requested by the user. This brings up a UI with a "Cancel" button (unless supppresed with __VSBSLFLAGS.VSBSLFLAGS_NotCancelable)
     var solution = // get IVsSolution4
     int hr = ((IVsSolution4)solution).EnsureSolutionIsLoaded((uint)__VSBSLFLAGS.VSBSLFLAGS_None);
     if (ErrorHandler.Succeeded(hr))
@@ -174,7 +174,7 @@ public void OnClick_SeeMoreResults()
 
 IVsSolution7.IsSolutionLoadDeferred(out bool deferred)
 
-Returns true if the current solution has been loaded in deferred mode. Note that, if the solution was initially loaded in deferred mode, even if all the deferred projects are eventually loaded in the current session (due to explicit user gestures or forced by operations), this property would still return true.
+Returns true if the current solution has been loaded in deferred mode. Note that if the solution was initially loaded in deferred mode, even if all the deferred projects are eventually loaded in the current session (due to explicit user gestures or forced by operations), this property would still return true.
 
 __VSPROPID7.VSPROPID_DeferredProjectCount
 
@@ -192,7 +192,7 @@ These flags can be passed to [IVsSolution.GetProjectEnum()](https://msdn.microso
 
 IVsSolutionEvents7.OnAfterLoadAllDeferredProjects()
 
-This event is raised after all deferred projects have been loaded. At this point VSPROPID_DeferredProjectCount is equal to 0. Note that this event is not raised as part of solution load, and may not be raised at all in a session. It is only fired if and when all deferred projects are loaded.
+This event is raised after all deferred projects have been loaded. At this point, VSPROPID_DeferredProjectCount is equal to 0. Note that this event is not raised as part of solution load, and may not be raised at all in a session. It is only fired if and when all deferred projects are loaded.
 
 ### Changes to existing API
 
@@ -342,19 +342,18 @@ public static bool SolutionHasDeferredProjects()
 
 New Workspace APIs are exposed via IVsSolutionWorkspaceService to help retrieve detailed information about a solution.
 
-These APIs can be used to get the current workspace, the active solution, the managed command line info, as well as the index service for the workspace. These APIs can further leverage the index service to get detailed data, e.g. all source files in a project, the owning project of a source file, all projects contained in the current solution, all P2P references in a project, etc.
+These APIs can be used to get the current workspace, the active solution, the managed command line info, as well as the index service for the workspace. These APIs can further leverage the index service to get detailed data, for example, all source files in a project, the owning project of a source file, all projects contained in the current solution, all P2P references in a project, etc.
 
-The following code snippets demonstrate usage of the APIs.
+The following code snippets demonstrate usage of the Workspace APIs.
 
-### Get IVsSolutionWorkspaceService in the first place
+### Get IVsSolutionWorkspaceService initially
 
->**Note:** Please only get IVsSolutionWorkspaceService in LSL scenarios to avoid load of Workspace API package.
+>**Note:** Please only get IVsSolutionWorkspaceService in LSL scenarios to avoid loading the Workspace API package.
 
 ```csharp
 private readonly Lazy<IVsSolutionWorkspaceService> _solutionWorkspaceService;
 
 [ImportingConstructor]
-
 public DeferredProjectWorkspaceService(SVsServiceProvider serviceProvider)
 {
     _solutionWorkspaceService = new Lazy<IVsSolutionWorkspaceService>(
@@ -475,12 +474,12 @@ You can enable visual hints in the UI for deferred projects by doing the followi
 1. Close Visual Studio
 2. Regedit.exe
 3. Select HKLM
-4. **File** > **Load Hive**
-5. %localappdata%\microsoft\visualstudio\15.0_<instance ID>\privateregistry.bin
+4. File > Load Hive
+5. `%localappdata%\microsoft\visualstudio\15.0_<instance ID>\privateregistry.bin`
 6. Enter "VisualStudio" as a key name
-7. Set HKLM\VisualStudio\Software\Microsoft\VisualStudio\15.0_<instanceID>\FeatureFlags\Solution\Loading\Deferred\Hint\Value=1 (DWORD)
+7. Set `HKLM\Software\Microsoft\VisualStudio\15.0_<instanceID>\FeatureFlags\Solution\Loading\Deferred\Hint\Value=1` (DWORD)
 8. Select HKLM\VisualStudio
-9. **File** > **Unload Hive**
+9. File > Unload Hive
 10. Start Visual Studio
 
 For any further questions, please reach out to [lslsupport@microsoft.com](mailto:lslsupport@microsoft.com).
