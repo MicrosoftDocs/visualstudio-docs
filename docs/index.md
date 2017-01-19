@@ -634,7 +634,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833060">
                                                     <h3>Visual Basic</h3>
                                                     <p>A modern, easy to learn, object-oriented programming language for the .NET platform, focused on easily creating Windows applications.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
