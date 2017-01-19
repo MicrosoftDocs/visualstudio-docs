@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python | Microsoft Docs"
+title: "Getting Started with Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "1/3/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,51 +29,39 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Getting Started with Python
-The Python Tools for Visual Studio (PTVS), is a free, [open-source](https://github.com/Microsoft/ptvs) plug-in for Visual Studio that a powerful Python development experience.
+# Getting Started with Python in Visual Studio
 
-## Python the Language
+Python ([http://python.org/download/](http://python.org/download/)) is a popular programming language that is reliable, flexible, easy to learn, free to use, and supported by a strong developer community and many free libraries. Python works on all major operating systems and is useful for many purposes including web applications, web services, desktop apps, scripting, and scientific computing. Thus it's used by many universities, scientists, casual developers, and professional developers alike.
 
-Python is a popular programming language that is used by many universities, scientists, app scripters, casual developers, and professional developers, working on applications, web sites, and cloud services.
-
-As a programming language, Python is:
-
-- Reliable.
-- Generally useful for scripting quick programs, app scripting, desktop apps, web servers, web services, and scientific computing.
-- Easy to learn and has a good design to encourage good coding (many universities use it for introductory programming courses).
-- Flexible, supporting imperative, functional, and object-oriented programming styles.
-- Free and open source.
-- Runs well on all major operating systems.
-- Supported by many free, useful, and well-designed libraries.
-- Supported by lots of documentation, samples, and a strong developer community.
-
-To learn more about the language, start with [Python for Beginners](https://www.python.org/about/gettingstarted/) on python.org.
-
-To install Python itself, visit [http://python.org/download/](http://python.org/download/).
-
+To learn more about the language, start with [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org).
 
 ## Python Tools for Visual Studio
 
-The Python Tools for Visual Studio, which you can install from [visualstudio.com](https://www.visualstudio.com/en-us/explore/python-vs), provide the following features:
+The Python Tools for Visual Studio (PTVS), is a free, open-source extension for Visual Studio that provides a powerful Python development experience, including a project system and templates, rich editing and IntelliSense, full-featured debugging, and a variety of other tools.
+
+The extension provides the following features:
 
 - Support for multiple interpreters: various versions of CPython, IronPython, and IPython
-- A project system that implicitly picks up a folder structure of Python code, and also allows explicit control so you can identify app code, test code, web pages, JavaScript, build scripts, and so on.
+- A project system that implicitly picks up a folder structure of Python code and also allows explicit control so you can identify app code, test code, web pages, JavaScript, build scripts, and so on.
 - Project templates for console, web, Azure, data science, and other types of projects.
-- The Azure SDK for Python (see below)
 - Rich editing and code comprehension features including syntax coloring, auto-complete  across all your code and libraries, signature help, class view, Go to Definition, Find All References, refactoring, and more.
 - An Interactive (REPL) Window
+- Rich debugging without a Visual Studio project, the ability to an existing executable, mixed-mode debugging, remote debugging to Windows/Linux/Mac, and debugging within the Interactive Window.
+
 - IPython with data visualizations.
 - Support for IronPython and .NET/WPF.
-- Rich debugging without a Visual Studio project, the ability to an existing executable, mixed-mode debugging, remote debugging to Windows/Linux/Mac, and debugging within the Interactive Window.
 - Profiling tools.
 - Testing tools.
+- The [Azure SDK for Python](#azure-sdk-for-python)
 
 The following resources will help you get started:
 
+- [Install Python Tools for Visual Studio](https://www.visualstudio.com/vs/python/).
 - [Installation guide](https://github.com/Microsoft/PTVS/wiki/PTVS-Installation)
 - [Getting started and deep dive short videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
 - Installation and features demo (27 min)](https://www.youtube.com/watch?v=JNNAOypc6Ek)
 - [Documentation](https://github.com/Microsoft/PTVS/wiki)
+- [Source code](https://github.com/Microsoft/ptvs)
 
 
 ## Azure SDK for Python

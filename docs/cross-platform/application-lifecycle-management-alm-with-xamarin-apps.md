@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 14
-author: "kraigb"
-ms.author: "kraigb"
+author: "ghogen"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -111,7 +111,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes||  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes||  
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Xamarin Profiler](http://developer.xamarin.com/guides/cross-platform/deployment,_testing,_and_metrics/) through Xamarin Studio instead. Note that the Xamarin Profiler is currently in preview and does not yet work for Windows targets.|  
-|[Analyze .NET Framework memory issues](../misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|  
+|[Analyze .NET Framework memory issues](https://msdn.microsoft.com/en-us/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|  
   
 ## Release management  
  Reference link: **[Automate deployments with Release Management](https://msdn.microsoft.com/library/vs/alm/release/overview)**  

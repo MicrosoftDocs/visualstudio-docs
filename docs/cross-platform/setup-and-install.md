@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 16
-author: "kraigb"
-ms.author: "kraigb"
+author: "ghogen"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

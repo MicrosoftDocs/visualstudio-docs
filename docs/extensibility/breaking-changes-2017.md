@@ -116,3 +116,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 * External components can find the Visual Studio location [by following the guidance here](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup).
 * We recommend that external components use the [External Settings Manager](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.settings.externalsettingsmanager.aspx) instead of reading/writing directly to Visual Studio registry keys.
 * Check whether the components your extension is using may have implemented another technique for registration. For example, debugger extensions may be able to take advantage of the new [msvsmon JSON-file COM registration](migrate-debugger-COM-registration.md).
+
+## Change: Lightweight Solution Load
+
+Lightweight Solution Load (LSL) reduces Solution load time by not fully loading projects until the user starts working with them. This may effect extensions which assume a project is completely loaded. See [Lightweight Solution Load](lightweight-solution-load-extension-impact.md) to learn whether your extension may be impacted and get guidance on updating your extension.
