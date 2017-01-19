@@ -7,6 +7,7 @@
 ## [Ngen support in VSIX v3](ngen-support.md)
 ## [Installing outside the extensions folder](set-install-root.md)
 ## [Migrate debugger COM registration](migrate-debugger-com-registration.md)
+## [Lightweight Solution Load](lightweight-solution-load-extension-impact.md)
 ## [Frequently Asked Questions](faq-2017.md)
 # [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
 # [What's New in the Visual Studio 2015 SDK](what-s-new-in-the-visual-studio-2015-sdk.md)

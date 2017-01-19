@@ -55,6 +55,12 @@ To learn about these changes, see the following topics:
 
 To learn how to update your extensibility projects and their VSIX manifests to Visual Studio 2017, see [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
+## Lightweight Solution Load (LSL)
+
+Lightweight Solution Load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive more quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
+
+LSL may effect Visual Studio extensions. Extensions whose features depend on a project being fully loaded may not work or work incorrectly. See [Lightweight Solution Load](lightweight-solution-load-extension-impact.md) to learn whether your extension may be impacted and get guidance on updating your extension.
+
 ## Custom project and item templates
 
 Starting in Visual Studio 2017, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use Visual Studio 2017 to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio 2017](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
