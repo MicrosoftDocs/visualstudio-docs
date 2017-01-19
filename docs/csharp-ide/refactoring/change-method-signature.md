@@ -8,10 +8,16 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: csharp
 ms.assetid: b4f45f9d-9c8f-46ae-99f7-7705c6d90b6e
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+    - "vs.csharp.refactoring.remove"
+	- "vs.csharp.refactoring.reorder"
+dev_langs:
+	- csharp
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -61,8 +67,12 @@ translation.priority.ht:
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]
-   > Use the **Preview reference changes** checkbox to see what the result will be before committing to it.
+   > Use the [**Preview reference changes**](../../ide/preview-changes.md) checkbox to see what the result will be before committing to it.
 
 1. When you are finished, press the **OK** button to make the changes.
 
    ![Change Signature result](media/changesignature_result.png)
+
+## See Also  
+[Refactoring (C#)](../refactoring-csharp.md)  
+[Preview Changes](../../ide/preview-changes.md)

@@ -1,7 +1,7 @@
 ---
 title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/18/2016"
+ms.date: "01/12/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -61,7 +61,9 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 |  ```--layoutDir <dir>```, ```--layoutDirectory <dir>``` | Optional: The layout directory in which to find packages.|
 |  ```--locale <language-locale>``` | Optional: Change the display language of the user interface for the installer. Setting will be persisted. |
 | ```--quiet``` | Optional: Do not display any user interface while performing the installation. |
-| ```--passive``` | Optional: Display the user interface, but do not request any interaction from the user. | 
+| ```--passive``` | Optional: Display the user interface, but do not request any interaction from the user. |
+
+For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
 
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
@@ -70,4 +72,4 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 
  * [Install Visual Studio](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017)
+ * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

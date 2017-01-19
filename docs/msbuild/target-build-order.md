@@ -51,7 +51,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  The value of the `InitialTargets` attribute can be a semicolon-delimited, ordered list of targets. The following example specifies that the `Warm` target runs, and then the `Eject` target runs.  
   
-```  
+```xml  
 <Project InitialTargets="Warm;Eject" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
@@ -64,7 +64,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  The value of the `DefaultTargets` attribute can be a semicolon-delimited, ordered list of default targets. The following example specifies that the `Clean` target runs, and then the `Build` target runs.  
   
-```  
+```xml  
 <Project DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
@@ -84,7 +84,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 ## Target Dependencies  
  Targets can describe dependency relationships with each other. The `DependsOnTargets` attribute indicates that a target depends on other targets. For example,  
   
-```  
+```xml  
 <Target Name="Serve" DependsOnTargets="Chop;Cook" />  
 ```  
   
@@ -95,7 +95,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Consider the following script.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile;Link" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Compile">  
         <Message Text="Compiling" />  
@@ -108,7 +108,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  To create an intermediate target `Optimize` that runs after the `Compile` target, but before the `Link` target, add the following target anywhere in the `Project` element.  
   
-```  
+```xml  
 <Target Name="Optimize"   
     AfterTargets="Compile" BeforeTargets="Link">  
     <Message Text="Optimizing" />  

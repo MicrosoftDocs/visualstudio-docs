@@ -50,4 +50,5 @@ translation.priority.ht:
    ![Completed comment](media/doc_result.png)
 
 ## See Also
+[Code Generation (C#)](../code-generation-csharp.md)  
 [XML Documentation Comments (C# Programming Guide)](/dotnet/articles/csharp/programming-guide/xmldoc/xml-documentation-comments)

@@ -47,7 +47,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
   
 ## Syntax  
   
-```  
+```xml  
 <ItemGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
@@ -81,7 +81,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 ## Example  
  The following code example shows the user-defined item collections `Res` and `CodeFiles` declared inside of an `ItemGroup` element. Each of the items in the `Res` item collection contains a user-defined child [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) element.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Res Include = "Strings.fr.resources" >  

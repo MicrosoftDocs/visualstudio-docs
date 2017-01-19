@@ -8,10 +8,15 @@ ms.technology:
     - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.devlang: VB
 ms.assetid: 8ad16c15-432b-4b8c-86fd-5f31ad652d24
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+f1_keywords:
+	- "vs.csharp.refactoring.extractmethod"
+dev_langs:
+    - "VB"
 translation.priority.ht: 
     - "cs-cz"
     - "de-de"
@@ -53,8 +58,12 @@ translation.priority.ht:
    The method will be immediately created.  From here, you can now rename the method simply by typing the new name.
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as preview changes before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
    ![Rename method](media/extractmethod_rename.png)
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
+
+## See Also  
+[Refactoring (Visual Basic)](../refactoring-vb.md)  
+[Preview Changes](../../ide/preview-changes.md)

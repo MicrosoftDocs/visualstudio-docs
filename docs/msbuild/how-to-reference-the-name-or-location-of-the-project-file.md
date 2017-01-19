@@ -46,7 +46,7 @@ You can use the name or location of the project in the project file itself witho
   
 -   Reference the property in the project file with the $() notation, just as you would with any property. For example:  
   
-    ```  
+    ```xml  
     <CSC Sources = "@(CSFile)"   
         OutputAssembly = "$(MSBuildProjectName).exe"/>  
     </CSC>  
@@ -60,7 +60,7 @@ You can use the name or location of the project in the project file itself witho
 ## Example  
  The following example project file references the project name as a reserved property to specify the name for the output.  
   
-```  
+```xml  
 <Project xmlns="http://scheams.microsoft.com/developer/msbuild/2003"   
     DefaultTargets = "Compile">  
   
@@ -86,5 +86,5 @@ You can use the name or location of the project in the project file itself witho
 ```  
   
 ## See Also  
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/change-method-signature
+
 title: "Reorder Parameters Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -88,4 +90,4 @@ translation.priority.ht:
  You can reorder parameters from a method declaration or a method call. Position the cursor on or next to the method or delegate declaration but not in the body.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

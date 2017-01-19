@@ -97,7 +97,7 @@ Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.d
 ## Example  
  The following example uses the `Csc` task to compile an executable from the source files in the `Compile` item collection.  
   
-```  
+```xml  
 <CSC  
     Sources="@(Compile)"  
     OutputAssembly="$(AppName).exe"  

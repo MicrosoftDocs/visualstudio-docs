@@ -149,3 +149,5 @@ In Visual Studio, you can use a model to help you understand and change a system
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
  [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

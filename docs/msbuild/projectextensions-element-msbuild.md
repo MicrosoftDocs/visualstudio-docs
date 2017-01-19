@@ -46,7 +46,7 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectExtensions>  
     Non-MSBuild information to include in file.  
 </ProjectExtensions>  
@@ -73,7 +73,7 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ## Example  
  The following code example shows information from the integrated development environment being stored in a `ProjectExtensions` element.  
   
-```  
+```xml  
 <ProjectExtensions>  
     <VSIDE>  
         <External>  
@@ -87,4 +87,4 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)

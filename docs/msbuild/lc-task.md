@@ -59,7 +59,7 @@ Wraps LC.exe, which generates a .license file from a .licx file. For more inform
 ## Example  
  The following example uses the `LC` task to compile licenses.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 <!-- Item declarations, etc -->  
   

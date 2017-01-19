@@ -2,23 +2,13 @@
 layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation
-description:
-keywords:
-author:
-manager:
-ms.date: 11/14/2016
-ms.topic: hubpage
-ms.prod:
-ms.service:
-ms.technology:
-ms.suite:
-ms.assetid:
+description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ---
 <div id="main" class="v2">
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833223">
+                <a href="/visualstudio/install/install-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -37,7 +27,7 @@ ms.assetid:
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833058">
+                <a href="/visualstudio/ide/get-started-with-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -56,7 +46,7 @@ ms.assetid:
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=834481">
+                <a href="/visualstudio/ide/whats-new-in-visual-studio">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -83,7 +73,7 @@ ms.assetid:
                 <ul id="workloads">
                     <li>
                         <a href="#windows">Windows</a>
-                        <ul id="windows" class="cardsG">
+                        <ul id="windows" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Develop apps and games using Visual Studio to reach every device running Windows.</p>
@@ -95,7 +85,7 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-1.svg" src="./images/vs_windows-1.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -114,7 +104,7 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-2.svg" src="./images/vs_windows-2.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -133,7 +123,7 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
                                                         <img data-scaleimage="./images/vs_windows-3.svg" src="./images/vs_windows-3.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -150,7 +140,7 @@ ms.assetid:
                     </li>
                     <li>
                         <a href="#web">Web &amp; Cloud</a>
-                        <ul id="web" class="cardsG">
+                        <ul id="web" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Develop modern web apps using Visual Studio and powerful open tools.
@@ -163,8 +153,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-1.svg" src="./images/vs_web-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -182,8 +172,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-2.svg" src="./images/vs_web-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -201,8 +191,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-3.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-3.svg" src="./images/vs_web-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -220,8 +210,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-4.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="/media/logos/logo_nodejs.svg" src="/media/logos/logo_nodejs.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -239,8 +229,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-5.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-5.svg" src="./images/vs_web-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -258,8 +248,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-6.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-6.svg" src="./images/vs_web-6.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -277,8 +267,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_web-7.svg" alt="Office Development" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_web-7.svg" src="./images/vs_web-7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -294,7 +284,7 @@ ms.assetid:
                     </li>
                     <li>
                         <a href="#mobile">Mobile &amp; Gaming</a>
-                        <ul id="mobile" class="cardsG">
+                        <ul id="mobile" class="cardsC">
                             <li>
                                 <div class="container intro">
                                     <p>Create native or hybrid mobile apps that target Android, iOS, and Windows.</p>
@@ -306,8 +296,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-1.svg" src="./images/vs_gaming-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -325,13 +315,13 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-2.svg" src="./images/vs_gaming-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Game development with Unity</h3>
-                                                    <p>Create 2D and 3D games with Unity, a powerful cross-platform development environment.</p>
+                                                    <p>Create 2D and 3D games with unity, a powerful cross-platform development environment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -344,8 +334,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-3.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-3.svg" src="./images/vs_gaming-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -363,8 +353,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-4.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-4.svg" src="./images/vs_gaming-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -382,8 +372,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_gaming-5.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_gaming-5.svg" src="./images/vs_gaming-5.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -399,15 +389,15 @@ ms.assetid:
                     </li>
                     <li>
                         <a href="#other">Other Toolsets</a>
-                        <ul id="other" class="cardsG">
+                        <ul id="other" class="cardsC">
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=834750">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_tools-1.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_tools-1.svg" src="./images/vs_tools-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -425,8 +415,8 @@ ms.assetid:
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_tools-2.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_tools-2.svg" src="./images/vs_tools-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -613,156 +603,156 @@ ms.assetid:
                         <a href="#languages1"> </a>
                         <ul id="languages1" class="cardsF">
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833062">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-1.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Csharp.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833062">
                                                     <h3>Visual C#</h3>
                                                     <p>A simple, modern, type safe, object oriented programming language used for building applications that run on the .NET Framework.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833060">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-2.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_vb.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833060">
                                                     <h3>Visual Basic</h3>
                                                     <p>A fast, easy to learn programming language you can use to create applications.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833063">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-3.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Cplusplus.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833063">
                                                     <h3>Visual C++</h3>
                                                     <p>A powerful and flexible programming language and development environment for creating applications for Windows, Linux, iOS, and Android.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833067">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-4.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Fsharp.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833067">
                                                     <h3>Visual F#</h3>
                                                     <p>A strongly typed, cross platform programming language that is most often used as a cross platform CLI language, but can also be used to generate JavaScript and GPU code.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833064">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-5.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_js.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833064">
                                                     <h3>JavaScript</h3>
                                                     <p>A lightweight, cross-platform, scripting language often used to help make web pages more interactive.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833066">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-6.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_TS.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833066">
                                                     <h3>TypeScript</h3>
                                                     <p>A superset of JavaScript that compiles to plain JavaScript and enables you to create more scalable code.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-7.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_Python.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
                                                     <h3>Python</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833070">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="./images/vs_language-8.svg" alt="" />
-                                                    </div>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage cardScaleImage">
+                                                    <img src="/media/logos/logo_R.svg" alt="" />
                                                 </div>
-                                                <div class="cardText">
+                                            </div>
+                                            <div class="cardText">
+                                                <a href="https://go.microsoft.com/fwlink/?linkid=833070">
                                                     <h3>R</h3>
                                                     <p>An extensible programming language typically used for statistical computing and graphics.</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </li>

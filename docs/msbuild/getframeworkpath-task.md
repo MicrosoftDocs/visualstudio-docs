@@ -61,7 +61,7 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 ## Example  
  The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="GetPath">  
         <GetFrameworkPath>  

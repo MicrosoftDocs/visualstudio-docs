@@ -40,7 +40,7 @@ Start a tracking context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskName);  
 ```  
   

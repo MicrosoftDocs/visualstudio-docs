@@ -205,8 +205,6 @@ private void WriteSquareLine(int i)
 <#@ assembly name="$(SolutionDir)library\MyAssembly.dll" #>  
 ```  
   
- For a list of macros, see [Common Macros for Build Commands and Properties](/visual-cpp/ide/common-macros-for-build-commands-and-properties).  
-  
  The assembly directive has no effect in a [preprocessed text template](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
  For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  
