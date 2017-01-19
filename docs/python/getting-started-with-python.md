@@ -29,6 +29,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
+# Getting Started with Python in Visual Studio
 
 Python ([http://python.org/download/](http://python.org/download/)) is a popular programming language that is reliable, flexible, easy to learn, free to use, and supported by a strong developer community and many free libraries. Python works on all major operating systems and is useful for many purposes including web applications, web services, desktop apps, scripting, and scientific computing. Thus it's used by many universities, scientists, casual developers, and professional developers alike.
 
