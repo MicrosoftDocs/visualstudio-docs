@@ -34,7 +34,7 @@ translation.priority.mt:
 
 ## Background information on LSL
 
-Lightweight Solution load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
+Lightweight Solution Load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
 
 LSL can effect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
 
@@ -47,13 +47,13 @@ For further background on LSL, use the following links:
 
 1. Close any currently opened solution.
 2. Go to **Tools** > **Option** > **Projects and Solutions** > **General** settings page.
-3. Check the **Lightweight Solution load** box to enable the setting.
+3. Check the **Lightweight solution load** box to enable the setting.
 
 When a solution is opened with the above setting turned on, the IDE shows a regular view of the projects but the projects are not loaded.
 
 ## Differences between deferred load and regular load of projects
 
-With Lightweight Solution load, projects are not loaded when opening a solution. For these "deferred projects", a stub hierarchy is created. The Solution Explorer shows the expected view with icons and names of projects, there is no UI indication that some or all projects are in "deferred mode".
+With Lightweight Solution Load, projects are not loaded when opening a solution. For these "deferred projects", a stub hierarchy is created. The Solution Explorer shows the expected view with icons and names of projects, there is no UI indication that some or all projects are in "deferred mode".
 
 With LSL enabled, extensions can no longer expect that needed project(s) are already fully loaded when an operation is triggered. Callers need to check whether they have a dependency on loaded projects. If an extension requires information from a deferred project, the extension do the following:
 
@@ -80,7 +80,7 @@ All UI must treat loaded and deferred projects as equal. This means any action t
 
 ### Changes in platform APIs to help drive UI
 
-1. New APIs are provided to ask the solution if it was opened in Lightweight Solution load mode and how many projects are in a deferred state.
+1. New APIs are provided to ask the solution if it was opened in Lightweight Solution Load mode and how many projects are in a deferred state.
 2. New event is provided for when all deferred projects are loaded in the solution.
 3. New APIs are provided to ask a project if it is deferred.
 4. Existing APIs are updated to include deferred projects when asking for loaded projects.
@@ -477,7 +477,7 @@ You can enable visual hints in the UI for deferred projects by doing the followi
 4. File > Load Hive
 5. `%localappdata%\microsoft\visualstudio\15.0_<instance ID>\privateregistry.bin`
 6. Enter "VisualStudio" as a key name
-7. Set `HKLM\Software\Microsoft\VisualStudio\15.0_<instanceID>\FeatureFlags\Solution\Loading\Deferred\Hint\Value=1` (DWORD)
+7. Set `HKLM\VisualStudio\Software\Microsoft\VisualStudio\15.0_<instanceID>\FeatureFlags\Solution\Loading\Deferred\Hint\Value=1` (DWORD)
 8. Select HKLM\VisualStudio
 9. File > Unload Hive
 10. Start Visual Studio
