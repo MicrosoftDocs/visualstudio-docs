@@ -197,28 +197,17 @@ Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.Jus
 
 ## Finding Component IDs
 
-The list of Components can be found in the ComponentIDs folder of this [documentation ZIP file](https://aka.ms/vs2017componentIDs). Use these Component IDs for your Prerequisite IDs in your manifest.
+The list of Components sorted by Visual Studio product is at [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentIDs). Use these Component IDs for your Prerequisite IDs in your manifest.
 
-A complete list of all components names, id, version, and description can be found in AllPackages.txt.
+If you are unsure which Component contains a specific binary, download the [Component -> Binary mapping spreadsheet](https://aka.ms/vs2017componentid-binaries).
 
-We have provided two options for looking up the components:
+### vs2017-ComponentBinaryMapping.xlsx
 
-### Dependencies.xlsx
+There are four columns in the Excel sheet: **Component Name**, **ComponentId**, **Version**, and **Binary / File Names**.  You can use the filters to search and find specific components and binaries.
 
-There are four columns in the excel sheet: Display Name, Id, Version, and Dependency.  You can use the filters to search and find specific components and dependencies.
-
-For all your references, first determine which ones are in the core editor component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in the core editor, add filters in the dependency section to find components that have any of the subset of those references.
+For all your references, first determine which ones are in the core editor (Microsoft.VisualStudio.Component.CoreEditor) component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in core editor, add filters in the **Binaries / Files Names** section to find components that have any of the subset of those references.
 
 Examples:
 
-* If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the Dependency header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the Dependency header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the Display Name to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
+* If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the **Binaries / Files Names** header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the **Binaries / Files Names** header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the **Component Name** to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
 * If you know that your project deals with debugger elements, you can search on "debugger" in the filter search box to see what components contain debugger in its name.
-
-### PackageDetails folder
-
-In this folder, each component is a separate file.  You can search through the folder to find a component by the file name or find a dependency by the contents of the file.
-
-Examples:
-
-* If you know that your project has a reference to VSDebugEng.dll, you can search "VSDebugEng.dll" in the File Explorer search box to see all files that contain that reference as a dependency.
-* If you know that your project deals with debugger elements, you can search for "debugger" in the File Explorer search box to see what components contain debugger in its name.
