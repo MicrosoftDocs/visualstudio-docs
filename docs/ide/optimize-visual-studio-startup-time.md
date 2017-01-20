@@ -95,3 +95,7 @@ If you open a XAML file the designer may not automatically find all dependencies
  
 #### "Loading..." indicator for a loaded solution
 You may see the "Loading..." indicator next to the solution name in the Solution Explorer even after the solution has finished loading. You may disregard the "Loading..." indicator.
+
+#### Edit and Continue
+Edit and Continue won't work in projects that are not loaded when you start debugging. The files contained in such project will be read-only and an error will be reported that the project has not been loaded if an edit is attempted.
+
