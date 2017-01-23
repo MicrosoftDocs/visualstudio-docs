@@ -32,6 +32,33 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 2.8.1 (3.0 Preview 2)
+ Released 2017-01-23
+   
+### Bug fixes  
+
+-   **Code Editor:**  
+  
+    -   Fixed a crash when starting an attribute declaration without brace completion.
+
+-   **Debugger:**  
+  
+    -   Fixed function breakpoints with coroutines under the new Unity compiler/runtime.
+    
+    -   Added warning in case of an unbindable breakpoint (when no corresponding source-location is found).
+    
+-   **Project Generation:**  
+  
+    -   Fixed csproj generation with special/localized characters.
+    
+    -   Fixed references outside of Assets, such as Library (like the Facebook SDK).
+
+-   **Misc:**  
+  
+    -   Added check to prevent Unity from running when installing or uninstalling.
+    
+    -   Switched to https to target the remote Unity documentation.
+
 ## 2.8 (3.0 Preview)
  Released 2016-11-17
 
