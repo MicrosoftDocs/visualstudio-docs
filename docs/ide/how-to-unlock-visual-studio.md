@@ -1,7 +1,7 @@
 ---
-title: "How to Unlock Visual Studio | Microsoft Docs"
+title: "How to unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/23/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,14 +29,14 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# How to Unlock Visual Studio
+# How to unlock Visual Studio
 You can evaluate Visual Studio for free up to 30 days. When you sign into the IDE you can extend the trial period by 90 days. To continue using Visual Studio you can unlock the IDE by  
   
 1.  using an online subscription.  
   
 2.  entering a product key.  
   
-## To Unlock Visual Studio using an online subscription  
+## To unlock Visual Studio using an online subscription  
  To unlock Visual Studio using an MSDN or Visual Studio online subscription associated with a Microsoft account, or a work or school account:  
   
 1.  Click on the “Sign in” button in the upper right corner of the IDE (or go to File > Account Settings to open the Account Settings dialog and click on the “Sign in” button.)  
@@ -55,9 +55,9 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
 > [!TIP]
 >  Prerelease versions of Visual Studio do not have product keys. You must sign in to the IDE to use prerelease versions.  
   
-## Addressing License Problem States  
+## Address license problem states  
   
-### Updating stale licenses  
+### Update stale licenses  
  You may have seen the below message that your license is going stale in Visual Studio.  
   
  ![Visual Studio User Information Dialog](../ide/media/vs2013_userinfo.png "VS2013_UserInfo")  
@@ -75,12 +75,12 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
 > [!IMPORTANT]
 >  If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.  
   
-### Updating Expired Licenses  
+### Update expired licenses  
  If your subscription has expired completely, and you no longer have access rights to Visual Studio, you must:  
   
 1.  Renew your subscription. To see more information about the license you are using, go to File > Account Settings dialog, and look at the license information on the right side of the dialog.  
   
 2.  If you have another subscription associated with a different account, add that account to the All Accounts list on the left side of File > Account Settings dialog by clicking on the “Add an account…” link.  
   
-## See Also  
+## See also  
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
