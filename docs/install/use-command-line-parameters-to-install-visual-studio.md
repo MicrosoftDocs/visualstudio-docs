@@ -38,7 +38,7 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 ## List of command-line parameters  
  Visual Studio command-line parameters are not case-sensitive.  
 
- | **Command-line command** | **Description** |
+| **Command-line command** | **Description** |
 | ----------------------- | --------------- |  
 | ```modify``` | Modifies an installed product. |
 | ```update``` | Updates an installed product. |
