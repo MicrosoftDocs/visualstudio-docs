@@ -1,5 +1,5 @@
 ---
-title: "Create an Offline Installation of Visual Studio 2017 RC | Microsoft Docs"
+title: "Create an offline installation of Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
 ms.date: "01/23/2016"
@@ -119,7 +119,7 @@ When you install offline from your offline install cache, you might see warning 
  > [!IMPORTANT]
  > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
- ## See Also
+ ## See also
  * [Install Visual Studio](install-visual-studio.md)
  * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
  * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

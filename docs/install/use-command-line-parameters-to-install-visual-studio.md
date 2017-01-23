@@ -1,5 +1,5 @@
 ---
-title: "Use Command-Line Parameters to Install Visual Studio | Microsoft Docs"
+title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/23/2017"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Use Command-Line Parameters to Install Visual Studio 2017 RC
+# Use command-line parameters to install Visual Studio 2017 RC
 When you install Visual Studio 2017 RC from a command prompt, you can use the following command-line parameters (also known as switches).  
 
 ## List of command-line parameters  
@@ -102,7 +102,7 @@ For a list of workload and component IDs sorted by Visual Studio product, see ou
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
-## See Also
+## See also
 
  * [Install Visual Studio](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
