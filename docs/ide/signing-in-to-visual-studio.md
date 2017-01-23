@@ -1,7 +1,7 @@
 ---
-title: "Signing in to Visual Studio | Microsoft Docs"
+title: "Sign in to Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/23/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -29,7 +29,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Signing in to Visual Studio
+# Sign in to Visual Studio
 You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.  
 
 ## Why should I sign in to Visual Studio?  
