@@ -188,9 +188,4 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 ## Related Topics  
 
-|Title|Description|  
-|-----------|-----------------|  
-|[Kinds of Windows](../misc/kinds-of-windows.md)|Discusses the differences between tool windows and document windows in the IDE.|  
-|[How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)|Describes how to dock, auto hide, and tile windows, and also how to reset the window layout.|  
-|[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)|Describes how you can cycle through open windows in the IDE, by order of usage. Also describes how you can jump to specific documents.|  
-|[Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|Contains information about settings combinations and how settings affect window layouts, keyboard shortcuts, and other elements in the IDE.|
+[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)
