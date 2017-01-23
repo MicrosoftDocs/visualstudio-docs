@@ -1,7 +1,7 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/23/2017"
+ms.date: "01/12/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -35,10 +35,12 @@ translation.priority.mt:
 # Use command-line parameters to install Visual Studio 2017 RC
 When you install Visual Studio 2017 RC from a command prompt, you can use the following command-line parameters (also known as switches).  
 
+
+
 ## List of command-line parameters  
  Visual Studio command-line parameters are not case-sensitive.  
 
-| **Command-line command** | **Description** |
+ | **Command-line command** | **Description** |
 | ----------------------- | --------------- |  
 | ```modify``` | Modifies an installed product. |
 | ```update``` | Updates an installed product. |
@@ -69,16 +71,14 @@ If no command is specified, it will install the product.
 | ----------------------- | --------------- |  
 | ```[--channelId] <id>``` | Optional: The ID of the channel for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
 | ```[--channelUri] <uri>``` | Optional: The URI of the channel manifest. This can be used for the install command; it is ignored for other commands. |
-| ```[--installChannelUri] <uri>``` | Optional: The URI of the channel manifest to use for the installation. The URI specified by --channelUri (which must be specified when --installChannelUri is specified) will be used to detect updates. If updates are not desired, --channelUri must be specified without an argument. This can be used for the install command; it is ignored for other commands. |
+| ```[--insatllChannelUri] <uri>``` | Optional: The URI of the channel manifest to use for the installation. The URI specified by --channelUri (which must be specified when --installChannelUri is specified) will be used to detect updates. If updates are not desired, --channelUri must be specified without an argument. This can be used for the install command; it is ignored for other commands. |
 | ```[--installCatalogUri] <uri>``` | Optional: The URI of the catalog manifest to use for the installation. If specified, the channel manager will attempt to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it is ignored for other commands. |
 | ```[--in] <path>``` | Optional: The URI or path to a response file.  |
 | ```[--addProductLang ] <language-locale>``` | Optional: This defines the language of an artifact (group, workload, or component) that is to be installed. It can appear multiple times on the command line. It is optional for the install and modify commands, ignored for the update, repair and uninstall commands. If not present, the installation will use the machine locale. |
 | ```[--removeProductLang  ] <language-locale>``` | Optional: This defines the language of an artifact (group, workload, or component) that is to be removed. It can appear multiple times on the command line. It is optional for the install and modify commands, ignored for the update, repair and uninstall commands. |
 
-## List of workload IDs and component IDs
 For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
 
-## List of language locales
 | **Language-locale** | **Language** |
 | ----------------------- | --------------- |  
 | cs-CZ | Czech |
@@ -96,8 +96,6 @@ For a list of workload and component IDs sorted by Visual Studio product, see ou
 | tr-TR | Turkish |
 | zh-CN | Chinese - Simplified |
 | zh-TW | Chinese - Traditional |
-
-
 
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.

@@ -2,7 +2,7 @@
 title: "Create an offline installation of Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
-ms.date: "01/23/2016"
+ms.date: "12/07/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -51,31 +51,23 @@ You can then install Visual Studio to the target machine by using the offline in
 
    a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. Note that relative paths (e.g. `..\vs2017`) are not supported at present. By default, all languages are downloaded. (See Example A.)
 
-   b. Restrict the download to a subset of the available languages by providing the `--lang <language>` argument, where `<language>` is one or more of the language-locales.  (See Example B and Example C.)
+   > [!WARNING]
+   > Currently, an offline installation of Visual Studio 2017 RC will silently fail to install if the layout location is a root directory (for example, D:&#92;). This is very common when an offline installation layout is created at the root of an ISO image. To work around this issue, please use a directory for the layout location. For example, use D:&#92;VS2017.
 
-   c. Restrict the download to a subset of Workloads and Components by providing the  `--add <package ID>` argument. This will download only the workloads and components (and their dependencies) that you specify. (See Example D and Example E.)
-
-   For a full list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
+   b. Restrict the download to a subset of the available languages by providing the `--lang <language>` argument, where `<language>` is one or more of the ISO country codes.  (See Example B and Example C.)
 
 ### Examples
-**Example A**: Download all workloads and components for all languages
+**Example A**: Install all languages
   > ```vs_enterprise.exe --layout C:\vs2017```
 
-**Example B**: Download all workloads and components for one language  
+**Example B**: Install one language  
   > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US```
 
-**Example C**: Download all workloads and components for multiple languages
+**Example C**: Install multiple languages
   > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US de-DE ja-JP```
 
-**Example D**: Download one workload for all languages
-  > ```vs_enterprise.exe --layout C:\vs2017 --add Microsoft.VisualStudio.Workload.Azure ```
-
-**Example E**: Download two workloads and one optional component for three languages
-  > ```vs_enterprise.exe --layout C:\vs2017 --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
-
-### Language locales
-
-| Language-locale | Language |
+### Country codes  
+| ISO Code | Language |
 | -----   | ----- |
 | cs-CZ	| Czech |
 | de-DE	| German |
@@ -100,8 +92,6 @@ You can then install Visual Studio to the target machine by using the offline in
 
   (If you are prompted for a password after you install a certificate, click **Continue**.)  
 3. Run `vs_enterprise.exe` from the **Layout** folder.
-
-Note: If you are installing from a partial layout and select workloads, components or languages that are not available in the layout, setup will attempt to download them.  If you do not have internet access, those items will fail to install.
 
 > [!CAUTION]
 > The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
