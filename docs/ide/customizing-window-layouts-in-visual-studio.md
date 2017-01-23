@@ -1,7 +1,7 @@
 ---
 title: "Customize window layouts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/23/2016"
+ms.date: "01/23/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
