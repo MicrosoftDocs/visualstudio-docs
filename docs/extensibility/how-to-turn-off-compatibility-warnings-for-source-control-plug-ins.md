@@ -1,5 +1,5 @@
 ---
-title: "How to: Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs"
+title: "Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
