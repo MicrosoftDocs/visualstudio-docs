@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Call Stack Window | Microsoft Docs"
+title: "Viewing the Call Stack | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
