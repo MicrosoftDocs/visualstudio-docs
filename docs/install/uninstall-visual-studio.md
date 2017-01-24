@@ -57,6 +57,6 @@ If you change your mind later and want to reinstall Visual Studio 2017 RC, simpl
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
-## See Also  
+## See also  
 * [Install Visual Studio](install-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
