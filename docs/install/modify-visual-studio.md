@@ -71,7 +71,7 @@ If you don’t want to use the handy Workloads feature to customize your Visual 
 > [!IMPORTANT]
 > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
-## See Also  
+## See also  
 * [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
 * [Uninstall Visual Studio 2017 RC](uninstall-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
