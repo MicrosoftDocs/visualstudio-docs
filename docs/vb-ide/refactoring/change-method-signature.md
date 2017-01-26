@@ -1,5 +1,5 @@
 ---
-title: "Change Method Signature | Microsoft Docs"
+title: "Change method signature - Refactoring (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Change Method Signature
+# Change a method signature in Visual Basic
 **What:** Lets you remove or change the order of a method's parameters.
 
 **When:** You want to move or remove a method parameter that is currently being used in a variety of locations.  

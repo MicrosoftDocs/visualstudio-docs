@@ -1,5 +1,5 @@
 ---
-title: "Encapsulate Field | Microsoft Docs"
+title: "Encapsulate field - Refactoring (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Encapsulate Field
+# Encapsulate a field in Visual Basic
 **What:** Lets you turn a field into a property, and update all usages of that field to use the newly created property.
 
 **When:** You want to move a field into a property, and update all references to that field.  

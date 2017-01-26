@@ -1,5 +1,5 @@
 ---
-title: "Code Generation (C#) | Microsoft Docs"
+title: "Visual Studio code generation feautures (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -31,8 +31,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Code Generation
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Visual C# provides the following code generation features:  
+# Code generation features for C# #
+Visual Studio can help generate portions of source code for you, letting you focus on the real work.  The following code generation features are available in Visual Studio for C#:
   
 * [Generate Class/Type](code-generation/generate-class-type.md)
 * [Generate Method](code-generation/generate-method.md)

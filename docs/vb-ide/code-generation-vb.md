@@ -1,5 +1,5 @@
 ---
-title: "Code Generation (Visual Basic) | Microsoft Docs"
+title: "Visual Studio code generation features (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -42,8 +42,3 @@ Visual Studio can help generate portions of source code for you, letting you foc
 * [Implement Abstract Class](code-generation/implement-abstract-class.md)
 * [Implement Interface](code-generation/implement-interface.md)
 * [Introduce Local Variable](code-generation/introduce-local-variable.md)
-
-<!--
-## See Also  
- [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- -->
