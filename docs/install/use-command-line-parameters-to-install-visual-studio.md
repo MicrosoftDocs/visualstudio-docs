@@ -52,8 +52,8 @@ When you install Visual Studio 2017 RC from a command prompt, you can use the fo
 | ```--instanceId <id>``` | Optional: The instance ID to install or repair. |
 | ```--productId <id>``` | Optional: The product ID to install. Otherwise, the first product found is installed. |
 | ```--all``` | Optional: Whether to install all workloads and components for a product. |
-| ```--add <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | Optional: One or more workload or component IDs to add. |
-| ```--remove <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | Optional: One or more workload or component IDs to remove. |
+| ```--add <workload or component ID>``` | Optional: A workload or component ID to add. Repeat ```--add <workload or component ID>``` for additional workloads or components. |
+| ```--remove <workload or component ID>``` | Optional: A workload or component ID to remove. Repeat ```--remove <workload or component ID>``` for additional workloads or components. |
 | ```--optional, --includeOptional``` | Optional: Whether to install all optional workloads and components for selected workload. |
 | ```--lang, --language <language-locale>``` *[&#60;language-locale&#62; ...]* | Optional: Install/uninstall resource packages with the specified language(s). |
 |  ```--sharedInstallDir <dir>``` | Optional: The target installation directory for shared payloads. |  
