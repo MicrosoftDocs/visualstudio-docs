@@ -1,5 +1,5 @@
 ---
-title: "Move Type to Matching File | Microsoft Docs"
+title: "Move type to matching file - Refactoring (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Move Type to Matching File
+# Move type to a matching file in Visual Basic
 **What:** Lets you move the selected type to a separate file with the same name.
 
 **When:** You have multiple classes, structs, interfaces, etc. in the same file which you want to separate.  

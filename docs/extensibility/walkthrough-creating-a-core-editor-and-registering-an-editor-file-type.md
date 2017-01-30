@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
+title: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

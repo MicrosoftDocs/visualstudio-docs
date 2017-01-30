@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide Expanded Outlining Support in a Legacy Language Service | Microsoft Docs"
+title: "Provide Outlining Support in a Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

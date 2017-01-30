@@ -1,5 +1,5 @@
 ---
-title: "Rename | Microsoft Docs"
+title: "Rename - Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Rename
+# Rename a code symbol in C# #
 **What:** Lets you rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties and types.
 
 **When:** You want to safely rename something without having to find all instances, and copy/paste the new name.  

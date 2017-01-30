@@ -1,5 +1,5 @@
 ---
-title: "Refactoring (C#) | Microsoft Docs"
+title: "Visual Studio Refactoring Features (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -38,10 +38,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Refactoring
-Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  
-  
-Visual C# provides the following refactoring features:  
+# Refactoring features for C#
+Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  The following refactoring features are available in Visual Studio for C#:
   
 * [Change Method Signature](refactoring/change-method-signature.md)
 * [Encapsulate Field](refactoring/encapsulate-field.md)

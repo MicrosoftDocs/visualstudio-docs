@@ -1,5 +1,5 @@
 ---
-title: "Implement Abstract Class | Microsoft Docs"
+title: "Implement an abstract class - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Implement Abstract Class
+# Implement an abstract class in C# #
 **What:** Lets you immediately generate the code required to implement an abstract class. 
 
 **When:** You want to inherit from an abstract class.  

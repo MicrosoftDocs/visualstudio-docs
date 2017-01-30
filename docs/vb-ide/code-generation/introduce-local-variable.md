@@ -1,5 +1,5 @@
 ---
-title: "Introduce Local Variable | Microsoft Docs"
+title: "Introduce a local variable - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Introduce Local Variable
+# Introduce a local variable in Visual Basic
 **What:** Lets you immediately generate a local variable to replace an existing expression.
 
 **When:** You have code which could be easily reused later if it were in a local variable.  
