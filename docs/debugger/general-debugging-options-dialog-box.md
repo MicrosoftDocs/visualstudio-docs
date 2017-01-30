@@ -159,7 +159,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Use the legacy C# and VB expression evaluators**  
  The debugger will use the Visual Studio 2013 C#/VB expression evaluators instead of the Visual Studio 2015 Roslyn-based expression evaluators.  
   
- **Warn when using custom debugger visualizers against potentially unsafe code**  
+ **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**  
  Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debuggee process, because it could be running unsafe code.  
   
  **Enable Windows debug heap allocator (Native only)**  
