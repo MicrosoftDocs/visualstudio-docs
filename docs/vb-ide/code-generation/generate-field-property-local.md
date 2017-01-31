@@ -1,5 +1,5 @@
 ---
-title: "Generate Field/Property/Local | Microsoft Docs"
+title: "Generate a field, property or local - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Field/Property/Local
+# Generate a field, property or local in Visual Basic
 **What:** Lets you immediately generate the code for a previously undeclared field, property, or local. 
 
 **When:** You introduce a new field, property or local while typing and want to properly declare it, automatically.  

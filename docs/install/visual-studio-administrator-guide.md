@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Administrator Guide | Microsoft Docs"
+title: "Visual Studio administrator guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/12/2017"
 ms.prod: "visual-studio-dev15"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Visual Studio Administrator Guide for Visual Studio 2017 RC
+# Visual Studio administrator guide for Visual Studio 2017 RC
 
 You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). You can create a network share by running the installation file with the --layout switch (as described on the [Create an Offline Installation of Visual Studio](create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share.   
 
@@ -42,7 +42,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
  > [!IMPORTANT]
  > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
-## See Also
+## See also
 * [Install Visual Studio 2017 RC](install-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017 RC](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
