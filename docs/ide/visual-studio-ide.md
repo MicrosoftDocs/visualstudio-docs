@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "01/17/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -190,7 +190,7 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
 ## Connect to cloud services and databases  
  The [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) in Visual Studio shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by installing the [Azure SDK](https://azure.microsoft.com/en-us/downloads/).
 
- ![Cloud Explorer](../ide/media/vside_cloud_explorer.png "vs2017_CloudExplorer")  
+ ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
  [Server Explorer](https://msdn.microsoft.com/en-us/library/cd2cz7yy.aspx) is also available to help you browse and manage SQL Server instances and assets on Azure, Salesforce.com, Office 365, and websites.
 
