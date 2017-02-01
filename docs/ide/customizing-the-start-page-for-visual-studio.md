@@ -1,7 +1,7 @@
 ---
-title: "Customize the start page for Visual Studio | Microsoft Docs"
+title: "Customize the Start Page for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/23/2017"
+ms.date: "02/01/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
