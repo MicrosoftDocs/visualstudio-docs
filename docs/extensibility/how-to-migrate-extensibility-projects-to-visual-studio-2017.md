@@ -76,7 +76,6 @@ To ensure that the user's installation of Visual Studio has all the assemblies r
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
   * We recommend you specify only Component IDs for installation prerequisites.
-  * The DisplayName attribute is optional.
   * See the section at the end of this document for [instructions on identifying Component IDs](#finding-component-ids).
 
 Example:
@@ -85,8 +84,8 @@ Example:
 <PackageManifest>
  ...
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-        <Prerequisite Id="Microsoft.VisualStudio.Component.DiagnosticTools" Version="[15.0.25814.0,16.0)" DisplayName="Profiling tools" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.DiagnosticTools" Version="[15.0.25814.0,16.0)" />
         <Prerequisite Id="Microsoft.VisualStudio.Shell.12.0" Version="[12.0]" />
     </Prerequisites>
  ...

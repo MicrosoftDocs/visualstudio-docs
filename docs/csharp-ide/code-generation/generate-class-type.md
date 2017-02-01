@@ -1,5 +1,5 @@
 ---
-title: "Generate Class/Type | Microsoft Docs"
+title: "Generate a class or type - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Class/Type
+# Generate a class or type in C# #
 **What:** Lets you immediately generate the code for a class or type. 
 
 **When:** You introduce a new class or type and want to properly declare it, automatically.  

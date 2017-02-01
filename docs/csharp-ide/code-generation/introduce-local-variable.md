@@ -1,5 +1,5 @@
 ---
-title: "Introduce Local Variable | Microsoft Docs"
+title: "Introduce a local variable - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Introduce Local Variable
+# Introduce a local variable in C# #
 **What:** Lets you immediately generate a local variable to replace an existing expression.
 
 **When:** You have code which could be easily reused later if it were in a local variable.  

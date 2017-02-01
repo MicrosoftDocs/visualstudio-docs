@@ -1,5 +1,5 @@
 ---
-title: "Extract Method | Microsoft Docs"
+title: "Extract method - Refactoring (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Extract Method
+# Extract a method in Visual Basic
 **What:** Lets you turn a fragment of code into its own method.
 
 **When:** You have a fragment of existing code in some method that needs to be called from another method.  

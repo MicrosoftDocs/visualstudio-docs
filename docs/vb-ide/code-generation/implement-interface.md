@@ -1,5 +1,5 @@
 ---
-title: "Implement Interface | Microsoft Docs"
+title: "Implement an interface - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Implement Interface
+# Implement an interface in Visual Basic
 **What:** Lets you immediately generate the code required to implement an interface. 
 
 **When:** You want to inherit from an interface.  

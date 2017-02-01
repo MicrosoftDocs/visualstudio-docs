@@ -1,5 +1,5 @@
 ---
-title: "Generate Override | Microsoft Docs"
+title: "Generate an override - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Override
+# Generate an override in C# #
 **What:** Lets you immediately generate the code for a any method which can be overridden from a base class. 
 
 **When:** You want to override a base class method and generate the signature automatically.  

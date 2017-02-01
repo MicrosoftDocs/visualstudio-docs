@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation) | Microsoft Docs"
+title: "Getting a List of Installed Code Snippets (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "Bind WPF controls to data in Visual Studio1 | Microsoft Docs"
+title: "Bind WPF controls to data in Visual Studio - Part 1| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
