@@ -1,7 +1,7 @@
 ---
-title: "Customizing the Start Page for Visual Studio | Microsoft Docs"
+title: "Customize the Start Page for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/01/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -36,10 +36,10 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Customizing the Start Page for Visual Studio
+# Customize the start page for Visual Studio
 You can customize the start page for Visual Studio in several default ways, such as showing the **Open Project** dialog box or opening the solution that was loaded most recently. You can also show a custom start page, which is a Windows Presentation Foundation (WPF) XAML page that runs in a tool window and can run commands that are internal to Visual Studio.  
 
-## Customizing the default start page  
+## Customize the default start page  
 
 1.  On the menu bar, choose **Tools**, **Options**.  
 
@@ -68,5 +68,5 @@ You can customize the start page for Visual Studio in several default ways, such
 > [!NOTE]
 >  If an error in a custom start page causes Visual Studio to crash, you can start Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../ide/reference/safemode-devenv-exe.md).  
 
-## See Also  
+## See also  
  [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   

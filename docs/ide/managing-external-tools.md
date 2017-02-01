@@ -1,7 +1,7 @@
 ---
-title: "Managing External Tools | Microsoft Docs"
+title: "Manage external tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/23/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -76,10 +76,10 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Managing External Tools
+# Manage external tools
 You can call external tools from inside Visual Studio. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
   
-## Tools Available on the Visual Studio Tools Menu  
+## Tools available on the Visual Studio Tools menu
  You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
   
 1.  Create GUID: generates a GUID.  
@@ -97,7 +97,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
 > [!WARNING]
 >  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-## Adding New Tools  
+## Add new tools to the Tools menu 
  You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
   
 1.  Title: Open File Location  
@@ -131,5 +131,5 @@ You can call external tools from inside Visual Studio. A few default tools are a
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|  
 |Solution file name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|  
   
-## See Also  
+## See also  
  [C/C++ Build Tools](/visual-cpp/build/reference/c-cpp-build-tools)
