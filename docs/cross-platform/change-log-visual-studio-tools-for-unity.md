@@ -32,6 +32,15 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 2.8.2 (3.0 Preview 3)
+ Released 2017-01-25
+   
+### Bug fixes  
+
+-   **Project Generation:**  
+  
+    -   Fixed regression where Plugins projects where referenced twice, first as a binary DLL then as a project reference.
+
 ## 2.8.1 (3.0 Preview 2)
  Released 2017-01-23
    

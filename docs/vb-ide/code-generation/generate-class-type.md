@@ -1,5 +1,5 @@
 ---
-title: "Generate Class/Type | Microsoft Docs"
+title: "Generate a class or type - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -34,7 +34,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Class/Type
+# Generate a class or type in Visual Basic
 **What:** Lets you immediately generate the code for a class or type. 
 
 **When:** You introduce a new class or type and want to properly declare it, automatically.  

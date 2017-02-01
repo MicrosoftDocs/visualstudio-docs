@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides) | Microsoft Docs"
+title: "Creating a View Adornment, Commands and Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

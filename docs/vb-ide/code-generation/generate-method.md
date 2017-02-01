@@ -1,5 +1,5 @@
 ---
-title: "Generate Method | Microsoft Docs"
+title: "Generate a method - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Method
+# Generate a method in Visual Basic
 **What:** Lets you immediately add a method to a class. 
 
 **When:** You introduce a new method and want to properly declare it, automatically.  

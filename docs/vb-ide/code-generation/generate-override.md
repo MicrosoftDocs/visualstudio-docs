@@ -1,5 +1,5 @@
 ---
-title: "Generate Override | Microsoft Docs"
+title: "Generate an override - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Override
+# Generate an override in Visual Basic
 **What:** Lets you immediately generate the code for a any method which can be overridden from a base class. 
 
 **When:** You want to override a base class method and generate the signature automatically.  

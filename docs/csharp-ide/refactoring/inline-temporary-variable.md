@@ -1,5 +1,5 @@
 ---
-title: "Inline Temporary Variable | Microsoft Docs"
+title: "Inline temporary variable - Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Inline Temporary Variable
+# Inline a temporary variable with C# #
 **What:** Lets you remove the use of a temporary variable and replace it with the actual code instead.
 
 **When:** The use of the temporary variable makes the code harder to understand.  

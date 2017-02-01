@@ -1,5 +1,5 @@
 ---
-title: "Implement Interface | Microsoft Docs"
+title: "Implement an interface - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Implement Interface
+# Implement an interface in C# #
 **What:** Lets you immediately generate the code required to implement an interface. 
 
 **When:** You want to inherit from an interface.  

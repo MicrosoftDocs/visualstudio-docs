@@ -1,5 +1,5 @@
 ---
-title: "Extract Interface | Microsoft Docs"
+title: "Extract interface - Refactoring (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Extract Interface
+# Extract an interface in Visual Basic
 **What:** Lets you create an interface using existing members from a class, struct or interface.
 
 **When:** You have several classes, structs or interfaces with methods that could be made common and used by other classes, structs or interfaces.
