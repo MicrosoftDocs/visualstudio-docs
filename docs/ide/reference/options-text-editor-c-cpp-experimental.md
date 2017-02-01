@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, C-C++, Experimental | Microsoft Docs"
+title: "Options, Text Editor, C/C++, Experimental | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
-  - "VS.ToolsOptionsPages.Text_Editor.C\C++.Experimental"
+  - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
 ms.assetid: b9e9dda2-350c-460d-b368-37d6c5342eee
 caps.latest.revision: 10
 author: "kempb"
