@@ -66,9 +66,6 @@ translation.priority.mt:
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.  
   
- [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
- Provides step-by-step instructions for adding validation to the application that was created in the n-tier data application walkthrough.  
-  
 ## Reference  
  <xref:System.Data.DataSet>  
   

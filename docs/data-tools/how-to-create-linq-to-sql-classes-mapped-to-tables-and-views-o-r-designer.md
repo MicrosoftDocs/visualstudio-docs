@@ -77,5 +77,4 @@ translation.priority.mt:
  [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)   
  [The LINQ to SQL Object Model](http://msdn.microsoft.com/Library/81dd0c37-e2a4-4694-83b0-f2e49e693810)   
  [Walkthrough: Customizing the insert, update, and delete behavior of entity classes](../data-tools/walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes.md)   
- [Walkthrough: Adding Validation to Entity Classes](../Topic/Walkthrough:%20Adding%20Validation%20to%20Entity%20Classes.md)   
- [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)
+  [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)

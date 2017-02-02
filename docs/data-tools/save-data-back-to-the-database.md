@@ -175,7 +175,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  `GetChanges` by itself  returns all changed records. In contrast, by passing the desired <xref:System.Data.DataRowState> as a parameter to the `GetChanges` method, you can specify what subset of changed records you want: newly added records, records that are marked for deletion, detached records, or modified records.  
   
- Getting a subset of changed records is useful when you want to send records to another component for processing. Instead of sending the entire dataset, you can reduce the overhead of communicating with the other component by getting only the records that the component needs. For more information, see [How to: Retrieve Changed Rows](../Topic/How%20to:%20Retrieve%20Changed%20Rows.md).  
+ Getting a subset of changed records is useful when you want to send records to another component for processing. Instead of sending the entire dataset, you can reduce the overhead of communicating with the other component by getting only the records that the component needs.   
   
 ## Committing changes in the dataset  
  As changes are made in the dataset, the <xref:System.Data.DataRow.RowState%2A> property of changed rows is set. The original and current versions of records are established, maintained, and made available to you by the <xref:System.Data.DataRowView.RowVersion%2A> property. The metadata that's stored in the properties of these changed rows is necessary for sending the correct updates to the data source.  

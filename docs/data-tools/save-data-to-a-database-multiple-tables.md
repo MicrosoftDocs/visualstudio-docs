@@ -158,12 +158,6 @@ One of the most common scenarios in application development is to display data o
   
 4.  Check the values in the database to verify that the changes were saved.  
   
-## Next Steps  
- Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form in your Windows application. Some enhancements you could make to this walkthrough include:  
-  
--   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
-  
--   Editing the data source to add or remove database objects. 
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
