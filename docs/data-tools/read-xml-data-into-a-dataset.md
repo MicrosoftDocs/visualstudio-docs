@@ -255,7 +255,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 -   Edit the data in the dataset and write it out to a database. For more information, see [Saving Data](../data-tools/saving-data.md).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

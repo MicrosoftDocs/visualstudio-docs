@@ -65,7 +65,7 @@ translation.priority.ht:
   
 -   Data access components and logic, such as the following:  
   
-    -   [TableAdapters](../Topic/TableAdapters.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
+    -   [TableAdapters](tableadapter-overview.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
     -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
@@ -94,9 +94,7 @@ Data tier
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
-  
- [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
-  
+
  [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)  
   
 ## See Also  

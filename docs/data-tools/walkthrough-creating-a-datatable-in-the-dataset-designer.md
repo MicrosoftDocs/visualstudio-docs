@@ -126,23 +126,12 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 -   On the **File** menu, click **Save All**.  
   
-## Next Steps  
- Now that you have created the table, you might want to perform one of the following actions:  
-  
-|To|See|  
-|--------|---------|  
-|Create a form to input data|[Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md).|  
-|Add data to the table|[Adding Data to a DataTable](http://msdn.microsoft.com/Library/d6aa8474-7bde-48f7-949d-20dc38a1625b).|  
-|View data in a table|[Viewing Data in a DataTable](http://msdn.microsoft.com/Library/1d26e0fb-f6e0-4afa-9a9c-b8d55b8f20dc).|  
-|Edit data|[DataTable Edits](http://msdn.microsoft.com/Library/f08008a9-042e-4de9-94f3-4f0e502b1eb5)|  
-|Delete a row from a table|[DataRow Deletion](http://msdn.microsoft.com/Library/c34f531d-4b9b-4071-b2d7-342c402aa586)|  
-  
 ## See Also  
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)

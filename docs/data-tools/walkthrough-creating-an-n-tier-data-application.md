@@ -49,7 +49,7 @@ translation.priority.ht:
   
 -   Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
--   Separate the generated [TableAdapters](../Topic/TableAdapters.md) and dataset code into discrete projects.  
+-   Separate the generated [TableAdapters](tableadapter-overview.md) and dataset code into discrete projects.  
   
 -   Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   
@@ -389,7 +389,7 @@ translation.priority.ht:
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
   
--   Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md).  
+-   Add validation to the dataset. 
   
 -   Add additional methods to the service for updating data back to the database.  
   
