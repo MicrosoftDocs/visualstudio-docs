@@ -1,7 +1,7 @@
 ---
 title: "Capabilities of Dotfuscator | Microsoft Docs"
 description: "Learn the capabilities of the free Dotfuscator Community Edition included in Visual Studio 2017."
-keywords: "dotfuscator ce preemptive protection" 
+keywords: "dotfuscator ce preemptive protection community edition" 
 author: "Joe-K-Sewell"
 
 ms.devlang: "dotnet"

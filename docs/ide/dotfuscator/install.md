@@ -1,7 +1,7 @@
 ---
 title: "How to: Install Dotfuscator Community Edition | Microsoft Docs"
 description: "Learn how to install the free Dotfuscator Community Edition included in Visual Studio 2017."
-keywords: "dotfuscator ce preemptive protection" 
+keywords: "dotfuscator ce preemptive protection community edition" 
 author: "Joe-K-Sewell"
 
 ms.devlang: "dotnet"
