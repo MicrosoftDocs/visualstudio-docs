@@ -80,6 +80,6 @@ translation.priority.mt:
   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
   
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)  
+ [Create and Configure TableAdapters](create-and-configure-tableadapters.md)   
   
  [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)

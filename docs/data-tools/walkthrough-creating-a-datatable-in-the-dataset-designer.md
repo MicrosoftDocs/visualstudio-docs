@@ -88,9 +88,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
      A table named **DataTable1** is added to the dataset.  
   
-    > [!NOTE]
-    >  To create a data table that includes a TableAdapter, see [Walkthrough: Creating a TableAdapter with Multiple Queries](../data-tools/walkthrough-creating-a-tableadapter-with-multiple-queries.md).  
-  
+   
 2.  Click the title bar of **DataTable1** and rename it `Music`.  
   
 ## Adding Columns to the Data Table  
@@ -127,11 +125,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 -   On the **File** menu, click **Save All**.  
   
 ## See Also  
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
- [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
+    
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
  [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)   
- [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)

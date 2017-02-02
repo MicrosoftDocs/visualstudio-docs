@@ -80,7 +80,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
      [!code-cs[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_2.cs)]  
   
 ## Insert new records by using command objects  
- The following example inserts new records directly into a database using command objects. For more information about using command objects to run commands and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
+ The following example inserts new records directly into a database using command objects.  
   
  The following procedure uses the `Region` table in the Northwind database  as an example.  
   

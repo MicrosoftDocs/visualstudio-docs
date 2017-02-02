@@ -58,7 +58,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
      -or-  
   
--   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, See [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).  
+-   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
   
 #### To create a parameterized query while designing a data-bound form  
   

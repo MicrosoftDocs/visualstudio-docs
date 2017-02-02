@@ -157,7 +157,7 @@ A common application scenario is to display selected data on a form. For example
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:  
   
--   Adding controls that display related data. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+-   Adding controls that display related data. For more information, see [Relationships in Datasets](relationships-in-datasets.md).  
   
 -   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
   

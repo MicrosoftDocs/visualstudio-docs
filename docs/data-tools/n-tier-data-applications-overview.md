@@ -43,7 +43,7 @@ translation.priority.ht:
   
  Visual Studio contains several features to help developers create n-tier applications:  
   
--   The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
+-   The datasetprovides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   

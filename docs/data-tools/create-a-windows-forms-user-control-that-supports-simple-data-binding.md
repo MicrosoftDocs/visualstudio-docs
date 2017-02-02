@@ -69,7 +69,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
@@ -121,7 +121,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
- This step uses the **Data Source Configuration**wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+ This step uses the **Data Source Configuration**wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 #### To create the data source  
   

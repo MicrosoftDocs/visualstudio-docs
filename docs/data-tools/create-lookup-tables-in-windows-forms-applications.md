@@ -47,7 +47,7 @@ The term *lookup table* describes controls that are bound to two related data ta
 1.  Open the **Data Sources** window.  
   
     > [!NOTE]
-    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [Relationships in Datasets](relationships-in-datasets.md).  
   
 2.  Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.  
   
