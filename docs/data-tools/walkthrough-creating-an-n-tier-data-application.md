@@ -49,7 +49,7 @@ translation.priority.ht:
   
 -   Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
--   Separate the generated [TableAdapters](tableadapter-overview.md) and dataset code into discrete projects.  
+-   Separate the generated [TableAdapters](create-and-configure-tableadapters.md) and dataset code into discrete projects.  
   
 -   Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   

@@ -52,9 +52,9 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
   
 ### To add user code to a TableAdapter in an n-tier application  
   
-1.  Locate the project that contains the .xsd file (the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)).  
+1.  Locate the project that contains the .xsd file.
   
-2.  Double click the **.xsd** file to open the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+2.  Double click the **.xsd** file to open the **Dataset Designer**.  
   
 3.  Right-click the `TableAdapter` that you want to add code to, and then select**View Code**.  
   

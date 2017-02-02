@@ -65,7 +65,7 @@ translation.priority.ht:
   
 -   Data access components and logic, such as the following:  
   
-    -   [TableAdapters](tableadapter-overview.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
+    -   [TableAdapters](create-and-configure-tableadapters.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
     -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
