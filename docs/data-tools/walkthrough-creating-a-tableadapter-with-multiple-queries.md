@@ -178,9 +178,9 @@ In this walkthrough, you will create a TableAdapter in a dataset using the [Data
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md)   
  [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)

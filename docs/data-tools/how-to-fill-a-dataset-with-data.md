@@ -45,7 +45,7 @@ The phrase "filling a dataset with data" refers to loading data into the individ
  Whether you should use TableAdapters or data adapters depends on how you created the dataset. If you used the design tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png), your dataset contains TableAdapters. For more information on TableAdapters, see [TableAdapter Overview](../data-tools/tableadapter-overview.md). If you created your dataset programmatically, you will typically need to create data adapters to load data into the data tables.  
   
 > [!NOTE]
->  When dragging items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form, the code to fill the data table with data is automatically added to the `Form_Load` event handler. Open your form in the code editor to see the exact syntax to fill your specific tables. If you do not want to fill the table when the form loads, you can move this code to some other method, or remove it entirely.  
+>  When dragging items from the [Data Sources Window](add-new-data-sources.md) onto a form, the code to fill the data table with data is automatically added to the `Form_Load` event handler. Open your form in the code editor to see the exact syntax to fill your specific tables. If you do not want to fill the table when the form loads, you can move this code to some other method, or remove it entirely.  
   
 ## Filling a Dataset Using a TableAdapter  
  You can call a query on the TableAdapter to load data into data tables in a dataset. Pass the <xref:System.Data.DataTable> you want to fill to the TableAdapter query. If your query takes parameters, pass those to the method as well. If the dataset contains multiple tables, you should have separate TableAdapters for each table and must therefore fill each table separately.  
@@ -82,8 +82,8 @@ The phrase "filling a dataset with data" refers to loading data into the individ
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)

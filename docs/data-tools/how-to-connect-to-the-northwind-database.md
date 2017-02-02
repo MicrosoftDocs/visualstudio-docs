@@ -113,4 +113,4 @@ As you learn how to create database applications by using Visual Studio, you'll 
 ## See Also  
  [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md)   
  [Data Programming with Microsoft Access 2010](http://msdn.microsoft.com/library/office/ff965871.aspx)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)

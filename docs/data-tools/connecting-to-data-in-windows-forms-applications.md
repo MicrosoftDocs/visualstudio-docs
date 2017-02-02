@@ -57,7 +57,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Connecting to Data in Windows Forms Applications
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides tools to connect your application to data from many different sources, such as databases, web services, and objects. If you are using data design tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you often do not need to explicitly create a connection object for your form or component. The connection object is typically created as a result of completing one of the data wizards or of dragging data objects onto your form. To connect your application to data in a database, web service, or object, run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) by selecting **Add New Data Source** from the [Data Sources Window](../Topic/Data%20Sources%20Window.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides tools to connect your application to data from many different sources, such as databases, web services, and objects. If you are using data design tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you often do not need to explicitly create a connection object for your form or component. The connection object is typically created as a result of completing one of the data wizards or of dragging data objects onto your form. To connect your application to data in a database, web service, or object, run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) by selecting **Add New Data Source** from the [Data Sources Window](add-new-data-sources.md).  
   
  The following diagram shows the standard flow of operations when connecting to data by executing a TableAdapter query to fetch data and display it on a form in a Windows application.  
   
@@ -71,14 +71,12 @@ translation.priority.ht:
 ## Walkthroughs for Connecting Windows Forms Applications to Data  
  The following walkthroughs provide procedures related to connecting to data in Windows Forms applications:  
   
--   [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)  
+-   [Connecting to Data in Windows Forms Applications](connecting-to-data-in-windows-forms-applications.md)  
   
 -   [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)  
   
--   [Walkthrough: Connecting to Data in a Web Service (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Web%20Service%20\(Windows%20Forms\).md)  
-  
--   [Walkthrough: Connecting to Data in Objects (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20Objects%20\(Windows%20Forms\).md)  
-  
+-   [Walkthrough: Creating a Simple Web Service (Windows Forms)](walkthrough-creating-a-simple-wcf-service-in-windows-forms.md)  
+   
 -   [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database-windows-forms.md)  
   
 ## Creating Connections  
@@ -89,13 +87,13 @@ translation.priority.ht:
 |Action|Description|  
 |------------|-----------------|  
 |Run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).|Connections are configured when the database path is chosen in the **Data Source Configuration Wizard**. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).|  
-|Run the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md).|Connections are created within the **TableAdapter Configuration Wizard**. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).|  
+|Run the `TableAdapter Configuration Wizard`.|Connections are created within the **TableAdapter Configuration Wizard**. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).|  
 |Run the [Editing TableAdapters](../data-tools/editing-tableadapters.md).|Connections are created within the **TableAdapter Query Configuration Wizard**. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).|  
-|Drag items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form or the [Component Designer](http://msdn.microsoft.com/Library/61a3a450-5b15-465e-bd9a-72a6c8c2b282).|Connection objects are created when you drag items from the **Data Sources** window onto the **Windows Forms Designer** or **Component Designer**. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).|  
+|Drag items from the [Data Sources Window](add-new-data-sources.md) onto a form or the [Component Designer](http://msdn.microsoft.com/Library/61a3a450-5b15-465e-bd9a-72a6c8c2b282).|Connection objects are created when you drag items from the **Data Sources** window onto the **Windows Forms Designer** or **Component Designer**. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).|  
 |Add new data connections to [Server Explorer/Database Explorer](http://msdn.microsoft.com/Library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d).|Data connections in **Server Explorer/Database Explorer** appear in the list of available connections within the data wizards|  
   
 ## Connection Strings  
- Connection strings can be stored within your compiled application or in the application configuration file. For more information, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
+ Connection strings can be stored within your compiled application or in the application configuration file. For more information, see [Add New Connections](add-new-connections.md).  
   
 ## Connection Information and Security  
  Because opening a connection involves getting access to an important resource—a database—there are often security issues involved in configuring and working with a connection.  
@@ -127,11 +125,11 @@ translation.priority.ht:
 ## See Also  
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)   
+ [Walkthrough: Connecting to Data in a Database (Windows Forms)](connecting-to-data-in-windows-forms-applications.md)   
  [ASP.NET Data Access Content Map](http://msdn.microsoft.com/en-us/f9219396-a0fa-481f-894d-e3d9c67d64f2)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)

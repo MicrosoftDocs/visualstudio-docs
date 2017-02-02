@@ -56,7 +56,7 @@ You can display data to users of your application by binding data to controls. Y
   
  1. Generate the model using the **Entity Data Model** wizard, then drag those objects to the designer.  
   
- 2. LINQ to SQL classes do not appear in the **Data Sources** window. However, you can add a new object data source that is based on LINQ to SQL classes, and then drag those objects to the designer to create data-bound controls. For more information, see [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md).  
+ 2. LINQ to SQL classes do not appear in the **Data Sources** window. However, you can add a new object data source that is based on LINQ to SQL classes, and then drag those objects to the designer to create data-bound controls. For more information, see [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md).  
   
 ## Data Sources window  
  Data sources are available to your project as items in the **Data Sources** window. This window is visible, or is accessible from the **View** menu, when a form design surface is the active window in your project. You can drag items from this window to create controls that are bound to the underlying data, and you can also configure the data sources by right-clicking.  

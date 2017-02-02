@@ -63,7 +63,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 -   Create a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
--   Set the **Customers** table in the [Data Sources Window](../Topic/Data%20Sources%20Window.md) to use the new complex control.  
+-   Set the **Customers** table in the [Data Sources Window](add-new-data-sources.md) to use the new complex control.  
   
 -   Add the new control by dragging it from the **Data Sources Window** onto **Form1**.  
   

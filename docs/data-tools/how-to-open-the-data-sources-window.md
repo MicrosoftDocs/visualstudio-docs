@@ -49,7 +49,7 @@ The **Data Sources** window displays the data sources in your project. You use t
     >  You can add a data source to a project only if it supports creating and working with data sources. For example, you can't open the **Data Sources** window in a project for a Windows Store app.  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   

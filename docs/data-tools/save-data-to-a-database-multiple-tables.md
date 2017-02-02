@@ -51,7 +51,7 @@ One of the most common scenarios in application development is to display data o
   
 -   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
--   Setting the controls of the items in the [Data Sources Window](../Topic/Data%20Sources%20Window.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+-   Setting the controls of the items in the [Data Sources Window](add-new-data-sources.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
 -   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
@@ -163,7 +163,7 @@ One of the most common scenarios in application development is to display data o
   
 -   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
   
--   Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](../Topic/How%20to:%20Edit%20a%20Dataset.md).  
+-   Editing the data source to add or remove database objects. 
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

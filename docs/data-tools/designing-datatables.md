@@ -75,13 +75,13 @@ translation.priority.ht:
  [DataTables](http://msdn.microsoft.com/Library/52ff0e32-3e5a-41de-9a3b-7b04ea52b83e)  
  Describes how to create and customize `DataTable` objects.  
   
- [TableAdapters](../Topic/TableAdapters.md)  
+ [TableAdapters](tableadapter-overview.md)  
  Provides links to topics that explain how to create and edit TableAdapters with design time tools.  
   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)  
  Provides links to topics that explain the different ways to connect to data in Visual Studio.  
   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)  
+   
  Provides links to topics explaining what datasets are, how to create new datasets, and how to create and edit the individual objects they are made of.  
   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)  
@@ -93,7 +93,7 @@ translation.priority.ht:
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)  
  Provides links to topics that explain working with the data in a dataset.  
   
- [Validating Data](../Topic/Validating%20Data.md)  
+ [Validating Data](validate-data-in-datasets.md)  
  Provides links to topics explaining where to put code to validate data.  
   
  [Saving Data](../data-tools/saving-data.md)  

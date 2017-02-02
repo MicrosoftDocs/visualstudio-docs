@@ -52,13 +52,13 @@ translation.priority.mt:
   
 ### To add a global query to a dataset  
   
-1.  Open a dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open a dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Drag a **Query** from the **DataSet** tab of the **Toolbox** onto an empty area of the **Dataset Designer**.  
   
      The [Editing TableAdapters](../data-tools/editing-tableadapters.md) opens.  
   
-3.  Choose a connection for the query to use. You can either choose one from the list or create a new connection. If you create a new connection, you will have the option to save it to the application configuration file. For more information, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
+3.  Choose a connection for the query to use. You can either choose one from the list or create a new connection. If you create a new connection, you will have the option to save it to the application configuration file. For more information, see [Add New Connections](add-new-connections.md).  
   
 4.  Choose whether to use SQL statements or stored procedures.  
   
@@ -79,6 +79,6 @@ translation.priority.mt:
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [How to: Navigate Data with the Windows Forms BindingNavigator Control](http://msdn.microsoft.com/Library/0e5d4f34-bc9b-47cf-9b8d-93acbb1f1dbb)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)

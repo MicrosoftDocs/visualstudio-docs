@@ -93,7 +93,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 #### To create a relationship between two data tables  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Drag a **Relation** object from the **DataSet** toolbox onto the child data table in the relationship.  
   
@@ -117,6 +117,6 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 #### To display a relation name in the Dataset Designer  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.

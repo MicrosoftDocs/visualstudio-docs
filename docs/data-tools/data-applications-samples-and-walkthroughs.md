@@ -50,4 +50,4 @@ This section contains sample applications, example code, and step-by-step walkth
 |Title|Description|  
 |-----------|-----------------|  
 |[Data Applications Samples](../data-tools/data-applications-samples.md)|Provides links to data samples.|  
-|[Data Walkthroughs](../Topic/Data%20Walkthroughs.md)|Lists step-by-step guides that provide an introduction to working with data tools.|
+|[Data Walkthroughs](data-applications-samples-and-walkthroughs.md)|Lists step-by-step guides that provide an introduction to working with data tools.|

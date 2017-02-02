@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create Data Tables
-Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets are made up of <xref:System.Data.DataTable> objects.) You typically create new data tables with TableAdapters using the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md) or by dragging database objects from **Server Explorer** onto the **Dataset Designer**.  
+Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets are made up of <xref:System.Data.DataTable> objects.) You typically create new data tables with TableAdapters using the [TableAdapter Configuration Wizard](how-to-start-the-tableadapter-configuration-wizard.md) or by dragging database objects from **Server Explorer** onto the **Dataset Designer**.  
   
  Data tables are created as a byproduct when you create new TableAdapters in the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) as well, but they can also be created independently. You create a standalone data table by dragging a <xref:System.Data.DataTable> object from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
@@ -54,13 +54,13 @@ Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets 
   
 #### To create a new data table with TableAdapter  
   
-1.  Open your dataset in the **Dataset Designer**. For information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Drag a **TableAdapter** from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
      The **TableAdapter Configuration Wizard** opens.  
   
-3.  Complete the wizard. For more information, see [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md)  
+3.  Complete the wizard. For more information, see [TableAdapter Configuration Wizard](how-to-start-the-tableadapter-configuration-wizard.md)  
   
 #### To create a new data table with a TableAdapter from Server Explorer  
   
@@ -81,11 +81,11 @@ Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets 
   
 ## See Also  
  <xref:System.Data.DataTable>   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
- [Data Sources Window](../Topic/Data%20Sources%20Window.md)   
+ [Data Sources Window](add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Validating Data](../Topic/Validating%20Data.md)
+ [Validating Data](validate-data-in-datasets.md)

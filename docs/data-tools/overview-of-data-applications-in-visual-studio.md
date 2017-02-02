@@ -69,7 +69,7 @@ This section provides information and preparatory instructions for working with 
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)  
  Describes how to create connections to databases, Web services, and objects from your application.  
   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)  
+   
  Explains what typed datasets are and how to create and edit the individual objects that make up typed datasets.  
   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)  
@@ -81,7 +81,7 @@ This section provides information and preparatory instructions for working with 
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)  
  Discusses how to manipulate data before sending it back to the data source or to another process or application.  
   
- [Validating Data](../Topic/Validating%20Data.md)  
+ [Validating Data](validate-data-in-datasets.md)  
  Provides links to topics describing how to add validation to datasets.  
   
  [Saving Data](../data-tools/saving-data.md)  

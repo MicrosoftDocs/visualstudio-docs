@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Customize Control Binding Dialog Box
-Use the **Customize Control Binding** dialog box to specify which controls are available for items in the [Data Sources Window](../Topic/Data%20Sources%20Window.md).  
+Use the **Customize Control Binding** dialog box to specify which controls are available for items in the [Data Sources Window](add-new-data-sources.md).  
   
  Each item in the **Data Sources** window has an associated list of controls that can be bound to the item. The controls available for each item are determined by the data type of the item. Each data type has a list of valid associated controls defined in this dialog box, including a default control.  
   
@@ -67,7 +67,7 @@ Use the **Customize Control Binding** dialog box to specify which controls are a
  Removes the designation of a control as the default for the selected data type. If there is no default for the selected data type, **[None]** appears as the first selection in the shortcut menu presented by the **Data Sources** window for an item of the associated type.  
   
 ## See Also  
- [Data Sources Window](../Topic/Data%20Sources%20Window.md)   
+ [Data Sources Window](add-new-data-sources.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md)   

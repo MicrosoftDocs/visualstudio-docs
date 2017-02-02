@@ -235,7 +235,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-vb[Data_WPFDATASET#4](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_4.vb)]  
   
     > [!NOTE]
-    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapterManager Overview](tableadapter-overview.md).  
   
 ## Test the application  
  Build and run the application. Verify that you can view and update product records.  

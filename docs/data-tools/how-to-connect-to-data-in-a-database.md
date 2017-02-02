@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Connect to Data in a Database
-You can use Visual Studio to connect your application to a database. After creating the data connection, Visual Studio generates a data model that your application uses to interact with the data in the database. The objects in the data model appear in the [Data Sources Window](../Topic/Data%20Sources%20Window.md). You can then create data-bound controls by dragging items from the **Data Sources Window** to a design surface. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
+You can use Visual Studio to connect your application to a database. After creating the data connection, Visual Studio generates a data model that your application uses to interact with the data in the database. The objects in the data model appear in the [Data Sources Window](add-new-data-sources.md). You can then create data-bound controls by dragging items from the **Data Sources Window** to a design surface. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   
  This topic provides instructions for connecting to a database and creating the following types of data models:  
   
@@ -73,7 +73,7 @@ You can use Visual Studio to connect your application to a database. After creat
   
      If your desired data connection is not available, create a new connection by following the steps in [Creating a New Database Connection](#CreatingDataConnection).  
   
-6.  On the **Save the Connection String to the Application Configure File** page, optionally clear the **Yes, save the connection as** check box if you want to save the connection string directly in the compiled application. By default, the connection is saved in the application configuration file. For more information, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
+6.  On the **Save the Connection String to the Application Configure File** page, optionally clear the **Yes, save the connection as** check box if you want to save the connection string directly in the compiled application. By default, the connection is saved in the application configuration file. For more information, see [Add New Connections](add-new-connections.md).  
   
 7.  On the **Choose Your Database Objects** page, select the database objects that you will use in your application. You also have the option of replacing the default **DataSet name**.  
   
@@ -137,7 +137,7 @@ You can use Visual Studio to connect your application to a database. After creat
   
 ## See Also  
  [Add new data sources](../data-tools/add-new-data-sources.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
  [Connecting to a Data Source](http://msdn.microsoft.com/Library/9abc3f92-1be3-4e1a-b360-762dc689650e)

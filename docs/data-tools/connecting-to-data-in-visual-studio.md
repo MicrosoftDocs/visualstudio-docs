@@ -47,10 +47,10 @@ translation.priority.ht:
  [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md)  
  Describes how to create a connection between your application and the data returned from a Web service using the **Data Source Configuration Wizard**.  
   
- [How to: Connect to Data in Objects](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md)  
+ [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md)  
  Describes how to databind to property values in objects using the **Data Source Configuration Wizard**.  
   
- [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md)  
+ [How to: Save and Edit Connection Strings](add-new-connections.md)  
  Describes how to save and modify connection information in your application.  
   
  [Connecting to Data in Windows Forms Applications](../data-tools/connecting-to-data-in-windows-forms-applications.md)  

@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Displaying Data on a Windows Form
-One of the most common scenarios in application development is to display data on a form in a Windows-based application. You can display data on a form by dragging items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto the form. This walkthrough creates a simple form that displays data from a single table in several individual controls. This example uses the `Customers` table from the Northwind sample database.  
+One of the most common scenarios in application development is to display data on a form in a Windows-based application. You can display data on a form by dragging items from the [Data Sources Window](add-new-data-sources.md) onto the form. This walkthrough creates a simple form that displays data from a single table in several individual controls. This example uses the `Customers` table from the Northwind sample database.  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -137,7 +137,7 @@ One of the most common scenarios in application development is to display data o
 -   Adding the `Orders` table to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. Then you can add controls that display related data by dragging the **Orders** node (the one below the **Fax** column within the **Customers** table) onto the form. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)

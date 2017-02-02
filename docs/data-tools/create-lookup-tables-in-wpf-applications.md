@@ -53,7 +53,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
     -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).  
   
-    -   Objects. For more information, see [How to: Connect to Data in Objects](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md).  
+    -   Objects. For more information, see [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md).  
   
     > [!NOTE]
     >  Before you can create a lookup table, two related tables or objects must exist as a data source for the project.  

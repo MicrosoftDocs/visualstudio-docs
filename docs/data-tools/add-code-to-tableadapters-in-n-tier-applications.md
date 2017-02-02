@@ -82,7 +82,7 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
 ## See Also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)   
- [TableAdapters](../Topic/TableAdapters.md)   
- [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md)   
- [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md)   
+ [TableAdapters](tableadapter-overview.md)   
+ [TableAdapterManager Overview](tableadapter-overview.md)   
+ [Hierarchical Update Overview](hierarchical-update.md)   
  [Creating Data Applications](../data-tools/creating-data-applications.md)

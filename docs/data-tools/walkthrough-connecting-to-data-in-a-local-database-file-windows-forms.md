@@ -116,9 +116,9 @@ You can quickly and easily display data from a local database file in your appli
  [How to: Manage Local Data Files in Your Project](../data-tools/how-to-manage-local-data-files-in-your-project.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)

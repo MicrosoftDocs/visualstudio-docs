@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Separate datasets and TableAdapters into different projects
-Typed datasets have been enhanced so that the [TableAdapters](../Topic/TableAdapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
+Typed datasets have been enhanced so that the [TableAdapters](tableadapter-overview.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
   
  The following procedure describes the process of using the[Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) to generate dataset code into a project that is separate from the project that contains the generated `TableAdapter` code.  
   

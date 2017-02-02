@@ -141,8 +141,8 @@ In many application scenarios, you want to work with data that comes from more t
 -   Filtering the `Customers` records by adding parameterization to the `Customers` table. To do this, select any control that displays data from the `Customers` table, click the smart tag, and choose **Add Query**. Complete the [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md). For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
- [Data Sources Window](../Topic/Data%20Sources%20Window.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
+ [Data Sources Window](add-new-data-sources.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   

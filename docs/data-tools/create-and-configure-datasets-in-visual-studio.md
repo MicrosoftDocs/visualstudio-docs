@@ -99,6 +99,6 @@ A *dataset* is a set of objects that store data from a database in memory and su
   
 2.  Drag a <xref:System.Data.DataTable> class from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
-3.  Add columns to define your data table. For more information, see [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md).  
+3.  Add columns to define your data table. For more information, see [Designing DataTables](designing-datatables.md).  
   
 4.  Stand-alone tables need to Implement `Fill` logic in stand-alone tables so that you can fill them with data. For information on filling stand-alone data tables, see [Populating a DataSet from a DataAdapter](http://msdn.microsoft.com/Library/3fa0ac7d-e266-4954-bfac-3fbe2f913153).

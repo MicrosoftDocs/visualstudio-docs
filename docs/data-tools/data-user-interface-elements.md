@@ -83,9 +83,6 @@ This section contains information about all the dialog boxes and wizards that yo
  [Choose Key Dialog Box](http://msdn.microsoft.com/en-us/4ddbfbb7-a80a-412a-b80d-291d86376ca3)  
  Allows you select a key when a column participates in a multi-key constraint.  
   
- [Collection Editors](../Topic/Collection%20Editors.md)  
- Provides links to topics about different collection editors that allow you to create and edit individual members of a collection.  
-  
  [Connections Missing](http://msdn.microsoft.com/en-us/bb9b2e12-7f76-4ee5-acbb-5d20116ee044)  
  Informs you when a dataset contains a reference to a connection string that is not in application settings.  
   
@@ -128,9 +125,6 @@ This section contains information about all the dialog boxes and wizards that yo
  [Relation Dialog Box](http://msdn.microsoft.com/en-us/ab8f4b0e-af4c-4725-a550-e2b2ebe43a02)  
  Allows you to create a relationship (a **DataRelation** object) that maintains information about parent-child records in two data tables in a dataset.  
   
- [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md)  
- Allows you to create a parameterized query on a data-bound Windows Form, and automatically add the controls required to run the query.  
-  
  [Table Mappings Dialog Box](http://msdn.microsoft.com/en-us/fb4cec1e-f3c8-4773-b409-c2de15293fea)  
  Allows you to specify which columns in a database table or other data source are equivalent to columns in a dataset table.  
   
@@ -144,9 +138,9 @@ This section contains information about all the dialog boxes and wizards that yo
 ## See Also  
  [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)

@@ -44,7 +44,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Display Related Data in a Windows Forms Application
-You can display related data by dragging items that share the same main table node from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto your form. For example, if you have a data source that has a `Customers` table and a related `Orders` table, you would see both tables as top-level nodes (in the tree view) in the **Data Sources** window. Expand the `Customers` node so that you can see the columns, and you will notice that the last column in the list is an expandable node representing the `Orders` table. This node represents the related orders for a customer. This means that if you want to create a form that allows you to select a customer and then display a list of orders for that customer, you would drag the items you want to display from this single hierarchy.  
+You can display related data by dragging items that share the same main table node from the [Data Sources Window](add-new-data-sources.md) onto your form. For example, if you have a data source that has a `Customers` table and a related `Orders` table, you would see both tables as top-level nodes (in the tree view) in the **Data Sources** window. Expand the `Customers` node so that you can see the columns, and you will notice that the last column in the list is an expandable node representing the `Orders` table. This node represents the related orders for a customer. This means that if you want to create a form that allows you to select a customer and then display a list of orders for that customer, you would drag the items you want to display from this single hierarchy.  
   
  ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")  
 Creating data-bound controls that display related records  
@@ -67,11 +67,11 @@ Creating data-bound controls that display related records
     >  Dragging an item from a top-level nodes creates a separate unrelated [BindingSource Component](http://msdn.microsoft.com/Library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9) that does not facilitate navigating the related records. To bind related data you must select the tables from the same hierarchical node.  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [How to: Navigate Data with the Windows Forms BindingNavigator Control](http://msdn.microsoft.com/Library/0e5d4f34-bc9b-47cf-9b8d-93acbb1f1dbb)

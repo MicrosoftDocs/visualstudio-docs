@@ -45,13 +45,13 @@ translation.priority.mt:
 You edit TableAdapter queries with the [Editing TableAdapters](../data-tools/editing-tableadapters.md) in the **Dataset Designer**. You should modify a TableAdapter query when it no longer suits the needs of your application. (Alternatively, you can create additional queries on the TableAdapter. For more information on adding new queries, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).)  
   
 > [!NOTE]
->  If the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md) opens instead of the **TableAdapter Query Configuration Wizard**, you might have selected the TableAdapter's main `Fill` query and not one of the TableAdapter's additional queries. For information on editing the TableAdapter's main `Fill` query, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  
+>  If the [TableAdapter Configuration Wizard](how-to-start-the-tableadapter-configuration-wizard.md) opens instead of the **TableAdapter Query Configuration Wizard**, you might have selected the TableAdapter's main `Fill` query and not one of the TableAdapter's additional queries. For information on editing the TableAdapter's main `Fill` query, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  
   
  ![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif "TableAdapter")  
   
 ### To edit a TableAdapter query  
   
-1.  Open the dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open the dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Select the TableAdapter query you want to edit.  
   
@@ -62,12 +62,12 @@ You edit TableAdapter queries with the [Editing TableAdapters](../data-tools/edi
 4.  Complete the **TableAdapter Query Configuration Wizard** with the changes that you want. For more information, see [Editing TableAdapters](../data-tools/editing-tableadapters.md).  
   
 ## See Also  
- [TableAdapters](../Topic/TableAdapters.md)   
+ [TableAdapters](tableadapter-overview.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)

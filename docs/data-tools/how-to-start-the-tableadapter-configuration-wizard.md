@@ -41,7 +41,7 @@ The **TableAdapter Configuration Wizard** creates and edits TableAdapters in str
   
 ### To start the TableAdapter Configuration wizard to create a new TableAdapter  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
     > [!NOTE]
     >  If you do not have a dataset in your project, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
@@ -52,20 +52,20 @@ The **TableAdapter Configuration Wizard** creates and edits TableAdapters in str
   
 ### To start the TableAdapter Configuration wizard to edit an existing TableAdapter  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Right-click the TableAdapter in the **Dataset Designer** and choose **Configure**. The wizard opens to the **Generate the SQL statements** page or the **Bind Commands to Existing Stored Procedures** page, depending on how the TableAdapter was originally configured.  
   
 3.  Complete the wizard.  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [How to: Sort and Filter ADO.NET Data with the Windows Forms BindingSource Component](http://msdn.microsoft.com/Library/6c206daf-d706-4602-9dbe-435343052063)   
  [How to: Create a Lookup Table with the Windows Forms BindingSource Component](http://msdn.microsoft.com/Library/622fce80-879d-44be-abbf-8350ec22ca2b)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)

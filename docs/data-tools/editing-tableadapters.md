@@ -89,7 +89,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
 ## Save the Connection String to the Application Configuration File  
  Choose **Yes, save the connection as** to store the connection string in the application configuration file. Type a name for the connection or use the provided default name.  
   
- Saving connection strings in the application configuration file simplifies the process of maintaining your application if the database connection changes. In the event of a change in the database connection, you can edit the connection string in the application configuration file. That way, you do not have to edit the source code and recompile your application. For information on editing a connection string in the application configuration file, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
+ Saving connection strings in the application configuration file simplifies the process of maintaining your application if the database connection changes. In the event of a change in the database connection, you can edit the connection string in the application configuration file. That way, you do not have to edit the source code and recompile your application. For information on editing a connection string in the application configuration file, see [Add New Connections](add-new-connections.md).  
   
 > [!IMPORTANT]
 >  Information is stored in the application configuration file as plain text. To reduce the possibility of unauthorized access to sensitive information, you may want to encrypt your data. For more information, see [Encrypting and Decrypting Data](http://msdn.microsoft.com/en-us/22812ae8-e082-4eb1-a29b-21b6ee00c6b5).  
@@ -175,13 +175,13 @@ Sometimes you might want to change the schema of the adapter's table. To do this
 ## See Also  
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](data-applications-samples-and-walkthroughs.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+    
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)
