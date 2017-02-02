@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Refactoring features for C#
+# Refactoring features for C# #
 Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  The following refactoring features are available in Visual Studio for C#:
   
 * [Change Method Signature](refactoring/change-method-signature.md)
