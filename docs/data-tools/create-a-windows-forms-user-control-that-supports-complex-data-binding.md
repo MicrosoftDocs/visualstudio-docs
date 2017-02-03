@@ -70,7 +70,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  

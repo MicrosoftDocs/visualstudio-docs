@@ -48,7 +48,7 @@ translation.priority.mt:
   
  Typed datasets have been enhanced so that the TableAdapters and dataset classes can be generated into discrete projects. This provides the ability to quickly separate application layers and generate n-tier data applications.  
   
- N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md). When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
+ N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the **Dataset Designer**. When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
   
 ## In This Section  
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
@@ -80,6 +80,6 @@ translation.priority.mt:
   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
   
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)  
+ [Create and Configure TableAdapters](create-and-configure-tableadapters.md)   
   
  [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
