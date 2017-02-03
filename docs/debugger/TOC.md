@@ -234,7 +234,7 @@
 ### [How to: Debug Native DLLs](how-to-debug-native-dlls.md)
 ### [How to: Debug Injected Code](how-to-debug-injected-code.md)
 ## [Debugging GPU Code](debugging-gpu-code.md)
-## [Visual Studio Graphics Diagnostis](graphics/TOC.md)
+## [Graphics Diagnostics](graphics/TOC.md)
 ## [Debugging Web Applications and Script](debugging-web-applications-and-script.md)
 ### [Debugging ASP.NET and AJAX Applications](debugging-aspnet-and-ajax-applications.md)
 #### [Preparing to Debug ASP.NET](preparing-to-debug-aspnet.md)
