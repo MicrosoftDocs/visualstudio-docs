@@ -36,10 +36,10 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
   
  This is the Event List:  
   
- ![A list of events that have "Index" in their name.](../../debugger/media/gfx_diag_demo_event_list_orientation.png "gfx_diag_demo_event_list_orientation")  
+ ![A list of events that have "Index" in their name.](media/gfx_diag_demo_event_list_orientation.png "gfx_diag_demo_event_list_orientation")  
   
 ## Using the event list  
- When you select an event in the event list, it's reflected in the information that's displayed by other Graphics Analysis tools; by using the event list in concert with these other tools you can examine a rendering problem in detail to determine its cause. To learn more about how you can solve rendering problems by using the event list together with other Graphics Analysis tools, see [Examples](../../debugger/graphics-diagnostics-examples.md).  
+ When you select an event in the event list, it's reflected in the information that's displayed by other Graphics Analysis tools; by using the event list in concert with these other tools you can examine a rendering problem in detail to determine its cause. To learn more about how you can solve rendering problems by using the event list together with other Graphics Analysis tools, see [Examples](graphics-diagnostics-examples.md).  
   
  Using the features of the event list effectively is important for getting around complex frames that might contain thousands of events. To use the event list effectively, choose the view works best for you, use search to filter the event list, follow links to learn more about the Direct3D objects that are associated with an event, and use the arrow buttons to move between draw calls quickly.  
   
@@ -82,9 +82,9 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
 |Icon|Event description|  
 |----------|-----------------------|  
 |(no icon)|General event<br /> Any event which is not a user-defined event, user-defined event group, or draw event.|  
-|![The draw event icon](../../debugger/media/vsg_eventlist_icon_draw.png "vsg_eventlist_icon_draw")|Draw event<br /> Marks a draw event that occurred during the captured frame.|  
-|![The user&#45;defined event marker icon](../../debugger/media/vsg_eventlist_icon_user.png "vsg_eventlist_icon_user")|User-defined event group<br /> Groups related events, as defined by the app.|  
-|![The user&#45;defined event marker icon](../../debugger/media/vsg_eventlist_icon_user.png "vsg_eventlist_icon_user")|User-defined event marker<br /> Marks a specific location, as defined by the app.|  
+|![The draw event icon](media/vsg_eventlist_icon_draw.png "vsg_eventlist_icon_draw")|Draw event<br /> Marks a draw event that occurred during the captured frame.|  
+|![The user&#45;defined event marker icon](media/vsg_eventlist_icon_user.png "vsg_eventlist_icon_user")|User-defined event group<br /> Groups related events, as defined by the app.|  
+|![The user&#45;defined event marker icon](media/vsg_eventlist_icon_user.png "vsg_eventlist_icon_user")|User-defined event marker<br /> Marks a specific location, as defined by the app.|  
   
 ## Marking user-defined events in your app  
  User-defined events are specific to your app. You can use them to correlate significant events that occur in your app with events in the Graphics Event List. For example, you can create user-defined event groups to organize related events—such as those that render your user interface—into groups or hierarchies so that you can browse the event list more easily, or you can create markers when a certain kinds of objects are drawn so that you can easily find their graphics events in the event list.  
@@ -113,4 +113,4 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  You can use any of these APIs that your version of Direct3D supports—for example, if you are targeting the Direct3D 11.1 API, you can use either `SetMarker` or `D3DPerf_SetMarker` to create an event marker, but not `SetMarkerInt` because its only available in Direct3D 11.2—and you can even mix those that support different versions of Direct3D together in the same app.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../../debugger/walkthrough-missing-objects-due-to-device-state.md)
+ [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

@@ -37,7 +37,7 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
   
  This is the Object Table:  
   
- ![Direct3D objects that have been created by an app.](../../debugger/media/gfx_diag_demo_object_table_orientation.png "gfx_diag_demo_object_table_orientation")  
+ ![Direct3D objects that have been created by an app.](media/gfx_diag_demo_object_table_orientation.png "gfx_diag_demo_object_table_orientation")  
   
 ## Understanding the Graphics Object Table  
  By using the Object Table, you can analyze the Direct3D objects that support the rendering of a particular frame. You can pinpoint a rendering problem to a specific object by examining its properties and data (by using other Graphics Diagnostics tools earlier in your diagnosis, you can narrow the list of objects that might not be what you expect.) When you've found the offending object, you can use a visualization that's specific to its type to examine it—for example, you can use the Image Editor to view textures, or the *Buffer Visualizer* to view buffer contents.  
@@ -67,7 +67,7 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
   
  Here's the texture viewer showing the contents of the Output Merger pipeline stage.  
   
- ![The texture preview displaying the output merger](../../debugger/media/gfx_diag_texture_preview.png "gfx_diag_texture_preview")  
+ ![The texture preview displaying the output merger](media/gfx_diag_texture_preview.png "gfx_diag_texture_preview")  
   
 ### D3D12 Command List  
  In Direct3D 12 a command list is an object that records commands into a command allocator so that they can be submitted to the GPU as a single request. Command lists usually perform a series of state-setting, draw, clear and copy commands. They're particularly important because they're the preferred method of rendering in Direct3D 12, and can be re-used between frames to help increase performance. Command List details are displayed in a new document window, with information related to each pipeline stage presented on its own tab.  
@@ -121,5 +121,5 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 |**bool**|A Boolean (`true` or `false`) value. Each Boolean value is represented by a 32-bit value.|  
   
 ## See Also  
- [Graphics Diagnostics (Debugging DirectX Graphics)](../../debugger/visual-studio-graphics-diagnostics.md)   
- [Walkthrough: Missing Objects Due to Device State](../../debugger/walkthrough-missing-objects-due-to-device-state.md)
+ [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
+ [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

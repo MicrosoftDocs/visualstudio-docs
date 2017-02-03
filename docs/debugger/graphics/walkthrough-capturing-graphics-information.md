@@ -59,18 +59,18 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
   
 #### To capture graphics information  
   
--   On the Graphics Diagnostics toolbar, choose the **Capture** button. ![Graphics capture button icon](../../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")  
+-   On the Graphics Diagnostics toolbar, choose the **Capture** button. ![Graphics capture button icon](media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")  
   
      -or-  
   
      With the app in focus, press **Print Screen**.  
   
- Each time you capture information about a frame, Graphics Diagnostics records the Direct3D events and associated state and adds that data to a graphics log. A new graphics log is created for each Graphics Diagnostics session. For information about graphics logs, see [Overview](../../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
+ Each time you capture information about a frame, Graphics Diagnostics records the Direct3D events and associated state and adds that data to a graphics log. A new graphics log is created for each Graphics Diagnostics session. For information about graphics logs, see [Overview](overview-of-visual-studio-graphics-diagnostics.md).  
   
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information manually. As a next step, consider this option:  
   
--   Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](../../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
+-   Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).  
   
 ## See Also  
- [Capturing Graphics Information](../../debugger/capturing-graphics-information.md)
+ [Capturing Graphics Information](capturing-graphics-information.md)

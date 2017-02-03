@@ -35,7 +35,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
  This is the Pixel History window:  
   
- ![A pixel with three Direct3D events in its history.](../../debugger/media/gfx_diag_demo_pixel_history_orientation.png "gfx_diag_demo_pixel_history_orientation")  
+ ![A pixel with three Direct3D events in its history.](media/gfx_diag_demo_pixel_history_orientation.png "gfx_diag_demo_pixel_history_orientation")  
   
 ## Understanding the Pixel History window  
  By using Pixel History, you can analyze how a specific pixel of the render target is affected by Direct3D events during a frame. You can pinpoint a rendering problem to a specific Direct3D event, even when subsequent events—or subsequent primitives in the same event—continue to change the pixel's final color value. For example, a pixel might be rendered incorrectly and then obscured by another, semi-transparent pixel so that their colors are blended together in the framebuffer. This kind of problem would be difficult to diagnose if you only had the final contents of the render target to guide you.  
@@ -53,9 +53,9 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
 |Icon|Reason for exclusion|  
 |----------|--------------------------|  
-|![Depth test failure icon.](../../debugger/media/vsg_hist_icon_failed_depth.png "vsg_hist_icon_failed_depth")|The pixel was excluded because it failed the depth test.|  
-|![Scissor test failure icon.](../../debugger/media/vsg_hist_icon_failed_scissor.png "vsg_hist_icon_failed_scissor")|The pixel was excluded because it failed the scissor test.|  
-|![Stencil test failure icon.](../../debugger/media/vsg_hist_icon_failed_stencil.png "vsg_hist_icon_failed_stencil")|The pixel was excluded because it failed the stencil test.|  
+|![Depth test failure icon.](media/vsg_hist_icon_failed_depth.png "vsg_hist_icon_failed_depth")|The pixel was excluded because it failed the depth test.|  
+|![Scissor test failure icon.](media/vsg_hist_icon_failed_scissor.png "vsg_hist_icon_failed_scissor")|The pixel was excluded because it failed the scissor test.|  
+|![Stencil test failure icon.](media/vsg_hist_icon_failed_stencil.png "vsg_hist_icon_failed_stencil")|The pixel was excluded because it failed the stencil test.|  
   
 ### Draw Call Exclusion  
  If all of the primitives in a draw call are excluded from affecting the render target because they fail a test, then the draw call cannot be expanded and an icon that corresponds to the reason for exclusion is displayed next to it. The reasons for draw-call exclusion resemble the reasons for primitive exclusion, and their icons are similar.  
@@ -88,5 +88,5 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
  To understand the graphics events in the pixel history, you might need information about the device state at the time of the event or about the Direct3D objects that are referenced by the event. For each event in the pixel history, the **Graphics Pixel History** provides links to the then-current device state and to related objects.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../../debugger/walkthrough-missing-objects-due-to-device-state.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

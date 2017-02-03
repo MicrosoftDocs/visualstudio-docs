@@ -48,7 +48,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
 #### To capture a frame  
   
--   In Visual Studio, on the **Graphics** toolbar, choose the **Capture Frame** button![Graphics capture button icon](../../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics").  
+-   In Visual Studio, on the **Graphics** toolbar, choose the **Capture Frame** button![Graphics capture button icon](media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics").  
   
 -   On the keyboard, press Print Screen.  
   
@@ -57,7 +57,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
 -   In the Visual Studio capture interface, chose the **Capture Frame** button located above the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.  
   
-     ![Capture frames using the GPU Usage tool.](../../debugger/media/pix_gpu_usage_tool_capture_frame.png "pix_gpu_usage_tool_capture_frame")  
+     ![Capture frames using the GPU Usage tool.](media/pix_gpu_usage_tool_capture_frame.png "pix_gpu_usage_tool_capture_frame")  
   
      When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame …** link above the image thumbnails, or by double-clicking the thumbnail.  
   
@@ -87,14 +87,14 @@ Capture graphics information from your Direct3D app so that you can use Visual S
      Check this box to halt capture immediately if errors are encountered.  
   
 ## Capturing graphics information remotely  
- Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](../../debugger/includes/winblue_client_2_md.md)] machines and [!INCLUDE[winblue_winrt_2](../../debugger/includes/winblue_winrt_2_md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
+ Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](includes/winblue_client_2_md.md)] machines and [!INCLUDE[winblue_winrt_2](includes/winblue_winrt_2_md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
   
- How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../../debugger/remote-debugging.md).  
+ How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](remote-debugging.md).  
   
- Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](../../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
+ Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md).  
   
 ## Capturing graphics information from the command line  
- Graphics information can be captured from an app by using a command-line tool. This tool, DXCap.exe, can quickly capture and play back graphics information without using Visual Studio or programmatic capture. In particular, you can use DXCap.exe for automation, or in a test environment. For more information about DXCap.exe, see [Command-Line Capture Tool](../../debugger/command-line-capture-tool.md)  
+ Graphics information can be captured from an app by using a command-line tool. This tool, DXCap.exe, can quickly capture and play back graphics information without using Visual Studio or programmatic capture. In particular, you can use DXCap.exe for automation, or in a test environment. For more information about DXCap.exe, see [Command-Line Capture Tool](command-line-capture-tool.md)  
   
 ## See Also  
- [Walkthrough: Capturing Graphics Information](../../debugger/walkthrough-capturing-graphics-information.md)
+ [Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)

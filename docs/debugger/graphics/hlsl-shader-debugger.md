@@ -35,7 +35,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
   
  This is the HLSL debugger:  
   
- ![Debugging HLSL using watch and call stack windows.](../../debugger/media/gfx_diag_demo_hlsl_debugger_orientation.png "gfx_diag_demo_hlsl_debugger_orientation")  
+ ![Debugging HLSL using watch and call stack windows.](media/gfx_diag_demo_hlsl_debugger_orientation.png "gfx_diag_demo_hlsl_debugger_orientation")  
   
 ## Understanding the HLSL debugger  
  The HLSL debugger can help you understand problems that arise in your shader code. Debugging HLSL code in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] resembles debugging code that's written in other languages—for example, C++, C#, or Visual Basic. You can inspect the contents of variables, set break points, step through code, and walk up the call-stack, just like you can when you debug other languages.  
@@ -83,9 +83,9 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
     > [!NOTE]
     >  This entry point into the HLSL debugger debugs either the pixel shader thread that corresponds to the chosen draw call, primitive, and pixel that you have chosen, or to the vertex shader threads whose results are interpolated by the draw call, primitive, and pixel that you have chosen. In the case of vertex shaders, you can further refine the entry point to a specific vertex by expanding the vertex shader details.  
   
- For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](../../debugger/graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.  
+ For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)   
- [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../../debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)   
+ [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)

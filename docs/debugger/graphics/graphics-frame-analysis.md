@@ -54,7 +54,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 ## Using Frame Analysis  
  Before you can use Frame Analysis, you have to capture graphics information from your app as it runs, just as you would when you use any of the other Graphics Analyzer tools. Then, in the graphics log document (.vsglog) window, choose the **Frame Analysis** tab.  
   
- ![Select the Frame Analysis tab.](../../debugger/media/pix_frame_analysis_select_tab.png "pix_frame_analysis_select_tab")  
+ ![Select the Frame Analysis tab.](media/pix_frame_analysis_select_tab.png "pix_frame_analysis_select_tab")  
   
  After the analysis is complete, the results are displayed. The top part of the frame analysis tab displays the timeline and summary table. The bottom part displays the details tables. If errors or warnings were generated during playback, they are summarized above the timeline; from there, you can follow the links to learn more about the errors and warnings.  
   
@@ -87,14 +87,14 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Timeline  
  The timeline shows an overview of draw-call timings relative to one another. Because larger bars correspond to longer draw times, you can use it to quickly locate the most expensive draw calls in the frame. When the captured frame contains a very large number of draw calls, multiple draw calls are combined into one bar whose length is the sum of those draw calls.  
   
- ![The timeline shows draw&#45;call costs.](../../debugger/media/pix_frame_analysis_timeline.png "pix_frame_analysis_timeline")  
+ ![The timeline shows draw&#45;call costs.](media/pix_frame_analysis_timeline.png "pix_frame_analysis_timeline")  
   
  You can rest the pointer on a bar to see which draw-call event the bar corresponds to. Selecting the bar causes the event list to synchronize to that event.  
   
 #### Table  
  The table of numbers below the timeline shows the relative performance of each rendering variant for each draw call with respect to your app's default rendering. Each column displays a different rendering variant and each row represents a different draw call that's identified in the left-most column; from here you can follow a link to the event in the Graphics Event List window.  
   
- ![The summary table shows different varients.](../../debugger/media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
+ ![The summary table shows different varients.](media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
   
  The second left-most column in the Summary Table displays your app's baseline rendering time—that is, the length of time it takes for your app's default rendering to complete the draw call. The remaining columns show the relative performance of each rendering variant as a percentage of the Baseline so that it's easier to see whether performance is improved. Percentages larger than 100 percent took longer than the Baseline—that is, performance went down—and percentages smaller than 100 percent took less time—performance went up.  
   
@@ -103,12 +103,12 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### "Hot" draw calls  
  To bring attention to draw calls that consume a greater proportion of overall rendering time or that might be unusually slow for reasons that could be avoided, the row that contains these "hot" draw calls is shaded red when its own Baseline timing is more than one standard deviation longer than the mean Baseline timing of all draw calls in the frame.  
   
- ![This DrawIndexed call has hot and cold varients.](../../debugger/media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
+ ![This DrawIndexed call has hot and cold varients.](media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
   
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
   
- ![The statistical relevence of the draw call variant](../../debugger/media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")  
+ ![The statistical relevence of the draw call variant](media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")  
   
  To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).  
   
@@ -118,12 +118,12 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Platforms that do not support hardware counters  
  Most platforms don't fully support hardware GPU counters—these include all GPUs currently offered by Intel, AMD, and nVidia. When there are no hardware counters to collect, only one Details table is displayed and it contains the mean absolute timing of all variants.  
   
- ![The details table and some playback varients.](../../debugger/media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
+ ![The details table and some playback varients.](media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
   
 #### Platforms that support hardware counters  
  For platforms that support hardware GPU counters—for example, the nVidia T40 SOC and all Qualcomm SOCs—several Details tables are displayed, one for each variant. Every available hardware counter is collected for each rendering variant and displayed in its own Details table.  
   
- ![Hardware counters are displayed when supported.](../../debugger/media/pix_frame.png "pix_frame")  
+ ![Hardware counters are displayed when supported.](media/pix_frame.png "pix_frame")  
   
  The hardware counter information provides a very detailed view of specific hardware-platform behavior for each draw call, which can help you identify the cause of performance bottlenecks very precisely.  
   
@@ -197,18 +197,18 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
 |Variant|Description|  
 |-------------|-----------------|  
-|**1x1 Viewport Size**|Reduces the viewport dimensions on all render targets to 1x1 pixels.<br /><br /> For more information, see [1x1 Viewport Size Variant](../../debugger/1x1-viewport-size-variant.md)|  
-|**0x MSAA**|Disables multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../../debugger/0x-2x-4x-msaa-variants.md)|  
-|**2x MSAA**|Enables 2x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../../debugger/0x-2x-4x-msaa-variants.md)|  
-|**4x MSAA**|Enables 4x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](../../debugger/0x-2x-4x-msaa-variants.md)|  
-|**Point Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_POINT` (point texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
-|**Bilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_LINEAR_MIP_POINT` (bilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
-|**Trilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_LINEAR` (trilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
-|**Anisotropic Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_ANISOTROPIC` and `MaxAnisotropy` to `16` (16x anisotropic texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](../../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
-|**16bpp Render Target Format**|Sets the pixel format to `DXGI_FORMAT_B5G6R5_UNORM` (16bpp, 565 format) for all render targets and backbuffers.<br /><br /> For more information, see [16bpp Render Target Format Variant](../../debugger/16bpp-render-target-format-variant.md)|  
-|**Mip-map Generation**|Enables mip-maps on all textures that are not render targets.<br /><br /> For more information, see [Mip-map Generation Variant](../../debugger/mip-map-generation-variant.md).|  
-|**Half Texture Dimensions**|Reduces the texture dimensions on all textures that are not render targets to half of their original size in each dimension. For example, a 256x128 texture is reduced to 128x64 texels.<br /><br /> For more information, see [Half/Quarter Texture Dimensions Variant](../../debugger/half-quarter-texture-dimensions-variant.md).|  
-|**Quarter Texture Dimensions**|Reduces the texture dimensions on all textures that are not render targets to a quarter of their original size in each dimension. For example, a 256x128 texture is reduced to 64x32 texels.<br /><br /> For more information, see [Half/Quarter Texture Dimensions Variant](../../debugger/half-quarter-texture-dimensions-variant.md).|  
-|**BC Texture Compression**|Enables block compression on all textures that have a B8G8R8X8, B8G8R8A8, or R8G8B8A8 pixel format variant. B8G8R8X8 format variants are compressed by using BC1; B8G8R8A8 and R8G8B8A8 format variants are compressed by using BC3.<br /><br /> For more information, see [BC Texture Compression Variant](../../debugger/bc-texture-compression-variant.md).|  
+|**1x1 Viewport Size**|Reduces the viewport dimensions on all render targets to 1x1 pixels.<br /><br /> For more information, see [1x1 Viewport Size Variant](1x1-viewport-size-variant.md)|  
+|**0x MSAA**|Disables multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](0x-2x-4x-msaa-variants.md)|  
+|**2x MSAA**|Enables 2x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](0x-2x-4x-msaa-variants.md)|  
+|**4x MSAA**|Enables 4x multi-sample anti-aliasing (MSAA) on all render targets.<br /><br /> For more information, see [0x/2x/4x MSAA Variants](0x-2x-4x-msaa-variants.md)|  
+|**Point Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_POINT` (point texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Bilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_LINEAR_MIP_POINT` (bilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Trilinear Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_MIN_MAG_MIP_LINEAR` (trilinear texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**Anisotropic Texture Filtering**|Sets the filtering mode to `DXD11_FILTER_ANISOTROPIC` and `MaxAnisotropy` to `16` (16x anisotropic texture filtering) for all appropriate texture samples.<br /><br /> For more information, see [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md).|  
+|**16bpp Render Target Format**|Sets the pixel format to `DXGI_FORMAT_B5G6R5_UNORM` (16bpp, 565 format) for all render targets and backbuffers.<br /><br /> For more information, see [16bpp Render Target Format Variant](16bpp-render-target-format-variant.md)|  
+|**Mip-map Generation**|Enables mip-maps on all textures that are not render targets.<br /><br /> For more information, see [Mip-map Generation Variant](mip-map-generation-variant.md).|  
+|**Half Texture Dimensions**|Reduces the texture dimensions on all textures that are not render targets to half of their original size in each dimension. For example, a 256x128 texture is reduced to 128x64 texels.<br /><br /> For more information, see [Half/Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md).|  
+|**Quarter Texture Dimensions**|Reduces the texture dimensions on all textures that are not render targets to a quarter of their original size in each dimension. For example, a 256x128 texture is reduced to 64x32 texels.<br /><br /> For more information, see [Half/Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md).|  
+|**BC Texture Compression**|Enables block compression on all textures that have a B8G8R8X8, B8G8R8A8, or R8G8B8A8 pixel format variant. B8G8R8X8 format variants are compressed by using BC1; B8G8R8A8 and R8G8B8A8 format variants are compressed by using BC3.<br /><br /> For more information, see [BC Texture Compression Variant](bc-texture-compression-variant.md).|  
   
  The result for most variants is prescriptive: "Reducing texture size by half is 25 percent faster" or "Enabling 2x MSAA is only 2 percent slower". Other variants might require more interpretation—for example, if the variant that changes the viewport dimensions to 1x1 shows a large performance gain, it might indicate that rendering is bottlenecked by a low fill rate; alternatively, if there's no significant change in performance, it might indicate that rendering is bottlenecked by vertex processing.

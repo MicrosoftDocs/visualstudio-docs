@@ -50,7 +50,7 @@ VsgDbg(
  When the constructor is called with `bDefaultInit` set to `false`, the in-app component of graphics diagnostics can be prepared to actively capture and record graphics information at a later time by calling the `Init` function.  
   
 ## See Also  
- [VsgDbg::~VsgDbg (Destructor)](../../debugger/vsgdbg-tilde-vsgdbg-destructor.md)   
- [Init](../../debugger/init.md)   
- [DONT_SAVE_VSGLOG_TO_TEMP](../../debugger/dont-save-vsglog-to-temp.md)   
- [VSG_DEFAULT_RUN_FILENAME](../../debugger/vsg-default-run-filename.md)
+ [VsgDbg::~VsgDbg (Destructor)](vsgdbg-tilde-vsgdbg-destructor.md)   
+ [Init](init.md)   
+ [DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)   
+ [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)

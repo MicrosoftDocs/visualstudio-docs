@@ -37,7 +37,7 @@ The Graphics Log document is the record of graphics events that occurred while y
   
  This is what a graphics log document looks like in the Graphics Analyzer:  
   
- ![A graphics log containing two captured frames.](../../debugger/media/gfx_diag_demo_graphics_log_orientation.png "gfx_diag_demo_graphics_log_orientation")  
+ ![A graphics log containing two captured frames.](media/gfx_diag_demo_graphics_log_orientation.png "gfx_diag_demo_graphics_log_orientation")  
   
 ## Understanding graphics log documents  
  By using Graphics Analyzer to examine a graphics log document, you can visualize the effects of Direct3D events on the render target that occurred during capture. You can pinpoint regions of the render target that contain unexpected output. When you select a pixel in the affected region, you can use Graphics Diagnostics to inspect it, its shaders, the Direct3D events that affected it, the application call stack that led to those events, and the DirectX objects that support those events. You can use this information to diagnose rendering problems in your game or app.  
@@ -50,12 +50,12 @@ The Graphics Log document is the record of graphics events that occurred while y
   
 #### To inspect a pixel  
   
--   In the top part of the graphics log document, select the pixel that you want from the render target output. When a pixel is selected, you can use the **Graphics Pixel History** window to view detailed information about the selected pixel. For more information, see [Pixel History](../../debugger/graphics-pixel-history.md).  
+-   In the top part of the graphics log document, select the pixel that you want from the render target output. When a pixel is selected, you can use the **Graphics Pixel History** window to view detailed information about the selected pixel. For more information, see [Pixel History](graphics-pixel-history.md).  
   
 ## Playback machine  
  Also displayed in the upper-right corner of the **Frame List** is the **Playback Machine**. The playback machine is a machine or device that is used to play back graphics events from a graphics log file during a later graphics diagnostics session. By using a different device instead of your development machine to play back captured events, you can more accurately reproduce the execution environment in which the problem occurs—for example, you can use a machine that has different graphics hardware or drivers than the ones that your development machine uses, or other kinds of devices, such as an ARM-based Windows RT tablet or Windows Phone device.  
   
- For information about how to specify a playback machine, see [How to: Change the Graphics Diagnostics Playback Machine](../../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
+ For information about how to specify a playback machine, see [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md).  
   
 ## Graphics log summary information  
  When a graphics log file is the active document, the **Properties** window displays information about the environment that hosted the Graphics Diagnostics capture session. Several categories of information are displayed.  
@@ -125,5 +125,5 @@ The Graphics Log document is the record of graphics events that occurred while y
 |**Size**|The size of the graphics log document.|  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

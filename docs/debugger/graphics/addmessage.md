@@ -47,4 +47,4 @@ void AddMessage(
 ## Remarks  
  The graphics diagnostics HUD is displayed in the upper-left corner of the app that's running under graphics diagnostics. It displays run-time information about the app and about graphics information capture, and messages that are added by calling this function.  
   
- To add a message to the HUD, you don't have to be actively capturing graphics information—that is, a message can be added through an instance of the `VsgDbg` class, but the [Init](../../debugger/init.md) member function does not to be called first. Messages are only displayed in the HUD, they are not recorded in the graphics log file.
+ To add a message to the HUD, you don't have to be actively capturing graphics information—that is, a message can be added through an instance of the `VsgDbg` class, but the [Init](init.md) member function does not to be called first. Messages are only displayed in the HUD, they are not recorded in the graphics log file.

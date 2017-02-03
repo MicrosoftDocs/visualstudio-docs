@@ -39,6 +39,6 @@ void ToggleHUD();
 ```  
   
 ## Remarks  
- The graphics diagnostics HUD is displayed in the upper-left corner of the app that's running under graphics diagnostics. It displays run-time information about the app and about graphics information capture, and messages that are added by calling the [AddMessage](../../debugger/addmessage.md) member function.  
+ The graphics diagnostics HUD is displayed in the upper-left corner of the app that's running under graphics diagnostics. It displays run-time information about the app and about graphics information capture, and messages that are added by calling the [AddMessage](addmessage.md) member function.  
   
- To toggle the HUD, you don't have to be actively capturing graphics information—that is, it can be toggled through an instance of the `VsgDbg` class, but the [Init](../../debugger/init.md) member function doesn't have to be called first.
+ To toggle the HUD, you don't have to be actively capturing graphics information—that is, it can be toggled through an instance of the `VsgDbg` class, but the [Init](init.md) member function doesn't have to be called first.
