@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio code generation feautures (C#) | Microsoft Docs"
+title: "Visual Studio code generation features (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
