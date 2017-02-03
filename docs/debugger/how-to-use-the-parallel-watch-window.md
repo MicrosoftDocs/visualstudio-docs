@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Parallel Watch Window | Microsoft Docs"
+title: "Setting a Watch on Variables in Parallel Threads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
