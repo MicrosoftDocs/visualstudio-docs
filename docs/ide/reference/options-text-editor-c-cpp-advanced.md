@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, C-C++, Advanced | Microsoft Docs"
+title: "Options, Text Editor, C\\C++, Advanced | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -9,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
-  - "VS.ToolsOptionsPages.Text_Editor.C\C++.Advanced"
+  - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords: 
