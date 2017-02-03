@@ -40,7 +40,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 -   Visual Studio 2015 Community  
   
- [!INCLUDE[downloadvs](includes/downloadvs_md.md)]  
+ [!INCLUDE[downloadvs](../includes/downloadvs_md.md)]  
   
 ### Windows 10 prerequisites  
  The optional Windows feature *Graphics Tools* provides the capture and playback infrastructure that's required by Graphics Diagnostics on Windows 10.  
