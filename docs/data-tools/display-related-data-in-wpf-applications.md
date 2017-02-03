@@ -53,13 +53,13 @@ In some applications, you might want to work with data that comes from multiple 
   
 3.  Open the WPF designer, and make sure that the designer contains a container that is a valid drop target for the items in the **Data Sources** window.  
   
-     For more information about valid drop targets, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     For more information about valid drop targets, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md).  
   
 4.  In the **Data Sources** window, expand the node that represents the parent table or object in the relationship. The parent table or object is on the "one" side of a one-to-many relationship.  
   
 5.  Drag the parent node (or any individual items in the parent node) from the **Data Sources** window onto a valid drop target in the designer.  
   
-     Visual Studio generates XAML that creates new data-bound controls for each item that you drag. The XAML also adds a new <xref:System.Windows.Data.CollectionViewSource> for the parent table or object to the resources of the drop target. For some data sources, Visual Studio also generates code to load the data into the parent table or object. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     Visual Studio generates XAML that creates new data-bound controls for each item that you drag. The XAML also adds a new <xref:System.Windows.Data.CollectionViewSource> for the parent table or object to the resources of the drop target. For some data sources, Visual Studio also generates code to load the data into the parent table or object. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md).  
   
 6.  In the **Data Sources** window, locate the related child table or object. Related child tables and objects appear as expandable nodes at the bottom of the parent node's list of data.  
   
@@ -72,7 +72,7 @@ In some applications, you might want to work with data that comes from multiple 
      ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")  
   
 ## See Also  
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
+ [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
+ [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
  [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)   
- [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
+ [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md)
