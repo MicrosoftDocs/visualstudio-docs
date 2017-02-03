@@ -40,7 +40,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 -   Visual Studio 2015 Community  
   
- [!INCLUDE[downloadvs](../debugger/includes/downloadvs_md.md)]  
+ [!INCLUDE[downloadvs](../../debugger/includes/downloadvs_md.md)]  
   
 ### Windows 10 prerequisites  
  The optional Windows feature *Graphics Tools* provides the capture and playback infrastructure that's required by Graphics Diagnostics on Windows 10.  
@@ -72,7 +72,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  The Graphics Tools feature is also installed automatically when you install the Windows 10 SDK.  
   
 > [!TIP]
->  The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](../debugger/command-line-capture-tool.md) topic.  
+>  The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](../../debugger/command-line-capture-tool.md) topic.  
   
 ## Using Graphics Diagnostics for the first time  
  Now that you have everything you need, you're ready to start using Graphics Diagnostics. Just follow these steps.  
@@ -112,7 +112,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
  If you selected the wrong frame from the diagnostic session window or you want to examine a different frame you can select a new one from the Graphics Analyzer. On the **Render Target** tab of the graphics log window, under the render target image, expand the **Frame List** and then choose a different frame to examine.  
   
- To learn more about how to use the Graphics Analyzer tools together, see the [Examples](../debugger/graphics-diagnostics-examples.md).  
+ To learn more about how to use the Graphics Analyzer tools together, see the [Examples](../../debugger/graphics-diagnostics-examples.md).  
   
 ## See Also  
  [Direct3D 12 Graphics](http://msdn.microsoft.com/en-us/52094ae3-3b44-4689-9ee7-1ba1b3a779cb)

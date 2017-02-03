@@ -56,5 +56,5 @@ Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based dev
 3.  On the menu, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Alt+F5)  
   
 ## See Also  
- [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)   
- [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)
+ [Run Windows Store apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md)   
+ [How to: Change the Graphics Diagnostics Playback Machine](../../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)

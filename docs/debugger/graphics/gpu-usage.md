@@ -33,7 +33,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
  This is the **GPU Usage Report** window:  
   
- ![The GPU Usage report, with CPU and GPU timelines](../debugger/media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")  
+ ![The GPU Usage report, with CPU and GPU timelines](../../debugger/media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")  
   
 ## Requirements  
  The following are requirements for using the GPU Usage tool that are in addition to Graphics Diagnostics requirements.  
@@ -43,7 +43,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
     > [!NOTE]
     >  For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
   
- For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/getting-started-with-visual-studio-graphics-diagnostics.md).  
+ For more information about Graphics Diagnostics requirements, see [Getting Started](../../debugger/getting-started-with-visual-studio-graphics-diagnostics.md).  
   
 ## Using the GPU Usage tool  
  When you run your app under the GPU Usage tool, Visual Studio creates a diagnostic session that graphs high-level information about your app’s rendering performance and GPU utilization in real-time.  
@@ -54,7 +54,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
 2.  In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you’re interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app’s performance.  
   
-     ![Choose the diagnostic tools you want to use.](../debugger/media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")  
+     ![Choose the diagnostic tools you want to use.](../../debugger/media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")  
   
     > [!NOTE]
     >  Not all Performance and Diagnostics tools can be used at the same time.  
@@ -73,15 +73,15 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
 1.  In the bottom portion of the diagnostics session window, choose the **Stop Collection** link or press **Stop** in the upper left-hand corner.  
   
-     ![Collect GPU and CPU timing information.](../debugger/media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")  
+     ![Collect GPU and CPU timing information.](../../debugger/media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")  
   
 2.  In the top portion of the report, select a section from one of the graphs that shows the issue you want to investigate. Your selection can be up to 3 seconds long; longer sections are truncated towards the beginning.  
   
-     ![Post&#45;collection, select a range to view details](../debugger/media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
+     ![Post&#45;collection, select a range to view details](../../debugger/media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
   
 3.  In the bottom portion of the report, choose the **view details** link in the **…click here to view details of GPU usage for that range** message to view a detailed timeline of your selection.  
   
-     ![Post&#45;collection, with range selected](../debugger/media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
+     ![Post&#45;collection, with range selected](../../debugger/media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
   
  This opens a new tabbed document that contains the report. The GPU Usage report helps you to see when a graphics event is started on the CPU, when it reaches the GPU, and how long it takes the GPU to execute it. This information can help you to identify bottlenecks and opportunities for increased parallelism in your code.  
   
@@ -92,7 +92,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
  Here’s the **GPU Usage Report** window:  
   
- ![The GPU Usage report, with CPU and GPU timelines](../debugger/media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")  
+ ![The GPU Usage report, with CPU and GPU timelines](../../debugger/media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")  
   
  Selecting one of the events in the bottom portion of the report places a marker at corresponding events in the relevant timelines, typically one event on a CPU thread that represents the API call and another event on one of the GPU timelines that represents when the GPU completed the task. Likewise, selecting one of the events in a timeline highlights the corresponding event in the bottom portion of the report.When zoomed out of the timelines in the top portion of the report, only the most time-consuming events are visible. To see events that have a shorter duration, zoom into the timelines by using Ctrl + wheel on your pointing device, or the scaling control in the lower left-hand corner of the top panel. You can also drag the timeline panel’s contents to move through the recorded events.  
   
@@ -133,7 +133,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
 3.  Under **GPU Profiling Configuration**, on the **General** property page, clear the **Begin profiling at app start** checkbox to postpone profiling.  
   
-     ![Configure when GPU Usage collection starts](../debugger/media/gfx_diag_gpu_usage_config.png "gfx_diag_gpu_usage_config")  
+     ![Configure when GPU Usage collection starts](../../debugger/media/gfx_diag_gpu_usage_config.png "gfx_diag_gpu_usage_config")  
   
 > [!IMPORTANT]
 >  Postponing profiling is not currently supported for Direct3D 12 apps.  

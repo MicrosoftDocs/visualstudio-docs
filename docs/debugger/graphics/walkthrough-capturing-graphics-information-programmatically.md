@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Capturing Graphics Information Programmatically
-You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.  
+You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.  
   
  Programmatic capture is useful in scenarios such as:  
   
@@ -52,7 +52,7 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
 -   Capturing graphics information  
   
 > [!NOTE]
->  Previous implementations of programmatic capture relied on Remote Tools for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to provide capture functionality, Windows 8.1 supports capture directly through Direct3D 11.2. As a result, you no longer have to install the Remote Tools for programmatic capture on Windows 8.1.  
+>  Previous implementations of programmatic capture relied on Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to provide capture functionality, Windows 8.1 supports capture directly through Direct3D 11.2. As a result, you no longer have to install the Remote Tools for programmatic capture on Windows 8.1.  
   
 ### Preparing your app to use programmatic capture  
  To use programmatic capture in your app, it must include the necessary headers. These headers are part of the Windows 8.1 SDK.  
@@ -96,7 +96,7 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
  Before you can capture graphics information from DirectX 11.2, you have to get the DXGI debug interface.  
   
 > [!IMPORTANT]
->  When using programmatic capture, you must still run your app under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]) or under the [Command-Line Capture Tool](../debugger/command-line-capture-tool.md).  
+>  When using programmatic capture, you must still run your app under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]) or under the [Command-Line Capture Tool](../../debugger/command-line-capture-tool.md).  
   
 ##### To get the IDXGraphicsAnalysis interface  
   
@@ -117,7 +117,7 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
     ```  
   
     > [!NOTE]
-    >  If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]).  
+    >  If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).  
   
 ### Capturing graphics information  
  Now that you have a valid `IDXGraphicsAnalysis` interface, you can use `BeginCapture` and `EndCapture` to capture graphics information.  
@@ -154,14 +154,14 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
 -   Using the `CaptureCurrentFrame` API  
   
 ### Preparing your computer to use programmatic capture  
- The programmatic capture API uses Remote Tools for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to provide capture functionality. The computer where the app will run must have the remote tools installed, even when you are using programmatic capture on your local computer. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] doesn't have to be running when you perform programmatic capture on a local computer.  
+ The programmatic capture API uses Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to provide capture functionality. The computer where the app will run must have the remote tools installed, even when you are using programmatic capture on your local computer. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] doesn't have to be running when you perform programmatic capture on a local computer.  
   
- To use the remote capture APIs in an app that's running on a computer, you first have to install the Remote Tools for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on that computer. Different versions of the remote tools support different hardware platforms. For information about how to install the remote tools, see the [Remote Tools download page](http://go.microsoft.com/fwlink/p/?LinkId=246691) on the Microsoft downloads website.  
+ To use the remote capture APIs in an app that's running on a computer, you first have to install the Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] on that computer. Different versions of the remote tools support different hardware platforms. For information about how to install the remote tools, see the [Remote Tools download page](http://go.microsoft.com/fwlink/p/?LinkId=246691) on the Microsoft downloads website.  
   
- Alternatively, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installs the necessary components to perform remote capture for 32-bit apps.  
+ Alternatively, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] installs the necessary components to perform remote capture for 32-bit apps.  
   
 > [!NOTE]
->  Because most Windows desktop apps—including [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]—are not supported on [!INCLUDE[win8](../debugger/includes/win8_md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
+>  Because most Windows desktop apps—including [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]—are not supported on [!INCLUDE[win8](../../debugger/includes/win8_md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
   
 ### Preparing your app to use programmatic capture  
  To use the Graphics Diagnostics tools, you first have to capture the graphics information that it relies on. You can programmatically capture the information by using the `CaptureCurrentFrame` API.  
@@ -193,13 +193,13 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
   
      If you don't perform this step, the file name is default.vsglog. If you didn't define `DONT_SAVE_VSGLOG_TO_TEMP`, then the location of the file is relative to the temp directory; otherwise, it's relative to the working directory or in another location if you specified an absolute file name.  
   
- For [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
+ For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
   
 > [!NOTE]
->  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
+>  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
   
 ### Capturing the graphics information  
- After you have prepared the app for programmatic capture and optionally configured the location and name of the graphics log file, build the app and then run or debug it to capture data; do not start graphics diagnostics from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when you use the programmatic capture API. The graphics log is written to the location that you specified. If you want to keep this version of the log, move it to another location; otherwise, it will be overwritten when you run the app again.  
+ After you have prepared the app for programmatic capture and optionally configured the location and name of the graphics log file, build the app and then run or debug it to capture data; do not start graphics diagnostics from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] when you use the programmatic capture API. The graphics log is written to the location that you specified. If you want to keep this version of the log, move it to another location; otherwise, it will be overwritten when you run the app again.  
   
 > [!TIP]
 >  You can still capture graphics information manually while you're using programmatic capture— with the app in focus, just press **Print Screen**. You can use this technique to capture additional graphics information that's not captured by the programmatic capture API.  
@@ -207,9 +207,9 @@ You can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics D
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information programmatically. As a next step, consider this option:  
   
--   Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
+-   Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](../../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
   
 ## See Also  
- [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)   
- [Capturing Graphics Information](../debugger/capturing-graphics-information.md)   
- [Command-Line Capture Tool](../debugger/command-line-capture-tool.md)
+ [Walkthrough: Capturing Graphics Information](../../debugger/walkthrough-capturing-graphics-information.md)   
+ [Capturing Graphics Information](../../debugger/capturing-graphics-information.md)   
+ [Command-Line Capture Tool](../../debugger/command-line-capture-tool.md)

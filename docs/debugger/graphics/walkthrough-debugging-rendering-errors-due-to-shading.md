@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
-This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
+This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
   
  This walkthrough demonstrates how to:  
   
@@ -45,18 +45,18 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/inclu
   
  In this scenario, you recently added an object to your app, along with new vertex and pixel shaders to transform the object and give it a unique appearance. When you run the app during a test, the object is rendered in solid black. By using Graphics Diagnostics, you capture the problem to a graphics log so that you can debug the app. The problem looks like this in the app:  
   
- ![The object is rendered with incorrect colors.](../debugger/media/gfx_diag_demo_render_error_shader_problem.png "gfx_diag_demo_render_error_shader_problem")  
+ ![The object is rendered with incorrect colors.](../../debugger/media/gfx_diag_demo_render_error_shader_problem.png "gfx_diag_demo_render_error_shader_problem")  
   
 ## Investigation  
  By using the Graphics Diagnostics tools, you can load the graphics log document to inspect the frames that were captured during the test.  
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new graphics log document window appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new graphics log document window appears in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame in which the object does not have the correct appearance. The render target is updated to reflect the selected frame. In this scenario, the graphics log document window looks like this:  
   
-     ![The graphics log document in Visual Studio.](../debugger/media/gfx_diag_demo_render_error_shader_step_1.png "gfx_diag_demo_render_error_shader_step_1")  
+     ![The graphics log document in Visual Studio.](../../debugger/media/gfx_diag_demo_render_error_shader_step_1.png "gfx_diag_demo_render_error_shader_step_1")  
   
  After you select a frame that demonstrates the problem, you can use the **Graphics Pixel History** window to diagnose it. The **Graphics Pixel History** window shows the primitives that could have had an effect on a specific pixel, their shaders, and what their effects on the render target were, in chronological order.  
   
@@ -66,11 +66,11 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/inclu
   
 2.  Select a pixel to examine. On the graphics log document window , select one of the pixels on the object that is incorrectly colored:  
   
-     ![Selecting a pixel displays info about its history.](../debugger/media/gfx_diag_demo_render_error_shader_step_2.png "gfx_diag_demo_render_error_shader_step_2")  
+     ![Selecting a pixel displays info about its history.](../../debugger/media/gfx_diag_demo_render_error_shader_step_2.png "gfx_diag_demo_render_error_shader_step_2")  
   
      The **Graphics Pixel History** window is updated to reflect the selected pixel. In this scenario, the **Graphics Pixel History** window looks like this:  
   
-     ![The pixel history shows one DrawIndexed event.](../debugger/media/gfx_diag_demo_render_error_shader_step_3.png "gfx_diag_demo_render_error_shader_step_3")  
+     ![The pixel history shows one DrawIndexed event.](../../debugger/media/gfx_diag_demo_render_error_shader_step_3.png "gfx_diag_demo_render_error_shader_step_3")  
   
      Notice that the pixel shader's result is fully-opaque black (0, 0, 0, 1), and that the **Output Merger** combined this with the **Previous** color of the pixel in such a way that the **Result** is also fully-opaque black.  
   
@@ -84,7 +84,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/inclu
   
 3.  Rest the pointer on `input.color`. Notice that its value is fully-opaque black (0, 0, 0, 1).  
   
-     ![The "color" member of "input" is black.](../debugger/media/gfx_diag_demo_render_error_shader_step_5.png "gfx_diag_demo_render_error_shader_step_5")  
+     ![The "color" member of "input" is black.](../../debugger/media/gfx_diag_demo_render_error_shader_step_5.png "gfx_diag_demo_render_error_shader_step_5")  
   
      In this scenario, the examination reveals that the incorrect color is probably the result of a vertex shader that does not provide the right color information for the pixel shader to operate on.  
   
@@ -98,7 +98,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/inclu
   
 3.  Confirm that the color member is never copied from the input structure. Because the value of `output.color` is set to fully-opaque black just before the `output` structure is returned, it’s a good idea to make sure that the value of `output` wasn't correctly initialized on a previous line. Step through the vertex shader code until you reach the line that sets `output.color` to black while you watch the value of `output.color`. Notice that the value of `output.color` isn't initialized until it's set to black. This confirms that the line of code that sets `output.color` to black should be modified, rather than deleted.  
   
-     ![The value of "output.color" is black.](../debugger/media/gfx_diag_demo_render_error_shader_step_7.png "gfx_diag_demo_render_error_shader_step_7")  
+     ![The value of "output.color" is black.](../../debugger/media/gfx_diag_demo_render_error_shader_step_7.png "gfx_diag_demo_render_error_shader_step_7")  
   
  After you determine that the cause of the rendering issue is that the vertex shader does not provide the correct color value to the pixel shader, you can use this information to fix the problem. In this scenario, you can fix it by changing the following code in the vertex shader  
   
@@ -114,8 +114,8 @@ output.color = input.color;
   
  This code just passes the vertex color through from the object's vertices unmodified—more complex vertex shaders could modify the color before passing it through. The corrected vertex shader code should resemble this:  
   
- ![The corrected vertex shader code.](../debugger/media/gfx_diag_demo_render_error_shader_step_8.png "gfx_diag_demo_render_error_shader_step_8")  
+ ![The corrected vertex shader code.](../../debugger/media/gfx_diag_demo_render_error_shader_step_8.png "gfx_diag_demo_render_error_shader_step_8")  
   
  After you fix the code, rebuild it and run the app again to discover that the rendering issue is solved.  
   
- ![The object is rendered with the correct colors.](../debugger/media/gfx_diag_demo_render_error_shader_resolution.png "gfx_diag_demo_render_error_shader_resolution")
+ ![The object is rendered with the correct colors.](../../debugger/media/gfx_diag_demo_render_error_shader_resolution.png "gfx_diag_demo_render_error_shader_resolution")

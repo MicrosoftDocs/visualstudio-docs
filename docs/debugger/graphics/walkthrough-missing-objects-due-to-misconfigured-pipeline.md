@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
-This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
+This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
   
  This walkthrough illustrates these tasks:  
   
@@ -47,18 +47,18 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
  In this scenario, when the app is run to test it, the background is rendered as expected, but one of the objects doesn't appear. By using Graphics Diagnostics, you capture the problem to a graphics log so that you can debug the app. The problem looks like this in the app:  
   
- ![The object cannot be seen](../debugger/media/gfx_diag_demo_misconfigured_pipeline_problem.png "gfx_diag_demo_misconfigured_pipeline_problem")  
+ ![The object cannot be seen](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_problem.png "gfx_diag_demo_misconfigured_pipeline_problem")  
   
 ## Investigation  
  By using the Graphics Diagnostics tools, you can load the graphics log document to inspect the frames that were captured during the test.  
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log document that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a graphics log document that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame that demonstrates that the object is not displayed. The render target is updated to reflect the selected frame. In this scenario, the graphics log tab looks like this:  
   
-     ![The graphics log document in Visual Studio](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_1.png "gfx_diag_demo_misconfigured_pipeline_step_1")  
+     ![The graphics log document in Visual Studio](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_1.png "gfx_diag_demo_misconfigured_pipeline_step_1")  
   
  After you select a frame that demonstrates the problem, you can begin to diagnose it by using the **Graphics Event List**. The **Graphics Event List** contains every Direct3D API call that was made to render the active frame—for example, to set up device state, to create and update buffers, and to draw objects that appear in the frame. Many kinds of calls—for example, Draw, Dispatch, Copy, or Clear calls—are interesting because there is often (but not always) a corresponding change in the render target when the app is working as expected. Draw calls are particularly interesting because each one represents geometry that the app rendered.  
   
@@ -79,7 +79,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 4.  Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the presence of the **Input Assembler** stage) and transformed (indicated by the **Vertex Shader** stage), but doesn't appear in the render target because there doesn't seem to be an active pixel shader (indicated by the absence of the **Pixel Shader** stage). In this scenario, you can even see the silhouette of the missing object in the **Output Merger** stage:  
   
-     ![A DrawIndexed event and its effect on the pipeline](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_2.png "gfx_diag_demo_misconfigured_pipeline_step_2")  
+     ![A DrawIndexed event and its effect on the pipeline](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_2.png "gfx_diag_demo_misconfigured_pipeline_step_2")  
   
  After you confirm that the app issued a draw call for the missing object's geometry and discover that the pixel shader stage was inactive, you can examine the device state to confirm your findings. You can use the **Graphics Object Table** to examine device context and other Direct3D object data.  
   
@@ -89,7 +89,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 2.  Examine the device state that's displayed in the **d3d11 device context** tab to confirm that no pixel shader was active during the draw call. In this scenario, the **shader general information**—displayed under **pixel shader state**—indicates that the shader is **NULL**:  
   
-     ![The D3D 11 Device Context shows pixel shader state](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_4.png "gfx_diag_demo_misconfigured_pipeline_step_4")  
+     ![The D3D 11 Device Context shows pixel shader state](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_4.png "gfx_diag_demo_misconfigured_pipeline_step_4")  
   
  After you confirm that the pixel shader was set to null by your app, the next step is to find the location in your app's source code where the shader is set. You can use the **Graphics Event List** together with the **Graphics Event Call Stack** to find this location.  
   
@@ -104,15 +104,15 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 3.  Use the call stack to locate the `PSSetShader` call in your app's source code. In the **Graphics Event Call Stack** window, choose the top-most call and examine the value that the pixel shader is being set to. The pixel shader might be set directly to null, or the null value might occur because of an argument that was passed into the function or other state. If it's not set directly, you might be able to locate the source of the null value somewhere up the call stack. In this scenario, you discover that the pixel shader is being set directly to `nullptr` in the top-most function, which is named `CubeRenderer::Render`:  
   
-     ![The code that doesn't initialize the pixel shader](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_5.png "gfx_diag_demo_misconfigured_pipeline_step_5")  
+     ![The code that doesn't initialize the pixel shader](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_5.png "gfx_diag_demo_misconfigured_pipeline_step_5")  
   
     > [!NOTE]
     >  If you can't locate the source of the null value just by examining the call stack, we recommend that you set a conditional breakpoint on the `PSSetShader` call, such that execution of the program breaks when the pixel shader will be set to null. Then restart the app in debug mode and use traditional debugging techniques to locate the source of the null value.  
   
  To fix the problem, assign the correct pixel shader by using the first parameter of the `ID3D11DeviceContext::PSSetShader` API call.  
   
- ![The corrected C&#43;&#43; source code](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_6.png "gfx_diag_demo_misconfigured_pipeline_step_6")  
+ ![The corrected C&#43;&#43; source code](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_6.png "gfx_diag_demo_misconfigured_pipeline_step_6")  
   
  After you fix the code, you can rebuild it and run the app again to verify that the rendering issue is solved:  
   
- ![The object is now displayed](../debugger/media/gfx_diag_demo_misconfigured_pipeline_resolution.jpg "gfx_diag_demo_misconfigured_pipeline_resolution")
+ ![The object is now displayed](../../debugger/media/gfx_diag_demo_misconfigured_pipeline_resolution.jpg "gfx_diag_demo_misconfigured_pipeline_resolution")

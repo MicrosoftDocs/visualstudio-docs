@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Missing Objects Due to Vertex Shading
-This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that is missing due to an error that occurs during the vertex shader stage.  
+This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that is missing due to an error that occurs during the vertex shader stage.  
   
  This walkthrough illustrates these tasks:  
   
@@ -47,18 +47,18 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
  In this scenario, when the app is run to test it, the background is rendered as expected, but one of the objects does not appear. By using Graphics Diagnostics, you capture the problem to a graphics log so that you can debug the app. The problem looks like this in the app:  
   
- ![The object can not be seen.](../debugger/media/gfx_diag_demo_missing_object_shader_problem.png "gfx_diag_demo_missing_object_shader_problem")  
+ ![The object can not be seen.](../../debugger/media/gfx_diag_demo_missing_object_shader_problem.png "gfx_diag_demo_missing_object_shader_problem")  
   
 ## Investigation  
  By using the Graphics Diagnostics tools, you can load the graphics log file to inspect the frames that were captured during the test.  
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame that demonstrates that the object is not displayed. The render target is updated to reflect the selected frame. In this scenario, the graphics log tab looks like this:  
   
-     ![The graphics log document in Visual Studio](../debugger/media/gfx_diag_demo_missing_object_shader_step_1.png "gfx_diag_demo_missing_object_shader_step_1")  
+     ![The graphics log document in Visual Studio](../../debugger/media/gfx_diag_demo_missing_object_shader_step_1.png "gfx_diag_demo_missing_object_shader_step_1")  
   
  After you've selected a frame that demonstrates the problem, you can begin to diagnose it by using the **Graphics Event List**. The **Graphics Event List** contains every Direct3D API call that was made to render the active frame, for example, API calls to set up device state, to create and update buffers, and to draw objects that appear in the frame. Many kinds of calls are interesting because there is often (but not always) a corresponding change in the render target when the app is working as expected, for example Draw, Dispatch, Copy or Clear calls. Draw calls are particularly interesting because each one represents geometry that the app rendered (Dispatch calls can also render geometry).  
   
@@ -79,7 +79,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 4.  Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the Input Assembler thumbnail), but doesn't appear in the render target because something went wrong during the vertex shader stage (indicated by the Vertex Shader thumbnail):  
   
-     ![A DrawIndexed event and its effect on the pipeline](../debugger/media/gfx_diag_demo_missing_object_shader_step_2.png "gfx_diag_demo_missing_object_shader_step_2")  
+     ![A DrawIndexed event and its effect on the pipeline](../../debugger/media/gfx_diag_demo_missing_object_shader_step_2.png "gfx_diag_demo_missing_object_shader_step_2")  
   
  After you confirm that the app issued a draw call for the missing object's geometry and discover that the problem happens during the vertex shader stage, you can use the HLSL Debugger to examine the vertex shader and find out what happened to the object's geometry. You can use the HLSL Debugger to examine the state of HLSL variables during execution, step through the HLSL code, and set breakpoints to help you diagnose the problem.  
   
@@ -91,19 +91,19 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 3.  The first time that `output` is modified, the member `worldPos` is written to.  
   
-     ![The value of "output.worldPos" appears reasonable](../debugger/media/gfx_diag_demo_missing_object_shader_step_4.png "gfx_diag_demo_missing_object_shader_step_4")  
+     ![The value of "output.worldPos" appears reasonable](../../debugger/media/gfx_diag_demo_missing_object_shader_step_4.png "gfx_diag_demo_missing_object_shader_step_4")  
   
      Because its value appears to be reasonable, you continue stepping through code until the next line that modifies `output`.  
   
 4.  The next time that `output` is modified, the member `pos` is written to.  
   
-     ![The value of "output.pos" has been zeroed out](../debugger/media/gfx_diag_demo_missing_object_shader_step_5.png "gfx_diag_demo_missing_object_shader_step_5")  
+     ![The value of "output.pos" has been zeroed out](../../debugger/media/gfx_diag_demo_missing_object_shader_step_5.png "gfx_diag_demo_missing_object_shader_step_5")  
   
      This time, the value of the `pos` member—all zeros—seems suspicious. Next, you want to determine how `output.pos` came to have a value of all zeros.  
   
 5.  You notice that `output.pos` takes its value from a variable that's named `temp`. On the previous line, you see that the value of `temp` is the result of multiplying its previous value by a constant that's named `projection`. You suspect that `temp`'s suspicious value is the result of this multiplication. When you rest the pointer on `projection`, you notice that its value is also all zeros.  
   
-     ![The projection matrix contains a bad transform](../debugger/media/gfx_diag_demo_missing_object_shader_step_6.png "gfx_diag_demo_missing_object_shader_step_6")  
+     ![The projection matrix contains a bad transform](../../debugger/media/gfx_diag_demo_missing_object_shader_step_6.png "gfx_diag_demo_missing_object_shader_step_6")  
   
      In this scenario, the examination reveals that `temp`'s suspicious value is most likely caused by its multiplication by `projection`, and because `projection` is a constant that's meant to contain a projection matrix, you know that it should not contain all zeros.  
   
@@ -115,7 +115,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
 2.  Navigate up the call stack into your app's source code. In the **Graphics Event Call Stack** window, choose the top-most call to see if the constant buffer is being filled there. If it is not, continue up the call stack until you find where it is being filled. In this scenario, you discover that the constant buffer is being filled—by using the `UpdateSubresource` Direct3D API—further up the call stack in a function that's named `MarbleMaze::Render`, and that its value comes from a constant buffer object that's named `m_marbleConstantBufferData`:  
   
-     ![The code that sets the object's constant buffer](../debugger/media/gfx_diag_demo_missing_object_shader_step_7.png "gfx_diag_demo_missing_object_shader_step_7")  
+     ![The code that sets the object's constant buffer](../../debugger/media/gfx_diag_demo_missing_object_shader_step_7.png "gfx_diag_demo_missing_object_shader_step_7")  
   
     > [!TIP]
     >  If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.  
@@ -130,12 +130,12 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/i
   
  After you find the location where `m_marbleConstantBufferData.projection` is set, you can examine the surrounding source code to determine the origin of the incorrect value. In this scenario, you discover that the value of `m_marbleConstantBufferData.projection` is set to a local variable that's named `projection` before it has been initialized to a value that's given by the code `m_camera->GetProjection(&projection);` on the next line.  
   
- ![The marble projection is set before initialization](../debugger/media/gfx_diag_demo_missing_object_shader_step_9.png "gfx_diag_demo_missing_object_shader_step_9")  
+ ![The marble projection is set before initialization](../../debugger/media/gfx_diag_demo_missing_object_shader_step_9.png "gfx_diag_demo_missing_object_shader_step_9")  
   
  To fix the problem, you move the line of code that sets the value of `m_marbleConstantBufferData.projection` after the line that initializes the value of the local variable `projection`.  
   
- ![The corrected C&#43;&#43; source code](../debugger/media/gfx_diag_demo_missing_object_shader_step_10.png "gfx_diag_demo_missing_object_shader_step_10")  
+ ![The corrected C&#43;&#43; source code](../../debugger/media/gfx_diag_demo_missing_object_shader_step_10.png "gfx_diag_demo_missing_object_shader_step_10")  
   
  After you fix the code, you can rebuild it and run the app again to discover that the rendering issue is solved:  
   
- ![The object in now displayed.](../debugger/media/gfx_diag_demo_missing_object_shader_resolution.png "gfx_diag_demo_missing_object_shader_resolution")
+ ![The object in now displayed.](../../debugger/media/gfx_diag_demo_missing_object_shader_resolution.png "gfx_diag_demo_missing_object_shader_resolution")

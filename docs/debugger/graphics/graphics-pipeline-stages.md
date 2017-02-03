@@ -35,7 +35,7 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
   
  This is the Pipeline Stages window:  
   
- ![A 3&#45;D object goes through the pipeline stages.](../debugger/media/gfx_diag_demo_pipeline_stages_orientation.png "gfx_diag_demo_pipeline_stages_orientation")  
+ ![A 3&#45;D object goes through the pipeline stages.](../../debugger/media/gfx_diag_demo_pipeline_stages_orientation.png "gfx_diag_demo_pipeline_stages_orientation")  
   
 ## Understanding the Graphics Pipeline Stages window  
  The Pipeline Stages window visualizes the result of each stage of the graphics pipeline separately, for each draw call. Normally, the results of stages in the middle of the pipeline are hidden, making it difficult to tell where a rendering problem started. By visualizing each stage separately, the Pipeline Stages window makes it easy to see where the problem starts—for example, you can easily see when the vertex shader stage unexpectedly causes an object to be drawn off-screen.  
@@ -130,12 +130,12 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
 ### Vertex shader preview  
  When you select the vertex shader stage in the **Graphics Pipeline Stages** window, the **Input Buffers** panel is displayed. Here, you'll find details about the list of vertices supplied to the vertex shader after they have been assembled by the input assembler stage.  
   
- ![The vertex shader stage input buffer viewer](../debugger/media/gfx_diag_vertex_shader_inbuffers.png "gfx_diag_vertex_shader_inbuffers")  
+ ![The vertex shader stage input buffer viewer](../../debugger/media/gfx_diag_vertex_shader_inbuffers.png "gfx_diag_vertex_shader_inbuffers")  
   
  To view the result of the vertex shader stage, choose the Vertex Shader stage thumbnail to view a full-size, rasterized wireframe of the mesh after its been transformed by the vertex shader.  
   
- ![The vertex shader stage result preview](../debugger/media/gfx_diag_vertex_shader_preview.png "gfx_diag_vertex_shader_preview")  
+ ![The vertex shader stage result preview](../../debugger/media/gfx_diag_vertex_shader_preview.png "gfx_diag_vertex_shader_preview")  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

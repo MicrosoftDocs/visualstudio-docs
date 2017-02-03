@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VSG_NODEFAULT_INSTANCE
-Defines by its presence whether a default instance of the [VsgDbg Class](../debugger/vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.  
+Defines by its presence whether a default instance of the [VsgDbg Class](../../debugger/vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.  
   
 ## Syntax  
   

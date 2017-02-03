@@ -35,7 +35,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
  This is the Pixel History window:  
   
- ![A pixel with three Direct3D events in its history.](../debugger/media/gfx_diag_demo_pixel_history_orientation.png "gfx_diag_demo_pixel_history_orientation")  
+ ![A pixel with three Direct3D events in its history.](../../debugger/media/gfx_diag_demo_pixel_history_orientation.png "gfx_diag_demo_pixel_history_orientation")  
   
 ## Understanding the Pixel History window  
  By using Pixel History, you can analyze how a specific pixel of the render target is affected by Direct3D events during a frame. You can pinpoint a rendering problem to a specific Direct3D event, even when subsequent events—or subsequent primitives in the same event—continue to change the pixel's final color value. For example, a pixel might be rendered incorrectly and then obscured by another, semi-transparent pixel so that their colors are blended together in the framebuffer. This kind of problem would be difficult to diagnose if you only had the final contents of the render target to guide you.  
@@ -44,7 +44,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
  The bottom part of the window displays the events that had a chance to affect the color of the pixel, together with the **Initial** and **Final** pseudo-events that represent the initial and final color values of the pixel in the framebuffer. The initial color value is determined by the first event that changed the color of the pixel (typically a `Clear` event). A pixel always has these two pseudo-events in its history, even when no other events affected it. When other events had a chance to affect the pixel, they are displayed between the **Initial** and **Final** events. The events can be expanded to show their details. For simple events such as those that clear a render target, the effect of the event is just a color value. More complex events such as draw calls generate one or more primitives that might contribute to the color of the pixel.  
   
- Primitives that were drawn by the event are identified by their primitive type and index, along with the total primitive count for the object. For example, an identifier such as **Triangle (1456) of (6214)** means that the primitive corresponds to the 1456th triangle in an object that's made up of 6214 triangles. To the left of each primitive identifier is an icon that summarizes the effect that the primitive had on the pixel. Primitives that affect the pixel color are represented by a rounded rectangle that's filled with the result color. Primitives that are excluded from having an effect on the pixel color are represented by icons that indicate the reason that the pixel was excluded. These icons are described in the section [Primitive exclusion](../debugger/graphics-pixel-history.md#exclusion) later in this article.  
+ Primitives that were drawn by the event are identified by their primitive type and index, along with the total primitive count for the object. For example, an identifier such as **Triangle (1456) of (6214)** means that the primitive corresponds to the 1456th triangle in an object that's made up of 6214 triangles. To the left of each primitive identifier is an icon that summarizes the effect that the primitive had on the pixel. Primitives that affect the pixel color are represented by a rounded rectangle that's filled with the result color. Primitives that are excluded from having an effect on the pixel color are represented by icons that indicate the reason that the pixel was excluded. These icons are described in the section [Primitive exclusion](../../debugger/graphics-pixel-history.md#exclusion) later in this article.  
   
  You can expand each primitive to examine how the pixel shader output was merged with the existing pixel color to produce the result color. From here you can also examine or debug the pixel shader code that's associated with the primitive, and you can further expand the vertex shader node to examine the vertex shader input.  
   
@@ -53,9 +53,9 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
 |Icon|Reason for exclusion|  
 |----------|--------------------------|  
-|![Depth test failure icon.](../debugger/media/vsg_hist_icon_failed_depth.png "vsg_hist_icon_failed_depth")|The pixel was excluded because it failed the depth test.|  
-|![Scissor test failure icon.](../debugger/media/vsg_hist_icon_failed_scissor.png "vsg_hist_icon_failed_scissor")|The pixel was excluded because it failed the scissor test.|  
-|![Stencil test failure icon.](../debugger/media/vsg_hist_icon_failed_stencil.png "vsg_hist_icon_failed_stencil")|The pixel was excluded because it failed the stencil test.|  
+|![Depth test failure icon.](../../debugger/media/vsg_hist_icon_failed_depth.png "vsg_hist_icon_failed_depth")|The pixel was excluded because it failed the depth test.|  
+|![Scissor test failure icon.](../../debugger/media/vsg_hist_icon_failed_scissor.png "vsg_hist_icon_failed_scissor")|The pixel was excluded because it failed the scissor test.|  
+|![Stencil test failure icon.](../../debugger/media/vsg_hist_icon_failed_stencil.png "vsg_hist_icon_failed_stencil")|The pixel was excluded because it failed the stencil test.|  
   
 ### Draw Call Exclusion  
  If all of the primitives in a draw call are excluded from affecting the render target because they fail a test, then the draw call cannot be expanded and an icon that corresponds to the reason for exclusion is displayed next to it. The reasons for draw-call exclusion resemble the reasons for primitive exclusion, and their icons are similar.  
@@ -88,5 +88,5 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
  To understand the graphics events in the pixel history, you might need information about the device state at the time of the event or about the Direct3D objects that are referenced by the event. For each event in the pixel history, the **Graphics Pixel History** provides links to the then-current device state and to related objects.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Device State](../../debugger/walkthrough-missing-objects-due-to-device-state.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

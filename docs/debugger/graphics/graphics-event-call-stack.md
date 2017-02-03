@@ -35,7 +35,7 @@ The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map t
   
  This is the Event Call Stack window:  
   
- ![The call stack preceeding a DrawIndexed event.](../debugger/media/gfx_diag_demo_graphics_event_call_stack_orientation.png "gfx_diag_demo_graphics_event_call_stack_orientation")  
+ ![The call stack preceeding a DrawIndexed event.](../../debugger/media/gfx_diag_demo_graphics_event_call_stack_orientation.png "gfx_diag_demo_graphics_event_call_stack_orientation")  
   
 ## Understanding the graphics event call stack  
  You can use the Event Call Stack to understand the flow of execution that led to a particular Direct3D event. It resembles the Visual Studio call stack window, except that instead of displaying the current call stack of the active thread in a running app, it displays the call stack as it existed when the selected Direct3D event occurred. From the Event Call Stack, you can jump to the call site of the selected Direct3D event to inspect the surrounding code.  
@@ -55,4 +55,4 @@ The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map t
  To understand the selected graphics event, you might need information about the Direct3D objects that are associated with it. The **Graphics Event Call Stack** window provides links to this information.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)
