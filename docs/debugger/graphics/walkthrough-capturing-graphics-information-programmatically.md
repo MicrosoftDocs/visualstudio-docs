@@ -161,7 +161,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
  Alternatively, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] installs the necessary components to perform remote capture for 32-bit apps.  
   
 > [!NOTE]
->  Because most Windows desktop apps—including [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]—are not supported on [!INCLUDE[win8](includes/win8_md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
+>  Because most Windows desktop apps—including [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]—are not supported on [!INCLUDE[win8](../includes/win8_md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
   
 ### Preparing your app to use programmatic capture  
  To use the Graphics Diagnostics tools, you first have to capture the graphics information that it relies on. You can programmatically capture the information by using the `CaptureCurrentFrame` API.  
@@ -193,10 +193,10 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
      If you don't perform this step, the file name is default.vsglog. If you didn't define `DONT_SAVE_VSGLOG_TO_TEMP`, then the location of the file is relative to the temp directory; otherwise, it's relative to the working directory or in another location if you specified an absolute file name.  
   
- For [!INCLUDE[win8_appname_long](includes/win8_appname_long_md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
+ For [!INCLUDE[win8_appname_long](../includes/win8_appname_long_md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
   
 > [!NOTE]
->  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](includes/win8_appname_long_md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
+>  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../includes/win8_appname_long_md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
   
 ### Capturing the graphics information  
  After you have prepared the app for programmatic capture and optionally configured the location and name of the graphics log file, build the app and then run or debug it to capture data; do not start graphics diagnostics from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] when you use the programmatic capture API. The graphics log is written to the location that you specified. If you want to keep this version of the log, move it to another location; otherwise, it will be overwritten when you run the app again.  
