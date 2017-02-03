@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/init.md
+redirect_url: /visualstudio/debugger/graphics/init
 ---

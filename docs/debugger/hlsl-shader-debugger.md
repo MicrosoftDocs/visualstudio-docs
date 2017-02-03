@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/hlsl-shader-debugger.md
+redirect_url: /visualstudio/debugger/graphics/hlsl-shader-debugger
 ---

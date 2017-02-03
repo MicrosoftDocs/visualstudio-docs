@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/graphics-object-table.md
+redirect_url: /visualstudio/debugger/graphics/graphics-object-table
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/vsg-default-run-filename.md
+redirect_url: /visualstudio/debugger/graphics/vsg-default-run-filename
 ---

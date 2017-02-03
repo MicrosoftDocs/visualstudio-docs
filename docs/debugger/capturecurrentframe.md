@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/capturecurrentframe.md
+redirect_url: /visualstudio/debugger/graphics/capturecurrentframe
 ---

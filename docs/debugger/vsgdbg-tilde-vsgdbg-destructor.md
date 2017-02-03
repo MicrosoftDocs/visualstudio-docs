@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor.md
+redirect_url: /visualstudio/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor
 ---

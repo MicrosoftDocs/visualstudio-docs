@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/vsgdbg-vsgdbg-constructor.md
+redirect_url: /visualstudio/debugger/graphics/vsgdbg-vsgdbg-constructor
 ---

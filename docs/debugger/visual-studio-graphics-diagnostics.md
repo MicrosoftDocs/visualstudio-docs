@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/visual-studio-graphics-diagnostics.md
+redirect_url: /visualstudio/debugger/graphics/visual-studio-graphics-diagnostics
 ---

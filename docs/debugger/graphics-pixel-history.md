@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/graphics-pixel-history.md
+redirect_url: /visualstudio/debugger/graphics/graphics-pixel-history
 ---

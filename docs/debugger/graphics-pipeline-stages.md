@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/graphics-pipeline-stages.md
+redirect_url: /visualstudio/debugger/graphics/graphics-pipeline-stages
 ---

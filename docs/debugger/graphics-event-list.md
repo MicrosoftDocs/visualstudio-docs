@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/graphics-event-list.md
+redirect_url: /visualstudio/debugger/graphics/graphics-event-list
 ---

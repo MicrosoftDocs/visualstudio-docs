@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/vsgdbg-class.md
+redirect_url: /visualstudio/debugger/graphics/vsgdbg-class
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/togglehud.md
+redirect_url: /visualstudio/debugger/graphics/togglehud
 ---

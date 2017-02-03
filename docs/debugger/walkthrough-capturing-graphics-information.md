@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/debugger/graphics/walkthrough-capturing-graphics-information.md
+redirect_url: /visualstudio/debugger/graphics/walkthrough-capturing-graphics-information
 ---
