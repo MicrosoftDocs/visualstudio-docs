@@ -1,5 +1,5 @@
 ---
-title: "Watch and QuickWatch Windows | Microsoft Docs"
+title: "Setting a Watch on Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -44,7 +44,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Watch and QuickWatch Windows
+# Setting a Watch on Variables using the Watch and QuickWatch Windows
 You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
   
 ## Observing a single variable with QuickWatch  

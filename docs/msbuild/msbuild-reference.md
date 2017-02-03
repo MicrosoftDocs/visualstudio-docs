@@ -82,7 +82,7 @@ translation.priority.ht:
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## Related Sections  
- [MSBuild Overview  ](https://www.microsoftonedoc.com/#/organizations/e6f6a65cf14f462597b64ac058dbe1d0/projects/3fedad16-eaf1-41a6-8f96-0c1949c68f32/containers/a3daf831-1c5f-4bbe-964d-503870caf874/tocpaths/d920ff78-3d00-482b-80a5-743ae3c8ab10/locales/en-US)
+ [MSBuild Overview  ](../msbuild/msbuild.md)
  Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain how to use it to build projects.  
   
  <xref:Microsoft.Build.Conversion>  

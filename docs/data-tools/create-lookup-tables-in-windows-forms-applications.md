@@ -38,7 +38,7 @@ translation.priority.mt:
 # Create lookup tables in Windows Forms applications
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.  
   
- You can create lookup tables by dragging the main node of a parent table (from the [Data Sources Window](../Topic/Data%20Sources%20Window.md)) onto a control on your form that is already bound to the column in the related child table.  
+ You can create lookup tables by dragging the main node of a parent table (from the [Data Sources Window](add-new-data-sources.md)) onto a control on your form that is already bound to the column in the related child table.  
   
  For example, consider a table of `Orders` in a sales database. Each record in the `Orders` table includes a `CustomerID`, indicating which customer placed the order. The `CustomerID` is a foreign key pointing to a customer record in the `Customers` table. In this scenario, you expand the `Orders` table in the **Data Sources** window and set the main node to **Details**. Then set the `CustomerID` column to use a <xref:System.Windows.Forms.ComboBox> (or any other control that supports lookup binding), and drag the `Orders` node onto your form. Finally, drag the `Customers` node onto the control that is bound to the related column — in this case, the <xref:System.Windows.Forms.ComboBox> bound to the `CustomerID` column.  
   
@@ -47,7 +47,7 @@ The term *lookup table* describes controls that are bound to two related data ta
 1.  Open the **Data Sources** window.  
   
     > [!NOTE]
-    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [Relationships in Datasets](relationships-in-datasets.md).  
   
 2.  Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.  
   
@@ -60,7 +60,7 @@ The term *lookup table* describes controls that are bound to two related data ta
   
 5.  Drag the main child table node from the **Data Sources** window onto your form.  
   
-     Databound controls (with descriptive labels) and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) appear on the form. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Databound controls (with descriptive labels) and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) appear on the form. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/create-and-configure-tableadapters.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 6.  Now drag the main parent table node from the **Data Sources** window directly onto the lookup control (the <xref:System.Windows.Forms.ComboBox>).  
   
