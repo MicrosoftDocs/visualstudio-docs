@@ -1,5 +1,5 @@
 ---
-title: "Generate Constructor | Microsoft Docs"
+title: "Generate a constructor - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Constructor
+# Generate a constructor in Visual Basic
 **What:** Lets you immediately generate the code for a new constructor on a class. 
 
 **When:** You introduce a new constructor and want to properly declare it, automatically.  

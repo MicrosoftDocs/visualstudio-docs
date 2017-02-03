@@ -1,5 +1,5 @@
 ---
-title: "Implement Abstract Class | Microsoft Docs"
+title: "Implement an abstract class - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Implement Abstract Class
+# Implement an abstract class in Visual Basic
 **What:** Lets you immediately generate the code required to implement an abstract class. 
 
 **When:** You want to inherit from an abstract class.  

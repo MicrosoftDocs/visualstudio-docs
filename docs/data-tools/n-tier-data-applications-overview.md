@@ -43,7 +43,7 @@ translation.priority.ht:
   
  Visual Studio contains several features to help developers create n-tier applications:  
   
--   The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
+-   The datasetprovides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   
@@ -65,7 +65,7 @@ translation.priority.ht:
   
 -   Data access components and logic, such as the following:  
   
-    -   [TableAdapters](../Topic/TableAdapters.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
+    -   [TableAdapters](create-and-configure-tableadapters.md) and [DataAdapters and DataReaders](http://msdn.microsoft.com/Library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
     -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
@@ -94,9 +94,7 @@ Data tier
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
-  
- [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
-  
+
  [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)  
   
 ## See Also  

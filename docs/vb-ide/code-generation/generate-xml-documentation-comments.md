@@ -1,5 +1,5 @@
 ---
-title: "Generate XML Documentation Comments | Microsoft Docs"
+title: "Generate XML documentation comments - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev15"
@@ -29,7 +29,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate XML Documentation Comments
+# Generate XML documentation comments in Visual Basic
 **What:** Lets you immediately generate the base XML required to document the selected element. 
 
 **When:** You want to create XML Document Comments for later processing by a documentation tool like Sandcastle.

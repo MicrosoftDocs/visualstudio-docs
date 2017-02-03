@@ -49,7 +49,7 @@ translation.priority.ht:
   
 -   Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
--   Separate the generated [TableAdapters](../Topic/TableAdapters.md) and dataset code into discrete projects.  
+-   Separate the generated [TableAdapters](create-and-configure-tableadapters.md) and dataset code into discrete projects.  
   
 -   Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   
@@ -66,10 +66,10 @@ translation.priority.ht:
 ## Prerequisites  
  To complete this walkthrough, you need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 ## Creating the N-Tier Solution and Class Library to Hold the Dataset (DataEntityTier)  
- The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) is used to create the initial dataset and automatically separate the code into the two class libraries.  
+ The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The datasetis used to create the initial dataset and automatically separate the code into the two class libraries.  
   
 > [!NOTE]
 >  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
@@ -110,7 +110,7 @@ translation.priority.ht:
  The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including DataTables classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and `TableAdapter`s into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the `TableAdapter`s (the DataAccessTier project). You will create the dataset by using the **Data Source Configuration Wizard**.  
   
 > [!NOTE]
->  You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+>  You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 #### To create the dataset  
   
@@ -181,9 +181,9 @@ translation.priority.ht:
   
 #### To create a method in the data access tier that returns the Customers table  
   
-1.  In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+1.  In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset.
   
-2.  Right-click CustomersTableAdapter and click **Add Query** to open the [Editing TableAdapters](../data-tools/editing-tableadapters.md).  
+2.  Right-click CustomersTableAdapter and click **Add Query**.  
   
 3.  On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
   
@@ -389,7 +389,7 @@ translation.priority.ht:
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
   
--   Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md).  
+-   Add validation to the dataset. 
   
 -   Add additional methods to the service for updating data back to the database.  
   

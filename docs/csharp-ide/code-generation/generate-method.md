@@ -1,5 +1,5 @@
 ---
-title: "Generate Method | Microsoft Docs"
+title: "Generate a method - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
     - "zh-tw"
 ---
 
-# Generate Method
+# Generate a method in C# #
 **What:** Lets you immediately add a method to a class. 
 
 **When:** You introduce a new method and want to properly declare it, automatically.  

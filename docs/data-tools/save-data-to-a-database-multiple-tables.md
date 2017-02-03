@@ -51,7 +51,7 @@ One of the most common scenarios in application development is to display data o
   
 -   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
--   Setting the controls of the items in the [Data Sources Window](../Topic/Data%20Sources%20Window.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+-   Setting the controls of the items in the [Data Sources Window](add-new-data-sources.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
 -   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
@@ -62,7 +62,7 @@ One of the most common scenarios in application development is to display data o
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.  For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database.  For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 ## Create the Windows application  
  The first step is to create a **Windows Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we're planning on saving it later.  
@@ -78,7 +78,7 @@ One of the most common scenarios in application development is to display data o
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create the data source  
- This step creates a data source from the Northwind database using the **Data Source Configuration Wizard**. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+ This step creates a data source from the Northwind database using the **Data Source Configuration Wizard**. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 #### To create the data source  
   
@@ -122,7 +122,7 @@ One of the most common scenarios in application development is to display data o
   
 1.  Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 2.  Drag the related **Orders** node from the **Data Sources** window onto **Form1**.  
   
@@ -158,12 +158,6 @@ One of the most common scenarios in application development is to display data o
   
 4.  Check the values in the database to verify that the changes were saved.  
   
-## Next Steps  
- Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form in your Windows application. Some enhancements you could make to this walkthrough include:  
-  
--   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
-  
--   Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](../Topic/How%20to:%20Edit%20a%20Dataset.md).  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
