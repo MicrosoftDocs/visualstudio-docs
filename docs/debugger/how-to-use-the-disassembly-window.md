@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Disassembly Window | Microsoft Docs"
+title: "Viewing Disassembly Code in the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

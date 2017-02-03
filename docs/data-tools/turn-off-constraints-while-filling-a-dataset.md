@@ -58,7 +58,7 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 ### To suspend update constraints using the Dataset Designer  
   
-1.  Open your dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md). For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.  
   
