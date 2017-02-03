@@ -93,7 +93,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 #### To create a relationship between two data tables  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Drag a **Relation** object from the **DataSet** toolbox onto the child data table in the relationship.  
   
@@ -107,7 +107,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 6.  Select the columns that join the tables in the **Key Columns** and **Foreign Key Columns** lists.  
   
-7.  Select whether to create a relation, constraint, or both. For information, see [Introduction to DataRelation Objects](../Topic/Introduction%20to%20DataRelation%20Objects.md).  
+7.  Select whether to create a relation, constraint, or both.   
   
 8.  Select or clear the **Nested Relation** box. Selecting this option sets the <xref:System.Data.DataRelation.Nested%2A> property to `true`, and it causes the child rows of the relation to be nested within the parent column when those rows are written as XML data or synchronized with <xref:System.Xml.XmlDataDocument>. For more information, see [Nesting DataRelations](http://msdn.microsoft.com/Library/9530f9c9-dd98-4b93-8cdb-40d7f1e8d0ab).  
   
@@ -117,6 +117,6 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
 #### To display a relation name in the Dataset Designer  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
