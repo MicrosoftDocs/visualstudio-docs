@@ -48,7 +48,7 @@ translation.priority.mt:
   
  Typed datasets have been enhanced so that the TableAdapters and dataset classes can be generated into discrete projects. This provides the ability to quickly separate application layers and generate n-tier data applications.  
   
- N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md). When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
+ N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the **Dataset Designer**. When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
   
 ## In This Section  
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
@@ -66,9 +66,6 @@ translation.priority.mt:
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.  
   
- [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
- Provides step-by-step instructions for adding validation to the application that was created in the n-tier data application walkthrough.  
-  
 ## Reference  
  <xref:System.Data.DataSet>  
   
@@ -83,6 +80,6 @@ translation.priority.mt:
   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
   
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)  
+ [Create and Configure TableAdapters](create-and-configure-tableadapters.md)   
   
  [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)

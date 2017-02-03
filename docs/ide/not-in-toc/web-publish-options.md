@@ -1,7 +1,7 @@
 ---
 title: "What publishing options are right for me? | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/07/2016"
+ms.date: "1/31/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -38,7 +38,7 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [Azure App Service](#azure-app-service)
 - [Azure Virtual Machines](#azure-virtual-machines)
 - [File system](#file-system)
-- [Custom targets](#custom-targets), which includes all arbitrary web servers.
+- [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
 On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. 
 

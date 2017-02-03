@@ -46,7 +46,7 @@ You can use the **Data Sources** window to bind an image in a database to a cont
   
  Pictures in a database are typically stored as byte arrays. Items in the **Data Sources** window that are stored as byte arrays have their control type set to **None** by default, because byte arrays can contain anything from a simple array of bytes to the executable file of a large application. To create a data-bound control for a byte array item in the **Data Sources** window that represents an image, you must select the control to create.  
   
- The following procedure assumes that the **Data Sources** window is already populated with an item that is bound to your image. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).  
+ The following procedure assumes that the **Data Sources** window is already populated with an item that is bound to your image. 
   
 ### To bind a picture in a database to a control  
   
@@ -63,4 +63,4 @@ You can use the **Data Sources** window to bind an image in a database to a cont
     -   Alternatively, you can select a different control that supports data binding and that can display images. If the control that you want to use is not in the list of available controls, you can add it to the list and then select it. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
 ## See Also  
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)
+ [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)

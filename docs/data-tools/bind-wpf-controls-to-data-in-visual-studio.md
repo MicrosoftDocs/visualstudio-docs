@@ -50,7 +50,7 @@ You can display data to users of your application by binding data to [!INCLUDE[T
   
 |Task|More information|  
 |----------|----------------------|  
-|Create new data-bound controls.<br /><br /> Bind existing controls to data.|[Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md) [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)|  
+|Create new data-bound controls.<br /><br /> Bind existing controls to data.|[Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md) [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)|  
 |Create controls that display related data in a parent-child relationship: when the user selects a parent data record in one control, another control displays related child data for the selected record.|[Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)|  
 |Create a *lookup table* that displays information from one table based on the value of a foreign-key field in another table.|[Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)|  
 |Bind a control to an image in a database.|[Bind controls to pictures from a database](../data-tools/bind-controls-to-pictures-from-a-database.md)|  
