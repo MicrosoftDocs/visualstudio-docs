@@ -51,7 +51,7 @@ If no command is specified, it will install the product.
 | ----------------------- | --------------- |  
 | ```--installPath <dir>``` | The installation directory for the instance to act upon. For the install command, this is where the instance will be installed. For other commands, this is where the previously-installed instance was installed. |
 | ```--productId <id>``` | The ID of the product for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
-| ```--layout <dir>``` | Optional: Specifies a directory to create an offline install cache. Selecting this option will implicitly add the '--wait' option as well.|
+| ```--layout <dir>``` | Optional: Specifies a directory to create an offline install cache. Selecting this option will implicitly add the '--wait' option as well. |
 | ```--lang <language-locale>``` *[&#60;language-locale&#62; ...]* | Optional: Install/uninstall resource packages with the specified language(s). |
 | ```--add <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | Optional: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using '--includeRecommended' and/or '--includeOptional'. For finer-grained control, you can append ';includeRecommended' and/or ';includeOptional' to the artifactId (e.g. '--add Workload1;includeRecommended' or '--add Workload2;includeOptional;includeRecommended'). |
 | ```--remove <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | Optional: One or more workload or component IDs to remove. |
