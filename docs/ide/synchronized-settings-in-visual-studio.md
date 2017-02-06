@@ -1,7 +1,7 @@
 ---
-title: "Synchronized Settings in Visual Studio | Microsoft Docs"
+title: "Synchronize your settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/23/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -30,8 +30,8 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Synchronized Settings in Visual Studio
-When you use the same personalization account to sign in to Visual Studio on multiple computers, by default your settings are synchronized on all computers.  
+# Synchronize your settings in Visual Studio
+When you sign in to Visual Studio on multiple computers using the same personalization account, by default your settings are synchronized on all computers.
 
 ## Synchronized settings  
  By default, the following settings are synchronized.  
@@ -58,11 +58,11 @@ When you use the same personalization account to sign in to Visual Studio on mul
 
 -   User-defined window layouts in **Window &#124; Manage Window Layouts** page  
 
-## Turning synchronized settings off for a particular computer  
+## Turn off synchronized settings on a particular computer  
  Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools &#124; Options &#124; Environment &#124; Synchronized Settings** page and unchecking the checkbox.  For example, if you decide not to synchronize Visual Studio’s settings on Computer A, any setting changes made on Computer A do not appear on Computer B or Computer C. Computer B and C will continue to synchronize with each other, but not with Computer A.  
 
-## Synchronizing settings across Visual Studio family products and editions  
+## Synchronize settings across Visual Studio family products and editions  
  Settings can be synchronized across any edition of Visual Studio, including the Community edition. Settings are also synchronized across Visual Studio family products. However, each of these family products may have its own settings that are not shared with Visual Studio. For example, settings specific to one product on Computer A will be shared with another on Computer B, but not with Visual Studio on Computer A or B.  
 
-## See Also  
+## See also  
  [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)

@@ -1,5 +1,5 @@
 ---
-title: "Creating and managing databases and data-tier applications in Visual Studio | Microsoft Docs"
+title: "Creating and managing databases and data-tier applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

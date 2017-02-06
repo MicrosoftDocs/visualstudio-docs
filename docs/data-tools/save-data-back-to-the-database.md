@@ -280,13 +280,8 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 >  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See Also  
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
+ [Create and Configure TableAdapters](create-and-configure-tableadapters.md)    
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)   
- [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
-    
- [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
  [Validating Data](validate-data-in-datasets.md)   
  [Saving Data](../data-tools/saving-data.md)

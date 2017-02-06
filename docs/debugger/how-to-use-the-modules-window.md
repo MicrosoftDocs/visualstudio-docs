@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Modules Window | Microsoft Docs"
+title: "Viewing Modules, DLLs, and Executables | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -46,7 +46,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Modules Window
+# How to: Use the Modules Window in the Debugger
 > [!NOTE]
 >  This feature is not available for SQL or script debugging.  
   
