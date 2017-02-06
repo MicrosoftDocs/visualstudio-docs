@@ -46,12 +46,12 @@ You can either read along to see the features of the debugger or you can downloa
 
 Although the demo app is C#, the features are applicable to C++, VB, JavaScript, and other languages supported by Visual Studio (except where noted).
 
-> [!IMPORTANT]
-> You need to install Visual Studio with the .NET Desktop Development workload to run the app we're using in the demo.
-
 ## Start the Tour!
 
 1. To follow along these steps in Visual Studio, download the sample [on this page](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
+
+    > [!IMPORTANT]
+    > You need to install Visual Studio with the .NET Desktop Development workload to run the app we're using in the demo.
 
 2. Unzip the project.
 
@@ -71,7 +71,7 @@ Although the demo app is C#, the features are applicable to C++, VB, JavaScript,
 
      F5 starts the app with the debugger attached to the app process, but right now we haven't added any breakpoints or done anything special to examine the code. So the app just loads and you see the photo images.
 
-     In this tour, we'll take a closer look at this app using the debugger.
+     In this tour, we'll take a closer look at this app using the debugger and get a look at the debugger features.
 
 5. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
@@ -87,7 +87,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      The yellow arrow represents the line of code on which the debugger paused, which also suspends app execution at the same point (this line of code has not yet executed).
 
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options in later steps.) By default, the debugger skips over non-user code (see [Just My Code](../debugger/just-my-code.md) for more information).
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options in later steps.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
      >[!NOTE]
      > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
@@ -139,11 +139,11 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
      ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
     >  [!NOTE] 
-    > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+    > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 instead to advance the debugger.
 
 6. Click the green arrow ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button.
 
-    Using the green arrow button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file). If you don't see the green arrow button, use F11 instead to advance the debugger.
+    Using the green arrow button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file).
 
     The debugger advances to the `Update` method implementation.
 
@@ -151,7 +151,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      ![Step into Update Method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
-    Here, we find some more code that looks interesting; it appears the app is getting all *.jpg files residing in a particular directory, and then creating a new Photo object for each file. This gives us a good opportunity to start inspecting your app state with the debugger.
+    Here, we find some more code that looks interesting; it appears the app is getting all *.jpg files residing in a particular directory, and then creating a new Photo object for each file. This gives us a good opportunity to start inspecting your app state (variables) with the debugger.
 
     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when trying to debug an issue, you will be attempting to find out whether variables are storing the values that you expect them to have at a particular point of execution.
 
@@ -168,7 +168,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     Often, when debugging, you will want a quick way to check property values on objects, and the data tips are a good way to do it.
 
     > [!TIP]
-    > In most supported languages, you can edit code in the middle of a debugger session if you find something you want to change. For more info, see [Edit and Continue](../debugger/edit-and-continue.md). To use that feature in this app, we would first need to update the version of the .NET Framework.
+    > In most supported languages, you can edit code in the middle of a debugger session if you find something you want to change. For more info, see [Edit and Continue](../debugger/edit-and-continue.md). To use that feature in this app, we would first need to update the app's version of the .NET Framework.
 
 ## Inspect Variables with the Autos and Locals Windows
 
@@ -194,7 +194,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Now, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
     
-    > [!NOTE]
+    > [!TIP]
     > If you need to track the value of the variable even when it's out of scope, in C# you can [Create an Object ID](../debugger/watch-and-quick-watch-windows.md#bkmk_objectIds) for it using the **Watch** window.
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
@@ -212,7 +212,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
 
     >  [!NOTE]
-    > The **Call Stack** window is similar to the Debug perspective in some IDEs.
+    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
     The call stack is a good way to examine and understand the execution flow of an app.
 
@@ -270,7 +270,7 @@ Let's say that you are done examining the `Update` method in Data.cs, then you m
      
      ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
-     Here, the Exception Helper shows you a `System.Arguement` exception and an error message that says that the path is not a legal form.
+     Here, the Exception Helper shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
 
      In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable. (Hover over `value` to see the empty string.)
 
