@@ -16,7 +16,7 @@
 ### [Create and configure datasets in Visual Studio](create-and-configure-datasets-in-visual-studio.md)
 #### [Typed vs. untyped datasets](typed-vs-untyped-datasets.md)
 #### [Relationships in datasets](relationships-in-datasets.md)
-#### [Walkthrough: Creating a DataSet in the Dataset Designer](walkthrough-creating-a-dataset-in-the-dataset-designer.md)
+#### [Walkthrough: Creating a DataSet with the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md)
 #### [Walkthrough: Creating a DataTable in the Dataset Designer](walkthrough-creating-a-datatable-in-the-dataset-designer.md)
 ### [Fill datasets by using TableAdapters](fill-datasets-by-using-tableadapters.md)
 #### [Create and configure TableAdapters](create-and-configure-tableadapters.md)
