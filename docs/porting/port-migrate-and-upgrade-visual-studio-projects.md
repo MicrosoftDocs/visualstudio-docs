@@ -54,7 +54,6 @@ The following list describes support in Visual Studio 2015 and Visual Studio 201
 | Type of Project | Compatibility |
 | --- | --- |
 | Universal Windows Platform apps | To install the tools Universal Windows apps, in Visual Studio setup, select **Custom** or **Modify**, and then select **Universal Windows App Development Tools**.
-
 Universal Windows Platform (UWP) app development for Windows 10 is supported only in Visual Studio 2015 on Windows 10 or Windows 8.1. |
 | Windows Store apps | Windows Store app development, including Universal apps that target both Windows 8.1 and Windows Phone 8.1, is supported on Windows 8.1 and Windows 10. Existing Windows 8 projects can continue to be serviced, but new Windows 8 projects cannot be created. Windows 8.1 projects can depend only on certain types of references. For more information, see [Managing references in a project](https://msdn.microsoft.com/en-us/library/ez524kew.aspx). **Note:**  Windows 8.1 projects that you create by using Visual Studio 2015 or Visual Studio 2013 cannot be opened in Visual Studio 2012. That is because Windows 8.1 projects created by using Visual Studio 2015 and Visual Studio 2013 target those versions, and Visual Studio 2012 supports only Windows 8 projects that target Windows 8. |
 | .NET Framework 4.5.1 | You can create and use these projects in Visual Studio 2015 and Visual Studio 2013 after you install the appropriate multi-targeting pack. These projects are not supported in Visual Studio 2010 SP1. |
@@ -69,7 +68,6 @@ Universal Windows Platform (UWP) app development for Windows 10 is supported onl
 | Local Database Cache | The Local Database Cache template and the **Configure Data Synchronization** dialog box are not included in Visual Studio 2013. You can use Visual Studio 2013 to open and run projects that were created in Visual Studio 2010 if Microsoft Synchronization Services v1.0 is installed, but if you want to update them in Visual Studio 2013, you must make all changes manually in code. As an alternative, you can continue to use Visual Studio 2010 to maintain and update these projects. For new development, target the new synchronization model that's provided by the Microsoft Sync Framework. For information, see [Microsoft Sync Framework Developer Center](https://msdn.microsoft.com/sync/default) |
 | Model-View-Controller framework | Visual Studio 2010 SP1 supports only MVC 2 and MVC 3, Visual Studio 2012 supports only MVC 3 and MVC 4, and Visual Studio 2013 supports only MVC 4. For information about how to automatically upgrade from MVC 2 to MCV 3, see [ASP.NET MVC 3 Application Upgrader](http://go.microsoft.com/fwlink/?LinkID=238178). For information about how to manually upgrade from MVC 2 to MVC 3, see [Upgrading an ASP.NET MVC 2 Project to ASP.NET MVC 3 Tools Update](http://go.microsoft.com/fwlink/?linkid=238178). For information about how to manually upgrade from MVC3 to MVC 4, see [Upgrading an ASP.NET MVC 3 Project to ASP.NET MVC 4](http://www.asp.net/whitepapers/mvc4-release-notes). If your project targets the .NET Framework 3.5 SP1, you must retarget it to use the .NET Framework 4. |
 | Modeling | If you allow Visual Studio to update the project automatically, you can open it in Visual Studio 2013, Visual Studio 2012, or Visual Studio 2010 SP1.
-
 When Team Foundation builds a modeling project, it tries to validate the layers in the project. In Visual Studio 2013, Team Foundation Build can't validate the layers for a modeling project that was created in Visual Studio 2010 SP1. However, in Visual Studio 2010 SP1, Team Foundation Build can validate the layers in a modeling project that was created in Visual Studio 2013. |
 | MPI/Cluster Debugging | If the same version of the runtime or tools is installed on the computers that are running Visual Studio 2013, Visual Studio 2012, or Visual Studio 2010 SP1, you can open this project in all three versions. |
 | MSI setup (.vdproj) | This project can't be opened in Visual Studio 2013 because it doesn't support that project type. We recommend that you use InstallShield Limited Edition for Visual Studio (ISLE), a free deployment solution that directly supports most Windows platforms and application runtimes. You can also use ISLE to import data and settings from Visual Studio Installer projects. . |
@@ -85,17 +83,7 @@ When Team Foundation builds a modeling project, it tries to validate the layers 
 | Unit tests | You can use Microsoft Test Manager in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1 to open tests that were created in any of these versions. |
 | Visual C++ | You can use Visual Studio 2013 to open a C++ project that was created in Visual Studio 2012 or Visual Studio 2010 SP1. If you want to use the Visual Studio 2013 build environment to build a project that was created in Visual Studio 2012, you must have both versions of Visual Studio installed on the same computer. For more information, see [How to: Upgrade Visual C++ Projects to Visual Studio 2015](https://msdn.microsoft.com/en-us/library/hh690665.aspx) and [Visual C++ Porting and Upgrading Guide](https://msdn.microsoft.com/en-us/library/dn986839.aspx). |
 | Visual Studio 2010 web | If you allow Visual Studio to upgrade the project automatically, you can open it in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
-| Visual Studio 2010 Database (.dbproj) | If you convert the project to a SQL Server Data Tools Database project, you can open it in Visual Studio 2013. However, Visual Studio 2013 doesn’t support these artifacts:
-
-- unit tests
-- data-generation plans
-- data-comparison files
-- custom rule extensions for static code analysis
-- server.sqlsettings
-- .sqlcmd files
-- custom deployment extensions
-- partial projects (.files)
-
+| Visual Studio 2010 Database (.dbproj) | If you convert the project to a SQL Server Data Tools Database project, you can open it in Visual Studio 2013. However, Visual Studio 2013 doesn’t support the following artifacts: unit tests, data-generation plans, data-comparison files, custom rule extensions for static,code analysis, server.sqlsettings, .sqlcmd files, custom deployment extensions, and partial projects (.files).
 If you install SQL Server Data Tools, you can open the project in Visual Studio 2010 SP1 after the conversion. For more information, see [Microsoft SQL Server Data Tools](https://msdn.microsoft.com/data/tools.aspx). |
 | Visual Studio 2010 Visual Database Tools | You can open this project in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
 | Visual Studio Lab Management | You can use Microsoft Test Manager, Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1 to open environments that were created in any of these versions. However, the version of Microsoft Test Manager must match the version of Team Foundation Server before you can create environments. |
@@ -108,7 +96,6 @@ If you install SQL Server Data Tools, you can open the project in Visual Studio 
 | Other | You can open most other types of projects in Visual Studio 2012, Visual Studio 2013, and Visual Studio 2010 SP1. |
 | FrontPage Web Sites | This project can't be opened in Visual Studio 2013 because it doesn't support the project type. |
 | Portable Class Library | If you allow Visual Studio to update the project automatically, you can open it in Visual Studio 2013, Visual Studio 2012, or Visual Studio 2010 SP1.
-
 - Projects that targeted Silverlight 4 will target Silverlight 5.
 - Projects that targeted Windows Phone 7.0 or Windows Phone 7.5 will target Windows Phone 8.
 - Projects that targeted Xbox 360 will no longer target Xbox 360. |
@@ -118,17 +105,17 @@ If you install SQL Server Data Tools, you can open the project in Visual Studio 
 
 Here are some things you can do when a project won't open in Visual Studio 2015 or Visual Studio 2013:
 
-*   If you try to open a project that isn't supported in Visual Studio 2015 or Visual Studio 2013 and for which the associated version of Visual Studio isn't installed, a message that the project type isn't supported might appear and the project type might be listed in the **Review Project and Solution Changes** dialog box under **Unsupported projects**. To resolve this issue, open the programs and features page in the Windows **Control Panel**, select **Visual Studio**, and then choose **Change**, **Repair**. Then you can install the missing version.
+* If you try to open a project that isn't supported in Visual Studio 2015 or Visual Studio 2013 and for which the associated version of Visual Studio isn't installed, a message that the project type isn't supported might appear and the project type might be listed in the **Review Project and Solution Changes** dialog box under **Unsupported projects**. To resolve this issue, open the programs and features page in the Windows **Control Panel**, select **Visual Studio**, and then choose **Change**, **Repair**. Then you can install the missing version.
 
-*   If you try to open a project for a desktop app in Visual Studio Express 2013 for Windows, an error occurs and one of these messages is displayed: "This edition of Visual Studio only supports Windows 8.1 apps" or "This project is incompatible with the current edition of Visual Studio." Visual Studio Express 2013 for Windows is restricted to the development, testing, and deployment of Windows Store apps designed for Windows 8.1. To open a desktop app project, you must use an edition of Visual Studio that supports that project type.
+* If you try to open a project for a desktop app in Visual Studio Express 2013 for Windows, an error occurs and one of these messages is displayed: "This edition of Visual Studio only supports Windows 8.1 apps" or "This project is incompatible with the current edition of Visual Studio." Visual Studio Express 2013 for Windows is restricted to the development, testing, and deployment of Windows Store apps designed for Windows 8.1. To open a desktop app project, you must use an edition of Visual Studio that supports that project type.
 
     For more information about the Visual Studio editions, see [Microsoft Visual Studio Products](http://go.microsoft.com/fwlink/?LinkId=254332)
 
-*   If you try to open a Windows Store App project in Visual Studio Express 2013 for Windows Desktop, an error occurs. Visual Studio Express 2013 for Windows Desktop cannot be used to build Windows Store apps. If you want to build Windows Store apps, you can also install Visual Studio Express 2013 for Windows. Or, to develop apps for all Microsoft platforms and the web, try Visual Studio Professional 2013.
+* If you try to open a Windows Store App project in Visual Studio Express 2013 for Windows Desktop, an error occurs. Visual Studio Express 2013 for Windows Desktop cannot be used to build Windows Store apps. If you want to build Windows Store apps, you can also install Visual Studio Express 2013 for Windows. Or, to develop apps for all Microsoft platforms and the web, try Visual Studio Professional 2013.
 
-*   If a project requires features that are specific to Visual Studio 2013, it can't be opened in an earlier version.
+* If a project requires features that are specific to Visual Studio 2013, it can't be opened in an earlier version.
 
-*   If you're using Visual Studio 2012 and you want to open a project that was created in Visual Studio 2013, you might be able to customize the project system to incorporate features of Visual Studio 2013. For information about how to do this, see [Making Custom Projects Version-Aware](https://msdn.microsoft.com/en-us/library/hh266706.aspx).
+* If you're using Visual Studio 2012 and you want to open a project that was created in Visual Studio 2013, you might be able to customize the project system to incorporate features of Visual Studio 2013. For information about how to do this, see [Making Custom Projects Version-Aware](https://msdn.microsoft.com/en-us/library/hh266706.aspx).
 
 For additional troubleshooting information, see the [Visual Studio 2013 Compatibility](http://support.microsoft.com/kb/2863286) KB article.
 
