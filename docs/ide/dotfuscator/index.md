@@ -56,6 +56,15 @@ Even more application protection measures are available to registered users of D
 and to users of *PreEmptive Protection - Dotfuscator* Professional Edition, the world's leading [.NET Obfuscator][net-obfuscator].
 For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
+## Getting Started
+
+To begin using Dotfuscator CE from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
+
+* If Dotfuscator CE is already installed, this will bring up the *Menu* option to start the Dotfuscator CE user interface. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][getstarted].
+* If Dotfuscator CE is not yet installed, this will bring up the relevant *Install* option. See the [Installation page][install] for details.
+
+You can also get the **latest version** of Dotfuscator CE from [the Dotfuscator Downloads page on preemptive.com][download].
+
 ## Full Documentation
 
 This page and its sub-pages provide a high-level overview of Dotfuscator CE's features, as well as [instructions for installing the tool][install].
@@ -68,6 +77,7 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 [app-protection]: https://www.preemptive.com/application-protection
 [sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
 [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
+[download]: https://preemptive.com/?future_path=products/dotfuscator/download
 
 [install]: install.md
 [capabilities]: capabilities.md
