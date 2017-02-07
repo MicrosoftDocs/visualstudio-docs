@@ -64,4 +64,4 @@ Once the installation is complete, you can start using Dotfuscator CE. For detai
 [2017-install]: https://www.visualstudio.com/downloads/#vs-2017
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_install.html
 [get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
-[download]: https://preemptive.com/?future_path=products/dotfuscator/download
+[download]: https://www.preemptive.com/products/dotfuscator/download

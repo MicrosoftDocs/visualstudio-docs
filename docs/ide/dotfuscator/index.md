@@ -71,13 +71,13 @@ This page and its sub-pages provide a high-level overview of Dotfuscator CE's fe
 
 Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][getstarted].
 
-[assemblies]: https://msdn.microsoft.com/en-us/library/zst29sk2.aspx
+[assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
 [software-protection]: https://www.preemptive.com/software-protection
 [obfuscation]: https://www.preemptive.com/obfuscation
 [app-protection]: https://www.preemptive.com/application-protection
 [sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
 [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
-[download]: https://preemptive.com/?future_path=products/dotfuscator/download
+[download]: https://www.preemptive.com/products/dotfuscator/download
 
 [install]: install.md
 [capabilities]: capabilities.md

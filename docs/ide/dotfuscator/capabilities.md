@@ -61,7 +61,7 @@ When run, the processed application will transmit analytics data to a configured
 
 [This topic in the full Dotfuscator CE User Guide][full]
 
-[assemblies]: https://msdn.microsoft.com/en-us/library/zst29sk2.aspx
+[assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
 [uwp]: https://www.preemptive.com/blog/article/856-uwp-applications-in-dotfuscator-ce/91-dotfuscator-ce
 [xamarin]: https://www.preemptive.com/obfuscating-xamarin-with-dotfuscator
 
