@@ -50,7 +50,7 @@ You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and
 ## Observing a single variable with QuickWatch  
  You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  
   
-```c#  
+```CSharp 
 static void Main(string[] args)  
 {  
     int a, b;  
@@ -78,7 +78,7 @@ static void Main(string[] args)
 ## Observing variables with the Watch window  
  You can observe multiple variables with the **Watch** window. For example, if you have the following code:  
   
-```c#  
+```C++  
 static void Main(string[] args)  
 {  
     int a, b, c;  
@@ -126,7 +126,7 @@ static void Main(string[] args)
 ##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
  In certain circumstances you might see a refresh icon (a circle with two arrows, or a circle with two wavy lines) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and you have the following code:  
   
-```c#  
+```CSharp  
 static void Main(string[] args)  
 {  
     List<string> list = new List<string>();  
@@ -177,7 +177,7 @@ var1 = var2
   
  In the following code one method creates a `Person` using a local variable, but you want to find out what the `Person`’s name is in a different method:  
   
-```c#  
+```CSharp  
 class Person  
 {  
     public Person(string name)  
