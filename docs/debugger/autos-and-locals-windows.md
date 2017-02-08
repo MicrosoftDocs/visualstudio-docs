@@ -1,7 +1,7 @@
 ---
 title: "Inspect Variables in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/08/2016"
+ms.date: "02/07/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -52,11 +52,11 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
 ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
 ## What variables appear in the Autos window?  
-You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos** window does not support JavaScript or F#.  
+ You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos** window does not support JavaScript or F#.  
   
-In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
+ In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
 
-``` 
+```c#
 public static void Main()  
 {  
    int a, b, c, d;  
@@ -67,13 +67,13 @@ public static void Main()
 }  
 ```  
   
-If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
+ If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
   
-![Autos&#45;CSharp](../debugger/media/autos-csharp.png "Autos-CSharp")  
+ ![Autos&#45;CSharp](../debugger/media/autos-csharp.png "Autos-CSharp")  
   
-Note that the value of `c` is 0, because the line `c = 3` has not yet been executed.  
+ Note that the value of `c` is 0, because the line `c = 3` has not yet been executed.  
   
-In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
+ In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
   
 ```cpp 
     void main() {  
@@ -87,20 +87,20 @@ In C++ the **Autos** window displays the variables used at least three lines bef
     }  
 ```  
   
-If you set a breakpoint on the line `e = 5;` and run the debugger, when execution stops the **Autos** window will look like this:  
+ If you set a breakpoint on the line `e = 5;` and run the debugger, when execution stops the **Autos** window will look like this:  
   
-![Autos&#45;Cplus](../debugger/media/autos-cplus.png "Autos-Cplus")  
+ ![Autos&#45;Cplus](../debugger/media/autos-cplus.png "Autos-Cplus")  
   
-Note that the variable e is uninitialized because the code on the line `e = 5;` has not yet been executed.  
+ Note that the variable e is uninitialized because the code on the line `e = 5;` has not yet been executed.  
   
-You can also see the return values of functions and methods in certain circumstances. See [View return values of method calls](#bkmk_returnValue) below.  
+ You can also see the return values of functions and methods in certain circumstances. See [View return values of method calls](#bkmk_returnValue) below.  
   
 ##  <a name="bkmk_returnValue"></a> View return values of method calls  
-In .NET and C++ code you can examine return values when you step over or out of a method call. This functionality is useful when the result of a method call is not stored in a local variable, for example when a method is used as a parameter or as a return value of another    method.  
+ In .NET and C++ code you can examine return values when you step over or out of a method call. This functionality is useful when the result of a method call is not stored in a local variable, for example when a method is used as a parameter or as a return value of another    method.  
   
-The following C# code adds the return values of two functions:  
+ The following C# code adds the return values of two functions:  
 
-```js
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
@@ -122,11 +122,11 @@ private static int subtractVars(int i, int j)
 }  
 ```
 
-Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
+ Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
   
-Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
+ Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
   
-![AutosReturnValueCSharp2](../debugger/media/autosreturnvaluecsharp2.png "AutosReturnValueCSharp2")  
+ ![AutosReturnValueCSharp2](../debugger/media/autosreturnvaluecsharp2.png "AutosReturnValueCSharp2")  
   
 ## Why are variable values sometimes red in Locals and Autos windows?  
 You may notice that the value of a variable is sometimes red in the **Locals** and **Autos** windows. These are variable values that have been changed since the last evaluation. The change could be from a previous debugging session, or because the value was changed in the window.  
