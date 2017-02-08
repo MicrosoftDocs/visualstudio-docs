@@ -55,16 +55,17 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
 You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos** window does not support JavaScript or F#.  
   
 In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
-  
-```cs  
-public static void Main()  
-{  
-    int a, b, c, d;  
-    a = 1;  
-    b = 2;  
-    c = 3;  
-    d = 4;  
-}  
+
+> [!div class="tabbedCodeSnippets"]  
+> ```cs  
+> public static void Main()  
+> {  
+>    int a, b, c, d;  
+>    a = 1;  
+>    b = 2;  
+>    c = 3;  
+>    d = 4;  
+> }  
 ```  
   
 If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
@@ -76,15 +77,15 @@ Note that the value of `c` is 0, because the line `c = 3` has not yet been execu
 In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
   
 ```cpp 
-void main() {  
-    int a, b, c, d, e, f;  
-    a = 1;  
-    b = 2;  
-    c = 3;  
-    d = 4;  
-    e = 5;  
-    f = 6;  
-}  
+    void main() {  
+        int a, b, c, d, e, f;  
+        a = 1;  
+        b = 2;  
+        c = 3;  
+        d = 4;  
+        e = 5;  
+        f = 6;  
+    }  
 ```  
   
 If you set a breakpoint on the line `e = 5;` and run the debugger, when execution stops the **Autos** window will look like this:  
@@ -99,8 +100,8 @@ You can also see the return values of functions and methods in certain circumsta
 In .NET and C++ code you can examine return values when you step over or out of a method call. This functionality is useful when the result of a method call is not stored in a local variable, for example when a method is used as a parameter or as a return value of another    method.  
   
 The following C# code adds the return values of two functions:  
-  
-```c#  
+
+```cs  
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
@@ -120,9 +121,8 @@ private static int subtractVars(int i, int j)
 {  
     return j - i;  
 }  
-  
-```  
-  
+```
+
 Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
   
 Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
