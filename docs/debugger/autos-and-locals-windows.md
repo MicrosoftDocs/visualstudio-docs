@@ -56,17 +56,16 @@ You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos*
   
 In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
 
-> [!div class="tabbedCodeSnippets"]  
-> ```c#  
-> public static void Main()  
-> {  
->    int a, b, c, d;  
->    a = 1;  
->    b = 2;  
->    c = 3;  
->    d = 4;  
-> }  
-> ```  
+``` 
+public static void Main()  
+{  
+   int a, b, c, d;  
+   a = 1;  
+   b = 2;  
+   c = 3;  
+   d = 4;  
+}  
+```  
   
 If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
   
@@ -101,7 +100,7 @@ In .NET and C++ code you can examine return values when you step over or out of 
   
 The following C# code adds the return values of two functions:  
 
-```c# 
+```js
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
