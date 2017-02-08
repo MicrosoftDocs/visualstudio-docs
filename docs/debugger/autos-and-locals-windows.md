@@ -11,12 +11,6 @@ ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.autos"
   - "vs.debug.locals"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
 helpviewer_keywords: 
   - "debugger, variable windows"
   - "debugging [Visual Studio], variable windows"
@@ -56,7 +50,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```csharp
+```c#
     public static void Main()
     {
        int a, b, c, d;
@@ -75,7 +69,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
 
  In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:
 
-``` cpp
+```cpp
     void main() {
         int a, b, c, d, e, f;
         a = 1;
