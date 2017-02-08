@@ -1,17 +1,37 @@
 ---
 title: "Dotfuscator Community Edition | Microsoft Docs"
-description: "Learn how you can protect your .NET applications with the free Dotfuscator Community Edition included in Visual Studio 2017."
-keywords: "dotfuscator ce preemptive protection community edition" 
-author: "Joe-K-Sewell"
-
-ms.devlang: "dotnet"
-
-ms.date: "2017-02-01"
-ms.topic: "article"
+ms.date: "2017-02-08"
 ms.prod: "visual-studio-dev15"
-
+ms.devlang: "dotnet"
+ms.technology: 
+  - "dotfuscator"
+ms.topic: "article"
+keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
+helpviewer_keywords: 
+  - "PreEmptive Protection - Dotfuscator" 
+  - "Dotfuscator Community Edition"
+  - "Dotfuscator CE"
+  - "Dotfuscator"
+  - "obfuscation"
+  - "protection"
+description: "Learn how you can protect your .NET applications with the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
-
+author: "Joe-Sewell-PreEmptive"
+manager: "ghogen"
+translation.priority.ht: 
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # PreEmptive Protection - Dotfuscator Community Edition (CE)
