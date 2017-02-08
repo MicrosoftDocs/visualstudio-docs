@@ -1,7 +1,7 @@
 ---
 title: "Inspect Variables in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/07/2016"
+ms.date: "02/08/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -57,14 +57,14 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
 
 ```c#
-public static void Main()  
-{  
-   int a, b, c, d;  
-   a = 1;  
-   b = 2;  
-   c = 3;  
-   d = 4;  
-}  
+    public static void Main()  
+    {  
+       int a, b, c, d;  
+       a = 1;  
+       b = 2;  
+       c = 3;  
+       d = 4;  
+    }  
 ```  
   
  If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
@@ -75,7 +75,7 @@ public static void Main()
   
  In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
   
-```cpp 
+``` cpp 
     void main() {  
         int a, b, c, d, e, f;  
         a = 1;  
@@ -100,7 +100,7 @@ public static void Main()
   
  The following C# code adds the return values of two functions:  
 
-```csharp
+``` cs
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
