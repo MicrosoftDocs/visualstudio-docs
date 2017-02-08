@@ -1,7 +1,7 @@
 ---
 title: "Inspect Variables in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/08/2016"
+ms.date: "02/06/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
