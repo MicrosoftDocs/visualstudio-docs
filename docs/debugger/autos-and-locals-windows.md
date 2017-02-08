@@ -56,7 +56,7 @@ The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows /
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
   
-```c#  
+```cs  
 public static void Main()  
 {  
     int a, b, c, d;  
@@ -75,7 +75,7 @@ public static void Main()
   
  In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
   
-```cpp  
+```cpp 
 void main() {  
     int a, b, c, d, e, f;  
     a = 1;  
@@ -100,7 +100,7 @@ void main() {
   
  The following C# code adds the return values of two functions:  
   
-```c#  
+```cs  
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
