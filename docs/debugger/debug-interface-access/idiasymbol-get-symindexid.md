@@ -38,7 +38,7 @@ Retrieves the unique symbol identifier.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_symIndexId (   
    DWORD* pRetVal  
 );  

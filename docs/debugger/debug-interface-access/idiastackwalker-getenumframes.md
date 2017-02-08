@@ -38,7 +38,7 @@ Retrieves a stack frame enumerator for x86 platforms.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT getEnumFrames(   
    IDiaStackWalkHelper*   pHelper,  
    IDiaEnumStackFrames**  ppEnum  

@@ -38,7 +38,7 @@ Retrieves the offset of the symbol location. Use when the [LocationType Enumerat
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_offset (   
    LONG* pRetVal  
 );  

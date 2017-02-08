@@ -38,7 +38,7 @@ Retrieves the file name for the last load error.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lastError (  
    BSTR* pRetVal  
 );  
@@ -53,7 +53,7 @@ HRESULT get_lastError (
   
 ## Example  
   
-```cpp#  
+```C++  
 BSTR    fileName;  
 HRESULT errorCode = pSource->get_lastError( &fileName );  
 ```  

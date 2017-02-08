@@ -38,7 +38,7 @@ Retrieves the previous symbols in order by address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Prev (   
    ULONG        celt,   
    IDiaSymbol** rgelt,  

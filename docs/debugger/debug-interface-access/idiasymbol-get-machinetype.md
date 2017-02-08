@@ -38,7 +38,7 @@ Retrieves the type of the target CPU.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_machineType (   
    DWORD* pRetVal  
 );  

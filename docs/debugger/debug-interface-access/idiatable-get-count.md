@@ -38,7 +38,7 @@ Retrieves the number of items in the table.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

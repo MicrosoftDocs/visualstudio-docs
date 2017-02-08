@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function contains asynchronous (stru
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_hasEHa(  
    BOOL *pFlag  
 );  

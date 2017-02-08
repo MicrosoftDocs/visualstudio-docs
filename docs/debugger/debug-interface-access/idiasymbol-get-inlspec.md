@@ -38,7 +38,7 @@ This function retrieves a flag indicating whether the function was marked as inl
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_inlSpec(  
    BOOL *pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the offset, in segments, where the section begins.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_offset (   
    DWORD* pRetVal  
 );  

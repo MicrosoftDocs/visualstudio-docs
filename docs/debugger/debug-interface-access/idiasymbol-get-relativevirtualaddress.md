@@ -38,7 +38,7 @@ Retrieves the relative virtual address (RVA) of the location. Use when the [Loca
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddress (   
    DWORD* pRetVal  
 );  
@@ -56,7 +56,7 @@ HRESULT get_relativeVirtualAddress ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pSymbol;  
 DWORD       rva;  
 pSymbol->get_relativeVirtualAddress( &rva );  

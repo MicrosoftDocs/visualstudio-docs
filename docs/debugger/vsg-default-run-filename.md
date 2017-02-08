@@ -34,7 +34,7 @@ Defines the default file name of the graphics log file.
   
 ## Syntax  
   
-```cpp  
+```C++  
 #define VSG_DEFAULT_FILENAME filename  
 ```  
   
@@ -45,7 +45,7 @@ Defines the default file name of the graphics log file.
 ## Value  
  A string literal that represents the file name of the graphics log file. By default, L"default.vsglog".  
   
-```cpp  
+```C++  
 #define VSG_DEFAULT_FILENAME L"default.vsglog"  
 ```  
   
@@ -57,7 +57,7 @@ Defines the default file name of the graphics log file.
 ## Example  
  This example shows how to change the capture file's default file name:  
   
-```cpp  
+```C++  
 // Redefine the default capture filename before including vsgcapture.h  
 #define VSG_DEFAULT_FILENAME L"capture.vsglog"  
   

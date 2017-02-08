@@ -38,7 +38,7 @@ The code in this topic is the sample file for the [Navigate a debug session  (Xa
   
 ## Sample Code  
   
-```c#  
+```CSharp  
 public MainPage()  
 {  
     InitializeComponent();  

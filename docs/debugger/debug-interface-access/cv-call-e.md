@@ -41,7 +41,7 @@ Specifies the calling convention for a function.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_call_e {   
    CV_CALL_NEAR_C    = 0x00,  
    CV_CALL_NEAR_FAST = 0x04,  

@@ -38,7 +38,7 @@ Opens and prepares a program database (.pdb) file as a debug data source.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT loadDataFromPdb (  
    LPCOLESTR pdbPath  
 );  
@@ -69,7 +69,7 @@ HRESULT loadDataFromPdb (
   
 ## Example  
   
-```cpp#  
+```C++  
 HRESULT hr = pSource->loadDataFromPdb( L"myprog.pdb" );  
 if (FAILED(hr))  
 {  

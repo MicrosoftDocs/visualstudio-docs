@@ -38,7 +38,7 @@ Checks to see if two symbols are equivalent.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symsAreEquiv (   
    IDiaSymbol* symbolA,  
    IDiaSymbol* symbolB  

@@ -38,7 +38,7 @@ Retrieves the image relative virtual address (RVA) of the contribution.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddress (   
    DWORD* pRetVal  
 );  

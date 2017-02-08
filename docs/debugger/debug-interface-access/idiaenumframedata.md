@@ -65,7 +65,7 @@ IDiaEnumFrameData : IUnknown
 ## Example  
  This example shows how to obtain (the `GetEnumFrameData` function) and use (the `ShowFrameData` function) the `IDiaEnumFrameData` interface. See the [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) interface for an example of the `PrintFrameData` function.  
   
-```cpp#  
+```C++  
   
       IDiaEnumFrameData* GetEnumFrameData(IDiaSession *pSession)  
 {  

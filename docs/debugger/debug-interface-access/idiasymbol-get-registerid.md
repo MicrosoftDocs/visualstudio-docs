@@ -38,7 +38,7 @@ Retrieves the register designator of the location when the [LocationType Enumera
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_registerId (   
    DWORD* pRetVal  
 );  

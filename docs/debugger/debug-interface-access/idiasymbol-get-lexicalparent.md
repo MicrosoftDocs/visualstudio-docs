@@ -38,7 +38,7 @@ Retrieves a reference to the lexical parent of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lexicalParent (   
    IDiaSymbol** pRetVal  
 );  

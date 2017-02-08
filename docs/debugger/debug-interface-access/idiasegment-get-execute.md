@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the segment is executable.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_execute (   
    BOOL* pRetVal  
 );  

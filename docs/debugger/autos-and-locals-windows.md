@@ -1,7 +1,7 @@
 ---
 title: "Inspect Variables in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/07/2016"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +50,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```c#
+```CSharp
     public static void Main()
     {
        int a, b, c, d;
@@ -69,7 +69,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
 
  In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:
 
-```cpp
+```C++
     void main() {
         int a, b, c, d, e, f;
         a = 1;
@@ -94,7 +94,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-```csharp
+```CSharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  

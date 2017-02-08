@@ -34,7 +34,7 @@ Ends a capture interval that was started with `BeginCapture`.
   
 ## Syntax  
   
-```cpp  
+```C++  
 void EndCapture();  
 ```  
   

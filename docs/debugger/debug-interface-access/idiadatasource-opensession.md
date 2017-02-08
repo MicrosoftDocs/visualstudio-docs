@@ -38,7 +38,7 @@ Opens a session for querying symbols.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT openSession (   
    IDiaSession** ppSession  
 );  
@@ -64,7 +64,7 @@ HRESULT openSession ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSession* pSession;  
 HRESULT hr = pSource->openSession( &pSession );  
 if (FAILED(hr))  

@@ -38,7 +38,7 @@ Retrieves the language of the source.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_language (   
    DWORD* pRetVal  
 );  

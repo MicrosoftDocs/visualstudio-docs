@@ -38,7 +38,7 @@ Retrieves the cyclic redundancy check (CRC) of the relocation information for th
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relocationsCrc (   
    DWORD* pRetVal  
 );  

@@ -36,7 +36,7 @@ Specifies whether the variable is optimized away.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isOptimizedAway(   
    BOOL* pRetVal);  
 ```  

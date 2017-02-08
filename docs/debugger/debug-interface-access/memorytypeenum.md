@@ -38,7 +38,7 @@ Specifies the type of memory to access.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum MemoryTypeEnum {  
    MemTypeCode,  
    MemTypeData,  

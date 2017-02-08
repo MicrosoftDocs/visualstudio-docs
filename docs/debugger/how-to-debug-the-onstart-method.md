@@ -45,7 +45,7 @@ You can debug a Windows service by starting the service and attaching the debugg
   
 1.  Add a call to <xref:System.Diagnostics.Debugger.Launch%2A> at the beginning of the `OnStart()`method.  
   
-    ```c#  
+    ```CSharp  
     protected override void OnStart(string[] args)  
     {  
         System.Diagnostics.Debugger.Launch();  

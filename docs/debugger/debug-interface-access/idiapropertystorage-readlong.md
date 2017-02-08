@@ -38,7 +38,7 @@ Reads `LONG` values in a property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadDLONG (   
    PROPID id,  
    LONG*  pValue  

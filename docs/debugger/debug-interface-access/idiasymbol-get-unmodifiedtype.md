@@ -38,7 +38,7 @@ Retrieves the original type for this symbol. Use when the [SymTagEnum Enumeratio
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_unmodifiedType(   
    IDiaSymbol** pRetVal  
 );  

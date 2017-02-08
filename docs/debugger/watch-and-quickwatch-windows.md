@@ -1,7 +1,7 @@
 ---
 title: "Setting a Watch on Variables | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,12 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.watch"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Watch window"
   - "expressions [debugger], evaluating"
@@ -50,7 +44,7 @@ You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and
 ## Observing a single variable with QuickWatch  
  You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  
   
-```CSharp 
+```CSharp
 static void Main(string[] args)  
 {  
     int a, b;  

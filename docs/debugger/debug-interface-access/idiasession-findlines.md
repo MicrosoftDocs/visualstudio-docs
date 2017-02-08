@@ -38,7 +38,7 @@ Retrieves line numbers within specified compiland and source file identifiers.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLines (   
    IDiaSymbol*           compiland,  
    IDiaSourceFile*       file,  

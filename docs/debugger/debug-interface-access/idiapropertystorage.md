@@ -79,7 +79,7 @@ IDiaPropertyStorage : IUnknown
 ## Example  
  This example shows a function that displays all properties exposed by the `IDiaPropertyStorage` object. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of how the `IDiaPropertyStorage` interface is obtained from the [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) interface.  
   
-```cpp#  
+```C++  
 void PrintPropertyStorage(IDiaPropertyStorage* pPropertyStorage)  
 {  
     IEnumSTATPROPSTG* pEnumProps;  

@@ -38,7 +38,7 @@ Retrieves the number records in the debug data stream.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

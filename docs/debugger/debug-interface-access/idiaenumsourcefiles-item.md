@@ -38,7 +38,7 @@ Retrieves a source file by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD            index,  
    IDiaSourceFile** sourceFile  

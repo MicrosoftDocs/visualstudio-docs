@@ -36,7 +36,7 @@ Retrieves the sub type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_subType(   
    IDiaSymbol** pRetVal);  
 ```  

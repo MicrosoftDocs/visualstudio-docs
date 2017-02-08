@@ -38,7 +38,7 @@ Retrieves a unique source file identifier for the source file that contributed t
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_sourceFileId (   
    DWORD* pRetVal  
 );  

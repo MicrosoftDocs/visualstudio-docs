@@ -63,7 +63,7 @@ IDiaEnumSectionContribs : IUnknown
 ## Example  
  This example shows how to obtain (the `GetEnumSectionContribs` function) and use (the `ShowSectionContribs` function) the `IDiaEnumSectionContribs` interface. For a more complete example of using section contributions, see the [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md) interface.  
   
-```cpp#  
+```C++  
   
       IDiaEnumSectionContribs* GetEnumSectionContribs(IDiaSession *pSession)  
 {  

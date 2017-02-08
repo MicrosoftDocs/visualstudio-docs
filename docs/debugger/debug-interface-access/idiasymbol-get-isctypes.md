@@ -38,7 +38,7 @@ Retrieves a flag indicating whether the symbol file contains C types.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isCTypes(  
    BOOL *pFlag  
 );  

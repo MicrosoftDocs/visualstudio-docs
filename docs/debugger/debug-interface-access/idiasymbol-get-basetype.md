@@ -38,7 +38,7 @@ Retrieves the base type for this symbol*.*
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_baseType (   
    DWORD* pRetVal  
 );  
@@ -59,7 +59,7 @@ HRESULT get_baseType ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pType;  
 CComPtr<IDiaSymbol> pBaseType;  
 if (pType->get_type( &pBaseType ) == S_OK)  

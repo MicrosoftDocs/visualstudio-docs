@@ -36,7 +36,7 @@ Specifies whether the `this` pointer is based on a symbol value.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isPointerBasedOnSymbolValue(   
    BOOL* pRetVal);  
 ```  

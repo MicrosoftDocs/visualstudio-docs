@@ -38,7 +38,7 @@ Retrieves flag indicating whether private symbols were stripped from the symbol 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isStripped(  
    BOOL *pFlag  
 );  
