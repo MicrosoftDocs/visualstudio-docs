@@ -54,39 +54,39 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
 ## What variables appear in the Autos window?  
  You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos** window does not support JavaScript or F#.  
   
- In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:  
+ In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```c#
-    public static void Main()  
-    {  
-       int a, b, c, d;  
-       a = 1;  
-       b = 2;  
-       c = 3;  
-       d = 4;  
-    }  
-```  
-  
+```csharp
+    public static void Main()
+    {
+       int a, b, c, d;
+       a = 1;
+       b = 2;
+       c = 3;
+       d = 4;
+    }
+```
+
  If you set a breakpoint on the line `c = 3`; and run the debugger, when execution stops the **Autos** window will look like this:  
-  
+
  ![Autos&#45;CSharp](../debugger/media/autos-csharp.png "Autos-CSharp")  
-  
+
  Note that the value of `c` is 0, because the line `c = 3` has not yet been executed.  
-  
- In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:  
-  
-``` cpp 
-    void main() {  
-        int a, b, c, d, e, f;  
-        a = 1;  
-        b = 2;  
-        c = 3;  
-        d = 4;  
-        e = 5;  
-        f = 6;  
-    }  
-```  
-  
+
+ In C++ the **Autos** window displays the variables used at least three lines before the current line (the line at which execution is stopped). If you declare six variables:
+
+``` cpp
+    void main() {
+        int a, b, c, d, e, f;
+        a = 1;
+        b = 2;
+        c = 3;
+        d = 4;
+        e = 5;
+        f = 6;
+    }
+```
+
  If you set a breakpoint on the line `e = 5;` and run the debugger, when execution stops the **Autos** window will look like this:  
   
  ![Autos&#45;Cplus](../debugger/media/autos-cplus.png "Autos-Cplus")  
@@ -100,7 +100,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-``` cs
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
