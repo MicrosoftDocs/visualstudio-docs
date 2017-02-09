@@ -1,7 +1,7 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
