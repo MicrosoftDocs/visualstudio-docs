@@ -187,10 +187,10 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 >  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. For example, you can capture graphics information on a Windows Phone and play it back on a desktop computer, and the reverse is also supported. In both cases, the graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
   
 ### Direct3D 10 and lower  
- Frame Analysis is only supported for the Direct3D 11 API. If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools. If your app uses both the Direct3D11 and the Direct3D 10 APIs, only the Direct3D 11 calls are profiled.  
+ If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools.
   
 > [!NOTE]
->  This applies only to the Direct3D API calls that you're using, not feature levels. As long as you're using the Direct3D 11, Direct3D 11.1, or Direct3D 11.2 API, you can use whatever feature level you like and Frame Analysis will just work.  
+>  This applies only to the Direct3D API calls that you're using, not feature levels.
   
 ##  <a name="Variants"></a> Variants  
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:  
