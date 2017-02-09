@@ -1,5 +1,5 @@
 ---
-title: "How to: Install Dotfuscator Community Edition | Microsoft Docs"
+title: "Install Dotfuscator Community Edition (CE) | Microsoft Docs"
 ms.date: "2017-02-08"
 ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Install Dotfuscator Community Edition
+# Install Dotfuscator Community Edition (CE)
 
 Visual Studio 2017 introduces a new low-impact installation experience.
 As a result, Dotfuscator Community Edition (Dotfuscator CE) is not installed by default.

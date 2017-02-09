@@ -1,5 +1,5 @@
 ---
-title: "How to: Upgrade Dotfuscator Community Edition | Microsoft Docs"
+title: "Upgrade Dotfuscator Community Edition (CE) | Microsoft Docs"
 ms.date: "2017-02-08"
 ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
@@ -41,7 +41,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Upgrade Dotfuscator Community Edition
+# Upgrade Dotfuscator Community Edition (CE)
 
 Dotfuscator Community Edition (Dotfuscator CE) offers many application protection and hardening features immediately to all developers using Microsoft Visual Studio.
 However, there are more features available to users who upgrade their version of Dotfuscator.

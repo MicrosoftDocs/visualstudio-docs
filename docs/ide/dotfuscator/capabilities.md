@@ -34,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Capabilities
+# Capabilities of Dotfuscator
 
 This page focuses on the capabilities of Dotfuscator Community Edition (Dotfuscator CE) with some references to advanced options available through [upgrades][upgrades].
 
