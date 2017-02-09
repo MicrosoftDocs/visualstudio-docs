@@ -48,8 +48,8 @@ However, it is easy to install Dotfuscator CE even if you have already installed
 > [!NOTE]
 > In addition to the versions of Dotfuscator CE shipped with releases of Visual Studio,
 > PreEmptive Solutions also periodically provides updated versions on its website.
-> If you want to **download the latest version** directly instead of installing from Visual Studio,
-> [click here to go to the Dotfuscator Downloads page][download].
+> If you want to download the **latest version** directly instead of installing from Visual Studio,
+> **[click here to go to the Dotfuscator Downloads page][download]**.
 
 ## Within Visual Studio
 
