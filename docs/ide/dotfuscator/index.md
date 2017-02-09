@@ -80,7 +80,7 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 To begin using Dotfuscator CE from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
 
-* If Dotfuscator CE is already installed, this will bring up the *Menu* option to start the Dotfuscator CE user interface. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][getstarted].
+* If Dotfuscator CE is already installed, this will bring up the *Menu* option to start the Dotfuscator CE user interface. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
 * If Dotfuscator CE is not yet installed, this will bring up the relevant *Install* option. See the [Installation page][install] for details.
 
 You can also get the **latest version** of Dotfuscator CE from [the Dotfuscator Downloads page on preemptive.com][download].
@@ -89,7 +89,7 @@ You can also get the **latest version** of Dotfuscator CE from [the Dotfuscator 
 
 This page and its sub-pages provide a high-level overview of Dotfuscator CE's features, as well as [instructions for installing the tool][install].
 
-Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][getstarted].
+Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][get-started].
 
 [assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
 [software-protection]: https://www.preemptive.com/software-protection
@@ -97,15 +97,13 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 [app-protection]: https://www.preemptive.com/application-protection
 [sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
 [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
-[download]: https://www.preemptive.com/products/dotfuscator/download
+[download]: https://www.preemptive.com/products/dotfuscator/downloads
 
 [install]: install.md
 [capabilities]: capabilities.md
 [upgrades]: upgrades.md
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/index.html
-
-[getstarted]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
+[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
 
 [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/obfuscation_renaming.html
 
@@ -117,3 +115,5 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 [exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_exceptions.html
 [sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_sessions.html
 [features]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_features.html
+
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/index.html

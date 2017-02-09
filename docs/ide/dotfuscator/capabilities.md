@@ -87,8 +87,6 @@ When run, the processed application will transmit analytics data to a configured
 
 [upgrades]: upgrades.md
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_capabilities.html
-
 [obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/obfuscation_overview.html
 [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/obfuscation_renaming.html
 
@@ -106,3 +104,5 @@ When run, the processed application will transmit analytics data to a configured
 [sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_sessions.html
 [features]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_features.html
 [check-telemetry]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_checks.html
+
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_capabilities.html

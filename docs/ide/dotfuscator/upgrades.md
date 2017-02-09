@@ -85,7 +85,7 @@ Dotfuscator Professional is the industry standard [.NET Obfuscator][net-obfuscat
 Additionally, Dotfuscator Professional offers tighter integration with Visual Studio and is licensed for commercial use.
 
 For more information on the advanced application protection features of Dotfuscator Professional, please visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Community Edition][product-compare].
-[Fully-supported trials are available on request][eval].
+[Fully-supported trials are available on request at preemptive.com][eval].
 
 ## See Also
 
@@ -100,8 +100,6 @@ For more information on the advanced application protection features of Dotfusca
 [check-actions]: https://www.preemptive.com/images/stories/Dotfuscator/webframe.html#Check%20Actions.html
 [features]: https://www.preemptive.com/images/stories/Dotfuscator/webframe.html#Feature_Usage_Tracking_and_the_Feature_Attribute.html
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_upgrades.html
-
 [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
 [eval]: https://www.preemptive.com/eval-request
 
@@ -110,3 +108,5 @@ For more information on the advanced application protection features of Dotfusca
 
 [cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_cli.html
 [register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html#register
+
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_upgrades.html
