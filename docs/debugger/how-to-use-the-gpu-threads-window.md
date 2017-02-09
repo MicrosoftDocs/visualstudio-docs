@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the GPU Threads Window | Microsoft Docs"
+title: "Viewing GPU Threads in the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

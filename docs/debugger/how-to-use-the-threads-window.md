@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Threads Window | Microsoft Docs"
+title: "Viewing Threads in the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

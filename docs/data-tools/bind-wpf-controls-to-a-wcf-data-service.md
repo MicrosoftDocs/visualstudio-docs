@@ -232,7 +232,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 4.  From the **Data Sources** window, drag the **SalesOrderHeaders** node to the grid row under the row that contains the buttons.  
   
-     Visual Studio generates XAML and code that creates a set of controls that are bound to data in the **Product** table. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     Visual Studio generates XAML and code that creates a set of controls that are bound to data in the **Product** table. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md).  
   
 5.  In the designer, click the text box next to the **Customer ID** label.  
   
@@ -329,11 +329,11 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).  
   
--   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md).  
+-   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md).  
   
 ## See Also  
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
+ [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
+ [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
  [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   
  [Overview](http://msdn.microsoft.com/Library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)   
  [Entity Framework Overview](http://msdn.microsoft.com/Library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)   
