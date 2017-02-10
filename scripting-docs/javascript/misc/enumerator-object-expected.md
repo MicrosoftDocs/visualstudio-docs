@@ -1,0 +1,41 @@
+---
+title: "Enumerator object expected | Microsoft Docs"
+ms.custom: ""
+ms.date: "01/18/2017"
+ms.prod: "windows-client-threshold"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "javascript"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "VS.WebClient.Help.SCRIPT5015"
+dev_langs: 
+  - "JavaScript"
+  - "DHTML"
+ms.assetid: dc6e32c1-a6e6-4e12-ac99-e3f65f91c8d7
+caps.latest.revision: 8
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+---
+# Enumerator object expected
+You attempted to invoke the **Enumerator.prototype.atEnd, Enumerator.prototype.item, Enumerator.prototype.moveFirst,** or **Enumerator.prototype.moveNext** method on an object of a type other than `Enumerator`. The object of this type of invocation must be of type `Enumerator`. Here is an example of code that breaks this rule:  
+  
+```javascript  
+var o = new Object;  
+o.f = Enumerator.prototype.atEnd;  
+o.f();  
+```  
+  
+### To correct this error  
+  
+-   Only invoke the **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**, **Enumerator.prototype.moveFirst**, or **Enumerator.prototype.moveNext** methods on objects of type `Enumerator`. To find out if your object is an `Enumerator` object, use:  
+  
+    ```  
+    if(x instanceof Enumerator)  
+    ```  
+  
+## See Also  
+ [Enumerator Object](../../javascript/reference/enumerator-object-javascript.md)
