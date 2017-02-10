@@ -38,7 +38,7 @@ Retrieves the file name of the library or object file from which the object was 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_libraryName (   
    BSTR* pRetVal  
 );  

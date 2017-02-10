@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-int
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_iSLTCG(  
    BOOL *pFlag  
 );  

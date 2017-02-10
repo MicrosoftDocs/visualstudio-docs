@@ -38,7 +38,7 @@ Makes a copy of an object.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Clone (   
    IDiaEnumSymbolsByAddr** ppenum  
 );  

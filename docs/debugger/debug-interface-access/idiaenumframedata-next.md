@@ -38,7 +38,7 @@ Retrieves a specified number of frame data elements in the enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG           celt,   
    IDiaFrameData** rgelt,  

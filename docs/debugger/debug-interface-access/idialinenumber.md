@@ -70,7 +70,7 @@ IDiaLineNumber : IUnknown
 ## Example  
  The following function displays line numbers used in a function (represented by `pSymbol`).  
   
-```cpp#  
+```C++  
 void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )  
 {  
     ULONGLONG length = 0;  

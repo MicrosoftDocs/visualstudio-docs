@@ -38,7 +38,7 @@ Retrieves the type identifier of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_typeId (   
    DWORD* pRetVal  
 );  

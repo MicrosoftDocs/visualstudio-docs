@@ -1,7 +1,7 @@
 ---
 title: "Expressions in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,13 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.expressions"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
-  - "VBScript"
 helpviewer_keywords: 
   - "expressions [debugger]"
   - "debugging [Visual Studio], expressions"
@@ -63,19 +56,19 @@ The Visual Studio debugger includes expression evaluators that work when you ent
 #### Constructors, destructors, and conversions  
  You cannot call a constructor or destructor for an object, either explicitly or implicitly. For example, the following expression explicitly calls a constructor and results in an error message:  
   
-```cpp  
+```C++  
 my_date( 2, 3, 1985 )  
 ```  
   
  You cannot call a conversion function if the destination of the conversion is a class. Such a conversion involves the construction of an object. For example, if `myFraction` is an instance of `CFraction`, which defines the conversion function operator `FixedPoint`, the following expression results in an error:  
   
-```cpp  
+```C++  
 (FixedPoint)myFraction  
 ```  
   
  You cannot call the new or delete operators. For example, the following expression is not supported:  
   
-```cpp  
+```C++  
 new Date(2,3,1985)  
 ```  
   
@@ -88,7 +81,7 @@ new Date(2,3,1985)
 ### Anonymous namespaces  
  Anonymous namespaces are not supported. If you have the following code, you cannot add `test` to the watch window:  
   
-```cpp  
+```C++  
 namespace mars   
 {   
     namespace  

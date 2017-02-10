@@ -65,7 +65,7 @@ IDiaEnumDebugStreamData : IUnknown
 ## Example  
  This example shows how to access a single data stream and its records.  
   
-```cpp#  
+```C++  
 void PrintStreamData(IDiaEnumDebugStreamData* pStream)  
 {  
     BSTR  wszName;  

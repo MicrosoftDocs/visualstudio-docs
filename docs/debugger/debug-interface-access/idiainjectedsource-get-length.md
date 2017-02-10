@@ -38,7 +38,7 @@ Retrieves the number of bytes of code.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_length (   
    ULONGLONG* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves a flag indicating that this line information describes the beginning o
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_statement (   
    BOOL* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the access modifier of a class member.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_access (   
    DWORD* pRetVal  
 );  

@@ -34,7 +34,7 @@ Defines by its presence whether the graphics log file is saved to the user's tem
   
 ## Syntax  
   
-```cpp  
+```C++  
 #define DONT_SAVE_VSGLOG_TO_TEMP  
 ```  
   

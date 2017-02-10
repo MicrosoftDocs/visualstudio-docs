@@ -36,7 +36,7 @@ Retrieves the symbol ID from which the pointer is based.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_baseSymbolId(   
    DWORD *pRetVal);  
 ```  

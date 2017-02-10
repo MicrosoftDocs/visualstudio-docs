@@ -49,7 +49,7 @@ translation.priority.mt:
   
  For example, given the following code, you should get an access violation:  
   
-```cpp  
+```C++  
 #include <iostream>  
 using namespace std;  
   

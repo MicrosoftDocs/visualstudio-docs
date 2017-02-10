@@ -38,7 +38,7 @@ Retrieves the section part of the code address for the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressSection (   
    DWORD* pRetVal  
 );  

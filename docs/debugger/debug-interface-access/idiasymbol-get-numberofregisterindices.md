@@ -36,7 +36,7 @@ Retrieves the number of register indices.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfRegisterIndices(   
    DWORD* pRetVal);  
 ```  

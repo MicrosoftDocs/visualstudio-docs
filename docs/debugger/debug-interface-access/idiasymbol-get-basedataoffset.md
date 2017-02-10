@@ -36,7 +36,7 @@ Retrieves the base data offset.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_baseDataOffset(   
    DWORD* pRetVal);  
 ```  

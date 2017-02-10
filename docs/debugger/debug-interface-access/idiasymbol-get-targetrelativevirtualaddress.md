@@ -38,7 +38,7 @@ Retrieves the relative virtual address (RVA) of a thunk target.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_targetRelativeVirtualAddress (   
    DWORD* pRetVal  
 );  

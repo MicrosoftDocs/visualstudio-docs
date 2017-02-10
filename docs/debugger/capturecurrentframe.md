@@ -34,7 +34,7 @@ Captures the remainder of the current frame to the graphics log file.
   
 ## Syntax  
   
-```cpp  
+```C++  
 void CaptureCurrentFrame();  
 ```  
   

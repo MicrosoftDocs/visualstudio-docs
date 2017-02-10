@@ -38,7 +38,7 @@ Specifies the stack frame type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 enum StackFrameTypeEnum {  
    FrameTypeFPO,  
    FrameTypeTrap,  

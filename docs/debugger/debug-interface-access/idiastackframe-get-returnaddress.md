@@ -38,7 +38,7 @@ Retrieves the return address of the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_returnAddress (   
    ULONGLONG* pRetVal  
 );  

@@ -38,7 +38,7 @@ Designates thunk types.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum THUNK_ORDINAL {   
    THUNK_ORDINAL_NOTYPE,  
    THUNK_ORDINAL_ADJUSTOR,  

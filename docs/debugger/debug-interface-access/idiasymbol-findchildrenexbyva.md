@@ -38,7 +38,7 @@ Retrieves the children of the symbol that are valid at a specified virtual addre
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findChildrenExByVA (   
    enum SymTagEnum   symtag,  
    LPCOLESTR         name,  

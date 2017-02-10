@@ -63,7 +63,7 @@ IDiaEnumSegments : IUnknown
 ## Example  
  This example shows how to obtain the `IDiaEnumSections` interface from a table. For a more complete example of using segments, see the [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md) interface.  
   
-```cpp#  
+```C++  
 void ShowSegments(IDiaTable *pTable, IDiaSession *pSession)  
 {  
     CComPtr<IDiaEnumSegments> pSegments;  

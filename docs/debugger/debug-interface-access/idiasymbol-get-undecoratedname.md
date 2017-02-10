@@ -38,7 +38,7 @@ Retrieves the undecorated name for a C++ decorated, or linkage, name.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_undecoratedName (   
    BSTR* pRetVal  
 );  

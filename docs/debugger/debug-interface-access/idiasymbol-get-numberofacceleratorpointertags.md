@@ -36,7 +36,7 @@ Returns the number of accelerator pointer tags in a C++ AMP stub function.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfAcceleratorPointerTags(   
    DWORD* count);  
 ```  

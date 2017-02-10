@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function contains inline assembly.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_hasInlAsm(  
    BOOL *pFlag  
 );  

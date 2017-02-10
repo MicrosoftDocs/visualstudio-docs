@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the base pointer is allocated for code i
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_allocatesBasePointer (   
    BOOL* pRetVal  
 );  

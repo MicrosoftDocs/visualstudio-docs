@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the public symbol refers to a function.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_function (   
    BOOL* pRetVal  
 );  

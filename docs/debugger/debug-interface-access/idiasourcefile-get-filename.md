@@ -38,7 +38,7 @@ Retrieves the source file name.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_fileName (   
    BSTR* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the symbol refers to managed code.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_managed (   
    BOOL* pRetVal  
 );  

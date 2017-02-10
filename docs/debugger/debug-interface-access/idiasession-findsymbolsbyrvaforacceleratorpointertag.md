@@ -36,7 +36,7 @@ Given a corresponding tag value, this method returns an enumeration of symbols t
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolsByRVAForAcceleratorPointerTag (   
    IDiaSymbol*           parent,  
    DWORD                 tagValue,  

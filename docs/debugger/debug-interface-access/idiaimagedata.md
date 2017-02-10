@@ -60,7 +60,7 @@ IDiaImageData : IUnknown
 ## Example  
  This example searches all of the debug streams for any stream that supports the `IDiaImageData` interface. If such a stream is found, some information about that stream is displayed.  
   
-```cpp#  
+```C++  
 void ShowImageData(IDiaSession *pSession)  
 {  
     if (pSession != NULL)  

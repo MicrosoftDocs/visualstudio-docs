@@ -46,7 +46,7 @@ Historical debugging is a mode of debugging that depends on the information coll
 ## Navigating your code with Historical Debugging  
  Let’s start with a simple program that has a bug. In a C# console application, add the following code:  
   
-```c#  
+```CSharp  
 static void Main(string[] args)  
 {  
     int testInt = 0;  

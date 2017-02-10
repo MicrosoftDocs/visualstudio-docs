@@ -38,7 +38,7 @@ Called when a debug directory was found in the .exe file.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT NotifyDebugDir (   
    BOOL  fExecutable,  
    DWORD cbData,  

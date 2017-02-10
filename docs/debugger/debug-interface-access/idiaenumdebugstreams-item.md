@@ -38,7 +38,7 @@ Retrieves a debug stream by means of an index or name.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    VARIANT                   index,  
    IDiaEnumDebugStreamData** stream  
@@ -57,7 +57,7 @@ HRESULT Item ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaEnumDebugStreamData *GetStreamData(IDiaEnumDebugStreams *pStreamList,  
                                        LONG whichStream)  
 {  

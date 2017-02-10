@@ -36,7 +36,7 @@ Retrieves the number of rows in the matrix.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfRows(   
    DWORD* pRetVal);  
 ```  

@@ -38,7 +38,7 @@ Returns the beginning of the address range in which the local symbol is valid.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_liveRangeStartRelativeVirtualAddress (   
    DWORD* address  
 );  

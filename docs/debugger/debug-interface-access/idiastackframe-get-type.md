@@ -38,7 +38,7 @@ Retrieves the frame type.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_type (   
    DWORD* pRetVal  
 );  

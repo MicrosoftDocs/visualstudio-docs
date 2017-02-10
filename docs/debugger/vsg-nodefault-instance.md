@@ -34,7 +34,7 @@ Defines by its presence whether a default instance of the [VsgDbg Class](../debu
   
 ## Syntax  
   
-```cpp  
+```C++  
 #define VSG_NODEFAULT_INSTANCE  
 ```  
   

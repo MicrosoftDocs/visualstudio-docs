@@ -36,7 +36,7 @@ Specifies whether the `this` pointer points to a data member with single inherit
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isSingleInheritance(   
    BOOL* pRetVal);  
 ```  

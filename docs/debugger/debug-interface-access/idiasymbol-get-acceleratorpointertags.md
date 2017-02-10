@@ -36,7 +36,7 @@ Returns all accelerator pointer tag values that correspond to a C++ AMP accelera
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_acceleratorPointerTags(   
    DWORD          cnt,  
    DWORD*         pcnt,  

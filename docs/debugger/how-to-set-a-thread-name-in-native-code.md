@@ -45,7 +45,7 @@ To set a thread name in your program, use the `SetThreadName` function, as shown
   
 ## Example  
   
-```cpp  
+```C++  
 //  
 // Usage: SetThreadName ((DWORD)-1, "MainThread");  
 //  

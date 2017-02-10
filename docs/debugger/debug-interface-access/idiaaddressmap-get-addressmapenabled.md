@@ -38,7 +38,7 @@ Indicates whether an address map has been established for a particular session.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressMapEnabled (   
    BOOL* pRetVal  
 );  

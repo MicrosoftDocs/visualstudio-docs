@@ -38,7 +38,7 @@ Retrieves the back-end major version number of the compiler.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_backEndMajor (   
    DWORD* pRetVal  
 );  

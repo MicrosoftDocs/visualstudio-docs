@@ -38,7 +38,7 @@ Retrieves the value of a constant.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_value (   
    VARIANT* pRetVal  
 );  
@@ -59,7 +59,7 @@ HRESULT get_value ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 void ProcessValue(IDiaSymbol *pSymbol)  
 {  
     VARIANT value;  

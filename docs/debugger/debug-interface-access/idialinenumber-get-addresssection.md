@@ -38,7 +38,7 @@ Retrieves the section part of the memory address where a block begins.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressSection (   
    DWORD* pRetVal  
 );  
@@ -53,7 +53,7 @@ HRESULT get_addressSection ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 CComPtr< IDiaLineNumber > pLine;  
 DWORD seg;  
 pLine->get_addressSection( &seg );  

@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section is executable as code.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_excute (   
    BOOL* pRetVal  
 );  

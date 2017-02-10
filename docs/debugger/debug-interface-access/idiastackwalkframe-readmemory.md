@@ -38,7 +38,7 @@ Reads memory from image.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT readMemory (   
    MemoryTypeEnum type,  
    ULONGLONG va,  

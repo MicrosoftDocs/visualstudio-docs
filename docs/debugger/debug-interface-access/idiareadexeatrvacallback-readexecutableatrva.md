@@ -38,7 +38,7 @@ Reads the specified number of bytes starting at the specified relative virtual a
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadExecutableAtRVA (   
    DWORD  relativeVirtualAddress,  
    DWORD  cbData,  

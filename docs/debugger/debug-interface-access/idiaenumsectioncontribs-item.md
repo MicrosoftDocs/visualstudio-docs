@@ -38,7 +38,7 @@ Retrieves section contributions by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD                index,  
    IDiaSectionContrib** section  

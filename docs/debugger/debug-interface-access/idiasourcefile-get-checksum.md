@@ -38,7 +38,7 @@ Retrieves the checksum bytes.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_checksum (   
    DWORD  cbData,  
    DWORD* pcbData,  

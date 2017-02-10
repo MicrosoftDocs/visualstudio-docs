@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function has been marked as never re
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_noReturn(  
    BOOL *pFlag  
 );  

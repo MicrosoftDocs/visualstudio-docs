@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function is pure virtual.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_pure (   
    BOOL* pRetVal  
 );  

@@ -36,7 +36,7 @@ Retrieves the base data slot.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_baseDataSlot(   
    DWORD* pRetVal);  
 ```  

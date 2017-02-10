@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section can be discarded.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_discardable (   
    BOOL* pRetVal  
 );  

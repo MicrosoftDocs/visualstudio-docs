@@ -38,7 +38,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified r
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByRVAEx (   
    DWORD        rva,  
    SymTagEnum   symtag,  
@@ -65,7 +65,7 @@ HRESULT findSymbolByRVAEx ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 LONG disp = 0;  
 pSession->findSymbolByRVAEx( rva, SymTagFunction, &pFunc, &disp );  

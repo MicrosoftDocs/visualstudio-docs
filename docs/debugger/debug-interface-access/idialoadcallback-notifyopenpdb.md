@@ -38,7 +38,7 @@ Called when a candidate .pdb file is opened.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT NotifyOpenPDB (   
    LPCOLESTR pdbPath,  
    HRESULT   resultCode  

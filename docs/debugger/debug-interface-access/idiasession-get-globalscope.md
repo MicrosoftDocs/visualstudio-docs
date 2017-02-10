@@ -38,7 +38,7 @@ Retrieves a reference to the global scope.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_globalScope (   
    IDiaSymbol** pRetVal  
 );  

@@ -36,7 +36,7 @@ Retrieves the memory space kind.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_memorySpaceKind(   
    DWORD* pRetVal);  
 ```  

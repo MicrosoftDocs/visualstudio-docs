@@ -38,7 +38,7 @@ Retrieves the number of frame data elements.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

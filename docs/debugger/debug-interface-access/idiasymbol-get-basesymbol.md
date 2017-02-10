@@ -36,7 +36,7 @@ Retrieves the symbol from which the pointer is based.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_baseSymbol(   
    IDiaSymbol** pRetVal);  
 ```  

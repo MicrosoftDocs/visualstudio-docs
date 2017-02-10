@@ -34,7 +34,7 @@ Represents an interface for programmatic control of the in-app component of grap
   
 ## Syntax  
   
-```cpp  
+```C++  
 class VsgDbg;  
 ```  
   

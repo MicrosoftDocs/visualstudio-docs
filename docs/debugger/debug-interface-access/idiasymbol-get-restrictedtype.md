@@ -36,7 +36,7 @@ Specifies whether the `this` pointer is flagged as restricted.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_restrictedType(   
    BOOL* pRetVal);  
 ```  

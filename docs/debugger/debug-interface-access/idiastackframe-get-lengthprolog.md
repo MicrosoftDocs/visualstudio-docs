@@ -38,7 +38,7 @@ Retrieves the number of bytes of prologue code in the block.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lengthProlog (   
    DWORD* pRetVal  
 );  

@@ -36,7 +36,7 @@ Specifies whether the variable carries a return value.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isReturnValue(   
    BOOL* pRetVal);  
 ```  

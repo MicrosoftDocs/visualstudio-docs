@@ -38,7 +38,7 @@ Retrieves the location type of a data symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_locationType (   
    DWORD* pRetVal  
 );  
