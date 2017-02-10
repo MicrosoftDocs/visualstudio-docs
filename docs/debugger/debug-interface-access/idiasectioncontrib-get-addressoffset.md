@@ -38,7 +38,7 @@ Retrieves the offset part of the contribution's address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressOffset (   
    DWORD* pRetVal  
 );  

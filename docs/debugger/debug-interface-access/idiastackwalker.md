@@ -59,7 +59,7 @@ IDiaStackWalker: IUnknown
 ## Example  
  This example shows how to obtain the `IDiaStackWalker` interface.  
   
-```cpp#  
+```C++  
   
       IDiaStackWalker* pStackWalker;  
 HRESULT hr = CoCreateInstance(CLSID_DiaStackWalker,  

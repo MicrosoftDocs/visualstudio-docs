@@ -36,7 +36,7 @@ Retrieves the number of modifiers that are applied to the original type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfModifiers(   
    DWORD* pRetVal);  
 ```  

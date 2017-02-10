@@ -38,7 +38,7 @@ Retrieves the number of symbols.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

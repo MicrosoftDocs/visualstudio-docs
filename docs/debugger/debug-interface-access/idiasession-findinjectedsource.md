@@ -38,7 +38,7 @@ Retrieves a list of sources that has been placed into the symbol store by attrib
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInjectedSource (   
    LPCOLESTR                 srcFile,  
    IDiaEnumInjectedSources** ppResult  

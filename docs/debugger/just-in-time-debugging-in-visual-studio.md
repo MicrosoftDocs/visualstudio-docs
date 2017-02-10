@@ -142,7 +142,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
  When the project opens in Visual Studio, open the Program.cs file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:  
   
-```c#  
+```CSharp  
 static void Main(string[] args)  
 {  
     Console.WriteLine("we will now throw a NullReferenceException");  

@@ -38,7 +38,7 @@ Returns the PDATA data block associated with the virtual address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT pdataForVA(   
    ULONGLONG  va,  
    DWORD      cbData,  

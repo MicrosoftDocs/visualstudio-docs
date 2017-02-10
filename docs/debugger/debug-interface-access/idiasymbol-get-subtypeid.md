@@ -36,7 +36,7 @@ Retrieves the sub type ID.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_subTypeId(   
    DWORD* pRetVal);  
 ```  

@@ -38,7 +38,7 @@ This function retrieves a flag that indicates whether no stack ordering could be
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_noStackOrdering(  
    BOOL *pRetVal  
 );  

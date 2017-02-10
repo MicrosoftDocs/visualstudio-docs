@@ -38,7 +38,7 @@ Returns the offset part of the starting address of the range in which the local 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_liveRangeStartAddressOffset (   
    DWORD* offset  
 );  

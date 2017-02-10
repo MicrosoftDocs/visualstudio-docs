@@ -38,7 +38,7 @@ Retrieves the maximum number of bytes pushed on the stack in the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_maxStack (   
    DWORD* pRetVal  
 );  

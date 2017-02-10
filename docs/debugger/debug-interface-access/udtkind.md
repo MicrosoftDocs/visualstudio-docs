@@ -38,7 +38,7 @@ Describes the variety of user-defined type (UDT).
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum UdtKind {   
    UdtStruct,  
    UdtClass,  

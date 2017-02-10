@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section is removed before it is made
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_remove (   
    BOOL* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the segment number.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_frame (   
    DWORD* pRetVal  
 );  

@@ -38,7 +38,7 @@ Specifies whether the address map should be used to translate symbol addresses.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_addressMapEnabled (   
    BOOL NewVal  
 );  

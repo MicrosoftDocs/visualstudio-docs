@@ -38,7 +38,7 @@ Retrieves the children of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findChildren (   
    enum SymTagEnum   symtag,  
    LPCOLESTR         name,  

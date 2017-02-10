@@ -75,7 +75,7 @@ IDiaFrameData : IUnknown
 ## Example  
  This example prints out the properties of an `IDiaFrameData` object. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for an example of how the `IDiaFrameData` interface is obtained.  
   
-```cpp#  
+```C++  
 void PrintFrameData(IDiaFrameData* pFrameData){  
     DWORD dwSect;  
     DWORD dwOffset;  

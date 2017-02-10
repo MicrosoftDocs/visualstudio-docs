@@ -34,7 +34,7 @@ Finalizes the graphics log file, closes it, and frees resources that were used w
   
 ## Syntax  
   
-```cpp  
+```C++  
 void UnInit();  
 ```  
   

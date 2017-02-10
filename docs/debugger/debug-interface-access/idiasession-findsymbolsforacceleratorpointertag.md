@@ -36,7 +36,7 @@ Returns an enumeration of symbols for the variable that the specified tag value 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolsForAcceleratorPointerTag (   
    IDiaSymbol*           parent,  
    DWORD                 tagValue,  

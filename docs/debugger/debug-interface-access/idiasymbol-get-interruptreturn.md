@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function contains a return from inte
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_interruptReturn(  
    BOOL *pFlag  
 );  

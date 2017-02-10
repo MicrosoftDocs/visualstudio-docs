@@ -38,7 +38,7 @@ Retrieves an enumerator for all tables contained in the symbol store.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT getEnumTables (   
    IDiaEnumTables** ppEnumTables  
 );  
@@ -54,7 +54,7 @@ HRESULT getEnumTables ( 
 ## Example  
  This example presents a general function that uses the `getEnumTables` method to obtain a specific enumerator object. If the enumerator is found, the function returns a pointer that can be cast to the desired interface; otherwise, the function returns `NULL`.  
   
-```cpp#  
+```C++  
 IUnknown *GetTable(IDiaSession *pSession, REFIID iid)  
 {  
     IUnknown *pUnknown = NULL;  

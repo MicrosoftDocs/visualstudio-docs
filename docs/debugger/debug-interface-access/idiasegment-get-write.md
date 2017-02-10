@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the segment can be modified.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_write (   
    BOOL* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the number of valid address ranges associated with the local symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_countLiveRanges (   
    DWORD* count  
 );  

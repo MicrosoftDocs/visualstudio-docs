@@ -36,7 +36,7 @@ Retrieves the object file name.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_objectFilename(   
    BSTR *pRetVal);  
 ```  

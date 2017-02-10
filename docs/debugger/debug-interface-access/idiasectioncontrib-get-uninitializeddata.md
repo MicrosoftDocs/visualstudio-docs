@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section contains uninitialized data.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_uninitializedData (   
    BOOL* pRetVal  
 );  

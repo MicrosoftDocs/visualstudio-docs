@@ -38,7 +38,7 @@ Retrieves an array of compiler-specific type identifier values for this symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_typeIds (   
    DWORD  cTypeIds,  
    DWORD* pcTypeIds,  

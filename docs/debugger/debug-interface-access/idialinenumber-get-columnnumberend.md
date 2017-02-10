@@ -38,7 +38,7 @@ Retrieves the one-based source column number where the expression or statement e
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_columnNumberEnd (   
    DWORD* pRetVal  
 );  

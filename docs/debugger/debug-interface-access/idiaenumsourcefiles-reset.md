@@ -38,7 +38,7 @@ Resets an enumeration sequence to the beginning.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Reset ();  
 ```  
   

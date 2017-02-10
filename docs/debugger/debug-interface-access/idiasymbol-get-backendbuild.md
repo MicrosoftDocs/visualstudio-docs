@@ -38,7 +38,7 @@ Retrieves the back end build number of the compiler.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_backEndBuild (   
    DWORD* pRetVal  
 );  

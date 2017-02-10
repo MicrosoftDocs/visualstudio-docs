@@ -38,7 +38,7 @@ Retrieves a reference to the class parent of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_classParent (   
    IDiaSymbol** pRetVal  
 );  

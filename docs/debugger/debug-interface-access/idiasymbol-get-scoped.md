@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type appears in a 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_scoped (   
    BOOL* pRetVal  
 );  

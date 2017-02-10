@@ -38,7 +38,7 @@ Retrieves an array of compiler-specific types for this symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_types (   
    DWORD       cTypes,  
    DWORD*      pcTypes,  

@@ -36,7 +36,7 @@ Retrieves the texture slot.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_textureSlot(   
    DWORD* pRetVal);  
 ```  

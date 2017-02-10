@@ -38,7 +38,7 @@ Called when a candidate .dbg file has been opened.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT NotifyOpenDBG (   
    LPCOLESTR dbgPath,  
    HRESULT   resultCode  

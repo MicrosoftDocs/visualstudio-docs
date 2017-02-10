@@ -38,7 +38,7 @@ Retrieves a flag that indicates if C++ exception handling is in effect.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_cplusplusExceptionHandling (   
    BOOL* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the platform type for which the compiland was compiled.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_platform (   
    DWORD* pRetVal  
 );  

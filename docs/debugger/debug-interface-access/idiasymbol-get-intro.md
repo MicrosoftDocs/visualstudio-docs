@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function is an introducing virtual f
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_intro (   
    BOOL* pRetVal  
 );  
@@ -56,7 +56,7 @@ HRESULT get_intro ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 class A {  
    virtual int f1();  
 }  

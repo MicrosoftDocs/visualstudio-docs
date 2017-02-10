@@ -38,7 +38,7 @@ Retrieves the current image alignment.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_imageAlign (   
    DWORD* pRetVal  
 );  

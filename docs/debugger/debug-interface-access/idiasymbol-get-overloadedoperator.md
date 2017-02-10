@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type has overloade
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_overloadedOperator (   
    BOOL* pRetVal  
 );  

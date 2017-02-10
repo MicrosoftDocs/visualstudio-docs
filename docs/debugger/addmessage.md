@@ -34,7 +34,7 @@ Adds a custom message to the graphics diagnostics *HUD* (Head-Up Display).
   
 ## Syntax  
   
-```cpp  
+```C++  
 void AddMessage(  
   wchar_t const * szMessage  
 );  

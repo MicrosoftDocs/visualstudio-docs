@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the preprocesser directive for a safe bu
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isSafeBuffers(   
    BOOL* pRetVal)  
 );  

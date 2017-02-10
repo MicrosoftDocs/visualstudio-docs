@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether a user-defined type (UDT) contains homog
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_hfaFloat(   
    BOOL* pRetVal  
 );  

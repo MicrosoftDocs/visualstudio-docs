@@ -38,7 +38,7 @@ Returns the start of an executable's image in memory given a virtual address som
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT imageForVA(  
    ULONGLONG  vaContext,  
    ULONGLONG *pvaImageStart  

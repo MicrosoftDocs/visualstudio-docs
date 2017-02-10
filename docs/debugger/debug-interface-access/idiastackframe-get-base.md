@@ -38,7 +38,7 @@ Retrieves the base address of the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_base (   
    ULONGLONG* pRetVal  
 );  

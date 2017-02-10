@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type (UDT) is pack
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_packed (   
    BOOL* pRetVal  
 );  

@@ -36,7 +36,7 @@ Retrieves the number of columns in the matrix.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfColumns(   
    DWORD* pRetVal);  
 ```  

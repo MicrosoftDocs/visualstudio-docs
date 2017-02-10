@@ -34,7 +34,7 @@ Constructs an instance of the `VsgDbg` class with or without preparing the in-ap
   
 ## Syntax  
   
-```cpp  
+```C++  
 VsgDbg(  
   bDefaultInit  
 );  

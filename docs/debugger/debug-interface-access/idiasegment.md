@@ -66,7 +66,7 @@ IDiaSegment : IUnknown
 ## Example  
  This function displays the address of all segments in a table and the nearest symbol.  
   
-```cpp#  
+```C++  
 void ShowSegments(IDiaTable *pTable, IDiaSession *pSession)  
 {  
     CComPtr<IDiaEnumSegments> pSegments;  

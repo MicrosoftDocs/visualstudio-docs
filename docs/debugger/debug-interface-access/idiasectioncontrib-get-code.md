@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section contains executable code.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_code (   
    BOOL* pRetVal  
 );  

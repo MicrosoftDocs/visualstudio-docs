@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function is virtual.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtual (   
    BOOL* pRetVal  
 );  

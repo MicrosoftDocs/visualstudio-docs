@@ -38,7 +38,7 @@ Reads `BSTR` values in a property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadBSTR (   
    PROPID id,  
    BSTR*  pValue  

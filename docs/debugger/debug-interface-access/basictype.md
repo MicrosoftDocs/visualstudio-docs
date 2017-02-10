@@ -38,7 +38,7 @@ Specifies the symbol's basic type.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum BasicType {   
    btNoType   = 0,  
    btVoid     = 1,  
