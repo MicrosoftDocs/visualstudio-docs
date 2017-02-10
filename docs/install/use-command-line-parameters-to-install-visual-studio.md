@@ -66,6 +66,8 @@ If no command is specified, it will install the product.
 | ```--nickname <name>``` | Optional: This defines the nickname to assign to an installed product. The nickname cannot be longer than 10 characters.  |
 | ```--help, --?, -h, -?``` | Display parameter usage. |
 
+>Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command line switch for each item.
+
 | **Advanced command-line option** | **Description** |
 | ----------------------- | --------------- |  
 | ```--channelId <id>``` | Optional: The ID of the channel for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
