@@ -34,7 +34,7 @@ Prepares the in-app component of graphics diagnostics to actively capture and re
   
 ## Syntax  
   
-```cpp  
+```C++  
 void Init(  
   std::function<void (int len, wchar_t * pszBuffer)> vsgLogGetter  
 );  

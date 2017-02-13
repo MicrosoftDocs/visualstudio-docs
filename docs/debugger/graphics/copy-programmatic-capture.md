@@ -34,7 +34,7 @@ Copies the contents of the active graphics log (.vsglog) file into a new file.
   
 ## Syntax  
   
-```cpp  
+```C++  
 void Copy(  
   wchar_t const * szNewVSGLog  
 );  

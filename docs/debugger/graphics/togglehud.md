@@ -34,7 +34,7 @@ Toggles the graphics diagnostics *HUD* (Head-Up Display) overlay on or off.
   
 ## Syntax  
   
-```cpp  
+```C++  
 void ToggleHUD();  
 ```  
   

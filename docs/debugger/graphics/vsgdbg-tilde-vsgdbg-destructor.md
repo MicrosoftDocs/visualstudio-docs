@@ -34,7 +34,7 @@ Destroys an instance of the `VsgDbg` class. If graphics information is actively 
   
 ## Syntax  
   
-```cpp  
+```C++  
 ~VsgDbg();  
 ```  
   
