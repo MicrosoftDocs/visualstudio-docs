@@ -38,7 +38,7 @@ Sets the image alignment.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_imageAlign (   
    DWORD NewVal  
 );  

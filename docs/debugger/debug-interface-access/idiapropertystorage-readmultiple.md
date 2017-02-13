@@ -38,7 +38,7 @@ Reads specified properties from the current property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadMultiple(   
    ULONG          cpspec,  
    PROPSPEC const rgpspec,  

@@ -41,7 +41,7 @@ Specifies a target register.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum CV_HREG_e {   
    // Register subset shared by all processor types   
    CV_ALLREG_ERR    = 30000,  

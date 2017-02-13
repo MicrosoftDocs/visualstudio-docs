@@ -38,7 +38,7 @@ Retrieves a symbol by its unique identifier.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolById (   
    DWORD        id,  
    IDiaSymbol** ppSymbol  
@@ -63,7 +63,7 @@ HRESULT symbolById ( 
 ## Example  
  This example retrieves an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) representing the type of another symbol. This example shows how to use the `symbolById` method in the session. A simpler approach is to call the [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) method to retrieve the type symbol directly.  
   
-```cpp#  
+```C++  
 IDiaSymbol *GetSymbolType(IDiaSymbol *pSymbol, IDiaSession *pSession)  
 {  
     IDiaSymbol *pTypeSymbol = NULL;  

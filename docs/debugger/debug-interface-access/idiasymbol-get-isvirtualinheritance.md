@@ -36,7 +36,7 @@ Specifies whether the `this` pointer points to a data member with virtual inheri
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isVirtualInheritance(   
    BOOL* pRetVal);  
 ```  

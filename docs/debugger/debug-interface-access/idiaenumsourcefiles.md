@@ -63,7 +63,7 @@ IDiaEnumSourceFiles : IUknown
 ## Example  
  This example shows how to obtain the `IDiaEnumSourceFiles` interface from the list of tables in a DIA session object. For an example of accessing source file information, see the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) interface.  
   
-```cpp#  
+```C++  
   
 IDiaEnumSourceFiles* GetEnumSourceFiless(IDiaSession *pSession)  
 {  

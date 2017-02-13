@@ -38,7 +38,7 @@ Retrieves the stack frame that contains the specified virtual address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT frameForVA(   
    ULONGLONG        va,  
    IDiaFrameData**  ppFrame  

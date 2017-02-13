@@ -38,7 +38,7 @@ Opens and prepares the debug data associated with the .exe/.dll file.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT loadDataForExe (  
    LPCOLESTR executable,  
    LPCOLESTR searchPath,  
@@ -83,7 +83,7 @@ HRESULT loadDataForExe (
   
 ## Example  
   
-```cpp#  
+```C++  
 class MyCallBack: public IDiaLoadCallback  
 {  
 ...  

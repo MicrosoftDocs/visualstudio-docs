@@ -1,7 +1,7 @@
 ---
 title: "Using Breakpoints | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -32,12 +32,6 @@ f1_keywords:
   - "vs.debug.data"
   - "vs.debug.func"
   - "vs.debug.breakpt.location.file"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
 helpviewer_keywords: 
   - "breakpoints, about breakpoints"
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
@@ -138,7 +132,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
 4.  Add the following text to the **Function Name** box:  
   
-    ```cpp  
+    ```C++  
     ((my_class *) 0xcccccccc)->my_method  
     ```  
   

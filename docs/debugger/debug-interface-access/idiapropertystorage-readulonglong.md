@@ -38,7 +38,7 @@ Reads `ULONGLONG` values in a property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadULONGLONG (   
    PROPID     id,  
    ULONGLONG* pValue  

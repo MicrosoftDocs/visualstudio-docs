@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the segment can be read.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_read (   
    BOOL* pRetVal  
 );  

@@ -90,7 +90,7 @@ IDiaSession : IUnknown
 ## Example  
  This example shows how to obtain the `IDiaSession` interface as part of a general initialization of the DIA SDK.  
   
-```cpp#  
+```C++  
 CComPtr<IDiaDataSource> pSource;  
 ComPtr<IDiaSession> psession;  
   

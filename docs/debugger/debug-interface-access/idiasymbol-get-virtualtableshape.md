@@ -38,7 +38,7 @@ Retrieves the symbol interface of the type of the virtual table for a user-defin
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualTableShape (   
    IDiaSymbol** pRetVal  
 );  

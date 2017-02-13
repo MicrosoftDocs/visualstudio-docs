@@ -38,7 +38,7 @@ Retrieves the front end major version number.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_frontEndMajor (   
    DWORD* pRetVal  
 );  

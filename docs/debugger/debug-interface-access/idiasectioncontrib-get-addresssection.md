@@ -38,7 +38,7 @@ Retrieves the section part of the contribution's address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressSection (   
    DWORD* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the number of bytes of saved registers pushed on the stack.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lengthSavedRegisters (   
    DWORD* pRetVal  
 );  

@@ -36,7 +36,7 @@ Retrieves the stride of the matrix or strided array.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_stride(   
    DWORD* pRetVal);  
 ```  

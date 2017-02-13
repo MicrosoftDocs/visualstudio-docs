@@ -38,7 +38,7 @@ Retrieves a symbol representing the upper bound of a FORTRAN array dimension.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_upperBound (   
    IDiaSymbol** pRetVal  
 );  

@@ -73,7 +73,7 @@ IDiaEnumLineNumbers : IUnknown
 ## Example  
  This example shows how to obtain the `IDiaEnumLineNumbers` interface from a session. In this case, the example shows how to get the line number enumeration for a function (represented by `pSymbol`). For a more complete example of using line numbers, see the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) interface.  
   
-```cpp#  
+```C++  
 void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )  
 {  
     ULONGLONG length = 0;  

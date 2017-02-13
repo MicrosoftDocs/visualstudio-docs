@@ -41,7 +41,7 @@ Specifies the target processor.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_CPU_TYPE_e {   
    CV_CFL_8080         = 0x00,  
    CV_CFL_8086         = 0x01,  

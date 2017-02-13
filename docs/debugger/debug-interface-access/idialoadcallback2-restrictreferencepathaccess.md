@@ -38,7 +38,7 @@ Determines if looking for a .pdb file is allowed in the path where the .exe file
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictReferencePathAccess();  
 ```  
   

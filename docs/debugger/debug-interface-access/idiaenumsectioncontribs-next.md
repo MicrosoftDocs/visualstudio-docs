@@ -38,7 +38,7 @@ Retrieves a specified number of section contributions in the enumeration sequenc
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next(   
    ULONG                celt,   
    IDiaSectionContrib** rgelt,  

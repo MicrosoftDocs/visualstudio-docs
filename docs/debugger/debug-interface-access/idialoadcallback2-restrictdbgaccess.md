@@ -38,7 +38,7 @@ Determines if looking for debug information is allowed from .dbg files.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictDBGAccess();  
 ```  
   

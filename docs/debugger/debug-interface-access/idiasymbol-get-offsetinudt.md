@@ -38,7 +38,7 @@ Retrieves the offset to the beginning of a user-defined type (UDT) of a member i
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_offsetInUdt(   
    DWORD* pRetVal)  
 );  

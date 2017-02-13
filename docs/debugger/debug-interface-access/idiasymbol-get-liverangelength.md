@@ -38,7 +38,7 @@ Returns the length of the address range in which the local symbol is valid.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_liveRangeLength (   
    ULONGLONG* length  
 );  

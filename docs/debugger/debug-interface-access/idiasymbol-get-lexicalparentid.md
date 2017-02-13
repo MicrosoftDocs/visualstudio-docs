@@ -38,7 +38,7 @@ Retrieves the lexical parent identifier of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lexicalParentId (   
    DWORD* pRetVal  
 );  

@@ -63,7 +63,7 @@ IDiaEnumSymbolsByAddr : IUnknown
 ## Example  
  This function displays the name and address of all symbols ordered by relative virtual address.  
   
-```cpp#  
+```C++  
 void ShowSymbolsByAddress(IDiaSession *pSession)  
 {  
     CComPtr<IDiaEnumSymbolsByAddr> pEnumByAddr;  

@@ -38,7 +38,7 @@ Retrieves the symbol's signature value.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_signature (   
    DWORD* pRetVal  
 );  

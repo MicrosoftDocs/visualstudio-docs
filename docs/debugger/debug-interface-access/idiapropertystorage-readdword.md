@@ -38,7 +38,7 @@ Reads `DWORD` values in a property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadDWORD (   
    PROPID id,  
    DWORD* pValue  

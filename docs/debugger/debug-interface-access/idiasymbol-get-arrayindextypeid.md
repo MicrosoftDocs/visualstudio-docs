@@ -38,7 +38,7 @@ Retrieves the array index type identifier of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_arrayIndexTypeId (   
    DWORD* pRetVal  
 );  

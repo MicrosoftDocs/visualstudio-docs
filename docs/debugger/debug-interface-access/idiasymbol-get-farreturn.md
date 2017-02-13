@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function contains a far return.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_farReturn(  
    BOOL *pFlag  
 );  

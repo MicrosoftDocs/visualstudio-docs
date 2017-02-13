@@ -38,7 +38,7 @@ Retrieves the section part of an address location. Use when the [LocationType En
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressSection (   
    DWORD* pRetVal  
 );  

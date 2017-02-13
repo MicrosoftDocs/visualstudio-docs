@@ -38,7 +38,7 @@ Retrieves the symbol's globally unique identifier (GUID).
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_guid (   
    GUID* pRetVal  
 );  

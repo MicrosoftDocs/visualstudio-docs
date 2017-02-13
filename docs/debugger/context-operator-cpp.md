@@ -55,13 +55,13 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
   
      For example, to set a breakpoint at the `SomeFunction` function of EXAMPLE.dll:  
   
-    ```cpp  
+    ```C++  
     {,,EXAMPLE.dll}SomeFunction  
     ```  
   
 2.  *module*!*expression*  
   
-    ```cpp  
+    ```C++  
     EXAMPLE.dll!SomeFunction  
     ```  
   
@@ -69,8 +69,8 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
   
      If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
   
-    ```  
-    {,"a long, long, library name.dll", } g_Var  
+    ```C++  
+    {,,"a long, long, library name.dll"} g_Var  
     ```  
   
 -   *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  

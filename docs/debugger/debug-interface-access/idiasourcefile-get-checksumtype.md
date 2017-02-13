@@ -38,7 +38,7 @@ Retrieves the checksum type.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_checksumType (   
    DWORD* pRetVal  
 );  

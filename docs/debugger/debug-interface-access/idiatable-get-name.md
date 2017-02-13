@@ -38,7 +38,7 @@ Retrieves the name of the table.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_name (   
    BSTR* pRetVal  
 );  

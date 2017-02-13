@@ -38,7 +38,7 @@ Returns a frame by virtual address (VA).
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT frameByVA(   
    ULONGLONG       virtualAddress,  
    IDiaFrameData** frame  

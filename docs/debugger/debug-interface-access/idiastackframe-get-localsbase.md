@@ -38,7 +38,7 @@ Retrieves the base address of the local variables for the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_localsBase (   
    ULONGLONG* pRetVal  
 );  

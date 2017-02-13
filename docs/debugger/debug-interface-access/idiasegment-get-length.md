@@ -38,7 +38,7 @@ Retrieves the number of bytes in the segment.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_ length (   
    DWORD* pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves the symbol that represents the type for this symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_type (   
    IDiaSymbol** pRetVal  
 );  
@@ -59,7 +59,7 @@ HRESULT get_type ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol*         pType;  
 CComPtr<IDiaSymbol> pBaseType;  
 if (SUCCEEDED(pType->get_type( &pBaseType ))) {  

@@ -38,7 +38,7 @@ Retrieves the program string that is used to compute the register set before the
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_program (   
    BSTR* pRetVal  
 );  

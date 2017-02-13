@@ -61,7 +61,7 @@ IDiaSourceFile : IUnknown
 ## Example  
  This function displays the names of all source files contributing to the specified table.  
   
-```cpp#  
+```C++  
 void ShowSourceFiles(IDiaTable *pTable)  
 {  
     CComPtr<IDiaEnumSourceFiles> pSourceFiles;  

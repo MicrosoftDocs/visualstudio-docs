@@ -38,7 +38,7 @@ Retrieves the symbol that contains the specified virtual address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolForVA(   
    ULONGLONG     va,  
    IDiaSymbol**  ppSymbol  

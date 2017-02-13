@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Insert new records into a database
-To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
+To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).  
   
  If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database .  
   
@@ -47,7 +47,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
   
  If your application uses objects to store data, or if you want finer control over creating new records in the database, use the `TableAdapter.Insert` method.  
   
- If your TableAdapter doesn't have an `Insert` method, it means that either the TableAdapter is configured to use stored procedures or its `GenerateDBDirectMethods` property is set to `false`. Try setting the TableAdapter's `GenerateDBDirectMethods` property to `true` from within the [Dataset Designer](../data-tools/creating-and-editing-typed-datasets.md), and then save the dataset. This will regenerate the TableAdapter. If the TableAdapter still doesn't have an `Insert` method, then the table probably does not provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table).  
+ If your TableAdapter doesn't have an `Insert` method, it means that either the TableAdapter is configured to use stored procedures or its `GenerateDBDirectMethods` property is set to `false`. Try setting the TableAdapter's `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer**, and then save the dataset. This will regenerate the TableAdapter. If the TableAdapter still doesn't have an `Insert` method, then the table probably does not provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table).  
   
 ## Insert new records by using TableAdapters  
  TableAdapters provide different ways to insert new records into a database, depending on the requirements of your application.  
@@ -80,7 +80,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
      [!code-cs[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_2.cs)]  
   
 ## Insert new records by using command objects  
- The following example inserts new records directly into a database using command objects. For more information about using command objects to run commands and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
+ The following example inserts new records directly into a database using command objects.  
   
  The following procedure uses the `Region` table in the Northwind database  as an example.  
   

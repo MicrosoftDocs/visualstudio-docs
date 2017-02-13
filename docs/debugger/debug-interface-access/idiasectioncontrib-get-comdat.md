@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section is a COMDAT record.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_comdat (   
    BOOL* pRetVal  
 );  

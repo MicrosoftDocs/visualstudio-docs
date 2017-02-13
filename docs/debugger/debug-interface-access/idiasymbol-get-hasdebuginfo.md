@@ -38,7 +38,7 @@ Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interfac
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_hasDebugInfo(  
    BOOL *pFlag  
 );  

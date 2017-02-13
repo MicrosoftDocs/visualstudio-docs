@@ -38,7 +38,7 @@ Sets the load address for the executable file that corresponds to the symbols in
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_loadAddress (   
    ULONGLONG NewVal  
 );  

@@ -38,7 +38,7 @@ Retrieves a frame data element by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD           index,  
    IDiaFrameData** section  

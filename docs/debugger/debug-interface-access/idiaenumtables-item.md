@@ -38,7 +38,7 @@ Retrieves a table by means of an index or name.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    VARIANT     index,  
    IDiaTable** table  
@@ -60,7 +60,7 @@ HRESULT Item ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 VARIANT var;  
 var.vt = VT_BSTR;  
 var.bstrVal = SysAllocString(DiaTable_Symbols );  

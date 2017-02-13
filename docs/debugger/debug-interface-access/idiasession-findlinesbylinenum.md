@@ -38,7 +38,7 @@ Determines the line numbers of the compiland that the specified line number in a
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByLinenum (   
    IDiaSymbol*           compiland,  
    IDiaSourceFile*       file,  
@@ -73,7 +73,7 @@ HRESULT findLinesByLinenum ( 
 ## Example  
  The following example shows how to open a source file, enumerate the compilands contributed by this file, and locate the line numbers in the source file where each compiland starts.  
   
-```cpp#  
+```C++  
 void ShowLinesInCompilands(IDiaSession *pSession, LPCOLESTR filename)  
 {  
     IDiaEnumSourceFiles* pEnum;  

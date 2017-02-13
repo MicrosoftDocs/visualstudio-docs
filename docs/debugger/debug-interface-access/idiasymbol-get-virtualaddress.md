@@ -38,7 +38,7 @@ Retrieves the virtual address (VA) of the location. Use when the [LocationType E
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualAddress (   
    ULONGLONG* pRetVal  
 );  

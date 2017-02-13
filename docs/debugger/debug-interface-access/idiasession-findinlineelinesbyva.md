@@ -36,7 +36,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInlineeLinesByVA (   
    IDiaSymbol*           parent,   ULONGLONG             va,   DWORD                 length,  
    IDiaEnumLineNumbers** ppResult  

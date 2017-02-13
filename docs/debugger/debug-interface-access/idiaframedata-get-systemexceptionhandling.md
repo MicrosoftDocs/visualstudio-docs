@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether system exception handling is in effect.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_systemExceptionHandling (   
    BOOL* pRetVal  
 );  

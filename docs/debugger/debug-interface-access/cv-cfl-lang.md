@@ -38,7 +38,7 @@ Specifies the source code language of the application or linked module.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_CFL_LANG {   
    CV_CFL_C       = 0x00,  
    CV_CFL_CXX     = 0x01,  

@@ -38,7 +38,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified a
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByAddr (   
    DWORD        isect,  
    DWORD        offset,  
@@ -65,7 +65,7 @@ HRESULT findSymbolByAddr ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 pSession->findSymbolByAddr( isect, offset, SymTagFunction, &pFunc );  
 ```  

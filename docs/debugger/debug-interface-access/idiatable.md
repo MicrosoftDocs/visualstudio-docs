@@ -82,7 +82,7 @@ IDiaTable : IEnumUnknown
 > [!NOTE]
 >  `CDiaBSTR` is a class that wraps a `BSTR` and automatically handles freeing the string when the instantiation goes out of scope.  
   
-```cpp#  
+```C++  
 void ShowTableNames(IDiaSession *pSession)  
 {  
     CComPtr<IDiaEnumTables> pTables;  

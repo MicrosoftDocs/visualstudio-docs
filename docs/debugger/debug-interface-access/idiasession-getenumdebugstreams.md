@@ -38,7 +38,7 @@ Retrieves an enumerated sequence of debug data streams.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT getEnumDebugStreams (   
    IDiaEnumDebugStreams** ppEnumDebugStreams  
 )  

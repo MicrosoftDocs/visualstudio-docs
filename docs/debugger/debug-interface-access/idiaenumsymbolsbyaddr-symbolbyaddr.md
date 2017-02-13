@@ -38,7 +38,7 @@ Positions the enumerator by performing a lookup by image section number and offs
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolByAddr (   
    DWORD**      isect,  
    DWORD**      offsect,  

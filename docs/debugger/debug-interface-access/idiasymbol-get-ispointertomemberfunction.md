@@ -36,7 +36,7 @@ Specifies whether this symbol is a pointer to a member function.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isPointerToMemberFunction(   
    BOOL* pRetVal);  
 ```  

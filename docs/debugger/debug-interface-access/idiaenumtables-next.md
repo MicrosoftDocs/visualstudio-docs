@@ -38,7 +38,7 @@ Retrieves a specified number of tables in the enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG       celt,  
    IDiaTable** rgelt,  

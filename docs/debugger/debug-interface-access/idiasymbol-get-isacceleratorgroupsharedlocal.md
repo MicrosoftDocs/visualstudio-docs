@@ -36,7 +36,7 @@ Retrieves a flag that indicates whether the symbol corresponds to a group shared
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isAcceleratorGroupSharedLocal(   
    BOOL* pFlag);  
 ```  

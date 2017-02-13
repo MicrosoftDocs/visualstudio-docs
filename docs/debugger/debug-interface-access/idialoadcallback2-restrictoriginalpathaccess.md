@@ -38,7 +38,7 @@ Determines if it is okay to look for a .pdb file in the original debug directory
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictOriginalPathAccess ();  
 ```  
   

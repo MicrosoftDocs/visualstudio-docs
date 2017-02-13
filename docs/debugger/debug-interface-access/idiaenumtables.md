@@ -63,7 +63,7 @@ IDiaEnumTables : IUnknown
 ## Example  
  This example shows how to obtain the `IDiaEnumTables` interface from a session. For a more complete example of using tables, see the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) interface.  
   
-```cpp#  
+```C++  
 void ShowTableNames(IDiaSession *pSession)  
 {  
     CComPtr<IDiaEnumTables> pTables;  

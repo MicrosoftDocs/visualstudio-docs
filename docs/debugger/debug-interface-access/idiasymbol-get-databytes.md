@@ -38,7 +38,7 @@ Retrieves the data bytes of an OEM symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_dataBytes (   
    DWORD  cbData,  
    DWORD* pcbData,  

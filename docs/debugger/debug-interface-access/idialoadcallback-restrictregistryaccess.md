@@ -38,7 +38,7 @@ Determines if registry queries can be used to locate symbol search paths.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictRegistryAccess();  
 ```  
   
