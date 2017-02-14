@@ -11,6 +11,7 @@ ms.topic: "article"
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
 caps.latest.revision: 1
 author: "gregvanl"
+
 ms.author: "gregvanl"
 manager: "ghogen"
 translation.priority.mt: 
@@ -39,6 +40,8 @@ Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support f
 * [installdir]\MSBuild
 * [installdir]\Schemas
 * [installdir]\Licenses
+* [installdir]\RemoteDebugger
+* [installdir]\VSTargets
 
 >**Note:** The VSIX format does not allow you to install outside the VS install folder structure.
 
