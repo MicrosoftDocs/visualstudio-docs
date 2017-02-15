@@ -18,8 +18,8 @@ f1_keywords:
   - "vs.debug.remotemachine"
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "VB"
   - "c++"
 helpviewer_keywords: 

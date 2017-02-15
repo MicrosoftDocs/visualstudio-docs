@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "c.runtime.debugging"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "C++"
 helpviewer_keywords: 

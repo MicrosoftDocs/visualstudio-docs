@@ -9,12 +9,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "project settings, debugger"

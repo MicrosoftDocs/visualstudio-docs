@@ -9,12 +9,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "VB"
-  - "CSharp"
+  - "FSharp"
 helpviewer_keywords: 
   - "debugging ASP.NET Web applications"
   - "debugging [Visual Studio], Web applications"

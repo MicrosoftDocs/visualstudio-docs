@@ -11,14 +11,14 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.stopnow"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Stop Debugging in Progress dialog box"

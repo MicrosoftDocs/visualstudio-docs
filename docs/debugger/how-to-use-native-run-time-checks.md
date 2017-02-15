@@ -11,13 +11,13 @@ ms.topic: "article"
 f1_keywords: 
   - "c.runtime.errorchecks"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "/RTC compiler option [C++], /O compiler option"

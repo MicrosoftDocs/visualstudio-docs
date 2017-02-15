@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
-  - "CSharp"
+  - "FSharp"
   - "VB"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"

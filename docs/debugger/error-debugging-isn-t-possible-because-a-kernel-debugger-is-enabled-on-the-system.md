@@ -11,12 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "kernel debugger"

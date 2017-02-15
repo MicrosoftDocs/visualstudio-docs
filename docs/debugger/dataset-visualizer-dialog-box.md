@@ -11,14 +11,14 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.dataviewer"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "datasets [Visual Studio], Dataset Visualizer dialog box"

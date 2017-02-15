@@ -11,13 +11,13 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.registergroups"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Registers window, displaying and hiding register groups"

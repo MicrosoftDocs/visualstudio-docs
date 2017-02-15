@@ -9,11 +9,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
+  - "CSharp"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
-  - "CSharp"
+  - "FSharp"
 helpviewer_keywords: 
   - "expressions [C#], formatting values"
   - "variables [debugger], watch variable symbols"

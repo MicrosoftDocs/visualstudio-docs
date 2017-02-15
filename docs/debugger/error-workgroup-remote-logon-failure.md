@@ -11,13 +11,13 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "logon failure, remote debugging"

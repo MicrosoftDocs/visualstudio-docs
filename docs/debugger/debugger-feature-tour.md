@@ -11,8 +11,8 @@ ms.topic: "get-started-article"
 f1_keywords: ""
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "JScript"
   - "VB"
 helpviewer_keywords: 
