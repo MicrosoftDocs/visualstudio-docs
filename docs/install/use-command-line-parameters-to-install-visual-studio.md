@@ -1,7 +1,7 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/31/2017"
+ms.date: "02/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -81,6 +81,9 @@ If no command is specified, it will install the product.
 | ```--productKey``` | Optional: This defines the product key to use for an installed product. It is composed of 25 alphanumeric characters either in the format 'xxxxx-xxxxx-xxxxx-xxxxx-xxxxx' or 'xxxxxxxxxxxxxxxxxxxxxxxxx'. |
 ## List of workload IDs and component IDs
 For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
+
+> [!WARNING]
+> The --layout parameter will fail if the setup .exe file name includes numerals. To work around this issue, you must remove the numerals from the filename&mdash;for example, rename *vs_community__198521760.1486960229.exe* to ***vs_community.exe***.
 
 ## List of language locales
 | **Language-locale** | **Language** |
