@@ -39,6 +39,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+copyright: "Copyright © 2017 PreEmptive Solutions, LLC"
 ---
 
 # Upgrade Dotfuscator Community Edition (CE)

@@ -37,6 +37,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+copyright: "Copyright © 2017 PreEmptive Solutions, LLC"
 ---
 
 # Install Dotfuscator Community Edition (CE)
