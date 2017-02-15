@@ -32,14 +32,15 @@ translation.priority.ht:
 
 # Python Tools for Visual Studio
 
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports for all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org]()https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
+Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports for all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
 The Python Tools for Visual Studio (PTVS) is a free, [open-source](https://github.com/Microsoft/ptvs) extension for Visual Studio that brings the [development experience of Visual Studio](../ide/visual-studio-ide.md) to Python development. 
 
 Follow our [installation instructions](installation.md) to get set up with PTVS, then use the links below to learn more about PTVS features as well as the capabilities of Visual Studio itself.
 
-| PTVS Feature | Description | General Visual Studio Documentation |
-| [Visual Studio project system](python-projects-in-visual-studio.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. |[] Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
+| PTVS Feature | Description | General Visual Studio Documentation | 
+| --- | --- | --- |
+| [Visual Studio project system](python-projects-in-visual-studio.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
 | [Project templates](python-projects-in-visual-studio.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
 | Multiple interpreter support | Supports various versions of CPython, IronPython, and IPython, including support for IPython with data visualizations, .NET, and Windows Presentation Foundation (WPF). | n/a |
 | [Rich editing, IntelliSense, and code comprehension](editing-code.md) | Includes syntax coloring, auto-complete across all your code and libraries, [code formatting](formatting-code.md), signature help, class view, Go to Definition, Find All References, code snippets, [refactoring](code-refactoring.md), [PYLint](pylint.md), and more. | [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md) |
@@ -71,78 +72,89 @@ PTVS can be installed in the following editions of Visual Studio:
 Supported features by Visual Studio version and edition:
 
 | Python Support | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
 | Multiple interpreters management | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
-| Auto-detect popular interpreters | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Add custom interpreters | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Virtual Environments | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Pip/Easy Install | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Auto-detect popular interpreters | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Add custom interpreters | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Virtual Environments | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Pip/Easy Install | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Project System | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| New project from existing code | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Show all files | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Source control | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Git integration | Yes | Yes | Yes | Yes | Yes | Yes | Yes<sup>1</sup> | &#10007; |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| New project from existing code | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Show all files | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Source control | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Git integration | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;<sup>1</sup> | &#10007; |
 
 | Editing | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Syntax highlighting | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Auto-complete | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Signature help | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Quick info | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Object browser/class view | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Go to Definition | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Navigate to | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Find All References | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Auto indentation | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Code formatting | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Refactor - rename | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Refactor - extract method | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Refactor - add/remove import | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| PYLint | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Syntax highlighting | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Auto-complete | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Signature help | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Quick info | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Object browser/class view | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Navigation bar | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Go to Definition | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Navigate to | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Find All References | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Auto indentation | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Code formatting | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Refactor - rename | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Refactor - extract method | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Refactor - add/remove import | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| PYLint | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Interactive Window | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Interactive Window | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| IPython with inline graphs | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Interactive Window | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| IPython with inline graphs | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Desktop | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Console/Windows application | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| IronPython WPF (with XAML designer) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| IronPython Windows Forms | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Console/Windows application | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| IronPython WPF (with XAML designer) | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| IronPython Windows Forms | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Web | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Djano web project | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes |
-| Bottle web project | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes |
-| Flask web project | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes |
-| Generic web project | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Djano web project | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Bottle web project | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Flask web project | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Generic web project | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Azure | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Web deploy to web site | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes<sup>2</sup> |
-| Web deploy to web role | Yes | Yes | Yes | No | Yes<sup>4</sup> | Yes<sup>4</sup> | Yes<sup>3</sup> | No |
-| Web deploy to worker role | ? | ? | ? | No | Yes<sup>4</sup> | Yes<sup>4</sup> | Yes<sup>3</sup> | No |
-| Run in Azure emulator | ? | ? | ? | No | Yes<sup>4</sup> | Yes<sup>4</sup> | Yes<sup>3</sup> | No |
-| Remote debugging | ? | ? | ? | No | Yes<sup>6</sup> | Yes<sup>8</sup> | Yes<sup>8</sup> | No |
-| Server Explorer attach | ? | ? | ? | No | Yes<sup>7</sup> | Yes<sup>7</sup> | No | No |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Web deploy to web site | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004;<sup>2</sup> |
+| Web deploy to web role | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
+| Web deploy to worker role | ? | ? | ? | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
+| Run in Azure emulator | ? | ? | ? | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
+| Remote debugging | ? | ? | ? | &#10007; | &#10004;<sup>6</sup> | &#10004;<sup>8</sup> | &#10004;<sup>8</sup> | &#10007; |
+| Server Explorer attach | ? | ? | ? | &#10007; | &#10004;<sup>7</sup> | &#10004;<sup>7</sup> | &#10007; | &#10007; |
 
 | Django templates | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Debugging | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes |
-| Auto-complete | Yes | Yes | Yes | No | Yes<sup>5</sup> | Yes<sup>5</sup> | Yes | Yes |
-| Auto-complete for CSS and JavaScript | ? | ? | ? | No | Yes<sup>5</sup> | Yes<sup>5</sup> | No | No |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Debugging | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Auto-complete | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>5</sup> | &#10004;<sup>5</sup> | &#10004; | &#10004; |
+| Auto-complete for CSS and JavaScript | ? | ? | ? | &#10007; | &#10004;<sup>5</sup> | &#10004;<sup>5</sup> | &#10007; | &#10007; |
 
 | Debugging | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Debugging | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Debugging without a project | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Debugging - attach to editing | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
-| Mixed-mode debugging | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Remote debugging (Windows, Mac OS X, Linux) | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
-| Debug interactive window | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Debugging | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Debugging without a project | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Debugging - attach to editing | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; |
+| Mixed-mode debugging | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; |
+| Remote debugging (Windows, Mac OS X, Linux) | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; |
+| Debug interactive window | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 
 | Profiling | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Profiling | ? | ? | ? | No | No | Yes | Yes | Yes |
+| --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Profiling | ? | ? | ? | &#10007; | &#10007; | &#10004; | &#10004; | &#10004; |
 
 | Test | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
-| Test explorer | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Run test | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Debug test | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Test explorer | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; |
+| Run test | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; |
+| Debug test | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; |
 
 
 
