@@ -72,6 +72,8 @@ To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
 To ensure that the user's installation of Visual Studio has all the assemblies required to run the extension, specify all the prerequisite components or packages in the extension manifest file. When a user attempts to install the extension, the VSIXInstaller will check to see if all the prerequisites are installed. If some are missing, the user will be prompted to install the missing components as part of the extension installation process.
 
+>**Note:** At a minimum, all extensions should specify the Visual Studio core editor component as a prerequisite.
+
 * Edit the extension manifest file (usually called source.extension.vsixmanifest).
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
