@@ -34,11 +34,11 @@ translation.priority.ht:
 
 Python code always runs within a particular Python *environment*, consisting of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-The Python Tools for Visual Studio (PTVS) make it easy to manage multiple Python environments and easily switch between them for different projects.
+The Python Tools for Visual Studio (PTVS) make it easy to manage multiple Python environments and easily switch between them for different projects. An environment in PTVS also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
 
 For a video introduction (13m27s), see the following:
 
-[![Deep Dive: Python Interpreters](media/video-thumbnails/PythonInterpreters.png)]](https://youtu.be/KY1GEOo3qy0)
+[![Deep Dive: Python Interpreters](media/video-thumbnails/PythonInterpreters.png)](https://youtu.be/KY1GEOo3qy0)
 
 Oftentimes, developers use only a single, global Python environment but others need to manage multiple global environments, project-specific environments, and perhaps also virtual environments as explained in this topic:
 
@@ -56,7 +56,7 @@ PTVS does not come with a Python interpreter, so you need to install one of the 
 | Interpreter | Description | 
 | --- | --- | 
 | [CPython](https://www.python.org/) | The "native" and most commonly-used interpreter, available in 32- and 64-bit versions (32-bit recommended with PTVS). Includes the latest language features, maximum Python package compatibility, full debugging support within PTVS, and interop with [IPython](http://ipython.org/). See also: [Should I use Python 2 or Python 3?](http://wiki.python.org/moin/Python2orPython3) |
-| [IronPython](http://ironpython.codeplex.com/) | A .NET implementation of Python, available in 32- and 64-bit versions, providing C#/F#/Visual Basic interop, standard Python debugging with PTVS (but not C++ mixed-mode debugging), and mixed IronPython/C# debugging. | 
+| [IronPython](http://ironpython.codeplex.com/) | A .NET implementation of Python, available in 32- and 64-bit versions, providing C#/F#/Visual Basic interop, access to .NET APIs, standard Python debugging with PTVS (but not C++ mixed-mode debugging), and mixed IronPython/C# debugging. IronPython, however, does not support virtual environments. | 
 | [Anaconda](https://www.continuum.io) | An open data science platform powered by Python, and includes the latest version of CPython and most of the difficult-to-install packages. We recommend it if you can't otherwise decide. |
 | [PyPy](http://www.pypy.org/) | A high-performance tracing JIT implementation of Python. Works with PTVS but with limited support for advanced debugging features. |
 | [Jython](http://www.jython.org/) | An implementation of Python on the JVM.  Works with PTVS but with limited support for advanced debugging features. |
@@ -127,7 +127,7 @@ If shown, contains details as described in the table below. If this tab isn't pr
 
 ### pip tab
 
-Manages the packages installed in the environment, allowing you also to and search for and install new ones. Searching will filter your currently installed packages as well as searching [PyPI](https://pypi.python.org). You can also enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
+Manages the packages installed in the environment, allowing you also to and search for and install new ones (including any dependencies). Searching will filter your currently installed packages as well as searching [PyPI](https://pypi.python.org). You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
 
 ![Python environments pip tab](media/Environments-pipTab.png)
 
@@ -165,7 +165,7 @@ In Solution Explorer, you can also expand the environment to show its installed 
 
 ![Python packages for an environment in Solution Explorer](media/Environments-InstalledPackages.png)
 
-To install new packages, right-click the environment, select **Install Python Package...**, and enter the name of the desired package. Packages are downloaded from the [Python Package Index (PyPI)](https://pypi.python.org/pypi), where you can also search for available packages. Visual Studio's status bar and output window shows information about the install. To uninstall a package, right-click it select **Remove**.
+To install new packages, right-click the environment, select **Install Python Package...**, and enter the name of the desired package. Packages (and dependencies) are downloaded from the [Python Package Index (PyPI)](https://pypi.python.org/pypi), where you can also search for available packages. Visual Studio's status bar and output window shows information about the install. To uninstall a package, right-click it select **Remove**.
 
 > [!Note]
 > Python's package management support is currently under development by the core Python development team. The displayed entries may not always be accurate, and installation and uninstallation may not be reliable or available. PTVS uses the pip package manager if available, and will download and install it when required.PTVS can also use the easy_install package manager. Packages installed using pip or easy_install from the command line are also displayed in PTVS.
@@ -175,9 +175,9 @@ One common situation where pip will fail to install a package is when the packag
 
 ## Virtual Environments
 
-Because packages installed into a global environment are available to all projects that use it, conflicts may occur when two projects require incompatible packages or different versions of the same package. To avoid such conflicts, PTVS provides the ability to create virtual environments.
+Because packages installed into a global environment are available to all projects that use it, conflicts may occur when two projects require incompatible packages or different versions of the same package. To avoid such conflicts, PTVS provides the ability to create *virtual environments*, which are typically specific to a project.
 
-Like any other Python environment, a virtual environment consists of a Python interpreter, a library, and a set of packages. The interpreter and library, however, are shared with a base interpreter selected from your global environments, which minimizes the virtual environment's footprint to approximately the size of its packages. You can essentially think about a virtual environment as a private folder of packages in your project.
+Like any other Python environment, a virtual environment consists of a Python interpreter, a library, and a set of packages. In this case, though, the virtual environment uses the interpreter and library from one of your global environments (provided it supports virtual environments), but its packages are separate and isolated from the global and all other virtual environments. This again avoids conflicts and minimizes the virtual environment's footprint to the approximate size of its packages. 
 
 To create a virtual environment:
 
@@ -197,22 +197,29 @@ An existing virtual environment can also be added by right-clicking **Python Env
 
 Once a virtual environment is added to your project, it appears in the **Python Environments** window, you can activate it like any other environment, and you can manage its packages. Right-clicking it and selecting **Remove** either removes the reference to the environment, or deletes the environment and all its files on disk (but not the base interpreter, of course).
 
+Note that one drawback to virtual environments is that they contain hard-coded file paths and thus cannot easily be shared or transported to other development machines. Fortunately, you can use the `requirements.txt` file as described in the next section.
 
 ## Managing required packages
 
 If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](projects-cloud-service.md), you'll need to specify the external packages it requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that will install the required versions of dependent packages.
 
-Any filename may be used, and specifying `-r "<full path to file>"` in the Install Package tool will install it. However, for files named `requirements.txt` in the root directory of the project, there is specific support in PTVS. The **Install from requirements.txt** command appears on environments and uses pip to install the packages listed in the `requirements.txt` file. When you have installed all the packages required, you can use **Generate requirements.txt** to update the file. If it already exists, the dialog below will allow you to select how to update the contents of the file.
+Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but PTVS provides specific support for `requirements.txt`:
 
-![Install from requirements.txt](media/Environments-RequirementsTxt-Install.png)
+- If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, right-click the project and select **Install from requirements.txt**:
 
-Replacing the entire file will remove all items, comments, and options that exist. Refreshing existing entries will detect package requirements and update the version specifiers to match the version you currently have installed. Updating and adding entries refreshes any requirements that are found, and adds all other packages to the end of the file.
+    ![Install from requirements.txt](media/Environments-RequirementsTxt-Install.png)
 
-![Update requirements.txt options](media/Environments-RequirementsTxt-Replace.png)
+- When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate reqirements.txt** to create the necessary file. If the file already exists, you'll be prompted for how to update it:
+
+    ![Update requirements.txt options](media/Environments-RequirementsTxt-Replace.png)
+
+    - **Replace entire file** removes all items, comments, and options that exist.
+    - **Refresh existing entries** detects package requirements and update the version specifiers to match the version you currently have installed.
+    - **Update and add entries** refreshes any requirements that are found, and adds all other packages to the end of the file.
 
 Because `requirements.txt` files are intended to freeze the requirements of your project, all installed packages are written with precise versions. This ensures you can easily reproduce your environment on another machine. Packages are included even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
 
-When adding a new virtual environment, if a` requirements.txt` file exists, the **Add Virtual Environment** dialog will display an option to install the packages automatically. This is the easiest way to recreate an environment on another machine.
+When adding a new virtual environment, if a` requirements.txt` file exists, the **Add Virtual Environment** dialog displays an option to install the packages automatically, making it easy to recreate an environment on another machine:
 
 ![Create virtual environment with requirements.txt](media/Environments-RequirementsTxt.png)
 
