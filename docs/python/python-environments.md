@@ -38,14 +38,14 @@ The Python Tools for Visual Studio (PTVS) make it easy to manage multiple Python
 
 For a video introduction (13m27s), see the following:
 
-![Deep Dive: Python Interpreters](media/video-thumbnails/PythonInterpreters.png)](https://youtu.be/KY1GEOo3qy0)
+[![Deep Dive: Python Interpreters](media/video-thumbnails/PythonInterpreters.png)]](https://youtu.be/KY1GEOo3qy0)
 
 Oftentimes, developers use only a single, global Python environment but others need to manage multiple global environments, project-specific environments, and perhaps also virtual environments as explained in this topic:
 
 - [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters)
 - [Managing Python environments in Visual Studio](#managing-python-environments-in-visual-studio)
 - [Global environments](#global-environments)
-- [Project-specific environments](project-specific-environments)
+- [Project-specific environments](#project-specific-environments)
 - [Virtual environments](#virtual-environments)
 - [Managing required packages](#managing-required-packages)
 
@@ -81,6 +81,7 @@ In the example above, we have Python 3.4 (32-bit CPython) installed along with 3
 
 > [!Tip]
 > When the **Python Environments* window is narrow, as shown above, the environments are listed on the top and the various tabs on the bottom. If you expand the window enough, however, you'll see a wide view that you may find more convenient to work with.
+>
 > ![Python Environments window expanded view](media/Environments-ExpandedView.png)
 
 PTVS normally locates an installed Python interpreter by checking the registry, it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point PTVS directly to the interpreter as follows:
@@ -95,14 +96,14 @@ PTVS normally locates an installed Python interpreter by checking the registry, 
 1. Select **Apply** to save the environment.
 1. If you need to remove the environment, select the **Remove** command on the **Configure** tab.
 
-> ![Note]
+> [!Note]
 > Although the system-site-packages option will be respected, there is no way to set or change this from within Visual Studio.
 
 ### Overview tab
 
 Provides basic information and commands for the environment such as setting it as the default, opening an [interactive (REPL) window](interactive-window.md) with that environment, and jumping to the dialog to configure the interactive window (identical to the **Tools > Options** menu command, selecting **Python Tools > Interactive Windows** and the name of the environment).
 
-> ![Python Environments overview tab](media/Environments-OverviewTab.png)
+![Python Environments overview tab](media/Environments-OverviewTab.png)
 
 > [!Note]
 > Changing the active environment may cause Visual Studio to briefly become non-responsive while the IntelliSense database is loaded. Environments with many packages may be non-responsive for longer.
@@ -111,18 +112,18 @@ Provides basic information and commands for the environment such as setting it a
 
 If shown, contains details as described in the table below. If this tab isn't present, it means that PTVS is managing all the details automatically.
 
-> ![Python Environments configure tab](media/Environments-ConfigureTab.png)
+![Python Environments configure tab](media/Environments-ConfigureTab.png)
 
 | Field | Description |
 | --- | --- |
-| Description | The name to give the environment. |
-| Prefix path | The base folder location of the interpreter. By filling this in and clicking **Auto Detect**, PTVS will attempt to fill in the other fields for you. |
-| Interpreter path | The path to the interpreter executable, commonly the prefix path followed by `python.exe` |
-| Windowed interpreter | Tthe path to the non-console executable, often the prefix path followed by `pythonw.exe`. |
-| Library path | Specifies the root of the standard library, but this value may be ignored if PTVS is able to request a more accurate path from the interpreter. |
-| Language version | Selected from the drop down menu. |
-| Architecture | Normally detected and filled in automatically, otherwise specifies 32-bit or 64-bit. |
-| Path environment variable | The environment variable that the interpreter uses to find search paths. PTVS will change the value of the variable when starting Python so that it contains the project's search paths. Typically this property should be set to `PYTHONPATH`, but some interpreters use a different value. |
+| **Description** | The name to give the environment. |
+| **Prefix path** | The base folder location of the interpreter. By filling this in and clicking **Auto Detect**, PTVS will attempt to fill in the other fields for you. |
+| **Interpreter path** | The path to the interpreter executable, commonly the prefix path followed by `python.exe` |
+| **Windowed interpreter** | Tthe path to the non-console executable, often the prefix path followed by `pythonw.exe`. |
+| **Library path** | Specifies the root of the standard library, but this value may be ignored if PTVS is able to request a more accurate path from the interpreter. |
+| **Language version** | Selected from the drop down menu. |
+| **Architecture** | Normally detected and filled in automatically, otherwise specifies 32-bit or 64-bit. |
+| **Path environment variable** | The environment variable that the interpreter uses to find search paths. PTVS will change the value of the variable when starting Python so that it contains the project's search paths. Typically this property should be set to `PYTHONPATH`, but some interpreters use a different value. |
 
 ### pip tab
 
@@ -134,7 +135,7 @@ Manages the packages installed in the environment, allowing you also to and sear
 
 Shows the current status of the IntelliSense completion database:
 
-> ![Python Environments IntelliSense tab](media/Environments-IntelliSenseTab.png)
+![Python Environments IntelliSense tab](media/Environments-IntelliSenseTab.png)
 
 The database contains metadata for all the environment's libraries and improves IntelliSense speed and reduces memory usage. When PTVS detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you'll get detailed IntelliSense and won't have to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 
