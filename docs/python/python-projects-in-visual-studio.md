@@ -32,134 +32,98 @@ translation.priority.ht:
 
 # Python Projects in Visual Studio
 
-The Python Tools for Visual Studio (PTVS) allow you to create projects using the Visual Studio project system. Project files (.pyproj) reference all the source and content files associated with your project, and are displayed in the Solution Explorer window.
+Python applications are typically defined using only folders and files, but this can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. To help manage this complexity, the Python Tools for Visual Studio (PTVS) allow you to create projects (.pyproj files) using the Visual Studio project system. A project identifies all the source and content files associated with your project, contains build information for each file, contains the necessary information to integrate with source-control systems, and helps you organize your application into logical components.
 
-Like all languages supported by Visual Studio, Python project files are referenced from a *solution*. Solutions can contain multiple projects of different types, and projects can include references to each other. For example, a Python project may include a reference to a C++ project for an extension module, such that Visual Studio will automatically build the C++ project (if necessary) when you start debugging the Python project. (For a general discussion, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).)
+In addition, projects are always managed within a Visual Studio *solution*, which can contain any number of projects that might reference one another. For example, a Python project can reference a C++ project for an extension module, such that Visual Studio will automatically build the C++ project (if necessary) when you start debugging the Python project. (For a general discussion, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).)
+
+![Python project in Solution Explorer](media/Projects-SolutionExplorer.png)
+
+PTVS provides a variety of project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) below for an index.
+
+The following videos provide an introduction to Python projects in Visual Studio (3m18s) and a deep dive on using Git and Team Foundation Version Control with Python.
+
+The following video (3m18s) provides an introduction to Python projects in Visual Studio:
+
+[![PTVS Getting Started Part 2: Projects](media/video-thumbnails/GettingStarted02.png)](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+
+Also see the deep-dive video (8m55s) on using source control with Python projects:
+
+[![PTVS Deep Dive: Source Control](VideoThumbnails/SourceControl.png)](https://youtu.be/Aq8eqApnugM)
+
+In this topic:
+
+- [Adding files, assigning a startup file, and setting environments](#adding-file-assigning-a-startup-file-and-setting-environments)
+- [Project templates](#project-templates)
+- [Linked files](#linked-files)
+- [Search paths](#search-paths)
+- [References](#references)
+
+> [!Tip]
+> Python Tools for Visual Studio works well without having a Visual Studio project, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**. Because such code will always use the default global environment, you may see incorrect completions or errors if the code is mean for a different environment. Furthermore, PTVS will analyze all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
 
-For a three minute introduction to using Python projects in Visual Studio, see this video.
+## Adding files, assigning a startup file, and setting environments
 
-[![Getting Started Part 2: Projects](VideoThumbnails/GettingStarted02.png)](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+As you develop your application, you'll typically need to add new files of different types to the project. This is easily done by right-clicking the project and selecting **Add > Existing Item...**, with which you browse for a file to add, or **Add > Existing Item...**, which brings up a dialog with a variety of item templates including empty python files, a python class, a unit test, and various files related to web applications. We encourage you to explore these options with a test project to learn what's available in your version of PTVS.
+
+Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. This is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or execute your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right click the desired environment and select **Activate Environment**:
+
+![Activating an environment for a Python project](media/Projects-ActivateEnvironment.png)
+
+For more details, see [Python Environments](python-environments.md#project-specific-environments).
+
+## Project templates
+
+PTVS gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...", both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Templates > Other Languages > Python** node:
+
+![New project dialog with Python templates](media/Projects-NewProjectDialog.png)
+
+The following table summarizes the templates available in the current release of PTVS (not all templates are available in all versions):
+
+| Template | Description | 
+| --- | --- |
+| [From Existing Python Code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
+| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
+| [Azure Cloud Service](azure-cloud-service-project.md) | A project for an Azure Cloud Service written in Python |
+| [Web Project](web-project-template.md)<br/>[Bottle Web Project](bottle-project-templates.md)<br/>[Django Web Project](django-project-templates.md)<br/>[Flask Web Project](flask-project-templates.md)<br/>[Flask/Jade Web Project](flask-project-templates.md) | Projects for web servers based on various frameworks. |
+| IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
+| IronPython WPF Application | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
+| IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
+| IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
+| Background Application (IoT) | Supports deploying Python projects to run as background services on devices.
+Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
 
 
-Projects include a start-up file, which will run when you start with debugging (F5) or execute your project in the interactive window (Shift+Alt+F5).
-This file is bolded in Solution Explorer.
-You can change the startup file by right-clicking and selecting "Set as Startup File" on the file you want to start with.
+### Creating a project from existing files
 
-Each project may be associated with one or more Python environments, and may include virtual environments.
-See the [Python Environments](Python-Environments) page for more information on modifying these settings.
+PTVS can create a Visual Studio project from existing Python code without having to move the code around:
 
-![Solution Explorer](Images/SolutionExplorer.png)
+1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.
+1. In the following dialog, set the path to your existing code, a filter for file types, and any search paths that your project requires, then select **Next**:
 
-Projects are used by Visual Studio to integrate with source control providers, allowing you to transparently integrate with git, TFS, or to other systems using third-party extensions.
-For an introduction to using git and TFS version control in Visual Studio, see this video.
+    ![New Project from Existing Code, step one](media/Projects-FromExisting1.png)
 
-[![Deep Dive: Source Control](VideoThumbnails/SourceControl.png)](https://youtu.be/Aq8eqApnugM)
+1. Choose an environment for the project and the startup file, then press **Next**. (Note that the dialog shows only files in the root of the folder tree; if the file you want is in a subfolder, leave the startup file blank and set it later in Solution Explorer).
 
+    ![New Project from Existing Code, step two](media/Projects-FromExisting2.png)
 
-Project Types
--------------
+1. Select the location to save the project file (this does not move or copy the original source files, so if you want a copy you should make one before using the template). In this dialog you can also include auto-detection of virtual environments and customize the project for different web frameworks.
 
-### Python Application
+![New Project from Existing Code, step three](media/Projects-FromExisting3.png)
 
-This is a basic application that is a good starting point for any Python project.
-With the default settings, your project will run and be debugged with the console interpreter (typically `python.exe`) of your default environment.
-After creation, you can choose another environment or create a virtual environment, add new modules and packages, choose to run with the windowed interpreter (`pythonw.exe`), or use mixed-mode (C++/Python) debugging.
+1.  Select **Finish** and PTVS will create the project and open it in Solution Explorer. If you want to move the .pyproj file elsewhere, select it in Solution Explorer and choose **File > Save As**. This updates file references in the project but will not move any code file.
 
-### Django Web Project
+## Linked files
 
-This project is based on the standard Django template.
-You can add new apps to the project, create virtual environments, edit page templates, interactively debug both code and template files, and publish to Microsoft Azure.
-See the [Django](Django) documentation for more details on Django specific features.
-
-### Other Web Projects (Bottle, Flask, etc.)
-
-These projects are web servers using various frameworks.
-See the [Web Projects](Web-Project) documentation for more details.
-
-### IronPython Application
-
-Similar to the Python application, this project is a good starting point for projects using IronPython and interacting with .NET code.
-By default, it will use mixed-mode IronPython/managed debugging and run with the 32-bit IronPython interpreter.
-
-### IronPython WPF Application
-
-Windows Presentation Foundation applications use XAML files to describe rich user interfaces, and Visual Studio includes a drag and drop designer for WPF windows.
-With IronPython, the code behind the UI can be written with Python.
-By default, this project will use a 32-bit IronPython interpreter, mixed-mode IronPython/managed debugging, and run without displaying a console (`ipyw.exe`).
-
-### IronPython Silverlight Web Page
-
-This is an IronPython application which will run in the web browser using Silverlight.
-The code is written in a .py file included in a web page using `<script type="text/python" src="..."></script>`.
-A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight.
-From there your Python code can interact with the DOM.
-(Note: Silverlight support is very preliminary.)
-
-### IronPython Windows Forms Application
-
-Windows Forms applications use an older windowing framework, where controls are created and positioned using code.
-PTVS does not include a designer for Windows Forms applications, and so all UI must be written in Python.
-By default, this project will use a 32-bit IronPython interpreter, mixed-mode IronPython/managed debugging, and run without displaying a console (`ipyw.exe`).
-
-### IoT Background Service
-
-Windows IoT supports deploying Python projects to run as background services on devices.
-Visit the [IoT Dev Center](https://dev.windows.com/en-us/iot) for more information.
-
-<p id="ProjectFree" />
-Lightweight Usage Project-free
-------------------------------
-
-Python Tools also supports editing your code without a project system.
-You can open any file on disk and start editing it immediately with code completions and debugging.
-There are, however, some important caveats that only apply when not using a project:
-
-* All files and packages in the same directory will be analyzed; if there are a lot of files, this may consume a lot of CPU
-* Without a project, you will always use the global default environment; you may see incorrect completions or errors if the files are meant for a different version of Python.
-* To run the file, you must right-click in the editor and select "Start with Debugging" or "Start without Debugging" (the F5 keyboard shortcuts are disabled). This will use your global default environment; in a project you can select the environment to use.
-
-To quickly create a project from a directory of existing code, see [Create Project from Existing Files](#create-project-from-existing-files).
-
-<p id="NewProjectFromExisting" />
-Create Project from Existing Files
-----------------------------------
-
-If you already have existing Python code, you can easily create a new project without having to move it around.
-In the New Project window select "From Existing Python Code":
-
-![New Project window](Images/FromExisting1.png)
-
-This will display the following wizard, where you can choose the path containing your existing code, a filter to include specific file types, and any search paths that your project requires.
-
-![New Project from Existing Code Wizard step one](Images/FromExisting2.png)
-
-On the next page, you can choose the environment to associate with this project and the file to run when you press F5.
-(Only files in the root of the folder tree are shown, so if the one you want is not there, don't choose anything for now and set it later.)
-
-![New Project from Existing Code Wizard step two](Images/FromExisting3.png)
-
-On the final page, you can select the location to save the project file.
-Choosing another location does not move or copy the original source files, so if you want a copy you should make one before starting the wizard.
-
-Other options here include auto-detection of virtual environments and project customizations.
-These customizations can only be done when the project is first created and, currently, will enable publishing and debugging features specific to web projects or IoT projects.
-
-![New Project from Existing Code Wizard step three](Images/FromExisting4.png)
-
-Click Finish and your project will be created.
-If you want to move the .pyproj file somewhere else at this point, select it in Solution Explorer and choose File -> Save As.
-Moving the .pyproj this way will update file references and won't move any code files around, but edits, deletes, and renames will affect the original files.
-
-Linked Files
-------------
-
-Linked files appear in Solution Explorer as normal files with a shortcut icon overlayed on top of them.
-They can exist either at the top-level of the project or embedded within an arbitrary folder structure.
+Linked files are those that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with a overlayed shortcut icon.
 
 ![Linked file icon](Images/LinkedFileIcon.png)
 
 Linked files are specified in the .pyproj file using the normal `<Compile Include="...">` element.
+
 They can be implicit linked files if they use a relative path outside of the directory structure or they can be explicit link files by specifying their path within Solution Explorer:
 
 ```xml
@@ -192,8 +156,8 @@ If you move a linked file in Solution Explorer, the link will be moved but the a
 Similarly, deleting a link will remove the link without affecting the file.
 Linked files cannot be renamed.
 
-Search Paths
-------------
+## Search Paths
+
 
 It is often surprising that the value of `PYTHONPATH` (or `IRONPYTHONPATH`, etc.) is ignored by PTVS, even when it has been set for the entire system.
 This is deliberate, and is primarily *because* it has been set for the entire system.
@@ -218,8 +182,8 @@ Then it will be analyzed and stored in your completion DB, will always be associ
 
 ![Search paths](Images/SearchPath.png)
 
-References
-----------
+## References
+
 
 ![Extension references](Images/ExtensionReferences.png)
 
