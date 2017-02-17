@@ -1,7 +1,7 @@
 ---
 title: "Improve Code Quality"
 ms.custom: na
-ms.date: "10/14/2016"
+ms.date: "02/17/2017"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
@@ -45,7 +45,6 @@ What is code quality? Correctness, maintainability, and even elegance are all in
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Test Explorer makes it easy to integrate unit tests in your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.|  
 |[Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|Static code analysis tools find design, usage, maintainablity, and style issues in C++ and managed code. Many of these issues can lead to bugs that are hard to reproduce in standard testing environment.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Code metrics is a set of software measures that provide developers better insight into the code they are developing. The metrics include a maintainability index for functions and classes, cyclomatic complexity of functions, the inheritance depth of classes, and the amount of coupling among classes.|  
-|[PreEmptive Analytics for Team Foundation Server](http://msdn.microsoft.com/library/hh973124.aspx)|PreEmptive Analytics for TFS CE helps you to integrate feedback-driven development processes into your development workflow. Your applications automatically send back exception report data to the PreEmptive Analytics service as errors occur during their execution. The service then creates or updates work items in Microsoft Team Foundation Server based on rules and thresholds you define.|  
 |[PreEmptive Dotfuscator and Analytics CE](assetId:///25d195d4-9f76-4dcc-9fbb-eeb9bdca9a3f)|PreEmptive Dotfuscator is a.NET obfuscator and compactor that helps protect programs against reverse engineering while making them smaller and more efficient.|  
   
 ## Related Scenarios  
