@@ -54,7 +54,7 @@ These string constants can be used to identify various sections of a program deb
 ## Example  
  Here is an example using one of these symbols:  
   
-```cpp#  
+```C++  
 HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)  
 {  
     HRESULT hr;  

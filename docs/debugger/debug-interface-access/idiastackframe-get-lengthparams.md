@@ -38,7 +38,7 @@ Retrieves the number of bytes of parameters pushed on the stack.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lengthParams (   
    DWORD* pRetVal  
 );  

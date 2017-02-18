@@ -38,7 +38,7 @@ Retrieves a reference to the source file.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_sourceFile (   
    IDiaSourceFile** pRetVal  
 );  

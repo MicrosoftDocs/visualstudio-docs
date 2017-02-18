@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined type (UDT) has been ali
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isDataAligned(  
    BOOL *pFlag  
 );  

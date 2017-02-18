@@ -169,7 +169,7 @@ translation.priority.mt:
   
 ##  <a name="BKMK_MainPage_xaml"></a> MainPage.xaml  
   
-```c#  
+```xaml  
 <Page  
     x:Class="CpuUseDemo.MainPage"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
@@ -204,7 +204,7 @@ translation.priority.mt:
   
 ##  <a name="BKMK_MainPage_xaml_cs"></a> MainPage.xaml.cs  
   
-```c#  
+```cs  
 using System;  
 using System.Collections.Generic;  
 using System.IO;  

@@ -38,7 +38,7 @@ Retrieves the location in virtual memory of the image.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualAddress (   
    ULONGLONG* pRetVal  
 );  

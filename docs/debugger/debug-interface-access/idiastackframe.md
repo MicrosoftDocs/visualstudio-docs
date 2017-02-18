@@ -73,7 +73,7 @@ IDiaStackFrame : IUnknown
 ## Example  
  This example displays various attributes of a stack frame.  
   
-```cpp#  
+```C++  
 void PrintStackFrame(IDiaStackFrame* pFrame)  
 {  
     if (pFrame != NULL)  

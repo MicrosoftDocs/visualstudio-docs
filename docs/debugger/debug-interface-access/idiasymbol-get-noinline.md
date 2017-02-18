@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function has been marked as being no
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_noInline(  
    BOOL *pFlag  
 );  

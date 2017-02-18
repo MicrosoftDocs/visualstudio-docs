@@ -36,7 +36,7 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInlineFramesByRVA (   
    IDiaSymbol*       parent,   DWORD             rva,  
    IDiaEnumSymbols** ppResult  

@@ -38,7 +38,7 @@ Retrieves the location in virtual memory of the module relative to the applicati
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddress (   
    DWORD* pRetVal  
 );  

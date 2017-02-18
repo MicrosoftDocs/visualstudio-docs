@@ -38,7 +38,7 @@ Retrieves the metadata token of a managed function or variable.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_token (   
    DWORD* pRetVal  
 );  

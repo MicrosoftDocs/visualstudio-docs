@@ -38,7 +38,7 @@ Searches the specified stack frame for a return address at or near the specified
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT searchForReturnAddressStart (   
    IDiaFrameData* frame,  
    ULONGLONG      startAddress,  

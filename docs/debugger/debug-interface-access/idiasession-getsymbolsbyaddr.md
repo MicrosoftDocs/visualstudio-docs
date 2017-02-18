@@ -38,7 +38,7 @@ Retrieves an enumerator that finds symbols in the order of their addresses.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT getSymbolsByAddr(   
    IDiaEnumSymbolsByAddr** ppEnumbyAddr  
 );  

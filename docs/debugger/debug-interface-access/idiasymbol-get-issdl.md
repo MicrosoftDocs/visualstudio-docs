@@ -36,7 +36,7 @@ Specifies whether the module is compiled with the /SDL option.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isSdl(  
    BOOL *pRetVal);  
 ```  

@@ -38,7 +38,7 @@ Retrieves the number of debug streams.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count(   
    LONG* pRetVal  
 );  

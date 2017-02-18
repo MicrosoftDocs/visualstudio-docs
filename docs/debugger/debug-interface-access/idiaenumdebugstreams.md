@@ -64,7 +64,7 @@ IDiaEnumDebugStreams : IUnknown
 ## Example  
  This example shows how to access the data streams available from this interface. See the [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) interface for an implementation of the `PrintStreamData` function.  
   
-```cpp#  
+```C++  
 void DumpAllDebugStreams( IDiaSession* pSession)  
 {  
     IDiaEnumDebugStreams* pEnumStreams;  

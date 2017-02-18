@@ -38,7 +38,7 @@ Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the sourc
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_crc (   
    DWORD* pRetVal  
 );  

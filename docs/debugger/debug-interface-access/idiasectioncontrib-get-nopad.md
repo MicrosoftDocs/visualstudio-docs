@@ -38,7 +38,7 @@ Retrieves a flag indicating whether the section should not be padded to the next
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_nopad(  
    BOOL* pRetVal  
 };  

@@ -62,7 +62,7 @@ You can change the format in which a value is displayed in the **Watch** window 
 ## Using Format Specifiers  
  If you have the following code:  
   
-```cpp  
+```C++  
 int main() {  
     int my_var1 = 0x0065;  
     int my_var2 = 0x0066;  

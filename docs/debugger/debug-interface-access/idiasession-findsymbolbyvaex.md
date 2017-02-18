@@ -38,7 +38,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified v
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByVAEx (   
    ULONGLONG    va,  
    SymTagEnum   symtag,  
@@ -65,7 +65,7 @@ HRESULT findSymbolByVAEx ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 LONG disp = 0;  
 pSession->findSymbolByVAEx( va, SymTagFunction, &pFunc, &disp );  

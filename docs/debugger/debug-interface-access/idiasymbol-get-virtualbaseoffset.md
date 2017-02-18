@@ -38,7 +38,7 @@ Retrieves the offset in the virtual function table of a virtual function.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualBaseOffset (   
    DWORD* pRetVal  
 );  

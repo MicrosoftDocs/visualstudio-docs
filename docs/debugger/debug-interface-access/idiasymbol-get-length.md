@@ -38,7 +38,7 @@ Retrieves the number of bits or bytes of memory used by the object represented b
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_length (   
    ULONGLONG* pRetVal  
 );  
@@ -59,7 +59,7 @@ HRESULT get_length ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pSymbol;  
 ULONGLONG   length;  
 pSymbol->get_length( &length );  

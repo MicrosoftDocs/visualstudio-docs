@@ -45,12 +45,12 @@ translation.priority.mt:
 # Hierarchical update
 *Hierarchical update* refers to the process of saving updated data (from a dataset with two or more related tables) back to a database while maintaining referential integrity rules. *Referential integrity* refers to the consistency rules provided by the constraints in a database that control the behavior of inserting, updating, and deleting related records. For example, it's referential integrity that enforces the creation of a customer record before allowing orders to be created for that customer.  For more information about relationships in datasets, see [Relationships in datasets](../data-tools/relationships-in-datasets.md)  
   
- The hierarchical update feature uses a `TableAdapterManager` to manage the `TableAdapter`s in a typed dataset. The `TableAdapterManager` component is a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]-generated class, so it's not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. When you drag a table from the data sources window to a Windows Form or WPF page, Visual Studio adds a variable of type TableAdapterManager to the form or page, and you see it in the designer in the component tray. For detailed information about the `TableAdapterManager` class, see the TableAdapterManager Reference section of [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+ The hierarchical update feature uses a `TableAdapterManager` to manage the `TableAdapter`s in a typed dataset. The `TableAdapterManager` component is a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]-generated class, so it's not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. When you drag a table from the data sources window to a Windows Form or WPF page, Visual Studio adds a variable of type TableAdapterManager to the form or page, and you see it in the designer in the component tray. For detailed information about the `TableAdapterManager` class, see the TableAdapterManager Reference section of [TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
  By default, a dataset treats related tables as "relations only," which means that it doesn't enforce foreign key constraints. You can modify that setting at design time by using the Dataset Designer. Select the relation line between two tables to bring up the **Relation** dialog box. The changes you make here will determine how the TableAdapterManager behaves when it send the changes in the related tables back to the database.  
   
 ## Enablehierarchical update in a dataset  
- By default, hierarchical update is enabled for all new datasets that are added or created in a project. Turn hierarchical update on or off by setting the **Hierarchical Update** property of a typed dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) to **True** or **False**:  
+ By default, hierarchical update is enabled for all new datasets that are added or created in a project. Turn hierarchical update on or off by setting the **Hierarchical Update** property of a typed dataset in The datasetto **True** or **False**:  
   
  ![Hierarchical update setting](../data-tools/media/hierarchical-update-setting.png "Hierarchical update setting")  
   
@@ -64,7 +64,7 @@ translation.priority.mt:
   
  By default, the data tables in a dataset are generated with relationships (<xref:System.Data.DataRelation>) that match the relationships in the database. However, the relationship in the dataset is not generated as a foreign-key constraint. The <xref:System.Data.DataRelation> is configured as **Relation Only** without <xref:System.Data.ForeignKeyConstraint.UpdateRule%2A> or <xref:System.Data.ForeignKeyConstraint.DeleteRule%2A> in effect.  
   
- By default, cascading updates and cascading deletes are turned off even if the database relationship is set with cascading updates and/or cascading deletes turned on. For example, creating a new customer and a new order and then trying to save the data can cause a conflict with the foreign-key constraints that are defined in the database. For more information, see [How to: Configure Foreign-Key Constraints in a Dataset](../Topic/How%20to:%20Configure%20Foreign-Key%20Constraints%20in%20a%20Dataset.md).  
+ By default, cascading updates and cascading deletes are turned off even if the database relationship is set with cascading updates and/or cascading deletes turned on. For example, creating a new customer and a new order and then trying to save the data can cause a conflict with the foreign-key constraints that are defined in the database. For more information, see [Turn off constraints while filling a dataset](turn-off-constraints-while-filling-a-dataset.md).  
   
 ## Set the order to perform updates  
  Setting the order to perform updates sets the order of the individual inserts, updates, and deletes that are required to save all the modified data in all tables of a dataset. When hierarchical update is enabled, inserts are performed first, then updates, and then deletes. The `TableAdapterManager` provides an `UpdateOrder` property that can be set to perform updates first, then inserts, and then deletes.  
@@ -72,7 +72,7 @@ translation.priority.mt:
 > [!NOTE]
 >  It's  important to understand that the update order is all inclusive. That is, when updates are performed, inserts, and then deletes are performed for all tables in the dataset.  
   
- To set the `UpdateOrder` property, after dragging items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form, select the `TableAdapterManager` in the component tray, and then set the `UpdateOrder` property in the **Properties** window. For more information, see [How to: Set the Order When Performing a Hierarchical Update](../Topic/How%20to:%20Set%20the%20Order%20When%20Performing%20a%20Hierarchical%20Update.md).  
+ To set the `UpdateOrder` property, after dragging items from the [Data Sources Window](add-new-data-sources.md) onto a form, select the `TableAdapterManager` in the component tray, and then set the `UpdateOrder` property in the **Properties** window. 
   
 ## Create a backup copy of a dataset before performing a hierarchical update  
  When you save data (by calling the `TableAdapterManager.UpdateAll()` method), the `TableAdapterManager` attempts to update the data for each table in a single transaction. If any part of the update for any table fails, the whole transaction is rolled back. In most situations, the rollback returns your application to its original state.  
@@ -129,7 +129,7 @@ translation.priority.mt:
 |`UpdateAll` method|Saves all data from all data tables.|  
 |`BackUpDataSetBeforeUpdate` property|Determines whether to create a backup copy of the dataset before executing the `TableAdapterManager.UpdateAll` method.Boolean.|  
 |*tableName* `TableAdapter` property|Represents a `TableAdapter`. The generated `TableAdapterManager` contains a property for each `TableAdapter` it manages. For example, a dataset with a Customers and Orders table is generated with a `TableAdapterManager` that contains `CustomersTableAdapter` and `OrdersTableAdapter` properties.|  
-|`UpdateOrder` property|Controls the order of the individual insert, update, and delete commands. Set this to one of the values in the `TableAdapterManager.UpdateOrderOption` enumeration.<br /><br /> By default, the `UpdateOrder` is set to **InsertUpdateDelete**. This means that inserts, then updates, and then deletes are performed for all tables in the dataset. For more information, see [How to: Set the Order When Performing a Hierarchical Update](../Topic/How%20to:%20Set%20the%20Order%20When%20Performing%20a%20Hierarchical%20Update.md).|  
+|`UpdateOrder` property|Controls the order of the individual insert, update, and delete commands. Set this to one of the values in the `TableAdapterManager.UpdateOrderOption` enumeration.<br /><br /> By default, the `UpdateOrder` is set to **InsertUpdateDelete**. This means that inserts, then updates, and then deletes are performed for all tables in the dataset.|  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

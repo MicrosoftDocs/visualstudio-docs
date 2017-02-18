@@ -38,7 +38,7 @@ Retrieves the symbol type classifier.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_symTag (   
    DWORD* pRetVal  
 );  
@@ -56,7 +56,7 @@ HRESULT get_symTag ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pType;  
 DWORD       tag = 0;  
 pType->get_symTag( &tag );  

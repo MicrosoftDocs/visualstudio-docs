@@ -36,7 +36,7 @@ Retrieves the uav slot.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_uavSlot(   
    DWORD* pRetVal);  
 ```  

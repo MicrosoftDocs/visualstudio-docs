@@ -38,7 +38,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Customize how Visual Studio creates captions for data-bound controls
-When you drag items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.  
+When you drag items from the [Data Sources Window](add-new-data-sources.md) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.  
   
 > [!NOTE]
 >  This registry key does not exist until you create it.  

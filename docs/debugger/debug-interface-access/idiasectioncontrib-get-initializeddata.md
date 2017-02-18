@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section contains initialized data.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_initializedData (   
    BOOL* pRetVal  
 );  

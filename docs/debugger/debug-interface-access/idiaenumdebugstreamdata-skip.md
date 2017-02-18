@@ -38,7 +38,7 @@ Skips a specified number of records in an enumerated sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Skip (   
    ULONG celt  
 );  

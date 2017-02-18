@@ -38,7 +38,7 @@ Retrieves the number of line numbers.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

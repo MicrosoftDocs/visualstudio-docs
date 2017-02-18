@@ -38,7 +38,7 @@ Returns the name of the compiler used to generate the [Compiland](../../debugger
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_compilerName (  
    BSTR *pName  
 );  

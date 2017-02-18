@@ -38,7 +38,7 @@ Positions the enumerator by performing a lookup by relative virtual address (RVA
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolByRVA (   
    DWORD**      relativeVirtualAddress,  
    IDiaSymbol** ppsymbol  

@@ -38,7 +38,7 @@ Retrieves the symbol that contains a specified metadata token.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByToken (   
    ULONG        token,  
    SymTagEnum   symtag,  
@@ -61,7 +61,7 @@ HRESULT findSymbolByToken ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 pSession->findSymbolByToken( token, SymTagFunction, &pFunc );  
 ```  

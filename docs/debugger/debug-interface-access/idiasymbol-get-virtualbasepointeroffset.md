@@ -38,7 +38,7 @@ Retrieves the offset of the virtual base pointer.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualBasePointerOffset (   
    LONG* pRetVal  
 );  

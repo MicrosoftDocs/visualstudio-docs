@@ -38,7 +38,7 @@ Specifies the scope of visibility (access level) of member functions and variabl
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_access_e {   
    CV_private   = 1,  
    CV_protected = 2,  

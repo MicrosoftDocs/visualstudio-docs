@@ -38,7 +38,7 @@ Retrieves the object file name to which the source was compiled.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_objectFilename (   
    BSTR* pRetVal  
 );  

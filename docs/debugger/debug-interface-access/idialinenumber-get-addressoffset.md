@@ -38,7 +38,7 @@ Retrieves the offset part of the memory address where a block begins.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressOffset (   
    DWORD* pRetVal  
 );  
@@ -53,7 +53,7 @@ HRESULT get_addressOffset ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 CComPtr< IDiaLineNumber > pLine;  
 DWORD offset;  
 pLine->get_addressOffset( &offset);  

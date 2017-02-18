@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type (UDT) is vola
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_volatileType (   
    BOOL* pRetVal  
 );  

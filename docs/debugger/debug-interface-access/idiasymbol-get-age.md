@@ -38,7 +38,7 @@ Retrieves the age value of a .pdb file.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_age (   
    DWORD* pRetVal  
 );  

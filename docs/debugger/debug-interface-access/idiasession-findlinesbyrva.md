@@ -38,7 +38,7 @@ Retrieves the lines in a specified compiland that contain a specified relative v
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByRVA (   
    DWORD                 rva,  
    DWORD                 length,  
@@ -62,7 +62,7 @@ HRESULT findLinesByRVA ( 
 ## Example  
  This example shows a function that obtains all line numbers contained in the specified function using the function's relative virtual address and length.  
   
-```cpp#  
+```C++  
 IDiaEnumLineNumbers* GetLineNumbersByRVA(IDiaSymbol *pFunc, IDiaSession *pSession)  
 {  
     IDiaEnumLineNumbers* pEnum = NULL;  

@@ -15,14 +15,31 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "is_dynamic_rendering": false
+    },
+    {
+      "docset_name": "scripting-docs",
+      "build_source_folder": "scripting-docs",
+      "build_output_subfolder": "scripting-docs",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "is_dynamic_rendering": false
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "skip_source_output_uploading": false,
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/visualstudio-docs",
   "git_repository_branch_open_to_public_contributors": "master",
+  "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -31,6 +48,5 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "enable_incremental_build": true
+  "need_generate_pdf_url_template": false
 }

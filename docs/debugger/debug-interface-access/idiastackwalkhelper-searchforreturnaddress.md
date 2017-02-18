@@ -38,7 +38,7 @@ Searches the specified stack frame for the nearest function return address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT searchForReturnAddress(   
    IDiaFrameData*  frame,  
    ULONGLONG*      returnAddress  

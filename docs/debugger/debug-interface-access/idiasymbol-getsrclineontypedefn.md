@@ -36,7 +36,7 @@ Retrieves the source file and line number that indicate where a specified user-d
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT getSrcLineOnTypeDefn(  
    IDiaLineNumber **ppResult);  
 ```  

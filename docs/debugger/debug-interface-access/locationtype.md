@@ -38,7 +38,7 @@ Indicates the kind of location information contained in a symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum LocationType {   
    LocIsNull,  
    LocIsStatic,  

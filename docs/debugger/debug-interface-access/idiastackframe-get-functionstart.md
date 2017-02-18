@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the block contains the entry point of a 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_functionStart (   
    BOOL* pRetVal  
 );  

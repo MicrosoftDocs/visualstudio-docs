@@ -38,7 +38,7 @@ Retrieves the source code bytes.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_source (   
    DWORD  cbData,  
    DWORD* pcbData,  

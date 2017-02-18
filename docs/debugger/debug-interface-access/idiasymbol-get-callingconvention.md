@@ -38,7 +38,7 @@ Returns an indicator of a methods calling convention.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_callingConvention (   
    DWORD* pRetVal  
 );  

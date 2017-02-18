@@ -38,7 +38,7 @@ Retrieves an injected source by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD                index,  
    IDiaInjectedSource** injectedSource  

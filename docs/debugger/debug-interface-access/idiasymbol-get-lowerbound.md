@@ -38,7 +38,7 @@ Retrieves the lower bound of a FORTRAN array dimension.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lowerBound (   
    IDiaSymbol** pRetVal  
 );  

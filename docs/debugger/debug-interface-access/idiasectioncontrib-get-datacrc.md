@@ -38,7 +38,7 @@ Retrieves the cyclic redundancy check (CRC) of the data in the section.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_dataCrc (   
    DWORD* pRetVal  
 );  
