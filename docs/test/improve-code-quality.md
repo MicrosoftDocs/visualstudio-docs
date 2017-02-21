@@ -57,7 +57,7 @@ What is code quality? Correctness, maintainability, and even elegance are all in
  You can use [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] to be more productive throughout the testing life cycle. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] let you plan your testing effort. You can create, manage, edit, and run both manual and automated tests. You can also review your testing progress based on your plan.  
   
  [Protecting the application with PreEmptive Protection - Dotfuscator](../ide/dotfuscator/index.md)  
- You can use Dotfuscator Community Edition (CE) to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.  Dotfuscator protects and hardens compiled assemblies without the need for additional programming or even access to source code.
+ You can use the free Dotfuscator Community Edition to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.  Dotfuscator protects and hardens compiled assemblies without the need for additional programming or even access to source code.
   
  [Building the application](https://www.visualstudio.com/docs/build/overview)  
  You can use [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] to create and manage automated builds for your code. [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] lets you create drop servers to deploy builds. In addition, you can analyze build trends.  

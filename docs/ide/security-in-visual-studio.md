@@ -56,7 +56,7 @@ You should consider security in all aspects of your application development, fro
  Security is also an important consideration in the build process.  A few additional steps can improve the security of a deployed app, and help prevent unauthorized reverse engineering, spoofing, or other attacks.
 
  [Dotfuscator Community Edition (CE)](dotfuscator/index.md)  
- Explains how to set up and start using the free version of Dotfuscator to protect .NET assemblies from reverse-engineering and unauthorized use (such as unauthorized debugging).
+ Explains how to set up and start using the free PreEmptive Protection - Dotfuscator Community Edition to protect .NET assemblies from reverse-engineering and unauthorized use (such as unauthorized debugging).
   
  [Managing Assembly and Manifest Signing](managing-assembly-and-manifest-signing.md)  
  Discusses strong-name signing, which can be used to uniquely identify software components, preventing name spoofing.
