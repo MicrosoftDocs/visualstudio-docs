@@ -89,13 +89,13 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 *  **Options...** for [setting a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
 
 ## Add new tools to the Tools menu 
- You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
+ You can add an external tool to the **Tools** menu. Open the **External Tools...** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
   
-1.  Title: Open File Location  
+1.  Title: *Open File Location*
   
-2.  Command: explorer.exe  
+2.  Command: `explorer.exe`  
   
-3.  Arguments: /root, "$(ItemDir)"  
+3.  Arguments: `/root, "$(ItemDir)"`  
   
  The following is a full list of arguments that can be used when defining an external tool.
   
