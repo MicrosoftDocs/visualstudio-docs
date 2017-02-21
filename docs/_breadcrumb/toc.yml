@@ -92,6 +92,7 @@
       - name: Office and SharePoint
         tocHref: /visualstudio/vsto/
         topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio
+        items:
         - name: SharePoint
           tocHref: /visualstudio/sharepoint/
           topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
