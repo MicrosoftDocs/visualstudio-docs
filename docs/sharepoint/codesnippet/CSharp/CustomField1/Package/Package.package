@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="6f1f8115-d0ce-43ac-a253-35a5ddd49aba" solutionId="6f1f8115-d0ce-43ac-a253-35a5ddd49aba" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="CustomField1">
+    <features>
+        <featureReference projectId="73f2f925-8dc0-4e72-b71d-41dd7fe1a50a" itemId="87ccb77c-4bfb-45db-b601-64b7d4b8ab95" />
+    </features>
+</package>

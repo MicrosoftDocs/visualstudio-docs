@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_OutlookMailItemTaskPane">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Trin_OutlookMailItemTaskPane.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Trin_OutlookMailItemTaskPane.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:59 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_OutlookMailItemTaskPane.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OutlookMailItemTaskPane.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\Trin_OutlookMailItemTaskPane.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OutlookMailItemTaskPane.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\Trin_OutlookMailItemTaskPane.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\Trin_OutlookMailItemTaskPane.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\Trin_OutlookMailItemTaskPane.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ManageTaskPaneRibbon.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ManageTaskPaneRibbon.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ManageTaskPaneRibbon.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ManageTaskPaneRibbon.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="TaskPaneControl.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\TaskPaneControl.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="TaskPaneControl.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\TaskPaneControl.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\Trin_OutlookMailItemTaskPane_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="ManageTaskPaneRibbon.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\ManageTaskPaneRibbon.resx">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="TaskPaneControl.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OutlookMailItemTaskPane\VB\Backup\TaskPaneControl.resx">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OutlookMailItemTaskPane.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_OutlookMailItemTaskPane.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_OutlookMailItemTaskPane" Source="Trin_OutlookMailItemTaskPane.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

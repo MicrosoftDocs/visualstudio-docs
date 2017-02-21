@@ -1,0 +1,3 @@
+﻿<hostitem:hostItem hostitem:baseType="Microsoft.Office.Tools.AddInBase" hostitem:namespace="" hostitem:className="ThisAddIn" hostitem:identifier="ThisAddIn" hostitem:primaryCookie="AddIn" hostitem:master="true" hostitem:factoryType="Microsoft.Office.Tools.Factory" hostitem:startupIndex="0" xmlns:hostitem="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostItem.xsd">
+  <hostitem:hostObject hostitem:name="Application" hostitem:identifier="Application" hostitem:type="Microsoft.Office.Interop.MSProject.Application" hostitem:cookie="Application" hostitem:modifier="Internal" />
+</hostitem:hostItem>

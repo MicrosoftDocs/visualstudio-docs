@@ -10,6 +10,7 @@
 # [Visual F#](/dotnet/articles/fsharp/)
 # [Data Access](data-tools/TOC.md)
 # [Cross-Platform Mobile Development](cross-platform/TOC.md)
+# [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 # [Port, Migrate, and Upgrade Your Code](porting\port-migrate-and-upgrade-visual-studio-projects.md)
 # [Extensibility](extensibility/extensibility-in-visual-studio.md)
 # [Talk to Us](ide/talk-to-us.md)

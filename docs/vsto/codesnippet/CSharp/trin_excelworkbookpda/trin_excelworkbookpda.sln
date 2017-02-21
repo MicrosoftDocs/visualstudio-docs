@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_ExcelWorkbookPDA", "Trin_ExcelWorkbookPDA.csproj", "{F030F4DF-225A-456F-893C-45F35F8A6F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopyPDA", "FileCopyPDA\FileCopyPDA.csproj", "{48F95E46-C1E9-4694-B433-9A75301A7EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryPDA", "RegistryPDA\RegistryPDA.csproj", "{DABDD826-B565-4A6F-BB8F-23EA92A1A00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{48F95E46-C1E9-4694-B433-9A75301A7EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F95E46-C1E9-4694-B433-9A75301A7EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F95E46-C1E9-4694-B433-9A75301A7EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F95E46-C1E9-4694-B433-9A75301A7EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABDD826-B565-4A6F-BB8F-23EA92A1A00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABDD826-B565-4A6F-BB8F-23EA92A1A00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABDD826-B565-4A6F-BB8F-23EA92A1A00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABDD826-B565-4A6F-BB8F-23EA92A1A00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F030F4DF-225A-456F-893C-45F35F8A6F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F030F4DF-225A-456F-893C-45F35F8A6F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F030F4DF-225A-456F-893C-45F35F8A6F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F030F4DF-225A-456F-893C-45F35F8A6F14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
