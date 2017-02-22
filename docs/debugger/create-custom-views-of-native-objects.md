@@ -128,7 +128,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Natvis views allow you to see any type in more than one way. For example, you can define a view named **simple** that gives you a simplified view of a type. For example, here is the visualization of `std::vector`:  
   
 ```xml  
-<Type Name="std::vector<*>">  
+<Type Name="std::vector&lt;*&gt;">  
     <DisplayString>{{ size={_Mylast - _Myfirst} }}</DisplayString>  
     <Expand>  
         <Item Name="[size]" ExcludeView="simple">_Mylast - _Myfirst</Item>  
@@ -171,7 +171,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     ...  
   </Expand>  
 </Type>  
-  
 ```  
   
  It specifies:  
@@ -185,7 +184,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  **Templated classes** The `Name` attribute of the `Type` element accepts an asterisk `*` as a wildcard character that can be used for templated class names:  
   
 ```xml  
-<Type Name="ATL::CAtlArray<*>">  
+<Type Name="ATL::CAtlArray&lt;*&gt;">  
     <DisplayString>{{Count = {m_nSize}}}</DisplayString>  
 </Type>  
   
@@ -202,7 +201,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  You can specify whether a visualization applies only to a base type or to a base type and all derived types with the optional `Inheritable` attribute. In the following, the visualization applies only to the `BaseClass` type:  
   
 ```xml  
-<Type Name="Namespace::BaseClass" Inheritable=“true”>  
+<Type Name="Namespace::BaseClass" Inheritable="true">  
     <DisplayString>{{Count = {m_nSize}}}</DisplayString>  
 </Type>  
 ```  
@@ -218,7 +217,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
 ```xml  
 <!-- VC 2013 -->  
-<Type Name="std::reference_wrapper<*>" Priority="MediumLow">  
+<Type Name="std::reference_wrapper&lt;*&gt;" Priority="MediumLow">  
      <DisplayString>{_Callee}</DisplayString>  
     <Expand>  
         <ExpandedItem>_Callee</ExpandedItem>  
@@ -226,7 +225,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </Type>  
   
 <!-- VC 2015 -->  
-<Type Name="std::reference_wrapper<*>">  
+<Type Name="std::reference_wrapper&lt;*&gt;">  
     <DisplayString>{*_Ptr}</DisplayString>  
     <Expand>  
         <Item Name="[ptr]">_Ptr</Item>  
@@ -265,7 +264,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  The optional `Condition` attribute is available for many visualization elements and specifies when a visualization rule should be used. If the expression inside the condition attribute resolves to `false`, then the visualization rule specified by the element is not applied. If it evaluates to true, or if there is no `Condition` attribute, then the visualization rule is applied to the type. You can use this attribute for `if-else` logic in the visualization entries. For example, the visualization below has two `DisplayString` elements for a smart pointer type:  
   
 ```xml  
-<Type Name="std::auto_ptr<*>">  
+<Type Name="std::auto_ptr&lt;*&gt;">  
   <DisplayString Condition="_Myptr == 0">empty</DisplayString>  
   <DisplayString>auto_ptr {*_Myptr}</DisplayString>  
   <Expand>  
@@ -281,7 +280,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  These attributes specify elements that are to be displayed or not displayed in different views. For example, given the Natvis specification of `std::vector`:  
   
 ```xml  
-<Type Name="std::vector<*>">  
+<Type Name="std::vector&lt;*&gt;">  
     <DisplayString>{{ size={_Mylast - _Myfirst} }}</DisplayString>  
     <Expand>  
         <Item Name="[size]" ExcludeView="simple">_Mylast - _Myfirst</Item>  
@@ -321,7 +320,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  The `StringView` element defines the expression whose value is going to be sent to the built-in text visualizer. For example, suppose we have the following visualization for the `ATL::CStringT` type:  
   
 ```xml  
-<Type Name="ATL::CStringT<wchar_t,*>">  
+<Type Name="ATL::CStringT&lt;wchar_t,*&gt;">  
   <DisplayString>{m_pszData,su}</DisplayString>  
 </Type>  
   
@@ -335,12 +334,11 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  Adding a `StringView` element will indicate to the debugger that this value can be viewed by a text visualization:  
   
-```  
-<Type Name="ATL::CStringT<wchar_t,*>">  
+```xml
+<Type Name="ATL::CStringT&lt;wchar_t,*&gt;">
   <DisplayString>{m_pszData,su}</DisplayString>  
   <StringView>m_pszData,su</StringView>  
 </Type>  
-  
 ```  
   
  Notice the magnifying glass icon shown next to the value below. Choosing the icon will launch the text visualizer which will display the string that `m_pszData` points to.  
@@ -386,7 +384,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:  
   
 ```xml  
-<Type Name="std::vector<*>">  
+<Type Name="std::vector&lt;*&gt;">  
   <DisplayString>{{size = {_Mylast - _Myfirst}}}</DisplayString>  
   <Expand>  
     <Item Name="[size]">_Mylast - _Myfirst</Item>  
@@ -417,7 +415,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Multi-dimensional arrays can also be specified. The debugger needs just a little bit more information to properly display child elements in that case:  
   
 ```xml  
-<Type Name="Concurrency::array<*,*>">  
+<Type Name="Concurrency::array&lt;*,*&gt;">  
   <DisplayString>extent = {_M_extent}</DisplayString>  
   <Expand>  
     <Item Name="extent">_M_extent</Item>  
@@ -442,7 +440,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  You can use the `ArrayItems` expansion, only if the array elements are laid out contiguously in memory. The debugger gets to the next element by simply incrementing its pointer to the current element. To support cases where you need to manipulate the index to the value node, `IndexListItems` nodes can be used. Here’s a visualization using `IndexListItems` node:  
   
 ```xml  
-<Type Name="Concurrency::multi_link_registry<*>">  
+<Type Name="Concurrency::multi_link_registry&lt;*&gt;">  
   <DisplayString>{{size = {_M_vector._M_index}}}</DisplayString>  
   <Expand>  
     <Item Name="[size]">_M_vector._M_index</Item>  
@@ -463,7 +461,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  If the visualized type represents a linked list, the debugger can display its children by using a `LinkedListItems` node. Here’s the visualization for the `CAtlList` type using this feature:  
   
 ```xml  
-<Type Name="ATL::CAtlList<*,*>">  
+<Type Name="ATL::CAtlList&lt;*,*&gt;">  
   <DisplayString>{{Count = {m_nElements}}}</DisplayString>  
   <Expand>  
     <Item Name="Count">m_nElements</Item>  
@@ -490,9 +488,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  The visualizer for CAtlMap is an excellent example of where `CustomListItems` is appropriate.  
   
 ```xml  
-<Type Name="ATL::CAtlMap<*,*,*,*>">  
-    <AlternativeType Name="ATL::CMapToInterface<*,*,*>"/>  
-    <AlternativeType Name="ATL::CMapToAutoPtr<*,*,*>"/>  
+<Type Name="ATL::CAtlMap&lt;*,*,*,*&gt;">  
+    <AlternativeType Name="ATL::CMapToInterface&lt;*,*,*&gt;"/>  
+    <AlternativeType Name="ATL::CMapToAutoPtr&lt;*,*,*&gt;"/>  
     <DisplayString>{{Count = {m_nElements}}}</DisplayString>  
     <Expand>  
       <CustomListItems MaxItemsPerView="5000" ExcludeView="Test">  
@@ -522,7 +520,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here’s the visualization for the `std::map` type using this feature:  
   
 ```xml  
-<Type Name="std::map<*>">  
+<Type Name="std::map&lt;*&gt;">  
   <DisplayString>{{size = {_Mysize}}}</DisplayString>  
   <Expand>  
     <Item Name="[size]">_Mysize</Item>  
@@ -549,7 +547,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  To see the values of the vector, you have to drill down two levels in the variable window passing through _Myptr member. By adding an `ExpandedItem` element, you can eliminate the `_Myptr` variable from the hierarchy and directly view the vector elements::  
   
 ```xml  
-<Type Name="std::auto_ptr<*>">  
+<Type Name="std::auto_ptr&lt;*&gt;">  
   <DisplayString>auto_ptr {*_Myptr}</DisplayString>  
   <Expand>  
     <ExpandedItem>_Myptr</ExpandedItem>  
@@ -577,7 +575,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element (that is, a child element that is not a result of an expression). This child element can contain children elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
   
 ```xml  
-<Type Name="Concurrency::array<*,*>">  
+<Type Name="Concurrency::array&lt;*,*&gt;">  
   <DisplayString>extent = {_M_extent}</DisplayString>  
   <Expand>  
     <Item Name="extent" Condition="_M_buffer_descriptor._M_data_ptr == 0">_M_extent</Item>  
@@ -633,9 +631,8 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  Each type defined in the .natvis file must explicitly list the UI visualizers that can display them. The debugger matches the visualizer references in the type entries to match types with the registered visualizers. For example, the following type entry for `std::vector` references the UIVisualizer in our example above.  
   
-```  
-  
-<Type Name="std::vector<int,*>">  
+```xml
+<Type Name="std::vector&lt;int,*&gt;">  
   <UIVisualizer ServiceId="{5452AFEA-3DF6-46BB-9177-C0B08F318025}" Id="1" />  
 </Type>  
 ```  
