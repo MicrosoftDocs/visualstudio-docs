@@ -30,87 +30,58 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Django web project template
+# Django Web Project Template
 
-Django is <what?>. The Python Tools for Visual Studio (PTVS) provides a project template to set up the structure of a Django-based web application.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. The Python Tools for Visual Studio (PTVS) provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
 
+PTVS provides full IntelliSense for Django projects:
 
-Template Editing
-----------------
+- Context variables passed into the template:
 
-### IntelliSense
+    ![IntelliSense for context variables](media/template-django-intellisense.png)
 
-The Django template editor understands the context variables passed into the 
-template and makes them available as completions.
+- Tagging and filtering for both built-ins and user-defined:
 
-![IntelliSense](Images/DjangoTemplateIntelliSense.png)
+    ![IntelliSense for tags and filters](media/template-django-intellisense-filter.png)
 
-Django tags and filters (builtins and user defined) are also available.
+- Syntax coloring for embedded CSS and JavaScript:
 
-![IntelliSense](Images/DjangoTemplateIntelliSenseFilter.png)
+    ![CSS IntelliSense](media/template-django-intellisense-css.png)
 
-### Embedded CSS IntelliSense
-
-Syntax coloring and IntelliSense is now available for embedded CSS and JavaScript.
-
-![CSS IntelliSense](Images/DjangoTemplateIntelliSenseCSS.png)
-
-![JavaScript IntelliSense](Images/DjangoTemplateIntelliSenseJS.png)
+    ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
 
-Template Debugging
-------------------
+PTVS also provides full [debugging support](debugging.md) for Django projects: 
 
-[Standard debugging features](Debugging) such as Breakpoints, Stepping and Inspecting values are available for Django templates.
+![Breakpoints](media/template-django-debugging.png)
 
-![Breakpoints](Images/DjangoTemplateDebugging.png)
+## Django management console
 
+The Django management console is access through various commands on the **Project** menu or by right-clicking the project in Solution Explorer.
 
-Django Management Console
--------------------------
+- **Open Django Shell...**: opens a shell in your application context which enables you to manipulate your models"
 
-The following commands are available under the "Project" menu or the "Python" context menu that appears when you right-click your project in Solution Explorer.
+    ![Console](media/template-django-console-shell.png)
 
-### Django Shell
+- **Django Sync DB**: executes `manage.py syncdb` in an interactive window:
 
-The "Open Django Shell" command opens a shell in your application context which enables you to manipulate your models.
+    ![Console](media/template-django-console-sync-db.png)
 
-![Console](Images/DjangoConsoleShell.png)
+- **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your `settings.py`. Note that when [publishing to Microsoft Azure](template-web.md#publishing-to-azure-app-service), static files are automatically collected as part of the publish operation.
 
-### Sync DB
+    ![Console](media/template-django-console-collect-static.png)
 
-The "Django Sync DB" command executes `manage.py syncdb` in an interactive window.
+- **Validate**: executes `manage.py validate`, which reports any validation errors in the installed models specified by `INSTALLED_APPS` in your `settings.py`:
 
-![Console](Images/DjangoConsoleSyncDB.png)
+    ![Console](media/template-django-console-validate.png)
 
-### Collect Static
+## Tutorials
 
-The "Collect Static Files" command executes `manage.py collectstatic --noinput`.
+The following tutorials provides examples of using PTVS to create Django applications for Azure:
 
-This copies all the static files to the path specified by `STATIC_ROOT` in your `settings.py`.
+- [Django and SQL Database on Azure](Django-and-SQL-Database-on-Azure)
+- [Django and MySQL on Azure](Django-and-MySQL-on-Azure)
 
-![Console](Images/DjangoConsoleCollectStatic.png)
+Also see the following walkthrough of creating and deploying a Django website using Visual Studio:
 
-### Validate
-
-The "Validate Django App" command executes `manage.py validate`.
-
-This will report any validation errors in the installed models specified by `INSTALLED_APPS` in your `settings.py`.
-
-![Console](Images/DjangoConsoleValidate.png)
-
-
-Microsoft Azure
----------------
-
-### Publishing
-
-When [publishing to Microsoft Azure](Web-Project#publishing-to-microsoft-azure), static files are automatically collected as part of the publish operation.
-
-
-### Tutorials
-
-See the following tutorials for examples of using PTVS to create Django applications for Microsoft Azure.
-
- * [Django and SQL Database on Azure](Django-and-SQL-Database-on-Azure)
- * [Django and MySQL on Azure](Django-and-MySQL-on-Azure)
+[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)

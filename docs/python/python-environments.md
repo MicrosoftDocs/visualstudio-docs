@@ -72,24 +72,24 @@ To open the PTVS Python Environments window, do one of the following:
 1. Select the **View > Other Windows > Python Environments** menu command.
 1. Right-click the **Python Environments** for a project in Solution Explorer and select **View All Python Environments**:
 
-    ![View All Environments command in Solution Explorer](media/Environments-ViewAll.png)
+    ![View All Environments command in Solution Explorer](media/environments-view-all.png)
     
 In either case, the Python Environments window appears as a sibling tab to Solution Explorer:
 
-![Python Environments window](media/Environments-DefaultView.png)
+![Python Environments window](media/environments-default-view.png)
 
 In the example above, we have Python 3.4 (32-bit CPython) installed along with 32- and 64-bit versions of IronPython. The default environment in boldface is Python 3.4, which will be used for any new projects. If you don't see any environments listed, it means that you've installed PTVS but haven't installed a Python interpreter (ee [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above).
 
 > [!Tip]
 > When the **Python Environments* window is narrow, as shown above, the environments are listed on the top and the various tabs on the bottom. If you expand the window enough, however, you'll see a wide view that you may find more convenient to work with.
 >
-> ![Python Environments window expanded view](media/Environments-ExpandedView.png)
+> ![Python Environments window expanded view](media/environments-expanded-view.png)
 
 PTVS normally locates an installed Python interpreter by checking the registry, it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point PTVS directly to the interpreter as follows:
 
 1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab]()#configure-tab) described below.)
 
-    ![Default view for a new custom environment](media/Environments-Custom1.png)
+    ![Default view for a new custom environment](media/environments-custom-1.png)
 
 1. Enter a name for the environment in the **Description** field.
 1. Enter or browse to the path of the interpreter in the **Prefix path** field.
@@ -104,7 +104,7 @@ PTVS normally locates an installed Python interpreter by checking the registry, 
 
 Provides basic information and commands for the environment such as setting it as the default, opening an [interactive (REPL) window](interactive-window.md) with that environment, and jumping to the dialog to configure the interactive window (identical to the **Tools > Options** menu command, selecting **Python Tools > Interactive Windows** and the name of the environment).
 
-![Python Environments overview tab](media/Environments-OverviewTab.png)
+![Python Environments overview tab](media/environments-overview-tab.png)
 
 > [!Note]
 > Changing the active environment may cause Visual Studio to briefly become non-responsive while the IntelliSense database is loaded. Environments with many packages may be non-responsive for longer.
@@ -113,7 +113,7 @@ Provides basic information and commands for the environment such as setting it a
 
 If shown, contains details as described in the table below. If this tab isn't present, it means that PTVS is managing all the details automatically.
 
-![Python Environments configure tab](media/Environments-ConfigureTab.png)
+![Python Environments configure tab](media/environments-configure-tab.png)
 
 | Field | Description |
 | --- | --- |
@@ -130,13 +130,13 @@ If shown, contains details as described in the table below. If this tab isn't pr
 
 Manages the packages installed in the environment, allowing you also to and search for and install new ones (including any dependencies). Searching will filter your currently installed packages as well as searching [PyPI](https://pypi.python.org). You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
 
-![Python environments pip tab](media/Environments-pipTab.png)
+![Python environments pip tab](media/environments-pip-tab.png)
 
 ### IntelliSense tab
 
 Shows the current status of the IntelliSense completion database:
 
-![Python Environments IntelliSense tab](media/Environments-IntelliSenseTab.png)
+![Python Environments IntelliSense tab](media/environments-intellisense-tab.png)
 
 The database contains metadata for all the environment's libraries and improves IntelliSense speed and reduces memory usage. When PTVS detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you'll get detailed IntelliSense and won't have to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 
@@ -154,17 +154,17 @@ Project-specific environments ensure that a project always runs in a particular 
 
 Project environments are listed in Solution Explorer under the Python Environments node. The bold entry is currently active, and will be used for debugging, import and member completions, syntax checking, and any other tasks that require an environment:
 
-![Project environments displayed in Solution Explorer](media/Environments-Project.png)
+![Project environments displayed in Solution Explorer](media/environments-project.png)
 
 To activate a different environment for the project, right-click that envionment and select **Activate Environment**.
 
 Any global environment can be added as a project environment by right-clicking **Python Environments** and selecting **Add/Remove Python Environments...**. From the displayed list you can select or deselect those that are available in your project.
 
-![Add/Remove Python Environments dialog](media/Environments-AddRemove.png)
+![Add/Remove Python Environments dialog](media/environments-add-remove.png)
 
 In Solution Explorer, you can also expand the environment to show its installed packages (those you can import and use in your code when the environment is active):
 
-![Python packages for an environment in Solution Explorer](media/Environments-InstalledPackages.png)
+![Python packages for an environment in Solution Explorer](media/environments-installed-packages.png)
 
 To install new packages, right-click the environment, select **Install Python Package...**, and enter the name of the desired package. Packages (and dependencies) are downloaded from the [Python Package Index (PyPI)](https://pypi.python.org/pypi), where you can also search for available packages. Visual Studio's status bar and output window shows information about the install. To uninstall a package, right-click it select **Remove**.
 
@@ -185,7 +185,7 @@ To create a virtual environment:
 
 1. Right-click **Python Environments** in Solution Explorer and select **Add Virtual Environment...**, which brings up the following:
 
-    ![Creating a virtual environment](media/Environments-AddVirtual1.png)
+    ![Creating a virtual environment](media/environments-add-virtual-1.png)
 
 1. Specify a name to create the virtual environment in your project path, or a full path to create it elsewhere. (To ensure maximum compatibility with other tools, use only letters and numbers in the name.)
 
@@ -193,7 +193,7 @@ To create a virtual environment:
 
     If the provided path is an existing virtual environment, the base interpreter will be detected and the create button will change to **Add**:
 
-    ![Adding an existing virtual environment](media/Environments-AddVirtual2.png)
+    ![Adding an existing virtual environment](media/environments-add-virtual-2.png)
 
 An existing virtual environment can also be added by right-clicking **Python Environments** in Solution Explorer and selecting **Add Existing Virtual Environment...**. PTVS automatically detects the base interpreter using the `orig-prefix.txt` file in the environment's `lib` directory.
 
@@ -209,11 +209,11 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
 - If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, right-click the project and select **Install from requirements.txt**:
 
-    ![Install from requirements.txt](media/Environments-RequirementsTxt-Install.png)
+    ![Install from requirements.txt](media/environments-requirements-txt-install.png)
 
 - When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate reqirements.txt** to create the necessary file. If the file already exists, you'll be prompted for how to update it:
 
-    ![Update requirements.txt options](media/Environments-RequirementsTxt-Replace.png)
+    ![Update requirements.txt options](media/environments-requirements-txt-replace.png)
 
     - **Replace entire file** removes all items, comments, and options that exist.
     - **Refresh existing entries** detects package requirements and update the version specifiers to match the version you currently have installed.
@@ -223,7 +223,7 @@ Because `requirements.txt` files are intended to freeze the requirements of your
 
 When adding a new virtual environment, if a` requirements.txt` file exists, the **Add Virtual Environment** dialog displays an option to install the packages automatically, making it easy to recreate an environment on another machine:
 
-![Create virtual environment with requirements.txt](media/Environments-RequirementsTxt.png)
+![Create virtual environment with requirements.txt](media/environments-requirements-txt.png)
 
 If a package cannot be installed by pip and it appears in a `requirements.txt` file, the entire installation to fail. In this case, manually edit the file to exclude this package or to use [pip's options](http://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](http://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your `requirements.txt`:
 

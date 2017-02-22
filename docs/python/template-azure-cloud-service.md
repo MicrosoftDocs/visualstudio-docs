@@ -1,5 +1,5 @@
 ---
-title: "Azure Cloud Service Template for Python | Microsoft Docs"
+title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/14/2017"
 ms.prod: "visual-studio-dev15"
