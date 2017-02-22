@@ -1,7 +1,7 @@
 ---
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/16/2017"
+ms.date: "2/22/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

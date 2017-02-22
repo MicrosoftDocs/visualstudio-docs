@@ -1,7 +1,7 @@
 ---
 title: "Web Project Template in the Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/14/2017"
+ms.date: "2/22/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "<TODO> | Microsoft Docs"
+title: "Tutorial: Django and MySQL on Azure | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/24/2017"
+ms.date: "2/22/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,7 +9,7 @@ ms.technology:
   - "devlang-python"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: TODO
+ms.assetid: 0b773b30-1979-4961-99df-78163a8e3f0c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -30,6 +30,6 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Title
+# Tutorial: Django and MySQL on Azure
 
 TODO

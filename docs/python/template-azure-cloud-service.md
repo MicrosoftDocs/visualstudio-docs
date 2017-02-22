@@ -1,7 +1,7 @@
 ---
 title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/14/2017"
+ms.date: "2/21/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
