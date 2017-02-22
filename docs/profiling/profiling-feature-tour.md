@@ -118,7 +118,7 @@ Low framerates in the **Visual throughput** graph may correspond to visual probl
 
 In the Timeline details view, you can find information such as the type of activitiy (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
 
-For more information, see [Application Timeline](../debugger/application-timeline.md).
+For more information, see [Application Timeline](../profiling/application-timeline.md).
 
 ## Analyze GPU Usage (Direct3D)
 
@@ -152,7 +152,7 @@ Select an operation in the summary view to view more details.
 
 ![Diag Network Usage Details](../profiling/media/prof-tour-network-usage-details.png "Diag Network Usage Details")
 
-For more information, see [Network Usage](../debugger/network-usage.md).
+For more information, see [Network Usage](../profiling/network-usage.md).
 
 ## Analyze Performance (Legacy Tools)
 
