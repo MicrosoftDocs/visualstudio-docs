@@ -37,7 +37,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-copyright: "Copyright © 2017 PreEmptive Solutions, LLC"
 ---
 
 # Install Dotfuscator Community Edition (CE)
@@ -86,6 +85,8 @@ Once the installation is complete, you can start using Dotfuscator CE. For detai
 ## See Also
 
 [This topic in the full Dotfuscator CE User Guide][full]
+
+<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
 [2017-install]: https://www.visualstudio.com/downloads/#vs-2017
 [get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html

@@ -39,7 +39,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-copyright: "Copyright © 2017 PreEmptive Solutions, LLC"
 ---
 
 # Upgrade Dotfuscator Community Edition (CE)
@@ -91,6 +90,8 @@ For more information on the advanced application protection features of Dotfusca
 ## See Also
 
 [This topic in the full Dotfuscator CE User Guide][full]
+
+<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
 [control-flow]: https://www.preemptive.com/products/dotfuscator/features#controlflow
 [string-encryption]: https://www.preemptive.com/products/dotfuscator/features#string

@@ -32,7 +32,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-copyright: "Copyright © 2017 PreEmptive Solutions, LLC"
 ---
 
 # Capabilities of Dotfuscator
@@ -81,6 +80,8 @@ When run, the processed application will transmit analytics data to a configured
 ## See Also
 
 [This topic in the full Dotfuscator CE User Guide][full]
+
+<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
 [assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
 [uwp]: https://www.preemptive.com/blog/article/856-uwp-applications-in-dotfuscator-ce/91-dotfuscator-ce
