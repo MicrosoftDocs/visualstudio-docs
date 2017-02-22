@@ -66,8 +66,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  The basic structure of a .natvis file is one or more `Type` elements, where each `Type` element represents a visualization entry for a type whose fully qualified name is specified in the `Name` attribute.  
   
-```xml  
-  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">  
   <Type Name="MyNamespace::CFoo">  
@@ -125,9 +124,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  To control how an expression is displayed in a variable window, you can use any of the format specifiers that are described in the [Format Specifiers](../debugger/format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers) section of the [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) topic. Note that format specifiers are ignored when the virtualization entry is used internally by Natvis, such as the `Size` expression in in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
   
 ## Natvis views  
- Natvis views allow you to see any type in more than one way. For example, you can define a view named **simple** that gives you a simplified view of a type. For example, here is the visualization of `std::vector`:  
+ Natvis views allow you to see any type in more than one way. For example, you can define a view named **simple** that gives you a simplified view of a type. For example, here is the visualization of `std::vector`:
   
-```xml  
+```xml
 <Type Name="std::vector&lt;*&gt;">  
     <DisplayString>{{ size={_Mylast - _Myfirst} }}</DisplayString>  
     <Expand>  
@@ -153,7 +152,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ###  <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element  
  The `AutoVisualizer`  element is the root node of the .natvis file and contains the namespace `xmlns:` attribute.  
   
-```xml  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">  
 .  
@@ -164,7 +163,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ###  <a name="BKMK_Type"></a> Type element  
  A basic Type looks like this:  
   
-```xml  
+```xml
 <Type Name="[fully qualified type name]">  
   <DisplayString Condition="[Boolean expression]">[Display value]</DisplayString>  
   <Expand>  
@@ -183,7 +182,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  **Templated classes** The `Name` attribute of the `Type` element accepts an asterisk `*` as a wildcard character that can be used for templated class names:  
   
-```xml  
+```xml
 <Type Name="ATL::CAtlArray&lt;*&gt;">  
     <DisplayString>{{Count = {m_nSize}}}</DisplayString>  
 </Type>  
@@ -200,7 +199,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 #### Inheritable attribute  
  You can specify whether a visualization applies only to a base type or to a base type and all derived types with the optional `Inheritable` attribute. In the following, the visualization applies only to the `BaseClass` type:  
   
-```xml  
+```xml
 <Type Name="Namespace::BaseClass" Inheritable="true">  
     <DisplayString>{{Count = {m_nSize}}}</DisplayString>  
 </Type>  
@@ -215,7 +214,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  In the following example, we will first parse the entry that matches the 2015 STL, and if that fails to parse, we will use the alternate entry for the 2013 version of the STL:  
   
-```xml  
+```xml
 <!-- VC 2013 -->  
 <Type Name="std::reference_wrapper&lt;*&gt;" Priority="MediumLow">  
      <DisplayString>{_Callee}</DisplayString>  
@@ -236,7 +235,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_Versioning"></a> Version element  
  Use the `Version` element to scope visualizations to specific modules and their versions so that name collisions can be minimized and different visualizations can be used for different versions of the types. For example:  
   
-```xml  
+```xml
 <Type Name="DirectUI::Border">  
   <Version Name="Windows.UI.Xaml.dll" Min="1.0" Max="1.5"/>  
   <DisplayString>{{Name = {*(m_pDO->m_pstrName)}}}</DisplayString>  
@@ -251,7 +250,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 #### Optional attribute  
  The `Optional` attribute can appear on any node. If any sub-expression inside an optional node fails to parse, that node is ignored, but the rest of the Type element is still valid. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  This means that if `MyNamespace::MyClass` contains a field named _`M_exceptionHolder`, you will still both `[State]` node and the `[Exception]` node, but if the `_M_exceptionHolder` is missing, you will see only the `[State]` node.  
   
-```xml  
+```xml
 <Type Name="MyNamespace::MyClass">  
     <Expand>  
       <Item Name="[State]">_M_State</Item>  
@@ -263,7 +262,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ###  <a name="BKMK_Condition_attribute"></a> Condition attribute  
  The optional `Condition` attribute is available for many visualization elements and specifies when a visualization rule should be used. If the expression inside the condition attribute resolves to `false`, then the visualization rule specified by the element is not applied. If it evaluates to true, or if there is no `Condition` attribute, then the visualization rule is applied to the type. You can use this attribute for `if-else` logic in the visualization entries. For example, the visualization below has two `DisplayString` elements for a smart pointer type:  
   
-```xml  
+```xml
 <Type Name="std::auto_ptr&lt;*&gt;">  
   <DisplayString Condition="_Myptr == 0">empty</DisplayString>  
   <DisplayString>auto_ptr {*_Myptr}</DisplayString>  
@@ -279,7 +278,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ### IncludeView and ExcludeView attributes  
  These attributes specify elements that are to be displayed or not displayed in different views. For example, given the Natvis specification of `std::vector`:  
   
-```xml  
+```xml
 <Type Name="std::vector&lt;*&gt;">  
     <DisplayString>{{ size={_Mylast - _Myfirst} }}</DisplayString>  
     <Expand>  
@@ -300,7 +299,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ###  <a name="BKMK_DisplayString"></a> DisplayString  
  A `DisplayString` element specifies the string to be shown as the value of the variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, a `DisplayString` entry like this:  
   
-```xml  
+```xml
 <Type Name="CPoint">  
   <DisplayString>{{x={x} y={y}}}</DisplayString>   
 </Type>  
@@ -319,11 +318,10 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ###  <a name="BKMK_StringView"></a> StringView  
  The `StringView` element defines the expression whose value is going to be sent to the built-in text visualizer. For example, suppose we have the following visualization for the `ATL::CStringT` type:  
   
-```xml  
+```xml
 <Type Name="ATL::CStringT&lt;wchar_t,*&gt;">  
   <DisplayString>{m_pszData,su}</DisplayString>  
-</Type>  
-  
+</Type>
 ```  
   
  The `CStringT` object looks like:  
@@ -360,7 +358,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_Item_expansion"></a> Item expansion  
  The `Item` element is the most basic and the most common element to be used in an `Expand` node. `Item` defines a single child element. For example, suppose that you have a `CRect` class with `top`, `left`, `right`, and `bottom` as its fields and the following visualization entry:  
   
-```xml  
+```xml
 <Type Name="CRect">  
   <DisplayString>{{top={top} bottom={bottom} left={left} right={right}}}</DisplayString>  
   <Expand>  
@@ -383,7 +381,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion  
  Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:  
   
-```xml  
+```xml
 <Type Name="std::vector&lt;*&gt;">  
   <DisplayString>{{size = {_Mylast - _Myfirst}}}</DisplayString>  
   <Expand>  
@@ -395,7 +393,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </ArrayItems>  
   </Expand>  
 </Type>  
-  
 ```  
   
  A `std::vector` shows its individual elements when expanded in the variable window:  
@@ -414,7 +411,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  Multi-dimensional arrays can also be specified. The debugger needs just a little bit more information to properly display child elements in that case:  
   
-```xml  
+```xml
 <Type Name="Concurrency::array&lt;*,*&gt;">  
   <DisplayString>extent = {_M_extent}</DisplayString>  
   <Expand>  
@@ -427,7 +424,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </ArrayItems>  
   </Expand>  
 </Type>  
-  
 ```  
   
  `Direction` specifies whether the array is row-major or column-major order. `Rank` specifies the rank of the array. The `Size` element accepts the implicit `$i` parameter which it substitutes with the dimension index to find the length of the array in that dimension. For example, in the previous example, above the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the 1st and so on.  
@@ -439,7 +435,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_IndexListItems_expansion"></a> IndexListItems expansion  
  You can use the `ArrayItems` expansion, only if the array elements are laid out contiguously in memory. The debugger gets to the next element by simply incrementing its pointer to the current element. To support cases where you need to manipulate the index to the value node, `IndexListItems` nodes can be used. Here’s a visualization using `IndexListItems` node:  
   
-```xml  
+```xml
 <Type Name="Concurrency::multi_link_registry&lt;*&gt;">  
   <DisplayString>{{size = {_M_vector._M_index}}}</DisplayString>  
   <Expand>  
@@ -450,7 +446,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </IndexListItems>  
   </Expand>  
 </Type>  
-  
 ```  
   
  You can now use the `[]` operator with an `IndexListItems` expansion, for example `vector[i]`. The `[]` operator can be used with any visualization of a single-dimensional array that uses `ArrayItems` or `IndexListItems`, even if the type itself does not allow this operator (for example `CATLArray`).  
@@ -460,7 +455,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion  
  If the visualized type represents a linked list, the debugger can display its children by using a `LinkedListItems` node. Here’s the visualization for the `CAtlList` type using this feature:  
   
-```xml  
+```xml
 <Type Name="ATL::CAtlList&lt;*,*&gt;">  
   <DisplayString>{{Count = {m_nElements}}}</DisplayString>  
   <Expand>  
@@ -473,7 +468,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </LinkedListItems>  
   </Expand>  
 </Type>  
-  
 ```  
   
  The `Size` element refers to the length of the list. `HeadPointer` points to the first element, `NextPointer` refers to the next element, and `ValueNode` refers to the value of the item.  
@@ -487,7 +481,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  The visualizer for CAtlMap is an excellent example of where `CustomListItems` is appropriate.  
   
-```xml  
+```xml
 <Type Name="ATL::CAtlMap&lt;*,*,*,*&gt;">  
     <AlternativeType Name="ATL::CMapToInterface&lt;*,*,*&gt;"/>  
     <AlternativeType Name="ATL::CMapToAutoPtr&lt;*,*,*&gt;"/>  
@@ -519,7 +513,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here’s the visualization for the `std::map` type using this feature:  
   
-```xml  
+```xml
 <Type Name="std::map&lt;*&gt;">  
   <DisplayString>{{size = {_Mysize}}}</DisplayString>  
   <Expand>  
@@ -534,7 +528,6 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </TreeItems>  
   </Expand>  
 </Type>  
-  
 ```  
   
  The syntax is very similar to the `LinkedListItems` node. `LeftPointer`, `RightPointer`, and `ValueNode` are evaluated under the context of the tree node class, and `ValueNode` can be left empty or have `this` to refer to the tree node itself.  
@@ -546,21 +539,20 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  To see the values of the vector, you have to drill down two levels in the variable window passing through _Myptr member. By adding an `ExpandedItem` element, you can eliminate the `_Myptr` variable from the hierarchy and directly view the vector elements::  
   
-```xml  
+```xml
 <Type Name="std::auto_ptr&lt;*&gt;">  
   <DisplayString>auto_ptr {*_Myptr}</DisplayString>  
   <Expand>  
     <ExpandedItem>_Myptr</ExpandedItem>  
   </Expand>  
 </Type>  
-  
 ```  
   
  ![auto&#95;ptr&#60;vector&#60;int&#62;&#62; ExpandedItem expansion](../debugger/media/dbg_natvis_expand_expandeditem_visualized.png "DBG_NATVIS_Expand_ExpandedItem_Visualized")  
   
  The example below shows how to aggregate properties from the base class in a derived class. Suppose the `CPanel` class derives from `CFrameworkElement`. Instead of repeating the properties that come from the base `CFrameworkElement` class, the `ExpandedItem` node allows those properties to be appended to the child list of the `CPanel` class. The **nd** format specifier which turns off visualization matching for the derived class is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` will cause the `CPanel` visualization to be applied again because the default visualization type matching rules consider it the most appropriate one. Using the **nd** format specifier instructs the debugger to use the base class visualization or the base class default expansion if the base class doesn’t have a visualization.  
   
-```xml  
+```xml
 <Type Name="CPanel">  
   <DisplayString>{{Name = {*(m_pstrName)}}}</DisplayString>  
   <Expand>  
@@ -568,13 +560,12 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     <ExpandedItem>*(CFrameworkElement*)this,nd</ExpandedItem>  
   </Expand>  
 </Type>  
-  
 ```  
   
 ####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic Item expansion  
  Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element (that is, a child element that is not a result of an expression). This child element can contain children elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
   
-```xml  
+```xml
 <Type Name="Concurrency::array&lt;*,*&gt;">  
   <DisplayString>extent = {_M_extent}</DisplayString>  
   <Expand>  
@@ -610,8 +601,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
   
  Here's an example of a UIVisualizer element:  
   
-```xml  
-  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">  
     <UIVisualizer ServiceId="{5452AFEA-3DF6-46BB-9177-C0B08F318025}"   
