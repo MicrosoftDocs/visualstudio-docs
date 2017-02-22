@@ -64,7 +64,7 @@
 #### [The property <property name> cannot be deleted because it is participating in the association <association name>](the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md)
 #### [The property <property name> cannot be deleted](the-property-property-name-cannot-be-deleted.md)
 #### [The connection property in the Application Settings file is missing or incorrect](the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md)
-#### [You have selected a database object from an unsupported database provider](you-have-selected-a-database-object-from-an-unsupported-database-provider.md)
+<!--#### [You have selected a database object from an unsupported database provider](you-have-selected-a-database-object-from-an-unsupported-database-provider.md)-->
 #### [Cannot create an association <association name> - property types do not match](cannot-create-an-association-association-name-property-types-do-not-match.md)
 #### [Warning. Changes have been made to the Configure Behavior dialog box that have not been applied](warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied.md)
 #### [This related method is the backing method for the following default insert, update, or delete methods](this-related-method-is-the-backing-method-for-the-following-default-insert-update-or-delete-methods.md)
