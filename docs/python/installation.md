@@ -33,3 +33,29 @@ translation.priority.ht:
 # Installing the Python Tools for Visual Studio
 
 TODO
+
+
+## PTVS install locations
+
+By default, PTVS is installed for all users on a computer. The full installation paths are as follows:
+
+- 32-bit:
+  - Path: `%Program Files(x86)%\Microsoft Visual Studio <VS_ver>\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>`
+  - Registry location of path: `HKEY_LOCAL_MACHINE\Software\Microsoft\PythonTools\<VS_ver>\InstallDir`
+- 64-bit:
+  - Path: `%Program Files%\Microsoft Visual Studio <VS_ver>\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>`
+  - Registry location of path: `HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\PythonTools\<VS_ver>\InstallDir`
+
+where:
+
+- &lt;VS_ver&gt; is:
+    - 2017 for Visual Studio 2017
+    - 14.0 for Visual Studio 2015
+    - 12.0 for Visual Studio 2013
+    - 11.0 for Visual Studio 2012
+    - 10.0 for Visual Studio 2010
+- &lt;PTVS_ver&gt; is the PTVS version number, such as 2.2, 2.1, 2.0, 1.5, 1.1, or 1.0.
+
+### User-specific installations (PTVS 1.5 and earlier)
+
+PTVS 1.5 and earlier, allowed installation for the current user only, in which case the installation path is `%LocalAppData%\Microsoft\VisualStudio\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>` where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.

@@ -48,6 +48,7 @@ Oftentimes, developers use only a single, global Python environment but others n
 - [Project-specific environments](#project-specific-environments)
 - [Virtual environments](#virtual-environments)
 - [Managing required packages](#managing-required-packages)
+- [Search paths](#search-paths)
 
 ## Selecting and installing Python interpreters
 
@@ -170,7 +171,8 @@ To install new packages, right-click the environment, select **Install Python Pa
 > [!Note]
 > Python's package management support is currently under development by the core Python development team. The displayed entries may not always be accurate, and installation and uninstallation may not be reliable or available. PTVS uses the pip package manager if available, and will download and install it when required.PTVS can also use the easy_install package manager. Packages installed using pip or easy_install from the command line are also displayed in PTVS.
 
-One common situation where pip will fail to install a package is when the package includes source code for native components (`*.pyd` files). Without the required version of Visual Studio installed (typically VS 2008 for Python versions earlier than 3.3), pip will not be able to compile these components. The error message displayed in this situation is `error: Unable to find vcvarsall.bat.` `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [http://aka.ms/VCPython27](http://aka.ms/VCPython27).
+> [!Tip]
+> A common situation where pip will fail to install a package is when the package includes source code for native components in `*.pyd` files. Without the required version of Visual Studio installed, pip will not be able to compile these components. The error message displayed in this situation is `error: Unable to find vcvarsall.bat.` `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [http://aka.ms/VCPython27](http://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-find-vcvarsall-bat/) on the PTVS team blog.
 
 
 ## Virtual Environments
@@ -249,3 +251,20 @@ If a package cannot be installed by pip and it appears in a `requirements.txt` f
     Cleaning up...
       Removing temporary dir C:\Project\env\build...
 ```
+
+# Search paths
+
+With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `import <name>` statement, Python first searches its built-in modules for a matching name, then searches folder containing the Python code you're running, then searches the "module search path" as defined by the applicable environment variable. (See [The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) and [Environment variables](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH) in the core Python documentation.)
+
+The search path environment variable, however, is ignored by PTVS, even when it's been set for the entire system. It's ignored, in fact, precisely *because* it's set for the entire system and thus raise certain questions that cannot be answered automatically: Are the referenced modules meant for Python 2.7 or Python 3.3? Are they going to override standard library modules? Is the developer aware of this or is it a malicious hijacking attempt?
+
+PTVS thus provides a means to specify search paths directly in both environments and projects. These are passed as the value of `PYTHONPATH` (or equivalent) when you debug or execute your script from Visual Studio. By adding search paths, PTVS will inspect the libraries in those locations and build IntelliSense databases for them (this may take some time depending on the number of libraries).
+
+To add a search path, right-click on the **Search Paths** item in Solution Explorer, select **Add Folder to Search Path...**, and select the folder to include. This path will be used for any environment associated with the project.
+
+Files with a `.zip` or `.egg` extension can also be added as search paths by selecting **Add Zip Archive to Search Path...**. As with folders, the contents of these files will be scanned and made available to IntelliSense.
+
+> [!Note]
+> It is possible to add a search path to Python 2.7 modules while you are using Python 3.3, and you may see errors as a result.
+
+If you are regularly using the same search paths and the contents do not often change, it may be more efficient to install it into your site-packages folder. It will then be analyzed and stored in the IntelliSense database, will always be associated with the intended environment, and will not require a search path to be added for each project.

@@ -87,8 +87,8 @@ The following table summarizes the templates available in the current release of
 | --- | --- |
 | [From Existing Python Code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
-| [Azure Cloud Service](azure-cloud-service-project.md) | A project for an Azure Cloud Service written in Python |
-| [Web Project](web-project-template.md)<br/>[Bottle Web Project](bottle-project-templates.md)<br/>[Django Web Project](django-project-templates.md)<br/>[Flask Web Project](flask-project-templates.md)<br/>[Flask/Jade Web Project](flask-project-templates.md) | Projects for web servers based on various frameworks. |
+| Azure Cloud Service | A project for an Azure Cloud Service written in Python. See [Azure Cloud Service Projects for Python](template-azure-cloud-service.md). |
+| Web Project<br/>Bottle Web Project<br/>Django Web Project<br/>Flask Web Project<br/>Flask/Jade Web Project | Projects for web servers based on various frameworks. See [Web Project Template](template-web.md) and [Django Web Project Template](template-django.md) for details, along with the following tutorials: <ul><lu>[Bottle and Azure Table Storage on Azure](Bottle-and-Azure-Table-Storage-on-Azure)</li><li>[Bottle and MongoDB on Azure](Bottle-and-MongoDB-on-Azure)</li><li>[Flask and Azure Table Storage on Azure](Flask-and-Azure-Table-Storage-on-Azure)</li><li>[Flask and MongoDB on Azure](Flask-and-MongoDB-on-Azure)</li><li>[Django and SQL Database on Azure](Django-and-SQL-Database-on-Azure)</li><li>[Django and MySQL on Azure](Django-and-MySQL-on-Azure)</li> |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
 | IronPython WPF Application | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
@@ -156,31 +156,7 @@ If you move a linked file in Solution Explorer, the link will be moved but the a
 Similarly, deleting a link will remove the link without affecting the file.
 Linked files cannot be renamed.
 
-## Search Paths
 
-
-It is often surprising that the value of `PYTHONPATH` (or `IRONPYTHONPATH`, etc.) is ignored by PTVS, even when it has been set for the entire system.
-This is deliberate, and is primarily *because* it has been set for the entire system.
-Are the referenced modules meant for Python 2.7 or Python 3.3? Are they going to override standard library modules? Is the developer aware of this or is it a malicious hijacking attempt? Because these questions cannot be answered automatically, the system-wide value is ignored.
-
-The equivalent behavior can be obtained in PTVS using Search Paths.
-These are project-specific, and will be passed as the value of `PYTHONPATH` (or equivalent) when you debug or execute your script from Visual Studio.
-Further, by adding the path to Search Paths, PTVS will inspect the available code and provide editor completions.
-
-To add a search path, right-click on the Search Paths item in Solution Explorer and select "Add Folder to Search Path...".
-Select the folder to include and you are done.
-
-Files with a `.zip` or `.egg` extension can also be added as search paths by selecting "Add Zip Archive to Search Path...".
-As with folders, the contents of these files will be scanned and made available in the editor.
-
-Note that any search paths added will be used for any environment associated with the project.
-It is possible to add a search path to Python 2.7 modules while you are using Python 3.3, and you may see errors as a result.
-
-Depending on the number of files in the folder or file, it may take some time before completions become available.
-If you are regularly using the same search paths and the contents does not often change, it may be more efficient to install it into your site-packages folder.
-Then it will be analyzed and stored in your completion DB, will always be associated with the intended environment, and will not require a search path to be added for each project.
-
-![Search paths](Images/SearchPath.png)
 
 ## References
 
