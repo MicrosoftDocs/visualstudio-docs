@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a SharePoint Project Extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
+ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,7 @@ caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
----
-# How to: Create a SharePoint Project Extension
+---# How to: Create a SharePoint Project Extension
   Create a project extension when you want to add functionality to any SharePoint project that is open in Visual Studio. For more information, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  
   
 ### To create a project extension  
@@ -44,11 +43,149 @@ manager: "ghogen"
 ## Example  
  The following code example demonstrates how to create a simple project extension that handles most of the SharePoint project events that are defined by the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> interface. To test the code, create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and then add more projects to the solution, change project property values, or delete or exclude a project. The extension notifies you of the events by writing messages to the **Output** window and **Error List** window.  
   
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#3](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectextension.vb#3)]
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#3](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/savedatatoprojectfile.vb#3)]
- [!code-cs[SPExtensibility.ProjectSystemExtension.General#3](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectextension.cs#3)]  
+  ```vb#  
+    Imports Microsoft.VisualStudio.SharePoint
+    Imports System.ComponentModel
+    Imports System.ComponentModel.Composition
+
+    Namespace Contoso.ExampleProjectExtension
+      <Export(GetType(ISharePointProjectExtension))> _
+      Class ExampleProjectExtension
+        Implements ISharePointProjectExtension
+
+        Private WithEvents projectService As ISharePointProjectService
+
+        Public Sub Initialize(ByVal projectService As ISharePointProjectService) _
+            Implements ISharePointProjectExtension.Initialize
+            Me.projectService = projectService
+        End Sub 
+
+        ' A project was added. 
+        Private Sub projectService_ProjectAdded(ByVal sender As Object, ByVal e As SharePointProjectEventArgs) _
+            Handles projectService.ProjectAdded
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The following project was added: {0}", e.Project.Name)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+
+        ' A project was loaded in the IDE. 
+        Private Sub projectService_ProjectInitialized(ByVal sender As Object, ByVal e As SharePointProjectEventArgs) _
+            Handles projectService.ProjectInitialized
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The following project is being initialized: {0}", e.Project.Name)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+
+        ' The name of a property was changed. 
+        Private Sub projectService_ProjectNameChanged(ByVal sender As Object, ByVal e As NameChangedEventArgs) _
+            Handles projectService.ProjectNameChanged
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The project named {0} was changed to {1}.", e.OldName, project.Name)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+
+        ' A project property value was changed. 
+        Private Sub ProjectPropertyChanged(ByVal sender As Object, ByVal e As PropertyChangedEventArgs) _
+            Handles projectService.ProjectPropertyChanged
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The following property of the {0} project was changed: {1}",
+                project.Name, e.PropertyName)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+
+        ' A project is being removed or unloaded. 
+        Private Sub projectService_ProjectRemoved(ByVal sender As Object, ByVal e As SharePointProjectEventArgs) _
+            Handles projectService.ProjectRemoved
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The following project is being removed or unloaded: {0}", e.Project.Name)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+
+        ' A project was removed or unloaded. 
+        Private Sub projectService_ProjectDisposing(ByVal sender As Object, ByVal e As SharePointProjectEventArgs) _
+            Handles projectService.ProjectDisposing
+            Dim project As ISharePointProject = CType(sender, ISharePointProject)
+            Dim message As String = String.Format("The following project was removed or unloaded: {0}", e.Project.Name)
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message)
+        End Sub 
+      End Class 
+    End Namespace  
+    ```  
   
- This example uses the SharePoint project service to write the message to the **Output** window and **Error List** window. For more information, see [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md).  
+    ```c#  
+    using Microsoft.VisualStudio.SharePoint;
+    using System;
+    using System.ComponentModel;
+    using System.ComponentModel.Composition;
+
+    namespace Contoso.ExampleProjectExtension
+    {
+      [Export(typeof(ISharePointProjectExtension))]
+      internal class ExampleProjectExtension : ISharePointProjectExtension
+      {
+        public void Initialize(ISharePointProjectService projectService)
+        {
+            projectService.ProjectAdded += projectService_ProjectAdded;
+            projectService.ProjectInitialized += projectService_ProjectInitialized;
+            projectService.ProjectNameChanged += projectService_ProjectNameChanged;
+            projectService.ProjectPropertyChanged += projectService_ProjectPropertyChanged;
+            projectService.ProjectRemoved += projectService_ProjectRemoved;
+            projectService.ProjectDisposing += projectService_ProjectDisposing;
+        }
+
+        // A project was added. 
+        void projectService_ProjectAdded(object sender, SharePointProjectEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The following project was added: {0}", e.Project.Name);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+
+        // A project is loaded in the IDE. 
+        void projectService_ProjectInitialized(object sender, SharePointProjectEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The following project is being initialized: {0}", e.Project.Name);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+
+        // The name of a project was changed. 
+        void projectService_ProjectNameChanged(object sender, NameChangedEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The project named {0} was changed to {1}.", e.OldName, project.Name);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+
+        // A project property value was changed. 
+        private void projectService_ProjectPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The following property of the {0} project was changed: {1}", 
+                project.Name, e.PropertyName);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+
+        // A project is being removed or unloaded. 
+        void projectService_ProjectRemoved(object sender, SharePointProjectEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The following project is being removed or unloaded: {0}", e.Project.Name);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+
+        // A project was removed or unloaded. 
+        void projectService_ProjectDisposing(object sender, SharePointProjectEventArgs e)
+        {
+            ISharePointProject project = (ISharePointProject)sender;
+            string message = String.Format("The following project was removed or unloaded: {0}", e.Project.Name);
+            project.ProjectService.Logger.WriteLine(message, LogCategory.Message);
+        }
+     }
+  }  
+  ```  
+ 
+This example uses the SharePoint project service to write the message to the **Output** window and **Error List** window. For more information, see [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md).  
   
  For examples that demonstrate how to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectMenuItemsRequested> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> events, see [How to: Add a Shortcut Menu Item to SharePoint Projects](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md) and [How to: Add a Property to SharePoint Projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md).  
   
