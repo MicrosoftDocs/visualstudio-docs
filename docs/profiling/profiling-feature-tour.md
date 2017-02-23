@@ -1,5 +1,5 @@
 ---
-title: "Profiler Feature Tour | Microsoft Docs"
+title: "Profiling Feature Tour | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/03/2016"
 ms.reviewer: ""
