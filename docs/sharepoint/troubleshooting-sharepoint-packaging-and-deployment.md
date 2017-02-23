@@ -1,7 +1,7 @@
----
+2---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
+ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 ---
 # Troubleshooting SharePoint Packaging and Deployment
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.  
-  
- [!INCLUDE[autoOutline](../Token/autoOutline_md.md)]  
   
 ## Enabling Enhanced Debugging  
  To diagnose between Visual Studio, SharePoint, and other layers, you can use the EnableDiagnostics registry key to view the stack trace. For more information, see [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md).  
