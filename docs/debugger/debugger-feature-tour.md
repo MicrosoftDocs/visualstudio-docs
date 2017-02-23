@@ -8,13 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-f1_keywords: ""
-dev_langs: 
-  - "C++"
-  - "FSharp"
-  - "CSharp"
-  - "JScript"
-  - "VB"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
@@ -195,7 +188,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     Now, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
     
     > [!TIP]
-    > If you need to track the value of the variable even when it's out of scope, in C# you can [Create an Object ID](../debugger/watch-and-quick-watch-windows.md#bkmk_objectIds) for it using the **Watch** window.
+    > If you need to track the value of the variable even when it's out of scope, in C# you can **Create an Object ID** for it using the **Watch** window.
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 

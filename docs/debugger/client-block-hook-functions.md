@@ -14,7 +14,6 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
-  - 
   - "C++"
 helpviewer_keywords: 
   - "client blocks, validating and reporting data"
