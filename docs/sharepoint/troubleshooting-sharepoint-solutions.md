@@ -1,7 +1,7 @@
----
+--
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
+ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,9 +25,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Troubleshooting SharePoint Solutions
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [NIB: Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).  
-  
- [!INCLUDE[autoOutline](../Token/autoOutline_md.md)]  
+  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [NIB: Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).
   
 ## Token Restrictions in Sandboxed Visual Web Parts  
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:  
