@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
+ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,18 +23,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint
   SharePoint 2010 exposes its list data by means of OData. In SharePoint, the OData service is implemented by the RESTful service ListData.svc. This walkthrough shows how to create a SharePoint web part that hosts a Silverlight application. The Silverlight application displays SharePoint Announcement list information by using ListData.svc. For more information, see [SharePoint Foundation REST Interface](http://go.microsoft.com/fwlink/?LinkId=225999) and [Open Data Protocol](http://go.microsoft.com/fwlink/?LinkId=226000).  
   
- This walkthrough demonstrates the following tasks:  
-  
--   [Creating a Silverlight Application and Silverlight Web Part](#BKMK_creatingSLApp).  
-  
--   [Customizing the Silverlight Application](#BKMK_customizeSLApp).  
-  
--   [Customizing the Silverlight Application](#BKMK_customizeSLApp).  
-  
--   [Customizing the Silverlight Application](#BKMK_customizeSLApp).  
-  
--   [Testing the Silverlight Web Part](#BKMK_testSLApp).  
-  
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
@@ -44,7 +32,7 @@ manager: "ghogen"
   
 -   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].  
   
-##  <a name="BKMK_creatingSLApp"></a> Creating a Silverlight Application and Silverlight Web Part  
+##  Creating a Silverlight Application and Silverlight Web Part  
  First, create a Silverlight application in Visual Studio. The Silverlight application retrieves data from the SharePoint Announcements list by using the ListData.svc service.  
   
 > [!NOTE]  
@@ -76,7 +64,7 @@ manager: "ghogen"
   
      The solution contains two projects: a Silverlight application and a Silverlight web part. The Silverlight application retrieves and displays the list data from SharePoint, and the Silverlight web part hosts the Silverlight application, enabling you to view it in SharePoint.  
   
-##  <a name="BKMK_customizeSLApp"></a> Customizing the Silverlight Application  
+##  Customizing the Silverlight Application  
  Add code and design elements to the Silverlight application.  
   
 #### To customize the Silverlight Application  
@@ -122,8 +110,6 @@ manager: "ghogen"
     using System.Data.Services.Client;  
     ```  
   
-     [!CODE [SP_SLWebPart#1](SP_SLWebPart#1)]  
-  
 10. Add the following variable declarations at the top of the class.  
   
     ```vb  
@@ -137,9 +123,7 @@ manager: "ghogen"
     private CollectionViewSource myCollectionViewSource;  
     DataServiceCollection<AnnouncementsItem> announcements = new DataServiceCollection<AnnouncementsItem>();  
     ```  
-  
-     [!CODE [SP_SLWebPart#2](SP_SLWebPart#2)]  
-  
+   
 11. Replace the `UserControl_Loaded` procedure with the following.  
   
     ```vb  
@@ -176,9 +160,6 @@ manager: "ghogen"
         }  
     }  
     ```  
-  
-     [!CODE [SP_SLWebPart#3](SP_SLWebPart#3)]  
-  
      Be sure to replace the *ServerName* placeholder with the name of your server that's running SharePoint.  
   
 12. Add the following error-handling procedure.  
@@ -209,9 +190,7 @@ manager: "ghogen"
         }  
     }  
     ```  
-  
-     [!CODE [SP_SLWebPart#4](SP_SLWebPart#4)]  
-  
+       
 ## Modifying the Silverlight Web Part  
  Change a property in the Silverlight web part project to enable Silverlight debugging.  
   
@@ -225,7 +204,7 @@ manager: "ghogen"
   
 4.  Save the project.  
   
-##  <a name="BKMK_testSLApp"></a> Testing the Silverlight Web Part  
+##  Testing the Silverlight Web Part  
  Test the new Silverlight web part in SharePoint to ensure that it displays the SharePoint list data properly.  
   
 #### To test the Silverlight web part  
