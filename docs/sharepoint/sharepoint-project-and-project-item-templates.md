@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
+ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,16 +31,14 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # SharePoint Project and Project Item Templates
-  The following sections describe the available SharePoint project and project item templates and how they are used.  
+  The following sections describe the available SharePoint project and project item templates and how they are used. 
   
- [!INCLUDE[autoOutline](../Token/autoOutline_md.md)]  
-  
-##  <a name="project_items_templates_overview"></a> Project and Project Item Templates Overview  
+##  Project and Project Item Templates Overview  
  When you create a new SharePoint project in Visual Studio, a SharePoint project is added to the solution together with all of the project items required by that project type. For example, if you create a Silverlight Web Part project, Visual Studio creates a solution that contains a Visual Web Part project item and a Silverlight application project item along with all the files required by those project items. Project item templates are used to add project items to an existing SharePoint project, such as adding an event receiver, site column, or list.  
   
  For information about SharePoint fundamentals, see [SharePoint Foundation Building Blocks](http://go.microsoft.com/fwlink/?LinkId=179404). Advanced users can create custom project and project item templates. For more information, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  
   
-##  <a name="project_templates"></a> Project Templates  
+##  Project Templates  
  Following is a list of SharePoint project templates. To view the SharePoint project templates in Visual Studio, in the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose **2010**.  
   
 ### SharePoint 2010 Project  
@@ -70,7 +68,7 @@ manager: "ghogen"
 ### Import Reusable SharePoint 2010 Workflow  
  *Import Reusable SharePoint 2010 Workflow* projects let you import a reusable, declarative workflow created in SharePoint Designer 2010 into Visual Studio. The workflow is exported from the SharePoint site as a .wsp file. Once imported into Visual Studio, you can customize it, add code to it, and then deploy it to a SharePoint site. For more information, see [Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md).  
   
-##  <a name="project_item_templates"></a> Project Item Templates  
+##  Project Item Templates  
  Following is a list of SharePoint project item templates. Project item templates add files to the SharePoint solution to support SharePoint functionality such as site columns, lists, and content types. For example, adding a site column to your solution adds a site column project that contains an Elements.xml definition file. Adding a visual web part adds a visual web part project to your solution that contains an Elements.xml file, a user control item, and a visual web part item.  
   
  To view the SharePoint project item templates, in **Solution Explorer**, open the shortcut menu for a SharePoint project, and then choose **Add**, **New Item**. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose **2010**.  
