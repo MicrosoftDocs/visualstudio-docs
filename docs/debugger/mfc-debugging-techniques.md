@@ -23,7 +23,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [MFC]"
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750

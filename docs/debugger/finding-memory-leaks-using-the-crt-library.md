@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "breakpoints, on memory allocation"
   - "_CrtMemState"

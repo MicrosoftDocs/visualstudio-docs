@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "breakpoints, in optimized code"
   - "debugging [C++], optimized code"

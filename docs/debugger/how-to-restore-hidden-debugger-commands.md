@@ -14,9 +14,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, restoring commands"
   - "debugging [Visual Studio], restoring commands"

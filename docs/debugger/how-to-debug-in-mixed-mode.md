@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "debugging DLLs"
   - "debugging [Visual Studio], mixed-mode"

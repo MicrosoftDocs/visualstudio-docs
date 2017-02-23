@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "assembly language, debugging inline assembly code"
   - "debugging [C++], inline assembly code"

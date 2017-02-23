@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
 helpviewer_keywords: 
   - "Edit and Continue [Visual Basic], applying edits in break mode"
   - "break mode, applying code changes"

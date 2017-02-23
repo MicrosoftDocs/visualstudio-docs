@@ -16,9 +16,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "/RTC compiler option [C++], /O compiler option"
   - "run-time checks, native"

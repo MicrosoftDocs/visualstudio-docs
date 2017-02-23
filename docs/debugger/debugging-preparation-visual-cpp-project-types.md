@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "project templates, debugging"
   - "Visual C++ projects, debugging"

@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "FSharp"
 helpviewer_keywords: 
   - "debugger, Edit and Continue"
   - "Edit and Continue [C#]"

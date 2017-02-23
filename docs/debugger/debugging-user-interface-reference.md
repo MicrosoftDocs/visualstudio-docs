@@ -16,9 +16,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, user interface reference"
 ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9

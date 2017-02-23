@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "_CRTDBG_MAP_ALLOC macro"
   - "debugging [CRT], heap allocation functions"

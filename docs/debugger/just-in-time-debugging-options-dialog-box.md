@@ -17,9 +17,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Just-In-Time debugging, setting options"
   - "Options dialog box, debugging"

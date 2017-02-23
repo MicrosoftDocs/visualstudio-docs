@@ -13,8 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
 helpviewer_keywords: 
   - "debugging ASP.NET Web applications"
   - "debugging [Visual Studio], Web applications"

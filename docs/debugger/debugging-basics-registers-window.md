@@ -14,9 +14,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Registers window, about Registers window"
   - "debugging [Visual Studio], Registers window"

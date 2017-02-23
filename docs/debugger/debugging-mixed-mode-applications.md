@@ -13,9 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], mixed-mode"
   - "mixed-mode debugging, property evaluation"

@@ -14,9 +14,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], DataTips"
   - "DataTips tool"

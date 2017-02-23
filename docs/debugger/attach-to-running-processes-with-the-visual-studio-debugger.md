@@ -17,11 +17,10 @@ f1_keywords:
   - "vs.debug.error.attach"
   - "vs.debug.remotemachine"
 dev_langs: 
-  - "C++"
-  - "FSharp"
   - "CSharp"
+  - "FSharp"
+  - "C++"
   - "VB"
-  - "c++"
 helpviewer_keywords: 
   - "remote debugging, attaching to programs"
   - "processes, attaching to running processes"

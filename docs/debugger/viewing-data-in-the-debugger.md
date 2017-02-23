@@ -16,9 +16,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], inspecting programs"
   - "debugger, viewing data"

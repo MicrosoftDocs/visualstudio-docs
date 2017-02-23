@@ -16,9 +16,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "run-time errors, error checks"
   - "CRT, run-time checks"

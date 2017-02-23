@@ -13,9 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging managed code"
   - "debugging ASP.NET Web applications, managed code"

@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
 helpviewer_keywords: 
   - "End statements"
   - "breakpoints, Stop statements"

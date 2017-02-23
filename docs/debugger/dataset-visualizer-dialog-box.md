@@ -17,9 +17,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "datasets [Visual Studio], Dataset Visualizer dialog box"
   - "visualizers, Dataset Visualizer dialog box"

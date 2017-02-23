@@ -15,9 +15,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "managed code, stepping"
   - "Call Stack window, mixed-mode debugging"

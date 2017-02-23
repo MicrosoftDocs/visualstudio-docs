@@ -17,9 +17,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Debug Source Files property page"
   - "debugging [Visual Studio], specifying source and symbol files"

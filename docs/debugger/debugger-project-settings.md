@@ -13,9 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "project settings, debugger"
   - "debugging [Visual Studio], project settings"

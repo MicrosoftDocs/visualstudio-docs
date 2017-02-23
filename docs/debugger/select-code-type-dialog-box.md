@@ -17,9 +17,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], engine selection"
   - "debugger, engine selection"

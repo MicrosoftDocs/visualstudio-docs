@@ -15,9 +15,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Call Stack window, missing native frames"
   - "code, managed code"

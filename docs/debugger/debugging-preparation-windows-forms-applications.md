@@ -13,8 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
 helpviewer_keywords: 
   - "debugging Windows applications"
   - "Windows applications, debugging"

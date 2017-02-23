@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
 helpviewer_keywords: 
   - "Edit and Continue, 64-bit"
   - "Edit and Continue [Visual Basic]"

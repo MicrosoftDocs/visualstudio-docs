@@ -13,8 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "C++"
 helpviewer_keywords: 
   - "Stop Applying Code Changes command"
   - "code changes, stopping application of"

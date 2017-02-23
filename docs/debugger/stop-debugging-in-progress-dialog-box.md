@@ -17,9 +17,6 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Stop Debugging in Progress dialog box"
 ms.assetid: ed7ef49d-e25f-4a4d-9396-9bc7b4143117

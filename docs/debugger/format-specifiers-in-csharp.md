@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "FSharp"
 helpviewer_keywords: 
   - "expressions [C#], formatting values"
   - "variables [debugger], watch variable symbols"

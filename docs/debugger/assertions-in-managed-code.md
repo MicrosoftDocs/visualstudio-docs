@@ -13,9 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], assertions in managed code"
   - "Trace.Assert method"

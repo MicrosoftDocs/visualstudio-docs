@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [C++], hook functions"
   - "memory allocation, troubleshooting allocation hooks"

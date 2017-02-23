@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-  - "VB"
 helpviewer_keywords: 
   - "Edit and Continue [Visual Basic], unsupported method and property body edits"
 ms.assetid: 9b8fdc41-a193-49ad-ad72-dfcadd46f4b3

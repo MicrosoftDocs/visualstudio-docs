@@ -14,10 +14,7 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
-  - "C++"
   - "JScript"
-  - "VB"
-  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "logon failure, remote debugging"
