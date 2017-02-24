@@ -390,4 +390,4 @@
 #### [IWefDebuggingSupport Interface](iwefdebuggingsupport-interface.md)
 ##### [GetAutoInsertExtensions Method](getautoinsertextensions-method.md)
 ##### [SetWefProcessId Method](setwefprocessid-method.md)
-## [Sharepoint Development in Visual Studio][../sharepoint/TOC.md]
+## [Sharepoint Development in Visual Studio](../sharepoint/TOC.md)
