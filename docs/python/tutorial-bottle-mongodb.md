@@ -32,24 +32,24 @@ translation.priority.ht:
 
 # Tutorial: Bottle and MongoDB on Azure
 
-[!INCLUDE[include](../../includes/tutorial-azure-mongodb-intro.md)]
+[!INCLUDE[include](includes/tutorial-azure-mongodb-intro.md)]
 
 [![Bottle and MongoDB on Azure video](media/video-thumbnails/Bottle-and-Azure-Table-Storage-on-Azure.png)](http://www.youtube.com/watch?v=GJXDGaEPy94)
 
-[!INCLUDE[include](../../includes/tutorial-azure-mongodb-topic-toc.md)]
+[!INCLUDE[include](includes/tutorial-azure-mongodb-topic-toc.md)]
 
-[!INCLUDE[include](../../includes/tutorial-prereqs.md)]
+[!INCLUDE[include](includes/tutorial-prereqs.md)]
 
-[!INCLUDE[include](../../includes/tutorial-create-intro.md)]
+[!INCLUDE[include](includes/tutorial-create-intro.md)]
 
 1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Polls Bottle Web Project**, and click **OK**. If you don't see the Polls project template, you may not have installed the PTVS Sample Pack, and you may need to restart Visual Studio.
    
   ![Bottle project templates](media/tutorial-bottle-new-project.png)
 
-[!INCLUDE[include](../../includes/tutorial-environment-setup-test.md)]
+[!INCLUDE[include](includes/tutorial-environment-setup-test.md)]
 
-[!INCLUDE[include](../../includes/tutorial-azure-storage-configure-project.md)]
+[!INCLUDE[include](includes/tutorial-azure-storage-configure-project.md)]
 
-[!INCLUDE[include](../../includes/tutorial-explore-azure-table-storage.md)]
+[!INCLUDE[include](includes/tutorial-explore-azure-table-storage.md)]
 
-[!INCLUDE[include](../../includes/tutorial-publish-configure-app-service.md)]
+[!INCLUDE[include](includes/tutorial-publish-configure-app-service.md)]

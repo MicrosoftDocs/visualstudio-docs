@@ -32,15 +32,15 @@ translation.priority.ht:
 
 # Tutorial: Flask and MongoDB on Azure
 
-[!INCLUDE[include](../../includes/tutorial-azure-mongodb-intro.md)]
+[!INCLUDE[include](includes/tutorial-azure-mongodb-intro.md)]
 
 [![Flask and MongoDB on Azure video](media/video-thumbnails/Flask-and-MongoDB-on-Azure.png)](http://www.youtube.com/watch?v=eql-crFgrAE)
 
-[!INCLUDE[include](../../includes/tutorial-azure-mongodb-topic-toc.md)]
+[!INCLUDE[include](includes/tutorial-azure-mongodb-topic-toc.md)]
 
-[!INCLUDE[include](../../includes/tutorial-prereqs.md)]
+[!INCLUDE[include](includes/tutorial-prereqs.md)]
 
-[!INCLUDE[include](../../includes/tutorial-create-intro.md)]
+[!INCLUDE[include](includes/tutorial-create-intro.md)]
 
 1. In Visual Studio, select **File > New > Project**, search for "Flask", select the **Polls Flask Web Project**, and click **OK**. If you don't see the Polls project template, you may not have installed the PTVS Sample Pack, and you may need to restart Visual Studio.
    
