@@ -47,7 +47,7 @@ This topic contains details about the project template and other support in Visu
 
 1. Select one or more roles to include. Cloud projects may combine roles written in different languages, so you can easily write each part of your application in the most suitable language. To add new roles to the project after completing this dialog, right-click **Roles** in Solution Explorer and select one of the items under **Add**.
 
-    ![Adding roles in the Azure Cloud Project template](media/template-azure-cloud-project-wizard.png)
+    ![Adding roles in the Azure Cloud Project template](media/template-azure-cloud-service-project-wizard.png)
 
 1. As the individual role projects are created, you may be prompted to install additional Python packages, such as the Django, Bottle, or Flask frameworks if you selected a role that uses one of those.
 

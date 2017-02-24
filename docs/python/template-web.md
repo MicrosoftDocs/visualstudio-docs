@@ -84,6 +84,7 @@ The Bottle Web Project template includes boilerplate code that does the necessar
 - **Run Server Command** group:
     - **Command**: `bottle` (module)
     - **Arguments**: `--bind=%SERVER_HOST%:%SERVER_PORT% {StartupModule}:app`
+
 - **Debug Server Command** group:
     - **Command**: `bottle` (module)
     - **Arguments** `--debug --bind=%SERVER_HOST%:%SERVER_PORT% {StartupModule}:app`
@@ -96,9 +97,11 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 
 - **Debug** group:
     - **Server Port**: 6543 (or whatever is configured in the .ini files)
+
 - **Run Server Command** group:
     - Command: `..\env\scripts\pserve-script.py` (script)
     - Arguments: `Production.ini`
+
 - **Debug Server Command** group:
     - Command: `..\env\scripts\pserve-script.py` (script)
     - Arguments: `Development.ini`
@@ -110,7 +113,6 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 ### Other configurations
 
 If you have settings for another framework that you would like to share, or if you'd like to request settings for another framework, please open an [issue on GitHub](https://github.com/Microsoft/PTVS/issues).
-
 
 ## Publishing to Azure App Service
 
@@ -156,11 +158,12 @@ If you are using JSON deployment templates, you can specify the site extension a
 Finally, you can log in through the [development console](https://github.com/projectkudu/kudu/wiki/Kudu-console) and install a site extension from there.
 
 Currently, the recommended way to install packages is to use the development console after installing the site extension and executing pip directly.
-Using the full path to Python is important, or you may execute the wrong one, and there is generally no need to use a virtual environment.
+Using the full path to Python is important, or you may execute the wrong one, and there is generally no need to use a virtual environment. For example:
 
-```bash
-    D:\home\Python35\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
-    D:\home\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
+```
+    c:\Python35\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
+
+    c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 ```
 
 When deployed to Azure App Service, your site will run behind Microsoft IIS. To enable your site to work with IIS, you will need to add at least a `web.config` file. There are templates available for some common deployment targets (see below), and these can be easily modified for other uses. See the [IIS Configuration Reference](https://www.iis.net/configreference) for information about the available configuration setings.

@@ -58,7 +58,8 @@ In this topic:
 - [References](#references)
 
 > [!Tip]
-> Python Tools for Visual Studio works well without having a Visual Studio project, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**. Because such code will always use the default global environment, you may see incorrect completions or errors if the code is mean for a different environment. Furthermore, PTVS will analyze all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> Python Tools for Visual Studio works well without having a Visual Studio project, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code will always use the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, PTVS will analyze all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+>
 > It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
 
@@ -76,7 +77,7 @@ For more details, see [Python Environments](python-environments.md#project-speci
 
 ## Project templates
 
-PTVS gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...", both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Templates > Other Languages > Python** node:
+PTVS gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Templates > Other Languages > Python** node:
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
@@ -116,24 +117,22 @@ PTVS can create a Visual Studio project from existing Python code without having
 
 ## Linked files
 
-Linked files are those that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with a overlayed shortcut icon:
-
-![Linked file icon](media/projects-linked-file-icon.png)
+Linked files are those that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with a overlayed shortcut icon: ![Linked file icon](media/projects-linked-file-icon.png)
 
 Linked files are specified in the `.pyproj` file using the normal `<Compile Include="...">` element. They can be implicit linked files if they use a relative path outside of the directory structure, or they can be explicit link files by specifying their path within Solution Explorer:
 
 ```xml
 <Compile Include="..\test2.py">
-    <Link>X\test2.py</Link>
+    <Link>MyProject\test2.py</Link>
 </Compile>
 ```
 
 Linked files will be ignored under any of the following conditions:
 
-* The linked file contains Link metadata and the path specified in the Include attribute lives within the project directory
-* The linked file duplicates a file which exists within the project hierarchy
-* The linked file contains Link metadata and the Link path is a relative path outside of the project hierarchy
-* The link path is rooted
+- The linked file contains Link metadata and the path specified in the Include attribute lives within the project directory
+- The linked file duplicates a file which exists within the project hierarchy
+- The linked file contains Link metadata and the Link path is a relative path outside of the project hierarchy
+- The link path is rooted
 
 ### Working with linked files
 
