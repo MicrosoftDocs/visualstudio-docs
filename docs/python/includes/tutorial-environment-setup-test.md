@@ -8,6 +8,6 @@
 
 1. Once the project is created, test it by selecting **Debug > Start Debugging** or pressing F5. By default, the application uses an in-memory repository which doesn't require any configuration. All data is lost when the web server is stopped.
 
-1. Click around in the application to see its operation. You can see what type of repository is being used on the **About** page.
+1. Click around in the application to see its operation.
 
 1. Stop the debugger when you're finished (**Debug > Stop Debugging** or Shift-F5).

@@ -36,7 +36,9 @@ translation.priority.ht:
 
 [![Flask and Azure Table Storage on Azure video](media/video-thumbnails/Flask-and-Azure-Table-Storage-on-Azure.png)](http://www.youtube.com/watch?v=qUtZWtPwbTk)
 
-[!INCLUDE[include](includes/tutorial-topic-toc-prereqs.md)]
+[!INCLUDE[include](includes/tutorial-azure-storage-topic-toc.md)]
+
+[!INCLUDE[include](includes/tutorial-prereqs.md)]
 
 [!INCLUDE[include](includes/tutorial-create-intro.md)]
 

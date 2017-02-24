@@ -8,11 +8,11 @@ PTVS provides an easy way to deploy your web application to a website in Azure A
 
   ![Publish to Azure step 1](media/tutorials-common-publish-1.png)
 
-1. In the **App Service** dialog, select an existing App Service or click **New** to create one, specifying a name for the web app along with your subscription, resource group, and App Service Plan. Once you've selected an App Service, its details will appear in the **Publish** dialog's **Connection** tab:
+1. In the **App Service** dialog, select an existing App Service or select **New** to create one, specifying a name for the web app along with your subscription, resource group, and App Service Plan. Once you've selected an App Service, its details will appear in the **Publish** dialog's **Connection** tab:
 
   ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
 
-1. Click **Next >** to review additional settings, then click **Publish**. Once your application is deployed to Azure, your default browser will open on that site. However, if you look at the **About** page you'll see that the site is using an in-memory repository instead of your Azure Table Storage. This is because we need to set the environment variables in the application's code, which we'll do in the next section.
+1. Select **Next >** as needed to review additional settings, then select **Publish**. Once your application is deployed to Azure, your default browser will open on that site. However, if you look at the **About** page you'll see that the site is using an in-memory repository instead of your Azure Table Storage. This is because we need to set the environment variables in the application's code, which we'll do in the next section.
 
 ## Configure the Azure App service
 

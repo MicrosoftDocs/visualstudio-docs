@@ -1,5 +1,5 @@
 ---
-title: "Publishing to Azure from Python Tools for Visual STudio | Microsoft Docs"
+title: "Publishing to Azure App Service from Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/16/2017"
 ms.prod: "visual-studio-dev15"
@@ -30,22 +30,58 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Publishing to Azure from PTVS
+# Publishing to Azure App Service from Python Tools for Visual Studio
 
-You can get started quickly building a Python web site in Azure.  
-  
- You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6).  
-  
- Start with the New Project … dialog and under Python projects choose the Bottle Web Project.  This [Bottle](http://bottlepy.org/docs/dev/index.html) template is a starter site based on the [Bootstrap framework](http://getbootstrap.com/).  When you create the project, Visual Studio prompts you to install dependencies (Bottle in this case) into a virtual environment.  Because you’re deploying to an Azure website, you need to add the dependencies to a virtual environment in order to deploy necessary bits for your site’s operation.  You also need to base your environment on Python 2.7 or 3.4 32-bit.  Once you create the project, press F5 to start running your site locally.  
-  
- It is easy to try the site in Azure.  If you do not have an Azure subscription, you can use [try.azurewebsites.net](https://trywebsites.azurewebsites.net/).  This site offers a simple way to try out Azure Websites for an hour at a time with only a social login.  You do not need a credit card.  Choose the Empty Site template in the Change Language dropdown and choose Create.  Under “Work with your web application” choose Download Publishing Profile and save the file for use with Visual Studio.  You could also deploy using git from any operating system.  
-  
- Switch back to Visual Studio and the project you created.  Select your project node in the Solution Explorer, Choose the right pointer button, and choose Publish.  If you have an Azure subscription, you can click on Microsoft Azure Websites in the dialog to manage your sites from here.  For this walkthrough, choose Import to import the publishing profile you just downloaded.  Because the publishing profile has all the necessary information, you can choose Publish.  In a few seconds a new browser window will open, and your site is live hosted on the Azure cloud.  
-  
- Simple websites are easy, but for information on more significant web applications in Azure, see the [deep dive](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) video as well as others in this channel (link in the upper right of the getting started or deep dive video page, as well as below.  
-  
- You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6).  
-  
-## See Also  
- [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Web-Project)   
- [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+You can get started quickly building a Python web site in Visual Studio and publish it to Azure App Service. A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com).  
+
+## Create an Azure subscription
+
+Publishing to Azure requires an Azure subscription, or you can use a temporary site.
+
+For subscriptions, start with a [free full Azure account](https://azure.microsoft.com/en-us/free/), which includes generous credits for Azure services. Also consider signing up for [Visual Studio Dev Essentials](https://azure.microsoft.com/en-us/pricing/member-offers/vs-dev-essentials/) which gives you $25 credit every month for a full year.
+
+To create a temporary site in Azure App Service without needing an Azure subscription:
+
+1. Open your browser to [try.azurewebsites.net](https://try.azurewebsites.net).
+1. Select **Web App** for the app type, then select **Next**.
+1. Select **Empty Site** for the template, then select **Create >**.
+1. Sign in with a social login of your choice, and after a short time your site will be ready at the displayed URL.
+1. Select **Download publishing profile** and save the `.publishsettings` file, which you'll use later.
+
+ ## Create and test the initial project
+
+1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, and click **OK**.    
+
+[!INCLUDE[include](includes/tutorial-environment-setup-test.md)]
+
+## Publish to Azure App Service
+
+1. In **Solution Explorer**, right-click the project select **Publish**. 
+
+1. In the **Publish** dialog, select **Microsoft Azure App Service**:
+
+  ![Publish to Azure step 1](media/tutorials-common-publish-1.png)
+
+1. Select a target:
+
+    - If you have an Azure subscription, select **Microsoft Azure App Service** as the publishing target, then in the following dialog select an existing App Service or select **New** to create a new one.
+    - If you're using a temporary site from try.azurewebsites.net, select **Import** as the publishing target, then browse for the `.publishsettings` file downloaded from the site and select **OK**.
+
+1. The App Service details appear in the **Publish** dialog's **Connection** tab below.
+
+  ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
+
+1. Select **Next >** as needed to review additional settings, then select **Publish**. Once your application is deployed to Azure, your default browser will open on that site. 
+ 
+## Additional resources
+
+For a walkthrough of a richer web application, see [Visual Studio Python Tutorial Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com). 
+
+The following tutorials also demonstrate setting up web applications with different types of storage:
+
+- [Bottle and Azure Table Storage on Azure](tutorial-bottle-azure-table.md)
+- [Bottle and MongoDB on Azure](tutorial-bottle-mongodb.md)
+- [Flask and Azure Table Storage on Azure](tutorial-flask-azure-table.md)
+- [Flask and MongoDB on Azure](tutorial-flask-mondodb.md)
+- [Django and SQL Database on Azure](tutorial-django-sqldb.md)
+- [Django and MySQL on Azure](tutorial-django-mysql.md)
