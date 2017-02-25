@@ -1,7 +1,7 @@
 ---
 title: "Viewing the Call Stack | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/24/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -63,7 +63,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
  **[\<External Code>]**  
   
- Non-user code is any code that is not "My Code You can choose to display the call stack information for non-user code by using the shortcut menu.  
+ Non-user code is any code that is not "My Code". You can choose to display the call stack information for non-user code by using the shortcut menu.  
   
  By using the shortcut menu, you can choose whether to see calls between threads.  
   
