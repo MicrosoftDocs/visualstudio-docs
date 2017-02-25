@@ -82,6 +82,6 @@ The following tutorials also demonstrate setting up web applications with differ
 - [Bottle and Azure Table Storage on Azure](tutorial-bottle-azure-table.md)
 - [Bottle and MongoDB on Azure](tutorial-bottle-mongodb.md)
 - [Flask and Azure Table Storage on Azure](tutorial-flask-azure-table.md)
-- [Flask and MongoDB on Azure](tutorial-flask-mondodb.md)
+- [Flask and MongoDB on Azure](tutorial-flask-mongodb.md)
 - [Django and SQL Database on Azure](tutorial-django-sqldb.md)
 - [Django and MySQL on Azure](tutorial-django-mysql.md)

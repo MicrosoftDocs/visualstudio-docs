@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Azure SDK for Python
 
-The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows,. Mac OSX, and Linux.
+The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac OSX, and Linux.
 
 ## Installation
 
