@@ -110,6 +110,6 @@ The IPython interactive window is an advanced yet user-friendly interactive deve
 
 1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Windows Azure has support for running IPython on a Windows or Linux VM.
 
-    ![IPython notebook mode](media/ipython-repl-12.png)
+    ![IPython notebook mode](media/ipython-repl-07.png)
 
     For a video walkthrough (5m22s), see [IPython on Windows Azure demo](http://www.youtube.com/watch?v=ljrSOkMs7DQ); refer also to the [IPython Notebook](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-jupyter-notebook) in the Azure documentation.

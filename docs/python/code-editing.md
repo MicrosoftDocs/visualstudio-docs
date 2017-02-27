@@ -134,7 +134,7 @@ If you write a great code snippet that you'd like to share, feel free to post it
 
 ## Navigating your code
 
-PTVS provides several means to quickly navigate within your code: the [navigation bar](#navigation-bar), [Go To Definition](#go-to-definition), [Navigate To](#navigate-to), [Find All References](find-all-references), and the [Object Browser](#object-browser).
+PTVS provides several means to quickly navigate within your code: the [navigation bar](#navigation-bar), [Go To Definition](#go-to-definition), [Navigate To](#navigate-to), [Find All References](#find-all-references), and the [Object Browser](#object-browser).
 
 ### Navigation bar
 
