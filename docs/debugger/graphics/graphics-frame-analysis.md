@@ -32,10 +32,7 @@ translation.priority.ht:
 ---
 # Graphics Frame Analysis
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.  
-  
-> [!IMPORTANT]
->  Graphics Analyzer supports Frame Analysis for apps that use Direct3D 11 on supported platforms including Windows 10. Frame Analysis is not currently supported for apps that use Direct3D 12.  
-  
+
 ## Frame analysis  
  Frame analysis uses the same information that's captured in a graphics log file for diagnostic purposes, but uses it to summarize rendering performance instead. Performance information is not recorded to the log during capture; instead the performance information is generated later, during frame analysis, by timing events and collecting statistics as the frame is played back. This approach has several advantages over recording performance information during capture:  
   
@@ -43,7 +40,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
 -   Frame analysis can generate performance information for hardware configurations and devices other than the one where the information was captured.  
   
--   Frame analysis can generate new performance summaries from previously captured information—for example, when GPU drivers are optimized or expose additional debugging features.  
+-   Frame analysis can generate new performance summaries from previously captured information — for example, when GPU drivers are optimized or expose additional debugging features.  
   
  In addition to these advantages, frame analysis can also make changes to how the frame is rendered during playback so that it can present information about how those changes might impact the rendering performance of an app. You can use this information to decide among potential optimization strategies without having to implement them all and then capture and compare all of the results yourself.  
   

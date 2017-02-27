@@ -32,7 +32,7 @@ translation.priority.ht:
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.  
   
 ## Requirements  
- To use Graphics Diagnostics in Visual Studio, you must use Visual Studio Enterprise, Visual Studio Professional, or Visual Studio Community.  Other editions, including Visual Studio Code, do not contain this feature.
+ To use Graphics Diagnostics in Visual Studio, you must use Visual Studio Enterprise, Visual Studio Professional, or Visual Studio Community.  Other editions, including Visual Studio Code, do not contain this feature.  Visual Studio 2015 will work with versions of Direct3D up to and including 11.2, however Visual Studio 2017 or greater is required to work with Direct3D 12.
   
  [!INCLUDE[downloadvs](../includes/downloadvs_md.md)]  
   
@@ -74,7 +74,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 ### 1 - Create a Direct3D app  
  If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
 
-- The **DirectX 11 App (Universal Windows)**, **DirectX 12 App (Universal Windows)** project templates for Windows 10
+- The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.
 - The **DirectX App (Windows 8.1)** project template for Windows 8.1.
 - [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10.  
 - The [DirectX marble maze game sample](https://code.msdn.microsoft.com/windowsapps/DirectX-Marble-Maze-Game-e4806345) for Windows 8.1.  
