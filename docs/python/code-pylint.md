@@ -9,7 +9,7 @@ ms.technology:
   - "devlang-python"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: TODO
+ms.assetid: bc668a4b-10ae-4199-90b8-c984456b6003
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Using PyLint
+# Using PyLint to check Python code
 
 [PyLint](https://www.pylint.org/), a widely-used tool that checks for errors in Python code and encourages good Python coding patterns, is integrated into the Python Tools for Visual Studio (PTVS).
 

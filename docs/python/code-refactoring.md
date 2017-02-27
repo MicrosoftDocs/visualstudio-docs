@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Refactoring code
+# Refactoring Python code
 
 The Python Tools for Visual Studio (PTVS) provides several commands for automatically transforming and cleaning up your source code:
 

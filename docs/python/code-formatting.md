@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Formatting code
+# Formatting Python code
 
 Code formatting in the Python Tools for Visual Studio (PTVS, version 2.0 and later) lets you quick reformat code to match preconfigured formatting options.
 

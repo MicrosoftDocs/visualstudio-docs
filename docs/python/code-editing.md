@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Editing code
+# Editing Python code
 
 Developers spend a lot of their time in the code editor, so the Python Tools for Visual Studio (PTVS) provides functionality to help you be more productive, such as IntelliSense syntax highlighting, auto-completion, signature help, method overrides, and search and navigation. 
 
@@ -44,7 +44,7 @@ In this topic:
 - [Code snippets](#code-snippets)
 - [Navigating your code](#navigating-your-code)
 
-Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code. PTVS supports using the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting classes defined in each module and the functions defined in those classes. 
+For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code. PTVS supports using the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting classes defined in each module and the functions defined in those classes. 
 
 ## IntelliSense
 
