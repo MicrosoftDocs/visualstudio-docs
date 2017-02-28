@@ -1,6 +1,6 @@
 ---
-title: "Inspect Variables in the Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Inspect Variables in the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Inspecting Variables in the Autos and Locals Windows
+# Inspect Variables in the Autos and Locals Windows in Visual Studio
 The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables displayed is different in different languages. See What variables appear in the Autos Window? below.  
   
 If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  

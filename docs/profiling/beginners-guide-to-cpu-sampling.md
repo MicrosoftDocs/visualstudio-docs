@@ -1,6 +1,6 @@
 ---
-title: "Beginners Guide to CPU Sampling | Microsoft Docs"
-ms.custom: ""
+title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""

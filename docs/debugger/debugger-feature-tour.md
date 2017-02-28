@@ -1,5 +1,5 @@
 ---
-title: "Debugger Feature Tour | Microsoft Docs"
+title: "Feature Tour of the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/03/2016"
 ms.reviewer: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debugger Feature Tour
+# Feature Tour of the Visual Studio Debugger
 
 This topic introduces the features of the Visual Studio debugger in an easy-to-follow walkthrough.
 

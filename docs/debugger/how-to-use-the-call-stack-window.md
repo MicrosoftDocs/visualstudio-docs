@@ -1,6 +1,6 @@
 ---
-title: "Viewing the Call Stack | Microsoft Docs"
-ms.custom: ""
+title: "View the Call Stack in the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "01/24/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Call Stack Window
+# Use the Call Stack Window in the Visual Studio Debugger
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack.  
   
  The **Call Stack** window displays the name of each function and the programming language that it is written in. The function or procedure name may be accompanied by optional information, such as module name, line number, and parameter names, types, and values. The display of this optional information can be turned on or off.  
