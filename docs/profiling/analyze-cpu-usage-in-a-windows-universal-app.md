@@ -8,11 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: c122b08e-e3bf-43e6-bd6c-e776e178fd9a
 caps.latest.revision: 16
 author: "mikejo5000"
@@ -204,7 +199,7 @@ translation.priority.mt:
   
 ##  <a name="BKMK_MainPage_xaml_cs"></a> MainPage.xaml.cs  
   
-```cs  
+```CSharp  
 using System;  
 using System.Collections.Generic;  
 using System.IO;  

@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vc.controls.debug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "testing [Visual Studio], test containers"

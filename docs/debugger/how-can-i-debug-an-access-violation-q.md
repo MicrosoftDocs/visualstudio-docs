@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.access"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "access violation debugging"

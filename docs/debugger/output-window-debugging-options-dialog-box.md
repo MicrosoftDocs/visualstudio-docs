@@ -13,9 +13,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.OutputWindow"
   - "vs.debug.options.Output"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: d67387c2-39e9-4790-93bc-e41bff12fb9c
 caps.latest.revision: 8

@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.installedapppackagelauncher"
   - "vs.debug.error.wwahost_scriptdebuggingdisabled"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: fb91203f-2cf4-44d3-8ed9-93bc5aaa50b8
 caps.latest.revision: 24

@@ -11,15 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.options.FindSource"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Debug Source Files property page"
   - "debugging [Visual Studio], specifying source and symbol files"

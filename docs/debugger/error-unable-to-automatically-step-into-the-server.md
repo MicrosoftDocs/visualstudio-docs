@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.causality_no_server_response"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "remote debugging, notification error"
 ms.assetid: 9a370ccc-d358-429c-b285-9b6c0649bc68
