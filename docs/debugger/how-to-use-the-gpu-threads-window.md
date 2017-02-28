@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.gputthreads"
   - "vs.debug.gputhreads"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, GPU threads window"

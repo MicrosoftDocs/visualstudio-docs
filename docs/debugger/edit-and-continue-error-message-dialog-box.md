@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.ENC.SupportedButNotAvaiable"
   - "vs.debug.ENC.CannotEditWhileException"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue Error Message dialog box"

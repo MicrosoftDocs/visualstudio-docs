@@ -12,8 +12,8 @@ f1_keywords:
   - "vs.debug.remote.overview"
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "JScript"
   - "VB"
 helpviewer_keywords: 

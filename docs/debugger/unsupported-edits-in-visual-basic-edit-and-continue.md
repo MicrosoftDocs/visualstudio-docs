@@ -9,11 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
+  - "C++"
 helpviewer_keywords: 
   - "Edit and Continue [Visual Basic], unsupported method and property body edits"
 ms.assetid: 9b8fdc41-a193-49ad-ad72-dfcadd46f4b3
