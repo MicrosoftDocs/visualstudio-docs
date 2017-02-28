@@ -1,5 +1,5 @@
 ---
-title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
+title: "Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
