@@ -1,19 +1,19 @@
 ---
 title: "MSBuild .Targets Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/24/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".Targets files"
   - "MSBuild, .Targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
@@ -21,7 +21,7 @@ caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -38,22 +38,25 @@ translation.priority.ht:
 ---
 # MSBuild .Targets Files
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  
-  
+
  Projects typically import one or more .targets files to define their build process. For example a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will import Microsoft.CSharp.targets which imports Microsoft.Common.targets. The [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project itself will define the items and properties specific to that project, but the standard build rules for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project are defined in the imported .targets files.  
-  
+
  The `$(MSBuildToolsPath)` value specifies the path of these common .targets files. If the `ToolsVersion` is 4.0, the files are in the following location: `WindowsInstallationPath\Microsoft.NET\Framework\v4.0.30319\`  
-  
+
 > [!NOTE]
 >  For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).  
-  
+
 ## Common .Targets Files  
-  
+
 |.Targets file|Description|  
 |-------------------|-----------------|  
 |Microsoft.Common.targets|Defines the steps in the standard build process for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects.<br /><br /> Imported by the Microsoft.CSharp.targets and Microsoft.VisualBasic.targets files, which include the following statement: `<Import Project="Microsoft.Common.targets" />`|  
 |Microsoft.CSharp.targets|Defines the steps in the standard build process for Visual C# projects.<br /><br /> Imported by Visual C# project files (.csproj), which include the following statement: `<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />`|  
-|Microsoft.VisualBasic.targets|Defines the steps in the standard build process for Visual Basic projects.<br /><br /> Imported by Visual Basic project files (.vbproj), which include the following statement: `<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />`|  
-  
+|Microsoft.VisualBasic.targets|Defines the steps in the standard build process for Visual Basic projects.<br /><br /> Imported by Visual Basic project files (.vbproj), which include the following statement: `<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />`|
+
+## Directory.Build.Props
+Directory.Build.Props is a user-defined file that provides customizations to projects under a directory. This file is automatically imported from Microsoft.Common.targets unless the property **ImportDirectoryBuildTargets** is set to **false**.
+
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
