@@ -198,7 +198,7 @@
 ### [Debugging Preparation: Visual C++ Project Types](debugging-preparation-visual-cpp-project-types.md)
 ### [How to: Debug Optimized Code](how-to-debug-optimized-code.md)
 ### [DebugBreak and __debugbreak](debugbreak-and-debugbreak.md)
-### [C-C++ Assertions](c-cpp-assertions.md)
+### [C/C++ Assertions](c-cpp-assertions.md)
 ### [How to: Debug Inline Assembly Code](how-to-debug-inline-assembly-code.md)
 ### [MFC Debugging Techniques](mfc-debugging-techniques.md)
 ### [CRT Debugging Techniques](crt-debugging-techniques.md)
