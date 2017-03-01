@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.DomExplorer"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging, CSS"

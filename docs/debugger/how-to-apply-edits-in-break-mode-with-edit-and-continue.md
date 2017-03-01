@@ -11,11 +11,10 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.variables.failededit"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
+  - "C++"
 helpviewer_keywords: 
   - "Edit and Continue [Visual Basic], applying edits in break mode"
   - "break mode, applying code changes"

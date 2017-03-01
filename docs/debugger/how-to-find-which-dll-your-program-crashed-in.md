@@ -11,12 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.dll"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, DLL crashes"

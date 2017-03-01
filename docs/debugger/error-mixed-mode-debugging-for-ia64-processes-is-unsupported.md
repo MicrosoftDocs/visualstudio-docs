@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_ia64"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: b60e9660-02da-4dea-9e6d-8cb64e996bdf
 caps.latest.revision: 6

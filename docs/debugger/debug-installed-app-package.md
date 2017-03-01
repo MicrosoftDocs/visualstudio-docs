@@ -12,8 +12,8 @@ f1_keywords:
   - "vs.debug.installedapppackagelauncher"
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "JScript"
   - "VB"
 helpviewer_keywords: 

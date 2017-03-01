@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "c.debug.runtime"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "/DEBUG linker option [C++]"

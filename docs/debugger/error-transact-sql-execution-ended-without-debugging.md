@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "SQL"
 ms.assetid: 7a4d4999-3973-4339-ba6a-f0d19bcb1d4a
