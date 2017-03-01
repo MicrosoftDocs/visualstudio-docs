@@ -31,6 +31,10 @@ translation.priority.ht:
 ---
 
 # Sync a type to a filename, or a filename to a type in Visual Basic
+
+<!-- VERSIONLESS -->
+**This feature is available in Visual Studio 2017 and later.**
+
 **What:** Lets you rename a type to match the filename, or rename a filename to match the type it contains.
 
 **When:** You have renamed a file or type and haven't yet updated the corresponding file or type to match. 
