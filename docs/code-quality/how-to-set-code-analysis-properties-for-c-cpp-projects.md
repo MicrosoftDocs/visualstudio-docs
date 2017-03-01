@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Code Analysis Properties for C-C++ Projects | Microsoft Docs"
+title: "How to: Set Code Analysis Properties for C/C++ Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
