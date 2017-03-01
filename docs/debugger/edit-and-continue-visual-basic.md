@@ -9,11 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
+  - "C++"
 helpviewer_keywords: 
   - "Edit and Continue, 64-bit"
   - "Edit and Continue [Visual Basic]"

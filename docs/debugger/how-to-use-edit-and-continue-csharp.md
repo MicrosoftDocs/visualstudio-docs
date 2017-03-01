@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue [C#], about Edit and Continue"
@@ -64,4 +64,3 @@ With Edit and Continue for C#, you can make changes to your code in break mode w
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md)   
- [Edit and Continue Errors and Warnings (C#)](../misc/edit-and-continue-errors-and-warnings-csharp.md)

@@ -15,9 +15,9 @@ f1_keywords:
   - "vs.debug.attaching"
   - "vs.debug.attachedprocesses"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: bde37134-66af-4273-b02e-05b3370c31ab
 caps.latest.revision: 16

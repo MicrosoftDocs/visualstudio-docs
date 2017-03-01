@@ -11,9 +11,9 @@ ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.debugwithcodemaps"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "call stacks, code maps"
