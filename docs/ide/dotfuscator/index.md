@@ -91,6 +91,8 @@ This page and its sub-pages provide a high-level overview of Dotfuscator CE's fe
 
 Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][get-started].
 
+<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
+
 [assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
 [software-protection]: https://www.preemptive.com/software-protection
 [obfuscation]: https://www.preemptive.com/obfuscation
