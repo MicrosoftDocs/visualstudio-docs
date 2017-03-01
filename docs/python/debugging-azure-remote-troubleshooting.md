@@ -1,0 +1,47 @@
+---
+title: "Azure Remote Debugging Troubleshooting with Python Tools for Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "2/28/2017"
+ms.prod: "visual-studio-dev15"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology:
+  - "devlang-python"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: b723b343-dffb-457e-9af7-ee48c1451e30
+caps.latest.revision: 1
+author: "kraigb"
+ms.author: "kraigb"
+manager: "ghogen"
+translation.priority.ht:
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
+---
+
+# Troublshooting Azure Remote Debugging
+
+Visual Studio will fail to attach to an Azure App Service for remote debugging for any of the following reasons:
+
+| Reason | Resolution |
+| You do not have Visual Studio 2013 Update 4 or later installed. | Install a suitable version from [visualstudio.com](https://www.visualstudio.com/downloads/). | 
+| The project that's deployed to App Service doesn't match the one open in Visual Studio. | Load the correct project into Visual Studio. |
+| The project wasn't deployed with the Debug configuration. | Redploy the application by right-clicking the project in Solution Explorer and selecting **Publish**. In the **Settings** tab, make sure **Debug** is the selected configuration. |
+| The App Service isn't running. | Start it from Server Explorer in Visual Studio or from the Azure portal. |
+| The App Service isn't configured for remote debugging. | Go to the [Azure portal](https://portal.azure.com), naviage to your App Service, open the  **Settings > Application settings** blade, turn **Remote debugging** to **On**, set the appropriate version of Visual Studio, and select **Save**. |
+| `web.debug.config` was modified to disable the debug proxy. | Delete the file and republish the project to App Service, during which time Python Tools for Visual Studio recreates the file. |
+
+See also:
+
+- [Azure Remote Debugging for Python](debugging-azure-remote.md)

@@ -183,3 +183,8 @@ Supported features by Visual Studio version and edition:
 7. Requires Windows 8 or later. Attach Debugger (Python) command in Server Explorer requires [Azure SDK for .NET 2.3 - VS 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
 8. Requires Windows 8 or later.
+
+## Additional resources
+
+- [Writing Kinect games with Python using PyKinect](https://github.com/Microsoft/PTVS/wiki/PyKinect) (PTVS GitHub wiki)
+- [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)

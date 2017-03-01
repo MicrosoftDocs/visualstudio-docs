@@ -89,6 +89,7 @@ The exception is when a statement ends in a colon, as with the `for` statement a
 
 The interactive window is a great way to try out a new library. You can import the library, inspect the sub packages, classes, and functions.  Python can tell you all of this info through its `help()` function.  Also, Python Tools for Visual Studio (PTVS) gives you suggestions and documentation based on its code modeling used in the editor, which it does without needing to execute the library.  When you do execute code, PTVS uses information from the Python runtime to improve PTVS suggestions.  
 
+<a name="meta-commands"></a>
 The interactive window also supports several meta-commands. All meta-commands start with `$`, and you can type `$help` to get a list of the meta-commands and `$help <command>` to get usage details for a specific command.
 
 | Meta-command | Description |
