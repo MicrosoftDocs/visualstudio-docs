@@ -1,7 +1,7 @@
 ---
 title: "Create portable, custom editor settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
+ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -81,3 +81,15 @@ Now, when you press the TAB key, you get Tab characters instead of spaces.
 
 > [!NOTE]
 >  Adding a .editorconfig file to your project or codebase will not convert the existing styles to the new ones, it will only apply to newly-added lines. If you remove a .editorconfig file from your project or codebase, you must reload the code file(s) for the editor settings to revert back to global settings. Any errors in .editorconfig files are reported in the Error window in Visual studio.
+
+## Support EditorConfig for your language service
+
+In most cases when you implement a Visual Studio language service, no additional work is needed to support EditorConfig universal properties. The core editor automatically discovers and reads the .editorconfig file when users open files, and it sets the appropriate text buffer and view options. However, some language services opt to use an appropriate contextual text view option rather than using global settings for items such as tabs and spaces when a user edits or formats text. In these cases, the language service must be updated to support EditorConfig files.
+
+The following table lists the changes needed to update a language service to support EditorConfig files.
+
+| Deprecated global language-specific option | Contextual option replacement |
+| :------------- | :------------- |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs | !textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) or !textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize | textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId) |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize | textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId) |
