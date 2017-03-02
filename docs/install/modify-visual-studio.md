@@ -1,8 +1,8 @@
 ---
-title: "Modify Visual Studio 2017 RC | Microsoft Docs"
+title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "11/18/2016"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -12,10 +12,6 @@ ms.topic: "article"
 helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
-  - "Visual Studio Preview"
-  - "Visual Studio Release Candidate"
-  - "Visual Studio RC"
-  - "modifying Visual Studio"
   - "changing Visual Studio"
   - "customize Visual Studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
@@ -38,10 +34,10 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Modify Visual Studio 2017 RC
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we’ve also made it easier to modify Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio installer and make the changes you want.  
+# Modify Visual Studio 2017 by adding or removing workloads and components
+Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we’ve also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio installer and make the changes you want.  
 
- Here's how.  
+Here's how.  
 
 ## Modify workloads  
  Workloads contain the features you need for the programming language or platform that you are using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.  
@@ -68,8 +64,6 @@ Not only have we made is easier for you to personalize Visual Studio to match th
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
 
-> [!IMPORTANT]
-> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
 
 ## See also  
 * [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)

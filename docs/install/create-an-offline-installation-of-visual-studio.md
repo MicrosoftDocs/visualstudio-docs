@@ -2,7 +2,7 @@
 title: "Create an offline installation of Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
-ms.date: "02/14/2017"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -33,96 +33,67 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Create an offline installation of Visual Studio 2017 RC
+# Create an offline installer for Visual Studio 2017
+We understand that a lot of customers want an offline installer for [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017-rtw/). Even though we don't offer an ISO image, it's easy to create your own.
 
-## Create a layout
-If you want to install [Visual Studio 2017 RC](https://www.visualstudio.com/vs/visual-studio-2017-rc/) on another machine that doesn't have internet access, you can do so by first creating an offline installation layout that contains all the Visual Studio files and components you need.
+Here's how.
 
-You can then install Visual Studio to the target machine by using the offline installation layout that you created.     
+## Step 1: Download the setup file
+**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. Make sure to click **Save**, and then click **Open folder**.
 
-> [!WARNING]
-> Currently, the Android SDK does not support an offline installation experience. If you install Android SDK Setup items on a computer that is not connected to the internet, the installation might fail. For more information about this, go to the [Troubleshoot an offline installation](#tshootofflineinstall) section in this topic.
+Your bootstrapper file will match one of the following.
 
+|Edition | File|  
+|-------------|-----------------------|  
+|Visual Studio Enterprise |**vs_enterprise.exe**|  
+|Visual Studio Professional |**vs_professional.exe**|  
+|Visual Studio Community |**vs_community.exe**|
 
-#### To create an offline installation layout of Visual Studio
-1. Download the Visual Studio setup executable file to a drive on your local machine.
-  For example, [download the vs_enterprise.exe file](https://www.visualstudio.com/vs/visual-studio-2017-rc/).
-2. Run `vs_enterprise.exe` with the following arguments (switches) from a command prompt:
+## Step 2: Create a full offline installation
+To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
-   a. Add `--layout <path>`, where `<path>` is the location where you want the layout to download to. Note that relative paths (e.g. `..\vs2017`) are not supported at present. By default, all languages are downloaded. (See Example A.)
+(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username\Downloads` on a computer that is running Windows 10).
 
-   b. Restrict the download to a subset of the available languages by providing the `--lang <language>` argument, where `<language>` is one or more of the language-locales.  (See Example B and Example C.)
+- For Visual Studio Enterprise, run: <br>  ```vs_enterprise.exe --layout c:\vs2017offline```
+- For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
+- For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
 
-   c. Restrict the download to a subset of Workloads and Components by providing the  `--add <package ID>` argument. This will download only the workloads and components (and their dependencies) that you specify. (See Example D and Example E.)
+## Step 3: Customize your offline installation
+There are many options you can use to customize your installation. Here are a few examples of how to customize it by [language locale](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
-   For a full list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
+ - To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
+ - To download all workloads and components for multiple languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP```
+ - To download one workload for all languages, run <br> ```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure ```
+ - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
 
-### Examples
-**Example A**: Download all workloads and components for all languages
-  > ```vs_enterprise.exe --layout C:\vs2017```
+To learn more about the options you can use to customize your installation, see our [Use command-line parameters to install Visual Studio 2017 ](use-command-line-parameters-to-install-visual-studio.md) page.
 
-**Example B**: Download all workloads and components for one language  
-  > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US```
+## Step 4: Run your offline installation
+Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
 
-**Example C**: Download all workloads and components for multiple languages
-  > ```vs_enterprise.exe --layout C:\vs2017 --lang en-US de-DE ja-JP```
+  a. Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
 
-**Example D**: Download one workload for all languages
-  > ```vs_enterprise.exe --layout C:\vs2017 --add Microsoft.VisualStudio.Workload.Azure ```
+  b. Run the installation file. For example, run: <br> ```vs_enterprise.exe --layout c:\vs2017offline```
 
-**Example E**: Download two workloads and one optional component for three languages
-  > ```vs_enterprise.exe --layout C:\vs2017 --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
+## Step 5: Update an offline installation
+If you want to update your offline installation, run the `--layout` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran `--layout` will be downloaded.
 
-  > [!WARNING]
-  > The --layout parameter will fail if the setup .exe file name includes numerals. To work around this issue, you must remove the numerals from the filename&mdash;for example, rename *vs_community__198521760.1486960229.exe* to ***vs_community.exe***.
+## Step 6: Troubleshoot an offline installation
+Sometimes, things go wrong. Here is a table of known issues and some workarounds that might help.
 
-### Language locales
+| Issue       | Item                   | Solution |
+| ----------- | ---------------------- | -------- |
+| You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
+| Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
+| New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
 
-| Language-locale | Language |
-| -----   | ----- |
-| cs-CZ	| Czech |
-| de-DE	| German |
-| en-US	| English |
-| es-ES	| Spanish |
-| fr-FR	| French |
-| it-IT	| Italian |
-| ja-JP	| Japanese |
-| ko-KR	| Korean |
-| pl-PL	| Polish |
-| pt-BR	| Portuguese - Brazil |
-| ru-RU	| Russian |
-| tr-TR	| Turkish |
-| zh-CN	| Chinese - Simplified |
-| zh-TW	| Chinese - Traditional |
+## Step 7: Get support for your offline installation
+If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
+
+We have other support options available, too. For a list of those, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 
-## Install from a layout
-#### To install Visual Studio from an offline installation layout
-1. On the target machine, navigate to the **Certificates** folder, which is in the Layout folder.
-2. Right-click and install each certificate in the **Certificates** folder.
-
-  (If you are prompted for a password after you install a certificate, click **Continue**.)  
-3. Run `vs_enterprise.exe` from the **Layout** folder.
-
-Note: If you are installing from a partial layout and select workloads, components or languages that are not available in the layout, setup will attempt to download them.  If you do not have internet access, those items will fail to install.
-
-> [!CAUTION]
-> The offline installation layout currently creates some files with restricted permissions (ACLs) that prevent access by all users.  Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before*  you share the offline install.
-
-## Update an installation layout
-As updates become available for Visual Studio 2017 RC, you can run the `--layout` command again, pointing to the same layout folder, to ensure that the folder contains the latest components. Only those components that have been updated since the last time `--layout` was run will be downloaded.
-
-## <a id="tshootofflineinstall"> </a>Troubleshoot an installation layout
-When you install offline from your offline install cache, you might see warning messages about not being able to install some components and packages. The following table includes possible solutions for these scenarios.
-
-| Component or Package | Solution |
-| -------------------- | -------- |
-|Android SDK Setup (API Level)| You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio: <br><br> - http://dl.google.com:443 <br>- http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
-
- > [!IMPORTANT]
- > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
-
- ## See also
+## See also
  * [Install Visual Studio](install-visual-studio.md)
+ * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
  * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
