@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio refactoring features (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/17/2016"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,3 +50,4 @@ Visual Basic provides the following refactoring features:
 * [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
 * [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
 * [Rename](refactoring/rename.md)
+* [Sync Type and  Filename](refactoring/sync-type-and-file.md)

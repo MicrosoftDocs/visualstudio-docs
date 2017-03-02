@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.visualizer.troubleshoot"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, visualizers"
   - "visualizers"

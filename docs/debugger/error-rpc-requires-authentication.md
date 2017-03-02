@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.rpc_requires_authentication"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 88362b3b-8fbe-431f-96a4-80e2d822bbc7
 caps.latest.revision: 11
