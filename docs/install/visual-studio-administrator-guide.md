@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio administrator guide | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/12/2017"
+ms.date: "03/07/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

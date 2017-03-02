@@ -12,9 +12,7 @@ ms.topic: "get-started-article"
 f1_keywords:
   - "vs.about"
 helpviewer_keywords:
-  - "install Visual Studio Preview"
   - "install Visual Studio"
-  - "installing Visual Studio"
   - "dev15"
   - "set up Visual Studio"
   - "Visual Studio setup"
