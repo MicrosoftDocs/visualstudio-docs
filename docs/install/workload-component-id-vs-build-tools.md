@@ -53,11 +53,11 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 ### Components included by this workload
 
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.Component.MSBuild | MSBuild | 15.0.26004.1 | Required
-Microsoft.VisualStudio.Component.CoreBuildTools | Visual Studio Build Tools Core | 15.0.26004.1 | Required
-Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 15.0.26004.1 | Required
+Component ID | Name | Dependency type
+--- | --- | ---
+Microsoft.Component.MSBuild | MSBuild | Required
+Microsoft.VisualStudio.Component.CoreBuildTools | Visual Studio Build Tools Core | Required
+Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | Required
 
 
 ## Visual C++ build tools
@@ -68,26 +68,26 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn co
 
 ### Components included by this workload
 
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.Component.VC.CoreBuildTools | Visual C++ Build Tools core features | 15.0.26004.1 | Required
-Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 15.0.26004.1 | Required
-Microsoft.VisualStudio.Component.VC.CMake.Project | Visual C++ tools for CMake | 15.0.26004.1 | Recommended
-Microsoft.VisualStudio.Component.Windows10SDK.14393 | Windows 10 SDK (10.0.14393.0) | 15.0.26127.0 | Recommended
-Microsoft.Component.VC.Runtime.UCRTSDK | Windows Universal CRT SDK | 15.0.26004.1 | Optional
-Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 15.0.26004.1 | Optional
-Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pack | 15.0.26004.1 | Optional
-Microsoft.VisualStudio.Component.Static.Analysis.Tools | Static analysis tools | 15.0.26004.1 | Optional
-Microsoft.VisualStudio.Component.VC.ATL | Visual C++ ATL support | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.VC.ATLMFC | MFC and ATL support (x86 and x64) | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.VC.ClangC2 | Clang/C2 (experimental) | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support | 15.0.26206.0 | Optional
-Microsoft.VisualStudio.Component.VC.CoreIde | Visual Studio C++ core features | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | Standard Library Modules | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | VC++ 2017 v141 toolset (x86,x64) | 15.0.26109.1 | Optional
-Microsoft.VisualStudio.Component.Windows10SDK.10240 | Windows 10 SDK (10.0.10240.0) | 15.0.26004.1 | Optional
-Microsoft.VisualStudio.Component.Windows10SDK.10586 | Windows 10 SDK (10.0.10586.0) | 15.0.26004.1 | Optional
-Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | 15.0.26127.0 | Optional
+Component ID | Name | Dependency type
+--- | --- | ---
+Microsoft.VisualStudio.Component.VC.CoreBuildTools | Visual C++ Build Tools core features | Required
+Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | Required
+Microsoft.VisualStudio.Component.VC.CMake.Project | Visual C++ tools for CMake | Recommended
+Microsoft.VisualStudio.Component.Windows10SDK.14393 | Windows 10 SDK (10.0.14393.0) | Recommended
+Microsoft.Component.VC.Runtime.UCRTSDK | Windows Universal CRT SDK | Optional
+Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | Optional
+Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pack | Optional
+Microsoft.VisualStudio.Component.Static.Analysis.Tools | Static analysis tools | Optional
+Microsoft.VisualStudio.Component.VC.ATL | Visual C++ ATL support | Optional
+Microsoft.VisualStudio.Component.VC.ATLMFC | MFC and ATL support (x86 and x64) | Optional
+Microsoft.VisualStudio.Component.VC.ClangC2 | Clang/C2 (experimental) | Optional
+Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support | Optional
+Microsoft.VisualStudio.Component.VC.CoreIde | Visual Studio C++ core features | Optional
+Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | Standard Library Modules | Optional
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | VC++ 2017 v141 toolset (x86,x64) | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.10240 | Windows 10 SDK (10.0.10240.0) | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.10586 | Windows 10 SDK (10.0.10586.0) | Optional
+Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | Optional
 
 
 ## Web development build tools
@@ -98,19 +98,17 @@ Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | 15.0.26127.0 |
 
 ### Components included by this workload
 
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-n/a | n/a | n/a | n/a
-
-## Unaffiliated components
-
-These are components that are not included with any workload, but might be selected as an individual component.
-
-Component ID | Name | Version 
+Component ID | Name | Dependency type
 --- | --- | ---
 n/a | n/a | n/a
 
+## Unaffiliated components
 
+These are components that are not included with any workload, but may be selected as an individual component.
+
+Component ID | Name
+--- | ---
+n/a | n/a
 
 ## See also
 

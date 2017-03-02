@@ -53,18 +53,19 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 ### Components included by this workload
 
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26109.1 | Required
-Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.26206.0 | Required
+Component ID | Name | Dependency type
+--- | --- | ---
+Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | Required
+Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | Required
 
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
 
-Component ID | Name | Version
---- | --- | ---
-n/a | n/a | n/a
+Component ID | Name
+--- | ---
+n/a | n/a
+
 
 ## See also
 
