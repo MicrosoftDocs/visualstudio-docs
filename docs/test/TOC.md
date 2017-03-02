@@ -14,7 +14,7 @@
 #### [Quick Start: Test Driven Development with Test Explorer](quick-start-test-driven-development-with-test-explorer.md)
 #### [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 #### [Using the Assert Classes](using-the-assert-classes.md)
-#### [Isolating Code Under Test witC-h Microsoft Fakes](isolating-code-under-test-with-microsoft-fakes.md)
+#### [Isolating Code Under Test with Microsoft Fakes](isolating-code-under-test-with-microsoft-fakes.md)
 ##### [Using stubs to isolate parts of your application from each other for unit testing](using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
 ##### [Using shims to isolate your application from other assemblies for unit testing](using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
 ##### [Code generation, compilation, and naming conventions in Microsoft Fakes](code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)
