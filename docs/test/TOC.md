@@ -23,7 +23,7 @@
 #### [Unit tests for Generic Methods](unit-tests-for-generic-methods.md)
 #### [How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework](how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md)
 #### [Sample Project for Creating Unit Tests](sample-project-for-creating-unit-tests.md)
-### [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)
+### [Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++](writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)
 #### [Unit testing existing C++ applications with Test Explorer](unit-testing-existing-cpp-applications-with-test-explorer.md)
 #### [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](using-microsoft-visualstudio-testtools-cppunittestframework.md)
 ### [Using Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
