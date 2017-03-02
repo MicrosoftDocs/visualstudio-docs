@@ -44,13 +44,13 @@ Here's how.
 
 1.  Find the Visual Studio installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **M**, where you’ll see it listed as **Microsoft Visual Studio Installer**.  
+     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
 
-     ![00-ModifyingDev15Prev5-FindTheVisualStudioInstaller](../install/media/00-modifyingdev15prev5-findthevisualstudioinstaller.png "Locate the Microsoft Visual Studio Installer")
+     ![00-ModifyingDev15Prev5-FindTheVisualStudioInstaller](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
 2.  Click to start the installer, and then click **Modify**.  
 
-     ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017modify-ModifyOrLaunch.png "Launch or Modify Visual Studio 2017")  
+     ![Modifying Visual Studio 2017 RC; Launch or Modify](vs2017-workloads.PNG "Launch or Modify Visual Studio 2017")  
 
 3.  From the **Workloads** screen, click to select or deselect the workloads that you want to install or uninstall.  
 
