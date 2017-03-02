@@ -31,6 +31,7 @@
 #### [Analyzing Code Coverage in Build Verification Tests](analyzing-code-coverage-in-build-verification-tests.md)
 #### [Troubleshooting Code Coverage](troubleshooting-code-coverage.md)
 ### [Using emulators to isolate unit tests for Sharepoint 2010 applications](using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md)
+## [Live Unit Testing with Visual Studio](live-unit-testing.md)
 ## [Use UI Automation To Test Your Code](use-ui-automation-to-test-your-code.md)
 ### [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 ### [Test Windows Store 8.1 Apps with Coded UI Tests](test-windows-store-8-1-apps-with-coded-ui-tests.md)
