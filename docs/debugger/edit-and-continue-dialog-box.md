@@ -11,11 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.ENC.welcome"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue dialog box"

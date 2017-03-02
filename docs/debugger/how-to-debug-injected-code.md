@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.injected"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "assembly language, viewing"

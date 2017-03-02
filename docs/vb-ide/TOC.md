@@ -7,6 +7,7 @@
 ### [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
 ### [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
 ### [Rename](refactoring/rename.md)
+### [Sync Type and  Filename](refactoring/sync-type-and-file.md)
 ## [Code Generation](code-generation-vb.md)
 ### [Generate Class/Type](code-generation/generate-class-type.md)
 ### [Generate Method](code-generation/generate-method.md)

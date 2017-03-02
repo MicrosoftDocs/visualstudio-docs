@@ -13,9 +13,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "source code"

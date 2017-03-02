@@ -12,14 +12,11 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.JIT"
   - "vs.debug.options.JIT"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Just-In-Time debugging, setting options"
   - "Options dialog box, debugging"
