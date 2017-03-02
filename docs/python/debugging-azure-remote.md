@@ -34,7 +34,7 @@ translation.priority.ht:
 
 Python Tools for Visual Studio (PTVS) has special support for remotely debugging code that's running on Azure App Service. Unlike simple remote debugging, the target machine in this scenario is not directly accessible over TCP, so PTVS provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated `web.debug.config` file. Remote debugging is also enabled when you publish a Debug configuration of your project as described on [Publishing to Azure App Service](template-web.md#publishing-to-azure-app-service).
 
-Because Azure remote debugging uses web sockets, sockets must be enabled for your App Service through the [Azure portal](https://portal.azure.com) by going to **Settings > Application settings** and turning **Remote debugging** to **On** and setting the appropriate version of Visual Studio. Remember to select **Save** to apply the change.
+Because Azure remote debugging uses web sockets, sockets must be enabled for your App Service through the [Azure portal](https://portal.azure.com) by going to **Settings > Application settings** and turning **General settings > Web sockets** to **On**, then selecting **Save** to apply the change. (Note that the **Debugging** settings do not apply to debugging Python.)
 
 ![Enabling web sockets in Azure portal](media/azure-remote-debugging-enable-web-sockets.png)
 

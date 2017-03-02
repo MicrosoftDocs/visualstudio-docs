@@ -34,6 +34,8 @@ translation.priority.ht:
 
 TODO
 
+> [!Tip]
+> Visual Studio 2017 includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. Learn more through the [Cookicutter documentation](https://cookiecutter.readthedocs.io/en/latest/).
 
 ## PTVS install locations
 
