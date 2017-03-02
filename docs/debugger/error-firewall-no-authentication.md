@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.firewall.noauth"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: dda1acb8-bed7-4bc8-9991-9cdc49c2ac1e
 caps.latest.revision: 10

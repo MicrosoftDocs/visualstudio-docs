@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vc.errors"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "error codes, Win32"

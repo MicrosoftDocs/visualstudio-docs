@@ -2,7 +2,7 @@
 title: "Create an offline installation of Visual Studio 2017 RC | Microsoft Docs"
 description: "Learn how to create an offline installation of Visual Studio."
 ms.custom: ""
-ms.date: "01/27/2017"
+ms.date: "02/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -72,6 +72,9 @@ You can then install Visual Studio to the target machine by using the offline in
 
 **Example E**: Download two workloads and one optional component for three languages
   > ```vs_enterprise.exe --layout C:\vs2017 --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
+
+  > [!WARNING]
+  > The --layout parameter will fail if the setup .exe file name includes numerals. To work around this issue, you must remove the numerals from the filename&mdash;for example, rename *vs_community__198521760.1486960229.exe* to ***vs_community.exe***.
 
 ### Language locales
 

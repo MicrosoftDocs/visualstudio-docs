@@ -11,15 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.whenbreakpointishit"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
 caps.latest.revision: 11
 author: "mikejo5000"

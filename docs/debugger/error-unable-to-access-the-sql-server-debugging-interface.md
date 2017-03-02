@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_debugging_not_enabled"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "SQL"
 ms.assetid: 527cf400-d12d-45ef-a7e7-baa65ca96ec5

@@ -14,9 +14,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.ENC"
   - "vs.debug.options.ENC"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 

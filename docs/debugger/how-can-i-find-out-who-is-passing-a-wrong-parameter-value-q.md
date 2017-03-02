@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.parameters"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [C++], parameters"

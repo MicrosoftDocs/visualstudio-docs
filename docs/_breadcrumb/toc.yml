@@ -58,9 +58,9 @@
           - name: DIA SDK
             tocHref: /visualstudio/debugger/debug-interface-access/
             topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
-          - name: Profiling
-            tocHref: /visualstudio/profiling/
-            topicHref: /visualstudio/profiling/profiling-tools
+        - name: Profiling
+          tocHref: /visualstudio/profiling/
+          topicHref: /visualstudio/profiling/profiling-tools
         - name: Testing
           tocHref: /visualstudio/test/
           topicHref: /visualstudio/test/improve-code-quality
