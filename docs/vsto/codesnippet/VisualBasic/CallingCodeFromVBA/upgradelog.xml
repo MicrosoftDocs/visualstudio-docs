@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CallingCodeFromVBA">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\CallingCodeFromVBA.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\CallingCodeFromVBA.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="7:16 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="CallingCodeFromVBA.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="CallingCodeFromVBA.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\CallingCodeFromVBA.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CallingCodeFromVBA.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\CallingCodeFromVBA.v11.suo">
+</Event><Event ErrorLevel="3" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\CallingCodeFromVBA.vbproj">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\CallingCodeFromVBA.vbproj.user">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\CallingCodeFromVBA_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="DocumentWithVBA.docm" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\DocumentWithVBA.docm">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="ThisDocument.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CallingVBCustomizationFromVBA\VB\Backup\ThisDocument.resx">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CallingCodeFromVBA.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CallingCodeFromVBA.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CallingCodeFromVBA" Source="CallingCodeFromVBA.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

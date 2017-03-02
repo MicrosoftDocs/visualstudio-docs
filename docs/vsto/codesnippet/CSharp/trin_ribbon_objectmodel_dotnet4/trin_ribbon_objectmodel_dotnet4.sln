@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_Ribbon_ObjectModel_DOTNET4", "Trin_Ribbon_ObjectModel_DOTNET4.csproj", "{57EBC424-1445-4242-AF80-049DBC39F30B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{57EBC424-1445-4242-AF80-049DBC39F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EBC424-1445-4242-AF80-049DBC39F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EBC424-1445-4242-AF80-049DBC39F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EBC424-1445-4242-AF80-049DBC39F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

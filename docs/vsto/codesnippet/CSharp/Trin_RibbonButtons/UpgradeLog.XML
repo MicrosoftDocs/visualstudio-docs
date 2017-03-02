@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_RibbonButtons">
+</Property><Property Name="Solution File" Value="C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Trin_RibbonButtons.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Trin_RibbonButtons.suo">
+</Property><Property Name="Date" Value="Thursday, July 05, 2007">
+</Property><Property Name="Time" Value="15:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Trin_RibbonButtons.sln" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Trin_RibbonButtons.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_RibbonButtons.suo" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Trin_RibbonButtons.suo">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Project file successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Trin_RibbonButtons.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Trin_RibbonButtons.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="MyRibbon.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\MyRibbon.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="MyRibbon.xml" Description="File successfully backed up as C:\Users\normesta.REDMOND\Desktop\O12\Trin_RibbonButtons_O12\CS\Backup\MyRibbon.xml">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_RibbonButtons.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_RibbonButtons.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
