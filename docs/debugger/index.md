@@ -86,7 +86,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../debugger/media/i_learn.svg" alt="">
+                            <img src="../debugger/media/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -122,7 +122,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../debugger/media/i_learn.svg" alt="">
+                            <img src="../debugger/media/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">

@@ -72,7 +72,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Analyze Memory Usage</h3>
+                        <h3>Get Started analyzing Memory Usage</h3>
                     </div>
                 </div>
             </div>
