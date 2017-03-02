@@ -54,4 +54,4 @@ If you change your mind later and want to reinstall Visual Studio 2017, simply s
 
 ## See also  
 * [Install Visual Studio](install-visual-studio.md)
-* [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+* [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
