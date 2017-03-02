@@ -19,10 +19,9 @@ f1_keywords:
   - "allocMemDF"
   - "afxMemDF"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [MFC]"

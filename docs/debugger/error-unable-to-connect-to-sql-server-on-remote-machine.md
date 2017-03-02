@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlle_dcom_accessdenied"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "SQL"
 ms.assetid: a922754e-6deb-43c6-935d-cc6dcc2a74d4

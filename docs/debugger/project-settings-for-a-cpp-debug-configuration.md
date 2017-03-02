@@ -72,9 +72,9 @@ f1_keywords:
   - "VC.Project.VCDebugSettings.EnvironmentMerge"
   - "VC.Project.IVCGPUDebugPageObject.MachineName"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "DEBUG linker option"

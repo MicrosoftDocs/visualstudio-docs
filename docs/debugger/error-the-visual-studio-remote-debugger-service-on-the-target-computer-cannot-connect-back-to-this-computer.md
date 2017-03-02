@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 89ecf99d-66bf-4da0-a840-aa95b0be1702
 caps.latest.revision: 12

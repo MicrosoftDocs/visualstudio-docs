@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vbProjectPropertiesDebug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "project settings [Visual Studio], debug configurations"

@@ -11,12 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "kernel debugger"

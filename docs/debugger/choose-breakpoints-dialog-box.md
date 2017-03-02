@@ -11,15 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.breakpt.choose"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "breakpoints, ambiguous"
   - "breakpoints, Choose Breakpoints dialog box"

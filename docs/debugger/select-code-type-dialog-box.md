@@ -11,15 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.selectengines"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], engine selection"
   - "debugger, engine selection"

@@ -494,7 +494,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
-| True | Prefer to use throw expressions instead of throw statements. | **C#:** <br>`this.s = ss ?? throw new ArguementNullException(nameof(s));`
+| True | Prefer to use throw expressions instead of throw statements. | **C#:** <br>`this.s = ss ?? throw new ArgumentNullException(nameof(s));`
 | False | Prefer to use throw statements instead of throw expressions.| **C#:** <br>`if (s==null) {throw new ArgumentNullException(nameof(s));} this.s = s;`
 
 #### Example editorconfig file:

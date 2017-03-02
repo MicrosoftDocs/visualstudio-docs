@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.ENC.failed.commit"
   - "vs.debug.ENC.failed.build"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue, limitations"
