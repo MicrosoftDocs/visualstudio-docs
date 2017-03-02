@@ -1,3 +1,0 @@
-In this tutorial, we'll create a simple polls (voting) application using Python for Visual Studio (PTVS) and a sample project template.
-
-The application defines an abstraction for its repository, so you can easily switch between different types of repositories. Here we'll use a local, in-memory repository first, then switch over to MongoDB on Azure as we publish the application to Azure App Service. The following video provides a walkthrough of the process:

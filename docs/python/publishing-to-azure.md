@@ -52,7 +52,19 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 
 1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, and click **OK**.    
 
-[!INCLUDE[include](includes/tutorial-environment-setup-test.md)]
+1. When prompted to install external packages, select **Install into a virtual environment**. Note the **Show required packages** control at the bottom of the dialog that will show which packages will be installed:
+
+  ![Installing required packages](media/tutorials-common-external-packages.png)
+
+1. Select your preferred base interpreter for the virual environment (for example, **Python 2.7** or **Python 3.4**) and click **Create**:
+
+  ![Adding a virtual environment when creating a project](media/tutorials-common-add-virtual-environment.png)
+
+1. Once the project is created, test it by selecting **Debug > Start Debugging** or pressing F5. By default, the application uses an in-memory repository which doesn't require any configuration. All data is lost when the web server is stopped.
+
+1. Click around in the application to see its operation.
+
+1. Stop the debugger when you're finished (**Debug > Stop Debugging** or Shift-F5).
 
 ## Publish to Azure App Service
 
@@ -76,12 +88,3 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 ## Additional resources
 
 For a walkthrough of a richer web application, see [Visual Studio Python Tutorial Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com). 
-
-The following tutorials also demonstrate setting up web applications with different types of storage:
-
-- [Bottle and Azure Table Storage on Azure](tutorial-bottle-azure-table.md)
-- [Bottle and MongoDB on Azure](tutorial-bottle-mongodb.md)
-- [Flask and Azure Table Storage on Azure](tutorial-flask-azure-table.md)
-- [Flask and MongoDB on Azure](tutorial-flask-mongodb.md)
-- [Django and SQL Database on Azure](tutorial-django-sqldb.md)
-- [Django and MySQL on Azure](tutorial-django-mysql.md)
