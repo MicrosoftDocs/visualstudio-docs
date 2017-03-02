@@ -1,7 +1,7 @@
 ---
 title: "Improve Code Quality"
 ms.custom: na
-ms.date: "10/14/2016"
+ms.date: "02/17/2017"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
@@ -43,10 +43,9 @@ What is code quality? Correctness, maintainability, and even elegance are all in
 |||  
 |-|-|  
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Test Explorer makes it easy to integrate unit tests in your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.|  
+|[Live Unit Testing with Visual Studio](../test/live-unit-testing.md)|Live Unit Testing automatically runs unit tests in the background and graphically displays code coverage and test results in the Visual Studio code editor.|  
 |[Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|Static code analysis tools find design, usage, maintainablity, and style issues in C++ and managed code. Many of these issues can lead to bugs that are hard to reproduce in standard testing environment.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Code metrics is a set of software measures that provide developers better insight into the code they are developing. The metrics include a maintainability index for functions and classes, cyclomatic complexity of functions, the inheritance depth of classes, and the amount of coupling among classes.|  
-|[PreEmptive Analytics for Team Foundation Server](http://msdn.microsoft.com/library/hh973124.aspx)|PreEmptive Analytics for TFS CE helps you to integrate feedback-driven development processes into your development workflow. Your applications automatically send back exception report data to the PreEmptive Analytics service as errors occur during their execution. The service then creates or updates work items in Microsoft Team Foundation Server based on rules and thresholds you define.|  
-|[PreEmptive Dotfuscator and Analytics CE](assetId:///25d195d4-9f76-4dcc-9fbb-eeb9bdca9a3f)|PreEmptive Dotfuscator is a.NET obfuscator and compactor that helps protect programs against reverse engineering while making them smaller and more efficient.|  
   
 ## Related Scenarios  
  [Adopting Visual Studio and Team Foundation Server for Application Lifecycle Management](assetId:///7ae9182f-4762-4bd3-b238-39ce987932e5)  
@@ -58,8 +57,11 @@ What is code quality? Correctness, maintainability, and even elegance are all in
  [Testing the application](https://www.visualstudio.com/docs/test/overview)  
  You can use [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] to be more productive throughout the testing life cycle. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] let you plan your testing effort. You can create, manage, edit, and run both manual and automated tests. You can also review your testing progress based on your plan.  
   
- [Build the application](https://www.visualstudio.com/docs/build/overview)  
+ [Protecting the application with PreEmptive Protection - Dotfuscator](../ide/dotfuscator/index.md)  
+ You can use the free Dotfuscator Community Edition to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.  Dotfuscator protects and hardens compiled assemblies without the need for additional programming or even access to source code.
+  
+ [Building the application](https://www.visualstudio.com/docs/build/overview)  
  You can use [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] to create and manage automated builds for your code. [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] lets you create drop servers to deploy builds. In addition, you can analyze build trends.  
   
- [Track work using Visual Studio Online or Team Foundation Server](https://www.visualstudio.com/docs/work/overview)  
+ [Tracking work using Visual Studio Online or Team Foundation Server](https://www.visualstudio.com/docs/work/overview)  
  You can use [!INCLUDE[vstsTfsLong](../test/includes/vststfslong_md.md)] to plan and track your projects whether you use the agile process, the formal process, or a variation on those processes. By planning your projects, tracking your progress against the plan, and making necessary adjustments, you can reduce risks, avoid unpleasant surprises, and manage the cost of your projects.
