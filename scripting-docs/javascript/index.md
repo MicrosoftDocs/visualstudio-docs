@@ -14,7 +14,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../javascript/media/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -32,7 +32,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../javascript/media/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
