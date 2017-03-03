@@ -104,7 +104,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../javascript/media/logo_NET.svg" alt="">
+                            <img src="/en-us/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
