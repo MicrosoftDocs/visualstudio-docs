@@ -183,7 +183,7 @@ The Debug Interactive window supports special meta-commands in addition to the [
 
 | Command | Arguments | Description |
 | --- | --- | --- |
-| `$continue`, `$cont, `$c` | Starts running the program from the current statement. |
+| `$continue`, `$cont`, `$c` | Starts running the program from the current statement. |
 | `$down`, `$d` | Move the current frame one level down in the stack trace. |
 | `$frame` | | Displays the current frame id.
 | `$frame` | frame id | Switches the current frame to the specified frame id.
