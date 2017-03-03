@@ -102,7 +102,7 @@ PTVS normally locates an installed Python interpreter by checking the registry, 
 
 ### Overview tab
 
-Provides basic information and commands for the environment such as setting it as the default, opening an [interactive (REPL) window](interactive-window.md) with that environment, and jumping to the dialog to configure the interactive window (identical to the **Tools > Options** menu command, selecting **Python Tools > Interactive Windows** and the name of the environment).
+Provides basic information and commands for the environment such as setting it as the default, opening an [interactive (REPL) window](interactive-repl.md) with that environment, and jumping to the dialog to configure the interactive window (identical to the **Tools > Options** menu command, selecting **Python Tools > Interactive Windows** and the name of the environment).
 
 ![Python Environments overview tab](media/environments-overview-tab.png)
 
@@ -203,7 +203,7 @@ Note that one drawback to virtual environments is that they contain hard-coded f
 
 ## Managing required packages
 
-If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](projects-cloud-service.md), you'll need to specify the external packages it requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that will install the required versions of dependent packages.
+If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](template-azure-cloud-service.md), you'll need to specify the external packages it requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that will install the required versions of dependent packages.
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but PTVS provides specific support for `requirements.txt`:
 

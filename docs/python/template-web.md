@@ -52,6 +52,10 @@ When deploying to Microsoft Azure App Service, you'll need to select a version o
 
 Microsoft Azure Cloud Service, on the other hand, does support the `requirements.txt` file. [Azure Cloud Service Projects](template-azure-cloud-service.md) for details.
 
+For a walkthrough of creating and deploying a Django website using Visual Studio, see the following video:
+
+[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)
+
 ## Debugging
 
 When a web project is started for debugging, PTVS will start the web server locally and open your default browser to that address and port. TO specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
@@ -184,18 +188,3 @@ If you add the debugging `web.config` template to your project and plan to use P
 The **Convert to Microsoft Azure Cloud Service Project** command (image below) will add a Cloud Service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. You should use the **Publish** command on the cloud project to deploy to Cloud Service; the **Publish** command on the Python project will still deploy to Web Sites. See [Azure Cloud Service Projects](template-azure-cloud-service.md) for more details.
 
 ![Convert to Microsoft Azure Cloud Service Project command](media/template-web-convert-menu.png)
-
-### Tutorials
-
-The following tutorials provide examples of using PTVS to create web applications for Azure:
-
-- [Bottle and Azure Table Storage on Azure](Bottle-and-Azure-Table-Storage-on-Azure)
-- [Bottle and MongoDB on Azure](Bottle-and-MongoDB-on-Azure)
-- [Flask and Azure Table Storage on Azure](Flask-and-Azure-Table-Storage-on-Azure)
-- [Flask and MongoDB on Azure](Flask-and-MongoDB-on-Azure)
-- [Django and SQL Database on Azure](Django-and-SQL-Database-on-Azure)
-- [Django and MySQL on Azure](Django-and-MySQL-on-Azure)
-
-Also see the following walkthrough of creating and deploying a Django website using Visual Studio:
-
-[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)

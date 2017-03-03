@@ -55,6 +55,10 @@ PTVS also provides full [debugging support](debugging.md) for Django projects:
 
 ![Breakpoints](media/template-django-debugging.png)
 
+For a walkthrough of creating and deploying a Django website using Visual Studio, see the following video:
+
+[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)
+
 ## Django management console
 
 The Django management console is access through various commands on the **Project** menu or by right-clicking the project in Solution Explorer.
@@ -74,14 +78,3 @@ The Django management console is access through various commands on the **Projec
 - **Validate**: executes `manage.py validate`, which reports any validation errors in the installed models specified by `INSTALLED_APPS` in your `settings.py`:
 
     ![Console](media/template-django-console-validate.png)
-
-## Tutorials
-
-The following tutorials provides examples of using PTVS to create Django applications for Azure:
-
-- [Django and SQL Database on Azure](Django-and-SQL-Database-on-Azure)
-- [Django and MySQL on Azure](Django-and-MySQL-on-Azure)
-
-Also see the following walkthrough of creating and deploying a Django website using Visual Studio:
-
-[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)

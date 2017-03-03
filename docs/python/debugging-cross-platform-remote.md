@@ -133,6 +133,6 @@ The attach process is exactly the same as described earlier, except that, instea
 
 If you did not add the certificate to the CA root store, you will get a warning message: 
 
-![SSL certificate warning](media/remote-debuggingssl-warning.png)
+![SSL certificate warning](media/remote-debugging-ssl-warning.png)
 
 You may choose to ignore this and proceed with debugging; the channel will still be encrypted against eavesdropping, but ignoring the warning opens you to a possibility of a MITM attack.

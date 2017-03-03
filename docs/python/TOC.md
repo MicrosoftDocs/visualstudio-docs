@@ -15,7 +15,7 @@
 ### [Using IPython REPL with PTVS](interactive-repl-ipython.md)
 ## [Debugging](debugging.md)
 ### [Cross-platform Remote Debugging](debugging-cross-platform-remote.md)
-### [Azure Remote Debugging](debugging-azure-remote-debugging.md)
+### [Azure Remote Debugging](debugging-azure-remote.md)
 ### [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md)
 ### [Python/C++ Mixed-Mode Debugging](debugging-mixed-mode.md)
 ### [Symbols for Mixed-Mode Debugging](debugging-symbols-for-mixed-mode.md)
