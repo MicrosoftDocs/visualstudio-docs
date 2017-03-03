@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Using the IPython REPL
 
-The IPython interactive window is an advanced yet user-friendly interactive development environment that's cross-platform and has Interactive Parallel Computing features. In this topic we'll walk through using IPython with the Python Tools for Visual Studio (PTVS), using the [Scipy Stack package](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack) from UCI's Python Extensions page. The steps here also work if installed Anaconda, which includes IPython.
+The IPython interactive window is an advanced yet user-friendly interactive development environment that's cross-platform and has Interactive Parallel Computing features. In this topic we'll walk through using IPython with Python Tools for Visual Studio (PTVS), using the [Scipy Stack package](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack) from UCI's Python Extensions page. The steps here also work if installed Anaconda, which includes IPython.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.

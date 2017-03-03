@@ -32,11 +32,11 @@ translation.priority.ht:
 
 # Remotely Debugging Python Code
 
-Visual Studio and the Python Tools for Visual Studio (PTVS) can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPythong using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
+Python Tools for Visual Studio (PTVS) can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPythong using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
 
 When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote machine to allow TCP connections.
 
-For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](media/video-thumbnails/RemoteDebugging.png)](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
+For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
 
 ## Preparing the script for debugging
 

@@ -34,10 +34,7 @@ translation.priority.ht:
 
 Python code always runs within a particular Python *environment*, consisting of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-The Python Tools for Visual Studio (PTVS) make it easy to manage multiple Python environments and easily switch between them for different projects. An environment in PTVS also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
-
-> [!Note]
-> For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/KY1GEOo3qy0) (youtube.com, 13m27s).
+Python Tools for Visual Studio (PTVS) makes it easy to manage multiple Python environments and easily switch between them for different projects. An environment in PTVS also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
 
 Oftentimes, developers use only a single, global Python environment but others need to manage multiple global environments, project-specific environments, and perhaps also virtual environments as explained in this topic:
 
@@ -48,6 +45,8 @@ Oftentimes, developers use only a single, global Python environment but others n
 - [Virtual environments](#virtual-environments)
 - [Managing required packages](#managing-required-packages)
 - [Search paths](#search-paths)
+
+For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/KY1GEOo3qy0) (youtube.com, 13m27s).
 
 ## Selecting and installing Python interpreters
 

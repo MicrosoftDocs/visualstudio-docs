@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Django Web Project Template
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. The Python Tools for Visual Studio (PTVS) provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python Tools for Visual Studio (PTVS) provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
 
 For a walkthrough of creating and deploying a Django website using Visual Studio, see [Deep Dive: Creating a Django Website](https://youtu.be/WG3pGmoo8nE) (youtube.com, 8m58s).
 

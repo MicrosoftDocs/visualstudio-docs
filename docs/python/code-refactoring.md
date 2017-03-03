@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Refactoring Python code
 
-The Python Tools for Visual Studio (PTVS) provides several commands for automatically transforming and cleaning up your source code:
+Python Tools for Visual Studio (PTVS) provides several commands for automatically transforming and cleaning up your source code:
 
 - [Rename](#rename) renames a selected class, method, or variable name
 - [Extract method](#extract-method) creates a new method from the selected code

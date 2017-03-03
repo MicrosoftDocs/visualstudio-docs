@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Debugging Python and C++ Together
 
-Most regular Python debuggers, including the Python Tools for Visual Studio (PTVS) before version 2.0, support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required. PTVS 2.0 and later (on any Visual Studio edition) provides integrated, simultaneous mixed-mode debugging for Python and native (C/C++), with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
+Most regular Python debuggers, including Python Tools for Visual Studio (PTVS) before version 2.0, support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required. PTVS 2.0 and later (on any Visual Studio edition) provides integrated, simultaneous mixed-mode debugging for Python and native (C/C++), with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 

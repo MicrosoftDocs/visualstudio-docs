@@ -1,7 +1,7 @@
 ---
 title: "Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/14/2017"
+ms.date: "3/3/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-The Python Tools for Visual Studio (PTVS) is a free, [open-source](https://github.com/Microsoft/ptvs) extension for Visual Studio that brings the [development experience of Visual Studio](../ide/visual-studio-ide.md) to Python development. 
+Python Tools for Visual Studio (PTVS) is a free, [open-source](https://github.com/Microsoft/ptvs) extension for Visual Studio that brings the [development experience of Visual Studio](../ide/visual-studio-ide.md) to Python development. 
 
 Follow our [installation instructions](installation.md) to get set up with PTVS, then use the links below to learn more about PTVS features as well as the capabilities of Visual Studio itself.
 
@@ -49,19 +49,15 @@ Follow our [installation instructions](installation.md) to get set up with PTVS,
 | [Profiling tools with comprehensive reporting](profiling.md) | Explores how time is being spent within your application, including the ability to compare performance between different profiling runs. | [Profiling Tools](../profiling/profiling-tools.md) (not all Visual Studio profiling features are available for Python) |
 | [Unit testing tools](unit-testing.md) | Discover, run, and manage tests in Visual Studio Test Explorer, and easily debug unit tests. | [Unit Test Your Code](../test/unit-test-your-code.md) |
 
-The Python Tools for Visual Studio also include the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
+PTVS also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
 
 Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, along with the [Installation and features demo (27 min)](https://www.youtube.com/watch?v=JNNAOypc6Ek).
 
-
-> [!Tip]
-> Python is an excellent language for scientific computing. In addition to all the Python data-scientist libraries, the Python Tools for Visual Studio support IPython and IPython Notebooks, which can be hosted in Azure. We recommend obtaining IPython and scientific computing libraries (matplotlib, scipy, numpy, etc.) from [University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack).
-
 ## Features Matrix
 
-PTVS can be installed in the following editions of Visual Studio:
+PTVS can be installed in the following editions of Visual Studio as described in the [installation guide](installation.md):
 
-- (Visual Studio 2017 support coming soon)
+- [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
 - [Visual Studio 2013 Community Edition] (https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 - [Visual Studio 2013 Express for Web, Update 2 or higher](http://www.microsoft.com/en-us/download/details.aspx?id=40747)
@@ -105,7 +101,7 @@ Supported features by Visual Studio version and edition:
 | Refactor - rename | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 | Refactor - extract method | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 | Refactor - add/remove import | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
-| PYLint | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| PyLint | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 <br/>
 
 | Interactive Window | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |

@@ -1,5 +1,5 @@
 ---
-title: "Installing the Python Tools for Visual Studio | Microsoft Docs"
+title: "Installation for Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/14/2017"
 ms.prod: "visual-studio-dev15"
@@ -30,16 +30,62 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Installing the Python Tools for Visual Studio
+# Installing Python Tools for Visual Studio
 
-TODO
+To install Python Tools for Visual Studio (PTVS), follow the instructions in the section that matches your version of Visual Studio:
+
+- [Visual Studio 2017](#visual-studio-2017)
+- [Visual Studio 2015](#visual-studio-2015)
+- [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
+
+Note that for Visual Studio 2015 and earlier you need to separately install a Python interpreter of your choice. See [Python Environments](python-environments.md) for more details.
 
 > [!Tip]
-> Visual Studio 2017 includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. Learn more through the [Cookicutter documentation](https://cookiecutter.readthedocs.io/en/latest/).
+> PTVS includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. See [Using Cookiecutter](cookiecutter.md) for more details.
+
+## Visual Studio 2017
+
+1. Install the [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview). This is presently the only means to install PTVS for Visual Studio 2017.
+
+1. In the Preview installer, select the **Web & Cloud > Python Development** workload:
+
+    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
+
+1. On the right side of the installer, select the Python interpreters and other related tools you want to include.
+
+    ![Python development options in the Visual Studio installer](media/installation-python-options.png)
+
+1. Note that it is **not** necessary to install an interpreter separately.
+
+## Visual Studio 2015
+
+1. Run the Visual Studio installer through **Control Panel > Programs and Features**, selecting **Microsoft Visual Studio 2015** and then **Change**.
+
+1. In the installer, select **Modify**.
+
+1. Select **Programming Languages > Python Tools for Visual Studio** and then **Next**:
+
+    ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)    
+
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters).
+
+## Visual Studio 2013 and earlier
+
+1. Install the appropriate version of PTVS for your version of Visual Studio:
+
+    - Visual Studio 2013: [PTVS 2.2 for Visual Studio 2013](https://github.com/Microsoft/PTVS/releases/v2.2)
+    - Visual Studio 2012: [PTVS 2.1 for Visual Studio 2012](https://pytools.codeplex.com/downloads/get/920478)
+    - Visual Studio 2010: [PTVS 2.1 for Visual Studio 2010](https://pytools.codeplex.com/downloads/get/920479)
+
+1. [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters).
 
 ## PTVS install locations
 
-By default, PTVS is installed for all users on a computer. The full installation paths are as follows:
+By default, PTVS is installed for all users on a computer.
+
+For Visual Studio 2017, PTVS will be installed in `%Program Files%\Microsoft Visual Studio\2017\Preview\<VS_edition>Common7\IDE\Extensions\Microsoft\Python` where &lt;VS_edition&gr; is Community, Professional, or Enterprise.
+
+For Visual Studio 2015 and earlier, installation paths are as follows:
 
 - 32-bit:
   - Path: `%Program Files(x86)%\Microsoft Visual Studio <VS_ver>\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>`
@@ -50,8 +96,7 @@ By default, PTVS is installed for all users on a computer. The full installation
 
 where:
 
-- &lt;VS_ver&gt; is:
-    - 2017 for Visual Studio 2017
+- &lt;VS_ver&gt; is:    
     - 14.0 for Visual Studio 2015
     - 12.0 for Visual Studio 2013
     - 11.0 for Visual Studio 2012

@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Azure Cloud Service Projects for Python
 
-The Python Tools for Visual Studio (PTVS) provides templates to help you get started creating Azure Cloud Services using Python.
+Python Tools for Visual Studio (PTVS) provides templates to help you get started creating Azure Cloud Services using Python.
 
 A [Cloud Service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web Project Template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with `pip install`&nbsp;[`azure`](http://pypi.org/project/azure).
 

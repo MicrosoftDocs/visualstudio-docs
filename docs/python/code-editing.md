@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Editing Python code
 
-Developers spend a lot of their time in the code editor, so the Python Tools for Visual Studio (PTVS) provides functionality to help you be more productive, such as IntelliSense syntax highlighting, auto-completion, signature help, method overrides, and search and navigation. 
+Developers spend a lot of their time in the code editor, so Python Tools for Visual Studio (PTVS) provides functionality to help you be more productive, such as IntelliSense syntax highlighting, auto-completion, signature help, method overrides, and search and navigation. 
 
 For an introduction to editing Python code, see [Getting Started with PTVS, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m48s).
 

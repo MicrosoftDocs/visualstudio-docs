@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Installing Debugging Symbols for Python Interpreters
 
-To provide a full debugging experience, the [mixed-mode debugger](debugging-mixed-mode.md) in the Python Tools for Visual Studio (PTVS) needs to parse numerous internal data structures within the Python interpreter being used. This requires debug symbols for the interpreter itself. For example, the corresponding symbol file for python27.dll is python27.pdb.
+To provide a full debugging experience, the [mixed-mode debugger](debugging-mixed-mode.md) in Python Tools for Visual Studio (PTVS) needs to parse numerous internal data structures within the Python interpreter being used. This requires debug symbols for the interpreter itself. For example, the corresponding symbol file for python27.dll is python27.pdb.
 
 When PTVS detects that it needs symbols, it prompts you to either point to a folder containing symbol files or to download them:
 

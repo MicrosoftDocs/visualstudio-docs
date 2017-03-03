@@ -1,5 +1,5 @@
 ---
-title: "Web Project Template in the Python Tools for Visual Studio | Microsoft Docs"
+title: "Web Project Template in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/22/2017"
 ms.prod: "visual-studio-dev15"
