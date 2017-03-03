@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether a pointer type is a reference.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_reference (   
    BOOL* pRetVal  
 );  

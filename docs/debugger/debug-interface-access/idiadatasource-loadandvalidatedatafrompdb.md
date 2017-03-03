@@ -38,7 +38,7 @@ Opens and verifies that the program database (.pdb) file matches the signature i
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT loadAndValidateDataFromPdb (   
    LPCOLESTR pdbPath,  
    GUID*     pcsig70,  
@@ -83,7 +83,7 @@ HRESULT loadAndValidateDataFromPdb ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaDataSource* pSource;  // Previously created data source.  
 DEFINE_GUID(expectedGUIDSignature,0x1234,0x5678,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08);  
 DWORD expectedFileSignature = 0x12345678;  

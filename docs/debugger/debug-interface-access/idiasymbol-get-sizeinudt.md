@@ -36,7 +36,7 @@ Retrieves the size of a member of a user-defined type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_sizeInUdt(   
    DWORD* pRetVal);  
 ```  

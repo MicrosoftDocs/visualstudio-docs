@@ -38,7 +38,7 @@ Retrieves a segment by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD         index,  
    IDiaSegment** segment  

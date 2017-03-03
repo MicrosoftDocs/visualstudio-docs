@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function or label is never reached.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_notReached(  
    BOOL *pFlag  
 );  

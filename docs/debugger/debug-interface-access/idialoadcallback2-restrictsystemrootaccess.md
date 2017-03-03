@@ -38,7 +38,7 @@ Determines if searching for .pdb files is allowed in the system root directory.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictSystemRootAccess();  
 ```  
   

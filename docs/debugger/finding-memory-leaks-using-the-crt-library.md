@@ -9,10 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "breakpoints, on memory allocation"
@@ -135,7 +134,7 @@ Object dump complete.
   
  These techniques work for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the file and line number where the implementation of global `operator new` calls `_malloc_dbg` in the memory-leak report. Because that behavior is not very useful, you can change it to report the line that made the allocation by using a macro that looks like this: 
  
-```cpp  
+```C++  
 #ifdef _DEBUG
     #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
     // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
@@ -147,7 +146,7 @@ Object dump complete.
   
 Now you can replace the `new` operator by using the `DBG_NEW` macro in your code. In debug builds, this uses an overload of global `operator new` that takes additional parameters for the block type, file, and line number. This overload of `new` calls `_malloc_dbg` to record the extra information. When you use `DBG_NEW`, the memory leak reports show the filename and line number where the leaked objects were allocated. In retail builds, it uses the default `new`. (We do not recommend you create a preprocessor macro named `new`, or any other language keyword.) Here's an example of the technique:  
   
-```cpp  
+```C++  
 // debug_new.cpp
 // compile by using: cl /EHsc /W4 /D_DEBUG /MDd debug_new.cpp
 #define _CRTDBG_MAP_ALLOC

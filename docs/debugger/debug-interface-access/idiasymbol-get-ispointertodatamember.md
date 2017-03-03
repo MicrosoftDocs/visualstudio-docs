@@ -36,7 +36,7 @@ Specifies whether this symbol is a pointer to a data member.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isPointerToDataMember(   
    BOOL* pRetVal);  
 ```  

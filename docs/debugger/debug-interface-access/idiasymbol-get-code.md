@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the symbol refers to a code address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_code (   
    BOOL* pRetVal  
 );  

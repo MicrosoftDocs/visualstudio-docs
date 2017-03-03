@@ -38,7 +38,7 @@ This function retrieves a pointer to a symbol representing the parent/container 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_container(  
    IDiaSymbol **pRetVal  
 );  

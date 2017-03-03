@@ -38,7 +38,7 @@ Retrieves the type of a virtual base table pointer.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualBaseTableType(  
    IDiaSymbol *pRetVal  
 };  

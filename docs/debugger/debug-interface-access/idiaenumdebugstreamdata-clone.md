@@ -38,7 +38,7 @@ Creates an enumerator that contains the same enumerated sequence as the current 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Clone (   
    IDiaEnumDebugStreamData** ppenum  
 );  

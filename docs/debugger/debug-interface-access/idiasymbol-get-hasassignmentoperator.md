@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type has any assig
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_hasAssignmentOperator (   
    BOOL* pRetVal  
 );  

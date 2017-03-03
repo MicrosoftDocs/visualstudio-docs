@@ -38,7 +38,7 @@ Retrieves the type of the object pointer for a class method.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_objectPointerType (   
    IDiaSymbol** pRetVal  
 );  

@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type has a constru
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_constructor (   
    BOOL* pRetVal  
 );  

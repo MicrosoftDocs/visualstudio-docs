@@ -38,7 +38,7 @@ Retrieves corresponding string names for given property identifiers.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT ReadPropertyNames (  
    ULONG         cpropid,  
    PROPID const* rgpropid,  

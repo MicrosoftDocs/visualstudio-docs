@@ -38,7 +38,7 @@ Retrieves a specified number of records in the enumerated sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG  celt,  
    DWORD  cbData,  

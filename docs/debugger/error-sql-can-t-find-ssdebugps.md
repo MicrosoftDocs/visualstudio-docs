@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "SQL"
 ms.assetid: 596425c8-14c7-4c05-8823-e1c52f420f5e

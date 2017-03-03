@@ -38,7 +38,7 @@ Sets image headers to enable relative virtual address translation.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT set_imageHeaders (   
    DWORD cbData,  
    BYTE  data[],  

@@ -36,7 +36,7 @@ Returns an enumeration of symbols for inline frames that correspond to the speci
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findAcceleratorInlineeLinesByName (   
    IDiaSymbol*           parent,  
    IDiaSourceFile*       file,  

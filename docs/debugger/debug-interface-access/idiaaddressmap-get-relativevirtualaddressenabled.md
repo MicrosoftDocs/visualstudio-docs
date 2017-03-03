@@ -38,7 +38,7 @@ Indicates whether the calculation and use of relative virtual addresses (RVA) is
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddressEnabled (   
    BOOL* pRetVal  
 );  

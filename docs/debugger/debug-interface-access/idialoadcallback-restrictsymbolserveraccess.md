@@ -38,7 +38,7 @@ Determines if access is allowed to a symbol server to resolve symbols.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT RestrictSymbolServerAccess();  
 ```  
   

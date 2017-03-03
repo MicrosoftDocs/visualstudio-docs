@@ -36,7 +36,7 @@ Retrieves a flag that indicates whether the symbol corresponds to the *definitio
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isAcceleratorPointerTagLiveRange(   
    BOOL* pFlag);  
 ```  

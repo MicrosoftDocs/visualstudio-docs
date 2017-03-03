@@ -38,7 +38,7 @@ Retrieves the specified record.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD  index,  
    DWORD  cbData,  

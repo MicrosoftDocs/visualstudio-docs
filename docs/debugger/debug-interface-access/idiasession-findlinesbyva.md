@@ -38,7 +38,7 @@ Retrieves the line number information for lines contained in a specified virtual
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByVA (   
    ULONGLONG             va,  
    DWORD                 length,  
@@ -59,7 +59,7 @@ HRESULT findLinesByVA ( 
 ## Example  
  This example shows a function that obtains all line numbers contained in a function using the function's virtual address and length.  
   
-```cpp#  
+```C++  
 IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession)  
 {  
     IDiaEnumLineNumbers* pEnum = NULL;  

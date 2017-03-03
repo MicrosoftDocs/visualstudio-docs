@@ -38,7 +38,7 @@ Specifies the search options for symbol and file names.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum NameSearchOptions {   
    nsNone,  
    nsfCaseSensitive     = 0x1,  

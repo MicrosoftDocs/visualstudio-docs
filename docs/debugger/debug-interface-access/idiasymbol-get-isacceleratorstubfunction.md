@@ -36,7 +36,7 @@ Indicates whether the symbol corresponds to a top-level function symbol for a sh
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isAcceleratorStubFunction(   
    BOOL* pFlag);  
 ```  

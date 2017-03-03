@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 8f4266bc-4597-43ab-b620-8b08ea988a8e
 caps.latest.revision: 3
@@ -38,7 +38,7 @@ The code in this topic is the sample file for the [Navigate a debug session  (Xa
   
 ## Sample Code  
   
-```c#  
+```CSharp  
 public MainPage()  
 {  
     InitializeComponent();  

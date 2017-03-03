@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.callback_kerberos_auth_failed"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: c18053f9-9074-4bc3-a8bf-13e4acbea921
 caps.latest.revision: 7

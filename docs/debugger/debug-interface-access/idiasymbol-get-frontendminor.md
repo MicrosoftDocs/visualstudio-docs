@@ -38,7 +38,7 @@ Retrieves the front end minor version number.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_frontEndMinor (   
    DWORD* pRetVal  
 );  

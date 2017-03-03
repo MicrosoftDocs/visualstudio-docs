@@ -38,7 +38,7 @@ Retrieves a stack frame enumerator for a specific platform type.
   
 ## Syntax  
   
-```cpp#  
+```C++  
   
       HRESULT getEnumFrames2(   
    enum  CV_CPU_TYPE_e    cpuid,  

@@ -38,7 +38,7 @@ Retrieves a flag indicating whether the module was compiled with the [/hotpatch 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isHotpatchable(  
    BOOL *pFlag  
 );  

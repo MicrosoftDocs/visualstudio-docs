@@ -38,7 +38,7 @@ Retrieves the number of segments.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_Count (   
    LONG* pRetVal  
 );  

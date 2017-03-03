@@ -38,7 +38,7 @@ Provides an address map to support image layout translations.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT set_addressMap (   
    DWORD                     cbData,  
    struct DiaAddressMapEntry data[],  

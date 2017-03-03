@@ -38,7 +38,7 @@ Retrieves the name of the symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_name (   
    BSTR* pRetVal  
 );  
@@ -56,7 +56,7 @@ HRESULT get_name ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pType;  
 BSTR        name;  
 pType->get_name( &name );  

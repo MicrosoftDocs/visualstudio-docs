@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type is unaligned.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_unalignedType (   
    BOOL* pRetVal  
 );  

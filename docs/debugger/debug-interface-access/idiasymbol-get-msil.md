@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the symbol refers to Microsoft Intermedi
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_msil (   
    BOOL* pRetVal  
 );  

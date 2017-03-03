@@ -38,7 +38,7 @@ Sets the value of a register.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_registerValue (   
    DWORD     index,  
    ULONGLONG NewVal  

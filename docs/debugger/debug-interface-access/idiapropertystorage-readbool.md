@@ -38,7 +38,7 @@ Reads `BOOL` values in a property set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadBOOL (   
    PROPID id,  
    BOOL*  pValue  

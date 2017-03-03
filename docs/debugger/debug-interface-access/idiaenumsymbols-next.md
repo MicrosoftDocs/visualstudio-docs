@@ -38,7 +38,7 @@ Retrieves a specified number of symbols in the enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG        celt,  
    IDiaSymbol** rgelt,  
@@ -61,7 +61,7 @@ HRESULT Next ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaEnumSymbols* pEnum  
 CComPtr< IDiaSymbol> pSym;  
 DWORD celt;  

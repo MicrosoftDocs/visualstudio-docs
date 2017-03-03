@@ -36,7 +36,7 @@ Retrieves a built-in kind of the HLSL type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_buildInKind(   
    DWORD* pRetVal);  
 ```  

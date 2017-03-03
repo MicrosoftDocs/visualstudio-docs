@@ -277,7 +277,7 @@ IDiaSymbol : IUnknown
 > [!NOTE]
 >  `CDiaBSTR` is a class that wraps a `BSTR` and automatically handles freeing the string when the instantiation goes out of scope.  
   
-```cpp#  
+```C++  
 void DumpLocalVars( DWORD rva, IDiaSession *pSession )  
 {  
     CComPtr< IDiaSymbol > pBlock;  

@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.exceptions"
   - "vs.debug.exceptions.find"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 
@@ -86,7 +86,7 @@ An exception is an indication of an error state that occurs while a program is b
   
 1.  In the following C# console application, the Main method throws an **AccessViolationException** inside a `try/catch` block:  
   
-    ```c#  
+    ```CSharp  
     static void Main(string[] args)  
     {  
         try  
@@ -113,7 +113,7 @@ An exception is an indication of an error state that occurs while a program is b
   
 2.  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn’t handle it:  
   
-    ```vb  
+    ```VB  
     public class Class1  
     {  
         public void ThrowHandledException()  
@@ -137,7 +137,7 @@ An exception is an indication of an error state that occurs while a program is b
   
      Here’s the Main() method of the console application:  
   
-    ```c#  
+    ```CSharp  
     static void Main(string[] args)  
     {  
         Class1 class1 = new Class1();  
@@ -179,7 +179,7 @@ An exception is an indication of an error state that occurs while a program is b
   
  The **Exception Settings** window supports generic exception types in C# but not in Visual Basic. To break on exceptions like `MyNamespace.GenericException<T>`, you must add the exception as **MyNamespace.GenericException`1**. That is, if you have created an exception like this:  
   
-```c#  
+```CSharp  
 public class GenericException<T> : Exception  
 {  
     public GenericException() : base("This is a generic exception.")  

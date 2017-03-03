@@ -38,7 +38,7 @@ Retrieves the value of a register.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_registerValue (   
    DWORD      index,  
    ULONGLONG* pRetVal  

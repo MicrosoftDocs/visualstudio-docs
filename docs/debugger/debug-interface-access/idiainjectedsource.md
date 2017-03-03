@@ -64,7 +64,7 @@ IDiaInjectedSource : IUnknown
 ## Example  
  This example displays the data available from the `IDiaInjectedSource` interface. For an alternative approach using the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface, see the example in the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface.  
   
-```cpp#  
+```C++  
 void PrintInjectedSource(IDiaInjectedSource* pSource)  
 {  
     ULONGLONG codeLength      = 0;  

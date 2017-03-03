@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the user-defined data type is a virtual 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualBaseClass (   
    BOOL* pRetVal  
 );  

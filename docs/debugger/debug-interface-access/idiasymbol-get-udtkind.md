@@ -38,7 +38,7 @@ Retrieves the variety of a user-defined type (UDT).
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_udtKind (   
    DWORD* pRetVal  
 );  
