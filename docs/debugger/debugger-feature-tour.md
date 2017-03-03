@@ -1,7 +1,7 @@
 ---
 title: "Debugger Feature Tour | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/03/2016"
+ms.date: "03/04/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,15 +31,15 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debugger Feature Tour
+# Debugger feature tour
 
 This topic introduces the features of the Visual Studio debugger in an easy-to-follow walkthrough.
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the step-by-step instructions yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
-Although the demo app is C#, the features are applicable to C++, VB, JavaScript, and other languages supported by Visual Studio (except where noted).
+Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
-## Start the Tour!
+## Start the tour!
 
 1. To follow along these steps in Visual Studio, download the sample [on this page](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
@@ -68,7 +68,7 @@ Although the demo app is C#, the features are applicable to C++, VB, JavaScript,
 
 5. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
-## Start the Debugger by Stepping through Code
+## Start the debugger by stepping through code
 
 To debug, you need to start your app with the debugger attached to the app process.
 
@@ -91,7 +91,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      F10 advances the debugger without stepping into functions or methods in your app code. By pressing F10 on the InitializeComponent method call (instead of F11), we skipped over the implementation code for InitializeComponent (which maybe we're not interested in right now).
 
-## Set a Breakpoint
+## Set a breakpoint
 
 1. Now, in the **OnApplicationStartup** event handler, set a breakpoint by clicking in the margin to the left of the last line of code.
 
@@ -103,13 +103,13 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Breakpoints are a really useful feature when you know the line of code or the section of code that you want to examine in detail.
 
-## Restart your App Quick
+## Restart your app quickly
 
-1. Press the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
+1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
 
     When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code, similar to pressing F5 (if the code isn't executed, you won't hit the breakpoint).
 
-## Step into a Property
+## Step into a property
 
 1. With the debugger paused on this line of code:
 
@@ -148,7 +148,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when trying to debug an issue, you will be attempting to find out whether variables are storing the values that you expect them to have at a particular point of execution.
 
-## Inspect Variables with Data Tips
+## Inspect variables with data tips
 
 1. Click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again to pause the debugger on the `Add` method call.
 
@@ -163,7 +163,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     > [!TIP]
     > In most supported languages, you can edit code in the middle of a debugger session if you find something you want to change. For more info, see [Edit and Continue](../debugger/edit-and-continue.md). To use that feature in this app, we would first need to update the app's version of the .NET Framework.
 
-## Inspect Variables with the Autos and Locals Windows
+## Inspect variables with the Autos and Locals windows
 
 1. Take a look at the **Autos** window at the bottom of the code editor.
 
@@ -179,7 +179,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Currently, the `this` object and the File object (`f`) are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
-## Set a Watch
+## Set a watch
 
 1. In the main code editor window, right-click the File object (`f`) and choose **Add Watch**.
 
@@ -198,7 +198,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
-## Examine the Call Stack
+## Examine the call stack
 
 1. Click the **Call Stack** window, which is by default open in the lower right pane.
 
@@ -215,7 +215,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     You can double-click a line of code to go look at that source code (without advancing the debugger).
 
-## Change the Execution Flow
+## Change the execution flow
 
 1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow pointer on the left and move the yellow arrow pointer up one line to the `foreach` loop.
 
@@ -227,7 +227,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice! So, sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too.
 
-## Run to Cursor
+## Run to cursor
 
 1. Choose the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or Shift + F5.
 
@@ -241,7 +241,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
 
-## Step Out
+## Step out
 
 Let's say that you are done examining the `Update` method in Data.cs, then you might want to step out of the function using the **Step Out** command.
 
@@ -255,7 +255,7 @@ Let's say that you are done examining the `Update` method in Data.cs, then you m
 
 3. Press F5 to continue.
 
-## Use the Exception Helper
+## Examine an exception
 
 1. In the running app window, delete the text in the **Path** input box and select the **Change** button.
 
@@ -265,7 +265,7 @@ Let's say that you are done examining the `Update` method in Data.cs, then you m
      
      ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
-     Here, the Exception Helper shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
+     Here, the **Exception Helper** shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
 
      In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable. (Hover over `value` to see the empty string.)
 
