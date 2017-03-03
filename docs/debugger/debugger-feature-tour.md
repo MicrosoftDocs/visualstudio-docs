@@ -1,7 +1,7 @@
 ---
 title: "Debugger Feature Tour | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/03/2016"
+ms.date: "03/03/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +37,7 @@ This topic introduces the features of the Visual Studio debugger in an easy-to-f
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the step-by-step instructions yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
-Although the demo app is C#, the features are applicable to C++, VB, JavaScript, and other languages supported by Visual Studio (except where noted).
+Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
 ## Start the Tour!
 
@@ -103,9 +103,9 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Breakpoints are a really useful feature when you know the line of code or the section of code that you want to examine in detail.
 
-## Restart your App Quick
+## Restart your App Quickly
 
-1. Press the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
+1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
 
     When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code, similar to pressing F5 (if the code isn't executed, you won't hit the breakpoint).
 
