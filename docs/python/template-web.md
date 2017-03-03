@@ -34,9 +34,7 @@ translation.priority.ht:
 
 Python Tools for Visual Studio (PTVS) includes support for developing web projects in frameworks such as Bottle, Django, and Flask. This includes project templates and a debug launcher that can be configured to handle various frameworks. PTVS does not include the frameworks themselves, however, which you must install separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
 
-For a three minute introduction to Python web projects, see this video:
-
-[![Getting Started Part 6: Web sites](media/video-thumbnails/GettingStarted06Small.png)](https://youtu.be/FJx5mutt1uk?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+For an introduction to Python web projects, see [Getting Started with PTVS, Part 6: Web sites](https://youtu.be/FJx5mutt1uk?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m10s).
 
 Each template (as accessed through **File > New > Project...**) launches a web server with an randomly selected local port, opens your default browser when debugging, and allows direct publishing to [Microsoft Azure](http://www.azure.com). Templates are provided for the Bottle, Flask, and Django, and you can use the generic "Web Project" template for other frameworks such as Pyramid.
 
@@ -52,9 +50,8 @@ When deploying to Microsoft Azure App Service, you'll need to select a version o
 
 Microsoft Azure Cloud Service, on the other hand, does support the `requirements.txt` file. [Azure Cloud Service Projects](template-azure-cloud-service.md) for details.
 
-For a walkthrough of creating and deploying a Django website using Visual Studio, see the following video:
-
-[![Deep Dive: Creating a Django Website](media/video-thumbnails/DjangoAndAzure.png)](https://youtu.be/WG3pGmoo8nE)
+> [!Note]
+> For a walkthrough of creating and deploying a Django website using Visual Studio, see [Deep Dive: Creating a Django Website](https://youtu.be/WG3pGmoo8nE) (youtube.com, 8m58s).
 
 ## Debugging
 
@@ -128,9 +125,9 @@ After selecting the command, a wizard walks you through creating a web site or i
 
 When you create a site on App Service, you will need to install Python and any packages your site depends upon. You can publish your site first, but it will not run until you have configured Python.
 
-To install Python on App Service, we recommend using the [site extensions](http://www.siteextensions.net/packages?q=Tags%3A%22python%22). These are copies of the [official releases](https://www.python.org) of Python, optimized and repackaged for Azure App Service.
+To install Python on App Service, we recommend using the [site extensions](http://www.siteextensions.net/packages?q=Tags%3A%22python%22) (siteextensions.net). These are copies of the [official releases](https://www.python.org) of Python, optimized and repackaged for Azure App Service.
 
-A site extension can be deployed through the [Azure Portal](https://portal.azure.com/) on the blade for your web app:
+A site extension can be deployed through the [Azure Portal](https://portal.azure.com/) using the **Development Tools > Extensions** blade for your App Service, selecting **Add**, and scrolling the list to find those for Python:
 
 ![Add Site Extension on the Azure portal](media/template-web-site-extensions.png)
 

@@ -36,9 +36,8 @@ Python code always runs within a particular Python *environment*, consisting of 
 
 The Python Tools for Visual Studio (PTVS) make it easy to manage multiple Python environments and easily switch between them for different projects. An environment in PTVS also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
 
-For a video introduction (13m27s), see the following:
-
-[![Deep Dive: Python Interpreters](media/video-thumbnails/PythonInterpreters.png)](https://youtu.be/KY1GEOo3qy0)
+> [!Note]
+> For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/KY1GEOo3qy0) (youtube.com, 13m27s).
 
 Oftentimes, developers use only a single, global Python environment but others need to manage multiple global environments, project-specific environments, and perhaps also virtual environments as explained in this topic:
 
@@ -87,7 +86,7 @@ In the example above, we have Python 3.4 (32-bit CPython) installed along with 3
 
 PTVS normally locates an installed Python interpreter by checking the registry, it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point PTVS directly to the interpreter as follows:
 
-1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab]()#configure-tab) described below.)
+1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
     ![Default view for a new custom environment](media/environments-custom-1.png)
 
@@ -98,7 +97,7 @@ PTVS normally locates an installed Python interpreter by checking the registry, 
 1. If you need to remove the environment, select the **Remove** command on the **Configure** tab.
 
 > [!Note]
-> Although the system-site-packages option will be respected, there is no way to set or change this from within Visual Studio.
+> Although PTVS respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
 ### Overview tab
 

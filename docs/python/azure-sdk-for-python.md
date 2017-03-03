@@ -48,7 +48,7 @@ You can also follow [Install Python and the SDK](https://azure.microsoft.com/doc
 
 ## Documentation
 
-Documentation can be found at [http://azure-sdk-for-python.readthedocs.org/en/latest/index.html](http://azure-sdk-for-python.readthedocs.org/en/latest/index.html).
+Documentation can be found on [azure-sdk-for-python.readthedocs.org](http://azure-sdk-for-python.readthedocs.org/en/latest/index.html).
 
 The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials such as:
 

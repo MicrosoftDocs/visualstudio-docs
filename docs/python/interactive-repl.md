@@ -34,11 +34,9 @@ translation.priority.ht:
 
 Python Tools for Visual Studio (PTVS) provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which is what you also see if you just enter `python.exe` on the command line. The interactive window lets you to enter arbitrary Python code and see immediate results, which helps you learn and experiment with APIs, and to interactively develop working code to include in your projects.
 
-  ![Python interactive window](media/interactive-window.png)
+![Python interactive window](media/interactive-window.png)
 
-For a three minute introduction to the Python interactive Window, see the following video:
-
-[![Getting Started Part 5: Interactive](media/video-thumbnails/GettingStarted05Small.png)](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+For an introduction to the Python interactive Window, see [Getting Started with PTVS, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
 
 PTVS has a number of REPL modes to choose from:
 

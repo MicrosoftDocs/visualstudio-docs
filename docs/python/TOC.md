@@ -6,6 +6,7 @@
 ### [Publishing to Azure](publishing-to-azure.md)
 ## [Python Projects in Visual Studio](python-projects-in-visual-studio.md)
 ### [Web Project Templates](template-web.md)
+### [Django Web Project Template](template-django.md)
 ### [Azure Cloud Service Template](template-azure-cloud-service.md)
 ## [Editing Code](code-editing.md)
 ### [Formatting Code](code-formatting.md)

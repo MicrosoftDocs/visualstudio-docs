@@ -112,4 +112,4 @@ The IPython interactive window is an advanced yet user-friendly interactive deve
 
     ![IPython notebook mode](media/ipython-repl-07.png)
 
-    For a video walkthrough (5m22s), see [IPython on Windows Azure demo](http://www.youtube.com/watch?v=ljrSOkMs7DQ); refer also to the [IPython Notebook](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-jupyter-notebook) in the Azure documentation.
+    For a video walkthrough, see [IPython on Windows Azure demo](http://www.youtube.com/watch?v=ljrSOkMs7DQ) (youtube.com, 5m22s); refer also to the [IPython Notebook](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-jupyter-notebook) in the Azure documentation.

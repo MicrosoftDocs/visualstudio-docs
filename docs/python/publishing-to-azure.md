@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Publishing to Azure App Service from Python Tools for Visual Studio
 
-You can get started quickly building a Python web site in Visual Studio and publish it to Azure App Service. A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com).  
+You can get started quickly building a Python web site in Visual Studio and publish it to Azure App Service. A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).  
 
 ## Create an Azure subscription
 
@@ -87,4 +87,4 @@ To create a temporary site in Azure App Service without needing an Azure subscri
  
 ## Additional resources
 
-For a walkthrough of a richer web application, see [Visual Studio Python Tutorial Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com). 
+For a walkthrough of a richer web application, see [Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com, 8m58s). 

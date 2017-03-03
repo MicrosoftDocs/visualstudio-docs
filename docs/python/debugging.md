@@ -34,9 +34,7 @@ translation.priority.ht:
 
 Visual Studio with the Python Tools for Visual Studio (PTVS) provide a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more. 
 
-For a debugging overview see the following video (3m30s):
-
-[![Getting Started with PTVS Part 4: Debugging](media/video-thumbnails/GettingStarted04Small.png)](https://youtu.be/bO7wpzgy74A?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+For a debugging overview, see [Getting Started with PTVS, Part 4: Debugging](https://youtu.be/bO7wpzgy74A?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m30s).
 
 In this topic:
 
@@ -69,7 +67,7 @@ A debugging session starts with the **Debug > Start Debugging** command, the **S
 
 Breakpoints stop execution of code at a marked point so you can inspect the program state. They're set by clicking in the left margin of the code editor or by right-clicking a line of code and selecting **Breakpoint > Insert Breakpoint**. A red dot appears on each line with a breakpoint.
 
-    ![Breakpoints in Visual Studio](media/debugging-breakpoints.png)
+![Breakpoints in Visual Studio](media/debugging-breakpoints.png)
 
 Clicking the red dot or right-clicking the line of code and selecting **Breakpoint > Delete Breakpoint** removes the breakpoint. You can also disable it without removing it using the **Breakpoint > Disable Breakpoint** command.
 
@@ -80,19 +78,21 @@ You can customize the conditions under which a breakpoint is triggered, such as 
 
 When setting conditions, you can also set **Action** and create a message to log to the output window, optionally continuing execution automatically. This creates what is called a *tracepoint* without having to introduce logging code into your application directly:
 
-    ![Creating a tracepoint with a breakpoint](media/debugging-tracepoint.png)
+![Creating a tracepoint with a breakpoint](media/debugging-tracepoint.png)
 
 ### Stepping through code
 
 Once stopped at a breakpoint, you have various ways to step through code or run blocks of code before breaking again. These commands are available in a number of places, including the top debug toolbar, the **Debug** menu, on the right-click context menu in the code editor, and through keyboard shortcuts (through not all commands are in all places):
 
-- **Continue** (F5): runs code until the next breakpoint is reached.
-- **Step Into** (F11): runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called.
-- **Step Over** (F10): runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug.
-- **Step Out** (Shift+F11): runs code until the end of the current function, then steps to the calling statement. This is useful when you don't need to debug the remainder of the current function.
-- **Run to Cursor** (Ctrl+F10): runs code up to the location of the caret in the editor. This allows you to easily skip over a segment of code that you don't need to debug.
-- **Set Next Statement** (Ctrl+Shift+F10): changes the current run point in the code to the location of the caret. This allows you to omit a segment of code from being run at all, such as when you know it's faulty or produces and unwanted side-effect.
-- **Show Next Statement** (Alt+Num *): if you've been looking around in your code and don't know where the debugger is actually stopped, this command returns you to that point.
+| Feature | Keystroke | Description |
+| --- | --- | --- |
+| Continue | F5 | Runs code until the next breakpoint is reached. |
+| Step Into | F11 | Runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called. |
+| Step Over | F10 | Runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug. |
+| Step Out | Shift+F11 | Runs code until the end of the current function, then steps to the calling statement. This is useful when you don't need to debug the remainder of the current function. |
+| Run to Cursor | Ctrl+F10 | Runs code up to the location of the caret in the editor. This allows you to easily skip over a segment of code that you don't need to debug. |
+| Set Next Statement | Ctrl+Shift+F10 | Changes the current run point in the code to the location of the  caret. This allows you to omit a segment of code from being run at all, such as when you know it's faulty or produces and unwanted side-effect. |
+| Show Next Statement | Alt+Num * | Returns you to the next statement that will be run. This is very helpful if you've been looking around in your code and don't know where the debugger is actually stopped. |
 
 ### Inspecting and modifying values
 
@@ -100,27 +100,27 @@ When stopped in the debugger, you can inspect and modify the values of variables
 
 To view a value using DataTips, simply hover the mouse over any variable in the editor. You can click on the value to change it:
 
-    ![DataTips in the debugger](media/debugging-quick-tips.png)
+![DataTips in the debugger](media/debugging-quick-tips.png)
 
 The Autos window (**Debug > Windows > Autos**) contains variables and expressions that are close to the current statement. You can double-click in the value column or select and press F2 to edit the value:
 
-    ![Autos window in the debugger](media/debugging-autos-window.png)
+![Autos window in the debugger](media/debugging-autos-window.png)
 
 The Locals window (**Debug > Windows > Locals**) displays all variables that are in the current scope, which can again be edited:
 
-    ![Locals window in the debugger](media/debugging-locals-window.png)
+![Locals window in the debugger](media/debugging-locals-window.png)
 
 For more on using Autos and Locals, see [Inspecting Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
 The Watch windows (**Debug > Windows > Watch > Watch 1-4**) allow you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
-    ![Watch window in the debugger](media/debugging-watch-window.png)
+![Watch window in the debugger](media/debugging-watch-window.png)
 
 For more on using Watch, see [Setting a Watch on Variables using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
 
 When inspected a string value(`str`, `unicode`, `bytes` and `bytearray` are all considered strings for this purpose), you'll see a magnifying glass icon on the right side of the value. Clicking this displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, clicking on the drop-down arrow on the icon will allow you to select plain text, HTML, XML, and JSON visualizations:
 
-    ![String visualizers](media/debugging-string-visualizers.png)
+![String visualizers](media/debugging-string-visualizers.png)
 
 HTML, XML, and JSON visualizations appear in separate popup windows with syntax highlighting and tree views.
 
@@ -128,13 +128,13 @@ HTML, XML, and JSON visualizations appear in separate popup windows with syntax 
 
 If an error occurs while your program is being debugged, and you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
-    ![Exception popup](media/debugging-exception-popup.png)
+![Exception popup](media/debugging-exception-popup.png)
 
 At this poin tyou can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception will continue being thrown until it is either handled or your program exits.
 
 The **Debug > Windows > Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
-    ![Exceptions window](media/debugging-exception-settings.png)
+![Exceptions window](media/debugging-exception-settings.png)
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. You should check this box when you want to break more often for a particular exception.
 
@@ -146,24 +146,28 @@ To configure an exception that does not appear in this list, click the **Add** b
 
 By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. These can be changed through the project's debug properties accessed by right-clicking your project in Solution Explorer, selecting **Properties**, and selecting the **Debug** tab.
 
-    ![Project debug properties](media/debugging-project-properties.png)
+![Project debug properties](media/debugging-project-properties.png)
 
 ### Launch mode options
 
 The **Launch mode** options lets you choose between the following options, which enable different scenarios:
 
-- Standard Python launcher: uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. 
-- Web launcher: starts your default browser on launch and enables debugging of templates. See the [Web template debugging](template-web.md#debugging) section for more information.
-- Django Web launcher: identical to the Web launcher and shown only for backwards compatibility
-- IronPython (.NET) launcher: uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython.
+| Option | Description |
+| --- | --- |
+| Standard Python launcher | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
+| Web launcher | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](template-web.md#debugging) section for more information. |
+| Django Web launcher | Identical to the Web launcher and shown only for backwards compatibility. |
+| IronPython (.NET) launcher | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
 
 ### Run options (search paths, startup arguments, and environment variables)
 
-- Search Paths: These match what's shown in the project's Search Paths node in Solution Explorer. You can modify this value here, but it's easuer to use Solution Explorer that lets you browse folders and automatically converts paths to relative form.
-- Script Arguments: These are added to the command used to launch your script, appearing after your script's filename. The first item here will be available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on.
-- Interpreter Arguments: These are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`.
-- Interpreter Path: Overrides the path associated with the current environment. This may be useful for launching your script with a non-standard interpreter.
-- Environment Variables: In this multi-line text box, add entries of the form `NAME=VALUE`. This setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, and so it can be used to manually override any of those.
+| Option | Description |
+| --- | --- |
+| Search Paths | These match what's shown in the project's Search Paths node in Solution Explorer. You can modify this value here, but it's easuer to use Solution Explorer that lets you browse folders and automatically converts paths to relative form. |
+| Script Arguments | These are added to the command used to launch your script, appearing after your script's filename. The first item here will be available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
+| Interpreter Arguments | These are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
+| Interpreter Path | Overrides the path associated with the current environment. This may be useful for launching your script with a non-standard interpreter. |
+| Environment Variables | In this multi-line text box, add entries of the form `NAME=VALUE`. This setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, and so it can be used to manually override any of those. |
 
 ## Immediate and interactive windows
 
@@ -173,7 +177,7 @@ The Immediate window (**Debug > Windows > Immediate**) is used for quick evaluat
 
 The Python Debug Interactive window (**Debug > Windows > Python Debug Interactive**) is richer as it makes the full [Interactive REPL](interactive-repl.md) experience available while debugging, including writing and running code. It automatically connects to any process started in the debugger using the Standard Python launcher (including processes attached through **Debug > Attach to Process*). It's not, however, available when using mixed-mode C/C++ debugging.
 
-    ![Python Debug Interactive window](media/debugging-interactive.png)
+![Python Debug Interactive window](media/debugging-interactive.png)
 
 The Debug Interactive window supports special meta-commands in addition to the [standard REPL commands](interactive-repl.md#meta-commands):
 
@@ -200,4 +204,4 @@ Note that the standard debugger windows such as Processes, Threads and Call Stac
 
 The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools >Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged.
 
-    ![Debug Interactive Window Options](media/debugging-interactive-options.png)
+![Debug Interactive Window Options](media/debugging-interactive-options.png)
