@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Refactoring Features (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,7 +48,8 @@ Refactoring is the process of improving your code after it has been written by c
 * [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
 * [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
 * [Rename](refactoring/rename.md)
- 
+* [Sync Type and Filename](refactoring/sync-type-and-file.md)
+
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
  

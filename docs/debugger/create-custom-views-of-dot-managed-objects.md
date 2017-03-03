@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.data.elements"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "data types [C#], custom"

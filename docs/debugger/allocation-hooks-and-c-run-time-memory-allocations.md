@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.hooks"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [C++], hook functions"

@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "RPC (Remote Procedure Call), debugging COM clients and servers"

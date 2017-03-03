@@ -58,9 +58,9 @@
           - name: DIA SDK
             tocHref: /visualstudio/debugger/debug-interface-access/
             topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
-          - name: Profiling
-            tocHref: /visualstudio/profiling/
-            topicHref: /visualstudio/profiling/profiling-tools
+        - name: Profiling
+          tocHref: /visualstudio/profiling/
+          topicHref: /visualstudio/profiling/profiling-tools
         - name: Testing
           tocHref: /visualstudio/test/
           topicHref: /visualstudio/test/improve-code-quality
@@ -89,4 +89,15 @@
       - name: Python
         tocHref: /visualstudio/python/
         topicHref: /visualstudio/python/getting-started-with-python
+      - name: Office and SharePoint
+        tocHref: /visualstudio/vsto/
+        topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio
+        items:
+        - name: SharePoint
+          tocHref: /visualstudio/sharepoint/
+          topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
+        - name: VSTO 
+          tocHref: /visualstudio/vsto/
+          topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+
 

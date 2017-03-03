@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_Ribbon_Custom_Tab">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Trin_Ribbon_Custom_Tab.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Trin_Ribbon_Custom_Tab.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="16:24 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_Ribbon_Custom_Tab.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Custom_Tab.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Custom_Tab.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl2.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl2.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl2.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="MyRibbon.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\MyRibbon.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="MyRibbon.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\MyRibbon.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet2.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet2.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet2.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet3.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet3.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet3.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet3.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ThisWorkbook.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ThisWorkbook.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ThisWorkbook.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ThisWorkbook.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\Trin_Ribbon_Custom_Tab_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="ActionsPaneControl2.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\ActionsPaneControl2.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="MyRibbon.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Custom_Tab\VB\Backup\MyRibbon.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Custom_Tab.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_Ribbon_Custom_Tab.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Custom_Tab" Source="Trin_Ribbon_Custom_Tab.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

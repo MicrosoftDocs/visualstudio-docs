@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <!-- This section defines project level properties.
+         
+         Configuration : Specifies a default value for debug.
+         Platform : Specifies what CPU the output of this project can run on.
+         OutputType : Must be "Library" for VSTO.
+         NoStandardLibraries : Set to "false" for VSTO.
+         RootNamespace : In C#, this specifies the namespace given to new files. In VB, all objects are wrapped in
+                         this namespace at runtime.
+         AssemblyName : Name of the output assembly. -->
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4504B91-6791-42A5-86DF-06B35C432D22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Trin_RibbonImageControl</RootNamespace>
+    <AssemblyName>Trin_RibbonButtons</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OfficeApplication>Word</OfficeApplication>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>F0F8CA9ADA6289965A57B1825E86E27190BEDC6C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Trin_RibbonButtons_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>true</SignManifests>
+    <TargetFrameworkProfile />
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>Trin_RibbonButtons</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>Trin_RibbonButtons</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- 
+        VSTO_TrustAssembliesLocation - If true, VSTO gives the project output full trust in user-
+              level policy when the project is built.
+        VSTO_HostDocumentName - Not used in addins.
+    -->
+    <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!--
+        properites needed to register addins
+        AddinRegistryHive - Root registry hive for the addin
+        AddinRegistryKey  - Registry key where this addin is registered
+    -->
+    <AddinRegistryHive>CurrentUser</AddinRegistryHive>
+    <AddinRegistryKey>Software\Microsoft\Office\Word\Addins</AddinRegistryKey>
+  </PropertyGroup>
+  <!-- This section defines properties that are set when the "Debug" configuration is 
+       selected. 
+       DebugSymbols - If true, create symbols (.pdb). If false, do not create symbols.
+       Optimize - If true, optimize the build output. If false, do not optimize.
+       OutputPath - Output path of project relative to the project file.
+       EnableUnmanagedDebugging - If true, starting the debugger will attach both managed and unmanaged debuggers.
+       DefineConstants - Constants defined for the preprocessor.
+       Warning Level - Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <!-- This section defines properties that are set when the "Release" configuration is 
+       selected.
+       DebugSymbols - If true, create symbols (.pdb). If false, do not create symbols.
+       Optimize - If true, optimize the build output. If false, do not optimize.
+       OutputPath - Output path of project relative to the project file.
+       EnableUnmanagedDebugging - If true, starting the debugger will attach both managed and unmanaged debuggers.
+       DefineConstants - Constants defined for the preprocessor.
+       Warning Level - Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <!-- This section enables pre and post build steps. However, 
+       in VSTO use MSBuild tasks instead of these properties.       
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!--
+     This sections specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Word, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Word.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Accessibility" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <!--
+     This section specifies COM References for the project (managed assemblies that wrap unmanaged
+     typelibs (tlb)). This is the equivalent of choosing "Add Reference->Com Reference" in the 
+     IDE.
+  -->
+  <!-- Visual Basic supports Importing namespaces (equivalent to using statements in C#-->
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="Microsoft.VisualStudio.Tools.Applications.Runtime" />
+    <Import Include="Word=Microsoft.Office.Interop.Word" />
+    <Import Include="Office = Microsoft.Office.Core" />
+  </ItemGroup>
+  <!--
+     This section defines the user source files that are part of the
+     project.
+     
+     A compile tag specifies a source file to compile.
+     An EmbeddedResource tag specifies an .resx file for embedded resources.
+     A None tag specifies a file that is not to be passed to the compiler (for instance, 
+     a text file or XML file).
+     The AppDesigner tag specifies the directory where the application properties files can
+     be found.
+  -->
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+    <Compile Include="MyRibbon.vb">
+    </Compile>
+    <Compile Include="ThisAddIn.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.vb</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.vb">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Trin_RibbonButtons_TemporaryKey.pfx" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyRibbon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Office.PIARedist.2007">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Office 2007 Primary Interop Assemblies</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <!-- Include the build rules for a VB project.-->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- Include additional build rules for an office application addin -->
+  <!-- This section defines VSTO properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Word" HostPackage="{20A848B8-E01F-4801-962E-25DB0FF57389}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="Word" Language="vb" TemplatesPath="VSTOTemplates" DebugInfoExeName="#Software\Microsoft\Office\14.0\Word\InstallRoot\Path#WinWord.exe" AddItemTemplatesGuid="{2606E7C9-5071-4B63-9A83-C66A32B1669F}" />
+        <Host Name="Word" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.vb" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.vb" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

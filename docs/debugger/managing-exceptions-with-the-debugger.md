@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.exceptions"
   - "vs.debug.exceptions.find"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 

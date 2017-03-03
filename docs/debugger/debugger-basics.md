@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "VB"
 helpviewer_keywords: 
   - "debugging [Visual Studio]"

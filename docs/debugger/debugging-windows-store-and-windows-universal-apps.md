@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 5

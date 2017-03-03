@@ -31,8 +31,9 @@ translation.priority.ht:
 # Go To
 There are many ways to easily navigate your code inside of the Visual Studio IDE, both from the keyboard and the mouse.
 
+<!-- VERSIONLESS -->
 ## Go To All
-Navigate through your code to find the specific bits you are looking for.  You can search for a specific line, type, symbol, file, and more from a simple interface.
+This feature exists in Visual Studio 2017 and later.  It allows you to navigate through your code to find the specific bits you are looking for.  You can search for a specific line, type, symbol, file, and more from a simple, unified interface.
 
 ### How to use
 * **Keyboard**
@@ -77,6 +78,7 @@ Setting | Description
 Use preview tab | Display the selected item immediately in the IDE's preview tab
 Show details    | Display project, file, line and summary information from documentation comments in the window
 Center window   | Move this window to the center of the IDE instead of the top-right
+<!-- END VERSIONLESS -->
 
 ## Go To Definition
 Navigate to the source of a type and open the result in a new tab:

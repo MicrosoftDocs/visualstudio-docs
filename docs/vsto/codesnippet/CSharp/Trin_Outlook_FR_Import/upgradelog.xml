@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_Outlook_FR_Import">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Trin_Outlook_FR_Import.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Trin_Outlook_FR_Import.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:50 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_Outlook_FR_Import.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Import.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Trin_Outlook_FR_Import.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Import.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Trin_Outlook_FR_Import.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Trin_Outlook_FR_Import.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Trin_Outlook_FR_Import.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="TaskFormRegion.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\TaskFormRegion.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="TaskFormRegion.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\TaskFormRegion.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="TaskFormRegion.ofs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\TaskFormRegion.ofs">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Trin_Outlook_FR_Import_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="TaskFormRegion.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Import\CS\Backup\TaskFormRegion.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Import.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_Outlook_FR_Import.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Import" Source="Trin_Outlook_FR_Import.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crt"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "_CRTDBG_MAP_ALLOC macro"

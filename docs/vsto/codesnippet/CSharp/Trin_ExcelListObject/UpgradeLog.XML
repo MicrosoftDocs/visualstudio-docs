@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ExcelListObject">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Trin_ExcelListObject.sln">
+</Property><Property Name="Date" Value="Friday, August 10, 2007">
+</Property><Property Name="Time" Value="11:31 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Trin_ExcelListObject.sln" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.sln">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.csproj" Description="Project file successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet2.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet2.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet2.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet3.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet3.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet3.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet3.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="ThisWorkbook.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\ThisWorkbook.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="ThisWorkbook.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\ThisWorkbook.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.xls" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.xls">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.Designer.xml" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Trin_ExcelListObject.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Sheet1.resx" Description="File successfully backed up as C:\Documents and Settings\normesta\Desktop\Trin_ExcelListObject\CS\Backup\Sheet1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelListObject.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ExcelListObject.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelListObject" Source="Trin_ExcelListObject.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
