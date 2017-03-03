@@ -177,24 +177,26 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     ![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals Window")
 
-    Currently, the `this` object and the File object (`f`) are in scope.
+    Currently, the `this` object and the File object (`f`) are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
 ## Set a Watch
 
-1. Right-click the File object (`f`) and choose **Add Watch**.
+1. In the main code editor window, right-click the File object (`f`) and choose **Add Watch**.
 
     You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
     Now, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
     
     > [!TIP]
-    > If you need to track the value of the variable even when it's out of scope, in C# you can **Create an Object ID** for it using the **Watch** window.
+    > If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose **Create an Object ID**.
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 
     ![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch Window")
 
-    You might also see the first picture get added to the main window of the sample app, but this happens on the UI thread, so images may not be visible yet.
+    You might also see the first picture get added to the main window of the running sample app, but this happens on the UI thread, so images may not be visible yet.
+
+    For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
 ## Examine the Call Stack
 
@@ -209,13 +211,13 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     The call stack is a good way to examine and understand the execution flow of an app.
 
-    You can use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code.
+    You can use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
 
-    You can also double-click a line of code to go look at that source code (without advancing the debugger).
+    You can double-click a line of code to go look at that source code (without advancing the debugger).
 
 ## Change the Execution Flow
 
-1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow pointer on the left and move the yellow arrow pointer up one line to the foreach loop.
+1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow pointer on the left and move the yellow arrow pointer up one line to the `foreach` loop.
 
      ![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
@@ -223,7 +225,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. Now, press F5.
 
-    You can see the images added to the app window. Because you changed the execution flow in the foreach loop, some of the images have been added twice! So, sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too.
+    You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice! So, sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too.
 
 ## Run to Cursor
 
