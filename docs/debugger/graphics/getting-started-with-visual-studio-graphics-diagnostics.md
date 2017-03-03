@@ -32,8 +32,8 @@ translation.priority.ht:
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.  
   
 ## Requirements  
- To use Graphics Diagnostics in Visual Studio, you must use Visual Studio Enterprise, Visual Studio Professional, or Visual Studio Community.  Other editions, including Visual Studio Code, do not contain this feature.  Visual Studio 2015 will work with versions of Direct3D up to and including 11.2, however Visual Studio 2017 or greater is required to work with Direct3D 12.
-  
+ To use Graphics Diagnostics in Visual Studio, you must use Visual Studio Enterprise, Visual Studio Professional, or Visual Studio Community.  Other editions, including Visual Studio Code, do not contain this feature.
+ 
  [!INCLUDE[downloadvs](../includes/downloadvs_md.md)]  
   
 ### Windows 10 prerequisites  
@@ -98,7 +98,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 -   In Visual Studio, in the diagnostic session window, set **Frames to capture** to the number of frames you want to capture in sequence, then capture the sequence by using any of the methods you described above to capture single frames.  
   
-     To capture single frames again, set **Frames to capture** to `1`.  
+     To capture single frames again, set **Frames to capture** to *1*.  
   
  When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
   

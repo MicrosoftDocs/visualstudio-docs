@@ -42,7 +42,9 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 ## Understanding the Graphics Object Table  
  By using the Object Table, you can analyze the Direct3D objects that support the rendering of a particular frame. You can pinpoint a rendering problem to a specific object by examining its properties and data (by using other Graphics Diagnostics tools earlier in your diagnosis, you can narrow the list of objects that might not be what you expect.) When you've found the offending object, you can use a visualization that's specific to its type to examine it—for example, you can use the Image Editor to view textures, or the *Buffer Visualizer* to view buffer contents.  
   
- The Object Table supports copy and paste so that you can use another tool—for example, Microsoft Excel—to examine its contents.  
+ The Object Table supports copy and paste so that you can use another tool—for example, Microsoft Excel—to examine its contents.
+
+ Additionally, you can use the **Type** dropdown at the top left corner to toggle viewing objects of type **Buffers**, **Shaders** or **Textures**, or all of these items at once.  Also, you can use the search box at the top right corner to find specific rows across all of the data that is presented.  For example, you could search for *D32_FLOAT* to find all instances of objects of that format in the list.
   
 ### Graphics Object Table format  
  The Object Table displays the Direct3D objects and resources that support the frame that's associated with the selected event—for example, state objects, buffers, shaders, textures, and other resources. Objects that were created in a previous frame but are not used during the captured frame are omitted from the object table. Objects that have been destroyed by previous events during the captured frame are omitted in subsequent events. Objects that are not set on the D3D10Device or D3D11DeviceContext are displayed as gray text. Objects are displayed in a table format.  

@@ -127,9 +127,9 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
   
  In the Pipeline Stages window, output merger output is visualized as a full-color raster image. To take a closer look at the results, select **Output Merger** in the **Graphics Pipeline Stages** window to view the merged framebuffer.  
   
-### Vertex shader preview  
- When you select the vertex shader stage in the **Graphics Pipeline Stages** window, the **Input Buffers** panel is displayed. Here, you'll find details about the list of vertices supplied to the vertex shader after they have been assembled by the input assembler stage.  
-  
+### Vertex and Geometry shader preview  
+ When you select the vertex or geometry shader stage in the **Pipeline Stages** window, you can view the inputs to and outputs from the shader in the panel below.  Here, you'll find details about the list of vertices supplied to the shaders after they have been assembled by the input assembler stage.  
+
  ![The vertex shader stage input buffer viewer](media/gfx_diag_vertex_shader_inbuffers.png)  
   
  To view the result of the vertex shader stage, choose the Vertex Shader stage thumbnail to view a full-size, rasterized wireframe of the mesh after its been transformed by the vertex shader.  
