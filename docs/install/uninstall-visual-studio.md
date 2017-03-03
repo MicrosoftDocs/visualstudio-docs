@@ -38,19 +38,19 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 1.  Find the Visual Studio installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **M**, where you’ll see it listed as **Microsoft Visual Studio Installer**.  
+     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
 
-     ![00-ModifyingDev15Prev5-FindTheVisualStudioInstaller](../install/media/00-modifyingdev15prev5-findthevisualstudioinstaller.png)
+     ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
-2.  Click to start the installer, click the ![Details icon](media/vs2017uninstall-UninstallIcon.png) icon, and then click **Uninstall**.  
+2.  Click to start the installer, click the ![Details icon](media/vs2017uninstall-UninstallIcon.png "Select the Options icon") icon, and then click **Uninstall**.  
 
-     ![Modifying Visual Studio 2017; Modify, Launch, Repair, or Uninstall](media/vs2017uninstall-ChooseUninstallFromInstaller.png "Repair or Uninstall Visual Studio 2017")  
+     ![Modifying Visual Studio 2017; Modify, Launch, Repair, or Uninstall](media/vs2017-uninstall.PNG "Repair or Uninstall Visual Studio 2017")  
 
 3.  Click **OK** to confirm your choice.
 
-     ![Modifying Visual Studio 2017; Uninstall product](media/vs2017uninstall-UninstallConfirm.png "Confirm to uninstall Visual Studio 2017")  
+     ![Modifying Visual Studio 2017; Uninstall product](media/vs2017-uninstall-confirm.PNG "Confirm to uninstall Visual Studio 2017")  
 
-If you change your mind later and want to reinstall Visual Studio 2017, simply start the Visual Studio installer again, and then click **Install** from the selection screen.
+If you change your mind later and want to reinstall Visual Studio 2017, simply start the Visual Studio installer again, and then select **Install** from the selection screen.
 
 ## See also  
 * [Install Visual Studio](install-visual-studio.md)

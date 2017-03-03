@@ -1,7 +1,7 @@
 ---
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: ""
+ms.custom: "H1Hack27Feb2017"
 ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,19 +44,19 @@ Here's how.
 
 1.  Find the Visual Studio installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
+     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
-2.  Click to start the installer, and then click **Modify**.  
+2.  Click or tap to start the installer, and then select **Modify**.  
 
-     ![Launch or modify Visual Studio](media/vs2017-workloads.PNG "Launch or modify Visual Studio 2017")  
+     ![Launch or modify Visual Studio](media/vs2017-modify.PNG "Modify Visual Studio 2017")  
 
-3.  From the **Workloads** screen, click to select or deselect the workloads that you want to install or uninstall.  
+3.  From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.  
 
-    ![Visual Studio 2017 RC Setup Dialog](media/vs2017modify-ChooseWorkload.png "Choose a workload in Visual Studio 2017")
+    ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
 
-4. Click **Modify**.  
+4. Click or tap **Modify** again.  
 
 5. After the new workloads and components are installed, click **Launch**.
 
