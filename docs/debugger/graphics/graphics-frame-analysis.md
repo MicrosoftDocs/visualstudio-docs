@@ -168,8 +168,8 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 > [!NOTE]
 >  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  
   
-### Windows phone  
- Timestamps, occlusion queries, and GPU hardware counters are only supported on Windows Phone handsets that originally shipped with Windows Phone 8.1. Frame Analysis requires these in order to play back the graphics log file. Windows Phone handsets that were originally shipped with Windows Phone 8 do not support Frame Analysis, even for handsets that have been updated to Windows Phone 8.1.  
+### Windows Phone  
+ Timestamps, occlusion queries, and GPU hardware counters are only supported on Windows Phone handsets that originally shipped with Windows Phone 8.1 or Windows Phone 10. Frame Analysis requires these in order to play back the graphics log file. Windows Phone handsets that were originally shipped with Windows Phone 8 do not support Frame Analysis, even for handsets that have been updated to Windows Phone 8.1 or Windows Phone 10.  
   
 ## Unsupported scenarios  
  Certain ways of using frame analysis are unsupported or are just a bad idea.  
