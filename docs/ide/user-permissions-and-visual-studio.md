@@ -81,5 +81,5 @@ For reasons of security you should run Visual Studio as a normal user whenever p
      When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.  
   
 ## See Also  
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrating-and-upgrading-visual-studio-projects.md)   
  [Install Visual Studio](../install/install-visual-studio.md)

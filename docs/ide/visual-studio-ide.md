@@ -216,5 +216,5 @@ Microsoft Visual Studio 2017 RC is a suite of tools for creating software, from 
  [Installing Visual Studio 2017 RC](../install/install-visual-studio.md)   
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
  [What's New in Visual Studio 2017 RC](../ide/whats-new-in-visual-studio.md)   
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrating-and-upgrading-visual-studio-projects.md)   
  [Talk to Us](../ide/talk-to-us.md)
