@@ -88,6 +88,7 @@
 ### [Toolbox, Components Tab](toolbox-components-tab.md)
 ### [Toolbox, Data Tab](toolbox-data-tab.md)
 ### [Toolbox, HTML Tab](toolbox-html-tab.md)
+## [XAML Designer options page](xaml-designer.md)
 # [Devenv Command Line Switches](devenv-command-line-switches.md)
 ## [-? (devenv.exe)](q-devenv-exe.md)
 ## [-Build (devenv.exe)](build-devenv-exe.md)

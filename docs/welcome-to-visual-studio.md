@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Visual Studio 2017 RC | Microsoft Docs"
+title: "Welcome to Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "03/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -10,7 +10,7 @@ f1_keywords:
   - "msdnstart"
 helpviewer_keywords:
   - "Visual Studio"
-  - "Visual Studio 2017 RC"
+  - "Visual Studio 2017"
 ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 125
 author: "kempb"
@@ -32,22 +32,20 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Welcome to Visual Studio 2017 RC
-Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one integrated development environment (IDE). Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
+# Welcome to Visual Studio 2017!
+We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, Linux, Windows, and others in one integrated development environment (IDE). Get great interactive code help (*IntelliSense*), easy code navigation and debugging, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
 
 > [!NOTE]
->  Click here for release notes for [Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=834799).    
+>  Click here for release notes for [Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=834799).    
 
- Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](http://www.visualstudio.com).)  
+ Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure to install the optional packages. If you need more features, check out [other editions of Visual Studio](http://www.visualstudio.com).
 
- You can install Visual Studio 2017 RC by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223). Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get more familiar with the tools.  
+ You can install Visual Studio 2017 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223). Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get more familiar with the tools.
 
- And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly! Check out the many Visual Studio videos on [Channel 9](https://channel9.msdn.com/VisualStudio).
+ And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly! Check out the many free Visual Studio videos available on [Channel 9](https://channel9.msdn.com/VisualStudio) and [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!jobf=Developer&lang=1033).
 
-## Build apps and games for Android, iOS, and Windows  
- You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md).  
-
- For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps).  
+## Build cross-platform apps and games  
+ You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md).  Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
 
  Choose the tools you need based on your app requirements and the language you want to use.  
 
@@ -63,14 +61,16 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 [Create games using Visual Studio](https://www.visualstudio.com/vs/game-development/) with game development tools such as DirectX, Unity, Unreal, Cocos, and more.
 
-## Connect your apps to services  
- You can connect to services out of the box (assuming that you have an account for each service):  
+## Connect your apps to cloud services  
+ If you have online account services such as Azure, you can connect to them out of the box by using Connected Services.
 
 - [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)  
 
 - [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)  
 
-You can install [Azure development tools](https://azure.microsoft.com/en-us/tools/) to create cloud-powered apps directly from the IDE and connect to Azure services.
+When you install Visual Studio, you can optionally install the **Azure Development** workload to get Azure SDK for .NET. These tools enable you to connect to Azure services, as well as letting you create and manage cloud-powered apps and resources directly from the IDE.
+
+- [HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users.
 
 In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
@@ -80,7 +80,7 @@ In addition, you can integrate Office 365 REST APIs into your own app to connect
 ## Build, test, and manage your code  
 
 ### Check in your code  
- If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with [Git](https://www.visualstudio.com/en-us/docs/git/overview) or [TFVC (Team Foundation Version Control)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
+ If you work on a team, you need to share the latest versions of the code so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with [Git](https://www.visualstudio.com/en-us/docs/git/overview) or [TFVC (Team Foundation Version Control)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
 
  Use [Visual Studio Team Services](https://www.visualstudio.com/team-services/) to store your code in the cloud with no maintenance of a local server. Use [Team Foundation Server](https://www.visualstudio.com/tfs/) if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. Learn about which version control system is best for your needs: [Choosing the right version control for your project](https://www.visualstudio.com/en-us/docs/tfvc/comparison-git-tfvc).  
 
@@ -102,7 +102,7 @@ Learn about what's new in Visual Studio.
 
 |||  
 |-|-|  
-|[What’s new in Visual Studio 2017 RC](ide/whats-new-in-visual-studio.md)|[What’s new for Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
+|[What’s new in Visual Studio 2017](ide/whats-new-in-visual-studio.md)|[What’s new for Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 |[What's New for Visual C#](/dotnet/articles/csharp/csharp-7)|
 
 
