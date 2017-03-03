@@ -86,7 +86,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -122,7 +122,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -141,7 +141,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/en-us/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
