@@ -28,9 +28,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio IDE feature tour
-This topic introduces you to the features of Visual Studio IDE. Visual Studio IDE is an interactive development environment (IDE); a creative launching pad that you can use to view and edit nearly any kind of code, and then debug, build, and publish apps for Android, iOS, Windows, the web, and the cloud. There are versions available for Mac and Windows. We'll walk through some things you can do with Visual Studio and how to install and use it, walk through creating a simple project, get pointers on debugging and deploying code, and take a tour of the various tool windows.
+This topic introduces you to the features of the Visual Studio IDE. The Visual Studio IDE is an interactive development environment (IDE); a creative launching pad that you can use to view and edit nearly any kind of code, and then debug, build, and publish apps for Android, iOS, Windows, the web, and the cloud. There are versions available for Mac and Windows. We'll walk through some things you can do with Visual Studio and how to install and use it, walk through creating a simple project, get pointers on debugging and deploying code, and take a tour of the various tool windows.
 
-## What can you do with Visual Studio IDE?
+## What can you do with the Visual Studio IDE?
 Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too and much, much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more.
 
 ![Visual Studio projects](../ide/media/VSIDE_Tour_Projects_List.png)
@@ -38,18 +38,18 @@ Do you want to create an app for an Android phone? You can do that. How about cr
 Or, you can simply open nearly any code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
 
 ### Create mobile apps
-You can create native mobile apps for different platforms by using Visual C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio IDE includes an Android emulator to help you run and debug Android apps.
+You can create native mobile apps for different platforms by using Visual C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
 
 You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile App Development](https://www.visualstudio.com/vs/mobile-app-development/).
 
 ### Create cloud apps for Azure
-Visual Studio IDE offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. Leverage Azure services for your apps using Connected Services. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
+Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. Leverage Azure services for your apps using Connected Services. To get Azure Tools for .NET, select the **Azure development** workload when you install Visual Studio. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
 
 ### Create apps for the web
 The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
 ### Write code in a world class editing environment
-Visual Studio IDE helps you write code quickly and easily through features such as syntax colorization, statement completion, IntelliSense (pop-up descriptions of the selected code element), code outlining, setting breakpoints for debugging, and much more.
+Visual Studio helps you write code quickly and easily through features such as syntax colorization, statement completion, IntelliSense (pop-up descriptions of the selected code element), code outlining, setting breakpoints for debugging, and much more.
 
 ![JavaScript code example](../ide/media/vside_tour_javascript_example.gif)
 
@@ -58,8 +58,8 @@ To learn more, see [Writing Code in the Code and Text Editor](https://docs.micro
 Visual Studio can do help you do many more things. For a more complete list, see [Visual Studio IDE](https://www.visualstudio.com/vs/).
 
 
-## Install Visual Studio IDE
-To get started, download Visual Studio IDE and install it on your system. You can download it at [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/).
+## Install the Visual Studio IDE
+To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/).
 
 Visual Studio is now more lightweight than ever! The new modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 
@@ -141,14 +141,14 @@ For testing, Visual Studio offers unit testing, IntelliTest, load and performanc
 When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../ide/deployment/deploying-applications-services-and-components.md).
 
 ## Quick tour of the IDE
-To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio IDE with an open project along with several key tool windows you will most likely use.
+To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use.
  - [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view, navigate, and manage your code files.
  - The [Editor](../ide/writing-code-in-the-code-and-text-editor.md) window shows your code and enables you to edit source code and designer data.
  - The [Output](../ide/reference/output-window.md) window shows output messages from compiling, running, debugging, and more.
  - [Team Explorer](https://www.visualstudio.com/en-us/docs/connect/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
  - [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more.
 
-![Visual Studio IDE](../ide/media/visualstudioide.png)  
+![The Visual Studio IDE](../ide/media/visualstudioide.png)  
 
 Following are some other common productivity features in Visual Studio.  
 
@@ -211,7 +211,7 @@ The cloud is critical for today's online world, and Visual Studio provides you t
 
 Choosing a service on the **Connected Services** page starts a Connected Services Wizard that configures your project and downloads the necessary NuGet packages to help get you started coding against the service.
 
-You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by installing the [Azure SDK](https://azure.microsoft.com/en-us/downloads/).
+You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by selecting the Azure development workload in the Visual Studio installer.
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
@@ -230,7 +230,7 @@ If Visual Studio doesn't have the exact functionality you need, you can add it! 
 If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
 If you want to find out about new features in Visual Studio 2017, see [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
 
-Congratulations on completing the tour of Visual Studio IDE! We hope you learned something useful about some of its main features.
+Congratulations on completing the tour of the Visual Studio IDE! We hope you learned something useful about some of its main features.
 
 ## See also
 [Visual Studio IDE](https://www.visualstudio.com/vs/)
