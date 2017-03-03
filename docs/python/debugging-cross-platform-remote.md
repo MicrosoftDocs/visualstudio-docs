@@ -36,11 +36,7 @@ Visual Studio and the Python Tools for Visual Studio (PTVS) can launch and debug
 
 When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote machine to allow TCP connections.
 
-
-For a five minute video introduction to remote debugging, see the following video:
-
-[![Deep Dive: Cross-Platform Remote Debugging](media/video-thumbnails/RemoteDebugging.png)](https://youtu.be/y1Qq7BrV6Cc)
-
+For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](media/video-thumbnails/RemoteDebugging.png)](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
 
 ## Preparing the script for debugging
 
@@ -104,7 +100,7 @@ In these steps we'll set a simple breakpoint to stop the remote process.
         ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
     ```
 
-  The address format is the same as the one used by the standard Python module socket for sockets of type `AF_INET`; see its [documentation](http://docs.python.org/3/library/socket.html#socket-families) for details. 
+    The address format is the same as the one used by the standard Python module socket for sockets of type `AF_INET`; see its [documentation](http://docs.python.org/3/library/socket.html#socket-families) for details. 
 
 1. Once the process appears in the list, double-click it to attach. Visual Studio brings up its debugging tools while the script continues to run. For the example script shown above, entering a number will cause the breakpoint to be hit:
 
@@ -123,9 +119,9 @@ To secure the channel with SSL, you'll need an SSL certificate. You can generate
 
 After you have the certificate and the private key files generated and registered, you'll need to update the call to `enable_attach` in your script to use them. This is done by means of `certfile` and `keyfile` parameters, which have the same meaning as for the standard Python function `ssl.wrap_socket`. For example, if the certificate file is called `my_cert.cer`, and the key file is called `my_cert.key`, use: 
 
-    ```python
-        ptvsd.enable_attach(secret='my_secret', certfile='my_cert.cer', keyfile='my_cert.key')
-    ```
+```python
+    ptvsd.enable_attach(secret='my_secret', certfile='my_cert.cer', keyfile='my_cert.key')
+```
 
 The attach process is exactly the same as described earlier, except that, instead of using the `tcp://` scheme in the Qualifier, use `tcps://`: 
 

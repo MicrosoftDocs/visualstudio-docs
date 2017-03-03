@@ -36,11 +36,11 @@ Python Tools for Visual Studio (PTVS) supports profiling a Python application wh
 
 Profiling is started through the **Analyze > Launch Python Profiling** menu command, which opens a configuration dialog:
 
-    ![Profiling configuration dialog](media/profiling-start.png)
+![Profiling configuration dialog](media/profiling-start.png)
 
 When you select **OK**, the profiler runs and opens a performance report through which you can explore how time is spent in the application:
 
-    ![Profiling performance report](media/profiling-results.png)
+![Profiling performance report](media/profiling-results.png)
 
 For an overview, see the following
 

@@ -36,9 +36,7 @@ Most regular Python debuggers, including the Python Tools for Visual Studio (PTV
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 
-For a ten minute introduction to building, testing, and debugging native C modules with Visual Studio, see the following video.
-
-[![Deep Dive: Creating Native Modules](media/video-thumbnails/NativeModules.png)](https://youtu.be/D9RlT06a1EI)
+For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s).
 
 ## Enabling mixed-mode debugging
 
@@ -127,11 +125,11 @@ If a child field of an object is of type `PyObject`, or one of the other support
 
 Unlike "[Python View]" nodes, which use Python object metadata to determine the type of the object, there’s no similarly reliable mechanism for "[C++ View]". Generally speaking, given a Python value (that is, a `PyObject` reference ) it's not possible to reliably determine which C/C++ structure is backing it. The mixed-mode debugger tries to guess that type by looking at various fields of the object’s type (such as the `PyTypeObject` referenced by its `ob_type` field) that have function pointer types. If one of those function pointers references a function that can be resolved, and that function has a `self` parameter with type more specific than `PyObject*`, then that type is assumed to be the backing type. For example, if `ob_type->tp_init` of a given object points at the following function:
 
-    ```c
-        static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {
-            return 0;
-        }
-    ```
+```c
+    static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {
+        return 0;
+    }
+```
 
 then the debugger can correctly deduce that the C type of the object is `FobObject`. If it's unable to determine a more precise type from `tp_init`, it moves on to other fields. If it's unable to deduce the type from any of those fields, the "[C++ View]" node presents the object as a `PyObject` instance.
 
@@ -154,14 +152,14 @@ The standard Python debugger allows evaluation of arbitrary Python expressions i
 
 When stopped in native code, or in Python code where the conditions above do not apply (for example, after a step-out operation, or on a different thread), expression evaluation is limited to accessing local and global variables in scope of the currently selected frame, accessing their fields, and indexing built-in collection types with literals. For example, the following expression can be evaluated in any context (provided that all identifiers refer to existing variables and fields of appropriate types):
 
-    ```python
-        foo.bar[0].baz['key']
-    ```
+```python
+    foo.bar[0].baz['key']
+```
 
 The mixed-mode debugger also resolves such expressions differently. All member-access operations look up only fields that are directly part of the object (such as an entry in its `__dict__` or `__slots__`, or a field of a native struct that is exposed to Python via `tp_members`), and ignore any `__getattr__`, `__getattribute__` or descriptor logic. Similarly, all indexing operations ignore `__getitem__`, and access the inner data structures of collections directly.
 
 For the sake of consistency, this nam- resolution scheme is used for all expressions that match the constraints for limited expression evaluation, regardless of whether arbitrary expressions are allowed at the current stop point or not. To force proper Python semantics when a full-featured evaluator is available, enclose the expression in parentheses:
 
-    ```python
-        (foo.bar[0].baz['key'])
-    ```
+```python
+    (foo.bar[0].baz['key'])
+```
