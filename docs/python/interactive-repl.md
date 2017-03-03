@@ -38,7 +38,7 @@ Python Tools for Visual Studio (PTVS) provides an interactive read-evaluate-prin
 
 For a three minute introduction to the Python interactive Window, see the following video:
 
-[![Getting Started Part 5: Interactive](VideoThumbnails/GettingStarted05Small.png)](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+[![Getting Started Part 5: Interactive](media/video-thumbnails/GettingStarted05Small.png)](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
 
 PTVS has a number of REPL modes to choose from:
 

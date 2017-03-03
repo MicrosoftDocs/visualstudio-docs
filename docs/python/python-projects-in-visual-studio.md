@@ -44,7 +44,7 @@ The following videos provide an introduction to Python projects in Visual Studio
 
 The following video (3m18s) provides an introduction to Python projects in Visual Studio:
 
-[![PTVS Getting Started Part 2: Projects](media/video-thumbnails/GettingStarted02.png)](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+[![PTVS Getting Started Part 2: Projects](media/video-thumbnails/GettingStarted02Small.png)](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
 
 Also see the deep-dive video (8m55s) on using source control with Python projects:
 

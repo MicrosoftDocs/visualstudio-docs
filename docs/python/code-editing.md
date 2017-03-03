@@ -36,7 +36,7 @@ Developers spend a lot of their time in the code editor, so the Python Tools for
 
 For a four minute video introduction to editing Python code, see this video.
 
-[![Getting Started Part 3: Editing](media/video-thumbnails/GettingStarted03.png)](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+[![Getting Started Part 3: Editing](media/video-thumbnails/GettingStarted03Small.png)](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
 
 In this topic:
 
