@@ -41,10 +41,10 @@ You can deploy Visual Studio on a network as long as each target computer meets 
 
 ## Tools
 
- We have several tools on offer to help you manage your Visual Studio installations.
+ We have several tools on offer to help you manage your Visual Studio installations:
 
 * [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples to help users interrogate the VS instances on their machines.
-* [VSWhere](https://github.com/microsoft/vswhere):  a C++ .exe that lets you find core Visual Studio tools.
+* [VSWhere](https://github.com/microsoft/vswhere):  a C++ .exe that helps you find core Visual Studio tools.
 * [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): powerful PowerShell scripts for common setup-related administration tasks.
 
 

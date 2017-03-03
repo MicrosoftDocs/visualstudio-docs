@@ -44,8 +44,7 @@ Also note the following about the page:
 * By default, the **Required** components will be installed when you install the workload. * If you choose to, you can also install the **Recommended** and **Optional** components.
 * We’ve also added a section that lists the additional components that are not affiliated with any workload.
 
-> [!IMPORTANT]
-> When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
 
 
 For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
@@ -519,7 +518,7 @@ Microsoft.VisualStudio.Component.GraphDocument | DGML editor | Optional
 
 **ID:** Microsoft.VisualStudio.Workload.Node
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 
