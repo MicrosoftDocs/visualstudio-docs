@@ -118,7 +118,13 @@ Visual Studio 2017 and greater contain the **Resource History** window.  Selecti
 
 ![Resource History](media/gfx_diag_resource_history.png)
 
-This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.  The **Type** column shows the type of the entry, typically *Create*, *Read* and *Write*.  The **View** column shows a thumbnail of the resource at that moment in time.  Double-click the thumbnail to open a details view of the resource at that time.  Finally, the **Event** column displays the method call that occurred which generated the event.  Any additional history on individual items can be viewed by selecting the watch icon ![watch icon](media/gfx_watch.png) on the appropriate line.
+This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.  
+
+Column|Description
+---|---
+**Type** | Shows the type of the entry, typically *Create*, *Read* and *Write*.  
+**View** | Shows a thumbnail of the resource at that moment in time.  Double-click the thumbnail to open a details view of the resource at that time.  
+**Event**| Shows the method call that occurred which generated the event.  Any additional history on individual items can be viewed by selecting the watch icon ![watch icon](media/gfx_watch.png) on the appropriate line.  Also, any item which is drawn in blue text, such as `m_commandList` in the screenshot above, can be selected for more details.
 <!-- /VERSIONLESS -->
 
 ## See Also  
