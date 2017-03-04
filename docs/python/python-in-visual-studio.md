@@ -54,7 +54,7 @@ The Python workload also includes the [Azure SDK for Python](azure-sdk-for-pytho
 
 Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, along with the following installation and features demo (27m):
 
-> [!VIDEO https://www.youtube.com/embed/v=JNNAOypc6Ek]
+> [!VIDEO https://www.youtube.com/watch?v=JNNAOypc6Ek]
 
 ## Features Matrix
 
