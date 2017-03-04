@@ -138,7 +138,7 @@ Nothing runs perfectly all the time. When you write code, you need to run it and
 For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](https://review.docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools).
 
 ## Deploy your finished application  
-When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../ide/deployment/deploying-applications-services-and-components.md).
+When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
 
 ## Quick tour of the IDE
 To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use.
