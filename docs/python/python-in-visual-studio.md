@@ -1,5 +1,5 @@
 ---
-title: "Python and Visual Studio | Microsoft Docs"
+title: "Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/3/2017"
 ms.prod: "visual-studio-dev15"
