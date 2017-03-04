@@ -67,7 +67,7 @@ Before you write code against an external component or connected service, your p
 ### Project References  
  Universal Windows Platform (UWP) projects that target Windows 10 can create references to other UWP projects in the solution, or to Windows Store projects or binaries that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](https://msdn.microsoft.com/en-us/library/windows/apps/dn954974.aspx).  
 
- If you choose to retarget [!INCLUDE[win81](../debugger/includes/win81_md.md)] projects to Windows 10, see [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)  
+ If you choose to retarget [!INCLUDE[win81](../debugger/includes/win81_md.md)] projects to Windows 10, see [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
 
 ### Extension SDK References  
  Visual Basic, C#, C++ and JavaScript Windows Store projects that target the Universal Windows Platform (UWP) can reference Extension SDKs that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10. Please check the Extension SDK vendor site to find out whether it can be referenced by Windows Store projects that target UWP.  
