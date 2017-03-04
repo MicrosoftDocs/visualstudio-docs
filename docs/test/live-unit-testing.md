@@ -147,6 +147,6 @@ Alternatively, you can also apply the [<ExcludeFromCodeCoverage>](https://msdn.m
 Live Unit Testing saves include/exclude state as a user setting and remembers it when a solution is closed and reopened. 
 
 ## See also
-<link to blog post>
-<link to FAQ>
 
+[Live Unit Testing Blog](https://go.microsoft.com/fwlink/?linkid=842514)
+[FAQ in Live Unit Testing Blog](https://go.microsoft.com/fwlink/?linkid=842514)
