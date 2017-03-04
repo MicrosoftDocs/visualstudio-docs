@@ -1,5 +1,5 @@
 ---
-title: "Python Tools for Visual Studio | Microsoft Docs"
+title: "Python and Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/3/2017"
 ms.prod: "visual-studio-dev15"
@@ -30,15 +30,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Python Tools for Visual Studio
+# Working with Python in Visual Studio
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-Python Tools for Visual Studio (PTVS) is a free, [open-source](https://github.com/Microsoft/ptvs) extension for Visual Studio that brings the [development experience of Visual Studio](../ide/visual-studio-ide.md) to Python development. 
+Visual Studio provides with [open-source](https://github.com/Microsoft/ptvs) support for Python through the Python workload (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). 
 
-Follow our [installation instructions](installation.md) to get set up with PTVS, then use the links below to learn more about PTVS features as well as the capabilities of Visual Studio itself.
+Follow our [installation instructions](installation.md) to set up the Python workload, then use the links below to learn more about Python-related features as well as the capabilities of Visual Studio itself.
 
-| PTVS Feature | Description | General Visual Studio Documentation | 
+| Feature | Description | General Visual Studio Documentation | 
 | --- | --- | --- |
 | [Visual Studio project system](python-projects-in-visual-studio.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
 | [Project templates](python-projects-in-visual-studio.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
@@ -49,13 +49,15 @@ Follow our [installation instructions](installation.md) to get set up with PTVS,
 | [Profiling tools with comprehensive reporting](profiling.md) | Explores how time is being spent within your application, including the ability to compare performance between different profiling runs. | [Profiling Tools](../profiling/profiling-tools.md) (not all Visual Studio profiling features are available for Python) |
 | [Unit testing tools](unit-testing.md) | Discover, run, and manage tests in Visual Studio Test Explorer, and easily debug unit tests. | [Unit Test Your Code](../test/unit-test-your-code.md) |
 
-PTVS also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
+The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
 
-Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, along with the [Installation and features demo (27 min)](https://www.youtube.com/watch?v=JNNAOypc6Ek).
+Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, along with the following installation and features demo (27m):
+
+[!VIDEO https://www.youtube.com/watch?v=JNNAOypc6Ek]
 
 ## Features Matrix
 
-PTVS can be installed in the following editions of Visual Studio as described in the [installation guide](installation.md):
+Python support can be installed in the following editions of Visual Studio as described in the [installation guide](installation.md):
 
 - [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
@@ -182,5 +184,5 @@ Supported features by Visual Studio version and edition:
 
 ## Additional resources
 
-- [Writing Kinect games with Python using PyKinect](https://github.com/Microsoft/PTVS/wiki/PyKinect) (PTVS GitHub wiki)
+- [Writing Kinect games with Python using PyKinect](https://github.com/Microsoft/PTVS/wiki/PyKinect) (GitHub wiki)
 - [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)
