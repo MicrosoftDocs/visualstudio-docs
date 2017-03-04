@@ -1,4 +1,4 @@
-# [Python in Visual Studio](python-tools-for-visual-studio.md)
+# [Python in Visual Studio](python.md)
 ## [Installation](installation.md)
 ### [Python Environments](python-environments.md)
 ### [Azure SDK for Python](azure-sdk-for-python.md)
