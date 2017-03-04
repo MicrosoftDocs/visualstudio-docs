@@ -1,7 +1,7 @@
 ---
-title: "Publishing to Azure App Service from Python Tools for Visual Studio | Microsoft Docs"
+title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/16/2017"
+ms.date: "3/4/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Publishing to Azure App Service from Python Tools for Visual Studio
+# Publishing to Azure App Service
 
 You can get started quickly building a Python web site in Visual Studio and publish it to Azure App Service. A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).  
 
