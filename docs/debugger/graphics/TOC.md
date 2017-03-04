@@ -19,6 +19,7 @@
 # [Pixel History](graphics-pixel-history.md)
 # [Object Table](graphics-object-table.md)
 # [API and Memory Statistics](graphics-api-and-memory-statistics.md)
+# [Frame Validation](graphics-frame-validation.md)
 # [HLSL Shader Debugger](hlsl-shader-debugger.md)
 # [Command-Line Capture Tool](command-line-capture-tool.md)
 # [Graphics Diagnostics Examples](graphics-diagnostics-examples.md)
