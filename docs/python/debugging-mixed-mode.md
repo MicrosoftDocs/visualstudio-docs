@@ -106,7 +106,7 @@ C types that show "[Python View]" nodes (if enabled):
 
 "[Python View]" does not automatically appear for types you author yourself. When authoring extensions for Python 3.x, this is usually not an issue because any object ultimately has an `ob_base` field of one of the types above, which causes "[Python View]" to appear. 
 
-For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable "[Python View]" nodes for such custom types, edit the `PythonDkm.natvis` in the [PTVS install directory](installation.md#ptvs-install-locations), and simply add another element in the XML for you C struct or C++ class.
+For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable "[Python View]" nodes for such custom types, edit the `PythonDkm.natvis` in the [Python tools install directory](installation.md#install-locations), and simply add another element in the XML for you C struct or C++ class.
 
 An alternate (and better) option is to follow [PEP 3123](http://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
 

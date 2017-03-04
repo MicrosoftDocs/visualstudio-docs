@@ -59,7 +59,6 @@ PTVS does not come with a Python interpreter, so you need to install one of the 
 | [Anaconda](https://www.continuum.io) | An open data science platform powered by Python, and includes the latest version of CPython and most of the difficult-to-install packages. We recommend it if you can't otherwise decide. |
 | [PyPy](http://www.pypy.org/) | A high-performance tracing JIT implementation of Python. Works with PTVS but with limited support for advanced debugging features. |
 | [Jython](http://www.jython.org/) | An implementation of Python on the JVM.  Works with PTVS but with limited support for advanced debugging features. |
-| [Canopy](https://www.enthought.com/products/canopy/) | A comprehensive Python analysis environment with many core scientific packages. |
 
 Developers that want to provide new forms of detection for Python environments with PTVS, see [PTVS Environment Detection](https://github.com/Microsoft/PTVS/wiki/Extensibility-Environments) (github.com).
 

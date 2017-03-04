@@ -30,9 +30,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Using the IPython REPL
+# Using Python in the Interactive Window
 
-The IPython interactive window is an advanced yet user-friendly interactive development environment that's cross-platform and has Interactive Parallel Computing features. In this topic we'll walk through using IPython with Python Tools for Visual Studio (PTVS), using the [Scipy Stack package](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack) from UCI's Python Extensions page. The steps here also work if installed Anaconda, which includes IPython.
+The interactive window in IPython mode is an advanced yet user-friendly interactive development environment that's cross-platform and has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window, assuming that the Anaconda environment is installed, which includes IPython and the necessary libraries.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
@@ -63,7 +63,7 @@ The IPython interactive window is an advanced yet user-friendly interactive deve
 
 1. Select **Open interactive window** to bring up the interactive window in IPython mode with PyLab. You may need to reset the window if you have just changed the interactive mode:
 
-    ![The IPython interactive window](media/ipython-repl-03.png)
+    ![The interactive window in IPython mode](media/ipython-repl-03.png)
 
 1. Enter the following code:
 
@@ -108,7 +108,7 @@ The IPython interactive window is an advanced yet user-friendly interactive deve
 
     ![Escaping to the system shell](media/ipython-repl-06.png)
 
-1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Windows Azure has support for running IPython on a Windows or Linux VM.
+1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Windows Azure has support for running IPython on a Windows or Linux VM. Also see [free Jupyter Notebooks as a Service on Azure](https://notebooks.azure.com).
 
     ![IPython notebook mode](media/ipython-repl-07.png)
 
