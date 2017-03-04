@@ -31,7 +31,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Graphics API and Memory Statistics
-These two tools let you view various bits of information on Direct3D API usage as well as GPU memory consumption of various resources.
+<!-- VERSIONLESS -->
+Visual Studio 2017 and greater support the Graphics API Statistics and Memory Statistics tools.  These two tools let you view various bits of information on Direct3D API usage as well as GPU memory consumption of various resources.
 
 ## Graphics API Statistics
 The Graphics API Statistics in Visual Studio Graphics Diagnostics lets you view all of the Direct3D calls that were made, and the count of each call.  To view the window, select the **View > API Statistics** menu item.
@@ -54,3 +55,4 @@ As with the API Statistics tool, you can right-click in the window to Copy All d
 ## See Also  
 [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
 [Resource History](graphics-event-list.md#resource-history)
+<!-- /VERSIONLESS -->

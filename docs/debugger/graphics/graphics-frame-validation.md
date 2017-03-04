@@ -30,8 +30,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Graphics Frame Validation
-
-The Frame Validation window displays errors and warnings associated with the event list.  To view this window, select the **View > Frame Validation** menu.
+<!-- VERSIONLESS -->
+Visual Studio 2017 and greater support the Frame Validation tool.  The Frame Validation window displays errors and warnings associated with the event list.  To view this window, select the **View > Frame Validation** menu.
 
 ![Frame Validation](media/gfx_diag_frame_validation.png)
 
@@ -47,3 +47,4 @@ Event | The event associated with the error or warning.
 
 ## See Also  
 [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
+<!-- /VERSIONLESS -->
