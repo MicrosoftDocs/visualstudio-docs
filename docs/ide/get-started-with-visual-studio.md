@@ -86,7 +86,7 @@ The **Output** window is where Visual Studio sends its notifications, such as de
 To learn more about how to use the Output window for debugging, see [The Output window while debugging with Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2015/02/09/the-output-window-while-debugging-with-visual-studio/).
 
 ## First steps
-- **Get the big picture** - To get an overview of many of the major features in Visual Studio, take a tour! See [Visual Studio IDE feature tour](../ide/visualstudio-ide.md).
+- **Get the big picture** - To get an overview of many of the major features in Visual Studio, take a tour! See [Visual Studio IDE feature tour](../ide/visual-studio-ide.md).
 - **Setup** - To learn about how to download and install Visual Studio, see [Install Visual Studio 2017](../install/install-visual-studio.md).
 - **The basics** - To learn more about how Visual Studio works, see [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
 - **Settings** - To learn how to customize Visual Studio to fit the way you like to work. See [Personalizing the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
