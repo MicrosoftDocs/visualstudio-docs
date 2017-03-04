@@ -3,35 +3,16 @@ layout: LandingPage
 author: jasongroce
 ms.author: apexprodleads
 ms.topic: landing-page
-title: Visual Studio IDE Documentation
-description: Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
+title: Write and Manage Code using Visual Studio Documentation
+description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 ---
-# Visual Studio IDE Documentation
+# Write and Manage Code using Visual Studio Documentation
 
-Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
-Tutorials, videos, and other documentation show you ways to create code and apps by using Visual Studio.
+Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/visualstudio/ide/get-started-with-visual-studio">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Take a quick visual tour of Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/visualstudio/ide/visual-studio-ide">
+        <a href="/visualstudio/ide/writing-code-in-the-code-and-text-editor">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +22,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn more about Visual Studio</h3>
+                        <h3>Learn to write code and navigate in the code editor</h3>
                     </div>
                 </div>
             </div>
@@ -49,17 +30,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="https://youtu.be/JHc3_gsCmZg?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
+        <a href="https://youtu.be/4glwwioCVjA?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
+                            <img src="/media/common/i_code-edit.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Building blocks of the IDE</h3>
+                        <h3>Edit and navigate your code</h3>
                     </div>
                 </div>
             </div>
@@ -67,17 +48,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/dotnet/articles/welcome">
+        <a href="https://youtu.be/pc9vX_4RGV4?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_NET.svg" alt="" />
+                            <img src="/media/common/i_git-mark.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started using .NET languages</h3>
+                        <h3>Open a project from Source Control</h3>
                     </div>
                 </div>
             </div>
@@ -85,17 +66,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/cpp/">
+        <a href="https://www.visualstudio.com/docs/git/share-your-code-in-git-vs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_Cplusplus.svg" alt="" />
+                            <img src="/media/common/i_git-mark.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started using Visual C++</h3>
+                        <h3>Manage your code using Git with Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -103,45 +84,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/getting-started-with-debugging-in-visual-studio">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about debugging Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/visualstudio/profiling/profiling-tools">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Improve your code performance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://code.msdn.microsoft.com/vstudio">
+        <a href="/visualstudio/ide/code-snippets">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -151,7 +94,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio code samples</h3>
+                        <h3>Create code snippets</h3>
                     </div>
                 </div>
             </div>
@@ -159,17 +102,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="https://mva.microsoft.com/product-training/visual-studio-courses#!lang=1033">
+        <a href="/visualstudio/test/improve-code-quality">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_advanced.svg" alt="" />
+                            <img src="/media/common/i_code-quality.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio courses</h3>
+                        <h3>Improve the quality of your code</h3>
                     </div>
                 </div>
             </div>
@@ -177,17 +120,35 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="https://channel9.msdn.com/VisualStudio">
+        <a href="/visualstudio/ide/refactoring-in-visual-studio">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
+                            <img src="/media/common/i_code-automate.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio videos</h3>
+                        <h3>Revise and restructure your code</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/code-generation-in-visual-studio">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_code-automate.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Let Visual Studio generate some code for you</h3>
                     </div>
                 </div>
             </div>
@@ -205,9 +166,8 @@ Tutorials, videos, and other documentation show you ways to create code and apps
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><a href="/visualstudio/ide/reference/visual-studio-reference">Visual Studio IDE Reference</a></p>
-                        <p><a href="/visualstudio/ide/reference/visual-studio-commands">Visual Studio commands</a></p>
-                        <p><a href="/visualstudio/ide/reference/devenv-command-line-switches">Devenv Command Line Switches</a></p>
+                        <p><a href="/visualstudio/ide/class-view-and-object-browser-icons">Class View and Object Browser Icons</a></p>
+                        <p><a href="/visualstudio/ide/reference/visual-studio-reference">Visual Studio Reference</a></p>
                     </div>
                 </div>
             </div>
