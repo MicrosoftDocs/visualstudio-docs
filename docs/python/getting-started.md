@@ -35,40 +35,149 @@ Once you have Visual Studio installed with the Python workload (Visual Studio 20
 
 In this walkthrough you'll create a new empty Python application, choose a Python environment to work with, and then start writing some code to see IntelliSense at work. You'll then work with the interactive REPL window for a short time to create more code, then complete the program and run it both by itself and in the debugger.
 
+> [!Note]
+> This walkthrough explores the Python experience in Visual Studio 2017; other versions will be similar but can differ in the details.
+
 ## Create a new Python project
 
 Python support in Visual Studio includes a number of [project templates](python-projects-in-visual-studio.md) to get you started with different types of projects, including web applications using the Bottle, Flask, and Django frameworks along with Azure Cloud Services. For the purposes of this walkthrough, however, we'll start with an empty project.
 
-1. In Visual Studio, select **File > New Project**, which brings up the **New Project** dialog. This is where you can browse and select a template and specify the folder in which to create the project:
+1. In Visual Studio, select **File > New Project**, which brings up the **New Project** dialog. This is where you can browse and select a template and specify the folder in which to create the project.
 
 1. Python templates can be found under the **Templates > Other Languages > Python** on the left, or by simply searching on "Python":
 
-1. Select the "Empty Python Application" template, specify a folder for the project, and select **OK**.
+![New project dialog with Python projects shown](media/getting-started-new-project.png)
 
-1. After a few moments, you'll see the project open in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments, as we'll do next.
+1. Select the "Python Application" template, specify a folder for the project, and select **OK**. (If you want to create a local repository for your project right away, also select the **Add to source control** option).
+
+1. After a few moments, you'll see the project open in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments.
+
+![Solution Explorer with a Python project](media/getting-started-solution-explorer-1.png)
+
+1. Expand the **Python Environments** node and you'll see which Python interpreter is the current default for this project. If you also expand that interpreter node, you'll see a list of libraries available in that environment:
+
+![Solution Explorer showing the Python environment](media/getting-started-solution-explorer-2.png)
+
+1. If you're using Visual Studio 2015 or earlier, you won't have a Python interpreter installed by default. Refer to [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) for this process.
+
+We'll explore more about environments a little later; for now, let's write and run a little code.
+
+### Going deeper
+
+- [Python Projects in Visual Studio](python-projects-in-visual-studio.md).
+- [Web Project Templates](template-web.md)
+- [Django Web Project Template](template-django.md)
+- [Azure Cloud Service Template](template-azure-cloud-service.md)
 
 
-To go deeper, see [Python Projects in Visual Studio](python-projects-in-visual-studio.md).
+## Writing and running code
 
-## Setting up a Python environment
+1. After creating a new "Python Application" project, a default empty file named `PythonApplication1.py` is open in the Visual Studio editor. To rename it, right-click the file in Solution Explorer and select **Rename**, and change the name to `hello.py`.
 
+1. Start typing `print("Hello world")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the Tab key. This can be very helpful when longer statements or identifiers are involved.
 
-To go deeper, see [Python Environments](python-environments.md).
+    ![IntelliSense auto-completion popup](media/getting-started-coding-1.png)
 
-## Writing code
+1. IntelliSense shows different information depending on the statement you're using, the function you're calling, and so forth. With the `print` function, typing `(` to make the call pops up full usage information for that function and even bolds the current argument that you need to provide (**value** as shown here):
 
+    ![IntelliSense auto-completion popup for a function](media/getting-started-coding-2.png)
 
-To go deeper, see [Editing Code](code-editing.md).
+1. Complete the statement so it matches the following:
+
+    ```python
+        print("Hello world")
+    ```
+
+1. To run the code, select the **Start** button on the toolbar shown below, press F5, or select **Debug > Start Debugging** menu item.
+
+    ![Start button on the debug toolbar](media/getting-started-coding-3.png)
+
+> [!Note]
+> If you see a message in Visual Studio 2015 or earlier that there aren't any interpreters, see [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) as one is not installed by default.
+
+1. Visual Studio will run the code using the default environment in the project and show the results in a command window. Press a key to close that window and end the debugging session.
+
+    ![Start button on the debug toolbar](media/getting-started-coding-4.png)
+
+1. In addition to statements, and functions, IntelliSense provide completions for `import` statements. This helps you easily discover what modules are available in your environment, and the members available in that module. In the editor, delete the `print` line and start typing `import`. You'll see a list of modules appear:
+
+    ![IntellSense showing available modules for an import statement](media/getting-started-coding-5.png)
+
+1. Complete the line by typing or selecting `sys`.
+
+1. On the next line, type `from` to again see a list of modules:
+
+    ![IntellSense showing available modules for a from statement](media/getting-started-coding-6.png)
+
+1. Select or type `math`, then continue typing with a space and `import`, which displays the module members:
+
+    ![IntellSense showing module members](media/getting-started-coding-7.png)
+
+1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the auto-completions available for each. When you're done, your code should appear as follows:
+
+    ```python  
+        import sys  
+        from math import sin, cos, radians          
+    ```
+
+In the next step we'll work with the interactive REPL window to write some code that we can test immediately without running the debugger.
+
+### Going deeper
+
+- [Editing Code](code-editing.md)
+- [Formatting Code](code-formatting.md)
+- [Refactoring Code](code-refactoring.md)
+- [Using PyLint](code-pylint.md)
+
 
 ## Using the interactive REPL window
 
+<Explain it> Same thing as just running "python" from the command line, but gives you multi-line history as well as the ability to send code from the editor directly to the REPL window.
+
+Show simple expressions, then def a function f(num): print(num).
 
 To go deeper, see [Using the Interactive window](interactive-repl.md).
 
 ## Running code in the debugger
 
 
+```python  
+from math import sin, cos, radians  
+import sys  
+  
+def make_dot_string(x):  
+    return ' ' * int(10 * cos(radians(x)) + 10) + 'o'  
+  
+assert make_dot_string(90) == "          o"  
+assert make_dot_string(180) == "o"  
+  
+def main():  
+    for i in range(10000000):  
+        s = make_dot_string(i)  
+        print(s)  
+  
+if __name__ == "__main__":  
+    sys.exit(int(main() or 0))  
+```  
+
+
 To go deeper, see [Debugging](debugging.md).
+
+## Setting up a Python environment
+
+Python code always runs within a particular Python *environment*, consisting of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+
+Installing the Python workload in Visual Studio 2017 includes the Python 3.4 environment by default; you can also install different environments through the Visual Studio 2017 installer. For Visual Studio 2015 and earlier, you need to select an install at least on interpreter of your choice.
+
+For the purposes of this walkthrough, be sure to have Python 3.4 or higher installed.
+
+1. To set Python 3.4 as the default, select the **Python
+
+
+### Going deeper
+
+- [Python Environments](python-environments.md).
+
 
 ## Next steps
 

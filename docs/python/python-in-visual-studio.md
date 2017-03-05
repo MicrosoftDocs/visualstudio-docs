@@ -52,9 +52,9 @@ Follow our [installation instructions](installation.md) to set up the Python wor
 
 The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
 
-Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, along with the following installation and features demo (27m):
+Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, which gives you an overview of the primary features.
 
-> [!VIDEO https://www.youtube.com/watch?v=JNNAOypc6Ek]
+[![Python Tools Videos](media/video-general.png)](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
 
 ## Features Matrix
 
