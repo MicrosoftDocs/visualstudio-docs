@@ -60,15 +60,12 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. If you're using Visual Studio 2015 or earlier, you won't have a Python interpreter installed by default. Refer to [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) for this process.
 
-We'll explore more about environments a little later; for now, let's write and run a little code.
-
 ### Going deeper
 
 - [Python Projects in Visual Studio](python-projects-in-visual-studio.md).
 - [Web Project Templates](template-web.md)
 - [Django Web Project Template](template-django.md)
 - [Azure Cloud Service Template](template-azure-cloud-service.md)
-
 
 ## Writing and running code
 
@@ -197,52 +194,66 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
 ## Running code in the debugger
 
+In addition to managing projects, providing a rich editing experience, and the interactive window, Visual Studio provides its full-featured debugging support for Python code.
 
-```python  
-from math import sin, cos, radians  
-import sys  
-  
-def make_dot_string(x):  
-    return ' ' * int(10 * cos(radians(x)) + 10) + 'o'  
-  
-assert make_dot_string(90) == "          o"  
-assert make_dot_string(180) == "o"  
-  
-def main():  
-for i in range(360):
-    s = make_dot_string(i)  
-    print(s)  
-  
-if __name__ == "__main__":  
-    sys.exit(int(main() or 0))  
-```  
+1. Edit the code in your hello.py file to match the following:
 
+    ```python  
+        from math import sin, cos, radians  
+        import sys  
+        
+        def make_dot_string(x):  
+            return ' ' * int(10 * cos(radians(x)) + 10) + 'o'  
+        
+        def main():  
+            for i in range(360 * 5):
+                s = make_dot_string(i)  
+                print(s)  
+                
+        main()
+    ```  
 
-To go deeper, see [Debugging](debugging.md).
+1. Check that the code works properly by selecting **Start** on the toolbar, pressing F5, or selecting the **Debug > Start Debugging** menu command. This runs the code in the debugger, but because we don't have any breakpoints set you'll simply see it print a wave pattern for a few iterations. Pressing any key will close the output window at this point.
 
-## Setting up a Python environment
+> [!Tip]
+> To close the output window automatically when the program completes, replace the `main()` call with the following code:
+>
+> ```python
+>     if __name__ == "__main__":  
+>         sys.exit(int(main() or 0))  
+> ```
 
-Python code always runs within a particular Python *environment*, consisting of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
 
-Installing the Python workload in Visual Studio 2017 includes the Python 3.4 environment by default; you can also install different environments through the Visual Studio 2017 installer. For Visual Studio 2015 and earlier, you need to select an install at least on interpreter of your choice.
+    ![Setting a breakpoint](media/getting-started-debugging-1.png)
 
-For the purposes of this walkthrough, be sure to have Python 3.4 or higher installed.
+1. Start the debugger again and you'll see that running the code stops on the line with that breakpoint. Here you can see the call stack and examine local variables in the Locals window:
 
-1. To set Python 3.4 as the default, select the **Python
+    ![Breakpoint UI experience for Python](media/getting-started-debugging-2.png)
 
+1. Step through a few iterations of the `for` loop line-by-line using F10, the **Debug > Step Over** command, or the Step Over toolbar button. This means that the debugger will run each call to `make_dot_string`, but will not go stop inside that function (unless you set a breakpoint).
+
+1. In the toolbar, the three stepping buttons show below are, going left-to-right: Step Into, Step Over, and Step Out:
+
+    ![Stepping toolbar buttons](media/getting-started-debugging-3.png)
+
+1. Step into `make_dot_string` now by using the Step Into command (F11). You'll see that you'll step from the `for` loop into that function. Stepping again will return to the `for` loop, but if there were additional lines in the function, you'd step through them one at a time. If you're in a function and want to run the remainder of its lines and return to the calling code, use Step Out (Shift+F11).
+
+1. To continue running the code until the next breakpoint is reached (or the program ends) press F5 again or select the **Continue** toolbar button or **Debug > Continue**. Because you have a breakpoint in the `for` loop, you'll break on the next iteration.
+
+1. Stepping through hundreds of iterations of a loop can be tedious, so you can add a condition to the breakpoint set earlier to break only when the value of `i` exceeds a certain value, say 1600. To do this, right-click the red breakpoint dot and select **Condition...**. In the Breakpoint Settings window that appears, enter `i > 1600` as the expression and select **Close**. Now press F5 to continue and you'll see the program run for a while before it breaks again. 
 
 ### Going deeper
 
-- [Python Environments](python-environments.md).
-
+- [Debugging](debugging.md).
+- Also see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) for full documentation of Visual Studio's debugging features.
 
 ## Next steps
 
-In this walkthrough you've touched on the main elements of the Python experience in Visual Studio. To go deeper, explore the following topics in the documentation:
+In addition to the "Going deeper" links provided earlier, the following topics cover additional features of the Python experience in Visual Studio:
 
-- [Publishing a Python web application to Azure](publishing-to-azure.md)
-- [Editing Code)](code-editing.md)
-- [Interactive Python (REPL) window](interactive-repl.md)
-- [Debugging](debugging.md)
-- [Profiling](profiling.md)
-- [Unit Testing](unit-testing.md)
+- To see how Visual Studio connects to an Azure App Service, see [Publishing a Python web application to Azure](publishing-to-azure.md)
+- To explore how to manage different environments both globally and for individual projects, including virtual environments, see [Python Environments](python-environments.md).
+- Visual Studio provides the ability to debug your application on remote servers, as explained on [Cross-platform Remote Debugging](debugging-cross-platform-remote.md) and [Azure Remote Debugging](debugging-azure-remote.md).
+- You can evaluate the performance of your Python code by using [Visual Studio Profiling](profiling.md).
+- Unit tests written in Python integrate directly with the Visual Studio Test Explorer, as discussed on [Unit Testing](unit-testing.md).
