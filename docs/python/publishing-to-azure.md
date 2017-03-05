@@ -48,7 +48,7 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 1. Sign in with a social login of your choice, and after a short time your site will be ready at the displayed URL.
 1. Select **Download publishing profile** and save the `.publishsettings` file, which you'll use later.
 
- ## Create and test the initial project
+## Create and test the initial project
 
 1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, and click **OK**.    
 
@@ -88,3 +88,5 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 ## Additional resources
 
 For a walkthrough of a richer web application, see [Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com, 8m58s). 
+
+> [!VIDEO https://www.youtube.com/watch?v=WG3pGmoo8nE]

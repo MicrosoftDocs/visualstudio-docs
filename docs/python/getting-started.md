@@ -36,7 +36,7 @@ Once you have Visual Studio installed with the Python workload (Visual Studio 20
 In this walkthrough you'll create a new empty Python application, choose a Python environment to work with, and then start writing some code to see IntelliSense at work. You'll then work with the interactive REPL window for a short time to create more code, then complete the program and run it both by itself and in the debugger.
 
 > [!Note]
-> This walkthrough explores the Python experience in Visual Studio 2017; other versions will be similar but can differ in the details.
+> This walkthrough explores the Python experience in Visual Studio 2017; other versions will be similar but may differ in the details.
 
 ## Create a new Python project
 
@@ -245,6 +245,8 @@ In addition to managing projects, providing a rich editing experience, and the i
 1. To continue running the code until the next breakpoint is reached (or the program ends) press F5 again or select the **Continue** toolbar button or **Debug > Continue**. Because you have a breakpoint in the `for` loop, you'll break on the next iteration.
 
 1. Stepping through hundreds of iterations of a loop can be tedious, so you can add a condition to the breakpoint set earlier to break only when the value of `i` exceeds a certain value, say 1600. To do this, right-click the red breakpoint dot and select **Condition...**. In the Breakpoint Settings window that appears, enter `i > 1600` as the expression and select **Close**. Now press F5 to continue and you'll see the program run for a while before it breaks again. 
+
+    ![Setting a breakpoint condition](media/getting-started-debugging-4.png)
 
 1. To complete the program, you can toggle the breakpoint again and press F5. Visual Studio returns to its editing mode when debugging is complete.
 
