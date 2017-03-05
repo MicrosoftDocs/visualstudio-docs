@@ -50,6 +50,9 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. Select the "Python Application" template, specify a folder for the project, and select **OK**. (If you want to create a local repository for your project right away, also select the **Add to source control** option).
 
+> [!Tip]
+> The "From exiting Python Code" template lets you quickly create a Visual Studio project from a folder that already contains Python code, rather than creating a new empty project and importing existing code into it.
+
 1. After a few moments, you'll see the project open in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments.
 
 ![Solution Explorer with a Python project](media/getting-started-solution-explorer-1.png)
@@ -242,6 +245,8 @@ In addition to managing projects, providing a rich editing experience, and the i
 1. To continue running the code until the next breakpoint is reached (or the program ends) press F5 again or select the **Continue** toolbar button or **Debug > Continue**. Because you have a breakpoint in the `for` loop, you'll break on the next iteration.
 
 1. Stepping through hundreds of iterations of a loop can be tedious, so you can add a condition to the breakpoint set earlier to break only when the value of `i` exceeds a certain value, say 1600. To do this, right-click the red breakpoint dot and select **Condition...**. In the Breakpoint Settings window that appears, enter `i > 1600` as the expression and select **Close**. Now press F5 to continue and you'll see the program run for a while before it breaks again. 
+
+1. To complete the program, you can toggle the breakpoint again and press F5. Visual Studio returns to its editing mode when debugging is complete.
 
 ### Going deeper
 
