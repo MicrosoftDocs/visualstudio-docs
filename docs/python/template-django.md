@@ -36,6 +36,8 @@ translation.priority.ht:
 
 For a walkthrough of creating and deploying a Django website using Visual Studio, see [Deep Dive: Creating a Django Website](https://youtu.be/WG3pGmoo8nE) (youtube.com, 8m58s).
 
+> [!VIDEO https://www.youtube.com/embed/WG3pGmoo8nE]
+
 PTVS provides full IntelliSense for Django projects:
 
 - Context variables passed into the template:

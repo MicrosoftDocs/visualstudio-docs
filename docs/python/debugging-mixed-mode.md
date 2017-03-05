@@ -38,6 +38,8 @@ Most regular Python debuggers, including Python Tools for Visual Studio (PTVS) b
 
 For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s).
 
+> [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
+
 ## Enabling mixed-mode debugging
 
 1. Right-click the project in Solution Explorer, select **Properties**, select the **Debug** tab, and then turn on the option for **Enable native code debugging**. This enables mixed-mode for all debugging sessions.

@@ -46,6 +46,8 @@ For an overview, see the following
 
 For a walkthrough demonstration, see the [Profiling with Python Tools for Visual Studio](http://www.youtube.com/watch?v=K-KqkFkp55k) video (8m52s).
 
+> [!VIDEO https://www.youtube.com/embed/K-KqkFkp55k]
+
 ## Profiling for IronPython
 
 Because IronPython is not a CPython-based interpreter, the profiling feature above will not work.

@@ -36,6 +36,8 @@ Python Tools for Visual Studio (PTVS) provides a comprehensive debugging experie
 
 For a debugging overview, see [Getting Started with PTVS, Part 4: Debugging](https://youtu.be/bO7wpzgy74A?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m30s).
 
+> [!VIDEO https://www.youtube.com/embed/bO7wpzgy74A]
+
 In this topic:
 
 - [Basic debugging](#basic-debugging)

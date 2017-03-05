@@ -38,6 +38,8 @@ When using ptvsd, the Python code being debugged hosts the debug server to which
 
 For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
 
+> [!VIDEO https://www.youtube.com/embed/y1Qq7BrV6Cc]
+
 ## Preparing the script for debugging
 
 1. Create a Python file with the following code on the remote machine:

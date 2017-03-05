@@ -48,6 +48,8 @@ Oftentimes, developers use only a single, global Python environment but others n
 
 For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/KY1GEOo3qy0) (youtube.com, 13m27s).
 
+> [!VIDEO https://www.youtube.com/embed/KY1GEOo3qy0]
+
 ## Selecting and installing Python interpreters
 
 PTVS does not come with a Python interpreter, so you need to install one of the following to run your code. In general, PTVS will automatically detect newly-installed interpreters and set up an environment for them. If it does not, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter) below.

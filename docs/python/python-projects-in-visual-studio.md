@@ -40,8 +40,6 @@ In addition, projects are always managed within a Visual Studio *solution*, whic
 
 PTVS provides a variety of project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) below for an index.
 
-The following videos provide an introduction to Python projects in Visual Studio (3m18s) and a deep dive on using Git and Team Foundation Version Control with Python.
-
 For an introduction to Python projects in Visual Studio, see [Getting Started with PTVS Part 2: Projects](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m18s). Also see the video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
 
 In this topic:
