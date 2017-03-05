@@ -120,6 +120,9 @@ We'll explore more about environments a little later; for now, let's write and r
         from math import sin, cos, radians          
     ```
 
+> [!Tip]
+> Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing Code - Completions](code-editing.md#completions) for details.
+
 In the next step we'll work with the interactive REPL window to write some code that we can test immediately without running the debugger.
 
 ### Going deeper
@@ -132,11 +135,65 @@ In the next step we'll work with the interactive REPL window to write some code 
 
 ## Using the interactive REPL window
 
-<Explain it> Same thing as just running "python" from the command line, but gives you multi-line history as well as the ability to send code from the editor directly to the REPL window.
+The Visual Studio interactive window for Python provides a rich read-evaluate-print-loop experience that greatly shortens the usual edit-build-debug cycle. It is similar to the REPL experience of the Python command line, but provides a few additional features as you'll see here.
 
-Show simple expressions, then def a function f(num): print(num).
+1. Open the interactive window by selecting **View > Other Windows > Python Interactive Windows** from the main Visual Studio menu. The window opens with the usual >>> Python REPL prompt. Note that you can use the drop-down menu on the toolbar to change the environment at any time:
 
-To go deeper, see [Using the Interactive window](interactive-repl.md).
+    ![Python interactive window](media/getting-started-interactive-1.png)
+
+1. Enter a few statements (like `print("hello")`) and expressions (like `123/567`) to see immediate results:
+
+    ![Python interactive window immediate results](media/getting-started-interactive-2.png)
+
+1. When you start writing a multiline statement, like a function definition, the interactive window shows the ... prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation:
+
+    ![Python interactive window with statement continuation](media/getting-started-interactive-3.png)
+
+1. The interactive window provides a full history of everything you've entered, and improves upo the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function above as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
+
+1. Another very helpful feature is the ability to quickly send multiple lines of code from an editor window to the interactive window, where you can work with it in the rapid REPL environment rather than writing other code to run in the debugger. To see this, start by adding the following code to your hello.py file that's open in the editor:
+
+    ```python
+        def make_dot_string(x):  
+            return ' ' * int(10 * cos(radians(x)) + 10) + 'o'
+    ```
+
+1. Select all the code in hello.py (including the `import` statements), right-click, and select **Send to Interactive** (Ctrl+Enter). The code is immediately pasted into the interactive window and run. Because the code defines a function, you can quickly test that function by calling it a few times:
+
+    ![Sending code to the interactive window](media/getting-started-interactive-4.png)
+
+1. **Send to Interactive** effectively allows you to paste multiple lines of code (such as something you find online) into the interactive window, which can't be done directly. For example, copy the code below and try pasting (Ctrl+V) into the interactive window and you'll see that nothing happens. But you can paste it into the editor, select it, and used the **Send to Interactive** command to watch it run.
+
+    ```python
+        for i in range(360):
+            s = make_dot_string(i)  
+            print(s) 
+   ```
+
+    ![Pasting multiple lines of code using Sending Interactive](media/getting-started-interactive-5.png)
+
+1. Because the function definition is again in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again.
+
+1. When you're satisfied with code you're written, you can select it in the interactive window, right-click and select **Copy Code**, and then paste into the editor. The special feature of the **Copy Code** command is that it automatically omits any output as well as the >>> and ... prompt text. For example, using the command with the selection show below:
+
+    ![Interactive window copy code command](media/getting-started-interactive-6.png)
+
+    will paste in only the following:
+
+    ```python
+        make_dot_string(180)
+        make_dot_string(135)
+        for i in range(360):
+            s = make_dot_string(i)  
+            print(s) 
+    ```
+
+1. Finally, the interactive window provides a number of meta-commands that allow you to load files, reset the environment without losing the history, and inserting comments as you go along. See [Interactive Windows - meta-commands](interactive-repl.md#meta-commands) for details.
+
+### Going deeper
+
+- [Using the Interactive window](interactive-repl.md)
+- [Using IPython REPL](interactive-repl-ipython.md)
 
 ## Running code in the debugger
 
@@ -152,9 +209,9 @@ assert make_dot_string(90) == "          o"
 assert make_dot_string(180) == "o"  
   
 def main():  
-    for i in range(10000000):  
-        s = make_dot_string(i)  
-        print(s)  
+for i in range(360):
+    s = make_dot_string(i)  
+    print(s)  
   
 if __name__ == "__main__":  
     sys.exit(int(main() or 0))  

@@ -85,6 +85,9 @@ Once the interactive window is open, you can start entering code line-by-line at
 
 The exception is when a statement ends in a colon, as with the `for` statement above, because the interactive window knows that it needs additional lines of code before it can properly execute the code block. In this case, the line prompt changes to `...` indicating that you need to enter additional lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press Enter on a blank line, the interactive window closes the block and executes it in the interpreter.
 
+> [!Tip]
+> The interactive window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
+
 The interactive window is a great way to try out a new library. You can import the library, inspect the sub packages, classes, and functions.  Python can tell you all of this info through its `help()` function.  Also, Python Tools for Visual Studio (PTVS) gives you suggestions and documentation based on its code modeling used in the editor, which it does without needing to execute the library.  When you do execute code, PTVS uses information from the Python runtime to improve PTVS suggestions.  
 
 <a name="meta-commands"></a>

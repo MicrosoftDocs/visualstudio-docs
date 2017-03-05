@@ -44,7 +44,7 @@ For general documentation on editing code in Visual Studio, see [Writing Code in
 
 For an introduction to editing Python code, see [Getting Started with PTVS, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m48s):
 
-> [!VIDEO https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff]
+> [!VIDEO https://www.youtube.com/watch?v=uZGZNEyyeKs]
 
 ## IntelliSense
 
