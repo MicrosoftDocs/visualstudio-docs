@@ -34,7 +34,7 @@ translation.priority.mt:
 ---
 # Get Started with Visual Studio
 
-Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://aka.ms/vs/15/preview/vs_enterprise). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
+Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://www.visualstudio.com/vs/). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
 Visual Studio has a group of tool windows, menus, and toolbars collectively known as the integrated development environment, or IDE. The Visual Studio IDE helps you accomplish your development tasks. Here's a quick overview of IDE items you will likely use most often.
@@ -62,7 +62,7 @@ To see properties for solutions, projects, and files, choose the **Properties** 
 
 ![Properties window](../ide/media/VSIDE_SolutionExplorer4.png)
 
-You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Open Any Folder](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) for more information.
+You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Develop code in Visual Studio without projects or solutions](../ide/Develop code in Visual Studio without projects or solutions.md) for more information.
 
 ### Toolbar and menus
 To run your project, create new solutions, save files, and more, use the Visual Studio toolbar and menu commands. For example, once your code is ready to run for debugging, you can choose the **Start** button on the toolbar, or you can choose **Debug, Start Debugging** on the menu. To create a new solution, choose the **New Project** button, or choose **File, New, Project** on the menu, and so forth.
@@ -102,7 +102,7 @@ After installing the Azure development workload, a new tool window becomes avail
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
 To learn more about using Cloud Explorer, see [Managing Azure resources with Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/).
-Installing Azure SDK also gives you [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/) as well as other tools.
+Installing the Azure development workload also gives you [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/) as well as other related tools.
 
 ## Tips and tricks
 For shortcuts and handy tips and tricks on how to get more out of Visual Studio, see the following.
