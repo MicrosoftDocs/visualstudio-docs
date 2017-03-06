@@ -239,3 +239,4 @@ Congratulations on completing the tour of the Visual Studio IDE! We hope you lea
 [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
 [Microsoft Virtual Academy](https://mva.microsoft.com/)
 [Channel 9](https://channel9.msdn.com/)
+

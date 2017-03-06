@@ -18,7 +18,7 @@
         topicHref: /scripting/javascript/reference/javascript-reference
     - name: Windows Scripting Interfaces
       tocHref: /scripting/winscript/
-      topicHref: /script/winscript/windows-scripting-interfaces
+      topicHref: /scripting/winscript/windows-scripting-interfaces
       items:
       - name: Reference
           tocHref: /scripting/winscript/reference
