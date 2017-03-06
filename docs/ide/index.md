@@ -139,25 +139,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
 </ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://code.msdn.microsoft.com/vstudio">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-samples.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Visual Studio code samples</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+<ul class="panelContent cardsFTitle">    
     <li>
         <a href="https://mva.microsoft.com/product-training/visual-studio-courses#!lang=1033">
         <div class="cardSize">
@@ -214,4 +196,3 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </div>
     </li>
 </ul>
-0
