@@ -46,7 +46,7 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. Python templates can be found under the **Templates > Other Languages > Python** on the left, or by simply searching on "Python":
 
-![New project dialog with Python projects shown](media/getting-started-new-project.png)
+    ![New project dialog with Python projects shown](media/getting-started-new-project.png)
 
 1. Select the "Python Application" template, specify a folder for the project, and select **OK**. (If you want to create a local repository for your project right away, also select the **Add to source control** option).
 
@@ -55,11 +55,11 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. After a few moments, you'll see the project open in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments.
 
-![Solution Explorer with a Python project](media/getting-started-solution-explorer-1.png)
+    ![Solution Explorer with a Python project](media/getting-started-solution-explorer-1.png)
 
 1. Expand the **Python Environments** node and you'll see which Python interpreter is the current default for this project. If you also expand that interpreter node, you'll see a list of libraries available in that environment:
 
-![Solution Explorer showing the Python environment](media/getting-started-solution-explorer-2.png)
+    ![Solution Explorer showing the Python environment](media/getting-started-solution-explorer-2.png)
 
 1. If you're using Visual Studio 2015 or earlier, you won't have a Python interpreter installed by default. Refer to [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) for this process.
 

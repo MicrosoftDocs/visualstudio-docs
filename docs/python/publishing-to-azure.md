@@ -38,7 +38,7 @@ You can get started quickly building a Python web site in Visual Studio and publ
 - [Create and test the initial project](#create-and-test-the-initial-project)
 - [Publish to Azure App Service](#publish-to-azure-app-service)
 
- A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s). 
+A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s). 
 
 > [!VIDEO https://www.youtube.com/embed/FJx5mutt1uk] 
 

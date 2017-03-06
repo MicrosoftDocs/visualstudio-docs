@@ -97,14 +97,14 @@ The interactive window also supports several meta-commands. All meta-commands st
 
 | Meta-command | Description |
 | --- | --- |
-| $$ | Inserts a comment, which is helpful to comment code throughout your session. |
-| $attach | Attaches the Visual Studio debugger to the REPL window process to enable debugging. |
-| $cls, $clear | Clears the contents of the editor window, leaving history and execution context intact. |
-| $help | Display a list of commands, or help on a specific command. |
-| $load | Loads commands from file and executes until complete. |
-| $mod | Switches the current scope to the specified module name. |
-| $reset | Resets the execution environment to the initial state, but keeps history. |
-| $wait | Waits for at least the specified number of milliseconds. |
+| `$$` | Inserts a comment, which is helpful to comment code throughout your session. |
+| `$attach` | Attaches the Visual Studio debugger to the REPL window process to enable debugging. |
+| `$cls`, `$clear` | Clears the contents of the editor window, leaving history and execution context intact. |
+| `$help` | Display a list of commands, or help on a specific command. |
+| `$load` | Loads commands from file and executes until complete. |
+| `$mod` | Switches the current scope to the specified module name. |
+| `$reset` | Resets the execution environment to the initial state, but keeps history. |
+| `$wait` | Waits for at least the specified number of milliseconds. |
 
 The commands are also extensible via MEF (the Managed Extensibility Framework for .NET).
 

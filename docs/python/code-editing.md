@@ -62,6 +62,8 @@ When a completion list is open, you can search for the completion you want using
 - Typing only letters that are at the start of words, such as 'abc' to find 'AbstractBaseClass' or 'air' to find 'as_integer_ratio'
 - Skipping letters, such as 'b64' to find 'base64'
 
+Some examples:
+
 ![Member completion with filtering](media/code-editing-completion-filtering.png)
 
 Member completions are shown automatically when you type a period after a variable or value, and displays the methods and attributes of the potential types. If a variable could be more than one type, the list includes all possibilities from all types, with extra information to indicate which types support each completion. Where a completion is supported by all possible types, it is shown without annotation.

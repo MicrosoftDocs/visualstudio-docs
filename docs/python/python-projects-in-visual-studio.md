@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Python Projects in Visual Studio
+# Python Projects
 
 Python applications are typically defined using only folders and files, but this can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. To help manage this complexity, Python Tools for Visual Studio (PTVS) allows you to create projects (.pyproj files) using the Visual Studio project system. A project identifies all the source and content files associated with your project, contains build information for each file, contains the necessary information to integrate with source-control systems, and helps you organize your application into logical components.
 
@@ -67,11 +67,9 @@ As you develop your application, you'll typically need to add new files of diffe
 
 Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. This is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or execute your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right click the desired environment and select **Activate Environment**:
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right click the desired environment and select **Activate Environment** as shown below. For more details, see [Python Environments](python-environments.md#project-specific-environments).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
-
-For more details, see [Python Environments](python-environments.md#project-specific-environments).
 
 ## Project templates
 
@@ -95,8 +93,6 @@ The following table summarizes the templates available in the current release of
 
 
 ### Creating a project from existing files
-
-PTVS can create a Visual Studio project from existing Python code without having to move the code around:
 
 1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.
 1. In the following dialog, set the path to your existing code, a filter for file types, and any search paths that your project requires, then select **Next**:
@@ -166,9 +162,6 @@ Because references in IronPython are not available until a call to `clr.AddRefer
 
 ### WebPI projects
 
-You can add references to WebPI product entries for deployment to Microsoft Azure Cloud Service where you can install additional components via the WebPI feed. By default, the feed displayed is Python specific and includes Django, CPython, and other core components. You can also select your own feed:
+You can add references to WebPI product entries for deployment to Microsoft Azure Cloud Service where you can install additional components via the WebPI feed. By default, the feed displayed is Python specific and includes Django, CPython, and other core components. You can also select your own feed as shown below. When publishing to Microsoft Azure, a setup task installs all of the referenced products.
 
 ![WebPI References](media/projects-webPI-components.png)
-
-
-When publishing to Microsoft Azure, a setup task installs all of the referenced products.
