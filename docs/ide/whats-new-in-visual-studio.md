@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Visual Studio 2017 | Microsoft Docs"
+title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/07/2017"
 ms.reviewer: ""
@@ -36,8 +36,8 @@ Welcome to Visual Studio 2017, an integrated suite of developer productivity too
 
 In this, our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
-> [!TIP]
-> To see our new version in action, watch the [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) video on Channel 9.   
+> [!NOTE]
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
 
 Here is a high-level recap of the changes we've made:
 
@@ -47,9 +47,6 @@ Here is a high-level recap of the changes we've made:
 * **Five-star mobile development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for developers to build, connect, and tune mobile apps for Android, iOS, and Windows. Developers can also choose to develop mobile apps with Apache Cordova or with Visual C++ cross-platform library development, all in Visual Studio.  
 
 And here are more details on our most notable changes.
-
-> [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).    
 
 ## Performance improvements
 
