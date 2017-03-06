@@ -1,7 +1,7 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/14/2017"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -32,8 +32,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Use command-line parameters to install Visual Studio 2017 RC
-When you install Visual Studio 2017 RC from a command prompt, you can use the following command-line parameters (also known as switches).  
+# Use command-line parameters to install Visual Studio 2017
+When you install Visual Studio 2017 from a command prompt, you can use the following command-line parameters (also known as switches).  
 
 ## List of command-line parameters  
  Visual Studio command-line parameters are not case-sensitive.  
@@ -80,10 +80,7 @@ If no command is specified, it will install the product.
 | ```--wait``` | Optional: The process will wait until the install is completed before returning a exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. |
 | ```--productKey``` | Optional: This defines the product key to use for an installed product. It is composed of 25 alphanumeric characters either in the format 'xxxxx-xxxxx-xxxxx-xxxxx-xxxxx' or 'xxxxxxxxxxxxxxxxxxxxxxxxx'. |
 ## List of workload IDs and component IDs
-For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
-
-> [!WARNING]
-> The --layout parameter will fail if the setup .exe file name includes numerals. To work around this issue, you must remove the numerals from the filename&mdash;for example, rename *vs_community__198521760.1486960229.exe* to ***vs_community.exe***.
+For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 
 ## List of language locales
 | **Language-locale** | **Language** |
@@ -105,12 +102,8 @@ For a list of workload and component IDs sorted by Visual Studio product, see ou
 | zh-TW | Chinese - Traditional |
 
 
-
-> [!IMPORTANT]
-> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
-
 ## See also
 
  * [Install Visual Studio](install-visual-studio.md)
- * [Create an offline installation of Visual Studio 2017 RC](create-an-offline-installation-of-visual-studio.md)
+ * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

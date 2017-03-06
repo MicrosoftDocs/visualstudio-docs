@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Visual Studio 2017 RC | Microsoft Docs"
+title: "What&#39;s New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/13/2016"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,12 +32,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # What&#39;s New in Visual Studio 2017
-Welcome to Visual Studio 2017 RC, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
+Welcome to Visual Studio 2017, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.  
 
-In this release candidate (RC) of our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
+In this, our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
 > [!TIP]
-> To see our new RC in action, watch the [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) video on Channel 9.   
+> To see our new version in action, watch the [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) video on Channel 9.   
 
 Here is a high-level recap of the changes we've made:
 
@@ -49,18 +49,18 @@ Here is a high-level recap of the changes we've made:
 And here are more details on our most notable changes.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017 RC and its subsequent RC Refresh, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs). And for a list of issues and workarounds, see the [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) section of the Release Notes.   
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).    
 
 ## Performance improvements
 
 ### A new setup experience  
-[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
+[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
 
  We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them. We've also reduced the minimum footprint, so that Visual Studio installs more quickly with less system impact. And, it uninstalls cleanly, too.
 
- The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to data science with R, Python, and F#.  
+ The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to C++ application development on Windows, Linux, and iOS.   
 
- ![Visual Studio 2017 RC Setup Dialog](../ide/media/willow1.png "VS2017RC_Setup_screen")
+ ![Visual Studio 2017 setup dialog](../install/media/vs2017-workloads.PNG "Visual Studio 2017 setup screen")
 
 Choose the workloads you need, and change them up when you need to. The smallest install is just a few hundred megabytes, yet still contains basic code editing support for more than twenty languages along with source code control.
 
@@ -68,24 +68,23 @@ We've also added different ways to install Visual Studio. Want to pick your own 
 
 To learn even more about the new installation experience, including step-by-step instructions that walk you through it, see our [Install Visual Studio](../install/install-visual-studio.md) page.
 
-
 ### Start Visual Studio faster
 If Visual Studio detects that IDE startup time is slow, it provides a new Visual Studio Performance Center to help you speed things up. The Performance Center lists all the extensions and tool windows that are slowing down IDE startup. You can use it to improve startup performance by determining when extensions start, or whether tool windows are open at startup.
 
 ### Decrease solution load time
 Working on solutions that contain upwards of 100 projects doesn't mean you need to work with all the files or projects at once. Now you can edit and debug without waiting for Visual Studio to load every project. To try this out with managed projects, turn on the  **Lightweight Solution load** from Tools -> Options -> Projects and Solutions.
 
-  ![Options dialog box in Visual Studio 2017 RC](../ide/media/vs2017ide-LightweightSolutionLoad.PNG "VS2017RC Options dialog box - Lightweight Solution Load")
+  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-LightweightSolutionLoad.PNG "Visual Studio 2017 - Options dialog box - Lightweight Solution Load")
 
 ### Faster on-demand loading of extensions
 The idea is simple: Load extensions when they're needed instead of when Visual Studio starts. First, we moved our Python and Xamarin extensions to load on demand, and next, we are working on moving all extensions that we ship with Visual Studio&#151;and extensions shipped by third-party vendors&#151;to this model. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in Help -> Manage Visual Studio Performance.
 
-  ![Options dialog box in Visual Studio 2017 RC](../ide/media/vs2017ide-ManageVSperf.png "VS2017RC Help dialog box - Performance Management")
+  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
 ## Productivity improvements
 
 ### Sign in across multiple accounts  
-We've introduced a new identity service in Visual Studio 2017 RC that allows you to share user accounts across Microsoft developer tools, such as Team Explorer, Azure Tools, Windows Store publishing, and more.
+We've introduced a new identity service in Visual Studio 2017 that allows you to share user accounts across Microsoft developer tools, such as Team Explorer, Azure Tools, Windows Store publishing, and more.
 
 As well, you can stay signed in longer; we won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
 
@@ -94,7 +93,7 @@ Now it's even easier to set up each dev environment with your favorite extension
 
 To see a list of your extensions in Visual Studio, click  Tools > Extensions & Updates, and then click the Roaming Extension Manager.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-ExtensionsAndUpdates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
+![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-extensions-and-updates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
@@ -112,7 +111,7 @@ These icons show you the current status of your list. You can have any extension
 
 ### Experience live architecture dependency validation and live unit testing
 
-In Visual Studio Enterprise 2017 RC, if you have set up Dependency Validation diagrams (a.k.a. Layer diagrams), you can now be notified in real-time of architectural dependency rule violations as you type code in the Code Editor.
+In Visual Studio Enterprise 2017, if you have set up Dependency Validation diagrams (a.k.a. Layer diagrams), you can now be notified in real-time of architectural dependency rule violations as you type code in the Code Editor.
 
 Errors appear in the Error List, and squiggles in the text editor show you the precise location of a violation. Now, you're less likely to introduce unwanted dependencies.
 
@@ -122,16 +121,18 @@ Errors appear in the Error List, and squiggles in the text editor show you the p
 
 Live Unit Testing is a new feature that we are introducing and is only present in the Enterprise edition of Visual Studio. This feature visualizes unit test results and code coverage live on the editor, while you are coding. It works with C#/VB projects for the .NET Framework and supports three test frameworks of MSTest, xUnit, and NUnit.
 
+![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
+
 ### Visual Studio IDE enhancements
 #### Interact with Git:
 Controls in the bottom corner of the Visual Studio IDE enable you to quickly commit and publish your projects to Git and manage your Git repositories.
 
-![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-GitInteraction.png "Git-tools-in-the-VS2017RC-IDE")
+![Visual Studio 2017 interact with Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
 #### View and navigate code with Structure Visualizer:
 A new feature called Structure Visualizer is available in the Visual Studio code editor. This feature displays vertical guidelines between nested areas of code, making it easier for you to view and navigate through your code. This feature is available for all TextMate-backed languages as well as Visual C#, Visual Basic, and XAML.
 
-![Visual Studio 2017 RC Setup Dialog](../ide/media/vsIDE-StructureVisualizer.png "Structure-Visualizer-in-VS2017RC")
+![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
 #### Experience an improved Navigate To:
 We've improved the Navigate To function. We've simplified the Navigate To window, and we've added support for additional filter characters that enable you to narrow your code searches.
@@ -140,11 +141,11 @@ We've improved the Navigate To function. We've simplified the Navigate To window
 You can create apps in Visual Studio using a larger number of programming languages than in previous versions, and solutions and projects are no longer required. Your code gets syntax colorization, basic statement completion, and in some cases, Navigate To and other support. If your favorite language isn't supported, you can create support for it by using TextMate Grammars.
 
 ### Visual C++
-Visual Studio 2017 RC brings many updates and fixes to the Visual C++ environment. We've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect").
+Visual Studio 2017 brings many updates and fixes to the Visual C++ environment. We've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect").
 
 We've also made several improvements, to include distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, adding and updating functionality in the C++ libraries, and improving the performance of the C++ IDE, installation workloads, and more.
 
-For complete details, see our [What's New for Visual C++ in Visual 2017 RC](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
+For complete details, see our [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
 
 ### Debugging and Diagnostics
@@ -157,7 +158,7 @@ In Visual Studio 2017, we turned off the hosting process and optimized debugging
 #### Run to Click:
 Now, while you are debugging, you can click the icon next to a line of code to run that line. You no longer have to set temporary breakpoints to perform several steps to execute your code and stop on the line you want.
 
-![Visual Studio 2017 RC Debug - Run To click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio 2017 debug & diagnostics")
+![Visual Studio 2017 debug - Run To Click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio debug & diagnostics")
 
 #### The New Exception Helper:
 
@@ -167,7 +168,7 @@ Quickly see what was null right inside the Exception Helper when you diagnose a 
 
 You can also exclude breaking on exception types that are thrown from specific modules by clicking the checkbox to add a condition when you are stopped at a thrown exception.
 
-![The New Exception Helper dialog](../ide/media/vs2017ide-ExceptionHelper.png "The New Exception Helper dialog")
+![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png "The New Exception Helper dialog")
 
 For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
