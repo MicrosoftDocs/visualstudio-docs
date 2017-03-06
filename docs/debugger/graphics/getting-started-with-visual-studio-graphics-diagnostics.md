@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Visual Studio Graphics Diagnostics | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -32,14 +32,8 @@ translation.priority.ht:
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.  
   
 ## Requirements  
- To use Graphics Diagnostics in Visual Studio 2015, you must have one of these editions:  
-  
--   Visual Studio 2015 Enterprise  
-  
--   Visual Studio 2015 Professional  
-  
--   Visual Studio 2015 Community  
-  
+ To use Graphics Diagnostics in Visual Studio, you must use Visual Studio Enterprise, Visual Studio Professional, or Visual Studio Community.  Other editions, including Visual Studio Code, do not contain this feature.
+ 
  [!INCLUDE[downloadvs](../includes/downloadvs_md.md)]  
   
 ### Windows 10 prerequisites  
@@ -78,11 +72,12 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  Now that you have everything you need, you're ready to start using Graphics Diagnostics. Just follow these steps.  
   
 ### 1 - Create a Direct3D app  
- If you've already got your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise you can use one of the Direct3D samples available on Code Gallery.  
-  
--   To try out Graphics Diagnostics with Direct3D 12 on Windows 10 using Visual Studio 2015, try the [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10.  
-  
--   To try out Graphics Diagnostics with Direct3D 11 on Windows 10 or Windows 8.1, you can use the **DirectX App (Windows Universal)** or  **DirectX App (Windows 8.1)** project templates. Or, for something more interesting, try the [DirectX marble maze game sample](https://code.msdn.microsoft.com/windowsapps/DirectX-Marble-Maze-Game-e4806345) for Windows 8.1.  
+ If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
+
+- The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.
+- The **DirectX App (Windows 8.1)** project template for Windows 8.1.
+- [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10.  
+- The [DirectX marble maze game sample](https://code.msdn.microsoft.com/windowsapps/DirectX-Marble-Maze-Game-e4806345) for Windows 8.1.  
   
  Make sure you can build the app before moving on.  
   
@@ -95,15 +90,15 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 ### 3 - Capture Frames  
  You're ready to capture frames as soon as your app starts.  
   
-##### To capture single frames  
+#### To capture single frames  
   
--   In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press **Print Screen**.  
+-   In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press the **Print Screen** key on your keyboard.
   
-##### To capture a sequence of frames  
+#### To capture a sequence of frames  
   
 -   In Visual Studio, in the diagnostic session window, set **Frames to capture** to the number of frames you want to capture in sequence, then capture the sequence by using any of the methods you described above to capture single frames.  
   
-     To capture single frames again, set **Frames to capture** to `1`.  
+     To capture single frames again, set **Frames to capture** to *1*.  
   
  When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
   
