@@ -58,7 +58,7 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Enterprise, run: <br>  ```vs_enterprise.exe --layout c:\vs2017offline```
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
 - For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
- 
+
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
 
@@ -91,7 +91,7 @@ Sometimes, things go wrong. Here is a table of known issues and some workarounds
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
 
-### How to get support for your offline installation
+### How to get support for your offline installer
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
 We have other support options available, too. For a list of those, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.

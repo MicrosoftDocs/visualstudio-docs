@@ -60,7 +60,7 @@ And here are more details on our most notable changes.
 
  The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to data science with R, Python, and F#.  
 
- ![Visual Studio 2017 setup dialog](../ide/media/willow1.png "Visual Studio 2017 setup screen")
+ ![Visual Studio 2017 setup dialog](../install/media/vs2017-workloads.PNG "Visual Studio 2017 setup screen")
 
 Choose the workloads you need, and change them up when you need to. The smallest install is just a few hundred megabytes, yet still contains basic code editing support for more than twenty languages along with source code control.
 
@@ -79,7 +79,7 @@ Working on solutions that contain upwards of 100 projects doesn't mean you need 
 ### Faster on-demand loading of extensions
 The idea is simple: Load extensions when they're needed instead of when Visual Studio starts. First, we moved our Python and Xamarin extensions to load on demand, and next, we are working on moving all extensions that we ship with Visual Studio&#151;and extensions shipped by third-party vendors&#151;to this model. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in Help -> Manage Visual Studio Performance.
 
-  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-ManageVSperf.png "Visual Studio Help dialog box - Performance Management")
+  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
 ## Productivity improvements
 
@@ -93,7 +93,7 @@ Now it's even easier to set up each dev environment with your favorite extension
 
 To see a list of your extensions in Visual Studio, click  Tools > Extensions & Updates, and then click the Roaming Extension Manager.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-ExtensionsAndUpdates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
+![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-extensions-and-updates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
