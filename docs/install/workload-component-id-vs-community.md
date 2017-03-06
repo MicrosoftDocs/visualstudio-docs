@@ -1,6 +1,4 @@
 ---
-# required metadata
-
 title: [Visual Studio Community 2017 workload and component IDs | Microsoft Docs]
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
 keywords:

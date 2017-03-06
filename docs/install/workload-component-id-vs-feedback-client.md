@@ -1,6 +1,4 @@
 ---
-# required metadata
-
 title: [Visual Studio Feedback Client 2017 workload and component IDs | Microsoft Docs]
 description: "Use Visual Studio workload and component IDs to provide rich feedback for Visual Studio Team Services or Team Foundation Server"
 keywords:

@@ -1,6 +1,6 @@
 ---
 title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to create an offline installation of Visual Studio."
+description: "Learn how to create an offline installer for of Visual Studio."
 ms.custom: ""
 ms.date: "03/07/2017"
 ms.reviewer: ""

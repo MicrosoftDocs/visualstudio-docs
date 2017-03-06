@@ -1,8 +1,6 @@
 ---
-# required metadata
-
 title: [Visual Studio 2017 workload and component IDs | Microsoft Docs]
-description: "Use workload and component IDs to to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
+description: "Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
 keywords:
 author: [TerryGLee]
 ms.author: [tglee]
@@ -37,7 +35,7 @@ translation.priority.mt:
 ---
 
 # Visual Studio 2017 workload and component IDs
-The following pages list the workload and component IDs you’ll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest. 
+The following pages list the workload and component IDs you’ll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
 * [Visual Studio Enterprise 2017](workload-component-id-vs-enterprise.md)
 * [Visual Studio Professional 2017 ](workload-component-id-vs-professional.md)

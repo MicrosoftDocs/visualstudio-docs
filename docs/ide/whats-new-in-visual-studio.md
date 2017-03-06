@@ -58,7 +58,7 @@ And here are more details on our most notable changes.
 
  We've redesigned the Visual Studio setup experience to make it even easier to install just the features you need, when you need them. We've also reduced the minimum footprint, so that Visual Studio installs more quickly with less system impact. And, it uninstalls cleanly, too.
 
- The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to data science with R, Python, and F#.  
+ The most important change you'll see when you install Visual Studio is its new install experience. On the **Workloads** tab, you'll see installation options that are grouped to represent common frameworks, languages, and platforms - covering everything from .NET desktop development to C++ application development on Windows, Linux, and iOS.   
 
  ![Visual Studio 2017 setup dialog](../install/media/vs2017-workloads.PNG "Visual Studio 2017 setup screen")
 
