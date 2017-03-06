@@ -84,7 +84,14 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
      ![Post&#45;collection, with range selected](media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
   
  This opens a new tabbed document that contains the report. The GPU Usage report helps you to see when a graphics event is started on the CPU, when it reaches the GPU, and how long it takes the GPU to execute it. This information can help you to identify bottlenecks and opportunities for increased parallelism in your code.  
-  
+
+<!-- VERSIONLESS -->
+## Export to GPUView or Windows Performance Analyzer
+Starting with Visual Studio 2017, this data can be opened with [GPUView](https://msdn.microsoft.com/library/windows/desktop/ff570133(v=vs.85).aspx) and [Windows Performance Analyzer](https://msdn.microsoft.com/windows/hardware/commercialize/test/wpt/windows-performance-analyzer) by clicking the **Open in GpuView** or **Open in WPA** links located at the lower right of the diagnostic session.
+
+![Open in...](media/gfx_diag_open_in.png)
+<!-- /VERSIONLESS -->
+
 ## Using the GPU Usage report  
  The top portion of the GPU Usage report displays timelines for the CPU processing activity, GPU rendering activity and GPU copy activity. These timelines are divided by light-grey, vertical bars that represent the display's vsync; the frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down) that GPU Usage data was collected from. Because the display might have a higher refresh rate than your app's performance target there might not be a 1-to-1 relationship between vsync and the frame-rate you want your app to achieve. To meet its performance target an app must complete all processing, perform rendering, and make a Present() call at the targeted framerate, but the rendered frame will not be displayed until the next vsync after Present().  
   
@@ -154,9 +161,8 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 ## See also  
   
 -   [Solve the Tough Graphics Problems with your Game Using DirectX Tools (video)](http://channel9.msdn.com/Events/GDC/GDC-2015/Solve-the-Tough-Graphics-Problems-with-your-Game-Using-DirectX-Tools)  
-  
 -   [GPU Usage Tool in Visual Studio (video)](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)  
-  
 -   [GPU Usage tool in Visual Studio 2013 Update 4 CTP1 (blog)](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx)  
-  
 -   [GPU Usage for DirectX in Visual Studio (blog)](http://blogs.msdn.com/b/ianhu/archive/2014/12/16/gpu-usage-for-directx-in-visual-studio.aspx)
+- [GPUView](https://msdn.microsoft.com/library/windows/desktop/ff570133(v=vs.85).aspx) 
+- [Windows Performance Analyzer](https://msdn.microsoft.com/windows/hardware/commercialize/test/wpt/windows-performance-analyzer)
