@@ -1,7 +1,7 @@
 ---
 title: "Refactoring Code in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/24/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,7 +78,7 @@ PTVS attempts to filter out members that aren't really defined in a module, such
 
 Similarly, PTVS filters functions that are imported from other modules or from the built-in namespace. For example if a module imports the `settrace` function from the `sys` module, then in theory you could import it from that module. But it's best to use `import settrace from sys` directly, and so PTVS offers that statement specifically.
 
-Finally if something would be excluded due to the rules above but has other values that would be included (because the name was assigned a value in the module, for example), PTVS still excludes the import. This assumes that the value should'nt be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value which is also not exported.
+Finally if something would be excluded due to the rules above but has other values that would be included (because the name was assigned a value in the module, for example), PTVS still excludes the import. This assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value which is also not exported.
 
 ## Remove unused imports
 

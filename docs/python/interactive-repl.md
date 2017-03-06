@@ -1,7 +1,7 @@
 ---
 title: "Interactive REPL with Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/27/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -132,7 +132,7 @@ You can also select code, right-click, and select **Send to Defining Module**, w
 
 ## IntelliSense behavior
 
-The interactive window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is basedf on source code analysis only. This makes suggestions more correct in the interactive window, especially with dynamically-generated code. The drawback is that functions with side-effects (such a logging messages) may impact your development experience.
+The interactive window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. This makes suggestions more correct in the interactive window, especially with dynamically-generated code. The drawback is that functions with side-effects (such a logging messages) may impact your development experience.
 
 If this is a problem, change the settings under **Tools > Options > Python Tools > Interactive Windows** in the **Completion Mode** group:
 

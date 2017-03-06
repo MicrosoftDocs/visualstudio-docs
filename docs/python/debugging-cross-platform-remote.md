@@ -1,7 +1,7 @@
 ---
 title: "Cross-Platform Remote Debugging with Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/28/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Remotely Debugging Python Code
 
-Python Tools for Visual Studio (PTVS) can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPythong using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
+Python Tools for Visual Studio (PTVS) can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPython using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
 
 When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote machine to allow TCP connections.
 
@@ -108,7 +108,7 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 
     ![Breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
 
-1. At this point you can use all the usualPTVS debugging features. 
+1. At this point you can use all the usual PTVS debugging features. 
 
 1. When you stop debugging, Visual Studio detaches from your script, but the script will continue running on the remote machine. The debug server also continues running on its background thread, so you can re-attach to the process later using the same procedure.
 
@@ -117,7 +117,7 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 
 By default, the connection to the PTVS remote debug server is not secured in any way; anyone with the secret can connect, and all data is passed in plain text. Consequently, others on the network can snoop on the data or even execute a man-in-the-middle (MITM) attack. To prevent this when debugging over unsecured networks or Internet, the debug server supports SSL. 
 
-To secure the channel with SSL, you'll need an SSL certificate. You can generate a self-signed certificate yourself, as described in the [documentation for Python standard module `ssl`](http://docs.python.org/3/library/ssl.html#self-signed-certificates). To prevent MITM attacks, such a generated certificate will also have to be added to the CA root store on the Windows machine running PTVS. This can be done using the Certificate Manager (certmgr.msc) as described on [How do I export certficates and/or private keys?](https://answers.microsoft.com/en-us/windows/forum/windows_10-security/how-do-i-export-certificates-andor-private-keys/7722900a-e848-4076-bc50-9e2f5e3c66ac). Note that you will need to have a separate certificate file (not combined with the private key in a single file) to import. 
+To secure the channel with SSL, you'll need an SSL certificate. You can generate a self-signed certificate yourself, as described in the [documentation for Python standard module `ssl`](http://docs.python.org/3/library/ssl.html#self-signed-certificates). To prevent MITM attacks, such a generated certificate will also have to be added to the CA root store on the Windows machine running PTVS. This can be done using the Certificate Manager (certmgr.msc) as described on [How do I export certificates and/or private keys?](https://answers.microsoft.com/en-us/windows/forum/windows_10-security/how-do-i-export-certificates-andor-private-keys/7722900a-e848-4076-bc50-9e2f5e3c66ac). Note that you will need to have a separate certificate file (not combined with the private key in a single file) to import. 
 
 After you have the certificate and the private key files generated and registered, you'll need to update the call to `enable_attach` in your script to use them. This is done by means of `certfile` and `keyfile` parameters, which have the same meaning as for the standard Python function `ssl.wrap_socket`. For example, if the certificate file is called `my_cert.cer`, and the key file is called `my_cert.key`, use: 
 

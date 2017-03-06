@@ -1,7 +1,7 @@
 ---
 title: "Web Project Template in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/22/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,7 +64,7 @@ When a web project is started for debugging, PTVS will start the web server loca
 
 In the **Debug** group:
 
-- **Search Paths**, **Script Arguments**, **Intepreter Arguments**, and **Interpreter Path**: these are the same as for [normal debugging](debugging.md)
+- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these are the same as for [normal debugging](debugging.md)
 - **Launch URL**: specifies the URL that will be opened in your browser. It defaults to `localhost`.
 - **Port Number**: the port to use if none is specified in the URL (PTVS selects one automatically by default). This allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 
@@ -78,7 +78,7 @@ Any project property or environment variable can be specified with MSBuild synta
 `$(StartupFile)` is the relative path to the startup file and `{StartupModule}` is the importable name of the startup file. `$(SERVER_HOST)` and `$(SERVER_PORT)` are normal environment variables that are set by the **Launch URL** and **Port Number** properties, automatically, or by the **Environment** property.
 
 > [!Note]
-> Values in **Run Server Command** are usedwith the **Debug > Start Server** command or Ctrl-F5; values in the **Debug Server Command** group are used with the **Debug > Start Debug Server** command or F5.
+> Values in **Run Server Command** are used with the **Debug > Start Server** command or Ctrl-F5; values in the **Debug Server Command** group are used with the **Debug > Start Debug Server** command or F5.
 
 
 ### Sample Bottle configuration

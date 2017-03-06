@@ -1,7 +1,7 @@
 ---
 title: "Debugging in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/24/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -132,7 +132,7 @@ If an error occurs while your program is being debugged, and you don't have an e
 
 ![Exception popup](media/debugging-exception-popup.png)
 
-At this poin tyou can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception will continue being thrown until it is either handled or your program exits.
+At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception will continue being thrown until it is either handled or your program exits.
 
 The **Debug > Windows > Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
@@ -140,7 +140,7 @@ The **Debug > Windows > Exception Settings** menu command brings up a window in 
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. You should check this box when you want to break more often for a particular exception.
 
-By default, most exceptions will break when an exception handler cannot found in the source code. To change this behavior, right-click any exception and check or uncheck "Continue When Unhandled in User Code". You should uncheck this box when you want to break less often for an exception.
+By default, most exceptions will break when an exception handler cannot found in the source code. To change this behavior, right-click any exception and check or uncheck "Continue When Unhandled in User Code". You should clear this box when you want to break less often for an exception.
 
 To configure an exception that does not appear in this list, click the **Add** button to add it. The name must match the full name of the exception.
 
@@ -165,7 +165,7 @@ The **Launch mode** options lets you choose between the following options, which
 
 | Option | Description |
 | --- | --- |
-| Search Paths | These match what's shown in the project's Search Paths node in Solution Explorer. You can modify this value here, but it's easuer to use Solution Explorer that lets you browse folders and automatically converts paths to relative form. |
+| Search Paths | These match what's shown in the project's Search Paths node in Solution Explorer. You can modify this value here, but it's easier to use Solution Explorer that lets you browse folders and automatically converts paths to relative form. |
 | Script Arguments | These are added to the command used to launch your script, appearing after your script's filename. The first item here will be available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
 | Interpreter Arguments | These are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
 | Interpreter Path | Overrides the path associated with the current environment. This may be useful for launching your script with a non-standard interpreter. |

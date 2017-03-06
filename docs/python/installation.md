@@ -1,7 +1,7 @@
 ---
 title: "Installation for Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/3/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

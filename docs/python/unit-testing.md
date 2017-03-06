@@ -1,7 +1,7 @@
 ---
 title: "Unit Testing in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/26/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ Unit tests are pieces of code that test other code units in an application, typi
 
 Python uses unit tests extensively to validate scenarios while designing a program. Python Tools for Visual Studio(PTVS)  includes support for discovering, executing, and debugging unit tests within the context of your development process, rather than needing to run them separately.
 
-This topic provides a brief outline of unit testing capabilites in Visual Studio with Python. For more on unit testing in general, see [Unit Test Your Code](../test/unit-test-your-code.md).
+This topic provides a brief outline of unit testing capabilities in Visual Studio with Python. For more on unit testing in general, see [Unit Test Your Code](../test/unit-test-your-code.md).
 
 ## Discovering and viewing tests
 

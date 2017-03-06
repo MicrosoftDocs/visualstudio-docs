@@ -1,7 +1,7 @@
 ---
 title: "Editing Code in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/24/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/22/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -115,7 +115,7 @@ PTVS can create a Visual Studio project from existing Python code without having
 
 ## Linked files
 
-Linked files are those that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with a overlayed shortcut icon: ![Linked file icon](media/projects-linked-file-icon.png)
+Linked files are those that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with a overlaid shortcut icon: ![Linked file icon](media/projects-linked-file-icon.png)
 
 Linked files are specified in the `.pyproj` file using the normal `<Compile Include="...">` element. They can be implicit linked files if they use a relative path outside of the directory structure, or they can be explicit link files by specifying their path within Solution Explorer:
 
@@ -148,7 +148,7 @@ Visual Studio projects support adding references to projects and extensions, whi
 
 ![Extension references in Python projects](media/projects-extension-references.png)
 
-Extension references typically indicate dependencies between projects and are used to provide IntelliSense at design time or linking at compile time. PTVS also uses references in a similar fashion, but due to the dynamic nature of Python they are primarly used at design time to provide improved IntelliSense. They can also be used for deployment to Microsoft Azure to install additional dependencies.
+Extension references typically indicate dependencies between projects and are used to provide IntelliSense at design time or linking at compile time. PTVS also uses references in a similar fashion, but due to the dynamic nature of Python they are primarily used at design time to provide improved IntelliSense. They can also be used for deployment to Microsoft Azure to install additional dependencies.
 
 ### Extension modules
 

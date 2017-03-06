@@ -1,7 +1,7 @@
 ---
 title: "Python Environments in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/14/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -119,7 +119,7 @@ If shown, contains details as described in the table below. If this tab isn't pr
 | **Description** | The name to give the environment. |
 | **Prefix path** | The base folder location of the interpreter. By filling this in and clicking **Auto Detect**, Visual Studio attempts to fill in the other fields for you. |
 | **Interpreter path** | The path to the interpreter executable, commonly the prefix path followed by `python.exe` |
-| **Windowed interpreter** | Tthe path to the non-console executable, often the prefix path followed by `pythonw.exe`. |
+| **Windowed interpreter** | The path to the non-console executable, often the prefix path followed by `pythonw.exe`. |
 | **Library path** | Specifies the root of the standard library, but this value may be ignored if Visual Studio is able to request a more accurate path from the interpreter. |
 | **Language version** | Selected from the drop down menu. |
 | **Architecture** | Normally detected and filled in automatically, otherwise specifies 32-bit or 64-bit. |
@@ -155,7 +155,7 @@ Project environments are listed in Solution Explorer under the Python Environmen
 
 ![Project environments displayed in Solution Explorer](media/environments-project.png)
 
-To activate a different environment for the project, right-click that envionment and select **Activate Environment**.
+To activate a different environment for the project, right-click that environment and select **Activate Environment**.
 
 Any global environment can be added as a project environment by right-clicking **Python Environments** and selecting **Add/Remove Python Environments...**. From the displayed list you can select or deselect those that are available in your project.
 
@@ -210,7 +210,7 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
     ![Install from requirements.txt](media/environments-requirements-txt-install.png)
 
-- When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate reqirements.txt** to create the necessary file. If the file already exists, you'll be prompted for how to update it:
+- When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate requirements.txt** to create the necessary file. If the file already exists, you'll be prompted for how to update it:
 
     ![Update requirements.txt options](media/environments-requirements-txt-replace.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "CookieCutter Extension with Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/3/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ The Cookiecutter home page displays a list of templates to choose from, organize
 | Group | Description | 
 | --- | --- |
 | Installed | Templates that have been installed to your local machine. When an online template is used, its repository is automatically cloned to a subfolder of `~/.cookiecutters`. You can delete a selected installed template by pressing **Del**. |
-| Recommended | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for defails on customizing the feed. |
+| Recommended | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for details on customizing the feed. |
 | GitHub | GitHub search results for the cookiecutter keyword. Results from GitHub come back paginated, if more results are available, **Load More** appears at the end of the list. |
 | Custom | When a custom location is entered in the search box, it appears in this group. You can either type in a full path to the GitHub repository, or the full path to a folder on your local disk. |
 
@@ -148,7 +148,7 @@ Cookiecutter has a feature called *Post-Generate Hooks* that allows for running 
 
 For example, you may want to open a file in the Visual Studio editor, or in its web browser, or trigger the Visual Studio UI that prompts the user to create a virtual environment and install package requirements.
 
-To allow these scenarios, Visual Studio looks for extended metadata in `cookiecutter.json` that describes the commands to run after the user opens the generated files in Solution Explorer or after the files are added to an existing project. (Again, the user can opt-out of running the tasks by unchecking **Run additional tasks on completion** in the template options.)
+To allow these scenarios, Visual Studio looks for extended metadata in `cookiecutter.json` that describes the commands to run after the user opens the generated files in Solution Explorer or after the files are added to an existing project. (Again, the user can opt-out of running the tasks by clearing **Run additional tasks on completion** in the template options.)
 
 Example:
 

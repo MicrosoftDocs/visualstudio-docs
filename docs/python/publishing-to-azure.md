@@ -1,7 +1,7 @@
 ---
 title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/4/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,7 +64,7 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 
   ![Installing required packages](media/tutorials-common-external-packages.png)
 
-1. Select your preferred base interpreter for the virual environment (for example, **Python 2.7** or **Python 3.4**) and click **Create**:
+1. Select your preferred base interpreter for the virtual environment (for example, **Python 2.7** or **Python 3.4**) and click **Create**:
 
   ![Adding a virtual environment when creating a project](media/tutorials-common-add-virtual-environment.png)
 

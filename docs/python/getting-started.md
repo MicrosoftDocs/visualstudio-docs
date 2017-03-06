@@ -1,7 +1,7 @@
 ---
 title: "Start Working with Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/6/2017"
+ms.date: "3/7/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

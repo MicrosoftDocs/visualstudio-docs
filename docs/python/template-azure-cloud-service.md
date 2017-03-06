@@ -1,7 +1,7 @@
 ---
 title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/21/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -100,7 +100,7 @@ Finally, worker roles execute `LaunchWorker.ps1`, which starts running your Pyth
 
 For Cloud Service, the `ConfigureCloudService.ps1` script uses `pip` to install a set of Python dependencies. These should be specified in a file named `requirements.txt` (customizable by modifying `ConfigureCloudService.ps1`). The file is executed with `pip install -r requirements.txt` as part of initialization.
 
-Note that Cloud Service instances do not include C compilers, so all libraries with C extensions must provide precompiled binaries.
+Note that Cloud Service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
 pip and its dependencies, as well as the packages in `requirements.txt`, will be downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages) for details  on managing `requirements.txt` files.
 

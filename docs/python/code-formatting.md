@@ -1,7 +1,7 @@
 ---
 title: "Formatting Code in Pythong Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2/24/2017"
+ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Formatting Python code
 
-Code formatting in Python Tools for Visual Studio (PTVS) version 2.0 and later lets you quick reformat code to match preconfigured formatting options.
+Code formatting in Python Tools for Visual Studio (PTVS) version 2.0 and later lets you quick reformat code to match pre-configured formatting options.
 
 - To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
 - To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
