@@ -54,7 +54,7 @@ Also see the following scenario-specific debugging topics:
 > [!Tip]
 > PTVS supports debugging without a project. With a stand-alone Python file open in Visual Studio right-click in the editor, select **Start with Debugging**, and PTVS launches the script with the global default environment (see [Python Environments](python-environments.md) and no arguments. But from then on, you have full debugging support.
 >
-> To control the environment and arguments, you'll need to create a project for the code. You can easily do this with the [From Existing Python Code](python-projects-in-visual-studio.md#creating-a-project-from-existing-files).
+> To control the environment and arguments, you'll need to create a project for the code. You can easily do this with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files).
 
 ## Basic debugging
 

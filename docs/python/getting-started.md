@@ -40,7 +40,7 @@ In this walkthrough you'll create a new empty Python application, choose a Pytho
 
 ## Create a new Python project
 
-Python support in Visual Studio includes a number of [project templates](python-projects-in-visual-studio.md) to get you started with different types of projects, including web applications using the Bottle, Flask, and Django frameworks along with Azure Cloud Services. For the purposes of this walkthrough, however, we'll start with an empty project.
+Python support in Visual Studio includes a number of [project templates](python-projects.md) to get you started with different types of projects, including web applications using the Bottle, Flask, and Django frameworks along with Azure Cloud Services. For the purposes of this walkthrough, however, we'll start with an empty project.
 
 1. In Visual Studio, select **File > New Project**, which brings up the **New Project** dialog. This is where you can browse and select a template and specify the folder in which to create the project.
 
@@ -65,7 +65,7 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 ### Going deeper
 
-- [Python Projects in Visual Studio](python-projects-in-visual-studio.md).
+- [Python Projects in Visual Studio](python-projects.md).
 - [Web Project Templates](template-web.md)
 - [Django Web Project Template](template-django.md)
 - [Azure Cloud Service Template](template-azure-cloud-service.md)

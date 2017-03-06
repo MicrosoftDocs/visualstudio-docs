@@ -40,8 +40,8 @@ Follow our [installation instructions](installation.md) to set up the Python wor
 
 | Feature | Description | General Visual Studio Documentation | 
 | --- | --- | --- |
-| [Visual Studio project system](python-projects-in-visual-studio.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
-| [Project templates](python-projects-in-visual-studio.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
+| [Visual Studio project system](python-projects.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
+| [Project templates](python-projects.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
 | Multiple interpreter support | Supports various versions of CPython and IronPython. | n/a |
 | IPython support | Includes support for IPython/Jupyter in the REPL for inline plots, .NET, and Windows Presentation Foundation (WPF). | n/a |
 | [Rich editing, IntelliSense, and code comprehension](code-editing.md) | Includes syntax coloring, auto-complete across all your code and libraries, [code formatting](code-formatting.md), signature help, class view, Go to Definition, Find All References, code snippets, [refactoring](code-refactoring.md), [PyLint](code-pylint.md), and more. | [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md) |

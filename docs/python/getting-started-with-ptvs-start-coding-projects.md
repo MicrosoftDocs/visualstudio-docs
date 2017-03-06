@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/python/python-projects-in-visual-studio
+redirect_url: /visualstudio/python/python-projects
 ---
