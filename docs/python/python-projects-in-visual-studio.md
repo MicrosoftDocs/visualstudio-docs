@@ -40,8 +40,6 @@ In addition, projects are always managed within a Visual Studio *solution*, whic
 
 PTVS provides a variety of project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) below for an index.
 
-For an introduction to Python projects in Visual Studio, see [Getting Started with PTVS Part 2: Projects](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m18s). Also see the video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
-
 In this topic:
 
 - [Adding files, assigning a startup file, and setting environments](#adding-file-assigning-a-startup-file-and-setting-environments)
@@ -53,6 +51,14 @@ In this topic:
 > Python Tools for Visual Studio works well without having a Visual Studio project, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code will always use the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, PTVS will analyze all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
+
+For an introduction to Python projects in Visual Studio, see [Getting Started with PTVS Part 2: Projects](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m18s).
+
+> [!VIDEO https://www.youtube.com/embed/KHPoVpL7zHg]
+
+Also see the video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
+
+> [!VIDEO https://www.youtube.com/embed/Aq8eqApnugM]
 
 
 ## Adding files, assigning a startup file, and setting environments

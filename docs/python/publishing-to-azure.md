@@ -35,8 +35,8 @@ translation.priority.ht:
 You can get started quickly building a Python web site in Visual Studio and publish it to Azure App Service through the following steps:
 
 - [Create an Azure subscription](#create-an-azure-subscription)
-- [Create and test the initial project](3create-and-test-the-initial-project)
-- [Publish to Azure App Service](publish-to-azure-app-service)
+- [Create and test the initial project](#create-and-test-the-initial-project)
+- [Publish to Azure App Service](#publish-to-azure-app-service)
 
  A short walkthrough of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s). 
 
@@ -68,7 +68,7 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 
   ![Adding a virtual environment when creating a project](media/tutorials-common-add-virtual-environment.png)
 
-1. Once the project is created, test it by selecting **Debug > Start Debugging** or pressing F5. By default, the application uses an in-memory repository which doesn't require any configuration. All data is lost when the web server is stopped.
+1. Once the project is created, test it locally by selecting **Debug > Start Debugging** or pressing F5. By default, the application uses an in-memory repository which doesn't require any configuration. All data is lost when the web server is stopped.
 
 1. Click around in the application to see its operation.
 
@@ -91,7 +91,8 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 
   ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
 
-1. Select **Next >** as needed to review additional settings, then select **Publish**. Once your application is deployed to Azure, your default browser will open on that site. 
+1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-azure-remote.md), you must set **Configuration** to **Debug**
+1. Select **Publish**. Once your application is deployed to Azure, your default browser will open on that site. 
  
 ## Additional resources
 

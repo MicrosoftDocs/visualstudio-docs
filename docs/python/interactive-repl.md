@@ -36,8 +36,6 @@ Python Tools for Visual Studio (PTVS) provides an interactive read-evaluate-prin
 
 ![Python interactive window](media/interactive-window.png)
 
-For an introduction to the Python interactive Window, see [Getting Started with PTVS, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
-
 PTVS has a number of REPL modes to choose from:
 
 | REPL | Description | Editing | Debugging | Images |
@@ -48,6 +46,10 @@ PTVS has a number of REPL modes to choose from:
 | IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window | 
 
 This topic describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
+
+For an introduction to the Python interactive Window, see [Getting Started with PTVS, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
+
+> [!VIDEO https://www.youtube.com/embed/yc2CROtTsC0]
 
 ## Opening an interactive window
 
