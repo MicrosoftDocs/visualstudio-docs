@@ -99,7 +99,7 @@ To start debugging, set an initial breakpoint in your code, then right-click the
 
 ![Debugging a test](media/unit-test-debugging.png)
 
-You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of PTVS (see the [Features matrix](python-tools-for-visual-studio.md#features-matrix)).
+You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of PTVS (see the [Features matrix](python-in-visual-studio.md#features-matrix)).
 
 ### Known Issues
 
