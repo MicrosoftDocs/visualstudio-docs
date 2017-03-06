@@ -80,10 +80,7 @@ If no command is specified, it will install the product.
 | ```--wait``` | Optional: The process will wait until the install is completed before returning a exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. |
 | ```--productKey``` | Optional: This defines the product key to use for an installed product. It is composed of 25 alphanumeric characters either in the format 'xxxxx-xxxxx-xxxxx-xxxxx-xxxxx' or 'xxxxxxxxxxxxxxxxxxxxxxxxx'. |
 ## List of workload IDs and component IDs
-For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentids) page.
-
-> [!WARNING]
-> The --layout parameter will fail if the setup .exe file name includes numerals. To work around this issue, you must remove the numerals from the filename&mdash;for example, rename *vs_community__198521760.1486960229.exe* to ***vs_community.exe***.
+For a list of workload and component IDs sorted by Visual Studio product, see our [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 
 ## List of language locales
 | **Language-locale** | **Language** |
