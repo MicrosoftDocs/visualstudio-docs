@@ -109,6 +109,7 @@ The default rendering of a template variables depends on the type of data (strin
 It's possible to improve on this by specifying additional metadata in your `cookiecutter.json` file that's specific to Visual Studio (and ignored by the Cookiecutter CLI). All properties are optional:
 
 | Property | Description |
+| --- | --- |
 | Label | Specifies what appears above the editor for the variable, instead of the name of the variable. |
 | Description | Specifies the tooltip that appears on the edit control will show that description, instead of the default value for that variable. |
 | URL | Changes the the label into a hyperlink, with a tooltip that shows the URL. Clicking on the hyperlink will open the user's default browser to that URL. |

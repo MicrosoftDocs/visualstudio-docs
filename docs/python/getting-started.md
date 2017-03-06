@@ -50,8 +50,8 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. Select the "Python Application" template, specify a folder for the project, and select **OK**. (If you want to create a local repository for your project right away, also select the **Add to source control** option).
 
-> [!Tip]
-> The "From exiting Python Code" template lets you quickly create a Visual Studio project from a folder that already contains Python code, rather than creating a new empty project and importing existing code into it.
+    > [!Tip]
+    > The "From exiting Python Code" template lets you quickly create a Visual Studio project from a folder that already contains Python code, rather than creating a new empty project and importing existing code into it.
 
 1. After a few moments, you'll see the project open in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments.
 
@@ -92,8 +92,8 @@ Python support in Visual Studio includes a number of [project templates](python-
 
     ![Start button on the debug toolbar](media/getting-started-coding-3.png)
 
-> [!Note]
-> If you see a message in Visual Studio 2015 or earlier that there aren't any interpreters, see [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) as one is not installed by default.
+    > [!Note]
+    > If you see a message in Visual Studio 2015 or earlier that there aren't any interpreters, see [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) as one is not installed by default.
 
 1. Visual Studio will run the code using the default environment in the project and show the results in a command window. Press a key to close that window and end the debugging session.
 
@@ -218,13 +218,13 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Check that the code works properly by selecting **Start** on the toolbar, pressing F5, or selecting the **Debug > Start Debugging** menu command. This runs the code in the debugger, but because we don't have any breakpoints set you'll simply see it print a wave pattern for a few iterations. Pressing any key will close the output window at this point.
 
-> [!Tip]
-> To close the output window automatically when the program completes, replace the `main()` call with the following code:
->
-> ```python
->     if __name__ == "__main__":  
->         sys.exit(int(main() or 0))  
-> ```
+    > [!Tip]
+    > To close the output window automatically when the program completes, replace the `main()` call with the following code:
+    >
+    > ```python
+    >     if __name__ == "__main__":  
+    >         sys.exit(int(main() or 0))  
+    > ```
 
 1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
 

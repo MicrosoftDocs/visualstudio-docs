@@ -80,7 +80,7 @@ The following table summarizes the templates available in the current release of
 | [From Existing Python Code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
 | [Azure Cloud Service](template-azure-cloud-service.md) | A project for an Azure Cloud Service written in Python. |
-| [Web Projects](template-web.md) including Bottle, Django, Flask, and Flask/Jade | Projects for web servers based on various frameworks. |
+| [Web Projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
 | IronPython WPF Application | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |

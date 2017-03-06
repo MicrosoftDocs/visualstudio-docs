@@ -167,9 +167,11 @@ Using the full path to Python is important, or you may execute the wrong one, an
     c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 ```
 
-When deployed to Azure App Service, your site will run behind Microsoft IIS. To enable your site to work with IIS, you will need to add at least a `web.config` file. There are templates available for some common deployment targets (see below), and these can be easily modified for other uses. See the [IIS Configuration Reference](https://www.iis.net/configreference) for information about the available configuration setings.
+When deployed to Azure App Service, your site will run behind Microsoft IIS. To enable your site to work with IIS, you will need to add at least a `web.config` file. There are templates available for some common deployment targets available by right-clicking the project and selecting **Add > New Item..." (see dialog below), and these can be easily modified for other uses. See the [IIS Configuration Reference](https://www.iis.net/configreference) for information about the available configuration setings.
 
 ![Azure Item Templates](media/template-web-azure-items.png)
+
+The available items include:
 
 - Azure web.config (FastCGI): adds a `web.config` file for when your app provides a [WSGI](https://wsgi.readthedocs.io/en/latest/) object to handle incoming connections.
 - Azure web.config (HttpPlatformHandler): adds a `web.config` file for when your app listens on a socket for incoming connections.
