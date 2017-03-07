@@ -31,13 +31,13 @@ translation.priority.ht:
 # JavaScript in Visual Studio
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.  
   
- For the JavaScript language reference documentation, see [JavaScript](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference).
+ For the JavaScript language reference documentation, see [JavaScript](https://docs.microsoft.com/scripting/javascript/javascript-language-reference).
   
  Specific versions of Visual Studio, or specific Visual Studio extensions, may be required to develop particular application types and services using HTML and JavaScript. The following list has links to more information.  
   
 -   To create cross-platform apps using Apache Cordova, see [Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/).  
   
--   For links to JavaScript technologies you can use in Visual Studio, see [](https://docs.microsoft.com/en-us/scripting/javascript/).
+-   For links to JavaScript technologies you can use in Visual Studio, see the [JavaScript](https://docs.microsoft.com/scripting/javascript/) and [Scripting Technologies](https://docs.microsoft.com/scripting/) pages.
   
  The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   

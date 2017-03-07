@@ -44,7 +44,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-js-universal">
+        <a href="https://msdn.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-js-universal">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -80,7 +80,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-nodejs-get-started">
+        <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-nodejs-get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -97,8 +97,8 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </div>
         </a>
     </li>
-        <li>
-        <a href="https://docs.microsoft.com/en-us/aspnet/core/client-side/angular">
+    <li>
+        <a href="https://docs.microsoft.com/aspnet/core/client-side/angular">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -115,6 +115,24 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </div>
         </a>
     </li>
+        <li>
+        <a href="https://docs.microsoft.com/scripting/">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about more ECMAScript-based technologies</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
 <hr>
@@ -122,7 +140,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 <p><ul class="panelContent cardsW">
     <li>
-        <a href="https://msdn.microsoft.com/en-us/library/d1et7k7c(v=vs.94).aspx">
+        <a href="https://docs.microsoft.com/scripting/javascript">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -135,25 +153,12 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/en-us/library/dn249673(v=vs.94).aspx">
+        <a href="https://docs.microsoft.com/en-us/scripting/chakra-hosting/javascript-runtime-hosting">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>JavaScript Runtime Hosting</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://msdn.microsoft.com/en-us/library/fdee6589(v=vs.94).aspx">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Windows Script Interfaces</h3>
                     </div>
                 </div>
             </div>
