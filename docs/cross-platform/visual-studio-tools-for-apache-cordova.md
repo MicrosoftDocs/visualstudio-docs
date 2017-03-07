@@ -1,6 +1,6 @@
 ---
 title: "Visual Studio Tools for Apache Cordova | Microsoft Docs"
-redirect_url: http://taco.visualstudio.com
+redirect_url: https://docs.microsoft.com/en-us/visualstudio/cross-platform/tools-for-cordova/
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
