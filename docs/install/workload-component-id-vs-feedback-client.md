@@ -64,7 +64,6 @@ Component ID | Name
 --- | ---
 n/a | n/a
 
-
 ## See also
 
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)

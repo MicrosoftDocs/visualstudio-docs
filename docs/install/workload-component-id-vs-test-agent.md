@@ -55,8 +55,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Dependency type
 --- | --- | ---
-n/a | n/a | n/a
-
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | Required
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
