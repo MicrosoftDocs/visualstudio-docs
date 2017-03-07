@@ -51,11 +51,13 @@ Also see the following scenario-specific debugging topics:
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)
 
+<a name="debugging-without-a-project"</a>
 > [!Tip]
 > PTVS supports debugging without a project. With a stand-alone Python file open in Visual Studio right-click in the editor, select **Start with Debugging**, and PTVS launches the script with the global default environment (see [Python Environments](python-environments.md) and no arguments. But from then on, you have full debugging support.
 >
 > To control the environment and arguments, you'll need to create a project for the code. You can easily do this with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files).
 
+<a name="debugging-with-a-project"</a>
 ## Basic debugging
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections. For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
@@ -171,6 +173,7 @@ The **Launch mode** options lets you choose between the following options, which
 | Interpreter Path | Overrides the path associated with the current environment. This may be useful for launching your script with a non-standard interpreter. |
 | Environment Variables | In this multi-line text box, add entries of the form `NAME=VALUE`. This setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, and so it can be used to manually override any of those. |
 
+<a name="the-debug-interactive-window"</a>
 ## Immediate and interactive windows
 
 There are two interactive windows you can use during a debugging session: the standard Visual Studio Immediate window, and the Python Debug Interactive window.
