@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with the Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Get Started with the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,7 +28,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Getting Started with the Debugger
+# Get Started with the Visual Studio Debugger
 The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.
 
 To watch a video showing similar features, see [Getting Started with the Debugger](https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6).

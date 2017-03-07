@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureValidation", "FeatureValidation.csproj", "{7D45B9C4-EF7C-489C-B628-DA6117F2300A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{AF11BEA8-6FD6-46D4-B48A-B17E07ECEE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D45B9C4-EF7C-489C-B628-DA6117F2300A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D45B9C4-EF7C-489C-B628-DA6117F2300A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D45B9C4-EF7C-489C-B628-DA6117F2300A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D45B9C4-EF7C-489C-B628-DA6117F2300A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF11BEA8-6FD6-46D4-B48A-B17E07ECEE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF11BEA8-6FD6-46D4-B48A-B17E07ECEE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF11BEA8-6FD6-46D4-B48A-B17E07ECEE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF11BEA8-6FD6-46D4-B48A-B17E07ECEE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

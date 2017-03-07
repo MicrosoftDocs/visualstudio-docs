@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ExcelAddInDynamicControls4">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Trin_ExcelAddInDynamicControls4.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Trin_ExcelAddInDynamicControls4.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="8:03 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_ExcelAddInDynamicControls4.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDynamicControls4.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\Trin_ExcelAddInDynamicControls4.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDynamicControls4.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\Trin_ExcelAddInDynamicControls4.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\Trin_ExcelAddInDynamicControls4.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\Trin_ExcelAddInDynamicControls4.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\Trin_ExcelAddInDynamicControls4_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDynamicControls\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDynamicControls4.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ExcelAddInDynamicControls4.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDynamicControls4" Source="Trin_ExcelAddInDynamicControls4.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

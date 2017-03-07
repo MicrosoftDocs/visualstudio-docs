@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreActionsPaneWordCS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\New folder\Backup\Trin_VstcoreActionsPaneWordCS.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\New folder\Backup\Trin_VstcoreActionsPaneWordCS.v11.suo">
+</Property><Property Name="Date" Value="Thursday, November 10, 2011">
+</Property><Property Name="Time" Value="3:37 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreActionsPaneWordCS.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneWordCS.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Trin_VstcoreActionsPaneWordCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneWordCS.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Trin_VstcoreActionsPaneWordCS.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Trin_VstcoreActionsPaneWordCS.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Trin_VstcoreActionsPaneWordCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ActionsControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ActionsControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ActionsControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ActionsControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="AddTextControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\AddTextControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="AddTextControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\AddTextControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="HelloControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\HelloControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="HelloControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\HelloControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="InsertTextControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\InsertTextControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="InsertTextControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\InsertTextControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="NorthwindDataSet.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\NorthwindDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ShowAllControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ShowAllControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ShowAllControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ShowAllControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ShowPropertiesControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ShowPropertiesControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ShowPropertiesControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ShowPropertiesControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ThisDocument.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ThisDocument.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ThisDocument.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ThisDocument.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ActionsPaneSample.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ActionsPaneSample.xsd">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ActionsPaneSample.xsx" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ActionsPaneSample.xsx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="DocumentCS.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\DocumentCS.docx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="NorthwindDataSet.xsc" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\NorthwindDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="NorthwindDataSet.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\NorthwindDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="NorthwindDataSet.xss" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\NorthwindDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Trin_VstcoreActionsPaneWordCS_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="ActionsControl.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\ActionsControl.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\New folder\Backup\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneWordCS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreActionsPaneWordCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneWordCS" Source="Trin_VstcoreActionsPaneWordCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
