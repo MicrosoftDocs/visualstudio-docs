@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create an offline installer for Visual Studio 2017
-We understand that a lot of customers want an offline installer for [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017-rtw/). Even though we don't offer an ISO image, it's easy to create your own.
+We understand that a lot of customers want an offline installer for [Visual Studio 2017](https://www.visualstudio.com/vs/whatsnew/). Even though we don't offer an ISO image, it's easy to create your own.
 
 Here's how.
 
