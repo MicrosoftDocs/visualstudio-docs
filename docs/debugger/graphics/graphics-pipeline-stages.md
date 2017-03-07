@@ -1,7 +1,7 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -35,7 +35,7 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
   
  This is the Pipeline Stages window:  
   
- ![A 3&#45;D object goes through the pipeline stages.](media/gfx_diag_demo_pipeline_stages_orientation.png "gfx_diag_demo_pipeline_stages_orientation")  
+ ![A 3D object goes through the pipeline stages.](media/gfx_diag_demo_pipeline_stages_orientation.png)
   
 ## Understanding the Graphics Pipeline Stages window  
  The Pipeline Stages window visualizes the result of each stage of the graphics pipeline separately, for each draw call. Normally, the results of stages in the middle of the pipeline are hidden, making it difficult to tell where a rendering problem started. By visualizing each stage separately, the Pipeline Stages window makes it easy to see where the problem starts—for example, you can easily see when the vertex shader stage unexpectedly causes an object to be drawn off-screen.  
@@ -54,14 +54,14 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
 ### Viewing and debugging shader code  
  You can examine and debug code for vertex, hull, domain, geometry and pixel shaders by using the controls at the bottom of their respective stages in the Pipeline Stages window.  
   
-##### To view a shader's source code  
+#### To view a shader's source code  
   
 -   In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to examine. Then, below the preview image, follow the shader stage title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.  
   
     > [!TIP]
     >  The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pixel history window.  
   
-##### To debug a shader  
+#### To debug a shader  
   
 -   In the **Graphics Pipeline Stages** window, locate the shader stage that corresponds to the shader you want to debug. Then, below the preview image, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding stage—that is, the first pixel, vertex, or primitive that's processed by the shader during this draw call. Invocations of this shader for a specific pixel or vertex can be accessed through the **Graphics Pixel History**.  
   
@@ -127,14 +127,14 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
   
  In the Pipeline Stages window, output merger output is visualized as a full-color raster image. To take a closer look at the results, select **Output Merger** in the **Graphics Pipeline Stages** window to view the merged framebuffer.  
   
-### Vertex shader preview  
- When you select the vertex shader stage in the **Graphics Pipeline Stages** window, the **Input Buffers** panel is displayed. Here, you'll find details about the list of vertices supplied to the vertex shader after they have been assembled by the input assembler stage.  
-  
- ![The vertex shader stage input buffer viewer](media/gfx_diag_vertex_shader_inbuffers.png "gfx_diag_vertex_shader_inbuffers")  
+### Vertex and Geometry shader preview  
+ When you select the vertex or geometry shader stage in the **Pipeline Stages** window, you can view the inputs to and outputs from the shader in the panel below.  Here, you'll find details about the list of vertices supplied to the shaders after they have been assembled by the input assembler stage.  
+
+ ![The vertex shader stage input buffer viewer](media/gfx_diag_vertex_shader_inbuffers.png)  
   
  To view the result of the vertex shader stage, choose the Vertex Shader stage thumbnail to view a full-size, rasterized wireframe of the mesh after its been transformed by the vertex shader.  
   
- ![The vertex shader stage result preview](media/gfx_diag_vertex_shader_preview.png "gfx_diag_vertex_shader_preview")  
+ ![The vertex shader stage result preview](media/gfx_diag_vertex_shader_preview.png)  
   
 ## See Also  
  [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Talk to Us | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/10/2017"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,7 +42,7 @@ We're interested in your ideas for improving our products and our documentation.
  Pre-release versions of Visual Studio have a **Rate this Product** menu item that enables you to send feedback on the quality of the build you are running. You won't see this in released versions of the product.  
 
 ## I want to contact Microsoft Support  
-For Visual Studio support options, see our [Support Overview](http://www.visualstudio.com/support/support-overview-vs) page.
+For Visual Studio support options, see our [Support Overview](https://www.visualstudio.com/vs/support/) page.
 
 For other Microsoft products and services, see [Microsoft Support](http://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 

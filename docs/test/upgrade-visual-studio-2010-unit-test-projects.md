@@ -55,7 +55,7 @@ translation.priority.mt:
 |Sharing of run results through TRX logs from Test Explorer.||You can still get TRX logs from both the command line and Team Build.|  
   
 ## See Also  
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)   
  [Upgrading Coded UI Tests from Visual Studio 2010](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)
