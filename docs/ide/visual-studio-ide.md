@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE feature tour | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/01/2017"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -63,9 +63,9 @@ To get started, download Visual Studio and install it on your system. You can do
 
 Visual Studio is now more lightweight than ever! The new modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 
-![Visual Studio installer](../ide/media/vs2017modify-ChooseWorkload.png)
+![Visual Studio installer](../install/media/vs2017-workloads.png)
 
-In addition to improved installation performance, many improvements have been made in Visual Studio 2017 to improve overall IDE start-up and solution load time. For example, selecting the new Lightweight Solution Load feature, located on the main menu under **Tools**, **Options**, **Projects and Solutions**, enables larger solutions to load faster. To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio).
+In addition to improved installation performance, many improvements have been made in Visual Studio 2017 to improve overall IDE start-up and solution load time. For example, selecting the new Lightweight Solution Load feature, located on the main menu under **Tools**, **Options**, **Projects and Solutions**, enables larger solutions to load faster. To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).
 
 ## Sign in
 When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account. Being signed in lets you synchronize Visual Studio settings, such as window layouts, across multiple devices. It also connects you automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services.
@@ -127,7 +127,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
 1. When you're done running the program, choose the Stop (![Stop button](../ide/media/VSIDE_StopButton.png)) button on the toolbar to stop it.
 
-Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](https://docs.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
+Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
 
 
 ## Debug, test, and improve your code
@@ -135,7 +135,7 @@ Nothing runs perfectly all the time. When you write code, you need to run it and
 
 ![Debugging](../ide/media/VSIDE_Tour_Debugging.png)
 
-For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](https://review.docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools).
+For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](https://review.docs.microsoft.com/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Tools](https://docs.microsoft.com/visualstudio/profiling/profiling-tools).
 
 ## Deploy your finished application  
 When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
@@ -145,8 +145,8 @@ To give you a high-level visual overview of Visual Studio, the following image s
  - [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view, navigate, and manage your code files.
  - The [Editor](../ide/writing-code-in-the-code-and-text-editor.md) window shows your code and enables you to edit source code and designer data.
  - The [Output](../ide/reference/output-window.md) window shows output messages from compiling, running, debugging, and more.
- - [Team Explorer](https://www.visualstudio.com/en-us/docs/connect/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview).
- - [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more.
+ - [Team Explorer](https://www.visualstudio.com/docs/connect/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/docs/tfvc/overview).
+ - [Cloud Explorer](https://azure.microsoft.com/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more.
 
 ![The Visual Studio IDE](../ide/media/visualstudioide.png)  
 
@@ -184,7 +184,7 @@ Following are some other common productivity features in Visual Studio.
 
  ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
-- A related tool, the [Object Browser](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what members (properties, methods, events) those types contain.
+- A related tool, the [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what members (properties, methods, events) those types contain.
 
   ![Object Browser showing System.Timer](../ide/media/objectbrowser.png)  
 
@@ -211,15 +211,15 @@ The cloud is critical for today's online world, and Visual Studio provides you t
 
 Choosing a service on the **Connected Services** page starts a Connected Services Wizard that configures your project and downloads the necessary NuGet packages to help get you started coding against the service.
 
-You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by selecting the Azure development workload in the Visual Studio installer.
+You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](https://azure.microsoft.com/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by selecting the Azure development workload in the Visual Studio installer.
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
-**Server Explorer** helps you browse and manage SQL Server instances and assets on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](https://docs.microsoft.com/en-us/visualstudio/data-tools/add-new-connections) for more information on using Server Explorer.
+**Server Explorer** helps you browse and manage SQL Server instances and assets on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](https://docs.microsoft.com/visualstudio/data-tools/add-new-connections) for more information on using Server Explorer.
 
-[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
+[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
-**SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more. See [Manage Objects by Using Object Explorer](https://docs.microsoft.com/en-us/sql/ssms/object/manage-objects-by-using-object-explorer) for more information.
+**SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more. See [Manage Objects by Using Object Explorer](https://docs.microsoft.com/sql/ssms/object/manage-objects-by-using-object-explorer) for more information.
 
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)  
 
@@ -233,10 +233,9 @@ If you want to find out about new features in Visual Studio 2017, see [What's Ne
 Congratulations on completing the tour of the Visual Studio IDE! We hope you learned something useful about some of its main features.
 
 ## See also
-[Visual Studio IDE](https://www.visualstudio.com/vs/)
-[Visual Studio Downloads](https://www.visualstudio.com/downloads/)
-[The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
-[Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
-[Microsoft Virtual Academy](https://mva.microsoft.com/)
-[Channel 9](https://channel9.msdn.com/)
-
+* [Visual Studio IDE](https://www.visualstudio.com/vs/)
+* [Visual Studio Downloads](https://www.visualstudio.com/downloads/)
+* [The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
+* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Microsoft Virtual Academy](https://mva.microsoft.com/)
+* [Channel 9](https://channel9.msdn.com/)
