@@ -83,19 +83,18 @@ The **Events** view in the Diagnostic Tools shows you different events that occu
 
 ![Diagnostics Tools View Events](../profiling/media/prof-tour-events.png "Diagnostics Tools View Events")
 
-If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
+ > [!NOTE]
+ > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
+
+The same events also show up in the Code Editor, which you can view as PerfTips.
+
+![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 
 ## Examine UI Performance and Accessibility Events (UWP)
 
 In your UWP apps, you can enable **UI Analysis** in the Diagnostic Tools window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
 
 ![Diagnostics Tools View UI Analysis Events](../profiling/media/prof-tour-ui-analysis.png "Diagnostics Tools View UI Analysis Events")
-
-## Use PerfTips
-
-You can check to see how much time has elapsed since the previous pause in the debugger using the PerfTips that show up in the code editor. This is similar to the information you get by using the Events tab with breakpoints or by stepping through code.
-
-![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 
 ## Profile Release Builds without the Debugger
 

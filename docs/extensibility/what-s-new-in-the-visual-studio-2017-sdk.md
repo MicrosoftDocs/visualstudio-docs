@@ -30,8 +30,6 @@ translation.priority.mt:
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 
->**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
-
 The Visual Studio SDK has the following new and updated features for Visual Studio 2017.
 
 ## VSIX v3 format

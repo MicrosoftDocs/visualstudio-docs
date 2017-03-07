@@ -4,3 +4,4 @@
 # [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 ## [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 ## [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
+## [Visual Studio workload and component IDs](workload-and-component-ids.md)

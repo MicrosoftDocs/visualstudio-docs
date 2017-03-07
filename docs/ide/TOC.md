@@ -1,4 +1,4 @@
-# [Visual Studio IDE](visual-studio-ide.md)
+# [Visual Studio IDE Feature Tour](visual-studio-ide.md)
 # [Get Started with Visual Studio](get-started-with-visual-studio.md)
 # [User Accounts and Updates](user-accounts-and-updates.md)
 ## [Signing in to Visual Studio](signing-in-to-visual-studio.md)
@@ -111,6 +111,7 @@
 ### [How to: Change Text Case in the Editor](how-to-change-text-case-in-the-editor.md)
 ### [How to: Manage Editor Modes](how-to-manage-editor-modes.md)
 ### [How to: Manage Editor Windows](how-to-manage-editor-windows.md)
+## [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md)
 ## [Create portable, custom editor settings](create-portable-custom-editor-options.md)
 ## [How to: Track Your Code by Customizing the Scrollbar](how-to-track-your-code-by-customizing-the-scrollbar.md)
 ## Navigating Your Code

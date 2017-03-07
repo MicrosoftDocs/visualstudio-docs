@@ -1,6 +1,6 @@
 ---
-title: "Setting a Watch on Variables | Microsoft Docs"
-ms.custom: ""
+title: "Set a Watch on Variables in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Setting a Watch on Variables using the Watch and QuickWatch Windows
+# Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
 You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
   
 ## Observing a single variable with QuickWatch  

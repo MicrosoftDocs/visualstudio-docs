@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.SiteDefinition" DefaultFile="onet.xml" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Package" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="default.aspx" Target="SiteTemplates\TestSiteDef\" Type="TemplateFile" />
+    <ProjectItemFile Source="onet.xml" Target="SiteTemplates\TestSiteDef\Xml\" Type="TemplateFile" />
+    <ProjectItemFile Source="webtemp_TestSiteDef.xml" Target="1033\xml\" Type="TemplateFile" />
+  </Files>
+</ProjectItem>

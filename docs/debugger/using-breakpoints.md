@@ -1,6 +1,6 @@
 ---
-title: "Using Breakpoints | Microsoft Docs"
-ms.custom: ""
+title: "Use Breakpoints in the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,7 +55,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Using Breakpoints
+# Use Breakpoints in the Visual Studio Debugger
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.  
   
 ##  <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  

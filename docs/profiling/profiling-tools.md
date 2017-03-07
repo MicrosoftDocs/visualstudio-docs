@@ -1,5 +1,5 @@
 ---
-title: "Profiling Tools | Microsoft Docs"
+title: "Profiling Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

@@ -52,4 +52,4 @@ The **Convert** dialog box allows you to select a conversion tool to create a ne
   
 ## See Also  
  [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/en-us/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
- [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)

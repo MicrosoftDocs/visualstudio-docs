@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Trin_OL_CustomCalendar.dll" version="1.0.0.0" publicKeyToken="8ac01280ede1cdcd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description xmlns="urn:schemas-microsoft-com:asm.v1">Trin_OL_CustomCalendar</description>
+  <application />
+  <entryPoint>
+    <co.v1:customHostSpecified />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Outlook" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Common.v4.0.Utilities.dll" size="32664">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll" size="49048">
+      <assemblyIdentity name="Microsoft.Office.Tools.Outlook.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z2LMwub6uJYcSN1VkUMhJr/zdU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Trin_OL_CustomCalendar.dll" size="19968">
+      <assemblyIdentity name="Trin_OL_CustomCalendar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gMV8ozHPsh49cADArpEhD4cFdN0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
+    <vstav3:entryPointsCollection>
+      <vstav3:entryPoints>
+        <vstav3:entryPoint class="Trin_OL_CustomCalendar.ThisAddIn">
+          <assemblyIdentity name="Trin_OL_CustomCalendar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+      </vstav3:entryPoints>
+    </vstav3:entryPointsCollection>
+    <vstav3:update enabled="true">
+      <vstav3:expiration maximumAge="7" unit="days" />
+    </vstav3:update>
+    <vstav3:application>
+      <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
+        <vstov4:customization>
+          <vstov4:appAddIn application="Outlook" loadBehavior="3" keyName="Trin_OL_CustomCalendar">
+            <vstov4:friendlyName>Trin_OL_CustomCalendar</vstov4:friendlyName>
+            <vstov4:description>Trin_OL_CustomCalendar</vstov4:description>
+            <vstov4.1:ribbonTypes xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1" />
+          </vstov4:appAddIn>
+        </vstov4:customization>
+      </vstov4:customizations>
+    </vstav3:application>
+  </vstav3:addIn>
+<publisherIdentity name="CN=REDMOND\marylee" issuerKeyHash="8636d746dec85eed3a6e2c951bc1ab73e66bd22f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>c+ncBqai3DrDsD0TaQtK97vRMPg=</DigestValue></Reference></SignedInfo><SignatureValue>JBQ/EUPqDkI9Zql+Puum7ROG8Awmk8JACGqb+Qsx1l4YVCrVb+Hvcfm3Ot2Xv+kVSpqGOTwEJtGzSEgmfP7tqOEsC0d863kGvJ1cFE0KgDBNamHK8af3lkdleB5hTkzmHTDkbHUVsD/Bax8Q5PQNVgo3NsFV0T4bQLEswLQVb+g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uPZT/mzHH99sL6DJXEPMdec5VGCEBM/STylzHfJT8uGtVRFRfnqgon8HGYsgKPpNisTQUaseNHI3QjKFUw83gup+vFMa6XjFDQs2ljGsBTxfmq09HQwhMA474kXpHhqR83rNh/TSV2P/6Vx91NUXH9nydx6qai1zzbe/Z7X17IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a4796f01932a63e2086e5203ec12d6c49b9b35096710ba4c2d50eba56ea89831" Description="" Url=""><as:assemblyIdentity name="Trin_OL_CustomCalendar.dll" version="1.0.0.0" publicKeyToken="8ac01280ede1cdcd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REDMOND\marylee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YteJ7sQSTNF9GfiO+hTr2t2vyUA=</DigestValue></Reference></SignedInfo><SignatureValue>kJWlZLETUScdqgHFPaw3ZTbZ9jTWoZoMpHMPU702zz+kdmnHZQ0Mn7rkxoKtA70TTeITM2/fF/GusrmztosOYSL7nz0zNwUjKEdoEl1Des4ZuoHScBPRhycs2cwZi17I184GLNIdQlokxVi89ZSpOEzxWxl5Xc8JvQa6C1ESf3k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0dNvKeSnMqMPquR24KQu/rokOmw0+My3hHhx1FNTx+SemFHSqXj3eCr9rdVANdCAvdM+AWb2LElaOPhzgNRJs5Q1mbMP/8AOnB42p8eCVyUssJyxgA1CbDcpLb4EfdPOWzmhWnVQ5A1/26lAkuOrXotz0QKkwRC1KNxlIgGJvfE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQXU5xx6IQl4VPA5LMaKN5gDANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AUgBFAEQATQBPAE4ARABcAG0AYQByAHkAbABlAGUwHhcNMDkxMTExMDAyNDE2WhcNMTAxMTExMDYyNDE2WjApMScwJQYDVQQDHh4AUgBFAEQATQBPAE4ARABcAG0AYQByAHkAbABlAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALj2U/5sxx/fbC+gyVxDzHXnOVRghATP0k8pcx3yU/LhrVURUX56oKJ/BxmLICj6TYrE0FGrHjRyN0IyhVMPN4LqfrxTGul4xQ0LNpYxrAU8X5qtPR0MITAOO+JF6R4akfN6zYf00ldj/+lcfdTVFx/Z8nceqmotc823v2e19eyFAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAOIve2uicO4FvaP3Du5jMiUAna/WFKVEOT4XxNoElO7E+QK3M3prYWwfEz0bI3l4WDvcHiH2jE7ZErKbX5A1Yi5I+v9CKc2qBPZpYPZQug7BKcp8rkU+YmYbKL8iL40qTctqnDX5pKwycNx4rbhaiPMZodiNZ+GuVTa0AgZ59crQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
