@@ -32,23 +32,24 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # What&#39;s New in Visual Studio 2017
-Welcome to Visual Studio 2017. You can use Visual Studio to create great apps and games for the web, for the Windows Store, for the Windows desktop, for Android, and for iOS.
+Unparalleled productivity for any dev, any app, and any platform. With Visual Studio, you can create great apps and games for the web, for the Windows Store, for the Windows desktop, for Android, and for iOS.
 
 Visual Studio's Integrated Development Environment, or IDE, provides you with a large suite of tools, including everything from powerful app templates, to code editing, debugging and deployment, to team productivity tools, access to build and consume cloud services, extensions and more.  
 
 In this, our newest version of Visual Studio, we've focused on performance and productivity improvements. Performance-wise, we've made Visual Studio start faster, be more responsive, and use less memory than ever before. And productivity-wise, we've added or updated features that can help you be more efficient while you use Visual Studio.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).   
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
-Here is a high-level recap of the changes we've made in Visual Studio:
+
+Here is a high-level recap of the changes we've made:
 
 * **Performance and productivity**. We have focused not only on new, modern mobile, cloud, and desktop development capabilities, but we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
-* **Redefined fundamentals**. A new setup experience means that you can install more quickly and tailor the IDE to your needs. There is a faster, overall IDE from the start-up experience&mdash;to loading large solutions and projects, to working on folders of code&mdash;rather than requiring a project-file or solution. Visual Studio 2017 helps developers stay focused on the big picture. For teams embracing DevOps, Visual Studio streamlines your code editing and debugging productivity with refactoring enhancements and features such as [live unit testing](#live-unit-testing) and real-time [architectural dependency validation](#experience-live-architecture-dependency-validation-and-live-unit-testing).
+* **Redefined fundamentals**. A new setup experience means that you can install more quickly and tailor the IDE to your needs. We offer a faster, overall IDE from the start-up experience, too; whether you want to load large solutions and projects, or work on folders of code, or even a single file of code, you no longer have to open a project-file or solution. And, our new version of Visual Studio helps developers stay focused on the big picture. For example, for teams embracing DevOps, Visual Studio streamlines your code editing and debugging productivity with refactoring enhancements and features such as [live unit testing](#live-unit-testing) and real-time [architectural dependency validation](#experience-live-architecture-dependency-validation-and-live-unit-testing).
 * **Cloud app development with Azure**. A built-in suite of Azure tools that enable developers to easily create cloud-first applications powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE.
-* **Mobile app development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for you to build, connect, and tune mobile apps for Android, iOS, and Windows, as built with C#. You can also choose to develop mobile apps with Apache Cordova or with Visual C++ cross-platform library development, all in Visual Studio.
+* **Mobile app development**. With advanced debugging and profiling tools and unit test generation features, Visual Studio 2017 with Xamarin makes it faster and easier than ever for you to build, connect, and tune mobile apps for Android, iOS, and Windows, as built with C#. You can also choose to develop mobile apps with Apache Cordova or with Visual C++ cross-platform library development tools, all in Visual Studio.
 
-And here are more details on our most notable changes.
+And here are more details on some of our most notable changes.
 
 ## Performance improvements
 
