@@ -40,6 +40,8 @@ To install Python support for Visual Studio, follow the instructions in the sect
 
 Note that for Visual Studio 2015 and earlier you need to separately install a Python interpreter of your choice. See [Python Environments](python-environments.md) for more details.
 
+To quickly test Python support after following the installation steps, Open the Python Interactive window by pressing Alt-I and entering `2+2`. If you don't see the output of `4`, recheck your steps.
+
 > [!Tip]
 > The Python workload includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. See [Using Cookiecutter](cookiecutter.md) for more details.
 
@@ -54,8 +56,6 @@ Note that for Visual Studio 2015 and earlier you need to separately install a Py
 1. On the right side of the installer, select the Python interpreters and other related tools you want to include.
 
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)
-
-1. Note that it is **not** necessary to install an interpreter separately.
 
 ## Visual Studio 2015
 
