@@ -40,7 +40,7 @@ You can manually create a performance session. You are not required to open a pr
   
 ### To manually create a performance session  
   
-1.  On the **Analyze** menu, point to **Profiler**, and then click **New Performance Session**.  
+1.  On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **New Performance Session**.  
   
      An empty performance session is added to **Performance Explorer**.  
   

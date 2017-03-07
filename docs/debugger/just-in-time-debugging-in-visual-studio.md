@@ -55,7 +55,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 
-3. Re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
+3. (Web app) Re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
 
 4. If you are running another type of Windows app, you will need to contact the owner of the app to fix the error, and then re-install the fixed version of the app.
 
