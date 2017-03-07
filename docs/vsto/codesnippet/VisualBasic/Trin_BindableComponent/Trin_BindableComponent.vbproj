@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Trin_BindableComponent</RootNamespace>
+    <AssemblyName>Trin_BindableComponent</AssemblyName>
+    <ProductVersion>9.0.20710</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <VSTO_HostDocumentName>Trin_BindableComponent.xlsx</VSTO_HostDocumentName>
+    <VSTO_ViewBlueprints>.\Sheet1.Designer.xml;.\Sheet2.Designer.xml;.\Sheet3.Designer.xml;.\ThisWorkbook.Designer.xml</VSTO_ViewBlueprints>
+    <ProjectGuid>{07294ED4-0E42-4AB4-8DF8-12F2AF141AFE}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <VSTO_EmbedTypeLibraryInAssembly>false</VSTO_EmbedTypeLibraryInAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SolutionID>7763a253-c388-4e97-8de6-36953b3ba8b7</SolutionID>
+    <ManifestCertificateThumbprint>83B67F52A7D630C8170474399172EEB973C75D53</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Trin_BindableComponent_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>true</SignManifests>
+    <OfficeApplication>Excel</OfficeApplication>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>Trin_BindableComponent</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>Trin_BindableComponent</FriendlyName>
+    <OfficeApplicationDescription />
+  </PropertyGroup>
+  <PropertyGroup>
+    <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.Office.Tools.Excel" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="Microsoft.Office.Interop" />
+    <Import Include="Microsoft.VisualStudio.Tools.Applications.Runtime" />
+    <Import Include="Office = Microsoft.Office.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Trin_BindableComponent.xlsx" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sheet1.Designer.vb">
+      <DependentUpon>Sheet1.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet1.vb">
+      <DependentUpon>Trin_BindableComponent.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet2.Designer.vb">
+      <DependentUpon>Sheet2.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet2.vb">
+      <DependentUpon>Trin_BindableComponent.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet3.Designer.vb">
+      <DependentUpon>Sheet3.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet3.vb">
+      <DependentUpon>Trin_BindableComponent.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.Designer.vb">
+      <DependentUpon>ThisWorkbook.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.vb">
+      <DependentUpon>Trin_BindableComponent.xlsx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThisWorkbook.Designer.xml">
+      <DependentUpon>ThisWorkbook.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet1.Designer.xml">
+      <DependentUpon>Sheet1.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet2.Designer.xml">
+      <DependentUpon>Sheet2.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet3.Designer.xml">
+      <DependentUpon>Sheet3.vb</DependentUpon>
+    </None>
+    <None Include="Trin_BindableComponent_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Office.PIARedist.2007">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Office 2007 Primary Interop Assemblies</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Trin_BindableComponent.xlsx" HostPackage="{825100CF-0BA7-47EA-A084-DCF3308DAF74}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="XLS" Language="VB" TemplatesPath="VSTOTemplates" DebugInfoExeName="C:\Program Files (x86)\Microsoft Office\Office14\Excel.exe" DebugInfoCommandLine="&quot;[$OUTPUT]Trin_BindableComponent.xlsx&quot;" />
+        <Host Name="Excel Document" Path=".\Trin_BindableComponent.xlsx">
+          <HostItem Name="Sheet1" Code="Sheet1.vb" CanonicalName="Sheet1" DisplayName="Sheet1" Blueprint="Sheet1.Designer.xml" GeneratedCode="Sheet1.Designer.vb" />
+          <HostItem Name="Sheet2" Code="Sheet2.vb" CanonicalName="Sheet2" DisplayName="Sheet2" Blueprint="Sheet2.Designer.xml" GeneratedCode="Sheet2.Designer.vb" />
+          <HostItem Name="Sheet3" Code="Sheet3.vb" CanonicalName="Sheet3" DisplayName="Sheet3" Blueprint="Sheet3.Designer.xml" GeneratedCode="Sheet3.Designer.vb" />
+          <HostItem Name="ThisWorkbook" Code="ThisWorkbook.vb" CanonicalName="ThisWorkbook" Blueprint="ThisWorkbook.Designer.xml" GeneratedCode="ThisWorkbook.Designer.vb" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

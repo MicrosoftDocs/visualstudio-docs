@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_OL_SaveAttachments">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Trin_OL_SaveAttachments.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Trin_OL_SaveAttachments.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:39 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_OL_SaveAttachments.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_SaveAttachments.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Trin_OL_SaveAttachments.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_SaveAttachments.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Trin_OL_SaveAttachments.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Trin_OL_SaveAttachments.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Trin_OL_SaveAttachments_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_SaveAttachments\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_SaveAttachments.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_OL_SaveAttachments.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_OL_SaveAttachments" Source="Trin_OL_SaveAttachments.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

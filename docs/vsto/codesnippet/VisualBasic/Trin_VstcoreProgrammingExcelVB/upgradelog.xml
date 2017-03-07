@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreProgrammingExcelVB">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Trin_VstcoreProgrammingExcelVB.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Trin_VstcoreProgrammingExcelVB.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:49 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreProgrammingExcelVB.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingExcelVB.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Trin_VstcoreProgrammingExcelVB.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingExcelVB.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Trin_VstcoreProgrammingExcelVB.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Trin_VstcoreProgrammingExcelVB.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Trin_VstcoreProgrammingExcelVB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="ReportPicker.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\ReportPicker.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="ReportPicker.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\ReportPicker.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Sheet1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Sheet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Sheet1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Sheet1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="ThisWorkbook.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\ThisWorkbook.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="ThisWorkbook.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\ThisWorkbook.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="WorkbookVB.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\WorkbookVB.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\Trin_VstcoreProgrammingExcelVB_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgramming\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingExcelVB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreProgrammingExcelVB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingExcelVB" Source="Trin_VstcoreProgrammingExcelVB.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

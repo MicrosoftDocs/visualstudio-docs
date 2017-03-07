@@ -1,6 +1,6 @@
 ---
-title: "Attach to Running Processes with the Visual Studio Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Attach to Running Processes with the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""

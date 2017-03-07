@@ -1,6 +1,6 @@
 ---
-title: "Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Specify Symbol (.pdb) and Source Files in the Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""

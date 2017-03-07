@@ -1,7 +1,7 @@
 ---
-title: "Beginners Guide to CPU Sampling | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "03/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -61,7 +61,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
     > [!IMPORTANT]
     >  If you are not an administrator on the computer that you are using, you should run Visual Studio as an administrator while you are using the profiler. (Right-click the Visual Studio application icon, and then click **Run as administrator**.  
   
-2.  On the **Debug** menu, click **Performance Profiler**.  
+2.  On the **Debug** menu, select **Profiler**, and then select **Performance Profiler**.  
   
 3.  Check the **Performance Wizard** option, and click **Start**.  
   

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GetProjectService", "GetProjectService.vbproj", "{C38E5BDE-A137-4808-9DEF-8A4FC9924373}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Extension", "Extension\Extension.vbproj", "{6130717B-398F-44EB-9FBA-E9DCD84B4908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38E5BDE-A137-4808-9DEF-8A4FC9924373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38E5BDE-A137-4808-9DEF-8A4FC9924373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38E5BDE-A137-4808-9DEF-8A4FC9924373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38E5BDE-A137-4808-9DEF-8A4FC9924373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6130717B-398F-44EB-9FBA-E9DCD84B4908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6130717B-398F-44EB-9FBA-E9DCD84B4908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6130717B-398F-44EB-9FBA-E9DCD84B4908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6130717B-398F-44EB-9FBA-E9DCD84B4908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

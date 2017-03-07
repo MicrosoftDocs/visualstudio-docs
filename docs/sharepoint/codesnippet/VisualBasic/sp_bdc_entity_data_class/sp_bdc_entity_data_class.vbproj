@@ -1,0 +1,101 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03BD3F4D-A0E6-47EA-B0F1-D0C6CFBE3D51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SP_BDC_Entity_Data_Class</RootNamespace>
+    <AssemblyName>SP_BDC_Entity_Data_Class</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{D59BE175-2ED0-4C54-BE3D-CDAA9F3214C8};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SP_BDC_Entity_Data_Class.xml</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SP_BDC_Entity_Data_Class.xml</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.SharePoint" />
+    <Import Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BdcModel1\Contact.vb" />
+    <Compile Include="BdcModel1\ContactService.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BdcModel1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{03ada402-f089-4cf2-ab11-747a08796be2}</SharePointProjectItemId>
+    </None>
+    <None Include="BdcModel1\BdcModel1.bdcm" />
+    <None Include="BdcModel1\BdcModel1.bdcm.diagram">
+      <DependentUpon>BdcModel1.bdcm</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{75d93080-cf93-4c7c-a905-f4d3d9aead02}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{6dc01e97-704a-49a6-adbd-ba342b408dc1}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup Condition="'$(MSBuildManagedCompilerPath)' != ''">
+    <VbcToolPath>$(MSBuildManagedCompilerPath)</VbcToolPath>
+    <UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Workflow.VisualBasic.Targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

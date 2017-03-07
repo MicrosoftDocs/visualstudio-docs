@@ -1,5 +1,5 @@
 ---
-title: "Analyzing C-C++ Code Quality by Using Code Analysis | Microsoft Docs"
+title: "Analyzing C/C++ Code Quality by Using Code Analysis | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
