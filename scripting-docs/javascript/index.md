@@ -8,7 +8,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/cross-platform/tools-for-cordova/">
+        <a href="https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -35,7 +35,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
   
  Specific versions of Visual Studio, or specific Visual Studio extensions, may be required to develop particular application types and services using HTML and JavaScript. The following list has links to more information.  
   
--   To create cross-platform apps using Apache Cordova, see [Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/en-us/visualstudio/cross-platform/tools-for-cordova/).  
+-   To create cross-platform apps using Apache Cordova, see [Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/).  
   
 -   For links to JavaScript technologies you can use in Visual Studio, see [](https://docs.microsoft.com/en-us/scripting/javascript/).
   
