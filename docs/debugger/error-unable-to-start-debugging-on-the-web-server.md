@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "IIS, debugging DLLs"

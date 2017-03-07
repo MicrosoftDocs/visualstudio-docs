@@ -38,7 +38,7 @@ Retrieves a reference to the specified entry in the table.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD      index,  
    IUnknown** element  

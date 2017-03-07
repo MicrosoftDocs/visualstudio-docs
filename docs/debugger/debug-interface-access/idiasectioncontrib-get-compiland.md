@@ -38,7 +38,7 @@ Retrieves a reference to the compiland symbol that contributed this section.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_compiland (   
    IDiaSymbol** pRetVal  
 );  

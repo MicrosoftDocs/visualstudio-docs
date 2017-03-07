@@ -43,13 +43,13 @@ You can use IntelliTrace to collect information about specific events or categor
   
 2.  Create a C# console application. In the Program.cs file, add the following `using` statement:  
   
-    ```c#  
+    ```CSharp  
     using System.IO;  
     ```  
   
 3.  Create a <xref:System.IO.FileStream> in the Main method, read from it, close it, and delete the file. Add another line just to have a place to set a breakpoint:  
   
-    ```c#  
+    ```CSharp  
     static void Main(string[] args)  
     {  
         FileStream fs = File.Create("WordSearchInputs.txt");  

@@ -36,7 +36,7 @@ Retrieves the register type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_registerType(   
    DWORD* pRetVal);  
 ```  

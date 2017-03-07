@@ -38,7 +38,7 @@ Retrieves the virtual address (VA) of the contribution.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualAddress (   
    ULONGLONG* pRetVal  
 );  

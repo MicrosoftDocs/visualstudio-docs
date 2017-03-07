@@ -1,6 +1,6 @@
 ---
-title: "Viewing Memory for Variables in the Debugger | Microsoft Docs"
-ms.custom: ""
+title: "View Memory for Variables in the Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.memory"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Memory window"
   - "strings [Visual Studio], viewing"
@@ -46,7 +43,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Memory Windows
+# Use the Memory Windows in the Visual Studio Debugger
 The **Memory** window provides a view into the memory space that is used by your application. The **Watch** window, **QuickWatch** dialog box, **Autos** window, and **Locals** window show you the content of variables, which are stored at specific locations in memory. But the **Memory** window shows you the large-scale picture. This view can be convenient for examining large pieces of data (buffers or large strings, for example) that do not display well in the other windows. However, the **Memory** window is not limited to displaying data. It displays everything in the memory space, whether the content is data, code, or random bits of garbage in unassigned memory.  
   
  The **Memory** window is available only if address-level debugging is enabled in the **Options**dialog box,**Debugging** node. The **Memory** window is not available for Script or SQL, which are languages that do not recognize the concept of memory.  

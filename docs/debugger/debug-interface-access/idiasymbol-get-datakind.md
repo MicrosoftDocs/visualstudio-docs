@@ -38,7 +38,7 @@ Retrieves the variable classification of a data symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_dataKind (   
    DWORD* pRetVal  
 );  

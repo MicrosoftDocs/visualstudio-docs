@@ -1,6 +1,6 @@
 ---
-title: "Remote Debugging | Microsoft Docs"
-ms.custom: ""
+title: "Remote Debugging in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,8 +12,8 @@ f1_keywords:
   - "vs.debug.remote.overview"
 dev_langs: 
   - "C++"
-  - "CSharp"
   - "FSharp"
+  - "CSharp"
   - "JScript"
   - "VB"
 helpviewer_keywords: 

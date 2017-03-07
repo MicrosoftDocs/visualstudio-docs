@@ -51,11 +51,11 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 3.  Add an imports or using statement to your code.  
   
-    ```c#  
+    ```CSharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
-    ```vb  
+    ```VB  
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation  
     ```  
   
@@ -78,7 +78,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 5.  Create a `marker_series` object and pass it to the `span` constructor.  
   
-    ```cpp  
+    ```C++  
   
     marker_series mySeries;  
     span s(mySeries, _T("Span description"));  
@@ -104,12 +104,12 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 1.  To use a new <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>, first create it by using a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object, and then generate marker events directly from the new series.  
   
-    ```c#  
+    ```CSharp  
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries(″Series 1″);  
     series1.WriteFlag(″My flag″);  
     ```  
   
-    ```vb  
+    ```VB  
     Dim series1 As New myMarkerWriter.CreateMarkerSeries(″Series 1″)  
     series1.WriteFlag(″My flag″)  
     ```  
@@ -127,7 +127,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 1.  Use the `CvCreateMarkerSeries` function to create a PCV_MARKERSERIES.  
   
-    ```cpp  
+    ```C++  
     PCV_MARKERSERIES series;  
     CvCreatemarkerSeries(myProvider, _T("My Series"), &series);  
     CvWriteFlag(series, _T("Writing a flag"));  

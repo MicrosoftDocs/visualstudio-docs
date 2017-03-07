@@ -51,7 +51,7 @@ Enumerates the various stack frames available.
 ## Example  
  This example shows how to obtain and use the `IDiaEnumStackFrames` interface. See the [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) interface for an implementation of the `PrintStackFrame` function.  
   
-```cpp#  
+```C++  
 void DumpStackFrames(IDiaStackWalker*     pStackWalker,  
                      IDiaStackWalkHelper* pStackWalkHelper,  
                      CV_CPU_TYPE_e        cpuType)  

@@ -38,7 +38,7 @@ Retrieves all children of a specified parent identifier that match the name and 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findChildren (   
    IDiaSymbol*       parent,  
    SymTagEnum        symtag,  
@@ -70,7 +70,7 @@ HRESULT findChildren ( 
 ## Example  
  The following example shows how to find local variables of function `pFunc` that match name `szVarName`.  
   
-```cpp#  
+```C++  
 IDiaEnumSymbols* pEnum;  
 pSession->findChildren( pFunc, SymTagData, szVarName, nsCaseSensitive, &pEnum );  
 ```  

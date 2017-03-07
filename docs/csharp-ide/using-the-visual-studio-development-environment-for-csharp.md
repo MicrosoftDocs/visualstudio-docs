@@ -1,7 +1,7 @@
 ---
 title: "Using the Visual Studio Development Environment for C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -59,6 +59,7 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|Explains how to configure debug, release, and special builds of your Visual Studio solution.|  
 |[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|Describes how to run the Visual Studio Debugger to resolve logic and semantic errors.|  
 |[Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)|Shows how to add or edit resources for your project, such as strings, images, icons, audio, and files.|  
+|[Dotfuscator Community Edition (CE)](../ide/dotfuscator/index.md)|Explains how to set up and start using the free PreEmptive Protection - Dotfuscator Community Edition to protect .NET assemblies from reverse-engineering and unauthorized use (such as unauthorized debugging).|  
   
 ## See Also  
  [C#](/dotnet/csharp/csharp)   

@@ -36,7 +36,7 @@ Returns an enumeration of symbols for inline frames corresponding to the specifi
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findAcceleratorInlineeLinesByName (   
    LPCOLESTR             name,  
    DWORD                 option,  

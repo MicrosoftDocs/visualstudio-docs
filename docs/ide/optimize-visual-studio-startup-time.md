@@ -23,7 +23,7 @@ Ideally, Visual Studio should always start up as quickly as possible. However, V
 
 ## Control startup behavior
 
-To avoid extending startup time, Visual Studio 2017 RC avoids loading extensions during startup, using an on-demand-load approach. This means that extensions don't open immediately after Visual Studio starts, but rather open asynchronously on an as-needed basis after startup. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
+To avoid extending startup time, Visual Studio 2017 avoids loading extensions during startup, using an on-demand-load approach. This means that extensions don't open immediately after Visual Studio starts, but rather open asynchronously on an as-needed basis after startup. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
 
 If Visual Studio detects slow startup, a pop-up message appears, alerting you to the extension or tool window that's causing the slowdown. The message also provides a link to the **Manage Visual Studio Performance** dialog box, which lists the extensions and tools windows that are affecting startup performance. This dialog box enables you to change extension and tool window settings to improve startup performance.
 
@@ -50,7 +50,7 @@ If you later change your mind, you can revert any of these options in the **Mana
 
 ## Speed up solution load
 
-Visual Studio 2017 RC introduces a new feature called **lightweight solution load** that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load.
+Visual Studio 2017 introduces a new feature called **lightweight solution load** that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load.
 
 Because some IDE features are not fully available when lightweight solution load is enabled, the feature is turned off by default. The following sections will help you decide whether or not to enable this feature.
 
@@ -72,7 +72,7 @@ When you change the lightweight solution load setting, the change takes effect t
 
 ### Automatically enable lightweight solution load
 
-When you open a large solution in Visual Studio 2017 RC, you may see a pop-up message offering to enable lightweight solution load. The message only appears for solutions that contain many C#, VB, or C++ projects. Choosing the **enable** command will enable lightweight solution load for that solution only. The IDE-wide setting will not be changed.
+When you open a large solution in Visual Studio 2017, you may see a pop-up message offering to enable lightweight solution load. The message only appears for solutions that contain many C#, VB, or C++ projects. Choosing the **enable** command will enable lightweight solution load for that solution only. The IDE-wide setting will not be changed.
 
 ![Popup window](../ide/media/VSIDE_LSL Popup.png)
 

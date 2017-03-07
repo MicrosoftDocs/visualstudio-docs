@@ -38,7 +38,7 @@ Retrieves the value of a specified register as stored in the stack frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_registerValue(  
    ULONG      registerIndex,  
    ULONGLONG *pRetVal  

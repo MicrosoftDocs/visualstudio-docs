@@ -38,7 +38,7 @@ Reads the specified number of bytes starting at the specified offset from an exe
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadExecutableAt (   
    DWORDLONG fileOffset,  
    DWORD     cbData,  

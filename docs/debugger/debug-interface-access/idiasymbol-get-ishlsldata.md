@@ -36,7 +36,7 @@ Specifies whether this symbol represents High Level Shader Language (HLSL) data.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isHLSLData(   
    BOOL* pRetVal);  
 ```  

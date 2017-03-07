@@ -38,7 +38,7 @@ Retrieves the next symbols in order by address.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG        celt,   
    IDiaSymbol** rgelt,  

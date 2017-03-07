@@ -1,5 +1,5 @@
 ---
-title: "Profiling Tools | Microsoft Docs"
+title: "Profiling Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -57,12 +57,12 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## GPU Usage  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  
   
- Use the [GPU Usage](../debugger/gpu-usage.md) tool to better understand the high-level hardware utilization of your Direct3D app. You can use this tool with both desktop and Windows Universal apps, but not ASP.NET apps. The **GPU Usage** tool can be run from the **Diagnostic Tools** window while you are debugging (**Debug / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**).  
+ Use the [GPU Usage](../debugger/gpu-usage.md) tool to better understand the high-level hardware utilization of your Direct3D app. You can use this tool with both desktop and Windows Universal apps, but not ASP.NET apps. The **GPU Usage** tool can be run outside the debugger (**Debug / Performance Profiler...**).  
   
 ## Application Timeline  
  ![DiagAppTimeline](../profiling/media/diagapptimeline.png "DiagAppTimeline")  
   
- The [Application Timeline](../profiling/application-timeline.md) tool helps improve the performance of XAML applications by providing a detailed view of their resource consumption. You can use the **Application Timeline** with desktop and Windows Universal apps, but not  ASP.NET apps. The **Application Timeline** tool can be run from the **Diagnostics Tools** window (**Debug / Performance Profiler...**).
+ The [Application Timeline](../profiling/application-timeline.md) tool helps improve the performance of XAML applications by providing a detailed view of their resource consumption. You can use the **Application Timeline** with desktop and Windows Universal apps, but not  ASP.NET apps. The **Application Timeline** tool can be run outside the debugger (**Debug / Performance Profiler...**).
   
 ## PerfTips  
  ![DiagPerfTips](../profiling/media/diagperftips.png "DiagPerfTips")  
@@ -80,12 +80,12 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## JavaScript Memory  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
   
- The [JavaScript Memory](../profiling/javascript-memory.md) tool lets you measure, evaluate, and target performance-related issues in your code by collecting timing information at the entrance and exit of each function in your app. You can use this tool with Windows Universal HTML apps. The **JavaScript Function Timing** tool can be run from the **Diagnostics Tools** window (**Debug / Performance Profiler...**).  
+ The [JavaScript Memory](../profiling/javascript-memory.md) tool lets you find memory leaks and inefficient memory usage in your apps. The tool lets you take snapshots of the JavaScript heap. You can use this tool with Windows Universal HTML apps. The **JavaScript Memory** tool can be run outside the debugger (**Debug / Performance Profiler...**).  
   
 ## HTML UI Responsiveness  
  ![DiagHTMLResp](../profiling/media/diaghtmlresp.png "DiagHTMLResp")  
   
- The [HTML UI responsiveness](../profiling/html-ui-responsiveness.md) tool helps you isolate performance problems in your apps, including lack of responsiveness, slow loading time, and visual updates that are less frequent than expected. You can use this tool with Windows Universal HTML apps. The **HTML UI Responsiveness** tool can be run from the **Diagnostics Tools** window (**Debug / Performance Profiler...**).  
+ The [HTML UI responsiveness](../profiling/html-ui-responsiveness.md) tool helps you isolate performance problems in your apps, including lack of responsiveness, slow loading time, and visual updates that are less frequent than expected. You can use this tool with Windows Universal HTML apps. The **HTML UI Responsiveness** tool can be run outside the debugger (**Debug / Performance Profiler...**).  
   
 ## IntelliTrace  
  ![DiagIntelliTrace](../profiling/media/diagintellitrace.png "DiagIntelliTrace")  

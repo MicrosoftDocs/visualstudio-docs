@@ -1,6 +1,6 @@
 ---
-title: "Viewing Modules, DLLs, and Executables | Microsoft Docs"
-ms.custom: ""
+title: "View Modules, DLLs, and Executables in the Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.modules"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, Modules window"
   - "Modules window"
@@ -46,7 +43,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Modules Window in the Debugger
+# How to: Use the Modules Window in the Visual Studio Debugger
 > [!NOTE]
 >  This feature is not available for SQL or script debugging.  
   

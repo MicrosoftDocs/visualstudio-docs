@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether another symbol references this symbol's 
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressTaken (   
    BOOL* pRetVal  
 );  
@@ -57,7 +57,7 @@ HRESULT get_addressTaken ( 
 ## Example  
  In the following example, `B` references `A`. Therefore, symbol `A`'s `get_addressTaken` method returns `TRUE`.  
   
-```cpp#  
+```C++  
 int A  = 0;  
 int* B = &A;  
 ```  

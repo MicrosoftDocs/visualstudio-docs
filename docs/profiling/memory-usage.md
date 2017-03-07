@@ -1,6 +1,6 @@
 ---
-title: "Memory Usage | Microsoft Docs"
-ms.custom: ""
+title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,68 +29,101 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Memory Usage
+# Analyze Memory Usage
 Find memory leaks and inefficient memory while you’re debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
   
 -   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
   
 -   You can also compare (diff) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
   
- The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
+ The following graphic shows the **Diagnostic Tools** window (available in Visual Studio 2015 Update 1 and later versions):  
   
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
- Although you can collect memory snapshots at any time in the **Memory Usage** tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminates the noise from the code that doesn’t interest you and can significantly reduce the amount of time it takes you to diagnose an issue.  
+ Although you can collect memory snapshots at any time in the **Memory Usage** tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminate the noise from the code that doesn’t interest you and can significantly reduce the amount of time it takes you to diagnose an issue.  
   
  You can also use the memory tool outside of the debugger. See [Memory Usage without Debugging](../profiling/memory-usage-without-debugging2.md).  
   
 > [!NOTE]
 >  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/visual-cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  
 >   
->  `__declspec(allocator) void* myMalloc(size_t size)`  
+>  `__declspec(allocator) void* myMalloc(size_t size)` 
+
+## Collect memory usage data
+
+1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
+
+    If you have an area where you suspect a memory issue, set the first breakpoint before the memory issue occurs.
+
+    > [!TIP]
+    >  Because it can be challenging to capture the memory profile of an operation that interests you when your app frequently allocates and de-allocates memory, set breakpoints at the start and end of the operation (or step through the operation) to find the exact point that memory changed. 
+
+2.  Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
   
-## Analyze memory use with the debugger  
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+
+4.  Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
+
+     ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
+
+5.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+
+     When the app finishes loading, the Summary view of the Diagnostics Tools appears.
+
+     ![Diagnostics Tools Summary Tab](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+
+     > [!NOTE]
+     >  Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the Memory Usage tab, and then choose **Heap Profiling**.  
+     >   
+     >  ![Enable snapshots](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
+     >   
+     >  Stop (Shortcut key: **Shift + F5**) and restart debugging.  
+
+6.  To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
+
+    ![Take snapshot](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot") 
+     
+     > [!TIP]
+     >  -   To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.  
+
+6.  Run the scenario that will cause your first breakpoint to be hit.
+
+7.  While the debugger is paused at the first breakpoint, choose **Take snapshot** on the **Memory Usage** summary toolbar.  
+
+8.  Hit F5 to run the app to your second breakpoint.
+
+9.  Now, take another snapshot.
+
+     At this point, you can begin to analyze the data.    
   
-> [!NOTE]
->  Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the Memory Usage tab, and then choose **Enable snapshots**.  
->   
->  ![Enable snapshots](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
->   
->  Stop (Shortcut key: **Shift + F5**) and restart debugging.  
+## Analyze memory usage data
+The rows of Memory Usage summary table lists the snapshots that you have taken during the debugging session and provides links to more detailed views.
+
+![Memory summary table](../profiling/media/dbgdiag_mem_summarytable.png "DBGDIAG_MEM_SummaryTable")
+
+ The name of the columns depend on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).  
   
- Whenever you want to capture the state of memory, choose **Take snapshot** on the **Memory Usage** summary toolbar.  
+-   The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.  
   
- ![Take snapshot](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot")  
+-   The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps 
+
+When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.  
   
-> [!TIP]
->  -   To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.  
-> -   Because it can be challenging to capture the memory profile of an operation that interests you when your app frequently allocates and de-allocates memory, set breakpoints at the start and end of the operation or step through the operation to find the exact point that memory changed.  
+![Memory summary table cell](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
+
+To analyze memory usage, click one of the links that opens up a detailed report of memory usage:  
+
+-   To view details of the difference between the current snapshot and the previous snapshot, choose the change link to the left of the arrow (![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase")). A red arrow indicates an increase in memory usage, and a green arrow to indicates a decrease).
+
+    > [!TIP]
+    >  To help identify memory issues more quickly, the diff reports are sorted by object types that increased the most in overall number (change link in **Objects (Diff)** column) or that increased the most in overall heap size (change link in **Heap Size (Diff)** column).
+
+-   To view details of only the selected snapshot, select the non-change link. 
   
-## Viewing memory snapshot details  
- The rows of Memory Usage summary table lists the snapshots that you have taken during the debugging session.  
-  
- The columns of the row depend on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).  
-  
--   The **Managed Object**s and **Native Allocations** columns display the number of objects in .NET and native memory when the snapshot was taken.  
-  
--   The **Managed Heap Size** and **Native Heap Size** columns display the number of bytes in the .NET and native heaps  
-  
--   When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.  
-  
-     ![Memory summary table cell](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
-  
- **To view a detail report:**  
-  
--   To view details of only the selected snapshot choose the current link.  
-  
--   To view details of the difference between the current snapshot and the previous snapshot, choose the change link.  
-  
- The report appears in a separate window.  
-  
-## Memory Usage details reports  
+ The report appears in a separate window.   
   
 ### Managed types reports  
- Choose the current link of a **Managed Objects** or **Managed Heap Size** cell in the Memory Usage summary table.  
+ Choose the current link of a **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.  
   
  ![Debugger managed type report &#45; Paths to Root](../profiling/media/dbgdiag_mem_managedtypesreport_pathstoroot.png "DBGDIAG_MEM_ManagedTypesReport_PathsToRoot")  
   
@@ -109,7 +142,7 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The Paths to Root and Referenced Objects pane display the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the Value cell to display the values of the object in a tool tip.  
   
 ### Native type reports  
- Choose the current link of a **Native Allocations** or **Native Heap Size** cell in the Memory Usage summary table of the **Diagnostic Tools** window.  
+ Choose the current link of a **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.  
   
  ![Native Type View](../profiling/media/dbgdiag_mem_native_typesview.png "DBGDIAG_MEM_Native_TypesView")  
   

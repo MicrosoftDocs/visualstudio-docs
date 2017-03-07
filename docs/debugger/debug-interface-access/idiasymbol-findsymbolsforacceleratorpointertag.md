@@ -36,7 +36,7 @@ Returns the number of accelerator pointer tags in a C++ AMP stub function.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT findSymbolsForAccleratorPointerTag (   
    DWORD             tagValue,  
    IDiaEnumSymbols** ppResult);  

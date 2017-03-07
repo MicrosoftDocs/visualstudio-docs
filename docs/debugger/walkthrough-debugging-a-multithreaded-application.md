@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "multithreaded debugging, walkthrough"
@@ -65,17 +65,17 @@ translation.priority.ht:
   
 -   In the source window, look for the following code:  
   
-    ```vb  
+    ```VB  
     Thread.Sleep(3000)   
     Console.WriteLine(  
     ```  
   
-```c#  
+```CSharp  
 Thread.Sleep(3000);  
 Console.WriteLine();  
 ```  
   
-```cpp  
+```C++  
 Thread::Sleep(3000);  
 Console.WriteLine();  
 ```  
@@ -94,15 +94,15 @@ Console.WriteLine();
   
 4.  In the source window, locate the line that contains the following code:  
   
-    ```vb  
+    ```VB  
     Thread.Sleep(5000)   
     ```  
   
-```c#  
+```CSharp  
 Thread.Sleep(3000);  
 ```  
   
-```cpp  
+```C++  
 Thread::Sleep(3000);  
 ```  
   

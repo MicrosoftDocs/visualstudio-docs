@@ -36,7 +36,7 @@ Retrieves the ID of the original (unmodified) type.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_unmodifiedTypeId(   
    DWORD* pRetVal);  
 ```  

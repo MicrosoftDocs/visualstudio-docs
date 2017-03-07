@@ -1,6 +1,6 @@
 ---
-title: "Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Specify Symbol (.pdb) and Source Files in the Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,9 +13,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "source code"

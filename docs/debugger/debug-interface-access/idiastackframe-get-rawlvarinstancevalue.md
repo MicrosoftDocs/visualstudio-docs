@@ -38,7 +38,7 @@ This method retrieves the value of the specified local variable as raw bytes.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_rawLVarInstanceValue(  
    IDiaLVarInstance* pInstance,  
    DWORD             cbDataMax,  

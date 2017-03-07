@@ -38,7 +38,7 @@ Specifies the type of symbol.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum SymTagEnum {   
    SymTagNull,  
    SymTagExe,  

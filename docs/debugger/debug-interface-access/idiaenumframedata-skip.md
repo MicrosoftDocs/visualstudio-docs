@@ -38,7 +38,7 @@ Skips a specified number of frame data elements in an enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Skip (   
    ULONG celt  
 );  

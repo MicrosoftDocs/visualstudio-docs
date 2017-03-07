@@ -62,7 +62,7 @@ IDiaDataSource : IUnknown
   
 ## Example  
   
-```cpp#  
+```C++  
   
       IDiaDataSource* pSource;  
 HRESULT hr = CoCreateInstance(CLSID_DiaSource,  

@@ -38,7 +38,7 @@ Retrieves the length, in bytes, of the block of code described by the frame.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lengthBlock (   
    DWORD* pRetVal  
 );  

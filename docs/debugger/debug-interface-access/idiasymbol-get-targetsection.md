@@ -38,7 +38,7 @@ Retrieves the address section of a thunk target.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_targetSection (   
    DWORD* pRetVal  
 );  

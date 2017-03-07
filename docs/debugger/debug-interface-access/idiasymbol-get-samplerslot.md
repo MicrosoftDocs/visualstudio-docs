@@ -36,7 +36,7 @@ Retrieves the sampler slot.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_samplerSlot(   
    DWORD* pRetVal);  
 ```  

@@ -38,7 +38,7 @@ Gets an enumerator for properties within this set.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Enum (   
    IEnumSTATPROPSTG** ppenum  
 );  

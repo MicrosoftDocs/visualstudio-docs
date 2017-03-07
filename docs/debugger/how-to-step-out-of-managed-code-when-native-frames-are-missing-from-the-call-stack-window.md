@@ -9,15 +9,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Call Stack window, missing native frames"
   - "code, managed code"

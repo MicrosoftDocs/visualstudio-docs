@@ -38,7 +38,7 @@ Retrieves a flag that specifies whether the function or thunk layer has been mar
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isStatic(  
    BOOL *pFlag  
 );  

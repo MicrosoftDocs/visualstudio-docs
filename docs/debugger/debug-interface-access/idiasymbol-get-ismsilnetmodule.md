@@ -38,7 +38,7 @@ Retrieves a flag indicating whether the module is a .netmodule (a Microsoft Inte
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isMSILNetmodule(  
    BOOL *pFlag  
 );  

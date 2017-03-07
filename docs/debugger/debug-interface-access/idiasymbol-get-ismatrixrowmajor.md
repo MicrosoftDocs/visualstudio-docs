@@ -36,7 +36,7 @@ Specifies whether the matrix is row major.
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isMatrixRowMajor(   
    BOOL* pRetVal);  
 ```  

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_RibbonButtons">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_RibbonButtons\CS\Trin_RibbonButtons.sln">
+</Property><Property Name="Date" Value="Wednesday, November 04, 2009">
+</Property><Property Name="Time" Value="15:24 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_RibbonButtons.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_RibbonButtons.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_RibbonButtons" Source="Trin_RibbonButtons.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

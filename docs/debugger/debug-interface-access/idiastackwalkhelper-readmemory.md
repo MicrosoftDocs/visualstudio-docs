@@ -38,7 +38,7 @@ Reads a block of data from the executable's image in memory.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT readMemory(   
    enum MemoryTypeEnum type,  
    ULONGLONG           va,  

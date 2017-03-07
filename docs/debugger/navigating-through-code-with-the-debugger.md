@@ -1,7 +1,7 @@
 ---
-title: "Navigating through Code with the Debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "Navigate Code with the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,12 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.execution"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
 helpviewer_keywords: 
   - "stepping"
   - "debugging [Visual Studio], execution control"
@@ -41,7 +35,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Navigating through Code with the Debugger
+# Navigate Code with the Visual Studio Debugger
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can [inspect the state of your app](https://msdn.microsoft.com/library/mt243867.aspx#BKMK_Inspect_Variables) or learn more about its execution flow.  
   
 ## Start debugging  
@@ -73,13 +67,13 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 -   The debugger actually steps through code statements rather than physical lines. For example an `if` clause can be written on one line:  
   
-    ```c#  
+    ```CSharp  
     int x = 42;  
     string s = "Not answered";  
     if( int x == 42) s = "Answered!";  
     ```  
   
-    ```vb  
+    ```VB  
     Dim x As Integer = 42  
     Dim s As String = "Not answered"  
     If x = 42 Then s = "Answered!"  

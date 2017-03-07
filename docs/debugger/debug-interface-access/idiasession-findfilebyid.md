@@ -38,7 +38,7 @@ Retrieves a source file by source file identifier.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findFileById (   
    DWORD            uniqueId,  
    IDiaSourceFile** ppResult  

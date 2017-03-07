@@ -29,9 +29,9 @@ f1_keywords:
   - "VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType"
   - "VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 66ec0e79-8261-4c19-a618-3fd1b3f71bbd
 caps.latest.revision: 20

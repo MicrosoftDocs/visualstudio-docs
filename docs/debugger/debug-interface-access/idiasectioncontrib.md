@@ -80,7 +80,7 @@ IDiaSectionContrib : IUnknown
 ## Example  
  This function shows the address of each section along with any associated symbols. See the [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md) interface to see how the `IDiaSectionContrib` interface is obtained.  
   
-```cpp#  
+```C++  
 void PrintSectionContrib(IDiaSectionContrib* pSecContrib, IDiaSession* pSession)  
 {  
     if (pSecContrib != NULL && pSession != NULL)  

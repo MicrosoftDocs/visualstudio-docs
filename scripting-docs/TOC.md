@@ -1,10 +1,4 @@
-
-# [chakra-hosting](chakra-hosting\TOC.md)
-# [javascript](javascript\TOC.md)
-# [advanced](javascript\advanced\TOC.md)
-# [misc](javascript\misc\TOC.md)
-# [reference](javascript\reference\TOC.md)
-# [jswinrt](jswinrt\TOC.md)
-# [winscript](winscript\TOC.md)
-# [reference](winscript\reference\TOC.md)
-
+# [JavaScript Language Reference](javascript/javascript-language-reference.md)
+# [Using the Windows Runtime in JavaScript](jswinrt/using-the-windows-runtime-in-javascript.md)
+# [JavaScript Runtime Hosting](chakra-hosting/javascript-runtime-hosting.md)
+# [Windows Script Interfaces](winscript/windows-script-interfaces.md)

@@ -38,7 +38,7 @@ Retrieves the line number in the source file.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lineNumber (   
    DWORD* pRetVal  
 );  
@@ -53,7 +53,7 @@ HRESULT get_lineNumber ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 CComPtr< IDiaLineNumber> pLine;  
 DWORD linenum;  
 pLine->get_lineNumber( &linenum );  

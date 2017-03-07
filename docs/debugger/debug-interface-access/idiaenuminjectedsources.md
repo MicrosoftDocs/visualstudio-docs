@@ -63,7 +63,7 @@ IDiaEnumInjectedSources : IUnknown
 ## Example  
  This example shows how to obtain (the `GetEnumInjectedSources` function) and use (the `DumpAllInjectedSources` function) the `IDiaEnumInjectedSources` interface. See the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface for an implementation of the `PrintPropertyStorage` function. For an alternative output, see the [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) interface.  
   
-```cpp#  
+```C++  
   
 IDiaEnumInjectedSources* GetEnumInjectedSources(IDiaSession *pSession)  
 {  

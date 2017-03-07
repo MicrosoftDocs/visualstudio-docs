@@ -38,7 +38,7 @@ Retrieves a flag that indicates whether the section contains 16-bit code.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_code16bit(  
    BOOL *pRetVal  
 };  

@@ -1,7 +1,7 @@
 ---
 title: "Security in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,3 +51,12 @@ You should consider security in all aspects of your application development, fro
   
  [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
  Discusses buffer overruns and the complete picture of the Microsoft Visual C++ security checks feature provided by the /GS compile-time flag.
+
+## Building for Security  
+ Security is also an important consideration in the build process.  A few additional steps can improve the security of a deployed app, and help prevent unauthorized reverse engineering, spoofing, or other attacks.
+
+ [Dotfuscator Community Edition (CE)](dotfuscator/index.md)  
+ Explains how to set up and start using the free PreEmptive Protection - Dotfuscator Community Edition to protect .NET assemblies from reverse-engineering and unauthorized use (such as unauthorized debugging).
+  
+ [Managing Assembly and Manifest Signing](managing-assembly-and-manifest-signing.md)  
+ Discusses strong-name signing, which can be used to uniquely identify software components, preventing name spoofing.

@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.firewallconfiguration"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 

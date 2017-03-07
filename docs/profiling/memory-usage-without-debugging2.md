@@ -1,6 +1,6 @@
 ---
-title: "Memory Usage without Debugging2 | Microsoft Docs"
-ms.custom: ""
+title: "Analyze Memory Usage without the VS Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 13
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Memory Usage without Debugging
+# Memory Usage without the Debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  

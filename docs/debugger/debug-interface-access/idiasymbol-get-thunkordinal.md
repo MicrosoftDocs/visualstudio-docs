@@ -38,7 +38,7 @@ Retrieves the thunk type of a function.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_thunkOrdinal (   
    DWORD* pRetVal  
 );  

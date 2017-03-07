@@ -38,7 +38,7 @@ Indicates the particular scope of a data value.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum DataKind {   
    DataIsUnknown,  
    DataIsLocal,  

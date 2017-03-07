@@ -38,7 +38,7 @@ Retrieves a symbol by means of an index.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD        index,  
    IDiaSymbol** symbol  

@@ -38,7 +38,7 @@ Retrieves the virtual address (VA) of the beginning of the section.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualAddress (   
    ULONGLONG* pRetVal  
 );  

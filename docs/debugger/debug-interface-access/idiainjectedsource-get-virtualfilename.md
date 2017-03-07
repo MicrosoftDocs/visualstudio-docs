@@ -38,7 +38,7 @@ Retrieves the name given to non-file source code; that is, code that was injecte
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualFilename (   
    BSTR* pRetVal  
 );  

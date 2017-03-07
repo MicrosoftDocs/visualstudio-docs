@@ -38,7 +38,7 @@ Describes an entry in an address map.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 struct DiaAddressMapEntry {   
    DWORD rva,  
    DWORD rvaTo  

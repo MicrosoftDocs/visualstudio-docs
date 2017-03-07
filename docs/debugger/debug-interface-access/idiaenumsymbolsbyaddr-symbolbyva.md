@@ -38,7 +38,7 @@ Positions the enumerator by performing a lookup by virtual address (VA).
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolByVA (   
    DWORD**      virtualAddress,  
    IDiaSymbol** ppsymbol  

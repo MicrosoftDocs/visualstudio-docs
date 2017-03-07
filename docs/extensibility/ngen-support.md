@@ -30,8 +30,6 @@ translation.priority.mt:
 ---
 # Ngen support in VSIX v3
 
->**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
-
 With Visual Studio 2017 and the new VSIX v3 (version 3) extension manifest format, extension developers can now "ngen" their assemblies at installation time.
 
 Below is an excerpt from MSDN that explains what "ngen" does:

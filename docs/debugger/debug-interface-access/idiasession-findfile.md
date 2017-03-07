@@ -38,7 +38,7 @@ Retrieves source files by compiland and name.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findFile (   
    IDiaSymbol*           pCompiland,  
    LPCOLESTR             name,  
@@ -65,7 +65,7 @@ HRESULT findFile ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaEnumSourceFiles* pEnum;  
 pSession->findFile( NULL, L"sourcefile.cpp", nsFNameExt, &pEnum );  
 ```  

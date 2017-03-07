@@ -38,7 +38,7 @@ Retrieves a specified number of stack frame elements from the enumeration sequen
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next(   
    ULONG             celt,  
    IDiaStackFrame**  rgelt,  

@@ -19,10 +19,9 @@ f1_keywords:
   - "allocMemDF"
   - "afxMemDF"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [MFC]"
@@ -165,7 +164,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
      These values can be used in combination by performing a logical-OR operation, as shown here:  
   
-    ```cpp  
+    ```C++  
     afxMemDF = allocMemDF | delayFreeMemDF | checkAlwaysMemDF;  
     ```  
   

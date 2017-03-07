@@ -38,7 +38,7 @@ Retrieves the number of bytes in a section.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_length (   
    DWORD* pRetVal  
 );  
