@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <contextMenus>
+    <contextMenu idMso="ContextMenuText">
+      <button id="MyButton" label="My Button" insertBeforeMso="HyperlinkInsert" onAction="GetButtonID" />
+      <menu id="MySubMenu" label="My Submenu" >
+        <button id="MyButton2" label="Button on submenu" />
+      </menu>
+      <gallery id="galleryOne" label="My Gallery">
+        <item id="item1" imageMso="HappyFace" />
+        <item id="item2" imageMso="HappyFace" />
+        <item id="item3" imageMso="HappyFace" />
+        <item id="item4" imageMso="HappyFace" />
+      </gallery>
+    </contextMenu>
+  </contextMenus>
+</customUI>
+
+

@@ -43,6 +43,7 @@ What is code quality? Correctness, maintainability, and even elegance are all in
 |||  
 |-|-|  
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Test Explorer makes it easy to integrate unit tests in your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.|  
+|[Live Unit Testing with Visual Studio](../test/live-unit-testing.md)|Live Unit Testing automatically runs unit tests in the background and graphically displays code coverage and test results in the Visual Studio code editor.|  
 |[Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|Static code analysis tools find design, usage, maintainablity, and style issues in C++ and managed code. Many of these issues can lead to bugs that are hard to reproduce in standard testing environment.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Code metrics is a set of software measures that provide developers better insight into the code they are developing. The metrics include a maintainability index for functions and classes, cyclomatic complexity of functions, the inheritance depth of classes, and the amount of coupling among classes.|  
   

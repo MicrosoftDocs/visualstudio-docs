@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpExt_WebPart", "SpExt_WebPart.csproj", "{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9AA7B3-67E3-46C5-B157-172A90FCAFAA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

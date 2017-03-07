@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_WordAddInDatabase">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Trin_WordAddInDatabase.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Trin_WordAddInDatabase.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="15:29 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_WordAddInDatabase.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_WordAddInDatabase.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\Trin_WordAddInDatabase.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_WordAddInDatabase.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\Trin_WordAddInDatabase.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\Trin_WordAddInDatabase.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\Trin_WordAddInDatabase.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="AdventureWorksLTDataSet.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\AdventureWorksLTDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="AdventureWorksLTDataSet.xsc" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\AdventureWorksLTDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="AdventureWorksLTDataSet.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\AdventureWorksLTDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="AdventureWorksLTDataSet.xss" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\AdventureWorksLTDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="app.config" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase_O12_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\Trin_WordAddInDatabase_O12_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInDatabase\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_WordAddInDatabase" Source="Trin_WordAddInDatabase.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_WordAddInDatabase.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_WordAddInDatabase.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_WordAddInDatabase" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="Trin_WordAddInDatabase" Source="app.config" Description="Converted">
+</Event></UpgradeLog>

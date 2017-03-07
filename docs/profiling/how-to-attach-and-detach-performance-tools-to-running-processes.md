@@ -55,11 +55,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To attach to a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
-  
-     \- or -  
-  
-     In **Performance Explorer**, right-click the performance session, and then click **Attach/Detach**.  
+1.  On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Attach**.    
   
      The **Attach Profiler to Process** dialog box appears.  
   
@@ -69,11 +65,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To detach from a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
-  
-     \- or -  
-  
-     In **Performance Explorer**, right-click the performance session, and then click **Attach/Detach**.  
+1.  n the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Detach**. 
   
      The **Attach Profiler to Process** dialog box appears.  
   

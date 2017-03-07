@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB.vbproj", "{4A91BFFA-EE58-459F-BF3E-7240E16844F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A91BFFA-EE58-459F-BF3E-7240E16844F3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

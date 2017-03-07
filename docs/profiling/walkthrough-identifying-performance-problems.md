@@ -72,7 +72,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
      You should use a release build to detect performance problems in your application. A release build is recommended for profiling because a debug build has additional information compiled into it that might adversely affect performance and do not illustrate performance issues accurately.  
   
-4.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+4.  On the **Analyze** menu, select **Performance Profiler**, then select **Performance Wizard**, and then select **Start**.  
   
      The Performance Wizard appears.  
   

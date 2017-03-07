@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ExcelWorkbookTutorial">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ExcelWorkbookTutorial\VB\Trin_ExcelWorkbookTutorial.sln">
+</Property><Property Name="Date" Value="Tuesday, November 03, 2009">
+</Property><Property Name="Time" Value="13:32 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Trin_ExcelWorkbookTutorial" Source="Trin_ExcelWorkbookTutorial.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelWorkbookTutorial" Source="Trin_ExcelWorkbookTutorial.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelWorkbookTutorial.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ExcelWorkbookTutorial.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelWorkbookTutorial" Source="Trin_ExcelWorkbookTutorial.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
