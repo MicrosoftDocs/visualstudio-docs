@@ -53,7 +53,7 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 ## Create an offline installation folder
 To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
-(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username\Downloads` on a computer that is running Windows 10).
+(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer that is running Windows 10).
 
 - For Visual Studio Enterprise, run: <br>  ```vs_enterprise.exe --layout c:\vs2017offline```
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
@@ -64,7 +64,7 @@ Run your offline installation now or later; the choice is yours to make. But whe
 
   a. Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
 
-  b. Run the installation file. For example, run: <br> ```vs_enterprise.exe --layout c:\vs2017offline```
+  b. Run the installation file. For example, run: <br> ```c:\vs2017offline\vs_enterprise.exe```
 
 ## Additional tips for offline installers
 It's easy to customize or update your offline installer; we'll show you how. And if something goes wrong with your offline installer, we've got troubleshooting and support information for you, too.
