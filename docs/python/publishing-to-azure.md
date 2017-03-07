@@ -93,9 +93,3 @@ To create a temporary site in Azure App Service without needing an Azure subscri
 
 1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-azure-remote.md), you must set **Configuration** to **Debug**
 1. Select **Publish**. Once your application is deployed to Azure, your default browser will open on that site. 
- 
-## Additional resources
-
-For a walkthrough of a richer web application, see [Deep Dive: Create a Python Django website using Visual Studio](https://www.youtube.com/watch?v=WG3pGmoo8nE&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=10) (youtube.com, 8m58s). 
-
-> [!VIDEO https://www.youtube.com/embed/WG3pGmoo8nE]

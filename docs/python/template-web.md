@@ -52,10 +52,6 @@ For an introduction to Python web projects, see [Getting Started with PTVS, Part
 
 > [!VIDEO https://www.youtube.com/embed/FJx5mutt1uk]
 
-Also, for a walkthrough of creating and deploying a Django website using Visual Studio, see [Deep Dive: Creating a Django Website](https://youtu.be/WG3pGmoo8nE) (youtube.com, 8m58s).
-
-> [!VIDEO https://www.youtube.com/embed/WG3pGmoo8nE]
-
 ## Debugging
 
 When a web project is started for debugging, PTVS will start the web server locally and open your default browser to that address and port. TO specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
@@ -161,8 +157,7 @@ If you are using JSON deployment templates, you can specify the site extension a
 
 Finally, you can log in through the [development console](https://github.com/projectkudu/kudu/wiki/Kudu-console) and install a site extension from there.
 
-Currently, the recommended way to install packages is to use the development console after installing the site extension and executing pip directly.
-Using the full path to Python is important, or you may execute the wrong one, and there is generally no need to use a virtual environment. For example:
+Currently, the recommended way to install packages is to use the development console after installing the site extension and executing pip directly. Using the full path to Python is important, or you may execute the wrong one, and there is generally no need to use a virtual environment. For example:
 
 ```
     c:\Python35\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt

@@ -55,11 +55,6 @@ PTVS also provides full [debugging support](debugging.md) for Django projects:
 
 ![Breakpoints](media/template-django-debugging.png)
 
-For a walkthrough of creating and deploying a Django website using Visual Studio, see [Deep Dive: Creating a Django Website](https://youtu.be/WG3pGmoo8nE) (youtube.com, 8m58s).
-
-> [!VIDEO https://www.youtube.com/embed/WG3pGmoo8nE]
-
-
 ## Django management console
 
 The Django management console is access through various commands on the **Project** menu or by right-clicking the project in Solution Explorer.
