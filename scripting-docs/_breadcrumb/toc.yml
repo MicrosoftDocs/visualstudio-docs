@@ -21,8 +21,8 @@
       topicHref: /scripting/winscript/windows-scripting-interfaces
       items:
       - name: Reference
-          tocHref: /scripting/winscript/reference
-          topicHref: /scripting/winscript/reference/windows-script-interfaces-reference
+        tocHref: /scripting/winscript/reference
+        topicHref: /scripting/winscript/reference/windows-script-interfaces-reference
     - name: JavaScript Runtime Hosting
       tocHref: /scripting/chakra-hosting/
       topicHref: /scripting/chakra-hosting/javascript-runtime-hosting
