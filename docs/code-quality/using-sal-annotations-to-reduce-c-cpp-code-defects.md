@@ -1,5 +1,5 @@
 ---
-title: "Using SAL Annotations to Reduce C-C++ Code Defects | Microsoft Docs"
+title: "Using SAL Annotations to Reduce C/C++ Code Defects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

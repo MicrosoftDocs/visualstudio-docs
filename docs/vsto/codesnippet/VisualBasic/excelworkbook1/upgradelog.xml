@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExcelWorkbook1">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\ExcelWorkbook1.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\ExcelWorkbook1.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="15:16 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="ExcelWorkbook1.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="ExcelWorkbook1.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ExcelWorkbook1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExcelWorkbook1.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ExcelWorkbook1.v11.suo">
+</Event><Event ErrorLevel="3" Project="ExcelWorkbook1" Source="ExcelWorkbook1.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ExcelWorkbook1.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ExcelWorkbook1.vbproj">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet1.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet2.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet2.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet2.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet3.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet3.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet3.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet3.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ThisWorkbook.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ThisWorkbook.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ThisWorkbook.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ThisWorkbook.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ExcelWorkbook1.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ExcelWorkbook1.xlsx">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ExcelWorkbook1_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ExcelWorkbook1_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstrefGeneralExcel\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ExcelWorkbook1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExcelWorkbook1" Source="ExcelWorkbook1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExcelWorkbook1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExcelWorkbook1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExcelWorkbook1" Source="ExcelWorkbook1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

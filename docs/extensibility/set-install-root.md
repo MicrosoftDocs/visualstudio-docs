@@ -31,8 +31,6 @@ translation.priority.mt:
 ---
 # Installing outside the extensions folder
 
->**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
-
 Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support for installing extension assets outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [installdir] is mapped to the Visual Studio instance’s installation directory):
 
 * [installdir]\Common7\IDE\PublicAssemblies

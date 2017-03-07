@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Ribbon_Update_At_Runtime">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Ribbon_Update_At_Runtime.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Ribbon_Update_At_Runtime.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="16:27 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Ribbon_Update_At_Runtime.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Ribbon_Update_At_Runtime.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Ribbon_Update_At_Runtime.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Ribbon_Update_At_Runtime.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Ribbon_Update_At_Runtime.v11.suo">
+</Event><Event ErrorLevel="3" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Ribbon_Update_At_Runtime.vbproj">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Ribbon_Update_At_Runtime.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="CustomerRibbon.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\CustomerRibbon.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="CustomerRibbon.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\CustomerRibbon.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="NorthwindDataSet.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\NorthwindDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="app.config" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="NorthwindDataSet.xsc" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\NorthwindDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="NorthwindDataSet.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\NorthwindDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="NorthwindDataSet.xss" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\NorthwindDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Ribbon_Update_At_Runtime_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Northwind.sdf" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\Northwind.sdf">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="CustomerRibbon.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\CustomerRibbon.resx">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Update_At_Runtime\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Ribbon_Update_At_Runtime.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Ribbon_Update_At_Runtime.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Ribbon_Update_At_Runtime" Source="Ribbon_Update_At_Runtime.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

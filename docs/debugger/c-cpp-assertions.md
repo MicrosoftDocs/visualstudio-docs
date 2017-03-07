@@ -1,5 +1,5 @@
 ---
-title: "C-C++ Assertions | Microsoft Docs"
+title: "C/C++ Assertions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

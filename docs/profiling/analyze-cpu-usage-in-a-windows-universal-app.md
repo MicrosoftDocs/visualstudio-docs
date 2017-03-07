@@ -1,6 +1,6 @@
 ---
-title: "Analyze CPU Usage in a Windows Universal App | Microsoft Docs"
-ms.custom: ""
+title: "Analyze CPU Usage in a Universal Windows App | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Analyze CPU Usage in a Windows Universal App
+# Analyze CPU Usage in a Universal Windows App (UWP)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [Application Timeline](../profiling/application-timeline.md) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  

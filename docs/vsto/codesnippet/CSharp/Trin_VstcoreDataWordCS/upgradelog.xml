@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreDataWordCS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Trin_VstcoreDataWordCS.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Trin_VstcoreDataWordCS.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:30 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreDataWordCS.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreDataWordCS.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Trin_VstcoreDataWordCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreDataWordCS.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Trin_VstcoreDataWordCS.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Trin_VstcoreDataWordCS.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Trin_VstcoreDataWordCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="ThisDocument.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\ThisDocument.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="ThisDocument.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\ThisDocument.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="DocumentCS.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\DocumentCS.docx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Trin_VstcoreDataWordCS_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreDataWord\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreDataWordCS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreDataWordCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreDataWordCS" Source="Trin_VstcoreDataWordCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

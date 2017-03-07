@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_OL_SaveAttachments", "Trin_OL_SaveAttachments.csproj", "{6E16F5C0-77EF-458B-903C-A68056E888EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{6E16F5C0-77EF-458B-903C-A68056E888EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E16F5C0-77EF-458B-903C-A68056E888EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E16F5C0-77EF-458B-903C-A68056E888EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E16F5C0-77EF-458B-903C-A68056E888EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
