@@ -39,6 +39,7 @@ Python Tools for Visual Studio (PTVS) provides several commands for automaticall
 - [Add import](#add-import) provides a smart tag to add a missing import
 - [Remove unused imports](#remove-imports) removes unused imports
 
+<a name="rename-variable"</a>
 ## Rename
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit > Refactor > Rename...** menu command or press F2.
@@ -80,6 +81,7 @@ Similarly, PTVS filters functions that are imported from other modules or from t
 
 Finally if something would be excluded due to the rules above but has other values that would be included (because the name was assigned a value in the module, for example), PTVS still excludes the import. This assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value which is also not exported.
 
+<a name="remove-imports"</a>
 ## Remove unused imports
 
 When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because PTVS analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope below where the statement occurs.
