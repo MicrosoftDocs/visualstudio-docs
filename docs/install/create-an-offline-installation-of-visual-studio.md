@@ -59,6 +59,8 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
 - For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
 
+For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline- installer) section on this page.
+
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
 
@@ -80,6 +82,11 @@ To learn more about the options you can use to customize your installation, see 
 
 
 ### How to update an offline installer
+You might want to update your offline installer at a later date. Here's how.
+* To update a Visual Studio instance that you installed from an offline installation folder, just run Visual Studio Installer and then click **Update**.
+* If you want to refresh your offline installation folder to contain the latest updates, run the ```--layout``` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran ```--layout``` will be downloaded. 
+
+
 If you want to update your offline installation, run the `--layout` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran `--layout` will be downloaded.
 
 ### How to troubleshoot an offline installer
@@ -87,7 +94,7 @@ Sometimes, things go wrong. Here is a table of known issues and some workarounds
 
 | Issue       | Item                   | Solution |
 | ----------- | ---------------------- | -------- |
-| You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
+| You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | If you want to include Android SDK (API Level) packages, you must have an internet connection when you create your offline installer. If you are on a restricted network, you must allow access to the following URLs: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
 
