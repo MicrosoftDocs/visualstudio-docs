@@ -33,7 +33,7 @@ translation.priority.mt:
 We're interested in your ideas for improving our products and our documentation. We can’t always respond personally, but we’ll make sure that your feedback gets to the right person or team.  
 
 ## I want to report a problem with Visual Studio  
- If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **QuickLaunch**, or choose **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017 RC](how-to-report-a-problem-with-visual-studio-2017.md).  
+ If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **QuickLaunch**, or choose **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).  
 
 ## I want to make a suggestion about Visual Studio features  
  If there's something we can do better, please let us know! Choose **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Your suggestion will automatically be posted to [UserVoice](https://visualstudio.uservoice.com) where others can vote for it.  

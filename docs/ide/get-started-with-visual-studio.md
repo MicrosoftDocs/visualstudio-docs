@@ -62,7 +62,7 @@ To see properties for solutions, projects, and files, choose the **Properties** 
 
 ![Properties window](../ide/media/VSIDE_SolutionExplorer4.png)
 
-You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Develop code in Visual Studio without projects or solutions](../ide/Develop code in Visual Studio without projects or solutions.md) for more information.
+You don't have to create a solution or project, however, to get started coding. You can simply jump right in and open code files in Visual Studio, such as files cloned from a Git repo, and start editing them right away. The files will appear in Solution Explorer and get syntax colorization, basic statement completion, and more, just like traditional solutions. See [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) for more information.
 
 ### Toolbar and menus
 To run your project, create new solutions, save files, and more, use the Visual Studio toolbar and menu commands. For example, once your code is ready to run for debugging, you can choose the **Start** button on the toolbar, or you can choose **Debug, Start Debugging** on the menu. To create a new solution, choose the **New Project** button, or choose **File, New, Project** on the menu, and so forth.
