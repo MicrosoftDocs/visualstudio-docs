@@ -15,7 +15,7 @@ ms.prod: "visual-studio-dev15"
 ms.service:
 ms.technology:
   - "vs-ide-install"
- ms.assetid: 7392a100-100c-458c-9394-828695109015
+ms.assetid: 7392a100-100c-458c-9394-828695109015
 translation.priority.ht:
   - "de-de"
   - "es-es"
