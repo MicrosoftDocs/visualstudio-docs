@@ -43,7 +43,7 @@ The following pages list the workload and component IDs you’ll need to install
 * [Visual Studio Build Tools 2017](workload-component-id-vs-build-tools.md)
 * [Visual Studio Test Agent 2017](workload-component-id-vs-test-agent.md)
 * [Visual Studio Test Controller 2017 ](workload-component-id-vs-test-controller.md)
-* [Test Professional 2017](workload-component-id-vs-test-professional.md)
+* [Visual Studio Test Professional 2017](workload-component-id-vs-test-professional.md)
 * [Visual Studio Feedback Client 2017](workload-component-id-vs-feedback-client.md)
 
 For more information about how to use these lists, see the [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page and the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.

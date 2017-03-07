@@ -41,7 +41,6 @@ In this, our newest version of Visual Studio, we've focused on performance and p
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
-
 Here is a high-level recap of the changes we've made:
 
 * **Performance and productivity**. We have focused not only on new, modern mobile, cloud, and desktop development capabilities, but we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
