@@ -420,7 +420,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#features1"> </a>
                         <ul id="features1" class="cardsC">
                             <li>
-                                <a href="https://review.docs.microsoft.com/en-us/visualstudio/ide/index-writing-code?branch=vs-rtw">
+                                <a href="https://docs.microsoft.com/en-us/visualstudio/ide/index-writing-code">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
