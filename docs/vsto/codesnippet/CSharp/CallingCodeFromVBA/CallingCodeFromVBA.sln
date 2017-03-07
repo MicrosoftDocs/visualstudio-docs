@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallingCodeFromVBA", "CallingCodeFromVBA.csproj", "{58D5BD07-9CD4-479B-88B8-96BD504F5C9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{58D5BD07-9CD4-479B-88B8-96BD504F5C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D5BD07-9CD4-479B-88B8-96BD504F5C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D5BD07-9CD4-479B-88B8-96BD504F5C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D5BD07-9CD4-479B-88B8-96BD504F5C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

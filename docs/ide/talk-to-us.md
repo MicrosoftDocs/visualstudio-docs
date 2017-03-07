@@ -1,7 +1,7 @@
 ---
 title: "Talk to Us | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/10/2017"
+ms.date: "03/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 We're interested in your ideas for improving our products and our documentation. We can’t always respond personally, but we’ll make sure that your feedback gets to the right person or team.  
 
 ## I want to report a problem with Visual Studio  
- If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **QuickLaunch**, or choose **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017 RC](how-to-report-a-problem-with-visual-studio-2017.md).  
+ If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **QuickLaunch**, or choose **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).  
 
 ## I want to make a suggestion about Visual Studio features  
  If there's something we can do better, please let us know! Choose **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Your suggestion will automatically be posted to [UserVoice](https://visualstudio.uservoice.com) where others can vote for it.  
@@ -42,7 +42,7 @@ We're interested in your ideas for improving our products and our documentation.
  Pre-release versions of Visual Studio have a **Rate this Product** menu item that enables you to send feedback on the quality of the build you are running. You won't see this in released versions of the product.  
 
 ## I want to contact Microsoft Support  
-For Visual Studio support options, see our [Support Overview](http://www.visualstudio.com/support/support-overview-vs) page.
+For Visual Studio support options, see our [Support Overview](https://www.visualstudio.com/vs/support/) page.
 
 For other Microsoft products and services, see [Microsoft Support](http://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 

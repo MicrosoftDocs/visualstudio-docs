@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreCreatingExcelVB">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_VstcoreCreatingExcel\VB\Trin_VstcoreCreatingExcelVB.sln">
+</Property><Property Name="Date" Value="Thursday, November 05, 2009">
+</Property><Property Name="Time" Value="14:58 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Trin_VstcoreCreatingExcelVB" Source="Trin_VstcoreCreatingExcelVB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreCreatingExcelVB" Source="Trin_VstcoreCreatingExcelVB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreCreatingExcelVB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreCreatingExcelVB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreCreatingExcelVB" Source="Trin_VstcoreCreatingExcelVB.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

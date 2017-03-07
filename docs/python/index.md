@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/python/getting-started-with-python
+redirect_url: /visualstudio/python/python-in-visual-studio
 ---

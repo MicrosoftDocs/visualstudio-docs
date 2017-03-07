@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_AddCustomXmlPartExcelAppLevel">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Trin_AddCustomXmlPartExcelAppLevel.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Trin_AddCustomXmlPartExcelAppLevel.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 15, 2011">
+</Property><Property Name="Time" Value="15:43 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartExcelAppLevel.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartExcelAppLevel.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\Trin_AddCustomXmlPartExcelAppLevel.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartExcelAppLevel.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\Trin_AddCustomXmlPartExcelAppLevel.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\Trin_AddCustomXmlPartExcelAppLevel.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\Trin_AddCustomXmlPartExcelAppLevel.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\Trin_AddCustomXmlPartExcelAppLevel_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Temp\Trin_AddCustomXmlPartExcelAppLevel\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartExcelAppLevel.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartExcelAppLevel.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartExcelAppLevel" Source="Trin_AddCustomXmlPartExcelAppLevel.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
