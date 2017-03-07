@@ -120,6 +120,7 @@ Entering `dir()` in a scope displays valid identifiers in that scope, including 
 
 ![Interactive window in the importlib scope](media/interactive-importlib-scope.png)
 
+<a name="sending-code-to-interactive"</a>
 ## Send code to interactive command
 
 In addition to working within the interactive window directly, you can select code in the editor, right-click, and choose **Send to Interactive**:
