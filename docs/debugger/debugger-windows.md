@@ -1,6 +1,6 @@
 ---
-title: "Debugger Windows | Microsoft Docs"
-ms.custom: ""
+title: "Debugger Windows in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,14 +29,14 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debugger Windows
+# Learn about Debugger Windows in Visual Studio
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops,  click **Debug / Windows**.  
   
 ||||  
 |-|-|-|  
 |**Window**|**Hotkey**|**See Topic**|  
-|Breakpoints|CTRL+ALT+B|[Using Breakpoints](../debugger/using-breakpoints.md)|  
-|Exception Settings|CTRL+ALT+E|[Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|  
+|Breakpoints|CTRL+ALT+B|[Use Breakpoints](../debugger/using-breakpoints.md)|  
+|Exception Settings|CTRL+ALT+E|[Manage Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|  
 |Output|CTRL+ALT+O|[Output Window](../ide/reference/output-window.md)|  
 |GPU Threads|-|[How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)|  
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|  

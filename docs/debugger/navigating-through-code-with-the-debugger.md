@@ -1,6 +1,6 @@
 ---
-title: "Navigating through Code with the Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Navigate Code with the Debugger in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Navigating through Code with the Debugger
+# Navigate Code with the Visual Studio Debugger
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can [inspect the state of your app](https://msdn.microsoft.com/library/mt243867.aspx#BKMK_Inspect_Variables) or learn more about its execution flow.  
   
 ## Start debugging  
