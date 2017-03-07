@@ -34,8 +34,6 @@ translation.priority.mt:
 # What&#39;s New in Visual Studio 2017
 Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
 
-In our newest version of Visual Studio, we've focused on performance and productivity improvements.
-
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
