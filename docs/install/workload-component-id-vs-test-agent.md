@@ -14,8 +14,8 @@ helpviewer_keywords:
 ms.prod: "visual-studio-dev15"
 ms.service:
 ms.technology:
-  - "vs-ide-install"
- ms.assetid: 55aea29b-1066-4e5a-aa99-fc87d4efb6d5
+ - "vs-ide-install"
+ms.assetid: 55aea29b-1066-4e5a-aa99-fc87d4efb6d5
 translation.priority.ht:
   - "de-de"
   - "es-es"
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
----
+  ---
 
 # Visual Studio Test Agent 2017 component directory
 
