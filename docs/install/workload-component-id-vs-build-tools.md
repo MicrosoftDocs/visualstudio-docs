@@ -88,6 +88,7 @@ Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | VC++ 2017 v141 toolset (x86,
 Microsoft.VisualStudio.Component.Windows10SDK.10240 | Windows 10 SDK (10.0.10240.0) | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.10586 | Windows 10 SDK (10.0.10586.0) | Optional
 Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | Optional
+Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81 | Windows 8.1 SDK and UCRT SDK | Optional
 
 
 ## Web development build tools
@@ -100,8 +101,7 @@ Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | Optional
 
 Component ID | Name | Dependency type
 --- | --- | ---
-n/a | n/a | n/a
-
+Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | Web development build tools | Required
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
@@ -109,6 +109,7 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name
 --- | ---
 n/a | n/a
+
 
 ## See also
 
