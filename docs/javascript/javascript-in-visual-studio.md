@@ -31,20 +31,13 @@ translation.priority.ht:
 # JavaScript in Visual Studio
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.  
   
- For the JavaScript language reference documentation, see [JavaScript](http://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx).  
+ For the JavaScript language reference documentation, see [JavaScript](https://docs.microsoft.com/scripting/javascript/javascript-language-reference).
   
  Specific versions of Visual Studio, or specific Visual Studio extensions, may be required to develop particular application types and services using HTML and JavaScript. The following list has links to more information.  
   
--   To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).  
+-   To create cross-platform apps using Apache Cordova, see [Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/).  
   
--   To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).  
-  
--   To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).  
-  
--   To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).  
-  
-    > [!NOTE]
-    >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).  
+-   For links to JavaScript technologies you can use in Visual Studio, see the [JavaScript](https://docs.microsoft.com/scripting/javascript/) and [Scripting Technologies](https://docs.microsoft.com/scripting/) pages.
   
  The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   

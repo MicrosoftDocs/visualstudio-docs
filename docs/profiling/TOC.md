@@ -1,4 +1,4 @@
-# [Profiling Tools](profiling-tools.md)
+# [Profiling Tools](index.md)
 ## [Profiling Feature Tour](profiling-feature-tour.md)
 ## [Beginner's Guide to Performance Profiling](beginners-guide-to-performance-profiling.md)
 ## [What's New in Profiling Tools](what-s-new-in-profiling-tools.md)
