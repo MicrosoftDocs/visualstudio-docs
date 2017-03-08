@@ -1,4 +1,4 @@
-# [Debugging in Visual Studio](debugging-in-visual-studio.md)
+# [Debugging in Visual Studio](index.md)
 # [Debugger Feature Tour](debugger-feature-tour.md)
 # [What’s New for the Debugger in Visual Studio](what-s-new-for-the-debugger-in-visual-studio.md)
 # [Debugger Basics](debugger-basics.md)
