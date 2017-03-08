@@ -4,7 +4,7 @@ title: Scripting
 ---
 # Scripting Technologies
 
-This page provides links to JavaScript, TypeScript, and related technologies.
+This page provides links to JavaScript, TypeScript, and other ECMAScript-based technologies.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -26,7 +26,7 @@ This page provides links to JavaScript, TypeScript, and related technologies.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/script/javascript">
+        <a href="https://docs.microsoft.com/scripting/javascript/javascript-language-reference">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -44,7 +44,7 @@ This page provides links to JavaScript, TypeScript, and related technologies.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/script/chakra-hosting/javascript-runtime-hosting">
+        <a href="https://docs.microsoft.com/scripting/chakra-hosting/javascript-runtime-hosting">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -62,7 +62,7 @@ This page provides links to JavaScript, TypeScript, and related technologies.
         </a>
     </li>
         <li>
-        <a href="https://docs.microsoft.com/en-us/script/winscript/windows-script-interfaces">
+        <a href="https://docs.microsoft.com/scripting/winscript/windows-script-interfaces">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -80,7 +80,7 @@ This page provides links to JavaScript, TypeScript, and related technologies.
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/en-us/library/d1et7k7c(v=vs.84).aspx">
+        <a href="https://msdn.microsoft.com/library/d1et7k7c(v=vs.84).aspx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -90,7 +90,7 @@ This page provides links to JavaScript, TypeScript, and related technologies.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>JScript and VBScript (Legacy)</h3>
+                        <h3>JScript and VBScript (Archive)</h3>
                     </div>
                 </div>
             </div>
