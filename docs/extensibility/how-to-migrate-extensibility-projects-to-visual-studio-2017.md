@@ -30,11 +30,9 @@ translation.priority.mt:
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2017
 
->**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
-
 This document explains how to upgrade extensibility projects to Visual Studio 2017. In addition to describing how to update the project files, it also describes how to upgrade from extension manifest version 2 (VSIX v2) to the new version 3 VSIX manifest format (VSIX v3).
 
-## Install Visual Studio 2017 RC with required workloads
+## Install Visual Studio 2017 with required workloads
 
 Make sure your installation includes the following workloads:
 
@@ -54,19 +52,16 @@ The project file (for example *.csproj) will be updated:
 
 >**Note:** If your solution does not reference the Microsoft.VSSDK.BuildTools NuGet package, you can skip this step.
 
-In order to build your extension in the new VSIX v3 (version 3) format, your solution will need to be built with the new VSSDK Build Tools. This will be installed with Visual Studio 2017 RC, but your VSIX v2 extension might be holding a reference to an older version via NuGet. If so, you will need to manually install an update of the Microsoft.VSSDK.BuildTools NuGet package for your solution. At the time of the RC release, this package will be in "Prerelease" state.
+In order to build your extension in the new VSIX v3 (version 3) format, your solution will need to be built with the new VSSDK Build Tools. This will be installed with Visual Studio 2017, but your VSIX v2 extension might be holding a reference to an older version via NuGet. If so, you will need to manually install an update of the Microsoft.VSSDK.BuildTools NuGet package for your solution.
 
 To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
 * Right-click on the Solution and choose **Manage NuGet Packages for Solution…**
 * Navigate to the **Updates** tab.
-* Check the box to **Include Prerelease**.
 * Select Microsoft.VSSDK.BuildTools (latest version).
 * Press **Update**.
 
 ![VSSDK build tools](media/vssdk-build-tools.png)
-
->**Note:** The screenshot shows a different version of the BuildTools. Please select the RC version.
 
 ## Make changes to the VSIX extension manifest
 
@@ -156,7 +151,7 @@ Test that the VSIX installs successfully on a machine with all required prerequi
 
 Attempt to install the extension:
 
-* On Visual Studio 2017 RC
+* On Visual Studio 2017
 
 ![VSIX installer on Visual Studio 2017](media/vsixinstaller-vs-2017.png)
 
@@ -165,7 +160,7 @@ Attempt to install the extension:
   * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
 * Optional: Check that VSIX Installer Version Checker offers a choice of versions.
   * Includes previous versions of Visual Studio (if installed).
-  * Includes Visual Studio 2017 RC.
+  * Includes Visual Studio 2017.
 
 If Visual Studio was recently opened, you might see a dialog box like this:
 
@@ -177,7 +172,7 @@ Wait for the processes to shut down, or manually end the tasks. You can find the
 
 ## Check when missing the required prerequisites
 
-* Attempt to install the extension on a machine with Visual Studio 2017 RC that DOES NOT CONTAIN all the components defined in the Prerequisites (above).
+* Attempt to install the extension on a machine with Visual Studio 2017 that DOES NOT CONTAIN all the components defined in the Prerequisites (above).
 * Check that the installation identifies the missing component/s and lists them as a prerequisite in the VSIXInstaller.
 * Note: Elevation will be required if any prerequisites need to be installed with the extension.
 

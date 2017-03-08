@@ -57,7 +57,6 @@ Component ID | Name | Dependency type
 --- | --- | ---
 Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | Required
 Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | Required
-
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.

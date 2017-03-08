@@ -58,7 +58,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
   If you receive a User Account Control notice, click **Yes**.  
 
-2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/support/legal/mt591984) and the Microsoft [Privacy Statement](https://www.visualstudio.com/dn948229). Click **Install** to continue.  
+2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Install** to continue.  
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 
@@ -101,5 +101,5 @@ By default, the installer program tries to match the language of the operating s
 ## See also  
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

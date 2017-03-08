@@ -32,6 +32,11 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 3.0.0.1
+ Released 2017-03-07
+
+### This version includes all new features and bug fixes introduced with 2.8.x series.
+
 ## 2.8.2 (3.0 Preview 3)
  Released 2017-01-25
    

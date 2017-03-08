@@ -34,7 +34,7 @@ translation.priority.mt:
 If you’ve never written a Visual Studio extension before, you probably have some questions. We’ve listed some of the most common ones here. If you don’t see the information you’re looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
   
 ## What software do I need to develop Visual Studio extensions?  
- You need to install the Visual Studio 2015 SDK in addition to Visual Studio 2015 in order to develop Visual Studio extensions.   You can install the Visual Studio 2015 SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+ You need to install the Visual Studio SDK in addition to Visual Studio in order to develop Visual Studio extensions. You can install the Visual Studio SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## What kinds of things can I do with Visual Studio extensions?  
  The sky’s the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn’t have to be the case. Here are some examples of the kinds of extensions you can build:  
@@ -71,7 +71,7 @@ If you’ve never written a Visual Studio extension before, you probably have so
 ##  <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?  
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.  
   
- For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md). You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.  
+ For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.  
   
  For C++, the VSPackage wizard provides the code to add menu commands, tool windows, and custom editors.  
   

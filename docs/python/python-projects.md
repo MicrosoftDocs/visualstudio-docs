@@ -47,6 +47,7 @@ In this topic:
 - [Linked files](#linked-files)
 - [References](#references)
 
+<a name="lightweight-usage-project-free"</a>
 > [!Tip]
 > Python Tools for Visual Studio works well without having a Visual Studio project, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code will always use the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, PTVS will analyze all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
@@ -71,6 +72,7 @@ A new project is always associated with the default global Python environment. T
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
+<a name="project-types"</a>
 ## Project templates
 
 PTVS gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Templates > Other Languages > Python** node:
@@ -91,7 +93,7 @@ The following table summarizes the templates available in the current release of
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
 
-
+<a name="create-project-from-existing-files"</a>
 ### Creating a project from existing files
 
 1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.
