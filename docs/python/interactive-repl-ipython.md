@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Using Python in the Interactive Window
 
-The interactive window in IPython mode is an advanced yet user-friendly interactive development environment that's cross-platform and has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window, assuming that the Anaconda environment is installed, which includes IPython and the necessary libraries.
+The interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window. For this you should have the [Anaconda](https://www.continuum.io) environment is installed, which includes IPython and the necessary libraries.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
@@ -108,8 +108,6 @@ The interactive window in IPython mode is an advanced yet user-friendly interact
 
     ![Escaping to the system shell](media/ipython-repl-06.png)
 
-1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Windows Azure has support for running IPython on a Windows or Linux VM. Also see [free Jupyter Notebooks as a Service on Azure](https://notebooks.azure.com).
+1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Azure has support for running [IPython on a Windows or Linux VM](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook). Also see the [Azure Notebooks Preview](https://notebooks.azure.com) for free Jupyter Notebooks as a Service on Azure:
 
     ![IPython notebook mode](media/ipython-repl-07.png)
-
-    For a video walkthrough, see [IPython on Windows Azure demo](http://www.youtube.com/watch?v=ljrSOkMs7DQ) (youtube.com, 5m22s); refer also to the [IPython Notebook](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-jupyter-notebook) in the Azure documentation.
