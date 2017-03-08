@@ -1,7 +1,7 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "03/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,7 +42,7 @@ Here is a high-level recap of the changes we've made:
 * **Performance and productivity**. We have focused not only on new and modern mobile, cloud, and desktop development capabilities, but we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **Redefined fundamentals**. A new setup experience means that you can install more quickly and install what you want when you need it. Visual Studio start faster, whether you want to load large solutions and projects, or work on folders of code, or even a single file of code. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
 * **Cloud app development with Azure**. A built-in suite of Azure tools that enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
-* **Mobile app development**. Visual Studio with Xamarin makes it faster and easier than ever for you to build, connect, and tune mobile apps for Android, iOS, and Windows, built with C#. You can also choose to develop mobile apps in JavaScript or TypeScript with Apache Cordova, or with Visual C++ cross-platform library development tools.
+* **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 
 And here are more details on some of our most notable changes.
 
@@ -129,10 +129,10 @@ The Structure Visualizer draws structure guide lines (a.k.a indent guides) on yo
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
-#### Experience an improved Go To:
+#### Experience an improved Go To All:
 Go To (Ctrl + , or Ctrl + T) is a fast, complete search that lets you quickly find files, types, methods, and other kinds of symbols in your code. It gives you a one-stop way to go to any kind of item you need, which is helpful when you are working in large code bases.
 
-![Improved Go To](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Navigate To feature")
+![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
 #### Use Find All References
 
