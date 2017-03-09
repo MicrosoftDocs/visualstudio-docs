@@ -40,15 +40,15 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 1. Make sure the IPython package is installed correctly by going to your Python installation directory and starting IPython in Pylab mode:
 
     ```bash
-        ipython --pylab
+    ipython --pylab
     ```
 
 1. Enter the following:
 
     ```python
-        x = linspace(0, 5, 10)
-        y = x ** 2
-        plot(x, y, 'r')
+    x = linspace(0, 5, 10)
+    y = x ** 2
+    plot(x, y, 'r')
     ```
 
 1. If everything is configured properly, you should see something like this:
@@ -68,9 +68,9 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 1. Enter the following code:
 
     ```python
-        x = linspace(0, 5, 10)
-        y = x ** 2
-        plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
+    x = linspace(0, 5, 10)
+    y = x ** 2
+    plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
     ```
 
 1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner) if desired.
@@ -80,24 +80,24 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (Ctrl-E,E). Try pasting the code below into the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that when Visual Studio sends code to the interactive window, it sends it as one unit to avoid giving you intermediate or partial graphs.)
 
     ```python
-        from mpl_toolkits.mplot3d import Axes3D
-        import matplotlib.pyplot as plt
-        import numpy as np
-        fig = plt.figure()
-        ax = fig.add_subplot(111, projection='3d')
-        for c, z in zip(['r', 'g', 'b', 'y'], [30, 20, 10, 0]):
-            xs = np.arange(20)
-            ys = np.random.rand(20)
-            # You can provide either a single color or an array. To demonstrate this,
-            # the first bar of each set will be colored cyan.
-            cs = [c] * len(xs) 
-            cs[0] = 'c' 
-            ax.bar(xs, ys, zs=z, zdir='y', color=cs, alpha=0.8)
+    from mpl_toolkits.mplot3d import Axes3D
+    import matplotlib.pyplot as plt
+    import numpy as np
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    for c, z in zip(['r', 'g', 'b', 'y'], [30, 20, 10, 0]):
+        xs = np.arange(20)
+        ys = np.random.rand(20)
+        # You can provide either a single color or an array. To demonstrate this,
+        # the first bar of each set will be colored cyan.
+        cs = [c] * len(xs) 
+        cs[0] = 'c' 
+        ax.bar(xs, ys, zs=z, zdir='y', color=cs, alpha=0.8)
 
-        ax.set_xlabel('X') 
-        ax.set_ylabel('Y') 
-        ax.set_zlabel('Z') 
-        plt.show()
+    ax.set_xlabel('X') 
+    ax.set_ylabel('Y') 
+    ax.set_zlabel('Z') 
+    plt.show()
     ```
 
     ![Sending code from the editor to the interactive window](media/ipython-repl-05.png)

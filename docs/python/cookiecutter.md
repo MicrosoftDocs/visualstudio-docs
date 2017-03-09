@@ -153,20 +153,20 @@ To allow these scenarios, Visual Studio looks for extended metadata in `cookiecu
 Example:
 
 ```json
-  "_visual_studio_post_cmds": [
+"_visual_studio_post_cmds": [
     {
-      "name": "File.OpenFile",
-      "args": "{{cookiecutter._output_folder_path}}\\readme.txt"
+        "name": "File.OpenFile",
+        "args": "{{cookiecutter._output_folder_path}}\\readme.txt"
     },
     {
-      "name": "Cookiecutter.ExternalWebBrowser",
-      "args": "https://docs.microsoft.com"
+        "name": "Cookiecutter.ExternalWebBrowser",
+        "args": "https://docs.microsoft.com"
     },
     {
-      "name": "Python.InstallProjectRequirements",
-      "args": "{{cookiecutter._output_folder_path}}\\dev-requirements.txt"
+        "name": "Python.InstallProjectRequirements",
+        "args": "{{cookiecutter._output_folder_path}}\\dev-requirements.txt"
     }
-  ]
+]
 ```
 
 Commands are specified by name, and should use the non-localized (English) name to work on localized installs of Visual Studio. You can test and discover command names in the Visual Studio Command Window.
@@ -176,26 +176,26 @@ If you want to pass a single argument, specify it as a string like in the previo
 If you don't need to pass an argument, leave it an empty string or omit it from the JSON:
 
 ```json
-  "_visual_studio_post_cmds": [
+"_visual_studio_post_cmds": [
     {
-      "name": "View.WebBrowser"
+        "name": "View.WebBrowser"
     }
-  ]
+]
 ```
 
 Use an array for multiple arguments. For switches, split the switch and its value into separate arguments iensure proper quoting. For example:
 
 ```json
-  "_visual_studio_post_cmds": [
+"_visual_studio_post_cmds": [
     {
-      "name": "File.OpenFile",
-      "args": [
-        "{{cookiecutter._output_folder_path}}\\read me.txt",
-        "/e:",
-        "Source Code (text) Editor"
-      ]
+        "name": "File.OpenFile",
+        "args": [
+            "{{cookiecutter._output_folder_path}}\\read me.txt",
+            "/e:",
+            "Source Code (text) Editor"
+        ]
     }
-  ]
+]
 ```
 
 Arguments can refer to other Cookiecutter variables. In the examples above, the internal `_output_folder_path` variable is used to form an absolute path to generated files.
