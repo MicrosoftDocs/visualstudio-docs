@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Installing Python Support in for Visual Studio
+# Installing Python Support for Visual Studio
 
 To install Python support for Visual Studio, follow the instructions in the section that matches your version of Visual Studio:
 
