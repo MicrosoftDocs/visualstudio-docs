@@ -221,11 +221,9 @@ In addition to managing projects, providing a rich editing experience, and the i
     > [!Tip]
     > To close the output window automatically when the program completes, replace the `main()` call with the following code:
     >
-    > ```python
-    >
+    > ```python    
     > if __name__ == "__main__":  
-    >     sys.exit(int(main() or 0))  
-    >
+    >     sys.exit(int(main() or 0))      
     > ```
 
 1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
