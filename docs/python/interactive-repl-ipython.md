@@ -1,5 +1,5 @@
 ---
-title: "IPython REPL with Python Tools for Visual Studio | Microsoft Docs"
+title: "IPython REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Using Python in the Interactive Window
 
-The interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window. For this you should have the [Anaconda](https://www.continuum.io) environment is installed, which includes IPython and the necessary libraries.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window. For this you should have the [Anaconda](https://www.continuum.io) environment is installed, which includes IPython and the necessary libraries.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
@@ -55,7 +55,7 @@ The interactive window in IPython mode is an advanced yet user-friendly interact
 
     ![IPython configuration output ](media/ipython-repl-01.png)
 
-1. Open Visual Studio, switch to the Python Environments window, and select your Python environment.
+1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select your Python environment.
 1. Look at the **pip** tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
 1. Select the **Overview** tab, select **Configure interactive options**, set **Interactive Mode** to IPython, and select **OK**:
 
@@ -77,7 +77,7 @@ The interactive window in IPython mode is an advanced yet user-friendly interact
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 
-1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (Ctrl-E,E). Try pasting the code below into the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that when PTVS sends code to the interactive window, it sends it as one unit to avoid giving you intermediate or partial graphs.)
+1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (Ctrl-E,E). Try pasting the code below into the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that when Visual Studio sends code to the interactive window, it sends it as one unit to avoid giving you intermediate or partial graphs.)
 
     ```python
         from mpl_toolkits.mplot3d import Axes3D

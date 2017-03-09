@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Using PyLint to check Python code
 
-[PyLint](https://www.pylint.org/), a widely-used tool that checks for errors in Python code and encourages good Python coding patterns, is integrated into Python Tools for Visual Studio (PTVS).
+[PyLint](https://www.pylint.org/), a widely-used tool that checks for errors in Python code and encourages good Python coding patterns,  is integrated into Visual Studio for Python projects.
 
 Just right-click a Python project in Solution Explorer and select **Python > Run PyLint...**:
 
