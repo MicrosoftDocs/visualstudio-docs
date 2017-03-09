@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Profiling Tools | Microsoft Docs"
+title: "What's New in Profiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
