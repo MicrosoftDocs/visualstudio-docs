@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_AddCustomXmlPartWordDocLevel">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Trin_AddCustomXmlPartWordDocLevel.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Trin_AddCustomXmlPartWordDocLevel.v11.suo">
+</Property><Property Name="Date" Value="Thursday, October 27, 2011">
+</Property><Property Name="Time" Value="5:53 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartWordDocLevel.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartWordDocLevel.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartWordDocLevel.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="ThisDocument.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\ThisDocument.cs">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="ThisDocument.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\ThisDocument.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel.docx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Trin_AddCustomXmlPartWordDocLevel_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartWordDocLevel\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartWordDocLevel.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartWordDocLevel.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartWordDocLevel" Source="Trin_AddCustomXmlPartWordDocLevel.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

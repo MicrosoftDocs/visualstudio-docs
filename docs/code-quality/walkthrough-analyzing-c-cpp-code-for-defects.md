@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Analyzing C-C++ Code for Defects | Microsoft Docs"
+title: "Walkthrough: Analyzing C/C++ Code for Defects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

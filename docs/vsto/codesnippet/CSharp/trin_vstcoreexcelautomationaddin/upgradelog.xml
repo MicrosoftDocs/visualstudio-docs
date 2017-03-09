@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreExcelAutomationAddIn">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Trin_VstcoreExcelAutomationAddIn.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Trin_VstcoreExcelAutomationAddIn.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:39 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreExcelAutomationAddIn.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationAddIn.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Trin_VstcoreExcelAutomationAddIn.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationAddIn.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Trin_VstcoreExcelAutomationAddIn.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Trin_VstcoreExcelAutomationAddIn.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Trin_VstcoreExcelAutomationAddIn.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Ribbon1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Ribbon1.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Ribbon1.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Ribbon1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn_O12_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Trin_VstcoreExcelAutomationAddIn_O12_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Ribbon1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomationAddIn\CS\Backup\Ribbon1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationAddIn.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreExcelAutomationAddIn.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationAddIn" Source="Trin_VstcoreExcelAutomationAddIn.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

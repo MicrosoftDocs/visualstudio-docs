@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreExcelAutomationCS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Trin_VstcoreExcelAutomationCS.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Trin_VstcoreExcelAutomationCS.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:32 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreExcelAutomationCS.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationCS.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Trin_VstcoreExcelAutomationCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationCS.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Trin_VstcoreExcelAutomationCS.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Trin_VstcoreExcelAutomationCS.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Trin_VstcoreExcelAutomationCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Sheet1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Sheet1.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Sheet1.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Sheet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="ThisWorkbook.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\ThisWorkbook.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="ThisWorkbook.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\ThisWorkbook.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="WorkbookCS.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\WorkbookCS.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Trin_VstcoreExcelAutomationCS_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Sheet1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreExcelAutomation\CS\Backup\Sheet1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreExcelAutomationCS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreExcelAutomationCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreExcelAutomationCS" Source="Trin_VstcoreExcelAutomationCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

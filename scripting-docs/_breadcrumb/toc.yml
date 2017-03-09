@@ -7,7 +7,7 @@
     topicHref: /scripting
     items:
     - name: JavaScript
-      tocHref: /scripting/javascript
+      tocHref: /scripting/javascript/
       topicHref: /scripting/javascript/javascript-language-reference
       items:
       - name: Advanced
@@ -21,12 +21,12 @@
       topicHref: /scripting/winscript/windows-scripting-interfaces
       items:
       - name: Reference
-          tocHref: /scripting/winscript/reference
-          topicHref: /scripting/winscript/reference/windows-script-interfaces-reference
+        tocHref: /scripting/winscript/reference/
+        topicHref: /scripting/winscript/reference/windows-script-interfaces-reference
     - name: JavaScript Runtime Hosting
       tocHref: /scripting/chakra-hosting/
       topicHref: /scripting/chakra-hosting/javascript-runtime-hosting
     - name: Windows Runtime
-      tocHref: /scripting/jswinrt
+      tocHref: /scripting/jswinrt/
       topicHref: /scripting/jswinrt/using-the-windows-runtime-in-javascript
 

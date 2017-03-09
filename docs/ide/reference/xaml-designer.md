@@ -1,7 +1,7 @@
 ---
-title: "Options, XAML Designer | Microsoft Docs"
+title: "XAML Designer options page | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/17/2017"
+ms.date: "03/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -30,8 +30,8 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Options, XAML Designer
-Use the **XAML Designer** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
+# XAML Designer options page
+Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
 
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
