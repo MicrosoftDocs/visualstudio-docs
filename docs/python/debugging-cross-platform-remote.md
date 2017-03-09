@@ -45,26 +45,26 @@ For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote D
 1. Create a Python file with the following code on the remote machine:
 
     ```python
-        import random
+    import random
 
-        guesses_made = 0
-        name = raw_input('Hello! What is your name?\n')
-        number = random.randint(1, 20)
-        print 'Well, {0}, I am thinking of a number between 1 and 20.'.format(name)
+    guesses_made = 0
+    name = raw_input('Hello! What is your name?\n')
+    number = random.randint(1, 20)
+    print 'Well, {0}, I am thinking of a number between 1 and 20.'.format(name)
 
-        while guesses_made < 6:
-            guess = int(raw_input('Take a guess: '))
-            guesses_made += 1
-            if guess < number:
-                print 'Your guess is too low.'
-            if guess > number:
-                print 'Your guess is too high.'
-            if guess == number:
-                break
+    while guesses_made < 6:
+        guess = int(raw_input('Take a guess: '))
+        guesses_made += 1
+        if guess < number:
+            print 'Your guess is too low.'
+        if guess > number:
+            print 'Your guess is too high.'
         if guess == number:
-            print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
-        else:
-            print 'Nope. The number I was thinking of was {0}'.format(number)
+            break
+    if guess == number:
+        print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
+    else:
+        print 'Nope. The number I was thinking of was {0}'.format(number)
     ```
  
 1. Install the `ptvsd` package into your environment using `pip install ptvsd`.
@@ -72,8 +72,8 @@ For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote D
 1. Enable remote debugging by adding the code below at the earliest possible point in the script, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)
 
     ```python
-      import ptvsd
-      ptvsd.enable_attach(secret='my_secret')
+    import ptvsd
+    ptvsd.enable_attach(secret='my_secret')
     ```
 
     The `secret` parameter passed to `enable_attach` is used to restrict access to the running script. When attaching, you will have to specify it in Visual Studio or the connection will be denied. To disable this and allow anyone to connect, use `enable_attach(secret=None)`.
@@ -99,7 +99,7 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 1. An error at this stage typically indicates that the secret did not match, the `ptvsd` version does not match that being used by PTVS, or a connection could not be established. One of the common causes of failing to connect is that the remote machine has a firewall that is blocking the debug server port (default is 5678) open. You can either reconfigure the firewall or use a different port; the latter can be done by explicitly specifying it in the call to `enable_attach` in the `address` parameter, such as:
 
     ```python
-        ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
+    ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
     ```
 
     The address format is the same as the one used by the standard Python module socket for sockets of type `AF_INET`; see its [documentation](http://docs.python.org/3/library/socket.html#socket-families) for details. 
@@ -122,7 +122,7 @@ To secure the channel with SSL, you'll need an SSL certificate. You can generate
 After you have the certificate and the private key files generated and registered, you'll need to update the call to `enable_attach` in your script to use them. This is done by means of `certfile` and `keyfile` parameters, which have the same meaning as for the standard Python function `ssl.wrap_socket`. For example, if the certificate file is called `my_cert.cer`, and the key file is called `my_cert.key`, use: 
 
 ```python
-    ptvsd.enable_attach(secret='my_secret', certfile='my_cert.cer', keyfile='my_cert.key')
+ptvsd.enable_attach(secret='my_secret', certfile='my_cert.cer', keyfile='my_cert.key')
 ```
 
 The attach process is exactly the same as described earlier, except that, instead of using the `tcp://` scheme in the Qualifier, use `tcps://`: 
