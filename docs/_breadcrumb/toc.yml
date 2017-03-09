@@ -79,7 +79,7 @@
             topicHref: /visualstudio/msbuild/msbuild1
       - name: Installation
         tocHref: /visualstudio/install/
-        topicHref: /visualstudio/install/install-visual-studio-2015
+        topicHref: /visualstudio/install/install-visual-studio
       - name: JavaScript
         tocHref: /visualstudio/javascript/
         topicHref: /visualstudio/javascript/javascript-in-visual-studio
