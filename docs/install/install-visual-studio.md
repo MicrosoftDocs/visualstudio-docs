@@ -73,7 +73,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
   ![Visual Studio 2017 setup dialog](media/vs2017-workloads.PNG "Installing Visual Studio 2017")
 
-     For example, choose the .NET Desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
+     For example, choose the .NET desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
 2.  After you select the workload(s) you want, click **Install**.  
 
