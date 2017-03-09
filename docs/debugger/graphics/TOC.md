@@ -13,7 +13,7 @@
 ## [Half-Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md)
 ## [BC Texture Compression Variant](bc-texture-compression-variant.md)
 # [Event List](graphics-event-list.md)
-# [State](graphics-state.md)
+# [Graphics State](graphics-state.md)
 # [Pipeline Stages](graphics-pipeline-stages.md)
 # [Event Call Stack](graphics-event-call-stack.md)
 # [Pixel History](graphics-pixel-history.md)
