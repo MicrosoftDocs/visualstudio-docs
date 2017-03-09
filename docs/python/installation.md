@@ -83,7 +83,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 By default, Python support is installed for all users on a computer.
 
-For Visual Studio 2017, the Python workload is installed in `%Program Files%\Microsoft Visual Studio\2017\Preview\<VS_edition>Common7\IDE\Extensions\Microsoft\Python` where &lt;VS_edition&gr; is Community, Professional, or Enterprise.
+For Visual Studio 2017, the Python workload is installed in `%ProgramFiles(x86)%\Microsoft Visual Studio\Preview\<VS_edition>Common7\IDE\Extensions\Microsoft\Python` where &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 For Visual Studio 2015 and earlier, installation paths are as follows:
 
