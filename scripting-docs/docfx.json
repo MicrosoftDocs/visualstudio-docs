@@ -40,7 +40,8 @@
             "ms.topic": "article",
             "audience": "developer",
             "ms.reviewer": "",
-            "searchScope": ["Scripting"]
+            "searchScope": ["Scripting"],
+            "hideScope": true
     },
     "fileMetadata": {},
     "template": [],
