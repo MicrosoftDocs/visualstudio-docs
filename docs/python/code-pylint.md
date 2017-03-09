@@ -57,9 +57,9 @@ For example, to suppress the "missing docstring" warnings shown in the previous 
 
 1. On the command line, navigate to your project root (where you'll find your `.pyproj` file) and run the following command to generate a commented configuration file:
 
-    ```bash
-    pylint --generate-rcfile > .pylintrc
-    ```
+   ```bash
+   pylint --generate-rcfile > .pylintrc
+   ```
 
 1. In Visual Studio Solution Explorer, right-click your project, select **Add > Exiting Item...**, navigate to and select the new `.pylintrc` file, and select **Add**.
 

@@ -44,39 +44,39 @@ For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote D
 
 1. Create a Python file with the following code on the remote machine:
 
-    ```python
-    import random
+  ```python
+  import random
 
-    guesses_made = 0
-    name = raw_input('Hello! What is your name?\n')
-    number = random.randint(1, 20)
-    print 'Well, {0}, I am thinking of a number between 1 and 20.'.format(name)
+  guesses_made = 0
+  name = raw_input('Hello! What is your name?\n')
+  number = random.randint(1, 20)
+  print 'Well, {0}, I am thinking of a number between 1 and 20.'.format(name)
 
-    while guesses_made < 6:
-        guess = int(raw_input('Take a guess: '))
-        guesses_made += 1
-        if guess < number:
-            print 'Your guess is too low.'
-        if guess > number:
-            print 'Your guess is too high.'
-        if guess == number:
-            break
-    if guess == number:
-        print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
-    else:
-        print 'Nope. The number I was thinking of was {0}'.format(number)
-    ```
+  while guesses_made < 6:
+      guess = int(raw_input('Take a guess: '))
+      guesses_made += 1
+      if guess < number:
+          print 'Your guess is too low.'
+      if guess > number:
+          print 'Your guess is too high.'
+      if guess == number:
+          break
+  if guess == number:
+      print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
+  else:
+      print 'Nope. The number I was thinking of was {0}'.format(number)
+  ```
  
 1. Install the `ptvsd` package into your environment using `pip install ptvsd`.
 
 1. Enable remote debugging by adding the code below at the earliest possible point in the script, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)
 
-    ```python
-    import ptvsd
-    ptvsd.enable_attach(secret='my_secret')
-    ```
+   ```python
+   import ptvsd
+   ptvsd.enable_attach(secret='my_secret')
+   ```
 
-    The `secret` parameter passed to `enable_attach` is used to restrict access to the running script. When attaching, you will have to specify it in Visual Studio or the connection will be denied. To disable this and allow anyone to connect, use `enable_attach(secret=None)`.
+   The `secret` parameter passed to `enable_attach` is used to restrict access to the running script. When attaching, you will have to specify it in Visual Studio or the connection will be denied. To disable this and allow anyone to connect, use `enable_attach(secret=None)`.
 
 1. Save the file and start the script on the remote machine. Note that the call to `enable_attach` runs in the background and waits for incoming connections. If desired, the `wait_for_attach` function can be called after `enable_attach` to block the program until the debugger attaches.
 
@@ -98,11 +98,11 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 
 1. An error at this stage typically indicates that the secret did not match, the `ptvsd` version does not match that being used by PTVS, or a connection could not be established. One of the common causes of failing to connect is that the remote machine has a firewall that is blocking the debug server port (default is 5678) open. You can either reconfigure the firewall or use a different port; the latter can be done by explicitly specifying it in the call to `enable_attach` in the `address` parameter, such as:
 
-    ```python
-    ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
-    ```
+  ```python
+  ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
+  ```
 
-    The address format is the same as the one used by the standard Python module socket for sockets of type `AF_INET`; see its [documentation](http://docs.python.org/3/library/socket.html#socket-families) for details. 
+  The address format is the same as the one used by the standard Python module socket for sockets of type `AF_INET`; see its [documentation](http://docs.python.org/3/library/socket.html#socket-families) for details. 
 
 1. Once the process appears in the list, double-click it to attach. Visual Studio brings up its debugging tools while the script continues to run. For the example script shown above, entering a number will cause the breakpoint to be hit:
 

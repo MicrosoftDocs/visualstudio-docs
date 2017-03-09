@@ -39,17 +39,17 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 
 1. Make sure the IPython package is installed correctly by going to your Python installation directory and starting IPython in Pylab mode:
 
-    ```bash
-    ipython --pylab
-    ```
+  ```bash
+  ipython --pylab
+  ```
 
 1. Enter the following:
 
-    ```python
-    x = linspace(0, 5, 10)
-    y = x ** 2
-    plot(x, y, 'r')
-    ```
+  ```python
+  x = linspace(0, 5, 10)
+  y = x ** 2
+  plot(x, y, 'r')
+  ```
 
 1. If everything is configured properly, you should see something like this:
 
@@ -67,11 +67,11 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 
 1. Enter the following code:
 
-    ```python
-    x = linspace(0, 5, 10)
-    y = x ** 2
-    plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
-    ```
+  ```python
+  x = linspace(0, 5, 10)
+  y = x ** 2
+  plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
+  ```
 
 1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner) if desired.
 
