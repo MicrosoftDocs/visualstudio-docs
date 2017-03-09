@@ -26,12 +26,12 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+  translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-  ---
+---
 
 # Visual Studio Test Agent 2017 component directory
 
