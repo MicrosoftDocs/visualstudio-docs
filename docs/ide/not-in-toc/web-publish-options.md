@@ -1,8 +1,8 @@
 ---
 title: "What publishing options are right for me? | Microsoft Docs"
 ms.custom: ""
-ms.date: "1/31/2017"
-ms.reviewer: ""
+ms.date: "03/09/2017"
+ms.reviewer: "riande"
 ms.suite: ""
 ms.technology:
   - "vs-ide-general"
