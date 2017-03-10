@@ -1,7 +1,7 @@
 ---
 title: "Automatically apply product keys when deploying Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/09/2017"
+ms.date: "3/10/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -33,11 +33,11 @@ translation.priority.mt:
 You can apply your product key programmatically as part of a script used to automate the deployment of Visual Studio. Product keys can be set on a device programmatically during installation of Visual Studio or after an installation completed.  
   
 ## Apply the license during installation  
- Use the /ProductKey parameter to apply a product key during Visual Studio’s setup process. This setup parameter can be used with the /Silent parameter to install Visual Studio in an already licensed state for an end user. To use the /ProductKey parameter, open up a command prompt. Run the setup program (e.g. vs_enterprise.exe or vs_professional.exe) and set the /ProductKey parameter with a product key (25 characters) that includes no dashes:  
+ Use the --productKey parameter to apply a product key during Visual Studio’s setup process. This setup parameter can be used with the --quiet parameter to install Visual Studio in an already licensed state for an end user. To use the --productKey parameter, open up a command prompt. Run the setup program (e.g. vs_enterprise.exe or vs_professional.exe) and set the --productKey parameter with a product key (25 characters) with or without the dashes:  
   
  This is an example command for installing Visual Studio 2015 Enterprise with product key AAAAABBBBBCCCCCDDDDDEEEEEEE:  
   
- `vs_enterprise.exe [any other setup parameters] /ProductKey AAAAABBBBBCCCCCDDDDDDEEEEEE`  
+ `vs_enterprise.exe [any other setup parameters] --productKey AAAAABBBBBCCCCCDDDDDDEEEEEE`  
   
 ## Apply the license after installation  
  You can activate an installed version of Visual Studio with a product key by using the storePID.exe utility on the target machines in silent mode. StorePID.exe is a utility program that installs with Visual Studio at **\<drive>:\\\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\StorePID.exe**.  
@@ -46,9 +46,9 @@ You can apply your product key programmatically as part of a script used to auto
   
  `StorePID.exe [product key including the dashes] [MPC]`  
   
- This is an example command line for installing Visual Studio 2015 Enterprise, which has a MPC of 07060, with a product key "AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE":  
+ This is an example command line for installing Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key "AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE":  
   
- `C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 07060`  
+ `C:\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860`  
   
  The following table lists the MPC codes for each edition of Visual Studio:  
   
