@@ -84,9 +84,9 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. Complete the statement so it matches the following:
 
-    ```python
-        print("Hello world")
-    ```
+  ```python
+  print("Hello world")
+  ```
 
 1. To run the code, select the **Start** button on the toolbar shown below, press F5, or select **Debug > Start Debugging** menu item.
 
@@ -115,10 +115,10 @@ Python support in Visual Studio includes a number of [project templates](python-
 
 1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the auto-completions available for each. When you're done, your code should appear as follows:
 
-    ```python  
-        import sys  
-        from math import sin, cos, radians          
-    ```
+  ```python
+  import sys  
+  from math import sin, cos, radians          
+  ```
 
 > [!Tip]
 > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing Code - Completions](code-editing.md#completions) for details.
@@ -153,10 +153,10 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
 1. Another very helpful feature is the ability to quickly send multiple lines of code from an editor window to the interactive window, where you can work with it in the rapid REPL environment rather than writing other code to run in the debugger. To see this, start by adding the following code to your hello.py file that's open in the editor:
 
-    ```python
-        def make_dot_string(x):  
-            return ' ' * int(10 * cos(radians(x)) + 10) + 'o'
-    ```
+  ```python
+  def make_dot_string(x):  
+      return ' ' * int(10 * cos(radians(x)) + 10) + 'o'
+  ```
 
 1. Select all the code in hello.py (including the `import` statements), right-click, and select **Send to Interactive** (Ctrl+Enter). The code is immediately pasted into the interactive window and run. Because the code defines a function, you can quickly test that function by calling it a few times:
 
@@ -164,11 +164,11 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
 1. **Send to Interactive** effectively allows you to paste multiple lines of code (such as something you find online) into the interactive window, which can't be done directly. For example, copy the code below and try pasting (Ctrl+V) into the interactive window and you'll see that nothing happens. But you can paste it into the editor, select it, and used the **Send to Interactive** command to watch it run.
 
-    ```python
-        for i in range(360):
-            s = make_dot_string(i)  
-            print(s) 
-   ```
+  ```python
+  for i in range(360):
+      s = make_dot_string(i)  
+      print(s) 
+  ```
 
     ![Pasting multiple lines of code using Sending Interactive](media/getting-started-interactive-5.png)
 
@@ -176,17 +176,17 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
 1. When you're satisfied with code you're written, you can select it in the interactive window, right-click and select **Copy Code**, and then paste into the editor. The special feature of the **Copy Code** command is that it automatically omits any output as well as the >>> and ... prompt text. For example, using the command with the selection show below:
 
-    ![Interactive window copy code command](media/getting-started-interactive-6.png)
+  ![Interactive window copy code command](media/getting-started-interactive-6.png)
 
-    will paste in only the following:
+  will paste in only the following:
 
-    ```python
-        make_dot_string(180)
-        make_dot_string(135)
-        for i in range(360):
-            s = make_dot_string(i)  
-            print(s) 
-    ```
+  ```python
+  make_dot_string(180)
+  make_dot_string(135)
+  for i in range(360):
+      s = make_dot_string(i)  
+      print(s) 
+  ```
 
 1. Finally, the interactive window provides a number of meta-commands that allow you to load files, reset the environment without losing the history, and inserting comments as you go along. See [Interactive Windows - meta-commands](interactive-repl.md#meta-commands) for details.
 
@@ -201,29 +201,29 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Edit the code in your hello.py file to match the following:
 
-    ```python  
-        from math import sin, cos, radians  
-        import sys  
-        
-        def make_dot_string(x):  
-            return ' ' * int(10 * cos(radians(x)) + 10) + 'o'  
-        
-        def main():  
-            for i in range(360 * 5):
-                s = make_dot_string(i)  
-                print(s)  
-                
-        main()
-    ```  
+  ```python  
+  from math import sin, cos, radians  
+  import sys  
+    
+  def make_dot_string(x):  
+      return ' ' * int(10 * cos(radians(x)) + 10) + 'o'  
+    
+  def main():  
+      for i in range(360 * 5):
+          s = make_dot_string(i)  
+          print(s)  
+            
+  main()
+  ```  
 
 1. Check that the code works properly by selecting **Start** on the toolbar, pressing F5, or selecting the **Debug > Start Debugging** menu command. This runs the code in the debugger, but because we don't have any breakpoints set you'll simply see it print a wave pattern for a few iterations. Pressing any key will close the output window at this point.
 
     > [!Tip]
     > To close the output window automatically when the program completes, replace the `main()` call with the following code:
     >
-    > ```python
-    >     if __name__ == "__main__":  
-    >         sys.exit(int(main() or 0))  
+    > ```python    
+    > if __name__ == "__main__":  
+    >     sys.exit(int(main() or 0))      
     > ```
 
 1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
