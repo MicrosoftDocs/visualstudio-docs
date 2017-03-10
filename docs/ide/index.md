@@ -13,7 +13,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/visualstudio/ide/get-started-with-visual-studio">
+        <a href="/visualstudio/ide/visual-studio-ide">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -23,31 +23,13 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Take a quick visual tour of Visual Studio</h3>
+                        <h3>Take a tour of Visual Studio</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>
-    <li>
-        <a href="/visualstudio/ide/visual-studio-ide">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_learn-about.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn more about Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+    </li>    
     <li>
         <a href="https://youtu.be/JHc3_gsCmZg?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
         <div class="cardSize">
@@ -59,7 +41,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Building blocks of the IDE</h3>
+                        <h3>Learn more about the IDE</h3>
                     </div>
                 </div>
             </div>
@@ -103,7 +85,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/getting-started-with-debugging-in-visual-studio">
+        <a href="/visualstudio/debugger/debugger-feature-tour">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +95,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about debugging Visual Studio</h3>
+                        <h3>Learn about debugging code in Visual Studio</h3>
                     </div>
                 </div>
             </div>
