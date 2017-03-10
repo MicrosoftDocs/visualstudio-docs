@@ -1,5 +1,5 @@
 ---
-title: "Profiling Code in Python Tools for Visual Studio | Microsoft Docs"
+title: "Measuring the performance of Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/7/2017"
 ms.prod: "visual-studio-dev15"
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Profiling Python Code
 
-Python Tools for Visual Studio (PTVS) supports profiling a Python application when using CPython-based interpreters.
+Visual Studio supports profiling a Python application when using CPython-based interpreters.
 
 Profiling is started through the **Analyze > Launch Python Profiling** menu command, which opens a configuration dialog:
 

@@ -41,7 +41,7 @@ The Azure SDK is installed from the [Python Package Index](https://pypi.python.o
 Install the **latest stable version** (supports Python 2.7 and 3.3+) as follows:
 
 ```bash
-  pip install azure
+pip install azure
 ```
 
 You can also follow [Install Python and the SDK](https://azure.microsoft.com/documentation/articles/python-how-to-install/) in the Azure documentation.

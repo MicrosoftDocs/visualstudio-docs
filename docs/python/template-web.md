@@ -133,26 +133,26 @@ A site extension can be deployed through the [Azure Portal](https://portal.azure
 If you are using JSON deployment templates, you can specify the site extension as a resource of your site:
 
 ```json
-   {
-       "resources": [
-       {
-               "apiVersion": "2015-08-01",
-               "name": "[parameters('siteName')]",
-               "type": "Microsoft.Web/sites",
-               ...
-       },
-       "resources": [
-       {
-            "apiVersion": "2015-08-01",
-            "name": "python352x64",
-            "type": "siteextensions",
-            "properties": { },
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
-            ]
-       },
-       ...
-    }
+{
+    "resources": [
+    {
+        "apiVersion": "2015-08-01",
+        "name": "[parameters('siteName')]",
+        "type": "Microsoft.Web/sites",
+        ...
+    },
+    "resources": [
+    {
+        "apiVersion": "2015-08-01",
+        "name": "python352x64",
+        "type": "siteextensions",
+        "properties": { },
+        "dependsOn": [
+            "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
+        ]
+    },
+    ...
+}
 ```
 
 Finally, you can log in through the [development console](https://github.com/projectkudu/kudu/wiki/Kudu-console) and install a site extension from there.
@@ -160,9 +160,9 @@ Finally, you can log in through the [development console](https://github.com/pro
 Currently, the recommended way to install packages is to use the development console after installing the site extension and executing pip directly. Using the full path to Python is important, or you may execute the wrong one, and there is generally no need to use a virtual environment. For example:
 
 ```
-    c:\Python35\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
+c:\Python35\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 
-    c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
+c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 ```
 
 When deployed to Azure App Service, your site will run behind Microsoft IIS. To enable your site to work with IIS, you will need to add at least a `web.config` file. There are templates available for some common deployment targets available by right-clicking the project and selecting **Add > New Item..." (see dialog below), and these can be easily modified for other uses. See the [IIS Configuration Reference](https://www.iis.net/configreference) for information about the available configuration setings.
