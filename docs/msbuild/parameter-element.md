@@ -13,6 +13,7 @@ dev_langs:
   - "CSharp"
   - "C++"
   - "jsharp"
+  - "xml"
 helpviewer_keywords: 
   - "Parameter element [MSBuild]"
   - "<Parameter> element [MSBuild]"
