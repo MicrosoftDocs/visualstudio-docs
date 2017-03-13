@@ -149,6 +149,6 @@ Live Unit Testing saves include/exclude state as a user setting and remembers it
 ## See also
 
 [Live Unit Testing Blog](https://go.microsoft.com/fwlink/?linkid=842514)   
-[Live Unit Testing FAQ](live-unit-testing-faq.md) 
+[Live Unit Testing FAQ](live-unit-testing-faq.md)    
 [Channel 9 Video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
 
