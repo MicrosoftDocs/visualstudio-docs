@@ -186,7 +186,7 @@ To provide further guidance, we have identified a few common extension types and
 
 Extension Type | Display Name |	Id
 --- | --- | ---
-Editor | Visual Studio core editor	| Microsoft.VisualStudio.CoreEditor
+Editor | Visual Studio core editor	| Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
 WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime
