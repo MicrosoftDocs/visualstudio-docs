@@ -1,7 +1,7 @@
 ---
 title: "Choose Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -53,7 +53,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 
 ## Syntax  
 
-```xml  
+```  
 <Choose>  
     <When Condition="'StringA'=='StringB'">... </When>  
     <Otherwise>... </Otherwise>  
