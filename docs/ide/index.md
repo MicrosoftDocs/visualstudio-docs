@@ -85,7 +85,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/debugger/debugger-feature-tour">
+        <a href="/visualstudio/debugger/index">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,7 +103,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/profiling/profiling-tools">
+        <a href="/visualstudio/profiling/index">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -123,7 +123,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 </ul>
 <ul class="panelContent cardsFTitle">    
     <li>
-        <a href="https://mva.microsoft.com/product-training/visual-studio-courses#!lang=1033">
+        <a href="https://mva.microsoft.com/product-training/visual-studio-courses">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
