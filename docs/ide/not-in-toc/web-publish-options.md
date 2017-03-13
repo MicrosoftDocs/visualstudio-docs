@@ -1,21 +1,21 @@
 ---
 title: "What publishing options are right for me? | Microsoft Docs"
 ms.custom: ""
-ms.date: "1/31/2017"
-ms.reviewer: ""
+ms.date: "03/09/2017"
+ms.reviewer: "riande"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -40,7 +40,7 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [File system](#file-system)
 - [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. 
+On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
 
 ## Azure App Service
 
@@ -48,15 +48,15 @@ On the **Publish** tab, you can select an existing publish profile, import an ex
 
 For web applications in particular, an App Service is a container for a [*Web App*](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/), which closely matches what you would think of as a traditional web host. That is, a Web App provides the necessary compute resources that can run your server-side code and make it available to the Internet.
 
-You determine how much computing power a Web App has by choosing a [pricing tier or plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/)) for the containing App Service. You can also have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service. 
+You determine how much computing power a Web App has by choosing a [pricing tier or plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) for the containing App Service. You can have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service.
 
-An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each Web App in an App Service will be assigned a unique *.azurewebsites.net URL; all pricing tiers other than Free also allow assigning custom domain names to the site.  
+An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each Web App in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
 ### When to choose Azure App Service
 
 - You want to deploy a web application that's accessible through the Internet.
 - You want to automatically scale your web application according to demand without needing to redeploy.
-- You don't want to maintain server infrastructure (including all software updates).
+- You don't want to maintain server infrastructure (including software updates).
 - You don't need any machine-level customizations on the servers that host your web application.
 
 
@@ -65,9 +65,9 @@ An App Service runs on cloud-hosted virtual machines in Azure, but those virtual
 
 ## Azure Virtual Machines
 
-[Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) let you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your web application. You can also access the servers directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
+[Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) let you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your web application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
 
-Scaling a web application that's hosted on virtual machines involves spinning up additional VMs according to demand and then deploying the necessary software. This additional level of control lets you scale differently in different global regions. For example, if your application is serving employees in a variety of regional offices, you can scale your VMs according to the number of employees in those regions, potentially reducing costs. 
+Scaling a web application that's hosted on virtual machines involves spinning up additional VMs according to demand and then deploying the necessary software. This additional level of control lets you scale differently in different global regions. For example, if your application is serving employees in a variety of regional offices, you can scale your VMs according to the number of employees in those regions, potentially reducing costs.
 
 For additional information, refer to the [detailed comparison](https://azure.microsoft.com/documentation/articles/choose-web-site-cloud-service-vm/) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
 
@@ -83,11 +83,11 @@ For additional information, refer to the [detailed comparison](https://azure.mic
 
 ## File system
 
-Deploying to the file system means to simply copy your web application's files to a specific folder on your own computer. This is most often used for testing purposes, or to deploy the application for use by a limited number of people if the computer is also running a web server. If the target folder is shared on a network, then deploying to the file system can also make the web application files available to others who might then deploy it to specific servers.  
+Deploying to the file system means to simply copy your web application's files to a specific folder on your own computer. This is most often used for testing purposes, or to deploy the application for use by a limited number of people if the computer is also running a web server. If the target folder is shared on a network, then deploying to the file system can make the web application files available to others who might then deploy it to specific servers.
 
-Any local machines that are running a web server can make your application available through the Internet or an Intranet depending on how it's configured and the networks to which it's connected. (If you do connect a computer directly to the Internet, be especially careful to protect it from external security threats.) Because you manage these machines, you're in complete control of the software and hardware configurations. 
+Any local machines that are running a web server can make your application available through the Internet or an Intranet depending on how it's configured and the networks to which it's connected. (If you do connect a computer directly to the Internet, be especially careful to protect it from external security threats.) Because you manage these machines, you're in complete control of the software and hardware configurations.
 
-Note that if for any reason (such as machine access) you are not able to use cloud services like Azure App Service or Azure Virtual Machines, you can use the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/) in your own datacenter. The Azure Stack allows you to managing and use computing resources through Azure App Service and Azure Virtual Machines while yet keeping everything on-premises.  
+Note that if for any reason (such as machine access) you are not able to use cloud services like Azure App Service or Azure Virtual Machines, you can use the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/) in your own datacenter. The Azure Stack allows you to manage and use computing resources through Azure App Service and Azure Virtual Machines while yet keeping everything on-premises.
 
 ### When to choose file system deployment
 
@@ -99,15 +99,19 @@ Note that if for any reason (such as machine access) you are not able to use clo
 
 ## Custom targets
 
-A custom target lets you deploy your web application to a target other than Azure App Service, Azure Virtual Machines, or the local file system. It can deploy to a file system or any other server (Internet or Intranet) to which you have access, including those on other cloud services. It can work with web deploy (files or .ZIP) and FTP. 
+A custom target lets you deploy your web application to a target other than Azure App Service, Azure Virtual Machines, or the local file system. It can deploy to a file system or any other server (Internet or Intranet) to which you have access, including those on other cloud services. It can work with web deploy (files or .ZIP) and FTP.
 
-When choosing a custom target, Visual Studio prompts you for a profile name, and then collect additional **Connection** information including the target server or location, a site name, and credentials. You can also control certain behaviors on the **Settings** tab such as the configuration you want to deploy, whether to remove existing files from the destination, whether to precompile during publishing, and whether to exclude files in the App_Data folder from deployment. 
+When choosing a custom target, Visual Studio prompts you for a profile name, and then collect additional **Connection** information including the target server or location, a site name, and credentials. You can control the following behaviors on the **Settings** tab:
 
-You can create any number of Custom deployment profiles in Visual Studio, making it possible to manage profiles with slightly different settings as necessary.
+- The configuration you want to deploy.
+- Whether to remove existing files from the destination.
+- Whether to precompile during publishing.
+- Whether to exclude files in the App_Data folder from deployment.
+
+You can create any number of Custom deployment profiles in Visual Studio, making it possible to manage profiles with different settings.
 
 ### When to choose custom deployment
 
 - You're using cloud services on a provide other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
-- You want to delete files from the target each time you deploy. 
-
+- You want to delete files from the target each time you deploy.
