@@ -55,6 +55,18 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
     </RunSettings> 
    ``` 
 
+## Why does Live Unit Testing show incorrect coverage after you upgrade the test adapter referenced in your Visual Studio Projects to the supported version?
+
+**Answer:**
+
+- If multiple projects in the solution reference the NuGet test adapter package, each of them must be upgraded to the supported version.
+
+- Make sure the MSBuild .props file imported from the test adapter package is correctly updated as well. Check the NuGet package version/path of the import, which can usually be found near the top of the project file, like the following:
+
+   ```xml
+    <Import Project="..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props')" />
+   ```
+
 ## Can I customize my Live Unit Testing builds? 
 
 **Answer:**
