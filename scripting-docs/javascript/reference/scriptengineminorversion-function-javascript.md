@@ -13,6 +13,7 @@ f1_keywords:
   - "ScriptEngineMinorVersion"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ScriptEngineMinorVersion function"
@@ -37,7 +38,7 @@ ScriptEngineMinorVersion()
 ## Example  
  The following example illustrates the use of the `ScriptEngineMinorVersion` function.  
   
-```javascript  
+```JavaScript  
 if (window.ScriptEngineMinorVersion) {  
     console.log(window.ScriptEngineMinorVersion());  
 }  

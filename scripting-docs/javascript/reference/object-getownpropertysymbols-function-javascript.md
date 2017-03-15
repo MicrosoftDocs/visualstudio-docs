@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 68dd69b9-5a33-44c2-ba5f-21a4ae6c0879
 caps.latest.revision: 2
@@ -40,7 +41,7 @@ Object.getOwnPropertySymbols(object);
 ## Example  
  The following code example shows how to get the symbol properties of an object.  
   
-```javascript  
+```JavaScript  
 var obj = {};  
 var key = Symbol('description');  
   

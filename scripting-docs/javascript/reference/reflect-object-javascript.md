@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1df74f34-2eb4-42f1-a930-b943c86daa0e
 caps.latest.revision: 3
@@ -58,7 +59,7 @@ Reflect.[method]
 ## Example  
  The following code example shows how use `Reflect.get` to write a proxy that blocks get operations for properties that begin with an underscore.  
   
-```javascript  
+```JavaScript  
 var p = new Proxy({}, {  
     get(k, t, r) {  
         // return undefined if key begins with underscore  

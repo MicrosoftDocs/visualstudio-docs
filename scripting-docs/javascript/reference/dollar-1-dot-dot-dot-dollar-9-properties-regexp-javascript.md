@@ -13,6 +13,7 @@ f1_keywords:
   - "$1...$9"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "$1...$9 properties"
@@ -45,7 +46,7 @@ RegExp.$n
 ## Example  
  The following example performs a regular expression search. It displays matches and submatches from the global `RegExp` object. The submatches are successful parenthesized matches that are contained in the `$1…$9` properties. The example also displays matches and submatches from the array that is returned by the `exec` method.  
   
-```javascript  
+```JavaScript  
 var newLine = "<br />";  
   
 var re = /(\w+)@(\w+)\.(\w+)/g  

@@ -13,6 +13,7 @@ f1_keywords:
   - "unshift"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "unshift method"
@@ -45,7 +46,7 @@ arrayObj.unshift([item1[, item2 [, . . . [, itemN]]]])
 ## Example  
  The following example illustrates the use of the `unshift` method.  
   
-```javascript  
+```JavaScript  
 var ar = new Array();  
 ar.unshift(10, 11);  
 ar.unshift(12, 13, 14);  

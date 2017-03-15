@@ -13,6 +13,7 @@ f1_keywords:
   - "indexOf"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "indexOf method, string"
@@ -53,7 +54,7 @@ strObj. indexOf(subString[, startIndex])
 ## Example  
  The following example illustrates the use of the **indexOf** method.  
   
-```javascript  
+```JavaScript  
 var str = "original equipment manufacturer";  
   
 var s = "equip is at position " + str.indexOf("equip");  

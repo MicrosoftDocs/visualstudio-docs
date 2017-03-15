@@ -13,6 +13,7 @@ f1_keywords:
   - "toExponential"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toExponential method"
@@ -46,7 +47,7 @@ numObj. toExponential([fractionDigits])
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var num = new Number(123);  
 var exp = num.toExponential();  
 document.write(exp);  

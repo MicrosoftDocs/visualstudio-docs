@@ -13,6 +13,7 @@ f1_keywords:
   - "UTC"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "UTC function [JavaScript]"
@@ -63,7 +64,7 @@ Date.UTC(year, month, day[, hours[, minutes[, seconds[,ms]]]])
 ## Example  
  The following example illustrates the use of the `Date.UTC` function.  
   
-```javascript  
+```JavaScript  
 // Determine the milliseconds per day.  
  var MinMilli = 1000 * 60;  
 var HrMilli = MinMilli * 60;  

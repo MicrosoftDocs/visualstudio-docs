@@ -13,6 +13,7 @@ f1_keywords:
   - "Array"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Array object"
@@ -48,7 +49,7 @@ arrayObj = new Array([element0[, element1[, ...[, elementN]]]])
 ## Remarks  
  After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] are zero-based.  
   
-```javascript  
+```JavaScript  
 var my_array = new Array();  
 for (i = 0; i < 10; i++) {  
     my_array[i] = i;  
@@ -61,7 +62,7 @@ document.write(x);
   
  You can pass an unsigned 32-bit integer to the `Array` constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.  
   
-```javascript  
+```JavaScript  
 var arr = new Array(10);  
 document.write(arr.length);  
   

@@ -13,6 +13,7 @@ f1_keywords:
   - "debug"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Debug object"
@@ -44,7 +45,7 @@ Debug.function
 ## Example  
  This example uses the `write` function to display the value of the variable.  
   
-```javascript  
+```JavaScript  
 var counter = 42;  
 Debug.write("The value of counter is " + counter);  
 ```  

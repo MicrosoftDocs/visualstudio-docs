@@ -13,6 +13,7 @@ f1_keywords:
   - "Global"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Global object"

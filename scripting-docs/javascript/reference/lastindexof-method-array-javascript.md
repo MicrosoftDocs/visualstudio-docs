@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript], lastIndexOf method"
@@ -54,7 +55,7 @@ array1.lastIndexOf(searchElement[, fromIndex])
 ## Example  
  The following examples illustrate the use of the `lastIndexOf` method.  
   
-```javascript  
+```JavaScript  
 // Create an array.  
 var ar = ["ab", "cd", "ef", "ab", "cd"];  
   

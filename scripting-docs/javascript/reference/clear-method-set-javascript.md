@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ff49f072-7987-4744-9c2f-d600ddaabdad
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Removes all elements from the set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.clear()  
 ```  
   

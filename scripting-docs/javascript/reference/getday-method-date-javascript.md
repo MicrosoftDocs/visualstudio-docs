@@ -13,6 +13,7 @@ f1_keywords:
   - "getDay"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "GetDay method"
@@ -45,7 +46,7 @@ dateObj. getDay()
   
  The following example shows how to use the `getDay` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("Saturday, February 9, 2008");  
 day = date.getDay();  
 document.write(day);  

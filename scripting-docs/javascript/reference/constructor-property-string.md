@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ef0e9c82-4651-4404-87b1-d00cad38c6f9
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ string.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var x = new String();  
   
 if (x.constructor == String)  

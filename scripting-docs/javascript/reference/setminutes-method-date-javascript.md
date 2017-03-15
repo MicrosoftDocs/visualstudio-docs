@@ -13,6 +13,7 @@ f1_keywords:
   - "setMinutes"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "minutes"
@@ -56,7 +57,7 @@ dateObj.setMinutes(numMinutes[, numSeconds[, numMilli]])
 ## Example  
  The following example illustrates the use of the `setMinutes` method.  
   
-```javascript  
+```JavaScript  
 function SetMinutesDemo(nmin, nsec){  
    var d, s;                     // Declare variables.  
    d = new Date();               // Create Date object.  

@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCHours"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "hours"
@@ -46,7 +47,7 @@ dateObj.getUTCHours()
 ## Example  
  The following example illustrates the use of the `getUTCHours` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getUTCHours());  
 document.write("<br/>");  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b20699d6-f8b1-4744-8551-9e81c82850dd
 caps.latest.revision: 4
@@ -36,7 +37,7 @@ arrayObj.values();
 ## Example  
  The following example shows how to get the values of an array.  
   
-```javascript  
+```JavaScript  
 var v = ["a", "b", "c"].values();  
 // v.next().value == "a"  
 // v.next().value == "b"  

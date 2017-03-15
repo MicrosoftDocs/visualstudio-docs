@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 59f274dc-6e52-4344-8d5c-b9f0000b66e0
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ Returns a function that compares two strings by using the collator’s sort orde
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 collatorObj.compare  
 ```  
   
@@ -45,7 +46,7 @@ collatorObj.compare
 ## Example  
  The following example creates a `Collator` object and performs a comparison.  
   
-```javascript  
+```JavaScript  
 var co = new Intl.Collator(["de-DE-u-co-phonebk"]);  
   
 if (console && console.log) {  
@@ -56,7 +57,7 @@ if (console && console.log) {
 ## Example  
  The following example uses `Collator` objects to sort an array. This example shows locale-specific differences.  
   
-```javascript  
+```JavaScript  
 var co1 = new Intl.Collator(["de-DE-u-co-phonebk"]);  
 var co2 = new Intl.Collator(["de-DE"]);  
 var co3 = new Intl.Collator(["en-US"]);  
@@ -73,7 +74,7 @@ if (console && console.log) {
 ## Example  
  The following example uses a `Collator` object to search for a string.  
   
-```javascript  
+```JavaScript  
 // String to search  
 var arr = ["ä", "ad", "af", "a"];  
 // String searched for  

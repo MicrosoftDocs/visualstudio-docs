@@ -13,6 +13,7 @@ f1_keywords:
   - "fromCharCode"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "fromCharCodeAt method"
@@ -44,7 +45,7 @@ String.fromCharCode([code1[, code2[, ...[, codeN]]]])
   
  The following example shows how to use this method:  
   
-```javascript  
+```JavaScript  
 var test = String.fromCharCode(112, 108, 97, 105, 110);  
 document.write(test);  
   

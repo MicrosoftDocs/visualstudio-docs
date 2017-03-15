@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f2e525a5-b0fc-49c3-95a0-641788e5c12a
 caps.latest.revision: 7
