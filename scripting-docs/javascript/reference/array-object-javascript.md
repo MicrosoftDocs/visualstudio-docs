@@ -29,9 +29,8 @@ Provides support for creation of arrays of any data type.
   
 ## Syntax  
   
-```  
-  
-      arrayObj = new Array()  
+```
+arrayObj = new Array()  
 arrayObj = new Array([size])  
 arrayObj = new Array([element0[, element1[, ...[, elementN]]]])  
 ```  
