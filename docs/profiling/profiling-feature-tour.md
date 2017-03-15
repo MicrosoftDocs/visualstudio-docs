@@ -158,5 +158,21 @@ If you need features such as instrumentation that are not currently present in C
 
 ![Performance Explorer](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
+## Which Tool Should I Use?  
+Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
+  
+|Performance Tool|Windows desktop|Windows Universal/Store|ASP.NET/ASP.NET Core|  
+|----------------------|---------------------|------------------------------|-------------|  
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|  
+|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|  
+|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|  
+|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|  
+|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes (no for ASP.NET Core)|  
+|[IntelliTrace](../debugger/intellitrace.md)|.NET Enterprise only|.NET Enterprise only|.NET Enterprise only|
+|[Network Usage](../profiling/network-usage.md)|no|yes|no| 
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|  
+|[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|  
+
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
