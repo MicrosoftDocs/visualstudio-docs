@@ -68,36 +68,17 @@ Although the demo app is C#, the features are applicable to C++, Visual Basic, J
 
 5. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
-## Start the debugger by stepping through code
+## Set a breakpoint and start the debugger
 
 To debug, you need to start your app with the debugger attached to the app process.
 
-Mostly, we will use the keyboard shortcuts here, because it's the best way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
-
-1. Press F11 (**Debug / Step Into**) to start the app with the debugger attached.
-
-     ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11-start.png "F11 Step Into")
-
-     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
-
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options in later steps.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
-
-     >[!NOTE]
-     > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
-
-2. Press F10 (**Debug / Step Over**) a few times until the debugger stops on the first line of code in the **OnApplicationStartup** event handler.
-
-     ![Use F10 to Step Over code](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
-
-     F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the InitializeComponent method call (instead of F11), we skipped over the implementation code for InitializeComponent (which maybe we're not interested in right now).
-
-## Set a breakpoint
-
-1. Now, in the **OnApplicationStartup** event handler, set a breakpoint by clicking in the margin to the left of the last line of code.
+1. In the `MainWindow` constructor of MainWindow.xaml.cs, set a breakpoint by clicking in the margin to the left of the first line of code.
 
      ![Set a breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
 
-6. Press F5 (**Continue**) and the debugger runs to the line of code where you set the breakpoint.
+6. Press F5 or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
+
+    The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
     F5 either continues running the app to the next breakpoint or, if the app is not yet running, it starts the debugger and stops at the first breakpoint.
 
@@ -108,6 +89,27 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
 
     When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code, similar to pressing F5 (if the code isn't executed, you won't hit the breakpoint).
+
+    The debugger will stop again at the breakpoint you just set, in the `MainWindow` constructor.
+
+## Navigate code in the debugger using step commands
+
+Mostly, we will use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
+
+1. Press F11 (**Debug / Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
+
+     ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11.png "F11 Step Into")
+
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
+
+     >[!NOTE]
+     > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
+
+2. Press F10 (**Debug / Step Over**) a few times until the debugger stops on the first line of code in the `OnApplicationStartup` event handler.
+
+     ![Use F10 to Step Over code](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
+
+     F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `InitializeComponent` method call (instead of F11), we skipped over the implementation code for `InitializeComponent` (which maybe we're not interested in right now).
 
 ## Step into a property
 
@@ -127,16 +129,16 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      The `Update` method in this code looks like it could be interesting, so lets use the debugger to examine that code up close.
 
-5. Hover over the `Update` method until the green **Run execution to here** button appears on the left.
+5. Hover over the `Update` method until the green **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
      ![Use the Run to Click feature](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
     >  [!NOTE] 
-    > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 instead to advance the debugger.
+    > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 in this example instead to advance the debugger.
 
-6. Click the green arrow ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button.
+6. Click the **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
-    Using the green arrow button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file).
+    Using this button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file).
 
     The debugger advances to the `Update` method implementation.
 
@@ -150,7 +152,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 ## Inspect variables with data tips
 
-1. Click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again to pause the debugger on the `Add` method call.
+1. Hover over the `Add` method call and click the **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") to pause the debugger on the `Add` method call.
 
 2. Now, hover over the File object (`f`) and you will see its default property value, the file name `market 031.jpg`.
 
@@ -170,6 +172,9 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
      ![Inspect variables in the Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos Window")
 
     In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (In C++, the window shows variables in the preceding three lines of code. Check documentation for language-specific behavior).
+
+    > [!NOTE]
+    > In JavaScript, the **Locals** window is supported but not the **Autos** window.
 
 2. Next, take a look at the **Locals** window.
 
@@ -211,9 +216,9 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     The call stack is a good way to examine and understand the execution flow of an app.
 
-    You can use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
-
     You can double-click a line of code to go look at that source code (without advancing the debugger) and that also changes the current scope being inspected by the debugger.
+
+    You can also use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
 
 ## Change the execution flow
 
@@ -228,7 +233,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice!
     
     > [!WARNING]
-    > Sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer does not undo any changes to the state of your application.
+    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer does not undo any changes to the state of your application.
 
 ## Run to cursor
 
