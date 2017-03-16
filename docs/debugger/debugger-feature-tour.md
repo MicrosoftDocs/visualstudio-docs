@@ -50,17 +50,17 @@ Although the demo app is C#, the features are applicable to C++, Visual Basic, J
 
 3. Open Visual Studio and select the **File / Open** menu command, then choose **Project/Solution**, and then open the folder where you downloaded the project.
 
-     ![Open Project](../debugger/media/dbg-tour-open-project.png "Open Project")
+     ![Open the sample project](../debugger/media/dbg-tour-open-project.png "Open Project")
 
 3. Open the WPF Photo Viewer Demo / C# folder, choose the photoapp.sln file, and select **Open**.
 
      The project opens in Visual Studio. Solution Explorer in the right pane shows you all the project files.
 
-    ![Solution Explorer](../debugger/media/dbg-tour-solution-explorer.png "Solution Explorer")
+    ![Solution Explorer files](../debugger/media/dbg-tour-solution-explorer.png "Solution Explorer")
 
 4. Press F5 (**Debug / Start Debugging** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar).
 
-     ![Photo Viewer App](../debugger/media/dbg-tour-wpf-app.png "Photo Viewer App")
+     ![Photo Viewer app](../debugger/media/dbg-tour-wpf-app.png "Photo Viewer App")
 
      F5 starts the app with the debugger attached to the app process, but right now we haven't added any breakpoints or done anything special to examine the code. So the app just loads and you see the photo images.
 
@@ -76,7 +76,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 1. Press F11 (**Debug / Step Into**) to start the app with the debugger attached.
 
-     ![F11 Step Into](../debugger/media/dbg-tour-f11-start.png "F11 Step Into")
+     ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11-start.png "F11 Step Into")
 
      The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -87,7 +87,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. Press F10 (**Debug / Step Over**) a few times until the debugger stops on the first line of code in the **OnApplicationStartup** event handler.
 
-     ![F10 Step Over](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
+     ![Use F10 to Step Over code](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
 
      F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the InitializeComponent method call (instead of F11), we skipped over the implementation code for InitializeComponent (which maybe we're not interested in right now).
 
@@ -95,7 +95,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 1. Now, in the **OnApplicationStartup** event handler, set a breakpoint by clicking in the margin to the left of the last line of code.
 
-     ![Set a Breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
+     ![Set a breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
 
 6. Press F5 (**Continue**) and the debugger runs to the line of code where you set the breakpoint.
 
@@ -119,17 +119,17 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     Right-click on the line of code and choose **Step Into Specific**, then **SDKSamples.ImageSample.PhotoCollection.Path.set**
 
-     ![Step into Specific](../debugger/media/dbg-tour-step-into-specific.png "Step Into Specific")
+     ![Use the Step into Specific feature](../debugger/media/dbg-tour-step-into-specific.png "Step Into Specific")
 
     As mentioned earlier, by default the debugger skips over managed properties and fields, but the **Step Into Specific** command allows you to override this behavior. For now, we want to look what happens when the `Path.set` property setter runs. **Step Into Specific** gets us to the `Path.set` code here.
 
-     ![Step into Specific](../debugger/media/dbg-tour-step-into-specific-2.png "Step Into Specific")
+     ![result of Step into Specific](../debugger/media/dbg-tour-step-into-specific-2.png "Step Into Specific")
 
      The `Update` method in this code looks like it could be interesting, so lets use the debugger to examine that code up close.
 
 5. Hover over the `Update` method until the green **Run execution to here** button appears on the left.
 
-     ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
+     ![Use the Run to Click feature](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
     >  [!NOTE] 
     > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 instead to advance the debugger.
@@ -142,7 +142,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 7. Press F11 to step into the `Update` method.
 
-     ![Step into Update Method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
+     ![Result of stepping into the Update method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
     Here, we find some more code that looks interesting; it appears the app is getting all *.jpg files residing in a particular directory, and then creating a new Photo object for each file. This gives us a good opportunity to start inspecting your app state (variables) with the debugger.
 
@@ -154,7 +154,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. Now, hover over the File object (`f`) and you will see its default property value, the file name `market 031.jpg`.
 
-     ![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
+     ![View a data tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
 
 3. Expland the object to see all its properties, such as the `FullName` property.
 
@@ -167,7 +167,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 1. Take a look at the **Autos** window at the bottom of the code editor.
 
-     ![Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos Window")
+     ![Inspect variables in the Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos Window")
 
     In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (In C++, the window shows variables in the preceding three lines of code. Check documentation for language-specific behavior).
 
@@ -175,7 +175,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     The **Locals** window shows you the variables that are in the current scope.
 
-    ![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals Window")
+    ![Inspect variables in the Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals Window")
 
     Currently, the `this` object and the File object (`f`) are in the current scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
@@ -192,7 +192,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 
-    ![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch Window")
+    ![Set a watch on a variable](../debugger/media/dbg-tour-watch-window.png "Watch Window")
 
     You might also see the first picture get added to the main window of the running sample app, but this happens on the UI thread, so images may not be visible yet.
 
@@ -202,7 +202,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 1. Click the **Call Stack** window, which is by default open in the lower right pane.
 
-     ![Examine the Call Stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
+     ![Examine the call stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
 
@@ -219,7 +219,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow pointer on the left and move the yellow arrow pointer up one line to the `foreach` loop.
 
-     ![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+     ![Move the execution pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
     By changing the execution flow, you can do things like test different code execution paths or simply re-run code without restarting the debugger.
 
@@ -228,7 +228,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
     You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice!
     
     > [!WARNING]
-    > Sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. This does not undo any changes to the state of your application.
+    > Sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer does not undo any changes to the state of your application.
 
 ## Run to cursor
 
@@ -236,7 +236,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. In the `Update` method, right-click the `Add` method call and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
-     ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
+     ![Use the Run to Cursor feature](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
     You should be paused on the breakpoint in `OnApplicationStartup` (since that is the first breakpoint.
 
@@ -262,7 +262,7 @@ Let's say that you are done examining the `Update` method in Data.cs, then you m
 
 1. In the running app window, delete the text in the **Path** input box and select the **Change** button.
 
-     ![Cause an Exception](../debugger/media/dbg-tour-cause-an-exception.png "Cause an Exception")
+     ![Cause an exception to be thrown](../debugger/media/dbg-tour-cause-an-exception.png "Cause an Exception")
 
      The app throws an exception, and the debugger takes you to the line of code that threw the exception.
      
