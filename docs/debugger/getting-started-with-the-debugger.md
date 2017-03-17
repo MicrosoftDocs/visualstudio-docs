@@ -33,7 +33,7 @@ translation.priority.mt:
 ---
 # Debugger feature tour
 
-This topic introduces the features of the Visual Studio debugger in an easy-to-follow walkthrough.
+This topic introduces the features of the Visual Studio debugger in an step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the step-by-step instructions yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 

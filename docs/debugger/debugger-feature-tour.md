@@ -33,7 +33,7 @@ translation.priority.mt:
 ---
 # Debugger feature tour
 
-This topic introduces the features of the Visual Studio debugger. If you want to follow along by opening your own app in Visual Studio, you can do that, or you can follow along with a sample app using the [step-by-step Beginner's Guide](..debugger/getting-started-with-the-debugger.md).
+This topic introduces the features of the Visual Studio debugger. If you want to follow along by opening your own app in Visual Studio, you can do that, or you can follow along with a sample app using the [step-by-step Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
 
 The features described here are applicable to C#, C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
@@ -55,7 +55,7 @@ We are showing the keyboard shortcuts for most commands because they make naviga
 
 Press F11 (**Debug / Step Into**) to start your app with the debugger attached. F11 is the **Step Into** command and advances the app execution one statement at a time. When you start the app with F11, the debugger breaks on the first statement that gets executed.
 
-![F11 Step Into](../debugger/media/dbg-tour-f11-start.png "F11 Step Into")
+![F11 Step Into](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
 The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -168,7 +168,7 @@ While debugging, right-click an object and choose **Add Watch**.
 In this example, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
     
 > [!TIP]
-> If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows#bkmk_objectIds).
+> If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows#bkmk_objectIds).
 
 For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
