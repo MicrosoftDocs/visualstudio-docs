@@ -168,7 +168,7 @@ While debugging, right-click an object and choose **Add Watch**.
 In this example, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
     
 > [!TIP]
-> If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows#bkmk_objectIds).
+> If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
