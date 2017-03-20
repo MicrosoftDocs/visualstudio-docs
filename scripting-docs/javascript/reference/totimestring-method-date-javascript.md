@@ -13,6 +13,7 @@ f1_keywords:
   - "toTimeString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toTimeString method"
@@ -40,7 +41,7 @@ objDate. toTimeString( )
 ## Example  
  In the following example, the time is set to 2000 milliseconds after midnight January 1, 1970 UTC, and then it is written out.  
   
-```javascript  
+```JavaScript  
 var aDate = new Date();  
      aDate.setTime(2000);  
      document.write(aDate.toTimeString());  

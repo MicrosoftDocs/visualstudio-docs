@@ -13,6 +13,7 @@ f1_keywords:
   - "for_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "loop structures, for statements"
@@ -61,7 +62,7 @@ for ([initialization]; [test]; [increment])
   
 -   When `i` is greater than 9, the condition becomes false and control is transferred outside the loop.  
   
-```javascript  
+```JavaScript  
 // i is set to 0 at the start and is incremented by 1 at the  
 // end of each iteration.  
 // The loop terminates when i is not less than or equal to  
@@ -77,7 +78,7 @@ for (var i = 0; i <= 9; i++) {
 ## Example  
  All of the expressions of the `for` statement are optional. In the following example, the `for` statements create an infinite loop, and a `break` statement is used to exit the loop.  
   
-```javascript  
+```JavaScript  
 var j = 0;  
 for (;;) {  
     if (j >= 5) {  

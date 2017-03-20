@@ -58,7 +58,7 @@ Although the demo app is C#, the features are applicable to C++, Visual Basic, J
 
     ![Solution Explorer](../debugger/media/dbg-tour-solution-explorer.png "Solution Explorer")
 
-4. Press F5 (**Debug / Start Debugging** or the green arrow ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") button in the Debug Toolbar).
+4. Press F5 (**Debug / Start Debugging** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar).
 
      ![Photo Viewer App](../debugger/media/dbg-tour-wpf-app.png "Photo Viewer App")
 
@@ -78,7 +78,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      ![F11 Step Into](../debugger/media/dbg-tour-f11-start.png "F11 Step Into")
 
-     The yellow arrow represents the line of code on which the debugger paused, which also suspends app execution at the same point (this line of code has not yet executed).
+     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options in later steps.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
@@ -89,7 +89,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
      ![F10 Step Over](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
 
-     F10 advances the debugger without stepping into functions or methods in your app code. By pressing F10 on the InitializeComponent method call (instead of F11), we skipped over the implementation code for InitializeComponent (which maybe we're not interested in right now).
+     F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the InitializeComponent method call (instead of F11), we skipped over the implementation code for InitializeComponent (which maybe we're not interested in right now).
 
 ## Set a breakpoint
 
@@ -173,11 +173,11 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. Next, take a look at the **Locals** window.
 
-    The **Locals** window shows you the variables that are currently in scope.
+    The **Locals** window shows you the variables that are in the current scope.
 
     ![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals Window")
 
-    Currently, the `this` object and the File object (`f`) are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
+    Currently, the `this` object and the File object (`f`) are in the current scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
 ## Set a watch
 
@@ -213,7 +213,7 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
     You can use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
 
-    You can double-click a line of code to go look at that source code (without advancing the debugger).
+    You can double-click a line of code to go look at that source code (without advancing the debugger) and that also changes the current scope being inspected by the debugger.
 
 ## Change the execution flow
 
@@ -225,7 +225,10 @@ Mostly, we will use the keyboard shortcuts here, because it's the best way to ge
 
 2. Now, press F5.
 
-    You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice! So, sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too.
+    You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice!
+    
+    > [!WARNING]
+    > Sometimes you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. This does not undo any changes to the state of your application.
 
 ## Run to cursor
 

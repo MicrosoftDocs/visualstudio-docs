@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b24d805e-0fe1-40f2-ac32-cb7d4055d3f4
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Specifies the function that creates a collator.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 collator.constructor  
 ```  
   

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "constructors, including properties and methods"
@@ -37,7 +38,7 @@ There are a number of ways you can create your own objects in JavaScript. You ca
 ## Example  
  The following code shows how to instantiate an object and add some properties. In this case only the `pasta` object has the `grain`, `width`, and `shape` properties.  
   
-```javascript  
+```JavaScript  
 var pasta = new Object();  
 pasta.grain = "wheat";  
 pasta.width = 0.5;  
@@ -58,7 +59,7 @@ document.write(pasta.getShape());
 ## Object literals  
  You can also use object literal notation when you want to create only one instance of an object. The following code shows how to instantiate an object by using object literal notation.  
   
-```javascript  
+```JavaScript  
 var pasta = {  
     grain: "wheat",  
     width: 0.5,  
@@ -73,7 +74,7 @@ var pasta = {
   
  In [!INCLUDE[jsv12text](../javascript/includes/jsv12text-md.md)], you can use shorthand syntax to create an object literal.  
   
-```javascript  
+```JavaScript  
 var key = 'a';  
 var value = 5;  
   
@@ -94,7 +95,7 @@ console.log(obj2);
   
  The following example shows the use of shorthand syntax to define methods in object literals.  
   
-```javascript  
+```JavaScript  
 // Older versions  
 var obj = {  
     method1: function() {},  
@@ -110,7 +111,7 @@ var obj = {
   
  You can also set property names dynamically in object literals in [!INCLUDE[jsv12text](../javascript/includes/jsv12text-md.md)]. The following code example creates a property name for an object dynamically using the set syntax.  
   
-```javascript  
+```JavaScript  
 var propName = "prop_42";  
   
 var obj = {  
@@ -133,7 +134,7 @@ console.log(obj.value);
   
  The following code example creates a property name for an object dynamically using the get syntax.  
   
-```javascript  
+```JavaScript  
 var propName = "prop_42";  
   
 var obj = {  
@@ -150,7 +151,7 @@ console.log(obj.prop_42);
   
  The following code example creates a computed property using [arrow function syntax](../javascript/functions-javascript.md) to append 42 to the property name.  
   
-```javascript  
+```JavaScript  
 var obj = {  
     [ 'prop_' + (() => 42)() ]: 42  
 };  

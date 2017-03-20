@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.htmldesigner.html"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript, reference"

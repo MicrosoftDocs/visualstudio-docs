@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "scope, JavaScript"
@@ -28,7 +29,7 @@ manager: "ghogen"
 ## Scope in JavaScript  
  A local variable can have the same name as a global variable, but it is entirely separate; changing the value of one variable has no effect on the other. Only the local version has meaning inside the function in which it is declared.  
   
-```javascript  
+```JavaScript  
 // Global definition of aCentaur.  
 var aCentaur = "a horse with rider,";  
   
@@ -48,7 +49,7 @@ document.write(aCentaur);
   
  In JavaScript, variables are evaluated as if they were declared at the beginning of the scope they exist in. Sometimes this results in unexpected behavior, as shown here.  
   
-```javascript  
+```JavaScript  
 var aNumber = 100;  
 tweak();  
   
@@ -70,7 +71,7 @@ function tweak(){
   
  In JavaScript, an inner (nested) function stores references to the local variables that are present in the same scope as the function itself, even after the function returns. This set of references is called a closure. In the following example, the second call to the inner function outputs the same message ("Hello Bill") as the first call, because the input parameter for the outer function, `name`, is a local variable that is stored in the closure for the inner function.  
   
-```javascript  
+```JavaScript  
 function send(name) {  
     // Local variable 'name' is stored in the closure  
     // for the inner function.  
@@ -103,7 +104,7 @@ func();
 > [!NOTE]
 >  The following code is supported in Internet Explorer 11 standards mode and later.  
   
-```javascript  
+```JavaScript  
 let x = 10;  
 var y = 10;  
 {  

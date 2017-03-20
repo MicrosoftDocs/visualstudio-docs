@@ -13,6 +13,7 @@ f1_keywords:
   - "length Property"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "length property (arguments)"
@@ -40,7 +41,7 @@ Returns the actual number of arguments passed to a function by the caller.
 ## Example  
  The following example illustrates the use of the **length** property of the **arguments** object. To fully understand the example, pass more arguments to the function than the 2 arguments expected:  
   
-```javascript  
+```JavaScript  
 function ArgTest(a, b){  
    var s = "";  
   

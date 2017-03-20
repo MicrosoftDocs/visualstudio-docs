@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: fe02cdfd-f0f6-45a2-ad36-31c4300ef142
 caps.latest.revision: 4
@@ -44,7 +45,7 @@ stringObj.repeat(count);
   
 ## Example  
   
-```javascript  
+```JavaScript  
 "abc".repeat(3); // Returns "abcabcabc"  
 "abc".repeat(0); // Returns an empty string.  
 ```  

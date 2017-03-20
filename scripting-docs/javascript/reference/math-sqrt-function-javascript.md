@@ -13,6 +13,7 @@ f1_keywords:
   - "sqrt"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "sqrt method"

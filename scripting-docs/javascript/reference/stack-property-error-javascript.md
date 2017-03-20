@@ -13,6 +13,7 @@ f1_keywords:
   - "Error.stack"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript error stack"
@@ -46,7 +47,7 @@ object
 ## Example  
  The following example shows how to get the stack when you're catching an error.  
   
-```javascript  
+```JavaScript  
 try  
     {  
         var x = y.name;  
@@ -61,7 +62,7 @@ catch(e)
 ## Example  
  The following example shows how to set and then get the stack.  
   
-```javascript  
+```JavaScript  
 try  
     {  
         var err = Error("my error");  

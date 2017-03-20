@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 71fbea85-3e00-41b0-b167-25e4281e5e8a
 caps.latest.revision: 4
@@ -41,7 +42,7 @@ array.toString()
 ## Example  
  The following example illustrates the use of the **toString** method with an array.  
   
-```javascript  
+```JavaScript  
 var arr = [1, 2, 3, 4];  
 var s = arr.toString();  
 document.write(s);  

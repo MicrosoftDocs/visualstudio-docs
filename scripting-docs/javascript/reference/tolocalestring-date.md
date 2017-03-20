@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 3472d7bd-b255-4804-8407-c4a1e419a5a3
 caps.latest.revision: 5
@@ -56,7 +57,7 @@ dateObj.toLocaleString([locales][, options])
 ## Example  
  The following example shows how to use the `toLocaleString` method.  
   
-```javascript  
+```JavaScript  
 function toLocaleStrDemo(){     
    var d, s;                      //Declare variables.  
    d = new Date();                //Create Date object.  
@@ -69,7 +70,7 @@ function toLocaleStrDemo(){
 ## Example  
  The following example shows how to use the `toLocaleString` method with a specified locale and comparison options.  
   
-```javascript  
+```JavaScript  
 var date = new Date(Date.UTC(2013, 1, 1, 14, 0, 0));  
 var options = { weekday: "long", year: "numeric", month: "short",  
     day: "numeric" };  

@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.General"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript"

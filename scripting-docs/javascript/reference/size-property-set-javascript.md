@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a1b445e2-4cad-4712-9bb4-f3d98ec5e58c
 caps.latest.revision: 4
@@ -23,7 +24,7 @@ Returns the number of elements in a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 sizeVar = setObj.size  
 ```  
   

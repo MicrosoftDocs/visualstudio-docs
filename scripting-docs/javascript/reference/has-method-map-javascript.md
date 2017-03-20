@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 876df854-2941-4db2-92c6-1b497840b169
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Returns `true` if the map contains the specified element.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.has(key)  
 ```  
   
@@ -40,7 +41,7 @@ mapObj.has(key)
 ## Example  
  The following example shows how to add a member to a `Map` and then check whether the map contains it.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(2, "red");  
   

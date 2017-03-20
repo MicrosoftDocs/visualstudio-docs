@@ -13,6 +13,7 @@ f1_keywords:
   - "parseFloat"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "parseFloat method"
@@ -36,7 +37,7 @@ parseFloat(numString)
   
  The `parseFloat` function returns a numerical value equal to the number contained in `numString`. If no prefix of `numString` can be successfully parsed into a floating-point number, `NaN` (not a number) is returned.  
   
-```javascript  
+```JavaScript  
 parseFloat("abc")      // Returns NaN.  
 parseFloat("1.2abc")   // Returns 1.2.  
 ```  

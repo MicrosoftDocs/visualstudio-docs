@@ -15,6 +15,7 @@ f1_keywords:
   - "catch_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "try-catch exception handling, finally block"
@@ -69,7 +70,7 @@ finally {
 ## Example  
  The following example causes a `ReferenceError` exception to be thrown and displays the name of the error and its message.  
   
-```javascript  
+```JavaScript  
 try {  
     addalert("bad call");  
 }  
@@ -92,7 +93,7 @@ Error Name: ReferenceError
 ## Example  
  The following example shows how to re-throw errors, as well as the execution of nested `try…catch` blocks. When the error is thrown from the nested `try` block, it passes to the nested `catch` block, which re-throws it. The nested `finally` block runs before the outer `catch` block handles the error, and at the end the outer `finally` block runs.  
   
-```javascript  
+```JavaScript  
 try {  
     document.write("Outer try running...<br/>");  
   

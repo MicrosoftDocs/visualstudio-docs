@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c7f3259d-78f7-4ca7-8bdf-99fbd3f41e8d
 caps.latest.revision: 6
@@ -44,7 +45,7 @@ promise.then(onCompleted, onRejected);
 ## Example  
  The following example shows how to call a function (`timeout`) that returns a promise. The fulfillment handler of the `then` method runs after the 5000ms timeout period expires.  
   
-```javascript  
+```JavaScript  
 function timeout(duration) {  
     return new Promise(function(resolve, reject) {  
         setTimeout(resolve, duration);  

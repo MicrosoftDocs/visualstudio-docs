@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d5fb87af-fc3a-4469-8dde-d31daf654f94
 caps.latest.revision: 3
@@ -35,7 +36,7 @@ number.prototype
   
  For example, to add a method to the `Number` object that returns the number of (integer) digits, declare the function, add it to `Number.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function number_digits() {  
     var digits = 0;  
     var num = this;  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 052c409e-10c9-49f2-955d-5ad7e31c14f3
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ Removes the specified element from a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.delete(value)  
 ```  
   
@@ -40,7 +41,7 @@ setObj.delete(value)
 ## Example  
  The following example shows how to add members to a `Set` and then delete one of them.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

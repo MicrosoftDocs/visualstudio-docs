@@ -13,6 +13,7 @@ f1_keywords:
   - "test"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "test method"
@@ -47,7 +48,7 @@ rgExp.test(str)
 ## Example  
  The following example illustrates the use of the **test** method. To use this example, pass the function a regular expression pattern and a string. The function will test for the occurrence of the regular expression pattern in the string and return a string indicating the results of that search:  
   
-```javascript  
+```JavaScript  
 function TestDemo(re, teststring)  
 {  
    // Test string for existence of regular expression.  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c7ef6ce8-fe71-4e53-be44-4dd440aef21d
 caps.latest.revision: 2
@@ -35,7 +36,7 @@ Number.isSafeInteger(numValue)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns true  
 Number.isSafeInteger(-100)  
 Number.isSafeInteger(9007199254740991)  
