@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: bdf47cda-7fa5-4aaa-8aa2-8cf9a8d56cb3
 caps.latest.revision: 5
@@ -46,7 +47,7 @@ dataView.setUint16(byteOffset, value, littleEndian);
 ## Example  
  The following example shows how to set the first Uint16 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

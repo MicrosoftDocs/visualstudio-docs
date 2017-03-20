@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a348fe53-1b4a-42f5-964b-53d57342c906
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ number.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var num = new Number();  
   
 if (num.constructor == Number)  

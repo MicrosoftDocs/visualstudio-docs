@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object.keys method [JavaScript]"
@@ -26,7 +27,7 @@ Returns the names of the enumerable properties and methods of an object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.keys(object)  
 ```  
   
@@ -50,7 +51,7 @@ Object.keys(object)
 ## Example  
  The following example creates an object that has three properties and a method. It then uses the `keys` method to get the properties and methods of the object.  
   
-```javascript  
+```JavaScript  
 // Create a constructor function.  
 function Pasta(grain, width, shape) {  
     this.grain = grain;  
@@ -77,7 +78,7 @@ document.write (arr);
 ## Example  
  The following example displays the names of all enumerable properties that start with the letter "g" in the Pasta object.  
   
-```javascript  
+```JavaScript  
 // Create a constructor function.  
 function Pasta(grain, width, shape) {  
     this.grain = grain;  

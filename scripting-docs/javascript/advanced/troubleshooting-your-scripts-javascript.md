@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "automative type conversion"
@@ -38,14 +39,14 @@ There are places in any programming language that have surprises. For example, t
 ## Automatic Type Coercion  
  [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] is a loosely-typed language with automatic coercion. Even though values having different types are not equal, the expressions in the following example evaluate to **true**.  
   
-```javascript  
+```JavaScript  
 "100" == 100;  
 false == 0;  
 ```  
   
  To check that both the type and value are the same, use the strict equality operator (===). The following both evaluate to false:  
   
-```javascript  
+```JavaScript  
 "100" === 100;  
 false === 0;  
 ```  
@@ -53,7 +54,7 @@ false === 0;
 ## Operator Precedence  
  [Operator precedence](../../javascript/operator-subtractprecedence-javascript.md) determines when an operation is performed during the evaluation of an expression. In the following example multiplication is performed before subtraction, even though the subtraction appears first in the expression.  
   
-```javascript  
+```JavaScript  
 theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;  
 ```  
   

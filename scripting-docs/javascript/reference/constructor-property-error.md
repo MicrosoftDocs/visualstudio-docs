@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 18aea278-2bd5-457b-83a5-d8d8f1226e0c
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ error.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var x = new Error("This is an error");  
   
 if (x.constructor == Error)  

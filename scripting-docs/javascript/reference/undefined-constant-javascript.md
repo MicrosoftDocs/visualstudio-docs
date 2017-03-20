@@ -13,6 +13,7 @@ f1_keywords:
   - "undefined"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "undefined property"
@@ -41,7 +42,7 @@ undefined
 ## Example  
  The following example shows how to use the `undefined` constant.  
   
-```javascript  
+```JavaScript  
 // A variable that has not been initialized.  
 var declared;  
   

@@ -13,6 +13,7 @@ f1_keywords:
   - "instanceof_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "instanceOf operator"
@@ -48,7 +49,7 @@ result = object instanceof class
 ## Example  
  The following example shows how to use the `instanceof` operator.  
   
-```javascript  
+```JavaScript  
 function objTest(obj){  
     var i, t, s = "";  
     t = new Array();  

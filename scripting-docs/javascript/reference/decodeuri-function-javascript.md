@@ -13,6 +13,7 @@ f1_keywords:
   - "decodeURI"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "decodeURI method"
@@ -45,7 +46,7 @@ decodeURI(URIstring)
 ## Example  
  The following code first encodes a URI component and then decodes it.  
   
-```javascript  
+```JavaScript  
 var uriEncode = encodeURIComponent ("www.Not a URL.com");  
 var uriDecode = decodeURIComponent(uriEncode);  
   

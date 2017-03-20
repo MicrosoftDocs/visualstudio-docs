@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b4eea447-fd5b-4380-978e-1b95f6dbc438
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ Adds a new element to a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.add(value)  
 ```  
   
@@ -40,7 +41,7 @@ setObj.add(value)
 ## Example  
  The following example shows how to add members to a set and then retrieve them.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

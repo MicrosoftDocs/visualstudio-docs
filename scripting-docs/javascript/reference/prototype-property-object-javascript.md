@@ -13,6 +13,7 @@ f1_keywords:
   - "Prototype"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "inheritance, objects"
@@ -40,7 +41,7 @@ objectName.prototype
   
  For example, to add a method to the `Array` object that returns the value of the largest element of the array, declare the function, add it to `Array.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function array_max( ){  
     var i, max = this[0];  
     for (i = 1; i < this.length; i++)  

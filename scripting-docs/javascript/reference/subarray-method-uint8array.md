@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 07724c80-5fdf-4745-a750-214630100439
 caps.latest.revision: 11
@@ -23,7 +24,7 @@ Gets a new Uint8Array view of the [ArrayBuffer Object](../../javascript/referenc
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var newUint8Array = uint8Array.subarray(begin, end);  
 ```  
   
@@ -43,7 +44,7 @@ var newUint8Array = uint8Array.subarray(begin, end);
 ## Example  
  The following example shows how to get a subarray two elements long, starting with the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

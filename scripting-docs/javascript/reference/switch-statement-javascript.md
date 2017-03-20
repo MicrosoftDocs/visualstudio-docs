@@ -15,6 +15,7 @@ f1_keywords:
   - "case_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "switch statement"
@@ -69,7 +70,7 @@ switch (expression) {
 ## Example  
  The following example tests an object for its type.  
   
-```javascript  
+```JavaScript  
 function MyObjectType(obj) {  
     switch (obj.constructor) {  
         case Date:  
@@ -103,7 +104,7 @@ function MyObjectType(obj) {
 ## Example  
  The following code shows what happens if you do not use a `break` statement.  
   
-```javascript  
+```JavaScript  
 function MyObjectType(obj) {  
     switch (obj.constructor) {  
         case Date:  

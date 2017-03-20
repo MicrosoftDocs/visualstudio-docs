@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5034"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 5d06f0fa-86f5-49d1-8d50-af1759990f43
 caps.latest.revision: 13
@@ -30,7 +31,7 @@ An attempt has been made to invoke `JSON.stringify` with a value that is not val
 ## Example  
  The code in this example causes a runtime error because `john` has a reference to `mary` and `mary` has a reference to `john`. to remove the circular reference, either remove or unset the property `brother` from the `mary` object or the `sister` property from the `john` object.  
   
-```javascript  
+```JavaScript  
 var john = new Object();  
 var mary = new Object();  
 john.sister = mary;  

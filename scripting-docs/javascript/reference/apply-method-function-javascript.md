@@ -13,6 +13,7 @@ f1_keywords:
   - "apply"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Apply method"
@@ -46,7 +47,7 @@ apply([thisObj[,argArray]])
 ## Example  
  The following code shows how to use the apply method.  
   
-```javascript  
+```JavaScript  
 function callMe(arg1, arg2){  
     var s = "";  
   

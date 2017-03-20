@@ -13,6 +13,7 @@ f1_keywords:
   - "substr"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "substr method"
@@ -48,7 +49,7 @@ stringvar.substr(start [, length ])
 ## Example  
  The following example illustrates the use of the `substr` method.  
   
-```javascript  
+```JavaScript  
 var s = "The quick brown fox jumps over the lazy dog.";  
 var ss = s.substr(10, 5);    
 document.write("[" + ss + "] <br>");  
