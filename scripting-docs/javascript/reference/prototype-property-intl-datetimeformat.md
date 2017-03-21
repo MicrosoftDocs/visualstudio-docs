@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: e1e693ff-1775-407e-b655-18a60d238ded
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a formatter.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 dateTimeFormat.prototype  
 ```  
   

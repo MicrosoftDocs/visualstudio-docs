@@ -13,6 +13,7 @@ f1_keywords:
   - "setUTCMonth"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, UTC"
@@ -55,7 +56,7 @@ dateObj.setUTCMonth(numMonth[, dateVal])
 ## Example  
  The following example illustrates the use of the `setUTCMonth` method.  
   
-```javascript  
+```JavaScript  
 function SetUTCMonthDemo(newmonth){  
    var d, s;                       // Declare variables.  
    d = new Date();                 // Create Date object.  

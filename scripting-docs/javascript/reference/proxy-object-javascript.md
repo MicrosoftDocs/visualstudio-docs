@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2b89abee-04fa-47e6-9676-980016cff5f8
 caps.latest.revision: 8
@@ -61,7 +62,7 @@ proxyObj = new Proxy(target, handler)
 ## Example  
  The following code example shows how to create a proxy for an object literal using the `get` trap.  
   
-```javascript  
+```JavaScript  
 var target = {};  
 var handler = {  
   get: function (receiver, name) {  
@@ -81,7 +82,7 @@ console.log(p.world);
 ## Example  
  The following code example shows how to create a proxy for a function using the `apply` trap.  
   
-```javascript  
+```JavaScript  
 var target = function () { return 'I am the target'; };  
 var handler = {  
   // This example includes a rest parameter.  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 234e7104-9b78-4bfa-8f77-2bc44a570928
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Specifies the function that creates a `WeakSet`.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakset.constructor  
 ```  
   

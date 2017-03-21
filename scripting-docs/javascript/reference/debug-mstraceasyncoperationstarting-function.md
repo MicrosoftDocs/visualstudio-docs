@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c8458264-07e0-4cd6-8528-ff7cf009cf9e
 caps.latest.revision: 7
@@ -43,7 +44,7 @@ Debug.msTraceAsyncOperationStarting(operationName)
 ## Example  
  The following code provides an example of instrumenting an asynchronous call for a [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] app.  
   
-```javascript  
+```JavaScript  
 function asyncWrapperFunction() {  
     var opID = Debug.msTraceAsyncOperationStarting('async trace');  
     doSomethingAsync().then(function (result) {  

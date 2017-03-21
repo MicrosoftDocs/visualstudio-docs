@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f350b7eb-8994-40bf-9011-f8b20fcef34f
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Specifies the function that creates a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 set.constructor  
 ```  
   

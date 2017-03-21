@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 68c3223a-023c-4fa0-aa99-d049a7a0e26a
 caps.latest.revision: 5
@@ -37,7 +38,7 @@ numberFormatObj.format
 ## Example  
  The following example uses a `NumberFormat` object to create a localized number.  
   
-```javascript  
+```JavaScript  
 var nf = new Intl.NumberFormat(["en-US"], {  
     style: "currency",  
     currency: "CNY",  

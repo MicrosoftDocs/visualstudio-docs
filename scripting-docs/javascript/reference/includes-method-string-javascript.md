@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2639e4e5-23ba-424a-80ea-be067a4cd65e
 caps.latest.revision: 4
@@ -44,7 +45,7 @@ stringObj.includes(substring [, position]);
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns true   
 "abcde".includes("cd")  
 "abcde".includes("cd", 2)  

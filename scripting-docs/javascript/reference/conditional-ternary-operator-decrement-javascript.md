@@ -13,6 +13,7 @@ f1_keywords:
   - "?:"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "conditional operators"
@@ -47,14 +48,14 @@ test ? expression1 : expression2
 ## Remarks  
  The `?:` operator can be used as a shortcut for an `if...else` statement. It is typically used as part of a larger expression where an `if...else` statement would be awkward. For example:  
   
-```javascript  
+```JavaScript  
 var now = new Date();  
 var greeting = "Good" + ((now.getHours() > 17) ? " evening." : " day.");  
 ```  
   
  The example creates a string containing "Good evening." if it is after 6pm. The equivalent code using an `if...else` statement would look as follows:  
   
-```javascript  
+```JavaScript  
 var now = new Date();  
 var greeting = "Good";  
 if (now.getHours() > 17)  

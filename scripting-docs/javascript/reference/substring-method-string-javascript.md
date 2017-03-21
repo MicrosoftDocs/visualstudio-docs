@@ -13,6 +13,7 @@ f1_keywords:
   - "substring"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "substrings"
@@ -55,7 +56,7 @@ Returns the substring at the specified location within a `String` object.
 ## Example  
  The following example illustrates the use of the **substring** method.  
   
-```javascript  
+```JavaScript  
 var s = "The quick brown fox jumps over the lazy dog.";  
 var ss = s.substring(10, 15);  
 document.write(ss);  

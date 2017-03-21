@@ -13,6 +13,7 @@ f1_keywords:
   - "localeCompare"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "localeCompare method"
@@ -64,7 +65,7 @@ stringVar.localeCompare(stringExp[, locales][, options])
 ## Example  
  The following code shows how to use `localeCompare`.  
   
-```javascript  
+```JavaScript  
 var str1 = "def";  
 var str2 = "abc"  
   
@@ -86,7 +87,7 @@ document.write(str1.localeCompare(str4));
 ## Example  
  The following code shows how to use `localeCompare` with the German (Germany) locale.  
   
-```javascript  
+```JavaScript  
 var str1 = "a";  
 var str2 = "b";  
   
@@ -99,7 +100,7 @@ document.write(str1.localeCompare(str2, "de-DE"));
 ## Example  
  The following example shows how to use `localeCompare` with the German (Germany) locale and a locale-specific extension that specifies the sort order for German phone books. This example shows locale-specific differences.  
   
-```javascript  
+```JavaScript  
 var arr = ["ä", "ad", "af", "a"];  
   
 document.write(arr[0].localeCompare(arr[1], "de-DE-u-co-phonebk"));  // Returns 1  

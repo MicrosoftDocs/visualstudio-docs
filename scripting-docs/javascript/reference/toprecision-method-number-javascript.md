@@ -13,6 +13,7 @@ f1_keywords:
   - "toPrecision"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toPrecision method"
@@ -47,7 +48,7 @@ numObj.toPrecision([precision])
 ## Example  
  The following code shows how to use `toPrecision`.  
   
-```javascript  
+```JavaScript  
 var num = new Number(123);  
 var prec = num.toPrecision();  
 document.write(prec);  

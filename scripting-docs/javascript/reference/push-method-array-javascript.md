@@ -13,6 +13,7 @@ f1_keywords:
   - "push"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Push method"
@@ -47,7 +48,7 @@ arrayObj.push([item1 [item2 [. . . [itemN ]]]])
 ## Example  
  The following example illustrates the use of the `push` method.  
   
-```javascript  
+```JavaScript  
 var number;  
 var my_array = new Array();  
   

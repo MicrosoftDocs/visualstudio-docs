@@ -13,6 +13,7 @@ f1_keywords:
   - "min"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "min method"
@@ -39,7 +40,7 @@ Math.min([number1[, number2[... [,numberN]]]])
 ## Example  
  The following code shows how to get the smaller of two expressions.  
   
-```javascript  
+```JavaScript  
 var x = Math.min(107 - 3, 48 * 90);  
 document.write(x);  
   

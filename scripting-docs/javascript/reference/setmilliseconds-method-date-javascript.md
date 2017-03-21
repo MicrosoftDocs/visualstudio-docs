@@ -13,6 +13,7 @@ f1_keywords:
   - "setMilliseconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "milliseconds"
@@ -51,7 +52,7 @@ numMilli
 ## Example  
  The following example illustrates the use of the `setMilliseconds` method.  
   
-```javascript  
+```JavaScript  
 function SetMSecDemo(nmsec){  
    var d, s;                    // Declare variables.  
    d = new Date();              // Create Date object.  

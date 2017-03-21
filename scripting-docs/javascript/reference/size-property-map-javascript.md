@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: e4334ba4-7de6-42ff-a5e4-9203466e3ab4
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns the number of elements in a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 sizeVar = mapObj.size  
 ```  
   

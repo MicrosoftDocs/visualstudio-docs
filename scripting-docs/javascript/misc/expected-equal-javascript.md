@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT1011"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a8ce6fbf-8663-4770-8fba-677d04c84825
 caps.latest.revision: 8
@@ -27,7 +28,7 @@ You attempted to create a variable to be used with conditional compilation state
   
 -   Add an equal sign. For example:  
   
-    ```javascript  
+    ```JavaScript  
     @set @myvar1 = 1  
     ```  
   

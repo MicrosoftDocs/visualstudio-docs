@@ -13,6 +13,7 @@ f1_keywords:
   - "getMonth"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Date object"
@@ -47,7 +48,7 @@ dateObj.getMonth()
 ## Example  
  The following example shows how to use the `getMonth` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getMonth());  
   

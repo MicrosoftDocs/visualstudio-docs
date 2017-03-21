@@ -33,7 +33,7 @@ translation.priority.ht:
 # Sync a type to a filename, or a filename to a type in Visual Basic
 
 <!-- VERSIONLESS -->
-**This feature is available in Visual Studio 2017 and later.**
+**This feature is available in Visual Studio 2017 and later.  Additionally, .NET Standard projects are not yet supported for this refactoring.**
 
 **What:** Lets you rename a type to match the filename, or rename a filename to match the type it contains.
 

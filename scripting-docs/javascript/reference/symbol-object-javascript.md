@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2ad059f1-4b7f-4758-882a-c74ce1283ab0
 caps.latest.revision: 7
@@ -61,7 +62,7 @@ obj = Symbol(desc)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 (function() {  
   
     // module-scoped symbol  

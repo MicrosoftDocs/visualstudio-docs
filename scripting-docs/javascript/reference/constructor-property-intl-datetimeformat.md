@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b72cebe3-20b5-4c86-9a5e-3819c11496c4
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Specifies the function that creates a formatter.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 dateTimeFormatter.constructor  
 ```  
   

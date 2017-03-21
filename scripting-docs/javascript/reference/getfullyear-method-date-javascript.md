@@ -13,6 +13,7 @@ f1_keywords:
   - "getFullYear"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, returning year"
@@ -46,7 +47,7 @@ dateObj.getFullYear()
 ## Example  
  The following example illustrates the use of the **getFullYear** method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/01");  
 document.write(date.getFullYear());  
   

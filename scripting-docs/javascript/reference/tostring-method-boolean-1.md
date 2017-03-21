@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c46b43c0-6946-407a-b0e0-49cba90e226a
 caps.latest.revision: 3
@@ -40,7 +41,7 @@ boolean.toString()
 ## Example  
  The following example illustrates the use of the **toString** method.  
   
-```javascript  
+```JavaScript  
 var s = new Boolean(0);  
 document.write(s.toString());  
   

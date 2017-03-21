@@ -13,6 +13,7 @@ f1_keywords:
   - "pow"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "exponentiation"
@@ -45,7 +46,7 @@ base, exponent)
 ## Example  
  In the following example, a numeric expression equal to baseexponent returns 1000.  
   
-```javascript  
+```JavaScript  
 Math.pow(10,3);  
 ```  
   

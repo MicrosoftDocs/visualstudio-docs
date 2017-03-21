@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5003"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ee8ffb3a-1451-4cb3-99bf-5e9cf8b77d79
 caps.latest.revision: 9
@@ -31,13 +32,13 @@ myFunction() = 42;  // Attempting to assign the value 42 to the result of the fu
   
 -   Do not use the value of a function call result as something you can *assign to*. You can assign the result of the function call *to a variable* though.  
   
-    ```javascript  
+    ```JavaScript  
     myVar = myFunction(42);  
     ```  
   
 -   Alternatively, you can assign the function itself (and not its return value) to a variable.  
   
-    ```javascript  
+    ```JavaScript  
     myFunction = new Function("return 42;");  
     ```  
   
