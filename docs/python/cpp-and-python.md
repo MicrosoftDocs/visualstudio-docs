@@ -38,13 +38,13 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 features to make the API easier to use.
 - Low level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
 
-In this topic we'll walk through building a C++ extension module for CPython that prints the first million digits of PI and calls it from Python code. To demonstrate the performance difference, we'll write the routine first in Python, then change it to C++.
+This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. To demonstrate the performance difference, you'll create and test the routine first in Python.
 
-Note that there are other ways to work with C/C++ that what's shown here, as described in [alternative approaches](#alternative-approaches) at the end of this topic.
+The approach taken here is that for standard CPython extensions as described in the [Python documentation](https://docs.python.org/e/c-api/). A comparison between this and other means is described under [alternative approaches](#alternative-approaches) at the end of this topic.
 
 ## Prerequisites
 
-This walkthrough is written for Visual Studio 2017 Preview with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). It is also necessary to select the **Visual C++ 14.0 Build Tools** under **Individual Components** in the Visual Studio installer. This is because Python (for Windows) is itself build with Visual Studio 2015 (version 14.0) and expects those tools be available when building an extension. 
+This walkthrough is written for Visual Studio 2017 Preview with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). 
 
 See [Installing Python Support for Visual Studio](installation.md) for details, including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This makes sure that you have the necessary debug libraries available if you choose to do a debug build.
 
@@ -52,7 +52,7 @@ See [Installing Python Support for Visual Studio](installation.md) for details, 
 
 1. Create a new Python project in Visual Studio by selecting the **File > New > Project** menu command, then searching for "Python", selecting the **Python Application** template, giving it a suitable name and location, and selecting **OK**.
 
-1. In the `.py` file of the project, paste the following code that benchmarks the computation of a hyperbolic tangent, which is implemented without using the math library. Feel free to enter the code manually to experience some of the [Python editing features](code-editing.md).
+1. In the project's `.py` file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](code-editing.md).
 
     ```python
     from itertools import islice
@@ -106,9 +106,9 @@ See [Installing Python Support for Visual Studio](installation.md) for details, 
 
 1. Right-click the solution in Solution Explorer and select **Add > New Project...**. A Visual Studio solution can contain both Python and C++ projects together.
 
-1. Search on "Visual C++", select "Empty project", specify a name (such as PiCpp), and select **OK**.
+1. Search on "Visual C++", select **Empty project**, specify a name (such as TanhBenchmark), and select **OK**.
 
-1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add > New Item...", select **C++ File**, give it a name (like `module.cpp`), and select **OK**. This step is necessary to turn on the C++ property pages in the next steps.
+1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add > New Item..."**, select **C++ File**, give it a name (like `module.cpp`), and select **OK**. This step is necessary to turn on the C++ property pages in the next steps.
 
 1. Right-click the new project and select **Properties**, then at the top of the **Property Pages** dialog that appears, set **Configuration** to **All Configurations**.
 
@@ -117,24 +117,26 @@ See [Installing Python Support for Visual Studio](installation.md) for details, 
     | Tab | Property | Value | 
     | --- | --- | --- |
     | General | General > Target Name | Set this to exactly match the name of the module as Python sees it. |
-    | | General > Target Extension | `.pyd` |
+    | | General > Target Extension | .pyd |
     | | Project Defaults > Configuration Type | Dynamic Library (.dll) |
     | C/C++ > General | Additional Include Directories | Add the Python `include` folder as appropriate for your installation, for example, `c:\Python36\include` |     
-    | C/C++ > Code Generation | Runtime Library | Multi-threaded DLL (/MD) |
+    | C/C++ > Code Generation | Runtime Library | Multi-threaded DLL (/MD) (see Warning below) |
     | C/C++ > Preprocessor | Preprocessor Definitions | Add `Py_LIMITED_API;` to the beginning of the string. This restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
     | Linker > General | Additional Library Directories | Add the Python `lib` folder containing `.lib` files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the `libs` folder that contains `.lib` files, and *not* the `Lib` folder that contains `.py` files.) | 
 
     > [!Tip]
-    > If you don't see the C/C++ tab, it's because the project doesn't contain any files that it identifies as C/C++ source files. This can happen if you create a source file without a `.c` or `.cpp` extension. For example, if you entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. This remains the case even if you rename the file with `.cpp`. To correct this, right-click the file in Solution Explorer, select **Properties**, then set  **File Type** to **C/C++ Code**.
+    > If you don't see the C/C++ tab, it's because the project doesn't contain any files that it identifies as C/C++ source files. This can happen if you create a source file without a `.c` or `.cpp` extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. This remains the case even if you rename the file with `.cpp`. To correct this, right-click the file in Solution Explorer, select **Properties**, then set  **File Type** to **C/C++ Code**.
 
     > [!Warning]
-    > Do **not** set the **C/C++ > Code Generation > Runtime Library** option to "Multi-threaded Debug DLL (/MDd)" even for a Debug configuration. Doing so will cause build error *C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG* for a Debug configuration. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, then Python will crash when attempting to import the module. (The crash will happen within the DLL's call to `PyModule_Create` as described later, with the output message of *Fatal Python error: PyThreadState_Get: no current thread*.)
+    > Don't set the **C/C++ > Code Generation > Runtime Library** option to "Multi-threaded Debug DLL (/MDd)" even for a Debug configuration. You need to select the "Multi-threaded DLL (/MD)" runtime because that's what the non-debug Python binaries are built with. If you happen to set the /MDd option, you'll see error *C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG* when building a Debug configuration of your DLL. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, then Python will crash when attempting to import the module. (The crash will happen within the DLL's call to `PyModule_Create` as described later, with the output message of *Fatal Python error: PyThreadState_Get: no current thread*.)
+    >
+    > Note that the /MDd option is what's used to build the Python debug binaries (such as python_d.exe), but selecting it for an extension DLL will still cause the build error with `Py_LIMITED_API`.
    
 1. Right click the C++ project and select **Build** to test your configurations (both Debug and Release). Note that you'll find the `.pyd` files in the *solution* folder under **Debug** and **Release**, not the C++ project folder itself.
 
 1. Add the following code to the C++ project's main `.cpp` file:
 
-    '''cpp
+    ```cpp
     #include <Windows.h>
     #include <cmath>    
 
@@ -151,14 +153,14 @@ See [Installing Python Support for Visual Studio](installation.md) for details, 
     double tanh(x) {
         return sinh(x) / cosh(x);
     }
-    '''
+    ```
 
 1. Build the C++ project again to confirm that your code is correct.
 
 
 ## Convert the C++ project to an extension for Python
 
-To make the C++ DLL into an extension for Python, we need to modify the exported method to interact with Python types. Then we need to add a function that exports the module, along with definitions of the module's methods. For background on what's shown here, refer to the [Python/C API Reference Manual](https://docs.python.org/3/c-api/index.html) and especially [Module Objects](https://docs.python.org/3/c-api/module.html) on python.org. (Remember to select your version of Python from the drop-down control on the upper right.)
+To make the C++ DLL into an extension for Python, you need to modify the exported method to interact with Python types. Then you need to add a function that exports the module, along with definitions of the module's methods. For background on what's shown here, refer to the [Python/C API Reference Manual](https://docs.python.org/3/c-api/index.html) and especially [Module Objects](https://docs.python.org/3/c-api/module.html) on python.org. (Remember to select your version of Python from the drop-down control on the upper right.)
 
 1. In the C++ file, include `Python.h` at the top:
 
@@ -200,7 +202,7 @@ To make the C++ DLL into an extension for Python, we need to modify the exported
     };
     ```
 
-1. Add a method that Python calls when it loads the module. The method name must be `PyInit_<module-name>` where &lt;module_name&gt; exactly matches the C++ Project's **General > Target Name** property (that is, it matches the filename of the `.pyd` built by the project).
+1. Add a method that Python calls when it loads the module, which must be must be named `PyInit_<module-name>` where *&lt;module_name&gt;* exactly matches the C++ Project's **General > Target Name** property (that is, it matches the filename of the `.pyd` built by the project).
 
     ```cpp
     PyMODINIT_FUNC PyInit_superfastcode() {    
@@ -212,13 +214,15 @@ To make the C++ DLL into an extension for Python, we need to modify the exported
 
 ## Test the code and compare the results
 
-Now that we have the DLL structured as a Python extension, we can refer to it from the Python project, import the module, and use its methods.
+Now that you have the DLL structured as a Python extension, you can refer to it from the Python project, import the module, and use its methods.
 
 There are two ways to make the DLL available to Python. First, you can add a reference from the Python project to the C++ project, provided that they're in the same Visual Studio solution:
 
 1. In Solution Explorer, right-click the Python project and select **References**. In the dialog, select the **Projects** tab, select the **superfastcode** project, and then **OK**.
 
 Second, you can install the module in the global Python environment, making it available to other Python projects as well. Note that doing so will typically require that you refresh the IntelliSense completion database for that environment, as will removing the module from the environment.
+
+1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components > Compilers, build tools, and runtimes > Visual C++ 2015.3 v140 toolset**. This is because Python (for Windows) is itself build with Visual Studio 2015 (version 14.0) and expects those tools be available when building an extension through the method described here.
 
 1. Create a file named `setup.py` in your C++ project by right clicking the project, selecting **Add > New Items...*, searching for "Python" and selecting **Python file**, naming it setup.py, and selecting **OK**. When the file appears in the editor, paste the following code into it:
 
@@ -231,17 +235,17 @@ Second, you can install the module in the global Python environment, making it a
         description = 'Python Package with superfastcode C++ Extension',
         ext_modules = [sfc_module]
         )
-    ```python
+    ```
 
     See [Building C and C++ Extentions](https://docs.python.org/3/extending/building.html) (python.org) for documentation on this script.
 
-1. The `setup.py` code instructs Python to build the extension, which happens from the command line. Open an elevated command prompt, navigate to the folder containing the C++ project (and `setup.py`), and enter the following command:
+1. The `setup.py` code instructs Python to build the extension (using the Visual Studio 2015 C++ toolset), which happens from the command line. Open an elevated command prompt, navigate to the folder containing the C++ project (and `setup.py`), and enter the following command:
 
     ```bash
     pip install .
     ```
 
-Now we can call the `tanh` code the module and compare its performance to the Python implementation:
+Now you can call the `tanh` code the module and compare its performance to the Python implementation:
 
 1. Add the following lines in `tanhbenchmark.py` to call the `fast_tanh` method exported from the DLL, and add it to the benchmark output. If you type the `from s` statement manually, you'll see `superfastcode` come up in the completion list, and after typing `import` you'll see the `fast_tanh` method.
 
@@ -259,7 +263,7 @@ Python support in Visual Studio includes the ability to [debug Python and C++ co
 1. Right-click the Python project in Solution Explorer, select **Properties**, select the **Debug** tab, and then select the **Debug > Enable native code debugging** option.
 
     > [!Tip]
-    > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual "Press any key to continue..." pause. To force a pause, add the `-i` option to the **Run > Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This will put the Python interpreter into interactive mode after the code finishes, at which it waits for you to press Ctrl+Z, Enter to exit. (Alternately, if you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This duplicates the original pause prompt.)
+    > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual "Press any key to continue..." pause. To force a pause, add the `-i` option to the **Run > Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This will put the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press Ctrl+Z, Enter to exit. (Alternately, if you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This duplicates the original pause prompt.)
 
 1. In your C++ code, set a breakpoint on the first line within the `tanh` method, then start the debugger. You'll see the debugger stop when that code is called:
 
