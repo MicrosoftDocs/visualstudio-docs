@@ -54,8 +54,9 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
     It is possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
-1. When you start debugging in mixed mode for the first time, you will likely see a **Python Symbols Required** dialog. See [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md) for details. You need to install symbols only once for any given Python environment.
+1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog. See [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md) for details. You need to install symbols only once for any given Python environment. Note that if you install Python support through the Visual Studio 2017 installer, symbols are included automatically.
 
+1. You may also want to have the Python source code itself on hand. For standard Python, this can be obtained from [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/). Download the archive appropriate for your version and extract it to a folder. You'll point Visual Studio to specific files in that folder at whatever point it prompts you.
 
 ## Mixed-mode specific features
 
