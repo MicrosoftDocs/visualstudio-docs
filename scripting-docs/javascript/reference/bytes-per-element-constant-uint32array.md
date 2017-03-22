@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9a82d1bf-0e97-4e14-b86f-343ccc8dfac2
 caps.latest.revision: 8
@@ -23,14 +24,14 @@ The size in bytes of each element in the array.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arraySize = uint32Array.BYTES_PER_ELEMENT;  
 ```  
   
 ## Example  
  The following example shows how to get the size of the array elements.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

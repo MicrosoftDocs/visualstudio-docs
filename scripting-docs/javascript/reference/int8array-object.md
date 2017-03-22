@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0e3bdbc5-8d85-4c0d-b399-693b01674803
 caps.latest.revision: 17
@@ -77,7 +78,7 @@ intArray = new Int8Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use an Int8Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

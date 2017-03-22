@@ -13,6 +13,7 @@ f1_keywords:
   - "toFixed"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toFixed method"
@@ -47,7 +48,7 @@ numObj.toFixed([fractionDigits])
 ## Example  
  The following code shows how to use `toFixed`.  
   
-```javascript  
+```JavaScript  
 var num = new Number(123);  
 var fix = num.toFixed();  
 document.write(fix);  

@@ -13,6 +13,7 @@ f1_keywords:
   - "RegularExpression_JavaScript"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Regular Expression object"
@@ -71,7 +72,7 @@ re = new RegExp("pattern"[,"flags"])
 ## Example  
  The following example illustrates the use of the **Regular Expression** object by creating an object (re) containing a regular expression pattern with its associated flags. In this case, the resulting **Regular Expression** object is then used by the `match` method:  
   
-```javascript  
+```JavaScript  
 var s = "through the pages of the book";  
   
 // Create regular expression pattern.  
@@ -92,7 +93,7 @@ if(console && console.log) {
 ## Example  
  The following example updates the regular expression pattern to search for multiple instances.  
   
-```javascript  
+```JavaScript  
 // Create regular expression pattern using the i and g flags.  
 var re = new RegExp("the", "ig");  
   
@@ -115,7 +116,7 @@ if(console && console.log) {
   
  The following example searches for a match at a specific index using the /y flag and the `lastIndex` property.  
   
-```javascript  
+```JavaScript  
 // Create regular expression pattern using the i and y flags.  
 var re = new RegExp("the", "iy");  
   

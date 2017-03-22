@@ -13,6 +13,7 @@ f1_keywords:
   - "lastIndexOf"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "lastIndexOf method, string"
@@ -52,7 +53,7 @@ strObj.lastIndexOf(substring[, startindex])
   
  The following example illustrates the use of the **lastIndexOf** method.  
   
-```javascript  
+```JavaScript  
 var str = "time, time";  
   
 var s = "";  

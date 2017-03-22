@@ -13,6 +13,7 @@ f1_keywords:
   - "toLocaleString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLocaleString method"
@@ -49,7 +50,7 @@ dateObj.toLocaleString()
 ## Example  
  The following example illustrates the use of the `toLocaleString` method.  
   
-```javascript  
+```JavaScript  
 function toLocaleStrDemo(){     
    var d, s;                      //Declare variables.  
    d = new Date();                //Create Date object.  

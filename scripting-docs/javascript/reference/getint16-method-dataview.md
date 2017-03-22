@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d364cbe0-48a6-4350-a6ca-9f563d7ae571
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ var testInt = dataView.getInt16(byteOffset, littleEndian);
 ## Example  
  The following example shows how to get the first Int16 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

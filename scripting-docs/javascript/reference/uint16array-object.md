@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: e684647d-04d0-41a9-9089-16612e18ec7d
 caps.latest.revision: 15
@@ -78,7 +79,7 @@ uint16Array = new Uint16Array( buffer, byteOffset, length );
 ## Example  
  The following example shows how to use a Uint16Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

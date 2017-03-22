@@ -13,6 +13,7 @@ f1_keywords:
   - "shift"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "shift method"
@@ -41,7 +42,7 @@ arrayObj.shift( )
 ## Remarks  
  The following example illustrates the use of the `shift` method.  
   
-```javascript  
+```JavaScript  
 var arr = new Array(10, 11, 12);  
 while (arr.length > 0)  
     {  

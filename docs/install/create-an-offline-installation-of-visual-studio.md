@@ -2,7 +2,7 @@
 title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to create an offline installer for of Visual Studio."
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "03/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -49,6 +49,8 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 |Visual Studio Enterprise |**vs_enterprise.exe**|  
 |Visual Studio Professional |**vs_professional.exe**|  
 |Visual Studio Community |**vs_community.exe**|
+
+Other supported bootstrappers include vs_buildtools.exe, vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
 
 ## Create an offline installation folder
 To create an offline installation with all languages and all features, use one of the commands from the following examples.

@@ -13,6 +13,7 @@ f1_keywords:
   - "ScriptEngineBuildVersion"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ScriptEngineBuildVersion function"
@@ -37,7 +38,7 @@ ScriptEngineBuildVersion()
 ## Example  
  The following example illustrates the use of the `ScriptEngineBuildVersion` function:  
   
-```javascript  
+```JavaScript  
 if(window.ScriptEngineBuildVersion) {  
     console.log(window.ScriptEngineBuildVersion());  
 }  

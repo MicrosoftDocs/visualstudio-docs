@@ -13,6 +13,7 @@ f1_keywords:
   - "NumberFormat"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 820bc90f-f1e7-457a-b90d-487dfc3a736d
 caps.latest.revision: 13
@@ -82,7 +83,7 @@ numberFormatObj = new Intl.NumberFormat([locales][, options])
 ## Example  
  The following example creates a `NumberFormat` object for the en-US locale with the specified formatting options.  
   
-```javascript  
+```JavaScript  
 var nf = new Intl.NumberFormat(["en-US"], {  
     style: "currency",  
     currency: "CNY",  
@@ -98,7 +99,7 @@ if (console && console.log) {
 ## Example  
  The following examples show the result from using several different locales and options.  
   
-```javascript  
+```JavaScript  
 var number = 123456789;  
 var options1 = { style: "percent" };  
 var options2 = { style: "currency", currency: "INR" };  

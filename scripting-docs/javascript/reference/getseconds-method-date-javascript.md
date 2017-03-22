@@ -13,6 +13,7 @@ f1_keywords:
   - "getSeconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "seconds method"
@@ -45,7 +46,7 @@ dateObj.getSeconds()
 ## Example  
  The following example shows how to use the `getSeconds` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getSeconds());  
 document.write("<br/>");  

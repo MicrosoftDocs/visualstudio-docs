@@ -13,6 +13,7 @@ f1_keywords:
   - "getTime"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "GetTime method"
@@ -42,7 +43,7 @@ dateObj.getTime()
 ## Remarks  
  When doing multiple date and time calculations, you may want to define variables equal to the number of milliseconds in a day, hour, or minute. For example:  
   
-```javascript  
+```JavaScript  
 var minute = 1000 * 60;  
 var hour = minute * 60;  
 var day = hour * 24;  
@@ -53,7 +54,7 @@ var day = hour * 24;
 ## Example  
  The following example shows how to use the `getTime` method.  
   
-```javascript  
+```JavaScript  
 var minute = 1000 * 60;  
 var hour = minute * 60;  
 var day = hour * 24;  

@@ -13,6 +13,7 @@ f1_keywords:
   - "Enumerator"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Enumerator object"
@@ -50,7 +51,7 @@ enumObj = new Enumerator([collection])
 ## Example  
  The following code shows the usage of the `Enumerator` object:  
   
-```javascript  
+```JavaScript  
 var bytesPerGB = 1024 * 1024 * 1024;  
   
 var fso = new ActiveXObject("Scripting.FileSystemObject");  

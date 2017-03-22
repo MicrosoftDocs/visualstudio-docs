@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "date and time arithmetic [JavaScript]"
@@ -31,7 +32,7 @@ You can use the [Date object](../javascript/reference/date-object-javascript.md)
   
  The following example shows how to instantiate a date without using any parameters and display it in the format *mm-dd-yy*.  
   
-```javascript  
+```JavaScript  
 var dt = new Date();  
   
 // Display the month, day, and year. getMonth() returns a 0-based number.  
@@ -46,7 +47,7 @@ document.write(month + '-' + day + '-' + year);
 ## Setting a Specific Date  
  You can set a specific date by passing a date string to the constructor.  
   
-```javascript  
+```JavaScript  
 var dt = new Date('8/24/2009');  
 document.write(dt);  
   
@@ -61,7 +62,7 @@ document.write(dt);
   
  You can also specify a time. The following example shows one way to specify a date and time in ISO format. The "Z" indicates UTC time.  
   
-```javascript  
+```JavaScript  
 var dt = new Date('2010-06-09T15:20:00Z');  
 document.write(dt);  
 document.write("<br />");  
@@ -76,7 +77,7 @@ document.write(dt.toISOString());
   
  The following example shows other ways to specify a time.  
   
-```javascript  
+```JavaScript  
 var dtA = new Date('8/24/2009 14:52:10');  
   
 // The parameters are year, month, day, hours, minutes, seconds.  
@@ -96,7 +97,7 @@ document.write(dtB);
   
  The following example shows how you can set a date to the previous day. Note that if necessary the month and year values are also changed.  
   
-```javascript  
+```JavaScript  
 var myDate = new Date("1/1/1990");  
 var dayOfMonth = myDate.getDate();  
 myDate.setDate(dayOfMonth - 1);  
@@ -111,7 +112,7 @@ document.write(myDate);
 > [!TIP]
 >  The months of the year are numbered from 0 (January) to 11 (December). The days of the week are numbered from 0 (Sunday) to 6 (Saturday).  
   
-```javascript  
+```JavaScript  
 var myDate = new Date("1/1/1990")  
 myDate.setMonth(myDate.getMonth() + 1);  
   
@@ -128,7 +129,7 @@ document.write(myDate);
   
  The following example sets the date for Thanksgiving, which in the United States is the fourth Thursday in November. The script finds November 1 of the current year, then finds the first Thursday, and then adds three weeks.  
   
-```javascript  
+```JavaScript  
 var myDate = new Date();  
 myDate.setHours(0, 0, 0, 0);  
   
@@ -160,7 +161,7 @@ document.write(myDate);
   
  The following example calculates elapsed time in seconds. The [getTime method](../javascript/reference/gettime-method-date-javascript.md) gets the number of milliseconds since the zero date.  
   
-```javascript  
+```JavaScript  
 var startTime = new Date('1/1/1990');  
 var startMsec = startTime.getMilliseconds();  
 startTime.setTime(5000000);  
@@ -175,7 +176,7 @@ document.write(elapsed);
   
  The following example shows how much time has elapsed since the first day of the specified year. It uses  division operations to calculate elapsed time in days, hours, minutes, and seconds. It does not account for daylight savings time.  
   
-```javascript  
+```JavaScript  
 // Set the unit values in milliseconds.  
 var msecPerMinute = 1000 * 60;  
 var msecPerHour = msecPerMinute * 60;  
@@ -216,7 +217,7 @@ document.write(days + " days, " + hours + " hours, " + minutes + " minutes, " + 
 ### Determining the User's Age  
  The following example takes the user's birthday and calculates the user's age in years. It subtracts the birth year from the current year, and then subtracts 1 if the birthday has not occurred yet in the current year.  
   
-```javascript  
+```JavaScript  
 var birthday = new Date("8/1/1985");  
 var today = new Date();  
 var years = today.getFullYear() - birthday.getFullYear();  
@@ -240,7 +241,7 @@ document.write("You are " + years + " years old.");
   
  The following example checks whether the current date is the same, before, or after a specified date. To set the current date in `todayAtMidn`, the script creates a `Date` object for the current year, month, and day.  
   
-```javascript  
+```JavaScript  
 // Get the current date at midnight.  
 var now = new Date();   
 var todayAtMidn = new Date(now.getFullYear(), now.getMonth(), now.getDate());  
@@ -264,7 +265,7 @@ else
   
  By modifying the preceding example, we can check whether a provided date is within a particular range.  
   
-```javascript  
+```JavaScript  
 // Get the current date at midnight.  
 var now = new Date();  
 var todayAtMidn = new Date(now.getFullYear(), now.getMonth(), now.getDate());  

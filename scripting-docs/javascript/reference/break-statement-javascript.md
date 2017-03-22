@@ -13,6 +13,7 @@ f1_keywords:
   - "break_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "do...while statement"
@@ -42,7 +43,7 @@ break [label];
 ## Examples  
  In this example, the counter is set up to count from 1 to 99; however, the `break` statement terminates the loop after 14 counts.  
   
-```javascript  
+```JavaScript  
 for (var i = 1; i < 100; i++) {  
     if (i == 15) {  
         break;  
@@ -56,7 +57,7 @@ for (var i = 1; i < 100; i++) {
   
  In the following code, the `break` statement refers to the `for` loop that is preceded by the `Inner:` statement. When `j` is equal to 24, the `break` statement causes the program flow to exit that loop. The numbers 21 through 23 print on each line.  
   
-```javascript  
+```JavaScript  
 Outer:  
 for (var i = 1; i <= 10; i++) {  
     document.write ("<br />");  

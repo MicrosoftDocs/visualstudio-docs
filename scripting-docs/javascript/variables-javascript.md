@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "coercion"
@@ -29,7 +30,7 @@ In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], a variable c
 ## Declaring Variables  
  The first time a variable appears in your script is its declaration. The first mention of the variable sets it up in memory, so you can refer to it later on in your script. You should declare variables before using them. You do this using the `var` keyword.  
   
-```javascript  
+```JavaScript  
 // A single declaration.  
 var count;    
 // Multiple declarations with a single var keyword.  
@@ -59,7 +60,7 @@ Number_Items
   
  Here are some examples of invalid variable names:  
   
-```javascript  
+```JavaScript  
 // Cannot begin with a number.   
 99Balloons     
 // The ampersand (&) character is not a valid character for variable names.   
@@ -68,14 +69,14 @@ Alpha&Beta
   
  When you want to declare a variable and initialize it, but do not want to give it any particular value, assign it the value `null`. Here is an example.  
   
-```javascript  
+```JavaScript  
 var bestAge = null;  
 var muchTooOld = 3 * bestAge; // muchTooOld has the value 0.  
 ```  
   
  If you declare a variable without assigning a value to it, it has the value `undefined`. Here is an example.  
   
-```javascript  
+```JavaScript  
 var currentCount;  
 // finalCount has the value NaN because currentCount is undefined.  
 var finalCount = 1 * currentCount;   
@@ -85,14 +86,14 @@ var finalCount = 1 * currentCount;
   
  You can declare a variable without using the `var` keyword in the declaration, and assign a value to it. This is an implicit declaration.  
   
-```javascript  
+```JavaScript  
 // The variable noStringAtAll is declared implicitly.  
 noStringAtAll = "";   
 ```  
   
  You cannot use a variable that has never been declared.  
   
-```javascript  
+```JavaScript  
 // Error. Length and width do not yet exist.  
 var area = length * width;   
 ```  
@@ -110,7 +111,7 @@ var area = length * width;
   
  In the following example, a number added to a string results in a string.  
   
-```javascript  
+```JavaScript  
 var x = 2000;  
 var y = "Hello";  
 // The number is coerced to a string.  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1e3f9333-ce75-4d32-9b14-fbe81fd73dfb
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Specifies the function that creates a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmap.constructor  
 ```  
   

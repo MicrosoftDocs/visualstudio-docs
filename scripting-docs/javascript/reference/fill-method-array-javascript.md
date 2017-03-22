@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 11526627-c0bb-4157-a8c4-0a039079b4a1
 caps.latest.revision: 3
@@ -46,7 +47,7 @@ arrayObj.fill(value [ , start [ , end ] ]);
 ## Example  
  The following code examples populate an array with values.  
   
-```javascript  
+```JavaScript  
 [0, 0, 0].fill(7, 1);  
 // Array contains [0,7,7]  
   

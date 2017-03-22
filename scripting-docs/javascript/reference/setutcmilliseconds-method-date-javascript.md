@@ -13,6 +13,7 @@ f1_keywords:
   - "setUTCMilliseconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "milliseconds"
@@ -50,7 +51,7 @@ dateObj.setUTCMilliseconds(numMilli)
 ## Example  
  The following example illustrates the use of the `setUTCMilliseconds` method.  
   
-```javascript  
+```JavaScript  
 function SetUTCMSecDemo(nmsec){     
 // Create Date object.  
    var d = new Date();             

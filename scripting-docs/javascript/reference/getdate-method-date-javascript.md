@@ -13,6 +13,7 @@ f1_keywords:
   - "getDate"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Date object"
@@ -46,7 +47,7 @@ dateObj.getDate()
 ## Example  
  The following example illustrates the use of the `getDate` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("Jan 01, 2001");  
 var str = "Today's date is: ";  
    str += (date.getMonth() + 1) + "/";  

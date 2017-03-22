@@ -33,6 +33,7 @@ f1_keywords:
   - "VS.WebClient.HelpSCRIPT1001"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "errors [JavaScript]"

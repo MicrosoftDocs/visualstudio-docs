@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 70992b28-d49b-414f-9306-205b7be7b888
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Removes all elements from a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.clear()  
 ```  
   
