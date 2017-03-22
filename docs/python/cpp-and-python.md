@@ -34,9 +34,8 @@ translation.priority.ht:
 Modules written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter as well as to enable access to low-level operating system capabilities. There are three primary types of modules:
 
 - Accelerator modules: because Python is an interpreted language, certain pieces of code can be written in C++ for higher performance. 
-- Wrapper modules: expose existing C/C++ interfaces to Python code or expose a more “Pythonic” API that makes use of Python language 
-features to make the API easier to use.
-- Low level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
+- Wrapper modules: expose existing C/C++ interfaces to Python code or expose a more “Pythonic” API that makes use of Python language features to make the API easier to use.
+- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
 
 This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. To demonstrate the performance difference, you'll create and test the routine first in Python.
 
@@ -44,9 +43,11 @@ The approach taken here is that for standard CPython extensions as described in 
 
 ## Prerequisites
 
-This walkthrough is written for Visual Studio 2017 Preview with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). 
+This walkthrough is written for Visual Studio 2017 Preview with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). In the **Python Development** workload, also check the box on the right for **Python native development tools**, which will set up most of the options described in this topic. (This option will also include the C++ workload automatically.)
 
-See [Installing Python Support for Visual Studio](installation.md) for details, including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This makes sure that you have the necessary debug libraries available if you choose to do a debug build.
+![Selecting the Python native development tools option](media/cpp-install-native.png)
+
+For more details, see [Installing Python Support for Visual Studio](installation.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This makes sure that you have the necessary debug libraries available if you choose to do a debug build.
 
 ## Create the Python application
 
@@ -106,7 +107,7 @@ See [Installing Python Support for Visual Studio](installation.md) for details, 
 
 1. Right-click the solution in Solution Explorer and select **Add > New Project...**. A Visual Studio solution can contain both Python and C++ projects together.
 
-1. Search on "Visual C++", select **Empty project**, specify a name (such as TanhBenchmark), and select **OK**.
+1. Search on "C++", select **Empty project**, specify a name (such as TanhBenchmark), and select **OK**. Note: if you've installed the **Python native development tools** with Visual Studio 2017, you can start with the **Python Extension Module** template, which has much of what's described here already in place. For this walkthrough, though, starting with an empty project will demonstrate building the extension module step by step.
 
 1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add > New Item..."**, select **C++ File**, give it a name (like `module.cpp`), and select **OK**. This step is necessary to turn on the C++ property pages in the next steps.
 
