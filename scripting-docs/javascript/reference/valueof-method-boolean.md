@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ac6ad343-7663-406a-a2b7-4cc5025ca3d6
 caps.latest.revision: 2
@@ -34,7 +35,7 @@ boolean.valueOf()
 ## Remarks  
  The following code shows how to use this method.  
   
-```javascript  
+```JavaScript  
 var bool = new Boolean("true");  
 var s = bool.valueOf();  
 document.write(s);  

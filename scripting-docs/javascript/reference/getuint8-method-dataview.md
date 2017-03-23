@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9fbf4be3-4c0b-4963-a7a1-d57f1501b4cf
 caps.latest.revision: 5
@@ -40,7 +41,7 @@ var testInt = dataView.getUint8(byteOffset);
 ## Example  
  The following example shows how to get the first Uint8 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

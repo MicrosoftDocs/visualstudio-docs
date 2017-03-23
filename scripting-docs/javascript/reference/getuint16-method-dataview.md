@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 3c0d9ad8-30b0-42a3-b0fe-aa805398c396
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ var testInt = dataView.getUint16(byteOffset, littleEndian);
 ## Example  
  The following example shows how to get the first Uint16 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

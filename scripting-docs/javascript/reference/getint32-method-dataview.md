@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 7a985681-ddb1-4c2b-815c-514c17392e82
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ var testInt = dataView.getInt32(byteOffset, littleEndian);
 ## Example  
  The following example shows how to get the first Int32 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

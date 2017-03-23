@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object.seal function"
@@ -26,7 +27,7 @@ Prevents the modification of attributes of existing properties, and prevents the
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.seal(object)  
 ```  
   
@@ -73,7 +74,7 @@ Object.seal(object)
 ## Example  
  The following example illustrates the use of the `Object.seal` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
 // Seal the object.  

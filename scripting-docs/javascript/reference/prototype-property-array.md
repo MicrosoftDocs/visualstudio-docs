@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 5fedf632-8316-4e5d-ab20-10e41aa4d9f8
 caps.latest.revision: 3
@@ -35,7 +36,7 @@ array.prototype
   
  For example, to add a method to the `Array` object that returns the value of the largest element of the array, declare the function, add it to `Array.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function array_max( ){  
     var i, max = this[0];  
     for (i = 1; i < this.length; i++)  

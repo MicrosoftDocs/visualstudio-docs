@@ -13,6 +13,7 @@ f1_keywords:
   - "slice"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "zero-based index"
@@ -52,7 +53,7 @@ arrayObj.slice(start, [end])
 ## Example  
  The following examples show how to use the `slice` method. In the first example, all but the last element of `myArray` is copied into `newArray`. In the second example, only the last two elements of `myArray` are copied into `newArray`.  
   
-```javascript  
+```JavaScript  
 var origArray = [3, 5, 7, 9];  
 var newArray = origArray. slice(0, -1);  
 document.write(origArray);  

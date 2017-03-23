@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b67ca875-23c6-4687-a5ce-1cdd25d1c923
 caps.latest.revision: 2
@@ -41,7 +42,7 @@ boolean.constructor([[value])
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var x = new Boolean("true");  
   
 if (x.constructor == Boolean)  

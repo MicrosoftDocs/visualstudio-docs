@@ -73,7 +73,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 |mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |namespace|Creates a [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration.|Inside a namespace (including the global namespace).|  
 |prop|Creates an [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|  
-ropfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
+propfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
 |propg|Creates a read-only [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) with a private "set" accessor.|Inside a class or a struct.|  
 |sim|Creates a [static](/dotnet/csharp/language-reference/keywords/static)[int](/dotnet/csharp/language-reference/keywords/int) Main method declaration.|Inside a class or a struct.|  
 |struct|Creates a [struct](/dotnet/csharp/language-reference/keywords/struct) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  

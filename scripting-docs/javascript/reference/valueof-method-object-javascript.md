@@ -13,6 +13,7 @@ f1_keywords:
   - "valueOf"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "valueOf method"

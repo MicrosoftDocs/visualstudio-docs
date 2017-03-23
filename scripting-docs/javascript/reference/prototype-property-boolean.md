@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: e4f07cb5-3462-488c-a418-76064ab10eae
 caps.latest.revision: 3
@@ -35,7 +36,7 @@ boolean.prototype
   
  For example, to add a method to the `Boolean` object that returns the value of the largest element of the array, declare the function, add it to `Boolean.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function isFalse( ){  
     if (this.toString() == "false")  
          return true;  

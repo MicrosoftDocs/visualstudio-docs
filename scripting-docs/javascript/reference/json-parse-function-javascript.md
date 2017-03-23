@@ -13,6 +13,7 @@ f1_keywords:
   - "JSON.parse"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "parse JSON method"
@@ -55,7 +56,7 @@ JSON.parse(text [, reviver])
   
      For example, if the response is in JSONP format instead of pure JSON, try this code on the response object:  
   
-    ```javascript  
+    ```JavaScript  
     var fixedResponse = response.responseText.replace(/\\'/g, "'");  
     var jsonObj = JSON.parse(fixedResponse);  
     ```  
@@ -67,7 +68,7 @@ JSON.parse(text [, reviver])
 ## Example  
  The following example uses `JSON.parse` to convert a JSON string to an object.  
   
-```javascript  
+```JavaScript  
 var jsontext = '{"firstname":"Jesper","surname":"Aaberg","phone":["555-0100","555-0120"]}';  
 var contact = JSON.parse(jsontext);  
 document.write(contact.surname + ", " + contact.firstname);  
@@ -80,7 +81,7 @@ document.write(contact.phone[1]);
 ## Example  
  The following example converts an array to a JSON string by using `JSON.stringify`, and then converts the string back to an array by using `JSON.parse`.  
   
-```javascript  
+```JavaScript  
 var arr = ["a", "b", "c"];  
 var str = JSON.stringify(arr);  
 document.write(str);  
@@ -102,7 +103,7 @@ while (newArr.length > 0) {
 ## Example  
  The `reviver` function is often used to transform JSON representation of International Organization for Standardization (ISO) date strings into Coordinated Universal Time (UTC) format `Date` objects. This example uses `JSON.parse` to deserialize an ISO-formatted date string. The `dateReviver` function returns `Date` objects for members that are formatted like ISO date strings.  
   
-```javascript  
+```JavaScript  
 var jsontext = '{ "hiredate": "2008-01-01T12:00:00Z", "birthdate": "2008-12-25T12:00:00Z" }';  
 var dates = JSON.parse(jsontext, dateReviver);  
 document.write(dates.birthdate.toUTCString());  

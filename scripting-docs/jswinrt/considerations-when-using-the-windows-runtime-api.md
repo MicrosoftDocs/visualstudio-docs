@@ -66,7 +66,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
      Here is how you can call the above code in JavaScript.  
   
-    ```javascript  
+    ```JavaScript  
     var example = new ExampleObject();  
     example["CollisionExample.InterfaceA.draw"](12);  
     example["CollisionExample.InterfaceB.draw"]("hello");  
@@ -83,7 +83,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
      The JavaScript version of this signature is:  
   
-    ```javascript  
+    ```JavaScript  
     var returnValue = exampleMethod();  
   
     ```  
@@ -92,7 +92,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
 -   Static members: The Windows Runtime defines both static members and instance members. In JavaScript, static members are added to the object that is associated with the Windows Runtime class or interface.  
   
-    ```javascript  
+    ```JavaScript  
     // Static method.   
     var accel = Windows.Devices.Sensors.Accelerometer.getDefault();   
     // Instance method.   

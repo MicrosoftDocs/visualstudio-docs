@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: fa82c562-0ebf-4559-aecc-166e59f7fb64
 caps.latest.revision: 14
@@ -27,7 +28,7 @@ You can use typed arrays to handle binary data from sources such as network prot
 > [!TIP]
 >  For more information about using different response types with an `XmlHttpRequest`, see [XMLHttpRequest.responseType](http://msdn.microsoft.com/en-us/8d7738d1-4bfd-4cf1-8015-174def089556), [XMLHttpRequest enhancements](http://msdn.microsoft.com/en-us/be09137c-6546-441b-b953-dcbf72b77069), and [Downloading different types of content (Windows Store apps)](http://msdn.microsoft.com/en-us/c0006bbd-17f9-4c6a-af81-2acaf109111d).  
   
-```javascript  
+```JavaScript  
 ...  
 <div id="xhrDiv"></div>  
 ...  

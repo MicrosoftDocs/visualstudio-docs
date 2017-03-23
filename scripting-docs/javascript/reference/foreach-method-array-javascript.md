@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "forEach method [JavaScript]"
@@ -76,7 +77,7 @@ array1.forEach(callbackfn[, thisArg])
 ## Example  
  The following example illustrates use of the `forEach` method.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function ShowResults(value, index, ar) {  
     document.write("value: " + value);  
@@ -100,7 +101,7 @@ letters.forEach(ShowResults);
 ## Example  
  In the following example, the `callbackfn` argument includes the code of the callback function.  
   
-```javascript  
+```JavaScript  
 // Create an array.  
 var numbers = [10, 11, 12];  
   
@@ -118,7 +119,7 @@ document.write(sum);
 ## Example  
  The following example illustrates the use of the `thisArg` argument, which specifies an object that can be referred to with the `this` keyword.  
   
-```javascript  
+```JavaScript  
 // Define the object that contains the callback function.  
 var obj = {  
     showResults: function(value, index) {  

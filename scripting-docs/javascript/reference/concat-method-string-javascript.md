@@ -13,6 +13,7 @@ f1_keywords:
   - "concat"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "concat method (String)"
@@ -46,7 +47,7 @@ string1. concat([string2[, string3[, . . . [, stringN]]]])
 ## Example  
  The following example illustrates the use of the `concat` method when used with a string:  
   
-```javascript  
+```JavaScript  
 var str1 = "ABCD"  
 var str2 = "EFGH";  
 var str3 = "1234";  

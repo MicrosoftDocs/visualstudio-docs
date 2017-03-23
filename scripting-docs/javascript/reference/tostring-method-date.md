@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d3037289-d805-409b-8781-045c59a2c404
 caps.latest.revision: 3
@@ -40,7 +41,7 @@ date.toString()
 ## Example  
  The following example illustrates the use of the `toString` method with a date.  
   
-```javascript  
+```JavaScript  
 var myDate = new Date();  
 myDate.setFullYear(2100, 5, 5);  
 var dateString = myDate.toString();  

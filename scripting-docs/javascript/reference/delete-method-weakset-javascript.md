@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 19e93366-7d42-4abf-b7b9-fcf943fa17a3
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Removes the specified element from a `WeakSet`.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weaksetObj.delete(obj)  
 ```  
   
@@ -40,7 +41,7 @@ weaksetObj.delete(obj)
 ## Example  
  The following example shows how to add and delete elements of a `WeakSet`.  
   
-```javascript  
+```JavaScript  
 var ws = new WeakSet();  
   
 var str = new String("Thomas Jefferson");  

@@ -18,8 +18,8 @@ translation.priority.ht:
 
     |Version|Link|Notes|
     |-|-|-|
-    |Visual Studio 2017 RC|[Remote Tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017-rc)|Always download the version matching your device operating system (x86, x64, or  ARM version)|
-    |Visual Studio 2015 Update 3|[Remote tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015-update-3)|Always download the version matching your device operating system (x86, x64, or  ARM version)|
+    |Visual Studio 2017|[Remote Tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017)|Always download the version matching your device operating system (x86, x64, or  ARM version)|
+    |Visual Studio 2015 Update 3|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group or you can just sign in with a valid Visual Studio subscription. Then re-open the link if necessary.|
     |Visual Studio 2015 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group or you can just sign in with a valid Visual Studio subscription. Then re-open the link if necessary.|
     |Visual Studio 2013|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
     |Visual Studio 2012|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|

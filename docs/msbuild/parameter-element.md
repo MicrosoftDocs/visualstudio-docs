@@ -13,7 +13,8 @@ dev_langs:
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords:
+  - "xml"
+helpviewer_keywords: 
   - "Parameter element [MSBuild]"
   - "<Parameter> element [MSBuild]"
 ms.assetid: b273afff-b500-4e97-8cfd-31f39fa64a51

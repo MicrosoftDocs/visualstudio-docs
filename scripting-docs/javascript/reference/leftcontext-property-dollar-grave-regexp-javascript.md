@@ -13,6 +13,7 @@ f1_keywords:
   - "$`"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "leftContext property ($`)"
@@ -40,7 +41,7 @@ RegExp.leftContext
 ## Example  
  The following example illustrates the use of the `leftContext` property:  
   
-```javascript  
+```JavaScript  
 // Create the regular expression pattern.  
 var re = new RegExp("d(b+)(d)","ig");  
 var str = "cdbBdbsbdbdz";  
