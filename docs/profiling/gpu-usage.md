@@ -43,7 +43,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
     > [!NOTE]
     >  For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
   
- For more information about Graphics Diagnostics requirements, see [Getting Started](getting-started-with-visual-studio-graphics-diagnostics.md).  
+ For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md).  
   
 ## Using the GPU Usage tool  
  When you run your app under the GPU Usage tool, Visual Studio creates a diagnostic session that graphs high-level information about your app’s rendering performance and GPU utilization in real-time.  
