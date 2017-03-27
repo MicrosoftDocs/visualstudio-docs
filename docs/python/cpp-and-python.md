@@ -1,7 +1,7 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/13/2017"
+ms.date: "3/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,6 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7dbda92-21bf-4af0-bb34-29b8bf231f32
+description: The process amd steps to write a C++ extension or module for Python in Visual Studio
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -34,7 +35,7 @@ translation.priority.ht:
 Modules written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter as well as to enable access to low-level operating system capabilities. There are three primary types of modules:
 
 - Accelerator modules: because Python is an interpreted language, certain pieces of code can be written in C++ for higher performance. 
-- Wrapper modules: expose existing C/C++ interfaces to Python code or expose a more “Pythonic” API that makes use of Python language features to make the API easier to use.
+- Wrapper modules: expose existing C/C++ interfaces to Python code or expose a more "Pythonic" API that makes use of Python language features to make the API easier to use.
 - Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
 
 This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. To demonstrate the performance difference, you'll create and test the routine first in Python.
@@ -283,4 +284,3 @@ There are other means to create Python extensions as described in the table belo
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | Cython | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax and toolchain. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](http://pypy.org/) | Ease of integration, PyPy compatibility. | New, less mature. |
-
