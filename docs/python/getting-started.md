@@ -225,6 +225,8 @@ In addition to managing projects, providing a rich editing experience, and the i
     > if __name__ == "__main__":  
     >     sys.exit(int(main() or 0))      
     > ```
+    > 
+    > Alternately, if you ever encounter situations where the output window closes automatically when you don't want it to, right-click the project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This will cause the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
 1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
 
