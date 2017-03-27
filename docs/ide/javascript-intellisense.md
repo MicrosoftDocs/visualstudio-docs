@@ -55,7 +55,6 @@ For more information about the general IntelliSense functionality of [!INCLUDE[v
 
 ## What's New in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
-- Richer IntelliSense
 
     JavaScript IntelliSense in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] will now display a lot more information on parameter and member lists.
 This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
@@ -63,14 +62,11 @@ TypeScript uses several sources to build up this information.
     - [IntelliSense based on type inference](#TypeInference)
     - [IntelliSense based on JSDoc](#JsDoc)
     - [IntelliSense based on TypeScript Declaration Files](#TSDeclFiles)
-
-- [Automatic acquisition of type definitions](#Auto)
-- [Support for ES6 and beyond](#ES6)
-- [JSX syntax support](#JSX)
+    - [Automatic acquisition of type definitions](#Auto)
 
 ## <a name="TypeInference"></a>IntelliSense based on type inference
 In JavaScript, most of the time there is no explicit type information available. 
-Luckily, it is usually fairly easy to deduce a type given the surrounding code context.
+Luckily, it is usually fairly easy to figure out a type given the surrounding code context.
 This process is called type inference.
 
 For a variable or property, the type is typically the type of the value used to initialize it or the most recent value assignment. 
@@ -154,96 +150,4 @@ Currently auto-detection works for dependencies downloaded from npm (by reading 
 
 If you do not wish to use auto-acquisition, disable it by adding a configuration file as outlined below. You can still place definition files for use directly within your project manually.
 
-## <a name="ES6"></a> Support for ES6 and beyond
 
-ES6, or ECMAScript 2015, is the next version of JavaScript. It brings new syntax to the language such as classes, arrow functions, `let`/`const`, and more. All of this new syntax is supported in Visual Studio.
-
-One of the key features TypeScript provides is the ability to use ES6 features, and emit code that can execute in JavaScript runtimes that don't yet understand those newer features. This is commonly known as "transpiling". Because JavaScript uses the same language service, it too can take advantage of ES6+ to ES5 transpilation.
-
-Before this can be set up, some understanding of the configuration options is required.  TypeScript is configured via a `tsconfig.json` file. In the absence of such a file, some default values are used. For compatibility reasons, these defaults are different in a context where only JavaScript files (and optionally `.d.ts` files) are present. To compile JavaScript files, a `tsconfig.json` file must be added, and some of these defaults must then be set explicitly.
-
-The required settings for the tsconfig file are outlined below:
-
- - `allowJs`: This value must be set to `true` for JavaScript files to be recognized.
-By default this is `false`, as TypeScript compiles to JavaScript, and this is necessary to avoid the compiler including files it just compiled.
- - `outDir`: This should be set to a location not included in the project, in order that the emitted JavaScript files are not detected and then included in the project (see `exclude` below).
- - `module`: If using modules, this setting tells the compiler which module format the emitted code should use (e.g. `commonjs` for Node or bundlers such as Browserify).
- - `exclude`: This setting states which folders not to include in the project. 
- The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
- - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined above.
- - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
-
-In order to convert JavaScript files to CommonJS modules in an `./out` folder, settings
-similar to the below might be included in a `tsconfig.json` file.
-
-```json
-{
-  "compilerOptions": {
-    "module": "commonjs",
-    "allowJs": true,
-    "outDir": "out"
-  },
-  "exclude": [
-    "node_modules",
-    "wwwroot",
-    "out"
-  ],
-  "compileOnSave": true,
-  "typingOptions": {
-    "enableAutoDiscovery": true
-  }
-}
-```
-
-With the above settings in place, if a source file (`./app.js`) existed which contains several ECMAScript 2015 language features as shown below:
-
-```js
-import {Subscription} from 'rxjs/Subscription';
-
-class Foo {
-    sayHi(name) {
-        return `Hi ${name}, welcome to Salsa!`;
-    }
-}
-
-export let sqr = x => x * x;
-export default Subscription;
-```
-
-Then a file would be emitted to `./out/app.js` targeting ECMAScript 5 (the default) that looks something like the below:
-
-```js
-"use strict";
-var Subscription_1 = require('rxjs/Subscription');
-var Foo = (function () {
-    function Foo() {
-    }
-    Foo.prototype.sayHi = function (name) {
-        return "Hi " + name + ", welcome to Salsa!";
-    };
-    return Foo;
-}());
-exports.sqr = function (x) { return x * x; };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = Subscription_1.Subscription;
-//# sourceMappingURL=app.js.map
-```
-
-## <a name="JSX"></a> JSX syntax support
-
-JavaScript in Visual Studio 2017 has rich support for the JSX syntax. JSX is a syntax set that allows HTML tags within JavaScript files. 
-
-The illustration below shows a React component defined in the `comps.tsx` TypeScript file, and then this component being used from the `app.jsx` file, complete with IntelliSense for completions and documentation within the JSX expressions.
-You don't need TypeScript here, this specific example just happens to contain some TypeScript code as well.
-<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/react.png" height="500" width="640"/>
-
-> [!NOTE]
-> To convert the JSX syntax to React calls, the setting `"jsx": "react"` must be added to the `compilerOptions` in the `tsconfig.json` file outlined above.
-
-The JavaScript file created at `./out/app.js' upon build would contain the code:
-
-```js
-"use strict";
-var comps_1 = require('./comps');
-var x = React.createElement(comps_1.RepoDisplay, {description: "test"});
-```
