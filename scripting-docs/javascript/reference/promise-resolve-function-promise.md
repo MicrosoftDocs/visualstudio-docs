@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0fb6bff9-54ab-41be-97d7-04f7e6fe9cff
 caps.latest.revision: 6
@@ -36,7 +37,7 @@ Promise.resolve(x)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var p = Promise.resolve('success');  
 p.then(function(result) {  
     console.log(result);  

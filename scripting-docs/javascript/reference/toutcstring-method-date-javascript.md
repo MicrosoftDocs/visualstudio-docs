@@ -13,6 +13,7 @@ f1_keywords:
   - "toUTCString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "UTC dates, converting to strings"
@@ -41,7 +42,7 @@ dateObj.toUTCString()
 ## Example  
  The following example illustrates the use of the `toUTCString` method.  
   
-```javascript  
+```JavaScript  
 function toUTCStrDemo(){  
    var d, s;                   //Declare variables.  
    d = new Date();             //Create Date object.  

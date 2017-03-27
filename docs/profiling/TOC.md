@@ -1,5 +1,4 @@
-# [Profiling Tools](profiling-tools.md)
-## [Profiling Feature Tour](profiling-feature-tour.md)
+# [Profiling Feature Tour](profiling-feature-tour.md)
 ## [Beginner's Guide to Performance Profiling](beginners-guide-to-performance-profiling.md)
 ## [What's New in Profiling Tools](what-s-new-in-profiling-tools.md)
 ## [Run Profiling Tools With or Without the Debugger](running-profiling-tools-with-or-without-the-debugger.md)

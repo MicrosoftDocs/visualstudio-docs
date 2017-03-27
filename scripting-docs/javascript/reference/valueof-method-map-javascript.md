@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 52b66d02-b67f-4d50-9c83-36cae7ded072
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns the primitive value of the specified object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.valueOf()  
 ```  
   

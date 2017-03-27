@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "properties [JavaScript], preventing new"
@@ -28,7 +29,7 @@ Prevents the addition of new properties to an object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.preventExtensions(object)  
 ```  
   
@@ -67,7 +68,7 @@ Object.preventExtensions(object)
 ## Example  
  The following example illustrates the use of the `Object.preventExtensions` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
   

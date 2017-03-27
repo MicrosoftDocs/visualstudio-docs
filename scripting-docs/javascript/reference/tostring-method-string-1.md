@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 56178c6e-cb08-4b34-824c-f63505379952
 caps.latest.revision: 2
@@ -38,7 +39,7 @@ string.toString()
 ## Example  
  The following example illustrates the use of the **toString** method with a string.  
   
-```javascript  
+```JavaScript  
 var string = "this is a test";  
 var strStr = string.toString();  
 document.write(strStr);  

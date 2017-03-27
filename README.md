@@ -1,3 +1,8 @@
+## Microsoft Open Source Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 # Visual Studio 2017 documentation
 
 Welcome! This repo contains source files for the work-in-progress Visual Studio 2017 technical documentation. The topics are published on the [Visual Studio documentation site](https://docs.microsoft.com/visualstudio).

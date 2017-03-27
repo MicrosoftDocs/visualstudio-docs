@@ -13,6 +13,7 @@ f1_keywords:
   - "isFinite"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "finite numbers"

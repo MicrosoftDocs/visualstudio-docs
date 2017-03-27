@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 901c6cf5-63fb-45bd-9ea8-185c1d892060
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ dataView.setInt16(byteOffset, value, littleEndian);
 ## Example  
  The following example shows how to set the first Int16 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

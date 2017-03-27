@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ae78b3ee-b660-4625-ac7b-d414a0842c87
 caps.latest.revision: 15
@@ -78,7 +79,7 @@ uint8Array = new Uint8Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a Uint8Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

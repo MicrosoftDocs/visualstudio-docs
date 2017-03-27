@@ -13,6 +13,7 @@ f1_keywords:
   - "lbound"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "lbound method"
@@ -45,7 +46,7 @@ safeArray.lbound(dimension)
 ## Example  
  The following example consists of three parts. The first part is VBScript code to create a Visual Basic safe array. The second part is [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that determines the number of dimensions in the safe array and the lower bound of each dimension. Since the safe array is created in VBScript rather than Visual Basic, the lower bound will always be zero. Both of these parts go into the \<HEAD> section of an HTML page. The third part is the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that goes in the \<BODY> section to run the other two parts.  
   
-```javascript  
+```JavaScript  
 <head>  
 <script type="text/vbscript">  
 <!--  

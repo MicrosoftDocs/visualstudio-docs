@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a2609f6e-aeee-4c13-b7cf-c31ddf58ff35
 caps.latest.revision: 3
@@ -42,7 +43,7 @@ Object.setPrototypeOf(obj, proto);
 ## Example  
  The following code example shows how to set the prototype for an object.  
   
-```javascript  
+```JavaScript  
 function Rectangle() {  
 }  
   
@@ -58,7 +59,7 @@ if (console && console.log) {
 ## Example  
  The following code example shows how to add properties to an object by adding them to the prototype.  
   
-```javascript  
+```JavaScript  
 var proto = { y: 2 };  
   
 var obj = { x: 10 };  
@@ -77,7 +78,7 @@ if (console && console.log) {
 ## Example  
  The following code example adds properties to the `String` object by setting a new prototype on it.  
   
-```javascript  
+```JavaScript  
 var stringProp = { desc: "description" };  
   
 Object.getPrototypeOf(String, stringProp);  

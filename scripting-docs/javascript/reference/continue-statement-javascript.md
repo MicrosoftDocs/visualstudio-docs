@@ -13,6 +13,7 @@ f1_keywords:
   - "continue_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "do...while statement"
@@ -47,7 +48,7 @@ continue [label];
 ## Examples  
  In this example, a loop iterates from 1 through 9. The statements between `continue` and the end of the `for` body are skipped because of the use of the `continue` statement together with the expression `(i < 5)`.  
   
-```javascript  
+```JavaScript  
 for (var i = 1; i < 10; i++) {  
     if (i < 5) {  
         continue;  
@@ -61,7 +62,7 @@ for (var i = 1; i < 10; i++) {
   
  In the following code, the `continue` statement refers to the `for` loop that is preceded by the `Inner:` label. When `j` is 24, the `continue` statement causes that `for` loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.  
   
-```javascript  
+```JavaScript  
 Outer:  
 for (var i = 1; i <= 10; i++) {  
     document.write ("<br />");  

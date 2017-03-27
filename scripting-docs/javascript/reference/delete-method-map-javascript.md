@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a073e1a1-5862-485b-b2bd-26c66a3aff51
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Removes the specified element from a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.delete(key)  
 ```  
   
@@ -40,7 +41,7 @@ mapObj.delete(key)
 ## Example  
  The following example shows how to add members to a `Map` and then delete one of them.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b294262b-3f4b-4183-a292-5a6982cbdd27
 caps.latest.revision: 5
@@ -40,7 +41,7 @@ dataView.setUint8(byteOffset, value);
 ## Example  
  The following example shows how to set the first Uint8 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

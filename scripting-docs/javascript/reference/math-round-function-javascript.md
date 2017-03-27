@@ -13,6 +13,7 @@ f1_keywords:
   - "round"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Round method"

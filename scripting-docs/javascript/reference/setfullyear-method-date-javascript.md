@@ -13,6 +13,7 @@ f1_keywords:
   - "setFullYear"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Year method"
@@ -59,7 +60,7 @@ dateObj.setFullYear(numYear[, numMonth[, numDate]])
 ## Example  
  The following example illustrates the use of the `setFullYear` method:  
   
-```javascript  
+```JavaScript  
 var date1 = new Date("1/1/2001");  
 date1.setFullYear(2007);  
   

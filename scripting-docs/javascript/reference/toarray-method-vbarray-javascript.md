@@ -13,6 +13,7 @@ f1_keywords:
   - "toArray"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toArray method"
@@ -44,7 +45,7 @@ safeArray.toArray( )
 ## Example  
  The following example consists of three parts. The first part is VBScript code to create a Visual Basic safe array. The second part is [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that converts the Visual Basic safe array to a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] array. Both of these parts go into the \<HEAD> section of an HTML page. The third part is the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that goes in the \<BODY> section to run the other two parts.  
   
-```javascript  
+```JavaScript  
 <head>  
 <script type="text/vbscript">  
 <!--  

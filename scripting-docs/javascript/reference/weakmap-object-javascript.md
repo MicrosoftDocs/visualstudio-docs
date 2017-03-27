@@ -13,6 +13,7 @@ f1_keywords:
   - "WeakMap"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 4682d2dc-caf9-4fa8-8313-a0a0b804fd1d
 caps.latest.revision: 9
@@ -60,7 +61,7 @@ weakmapObj = new WeakMap()
 ## Example  
  The following example shows how to add members to a `WeakMap` object and then retrieve them.  
   
-```javascript  
+```JavaScript  
 var dog = {  
     breed: "yorkie"  
 }  

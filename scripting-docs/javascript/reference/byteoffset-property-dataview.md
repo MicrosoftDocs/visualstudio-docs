@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 3b3e68bc-1476-4a32-a18d-6efa375bce0f
 caps.latest.revision: 6
@@ -23,14 +24,14 @@ Read-only. The offset of this view from the start of its ArrayBuffer, in bytes, 
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayOffset = dataView.byteOffset;  
 ```  
   
 ## Example  
  The following example shows how to get the length of a DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

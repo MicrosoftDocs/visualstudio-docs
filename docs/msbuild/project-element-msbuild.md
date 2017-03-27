@@ -1,7 +1,7 @@
 ---
 title: "Project Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/21/2017"
+ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -44,7 +44,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 ## Syntax  
 
-```xml  
+```  
 <Project InitialTargets="TargetA;TargetB"  
          DefaultTargets="TargetC;TargetD"  
          TreatAsLocalProperty="PropertyA;PropertyB"  

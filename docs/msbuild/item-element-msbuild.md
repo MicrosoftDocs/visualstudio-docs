@@ -1,7 +1,7 @@
 ---
 title: "Item Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/21/2017"
+ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -45,7 +45,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
 
 ## Syntax  
 
-```xml  
+```  
 <Item Include="*.cs"  
         Exclude="MyFile.cs"  
         Remove="RemoveFile.cs"  

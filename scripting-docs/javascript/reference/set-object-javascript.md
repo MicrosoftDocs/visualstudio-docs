@@ -13,6 +13,7 @@ f1_keywords:
   - "Set"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 4a4dd749-2a76-44fb-9cb0-a3ef317f75fb
 caps.latest.revision: 8
@@ -57,7 +58,7 @@ setObj = new Set()  
 ## Example  
  The following example shows how to add members to a set and then retrieve them.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

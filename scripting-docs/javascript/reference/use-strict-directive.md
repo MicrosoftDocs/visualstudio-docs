@@ -14,6 +14,7 @@ f1_keywords:
   - "use strict"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "strict mode"
@@ -30,7 +31,7 @@ Restricts the use of some features in JavaScript. Supported in Internet Explorer
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 use strict  
 ```  
   
@@ -39,7 +40,7 @@ use strict
 ## Example  
  The following code causes a syntax error because in strict mode all variables must be declared with `var`.  
   
-```javascript  
+```JavaScript  
 "use strict";  
 function testFunction(){  
    var testvar = 4;  

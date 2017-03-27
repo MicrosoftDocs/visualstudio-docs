@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: dca1cbf3-3c40-4d33-b83d-4195c66ceb05
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ The length of the array.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayLength = uint16Array.length;  
 ```  
   
 ## Example  
  The following example shows how to get the length of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

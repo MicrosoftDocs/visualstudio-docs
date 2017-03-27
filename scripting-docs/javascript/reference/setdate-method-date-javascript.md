@@ -13,6 +13,7 @@ f1_keywords:
   - "setDate"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "setDate method"
@@ -50,7 +51,7 @@ dateObj.setDate(numDate)
 ## Example  
  The following example shows how to use the `setDate` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("12/15/1990");  
 date.setDate(30);  
 document.write(date);  
