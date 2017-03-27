@@ -1,5 +1,5 @@
 ---
-title: "Create portable, custom editor settings | Microsoft Docs"
+title: "Create portable, custom editor settings with EditorConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"
 ms.reviewer: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Create portable, custom editor settings
+# Create portable, custom editor settings with EditorConfig
 Text editor settings in Visual Studio apply to all projects of a given type. So, for example, if you change a C# text editor setting, that setting applies to *all* C# projects in Visual Studio. However, in some cases, you may need to use conventions that differ from your own personal editor preferences. [EditorConfig](http://editorconfig.org/) files enable you to do this by providing common text editor options on a per-project basis. EditorConfig settings, which are contained in an .editorconfig file added to your codebase, supersede global Visual Studio text editor settings. This means that you can tailor each codebase to use the text editor settings you prefer. No plug-in is required to use this functionality in Visual Studio.
 
 ## Coding consistency
@@ -93,3 +93,6 @@ The following table lists the changes needed to update a language service to sup
 | Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs | !textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) or !textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) |
 | Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize | textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId) |
 | Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize | textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId) |
+
+# See Also
+[Create Portable Custom Editor Options with EditorConfig](create-portable-custom-editor-options.md)
