@@ -9,6 +9,7 @@ ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+pagetype: ContentPage
 f1_keywords:
   - "offline installation [Visual Studio]"
   - "offline install [Visual Studio]"
