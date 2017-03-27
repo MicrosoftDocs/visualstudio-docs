@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.htmldesigner.html"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "code, JavaScript syntax"
@@ -34,7 +35,7 @@ Like many other programming languages, [!INCLUDE[javascript](../javascript/inclu
   
  Here are two examples of [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] statements. The sentences after the // characters are *comments*, which are explanatory remarks in the program.  
   
-```javascript  
+```JavaScript  
 var aBird = "Robin"; // Assign the text "Robin" to the variable aBird.  
 var today = new Date(); // Assign today's date to the variable today.  
 ```  
@@ -45,7 +46,7 @@ var today = new Date(); // Assign today's date to the variable today.
   
  In the following example, the `else` clause contains a block of two statements surrounded by braces. The block is treated as a single statement. Also, the function itself consists of a block of statements surrounded by braces. The statements below the function are outside of the block and are therefore not part of the function definition.  
   
-```javascript  
+```JavaScript  
 function inchestometers(inches)  
    {  
    if (inches < 0)  
@@ -65,13 +66,13 @@ document.write("the value in meters is " + meters);
 ## Comments  
  A single-line [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] comment begins with a pair of forward slashes (//). Here is an example of a single line comment.  
   
-```javascript  
+```JavaScript  
 var aGoodIdea = "Comment your code thoroughly."; // This is a single-line comment.  
 ```  
   
  A multiline [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] comment begins with a forward slash and asterisk (/*), and ends with the reverse (\*/).  
   
-```javascript  
+```JavaScript  
 /*  
 This is a multiline comment that explains the preceding code statement.  
   
@@ -88,7 +89,7 @@ of the literal.
   
  It is recommended that you write all your comments as blocks of single-line comments. This allows you to comment out large segments of code with a multiline comment later.  
   
-```javascript  
+```JavaScript  
 // This is another multiline comment, written as a series of single-line comments.  
 // After the statement is executed, you can refer to the content of the   
 // aGoodIdea variable by using its name.  
@@ -106,7 +107,7 @@ var extendedIdea = aGoodIdea + " You never know when you'll have to figure out w
   
  The right operand of the = operator is always an Rvalue. Rvalues can be an arbitrary value of any type, including the value of an expression. Here is an example of a [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] assignment statement.  
   
-```javascript  
+```JavaScript  
 var anInteger = 3;  
 ```  
   
@@ -117,7 +118,7 @@ var anInteger = 3;
 ## Expressions  
  A [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] expression value can be of any valid [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] type - a number, a string, an object, and so on. The simplest expressions are literals. Here are some examples of [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] literal expressions.  
   
-```javascript  
+```JavaScript  
 3.9                       // numeric literal  
 "Hello!"                  // string literal  
 false                     // boolean literal  
@@ -131,7 +132,7 @@ function(x){return x*x;}  // function literal
   
  Here are some examples of [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] complex expressions.  
   
-```javascript  
+```JavaScript  
 var anExpression = 3 * (4 / 5) + 6;  
 var aSecondExpression = Math.PI * radius * radius;  
 var aThirdExpression = aSecondExpression + "%" + anExpression;  

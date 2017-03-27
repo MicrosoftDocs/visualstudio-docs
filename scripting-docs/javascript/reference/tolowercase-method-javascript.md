@@ -13,6 +13,7 @@ f1_keywords:
   - "toLowerCase"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLowerCase method"
@@ -38,7 +39,7 @@ Converts all the alphabetic characters in a string to lowercase.
   
  The following example demonstrates the effects of the `toLowerCase` method:  
   
-```javascript  
+```JavaScript  
 var str1 = "This is a STRING.";  
 var str2 = str1. toLowerCase();  
 document.write(str2);  

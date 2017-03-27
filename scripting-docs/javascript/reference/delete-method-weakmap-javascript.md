@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 7d54ae55-e514-45ba-b403-d1eee46837d2
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Removes the specified element from a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.delete(key)  
 ```  
   
@@ -40,7 +41,7 @@ weakmapObj.delete(key)
 ## Example  
  The following example shows how to add a member to a `WeakMap` and then delete it.  
   
-```javascript  
+```JavaScript  
 function Dog(breed) {  
     this.breed = breed;  
 }  

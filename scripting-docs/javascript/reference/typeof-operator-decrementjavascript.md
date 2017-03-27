@@ -13,6 +13,7 @@ f1_keywords:
   - "typeof_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "typeof operator"
@@ -42,7 +43,7 @@ typeof[(]expression[)] ;
 ## Example  
  The following example tests the data type of variables.  
   
-```javascript  
+```JavaScript  
 var index = 5;  
 var result = (typeof index === 'number');  
 // Output: true  
@@ -55,7 +56,7 @@ var result = (typeof description === 'string');
 ## Example  
  The following example tests for a data type of `undefined` for declared and undeclared variables.  
   
-```javascript  
+```JavaScript  
 var declared;  
 var result = (declared === undefined);  
 // Output: true  

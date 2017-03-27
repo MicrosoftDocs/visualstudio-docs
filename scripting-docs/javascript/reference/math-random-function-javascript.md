@@ -13,6 +13,7 @@ f1_keywords:
   - "random"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "psuedorandom numbers"

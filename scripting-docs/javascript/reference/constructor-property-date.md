@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 5db153a1-788b-4a61-bfc8-2d2ec38f36ea
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ date.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var x = new Date("Hi");  
   
 if (x.constructor == Date)  

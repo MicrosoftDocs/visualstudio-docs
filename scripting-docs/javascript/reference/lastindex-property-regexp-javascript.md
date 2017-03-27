@@ -13,6 +13,7 @@ f1_keywords:
   - "lastIndex"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "lastIndex property"
@@ -52,7 +53,7 @@ RegExp.lastIndex
 ## Example  
  The following example illustrates the use of the `lastIndex` property. This function iterates a search string and prints out the **index** and `lastIndex` values for each word in the string.  
   
-```javascript  
+```JavaScript  
 function RegExpTest()  
 {  
    var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())  

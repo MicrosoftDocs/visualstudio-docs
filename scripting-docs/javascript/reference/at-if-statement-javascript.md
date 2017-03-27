@@ -13,6 +13,7 @@ f1_keywords:
   - "@if_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "elif statement"
@@ -74,7 +75,7 @@ Conditionally executes a group of statements, depending on the value of an expre
 ## Example  
  The following example illustrates the use of the **@if...@elif…@else...@end** statement.  
   
-```javascript  
+```JavaScript  
 /*@cc_on @*/  
 /*@  
     document.write("JavaScript version: " + @_jscript_version + ".");  

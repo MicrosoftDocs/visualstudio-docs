@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d28b8a9b-38c9-443d-9586-7cc74784bd99
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmap.prototype  
 ```  
   

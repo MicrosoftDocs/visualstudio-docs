@@ -13,6 +13,7 @@ f1_keywords:
   - "ceil"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ceil method"

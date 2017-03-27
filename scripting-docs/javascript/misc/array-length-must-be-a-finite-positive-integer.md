@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5029"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1a467040-4702-4178-848f-418a5974e907
 caps.latest.revision: 8
@@ -27,13 +28,13 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
 -   Use positive integers only when creating a new `Array` object. If you want to create an array with a single element that is not an integer, do it in a two-step process. First create an array with one element, then place the value in the first element (array[0]). The following is an example that generates this error.  
   
-    ```javascript  
+    ```JavaScript  
     var piArray = new Array(3.14159);  
     ```  
   
      The following example demonstrates the correct way to specify an array with a single numeric element.  
   
-    ```javascript  
+    ```JavaScript  
     var piArray = new Array(1);  
     piArray [0] = 3.14159;  
     ```  

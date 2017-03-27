@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript], indexOf method"
@@ -54,7 +55,7 @@ array1.indexOf(searchElement[, fromIndex])
 ## Example  
  The following examples illustrate the use of the `indexOf` method.  
   
-```javascript  
+```JavaScript  
 // Create an array. (The elements start at index 0.)  
 var ar = ["ab", "cd", "ef", "ab", "cd"];  
   

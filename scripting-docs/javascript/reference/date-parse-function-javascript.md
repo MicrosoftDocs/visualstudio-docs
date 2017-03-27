@@ -13,6 +13,7 @@ f1_keywords:
   - "parse"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "parse function [JavaScript]"
@@ -40,7 +41,7 @@ Date.parse(dateVal)
 ## Example  
  The following example illustrates the use of the `Date.parse` function.  
   
-```javascript  
+```JavaScript  
 var dateString = "November 1, 1997 10:15 AM";  
 var mSec = Date.parse(dateString);  
 document.write(mSec);  
@@ -50,7 +51,7 @@ document.write(mSec);
 ## Example  
  The following example returns the difference between the date provided and 1/1/1970.  
   
-```javascript  
+```JavaScript  
 var minMilli = 1000 * 60;  
 var hrMilli = minMilli * 60;  
 var dyMilli = hrMilli * 24;  

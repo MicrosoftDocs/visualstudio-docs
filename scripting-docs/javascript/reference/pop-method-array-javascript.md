@@ -13,6 +13,7 @@ f1_keywords:
   - "pop"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Pop method"
@@ -42,7 +43,7 @@ arrayObj.pop( )
 ## Example  
  The following example illustrates the use of the `pop` method.  
   
-```javascript  
+```JavaScript  
 var number;  
 var my_array = new Array();  
   

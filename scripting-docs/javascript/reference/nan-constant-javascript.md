@@ -13,6 +13,7 @@ f1_keywords:
   - "NaN Property"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "NaN property"

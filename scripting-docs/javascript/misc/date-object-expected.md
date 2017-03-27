@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5006"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d6ab82e6-ca64-46b4-a06c-5c6b0aa057cb
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ manager: "ghogen"
 # Date object expected
 You attempted to invoke the **Date.prototype.toString** or **Date.prototype.valueOf** method on an object of a type other than `Date`. The object of this type of invocation must be of type `Date`. For example:  
   
-```javascript  
+```JavaScript  
 var o = new Object;  
 o.f = Date.prototype.toString;  
 o.f();  

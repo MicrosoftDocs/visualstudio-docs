@@ -13,6 +13,7 @@ f1_keywords:
   - "Write"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "write method [JavaScript]"
@@ -49,7 +50,7 @@ Debug.write([str1 [, str2 [, ... [, strN]]]])
 >   
 >  Internet Explorer 8 includes the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] debugger. If you are using an earlier version of Internet Explorer, see [How to: Enable and Start Script Debugging from Internet Explorer](http://go.microsoft.com/fwlink/?LinkId=133801).  
   
-```javascript  
+```JavaScript  
 var counter = 42;  
 Debug.write("The value of counter is " + counter);  
 ```  
