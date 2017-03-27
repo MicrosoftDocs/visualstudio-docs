@@ -24,7 +24,7 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
  The following diagram shows a simplified view of  the basic architecture:  
   
- ![ADO.NET Architecture](../data-tools/media/raddata-ado.net-architecture-diagram.png "raddata ADO.NET Architecture Diagram")  
+ ![ADO.NET Architecture](../data-tools/media/raddata-ado-net-architecture-diagram.png "raddata ADO.NET Architecture Diagram")  
   
  The typical workflow is this:  
   
