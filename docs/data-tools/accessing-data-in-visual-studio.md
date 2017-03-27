@@ -60,7 +60,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
   
 ||||  
 |-|-|-|  
-|SQL Server 2005–2016, including Express and LocalDB|Firebird|MariaDB|  
+|SQL Server 2005–2016,  including Express and LocalDB|Firebird|MariaDB|  
 |MySQL|Oracle|PostgreSQL|  
 |SQLite|||  
   
