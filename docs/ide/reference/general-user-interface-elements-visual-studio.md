@@ -67,6 +67,9 @@ This section describes some user interface elements of the integrated developmen
   
  [Options, Text Editor, C/C++, Advanced](../../ide/reference/options-text-editor-c-cpp-advanced.md)  
  Allows you to specify advanced options for C or C++ files.  
+
+[Options, Text Editor, C/C++, Advanced](../../ide/reference/options-text-editor-c-cpp-experimental.md)  
+ Allows you to specify experimental options for C or C++ files. These options are here for you to try and provide feedback on. They may be removed from the product at a later date, or incorporated into the product under a different name. 
   
  [Options, Text Editor, C#, Formatting](../../ide/reference/options-text-editor-csharp-formatting.md)  
  Allows you to specify formatting options for C# files.  
