@@ -78,9 +78,9 @@ After taking steps to resolve an issue detailed here, and before trying again to
 
      If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
      
-     For information about deploying to IIS, see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
+     For information about deploying to IIS, see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
 
-* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
+* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
 
 * Create a basic ASP.NET application on the server.
 
