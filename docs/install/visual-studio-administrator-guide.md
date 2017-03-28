@@ -35,22 +35,39 @@ translation.priority.mt:
 ---
 # Visual Studio administrator guide for Visual Studio 2017
 
-You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). You can create a network share by running the setup file with the --layout switch (as described on the [Create an Offline Installation of Visual Studio](create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share.   
+ You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). 
 
- Note that installations from a network share will “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+ Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+
+1. [Cache the Visual Studio product layout](create-an-offline-installation-of-visual-studio.md) to a network location.
+
+2. [Select the workloads and components](workload-and-component-ids.md) you want to install.
+https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-enterprise 
+
+3. [Build an installation script](use-command-line-parameters-to-install-visual-studio.md) using the selected items and other command line parameters to control the installation.
+
+4. Optionally, [apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md) as part of the installation script so that users don't need to activate the software separately.
+
+5. Use your deployment technology of choice to execute the script generated in the previous steps on your target developer workstations.
+
+6. Refresh your network location with the latest updates to Visual Studio by running the command you used in step 1 on a regular basis to add updated components. 
+
+> [!IMPORTANT]
+>  Note that installations from a network share will “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
 
 ## Tools
 
- We have several tools on offer to help you manage your Visual Studio installations:
+ We have made several tools available that will help you detect and manage installed Visual Studio instances on client machines:
 
-* [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples to help users interrogate the VS instances on their machines.
-* [VSWhere](https://github.com/microsoft/vswhere):  a C++ .exe that helps you find core Visual Studio tools.
-* [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): powerful PowerShell scripts for common setup-related administration tasks.
+* [VSWhere](https://github.com/microsoft/vswhere): a C++ executable that helps you find the location of core Visual Studio tools from an installed instance of Visual Studio.
+* [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
+* [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
+
+In addition, the [Setup Configuration API](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.setup.configuration.aspx) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
 
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
-* [Use Visual Studio workload and component IDs to customize your offline installation](workload-and-component-ids.md)
+* [Modify Visual Studio 2017](modify-visual-studio.md)
+* [Heath Stewart's blog articles on Visual Studio 2017 installation](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/)
 * [Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
