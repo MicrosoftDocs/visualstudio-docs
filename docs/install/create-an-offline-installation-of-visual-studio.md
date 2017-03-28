@@ -61,7 +61,7 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
 - For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
 
-For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline- installer) section on this page.
+For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline-installer) section on this page.
 
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
