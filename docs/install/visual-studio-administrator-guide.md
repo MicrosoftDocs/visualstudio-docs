@@ -42,7 +42,6 @@ translation.priority.mt:
 1. [Cache the Visual Studio product layout](create-an-offline-installation-of-visual-studio.md) to a network location.
 
 2. [Select the workloads and components](workload-and-component-ids.md) you want to install.
-https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-enterprise 
 
 3. [Build an installation script](use-command-line-parameters-to-install-visual-studio.md) using the selected items and other command line parameters to control the installation.
 
