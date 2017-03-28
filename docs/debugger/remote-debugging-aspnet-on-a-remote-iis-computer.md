@@ -107,7 +107,8 @@ Some required ports may already be opened depending on the exact versions of the
 
 1. To open a port on Windows Server, use **Control Panel / System and Security / Windows Firewall / Allow an app or feature through Windows Firewall**.
 
-    > [!NOTE] On an Azure VM, you open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80).
+    > [!NOTE]
+    > On an Azure VM, you open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80).
 
 2. Then choose **Advanced / Inbound Rules / New Rule / Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
