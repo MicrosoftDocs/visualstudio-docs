@@ -52,7 +52,8 @@ https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-e
 
 6. Refresh your network location with the latest updates to Visual Studio by running the command you used in step 1 on a regular basis to add updated components. 
 
- Note that installations from a network share will “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+> [!IMPORTANT]
+>  Note that installations from a network share will “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
 
 ## Tools
 
