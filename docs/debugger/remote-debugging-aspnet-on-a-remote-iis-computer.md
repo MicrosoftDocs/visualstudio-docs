@@ -40,7 +40,7 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 |Scenario|Notes|
 |-|-|-|
 |[Azure App Service](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-dotnet-get-started)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
-|[Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role)|If you want more control of the IIS configuration, you can install the IIS role on an Azure VM. To do this, first create an Azure VM, and then the steps are virtually the same as the steps described in this topic. Two of the steps are different for an Azure VM: [Connect to the VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#connect-to-the-virtual-machine-and-sign-in) by downloading and running the RDP file, and you must open ports in the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80) on the VM.|
+|[Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role)|If you want more control of the IIS configuration, you can install the IIS role on an Azure VM. To do this, first create an Azure VM, and then the steps are similar to the steps described in this topic. Three of the steps are different for an Azure VM: select an Azure VM publishing profile instead of an IIS publishing profile, [Connect to the VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#connect-to-the-virtual-machine-and-sign-in) by downloading and running the RDP file, and you must open ports in the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80) on the VM.|
 |[Windows Server](#bkmk_configureII)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
@@ -126,62 +126,13 @@ Some required ports may already be opened depending on the exact versions of the
 
 ## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
 
-If you installed Web Deploy using the Web Platform Installer, you can deploy the app directly from Visual Studio.
-
-1. Start Visual Studio with elevated privileges, and re-open the project.
-
-    In some cases, this may be required to deploy your app using Web Deploy.
-
-2. In the **Solution Explorer**,  right-click the project node and select **Publish**.
-
-3. For **Select a publish target**, select **IIS, FTP, etc** and click **Publish**.
-
-    ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_iis_profile.png "RemoteDBG_Publish_IIS")
-
-4. Enter the correction configuration parameters for your IIS setup.
-
-    ![RemoteDBG_Publish_WebDeployl](../debugger/media/remotedbg_iis_webdeploy_config.png "RemoteDBG_Publish_WebDeploy")
-
-    If a host name doesn't resolve when you try to validate in the next step in the **Server** text box, try the IP address. Make sure you use port 80 in the **Server** text box, and make sure that port 80 is open in the firewall. (Web Deploy also requires port 8172 to be open on the server.)
-
-6. Click **Next**, choose a **Debug** configuration, and choose **Remove additional files at destination** under the **File Publish** options.
-
-5. Click **Prev**, and then choose **Validate**. If the connection setup validates, you can try to publish.
-
-6. Click **Publish** to publish the app.
-
-    The Output tab will show you if publishing is successful.
-
-    If you get an error mentioning Web Deploy, recheck the Web Deploy [installation steps](#BKMK_install_webdeploy) and make sure the correct ports are open.
-
-7. Once you publish successfully, go to the Windows Server machine and verify that you can run the app correctly by opening the app in your browser.
-
-    If the app deploys but doesn't run correctly, there may be an issue with your IIS configuration, your ASP.NET installation, or your Web site configuration. Recheck earlier steps.
+[!INCLUDE [remote-debugger-deploy-app-web-deploy](../debugger/includes/remote-debugger-deploy-app-web-deploy.md)]
 
 ## (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
 You can also publish and deploy the app using the file system or other tools.
 
-1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
-2. For **Select a publish target**, select **Custom** and name the profile **MyASPApp**. Click **Next**.
-3. On the **Connection** tab, set the **Publish method** field to **File System** and  the **Target location** field to a local directory. Click **Next**.
-
-    ![RemoteDBG_Publish_Local](../debugger/media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
-
-4. Set the configuration to **Debug**. Click **Publish**.
-
-    ![RemoteDBG_Publish_Debug_Config](../debugger/media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
-    
-    The application should be published to the local directory.
-
-5. Copy the ASP.NET project directory from the Visual Studio computer to the local directory configured for the ASP.NET app (which we'll call **C:\Publish**) on the Windows Server computer. You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
-
-    > [!CAUTION]
-    >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
-
-6. On the Windows Server, verify that you can run the app correctly by opening the app in your browser.
-
-    If the app doesn't run correctly, there may be an issue with your IIS configuration, your ASP.NET installation, or your Web site configuration. Recheck earlier steps.
+[!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
 ## <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
 
