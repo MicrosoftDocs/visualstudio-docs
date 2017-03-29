@@ -33,9 +33,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Use command-line parameters to install Visual Studio 2017
-When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. In addition to starting the install from the command-line with certain options preselected, you can also use the command line to automate the installation process or to create a cache (layout) of the installation files for later use. 
+When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line you can:
+- start the install with certain options preselected, 
+- automate the installation process
+- create a cache (layout) of the installation files for later use. 
 
-The command-line options are used in conjunction with the setup bootstrapper, which is the small (approx. 1MB) file that initiates the download process. The bootstrapper is the first executable that gets launched when you download from the Visual Studio site. You can get a direct link to the latest release bootstrapper for the product edition you're installing from these links:
+The command-line options are used in conjunction with the setup bootstrapper, which is the small (approx. 1MB) file that initiates the download process. The bootstrapper is the first executable that gets launched when you download from the Visual Studio site. You can get a direct link to the latest release bootstrapper for the product edition that you're installing from these links:
 
 * [Visual Studio 2017 Enterprise](https://aka.ms/vs/15/release/vs_enterprise.exe)
 * [Visual Studio 2017 Professional](https://aka.ms/vs/15/release/vs_professional.exe)
@@ -60,10 +63,10 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | **Install option** | **Description** |
 | ----------------------- | --------------- |  
 | ```--installPath <dir>``` | The installation directory for the instance to act upon. For the install command, this is where the instance will be installed. For other commands, this is where the previously-installed instance was installed. |
-| ```--layout <dir>``` | **Optional**: Specifies a directory to create an offline install cache. Selecting this option will implicitly add the '--wait' option as well: if called from a batch file, this command will complete before execution passes to the next command in the batch file. |
-| ```--lang <language-locale>``` *[&#60;language-locale&#62; ...]* | **Optional**: Used with --layout to prepare a offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| ```--addProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines  the UI language packs that are to be installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation will use the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| ```--removeProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines  the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--layout <dir>``` | **Optional**: Specifies a directory to create an offline install cache. Selecting this option will implicitly add the '--wait' option as well. If called from a batch file, this command will complete before execution passes to the next command in the batch file. |
+| ```--lang <language-locale>``` *[&#60;language-locale&#62; ...]* | **Optional**: Used with --layout to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--addProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation will use the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--removeProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | ```--add <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using '--includeRecommended' and/or '--includeOptional'. For finer-grained control, you can append ';includeRecommended' and/or ';includeOptional' to the artifactId (e.g. '--add Workload1;includeRecommended' or '--add Workload2;includeOptional;includeRecommended'). For more information, see our [Workload and component IDs](workload-and-component-ids.md) page.|
 | ```--remove <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | **Optional**: One or more workload or component IDs to remove. For more information, see our [Workload and component IDs](workload-and-component-ids.md) page.|
 | ```--in <path>``` | **Optional**: The URI or path to a response file.  |
