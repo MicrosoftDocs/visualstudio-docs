@@ -32,38 +32,23 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Options, Text Editor, C/C++, Experimental
-By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  
+By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release.  
   
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Experimental**.  
-  
- These features are available in a Visual Studio 2015 Update 1 RC installation.  
+
+ These features are available in a Visual Studio 2017 installation.  
   
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-## Browsing/Navigation  
- **Enable New Database Engine**  
- This should automatically speed up database population and make all database operations faster (with no loss in accuracy) for operations such as **Go To Definition** and **Find All References**. (Just close and reopen your solution to apply the changes; you do not have to restart Visual Studio.)  
-  
-## IntelliSense  
- **Member List Dot-To-Arrow**  
- Replaces '.' with '->' when applicable for Member List.  
-  
-## Refactoring  
- **Enable Extract Function**  
- Extract selected code to its own function and replace code with a call to the new function. To access this feature, right-click on the selected code and select **Quick Actions**, or simply press the default shortcut Ctrl+Dot [Ctrl+.].  
-  
- **Enable Change Signature**  
- Add, reorder, and delete parameters of a function and propagate the changes to all call sites. To access this feature, right-click on any usage of the function and select **Quick Actions**, or simply press the default shortcut Ctrl+Dot [Ctrl+.].  
-  
-## Text Editor  
- **Enable Expand Scopes**  
- If enabled, you can surround selected text with curly braces by typing '{' into the text editor.  
-  
- **Enable Expand Precedence**  
- If enabled, you can surround selected text with parentheses by typing '(' into the text editor.  
-  
- For additional text editor features on the Visual Studio Gallery, see the list [here](http://go.microsoft.com/fwlink/?LinkId=692016). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:  
+## Enable Predictive Intellisense
+Predictive IntelliSense limits the number of results displayed in the IntelliSense dropdown list so that you see only results that are relevant in the context. For example, if you type <code>int x =</code> and invoke the IntelliSense dropdown, you will see only integers or functions that return integers. Predictive IntelliSense is turned off by default.
+
+## Enable Faster Project Load
+This option enables the feature known as "lightweight solution load." When lightweight solution load is enabled, Visual Studio will not fully load projects until you actually need them. Many common tasks, such as navigating through a codebase, editing code, and building projects do not require the project to be loaded. When this option is enabled, you can get started more quickly on these common tasks without having to wait for the project to load.  
+
+## Additional Features in the Visual Studio Gallery
+For additional text editor features in the Visual Studio Gallery, see the list [here](http://go.microsoft.com/fwlink/?LinkId=692016). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:  
   
 -   **Add missing #include** - Suggests relevant #include's for unknown symbols in your code  
   

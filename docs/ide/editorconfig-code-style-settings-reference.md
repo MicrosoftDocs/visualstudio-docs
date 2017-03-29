@@ -1,5 +1,5 @@
 ---
-title: ".NET Code Style Settings For Editorconfig | Microsoft Docs"
+title: ".NET Code Style Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# .NET Code Style Settings For Editorconfig
+# .NET Code Style Settings For EditorConfig
 
 ## Possible values
 
