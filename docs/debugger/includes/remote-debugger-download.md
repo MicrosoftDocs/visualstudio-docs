@@ -37,7 +37,7 @@ If you try to copy the remote debugger (msvsmon.exe) to the remote computer and 
 
 ### (Optional) To run the remote debugger from a file share
 
-You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio 2015 Community, Professional, or Enterprise already installed. For many scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help / Usage** in the remote debugger).
+You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio 2015 Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help / Usage** in the remote debugger).
 
 1. Find **msvsmon.exe** in the directory matching your version of Visual Studio. For Visual Studio 2015:
 

@@ -40,6 +40,6 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
     The Output tab will show you if publishing is successful, and your browser will open the app.
 
-    If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the correct ports are open.
+    If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the correct ports are open (Web Deploy also requires port 8172 to be open on the server).
 
     If the app deploys successfully but doesn't run correctly, there may be an issue with your IIS configuration, your ASP.NET installation, or your Web site configuration. On the Windows Server, open the Web site from IIS for more specific error messages, and then recheck earlier steps.
