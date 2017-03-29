@@ -33,8 +33,7 @@ translation.priority.mt:
 You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET Core, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 10
-* Windows Server 2008 R2 and IIS 7.5
+* Windows Server 2012 R2 and IIS 10 (For Windows Server 2008 R2, server steps are different)
 
 There are many ways you can deploy and debug on IIS. Here are a few of the common scenarios.
 
@@ -52,26 +51,18 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
-These steps show only a very basic configuration of IIS. For information on installing to a Windows Desktop machine, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html#iis-configuration).
-
-For Windows Server operating systems, use the **Add Roles and Features** wizard via the **Manage** link or the **Dashboard** link in **Server Manager**. On the **Server Roles** step, check the box for **Web Server (IIS)**.
-
-![The Web Server IIS role is selected in the Select server roles step.](../debugger/media/remotedbg-server-roles-ws2012.png)
-
-On the **Role services** step, select the IIS role services you desire or accept the default role services provided.
-
-Proceed through the confirmation steps to install the web server role and services. A server/IIS restart is not required after installing the Web Server (IIS) role.
+[!INCLUDE [remote-debugger-install-iis-role](../debugger/includes/remote-debugger-install-iis-role.md)]
 
 ## Update browser security settings on Windows Server
 
-Before you can download the software described in this tutorial, you may need to add the following trusted sites to your browser. These sites are currently required:
+Depending on your security settings, it may save you time to add the following trusted sites to your browser so you can easily download the software described in this tutorial. Access to these sites may be needed:
 
 - microsoft.com
 - go.microsoft.com
 - download.microsoft.com
 - visualstudio.com
 
-In Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers.
+If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers.
 
 When you download the software, you may get requests to grant permission to load various web site scripts and resources. In most cases, these additional resources are not required to install the software.
 
@@ -85,36 +76,13 @@ On Windows Server 2012 R2, see [IIS Configuration](https://docs.asp.net/en/lates
 
     > [!NOTE]
     > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
-     **C:\Windows\Microsoft.NET\Framework(64)\v4.0.30319\aspnet_regiis.exe -ir**
+     **C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -ir**
 
 2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
 ## <a name="BKMK_install_webdeploy"></a> (Optional) Install Web Deploy 3.6 on Windows Server
 
-1. If you intend to deploy your applications with Web Deploy in Visual Studio, install the latest version of Web Deploy on the server.
-
-    To install Web Deploy, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx) or obtain an installer directly from the [Microsoft Download Center](https://www.microsoft.com/search/result.aspx?q=webdeploy&form=dlc). You find Web Deploy in the Applications tab. 
-
-2. Verify that Web Deploy is running correctly by opening  **Control Panel / System and Security / Administrative Tools / Services** and make sure that **Web Deployment Agent Service** is running (the service name is different in older versions).
-
-    If the agent service is not running, start it. If it is not present at all, go to **Control Panel / Programs / Uninstall a program**, find **Microsoft Web Deploy <version>**. Choose to **Change** the installation and make sure that you choose  **Will be installed to the local hard drive** for the Web Deploy components. Complete the change installation steps.
-
-## Open required ports on Windows Server
-
-Some required ports may already be opened depending on the exact versions of the software installed. Required ports:
-
-- 80 - Required for IIS
-- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
-- 4022 - Required for remote debugging from Visual Studio 2017 (earlier versions have different port numbers, like 4020).
-
-1. To open a port on Windows Server, use **Control Panel / System and Security / Windows Firewall / Allow an app or feature through Windows Firewall**.
-
-    > [!NOTE]
-    > On an Azure VM, you open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80).
-
-2. Then choose **Advanced / Inbound Rules / New Rule / Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
-
-3. Create additional rules for the other required ports.
+[!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
 
 ## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
 
@@ -129,6 +97,8 @@ Some required ports may already be opened depending on the exact versions of the
 ## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
 
 [!INCLUDE [remote-debugger-deploy-app-web-deploy](../debugger/includes/remote-debugger-deploy-app-web-deploy.md)]
+
+    Also, read the section on [Troubleshooting port](#bkmk_openports).
 
 ## (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
@@ -146,6 +116,7 @@ You can also publish and deploy the app using the file system or other tools.
     </system.web>
   
     ```
+    For example, the version should be 4.0 if you install ASP.NET 4 instead of 4.5.2.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
@@ -187,3 +158,25 @@ You can also publish and deploy the app using the file system or other tools.
 9. In the running ASP.NET capplication, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
+
+## <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+
+In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
+
+> [!NOTE]
+> On an Azure VM, you must open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
+
+Required ports:
+
+- 80 - Required for IIS
+- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
+- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for detailed information.
+- UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+
+1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
+
+2. Then choose **Inbound Rules / New Rule / Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+
+    If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
+
+3. Create additional rules for the other required ports.
