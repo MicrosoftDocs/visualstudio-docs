@@ -1,7 +1,7 @@
 ---
 title: "Write code in the code editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/21/2017"
+ms.date: "03/28/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -153,7 +153,7 @@ The following commands are code-specific navigation methods:
 |Go To|Has the following commands: **Go To Line** (CTRL + G): Move to the specified line number in the active document. **Go to All** (CTRL + T): Move to the specified line, type, file, member, or symbol. **Go to File** (CTRL + 1, CTRL + F): Move to the specified file in the solution. **Go to Type** (CTRL + 1, CTRL + T): Move to the specified type in the solution. **Go to Member** (CTRL + 1, CTRL + M): Move to the specified member in the solution. **Go to Symbol** (CTRL + 1, CTRL + S): Move to the specifed symbol in the solution. See more on these commands in the section "Find code using Go To commands" later in this topic.|  
 |Go To Definition|(Context menu or F12): Finds the definition of the selected element.|  
 |Go To Implementation|(Context menu or CTRL + F12): Finds the place in the code where the selected element is implemented.|
-|Peek Definition|(Context menu or ALT + F12): Finds the definition of the selected element and displays it in a popup window. For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).|  
+|Peek Definition|(Context menu or ALT + F12): Finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).|  
 |Next Method, Previous Method|(**Edit/Next Method, Previous Method**) In Visual Basic code files, use these commands to move the insertion point to different methods.|  
 |Reference Highlighting|When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW. You can change the highlighting color in **Tools/Options/Environment/Fonts and Colors/Highlighted Reference.**|  
 |Find code-related info|You can find info about specific code, like changes and who made those changes, references, bugs, work items, code reviews, and unit test status when you use CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with Team Foundation Server. See [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).|
@@ -196,28 +196,28 @@ Visual Studio's **Go To** commands perform a focused search of your code to help
 
 ### Filter your search
 
-By default, the specified item is searched for in all solution items. However, you can limit your code search to specific element types by prefacing the search terms with the following letters and symbols.
+By default, the specified item is searched for in all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. The easiest way to open the Go To dialog box is to choose CTRL + T, and then change the prefacing character to one in the following list. (As an alternative, you can choose the following shortcut keys to automatically add the character for you.)
 
-|||  
+|Symbol|Description|  
 |-|-|
-|None|No preface symbol. This finds the specified term in all lines, files, types, members, and symbols. Shortcut: CTRL + T|
+|None|No prefacing character. This finds the specified term in all lines, files, types, members, and symbols. Shortcut: CTRL + T|
 |:|Go to the specified line number. Shortcut: CTRL + G|
 |f|Go to the specified file name. Shortcut: CTRL + 1, CTRL + F|
 |t|Go to the specified type. Shortcut: CTRL + 1, CTRL + T|
 |m|Go to the specified member. Shortcut: CTRL + 1, CTRL + M|
 |#|Go to the specified symbol. Shortcut: CTRL + 1, CTRL + S|
 
-For example, to limit your search to only code symbols, preface your Go To query with an "#" character, or choose **Edit**, **Go To**, **Go to Symbol** on the menu. Searching for `# application` displays only symbols that contain the word "application".
+For example, to limit your search to only code symbols, open the Go To dialog box by pressing CTRL + T (or CTRL + ,) and then preface your Go To query with an "#" character, or choose **Edit**, **Go To**, **Go to Symbol** on the menu. Searching for `# application`, for instance, displays only code symbols that contain the word "application".
 
-You can also quickly change the search filter by choosing buttons on the Go To window's toolbar. Buttons that change the filters are on the left side, and the buttons that change the scope of the search are on the right side.
+You can also quickly change the search filter by choosing buttons on the Go To dialog box toolbar. Buttons that change the filters are on the left side, and buttons that change the scope of the search are on the right side.
 
 ![](../ide/media/vside_navigation_toolbar.png)
 
-If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the Type filter and then entering just the capital letters of the name (`CVM`) in the Go To window.
+If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the Type filter ("t") and then entering just the capital letters of the name (`CVM`) in the Go To dialog box.
 
 ![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png)
 
-This feature is particularly helpful if your code has long names.
+This feature can be helpful if your code has long names.
 
 ## Finding references in your codebase
 To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. To use **Find All References**, choose that command on the context (right-click) menu of the element you want to find the references for, or choose the SHIFT + F12 keys.
@@ -236,6 +236,14 @@ You can also hover the mouse over any search result to see a preview of the retu
 ![Find All References tool window](../ide/media/vside_findallreferences.png)
 
 To keep the results of your search, choose the **Keep Results** button. When you choose this button, the current search results stay in this window, and new search results appear in a new tool window.
+
+### Navigate to references
+In the Find All References dialog box, you can use the following methods to navigate to references.
+
+- Choose F8 to go to the next reference, or choose SHIFT + F8 to go to the previous reference.
+- Choose the ENTER key on a reference, or double-click it to go to it in code.
+- On the context menu of a reference, choose the **Go To Previous Location** / **Go To Next Location** commands.
+- Choose the UP and DOWN arrow keys (if they are enabled in the Options dialog box). To enable this functionality, on the menu, choose **Tools**, **Options**, **Environment**, **Tabs and Windows**, **Preview Tab**, and then select the **Allow new files to be opened in the preview tab** and **Preview selected files in Find Results** boxes.
 
 ### Change reference groupings
 By default, references are grouped by project, then by definition. However, you can change this grouping order by changing the setting in the **Group by:** dropdown list box on the toolbar. For example, you can change it from the default setting of **Definition then project** to **Project then definition**, as well to other settings.

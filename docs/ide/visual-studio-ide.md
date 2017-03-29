@@ -63,7 +63,7 @@ To get started, download Visual Studio and install it on your system. You can do
 
 Visual Studio is now more lightweight than ever! The new modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 
-![Visual Studio installer](../install/media/vs2017-workloads.png)
+![Visual Studio installer](../ide/media/vside_tour_install_dialog.png)
 
 In addition to improved installation performance, many improvements have been made in Visual Studio 2017 to improve overall IDE start-up and solution load time. For example, selecting the new Lightweight Solution Load feature, located on the main menu under **Tools**, **Options**, **Projects and Solutions**, enables larger solutions to load faster. To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).
 
@@ -78,6 +78,8 @@ One good way to learn about something is to use it! Let's dive in and create a n
 1. Open Visual Studio. On the menu, choose **File**, **New**, **Project**. (Use the default project values.)
 
   ![screenshot](../ide/media/VSIDE_Tour_NewProject1.png)
+
+  As an alternative, you can create a new project by using the Start Page. For more information, see [Harness the Power of the Redesigned Start Page (blog)](https://blogs.msdn.microsoft.com/visualstudio/2016/11/29/harness-the-power-of-the-redesigned-start-page/).
 
 1. The **New Project** dialog box shows several project templates. Choose the **Windows Universal** category under **Visual C#**, choose the **Blank App (Universal Windows)** template, and then choose the **OK** button.
 
@@ -188,16 +190,15 @@ Following are some other common productivity features in Visual Studio.
 
   ![Object Browser showing System.Timer](../ide/media/objectbrowser.png)  
 
-## Collaborate with others and control your source code
-You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) to manage code alongside bugs and work items for your whole project.
+## Manage your source code and collaborate with others
+You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services](https://www.visualstudio.com/en-us/docs/git/gitquickstart-vs2017) to learn more about managing Git repos in Visual Studio using Team Explorer.  Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
 
 Visual Studio Team Services is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes.
 
 Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
 
-If you have a Visual Studio Team Services account or a Team Foundation Server on your network, you connect to it through the Team Explorer window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open Team Explorer from the **Quick Launch** box, or on the main menu from **View, Team Explorer** or from **Team, Manage Connections**.  
-
-The following image shows the Team Explorer window for a solution that is hosted in VSTS:
+If you have a Visual Studio Team Services account or a Team Foundation Server on your network, you connect to it through the Team Explorer window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open Team Explorer from the **Quick Launch** box, or on the main menu from **View, Team Explorer** or from **Team, Manage Connections**.
+The following image shows the Team Explorer window for a solution that is hosted in VSTS.
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)  
 
@@ -227,8 +228,8 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. Visual Studio provides tools, controls, and templates from Microsoft, our partners, and the community. To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
 ## Learn more and find out what's new
-If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
-If you want to find out about new features in Visual Studio 2017, see [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
+If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
+If you want to check out the new features in Visual Studio 2017, see [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
 
 Congratulations on completing the tour of the Visual Studio IDE! We hope you learned something useful about some of its main features.
 
