@@ -16,7 +16,7 @@ translation.priority.ht:
 ---
 You must have administrative permissions on the remote computer.  
   
-1.  Locate the Remote Debugger application. (Open the Start menu and search for **Remote Debugger**.)
+1.  Locate the Remote Debugger application. (Find msvsmon.exe in the location where it has been installed, or open the Start menu and search for **Remote Debugger**.)
   
      If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator** (Or, you can [run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService)). If you are not running it on a remote server, just start it normally.
   
