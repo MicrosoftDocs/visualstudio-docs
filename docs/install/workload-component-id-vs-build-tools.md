@@ -1,10 +1,10 @@
 ---
-title: [Visual Studio Build Tools 2017 workload and component IDs | Microsoft Docs]
+title: Visual Studio Build Tools 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
 keywords:
-author: [TerryGLee]
-ms.author: [tglee]
-manager: [ghogen]
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
 ms.date:  03/07/2017
 ms.topic: article
 helpviewer_keywords:
