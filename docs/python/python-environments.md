@@ -84,6 +84,11 @@ In the example above, we have Python 3.4 (32-bit CPython) installed along with 3
 >
 > ![Python Environments window expanded view](media/environments-expanded-view.png)
 
+> [!Note]
+> Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
+
+### Creating an environment for an existing interpreter
+
 Visual Studio normally locates an installed Python interpreter by checking the registry, it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
 1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
@@ -95,9 +100,6 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 1. Select **Auto Detect** to have Visual Studio complete the remaining fields, or complete them manually.
 1. Select **Apply** to save the environment.
 1. If you need to remove the environment, select the **Remove** command on the **Configure** tab.
-
-> [!Note]
-> Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
 ### Overview tab
 
