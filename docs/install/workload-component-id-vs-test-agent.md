@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-  ---
+---
 
 # Visual Studio Test Agent 2017 component directory
 

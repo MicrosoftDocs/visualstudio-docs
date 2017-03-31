@@ -26,7 +26,7 @@ Many Windows Runtime methods, especially methods that might take a long time to 
 ## Examples of Asynchronous Methods  
  In the following example, the `then` function takes a parameter that represents the completed value of the `createResourceAsync` method.  
   
-```javascript  
+```JavaScript  
 client.createResourceAsync(uri, description, item)  
     // Success.  
     .then(function(newItem) {   
@@ -36,7 +36,7 @@ client.createResourceAsync(uri, description, item)
   
  In this case, if the `createResourceAsync` method fails, it returns a promise in the error state, but does not throw an exception. You can handle an error by using the `then` function as follows.  
   
-```javascript  
+```JavaScript  
 client.createResourceAsync(uri, description, item)  
     // Success.  
     .then(function(newItem) {   
@@ -49,7 +49,7 @@ client.createResourceAsync(uri, description, item)
   
  If you don't want to handle the error explicitly, but do want it to throw an exception, you can use the `done` function instead.  
   
-```javascript  
+```JavaScript  
 client.createResourceAsync(uri, description, item)  
     // Success.  
       .done(function(newItem) {   
@@ -59,7 +59,7 @@ client.createResourceAsync(uri, description, item)
   
  You can also display the progress made towards completion by using a third function.  
   
-```javascript  
+```JavaScript  
 client.createResourceAsync(uri, description, item)  
     // Success.  
       .then(function(newItem) {   

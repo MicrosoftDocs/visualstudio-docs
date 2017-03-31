@@ -13,6 +13,7 @@ f1_keywords:
   - "RegExp"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "RegExp object, overview"

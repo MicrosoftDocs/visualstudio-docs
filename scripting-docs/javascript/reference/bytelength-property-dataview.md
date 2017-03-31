@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 6274285f-b673-48f6-a1e7-89ff7ee348b5
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ Read-only. The length of this view from the start of its ArrayBuffer, in bytes, 
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var byteLength = dataView.byteLength;  
 ```  
   
 ## Example  
  The following example shows how get the length of a DataView from an XMLHttpRequest.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

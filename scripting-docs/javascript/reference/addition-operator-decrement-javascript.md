@@ -13,6 +13,7 @@ f1_keywords:
   - "+"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arithmetic operators, addition"

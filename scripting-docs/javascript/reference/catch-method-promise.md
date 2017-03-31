@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 55266f6a-db4d-4de8-857a-8bc7d35ed4b8
 caps.latest.revision: 6
@@ -40,7 +41,7 @@ promise.catch(onRejected)
 ## Example  
  In the following code example, the first call to timeout returns after 5000ms. In this code, the promise is rejected, and the error handler function runs.  
   
-```javascript  
+```JavaScript  
 function timeout(duration) {  
     return new Promise(function(resolve, reject) {  
         setTimeout(reject, duration);  

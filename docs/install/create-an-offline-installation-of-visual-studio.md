@@ -2,7 +2,7 @@
 title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to create an offline installer for of Visual Studio."
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "03/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -50,6 +50,8 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 |Visual Studio Professional |**vs_professional.exe**|  
 |Visual Studio Community |**vs_community.exe**|
 
+Other supported bootstrappers include vs_buildtools.exe, vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
+
 ## Create an offline installation folder
 To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
@@ -59,7 +61,7 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
 - For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
 
-For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline- installer) section on this page.
+For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline-installer) section on this page.
 
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
@@ -86,8 +88,6 @@ You might want to update your offline installer at a later date. Here's how.
 * To update a Visual Studio instance that you installed from an offline installation folder, run the Visual Studio Installer, and then click **Update**.
 * To refresh your offline installation folder so that it includes the latest updates, run the ```--layout``` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.
 
-
-If you want to update your offline installation, run the `--layout` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran `--layout` will be downloaded.
 
 ### How to troubleshoot an offline installer
 Sometimes, things go wrong. Here is a table of known issues and some workarounds that might help.

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ba0798c5-3574-4434-89f4-3d90be276001
 caps.latest.revision: 47
@@ -26,7 +27,7 @@ You can use a number of techniques to specify and format JavaScript date and tim
   
  The following example shows how to use `toLocaleDateString` and `toLocaleTimeString` to format dates and times. The first parameter passed to these methods is a locale value, such as "en-us". The second parameter, where present, specifies formatting options, such as the long form for the weekday.  
   
-```javascript  
+```JavaScript  
 var date = new Date(Date.UTC(2013, 1, 1, 14, 0, 0));  
 var options = {  
     weekday: "long", year: "numeric", month: "short",  
@@ -50,7 +51,7 @@ document.write(date.toLocaleTimeString("ja-JP", options));
 ## Formatting Dates  
  Before Internet Explorer 11, JavaScript did not have specific methods to format dates and times. To provide your own date formatting for previous browser versions, use the [getDay Method (Date)](../javascript/reference/getday-method-date-javascript.md), [getDate Method (Date)](../javascript/reference/getdate-method-date-javascript.md), [getMonth Method (Date)](../javascript/reference/getmonth-method-date-javascript.md), and [getFullYear Method (Date)](../javascript/reference/getfullyear-method-date-javascript.md) methods. (The [getYear Method (Date)](../javascript/reference/getyear-method-date-javascript.md) is obsolete and should not be used.)  
   
-```javascript  
+```JavaScript  
 var myDate = new Date("February 3, 2001");  
 var myDate = new Date("February 3 2001");  
 document.write((myDate.getMonth() + 1) + "-" + myDate.getDate() + "-" + myDate.getFullYear());  
@@ -64,7 +65,7 @@ document.write((myDate.getMonth() + 1) + "/" + myDate.getDate() + "/" + myDate.g
   
  You can provide your own time formatting by using the [getHours Method (Date)](../javascript/reference/gethours-method-date-javascript.md), [getMinutes Method (Date)](../javascript/reference/getminutes-method-date-javascript.md), [getSeconds Method (Date)](../javascript/reference/getseconds-method-date-javascript.md), and [getMilliseconds Method (Date)](../javascript/reference/getmilliseconds-method-date-javascript.md) methods.  
   
-```javascript  
+```JavaScript  
 myDate = new Date();  
 myDate.setHours(10, 30, 53, 400);  
   

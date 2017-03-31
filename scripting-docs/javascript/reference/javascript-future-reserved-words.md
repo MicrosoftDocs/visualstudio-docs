@@ -26,6 +26,7 @@ f1_keywords:
   - "static_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "reserved keywords (JavaScript)"

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 23c26185-6a7b-4b69-9d22-63e1841b4905
 caps.latest.revision: 4
@@ -31,7 +32,7 @@ You can use the collection objects [Map](../../javascript/reference/map-object-j
   
  The following example shows how to use the `Map` object. In this example, you access members by using both `get` and `forEach`. The callback function in `forEach` can take up to three parameters, which provide the value of the current collection element, the key of the current element, and the collection object itself.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  
@@ -59,7 +60,7 @@ m.forEach(function (value, key, mapObj) {
   
  The following example shows how to use the `Set` object. In this example, the callback function takes one parameter, which is the value of the current collection element.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

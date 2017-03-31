@@ -13,6 +13,7 @@ f1_keywords:
   - "toLocaleDateString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLocaleDateString method"
@@ -59,7 +60,7 @@ dateObj.toLocaleDateString( [locales][, options])
 ## Example  
  The following example shows how to use the `toLocaleDateString` method with a specified locale and comparison options.  
   
-```javascript  
+```JavaScript  
 var date = new Date(Date.UTC(2013, 1, 1, 14, 0, 0));  
 var options = { weekday: "long", year: "numeric", month: "short",  
     day: "numeric" };  

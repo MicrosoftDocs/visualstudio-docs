@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: bebbd6bc-6e61-4674-8196-7e907798973f
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Returns a specified element from a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.get(key)  
 ```  
   
@@ -40,7 +41,7 @@ mapObj.get(key)
 ## Example  
  The following example shows how to retrieve an element from a `Map` object.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

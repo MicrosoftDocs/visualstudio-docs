@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 44b2f36e-da59-4900-b0ed-6c58abdb1a41
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns a string representation of a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.toString()  
 ```  
   

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 02a7b90c-96f6-4484-9466-d261efa1b494
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ Promise.all(func1, func2 [,funcN])
 ## Example  
  In this code, the first call to timeout returns after 5000ms. The completion handler calls `Promise.all`, which returns only when both calls to timeout are completed or rejected.  
   
-```javascript  
+```JavaScript  
 function timeout(duration) {  
     return new Promise(function(resolve, reject) {  
         setTimeout(resolve, duration);  

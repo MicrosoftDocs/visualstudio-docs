@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 39a1f96e-14b0-4db2-b53d-cdfd67cbb208
 caps.latest.revision: 3
@@ -37,7 +38,7 @@ date.valueOf()
 ## Example  
  The following example illustrates the use of the `valueOf` method with a date.  
   
-```javascript  
+```JavaScript  
 var myDate = new Date();  
 myDate.setFullYear(2100, 5, 5);  
 if (myDate.getTime() == myDate.valueOf())  

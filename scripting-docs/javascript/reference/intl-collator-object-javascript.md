@@ -13,6 +13,7 @@ f1_keywords:
   - "Collator"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: acbb9461-f956-4b5b-ae5f-6a47815ae15c
 caps.latest.revision: 14
@@ -85,7 +86,7 @@ collatorObj = new Intl.Collator([locales][, options])
 ## Example  
  The following example creates a `Collator` object and performs a comparison.  
   
-```javascript  
+```JavaScript  
 var co = new Intl.Collator(["de-DE"]);  
 co.compare("a", "b"); // Returns -1  
   
@@ -94,7 +95,7 @@ co.compare("a", "b"); // Returns -1
 ## Example  
  The following example uses `Collator` objects to sort an array. This example shows locale-specific differences.  
   
-```javascript  
+```JavaScript  
 var co1 = new Intl.Collator(["de-DE-u-co-phonebk"]);  
 var co2 = new Intl.Collator(["de-DE"]);  
 var co3 = new Intl.Collator(["en-US"]);  
@@ -111,7 +112,7 @@ if (console && console.log) {
 ## Example  
  The following example uses a `Collator` object to search for a string and specifies comparison options.  
   
-```javascript  
+```JavaScript  
 // String to search  
 var arr = ["ä", "ad", "af", "a"];  
 // String searched for  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "prototype [JavaScript]"
@@ -24,7 +25,7 @@ manager: "ghogen"
 # Prototypes and Prototype Inheritance
 In JavaScript, a `prototype` is a property of functions and of objects that are created by constructor functions. The prototype of a function is an object. Its main use is when a function is used as a constructor.  
   
-```javascript  
+```JavaScript  
 function Vehicle(wheels, engine) {  
     this.wheels = wheels;  
     this.engine = engine;  
@@ -36,7 +37,7 @@ function Vehicle(wheels, engine) {
 ## Using Prototypes to Add Properties and Methods  
  You can use the `prototype` property to add properties and methods to objects, even the ones that have already been created:  
   
-```javascript  
+```JavaScript  
 var testVehicle = new Vehicle(2, false);  
 Vehicle.prototype.color = "red";  
 var testColor = testVehicle.color;  
@@ -46,7 +47,7 @@ var testColor = testVehicle.color;
   
  You can even add properties and methods to predefined objects. For example, you can define a `Trim` method on the `String` prototype object, and all the strings in your script will inherit the method.  
   
-```javascript  
+```JavaScript  
 String.prototype.trim = function()  
 {  
     // Replace leading and trailing spaces with the empty string  
@@ -64,7 +65,7 @@ window.alert(s + " (" + s.length + ")");
 ### Using Prototypes to Derive One Object from Another with Object.create  
  The `prototype` object can be used to derive one object from another. For example, you can use the [Object.create](../../javascript/reference/object-create-function-javascript.md) function to derive a new object `Bicycle` using the prototype of the `Vehicle` object we defined earlier (plus any new properties you need).  
   
-```javascript  
+```JavaScript  
 var Bicycle = Object.create(Object.getPrototypeOf(Vehicle), {  
     "pedals" :{value: true}  
 });  
@@ -78,7 +79,7 @@ var Bicycle = Object.create(Object.getPrototypeOf(Vehicle), {
   
  The following example shows how you can change the prototype of an object. This example shows how the object's inherited properties change when you change its prototype.  
   
-```javascript  
+```JavaScript  
 function Friend() {  
     this.demeanor = "happy";  
 }  

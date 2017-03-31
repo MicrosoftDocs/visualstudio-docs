@@ -13,6 +13,7 @@ f1_keywords:
   - "escape"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "encoding string objects"

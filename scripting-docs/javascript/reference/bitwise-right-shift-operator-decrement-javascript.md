@@ -13,6 +13,7 @@ f1_keywords:
   - ">>"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - ">> operator"
@@ -48,7 +49,7 @@ result = expression1 >> expression2
 ## Remarks  
  The >> operator shifts the bits of *expression1* right by the number of bits specified in *expression2*. The sign bit of *expression1* is used to fill the digits from the left. Digits shifted off the right are discarded. For example, after the following code is evaluated, *temp* has a value of -4: -14 (11110010 in two's complement binary) shifted right two bits equals -4 (11111100 in two's complement binary).  
   
-```javascript  
+```JavaScript  
 var temp  
 temp = -14 >> 2  
 ```  

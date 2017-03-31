@@ -107,14 +107,14 @@ Examples for the various options are provided in the following tables.
 **Wrapping** lets you set the **Maximum comment width** (default is 80), so that if the **Wrap comments that are too wide** option is set, PTVS will reformat comments to not exceed that width.
 
 ```python
-  # Wrapped to 40 columns
-  # There should be one-- and preferably
-  # only one --obvious way to do it.
+# Wrapped to 40 columns
+# There should be one-- and preferably
+# only one --obvious way to do it.
 ```
 
 ```python
-  # Not-wrapped:
-  # There should be one-- and preferably only one --obvious way to do it.
+# Not-wrapped:
+# There should be one-- and preferably only one --obvious way to do it.
 ```
 
 
@@ -126,24 +126,24 @@ Examples for the various options are provided in the following tables.
 For example:
 
 ```python
-  # foo 
-  # bar
-  # baz
+# foo 
+# bar
+# baz
 ```
 
 changes to:
 
 ```python
-  # foo bar baz
+# foo bar baz
 ```
 
 ```python
-  # This is a very long long long long long long long long long long long long long long long long long long long comment
+# This is a very long long long long long long long long long long long long long long long long long long long comment
 ```
 
 changes to:
 
 ```python
-  # This is a very long long long long long long long long long long long long
-  # long long long long long long long comment
+# This is a very long long long long long long long long long long long long
+# long long long long long long long comment
 ```

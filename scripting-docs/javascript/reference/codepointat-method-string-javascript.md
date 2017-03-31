@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 7979018f-1be3-4a13-9e8f-c84c7ed35288
 caps.latest.revision: 4
@@ -42,7 +43,7 @@ stringObj.codePointAt(pos);
 ## Example  
  The following example shows how to use the `codePointAt` method.  
   
-```javascript  
+```JavaScript  
 var cp1 = "𠮷".codePointAt(0);  
 vary cp2 = 'abc'.codePointAt(1);  
   

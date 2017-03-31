@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0c5537f7-00b4-487a-8fba-ef032e67e7bd
 caps.latest.revision: 6
@@ -82,7 +83,7 @@ uint8ClampedArray = new Uint8ClampedArray( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a `Uint8ClampedArray` object to process the binary data acquired from an `XmlHttpRequest`:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  
@@ -105,7 +106,7 @@ var req = new XMLHttpRequest();
 ## Example  
  The following example shows how values are restricted in a `Uint8ClampedArray`.  
   
-```javascript  
+```JavaScript  
 var ints = new Uint8ClampedArray(2);  
 ints[0] = -1;  // 0 will be assigned.  
 ints[1] = 256; // 255 will be assigned.  

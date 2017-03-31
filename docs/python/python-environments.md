@@ -84,6 +84,11 @@ In the example above, we have Python 3.4 (32-bit CPython) installed along with 3
 >
 > ![Python Environments window expanded view](media/environments-expanded-view.png)
 
+> [!Note]
+> Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
+
+### Creating an environment for an existing interpreter
+
 Visual Studio normally locates an installed Python interpreter by checking the registry, it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
 1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
@@ -95,9 +100,6 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 1. Select **Auto Detect** to have Visual Studio complete the remaining fields, or complete them manually.
 1. Select **Apply** to save the environment.
 1. If you need to remove the environment, select the **Remove** command on the **Configure** tab.
-
-> [!Note]
-> Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
 ### Overview tab
 
@@ -226,29 +228,29 @@ When adding a new virtual environment, if a` requirements.txt` file exists, the 
 
 If a package cannot be installed by pip and it appears in a `requirements.txt` file, the entire installation to fail. In this case, manually edit the file to exclude this package or to use [pip's options](http://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](http://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your `requirements.txt`:
 
-```Output
-    C:\Project>pip wheel azure
-    Downloading/unpacking azure
-      Running setup.py (path:C:\Project\env\build\azure\setup.py) egg_info for package azure
+```output
+C:\Project>pip wheel azure
+Downloading/unpacking azure
+    Running setup.py (path:C:\Project\env\build\azure\setup.py) egg_info for package azure
 
-    Building wheels for collected packages: azure
-      Running setup.py bdist_wheel for azure
-      Destination directory: c:\project\wheelhouse
-    Successfully built azure
-    Cleaning up...
+Building wheels for collected packages: azure
+    Running setup.py bdist_wheel for azure
+    Destination directory: c:\project\wheelhouse
+Successfully built azure
+Cleaning up...
 
-    C:\Project>type requirements.txt
-    --find-links wheelhouse
-    --no-index
-    azure==0.8.0
+C:\Project>type requirements.txt
+--find-links wheelhouse
+--no-index
+azure==0.8.0
 
-    C:\Project>pip install -r requirements.txt -v
-    Downloading/unpacking azure==0.8.0 (from -r requirements.txt (line 3))
-      Local files found: C:/Project/wheelhouse/azure-0.8.0-py3-none-any.whl
-    Installing collected packages: azure
-    Successfully installed azure
-    Cleaning up...
-      Removing temporary dir C:\Project\env\build...
+C:\Project>pip install -r requirements.txt -v
+Downloading/unpacking azure==0.8.0 (from -r requirements.txt (line 3))
+    Local files found: C:/Project/wheelhouse/azure-0.8.0-py3-none-any.whl
+Installing collected packages: azure
+Successfully installed azure
+Cleaning up...
+    Removing temporary dir C:\Project\env\build...
 ```
 
 # Search paths

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "intrinsic JavaScript functions"
@@ -41,7 +42,7 @@ manager: "ghogen"
   
  Notice the use of a very small number ("epsilon") as a testing variable in the floating-point version of the test. Because of uncertainties and round-off errors in floating-point calculations, it is not practical to make a direct test of whether the three numbers constitute a Pythagorean triplet unless all three values in question are known to be integers. Because a direct test is more accurate, the code in this example determines whether it is appropriate and, if it is, uses it.  
   
-```javascript  
+```JavaScript  
 var epsilon = 0.00000000001; // Some very small number to test against.  
   
 // The test function for integers.  
@@ -120,7 +121,7 @@ var result = checkTriplet(sideA, sideB, sideC);
 ## Arrow Functions  
  Arrow function syntax, `=>`, provides a shorthand method of specifying an anonymous function. Here is the arrow function syntax.  
   
-```javascript  
+```JavaScript  
 ([arg] [, arg]) => {  
     statements  
 }  
@@ -161,7 +162,7 @@ console.log(nums);
   
  The following code example shows the use of the arrow function with a statement block.  
   
-```javascript  
+```JavaScript  
 var fives = new Array();  
   
 // Statement block, re-using nums array from previous example.  
@@ -182,7 +183,7 @@ console.log(fives);
   
  The following example shows that the value of the `this` object within the arrow function is the same as in the surrounding code (it still refers to the `bob` variable.  
   
-```javascript  
+```JavaScript  
 var bob = {  
   _name: "Bob",  
   _friends: ["Pete", "Joe", "Larry"],  
@@ -209,7 +210,7 @@ var bob = {
   
  In the following example, the default value of y is 10, and the default value of z is 20. The function will use 10 as the value of y unless the caller passes in a distinct value (or undefined) as the second argument. The function will use 20 as the value of z unless the caller passes in a distinct value (or undefined) as the third argument.  
   
-```javascript  
+```JavaScript  
 var val = 20;  
   
 function f(x, y=10, z=val) {  
@@ -241,7 +242,7 @@ console.log(f(3, 3, 3));
   
  In the following code example, "hello" and true are passed in as array values and stored in the y parameter. The rest parameter must be the last parameter of the function.  
   
-```javascript  
+```JavaScript  
 function f(x, ...y) {  
   // y is an array.  
   return x * y.length;  
