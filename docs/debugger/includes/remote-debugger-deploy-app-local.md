@@ -15,16 +15,24 @@ translation.priority.ht:
   - "zh-tw"
 ---
 1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
-2. For **Select a publish target**, select **Custom** and name the profile **MyASPApp**. Click **Next**.
-3. On the **Connection** tab, set the **Publish method** field to **File System** and  the **Target location** field to a local directory. Click **Next**.
+
+2. In the **Publish** dialog box, select **Folder**, click **Browse** and create a new folder, **C:\Publish**.
 
     ![RemoteDBG_Publish_Local](../media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
 
-4. Set the configuration to **Debug**. Click **Publish**.
+3. Click **Publish**.
+
+    Visual Studio publishes the project the folder. Progress shows in the Output window.
+
+4. In the **Publish** dialog box, click the **Settings** link, and then select the **Settings** tab.
+
+5. Set the configuration to **Debug**, select **Delete all existing files prior to publish**, and then click **Save**.
+
+6. Click **Publish**.
 
     ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
     
-    The application should be published to the local directory.
+    The application will publish a **Debug** configuration of the project to the local folder.
 
 5. Copy the ASP.NET project directory from the Visual Studio computer to the local directory configured for the ASP.NET app (which we'll call **C:\Publish**) on the Windows Server computer. You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
 
@@ -33,4 +41,4 @@ translation.priority.ht:
 
 6. On the Windows Server, verify that you can run the app correctly by opening the app in your browser.
 
-    If the app doesn't run correctly, there may be an issue with your IIS configuration, your ASP.NET installation, or your Web site configuration. Recheck earlier steps.
+    If the app doesn't run correctly, there may be a mismatch between the version of ASP.NET installed on your server and your Visual Studio machine, or you may have an issue with your IIS or Web site configuration. Recheck earlier steps.

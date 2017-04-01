@@ -69,14 +69,10 @@ When you download the software, you may get requests to grant permission to load
 
 ## Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://go.microsoft.com/fwlink/?linkid=837808) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module.
+1. Install the [.NET Core Windows Server Hosting](https://go.microsoft.com/fwlink/?linkid=844461) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module.
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
-
-2. Get updated ASP.NET Core components by installing the [.NET Core SDK](https://www.microsoft.com/net/download/core), which has ASP.NET Core 1.1 support.
-
-    This is required to use the Visual Studio ASP.NET Core 1.1 templates described in earlier steps.
 
 3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 

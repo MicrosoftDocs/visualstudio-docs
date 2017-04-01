@@ -30,7 +30,7 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
     ![RemoteDBG_Publish_WebDeployl](../media/remotedbg_iis_webdeploy_config.png "RemoteDBG_Publish_WebDeploy")
 
-    If a host name doesn't resolve when you try to validate in the next step in the **Server** text box, try the IP address. Make sure you use port 80 in the **Server** text box, and make sure that port 80 is open in the firewall. (Web Deploy also requires port 8172 to be open on the server.)
+    If a host name doesn't resolve when you try to validate in the next steps in the **Server** text box, try the IP address. Make sure you use port 80 in the **Server** text box, and make sure that port 80 is open in the firewall.
 
 6. Click **Next**, choose a **Debug** configuration, and choose **Remove additional files at destination** under the **File Publish** options.
 
