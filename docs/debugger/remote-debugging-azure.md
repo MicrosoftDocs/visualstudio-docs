@@ -121,13 +121,13 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
 3. For **Select a publish target**, select **Microsoft Azure Virtual Machine** and click **Publish**.
 
-    ![RemoteDBG_Publish_IISl](../media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
+    ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
 
 4. In the dialog box, select the Azure VM that you created previously.
 
 4. Enter the correction configuration parameters for your Azure VM and IIS setup.
 
-    ![RemoteDBG_Publish_WebDeployl](../media/remotedbg_iis_webdeploy_config.png "RemoteDBG_Publish_WebDeploy")
+    ![RemoteDBG_Publish_WebDeployl](../debugger/media/remotedbg_iis_webdeploy_config.png "RemoteDBG_Publish_WebDeploy")
 
     If a host name doesn't resolve when you try to validate in the next steps in the **Server** text box, try the IP address. Make sure you use port 80 in the **Server** text box, and make sure that port 80 is open in the firewall.
 
