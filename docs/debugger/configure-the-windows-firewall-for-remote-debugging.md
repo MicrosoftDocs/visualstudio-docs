@@ -1,7 +1,7 @@
 ---
 title: "Configure the Windows Firewall for Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/28/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -38,7 +38,7 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 -   Windows 10  
   
--   Windows Server 2008 (R2)  
+-   Windows Server 2008 R2
   
 -   Windows Server 2012  
   
@@ -91,8 +91,8 @@ This topic describes how to configure the firewall to enable remote debugging on
 |-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
 |3702|Outgoing|UDP|Required for remote debugger discovery.|  
-|4020||TCP|For VS 2015. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
-|4021||TCP|For VS 2015. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
+|4022||TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
+|4023||TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
   
 ## Ports on the remote computer that enable remote debugging with managed or native compatibility mode  
   

@@ -97,6 +97,7 @@
 ## [Remote Debug ASP.NET on an IIS Computer](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 ## [Remote Debug a C# Project](remote-debugging-csharp.md)
 ## [Remote Debug a C++ Project](remote-debugging-cpp.md)
+## [Remote Debug ASP.NET on Azure](remote-debugging-azure.md)
 ## [Configure the Windows Firewall for Remote Debugging](configure-the-windows-firewall-for-remote-debugging.md)
 ## [Remote Debugger Port Assignments](remote-debugger-port-assignments.md)
 ## [Remote Debugging Errors and Troubleshooting](remote-debugging-errors-and-troubleshooting.md)
