@@ -43,11 +43,13 @@ You can deploy an ASP.NET Web application to a Windows Server computer with IIS,
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm). For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 1. In Visual Studio, right-click the solution and choose **Publish**.
 
-2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish.
+2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
+
+    For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
