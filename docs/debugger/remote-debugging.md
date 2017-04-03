@@ -1,7 +1,7 @@
 ---
 title: "Remote Debugging in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "04/03/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +50,8 @@ For in-depth instructions on remote debugging, see these topics.
 |C# or Visual Basic|[Remote Debugging a C# or Visual Basic Project](remote-debugging-csharp.md)|
 |C++|[Remote Debugging a C++ Project](remote-debugging-cpp.md)|
 |Universal Windows Apps (UWP)|[Debug an Installed App Package](debug-installed-app-package.md)|
-|Azure|[Debugging an Azure cloud service or virtual machine in Visual Studio](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
+|Azure|[Remote Debugging ASP.NET on Azure](remote-debugging-azure.md)|
+|Azure Cloud Service|[Debugging an Azure cloud service](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   

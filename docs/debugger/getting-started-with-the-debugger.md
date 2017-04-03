@@ -1,5 +1,5 @@
 ---
-title: "Debugger Feature Tour | Microsoft Docs"
+title: "Get started with the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/04/2017"
 ms.reviewer: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debugger feature tour
+# Get started with the debugger
 
 This topic introduces the features of the Visual Studio debugger in an step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 
@@ -39,7 +39,7 @@ You can either read along to see the features of the debugger or you can downloa
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
-## Start the tour!
+## Start the debugger!
 
 1. To follow along these steps in Visual Studio, download the sample [on this page](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
@@ -285,8 +285,6 @@ Let's say that you are done examining the `Update` method in Data.cs, then you m
 2. Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
 
 3. Press F5 to continue the app.
-
-    Congratulations on completing the tour of the debugger! We hope you learned a lot about some of its main features!
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
