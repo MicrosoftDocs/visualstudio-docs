@@ -67,6 +67,8 @@ Here's how.
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.
 
 ## See also  
 * [Install Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)
