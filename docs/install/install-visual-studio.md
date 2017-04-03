@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "04/03/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
