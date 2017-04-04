@@ -1,7 +1,7 @@
 ---
 title: "Set a Watch on Variables in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "02/07/2017"
+ms.date: "04/04/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
-You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
+During a debugging session, you can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
   
 ## Observing a single variable with QuickWatch  
  You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  
@@ -63,11 +63,18 @@ static void Main(string[] args)
   
 2.  Start debugging. Execution stops at the breakpoint.  
   
-3.  Open the **QuickWatch** window (right-click on a, then choose **Debug / QuickWatch**, or **SHIFT+F9**).You can open the window and add the a variable to the **Expression** window, then click **Reevaluate**. You should see the a variable in the **Values** window, with a value of 2.  
+3.  Open the **QuickWatch** window (right-click on a, then choose **QuickWatch**, or **SHIFT+F9**).
+
+    You should see the a variable in the **Values** window, with a value of 2.
+
+    If you want to evaluate an expression using the variable, add an expression to the **Expression** window and click **Reevaluate**. 
   
-4.  The **QuickWatch** window is a modal dialog window, so you can’t continue debugging as long as it is open. You can add the variable to the **Watch** window by clicking **Add Watch**.  
+4.  Add the variable to the **Watch** window from **QuickWatch** by clicking **Add Watch**. 
+
+    > [!NOTE]
+    > The **QuickWatch** window is a modal dialog window, so you can’t continue debugging as long as it is open.  
   
-5.  Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window  
+5.  Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window.  
   
 ## Observing variables with the Watch window  
  You can observe multiple variables with the **Watch** window. For example, if you have the following code:  
