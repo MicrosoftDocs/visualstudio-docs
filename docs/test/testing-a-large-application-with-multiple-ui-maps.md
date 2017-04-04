@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests, for large applications"
 ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
 caps.latest.revision: 22
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "cs-cz"

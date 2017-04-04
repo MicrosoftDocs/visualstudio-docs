@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "coded UI tests, best practices"
 ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
 caps.latest.revision: 39
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "cs-cz"

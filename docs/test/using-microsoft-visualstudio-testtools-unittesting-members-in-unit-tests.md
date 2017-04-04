@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 6
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "data-driven unit tests"
 ms.assetid: a0322bc5-02c8-4f9f-af43-100a60b1bd28
 caps.latest.revision: 33
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"

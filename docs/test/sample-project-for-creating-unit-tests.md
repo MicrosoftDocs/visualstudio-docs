@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "unit tests, samples"
 ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 30
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "cs-cz"

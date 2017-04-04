@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "coded UI test, Coded UI Test Editor"
 ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
 caps.latest.revision: 40
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"
