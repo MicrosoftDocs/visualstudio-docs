@@ -10,7 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24afc90a-8774-4699-ab01-6602a7e6feb2
 caps.latest.revision: 13
-author: "douge"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

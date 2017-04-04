@@ -12,7 +12,6 @@ helpviewer_keywords:
   - "unit tests"
 ms.assetid: d3de7b31-0262-4373-ba84-e74eda7651e4
 caps.latest.revision: 26
-author: "douge"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

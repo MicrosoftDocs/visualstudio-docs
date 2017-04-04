@@ -12,7 +12,6 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.native.express"
 ms.assetid: c5355e43-a37c-4686-a969-18e3dfc59a9c
 caps.latest.revision: 13
-author: "douge"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
