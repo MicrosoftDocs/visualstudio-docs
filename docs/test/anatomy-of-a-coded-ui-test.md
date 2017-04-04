@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "coded UI tests"
 ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 23
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "cs-cz"

@@ -12,7 +12,7 @@ f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
 ms.assetid: a80ba9cd-4575-483c-b957-af7ed8dc7e20
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"
