@@ -7,6 +7,7 @@
 ### [Memory Usage without Debugging](memory-usage-without-debugging2.md)
 ## [CPU Usage](cpu-usage.md)
 ### [Analyze CPU Usage in a Windows Universal App](analyze-cpu-usage-in-a-windows-universal-app.md)
+## [GPU Usage](gpu-usage.md)
 ## [Application Timeline](application-timeline.md)
 ## [PerfTips](perftips.md)
 ## [JavaScript Memory](javascript-memory.md)

@@ -18,9 +18,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio data tools for .NET
-Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface.  The .NET Framework classes that provide data-access functionality are known as [ADO.NET](https://msdn.microsoft.com/en-us/library/e80y5yhx\(v=vs.110\).aspx). ADO.NET, along with the data tooling in Visual Studio, was originally designed primarily to support relational databases and XML. These days,  many NoSQL database vendors, or third parties, offer ADO.NET providers.  
+Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface.  The .NET Framework classes that provide data-access functionality are known as [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx). ADO.NET, along with the data tooling in Visual Studio, was originally designed primarily to support relational databases and XML. These days,  many NoSQL database vendors, or third parties, offer ADO.NET providers.  
   
- Visual Studio 2015 Update 2 includes the latest updates of            [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx), which enable support for the latest features in Azure [SQL Database](https://azure.microsoft.com/en-us/services/sql-database/) and [SQL Server 2016](https://www.microsoft.com/en-us/server-cloud/products/sql-server-2016/). [.NET Core](https://www.dotnetfoundation.org/netcore) supports ADO.NET, except for datasets and related types. If you are targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](https://msdn.microsoft.com/en-us/data/ef.aspx).  
+ Visual Studio 2015 Update 2 includes the latest updates of [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx), which enable support for the latest features in Azure [SQL Database](https://azure.microsoft.com/services/sql-database/) and [SQL Server 2016](https://docs.microsoft.com/sql/sql-hub-menu?toc=%2fsql%2ftoc.json). [.NET Core](https://www.dotnetfoundation.org/netcore) supports ADO.NET, except for datasets and related types. If you are targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](https://docs.microsoft.com/ef/core/).  
   
  The following diagram shows a simplified view of  the basic architecture:  
   
@@ -38,7 +38,7 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
 5.  Add custom code for things like business rules, search, and data validation, or to take advantage of custom functionality that the underlying database exposes.  
   
- You can skip step 3 and program a .NET application to issue commands directly to a database, rather than using a model. In this case, you will find the relevant documentation here: [ADO.NET](https://msdn.microsoft.com/en-us/library/e80y5yhx\(v=vs.110\).aspx). Note that you still can use the   Data Source Configuration Wizard and designers to generate data-binding code when you populate your own objects in memory and then data-bind UI controls to those objects.  
+ You can skip step 3 and program a .NET application to issue commands directly to a database, rather than using a model. In this case, you will find the relevant documentation here: [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx). Note that you still can use the   Data Source Configuration Wizard and designers to generate data-binding code when you populate your own objects in memory and then data-bind UI controls to those objects.  
   
 ## In this section  
   
