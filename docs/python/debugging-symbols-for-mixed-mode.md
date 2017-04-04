@@ -41,6 +41,8 @@ Visual Studio prompts you when it needs symbols, typically when starting a mixed
 - **Open symbol settings dialog** opens the **Options** dialog to the **Debugging > Symbols** tab.
 - **Download symbols for my interpreter** opens this present documentation page, in which case, select **Tools > Options** and navigate to the **Debugging > Symbols** tab to continue.
 
+![Mixed mode debugger symbols prompt](media/mixed-mode-debugging-symbols-required.png)
+
 ## Downloading symbols
 
 - Python 3.5 and later: acquire debug symbols through the Python installer. Select **Custom installation**, select **Next** to get to **Advanced Options**, then select the boxes for "Download debugging symbols** and **Download debug binaries**:
