@@ -34,14 +34,14 @@ translation.priority.ht:
 
 To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode.md) in Visual Studio needs to parse numerous internal data structures within the Python interpreter being used. This requires debug symbols for the interpreter itself. For python27.dll, for example, the corresponding symbol file is python27.pdb; for python36.dll, the symbol file is python36.pdb. Each version of the interpreter also supplies symbol files for a variety of modules.
 
-The process is to download the symbol files as appropriate to the interpreter being used by your project, then pointing Visual Studio to those symbols through the **Tools > Options** dialog in the **Debugging > Symbols** tab. These steps are detailed in the following sections.
+The process is to download the symbol files as appropriate to the interpreter being used by your project, then pointing Visual Studio to those symbols, if necessary, through the **Tools > Options** dialog in the **Debugging > Symbols** tab. These steps are detailed in the following sections.
 
-Visual Studio prompts you when it needs symbols, typically when starting a mixed-mode debugging session. In this case it displays a dialog with two choices:
+Visual Studio may prompt you when it needs symbols, typically when starting a mixed-mode debugging session. In this case it displays a dialog with two choices:
 
 - **Open symbol settings dialog** opens the **Options** dialog to the **Debugging > Symbols** tab.
 - **Download symbols for my interpreter** opens this present documentation page, in which case, select **Tools > Options** and navigate to the **Debugging > Symbols** tab to continue.
 
-![Mixed mode debugger symbols prompt](media/mixed-mode-debugging-symbols-required.png)
+    ![Mixed mode debugger symbols prompt](media/mixed-mode-debugging-symbols-required.png)
 
 ## Downloading symbols
 
@@ -49,7 +49,7 @@ Visual Studio prompts you when it needs symbols, typically when starting a mixed
 
     ![Python 3.x installer including debug symbols](media/mixed-mode-debugging-symbols-installer35.png)
 
-    The symbol files (`.pdb`) are then found in the root installation folder (symbol files for individual modules are in the `DLLs` folder as well).
+    The symbol files (`.pdb`) are then found in the root installation folder (symbol files for individual modules are in the `DLLs` folder as well). Because of this, Visual Studio will find them automatically, and no further steps are needed.
 
 - Python 3.4.x and earlier: symbols are available as downloadable .zip files from the [official distributions](#official-distributions) or [Enthought Canopy](#enthought-canopy) as given below. After downloading, extract files to a local folder to continue, such as a `Symbols` folder within the Python folder.
 
@@ -60,9 +60,11 @@ Visual Studio prompts you when it needs symbols, typically when starting a mixed
 
 ## Pointing Visual Studio to the symbols
 
+If you downloaded symbols separately, follow the steps below to make Visual Studio aware of them. If you installed symbols through the Python 3.5 or later installer, Visual Studio will find them automatically.
+
 1. Select the **Tools > Options** menu and navigate to **Debugging > Symbols**.
     
-1. Select the Add button on the toolbar (outlined below), enter the folder containing the `python.pdb` file for the interpreter being used (such as `c:\python34\Symbols`, shown below), and select **OK**. For Python 3.5 and above, the folder will be the root install folder; for Python 3.4.x and earlier, this will be wherever you extracted the .zip file.
+1. Select the Add button on the toolbar (outlined below), enter the folder where you expanded the downloaded symbols (which is where `python.pdb` is located, such as `c:\python34\Symbols`, shown below), and select **OK**. 
 
     ![Mixed mode debugger symbols options](media/mixed-mode-debugging-symbols.png)
 
