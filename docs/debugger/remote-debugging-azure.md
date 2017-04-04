@@ -33,7 +33,8 @@ translation.priority.mt:
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017
 You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
 
-    > [!IMPORTANT] Be sure to delete the Azure resources that you create when you have completed the steps in this tutorial. That way you can avoid incurring unnecessary charges.
+    > [!CAUTION]
+    > Be sure to delete the Azure resources that you create when you have completed the steps in this tutorial. That way you can avoid incurring unnecessary charges.
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
@@ -43,7 +44,7 @@ You can deploy an ASP.NET Web application to a Windows Server computer with IIS,
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm). For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
 
 1. In Visual Studio, right-click the solution and choose **Publish**.
 
@@ -57,7 +58,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
     The breakpoint should be hit in Visual Studio.
 
-    That's it! The rest of the steps in this topic are for remote debugging on an Azure VM.
+    That's it! The rest of the steps in this topic apply to remote debugging on an Azure VM.
 
 ## <a name="BKMK_azure_vm"></a> Remote Debug ASP.NET Core on an Azure VM
 
@@ -69,7 +70,7 @@ When you open port 80 in the Network security group, also open port 4022 for the
 
 ### Update browser security settings on Windows Server
 
-Depending on your security settings, it may save you time to add the following trusted sites to your browser so you can easily download the software described in this tutorial. Access to these sites may be needed:
+Depending on your browser security settings, it may save you time to add the following trusted sites to your browser so you can easily download the software described in this tutorial. Access to these sites may be needed:
 
 - microsoft.com
 - go.microsoft.com
@@ -86,10 +87,6 @@ When you download the software, you may get requests to grant permission to load
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
-
-2. Get updated ASP.NET Core components by installing the [.NET Core SDK](https://www.microsoft.com/net/download/core), which has ASP.NET Core 1.1 support.
-
-    This is required to use the Visual Studio ASP.NET Core 1.1 templates described in earlier steps.
 
 3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
@@ -141,11 +138,11 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
     If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the correct ports are open (Web Deploy also requires port 8172 to be open on the server).
 
-    If the app deploys successfully but doesn't run correctly, there may be an issue with your IIS configuration, your ASP.NET installation, or your Web site configuration. On the Windows Server, open the Web site from IIS for more specific error messages, and then recheck earlier steps.
+    If the app deploys successfully but doesn't run correctly, recheck that both IIS and your Visual Studio project are using the same version of ASP.NET. If that is not the problem, there may be an issue with your IIS configuration or your Web site configuration. On the Windows Server, open the Web site from IIS for more specific error messages, and then recheck earlier steps.
 
 ### (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
-You can also publish and deploy the app using the file system or other tools.
+If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, RoboCopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
@@ -190,7 +187,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 ### <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
 
-In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
+In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues, you may need to verify that the correct ports are open.
 
 On an Azure VM, you must open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
 
