@@ -193,7 +193,7 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
     Now, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
     
     > [!TIP]
-    > If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows#bkmk_objectIds).
+    > If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 
