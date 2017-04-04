@@ -13,6 +13,7 @@ f1_keywords:
   - "join"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Join method"
@@ -47,7 +48,7 @@ arrayObj.join([separator])
 ## Example  
  The following example illustrates the use of the **join** method.  
   
-```javascript  
+```JavaScript  
 var a, b;  
 a = new Array(0,1,2,3,4);  
 b = a.join("-");  

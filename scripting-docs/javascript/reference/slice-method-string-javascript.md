@@ -13,6 +13,7 @@ f1_keywords:
   - "slice"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "strings [Visual Studio], returning characters"
@@ -53,7 +54,7 @@ stringObj.slice(start, [end])
 ## Example  
  In the first example, the `slice` method returns the entire string. In the second example, the `slice` method returns the entire string, except for the last character.  
   
-```javascript  
+```JavaScript  
 var str1 = "all good boys do fine";  
   
 var slice1 = str1.slice(0);  

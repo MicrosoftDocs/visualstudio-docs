@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Debugging Python and C++ Together
 
-Most regular Python debuggers, including Python Tools for Visual Studio (PTVS) before version 2.0, support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required. PTVS 2.0 and later (on any Visual Studio edition) provides integrated, simultaneous mixed-mode debugging for Python and native (C/C++), with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
+Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required (see [Creating a C++ Extension for Python](cpp-and-python.md) for an example. Visual Studio (when using Python Tools for Visual Studio 2.0 and later) provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 
@@ -46,6 +46,9 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
     ![Enabling native code debugging](media/mixed-mode-debugging-enable-native.png)
 
+    > [!Tip]    
+    > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual "Press any key to continue..." pause. To force a pause, add the `-i` option to the **Run > Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This will put the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press Ctrl+Z, Enter to exit.
+
 1. When attaching the mixed-mode debugger to an existing process (**Debug > Attach to Process...**), select the **Select...** button to open the **Select Code Type** dialog, set the **Debug these code types** option, and select both **Native** and **Python** in the list:
 
     ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
@@ -54,8 +57,9 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
     It is possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
-1. When you start debugging in mixed mode for the first time, you will likely see a **Python Symbols Required** dialog. See [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md) for details. You need to install symbols only once for any given Python environment.
+1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog. See [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md) for details. You need to install symbols only once for any given Python environment. Note that if you install Python support through the Visual Studio 2017 installer, symbols are included automatically.
 
+1. You may also want to have the Python source code itself on hand. For standard Python, this can be obtained from [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/). Download the archive appropriate for your version and extract it to a folder. You'll point Visual Studio to specific files in that folder at whatever point it prompts you.
 
 ## Mixed-mode specific features
 

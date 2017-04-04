@@ -13,6 +13,7 @@ f1_keywords:
   - "floor"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "floor method"

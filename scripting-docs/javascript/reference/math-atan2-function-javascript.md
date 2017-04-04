@@ -13,6 +13,7 @@ f1_keywords:
   - "atan2"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "atan2 method"

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "functions, recursive function calls"
@@ -28,7 +29,7 @@ Recursion is an important programming technique, in which a function calls itsel
 ## An Example of Recursion  
  One example is the calculation of factorials. The factorial of a number *n* is calculated by multiplying 1 \* 2 \* 3 \*... *n*. The following example shows how to calculate factorials iteratively, that is, by using a `while` loop in which the result is calculated.  
   
-```javascript  
+```JavaScript  
 function factorial(num)  
 {  
     // If the number is less than 0, reject it.  
@@ -54,7 +55,7 @@ document.write(result);
   
  You can make the example recursive very simply. Instead of using a `while` loop to calculate the value, you can simply call `factorial` again, passing in the next lowest value. The recursion stops when the value is 1.  
   
-```javascript  
+```JavaScript  
 function factorial(num)  
 {  
     // If the number is less than 0, reject it.  

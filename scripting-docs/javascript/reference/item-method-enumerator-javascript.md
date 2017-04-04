@@ -13,6 +13,7 @@ f1_keywords:
   - "item"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Item method"
@@ -43,7 +44,7 @@ enumObj.item()
 ## Example  
  In following code, the **item** method is used to return a member of the `Drives` collection.  
   
-```javascript  
+```JavaScript  
 function ShowDrives()  
 {  
     var s = "";  

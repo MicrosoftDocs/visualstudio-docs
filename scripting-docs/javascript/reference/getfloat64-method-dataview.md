@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 347adeb6-b24c-4e7d-8b6b-8e36aacdcae1
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ var testFloat = dataView.getFloat64(byteOffset, littleEndian);
 ## Example  
  The following example shows how to get the first Float64 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

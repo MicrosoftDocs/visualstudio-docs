@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "bind method [JavaScript]"
@@ -27,7 +28,7 @@ The JavaScript `bind` method has several uses. Typically, it is used to preserve
 ## Preserving the execution context using bind  
  The `bind` function is often used when adding event listeners. In the following code example, `bind` is used to preserve the context of the current object (`DataObject`). The data object is passed to `bind` by using the `this` keyword, which provides access to data object properties and functions when the event handler (`dataReadyHandler`) runs. To illustrate how `bind` works, this code creates a custom event.  
   
-```javascript  
+```JavaScript  
 var data;  
   
 var dataReadyEvent = document.createEvent("Event");  

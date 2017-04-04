@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript, write"
@@ -28,7 +29,7 @@ There are a number of ways to display text in a webpage. Each has advantages and
   
 -   The recommended way to display text is to create an element and write to its textContent property.  
   
-    ```javascript  
+    ```JavaScript  
     <div id="textDiv"></div>  
     <script type="text/javascript">  
         var div = document.getElementById("textDiv");  
@@ -39,7 +40,7 @@ There are a number of ways to display text in a webpage. Each has advantages and
   
      In this example, the value of `text` is "my text". However, the value resulting from getting or setting the `textContent` property on a parent node might include text content from the node's children. The following example shows that the `textContent` that is set on a child node is included in the value of `textContent` of the parent node:  
   
-    ```javascript  
+    ```JavaScript  
     <div id="textDiv">  
         <div id="nested"></div>  
     </div>  

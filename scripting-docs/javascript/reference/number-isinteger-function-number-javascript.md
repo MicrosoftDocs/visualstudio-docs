@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 54fcf68c-0067-4bad-af94-d7ff8c88914a
 caps.latest.revision: 2
@@ -39,7 +40,7 @@ Number.isInteger(numValue)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns true  
 Number.isInteger(100)  
 Number.isInteger(-100)  

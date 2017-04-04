@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "map method [JavaScript]"
@@ -80,7 +81,7 @@ array1.map(callbackfn[, thisArg])
 ## Example  
  The following example illustrates the use of the `map` method.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function AreaOfCircle(radius) {  
     var area = Math.PI * (radius * radius);  
@@ -102,7 +103,7 @@ document.write(areas);
 ## Example  
  The following example illustrates the use of the `thisArg` argument, which specifies an object to which the `this` keyword can refer.  
   
-```javascript  
+```JavaScript  
 // Define an object that contains a divisor property and  
 // a remainder function.  
 var obj = {  
@@ -127,7 +128,7 @@ document.write(result);
 ## Example  
  In the following example, a built-in[!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] method is used as the callback function.  
   
-```javascript  
+```JavaScript  
 // Apply Math.sqrt(value) to each element in an array.  
 var numbers = [9, 16];  
 var result = numbers.map(Math.sqrt);  
@@ -139,7 +140,7 @@ document.write(result);
 ## Example  
  The `map` method can be applied to a string. The following example illustrates this.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function threeChars(value, index, str) {  
     // Create a string that contains the previous, current,  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 10263a4c-bd27-4d87-9917-fb4b6bf373db
 caps.latest.revision: 5
@@ -45,7 +46,7 @@ func([args ,] ...iterable [, args | ...iterable])
 ## Example  
  In this following code example, the use of the spread operator is contrasted with the use of the `concat` method.  
   
-```javascript  
+```JavaScript  
 var a, b, c, d, e;  
 a = [1,2,3];  
 b = "dog";  
@@ -68,7 +69,7 @@ console.log(e);
 ## Example  
  The following code example shows how to use the spread operator in a function call. In this example, two array literals are passed to the function using the spread operator, and the arrays are expanded to multiple arguments.  
   
-```javascript  
+```JavaScript  
 function f(a, b, c, x, y, z) {  
   return a + b + c + x + y + z;  
 }  
@@ -84,7 +85,7 @@ console.log(f(...args, 4, ...[5, 6]));
 ## Example  
  With spread operators, you can simplify code that previously required the use of `apply`.  
   
-```javascript  
+```JavaScript  
 function f(x, y, z) {  
     return x + y + z;  
 }  

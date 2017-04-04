@@ -66,7 +66,10 @@ Also see the video [Deep Dive: Using source control with Python projects](https:
 
 As you develop your application, you'll typically need to add new files of different types to the project. This is easily done by right-clicking the project and selecting **Add > Existing Item...**, with which you browse for a file to add, or **Add > New Item...**, which brings up a dialog with a variety of item templates including empty python files, a python class, a unit test, and various files related to web applications. We encourage you to explore these options with a test project to learn what's available in your version Visual Studio.
 
-Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. This is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or execute your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. This is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or run your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+
+> [!Tip]
+> If you remove the selected startup file from a project and don't select a new one, attempting to run your project will result in a Python output window appearing but then and disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This will cause the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
 A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right click the desired environment and select **Activate Environment** as shown below. For more details, see [Python Environments](python-environments.md#project-specific-environments).
 
@@ -92,6 +95,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
+| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 Preview (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
 ### Creating a project from existing files

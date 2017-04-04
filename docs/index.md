@@ -223,7 +223,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833095">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -241,7 +241,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                         </div>
                                     </div>
                                 </a>
-                            </li>							
+                            </li>                            
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833075">
                                     <div class="cardSize">
@@ -282,7 +282,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Mobile development for .NET</h3>
+                                                    <h3>Mobile development with .NET</h3>
                                                     <p>Build cross-platform applications for iOS, Android, or Windows using Xamarin.</p>
                                                 </div>
                                             </div>
@@ -565,8 +565,26 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Extend</h3>
-                                                    <p>Add your own functionality to the Visual Studio IDE to improve your development experience.
-                                                    </p>
+                                                    <p>Add your own functionality to the Visual Studio IDE to improve your development experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-9.svg" src="./images/vs_features-9.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Data</h3>
+                                                    <p>Create applications that connect to data in virtually any database product or service, in any format, anywhere&#8211;on a local machine, on a local area network, or in a public, private, or hybrid cloud.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -741,34 +759,34 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
             </li>
         </ul>
     </div>
-	<div class="container centered pageFooter">
-		<h2>Keep in touch with us</h2>
-		<ul class="links">
-		   <li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833100">
-					Blog
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833101">
-					Twitter
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833103">
-					Stack Overflow
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833104">
-					Issue Reporting
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833105">
-					User Voice
-				</a>
-			</li>
-		</ul>
-	</div>
+    <div class="container centered pageFooter">
+        <h2>Keep in touch with us</h2>
+        <ul class="links">
+           <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833100">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833101">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833103">
+                    Stack Overflow
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833104">
+                    Issue Reporting
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833105">
+                    User Voice
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

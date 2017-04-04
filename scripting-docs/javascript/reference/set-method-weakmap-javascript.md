@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 29fc72b1-224f-4f19-8c06-5d926d695b03
 caps.latest.revision: 6
@@ -23,7 +24,7 @@ Adds a new element to a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.set(key, value)  
 ```  
   
@@ -46,7 +47,7 @@ weakmapObj.set(key, value)
 ## Example  
  The following example shows how to add members to a `WeakMap` object.  
   
-```javascript  
+```JavaScript  
 var dog = {  
     breed: "yorkie"  
 }  

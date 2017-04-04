@@ -13,6 +13,7 @@ f1_keywords:
   - "DateTimeFormat"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: cc555ac2-f31c-4239-a612-b84c08e3a37f
 caps.latest.revision: 14
@@ -107,7 +108,7 @@ dateTimeFormatObj = new Intl.DateTimeFormat([locales][, options])
 ## Example  
  The following example shows the result of passing a date object to `DateTimeFormat` using different locales.  
   
-```javascript  
+```JavaScript  
 var date = new Date(Date.UTC(2013, 1, 1, 14, 0, 0));  
 var options = { weekday: "long", year: "numeric", month: "short",  
     day: "numeric" };  
@@ -127,7 +128,7 @@ if (console && console.log) {
 ## Example  
  The following example creates a `DateTimeFormat` object that specifies the current weekday in long format using the Arabic (Saudi Arabia) locale, the Islamic calendar, and the Latin numbering system.  
   
-```javascript  
+```JavaScript  
 var dtf = new Intl.DateTimeFormat(["ar-SA-u-ca-islamic-nu-latn"], {  
     weekday: "long",  
     year: "numeric",  

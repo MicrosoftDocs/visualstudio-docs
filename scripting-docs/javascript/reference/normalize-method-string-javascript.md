@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d50077c1-b5fa-4e7a-9c9d-dc66cfc423ac
 caps.latest.revision: 4
@@ -48,7 +49,7 @@ stringObj.normalize([form]);
 ## Example  
  The following code examples show the use of the `normalize` method.  
   
-```javascript  
+```JavaScript  
 // ANGSTORM SIGN and LATIN CAPITAL A WITH RING ABOVE is canonically equivalent  
 "\u212b".normalize("NFC") === "\u00c5";  
   

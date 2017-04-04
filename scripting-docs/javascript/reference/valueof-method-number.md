@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0242a9ce-d41a-4c9b-af59-e8df32bbd913
 caps.latest.revision: 2
@@ -37,7 +38,7 @@ number.valueOf()
 ## Remarks  
  In the following example, the instantiated number object is the same as the return value of this method.  
   
-```javascript  
+```JavaScript  
 var num = 1234;  
 var s = num.valueOf();  
   
