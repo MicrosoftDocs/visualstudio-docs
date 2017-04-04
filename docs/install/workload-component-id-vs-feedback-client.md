@@ -1,10 +1,10 @@
 ---
-title: [Visual Studio Feedback Client 2017 workload and component IDs | Microsoft Docs]
+title: Visual Studio Feedback Client 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to provide rich feedback for Visual Studio Team Services or Team Foundation Server"
 keywords:
-author: [TerryGLee]
-ms.author: [tglee]
-manager: [ghogen]
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
 ms.date:  03/07/2017
 ms.topic: article
 helpviewer_keywords:
