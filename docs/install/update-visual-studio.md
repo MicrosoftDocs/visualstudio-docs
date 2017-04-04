@@ -32,8 +32,10 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Change Visual Studio 2017 by updating to the most recent build
-It’s easy to update to the newest build of Visual Studio. Here's how.
+# Change Visual Studio 2017 by updating to the most recent release
+We update Visual Studio often to fix customer-reported issues and to extend its functionality. To make sure you have the most [current, optimized release of Visual Studio](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history), you'll want to update it.
+
+Here's how.
 
 ## Update the Visual Studio Installer
 
@@ -46,21 +48,28 @@ It’s easy to update to the newest build of Visual Studio. Here's how.
      >[!NOTE]
      On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.
 
-2.  When you click or tap to start the Visual Studio Installer, its update mechanism will start automatically. Click **Update** to continue.
+2.  When you open the Visual Studio Installer, its update mechanism will start automatically. Click **Update** to continue.
 
      ![Visual Studio Installer](media/update-visual-studio-installer.png "Update the Visual Studio Installer")
 
+  After the Visual Studio Installer updates, it will open.
+
+      ![Visual Studio Installer](media/updated-visual-studio-installer.png "The updated the Visual Studio Installer")
+
 ## Update Visual Studio
 
-1.  Click or tap to start the Visual Studio Installer, and then select **Update**.
+1.  Open the Visual Studio Installer, and then select **Update**.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
      >[!NOTE]
-     If you don't see the Update button, then you already have the latest build.
+     If you don't see the Update button, then you already have the [most current release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history).
 
-2.  Next, watch your updates install. When you're at 100%, you're done.
+2.  Next, watch your updates install.
 
+     ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio-progress-bar.png "Update Visual Studio - progress bar")
+
+3. If you are asked to reboot your computer, do so. Then, start Visual Studio, and you're good to go.     
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.
