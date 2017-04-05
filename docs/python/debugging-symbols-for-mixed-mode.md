@@ -34,7 +34,7 @@ translation.priority.ht:
 
 To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode.md) in Visual Studio needs to parse numerous internal data structures within the Python interpreter being used. This requires debug symbols for the interpreter itself. For python27.dll, for example, the corresponding symbol file is python27.pdb; for python36.dll, the symbol file is python36.pdb. Each version of the interpreter also supplies symbol files for a variety of modules.
 
-The process is to download the symbol files as appropriate to the interpreter being used by your project, then pointing Visual Studio to those symbols, if necessary, through the **Tools > Options** dialog in the **Debugging > Symbols** tab. These steps are detailed in the following sections.
+With Visual Studio 2017, the "Python 3" and "Anaconda 3" interpreters automatically install their respective symbols and Visual Studio will find them automatically. For Visual Studio 2015 and earlier, or when using other interpreters, you'll need to download symbols separately and then point Visual Studio to them through the **Tools > Options** dialog in the **Debugging > Symbols** tab. These steps are detailed in the following sections.
 
 Visual Studio may prompt you when it needs symbols, typically when starting a mixed-mode debugging session. In this case it displays a dialog with two choices:
 
@@ -45,7 +45,7 @@ Visual Studio may prompt you when it needs symbols, typically when starting a mi
 
 ## Downloading symbols
 
-- Python 3.5 and later: acquire debug symbols through the Python installer. Select **Custom installation**, select **Next** to get to **Advanced Options**, then select the boxes for "Download debugging symbols** and **Download debug binaries**:
+- Python 3.5 and later: acquire debug symbols through the Python installer. Select **Custom installation**, select **Next** to get to **Advanced Options**, then select the boxes for **Download debugging symbols** and **Download debug binaries**:
 
     ![Python 3.x installer including debug symbols](media/mixed-mode-debugging-symbols-installer35.png)
 
