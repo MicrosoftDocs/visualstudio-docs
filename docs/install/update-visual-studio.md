@@ -35,27 +35,32 @@ translation.priority.mt:
 # Update Visual Studio 2017 to the most recent release
 We update Visual Studio often to extend its functionality and to fix customer-reported issues. To make sure you have the most [current, optimized release of Visual Studio](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history), you'll want to update it. Here's how.
 
-## Update by using the Notification Hub
-When there are updates, you will see a notification flag in Visual Studio.
+## Update by using the Notification Center
+1. When there are updates, you will see a notification flag in Visual Studio.
 
+  ![Update Visual Studio 2017 by using the Notification Center](media/notification-flag.png "The Notification Center in Visual Studio")
 
+  Click or tap the notification flag to open the Notification Center.
 
-1. Click the notification, which will open the Notification Hub.
+  ![Update Visual Studio 2017 by using the Notification Center](media/notification-center.png "The Notification Center in Visual Studio")
 
-2. Review the list of updates that are available, and click x.
+  Then, click or tap the **"Visual Studio Update" is available** to open the Extensions and Updates dialog.
+
+2. Click or tap the **Update** button.
+
+  ![Update Visual Studio 2017 by using the Notification Center](media/notification-extension-and-updates.png "The Notification Center in Visual Studio")
+
 
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
  >[!NOTE]
  > On a computer running Windows 10, you'll find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
-2.	On the Product page in the installer, look for the edition of Visual Studio that you have installed.
+2.	On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
 
-3.	If an Update is available, you'll see an Update button. (It might take a few seconds for the installer to determine whether an update is available.)
+3.	If an update is available, you'll see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.) Click or tap the **Update** button to install the updates.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
-
-4.	Click or tap the Update button to install the updates.
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.
