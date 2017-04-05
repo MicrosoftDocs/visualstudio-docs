@@ -44,7 +44,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Report Hook Functions
-A report hook function, installed using [_CrtSetReportHook](/visual-cpp/c-runtime-library/reference/crtsetreporthook), is called every time [_CrtDbgReport](/visual-cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
+A report hook function, installed using [_CrtSetReportHook](/cpp/c-runtime-library/reference/crtsetreporthook), is called every time [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
   
 ```  
 int YourReportHook(int nRptType, char *szMsg, int *retVal);  

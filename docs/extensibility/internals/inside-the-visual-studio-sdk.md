@@ -108,7 +108,7 @@ Generalized view of the Visual Studio architecture
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.  
   
 > [!NOTE]
->  This template architecture is not supported for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project templates, see [Designing a Wizard](/visual-cpp/ide/designing-a-wizard).  
+>  This template architecture is not supported for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project templates, see [Designing a Wizard](/cpp/ide/designing-a-wizard).  
   
  For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).  
   
