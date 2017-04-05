@@ -44,7 +44,7 @@ IDebugField : IUnknown
  A symbol provider implements this interface as the base class for all fields.  
   
 ## Notes for Callers  
- This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md), this interface may return more specialized interfaces by using [QueryInterface](/visual-cpp/atl/queryinterface). In addition, many interfaces return `IDebugField` objects from various methods.  
+ This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md), this interface may return more specialized interfaces by using [QueryInterface](/cpp/atl/queryinterface). In addition, many interfaces return `IDebugField` objects from various methods.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugField`.  

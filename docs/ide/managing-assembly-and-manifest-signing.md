@@ -40,7 +40,7 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  For information about signing assemblies in Visual Basic and C# projects, see [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).  
   
- For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).  
+ For information about signing assemblies in Visual C++ projects, see [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).  
 
 > [!NOTE]
 >  Strong-name signing does not protect against reverse-engineering of the assembly.  To protect against reverse-engineering, see [Dotfuscator Community Edition (CE)](dotfuscator/index.md).
@@ -82,4 +82,4 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
 ## See Also  
  [Strong-Named Assemblies](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
- [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)
+ [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

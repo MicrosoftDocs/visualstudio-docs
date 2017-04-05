@@ -44,7 +44,7 @@ IDebugPortSupplier3 : IDebugPortSupplier2
  A custom port supplier implements this interface to support persisting or saving port information to disk. This interface must be implemented on the same object as the [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) interface.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPortSupplier2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on the `IDebugPortSupplier2` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods inherited from the [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) interface, this interface supports the following:  

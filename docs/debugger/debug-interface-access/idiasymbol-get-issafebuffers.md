@@ -65,4 +65,4 @@ HRESULT get_isSafeBuffers( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [strict_gs_check](/visual-cpp/preprocessor/strict-gs-check)
+ [strict_gs_check](/cpp/preprocessor/strict-gs-check)

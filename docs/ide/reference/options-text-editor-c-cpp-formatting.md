@@ -76,16 +76,16 @@ Lets you change the default behavior of the Code Editor when you are programming
  When you bring a file into the text editor, you can enable the outlining feature. For more information, see [Outlining](../../ide/outlining.md). When this option is selected, the outlining feature is enabled when you open a file.  
   
  **Automatic outlining of #pragma region blocks**  
- When this option is selected, automatic outlining for [pragma directives](/visual-cpp/preprocessor/pragma-directives-and-the-pragma-keyword) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
+ When this option is selected, automatic outlining for [pragma directives](/cpp/preprocessor/pragma-directives-and-the-pragma-keyword) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
   
  **Automatic outlining of statement blocks**  
  When this option is selected, automatic outlining is enabled for the following statement constructs:  
   
 -   [if-else](/dotnet/csharp/language-reference/keywords/if-else)  
   
--   [switch Statement (C++)](/visual-cpp/cpp/switch-statement-cpp)  
+-   [switch Statement (C++)](/cpp/cpp/switch-statement-cpp)  
   
--   [while Statement (C++)](/visual-cpp/cpp/while-statement-cpp)  
+-   [while Statement (C++)](/cpp/cpp/while-statement-cpp)  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

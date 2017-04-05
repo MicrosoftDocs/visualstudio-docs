@@ -52,7 +52,7 @@ IDebugProperty3 : IDebugProperty2
  The debug engine (DE) implements this interface on the same object that implements [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) to provide support for long strings, property IDs, and custom viewers.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProperty2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProperty2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from `IDebugProperty2`, the `IDebugProperty3` interface exposes the following methods.  

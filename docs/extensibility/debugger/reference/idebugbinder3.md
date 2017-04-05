@@ -47,7 +47,7 @@ IDebugBinder3 : IDebugBinder
  A debug engine implements this interface to support aliases, custom visualizer services, and access to object type information.  
   
 ## Notes for Callers  
- An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](/visual-cpp/atl/queryinterface).  
+ An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](/cpp/atl/queryinterface).  
   
 ## Methods in Vtable order  
  In addition to the methods provided by the [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface, this interface implements the following:  

@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noInline
-Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/visual-cpp/cpp/noinline) attribute).  
+Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/cpp/cpp/noinline) attribute).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noInline(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noinline](/visual-cpp/cpp/noinline)
+ [noinline](/cpp/cpp/noinline)
