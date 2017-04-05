@@ -1,7 +1,7 @@
 ---
-title: "Specify Symbol (.pdb) and Source Files in the Debugger | Microsoft Docs"
+title: "Specify symbol (.pdb) and source files in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "04/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,10 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
-  - "vs.debug.nosymbols" 
   - "VS.ToolsOptionsPages.Debugger.Native"
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
+  - "vs.debug.nosymbols" 
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -48,29 +48,39 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger
-A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source files for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information: the source file and line number that are displayed in the Visual Studio IDE and the location in the executable to stop at when you set a breakpoint. A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.  
+# Specify symbol (.pdb) and source files in the Visual Studio debugger
+A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source code for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information:
+
+* Name of the source file and line number displayed in the Visual Studio IDE
+* Location in the executable to stop at when you set a breakpoint.
+
+A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.  
   
- When you debug a project in the Visual Studio IDE, the debugger knows the default location for the .pdb and source files for your code. If you want to debug code outside your project source code, such as the Windows or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
+> [!TIP]
+> If you want to debug code outside your project source code, such as the Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
+ 
   
- Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. This is no longer the case. All symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
-  
-##  <a name="BKMK_Find_symbol___pdb__files"></a> Where the debugger searches for .pdb files  
+##  <a name="BKMK_Find_symbol___pdb__files"></a> Where does the debugger search for symbol files? 
   
 1.  The location that is specified inside the DLL or the executable file.  
   
      (By default, if you have built a DLL or an executable file on your computer, the linker places the full path and file name of the associated .pdb file inside the DLL or the executable file. The debugger first checks to see if the symbol file exists in the location that is specified inside the DLL or the executable file. This is helpful, because you always have symbols available for code that you have compiled on your computer.)  
   
-2.  .pdb files that could be present in the same folder as the DLL or executable file.  
+2.  .pdb files that are present in the same folder as the DLL or executable file.
+
+3. Any locations [specified in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior) for symbol files. 
   
-3.  Any local symbol cache folders.  
+    * Any local symbol cache folders.  
   
-4.  Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled.  
+    * Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled. 
+
+> [!NOTE]
+> Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. This is no longer the case. All symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
   
 ###  <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> Why do symbol files need to exactly match the executable files?  
- The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).  
+The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).  
   
-###  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Specify symbol locations and loading behavior  
+###  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and specify symbol loading behavior 
  When you debug a project in the VS IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**.You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
   
 1.  In Visual Studio, open the **Tools / Options / Debugging / Symbols** page.  
@@ -79,7 +89,9 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
   
 2.  Choose the folder ![Tools&#47; Options&#47; Debugging&#47;Symbols  folder icon](../debugger/media/dbg_tools_options_foldersicon.png "DBG_Tools_Options_FoldersIcon") icon. Editable text appears in the **Symbol file (.pdb) locations** box.  
   
-3.  Type the URL or directory path of the symbol server or symbol location. Statement completion helps you find the correct format.  
+3.  Type the URL or directory path of the symbol server or symbol location. Statement completion helps you find the correct format.
+
+    You can use **Ctrl+Up** and **Ctrl+Down** to change the loading order for symbol locations. Press **F2** to edit a URL or directory path.
   
 4.  To improve symbol loading performance type the path a local directory where symbols can be copied by symbol servers in the **Cache symbols in this directory** box a local directory that symbols can be copied to.  
   
@@ -96,13 +108,9 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
   
  **Specify additional symbol options**  
   
- You can also set the following options on the **Tools / Options / Debugging / Symbols** page:  
+ You can also set the following options on the **Tools / Options / Debugging / General** page:  
   
- **Warn if no symbols on launch (native only)**  
-  
- When selected, displays a warning dialog box when you try to debug a program for which the debugger has no symbolic information.  
-  
- **Load DLL exports**  
+ **Load DLL exports (native only)**  
   
  When selected, loads DLL export tables. Symbolic information from DLL export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any DLL for which you do not have symbols. Reading DLL export information involves some overhead. Therefore, this capability is turned off by default.  
   
@@ -201,7 +209,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
   
  **Web applications**  
   
- The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. VS sets this automatically when you start to debug, if you created your project from the Web projects template.  
+ The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the Web projects template.  
   
 ##  <a name="BKMK_Find_source_files"></a> Find source files  
   
