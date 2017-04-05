@@ -8,7 +8,8 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
+  - "vs.debug.nosymbols" 
   - "VS.ToolsOptionsPages.Debugger.Native"
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
