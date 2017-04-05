@@ -48,7 +48,7 @@ This section includes user interface reference, language equivalents, and other 
  [Visual Studio for Applications Reference](../../ide/reference/visual-studio-for-applications-reference.md)  
  Contains reference documentation for interfaces that you can use to integrate .NET Framework script engines into applications.  
   
- [MSBuild](../../msbuild/msbuild1.md)  
+ [MSBuild](../../msbuild/msbuild.md)
  Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
  [Resources for Troubleshooting IDE Errors](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
