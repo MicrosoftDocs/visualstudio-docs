@@ -35,21 +35,20 @@ translation.priority.mt:
 # Update Visual Studio 2017 to the most recent release
 We update Visual Studio often to extend its functionality and to fix customer-reported issues. To make sure you have the most [current, optimized release of Visual Studio](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history), you'll want to update it. Here's how.
 
-## Update by using the Notification Center
+## Update by using the Notifications hub
 1. When there are updates, you will see a notification flag in Visual Studio.
 
-  ![Update Visual Studio 2017 by using the Notification Center](media/notification-flag.png "The Notification Center in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The Notifications flag in Visual Studio")
 
-  Click or tap the notification flag to open the Notification Center.
+  Click or tap the notification flag to open the **Notifications** hub.
 
-  ![Update Visual Studio 2017 by using the Notification Center](media/notification-center.png "The Notification Center in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notification hub](media/notification-center.png "The Notifications hub in Visual Studio")
 
-  Then, click or tap the **"Visual Studio Update" is available** to open the Extensions and Updates dialog.
+  Then, click or tap **"Visual Studio Update" is available** to open the **Extensions and Updates** dialog.
+
+  ![Update Visual Studio 2017 by using the Notification hub](media/notification-extension-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
 2. Click or tap the **Update** button.
-
-  ![Update Visual Studio 2017 by using the Notification Center](media/notification-extension-and-updates.png "The Notification Center in Visual Studio")
-
 
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
