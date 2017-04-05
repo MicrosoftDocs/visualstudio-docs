@@ -55,7 +55,7 @@ Projects have properties that govern many aspects of compilation, debugging, tes
   
  ![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png "VS2015_ProjProps_cpp")  
   
- For information about C++ project properties, see [Working with Project Properties](/visual-cpp/ide/working-with-project-properties). For more information about JavaScript properties, see [Property Pages, JavaScript](../ide/reference/property-pages-javascript.md).  
+ For information about C++ project properties, see [Working with Project Properties](/cpp/ide/working-with-project-properties). For more information about JavaScript properties, see [Property Pages, JavaScript](../ide/reference/property-pages-javascript.md).  
   
 ## Solution Properties  
  To access properties on the solution, right click the solution node in **Solution Explorer** and choose **Properties**. In the dialog, you can set project configurations for Debug or Release builds, choose which projects(s) should be the startup project when F5 is pressed, and set code analysis options.  

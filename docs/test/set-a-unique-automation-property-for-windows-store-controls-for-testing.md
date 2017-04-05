@@ -213,4 +213,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 ```  
   
 ## See Also  
- [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
+ [Test Windows UWP and 8.1 Store Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
