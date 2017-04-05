@@ -57,5 +57,5 @@ The process that renders or displays colorized text in user interface (UI) eleme
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
  [Using Fonts and Text](http://msdn.microsoft.com/Library/d43640f3-da94-4df2-a29d-a9d021a1c069)   
- [Working with Color](/visual-cpp/windows/working-with-color-image-editor-for-icons)   
+ [Working with Color](/cpp/windows/working-with-color-image-editor-for-icons)   
  [GDI (graphics device interface)](http://msdn.microsoft.com/en-us/7e1d4540-bb2e-4257-8eee-eee376acba83)

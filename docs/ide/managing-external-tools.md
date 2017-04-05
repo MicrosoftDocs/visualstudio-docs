@@ -122,4 +122,4 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 |Solution file name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|  
 
 ## See also  
- [C/C++ Build Tools](/visual-cpp/build/reference/c-cpp-build-tools)
+ [C/C++ Build Tools](/cpp/build/reference/c-cpp-build-tools)

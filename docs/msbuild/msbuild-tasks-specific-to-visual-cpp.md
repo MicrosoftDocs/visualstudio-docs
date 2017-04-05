@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Tasks Specific to Visual C++
-Tasks provide the code that runs during the build process. When Visual C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (Visual C++) Overview](/visual-cpp/build/msbuild-visual-cpp-overview).  
+Tasks provide the code that runs during the build process. When Visual C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (Visual C++) Overview](/cpp/build/msbuild-visual-cpp-overview).  
   
  In addition to the parameters for each task, every task also has the following parameters.  
   
