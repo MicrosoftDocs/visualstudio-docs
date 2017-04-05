@@ -75,12 +75,12 @@ A symbol file also contains the original location of the source files, and optio
     * Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled. 
 
 > [!NOTE]
-> Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. This is no longer the case. All symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
+> Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. Starting with Visual Studio 2012, all symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
   
 ###  <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> Why do symbol files need to exactly match the executable files?  
 The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).  
   
-###  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and specify symbol loading behavior 
+###  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and symbol loading behavior
  When you debug a project in the VS IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**.You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
   
 1.  In Visual Studio, open the **Tools / Options / Debugging / Symbols** page.  
