@@ -12,7 +12,7 @@ f1_keywords:
   - "vs.unittesting.testexplorer.overview"
 ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"
