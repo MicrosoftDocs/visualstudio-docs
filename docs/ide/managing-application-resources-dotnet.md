@@ -45,7 +45,7 @@ translation.priority.mt:
 # Managing Application Resources (.NET)
 Resource files are files that are part of an application but are not compiled, for example icon files or audio files. Since these files are not part of the compilation process, you can change them without having to recompile your binaries. If you are planning to localize your application, you should use resource files for all the strings and other resources that need to be changed when you localize your application.  
   
- For more information about resources in .NET desktop apps, see [Resources in Desktop Apps](http://msdn.microsoft.com/Library/8ad495d4-2941-40cf-bf64-e82e85825890). For more information about resources in C++ desktop apps, see [Working with Resource Files](/visual-cpp/windows/working-with-resource-files).  
+ For more information about resources in .NET desktop apps, see [Resources in Desktop Apps](http://msdn.microsoft.com/Library/8ad495d4-2941-40cf-bf64-e82e85825890). For more information about resources in C++ desktop apps, see [Working with Resource Files](/cpp/windows/working-with-resource-files).  
   
  Windows Store apps use a different resource model from desktop apps. For information about resources in Windows Store apps, see [Defining Application Resources](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx) on the Windows Dev Center website.  
   

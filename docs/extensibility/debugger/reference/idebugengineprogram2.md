@@ -44,7 +44,7 @@ IDebugEngineProgram2 : IUnknown
  A debug engine implements this interface to support simultaneous debugging of multiple threads. This interface is implemented on the same object that implements the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface.  
   
 ## Notes for Callers  
- Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from an `IDebugProgram2` interface.  
+ Use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from an `IDebugProgram2` interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugEngineProgram2`.  

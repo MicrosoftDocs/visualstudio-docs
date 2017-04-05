@@ -69,4 +69,4 @@ void test( )
 ```  
   
 ## See Also  
- [__assume](/visual-cpp/intrinsics/assume)
+ [__assume](/cpp/intrinsics/assume)

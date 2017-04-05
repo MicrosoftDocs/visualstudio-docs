@@ -59,7 +59,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use Native Run-Time Checks
-In Visual C++, you can use native [runtime_checks](/visual-cpp/preprocessor/runtime-checks) to catch common run-time errors such as:  
+In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:  
   
 -   Stack pointer corruption.  
   
@@ -93,5 +93,5 @@ In Visual C++, you can use native [runtime_checks](/visual-cpp/preprocessor/runt
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [runtime_checks](/visual-cpp/preprocessor/runtime-checks)   
- [Run-Time Error Checking](/visual-cpp/c-runtime-library/run-time-error-checking)
+ [runtime_checks](/cpp/preprocessor/runtime-checks)   
+ [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

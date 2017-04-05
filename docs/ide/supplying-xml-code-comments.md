@@ -41,7 +41,7 @@ You can make the comments in source code files available as IntelliSense. When y
   
  For more information about documenting code in C#, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
   
- For more information about documenting code in C++, see [Comments](/visual-cpp/cpp/comments-cpp) and [XML Documentation](/visual-cpp/ide/xml-documentation-visual-cpp).  
+ For more information about documenting code in C++, see [Comments](/cpp/cpp/comments-cpp) and [XML Documentation](/cpp/ide/xml-documentation-visual-cpp).  
   
 ## See Also  
  [Using IntelliSense](../ide/using-intellisense.md)
