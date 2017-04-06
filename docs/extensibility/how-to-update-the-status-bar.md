@@ -52,11 +52,11 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   
 -   Editor information  
   
- For more information, see [Status Bars](/visual-cpp/mfc/status-bars).  
+ For more information, see [Status Bars](/cpp/mfc/status-bars).  
   
  The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
   
  The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
   
 ## See Also  
- [Status Bars](/visual-cpp/mfc/status-bars)
+ [Status Bars](/cpp/mfc/status-bars)

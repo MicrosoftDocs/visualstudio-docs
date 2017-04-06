@@ -169,7 +169,7 @@ are shown immediately in the Visual Studio Error List window.
         msbuild /p:ValidateArchitecture=true  
         ```  
   
-     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [MSBuild](../msbuild/msbuild1.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
+     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [MSBuild](../msbuild/msbuild.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   

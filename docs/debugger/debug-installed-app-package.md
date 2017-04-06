@@ -10,6 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.installedapppackagelauncher"
+  - "vs.debug.remote.connection"
 dev_langs: 
   - "C++"
   - "FSharp"

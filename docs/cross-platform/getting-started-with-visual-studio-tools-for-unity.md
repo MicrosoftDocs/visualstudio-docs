@@ -67,6 +67,9 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
   
 > [!NOTE]
 >  Express versions of Visual Studio don't support extensions such as Visual Studio Tools for Unity. Visual Studio Community is a free version of Visual Studio that supports Visual Studio Tools for Unity and other extensions. For most users, Visual Studio Community is a better choice than Express.  
+
+> [!NOTE]
+>  For Visual Studio 2017, VSTU 3 comes with the Unity workload that you can choose from the installer.  
   
 ## Your first Unity project with Visual Studio Tools for Unity  
  Now that you have everything you need, you're ready for your first Unity project with Visual Studio. Setting up your Unity project is different depending on which versions of Unity and Visual Studio Tools for Unity are installed. Follow the steps below for the version of Unity and Visual Studio Tools for Unity that you have installed.  
