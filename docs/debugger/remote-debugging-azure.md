@@ -136,7 +136,7 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
     The Output tab will show you if publishing is successful, and your browser will open the app.
 
-    If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the correct ports are open (Web Deploy also requires port 8172 to be open on the server).
+    If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the [correct ports are open](#bkmk_openports) are on the server.
 
     If the app deploys successfully but doesn't run correctly, recheck that both IIS and your Visual Studio project are using the same version of ASP.NET. If that is not the problem, there may be an issue with your IIS configuration or your Web site configuration. On the Windows Server, open the Web site from IIS for more specific error messages, and then recheck earlier steps.
 
@@ -187,14 +187,14 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 ### <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
 
-In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues, you may need to verify that the correct ports are open.
+In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues and the app is hosted behind a firewall, you may need to verify that the correct ports are open.
 
 On an Azure VM, you must open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
 
 Required ports:
 
 - 80 - Required for IIS
-- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for detailed information.
+- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information.
 - UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 In addition, these ports should already be opened by the ASP.NET installation:
