@@ -52,7 +52,7 @@ translation.priority.mt:
 A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source code for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information:
 
 * Name of the source file and line number to be displayed in the Visual Studio IDE
-* Location in the executable to stop at when you set a breakpoint.
+* Location in the executable to stop at when you set a breakpoint
 
 A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.  
   
@@ -72,7 +72,7 @@ A symbol file also contains the original location of the source files, and optio
   
     * Any local symbol cache folders.  
   
-    * Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled. 
+    * Any network, internet, or local symbol servers and locations that are specified, such as the Microsoft symbol server (if enabled). 
 
 > [!NOTE]
 > Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. Starting with Visual Studio 2012, all symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
@@ -81,11 +81,11 @@ A symbol file also contains the original location of the source files, and optio
 The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).  
   
 ##  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and symbol loading behavior
- When you debug a project in the VS IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**.You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
+ When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**.You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
   
 1.  In Visual Studio, open the **Tools / Options / Debugging / Symbols** page.  
   
-     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](../debugger/media/dbg_tools_options_symbols.png "DBG_Tools_Options_Symbols")  
+     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](../debugger/media/dbg_tools_options_symbols.gif "DBG_Tools_Options_Symbols")  
   
 2.  Choose the folder ![Tools&#47; Options&#47; Debugging&#47;Symbols  folder icon](../debugger/media/dbg_tools_options_foldersicon.png "DBG_Tools_Options_FoldersIcon") icon. Editable text appears in the **Symbol file (.pdb) locations** box.  
   
