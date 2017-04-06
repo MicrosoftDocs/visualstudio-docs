@@ -1,7 +1,7 @@
 ---
-title: "Managing Exceptions with the Debugger | Microsoft Docs"
+title: "Manage Exceptions with the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,36 +53,37 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Managing Exceptions with the Debugger
-An exception is an indication of an error state that occurs while a program is being executed. You can and should provide handlers that respond to the most important exceptions, but it’s important to know how to set up the debugger to break for the exceptions you want to see.  
+# Manage Exceptions with the Debugger
+
+An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions (or sets of exceptions) to break on (at which point it shows you where the ), and at which point you want the debugger to break. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug / Windows / Exception Settings** to open the **Exception Settings** window. 
+
+You can and should provide handlers that respond to the most important exceptions, but it’s important to know how to configure the debugger to always break execution for some exceptions.
   
- When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  
+When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  
   
--   when an exception is thrown and is not handled.  
+-   When an exception is thrown and is not handled.  
   
--   when the debugger is set to break execution immediately when an exception is thrown, before any handler is invoked.  
+-   When the debugger is configured to break execution immediately when an exception is thrown, before any handler is invoked.  
   
--   if you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
+-   If you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
   
 > [!NOTE]
 >  ASP.NET has a top-level exception handler that shows error pages in a browser. It does not break execution unless **Just My Code** is turned on. For an example, see [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) below.  
   
 > [!NOTE]
->  In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error–style error handlers.  
+>  In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error–style error handlers.    
   
-## Managing Exceptions with the Exception Settings Window  
- You can use the **Exception Settings** window to specify which exceptions (or sets of exceptions) will cause the debugger to break, and at which point you want it to break. You can add or delete exceptions, or specify exceptions to break on. Open this window when a solution is open by clicking **Debug / Windows / Exception Settings**.  
-  
- You can find specific exceptions by using the **Search** window in the **Exception Settings** toolbar, or use search to filter for specific namespaces (for example **System.IO**).  
-  
-### Setting the debugger to break when an exception is thrown  
+## Tell the debugger to break when an exception is thrown  
  The debugger can break execution at the point where an exception is thrown, giving you a chance to examine the exception before a handler is invoked.  
   
- In the **Exception Settings** window, expand the node for a category of exceptions (for example, **Common Language Runtime Exceptions**, meaning .NET exceptions), and select the check box for a specific exception within that category (for example **System.AccessViolationException**). You can also select an entire category of exceptions.  
+ In the **Exception Settings** window (**Debug / Windows / Exception Settings**), expand the node for a category of exceptions (for example, **Common Language Runtime Exceptions**, meaning .NET exceptions), and select the check box for a specific exception within that category (for example **System.AccessViolationException**). You can also select an entire category of exceptions.  
   
  ![Checked AccessViolationException](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")  
+
+ > [!TIP]
+> You can find specific exceptions by using the **Search** window in the **Exception Settings** toolbar, or use search to filter for specific namespaces (for example **System.IO**).
   
- If you check a given exception, debugger execution will break wherever the exception is thrown, regardless of whether it is handled or unhandled. At this point the exception is called a first chance exception. For example, here are a couple of scenarios:  
+If you select an exception, debugger execution will break wherever the exception is thrown, regardless of whether it is handled or unhandled. At this point the exception is called a first chance exception. For example, here are a couple of scenarios:  
   
 1.  In the following C# console application, the Main method throws an **AccessViolationException** inside a `try/catch` block:  
   
@@ -113,7 +114,7 @@ An exception is an indication of an error state that occurs while a program is b
   
 2.  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn’t handle it:  
   
-    ```VB  
+    ```c# 
     public class Class1  
     {  
         public void ThrowHandledException()  
@@ -152,7 +153,7 @@ An exception is an indication of an error state that occurs while a program is b
   
  ![Restore defaults in Exception Settings](../debugger/media/restoredefaultexceptions.png "RestoreDefaultExceptions")  
   
-###  <a name="BKMK_UserUnhandled"></a> Setting the debugger to continue on user-unhandled exceptions  
+##  <a name="BKMK_UserUnhandled"></a> Tell the debugger to continue on user-unhandled exceptions  
  If you are debugging .NET or JavaScript code with [Just My Code](../debugger/just-my-code.md), you can tell the debugger not to break on exceptions that are not handled in user code but are handled somewhere else.  
   
 1.  In the **Exception Settings** window, open the context menu by right-clicking in window and then selecting **Show Columns**. (If you have turned off **Just My Code**, you will not see this command.)  
@@ -165,7 +166,7 @@ An exception is an indication of an error state that occurs while a program is b
   
  ![breaks on user&#45;unhanlded exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")  
   
-### Adding and Deleting Exceptions  
+## Add and Delete Exceptions  
  You can add and delete exceptions. You can delete any type of exception from any category by selecting the exception and clicking the **Delete** button (the minus sign) on the **Exception Settings** toolbar, or right-clicking the exception and selecting **Delete** from the context menu. Deleting an exception has the same effect as having the exception unchecked, which is that the debugger will not break when it is thrown.  
   
  To add an exception: in the **Exception Settings** window, select one of the exception categories (for example, **Common Language Runtime**) and click the **Add** button. Type the name of the exception (for example. **System.UriTemplateMatchException**). The exception is added to the list (in alphabetical order), and is automatically checked.  
@@ -192,7 +193,7 @@ public class GenericException<T> : Exception
   
  ![adding generic exception](../debugger/media/addgenericexception.png "AddGenericException")  
 
-### Adding Conditions to an Exception
+## Add Conditions to an Exception
 
 You can set conditions on exceptions in the **Exception Settings** dialog box. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on particular code modules, or you can avoid breaking on particular modules.
 
