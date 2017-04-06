@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio administrator guide | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/03/2017"
+ms.date: "04/06/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,4 +72,5 @@ In addition, the [Setup Configuration API](https://msdn.microsoft.com/en-us/libr
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Create an offline installer for Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+  * [Command-line parameter examples](command-line-parameter-examples.md)
+* [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
