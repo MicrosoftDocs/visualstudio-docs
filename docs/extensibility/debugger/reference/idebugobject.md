@@ -47,7 +47,7 @@ IDebugObject : IUnknown
  An expression evaluator implements this interface to represent an object.  
   
 ## Notes for Callers  
- This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method. [QueryInterface](/visual-cpp/atl/queryinterface) obtains the more specialized interfaces from this interface.  
+ This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method. [QueryInterface](/cpp/atl/queryinterface) obtains the more specialized interfaces from this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugObject`.  

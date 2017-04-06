@@ -33,7 +33,7 @@ translation.priority.mt:
 You can use the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  
   
 > [!NOTE]
->  The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons).  
+>  The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons](/cpp/windows/image-editor-for-icons).  
   
 ## Textures and images  
  Textures and images are, at a basic level, just tables of data that are used to provide visual detail in graphics apps. The kind of detail that a texture or image provides depends on how it's used, but color samples, alpha (transparency) values, surface normals, and height values are common examples. The primary difference between a texture and an image is that a texture is meant to be used together with a representation of shape—typically a 3-D model—to express a complete object or scene, but an image is typically a stand-alone representation of the object or scene.  

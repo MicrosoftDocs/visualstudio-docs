@@ -54,7 +54,7 @@ Spy++ lets you perform the following tasks:
 >  There are two other utilities that resemble Spy++: PView, which shows details about processes and threads, and DDESPY.EXE, which lets you monitor Dynamic Data Exchange (DDE) messages.  
   
 ## 64-Bit Operating Systems  
- There are two versions of Spy++. The first version, named Spy++ (spyxx.exe), is designed to display messages sent to a window that is running in a 32-bit process. For example, Visual Studio runs in a 32-bit process. Therefore, you can use Spy++ to display messages sent to **Solution Explorer**. Because the default configuration for most builds in Visual Studio is to run in a 32-bit process, this first version of Spy++ is the one that is available on the **Tools** menu in Visual Studio.  
+ There are two versions of Spy++. The first version, named Spy++ (spyxx.exe), is designed to display messages sent to a window that is running in a 32-bit process. For example, Visual Studio runs in a 32-bit process. Therefore, you can use Spy++ to display messages sent to **Solution Explorer**. Because the default configuration for most builds in Visual Studio is to run in a 32-bit process, this first version of Spy++ is the one that is [available on the **Tools** menu](../debugger/how-to-start-spy-increment.md) in Visual Studio.  
   
  The second version, named Spy++ (64-bit) (spyxx_amd64.exe), is designed to display messages sent to a window that is running in a 64-bit process. For example, on a 64-bit operating system, Notepad runs in a 64-bit process. Therefore, you can use Spy++ (64-bit) to display messages sent to Notepad. Spy++ (64-bit) is typically located in  
   
@@ -65,7 +65,8 @@ Spy++ lets you perform the following tasks:
 > [!NOTE]
 >  Although the Spy++ (64-bit) file name contains "amd", it runs on any x64 Windows operating system.  
   
-## See Also  
+## See Also 
+ [How to: Start Spy++](../debugger/how-to-start-spy-increment.md)   
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)

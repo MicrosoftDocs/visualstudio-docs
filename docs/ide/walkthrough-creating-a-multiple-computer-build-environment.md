@@ -207,7 +207,7 @@ You can create a build environment within your organization by installing Visual
   
     -   \Microsoft.VC110.OPENMP\vcomp110.dll  
   
-5.  Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Preparing a Test Machine To Run a Debug Executable](/visual-cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.  
+5.  Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.  
   
     -   \Microsoft.VC110.DebugCRT\msvcp110d.dll  
   
@@ -434,5 +434,5 @@ You can create a build environment within your organization by installing Visual
          For native 64-bit building, point to the 64-bit MSBuild.  
   
 ## See Also  
- [Preparing a Test Machine To Run a Debug Executable](/visual-cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)   
+ [Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

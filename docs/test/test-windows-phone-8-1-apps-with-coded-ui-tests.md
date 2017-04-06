@@ -393,7 +393,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 |Execute automated tests from MTM|Supported.|Not supported.|  
 |Data-driven tests|See [Data-driven tests](../test/creating-a-data-driven-coded-ui-test.md) for information about using external data-sources and using DataSource attribute on a test method.|Data is specified inline, using DataRow attribute on a test method. See [Use Data-driven coded UI tests on Windows Phone apps](#TestingPhoneAppsCodedUI_DataDriven) in this topic.|  
   
- For information about coded UI tests for Windows Store apps, see [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md).  
+ For information about coded UI tests for Windows Store apps, see [Test Windows UWP and 8.1 Store Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md).  
   
 ## External resources  
  Microsoft Visual Studio Application Lifecycle Management blog: [Using Coded UI to test XAML-based Windows Phone apps](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/05/using-coded-ui-to-test-xaml-based-windows-phone-apps.aspx?PageIndex=2#comments)  
