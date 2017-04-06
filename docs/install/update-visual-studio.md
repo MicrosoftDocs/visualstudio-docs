@@ -42,15 +42,15 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 
   Click or tap the notification flag to open the **Notifications** hub.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notification-hub.png "The Notifications hub in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
 
-2. Click or tap **"Visual Studio Update" is available**.
+2. Click or tap **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notification-hub-select.png "The Notifications hub in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
 
-3. In the Extensions and Updates dialog, click or tap the **Update** button.
+3. In the **Extensions and Updates** dialog box, click or tap the **Update** button.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notification-extension-and-updates.png "The Extensions and Updates dialog in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
