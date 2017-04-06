@@ -37,7 +37,7 @@ Visual Studio for Mac allows for development of the following platforms:
 Visual Studio for Mac includes support for .NET Core – a lightweight runtime allowing for cross-platform development across Windows, macOS, and Linux. .NET Core needs to be installed when using Visual Studio for Mac. To install it, do the following:
 
 1. Before you start installing .NET Core, ensure that you have updated all macOS updates to the latest version. You can check this by going to the App Store application, and selecting the **Updates** tab.
-2. Follow the steps listed on the [].NET Core site](https://www.microsoft.com/net/core#macos). Make sure to complete all four steps successfully to ensure that .NET Core is installed successfully.
+2. Follow the steps listed on the [.NET Core site](https://www.microsoft.com/net/core#macos). Make sure to complete all four steps successfully to ensure that .NET Core is installed successfully.
 
 ## Tour
 
@@ -46,7 +46,7 @@ Visual Studio for Mac shares lots of the same features as Xamarin Studio such as
 
 ## Welcome Screen
 
-When launched, Visual Studio for Mac displays a Welcome Screen, as illustrated below:
+When launched, Visual Studio for Mac displays a Welcome Screen, as shown:
 
 ![](media/image16.png "Visual Studio for Mac welcome screen")
 
@@ -61,7 +61,7 @@ The Welcome screen contains the following sections:
 
 The image below shows Visual Studio for Mac with an application loaded:
 
-[![](media/image17.png "Visual Studio for Mac example screen")
+![](media/image17.png "Visual Studio for Mac example screen")
 
 The following sections provide an overview of the major areas in Visual Studio for Mac.
 
@@ -69,7 +69,7 @@ The following sections provide an overview of the major areas in Visual Studio f
 
 The Solution Pane organizes the project(s) in a solution, as shown below:
 
-[![](media/image18.png "Example solution showing Android project")
+![](media/image18.png "Example solution showing Android project")
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
@@ -95,7 +95,7 @@ To a dependencies your application, right click on the dependencies folder, and 
 
 ![](media/image21.png "Add Packages menu on Dependencies solution node")
 
-Information on using a NuGet package in an application can be found in the [Including a NuGet in your project](/guides/cross-platform/xamarin-studio/nuget_walkthrough/) guide.
+Information on using a NuGet package in an application can be found in the [Including a NuGet in your project](https://developer.xamarin.com/guides/cross-platform/xamarin-studio/nuget_walkthrough/) guide.
 
 ## Refactoring
 
