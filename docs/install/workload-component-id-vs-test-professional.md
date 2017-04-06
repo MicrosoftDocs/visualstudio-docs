@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  03/07/2017
+ms.date:  04/06/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -53,22 +53,23 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 ### Components included by this workload
 
-Component ID | Name | Dependency type
---- | --- | ---
-Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | Required
-Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | Required
+Component ID | Name | Version | Dependency type
+--- | --- | --- | ---
+Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.26228.0 | Required
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
 
-Component ID | Name
---- | ---
-n/a | n/a
+Component ID | Name | Version
+--- | --- | ---
+n/a | n/a | n/a
 
 
 ## See also
 
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+  * [Command-line parameter examples](command-line-parameter-examples.md)
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
