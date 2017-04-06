@@ -14,11 +14,11 @@ ms.assetid: 79EBE10A-F84A-486E-AE4D-939DF2BA26A8
 
 The preview version of Visual Studio for Mac evolves Xamarin's mobile-centric IDE, Xamarin Studio, into a mobile-first, cloud-first development on the Mac. This developer-focused tool allows you to leverage the power of .NET to create applications for all platforms required by your users.
 
-The UX of Visual Studio for Mac is similar to its Windows counterpart, but with a native macOS feel. Creating, opening, and developing app will be a familiar experience for anyone who has previously used Visual Studio on Windows. In addition, Visual Studio for Mac employs many of the powerful tools that makes its Windows counterpart such a powerful IDE. For example the Roslyn Compiler Platform is used for refactoring and IntelliSense. Its project system and build engine use MSBuild; and its source editor supports TextMate bundles. It uses the same debugger engines for Xamarin and .NET Core apps, and the same designers for Xamarin.iOS and Xamarin.Android.
+The user experience of Visual Studio for Mac is similar to its Windows counterpart, but with a native macOS feel. Creating, opening, and developing app will be a familiar experience for anyone who has previously used Visual Studio on Windows. In addition, Visual Studio for Mac employs many of the tools that makes its Windows counterpart such a powerful IDE. For example the Roslyn Compiler Platform is used for refactoring and IntelliSense. The project system and build engine use MSBuild; and the source editor supports TextMate bundles. It uses the same debugger engines for Xamarin and .NET Core apps, and the same user interface designers for Xamarin.iOS and Xamarin.Android.
 
-This article explores various sections of Visual Studio, providing a look at some of the features that make it a powerful tool for creating applications.
+This article explores some of the features of Visual Studio for Mac.
 
-![](visual-studio-mac-preview.png)
+![](media/visual-studio-mac-preview.png "Visual Studio for Mac screenshot")
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Visual Studio for Mac is currently available on macOS 10.11 and above. For Xamar
 Visual Studio for Mac allows for development of the following platforms:
 
 * Xamarin.iOS (including WatchOS, and tvOS)
-* Xamarin.Android
+* Xamarin.Android (including Wear)
 * Xamarin.Forms (iOS and Android only)
 * Xamarin.Mac
 * ASP.NET Core
@@ -41,7 +41,7 @@ Visual Studio for Mac includes support for .NET Core – a lightweight runtime a
 
 ## Tour
 
-Visual Studio for Mac shares lots of the same features as Xamarin Studio such as C# and F# language support and iOS and Android Visual Designers. All documentation for written Xamarin Studio is still relevant. Visual Studio for Mac provides
+Visual Studio for Mac shares lots of the same features as Xamarin Studio such as C# and F# language support and iOS and Android Visual Designers.
 
 
 ## Welcome Screen
