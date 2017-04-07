@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  03/07/2017
+ms.date:  04/07/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -40,6 +40,7 @@ The following pages list the workload and component IDs you’ll need to install
 * [Visual Studio Enterprise 2017](workload-component-id-vs-enterprise.md)
 * [Visual Studio Professional 2017 ](workload-component-id-vs-professional.md)
 * [Visual Studio Community 2017](workload-component-id-vs-community.md)
+* [Visual Studio Team Explorer 2017](workload-component-id-vs-team-explorer.md)
 * [Visual Studio Build Tools 2017](workload-component-id-vs-build-tools.md)
 * [Visual Studio Test Agent 2017](workload-component-id-vs-test-agent.md)
 * [Visual Studio Test Controller 2017 ](workload-component-id-vs-test-controller.md)
