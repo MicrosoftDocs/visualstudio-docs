@@ -51,16 +51,16 @@ translation.priority.ht:
 # Use the call stack in the Visual Studio debugger
 
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
+  
+When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack. If that occurs, the following notation appears:  
+  
+`[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]`
 
 >  [!NOTE]
 > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse. 
-  
-When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack. The following notation appears:  
-  
-[Frames below may be incorrect and/or missing, no symbols loaded for name.dll] 
-  
+
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. 
+>  The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)
   
 ## View the call stack while in the debugger 
   
