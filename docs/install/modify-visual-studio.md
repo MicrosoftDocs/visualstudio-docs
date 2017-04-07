@@ -2,7 +2,7 @@
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/03/2017"
+ms.date: "04/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -72,5 +72,6 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 
 ## See also  
 * [Install Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)
+* [Update Visual Studio](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
