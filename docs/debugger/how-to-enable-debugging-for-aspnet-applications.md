@@ -1,7 +1,7 @@
 ---
 title: "How to: Enable Debugging for ASP.NET Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/04/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -38,18 +38,20 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Enable Debugging for ASP.NET Applications
-To enable debugging, you must enable it in both the **Project Properties** page and in the application's web.config file.  
+To enable debugging, you must enable it in the application's web.config file and in the project properties. 
   
 > [!NOTE]  
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/library/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
-### To enable ASP.NET debugging in the project properties (Visual Basic/C#)  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/library/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+
+### To enable ASP.NET debugging in the project properties (Visual Basic/C#)
+
+In ASP.NET versions prior to ASP.NET Core, you need to enable ASP.NET debugging in the project properties. 
   
 1.  In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
   
 2.  In the project properties page click the **Web** tab.  
   
-3.  Under **Debuggers**, select the **ASP.NET** check box.  
+3.  Under **Debuggers**, select the **ASP.NET** check box. 
   
 ### To enable debugging in the web.config file  
   
