@@ -77,7 +77,7 @@ propfull|Creates a property declaration with get and set accessors.|Inside a cla
 |propg|Creates a read-only [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) with a private "set" accessor.|Inside a class or a struct.|  
 |sim|Creates a [static](/dotnet/csharp/language-reference/keywords/static)[int](/dotnet/csharp/language-reference/keywords/int) Main method declaration.|Inside a class or a struct.|  
 |struct|Creates a [struct](/dotnet/csharp/language-reference/keywords/struct) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|svm|Creates a [static](/dotnet/csharp/language-reference/keywords/static)[void](/dotnet/csharp/language-reference/keywords/void) Main method declaration.|Inside a class or a struct.|  
+|svm|Creates a [static] (/dotnet/csharp/language-reference/keywords/static)[void](/dotnet/csharp/language-reference/keywords/void) Main method declaration.|Inside a class or a struct.|  
 |switch|Creates a [switch](/dotnet/csharp/language-reference/keywords/switch) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |try|Creates a [try-catch](/dotnet/csharp/language-reference/keywords/try-catch) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |tryf|Creates a [try-finally](/dotnet/csharp/language-reference/keywords/try-finally) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
