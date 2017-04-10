@@ -104,7 +104,6 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 | de-DE | German |
 | en-US | English |
 | es-ES | Spanish |
-| cs-CZ | Czech |
 | fr-FR | French |
 | it-IT | Italian |
 | ja-JP | Japanese |
