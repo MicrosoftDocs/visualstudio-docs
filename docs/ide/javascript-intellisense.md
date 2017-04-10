@@ -49,22 +49,21 @@ translation.priority.ht:
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
 
 > [!NOTE]
->  The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service ("salsa"). Details are included here in this topic, and you might also want to read this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/04/08/previewing-salsa-javascript-language-service-visual-studio-15/). The new editing experience also mostly applies in VS Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
+>  The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service ("salsa"). Details are included here in this topic, and you might also want to read this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/more-productive-javascript-in-visual-studio-2017-rc). The new editing experience also mostly applies in VS Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
 
 For more information about the general IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md). 
 
 ## What's New in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
-
-    JavaScript IntelliSense in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] will now display a lot more information on parameter and member lists.
+JavaScript IntelliSense in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] will now display a lot more information on parameter and member lists.
 This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
-TypeScript uses several sources to build up this information.
-    - [IntelliSense based on type inference](#TypeInference)
-    - [IntelliSense based on JSDoc](#JsDoc)
-    - [IntelliSense based on TypeScript Declaration Files](#TSDeclFiles)
-    - [Automatic acquisition of type definitions](#Auto)
+TypeScript uses several sources to build up this information:
+- [IntelliSense based on type inference](#TypeInference)
+- [IntelliSense based on JSDoc](#JsDoc)
+- [IntelliSense based on TypeScript Declaration Files](#TSDeclFiles)
+- [Automatic acquisition of type definitions](#Auto)
 
-## <a name="TypeInference"></a>IntelliSense based on type inference
+### <a name="TypeInference"></a>IntelliSense based on type inference
 In JavaScript, most of the time there is no explicit type information available. 
 Luckily, it is usually fairly easy to figure out a type given the surrounding code context.
 This process is called type inference.
@@ -101,7 +100,7 @@ exports.Foo = Foo;
 // Note that assigning a value to "module.exports" is also supported.
 ```
 
-## <a name="JsDoc"></a> IntelliSense based on JSDoc
+### <a name="JsDoc"></a> IntelliSense based on JSDoc
 
 Where type inference does not provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
 
@@ -128,7 +127,7 @@ function Foo(param1) {
 See [this doc](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) 
 for the JsDoc annotations currently supported.
 
-## <a name="TsDeclFiles"></a> IntelliSense based on TypeScript Declaration Files
+### <a name="TsDeclFiles"></a> IntelliSense based on TypeScript Declaration Files
 
 Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a `.d.ts` file ([more info](https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Writing%20Definition%20Files.md)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments. 
 
@@ -138,7 +137,7 @@ _**TypeScript declarations used in JavaScript**_
 
 <img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640"/>
 
-## <a name="Auto"></a> Automatic acquisition of type definitions
+### <a name="Auto"></a> Automatic acquisition of type definitions
 In the TypeScript world, most popular JavaScript libraries have their APIs described by `.d.ts` files, and the most common repository for such definitions is on [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
 By default, the Salsa language service will try to detect which JavaScript libraries are in use and automatically download and reference the corresponding `.d.ts` file that describes the library in order to provide richer IntelliSense. The files are downloaded to a cache located under the user folder at `%LOCALAPPDATA%\Microsoft\TypeScript`. 
