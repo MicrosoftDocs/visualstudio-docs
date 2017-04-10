@@ -226,7 +226,7 @@ When adding a new virtual environment, if a` requirements.txt` file exists, the 
 
 ![Create virtual environment with requirements.txt](media/environments-requirements-txt.png)
 
-If a package cannot be installed by pip and it appears in a `requirements.txt` file, the entire installation to fail. In this case, manually edit the file to exclude this package or to use [pip's options](http://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](http://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your `requirements.txt`:
+If a package cannot be installed by pip and it appears in a `requirements.txt` file, the entire installation will fail. In this case, manually edit the file to exclude this package or to use [pip's options](http://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](http://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your `requirements.txt`:
 
 ```output
 C:\Project>pip wheel azure
