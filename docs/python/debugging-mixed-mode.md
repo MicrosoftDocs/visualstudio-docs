@@ -1,7 +1,7 @@
 ---
-title: "Mixed-Mode Debugging in Python Tools for Visual Studio | Microsoft Docs"
+title: "Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
 - [Combined call stack](#combined-call-stack)
 - [Stepping between Python and native code](#stepping-between-python-and-native-code)
-- [PyObject values view in native code](#pyobject-values-in-native-code)
+- [PyObject values view in native code](#pyobject-values-view-in-native-code)
 - [Native values view in Python code](#native-values-view-in-python-code)
 
 ### Combined call stack
@@ -148,7 +148,7 @@ The mixed-mode debugger is distinct from the [standard Python debugger](debuggin
 - Unsupported features: conditional breakpoints, Debug Interactive window, and cross-platform remote debugging.
 - Immediate window: is available but with a limited subset of its functionality, including all the limitations listed here.
 - Supported Python versions: CPython 2.7 and 3.3+ only.
-- Visual Studio Shell: When using PTVS with Visual Studio Shell (for example, if you installed it using the integrated installer), Visual Studio is unable to open C++ projects, and the editing experience for C++ files is that of a basic text editor only. However, C/C++ debugging and mixed-mode debugging are fully supported in Shell with source code, stepping into native code, and C++ expression evaluation in debugger windows.
+- Visual Studio Shell: When using Python with Visual Studio Shell (for example, if you installed it using the integrated installer), Visual Studio is unable to open C++ projects, and the editing experience for C++ files is that of a basic text editor only. However, C/C++ debugging and mixed-mode debugging are fully supported in Shell with source code, stepping into native code, and C++ expression evaluation in debugger windows.
 - Viewing and expanding objects: When viewing Python objects in the Locals and Watch debugger tool windows, the mixed-mode debugger shows only the structure of the objects. It does not automatically evaluate properties, or show computed attributes. For collections, it shows only elements for built-in collection types (`tuple`, `list`, `dict`, `set`). Custom collection types are not visualized as collections, unless they are inherited from some built-in collection type.
 - Expression evaluation: see below.
 

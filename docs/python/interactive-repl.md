@@ -1,7 +1,7 @@
 ---
 title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -67,7 +67,7 @@ Third, you can open an interactive window on the starup file in your project, or
 
 ![Execute Project in Python Interactive menu](media/interactive-execute-project.png)
 
-Finally, you can select code in file and use the [send code to interactive command](#send-code-to-interactive) command described below.
+Finally, you can select code in file and use the [send code to interactive command](#send-code-to-interactive-command) command described below.
 
 ## Interactive window options
 
