@@ -57,7 +57,7 @@ By convention, PTVS will identify tests are as methods whose names start with "t
       unittest.main()
   ```
 
-1. Save the file if necessary, then open Test Explorer with the **Text > Windows > Text Explorer** menu command.
+1. Save the file if necessary, then open Test Explorer with the **Test > Windows > Test Explorer** menu command.
 
 1. Test Explorer will search your project for tests and display them as shown below. Double-clicking a test opens its source file.
 
