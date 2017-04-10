@@ -40,7 +40,7 @@ We understand that a lot of customers want an offline installer for [Visual Stud
 Here's how.
 
 ## Download the setup file you want
-**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. When the downlod dialog prompt appears, make sure to click **Save**, and once the download finishes click **Open folder**.
+**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. When the download dialog prompt appears, make sure to click **Save**, and once the download finishes click **Open folder**.
 
 Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will look similar to one of the following.
 
