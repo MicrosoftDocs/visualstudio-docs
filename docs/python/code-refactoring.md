@@ -1,7 +1,7 @@
 ---
-title: "Refactoring Code in Python Tools for Visual Studio | Microsoft Docs"
+title: "Refactoring Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Refactoring Python code
 
-Python Tools for Visual Studio (PTVS) provides several commands for automatically transforming and cleaning up your source code:
+Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 
 - [Rename](#rename) renames a selected class, method, or variable name
 - [Extract method](#extract-method) creates a new method from the selected code
@@ -67,7 +67,7 @@ Python Tools for Visual Studio (PTVS) provides several commands for automaticall
 
 ## Add import
 
-When your place the caret on an identifier that lacks type information, PTVS provides a smart tag (the lightbulb icon to the left of the code) whose commands will add the necessary `import` or `from ... import` statement:
+When your place the caret on an identifier that lacks type information, Visual Studio provides a smart tag (the lightbulb icon to the left of the code) whose commands will add the necessary `import` or `from ... import` statement:
 
 ![Add import smart tag](media/code-refactor-add-import-1.png)
 
@@ -75,23 +75,23 @@ When your place the caret on an identifier that lacks type information, PTVS pro
 
 ![Result of adding an import](media/code-refactor-add-import-2.png)
 
-PTVS attempts to filter out members that aren't really defined in a module, such as modules that are imported into another but aren't children of the module doing the importing. For example, many modules use `import sys` rather than `from xyz import sys`, so PTVS doesn't offer a completion for importing `sys` from other modules even if the modules are missing an `__all__` member that excludes `sys`.
+Visual Studio attempts to filter out members that aren't really defined in a module, such as modules that are imported into another but aren't children of the module doing the importing. For example, many modules use `import sys` rather than `from xyz import sys`, so you won't see a completion for importing `sys` from other modules even if the modules are missing an `__all__` member that excludes `sys`.
 
-Similarly, PTVS filters functions that are imported from other modules or from the built-in namespace. For example if a module imports the `settrace` function from the `sys` module, then in theory you could import it from that module. But it's best to use `import settrace from sys` directly, and so PTVS offers that statement specifically.
+Similarly, Visual Studio filters functions that are imported from other modules or from the built-in namespace. For example if a module imports the `settrace` function from the `sys` module, then in theory you could import it from that module. But it's best to use `import settrace from sys` directly, and so Visual Studio offers that statement specifically.
 
-Finally if something would be excluded due to the rules above but has other values that would be included (because the name was assigned a value in the module, for example), PTVS still excludes the import. This assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value which is also not exported.
+Finally if something would be excluded due to the rules above but has other values that would be included (because the name was assigned a value in the module, for example), Visual Studio still excludes the import. This assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value which is also not exported.
 
 <a name="remove-imports"</a>
 ## Remove unused imports
 
-When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because PTVS analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope below where the statement occurs.
+When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because Visual Studio analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope below where the statement occurs.
 
 Right-click anywhere in the editor and select **Remove Imports**, which gives you options to remove from **All Scopes** or just the **Current Scope**:
 
 ![Remove imports menu](media/code-refactor-remove-imports-1.png)
 
-PTVS will then make the appropriate changes to the code:
+Visual Studio then makes the appropriate changes to the code:
 
 ![Effect of removing imports](media/code-refactor-remove-imports-2.png)
 
-Note that PTVS does not account for control flow; using a name before an `import` statement will be treated as if the name was in fact used. PTVS also ignores all `from __future__` imports, imports that are performed inside of a class definition, as well from `from ... import *` statements.
+Note that Visual Studio does not account for control flow; using a name before an `import` statement will be treated as if the name was in fact used. Visual Studio also ignores all `from __future__` imports, imports that are performed inside of a class definition, as well from `from ... import *` statements.
