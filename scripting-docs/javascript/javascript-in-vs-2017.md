@@ -92,7 +92,7 @@ exports.default = Subscription_1.Subscription;
 
 ## Better IntelliSense
 
-JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](../../docs/ide/javascript-intellisense.md).
+JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](/visualstudio/ide/javascript-intellisense.md).
 
 ## <a name="JSX"></a> JSX syntax support
 
