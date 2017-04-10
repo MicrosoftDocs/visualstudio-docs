@@ -32,6 +32,35 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 3.1.0.0
+ Released 2017-04-07
+
+### New Features  
+  
+-   **Debugger:**  
+
+    -   Added support for the new Unity runtime (with .NET 4.6 / C# 6 compatibility).
+        
+-   **Project Generation:**  
+
+    -   Added support for .NET 4.6 profile.
+    
+    -   Added support for mcs.rsp files.
+    
+    -   Always enable unsafe compilation switch when Unity 5.6 is used.
+    
+    -   Added support for "Player" project generation when using Windows Store platform and il2cpp backend.
+   
+### Bug fixes  
+  
+-   **Code Editor:**  
+
+    -   Fixed caret position after inserting method with auto-completion.
+  
+-   **Project Generation:**  
+  
+    -   Removed assembly version post-processing.
+
 ## 3.0.0.1
  Released 2017-03-07
 
