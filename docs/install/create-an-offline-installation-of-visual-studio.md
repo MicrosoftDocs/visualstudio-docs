@@ -40,9 +40,9 @@ We understand that a lot of customers want an offline installer for [Visual Stud
 Here's how.
 
 ## Download the setup file you want
-**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. Make sure to click **Save**, and then click **Open folder**.
+**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. When the downlod dialog prompt appears, make sure to click **Save**, and once the download finishes click **Open folder**.
 
-Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will match one of the following.
+Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will look similar to one of the following.
 
 |Edition | File|  
 |-------------|-----------------------|  
@@ -51,6 +51,8 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 |Visual Studio Community |**vs_community.exe**|
 
 Other supported bootstrappers include vs_buildtools.exe, vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
+
+*Note: The rest of this guide assumes you have renamed the bootstrapper file to the respective name in the above table *
 
 ## Create an offline installation folder
 To create an offline installation with all languages and all features, use one of the commands from the following examples.
