@@ -16,7 +16,7 @@ This means that you either have to keep track of which browsers support what fea
 This is commonly referred to as "transpiling".
 
 One of the key features of TypeScript is the ability transpile ES6+ code to ES5 or ES3 so that you can write the code that makes you most productive, but still run your code on any platform.  
-Because JavaScript in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses the same language service as TypeScript, it too can take advantage of ES6+ to ES5 transpilation.
+Because JavaScript in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] uses the same language service as TypeScript, it too can take advantage of ES6+ to ES5 transpilation.
 
 Before this can be set up, some understanding of the configuration options is required. 
 TypeScript is configured via a `tsconfig.json` file. 
@@ -34,7 +34,7 @@ By default this is `false`, as TypeScript compiles to JavaScript, and this is ne
  The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
  - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined above.
  - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
- - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](TODO))
+ - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](../../docs/ide/javascript-intellisense.md#Auto))
 
 In order to convert JavaScript files to CommonJS modules and place them in an `./out` folder, you could use the following `tsconfig.json` file.
 
@@ -85,18 +85,18 @@ var Foo = (function () {
     };
     return Foo;
 }());
-exports.sqr = function (x) { return x * x; };[!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+exports.sqr = function (x) { return x * x; };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Subscription_1.Subscription;
 ```
 
 ## Better IntelliSense
 
-JavaScript IntelliSense in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](..\ide\javascript-intellisense.md).
+JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](..\ide\javascript-intellisense.md).
 
 ## <a name="JSX"></a> JSX syntax support
 
-JavaScript in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] has rich support for the JSX syntax. JSX is a syntax set that allows HTML tags within JavaScript files. 
+JavaScript in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] has rich support for the JSX syntax. JSX is a syntax set that allows HTML tags within JavaScript files. 
 
 The illustration below shows a React component defined in the `comps.tsx` TypeScript file, and then this component being used from the `app.jsx` file, complete with IntelliSense for completions and documentation within the JSX expressions.
 You don't need TypeScript here, this specific example just happens to contain some TypeScript code as well.
@@ -177,7 +177,7 @@ You could use the following `tsconfig.json` to make sure the language service on
 ```
 
 # Notable Changes from VS 2015 
-As [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
+As [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
 The most notable changes are the replacement of VSDoc with JSDoc, the removal of custom `.intellisense.js` extensions, and limited IntelliSense for specific code patterns.
 
 ## No more `///<references/>` or `_references.js`
