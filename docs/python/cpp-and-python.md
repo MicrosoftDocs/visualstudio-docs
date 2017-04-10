@@ -40,7 +40,7 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 
 This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. To demonstrate the performance difference, you'll create and test the routine first in Python.
 
-The approach taken here is that for standard CPython extensions as described in the [Python documentation](https://docs.python.org/e/c-api/). A comparison between this and other means is described under [alternative approaches](#alternative-approaches) at the end of this topic.
+The approach taken here is that for standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/). A comparison between this and other means is described under [alternative approaches](#alternative-approaches) at the end of this topic.
 
 ## Prerequisites
 
@@ -279,7 +279,7 @@ There are other means to create Python extensions as described in the table belo
 
 | Approach | Vintage | Representative User(s) | Pro(s) | Con(s) |
 | --- | --- | --- | --- | --- |
-| C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/e/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
+| C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/3/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | Cython | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax and toolchain. |
