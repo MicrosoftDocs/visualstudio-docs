@@ -8,6 +8,24 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 <ul class="panelContent cardsFTitle">
     <li>
+        <a href="https://docs.microsoft.com/visualstudio/scripting/javascript/javascript-in-vs-2017">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about new JavaScript features in Visual Studio 2017</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/">
         <div class="cardSize">
             <div class="cardPadding">
