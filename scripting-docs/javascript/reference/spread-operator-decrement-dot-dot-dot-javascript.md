@@ -93,9 +93,9 @@ function f(x, y, z) {
 var args = [1, 2, 3];  
   
 // Old method  
-func.apply(this, args);  
+f.apply(this, args);  
 // New method  
-func(...args);  
+f(...args);  
   
 ```  
   

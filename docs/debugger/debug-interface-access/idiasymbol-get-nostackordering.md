@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noStackOrdering
-This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check) compiler option).  
+This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check) compiler option).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noStackOrdering(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check)
+ [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)

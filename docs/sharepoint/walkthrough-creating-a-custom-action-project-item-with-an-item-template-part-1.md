@@ -459,7 +459,7 @@ manager: "ghogen"
  [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
  [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md)   
  [Visual Studio Template Schema Reference](/visual-studio/extensibility/visual-studio-template-schema-reference)   
- [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons)   
- [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/visual-cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)  
+ [Image Editor for Icons](/cpp/windows/image-editor-for-icons)   
+ [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)  
   
   

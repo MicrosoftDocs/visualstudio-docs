@@ -1,7 +1,7 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/08/2017"
+ms.date: "04/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,7 +44,7 @@ Here is a high-level recap of the changes we've made:
 * **Cloud app development with Azure**. A built-in suite of Azure tools that enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
 * **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 
-And here are more details on some of our most notable changes.
+Here are more details on some of our most notable changes.
 
 ## Performance improvements
 
@@ -117,6 +117,21 @@ Errors appear in the Error List and squiggles will appear in the text editor sho
 In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for the .NET Framework and supports three test frameworks of MSTest, xUnit, and NUnit.
 
 ![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
+
+For more information, see the [Live Unit Testing in Visual Studio 2017 Enterprise](https://blogs.msdn.microsoft.com/visualstudio/2017/03/09/live-unit-testing-in-visual-studio-2017-enterprise/) blog post.
+
+### DevOps
+#### Redgate Data Tools:
+To extend DevOps capabilities to SQL Server database development, Redgate Data Tools are now available in the following editions of Visual Studio 2017.
+
+Included with Visual Studio 2017 Enterprise:
+- [Redgate ReadyRoll Core](http://www.red-gate.com/products/sql-development/readyroll/entrypage/microsoft-and-readyroll?utm_source=microsoft&utm_medium=link&utm_campaign=readyroll&utm_term=docs-newinvs) helps you develop migration scripts, manage database changes using source control, and safely automate deployments of SQL Server database changes alongside applications changes.
+- [Redgate SQL Prompt Core](http://www.red-gate.com/products/sql-development/sql-prompt/entrypage/microsoft-and-sql-prompt?utm_source=microsoft&utm_medium=link&utm_campaign=sqlprompt&utm_term=docs-newinvs) helps you write SQL more quickly and accurately with the help of intelligent code completion. SQL Prompt autocompletes database and system objects and keywords, and offers column suggestions as you type. This results in cleaner code and fewer errors because you don’t have to remember every column name or alias.
+
+Included with all editions of Visual Studio 2017:
+- [Redgate SQL Search](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs) increases your productivity by helping you quickly find SQL fragments and objects across multiple databases.
+
+To learn more, see our [Redgate Data Tools in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/) blog post.
 
 ### Visual Studio IDE enhancements
 #### Interact with Git:

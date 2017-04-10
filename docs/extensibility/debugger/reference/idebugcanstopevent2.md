@@ -41,7 +41,7 @@ IDebugCanStopEvent2 : IUknown
 ```  
   
 ## Notes for Implementers  
- The debug engine (DE) implements this interface to support stepping through source code. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface (the SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface).  
+ The debug engine (DE) implements this interface to support stepping through source code. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface (the SDM uses [QueryInterface](/cpp/atl/queryinterface) to access the `IDebugEvent2` interface).  
   
  The implementation of this interface must communicate the SDM's call of [CanStop](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md) to the debug engine. For example, this can be done with a message posted to the debug engine's message handling thread or the object implementing this interface could hold a reference to the debug engine and call back into the debug engine with the flag passed into `IDebugCanStopEvent2::CanStop`.  
   

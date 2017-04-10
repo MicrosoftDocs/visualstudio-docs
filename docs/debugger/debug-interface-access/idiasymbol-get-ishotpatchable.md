@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_isHotpatchable
-Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](/visual-cpp/build/reference/hotpatch-create-hotpatchable-image) compiler switch.  
+Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](/cpp/build/reference/hotpatch-create-hotpatchable-image) compiler switch.  
   
 ## Syntax  
   

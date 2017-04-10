@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_isNaked
-Retrieves a flag that specifies whether the function has the [naked](/visual-cpp/cpp/naked-cpp) attribute (that is, the function has no prolog or epilog code added by the compiler).  
+Retrieves a flag that specifies whether the function has the [naked](/cpp/cpp/naked-cpp) attribute (that is, the function has no prolog or epilog code added by the compiler).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_isNaked(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Naked Function Calls](/visual-cpp/cpp/naked-function-calls)
+ [Naked Function Calls](/cpp/cpp/naked-function-calls)

@@ -89,5 +89,5 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
  Configures **Solution Explorer** to show files in the project and files on disk in the project folder.  
   
 ## See Also  
- [Building C/C++ Programs](/visual-cpp/build/building-c-cpp-programs)   
- [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)
+ [Building C/C++ Programs](/cpp/build/building-c-cpp-programs)   
+ [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)

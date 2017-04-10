@@ -172,4 +172,4 @@ This walkthrough demonstrates how to profile an application to identify performa
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format)
+ [/Z7, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format)
