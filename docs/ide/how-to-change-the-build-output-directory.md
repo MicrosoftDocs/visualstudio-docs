@@ -54,5 +54,5 @@ You can specify the location of output on a per-configuration basis (for debug, 
   
 ## See Also  
  [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
- [General Property Page (Project)](/visual-cpp/ide/general-property-page-project)   
+ [General Property Page (Project)](/cpp/ide/general-property-page-project)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

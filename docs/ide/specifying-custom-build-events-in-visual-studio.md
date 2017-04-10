@@ -39,7 +39,7 @@ By specifying a custom build event, you can automatically run commands before a 
   
 -   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md).  
   
--   Visual C++--[Specifying Build Events](/visual-cpp/ide/specifying-build-events).  
+-   Visual C++--[Specifying Build Events](/cpp/ide/specifying-build-events).  
   
 ## Syntax  
  Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md).  

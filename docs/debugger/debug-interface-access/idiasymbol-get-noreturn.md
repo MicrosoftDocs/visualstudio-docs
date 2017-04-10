@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_noReturn
-Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/visual-cpp/cpp/noreturn) attribute.  
+Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/cpp/cpp/noreturn) attribute.  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_noReturn(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noreturn](/visual-cpp/cpp/noreturn)
+ [noreturn](/cpp/cpp/noreturn)

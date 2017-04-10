@@ -83,7 +83,7 @@ manager: "ghogen"
   
  This object model is defined in a set of assemblies that are included with the Visual Studio SDK. Some of the main assemblies in this object model include Microsoft.VisualStudio.Shell.11.0.dll, Microsoft.VisualStudio.Shell.Interop.dll, and Microsoft.VisualStudio.OLE.Interop.dll.  
   
- For more information about the integration object model, see [Visual Studio Extensibility Architecture](/visual-cpp/misc/visual-studio-extensibility-architecture) and [Visual Studio SDK Reference](/visual-studio/extensibility/visual-studio-sdk-reference).  
+ For more information about the integration object model, see [Visual Studio Extensibility Architecture](/cpp/misc/visual-studio-extensibility-architecture) and [Visual Studio SDK Reference](/visual-studio/extensibility/visual-studio-sdk-reference).  
   
 ### SharePoint Object Models  
  SharePoint tools extensions can use SharePoint APIs to modify a SharePoint site or to retrieve data from a SharePoint site. [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] provide two different object models: a server object model and a client object model.  
