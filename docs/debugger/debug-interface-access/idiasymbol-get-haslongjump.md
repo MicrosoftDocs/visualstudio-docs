@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_hasLongJump
-Retrieves a flag that specifies whether the function contains a use of the [longjmp](/visual-cpp/c-runtime-library/reference/longjmp) command (paired with a [setjmp](/visual-cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling).  
+Retrieves a flag that specifies whether the function contains a use of the [longjmp](/cpp/c-runtime-library/reference/longjmp) command (paired with a [setjmp](/cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling).  
   
 ## Syntax  
   
@@ -64,5 +64,5 @@ HRESULT get_hasLongJump
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)   
- [longjmp](/visual-cpp/c-runtime-library/reference/longjmp)   
- [setjmp](/visual-cpp/c-runtime-library/reference/setjmp)
+ [longjmp](/cpp/c-runtime-library/reference/longjmp)   
+ [setjmp](/cpp/c-runtime-library/reference/setjmp)

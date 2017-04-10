@@ -44,7 +44,7 @@ IDebugCoreServer3 : IDebugCoreServer2
  Visual Studio implements this interface.  
   
 ## Notes for Callers  
- Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface. A call to [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) can also return this interface. This interface is used most often by a custom port supplier to launch programs on a server (either local or remote).  
+ Use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface. A call to [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) can also return this interface. This interface is used most often by a custom port supplier to launch programs on a server (either local or remote).  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface, this interface implements the following methods:  

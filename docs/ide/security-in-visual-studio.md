@@ -49,7 +49,7 @@ You should consider security in all aspects of your application development, fro
  [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)  
  Provides guidelines for classifying your components to address security issues.  
   
- [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
+ [Security Best Practices](/cpp/top/security-best-practices-for-cpp)  
  Discusses buffer overruns and the complete picture of the Microsoft Visual C++ security checks feature provided by the /GS compile-time flag.
 
 ## Building for Security  

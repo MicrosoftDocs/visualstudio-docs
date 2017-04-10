@@ -42,7 +42,7 @@ You can use Visual Studio to build applications and to create assemblies and exe
 |Build Method|Benefits|For more information|  
 |------------------|--------------|--------------------------|  
 |Using the IDE|-   You can more easily create and run builds immediately.<br />-   You can run multi-processor builds for C++ and C# projects.<br />-   You can customize some aspects of the build system.|[Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)|  
-|Running an MSBuild command line|-   You can build projects without installing Visual Studio.<br />-   You can run multi-processor builds for all project types.<br />-   You can customize most areas of the build system.|[MSBuild](../msbuild/msbuild1.md)|  
+|Running an MSBuild command line|-   You can build projects without installing Visual Studio.<br />-   You can run multi-processor builds for all project types.<br />-   You can customize most areas of the build system.|[MSBuild](../msbuild/msbuild.md)|  
 |Using Team Foundation Build|-   You can automate your build process. For example, you can build one or more projects nightly or every time that code is checked in. You can also build projects on shared build servers rather than on your development computer.<br />-   You can quickly specify the code that you want to build, the tests that you want to run, and other common options.<br />-   You can modify the build workflow, and as needed, create build activities to perform deeply customized tasks.|[Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|  
   
 ## Building from the IDE  

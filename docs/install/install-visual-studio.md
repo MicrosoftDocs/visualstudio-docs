@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "04/03/2017"
+ms.date: "04/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -71,7 +71,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.  
 
-  ![Visual Studio 2017 setup dialog](media/vs2017-workloads.PNG "Installing Visual Studio 2017")
+  ![Visual Studio 2017 setup dialog](media/vs2017-workloads.PNG "Install Visual Studio workloads")
 
      For example, choose the .NET desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
@@ -85,7 +85,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
-  ![Visual Studio 2017 - Install individual components](media/vs2017-workloads.PNG "Install Visual Studio individual components")
+  ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
 ## Install language packs
 
@@ -102,6 +102,9 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 
 ## See also  
 * [Modify Visual Studio 2017](modify-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Create an offline installer for Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) 
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

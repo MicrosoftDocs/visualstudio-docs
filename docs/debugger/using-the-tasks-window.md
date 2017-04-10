@@ -42,7 +42,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d).  
   
- In native code, you can use the **Tasks** window when you work with [task groups](/visual-cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/visual-cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/visual-cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/visual-cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime).  
+ In native code, you can use the **Tasks** window when you work with [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).  
   
  In JavaScript, you can use the Tasks window when you are working with promise .then code.  
   
@@ -106,6 +106,6 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
- [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)   
+ [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)

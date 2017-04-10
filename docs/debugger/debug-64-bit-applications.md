@@ -68,7 +68,7 @@ You can debug a 64-bit application that is running on the local computer or on a
   
 ## See Also  
  [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
- [Configuring Programs for 64-Bit](/visual-cpp/build/configuring-programs-for-64-bit-visual-cpp)   
+ [Configuring Programs for 64-Bit](/cpp/build/configuring-programs-for-64-bit-visual-cpp)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)   
  [Using Dump Files](../debugger/using-dump-files.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

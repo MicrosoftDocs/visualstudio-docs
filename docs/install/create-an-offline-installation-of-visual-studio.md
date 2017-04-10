@@ -2,7 +2,7 @@
 title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to create an offline installer for of Visual Studio."
 ms.custom: ""
-ms.date: "03/21/2017"
+ms.date: "04/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -94,6 +94,7 @@ Sometimes, things go wrong. Here is a table of known issues and some workarounds
 
 | Issue       | Item                   | Solution |
 | ----------- | ---------------------- | -------- |
+| You receive an error message from the Visual Studio Installer that says, "Setup completed with warning", and then the Windows Emulator fails to install. | Windows 10 Emulator | Open your offline installation folder for Visual Studio, navigate to the subfolder "Win10_Emulator_10.0.15063,version=10.0.15063.12,chip=x64", and then run EmulatorSetup.exe to install the Windows Emulator. |
 | You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | If you want to include Android SDK (API Level) packages, you must have an internet connection when you create your offline installer. If you are on a restricted network, you must allow access to the following URLs: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |

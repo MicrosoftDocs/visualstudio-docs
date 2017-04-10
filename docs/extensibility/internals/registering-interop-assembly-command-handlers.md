@@ -33,7 +33,7 @@ translation.priority.mt:
 # Registering Interop Assembly Command Handlers
 A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that the integrated development environment (IDE) routes its commands properly.  
   
- The registry can be updated either by manual editing or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts).  
+ The registry can be updated either by manual editing or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).  
   
  The Managed Package Framework (MPF) provides this functionality through the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> class.  
   

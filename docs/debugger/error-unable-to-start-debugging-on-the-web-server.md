@@ -80,7 +80,7 @@ After taking steps to resolve an issue detailed here, and before trying again to
      
      For walkthroughs on deploying to IIS, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html), [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md), or [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
-* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
+* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
     Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. Try setting the framework version in web.config.
 

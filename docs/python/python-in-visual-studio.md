@@ -34,7 +34,7 @@ translation.priority.ht:
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-Visual Studio provides with [open-source](https://github.com/Microsoft/ptvs) support for Python through the Python workload (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). 
+Visual Studio provides with [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python workload (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). 
 
 Follow our [installation instructions](installation.md) to set up the Python workload, then use the links below to learn more about Python-related features as well as the capabilities of Visual Studio itself.
 
@@ -52,9 +52,19 @@ Follow our [installation instructions](installation.md) to set up the Python wor
 
 The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
 
-Also see our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube, which gives you an overview of the primary features.
+Our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube give you an overview of the primary features.
 
 [![Python Tools Videos](media/video-general.png)](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+
+## Questions and Answers
+
+**Q. What can I use to build UI with Python?**
+
+A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](http://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.))and [PyQt](https://wiki.python.org/moin/PyQt). At present, Python support in Visual Studio does not include any specific tools for UI development.
+
+**Q. Can a Python project produce a stand-alone executable?**
+
+A. Python is generally an interpreted language, with code run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to do this as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
 
 ## Features Matrix
 

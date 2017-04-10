@@ -44,7 +44,7 @@ IDebugProgramEngines2 : IUnknown
  A DE or a custom port supplier implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support establishing a specific DE to use for a particular program.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramEngines2`.  

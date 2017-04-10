@@ -60,6 +60,6 @@ This section provides tips on debugging COM applications and ActiveX controls.
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Introduction to COM](/visual-cpp/atl/introduction-to-com)   
- [ActiveX Controls](/visual-cpp/mfc/activex-controls)   
+ [Introduction to COM](/cpp/atl/introduction-to-com)   
+ [ActiveX Controls](/cpp/mfc/activex-controls)   
  [SDI Server Applications](../debugger/sdi-server-applications.md)
