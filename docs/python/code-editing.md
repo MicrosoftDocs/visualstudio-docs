@@ -1,7 +1,7 @@
 ---
-title: "Editing Code in Python Tools for Visual Studio | Microsoft Docs"
+title: "Editing Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Editing Python code
 
-Developers spend a lot of their time in the code editor, so Python Tools for Visual Studio (PTVS) provides functionality to help you be more productive, such as IntelliSense syntax highlighting, auto-completion, signature help, method overrides, and search and navigation. 
+Developers spend a lot of their time in the code editor, so Python support in Visual Studio provides functionality to help you be more productive, such as IntelliSense syntax highlighting, auto-completion, signature help, method overrides, and search and navigation. 
 
 In this topic:
 
@@ -40,9 +40,9 @@ In this topic:
 - [Code snippets](#code-snippets)
 - [Navigating your code](#navigating-your-code)
 
-For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code. PTVS supports using the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting classes defined in each module and the functions defined in those classes. 
+For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code. Python support includes using the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting classes defined in each module and the functions defined in those classes. 
 
-For an introduction to editing Python code, see [Getting Started with PTVS, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m48s):
+For an introduction to editing Python code, see [Getting Started with Python in Visual Studio, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m48s):
 
 > [!VIDEO https://www.youtube.com/embed/uZGZNEyyeKs]
 
@@ -131,12 +131,12 @@ You can see the available code snippets in the Code Snippets Manager (**Tools > 
 To create your own snippets, see [Walkthrough: Creating a Code Snippet](https://docs.microsoft.com/en-us/visualstudio/ide/walkthrough-creating-a-code-snippet).
 Code snippets can be customized by [creating a code snippet](https://msdn.microsoft.com/en-us/library/ms165394.aspx) and importing it through the 
 
-If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of PTVS.
+If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
 
 
 ## Navigating your code
 
-PTVS provides several means to quickly navigate within your code, including libraries for which source code is available: the [navigation bar](#navigation-bar), [Go To Definition](#go-to-definition), [Navigate To](#navigate-to), [Find All References](#find-all-references), and the [Object Browser](#object-browser).
+Python support in Visual Studio provides several means to quickly navigate within your code, including libraries for which source code is available: the [navigation bar](#navigation-bar), [Go To Definition](#go-to-definition), [Navigate To](#navigate-to), and [Find All References](#find-all-references), as described below. You can also use the Visual Studio [Object Browser](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 

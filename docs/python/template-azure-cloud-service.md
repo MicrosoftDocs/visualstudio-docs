@@ -1,7 +1,7 @@
 ---
 title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Azure Cloud Service Projects for Python
 
-Python Tools for Visual Studio (PTVS) provides templates to help you get started creating Azure Cloud Services using Python.
+Visual Studio provides templates to help you get started creating Azure Cloud Services using Python.
 
 A [Cloud Service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web Project Template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with `pip install`&nbsp;[`azure`](http://pypi.org/project/azure).
 
@@ -53,7 +53,7 @@ This topic contains details about the project template and other support in Visu
 
 1. After adding a new role to your project, you'll see some configuration instructions. These are usually unnecessary, but may be useful for future customization of your projects. Note that when adding multiple roles at the same time, only the instructions for the last role will remain open. However, you can find the instructions and troubleshooting tips for the other roles in their respective `readme.mht` files, located either in the role's root or in the `bin` folder.
 
-1. A project's `bin` folder also contains one or two PowerShell scripts that are used to configure the remote virtual machine, including installing Python, any [requirements.txt](#requirementstxt) file in your project, and setting up IIS if necessary. You may edit these files as desired to your deployment, though most common options can be managed in other ways (see [Configuring role deployment](#configuring-role-deployment) below). We do not suggest removing these files, as a legacy configuration script will be used instead if they are not available.
+1. A project's `bin` folder also contains one or two PowerShell scripts that are used to configure the remote virtual machine, including installing Python, any [requirements.txt](#dependencies) file in your project, and setting up IIS if necessary. You may edit these files as desired to your deployment, though most common options can be managed in other ways (see [Configuring role deployment](#configuring-role-deployment) below). We do not suggest removing these files, as a legacy configuration script will be used instead if they are not available.
 
     ![Worker Role Support Files](media/template-azure-cloud-service-worker-role-support-files.png)
 
