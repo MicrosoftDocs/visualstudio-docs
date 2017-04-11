@@ -41,8 +41,7 @@ IntelliSense is a feature that interactively provides hints about available comm
 
 IntelliSense is automatic as you. Note that we have both the name of the function in the IntelliSense drop-down, as well a brief summary of what the function does. Note that matches are case-sensitive.
 
-
-
+TODO: this is an invalid image
 ![](intellisense-auto-complete-menu.png)
 
 IntelliSense suggestions are also available for members of R objects:

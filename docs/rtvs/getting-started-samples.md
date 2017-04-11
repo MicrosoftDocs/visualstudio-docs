@@ -47,7 +47,7 @@ At the top level, **A First Look at R** gives a gentle introduction for newcomer
 
 [Microsoft R Open](http://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
 
-1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/en-us/intel-mkl). These are available as a free download from Microsoft for use with Microsoft R Open.
+1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/intel-mkl). These are available as a free download from Microsoft for use with Microsoft R Open.
 
 1. [Reproducible R Toolkit](https://mran.revolutionanalytics.com/rro/#reproducibility), which ensures that the libraries you used to build your R program are always available to others that want to reproduce your work.
 

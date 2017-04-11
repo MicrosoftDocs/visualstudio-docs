@@ -36,7 +36,7 @@ translation.priority.ht:
 To setup a Remote Workspace, you will need to first start with a computer that has the following software installed on it:
 
 * Windows 10 or Windows Server 2012 R2 or Windows Server 2016
-* [.NET Framework 4.6.1](https://www.microsoft.com/en-us/download/details.aspx?id=49981) or greater
+* [.NET Framework 4.6.1](https://www.microsoft.com/download/details.aspx?id=49981) or greater
 
 ## Installing the SSL certificate
 
@@ -94,7 +94,7 @@ Navigate to where your certificate is stored on your computer, and import it int
 
 Now that you have your SSL certificate installed, and you have granted the NETWORK SERVICE account access to its private key, you are now ready to install the R Services.
 
-First, you will need to install an R interpreter on your R server computer. You can choose from Microsoft R Open or CRAN R. Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/en-us/intel-mkl).
+First, you will need to install an R interpreter on your R server computer. You can choose from Microsoft R Open or CRAN R. Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
 You can download R from one of the links below:
 
@@ -124,7 +124,7 @@ By default, the `R Host Broker` listens on TCP port 5444. Therefore, you must en
 ### Azure configuration
 
 Azure networking also implements its own firewall that is independently configured from the Windows firewall. You will need to make sure that you have the appropriate set of rules in place to allow incoming traffic through. You will need to configure an [Azure network security
-group](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-nsg) and add a new inbound security rule that lets TCP traffic on port 5444 pass.
+group](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg) and add a new inbound security rule that lets TCP traffic on port 5444 pass.
 
 ### Configuring your SSL certificate
 

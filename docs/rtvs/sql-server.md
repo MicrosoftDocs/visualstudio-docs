@@ -33,7 +33,7 @@ translation.priority.ht:
 
 # SQL Server Integration
 
-SQL databases are a major source of data for data scientists. RTVS makes it easier to work with SQL data by integrating with the excellent support for SQL Server that is available to Visual Studio users. Since Visual Studio is modular, you will need to first download the [SQL Server Data Tools](https://msdn.microsoft.com/en-us/library/mt204009.aspx) package before you can use the R and SQL integration features described in this page.
+SQL databases are a major source of data for data scientists. RTVS makes it easier to work with SQL data by integrating with the excellent support for SQL Server that is available to Visual Studio users. Since Visual Studio is modular, you will need to first download the [SQL Server Data Tools](https://msdn.microsoft.com/library/mt204009.aspx) package before you can use the R and SQL integration features described in this page.
 
 Here's a quick 3 minute highlight video of some of the features that are described in this document:
 
@@ -65,11 +65,11 @@ There are many other features available within the Transact-SQL editor. For exam
 
 ![SQL Window Execution Query Plan](media/sql-query-plan.png)
 
-For more details on the many features of the T-SQL editor, see the [T-SQL Editor Documentation on MSDN](https://msdn.microsoft.com/en-us/library/hh272706(v=vs.103).aspx).
+For more details on the many features of the T-SQL editor, see the [T-SQL Editor Documentation on MSDN](https://msdn.microsoft.com/library/hh272706(v=vs.103).aspx).
 
 ## Working with SQL Server Stored Procedures
 
-A new feature in SQL Server 2016, [SQL Server R Services](https://msdn.microsoft.com/en-us/library/mt604845.aspx), lets you embed and run R code from a T-SQL stored procedure. R code can now execute on the SQL Server machine, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client. However, this feature requires combining SQL code and R code together inside of a single SQL statement, a process that is unwieldy and error-prone, since it involves copying and pasting functional R code into your SQL code.
+A new feature in SQL Server 2016, [SQL Server R Services](https://msdn.microsoft.com/library/mt604845.aspx), lets you embed and run R code from a T-SQL stored procedure. R code can now execute on the SQL Server machine, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client. However, this feature requires combining SQL code and R code together inside of a single SQL statement, a process that is unwieldy and error-prone, since it involves copying and pasting functional R code into your SQL code.
 
 We've added a number of features in RTVS to improve the inner loop of the experience of writing your R and SQL code. Collectively, they let you write, test and debug your SQL code and your R code _independently_. Here's a quick 6 minute video that shows you the SQL R Stored Procedure workflow in RTVS:
 
@@ -115,7 +115,7 @@ In Solution Explorer, you see these three files as a single node called `StoredP
 
 ![StoredProcedure R Generated Code](media/sql-stored-procedure-r-generated-code.png)
 
-For more details on the design of this calling convention and some examples of its usage, see the SQL Server documentation on the [sp_execute_external_script](https://msdn.microsoft.com/en-us/library/mt604368.aspx) system stored procedure.
+For more details on the design of this calling convention and some examples of its usage, see the SQL Server documentation on the [sp_execute_external_script](https://msdn.microsoft.com/library/mt604368.aspx) system stored procedure.
 
 When you write and test your R code, you will want to test it using data from SQL. We generate a small test script in the comments of the `StoredProcedure.R` file that uses the [RODBC package](https://cran.r-project.org/web/packages/RODBC/index.html) to transmit a SQL statement to SQL Server, run it, and retrieve its result set as an R dataframe. You can uncomment the test code to interactively write your R code against the result set that you got from SQL Server.
 

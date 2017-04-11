@@ -54,7 +54,7 @@ If you want to examine the code snippets in Visual Studio, use the **Tools > Cod
 
 ![](media/code-snippets-box-plot.png)
 
-You can create your own code snippets as well as described on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet).
+You can create your own code snippets as well as described on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
 
 Note that a code snippet is just an XML file; here's the Code Snippet for the pipe operator:
 

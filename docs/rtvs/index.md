@@ -34,7 +34,7 @@ translation.priority.ht:
 
 R Tools for Visual Studio is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher). R Tools are released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
 
-First things first, [install the R Tools](installation.md). Then get your first experience with R in Visual Studio by following the [Getting Started](getting-started.md). You can also watch the following feature highlights video (5m 48s):
+First things first, [install the R Tools](installation.md). Then get your first experience with R in Visual Studio by following the [Getting Started](getting-started-with-r.md). You can also watch the following feature highlights video (5m 48s):
 
 > [!VIDEO https://www.youtube.com/embed/RcSDEfMgUvU]
 
@@ -67,7 +67,7 @@ While writing your R programs, you will frequently need to visualize your data. 
 * Multiple plot windows
 * Plot history
 
-The [Variable Explorer](interactive-repl-variable-explorer.md) gives you a convenient way to see all of the variables that you have defined in your program, including data frames:
+The [Variable Explorer](variable-explorer.md) gives you a convenient way to see all of the variables that you have defined in your program, including data frames:
 
 ![](media/repl-variable-explorer-cmds-example-drill-down2.png)
 
@@ -77,13 +77,13 @@ It provides convenient links to other tools like the **Table viewer** for visual
 
 ## Visualizing data
 
-[Plots](plotting.md) are a key part of your workflow as an R developer. There are fantastic plotting libraries available for R, and we make it easy for you to interact with the plots that they create. We give you tools to arrange your plots where you want them to be, we give you with an interactive history of all of the plots that you've created, and we make it easy to export your plots to other tools so that you can generate reports from your data.
+[Plots](visualize-data.md) are a key part of your workflow as an R developer. There are fantastic plotting libraries available for R, and we make it easy for you to interact with the plots that they create. We give you tools to arrange your plots where you want them to be, we give you with an interactive history of all of the plots that you've created, and we make it easy to export your plots to other tools so that you can generate reports from your data.
 
 ![Plotting Hero Image](media/plotting-hero-image.png)
 
 ### Easily share your results with others
 
-Sharing your results with others, easily, is a key design goal of RTVS. Your colleauges prefer to consume their documents using a variety of different media: ranging from web pages to PDFs to Word documents. Your results often include formatted text, plots and equations. 
+Sharing your results with others, easily, is a key design goal of RTVS. Your colleagues prefer to consume their documents using a variety of different media: ranging from web pages to PDFs to Word documents. Your results often include formatted text, plots and equations. 
 
 **RMarkdown** gives you a way to easily [create documents](http://rmarkdown.rstudio.com/) to share your results with your colleagues. We take advantage of Visual Studio's high-performance editor to deliver a lag-free typing experience in your RMarkdown documents. Our editor has
 syntax coloring and IntelliSense, for both your Markdown markup **and the R code within Markdown code blocks**:
@@ -94,9 +94,9 @@ We make it easy for you to generate HTML, PDF, or Word markdown documents. For m
 
 ### Better with SQL Server
 
-A tremendous amount of enterprise data is stored in relational databases, and [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016) is one of the most popular relational databases on the market. SQL Server 2016 has a feature called [SQL Server R Services](https://www.microsoft.com/en-us/sql-server/sql-server-r-services), where we have embedded an R runtime in the database server. This makes it easy to use R to perform advanced analytics over your relational data, and dramatically reduces the latency required to perform those analytics by eliminating the need for data movement.
+A tremendous amount of enterprise data is stored in relational databases, and [SQL Server](https://www.microsoft.com/sql-server/sql-server-2016) is one of the most popular relational databases on the market. SQL Server 2016 has a feature called [SQL Server R Services](https://www.microsoft.com/sql-server/sql-server-r-services), where we have embedded an R runtime in the database server. This makes it easy to use R to perform advanced analytics over your relational data, and dramatically reduces the latency required to perform those analytics by eliminating the need for data movement.
 
-This feature uses [SQL R Stored Procedures](https://msdn.microsoft.com/en-us/library/mt591996.aspx) that mixes R and SQL code together in a stored procedure. You'll need to write some SQL code to select the data that your R code analyzes. Since you're writing code in two different languages, we've added features in RTVS to write and test your SQL code and your R code *independently*. You begin by using our SQL R Stored Procedure template in Visual Studio to create a new Stored Procedure. It generates three files for you:
+This feature uses [SQL R Stored Procedures](https://msdn.microsoft.com/library/mt591996.aspx) that mixes R and SQL code together in a stored procedure. You'll need to write some SQL code to select the data that your R code analyzes. Since you're writing code in two different languages, we've added features in RTVS to write and test your SQL code and your R code *independently*. You begin by using our SQL R Stored Procedure template in Visual Studio to create a new Stored Procedure. It generates three files for you:
 
 1. `StoredProcedure.R` is where you write the R code that you want to execute in your SQL stored procedure.
 1. `StoredProcedure.Query.sql` is where you write the SQL code that you want to execute in your SQL stored procedure.
@@ -104,7 +104,7 @@ This feature uses [SQL R Stored Procedures](https://msdn.microsoft.com/en-us/lib
 
 ![Solution Explorer Expanded View Of SQL Stored Procedure](media/sql-solution-explorer-expanded.png)
 
-When you double click on the `StoredProcedure.Query.sql` file, we activate the SQL editor, courtesy of the [SQL Server Data Tools for Visual Studio extension](https://msdn.microsoft.com/en-us/mt186501.aspx) that gives you syntax coloring and IntelliSense for your SQL code. 
+When you double click on the `StoredProcedure.Query.sql` file, we activate the SQL editor, courtesy of the [SQL Server Data Tools for Visual Studio extension](https://msdn.microsoft.com/mt186501.aspx) that gives you syntax coloring and IntelliSense for your SQL code. 
 
 ![SQL Window Query Results](media/sql-query-results.png)
 
@@ -119,7 +119,7 @@ be shared by several team members, making it easier to collaborate on large or s
 
 ![](media/workspace-window.png)
 
-You can even setup your remote workspaces on [Azure virtual machines](https://azure.microsoft.com/en-us/services/virtual-machines/?b=17.08),
+You can even setup your remote workspaces on [Azure virtual machines](https://azure.microsoft.com/services/virtual-machines/?b=17.08),
 eliminating the need for capital expenditures to get the computing resources that you need to get your work done. 
 
 When you are using a remote workspace, all editing and visualization are done using RTVS on your local computer. All code execution occurs on the remote computer. This ensures that the computing resources on your remote computer are totally dedicated to running your R code, without the overhead of running an IDE. 
@@ -157,7 +157,7 @@ A. No.
 
 **Q. What R interpreters does RTVS work with?**
 
-A. [CRAN R](https://cran.r-project.org/), [Microsoft R Client and Microsoft R Server](https://msdn.microsoft.com/en-us/microsoft-r/)
+A. [CRAN R](https://cran.r-project.org/), [Microsoft R Client and Microsoft R Server](https://msdn.microsoft.com/microsoft-r/)
 
 **Q. Where can I download these interpreters?**
 
@@ -185,7 +185,7 @@ A. Yes, you can use any source control system that is integrated into Visual Stu
 
 **Q. I don't use a US English locale in Windows or in VS. Will RTVS work?**
 
-A. The 1.0 release of RTVS will be English-only. The 1.1 release will be localized to the same set of languages that Visual Studio itself is. In the meantime, we recommend using the English language pack for Visual Studio. If English is not available in the drop-down, you'll need to install the [Visual Studio Language pack](https://www.microsoft.com/en-us/download/details.aspx?id=48157).
+A. The 1.0 release of RTVS will be English-only. The 1.1 release will be localized to the same set of languages that Visual Studio itself is. In the meantime, we recommend using the English language pack for Visual Studio. If English is not available in the drop-down, you'll need to install the [Visual Studio Language pack](https://www.microsoft.com/download/details.aspx?id=48157).
 
 ![](media/FAQ-international-settings.png)
 

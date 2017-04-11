@@ -48,7 +48,7 @@ translation.priority.ht:
 
 You can also try one of our sample projects.  Just download, open and run:
 
-[Samples documentation](samples.md)
+[Samples documentation](getting-started-samples.md)
 
 # Use multiple project types in Visual Studio
 

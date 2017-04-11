@@ -41,7 +41,7 @@ If you want to interactively inspect variables while stopped at the debugger, yo
 
 ![](media/debugger-tooltips.gif)
 
-While Visual Studio has a powerful set of features for inspecting variables, oftentimes R developers are using data structures such as data frames that aren't easily visualized using the Visual Studio UI. To improve this experience, we have created the [Variable Explorer](interactive-repl-variable-explorer.md) which lets you interactively inspect data frames, and even export their contents to Excel. This makes it easy to snapshot the state of a data frame between transformations to better understand where things may have gone wrong in your computations:
+While Visual Studio has a powerful set of features for inspecting variables, oftentimes R developers are using data structures such as data frames that aren't easily visualized using the Visual Studio UI. To improve this experience, we have created the [Variable Explorer](variable-explorer.md) which lets you interactively inspect data frames, and even export their contents to Excel. This makes it easy to snapshot the state of a data frame between transformations to better understand where things may have gone wrong in your computations:
 
 ![](media/repl-variable-explorer-excel-view.png)
 

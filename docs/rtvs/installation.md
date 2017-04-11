@@ -44,7 +44,7 @@ The pre-requisites for RTVS are:
 * Note that the [Visual Studio 2017](https://www.visualstudio.com/vs/whatsnew/) release of RTVS is not quite ready yet, but will ship soon.
 
 You may have tools installed on your computer that ship with the *Visual Studio Shell*, e.g., [Test
-Professional](https://www.microsoft.com/en-us/download/details.aspx?id=48154) and [SQL Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms). The Visual Studio Shell lacks several components that are required by RTVS, so we explicitly block the installation of RTVS if it detects the presence of the Visual Studio Shell. You must install one of the supported versions of Visual Studio before you install RTVS.
+Professional](https://www.microsoft.com/download/details.aspx?id=48154) and [SQL Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms). The Visual Studio Shell lacks several components that are required by RTVS, so we explicitly block the installation of RTVS if it detects the presence of the Visual Studio Shell. You must install one of the supported versions of Visual Studio before you install RTVS.
 
 If you already have Visual Studio 2015 with Update 3 and R installed, you can download and run the RTVS setup from the link below - but we highly recommend following the [Installation guide](installation.md):
 
@@ -55,7 +55,7 @@ If you already have Visual Studio 2015 with Update 3 and R installed, you can do
 
 RTVS 1.0 can be installed on only Visual Studio 2015 Update 3 and higher. We support the following editions of Visual Studio:
 
-* [Visual Studio 2015 Community](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) (free)
+* [Visual Studio 2015 Community](https://www.visualstudio.com/products/visual-studio-community-vs.aspx) (free)
 * Visual Studio 2015 Professional 
 * Visual Studio 2015 Enterprise
 
@@ -68,7 +68,7 @@ The current version of Visual Studio 2015 is Update 3, and contains important up
 RTVS requires an installation of R on your computer. We support only **64 bit** editions of R versions 3.2.1, and higher. We support both the CRAN R distributions as well as the Microsoft R distributions. You can download them from for free from these locations:
 
 * [Microsoft R Open](https://mran.microsoft.com/download/)
-* [Microsoft R Client](https://msdn.microsoft.com/en-us/microsoft-r/r-client-get-started)
+* [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started)
 * [CRAN R](https://cran.r-project.org/bin/windows/base/)
 
 If you don't have an R distribution installed before you install RTVS, you will be prompted to install an R distribution during setup.
@@ -81,9 +81,9 @@ Some customers want to install RTVS onto air-gapped computers that do not have a
 
 1. An ISO image of the Visual Studio 2015 edition that you want to use (e.g., Community, Professional or Enterprise). To download an ISO image of Visual    Studio 2015, you have a couple of options:
 
-    * If you are an MSDN subscriber [click here](https://msdn.microsoft.com/en-us/subscriptions/hh442898.aspx) to go to the MSDN subscribers download site to download an ISO of the edition of Visual Studio 2015 that you want to use.
+    * If you are an MSDN subscriber [click here](https://msdn.microsoft.com/subscriptions/hh442898.aspx) to go to the MSDN subscribers download site to download an ISO of the edition of Visual Studio 2015 that you want to use.
 
-    * If you aren't an MSDN subscriber [click here](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to download an ISO of Visual Studio 2015 Community Edition.
+    * If you aren't an MSDN subscriber [click here](https://www.microsoft.com/download/details.aspx?id=48146) to download an ISO of Visual Studio 2015 Community Edition.
 
 1. A zip file containing all of the RTVS installation files. Click [here](https://aka.ms/rtvs-current-zip) to download a zip file containing RTVS.
 

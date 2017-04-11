@@ -75,7 +75,7 @@ You can also *edit* your plot history. You can remove the current plot from the 
 
 ## Resizing and docking plot windows
 
-Because the plot window is a Visual Studio tool window, it supports customized layouts (see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio). One example is tearing off the plot window into its own top level window:
+Because the plot window is a Visual Studio tool window, it supports customized layouts (see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md). One example is tearing off the plot window into its own top level window:
 
 ![Tear off window](media/plotting-tear-off-window.png)
  
@@ -83,7 +83,7 @@ You can dock it into different locations within Visual Studio:
 
 ![Docking window](media/plotting-dock-window.png)
  
-You can drag the plot window onto a separate monitor as well, and even save the layout of your windows into custom named layouts. Again, see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio) for details.
+You can drag the plot window onto a separate monitor as well, and even save the layout of your windows into custom named layouts. Again, see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md) for details.
 
 The plot window will resize the contained plot as the window is resized. This is possible because the plot window retains the command and the data that was used to render the plot. This lets RTVS render the highest quality representation of the plot as you resize the window. 
 
@@ -107,7 +107,7 @@ You can also copy or move plots between plot windows by dragging and dropping th
 
 ![Moving plots](media/plotting-move-plots.png)
 
-As noted earlier, plot windows are Visual Studio tool windows, so you can [customize their layouts](../ide/customizing-window-layouts-in-visual-studio)
+As noted earlier, plot windows are Visual Studio tool windows, so you can [customize their layouts](../ide/customizing-window-layouts-in-visual-studio.md)
 
 ## Programmatically manipulating plot windows
 
