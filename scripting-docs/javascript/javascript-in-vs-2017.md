@@ -15,13 +15,13 @@ dev_langs:
   - "DHTML"
 ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
 caps.latest.revision: 1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "bowdenk7"
+ms.author: "wilkelly"
 manager: "ghogen"
 ---
 # JavaScript in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)]
 
-This article includes information on JavaScript in Visual Studio.
+JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.
 
 ## <a name="ES6"></a> Support for ECMAScript 2015 (ES6) and beyond
 Visual Studio now supports syntax for ECMAScript language updates such as ECMAScript 2015/2016.
