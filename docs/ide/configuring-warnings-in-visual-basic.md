@@ -135,4 +135,4 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
  [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn)   
  [/warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
- [Compiler Warnings That Are Off by Default](/visual-cpp/preprocessor/compiler-warnings-that-are-off-by-default)
+ [Compiler Warnings That Are Off by Default](/cpp/preprocessor/compiler-warnings-that-are-off-by-default)

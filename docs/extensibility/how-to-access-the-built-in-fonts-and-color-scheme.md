@@ -55,7 +55,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 2.  The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.  
   
-     For more information, see [Adding or Deleting a String](/visual-cpp/windows/adding-or-deleting-a-string).  
+     For more information, see [Adding or Deleting a String](/cpp/windows/adding-or-deleting-a-string).  
   
 ### To register a category using built-in fonts and colors  
   

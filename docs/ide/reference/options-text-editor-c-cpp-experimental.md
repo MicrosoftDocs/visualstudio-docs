@@ -32,9 +32,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Options, Text Editor, C/C++, Experimental
-By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release.  
+By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release. This topic describes the options in Visual Studio 2017. For Visual Studio 2015, see [Options, Text Editor, C/C++, Experimental](https://msdn.microsoft.com/library/mt591979.aspx) 
   
- To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Experimental**.  
+ To access this property page, press **Control + Q** to activate `Quick Launch` and then type "experimental". Quick Launch will find the page after the first few letters. You can also get to it by choosing **Tools | Options** and expanding **Text Editor**, then **C/C++**, and then choosing **Experimental**.  
 
  These features are available in a Visual Studio 2017 installation.  
   
@@ -45,7 +45,7 @@ By changing these options, you can change the behavior related to IntelliSense a
 Predictive IntelliSense limits the number of results displayed in the IntelliSense dropdown list so that you see only results that are relevant in the context. For example, if you type <code>int x =</code> and invoke the IntelliSense dropdown, you will see only integers or functions that return integers. Predictive IntelliSense is turned off by default.
 
 ## Enable Faster Project Load
-This option enables the feature known as "lightweight solution load." When lightweight solution load is enabled, Visual Studio will not fully load projects until you actually need them. Many common tasks, such as navigating through a codebase, editing code, and building projects do not require the project to be loaded. When this option is enabled, you can get started more quickly on these common tasks without having to wait for the project to load.  
+This option enables Visual Studio to cache project data so that when you open the project the next time, it can load that cached data rather than re-computing it from the project files. Using cached data can speed up the project load time significantly.  
 
 ## Additional Features in the Visual Studio Gallery
 For additional text editor features in the Visual Studio Gallery, see the list [here](http://go.microsoft.com/fwlink/?LinkId=692016). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:  

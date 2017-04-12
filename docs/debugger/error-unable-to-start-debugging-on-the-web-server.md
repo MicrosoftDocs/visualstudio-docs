@@ -49,7 +49,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Error: Unable to Start Debugging on the Web Server
-When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`. 
+When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`.
   
 In many cases, this error occurs because IIS is not configured correctly.
 
@@ -74,17 +74,19 @@ After taking steps to resolve an issue detailed here, and before trying again to
 
 * If you are using a HOSTS file with local addresses, try using the loopback address instead of the machine's IP address.
 
-* Bring up the localhost page in the browser.
+* Bring up the localhost page in the browser on the server.
 
      If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
      
-     For information about deploying to IIS, see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
+     For walkthroughs on deploying to IIS, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html), [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md), or [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
-* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or, for ASP.NET Core, [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html)).
+* Make sure that the correct version of ASP.NET is installed on IIS.  See [Deploy an ASP.NET Application](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. Try setting the framework version in web.config.
 
 * Create a basic ASP.NET application on the server.
 
-     If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server, and try to debug the basic app. If you can debug a basic app, that may help you identify what's different between the two configurations.
+     If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server (or you can use the default ASP.NET MVC template), and try to debug the basic app. If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
   
 * Resolve authentication errors if you are using only the IP address
 
@@ -92,11 +94,11 @@ After taking steps to resolve an issue detailed here, and before trying again to
      
 ## Other causes
 
-If you are using an older version of Visual Studio:
+If the preceding steps didn't work, try these steps:
 
 - Restart Visual Studio with elevated privileges and try again.
 
-    A bug in older versions (fixed later) required elevated privileges in some ASP.NET debugging scenarios.
+    Some ASP.NET debugging scenarios such as using Web Deploy require elevated privileges for Visual Studio.
     
 - If multiple instance of Visual Studio are running, re-open your project in one instance of Visual Studio, and try again.
   

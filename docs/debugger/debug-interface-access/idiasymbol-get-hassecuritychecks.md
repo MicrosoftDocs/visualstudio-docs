@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_hasSecurityChecks
-Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check) compiler switch).  
+Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check) compiler switch).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_hasSecurityChecks(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [/GS (Buffer Security Check)](/visual-cpp/build/reference/gs-buffer-security-check)
+ [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)

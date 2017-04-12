@@ -149,7 +149,7 @@ for (int i = length - 1; i >= 0; i--)
 }  
 ```  
   
- The **rfor** snippet provides a [range-based](/visual-cpp/cpp/range-based-for-statement-cpp) for loop (link):  
+ The **rfor** snippet provides a [range-based](/cpp/cpp/range-based-for-statement-cpp) for loop (link):  
   
 ```cpp  
 for (auto& i : v)  

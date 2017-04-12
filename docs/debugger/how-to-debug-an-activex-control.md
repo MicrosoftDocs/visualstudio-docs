@@ -69,7 +69,7 @@ translation.priority.ht:
      If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.  
   
 ## See Also  
- [ActiveX Controls](/visual-cpp/mfc/activex-controls)   
- [Testing Properties and Events with Test Container](/visual-cpp/mfc/testing-properties-and-events-with-test-container)   
+ [ActiveX Controls](/cpp/mfc/activex-controls)   
+ [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

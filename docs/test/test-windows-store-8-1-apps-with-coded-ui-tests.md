@@ -1,5 +1,5 @@
 ---
-title: "Test Windows Store 8.1 Apps with Coded UI Tests | Microsoft Docs"
+title: "Test Windows UWP and 8.1 Store Apps with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
 caps.latest.revision: 23
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"
@@ -28,8 +28,9 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Test Windows Store 8.1 Apps with Coded UI Tests
-Use coded UI tests to verify your Windows Store apps.  
+# Test Windows UWP and 8.1 Store Apps with Coded UI Tests
+
+Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1 apps. 
   
 ## Create a simple Windows Store app  
   
@@ -72,6 +73,8 @@ Use coded UI tests to verify your Windows Store apps.
 5.  Press F5 to run your Windows Store app.  
   
 ## Create and run a coded UI test for the Windows Store app  
+
+[How do I create coded UI tests for Universal Windows Platform (UWP) apps?](#uwpapps)
   
 1.  Create a new coded UI test project for the Windows Store app.  
   
@@ -303,31 +306,32 @@ Use coded UI tests to verify your Windows Store apps.
   
 ## Q & A  
   
--   **Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
+#### Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
   
-     **A**: The option to record is not supported for Windows Store apps.  
+**A**: The option to record is not supported for Windows Store apps.  
   
--   **Q: Can I create a coded UI test for my Windows Store apps based on WinJS?**  
+#### Q: Can I create a coded UI test for my Windows Store apps based on WinJS?**  
+
+**A**: No, only XAML based apps are supported.  
   
-     **A**: No, only XAML based apps are supported.  
+#### Q: Can I create coded UI tests for my Windows Store apps on a system that is not running Windows 8.1 or Windows 10?**  
   
--   **Q: Can I create coded UI tests for my Windows Store apps on a system that is not running Windows 8.1 or Windows 10?**  
+**A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
+
+<a name="uwpapps"></a>  
+#### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**  
   
-     **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
+**A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
--   **Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**  
+- A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
   
-     **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
+- A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
   
-    -   A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
+After you create the project, authoring a test stays the same as before.  
   
-    -   A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
+#### Q: Why can’t I modify the code in the UIMap.Designer file?**  
   
-     After you create the project, authoring a test stays the same as before.  
-  
--   **Q: Why can’t I modify the code in the UIMap.Designer file?**  
-  
-     **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
+**A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
