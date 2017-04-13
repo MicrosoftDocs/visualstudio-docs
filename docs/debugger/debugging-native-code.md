@@ -1,7 +1,7 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
