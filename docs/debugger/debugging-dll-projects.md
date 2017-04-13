@@ -44,45 +44,18 @@ The following templates create DLLs:
   
 -   (C++, C#, and Visual Basic) Class Library  
   
--   (C++, C#, and Visual Basic): Windows Forms Control Library  
+-   (C++, C#, and Visual Basic): Windows Forms Control Library
   
      Debugging a Windows Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
   
 -   (C# and Visual Basic): Web Control Library  
   
-     For more information, see [Web Control Library (Managed Code)](../debugger/web-control-library-managed-code.md).  
-  
--   (C++): MFC ActiveX Control and MFC Smart Device ActiveX Control  
-  
-     ActiveX controls are controls that can be downloaded over the Internet onto a client computer, and displayed and activated on Web pages.  
-  
-     Debugging ActiveX controls is similar to debugging other kinds of controls because they cannot be run as stand-alone, but must be embedded in an HTML Web page. For more information, see [How to: Debug an ActiveX Control](../debugger/how-to-debug-an-activex-control.md).  
-  
--   (C++): MFC Smart Device DLL  
+     For more information, see [Web Control Library (Managed Code)](../debugger/web-control-library-managed-code.md).
+
+-   (C++): Win32 Console DLL project
   
      For more information, see [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md).  
-  
- This section also contains information about the following topics:  
-  
--   [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md)  
-  
--   [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md)  
-  
- This topic contains the following sections, which provide considerations about how to prepare to debug class libraries:  
-  
--   [Building a Debug Version](#vxtskdebuggingdllprojectsbuildingadebugversion)  
-  
--   [Mixed-Mode Debugging](#vxtskdebuggingdllprojectsmixedmodedebugging)  
-  
--   [Changing Default Configurations](#vxtskdebuggingdllprojectschangingdefaultconfigurations)  
-  
--   [Ways to Debug the DLL](#vxtskdebuggingdllprojectswaystodebugthedll)  
-  
--   [The Calling Application](#vxtskdebuggingdllprojectsthecallingapplication)  
-  
--   [Controls on a Web Page](#vxtskdebuggingdllprojectscontrolsonawebpage)  
-  
--   [The Immediate Window](#vxtskdebuggingdllprojectstheimmediatewindow)  
+
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a Debug Version  
  No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md).  
