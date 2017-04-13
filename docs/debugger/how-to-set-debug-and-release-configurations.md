@@ -83,7 +83,7 @@ Each project type may have a different way of setting these options.
 
 ### Generate symbol files for a C#, ASP.NET, or Visual Basic project
 
-For detailed information on project settings for debug configurations in C#, see [Project settings for a C# Debug configuration](../debugger/project-settings-for-csharp-debug-configuration.md). For Visual Basic, see [this topic](../debugger/project-settings-for-vb-debug-configuration.md).
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# Debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). For Visual Basic, see [this topic](../debugger/project-settings-for-visual-basic-debug-configuration.md).
 
 1. Right-click the project in Solution Explorer and choose **Properties**.
 
@@ -91,7 +91,7 @@ For detailed information on project settings for debug configurations in C#, see
 
 2. Choose **Build** settings and then click the **Advanced** button.
 
-    In Visual Basic, you choose the **Compile** settings and the **Advanced Compile Options** button.
+    In Visual Basic, you choose the **Compile** settings and the **Advanced Compile Options** button instead.
 
 3. Choose **full**, **portable**, or **pdb_only** in the **Debugging information** list box (**Generate debug info** in Visual Basic).
 
