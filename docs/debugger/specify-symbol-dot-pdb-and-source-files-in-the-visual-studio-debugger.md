@@ -57,7 +57,7 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.
   
 > [!TIP]
-> If you want to debug code outside your project source code, such as the Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
+> If you want to debug code outside your project source code, such as Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
  
 ##  <a name="BKMK_Find_symbol___pdb__files"></a> Where does the debugger search for symbol files? 
   
@@ -105,7 +105,7 @@ You can specify the files that you want to be loaded automatically from **Symbol
   
 2.  Choose the **Only specified modules** option and then choose **Specify modules** to list the modules that you symbol files that you want loaded automatically. The symbol files for other modules are ignored.  
   
-### Specify additional symbol options**  
+### Specify additional symbol options 
   
 You can also set the following options on the **Tools / Options / Debugging / General** page:  
   
