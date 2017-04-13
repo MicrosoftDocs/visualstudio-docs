@@ -43,14 +43,6 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
  This topic provides instructions for these requirements.  While the installation process is running, you can review the topic [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) to read and watch the necessary background material.
 
- **In this topic:**
-
--   [Mac setup (Apple ID, Xcode, and Xamarin)](#mac)
-
--   [Windows setup inside Parallels (Visual Studio and Xamarin)](#windows)
-
--   [Verify your environment](#verify)
-
 ##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)
 
 1.  Create a free Apple ID at [My Apple ID](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.
@@ -75,7 +67,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
          ![Select the Mobile Development option under Gaming and Mobile Development](../cross-platform/media/cross-plat-xamarin-setup-2a.png "Cross-Plat Xamarin Setup 2")  
   
-    2. (Optional) **Windows > Universal Windows Platform development**. Note: if you’re using a Windows 7 or earlier computer, or running Windows on a Mac, make sure this is *unchecked*. See "Note about emulators on Windows computers" after step 5. You can also leave this unchecked if you intend to debug only on physical Android devices.  
+    2. (Optional) **Windows > Universal Windows Platform development**. This includes options for installing emulators images that will take longer to download; you can always return to the Visual Studio installer to add them later.  
 
 4.  Click the **Modify** button and let the process run. Again, this will take some time to complete, during which time you can continue with the Mac setup instructions and go through [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md).
 
@@ -91,13 +83,13 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
  ![Selecting Xamarin Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-1.png "CrossPlat Xamarin Mac 1")
 
- **Android**
+**Android**
 
 1.  Validate creating an Android project by following the instructions on [Create an Android Project](http://developer.xamarin.com/recipes/android/general/projects/create_an_android_project/) (xamarin.com).
 
 2.  Validate debugging in the Android emulator through the [Android Player > Integration with Xamarin Studio documentation](https://developer.xamarin.com/guides/android/getting_started/installation/android-player/#Integration_with_Xamarin_Studio) (xamarin.com).
 
- **iOS**
+**iOS**
 
 1.  Validate creating an iOS project by following the instructions on [Create an iOS](http://developer.xamarin.com/recipes/ios/general/projects/create_an_ios_project/) (xamarin.com).
 
@@ -108,7 +100,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
  ![Selecting Visual Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-2.png "CrossPlat Xamarin Mac 2")
 
- **Android**
+**Android**
 
 1.  Validate creating an Android project by following the instructions on [Create an Android Project](http://developer.xamarin.com/recipes/android/general/projects/create_an_android_project/) (xamarin.com).
 
@@ -118,7 +110,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 3.  Validate that you can connect from Visual Studio to the emulator that is installed on your Mac.  The result of this is that you will see the Xamarin Player in the list of emulators that you can select from within Visual Studio for debugging.  To do this, follow the instructions on [Connecting Visual Studio to the Xamarin Android Player](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/android-player-with-visual-studio-in-vm/) (xamarin.com).
 
- **iOS**
+**iOS**
 
 1.  Make sure your Mac is available on the network and paired with Visual Studio as described in [Connecting to the Mac](https://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac) (xamarin.com).
 
