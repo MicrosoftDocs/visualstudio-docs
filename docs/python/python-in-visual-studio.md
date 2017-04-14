@@ -34,7 +34,7 @@ translation.priority.ht:
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-Visual Studio provides with [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python workload (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). 
+Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python workload (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). 
 
 Follow our [installation instructions](installation.md) to set up the Python workload, then use the links below to learn more about Python-related features as well as the capabilities of Visual Studio itself.
 
@@ -73,8 +73,8 @@ Python support can be installed in the following editions of Visual Studio as de
 - [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
 - [Visual Studio 2013 Community Edition] (https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
-- [Visual Studio 2013 Express for Web, Update 2 or higher](http://www.microsoft.com/en-us/download/details.aspx?id=40747)
-- [Visual Studio 2013 Express for Desktop, Update 2 or higher](http://www.microsoft.com/en-us/download/details.aspx?id=40787)
+- [Visual Studio 2013 Express for Web, Update 2 or higher](https://www.microsoft.com/en-us/download/details.aspx?id=44912)
+- [Visual Studio 2013 Express for Desktop, Update 2 or higher](https://www.microsoft.com/en-US/download/details.aspx?id=44914)
 - Visual Studio 2013 (Pro edition or higher)
 - Visual Studio 2012 (Pro edition or higher)
 - Visual Studio 2010 SP1 (Pro edition or higher; .NET 4.5 required)
