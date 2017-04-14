@@ -1,0 +1,109 @@
+---
+title: Debugging - Data Visualizations
+description: Debugging is a common, and necessary, part of programming. As a mature IDE, Xamarin Studio contains a whole suite of features to make debugging easy. This article looks at the different data visualizations that can be viewed when inspecting objects in the debugger.
+author: asb3993
+ms.author: amburns
+ms.date: 04/14/2017
+ms.topic: article
+ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
+---
+
+#Data Visualizations
+
+Xamarin Studio 5.9 includes new UI support for the debugger allowing visualizations of the values of a variable, field or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
+
+
+Visualizers in the debug  <span class="UIItem">Local</span> pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
+
+ ![](Images/data-visualizations-image9.png)
+ 
+The list below looks at many of the new visualizations available when debugging in Xamarin Studio.
+
+##Point
+A Point/PointF, or CGPoint in iOS and Mac, will render as a tuple showing the X and Y values in the debug pad:
+
+ ![](Images/data-visualizations-image10.png)
+ 
+##Size
+A Size/SizeF, or CGSize in iOS and Mac, will render as a rectangle. It is drawn to scale until a dimension grows past 250px, at which point it will scale the rectangle with the largest dimension as 250px:
+
+![](Images/data-visualizations-image11.png)
+ 
+
+##Rectangle
+A Rectangle/RectangleF, or CGRect in iOS and Mac, will display the dimensions and origin. Similar to Size, it is drawn to scale, until a dimension grows past 250px:
+
+ ![](Images/data-visualizations-image12.png)
+  
+##Coordinate
+Coordinates are plotted on a map, with the location pinned to the center:
+
+![](Images/data-visualizations-image13.png)
+
+ 
+
+
+##Color
+This will display UIColor, CGColor, and Color properties, depicting the color preview, RGBA components, Hue-Staturation-Lightness values, and the hex value of the color:
+
+![](Images/data-visualizations-image14.png)
+ 
+
+##Images
+Images will be rendered to scale, up to a maximum dimension of 250px, and will be scaled to fit when the image exceeds 250px:
+
+ ![](Images/data-visualizations-image15.png)
+ 
+
+##Bezier Curves
+The visualizer will display an NSBezierPath:
+
+![](Images/data-visualizations-image16.png)
+ 
+
+##String
+A string will be displayed of less than 100 characters will be displayed in full, without a preview. Longer strings will be displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button allowing the string value to be edited either in the preview or in the String Value Editor, shown beneath.
+
+
+![](Images/data-visualizations-image17.png)
+
+####Small Strings:
+![](Images/data-visualizations-image18.png)]
+
+####Medium-length Strings (anything < 15 lines):
+![](Images/data-visualizations-image19.png)
+
+ 
+####Large Strings (More than 15 lines will have ellipsized):
+![](Images/data-visualizations-image20.png)
+
+ 
+####Editor:
+
+ ![](Images/data-visualizations-image21.png)
+ 
+##IEnumerable
+IEnumerable enumerates all values; the values of each can be viewed by clicking the <span class="UIItem">Show</span> Values button. The IEnumerable option will not display values for objects such as Array, ArrayList, List<>, Dictionary<,> as these have their own debugger visualizers.
+
+![](Images/data-visualizations-image22.png)
+ 
+
+Some other types that also have their own inline visualizers are listed below:
+
+ ![](Images/data-visualizations-image23.png)
+ 
+*	Unevaluated Value
+*	Primitives
+	*	This will show the raw value of the primitive type.
+*	Enum
+	*	This will display the field value without the enum Type qualifier.
+*	Tuple
+	*	Displayed in the format (,)
+*	Null
+	*	Shows "null" value.
+*	URL
+	*	This will display a clickable hyperlink.
+*	IntPtr
+	*	This will display a hexadecimal representation of the IntPtr.
+
+
