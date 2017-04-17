@@ -115,7 +115,23 @@ Before you start debugging the calling application, you will usually want to set
     ?obj.Test(10);  
     ```  
   
-     The breakpoint will be hit and you will be able to step through `Test`. After execution has left `Test`, the Debugger will be back in Design mode.  
+     The breakpoint will be hit and you will be able to step through `Test`. After execution has left `Test`, the Debugger will be back in Design mode.
+
+## <a name="vxtskdebuggingdllprojectsexternal"></a> Debug an external DLL from a C++ project
+
+If you are debugging a DLL external to your project, the debugging features available (such as stepping through code) will depend on the [debug configuration of the DLL](#vxtskdebuggingdllprojectsbuildingadebugversion) when it was built and whether the [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and other required files for the DLL are available.
+
+Your project needs to be able to find the DLL and the .pdb file used for debugging. You can create a custom build task to copy these files to the **\<project folder>\Debug** output folder, or you can do this manually.
+
+You can easily set locations of header files and *.lib files in the Property Pages (right-click project and choose **View Properties**, and then choose **All Configurations**) without the need to copy them into your output folder:
+
+- C/C++ folder (General category) - Specify the folder containing header files in the **Additional Include Directories** field.
+- Linker folder (General category) - Specify the folder containing the .lib file in the **Additional Libraries Directories** field. 
+- Linker folder (Input category) - Specify the full path and filename for the .lib file in the **Additional Dependencies** field.
+
+When the configuration is correct, you can debug by starting execution from the **Debug** menu
+
+For more information on project settings, see [Property Pages (Visual C++)](/cpp/ide/property-pages-visual-cpp).
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   

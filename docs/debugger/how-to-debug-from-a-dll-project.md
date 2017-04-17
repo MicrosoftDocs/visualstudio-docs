@@ -39,12 +39,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug from a DLL Project in Visual Studio
-One way to debug a DLL project is to specify the calling application in the project properties of the DLL project and then you can start debugging from the DLL project itself. For this method to work, the application must call the DLL, and the DLL must be in the location where the application expects to find it (otherwise, the application might find a different version of the DLL and load that instead). For other methods of debugging DLLs, see [Debugging DLL Projects](../debugger/debugging-dll-projects.md).
+One way to debug a DLL project is to specify the calling application in the project properties of the DLL project and then you can start debugging from the DLL project itself. For this method to work, the application must call the DLL, and the DLL must be in the location where the application expects to find it (otherwise, the application might find a different version of the DLL and load that instead, and it won't hit your breakpoints). For other methods of debugging DLLs, see [Debugging DLL Projects](../debugger/debugging-dll-projects.md).
   
-If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  
-  
-> [!NOTE]
->  You cannot specify an external calling application in Express editions of Visual Studio. Instead, you need to add an executable project to the solution, set it as the startup project, and call methods in your DLL from the executable project.  
+If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).   
 
 The C++ property pages differ in layout and content from the C# and Visual Basic property pages. 
   
