@@ -38,7 +38,7 @@ translation.priority.mt:
 
 The package cache provides a source of installed packages in case you need to repair Visual Studio or other related products in cases
 where you have no Internet connection. With some drives or system set ups, however, you may not want to keep all those packages around.
-We will download them when needed, so if you want to save or recover disk space you can disable or move the package cache.
+The installer will download them when needed, so if you want to save or recover disk space you can disable or move the package cache.
 
 ## Disable the package cache
 
