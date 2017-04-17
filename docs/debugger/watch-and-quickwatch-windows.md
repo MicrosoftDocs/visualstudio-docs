@@ -65,9 +65,11 @@ static void Main(string[] args)
   
 3.  Open the **QuickWatch** window (right-click on a, then choose **QuickWatch**, or **SHIFT+F9**).
 
-    You should see the a variable in the **Values** window, with a value of 2.
+    You should see the a variable in the **Values** window, with a value of 1.
 
-    If you want to evaluate an expression using the variable, add an expression to the **Expression** window and click **Reevaluate**. 
+    ![QuickWatch Expression](../debugger/media/watchexpression.png "QuickWatchExpression")  
+
+    If you want to evaluate an expression using the variable, add an expression such as `a + b` to the **Expression** window and click **Reevaluate**. 
   
 4.  Add the variable to the **Watch** window from **QuickWatch** by clicking **Add Watch**. 
 
@@ -80,20 +82,22 @@ static void Main(string[] args)
  You can observe multiple variables with the **Watch** window. For example, if you have the following code:  
   
 ```C++  
-static void Main(string[] args)  
-{  
-    int a, b, c;  
-    a = 1;  
-    b = 2;  
-    c = 0;  
-  
-     for (int i = 0; i < 10; i++)  
-    {  
-        a++;  
-        b *= 2;  
-        c = a + b;  
-     }  
-}  
+int main()
+{
+	int a, b, c;
+	a = 1;
+	b = 2;
+	c = 0;
+
+	for (int i = 0; i < 10; i++)
+	{
+		a++;
+		b *= 2;
+		c = a + b;
+	}
+
+    return 0;
+}
   
 ```  
   
@@ -105,27 +109,29 @@ static void Main(string[] args)
   
 3.  Open the Watch window (**Debug / Windows / Watch / Watch 1**, or **CTRL+ALT+W, 1**).  
   
-4.  Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.  
+4.  Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.
+
+    You can add variables by clicking an empty row and typing the variable name.
   
-5.  Continue debugging.  
+5.  Continue debugging (press **F11** to advance the debugger).  
   
  You should see the variable values changing as you iterate through the `for` loop.  
   
- If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to do this, you can use the context operator syntax. For more information, see Expressions in C++.  
+ If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to do this, you can use the context operator syntax. For more information, see [Context Operator (C++)](../debugger/context-operator-cpp.md).  
   
 ## Observing expressions with the Watch window  
  Now let’s try using an expression instead. You can add any valid expression recognized by the debugger.  
   
  For example, if you have the code listed in the preceding section, you can get the average of the three values like this:  
   
- ![WatchExpression](../debugger/media/watchexpression.png "WatchExpression")  
+ ![Watch Expression](../debugger/media/watchexpression.png "WatchExpression")  
   
  In general, the rules for evaluating expressions in the **Watch** window are the same as the rules for evaluating expressions in your coding language. If your expression has a syntax error, you can expect the same compiler error that you would see in the code editor. Here’s an example:  
   
- ![WatchExpressionError](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
+ ![Watch Expression Error](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
   
 ##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
- In certain circumstances you might see a refresh icon (a circle with two arrows, or a circle with two wavy lines) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and you have the following code:  
+ In certain circumstances you might see a refresh icon (a circular arrow) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and you have the following code:  
   
 ```CSharp  
 static void Main(string[] args)  
