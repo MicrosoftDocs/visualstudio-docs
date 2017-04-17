@@ -39,7 +39,7 @@ translation.priority.mt:
 You can set registry policies that affect the deployment of Visual Studio. These policies are global for the new installer and affect:
 
 - Where some packages shared with other versions or instances are installed
-- Where package are cached
+- Where packages are cached
 - Whether all packages are cached
 
 You can set some of these policies using [command line options](use-command-line-parameters-to-install-visual-studio.md), set registry values on your machine, or even distribute them using Group Policy across an organization.
