@@ -1,7 +1,7 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "04/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -33,12 +33,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Use command-line parameters to install Visual Studio 2017
-When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line you can:
-- start the install with certain options preselected, 
-- automate the installation process
-- create a cache (layout) of the installation files for later use. 
+When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can do the following:
+- Start the install with certain options preselected.
+- Automate the installation process.
+- Create a cache (layout) of the installation files for later use.
 
-The command-line options are used in conjunction with the setup bootstrapper, which is the small (approx. 1MB) file that initiates the download process. The bootstrapper is the first executable that gets launched when you download from the Visual Studio site. You can get a direct link to the latest release bootstrapper for the product edition that you're installing from these links:
+The command-line options are used in conjunction with the setup bootstrapper, which is the small (approx. 1MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. You can get a direct link to the latest release bootstrapper for the product edition that you're installing from these links:
 
 * [Visual Studio 2017 Enterprise](https://aka.ms/vs/15/release/vs_enterprise.exe)
 * [Visual Studio 2017 Professional](https://aka.ms/vs/15/release/vs_professional.exe)
@@ -49,11 +49,12 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 >  Syntax: `vs_enterprise.exe [command] <options>...`
 
-(replace `vs_enterprise.exe` as appropriate for the product edition you're installing)
+(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing. For examples, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
+
 
 | **Command** | **Description** |
-| ----------------------- | --------------- | 
-| (blank) | Installs the product. | 
+| ----------------------- | --------------- |
+| (blank) | Installs the product. |
 | ```modify``` | Modifies an installed product. |
 | ```update``` | Updates an installed product. |
 | ```repair``` | Repairs an installed product. |
@@ -89,7 +90,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | ```--channelUri <uri>``` | **Optional**: The URI of the channel manifest. This can be used for the install command; it is ignored for other commands. |
 | ```--installChannelUri <uri>``` | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by --channelUri (which must be specified when --installChannelUri is specified) will be used to detect updates. If updates are not desired, --channelUri must be specified without an argument. This can be used for the install command; it is ignored for other commands. |
 | ```--installCatalogUri <uri>``` | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager will attempt to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it is ignored for other commands. |
-| ```--productId <id>``` | The ID of the product for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
+| ```--productId <id>``` | **Optional** The ID of the product for the instance that will be installed. This is prepopulated in normal installation conditions. |
 | ```--wait``` | **Optional**: The process will wait until the install is completed before returning a exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. |
 | ```--locale <language-locale>``` | **Optional**: Change the display language of the user interface for the installer itself. Setting will be persisted. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 
@@ -103,7 +104,6 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 | de-DE | German |
 | en-US | English |
 | es-ES | Spanish |
-| cs-CZ | Czech |
 | fr-FR | French |
 | it-IT | Italian |
 | ja-JP | Japanese |
@@ -118,16 +118,18 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 
 ## Error codes
 Depending on the result of the operation, the `%ERRORLEVEL%` environment variable will be set to one of the following values:
+
 | **Value** | **Result** |
 | --------- | ---------- |
 | 0 | Operation completed successfully |
 | 3010 | Operation completed successfully, but install requires reboot before it can be used |
 | Other | Failure condition occurred - check the logs for more information |
 
-Each operation will generate several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files beginning `dd_bootstrapper`, `dd_client` and `dd_setup` for the bootstrapper, the installer app and the setup engine respectively. 
+Each operation will generate several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files beginning `dd_bootstrapper`, `dd_client` and `dd_setup` for the bootstrapper, the installer app, and the setup engine, respectively.
 
 ## See also
 
- * [Install Visual Studio](install-visual-studio.md)
+ * [Install Visual Studio 2017](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+ * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+ * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

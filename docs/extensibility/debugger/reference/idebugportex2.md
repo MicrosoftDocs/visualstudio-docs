@@ -44,7 +44,7 @@ IDebugPortEx2 : IUnknown
  A custom port supplier implements this interface on the same object that implements [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md).  
   
 ## Notes for Callers  
- The SDM calls [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPort2` interface to obtain this interface.  
+ The SDM calls [QueryInterface](/cpp/atl/queryinterface) on the `IDebugPort2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortEx2`.  

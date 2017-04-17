@@ -44,7 +44,7 @@ IDebugPointerField : IDebugContainerField
  The symbol provider implements this interface to represent a pointer.  
   
 ## Notes for Callers  
- Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_POINTER`.  
+ Use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_POINTER`.  
   
 ## Methods in Vtable order  
  In addition to the methods on the `IDebugField` and `IDebugContainerField` interfaces, this interface implements the following method:  

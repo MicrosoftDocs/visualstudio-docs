@@ -77,7 +77,7 @@ translation.priority.ht:
   
 -   For the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.  
   
--   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/visual-cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/visual-cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).  
+-   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).  
   
  **To sign your assembly with a strong name in Visual Studio**  
   

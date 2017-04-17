@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaSymbol::get_hasSEH
-Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](/visual-cpp/cpp/structured-exception-handling-c-cpp) (for example, __try/\__except blocks).  
+Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp) (for example, __try/\__except blocks).  
   
 ## Syntax  
   
@@ -63,4 +63,4 @@ HRESULT get_hasSEH(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Structured Exception Handling (C/C++)](/visual-cpp/cpp/structured-exception-handling-c-cpp)
+ [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp)

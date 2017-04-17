@@ -1,7 +1,7 @@
 ---
 title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/03/2017"
+ms.date: "04/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -53,8 +53,8 @@ vs_enterprise.exe --installPath C:\desktopVS ^
    --quiet --wait
 ```
 
-> [!NOTE]
->  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+  > [!NOTE]
+  >  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 ```cmd
@@ -95,8 +95,8 @@ vs_enterprise.exe modify ^
    --passive
 ```
 
-> [!NOTE]
->  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row.
+  > [!NOTE]
+  >  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character. 
 
 ## See also
 

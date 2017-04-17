@@ -37,7 +37,7 @@ While most applications possess common security challenges, each application dom
 ## General Security Considerations  
  Each language has its own security considerations and challenges.  
   
- [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
+ [Security Best Practices](/cpp/top/security-best-practices-for-cpp)  
  Provides information on security features and practices available when working in Visual C++.  
   
  [NOT IN BUILD: Security and Programming (C# and Visual Basic)](http://msdn.microsoft.com/en-us/227e2863-cf09-4c28-9611-bcd82be5e994)  
