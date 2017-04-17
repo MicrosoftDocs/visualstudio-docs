@@ -96,26 +96,26 @@ For more information on using Projects, Solutions, and Configurations in Xamarin
 
 ## Assembly References
 
-Assembly references for each project are available under the <span class="UIItem">References</span> folder, shown below:
+Assembly references for each project are available under the **References** folder, shown below:
 
 [ ![](Images/ide-tour-image4.png)](Images/image4.png)
 
-Additional references can be added via the the <span class="UIItem">Edit References</span> dialog, which can be displayed by double-clicking on the References folder, or by select <span class="UIItem">Edit References</span> on its context menu actions:
+Additional references can be added via the the **Edit References** dialog, which can be displayed by double-clicking on the References folder, or by select **Edit References** on its context menu actions:
 
 [ ![](Images/ide-tour-image5.png)](Images/image5.png)
 
 The list of selected assemblies is shown in the list on the right side of the dialog. Any assemblies selected
-in the <span class="UIItem">Edit References</span> dialog are added to the project when the dialog’s OK button is selected.
+in the **Edit References** dialog are added to the project when the dialog’s OK button is selected.
 
 ## Components
 
-Xamarin Components are a powerful feature that allows user interface components as well as libraries and themes to easily be added to a project. The Components store can be accessed by right-clicking on the <span class="UIItem">Components</span> folder and clicking on <span class="UIItem">Get More Components...</span>:
+Xamarin Components are a powerful feature that allows user interface components as well as libraries and themes to easily be added to a project. The Components store can be accessed by right-clicking on the **Components** folder and clicking on **Get More Components...**:
 
 [ ![](Images/ide-tour-components.png)](Images/components.png)
 
 A project can specify the directory Xamarin Components will be extracted to before being referenced by a project. This allows multiple solutions to use the same directory and prevents the assembly references from being modified when a project is opened within the context of a different solution.
 
-For more information on using Components in Xamarin Studio see the <a href="/guides/cross-platform/application_fundamentals/components_walkthrough/">Including a Component in your project</a> Walkthrough.
+For more information on using Components in Xamarin Studio see the [Including a Component in your project](/guides/cross-platform/application_fundamentals/components_walkthrough/) Walkthrough.
 
 ## NuGet
 
@@ -172,8 +172,8 @@ as well as any references where they are used. These are available from the edit
 
  ![](Images/ide-tour-image10.png)
 
-Selecting <span class="UIItem">Go to declaration</span> navigates the editor to either the variable
-declaration or to the type in the assembly browser. <span class="UIItem">Find references</span>
+Selecting **Go to declaration** navigates the editor to either the variable
+declaration or to the type in the assembly browser. **Find references**
 presents a list of all places in the project where the variable or type is used, as shown below:
 
  ![](Images/ide-tour-image11.png)
@@ -203,7 +203,7 @@ These display information such as function signatures, summary descriptions and 
 ## Indentation and Comments
 
 The editor includes support for automatic indention of code, which can be applied across an
-entire file by selecting <span class="UIItem">Edit &gt; Format &gt; Format Document</span> from the main menu.
+entire file by selecting **Edit &gt; Format &gt; Format Document** from the main menu.
 
 Additionally, indentation as well as comment toggling is available in the editor’s context menu:
 
@@ -217,7 +217,7 @@ Additionally, indentation as well as comment toggling is available in the editor
 ## Snippets
 
 Xamarin Studio includes support for code templates, which allow common code constructs to be easily added.
-The full list of snippets is available in the <span class="UIItem">Toolbox</span>:
+The full list of snippets is available in the **Toolbox**:
 
 
  ![](Images/ide-tour-image16.png)
@@ -243,8 +243,7 @@ Xamarin Studio is able to suggest changes to your code which either simplify or 
 
  ![](Images/ide-tour-codechange.png)
 
-Selecting any option will change the code accordingly. If no change is required, click anywhere on the editor window or press the <span class="UIItem">Escape</span> key on the keyboard.
- <a name="Refactoring" class="injected"></a>
+Selecting any option will change the code accordingly. If no change is required, click anywhere on the editor window or press the **Escape** key on the keyboard.
 
 # Navigation and Search
 
@@ -283,11 +282,11 @@ For example, the following screenshot shows the `System` assembly loaded in the 
 
 ### Assembly Search
 
-The Assembly Browser also supports search with auto-complete. For example, typing <span class="UIItem">CAD</span> in the search box displays the following types:
+The Assembly Browser also supports search with auto-complete. For example, typing **CAD** in the search box displays the following types:
 
  ![](Images/ide-tour-image20.png)
 
-The Assembly Browser is also integrated with the code editor, where selecting <span class="UIItem">Go to declaration</span>
+The Assembly Browser is also integrated with the code editor, where selecting **Go to declaration**
 on a type that exists in a referenced assembly will navigate to that type in the Assembly Browser. For example, the
 following shows the Assembly Browser with the `UIWindow` loaded after it was selected in the code editor:
 
@@ -318,12 +317,12 @@ with an annotation on their icons in the Solution Pad, as shown below:
 
  ![](Images/ide-tour-image23.png)
 
-For a project under source control, the context menu of the item in the Solution Pad will have its <span class="UIItem">Version Control</span> menu enabled,
+For a project under source control, the context menu of the item in the Solution Pad will have its **Version Control** menu enabled,
 showing various commands, as shown below:
 
  ![](Images/ide-tour-image24.png)
 
-Also, the main menu’s <span class="UIItem">Version Control</span> menu includes a variety of additional commands for working with source control:
+Also, the main menu’s **Version Control** menu includes a variety of additional commands for working with source control:
 
  ![](Images/ide-tour-image25.png)
 

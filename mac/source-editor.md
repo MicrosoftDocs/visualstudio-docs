@@ -82,7 +82,7 @@ To comment out an entire block of code:
 
 OR
 
-* Use the <code>&#8984; + /</code> keybinding on the selected code.
+* Use the `&#8984; + /` keybinding on the selected code.
 
 These methods can be used to comment and uncomment sections of code. In C# files, additional levels of line comments can be added, which allows regions of codes to be commented and uncommented, while still preserving actual comments: 
 

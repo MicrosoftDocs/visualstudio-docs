@@ -18,7 +18,7 @@ In this article, we’ll look at how to include a NuGet package in a project and
 
 # Walkthrough
 
-To demonstrate the NuGet functionality this article will walk-through the process of incorporating a package from *NuGet* into a Xamarin app. We’ll work with a project named `HelloNuget`, created from the Xamarin.iOS <kbd>Single View Application</kbd> template in Xamarin Studio or the <kbd>HelloWorld  Application</kbd> template in Visual Studio respectively. The steps to include a NuGet package are the same irrespective of the project template used.
+To demonstrate the NuGet functionality this article will walk-through the process of incorporating a package from *NuGet* into a Xamarin app. We’ll work with a project named `HelloNuget`, created from the Xamarin.iOS **Single View Application** template in Xamarin Studio or the **HelloWorld  Application** template in Visual Studio respectively. The steps to include a NuGet package are the same irrespective of the project template used.
 
 
 <a name="NuGet_in_Xamarin_Studio" class="injected"></a>
@@ -37,7 +37,7 @@ First, create a project named `HelloNuget` as shown below (we're using the iOS S
 
 ## Adding a Package
 
-With the project loaded in Xamarin Studio, right-click on the <span class="UIItem">Project</span> in the <span class="UIItem">Solution Pad</span> and select <span class="UIItem">Add Packages...</span>:
+With the project loaded in Xamarin Studio, right-click on the **Project** in the **Solution Pad** and select **Add Packages...**:
 
 ![](Images/nuget-walkthrough-AddPackageNew.png)
 
@@ -77,7 +77,7 @@ This code is shown as an example - it doesn't do much except output an HTML stri
 
 ## Package Updates
 
-Once one-or-more packages are added to a project, the <span class="UIItem">Packages</span> node will appear in the Solution pad. Right-click on <span class="UIItem">Packages</span> to access the context-sensitive menu:
+Once one-or-more packages are added to a project, the **Packages** node will appear in the Solution pad. Right-click on **Packages** to access the context-sensitive menu:
 
 ![Packages menu](Images/nuget-walkthrough-PackagesMenu.png)
 

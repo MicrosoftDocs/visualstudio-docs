@@ -25,8 +25,7 @@ In this article, we’ll look at how to include a component in a project and dem
 # Walkthrough
 
 Let’s walk through the process to incorporate a component from the *Xamarin Components Store*. 
-For this walkthrough, we’ll work with a project named `HelloComponents`, created from the Xamarin.iOS <kbd>Single View Application</kbd> template in Xamarin Studio or the <kbd>HelloWorld</kbd> <kbd> Application</kbd> 
-template in Visual Studio respectively. However, the steps to include a component are the same irrespective of the project template used.
+For this walkthrough, we’ll work with a project named `HelloComponents`, created from the Xamarin.iOS **Single View Application** template. 
 
  <a name="Component_Store_from_Xamarin_Studio" class="injected"></a>
 
@@ -47,8 +46,8 @@ First, create a project named `HelloComponents` as shown below for Xamarin Studi
 
 ### Launching the Component Manager
 
-With the project loaded in Xamarin Studio, launch the *Xamarin Components Manager* by either double-clicking on the <span class="UIItem">Components</span> folder
-in the <span class="UIItem">Solution Pad</span>, or by right-clicking on the Components folder and selecting <kbd>Get More Components</kbd>:
+With the project loaded in Xamarin Studio, launch the *Xamarin Components Manager* by either double-clicking on the **Components** folder
+in the **Solution Pad**, or by right-clicking on the Components folder and selecting **Get More Components**:
 
  [ ![](Images/components-walkthrough-01New.png)]()
 
@@ -63,7 +62,7 @@ The first time the Component Manager opens, no components will have yet been add
 ### Logging into the Component Store
 
 Accessing the Components Store requires a Xamarin Store account. To log in from the Component Manager, 
-click the <kbd>Login to your Xamarin Account</kbd> button in the upper right. This will launch the account dialog, allowing you to log in:
+click the **Login to your Xamarin Account** button in the upper right. This will launch the account dialog, allowing you to log in:
 
  [ ![](Images/components-walkthrough-03New.png)]()
 
@@ -104,7 +103,7 @@ You'll now be returned to the Xamarin Account dialog screen indicating that your
 
 ### Create New Project
 
-After logging in to a Xamarin account, create a new iOS project by selecting <kbd>File &gt; New &gt; Project</kbd>. Select the <kbd>HelloWorld Application</kbd> template under the <kbd>iOS &gt; iPhone</kbd> section and name the project `HelloComponents`, 
+After logging in to a Xamarin account, create a new iOS project by selecting **File &gt; New &gt; Project**. Select the **HelloWorld Application** template under the **iOS &gt; iPhone** section and name the project `HelloComponents`, 
 as shown below:
 
 ![](Images/components-walkthrough-06.png)
@@ -114,7 +113,7 @@ as shown below:
 
 ### Launching the Component Manager
 
-With the project created, right-click on the <kbd>Components</kbd> folder in the <kbd>Solution Explorer</kbd> and select <kbd>Get More Components</kbd>:
+With the project created, right-click on the **Components** folder in the **Solution Explorer** and select **Get More Components**:
 
  ![](Images/components-walkthrough-07.png)
 
@@ -151,9 +150,9 @@ Let’s include the Alert Center Component. Use the search box to locate it, and
 
  ![](Images/components-walkthrough-10.png)
 
-From the component page, select the <kbd>Add to App</kbd> button to download the component and add it
+From the component page, select the **Add to App** button to download the component and add it
 to the current project. When the download completes, the component will be displayed under the
-<kbd>Components</kbd> folder in the Solution Pad, with a screen showing details about the component
+**Components** folder in the Solution Pad, with a screen showing details about the component
 loaded in the tabbed section of Xamarin Studio.
 
 
@@ -168,17 +167,17 @@ In Visual Studio, double-click the component in the Solution Explorer in Visual 
 
 The detail screen under the tab includes the following sections:
 
--  <kbd>Getting Started</kbd> &ndash; Code snippets to get started using the component.
+-  **Getting Started** &ndash; Code snippets to get started using the component.
 
 
  ![](Images/components-walkthrough-12New.png)
 
--  <kbd>Samples</kbd> &ndash; Sample projects that use the component, which can be added to the current solution.
+-  **Samples** &ndash; Sample projects that use the component, which can be added to the current solution.
 
 
  ![](Images/components-walkthrough-13New.png)
 
--  <kbd>Assemblies</kbd> &ndash; Assemblies included with the component.
+-  **Assemblies** &ndash; Assemblies included with the component.
 
 
  ![](Images/components-walkthrough-14New.png)
@@ -215,8 +214,6 @@ In lieu of creating an image, there is a cow.png in the sample code that accompa
 With the code and images above added, running the application now displays an alert as shown below:
 
  ![](Images/components-walkthrough-demo.png)
-
- <a name="Summary" class="injected"></a>
  
 # Configuring the Components Directory
  

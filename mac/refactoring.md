@@ -34,7 +34,7 @@ The **Resolve** and **Refactor** context items have been combined into a single 
 
 ![](Images/refactoring-context-action.png)
 
-Alternatively, you can press <strong>Option + Enter</strong> anywhere in your code:
+Alternatively, you can press **Option + Enter** anywhere in your code:
 
 ![](Images/refactoring-image2a.png)
 
@@ -42,7 +42,7 @@ To enable these option, you must select *Enable source analysis of open files* i
 
  ![](Images/refactoring-options.png)
 
-There are over 100 possible actions that can be suggested, which can be controlled by browsing to <strong>Xamarin Studio > Preferences > Source Analysis > C# > Code Actions</strong>:
+There are over 100 possible actions that can be suggested, which can be controlled by browsing to **Xamarin Studio > Preferences > Source Analysis > C# > Code Actions**:
 
  ![](Images/refactoring-image3a.png)
 

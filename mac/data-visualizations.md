@@ -13,7 +13,7 @@ ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 Xamarin Studio 5.9 includes new UI support for the debugger allowing visualizations of the values of a variable, field or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
 
 
-Visualizers in the debug  <span class="UIItem">Local</span> pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
+Visualizers in the debug  **Local** pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
 
  ![](Images/data-visualizations-image9.png)
  
@@ -70,7 +70,7 @@ A string will be displayed of less than 100 characters will be displayed in full
 ####Small Strings:
 ![](Images/data-visualizations-image18.png)]
 
-####Medium-length Strings (anything < 15 lines):
+####Medium-length Strings (anything less than 15 lines):
 ![](Images/data-visualizations-image19.png)
 
  
@@ -83,7 +83,7 @@ A string will be displayed of less than 100 characters will be displayed in full
  ![](Images/data-visualizations-image21.png)
  
 ##IEnumerable
-IEnumerable enumerates all values; the values of each can be viewed by clicking the <span class="UIItem">Show</span> Values button. The IEnumerable option will not display values for objects such as Array, ArrayList, List<>, Dictionary<,> as these have their own debugger visualizers.
+IEnumerable enumerates all values; the values of each can be viewed by clicking the **Show** Values button. The IEnumerable option will not display values for objects such as Array, ArrayList, List<>, Dictionary<,> as these have their own debugger visualizers.
 
 ![](Images/data-visualizations-image22.png)
  

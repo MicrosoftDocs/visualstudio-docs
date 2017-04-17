@@ -29,7 +29,7 @@ Hard debuggers, such as [LLDB]( http://lldb.llvm.org/index.html) or [GDB]( https
 
 #Using the Debugger
 
-To start debugging any application, always ensure that the configuration is set to  <span class="UIItem">Debug</span>, as this contains a helpful set of tools to support debugging such as breakpoints, using data visualizers, and viewing the call stack:
+To start debugging any application, always ensure that the configuration is set to  **Debug**, as this contains a helpful set of tools to support debugging such as breakpoints, using data visualizers, and viewing the call stack:
 
 ![](Images/debugging-image_0.png)
 
@@ -40,7 +40,7 @@ To set a breakpoint in your IDE, click on the margin area of your editor, next t
 ![](Images/debugging-image0.png)
 
 
-You can view all the breakpoints that have been set in your code by going to the  <span class="UIItem">Breakpoints pad</span>:
+You can view all the breakpoints that have been set in your code by going to the  **Breakpoints pad**:
 
 ![](Images/debugging-image0a.png)
 
@@ -50,7 +50,7 @@ To start debugging, select the target device or similar/emulator in your IDE:
 
 ![](Images/debugging-image1.png)
  
-Then deploy your application by pressing the  <span class="UIItem">Play</span> button, or  <span class="UIItem">Cmd + return</span>. When you hit a breakpoint, the code will be highlighted yellow:
+Then deploy your application by pressing the  **Play** button, or  **Cmd + return**. When you hit a breakpoint, the code will be highlighted yellow:
 
 ![](Images/debugging-image2.png)
  
@@ -59,7 +59,7 @@ Debugging tools, such as inspecting the values of objects, can be used at this p
 ![](Images/debugging-image3.png)
  
 ##Conditional Breakpoints
-You can also set rules dictating the circumstances under which a breakpoint should occur, this is know as adding a *conditional breakpoint*. To set a conditional breakpoint, access the  <span class="UIItem">Breakpoint Properties window</span>, which can be done in two ways:
+You can also set rules dictating the circumstances under which a breakpoint should occur, this is know as adding a *conditional breakpoint*. To set a conditional breakpoint, access the  **Breakpoint Properties window**, which can be done in two ways:
 
 
 * To add a new conditional breakpoint, right-click on the editor margin, to the left of the line number for the code you wish to set a breakpoint on, and select New Breakpoint:
@@ -67,7 +67,7 @@ You can also set rules dictating the circumstances under which a breakpoint shou
  
  ![](Images/debugging-image4.png)
 
-* To add a condition to an existing breakpoint, right-click on the breakpoint and select  <span class="UIItem">Breakpoint Properties</span> **OR** in the  <span class="UIItem">Breakpoints Pad</span> select the properties button illustrated below: 
+* To add a condition to an existing breakpoint, right-click on the breakpoint and select  **Breakpoint Properties** **OR** in the  **Breakpoints Pad** select the properties button illustrated below: 
 
 
  ![](Images/debugging-image5.png)
@@ -94,7 +94,7 @@ These are:
 #Debugging Mono’s Class Libraries
 Xamarin products ship with the source code for Mono's class libraries, and you can use this to single step from the debugger to inspect how things are working under the hood.
 
-Since this feature consumes more memory during debugging, it is turned off by default. To enable this feature, browse to  <span class="UIItem">Xamarin Studio > Preferences > Debugger</span> and ensure that the "**Debug project code only; do not step into framework code**" option is **unselected**, as illustrated below:
+Since this feature consumes more memory during debugging, it is turned off by default. To enable this feature, browse to  **Xamarin Studio > Preferences > Debugger** and ensure that the "**Debug project code only; do not step into framework code**" option is **unselected**, as illustrated below:
 
  ![](Images/debugging-image8.png)
 
