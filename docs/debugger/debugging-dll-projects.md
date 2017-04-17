@@ -46,7 +46,7 @@ The following Visual Studio templates create DLLs:
   
 -   (C++, C#, and Visual Basic): Windows Forms Control Library
   
-     Debugging a Windows Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
+     Debugging a Windows Forms Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
 
 -   (C++): Win32 Console DLL project
   
@@ -121,7 +121,7 @@ Before you start debugging the calling application, you will usually want to set
 
 If you are debugging a DLL external to your project, the debugging features available (such as stepping through code) will depend on the [debug configuration of the DLL](#vxtskdebuggingdllprojectsbuildingadebugversion) when it was built and whether the [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and other required files for the DLL are available.
 
-Your project needs to be able to find the DLL and the .pdb file used for debugging. You can create a custom build task to copy these files to the **\<project folder>\Debug** output folder, or you can do this manually.
+Your project needs to be able to find the DLL and the .pdb file used for debugging. You can create a custom build task to copy these files to the **\<project folder>\Debug** output folder, or you can copy the files into the output folder manually.
 
 You can easily set locations of header files and *.lib files in the Property Pages (right-click project and choose **View Properties**, and then choose **All Configurations**) without the need to copy them into your output folder:
 
