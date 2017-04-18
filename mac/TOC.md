@@ -15,11 +15,9 @@
 
 # [Projects and Solutions](projects-and-solutions.md)
 ## [Creating new Projects](create-new-projects.md)
-## [Managing Projects](manage-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
 ## [Managing references in a project](managing-references-in-a-project.md)
-### [Walkthrough – Including a Component in your Project](components-walkthrough.md)
 ### [Walkthrough  – Including a NuGet in your project](nuget-walkthrough.md)
 ## [Managing App Resources](managing-app-resources.md)
 
