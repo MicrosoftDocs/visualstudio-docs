@@ -96,7 +96,7 @@ vs_enterprise.exe modify ^
 ```
 
   > [!NOTE]
-  >  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row.
+  >  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character. 
 
 ## See also
 
