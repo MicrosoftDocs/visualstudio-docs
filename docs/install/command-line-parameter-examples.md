@@ -38,6 +38,9 @@ which is the small (approximately 1MB) file that initiates the download process.
 > [!NOTE]
 > All commands require administrative elevation, and a User Account Control prompt will be displayed if the process is not started from an elevated prompt.
 
+> [!NOTE]
+>  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character. 
+
 * Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
 ```cmd
 vs_enterprise.exe --installPath C:\minVS ^
@@ -94,9 +97,6 @@ vs_enterprise.exe modify ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
 ```
-
-  > [!NOTE]
-  >  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character. 
 
 ## See also
 
