@@ -118,7 +118,8 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 4.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
 
-    [!TIP] You may find it helpful to identify nameless threads by renaming them. Choose **Rename** after right-clicking on the thread.
+    > [!TIP]
+    > You may find it helpful to identify nameless threads by renaming them. Choose **Rename** after right-clicking on the thread.
   
 5.  Right-click the thread marker to see the available options on the shortcut menu. 
     
@@ -243,7 +244,8 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 ## Freezing and thawing thread execution 
 
-> [!TIP] You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as race conditions.
+> [!TIP]
+> You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as race conditions.
   
 #### To freeze and unfreeze threads  
   

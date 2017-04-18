@@ -43,7 +43,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# View Threads in the debugger in Visual Studio
+# View Threads in the debugger in Visual Studio using the Threads window
 In the **Threads** window, you can examine and work with threads in the application that you are debugging.  
   
  The **Threads** window contains a table where each row represents a thread in your application. By default, the table lists all threads in your application, but you can filter the list to show only the threads that interest you. Each column contains a different type of information. You can also hide some columns. If you display all columns, the following information appears, from left to right:  
