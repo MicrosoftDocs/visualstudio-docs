@@ -37,9 +37,12 @@
 
 # [Compiling and Building](compiling-and-building.md)
 ## [Building and Cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md)
+## [Build Actions](build-actions.md)
 ## [Customizing the Build System](customizing-build-system.md) 
 ## [Configurations](configurations.md) 
 ### [Create and Edit configurations](create-and-edit-configurations.md)
+
+# [Version Control](version-control.md)
 
 # [Troubleshooting]()
  
