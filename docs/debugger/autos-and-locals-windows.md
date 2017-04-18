@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Inspect Variables in the Autos and Locals Windows in Visual Studio
-The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables displayed is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
+The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables display in this window is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
   
 If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
   
@@ -128,7 +128,7 @@ You may notice that the value of a variable is sometimes red in the **Locals** a
 ## Changing the numeric format of a variable window  
 The default numeric format is decimal, but you can change it to hexadecimal. Right-click inside a **Locals** or **Autos** window and select **Hexadecimal Display**. The change affects all debugger windows.  
   
-## Editing a Value in a Variable Window  
+## Editing a value in a Variable window  
 You can edit the values of most variables that appear in the **Autos**, **Locals**, **Watch**, and **QuickWatch** windows. For information about **Watch** and **QuickWatch** windows, see [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md). Just double-click the value you want to change and add the new the value.  
   
 You can enter an expression for a value, for example `a + b`. The debugger accepts most valid language expressions.  
