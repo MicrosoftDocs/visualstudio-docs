@@ -66,7 +66,7 @@ For more examples, see the [How to customize your offline installer](#how-to-cus
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
 
-  1. Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
+  1. Install the certificates. (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
 
   2. Run the installation file. For example, run: <br> ```c:\vs2017offline\vs_enterprise.exe```
 
