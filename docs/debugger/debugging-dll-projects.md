@@ -1,7 +1,7 @@
 ---
 title: "Debugging DLL Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -44,45 +44,14 @@ The following templates create DLLs:
   
 -   (C++, C#, and Visual Basic) Class Library  
   
--   (C++, C#, and Visual Basic): Windows Forms Control Library  
+-   (C++, C#, and Visual Basic): Windows Forms Control Library
   
      Debugging a Windows Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
-  
--   (C# and Visual Basic): Web Control Library  
-  
-     For more information, see [Web Control Library (Managed Code)](../debugger/web-control-library-managed-code.md).  
-  
--   (C++): MFC ActiveX Control and MFC Smart Device ActiveX Control  
-  
-     ActiveX controls are controls that can be downloaded over the Internet onto a client computer, and displayed and activated on Web pages.  
-  
-     Debugging ActiveX controls is similar to debugging other kinds of controls because they cannot be run as stand-alone, but must be embedded in an HTML Web page. For more information, see [How to: Debug an ActiveX Control](../debugger/how-to-debug-an-activex-control.md).  
-  
--   (C++): MFC Smart Device DLL  
+
+-   (C++): Win32 Console DLL project
   
      For more information, see [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md).  
-  
- This section also contains information about the following topics:  
-  
--   [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md)  
-  
--   [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md)  
-  
- This topic contains the following sections, which provide considerations about how to prepare to debug class libraries:  
-  
--   [Building a Debug Version](#vxtskdebuggingdllprojectsbuildingadebugversion)  
-  
--   [Mixed-Mode Debugging](#vxtskdebuggingdllprojectsmixedmodedebugging)  
-  
--   [Changing Default Configurations](#vxtskdebuggingdllprojectschangingdefaultconfigurations)  
-  
--   [Ways to Debug the DLL](#vxtskdebuggingdllprojectswaystodebugthedll)  
-  
--   [The Calling Application](#vxtskdebuggingdllprojectsthecallingapplication)  
-  
--   [Controls on a Web Page](#vxtskdebuggingdllprojectscontrolsonawebpage)  
-  
--   [The Immediate Window](#vxtskdebuggingdllprojectstheimmediatewindow)  
+
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a Debug Version  
  No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md).  
@@ -118,11 +87,6 @@ The following templates create DLLs:
 -   You can debug it from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Immediate** window. In this case, the **Immediate** window plays the role of the application.  
   
  Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9).  
-  
-###  <a name="vxtskdebuggingdllprojectscontrolsonawebpage"></a> Controls on a Web Page  
- To debug a Web page control, create an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page that embeds it if such a page does not already exist. You then place breakpoints in the Web page code as well as the control code. You then invoke the Web page from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
-  
- Before you start debugging the calling application, you will usually want to set a breakpoint in the DLL. When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 ###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> The Immediate Window  
  You can evaluate functions or methods in the DLL without having a calling application. You do design-time debugging and you use the **Immediate** window. To debug in this manner, do the follow these steps while the DLL project is open:  

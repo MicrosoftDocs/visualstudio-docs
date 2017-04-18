@@ -66,7 +66,10 @@ You can change the project settings for a C# debug configuration in the **Proper
 |-------------|-----------------|  
 |**Conditional compilation symbols:**|The DEBUG and TRACE constants are defined here.<br /><br /> These constants enable conditional compilation of the [Debug class](https://msdn.microsoft.com/en-us/library/system.diagnostics.debug.aspx) and [Trace class](https://msdn.microsoft.com/en-us/library/system.diagnostics.trace.aspx). With these constants defined, Debug and Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without these constants, Debug and Trace class methods are not compiled and no output is generated.<br /><br /> -   Debug is normally defined in the Debug version of a program and undefined in the Release version.<br />-   Trace is normally defined in both Debug and Release versions.|  
 |**Optimize code**|Unless you find a bug that appears only in optimized code, you should leave this setting turned off in the Debug version. Optimized code is harder to debug because instructions do not correspond directly to statements in your source windows.|  
-|**Output path:**|Typically set to bin\Debug for debugging.|  
+|**Output path:**|Typically set to bin\Debug for debugging.|
+
+> [!NOTE]
+> For more information on debug options you find in the **Advanced** button, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md). The portable format for symbol (.pdb) files is the most recent cross-platform format for .NET Core. 
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
