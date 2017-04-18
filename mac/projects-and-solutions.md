@@ -1,6 +1,6 @@
 ---
 title: Projects, Solutions, and Configurations
-description: This document provides an overview of Projects and Solutions in Xamarin Studio and explains what configurations are and how they relate to the build.
+description: This document provides an overview of Projects and Solutions in Xamarin Studio.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -55,84 +55,13 @@ Xamarin.iOS will contain options related to bundle signing – such as the requi
 
  ![](Images/projects-and-solutions-image6.png)
 
-
-## Project Build Configurations 
-
-Some options are part of a project configuration. Projects can have multiple configurations, and switching between them allows for different outputs at build time. For example, when using a Debug configuration, the output will include debugging symbols, which allows the debugger to resolve function name, parameters, or variables from a crash applications stack trace. Using a Debug configuration, however, leads to an inflated file size and so would not be ideal for an application intended for distribution.
-
-Each platform will have specific configurations for its build. Xamarin.Android development will always have only a Release or Debug configuration. Xamarin.iOS has more configurations. There often options for Ad-Hoc or App store, depending on when a project was created. Newer projects will have only debug or release configurations, but these can be set for either a device or any installed simulator.
-
-
-# Build Actions 
-
-All files in a Xamarin Studio project have a build action which controls what happens to the file during a build. These can be set by right-clicking on any file and browsing to **Build Action**, as illustrated below:
-
-![](Images/projects-and-solutions-image1.png)
-
-Here are some of the common build actions for C# projects:
-
-* **None** – The file is not part of the build in any way, it's just included in the project for easy access from the IDE.
-* **Compile** – The file will be passed to the C# compiler as a source file.
-* **EmbeddedResource** – The file will be passed to the C# compiler as a resource to be embedded in the assembly. The `System.Reflection` namespace can then be used to read the file from the assembly.
-* **Content** – For ASP.NET projects, these files will be included as part of the site when it's deployed. For Xamarin.iOS and Xamarin.Mac projects, they'll be contained in the app bundle.
-
-It is possible to select more than one file in the solution explorer, allowing you to set the build action to many files at once.
-
-Also, there are build actions for specific projects. For example, Xamarin.iOS projects have the **BundeledResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions, can be found in the [build process](/guides/android/under_the_hood/build_process/#Build_Actions) guide.
-
 # Solution Options 
 
 Solution options are similar to Project options but cover the scope of the entire Solutions. They provide a way to set author information, build settings, code formatting styles, and version control, and they allow for a way to assign the startup project in the Solution.  The Solution Options dialog can be accessed from the **Project > Solution Options** menu item, from the **Options** context menu item on the Solution in the Solution pad, or by double-clicking on the Solution in the Solution Pad:
 
  ![](Images/projects-and-solutions-image7.png)
 
-## Solution Configurations
-Akin to Project configurations, Solution Configuration can be used to create custom configurations for an entire project. By using the **Configuration Mappings** tab under the **Build > Configurations** item, a developer can assign a target configuration for each solution item, as illustrated below.:
 
- ![](Images/projects-and-solutions-image3.png)
-
-For more information, refer to the [Xamarin Studio Configuration Manager](https://www.youtube.com/watch?v=tjSdkqYh5Vg) video by James Montemagno.
-
-# Run Configuration
-
-In previous versions of Xamarin Studio, developer could select the option to set a project as a **Startup Project**, which is the project that is run/debugged when using the global run/debug command. This was indicated by the use of a bold typeface for the project’s name in the project pad.
-
-This has changed in Xamarin Studio 6.1, and instead of setting a startup project, developers can set a _run configuration_. The run configurations are presented in a dropdown list in the toolbar, next to the build configuration selector as illustrated below:
-
- ![](Images/projects-and-solutions-image9.png)
- ![](Images/projects-and-solutions-image8.png)
-
-A run configuration is basically a set of execution options with a name, and several configurations can be defined in a project for different purposes. Run configurations are defined at the project level, and a default will be created automatically for each executable project, although it is possible to add as many as needed. Certain project types can automatically generate additional run configurations. For example, watchOS projects may generate  _Glance and Notification configurations._ 
- 
-
-Configurations can be shared with other developers (in which case the configurations will be stored in the .csproj file) or kept locally (in which case they will be stored in a .user file).
-
-##Android Run Configurations
- 
-Run configurations for Android projects allow you to specify which activity, service, or broadcast receiver to launch when running or debugging the project. You can pass intent extra data and set intent flags to be able to test your components under different launch conditions.
-
-Activities other than the MainLauncher will need to have Exported=true added to the Activity attribute for debugging on a physical device, or have Intent filters defined.
-
-## Examples of Data that Might Be Included in Run Configurations:
-
-The list below provides some example of data that could be included in run configurations:
-
-* Regular .NET project
-    * Alternative startup app
-    * Start arguments
-    * Working directory
-    * Environment variables
-    * Mono runtime options (to be used only when running on Mono)
-* Android project
-    * Entry point (activity, service, receiver)
-    * Intent arguments and data
-* iOS project
-    * Mode (Normal, Background Fetch)
-* iOS extension project
-    * Startup app: default or custom
-* WatchKit project
-    * Mode (Glance, Notification)
-    * Notification payload
 
 
 
