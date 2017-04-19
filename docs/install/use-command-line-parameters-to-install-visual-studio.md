@@ -134,4 +134,5 @@ Each operation will generate several log files in the `%TEMP%` directory that in
  * [Install Visual Studio 2017](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+ * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
  * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
