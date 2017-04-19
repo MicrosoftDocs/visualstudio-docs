@@ -106,7 +106,10 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 
 1. In the **Attach to Process** dialog that appears, set **Connection Type** to **Python remote (ptvsd)**. (On older versions of Visual Studio these are named **Transport** and **Python remote debugging**.)
 
-1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote machine (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number. 
+1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote machine (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number.
+
+    > [!Warning]
+    > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below for [Securing the debugger connection with SSL](#securing-the-debugger-connection-with-ssl).
 
 1. Press Enter to populate the list of available ptvsd processes on that machine:
 

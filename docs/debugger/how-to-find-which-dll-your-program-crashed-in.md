@@ -63,5 +63,5 @@ translation.priority.ht:
 6.  Look at the **Name** and **Path** columns to see the DLL name and path.  
   
 ## See Also  
- [How to: Debug Native DLLs](../debugger/how-to-debug-native-dlls.md)   
+ [Debugging DLL Projects](../debugger/debugging-dll-projects.md)   
  [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)
