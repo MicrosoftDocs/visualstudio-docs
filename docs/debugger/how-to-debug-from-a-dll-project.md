@@ -47,7 +47,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
   
 ### To specify the calling application in a C++ project  
   
-1.  Right-click the project node in the **Solution Explorer** and select **Properties**. Go to the **Debug** tab.  
+1.  Right-click the project node in the **Solution Explorer** and select **Properties**.  
   
 2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**. 
 
@@ -65,13 +65,15 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
   
 ### To specify the calling application in a C# or Visual Basic project  
   
-1.  Right-click the project node in the **Solution Explorer** and select **Properties**. Go to the **Debug** tab.  
-  
-     Select **Start external program**, and add the fully-qualified path name of the calling application. 
+1.  Right-click the project node in the **Solution Explorer** and select **Properties**.
+
+2.  Open the **Debug** tab, select **Start external program**, and add the fully-qualified path name of the calling application. 
 
 2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**.  
   
      If you need to add the external program’s command line arguments, add them in the **Command line arguments** field.
+
+    ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll-csharp.png "DebuggingPropertiesWindow") 
 
 3.  If you need to, you can also call an application as a URL. (You might want to do this if you are debugging a managed DLL used by a local ASP.NET application.)  
   
@@ -83,7 +85,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
 2.  Right-click the DLL project and choose **Set as Startup Project**. 
 
-    Also, make sure that the **Solutions Configuration** field is set to **Debug**.   
+    (Also, make sure that the **Solutions Configuration** field is still set to **Debug**.)   
   
 3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).  
   
