@@ -57,7 +57,9 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
   
 4.  In the **Debugger to launch** list, choose **Local Windows Debugger** or **Remote Windows Debugger**.  
   
-5.  In the **Command** or **Remote Command** box, add the fully-qualified path name of the calling application (such as an .exe file).  
+5.  In the **Command** or **Remote Command** box, add the fully-qualified path name of the calling application (such as an .exe file).
+
+    ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll.png "DebuggingPropertiesWindow")  
   
 6.  Add any necessary program arguments to the **Command Arguments** box.  
   
@@ -80,8 +82,10 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 1.  Set breakpoints in the DLL project. 
 
 2.  Right-click the DLL project and choose **Set as Startup Project**. 
+
+    Also, make sure that the **Solutions Configuration** field is set to **Debug**.   
   
-2.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).  
+3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).  
   
 ## See Also  
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)   
