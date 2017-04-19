@@ -1,7 +1,7 @@
 ---
-title: "Using PyLint in Python Tools for Visual Studio | Microsoft Docs"
+title: "Using PyLint in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Using PyLint to check Python code
 
-[PyLint](https://www.pylint.org/), a widely-used tool that checks for errors in Python code and encourages good Python coding patterns,  is integrated into Visual Studio for Python projects.
+[PyLint](https://www.pylint.org/), a widely-used tool that checks for errors in Python code and encourages good Python coding patterns, is integrated into Visual Studio for Python projects.
 
 Just right-click a Python project in Solution Explorer and select **Python > Run PyLint...**:
 

@@ -56,10 +56,7 @@ Table legend:
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
  Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.  
   
-## Related Sections  
- [ASP.NET Web Applications](../debugger/debugging-preparation-aspnet-web-applications.md)  
- Describes the default project settings and behavior of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application projects, steps for debugging, and changing the default Debug configuration.  
-  
+## Related Sections    
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Provides links to the larger sections of the debugging documentation. Information includes the following: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   

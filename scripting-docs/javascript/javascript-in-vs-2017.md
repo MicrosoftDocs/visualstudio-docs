@@ -1,3 +1,28 @@
+---
+title: "JavaScript in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "04/10/2017"
+ms.prod: "windows-client-threshold"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "devlang-javascript"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "JavaScript"
+  - "TypeScript"
+  - "DHTML"
+ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
+caps.latest.revision: 1
+author: "bowdenk7"
+ms.author: "wilkelly"
+manager: "ghogen"
+---
+# JavaScript in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)]
+
+JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.
+
 ## <a name="ES6"></a> Support for ECMAScript 2015 (ES6) and beyond
 Visual Studio now supports syntax for ECMAScript language updates such as ECMAScript 2015/2016.
 
@@ -34,7 +59,7 @@ By default this is `false`, as TypeScript compiles to JavaScript, and this is ne
  The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
  - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined above.
  - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
- - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](../../docs/ide/javascript-intellisense.md#Auto))
+ - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense#Auto))
 
 In order to convert JavaScript files to CommonJS modules and place them in an `./out` folder, you could use the following `tsconfig.json` file.
 
@@ -92,7 +117,7 @@ exports.default = Subscription_1.Subscription;
 
 ## Better IntelliSense
 
-JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](../../docs/ide/javascript-intellisense.md).
+JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](/visualstudio/ide/javascript-intellisense/).
 
 ## <a name="JSX"></a> JSX syntax support
 
@@ -185,7 +210,7 @@ Previously it was fairly complicated to understand at any given moment which fil
 Sometimes it was desirable to have all your files in scope, other times it wasn't, but this lead to complex configurations involving manual reference management.
 Going forward you no longer need to think about reference management and so you don't need triple slash references comments or `_references.js` files.
 
-See the [JavaScript IntelliSense](../../docs/ide/javascript-intellisense.md) page for more info on how IntelliSense works.
+See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense/) page for more info on how IntelliSense works.
 
 ## VSDoc
 XML documentation comments, sometimes referred to as VSDocs, could previously be used to decorate your source code with additional data that would be used to buff up IntelliSense results.
