@@ -48,20 +48,23 @@ A thread is a sequence of instructions to which the operating system allocates p
   
  In addition, multithreading introduces some new types of potential bugs. Often, for example, two or more threads have to access the same resource, but only one thread can safely access the resource at a time. Some form of mutual exclusion is necessary to make sure that only one thread is accessing the resource at a time. If mutual exclusion is performed incorrectly, it can create a *deadlock* condition where no thread can execute. Deadlocks can be a particularly hard problem to debug.  
   
- Visual Studio provides a **Threads** window, a GPU Threads window, a Parallel Watch window, and other features that make multithreaded debugging easier. The best way to learn about the threading features is by doing the walkthroughs. See [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5).  
+ Visual Studio provides a **Threads** window, a GPU Threads window, a **Tasks** window, a Parallel Watch window, and other features that make multithreaded debugging easier. The best way to learn about the threading features is by doing the walkthroughs. See [Get started debugging a multithreaded application](../debugger/how-to-use-the-threads-window.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5).  
   
  Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md)  
   
  Debugging a multithreaded application that has a user interface can be especially difficult. In that case, you might consider running the application on a second computer and using remote debugging. For information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
-## In This Section  
+## In This Section 
+ [Get started debugging a multithreaded application](../debugger/how-to-use-the-tasks-window.md).  
+ A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]. 
+
  [Debug Threads and Processes](../debugger/debug-threads-and-processes.md)  
  Explains the basics of debugging threads and processes.  
   
  [Debug Multiple Processes](../debugger/debug-multiple-processes.md)  
  Explains how to debug multiple processes.  
   
- [How to: Use the Threads Window](../debugger/how-to-use-the-threads-window.md)  
+ [How to: Use the Threads Window](../debugger/walkthrough-debugging-a-multithreaded-application.md)  
  Useful procedures for debugging threads with the **Threads** window.  
   
  [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
@@ -75,9 +78,6 @@ A thread is a sequence of instructions to which the operating system allocates p
   
  [How to: Set a Thread Name in Managed Code](../debugger/how-to-set-a-thread-name-in-managed-code.md)  
  Give your thread a name that you view in the **Threads** window.  
-  
- [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md).  
- A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].  
   
  [How to: Debug On a High-Performance Cluster](../debugger/how-to-debug-on-a-high-performance-cluster.md)  
  Techniques for debugging an application that runs on a high-performance cluster.  

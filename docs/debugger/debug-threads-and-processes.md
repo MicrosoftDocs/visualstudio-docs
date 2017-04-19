@@ -1,5 +1,5 @@
 ---
-title: "Debug Threads and Processes | Microsoft Docs"
+title: "Tools to debug threads and processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/09/2016"
 ms.reviewer: ""
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Debug Threads and Processes
+# Tools to debug threads and processes in Visual Studio
 *Threads* and *processes* are related concepts in computer science. Both represent sequences of instructions that must execute in a specific order. Instructions in separate threads or processes, however, can execute in parallel.  
   
  Processes exist in the operating system and correspond to what users see as programs or applications. A thread, on the other hand, exists within a process. For this reason, threads are sometimes referred to as *light-weight processes*. Each process consists of one or more threads.  
@@ -50,7 +50,7 @@ translation.priority.ht:
   
  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides powerful but easy-to-use tools for debugging threads and processes.  
   
-## Tools for Debugging Threads and Processes in Visual Studio  
+## Tools and features
  The primary tools for working with processes in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar. The primary tools for debugging threads are the **Threads** window, thread markers in source windows, and the **Debug Location** toolbar.  
   
  The primary tools for debugging multithreaded applications are the **Parallel Stacks** and **Parallel Tasks**, **Parallel Watch**, and **GPU Threads** windows.  

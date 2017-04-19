@@ -172,4 +172,4 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
- [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md)
+ [Get started debugging a multithreaded application](../debugger/how-to-use-the-threads-window.md)
