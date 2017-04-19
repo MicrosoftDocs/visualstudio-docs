@@ -57,9 +57,8 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.
   
 > [!TIP]
-> If you want to debug code outside your project source code, such as the Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
+> If you want to debug code outside your project source code, such as Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
  
-  
 ##  <a name="BKMK_Find_symbol___pdb__files"></a> Where does the debugger search for symbol files? 
   
 1.  The location that is specified inside the DLL or the executable file.  
@@ -75,13 +74,13 @@ A symbol file also contains the original location of the source files, and optio
     * Any network, internet, or local symbol servers and locations that are specified, such as the Microsoft symbol server (if enabled). 
 
 > [!NOTE]
-> Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. Starting with Visual Studio 2012, all symbol files must be located on the local machine or in a location specified in the **Tools / Options / Debugging / Symbols** page.  
+> Before Visual Studio 2012, when you debugged managed code on a remote device you needed to put the symbol files on the remote machine. Starting with Visual Studio 2012, all symbol files must be located on the local machine or in a location [specified in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior).  
   
 ##  <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> Why do symbol files need to exactly match the executable files?  
 The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
   
 ##  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and symbol loading behavior
- When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**.You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
+ When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**. You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
   
 1.  In Visual Studio, open the **Tools / Options / Debugging / Symbols** page.  
   
@@ -106,7 +105,7 @@ You can specify the files that you want to be loaded automatically from **Symbol
   
 2.  Choose the **Only specified modules** option and then choose **Specify modules** to list the modules that you symbol files that you want loaded automatically. The symbol files for other modules are ignored.  
   
-### Specify additional symbol options**  
+### Specify additional symbol options 
   
 You can also set the following options on the **Tools / Options / Debugging / General** page:  
   
@@ -139,7 +138,7 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
 >  If you use a symbol server other than the Microsoft public symbol servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can become exposed to security threats.  
   
 ###  <a name="BKMK_Find_and_load_symbols_while_debugging"></a> Find and load symbols while debugging  
- At any time that the debugger is in break mode, you can load symbols for a module that was previously excluded by debugger options or that the compiler could not find. You can load symbols from the shortcut menus of the Call Stack, Modules, Locals, Autos, and all Watch windows. If the debugger breaks in code that does not have symbol or source files available, a document window appears. Here you can find information about the missing files and take actions to locate and load them.  
+ At any time that the debugger is in break mode, you can load symbols for a module that was previously excluded by debugger options or that the compiler could not find. You can load symbols from the shortcut menus of the Call Stack, Modules, Locals, Autos, and all Watch windows. If the debugger breaks in code that does not have symbol or source files available, a document window appears. Here you can find information about the missing files and take actions to locate and load them.
   
  **Find symbols with the No Symbols Loaded document pages**  
   
@@ -265,5 +264,6 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
      Note that both **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks discussed above.  
   
 ## See Also  
- [Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
- [.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)
+[Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
+
+[.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)
