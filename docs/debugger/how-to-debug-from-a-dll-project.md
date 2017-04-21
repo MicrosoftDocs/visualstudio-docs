@@ -39,18 +39,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug from a DLL Project in Visual Studio
-One way to debug a DLL project is to specify the calling application in the project properties of the DLL project and then you can start debugging from the DLL project itself. For this method to work, the application must call the DLL, and the DLL must be in the location where the application expects to find it (otherwise, the application might find a different version of the DLL and load that instead). For other methods of debugging DLLs, see [Debugging DLL Projects](../debugger/debugging-dll-projects.md).
+One way to debug a DLL project is to specify the calling application in the project properties of the DLL project and then you can start debugging from the DLL project itself. For this method to work, the application must call the DLL, and the DLL must be in the location where the application expects to find it (otherwise, the application might find a different version of the DLL and load that instead, and it won't hit your breakpoints). For other methods of debugging DLLs, see [Debugging DLL Projects](../debugger/debugging-dll-projects.md).
   
-If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  
-  
-> [!NOTE]
->  You cannot specify an external calling application in Express editions of Visual Studio. Instead, you need to add an executable project to the solution, set it as the startup project, and call methods in your DLL from the executable project.  
+If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).   
 
 The C++ property pages differ in layout and content from the C# and Visual Basic property pages. 
   
 ### To specify the calling application in a C++ project  
   
-1.  Right-click the project node in the **Solution Explorer** and select **Properties**. Go to the **Debug** tab.  
+1.  Right-click the project node in the **Solution Explorer** and select **Properties**.  
   
 2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**. 
 
@@ -60,19 +57,23 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
   
 4.  In the **Debugger to launch** list, choose **Local Windows Debugger** or **Remote Windows Debugger**.  
   
-5.  In the **Command** or **Remote Command** box, add the fully-qualified path name of the calling application (such as an .exe file).  
+5.  In the **Command** or **Remote Command** box, add the fully-qualified path name of the calling application (such as an .exe file).
+
+    ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll.png "DebuggingPropertiesWindow")  
   
 6.  Add any necessary program arguments to the **Command Arguments** box.  
   
 ### To specify the calling application in a C# or Visual Basic project  
   
-1.  Right-click the project node in the **Solution Explorer** and select **Properties**. Go to the **Debug** tab.  
-  
-     Select **Start external program**, and add the fully-qualified path name of the calling application. 
+1.  Right-click the project node in the **Solution Explorer** and select **Properties**.
+
+2.  Open the **Debug** tab, select **Start external program**, and add the fully-qualified path name of the calling application. 
 
 2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**.  
   
      If you need to add the external program’s command line arguments, add them in the **Command line arguments** field.
+
+    ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll-csharp.png "DebuggingPropertiesWindow") 
 
 3.  If you need to, you can also call an application as a URL. (You might want to do this if you are debugging a managed DLL used by a local ASP.NET application.)  
   
@@ -83,8 +84,12 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 1.  Set breakpoints in the DLL project. 
 
 2.  Right-click the DLL project and choose **Set as Startup Project**. 
+
+    (Also, make sure that the **Solutions Configuration** field is still set to **Debug**.)   
   
-2.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).  
+3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).
+
+    You will hit the breakpoints in your DLL. If you aren't able to hit the breakpoints, make sure that your DLL output (by default, the **project\Debug** folder) is in a location that the calling application expects to find it.
   
 ## See Also  
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)   
