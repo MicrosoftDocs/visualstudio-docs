@@ -80,7 +80,14 @@ Administrators may run setup to push Visual Studio onto client machines.  Or, us
 It's easy to customize or update your offline installer; we'll show you how. And if something goes wrong with your offline installer, we've got troubleshooting and support information for you, too.
 
 ### How to customize your offline installer
-There are many options you can use to customize your offline installer. Here are a few examples of how to customize it by [language locale](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
+There are several options you can use to customize your offline installer. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md).  Use the following options to create a partial layout filtered to your specifications.
+
+ - ```--add``` to specify [Workload or Component Ids](workload-and-component-ids.md).  If --add is used, only those workloads and components specified with --add will be downloaded.  If --add is not used, all workload and components will be downloaded.
+ - ```--includeRecommended``` to include all the recommended  components for the specified workload IDs
+ - ```--includeOptional``` to include all the recommended  and optional components for the specified workload IDs.
+ - ```--lang``` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
+ 
+Here are a few examples of how to create a custom partial layout.
 
  - To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
  - To download all workloads and components for multiple languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP```
@@ -88,8 +95,7 @@ There are many options you can use to customize your offline installer. Here are
  - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
  - To download two workloads and all of their recommended components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended ```
  - To download two workloads and all of their recommended and optional components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional ```
- - To learn more about the options you can use to customize your installation, see our [Use command-line parameters to install Visual Studio 2017 ](use-command-line-parameters-to-install-visual-studio.md) page.
-
+ 
 ### How to update an offline installer
 You might want to update your offline installer at a later date. Here's how.
 * To refresh your offline installation folder so that it includes the latest updates, run the ```--layout``` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.  It is recommended that you update a private copy of the layoute (e.g. c:\vs2017offline) and after all of the updated content is downloaded, copy it to your share (e.g. \\MyServer\products\VS2017).  If you don't do this, there is a greater chance that any users running setup wile the layout is being updated may not be able to get all of the content from the layout since it is not completely updated.
