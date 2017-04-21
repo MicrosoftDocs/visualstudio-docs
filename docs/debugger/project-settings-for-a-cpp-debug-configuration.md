@@ -1,5 +1,5 @@
 ---
-title: "Project Settings for a C++ Debug Configuration | Microsoft Docs"
+title: "Project settings for a C++ debug configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -131,17 +131,17 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Project Settings for a C++ Debug Configuration
+# Project settings for a C++ debug configuration
 You can change the project settings for a C or Visual C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
   
 > [!WARNING]
->  The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Development Center.  
+>  The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).  
   
  Specify which debugger to use in the **Debugger to launch** list box. Your choice will affect which properties are visible.  
   
  Each debug property setting is automatically written and saved to the "per-user" file (.vcxproj.user) for your solution whenever you save your solution.  
   
-### Configuration Properties folder (Debugging category)  
+## Configuration Properties folder (Debugging category)  
   
 |**Setting**|**Description**|  
 |-----------------|---------------------|  
@@ -165,19 +165,19 @@ You can change the project settings for a C or Visual C++ debug configuration in
 |**Additional Files to Deploy** (Remote Windows Debugger)|If the Deployment Directory property is set, this is a semi-colon delimited list of additional files to copy to the deployment directory. The default setting is empty, which means that no additional files are copied to the deployment directory. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).|  
 |**Deploy Visual C++ Debug Runtime Libraries** (Remote Windows Debugger)|If the Deployment Directory property is set, this specifies whether the Visual C++ debug runtime libraries for the current platform should be copied to the network share. The default setting is Yes.|  
   
-### C/C++ folder (General category)  
+## C/C++ folder (General category)  
   
 |Setting|Description|  
 |-------------|-----------------|  
 |**Debug Information Format** ([/Z7, /Zd, Zi, /ZI](/cpp/build/reference/z7-zi-zi-debug-information-format))|Specifies the type of debug information to be created for the project.<br /><br /> The default option (/ZI) creates a program database (PDB) in Edit and Continue compatible format. For more information, see [/Z7, /Zd, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format).|  
   
-### C/C++ folder (Optimization category)  
+## C/C++ folder (Optimization category)  
   
 |Setting|Description|  
 |-------------|-----------------|  
 |**Optimization**|Specifies whether the compiler should optimize the code it produces. Optimization changes the code that is executed. Optimized code no longer matches the source code. Therefore, debugging is difficult.<br /><br /> The default option (**Disabled (/0d**) suppresses optimization. You can develop with optimization suppressed, and then turn it on when you create the production version of your code.|  
   
-### Linker folder (Debugging category)  
+## Linker folder (Debugging category)  
   
 |Setting|Description|  
 |-------------|-----------------|  
@@ -189,7 +189,13 @@ You can change the project settings for a C or Visual C++ debug configuration in
 |**Map Exports** ([/MAPINFO:EXPORTS](/cpp/build/reference/mapinfo-include-information-in-mapfile))|Includes exported functions in the map file. Default setting is No. For more information, see [/MAPINFO (Include Information in Mapfile)](/cpp/build/reference/mapinfo-include-information-in-mapfile).|  
 |**Debuggable Assembly** ([/ASSEMBLYDEBUG](/cpp/build/reference/mapinfo-include-information-in-mapfile))|Specifies settings for the Linker /ASSEMBLYDEBUG option. Possible values are as follows:<br /><br /> -   **No debuggable attribute emitted**.<br />-   **Runtime tracking and disable optimizations (/ASSEMBLYDEBUG)**. This is the default setting,<br />-   **No runtime tracking and enable optimizations(/ASSEMBLYDEBUG:DISABLE)**.<br />-   **\<inherit from parent or project defaults>**.<br />-   For more information, see [/ASSEMBLYDEBUG (Add DebuggableAttribute)](/cpp/build/reference/assemblydebug-add-debuggableattribute).|  
   
- You can change these settings in the Configuration Properties folder (Debug category) programmatically by using the Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings interface. For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings>.  
+ You can change these settings in the Configuration Properties folder (Debug category) programmatically by using the Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings interface. For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings>.
+
+## Other project settings
+
+To debug project types such as static libraries and DLLs, your Visual Studio project must be able to find the correct files. When source code is available, you can add static libraries and DLLs as separate projects to the same solution (this makes debugging easy). For information on creating these project types, see [Creating and using a Dynamic Link Library (DLL)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp) and [Creating a using a static library](/cpp/windows/walkthrough-creating-and-using-a-static-library-cpp). With source code available, you can also create a new Visual Studio project by choosing **File / New / Project From Existing Code**.
+
+To debug DLLs that are external to your project, see [Debugging DLL projects](../debugger/debugging-dll-projects.md#vxtskdebuggingdllprojectsexternal). If you need to debug your own DLL project, but don't have access to the project for the calling application, see [How to debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   
