@@ -152,7 +152,7 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)   
   
-    In the **Threads** window appears, the flagged thread has a prominent red flag icon attached to it.  
+    In the **Threads** window, the flagged thread has a prominent red flag icon attached to it.  
   
 11. In the source code editor, right-click the thread marker again.  
   

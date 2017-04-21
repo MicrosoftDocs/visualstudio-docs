@@ -87,7 +87,9 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
     (Also, make sure that the **Solutions Configuration** field is still set to **Debug**.)   
   
-3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).  
+3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).
+
+    You will hit the breakpoints in your DLL. If you aren't able to hit the breakpoints, make sure that your DLL output (by default, the **project\Debug** folder) is in a location that the calling application expects to find it.
   
 ## See Also  
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)   
