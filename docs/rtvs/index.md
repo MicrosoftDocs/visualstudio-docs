@@ -32,13 +32,21 @@ translation.priority.ht:
 
 # Working with R in Visual Studio
 
-R Tools for Visual Studio is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher). R Tools are released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
+R is a highly-extensible language and environment for statistical computing and graphics. It's distributed for free under the GNU General Public License, enjoys strong community support, and is known for its ability to produce publication-quality plots including mathematical symbols and formulae. You can learn more about R at [r-project.org](https://www.r-project.org/about.html) and [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html).
 
-First things first, [install the R Tools](installation.md). Then get your first experience with R in Visual Studio by following the [Getting Started](getting-started-with-r.md). You can also watch the following feature highlights video (5m 48s):
+R Tools for Visual Studio is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher), released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
+
+To experience R in Visual Studio:
+
+- [Install the R Tools](installation.md).
+- Follow the [Getting Started](getting-started-with-r.md) guide.
+
+The following video also provides a brief (5m 48s) review of the R Tools capabilities:
 
 > [!VIDEO https://www.youtube.com/embed/RcSDEfMgUvU]
 
-Key features in R Tools include the following:
+## A brief feature tour
+
 
 - **Highly productive inner loop**: An inner loop is composed of those features that you use repeatedly during your development process, such as syntax highlighting, IntelliSense, interactive code execution, code navigation, and automatic formatting. 
 

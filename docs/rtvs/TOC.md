@@ -10,7 +10,7 @@
 ### [Package Manager](package-manager.md)
 ### [SQL Server Integration](sql-server.md)
 ## [Editing Code](code-editing.md)
-### [Code Navigation](code-formatting.md)
+### [Code Navigation](code-navigation.md)
 ### [Code Snippets](code-snippets.md)
 ### [IntelliSense](code-intellisense.md)
 ### [R Markdown](rmarkdown.md)

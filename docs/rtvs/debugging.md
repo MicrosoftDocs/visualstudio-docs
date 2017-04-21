@@ -37,7 +37,7 @@ translation.priority.ht:
 
 **Watch windows** are windows that inspect variables. You can layout as many watch windows as you want, and the values of the variables that you are inspecting in those watch windows will update each time you break into the debugger. 
 
-If you want to interactively inspect variables while stopped at the debugger, you can use Visual Studio's handy [Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor) feature. Just hover over a variable using your mouse pointer, and you'll be able to inspect the variable and even drill down into sub-objects interactively:
+If you want to interactively inspect variables while stopped at the debugger, you can use Visual Studio's handy [Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) feature. Just hover over a variable using your mouse pointer, and you'll be able to inspect the variable and even drill down into sub-objects interactively:
 
 ![](media/debugger-tooltips.gif)
 

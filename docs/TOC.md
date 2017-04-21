@@ -7,7 +7,7 @@
 # [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
 # [JavaScript](/scripting/javascript)
 # [Python](python/getting-started-with-python.md)
-# [R](rtvs/getting-started-with-r.md)
+# [R](rtvs/index.md)
 # [Visual F#](/dotnet/articles/fsharp/)
 # [Data Access](data-tools/TOC.md)
 # [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
