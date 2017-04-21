@@ -119,7 +119,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
 4.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
 
     > [!TIP]
-    > You may find it helpful to identify nameless threads by renaming them. Choose **Rename** after right-clicking on the thread.
+    > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** fter right-clicking on the **Name** column in the thread row.
   
 5.  Right-click the thread marker to see the available options on the shortcut menu. 
     
@@ -152,7 +152,10 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)   
   
-    In the **Threads** window, the flagged thread has a prominent red flag icon attached to it.  
+    In the **Threads** window, the flagged thread has a prominent red flag icon attached to it.
+
+    > [!TIP]
+    > When you have flagged some threads, you can right-click a line of code in the code editor and choose **Run Flagged Threads to Cursor** (make sure that you choose code that all flagged threads will reach). This will pause threads on the selected line of code, making it easier control the order of execution by [freezing and thawing threads](#bkmk_freeze).
   
 11. In the source code editor, right-click the thread marker again.  
   
@@ -202,7 +205,12 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 4.  Hover the mouse pointer over the **Location** column for any thread in the list.  
   
-     After a momentary delay, a DataTip appears. It shows a partial call stack for the thread.  
+     After a momentary delay, a DataTip appears. It shows a partial call stack for the thread.
+
+     > [!TIP]
+     > For a graphical view of the call stacks for threads, open the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window (while debugging, choose **Debug / Windows / Parallel Stacks**). You will see call stacks like this illustration.
+
+    ![Parallel Stacks Window](../debugger/media/dbg-threads-parallel-stacks.png "ParallelStacksWindow")    
   
 5.  Look at the fourth column from the left, which is labeled **Category**. The threads are classified into categories.  
   
@@ -242,10 +250,10 @@ You can flag threads that you want to give special attention. Flagging threads i
   
      With the thread marker, you can switch only to threads that are stopped at that particular location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.  
   
-## Freezing and thawing thread execution 
+## <a name="bkmk_freeze"></a> Freezing and thawing thread execution 
 
 > [!TIP]
-> You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as race conditions.
+> You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
   
 #### To freeze and unfreeze threads  
   
