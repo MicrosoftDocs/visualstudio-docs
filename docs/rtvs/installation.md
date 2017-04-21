@@ -70,7 +70,7 @@ Offline installation is suitable for computers that are not connected to the Int
 
 1. Follow the instructions to create an offline installer for your version of Visual Studio as below. 
 
-- [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio)
+- [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
  -[Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
 
 1. Install Visual Studio from the offline installer.
@@ -87,7 +87,7 @@ R Tools for Visual Studio installs in this folder:
 
 Once you've installed RTVS, try some of the samples from Github:
 
-[Samples documentation](samples.md)
+[Samples documentation](getting-started-samples.md)
 
 
 ## Window Layout for Data Scientists in Visual Studio

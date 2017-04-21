@@ -80,6 +80,6 @@ Figure 2. This figure compares elapsed time in seconds used in building Logistic
 * **Benchmarks**
     Microsoft R Open includes the Intel Math Kernel Library (MKL) for fast, parallel linear algebra computations. This example runs a number of compute-intensive benchmarks to show the performance gains that are possible through the use of MKL.
 
-    ![](sample-mro-benchmark-plot.png)
+    ![](media/sample-mro-benchmark-plot.png)
 
     Figure 3. With simulated data, using 2 threads tends to give better performance than using 1 thread for certain matrix related calculations. Check out MRO-MKL-benchmarks.R example for more details.   

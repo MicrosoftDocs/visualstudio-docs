@@ -96,7 +96,7 @@ When you are debugging, variable explorer also recognizes the current execution 
 
 We support viewing variables defined inside of private named scopes as well (i.e., variables defined within a package). For example, here are the variables defined in the Shiny package:
 
-![](media/repl-variable-explorer-scopes.png)
+![](media/repl-variable-explorer-package-scopes.png)
 
 ## Importing data into Variable Explorer
 

@@ -116,13 +116,13 @@ When you double click on the `StoredProcedure.Query.sql` file, we activate the S
 
 ![SQL Window Query Results](media/sql-query-results.png)
 
-Once you're happy with your SQL and your R Code, RTVS will handle combining your results and packaging them up to send to SQL Server. For more details, see the detailed walkthrough in our documentation for [SQL Server support](sqlserver.md).
+Once you're happy with your SQL and your R Code, RTVS will handle combining your results and packaging them up to send to SQL Server. For more details, see the detailed walkthrough in our documentation for [SQL Server support](sql-server.md).
 
 ### Scalable compute resources
 
 R developers and data scientists often prefer to use laptops in their day-to-day work. They develop their models against down-sampled datasets until they are satisfied with the results that they can get from those datasets. When they want to validate their models against larger datasets, they often have to move their code or their development environments to a more powerful machine.
 
-The [workspaces](remote-workspaces.md) feature of RTVS makes it easy to bind RTVS to different workspaces. Local workspaces are simply other versions of the R interpreter that you have on your local computer. **Remote workspaces** are R interpreters that are installed on remote computers. By [installing RTVS Remote Services](remote-setup.md) on a machine with lots of CPU cores, lots of RAM, lots of storage, or lots of GPU, you can tailor the execution environment to the needs of your code and the data that you want to analyze. A remote workspace can
+The [workspaces](workspaces.md) feature of RTVS makes it easy to bind RTVS to different workspaces. Local workspaces are simply other versions of the R interpreter that you have on your local computer. **Remote workspaces** are R interpreters that are installed on remote computers. By [installing RTVS Remote Services](workspaces-remote.md) on a machine with lots of CPU cores, lots of RAM, lots of storage, or lots of GPU, you can tailor the execution environment to the needs of your code and the data that you want to analyze. A remote workspace can
 be shared by several team members, making it easier to collaborate on large or sensitive datasets that must reside on an IT-managed computer.
 
 ![](media/workspace-window.png)

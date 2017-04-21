@@ -55,7 +55,7 @@ If you want to change an existing Workspace entry, you can always click on the w
 
 ### Remote Workspaces
 
-Remote workspaces let you connect to an R session on a remote computer. Typically, that remote computer is setup by your administrator, or you can [setup a remote Workspace yourself](remote-setup.md).
+Remote workspaces let you connect to an R session on a remote computer. Typically, that remote computer is setup by your administrator, or you can [setup a remote Workspace yourself](workspaces-remote.md).
 
 Remote workspaces are identified by a URI. That URI *must use the HTTPS protocol* to ensure the privacy and the integrity of the code that you are sending to the remote computer, and the results that are returned from the remote computer. RTVS will refuse to connect to a remote computer that does not support the HTTPS protocol.
 

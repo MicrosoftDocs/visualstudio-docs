@@ -51,6 +51,6 @@ The Available Packages tab lets you browse and search for packages. You can use 
 
 ### Loaded Packages
 
-![](media/package_manager_loaded.png)
+![](media/package-manager-loaded.png)
 
 The Loaded Packages tab lets you examine all of the packages loaded into your R session. All of the packages on this tab should have a green dot next to them which indicates that they are loaded. You can also see details about the package along with the path to where the package is installed on your machine.
