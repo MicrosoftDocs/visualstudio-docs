@@ -80,7 +80,7 @@ To debug a DLL, start by debugging the calling application, typically either an 
   
 -   If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md).  
   
--   If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](../debugger/attach-to-a-running-processes-with-the-visual-studio-debugger.md).  
+-   If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
 -   You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md).  
   

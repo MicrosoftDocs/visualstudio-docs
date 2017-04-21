@@ -61,7 +61,7 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
  Debugging a multithreaded application that has a user interface can be especially difficult. In that case, you might consider running the application on a second computer and using remote debugging. For information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ## In This Section 
- [Get started debugging a multithreaded application](../debugger/how-to-use-the-tasks-window.md).  
+ [Get started debugging a multithreaded application](../debugger/using-the-tasks-window.md).  
  A guided tour of thread debugging features, with emphasis on features in the **Threads** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]. 
 
  [Debug Threads and Processes](../debugger/debug-threads-and-processes.md)  

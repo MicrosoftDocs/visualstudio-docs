@@ -195,7 +195,7 @@ You can change the project settings for a C or Visual C++ debug configuration in
 
 To debug project types such as static libraries and DLLs, your Visual Studio project must be able to find the correct files. When source code is available, you can add static libraries and DLLs as separate projects to the same solution (this makes debugging easy). For information on creating these project types, see [Creating and using a Dynamic Link Library (DLL)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp) and [Creating a using a static library](/cpp/windows/walkthrough-creating-and-using-a-static-library-cpp). With source code available, you can also create a new Visual Studio project by choosing **File / New / Project From Existing Code**.
 
-To debug DLLs that are external to your project, see [Debugging DLL projects](../debugger/debugging-dll-projects#vxtskdebuggingdllprojectsexternal). If you need to debug your own DLL project, but don't have access to the project for the calling application, see [How to debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
+To debug DLLs that are external to your project, see [Debugging DLL projects](../debugger/debugging-dll-projects.md#vxtskdebuggingdllprojectsexternal). If you need to debug your own DLL project, but don't have access to the project for the calling application, see [How to debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   
