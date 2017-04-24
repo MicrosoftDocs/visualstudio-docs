@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology:
   - "devlang-r"
 ms.tgt_pltfrm: ""
+f1_keywords: 
+  - "vs.toolsoptionspages.r_tools"
+  - "vs.toolsoptionspages.r_tools.advanced"
 ms.topic: "article"
 ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
@@ -31,75 +34,80 @@ translation.priority.ht:
 ---
 
 
-# R Tools for Visual Studio Options
+# R Tools for Visual Studio options
  
-From the **R Tools** top-level menu, you can also bring up general RTVS settings using the **Options** command:
- 
-  ![](media/editing-rtvs-options.png)
-
-Which brings up:
+Settings are access through the **R Tools > Options** menu, or through **Tools > Options** and scrolling to **R Tools**:
  
   ![](media/editing-rtvs-options-dialog.png)
 
-There are a number of configurable options here:
+The following sections describe the different options available on this page..
 
-### Debugging
+> [!Note]
+> When accessing options through the general **Tools > Options** menu, you may need to select the **Show all options** box at the bottom for the **R Tools** page to appear.
 
-**Evaluate active bindings** Ensures that you always get the most up to date value when inspecting variables and properties in the Variable Explorer, and Debugger Tool Windows like Watch and Locals. The risk is that evaluating the expressions may cause side-effects, depending on how they were implemented.
+## Debugging
 
-**Show dot-prefixed variables** Shows variables prefixed with "." in Variable Explorer and Debugger Tool Windows.
+These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger tool windows like Watch and Locals (see [Debugging](debugging.md).
 
-### General
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Evaluate active bindings | `True` | When `True`, ensures that you always see the most up to date value when inspecting variables and properties. The risk is that evaluating the expressions may cause side-effects, depending on how they were implemented. |
+| Show dot-prefixed variables | `False` | Specifies whether variables prefixed with `.` are shown. |
 
-**Survey/News Check** Survey/News is a feature that pushes news about RTVS updates and surveys. This setting controls the frequency of how often RTVS checks for updates.
+## General
 
-### Help
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Survey/News Check | `Once a week` | Specifies how often R Tools should check with the server for news and survey updates. | 
 
-**F1 Web browser** Controls how help is displayed when you are searching for a term using Ctrl-F1. When set to `Internal`, you will see help rendered within a tool window in Visual Studio. When set to `External`, you will see help rendered using your default web browser.
+## Help
 
-**F1 Web Search String** Controls how search terms are passed to your search engine when you press Ctrl-F1 on a term in the editor. By default the string is `R site:stackoverflow.com`, which appends `R` to your search term. The `site:stackoverflow.com` is a directive to the search engine which tells it to scope the search to pages within the `stackoverflow.com` domain. 
+| Option | Default value | Description | 
+| --- | --- | --- |
+| F1 Web browser | `Internal` | Controls how help is displayed when you are searching for a term using Ctrl-F1. When set to `Internal`, help is rendered within a tool window in Visual Studio. When set to `External`, help appears in your default web browser. | 
+| F1 Web Search String | `R site:stackoverflow.com` | Controls how search terms are passed to your search engine when you press Ctrl-F1 on a term in the editor. By default the string is `R site:stackoverflow.com`, which appends `R` to your search term. The `site:stackoverflow.com` is a directive to the search engine which tells it to scope the search to pages within the `stackoverflow.com` domain. | 
+| R Help Browser | `Automatic` | Controls how help is displayed when you are searching the R documentation using F1, `?` or `??`. When set to `Automatic`, help renders in the appropriate window. For example, HTML help appears within a Visual Studio tool window, whereas PDFs appear in your default PDF program. When set to `External`, help is rendered in your default web browser. |
 
-**R Help Browser** Controls how help is displayed when you are searching the R documentation using F1, `?` or `??`. 
+## History
 
-When set to `Automatic`, you will see help rendered using the appropriate window. For example, if you are rendering HTML help, it will appear within a tool window in Visual Studio. If you are rendering a PDF, it will render using the default PDF viewer on your computer.
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Always save history | `True` | Controls whether RTVS writes your command history to a `.RHistory` file in your working directory whenever the project is closed. Note that this happens even if you don't save your project before you exit. |
+| Reset search filter | `True` | Determines whether the History window can filter your command history to show only the commands that substring match against the filter term in the R History dialog. This setting determines whether to reset your History search filter whenever you run a new command, or switch to a new project, which will trigger the load of a different `.RHistory` file. The default setting of `True` minimizes surprise when you execute a command with a filter set, and you wonder why the command you just ran didn't show up in the History. |
+| Use multiline selection | `True` | Specifies whether you can select a multi-line statement in History with a single click. Also enables up/down arrow navigation in the Interactive Windows by statements rather than lines. |
 
-When set to `External`, you will see help rendered using your default web browser.
+## HTML
 
-### History
+| Option | Default value | Description | 
+| --- | --- | --- |
+| HTML Pages browser | `External` | Determines where content such as a `ggvis` plot, or a `shiny` application is rendered. `Internal` shows HTML output within a tool window in Visual Studio; `External` displays HTML output in your default browser. | 
 
-**Always save history** Controls whether RTVS writes your command history to a `.RHistory` file in your working directory whenever the project is closed. Note that this happens even if you don't save your project before you exit.
+## Logging
 
-**Reset search filter** The History window can filter your command history to show only the commands that substring match against the filter term in the R History dialog. This setting determines whether to reset your History search filter whenever you run a new command, or switch to a new project, which will trigger the load of a different `.RHistory` file. The default setting of `Yes` minimizes surprise when you execute a command with a filter set, and you wonder why the command you just ran didn't show up in the History.
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Log events | `Normal` | Controls the verbosity of the logging used for RTVS diagnostics. The default setting of `Normal` creates a log file in your `TEMP` directory. When set to `Traffic`, RTVS logs all commands, and responses in your session. These log files never leave your machine, but may be helpful for diagnosing problems in RTVS. |
 
-**Use multiline selection** It is quite common to execute statements that span several lines in the Interactive Window. The default setting of `Yes` will let you single click a multi-line statement in History to select it.
+## Markdown
 
-### HTML
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Markdown preview browser | `External` | Determines where RMarkdown HTML output is displayed. `Internal` shows RMarkdown HTML document within a tool window in Visual Studio; `External` displays RMarkdown HTML using your default browser. | 
 
-**HTML Pages browser** When viewing content such as a `ggvis` plot, or a `shiny` application, the output will be rendered in a web browser. The default setting of `Internal` will show your HTML output within a tool window in Visual Studio. When set to `External`, you will see your HTML output rendered using your default web browser.
+## R Engine
 
-### Logging
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Code page | `(OS Default)` | Sets the code page (locale) for R. By default is uses the underlying locale of the operating system. | 
+| CRAN Mirror | `(Use .Rprofile)` | Sets the default CRAN mirror for package installations. The default setting of `Use .Rprofile` respects the CRAN Mirror settings in your `.RProfile` file. You can override this by selecting one of the listed CRAN mirrors in the drop-down list. |
+| Working directory | user-specific folder | Sets is the current working directory, which is typically set whenever a project is opened. |
 
-**Log events** This setting controls the verbosity of the logging used for RTVS diagnostics. The default setting of `Normal` creates a log file in your TEMP directory. When set to `Traffic`, RTVS logs all commands, and responses in your session. These log files never leave your machine, but may be helpful for diagnosing problems in RTVS.
+## Workspace
 
-### Markdown
-
-**Markdown preview browser** When viewing RMarkdown HTML output, the defaultsetting of `Internal` will show your RMarkdown HTML document within a tool window in Visual Studio. When set to `External`, you will see your RMarkdown HTML document rendered using your default web browser.
-
-### R Engine
-
-**Code page** The default setting of `OS Default` will instruct R to use the default OS locale. You can use the dropdown to change the locale setting to a different local as well.
-
-**CRAN Mirror** The default setting of `Use .Rprofile` will respect the CRAN Mirror settings in your `.RProfile` file. You can override this setting by selecting one of the listed CRAN mirrors in the dialog.
-
-**Working directory** This is the current working directory, and is typically set whenever a project is opened.
-
-### Workspace
-
-**Load workspace when project opens** The default setting of `No` disables loading of the session data from the `.RData` file into the global environment when the project is opened.
-
-**Prompt to save workspace on reset** The default setting of `No` disables prompting of saving your workspace when you click on the Reset button in the Interactive Window.
-
-**Save workspace when project closes** The default setting of `No` disables saving the global environment to the `.RData` file when the project is closed.
-
-**Show confirmation dialog before switching workspaces** The default setting of `No` disables prompting the user for confirmation when switching between different workspaces.
+| Option | Default value | Description | 
+| --- | --- | --- |
+| Load workspace when project opens | `No` | Setting to `Yes` enables loading of session data from the `.RData` file into the global environment when the project is opened. |
+| Prompt to save workspace on reset | `Yes` | Setting to `No` disables prompting of saving your workspace when you click on the Reset button in the Interactive Window. |
+| Save workspace when project closes | `No` | Setting to `Yes` enables saving the global environment to the `.RData` file when the project is closed. |
+| Show confirmation dialog before switching workspaces | `Yes` | Setting tp `No` disables prompting the user for confirmation when switching between different workspaces. |
  

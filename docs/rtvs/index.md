@@ -132,7 +132,7 @@ eliminating the need for capital expenditures to get the computing resources tha
 
 When you are using a remote workspace, all editing and visualization are done using RTVS on your local computer. All code execution occurs on the remote computer. This ensures that the computing resources on your remote computer are totally dedicated to running your R code, without the overhead of running an IDE. 
 
-For more details, see the [workspaces documentation](remote-workspaces.md).
+For more details, see the [workspaces documentation](workspaces-remote.md).
 
 
 ## Popular R Extensions
