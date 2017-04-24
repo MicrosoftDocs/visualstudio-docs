@@ -45,6 +45,11 @@ To script the installation of the certificates, you can run a command like this 
 ```batch
 "C:\Program Files (x86)\Windows Kits\8.1\bin\x86\certmgr.exe" -all -add -c \\server\share\VS2017\certificates\manifestSignCertificates.p12 -s -r localMachine root
 ```
+Or run this PowerShell script.  Ensure that PowerShell is run as an administrator.
+```batch
+$certificatesPath = [System.IO.Path]::GetDirectoryName($myInvocation.MyCommand.Definition)
+Get-ChildItem -Path "$certificatesPath" -Filter *.p12 | Import-PfxCertificate -CertStoreLocation cert:\localMachine\my
+```
 
 # TODO: verify this works.  DougHall will update this if there is a better/easier way to do this.
 
