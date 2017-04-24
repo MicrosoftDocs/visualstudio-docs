@@ -61,7 +61,7 @@ vs_enterprise.exe --installPath C:\desktopVS ^
 
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 ```cmd
-vs_community.exe --layout C:\VS2017
+vs_community.exe --layout C:\VS2017 ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --add Microsoft.VisualStudio.Workload.NetWeb ^
