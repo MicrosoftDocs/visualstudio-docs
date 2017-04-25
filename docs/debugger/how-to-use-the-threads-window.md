@@ -108,32 +108,28 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 #### To discover the thread marker  
 
-1. Open the Threads window by choosing **Debug / Windows / Threads**.
-
-    ![Threads Window](../debugger/media/dbg-threads-window.png "ThreadsWindow")
-
-2.  Right-click in the **Threads** window, then click **Show Threads in Source**.  
+1.  In the Debug Toolbar, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker"). 
   
-3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.  
+2.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.  
   
-4.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
+3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
 
     > [!TIP]
     > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** fter right-clicking on the **Name** column in the thread row.
   
-5.  Right-click the thread marker to see the available options on the shortcut menu. 
+4.  Right-click the thread marker to see the available options on the shortcut menu. 
     
   
 ## Flagging and Unflagging Threads  
 You can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and to ignore threads that you do not care about.  
   
-#### To flag threads  
-  
+#### To flag threads   
+
 1.  On **View** menu, point to **Toolbars**.  
   
-     Make sure that the **Debug Location** toolbar is selected.  
-  
-2.  Go to the **Debugging Location** toolbar and click the **Thread** list.  
+    Make sure that the **Debug Location** toolbar is selected.
+
+2.  Go to the **Debug Location** toolbar and click the **Thread** list.  
   
     > [!NOTE]
     >  You can recognize this toolbar by three prominent lists: **Process**, **Thread**, and **Stack Frame**.  
@@ -150,7 +146,11 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 7.  Click the **Show Only Flagged Threads** icon.  
   
-    Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)   
+    Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)
+
+8. Open the Threads window by choosing **Debug / Windows / Threads**.
+
+    ![Threads Window](../debugger/media/dbg-threads-window.png "ThreadsWindow")  
   
     In the **Threads** window, the flagged thread has a prominent red flag icon attached to it.
 
