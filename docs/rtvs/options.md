@@ -43,7 +43,16 @@ Settings are access through the **R Tools > Options** menu, or through **Tools >
 The following sections describe the different options available on this page..
 
 > [!Note]
-> When accessing options through the general **Tools > Options** menu, you may need to select the **Show all options** box at the bottom for the **R Tools** page to appear.
+> When accessing options through the general **Tools > Options** menu, you may need to select the **Show all settings** box at the bottom for the **R Tools** page to appear.
+
+<a name="data-scientist-layout"</a>
+
+There is also a special menu item **R Tools > Data Science Settings** which configures the Visual Studio IDE with a layout that's optimized for the needs of data scientists. Specifically, this option opens the [Interactive](interactive-repl.md), [Variable Explorer](variable-explorer.md), and [Workspaces](workspaces.md) windows:
+
+![Data scientist window layout in Visual Studio](media/installation-data-scientist-layout-result.png)
+
+> [!Important]		
+> To revert to other Visual Studio settings later on, first use the **Tools > Import and Export Settings** command, selecting **Export selected environment settings**, and specifying a file name. To restore those settings, use the same command and select **Import selected environment settings**. You can also use the same commands if you change the data scientist layout and want to return to it later on, rather than using the **Data Science Settings** command directly.
 
 ## Debugging
 

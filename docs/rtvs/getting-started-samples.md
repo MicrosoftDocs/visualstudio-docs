@@ -42,7 +42,6 @@ This collection of samples will get you started on R, [Microsoft R Server](http:
 
 At the top level, **A First Look at R** gives a gentle introduction for newcomers to R. **MRS and Machine Learning** gives examples of how to use R and Microsoft R Server for machine learning.
 
-
 ## What's special about Microsoft R Open and Microsoft R Server?
 
 [Microsoft R Open](http://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
