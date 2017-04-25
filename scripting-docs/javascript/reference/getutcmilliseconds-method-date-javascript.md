@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCMilliseconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "milliseconds"
@@ -46,7 +47,7 @@ dateObj.getUTCMilliseconds()
 ## Example  
  The following example illustrates the use of the `getUTCMilliseconds` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getUTCMilliseconds());  
 document.write("<br/>");  

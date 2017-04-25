@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "every method"
@@ -85,7 +86,7 @@ array1.every(callbackfn[, thisArg])
 ## Example  
  The following example illustrates the use of the `every` method.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function CheckIfEven(value, index, ar) {  
     document.write(value + " ");  
@@ -113,7 +114,7 @@ else
 ## Example  
  The following example illustrates the use of the `thisArg` argument, which specifies an object to which the `this` keyword can refer.  
   
-```javascript  
+```JavaScript  
 // Create a function that returns true if the value is  
 // numeric and within range.  
 var checkNumericRange = function(value) {  

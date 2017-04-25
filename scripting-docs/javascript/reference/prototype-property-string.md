@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 437ce478-9c45-45f7-8952-bd71856cfcd8
 caps.latest.revision: 3
@@ -35,7 +36,7 @@ string.prototype
   
  For example, to add a method to the `String` object that returns the value of the last element of the string, declare the function, add it to `String.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function string_last( ){  
     return this.charAt(this.length - 1);  
 }  

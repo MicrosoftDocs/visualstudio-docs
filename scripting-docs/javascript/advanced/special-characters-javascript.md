@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "line terminator character"
@@ -70,7 +71,7 @@ manager: "ghogen"
   
 ### Code  
   
-```javascript  
+```JavaScript  
 document.write('The image path is C:\\webstuff\\mypage\\gifs\\garden.gif.');  
 document.write ("<br />");  
 document.write('The caption reads, "After the snow of \'97. Grandma\'s house is covered."');  
@@ -82,13 +83,13 @@ document.write('The caption reads, "After the snow of \'97. Grandma\'s house is 
   
  In the following code example, the strings are all equivalent. (\uD842\uDFB7 is the workaround method to specify this symbol in previous versions.)  
   
-```javascript  
+```JavaScript  
 "\u{20BB7}"=="𠮷"=="\uD842\uDFB7"  
 ```  
   
  RegExp now includes a /u flag to enable full support for astral code points. For example, in the following code example, the /u flag in the regular expression enables matching astral code points (the period matches any character in the provided string).  
   
-```javascript  
+```JavaScript  
 "𠮷".match(/./u)[0].length == 2  
 ```  
   
@@ -99,14 +100,14 @@ document.write('The caption reads, "After the snow of \'97. Grandma\'s house is 
   
  The String object now includes two new methods, String.codePointAt and String.fromCodePoint, to support astral code points. For example, you can use codePointAt to return the code point equivalent for the "𠮷" symbol.  
   
-```javascript  
+```JavaScript  
 "𠮷".codePointAt(0) == 0x20BB7  
   
 ```  
   
  You can also iterate code points using the `for…of` statement.  
   
-```javascript  
+```JavaScript  
 for(var c of "𠮷") {  
     console.log(c);  
 }  

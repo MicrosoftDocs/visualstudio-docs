@@ -46,18 +46,18 @@ By convention, PTVS will identify tests are as methods whose names start with "t
 
 1. This creates a test1.py file with code that imports the standard `unittest` module, derives a test class from `unittest.TestCase`, and invokes `unittest.main()` if you run the script directly:
 
-    ```python
-        import unittest
+  ```python
+  import unittest
 
-        class Test_test1(unittest.TestCase):
-            def test_A(self):
-                self.fail("Not implemented")
+  class Test_test1(unittest.TestCase):
+      def test_A(self):
+          self.fail("Not implemented")
 
-        if __name__ == '__main__':
-            unittest.main()
-    ```
+  if __name__ == '__main__':
+      unittest.main()
+  ```
 
-1. Save the file if necessary, then open Test Explorer with the **Text > Windows > Text Explorer** menu command.
+1. Save the file if necessary, then open Test Explorer with the **Test > Windows > Test Explorer** menu command.
 
 1. Test Explorer will search your project for tests and display them as shown below. Double-clicking a test opens its source file.
 

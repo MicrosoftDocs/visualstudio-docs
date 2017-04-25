@@ -13,6 +13,7 @@ f1_keywords:
   - "sort"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Sort method"
@@ -56,7 +57,7 @@ arrayobj.sort(sortFunction)
 ## Example  
  The following example shows how to use the `sort` method.  
   
-```javascript  
+```JavaScript  
 var a = new Array(4, 11, 2, 10, 3, 1);  
   
 var b = a.sort();  

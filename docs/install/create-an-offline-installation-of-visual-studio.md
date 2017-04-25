@@ -2,7 +2,7 @@
 title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to create an offline installer for of Visual Studio."
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "04/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -50,6 +50,8 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 |Visual Studio Professional |**vs_professional.exe**|  
 |Visual Studio Community |**vs_community.exe**|
 
+Other supported bootstrappers include vs_buildtools.exe, vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
+
 ## Create an offline installation folder
 To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
@@ -59,7 +61,7 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
 - For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
 
-For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline- installer) section on this page.
+For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline-installer) section on this page.
 
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
@@ -87,13 +89,12 @@ You might want to update your offline installer at a later date. Here's how.
 * To refresh your offline installation folder so that it includes the latest updates, run the ```--layout``` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.
 
 
-If you want to update your offline installation, run the `--layout` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran `--layout` will be downloaded.
-
 ### How to troubleshoot an offline installer
 Sometimes, things go wrong. Here is a table of known issues and some workarounds that might help.
 
 | Issue       | Item                   | Solution |
 | ----------- | ---------------------- | -------- |
+| You receive an error message from the Visual Studio Installer that says, "Setup completed with warning", and then the Windows Emulator fails to install. | Windows 10 Emulator | Open your offline installation folder for Visual Studio, navigate to the subfolder "Win10_Emulator_10.0.15063,version=10.0.15063.12,chip=x64", and then run EmulatorSetup.exe to install the Windows Emulator. |
 | You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | If you want to include Android SDK (API Level) packages, you must have an internet connection when you create your offline installer. If you are on a restricted network, you must allow access to the following URLs: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |

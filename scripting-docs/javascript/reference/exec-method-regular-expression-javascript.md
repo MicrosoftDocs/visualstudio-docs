@@ -13,6 +13,7 @@ f1_keywords:
   - "exec"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "matching strings"
@@ -50,7 +51,7 @@ rgExp.exec(str)
 ## Example  
  The following example illustrates the use of the `exec` method:  
   
-```javascript  
+```JavaScript  
 function RegExpTest()  
 {  
    var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())  

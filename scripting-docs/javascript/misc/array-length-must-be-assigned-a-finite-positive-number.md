@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5030"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c51c66a4-a543-4e95-b18d-2cfbcb3d1fdd
 caps.latest.revision: 9
@@ -27,7 +28,7 @@ When setting the **length** property of an existing **Array** object, you specif
   
 -   Assign a positive whole number to the length property. There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion). The following example demonstrates the correct way to set the **length** property of an **Array** object.  
   
-    ```javascript  
+    ```JavaScript  
     var my_array = new Array();  
     my_array.length = 99;  
     ```  

@@ -1,7 +1,7 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "04/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,16 +35,16 @@ translation.priority.mt:
 Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this new release!
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
 
 Here is a high-level recap of the changes we've made:
 
 * **Performance and productivity**. We have focused not only on new and modern mobile, cloud, and desktop development capabilities, but we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **Redefined fundamentals**. A new setup experience means that you can install more quickly and install what you want when you need it. Visual Studio start faster, whether you want to load large solutions and projects, or work on folders of code, or even a single file of code. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
 * **Cloud app development with Azure**. A built-in suite of Azure tools that enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
-* **Mobile app development**. Visual Studio with Xamarin makes it faster and easier than ever for you to build, connect, and tune mobile apps for Android, iOS, and Windows, built with C#. You can also choose to develop mobile apps in JavaScript or TypeScript with Apache Cordova, or with Visual C++ cross-platform library development tools.
+* **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 
-And here are more details on some of our most notable changes.
+Here are more details on some of our most notable changes.
 
 ## Performance improvements
 
@@ -118,6 +118,21 @@ In Visual Studio Enterprise 2017, live unit testing gives you live unit test res
 
 ![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
 
+For more information, see the [Live Unit Testing in Visual Studio 2017 Enterprise](https://blogs.msdn.microsoft.com/visualstudio/2017/03/09/live-unit-testing-in-visual-studio-2017-enterprise/) blog post.
+
+### DevOps
+#### Redgate Data Tools:
+To extend DevOps capabilities to SQL Server database development, Redgate Data Tools are now available in the following editions of Visual Studio 2017.
+
+Included with Visual Studio 2017 Enterprise:
+- [Redgate ReadyRoll Core](http://www.red-gate.com/products/sql-development/readyroll/entrypage/microsoft-and-readyroll?utm_source=microsoft&utm_medium=link&utm_campaign=readyroll&utm_term=docs-newinvs) helps you develop migration scripts, manage database changes using source control, and safely automate deployments of SQL Server database changes alongside applications changes.
+- [Redgate SQL Prompt Core](http://www.red-gate.com/products/sql-development/sql-prompt/entrypage/microsoft-and-sql-prompt?utm_source=microsoft&utm_medium=link&utm_campaign=sqlprompt&utm_term=docs-newinvs) helps you write SQL more quickly and accurately with the help of intelligent code completion. SQL Prompt autocompletes database and system objects and keywords, and offers column suggestions as you type. This results in cleaner code and fewer errors because you don’t have to remember every column name or alias.
+
+Included with all editions of Visual Studio 2017:
+- [Redgate SQL Search](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs) increases your productivity by helping you quickly find SQL fragments and objects across multiple databases.
+
+To learn more, see our [Redgate Data Tools in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/) blog post.
+
 ### Visual Studio IDE enhancements
 #### Interact with Git:
 When you are working with a project in Visual Studio, you can setup and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
@@ -125,20 +140,24 @@ When you are working with a project in Visual Studio, you can setup and quickly 
 ![Visual Studio 2017 interact with Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
 #### View and navigate code with Structure Visualizer:
-The Structure Visualizer draws structure guide lines (a.k.a indent guides) on your code. You can use these to visualize and discover what block of code you’re in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
+The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use these to visualize and discover what block of code you’re in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
-#### Experience an improved Go To:
-Go To (Ctrl + , or Ctrl + T) is a fast, complete search that lets you quickly find files, types, methods, and other kinds of symbols in your code. It gives you a one-stop way to go to any kind of item you need, which is helpful when you are working in large code bases.
+#### Experience improved navigation controls:
+We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-![Improved Go To](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Navigate To feature")
+* **Go To** (Ctrl+F12) &ndash; navigate from any base type or member to its various implementations.
 
-#### Use Find All References
+* **Go To All** (Ctrl+T or Ctrl+,) &ndash; navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, “f searchTerm” for files, “t searchTerm” for types, etc.).
 
-Find all references (Shift+F12) now helps you get around quickly even in really complex codebases. It provides advanced grouping, filtering, sorting, and searching within your results. In C#, your results are colorized just like they are in the editor. Now you can get to your references and that line of code you need with confidence.
+ ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
-![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
+* **Find All References (Shift+F12)** &ndash; with syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also “lock” results so that you can continue to find other references without losing your original results.
+
+ ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
+
+* **Indent Guides** &ndash; dotted, gray vertical lines act as landmarks in code to provide context within your frame of view. You may recognize these from the popular Productivity Power Tools.
 
 For more information about our new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 

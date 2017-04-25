@@ -1,17 +1,13 @@
 ---
 title: "Just-In-Time Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/08/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "C++"
-  - "FSharp"
-  - "VB"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
@@ -39,7 +35,7 @@ translation.priority.mt:
 # Just-In-Time Debugging in Visual Studio
 Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.
 
-Just-In-Time debugging works for Windows desktop apps. It does not work for Windows Universal apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.
+Just-In-Time debugging works for Windows desktop apps. It does not work for Universal Windows Apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.
 
 ## <a name="BKMK_Scenario"></a> Did the Just-in-Time debugger dialog box appear when trying to run an app?
 
@@ -49,9 +45,9 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
 1. (Advanced users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
 
-2. If you are running a web app in Internet Explorer, disable script debugging.
+2. If you are running a web app, disable script debugging.
 
-    Disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and Internet Explorer).
+    Fpr Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 
@@ -121,7 +117,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
     </configuration>  
     ```  
   
-3.  In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](/visual-cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/visual-cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:  
+3.  In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:  
   
     ```  
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];   
@@ -132,7 +128,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 ## <a name="BKMK_Using_JIT">Use Just-In-Time Debugging  
  This section shows what happens when an executable throws an exception.  
   
- You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio 2015 Community Edition](https://www.microsoft.com/en-us/download/details.aspx?id=48146).  
+ You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).  
   
  When you install Visual Studio, Just-In-Time debugging is enabled by default.  
   
@@ -142,7 +138,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
  When the project opens in Visual Studio, open the Program.cs file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:  
   
-```CSharp  
+```C#  
 static void Main(string[] args)  
 {  
     Console.WriteLine("we will now throw a NullReferenceException");  
@@ -174,7 +170,7 @@ static void Main(string[] args)
   
  ![JustInTimeDialog](../debugger/media/justintimedialog.png "JustInTimeDialog")  
   
- Under **Possible Debuggers**, you should see that the **New instance of Microsoft Visual Studio 2015** line is selected. If it isn't selected already, select it now.  
+ Under **Possible Debuggers**, you should see that the **New instance of Microsoft Visual Studio <available version>** line is selected. If it isn't selected already, select it now.  
   
  At the bottom of the window, under **Do you want to debug using the selected debugger?**, click **Yes**.  
   

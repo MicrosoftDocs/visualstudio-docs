@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0d486ed3-72eb-4af2-b0a6-ae727c588883
 caps.latest.revision: 10
@@ -23,7 +24,7 @@ Sets a value or an array of values.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 float32Array.set(index, value);  
 float32Array.set(array, offset);  
   
@@ -50,7 +51,7 @@ float32Array.set(array, offset);
 ## Example  
  The following example shows how to set the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

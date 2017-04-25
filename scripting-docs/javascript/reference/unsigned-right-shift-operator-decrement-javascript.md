@@ -13,6 +13,7 @@ f1_keywords:
   - ">>>"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "unsigned right shift operator (>>>)"
@@ -46,7 +47,7 @@ result = expression1 >>> expression2
 ## Remarks  
  The **>>>** operator shifts the bits of *expression1* right by the number of bits specified in *expression2*. Zeroes are filled in from the left. Digits shifted off the right are discarded. For example:  
   
-```javascript  
+```JavaScript  
 var temp  
 temp = -14 >>> 2  
 ```  

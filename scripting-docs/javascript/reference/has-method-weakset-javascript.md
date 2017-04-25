@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: e24f0876-26bd-4007-b12a-360bb6fa0951
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Returns `true` if the `WeakSet` contains the specified element.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.has(obj)  
 ```  
   
@@ -40,7 +41,7 @@ setObj.has(obj)
 ## Example  
  The following example shows how to add members to a `WeakSet` and then check whether the set contains a specific member.  
   
-```javascript  
+```JavaScript  
 var ws = new WeakSet();  
   
 var str = new String("Thomas Jefferson");  

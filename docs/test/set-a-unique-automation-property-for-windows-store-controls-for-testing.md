@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9bdd74ff-2534-4fc7-a5c3-a77bf7843037
 caps.latest.revision: 10
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
@@ -213,4 +213,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 ```  
   
 ## See Also  
- [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
+ [Test Windows UWP and 8.1 Store Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)

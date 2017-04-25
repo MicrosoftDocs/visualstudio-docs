@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getOwnPropertyNames method [JavaScript]"
@@ -26,7 +27,7 @@ Returns the names of the own properties of an object. The own properties of an o
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.getOwnPropertyNames(object)  
 ```  
   
@@ -48,7 +49,7 @@ Object.getOwnPropertyNames(object)
 ## Example  
  The following example creates an object that has three properties and a method. It then uses the `getOwnPropertyNames` method to obtain the own properties (including the method) of the object.  
   
-```javascript  
+```JavaScript  
 function Pasta(grain, width, shape) {  
     // Define properties.  
     this.grain = grain;  
@@ -73,7 +74,7 @@ document.write (arr);
 ## Example  
  The following example displays the names of properties that start with the letter 's' in a **spaghetti** object constructed with the **Pasta** constructor.  
   
-```javascript  
+```JavaScript  
 function Pasta(grain, size, shape) {  
     this.grain = grain;   
     this.size = size;   

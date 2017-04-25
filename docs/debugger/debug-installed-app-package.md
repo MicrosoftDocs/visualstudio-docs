@@ -1,5 +1,5 @@
 ---
-title: "Debug an Installed UWP App Package | Microsoft Docs"
+title: "Get started debugging an installed app package (UWP) | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "12/09/2016"
 ms.reviewer: ""
@@ -10,6 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.installedapppackagelauncher"
+  - "vs.debug.remote.connection"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -39,7 +40,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debug an Installed App Package in Visual Studio (UWP)
+# Get started debugging an installed app package in Visual Studio (UWP)
 
 You can debug any installed app package by selecting **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**. This debugging method is available for Universal Windows Apps (UWP) on these devices:
 

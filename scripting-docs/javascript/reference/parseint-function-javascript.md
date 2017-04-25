@@ -13,6 +13,7 @@ f1_keywords:
   - "parseInt"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "parseInt method"
@@ -41,7 +42,7 @@ parseInt(numString, [radix])
 ## Remarks  
  The `parseInt` function returns an integer value equal to the number contained in `numString`. If no prefix of `numString` can be successfully parsed into an integer, `NaN` (not a number) is returned.  
   
-```javascript  
+```JavaScript  
 parseInt("abc");     // Returns NaN.  
 parseInt("12abc");   // Returns 12.  
 ```  

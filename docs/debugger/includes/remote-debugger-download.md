@@ -18,8 +18,8 @@ translation.priority.ht:
 
     |Version|Link|Notes|
     |-|-|-|
-    |Visual Studio 2017 RC|[Remote Tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017-rc)|Always download the version matching your device operating system (x86, x64, or  ARM version)|
-    |Visual Studio 2015 Update 3|[Remote tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2015-update-3)|Always download the version matching your device operating system (x86, x64, or  ARM version)|
+    |Visual Studio 2017|[Remote Tools](https://www.visualstudio.com/downloads/#remote-tools-for-visual-studio-2017)|Always download the version matching your device operating system (x86, x64, or  ARM version). For older browsers, use these direct links: [Remote Tools (x64)](https://go.microsoft.com/fwlink/?LinkId=746570&clcid=0x409) and [Remote Tools (x86)](https://go.microsoft.com/fwlink/?LinkId=746569&clcid=0x409).|
+    |Visual Studio 2015 Update 3|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group or you can just sign in with a valid Visual Studio subscription. Then re-open the link if necessary.|
     |Visual Studio 2015 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group or you can just sign in with a valid Visual Studio subscription. Then re-open the link if necessary.|
     |Visual Studio 2013|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
     |Visual Studio 2012|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
@@ -37,13 +37,13 @@ If you try to copy the remote debugger (msvsmon.exe) to the remote computer and 
 
 ### (Optional) To run the remote debugger from a file share
 
-You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio 2015 Community, Professional, or Enterprise already installed. For many scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help / Usage** in the remote debugger).
+You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help / Usage** in the remote debugger).
 
-1. Find **msvsmon.exe** in the directory matching your version of Visual Studio. For Visual Studio 2015:
+1. Find **msvsmon.exe** in the directory matching your version of Visual Studio. For Visual Studio 2017:
 
-      **Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x86\msvsmon.exe**
+      **Program Files\Microsoft Visual Studio 15.0\Common7\IDE\Remote Debugger\x86\msvsmon.exe**
       
-      **Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe**
+      **Program Files\Microsoft Visual Studio 15.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe**
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 

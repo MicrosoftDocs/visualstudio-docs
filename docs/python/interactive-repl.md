@@ -1,7 +1,7 @@
 ---
-title: "Interactive REPL with Python Tools for Visual Studio | Microsoft Docs"
+title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.ht:
 
 # Working with the Python Interactive Window
 
-Python Tools for Visual Studio (PTVS) provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which is what you also see if you just enter `python.exe` on the command line. The interactive window lets you to enter arbitrary Python code and see immediate results, which helps you learn and experiment with APIs, and to interactively develop working code to include in your projects.
+Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with `python.exe` on the command line. The interactive window (opened with the **View > Other Windows > &lt;environment&gt; Interactive** menu commands) lets you to enter arbitrary Python code and see immediate results, which helps you learn and experiment with APIs, and to interactively develop working code to include in your projects.
 
 ![Python interactive window](media/interactive-window.png)
 
-PTVS has a number of REPL modes to choose from:
+Visual Studio has a number of Python REPL modes to choose from:
 
 | REPL | Description | Editing | Debugging | Images |
 | --- | --- | --- | --- | --- |
@@ -47,7 +47,7 @@ PTVS has a number of REPL modes to choose from:
 
 This topic describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
 
-For an introduction to the Python interactive Window, see [Getting Started with PTVS, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
+For an introduction to the Python interactive Window, see [Getting Started with Python in Visual Studio, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
 
 > [!VIDEO https://www.youtube.com/embed/yc2CROtTsC0]
 
@@ -67,7 +67,7 @@ Third, you can open an interactive window on the starup file in your project, or
 
 ![Execute Project in Python Interactive menu](media/interactive-execute-project.png)
 
-Finally, you can select code in file and use the [send code to interactive command](#send-code-to-interactive) command described below.
+Finally, you can select code in file and use the [send code to interactive command](#send-code-to-interactive-command) command described below.
 
 ## Interactive window options
 
@@ -90,7 +90,7 @@ The exception is when a statement ends in a colon, as with the `for` statement a
 > [!Tip]
 > The interactive window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
 
-The interactive window is a great way to try out a new library. You can import the library, inspect the sub packages, classes, and functions.  Python can tell you all of this info through its `help()` function.  Also, Python Tools for Visual Studio (PTVS) gives you suggestions and documentation based on its code modeling used in the editor, which it does without needing to execute the library.  When you do execute code, PTVS uses information from the Python runtime to improve PTVS suggestions.  
+The interactive window is a great way to try out a new library. You can import the library, inspect the sub packages, classes, and functions.  Python can tell you all of this info through its `help()` function.  Also, Python support in Visual Studio gives you suggestions and documentation based on its code modeling used in the editor, which it does without needing to execute the library.  When you do execute code, Visual Studio uses information from the Python runtime to improve these suggestions.  
 
 <a name="meta-commands"></a>
 The interactive window also supports several meta-commands. All meta-commands start with `$`, and you can type `$help` to get a list of the meta-commands and `$help <command>` to get usage details for a specific command.

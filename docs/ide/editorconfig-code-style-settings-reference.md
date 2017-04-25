@@ -1,5 +1,5 @@
 ---
-title: ".NET Code Style Settings For Editorconfig | Microsoft Docs"
+title: ".NET Code Style Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# .NET Code Style Settings For Editorconfig
+# .NET Code Style Settings For EditorConfig
 
 ## Possible values
 
@@ -476,7 +476,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
-| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value out int i) {...}`
+| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
 | False | Prefer `out` variables to be declared explicitly.| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
 
 #### Example editorconfig file:

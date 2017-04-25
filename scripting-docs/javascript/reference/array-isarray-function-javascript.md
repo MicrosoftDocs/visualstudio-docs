@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "isArray function [JavaScript]"
@@ -40,7 +41,7 @@ Array.isArray(object)
 ## Example  
  The following example illustrates the use of the `Array.isArray` function.  
   
-```javascript  
+```JavaScript  
 var ar = [];  
 var result = Array.isArray(ar);  
 // Output: true  

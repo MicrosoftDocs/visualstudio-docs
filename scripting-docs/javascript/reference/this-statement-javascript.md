@@ -13,6 +13,7 @@ f1_keywords:
   - "this_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "this statement"
@@ -40,7 +41,7 @@ this.property
 ## Example  
  In the following example, **this** refers to the newly created Car object, and assigns values to three properties:  
   
-```javascript  
+```JavaScript  
 function Car(color, make, model){  
    this.color = color;  
    this.make = make;  
@@ -52,7 +53,7 @@ function Car(color, make, model){
   
  In the following code (for Internet Explorer 9 and later), the event handler prints the string version of a button that has an ID of "clicker".  
   
-```javascript  
+```JavaScript  
 document.getElementById("clicker").addEventListener("click", eventHandler, false);  
   
         function eventHandler(ev) {  

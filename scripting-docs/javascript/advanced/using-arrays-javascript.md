@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript]"
@@ -29,7 +30,7 @@ Arrays in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] are
 ## Addressing Arrays  
  You address arrays by using brackets ([]), as shown in the following example. The brackets enclose either a numeric value or an expression that evaluates to a whole number.  
   
-```javascript  
+```JavaScript  
 var entryNum = 5;  
   
 sample = new Array();  
@@ -48,13 +49,13 @@ document.write (sample[entryNum]);
 ## Objects as Associative Arrays  
  You generally use the dot operator "." to access an object's properties. For example,  
   
-```javascript  
+```JavaScript  
 myObject.aProperty  
 ```  
   
  In this case the property name is an identifier. You can also access an object's properties by using the index operator ([]). In this case you are treating the object as an *associative array* in which data values are associated with strings. For example,  
   
-```javascript  
+```JavaScript  
 myObject["aProperty"] // Same as above.  
 ```  
   

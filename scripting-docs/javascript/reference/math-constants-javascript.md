@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "LN2 constant [JavaScript]"
@@ -59,7 +60,7 @@ Math constants return constant values that are properties of the `Math` object.
 ## Example  
  The following example illustrates how to use the `Math.PI` constant.  
   
-```javascript  
+```JavaScript  
 var radius = 3;  
 var area = Math.PI * radius * radius;  
 document.write(area);  

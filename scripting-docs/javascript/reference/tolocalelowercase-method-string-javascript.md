@@ -13,6 +13,7 @@ f1_keywords:
   - "toLocaleLowerCase"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLocaleLowerCase method"

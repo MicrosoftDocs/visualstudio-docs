@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "now method"
@@ -41,7 +42,7 @@ Date.now()
 ## Example  
  The following example illustrates the use of the `now` method.  
   
-```javascript  
+```JavaScript  
 var start = Date.now();  
 var response = prompt("What is your name?", "");  
 var end = Date.now();  

@@ -13,6 +13,7 @@ f1_keywords:
   - "labeled_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "continue statement"
@@ -48,7 +49,7 @@ Provides an identifier for a statement.
 ## Example  
  In the following code, the **continue** statement refers to the **for** loop that is preceded by the `Inner:` statement. When `j` is 24, the **continue** statement causes that **for** loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.  
   
-```javascript  
+```JavaScript  
 Outer:  
 for (i = 1; i <= 10; i++) {  
    document.write ("<br />");  

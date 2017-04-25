@@ -62,7 +62,7 @@ Also see the following scenario-specific debugging topics:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections. For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
 
-A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. This will launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options).
+A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. This will launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). If for some reason you don't have a startup file set, however, you'll see a Python output window briefly appear and disappear. In this case, right click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Python Environments](python-environments.md).
@@ -100,7 +100,7 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 ### Inspecting and modifying values
 
-When stopped in the debugger, you can inspect and modify the values of variables. You can also use the Watch window to monitor individual variables as well as custom expressions. (See [Inspect Variables](../debugger/getting-started-with-the-debugger.md#BKMK_Inspect_Variables) for general details.)
+When stopped in the debugger, you can inspect and modify the values of variables. You can also use the Watch window to monitor individual variables as well as custom expressions. (See [Inspect Variables](../debugger/getting-started-with-the-debugger.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
 To view a value using DataTips, simply hover the mouse over any variable in the editor. You can click on the value to change it:
 

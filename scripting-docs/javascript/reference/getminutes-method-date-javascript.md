@@ -13,6 +13,7 @@ f1_keywords:
   - "getMinutes"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "GetMinutes method"
@@ -45,7 +46,7 @@ dateObj.getMinutes()
 ## Example  
  The following example shows how to the `getMinutes` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getMinutes());  
 document.write("<br/>");  

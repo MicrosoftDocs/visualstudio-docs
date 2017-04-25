@@ -13,6 +13,7 @@ f1_keywords:
   - "Number_JavaScript"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Number object"

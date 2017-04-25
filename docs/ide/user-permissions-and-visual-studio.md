@@ -49,8 +49,8 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 ||Acquiring a developer license for [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|[Get a developer license (Windows Store apps)](http://go.microsoft.com/fwlink/?LinkID=241313)|  
 |Toolbox|Adding classic COM controls to the **Toolbox**.|[Using the Toolbox](../ide/using-the-toolbox.md)|  
 |Add-ins|Installing and using add-ins that were written by using classic COM in the IDE.|[Creating Add-ins and Wizards](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|  
-|Building|Using post-build events that register a component.|[Understanding Custom Build Steps and Build Events](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
-||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
+|Building|Using post-build events that register a component.|[Understanding Custom Build Steps and Build Events](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
+||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
 |Debugging|Debugging applications that run with elevated permissions.|[Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)|  
 ||Debugging applications that a run under a different user account, such as ASP.NET websites.|[Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)|  
 ||Debugging in Zone for XAML Browser Applications (XBAP).|[WPF Host (PresentationHost.exe)](http://msdn.microsoft.com/Library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|  
