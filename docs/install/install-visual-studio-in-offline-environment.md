@@ -37,21 +37,23 @@ translation.priority.mt:
 * For details, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 
 ## Install certificates needed by VS Setup
-VS Setup will only install content that is trusted.  It checks Authenticode signatures of the content being downloaded and verifies it is trusted before installing it.  Machines with internet access will automatically download and install any certificates needed to verify file signatures.  However, if you are operating in an offline environment, this is not possible.  For users in that environment, you need to ensure that the needed certificates are already installed.  When creating a layout, the required certificates are created in the "certificates" folder.  
+VS Setup will only install content that is trusted.  It checks Authenticode signatures of the content being downloaded and verifies it is trusted before installing it.  Machines with internet access will automatically download and install any certificates necessary to verify file signatures.  However, if you are operating in an offline environment, or on a system with poor internet connectivity, this is not possible.  For users in that environment, you need to ensure that the necessary certificates are already installed.  These certificates are downloaded to the "certificates" folder when a layout is created.  
 
-You can install the certificates by manually double-clicking the certificate file and then clicking thru the certificate manager wizard.  If asked for a password, leave it blank.
+You can install the certificates on the client by manually double-clicking the certificate file and then clicking thru the certificate manager wizard.  If asked for a password, leave it blank.
 
-To script the installation of the certificates, you can run a command like this (repeat similar for all the certificate files):
+To script the installation of the certificates, follow these steps:
+1.  Copy certmgr.exe to the installation share (ex: ```\\server\share\vs2017```). Certmgr.exe is included with the Windows SDK, which can be installed through VS (ex: ```"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"```).
+
+2.  Create a batch file with the following commands:
 ```batch
-"C:\Program Files (x86)\Windows Kits\8.1\bin\x86\certmgr.exe" -all -add -c \\server\share\VS2017\certificates\manifestSignCertificates.p12 -s -r localMachine root
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Time-Stamp PCA" -s -r LocalMachine CA
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
 ```
-Or run this PowerShell script.  Ensure that PowerShell is run as an administrator.
-```batch
-$certificatesPath = [System.IO.Path]::GetDirectoryName($myInvocation.MyCommand.Definition)
-Get-ChildItem -Path "$certificatesPath" -Filter *.p12 | Import-PfxCertificate -CertStoreLocation cert:\localMachine\my
-```
-
-# TODO: verify this works.  DougHall will update this if there is a better/easier way to do this.
+3.  Run the batch file on the client from an administrator command shell or elevated process.
 
 
 ## Install Visual Studio
