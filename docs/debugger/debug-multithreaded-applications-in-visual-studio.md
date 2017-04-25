@@ -76,7 +76,7 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
  Walkthrough that shows how to use the Parallel Tasks and Parallel Stacks windows. 
 
- [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stack-window.md)  
+ [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stacks-window.md)  
  Inspect values and expressions across multiple threads. 
 
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)  
