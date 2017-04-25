@@ -42,7 +42,7 @@ VS Setup will only install content that is trusted.  It checks Authenticode sign
 You can install the certificates on the client by manually double-clicking the certificate file and then clicking thru the certificate manager wizard.  If asked for a password, leave it blank.
 
 To script the installation of the certificates, follow these steps:
-1.  Copy certmgr.exe to the installation share (ex: ```\\server\share\vs2017```). Certmgr.exe is included with the Windows SDK, which can be installed through VS (ex: ```"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"```).
+1.  Copy certmgr.exe to the installation share (ex: ```\\server\share\vs2017```). Certmgr.exe is included with the Windows SDK, which can be installed as an optional component in the “Universal Windows Platform development” workload. (ex: ```"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"```)
 
 2.  Create a batch file with the following commands:
 ```batch
