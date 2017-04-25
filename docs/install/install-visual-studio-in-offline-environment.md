@@ -55,6 +55,9 @@ To script the installation of the certificates, follow these steps:
 ```
 3.  Run the batch file on the client from an administrator command shell or elevated process.
 
+#### “Why are the certificates from the ‘certificates’ folder not installed automatically?”  
+When a signature is verified in an online environment, Windows API’s are used to download and add the certificates to the system.  Verification that the certificate is trusted and allowed via administrative settings occurs during this process.  This verification process cannot occur in most offline environments.  Installing the certificates manually allows the user to ensure the certificates are trusted and meet administrator requirements.
+
 
 ## Install Visual Studio
 * Users can do this by running ```vs_enterprise.exe``` in the offline layout folder.  Then, select the additional workloads and components you want to install and proceed with setup.  All the content will be installed from the offline layout.
