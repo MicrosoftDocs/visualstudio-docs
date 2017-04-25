@@ -37,8 +37,8 @@ translation.priority.mt:
 * For details, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 
 ## Install certificates needed by VS Setup
-VS Setup will only install content that is trusted.  It checks Authenticode signatures of the content being downloaded and verifies it is trusted before installing it.  Machines with internet access will automatically download and install any certificates necessary to verify file signatures.  However, if you are operating in an offline environment, or on a system with poor internet connectivity, this is not possible.  For users in that environment, you need to ensure that the necessary certificates are already installed.  These certificates are downloaded to the "certificates" folder when a layout is created.  
-
+VS Setup will only install content that is trusted.  It checks Authenticode signatures of the content being downloaded and verifies it is trusted before installing it.  Machines with internet access will automatically download and install any certificates necessary to verify file signatures.  However, if you are operating in an offline environment, or on a system with poor internet connectivity, this may not be possible.  For users in that environment, you need to ensure that the necessary certificates are pre-installed.  These certificates are downloaded by the executing machine to the "certificates" folder when creating an offline installation.
+ 
 You can install the certificates on the client by manually double-clicking the certificate file and then clicking thru the certificate manager wizard.  If asked for a password, leave it blank.
 
 To script the installation of the certificates, follow these steps:
