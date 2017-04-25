@@ -1,5 +1,5 @@
 ---
-title: "Debug a multithreaded application in Visual Studio | Microsoft Docs"
+title: "Debug a multithreaded application using the Threads window | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/18/2017"
 ms.reviewer: ""
@@ -36,8 +36,8 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Get started debugging a multithreaded application in Visual Studio using the Threads window
-Visual Studio provides a **Threads** window and other user interface elements to help you debug multithreaded applications. This tutorial shows how to use the **Threads** window. For information on the other tools, see  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md). This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.   
+# Walkthrough: Debug a multithreaded application in Visual Studio using the Threads window
+Visual Studio provides a **Threads** window and other user interface elements to help you debug multithreaded applications. This tutorial shows how to use the **Threads** window and the **Debug Location** toolbar. For information on the other tools, see  [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-applications.md). This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.   
   
 To begin this tutorial, you need a multithreaded application project. Follow the steps listed here to create that project.  
   
