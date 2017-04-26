@@ -1831,7 +1831,7 @@ Also called a "provisional" tab. The preview tab appears on the right side of th
 | Border | `Environment.FileTabProvisionalHoverBorder`<br />(Set to same color as background.) |
 
 #### Document overflow button  
-The document overflow button is present if there are one or more documents open, regardless of whether there is vertical space in the current configuration to fit all document tabs. The document overflow drop-down menu, which is controlled by the [command bar menu](../../misc/shared-colors.md#BKMK_CommandMenus) colors, displays a list of all open documents, both visible and hidden, and the overflow glyph changes depending on whether all the open documents are displayed in the tab channel.  
+The document overflow button is present if there are one or more documents open, regardless of whether there is vertical space in the current configuration to fit all document tabs. The document overflow drop-down menu, which is controlled by the [command bar menu](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus) colors, displays a list of all open documents, both visible and hidden, and the overflow glyph changes depending on whether all the open documents are displayed in the tab channel.  
 
 ![Document overflow button (redline)](../../extensibility/ux-guidelines/media/0303-083_overflowredline.png "0303-083_OverflowRedline")<br />Document overflow button (redline)
 
