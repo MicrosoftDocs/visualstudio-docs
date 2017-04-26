@@ -1,7 +1,7 @@
 ---
 title: "Fonts and Formatting for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -48,14 +48,14 @@ translation.priority.mt:
   
     -   Text in context menus  
   
-    -   Text in an editor adornment, such as light bulb menu text, quick find editor pane, and navigate to pane  
+    -   Text in an editor adornment, like light bulb menu text, quick find editor pane, and navigate to pane  
   
-    -   Label text in dialog boxes, such as Find in Files or Refactor  
+    -   Label text in dialog boxes, like **Find in Files** or **Refactor**  
   
 ### Accessing the environment font  
- In Native or WinForms code, the environment font can be accessed by calling the method **IUIHostLocale::GetDialogFont** after querying the interface from the SID_SUIHostLocale service.  
+ In Native or WinForms code, the environment font can be accessed by calling the method `IUIHostLocale::GetDialogFont` after querying the interface from the `SID_SUIHostLocale` service.  
   
- For Windows Presentation Foundation (WPF), derive your dialog window class from the shell's **DialogWindow** class instead of WPF's **Window** class.  
+ For Windows Presentation Foundation (WPF), derive your dialog window class from the shell's `DialogWindow` class instead of WPF's `Window` class.  
   
  In XAML, the code looks like this:  
   
@@ -75,58 +75,52 @@ code behind:
 internal partial class WebConfigModificationWindow : DialogWindow  
 {  
 }  
-  
 ```  
   
  (Replace `Microsoft.VisualStudio.Shell.11.0` with the current version of the MPF dll.)  
   
- To display the dialog, call "**ShowModal()**" on the class over **ShowDialog()**. **ShowModal()** sets the correct modal state in the shell, ensures the dialog is centered in the parent window, and so on.  
+ To display the dialog, call "`ShowModal()`" on the class over `ShowDialog()`. `ShowModal()` sets the correct modal state in the shell, ensures the dialog is centered in the parent window, and so on.  
   
  The code is as follows:  
   
 ```  
 MyWindow window = new MyWindow();  
 window.ShowModal()  
-  
 ```  
   
- **ShowModal** returns a bool? (nullable Boolean) with the **DialogResult**, which can be used if needed. The return value is true if the dialog was closed with **OK**.  
+ `ShowModal` returns a bool? (nullable Boolean) with the `DialogResult`, which can be used if needed. The return value is true if the dialog was closed with **OK**.  
   
- If you need to display some WPF UI that is not a dialog and is hosted in its own **HwndSource**, such as a popup window or a WPF child window of a Win32/WinForms parent window window, you will need to set the **FontFamily** and **FontSize** on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a HWND). The shell provides resources to which the properties can be bound, like this:  
+ If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
   
 ```  
 <Setter property="FontFamily" Value="{DynamicResource VsFont.EnvironmentFontFamily}" />  
 <Setter property="FontSize" Value="{DynamicResource VsFont.EnvironmentFontSize}" />  
-  
 ```  
   
 ###  <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference  
- Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as “environment font +2” or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (such as Light or Semilight).  
+ Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as "`environment font +2`" or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (like Light or Semilight).  
   
 > **Note: Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**  
   
  To scale the environment font, set the style of the TextBlock or Label as indicated. Each of these code snippets, properly used, will generate the correct font, including the appropriate size and weight variations.  
   
- Where "vsui" is a reference to the namespace Microsoft.VisualStudio.Shell:  
+ Where "`vsui`" is a reference to the namespace `Microsoft.VisualStudio.Shell`:  
   
 ```  
-xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"  
-  
+xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0" 
 ```  
   
 #### 375% Environment font + Light  
  **Appears as:** 34 pt Segoe UI Light  
-  
- **Use for:** (rare) unique branded UI, such as in the Start Page  
-  
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Use for:** (rare) unique branded UI, like in the Start Page
+
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey);  
-  
 ```  
   
  **XAML:** Set the style of the TextBlock or Label as shown.  
@@ -134,151 +128,132 @@ label.SetResourceReference(Label.StyleProperty,  
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey}}">TextBlock: 375 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey}}">Label: 375 Percent Scaling</Label>  
-  
 ```  
   
 #### 310% Environment font + Light  
- **Appears as:** 28 pt Segoe UI Light  
-  
+ **Appears as:** 28 pt Segoe UI Light   
  **Use for:** large signature dialog titles, main heading in reports  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment310PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey);  
-  
+        VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey);    
 ```  
   
  **XAML:** Set the style of the TextBlock or Label as shown.  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment310PercentFontSizeStyleKey}}">TextBlock: 310 Percent Scaling</TextBlock>   
-<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey}}">Label: 310 Percent Scaling</Label>  
-  
+<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey}}">Label: 310 Percent Scaling</Label>     
 ```  
   
 #### 200% Environment font + Semilight  
- **Appears as:** 18 pt Segoe UI Semilight  
-  
+ **Appears as:** 18 pt Segoe UI Semilight    
  **Use for:** subheadings, titles in small and medium dialogs  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label: 
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment200PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey);  
-  
+        VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey);    
 ```  
   
- **XAML:** Set the style of the TextBlock or Label as shown.  
+ **XAML:** Set the style of the TextBlock or Label as shown:  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment200PercentFontSizeStyleKey}}">TextBlock: 200 Percent Scaling</TextBlock>   
-<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey}}">Label: 200 Percent Scaling</Label>  
-  
+<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey}}">Label: 200 Percent Scaling</Label>    
 ```  
   
 #### 155% Environment font  
- **Appears as:** 14 pt Segoe UI  
-  
+ **Appears as:** 14 pt Segoe UI    
  **Use for:** section headings in document well UI or reports  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment155PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironment155PercentFontSizeStyleKey);  
-  
+        VsResourceKeys.LabelEnvironment155PercentFontSizeStyleKey);    
 ```  
   
- **XAML:** Set the style of the TextBlock or Label as shown.  
+ **XAML:** Set the style of the TextBlock or Label as shown:  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment155PercentFontSizeStyleKey}}">TextBlock: 155 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment155PercentFontSizeStyleKey}}">Label: 155 Percent Scaling</Label>  
-  
 ```  
   
 #### 133% Environment font  
- **Appears as:** 12 pt Segoe UI  
-  
+ **Appears as:** 12 pt Segoe UI    
  **Use for:** smaller subheadings in signature dialogs and document well UI  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment133PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey);  
-  
+        VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey);    
 ```  
   
- **XAML:** Set the style of the TextBlock or Label as shown.  
+ **XAML:** Set the style of the TextBlock or Label as shown:  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment133PercentFontSizeStyleKey}}">TextBlock: 133 Percent Scaling</TextBlock>   
-<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey}}">Label: 133 Percent Scaling</Label>  
-  
+<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey}}">Label: 133 Percent Scaling</Label>    
 ```  
   
 #### 122% Environment font  
- **Appears as:** 11 pt Segoe UI  
-  
+ **Appears as:** 11 pt Segoe UI    
  **Use for:** section headings in signature dialogs, top nodes in tree view, vertical tab navigation  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment122PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey);  
-  
+        VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey);    
 ```  
   
- **XAML:** Set the style of the TextBlock or Label as shown.  
+ **XAML:** Set the style of the TextBlock or Label as shown:  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment122PercentFontSizeStyleKey}}">TextBlock: 122 Percent Scaling</TextBlock>   
-<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey}}">Label: 122 Percent Scaling</Label>  
-  
+<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey}}">Label: 122 Percent Scaling</Label>    
 ```  
   
 #### Environment font + bold  
- **Appears as:** bolded 9 pt Segoe UI  
-  
+ **Appears as:** bolded 9 pt Segoe UI    
  **Use for:** labels and subheads in signature dialogs, reports, and document well UI  
   
- **Procedural code:** Where “textBlock” is a previously defined TextBlock and “label” is a previously defined Label.  
+ **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
 ```  
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironmentBoldStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
-        VsResourceKeys.LabelEnvironmentBoldStyleKey);  
-  
+        VsResourceKeys.LabelEnvironmentBoldStyleKey);    
 ```  
   
- **XAML:** Set the style of the TextBlock or Label as shown.  
+ **XAML:** Set the style of the TextBlock or Label as shown:  
   
 ```  
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironmentBoldStyleKey}}"> Bold TextBlock</TextBlock>   
-<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironmentBoldStyleKey}}"> Bold Label</Label>  
-  
+<Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironmentBoldStyleKey}}"> Bold Label</Label>    
 ```  
   
 ### Localizable styles  
  In some instances, localizers will need to modify font styles for different locales, such as removing bolding from text for East Asian languages. To make the localization of font styles possible, those styles must be within the .resx file. The best way to accomplish this and still edit font styles in the Visual Studio form designer is to explicitly set the font styles at design time. Although this creates a full font object and might seem to break the inheritance of parent fonts, only the FontStyle property is used to set the font.  
   
- The solution is to hook the dialog form's **FontChanged** event. In the **FontChanged** event, walk all controls and check if their font is set. If it is set, change it to a new font based on the form's font and the control's previous font style. An example of this in code is:  
+ The solution is to hook the dialog form's `FontChanged` event. In the `FontChanged` event, walk all controls and check if their font is set. If it is set, change it to a new font based on the form's font and the control's previous font style. An example of this in code is:  
   
 ```  
 private void Form1_FontChanged(object sender, System.EventArgs e)  
@@ -314,20 +289,16 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 }  
 ```  
   
- Using this code guarantees that when the form's font is updated, the fonts of controls will update as well. This method should also be called from the form's constructor, because the dialog might fail to get an instance of **IUIService** and the **FontChanged** event will never fire. Hooking **FontChanged** will allow dialogs to dynamically pick up the new font even if the dialog is already open.  
+ Using this code guarantees that when the form's font is updated, the fonts of controls will update as well. This method should also be called from the form's constructor, because the dialog might fail to get an instance of `IUIService` and the `FontChanged` event will never fire. Hooking `FontChanged` will allow dialogs to dynamically pick up the new font even if the dialog is already open.  
   
 ### Testing the environment font  
- To ensure that your UI is using the environment font and respects the size settings, open **Tools > Options > Environment > Fonts and Colors** and select "Environment Font" under the "Show settings for:" dropdown menu.  
+ To ensure that your UI is using the environment font and respects the size settings, open **Tools > Options > Environment > Fonts and Colors** and select "Environment Font" under the "Show settings for:" drop-down menu.  
   
- ![Fonts and Colors page in Tools &#62; Options dialog](../../extensibility/ux-guidelines/media/0201-a_optionsfonts.png "0201-a_OptionsFonts")  
+ ![Fonts and Colors settings in the Tools &gt; Options dialog](../../extensibility/ux-guidelines/media/0201-a_optionsfonts.png "0201-a_OptionsFonts")<br />Fonts and Colors settings in the Tools &gt; Options dialog
   
- **Fonts and Colors settings in the Tools > Options dialog**  
+ Set the font to something very different than the default. To make it obvious which UI does not update, choose a font with serifs (like "Times New Roman") and set a very large size. Then test your UI to ensure it respects the environment. Here is an example using the license dialog:  
   
- Set the font to something very different than the default. To make it obvious which UI does not update, choose a font with serifs (such as "Times New Roman") and set a very large size. Then test your UI to ensure it respects the environment. Here is an example using the license dialog:  
-  
- ![Example of dialog not using the environment font](../../extensibility/ux-guidelines/media/0201-b_wrongfontdialog.png "0201-b_WrongFontDialog")  
-  
- **Example of UI text that does not respect the environment font**  
+ ![Example of UI text that does not respect the environment font](../../extensibility/ux-guidelines/media/0201-b_wrongfontdialog.png "0201-b_WrongFontDialog")<br />Example of UI text that does not respect the environment font
   
  In this case, "User Information" and "Product Information" are not respecting the font. In some cases this might be an explicit design choice, but it can be a bug if the explicit font is not specified as a part of the redline specifications.  
   
@@ -397,7 +368,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 2.  **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: “Select all items in list”  
   
 ### Text formatting  
- Default text formatting in Visual Studio 2013 is controlled by an [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont). This service helps ensure a consistent font appearance throughout the IDE (integrated development environment), and you must use it to guarantee a consistent experience for your users.  
+ Default text formatting in Visual Studio 2013 is controlled by [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont). This service helps ensure a consistent font appearance throughout the IDE (integrated development environment), and you must use it to guarantee a consistent experience for your users.  
   
  The default size used by the Visual Studio font service comes from Windows and appears as 9 pt.  
   
@@ -412,7 +383,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
   
 -   overridden values in the Properties tool window  
   
--   certain events in the Visual Basic editor dropdown lists  
+-   certain events in the Visual Basic editor drop-down lists  
   
 -   server-generated content in the document outline for web pages  
   
@@ -448,49 +419,49 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
   
 |||  
 |-|-|  
-|**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Do not:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Start Page.*|  
+|**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Start Page.*|  
   
 #### 310% Environment font + Light  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Do not:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|  
+|**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|  
   
 #### 200% Environment font + Semilight  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Subheadings<br />-   Titles in small and medium dialogs<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Semilight weight<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 18 pt Segoe UI Semillight<br /><br /> **Visual example:**<br /><br /> ![Example of 200% Environment font &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b_ef200.png "0202-b_EF200")|  
+|**Usage:**<br /><br /> -   Subheadings<br />-   Titles in small and medium dialogs<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Semilight weight<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 18 pt Segoe UI Semillight<br /><br /> **Visual example:**<br /><br /> ![Example of 200% Environment font &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b_ef200.png "0202-b_EF200")|  
   
 #### 155% Environment font  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Section headings in document well UI<br />-   Reports<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 14 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 155% Environment font heading](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202-c_EF155")|  
+|**Usage:**<br /><br /> -   Section headings in document well UI<br />-   Reports<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 14 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 155% Environment font heading](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202-c_EF155")|  
   
 #### 133% Environment font  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Smaller subheadings in signature dialogs<br />-   Smaller subheadings in document well UI<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 12 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 133% Environment font heading](../../extensibility/ux-guidelines/media/0202-d_ef133.png "0202-d_EF133")|  
+|**Usage:**<br /><br /> -   Smaller subheadings in signature dialogs<br />-   Smaller subheadings in document well UI<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 12 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 133% Environment font heading](../../extensibility/ux-guidelines/media/0202-d_ef133.png "0202-d_EF133")|  
   
 #### 122% Environment font  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Section headings in signature dialogs<br />-   Top nodes in tree view<br />-   Vertical tab navigation<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 11 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 122% Environment font heading](../../extensibility/ux-guidelines/media/0202-e_ef122.png "0202-e_EF122")|  
+|**Usage:**<br /><br /> -   Section headings in signature dialogs<br />-   Top nodes in tree view<br />-   Vertical tab navigation<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 11 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 122% Environment font heading](../../extensibility/ux-guidelines/media/0202-e_ef122.png "0202-e_EF122")|  
   
 #### Environment font + bold  
   
 |||  
 |-|-|  
-|**Usage:**<br /><br /> -   Labels and subheads in signature dialogs<br />-   Labels and subheads in reports<br />-   Labels and subheads in document well UI<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Use bold weight<br /><br /> **Do not:**<br /><br /> -   Italic or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** bolded 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font &#43; Bold heading](../../extensibility/ux-guidelines/media/0202-f_efb.png "0202-f_EFB")|  
+|**Usage:**<br /><br /> -   Labels and subheads in signature dialogs<br />-   Labels and subheads in reports<br />-   Labels and subheads in document well UI<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Use bold weight<br /><br /> **Don't:**<br /><br /> -   Italic or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** bolded 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font &#43; Bold heading](../../extensibility/ux-guidelines/media/0202-f_efb.png "0202-f_EFB")|  
   
 #### Environment font  
   
 |||  
 |-|-|  
-|**Usage:** All other text<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:** Italic or bold italic|**Appears as:** 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font](../../extensibility/ux-guidelines/media/0202-g_ef.png "0202-g_EF")|  
+|**Usage:** All other text<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:** Italic or bold italic|**Appears as:** 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font](../../extensibility/ux-guidelines/media/0202-g_ef.png "0202-g_EF")|  
   
 ### Padding and spacing  
  Headings require space around them to give them the appropriate emphasis. This space varies depending on point size and what else is near the heading, such as a horizontal rule or a line of text in the environment font.  
