@@ -228,18 +228,24 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     
 ## View the Location of Threads
 
-In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view.
+In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view. In this app, we can use the Threads view.
 
-1. Open the **Parallel Stacks** window by choosing **Debug / Windows / Parallel Stacks**. You should see something similar to this (the exact information will be different depending on the current location of each thread and your programming language).
+1. Open the **Parallel Stacks** window by choosing **Debug / Windows / Parallel Stacks**. You should see something similar to this (the exact information will be different depending on the current location of each thread, your hardware, and your programming language).
 
     ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
-    In this example, we see that two threads have entered the `ServerClass.InstanceMethod`, one of which is the active thread (yellow marker). The other thread has stopped in `Thread.Sleep` (indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")). In addition, the Main thread (on the left) has stopped on `Thread.Start`, and a new thread (on the right) is also starting (stopped on `ThreadHelper.ThreadStart`).
+    In this example, from left to right we get this information:
+    
+    - The Main thread (left side) has stopped on `Thread.Start` (this is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")
+    - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the active thread (yellow arrow), and the other has stopped in `Thread.Sleep`.
+    - A new thread (on the right) is also starting (stopped on `ThreadHelper.ThreadStart`).
 
 2.  Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
 
+    You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
+
     > [!NOTE]
-    > If you are more interested in seeing detailed information on each thread such as the type and name of each thread, use the **Threads** window instead. See [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
+    > If you are interested in seeing detailed information on each thread such as the type and name of each thread, use the **Threads** window instead. See [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
 
 ## Set a Watch on a Variable
 
@@ -251,7 +257,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
 3. Click in the 5th column header cell, type `count`, and press Enter.
 
-    The values for the count variable for each thread appear in the window. (If you don't see this much information yet, try pressing F11 again to advance the execution of the threads in the debugger.)
+    The values for the count variable for each thread appear in the window. (If you don't see this much information yet, try pressing F11 a few more times to advance the execution of the threads in the debugger.)
 
     ![Parallel Watch Window](../debugger/media/dbg-multithreaded-parallel-watch.png "ParallelWatchWindow")
 
@@ -261,25 +267,23 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 You can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and to ignore threads that you do not care about.  
   
 #### To flag threads  
+
+1. In the **Parallel Watch** window, hold down the SHIFT key and select multiple rows.
+
+2. Right-click and choose **Flag**.
+
+    Now, all the selected threads are flagged. 
   
-1. (Optional) In the code editor, press F11 a few more times until more threads appear in the **Parallel Watch** window.
-
-2. In the **Parallel Watch** window, hold down the SHIFT key and select multiple rows.
-
-3. Right-click and choose **Flag**.
-
-    Now, all the selected threads are flagged.
-
-    > [!TIP]
-    > When you have flagged some threads, you can right-click a line of code in the code editor and choose **Run Flagged Threads to Cursor** (make sure that you choose code that all flagged threads will reach). This will pause threads on the selected line of code, making it easier control the order of execution by [freezing and thawing threads](#bkmk_freeze).  
-  
-4.  In the **Parallel Watch** window, find the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").  
+3.  In the **Parallel Watch** window, find the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").  
   
     The flags icon on the button was dimmed before. Now, it is an active button.  
   
-7.  Click the **Show Only Flagged Threads** button.  
+4.  Click the **Show Only Flagged Threads** button.  
   
     Only the flagged thread appears in the list now.
+
+    > [!TIP]
+    > When you have flagged some threads, you can right-click a line of code in the code editor and choose **Run Flagged Threads to Cursor** (make sure that you choose code that all flagged threads will reach). This will pause threads on the selected line of code, making it easier control the order of execution by [freezing and thawing threads](#bkmk_freeze). 
     
 #### To unflag threads
 
@@ -330,10 +334,10 @@ You can set breakpoints on different conditions, such as the thread name or (if 
 
 5. Now, you can step over code (F10) and step into code (F11) and follow the execution of the single thread.
 
-    As long as the breakpoint condition is unique to the thread, and the debugger doesn't hit any other breakpoints on other threads, you can step over code and step into code without switching to other threads.
+    As long as the breakpoint condition is unique to the thread, and the debugger doesn't hit any other breakpoints on other threads (you may need to disable them), you can step over code and step into code without switching to other threads.
 
     > [!NOTE]
-    > If you are more interested in a specific thread, then use a thread name or thread ID for the condition. To do this in the **Breakpoint Settings** window, select **Filter** instead of **Conditional expression**, and follow the filter tips.
+    > If you are more interested in a specific thread, then use a thread name or thread ID for the condition. To do this in the **Breakpoint Settings** window, select **Filter** instead of **Conditional expression**, and follow the filter tips. You may want to name your threads in your app code.
   
 ## More about the multithreaded debugging windows 
 
