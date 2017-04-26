@@ -76,5 +76,12 @@ As a last resort, you can run InstallCleanup.exe. InstallCleanup.exe is a utilit
 4. Rerun the bootstrapper that's described in Step 3.
 5. Try to install or update Visual Studio again.
 
+## How to troubleshoot an offline installer
+Here is a table of known issues and some workarounds when installing from a local layout that might help.
+
+| Issue       | Item                   | Solution |
+| ----------- | ---------------------- | -------- |
+| Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
+| New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
 
 
