@@ -334,7 +334,8 @@ You can set breakpoints on different conditions, such as the thread name or (if 
 
     As long as the breakpoint condition is unique to the thread, and the debugger doesn't hit any other breakpoints on other threads, you can step over code and step into code without switching to other threads.
 
-    > [!NOTE] If you are more interested in a specific thread, then use a thread name or thread ID for the condition.
+    > [!NOTE]
+    > If you are more interested in a specific thread, then use a thread name or thread ID for the condition.
   
 ## More about the multithreaded debugging windows 
 
@@ -344,7 +345,7 @@ You can set breakpoints on different conditions, such as the thread name or (if 
   
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   
-- See [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stack-window.md) 
+- See [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stacks-window.md) 
 
 - See [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md) 
   
