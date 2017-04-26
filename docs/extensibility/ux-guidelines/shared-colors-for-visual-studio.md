@@ -1016,6 +1016,7 @@ The Manifest Designer was designed as a way to make it easier to edit the manife
 | ... in place of using common tab controls at the top of an editor within the document well. | ... for any UI that isn't structured like the Manifest Designer. |
 
 **Manifest Designer selected tab: default state**
+
 | Element | Token name: Category.color |
 | --- | --- |
 | Background | `ManifestDesigner.TabActive` |
