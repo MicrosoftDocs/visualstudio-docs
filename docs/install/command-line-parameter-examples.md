@@ -59,25 +59,22 @@ vs_enterprise.exe --installPath C:\desktopVS ^
   > [!NOTE]
   >  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
+  * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
+```cmd
+vs_community.exe --layout C:\VS2017
+   --lang en-US ^
+   --add Microsoft.VisualStudio.Workload.CoreEditor
+```
+
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 ```cmd
 vs_community.exe --layout C:\VS2017 ^
    --lang en-US ^
-   --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --add Microsoft.VisualStudio.Workload.NetWeb ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
-   --add Microsoft.Net.ComponentGroup.TargetingPacks.Common ^
-   --add Microsoft.ComponentGroup.Blend ^
-   --add Microsoft.VisualStudio.Component.EntityFramework ^
-   --add Microsoft.VisualStudio.Component.DiagnosticTools ^
-   --add Microsoft.VisualStudio.Component.DockerTools ^
-   --add Microsoft.VisualStudio.Component.CloudExplorer ^
-   --add Microsoft.VisualStudio.Component.Wcf.Tooling ^
-   --add Component.GitHub.VisualStudio
+   --add Component.GitHub.VisualStudio ^
+   --includeRecommended
 ```
-
-   >[!NOTE]
-   The Enterprise edition contains additional recommended components beyond those included here. See [Visual Studio Enterprise 2017 component directory](workload-component-id-vs-enterprise.md) for a listing of all recommended components available in Visual Studio Enterprise.
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio 2017 Enterprise edition:
 ```cmd
