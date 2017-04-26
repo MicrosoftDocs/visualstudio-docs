@@ -100,4 +100,4 @@ For a technical comparison of R with MRO and MRS, check out [Lixun Zhang's detai
 
 The following figure then compares elapsed time in seconds used in building Logistic Regression models to predict whether the arrival of scheduled passenger flights will be delayed by more than 15 minutes. Elapsed time used in CRAN R increases dramatically when increasing a small number of rows, while MRS only increases by approximately two times. For details of this benchmark, check out the `Benchmarks/rxGlm_benchmark.R` example.
 
-![rxGlm benchmark](media/samples/Introduction_to_R_Server/samples-rxGLM-benchmark.png)
+![rxGlm benchmark](media/samples-rxGLM-benchmark.png)
