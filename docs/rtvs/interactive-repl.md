@@ -31,7 +31,7 @@ translation.priority.ht:
 ---
 
 
-# Working with the R Interactive Window
+# Working with the R Interactive window
 
 R Tools for Visual Studio (RTVS) includes interactive windows for each of your installed environments. Also known as **REPL** (Read/Evaluate/Print Loop) windows, these allow you to enter R code and see the results  immediately. You can use all modules, syntax and variables, just like in an R script.
 

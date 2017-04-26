@@ -1,7 +1,7 @@
 ---
 title: "Installing the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/28/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,12 +54,11 @@ RTVS will not install if you have only the Visual Studio Shell that's included w
 1. Run the Visual Studio installer.
 2. Select the **Data science and analytical applications** workload:
 
-    [Data science and analytical applications workload in VS2017](media/installation-data-science-workload.png)
+    ![Data science and analytical applications workload in VS2017](media/installation-data-science-workload.png)
 
 3. Set any additional options on the right side under the same workload name. Note that by default, this workload includes F# and Python support. For R, you must at a minimum select **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
-RTVS is installed in `%ProgramFiles(x86)%\Microsoft Visual Studio <VS version>\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`.
-
+RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio <VS version>\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`
 
 ## Installing RTVS in Visual Studio 2015
 
@@ -79,7 +78,7 @@ If you don't have an R distribution installed before you install RTVS, you will 
 
 Download the current RTVS from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS will check for a suitable version of Visual Studio and will also help you install an R interpreter if you haven't already.
 
-RTVS is installed in `%ProgramFiles(x86)%\Microsoft Visual Studio 14\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`.
+RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio 14\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`
 
 ## Offline installation of Visual Studio and RTVS
 
@@ -87,8 +86,8 @@ Offline installation is suitable for computers that are not connected to the Int
 
 1. Follow the instructions to create an offline installer for your version of Visual Studio as below. 
 
-- [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
- -[Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
+    - [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
+    - [Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
 
 1. Install Visual Studio from the offline installer.
 1. [Download RTVS](https://aka.ms/rtvs-current) and install it as usual.

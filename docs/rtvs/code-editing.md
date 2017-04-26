@@ -1,7 +1,7 @@
 ---
 title: "Editing Code with the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/25/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,15 +32,21 @@ translation.priority.ht:
 
 # Editing R code in Visual Studio
  
-The R Tools for Visual Studio tailors the Visual Studio editing experience specifically for R, while retaining all the features and the ability to use extensions. (For example, if you prefer vim key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
+R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R, while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
 
-**Syntax highlighting** makes it easy to distinguish between different token types in your code. Strings, comments, and keywords are all visually distinct in the editor. We even highlight and enable clickable hyperlinks in comments, to make it easy to embed references in the comments to your R code. 
+In this topic:
+
+
+Also see the topics on [IntelliSense](code-intellisense.md), [code navigation](code-navigation.md), and [code snippets](code-snippets.md).
+
+
+## Syntax highlighting 
+
+In addition to coloring different parts of your code, such as strings, comments, and keywords, RTVS also highlights and enables links in comments:
 
 ![](media/syntax-colors-example.png)
 
-Visual Studio supports *themes* that let you switch between a set of predefined themes (e.g., Blue, Dark, and Light) as well as making it easy for you to define custom colors for R syntax elements through Visual Studio's extensive customization features.
-
-
+Visual Studio also supports *themes* that let you switch between a set of predefined themes (e.g., Blue, Dark, and Light) as well as making it easy for you to define custom colors for R syntax elements through Visual Studio's extensive customization features.
 
 
 

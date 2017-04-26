@@ -1,7 +1,7 @@
 ---
 title: "Help Window in the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/26/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,49 +33,44 @@ translation.priority.ht:
 
 # Help in R Tools for Visual Studio
 
-The help window pops up within Visual Studio as a tool window. You can get help for a specific topic by title using the `?` command in R:
+Help for R is integrated directly into the interactive window in Visual Studio. Whenever you use the `?` command, such as `?mtcars`, help from the R documentation appears in a Visual Studio window:
 
-```r
-?mtcars
-```
+![Help window in Visual Studio](media/help-window.png)
 
-![Help window](media/help-window.png)
+> [!Tip]
+> The help window, like all others in Visual Studio, can be arranged and docked however you like. See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
+>
+> You can also open help results in a browser instead by selecting the **R Tools > Options** menu and set the **R Help Browser** property to `External`.
 
-All standard Visual Studio tool window behavior is available to the **R Help** window.
-
-You can search help using the ?? command in R. Note that you have to quote the search term if it includes spaces.
+To search help, use the `??` command with the search term in quotes if it include spaces:
 
 ```r
 ??"Motor Trend"
 ```
 
-![Help search](media/help-search.png)
+![Help search results](media/help-search1.png)
 
-You can right-click on a function in the editor or the REPL window:
+The help window also has a search input field through which you can conduct further searches in the R documentation directly:
 
-![Help right click](media/help-right-click.png)
- 
-Pressing F1 during an auto-complete operation will send the sub-string used for the auto-complete to the R search engine to return a set of pages that match that sub-string search:
+![Help search results using the input field](media/help-search2.png)
 
-![Help auto-complete](media/help-auto-complete.png)
+## Integrated help lookup
 
-To bring up results in your browser:
+Because developers often search the R documentation for help on function names, datasets, and other elements, R Tools for Visual Studio streamlines the process by integrating help lookups directly into the editor and interactive window.
 
-![Help auto-complete results](media/help-auto-complete-results.png
-)
- 
-You've always had the option of running the help system inside of a Visual Studio tool window, or by launching the help in the default browser for your computer. If you are using the tool window option (which is the default), you now have the ability to type search terms into a separate search input field:
+- Pressing F1 during an auto-complete operation produces a list of help results that match the substring.
+- Right-click in a search term (like a function) and select the **Help on** command, or just press F1, to open help for that function:
 
-![](media/help-search2.png)
+    ![Invoking help through the right click context menu](media/help-right-click.png)
 
-Lots of us run into problems writing our code and turn to the Internet for help. We've streamlined this a bit further by incorporating keyword search directly into RTVS. For example, if you were trying to figure out how to use the dplyr `filter` function in the following code, all you need to do is place your caret on the filter function call, and press F1.
+- You can also invoke **Help on** for any selection.
 
-![](media/help-f1.png)
+## Integrated StackOverflow search
 
-This will bring up search results in a separate tool window. 
+In addition to searching in the R documentation, developers often search StackOverflow while writing code. RTVS streamlines that process as well. When you right-click a term or a selection and select the **Search web for** command, or just press Ctrl-F1, a Visual Studio window opens that contains search results for that term that is scoped to StackOverflow by default:
 
-![](media/help-f1-results.png)
+![Web search results in Visual Studio](media/help-web-search-results.png)
 
-By default we append "R" to the end of your search term, and scope the search to Stack Overflow, but you can configure it to search with an arbitrary search clause in the Options dialog for RTVS:
+You can change the appended string, `R site:stackoverflow`, through the **R Tools > Options > F1 Web search string** option:
 
-![](media/help-f1-options.png)
+![Changing the F1 Web search string option](media/options-dialog.png)

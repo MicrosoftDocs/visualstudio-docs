@@ -50,14 +50,14 @@ You can also try one of our sample projects.  Just download, open and run:
 
 [Samples documentation](getting-started-samples.md)
 
-# Use multiple project types in Visual Studio
+## Use multiple project types in Visual Studio
 
-In Visual Studio, related files are collected into a **Project**, and related Projects are collected into a **Solution**.  
+Visual Studio Solutions provide a convenient place to gather and manage related projects in one logical place. This helps keep your code organized and facilitates collaboration within teams.
 
-Here we see a Solution that consists of 5 separate Projects made up of C++, R, Python and SQL code.  The user has built a model using R/Azure ML, Python/scikit-learn, C++ for compute intensive work, SQL for data management, and finally a Python/Bottle project to share results via Azure:
+In the example shown below, the solution contains an R project with a model build using R and Azure Machine Learning, a Python/scikit-learn project, a C++ project containing modules for intensive computational work, a SQL project for data management, and a Python/Bottle project for the web site that publishes the result:
 
-![Help window](media/projects-polyglot.png)
+![Visual Studio Solution Explorer showing multiple related projects in a solution](media/projects-polyglot.png)
 
-Solutions provide a convenient place to gather and manage relevant Projects (which maybe worked on by other team members) in one logical place.
+Note that there currently isn't any explicit R to C#/C++ language integration in place (as there is for Python, see [Creating a C++ extension for Python](../python/cpp-and-python.mdd)).  However there are libraries available that provide C# and C++ bridges for R.
 
-Note that there isn't currently any explicit R to C#/C++ language integration in place yet.  However there are libraries available that provide bridges between C#/R and C++/R.
+For more details on managing projects and solutions in general, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).

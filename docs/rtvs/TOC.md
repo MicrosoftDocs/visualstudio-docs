@@ -15,7 +15,7 @@
 ### [IntelliSense](code-intellisense.md)
 ### [R Markdown](rmarkdown.md)
 ## [Interactive REPL](interactive-repl.md)
-## [Visualizing Data](visualize-data.md)
+## [Visualizing Data](visualizing-data.md)
 ### [Variable Explorer](variable-explorer.md)
 ### [Data Table Viewer](data-table-viewer.md)
 ## [Debugging](debugging.md)

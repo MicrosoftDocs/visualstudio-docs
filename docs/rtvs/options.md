@@ -1,7 +1,7 @@
 ---
 title: "R Tools Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/26/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.ht:
  
 Settings are access through the **R Tools > Options** menu, or through **Tools > Options** and scrolling to **R Tools**:
  
-  ![](media/editing-rtvs-options-dialog.png)
+  ![Options dialog for R Tools](media/options-dialog.png)
 
 The following sections describe the different options available on this page..
 
