@@ -54,7 +54,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 |C|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
 |D|Tooltip on Node Header|Shows the ID and user-defined name of each thread whose call path shares this node.|  
 |E|Method Context|Represents one or more stack frames in the same method.|  
-|F|Tooltip on method context|In Threads view, it shows all the threads in a table similar to the **Threads** window. In Task view, it shows all the tasks in a table similar to the **Parallel Tasks** window.|  
+|F|Tooltip on method context|In Threads view, it shows all the threads in a table similar to the **Threads** window. In Task view, it shows all the tasks in a table similar to the **Tasks** window.|  
   
  In addition, the Parallel Stacks window shows a **Bird's Eye View** icon in the main pane when the graph is too large to fit into the window. You can click on the icon to see the entire graph in the window.  
   

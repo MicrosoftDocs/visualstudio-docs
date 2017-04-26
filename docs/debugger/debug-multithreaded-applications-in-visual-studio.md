@@ -54,7 +54,7 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
   
 - For code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/), the primary tools for debugging multithreaded applications are the **Parallel Stacks** window, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports JavaScript). To get started, see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5). 
 
-- For debugging threads on the GPU, the primary tools is the **GPU Threads** windows. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).  
+- For debugging threads on the GPU, the primary tool is the **GPU Threads** windows. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).  
 
 - For processes, the primary tools are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar.  
   
