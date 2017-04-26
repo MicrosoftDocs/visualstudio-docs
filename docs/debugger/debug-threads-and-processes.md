@@ -52,6 +52,7 @@ translation.priority.ht:
   
 ## Tools and features
 The tools you need to use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] depend on what type of code you are trying to debug:
+
 - For processes, the primary tools are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar.
 
 - For threads, the primary tools for debugging threads are the **Threads** window, thread markers in source windows, **Parallel Stacks** window, **Parallel Watch** window, and the **Debug Location** toolbar.  

@@ -308,7 +308,7 @@ Flag all the threads again before continuing the next task (in which you will fr
 
     The app may also instantiate some new threads. Notice that any new threads are unflagged and are not frozen.
 
-## Follow a Single Thread by using Conditional Breakpoints
+## a name="bkmk_follow_a_thread"></a> Follow a Single Thread by using Conditional Breakpoints
 
 Sometimes, it can be helpful to follow the execution of a single thread in the debugger. One way you can do that is by freezing threads that you are not interested in, but in some scenarios you may wish to follow a single thread without freezing other threads (to repro a particular bug, for example). To follow a thread without freezing other threads, you must avoid breaking into code except on the thread that you are interested in. You can do this by setting a conditional breakpoint.
 

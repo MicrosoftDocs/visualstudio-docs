@@ -54,15 +54,17 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
   
 - For code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/), the primary tools for debugging multithreaded applications are the **Parallel Stacks** window, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports JavaScript). To get started, see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5). 
 
-- For debugging threads on the GPU, the primary tools is the **GPU Threads** windows. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).    
+- For debugging threads on the GPU, the primary tools is the **GPU Threads** windows. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).  
+
+- For processes, the primary tools are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar.  
   
- Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md). 
+Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md). 
   
- Debugging a multithreaded application that has a user interface can be especially difficult. In that case, you might consider running the application on a second computer and using remote debugging. For information, see [Remote Debugging](../debugger/remote-debugging.md).  
+Debugging a multithreaded application that has a user interface can be especially difficult. In that case, you might consider running the application on a second computer and using remote debugging. For information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ## In This Section
  [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md).  
- A guided tour of thread debugging features, with emphasis on features in the **Threads** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
+ A guided tour of thread debugging features, with emphasis on features in the **Parallel Stacks** window and **Parallel Watch** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
 
  [Tools for Debugging Threads and Processes](../debugger/debug-threads-and-processes.md)  
  Lists the features of the tools for debugging threads and processes.  
@@ -73,17 +75,8 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
  [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).  
  A guided tour of thread debugging features, with emphasis on features in the **Threads** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]. 
 
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
- Walkthrough that shows how to use the Parallel Tasks and Parallel Stacks windows. 
-
- [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stacks-window.md)  
- Inspect values and expressions across multiple threads. 
-
- [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)  
- Inspect values and expressions across multiple threads.   
-  
- [How to: Use the Threads Window](../debugger/walkthrough-debugging-a-multithreaded-application.md)  
- Useful procedures for debugging threads with the **Threads** window.  
+ [Walkthrough: Debug a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
+ Walkthrough that shows how to use the **Parallel Tasks** and **Parallel Stacks** windows.  
   
  [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
  Three ways to switch the debugging context to another thread.  
@@ -93,12 +86,6 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
   
  [How to: Debug On a High-Performance Cluster](../debugger/how-to-debug-on-a-high-performance-cluster.md)  
  Techniques for debugging an application that runs on a high-performance cluster.  
-  
- [Using the Tasks Window](../debugger/using-the-tasks-window.md)  
- Shows a list of all the managed or native task objects including their status and other useful info.   
-  
- [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)  
- Examine and work with threads that are running on the GPU during debugging. 
 
  [Tips for Debugging Threads in Native Code](../debugger/tips-for-debugging-threads-in-native-code.md)  
  Simple techniques that can be useful for debugging native threads. 
@@ -110,10 +97,11 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
  Give your thread a name that you view in the **Threads** window. 
   
 ## Related Sections  
- [Using Breakpoints](../debugger/using-breakpoints.md)  
- -   Use breakpoint filters when you want to place a breakpoint on an individual thread.  
+ [Using Breakpoints](../debugger/using-breakpoints.md)
+
+ - Use breakpoint conditions or filters when you want to debug an individual thread.  
   
--   Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
+ - Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
   
  [Threading](http://msdn.microsoft.com/Library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)  
  Threading concepts in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] programming, including example code.  
