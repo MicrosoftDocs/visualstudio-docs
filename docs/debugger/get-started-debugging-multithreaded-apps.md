@@ -249,7 +249,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      In the gutter on the left side of the source code editor, a red ball appears. This indicates that a breakpoint is now set at this location.
 
-2. (C++ Console app) Build the solution (**Build / Build Solution**). 
+2.  Build the solution (**Build / Build Solution**). 
   
 3.  On the **Debug** menu, click **Start Debugging** (**F5**).  
   
