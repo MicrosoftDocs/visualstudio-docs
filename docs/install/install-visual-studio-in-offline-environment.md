@@ -1,5 +1,5 @@
 ---
-title: "Install Visual Studio in an offline environment | Microsoft Docs"
+title: "Special considerations for installing Visual Studio in an offline environment | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
 ms.date: "04/14/2017"
 ms.reviewer: ""
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Install Visual Studio in an offline environment
+# Special considerations for installing Visual Studio in an offline environment
 
-## Create an offline layout
+## Create a local layout
 * For details, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 
 ## Install certificates needed by VS Setup

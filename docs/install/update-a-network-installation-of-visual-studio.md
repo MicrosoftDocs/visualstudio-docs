@@ -44,7 +44,7 @@ You might want to update your local layout at a later date. Here's how.
 * Administrators can update their clients version of Visual Studio without any user interaction
   * Update the Visual Studio Installer:<br>```vs_enterprise.exe --quiet -–update```
   * Update the Visual Studio instance:<br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" --quiet --wait –-norestart```
-* For details on how to control when update notifications are presented to users, see [Install Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md).
+* For details on how to control when update notifications are presented to users, see [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md).
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

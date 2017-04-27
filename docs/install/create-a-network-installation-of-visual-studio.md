@@ -70,7 +70,7 @@ Host the layout on a network share so it can be run from other machines.
 ## Install from the offline installation folder
 Administrators may run setup to push Visual Studio onto client machines.  Or, users (with administrator rights) can run setup from the share to install Visual Studio on their machine.
 
-If you are not connected to the internet, you will need to Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)  See [Install Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md) for more details.
+If you are not connected to the internet, you will need to Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)  See [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md) for more details.
 
   1. Run the installation file. Examples: 
   * Users can install by running: <br>```\\MyServer\products\VS2017\vs_enterprise.exe```
@@ -106,7 +106,7 @@ Here are a few examples of how to create a custom partial layout.
 ### How to update an offline installer
 You might want to update your offline installer at a later date. Here's how.
 * To refresh your local layout folder so that it includes the latest updates, run the same ```--layout``` command you ran when initially creating the layout. Make sure to point to the same folder that you used before with the same customizations (e.g. specific workloads and languages); this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.  If you host a layout on a file share, it is recommended that you update a private copy of the layout (e.g. c:\vs2017offline) and after all of the updated content is downloaded, copy it to your file share (e.g. \\\\MyServer\products\VS2017).  If you don't do this, there is a greater chance that any users running setup while the layout is being updated may not be able to get all of the content from the layout since it is not completely updated.
-* To update a Visual Studio instance that you installed from an offline installation folder, run the Visual Studio Installer, and then click **Update**.  For details on how to controll when update notifications are presented to users, see [Install Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md).
+* To update a Visual Studio instance that you installed from an offline installation folder, run the Visual Studio Installer, and then click **Update**.  For details on how to controll when update notifications are presented to users, see [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md).
 
 ### How to create a layout for a previous release of VS 2017
 **Note**: The VS 2017 bootstrappers available on http://www.visualstudio.com will download and install the latest VS 2017 release available whenever they are run. If you download a VS bootstrapper today and run it 6 months from now, it will install the VS 2017 release that is available at that later time. If you create a layout, installing VS from that layout will install the specific version of VS that exists in the layout. Even though a newer version may exist online, you will get the version of VS that is in the layout.

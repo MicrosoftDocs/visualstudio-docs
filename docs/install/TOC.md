@@ -9,7 +9,7 @@
 ## [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 ## [Command-line parameter examples](command-line-parameter-examples.md)
 ## [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-## [Install Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md)
+## [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md)
 ## [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
 ## [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
 ## [Setting defaults for enterprise deployments of Visual Studio](setting-defaults-for-enterprise-deployments.md)
