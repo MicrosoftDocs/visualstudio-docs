@@ -1,6 +1,6 @@
 ---
 title: Customizing the IDE
-description: Xamarin Studio can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. In this guide we will explore the variety of ways Xamarin Studio can be adapted to suit developer's needs.
+description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. In this guide we will explore the variety of ways Visual Studio for Mac can be adapted to suit your needs.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -8,20 +8,21 @@ ms.topic: article
 ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
 ---
 
+#Customizing the IDE
 
-# Dark Theme
+Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. In this guide we will explore the variety of ways Visual Studio for Mac can be adapted to suit your needs.
 
-![](Images/customizing-the-ide-image7a.png)
+## Dark Theme
 
-Xamarin Studio 6.0 introduced the long-awaited dark theme for Xamarin Studio, in addition to many visual tweaks to make the IDE more pleasant to use.
+![Dark Theme View](media/customizing-the-ide-image7a.png)
 
-You can switch themes in Xamarin Studio by browsing to **Preferences > Environment > Visual Style** and selecting your desired theme from the *User Interface Theme* dropdown, as illustrated in the screenshot below:
+You can switch themes in Visual Studio for Mac by browsing to **Preferences > Environment > Visual Style** and selecting your desired theme from the *User Interface Theme* dropdown, as illustrated in the screenshot below:
 
- ![](Images/customizing-the-ide-image7b.png)
+ ![Dark Theme Selection](media/customizing-the-ide-image7b.png)
 
-# Localization
+## Localization
 
-Xamarin Studio has now been localized, enabling it to be accessible to more developers. The languages currently are available are listed below:
+Visual Studio for Mac is localized in 13 languages, enabling it to be accessible to more developers. The languages currently available are listed below:
 
 * Chinese – China
 * Chinese – Taiwan
@@ -37,94 +38,92 @@ Xamarin Studio has now been localized, enabling it to be accessible to more deve
 * Spanish
 * Turkish
 
-To change the language that Xamarin Studio displays, browse to **Preferences > Environment > Visual Style** and select your desired language from the *User Interface Language* dropdown, as illustrated in the screenshot below:
+To change the language displayed by Visual Studio for Mac , browse to **Preferences > Environment > Visual Style** and select your desired language from the *User Interface Language* dropdown, as illustrated in the screenshot below:
 
 
-![](Images/customizing-the-ide-image11a.png)
+![Language Selection](media/customizing-the-ide-image11a.png)
 
-# Author Information
+## Author Information
 
 The author information panel allows you to add relevant information about yourself such as your Name, email address, the copyright owner for your work, your company, and trademark, as illustrated below:
 
- ![](Images/customizing-the-ide-image9a.png)
+ ![Edit Author Information section](media/customizing-the-ide-image9a.png)
 
-This information is used to populate standard file headers, such as a license that you might add to new files created in Xamarin Studio:
+This information is used to populate standard file headers, such as a license, that you might add to new files created in Visal Studio for Mac:
 
- ![](Images/customizing-the-ide-image8a.png)
+ ![Standard Header options](media/customizing-the-ide-image8a.png)
 
 
-Populated **Name** and **Email** fields will be used to add information to any commit that is made through Version Control in Xamarin Studio. If you have not populated these fields, Xamarin Studio will prompt you to do so when you try to use Version Control.
+Populated **Name** and **Email** fields will be used to add information to any commit that is made through Version Control in Visual Studio for Mac. If you have not populated these fields, Visual Studio for Mac will prompt you to do so when you try to use Version Control.
 
-# Keybindings
+## Key Bindings
 
-Keybindings allow you to adapt your development environment so that you can move more efficiently throughout Xamarin Studio. For example, Visual Studio users can set the keybindings in Xamarin Studio to give a much more familiar feel to the IDE. 
+Key bindings allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (Windows), ReSharper, Visual Studio Code, and Xcode.
 
 Keybindings can be set by browsing to **Preferences > Environment > Key Bindings**, as illustrated below:
 
- ![](Images/customizing-the-ide-image10a.png)
+ ![Set Key bindings](media/customizing-the-ide-image10a.png)
 
-From here you can search for keybinding combinations, view conflicting bindings, add new bindings, and edit the existing bindings.
+From here you can search for key binding combinations, view conflicting bindings, add new bindings, and edit the existing bindings.
 
-# Workspace Layout
+## Workspace Layout
 
-Xamarin Studio's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *pads* which contain useful information for accessing and managing application files, testing, and debugging.
+Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *pads* which contain useful information for accessing and managing application files, testing, and debugging.
 
- ![](Images/customizing-the-ide-image1a.png)
+ ![Workspace layout](media/customizing-the-ide-image1a.png)
 
-## Viewing and Arranging Pads
+### Viewing and Arranging Pads
 
-When you open any new solution or file in Xamarin Studio, you should notice a number of *pads* in the workspace, including the Solution Pad, Document Outline, and Errors:
+When you open any new solution or file in Visual Studio for Mac, you should notice a number of *pads* in the workspace, including the Solution Pad, Document Outline, and Errors, as illustrated below:
 
-![](Images/customizing-the-ide-image2a.png)
+![Solution Pads](media/customizing-the-ide-image2a.png)
 
-Xamarin Studio provides many pads containing addition information, tools, and navigation aids, all of which can be accessed by browsing to the **View > Pads** menu item and selecting the pad to add it:
+Visual Studio for Mac provides pads containing additional information, tools, and navigation aids, all of which can be accessed by browsing to the **View > Pads** menu item and selecting a pad to add it:
 
- ![](Images/customizing-the-ide-image3a.png)
+ ![Select new Pad](media/customizing-the-ide-image3a.png)
 
 Pads may also be opened automatically by various commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached pad of search results.
 
-Pads can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another pad, above or below another pad, or as a set of tabbed pads enabling you to quickly switch beween them:
+Pads can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another pad, above or below another pad, or as a set of tabbed pads enabling you to quickly switch beween them.
 
-![](Images/customizing-the-ide-pads-large.png)
-
-For frequently used pads, you can also completely detach a pad from the Xamarin Studio window, and create a separate window for that pad.
+For frequently used pads, you can also completely detach a pad from the Visual Studio for Mac window, and create a separate window for that pad.
  
 Pads can be hidden and closed by the toggles in the top-right corner of each pad:
  
-![](Images/customizing-the-ide-image5a.png)
+![Hiding and Closing Pads](media/customizing-the-ide-image5a.png)
 
-Auto-hidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad will be display it again, and it will be hidden when the mouse and keyboard focus leaves it.
+Auto-hidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad will display it again, and it will be hidden when the mouse and keyboard focus leaves it.
 
 
-## Organising Layouts
+### Organising Layouts
 
 The pads which are displayed at any time are dependent on the current context. For example when using the visual designer, the toolbox and property grid pads are most important; when debugging, it is useful to have the debugger pads for viewing the stack and locals.
 
 The state of the open pads is represented by a *layout*. The layouts can be  switched manually through the View menu, as illustrated below, or it will be switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
-![](Images/customizing-the-ide-image6b.png)
+![Selecting new Layouts](Images/customizing-the-ide-image6b.png)
 
-There is always one active layout and any change you make in a layout, such as adding or repositioning a pad will only change the active layout. Once you close Xamarin Studio the changes you have made will not be saved. 
+There is always one active layout and any change you make in a layout, such as adding or repositioning a pad will only change the active layout. Once you close Visual Studio for Mac the changes you have made will not be saved. 
 
-However, it is possible to create a new layout suitable for your needs in the **View > New Layout…** menu item. This will add your layout to the menu so that you can select it at any time:
+However, it is possible create a new layout by using the **View > Save Current Layout…** menu item. This will add your current layout to the menu so that you can select it at any time:
 
-![](Images/customizing-the-ide-image6a.png)
+![Save Current Layout](media/customizing-the-ide-image6a.png)
 
-## Side-by-side editing support
+### Side-by-side editing support
  
-Xamarin Studio allows you to open text editors side-by-side, or to have an editor as a detached floating window.
+Visual Studio for Mac allows you to open text editors side-by-side, or to have an editor as a detached floating window.
 
-2-column mode can be enabled through the View menu item by selecting **View > Editor Layout > 2 columns**, or by dragging an editor tab to one of the edges of the editor area, as shown below:
+2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area, as shown below:
 
- ![](Images/customizing-the-ide-sbs.png)
+ ![Two column side-by-side mode](media/customizing-the-ide-sbs.png)
  
 Editor tabs can be dragged out of the document area to create a floating editor window. This floating window also supports side-by-side editors, and can contain several editor tabs:
 
- ![](Images/customizing-the-ide-sbs1.png)
+ ![Create new window](media/customizing-the-ide-sbs1.png)
  
- ![](Images/customizing-the-ide-sbs2.png)
+ ![Two column side-by-side with additional tabs](media/customizing-the-ide-sbs2.png)
 
-To revert back to a single open editor, select **View > Editor Layout > 1 column**.
+To revert back to a single open editor, select **View > Editor Columns > 1 column**.
 
 
 
