@@ -53,7 +53,7 @@ To accept the current highlighted suggestion while typing, press the Tab key:
 
 To dismiss the IntelliSense suggestions while typing, press Esc.
 
-To manually activate IntelliSense suggestions while typing (i.e., you dismissed the drop-down), press Ctrl-Space.
+To manually activate IntelliSense suggestions while typing (i.e., you dismissed the drop-down), press Ctrl+Space.
 
 For a function completion, when you type the open parenthesis character `(`, we will auto-type the close parenthesis character and pop up function parameter help:
 
@@ -61,7 +61,7 @@ For a function completion, when you type the open parenthesis character `(`, we 
 
 You can dismiss the parameter help by pressing Esc.
 
-If you have dismissed the parameter help pop-up and you want to get it back, press Ctrl-Shift-Space to restore it.
+If you have dismissed the parameter help pop-up and you want to get it back, press Ctrl+Shift+Space to restore it.
 
 If you find the parameter help is obscuring text underneath it, as can be the case in the file editor, you can press and hold the Ctrl key to make the parameter help text translucent.
 

@@ -7,7 +7,7 @@
 ## [R Projects](projects.md)
 ### [Package Manager](package-manager.md)
 ### [Workspaces](workspaces.md)
-### [Remote Workspaces](workspaces-remote.md)
+#### [Setting up Remote Workspaces](workspaces-remote-setup.md)
 ### [SQL Server Integration](sql-server.md)
 ## [Editing Code](code-editing.md)
 ### [Code Navigation](code-navigation.md)

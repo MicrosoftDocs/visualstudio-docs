@@ -67,11 +67,11 @@ end of a region is defined by a comment that contains `----`. See an example of 
  
 ## Editor and interactive window
 
-A very common style of programming involves write code in the editor, and then selecting and sending lines to the R Interactive window (also known as a Read-Eval-Print-Loop or REPL). You can select code within the editor and send to the REPL using Ctrl-Enter:
+A very common style of programming involves write code in the editor, and then selecting and sending lines to the R Interactive window (also known as a Read-Eval-Print-Loop or REPL). You can select code within the editor and send to the REPL using Ctrl+Enter:
  
 ![](media/editing-send-to-repl.png)
  
-If you press Ctrl-Enter in the editor without selecting any text, it will send the current line that the cursor is on to the REPL, and then advance to the next non-whitespace line. This makes it convenient to execute a sequence of code from the editor simply by pressing Ctrl-Enter without the need to advance the cursor to the next line. In the example below, the cursor was originally on the line in the editor window with the "1", and Ctrl-Enter was pressed twice. 
+If you press Ctrl+Enter in the editor without selecting any text, it will send the current line that the cursor is on to the REPL, and then advance to the next non-whitespace line. This makes it convenient to execute a sequence of code from the editor simply by pressing Ctrl+Enter without the need to advance the cursor to the next line. In the example below, the cursor was originally on the line in the editor window with the "1", and Ctrl+Enter was pressed twice. 
  
 ![](media/editing-code-to-repl-by-line.png) 
  
@@ -90,7 +90,7 @@ You can reformat the code by selecting it, right clicking on the selection, and 
  
  ![](media/editing-reformatting.png)
  
-The editor also supports formatting an entire document. So if you loaded a large document of R code that you wanted to format to your coding conventions, you can open the file in the RTVS editor, and select Format Document from the Edit menu, or by pressing the shortcut key chord Ctrl-K,D.
+The editor also supports formatting an entire document. So if you loaded a large document of R code that you wanted to format to your coding conventions, you can open the file in the RTVS editor, and select Format Document from the Edit menu, or by pressing the shortcut key chord Ctrl+K,D.
  
  ![](media/editing-reformatting-document.png)
  
@@ -112,5 +112,5 @@ Within the dialog box, if you select the **Advanced** options, you can define ho
 
 This includes whether you want RTVS to automatically format code based on your preferences when you type it, or whether you want it to reformat code that you paste into RTVS from the clipboard. This is helpful when you are pasting in code that you copy from a web browser, for example.
  
-You can also undo formatting. If you have **Format** on paste enabled in the RTVS options, and you want to preserve the formatting in the pasted code without permanently turning off the **Format** on paste option in RTVS, all you need to do is paste it into RTVS and press Ctrl-Z to undo the formatting changes.
+You can also undo formatting. If you have **Format** on paste enabled in the RTVS options, and you want to preserve the formatting in the pasted code without permanently turning off the **Format** on paste option in RTVS, all you need to do is paste it into RTVS and press Ctrl+Z to undo the formatting changes.
  

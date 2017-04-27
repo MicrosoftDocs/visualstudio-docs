@@ -33,7 +33,7 @@ translation.priority.ht:
 
 # Code Navigation
 
-**Code navigation** gives you quick access to the source code of your program and its libraries. You can quickly go to the definition of one of your functions by pressing F12, or pop up an inline mini editor to read the source code of a library function by pressing Alt-F12 (see below). This is a key feature to help keep you in the flow of your work vs. being distracted by having to search for and manually navigate to the code of interest.
+**Code navigation** gives you quick access to the source code of your program and its libraries. You can quickly go to the definition of one of your functions by pressing F12, or pop up an inline mini editor to read the source code of a library function by pressing Alt+F12 (see below). This is a key feature to help keep you in the flow of your work vs. being distracted by having to search for and manually navigate to the code of interest.
 
 ![](media/peek-definition.png)
 
@@ -53,4 +53,4 @@ The second is the `Peek Definition` command, which inserts a read-only scrollabl
 You can run the `Peek Definition` command one of two ways:
 
 1. Right click on the function that you want to navigate and select the `Peek Definition` command from the popup menu. 
-1. Place your cursor on the function name and press Alt-F12
+1. Place your cursor on the function name and press Alt+F12

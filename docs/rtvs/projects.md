@@ -40,7 +40,7 @@ Projects are always managed within a Visual Studio *solution*, which can contain
 ## Creating a new R project
 
 1. Start Visual Studio.
-1. Choose **File > New > Project...** (Ctrl-Shift-N)
+1. Choose **File > New > Project...** (Ctrl+Shift+N)
 1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
 
     ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.pn
@@ -84,8 +84,8 @@ To open the project property pages, right click the project in **Solution Explor
 | Run | Startup file | The name of the file that is run with **Source startup file** command, F5, **Debug > Start debugging**, or **Debug > Start without debugging**. You can also set this by right-clicking the file in the project and selecting **Set as startup R script**. |
 | | Reset R Interactive on Run | Clears all variables from the interactive window's workspace when running the project. Doing so guarantees that there's no residual workspace contents from pervious runs. |
 | | Remote Project Path | Path to a remote workspace. |
-| | Transfer files on run | Indicates whether the project files are to be copied to the remote path with each run. |
-| | Files to transfer | Filenames and wildcards indicating the files to copy if **Transfer files on run** is selected. |
+| | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. |
+| | Files to transfer | Filenames and wildcards indicating the specific files to copy to a remote workspace if **Transfer files on run** is selected. |
 | | | |
 | Settings | (Settings.R file) | R project settings come from `Settings.R` or `*.Settings.R` files that are located inside the project. If there is no settings file, you can add variables and save the page, and a default `Settings.R` file will be created for you. You can also add settings file to the project through the **File > Add New Item...* menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules thus pre-populating environment with the predefined settings. |
 

@@ -42,7 +42,7 @@ This collection of samples gets you started on R, R Tools for Visual Studio (RTV
 
 ## A First Look at R
 
-This sample provides an in-depth introduction to R through the extensive comments in the source files. The best way to experience both of these is to place the cursor at the top of the file, then press Ctrl-Enter to send each line, one at a time, to the **R Interactive** window where you can see the results. Note that some lines will install packages which might take a minute or two.
+This sample provides an in-depth introduction to R through the extensive comments in the source files. The best way to experience both of these is to place the cursor at the top of the file, then press Ctrl+Enter to send each line, one at a time, to the **R Interactive** window where you can see the results. Note that some lines will install packages which might take a minute or two.
 
 - `1-Getting Started with R.R` covers many R fundamentals including using packages, loading and analyzing data, and plotting.
 
@@ -57,7 +57,7 @@ This sample provides an in-depth introduction to R through the extensive comment
 
 This collection of examples shows how to use R and Microsoft R Server to create machine learning models and how to take advantage of the functionality of [Microsoft R Server (MRS)](http://aka.ms/rtvs-msft-r). Note that you'll need to install MRS to run scripts with `MRS` in the title and where noted.
 
-As with all examples, a great way to experience them is to open the file, place the cursor at the top, and then step through the code line by line with Ctrl-Enter. Also see the markdown files in each folder for additional details.
+As with all examples, a great way to experience them is to open the file, place the cursor at the top, and then step through the code line by line with Ctrl+Enter. Also see the markdown files in each folder for additional details.
 
 - `Benchmarks` runs a number of compute-intensive benchmarks to show the performance gains that are possible through the use of Microsoft R Open and the Intel Math Kernel Library (MKL) for fast, parallel linear algebra computations. With simulated data, it specifically compares using two threads versus one for certain matrix related calculations.   
 

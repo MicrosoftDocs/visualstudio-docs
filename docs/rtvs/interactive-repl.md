@@ -35,7 +35,7 @@ translation.priority.ht:
 
 R Tools for Visual Studio (RTVS) includes interactive windows for each of your installed environments. Also known as **REPL** (Read/Evaluate/Print Loop) windows, these allow you to enter R code and see the results  immediately. You can use all modules, syntax and variables, just like in an R script.
 
-**Interactive code execution** lets you execute and see the results of running small pieces of code as you write it. We integrate the typing experience in the editor with the Interactive Window. You type code into the editor window, and press Ctrl-Enter to send the current line under the cursor to the Interactive Window for execution. You can select several lines of code in the editor (see the screenshot below), and press Ctrl-Enter to send the selection to the Interactive Window for execution. Placing the editor window and the Interactive Window side-by-side is a great way to experience this feature:
+**Interactive code execution** lets you execute and see the results of running small pieces of code as you write it. We integrate the typing experience in the editor with the Interactive Window. You type code into the editor window, and press Ctrl+Enter to send the current line under the cursor to the Interactive Window for execution. You can select several lines of code in the editor (see the screenshot below), and press Ctrl+Enter to send the selection to the Interactive Window for execution. Placing the editor window and the Interactive Window side-by-side is a great way to experience this feature:
 
 ![](media/repl-interactive-execution.png)
 
@@ -45,11 +45,11 @@ Typing valid R code and pressing Enter at the end of the line will execute the c
 
 ![Interactive math](media/repl-interactive-math.png)
 
-All previous input and output in the REPL is read-only and cannot be changed. You can select output using the mouse and copy to the clipboard using Ctrl-C. You can also right-click using the mouse and select copy from the context menu:
+All previous input and output in the REPL is read-only and cannot be changed. You can select output using the mouse and copy to the clipboard using Ctrl+C. You can also right-click using the mouse and select copy from the context menu:
 
 ![Copy](media/repl-copy.png)
 
-You can paste input into the REPL by using Ctrl-V at an input prompt or by right-clicking and using the context menu:
+You can paste input into the REPL by using Ctrl+V at an input prompt or by right-clicking and using the context menu:
 
 ![Insert](media/repl-insert.png)
 
@@ -133,7 +133,7 @@ In multi-line mode, the Enter key will execute the multi-line block only when it
 
 ![](media/repl-history-multiline-enter-behavior.png)
 
-If you want to execute the multi-line block when your cursor is not at the very end of the multi-line block, you can press Ctrl-Enter from anywhere within the multi-line block.
+If you want to execute the multi-line block when your cursor is not at the very end of the multi-line block, you can press Ctrl+Enter from anywhere within the multi-line block.
 
 The multi-line REPL has unique behavior with respect to history. If you are within a multi-line block, the arrow keys navigate throughout the code block, just like it were an editor window. However, if you are on the first line of a multi-line code block and press Up, the REPL will replace the current multi-line code block with the most recent item from history. Below you can see that the caret is positioned on the first line of the multi-line block. 
  
@@ -167,11 +167,11 @@ If you press the Up arrow two more times, you will wind up on the first line of 
 ![](media/repl-history-multiline-execute.png)
  
 Now, if you press Down, you will see that the cursor is on the first line of the next most recent item in history. This was done so that you can immediately go backwards in history by pressing Up. Note that the
-position of the cursor will not let you go down and immediately execute the multi-line code block by pressing Enter in this case. You can execute by either moving to the last character in the multi-line code block and pressing Enter, or by pressing Ctrl-Enter from anywhere in the multi-line code block.
+position of the cursor will not let you go down and immediately execute the multi-line code block by pressing Enter in this case. You can execute by either moving to the last character in the multi-line code block and pressing Enter, or by pressing Ctrl+Enter from anywhere in the multi-line code block.
  
 ![](media/repl-history-multiline-execute-down.png)
 
-At any point in time, if you want to force navigation through history and you don't want to navigate to the top / bottom of a multi-line code block (especially annoying with large multi-line code blocks) first, press Alt-Up or Alt-Down. Notice that the REPL window has toolbar buttons for these as well as tool-tips that will help make this feature more discoverable:
+At any point in time, if you want to force navigation through history and you don't want to navigate to the top / bottom of a multi-line code block (especially annoying with large multi-line code blocks) first, press Alt+Up or Alt+Down. Notice that the REPL window has toolbar buttons for these as well as tool-tips that will help make this feature more discoverable:
 
 ![](media/repl-history-multiline-navigation.png)
 
@@ -179,9 +179,9 @@ At any point in time, if you want to force navigation through history and you do
 
 It's pretty common to switch your working directory while working in an interactive R session. We've now made it even easier to switch your working directory by adding some additional commands:
 
-1. You can switch the current working directory to the directory that contains the current file that you're editing. Ctrl-Shift-E runs this command.
+1. You can switch the current working directory to the directory that contains the current file that you're editing. Ctrl+Shift+E runs this command.
 
-1. You can switch the current working directory to the directory that contains the root of the RTVS project. Ctrl-Shift-P runs this command.
+1. You can switch the current working directory to the directory that contains the root of the RTVS project. Ctrl+Shift+P runs this command.
 
 There are two new toolbar icons within the R Interactive Window that are also run these commands for folks who are like to use the mouse:
 

@@ -43,7 +43,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 ## Create an R project
 
 1. Start Visual Studio.
-1. Choose **File > New > Project...** (Ctrl-Shift-N)
+1. Choose **File > New > Project...** (Ctrl+Shift+N)
 1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
 
    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
@@ -102,12 +102,12 @@ As an example, the following steps create a little code to explore the [Central 
     plot(density(pop), main = "Population Density", xlab = "X", ylab = "")
     ```
 
-1. To quickly see the results, select all the code (Ctrl-A), then press Ctrl-Enter or right-click and select **Execute In Interactive**. This enters all the selected code in the interactive window as if you typed it directly, showing the result in a plot window:
+1. To quickly see the results, select all the code (Ctrl+A), then press Ctrl+Enter or right-click and select **Execute In Interactive**. This enters all the selected code in the interactive window as if you typed it directly, showing the result in a plot window:
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 
 > [!Tip]
-> Learn the patter of making editing, selecting everything with Ctrl-A, and then pressing Ctrl-Enter to quickly run the code. This is much more efficient than using the mouse for the same operations.
+> Learn the patter of making editing, selecting everything with Ctrl+A, and then pressing Ctrl+Enter to quickly run the code. This is much more efficient than using the mouse for the same operations.
 > 
 > In addition, you can drag and drop the plot window out of the Visual Studio frame and place it whenever else you want on your display. This allows you to easily resize the plot window to the dimensions you want and then save it to an image or PDF file.
 
@@ -119,7 +119,7 @@ As an example, the following steps create a little code to explore the [Central 
     lines(density(samp.means))
     ```
 
-1. Press Ctrl-A and Ctrl-Enter again to re-run the code to produce the following:
+1. Press Ctrl+A and Ctrl+Enter again to re-run the code to produce the following:
 
     ![Updated dual plot in Visual Studio](media/getting-started-09-plot2.png)
 
@@ -141,7 +141,7 @@ As an example, the following steps create a little code to explore the [Central 
     lines(density(samp.means))
     ```
 
-1. Ctrl-A and Ctrl-Enter again to see the result:
+1. Ctrl+A and Ctrl+Enter again to see the result:
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 

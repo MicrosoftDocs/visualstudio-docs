@@ -67,7 +67,7 @@ Because developers often search the R documentation for help on function names, 
 
 ## Integrated StackOverflow search
 
-In addition to searching in the R documentation, developers often search StackOverflow while writing code. RTVS streamlines that process as well. When you right-click a term or a selection and select the **Search web for** command, or just press Ctrl-F1, a Visual Studio window opens that contains search results for that term that is scoped to StackOverflow by default:
+In addition to searching in the R documentation, developers often search StackOverflow while writing code. RTVS streamlines that process as well. When you right-click a term or a selection and select the **Search web for** command, or just press Ctrl+F1, a Visual Studio window opens that contains search results for that term that is scoped to StackOverflow by default:
 
 ![Web search results in Visual Studio](media/help-web-search-results.png)
 

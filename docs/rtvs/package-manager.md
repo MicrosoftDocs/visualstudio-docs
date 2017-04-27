@@ -33,7 +33,7 @@ translation.priority.ht:
 
 # Package manager
 
-The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools > Windows > Packages** (or pressing Ctrl-7 if you not are using the [Data Science settings](options.md#data-scientist-layout)).
+The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools > Windows > Packages** or pressing Ctrl+7.
 
 The package manager has three tabs as described below. All the tabs display a list of relevant packages on the left and specific details for the selected package on the right, including the package's version, description, license, install location, and links to other relevant information. The search box on the upper right lets you filter the list.
 

@@ -1,7 +1,7 @@
 ---
-title: "Workspaces with the R Tools for Visual Studio | Microsoft Docs"
+title: "Workspaces in R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/27/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,102 +31,118 @@ translation.priority.ht:
 ---
 
 
-## Workspaces
+## Controlling where R code runs with workspaces
 
-Workspaces is a feature in RTVS that lets you control *where* your R code runs. The Workspaces tool window lets you choose between two types of places where your code can run: Local and Remote. 
+A workspace in R Tools for Visual Studio (RTVS) lets you configure where an R session runs, which can happen on both local and remote computers. The goal is to allow you to work on either with a comparable user experience, which gives you the ability to take advantage of potentially more powerful cloud-based computers.
 
-![](media/workspace-window.png)
+To open the **Workspaces** window, use the **R Tools > Windows > Workspaces** command or press Ctrl+9.
 
-### Local Workspaces
+![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspace-window.png)
 
-Local workspaces shows you the set of all R interpreters that you have installed on your computer. Local workspaces are auto-detected by RTVS when you launch Visual Studio, or you can add your own local workspaces manually if you have installed them in non-standard ways.
+In this window, the green checkmark indicates the active workspace to which RTVS is bound. Selecting a blue arrow sets the active workspace. The settings (gear) icon to the right of each workspace allows you to change its name, location, and command line arguments. The red X removes a manually-added workspace.
 
-RTVS will do its best to auto-detect all of the versions R that you have installed, and does so by looking through the registry when Visual Studio starts up. This is the registry key that RTVS uses to find locally installed R interpreters:
+In this topic:
 
-`HKEY_LOCAL_MACHINE\Software\R-Core\`
+- [Saving and resetting a workspace](#saving-and-resetting-a-workspace)
+- [Local workspaces](#local-workspaces)
+- [Remote workspaces](#remote-workspaces)
+- [Switching between workspaces](#switching-between-workspaces)
+- [Directories on local and remote computers](#directories-on-local-and-remote-computers)
+- [Copying project files to a remote workspace](#copying-project-files-to-a-remote-workspace)
+- [Copying files from a remote workspace](#copying-files-from-a-remote-workspace)
 
-It is important to understand that this check is only done at Visual Studio startup; if you install a new R interpreter while Visual Studio is running, you will need to restart Visual Studio to detect your newly installed R interpreter.
+## Saving and resetting a workspace
 
-In the event that you installed R through some non-standard way (i.e., by not running an installer), you can manually create a new local R Workspace by clicking on the Add button in the Workspaces window. Enter a name for your new Workspace, the path to the R root directory (i.e., the directory that contains the `bin` directory where your interpreter is located), and any optional command line parameters that you would like to pass to your R interpreter when RTVS starts it up.
+By default, RTVS doesn't save workspace state when you close and reopen a project. You can change this behavior, however, through the [Workspace options](options.md#workspace).
 
-![](media/workspace-add-new.png)
+The **R Tools > Session > Reset** command and the reset toolbar button in the interactive window also reset workspace state at any time. In the case of remote workspaces, a reset has the effect of deleting the user profile created when first connecting to the remote server, which effectively deletes any files that have accumulated there.
 
-If you want to change an existing Workspace entry, you can always click on the wheel icon next to the Workspace, and change its name, the path (or URI in the case of remote Workspaces), and its command line parameters.
+## Local workspaces
 
-### Remote Workspaces
+The Local workspaces list displays all the R interpreters that you have installed on your computer. 
 
-Remote workspaces let you connect to an R session on a remote computer. Typically, that remote computer is setup by your administrator, or you can [setup a remote Workspace yourself](workspaces-remote.md).
+RTVS attempts to automatically detect all of the versions of R that you have installed by looking through the `HKEY_LOCAL_MACHINE\Software\R-Core\` registry key when Visual Studio starts up. Because this check is done only at startup, you'll need to restart Visual Studio if you install a new R interpreter.
 
-Remote workspaces are identified by a URI. That URI *must use the HTTPS protocol* to ensure the privacy and the integrity of the code that you are sending to the remote computer, and the results that are returned from the remote computer. RTVS will refuse to connect to a remote computer that does not support the HTTPS protocol.
+RTVS might not detect an R interpreter that's installed in a non-standard way (for example, when simply copying files to a folder instead of running an installer). In this case, manually create a new local R Workspace as follows:
 
-Remote workspaces are *not* auto-detected by RTVS; you must create them manually.
+1. Select the **Add** button in the Workspaces window.
+1. Enter a name for the new Workspace.
+1. Enter the path to the R root folder, which is the one that contains the `bin` folder with the interpreter, and any optional command line arguments to pass to the interpreter when RTVS starts it up.
+1. Select **Save** when you're done.
 
-### Switching between Workspaces
+![Adding a new workspace](media/workspace-add-new.png)
 
-The active Workspace that RTVS is bound to is clearly indicated by a green icon next to the name of the Workspace. In most cases, when you start RTVS, you should always see a green icon next to a Workspace. By default, we will always bind to the last local Workspace that you had open in a previous RTVS session.
+## Remote workspaces
 
-All you need to do to switch between Workspaces is click on the right arrow icon of the Workspace that you would like to switch to. This will immediately terminate your current Workspace (but it will prompt whether you want to save your current session before you exit), before switching to the new Workspace. 
+Remote workspaces let you connect to an R session on a remote computer. (See [Setting up remote workspaces](workspaces-remote-setup.md) for how to configure a computer for this purpose.)
 
-The dialog boxes that warn you that you are switching workspaces, or prompting you to save your existing session before switching workspaces are *configurable*. Under the **R Tools > Options** dialog, you will find options for enabling or disabling these dialog boxes.
+Remote workspaces aren't automatically detected by RTVS, so you must add them manually using the **Add** button in the Workspaces window as described in the previous section. In this case, enter the remote computer's URI rather than a local path.
 
-![](media/workspace-options.png)
+> [!Important]
+> Remote workspaces are identified by a URI that *must use the HTTPS protocol* to ensure the privacy and the integrity of communication with the remote computer. RTVS will not connect to a remote computer that does not support HTTPS.
 
-Because it is possible that the Workspace that you want to switch to is not available (i.e., you have uninstalled it, or in the case of a remote Workspace the computer is not reachable) you may wind up in a state where *no workspace is bound to your RTVS project*. You will realize this right away if you try to type a command into the REPL and it reports that no R interpreter is available to service your request. To fix this problem, simply select another Workspace from the list available, or in the unlikely event that *no local or remote workspaces are available*, you will need to install another R Interpreter.
+> [!Note]
+> Remote workspaces are effectively in preview. We are working on a better implementation of the file sync problem for a future release and welcome your ideas and feedback about how to make that a better experience for you.
 
-![](media/workspace-disconnected-interactive-window.png)
 
-### Switching to a Remote Workspace
+## Switching between workspaces
 
-When you connect to a Remote Workspace, you will need credentials to log on; this is usually provided by the person who setup the Remote Workspace computer. The first time you connect to the Remote Workspace, RTVS will prompt you for those credentials. RTVS will store those credentials on your behalf using the [Windows Credential Locker](https://technet.microsoft.com/library/jj554668(v=ws.11).aspx),
-which is a service provided by the operating system to securely store your credentials. The next time you connect to that Remote Workspace, RTVS will use your cached credentials to log into the Remote Workspace, effectively giving you a single sign-on experience.
+RTVS is bound to only a single workspace at a time, which is indicated by a small green checkmark by that workspace in the Workspaces window. By default, RTVS binds to the last local Workspace that you had open in a previous session.
 
-RTVS transmits those credentials to the Remote Workspace via the HTTPS protocol. This guarantees that your credentials (and subsequent code and the results of running that code) are not viewed or tampered with while in transit. However, depending on how your system administrator set up the computer running your Remote Workspace, you may be presented with this dialog box when you connect:
+To change the active workspace, select the blue arrow next to the desired workspace. Doing so prompts you to save your session, terminates the current workspace, then switches to the new one.
 
-![](media/remote-self-signed-certificate-warning.png)
+> [!Tip]
+> To disable the save prompt, select the **R Tools > Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace options](options.md#workspace).
 
-What this means is that your system administrator used a *self-signed certificate* to enable the HTTPS protocol on the remote machine. It could also mean that the remote machine has been compromised by an attacker. The certificate is a document that is presented to RTVS by the machine that you are trying to connect to. The certificate contains a field that identifies the URI of that machine, and RTVS checks to make sure that those two values match exactly.
+If you attempt to switch to a local workspace that's been uninstalled or a remote workspace that it unavailable, you might encounter situations where an RTVS project is not bound to any workspace. As a result, you might see an error like the one below when you enter code in the interactive window or try to run code otherwise. To correct this, simply switch to another workspace in the Workspaces window. If none are available, you'll need to install an R interpreter. You can also try restarting Visual Studio you've installed an interpreter while Visual Studio running.
 
-However, in this case, the administrator (or the attacker) made their own certificate with the URI of the machine embedded within it. This is analogous to you making your own passport. RTVS doesn't know who your administrator is (or who the attacker is), and doesn't trust them. However, if your administrator had obtained a certificate from an issuer that RTVS trusts (and that list of trusted issuers is [provided by the operating system](https://technet.microsoft.com/library/cc751157.aspx)), then that means that RTVS will trust certificates issued by that issuer as well. In that case you won't see the dialog box warning you of an untrusted certificate. It is *strongly recommended* that you use certificates signed by a trusted issuer for any production deployments of Remote Workspaces.
+![Error when no workspace is bound to RTVS](media/workspace-disconnected-interactive-window.png)
 
-### Directories on Local and Remote machines
+### Switching to a remote workspace
 
-By default, when you start a new R interpreter, your current working directory is your user profile `Documents` directory. This is also true when you connect to a Remote Workspace. However, in this case keep in mind that you are now looking at the `Documents` directory on the remote machine. We have automatically created a new user profile directory for you when you first logged onto that machine. Each time that you re-connect to the same Remote Workspace you will be directed to the same location, and the contents of that directory will be unchanged across connections.
+RTVS prompts you for credentials when you first connect to a remote workspace, then caches those credentials (using the secure Windows Credential Locker) for later sessions. Communication with the remote server is then done securely over HTTPS (which is required).
 
-This is important because it is likely to not be the same path as where your local files are stored. For example, imagine that I stored my `TestProject` files here on my local machine under `c:\users\jflam\src\TestProject`, but on the remote machine (and assuming I am using the same login name), I'm going to be in `c:\users\jflam\Documents`.
+Depending on the server's configuration, you may see a certificate warning when connecting, "The security certificate presented by the Remote R Services does not allow us to prove that you are indeed connecting to the machine (name)."
 
-What this means is that if you have any absolute paths in your R scripts, your code will likely not work as you might expect, unless you take care to ensure that your remote files are stored in exactly the same paths as on your local machine. A smart move would be to ensure that any file paths are relative paths in your project (e.g., `.\otherfile.dat` or `..\peer\otherfile.dat`). 
+![Self-signed certificate warning when connecting to a remote workspace](media/workspace-remote-self-signed-certificate-warning.png)
 
-One last thing about remote workspaces: since your files will be persisted across connections to the remote workspace, there may be times where you want to make sure that all of your files are removed from that workspace. You can do this using the **R Tools > Session > Delete Profile** command. This will delete your entire user profile from the remote machine. The next time you log into that machine (or clicking Reset in the current interactive window), RTVS will recreate your user profile.
+The certificate is a document that is presented to RTVS by the machine that you are trying to connect to, which contains a field that identifies the URI of that machine. The warning appears when RTVS detects a mismatch between the URI in the certificate and the URI used to connect to the machine, indicating that the server's security may have been compromised.
 
-### Projects and Remote Workspaces
+However, this warning will also appear if a *self-signed certificate* was used to enable HTTPS on the remote machine instead of using one from a trusted provider. For more details, see [Setting up remote workspaces](workspaces-remote-setup.md).
 
-Here's a helpful mental model to help you understand how Projects and Remote Workspaces interact. The computer running RTVS always has the latest files in the project. The Remote Workspace computer is effectively a `temp` directory that will hold the files to run your project, as well as any output that your code generates. While writing your code you will either explicitly or implicitly copy files to the Remote Workspace `temp` directory in the course of your work.
+## Directories on local and remote computers
 
-When you open a project (or, more typically a solution) using Visual Studio, the assumption is that the project and all of its associated files *reside on the same machine as Visual Studio*. This is a key design decision in Visual Studio, which RTVS depends on for its project system, and it is unlikely to change anytime soon. 
+By default, when you start a new R interpreter in a local workspace, your current working directory is `%userprofile%\Documents`. You can change this at any time using the **R Tools > Working Directory** commands, or by right-clicking a project in Visual Studio Solution Explorer and selecting commands like **Set Working Directory Here**.
 
-When you connect to a Remote Workspace using the Workspaces Window, we do nothing to copy those files there on your behalf. You must explicitly tell RTVS to copy a file, or the project, to the remote machine.
+On remote machines, RTVS automatically creates a user profile based on your credentials when you first connect to that server, so the working directory is the `Documents` folder under that profile. This will be used for all subsequent remote sessions that use the same credentials. 
 
-Understanding this is key to not being surprised by the behavior of RTVS when working with Remote Workspaces. For example, if you want to `source` a file by typing the `source` command into the R Interactive Window, two conditions must be true:
+As a result, the exact location where your code runs can differ between local and remote workspaces. In your code, then, avoid using absolute paths to data files and such, because your code won't likely be portable across workspaces. Use relative paths instead.
 
-1. The latest copy of the R file that you want to source must be present on the remote machine
-1. The current working directory of the remote R interpreter (which you can set via the `setwd()` function) must be the same as the directory that contains the latest copy of the R file, or you have passed the correct path from your current working directory to the location of that R file.
+Note also that with remote workspaces, all files in the working directory remain in place across sessions for the same user profile. As noted earlier, you can delete these by using the  **R Tools > Session > Reset** command (or the reset button in the interactive window) when using a remote workspace. This again deletes the user profile from the server, which is recreated when you reconnect.
 
-So, how do you copy a files to the remote machine? You can right click on a file in Solution Explorer, and run the `Send to Remote` command from the context menu. You can also right click on the project in Solution Explorer and run the `Send to Remote` command. This will copy the entire project to the server, including creating a directory with the same name as the project to contain the files. You can also press F5 to run the project, and we will do a `Send to Remote` on the project before we start running the startup file for your project.
+## Copying project files to remote workspaces
 
-When copying *projects* to the remote machine, it's important to understand that we apply a filter to the files being copied (this filter is not applied when you copy a single file). By default we only copy `.R`, `.Rmd`, `.sql`, `.md`, and `.cpp` files to the server. You can customize the filter by adding additional expressions to the filter properties in the R Project Properties dialog. We do this to avoid inadvertently copying large data files to the server each time you want to run the project. Today we don't try to do any clever optimizations when copying; we will just copy files to the server, with the side effect of overwriting any file on the server that has the same name.
+When working with R projects in Visual Studio, the local machine always has the latest project files even when you're using a remote workspace. That is, when you open a project in Visual Studio (which typically means opening a solution containing that project), RTVS assumes that the project's contents reside wholly on the local machine. The remote workspace is, in effect, just a temporary host for the project's files and any output from the code. This means, for example, that when loading a file using `source` in the interactive window, that file must already be on the remote machine in the path you provide, or it must be in the current working directory of the remote R interpreter (set with the `setwd()` function).
 
-You can always copy individual *files* to the remote machine by right-clicking on the file in Solution Explorer and running the `Send to Remote` command from the context menu.
+Files are copied to the remote server as follows:
 
-![](media/remote-file-transfer-filter-settings.png)
+- To work with files remotely through the interactive window, you must first copy them manually by right-clicking those files (or the project) in Solution Explorer and selecting **Source Selected **. For individual files, they'll be copied to the working directory on the server; when copying a project, RTVS will create a folder for the project.
 
-You even have the option of disabling auto-copying of files in the project to the server if you want to manually control the copying process yourself. 
+- You can also copy files by selecting then in Solution Explorer and then selecting **Source Selected Files(s)**. This loads them into the interactive window and runs them there. If the session is connected to a remote computer, the files are copied there first.
 
-If your R script generates files on the server, you can copy those files back to the client using the `rtvs::fetch_file` function. This function accepts, at a minimum, the remote path to the file that you want to copy to your machine, and optionally the path on your machine where you want that file to be copied to. If you don't specify a path, the file will be copied into your `%USERPROFILE%\Downloads` directory.
+- When RTVS is bound to a remote workspace and you press F5, select **Debug > Start Debugging** or otherwise start running your code, RTVS will by default copy the project's file to the remote workspace automatically (see below for how to control this).
 
-If you invoke an R command through an explicit Visual Studio command, we will ensure that files get copied to the remote machine. For example, right-clicking on a file in Solution Explorer and running the Source Selected File(s) command will copy the files to the remote workspace before sourcing them. Similarly, when you press F5 to debug your project; RTVS will copy files to the remote workspace before attaching the debugger and running your program. Since we cannot reliably intercept all R functions, calling functions such as `source()` or `runApp()` (for Shiny applications) from the Interactive Window will **not** copy any files from your computer to the remote workspace.
+- Any files that already exist on the server will be overwritten.
 
-### The long term goal of Local and Remote Workspaces
+> [!Note]
+> Because RTVS cannot reliably intercept all R function calls, calling functions such as `source()` or `runApp()` (for Shiny applications) from within the interactive window will *not* copy files froto the remote workspace.
 
-The promise of Local and Remote Workspaces is this: anything you can do locally, you can also do remotely and with a comparable user experience. However, Remote Workspaces is currently in Preview, and there are a number of known issues in the implementation. 
+Whether RTVS copies files when a project is run, and exactly which files are copies, is controlled through the [project properties](projects.md#project-properties). To open this page, select the **Project > (name) Properties...** menu command, or right-click the project in Solution Explorer and select **Properties...**.
 
-Clearly, this is not an ideal solution, but it was one that let us ship a Preview release to you earlier to get feedback on the overall Remote Workspaces feature. We are working on a better implementation of the file sync problem for a future release and welcome your ideas and feedback about how to make that a better experience for you.
+![Project properties run tab with file transfer settings](media/workspaces-remote-file-transfer-filter-settings.png)
+
+Here, **Transfer files on run** determines whether RTVS copies project files automatically. The **Files to transfer** value then filters exactly which files are transferred. The default is to copy only `.R`, `.Rmd`, `.sql`, `.md`, and `.cpp` files. This is done to avoid inadvertently copying large data files to the server with every run. 
+
+## Copying files from a remote workspace
+
+If your R script generates files on the server, you can copy those files back to the client using the `rtvs::fetch_file` function. This function accepts, at a minimum, the remote path to the file that you want to copy to your machine, and optionally the path on your machine where you want that file to be copied to. If you don't specify a path, the file will be copied into your `%userprofile%\Downloads` folder.

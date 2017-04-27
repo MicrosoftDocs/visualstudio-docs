@@ -74,12 +74,12 @@ If you use F5 to start the debugger, RTVS will automatically source the StartUp 
 All standard Visual Studio debugger commands work, with a few limitations.
 
 * Toggle Breakpoints (F9)
-* Disable (Ctrl-F9) Breakpoints
+* Disable (Ctrl+F9) Breakpoints
 * Step Over (F10) the current line 
 * Step Into (F11) the current line
 * Continue Execution (F5)
-* Stop Execution under Debugger (Shift-F5)
-* Execute the StartUp file without using the Debugger (Ctrl-F5)
+* Stop Execution under Debugger (Shift+F5)
+* Execute the StartUp file without using the Debugger (Ctrl+F5)
 
 Here's a screenshot that shows the many debugging windows and features available to you:
 

@@ -1,5 +1,5 @@
 ---
-title: "Remote Workspaces with the R Tools for Visual Studio | Microsoft Docs"
+title: Remote Workspaces with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
@@ -31,7 +31,7 @@ translation.priority.ht:
 ---
 
 
-# Setting up a Remote Workspace
+# Setting up remote workspaces
 
 To setup a Remote Workspace, you will need to first start with a computer that has the following software installed on it:
 
@@ -49,7 +49,11 @@ authority](https://en.wikipedia.org/wiki/Certificate_authority)). The former is 
 
 We provide instructions below on creating a self-signed certificate. If you install a self-signed certificate on your R server, we will always show a warning that tells your users that the certificate wasn't issued from a trusted third party.
 
-![Self-signed certificate warning dialog](media/remote-self-signed-certificate-warning.png)
+![Self-signed certificate warning dialog](media/workspaces-remote-self-signed-certificate-warning.png)
+
+
+However, in this case, the administrator (or the attacker) made their own certificate with the URI of the machine embedded within it. This is analogous to you making your own passport. RTVS doesn't know who your administrator is (or who the attacker is), and doesn't trust them. However, if your administrator had obtained a certificate from an issuer that RTVS trusts (and that list of trusted issuers is [provided by the operating system](https://technet.microsoft.com/library/cc751157.aspx)), then that means that RTVS will trust certificates issued by that issuer as well. In that case you won't see the dialog box warning you of an untrusted certificate. It is *strongly recommended* that you use certificates signed by a trusted issuer for any production deployments of Remote Workspaces.
+
 
 We present this warning because an attacker can substitute their own certificate for the unsigned certificate and capture all of the traffic between the client and the server. This is why self-signed certificate should only ever be used for testing scenarios, on a trusted network, and never in production.
 

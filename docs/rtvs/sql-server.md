@@ -51,7 +51,7 @@ The file is opened in an editor window that lets you compose your SQL query. Her
 
 ![SQL Query Window](media/sql-query-window.png)
 
-Before the editor can provide you with IntelliSense, or execute your query, you must first tell the editor what database to connect that editor window to. You can do this by clicking on the Connect button in the toolbar window, or by attempting to execute your query. Queries can be executed by pressing Ctrl-Shift-E to run the entire file, or by selecting a range of text and pressing Ctrl-Shift-E.
+Before the editor can provide you with IntelliSense, or execute your query, you must first tell the editor what database to connect that editor window to. You can do this by clicking on the Connect button in the toolbar window, or by attempting to execute your query. Queries can be executed by pressing Ctrl+Shift+E to run the entire file, or by selecting a range of text and pressing Ctrl+Shift+E.
 
 If the SQL editor needs to establish a connection to the database, it will pop up this dialog:
 
@@ -125,7 +125,7 @@ RTVS makes integrating SQL into R code easier by letting you reference the `.sql
 
 ![Reading SQL File into R String Variable](media/sql-reference-sql-file-from-r.png)
 
-Now you can interactively write your R code that manipulates the `InputDataSet` dataframe until you are happy with it. Remember that you can always just select the R code that you run interactively in the editor and send it to the R Interactive window by pressing Ctrl-Enter.
+Now you can interactively write your R code that manipulates the `InputDataSet` dataframe until you are happy with it. Remember that you can always just select the R code that you run interactively in the editor and send it to the R Interactive window by pressing Ctrl+Enter.
 
 `StoredProcedure.Template.sql` is the file that contains the *template* for generating your SQL Stored Procedure. The `_RCODE_` placeholder will be replaced by the contents of the `StoredProcedure.R` file. The `_INPUT_QUERY_` placeholder will be replaced by the contents of the `StoredProcedure.Query.sql` file. Finally, you will need to describe the _schema_ of the result set that is returned from the Stored Procedure by editing the `WITH RESULT SETS` clause. Here you will need to identify the columns from the `OutputDataSet` dataframe that you want to return to the caller of the stored procedure. 
 
