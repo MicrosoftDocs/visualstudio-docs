@@ -53,7 +53,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      The **New Project** dialog box appears.  
   
-2.  In the **Project Type**s box, click the language of your choice: **Visual C#** or **Visual C++**.  
+2.  In the **Project Type**s box, click the language of your choice: **Visual C#**, **Visual C++**, or **Visual Basic**.  
   
 3.  In the **Templates** box, choose **Console App**.  
   
@@ -61,7 +61,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 5.  Click **OK**.  
   
-     A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, or MyThreadWalkthroughApp.cpp  
+     A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, MyThreadWalkthroughApp.cpp, or Module1.vb.  
   
 6.  Delete the code that appears in the source file and replace it with the example code shown here (this is modified code from the "Creating a Thread" section of the topic [Creating Threads and Passing Data at Start Time](/dotnet/articles/standard/threading/creating-threads-and-passing-data-at-start-time).
 
@@ -171,6 +171,57 @@ To begin this tutorial, you need a multithreaded application project. Follow the
       Simple::Main();
     }  
     ```
+
+    ```VB
+    Imports System.Threading
+
+    Public Class ServerClass
+        ' The method that will be called when the thread is started.
+        Public count = 0
+        Public Sub InstanceMethod()
+            Console.WriteLine(
+                    "ServerClass.InstanceMethod is running on another thread.")
+
+            Dim data = count + 1
+            ' Pause for a moment to provide a delay to make
+            ' threads more apparent.
+            Thread.Sleep(3000)
+            Console.WriteLine(
+                    "The instance method called by the worker thread has ended.")
+        End Sub
+
+    End Class
+
+    Public Class Simple
+
+        Public Shared Sub Main()
+
+            Dim ts As New ThreadStarter
+            For index = 1 To 10
+                ts.CreateThreads()
+            Next
+
+        End Sub
+
+    End Class
+    Public Class ThreadStarter
+        Public Sub CreateThreads()
+            Dim serverObject As New ServerClass()
+
+            ' Create the thread object, passing in the
+            ' serverObject.InstanceMethod method using a
+            ' ThreadStart delegate.
+            Dim InstanceCaller As New Thread(AddressOf serverObject.InstanceMethod)
+
+            ' Start the thread.
+            InstanceCaller.Start()
+
+            Console.WriteLine("The Main() thread calls this after " _
+                        + "starting the new InstanceCaller thread.")
+
+        End Sub
+    End Class
+    ```
   
 7.  On the **File** menu, click **Save All**.  
   
@@ -187,6 +238,10 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     Thread::Sleep(3000);  
     Console.WriteLine();  
     ```  
+    ```VB
+    Thread.Sleep(3000)
+    Console.WriteLine()
+    ```
   
 #### To start debugging  
   
@@ -211,6 +266,10 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```C++  
     Thread::Sleep(3000);  
     ```
+
+    ```VB
+    Thread.Sleep(3000)
+    ```    
   
 #### To discover the thread marker  
 
