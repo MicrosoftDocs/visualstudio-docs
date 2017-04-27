@@ -36,12 +36,14 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
 - [Create an R project](#create-an-r-project)
 - [Explore the Interactive window and IntelliSense](#explore-the-interactive-window-and-intellisense)
-- [Experience code editing features]()
+- [Experience code editing features](#experience-code-editing-features)
+- [Debugging your code](#degugging-your-code)
+- [Next steps](#next-steps)
 
 ## Create an R project
 
 1. Start Visual Studio.
-1. Choose **File > New > Project...**.
+1. Choose **File > New > Project...** (Ctrl-Shift-N)
 1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
 
    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)

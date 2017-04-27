@@ -1,7 +1,7 @@
 ---
 title: "Package Manager in the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/26/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,26 +31,30 @@ translation.priority.ht:
 ---
 
 
-# Package Manager
+# Package manager
 
-The Package Manager is a UI for working with packages. You can activate the Package Manager using the menu command **R Tools > Windows > Packages**, or pressing Ctrl-8 if you are using the Data Science Settings. It has three tabs, which let you browse, install, and visualize the list of loaded packages in your R session.
+The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools > Windows > Packages** (or pressing Ctrl-7 if you not are using the [Data Science settings](options.md#data-scientist-layout)).
 
-### Installed Packages 
+The package manager has three tabs as described below. All the tabs display a list of relevant packages on the left and specific details for the selected package on the right, including the package's version, description, license, install location, and links to other relevant information. The search box on the upper right lets you filter the list.
 
-![](media/package-manager-installed.png)
+> [!Tip]
+> The term in the search box remains in effect as you switch between tabs.
 
-The default tab is the Installed Packages tab, which provides a list of all installed and loaded packages. If there is a green dot next to a package, it indicates that the package is also loaded into your R session.
+- **Available** lets you browse packages to install. If the package is already installed, tne **Install** button on the right will change to **Uninstall**.
 
-Installed packages can also be uninstalled by clicking on the red "x" to the right of each listed package. The presence of a blue up arrow to the right of each installed package indicates that there is a newer version of your currently installed package. You can click on that arrow to download that package.
+    ![Available packages tab in the R Tools for Visual Studio package manager](media/package-manager-available.png)
 
-### Available Packages
+- **Installed** shows all installed and loaded packages. A green dot next to a package indicates that it's loaded into the R session. The red X icon in the left-hand list or the **Uninstall** button on the right can be used to uninstall the package. A blue up arrow to the right of an installed package updates the package if a newer version is available.
 
-![](media/package-manager-available.png)
+    ![Installed packages tab in the R Tools for Visual Studio package manager](media/package-manager-installed.png)
 
-The Available Packages tab lets you browse and search for packages. You can use the search box in the top-right corner to filter the list of available packages by name. When you select a package, the right hand pane provides you with some summary information about the package, along with hyperlinks to let you read more about the package before installing it.
+- **Loaded** displays only those packages that are loaded into the R session, and thus all will appear with a green dot. You can also uninstall and update packages here.
 
-### Loaded Packages
+    ![Loaded packages tab in the R Tools for Visual Studio package manager](media/package-manager-loaded.png)
 
-![](media/package-manager-loaded.png)
+## Package locations
 
-The Loaded Packages tab lets you examine all of the packages loaded into your R session. All of the packages on this tab should have a green dot next to them which indicates that they are loaded. You can also see details about the package along with the path to where the package is installed on your machine.
+Packages are installed in the following locations:
+
+- Core packages that are included with RTVS are installed in `C:\Program Files\Microsoft\R Client\R_SERVER\library`
+- Additional packages are installed to `%userprofile%\Documents\R\win-library\3.3`
