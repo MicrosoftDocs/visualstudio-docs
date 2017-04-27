@@ -35,7 +35,7 @@ translation.priority.ht:
 
 The Variable Explorer provides a list of all variables at global scope from the REPL. So, if in the REPL you executed: 
 
-```r
+```R
 x <- 42
 y <- 43
 n <- c(1,2,3,5,8,13)
@@ -47,7 +47,7 @@ The variable explorer will display the following data:
 
 If you have a more complex R data frame defined in the REPL, you can drill into the data. If you execute these commands:
  
-```r
+```R
 cars <- mtcars
 ```
 

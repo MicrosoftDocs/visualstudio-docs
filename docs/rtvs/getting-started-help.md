@@ -44,7 +44,7 @@ Help for R is integrated directly into the interactive window in Visual Studio. 
 
 To search help, use the `??` command with the search term in quotes if it include spaces:
 
-```r
+```R
 ??"Motor Trend"
 ```
 
@@ -59,11 +59,9 @@ The help window also has a search input field through which you can conduct furt
 Because developers often search the R documentation for help on function names, datasets, and other elements, R Tools for Visual Studio streamlines the process by integrating help lookups directly into the editor and interactive window.
 
 - Pressing F1 during an auto-complete operation produces a list of help results that match the substring.
-- Right-click in a search term (like a function) and select the **Help on** command, or just press F1, to open help for that function:
+- Right-click in a search term (like a function) and select the **Help on** command, or just press F1, to open help for that function. You can also invoke **Help on** for any selection.
 
     ![Invoking help through the right click context menu](media/help-right-click.png)
-
-- You can also invoke **Help on** for any selection.
 
 ## Integrated StackOverflow search
 

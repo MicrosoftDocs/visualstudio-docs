@@ -86,7 +86,6 @@ To open the project property pages, right click the project in **Solution Explor
 | | Remote Project Path | Path to a remote workspace. |
 | | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. |
 | | Files to transfer | Filenames and wildcards indicating the specific files to copy to a remote workspace if **Transfer files on run** is selected. |
-| | | |
 | Settings | (Settings.R file) | R project settings come from `Settings.R` or `*.Settings.R` files that are located inside the project. If there is no settings file, you can add variables and save the page, and a default `Settings.R` file will be created for you. You can also add settings file to the project through the **File > Add New Item...* menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules thus pre-populating environment with the predefined settings. |
 
 ## R-specific project commands

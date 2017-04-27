@@ -94,7 +94,7 @@ As an example, the following steps create a little code to explore the [Central 
 
 1. In the `script.R` editor, enter the following code:
 
-    ```r
+    ```R
     mu <- 50
     stddev <- 1
     N <- 10000
@@ -113,7 +113,7 @@ As an example, the following steps create a little code to explore the [Central 
 
 1. Add a few more lines of code to include a second plot:
 
-    ```r
+    ```R
     n <- 30
     samp.means <- rnorm(N, mean = mu, sd = stddev / sqrt(n))    
     lines(density(samp.means))
@@ -125,7 +125,7 @@ As an example, the following steps create a little code to explore the [Central 
 
 1. The problem is that the first plot determines the vertical scale, so the second plot (with `lines`) doesn't fit. To correct this, we need to set the `ylim` parameter on the `plot` call, but do so that properly we need to add code to calculate the maximum vertical value. Doing this line-by-line in the interactive window is somewhat inconvenient because we need to rearrange the code to use `samp.means` before calling `plot`. In a code file, though, we can easily make the appropriate edits:
 
-    ```r
+    ```R
     mu <- 50
     stddev <- 1
     N <- 10000
