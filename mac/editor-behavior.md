@@ -8,9 +8,11 @@ ms.topic: article
 ms.assetid: 81EE4460-26EB-4BB0-9297-932E1F88E4B8
 ---
 
-Many editor behaviors can be set that allow code to be formatted as it is written. These actions are set under **Preferences > Text Editor > Behavior**, and some of the more commonly used functions are described below:
+# Editor Behavior
 
-![](Images/source-editor-image9.png)
+Editor behaviors can be set to allow code to be formatted as it is written. These actions are set under **Preferences > Text Editor > Behavior**, and some of the more commonly used functions are described below:
+
+![Editor Behavior options](media/source-editor-image9.png)
 
 *  Matching closing braces can be added automatically to code when creating new classes, methods, or properties. When this option is selected, typing `{` will automatically add `}`.
 * On the fly code formatting is triggered by particular character presses such as semi-colon or braces, which will emulate the formatting preferences that are set.
@@ -20,3 +22,5 @@ Many editor behaviors can be set that allow code to be formatted as it is writte
  * Auto – sets the caret to the same column on the next line
  * Smart – indents on the following line based on the code
 * Word breaking behavior differs between OSes, and for navigation purposes, the text editor needs to know where words begin or end. The formatting can be set to Unix or Windows.
+
+You can also set formatting rules for XML, CSS, HTML, and JSON.
