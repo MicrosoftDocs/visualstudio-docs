@@ -1,6 +1,5 @@
 ---
-title: "Managing References in a Project"
-description: 
+title: "Managing References in a Project" 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -8,17 +7,18 @@ ms.topic: article
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
 ---
 
+# Managing References in a Project
 Visual Studio for Mac provides three different means of adding additional references to your project:
 
-![]()
+![Project References](media/projects-and-solutions-image10.png)
 
 These are:
 
 * References
-* NuGets
+* NuGets (Added via the Packages folder)
 * Components
 
-In addition Web References and native references can also be added to any project.
+In addition, Web References and native references can also be added to any project.
 
 ## Assembly References
 
@@ -26,7 +26,7 @@ Each framework within Xamarin ships with over a dozen assemblies. Not all of the
 
 To edit which packages that are referenced in your project, use the _Edit References_ dialog, which can be displayed by double-clicking on the References folder, or by select Edit References on its context menu actions:
 
-![]()
+![Assembly References dialoh](media/projects-and-solutions-image11.png)
 
 For information on the assemblies available for each Xamarin framework, refer to the [Available Assemblies](https://developer.xamarin.com/guides/cross-platform/advanced/available-assemblies/) guide.
 

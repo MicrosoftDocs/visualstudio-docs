@@ -1,5 +1,5 @@
 ---
-title: Projects and Solutions
+title: "Projects and Solutions"
 description: This document provides an overview of Projects and Solutions in Xamarin Studio.
 author: asb3993
 ms.author: amburns
@@ -7,9 +7,9 @@ ms.date: 04/14/2017
 ms.topic: article
 ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
 ---
+# Projects and Solutions
 
-
-Xamarin Studio provides a *Solution Pad* to display a tree view of the entire open solution that allows easy access to source code, resources, user interfaces, and assembly reference contained in individual Projects. The Solution Pad, by default, opens one solution at any one time. Each Solution can include many projects, and each project can contain many items.
+Visual Studio for Mac provides a *Solution Pad* to display a tree view of the entire open solution that allows easy access to source code, resources, user interfaces, and assembly reference contained in individual Projects. The Solution Pad, by default, opens one solution at any one time. Each Solution can include many projects, and each project can contain many items.
 
 ## Using Projects and Solutions
 
