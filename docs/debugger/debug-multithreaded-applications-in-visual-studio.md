@@ -52,19 +52,19 @@ Visual Studio provides different tools for use in debugging multithreaded apps.
 
 - For threads, the primary tools for debugging threads are the **Threads** window, thread markers in source windows, **Parallel Stacks** window, **Parallel Watch** window, and the **Debug Location** toolbar. To get started, see [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md) and [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).
   
-- For code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/), the primary tools for debugging multithreaded applications are the **Parallel Stacks** window, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports JavaScript). To get started, see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5). 
+- For code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/), the primary tools for debugging are the **Parallel Stacks** window, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports JavaScript). To get started, see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5). 
 
-- For debugging threads on the GPU, the primary tool is the **GPU Threads** windows. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).  
+- For debugging threads on the GPU, the primary tool is the **GPU Threads** window. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).  
 
 - For processes, the primary tools are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar.  
   
-Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md). 
+Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint conditions and filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md). 
   
 Debugging a multithreaded application that has a user interface can be especially difficult. In that case, you might consider running the application on a second computer and using remote debugging. For information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ## In This Section
  [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md).  
- A guided tour of thread debugging features, with emphasis on features in the **Parallel Stacks** window and **Parallel Watch** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
+ A guided tour of thread debugging features, with emphasis on features in the **Parallel Stacks** window and **Parallel Watch** window.
 
  [Tools for Debugging Threads and Processes](../debugger/debug-threads-and-processes.md)  
  Lists the features of the tools for debugging threads and processes.  
@@ -73,10 +73,10 @@ Debugging a multithreaded application that has a user interface can be especiall
  Explains how to debug multiple processes.
 
  [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).  
- A guided tour of thread debugging features, with emphasis on features in the **Threads** window [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]. 
+ Walkthrough that shows how to use the **Threads** window and the **Debug Location** toolbar. 
 
  [Walkthrough: Debug a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
- Walkthrough that shows how to use the **Parallel Tasks** and **Parallel Stacks** windows.  
+ Walkthrough that shows how to use the **Parallel Stacks** and **Tasks** windows.  
   
  [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
  Three ways to switch the debugging context to another thread.  

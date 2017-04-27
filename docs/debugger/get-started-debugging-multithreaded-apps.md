@@ -41,7 +41,7 @@ Visual Studio provides several tools and user interface elements to help you deb
 
 Other topics provide additional information on using other multithreaded debugging tools:
 
-- For a similar topic with a sample that uses <xref:System.Threading.Tasks.Task> or the concurrency runtime, see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md). Many of the concepts and tips in this topic will also apply to debugging parallel applications.
+- For a similar topic with a sample that uses <xref:System.Threading.Tasks.Task> (managed code) and the concurrency runtime (C++), see [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md). For general debugging tips that apply to most multithreaded application types, read both this topic and the linked topic.
 
 - For a similar topic that shows how to use the **Debug Location** toolbar and the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
   
@@ -343,7 +343,7 @@ You can set breakpoints on different conditions, such as the thread name or (if 
 
 #### To switch the active thread 
 
-- See [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
+- To switch the debugger context, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
   
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   
