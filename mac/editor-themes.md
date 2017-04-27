@@ -1,6 +1,5 @@
 ---
 title: "Editor Themes"
-description: 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -8,10 +7,26 @@ ms.topic: article
 ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
 ---
 
-Editor themes can be changed to any of the ten color schemes provided by default in Xamarin Studio via the **Preferences > Text Editor > Syntax Highlighting** menu options:
+# Editor Themes
+Editor themes can be changed to any of the ten color schemes provided by default in Visual Studio for Mac via the **Preferences > Text Editor > Color Themes** menu options:
 
- ![](Images/source-editor-image17.png)
+ ![Color Theme Selection](media/source-editor-image17.png)
 
-The developer also has fine grain control over syntax highlighting, allowing the creation of custom color schemes. This is done via the **Syntax Highlighting** menu, which is displayed in the image above. Select the **New** button, choose the color scheme desired for the new color scheme to be based on, and click **OK**. This will allow changing the foreground and background colors for many different objects, as illustrated below:
+## Adding new Themes
 
- ![](Images/source-editor-image18.png)
+New color themes can be added, provided they are in one of the supported formats. These are:
+
+* Visual Studio (`.vssettings`)
+* Xamarin Studio (`.json`)
+* TextMate (`.tmTheme`)
+
+There are many resources provided online that will allow you to create your theme and produce a file in the supported format. There are also many gallerys online that will provide free access to Visual Studio and TextMate themes.
+
+Once you have found or created a new theme and downloaded it to your local machine, add it by doing the following:
+
+1. Select the **Add** button on the Color Themes Option dialog:   
+    ![Color Theme Add](media/source-editor-image20.png)
+2. Browse for the theme on your local machine and press **Open**.
+3. This adds the theme to the bottom of the pre-installed list of themes. To preview it, select it. This will update your editor in the background:
+    ![Color Theme Preview](media/source-editor-image21.png)
+4. To apply it, press the **Okay** button. 
