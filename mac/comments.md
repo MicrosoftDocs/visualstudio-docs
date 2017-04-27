@@ -1,6 +1,5 @@
 ---
 title: "Comments"
-description: 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -18,17 +17,17 @@ To comment out an entire block of code:
 
 OR
 
-* Use the `&#8984; + /` keybinding on the selected code.
+* Use the `cmd + /` keybinding on the selected code.
 
 These methods can be used to comment and uncomment sections of code. In C# files, additional levels of line comments can be added, which allows regions of codes to be commented and uncommented, while still preserving actual comments: 
 
- ![](Images/source-editor-image8.png)
+ ![multi-level comments](media/source-editor-image8.png)
 
 Comments are also useful for documenting code for future developers that may interact with it. These are usually done in the form of multi-line comments, which is added in the following way in each language:
 
 **C#**
 
-```
+``` cs
 /*
  This is a multiline
  comment in C#
@@ -36,7 +35,7 @@ Comments are also useful for documenting code for future developers that may int
 ```
 **F#**
 
-```
+```fsharp
 (*
  This is a multiline
   comment in F#
