@@ -279,7 +279,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
-    Notice that some thread markers will be partly concealed by the breakpoint (which you can remove, if needed). 
+    Notice that a thread marker for multiple threads will be partly concealed by the breakpoint. 
   
 4.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`. 
   
@@ -295,7 +295,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
     In this example, from left to right we get this information:
     
-    - The Main thread (left side) has stopped on `Thread.Start` (this is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")
+    - The Main thread (left side) has stopped on `Thread.Start` (this is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")).
     - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the active thread (yellow arrow), and the other has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting (stopped on `ThreadHelper.ThreadStart`).
 
@@ -371,7 +371,7 @@ Flag all the threads again before continuing the next task (in which you will fr
 
     The app may also instantiate some new threads. Notice that any new threads are unflagged and are not frozen.
 
-## a name="bkmk_follow_a_thread"></a> Follow a Single Thread by using Conditional Breakpoints
+## <a name="bkmk_follow_a_thread"></a> Follow a Single Thread by using Conditional Breakpoints
 
 Sometimes, it can be helpful to follow the execution of a single thread in the debugger. One way you can do that is by freezing threads that you are not interested in, but in some scenarios you may wish to follow a single thread without freezing other threads (to repro a particular bug, for example). To follow a thread without freezing other threads, you must avoid breaking into code except on the thread that you are interested in. You can do this by setting a conditional breakpoint.
 
