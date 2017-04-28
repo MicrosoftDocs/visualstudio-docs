@@ -1,7 +1,7 @@
 ---
-title: "Code Snippets with the R Tools for Visual Studio | Microsoft Docs"
+title: Code Snippets with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/28/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,30 +32,49 @@ translation.priority.ht:
 
 # Code snippets
 
-There are common pieces of code that you type every day such as create a plot or read a CSV file. To help make you more productive in your day-to-day work, we have added a number of *code snippets* to Visual Studio. A code snippet makes it easier for you to enter repeating code patterns. To insert one of those code patterns into your editor, you need:
+Code snippets in Visual Studio provide shortcuts to quickly insert code blocks of arbitrary length, helping you avoid retyping similar code over and over. The R Tools for Visual Studio (RTVS) add dozens of useful R snippets to Visual Studio's collection.
 
-1. Type the abbreviated name of the Code Snippet (IntelliSense is available)
-1. Press the trigger key, TAB, to insert the code snippet.
+To insert a snippet, type the abbreviated name of snippet (IntelliSense is provided), then press Tab to insert.
 
 Some simple examples:
 
-- type =Tab and VS expands to the <- assignment operator.
-- type >Tab and VS expands to the %>% pipe operator
+- type `=` then Tab and RTVS expands it to the `<-` assignment operator.
+- type `>` then Tab and RTVS expands it the `%>%` pipe operator.
 
-Snippets can be much more than just completion of characters. They can save you from having to remember the names of parameters in complex function calls. Here's an example of a snippet for reading a CSV file via the `read.csv` function:
+Snippets can be much more than just character completion of characters. For example, they can relieve you from having to remember the names of parameters in complex function call, such as this snippet for reading a CSV file with the `read.csv` function:
 
-![](media/code-snippet-expansion.gif)
+![Animation of using a code snippet to insert a call to read.csv](media/code-snippet-expansion.gif)
 
-The characters you type will be `readc`. As you type, you can see that it shows up on your IntelliSense completions list as well as you type. Once it is selected in the IntelliSense dropdown, you can complete the selection by pressing Tab. At this point, the string `readc` will be immediately to the left of your cursor. Pressing TAB again will cause the expansion of the snippet. This explains why sometimes you think of snippet expansion as being "type the snippet and press TAB twice". In most cases, the first TAB completes the selection in IntelliSense, and the second TAB triggers the snippet expansion.
+In this case, as you type `readc`, IntelliSense displays a completion list. Selecting that completion in the drop down and pressing Tab selects `readc`, and pressing Tab again expands the snippet. (For this reason, snippet expansion is often thought of as "type the snippet and press TAB twice"). In most cases, the first Tab completes the IntelliSense selection and the second Tab triggers the expansion.
 
-## Create your own code snippets
+To see all the available snippets, open the **Tools > Code Snippets Manager...** dialog box (Ctrl+K,B) and select **R** for **Language**. Expand the groups and select individual snippets to see a description and the shortcut text:
 
-If you want to examine the code snippets in Visual Studio, use the **Tools > Code Snippets Manager** command to bring up the UI. Select **R** from the list of languages in the drop-down to see all of the snippets that we've defined:
+![Code snippets dialog box for R](media/code-snippet-dialog.png)
 
-![](media/code-snippets-box-plot.png)
-
-You can create your own code snippets as well as described on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
+To create custom code snippets, following the instructions on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md). Ultimately, a code snippet is just an XML file. For example, the following is the snippet for the pipe operation (shortcut `>`)
 
 Note that a code snippet is just an XML file; here's the Code Snippet for the pipe operator:
 
-![](media/code-snippet-example.png)
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Dplyr pipe</Title>
+      <Shortcut>&gt;</Shortcut>
+      <Description>Code snippet for '%&gt;%' operator</Description>
+      <Author>Microsoft Corporation</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+       </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="R">
+        <![CDATA[ %>% $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+```
+
+The XML files for all code snippets are installed with RTVS; the **Location** field in the **Code Snippets Manager** provides the path. You can also find them in the RTVS source code on GitHub under [src/Package/Impl/Snippets](https://github.com/Microsoft/RTVS/tree/master/src/Package/Impl/Snippets).
