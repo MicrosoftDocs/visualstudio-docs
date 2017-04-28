@@ -63,6 +63,12 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
 Finally, the [Interactive Window](interactive-repl.md) is a powerful tool that lets you interactively call functions in your code. You can also have the debugger bound to your Interactive Window session, which lets you step through the code that you're calling. This makes it easy to call functions with different parameter values to verify that the behavior of your function is correct.
 
+
+### Better with SQL Server
+
+(Content moved)
+
+
 ### Powerful data visualizers
 
 While writing your R programs, you will frequently need to visualize your data. Either through inspecting the values of your data or through plots, RTVS provides you with the tools that you need to be highly productive in your day to day work. Let's look at some of the powerful data visualization features in RTVS:
@@ -100,23 +106,6 @@ syntax coloring and IntelliSense, for both your Markdown markup **and the R code
 
 We make it easy for you to generate HTML, PDF, or Word markdown documents. For more details, see the [RMarkdown documentation](rmarkdown.md).
 
-### Better with SQL Server
-
-A tremendous amount of enterprise data is stored in relational databases, and [SQL Server](https://www.microsoft.com/sql-server/sql-server-2016) is one of the most popular relational databases on the market. SQL Server 2016 has a feature called [SQL Server R Services](https://www.microsoft.com/sql-server/sql-server-r-services), where we have embedded an R runtime in the database server. This makes it easy to use R to perform advanced analytics over your relational data, and dramatically reduces the latency required to perform those analytics by eliminating the need for data movement.
-
-This feature uses [SQL R Stored Procedures](https://msdn.microsoft.com/library/mt591996.aspx) that mixes R and SQL code together in a stored procedure. You'll need to write some SQL code to select the data that your R code analyzes. Since you're writing code in two different languages, we've added features in RTVS to write and test your SQL code and your R code *independently*. You begin by using our SQL R Stored Procedure template in Visual Studio to create a new Stored Procedure. It generates three files for you:
-
-1. `StoredProcedure.R` is where you write the R code that you want to execute in your SQL stored procedure.
-1. `StoredProcedure.Query.sql` is where you write the SQL code that you want to execute in your SQL stored procedure.
-1. `StoredProcedure.Template.sql` is the generated template file that will combine your SQL query and your R code.
-
-![Solution Explorer Expanded View Of SQL Stored Procedure](media/sql-solution-explorer-expanded.png)
-
-When you double click on the `StoredProcedure.Query.sql` file, we activate the SQL editor, courtesy of the [SQL Server Data Tools for Visual Studio extension](https://msdn.microsoft.com/mt186501.aspx) that gives you syntax coloring and IntelliSense for your SQL code. 
-
-![SQL Window Query Results](media/sql-query-results.png)
-
-Once you're happy with your SQL and your R Code, RTVS will handle combining your results and packaging them up to send to SQL Server. For more details, see the detailed walkthrough in our documentation for [SQL Server support](sql-server.md).
 
 ### Scalable compute resources
 
@@ -169,41 +158,43 @@ A. [CRAN R](https://cran.r-project.org/), [Microsoft R Client and Microsoft R Se
 
 **Q. Where can I download these interpreters?**
 
-A. See the [installation instructions](installation.md).
+A. See [Installation](installation.md).
 
-**Q. Since RTVS is in VS, does it mean that R can be easily used with C#, C++ and other Microsoft languages?**
+**Q. Because RTVS is in VS, does it mean that R can be easily used with C#, C++ and other Microsoft languages?**
 
-A. No. RTVS is a tool for developing R code, and uses the standard native R interpreters. We do not have any support currently for interop between R and other languages.
+A. No. RTVS is a tool for developing R code, and uses the standard native R interpreters. There currently isn't support for interop between R and other languages.
 
 **Q. Feature X is missing, but RStudio has it!**
 
-A. RStudio is a fantastic and mature IDE for R that's been under development for many years. We hope to have all the critical features that you need to be successful. Please help us prioritize the TODO list by taking the [RTVS survey](https://www.surveymonkey.com/r/RTVS1).
+A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by taking the [RTVS survey](https://www.surveymonkey.com/r/RTVS1).
 
 **Q. Will RTVS work on MacOS / Linux?**
 
-A. No. RTVS is built on top of Visual Studio, which is a Windows-only implementation. However, we are investigating building a new set of tools based on [Visual Studio Code](https://code.visualstudio.com/), the wildly popular cross-platform editor from Microsoft.
+A. No, RTVS is built on top of Visual Studio, which is a Windows-only implementation. That said, Microsoft is investigating building a new set of tools based on [Visual Studio Code](https://code.visualstudio.com/), the wildly popular cross-platform editor from Microsoft.
 
 **Q. Can I contribute to RTVS?**
 
-A. Absolutely! The source code lives on [Github](https://github.com/microsoft/RTVS). Please use our issue tracker to submit / vote / comment on bugs!
+A. Absolutely! The source code lives on [Github](https://github.com/microsoft/RTVS). Please the issue tracker to submit bugs and comment on those already files.
+
+You're also welcome to contribute to this documentation--just select the **Edit** command on the upper right of any page. Comments on the docs are also welcome, which you can add at the bottom of any page.
 
 **Q. Does RTVS work with my source control system?**
 
-A. Yes, you can use any source control system that is integrated into Visual Studio. e.g., TFS, git, SVN, hg etc.
+A. Yes, you can use any source control system that is integrated into Visual Studio.
 
-**Q. I don't use a US English locale in Windows or in VS. Will RTVS work?**
+**Q. I don't use a US English locale in Windows or in Visual Studio. Will RTVS work?**
 
-A. The 1.0 release of RTVS will be English-only. The 1.1 release will be localized to the same set of languages that Visual Studio itself is. In the meantime, we recommend using the English language pack for Visual Studio. If English is not available in the drop-down, you'll need to install the [Visual Studio Language pack](https://www.microsoft.com/download/details.aspx?id=48157).
+A. The 1.0 release of RTVS will be English-only. The 1.1 release will be localized to the same set of languages that Visual Studio itself is. In the meantime, use the [English language pack for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48157), or in Visual Studio 2017, run the installer and select English in the **Language Packs** tab.
 
 ![](media/FAQ-international-settings.png)
 
 **Q. Will RTVS work with 32-bit editions of R?**
 
-A. No. RTVS only supports 64-bit editions of R running on 64-bit editions of Windows.
+A. No, RTVS only supports 64-bit editions of R running on 64-bit editions of Windows.
 
 **Q. I really like my current Visual Studio settings, but I want to try out the new Data Science settings. What should I do?**
 
-A. You can always save your current Visual Studio settings through **Tools > Import and Export Settings...** command. You can also use this command to restore one of the default Visual Studio settings (e.g., C++ or General).
+A. Save your current Visual Studio settings using **Tools > Import and Export Settings...**, then switch to the Data Science settings. To restore the saved settings, use the **Import and Export Settings...** command again.
 
 **Q. What are the recommended `.gitignore` settings for an RTVS project?**
 
@@ -211,4 +202,4 @@ A. Github maintains a master repository of recommended `.gitignore` files. You c
 
 **Q. Can I store my Visual Studio project on a network share?**
 
-A. No. This is not a supported scenario for Visual Studio.
+A. No, this isn't supported by Visual Studio.

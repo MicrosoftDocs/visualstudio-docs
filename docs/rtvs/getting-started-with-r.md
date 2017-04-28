@@ -145,7 +145,7 @@ As an example, the following steps create a little code to explore the [Central 
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 
-There's more you can do in the editor. For details, see [editing code](code-editing), [IntelliSense](code-intellisense.md), [code navigation](code-navigation.md), and [code snippets](code-snippets.md).
+There's more you can do in the editor. For details, see [editing code](code-editing), [IntelliSense](code-intellisense.md), and [code snippets](code-snippets.md).
 
 ## Debugging your code
 

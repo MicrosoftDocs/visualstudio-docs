@@ -1,7 +1,7 @@
 ---
-title: "Editing Code with the R Tools for Visual Studio | Microsoft Docs"
+title: Editing Code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/25/2017
+ms.date: 4/28/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,85 +32,128 @@ translation.priority.ht:
 
 # Editing R code in Visual Studio
  
-R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R, while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
+R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R. while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
 
 In this topic:
 
+- [Syntax highlighting](#syntax-highlighting)
+- [Editing and organizing code](#editing-and-organizing-code)
+- [Code navigation](#code-navigation)
+- [Sending code to the interactive window](#sending-code-to-the-interactive-window)
+- [Formatting code](#formatting-code)
+- [Inserting Roxygen comments](#inserting-roxygen-comments)
+- [Editor options](#editor-options)
 
-Also see the topics on [IntelliSense](code-intellisense.md), [code navigation](code-navigation.md), and [code snippets](code-snippets.md).
+Also see the topics on [IntelliSense](code-intellisense.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
 
 
 ## Syntax highlighting 
 
 In addition to coloring different parts of your code, such as strings, comments, and keywords, RTVS also highlights and enables links in comments:
 
-![](media/syntax-colors-example.png)
+![Syntax coloring for R code](media/editing-syntax-colors.png)
 
-Visual Studio also supports *themes* that let you switch between a set of predefined themes (e.g., Blue, Dark, and Light) as well as making it easy for you to define custom colors for R syntax elements through Visual Studio's extensive customization features.
+To customize fonts and certain highlight colors, select the **Tools > Options** command, navigate to **Environment > Fonts and Colors**, then change settings for R-related items in the **Display items:** box:
 
+![Fonts and color options for R code](media/editing-syntax-colors-options.png)
 
+Visual Studio also underlines syntax errors in the editor:
 
-## Typing and organizing your code
+![Syntax error highlighting in R code](media/editing-syntax-error.png)
 
-As you type your code, we do a number of things to improve your productivity. For example, we will auto-complete braces and parenthesis as you type: 
+To change this behavior, see the **Advanced > Syntax check** setting under [editor options](#editor-options).
 
-![](media/editing-inline-formatting.gif)
+## Editing and organizing your code
 
-When typing calls to functions that have many parameters, oftentimes you want to line up the parameters to make the code easier to read. We now support remembering the indentation position for your parameters once you've told us what it is. From that point onwards we'll automatically indent to that indentation position when you press Enter at the end of a line:
+As you type code, RTVS provides auto-completion as described on the [IntelliSense](intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
 
-![](media/editing-lined-up-parameters.gif)
+![Animation of inline formatting](media/editing-inline-formatting.gif)
 
-Collapsible code regions are really useful when you want to temporarily hide chunks of code in the editor. You just need to surround the code that you want to create a region around using specially formatted comments. The start of a region is defined by a comment with a trailing set of `---`; the comment text will be displayed as the name of the region when the region is collapsed. The
-end of a region is defined by a comment that contains `----`. See an example of this below:
+When typing calls to functions that have many parameters, oftentimes you want to line up the parameters to make the code easier to read. RTVS remembers the indentation your set for parameters and automatically applies that indentation for subsequent lines:
 
-![](media/editing-collapsible-regions.gif)
- 
-## Editor and interactive window
+![Animation of automatic indentation](media/editing-auto-indentation.gif)
 
-A very common style of programming involves write code in the editor, and then selecting and sending lines to the R Interactive window (also known as a Read-Eval-Print-Loop or REPL). You can select code within the editor and send to the REPL using Ctrl+Enter:
- 
-![](media/editing-send-to-repl.png)
- 
-If you press Ctrl+Enter in the editor without selecting any text, it will send the current line that the cursor is on to the REPL, and then advance to the next non-whitespace line. This makes it convenient to execute a sequence of code from the editor simply by pressing Ctrl+Enter without the need to advance the cursor to the next line. In the example below, the cursor was originally on the line in the editor window with the "1", and Ctrl+Enter was pressed twice. 
- 
-![](media/editing-code-to-repl-by-line.png) 
- 
-## Code Formatting
+To change this behavior, see [editor options](#editor-options) below for the **Tabs** group.
 
-**Automatic formatting** saves you time when documenting code or formatting it the way you want it to be - even if you copy and pasted that code from a different implementation. Here's an example of generating an [Roxygen](http://roxygen.org/) comment using the parameter names of a function simply by typing `###` on a blank line above the function definition:
+Collapsible code regions let you temporarily hide part of code in the editor. Visual Studio creates various regions for you automatically, as for multi-line statements, unless the **Advanced > Outlining > Code outlining** option is set to Off.
 
-![](media/roxygen-comments.gif)
+To create a region of your own, surround the desired code with comments that end with `---`. The small +/- controls to the left of the code lets you then expand and collapse regions:
 
+![Creating a collapsible region with comments](media/editing-collapsible-regions.gif)
+ 
+By default, Visual Studio inserts spaces when you press the Tab key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages-tabs).
 
-The editor supports automatically formatting R code based on your preferences. For example, if you had a function definition all on a single line:
- 
-![](media/editing-reformatting-example.png)
+# Code navigation
 
-You can reformat the code by selecting it, right clicking on the selection, and running the Format Selection command. Or you can also just type the shortcut key chord Ctrl K,F.
- 
- ![](media/editing-reformatting.png)
- 
-The editor also supports formatting an entire document. So if you loaded a large document of R code that you wanted to format to your coding conventions, you can open the file in the RTVS editor, and select Format Document from the Edit menu, or by pressing the shortcut key chord Ctrl+K,D.
- 
- ![](media/editing-reformatting-document.png)
- 
-You can define your own R coding conventions by invoking the **Tools > Options** menu:
- 
- ![](media/editing-custom-code-conventions.png)
+Code navigation gives you quick access to the source code of your R program and its libraries. These navigation features keep you in the flow of your work rather than having to take the time to search for and manually navigate to the code of interest.
 
-This brings up the Options dialog box. Once that is open, you can scroll down until you reach the Text Editor node. Click the chevron to open it and scroll down until you reach the R section. Here, you will find all of the editor configuration settings for R. 
- 
- ![](media/editing-configuring.png)
- 
-Another way to quickly get to the R editor options is to use the **R Tools** top level menu:
- 
- ![](media/editing-options.png)
- 
-Within the dialog box, if you select the **Advanced** options, you can define how you want your code formatted:
- 
- ![](media/editing-options-advanced.png) 
+**Go To Definition** quickly jumps to a function definition or pop up an inline mini-editor to read the source code of a library function. Just right-click the function of interest and select **Go To Definition**, or place the cursor in the function and press F12.
 
-This includes whether you want RTVS to automatically format code based on your preferences when you type it, or whether you want it to reformat code that you paste into RTVS from the clipboard. This is helpful when you are pasting in code that you copy from a web browser, for example.
+This opens a new editor window containing the source code for the function, and with the cursor conveniently positioned at the start of the function definition.
+
+**Peek Definition**, invoked from the right-click menu or Alt+F12, inserts a read-only, scrollable region containing the source code of the function below the function call:
+
+![Animation for peek definition](media/editing-peek-definition.gif)
+
+## Sending code to the interactive window
+
+Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). This is done in the R editor by pressing Ctrl+Enter for the current line of code, which then places the cursor on the next line. With Ctrl+Enter, then, you can effectively step through your code from the editor.
+
+You can also select code and press Ctrl+Enter to apply that entire selection. Alternately, right-click the selection and select **Execute in Interactive**.
+
+## Formatting code
+
+Visual Studio's automatic formatting keeps the code you write, as well as code you paste into the editor, formatted as set by your preferences. You can also make a selection, right-click, and select **Format Selection** (Ctrl+K,F) to apply those preferences. For example, if you had a function definition all on a single line:
+
+```R
+f<-function  (a){  return(a + 1) }
+```
+
+Applying formatting will clean it up to be:
+
+```R
+f <- function(a) { return(a + 1) }
+```
+
+To reformat the entire code file, select **Edit > Advanced > Format Document** (Ctrl+E,D).
+
+Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit > Undo** or pressing Ctrl+Z once will undo the formatting; a second Undo will reverse the paste itself.
  
-You can also undo formatting. If you have **Format** on paste enabled in the RTVS options, and you want to preserve the formatting in the pasted code without permanently turning off the **Format** on paste option in RTVS, all you need to do is paste it into RTVS and press Ctrl+Z to undo the formatting changes.
+Formatting options (including turning formatting off) are set through **Tools > Options** on the **Text Editor > R > Advanced** tab, which you can go to directly using either the **R Tools > Editor options...** command or by right-clicking in the editor and selecting **Formatting options...**. See [editor options](#editor-options) below for details.
  
+## Inserting Roxygen comments
+
+RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
+
+![Animation of inserting a Roxygen comment](media/editing-roxygen-comments.gif)
+
+# Editor options
+
+Editor-specific options are set through the **Tools > Options** command, navigating to **Text Editor > R**, or use the shortcut command **R Tools > Editor Options...**.
+
+Options on the **General**, **Scroll bars**, and **Tabs** tabs are not specific to R, but are rather general Visual Studio settings available for all languages but applied on a per-language basis. For details, see the following topics:
+
+- [Options, Text Editor, All Languages](../ide/reference/options-text-editor-all-languages.md)
+- [Track you code by customizing the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)
+- [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md)
+
+Options on the **R > Advanced** tab are specific to RTVS:
+
+| Group | Option | Default | Description |
+| --- | --- | --- | --- |
+| Formatting | Automatic formatting | On | Reformats code as you type. Does not affect the **Format Selection** or **Format Document** commands. |
+| | Expanded braces | Off | Places an open { on a new line. |
+| | Format on paste | On | Applies formatting on paste. |
+| | Format scope on } | On | Formats scope after typing a closing }. |
+| | Space after comma | On | Places a space after commas. |
+| | Space after keyword | On | Places a space after keywords like `if`, `while`, and `repeat`. |
+| | Space before { | On | Places a space before and opening {. |
+| | Spaces around = | On | Places spaces around a equal sign. |
+| IntelliSense | Commit on Enter key | Off | Commits auto-completion selection when Enter is pressed. |
+| | Commit on Space key | Off | Commits auto-completion selection when Space is pressed.|
+| | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit > IntelliSense > List Members** (Ctrl+J). |
+| | Completion list on Tab key | Off | Invokes completion list by typing one or more characters and pressing Tab. |
+| | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
+| Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 
+| Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. | 
+| Syntax check | Show syntax errors | On | Enables automatic syntax checking of code. |
