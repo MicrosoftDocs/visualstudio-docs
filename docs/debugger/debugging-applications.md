@@ -40,7 +40,7 @@ The following sections deal with debugging for specific types of applications. D
   
 |||  
 |-|-|  
-|[Debugging Windows Store and Windows Universal apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug Windows Store apps and Windows Universal apps.|  
+|[Debugging Windows Store and Universal Windows Apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug Windows Store apps and Universal Windows Apps.|  
 |[Debugging Managed Code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, and F3).|  
 |[Debugging Native Code](../debugger/debugging-native-code.md)|Describes how to debug different kind of native C++ applications.|  
 |[Debugging GPU Code](../debugger/debugging-gpu-code.md)|Describes how to debug C++ code that runs on the graphical processing unit (GPU).|  
