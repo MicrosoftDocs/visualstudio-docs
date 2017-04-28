@@ -94,7 +94,7 @@ After taking steps to resolve an issue detailed here, and before trying again to
      
 ## Other causes
 
-If the preceding steps didn't work, try these steps:
+If the IIS configuration is not causing the issue, try these steps:
 
 - Restart Visual Studio with elevated privileges and try again.
 
