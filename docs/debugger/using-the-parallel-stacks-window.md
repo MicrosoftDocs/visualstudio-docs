@@ -1,7 +1,7 @@
 ---
-title: "Using the Parallel Stacks Window | Microsoft Docs"
+title: "View Threads using the Parallel Stacks Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Using the Parallel Stacks Window
+# View the Location of Threads and Tasks using the Parallel Stacks Window
 The **Parallel Stacks** window is useful when you are debugging multithreaded applications. Its **Threads View** shows call stack information for all the threads in your application. It lets you navigate between threads and stack frames on those threads. In managed code, the **Tasks View** shows call stacks of <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects. In native code, the **Tasks View** shows call stacks of [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime).  
   
 ## Threads View  
@@ -54,7 +54,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 |C|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
 |D|Tooltip on Node Header|Shows the ID and user-defined name of each thread whose call path shares this node.|  
 |E|Method Context|Represents one or more stack frames in the same method.|  
-|F|Tooltip on method context|In Threads view, it shows all the threads in a table similar to the **Threads** window. In Task view, it shows all the tasks in a table similar to the **Parallel Tasks** window.|  
+|F|Tooltip on method context|In Threads view, it shows all the threads in a table similar to the **Threads** window. In Task view, it shows all the tasks in a table similar to the **Tasks** window.|  
   
  In addition, the Parallel Stacks window shows a **Bird's Eye View** icon in the main pane when the graph is too large to fit into the window. You can click on the icon to see the entire graph in the window.  
   
@@ -128,10 +128,10 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  By switching to a new stack frame, you make that method the current method and cause the window to show all the callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to Stack View, click the Method View toolbar button again.  
   
 ## See Also  
+ [Get Started Debugging a Multithreaded Aplication](../debugger/get-started-debugging-multithreaded-apps.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)   
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)   
  [Task Class](../extensibility/debugger/task-class-internal-members.md)
