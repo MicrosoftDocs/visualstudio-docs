@@ -93,7 +93,7 @@ To add a new SQL Stored Procedure, right-click your project, select **Add > New 
  
 RTVS creates three files for the stored procedure, a `.R` file for your R code, a `.Query.sql` file for the SQL code, and a `.Template.sql` file that combines the two. They latter two appear in Solution Explorer as children of the `.R` file:
 
-    ![Solution Explorer expanded view of SQL Stored Procedure with R](media/sql-solution-explorer-expanded.png)
+![Solution Explorer expanded view of SQL Stored Procedure with R](media/sql-solution-explorer-expanded.png)
 
 `StoredProcedure.R` (in this example) is where you'll write your R code. The default contents are as follows:
 
