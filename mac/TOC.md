@@ -41,6 +41,10 @@
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
 # [Version Control](version-control.md)
+## [Setting Up a Git Repository](set-up-git-repository.md) 
+## [Working with Git](working-with-git.md)
+## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
+## [Working with Subversion](working-with-subversion.md)
 
 # [Troubleshooting]()
  
