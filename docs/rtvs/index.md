@@ -125,7 +125,7 @@ R developers and data scientists often prefer to use laptops in their day-to-day
 The [workspaces](workspaces.md) feature of RTVS makes it easy to bind RTVS to different workspaces. Local workspaces are simply other versions of the R interpreter that you have on your local computer. **Remote workspaces** are R interpreters that are installed on remote computers. By [installing RTVS Remote Services](workspaces-remote.md) on a machine with lots of CPU cores, lots of RAM, lots of storage, or lots of GPU, you can tailor the execution environment to the needs of your code and the data that you want to analyze. A remote workspace can
 be shared by several team members, making it easier to collaborate on large or sensitive datasets that must reside on an IT-managed computer.
 
-![](media/workspace-window.png)
+![](media/workspaces-window.png)
 
 You can even setup your remote workspaces on [Azure virtual machines](https://azure.microsoft.com/services/virtual-machines/?b=17.08),
 eliminating the need for capital expenditures to get the computing resources that you need to get your work done. 

@@ -37,7 +37,7 @@ A workspace in R Tools for Visual Studio (RTVS) lets you configure where an R se
 
 To open the **Workspaces** window, use the **R Tools > Windows > Workspaces** command or press Ctrl+9.
 
-![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspace-window.png)
+![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspaces-window.png)
 
 In this window, the green checkmark indicates the active workspace to which RTVS is bound. Selecting a blue arrow sets the active workspace. The settings (gear) icon to the right of each workspace allows you to change its name, location, and command line arguments. The red X removes a manually-added workspace.
 
@@ -70,7 +70,7 @@ RTVS might not detect an R interpreter that's installed in a non-standard way (f
 1. Enter the path to the R root folder, which is the one that contains the `bin` folder with the interpreter, and any optional command line arguments to pass to the interpreter when RTVS starts it up.
 1. Select **Save** when you're done.
 
-![Adding a new workspace](media/workspace-add-new.png)
+![Adding a new workspace](media/workspaces-add-new.png)
 
 ## Remote workspaces
 
@@ -96,7 +96,7 @@ To change the active workspace, select the blue arrow next to the desired worksp
 
 If you attempt to switch to a local workspace that's been uninstalled or a remote workspace that it unavailable, you might encounter situations where an RTVS project is not bound to any workspace. As a result, you might see an error like the one below when you enter code in the interactive window or try to run code otherwise. To correct this, simply switch to another workspace in the Workspaces window. If none are available, you'll need to install an R interpreter. You can also try restarting Visual Studio you've installed an interpreter while Visual Studio running.
 
-![Error when no workspace is bound to RTVS](media/workspace-disconnected-interactive-window.png)
+![Error when no workspace is bound to RTVS](media/workspaces-disconnected-interactive-window.png)
 
 ### Switching to a remote workspace
 
@@ -104,7 +104,7 @@ RTVS prompts you for credentials when you first connect to a remote workspace, t
 
 Depending on the server's configuration, you may see a certificate warning when connecting, "The security certificate presented by the Remote R Services does not allow us to prove that you are indeed connecting to the machine (name)."
 
-![Self-signed certificate warning when connecting to a remote workspace](media/workspace-remote-self-signed-certificate-warning.png)
+![Self-signed certificate warning when connecting to a remote workspace](media/workspaces-remote-self-signed-certificate-warning.png)
 
 The certificate is a document that is presented to RTVS by the machine that you are trying to connect to, which contains a field that identifies the URI of that machine. The warning appears when RTVS detects a mismatch between the URI in the certificate and the URI used to connect to the machine, indicating that the server's security may have been compromised.
 

@@ -43,7 +43,7 @@ Projects are always managed within a Visual Studio *solution*, which can contain
 1. Choose **File > New > Project...** (Ctrl+Shift+N)
 1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
 
-    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.pn
+    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
 
 This will create a project with an empty `script.R` file open in the editor. Notice also in **Solution Explorer** there are two other files in the project:
 
