@@ -1,7 +1,7 @@
 ---
 title: "Integrating SQL Server with R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 4/28/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
