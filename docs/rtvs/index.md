@@ -83,11 +83,11 @@ While writing your R programs, you will frequently need to visualize your data. 
 
 The [Variable Explorer](variable-explorer.md) gives you a convenient way to see all of the variables that you have defined in your program, including data frames:
 
-![](media/repl-variable-explorer-cmds-example-drill-down2.png)
+![](media/variable-explorer-cmds-example-drill-down2.png)
 
 It provides convenient links to other tools like the **Table viewer** for visualizing your data frames, and a one-click experience for exporting your data frame to **Excel**:
 
-![](media/repl-variable-explorer-table-view.png)
+![](media/variable-explorer-table-view.png)
 
 ## Visualizing data
 

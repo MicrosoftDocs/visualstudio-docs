@@ -33,160 +33,85 @@ translation.priority.ht:
 
 # Working with the R Interactive window
 
-R Tools for Visual Studio (RTVS) includes interactive windows for each of your installed environments. Also known as **REPL** (Read/Evaluate/Print Loop) windows, these allow you to enter R code and see the results  immediately. You can use all modules, syntax and variables, just like in an R script.
+R Tools for Visual Studio (RTVS) provides an R interactive window, also known as a **REPL** (Read-Evaluate-Print-Loop) window, in which you can enter R code and immediately see the results. All modules, syntax, and variables, as well as IntelliSense, is available in the interactive window.
 
-**Interactive code execution** lets you execute and see the results of running small pieces of code as you write it. We integrate the typing experience in the editor with the Interactive Window. You type code into the editor window, and press Ctrl+Enter to send the current line under the cursor to the Interactive Window for execution. You can select several lines of code in the editor (see the screenshot below), and press Ctrl+Enter to send the selection to the Interactive Window for execution. Placing the editor window and the Interactive Window side-by-side is a great way to experience this feature:
+The interactive window is also integrated with regular R editor windows. You can select code and press Ctrl+Enter or right-click and select **Execute in Interactive**, and the code is run line-by-line in the interactive window as if you typed it directly. When the cursor is on a single line in an editor window, Ctrl+Enter sends that line to the interactive window and then moves the cursor to the next line. This way you can just press Ctrl+Enter repeatedly to step through the code.
 
-![](media/repl-interactive-execution.png)
+To experience this, you can follow the [Getting Started with R](getting-started-with-r.md) walkthrough as well as the sections below:
 
-## Overview of the REPL
+- [Overview of the interactive window](#overview-of-the-interactive-window)
+- [Workspaces and sessions](#workspaces-and-sessions)
+- [Working directory](#working-directory)
+- [History](#history)
 
-Typing valid R code and pressing Enter at the end of the line will execute the code on that line.
+[Code snippets](code-snippets.md) also work in the interactive window like they do in R editor windows.
 
-![Interactive math](media/repl-interactive-math.png)
+## Overview of the interactive window
 
-All previous input and output in the REPL is read-only and cannot be changed. You can select output using the mouse and copy to the clipboard using Ctrl+C. You can also right-click using the mouse and select copy from the context menu:
+Typing valid R code and pressing Enter at the end of the line will execute the code on that line:
 
-![Copy](media/repl-copy.png)
+```
+> 3 + 3
+[1] 6
+```
 
-You can paste input into the REPL by using Ctrl+V at an input prompt or by right-clicking and using the context menu:
+Pressing Enter anywhere on a single-line input also runs that line.
 
-![Insert](media/repl-insert.png)
+All previous input and output in the REPL is read-only and cannot be changed. However, you can select and copy text from the window at any time, as well as pasted. Pasted code will run as if it were entered line by line.
 
-On a single-line REPL input, pressing Enter anywhere within that line will execute the code on that line:
+The interactive window with its toolbar is shown below:
 
-![Execute](media/repl-execute.png)
+![Interactive window with toolbar](media/repl-window.png)
 
-If you are executing some code in the REPL, and you want to cancel the currently running code, press Esc or click on the **Interrupt R** button on the toolbar:
- 
-![Escape](media/repl-escape.png)
+The toolbar commands are as follows, most of which are also available on the **R Tools > Session** and **R Tools > Working Directory** menus (or as noted):
+
+| Button | Command | Key combination | Description | 
+| --- | --- | --- | --- |
+| ![Reset button](media/repl-toolbar-01-reset.png) | Reset | Ctrl+Shift+F10 | Resets the interactive window session, clearing all variables and history. |
+| ![Clear button](media/repl-toolbar-02-clear.png) | Clear | Ctrl+L | Clears the output shown in the interactive window; does not affect session variables or history. |
+| ![History buttons](media/repl-toolbar-03-history.png) | Previous History Command<br/>Next History Command | Up, Down<br/>Alt+Up, Alt-Down | Scrolls through the history, with certain behaviors for multi-line code blocks. See [History](#history). |
+| ![Load workspace button](media/repl-toolbar-04-load-workspace.png) | Load Workspace | n/a | Loads a previous saved workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
+| ![Save workspace as button](media/repl-toolbar-05-save-workspace-as.png)| Save Workspace As | n/a | Saves the current state of the session as a workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
+| ![Interrupt R button](media/repl-toolbar-06-interrupt-r.png)| Interrupt R | Esc | Stops any running code in the interactive window, such as the `while` loop in the screenshot above. |
+| ![Attach debugger button](media/repl-toolbar-07-attach-debugger.png)| Attach Debugger | n/a | Also available using the **Debug > Attach to R Interactive** command. | 
+| ![Set working directory to source file location button](media/repl-toolbar-08-set-working-directory-source.png)| Set Working Directory to Source File Location | Ctrl+Shift+E | Sets the working directory to the most recently sourced file loaded ito the interactive window (using `source`). See [Working directory](#working-directory). |
+| ![Set working directory to project location button](media/repl-toolbar-09-set-working-directory-to-project.png) | Set Working Directory to Project Location | Ctrl+Shift+P | Sets the working directory to the root of the currently loaded project in Visual Studio. See [Working directory](#working-directory). |
+| (Text field) | Select Working Directory | n/a | Direct input field for the working directory. See [Working directory](#working-directory). |
+
 
 ## Workspaces and sessions
 
-While you are executing code during an interactive session in you are building up context (i.e., global variables, function definitions, library loads etc.). This context is collectively called a workspace, and you have the ability to load and save workspaces. To save an Workspace using a specific filename (the default is `.RData`), click on the Save Workspace button in the REPL:
+Running code in the interactive window builds up a context in your current session, composed of global variables, function definitions, library loads, and so forth. This context is collectively called a *workspace*, and you can save and load workspaces at any time. 
 
-![Save workspace](media/repl-save-workspace.png)
+Selecting the **Save Workspace As** button or using the **R Tools > Session > Save Workspace As...** command prompts you for a location and filename (default extension is `.RData`).
+To save an Workspace using a specific filename (the default is `.RData`), click on the Save Workspace button in the REPL:
 
-It brings up this dialog where you can choose where to save the Workspace to:
- 
-![Save workspace dialog](media/repl-save-workspace-dialog.png)
+To reload a previously-saved workspace, select the **Load Workspace** button or use **R Tools > Session > Load Workspace...** and navigate to the workspace file.
 
-If you want to reset that context to start over again from a clean slate, you can do so by clicking on the **Reset** button:
- 
-![Reset](media/repl-reset.png)
+The **Reset** button or **R Tools > Session > Reset** clears the session context. Note that if you're using a remote session, this also deletes the user profile on the remote machine to clear off all files stored there. (See [Workspaces](workspaces.md#directories-on-local-and-remote-computers).)
 
-If you want to re-load a previous Workspace, you can do so using the Load Workspace button in the REPL toolbar:
-
-![Reload workspace](media/repl-reload-workspace.png)
-
-This will pop up a dialog that asks you what Workspace file you want to load:
-
-![Reload workspace dialog](media/repl-reload-workspace-dialog.png)
- 
-## <a name="repl-history"></a>REPL history
-
-## History
-
-The REPL supports history. Every line that you type and execute using the REPL is preserved in your history. Consider this example:
- 
-![](media/repl-history-example.png)
-
-In this case your history will contain 3 entries: 3 + 3, 4 + 4, and 5 + 5.
-
-The REPL supports navigating through history. If you have an empty input and you press Up, we will put the first entry in your history into the current input line:
- 
-![](media/repl-history-up-arrow.png)
-
-If you press the Up arrow repeatedly, you will navigate backwards through your REPL history until you reach the first element in your history. Pressing Up once you have reached the "top" of your history has no effect:
- 
-![](media/repl-history-up-arrow-repeat.png)
-
-Pressing the Down arrow repeatedly will navigate you forwards through your history until you reach the most recent element in your history. Pressing Down once you have reached the "bottom" of your history has no effect:
- 
-![](media/repl-history-down-arrow.png)
-
-If you start typing something on the current line, and then press Up, the current line will be added to your history. 
-
-![](media/repl-history-up-arrow-current-line.png)
-
-Now press the Up arrow: 
-
-![](media/repl-history-up-arrow-current-line-press.png)
-
-Now press the Down arrow:
-
-![](media/repl-history-down-arrow-current-line-press.png)
- 
-Note that what you originally typed is preserved in this case, and that we have positioned the cursor at the start of the line.
- 
-## History and multi-line code blocks
-
-The REPL supports multi-line code blocks. So if you define a function and press {, we will both auto-type } for you as well as enable smart multi-line behavior. 
- 
-![](media/repl-history-multilines.png)
-
-This means that if you press the Enter key while your cursor is positioned within the curly brace scope, we will enter multi-line mode and place the cursor at the correctly indented position:
- 
-![](media/repl-history-multiline-behavior.png)
-
-In multi-line mode, the Enter key will execute the multi-line block only when it is positioned at the very end of the multi-line block:
-
-![](media/repl-history-multiline-enter-behavior.png)
-
-If you want to execute the multi-line block when your cursor is not at the very end of the multi-line block, you can press Ctrl+Enter from anywhere within the multi-line block.
-
-The multi-line REPL has unique behavior with respect to history. If you are within a multi-line block, the arrow keys navigate throughout the code block, just like it were an editor window. However, if you are on the first line of a multi-line code block and press Up, the REPL will replace the current multi-line code block with the most recent item from history. Below you can see that the caret is positioned on the first line of the multi-line block. 
- 
-![](media/repl-history-multiline-history-behavior.png)
-
-Pressing Up at this point, you will see that the multi-line block was replaced by "5 + 5", the most recent item from my history:
- 
-![](media/repl-history-multiline-up.png)
-
-Pressing Down at this point restores the original input:
- 
-![](media/repl-history-multiline-down.png)
-
-Note that the cursor is positioned at the start of the first line, which makes it easy to reverse direction and go backwards in history with a single Up arrow keypress.
-
-Now consider a case where the last two most recent entries in history are
-multi-line inputs:
- 
-![](media/repl-history-multiline-inputs.png)
-
-If you press the Up arrow once, you will see that the current input line now contains the `sub()` function definition:
-
-![](media/repl-history-multiline-inputs.png)
- 
-Note that the cursor is positioned at the very end of the sub function definition. This lets a user immediately hit Enter to execute the multi-line code block. This was done to optimize for the case of users repeatedly re-executing the same command by pressing Up and Enter repeatedly.
-
-![](media/repl-history-multiline-inputs-repeat.png)
-
-If you press the Up arrow two more times, you will wind up on the first line of the `sub()` function definition multi-line code block. If you press the Up arrow one more time, you will see the `sub()` function multi-line code block replaced by the `add()` function multi-line code block. As was the case before, notice how the cursor is placed at the very end of the `add()` function multi-line code block. This makes it convenient for the user to immediately hit Enter to execute that multi-line code block.
-
-![](media/repl-history-multiline-execute.png)
- 
-Now, if you press Down, you will see that the cursor is on the first line of the next most recent item in history. This was done so that you can immediately go backwards in history by pressing Up. Note that the
-position of the cursor will not let you go down and immediately execute the multi-line code block by pressing Enter in this case. You can execute by either moving to the last character in the multi-line code block and pressing Enter, or by pressing Ctrl+Enter from anywhere in the multi-line code block.
- 
-![](media/repl-history-multiline-execute-down.png)
-
-At any point in time, if you want to force navigation through history and you don't want to navigate to the top / bottom of a multi-line code block (especially annoying with large multi-line code blocks) first, press Alt+Up or Alt+Down. Notice that the REPL window has toolbar buttons for these as well as tool-tips that will help make this feature more discoverable:
-
-![](media/repl-history-multiline-navigation.png)
 
 ## Working Directory
 
-It's pretty common to switch your working directory while working in an interactive R session. We've now made it even easier to switch your working directory by adding some additional commands:
+Developers commonly want to change their working directory while in an interactive session. Various commands, available on the toolbar, the **R Tools > Working directory** menu, and the project context menu allows you to easily set a working directory to the location of a source file, the location or your project, or any other arbitrary location. Doing so helps you avoid typing out full pathnames or lengthy relative pathnames when referring to files.
 
-1. You can switch the current working directory to the directory that contains the current file that you're editing. Ctrl+Shift+E runs this command.
+ 
+## History
 
-1. You can switch the current working directory to the directory that contains the root of the RTVS project. Ctrl+Shift+P runs this command.
+Every line you enter in the interactive window, includes lines sent from an editor, are preserved in the REPL's history. You can then navigate through history with the Up and Down arrow keys, as you are likely accustomed to on the command line.
 
-There are two new toolbar icons within the R Interactive Window that are also run these commands for folks who are like to use the mouse:
+One difference is that if you start typing on the current line, then press Up, that current line is preserved in your history even through you haven't run that line yet.
 
-![](media/repl-working-directory.png)
+History in the interactive window also works intelligently with statements of other code block that span lines. That is, when you start typing a statement and press Enter, RTVS knows when the statement must be continued and enters multi-line mode with a + prompt on the left and appropriate indentation. RTVS will also complete parentheses, brackets, and curly braces:
+ 
+![Multi-line statement entry in the interactive window](media/repl-multiline-entry.png)
 
-Code snippets now work in both the editor and the R Interactive Window. Below, I'm typing = and then pressing TAB to perform the completion.
+In this multi-line mode, the Enter key runs the code block only when positioned at the end of the block, otherwise it inserts a new line. However, you can press Ctrl+Enter at any position to run that code block immediately.
 
-![](media/repl-snippets.gif)
+When cycling through history with the Up and Down arrow keys, multi-line code blocks are retrieved as a whole unit and shown as the current entry. At this point, the arrow keys will navigate through that code block line by line, until the top or bottom is reached. At the top of the code block, the up arrow retrieves the previous item in the history; at the bottom line, the down arrow retrieves the next item.
+
+This accommodates the typical case of re-running the last item in the history with an Up arrow and Enter keystroke combination, while naturally allowing for editing of a multi-line code block by pressing the Up arrow to navigate into it.
+
+To avoid navigating into multi-line code blocks, use the toolbar buttons or use Alt+Up and Alt-Down, and all such blocks are treated as a single line.
+
+The easiest way to experience this, of course, is to simply try it for yourself in the interactive window.

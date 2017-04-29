@@ -35,11 +35,11 @@ translation.priority.ht:
 
 Because the data for each team is *tabular*, it makes sense to view them in a table form. If you click on the magnifying glass icon next to the team name, you'll open up the Data Table Viewer:
 
-![](media/repl-variable-explorer-table-view.png)
+![](media/variable-explorer-table-view.png)
 
 The column headings in the data table viewer control the sorting behavior of a column. You can click on a single column heading to toggle between sorting ascending and descending by that column. If you hold down the Shift key while clicking on the column headings, you can multi-select several columns. The sequence in which you click the column headings determines the order in which the sorting is performed. For example, in the figure below, we are sorting first by cylinder, and then by displacement.
 
-![](media/repl-variable-explorer-table-view-sorting.png)
+![](media/variable-explorer-table-view-sorting.png)
 
 You can now view multiple data frames in separate Data Table Viewer tabs. Using Visual Studio's window layout features, you can drag the tabs to arrange them side-by-side as well:
 
