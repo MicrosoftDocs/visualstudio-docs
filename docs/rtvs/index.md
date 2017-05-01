@@ -1,7 +1,7 @@
 ---
-title: "R Tools for Visual Studio | Microsoft Docs"
+title: R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 5/1/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,117 +34,30 @@ translation.priority.ht:
 
 R is a highly-extensible language and environment for statistical computing and graphics. It's distributed for free under the GNU General Public License, enjoys strong community support, and is known for its ability to produce publication-quality plots including mathematical symbols and formulae. You can learn more about R at [r-project.org](https://www.r-project.org/about.html) and [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html).
 
-R Tools for Visual Studio is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher), released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
+R Tools for Visual Studio (RTVS) is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher), released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
 
 To experience R in Visual Studio:
 
 - [Install the R Tools](installation.md).
-- Follow the [Getting Started](getting-started-with-r.md) guide.
+- Follow the [Getting Started](getting-started-with-r.md) guide, as well as the [Samples](getting-started-samples.md) and [Getting Help](getting-started-help,md) topics.
+
+Then follow the links below to learn more about R-related features as well as the general capabilities of Visual Studio itself.
+
+| Feature | Description | General Visual Studio Documentation | 
+| --- | --- | --- |
+| [Visual Studio project system](projects.md) | Organize and manage related files in a convenient structure, and take advantage of useful templates for items such as R code, R documentation, R Markdown, SQL queries, and stored procedures. Also enjoy the [package manager](package-manager.md) and [SQL Server integration](sql-server.md).  | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
+| [Workspace](workspaces.md) | RTVS can bind to local and remote workspaces, allowing you to develop R code locally with smaller data sets, then easily run the code on more powerful cloud-based computers with much larger data sets and collaborate with colleagues. | n/a |
+| [R Tools options](options.md) | Control various aspects of RTVS. | [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md) |
+| [Rich editing, IntelliSense, and code snippets](code-editing.md) | Includes syntax coloring, [IntelliSense](code-intellisense.md) across all your code and libraries, code formatting, signature help, Go to Definition, Find All References, [code snippets](code-snippets.md), and more. | [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md) |
+| [R Markdown](rmarkdown.md) | R Markdown documents help you share your data results, with integrated R code inside markdown code blocks. | n/a |
+| [Interactive Window](interactive-repl.md) | Provides a full REPL experience for R with the ability to easily run code in a source file in the interactive window. | n/a |
+| [Visualizing data](visualizing-data.md) | Plotting is an integral part of the R experience, and RTVS supports multiple, independent plot windows, each with their own history and the ability to move plots between windows. Plots can be saved to bitmap and PDF files, or copied to the clipboard as a bitmap or metafile.  | n/a |
+| [Variable Explorer](variable-explorer.md) | Examine variables in the global or package-specific scopes, with the ability to view sortable tables and export to CSV. | n/a |
+| [Full-featured debugging](debugging.md) | Includes integration with the interactive window. | [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) |
 
 The following video also provides a brief (5m 48s) review of the R Tools capabilities:
 
 > [!VIDEO https://www.youtube.com/embed/RcSDEfMgUvU]
-
-## A brief feature tour
-
-
-- **Highly productive inner loop**: An inner loop is composed of those features that you use repeatedly during your development process, such as syntax highlighting, IntelliSense, interactive code execution, code navigation, and automatic formatting. 
-
-### Extensive debugging features
-
-One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation, and adds innovative new UI such as the [Variable Explorer](variable-explorer.md) and the [Data Table Viewer](data-table-viewer.md). 
-
-* Breakpoints
-* Watch windows
-* Data Tips
-* Variable explorer
-* Interactive window
-
-
-Finally, the [Interactive Window](interactive-repl.md) is a powerful tool that lets you interactively call functions in your code. You can also have the debugger bound to your Interactive Window session, which lets you step through the code that you're calling. This makes it easy to call functions with different parameter values to verify that the behavior of your function is correct.
-
-
-### Better with SQL Server
-
-(Content moved)
-
-
-### Powerful data visualizers
-
-While writing your R programs, you will frequently need to visualize your data. Either through inspecting the values of your data or through plots, RTVS provides you with the tools that you need to be highly productive in your day to day work. Let's look at some of the powerful data visualization features in RTVS:
-
-* Variable explorer
-* Table viewer
-* Excel integration
-* Plot windows
-* Window docking
-* Multiple plot windows
-* Plot history
-
-The [Variable Explorer](variable-explorer.md) gives you a convenient way to see all of the variables that you have defined in your program, including data frames:
-
-![](media/variable-explorer-cmds-example-drill-down2.png)
-
-It provides convenient links to other tools like the **Table viewer** for visualizing your data frames, and a one-click experience for exporting your data frame to **Excel**:
-
-![](media/variable-explorer-table-view.png)
-
-## Visualizing data
-
-[Plots](visualize-data.md) are a key part of your workflow as an R developer. There are fantastic plotting libraries available for R, and we make it easy for you to interact with the plots that they create. We give you tools to arrange your plots where you want them to be, we give you with an interactive history of all of the plots that you've created, and we make it easy to export your plots to other tools so that you can generate reports from your data.
-
-![Plotting Hero Image](media/plotting-hero-image.png)
-
-### Easily share your results with others
-
-Sharing your results with others, easily, is a key design goal of RTVS. Your colleagues prefer to consume their documents using a variety of different media: ranging from web pages to PDFs to Word documents. Your results often include formatted text, plots and equations. 
-
-**RMarkdown** gives you a way to easily [create documents](http://rmarkdown.rstudio.com/) to share your results with your colleagues. We take advantage of Visual Studio's high-performance editor to deliver a lag-free typing experience in your RMarkdown documents. Our editor has
-syntax coloring and IntelliSense, for both your Markdown markup **and the R code within Markdown code blocks**:
-
-![](media/rmarkdown-intellisense.png)
-
-We make it easy for you to generate HTML, PDF, or Word markdown documents. For more details, see the [RMarkdown documentation](rmarkdown.md).
-
-
-### Scalable compute resources
-
-R developers and data scientists often prefer to use laptops in their day-to-day work. They develop their models against down-sampled datasets until they are satisfied with the results that they can get from those datasets. When they want to validate their models against larger datasets, they often have to move their code or their development environments to a more powerful machine.
-
-The [workspaces](workspaces.md) feature of RTVS makes it easy to bind RTVS to different workspaces. Local workspaces are simply other versions of the R interpreter that you have on your local computer. **Remote workspaces** are R interpreters that are installed on remote computers. By [installing RTVS Remote Services](workspaces-remote.md) on a machine with lots of CPU cores, lots of RAM, lots of storage, or lots of GPU, you can tailor the execution environment to the needs of your code and the data that you want to analyze. A remote workspace can
-be shared by several team members, making it easier to collaborate on large or sensitive datasets that must reside on an IT-managed computer.
-
-![](media/workspaces-window.png)
-
-You can even setup your remote workspaces on [Azure virtual machines](https://azure.microsoft.com/services/virtual-machines/?b=17.08),
-eliminating the need for capital expenditures to get the computing resources that you need to get your work done. 
-
-When you are using a remote workspace, all editing and visualization are done using RTVS on your local computer. All code execution occurs on the remote computer. This ensures that the computing resources on your remote computer are totally dedicated to running your R code, without the overhead of running an IDE. 
-
-For more details, see the [workspaces documentation](workspaces-remote.md).
-
-
-## Popular R Extensions
-
-Extensions for Visual Studio are provided by a rich ecosystem of third-party developers, including those that improve your productivity with R:
-
-* [VsVim for vim key bindings](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
-* [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
-* [Markdown editor with live preview](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
-
-See the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) to find more.
-
-
-## Send us your feedback!
-
-1. **Github issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools > Feedback** menu.
-
-1. **Send a Smile / Frown**: This is a quick way to send feedback *and* attach RTVS log files to assist in the diagnosis of your issue. You can find this command under the **R Tools > Feedback** menu. This command will collect logs, start your mail client and attach the log file. You have the opportunity to examine the contents of those files before you click Send. The logs are written into `%TEMP%/RTVSlogs.zip` in case you want to send it yourself.
-
-    Note that the above logging functionality will not be available if you have explicitly opted out of Visual Studio telemetry through the **Help > Feedback > Settings** menu command, or during installation.
-
-1. **Email**: You can send direct feedback to the team at [rtvsuserfeedback@microsoft.com](mailto:rtvsuserfeedback@microsoft.com).
-
 
 ## Frequently Asked Questions
 
@@ -160,7 +73,17 @@ A. [CRAN R](https://cran.r-project.org/), [Microsoft R Client and Microsoft R Se
 
 A. See [Installation](installation.md).
 
-**Q. Because RTVS is in VS, does it mean that R can be easily used with C#, C++ and other Microsoft languages?**
+**Q. Can I use Visual Studio extensions with RTVS?**
+
+A. Absolutely. In fact, here are a few that are popular for people working with R.
+
+- [VsVim for vim key bindings](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
+- [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
+- [Markdown editor with live preview](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
+
+See the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) to find more.
+
+**Q. Because RTVS is in Visual Studio, does it mean that R can be easily used with C#, C++ and other Microsoft languages?**
 
 A. No. RTVS is a tool for developing R code, and uses the standard native R interpreters. There currently isn't support for interop between R and other languages.
 
@@ -168,7 +91,7 @@ A. No. RTVS is a tool for developing R code, and uses the standard native R inte
 
 A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by taking the [RTVS survey](https://www.surveymonkey.com/r/RTVS1).
 
-**Q. Will RTVS work on MacOS / Linux?**
+**Q. Will RTVS work on OS X or Linux?**
 
 A. No, RTVS is built on top of Visual Studio, which is a Windows-only implementation. That said, Microsoft is investigating building a new set of tools based on [Visual Studio Code](https://code.visualstudio.com/), the wildly popular cross-platform editor from Microsoft.
 
@@ -203,3 +126,11 @@ A. Github maintains a master repository of recommended `.gitignore` files. You c
 **Q. Can I store my Visual Studio project on a network share?**
 
 A. No, this isn't supported by Visual Studio.
+
+## Send us your feedback!
+
+1. **Github issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools > Feedback** menu.
+
+1. **Send a Smile / Frown**: The **R Tools > Feedback** menu is a quick way to send feedback and attach RTVS log files to assist in the diagnosis of your issue. (Logs are written into `%temp%/RTVSlogs.zip` in case you want to send them separately.) Note that logging is disabled if you've opted out of Visual Studio telemetry through the **Help > Feedback > Settings** menu command, or during installation.
+
+1. **Email**: You can send direct feedback to the team at *rtvsuserfeedback (at) microsoft.com*.
