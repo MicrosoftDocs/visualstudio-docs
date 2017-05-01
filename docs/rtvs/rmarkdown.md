@@ -52,7 +52,7 @@ To use R Markdown:
 
 1. The default contents of the new file are as follows:
 
-    ```markdown
+    ~~~markdown
     ---
     title: "Untitled"
     output: html_document
@@ -74,5 +74,6 @@ To use R Markdown:
     
     Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
     
-    ```
+    ~~~
+
 1. At any time during editing, right click the in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.

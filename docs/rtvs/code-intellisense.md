@@ -51,7 +51,7 @@ Pressing ESC dismisses the menu altogether. You can bring it back up with Ctrl+S
 
 Typing the opening `(` for a function call inserts the closing `)` and brings up signature help as shown earlier:
 
-![IntelliSense signature help for a function]((media/intellisense-function-signature.png) )
+![IntelliSense signature help for a function](media/intellisense-function-signature.png)
 
 Again, ESC dismisses the popup; for function signatures, you can bring it up again with Ctrl+Shift+Space.
 
