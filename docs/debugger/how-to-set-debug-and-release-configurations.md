@@ -60,11 +60,11 @@ The release configuration of your program contains no symbolic debug information
   
 For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   
-You can change the build configuration from the **Build** menu, from the toolbar, or in the project’s property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the Related Topics section below.  
+You can change the build configuration from the **Build** menu, from the toolbar, or in the project’s property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the See Also section below.  
   
 ## Change the build configuration  
   
-1.  From the Build menu: click **Build / Configuration Manager**, then select **Debug** or **Release**.  
+1.  From the **Build** menu, select **Configuration Manager**, then select **Debug** or **Release**.  
   
 2.  On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list box.  
   
@@ -97,7 +97,11 @@ For detailed information on project settings for debug configurations in C#, see
 
     The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
 
-    ![Generate PDBs for builds in C#](../debugger/media/dbg_project_properties_pdb_csharp.png "GeneratePDBsForCSharp") 
+    ![Generate PDBs for builds in C#](../debugger/media/dbg_project_properties_pdb_csharp.png "GeneratePDBsForCSharp")
+
+4. Build your project.
+
+    The symbol file(s) get created in the same folder as the executable or the main output file.
 
 ### Generate symbol files for a C++ project
 
@@ -114,6 +118,10 @@ For detailed information on project settings for debug configurations in C#, see
     In most C++ projects, the default value is `$(OutDir)$(TargetName).pdb`, which generates .pdb files in the output folder.
 
     ![Generate PDBs for builds in C++](../debugger/media/dbg_project_properties_pdb_cplusplus.png "GeneratePDBsforCPlusPlus") 
+
+5. Build your project.
+
+    The symbol file(s) get created in the same folder as the executable or the main output file.
   
 ## See Also  
  [Specify symbol (.pdb) files and source files in the  Visua Studio debugger](../debugger/debugger-settings-and-preparation.md)

@@ -1,7 +1,7 @@
 ---
-title: "Setting a Watch on Variables in Parallel Threads | Microsoft Docs"
+title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Parallel Watch Window
+# Set a Watch on Variables in Parallel Threads in Visual Studio
 In the Parallel Watch window, you can simultaneously display the values that one expression holds on multiple threads. Each row represents a thread that is running in an application, but a thread might be represented in multiple rows. More specifically, each row represents a function call whose function signature matches the function on the current stack frame. You can sort, reorder, remove, and group the items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads. The following columns are displayed in the **Parallel Watch** window:  
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
@@ -47,9 +47,9 @@ In the Parallel Watch window, you can simultaneously display the values that one
 -   A configurable column that can display the machine, process, tile, task, and thread.  
   
     > [!TIP]
-    >  You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
+    >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
   
--   The **\<Add Watch>** column, in which you can enter expressions to watch.  
+-   The blank *add watch* columns, in which you can enter expressions to watch.  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
@@ -63,7 +63,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To add a watch expression  
   
--   Select **\<Add Watch>** and then specify a watch expression.  
+-   Select one of the blank *add watch* columns and then enter a watch expression.  
   
 ### To flag or unflag a thread  
   
@@ -71,7 +71,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To display only flagged threads  
   
--   Choose the Show Flagged Only button in the upper-left corner of the **Parallel Watch** window.  
+-   Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.  
   
 ### To switch frames  
   
