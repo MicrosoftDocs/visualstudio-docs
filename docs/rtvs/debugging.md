@@ -1,7 +1,7 @@
 ---
-title: "Debugging with the R Tools for Visual Studio | Microsoft Docs"
+title: Debugging with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 5/1/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,68 +33,48 @@ translation.priority.ht:
 
 # Debugging R in Visual Studio
 
-**Breakpoints** are key to the debugging experience. You can set standard breakpoints, which break into the debugger every time, and press F5 to launch the startup script under control of the Visual Studio debugger. 
+R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md), including breakpoints, attaching to running processes, inspecting and watching variables, inspecting the call stack, and so on. This topic, then, explores those aspects of debugging that are unique to R and RTVS.
 
-**Watch windows** are windows that inspect variables. You can layout as many watch windows as you want, and the values of the variables that you are inspecting in those watch windows will update each time you break into the debugger. 
+Starting the debugger for an the startup R file in an R project is the same as for other project types: use **Debug > Start Debugging**, the F5 key, or the **Source startup file** on the debug toolbar shown below. To change the startup file, right-click a file in Solution Explorer and select **Set As Startup R Script**.
 
-If you want to interactively inspect variables while stopped at the debugger, you can use Visual Studio's handy [Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) feature. Just hover over a variable using your mouse pointer, and you'll be able to inspect the variable and even drill down into sub-objects interactively:
+![Debugger start button for R](media/debugger-start-button.png)
 
-![](media/debugger-tooltips.gif)
+In all cases, starting the debugger "sources" the file in the interactive window, which means loading it and running it there. When you start debugging, in fact, you'll see output like this in the interactive window:
 
-While Visual Studio has a powerful set of features for inspecting variables, oftentimes R developers are using data structures such as data frames that aren't easily visualized using the Visual Studio UI. To improve this experience, we have created the [Variable Explorer](variable-explorer.md) which lets you interactively inspect data frames, and even export their contents to Excel. This makes it easy to snapshot the state of a data frame between transformations to better understand where things may have gone wrong in your computations:
+```output
+> rtvs::debug_source("c:/proj/rproject1/rproject1/script.R")
+Sourcing: c:\proj\rproject1\rproject1\script.R
+Sourcing: c:\proj\rproject1\rproject1\Settings.R
+```
 
-![](media/variable-explorer-excel-view.png)
+You can also attach the debugger from the interactive window directly using the **R Tools > Session > Attach Debugger** command, the **Debug > Attach to R Interactive** command, or the **Attach Debugger** command on the interactive window's toolbar. The debugger will then work on all files that have been sourced to the interactive window, including those previously launched in the debugger, any sourced with the `source` function, and any sourced using the interactive window's sourcing commands (see [Interactive window toolbar commands](interactive-repl.md#toolbar-commands)).
+
+This connection between the debugger and the interactive window makes it easier to do things like calling (and debugging) a function with different parameter values. For example, supposed you have a function like the following in a sourced file (meaning it's been loaded into the session):
+
+```R
+add <- function(x, y) {
+    return(x + y)
+}
+```
+
+Then you set a breakpoint on the `return` statement. Now, in the interactive window, if you enter `add(4,5)`, you'll see that the debugger stops on your breakpoint.
 
 
-There are two different ways to run code under the debugger: launching and attaching.
+## Environment browser in the interactive window
 
-To launch code under the debugger, you must first tell Visual Studio what script to launch when you press F5. If you have created a new project using Visual Studio, the file `Script.R`, which was automatically created for you, is predefined as the startup script. If you want to launch a different script, all you need to do is right-click on a script in Solution Explorer and run the `Set As StartUp R Script` command:
+When you're stopped in the debugger, you're also stopped at the Environment Browser prompt in the [interactive window](interactive-repl.md). The prompt appears as `Browse[n]>` where n is [JFLAM: what is the n?].
 
-![](media/debugger-set-as-startup-script.png)
+The Environment Browser supports a number of special commands:
 
-You can set breakpoints in the startup script before you press F5 to launch the debugger.
+| Command | Description | 
+| --- | --- |
+| n | next: runs the next statement in the code file (same as step over). |
+| s | step into: runs the next statement in the code file, stepping into a function scope if the next statement is a function call. | 
+| f | finish: runs the remainder of the current function scope and returns to the caller (same as step out). |
+| c, cont | continue: runs the program to the next breakpoint. | 
+| Q | quits: ends the debugging session. |
+| where | show stack: displays the call stack in the interactive window. |
+| help | show help: displays available commands in the interactive window. |
+| &lt;expr&gt; | evaluate the expression in *expr*. |
 
-Attaching the debugger to the Interactive Window lets you debug code that you are calling from the Interactive Window. This is especially useful when you are testing a function, and calling it repeatedly with different parameter values. There are two ways to attach a debugger to your Interactive Window session:
-
-1. Use the **R Tools > Session > Attach Debugger**:
-
-![](media/debugger-attach.png)
-
-2. In your everyday work you should use the toolbar in R Interactive, as it saves you a number of mouse clicks / keystrokes:
-
-![](media/debugger-r-toolbar.png)
-
-It's important to note that if you attach a debugger to your session, you'll first need to tell RTVS what code you would like to debug. You do so by running the **Source** command on the files that you want to debug. You can do this by either:
-
-1. Right-clicking on the editor window containing the file you want to source and running the **Source R Script** command
-1. Right-clicking on the file in Solution Explorer and running the **Source Selected File(s)** command
-
-If you use F5 to start the debugger, RTVS will automatically source the StartUp file on your behalf.
-
-All standard Visual Studio debugger commands work, with a few limitations.
-
-* Toggle Breakpoints (F9)
-* Disable (Ctrl+F9) Breakpoints
-* Step Over (F10) the current line 
-* Step Into (F11) the current line
-* Continue Execution (F5)
-* Stop Execution under Debugger (Shift+F5)
-* Execute the StartUp file without using the Debugger (Ctrl+F5)
-
-Here's a screenshot that shows the many debugging windows and features available to you:
-
-* Inspect local variables using the Locals Window
-* Inspect local variables using the Variable Explorer 
-* See where you are in your program using the Call Stack Window
-* Fine-grained controls over your breakpoints, including *disabling* (but not deleting) a breakpoint
-* Inspect arbitrary expressions (that are in scope) using Watch Windows
-
-![](media/debugger-window-layout.png)
-
-After each debugger command, you'll also see that you are stopped at the Environment Browser prompt in the R Interactive Window.  From there, you can also issue Environment Browser commands (e.g., `n` for next command, or `c` to continue execution).
-
-## Visual Studio Data Tips
-
-Visual Studio Data Tips let you hover over a variable that you want to inspect, and then drill down into the objects within that variable. This lets you inspect variables in-place, while stopped in the debugger, without having to resort to using other windows like the locals window.
-
-![](media/debugger-tooltips.gif)
+![Environment Browser in the interactive window](media/debugger-environment-browser.png)
