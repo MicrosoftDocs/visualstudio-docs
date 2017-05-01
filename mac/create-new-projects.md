@@ -1,6 +1,6 @@
 ---
 title: "Creating new Projects and Solutions"
-Description: This guide describes how to create projects and solutions in Visual Studio for MAc
+Description: This topic describes how to create projects and solutions in Visual Studio for MAc
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

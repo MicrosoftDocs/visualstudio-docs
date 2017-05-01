@@ -36,7 +36,7 @@ NuGet is the most popular package manager for .NET development. Visual Studio fo
 
 To do this, right-click on the **Package** folder in the Solution Pad, and select Add Packages.
 
-More information on using a NuGet Package is provided in the [Including NuGet in your Project](~/nuget-walkthrough) guide.
+More information on using a NuGet Package is provided in the [Including NuGet in your Project](~/nuget-walkthrough) walkthrough.
 
 ## Web References
 

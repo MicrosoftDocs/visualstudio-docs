@@ -29,6 +29,7 @@
 ## [Snippets](snippets.md) 
 ## [Block Selection](block-selection.md)
 ## [Editor Themes](editor-themes.md)
+## [Common Keyboard Shortcuts](keyboard-shortcuts.md)
 
 # [Debugging](debugging.md)
 ## [Data Visualizations](data-visualizations.md)

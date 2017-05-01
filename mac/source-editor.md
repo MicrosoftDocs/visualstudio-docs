@@ -14,7 +14,7 @@ A reliable source editor is essential for writing code succinctly and efficientl
 
 The source editor in Visual Studio for Mac allows for a seamless experience with all of the other functionality provided by the IDE such as debugging, refactoring, and version control integration.
 
-This guide introduces some of the key features of the source editor, and explores how you can use Visual Studio for Mac to be as productive as possible.
+This topic introduces some of the key features of the source editor, and explores how you can use Visual Studio for Mac to be as productive as possible.
 
 ## The Source Editor Experience
 

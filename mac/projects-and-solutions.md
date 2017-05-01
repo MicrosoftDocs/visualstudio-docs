@@ -13,11 +13,11 @@ Visual Studio for Mac provides a *Solution Pad* to display a tree view of the en
 
 ## Using Projects and Solutions
 
-To create a new Project or Solution, refer to the [Creating new Projects and Solutions](~/create-new-projects) guide.
+To create a new Project or Solution, refer to the [Creating new Projects and Solutions](~/create-new-projects) topic.
 
 ## Project and Solution Options
 
-You can manage the properties of both projects and solutions by either double-clicking on the Project/Solution name, or by right-clicking and browsing to **Options**. More information on these options are provides in the [Managing Solutions and Project Properties](~/managing-solutions-and-project-properties) guide.
+You can manage the properties of both projects and solutions by either double-clicking on the Project/Solution name, or by right-clicking and browsing to **Options**. More information on these options are provides in the [Managing Solutions and Project Properties](~/managing-solutions-and-project-properties) topic.
 
 
 
