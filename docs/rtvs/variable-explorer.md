@@ -1,5 +1,5 @@
 ---
-title: "Interactive REPL Variable Explorer in R Tools for Visual Studio | Microsoft Docs"
+title: Variable Explorer in R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
@@ -33,7 +33,7 @@ translation.priority.ht:
 
 # Variable Explorer
 
-The Variable Explorer provides a list of all variables at global scope from the REPL. So, if in the REPL you executed: 
+The **Variable Explorer** window, opened using **R Tools > Windows > Variable Explorer** or Ctrl+8, shows all variables at a given scope in the current R session. For example, if you enter the following lines in the [interactive window](#interactive-repl.md):
 
 ```R
 x <- 42
@@ -41,69 +41,53 @@ y <- 43
 n <- c(1,2,3,5,8,13)
 ```
  
-The variable explorer will display the following data:
+The variable explorer appears as follows:
 
-![](media/variable-explorer-example-result.png)
+![Variable explorer window in Visual Studio](media/variable-explorer-window.png)
 
-If you have a more complex R data frame defined in the REPL, you can drill into the data. If you execute these commands:
+If you have a more complex R data frame defined in the session, you can navigate into the data. For example, after running `cars <- mtcars` you can navigate through the dataset by expanding the different nodes in the Variable Explorer:
  
-```R
-cars <- mtcars
-```
-
-You will see this view in the Variable Explorer:
-
-![](media/variable-explorer-cmds-example-results.png)
+![Complex ](media/variable-explorer-expanded-results.png)
  
-Next we click on the chevron to drill into the data:
+To delete variables, right-click and select **Delete**, or select the variable and press the Delete key.
 
-![](media/variable-explorer-cmds-example-drill-down.png)
+You can also search for an observation in a data frame using incremental search. First, expand the nodes in the data frame that you want to search, then enter search terms in the search box.
 
-We can drill as deep as the data is nested within the data frame:
- 
-![](media/variable-explorer-cmds-example-drill-down2.png)
+## Details (table) view
 
-You can delete variables from your R session directly from the variable explorer. Just right click on the variable that you want to remove from your R session and select the Delete command. Or you can just select the variable that you want to remove and press the DELETE key.
+Because data is often tabular, you can view any complex data type as in a separate table window by selecting the magnifying glass icon or right-clicking and selecting **Show Details**. 
 
-![](media/variable-explorer-delete-variables.png)
+![Variable Explorer table view](media/variable-explorer-table-view.png)
 
-If you want to search for an observation in a data frame, we have an incremental search over all observations in a data frame. Note that you must first expand the data frame in Variable Explorer for this to work. 
+Clicking on a column heading sorts the data by column (alternating between ascending and descending). Holding down Shift will and clicking on additional columns add those to the sorting as well. Clicking a column without Shift returns to single column sorting.
 
-![](media/variable-explorer-incremental-search.png)
+The sequence in which you click the column headings determines the order in which the sorting is performed. For example, Shift-clicking the **cyl** column, then Shift-clicking the **mpg** column twice, sorts the list for ascending cylinders and descending miles-per-gallon:
 
-## Export to Excel
+![Table view of data sorting by two columns.](media/variable-explorer-table-view-sorting.png)
 
-While the data table viewer is a great tool, sometimes you want to be able to take your data frame and *export* it to Excel. You can easily do this by clicking on the small Excel icon to the variable explorer. When you click on it, it will take your data frame and export it to a new Excel Workbook:
+Because Variable Explorer and the table views are in separate Visual Studio windows, you can arrange them however you like for side-by-side work. See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md) for general instructions.
 
-![](media/variable-explorer-excel-view.png)
+## Open in CSV App
 
-We do this by writing a new CSV file containing the contents of the dataframe to the `%USERPROFILE%\Documents\RTVS_CSV_Exports` directory.
+For further manipulation and analysis, it's often useful to export session variables to CSV, which is done with the small Excel icon (![Excel export icon](media/variable-explorer-excel-icon.png)) next to each node in the Variable Explorer, or by right-clicking an item and selecting **Open in CSV App**. Selecting the icon writes the data to a new CSV file in the `%userprofile%\Documents\RTVS_CSV_Exports` folder and then launches that file, which opens it in whatever application is associated with the `.csv` extension.
 
-## Scopes 
+## Scopes
 
-We now let you pick different *scopes* for the variables in the variable explorer; previously you could only examine variables at global scope. Now, with package level scope, we give you a view over all of the variables (including functions, which are just functions bound to variables) defined within a package:
+By default the Variable Explorer opens to the global scope. You can switch to a package scope by selecting a package from the the drop-down at the top of the window.
 
-![](media/variable-explorer-package-scopes.png)
+![Variable explorer showing a package scope](media/variable-explorer-package-scopes.png)
 
-If you are stopped at a breakpoint in the debugger, you can use the Variable Explorer to inspect runtime variables in your program. You can inspect complex variables such as data frames, and even export them to Excel. All you need to do is change the scope of the Variable Explorer to the current function that you are stopped at (it won't do this automatically for you). In the example below, I have set the Variable Explorer's scope to the `foo` function where the debugger is currently stopped on a breakpoint. You can inspect the `df` data frame
-variable directly in the Variable Explorer, or even send it to Excel to snapshot the current state of the data frame.
+You can also switch scopes when you're stopped at a breakpoint in the debugger (note that Variable Explorer does not automatically switch to the scope of the code being debugged):
 
-![](media/variable-explorer-as-locals-window.png)
+![Variable Explorer showing a data frame during debugging](media/variable-explorer-as-locals-window.png)
 
-When you are debugging, variable explorer also recognizes the current execution scope (i.e., when you are debugging code within a function). Here, local variables that you define within that function can now be inspected using variable explorer. In the picture below, you can see that the current execution scope is within a function called `renderUI`, and that there are two local variables defined at the current execution point: `country_data` and `max_destinations`:
+Variable Explorer automatically changes scope as you step through code in the debugger, such as showing local variables in a function.
 
-![](media/variable-explorer-view-locals.png)
-
-We support viewing variables defined inside of private named scopes as well (i.e., variables defined within a package). For example, here are the variables defined in the Shiny package:
-
-![](media/variable-explorer-package-scopes.png)
 
 ## Importing data into Variable Explorer
 
-Another way to bring data sets into your project is to use the Import Dataset command in the Variable Explorer. Click either the Import from Web or Import from File toolbar button to specify the location of the CSV file that you want to import:
+Two commands on the Variable Explorer toolbar, which are also available through the **R Tools > Data** menu, import external CSV datasets into your R session:  **Import Dataset into R Session from Web URL** and **Import Dataset into R Session from Text File**. 
 
-![](media/variable-explorer-toolbar.png)
+Once you've identified the CSV file to import, R Tools for Visual Studio displays an **Import Dataset** dialog, in which you have options to control how that data file is parsed and can see see a preview of the imported data frame and the original data file:
 
-Once you've specified the location of the file, you will see the Import Dataset dialog box which gives you options that control how that data file is parsed. You can even see a preview of the imported data frame and the original data file.
-
-![](media/variable-explorer-import-dataset-dialog.png)
+![Import dataset dialog](media/variable-explorer-import-dataset-dialog.png)
