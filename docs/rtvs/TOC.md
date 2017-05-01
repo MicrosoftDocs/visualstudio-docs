@@ -15,6 +15,5 @@
 ### [R Markdown](rmarkdown.md)
 ## [Interactive REPL](interactive-repl.md)
 ## [Visualizing Data](visualizing-data.md)
-### [Variable Explorer](variable-explorer.md)
-### [Data Table Viewer](data-table-viewer.md)
+## [Variable Explorer](variable-explorer.md)
 ## [Debugging](debugging.md)
