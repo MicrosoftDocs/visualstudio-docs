@@ -1,15 +1,13 @@
 ---
-title: "Diagnostic Messages in the Output Window | Microsoft Docs"
+title: "Send Diagnostic Messages to the Output Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.output"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -48,8 +46,8 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Diagnostic Messages in the Output Window
-You can write run-time messages to the Output window using the Debug class or the Trace class, which are part of the <xref:System.Diagnostics> class library. Use the Debug class if you only output in the Debug version of your program. Use the Trace class if you want output in both the Debug and Release versions.  
+# Send Diagnostic Messages to the Output Window
+You can write run-time messages to the **Output** window using the `Debug` class or the `Trace` class, which are part of the <xref:System.Diagnostics> class library. Use the Debug class if you only output in the Debug version of your program. Use the Trace class if you want output in both the Debug and Release versions.  
   
 ## Output Methods  
  The <xref:System.Diagnostics.Trace> and <xref:System.Diagnostics.Debug> classes provide the following output methods:  
@@ -73,7 +71,6 @@ You can write run-time messages to the Output window using the Debug class or th
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Output Window](../ide/reference/output-window.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
+ [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)  
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
