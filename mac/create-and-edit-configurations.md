@@ -20,13 +20,13 @@ The options menu for both projects and solutions provide you with an area to cre
 
 2. In the Project Options dialog, select **Build > Configurations**:
 
-    ![](media/create-and-edit-configurations-image2.png)
+    ![Configurations manager in project options](media/create-and-edit-configurations-image2.png)
 
 3. To create a new configuration select **Add**. Alternatively, you can copy one of the existing configurations.
 
 Once the configuration has been created, you can use the **Build** section in the Project Options to adapt properties appropriate to your configuration:
 
-![](media/create-and-edit-configurations-image3.png)
+![Configure build options](media/create-and-edit-configurations-image3.png)
 
 ## Creating a Solutions Build Configurations
 
@@ -35,20 +35,20 @@ Once the configuration has been created, you can use the **Build** section in th
 
 2. In the Solution Options dialog, select **Build > Configurations**:
     
-    ![](media/create-and-edit-configurations-image1.png)
+    ![Configurations manager in solution options](media/create-and-edit-configurations-image1.png)
 
 3. To create a new configuration select **Add**. Alternatively, you can copy one of the existing configurations.
 
 Once the configuration has been created, you can use the **Build** section in each project's options to adapt properties appropriate to your configuration:
 
-![](media/create-and-edit-configurations-image3.png) 
+![Configure build options](media/create-and-edit-configurations-image3.png) 
 
 ## Editing a Build Configuration
 
 To rename a configuration, select it from the Configuration list in the Project or Solution Options:
 
-![](media/create-and-edit-configurations-image4.png) 
+![configuration list](media/create-and-edit-configurations-image4.png) 
 
 Select the **Rename** button.
 
-![](media/create-and-edit-configurations-image5.png) 
+![rename dialog](media/create-and-edit-configurations-image5.png) 
