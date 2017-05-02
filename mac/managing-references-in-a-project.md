@@ -26,7 +26,7 @@ Each framework within Xamarin ships with over a dozen assemblies. Not all of the
 
 To edit which packages that are referenced in your project, use the _Edit References_ dialog, which can be displayed by double-clicking on the References folder, or by select Edit References on its context menu actions:
 
-![Assembly References dialoh](media/projects-and-solutions-image11.png)
+![Assembly References dialog](media/projects-and-solutions-image11.png)
 
 For information on the assemblies available for each Xamarin framework, refer to the [Available Assemblies](https://developer.xamarin.com/guides/cross-platform/advanced/available-assemblies/) guide.
 
@@ -37,7 +37,3 @@ NuGet is the most popular package manager for .NET development. Visual Studio fo
 To do this, right-click on the **Package** folder in the Solution Pad, and select Add Packages.
 
 More information on using a NuGet Package is provided in the [Including NuGet in your Project](~/nuget-walkthrough) walkthrough.
-
-## Web References
-
-## Native References
