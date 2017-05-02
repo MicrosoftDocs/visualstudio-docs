@@ -44,11 +44,11 @@ Here's how.
 
 Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will match one of the following.
 
-|Edition | File| Download|
-|-------------|-----------------------|-----|
-|Visual Studio Enterprise |**vs_enterprise.exe**| [https://aka.ms/vs/15/release/vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe) |
-|Visual Studio Professional |**vs_professional.exe**| [https://aka.ms/vs/15/release/vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe) |
-|Visual Studio Community |**vs_community.exe**| [https://aka.ms/vs/15/release/vs_community.exe](https://aka.ms/vs/15/release/vs_community.exe) |
+|Edition | Download|
+|-------------|-----------------------|
+|Visual Studio Enterprise | [**vs_enterprise.exe**](https://aka.ms/vs/15/release/vs_enterprise.exe) |
+|Visual Studio Professional | [**vs_professional.exe**](https://aka.ms/vs/15/release/vs_professional.exe) |
+|Visual Studio Community | [**vs_community.exe**](https://aka.ms/vs/15/release/vs_community.exe) |
 
 Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe), [vs_feedbackclient.exe](https://aka.ms/vs/15/release/vs_feedbackclient.exe), [vs_teamexplorer.exe](https://aka.ms/vs/15/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/15/release/vs_testagent.exe), [vs_testcontroller.exe](https://aka.ms/vs/15/release/vs_testcontroller.exe), and [vs_testprofessional.exe](https://aka.ms/vs/15/release/vs_testprofessional.exe).
 
