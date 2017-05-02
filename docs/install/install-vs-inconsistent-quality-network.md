@@ -23,8 +23,7 @@ translation.priority.ht:
   - "ja-jp"
   - "ko-kr"
   - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
+  - "zh-cn"  - "zh-tw"
 translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
@@ -58,11 +57,10 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you've downloaded the Visual Studio Community bootstrapper: adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run: <br> ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
-  - For .NET desktop and Office development, run: <br> ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US```
-  - For C++ desktop development, run: <br> ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US```
+- For .NET desktop and Office development, run: <br> ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US```
+- For C++ desktop development, run: <br> ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US```
 
-- To create a complete local layout with all features (this will take a long time - we have _lots_ of features!):
-  - Run: <br> ```vs_community.exe --layout c:\vs2017layout --lang en-US```
+- To create a complete local layout with all features (this will take a long time - we have _lots_ of features!), run: <br> ```vs_community.exe --layout c:\vs2017layout --lang en-US```
 
 If you want to install a language other than English, change `en-US` to a locale from the list at the bottom of this page. Use this [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache as necessary.
 
