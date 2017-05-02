@@ -66,7 +66,7 @@ For more examples, see the [How to customize your offline installer](#how-to-cus
 ## Install from the offline installation folder
 Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
 
-  1. Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
+  1. Install the certificates. (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
 
   2. Run the installation file. For example, run: <br> ```c:\vs2017offline\vs_enterprise.exe```
 
@@ -79,7 +79,7 @@ There are many options you can use to customize your offline installer. Here are
  - To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
  - To download all workloads and components for multiple languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP```
  - To download one workload for all languages, run <br> ```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure ```
- - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
+ - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
 To learn more about the options you can use to customize your installation, see our [Use command-line parameters to install Visual Studio 2017 ](use-command-line-parameters-to-install-visual-studio.md) page.
 
 

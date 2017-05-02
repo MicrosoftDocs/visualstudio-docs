@@ -60,12 +60,9 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | ```repair``` | Repairs an installed product. |
 | ```uninstall``` | Uninstalls an installed product. |
 
-
 | **Install option** | **Description** |
 | ----------------------- | --------------- |  
-| ```--installPath <dir>``` | The installation directory for the instance to act upon. For the install command, this is where the instance will be installed. For other commands, this is where the previously-installed instance was installed. |
-| ```--layout <dir>``` | **Optional**: Specifies a directory to create an offline install cache. Selecting this option will implicitly add the '--wait' option as well. If called from a batch file, this command will complete before execution passes to the next command in the batch file. |
-| ```--lang <language-locale>``` *[&#60;language-locale&#62; ...]* | **Optional**: Used with --layout to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--installPath <dir>``` | The installation directory for the instance to act upon. For the install command, this is **Optional** and is where the instance will be installed. For other commands, this is **Required** and is where the previously-installed instance was installed. |
 | ```--addProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation will use the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | ```--removeProductLang <language-locale>``` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | ```--add <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using '--includeRecommended' and/or '--includeOptional'. For finer-grained control, you can append ';includeRecommended' and/or ';includeOptional' to the artifactId (e.g. '--add Workload1;includeRecommended' or '--add Workload2;includeOptional;includeRecommended'). For more information, see our [Workload and component IDs](workload-and-component-ids.md) page.|
@@ -84,6 +81,15 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 > Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command line switch for each item.
 
+| **Layout options** | **Description** |
+| ----------------------- | --------------- |  
+| ```--layout <dir>``` | Specifies a directory to create an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)|
+| ```--lang <language-locale>``` *[&#60;language-locale&#62; ...]* | **Optional**: Used with --layout to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--add <workload or component ID>``` *[&#60;workload or component ID&#62; ...]* | **Optional**: One or more workload or component IDs to add to the layout. The required components of the artifact are downloaded, but not the recommended or optional components. You can control additional components globally using '--includeRecommended' and/or '--includeOptional'. For finer-grained control, you can append ';includeRecommended' and/or ';includeOptional' to the artifactId (e.g. '--add Workload1;includeRecommended' or '--add Workload2;includeOptional'). For more information, see our [Workload and component IDs](workload-and-component-ids.md) page. <br/>**Note**: If ```--add``` is used, only the specified workloads and components and their dependencies will be downloaded. If ```--add``` is not specified, all workloads and components will be downloaded to the layout.| 
+| ```--includeRecommended``` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with --allWorkloads or --add. |
+| ```--includeOptional``` | **Optional**: Includes the recommended and optional components for any workloads being included in the layout. The workloads are specified with --add.  |
+
+
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |  
 | ```--channelId <id>``` | **Optional**: The ID of the channel for the instance that will be installed. This is required for the install command, ignored for other commands if --installPath is specified. |
@@ -93,6 +99,8 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | ```--productId <id>``` | **Optional** The ID of the product for the instance that will be installed. This is prepopulated in normal installation conditions. |
 | ```--wait``` | **Optional**: The process will wait until the install is completed before returning a exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. |
 | ```--locale <language-locale>``` | **Optional**: Change the display language of the user interface for the installer itself. Setting will be persisted. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| ```--cache``` | **New in 15.2, optional**: If present, packages will be kept after being installed for subsequent repairs. This will override the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
+| ```--nocache``` | **New in 15.2, optional**: If present, packages will be be deleted after being installed or repaired. They will be downloaded again only if needed and deleted again after use. This will override the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 
 ## List of workload IDs and component IDs
 For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
@@ -132,4 +140,5 @@ Each operation will generate several log files in the `%TEMP%` directory that in
  * [Install Visual Studio 2017](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+ * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
  * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
