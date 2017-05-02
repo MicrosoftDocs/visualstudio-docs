@@ -33,23 +33,32 @@ translation.priority.mt:
 ---
 # Tools for detecting and managing Visual Studio instances
 
-TODO Add this (From: 
-https://review.docs.microsoft.com/en-us/visualstudio/install/visual-studio-administrator-guide?branch=tglee-vsinstall#diagnostics)
+## Detecting existing Visual Studio instances
+We have made several tools available that will help you detect and manage installed Visual Studio instances on client machines:
 
-## Diagnostics
-### How to find and open the Visual Studio registry files
-In Visual Studio 2017, the registry settings are stored in a private registry files. The registry files enable multiple installations of Visual Studio side-by-side, on the same machine.
+* [VSWhere](https://github.com/microsoft/vswhere): a C++ executable that helps you find the location of core Visual Studio tools from an installed instance of Visual Studio.
+* [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
+* [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
 
-However, these entries are no longer available in the global registry file. Here's how to find and open the registry files for Visual Studio 2017 by using RegEdit.
+In addition, the [Setup Configuration API](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.setup.configuration.aspx) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
 
-1. If you have it open, close **Visual Studio**.
-2. Start **Regedit.exe**.
-3. Select the ```HKEY_LOCAL_MACHINE``` node.
-4. From the Regedit main menu, select **File > Load Hive...** and then select the private registry file, which on a Windows 10-based machine, is stored in the **AppData\Local** folder. <br/><br/>```%localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin```
+>[!TIP]
+>For more information about Visual Studio 2017 installation, see [Heath Stewart's blog articles](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+
+
+## Editing the registry for a Visual Studio instance
+In Visual Studio 2017, registry settings are stored in a private location, which enables multiple side-by-side instances of the same version of Visual Studio on the same machine.
+
+As these entries are not stored in the global registry, there are special instructions for using the Registry Editor to make changes to registry settings:
+
+1. If you have an open instance of Visual Studio 2017, close it.
+2. Start `regedit.exe`.
+3. Select the ``HKEY_LOCAL_MACHINE`` node.
+4. From the Regedit main menu, select **File > Load Hive...** and then select the private registry file, which is stored in the **AppData\Local** folder. For example: <br/><br/>```%localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin```
 <br/><br/>
-(```<config>``` corresponds to the configuration hive that you would like to browse.)
+(```<config>``` corresponds to the instance of Visual Studio that you would like to browse.)
 
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 
 > [!IMPORTANT]
-> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then Regedit keeps the file locked and Visual Studio will not start.)
+> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then the file will remain locked and Visual Studio will not be able to start.)
