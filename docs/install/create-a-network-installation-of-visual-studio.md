@@ -108,14 +108,10 @@ You might want to update your offline installer at a later date. Here's how.
 * To refresh your local layout folder so that it includes the latest updates, run the same ```--layout``` command you ran when initially creating the layout. Make sure to point to the same folder that you used before with the same customizations (e.g. specific workloads and languages); this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.  If you host a layout on a file share, it is recommended that you update a private copy of the layout (e.g. c:\vs2017offline) and after all of the updated content is downloaded, copy it to your file share (e.g. \\\\MyServer\products\VS2017).  If you don't do this, there is a greater chance that any users running setup while the layout is being updated may not be able to get all of the content from the layout since it is not completely updated.
 * To update a Visual Studio instance that you installed from an offline installation folder, run the Visual Studio Installer, and then click **Update**.  For details on how to controll when update notifications are presented to users, see [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md).
 
-### How to create a layout for a previous release of VS 2017
+### How to create a layout for a previous Visual Studio 2017 release
 **Note**: The VS 2017 bootstrappers available on http://www.visualstudio.com will download and install the latest VS 2017 release available whenever they are run. If you download a VS bootstrapper today and run it 6 months from now, it will install the VS 2017 release that is available at that later time. If you create a layout, installing VS from that layout will install the specific version of VS that exists in the layout. Even though a newer version may exist online, you will get the version of VS that is in the layout.
 
-If you need to create a layout for an older version of VS 2017 (e.g. 15.1 after 15.2 is released) and you have a Visual Studio subscription, https://my.visualstudio.com has “Fixed” versions of VS 2017 bootstrappers. These will download a specific build of VS 2017.
-For example, if you want 15.1
-Go to http://my.visualstudio.com (login to your subscription).
-Go to “downloads”, search for “Visual Studio 15.1”.
-Download a product such as “Visual Studio Enterprise 2017 (version 15.1)” and it will give you a “fixed” bootstrapper. Running it will download that specific 15.1 version of VS 2017.
+If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers for supported versions, which will allow you to create a network install layout for that older version. 
 
 ### How to get support for your offline installer
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
