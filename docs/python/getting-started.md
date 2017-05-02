@@ -1,7 +1,7 @@
 ---
-title: "Start Working with Python in Visual Studio | Microsoft Docs"
+title: Start Working with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/1/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -266,3 +266,4 @@ In addition to the "Going deeper" links provided earlier, the following topics c
 - Visual Studio provides the ability to debug your application on remote servers, as explained on [Cross-platform Remote Debugging](debugging-cross-platform-remote.md) and [Azure Remote Debugging](debugging-azure-remote.md).
 - You can evaluate the performance of your Python code by using [Visual Studio Profiling](profiling.md).
 - Unit tests written in Python integrate directly with the Visual Studio Test Explorer, as discussed on [Unit Testing](unit-testing.md).
+- [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)

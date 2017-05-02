@@ -260,7 +260,7 @@ Now you can call the `tanh` code the module and compare its performance to the P
 
 ## Debug the C++ code
 
-Python support in Visual Studio includes the ability to [debug Python and C++ code together](debugging-mixed-mode.md). To experience this, do the following:
+[Python support in Visual Studio](installation.md) includes the ability to [debug Python and C++ code together](debugging-mixed-mode.md). To experience this, do the following:
 
 1. Right-click the Python project in Solution Explorer, select **Properties**, select the **Debug** tab, and then select the **Debug > Enable native code debugging** option.
 

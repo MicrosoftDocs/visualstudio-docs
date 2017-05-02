@@ -1,7 +1,7 @@
 ---
-title: "Python in Visual Studio | Microsoft Docs"
+title: Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/2/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -197,3 +197,4 @@ Supported features by Visual Studio version and edition:
 
 - [Writing Kinect games with Python using PyKinect](https://github.com/Microsoft/PTVS/wiki/PyKinect) (GitHub wiki)
 - [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)
+- - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
