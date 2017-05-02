@@ -1,7 +1,6 @@
 # [Install Visual Studio](install-visual-studio.md)
 ## [Install on low bandwidth or unreliable network environments](install-vs-inconsistent-quality-network.md)
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
-## [Frequently asked questions about installing Visual Studio](install-faqs.md)
 # [Update Visual Studio](update-visual-studio.md)
 # [Modify Visual Studio](modify-visual-studio.md)
 # [Uninstall Visual Studio](uninstall-visual-studio.md)
@@ -17,3 +16,4 @@
 ## [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 ## [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 ## [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+## [Workload and Component ID Reference](workload-and-component-ids.md)
