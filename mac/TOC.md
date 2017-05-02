@@ -12,6 +12,9 @@
 ## [Register](register.md)
 
 # [Customizing the IDE](customizing-the-ide.md)
+## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
+### [Extending Visual Studio for Mac Walkthrough](extending-visual-studio-mac-walkthrough.md)
+
 
 # [Projects and Solutions](projects-and-solutions.md)
 ## [Creating new Projects](create-new-projects.md)
