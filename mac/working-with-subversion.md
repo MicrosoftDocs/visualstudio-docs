@@ -28,7 +28,7 @@ The sections below will explain each in more detail.
 
 Before starting to use a remote Subversion repository, you will need to check out the repo to create a local, or working, copy of that directory on your local machine.
 
-To check out using the **Checkout** feature in Visual Studio for Mac, follow the steps in the [Setting up a Subversion repository](../set-up-subversion-repository.md) section.
+To check out using the **Checkout** feature in Visual Studio for Mac, follow the steps in the [Setting up a Subversion repository](~/set-up-subversion-repository.md) section.
 
 ## Update Solution
 

@@ -30,7 +30,7 @@ First, create a project named `HelloNuget` as illustrated below. This example sh
 
 With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages…**:
 
-![Add new NuGet package context action](media/nuget-walkthrough-AddPackageNew.png)
+![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
 This launches the _Add Packages..._ window. Ensure that the Source dropdown, is set to `nuget.org`:
 
@@ -107,7 +107,7 @@ Different sources can then be selected when searching for packages:
 
 The NuGet documentation discusses [using NuGet without committing packages to source control](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages). If you prefer not to store binaries and unused information in source control, you can configure the Visual Studio for Mac to automatically restore packages from the server. This means that when a developer retrieves the project from source control for the first time, the Visual Studio for Mac will automatically download and install the required packages.
 
-![Automatically restore packages](Images/nuget-walkthrough-AutoRestore.png)
+![Automatically restore packages](media/nuget-walkthrough-AutoRestore.png)
 
 Refer to your particular source control documentation for details on how to exclude the `packages` directory from being tracked.
 

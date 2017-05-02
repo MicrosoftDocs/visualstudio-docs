@@ -84,7 +84,7 @@ Visual Studio for Mac provides pads containing additional information, tools, an
 
 Pads may also be opened automatically by various commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached pad of search results.
 
-Pads can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another pad, above or below another pad, or as a set of tabbed pads enabling you to quickly switch beween them.
+Pads can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another pad, above or below another pad, or as a set of tabbed pads enabling you to quickly switch between them.
 
 For frequently used pads, you can also completely detach a pad from the Visual Studio for Mac window, and create a separate window for that pad.
  
@@ -95,13 +95,13 @@ Pads can be hidden and closed by the toggles in the top-right corner of each pad
 Auto-hidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad will display it again, and it will be hidden when the mouse and keyboard focus leaves it.
 
 
-### Organising Layouts
+### Organizing Layouts
 
 The pads which are displayed at any time are dependent on the current context. For example when using the visual designer, the toolbox and property grid pads are most important; when debugging, it is useful to have the debugger pads for viewing the stack and locals.
 
 The state of the open pads is represented by a *layout*. The layouts can be  switched manually through the View menu, as illustrated below, or it will be switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
-![Selecting new Layouts](Images/customizing-the-ide-image6b.png)
+![Selecting new Layouts](media/customizing-the-ide-image6b.png)
 
 There is always one active layout and any change you make in a layout, such as adding or repositioning a pad will only change the active layout. Once you close Visual Studio for Mac the changes you have made will not be saved. 
 

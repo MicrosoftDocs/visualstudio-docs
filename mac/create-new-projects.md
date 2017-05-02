@@ -29,7 +29,7 @@ This method of adding new projects can be used to take advantage of Xamarin's co
 
 The landing page of Visual Studio displays a list of recent projects that you have been working on:
 
- ![](media/.png)
+ ![](media/create-new-projects-recent.png)
 
 You can filter this list using the Filter box or remove individual items from the list. 
 
