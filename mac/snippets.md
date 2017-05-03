@@ -21,7 +21,7 @@ There are some different ways to add code snippets, which are described below:
  
   ![Tab Expansion in Code](media/source-editor-image13.png)
 
-* **Toolbox** – Use the toolbox pad to display a list of all code snippets. Drag any template desiired from the toolbox into the correct position in the source code:
+* **Toolbox** – Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
  ![Code snippets in Toolbox](media/source-editor-image14.png)
 

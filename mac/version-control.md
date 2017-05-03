@@ -16,7 +16,7 @@ At the core of any version control system is a _repository_, which acts as the c
 
 If the repository is the central data store, it is logical for each user to have a local store of the data, allowing them to work on it. This is called a _working copy_. In Visual Studio for Mac your working copy will appear just as any other local directory on your machine, allowing you to read and write from any of the files. However, because Visual Studio for Mac has Version control system integration, you can leverage the power of Subversion and Git without leaving the IDE.
 
-Subversion is a centralized version control system. This means that there is a single server that contains all files and revisions from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user will get a snapshot of the repo at that particular point in time.
+Subversion is a centralized version control system. This means that there is a single server that contains all files and revisions from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user will get a snapshot of the repository at that particular point in time.
 
 Git is a distributed version control system that allows teams to work on the same documents simultaneously. This means that there is a single server that contains all the files, but whenever a repository is checked out from this central source, the entire repository is cloned locally to your machine.
 

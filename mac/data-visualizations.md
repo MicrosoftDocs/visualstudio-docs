@@ -15,81 +15,78 @@ Visual Studio for Mac includes UI support for the debugger allowing visualizatio
 
 Visualizers in the debug  **Local** pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
 
- ![](media/data-visualizations-image9.png)
+ ![Local Pad](media/data-visualizations-image9.png)
  
 The list below looks at many of the new visualizations available when debugging in Visual Studio for Mac.
 
 ## Point
 A Point/PointF, or CGPoint in iOS and Mac, will render as a tuple showing the X and Y values in the debug pad:
 
- ![](media/data-visualizations-image10.png)
+ ![Point Visualization](media/data-visualizations-image10.png)
  
 ## Size
 A Size/SizeF, or CGSize in iOS and Mac, will render as a rectangle. It is drawn to scale until a dimension grows past 250px, at which point it will scale the rectangle with the largest dimension as 250px:
 
-![](media/data-visualizations-image11.png)
+![Size Visualization](media/data-visualizations-image11.png)
  
 
 ## Rectangle
 A Rectangle/RectangleF, or CGRect in iOS and Mac, will display the dimensions and origin. Similar to Size, it is drawn to scale, until a dimension grows past 250px:
 
- ![](media/data-visualizations-image12.png)
+ ![Rectangle Visualization](media/data-visualizations-image12.png)
   
-## Coordinate
-Coordinates are plotted on a map, with the location pinned to the center:
+## Co-ordinate
+Co-ordinates are plotted on a map, with the location pinned to the center:
 
-![](media/data-visualizations-image13.png)
-
- 
-
+![Co-ordinate Visualization](media/data-visualizations-image13.png)
 
 ## Color
-This will display UIColor, CGColor, and Color properties, depicting the color preview, RGBA components, Hue-Staturation-Lightness values, and the hex value of the color:
+This will display UIColor, CGColor, and Color properties, depicting the color preview, RGBA components, Hue-Saturation-Lightness values, and the hex value of the color:
 
-![](media/data-visualizations-image14.png)
+![Color Visualization](media/data-visualizations-image14.png)
  
 
 ## Images
 
 Media will be rendered to scale, up to a maximum dimension of 250px, and will be scaled to fit when the image exceeds 250px:
 
- ![](media/data-visualizations-image15.png)
+ ![Image Visualization](media/data-visualizations-image15.png)
  
 
 ## Bezier Curves
 
 The visualizer will display an `NSBezierPath`:
 
-![](media/data-visualizations-image16.png)
+![Bezier Curve Visualization](media/data-visualizations-image16.png)
  
 
 ## String
 A string will be displayed of less than 100 characters will be displayed in full, without a preview. Longer strings will be displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button allowing the string value to be edited either in the preview or in the String Value Editor, shown beneath.
 
 
-![](media/data-visualizations-image17.png)
+![String Visualization](media/data-visualizations-image17.png)
 
 ### Small Strings:
-![](media/data-visualizations-image18.png)]
+![Small String Visualization](media/data-visualizations-image18.png)]
 
 ### Medium-length Strings:
-![](media/data-visualizations-image19.png)
+![Medium String Visualization](media/data-visualizations-image19.png)
  
 ### Editor:
 
- ![](media/data-visualizations-image21.png)
+ ![Editor Visualization](media/data-visualizations-image21.png)
  
 ## IEnumerable
 
 IEnumerable enumerates all values; the values of each can be viewed by clicking the **Show** Values button. The IEnumerable option will not display values for objects such as `Array`, `ArrayList`, `List<>`, `Dictionary<,>` as these have their own debugger visualizers.
 
-![](media/data-visualizations-image22.png)
+![IEnumerable Visualization](media/data-visualizations-image22.png)
  
 ## Other Visualizers
 
 Some other types that also have their own inline visualizers are listed below:
 
- ![](media/data-visualizations-image23.png)
+ ![Other Visualization](media/data-visualizations-image23.png)
  
 *	**Unevaluated Value**
 *	**Primitives**

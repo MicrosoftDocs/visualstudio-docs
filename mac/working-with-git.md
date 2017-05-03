@@ -88,6 +88,6 @@ This allows viewing of all the changes in each file of a project with the option
 
 To commit a file to the remote repository, press **Commit…**, enter a commit message, and confirm with the Commit Button:
 
-![Commiting a file](media/version-control-gitCommit.png)
+![Committing a file](media/version-control-gitCommit.png)
 
 Once you have committed your changes, push them to the remote repository to allow other users to see them.

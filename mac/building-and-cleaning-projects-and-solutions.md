@@ -30,7 +30,7 @@ Follow the steps in this topic to learn how to build, rebuilt, and clean your so
 
 ## To build or rebuild a single project
 
-1. In the Solution Pad, select the Projectthe project.
+1. In the Solution Pad, select the project.
 
 2. On the menu bar, choose Build, and then choose either Build[ProjectName], Rebuild[ProjectName], or Clean[ProjectName].
 

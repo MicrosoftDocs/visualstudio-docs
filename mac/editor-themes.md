@@ -20,7 +20,7 @@ New color themes can be added, provided they are in one of the supported formats
 * Xamarin Studio (`.json`)
 * TextMate (`.tmTheme`)
 
-There are many resources provided online that will allow you to create your theme and produce a file in the supported format. There are also many gallerys online that will provide free access to Visual Studio and TextMate themes.
+There are many resources provided online that will allow you to create your theme and produce a file in the supported format. There are also many galleries online that will provide free access to Visual Studio and TextMate themes.
 
 Once you have found or created a new theme and downloaded it to your local machine, add it by doing the following:
 

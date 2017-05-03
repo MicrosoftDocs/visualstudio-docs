@@ -41,9 +41,9 @@ rm -rf ~/Library/VisualLodStudio
 
 Mono is an open source implementation of Microsoft’s .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
 
-> [!WARNING] There are other applications outside of Xamarin
-> which also use Mono, such as Unity. Be sure that there are no other dependencies
-> on Mono before uninstalling it.
+> [!WARNING] 
+> There are other applications outside of Xamarin which also use Mono, such as Unity. 
+> Be sure that there are no other dependencies on Mono before uninstalling it.
 
 To remove the Mono Framework from a machine, run the following commands in Terminal:
 
@@ -55,8 +55,7 @@ sudo pkgutil --forget com.xamarin.mono-MDK.pkg
 ## Uninstall Xamarin.Android
 
 There are a number of items required for the installation and use of Xamarin.Android,
-such as the Android SDK and Java SDK. More information about these
-required components is available in the [Manual Installation](/guides/android/getting_started/installation/mac/manual_installation/) guide.
+such as the Android SDK and Java SDK.
 
 Use the following commands to remove Xamarin.Android:
 

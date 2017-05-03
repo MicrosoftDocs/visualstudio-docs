@@ -29,7 +29,7 @@ Comments are also useful for documenting code for future developers that may int
 
 ``` cs
 /*
- This is a multiline
+ This is a multi-line
  comment in C#
 */
 ```
@@ -37,7 +37,7 @@ Comments are also useful for documenting code for future developers that may int
 
 ```fsharp
 (*
- This is a multiline
+ This is a multi-line
   comment in F#
 *)
 ```

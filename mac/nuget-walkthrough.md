@@ -32,9 +32,9 @@ With the project open in Visual Studio for Mac, right-click on the **Packages** 
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
-This launches the _Add Packages..._ window. Ensure that the Source dropdown, is set to `nuget.org`:
+This launches the _Add Packages..._ window. Ensure that the Source drop-down, is set to `nuget.org`:
 
-![Source list dropdown](media/nuget-walkthrough-Source.png)
+![Source list drop-down](media/nuget-walkthrough-Source.png)
 
 When the window opens it will load a list of packages from the default package source: nuget.org. The initial results look like this:
 
@@ -82,7 +82,7 @@ You can also right-click on individual packages to access a context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackageMenu.png)
 
-*   **Version Number** - The version number is a disabled menu item - it is not selectable and is provided for informational purposes.
+*   **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
 *   **Update** - Checks the source server and downloads a newer version (if it exists).
 *   **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
 

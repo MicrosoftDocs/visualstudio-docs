@@ -9,13 +9,14 @@ ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 
 # Customizing the Build System
+
 MSbuild is a build engine developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has it's own implementation of Microsoft's Build Engine (MSBuild), called **xbuild**.
 
 **xbuild** is primarily used for build Xamarin projects in Visual Studio for Mac. However, Xamarin will be phasing out xbuild out, in favor of moving towards using MSBuild on all operating systems.
 
 In this document, when a reference is made to MSBuild, it is safe to assume that this also applies to xbuild.
 
-MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables and achieves this output by invoking tools such as the compiler. 
+MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables, and achieves this output by invoking tools such as the compiler. 
 
 
 ## MSBuild file
@@ -77,7 +78,7 @@ Properties can be referred to from expressions using the `$()` syntax. For examp
 
 #### Items
 
-Items are a way of dealing with inputs into the build system aslists or sets, and typically represent files. Each item has an item *type*, an item *spec*, and optional arbitrary *metadata*. Note that MSBuild doesn’t operate on individual items, it takes on all the items of a given type–called an item *set*
+Items are a way of dealing with inputs into the build system as lists or sets, and typically represent files. Each item has an item *type*, an item *spec*, and optional arbitrary *metadata*. Note that MSBuild doesn’t operate on individual items, it takes on all the items of a given type–called an item *set*
 
 Items are created by declaring an `ItemGroup`. There can be any number of ItemGroups, which can contain any number of items. 
 

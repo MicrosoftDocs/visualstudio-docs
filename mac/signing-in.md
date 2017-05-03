@@ -36,5 +36,5 @@ To sign in to Visual Studio for Mac, do the following:
 
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These additional accounts can be Microsoft accounts and work or school accounts, and will allow you to access resources, such as Azure, from any added account. 
 
-To add additional user accounts, follow the steps in the [How to sign in to Visual Studio for Mac]() section.
+To add additional user accounts, follow the steps in the [How to sign in to Visual Studio for Mac](#How_to_sign_in_to_Visual_Studio_for_Mac) section.
 

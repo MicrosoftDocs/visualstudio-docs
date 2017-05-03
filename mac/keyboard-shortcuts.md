@@ -25,7 +25,7 @@ This contextually generates code.
 
 ## Quick fixes and Actions
 
-Displays [refactoring](/guides/cross-platform/xamarin-studio/refactoring/#Context_Actions) context actions. 
+Displays [refactoring](~/refactoring.md) context actions. 
 
 `Option + Enter`
 
@@ -45,7 +45,7 @@ Allows quick switching between files
 
 `alt up / alt down` 
 
-Use the Alt-Up command to move the current line or current selected lines up, and use the Alt-Down command to move the lines down. If the language addin supports it, the lines will be re-indented to match the context when they move in and out of scopes.
+Use the Alt-Up command to move the current line or current selected lines up, and use the Alt-Down command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scopes.
 
 ## Word Navigation
 
@@ -55,7 +55,7 @@ Moves the caret to the next or previous word.
 
 ## Expands the Selection
 
-Expands word, subexpression, statement, and line member selection in a logical way
+Expands word, sub-expressions, statement, and line member selection in a logical way
 
 `alt shift up` to select
 `alt shift down` to de-select

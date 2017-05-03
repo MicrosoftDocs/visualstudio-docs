@@ -49,6 +49,6 @@ This allows viewing all the changes in each file of a project with the option to
 To commit a file to the remote repository, press Commit…, enter a commit message, and confirm with the Commit Button:
 
 
-![Commiting a file](media/version-control-svnCommit.png)
+![Committing a file](media/version-control-svnCommit.png)
 
 This will send the changes to the repository where they create the new revision of all your modifications.
