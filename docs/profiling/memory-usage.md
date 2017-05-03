@@ -1,7 +1,7 @@
 ---
 title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -108,8 +108,6 @@ The rows of Memory Usage summary table lists the snapshots that you have taken d
 -   The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps 
 
 When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.  
-  
-![Memory summary table cell](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
 
 To analyze memory usage, click one of the links that opens up a detailed report of memory usage:  
 
