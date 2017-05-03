@@ -8,9 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.toolsoptionspages.nuget_package_manager.general"
-  - "vs.toolsoptionspages.nuget_package_manager.package_sources"
 ms.assetid: 2175581e-83cb-444c-bb52-cc1fca8ea196
 caps.latest.revision: 21
 author: "kempb"
