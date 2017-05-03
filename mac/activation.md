@@ -1,5 +1,5 @@
 ---
-title: "Licensing"
+title: "Activation"
 description: 
 author: asb3993
 ms.author: amburns
@@ -8,7 +8,7 @@ ms.topic: article
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
 
-# Licensing
+# Activation
 
 Visual Studio for Mac provides you with three different subscription levels to choose from, all accessible from one download:
 

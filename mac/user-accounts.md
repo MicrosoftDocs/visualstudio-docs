@@ -17,4 +17,4 @@ By signing-in you enable access to all the services associated with your user ac
 ## In this section
 
 * [Signing In to Visual Studio](signing-in.md)
-* [Registering your License](register.md)
+* [Registering your License](activation.md)
