@@ -49,5 +49,6 @@
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
 ## [Working with Subversion](working-with-subversion.md)
 
-# [Troubleshooting]()
+# [Troubleshooting](troubleshooting.md)
+## [Visual Studio for Mac and Xamarin Studio Comparisons](visual-studio-and-xamarin-studio.md)
  
