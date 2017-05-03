@@ -47,7 +47,7 @@ The variable explorer appears as follows:
 
 If you have a more complex R data frame defined in the session, you can navigate into the data. For example, after running `cars <- mtcars` you can navigate through the dataset by expanding the different nodes in the Variable Explorer:
  
-![Complex ](media/variable-explorer-expanded-results.png)
+![Expanded view of the Variable Explorer](media/variable-explorer-expanded-results.png)
  
 To delete variables, right-click and select **Delete**, or select the variable and press the Delete key.
 

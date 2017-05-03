@@ -40,7 +40,7 @@ Help for R is integrated directly into the interactive window in Visual Studio. 
 > [!Tip]
 > The help window, like all others in Visual Studio, can be arranged and docked however you like. See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 >
-> You can also open help results in a browser instead by selecting the **R Tools > Options** menu and set the **R Help Browser** property to `External`.
+> You can also open help results in a browser instead by selecting the **R Tools > Options** menu and set the **R Help Browser** property to `External`. See [Options](options.md).
 
 To search help, use the `??` command with the search term in quotes if it include spaces:
 
@@ -63,9 +63,12 @@ Because developers often search the R documentation for help on function names, 
 
     ![Invoking help through the right click context menu](media/help-right-click.png)
 
+> [!Tip]
+> To open integrated help in a browser, select **R Tools > Options** and set **F1 Web Browser** to `External`. See [Options](options.md).
+
 ## Integrated StackOverflow search
 
-In addition to searching in the R documentation, developers often search StackOverflow while writing code. RTVS streamlines that process as well. When you right-click a term or a selection and select the **Search web for** command, or just press Ctrl+F1, a Visual Studio window opens that contains search results for that term that is scoped to StackOverflow by default:
+In addition to searching in the R documentation, developers often search StackOverflow while writing code. RTVS streamlines that process as well. When you right-click a term or a selection and select the **Search web for** command, or just press Ctrl+F1, a Visual Studio window (or a browser, if you've changed the **F1 Web Browser** option) opens that contains search results for that term that is scoped to StackOverflow by default:
 
 ![Web search results in Visual Studio](media/help-web-search-results.png)
 

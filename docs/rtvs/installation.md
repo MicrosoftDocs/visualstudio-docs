@@ -58,7 +58,7 @@ RTVS will not install if you have only the Visual Studio Shell that's included w
 
 3. Set any additional options on the right side under the same workload name. Note that by default, this workload includes F# and Python support. For R, you must at a minimum select **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
-RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio <VS version>\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`
+RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio` where `<version>` is typically `2017` and `<edition>` is `Community`, `Professional`, or `Enterprise`.
 
 ## Installing RTVS in Visual Studio 2015
 
@@ -66,13 +66,13 @@ With Visual Studio 2015, you need to install an R interpreter and the R Tools se
 
 ### Install an R interpreter
 
-RTVS requires a 64-bit installation of R version 3.2.1 or higher from one of the following sources:
+RTVS requires a 64-bit installation of R version 3.2.1 or higher from one or more of the following sources:
 
 * [Microsoft R Open](https://mran.microsoft.com/download/)
 * [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started)
 * [CRAN R](https://cran.r-project.org/bin/windows/base/)
 
-If you don't have an R distribution installed before you install RTVS, you will be prompted to install an R distribution during setup.
+Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Microsoft R Client, however, supports only one version and will always use the latest one you installed.
 
 ## Install the R tools
 

@@ -54,6 +54,9 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
     - On the top left is a new R file (`script.R`) where you can edit source code with all of Visual Studio's editing features.
     - On the bottom left is the **R Interactive** window in which you can interactively develop and test code.
 
+> [!Note]
+> You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools > Windows > R Interactive** at any time.
+
 ## Explore the Interactive window and IntelliSense
 
 1. Test that the interactive window is working by typing in `3 + 4` and then Enter to see the result:
@@ -74,13 +77,13 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
 1. Complete the line `mean(ds)` and press Enter to see the result (`[1] 39.51667`).
 
-1. The Interactive window is integrated with help, so enter `?datasets`, for example, and you'll see help for the built-in datasets appearing in the **R Help** window in Visual Studio. For additional details on this feature, see [Help in R Tools for Visual Studio](getting-started-help.md).
+1. The Interactive window is integrated with help, so enter `?mean`, for example, and you'll see help for that function in the **R Help** window in Visual Studio. For additional details on this feature, see [Help in R Tools for Visual Studio](getting-started-help.md).
 
     ![R Help window in Visual Studio](media/getting-started-06-help.png)
 
-1. Enter `data()` to display a list of available datasets, which opens in a new window in Visual Studio:
+1. Some commands, such as `plot(1:100)`, open a new window in Visual Studio when the output can't be displayed directly in the interactive window.:
 
-    ![Display of datasets in Visual Studio](media/getting-started-07-datasets.png)
+    ![Display of a plot in Visual Studio](media/getting-started-07-plot-window.png)
 
 The interactive window also lets you review your history, load and save workspaces, attach to a debugger, and interact with source code files to shortcut copy-paste operations. See [Working with the R Interactive Window](interactive-repl.md) for details.
 
@@ -106,8 +109,10 @@ As an example, the following steps create a little code to explore the [Central 
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 
+1. For a single line you can just press Ctrl+Enter at any time to run that line in the interactive window.
+
 > [!Tip]
-> Learn the patter of making editing, selecting everything with Ctrl+A, and then pressing Ctrl+Enter to quickly run the code. This is much more efficient than using the mouse for the same operations.
+> Learn the pattern of making edits and pressing Ctrl+Enter (or selecting everything with Ctrl+A and then pressing Ctrl+Enter) to quickly run the code. This is much more efficient than using the mouse for the same operations.
 > 
 > In addition, you can drag and drop the plot window out of the Visual Studio frame and place it whenever else you want on your display. This allows you to easily resize the plot window to the dimensions you want and then save it to an image or PDF file.
 
@@ -169,9 +174,13 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
     ![Locals window in Visual Studio](media/getting-started-14-debug4.png)
 
+1. To examine variables in different scopes, including the global scope and package scopes, is with the [Variable Explorer](variable-explorer.md) shown below. The Variable Explorer also gives you the ability to switch to a tabular view with sortable columns and to export data to a CSV file.
+
+    ![Expanded view of the Variable Explorer](media/variable-explorer-expanded-results.png)
+
 1. You can continue stepping through the program line by line, or select **Continue** (F5) to run it to completion (or the next breakpoint).
 
-To go deeper, see [Debugging](debugging.md).
+To go deeper, see [Debugging](debugging.md) and [Variable Explorer](variable-explorer.md).
 
 ## Next steps
 
