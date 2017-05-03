@@ -3,7 +3,6 @@
 
 # [Installation](installation.md)
 ## [Update](update.md)
-## [Modify](modify-installation.md)
 ## [Uninstall](uninstall.md)
 ## [Create an Offline Installer for Visual Studio for Mac](create-offline-installer.md)
 
