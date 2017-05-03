@@ -59,9 +59,9 @@ In some situations, such as those related to corrupted files, the problems may h
 
 1. Download the [Microsoft Visual Studio and the .NET Framework Log Collection Tool](https://www.microsoft.com/en-us/download/details.aspx?id=12493), and then run it. This tool collects and compiles available setup logs for Visual Studio, .NET Framework, and SQL Server installations.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
-![You can tab to the Provide Feedback button to open the feedback tool](report-a-problem.png)
+![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at %TEMP%\vslogs.zip).
-![Tab to the Report New Problem button, then follow through the steps](problem-report-details.png)
+![Tab to the Report New Problem button, then follow through the steps](media/problem-report-details.png)
 4. Click **Next** to review your problem report, and then click **Submit**.
 
 ### Step 5 - Run InstallCleanup.exe to clean up installation files
