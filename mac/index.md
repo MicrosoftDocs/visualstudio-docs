@@ -32,7 +32,7 @@ Visual Studio for supports development in C# and F#, by default.
 
 ### C#
 
-C# is the mostly commonly used language that can be used to create cross-platform applications in Visual Studio for Mac. This includes full support for all C# 6 features, which you can read more about in the [C# 6 New Features Overview](https://developer.xamarin.com/guides/cross-platform/advanced/csharp_six/).
+C# is the mostly commonly used language that can be used to create cross-platform applications in Visual Studio for Mac. This includes full support for all C# 7 features.
 
 ### F#
 
@@ -88,44 +88,26 @@ For more information on using writing Mac applications with Visual Studio for Ma
 
 Visual Studio for Mac provides support for cross-platform games development with Unity 5.6.1.
 
-Xamarin provides a number of powerful game development libraries, allowing you to create beautiful and exciting games within Visual Studio for Mac for Xamarin.Android and Xamarin.iOS:
+## Enterprise Features
 
-* [CocosSharp](https://developer.xamarin.com/guides/cross-platform/game_development/cocossharp/)
-* [MonoGames](https://developer.xamarin.com/guides/cross-platform/game_development/monogame/)
-* [UrhoSharp](https://developer.xamarin.com/guides/cross-platform/game_development/urho/)
+> [!Note]
+> These products can only be used with a Visual Studio Enterprise subscription.
 
-It also provides a 2D graphics drawing API, [SkiaSharp](https://developer.xamarin.com/guides/cross-platform/drawing/).
-
-### Integration with additional Xamarin Products
-
-Visual Studio for Mac has built in integration for [Xamarin Test Cloud](https://developer.xamarin.com/guides/testcloud/introduction-to-test-cloud/). This can be added automatically when creating a new supported project that is supported by the platform:
-
-![](media/intro-testcloud.png)
-
-### Using the Profiler
+### Profiler
 
 The preview version of Xamarin Profiler has three instruments available for profiling. The [Introduction to the Xamarin Profiler](https://developer.xamarin.com/guides/cross-platform/deployment,_testing,_and_metrics/xamarin-profiler/) guide explores what these instruments measure and how they analyze your application, and clarifies the meaning of the data presented on each screen.
 
-The Profiler can only be used with a Xamarin Enterprise subscription.
-
-### Using the Inspector
+### Inspector
 
 The Xamarin Inspector brings an interactive C# console with tools to users. It can be used as a debugging or diagnostics aid when inspecting live applications, as a teaching tool, as a documentation tool or an experimentation tool.
 
-It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac and Windows) as well as integrating into the debugging workflow of your IDE.
+![](media/intro-inspector.png)
 
-The Inspector can only be used with a Xamarin Enterprise subscription.
+It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac and Windows) as well as integrating into the debugging workflow of your IDE.
 
 For more information refer to the [Xamarin Inspector](https://developer.xamarin.com/guides/cross-platform/inspector/) guide.
 
-### Using Workbooks
-
-Xamarin Workbooks provide a blend of documentation and code that is perfect for experimentation, learning, and creating guides and teaching aids. Create a rich C# workbook for Android, iOS, Mac, or WPF, and get instant live results as you learn these APIs.
-
-For more information refer to the [Xamarin Workbooks](https://developer.xamarin.com/guides/cross-platform/workbooks/) guide.
-
-
-## First steps
+## Next steps
 
 * **Get the big picture** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](~/ide-tour.md)
 * **Setup** - To learn about how to download and install Visual Studio, see the [Installation](~/installation.md) guide.
