@@ -27,3 +27,9 @@ If your subscription has expired, you have two options:
 1. Renew your subscription. You can renew your subscription by browsing to [https://www.visualstudio.com/vs/pricing/](https://www.visualstudio.com/vs/pricing/).
 
 2. If you have another account with an active subscription, you can add it to Visual Studio for Mac as detailed in the [Adding multiple user accounts](~/signing-in.md) topic. Visual Studio for Mac will detect the best available license from all accounts that you have added. 
+
+## Offline Activation
+
+> [!WARNING]
+> There is currently no offline activation for Visual Studio for Mac. 
+> To activate your subscription you must be connected to the internet when signing in.

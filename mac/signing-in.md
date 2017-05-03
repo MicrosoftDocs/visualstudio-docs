@@ -16,6 +16,8 @@ If you do decide not to log in straight away, you will be able to use an evaluat
 
 ## How to sign in to Visual Studio for Mac
 
+Before signing in to Visual Studio for Mac ensure that you are connected to the internet. Subscriptions can only be activate online.
+ 
 To sign in to Visual Studio for Mac, do the following:
 
 1. Click the Sign in link on the Welcome page to display the Accounts Dialog, and press the **Sign In** button:
