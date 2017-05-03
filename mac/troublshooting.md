@@ -16,7 +16,7 @@ Logs can be found by browsing to the **Help > Open Log Directory** menu item, as
 
 ![Open Log directory menu item](media/troubleshooting-image1.png)
 
-# Viewing Exceptions
+## Viewing Exceptions
 
 When an exception has been caught, an exception bubble will appear. To view more details, select the **View Details** button:
 
@@ -24,7 +24,7 @@ When an exception has been caught, an exception bubble will appear. To view more
 
 This will the display Show Details dialog, providing more information regarding the exception:
 
-![](Images/troubleshooting-image3.png)
+![](media/troubleshooting-image3.png)
 
 Important sections of the dialog, which are numbered above are described in detail below:
 
