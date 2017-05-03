@@ -48,7 +48,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  You can use the **Tasks** window whenever you break into the debugger. You can access it on the **Debug** menu by clicking **Windows** and then clicking **Tasks**. The following illustration shows the **Tasks** window in its default mode.  
   
- ![Parallel Tasks window](../debugger/media/parallel_tasks_window.png "Parallel_Tasks_Window")  
+ ![Tasks window](../debugger/media/parallel_tasks_window.png "Parallel_Tasks_Window")  
   
 > [!NOTE]
 >  In managed code, a <xref:System.Threading.Tasks.Task> that has a status of <xref:System.Threading.Tasks.TaskStatus>, <xref:System.Threading.Tasks.TaskStatus>, or <xref:System.Threading.Tasks.TaskStatus> might not be displayed in the Tasks window when managed threads are in a sleep or join state.  
@@ -77,7 +77,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  You can add columns to the view by right-clicking a column heading and then selecting the columns you want. (Remove columns by clearing the selections.) You can also reorder columns by dragging them left or right. The column shortcut menu is shown in the following illustration.  
   
- ![Shortcut view menu in Parallel Tasks window](../debugger/media/parallel_tasks_contextmenu.png "Parallel_Tasks_ContextMenu")  
+ ![Shortcut view menu in Tasks window](../debugger/media/parallel_tasks_contextmenu.png "Parallel_Tasks_ContextMenu")  
   
 ## Sorting Tasks  
  To sort tasks by column criteria, click the column header. For example, by clicking the **ID** column header, you can sort the tasks by task ID: 1,2,3,4,5 and so on. To reverse the sort order, click the column header again. The current sort column and sort order is indicated by an arrow on the column.  
@@ -85,12 +85,12 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 ## Grouping Tasks  
  You can group tasks based on any column in the list view. For example, by right-clicking the **Status** column header and then clicking **Group by Status**, you can group all tasks that have the same status. For example, you could quickly see waiting tasks so that you could focus on why they are blocked. You can also collapse a group that is not of interest during the debug session. In the same manner, you can group by the other columns. A group can be (un)flagged just by clicking the button next to the group header. The following illustration shows the **Tasks** window in grouped mode.  
   
- ![Grouped mode in Parallel Tasks window](../debugger/media/parallel_tasks_groupedmode.png "Parallel_Tasks_GroupedMode")  
+ ![Grouped mode in Tasks window](../debugger/media/parallel_tasks_groupedmode.png "Parallel_Tasks_GroupedMode")  
   
 ## Parent Child View  
  (This view is available for managed code only.) By right-clicking a column heading and then clicking **Parent Child View**, you can change the list of tasks to a hierarchical view, in which every child task is a sub-node that can be displayed or hidden under its parent. The following illustration shows the tasks in parent-child view.  
   
- ![Parent&#45;child view in Parallel Tasks window](../debugger/media/parallel_tasks_parentchildview.png "Parallel_Tasks_ParentChildView")  
+ ![Parent&#45;child view in Tasks window](../debugger/media/parallel_tasks_parentchildview.png "Parallel_Tasks_ParentChildView")  
   
 ## Flagging Tasks  
  You can flag the thread the task on which a task is running by selecting the task list item and then choosing **Flag** from the context menu, or by clicking the flag icon in the first column. If you flag several tasks, you can then sort on the flag column to bring all the flagged tasks to the top so that you can focus just on them. You can also use the **Parallel Stacks** window to view only flagged tasks. This lets you filter out tasks that you are not interested in for debugging. Flags are not persisted between debugging sessions.  
@@ -100,7 +100,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  The following illustration shows the other menu items for each task.  
   
- ![Shortcut thread menu in Parallel Tasks window](../debugger/media/parallel_tasks_contextmenu2.png "Parallel_Tasks_ContextMenu2")  
+ ![Shortcut thread menu in Tasks window](../debugger/media/parallel_tasks_contextmenu2.png "Parallel_Tasks_ContextMenu2")  
   
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   

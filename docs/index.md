@@ -282,7 +282,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Mobile development with .NET</h3>
+                                                    <h3>Mobile development for .NET</h3>
                                                     <p>Build cross-platform applications for iOS, Android, or Windows using Xamarin.</p>
                                                 </div>
                                             </div>
@@ -584,7 +584,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Data</h3>
-                                                    <p>Create applications that connect to data in virtually any database product or service, in any format, anywhere&#8211;on a local machine, on a local area network, or in a public, private, or hybrid cloud.</p>
+                                                    <p>Create data apps that connect to any database or service, and anywhere&#8212;local or cloud. </p>
                                                 </div>
                                             </div>
                                         </div>
