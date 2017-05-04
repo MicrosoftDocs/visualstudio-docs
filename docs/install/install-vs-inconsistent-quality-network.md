@@ -5,7 +5,7 @@ ms.date: "04/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+ - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -23,7 +23,8 @@ translation.priority.ht:
   - "ja-jp"
   - "ko-kr"
   - "ru-ru"
-  - "zh-cn"  - "zh-tw"
+  - "zh-cn"  
+  - "zh-tw"
 translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
