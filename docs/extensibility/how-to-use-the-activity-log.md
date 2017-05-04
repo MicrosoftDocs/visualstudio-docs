@@ -56,7 +56,7 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 ### To examine the activity log  
   
-1.  Find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\14.0\ActivityLog.XML..  
+1.  Find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\15.0\ActivityLog.XML..  
   
 2.  Open the activity log with any text editor. Here is a typical entry:  
   
