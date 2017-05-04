@@ -30,10 +30,12 @@ If your subscription has expired, you have two options:
 
 ## Offline Activation
 
-> [!WARNING]
+> [!NOTE]
 > There is currently no offline activation for Visual Studio for Mac. 
 > To activate your subscription you must be connected to the internet when signing in.
 
-To activate your Visual Studio for Mac Professional or Enterprise subscription, you must be connected to the internet when signing in.  Currently there is no offline activation for Visual Studio Professional for Mac or Visual Studio Enterprise for Mac.  Visual Studio for Mac can be used in environments without an internet connection in accordance with the license.
+To activate your Visual Studio 2017 for Mac Professional or Enterprise subscription, you must be connected to the internet when signing in.  
 
-If you have purchased Visual Studio for Mac Professional or Enterprise for machines without an internet connection, you may continue to use Visual Studio for Mac without activation until offline activation is made available.
+**Note**: Currently there is no offline activation for Visual Studio Professional for Mac or Visual Studio Enterprise for Mac. However, Visual Studio 2017 for Mac can be used in environments without an internet connection in accordance with the license.
+
+If you have purchased Visual Studio Enterprise 2017 for Mac for machines without an internet connection, you may continue to use Visual Studio for Mac without activation, but Xamarin Inspector, Xamarin Profiler and embedded assemblies features will not be available.
