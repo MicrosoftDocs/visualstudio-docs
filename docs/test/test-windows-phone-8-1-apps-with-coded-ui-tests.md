@@ -1,5 +1,5 @@
 ---
-title: "Test Windows Phone 8.1 Apps with Coded UI Tests | Microsoft Docs"
+title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7b866776-f2d5-4823-8d15-919f889db26f
 caps.latest.revision: 28
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
   - "de-de"
@@ -28,9 +28,10 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Test Windows Phone 8.1 Apps with Coded UI Tests
-Use coded UI tests to test your Windows Phone apps.  
-  
+# Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
+
+Use this walkthrough for creating UI tests for UWP apps that run on mobile device or emulators and XAML-based Phone 8.1 apps.  
+
 ## Create a simple Windows Phone app  
   
 1.  Create a new project for a blank Windows Phone app using either Visual C# or Visual Basic template.  
@@ -88,6 +89,8 @@ Use coded UI tests to test your Windows Phone apps.
      Keep the emulator running while you create your coded UI test.  
   
 ## Create a coded UI test for the Windows Phone app  
+
+[How do I create coded UI tests for Universal Windows Platform (UWP) apps?](#uwpapps)
   
 1.  Add a new coded UI test project to the solution with the Windows Phone app.  
   
@@ -339,7 +342,8 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
 ### Q: Can I create coded UI tests for my Windows Phone apps on a system that is not running Windows 8.1 or Windows 10?  
  **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
-  
+
+<a name="uwpapps"></a>  
 ### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?  
  **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
@@ -389,7 +393,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 |Execute automated tests from MTM|Supported.|Not supported.|  
 |Data-driven tests|See [Data-driven tests](../test/creating-a-data-driven-coded-ui-test.md) for information about using external data-sources and using DataSource attribute on a test method.|Data is specified inline, using DataRow attribute on a test method. See [Use Data-driven coded UI tests on Windows Phone apps](#TestingPhoneAppsCodedUI_DataDriven) in this topic.|  
   
- For information about coded UI tests for Windows Store apps, see [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md).  
+ For information about coded UI tests for Windows Store apps, see [Test Windows UWP and 8.1 Store Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md).  
   
 ## External resources  
  Microsoft Visual Studio Application Lifecycle Management blog: [Using Coded UI to test XAML-based Windows Phone apps](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/05/using-coded-ui-to-test-xaml-based-windows-phone-apps.aspx?PageIndex=2#comments)  

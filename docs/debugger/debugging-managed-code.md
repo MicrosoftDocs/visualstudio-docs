@@ -9,12 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging managed code"
@@ -81,7 +78,7 @@ This section covers common debugging problems and techniques for managed applica
  [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)  
  Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.  
   
- [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute)  
+ [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute)  
  Describes a linker option that adds <xref:System.Diagnostics.DebuggableAttribute> to code written with C++. This attribute is needed to use debugging features such as attach with C++.  
   
  [Debugging Windows Service Applications](http://msdn.microsoft.com/Library/63ab0800-0f05-4f1e-88e6-94c73fd920a2)  

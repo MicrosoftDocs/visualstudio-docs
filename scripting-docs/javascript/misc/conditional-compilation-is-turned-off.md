@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT1030"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 59a030b0-a6c6-47f2-b90e-c0ed204d5116
 caps.latest.revision: 9
@@ -31,7 +32,7 @@ You attempted to use a conditional compilation variable without first turning co
   
 -   Add the following statement to the beginning of your conditional code:  
   
-    ```javascript  
+    ```JavaScript  
     /*@cc_on @*/  
     ```  
   

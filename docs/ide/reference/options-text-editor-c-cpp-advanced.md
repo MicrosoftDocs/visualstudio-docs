@@ -134,8 +134,11 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Max Cached Translation Units**  
  The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.  
   
- For more information about translation units, see [Phases of Translation](/visual-cpp/preprocessor/phases-of-translation).  
-  
+ For more information about translation units, see [Phases of Translation](/cpp/preprocessor/phases-of-translation).  
+
+ **Member List Dot-To-Arrow**  
+ Replaces '.' with '->' when applicable for Member List.
+
  **Disable Aggressive Member List**  
  The member list doesn't appear while you type the name of a type or variable. The list appears only after you type one of the commit characters, as defined in the **Member List Commit Characters** option.  
   
@@ -165,6 +168,13 @@ By changing these options, you can change the behavior related to IntelliSense a
  Hide unconfirmed items in the ‘Find All References’ results. If you unset the “Disable Resolving” option, you can use this option to hide unconfirmed items in the results.  
   
  **Disable Reference Highlighting**  
+
+ ## Text Editor
+ **Enable Expand Scopes**  
+ If enabled, you can surround selected text with curly braces by typing '{' into the text editor.  
+  
+ **Enable Expand Precedence**  
+ If enabled, you can surround selected text with parentheses by typing '(' into the text editor.  
   
 ## See Also  
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)

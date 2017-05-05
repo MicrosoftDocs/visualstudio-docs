@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, setting options"
@@ -52,10 +52,7 @@ This section describes the debugger-related property settings, and the preparati
  Describes recommended project settings for debugging DLL projects, how to debug from a DLL project, how debug in mixed mode, and how to debug a managed-code Web Control Library.  
   
  [Console Projects](../debugger/debugging-preparation-console-projects.md)  
- Provides instructions on how to configure console projects for debugging.  
-  
- [ASP.NET Web Applications](../debugger/debugging-preparation-aspnet-web-applications.md)  
- Provides instructions on how to configure ASP.NET Web applications.  
+ Provides instructions on how to configure console projects for debugging.   
   
  [How to: Debug an Executable Not Part of a Visual Studio Solution](../debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md)  
  Explains how to debug an executable that is not created as part of a Visual Studio project.  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "create function [JavaScript]"
@@ -57,7 +58,7 @@ Object.create(prototype, descriptors)
 ## Example  
  The following example creates an object using a `null` prototype and adds two enumerable properties.  
   
-```javascript  
+```JavaScript  
 var newObj = Object.create(null, {  
             size: {  
                 value: "large",  
@@ -83,7 +84,7 @@ document.write(Object.getPrototypeOf(newObj));
 ## Example  
  The following example creates an object that has the same internal prototype as the Object object. You can see that it has the same prototype as an object created by using an object literal. The [Object.getPrototypeOf](../../javascript/reference/object-getprototypeof-function-javascript.md) function gets the prototype of the original object. To get the object's property descriptor, you can use [Object.getOwnPropertyDescriptor Function](../../javascript/reference/object-getownpropertydescriptor-function-javascript.md).  
   
-```javascript  
+```JavaScript  
 var firstLine = { x: undefined, y: undefined };  
   
 var secondLine = Object.create(Object.prototype, {  
@@ -113,7 +114,7 @@ document.write("second line prototype = " + Object.getPrototypeOf(secondLine));
 ## Example  
  The following example creates an object that has the same internal prototype as the Shape object.  
   
-```javascript  
+```JavaScript  
   
 // Create the shape object.  
 var Shape = { twoDimensional: true, color: undefined, hasLineSegments: undefined };  

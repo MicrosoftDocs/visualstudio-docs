@@ -13,6 +13,7 @@ f1_keywords:
   - "new_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "new operator in JavaScript"
@@ -49,7 +50,7 @@ new constructor ([arguments])
   
  These are examples of valid uses of the **new** operator.  
   
-```javascript  
+```JavaScript  
 my_object = new Object;  
 my_array = new Array();  
 my_date = new Date("Jan 5 1996");  

@@ -13,6 +13,7 @@ f1_keywords:
   - "Date"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Date object"
@@ -75,7 +76,7 @@ dateObj = new Date(year, month, date[, hours[, minutes[, seconds[,ms]]]])
 ## Example  
  The following example illustrates the use of the `Date` object.  
   
-```javascript  
+```JavaScript  
 var dateString = "Today's date is: ";  
   
 var newDate = new Date();  

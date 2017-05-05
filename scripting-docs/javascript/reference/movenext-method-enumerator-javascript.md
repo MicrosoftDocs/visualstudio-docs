@@ -13,6 +13,7 @@ f1_keywords:
   - "moveNext"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "MoveNext method"
@@ -43,7 +44,7 @@ enumObj.moveNext( )
 ## Example  
  In following example, the **moveNext** method is used to move to the next drive in the `Drives` collection:  
   
-```javascript  
+```JavaScript  
 function ShowDrives()  
 {  
     var s = "";  

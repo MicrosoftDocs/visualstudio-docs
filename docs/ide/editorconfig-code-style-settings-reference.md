@@ -1,5 +1,5 @@
 ---
-title: ".NET Code Style Settings For Editorconfig | Microsoft Docs"
+title: ".NET Code Style Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# .NET Code Style Settings For Editorconfig
+# .NET Code Style Settings For EditorConfig
 
 ## Possible values
 
@@ -476,7 +476,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
-| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value out int i) {...}`
+| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
 | False | Prefer `out` variables to be declared explicitly.| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
 
 #### Example editorconfig file:
@@ -494,7 +494,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
-| True | Prefer to use throw expressions instead of throw statements. | **C#:** <br>`this.s = ss ?? throw new ArguementNullException(nameof(s));`
+| True | Prefer to use throw expressions instead of throw statements. | **C#:** <br>`this.s = ss ?? throw new ArgumentNullException(nameof(s));`
 | False | Prefer to use throw statements instead of throw expressions.| **C#:** <br>`if (s==null) {throw new ArgumentNullException(nameof(s));} this.s = s;`
 
 #### Example editorconfig file:

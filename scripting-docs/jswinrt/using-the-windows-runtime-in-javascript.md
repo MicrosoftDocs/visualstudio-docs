@@ -36,19 +36,19 @@ When you write a Universal Windows Platform (UWP) app, you can use Windows Runti
   
 -   Namespaces and classes are in Pascal case:  
   
-    ```javascript  
+    ```JavaScript  
     Windows.Deployment.PackageInfo;  
     ```  
   
 -   Members of classes, including methods and properties, and members of structures and enumerations, are in camel case:  
   
-    ```javascript  
+    ```JavaScript  
     Deployment.PackageInfo.createPackage();  
     ```  
   
 -   Event names are in lower case:  
   
-    ```javascript  
+    ```JavaScript  
     dataTransferManager.ontargetapplicationchosen;  
     ```  
   

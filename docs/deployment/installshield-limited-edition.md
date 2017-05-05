@@ -1,4 +1,5 @@
 ---
+redirect_url: /visualstudio/deployment/deploying-applications-services-and-components
 title: "InstallShield Limited Edition | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

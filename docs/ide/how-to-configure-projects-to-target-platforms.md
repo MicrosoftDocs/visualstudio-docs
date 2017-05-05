@@ -71,7 +71,7 @@ translation.priority.ht:
   
 -   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](/visual-cpp/build/reference/clr-common-language-runtime-compilation).  
+-   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   

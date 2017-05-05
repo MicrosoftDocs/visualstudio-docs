@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCSeconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "UTC times, returning"
@@ -46,7 +47,7 @@ dateObj.getUTCSeconds()
 ## Example  
  The following example shows how to use the `getUTCSeconds` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date. getUTCSeconds());  
   

@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, parallel tasks walkthrough"
@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Debugging a Parallel Application
-This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the runtime behavior of code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.  
+This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the runtime behavior of code that uses the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.  
   
  This walkthrough teaches these tasks:  
   
@@ -57,7 +57,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 -   How the windows cope with scale through grouping, zooming, and other related features.  
   
 ## Prerequisites  
- This walkthrough assumes that **Just My Code** is enabled. On the **Tools** menu, click **Options**, expand the **Debugging** node, select **General**, and then select **Enable Just My Code (Managed only)**. If you do not set this feature, you can still use this walkthrough, but your results may differ from the illustrations.  
+ This walkthrough assumes that **Just My Code** is enabled (it is enabled by default in more recent versions of Visual Studio). On the **Tools** menu, click **Options**, expand the **Debugging** node, select **General**, and then select **Enable Just My Code (Managed only)**. If you do not set this feature, you can still use this walkthrough, but your results may differ from the illustrations.  
   
 ## C# Sample  
  If you use the C# sample, this walkthrough also assumes that External Code is hidden. To toggle whether external code is displayed, right-click the **Name** table header of the **Call Stack** window, and then select or clear **Show External Code**. If you do not set this feature, you can still use this walkthrough, but your results may differ from the illustrations.  
@@ -221,9 +221,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 4.  Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.  
   
-5.  On the **Debug** menu, point to **Windows** and then click **Parallel Tasks**. The following illustration shows the **Parallel Tasks** window.  
+5.  On the **Debug** menu, point to **Windows** and then click **Parallel Tasks**. The following illustration shows the **Tasks** window.  
   
-     ![Four running tasks in Parallel Tasks window](../debugger/media/pdw_walkthrough_6.png "PDW_Walkthrough_6")  
+     ![Four running tasks in Tasks window](../debugger/media/pdw_walkthrough_6.png "PDW_Walkthrough_6")  
   
      For each running Task, you can read its ID, which is returned by the same-named property, the ID and name of the thread that runs it, its location (hovering over that displays a tooltip that has the whole call stack). Also, under the **Task** column, you can see the method that was passed into the task; in other words, the starting point.  
   
@@ -239,13 +239,13 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      Previously, the **Status** column showed all tasks as Running, but now two of the tasks are Waiting. Tasks can be blocked for many different reasons. In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.  
   
-     ![Two waiting tasks in Parallel Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")  
+     ![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")  
   
      Task 4, in turn, is waiting on a monitor owned by the thread assigned to task 2.  
   
      ![Waiting task and tooltip in Tasks window](../debugger/media/pdb_walkthrough_7a.png "PDB_Walkthrough_7A")  
   
-     You can flag a task by clicking the flag in the first column of the **Parallel Tasks** window.  
+     You can flag a task by clicking the flag in the first column of the **Tasks** window.  
   
      You can use flagging to track tasks between different breakpoints in the same debugging session or to filter for tasks whose call stacks are shown in the **Parallel Stacks** window.  
   
@@ -255,9 +255,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      Threads that are not currently executing tasks are not shown in the Tasks View of the **Parallel Stacks** window. Also, for threads that execute tasks, some of the stack frames that are not relevant to tasks are filtered from the top and bottom of the stack.  
   
-     View the **Parallel Tasks** window again. Right-click any column header to see a shortcut menu for the column.  
+     View the **Tasks** window again. Right-click any column header to see a shortcut menu for the column.  
   
-     ![Shortcut view menu in Parallel Tasks window](../debugger/media/pdb_walkthrough_8a.png "PDB_Walkthrough_8A")  
+     ![Shortcut view menu in Tasks window](../debugger/media/pdb_walkthrough_8a.png "PDB_Walkthrough_8A")  
   
      You can use the shortcut menu to add or remove columns. For example, the AppDomain column is not selected; therefore, it is not displayed in the list. Click **Parent**. The **Parent** column appears without values for any of the four tasks.  
   
@@ -269,9 +269,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      To better visualize the parent-child relationship, right-click the **Parent** column header and then click **Parent Child View**. You should see the following illustration.  
   
-     ![Parent&#45;child view in Parallel Tasks window](../debugger/media/pdb_walkthrough_9.png "PDB_Walkthrough_9")  
+     ![Parent&#45;child view in Tasks window](../debugger/media/pdb_walkthrough_9.png "PDB_Walkthrough_9")  
   
-     Notice that task 4 and task 5 are running on the same thread. This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Parallel Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. Locate tasks 4 and 5 by double-clicking them in the **Parallel Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 4 and 5 by scanning the tooltips on the **Parallel Stacks** window.  
+     Notice that task 4 and task 5 are running on the same thread. This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. Locate tasks 4 and 5 by double-clicking them in the **Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 4 and 5 by scanning the tooltips on the **Parallel Stacks** window.  
   
      ![Task view in Parallel Stacks window](../debugger/media/pdb_walkthrough_9a.png "PDB_Walkthrough_9A")  
   
@@ -295,21 +295,21 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      ![Header tooltip in Parallel Stacks window](../debugger/media/pdb_walkthrough_11.png "PDB_Walkthrough_11")  
   
-     You can group the tasks by column. In the **Parallel Tasks** window, right-click the **Status** column header and then click **Group by Status**. The following illustration shows the **Parallel Tasks** window grouped by status.  
+     You can group the tasks by column. In the **Tasks** window, right-click the **Status** column header and then click **Group by Status**. The following illustration shows the **Tasks** window grouped by status.  
   
-     ![Grouped tasks in Parallel Tasks window](../debugger/media/pdb_walkthrough_12.png "PDB_Walkthrough_12")  
+     ![Grouped tasks in Tasks window](../debugger/media/pdb_walkthrough_12.png "PDB_Walkthrough_12")  
   
      You can also group by any other column. By grouping tasks, you can focus on a subset of tasks. Each collapsible group has a count of the items that are grouped together. You can also quickly flag all items in the group by clicking the **Flag** button to the right of the **Collapse** button.  
   
      ![Grouped stacks in Parallel Stacks window](../debugger/media/pdb_walkthrough_12a.png "PDB_Walkthrough_12A")  
   
-     The last feature of the **Parallel Tasks** window to examine is the shortcut menu that is displayed when you right-click a task.  
+     The last feature of the **Tasks** window to examine is the shortcut menu that is displayed when you right-click a task.  
   
-     ![Shortcut menu in Parallel Tasks window](../debugger/media/pdb_walkthrough_12b.png "PDB_Walkthrough_12B")  
+     ![Shortcut menu in Tasks window](../debugger/media/pdb_walkthrough_12b.png "PDB_Walkthrough_12B")  
   
      The shortcut menu displays different commands, depending on the status of the task. The commands may include **Copy**, **Select All**, **Hexadecimal Display**, **Switch to Task**, **Freeze Assigned Thread**, **Freeze All Threads But This**, and **Thaw Assigned Thread**, and **Flag**.  
   
-     You can freeze the underlying thread of a task, or tasks, or you can freeze all threads except the assigned one. A frozen thread is represented in the **Parallel Tasks** window as it is in the **Threads** window, by a blue *pause* icon.  
+     You can freeze the underlying thread of a task, or tasks, or you can freeze all threads except the assigned one. A frozen thread is represented in the **Tasks** window as it is in the **Threads** window, by a blue *pause* icon.  
   
 ## Summary  
  This walkthrough demonstrated the **Parallel Tasks** and **Parallel Stacks** debugger windows. Use these windows on real projects that use multithreaded code. You can examine parallel code written in C++, C#, or Visual Basic.  
@@ -319,6 +319,6 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](http://msdn.microsoft.com/Library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
- [Concurrency Runtime](/visual-cpp/parallel/concrt/concurrency-runtime)   
+ [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)

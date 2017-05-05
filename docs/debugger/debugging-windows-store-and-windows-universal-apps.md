@@ -1,5 +1,5 @@
 ---
-title: "Debugging Windows Store and Windows Universal apps | Microsoft Docs"
+title: "Debugging Windows Store and UWP apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 5
@@ -33,10 +33,10 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Debugging Windows Store and Windows Universal apps
+# Debugging Windows Store and Universal Windows Apps
 The Visual Studio debugger provides complete support for debugging Windows Store apps.  
   
- For information about debugging Windows Universal apps, see [Deploying and debugging Windows Universal Platform apps](https://msdn.microsoft.com/en-us/library/windows/apps/mt613243.aspx).  
+ For information about debugging Universal Windows Apps, see [Deploying and debugging Universal Windows Platform apps](https://msdn.microsoft.com/en-us/library/windows/apps/mt613243.aspx).  
   
  To debug Windows Phone apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/en-us/library/windows/apps/ff402572\(v=vs.105\).aspx).  
   

@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [MFC], assertions"
@@ -59,7 +59,7 @@ An assertion statement specifies a condition that you expect to be true at a poi
   
 -   CRT assertions for programs that use the C run-time library.  
   
--   The ANSI [assert function](/visual-cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.  
+-   The ANSI [assert function](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.  
   
  You can use assertions to catch logic errors, check results of an operation, and Test error conditions that should have been handled.  
   
@@ -118,7 +118,7 @@ VERIFY ( myFnctn(0)==1 ) // safe
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_CRT_assertions"></a> CRT assertions  
- The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/visual-cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.  
+ The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.  
   
 |Macro|Result|  
 |-----------|------------|  
@@ -138,30 +138,30 @@ VERIFY ( myFnctn(0)==1 ) // safe
    } while (0)  
 ```  
   
- If the asserted expression evaluates to FALSE, [_CrtDbgReport](/visual-cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) is called to report the assertion failure (using a message dialog box by default). If you choose **Retry** in the message dialog box, `_CrtDbgReport` returns 1 and `_CrtDbgBreak` calls the debugger through `DebugBreak`.  
+ If the asserted expression evaluates to FALSE, [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) is called to report the assertion failure (using a message dialog box by default). If you choose **Retry** in the message dialog box, `_CrtDbgReport` returns 1 and `_CrtDbgBreak` calls the debugger through `DebugBreak`.  
   
 ### Checking for Heap Corruption  
- The following example uses [_CrtCheckMemory](/visual-cpp/c-runtime-library/reference/crtcheckmemory) to check for corruption of the heap:  
+ The following example uses [_CrtCheckMemory](/cpp/c-runtime-library/reference/crtcheckmemory) to check for corruption of the heap:  
   
 ```  
 _ASSERTE(_CrtCheckMemory());  
 ```  
   
 ### Checking Pointer Validity  
- The following example uses [_CrtIsValidPointer](/visual-cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.  
+ The following example uses [_CrtIsValidPointer](/cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.  
   
 ```  
 _ASSERTE(_CrtIsValidPointer( address, size, TRUE );  
 ```  
   
- The following example uses [_CrtIsValidHeapPointer](/visual-cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.  
+ The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.  
   
 ```  
 _ASSERTE(_CrtIsValidPointer( myData );  
 ```  
   
 ### Checking a Memory Block  
- The following example uses [_CrtIsMemoryBlock](/visual-cpp/c-runtime-library/reference/crtismemoryblock) to verify that a memory block is in the local heap and has a valid block type.  
+ The following example uses [_CrtIsMemoryBlock](/cpp/c-runtime-library/reference/crtismemoryblock) to verify that a memory block is in the local heap and has a valid block type.  
   
 ```  
 _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber));  
@@ -233,7 +233,7 @@ void CPerson::AssertValid() const
   
  If any of your member variables store objects, you can use the `ASSERT_VALID` macro to test their internal validity (if their classes override `AssertValid`).  
   
- For example, consider a class `CMyData`, which stores a [CObList](/visual-cpp/mfc/reference/coblist-class) in one of its member variables. The `CObList` variable, `m_DataList`, stores a collection of `CPerson` objects. An abbreviated declaration of `CMyData` looks like this:  
+ For example, consider a class `CMyData`, which stores a [CObList](/cpp/mfc/reference/coblist-class) in one of its member variables. The `CObList` variable, `m_DataList`, stores a collection of `CPerson` objects. An abbreviated declaration of `CMyData` looks like this:  
   
 ```  
 class CMyData : public CObject  

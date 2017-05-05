@@ -13,6 +13,7 @@ f1_keywords:
   - "Comparison"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "comparison operators, script"

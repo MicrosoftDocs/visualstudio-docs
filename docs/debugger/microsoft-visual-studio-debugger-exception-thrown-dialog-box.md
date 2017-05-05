@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.exceptions.thrown"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Microsoft Visual Studio Debugger (Exception Thrown) dialog box"
@@ -58,4 +58,4 @@ An exception has occurred in your program. This dialog box reports the kind of e
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
  [Best Practices for Exceptions](http://msdn.microsoft.com/Library/f06da765-235b-427a-bfb6-47cd219af539)   
- [Exception Handling](/visual-cpp/windows/exception-handling-cpp-component-extensions)
+ [Exception Handling](/cpp/windows/exception-handling-cpp-component-extensions)

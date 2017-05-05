@@ -21,7 +21,7 @@ manager: "ghogen"
 # Handling Windows Runtime Events in JavaScript
 Windows Runtime events are not represented in the same way in JavaScript as they are in C++ or the .NET Framework. They are not class properties, but rather are represented as string identifiers that are passed to the class's `addEventListener` and `removeEventListener` methods. For example, you can add an event handler for the [Geolocator.PositionChanged](http://msdn.microsoft.com/library/windows/apps/xaml/windows.devices.geolocation.geolocator.positionchanged.aspx) event by passing the string "positionchanged" to the `Geolocator.addEventListener` method:  
   
-```javascript  
+```JavaScript  
 var locator =  new Windows.Devices.Geolocation.Geolocator();  
 locator.addEventListener(  
     "positionchanged",   
@@ -41,7 +41,7 @@ locator.onpositionchanged =
   
  In JavaScript, Windows Runtime event arguments are represented as a single event object. In the following example of an event handler method, the `ev` parameter is an object that contains both the sender (the target property) and the other event arguments. The event arguments are the ones that are documented for each event.  
   
-```javascript  
+```JavaScript  
 function (ev) {  
     console.log("Target: " + ev.target);  
     console.log("Position: " +  

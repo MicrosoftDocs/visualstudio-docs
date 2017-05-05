@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCFullYear"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getUTCFullYear method"
@@ -50,7 +51,7 @@ dateObj.getUTCFullYear()
 ## Example  
  The following example shows how to use the `getUTCFullYear` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/9/36");  
 document.write(date.getUTCFullYear());  
   

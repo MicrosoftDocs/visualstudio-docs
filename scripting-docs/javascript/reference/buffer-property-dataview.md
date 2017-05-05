@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b69afc28-586e-4277-8cd6-b9d69a54fb55
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ Read-only. Gets the ArrayBuffer that is referenced by this view.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayBuffer = dataView.buffer;  
 ```  
   
 ## Example  
  The following example shows how to get the length of the ArrayBuffer underlying the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

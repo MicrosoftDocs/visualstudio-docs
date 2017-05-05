@@ -1,18 +1,13 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/06/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 caps.latest.revision: 3
 author: "mikejo5000"
@@ -52,12 +47,12 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
  Change MainWindow.xaml to the following:  
   
 ```xaml  
-<Window x:Class="WpfApplication1.MainWindow"  
+<Window x:Class="TestXAML.MainWindow"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
-    xmlns:local="clr-namespace:WpfApplication1"  
+    xmlns:local="clr-namespace:TestXAML"  
     mc:Ignorable="d"  
      Title="MainWindow" Height="350" Width="525">  
     <Grid>  
@@ -69,7 +64,9 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
   
  Add the following command handler to the MainWindow.xaml.cs file:  
   
-```cs  
+```C# 
+int count;
+
 private void button_Click(object sender, RoutedEventArgs e)  
 {  
     ListBoxItem item = new ListBoxItem();  

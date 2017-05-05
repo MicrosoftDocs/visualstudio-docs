@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="WebPartNode.Microsoft.5c17dcfe-7922-43c2-a14c-43eebd584987">
+    <Name>Web Part Gallery Node for Server Explorer</Name>
+    <Author>Contoso</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">Adds a custom Web Part Gallery node to the SharePoint Connections node in Server Explorer. This extension uses a custom SharePoint command to call into the server object model. (C#)</Description>
+    <Locale>1033</Locale>
+    <Icon>VSIXProject_small.png</Icon>
+    <PreviewImage>VSIXProject_large.png</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>VSTS</Edition>
+        <Edition>VSTD</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>|WebPartNodeExtension|</MefComponent>
+    <CustomExtension Type="SharePoint.Commands.v4">|WebPartCommands|</CustomExtension>
+  </Content>
+</Vsix>

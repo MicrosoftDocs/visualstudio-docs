@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2884dda3-65d1-4990-9afe-87865c2d4f7f
 caps.latest.revision: 3
@@ -37,7 +38,7 @@ Array.of(element0[, element1][, ...][,elementN]);
 ## Example  
  The following example creates an array from passed in numbers.  
   
-```javascript  
+```JavaScript  
 var arr = Array.of(1, 2, 3);  
 // arr[0] == 1   
 ```  
@@ -45,7 +46,7 @@ var arr = Array.of(1, 2, 3);
 ## Example  
  The following example shows the difference between using `Array.of` and `new Array`.  
   
-```javascript  
+```JavaScript  
 var arr1 = Array.of(3);  
 // arr1[0] == 3  
   

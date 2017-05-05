@@ -1,0 +1,30 @@
+﻿<ui:DialogWindow x:Class="WizardWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"        
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                                
+                 Title="SharePoint Customization Wizard" Height="500" Width="700" ResizeMode="NoResize" 
+                 Loaded="Window_Loaded" TextOptions.TextFormattingMode="Display">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*" />
+            <RowDefinition Height="364*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Name="headingGrid" Background="White">
+            <Label Height="28" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="18,0,0,0" 
+                   Name="headingLabel" FontWeight="ExtraBold" />
+        </Grid>
+        <Grid Grid.Row="1" Name="pageGrid" />
+        <Rectangle Grid.Row="2" Name="separatorRectangle" Fill="White"  />
+        <StackPanel Grid.Row="3" Name="navigationPanel" Orientation="Horizontal">
+            <Button Content="&lt; _Previous" Margin="300,0,0,0"  Height="25" Name="previousButton" Width="85" 
+                    IsEnabled="False" Click="previousButton_Click" />
+            <Button Content="_Next >" Margin="10,0,0,0" Height="25" Name="nextButton" Width="85" Click="nextButton_Click" 
+                    IsDefault="True" />
+            <Button Content="_Finish" Margin="10,0,0,0" Height="25" Name="finishButton" Width="85" 
+                    Click="finishButton_Click" />
+            <Button Content="Cancel" Margin="10,0,0,0" Height="25" Name="cancelButton" Width="85" 
+                    IsCancel="True" />
+        </StackPanel>
+    </Grid>
+</ui:DialogWindow>

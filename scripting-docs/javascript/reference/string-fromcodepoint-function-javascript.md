@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 7c4c057b-c67a-4b10-afdd-4f75c7c5988c
 caps.latest.revision: 3
@@ -37,7 +38,7 @@ String.fromCodePoint(...codePoints);
 ## Example  
  The following example shows how to use the `fromCodePoint` function.  
   
-```javascript  
+```JavaScript  
 var str1 = String.fromCodePoint(0x20BB7);  
 var str2 = String.fromCodePoint(98);  
 var str3 = String.fromCodePoint(97, 98, 99);  

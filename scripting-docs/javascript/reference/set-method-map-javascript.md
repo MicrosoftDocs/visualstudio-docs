@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 31ee71a0-b09d-442a-9e02-825accf94ffa
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ Adds a new element to a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.set(key, value)  
 ```  
   
@@ -46,7 +47,7 @@ mapObj.set(key, value)
 ## Example  
  The following example shows how to add members to a `Map` and then retrieve them.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

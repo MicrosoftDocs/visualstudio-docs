@@ -13,6 +13,7 @@ f1_keywords:
   - "multiline"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "multiline property"
@@ -42,7 +43,7 @@ rgExp.multiline
 ## Example  
  The following example illustrates the behavior of the **multiline** property. If you pass "m" in to the function shown below, the word "while" is replaced with the word "and". This is because with the multiline flag is set and the word "while" occurs at the beginning of the line after a newline character. The multiline flag allows the search to be performed on multiline strings.  
   
-```javascript  
+```JavaScript  
 function RegExpMultilineDemo(flag){  
    // The flag parameter is a string that contains  
    // g, i, or m.  The flags can be combined.  

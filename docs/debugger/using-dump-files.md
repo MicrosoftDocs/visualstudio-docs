@@ -1,7 +1,7 @@
 ---
 title: "Using Dump Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crashdump"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "dumps, about dumps"
   - "crash dumps"
@@ -44,7 +41,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Using Dump Files
+# Use Dump Files
 Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdbs, and source file for a dump file.  
   
 ##  <a name="BKMK_Contents"></a> Contents  
@@ -97,7 +94,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
 ##  <a name="BKMK_Create_a_dump_file"></a> Create a dump file  
  To create a dump file with Visual Studio:  
   
--   While you are debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or at a breakpoint. Choose **Save Dump As**, **Debug**. In the **Save Dump As** dialog box, in the **Save as type** list, you can select **Minidump** or **Minidump with Heap** (the default).  
+-   While you are debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or at a breakpoint. Choose **Debug**, then **Save Dump As**, then **Debug**. In the **Save Dump As** dialog box, in the **Save as type** list, you can select **Minidump** or **Minidump with Heap** (the default).  
   
 -   With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the debugger to a crashed process that is running outside the debugger, and then save a dump file. See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
   
@@ -115,7 +112,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
      ![Minidump summary page](../debugger/media/dbg_dump_summarypage.png "DBG_DUMP_SummaryPage")  
   
-4.  To start debugging, go to the **Actions** section, and choose either **Debug with Native Only** or **Debug with Mixed**.  
+4.  To start debugging, go to the **Actions** section, and choose either **Debug with Managed Only**, **Debug with Native Only** or **Debug with Mixed**.  
   
 ##  <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find binaries, symbol (.pdb) files, and source files  
  To use the full features of Visual Studio to debug a dump file, you need access to:  

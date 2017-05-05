@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9fda1261-f450-493b-b3db-ecfa9ca93cd7
 caps.latest.revision: 17
@@ -25,7 +26,7 @@ Represents a raw buffer of binary data, which is used to store data for the diff
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
   
 arrayBuffer = new ArrayBuffer(length);  
 ```  
@@ -61,7 +62,7 @@ arrayBuffer = new ArrayBuffer(length);
 ## Example  
  The following example shows how to use an ArrayBuffer object to process the binary data acquired from an [XMLHttpRequest](http://msdn.microsoft.com/library/ie/ms535874\(v=vs.85\).aspx). You can use a [DataView Object](../../javascript/reference/dataview-object.md) to get the individual values.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

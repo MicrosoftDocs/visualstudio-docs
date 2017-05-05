@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "breakpoints, in optimized code"
@@ -47,7 +46,7 @@ translation.priority.ht:
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!NOTE]
->  The [/Zo (Enhance Optimized Debugging)](/visual-cpp/build/reference/zo-enhance-optimized-debugging)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/visual-cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.  
+>  The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.  
 >   
 >  [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** ocompiler option is used.  
   
@@ -83,11 +82,11 @@ translation.priority.ht:
   
 6.  Under the **C++** folder, select `Optimization`.  
   
-7.  In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](/visual-cpp/build/reference/od-disable-debug)`)`. Choose one of the other options (`Minimum Size``(`[/O1](/visual-cpp/build/reference/o1-o2-minimize-size-maximize-speed)`)`, `Maximum Speed``(`[/O2](/visual-cpp/build/reference/o1-o2-minimize-size-maximize-speed)`)`, `Full Optimization``(`[/Ox](/visual-cpp/build/reference/ox-full-optimization)`)`, or `Custom`).  
+7.  In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](/cpp/build/reference/od-disable-debug)`)`. Choose one of the other options (`Minimum Size``(`[/O1](/cpp/build/reference/o1-o2-minimize-size-maximize-speed)`)`, `Maximum Speed``(`[/O2](/cpp/build/reference/o1-o2-minimize-size-maximize-speed)`)`, `Full Optimization``(`[/Ox](/cpp/build/reference/ox-full-optimization)`)`, or `Custom`).  
   
 8.  If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
   
-9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](/visual-cpp/build/reference/zo-enhance-optimized-debugging)`)` to the **Additional Options** text box.  
+9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](/cpp/build/reference/zo-enhance-optimized-debugging)`)` to the **Additional Options** text box.  
   
     > [!WARNING]
     >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.  

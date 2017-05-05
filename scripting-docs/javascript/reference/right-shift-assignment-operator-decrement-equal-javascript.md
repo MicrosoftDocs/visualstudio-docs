@@ -13,6 +13,7 @@ f1_keywords:
   - ">>="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - ">>= operator [JavaScript]"
@@ -44,13 +45,13 @@ result >>= expression
 ## Remarks  
  Using the **>>=** operator is exactly the same as specifying:  
   
-```javascript  
+```JavaScript  
 result = result >> expression  
 ```  
   
  The **>>=** operator shifts the bits of *result* right by the number of bits specified in *expression*. The sign bit of *result* is used to fill the digits from the left. Digits shifted off the right are discarded. For example, after the following code is evaluated, *temp* has a value of -4: 14 (11110010 in binary) shifted right two bits equals -4 (11111100 in binary).  
   
-```javascript  
+```JavaScript  
 var temp  
 temp = -14  
 temp >>= 2  

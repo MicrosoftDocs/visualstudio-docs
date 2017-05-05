@@ -11,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "DebugBreak"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [C++], DebugBreak function"
@@ -41,12 +40,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # DebugBreak and __debugbreak
-You can call the DebugBreak Win32 function or the [__debugbreak](/visual-cpp/intrinsics/debugbreak) intrinsic at any point in your code. `DebugBreak` and `__debugbreak` have the same effect as setting a breakpoint at that location.  
+You can call the DebugBreak Win32 function or the [__debugbreak](/cpp/intrinsics/debugbreak) intrinsic at any point in your code. `DebugBreak` and `__debugbreak` have the same effect as setting a breakpoint at that location.  
   
  Because `DebugBreak` is a call to a system function, system debug symbols must be installed to ensure the correct call stack information is displayed after breaking. Otherwise, the call stack information displayed by the debugger may be off by one frame. If you use `__debugbreak`, symbols are not required.  
   
 ## See Also  
- [Compiler Intrinsics](/visual-cpp/intrinsics/compiler-intrinsics)   
+ [Compiler Intrinsics](/cpp/intrinsics/compiler-intrinsics)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

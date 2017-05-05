@@ -13,6 +13,7 @@ f1_keywords:
   - "<<"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "<< operator"
@@ -48,7 +49,7 @@ result = expression1 << expression2
 ## Remarks  
  The **<<** operator shifts the bits of *expression1* left by the number of bits specified in *expression2*. For example:  
   
-```javascript  
+```JavaScript  
 var temp  
 temp = 14 << 2  
 ```  

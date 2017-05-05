@@ -9,14 +9,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debug builds, debugger settings"
   - "debugger, setting options"
@@ -61,4 +58,4 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify va
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)   
  [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Common Macros for Build Commands and Properties](/visual-cpp/ide/common-macros-for-build-commands-and-properties)
+ [Common Macros for Build Commands and Properties](/cpp/ide/common-macros-for-build-commands-and-properties)

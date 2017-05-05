@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Analysis for C/C++ Warnings
-This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/visual-cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
+This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
   
 ## See Also  
  [Guidelines for Writing Secure Code](http://msdn.microsoft.com/en-us/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)   

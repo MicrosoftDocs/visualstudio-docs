@@ -13,6 +13,7 @@ f1_keywords:
   - "index"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Index property"
@@ -41,7 +42,7 @@ RegExp.index
 ## Example  
  The following example illustrates the use of the **index** property. This function iterates a search string and prints out the **index** and `lastIndex` values for each word in the string.  
   
-```javascript  
+```JavaScript  
 function RegExpTest()  
 {  
    var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())  

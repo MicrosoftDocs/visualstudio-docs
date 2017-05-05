@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "COM, debugging"
@@ -45,7 +45,7 @@ translation.priority.ht:
 This topic lists tools that can help you test and inspect COM programs.  
   
  OLE/COM Object Viewer  
- OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](/visual-cpp/data/ado-rdo/using-the-ole-com-object-viewer).  
+ OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](/cpp/data/ado-rdo/using-the-ole-com-object-viewer).  
   
  Microsoft Foundation Class Samples  
  The MFC ActiveX samples OCLIENT and SUPERPAD are also available to test your applications against. Full source code for these samples is included.  

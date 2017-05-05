@@ -1,0 +1,33 @@
+﻿<ns0:RootWorkflowActivityWithData x:Class="WorkflowImportProject1.SPD_Task_WorkflowFT" x:Name="SPD_Task_WorkflowFT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns1="clr-namespace:Microsoft.SharePoint.WorkflowActions.WithKey;Assembly=Microsoft.SharePoint.WorkflowActions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:Microsoft.SharePoint.WorkflowActions;Assembly=Microsoft.SharePoint.WorkflowActions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+	<ns0:RootWorkflowActivityWithData.WorkflowFields>
+		<ns0:WorkflowDataField Type="System.String" Name="__list" />
+		<ns0:WorkflowDataField Type="Microsoft.SharePoint.Workflow.SPItemKey, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Name="__item" />
+		<ns0:WorkflowDataField Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext" Name="__context" />
+		<ns0:WorkflowDataField Type="Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties" Name="__initParams" />
+		<ns0:WorkflowDataField Type="System.Guid" Name="__workflowId" />
+		<ns0:WorkflowDataField Type="System.String" Name="__historylist" />
+		<ns0:WorkflowDataField Type="System.String" Name="__tasklist" />
+	</ns0:RootWorkflowActivityWithData.WorkflowFields>
+	<ns0:OnWorkflowActivated EventName="OnWorkflowActivated" WorkflowProperties="{ActivityBind SPD_Task_WorkflowFT,Path=__initParams}" x:Name="ID1">
+		<ns0:OnWorkflowActivated.CorrelationToken>
+			<wf0:CorrelationToken OwnerActivityName="SPD_Task_WorkflowFT" Name="refObject" xmlns:wf0="http://schemas.microsoft.com/winfx/2006/xaml/workflow" />
+		</ns0:OnWorkflowActivated.CorrelationToken>
+	</ns0:OnWorkflowActivated>
+	<ns0:ApplyActivation x:Name="ID2" __WorkflowProperties="{ActivityBind SPD_Task_WorkflowFT,Path=__initParams}" __Context="{ActivityBind SPD_Task_WorkflowFT,Path=__context}" />
+	<SequenceActivity Description="Step 1" x:Name="ID3">
+		<IfElseActivity x:Name="ID4">
+			<IfElseBranchActivity x:Name="ID5">
+				<IfElseBranchActivity.Condition>
+					<RuleConditionReference ConditionName="__Rule_ID5" />
+				</IfElseBranchActivity.Condition>
+				<ns1:LookupActivity ListId="{ActivityBind SPD_Task_WorkflowFT,Path=__list}" LookupFunction="LookupUser" __Context="{ActivityBind SPD_Task_WorkflowFT,Path=__context}" ListItem="{ActivityBind SPD_Task_WorkflowFT,Path=__item}" FieldName="Author" x:Name="ID7" />
+				<ns1:SetFieldActivity FieldName="AssignedTo" __Context="{ActivityBind SPD_Task_WorkflowFT,Path=__context}" __ListItem="{ActivityBind SPD_Task_WorkflowFT,Path=__item}" x:Name="ID6" __ListId="{ActivityBind SPD_Task_WorkflowFT,Path=__list}">
+					<ns1:SetFieldActivity.Value>
+						<ActivityBind Path="ReturnValue" Name="ID7" />
+					</ns1:SetFieldActivity.Value>
+				</ns1:SetFieldActivity>
+				<CodeActivity x:Name="codeActivity1" ExecuteCode="codeActivity1_ExecuteCode" />
+			</IfElseBranchActivity>
+		</IfElseActivity>
+	</SequenceActivity>
+</ns0:RootWorkflowActivityWithData>

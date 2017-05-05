@@ -1,14 +1,14 @@
 ---
 title: "Default Keyboard Shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "shortcut keys [Visual Studio], keyboard binding schemes"
   - "keyboard binding schemes [Visual Studio]"
   - "Help [Visual Studio], shortcut keys"
@@ -19,7 +19,7 @@ caps.latest.revision: 55
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt: 
+translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
@@ -37,11 +37,11 @@ translation.priority.mt:
 ---
 # Default Keyboard Shortcuts in Visual Studio
 You can more easily access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This topics lists the default shortcuts for the General Development profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.  
-  
+
  For a list of common keyboard shortcuts and other productivity information, see  [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md) and [Productivity Tips](../ide/productivity-tips-for-visual-studio.md).  
-  
+
  The sections in the following table include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:  
-  
+
 |||||  
 |-|-|-|-|  
 |[Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)|[Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)|[Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|  
@@ -51,9 +51,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |[Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)|[Load Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)|[Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)|[Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)|  
 |[Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|  
 |[Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||  
-  
+
  Each section in the following table includes commands for which the keyboard shortcuts are specific to the context for which the section is named.  
-  
+
 |||||  
 |-|-|-|-|  
 |[ADO.NET Entity Data Model Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ADONET)|[Layer Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_layerDiagram)|[Settings Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SettingsDesigner)|[VC Image Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcimageeditor)|  
@@ -68,39 +68,39 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |[HTML Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditor)|[Query Results](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_QueryResults)|[UML Use Case Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLusecaseDiagram)|[XAML UI Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xamluidesigner)|  
 |[HTML Editor Design View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorDesign)|[Report Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ReportDesigner)|[VC Accelerator Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcaccelerator)|[XML (Text) Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlTextEditor)|  
 |[HTML Editor Source View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorSource)|[Sequence Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SequenceDiagram)|[VC Dialog Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcdialogeditor)|[XML Schema Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlSchemaDesigner)|  
-  
+
 ##  <a name="bkmk_global"></a> Global  
-  
+
 ###  <a name="bkmk_analyze"></a> Analyze  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Analyze.NavigateBackward|Shift+Alt+3|  
 |Analyze.NavigateForward|Shift+Alt+4|  
-  
+
 ###  <a name="bkmk_architecture"></a> Architecture  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Architecture.NewDiagram|Ctrl+\\, Ctrl+N|  
-  
+
 ###  <a name="bkmk_build"></a> Build  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Build.BuildSolution|Ctrl+Shift+B|  
 |Build.Cancel|Ctrl+Break|  
 |Build.Compile|Ctrl+F7|  
 |Build.RunCodeAnalysisonSolution|Alt+F11|  
-  
+
 ###  <a name="bkmk_classview"></a> Class View Context Menus  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties|Alt+Enter|  
-  
+
 ###  <a name="bkmk_debug"></a> Debug  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Debug.ApplyCodeChanges|Alt+F10|  
@@ -166,23 +166,23 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Debug.Watch2|Ctrl+Alt+W, 2|  
 |Debug.Watch3|Ctrl+Alt+W, 3|  
 |Debug.Watch4|Ctrl+Alt+W, 4|  
-  
+
 ###  <a name="bkmk_debugger"></a> Debugger Context Menus  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |DebuggerContextMenus.BreakpointsWindow.Delete|Alt+F9, D|  
 |DebuggerContextMenus.BreakpointsWindow.GoToDisassembly|Alt+F9, A|  
 |DebuggerContextMenus.BreakpointsWindow.GoToSourceCode|Alt+F9, S|  
-  
+
 ###  <a name="bkmk_diagnostics"></a> Diagnostics Hub  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |DiagnosticsHub.StopCollection|Ctrl+Alt+F2|  
-  
+
 ###  <a name="bkmk_edit"></a> Edit  
-  
+
 |Commands||  
 |--------------|-|  
 |Edit.Copy|Ctrl+C<br /><br /> or<br /><br /> Ctrl+Ins|  
@@ -239,9 +239,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Edit.StopSearch|Alt+F3, S|  
 |Edit.SurroundWith|Ctrl+K, Ctrl+S|  
 |Edit.Undo|Ctrl+Z<br /><br /> or<br /><br /> Alt+Backspace|  
-  
+
 ###  <a name="bkmk_editorContext"></a> Editor Context Menus  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels|Alt+F9, L|  
@@ -250,9 +250,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |EditorContextMenus.CodeWindow.GoToView|Ctrl+M, Ctrl+G|  
 |EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|Ctrl+K, Ctrl+O|  
 |EditorContextMenus.CodeWindow.ViewCallHierarchy|Ctrl+K, Ctrl+T<br /><br /> or<br /><br /> Ctrl+K, T|  
-  
+
 ###  <a name="bkmk_file"></a> File  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |File.Exit|Alt+F4|  
@@ -266,30 +266,30 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |File.SaveAll|Ctrl+Shift+S|  
 |File.SaveSelectedItems|Ctrl+S|  
 |File.ViewinBrowser|Ctrl+Shift+W|  
-  
+
 ###  <a name="bkmk_help"></a> Help  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Help.AddandRemoveHelpContent|Ctrl+Alt+F1|  
 |Help.F1Help|F1|  
 |Help.ViewHelp|Ctrl+F1|  
 |Help.WindowHelp|Shift+F1|  
-  
+
 ###  <a name="bkmk_loadtest"></a> Load Test  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |LoadTest.JumpToCounterPane|Ctrl+R, Q|  
-  
+
 ###  <a name="bkmk_otherContext"></a> Other Context Menus  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram|Insert|  
-  
+
 ###  <a name="bkmk_project"></a> Project  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Project.AddExistingItem|Shift+Alt+A|  
@@ -299,16 +299,16 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Project.Previewchanges|Alt+;, Alt+C|  
 |Project.Publishselectedfiles|Alt+;, Alt+P|  
 |Project.Replaceselectedfilesfromserver|Alt+;, Alt+R|  
-  
+
 ###  <a name="bkmk_projectContext"></a> Project and Solution Context Menus  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |ProjectandSolutionContextMenus.Item.MoveDown|Alt+Down Arrow|  
 |ProjectandSolutionContextMenus.Item.MoveUp|Alt+Up Arrow|  
-  
+
 ###  <a name="bkmk_refactor"></a> Refactor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Refactor.EncapsulateField|Ctrl+R, Ctrl+E|  
@@ -317,26 +317,26 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Refactor.RemoveParameters|Ctrl+R, Ctrl+V|  
 |Refactor.Rename|Ctrl+R, Ctrl+R|  
 |Refactor.ReorderParameters|Ctrl+R, Ctrl+O|  
-  
+
 ###  <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |SolutionExplorer.OpenFilesFilter|Ctrl+[, O<br /><br /> or<br /><br /> Ctrl+[, Ctrl+O|  
 |SolutionExplorer.PendingChangesFilter|Ctrl+[, P<br /><br /> or<br /><br /> Ctrl+[, Ctrl+P|  
 |SolutionExplorer.SyncWithActiveDocument|Ctrl+[, S<br /><br /> or<br /><br /> Ctrl+[, Ctrl+S|  
-  
+
 ###  <a name="bkmk_team"></a> Team  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Team.Git.GoToGitBranches|Ctrl+0, Ctrl+N<br /><br /> or<br /><br /> Ctrl+0, N|  
 |Team.Git.GoToGitChanges|Ctrl+0, Ctrl+G<br /><br /> or<br /><br /> Ctrl+0, G|  
 |Team.Git.GoToGitCommits|Ctrl+0, Ctrl+O<br /><br /> or<br /><br /> Ctrl+0, O|  
 |Team.TeamExplorerSearch|Ctrl+'|  
-  
+
 ###  <a name="bkmk_TFcontext"></a> Team Foundation Context Menus  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |TeamFoundationContextMenus.Commands.GoToBuilds|Ctrl+0, Ctrl+B<br /><br /> or<br /><br /> Ctrl+0, B|  
@@ -349,16 +349,16 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |TeamFoundationContextMenus.Commands.GoToSettings|Ctrl+0, Ctrl+S<br /><br /> or<br /><br /> Ctrl+0, S|  
 |TeamFoundationContextMenus.Commands.GoToWebAccess|Ctrl+0, Ctrl+A<br /><br /> or<br /><br /> Ctrl+0, A|  
 |TeamFoundationContextMenus.Commands.GoToWorkItems|Ctrl+0, Ctrl+W<br /><br /> or<br /><br /> Ctrl+0, W|  
-  
+
 ###  <a name="bkmk_test"></a> Test  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Test.UseCodedUITestBuilder|Ctrl+\\, Ctrl+C|  
 |Test.UseExistingActionRecording|Ctrl+\\, Ctrl+A|  
-  
+
 ###  <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |TestExplorer.DebugAllTests|Ctrl+R, Ctrl+A|  
@@ -366,18 +366,18 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |TestExplorer.RepeatLastRun|Ctrl+R, L|  
 |TestExplorer.RunAllTests|Ctrl+R, A|  
 |TestExplorer.RunAllTestsInContext|Ctrl+R, T|  
-  
+
 ###  <a name="bkmk_tools"></a> Tools  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Tools.AttachtoProcess|Ctrl+Alt+P|  
 |Tools.CodeSnippetsManager|Ctrl+K, Ctrl+B|  
 |Tools.ForceGC|Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12|  
 |Tools.GoToCommandLine|Ctrl+/|  
-  
+
 ###  <a name="bkmk_view"></a> View  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |View.AllWindows|Shift+Alt+M|  
@@ -424,9 +424,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |View.WebBrowser|Ctrl+Alt+R|  
 |View.ZoomIn|Ctrl+Shift+.|  
 |View.ZoomOut|Ctrl+Shift+,|  
-  
+
 ###  <a name="bkmk_window"></a> Window  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Window.ActivateDocumentWindow|Esc|  
@@ -455,16 +455,16 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Window.ShowEzMDIFileList|Ctrl+Alt+Down Arrow|  
 |Window.SolutionExplorerSearch|Ctrl+;|  
 |Window.WindowSearch|Alt+`|  
-  
+
 ###  <a name="bkmk_windowsazure"></a> Azure  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |WindowsAzure.RetryMobileServiceScriptOperation|Ctrl+Num *, Ctrl+R|  
 |WindowsAzure.ShowMobileServiceScriptErrorDetails|Ctrl+Num *, Ctrl+D|  
-  
+
 ##  <a name="bkmk_ADONET"></a> ADO.NET Entity Data Model Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down|Alt+Down Arrow|  
@@ -477,9 +477,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram|Shift+Del|  
 |View.EntityDataModelBrowser|Ctrl+1|  
 |View.EntityDataModelMappingDetails|Ctrl+2|  
-  
+
 ##  <a name="bkmk_classDiagram"></a> Class Diagram  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |ClassDiagram.Collapse|Num -|  
@@ -489,9 +489,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Edit.NavigateToLollipop|Shift+Alt+L|  
 |Edit.RemovefromDiagram|Delete|  
 |View.ViewCode|Enter|  
-  
+
 ##  <a name="bkmk_codedUItest"></a> Coded UI Test Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard|Ctrl+C|  
@@ -500,16 +500,16 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl|Ctrl+Shift+L|  
 |OtherContextMenus.UITestEditorContextMenu.Movecode|Ctrl+Alt+C|  
 |OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod|Ctrl+Shift+T|  
-  
+
 ##  <a name="bkmk_dataset"></a> DataSet Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |OtherContextMenus.ColumnContext.InsertColumn|Insert|  
 |OtherContextMenus.DbTableContext.Add.Column|Ctrl+L|  
-  
+
 ##  <a name="bkmk_diff"></a> Difference Viewer  
-  
+
 |||  
 |-|-|  
 |Commands|Keyboard Shortcuts|  
@@ -524,23 +524,23 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Diff.SynchronizeViewToggle|Ctrl+\\, Ctrl+Down Arrow|  
 |EditorContextMenus.CodeWindow.AddComment|Ctrl+Shift+K|  
 |EditorContextMenus.CodeWindow.EditLocalFile|Ctrl+Shift+P|  
-  
+
 ##  <a name="bkmk_DOM"></a> DOM Explorer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |DOMExplorer.Refresh|F5|  
 |DOMExplorer.SelectElement|Ctrl+B|  
 |DOMExplorer.ShowLayout|Ctrl+Shift+I|  
-  
+
 ##  <a name="bkmk_FSharp"></a> F# Interactive  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation|Ctrl+Break|  
-  
+
 ##  <a name="bkmk_graphDoc"></a> Graph Document Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Add.AddNode|Insert|  
@@ -550,9 +550,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |ArchitectureContextMenus.DirectedGraphContextMenu.NewComment|Ctrl+Shift+K<br /><br /> or<br /><br /> Ctrl+E, C|  
 |ArchitectureContextMenus.DirectedGraphContextMenu.Remove|Delete|  
 |ArchitectureContextMenus.DirectedGraphContextMenu.Rename|F2|  
-  
+
 ##  <a name="bkmk_graphicsDebugger"></a> Graphics Diagnostics  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Debug.Graphics.CaptureFrame|None|  
@@ -564,15 +564,15 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Graphics.ZoomToFitInWindow|Shift+Alt+9|  
 |Graphics.ZoomIn|Shift+Alt+=|  
 |Graphics.ZoomOut|Shift+Alt+-|  
-  
+
 ##  <a name="bkmk_HTMLeditor"></a> HTML Editor  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.HTMLContext.GoToController|Ctrl+M, Ctrl+G|  
-  
+
 ##  <a name="bkmk_HTMLeditorDesign"></a> HTML Editor Design View  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.MoveControlDown|Ctrl+Down Arrow|  
@@ -593,9 +593,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |View.ShowSmartTag|Shift+Alt+F10|  
 |View.ViewMarkup|Shift+F7|  
 |Window.PreviousTab|Ctrl+PgUp|  
-  
+
 ##  <a name="bkmk_HTMLeditorSource"></a> HTML Editor Source View  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |OtherContextMenus.HTMLContext.GoToController|Ctrl+M, Ctrl+G|  
@@ -603,15 +603,15 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |View.SynchronizeViews|Ctrl+Shift+Y|  
 |View.ViewDesigner|Shift+F7|  
 |Window.PreviousTab|Ctrl+PgUp|  
-  
+
 ##  <a name="bkmk_layerDiagram"></a> Layer Diagram  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |Edit.Delete|Shift+Delete|  
-  
+
 ##  <a name="bkmk_managedResources"></a> Managed Resources Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.EditCell|F2|  
@@ -624,17 +624,17 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Resources.Images|Ctrl+2|  
 |Resources.Other|Ctrl+6|  
 |Resources.Strings|Ctrl+1|  
-  
+
 ##  <a name="bkmk_MergeEditor"></a> Merge Editor Window  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow|Alt+1|  
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow|Alt+2|  
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow|Alt+3|  
-  
+
 ##  <a name="bkmk_SchemaCompare"></a> Microsoft SQL Server Data Tools, Schema Compare  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |SQL.SSDTSchemaCompareCompare|Shift+Alt+C|  
@@ -643,9 +643,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |SQL.SSDTSchemaComparePreviousChange|Shift+Alt+,|  
 |SQL.SSDTSchemaCompareStop|Alt+Break|  
 |SQL.SSDTSchemaCompareWriteUpdates|Shift+Alt+U|  
-  
+
 ##  <a name="bkmk_TableDesigner"></a> Microsoft SQL Server Data Tools, Table Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |CommitAllEdits|Shift+Alt+U|  
@@ -654,9 +654,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |SQL.MovetoSchema|Ctrl+R, M<br /><br /> or<br /><br /> Ctrl+R, Ctrl+M|  
 |SQL.Rename|F2<br /><br /> or<br /><br /> Ctrl+R, R<br /><br /> or<br /><br /> Ctrl+R, Ctrl+R|  
 |ViewFileInScriptPanel|Shift+Alt+PgDn|  
-  
+
 ##  <a name="bkmk_TSQLeditor"></a> Microsoft SQL Server Data Tools, T-SQL Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |CommitAllEdits|Shift+Alt+U|  
@@ -675,9 +675,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |SQL.TSqlEditorToggleResultsPane|Ctrl+D, R|  
 |TSqlEditorCloneQuery|Ctrl+Alt+N|  
 |TSqlEditorDatabaseCombo|Shift+Alt+PgDn|  
-  
+
 ##  <a name="bkmk_linkfix"></a> Microsoft SQL Server Data Tools, T-SQL PDW Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |SQL.TSqlEditorCancelQuery|Alt+Break|  
@@ -690,15 +690,15 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |SQL.TSqlEditorToggleResultsPane|Ctrl+D, R|  
 |TSqlEditorCloneQuery|Ctrl+Alt+N|  
 |TSqlEditorDatabaseCombo|Shift+Alt+PgDn|  
-  
+
 ##  <a name="bkmk_PageInspector"></a> Page Inspector  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |PageInspector.Minimize|F12|  
-  
+
 ##  <a name="bkmk_QueryDesigner"></a> Query Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |QueryDesigner.CancelRetrievingData|Ctrl+T|  
@@ -709,17 +709,17 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |QueryDesigner.JoinMode|Ctrl+Shift+J|  
 |QueryDesigner.Results|Ctrl+4|  
 |QueryDesigner.SQL|Ctrl+3|  
-  
+
 ##  <a name="bkmk_QueryResults"></a> Query Results  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |SQL.QueryResultsNewRow|Alt+End|  
 |SQL.QueryResultsRefresh|Shift+Alt+R|  
 |SQL.QueryResultsStop|Alt+Break|  
-  
+
 ##  <a name="bkmk_ReportDesigner"></a> Report Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.BreakLine|Enter|  
@@ -743,31 +743,31 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Edit.SizeControlUp|Ctrl+Shift+Up Arrow|  
 |Edit.TabLeft|Shift+Tab|  
 |View.ReportData|Ctrl+Alt+D|  
-  
+
 ##  <a name="bkmk_SequenceDiagram"></a> Sequence Diagram  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |ArchitectureDesigner.Sequence.NavigateToCode|F12|  
 |Edit.Delete|Shift+Del|  
-  
+
 ##  <a name="bkmk_SettingsDesigner"></a> Settings Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.EditCell|F2|  
 |Edit.RemoveRow|Ctrl+Delete|  
 |Edit.SelectionCancel|Esc|  
 |View.ViewCode|F7|  
-  
+
 ##  <a name="bkmk_SolutionExplorer"></a> Solution Explorer  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector|Ctrl+K, Ctrl+G|  
-  
+
 ##  <a name="bkmk_TeamExplorer"></a> Team Explorer  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |Edit.Delete|Delete|  
@@ -790,21 +790,21 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI|Shift+Alt+C|  
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|Shift+Alt+L|  
 |View.Refresh|F5|  
-  
+
 ##  <a name="bkmk_TFBuild"></a> Team Foundation Build Detail Editor  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |View.Refresh|F5|  
-  
+
 ##  <a name="bkmk_TestExplorer"></a> Test Explorer  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |TestExplorer.OpenTest|F12|  
-  
+
 ##  <a name="bkmk_TextEditor"></a> Text Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.BreakLine|Enter<br /><br /> or<br /><br /> Shift+Enter|  
@@ -912,40 +912,40 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |OtherContextMenus.HTMLContext.ViewinPageInspector|Ctrl+K, Ctrl+G|  
 |TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion|Alt+PgDn|  
 |TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion|Alt+PgUp|  
-  
+
 ##  <a name="bkmk_UMLactivityDiagram"></a> UML Activity Diagram  
-  
+
 |Command|Keyboard Shorctut|  
 |-------------|-----------------------|  
 |Edit.Delete|Shift+Del|  
-  
+
 ##  <a name="bkmk_UMLclassDiagram"></a> UML Class Diagram  
-  
+
 |Command|Keyboard Shorctut|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
-  
+
 ##  <a name="bkmk_UMLcomponentDiagram"></a> UML Component Diagram  
-  
+
 |Command|Keyboard Shorctut|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
-  
+
 ##  <a name="bkmk_UMLusecaseDiagram"></a> UML Use Case Diagram  
-  
+
 |Command|Keyboard Shorctut|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
-  
+
 ##  <a name="bkmk_vcaccelerator"></a> VC Accelerator Editor  
-  
+
 |Commands|Keyboard Shorctuts|  
 |--------------|------------------------|  
 |Edit.NewAccelerator|Insert|  
 |Edit.NextKeyTyped|Ctrl+W|  
-  
+
 ##  <a name="bkmk_vcdialogeditor"></a> VC Dialog Editor  
-  
+
 |Commands|Keyboard Shorctuts|  
 |--------------|------------------------|  
 |Edit.MoveControlDown|Down Arrow|  
@@ -977,9 +977,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Format.TabOrder|Ctrl+D|  
 |Format.TestDialog|Ctrl+T|  
 |Format.ToggleGuides|Ctrl+G|  
-  
+
 ##  <a name="bkmk_vcimageeditor"></a> VC Image Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Image.AirbrushTool|Ctrl+A|  
@@ -1019,15 +1019,15 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Image.UseSelectionasBrush|Ctrl+U|  
 |Image.ZoomIn|Ctrl+Shift+.<br /><br /> or<br /><br /> Ctrl+Up Arrow|  
 |Image.ZoomOut|Ctrl+Shift+,<br /><br /> or<br /><br /> Ctrl+Down Arrow|  
-  
+
 ##  <a name="bkmk_vcstringeditor"></a> VC String Editor  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |Edit.NewString|Insert|  
-  
+
 ##  <a name="bkmk_viewDesigner"></a> View Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |QueryDesigner.CancelRetrievingData|Ctrl+T|  
@@ -1038,15 +1038,15 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |QueryDesigner.JoinMode|Ctrl+Shift+J|  
 |QueryDesigner.Results|Ctrl+4|  
 |QueryDesigner.SQL|Ctrl+3|  
-  
+
 ##  <a name="bkmk_visualstudio"></a> Visual Studio  
-  
+
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.ORDesignerContext.HideMethodsPane|Ctrl+1|  
-  
+
 ##  <a name="bkmk_wfdesigner"></a> Windows Forms Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.BreakLine|Enter|  
@@ -1073,17 +1073,17 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Edit.SizeControlRight|Ctrl+Shift+Right Arrow|  
 |Edit.SizeControlUp|Ctrl+Shift+Up Arrow|  
 |Edit.TabLeft|Shift+Tab|  
-  
+
 ##  <a name="bkmk_workItemEditor"></a> Work Item Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.CreateCopyofWorkItem|Shift+Alt+C|  
 |Edit.RefreshWorkItem|F5|  
 |Team.NewLinkedWorkItem|Shift+Alt+L|  
-  
+
 ##  <a name="bkmk_WIqueryview"></a> Work Item Query View  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.CreateCopyofWorkItem|Shift+Alt+C|  
@@ -1092,9 +1092,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Team.NewLinkedWorkItem|Shift+Alt+L|  
 |Team.Refresh|F5|  
 |Window.Toggle|Shift+Alt+V|  
-  
+
 ##  <a name="bkmk_WIresultsview"></a> Work Item Results View  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.CreateCopyofWorkItem|Shift+Alt+C|  
@@ -1105,9 +1105,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Team.NewLinkedWorkItem|Shift+Alt+L|  
 |Team.Refresh|F5|  
 |Window.Toggle|Shift+Alt+V|  
-  
+
 ##  <a name="bkmk_workflowdesigner"></a> Workflow Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Edit.CompleteWord|Ctrl+K, W<br /><br /> or<br /><br /> Ctrl+K, Ctrl+W<br /><br /> or<br /><br /> Ctrl+Spacebar<br /><br /> or<br /><br /> Alt+Right Arrow|  
@@ -1133,9 +1133,9 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |WorkflowDesigner.ToggleSelection|Ctrl+E, Ctrl+S<br /><br /> or<br /><br /> Ctrl+E, S|  
 |WorkflowDesigner.ZoomIn|Ctrl+Num +|  
 |WorkflowDesigner.ZoomOut|Ctrl+Num -|  
-  
+
 ##  <a name="bkmk_xamluidesigner"></a> XAML UI Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |Design.FitAll|Ctrl+0|  
@@ -1144,21 +1144,26 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |Design.ZoomOut|Ctrl+Alt+-|  
 |Format.EditText|F2|  
 |Format.ResetLayout.All|Ctrl+Shift+R|  
+|Run project code|Ctrl+F9|  
+|Timeline.Hide (Blend only)|Ctrl+H|  
+|Timeline.Lock (Blend only)|Ctrl+L|  
+|Timeline.Show (Blend only)|Ctrl+Shift+H|  
+|Timeline.Unlock (Blend only)|Ctrl+Shift+L|  
 |View.EdgeLeftMoveLeft|Ctrl+Shift+,|  
 |View.EdgeLeftMoveRight|Ctrl+Shift+.|  
 |View.EdgeRightMoveLeft|Ctrl+Shift+Alt+,|  
 |View.EdgeRightMoveRight|Ctrl+Shift+Alt+.|  
-|Run project code|Ctrl+F9|  
-  
+|View.ShowPropertyMarkerMenu|Ctrl+Spacebar|  
+
 ##  <a name="bkmk_xmlTextEditor"></a> XML (Text) Editor  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |XML.StartXSLTDebugging|Alt+F5|  
 |XML.StartXSLTWithoutDebugging|Ctrl+Alt+F5|  
-  
+
 ##  <a name="bkmk_xmlSchemaDesigner"></a> XML Schema Designer  
-  
+
 |Commands|Keyboard Shortcuts|  
 |--------------|------------------------|  
 |GraphView.BottomtoTop|Alt+Up Arrow|  
@@ -1169,7 +1174,7 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |XsdDesigner.ShowContentModelView|Ctrl+2|  
 |XsdDesigner.ShowGraphView|Ctrl+3|  
 |XsdDesigner.ShowStartView|Ctrl+1|  
-  
+
 ## See Also  
- [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons)   
+ [Image Editor for Icons](/cpp/windows/image-editor-for-icons)   
  [Using IntelliSense](../ide/using-intellisense.md)

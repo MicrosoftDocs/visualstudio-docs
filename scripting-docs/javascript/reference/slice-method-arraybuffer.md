@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2dcc51ff-f444-4d51-80ba-3bcd845ba0ae
 caps.latest.revision: 5
@@ -45,7 +46,7 @@ arrayBufferObj.slice(start, [end])
 ## Example  
  The following examples show how to use the `slice` method.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

@@ -13,6 +13,7 @@ f1_keywords:
   - "setSeconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "setSeconds method"
@@ -57,7 +58,7 @@ numSeconds[, numMilli])
 ## Example  
  The following example illustrates the use of the `setSeconds` method.  
   
-```javascript  
+```JavaScript  
 function SetSecondsDemo(nsec){  
    var d = new Date();         //Create Date object.  
    d.setSeconds(nsec);         //Set seconds.  

@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 14
@@ -49,16 +49,7 @@ translation.priority.mt:
   
 -   Deploying an app that will start another app that you want to debug.  
   
--   Deploying an app that will be debugged when it is started by another app or method.  
-  
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- In this topic, you can learn:  
-  
- [How to deploy a Windows Store app](#BKMK_How_to_deploy_a_Windows_Store_app)  
-  
- [How to specify a remote device](#BKMK_How_to_specify_a_remote_device)  
-  
- [Deployment options](#BKMK_Deployment_options)  
+-   Deploying an app that will be debugged when it is started by another app or method.
   
 ##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a Windows Store app  
  Manually deploying an app is a simple process:  

@@ -53,14 +53,14 @@
           topicHref: /visualstudio/modeling/analyze-and-model-your-architecture
         - name: Debugging
           tocHref: /visualstudio/debugger/ 
-          topicHref: /visualstudio/debugger/debugging-in-visual-studio
+          topicHref: /visualstudio/debugger/index
           items:
           - name: DIA SDK
             tocHref: /visualstudio/debugger/debug-interface-access/
             topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
-          - name: Profiling
-            tocHref: /visualstudio/profiling/
-            topicHref: /visualstudio/profiling/profiling-tools
+        - name: Profiling
+          tocHref: /visualstudio/profiling/
+          topicHref: /visualstudio/profiling/index
         - name: Testing
           tocHref: /visualstudio/test/
           topicHref: /visualstudio/test/improve-code-quality
@@ -79,7 +79,7 @@
             topicHref: /visualstudio/msbuild/msbuild1
       - name: Installation
         tocHref: /visualstudio/install/
-        topicHref: /visualstudio/install/install-visual-studio-2015
+        topicHref: /visualstudio/install/install-visual-studio
       - name: JavaScript
         tocHref: /visualstudio/javascript/
         topicHref: /visualstudio/javascript/javascript-in-visual-studio
@@ -89,4 +89,15 @@
       - name: Python
         tocHref: /visualstudio/python/
         topicHref: /visualstudio/python/getting-started-with-python
+      - name: Office and SharePoint
+        tocHref: /visualstudio/vsto/
+        topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio
+        items:
+        - name: SharePoint
+          tocHref: /visualstudio/sharepoint/
+          topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
+        - name: VSTO 
+          tocHref: /visualstudio/vsto/
+          topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+
 

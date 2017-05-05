@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ContentControlReference">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Trin_ContentControlReference.sln">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="7:28 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_ContentControlReference.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ContentControlReference.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Trin_ContentControlReference.sln">
+</Event><Event ErrorLevel="3" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Trin_ContentControlReference.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="BuildingBlockGallery.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\BuildingBlockGallery.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="CheckBox.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\CheckBox.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="ComboBox.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\ComboBox.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="DatePicker.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\DatePicker.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="DropDownList.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\DropDownList.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Group.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Group.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Picture.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Picture.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="PlainText.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\PlainText.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="RichText.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\RichText.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Trin_ContentControlReference.docx">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\Trin_ContentControlReference_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlReference\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ContentControlReference.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ContentControlReference.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ContentControlReference" Source="Trin_ContentControlReference.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

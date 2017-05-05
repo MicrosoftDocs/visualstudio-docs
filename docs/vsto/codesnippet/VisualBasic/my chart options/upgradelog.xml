@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="My Chart Options">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\My Chart Options.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\My Chart Options.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:52 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="My Chart Options.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="My Chart Options.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.sln">
+</Event><Event ErrorLevel="0" Project="" Source="My Chart Options.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.v11.suo">
+</Event><Event ErrorLevel="3" Project="My Chart Options" Source="My Chart Options.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.vbproj">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.vbproj.user">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ChartOptions.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ChartOptions.Designer.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ChartOptions.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ChartOptions.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.Designer1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.Designer1.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.docx">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.Designer1.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Chart Options.Designer1.xml">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ThisDocument.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ThisDocument.resx">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="ChartOptions.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\ChartOptions.resx">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingControlsWord\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="My Chart Options" Source="My Chart Options.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="My Chart Options.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="My Chart Options.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="My Chart Options" Source="My Chart Options.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

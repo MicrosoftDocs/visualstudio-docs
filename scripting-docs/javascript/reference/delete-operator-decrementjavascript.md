@@ -13,6 +13,7 @@ f1_keywords:
   - "delete_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "array elements, deleting"
@@ -43,7 +44,7 @@ delete expression
 ## Example  
  The following example shows how to remove an element from an array.  
   
-```javascript  
+```JavaScript  
 // Create an array.  
 var ar = new Array (10, 11, 12, 13, 14);  
   
@@ -62,7 +63,7 @@ document.write ("array: " + ar);
 ## Example  
  The following example shows how to delete properties from an object.  
   
-```javascript  
+```JavaScript  
 // Create an object and add expando properties.  
 var myObj = new Object();  
 myObj.name = "Fred";  

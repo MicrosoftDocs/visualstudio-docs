@@ -1,7 +1,7 @@
 ---
-title: "What’s New for the Debugger in Visual Studio 2017 RC | Microsoft Docs"
+title: "What’s New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/07/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, what's new"

@@ -27,7 +27,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/get-started-with-visual-studio">
+                <a href="/visualstudio/ide/visual-studio-ide">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -56,7 +56,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>What's New in Visual Studio 2017 RC</h3>
+                                    <h3>What's New in Visual Studio 2017</h3>
                                 </div>
                             </div>
                         </div>
@@ -196,7 +196,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Python</h3>
+                                                    <h3>Python (Preview)</h3>
                                                     <p>Interactive development for Python apps, using familiar frameworks including Django and Flask.</p>
                                                 </div>
                                             </div>
@@ -223,7 +223,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833095">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -241,26 +241,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                         </div>
                                     </div>
                                 </a>
-                            </li>
-							<li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834748">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1 cardScaleImage">
-                                                        <img data-scaleimage="./images/vs_web-6.svg" src="./images/vs_web-6.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Data science and analytical applications</h3>
-                                                    <p>Languages and tooling for creating datas science applications, including Python, R, and F#.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                            </li>                            
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833075">
                                     <div class="cardSize">
@@ -439,7 +420,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#features1"> </a>
                         <ul id="features1" class="cardsC">
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833076">
+                                <a href="https://docs.microsoft.com/en-us/visualstudio/ide/index-writing-code">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -584,8 +565,26 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Extend</h3>
-                                                    <p>Add your own functionality to the Visual Studio IDE to improve your development experience.
-                                                    </p>
+                                                    <p>Add your own functionality to the Visual Studio IDE to improve your development experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-9.svg" src="./images/vs_features-9.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Data</h3>
+                                                    <p>Create data apps that connect to any database or service, and anywhere&#8212;local or cloud. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -727,7 +726,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             </div>
                                             <div class="cardText">
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-                                                    <h3>Python</h3>
+                                                    <h3>Python (Preview)</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
                                                 </a>
                                             </div>
@@ -760,34 +759,34 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
             </li>
         </ul>
     </div>
-	<div class="container centered pageFooter">
-		<h2>Keep in touch with us</h2>
-		<ul class="links">
-		   <li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833100">
-					Blog
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833101">
-					Twitter
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833103">
-					Stack Overflow
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833104">
-					Issue Reporting
-				</a>
-			</li>
-			<li>
-				<a href="https://go.microsoft.com/fwlink/?linkid=833105">
-					User Voice
-				</a>
-			</li>
-		</ul>
-	</div>
+    <div class="container centered pageFooter">
+        <h2>Keep in touch with us</h2>
+        <ul class="links">
+           <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833100">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833101">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833103">
+                    Stack Overflow
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833104">
+                    Issue Reporting
+                </a>
+            </li>
+            <li>
+                <a href="https://go.microsoft.com/fwlink/?linkid=833105">
+                    User Voice
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

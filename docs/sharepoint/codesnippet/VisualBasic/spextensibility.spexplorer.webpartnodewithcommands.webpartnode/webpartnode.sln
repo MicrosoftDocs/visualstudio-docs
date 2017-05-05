@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebPartNode", "WebPartNode.vbproj", "{9B69FA13-CF7F-42E3-B783-B92B78D0227B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebPartNodeExtension", "WebPartNodeExtension\WebPartNodeExtension.vbproj", "{5F980934-53CC-4BA8-8ECE-60949B803E59}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebPartCommands", "WebPartCommands\WebPartCommands.vbproj", "{ADDD8465-8C74-4E97-9896-2C18B91D24CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B69FA13-CF7F-42E3-B783-B92B78D0227B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B69FA13-CF7F-42E3-B783-B92B78D0227B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B69FA13-CF7F-42E3-B783-B92B78D0227B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B69FA13-CF7F-42E3-B783-B92B78D0227B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F980934-53CC-4BA8-8ECE-60949B803E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F980934-53CC-4BA8-8ECE-60949B803E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F980934-53CC-4BA8-8ECE-60949B803E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F980934-53CC-4BA8-8ECE-60949B803E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDD8465-8C74-4E97-9896-2C18B91D24CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDD8465-8C74-4E97-9896-2C18B91D24CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDD8465-8C74-4E97-9896-2C18B91D24CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDD8465-8C74-4E97-9896-2C18B91D24CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

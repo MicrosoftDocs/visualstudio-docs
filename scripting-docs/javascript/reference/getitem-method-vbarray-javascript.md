@@ -13,6 +13,7 @@ f1_keywords:
   - "getItem"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getItem method"
@@ -43,7 +44,7 @@ safeArray.getItem(dimension1[, dimension2, ...], dimensionN)
 ## Example  
  The following example consists of three parts. The first part is VBScript code to create a Visual Basic safe array. The second part is [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that iterates the Visual Basic safe array and prints out the contents of each element. Both of these parts go into the \<HEAD> section of an HTML page. The third part is the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code that goes in the \<BODY> section to run the other two parts.  
   
-```javascript  
+```JavaScript  
 <head>  
 <script type="text/vbscript">  
 <!--  
