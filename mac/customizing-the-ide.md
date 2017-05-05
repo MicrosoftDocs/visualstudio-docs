@@ -16,7 +16,7 @@ Visual Studio for Mac can be customized in a variety of ways, allowing users to 
 
 ![Dark Theme View](media/customizing-the-ide-image7a.png)
 
-You can switch themes in Visual Studio for Mac by browsing to **Preferences > Environment > Visual Style** and selecting your desired theme from the *User Interface Theme* drop-down, as illustrated in the screenshot below:
+You can switch themes in Visual Studio for Mac by browsing to **Preferences > Environment > Visual Style** {>> Should this and related paths be **Visual Studio > Preferences > ** etc, or is that understood? <<}and selecting your desired theme from the *User Interface Theme* drop-down, as illustrated in the screenshot below:
 
  ![Dark Theme Selection](media/customizing-the-ide-image7b.png)
 
@@ -33,7 +33,7 @@ Visual Studio for Mac is localized in 13 languages, enabling it to be accessible
 * Italian
 * Japanese
 * Korean
-* Portuguese (Brazil)
+* Portuguese - Brazil
 * Russian
 * Spanish
 * Turkish
@@ -45,7 +45,7 @@ To change the language displayed by Visual Studio for Mac , browse to **Preferen
 
 ## Author Information
 
-The author information panel allows you to add relevant information about yourself such as your Name, email address, the copyright owner for your work, your company, and trademark, as illustrated below:
+The author information panel allows you to add relevant information about yourself such as your name, email address, the copyright owner for your work, your company, and trademark, as illustrated below:
 
  ![Edit Author Information section](media/customizing-the-ide-image9a.png)
 
