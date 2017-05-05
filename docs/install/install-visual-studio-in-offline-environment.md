@@ -42,27 +42,33 @@ VS Setup will only install content that is trusted.  It checks Authenticode sign
 You can install the certificates on the client by manually double-clicking the certificate file and then clicking thru the certificate manager wizard.  If asked for a password, leave it blank.
 
 To script the installation of the certificates, follow these steps:
-1.  Copy certmgr.exe to the installation share (ex: ```\\server\share\vs2017```). Certmgr.exe is included with the Windows SDK, which can be installed as an optional component in the “Universal Windows Platform development” workload. (ex: ```"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"```)
 
-2.  Create a batch file with the following commands:
-```batch
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Time-Stamp PCA" -s -r LocalMachine CA
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
-    \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-```
-3.  Run the batch file on the client from an administrator command shell or elevated process.
+1. Copy certmgr.exe to the installation share (ex: `\\server\share\vs2017`). Certmgr.exe is included with the Windows SDK, which can be installed as an optional component in the "Universal Windows Platform development" workload. (ex: `"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"`)
+2. Create a batch file with the following commands:
+   ```
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Time-Stamp PCA" -s -r LocalMachine CA
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   ```
+3. Run the batch file on the client from an administrator command shell or elevated process.
 
-#### “Why are the certificates from the ‘certificates’ folder not installed automatically?”  
-When a signature is verified in an online environment, Windows API’s are used to download and add the certificates to the system.  Verification that the certificate is trusted and allowed via administrative settings occurs during this process.  This verification process cannot occur in most offline environments.  Installing the certificates manually allows the user to ensure the certificates are trusted and meet administrator requirements.
+#### Why are the certificates from the "certificates" folder not installed automatically?
+When a signature is verified in an online environment, Windows APIs are used to download and add the certificates to the system.  Verification that the certificate is trusted and allowed via administrative settings occurs during this process.  This verification process cannot occur in most offline environments.  Installing the certificates manually allows the user to ensure the certificates are trusted and meet administrator requirements.
 
 
 ## Install Visual Studio
-* Users can do this by running ```vs_enterprise.exe``` in the offline layout folder.  Then, select the additional workloads and components you want to install and proceed with setup.  All the content will be installed from the offline layout.
-* Admins can do this without requiring any user interaction by running:<br>```vs_enterprise.exe --quiet --wait -–norestart```
-  * Most likely administrators will want to install more than just the core editor and will want to include other workloads and components.  To do that, run a command similar to this but with the workloads, components, and product languages you want:<br>```vs_enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" --quiet --wait -–norestart --add Microsoft.VisualStudio.Workload.ManagedDesktop --addProductLang de-DE```
+* Users can do this by running `vs_enterprise.exe` in the offline layout folder.  Then, select the additional workloads and components you want to install and proceed with setup.  All the content will be installed from the offline layout.
+* Admins can do this without requiring any user interaction by running:
+  ```
+  vs_enterprise.exe --quiet --wait --norestart
+  ```
+  * Most likely administrators will want to install more than just the core editor and will want to include other workloads and components.  To do that, run a command similar to this but with the workloads, components, and product languages you want:
+    ```
+    vs_enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" --quiet --wait --norestart --add Microsoft.VisualStudio.Workload.ManagedDesktop --addProductLang de-DE
+    ```
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)
