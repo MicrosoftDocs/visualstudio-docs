@@ -10,7 +10,7 @@ ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 
 # Updating Visual Studio for Mac
 
-Visual Studio for Mac distributes updates for the IDE and supported frameworks on a regular basis. This updates can be in the form of new features, improvements, and bug fixes.
+Visual Studio for Mac distributes updates for the IDE and supported frameworks on a regular basis. These updates can be in the form of new features, improvements, and bug fixes.
 
 Visual Studio for Mac provides three channels to get these latest versions. They are:
 

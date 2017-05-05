@@ -43,7 +43,7 @@ You can use MSBuild Build Engine to build applications via the command line.
 
 See the [MSBuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild) content for more information on using MSBuild.
 
-### Using VSTS
+### Using Visual Studio Team Services
 
 * [Build your Xamarin App](https://www.visualstudio.com/en-us/docs/build/apps/mobile/xamarin)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)

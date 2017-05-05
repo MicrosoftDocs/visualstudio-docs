@@ -50,7 +50,7 @@ ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 
   ![Enter permissions to continue with installer](media/installer-image10.png)
 
-10. Once the installation is successful, you can start developing apps in Visual Studio by pressing **Start Visual Studio**:
+10. Once the installation is successful, you can start developing apps in Visual Studio by pressing **Start**:
 
   ![Open Visual Studio](media/installer-image11.png)
 

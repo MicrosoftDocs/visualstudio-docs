@@ -89,24 +89,6 @@ sudo pkgutil --forget com.xamarin.monotouch.pkg
 sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
 ```
 
-### Uninstall the Mac Build Host
-
-Note: This may already have been removed if you have already updated to to Xamarin 4
-Run the following command in Terminal to remove the Build Host application:
-
-```bash
-sudo rm -rf "/Applications/Xamarin.iOS Build Host.app"
-```
-
-The Build Host process or `launchd` job may still be running or listening on certain ports.
-You can check its status by running `launchctl list | grep com.xamarin.mtvs.buildserver` in Terminal.
-
-```bash
-sudo launchctl unload /Library/LaunchAgents/com.xamarin.mtvs.buildserver.plist
-sudo rm -f /Library/LaunchAgents/com.xamarin.mtvs.buildserver.plist
-```
-
-
 ## Uninstall Xamarin.Mac
 
 Once Visual Studio for Mac has been successfully uninstalled, Xamarin.Mac can be removed from your machine using the following two commands to eradicate the product and license from your Mac respectively:
