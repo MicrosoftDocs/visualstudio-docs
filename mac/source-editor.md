@@ -25,7 +25,7 @@ Visual Studio for Mac offers many powerful features to make cross-platform devel
 
 ### Code Folding
 
-Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements.
+Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements. This is turned off by default in Visual Studio for MAc
 
 To turn on code folding, navigate to **Preference > Text Editor > General > Code Folding**:
 
@@ -37,7 +37,7 @@ To show or hide sections, use the disclosure widget next to the line number:
 
  ![Showing or Hiding sections in code](media/source-editor-image2.png)
 
-You can also toggle folds by using the **View > Folding** menu item:
+You can also switch between showing and hiding the folds by using the **View > Folding> Toggle Fold / Toggle All Folds** menu item:
 
  ![Folding Menu item](media/source-editor-image19.png)
 
@@ -55,16 +55,23 @@ The option to show tabs, spaces, and line endings is also available:
 
  ![Show tabs and spaces](media/source-editor-image4.png)
 
+ Invisible characters are displayed as grey dots, as illustrated below:
+
+ ![whitespace displayed](media/source-editor-image22.png)
+
+
 ### Ruler
 
 Showing the column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated below:
 
  ![](media/source-editor-image5.png)
 
+ This displays as a vertical light grey line in the source editor.
+
 
 ### Highlight Identifier References
 
-When this option is turned on, a developer can place the caret on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
+When this option is turned on, a developer can place the mouse cursor on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
 
 ![](media/source-editor-image6.png)
 
