@@ -34,11 +34,11 @@ translation.priority.mt:
 # How to define settings in a response file
 Administrators deploying Visual Studio can specify a response file using the `--in``` parameter, for instance:
 
-```cmd
+```
 vs_enterprise.exe --in customInstall.json
 ```
 
-Response files are [JSON](http://json-schema.org/) files whose contents mirror the command line arguments.  In general, if a command line parameter takes no arguments (e.g. ```--quiet```, ```--passive```, etc.), the value in the response file should be true/false.  If it takes an argument (e.g. ```--installPath <dir>```), the value in the response file should be a string.  If it takes an argument and can appear on the command line more than once (e.g. ```--add <id>```), it should be an array of strings.
+Response files are [JSON](http://json-schema.org/) files whose contents mirror the command line arguments.  In general, if a command line parameter takes no arguments (e.g. `--quiet`, `--passive`, etc.), the value in the response file should be true/false.  If it takes an argument (e.g. `--installPath <dir>`), the value in the response file should be a string.  If it takes an argument and can appear on the command line more than once (e.g. `--add <id>`), it should be an array of strings.
 
 Parameters specified on the command line override settings from the response file, except in the case of parameters that take multiple inputs (e.g. `--add`), where the inputs supplied on the command line are merged with settings from the response file.
 
@@ -48,7 +48,7 @@ If you created a network layout cache with the `--layout`, an initial `response.
 
 Administrators who create a layout can modify the `response.json` file in the layout to control the default settings that their users will see when installing Visual Studio from the layout.  For example, if an administrator wants specific workloads and components selected to be installed by default, they can configure the response.json file to add those.
 
-When Visual Studio setup is run from a layout folder, it will _automatically_ use the response file in the layout folder.  It is not required to use the ```--in``` option.
+When Visual Studio setup is run from a layout folder, it will _automatically_ use the response file in the layout folder.  It is not required to use the `--in` option.
 
 You can update the response.json file that is created in an offline layout folder to define default setting for users installing from this layout. **However, it is critical that you leave the existing properties that were defined when the layout was created.**
 
