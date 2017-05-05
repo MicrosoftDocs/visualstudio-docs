@@ -76,7 +76,7 @@ There are several options you can use to customize your network layout. You can 
  - ```--add``` to specify [workload or component IDs](workload-and-component-ids.md).  If `--add` is used, only those workloads and components specified with `--add` will be downloaded.  If `--add` is not used, all workload and components will be downloaded.
  - ```--includeRecommended``` to include all the recommended  components for the specified workload IDs
  - ```--includeOptional``` to include all the recommended and optional components for the specified workload IDs.
- - ```--lang``` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales.md).
+ - ```--lang``` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
  
 Here are a few examples of how to create a custom partial layout.
 
