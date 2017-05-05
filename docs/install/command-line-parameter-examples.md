@@ -53,7 +53,7 @@ vs_enterprise.exe --installPath C:\minVS ^
 vs_enterprise.exe --installPath C:\desktopVS ^
    --addProductLang fr-FR ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
-   --quiet --wait
+   --includeRecommended --quiet --wait
 ```
 
   > [!NOTE]
@@ -84,7 +84,7 @@ vs_enterprise.exe --all --includeRecommended --includeOptional
 * Install a second, named instance of Visual Studio 2017 Professional on a machine with Visual Studio 2017 Community edition already installed, with support for Node.js development:
 ```cmd
 vs_professional.exe --installPath C:\VSforNode ^
-   --add Microsoft.VisualStudio.Workload.Node --nickname VSforNode
+   --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
 ```
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
