@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio administrator guide | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/05/2017"
+ms.date: "05/06/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,6 +37,8 @@ translation.priority.mt:
 
 In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in common networked environments.
 
+## Steps for deploying Visual Studio 2017 in an enterprise environment
+
 You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
 
 1. [Create a network share containing the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location;
@@ -59,18 +61,14 @@ You can deploy Visual Studio 2017 to client workstations as long as each target 
 > Note that installations from a network share will “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
 
 ## Tools
-We have made several tools available that will help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines:
-
-* [VSWhere](https://github.com/microsoft/vswhere): a C++ executable that helps you find the location of core Visual Studio tools from an installed instance of Visual Studio.
-* [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
-* [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
+We have made several tools available that will help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
 
 > [!TIP]
 > In addition to the documentation in the administrator's guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
-* [Create an offline installer for Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Install Visual Studio in offline environments](install-visual-studio-in-offline-environment.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
