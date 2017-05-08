@@ -1,7 +1,7 @@
 ---
-title: "Azure Remote Debugging with Python Tools for Visual Studio | Microsoft Docs"
+title: Azure Remote Debugging with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""

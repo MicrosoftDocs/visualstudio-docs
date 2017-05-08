@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Azure Remote Debugging with Python Tools for Visual Studio | Microsoft Docs"
+title: Troubleshooting Azure Remote Debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ Visual Studio will fail to attach to an [Azure App Service for remote debugging]
 | The project wasn't deployed with the Debug configuration. | Redeploy the application by right-clicking the project in Solution Explorer and selecting **Publish**. In the **Settings** tab, make sure **Debug** is the selected configuration. |
 | The App Service isn't running. | Start it from Server Explorer in Visual Studio or from the Azure portal. |
 | The App Service isn't configured for web sockets. | Go to the [Azure portal](https://portal.azure.com), navigate to your App Service, open the  **Settings > Application settings** blade, turn **General settings > Web sockets** to **On**, and select **Save**. (Note that the **Debugging** options shown on this blade do *not* apply to Python debugging.) |
-| `web.debug.config` was modified to disable the debug proxy. | Delete the file and republish the project to App Service, during which time Python Tools for Visual Studio recreates the file. |
+| `web.debug.config` was modified to disable the debug proxy. | Delete the file and republish the project to App Service, during which time Visual Studio recreates the file. |
 
 See also:
 
