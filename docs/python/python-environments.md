@@ -59,7 +59,7 @@ For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/
 
 ## Selecting and installing Python interpreters
 
-Except with Visual Studio 2017 Preview, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio will automatically detect newly-installed interpreters and set up an environment for them. If it does not, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter) below.
+Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio will automatically detect newly-installed interpreters and set up an environment for them. If it does not, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter) below.
 
 | Interpreter | Description | 
 | --- | --- | 

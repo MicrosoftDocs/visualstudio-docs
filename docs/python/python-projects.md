@@ -95,7 +95,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code which initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
-| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 Preview (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
+| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
 ### Creating a project from existing files

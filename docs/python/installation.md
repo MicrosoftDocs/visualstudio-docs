@@ -47,11 +47,14 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-1. Install the ["Visual Studio 2017 Preview" from https://www.visualstudio.com/vs/preview](https://www.visualstudio.com/vs/preview). **NOTE:** This Preview channel is *distinct* from the released version of Visual Studio 2017, and contains features under development for future Visual Studio 2017 updates, including Python support.
+1. Install the Visual Studio 2017 from [https://www.visualstudio.com/vs/](https://www.visualstudio.com/vs/).
 
-1. In the Preview installer, select the **Web & Cloud > Python Development** workload:
+1. In the Visual Studio installer, select the **Web & Cloud > Python Development**  workload.
 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
+
+    > [!Note]
+    > Python is also included in the **Data science and analytical applications** workload.
 
 1. On the right side of the installer, select the Python interpreters and other related tools you want to include. For example, if you plan on developing C++ extensions for Python, include the **Python native development tools** option.
 
@@ -83,7 +86,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 By default, Python support is installed for all users on a computer.
 
-For Visual Studio 2017, the Python workload is installed in `%ProgramFiles(x86)%\Microsoft Visual Studio\Preview\<VS_edition>Common7\IDE\Extensions\Microsoft\Python` where &lt;VS_edition&gt; is Community, Professional, or Enterprise.
+For Visual Studio 2017, the Python workload is installed in `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\<VS_edition>Common7\IDE\Extensions\Microsoft\Python` where &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 For Visual Studio 2015 and earlier, installation paths are as follows:
 

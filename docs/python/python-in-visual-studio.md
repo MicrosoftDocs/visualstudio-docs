@@ -70,7 +70,7 @@ A. Python is generally an interpreted language, with code run on demand in a sui
 
 Python support can be installed in the following editions of Visual Studio as described in the [installation guide](installation.md):
 
-- [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)
+- [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
 - [Visual Studio 2013 Community Edition] (https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 - [Visual Studio 2013 Express for Web, Update 2 or higher](https://www.microsoft.com/en-us/download/details.aspx?id=44912)
