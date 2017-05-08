@@ -50,6 +50,5 @@
 ## [Working with Subversion](working-with-subversion.md)
 
 # [Troubleshooting](troubleshooting.md)
-## [Visual Studio for Mac and Xamarin Studio Comparisons](visual-studio-and-xamarin-studio.md)
 ## [Report a Problem](report-a-problem.md)
  

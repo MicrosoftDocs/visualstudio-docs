@@ -13,16 +13,16 @@ You can add new project items to your project by right-clicking on the Project n
 
 ![Add New Project Item](media/add-and-remove-project-items-image1.png)
 
-This displays the New File Dialog, which provides file templates based on the type of application you are creating in addition to the default templates, such as Empty Classes or Empty Enumerations. For example, if you are writing an iOS application, you can select to create a new empty Storyboard file:
+This displays the New File Dialog, which provides file templates based on the type of application that you are creating in addition to the default templates, such as Empty Classes or Empty Enumerations. For example, if you are writing an iOS application, you can select **Storyboard** to create a new empty Storyboard file:
 
 ![Add new empty storyboard in iOS](media/add-and-remove-project-items-image2.png)
 
-## Adding Existing Files
+## Adding existing files
 
 You can add existing files to your project by right-clicking on the Project node and selecting **Add > Add Files…**. Alternatively, to add an entire folder, select **Add > Add Existing Folder…**. This displays the file browser, which lets you search your system for the required item to add.
 
 
-## Removing Items
+## Removing items
 
 To remove an item from your current project, right-click the item and select **Remove**
 

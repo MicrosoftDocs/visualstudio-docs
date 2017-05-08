@@ -8,26 +8,26 @@ ms.topic: article
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---
 
-# Source Editor
+# Source editor
 
 A reliable source editor is essential for writing code succinctly and efficiently. Visual Studio for Mac provides a sophisticated source editor that is at the center of your interactions with the IDE. The source editor provides features that you might expect and need to do your work with ease: From the basics such a syntax highlighting, code snippets, and code folding, to the benefits of its Roslyn compiler integration, such as fully functional IntelliSense code completion.
 
-The source editor in Visual Studio for Mac allows for a seamless experience with all of the other functionality provided by the IDE such as debugging, refactoring, and version control integration.
+The source editor in Visual Studio for Mac allows for a seamless experience with all the other functionality provided by the IDE such as debugging, refactoring, and version control integration.
 
-This topic introduces some of the key features of the source editor, and explores how you can use Visual Studio for Mac to be as productive as possible.
+This topic introduces some of the key features of the source editor and explores how you can use Visual Studio for Mac to be as productive as possible.
 
 ## The Source Editor Experience
 
-Viewing and moving efficiently throughout your code is an integral part of the development workflow. Exactly how you decide to view and maintain your code is a personal decision, which varies between developers – and often between projects. 
+Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers – and often between projects.
 
 Visual Studio for Mac offers many powerful features to make cross-platform development as accessible and as useful as possible. The sections below describe some of the highlights.
 
 
-### Code Folding
+### Code folding
 
-Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements. This is turned off by default in Visual Studio for MAc
+Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements. This is turned off by default in Visual Studio for Mac
 
-To turn on code folding, navigate to **Preference > Text Editor > General > Code Folding**:
+To turn on code folding, navigate to **Visual Studio > Preferences… > Text Editor > General > Code Folding**:
 
 ![Code Folding Options](media/source-editor-image1.png)
 
@@ -43,7 +43,7 @@ You can also switch between showing and hiding the folds by using the **View > F
 
 This menu item can also be used to enable or disable code folding.
 
-### White Space
+### White space
 
 It may be necessary for you to be able to view invisible characters in source code. It's a visible way to ensure that you are adhering to coding standards and not needlessly wasting space. It's also very useful when writing F#, which depends on precisely indented lines for evaluating code.
 
@@ -62,20 +62,20 @@ The option to show tabs, spaces, and line endings is also available:
 
 ### Ruler
 
-Showing the column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated below:
+Showing the column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences… > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated below:
 
  ![](media/source-editor-image5.png)
 
  This displays as a vertical light grey line in the source editor.
 
 
-### Highlight Identifier References
+### Highlight identifier references
 
-When this option is turned on, a developer can place the mouse cursor on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
+When this option is turned on, a developer can place the mouse cursor on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences… > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
 
 ![](media/source-editor-image6.png)
 
-The color of the highlight is also useful for denoting if something is being assigned or referenced. If something is assigned, it is highlighted in red; if it is referenced, it is highlighted in blue:
+The color of the highlight is also useful for denoting that something is being assigned or referenced. If something is assigned, it is highlighted in red; if it is referenced, it is highlighted in blue:
 
 ![](media/source-editor-image7.png)
 

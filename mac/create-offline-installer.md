@@ -10,7 +10,7 @@ ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B
 
 # Create an Offline Installer for Visual Studio for Mac
 
-You can create an offline installer for Visual Studio for Mac via any connected Mac machine.
+You can create an offline installer for Visual Studio for Mac using any connected Mac machine.
 
 For basic offline installs, do the following:
 

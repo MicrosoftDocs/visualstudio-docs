@@ -88,7 +88,6 @@ Some other types that also have their own inline visualizers are listed below:
 
  ![Other Visualization](media/data-visualizations-image23.png)
  
-*	**Unevaluated Value**
 *	**Primitives**
 	*	This will show the raw value of the primitive type.
 *	**Enum**

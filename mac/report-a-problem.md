@@ -11,19 +11,15 @@ ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 
 If you encounter a problem with Visual Studio for Mac, we want to know about it so that we can diagnose and fix it. 
 
-## Report a Problem
+## How to report a problem
 
 To report a problem with Visual Studio for Mac, use the **Report a Problem** link located on the Welcome page:
 
 ![report a problem link](media/report-problem-image1.png)
 
-This displays the **Report a Problem** box. 
+This displays the **Report a Problem** webpage. 
 
 Give a descriptive title for the issue along with any additional information about that issue that you feel may be useful. When possible, please provide us with reproduction steps as this allows us to understand and fix your issue as quickly as possible.
-
-![report a problem link](media/report-problem-image2.png)
-
-You can optionally enter an email address. If you do we might use this email address to contact you for further information regarding your report.
 
 ## Provide a Suggestion
 

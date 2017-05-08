@@ -8,7 +8,8 @@ ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
 ---
 
 # Managing References in a Project
-Visual Studio for Mac provides three different means of adding additional references to your project:
+
+Visual Studio for Mac provides three  means of adding additional references to your project:
 
 ![Project References](media/projects-and-solutions-image10.png)
 
@@ -20,11 +21,11 @@ These are:
 
 In addition, Web References and native references can also be added to any project.
 
-## Assembly References
+## Assembly references
 
-Each framework within Xamarin ships with over a dozen assemblies. Not all of these packages are referenced in your project by default. 
+Each framework within Xamarin ships with over a dozen assemblies. Not all of these assembly packages are referenced in your project by default. 
 
-To edit which packages that are referenced in your project, use the _Edit References_ dialog, which can be displayed by double-clicking on the References folder, or by select Edit References on its context menu actions:
+To edit packages that are referenced in your project, use the _Edit References_ dialog, which can be displayed by double-clicking on the References folder, or by select Edit References on its context menu actions:
 
 ![Assembly References dialog](media/projects-and-solutions-image11.png)
 
@@ -32,7 +33,7 @@ For information on the assemblies available for each Xamarin framework, refer to
 
 ## NuGet
 
-NuGet is the most popular package manager for .NET development. Visual Studio for Mac's NuGet support allows you to search for an add packages to your project. 
+NuGet is the most popular package manager for .NET development. Visual Studio for Mac's NuGet support allows you to search for packages to add to your project.
 
 To do this, right-click on the **Package** folder in the Solution Pad, and select Add Packages.
 
