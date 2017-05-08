@@ -13,7 +13,7 @@ ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 There are a number of Xamarin products that enable cross-platform application development,
 including stand-alone apps like Visual Studio for Mac.
 
-This guide can be used to uninstall each product individually by navigating to the relevant section. The entire Xamarin toolset can be uninstalled by following this guide the whole way through.
+This guide can be used to uninstall each product individually by navigating to the relevant section. The entire Xamarin toolset can be uninstalled by following this guide all the way through.
 
 If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in the [uninstall](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/) guide on developer.xamarin.com, in addition to the steps below.
 
@@ -24,7 +24,7 @@ The first step in uninstalling Visual Studio from a Mac is to locate **Visual St
 
 ![Move Visual Studio Application to trash](media/uninstall-image1.png)
 
-Deleting this app bundle will remove Visual Studio for Mac, however, there may be other files relating to Xamarin still on a file system.
+Deleting this app bundle will remove Visual Studio for Mac, even though there may be other files relating to Xamarin still on a file system.
 
 To remove all traces of Visual Studio for Mac, the following commands should be run in Terminal:
 
@@ -70,7 +70,7 @@ sudo rm -rf /Library/Frameworks/Xamarin.Android.framework
 
 The Android SDK is required for development of Android applications. To completely remove all parts of the Android SDK, locate the file at **~/Library/Developer/Xamarin/** and move it to **Trash**.
 
-The Java SDK (JDK) does not need to be uninstalled, as it is already pre packaged as part of Mac OS X / macOS.
+The Java SDK (JDK) does not need to be uninstalled, as it is already pre-packaged as part of Mac OS X / macOS.
 
 ## Uninstall Xamarin.iOS
 

@@ -8,7 +8,19 @@ ms.topic: article
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---
 
-# Install Visual Studio for Mac
+# Setup and Install Visual Studio for Mac
+
+## Setup
+
+To start developing native, cross-platform apps as soon as you download Visual Studio for Mac there are a couple of things that you will want to install and setup in preparation.
+
+For working with iOS in Visual Studio you will need the following:
+
+* a Mac with macOS Sierra 10.12 or above
+* Xcode 8.3
+* An Apple ID. You can create this at https://appleid.apple.com if you don’t have one already. This is necessary for installing and signing into Xcode.
+
+## Install
 
 1. Download Visual Studio for Mac from [https://www.visualstudio.com/](https://www.visualstudio.com/)
 
@@ -24,11 +36,11 @@ ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 
   ![Assessing your system](media/installer-image3.png)
 
-5. We'll then present you with an alert dialog asking you to acknowledge the Privacy and License terms. Press the **Continue** button to acknowledge the terms:
+5. You will then be presented with an alert dialog asking you to acknowledge the Privacy and License terms. Press the **Continue** button to acknowledge the terms:
 
   ![License dialog](media/installer-image4.png)
 
-6. The installer will present a list of required components that are missing and need to be downloaded and installed. Select the products you wish to download here:
+6. The installer will present a list of required components that are missing and that need to be downloaded and installed. Select the products you wish to download here:
 
   ![Select Items](media/installer-image5.png)
 
@@ -46,7 +58,7 @@ ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 
   ![Finishing Installation](media/installer-image9.png)
 
-9. You may be prompted to elevate the permissions necessary for individual components that are needed to complete installation. Enter your administrator credentials here to continue the installation process:
+9. You might be prompted to elevate the permissions necessary for individual components that are needed to complete installation. Enter your administrator credentials here to continue the installation process:
 
   ![Enter permissions to continue with installer](media/installer-image10.png)
 
