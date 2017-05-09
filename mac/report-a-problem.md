@@ -17,9 +17,19 @@ To report a problem with Visual Studio for Mac, use the **Report a Problem** lin
 
 ![report a problem link](media/report-problem-image1.png)
 
-This displays the **Report a Problem** webpage. 
+This displays the **Report a Problem** web page. You can use this page to view all existing problems, vote on similar problems, and submit solutions to other peoples problems:
+
+![report a problem webpage](media/report-problem-image2.png)
+
+Select the **Report a Problem** button on the web page. 
+
+If you haven't already logged in to the Developer Community application, you'll be prompted to do so on the following page. Select the **Accept** button to authorize the Developer Community application for your Microsoft account:
+
+![report a problem webpage](media/report-problem-image3.png)
 
 Give a descriptive title for the issue along with any additional information about that issue that you feel may be useful. When possible, please provide us with reproduction steps as this allows us to understand and fix your issue as quickly as possible.
+
+![report a problem webpage](media/report-problem-image4.png)
 
 ## Provide a Suggestion
 
