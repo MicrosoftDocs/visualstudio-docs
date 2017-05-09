@@ -37,13 +37,13 @@ You can apply your product key programmatically as part of a script used to auto
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt, followed by the product key (including the dashes) and the Microsoft Product Code (MPC). Please be sure to include the dashes in the product key.
 
- ```cmd
+ ```
  StorePID.exe [product key including the dashes] [MPC]
  ```
 
  This is an example command line for applying the license for Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, assuming its installation into a default location:
 
- ```cmd
+ ```
  C:\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
  ```
 
