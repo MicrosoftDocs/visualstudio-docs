@@ -71,6 +71,7 @@ When a signature is verified in an online environment, Windows APIs are used to 
 ## Install Visual Studio
 Having installed the certificates, deployment of Visual Studio can proceed offline without additional special steps, using the [instructions here](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation).
 
+
 ## See also
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

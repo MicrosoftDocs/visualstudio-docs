@@ -57,15 +57,25 @@ To create an offline installation with all languages and all features, use one o
 
 (Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer that is running Windows 10).
 
-- For Visual Studio Enterprise, run: <br>  ```vs_enterprise.exe --layout c:\vs2017offline```
-- For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
-- For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
+- For Visual Studio Enterprise, run:
+  ```
+  vs_enterprise.exe --layout c:\vs2017offline
+  ```
+- For Visual Studio Professional, run:
+  ```
+  vs_professional.exe --layout c:\vs2017offline
+  ```
+- For Visual Studio Community, run:
+  ```
+  vs_community.exe --layout c:\vs2017offline
+  ```
 
 ## Modify the response.json file
 You can modify the response.json to set default values that will be used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically.
 See [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) for details.
 
 ## Copy the layout to a network share
+
 Host the layout on a network share so it can be run from other machines.
 * Example:<br>
 ```xcopy /e c:\vs2017offline \\server\products\VS2017```
@@ -86,6 +96,7 @@ Here are a few examples of how to create a custom partial layout.
  - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP ```
  - To download two workloads and all of their recommended components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended ```
  - To download two workloads and all of their recommended and optional components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional ```
+
 
 ## Deploying from a network installation
 Administrators may deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine.
