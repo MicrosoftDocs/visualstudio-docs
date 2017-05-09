@@ -36,21 +36,23 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Flag and Unflag Threads
-You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks**, **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.  
+You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks** (thread view), **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.  
   
- Flagged threads also receive special treatment in the **Thread** list on the **Debug Location** toolbar. This list can show all threads or only flagged threads. When you flag a thread, the **Thread** list automatically switches to show only flagged threads, but you can switch it back to show all threads as appropriate.  
+Flagged threads also receive special treatment in the **Thread** list on the **Debug Location** toolbar and in the other multithreaded debugging windows. You can show all threads or only flagged threads in the **Thread** list or in the other windows.
   
-### To flag or unflag a thread by using the Threads window  
+### To flag or unflag a thread 
   
--   In the **Threads** window, find the thread you are interested in and click the flag icon to select or clear the flag.  
+-   In the **Threads** or **Parallel Watch** window, find the thread you are interested in and click the flag icon to select or clear the flag. 
+-   In the **Parallel Stacks** window, right-click on a thread or group of threads and select **Flag / <thread>** or **Unflag / <thread>**.
   
 ### To unflag all threads  
   
--   In the **Threads** window, right-click any thread and then click **Unflag All Threads**.  
+-   In the **Threads** window, right-click any thread and then click **Unflag All Threads**.
+-   In the **Parallel Watch** window, select all flagged threads, then right-click and select **Unflag**.  
   
 ### To display only flagged threads  
   
--   Choose the flag button in the debugging window.  
+-   Choose the **Show Flagged Threads Only** button in one of the multithreaded debugging windows.  
   
 ### To flag Just My Code  
   
@@ -72,4 +74,5 @@ You can flag a thread that you want to give special attention by marking it with
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
- [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md)
+ [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
+ [Walkthrough: Debug multithreaded applications using the Threads window](../debugger/how-to-use-the-threads-window.md)

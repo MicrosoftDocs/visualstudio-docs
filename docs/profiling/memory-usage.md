@@ -1,7 +1,7 @@
 ---
 title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -84,7 +84,7 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
     ![Take snapshot](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot") 
      
      > [!TIP]
-     >  -   To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.  
+     >  To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.  
 
 6.  Run the scenario that will cause your first breakpoint to be hit.
 
@@ -108,17 +108,15 @@ The rows of Memory Usage summary table lists the snapshots that you have taken d
 -   The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps 
 
 When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.  
-  
-![Memory summary table cell](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
 
 To analyze memory usage, click one of the links that opens up a detailed report of memory usage:  
 
--   To view details of the difference between the current snapshot and the previous snapshot, choose the change link to the left of the arrow (![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase")). A red arrow indicates an increase in memory usage, and a green arrow to indicates a decrease).
+-   To view details of the difference between the current snapshot and the previous snapshot, choose the change link to the left of the arrow (![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase")). A red arrow indicates an increase in memory usage, and a green arrow to indicates a decrease.
 
     > [!TIP]
-    >  To help identify memory issues more quickly, the diff reports are sorted by object types that increased the most in overall number (change link in **Objects (Diff)** column) or that increased the most in overall heap size (change link in **Heap Size (Diff)** column).
+    >  To help identify memory issues more quickly, the diff reports are sorted by object types that increased the most in overall number (click the change link in **Objects (Diff)** column) or that increased the most in overall heap size (click the change link in **Heap Size (Diff)** column).
 
--   To view details of only the selected snapshot, select the non-change link. 
+-   To view details of only the selected snapshot, click the non-change link. 
   
  The report appears in a separate window.   
   

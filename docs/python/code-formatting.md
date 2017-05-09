@@ -1,7 +1,7 @@
 ---
-title: "Formatting Code in Pythong Tools for Visual Studio | Microsoft Docs"
+title: Formatting Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,14 +32,14 @@ translation.priority.ht:
 
 # Formatting Python code
 
-Code formatting in Python Tools for Visual Studio (PTVS) version 2.0 and later lets you quick reformat code to match pre-configured formatting options.
+Visual Studio lets you quick reformat code to match pre-configured formatting options.
 
 - To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
 - To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
 
 Options are set through **Tools > Options > Text Editor > Python > Formatting** and its sub-tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; the other three sub-pages are defined in the following sections.
 
-PTVS also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph) command to the **Edit > Advanced** menu as described below.
+Python support in Visual Studio also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described below.
 
 ## Spacing
 
@@ -104,7 +104,7 @@ Examples for the various options are provided in the following tables.
 
 ## Wrapping
 
-**Wrapping** lets you set the **Maximum comment width** (default is 80), so that if the **Wrap comments that are too wide** option is set, PTVS will reformat comments to not exceed that width.
+**Wrapping** lets you set the **Maximum comment width** (default is 80), so that if the **Wrap comments that are too wide** option is set, Visual Studio reformats comments to not exceed that width.
 
 ```python
 # Wrapped to 40 columns
