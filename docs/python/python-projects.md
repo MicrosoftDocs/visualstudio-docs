@@ -1,7 +1,7 @@
 ---
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/10/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 In this topic:
 
-- [Adding files, assigning a startup file, and setting environments](#adding-file-assigning-a-startup-file-and-setting-environments)
+- [Adding files, assigning a startup file, and setting environments](#adding-files-assigning-a-startup-file-and-setting-environments)
 - [Project templates](#project-templates)
 - [Linked files](#linked-files)
 - [References](#references)

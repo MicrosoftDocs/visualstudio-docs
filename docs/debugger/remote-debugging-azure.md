@@ -31,16 +31,24 @@ translation.priority.mt:
 ---
 
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017
-You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
+You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
 
-    > [!CAUTION]
-    > Be sure to delete the Azure resources that you create when you have completed the steps in this tutorial. That way you can avoid incurring unnecessary charges.
+> [!WARNING]
+> Be sure to delete the Azure resources that you create when you have completed the steps in this tutorial. That way you can avoid incurring unnecessary charges.
+
+This topic shows how to:
+
+* Remote debug ASP.NET Core on an Azure App Service
+
+* Remote debug ASP.NET Core on an Azure VM
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (**File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)** . In the **ASP.NET Core** templates section, select **Web Application**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. Create a new ASP.NET Core application. (Choose **File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)**)
 
-2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+    In the **ASP.NET Core** templates section, select **Web Application**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
+
+3. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 

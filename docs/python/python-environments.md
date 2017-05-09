@@ -1,7 +1,7 @@
 ---
 title: "Python Environments in Python Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 4/25/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,11 +30,18 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Python Environments
+# Python environments
 
-Python code always runs within a particular Python *environment*, consisting of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. 
 
-The Python workload in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. An environment also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
+Note: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
+
+    - [Working with Python in Visual Studio](python-in-visual-studio.md)
+    - [Installing Python support in Visual Studio](installation.md)
+
+A Python *environment*, in which you always run Python code, consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+
+In Visual Studio, an environment also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor will automatically display a list of available libraries as well as the modules within those libraries.
 
 Oftentimes, developers use only a single, global Python environment but others need to manage multiple global environments, project-specific environments, and perhaps also virtual environments as explained in this topic:
 
@@ -77,7 +84,7 @@ In either case, the Python Environments window appears as a sibling tab to Solut
 
 ![Python Environments window](media/environments-default-view.png)
 
-In the example above, we have Python 3.4 (32-bit CPython) installed along with 32- and 64-bit versions of IronPython. The default environment in boldface is Python 3.4, which will be used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio but haven't installed a Python interpreter (ee [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above).
+The example above shows that Python 3.4 (32-bit CPython) is installed along with 32- and 64-bit versions of IronPython 2.7. In this case, the default environment in boldface is Python 3.4, which will be used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio but haven't installed a Python interpreter (ee [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above).
 
 > [!Tip]
 > When the **Python Environments* window is narrow, as shown above, the environments are listed on the top and the various tabs on the bottom. If you expand the window enough, however, you'll see a wide view that you may find more convenient to work with.
