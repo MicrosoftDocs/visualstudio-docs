@@ -56,9 +56,9 @@ The `rproject.rproj` file maintains certain R-specific project settings that are
 | Property | Default | Description |
 | --- | --- | --- |
 | Version | 1.0 | The version of R Tools for Visual Studio used to create the project. |
-| RestoreWorkspace | Default | Automatically load previous Workspace variables from `.RData` file in project directory. |
-| SaveWorkspace | Default | Save current workspace variables to `.RData` file in project directory when closing project. |
-| AlwaysSaveHistory | Default | Save current Interactive Window history to `.RHistory` in project directory when closing project. |
+| RestoreWorkspace | Default | Automatically load previous Workspace variables from the `.RData` file in the project directory. |
+| SaveWorkspace | Default | Save current workspace variables to the `.RData` file in the project directory when closing project. |
+| AlwaysSaveHistory | Default | Save current Interactive Window history to the `.RHistory` file in the project directory when closing project. |
 | EnableCodeIndexing | Yes | Determines whether to run a background indexing task to speed code searches. |
 | UseSpacesForTab | Yes | Determines whether to insert spaces (Yes) or a Tab character (No) when the Tab key is pressed in the editor. |
 | NumSpacesForTab | 2 | The number of spaces to insert if UseSpacesForTab is Yes. |
@@ -100,7 +100,7 @@ R Tools for Visual Studio adds a number of its own commands to the right-click m
 | Open Containing Folder | Opens Windows Explorer at the location of the selected file. | 
 | Add R Script | Creates and opens a new `.R` file with a default name. You can also use the **Add > New Item...** command to create `.R` files as well as a number of other file types. See below under [R-specific item templates](#r-specific-item-templates). |
 | Add R Markdown | Creates and opens new `.rmd` document with a default name. You can also use the **Add > New Item...** command to create `.rmd` files as well as a number of other file types. See below under [R-specific item templates](#r-specific-item-templates).  | 
-| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Adding a SQL stored procedure file to your project](sql-server.md#adding-a-sql-stored-procedure-file-to-your-project). | 
+| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Working with SQL Server stored procedures](sql-server.md#working-with-sql-server-stored-procedures). | 
 
 ## R-specific item templates
 

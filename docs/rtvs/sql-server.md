@@ -63,7 +63,7 @@ Once a connection is established, you can run queries and see results:
 The Transact-SQL editor supports a variety of other features, such as viewing the execution plan for the query, a query debugger, 
 There are many other features available within the Transact-SQL editor. FOr details, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
 
-## Working with SQL Server Stored Procedures
+## Working with SQL Server stored procedures
 
 [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services) (SQL Server 2016 and later) lets you embed and run R code from a T-SQL stored procedure. This means you can run R code SQL Server computer, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client.
 
