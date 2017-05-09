@@ -24,7 +24,7 @@ This topic surveys various sections of Visual Studio for Mac, providing a look a
 
 ## Installation
 
-Follow the steps in the [Installation](../installation.md) guide to download and Install Visual Studio for Mac.
+Follow the steps in the [Installation](~/installation.md) guide to download and Install Visual Studio for Mac.
 
 ## Language support
 

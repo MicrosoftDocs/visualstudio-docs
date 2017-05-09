@@ -32,7 +32,7 @@ With the project open in Visual Studio for Mac, right-click on the **Packages** 
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
-This launches the _Add Packages..._ window. Ensure that the Source drop-down, is set to `nuget.org`:
+This launches the _Add Packages…_ window. Ensure that the Source drop-down, is set to `nuget.org`:
 
 ![Source list drop-down](media/nuget-walkthrough-Source.png)
 
