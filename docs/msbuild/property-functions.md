@@ -94,6 +94,10 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
 
 -   System.Math  
 
+-   System.Runtime.InteropServices.OSPlatform
+
+-   System.Runtime.InteropServices.RuntimeInformation
+
 -   System.UInt16  
 
 -   System.UInt32  
@@ -190,6 +194,15 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
 |int BitwiseAnd(int first, int second)|Perform a bitwise `AND` on the first and second (first & second).|  
 |int BitwiseXor(int first, int second)|Perform a bitwise `XOR` on the first and second (first ^ second).|  
 |int BitwiseNot(int first)|Perform a bitwise `NOT` (~first).|  
+|bool IsOsPlatform(string platformString)|Specify whether the current OS platform is `platformString`. `platformString` must be a member of `OSPlatform`.|
+|bool IsOSUnixLike|True if current OS is a Unix system.|
+|string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
+|string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
+|string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
+|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for a file based on the current build file's location, or based on `startingDirectory`, if specified|
+|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate a file in either the directory specified or a location in the directory structure above that directory.|
+|string MakeRelative(string basePath, string path)|Attach `path` to `basePath`. `basePath` must be an absolute directory. Similar to `Path.Combine`.|
+|string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue|
 
 ##  Nested Property Functions  
  You can combine property functions to form more complex functions, as the following example shows.  
