@@ -51,9 +51,7 @@ To set up a Git repository, execute the following steps:
 
     ![Attempt to publish project to git](media/version-control-git7.png)
 
-9. Click **Okay**, and then **Publish** from the alert dialog: 
-
-    ![Start Publishing dialog](media/version-control-git8-sml.png)
+9. Click **Okay**, and then **Publish** from the alert dialog.
 
 10. If you have not already entered your Git credentials in Visual Studio for Mac preferences, enter them now. First, you need to create an Access Token, which is used in place of a password. Follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation to do this.
 

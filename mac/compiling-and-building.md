@@ -8,12 +8,11 @@ ms.topic: article
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 
-# Compiling and Building in Visual Studio for Mac
+# Compiling and building in Visual Studio for Mac
 
-Visual Studio for Mac can be used to basic explanation of compiling and building
-advantages of compiling and building
+Visual Studio for Mac can be used to build applications and create assemblies during the development of your project. It's important to compile and build your code early and often so that you can identify type mismatches and other compile-time errors.
 
-## Choosing a Build method:
+## Choosing a build method:
 
 ### Using the IDE
 

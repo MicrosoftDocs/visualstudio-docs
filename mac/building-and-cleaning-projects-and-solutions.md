@@ -8,11 +8,13 @@ ms.topic: article
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ---
 
-# Building and Cleaning Projects and Solutions
+# Building and cleaning projects and solutions
 
 Follow the steps in this topic to learn how to build, rebuilt, and clean your solution and project.
 
 ## To build, rebuild, or clean an entire solution
+
+To build, rebuild, or clean an entire solution:
 
 1. Select the Solution node in the Solution Pad:
 
@@ -22,9 +24,9 @@ Follow the steps in this topic to learn how to build, rebuilt, and clean your so
 
     ![](media/compiling-and-building-image2.png)
 
-    * **Build All** – Attempts to build all files within project that have changed since the most recent build.
-    * **Rebuild All** – Cleans the Solution and then builds it.
-    * **Clean All** – Removes all build products from your solution
+    * **Build All** – Attempts to build all files within project that have changed within the project since the most recent build.
+    * **Rebuild All** – Cleans the solution and then builds it.
+    * **Clean All** – Removes all build products from your solution.
 
 
 
