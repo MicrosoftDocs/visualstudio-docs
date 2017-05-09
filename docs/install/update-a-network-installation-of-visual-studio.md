@@ -2,7 +2,7 @@
 title: "Update a network-based installation of Visual Studio | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
 ms.date: "05/05/2017"
-ms.reviewer: ""
+ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
   - "vs-ide-install"
