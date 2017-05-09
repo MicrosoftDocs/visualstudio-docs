@@ -1,8 +1,8 @@
 ---
 title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/05/2017"
-ms.reviewer: ""
+ms.date: "05/06/2017"
+ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
   - "vs-ide-install"
@@ -53,14 +53,15 @@ vs_enterprise.exe --installPath C:\minVS ^
 vs_enterprise.exe --installPath C:\desktopVS ^
    --addProductLang fr-FR ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
-   --quiet --wait
+   --includeRecommended --quiet --wait
 ```
 
-  > [!NOTE]
-  >  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+> [!NOTE]
+>  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
-  * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
-```
+* Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
+
+```cmd
 vs_community.exe --layout C:\VS2017
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
@@ -84,7 +85,7 @@ vs_enterprise.exe --all --includeRecommended --includeOptional
 * Install a second, named instance of Visual Studio 2017 Professional on a machine with Visual Studio 2017 Community edition already installed, with support for Node.js development:
 ```
 vs_professional.exe --installPath C:\VSforNode ^
-   --add Microsoft.VisualStudio.Workload.Node --nickname VSforNode
+   --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
 ```
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance:

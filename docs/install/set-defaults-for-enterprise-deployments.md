@@ -1,7 +1,7 @@
 ---
 title: "Set defaults for enterprise deployments of Visual Studio | Microsoft Docs"
 description: "Domain policies and other configuration operations for enterprise deployment of Visual Studio."
-ms.date: "04/14/2017"
+ms.date: "05/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -46,7 +46,7 @@ You can set some of these policies using [command line options](use-command-line
 
 ## Registry keys
 
-There are a number of registry keys you can set. As soon as a policy value is discovered in the order below, the remaining keys are ignored.
+There are several locations where you can set enterprise defaults, to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored.
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
@@ -54,7 +54,7 @@ There are a number of registry keys you can set. As soon as a policy value is di
 
 Some registry values will be set automatically the first time they are used if not set already. This ensures that subsequent installs use the same values. These will be stored in the second registry key, `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`.
 
-You can set the following registry values in any of those keys above.
+You can set the following registry values.
 
 | **Name** | **Type** | **Default** | **Description** |
 | -------- | -------- | ----------- | --------------- |

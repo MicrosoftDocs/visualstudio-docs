@@ -1,8 +1,8 @@
 ---
 title: "Automatically apply product keys when deploying Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/10/2017"
-ms.reviewer: ""
+ms.date: "05/06/2017"
+ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
   - "vs-ide-install"
@@ -33,15 +33,15 @@ translation.priority.mt:
 You can apply your product key programmatically as part of a script used to automate the deployment of Visual Studio. Product keys can be set on a device programmatically during installation of Visual Studio or after an installation completed.
 
 ## Apply the license after installation
- You can activate an installed version of Visual Studio with a product key by using the storePID.exe utility on the target machines in silent mode. StorePID.exe is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+ You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 
- Run storePID.exe with elevated privileges, either by using a System Center agent or an elevated command prompt, followed by the product key (including the dashes) and the Microsoft Product Code (MPC). Please be sure to include the dashes in the product key. 
+ Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt, followed by the product key (including the dashes) and the Microsoft Product Code (MPC). Please be sure to include the dashes in the product key.
 
  ```
  StorePID.exe [product key including the dashes] [MPC]
  ```
 
- This is an example command line for applying the license for Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key "AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE", assuming its installation into a default location:
+ This is an example command line for applying the license for Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, assuming its installation into a default location:
 
  ```
  C:\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
@@ -55,18 +55,18 @@ You can apply your product key programmatically as part of a script used to auto
 | Visual Studio Professional 2017      | 08862 |
 | Visual Studio Test Professional 2017 | 08866 |
 
-If StorePID.exe successfully applied the product key, it will return 0. If it encounters errors, it will return a code depending on the error condition:
+If `StorePID.exe` successfully applied the product key, it will return an `%ERRORLEVEL%` of 0. If it encounters errors, it will return a code depending on the error condition:
 
-| Error                   | Code |
-|-------------------------|------|
-| PID_ACTION_SUCCESS      | 0    |
-| PID_ACTION_NOTINSTALLED | 1    |
-| PID_ACTION_INVALID      | 2    |
-| PID_ACTION_EXPIRED      | 3    |
-| PID_ACTION_INUSE        | 4    |
-| PID_ACTION_FAILURE      | 5    |
-| PID_ACTION_NOUPGRADE    | 6    |
+| Error                     | Code |
+|---------------------------|------|
+| `PID_ACTION_SUCCESS`      | 0    |
+| `PID_ACTION_NOTINSTALLED` | 1    |
+| `PID_ACTION_INVALID`      | 2    |
+| `PID_ACTION_EXPIRED`      | 3    |
+| `PID_ACTION_INUSE`        | 4    |
+| `PID_ACTION_FAILURE`      | 5    |
+| `PID_ACTION_NOUPGRADE`    | 6    |
 
-## See Also  
+## See Also
  * [Install Visual Studio](../install/install-visual-studio.md)
  * [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)
