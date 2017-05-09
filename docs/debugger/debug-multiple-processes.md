@@ -42,17 +42,6 @@ translation.priority.ht:
 # Debug Multiple Processes
 Here’s how to start debugging processes, switch between processes, break and continue execution, step through source, stop debugging, and terminate or detach from processes.  
   
-##  <a name="BKMK_Contents"></a> Contents  
- [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
-  
- [Find the source and symbol (.pdb) files](#BKMK_Find_the_source_and_symbol___pdb__files)  
-  
- [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
-  
- [Switch processes, break and continue execution, step through source](#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
-  
- [Stop debugging, terminate or detach from processes](#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
-  
 ##  <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> Configure the execution behavior of multiple processes  
  By default, when multiple processes are running in the debugger, the breaking, stepping, and stopping debugger commands usually affect all the processes. For example, when one process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
   

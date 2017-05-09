@@ -1,7 +1,7 @@
 ---
 title: "How to: Switch to Another Thread While Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -38,9 +38,9 @@ translation.priority.ht:
 # How to: Switch to Another Thread While Debugging
 When you debug a multithreaded application, you can use any one of several methods to switch the context from the thread that you have been working with to another thread.  
   
-### To switch to any thread that appears in the Threads window  
+### To switch to any thread that appears 
   
--   Double-click the thread.  
+-   In the **Threads** or **Parallel Watch** window, double-click the thread.  
   
 ### To switch to a thread in a source window  
   
