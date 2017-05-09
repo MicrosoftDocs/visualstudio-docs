@@ -83,7 +83,7 @@ To create a region of your own, surround the desired code with comments that end
  
 By default, Visual Studio inserts spaces when you press the Tab key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages-tabs).
 
-# Code navigation
+## Code navigation
 
 Code navigation gives you quick access to the source code of your R program and its libraries. These navigation features keep you in the flow of your work rather than having to take the time to search for and manually navigate to the code of interest.
 
@@ -127,7 +127,7 @@ RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments 
 
 ![Animation of inserting a Roxygen comment](media/editing-roxygen-comments.gif)
 
-# Editor options
+## Editor options
 
 Editor-specific options are set through the **Tools > Options** command, navigating to **Text Editor > R**, or use the shortcut command **R Tools > Editor Options...**.
 
