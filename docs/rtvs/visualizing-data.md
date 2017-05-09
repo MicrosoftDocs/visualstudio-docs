@@ -77,7 +77,7 @@ The plot window's toolbar holds applicable commands, most of which are also avai
 | ![Save as image button](media/plotting-toolbar-05-save-as-image.png)| Save As Image | Prompts for a filename and saves the current plot (the window contents, at the window size) to an image file. Available formats are `.png`, `.jpg`, `.bmp`, and `.tif`. |
 | ![Save as PDF button](media/plotting-toolbar-06-save-as-pdf.png)| Save As PDF | Saves the current plot to a PDF file, using the current window size. The plot will re-render if the PDF is scaled. |
 | ![Copy as bitmap button](media/plotting-toolbar-07-copy-as-bitmap.png)| Copy As Bitmap | Copies the plot to the clipboard as a raster bitmap, using the current window size. | 
-| ![Copy as metafile button](media/plotting-toolbar-08-copy-as-metafile.png)| Copy As Metafile | Copies the plot to the clipboard as [Windows metafile](https://en.wikipedia.org/wiki/Windows_Metafile) (Wikipedia). | 
+| ![Copy as metafile button](media/plotting-toolbar-08-copy-as-metafile.png)| Copy As Metafile | Copies the plot to the clipboard as a [Windows metafile](https://en.wikipedia.org/wiki/Windows_Metafile) (Wikipedia). | 
 | ![Remove plot button](media/plotting-toolbar-09-remove-plot.png)| Remove Plot | Removes the current plot from the history. |
 | ![Clear all plots button](media/plotting-toolbar-10-clear-all-plots.png) | Clear All Plots | Removes all plots from the history (prompts for confirmation). |
 
