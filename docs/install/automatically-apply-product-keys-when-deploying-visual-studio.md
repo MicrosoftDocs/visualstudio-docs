@@ -43,8 +43,8 @@ You can apply your product key programmatically as part of a script used to auto
 
  This is an example command line for applying the license for Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, assuming its installation into a default location:
 
- ```
- C:\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+ ```cmd
+ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
  ```
 
  The following table lists the MPC codes for each edition of Visual Studio:

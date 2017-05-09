@@ -1,8 +1,8 @@
 ---
 title: "Special considerations for installing Visual Studio in an offline environment | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
-ms.date: "05/05/2017"
-ms.reviewer: ""
+ms.date: "05/09/2017"
+ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
   - "vs-ide-install"
@@ -33,7 +33,7 @@ translation.priority.mt:
 ---
 # Special considerations for installing Visual Studio in an offline environment
 
-Visual Studio is primarily designed for installation from an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable. 
+Visual Studio is primarily designed for installation from an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 
 ## Create a network installation layout
 * For details, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
@@ -46,19 +46,27 @@ You can install the certificates on the client by manually double-clicking the c
 To script the installation of the certificates, follow these steps:
 
 1. Copy certmgr.exe to the installation share (for example, `\server\share\vs2017`). `certmgr.exe` is included with the Windows SDK, which can be installed as an optional component in the _Universal Windows Platform development_ workload. (ex: `"C:\Program Files (x86)\Windows Kits\10\bin\x86\certmgr.exe"`)
+
 2. Create a batch file with the following commands:
-   ```
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Time-Stamp PCA" -s -r LocalMachine CA
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
-   \\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
-   ```
+
+```cmd
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Time-Stamp PCA" -s -r LocalMachine CA
+
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\manifestCounterSignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Code Signing PCA" -s -r LocalMachine CA
+
+\\server\share\vs2017\certmgr.exe -add -c \\server\share\vs2017\certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+```
+
 3. Run the batch file on the client from an administrator command shell or elevated process.
 
 ### Why are the certificates from the `certificates` folder not installed automatically?
-When a signature is verified in an online environment, Windows APIs are used to download and add the certificates to the system.  Verification that the certificate is trusted and allowed via administrative settings occurs during this process.  This verification process cannot occur in most offline environments.  Installing the certificates manually allows the user to ensure the certificates are trusted and meet administrator requirements.
+When a signature is verified in an online environment, Windows APIs are used to download and add the certificates to the system. Verification that the certificate is trusted and allowed via administrative settings occurs during this process. This verification process cannot occur in most offline environments. Installing the certificates manually allows the user to ensure the certificates are trusted and meet administrator requirements.
 
 ## Install Visual Studio
 Having installed the certificates, deployment of Visual Studio can proceed offline without additional special steps, using the [instructions here](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation).
