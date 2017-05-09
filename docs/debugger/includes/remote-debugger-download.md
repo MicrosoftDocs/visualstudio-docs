@@ -14,7 +14,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the the remote tools.
+1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
     |-|-|-|

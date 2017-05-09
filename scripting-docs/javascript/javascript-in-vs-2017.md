@@ -59,7 +59,7 @@ By default this is `false`, as TypeScript compiles to JavaScript, and this is ne
  The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
  - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined above.
  - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
- - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](/visualstudio/ide/javascript-intellisense.md#Auto))
+ - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense#Auto))
 
 In order to convert JavaScript files to CommonJS modules and place them in an `./out` folder, you could use the following `tsconfig.json` file.
 
@@ -117,7 +117,7 @@ exports.default = Subscription_1.Subscription;
 
 ## Better IntelliSense
 
-JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](/visualstudio/ide/javascript-intellisense.md).
+JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](/visualstudio/ide/javascript-intellisense/).
 
 ## <a name="JSX"></a> JSX syntax support
 
@@ -210,7 +210,7 @@ Previously it was fairly complicated to understand at any given moment which fil
 Sometimes it was desirable to have all your files in scope, other times it wasn't, but this lead to complex configurations involving manual reference management.
 Going forward you no longer need to think about reference management and so you don't need triple slash references comments or `_references.js` files.
 
-See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense.md) page for more info on how IntelliSense works.
+See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense/) page for more info on how IntelliSense works.
 
 ## VSDoc
 XML documentation comments, sometimes referred to as VSDocs, could previously be used to decorate your source code with additional data that would be used to buff up IntelliSense results.

@@ -1,7 +1,7 @@
 ---
 title: "Remote Debugging in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/03/17"
+ms.date: "04/03/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
