@@ -34,7 +34,7 @@ translation.priority.ht:
 
 Thank you for installing R Tools for Visual Studio (RTVS)! Please check it out and let us know what you think using the links under [Resources](#resources) below.
 
-![RTVS Screenshot](media\installer_screenshot.png)
+![RTVS Screenshot](media/installer-screenshot.png)
 
 ## Resources
 

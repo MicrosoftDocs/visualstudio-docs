@@ -132,6 +132,6 @@ In the example below, the solution contains an R project with a model built usin
 The project highlighted with boldface is the "startup" project for the solution; to change it, right-click a different project and select **Set as startup project**.
 
 > [!Note]
-> At present, there isn't any explicit R to C#/C++ language integration in place (as there is for Python, see [Creating a C++ extension for Python](../python/cpp-and-python.mdd)).  However there are libraries available that provide C# and C++ bridges for R.
+> At present, there isn't any explicit R to C#/C++ language integration in place (as there is for Python, see [Creating a C++ extension for Python](../python/cpp-and-python.md)).  However there are libraries available that provide C# and C++ bridges for R.
 
 For more details on managing projects and solutions in general, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).

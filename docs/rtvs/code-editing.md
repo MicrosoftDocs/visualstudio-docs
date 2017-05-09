@@ -65,7 +65,7 @@ To change this behavior, see the **Advanced > Syntax check** setting under [edit
 
 ## Editing and organizing your code
 
-As you type code, RTVS provides auto-completion as described on the [IntelliSense](intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
+As you type code, RTVS provides auto-completion as described on the [IntelliSense](code-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
 
 ![Animation of inline formatting](media/editing-inline-formatting.gif)
 

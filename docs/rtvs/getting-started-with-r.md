@@ -37,7 +37,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 - [Create an R project](#create-an-r-project)
 - [Explore the Interactive window and IntelliSense](#explore-the-interactive-window-and-intellisense)
 - [Experience code editing features](#experience-code-editing-features)
-- [Debugging your code](#degugging-your-code)
+- [Debugging your code](#debugging-your-code)
 - [Next steps](#next-steps)
 
 ## Create an R project
@@ -154,7 +154,7 @@ There's more you can do in the editor. For details, see [editing code](code-edit
 
 ## Debugging your code
 
-One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer](variable-explorer.md) and the [Data Table Viewer](data-table-viewer.md). Here, let's just take a first look at debugging.
+One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer and Data Table Viewer](variable-explorer.md). Here, let's just take a first look at debugging.
 
 1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools > Session > Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you make sure that you start a debugging session with no pre-existing data (if that's what you want!). Note that this doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
 

@@ -95,6 +95,6 @@ Offline installation is suitable for computers that are not connected to the Int
 ## See also
 
 - [Getting started with R](getting-started-with-r.md)
-- [R Tools sample projects](samples.md)
-- [Getting help](getting-help.md)
+- [R Tools sample projects](getting-started-samples.md)
+- [Getting help](getting-started-help.md)
 - [Option settings](options.md)
