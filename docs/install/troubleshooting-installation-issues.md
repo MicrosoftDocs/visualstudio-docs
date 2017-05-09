@@ -72,7 +72,10 @@ As a last resort, you can run InstallCleanup.exe. InstallCleanup.exe is a utilit
    * On the **Start** menu, click **Run** (Start + R).
    * Type **cmd**.
    * Right-click **Command Prompt**, and then choose **Run as administrator**.
-3. Type the full path of the InstallCleanup.exe utility, and pass the following command line switch: -f. By default, the path of the utility is as follows:<br/>```C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe```
+3. Type the full path of the InstallCleanup.exe utility, and pass the following command line switch: -f. By default, the path of the utility is as follows:
+   ```
+   C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
+   ```
 4. Rerun the bootstrapper that's described in Step 3.
 5. Try to install or update Visual Studio again.
 

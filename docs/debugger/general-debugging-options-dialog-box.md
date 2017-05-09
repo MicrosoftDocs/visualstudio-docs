@@ -109,6 +109,12 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
  **Allow source server for partial trust assemblies (Managed only)**  
  When source server support is enabled, this setting overrides the default behavior of not retrieving sources for partial trust assemblies.  
+
+ **Enable source link support**  
+ Tells the Visual Studio debugger to download source files for .pdb files that contain Source Link information. For more information about Source Link, see the [Source Link Specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
+
+> [!IMPORTANT]
+>  Because Source Link will download files using http or https, make sure you trust the .pdb file.  
   
  **Highlight entire line for breakpoints and current statement**  
  When the debugger highlights a breakpoint or current statement, it highlights the entire line.  
@@ -194,6 +200,9 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
  **Allow precompiling (Native only)**  
  Precompiling is allowed.  
+
+ **Show run to click button in editor while debugging**
+ When this option is selected, the [Run execution to here](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
