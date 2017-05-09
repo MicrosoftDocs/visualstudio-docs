@@ -53,10 +53,14 @@ As these entries are not stored in the global registry, there are special instru
 
 1. If you have an open instance of Visual Studio 2017, close it.
 2. Start `regedit.exe`.
-3. Select the ``HKEY_LOCAL_MACHINE`` node.
-4. From the Regedit main menu, select **File -> Load Hive...** and then select the private registry file, which is stored in the **AppData\Local** folder. For example: <br/><br/>```%localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin```
-<br/><br/>
-(```<config>``` corresponds to the instance of Visual Studio that you would like to browse.)
+3. Select the `HKEY_LOCAL_MACHINE` node.
+4. From the Regedit main menu, select **File -> Load Hive...** and then select the private registry file, which is stored in the **AppData\Local** folder. For example:
+   ```
+   %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
+   ```
+
+> [!NOTE]
+> `<config>` corresponds to the instance of Visual Studio that you would like to browse.
 
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 

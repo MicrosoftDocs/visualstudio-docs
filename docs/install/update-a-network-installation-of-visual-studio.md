@@ -59,6 +59,7 @@ Depending on how your network environment is configured, an update can either be
 > [!TIP]
 > For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).
 
+
 ## See also
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
