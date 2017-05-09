@@ -1,7 +1,7 @@
 ---
-title: "Azure Remote Debugging with Python Tools for Visual Studio | Microsoft Docs"
+title: Azure Remote Debugging with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Remotely Debugging Python Code on Azure
 
-Python support in Visual Studio includes the ability to remotely debugging Python code that's running on Azure App Service. Unlike simple remote debugging, the target machine in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated `web.debug.config` file. Remote debugging is also enabled when you publish a Debug configuration of your project as described on [Publishing to Azure App Service](template-web.md#publishing-to-azure-app-service).
+[Python support in Visual Studio](installation.md) includes the ability to remotely debugging Python code that's running on Azure App Service. Unlike simple remote debugging, the target machine in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated `web.debug.config` file. Remote debugging is also enabled when you publish a Debug configuration of your project as described on [Publishing to Azure App Service](template-web.md#publishing-to-azure-app-service).
 
 Because Azure remote debugging uses web sockets, sockets must be enabled for your App Service through the [Azure portal](https://portal.azure.com) by going to **Settings > Application settings** and turning **General settings > Web sockets** to **On**, then selecting **Save** to apply the change. (Note that the **Debugging** settings do not apply to debugging Python.)
 

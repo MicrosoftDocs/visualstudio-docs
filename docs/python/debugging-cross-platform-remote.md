@@ -192,4 +192,4 @@ Visual Studio prompts you about potential certificate issues when connecting ove
     ![SSL certificate hostname warning](media/remote-debugging-ssl-warning2.png)
 
 > [!Warning]
-> At present, Visual Studio 2017 Preview will hang when you ignore these warnings. Be sure to correct all problems before attempting to connect.
+> At present, Visual Studio 2017 hangs when you ignore these warnings. Be sure to correct all problems before attempting to connect.

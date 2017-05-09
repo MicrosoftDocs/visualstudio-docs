@@ -1,7 +1,7 @@
 ---
-title: "Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs"
+title: Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,13 +32,16 @@ translation.priority.ht:
 
 # Debugging Python and C++ Together
 
-Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required (see [Creating a C++ Extension for Python](cpp-and-python.md) for an example. Visual Studio (when using Python Tools for Visual Studio 2.0 and later) provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
+Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required (see [Creating a C++ Extension for Python](cpp-and-python.md) for an example. Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 
 For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s).
 
 > [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
+
+> [!Note]
+> Mixed mode debugging is not available with Python Tools for Visual Studio 1.x.
 
 ## Enabling mixed-mode debugging
 

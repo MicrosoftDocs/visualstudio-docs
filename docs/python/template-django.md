@@ -1,7 +1,7 @@
 ---
-title: "Django Web Project Template in Python Tools for Visual Studio | Microsoft Docs"
+title: Django Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.ht:
 
 # Django Web Project Template
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python Tools for Visual Studio (PTVS) provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
 
-PTVS provides full IntelliSense for Django projects:
+Visual Studio provides full IntelliSense for Django projects:
 
 - Context variables passed into the template:
 
@@ -51,7 +51,7 @@ PTVS provides full IntelliSense for Django projects:
     ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
 
-PTVS also provides full [debugging support](debugging.md) for Django projects: 
+Visual Studio also provides full [debugging support](debugging.md) for Django projects: 
 
 ![Breakpoints](media/template-django-debugging.png)
 
