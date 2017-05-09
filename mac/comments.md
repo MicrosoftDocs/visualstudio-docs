@@ -9,7 +9,7 @@ ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
 
 # Comments
 
-When debugging or experimenting with code, it can be very useful to comment a block of code temporarily.
+When debugging or experimenting with code, It can be useful to comment blocks of code either temporarily or long term. 
 
 To comment out an entire block of code:
 
@@ -23,7 +23,7 @@ These methods can be used to comment and uncomment sections of code. In C# files
 
  ![multi-level comments](media/source-editor-image8.png)
 
-Comments are also useful for documenting code for future developers that may interact with it. These are usually done in the form of multi-line comments, which is added in the following way in each language:
+Comments are also useful for documenting code for future developers that may interact with it. These are usually done in the form of multi-line comments, which are added in the following way in each language:
 
 **C#**
 

@@ -8,24 +8,25 @@ ms.topic: article
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 
-# Common Keyboard Shortcuts in Visual Studio for Mac
+# Common keyboard shortcuts in Visual Studio for Mac
 
-## Show Code Generation Window
+## Show code generation window
 
-This contextually generates code.
+
+This contextually generates code:
 
  **&#8984; + 1** 
 
 ![This contextually generates code](media/keyboard-shortcuts-image8.png)
 
-## Autocomplete
+## Autocomplete 
 
 `ctrl + /` 
 
 
-## Quick fixes and Actions
+## Quick fixes and actions
 
-Displays [refactoring](~/refactoring.md) context actions. 
+Displays [refactoring](~/refactoring.md) context actions:
 
 `Option + Enter`
 
@@ -37,25 +38,25 @@ Displays [refactoring](~/refactoring.md) context actions.
 
 ## File Switcher
 
-Allows quick switching between files
+Allows quick switching between files:
 
 `ctrl + tab`
 
-## Move Lines Around in Editor
+## Move lines around in Editor
 
 `alt up / alt down` 
 
-Use the Alt-Up command to move the current line or current selected lines up, and use the Alt-Down command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scopes.
+Use the Alt-Up command to move the current line or current selected lines up, and use the Alt-Down command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scope.
 
-## Word Navigation
+## Word navigation
 
-Moves the caret to the next or previous word. 
+Moves the caret to the next or previous word:
 
 `&#8984; + Left/Right`
 
 ## Expands the Selection
 
-Expands word, sub-expressions, statement, and line member selection in a logical way
+Expands word, sub-expressions, statement, and line member selection in a logical way:
 
 `alt shift up` to select
 `alt shift down` to de-select

@@ -1,6 +1,6 @@
 ---
 title: Refactoring
-description: Re-organising code in Visual Studio for Mac is made simple through the use of Source Analysis.
+description: Re-organizing code in Visual Studio for Mac is made simple through the use of Source Analysis.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -10,15 +10,15 @@ ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 
 # Refactoring
 
-Refactoring code is a way to rearrange, restructure, and clarify existing code while still ensuring that the overall behaviour of the code does not change. 
+Refactoring code is a way to rearrange, restructure, and clarify existing code while still ensuring that the overall behavior of the code does not change.
 
-It produces a healthier code base, making it much more useable, readable, and maintainable for you or any other developer or user that may refer to the code.
+It produces a healthier code base, making it much more useable, readable, and maintainable for you or any other developer or user that might refer to the code.
 
 Visual Studio for Mac's integration with Roslyn, Microsoft’s open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
 
 ## Renaming 
 
-The *Rename* refactoring command can be used on any code identifier (eg. a class name, property name etc.) to find all occurrences of that identifier and change them. To rename a symbol, right-click on it and choose **Refactor > Rename**, or the **Cmd + R** keybinding:
+The *Rename* refactoring command can be used on any code identifier (for example, a class name, property name etc.) to find all occurrences of that identifier and change them. To rename a symbol, right-click on it and choose **Refactor > Rename**, or the **Cmd + R** key binding:
 
 ![Rename menu item](media/refactoring-renaming1.png)
 
@@ -26,11 +26,11 @@ This will highlight the symbol and any references to it. When you start typing a
 
  ![Renaming and identifier](media/refactoring-renaming2.png)
 
-## Context Actions
+## Context actions
 
-Context Actions allow you to inspect any C# code, and see all possible refactoring options. 
+Context actions allow you to inspect any C# code, and see all possible refactoring options. 
 
-The **Resolve** and **Refactor** context items are combined into a single *Quick Fix…* item that will provide you with all the available Context Actions:
+The **Resolve** and **Refactor** context items are combined into a single *Quick Fix…* item that will provide you with all the available Context actions:
 
 ![Display Context Items](media/refactoring-context-action.png)
 
@@ -40,7 +40,7 @@ Alternatively, you can press **Option + Enter** anywhere in your code:
 
 ![Option Enter Context items](media/refactoring-image2a.png)
 
-To enable these option, you must select *Enable source analysis of open files* in the options **Visual Studio for Mac > Preferences > Text Editor > Source Analysis**:
+To enable these options, you must select *Enable source analysis of open files* in the options **Visual Studio for Mac > Preferences > Text Editor > Source Analysis**:
 
  ![Enabling Source analysis](media/refactoring-options.png)
 
@@ -48,11 +48,11 @@ There are over 100 possible actions that can be suggested, which are enabled or 
 
  ![C# Source Analysis actions](media/refactoring-image3a.png)
 
-### Common Context Actions
+### Common context actions
 
 Some of the mostly commonly used context actions are explained below.
 
-#### Extract Method
+#### Extract method
 
 The extract method refactoring operation allows you to create a new method by extracting a selection of code in an existing member. This action will do two things:
 
@@ -82,7 +82,7 @@ The extract method refactoring operation allows you to create a new method by ex
 3. Use the arrow keys to select where the new method should be placed in your code.
 
 
-#### Encapsulate Field
+#### Encapsulate field
 
 The Encapsulate Field operation allows you to create a property from an existing field, and updates your code to reference the newly created property. By creating a property that encapsulates your field, you are disallowing direct access to your public field, meaning that other objects can't modify it.
 
@@ -92,11 +92,11 @@ This action will do the following:
 * Generates a getter and setter for the field (unless the field is read-only, in which case it will only create a getter).
 
 
-## Source Analysis
+## Source analysis
 
-Source analysis will analyse your code on the fly by underlining potential errors and style violations, and providing auto fixes as context actions. 
+Source analysis will analyze your code on the fly by underlining potential errors and style violations, and providing auto fixes as context actions. 
 
-You can view all results of the source analysis for any file, at any time by viewing the scroll bar on the right side of the text editor:
+You can view all results of the source analysis for any file, at any time, by viewing the scroll bar on the right side of the text editor:
 
  ![Source Analysis sidebar](media/refactoring-image4a.png)
 

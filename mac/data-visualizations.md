@@ -8,10 +8,9 @@ ms.topic: article
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 ---
 
-# Data Visualizations
+# Data visualizations
 
-Visual Studio for Mac includes UI support for the debugger allowing visualizations of the values of a variable, field or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
-
+Visual Studio for Mac includes UI support for the debugger, allowing visualizations of the values of a variable, field, or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
 
 Visualizers in the debug  **Local** pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
 
@@ -35,10 +34,10 @@ A Rectangle/RectangleF, or CGRect in iOS and Mac, will display the dimensions an
 
  ![Rectangle Visualization](media/data-visualizations-image12.png)
   
-## Co-ordinate
-Co-ordinates are plotted on a map, with the location pinned to the center:
+## Coordinate
+Coordinates are plotted on a map, with the location pinned to the center:
 
-![Co-ordinate Visualization](media/data-visualizations-image13.png)
+![Coordinate Visualization](media/data-visualizations-image13.png)
 
 ## Color
 This will display UIColor, CGColor, and Color properties, depicting the color preview, RGBA components, Hue-Saturation-Lightness values, and the hex value of the color:
@@ -61,8 +60,8 @@ The visualizer will display an `NSBezierPath`:
  
 
 ## String
-A string will be displayed of less than 100 characters will be displayed in full, without a preview. Longer strings will be displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button allowing the string value to be edited either in the preview or in the String Value Editor, shown beneath.
 
+A string of less than 100 characters will be displayed in full, without a preview. Longer strings will be displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button, allowing the string value to be edited either in the preview or in the String Value Editor, shown below:
 
 ![String Visualization](media/data-visualizations-image17.png)
 

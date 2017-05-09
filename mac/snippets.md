@@ -7,15 +7,15 @@ ms.topic: article
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
 
-# Code Snippets 
+# Code snippets 
 
-Code snippets, often referred to as _code templates_, are useful for efficient programming as they allow the insertion and editing of pre-written blocks of code. Using code snippets can be particularly convenient for quickly adding common patterns, or even for learning new patterns when you the developer is unsure of syntax. There are templates provided for C#, F#, HTML XML, Python, and Razor.
+Code snippets, often referred to as _code templates_, are useful for efficient programming as they allow the insertion and editing of pre-written blocks of code. Using code snippets can be particularly convenient for quickly adding common patterns, or even for learning new patterns when as the developer you are unsure of syntax. There are templates provided for C#, F#, HTML, XML, Python, and Razor.
 
 This section will explain how to create, insert, and use snippets in code.
 
-## Inserting a Snippet
+## Inserting a snippet
 
-There are some different ways to add code snippets, which are described below:
+There are some different ways to add code snippets, some of which are described below:
  
 * **Tab Expansion** – Start typing the template name, select it from the list and press **TAB TAB** to add it:
  
@@ -25,7 +25,7 @@ There are some different ways to add code snippets, which are described below:
 
  ![Code snippets in Toolbox](media/source-editor-image14.png)
 
-* **Insert Templates command** – There is currently no default keybinding set for inserting a template. To create one, browse to **Visual Studio > Preferences… > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
+* **Insert Templates command** – There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences… > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
 
  ![Inset Template command](media/source-editor-image15.png)
 

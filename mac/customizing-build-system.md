@@ -10,11 +10,9 @@ ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 
 # Customizing the Build System
 
-MSbuild is a build engine developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has it's own implementation of Microsoft's Build Engine (MSBuild), called **xbuild**.
+MSbuild is a build engine developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has it's own implementation of Microsoft's Build Engine (MSBuild), called **xbuild**. However, xbuild has been phased out, in favor of using MSBuild on all operating systems.
 
-**xbuild** is primarily used for build Xamarin projects in Visual Studio for Mac. However, Xamarin will be phasing out xbuild out, in favor of moving towards using MSBuild on all operating systems.
-
-In this document, when a reference is made to MSBuild, it is safe to assume that this also applies to xbuild.
+**MSbuild** is primarily used for as the build system for projects in Visual Studio for Mac. 
 
 MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables, and achieves this output by invoking tools such as the compiler. 
 
