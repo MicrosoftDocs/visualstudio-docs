@@ -57,8 +57,8 @@ The `rproject.rproj` file maintains certain R-specific project settings that are
 | --- | --- | --- |
 | Version | 1.0 | The version of R Tools for Visual Studio used to create the project. |
 | RestoreWorkspace | Default | Automatically load previous Workspace variables from the `.RData` file in the project directory. |
-| SaveWorkspace | Default | Save current workspace variables to the `.RData` file in the project directory when closing project. |
-| AlwaysSaveHistory | Default | Save current Interactive Window history to the `.RHistory` file in the project directory when closing project. |
+| SaveWorkspace | Default | Save current workspace variables to the `.RData` file in the project directory when closing a project. |
+| AlwaysSaveHistory | Default | Save current Interactive Window history to the `.RHistory` file in the project directory when closing a project. |
 | EnableCodeIndexing | Yes | Determines whether to run a background indexing task to speed code searches. |
 | UseSpacesForTab | Yes | Determines whether to insert spaces (Yes) or a Tab character (No) when the Tab key is pressed in the editor. |
 | NumSpacesForTab | 2 | The number of spaces to insert if UseSpacesForTab is Yes. |

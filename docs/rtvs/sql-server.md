@@ -61,7 +61,7 @@ Once a connection is established, you can run queries and see results:
 ![SQL window query results](media/sql-query-results.png)
 
 The Transact-SQL editor supports a variety of other features, such as viewing the execution plan for the query, a query debugger, 
-There are many other features available within the Transact-SQL editor. FOr details, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
+There are many other features available within the Transact-SQL editor. For details, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
 
 ## Working with SQL Server stored procedures
 

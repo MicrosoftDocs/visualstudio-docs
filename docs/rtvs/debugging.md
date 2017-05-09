@@ -62,7 +62,7 @@ Then you set a breakpoint on the `return` statement. Now, in the interactive win
 
 ## Environment browser in the interactive window
 
-When you're stopped in the debugger, you're also stopped at the Environment Browser prompt in the [interactive window](interactive-repl.md). The prompt appears as `Browse[n]>` where n is [JFLAM: what is the n?].
+When you're stopped in the debugger, you're also stopped at the Environment Browser prompt in the [interactive window](interactive-repl.md). The prompt appears as `Browse[n]>` where n is a number.
 
 The Environment Browser supports a number of special commands:
 
