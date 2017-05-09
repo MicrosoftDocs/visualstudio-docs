@@ -47,7 +47,9 @@ Sourcing: c:\proj\rproject1\rproject1\script.R
 Sourcing: c:\proj\rproject1\rproject1\Settings.R
 ```
 
-You can also attach the debugger from the interactive window directly using the **R Tools > Session > Attach Debugger** command, the **Debug > Attach to R Interactive** command, or the **Attach Debugger** command on the interactive window's toolbar. The debugger will then work on all files that have been sourced to the interactive window, including those previously launched in the debugger, any sourced with the `source` function, and any sourced using the interactive window's sourcing commands (see [Interactive window toolbar commands](interactive-repl.md#toolbar-commands)).
+You'll notice that we are using the `rtvs::debug_source` function to source the script. This is required because RTVS needs to modify your code in preparation for debugging. If you are using any of the RTVS commands (e.g., by right-clicking on a file in Solution Explorer and running the **Source selected file(s)** command), we'll automatically redirect the call to `rtvs::debug_source` if the debugger is attached.
+
+You can also manually attach the debugger from the interactive window directly using the **R Tools > Session > Attach Debugger** command, the **Debug > Attach to R Interactive** command, or the **Attach Debugger** command on the interactive window's toolbar. Once you have done so, it is your responsiblity to source the files that you want to debug. If you want to manually source the files, make sure that you use `rtvs::debug_source` and not the regular `source` command in R. You may find that this works in _some_ cases, but we cannot guarantee that debugging will work in all cases unless you use the `rtvs::debug_source` command.
 
 This connection between the debugger and the interactive window makes it easier to do things like calling (and debugging) a function with different parameter values. For example, supposed you have a function like the following in a sourced file (meaning it's been loaded into the session):
 
