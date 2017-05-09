@@ -56,15 +56,15 @@ The `rproject.rproj` file maintains certain R-specific project settings that are
 | Property | Default | Description |
 | --- | --- | --- |
 | Version | 1.0 | The version of R Tools for Visual Studio used to create the project. |
-| RestoreWorkspace | Default | |
-| SaveWorkspace | Default | |
-| AlwaysSaveHistory | Default | |
+| RestoreWorkspace | Default | Automatically load previous Workspace variables from `.RData` file in project directory. |
+| SaveWorkspace | Default | Save current workspace variables to `.RData` file in project directory when closing project. |
+| AlwaysSaveHistory | Default | Save current Interactive Window history to `.RHistory` in project directory when closing project. |
 | EnableCodeIndexing | Yes | Determines whether to run a background indexing task to speed code searches. |
 | UseSpacesForTab | Yes | Determines whether to insert spaces (Yes) or a Tab character (No) when the Tab key is pressed in the editor. |
 | NumSpacesForTab | 2 | The number of spaces to insert if UseSpacesForTab is Yes. |
 | Encoding | UTF-8 | The default encoding for `.R` files. |
-| RnwWeave | Sweave | |
-| LaTeX | pdfLaTeX | |
+| RnwWeave | Sweave | Package to use when weaving a Rnw file. |
+| LaTeX | pdfLaTeX | Library to use when converting RMarkdwon to PDF. |
 
 ### Converting a folder of files to an R project
 
