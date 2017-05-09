@@ -1,7 +1,7 @@
 ---
 title: "Quick Actions | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/05/2017"
+ms.date: "05/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -335,46 +335,46 @@ Dim s As String = $"My string with {num} in the middle"
 ```
 
 ### Remove merge conflict markers
-These Quick Actions enable you to resolve merge conflicts by "taking a change", which removes the conflicting code and markers.
+These Quick Actions enable you to resolve merge conflicts by "taking a change", which removes the conflicting code and markers. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - resolve merge conflicts](../ide/media/vside-refactoring-merge-conflicts.png)
 
 ### Add null checks for parameters
-This Quick Action enables you to add a check in your code to tell whether a parameter is null.
+This Quick Action enables you to add a check in your code to tell whether a parameter is null. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - add null check](../ide/media/vside-refactoring-nullcheck.png)
 
 ### Constructor generator improvements
-When you're creating a constructor, this Quick Action enables you to select the properties or fields to generate, or you can generate the constructor from an empty body. You can also use it to add parameters to an existing constructor from the call-site.
+When you're creating a constructor, this Quick Action enables you to select the properties or fields to generate, or you can generate the constructor from an empty body. You can also use it to add parameters to an existing constructor from the call-site. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - generate constructors](../ide/media/vside-refactoring-constructors.png)
 
 ### Remove unused variables
-This Quick Action enables you to remove variables that have been declared but never used in your code.
+This Quick Action enables you to remove variables that have been declared but never used in your code. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - unused variables](../ide/media/vside-refactoring-unusedvars.png)
 
-### Insert digit separators into literals
-This Quick Action enables you to add separator characters into literal values.
-
-![Refactoring - change digit separators](../ide/media/vside-refactoring-separators.png)
-
 ### Generate overrides
-This Quick Action enables you to create an override from a blank line in a class or struct. The **Pick Members** dialog box lets you choose the members to override.
+This Quick Action enables you to create an override from a blank line in a class or struct. The **Pick Members** dialog box lets you choose the members to override. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - overrides](../ide/media/vside-refactoring-overrides.png)
 
 ![Refactoring - overrides dialog box](../ide/media/vside-refactoring-overrides-dialog.png)
 
 ### Change base for numeric literals
-This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format.
+This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - change base](../ide/media/vside-refactoring-changebase1.png)
 
 ![Refactoring - change base](../ide/media/vside-refactoring-changebase2.png)
 
+### Insert digit separators into literals
+This Quick Action enables you to add separator characters into literal values. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+
+![Refactoring - change digit separators](../ide/media/vside-refactoring-separators.png)
+
 ### Convert **if** construct to **switch**
-This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct.
+This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ```CSharp
 // Before
