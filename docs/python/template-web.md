@@ -1,7 +1,7 @@
 ---
-title: "Web Project Template in Python Tools for Visual Studio | Microsoft Docs"
+title: Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Python Web Project Templates
 
-Python Tools for Visual Studio (PTVS) includes support for developing web projects in frameworks such as Bottle, Django, and Flask. This includes project templates and a debug launcher that can be configured to handle various frameworks. PTVS does not include the frameworks themselves, however, which you must install separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
+Python support in Visual Studio includes support for developing web projects in frameworks such as Bottle, Django, and Flask. This includes project templates and a debug launcher that can be configured to handle various frameworks. However, Visual Studio does not include the frameworks themselves, however, which you must install separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
 
 Each template (as accessed through **File > New > Project...**) launches a web server with an randomly selected local port, opens your default browser when debugging, and allows direct publishing to [Microsoft Azure](http://www.azure.com). Templates are provided for the Bottle, Flask, and Django, and you can use the generic "Web Project" template for other frameworks such as Pyramid.
 
@@ -54,7 +54,7 @@ For an introduction to Python web projects, see [Getting Started with PTVS, Part
 
 ## Debugging
 
-When a web project is started for debugging, PTVS will start the web server locally and open your default browser to that address and port. TO specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
+When a web project is started for debugging, Visual Studio starts the web server locally and open your default browser to that address and port. TO specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
 
   ![Web launcher properties for the generic web template](media/template-web-launcher-properties.png)
 
@@ -62,7 +62,7 @@ In the **Debug** group:
 
 - **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these are the same as for [normal debugging](debugging.md)
 - **Launch URL**: specifies the URL that will be opened in your browser. It defaults to `localhost`.
-- **Port Number**: the port to use if none is specified in the URL (PTVS selects one automatically by default). This allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
+- **Port Number**: the port to use if none is specified in the URL (Visual Studio selects one automatically by default). This allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 
 The properties in the **Run Server Command** and **Debug Server Command** groups (the latter is below what's show in the image) determine how the web server is launched. Because many frameworks require the use of a script outside of the current project, the script can be configured here and the name of the startup module can be passed as a parameter.
 
@@ -89,7 +89,7 @@ The Bottle Web Project template includes boilerplate code that does the necessar
     - **Command**: `bottle` (module)
     - **Arguments** `--debug --bind=%SERVER_HOST%:%SERVER_PORT% {StartupModule}:app`
 
-The `--reload` option is not recommended when using PTVS for debugging.
+The `--reload` option is not recommended when using Visual Studio for debugging.
 
 ### Sample Pyramid configuration
 
