@@ -254,7 +254,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                         </div>		
                                           <div class="cardText">		
                                             <h3>Data science and analytical applications</h3>		
-                                            <p>Languages and tooling for creating datas science applications, including Python, R, and F#.</p>		
+                                            <p>Languages and tooling for creating data science applications, including Python, R, and F#.</p>		
                                         </div>		
                                       </div>		
                                     </div>		
