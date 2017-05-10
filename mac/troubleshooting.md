@@ -10,19 +10,19 @@ ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 
 # Troubleshooting
 
-## Viewing Logs in Visual Studio for Mac
+## Viewing logs in Visual Studio for Mac
  
 Logs can be found by browsing to the **Help > Open Log Directory** menu item, as illustrated below:
 
 ![Open Log directory menu item](media/troubleshooting-image1.png)
 
-## Viewing Exceptions
+## Viewing exceptions
 
 When an exception has been caught, an exception bubble will appear. To view more details, select the **View Details** button:
 
 ![View more details about an exception](media/troubleshooting-image2.png)
 
-This will the display Show Details dialog, providing more information regarding the exception:
+This will display the **Show Details** dialog, providing more information regarding the exception:
 
 ![](media/troubleshooting-image3.png)
 
@@ -37,7 +37,7 @@ Important sections of the dialog, which are numbered above are described in deta
 7. Example of user code entries.
 8. Properties view, which shows all properties and fields of the exception. This can be collapsed via a disclosure arrow.
 9. Inner exception tree view. Select inner exceptions in this view via keyboard up/down arrows or with the mouse or trackpad.
-10. By default, this is set to what the **Debug project code only** option in debugger settings is set. Selecting this box will enable all non-user code to collapse into one line in the stacktrace.
+10. By default, this is set to what the **Debug project code only** option in debugger settings is set to. Selecting this box will enable all non-user code to collapse into one line in the stacktrace.
 11. A copy button to copy the `exception.ToString()` output to clipboard.
 
 Note that some of these sections will only be visible when exception has an inner exception.

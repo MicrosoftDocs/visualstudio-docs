@@ -24,7 +24,7 @@ The image below illustrates the options provided by Visual Studio for Mac by the
 
 Pushing and Pulling are two of the most commonly used actions within Git. To synchronize changes that other people have made to the remote repository, you must **Pull** from there. This is done in Visual Studio for Mac by selecting **Version Control > Update Solution**.
 
-Once you have updated your files, reviewed and committed them, you then have to **Push** them to the remote repository to allow others to access your changes. This is done in Visual Studio for Mac by selecting **Version Control > Push Changes**. This will display the Push dialog, allowing you to view the committed changes, and select the branch to push to:
+Once you have updated your files, reviewed and committed them, you must then **Push** them to the remote repository to allow others to access your changes. This is done in Visual Studio for Mac by selecting **Version Control > Push Changes**. This will display the Push dialog, allowing you to view the committed changes, and select the branch to push to:
 
 ![Dialog showing the branch to commit to](media/version-control-gitPush.png)
 
@@ -52,11 +52,11 @@ These allow the following actions:
 
 * **Merge** – This can be used if you have a merge conflict when committing your work. It shows a visual representation of the changes made by you and the other developer, allowing you to combine both sections of code cleanly. 
 
-## Switching Branches 
+## Switching branches 
 
 By default, the first branch created in a repository is known as the **Master** branch. There isn't technically anything different between the master branch and any other, but the master branch is the one that is most often thought of in development teams as the 'live' or 'production' branch.
 
-An independent line of development can be created by branching off Master (or any other branch, for that matter). This provides a new version of the master branch at a particular point in time, allowing developing independently from that is 'live.' Using branches in this way is often used for features in software development
+An independent line of development can be created by branching off Master (or any other branch, for that matter). This provides a new version of the master branch at a point in time, allowing for development independently of what is 'live.' Using branches in this way is often used for features in software development
 
 Users can create as many branches as they like for each repository, but it is recommended that once they have finished using a branch, it is deleted it to keep the repository organized.
 
@@ -76,9 +76,9 @@ See the current branch in the Solution Pad, next to the project name:
 
  ![Current branch displayed in solution pad](media/version-control-gitBranchName.png)
 
-## Reviewing and Committing 
+## Reviewing and committing 
 
-To review changes in the files, use the Changes, Blame, Log, and Merge tabs on each document, illustrated earlier in this document.
+To review changes in the files, use the Changes, Blame, Log, and Merge tabs on each document, illustrated earlier in this topic.
 
 Review all changes in your project by browsing to the **Version Control > Review Solution and Commit** menu item:
 
