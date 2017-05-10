@@ -1,10 +1,11 @@
 ---
 title: "Updating Visual Studio for Mac"
-description: 
+description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
 ms.topic: article
+ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
 
@@ -47,6 +48,3 @@ To start installing updates, select the **Restart and Install Updates** button:
 ![Button to start installing updates](media/update-image4.png)
 
 Depending on the components that need to be installed, you may need to accept additional licenses or enter your machine's administrator username and password.
-
-
-
