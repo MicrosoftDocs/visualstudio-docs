@@ -8,15 +8,15 @@ ms.topic: article
 ms.assetid: 0D58FB37-530E-495B-BED6-FD499477A9B6
 ---
 
-# Setting Up a Subversion Repository
+# Setting up a Subversion repository
 
-Subversion is a centralized version control system. This means that there is a single server that contains all files and revisions from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user will get a snapshot of the repository at that particular point in time.
+Subversion is a centralized version control system. This means that there is a single server that contains all files and revisions from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user will get a snapshot of the repository at that point in time.
 
-Before starting to use Subversion,  the Xcode command line tools must be installed, which includes the correct svn packages. You can check that SVN is installed in Terminal with the following command:
+Before starting to use Subversion, the Xcode command line tools must be installed as they include the correct svn packages. You can check that SVN is installed in Terminal with the following command:
 
 `svn h`
 
-1. Create a free SVN repository online. For this example [Assembla](https://app.assembla.com/) was used. Once created, a URL will be provided, which will be used to connect to the repository: 
+1. Create a free SVN repository online. For this example, [Assembla](https://app.assembla.com/) was used. Once created, a URL will be provided, which will be used to connect to the repository: 
 
     ![Obtain SVN URL and copy it](media/version-control-subversion1-sml.png)
 
@@ -38,5 +38,5 @@ Before starting to use Subversion,  the Xcode command line tools must be install
 
     ![](media/version-control-subversion5.png)
 
-8.	All of the version control commands available should now be visible in the version control menu.
+8.	All the version control commands available should now be visible in the version control menu.
 

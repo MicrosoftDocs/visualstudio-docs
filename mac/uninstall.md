@@ -1,10 +1,11 @@
 ---
 title: "Uninstalling Visual Studio for Mac"
-description: 
+description: "Instructions for uninstalling Visual Studio for Mac and related tools."
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
 ms.topic: article
+ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 ---
 
@@ -41,8 +42,8 @@ rm -rf ~/Library/VisualLodStudio
 
 Mono is an open source implementation of Microsoft’s .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
 
-> [!WARNING] 
-> There are other applications outside of Xamarin which also use Mono, such as Unity. 
+> [!WARNING]
+> There are other applications outside of Xamarin which also use Mono, such as Unity.
 > Be sure that there are no other dependencies on Mono before uninstalling it.
 
 To remove the Mono Framework from a machine, run the following commands in Terminal:
