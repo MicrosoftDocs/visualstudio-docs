@@ -25,7 +25,7 @@ For working with iOS in Visual Studio you will need the following:
 
 1. Download Visual Studio for Mac from [https://www.visualstudio.com/](https://www.visualstudio.com/)
 
-2. Once the installer package is downloaded, click on the `VisualStudioInstaller.dmg` file to mount the installer and then run it by double-clicking on the logo, as illustrated below:
+2. Once the installer package is downloaded, click on the **VisualStudioInstaller.dmg** file to mount the installer and then run it by double-clicking on the logo, as illustrated below:
 
   ![Installer dialog](media/installer-image1.png)
 
