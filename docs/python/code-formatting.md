@@ -39,7 +39,7 @@ Visual Studio lets you quick reformat code to match pre-configured formatting op
 
 Options are set through **Tools > Options > Text Editor > Python > Formatting** and its sub-tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; the other three sub-pages are defined in the following sections.
 
-Python support in Visual Studio also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described below.
+[Python support in Visual Studio](installation.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described below.
 
 ## Spacing
 

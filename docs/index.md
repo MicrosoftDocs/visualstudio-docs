@@ -196,7 +196,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Python (Preview)</h3>
+                                                    <h3>Python</h3>
                                                     <p>Interactive development for Python apps, using familiar frameworks including Django and Flask.</p>
                                                 </div>
                                             </div>
@@ -242,6 +242,25 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </a>
                             </li>                            
+                            <li>		
+                                <a href="https://go.microsoft.com/fwlink/?linkid=834748">		
+                                  <div class="cardSize">		
+                                    <div class="cardPadding">		
+                                      <div class="card">		
+                                        <div class="cardImageOuter">		
+                                          <div class="cardImage bgdAccent1 cardScaleImage">		
+                                            <img data-scaleimage="./images/vs_web-6.svg" src="./images/vs_web-6.svg" alt="" />		
+                                        </div>		
+                                        </div>		
+                                          <div class="cardText">		
+                                            <h3>Data science and analytical applications</h3>		
+                                            <p>Languages and tooling for creating datas science applications, including Python, R, and F#.</p>		
+                                        </div>		
+                                      </div>		
+                                    </div>		
+                                  </div>		
+                                </a>		
+                            </li>
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833075">
                                     <div class="cardSize">
@@ -726,7 +745,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             </div>
                                             <div class="cardText">
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-                                                    <h3>Python (Preview)</h3>
+                                                    <h3>Python</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
                                                 </a>
                                             </div>
