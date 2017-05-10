@@ -36,8 +36,9 @@
       "manager": "crdun",
       "ms.topic": "article",
       "audience": "developer",
-      "ms.prod": "",
-      "ms.technology": "",
+      "ms.prod": "visual-studio-dev15",
+      "ms.technology": "vs-ide-general",
+      "ms.tgt_pltfrm": "dotnet",
       "searchScope": ["Mac"]
     },
     "fileMetadata": {},
