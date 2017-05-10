@@ -8,7 +8,7 @@ ms.topic: article
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---
 
-# Welcome to Mac!
+# Introducing Visual Studio for Mac
 
 Visual Studio for Mac is a modern, sophisticated IDE with many features for creating mobile, desktop, and web applications. It supports development of the following:
 

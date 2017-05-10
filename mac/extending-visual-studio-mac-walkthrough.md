@@ -1,15 +1,16 @@
 ---
-title: "Extending Visual Studio for Mac Walkthrough" 
+title: "Extending Visual Studio for Mac Walkthrough"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
 ms.topic: article
+ms.technology: vs-ide-sdk
 ms.assetid: 7D00512B-9688-4D8D-87A7-F04F207E3D02
 ---
 
 # Extending Visual Studio for Mac Walkthrough
 
-This topic guides you through building [a simple extension package](https://github.com/mjh4/AddIns/tree/master/DateInserter). The extension package will create a new Command in Visual Studio for Mac’s Edit menu that allows the user to insert the current date and time into an open text document. 
+This topic guides you through building [a simple extension package](https://github.com/mjh4/AddIns/tree/master/DateInserter). The extension package will create a new Command in Visual Studio for Mac’s Edit menu that allows the user to insert the current date and time into an open text document.
 
 This example uses the Add-in Maker. The Add-In Maker creates a new Project template and populates it with the required files for our custom extension package.
 
@@ -37,7 +38,7 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 
 7.   Remove the template code in `Manifest.addin.xml` and replace it with the following:
 
-    ```xml 
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
         <ExtensionModel>
             <Extension path = "/MonoDevelop/Ide/Commands/Edit">
@@ -78,7 +79,7 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 
             }
         }
-    } 
+    }
     ```
 
   We’ll expand these two placeholder methods later.
@@ -103,7 +104,7 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 
 12.   At this point, you should have a working extension package. You can test it out by saving your work and running the application. The IDE will launch a new instance of Visual Studio for Mac with the new extension package installed. If you navigate to the **Edit menu**, you’ll see that Visual Studio for Mac has a new option called **Insert Date**, as illustrated by the screenshot below:
 
-  ![Insert Date Command](media/extending-visual-studio-mac-addin11.png) 
+  ![Insert Date Command](media/extending-visual-studio-mac-addin11.png)
 
   Note that selecting Insert Date from the menu has no effect as the current implementation only has placeholder methods.
 
@@ -119,14 +120,14 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 14.   Update the Command’s `Run` method to insert the date and time with the following code:
 
     ``` cs
-    protected override void Run () { 
-        var editor = IdeApp.Workbench.ActiveDocument.Editor; 
-        var date = DateTime.Now.ToString (); 
-        editor.InsertAtCaret (date); 
-        
-    } 
+    protected override void Run () {
+        var editor = IdeApp.Workbench.ActiveDocument.Editor;
+        var date = DateTime.Now.ToString ();
+        editor.InsertAtCaret (date);
+
+    }
     ```
 
 15.   Finally, let’s run our extension package to test it. In the new instance of Visual Studio for Mac, select **Edit > Insert Date**. The current date and time is inserted at our caret, as illustrated by the screenshot below:
 
-  ![Insert Date Screenshot](media/extending-visual-studio-mac-addin12.png) 
+  ![Insert Date Screenshot](media/extending-visual-studio-mac-addin12.png)
