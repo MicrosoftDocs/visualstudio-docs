@@ -33,4 +33,4 @@ Give a descriptive title for the issue along with any additional information abo
 
 ## Provide a suggestion
 
-Use the **Provide a Suggestion** link on the welcome page to direct you to Visual Studio for Mac's UserVoice page. From here you can add new requests or vote on existing requests.
+Use the **Provide a Suggestion** link on the welcome page to direct you to [Visual Studio for Mac's UserVoice page](https://visualstudio.uservoice.com/forums/563332-visual-studio-for-mac). From here you can add new requests or vote on existing requests.
