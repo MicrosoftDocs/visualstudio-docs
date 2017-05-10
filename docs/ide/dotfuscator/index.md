@@ -1,6 +1,6 @@
 ---
 title: "Dotfuscator Community Edition (CE) | Microsoft Docs"
-ms.date: "2017-02-08"
+ms.date: "2017-05-10"
 ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
 ms.technology: 
@@ -39,6 +39,8 @@ translation.priority.ht:
 *PreEmptive Protection – Dotfuscator* provides comprehensive .NET application protection that easily fits into your secure software development lifecycle. 
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
 Dotfuscator works on compiled assemblies without the need for additional programming or even access to source code.
+
+![](media/header.svg)
 
 ## Why Protection Matters
 
