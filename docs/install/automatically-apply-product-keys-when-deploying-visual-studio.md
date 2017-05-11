@@ -37,7 +37,7 @@ You can apply your product key programmatically as part of a script used to auto
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt, followed by the product key (including the dashes) and the Microsoft Product Code (MPC). Please be sure to include the dashes in the product key.
 
- ```cmd
+ ```
  StorePID.exe [product key including the dashes] [MPC]
  ```
 

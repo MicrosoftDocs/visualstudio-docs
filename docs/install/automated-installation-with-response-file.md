@@ -78,7 +78,6 @@ This example will install Visual Studio Enterprise with six common workloads and
   "installPath": "C:\\VS2017",
   "quiet": false,
   "passive": false,
-  "wait": false,
   "includeRecommended": true,
   "norestart": false,
 
