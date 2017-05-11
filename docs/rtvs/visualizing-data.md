@@ -42,7 +42,7 @@ In this topic:
 - [The plot window](#the-plot-window)
 - [Multiple plot windows](#multiple-plot-windows)
 - [Plot history](#plot-history)
-- [Programmatically manipulating plot windows](#programmatically-manipulating-plots)
+- [Programmatically manipulating plot windows](#programmatically-manipulating-plot-windows)
 
 The following video (2m 02s) provides a brief tour of plotting in RTVS:
 

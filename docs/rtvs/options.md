@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 f1_keywords: 
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
+  - "VS.ToolsOptionsPages.R_Tools.%23150"
 ms.topic: "article"
 ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
