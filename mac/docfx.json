@@ -36,8 +36,8 @@
       "manager": "crdun",
       "ms.topic": "article",
       "audience": "developer",
-      "ms.prod": "",
-      "ms.technology": "",
+      "ms.prod": "visual-studio-mac",
+      "ms.technology": "vs-ide-general",
       "searchScope": ["Mac"]
     },
     "fileMetadata": {},

@@ -1,7 +1,7 @@
 ---
-title: "Unit Testing in Python Tools for Visual Studio | Microsoft Docs"
+title: Unit Testing for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,13 +34,13 @@ translation.priority.ht:
 
 Unit tests are pieces of code that test other code units in an application, typically isolated functions, classes, and so on. When an application passes all its unit tests, you can at least trust that it's low-level functionality is correct.
 
-Python uses unit tests extensively to validate scenarios while designing a program. Python Tools for Visual Studio(PTVS)  includes support for discovering, executing, and debugging unit tests within the context of your development process, rather than needing to run them separately.
+Python uses unit tests extensively to validate scenarios while designing a program. Python support in Visual Studio includes discovering, executing, and debugging unit tests within the context of your development process, rather than needing to run them separately.
 
 This topic provides a brief outline of unit testing capabilities in Visual Studio with Python. For more on unit testing in general, see [Unit Test Your Code](../test/unit-test-your-code.md).
 
 ## Discovering and viewing tests
 
-By convention, PTVS will identify tests are as methods whose names start with "test". To see this, do the following:
+By convention, Visual Studio identifies tests are as methods whose names start with "test". To see this, do the following:
 
 1. Open a [Python project](python-projects.md) loaded in Visual Studio, right-click your project, select **Add > New Item...**, then select **Python Unit Test** followed by **Add**.
 
@@ -93,13 +93,13 @@ Tests run in the background and Test Explorer updates each test's status as it c
 
 ## Debugging tests
 
-Because unit tests are pieces of code, they are subject to bugs just like any other code and occasionally need to be run in a debugger, where you can set breakpoints, examine variables, and step through code. PTVS also provides diagnostic tools
+Because unit tests are pieces of code, they are subject to bugs just like any other code and occasionally need to be run in a debugger, where you can set breakpoints, examine variables, and step through code. Visual Studio also provides diagnostic tools
 
 To start debugging, set an initial breakpoint in your code, then right-click the test (or a selection) in Test Explorer and select **Debug Selected Tests**. Visual Studio will start the Python debugger as it would for application code.
 
 ![Debugging a test](media/unit-test-debugging.png)
 
-You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of PTVS (see the [Features matrix](python-in-visual-studio.md#features-matrix)).
+You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of Visual Studio (see the [Features matrix](python-in-visual-studio.md#features-matrix)).
 
 ### Known Issues
 

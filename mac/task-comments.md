@@ -1,0 +1,25 @@
+---
+title: "Task Comments"
+description: 
+author: asb3993
+ms.author: amburns
+ms.date: 04/14/2017
+ms.topic: article
+ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
+---
+
+# Task Comments
+
+When writing code, it is standard practice to explicitly comment unfinished or questionable code or quick workarounds with warnings. The default signal tokens provided by Visual Studio for Mac are TODO, HACK, FIXME, and UNDONE, although personalized tokens can be defined under **Visual Studio > Preferences… > Environment > Tasks**, which is illustrated below:
+
+ ![Task list preferences](media/source-editor-image10.png)
+
+To add a new task comment, add a comment that includes the task keyword. For example:
+
+```
+//TODO: Finish this for all properties.
+```
+
+Visual Studio for Mac draws attention to these markers by highlighting them in the Task List pad, which can be displayed by navigating to **View > Pads > Task**:
+
+![Task list pad](media/source-editor-image11.png)
