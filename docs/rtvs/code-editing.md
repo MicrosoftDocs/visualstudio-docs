@@ -63,7 +63,7 @@ Visual Studio also underlines syntax errors in the editor:
 
 To change this behavior, see the **Advanced > Syntax check** setting under [editor options](#editor-options).
 
-## Editing and organizing your code
+## Editing and organizing code
 
 As you type code, RTVS provides auto-completion as described on the [IntelliSense](code-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
 

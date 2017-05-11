@@ -34,10 +34,10 @@ translation.priority.ht:
 
 In this topic:
 
-- [Supported versions of Visual Studio](#prerequisites)
-- [Installation in Visual Studio 2017](#installation-in-visual-studio-2017)
-- [Installation in Visual Studio 2015](#installation-in-visual-studio-2015)
-- [Offline installation](#offline-installation)
+- [Supported versions of Visual Studio](#supported-versions-of-visual-studio)
+- [Installing RTVS in Visual Studio 2017](#installing-rtvs-in-visual-studio-2017)
+- [Installing RTVS in Visual Studio 2015](#installing-rtvs-in-visual-studio-2015)
+- [Offline installation](#offline-installation-of-visual-studio-and-rtvs)
 
 > [!Note]
 > After installing R Tools, you may want to configure Visual Studio for an optimized data scientist layout, as described on the [Options](options.md#data-scientist-layout) topic.
@@ -74,7 +74,7 @@ RTVS requires a 64-bit installation of R version 3.2.1 or higher from one or mor
 
 Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Microsoft R Client, however, supports only one version and will always use the latest one you installed.
 
-## Install the R tools
+### Install the R tools
 
 Download the current RTVS from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS will check for a suitable version of Visual Studio and will also help you install an R interpreter if you haven't already.
 
