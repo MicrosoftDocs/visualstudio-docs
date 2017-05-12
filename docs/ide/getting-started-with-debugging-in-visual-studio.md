@@ -43,11 +43,11 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio Debug Build button](../ide/media/vs_ide_gs_debug_build_type1.PNG "Vs_ide_gs_debug_build_type1")  
 
- You can also specify a specific build platform to target, such as **x86** (32-bit Intel CPUs), **x64** (64-bit Intel CPUs), and **ARM** (ARM CPUs, only supported for certain app types). The default is  **x86** for managed and native projects. To change it, click on build platform dropdown and select a different platform or **Configuration Manager…**  
+ You can also specify a specific build platform to target, such as **x86** (32-bit Intel CPUs), **x64** (64-bit Intel CPUs), and **ARM** (ARM CPUs, only supported for certain app types). The default is  **x86** for managed and native projects. To change it, click on build platform dropdown and select a different platform or **Configuration Manager...**  
 
  ![Visual Studio Configuration File Manager window](../ide/media/vs_ide_gs_debug_build_cf_mgr.PNG "Vs_ide_gs_debug_build_cf_mgr")  
 
- You can specify a targeted build configuration using the **Configuration Manager**. Launch it, click the **Configuration** or the **CPU** dropdown, and select **New…** to create a new build or platform.  
+ You can specify a targeted build configuration using the **Configuration Manager**. Launch it, click the **Configuration** or the **CPU** dropdown, and select **New...** to create a new build or platform.  
 
  ![Visual Studio Configuration Manager window](../ide/media/vs_ide_gs_debug_build_cf_mgr_2.PNG "Vs_ide_gs_debug_build_cf_mgr_2")  
 

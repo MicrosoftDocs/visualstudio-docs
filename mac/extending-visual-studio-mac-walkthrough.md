@@ -18,7 +18,7 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 
   ![Visual Studio for Mac Screenshot](media/extending-visual-studio-mac-addin3.png)
 
-2.   Install the _Add-in Maker extension package_ using the Extension Manager. From the Visual Studio menu, choose **Extensions…**:
+2.   Install the _Add-in Maker extension package_ using the Extension Manager. From the Visual Studio menu, choose **Extensions...**:
 
   ![Addin Manager Tab](media/extending-visual-studio-mac-addin4.png)
 

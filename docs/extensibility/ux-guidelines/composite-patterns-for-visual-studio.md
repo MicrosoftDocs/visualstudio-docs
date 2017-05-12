@@ -532,7 +532,7 @@ Composite patterns combine interaction and design elements in distinct configura
   
 ||Basic experience|Optimized experience|Elevated experience|  
 |-|----------------------|--------------------------|-------------------------|  
-|Enables users to …|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|  
+|Enables users to ...|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|  
 |Editor|Touch panning and selection<br /><br /> Scrollbar touch to jump and press+drag|Pinch zoom<br /><br /> Fast scroll<br /><br /> Selection<br /><br /> Easy use of context menu||  
 |Top tool windows|List panning<br /><br /> Item selection<br /><br /> Scrollbar touch to jump and press+drag|Easy item scrolling and selection||  
 |Windowing||Resize window<br /><br /> Quick access||  

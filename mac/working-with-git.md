@@ -60,7 +60,7 @@ An independent line of development can be created by branching off Master (or an
 
 Users can create as many branches as they like for each repository, but it is recommended that once they have finished using a branch, it is deleted it to keep the repository organized.
 
-Branches are viewed in Visual Studio for Mac by browsing to **Version Control > Manage Branches and Remotes…**:
+Branches are viewed in Visual Studio for Mac by browsing to **Version Control > Manage Branches and Remotes...**:
 
 ![Branches view](media/version-control-gitBranch2.png)
 
@@ -86,7 +86,7 @@ Review all changes in your project by browsing to the **Version Control > Review
 
 This allows viewing of all the changes in each file of a project with the option to Revert, Create a Patch, or Commit.
 
-To commit a file to the remote repository, press **Commit…**, enter a commit message, and confirm with the Commit Button:
+To commit a file to the remote repository, press **Commit...**, enter a commit message, and confirm with the Commit Button:
 
 ![Committing a file](media/version-control-gitCommit.png)
 

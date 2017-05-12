@@ -129,8 +129,8 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
  **Figure 08.01-g: Horizontal interior buttons with vertical OK/Cancel**  
   
-#### [Browse…] button  
- **[Browse…]** buttons that follow a text box should spell out "Browse…" in full, including the ellipsis. If space is tight or there are multiple **[Browse…]** buttons on the screen, the button can be reduced to just the ellipsis.  
+#### [Browse...] button  
+ **[Browse...]** buttons that follow a text box should spell out "Browse..." in full, including the ellipsis. If space is tight or there are multiple **[Browse...]** buttons on the screen, the button can be reduced to just the ellipsis.  
   
 ##  <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout  
  Themed dialogs in Visual Studio have a lighter appearance and offer more white space. Typography provides more emphasis and interest, offering more open line spacing and a variation of font sizes and weights. Where possible, chrome and title bars have been reduced or removed. The layout of these dialogs should follow this basic pattern:  

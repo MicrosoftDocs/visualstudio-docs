@@ -121,7 +121,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/include
   
 4.  Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:  
   
-     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" … #>`  
+     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" ... #>`  
   
 #### To uninstall or temporarily disable the custom directive processor  
   

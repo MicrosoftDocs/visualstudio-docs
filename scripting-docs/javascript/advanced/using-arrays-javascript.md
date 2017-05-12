@@ -67,4 +67,4 @@ myObject["aProperty"] // Same as above.
   
 2.  A property name treated like an index (the braces ([]) syntax) can be manipulated like data.  
   
- This difference becomes useful when you do not know what the property names will be until runtime (for example, when you are constructing objects based on user input). To extract all the properties from an associative array, you must use the `for…in` loop.
+ This difference becomes useful when you do not know what the property names will be until runtime (for example, when you are constructing objects based on user input). To extract all the properties from an associative array, you must use the `for...in` loop.

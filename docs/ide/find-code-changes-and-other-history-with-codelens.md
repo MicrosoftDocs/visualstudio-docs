@@ -135,7 +135,7 @@ Stay focused on your work while you find out what happened to your code - withou
 #### Find incoming changes from other branches  
  ![CodeLens: Find code changes in other branches](../ide/media/codelensbranchchangecheckinconceptual.png "CodeLensBranchChangeCheckinConceptual")  
   
- …like this bug fix in the Dev branch here:  
+ ...like this bug fix in the Dev branch here:  
   
  ![CodeLens: Change checked into another branch](../ide/media/codelensbranchchangedevscreenshot.png "CodeLensBranchChangeDevScreenshot")  
   

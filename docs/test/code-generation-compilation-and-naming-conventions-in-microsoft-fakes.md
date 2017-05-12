@@ -249,7 +249,7 @@ attribute of the Assembly element in the .fakes:
   
  **Special method names** such as property getter or setters are treated as described in the following table.  
   
-|If method is…|Example|Method name appended|  
+|If method is...|Example|Method name appended|  
 |-------------------|-------------|--------------------------|  
 |A **constructor**|`.ctor`|`Constructor`|  
 |A static **constructor**|`.cctor`|`StaticConstructor`|  
@@ -272,7 +272,7 @@ attribute of the Assembly element in the .fakes:
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   
-|Given|Appended string is…|  
+|Given|Appended string is...|  
 |-----------|-------------------------|  
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|  
 |An **out parameter**`out T`|`TOut`|  
@@ -280,7 +280,7 @@ attribute of the Assembly element in the .fakes:
 |An **array type**`T[]`|`TArray`|  
 |A **multi-dimensional array** type `T[ , , ]`|`T3`|  
 |A **pointer** type `T*`|`TPtr`|  
-|A **generic type**`T<R1, …>`|`TOfR1`|  
+|A **generic type**`T<R1, ...>`|`TOfR1`|  
 |A **generic type argument**`!i` of type `C<TType>`|`Ti`|  
 |A **generic method argument**`!!i` of method `M<MMethod>`|`Mi`|  
 |A **nested type**`N.T`|`N` is appended, then `T`|  

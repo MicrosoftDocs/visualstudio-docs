@@ -79,7 +79,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
      ![Post&#45;collection, select a range to view details](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
   
-3.  In the bottom portion of the report, choose the **view details** link in the **…click here to view details of GPU usage for that range** message to view a detailed timeline of your selection.  
+3.  In the bottom portion of the report, choose the **view details** link in the **...click here to view details of GPU usage for that range** message to view a detailed timeline of your selection.  
   
      ![Post&#45;collection, with range selected](media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
   

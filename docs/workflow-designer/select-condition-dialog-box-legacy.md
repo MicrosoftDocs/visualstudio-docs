@@ -49,9 +49,9 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
   
 |UI Element|Description|  
 |----------------|-----------------|  
-|**New…**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to create a new rule condition.|  
-|**Edit…**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
-|**Rename…**|Click to open a dialog box used to rename the selected rule condition.|  
+|**New...**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to create a new rule condition.|  
+|**Edit...**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
+|**Rename...**|Click to open a dialog box used to rename the selected rule condition.|  
 |**Delete**|Click to delete the selected rule condition.|  
 |**Condition Preview**|Displays the condition expression for the selected rule condition.|  
 |**OK**|Click to assign the selected rule condition to the activity's condition.|  

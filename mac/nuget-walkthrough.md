@@ -28,11 +28,11 @@ First, create a project named `HelloNuget` as illustrated below. This example sh
 
 ## Adding a Package
 
-With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages…**:
+With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages...**:
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
-This launches the _Add Packages…_ window. Ensure that the Source drop-down, is set to `nuget.org`:
+This launches the _Add Packages..._ window. Ensure that the Source drop-down, is set to `nuget.org`:
 
 ![Source list drop-down](media/nuget-walkthrough-Source.png)
 
@@ -93,7 +93,7 @@ You can also right-click on individual packages to access a context menu:
 
 Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. This can be useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
 
-In Visual Studio for Mac, navigate to **Visual Studio > Preferences… > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory. 
+In Visual Studio for Mac, navigate to **Visual Studio > Preferences... > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory. 
 
 ![Package Sources](media/nuget-walkthrough-PackageSource.png)
 

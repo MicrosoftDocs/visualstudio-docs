@@ -154,7 +154,7 @@ The role of an Element Merge Directive
   
 4.  Rebuild the solution. This will take longer than usual because the generated code will be updated from the model.  
   
-     A build error will be reported, similar to: "Company.ElementMergeSample.ExampleElement does not contain a definition for CanMergeExampleElement…"  
+     A build error will be reported, similar to: "Company.ElementMergeSample.ExampleElement does not contain a definition for CanMergeExampleElement..."  
   
      You must implement the method `CanMergeExampleElement`.  
   

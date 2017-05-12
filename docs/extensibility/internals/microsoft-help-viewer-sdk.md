@@ -529,7 +529,7 @@ some F# code
 ||||  
 |-|-|-|  
 |**Branding Feature**|**JavaScript Function**|**Description**|  
-|Var …||Define variables|  
+|Var ...||Define variables|  
 |Get the user code language|setUserPreferenceLang|maps an index # to code language|  
 |Set and Get cookie values|getCookie, setCookie||  
 |Inherited Member|changeMembersLabel|Expand/collapse inherited member|  
@@ -618,7 +618,7 @@ some F# code
   
  This is only a primer describing the very basic XML schema for the Help Viewer MSHA.  Note that there is an example implementation below this brief overview and sample HelpContentSetup.msha.  
   
- The name of the MSHA, for the purposes of this primer, is HelpContentSetup.msha (the name of the file can be anything, with the extension .MSHA). HelpContentSetup.msha (example below) should contain a list of the cabs or MSHCs available.  Note that the file type must be consistent within the MSHA (does not support a combination of MSHA and CAB file types). For each CAB or MSHC, there should be a \<div class="package">…\</div> (see example below).  
+ The name of the MSHA, for the purposes of this primer, is HelpContentSetup.msha (the name of the file can be anything, with the extension .MSHA). HelpContentSetup.msha (example below) should contain a list of the cabs or MSHCs available.  Note that the file type must be consistent within the MSHA (does not support a combination of MSHA and CAB file types). For each CAB or MSHC, there should be a \<div class="package">...\</div> (see example below).  
   
  Note: in the implementation example below, we have included the branding package. This is critical to include in order to get the needed Visual Studio content rendering elements and content behaviors.  
   

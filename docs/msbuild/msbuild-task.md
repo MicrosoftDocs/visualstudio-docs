@@ -88,7 +88,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
  A common scenario is when you are building multiple solution files using the [MSBuild Task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, this project file would look like the following:  
   
 > [!NOTE]
->  In the following example, "…" represents additional solution files.  
+>  In the following example, "..." represents additional solution files.  
   
 ### a.proj  
   
@@ -108,7 +108,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
-        <ProjectToBuild Include="a1.sln…">  
+        <ProjectToBuild Include="a1.sln...">  
             <Properties>Configuration=Debug</Properties>  
         </ProjectToBuild>  
         <ProjectToBuild Include="a2.sln">  
@@ -126,7 +126,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
-        <ProjectToBuild Include="a1.sln…"/>  
+        <ProjectToBuild Include="a1.sln..."/>  
         <ProjectToBuild Include="a2.sln">  
             <Properties>Configuration=Release</Properties>  
         </ProjectToBuild>  
@@ -146,7 +146,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Build">  
-        <MSBuild Projects="a1.sln…" Properties="Configuration=Release;   
+        <MSBuild Projects="a1.sln..." Properties="Configuration=Release;   
           Architecture=x86"/>  
         <MSBuild Projects="a2.sln" Properties="Configuration=Release;   
           Architecture=ia64"/>  
@@ -161,7 +161,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
-        <ProjectToBuild Include="a1.sln…">  
+        <ProjectToBuild Include="a1.sln...">  
             <AdditionalProperties>Architecture=x86  
               </AdditionalProperties>  
         </ProjectToBuild>  

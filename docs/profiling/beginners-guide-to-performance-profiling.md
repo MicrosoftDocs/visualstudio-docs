@@ -150,7 +150,7 @@ If you want to view the call paths of external code, choose **Show External Code
   
 ![Choose Filter View, then Show External Code](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
   
-Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[…]**.
+Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
   
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 

@@ -95,8 +95,8 @@ int main() {
 |**s32**|UTF-32 string|\<location> U”hello world”|U”hello world”|  
 |**s32b**|UTF-32 string (no quotation marks)|\<location> U”hello world”|hello world|  
 |**en**|enum|Saturday(6)|Saturday|  
-|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, …}|  
-|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value…}|{member=value…}|  
+|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|  
+|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|  
 |**nd**|Displays only the base class information, ignoring derived classes|`(Shape*) square` includes base class and derived class information|Displays only base class information|  
 |hr|HRESULT or Win32 error code. (The debugger now decodes HRESULTs automatically, so this specifier is not required in those cases.|S_OK|S_OK|  
 |wc|Window class flag|0x0010|WC_DEFAULTCHAR|  

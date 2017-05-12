@@ -51,7 +51,7 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
   
 3.  In the **Menu bar:** drop-down, select the **Debug** menu that you want to contain the restored command.  
   
-4.  Click the **Add Command…** button.  
+4.  Click the **Add Command...** button.  
   
 5.  In the **Add Command** box, select the command you want to add, and click **OK**.  
   

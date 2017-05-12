@@ -188,11 +188,11 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 ## How to use the tool  
  **Validating a custom image manifest**  
   
- To create a custom manifest, we recommend that you use the ManifestFromResources tool to autogenerate the manifest. To validate the custom manifest, launch the Image Library Viewer and select File > Set Paths… to open the Search Directories dialog. The tool will use the search directories to load image manifests, but it will also use it them to find the .dll files that contain the images in a manifest, so make sure to include both the manifest and DLL directories in this dialog.  
+ To create a custom manifest, we recommend that you use the ManifestFromResources tool to autogenerate the manifest. To validate the custom manifest, launch the Image Library Viewer and select File > Set Paths... to open the Search Directories dialog. The tool will use the search directories to load image manifests, but it will also use it them to find the .dll files that contain the images in a manifest, so make sure to include both the manifest and DLL directories in this dialog.  
   
  ![Image Library Viewer Search](../../extensibility/internals/media/image-library-viewer-search.png "Image Library Viewer Search")  
   
- Click **Add…** to select new search directories to search for manifests and their corresponding DLLs. The tool will remember these search directories, and they can be turned on or off by checking or unchecking a directory.  
+ Click **Add...** to select new search directories to search for manifests and their corresponding DLLs. The tool will remember these search directories, and they can be turned on or off by checking or unchecking a directory.  
   
  By default, the tool will attempt to find the Visual Studio install directory and add those directories to the search directories list. You can manually add directories the tool doesn’t find.  
   

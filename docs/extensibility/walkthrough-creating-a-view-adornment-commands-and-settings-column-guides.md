@@ -62,13 +62,13 @@ You can extend the Visual Studio text/code editor with commands and view effects
   
 -   There is a `ColumnGuideCommands` object that implements the user commands and hooks up the command handlers for commands declared in the .vsct file.  
   
- **VSIX**.  Use **File &#124; New …** command to create a project.  Choose the Extensibility node under C# in the left navigation pane and choose **VSIX Project** in the right pane.  Enter the name ColumnGuides and choose **OK** to create the project.  
+ **VSIX**.  Use **File &#124; New ...** command to create a project.  Choose the Extensibility node under C# in the left navigation pane and choose **VSIX Project** in the right pane.  Enter the name ColumnGuides and choose **OK** to create the project.  
   
- **View adornment**.  Press the right pointer button on the project node in the Solution Explorer.  Choose the **Add &#124; New Item …** command to add a new view adornment item.  Choose **Extensibility &#124; Editor** in the left navigation pane and choose **Editor Viewport Adornment** in the right pane.  Enter the name ColumnGuideAdornment as the item name and choose **Add** to add it.  
+ **View adornment**.  Press the right pointer button on the project node in the Solution Explorer.  Choose the **Add &#124; New Item ...** command to add a new view adornment item.  Choose **Extensibility &#124; Editor** in the left navigation pane and choose **Editor Viewport Adornment** in the right pane.  Enter the name ColumnGuideAdornment as the item name and choose **Add** to add it.  
   
  You can see this item template added two files to the project (as well as references and so on): ColumnGuideAdornment.cs and ColumnGuideAdornmentTextViewCreationListener.cs.  The templates just draw a purple rectangle on the view.  Below you will change a couple of lines in the view creation listener and replace the contents of ColumnGuideAdornment.cs.  
   
- **Commands**.  Press the right pointer button on the project node in the Solution Explorer.  Choose the **Add &#124; New Item …** command to add a new view adornment item.  Choose **Extensibility &#124; VSPackage** in the left navigation pane and choose **Custom Command** in the right pane.  Enter the name ColumnGuideCommands as the item name and choose **Add** to add it.  In addition to several references, adding the commands and package added ColumnGuideCommands.cs, ColumnGuideCommandsPackage.cs, and ColumnGuideCommandsPackage.vsct.  Below you will replace the contents of first and last files to define and implement the commands.  
+ **Commands**.  Press the right pointer button on the project node in the Solution Explorer.  Choose the **Add &#124; New Item ...** command to add a new view adornment item.  Choose **Extensibility &#124; VSPackage** in the left navigation pane and choose **Custom Command** in the right pane.  Enter the name ColumnGuideCommands as the item name and choose **Add** to add it.  In addition to several references, adding the commands and package added ColumnGuideCommands.cs, ColumnGuideCommandsPackage.cs, and ColumnGuideCommandsPackage.vsct.  Below you will replace the contents of first and last files to define and implement the commands.  
   
 ## Setting up the Text View Creation Listener  
  Open ColumnGuideAdornmentTextViewCreationListener.cs in the editor.  This code implements a handler for whenever Visual Studio creates text views.  There are attributes that control when the handler is called depending on characteristics of the view.  
@@ -340,7 +340,7 @@ namespace ColumnGuides
   
 ```  
   
- Most of this code just creates and parses the settings format: "RGB(\<int>,\<int>,\<int>) \<int>, \<int>, …".  The integers at the end are the one-based columns where you want column guides.  The column guides extension captures all its settings in a single setting value string.  
+ Most of this code just creates and parses the settings format: "RGB(\<int>,\<int>,\<int>) \<int>, \<int>, ...".  The integers at the end are the one-based columns where you want column guides.  The column guides extension captures all its settings in a single setting value string.  
   
  There are some parts of the code worth highlighting.  The following line of code gets the Visual Studio managed wrapper for the settings storage.  For the most part, this abstracts over the Windows registry, but this API is independent of the storage mechanism.  
   
@@ -1178,7 +1178,7 @@ namespace ColumnGuides
   
 ```  
   
- **Fix references**.  You are missing a reference at this point.  Press the right pointer button on the References node in the Solution Explorer.  Choose the **Add …** command.  The **Add Reference** dialog has a search box in the upper right corner.  Enter “editor” (without the double quotes).  Choose the **Microsoft.VisualStudio.Editor** item (you must check the box to the left of the item, not just select the item) and choose **OK** to add the reference.  
+ **Fix references**.  You are missing a reference at this point.  Press the right pointer button on the References node in the Solution Explorer.  Choose the **Add ...** command.  The **Add Reference** dialog has a search box in the upper right corner.  Enter “editor” (without the double quotes).  Choose the **Microsoft.VisualStudio.Editor** item (you must check the box to the left of the item, not just select the item) and choose **OK** to add the reference.  
   
  **Initialization**.  When the package class initializes, it calls `Initialize` on the commands implementation class.  The `ColumnGuideCommands` initialization instantiates the class and saves the class instance and the package reference in class members.  
   

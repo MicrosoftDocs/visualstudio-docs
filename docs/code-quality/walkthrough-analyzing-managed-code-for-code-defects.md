@@ -160,7 +160,7 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
          Select the **Sign the assembly** check box.  
   
-         In the **Choose a string name key file** list, select **\<New…>**.  
+         In the **Choose a string name key file** list, select **\<New...>**.  
   
          The **Create Strong Name Key** dialog box appears.  
   

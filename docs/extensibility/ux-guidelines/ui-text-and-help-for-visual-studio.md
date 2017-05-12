@@ -121,7 +121,7 @@ translation.priority.mt:
   
      ![Help link in Visual Studio](../../extensibility/ux-guidelines/media/0601-e_helplink.png "0601-e_HelpLink")  
   
-     **An ellipsis (…) in a Help link indicates the task will require additional UI.**  
+     **An ellipsis (...) in a Help link indicates the task will require additional UI.**  
   
 -   Links should not start with “Learn,” as that is not the user's intent. The user wants to answer a specific question, not receive a general education.  
   
@@ -133,7 +133,7 @@ translation.priority.mt:
      Correct:  
      “What pricing options are available for Windows Azure Mobile Services?”  
   
--   Never use *Click…* to the link text.  
+-   Never use *Click...* to the link text.  
   
 -   Never link only the word “here.” This is problematic for some screen readers, which will voice only the hyperlinked word.  
   

@@ -56,7 +56,7 @@ In order to build your extension in the new VSIX v3 (version 3) format, your sol
 
 To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
-* Right-click on the Solution and choose **Manage NuGet Packages for Solution…**
+* Right-click on the Solution and choose **Manage NuGet Packages for Solution...**
 * Navigate to the **Updates** tab.
 * Select Microsoft.VSSDK.BuildTools (latest version).
 * Press **Update**.

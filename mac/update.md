@@ -23,7 +23,7 @@ Visual Studio for Mac provides three channels to get these latest versions:
 
 You can use the **Visual Studio Updater** box to check for new updates, change channels, and download and install updates.
 
-To open the **Visual Studio Updater**, browse to **Visual Studio > Check for Updates…**:
+To open the **Visual Studio Updater**, browse to **Visual Studio > Check for Updates...**:
 
 ![Check for update option](media/update-image1.png)
 

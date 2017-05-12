@@ -241,7 +241,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      To see members that are in the code but don't appear on the map, click the **Refetch Children** icon ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon") in the top left corner of a group.  
   
-6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show…** option for the type of related items to add to the map. For example:  
+6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show...** option for the type of related items to add to the map. For example:  
   
      For an **assembly**, choose:  
   

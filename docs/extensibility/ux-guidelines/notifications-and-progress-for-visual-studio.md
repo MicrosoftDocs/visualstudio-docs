@@ -261,7 +261,7 @@ translation.priority.mt:
   
  ![Inline progress messaging](../../extensibility/ux-guidelines/media/0903-09_inlinetext.png "0903-09_InlineText")  
   
- **Server Explorer inline text: Refreshing…**  
+ **Server Explorer inline text: Refreshing...**  
   
 ##### Tool windows  
  Global progress indication is represented by an indeterminate progress bar positioned directly below the tool bar.  
@@ -518,7 +518,7 @@ public interface IVsInfoBarUIEvents
   
  **Validation involving a round trip to a server**  
   
- Note that adequate available space to the right of the control must be provided in order to accommodate the “Verifying…” and “Retry” text.  
+ Note that adequate available space to the right of the control must be provided in order to accommodate the “Verifying...” and “Retry” text.  
   
 #### In-place warning text  
  When there is room available to put the error message close to the control in a state of error, this is preferable to using the tooltip alone.  

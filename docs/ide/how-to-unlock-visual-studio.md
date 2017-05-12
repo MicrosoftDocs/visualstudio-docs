@@ -80,7 +80,7 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
   
 1.  Renew your subscription. To see more information about the license you are using, go to File > Account Settings dialog, and look at the license information on the right side of the dialog.  
   
-2.  If you have another subscription associated with a different account, add that account to the All Accounts list on the left side of File > Account Settings dialog by clicking on the “Add an account…” link.  
+2.  If you have another subscription associated with a different account, add that account to the All Accounts list on the left side of File > Account Settings dialog by clicking on the “Add an account...” link.  
   
 ## See also  
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)

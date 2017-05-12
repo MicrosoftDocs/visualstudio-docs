@@ -55,7 +55,7 @@ Here’s how to upgrade your extension.
   
 2.  Remove the VS SDK reference assemblies from the project by selecting them, right click and **Remove**.  
   
-3.  Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages…** dialog.  If you want to learn more about this dialog, see [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog). The VS SDK reference assemblies are published on [nuget.org](http://www.nuget.org) by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility).  
+3.  Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages...** dialog.  If you want to learn more about this dialog, see [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog). The VS SDK reference assemblies are published on [nuget.org](http://www.nuget.org) by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility).  
   
 4.  Using **nuget.org** as your **Package Source**, search for the NuGet package name which matches the desired reference assembly (for example: Microsoft.VisualStudio.Shell.14.0) and install it in your project.  NuGet may add multiple reference assemblies in order to satisfy the initial assembly’s dependencies.  
   

@@ -112,7 +112,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
  The following steps add then code to the PCL to access and store data from that weather service:  
   
-1.  Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.  
+1.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.  
   
 2.  Replace the entire contents of **Weather.cs** with the following:  
   

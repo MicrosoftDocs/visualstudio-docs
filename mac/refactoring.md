@@ -30,7 +30,7 @@ This will highlight the symbol and any references to it. When you start typing a
 
 Context actions allow you to inspect any C# code, and see all possible refactoring options. 
 
-The **Resolve** and **Refactor** context items are combined into a single *Quick Fix…* item that will provide you with all the available Context actions:
+The **Resolve** and **Refactor** context items are combined into a single *Quick Fix...* item that will provide you with all the available Context actions:
 
 ![Display Context Items](media/refactoring-context-action.png)
 

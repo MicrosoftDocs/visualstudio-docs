@@ -112,7 +112,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 1.  To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).  
   
-2.  Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.  
+2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.  
   
 3.  Replace the entire contents of **Weather.cs** with the following:  
   

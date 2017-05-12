@@ -10,7 +10,7 @@ ms.assetid: 81EE4460-26EB-4BB0-9297-932E1F88E4B8
 
 # Editor Behavior
 
-Editor behaviors can be set to allow code to be formatted as it is written. These actions are set under **Visual Studio > Preferences… > Text Editor > Behavior**, and some of the more commonly used functions are described below:
+Editor behaviors can be set to allow code to be formatted as it is written. These actions are set under **Visual Studio > Preferences... > Text Editor > Behavior**, and some of the more commonly used functions are described below:
 
 ![Editor Behavior options](media/source-editor-image9.png)
 

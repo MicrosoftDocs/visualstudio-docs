@@ -419,7 +419,7 @@ You can create a build environment within your organization by installing Visual
     </Project>  
     ```  
   
-5.  In each of your project files, add the following line at the top, after the `<Project Default Targets…>` line.  
+5.  In each of your project files, add the following line at the top, after the `<Project Default Targets...>` line.  
   
     ```  
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>  

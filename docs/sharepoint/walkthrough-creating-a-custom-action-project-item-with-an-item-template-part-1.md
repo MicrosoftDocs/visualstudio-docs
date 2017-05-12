@@ -163,7 +163,7 @@ manager: "ghogen"
   
 #### To create a custom icon for the project item  
   
-1.  In **Solution Explorer**, open the shortcut menu for the **ProjectItemDefinition** project, choose **Add**, and then choose **New Item…**.  
+1.  In **Solution Explorer**, open the shortcut menu for the **ProjectItemDefinition** project, choose **Add**, and then choose **New Item...**.  
   
 2.  In the list of project items, choose the **Icon File** item.  
   

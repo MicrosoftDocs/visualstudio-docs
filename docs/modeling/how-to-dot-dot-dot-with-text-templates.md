@@ -27,13 +27,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to ... with Text Templates
-Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
+Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.  
   
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.  
   
  For a general introduction to text templates, read [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
-## How to …  
+## How to ...  
   
 ### Generate part of my application code  
  I have a configuration or *model* in a file or a database. One or more parts of my code depend on that model.  

@@ -62,7 +62,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Clear Workspace**|Clears the workspace and the design surface.|  
 |**Remove from Workspace**|Removes selected nodes from the workspace and the design surface.|  
 |**Remove all but selection from Workspace**|Removes nodes that are not selected from the workspace and the design surface.|  
-|**Export Diagram as Image…**|Saves the design surface to an XPS file.|  
+|**Export Diagram as Image...**|Saves the design surface to an XPS file.|  
 |**Select All**|Selects all the nodes on the design surface.|  
 |**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|  
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|  

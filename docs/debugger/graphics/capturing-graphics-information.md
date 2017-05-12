@@ -59,7 +59,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
      ![Capture frames using the GPU Usage tool.](media/pix_gpu_usage_tool_capture_frame.png)  
   
-     When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame …** link above the image thumbnails, or by double-clicking the thumbnail.  
+     When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame ...** link above the image thumbnails, or by double-clicking the thumbnail.  
   
  Only whole frames can be captured, so when you initiate a capture, it’s really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
   

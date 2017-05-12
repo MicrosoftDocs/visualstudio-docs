@@ -66,7 +66,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 #### To change the color theme of the IDE  
   
-1.  Open the **Options** dialog box by choosing the **Tools** menu at the top and then the **Options …** item.  
+1.  Open the **Options** dialog box by choosing the **Tools** menu at the top and then the **Options ...** item.  
   
      ![Options command on the Tools menu](../ide/media/exploreide-toolsoptionsmenu.png "ExploreIDE-ToolsOptionsmenu")  
   
@@ -87,7 +87,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### To create the WPF project  
   
-1.  Create a new project. On the menu bar, choose **File**, **New**, **Project…**.  
+1.  Create a new project. On the menu bar, choose **File**, **New**, **Project...**.  
   
      ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")  
   
@@ -340,7 +340,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
- Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (…\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
+ Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (...\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
 ## See Also  
  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   

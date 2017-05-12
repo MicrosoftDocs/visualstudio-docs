@@ -228,7 +228,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
     {  
       return sourceInPort.Component == targetInPort.Component.Parent;  
     }  
-// And similar for OutPorts…  
+// And similar for OutPorts...  
 ```  
   
  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  

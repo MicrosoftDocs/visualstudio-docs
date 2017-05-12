@@ -36,7 +36,7 @@ You can set breakpoints in text templates. To debug a design-time text template,
   
 |Step|Design-time template: when it happens|Run-time template: when it happens|  
 |----------|--------------------------------------------|-----------------------------------------|  
-|Code is generated from the text template.<br /><br /> Errors in directives, or mismatched or disordered `<#…#>` tags.|When you save the template or invoke text transformation.|When you save the template or invoke text transformation.|  
+|Code is generated from the text template.<br /><br /> Errors in directives, or mismatched or disordered `<#...#>` tags.|When you save the template or invoke text transformation.|When you save the template or invoke text transformation.|  
 |Generated code is compiled.<br /><br /> Compilation errors in your template code.|Immediately after the previous step.|Along with your application code.|  
 |Code runs.<br /><br /> Run-time errors in your template code.|Immediately after the previous step.|When your application runs and invokes the template code.|  
   

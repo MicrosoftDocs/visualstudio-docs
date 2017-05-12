@@ -118,7 +118,7 @@ manager: "ghogen"
   
 1.  In **Solution Explorer**, choose the workflow node.  
   
-2.  In the **Properties** window, choose the ellipsis (…) button on any property that has an ellipsis button.  
+2.  In the **Properties** window, choose the ellipsis (...) button on any property that has an ellipsis button.  
   
 ## User Must Refresh Application Page in Browser While Debugging to View Updated Image  
  If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an [!INCLUDE[TLA2#tla_html](../sharepoint/includes/tla2sharptla-html-md.md)] Image control, you must refresh the page in the browser to display any changes that were made to the image.  

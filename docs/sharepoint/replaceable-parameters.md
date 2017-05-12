@@ -85,7 +85,7 @@ manager: "ghogen"
   
 -   DWP  
   
- These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the …\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
+ These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
   
  You can, however, add additional file extensions to the list. To do this, add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
   

@@ -169,7 +169,7 @@ translation.priority.mt:
   
 -   It is acceptable to use a small square button with only an ellipsis **[...]** on it instead of a **[Browse...]** button (or similar functionality). If used, verify that the button is 23x23 in size.  
   
--   If there is more than one **[Browse...]** button in a dialog, then verify that the shortened version (ellipsis-only **[…]**) is used for all.  
+-   If there is more than one **[Browse...]** button in a dialog, then verify that the shortened version (ellipsis-only **[...]**) is used for all.  
   
 -   Verify that ellipsis **[...]** buttons do not have a mnemonic. When focus is on the input control beside it, one tab should move focus to the ellipsis button.  
   

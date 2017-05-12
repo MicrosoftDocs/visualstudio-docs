@@ -118,7 +118,7 @@ translation.priority.mt:
   
  ![Choose Filter View, then Show External Code](../profiling/media/cpu_use_wt_filterview.png "CPU_USE_WT_FilterView")  
   
- Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[…]**:  
+ Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**:  
   
  ![Nested external code in the call tree](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "CPU_USE_WT_ShowExternalCodeTooWide")  
   

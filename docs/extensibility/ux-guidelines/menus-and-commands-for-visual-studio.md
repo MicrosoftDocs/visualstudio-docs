@@ -47,7 +47,7 @@ translation.priority.mt:
   
 -   appear on a default toolbar.  
   
--   are likely to be added by users to a toolbar through the **Customize…** dialog.  
+-   are likely to be added by users to a toolbar through the **Customize...** dialog.  
   
 -   have an icon associated with the same action in another Microsoft product.  
   
@@ -260,7 +260,7 @@ translation.priority.mt:
   
 -   The command will be placed in a default toolbar.  
   
--   The command is a specialty command that users are likely to add to a toolbar using the **“Customize…”** dialog.  
+-   The command is a specialty command that users are likely to add to a toolbar using the **“Customize...”** dialog.  
   
 ## Access and shortcut keys  
   

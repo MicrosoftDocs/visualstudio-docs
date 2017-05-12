@@ -36,7 +36,7 @@ An iterator is an object that is used to traverse a container object like a list
   
 -   IteratorResult interface  
   
- By using these interfaces, you can create custom iterators. This allows you to traverse an iterable object using the `for…of` statement.  
+ By using these interfaces, you can create custom iterators. This allows you to traverse an iterable object using the `for...of` statement.  
   
 ### Iterable interface  
  The Iterable interface is the required interface for an iterable object (an object for which an iterator can be obtained). For example, `C` in `for (let e of C)` must implement the Iterable interface.  
@@ -49,7 +49,7 @@ obj[Symbol.iterator] = function() { return iterObj; }
   
  This property must be a function that accepts no arguments and returns an object (`iterObject`) that conforms to the `Iterator` interface.  
   
- Many built-in types, including arrays, are now iterable. The `for…of` loop consumes an iterable object. (However, not all built-in iterables are iterators. For example, an Array object is not an iterator itself, but it is iterable, whereas an ArrayIterator is also iterable.)  
+ Many built-in types, including arrays, are now iterable. The `for...of` loop consumes an iterable object. (However, not all built-in iterables are iterators. For example, an Array object is not an iterator itself, but it is iterable, whereas an ArrayIterator is also iterable.)  
   
 ### Iterator interface  
  The object returned by the Symbol.iterator method must implement the `next` method. The `next` method has the following syntax.  
