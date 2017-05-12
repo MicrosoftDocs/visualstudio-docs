@@ -41,7 +41,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
  Why adopt the image service?  
   
--   Always get the latest “pixel-perfect” image from Visual Studio  
+-   Always get the latest "pixel-perfect" image from Visual Studio  
   
 -   You can submit and use your own images  
   
@@ -409,7 +409,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 ```  
   
 ## How do I use image monikers in a new tool window?  
- The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select “Add New Item...” (Ctrl+Shift+A). Under the Extensibility node for the project language, select “Custom Tool Window,” give the tool window a name, and press the “Add” button.  
+ The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select "Add New Item..." (Ctrl+Shift+A). Under the Extensibility node for the project language, select "Custom Tool Window," give the tool window a name, and press the "Add" button.  
   
  These are the key places to use monikers in a tool window. Follow the instructions for each:  
   
@@ -454,11 +454,11 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
         this.BitmapIndex = <Value>;  
         ```  
   
-    2.  See step #1 of the “How Do I Use Image Monikers in a New Tool Window?” section above.  
+    2.  See step #1 of the "How Do I Use Image Monikers in a New Tool Window?" section above.  
   
 2.  The command to open the tool window.  
   
-    -   See step #2 of the “How Do I Use Image Monikers in a New Tool Window?” section above.  
+    -   See step #2 of the "How Do I Use Image Monikers in a New Tool Window?" section above.  
   
 ## How do I use image monikers in a .vsct file?  
  Update your .vsct file as indicated by the commented lines below:  
@@ -528,11 +528,11 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
 2.  Implement either **VSHPROPID_IconMonikerImageList** (if the original project used **VSHPROPID_IconImgList**) or **VSHPROPID_IconMonikerGuid**, **VSHPROPID_IconMonikerId**, **VSHPROPID_OpenFolderIconMonikerGuid**, **VSHPROPID_OpenFolderIconMonikerId** (if the original project used **VSHPROPID_IconHandle** and **VSHPROPID_OpenFolderIconHandle**).  
   
-3.  Change the implementation of the original VSHPROPIDs for icons to create “legacy” versions of the icons if extension points request them. **IVsImageService2** provides functionality necessary to get those icons  
+3.  Change the implementation of the original VSHPROPIDs for icons to create "legacy" versions of the icons if extension points request them. **IVsImageService2** provides functionality necessary to get those icons  
   
  **Extra requirements for VB/C# project flavors**  
   
- Only implement **VSHPROPID_SupportsIconMonikers** if you detect that your project is the **outermost flavor**. Otherwise, the actual outermost flavor may not support image monikers in reality, and your base flavor might effectively “hide” customized images.  
+ Only implement **VSHPROPID_SupportsIconMonikers** if you detect that your project is the **outermost flavor**. Otherwise, the actual outermost flavor may not support image monikers in reality, and your base flavor might effectively "hide" customized images.  
   
  **How do I use image monikers in CPS?**  
   
@@ -586,9 +586,9 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
     -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.  
   
-    -   Replace each **ContainedImage**’s GUID with $(ImageCatalogGuid), replace each **ContainedImage**’s ID with $(\<moniker>), and add the External=”true” attribute to each **ContainedImage**  
+    -   Replace each **ContainedImage**’s GUID with $(ImageCatalogGuid), replace each **ContainedImage**’s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**  
   
-        -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the “KnownMonikers.” removed from the name.  
+        -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.  
   
     -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\> to the top of the \<Symbols> section.  
   
@@ -694,7 +694,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
     -   Add the .imagemanifest file to your project.  
   
-    -   Set “Include in VSIX” to True.  
+    -   Set "Include in VSIX" to True.  
   
 -   I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?  
   

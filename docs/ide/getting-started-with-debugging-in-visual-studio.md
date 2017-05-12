@@ -73,7 +73,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG "Vs_ide_gs_debug_bad_build_error_list")  
 
- Click on the error line in the **Error List** window and jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing “line numbers” into it, and pressing Enter. This is the fastest way to get to **Options** window entry where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)  
+ Click on the error line in the **Error List** window and jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing Enter. This is the fastest way to get to **Options** window entry where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)  
 
  ![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png "Vs_ide_gs_debug_line_numbers")  
 
@@ -81,7 +81,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  Use Ctrl+G to quickly jump to the line number where the error occurred.  
 
- The error is identified by a red “squiggle” underscore. Hover over it for additional details. Make the fix and it will go away, although you may introduce a new error with the correction. (This is called a “regression”.)  
+ The error is identified by a red "squiggle" underscore. Hover over it for additional details. Make the fix and it will go away, although you may introduce a new error with the correction. (This is called a "regression".)  
 
  ![Visual Studio error hover](../ide/media/vs_ide_gs_debug_error_hover1.png "Vs_ide_gs_debug_error_hover1")  
 
@@ -99,7 +99,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  Alternatively, you can click on the hyperlinked error code value in the **Code** column of the **Error List**. This will launch a Bing search for just the error code.  
 
 ### Performing Static Code Analysis  
- “Static code analysis” is a fancy way of saying “automatically check my code for common problems that can lead to run-time errors or problems in code management”. Get in the habit of running it once you’ve cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You’ll save yourself some headaches down the road, as well as learn a few code style techniques.  
+ "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you’ve cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You’ll save yourself some headaches down the road, as well as learn a few code style techniques.  
 
  Press Alt+F11 (or select **Analyze->Run Code Analysis on Solution** from the top menu) to start static code analysis. This may take some time if you have a lot of code.  
 
@@ -154,7 +154,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio breakpoint](../ide/media/vs_ide_gs_debug_breakpoint1.png "Vs_ide_gs_debug_breakpoint1")  
 
- When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called “stepping into” the code. If the marked code is a method call, you can step into it by pressing F11. You can also “step over” the line of code by pressing F10. For more details on breakpoint step actions, read [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).  
+ When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing F11. You can also "step over" the line of code by pressing F10. For more details on breakpoint step actions, read [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).  
 
  Common uses for breakpoints include:  
 
@@ -171,7 +171,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 ### Setting Conditional Breakpoints  
  If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a conditional breakpoint to ensure that your code is suspended ONLY when specific conditions are met. Otherwise, you’ll be pressing F11 an awful lot.  
 
- To set a conditional breakpoint and suspend your code when a variable is set to a certain value or passes a certain threshold, click in the margin to set a breakpoint, and then select the “cog” from the hover menu that appears.  
+ To set a conditional breakpoint and suspend your code when a variable is set to a certain value or passes a certain threshold, click in the margin to set a breakpoint, and then select the "cog" from the hover menu that appears.  
 
  ![Visual Studio breakpoint settings](../ide/media/vs_ide_gs_debug_breakpoint_settings.png "Vs_ide_gs_debug_breakpoint_settings")  
 

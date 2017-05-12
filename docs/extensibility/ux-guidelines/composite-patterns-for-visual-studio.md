@@ -236,7 +236,7 @@ Composite patterns combine interaction and design elements in distinct configura
   
 -   **Always** position the ambient indicator as close as possible to the content that it’s related to.  
   
--   **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, “3 references” instead of simply “References”) or think of some other way to summarize the data.  
+-   **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, "3 references" instead of simply "References") or think of some other way to summarize the data.  
   
     -   In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.  
   

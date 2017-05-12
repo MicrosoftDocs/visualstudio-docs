@@ -59,7 +59,7 @@ translation.priority.mt:
 |[Progress indicators](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_NotSysProgressIndicators)|Use when you need to report progress (either determinate or indeterminate). There are a variety of progress indicator types and specific usage for each. See [Progress indicators](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ProgressIndicators).||  
 |[Visual Studio Notifications window](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_VSNotificationsToolWindow)|The Notifications window is not publicly extensible. However, it is used to communicate a range of messages about Visual Studio, including critical issues with your license and informational notifications of updates to Visual Studio or to packages.|Do not use for other types of notifications.|  
 |[Error list](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ErrorList)|When the issue relates directly to the user’s currently open solution having an issue (error/warning/info), they might need to take action on the code.<br /><br /> This would include, for example:<br /><br /> - Compiler messages (error/warning/info)<br /><br /> - Code Analyzer/Diagnostic messages about the code<br /><br /> - Build messages<br /><br /> May be appropriate for issues relating to the project or solution files, but consider a Solution Explorer indication first.|Do not use for items that do not have any relation to the user’s open solution code.|  
-|Editor notifications: Light Bulb|Use when you have a fix available to remedy an issue that exists in the open file.<br /><br /> Note that Light Bulb should also be used for hosting Quick Actions that are taken on the user’s code on demand, such as refactorings, but in that case will not appear “notification style.”|Do not use for items that do not have any relation to the open file.|  
+|Editor notifications: Light Bulb|Use when you have a fix available to remedy an issue that exists in the open file.<br /><br /> Note that Light Bulb should also be used for hosting Quick Actions that are taken on the user’s code on demand, such as refactorings, but in that case will not appear "notification style."|Do not use for items that do not have any relation to the open file.|  
 |Editor notifications: Squiggles|Use to alert the user to an issue with a particular span of their open code (for example, a red squiggle for errors).|Do not use for items that do not relate to a particular span of their open code.|  
 |[Embedded status bars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_EmbeddedStatusBars)|Use to provide status related to content or process within context of a specific tool window, document window, or dialog window.|Do not use for general product notifications, processes, or items that do not have any relation to the content within the specific window.|  
 |[Windows tray notifications](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_WindowsTray)|Use to surface notifications for out-of-proc processes or companion applications.|Do not use for notifications that are relevant to the IDE.|  
@@ -320,7 +320,7 @@ translation.priority.mt:
   
 -   Keep the text on links and buttons succinct.  
   
--   Ensure the “action” options you provide to users are minimal, showing only required actions.  
+-   Ensure the "action" options you provide to users are minimal, showing only required actions.  
   
 ##### Don’t:  
   
@@ -431,7 +431,7 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 -   Within a document tab  
   
 > [!IMPORTANT]
->  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with “jump and jerk” of the IDE and should be avoided unless absolutely necessary and appropriate.  
+>  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.  
   
 #### Placing an infobar in a ToolWindowPane  
  The ToolWindowPane.AddInfoBar(IVsInfoBar) method can be used to add an infobar to a tool window. This API can either add an IVsInfoBar (of which InfoBarModel is a default implementation), or an IVsUIElement.  
@@ -518,7 +518,7 @@ public interface IVsInfoBarUIEvents
   
  **Validation involving a round trip to a server**  
   
- Note that adequate available space to the right of the control must be provided in order to accommodate the “Verifying...” and “Retry” text.  
+ Note that adequate available space to the right of the control must be provided in order to accommodate the "Verifying..." and "Retry" text.  
   
 #### In-place warning text  
  When there is room available to put the error message close to the control in a state of error, this is preferable to using the tooltip alone.  

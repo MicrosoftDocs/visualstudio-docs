@@ -46,7 +46,7 @@ You can use the **Peek Definition** command to view and edit code without switch
   
      ![Peek Window](../ide/media/peekwindow.png "PeekWindow")  
   
-     The definition window appears below the `printer.Print(“Hello World!”)` line in the original file. The window doesn't hide any of the code in your original file. The lines that follow the `printer.Print(“Hello World!”)` call appear under the definition window.  
+     The definition window appears below the `printer.Print("Hello World!")` line in the original file. The window doesn't hide any of the code in your original file. The lines that follow the `printer.Print("Hello World!")` call appear under the definition window.  
   
 2.  You can move the cursor to different locations in the code definition window. You can still move around in the original code window above or below the definition window.  
   

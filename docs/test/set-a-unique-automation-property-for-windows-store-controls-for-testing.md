@@ -68,7 +68,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
  Set the AutomationProperties.AutomationId to **ButtonX** explicitly in the XAML for the control.  
   
 ```xaml  
-<Button AutomationProperties.AutomationId=“ButtonX” Height="31" HorizontalAlignment="Left" Margin="23,26,0,0"  VerticalAlignment="Top" Width="140" Click="ButtonX_Click" />  
+<Button AutomationProperties.AutomationId="ButtonX" Height="31" HorizontalAlignment="Left" Margin="23,26,0,0"  VerticalAlignment="Top" Width="140" Click="ButtonX_Click" />  
   
 ```  
   
@@ -191,8 +191,8 @@ public override string ToString()
   
 ```xaml  
   
-<Button Content=”Button1” Style="{StaticResource MyButton}" Width="140"/>  
-<Button Content=”Button2” Style="{StaticResource MyButton}" Width="140"/>  
+<Button Content="Button1" Style="{StaticResource MyButton}" Width="140"/>  
+<Button Content="Button2" Style="{StaticResource MyButton}" Width="140"/>  
 ```  
   
 ###  <a name="UniquePropertyWindowsStoreControlsDynamicControls"></a> Dynamic controls  

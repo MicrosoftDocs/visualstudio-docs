@@ -37,7 +37,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 >  Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.  
   
 ## Package Manifest Schema  
- The root element of the manifest XML file is `<PackageManifest>`, with a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format will be changed. This topic describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value Version=”2.0”.  
+ The root element of the manifest XML file is `<PackageManifest>`, with a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format will be changed. This topic describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value Version="2.0".  
   
 ### PackageManifest Element  
  Within the `<PackageManifest>` root element, you can use the following elements:  
@@ -90,11 +90,11 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `Experimental` – Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.  
   
--   `Scope` – This attribute can take the value “Global” or “ProductExtension”:  
+-   `Scope` – This attribute can take the value "Global" or "ProductExtension":  
   
-    -   “Global” specifies that the installation is not scoped to a specific SKU. For example, this value is used when an Extension SDK is installed.  
+    -   "Global" specifies that the installation is not scoped to a specific SKU. For example, this value is used when an Extension SDK is installed.  
   
-    -   “ProductExtension” specifies that a traditional VSIX Extension (version 1.0) scoped to individual Visual Studio SKUs is installed. This is the default value.  
+    -   "ProductExtension" specifies that a traditional VSIX Extension (version 1.0) scoped to individual Visual Studio SKUs is installed. This is the default value.  
   
 -   `AllUsers` – This optional attribute specifies whether this package will be installed for all users. By default, this attribute is false, which specifies that the package is per user. (When you set this value to true, the installing user must elevate to administrative privilege level to install the resulting VSIX.  
   
@@ -104,7 +104,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `AnyAttribute*` – The `Installation` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.  
   
--   `<InstallationTarget>` –This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is “ProductExtension” the package must target a SKU which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value “ProductExtension”:  
+-   `<InstallationTarget>` –This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":  
   
     -   `Id` – This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:  
   

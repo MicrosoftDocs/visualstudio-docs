@@ -94,7 +94,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
   
  **Color**  
   
- The \<Color> element defines a color for a component or state of UI. The preferred naming scheme for a color is [UI type] [State]. Do not use the word “color,” as it is redundant. A color should clearly indicate the element type and the situations, or “state,” for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:  
+ The \<Color> element defines a color for a component or state of UI. The preferred naming scheme for a color is [UI type] [State]. Do not use the word "color," as it is redundant. A color should clearly indicate the element type and the situations, or "state," for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:  
   
 ```xml  
 <Color Name="name">  

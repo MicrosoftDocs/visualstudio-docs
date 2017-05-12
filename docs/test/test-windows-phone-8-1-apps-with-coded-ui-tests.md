@@ -365,7 +365,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### Q: Can I run a coded UI test on my Windows Phone app from the command-line?  
  **A**: Yes, you use a runsettings file to specify the target device for test execution. For example:  
   
- **vstest.console.exe “pathToYourCodedUITestDll” /settings:devicetarget.runsettings**  
+ **vstest.console.exe "pathToYourCodedUITestDll" /settings:devicetarget.runsettings**  
   
  Sample runsettings file:  
   

@@ -106,7 +106,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 2.  Validate the Android designer: in the Android project in Solution Explorer, open the **Resources > Layout > Main.axml** file.
 
-    -   If you receive an error saying “The installed Android SDK is too old”, click **Open Android SDK** in that message and select the newest SDK version available. Note that you must be running Visual Studio as an administrator to update the SDK.
+    -   If you receive an error saying "The installed Android SDK is too old", click **Open Android SDK** in that message and select the newest SDK version available. Note that you must be running Visual Studio as an administrator to update the SDK.
 
 3.  Validate that you can connect from Visual Studio to the emulator that is installed on your Mac.  The result of this is that you will see the Xamarin Player in the list of emulators that you can select from within Visual Studio for debugging.  To do this, follow the instructions on [Connecting Visual Studio to the Xamarin Android Player](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/android-player-with-visual-studio-in-vm/) (xamarin.com).
 

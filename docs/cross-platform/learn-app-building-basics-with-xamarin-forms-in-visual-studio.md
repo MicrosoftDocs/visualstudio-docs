@@ -227,7 +227,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 ##  <a name="uicode"></a> Begin writing shared UI code  
  Xamarin.Forms let you implement shared UI code in the PCL. In these steps you’ll add a screen to the PCL with a button that updates its text with data returned by the weather data service code added in the previous section:  
   
-1.  Add a **Forms Xaml Page** named **WeatherPage.cs** by right-clicking the **WeatherApp** project and selecting **Add > New Item...**. In the **Add New Item** dialog, search on “Forms,” select **Forms Xaml Page**, and name it **WeatherPage.cs**.  
+1.  Add a **Forms Xaml Page** named **WeatherPage.cs** by right-clicking the **WeatherApp** project and selecting **Add > New Item...**. In the **Add New Item** dialog, search on "Forms," select **Forms Xaml Page**, and name it **WeatherPage.cs**.  
   
      Xamarin.Forms is XAML-based, so this step creates a **WeatherPage.xaml** file along with the nested code-behind file **WeatherPage.xaml.cs**. This allows you to generate UI through either XAML or code. You’ll do some of both in this walkthrough.  
   
@@ -246,7 +246,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
      Notice that the name of the button must be defined using the **x:Name** attribute so that you can reference this button by name from within the code-behind file.  
   
-3.  To add an event handler for the button’s **Clicked** event to update the button text, replace the contents of **WeatherPage.xaml.cs** with the code below. (Feel free to change “60601” to another zip code.)  
+3.  To add an event handler for the button’s **Clicked** event to update the button text, replace the contents of **WeatherPage.xaml.cs** with the code below. (Feel free to change "60601" to another zip code.)  
   
     ```c#  
     using System;  
@@ -394,7 +394,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
      Note the use of the **OnPlatform** tag in Xamarin.Forms. **OnPlatform** selects a property value that’s specific to the current platform on which the app is running (see [External XAML Syntax](http://developer.xamarin.com/guides/xamarin-forms/user-interface/xaml-basics/essential_xaml_syntax/) (xamarin.com). We’re using it here to set a different text color for the data fields: White on Android and Windows Phone, Black on iOS. You can use **OnPlatform** for any properties and any data types to make platform-specific adjustments anywhere in your XAML. In the code-behind file, you can use the [Device.OnPlatform API](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) for the same purpose.  
   
-2.  In **WeatherPage.xaml.cs**, replace the **GetWeatherBtn_Clicked** event handler with the code below. This code verifies that there’s a zip code in the entry field, retrieves data for that zip code, sets the whole screen’s binding context to the resulting Weather instance, then sets the button text to “Search Again.” Note that each label in the UI binds to a property of the Weather class, so when you set the screen’s binding context to a **Weather** instance, those labels update automatically.  
+2.  In **WeatherPage.xaml.cs**, replace the **GetWeatherBtn_Clicked** event handler with the code below. This code verifies that there’s a zip code in the entry field, retrieves data for that zip code, sets the whole screen’s binding context to the resulting Weather instance, then sets the button text to "Search Again." Note that each label in the UI binds to a property of the Weather class, so when you set the screen’s binding context to a **Weather** instance, those labels update automatically.  
   
     ```c#  
     private async void GetWeatherBtn_Clicked(object sender, EventArgs e)  

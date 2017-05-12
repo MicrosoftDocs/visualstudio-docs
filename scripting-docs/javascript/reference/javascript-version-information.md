@@ -32,7 +32,7 @@ Different versions of JavaScript support different sets of JavaScript elements. 
  The table that follows shows the Internet Explorer document modes (and Store apps representing [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] and [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)]) that support specific language elements. Document modes that support a given element are shown with the letter **Y**, and document modes that do not support a given element are shown with the letter **N**.  
   
 > [!IMPORTANT]
->  [!INCLUDE[jsv12text](../../javascript/includes/jsv12text-md.md)] (Edge browser in Windows 10) does not include support for legacy document modes. Support for [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)] apps starts with Windows Phone 8.1. Experimental features (about:flags) are indicated by “Exp.”  
+>  [!INCLUDE[jsv12text](../../javascript/includes/jsv12text-md.md)] (Edge browser in Windows 10) does not include support for legacy document modes. Support for [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)] apps starts with Windows Phone 8.1. Experimental features (about:flags) are indicated by "Exp."  
   
  The table contains summary info. For more specific information, see the documentation for the language element.  
   

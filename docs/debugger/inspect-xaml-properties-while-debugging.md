@@ -95,7 +95,7 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  Go back to the application window and add a few more items. You should see more list box items appear in the **Live Visual Tree**.  
   
- Now let’s look at the properties of one of the list box items. Select the first list box item in the **Live Visual Tree** and click the **Show Properties** icon on the toolbar. The **Live Property Explorer** should appear. Note that the **Content** field is “Item1”, and the **Background** field is **#FFFFFFE0** (light yellow). Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is “Item2”, and the **Background** field is **#FFD3D3D3** (light gray).  
+ Now let’s look at the properties of one of the list box items. Select the first list box item in the **Live Visual Tree** and click the **Show Properties** icon on the toolbar. The **Live Property Explorer** should appear. Note that the **Content** field is "Item1", and the **Background** field is **#FFFFFFE0** (light yellow). Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is "Item2", and the **Background** field is **#FFD3D3D3** (light gray).  
   
  The actual structure of the XAML has a lot of elements that you’re probably not directly interested in, and if you don’t know the code well you might have a hard time navigating the tree to find what you’re looking for. So the **Live Visual Tree** has a couple of ways that let you use the application’s UI to help you find the element you want to examine.  
   

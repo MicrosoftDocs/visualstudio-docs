@@ -84,16 +84,16 @@ int main() {
 |x<br /><br /> **h**|hexadecimal integer|102|0xcccccccc|  
 |X<br /><br /> **H**|hexadecimal integer|102|0xCCCCCCCC|  
 |c|single character|0x0065, c|101 'e'|  
-|s|const char* string|\<location> “hello world”|"hello world"|  
-|**sb**|const char* string (no quotation marks)|\<location> “hello world”|hello world|  
+|s|const char* string|\<location> "hello world"|"hello world"|  
+|**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|  
 |s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
 |**s8b**|UTF-8 string (no quotation marks)|\<location> "hello world"|hello world|  
-|su|Unicode (UTF-16 encoding) string|\<location> L”hello world”|L"hello world"<br /><br /> u"hello world"|  
-|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L”hello world”|hello world|  
-|bstr|BSTR string|\<location> L”hello world”|L”hello world”|  
+|su|Unicode (UTF-16 encoding) string|\<location> L"hello world"|L"hello world"<br /><br /> u"hello world"|  
+|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L"hello world"|hello world|  
+|bstr|BSTR string|\<location> L"hello world"|L"hello world"|  
 |env|Environment block (double-null terminated string)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
-|**s32**|UTF-32 string|\<location> U”hello world”|U”hello world”|  
-|**s32b**|UTF-32 string (no quotation marks)|\<location> U”hello world”|hello world|  
+|**s32**|UTF-32 string|\<location> U"hello world"|U"hello world"|  
+|**s32b**|UTF-32 string (no quotation marks)|\<location> U"hello world"|hello world|  
 |**en**|enum|Saturday(6)|Saturday|  
 |**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|  
 |**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|  

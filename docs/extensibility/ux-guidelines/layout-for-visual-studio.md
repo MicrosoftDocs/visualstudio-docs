@@ -69,7 +69,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 -   If there are horizontal buttons that operate within the dialog, the alternate command button configuration is a vertical stack at the upper right. See [Interior command buttons](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_InteriorCommandButtons) below.  
   
--   The space to the left of the command buttons (lower left/center of the dialog) is considered part of the “band” of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
+-   The space to the left of the command buttons (lower left/center of the dialog) is considered part of the "band" of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
   
 -   Command buttons should be 75x23 pixels.  
   

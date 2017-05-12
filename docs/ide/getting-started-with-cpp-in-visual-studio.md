@@ -80,7 +80,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 ##  <a name="BKMK_AddCode"></a> Add Code to the Application  
  Next, you'll add code to display the word "Hello" in the console window.  
   
-#### To display “Hello” in the console window  
+#### To display "Hello" in the console window  
   
 1.  In the GreetingsConsoleApp.cpp file, enter a blank line before the line `return 0;` and then enter the following code:  
   

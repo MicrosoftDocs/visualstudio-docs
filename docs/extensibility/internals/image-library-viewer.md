@@ -200,7 +200,7 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
   
  ![Image Library Viewer Background](../../extensibility/internals/media/image-library-viewer-background.png "Image Library Viewer Background")  
   
- The background color can be set to Light, Dark, or a custom value. Selecting “Custom Color” will open a color selection dialog and add that custom color to the bottom of the background combo box for easy recall later.  
+ The background color can be set to Light, Dark, or a custom value. Selecting "Custom Color" will open a color selection dialog and add that custom color to the bottom of the background combo box for easy recall later.  
   
  ![Image Library Viewer Custom Color](../../extensibility/internals/media/image-library-viewer-custom-color.png "Image Library Viewer Custom Color")  
   

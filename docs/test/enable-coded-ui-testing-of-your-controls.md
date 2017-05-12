@@ -108,7 +108,7 @@ Your control can be more easily tested if you implement support for the coded UI
         {  
             get  
             {  
-                // Add “;” and the state value to the end  
+                // Add ";" and the state value to the end  
                 // of the curve legend’s description  
                 return "CurveLegend; " + State.ToString();  
             }  
@@ -161,7 +161,7 @@ Your control can be more easily tested if you implement support for the coded UI
 11. Build your binaries and copy them to **%ProgramFiles%\Common\Microsoft Shared\VSTT\10.0\UITestExtensionPackages**.  
   
 > [!NOTE]
->  This extension package will be applied to any control that is of type “Text”. If you’re testing multiple controls of the same type, you’ll need to test them separately and manage which extension packages are deployed when you record the tests.  
+>  This extension package will be applied to any control that is of type "Text". If you’re testing multiple controls of the same type, you’ll need to test them separately and manage which extension packages are deployed when you record the tests.  
   
 ##  <a name="codegeneration"></a> Support Code Generation by implementing a Class to Access Custom Properties  
  When the coded UI test builder generates code from a session recording, it uses the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl> class to access your controls.  

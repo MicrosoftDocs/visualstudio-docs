@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | Microsoft Docs"
+title: "Upgrading Custom Project and Item Templates for Visual Studio "15" | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -71,7 +71,7 @@ Starting in Visual Studio 2017, Visual Studio is changing the way it discovers p
 -   If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually-generated manifest to the VSIX project.  
   
 ## File Changes in Project and Item Templates  
- We will show the points of difference between the Visual Studio 2015 version and the Visual Studio “15” version of the template files, so that you can create the new files correctly.  
+ We will show the points of difference between the Visual Studio 2015 version and the Visual Studio "15" version of the template files, so that you can create the new files correctly.  
   
  Here is the default project .vstemplate file created by Visual Studio 2015:  
   

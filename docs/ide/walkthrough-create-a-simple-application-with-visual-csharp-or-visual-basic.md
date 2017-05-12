@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic
-By completing this walkthrough, you’ll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You’ll create a simple “Hello, World”-style application, design the UI, add code, and debug errors, while you learn more about working in the integrated development environment (IDE).  
+By completing this walkthrough, you’ll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application, design the UI, add code, and debug errors, while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  
   
@@ -155,7 +155,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### To customize the text in the text block  
   
-1.  In the XAML view, locate the markup for TextBlock and change the Text attribute: `Text=”Select a message option and then choose the Display button.”`  
+1.  In the XAML view, locate the markup for TextBlock and change the Text attribute: `Text="Select a message option and then choose the Display button."`  
   
 2.  If the TextBlock does not expand to fit the In the Design view, enlarge the TextBlock control (using the grab handles on the edges) so that it displays all the text.  
   
@@ -195,7 +195,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 1.  In the **Toolbox**, search for the **Button** control, and then add it to the design surface under the RadioButton controls by selecting Button and dragging it to the form in the design view.  
   
-2.  In the XAML view, change the value of **Content** for the Button control from `Content=”Button”` to `Content=”Display”`, and then save the changes (Ctrl-s or use the **File** menu).  
+2.  In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes (Ctrl-s or use the **File** menu).  
   
      The markup should resemble the following example: `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`  
   
@@ -309,7 +309,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 6.  On the menu bar, choose **Debug**, **Step Out**.  
   
-     The application resumes execution, and a message box with the word “Hello” appears.  
+     The application resumes execution, and a message box with the word "Hello" appears.  
   
 7.  Choose the **OK** button on the message box to close it.  
   
@@ -332,7 +332,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
      ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png "ExploreIDE-CleanSolution")  
   
-2.  Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says “Debug” currently).  
+2.  Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).  
   
      ![The Standard toolbar with Release selected](../ide/media/exploreide-releaseversion.png "ExploreIDE-ReleaseVersion")  
   

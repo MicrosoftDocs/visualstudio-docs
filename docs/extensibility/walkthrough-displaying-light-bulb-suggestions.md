@@ -30,7 +30,7 @@ translation.priority.mt:
 # Walkthrough: Displaying Light Bulb Suggestions
 Light bulbs are icons used in the Visual Studio editor that expand to display a set of actions, for example fixes for problems identified by the built-in code analyzers or code refactoring.  
   
- In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform (“Roslyn”) to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
+ In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
   
 -   [How To: Write a C# Diagnostic and Code Fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
   
@@ -355,7 +355,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to “Convert ‘{0}’ to lower case” and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
+11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to "Convert ‘{0}’ to lower case" and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
   
 ## Building and Testing the Code  
  To test this code, build the LightBulbTest solution and run it in the Experimental instance.  

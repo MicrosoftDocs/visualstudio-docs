@@ -166,7 +166,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one characters) and `*` (zero or more characters). For example,<br /><br /> `<Module Name=”?:\3rdParty\UtilLibs\*” />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
+|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one characters) and `*` (zero or more characters). For example,<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
 |`Company`|Optional. The name of the company that publishes the module that is embedded in the executable file. You can use this attribute to disambiguate the modules.|  
   
  **File element attributes**  
@@ -266,19 +266,19 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
     "Function" : "Classification",  
     "ScriptBlock" : "Classification",  
     "MyCode" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Libraries" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Unrelated" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ]  
 }  
   

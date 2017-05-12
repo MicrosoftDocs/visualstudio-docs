@@ -141,7 +141,7 @@ Create a code map to visually trace the call stack while you’re debugging. You
   
      Changing the map doesn’t affect the code in any way. Feel free to rename, move, or remove anything on the map.  
   
--   **What does this message mean: “The diagram may be based on an older version of the code”?**  
+-   **What does this message mean: "The diagram may be based on an older version of the code"?**  
   
      The code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.  
   

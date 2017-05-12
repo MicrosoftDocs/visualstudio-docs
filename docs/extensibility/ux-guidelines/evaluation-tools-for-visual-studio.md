@@ -43,7 +43,7 @@ translation.priority.mt:
   
 ### Performance  
   
--   Verify that some kind of “busy” indicator is shown if a command takes more than one second to complete.  
+-   Verify that some kind of "busy" indicator is shown if a command takes more than one second to complete.  
   
 -   Verify that if a command takes more than 10 seconds to complete, an explicit progress bar, either determinate (preferred) or indeterminate, is displayed.  
   
@@ -159,7 +159,7 @@ translation.priority.mt:
   
     -   that the background is set to `Environment.ControlEditRequiredBackground` and the foreground is set to `Environment.ControlEditRequiredHintText`  
   
-    -   that there is hint text within the control that appears as **“\<Required>”**  
+    -   that there is hint text within the control that appears as **"\<Required>"**  
   
 #### Button controls  
   

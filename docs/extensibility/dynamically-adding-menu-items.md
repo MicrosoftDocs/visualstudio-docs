@@ -298,7 +298,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     }  
     ```  
   
-2.  Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a “real” item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).  
+2.  Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a "real" item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).  
   
     ```c#  
     private void OnBeforeQueryStatusDynamicItem(object sender, EventArgs args)  

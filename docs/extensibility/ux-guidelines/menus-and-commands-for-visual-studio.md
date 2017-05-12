@@ -58,7 +58,7 @@ translation.priority.mt:
  Be aware that your commands will be customized by others and design them accordingly. There is no such thing as a hidden command. All Visual Studio commands appear in the **Tools > Customize** dialog, the Command Window, auto-complete, the **Tools > Options > Keyboard** dialog, and the Development Tools Environment (DTE). Make sure to give your commands a name and tooltip in your .ctc file so that users can find them easily.  
   
 ##### Do not duplicate shared commands on an embedded toolbar.  
- It is useful to place commands in close proximity to the area of the user’s focus. One way to do this is to create an embedded toolbar at the top of your tool window or document editor. The commands placed on the toolbar should be specific to the content region within the window. Do not duplicate shared commands on these toolbars. For example, never place a “Save” icon within an embedded toolbar.  
+ It is useful to place commands in close proximity to the area of the user’s focus. One way to do this is to create an embedded toolbar at the top of your tool window or document editor. The commands placed on the toolbar should be specific to the content region within the window. Do not duplicate shared commands on these toolbars. For example, never place a "Save" icon within an embedded toolbar.  
   
 ### Content and command visibility  
  Commands exist in the following scopes: **Environment**, **Hierarchy**, and **Document**. Know each scope in order to have confidence in command placement.  
@@ -247,7 +247,7 @@ translation.priority.mt:
   
 -   Use title-case capitalization: the first letter of each word should be capitalized. For more information about text formatting in Visual Studio, see [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).  
   
--   Take into consideration where the command will be placed. Is it in a top-level menu or a flyout? For example, when grouping alignment commands in a flyout, the top-level command should be "Align” and the flyout commands should be "Left," "Right," "Center," "Justify," and so on. It would be redundant to name the flyout commands "Align Left" or "Align Right.”  
+-   Take into consideration where the command will be placed. Is it in a top-level menu or a flyout? For example, when grouping alignment commands in a flyout, the top-level command should be "Align" and the flyout commands should be "Left," "Right," "Center," "Justify," and so on. It would be redundant to name the flyout commands "Align Left" or "Align Right."  
   
      ![Visual Studio Format menu](../../extensibility/ux-guidelines/media/0502-a_formatmenu.png "0502-a_FormatMenu")  
   
@@ -260,7 +260,7 @@ translation.priority.mt:
   
 -   The command will be placed in a default toolbar.  
   
--   The command is a specialty command that users are likely to add to a toolbar using the **“Customize...”** dialog.  
+-   The command is a specialty command that users are likely to add to a toolbar using the **"Customize..."** dialog.  
   
 ## Access and shortcut keys  
   

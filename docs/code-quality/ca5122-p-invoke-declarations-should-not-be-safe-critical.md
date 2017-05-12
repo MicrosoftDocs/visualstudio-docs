@@ -66,7 +66,7 @@ public class C
 class C  
 {  
    [SecurityCritical]  
-   [DllImport(“kernel32.dll”, EntryPoint=”Beep”)]  
+   [DllImport("kernel32.dll", EntryPoint="Beep")]  
    private static extern bool BeepPinvoke(int frequency, int duration); // Security Critical P/Invoke  
   
    [SecuritySafeCritical]  

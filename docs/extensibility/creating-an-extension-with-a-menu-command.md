@@ -50,7 +50,7 @@ This walkthrough shows how to create an extension with a menu command that launc
   
 4.  In the experimental instance, open the  **Tools / Extensions and Updates** window. You should see the **FirstMenuCommand** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won’t see **FirstMenuCommand**).  
   
-     Now go to the **Tools** menu in the experimental instance. You should see **Invoke FirstCommand** command. At this point it just brings up a message box that says “FirstCommandPackage Inside FirstMenuCommand.FirstCommand.MenuItemCallback()”. We’ll see how to actually start Notepad from this command in the next section.  
+     Now go to the **Tools** menu in the experimental instance. You should see **Invoke FirstCommand** command. At this point it just brings up a message box that says "FirstCommandPackage Inside FirstMenuCommand.FirstCommand.MenuItemCallback()". We’ll see how to actually start Notepad from this command in the next section.  
   
 ## Changing the Menu Command Handler  
  Now let’s update the command handler to start Notepad.  

@@ -86,7 +86,7 @@ You can extend the Visual Studio text/code editor with commands and view effects
 [TextViewRole(PredefinedTextViewRoles.Document)]  
 ```  
   
- The line you replaced is in a group of attributes that declare an adornment layer.   The first line you changed only changes where the column guide lines appear.  Drawing the lines “before” the text in the view means they appear behind or below the text.  The second line declares that the column guide adornments are applicable to text entities that fit your notion of a document, but you could declare the adornment, for example, to only work for editable text.  There is more information in [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)  
+ The line you replaced is in a group of attributes that declare an adornment layer.   The first line you changed only changes where the column guide lines appear.  Drawing the lines "before" the text in the view means they appear behind or below the text.  The second line declares that the column guide adornments are applicable to text entities that fit your notion of a document, but you could declare the adornment, for example, to only work for editable text.  There is more information in [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)  
   
 ## Implementing the Settings Manager  
  Replace the contents of the GuidesSettingsManager.cs with the following code (explained below):  
@@ -356,7 +356,7 @@ private const string _collectionSettingsName = "Text Editor";
 private const string _settingName = "Guides";  
 ```  
   
- You do not have to use `“Text Editor”` as the category name, and you can pick anything you like.  
+ You do not have to use `"Text Editor"` as the category name, and you can pick anything you like.  
   
  The first few functions are the entry points to change settings.  They check high-level constraints like maximum number of guides allowed.  Then they call `WriteSettings` which composes a settings string and sets the property `GuideLinesConfiguration`.  Setting this property saves the settings value to the Visual Studio settings store and fires the `SettingsChanged` event to update all the `ColumnGuideAdornment` objects, each associated with a text view.  
   
@@ -526,7 +526,7 @@ namespace ColumnGuides
  The package code is boilerplate declarations that are required for Visual Studio to discover that the extension offers commands and where to place the commands.  When the package initializes, it instantiate the commands implementation class.  See the commands link above for more info about packages relating to commands.  
   
 ### A Common Commands Pattern  
- The commands in the Column Guides extension are an example of a very common pattern in Visual Studio.  You put related commands in a group, and you put that group on a main menu, often with “`<CommandFlag>CommandWellOnly</CommandFlag>`” set to make the command invisible.  Putting commands on the main menus (such as **Edit**) this way gives them nice names (such as **Edit.AddColumnGuide**) which are useful for finding commands when re-assigning key bindings in **Tools Options** and for getting completion when invoking commands from the **Command Window**.  
+ The commands in the Column Guides extension are an example of a very common pattern in Visual Studio.  You put related commands in a group, and you put that group on a main menu, often with "`<CommandFlag>CommandWellOnly</CommandFlag>`" set to make the command invisible.  Putting commands on the main menus (such as **Edit**) this way gives them nice names (such as **Edit.AddColumnGuide**) which are useful for finding commands when re-assigning key bindings in **Tools Options** and for getting completion when invoking commands from the **Command Window**.  
   
  You then add the group of commands to context menus or sub menus where you expect user to use the commands.  Visual Studio treats `CommandWellOnly` as an invisibility flag for main menus only.  When you place the same group of commands on a context menu or sub menu, the commands are visible.  
   
@@ -1178,7 +1178,7 @@ namespace ColumnGuides
   
 ```  
   
- **Fix references**.  You are missing a reference at this point.  Press the right pointer button on the References node in the Solution Explorer.  Choose the **Add ...** command.  The **Add Reference** dialog has a search box in the upper right corner.  Enter “editor” (without the double quotes).  Choose the **Microsoft.VisualStudio.Editor** item (you must check the box to the left of the item, not just select the item) and choose **OK** to add the reference.  
+ **Fix references**.  You are missing a reference at this point.  Press the right pointer button on the References node in the Solution Explorer.  Choose the **Add ...** command.  The **Add Reference** dialog has a search box in the upper right corner.  Enter "editor" (without the double quotes).  Choose the **Microsoft.VisualStudio.Editor** item (you must check the box to the left of the item, not just select the item) and choose **OK** to add the reference.  
   
  **Initialization**.  When the package class initializes, it calls `Initialize` on the commands implementation class.  The `ColumnGuideCommands` initialization instantiates the class and saves the class instance and the package reference in class members.  
   
@@ -1296,7 +1296,7 @@ private static int GetCaretColumn(IWpfTextView textView)
  With the current column in hand where the user clicked, the code just calls on the settings manager to add or remove the column.  The settings manager fires the event to which all `ColumnGuideAdornment` objects listen.  When the event fires, these objects update their associated text views with new column guide settings.  
   
 ## Invoking Command from the Command Window  
- The column guides sample enables users to invoke two commands from the Command Window as a form of extensibility.  If you use the **View &#124; Other Windows &#124; Command Window** command, you can see the Command Window.  You can interact with the command window by entering “edit.”, and with command name completion and supplying the argument 120, you have the following:  
+ The column guides sample enables users to invoke two commands from the Command Window as a form of extensibility.  If you use the **View &#124; Other Windows &#124; Command Window** command, you can see the Command Window.  You can interact with the command window by entering "edit.", and with command name completion and supplying the argument 120, you have the following:  
   
 ```  
 > Edit.AddColumnGuide 120  
@@ -1305,7 +1305,7 @@ private static int GetCaretColumn(IWpfTextView textView)
   
  The pieces of the sample that enable this are in the .vsct file declarations, the `ColumnGuideCommands` class constructor when it hooks up command handlers, and the command handler implementations that check event arguments.  
   
- You saw “`<CommandFlag>CommandWellOnly</CommandFlag>`” in the .vsct file as well as placements in the Edit main menu even though we do not show the commands in the **Edit** menu UI.  Having them on the main Edit menu gives them names like **Edit.AddColumnGuide**.  The commands group declaration that holds the four commands placed the group on the Edit menu directly:  
+ You saw "`<CommandFlag>CommandWellOnly</CommandFlag>`" in the .vsct file as well as placements in the Edit main menu even though we do not show the commands in the **Edit** menu UI.  Having them on the main Edit menu gives them names like **Edit.AddColumnGuide**.  The commands group declaration that holds the four commands placed the group on the Edit menu directly:  
   
 ```xml  
 <Group guid="guidColumnGuidesCommandSet" id="GuidesMenuItemsGroup"  
@@ -1353,7 +1353,7 @@ private int GetApplicableColumn(EventArgs e)
 ## Trying Your Extension  
  You can now press **F5** to execute your Column Guides extension.  Open a text file and use the editor’s context menu to add guide lines, remove them, and change their color.  You need to click in text (not whitespace passed the end of the line) to add a column guide, or the editor adds it to the last column on the line.  If you use the Command Window and invoke the commands with an argument, you can add column guides anywhere.  
   
- If you want to try different command placements, change names, change icons, and so on, and you have any problems with Visual Studio showing you the latest code in menus, you can reset the experimental hive in which you are debugging.  Bring up the **Windows Start Menu** and type “reset”.  Look for and invoke the command **Reset the Next Visual Studio Experimental Instance**.  This cleans up the experimental registry hive of all extension components.  It does not clean out settings from components, so any guides you had when you shut down Visual Studio’s experimental hive will still be there when your code reads the settings store on next launch.  
+ If you want to try different command placements, change names, change icons, and so on, and you have any problems with Visual Studio showing you the latest code in menus, you can reset the experimental hive in which you are debugging.  Bring up the **Windows Start Menu** and type "reset".  Look for and invoke the command **Reset the Next Visual Studio Experimental Instance**.  This cleans up the experimental registry hive of all extension components.  It does not clean out settings from components, so any guides you had when you shut down Visual Studio’s experimental hive will still be there when your code reads the settings store on next launch.  
   
 ## Finished Code Project  
  There will soon be a github project of Visual Studio Extensibility samples, and the completed project will be there.  We will update this topic to point there when that happens.  The completed sample project may have different guids and will have a different bitmaps strip for the command icons.  

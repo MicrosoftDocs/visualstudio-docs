@@ -193,7 +193,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).  
   
  **Apply changes on continue (Native only)**  
- Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the “Apply Code Changes” item under the Debug menu.  
+ Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the "Apply Code Changes" item under the Debug menu.  
   
  **Warn about stale code (Native only)**  
  Get warnings about stale code.  

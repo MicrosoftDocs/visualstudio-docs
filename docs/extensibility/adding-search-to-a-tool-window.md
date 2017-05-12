@@ -542,7 +542,7 @@ When you create or update a tool window in your extension, you can add the same 
   
 6.  Choose the filter.  
   
-     The search box contains **lines:”even”**, and the following results appear:  
+     The search box contains **lines:"even"**, and the following results appear:  
   
      2 good  
   

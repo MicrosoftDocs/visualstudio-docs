@@ -67,7 +67,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
  Toolbars can be arranged by dragging, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).  
 
 ## Arrange and dock Windows  
- Both document windows and tool windows can be *docked*, so that it has a position and size within the IDE window frame, or floating as a separate window independent of the IDE. Tool windows can be docked anywhere inside the IDE frame; some tool windows can be docked as tabbed windows in the editor frame. Document windows can be docked within the editor frame, and they can be pinned to their current position in the tab order. You can dock multiple windows to float together in a “raft” over or outside of the IDE. Tool windows can also be hidden or minimized.  
+ Both document windows and tool windows can be *docked*, so that it has a position and size within the IDE window frame, or floating as a separate window independent of the IDE. Tool windows can be docked anywhere inside the IDE frame; some tool windows can be docked as tabbed windows in the editor frame. Document windows can be docked within the editor frame, and they can be pinned to their current position in the tab order. You can dock multiple windows to float together in a "raft" over or outside of the IDE. Tool windows can also be hidden or minimized.  
 
  You can arrange windows in the following ways:  
 
@@ -123,7 +123,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 >  Tool windows that have Auto Hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.  
 
 ### Specifying a second monitor  
- If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in “rafts” on other monitors.  
+ If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in "rafts" on other monitors.  
 
 > [!TIP]
 >  You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the Ctrl key.  
@@ -152,7 +152,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 4.  Press F5 to put Visual Studio into debugging mode. Adjust the position of the Autos, Call Stack and Output debugging windows the way you want them. The layout you are about to create will apply to both editing mode and debugging mode.  
 
-5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window > Save Window Layout**. Call this layout “Designer.”  
+5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window > Save Window Layout**. Call this layout "Designer."  
 
      Note that your new layout is assigned the next Keyboard shortcut from the reserved list of Ctrl + Alt + 1...0.  
 
@@ -162,7 +162,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 2.  Right-click on the new project in Solution Explorer and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it’s not necessary for this walkthrough.  
 
-3.  When your layout is how you want it, from the main menu choose **Window > Save Window Layout**. Call this layout “DB Project.” (We won’t bother with a debug mode layout for this project.)  
+3.  When your layout is how you want it, from the main menu choose **Window > Save Window Layout**. Call this layout "DB Project." (We won’t bother with a debug mode layout for this project.)  
 
 ##### Switch between the layouts  
 

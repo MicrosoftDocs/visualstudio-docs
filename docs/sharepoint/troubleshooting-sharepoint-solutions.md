@@ -31,7 +31,7 @@ manager: "ghogen"
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:  
   
 ```  
-<script src=”<% $SPUrl:~site/SiteAssets/ListOperations.js %>"></script>  
+<script src="<% $SPUrl:~site/SiteAssets/ListOperations.js %>"></script>  
 ```  
   
  To work around this limitation and resolve the token, refer to it by using literals:  
@@ -46,7 +46,7 @@ manager: "ghogen"
  Names of projects and project items can contain only characters that are valid in a deployment path in SharePoint 2010. No other characters are allowed.  
   
 ### Error Message  
- “Invalid characters” error message.  
+ "Invalid characters" error message.  
   
 ### Resolution  
  For names of SharePoint projects and project items, use only the following characters:  
@@ -71,7 +71,7 @@ manager: "ghogen"
  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], custom fields are defined in XML. Errors can occur if a field isn't defined or referenced by using a specific format.  
   
 ### Error Message  
- “Invalid characters” error message at packaging time.  
+ "Invalid characters" error message at packaging time.  
   
 ### Resolution  
  The ID for a field definition must be a GUID surrounded by braces, as the following example shows:  

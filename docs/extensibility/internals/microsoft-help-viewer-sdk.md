@@ -45,7 +45,7 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
   
  **Help Viewer Topic Overview**  
   
- When a topic is called for rendering, the Help Viewer gets the branding package elements that are associated with the topic at the time of install or last update, along with the topic XHTML, and combines the two to result in the presented content view (branding data + topic data).  The branding package contains logos, support for content behaviors, and branding text (copyright, etc.).  See “Creating Branding Package” below for more information about the branding package elements.  In the event there is no branding package associated with the topic, the Help Viewer will use the fallback branding package located in the Help Viewer application root (Branding_en-US.mshc).  
+ When a topic is called for rendering, the Help Viewer gets the branding package elements that are associated with the topic at the time of install or last update, along with the topic XHTML, and combines the two to result in the presented content view (branding data + topic data).  The branding package contains logos, support for content behaviors, and branding text (copyright, etc.).  See "Creating Branding Package" below for more information about the branding package elements.  In the event there is no branding package associated with the topic, the Help Viewer will use the fallback branding package located in the Help Viewer application root (Branding_en-US.mshc).  
   
  **Help Viewer Topic Requirements**  
   
@@ -102,11 +102,11 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
   
 ```  
   
- Next, add data to define how the topic is to be presented (self branded or not), how to reference this topic for F1, where this topic exists within the TOC, its ID (for link reference by other topics), etc.  See the “Content Metadata” table below for a complete list of supported metadata.  
+ Next, add data to define how the topic is to be presented (self branded or not), how to reference this topic for F1, where this topic exists within the TOC, its ID (for link reference by other topics), etc.  See the "Content Metadata" table below for a complete list of supported metadata.  
   
 -   In this case, we will use our own branding package, a variant of the Visual Studio Help Viewer branding package.  
   
--   Add the F1 meta name and value (“Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag.  (See the F1 Support section for more information.)   This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.  
+-   Add the F1 meta name and value ("Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag.  (See the F1 Support section for more information.)   This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.  
   
 -   Add the topic ID. This is the string that is used by other topics to link to this topic.  It is the Help Viewer ID for this topic.  
   
@@ -150,12 +150,12 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
   
 4.  Add a code snippet:  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`  
   
-5.  Add code language specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that devLangnu= allows you to enter other languages. For example, devLangnu=”Fortran” will display Fortran when the code snippet DisplayLanguage = Fortran  
+5.  Add code language specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that devLangnu= allows you to enter other languages. For example, devLangnu="Fortran" will display Fortran when the code snippet DisplayLanguage = Fortran  
   
 6.  Add page links: `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`  
   
 > [!NOTE]
->  Note: for non-supported new “Display Language” (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.  
+>  Note: for non-supported new "Display Language" (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.  
   
  **Example Help Viewer Topic** The code illustrates how to define metadata, a code snippet, a collapsible area, and language specific text.  
   
@@ -280,11 +280,11 @@ some F# code
   
  **F1 Support**  
   
- In Visual Studio, selecting F1 generates values supplied from the placement of the cursor within the IDE and populates a “property bag” with the supplied values (based on cursor location. When the cursor is over feature x, feature x is active/in focus and populates property bag with values.  When F1 is selected the property bag is populated and Visual Studio F1 code looks to see if the customers default Help source is local or online (online is the default), then creates the appropriate string based on the users setting (online is the default) – shell execute (see the Help Administrator Guide for exe launch parameters) with parameters for the local help viewer + keyword(s) from the property bag if local help is the default, or the MSDN URL with the keyword in the parameter list.  
+ In Visual Studio, selecting F1 generates values supplied from the placement of the cursor within the IDE and populates a "property bag" with the supplied values (based on cursor location. When the cursor is over feature x, feature x is active/in focus and populates property bag with values.  When F1 is selected the property bag is populated and Visual Studio F1 code looks to see if the customers default Help source is local or online (online is the default), then creates the appropriate string based on the users setting (online is the default) – shell execute (see the Help Administrator Guide for exe launch parameters) with parameters for the local help viewer + keyword(s) from the property bag if local help is the default, or the MSDN URL with the keyword in the parameter list.  
   
  If three strings are returned for F1, referred to as a multi-value string, take the first term, look for a hit, and if found, we are done; if not, move to the next string.  Order matters. Presentation of the multi-value keywords should be longest string to shortest string.  To verify this in the case for multi-value keywords, look at the online F1 URL string, which will include the chosen keyword.  
   
- In Visual Studio 2012, we intentionally made a stronger divide between online and offline, so that if the user’s setting was for Online, then we simply passed the F1 request directly to our online query service on MSDN rather than routing through the Help Library Agent that we had in Visual Studio 2010. We then rely on a state of “vendor content installed = true” to determine whether to do something different in that context. If true, we then perform this parsing and routing logic depending on what you wish to support for your customers. If false, then we just go to MSDN. If the user’s setting is to Local, then all calls simply go to the local help engine.  
+ In Visual Studio 2012, we intentionally made a stronger divide between online and offline, so that if the user’s setting was for Online, then we simply passed the F1 request directly to our online query service on MSDN rather than routing through the Help Library Agent that we had in Visual Studio 2010. We then rely on a state of "vendor content installed = true" to determine whether to do something different in that context. If true, we then perform this parsing and routing logic depending on what you wish to support for your customers. If false, then we just go to MSDN. If the user’s setting is to Local, then all calls simply go to the local help engine.  
   
  F1 Flow Diagram:  
   
@@ -324,13 +324,13 @@ some F# code
   
          HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.1\Partner*\\<namespace\>*  
   
-         "location"=”offline”  
+         "location"="offline"  
   
     -   For 64-bit operating systems:  
   
          HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.1\Partner*\\<namespace\>*  
   
-         "location"=”offline”  
+         "location"="offline"  
   
  **Base Native Namespace Parsing**  
   
@@ -354,7 +354,7 @@ some F# code
   
  HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\12.0\Dynamic Help key: Display Debug Output in Retail value: YES  
   
- In the IDE, under the Help menu item, select “Debug Help Context”  
+ In the IDE, under the Help menu item, select "Debug Help Context"  
   
  **Content Metadata**  
   
@@ -369,7 +369,7 @@ some F# code
 |\< meta name="Microsoft.Help.Id" content="[TopicID]"/>|Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID.|  
 |\< meta name="Microsoft.Help.F1" content="[System.Windows.Controls.Primitives.IRecyclingItemContainerGenerator]"/>|Specifies the F1 keyword for this topic. You can specify multiple F1 keywords for a topic, or you can omit this tag if you do not want this topic to be displayed when an application user presses F1. Typically, just one F1 keyword is specified for a topic. "F" keywords from earlier versions of Help can be converted to this property.|  
 |\< meta name="Description" content="[topic description]" />|Provides a short summary of the content in this topic. If this tag is used in a topic, it must be used just once. This property is accessed directly by the query library; it is not stored in the index file.|  
- meta name="Microsoft.Help.TocParent" content="[parent_Id]"/>|Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. “-1” is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page – Help Viewer Home|  
+ meta name="Microsoft.Help.TocParent" content="[parent_Id]"/>|Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page – Help Viewer Home|  
 |\< meta name="Microsoft.Help.TocOrder" content="[positive integer]"/>|Specifies where in the table of contents this topic appears relative to its peer topics. This tag is required, and must be used just once in a topic. The value is an integer. A topic that specifies a lower-value integer appears above a topic that specifies a higher-value integer.|  
 |\< meta name="Microsoft.Help.Product" content="[product code]"/>|Specifies the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
 |\< meta name="Microsoft.Help.ProductVersion" content="[version number]"/>|Specifies the version of the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
@@ -392,7 +392,7 @@ some F# code
   
 -   Where topic metadata defines self branded = false, use the branding package associated with TopicVendor metadata value.  
   
--   Where topic metadata defines name="Microsoft.Help.TopicVendor” content=\< branding package name in vendor MSHA>, use the branding package defined in the content value.  
+-   Where topic metadata defines name="Microsoft.Help.TopicVendor" content=\< branding package name in vendor MSHA>, use the branding package defined in the content value.  
   
 -   Note that within the Visual Studio catalog, there is a priority application of Branding Packages.  First Visual Studio default branding is applied, and then, if defined in the topic metadata and supported with the associated branding package (as defined in the installation msha), the vendor defined branding is applied as an override.  
   
@@ -436,11 +436,11 @@ some F# code
   
  When all modifications are done, create a zip file containing the desired branding elements and change the extension to .mshc.  
   
- To associate the custom branding package, create the MSHA which contains the reference to the branding mshc file along with the content mshc (containing the topics).  See below “MSHA” for how to create a basic MSHA.  
+ To associate the custom branding package, create the MSHA which contains the reference to the branding mshc file along with the content mshc (containing the topics).  See below "MSHA" for how to create a basic MSHA.  
   
  The Branding.xml file contains a list elements used for consistently rendering specific items in a topic when the topic contains \<meta name="Microsoft.Help.SelfBranded" content="false"/>.  The Visual Studio list of elements in the Branding.xml file is listed below.  Note that this list is intended to be used as a template for ISO Shell adopters, where they modify these elements (for example logo, feedback, and Copyright) to meet their own product branding needs.  
   
- Note: variables noted by “{n}” have code dependencies – removing or changing these values will cause errors and possibly application crash.Localization identifiers (example _locID="codesnippet.n") are included in the Visual Studio Branding Package.  
+ Note: variables noted by "{n}" have code dependencies – removing or changing these values will cause errors and possibly application crash.Localization identifiers (example _locID="codesnippet.n") are included in the Visual Studio Branding Package.  
   
  **Branding.xml**  
   
@@ -452,7 +452,7 @@ some F# code
 |ExpandText|Expand|  
 |CollapseText|Collapse|  
 |Feature:|**CodeSnippet**|  
-|Use:|Code snippet control text.  Note: Code snippet content with “Non-Breaking” space will be changed to space.|  
+|Use:|Code snippet control text.  Note: Code snippet content with "Non-Breaking" space will be changed to space.|  
 |**Element**|**Value**|  
 |CopyToClipboard|Copy to Clipboard|  
 |ViewColorizedText|View Colorized|  
@@ -524,7 +524,7 @@ some F# code
   
  **branding.js**  
   
- The branding.js file contains JavaScript used by the Visual Studio Help Viewer branding elements.  Below is a list of the branding elements and the supporting JavaScript function.  All strings to be localized for this file are defined in the “Localizable Strings” section at the top of this file.  Note that ICL file has been created for loc strings within the branding.js file.  
+ The branding.js file contains JavaScript used by the Visual Studio Help Viewer branding elements.  Below is a list of the branding elements and the supporting JavaScript function.  All strings to be localized for this file are defined in the "Localizable Strings" section at the top of this file.  Note that ICL file has been created for loc strings within the branding.js file.  
   
 ||||  
 |-|-|-|  
@@ -622,7 +622,7 @@ some F# code
   
  Note: in the implementation example below, we have included the branding package. This is critical to include in order to get the needed Visual Studio content rendering elements and content behaviors.  
   
- Sample HelpContentSetup.msha file: (Replace “content set name 1” and “content set name 2” etc. with your file names.)  
+ Sample HelpContentSetup.msha file: (Replace "content set name 1" and "content set name 2" etc. with your file names.)  
   
 ```  
 <html>  
@@ -648,13 +648,13 @@ some F# code
   
 ```  
   
-1.  Create local folder, something like “C:\SampleContent”  
+1.  Create local folder, something like "C:\SampleContent"  
   
 2.  For this example, we will use MSHC files to contain the topics.  An MSHC is a zip with the file extension changed from .zip to .MSHC.  
   
 3.  Create the below HelpContentSetup.msha as a text file (notepad was used to create the file) and save it to the above noted folder (see step 1).  
   
- Note that the class “Branding” exists and is unique. The Branding mshc is included in this primer so that the installed content will have branding, and the content behaviors that are contained in the MSHCs will have the appropriate support elements contained in the branding package. Without this, errors will result when the system looks for support items that are not part of the ripped (installed) content.  
+ Note that the class "Branding" exists and is unique. The Branding mshc is included in this primer so that the installed content will have branding, and the content behaviors that are contained in the MSHCs will have the appropriate support elements contained in the branding package. Without this, errors will result when the system looks for support items that are not part of the ripped (installed) content.  
   
  To obtain the Visual Studio branding package, copy Branding_en-US.mshc file at C:\Program Files (x86)\Microsoft Help Viewer\v2.1\ to your working folder.  
   
@@ -745,7 +745,7 @@ some F# code
   
 1.  In Visual Studio, under **File**, choose **New Project**, under **Other Project Types** choose **Extensibility**, and then choose  **Visual Studio Shell Isolated**. Name the project `ContosoHelpShell`) to create an extensibility project based on the Visual Studio Isolated Shell template.  
   
-2.  In Solution Explorer, in the ContosoHelpShellUI project, in the Resource Files folder, open ApplicationCommands.vsct. Make sure this line is commented out (search for "No_Help"): `<!-- <define name=“No_HelpMenuCommands”/> -->`  
+2.  In Solution Explorer, in the ContosoHelpShellUI project, in the Resource Files folder, open ApplicationCommands.vsct. Make sure this line is commented out (search for "No_Help"): `<!-- <define name="No_HelpMenuCommands"/> -->`  
   
 3.  Choose the F5 key to compile and run **Debug**. In the experimental instance of the Isolated Shell IDE, choose the **Help** menu. Make sure that the **View Help**, **Add and Remove Help Content**, and **Set Help Preference** commands appear.  
   
@@ -755,7 +755,7 @@ some F# code
      [$RootKey$\Help]  
     "Product"="Contoso"  
     "Catalog"="Contoso"  
-    “Version"="100"  
+    "Version"="100"  
     "BrandingPackage"="ContosoBrandingPackage.mshc"  
     ```  
   
@@ -820,7 +820,7 @@ some F# code
   
 9. Example Integrated Shell command line for testing content store. For ISO Shell, change the catalog and launchingApp values as appropriate to match the product.  
   
-     "C:\Program Files (x86)\Microsoft Help Viewer\v2.1\HlpViewer.exe" /catalogName VisualStudio12 /helpQuery method=”page&id=ContosoTopic0” /launchingApp Microsoft,VisualStudio,12.0  
+     "C:\Program Files (x86)\Microsoft Help Viewer\v2.1\HlpViewer.exe" /catalogName VisualStudio12 /helpQuery method="page&id=ContosoTopic0" /launchingApp Microsoft,VisualStudio,12.0  
   
 10. Launch the Contoso application (from the Contoso app root). Within ISO Shell, choose the **Help** menu item, and change the **Set Help Preference** to **Use Local Help**.  
   

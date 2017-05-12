@@ -125,7 +125,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |-|-|  
 |Add Buttons|Click toolbar overflow button|  
 |Find Combo in Standard toolbar|Ctrl+D|  
-|Find Textbox Command Mode|Type “>”|  
+|Find Textbox Command Mode|Type ">"|  
 |Create new alias|>alias NewAlias Command|  
   
 ##  <a name="BKMK_Debugging"></a> Debugging  
@@ -143,7 +143,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Set and Toggle Breakpoint|F9|  
 |Disable Breakpoint|Ctrl+F9|  
 |Immediate Window|Ctrl+Alt+I|  
-|Immediate Window Command Mode|Type “>”|  
+|Immediate Window Command Mode|Type ">"|  
 |Immediate Window Clear Buffer|>cls|  
 |Immediate Window Print Value|?varname|  
   

@@ -18,7 +18,7 @@ Starting in Windows 10, one of the changes that we’ve made to Chakra (the Java
   
 -   The old Chakra engine (also called the *legacy engine* or jscript9.dll below) that ships with and supports Internet Explorer 11. This engine is frozen in time and will remain fundamentally unchanged from Win8.1/IE11 release.  
   
--   The new Chakra engine (also called the *Edge engine* or chakra.dll below) that ships with and supports the new browser in Windows 10, Microsoft Edge. This engine will be continually updated and will support a “living” [Edge](http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx) engine. A living Edge engine implies that unlike the legacy engine, the Edge engine would not carry forward any form of versioning script functionality to opt into.  
+-   The new Chakra engine (also called the *Edge engine* or chakra.dll below) that ships with and supports the new browser in Windows 10, Microsoft Edge. This engine will be continually updated and will support a "living" [Edge](http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx) engine. A living Edge engine implies that unlike the legacy engine, the Edge engine would not carry forward any form of versioning script functionality to opt into.  
   
  When creating an app using the JavaScript Runtime Hosting (JsRT) API, you can choose to target either the legacy or the Edge engine.  
   
@@ -138,7 +138,7 @@ public static extern JsErrorCode JsStartDebugging();
 >  If you are manually marshaling the function pointer (such as via LoadLibrary/GetProcAddress), it is critical that you do not mix the declarations of the method, or else you will unbalance the stack, which will result in unpredictable behavior such as causing your app to crash. The same problem will occur if you perform a global search-and-replace of instances of jscript9.dll in your import code, because you’ll miss the `version` parameter being dropped.  
   
 ## Summary  
- In Windows 10, the JavaScript Runtime Hosting APIs are splitting into two. These APIs now support a “living” Edge engine, whose language capabilities will be aligned with the “living” Edge engine in the Microsoft Edge. You can leverage these capabilities from your desktop or Store apps to create new and exciting ways to extend your application and to leverage modern Web skills in your existing code base. However, because there are subtle differences between previous versions, you must be aware of the following points when targeting the Edge or legacy engine.  
+ In Windows 10, the JavaScript Runtime Hosting APIs are splitting into two. These APIs now support a "living" Edge engine, whose language capabilities will be aligned with the "living" Edge engine in the Microsoft Edge. You can leverage these capabilities from your desktop or Store apps to create new and exciting ways to extend your application and to leverage modern Web skills in your existing code base. However, because there are subtle differences between previous versions, you must be aware of the following points when targeting the Edge or legacy engine.  
   
 -   Your app can support only one version of JsRT per process.  
   

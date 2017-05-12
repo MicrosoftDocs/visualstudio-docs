@@ -83,7 +83,7 @@ For example, there may be a target that produces NuGet packages during a regular
 
 ## Error messages with &lt;OutputPath&gt; or &lt;OutDir&gt;
 
-**Why do I get the following error when Live Unit Testing tries to build my solution: “...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly”?**
+**Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
 
 **Answer:**
 

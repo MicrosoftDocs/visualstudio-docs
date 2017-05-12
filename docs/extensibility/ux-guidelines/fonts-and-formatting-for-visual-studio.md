@@ -332,23 +332,23 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### Title case  
  Title case is a style in which the first letters of most or all of the words within a phrase are capitalized. In Visual Studio, title case is used for many items, including:  
   
--   **Tooltips.** Example: “Preview Selected Items”  
+-   **Tooltips.** Example: "Preview Selected Items"  
   
--   **Column headers.** Example: “System Response”  
+-   **Column headers.** Example: "System Response"  
   
--   **Menu items.** Example: “Save All”  
+-   **Menu items.** Example: "Save All"  
   
  When using title case, these are the guidelines for when to capitalize words and when to leave them lowercase:  
   
 |Uppercase|Comments and examples|  
 |---------------|---------------------------|  
 |All nouns||  
-|All verbs|Including “Is” and other forms of “to be”|  
-|All adverbs|Including “Than” and “When”|  
-|All adjectives|Including “This” and “That”|  
-|All pronouns|Including the possessive “Its” as well as “It’s,” a contraction of the pronoun “it” and the verb “is”|  
+|All verbs|Including "Is" and other forms of "to be"|  
+|All adverbs|Including "Than" and "When"|  
+|All adjectives|Including "This" and "That"|  
+|All pronouns|Including the possessive "Its" as well as "It’s," a contraction of the pronoun "it" and the verb "is"|  
 |First and last words, regardless of parts of speech||  
-|Prepositions that are part of a verb phrase|“Closing Out All Windows” or “Shutting Down the System”|  
+|Prepositions that are part of a verb phrase|"Closing Out All Windows" or "Shutting Down the System"|  
 |All letters of an acronym|HTML, XML, URL, IDE, RGB|  
 |The second word in a compound word if it is a noun or proper adjective, or if the words have equal weight|Cross-Reference, Pre-Microsoft Software, Read/Write Access, Run-Time|  
   
@@ -358,14 +358,14 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 |Articles, unless one is the first word in the title|a, an, the|  
 |Coordinate conjunctions|and, but, for, nor, or|  
 |Prepositions with words of four or fewer letters outside of a verb phrase|into, onto, as for, out of, on top of|  
-|“To” when used in an infinitive phrase|“How to Format Your Hard Disk”|  
+|"To" when used in an infinitive phrase|"How to Format Your Hard Disk"|  
   
 ##### Sentence case  
  Sentence case is the standard capitalization method for writing in which only the first word of the sentence is capitalized, along with any proper nouns and the pronoun "I." In general, sentence case is easier for a worldwide audience to read, especially when the content will be translated by a machine. Use sentence case for:  
   
-1.  **Status bar messages.** These are simple, short, and provide only status information. Example: “Loading project file”  
+1.  **Status bar messages.** These are simple, short, and provide only status information. Example: "Loading project file"  
   
-2.  **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: “Select all items in list”  
+2.  **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: "Select all items in list"  
   
 ### Text formatting  
  Default text formatting in Visual Studio 2013 is controlled by [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont). This service helps ensure a consistent font appearance throughout the IDE (integrated development environment), and you must use it to guarantee a consistent experience for your users.  
