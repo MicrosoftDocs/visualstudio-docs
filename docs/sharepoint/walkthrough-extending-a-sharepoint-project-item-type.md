@@ -80,7 +80,7 @@ manager: "ghogen"
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **GenerateExternalDataLists** project to **Solution Explorer**.  
   
-7.  If the source.extension.vsixmanifest file doesn’t open automatically, open its shortcut menu in the GenerateExternalDataLists project, and then choose **Open**  
+7.  If the source.extension.vsixmanifest file doesn't open automatically, open its shortcut menu in the GenerateExternalDataLists project, and then choose **Open**  
   
 8.  Verify that the source.extension.vsixmanifest file has a non-blank entry (enter Contoso) for the Author field, save the file, and then close it.  
   

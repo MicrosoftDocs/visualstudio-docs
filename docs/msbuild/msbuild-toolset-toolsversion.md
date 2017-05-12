@@ -60,7 +60,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  When you build a solution on the command line and specify a `ToolsVersion` for msbuild.exe, all projects and their project-to-project dependencies are built according to that `ToolsVersion`, even if each project in the solution specifies its own `ToolsVersion`. To define the `ToolsVersion` value on a per project basis, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
   
- The `ToolsVersion` attribute is also used for project migration. For example, if you open a Visual Studio 2008 project in Visual Studio 2010, the project file is updated to include ToolsVersion="4.0". If you then try to open that project in Visual Studio 2008, it doesn’t recognize the upgraded `ToolsVersion` and therefore builds the project as though the attribute was still set to 3.5.  
+ The `ToolsVersion` attribute is also used for project migration. For example, if you open a Visual Studio 2008 project in Visual Studio 2010, the project file is updated to include ToolsVersion="4.0". If you then try to open that project in Visual Studio 2008, it doesn't recognize the upgraded `ToolsVersion` and therefore builds the project as though the attribute was still set to 3.5.  
   
  Visual Studio 2010 and Visual Studio 2012 use a ToolsVersion of 4.0. Visual Studio 2013 uses a ToolsVersion of 12.0. In many cases, you can open the project in all three versions of Visual Studio without modification. Visual Studio always uses the correct Toolset, but you will be notified if the version used does not match the version in the project file. In almost all cases, this warning is benign as the Toolsets are compatible in most cases.  
   

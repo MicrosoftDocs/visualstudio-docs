@@ -26,7 +26,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # VSIX Color Compiler
-The Visual Studio Extension Color Compiler tool is a console application that takes an .xml file representing colors for existing Visual Studio themes and coverts it to a .pkgdef file so that those colors can be used in Visual Studio. Because it’s easy to compare differences between .xml files, this tool is useful for managing custom colors in source control. It also can be hooked into build environments so that the output of the build is a valid .pkgdef file.  
+The Visual Studio Extension Color Compiler tool is a console application that takes an .xml file representing colors for existing Visual Studio themes and coverts it to a .pkgdef file so that those colors can be used in Visual Studio. Because it's easy to compare differences between .xml files, this tool is useful for managing custom colors in source control. It also can be hooked into build environments so that the output of the build is a valid .pkgdef file.  
   
  **Theme XML schema**  
   
@@ -64,7 +64,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 |-|-|  
 |**Attribute**|**Definition**|  
 |Name|[Required] The name of the theme|  
-|GUID|[Required] The theme’s GUID (must match GUID formatting)|  
+|GUID|[Required] The theme's GUID (must match GUID formatting)|  
   
  When creating custom colors for Visual Studio, those colors need to be defined for the following themes. If no colors exist for a particular theme, Visual Studio attempts to load the missing colors from the Light theme.  
   
@@ -90,7 +90,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 |-|-|  
 |**Attribute**|**Definition**|  
 |Name|[Required] The name of the category|  
-|GUID|[Required] The category’s GUID (must match GUID formatting)|  
+|GUID|[Required] The category's GUID (must match GUID formatting)|  
   
  **Color**  
   
@@ -110,7 +110,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
   
  **Background and/or Foreground**  
   
- The \<Background> and \<Foreground> elements define a color’s value and type for either the background or foreground of a UI element. These elements have no children.  
+ The \<Background> and \<Foreground> elements define a color's value and type for either the background or foreground of a UI element. These elements have no children.  
   
 ```xml  
 <Background Type="type" Source="int" />  

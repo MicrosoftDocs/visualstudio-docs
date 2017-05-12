@@ -100,7 +100,7 @@ Starting in Visual Studio 2017, Visual Studio is changing the way it discovers p
   
 ```  
   
- Here is the .vstman file (you can find it in the VSIX project’s manifest directory) that resulted from the rebuilding of the VSIX project:  
+ Here is the .vstman file (you can find it in the VSIX project's manifest directory) that resulted from the rebuilding of the VSIX project:  
   
 ```  
 VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">  
@@ -155,7 +155,7 @@ VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.c
   
 ```  
   
- Here is the .vstman file (you can find it in the VSIX project’s manifest directory) that resulted from the rebuilding of the VSIX project:  
+ Here is the .vstman file (you can find it in the VSIX project's manifest directory) that resulted from the rebuilding of the VSIX project:  
   
 ```  
 VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">  

@@ -28,7 +28,7 @@ translation.priority.mt:
 # Image Service and Catalog
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.  
   
- The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user’s chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.  
+ The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.  
   
 |||  
 |-|-|  
@@ -175,7 +175,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 |-|-|  
 |**Attribute**|**Definition**|  
 |Uri|[Required] A URI that defines where the image can be loaded from. It can be one of the following:<br /><br /> -   A [Pack URI](http://msdn.microsoft.com/en-US/library/aa970069\(v=vs.100\).aspx) using the application:/// authority<br />-   An absolute component resource reference<br />-   A path to a file containing a native resource|  
-|Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> *Light:* The source can be used on a light background.<br /><br /> *Dark:*The source can be used on a dark background.<br /><br /> *HighContrast:* The source can be used on any background in High Contrast mode.<br /><br /> *HighContrastLight:* The source can be used on a light background in High Contrast mode.<br /><br /> *HighContrastDark:* The source can be used on a dark background in High Contrast mode.<br /><br /> If the Background attribute is omitted, the source can be used on any background.<br /><br /> If Background is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source’s colors are never inverted. If Background is omitted or set to *HighContrast*, the inversion of the source’s colors is controlled by the image’s **AllowColorInversion** attribute.|  
+|Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> *Light:* The source can be used on a light background.<br /><br /> *Dark:*The source can be used on a dark background.<br /><br /> *HighContrast:* The source can be used on any background in High Contrast mode.<br /><br /> *HighContrastLight:* The source can be used on a light background in High Contrast mode.<br /><br /> *HighContrastDark:* The source can be used on a dark background in High Contrast mode.<br /><br /> If the Background attribute is omitted, the source can be used on any background.<br /><br /> If Background is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source's colors are never inverted. If Background is omitted or set to *HighContrast*, the inversion of the source's colors is controlled by the image's **AllowColorInversion** attribute.|  
 |||  
   
  A \<Source> element can have exactly one of the following optional subelements:  
@@ -290,7 +290,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
 ## How do I write new WPF UI?  
   
-1.  Start by adding the assembly references required in the above first steps section to your project. You don’t need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won’t need the converter.)  
+1.  Start by adding the assembly references required in the above first steps section to your project. You don't need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won't need the converter.)  
   
 2.  Select the desired image and get its moniker. Use a **KnownMoniker**, or use your own if you have your own custom images and monikers.  
   
@@ -424,7 +424,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
 2.  The command to open the tool window.  
   
-     In the .vsct file for the package, edit the tool window’s command button:  
+     In the .vsct file for the package, edit the tool window's command button:  
   
     ```xml  
     <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">  
@@ -472,7 +472,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
     <Buttons>  
       <Button guid="guidMyCommandSet" id="cmdidMyCommand" priority="0x0000" type="Button">  
         <!-- Add an Icon element, changing the attributes to match the image moniker you want to use.  
-             In this case, we’re using the Guid for the VS image catalog.  
+             In this case, we're using the Guid for the VS image catalog.  
              Change the id attribute to be the ID of the desired image moniker. -->  
         <Icon guid="ImageCatalogGuid" id="OpenFolder" />  
         <CommandFlag>DynamicVisibility</CommandFlag>  
@@ -503,7 +503,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
  **What if my .vsct file also needs to be read by older versions of Visual Studio?**  
   
- Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you’d leave the .vsct file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a .vsct file’s \<Bitmaps> element to image moniker GUID/ID pairs.  
+ Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the .vsct file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a .vsct file's \<Bitmaps> element to image moniker GUID/ID pairs.  
   
  The format of the mapping CSV file is:  
   
@@ -524,7 +524,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 ## How do I port a project system?  
  **How to supply ImageMonikers for a project**  
   
-1.  Implement **VSHPROPID_SupportsIconMonikers** on the project’s **IVsHierarchy**, and return true.  
+1.  Implement **VSHPROPID_SupportsIconMonikers** on the project's **IVsHierarchy**, and return true.  
   
 2.  Implement either **VSHPROPID_IconMonikerImageList** (if the original project used **VSHPROPID_IconImgList**) or **VSHPROPID_IconMonikerGuid**, **VSHPROPID_IconMonikerId**, **VSHPROPID_OpenFolderIconMonikerGuid**, **VSHPROPID_OpenFolderIconMonikerId** (if the original project used **VSHPROPID_IconHandle** and **VSHPROPID_OpenFolderIconHandle**).  
   
@@ -586,7 +586,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
     -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.  
   
-    -   Replace each **ContainedImage**’s GUID with $(ImageCatalogGuid), replace each **ContainedImage**’s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**  
+    -   Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**  
   
         -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.  
   
@@ -651,7 +651,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 </ImageManifest>  
 ```  
   
- **I don’t need to support HIMAGELISTs**  
+ **I don't need to support HIMAGELISTs**  
   
 1.  Determine the set of **KnownMonikers** that match the images in your image strip, or create your own monikers for the images in your image strip.  
   

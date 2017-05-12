@@ -62,7 +62,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/include
   
 2.  In **source.extension.vsixmanifest**, set the content type and supported editions.  
   
-    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item’s properties:  
+    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item's properties:  
   
          **Content Type** = **VSPackage**  
   

@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic
-By completing this walkthrough, you’ll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application, design the UI, add code, and debug errors, while you learn more about working in the integrated development environment (IDE).  
+By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World"-style application, design the UI, add code, and debug errors, while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  
   
@@ -48,21 +48,21 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
  On your Visual Studio launch, you next must choose a settings combination that applies a set of pre-defined customizations to the IDE. Each settings combination has been designed to make it easier for you to develop applications.  
   
- This walkthrough assume you applied **General Development Settings**, which applies the least amount of customization to the IDE. If you have already chosen C# or Visual Basic (both are good choices), you don’t have to change your settings.  If you want to change your settings, you can use the **Import and Export Settings Wizard**. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ This walkthrough assume you applied **General Development Settings**, which applies the least amount of customization to the IDE. If you have already chosen C# or Visual Basic (both are good choices), you don't have to change your settings.  If you want to change your settings, you can use the **Import and Export Settings Wizard**. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
- After you open Visual Studio, you can identify the tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you’ll spend most of your time in this central area.  
+ After you open Visual Studio, you can identify the tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.  
   
  Figure 2: Visual Studio IDE  
   
  ![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png "ExploreIDE-IDEwithgeneralsettings")  
   
- You can make additional customizations to Visual Studio, such as changing the font face and size of the text in the editor or the color theme of the IDE, by using the **Options** dialog box. Depending on the settings combination that you’ve applied, some items in that dialog box might not appear automatically. You can make sure that all possible options appear by choosing the **Show all settings** check box.  
+ You can make additional customizations to Visual Studio, such as changing the font face and size of the text in the editor or the color theme of the IDE, by using the **Options** dialog box. Depending on the settings combination that you've applied, some items in that dialog box might not appear automatically. You can make sure that all possible options appear by choosing the **Show all settings** check box.  
   
  Figure 3: Options dialog box  
   
  ![Options dialog box wirh Show all settings option](../ide/media/exploreide-optionsdialogbox.png "ExploreIDE-Optionsdialogbox")  
   
- In this example, you’ll change the color theme of the IDE from light to dark.  You can skip ahead to create a project if you like.  
+ In this example, you'll change the color theme of the IDE from light to dark.  You can skip ahead to create a project if you like.  
   
 #### To change the color theme of the IDE  
   
@@ -83,7 +83,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 ##  <a name="BKMK_CreateApp"></a> Create a simple application  
   
 ### Create the project  
- When you create an application in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows Presentation Foundation (WPF) project.  
+ When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.  
   
 ##### To create the WPF project  
   
@@ -113,7 +113,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### To change the name of MainWindow.xaml  
   
-1.  In the following procedure, you’ll give MainWindow a more specific name. In **Solution Explorer**, select MainWindow.xaml. You should see the **Properties** window, but if you don’t, choose the **View** menu and the **Property Window** item. Change the **File Name** property to `Greetings.xaml`.  
+1.  In the following procedure, you'll give MainWindow a more specific name. In **Solution Explorer**, select MainWindow.xaml. You should see the **Properties** window, but if you don't, choose the **View** menu and the **Property Window** item. Change the **File Name** property to `Greetings.xaml`.  
   
      ![Properties window with File Name highlighted](../ide/media/exploreide-filenameinpropertieswindow.png "ExploreIDE-FilenameinPropertiesWindow")  
   
@@ -161,7 +161,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 3.  Save your changes by pressing Ctrl-s or using the **File** menu item.  
   
- Next, you’ll add two [RadioButton](http://msdn.microsoft.com/Library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) controls to the form.  
+ Next, you'll add two [RadioButton](http://msdn.microsoft.com/Library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) controls to the form.  
   
 ##### To add radio buttons  
   
@@ -189,7 +189,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 2.  Open the shortcut menu for RadioButton2 by pressing the right mouse button while selecting RadioButton2, choose **Edit Text**, and then enter `Goodbye`.  
   
- The final UI element that you’ll add is a [Button](http://msdn.microsoft.com/Library/a9d8f5a5-c98c-463e-808a-5a4e63173098) control.  
+ The final UI element that you'll add is a [Button](http://msdn.microsoft.com/Library/a9d8f5a5-c98c-463e-808a-5a4e63173098) control.  
   
 ##### To add the button control  
   
@@ -206,7 +206,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
  ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
   
 ### Add code to the Display Button  
- When this application runs, a message box appears after a user first chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you’ll add code to the Button_Click event in Greetings.xaml.vb or Greetings.xaml.cs.  
+ When this application runs, a message box appears after a user first chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the Button_Click event in Greetings.xaml.vb or Greetings.xaml.cs.  
   
 ##### Add code to display message boxes  
   
@@ -259,10 +259,10 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 3.  Save the application.  
   
 ##  <a name="BKMK_DebugTest"></a> Debug and test the application  
- Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
+ Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
- In this step, you’ll find the error that we caused earlier by changing the name of the main window XAML file.  
+ In this step, you'll find the error that we caused earlier by changing the name of the main window XAML file.  
   
 ##### To start debugging and find the error  
   
@@ -270,7 +270,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
      ![Start Debugging command on the Debug menu](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
   
-     A dialog box appears, indicating that an IOException has occurred: Cannot locate resource ‘mainwindow.xaml’.  
+     A dialog box appears, indicating that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.  
   
 2.  Choose the **OK** button, and then stop the debugger.  
   
@@ -324,7 +324,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 11. On the menu bar, choose **Debug**, **Disable All Breakpoints**.  
   
 ### Build a release version of the application  
- Now that you’ve verified that everything works, you can prepare a release build of the application.  
+ Now that you've verified that everything works, you can prepare a release build of the application.  
   
 ##### To clean the solution files and build a release version  
   

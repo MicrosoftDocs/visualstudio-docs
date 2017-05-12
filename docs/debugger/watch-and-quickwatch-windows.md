@@ -76,7 +76,7 @@ static void Main(string[] args)
 4.  Add the variable to the **Watch** window from **QuickWatch** by clicking **Add Watch**. 
 
     > [!NOTE]
-    > The **QuickWatch** window is a modal dialog window, so you can’t continue debugging as long as it is open.  
+    > The **QuickWatch** window is a modal dialog window, so you can't continue debugging as long as it is open.  
   
 5.  Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window.  
   
@@ -122,13 +122,13 @@ int main()
  If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to do this, you can use the context operator syntax. For more information, see [Context Operator (C++)](../debugger/context-operator-cpp.md).  
   
 ## Observing expressions with the Watch window  
- Now let’s try using an expression instead. You can add any valid expression recognized by the debugger.  
+ Now let's try using an expression instead. You can add any valid expression recognized by the debugger.  
   
  For example, if you have the code listed in the preceding section, you can get the average of the three values like this:  
   
  ![Watch Expression](../debugger/media/watchexpression.png "WatchExpression")  
   
- In general, the rules for evaluating expressions in the **Watch** window are the same as the rules for evaluating expressions in your coding language. If your expression has a syntax error, you can expect the same compiler error that you would see in the code editor. Here’s an example:  
+ In general, the rules for evaluating expressions in the **Watch** window are the same as the rules for evaluating expressions in your coding language. If your expression has a syntax error, you can expect the same compiler error that you would see in the code editor. Here's an example:  
   
  ![Watch Expression Error](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
   
@@ -184,7 +184,7 @@ var1 = var2
 > [!NOTE]
 >  Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
   
- In the following code one method creates a `Person` using a local variable, but you want to find out what the `Person`’s name is in a different method:  
+ In the following code one method creates a `Person` using a local variable, but you want to find out what the `Person`'s name is in a different method:  
   
 ```CSharp  
 class Person  
@@ -230,12 +230,12 @@ public class Program
   
 4.  Add the object ID to the Watch window.  
   
-5.  Set a breakpoint where you want to observe the object’s behavior.  In the code above, that would be in the `DoSomething()` method.  
+5.  Set a breakpoint where you want to observe the object's behavior.  In the code above, that would be in the `DoSomething()` method.  
   
 6.  Continue debugging, and when execution stops in the `DoSomething()` method, the **Watch** window displays the `Person` object.  
   
 > [!NOTE]
->  If you want to see the object’s properties, such as `Person.Name` in the example above, you must have enabled property evaluation .  
+>  If you want to see the object's properties, such as `Person.Name` in the example above, you must have enabled property evaluation .  
   
 ## Using registers in the Watch window (C++ only)  
  If you are debugging native code, you can add register names as well as variable names using **$\<register name>** or **@\<register name>**.  For more information, see [Pseudovariables](../debugger/pseudovariables.md).  

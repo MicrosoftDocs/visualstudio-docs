@@ -130,7 +130,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ![start external program](media/start-external-program.png)
 
->**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version’s install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
+>**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
 
 ## Check that the extension builds correctly (as a VSIX v3)
 
@@ -168,7 +168,7 @@ If Visual Studio was recently opened, you might see a dialog box like this:
 
 Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis.
 
->**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you’ve shut down all instances of Visual Studio on the machine – including those from other users, then continue to retry.
+>**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine – including those from other users, then continue to retry.
 
 ## Check when missing the required prerequisites
 
@@ -180,7 +180,7 @@ Wait for the processes to shut down, or manually end the tasks. You can find the
 
 ## Deciding on Components
 
-When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn’t mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
+When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn't mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 

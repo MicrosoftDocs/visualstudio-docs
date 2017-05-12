@@ -70,7 +70,7 @@ translation.priority.mt:
 -   Follow existing Microsoft guidance for [User Interface Text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx) and [Style and Tone](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477\(v=vs.85\).aspx).  
   
 #### Supplemental instructions  
- Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it’s likely that the user won't fully understand the ramifications of the choice they are making.  
+ Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it's likely that the user won't fully understand the ramifications of the choice they are making.  
   
  ![Supplemental text in Visual Studio](../../extensibility/ux-guidelines/media/0601-b_supplementaltext1.png "0601-b_SupplementalText1")  
   
@@ -203,7 +203,7 @@ translation.priority.mt:
   
 -   For warnings, be clear about what the consequence of proceeding will be. The buttons should indicate the consequence.  
   
--   For errors, describe what the user can do to fix the problem. Buttons should be actions or say "Close." Don’t use an "OK" button for an error message.  
+-   For errors, describe what the user can do to fix the problem. Buttons should be actions or say "Close." Don't use an "OK" button for an error message.  
   
 -   Some questions to ask yourself when constructing an error message:  
   
@@ -214,7 +214,7 @@ translation.priority.mt:
     -   Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?  
   
 #### Build errors  
- Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer’s work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren’t set correctly.  
+ Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer's work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren't set correctly.  
   
  Visual Studio users can spend an enormous number of development hours resolving build errors. This resolution time increases when errors have dependencies or when error messages are poorly written, which can make it difficult to uncover the source of the error.  
   
@@ -226,7 +226,7 @@ translation.priority.mt:
   
 -   **Use plain language** that explains the problem with little or no compiler jargon. The text of a build error should not be overly technical.  
   
--   **Outline possible causes.** For example, "Missing a colon between the property and value in the ‘(property) : (value)’ declaration."  
+-   **Outline possible causes.** For example, "Missing a colon between the property and value in the '(property) : (value)' declaration."  
   
 -   Give details about potential fixes. If there is not enough room, then additional details may be put into the corresponding Help topic.  
   
@@ -253,7 +253,7 @@ translation.priority.mt:
 -   "Make sure that the file exists and that you have permission to open it."  
   
 #### Write a message that is short and to the point.  
- An error message can notify, explain, and offer a solution but still be ignored if it’s too wordy. One solution is to use progressive disclosure with a details button. For example, give a short description/solution and then put more details under a details button. If users choose to read more information on the error, they can do so.  
+ An error message can notify, explain, and offer a solution but still be ignored if it's too wordy. One solution is to use progressive disclosure with a details button. For example, give a short description/solution and then put more details under a details button. If users choose to read more information on the error, they can do so.  
   
  The language in the message should be:  
   

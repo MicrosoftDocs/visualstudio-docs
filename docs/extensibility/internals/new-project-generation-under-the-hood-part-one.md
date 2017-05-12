@@ -50,11 +50,11 @@ Ever thought about how to create your own project type? Wonder what actually hap
   
  ![New Project dialog box](../../extensibility/internals/media/newproject.gif "NewProject")  
   
- Let’s take a closer look. The **Project types** tree lists the various project types you can create. When you select a project type like **Visual C# Windows**, you’ll see a list of application templates to get you started. **Visual Studio installed templates** are installed by Visual Studio and are available to any user of your computer. New templates that you create or collect can be added to **My Templates** and are available only to you.  
+ Let's take a closer look. The **Project types** tree lists the various project types you can create. When you select a project type like **Visual C# Windows**, you'll see a list of application templates to get you started. **Visual Studio installed templates** are installed by Visual Studio and are available to any user of your computer. New templates that you create or collect can be added to **My Templates** and are available only to you.  
   
  When you select a template like **Windows Application**, a description of the application type appears in the dialog box; in this case, **A project for creating an application with a Windows user interface**.  
   
- At the bottom of the **New Project** dialog box, you’ll see several controls that gather more information. The controls you see depend on the project type, but generally they include a project **Name** text box, a **Location** text box and related **Browse** button, and a **Solution Name** text box and related **Create directory for solution** check box.  
+ At the bottom of the **New Project** dialog box, you'll see several controls that gather more information. The controls you see depend on the project type, but generally they include a project **Name** text box, a **Location** text box and related **Browse** button, and a **Solution Name** text box and related **Create directory for solution** check box.  
   
 ## Populating the New Project Dialog Box  
  Where does the **New Project** dialog box get its information from? There are two mechanisms at work here, one of them deprecated. The **New Project** dialog box combines and displays the information obtained from both mechanisms.  

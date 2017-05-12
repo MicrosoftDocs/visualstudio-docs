@@ -229,7 +229,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  The changes that you make will affect both the elements and the image that is copied.  
   
 ## Programming Copy and Paste Behavior  
- Many aspects of a DSL’s behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL’s behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.  
+ Many aspects of a DSL's behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL's behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.  
   
 > [!TIP]
 >  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  

@@ -77,7 +77,7 @@ You can then enter the condition under which you want the breakpoint to occur:
 
 ## Stepping through code
 
-When a breakpoint has been reached, the Debug tools enable you to get control over the program’s execution. Visual Studio for Mac will display four buttons, allowing you to run and step through the code. In Visual Studio for Mac, they will look like the following:
+When a breakpoint has been reached, the Debug tools enable you to get control over the program's execution. Visual Studio for Mac will display four buttons, allowing you to run and step through the code. In Visual Studio for Mac, they will look like the following:
 
  ![Buttons to step through code](media/debugging-image7.png)
 
@@ -89,7 +89,7 @@ Here are the four buttons:
 *	**Step Out** – This will return to the line where the current function was called.
 
 
-## Debugging Mono’s class libraries
+## Debugging Mono's class libraries
 Xamarin products ship with the source code for Mono's class libraries, and you can use this to single step from the debugger to inspect how things are working under the hood.
 
 Since this feature consumes more memory during debugging, it is turned off by default.

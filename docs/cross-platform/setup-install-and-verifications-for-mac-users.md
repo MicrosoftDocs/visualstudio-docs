@@ -31,13 +31,13 @@ translation.priority.mt:
 # Setup, install, and verifications for Mac users
 This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows computer and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.
 
- To work with Xamarin on a Mac, you’ll need the following:
+ To work with Xamarin on a Mac, you'll need the following:
 
 -   A Mac with macOS Sierra 10.12 or above, with Xcode and Xamarin installed.
 
 -   One of the following configurations:
 
-    -   **For running Xamarin Studio directly on the Mac:** Xamarin Studio is Xamarin’s development environment that supports building Android, iOS, and Windows apps using C#.  To get a quick overview of Xamarin Studio, refer to the [Xamarin Studio overview](https://xamarin.com/studio) (xamarin.com).
+    -   **For running Xamarin Studio directly on the Mac:** Xamarin Studio is Xamarin's development environment that supports building Android, iOS, and Windows apps using C#.  To get a quick overview of Xamarin Studio, refer to the [Xamarin Studio overview](https://xamarin.com/studio) (xamarin.com).
 
     -   **If you already have Parallels or VMWare configured on your Mac:** run Windows with Visual Studio 2017 and Xamarin inside Parallels or VMWare.  With this configuration, Xamarin is an extension that's installed with Visual Studio that provides the ability to use Visual Studio as your development environment for building Android, iOS, and Windows apps using C#.  Note that you can obtain a free 3-month Parallels subscription as part of the Visual Studio Developer Essentials Program. See [Microsoft Visual Studio Dev Essentials Will Include Parallels Desktop Pro and Parallels Access](http://blog.parallels.com/blog/2015/11/18/visual-studio-dev-essentials/) (Parallels blog).
 
@@ -45,17 +45,17 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 ##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)
 
-1.  Create a free Apple ID at [My Apple ID](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.
+1.  Create a free Apple ID at [My Apple ID](https://appleid.apple.com/) if you don't have one already. This is necessary for installing and signing into Xcode.
 
 2.  Download and install Xcode from [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/).
 
 3.  Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).
 
-4.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.
+4.  Once you've completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.
 
 ##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)
 
-1.  Using the Windows desktop that you’ve configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
+1.  Using the Windows desktop that you've configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
 
 2.  Within the installer, click the **Additional Choices** (three-bars icon) button _next to_ **Launch** then choose **Modify**.:  
   
@@ -73,7 +73,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 5.  Once installation is complete, launch Visual Studio and sign in with your Microsoft account if prompted (this is the same account you use with Windows).
 
-6.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.
+6.  Once you've completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.
 
 ##  <a name="verify"></a> Verify your environment
  Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.
@@ -116,16 +116,16 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 2.  Validate creating an iOS project by following the instructions on [Create an iOS](http://developer.xamarin.com/recipes/ios/general/projects/create_an_ios_project/) (xamarin.com).
 
-3.  Validate the storyboard designer: in the iOS project in Solution Explorer, open the **MainStoryboard.storyboard** file. Here, Visual Studio is hosting the designer that’s running remotely on the Mac.
+3.  Validate the storyboard designer: in the iOS project in Solution Explorer, open the **MainStoryboard.storyboard** file. Here, Visual Studio is hosting the designer that's running remotely on the Mac.
 
 4.  Validate building and debugging:
 
     1.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.
 
-    2.  Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).
+    2.  Select the **iPhoneSimulator** target from Visual Studio's build drop-down as shown below. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin's [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).
 
          ![Selecting the iPhoneSimulator build target](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin Verify 5")
 
-    3.  Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio.
+    3.  Select an iPhone target from Visual Studio's debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you'll interact with the app, while debugging happens in Visual Studio.
 
          ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")

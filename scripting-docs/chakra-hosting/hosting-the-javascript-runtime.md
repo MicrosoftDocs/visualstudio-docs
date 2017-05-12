@@ -24,7 +24,7 @@ The JavaScript Runtime (JsRT) APIs provide a way for desktop, Windows Store, and
   
  A *runtime* represents a complete JavaScript execution environment. Each runtime that is created has its own isolated garbage collected heap and, by default, its own just-in-time (JIT) compiler thread and garbage collector (GC) thread. An *execution context* represents a JavaScript environment that has its own JavaScript global object distinct from all other execution contexts. One runtime may contain multiple execution contexts, and in such cases, all the execution contexts share the JIT compiler and GC thread associated with the runtime.  
   
- Runtimes represent a single thread of execution. Only one runtime can be active on a particular thread at a time, and a runtime can only be active on one thread at a time. Runtimes are rental threaded, so a runtime that is not currently active on a thread (i.e. isn’t running any JavaScript code or responding to any calls from the host) can be used on any thread that doesn’t already have an active runtime on it.  
+ Runtimes represent a single thread of execution. Only one runtime can be active on a particular thread at a time, and a runtime can only be active on one thread at a time. Runtimes are rental threaded, so a runtime that is not currently active on a thread (i.e. isn't running any JavaScript code or responding to any calls from the host) can be used on any thread that doesn't already have an active runtime on it.  
   
  Execution contexts are tied to a particular runtime and execute code within that runtime. Unlike runtimes, multiple execution contexts can be active on a thread at the same time. So a host can make a call into an execution context, that execution context can call back to the host, and the host can make a call into a different execution context.  
   
@@ -35,7 +35,7 @@ The JavaScript Runtime (JsRT) APIs provide a way for desktop, Windows Store, and
 ## Memory management  
  JavaScript is a garbage collected language, and thus there are several considerations that must be kept in mind when working with the JsRT APIs from another language.  
   
- The main consideration is that the JavaScript garbage collector can only see references to values in two places: its runtime’s heap, and the stack. Thus, a reference to a JavaScript value that is stored inside of another JavaScript value or in a local variable on the stack will always be seen by the garbage collector. But references stored in other locations, such as heaps managed by the host or the system, will not be seen by the garbage collector and may result in premature collection of values that are still in use by the host.  
+ The main consideration is that the JavaScript garbage collector can only see references to values in two places: its runtime's heap, and the stack. Thus, a reference to a JavaScript value that is stored inside of another JavaScript value or in a local variable on the stack will always be seen by the garbage collector. But references stored in other locations, such as heaps managed by the host or the system, will not be seen by the garbage collector and may result in premature collection of values that are still in use by the host.  
   
 > [!IMPORTANT]
 >  Some language compilers (such as the Visual Studio C++ compiler) will optimize away local variables where possible. Care must be taken to ensure that local variables that reference JavaScript values are on the stack if they are expected to keep those values alive.  
@@ -54,7 +54,7 @@ The JavaScript Runtime (JsRT) APIs provide a way for desktop, Windows Store, and
   
 -   **Memory Usage**. There are several ways to monitor and modify the memory usage of a runtime. If the runtime will be running for a long time, the host can specify the `JsRuntimeAttributeEnableIdleProcessing` flag when creating the runtime and then call `JsIdle` when the host is in an idle state. This allows the engine to defer some memory cleanup and bookkeeping work until idle time.  
   
-     The host can monitor garbage collections by calling `JsSetRuntimeBeforeCollectCallback`. It can also monitor allocations made by the heap by calling `JsSetRuntimeMemoryAllocationCallback`. Note that this API does not call back on every JavaScript allocation, just when the runtime’s heap needs more space from which to allocate. The memory allocation callback is allowed to deny the request, which will trigger a garbage collection and, if no memory is available, an out of memory error in the runtime.  
+     The host can monitor garbage collections by calling `JsSetRuntimeBeforeCollectCallback`. It can also monitor allocations made by the heap by calling `JsSetRuntimeMemoryAllocationCallback`. Note that this API does not call back on every JavaScript allocation, just when the runtime's heap needs more space from which to allocate. The memory allocation callback is allowed to deny the request, which will trigger a garbage collection and, if no memory is available, an out of memory error in the runtime.  
   
      The host can also call `JsSetRuntimeMemoryLimit` to set a limit for how much memory a runtime can use. When a runtime hits a limit, it will trigger a garbage collection and, if no memory is available, an out of memory error will be thrown by the runtime.  
   

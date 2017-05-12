@@ -61,9 +61,9 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
      When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame ...** link above the image thumbnails, or by double-clicking the thumbnail.  
   
- Only whole frames can be captured, so when you initiate a capture, it’s really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
+ Only whole frames can be captured, so when you initiate a capture, it's really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
   
- While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can’t capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
+ While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can't capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
   
 ### Graphics Diagnostics Capture Options  
  You can configure capture to collect call stacks for all graphics events or a limited subset, disable the capture HUD, and enable or disable capture compatibility mode.  

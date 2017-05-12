@@ -37,7 +37,7 @@ Conditional attributes may be applied to all lists and items. Logical operators 
   
  When a Condition attribute is applied to a list, the condition is applied to every child element in the list. If a child element itself contains a Condition attribute, then its condition is combined with the parent expression by an AND operation.  
   
- The values 1, ‘1’ and ‘true’ are evaluated as true, and 0, ‘0’ and ‘false’ are evaluated as false.  
+ The values 1, '1' and 'true' are evaluated as true, and 0, '0' and 'false' are evaluated as false.  
   
 ## Operators  
  The following operators may be used to evaluate conditional expressions.  

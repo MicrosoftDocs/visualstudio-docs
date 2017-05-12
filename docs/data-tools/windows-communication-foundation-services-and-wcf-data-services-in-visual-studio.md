@@ -104,7 +104,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  To learn more about WCF templates, see [WCF Visual Studio Templates](http://msdn.microsoft.com/Library/6a608575-3535-4190-89da-911e24c8374f).  
   
 #### WCF Service Host  
- When you start the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger (by pressing F5) for a WCF service project, the WCF Service Host tool is automatically started to host the service locally. WCF Service Host enumerates the services in a WCF service project, loads the project’s configuration, and instantiates a host for each service that it finds.  
+ When you start the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger (by pressing F5) for a WCF service project, the WCF Service Host tool is automatically started to host the service locally. WCF Service Host enumerates the services in a WCF service project, loads the project's configuration, and instantiates a host for each service that it finds.  
   
  By using WCF Service Host, you can test a WCF service without writing extra code or committing to a specific host during development.  
   

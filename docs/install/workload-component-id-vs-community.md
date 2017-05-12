@@ -42,7 +42,7 @@ Also note the following about the page:
 
 * Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
 * By default, the **Required** components will be installed when you install the workload. If you choose to, you can also install the **Recommended** and **Optional** components.
-* We’ve also added a section that lists the additional components that are not affiliated with any workload.
+* We've also added a section that lists the additional components that are not affiliated with any workload.
 
 When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
 

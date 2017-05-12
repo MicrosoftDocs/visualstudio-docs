@@ -398,7 +398,7 @@ This article describes typical uses of annotations for simple function parameter
      The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.  
   
 ## Output Reference Parameters  
- A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don’t provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:  
+ A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:  
   
  **Annotations and Descriptions**  
   

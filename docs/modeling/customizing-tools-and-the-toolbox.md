@@ -233,14 +233,14 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
- You can use similar code, for example, to prevent users from creating loops with parent-child links. These restrictions are considered ‘hard’ constraints because users cannot violate them at any time. You can also create ‘soft’ validation checks that users can bypass temporarily by creating invalid configurations that they cannot save.  
+ You can use similar code, for example, to prevent users from creating loops with parent-child links. These restrictions are considered 'hard' constraints because users cannot violate them at any time. You can also create 'soft' validation checks that users can bypass temporarily by creating invalid configurations that they cannot save.  
   
 ### Good Practice in Defining Connection Builders  
  You should define one connection builder to create different types of relationships only if they are conceptually related. In the task flow sample, you use the same builder to create flows between tasks and also between tasks and objects. However, it would be confusing to use the same builder to create relationships between comments and tasks.  
   
  If you define a connection builder for multiple types of relationships, you should ensure that it cannot match more than one type from the same pair of source and target objects. Otherwise, the results will be unpredictable.  
   
- You use custom code to apply ‘hard’ constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.  
+ You use custom code to apply 'hard' constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.  
   
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   

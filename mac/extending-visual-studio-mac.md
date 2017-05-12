@@ -1,6 +1,6 @@
 ---
 title: "Extending Visual Studio for Mac"
-Description: "Visual Studio for Mac’s features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
+Description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -84,11 +84,11 @@ To invoke the command from the Edit Menu, the walkthrough creates a CommandItem 
 </Extension>
 ```
 
-A CommandItem places a Command specified in its id attribute into a menu. This CommandItem is extending the `/MonoDevelop/Ide/MainMenu/Edit` extension point, which makes the Command’s label appear in the **Edit Menu**. Note that the **id** in the CommandItem corresponds to the id of the Command node, `InsertDate`. If you were to remove the CommandItem, the **Insert Date** option would disappear from the Edit Menu.
+A CommandItem places a Command specified in its id attribute into a menu. This CommandItem is extending the `/MonoDevelop/Ide/MainMenu/Edit` extension point, which makes the Command's label appear in the **Edit Menu**. Note that the **id** in the CommandItem corresponds to the id of the Command node, `InsertDate`. If you were to remove the CommandItem, the **Insert Date** option would disappear from the Edit Menu.
 
 ### Command Handlers
 
-The `InsertDateHandler` is an extension of the `CommandHandler` class. It overrides two methods, `Update` and `Run`. The `Update` method is queried whenever a Command is shown in a menu or executed via key bindings. By changing the info object, you can disable the Command or make it invisible, populate array commands, and more. This `Update` method disables the command if it can’t find an active *Document* with a *TextEditor* to insert text into:
+The `InsertDateHandler` is an extension of the `CommandHandler` class. It overrides two methods, `Update` and `Run`. The `Update` method is queried whenever a Command is shown in a menu or executed via key bindings. By changing the info object, you can disable the Command or make it invisible, populate array commands, and more. This `Update` method disables the command if it can't find an active *Document* with a *TextEditor* to insert text into:
 
 ```
 protected override void Update (CommandInfo info)

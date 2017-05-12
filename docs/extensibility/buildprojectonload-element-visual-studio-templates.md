@@ -28,7 +28,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # BuildProjectOnload Element (Visual Studio Templates)
-Builds only new projects as you create and add them to a solution. The entire solution isn’t built.  
+Builds only new projects as you create and add them to a solution. The entire solution isn't built.  
   
  \<VSTemplate>  
  \<TemplateData>  
@@ -58,7 +58,7 @@ Builds only new projects as you create and add them to a solution. The entire so
 ## Text Value  
  A text value is required.  
   
- The text must be either `true` or `false` to indicate whether to build only the new project when it’s created from the template.  
+ The text must be either `true` or `false` to indicate whether to build only the new project when it's created from the template.  
   
 ## Remarks  
  `BuildProjectOnLoad` is an optional element. The default value is `false`.  

@@ -30,7 +30,7 @@ translation.priority.ht:
 # Set a Unique Automation Property for Windows Store Controls for Testing
 If you want to run coded UI tests for your XAML-based Windows Store application, you must have a unique automation property that identifies each control.  
   
- You can assign a unique automation property based on the type of XAML control in your application. Here’s how to assign this unique automation property in the following situations:  
+ You can assign a unique automation property based on the type of XAML control in your application. Here's how to assign this unique automation property in the following situations:  
   
 -   [Static XAML definition of controls](#UniquePropertyWindowsStoreControlsStaticXAML)  
   

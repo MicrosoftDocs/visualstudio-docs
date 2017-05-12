@@ -130,7 +130,7 @@ console.log(si2.next().value);
 // b  
 ```  
   
- You can also create more advanced generators by passing an argument to `next` and using the argument to modify the state of the generator. `next` becomes the result value of the previously executed `yield` expression. In the following example, when you pass a value of 100 to the `next` method, you reset the generator’s internal index value.  
+ You can also create more advanced generators by passing an argument to `next` and using the argument to modify the state of the generator. `next` becomes the result value of the previously executed `yield` expression. In the following example, when you pass a value of 100 to the `next` method, you reset the generator's internal index value.  
   
 ```  
 function* strIter() {  
@@ -158,4 +158,4 @@ console.log(si2.next(100).value);
   
 ```  
   
- Other advanced generators may call the generator’s `throw` method. The thrown error appears to get thrown at the point where the generator is paused (before the next `yield` statement).
+ Other advanced generators may call the generator's `throw` method. The thrown error appears to get thrown at the point where the generator is paused (before the next `yield` statement).

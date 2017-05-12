@@ -30,10 +30,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: My First WPF Desktop Application
-<a name="introduction"></a> This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You’ll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
+<a name="introduction"></a> This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You'll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
   
 ##  <a name="Create_The_Application_Code_Files"></a> Creating the Application Project  
- In this section, you’ll create the application infrastructure, which includes the project and a main window or form.  
+ In this section, you'll create the application infrastructure, which includes the project and a main window or form.  
   
 #### To create the project  
   
@@ -49,20 +49,20 @@ translation.priority.mt:
   
 #### To modify the main window  
   
-1.  In the designer, choose the **MainWindow.xaml** tab if it isn’t already the active designer tab.  
+1.  In the designer, choose the **MainWindow.xaml** tab if it isn't already the active designer tab.  
   
-2.  If you’re using C#, find the line `<Window x:Class="ExpenseIt.MainWindow"` and replace it with `<NavigationWindow x:Class="ExpenseIt.MainWindow"`.  
+2.  If you're using C#, find the line `<Window x:Class="ExpenseIt.MainWindow"` and replace it with `<NavigationWindow x:Class="ExpenseIt.MainWindow"`.  
   
-     If you’re using Visual Basic, find the line `<Window x:Class=" MainWindow"` and replace it with `<NavigationWindow x:Class="MainWindow"`.  
+     If you're using Visual Basic, find the line `<Window x:Class=" MainWindow"` and replace it with `<NavigationWindow x:Class="MainWindow"`.  
   
      Notice that when you change the `<Window` tag to `<NavigationWindow`, Intellisense automatically changes the closing tag to `</NavigationWindow>` as well.  
   
     > [!NOTE]
-    >  After changing the tag, if the **Error List** window is open you may notice several errors. Don’t worry, the changes you make in the next few steps will make these go away.  
+    >  After changing the tag, if the **Error List** window is open you may notice several errors. Don't worry, the changes you make in the next few steps will make these go away.  
   
 3.  Choose the `<Grid>` and `</Grid>` tags and delete them.  
   
-     A **NavigationWindow** can’t contain other UI elements such as a **Grid**.  
+     A **NavigationWindow** can't contain other UI elements such as a **Grid**.  
   
 4.  In the **Properties** window, expand the **Common** category node and choose the **Title** property, and then enter `ExpenseIt` and press the **Enter** key.  
   
@@ -111,7 +111,7 @@ translation.priority.mt:
      This changes the `MainWindow` class to derive from `NavigationWindow`. In Visual Basic, this happens automatically when you change the window in XAML, so no code changes are necessary.  
   
 ##  <a name="add_files_to_the_application"></a> Adding Files to the Application  
- In this section, you’ll add two pages and an image to the application.  
+ In this section, you'll add two pages and an image to the application.  
   
 #### To add a home screen  
   
@@ -121,7 +121,7 @@ translation.priority.mt:
   
      This page is the first window that is displayed when the application is launched.  
   
-3.  In the designer, choose the **ExpenseItHome.xaml** tab if it isn’t already the active designer tab.  
+3.  In the designer, choose the **ExpenseItHome.xaml** tab if it isn't already the active designer tab.  
   
 4.  Choose the `<Title>` element and change the title to **ExpenseIt – Home**.  
   
@@ -206,7 +206,7 @@ translation.priority.mt:
   
      This window will display an individual expense report.  
   
-3.  In the designer, choose the **ExpenseReportPage.xaml** tab if it isn’t already the active designer tab.  
+3.  In the designer, choose the **ExpenseReportPage.xaml** tab if it isn't already the active designer tab.  
   
 4.  Choose the `<Title>` element and change the title to **ExpenseIt – View Expense**.  
   
@@ -256,7 +256,7 @@ translation.priority.mt:
 6.  Close the application to return to design mode.  
   
 ##  <a name="Add_Layout"></a> Creating the User Interface  
- Layout provides an ordered way to place elements, and also manages the size and position of those elements when a form is resized. In this section, you’ll create a single-column grid with three rows. You’ll add controls to the two pages, add some code, and finally define reusable styles for the controls.  
+ Layout provides an ordered way to place elements, and also manages the size and position of those elements when a form is resized. In this section, you'll create a single-column grid with three rows. You'll add controls to the two pages, add some code, and finally define reusable styles for the controls.  
   
 #### To create the layout  
   
@@ -482,7 +482,7 @@ translation.priority.mt:
   
 2.  Chose the `<Button` element and add the following XAML code immediately after the **HorizontalAlignment="Right"** element: `Click="Button_Click"`.  
   
-     This adds an event handler for the button’s `Click` event. The **<Button** element code should now look like this:  
+     This adds an event handler for the button's `Click` event. The **<Button** element code should now look like this:  
   
     ```  
     <!-- View report button -->  
@@ -761,7 +761,7 @@ translation.priority.mt:
      This adds styles to the `<Label>` and `<Border>` elements.  
   
 ## Connecting to Data  
- In this section, you’ll create a data provider and a data template, and then connect the controls to display the data.  
+ In this section, you'll create a data provider and a data template, and then connect the controls to display the data.  
   
 #### To bind data to a control  
   

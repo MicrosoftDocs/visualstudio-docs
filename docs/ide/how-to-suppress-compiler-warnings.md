@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Suppress Compiler Warnings
-You can declutter a build log by specifying one or more kinds of compiler warnings that you don’t want it to contain. For example, you might use this technique to review some but not all of the information that’s generated automatically when you set the build-log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
+You can declutter a build log by specifying one or more kinds of compiler warnings that you don't want it to contain. For example, you might use this technique to review some but not all of the information that's generated automatically when you set the build-log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
 ### To suppress specific warnings for Visual C# or F# #
   
@@ -71,7 +71,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
      The project file is opened in the code editor.  
   
-4.  Locate the `<NoWarn></NoWarn>` element in the build configuration with which you’re building.  
+4.  Locate the `<NoWarn></NoWarn>` element in the build configuration with which you're building.  
   
      The following example shows the `<NoWarn></NoWarn>` element in bold text for the Debug build configuration on an x86 platform:  
   

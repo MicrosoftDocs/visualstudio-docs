@@ -79,13 +79,13 @@ Deleting an element usually causes related elements to be deleted also. All rela
 >  To add program code to your DSL definition, create a separate code file in the **Dsl** project and write partial definitions to augment the classes in the Generated Code folder. For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).  
   
 ##  <a name="closure"></a> Defining a Delete Closure  
- The deletion operation uses the class *YourModel***DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link’s roles. It should return one of the following values:  
+ The deletion operation uses the class *YourModel***DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:  
   
--   **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element’s other links.  
+-   **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element's other links.  
   
 -   **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
   
--   **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element’s other links.  
+-   **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element's other links.  
   
 ```  
 // When a musician is deleted, delete their albums with a low rating.  
@@ -111,14 +111,14 @@ partial class MusicLibDeleteClosure
         return VisitorFilterResult.Yes;   
       }  
       else  
-        // Don’t delete unless another relationship deletes it:  
+        // Don't delete unless another relationship deletes it:  
         return VisitorFilterResult.DoNotCare;   
     }  
     else   
     {  
       // Test for and respond to other relationships and roles here.  
   
-      // Not the relationship or role we’re interested in.  
+      // Not the relationship or role we're interested in.  
       return base.ShouldVisitRolePlayer(walker, sourceElement,   
              elementLink, targetDomainRole, targetRolePlayer);  
     }  
@@ -212,7 +212,7 @@ partial class Artist
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
     > [!WARNING]
-    >  When an element has been deleted, you can access its domain property values, but you cannot navigate relationship links. However, if you set a deleted event on a relationship, you can also access the two elements that were its role players. Therefore, if you want to respond to the deletion of a model element but want to access an element to which it was linked, set a delete event on the relationship instead of the model element’s domain class.  
+    >  When an element has been deleted, you can access its domain property values, but you cannot navigate relationship links. However, if you set a deleted event on a relationship, you can also access the two elements that were its role players. Therefore, if you want to respond to the deletion of a model element but want to access an element to which it was linked, set a delete event on the relationship instead of the model element's domain class.  
   
 ### Example Deletion Rules  
   

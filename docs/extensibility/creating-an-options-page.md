@@ -110,7 +110,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
      In the left pane you should see **My Category**. (Options categories are listed in alphabetical order, so it should appear about halfway down the list.) Open **My Category** and then click **My Grid Page**.The options grid appears in the right pane. The property category is **My Options**, and the property name is **My Integer Option**. The property description, **My integer option**, appears at the bottom of the pane. Change the value from its initial value of 256 to something else. Click **OK**, and then reopen **My Grid Page**. You can see that the new value persists.  
   
-     Your options page is also available through Visual Studio’s Quick Launch. In the Quick Launch window in the upper right corner of the IDE, type **My Category** and you will see **My Category –> My Grid Page** listed in the dropdown.  
+     Your options page is also available through Visual Studio's Quick Launch. In the Quick Launch window in the upper right corner of the IDE, type **My Category** and you will see **My Category –> My Grid Page** listed in the dropdown.  
   
 ## Creating a Tools Options Custom Page  
  In this section, you create a Tools Options page with a custom UI. You use this page to display and change the value of a property.  
@@ -256,7 +256,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Now add a custom command item template named **MyToolsOptionsCommand** to display the value. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to **MyToolsOptionsCommand.cs**.  
   
-3.  In the MyToolsOptionsCommand file, replace the body of the command’s `ShowMessageBox` method with the following:  
+3.  In the MyToolsOptionsCommand file, replace the body of the command's `ShowMessageBox` method with the following:  
   
     ```c#  
     private void ShowMessageBox(object sender, EventArgs e)  

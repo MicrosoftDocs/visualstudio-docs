@@ -179,7 +179,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.  
   
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
+1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
   
 2.  Add reference to all the System and third-party assemblies you need Fakes for.  
   
@@ -268,7 +268,7 @@ attribute of the Assembly element in the .fakes:
   
 -   **Parameter type** names are transformed and concatenated.  
   
--   **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
+-   **Return type** is ignored unless there's an overload ambiguity. If this is the case, the return type is appended at the end of the name  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   

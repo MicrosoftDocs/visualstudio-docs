@@ -61,13 +61,13 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 ## Automatic Extension Updates  
  Per-user extensions are automatically updated when a new version is available on the Visual Studio Gallery.  The new version of the extension is detected and installed in the background and on the next restart of Visual Studio, the new version of the extension will be running.  
   
- Only per-user extensions can be automatically updated.  Administrative extensions which are installed for all users will not be updated and you still manually install new versions through the **Extensions and Updates** dialog **Updates** node. You can see which extensions will be automatically updated in the extension’s details pane of **Extensions and Updates** dialog.  
+ Only per-user extensions can be automatically updated.  Administrative extensions which are installed for all users will not be updated and you still manually install new versions through the **Extensions and Updates** dialog **Updates** node. You can see which extensions will be automatically updated in the extension's details pane of **Extensions and Updates** dialog.  
   
  If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.  
   
 -   To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.  
   
--   To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension’s details pane on the right side of the **Extensions and Updates** dialog.  
+-   To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extensions and Updates** dialog.  
   
 > [!NOTE]
 >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).  

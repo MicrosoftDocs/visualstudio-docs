@@ -69,9 +69,9 @@ The Visual Studio Extension Color Editor tool can create and edit custom colors 
   
  Category names provide logical groupings, and should be defined as narrowly as possible. For example, the name of a single tool window could be a category name, but the name of an entire business unit or project team is not. Grouping entries into categories helps prevent confusion between colors with the same name.  
   
- A token name must clearly indicate the element type and the situations, or "state," for which the color will be applied. For example, an active data tip’s **[UI type]** could be named "**DataTip**" and the **[State]** could be named "**Active**," resulting in a color name of "**DataTipActive**." Since data tips have text, both a foreground and a background color need to be defined. By using a background/foreground pairing, the color editor will automatically create the colors "**DataTipActive**" for the background and "**DataTipActiveText**" for the foreground.  
+ A token name must clearly indicate the element type and the situations, or "state," for which the color will be applied. For example, an active data tip's **[UI type]** could be named "**DataTip**" and the **[State]** could be named "**Active**," resulting in a color name of "**DataTipActive**." Since data tips have text, both a foreground and a background color need to be defined. By using a background/foreground pairing, the color editor will automatically create the colors "**DataTipActive**" for the background and "**DataTipActiveText**" for the foreground.  
   
- If the piece of UI has only one state, the **[State]** part of the name can be omitted. For example, if a search box has a border and there is no state change that would affect the border’s color, then the name for the border’s color token can simply be called "**SearchBoxBorder**."  
+ If the piece of UI has only one state, the **[State]** part of the name can be omitted. For example, if a search box has a border and there is no state change that would affect the border's color, then the name for the border's color token can simply be called "**SearchBoxBorder**."  
   
  Some common state names include:  
   

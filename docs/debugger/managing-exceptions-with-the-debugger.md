@@ -57,7 +57,7 @@ translation.priority.mt:
 
 An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions (or sets of exceptions) to break on, and at which point you want the debugger to break (when the debugger breaks, it shows you where the exception was thrown). You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug / Windows / Exception Settings** to open the **Exception Settings** window. 
 
-You can and should provide handlers that respond to the most important exceptions, but it’s important to know how to configure the debugger to always break execution for some exceptions.
+You can and should provide handlers that respond to the most important exceptions, but it's important to know how to configure the debugger to always break execution for some exceptions.
   
 When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  
   
@@ -112,7 +112,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
      but it does not display the `here` line.  
   
-*  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn’t handle it:  
+*  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn't handle it:  
   
     ```c# 
     public class Class1  
@@ -136,7 +136,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
     }  
     ```  
   
-     Here’s the Main() method of the console application:  
+     Here's the Main() method of the console application:  
   
     ```CSharp  
     static void Main(string[] args)  
@@ -174,9 +174,9 @@ If you select an exception in the **Exception Settings** window, debugger execut
  If you want to add an exception to the GPU Memory Access Exceptions, JavaScript Runtime Exceptions, or Win32 Exceptions categories, you need to include the error code as well as the description.  
   
 > [!TIP]
->  Check your spelling! The **Exception Settings** window doesn’t check for the existence of an added exception. So if you type **Sytem.UriTemplateMatchException**, you’ll get an entry for that exception (and not for **System.UriTemplateMatchException**).  
+>  Check your spelling! The **Exception Settings** window doesn't check for the existence of an added exception. So if you type **Sytem.UriTemplateMatchException**, you'll get an entry for that exception (and not for **System.UriTemplateMatchException**).  
   
- Exception settings are persisted in the solution’s .suo file, so they apply to a particular solution. You can’t reuse specific exception settings across solutions. At this point, only added exceptions are persisted; deleted exceptions are not. In other words, you can add an exception, close and reopen the solution, and the exception will still be there. But if you delete an exception and close/reopen the solution, the exception will reappear.  
+ Exception settings are persisted in the solution's .suo file, so they apply to a particular solution. You can't reuse specific exception settings across solutions. At this point, only added exceptions are persisted; deleted exceptions are not. In other words, you can add an exception, close and reopen the solution, and the exception will still be there. But if you delete an exception and close/reopen the solution, the exception will reappear.  
   
  The **Exception Settings** window supports generic exception types in C# but not in Visual Basic. To break on exceptions like `MyNamespace.GenericException<T>`, you must add the exception as **MyNamespace.GenericException`1**. That is, if you have created an exception like this:  
   

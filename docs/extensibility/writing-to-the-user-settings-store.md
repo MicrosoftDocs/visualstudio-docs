@@ -97,7 +97,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
   
     ```  
   
-5.  If Notepad hasn’t been set as an external tool, set it as follows:  
+5.  If Notepad hasn't been set as an external tool, set it as follows:  
   
     ```vb  
     private void MenuItemCallback(object sender, EventArgs e)  

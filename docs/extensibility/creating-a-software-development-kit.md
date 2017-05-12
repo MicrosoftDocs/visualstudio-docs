@@ -34,7 +34,7 @@ A software development kit (SDK) is a collection of APIs that you can reference 
   
 -   Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.  
   
--   Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
+-   Extension SDKs are optional components that extend a platform but aren't mandatory for developing apps for that platform.  
   
  The following sections describe the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.  
   
@@ -116,9 +116,9 @@ A software development kit (SDK) is a collection of APIs that you can reference 
   
 2.  References folder: the binaries that contain the APIs. These could be Windows Metadata (WinMD) files or assemblies.  
   
-3.  Redist folder: the files that are needed for runtime/debugging and should get packaged as part of the user’s application. All binaries should be placed underneath \redist\\<config\>\\<arch\>, and the binary names should have the following format to ensure uniqueness: **\<company>.\<product>.\<purpose>.\<extension>**. For example, Microsoft.Cpp.Build.dll. All files with names that may collide with file names from other SDKs (for example, javascript, css, pri, xaml, png, and jpg files) should be placed underneath \redist\\<config\>\\<arch\>\\<sdkname\>\ except for the files that are associated with XAML controls. These files should be placed underneath \redist\\<config\>\\<arch\>\\<componentname\>\\.  
+3.  Redist folder: the files that are needed for runtime/debugging and should get packaged as part of the user's application. All binaries should be placed underneath \redist\\<config\>\\<arch\>, and the binary names should have the following format to ensure uniqueness: **\<company>.\<product>.\<purpose>.\<extension>**. For example, Microsoft.Cpp.Build.dll. All files with names that may collide with file names from other SDKs (for example, javascript, css, pri, xaml, png, and jpg files) should be placed underneath \redist\\<config\>\\<arch\>\\<sdkname\>\ except for the files that are associated with XAML controls. These files should be placed underneath \redist\\<config\>\\<arch\>\\<componentname\>\\.  
   
-4.  DesignTime folder: the files that are needed at only pre-run/debugging time and shouldn’t be packaged as part of the user’s application. These could be XML docs, libraries, headers, toolbox design-time binaries, MSBuild artifacts, and so forth. Any SDK that is intended for consumption by a native project must have an *SDKName*.props file. The following shows a sample of this type of file.  
+4.  DesignTime folder: the files that are needed at only pre-run/debugging time and shouldn't be packaged as part of the user's application. These could be XML docs, libraries, headers, toolbox design-time binaries, MSBuild artifacts, and so forth. Any SDK that is intended for consumption by a native project must have an *SDKName*.props file. The following shows a sample of this type of file.  
   
     ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -171,9 +171,9 @@ MoreInfo = "http://msdn.microsoft.com/MySDK">
   
 1.  DisplayName: the value that appears in the Reference Manager, Solution Explorer, Object Browser, and other locations in the user interface for Visual Studio.  
   
-2.  ProductFamilyName: The overall SDK product name. For example, the [!INCLUDE[winjs_long](../debugger/includes/winjs_long_md.md)] SDK is named "Microsoft.WinJS.1.0" and "Microsoft.WinJS.2.0", which belong to the same family of SDK products family, "Microsoft.WinJS". This attribute allows Visual Studio and MSBuild to make that connection. If this attribute doesn’t exist, the SDK Name is used as the product family name.  
+2.  ProductFamilyName: The overall SDK product name. For example, the [!INCLUDE[winjs_long](../debugger/includes/winjs_long_md.md)] SDK is named "Microsoft.WinJS.1.0" and "Microsoft.WinJS.2.0", which belong to the same family of SDK products family, "Microsoft.WinJS". This attribute allows Visual Studio and MSBuild to make that connection. If this attribute doesn't exist, the SDK Name is used as the product family name.  
   
-3.  FrameworkIdentity: specifies a dependency on one or more Windows component libraries The value of this attribute is put into the consuming app’s manifest. This attribute is applicable only to Windows component libraries.  
+3.  FrameworkIdentity: specifies a dependency on one or more Windows component libraries The value of this attribute is put into the consuming app's manifest. This attribute is applicable only to Windows component libraries.  
   
 4.  TargetFramework: specifies the SDKs that are available in the Reference Manager and the toolbox. This is a semicolon-delimited list of target framework monikers, for example ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1". If several versions of the same target framework are specified, the Reference Manager uses the lowest specified version for filtering purposes. For example, if ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1" is specified, Reference Manager will use ".NET Framework, version=v2.0". If a specific target framework profile is specified, only that profile will be used by the Reference Manager for filtering purposes. For example, when "Silverlight, version=v4.0, profile=WindowsPhone" is specified, Reference Manager filters on only the Windows Phone profile; a project targeting the full Silverlight 4.0 Framework does not see the SDK in the Reference Manager.  
   
@@ -181,7 +181,7 @@ MoreInfo = "http://msdn.microsoft.com/MySDK">
   
 6.  MaxPlatformVerson: The maximum target platform version should be used to specify the platform versions on which your Extension SDK will not work. For example, the Microsoft Visual C++ Runtime Package v11.0 should be referenced only by Windows 8 projects. Thus, the Windows 8 project's MaxPlatformVersion is 8.0. This means that the Reference Manager filters out Microsoft Visual C++ Runtime Package for a Windows 8.1 project, and MSBuild throws an error when a [!INCLUDE[win81](../debugger/includes/win81_md.md)] project references it. Note: this element is supported starting in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)].  
   
-7.  AppliesTo: specifies the SDKs that are available in the Reference Manager by specifying applicable Visual Studio project types. Nine values are recognized: WindowsAppContainer, VisualC, VB, CSharp, WindowsXAML, JavaScript, Managed, and Native. The SDK author can use and ("+’), or ("&#124;"), not ("!") operators to specify exactly the scope of project types that apply to the SDK.  
+7.  AppliesTo: specifies the SDKs that are available in the Reference Manager by specifying applicable Visual Studio project types. Nine values are recognized: WindowsAppContainer, VisualC, VB, CSharp, WindowsXAML, JavaScript, Managed, and Native. The SDK author can use and ("+'), or ("&#124;"), not ("!") operators to specify exactly the scope of project types that apply to the SDK.  
   
      WindowsAppContainer identifies projects for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.  
   
@@ -189,9 +189,9 @@ MoreInfo = "http://msdn.microsoft.com/MySDK">
   
 9. SupportedArchitectures: a semi-colon delimited list of architectures that the SDK supports. MSBuild displays a warning if the targeted SDK architecture in the consuming project isn't supported. If this attribute isn't specified, MSBuild never displays this type of warning.  
   
-10. SupportsMultipleVersions: if this attribute is set to **Error** or **Warning**, MSBuild indicates that the same project can't reference multiple versions of the same SDK family. If this attribute doesn’t exist or is set to **Allow**, MSBuild doesn't display this type of error or warning.  
+10. SupportsMultipleVersions: if this attribute is set to **Error** or **Warning**, MSBuild indicates that the same project can't reference multiple versions of the same SDK family. If this attribute doesn't exist or is set to **Allow**, MSBuild doesn't display this type of error or warning.  
   
-11. AppX: specifies the path to the app packages for the Windows component library on the disk. This value is passed to the registration component of the Windows component library during local debugging. The naming convention for the file name is **\<Company>.\<Product>.\<Architecture>.\<Configuration>.\<Version>.appx**. Configuration and Architecture are optional in the attribute name and the attribute value if they don’t apply to the Windows component library. This value is applicable only to Windows component libraries.  
+11. AppX: specifies the path to the app packages for the Windows component library on the disk. This value is passed to the registration component of the Windows component library during local debugging. The naming convention for the file name is **\<Company>.\<Product>.\<Architecture>.\<Configuration>.\<Version>.appx**. Configuration and Architecture are optional in the attribute name and the attribute value if they don't apply to the Windows component library. This value is applicable only to Windows component libraries.  
   
 12. CopyRedistToSubDirectory: specifies where the files under the \redist folder should be copied relative to the app package root (that is, the **Package location** chosen in the Create App Package wizard) and runtime layout root. The default location is the root of the app package and F5 layout.  
   

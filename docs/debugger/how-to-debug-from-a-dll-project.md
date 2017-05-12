@@ -71,7 +71,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
 2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**.  
   
-     If you need to add the external program’s command line arguments, add them in the **Command line arguments** field.
+     If you need to add the external program's command line arguments, add them in the **Command line arguments** field.
 
     ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll-csharp.png "DebuggingPropertiesWindow") 
 

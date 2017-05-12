@@ -47,7 +47,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
 1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
-     For example, let’s assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following inside your package class:  
+     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following inside your package class:  
   
     ```c#  
     public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
@@ -68,7 +68,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
      The values of the attribute are added to pkgdef generated during build time afterwards.  
   
-2.  In the VSCT file for the TestPackage’s commands, add the "DynamicVisibility" flag to the appropriate commands:  
+2.  In the VSCT file for the TestPackage's commands, add the "DynamicVisibility" flag to the appropriate commands:  
   
     ```xml  
     <CommandFlag>DynamicVisibility</CommandFlag>  

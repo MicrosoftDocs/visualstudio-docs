@@ -43,7 +43,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
   
  For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/vs/debugging-and-diagnostics/).  
   
--   [What’s New for the Debugger in Visual Studio](../debugger/what-s-new-for-the-debugger-in-visual-studio.md) Describes new functionality in Visual Studio.  
+-   [What's New for the Debugger in Visual Studio](../debugger/what-s-new-for-the-debugger-in-visual-studio.md) Describes new functionality in Visual Studio.  
   
 -   [Debugger Windows](../debugger/debugger-windows.md) Lists the different debugger windows.  
   

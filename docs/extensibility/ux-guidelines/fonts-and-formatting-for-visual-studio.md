@@ -346,7 +346,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 |All verbs|Including "Is" and other forms of "to be"|  
 |All adverbs|Including "Than" and "When"|  
 |All adjectives|Including "This" and "That"|  
-|All pronouns|Including the possessive "Its" as well as "It’s," a contraction of the pronoun "it" and the verb "is"|  
+|All pronouns|Including the possessive "Its" as well as "It's," a contraction of the pronoun "it" and the verb "is"|  
 |First and last words, regardless of parts of speech||  
 |Prepositions that are part of a verb phrase|"Closing Out All Windows" or "Shutting Down the System"|  
 |All letters of an acronym|HTML, XML, URL, IDE, RGB|  

@@ -160,7 +160,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 > -   If you move the execution point backwards, intervening instructions are not undone.  
 > -   Moving the next statement to another function or scope usually results in call-stack corruption, causing a run-time error or exception. If you try moving the next statement to another scope, the debugger opens a dialog box with a warning and gives you a chance to cancel the operation. In Visual Basic, you cannot move the next statement to another scope or function.  
 > -   In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
-> -   When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
+> -   When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you'll see an error message that tells you that the operation is not supported.  
   
 > [!NOTE]
 >  In managed code, you cannot move the next statement under the following conditions:  

@@ -46,13 +46,13 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
  For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md).  
   
 ## Using the GPU Usage tool  
- When you run your app under the GPU Usage tool, Visual Studio creates a diagnostic session that graphs high-level information about your app’s rendering performance and GPU utilization in real-time.  
+ When you run your app under the GPU Usage tool, Visual Studio creates a diagnostic session that graphs high-level information about your app's rendering performance and GPU utilization in real-time.  
   
 #### To start the GPU Usage tool:  
   
 1.  In the main menu, choose **Debug**, then **Performance and Diagnostics** (Keyboard: Press Alt+F2).  
   
-2.  In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you’re interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app’s performance.  
+2.  In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app's performance.  
   
      ![Choose the diagnostic tools you want to use.](media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")  
   
@@ -61,11 +61,11 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
 3.  Choose the blue **Start** button at the bottom of the Performance and Diagnostics hub to run your app under the tools you selected.  
   
- The high-level information that’s displayed in real-time includes frame timing, frame rate, and GPU utilization. Each of these pieces of information are graphed independently, but use a common time-scale so that you can easily relate between them.  
+ The high-level information that's displayed in real-time includes frame timing, frame rate, and GPU utilization. Each of these pieces of information are graphed independently, but use a common time-scale so that you can easily relate between them.  
   
- The **Frame time (ms)** and **Frames per second (FPS)** graphs contain two red, horizontal lines that represent performance targets of 60 and 30 frames per second. In the **Frame time** graph, your app is exceeding the performance target when the graph is below the line and missing it when the graph is above the line. For the Frames per second graph it’s the opposite – your app is exceeding the performance target when the graph is above the line and missing it when the graph is below the line. Primarily, these graphs are used to get a high-level idea of your app’s performance and to identify slow-downs that you might want to investigate -- for example, a sudden drop in frame rate or a spike in GPU Utilization.  
+ The **Frame time (ms)** and **Frames per second (FPS)** graphs contain two red, horizontal lines that represent performance targets of 60 and 30 frames per second. In the **Frame time** graph, your app is exceeding the performance target when the graph is below the line and missing it when the graph is above the line. For the Frames per second graph it's the opposite – your app is exceeding the performance target when the graph is above the line and missing it when the graph is below the line. Primarily, these graphs are used to get a high-level idea of your app's performance and to identify slow-downs that you might want to investigate -- for example, a sudden drop in frame rate or a spike in GPU Utilization.  
   
- While your app runs under the GPU Usage tool, the diagnostics session also collects detailed information about graphics events that were executed on the GPU. This information is used to generate a more granular report of how your app utilizes the hardware. Because this report takes some time to generate from the collected information, it’s only available after the diagnostics session is done collecting information.  
+ While your app runs under the GPU Usage tool, the diagnostics session also collects detailed information about graphics events that were executed on the GPU. This information is used to generate a more granular report of how your app utilizes the hardware. Because this report takes some time to generate from the collected information, it's only available after the diagnostics session is done collecting information.  
   
  When you want to look at a performance or utilization issue more closely, stop collecting performance information so that the report can be generated.  
   
@@ -97,20 +97,20 @@ Starting with Visual Studio 2017, this data can be opened with [GPUView](https:/
   
  The bottom portion displays a listing of the graphics events that occurred during the time period of the report.  
   
- Here’s the **GPU Usage Report** window:  
+ Here's the **GPU Usage Report** window:  
   
  ![The GPU Usage report, with CPU and GPU timelines](media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")  
   
- Selecting one of the events in the bottom portion of the report places a marker at corresponding events in the relevant timelines, typically one event on a CPU thread that represents the API call and another event on one of the GPU timelines that represents when the GPU completed the task. Likewise, selecting one of the events in a timeline highlights the corresponding event in the bottom portion of the report.When zoomed out of the timelines in the top portion of the report, only the most time-consuming events are visible. To see events that have a shorter duration, zoom into the timelines by using Ctrl + wheel on your pointing device, or the scaling control in the lower left-hand corner of the top panel. You can also drag the timeline panel’s contents to move through the recorded events.  
+ Selecting one of the events in the bottom portion of the report places a marker at corresponding events in the relevant timelines, typically one event on a CPU thread that represents the API call and another event on one of the GPU timelines that represents when the GPU completed the task. Likewise, selecting one of the events in a timeline highlights the corresponding event in the bottom portion of the report.When zoomed out of the timelines in the top portion of the report, only the most time-consuming events are visible. To see events that have a shorter duration, zoom into the timelines by using Ctrl + wheel on your pointing device, or the scaling control in the lower left-hand corner of the top panel. You can also drag the timeline panel's contents to move through the recorded events.  
   
- To help you find what you’re looking for, you can filter the GPU Usage Report based on Process names, Thread IDs, and the event name; additionally, you can choose which display's refresh rate determines the vysnc lines and you can sort events hierarchically if your app uses the ID3DUserDefinedAnnotation interface to group rendering commands.  
+ To help you find what you're looking for, you can filter the GPU Usage Report based on Process names, Thread IDs, and the event name; additionally, you can choose which display's refresh rate determines the vysnc lines and you can sort events hierarchically if your app uses the ID3DUserDefinedAnnotation interface to group rendering commands.  
   
  Here are more details:  
   
 |Filter control|Description|  
 |--------------------|-----------------|  
-|**Process**|The name of the process you are interested in. All processes that used the GPU during the diagnostics session are included in this dropdown. The color associated with the process in this drop down is the color of the thread’s activity in the timelines below.|  
-|**Thread**|The thread ID that you are interested in. In a multi-threaded app, this can help you isolate particular threads that belong to the process that you’re interested in. Events associated with the selected thread are highlighted in each timeline.|  
+|**Process**|The name of the process you are interested in. All processes that used the GPU during the diagnostics session are included in this dropdown. The color associated with the process in this drop down is the color of the thread's activity in the timelines below.|  
+|**Thread**|The thread ID that you are interested in. In a multi-threaded app, this can help you isolate particular threads that belong to the process that you're interested in. Events associated with the selected thread are highlighted in each timeline.|  
 |**Display**|The number of the display whose refresh rate is displayed **Note:**  Some drivers can be configured to present multiple physical displays as a single, large virtual display. You might see just one display listed, even if the machine has multiple displays attached.|  
 |**Filter**|Keywords that you are interested in. Events in the bottom portion of the report will only include those that match a keyword in whole or in part. You can specify multiple keywords by separating them with a semicolon (;).|  
 |**Hierarchy Sort**|A checkbox that indicates whether event hierarchies--defined through user markers--are preserved or ignored.|  
@@ -127,10 +127,10 @@ Starting with Visual Studio 2017, this data can be opened with [GPUView](https:/
 |**Thread ID**|The thread ID from which the event came.|  
   
 > [!IMPORTANT]
->  Windows 8.1 is required for event attribution. Additionally, if your GPU or driver don’t support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
+>  Windows 8.1 is required for event attribution. Additionally, if your GPU or driver don't support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
   
 ## GPU Usage settings  
- You can configure the GPU Usage tool to postpone collection of profiling information, rather than starting to collect information as soon as the app starts. Because the size of the profiling information can be significant, this is useful when you know that slowdowns in your app’s performance won’t appear until later.  
+ You can configure the GPU Usage tool to postpone collection of profiling information, rather than starting to collect information as soon as the app starts. Because the size of the profiling information can be significant, this is useful when you know that slowdowns in your app's performance won't appear until later.  
   
 #### To postpone profiling from the start of the app:  
   
@@ -152,8 +152,8 @@ Starting with Visual Studio 2017, this data can be opened with [GPUView](https:/
   
 |Vendor|GPU Description|Driver Version Required|  
 |------------|---------------------|-----------------------------|  
-|Intel®|4th Generation Intel® Core Processors (‘Haswell’)<br /><br /> -   Intel® HD Graphics (GT1)<br />-   Intel® HD Graphics 4200 (GT2)<br />-   Intel® HD Graphics 4400 (GT2)<br />-   Intel® HD Graphics 4600 (GT2)<br />-   Intel® HD Graphics P4600 (GT2)<br />-   Intel® HD Graphics P4700 (GT2)<br />-   Intel® HD Graphics 5000 (GT3)<br />-   Intel® Iris™ Graphics 5100 (GT3)<br />-   Intel® Iris™ Pro Graphics 5200 (GT3e)|-- (use latest drivers)|  
-|AMD®|Most since AMD Radeon™ HD 7000-series (excludes AMD Radeon™ HD 7350-7670)<br /><br /> AMD Radeon™ GPU, AMD FirePro™ GPUs, and AMD FirePro GPU accelerators featuring Graphics Core Next (GCN) architecture.<br /><br /> AMD® E-Series and AMD A-series Accelerated Processing Units (APUs) featuring Graphics Core Next (GCN) architecture (‘Kaveri’, ‘Kabini’, ‘Temash’ , ‘Beema’, ‘Mullins’)|14.7 RC3 or higher|  
+|Intel®|4th Generation Intel® Core Processors ('Haswell')<br /><br /> -   Intel® HD Graphics (GT1)<br />-   Intel® HD Graphics 4200 (GT2)<br />-   Intel® HD Graphics 4400 (GT2)<br />-   Intel® HD Graphics 4600 (GT2)<br />-   Intel® HD Graphics P4600 (GT2)<br />-   Intel® HD Graphics P4700 (GT2)<br />-   Intel® HD Graphics 5000 (GT3)<br />-   Intel® Iris™ Graphics 5100 (GT3)<br />-   Intel® Iris™ Pro Graphics 5200 (GT3e)|-- (use latest drivers)|  
+|AMD®|Most since AMD Radeon™ HD 7000-series (excludes AMD Radeon™ HD 7350-7670)<br /><br /> AMD Radeon™ GPU, AMD FirePro™ GPUs, and AMD FirePro GPU accelerators featuring Graphics Core Next (GCN) architecture.<br /><br /> AMD® E-Series and AMD A-series Accelerated Processing Units (APUs) featuring Graphics Core Next (GCN) architecture ('Kaveri', 'Kabini', 'Temash' , 'Beema', 'Mullins')|14.7 RC3 or higher|  
 |NVIDIA®|Most since NVIDIA® GeForce® 400-series.<br /><br /> NVIDIA® GeForce® GPUs, NVIDIA Quadro® GPUs and NVIDIA® Tesla™ GPU accelerators featuring Fermi™, Kepler™, or Maxwell™ architecture.|343.37 or higher|  
   
  Multi-GPU configurations such as NVIDIA® SLI™ and AMD Crossfire™ are not supported at this time. Hybrid graphics setup, such as NVIDIA® Optimus™ and AMD Enduro™ are supported.  

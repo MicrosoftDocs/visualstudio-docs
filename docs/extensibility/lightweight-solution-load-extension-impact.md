@@ -88,7 +88,7 @@ All UI must treat loaded and deferred projects as equal. This means any action t
 
 ### How to add "See More Results" for a feature.
 
-Features that perform a query on the contents of projects should consider the impact of deferred projects. In some situations, features can get the results of their query from LSL and Workspace APIs for a deferred project. In other cases, a feature’s limitations require projects to be loaded. Both of these situations should provide a new "See More Results" gesture that allows users to fully load projects and re-query. This gesture enables features to give a best approximation when there are deferred projects while giving the user a way to get the perfect result when projects are actually loaded.
+Features that perform a query on the contents of projects should consider the impact of deferred projects. In some situations, features can get the results of their query from LSL and Workspace APIs for a deferred project. In other cases, a feature's limitations require projects to be loaded. Both of these situations should provide a new "See More Results" gesture that allows users to fully load projects and re-query. This gesture enables features to give a best approximation when there are deferred projects while giving the user a way to get the perfect result when projects are actually loaded.
 
 The general algorithm for features should be:
 

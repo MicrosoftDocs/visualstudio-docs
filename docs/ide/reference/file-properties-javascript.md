@@ -100,7 +100,7 @@ You can use file properties to indicate what actions the project system should p
  Displays the path to the referenced SDK file.  
   
 ### Uri  
- Displays the URI that must be included in the project’s HTML or JavaScript files to include the file as a source file.  
+ Displays the URI that must be included in the project's HTML or JavaScript files to include the file as a source file.  
   
 ### Version  
  Displays the version of the reference.  

@@ -27,7 +27,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Controlling Color, Line Style, and other Shape Properties
-Some shape properties such as color can be 'exposed’ – that is, linked to a domain property of the shape. Others have to be controlled directly.  
+Some shape properties such as color can be 'exposed' – that is, linked to a domain property of the shape. Others have to be controlled directly.  
   
 ## Exposing a property  
  Some shape properties such as color can be linked to the value of a domain property.  

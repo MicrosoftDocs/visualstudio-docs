@@ -56,7 +56,7 @@ manager: "ghogen"
 |Learn more about Napa Office 365 Development Tools.|[Napa Office 365 Development Tools](https://msdn.microsoft.com/library/dn974046.aspx)|  
   
 ### Build an Office add-in  
- To extend the functionality of Office, build an Office add-in. It’s basically a webpage that’s hosted in an Office application such as Excel, Word, Outlook, and PowerPoint. Your app can add functionality to documents, worksheets, email messages, appointments, presentations, and projects.  
+ To extend the functionality of Office, build an Office add-in. It's basically a webpage that's hosted in an Office application such as Excel, Word, Outlook, and PowerPoint. Your app can add functionality to documents, worksheets, email messages, appointments, presentations, and projects.  
   
  You can sell your app in the Office Store.  The [Office Store](https://store.office.com/) makes it easy to monetize your add-ins, manage updates, and track telemetry. You can also publish your app to users through an app catalog in SharePoint, or on Exchange Server.  
   
@@ -73,11 +73,11 @@ manager: "ghogen"
 |Learn more about Napa Office 365 Development Tools.|[Napa Office 365 Development Tools](https://msdn.microsoft.com/library/dn974046.aspx)|  
   
 ### Build a SharePoint add-in  
- To extend SharePoint for your users, build a SharePoint add-in. It’s basically a small, easy-to-use, stand-alone application that solves a need for your users or business.  
+ To extend SharePoint for your users, build a SharePoint add-in. It's basically a small, easy-to-use, stand-alone application that solves a need for your users or business.  
   
  You can sell your app for SharePoint in the [Office Store](https://store.office.com/). You can also publish your add-in to users through an add-in catalog in SharePoint.  Site owners can install, upgrade, and uninstall your add-in on their SharePoint sites without the help of a farm server or site collection administrator.  
   
- Here’s an example of an app for SharePoint that helps users manage business contacts.  
+ Here's an example of an app for SharePoint that helps users manage business contacts.  
   
  ![Business contact manager app for SharePoint](../vsto/media/appforsharepoint.png "Business contact manager app for SharePoint")  
   
@@ -91,9 +91,9 @@ manager: "ghogen"
 |Learn more about Napa Office 365 Development Tools.|[Napa Office 365 Development Tools](https://msdn.microsoft.com/library/dn974046.aspx)|  
   
 ##  <a name="Add-ins"></a> Create a VSTO add-in  
- Create a VSTO add-in to target Office 2007 or Office 2010, or to extend Office 2013 and Office 2016 beyond what’s possible with Office add-ins. VSTO add-ins run only on the desktop. Users have to install VSTO add-ins, so they’re typically more difficult to deploy and support.  However, your VSTO add-in can be integrated more closely with Office. For example, it can add tabs and controls to the Office Ribbon and perform advanced automation tasks such as merging documents or modifying charts. You can leverage the .NET Framework and use C# and Visual Basic to interact with Office objects.  
+ Create a VSTO add-in to target Office 2007 or Office 2010, or to extend Office 2013 and Office 2016 beyond what's possible with Office add-ins. VSTO add-ins run only on the desktop. Users have to install VSTO add-ins, so they're typically more difficult to deploy and support.  However, your VSTO add-in can be integrated more closely with Office. For example, it can add tabs and controls to the Office Ribbon and perform advanced automation tasks such as merging documents or modifying charts. You can leverage the .NET Framework and use C# and Visual Basic to interact with Office objects.  
   
- Here’s an example what a VSTO add-in can do. This VSTO add-in adds Ribbon controls, a custom task pane, and a dialog box to PowerPoint.  
+ Here's an example what a VSTO add-in can do. This VSTO add-in adds Ribbon controls, a custom task pane, and a dialog box to PowerPoint.  
   
  ![PowerPoint add-in solution](../vsto/media/powerpointaddin.png "PowerPoint add-in solution")  
   
@@ -105,7 +105,7 @@ manager: "ghogen"
 |Create a VSTO add-in.|[VSTO add-ins build with Visual Studio](https://msdn.microsoft.com/library/jj620922.aspx)|  
   
 ##  <a name="Solutions"></a> Create a SharePoint solution  
- Create a SharePoint solution to target SharePoint Foundation 2010 and SharePoint Server 2010, or to extend SharePoint 2013 and SharePoint 2016 in ways beyond what’s possible with a SharePoint add-in.  
+ Create a SharePoint solution to target SharePoint Foundation 2010 and SharePoint Server 2010, or to extend SharePoint 2013 and SharePoint 2016 in ways beyond what's possible with a SharePoint add-in.  
   
  SharePoint solutions require on-premises SharePoint farm servers. Administrators must install them, and because solutions execute in SharePoint, they can affect the performance of the server. However, solutions provide deeper access to SharePoint objects. Also, when you build a SharePoint solution, you can leverage the .NET Framework and use C# and Visual Basic to interact with SharePoint objects.  
   

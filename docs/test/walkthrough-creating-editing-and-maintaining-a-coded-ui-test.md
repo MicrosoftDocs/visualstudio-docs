@@ -221,7 +221,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The coded UI test is displayed in the Coded UI Test Editor. You can now view and edit the coded UI test.  
   
-6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won’t be overwritten when the test code is recompiled.  
+6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won't be overwritten when the test code is recompiled.  
   
 7.  Choose the **Move Code** button on the Coded UI Test Editor toolbar.  
   
@@ -301,7 +301,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      Notice that the line of code earlier in this procedure is using `UiStartButton`, which is the UIMap name before it was refactored.  
   
-     To correct the issue, you can add the refactored control to the UIMap by using the Coded UI Test Builder. You can update the test’s code to use the code, as demonstrated in the next procedure.  
+     To correct the issue, you can add the refactored control to the UIMap by using the Coded UI Test Builder. You can update the test's code to use the code, as demonstrated in the next procedure.  
   
 ### Map Refactored Control and Edit and Rerun the Coded UI Test  
   

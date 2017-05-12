@@ -75,7 +75,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 3.  Find the method that you want to overload. In the Create script method window, begin typing the name of the method in the textbox. A list of the methods whose names match what you've entered will appear.  
   
-4.  Choose the method you want to overload. When the method you want is displayed in the list, select it with the mouse or arrow keys, then press **Enter**. If it’s the only method in the list, you can just press **Enter**. The method is inserted into your code.  
+4.  Choose the method you want to overload. When the method you want is displayed in the list, select it with the mouse or arrow keys, then press **Enter**. If it's the only method in the list, you can just press **Enter**. The method is inserted into your code.  
   
 ### Unity Project Explorer  
  You can use the Unity Project Explorer to navigate your Unity project inside Visual Studio.  

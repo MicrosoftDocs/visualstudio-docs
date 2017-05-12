@@ -52,7 +52,7 @@ Coded UI tests can automate testing for web applications by recording your tests
   
 -   Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
- **What’s supported across all web browsers?**  
+ **What's supported across all web browsers?**  
   
 -   [Add custom code for controlling features](http://blogs.msdn.com/b/visualstudioalm/archive/2012/12/10/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer.aspx) such as properties, search, and playback waiters.  
   

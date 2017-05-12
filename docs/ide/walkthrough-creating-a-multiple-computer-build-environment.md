@@ -329,7 +329,7 @@ You can create a build environment within your organization by installing Visual
   
 #### To copy assemblies from the host computer and install them on the build computer  
   
-1.  Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn’t matter where you put them on the build computer.  
+1.  Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn't matter where you put them on the build computer.  
   
     -   %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll  
   
@@ -361,7 +361,7 @@ You can create a build environment within your organization by installing Visual
 >  **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
   
 ##  <a name="CreatingForSourceControl"></a> Creating the build environment so that it can be checked into source control  
- You can create a build environment that can be deployed to various computers and doesn’t require GAC’ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.  
+ You can create a build environment that can be deployed to various computers and doesn't require GAC'ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.  
   
 > [!NOTE]
 >  You must disable incremental building so that tracker.exe will not throw an error during a build. To disable incremental building, set this build parameter:  
@@ -386,7 +386,7 @@ You can create a build environment within your organization by installing Visual
   
          AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll".  
   
-         The former naming relies on the assembly being GAC’ed.  
+         The former naming relies on the assembly being GAC'ed.  
   
     -   In %Depot% \MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPPClean.Targets, change every instance of  
   
@@ -396,7 +396,7 @@ You can create a build environment within your organization by installing Visual
   
          AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll".  
   
-4.  Create a .props file—for example, Partner.AutoImports.props—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other .props files and .targets files that rely on registry values. Because we aren’t setting any registry values, these variables would be empty and the build would fail. Instead, add this to Partner.AutoImports.props:  
+4.  Create a .props file—for example, Partner.AutoImports.props—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other .props files and .targets files that rely on registry values. Because we aren't setting any registry values, these variables would be empty and the build would fail. Instead, add this to Partner.AutoImports.props:  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  

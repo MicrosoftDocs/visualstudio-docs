@@ -67,7 +67,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  Recreate the code browsing database from nothing the next time that the solution loads. If you choose this option, the SDF database file is deleted the next time you load the solution, thus causing the database to be recreated and all files indexed.  
   
  **Rescan Solution Interval**  
- A ‘Rescan Solution Now’ job is scheduled for the interval that you specify. You must specify between 0 and 5000 minutes. The default value is 60 minutes. While the solution is rescanned, file timestamps are checked to determine whether a file was changed outside of the IDE. (Changes that are made in the IDE are automatically tracked, and files are updated.) Implicitly included files are checked to determine whether they're all still referenced.  
+ A 'Rescan Solution Now' job is scheduled for the interval that you specify. You must specify between 0 and 5000 minutes. The default value is 60 minutes. While the solution is rescanned, file timestamps are checked to determine whether a file was changed outside of the IDE. (Changes that are made in the IDE are automatically tracked, and files are updated.) Implicitly included files are checked to determine whether they're all still referenced.  
   
 ## Diagnostic Logging  
  These options are provided in case Microsoft asks you to collect advanced information to diagnose an issue. The logging information isn't useful for users, and we recommend that you leave it disabled.  
@@ -98,13 +98,13 @@ By changing these options, you can change the behavior related to IntelliSense a
 -   32 - ClassView  
   
 ## Fallback Location  
- The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user’s temp directory.  
+ The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user's temp directory.  
   
  **Always Use Fallback Location**  
  Indicates that the code browsing database and IntelliSense files should always be stored in a folder that you specify as your "Fallback Location", not next to the .sln file. The IDE will never try to put the SDF or iPCH files next to the solution directory and will always use the fallback location.  
   
  **Do Not Warn If Fallback Location Used**  
- You aren't informed or prompted if a ‘Fallback Location’ is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.  
+ You aren't informed or prompted if a 'Fallback Location' is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.  
   
  **Fallback Location**  
  This value is used as a secondary location to store the code browsing database or IntelliSense files. By default, your temporary directory is your fallback location. The IDE will create a subdirectory under the specified path (or the temp directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.  
@@ -129,7 +129,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  Disables auto-completion of `#include` statements.  
   
  **Use Forward Slash in #include Auto Complete**  
- Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash ‘\’. The compiler can accept either, so use this option to specify what your code base uses.  
+ Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash '\'. The compiler can accept either, so use this option to specify what your code base uses.  
   
  **Max Cached Translation Units**  
  The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.  
@@ -162,10 +162,10 @@ By changing these options, you can change the behavior related to IntelliSense a
   
 ## References  
  **Disable Resolving**  
- For performance reasons, ‘Find All References’  displays raw textual search results by default instead of using IntelliSense to verify each candidate. You can clear this check box for more accurate results on all find operations. To filter on a per-search basis, open the shortcut menu for  the result list, and then choose "Resolve Results."  
+ For performance reasons, 'Find All References'  displays raw textual search results by default instead of using IntelliSense to verify each candidate. You can clear this check box for more accurate results on all find operations. To filter on a per-search basis, open the shortcut menu for  the result list, and then choose "Resolve Results."  
   
  **Hide Unconfirmed**  
- Hide unconfirmed items in the ‘Find All References’ results. If you unset the "Disable Resolving" option, you can use this option to hide unconfirmed items in the results.  
+ Hide unconfirmed items in the 'Find All References' results. If you unset the "Disable Resolving" option, you can use this option to hide unconfirmed items in the results.  
   
  **Disable Reference Highlighting**  
 

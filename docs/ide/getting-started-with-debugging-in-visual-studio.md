@@ -33,11 +33,11 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  Note: Links to more advanced features and platform- or feature-specific topics are at the bottom of this page.  
 
-## My code doesn’t work. Help me, Visual Studio!  
- So you’ve figured out the editor and you’ve created some code. Now, you want to start debugging that code. In Visual Studio, as with most IDEs, there are two phases to debugging: building the code to catch and resolve project and compiler errors; and running that code in the environment to catch and resolve run-time and dynamic errors.  
+## My code doesn't work. Help me, Visual Studio!  
+ So you've figured out the editor and you've created some code. Now, you want to start debugging that code. In Visual Studio, as with most IDEs, there are two phases to debugging: building the code to catch and resolve project and compiler errors; and running that code in the environment to catch and resolve run-time and dynamic errors.  
 
 ### Configuring a Build  
- There are two basic types of build configuration: **Debug** and **Release**. The first configuration produces a slower, larger executable that allows for a richer interactive run-time debugging experience, but should never be shipped. The second builds a faster, more optimized executable that’s appropriate to ship (at least from the perspective of the compiler).  
+ There are two basic types of build configuration: **Debug** and **Release**. The first configuration produces a slower, larger executable that allows for a richer interactive run-time debugging experience, but should never be shipped. The second builds a faster, more optimized executable that's appropriate to ship (at least from the perspective of the compiler).  
 
  The default build configuration is **Debug**.  
 
@@ -51,12 +51,12 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio Configuration Manager window](../ide/media/vs_ide_gs_debug_build_cf_mgr_2.PNG "Vs_ide_gs_debug_build_cf_mgr_2")  
 
- Starting out, just use **Debug** and **x86** as your build configuration and platform, respectively. When you’re done coding and debugging, change the configuration to **Release** and target a specific platform. (Older versions of Visual Studio provided an **AnyCPU** default platform for .Net code projects.)  
+ Starting out, just use **Debug** and **x86** as your build configuration and platform, respectively. When you're done coding and debugging, change the configuration to **Release** and target a specific platform. (Older versions of Visual Studio provided an **AnyCPU** default platform for .Net code projects.)  
 
  Note: When you build your project, the configuration and platform values are also used to determine what project directory path is created to store the executable. Typically, this is **\<path-to-project>\\<project-name>\\<configuration\>\\<platform\>**. For example, a project with a configuration of `Debug` and a platform of `x86` would be found under `Projects\MyProjectNameHere\MyProjectNameHere\bin\Debug\x86`. This can be useful if you have your own tools or scripts that manage these built executables.  
 
 ### Building your Code  
- With your build configured, it’s time to actually build your project. The easiest way to do it to press F7, but you can also start the build by selecting **Build->Build Solution** from the main menu.  
+ With your build configured, it's time to actually build your project. The easiest way to do it to press F7, but you can also start the build by selecting **Build->Build Solution** from the main menu.  
 
  ![Visual Studio build project menu selection](../ide/media/vs_ide_gs_debug_build_menu_item.png "Vs_ide_gs_debug_build_menu_item")  
 
@@ -69,7 +69,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  ![Visual Studio successful build output](../ide/media/vs_ide_gs_debug_success_build.PNG "vs_ide_gs_debug_success_build")  
 
 ### Reviewing the Error List  
- Unless you’ve made no modifications to code you’ve previously and successfully compiled, you probably have an error. If you’re new to coding, you probably have lots of them. Errors are sometimes obvious, such a simple syntax error or incorrect variable name, and sometimes they are difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and click the **Error List** tab. This takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.  
+ Unless you've made no modifications to code you've previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such a simple syntax error or incorrect variable name, and sometimes they are difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and click the **Error List** tab. This takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.  
 
  ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG "Vs_ide_gs_debug_bad_build_error_list")  
 
@@ -99,7 +99,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  Alternatively, you can click on the hyperlinked error code value in the **Code** column of the **Error List**. This will launch a Bing search for just the error code.  
 
 ### Performing Static Code Analysis  
- "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you’ve cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You’ll save yourself some headaches down the road, as well as learn a few code style techniques.  
+ "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you've cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, as well as learn a few code style techniques.  
 
  Press Alt+F11 (or select **Analyze->Run Code Analysis on Solution** from the top menu) to start static code analysis. This may take some time if you have a lot of code.  
 
@@ -131,7 +131,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  For more information on Light Bulbs, read [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).  
 
 ### Debugging Your Running Code  
- Now that you’ve successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug->Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Modules/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app’s variables, threads, call stacks, and various other behaviors as it runs.  
+ Now that you've successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug->Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Modules/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
 
  ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.PNG "Vs_ide_gs_debug_autos_and_call_stack")  
 
@@ -143,9 +143,9 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio Debug Continue button](../ide/media/vs_ide_gs_debug_continue_button.png "Vs_ide_gs_debug_continue_button")  
 
- You can stop your app by pressing Shift+F5 or by clicking the **Stop** button. Or, you can simply close the app’s main window (or command line dialog).  
+ You can stop your app by pressing Shift+F5 or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).  
 
- If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it hung, or crashed, or gave you some strange results, you’ll need to find the source of those problems and fix the bugs.  
+ If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.  
 
 ### Setting Simple Breakpoints  
  Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You do NOT need to rebuild a project after setting and removing breakpoints.  
@@ -169,7 +169,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md)  
 
 ### Setting Conditional Breakpoints  
- If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a conditional breakpoint to ensure that your code is suspended ONLY when specific conditions are met. Otherwise, you’ll be pressing F11 an awful lot.  
+ If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a conditional breakpoint to ensure that your code is suspended ONLY when specific conditions are met. Otherwise, you'll be pressing F11 an awful lot.  
 
  To set a conditional breakpoint and suspend your code when a variable is set to a certain value or passes a certain threshold, click in the margin to set a breakpoint, and then select the "cog" from the hover menu that appears.  
 
@@ -186,9 +186,9 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG "vs_ide_gs_debug_inspect_value")  
 
- Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn’t expect, you probably have a bug in the preceding or calling lines of code. Move breakpoints up or add conditions to the existing breakpoints to narrow your search further.  
+ Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code. Move breakpoints up or add conditions to the existing breakpoints to narrow your search further.  
 
- Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app’s CPU and memory usage over time. Use them to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what’s causing unexpected heavy usage or unreleased resources.  
+ Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Use them to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  
 
  ![Visual Studio Diagnostic Tools window](../ide/media/vs_ide_gs_debug_diagnostic_tools.PNG "Vs_ide_gs_debug_diagnostic_tools")  
 

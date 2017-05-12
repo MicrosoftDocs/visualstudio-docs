@@ -45,7 +45,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 ##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
   
-1.  Ensure that your project does not have visual styles enabled. First, check your project’s manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
+1.  Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
   
      By default, visual styles are not enabled.  
   

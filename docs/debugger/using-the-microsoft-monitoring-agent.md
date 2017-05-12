@@ -68,7 +68,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
 4.  Create a secure directory on your web server to store the IntelliTrace logs, for example, **C:\IntelliTraceLogs**.  
   
-     Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that’s not very active.  
+     Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that's not very active.  
   
     > [!IMPORTANT]
     >  IntelliTrace logs might contain personal and sensitive data. Restrict this directory to only those identities that must work with the files. Check your company's privacy policies.  
@@ -109,9 +109,9 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
     2.  On the **Security** tab, choose **Edit**, **Add**.  
   
-    3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it’s not there, choose **Object Types** to add it.  
+    3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it's not there, choose **Object Types** to add it.  
   
-    4.  Make sure your local computer appears in the **From this location** box. If it’s not there, choose **Locations** to change it.  
+    4.  Make sure your local computer appears in the **From this location** box. If it's not there, choose **Locations** to change it.  
   
     5.  In the **Enter the object names to select** box, add the application pool for the web app or SharePoint application.  
   

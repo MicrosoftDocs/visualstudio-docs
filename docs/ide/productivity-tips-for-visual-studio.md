@@ -110,11 +110,11 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      To set a bookmark, on the menu bar, choose **Edit**, **Bookmarks**, **Toggle Bookmark**. You can view all of the bookmarks for a solution in the **Bookmarks** window. For more information, see [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md).  
   
--   **Search for symbol definitions in a file**. You can search within a solution to locate symbol definitions and file names, but search results don’t include namespaces or local variables.  
+-   **Search for symbol definitions in a file**. You can search within a solution to locate symbol definitions and file names, but search results don't include namespaces or local variables.  
   
      To access this feature, on the menu bar, choose **Edit**, **Navigate To**.  
   
--   **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method’s Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md).  
+-   **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md).  
   
 ##  <a name="BKMK_Finding"></a> Finding Items Faster  
  You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.  
@@ -123,7 +123,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
 -   **Display only the errors you want to address**. If you choose the **Filter** button on the **Error List** toolbar, you can reduce the number of errors that appear in the **Error List** window. You can display only the errors in the files that are open in the editor, only the errors in the current file, or only the errors in the current project. You can also search within the Error List window to find specific errors.  
   
--   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you’re trying to find. For example, the following options appear if you enter `new project`:  
+-   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:  
   
      Figure 3: Quick Launch results list for `new project`  
   
@@ -134,7 +134,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 ##  <a name="BKMK_Debugging"></a> Debugging Code  
  Debugging can consume a lot of time, but the following tips can help you speed up the process.  
   
--   **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you’re using as you debug or view pages.  
+-   **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.  
   
      ![Select Web browser debug options](../ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")  
   
@@ -159,13 +159,13 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
 -   **Keep files that you frequently use visible in the editor**. You can pin files to the left side of the tab well so that they remain visible regardless of how many files are open in the editor.  
   
-     To pin a file, choose the file’s tab, and then choose the **Toggle Pin Status** button.  
+     To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.  
   
 -   **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md).  
   
      You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.  
   
--   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).  
+-   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that's used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).  
   
 ## See Also  
  [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)   

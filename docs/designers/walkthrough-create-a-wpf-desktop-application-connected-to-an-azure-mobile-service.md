@@ -33,7 +33,7 @@ translation.priority.mt:
 You can use Windows Presentation Foundation (WPF) to quickly create a modern desktop application that uses an Azure Mobile Service to store and provide data.  
   
 ##  <a name="Requirements"></a> Prerequisites  
- You’ll need the following to complete this walkthrough:  
+ You'll need the following to complete this walkthrough:  
   
 -   Visual Studio 2015 – any version that supports WPF development.  
   
@@ -74,10 +74,10 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      The necessary references will be added to **Solution Explorer**.  
   
     > [!NOTE]
-    >  If you don’t agree with the license terms, choose the **I Decline** button. You won’t be able to finish the rest of the walkthrough.  
+    >  If you don't agree with the license terms, choose the **I Decline** button. You won't be able to finish the rest of the walkthrough.  
   
 ## Create the user interface  
- The next step is to create the user interface for the application. First you’ll create a reusable user control that displays a standard side-by-side two pane layout. You’ll add the user control to the main application window and add controls to enter and display data, then write some code to define the interaction with the mobile service backend.  
+ The next step is to create the user interface for the application. First you'll create a reusable user control that displays a standard side-by-side two pane layout. You'll add the user control to the main application window and add controls to enter and display data, then write some code to define the interaction with the mobile service backend.  
   
 #### To add a user control  
   
@@ -299,7 +299,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      ![The MainWindow in the designer](../designers/media/wpfquickstart2.PNG "WPFQuickStart2")  
   
     > [!NOTE]
-    >  While following the next few procedures you might see errors in the **Error List** if it is open. Don’t worry; these errors will go away once you complete the remaining procedures.  
+    >  While following the next few procedures you might see errors in the **Error List** if it is open. Don't worry; these errors will go away once you complete the remaining procedures.  
   
 6.  In **Solution Explorer**, expand the **MainWindow.xaml** node and open the **MainWindow.xaml.cs** or **MainWindow.xaml.vb** file.  
   
@@ -497,7 +497,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
      This sets the URL for the service to *https://wpfquickstart01.azure-mobile.net/*.  
   
-4.  In the **DATABASE** list, choose a database option. Since this is an application that probably won’t get a lot of usage, you might want to choose the **Create a free 20MB SQL database** option, or choose the free database already associated with your subscription.  
+4.  In the **DATABASE** list, choose a database option. Since this is an application that probably won't get a lot of usage, you might want to choose the **Create a free 20MB SQL database** option, or choose the free database already associated with your subscription.  
   
 5.  In the **REGION** list, choose the data center where you want to deploy the mobile service, and then choose the **Next** (right arrow) button.  
   
@@ -514,7 +514,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 9. In the **Manage Access Keys** dialog, copy the **APPLICATION KEY**.  
   
-     You’ll use this in the next procedure.  
+     You'll use this in the next procedure.  
   
 #### To create a table  
   
@@ -554,7 +554,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      This code allows the application to access the mobile service running on Microsoft Azure.  
   
 ## Test the application  
- That’s it – you’ve created a WPF desktop application that accesses an Azure Mobile Service. Now all that’s left is to run the application and see it in action.  
+ That's it – you've created a WPF desktop application that accesses an Azure Mobile Service. Now all that's left is to run the application and see it in action.  
   
 #### To run the application  
   
@@ -573,7 +573,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      This calls the **UpdateCheckedTodoItem** method and removes the item from both the list and the database.  
   
 ## Next Steps  
- You’ve completed a fairly simplistic example of a WPF desktop application with an Azure backend. Of course, a real application is likely to be much more complex, but the same basic concepts apply. See [WPF in the .NET Framework](https://msdn.microsoft.com/en-us/library/ms754130\(v=vs.100\).aspx).  
+ You've completed a fairly simplistic example of a WPF desktop application with an Azure backend. Of course, a real application is likely to be much more complex, but the same basic concepts apply. See [WPF in the .NET Framework](https://msdn.microsoft.com/en-us/library/ms754130\(v=vs.100\).aspx).  
   
  You can make the user interface more appealing by adding color, shapes, graphics, and even animations. See [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).  
   

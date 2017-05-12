@@ -110,9 +110,9 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
   
 -   Add the topic ID. This is the string that is used by other topics to link to this topic.  It is the Help Viewer ID for this topic.  
   
--   For the TOC, add this topic’s parent node to define where this topic TOC node will appear.  
+-   For the TOC, add this topic's parent node to define where this topic TOC node will appear.  
   
--   For the TOC, add this topic’s node order. When the parent node has n number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.)  
+-   For the TOC, add this topic's node order. When the parent node has n number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.)  
   
  Example metadata section:  
   
@@ -284,7 +284,7 @@ some F# code
   
  If three strings are returned for F1, referred to as a multi-value string, take the first term, look for a hit, and if found, we are done; if not, move to the next string.  Order matters. Presentation of the multi-value keywords should be longest string to shortest string.  To verify this in the case for multi-value keywords, look at the online F1 URL string, which will include the chosen keyword.  
   
- In Visual Studio 2012, we intentionally made a stronger divide between online and offline, so that if the user’s setting was for Online, then we simply passed the F1 request directly to our online query service on MSDN rather than routing through the Help Library Agent that we had in Visual Studio 2010. We then rely on a state of "vendor content installed = true" to determine whether to do something different in that context. If true, we then perform this parsing and routing logic depending on what you wish to support for your customers. If false, then we just go to MSDN. If the user’s setting is to Local, then all calls simply go to the local help engine.  
+ In Visual Studio 2012, we intentionally made a stronger divide between online and offline, so that if the user's setting was for Online, then we simply passed the F1 request directly to our online query service on MSDN rather than routing through the Help Library Agent that we had in Visual Studio 2010. We then rely on a state of "vendor content installed = true" to determine whether to do something different in that context. If true, we then perform this parsing and routing logic depending on what you wish to support for your customers. If false, then we just go to MSDN. If the user's setting is to Local, then all calls simply go to the local help engine.  
   
  F1 Flow Diagram:  
   
@@ -302,7 +302,7 @@ some F# code
   
 -   Visual Studio features (no option for the VSP to override the property bag emitted from Visual Studio features): F1 renders a Visual Studio topic in the Help Viewer.  
   
- Set the following registry values to enable F1 Fallback for vendor Help content. F1 Fallback means that the Help Viewer is set to look for F1 Help content online, and the vendor content is installed locally to the users’ hard drive. The Help Viewer should look at local Help for the content even though the default setting is for online help.  
+ Set the following registry values to enable F1 Fallback for vendor Help content. F1 Fallback means that the Help Viewer is set to look for F1 Help content online, and the vendor content is installed locally to the users' hard drive. The Help Viewer should look at local Help for the content even though the default setting is for online help.  
   
 1.  Set the **VendorContent** value under the Help 2.1 registry key:  
   
@@ -338,7 +338,7 @@ some F# code
   
  HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.1\Catalogs\VisualStudio12  
   
- When an F1 keyword in the format HEADER/METHOD is encountered, the ‘/’ character will be parsed out, resulting in the following construct:  
+ When an F1 keyword in the format HEADER/METHOD is encountered, the '/' character will be parsed out, resulting in the following construct:  
   
 -   HEADER: will be the namespace that can be used to register in the registry  
   
@@ -614,7 +614,7 @@ some F# code
 |ImageSprite.png|Used to render Collapsible Area|expanded or collapse graphic|  
   
 ### Deploying a set of topics  
- This is a very simple and quick tutorial for creating a Help Viewer content deployment set comprised of an MSHA file and the set of cabs or MSHC’s containing the topics. The MSHA is an XML file that describes a set of cabs or MSHC files. The Help Viewer can read the MSHA to obtain a list of content (the .CAB or .MSHC files) available for local installation.  
+ This is a very simple and quick tutorial for creating a Help Viewer content deployment set comprised of an MSHA file and the set of cabs or MSHC's containing the topics. The MSHA is an XML file that describes a set of cabs or MSHC files. The Help Viewer can read the MSHA to obtain a list of content (the .CAB or .MSHC files) available for local installation.  
   
  This is only a primer describing the very basic XML schema for the Help Viewer MSHA.  Note that there is an example implementation below this brief overview and sample HelpContentSetup.msha.  
   

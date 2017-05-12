@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # VSIX Extension Schema 2.0 Reference
-A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn’t understand.  
+A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn't understand.  
   
 > [!IMPORTANT]
 >  Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.  
@@ -48,7 +48,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `<Dependencies>` - An optional list of dependencies for this package are defined here.  
   
--   `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won’t surface any content.  
+-   `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won't surface any content.  
   
 -   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements%2A> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements%2A>.  
   

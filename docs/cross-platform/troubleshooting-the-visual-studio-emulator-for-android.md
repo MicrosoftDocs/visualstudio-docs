@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting the Visual Studio Emulator for Android
-This topic contains information to help you resolve issues that you may experience when you’re using the Visual Studio Emulator for Android.  
+This topic contains information to help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android.  
   
 > [!WARNING]
 >  When the emulator is installed, the setup program checks the prerequisites for running the software. It displays warnings if the prerequisites are not present, but it does not require them for installation.  
@@ -91,9 +91,9 @@ This topic contains information to help you resolve issues that you may experien
   
  If your network requires domain or workgroup authorization for basic network and Internet connectivity, contact your IT administrator for an exception. This exception allows your development computer to serve as a boundary machine and to accept connections from non-domain-joined network devices like the emulator.  
   
- The Visual Studio Emulator for Android also uses its own set of MAC addresses. If you can’t access network or Internet resources from the emulator, check with your IT administrator to make sure that the emulator’s MAC addresses have been authorized on your network.  
+ The Visual Studio Emulator for Android also uses its own set of MAC addresses. If you can't access network or Internet resources from the emulator, check with your IT administrator to make sure that the emulator's MAC addresses have been authorized on your network.  
   
-#### To view the emulator’s MAC addresses  
+#### To view the emulator's MAC addresses  
   
 1.  Launch the emulator.  
   
@@ -108,7 +108,7 @@ This topic contains information to help you resolve issues that you may experien
   
 -   DHCP. The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.  
   
--   Automatically configured DNS and gateway settings. It’s not possible to configure DNS and gateway settings manually for the emulator.  
+-   Automatically configured DNS and gateway settings. It's not possible to configure DNS and gateway settings manually for the emulator.  
   
  If your network requires manually configured settings, check with your IT administrator to determine how you can enable network connectivity for the emulator.  
   
@@ -264,7 +264,7 @@ This topic contains information to help you resolve issues that you may experien
   
 -   USB3 is enabled on the motherboard.  
   
- To solve this problem, disable USB3 in the BIOS settings of the motherboard and reboot the computer. Then check whether Gigabyte has released an update for your motherboard’s BIOS.  
+ To solve this problem, disable USB3 in the BIOS settings of the motherboard and reboot the computer. Then check whether Gigabyte has released an update for your motherboard's BIOS.  
   
  For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/en-us/kb/2693144).  
   
@@ -280,7 +280,7 @@ This topic contains information to help you resolve issues that you may experien
  Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.  
   
 ##  <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port  
- You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn’t set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.  
+ You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.  
   
 1.  Uninstall Xamarin Player.  
   
@@ -315,7 +315,7 @@ This topic contains information to help you resolve issues that you may experien
  If you take a screenshot using the Screenshot tab in the **Additional Tools** window and the resulting image is of an unexpected size, you may need to adjust the zoom level of the screen before choosing **Capture**. The emulator takes screenshots at the resolution of the screen on your host PC monitor.  
   
 ##  <a name="OpenGL"></a> Emulator fails to render OpenGL content  
- The emulator renders OpenGL content using your host machine’s GPU and uses the ANGLE project to convert these calls to and from DirectX. If your application renders correctly on a device but incorrectly on the emulator, it is likely that the device is mitigating an incorrect OpenGL call (for example, using shader variables that do not match).  
+ The emulator renders OpenGL content using your host machine's GPU and uses the ANGLE project to convert these calls to and from DirectX. If your application renders correctly on a device but incorrectly on the emulator, it is likely that the device is mitigating an incorrect OpenGL call (for example, using shader variables that do not match).  
   
 ##  <a name="Multitouch"></a> Emulator does not respond to multi-touch gestures  
  In some cases, the emulator will start and not respond to multi-touch either through direct interaction from your touch-enabled display or using the Multi-Touch Tool on the emulator toolbar. If this is the case, choose the **Rotate** button on the emulator toolbar and attempt to use multi-touch again. If the issue persists, read the [Emulator fails to render OpenGL content](#OpenGL) issue.  

@@ -34,7 +34,7 @@ You can add handlers for drag-and-drop events to your DSL, so that users can dra
   
 -   [How to Get the Original Dragged Item](#getOriginal). If the dragged item is a DSL element, you can open the source model and access the element.  
   
--   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape’s fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
+-   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape's fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
   
 ##  <a name="overrideShapeElement"></a> Defining Gesture Handlers by Overriding ShapeElement Methods  
  Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:  
@@ -336,7 +336,7 @@ using System.Linq;
     ```  
   
 ##  <a name="mouseActions"></a> Using Mouse Actions: Dragging Compartment Items  
- You can write a handler that intercepts mouse actions on a shape’s fields. The following example lets the user re-order the items in a compartment by dragging with the mouse.  
+ You can write a handler that intercepts mouse actions on a shape's fields. The following example lets the user re-order the items in a compartment by dragging with the mouse.  
   
  To build this example, create a solution by using the **Class Diagrams** solution template. Add a code file and add the following code. Adjust the namespace to be the same as your own.  
   

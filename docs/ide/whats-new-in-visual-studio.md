@@ -126,7 +126,7 @@ To extend DevOps capabilities to SQL Server database development, Redgate Data T
 
 Included with Visual Studio 2017 Enterprise:
 - [Redgate ReadyRoll Core](http://www.red-gate.com/products/sql-development/readyroll/entrypage/microsoft-and-readyroll?utm_source=microsoft&utm_medium=link&utm_campaign=readyroll&utm_term=docs-newinvs) helps you develop migration scripts, manage database changes using source control, and safely automate deployments of SQL Server database changes alongside applications changes.
-- [Redgate SQL Prompt Core](http://www.red-gate.com/products/sql-development/sql-prompt/entrypage/microsoft-and-sql-prompt?utm_source=microsoft&utm_medium=link&utm_campaign=sqlprompt&utm_term=docs-newinvs) helps you write SQL more quickly and accurately with the help of intelligent code completion. SQL Prompt autocompletes database and system objects and keywords, and offers column suggestions as you type. This results in cleaner code and fewer errors because you don’t have to remember every column name or alias.
+- [Redgate SQL Prompt Core](http://www.red-gate.com/products/sql-development/sql-prompt/entrypage/microsoft-and-sql-prompt?utm_source=microsoft&utm_medium=link&utm_campaign=sqlprompt&utm_term=docs-newinvs) helps you write SQL more quickly and accurately with the help of intelligent code completion. SQL Prompt autocompletes database and system objects and keywords, and offers column suggestions as you type. This results in cleaner code and fewer errors because you don't have to remember every column name or alias.
 
 Included with all editions of Visual Studio 2017:
 - [Redgate SQL Search](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs) increases your productivity by helping you quickly find SQL fragments and objects across multiple databases.
@@ -140,7 +140,7 @@ When you are working with a project in Visual Studio, you can setup and quickly 
 ![Visual Studio 2017 interact with Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
 #### View and navigate code with Structure Visualizer:
-The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use these to visualize and discover what block of code you’re in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
+The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use these to visualize and discover what block of code you're in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
@@ -193,7 +193,7 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
  Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots and trace & heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
 
 ### Track your issue in Connect  
- If you’d like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
+ If you'd like to track the status of your Visual Studio feedback, simply go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also  
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)

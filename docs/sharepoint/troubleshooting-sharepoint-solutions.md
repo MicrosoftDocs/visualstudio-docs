@@ -157,7 +157,7 @@ manager: "ghogen"
   
 ##### To change the feature scope of the event receiver  
   
-1.  In **Solution Explorer**, open the event receiver’s .feature file in the **Feature Designer** by either double-clicking the file or opening its shortcut menu and then choosing **Open**.  
+1.  In **Solution Explorer**, open the event receiver's .feature file in the **Feature Designer** by either double-clicking the file or opening its shortcut menu and then choosing **Open**.  
   
 2.  Choose the arrow next to **Scope**, and then choose **Site** in the list that appears.  
   

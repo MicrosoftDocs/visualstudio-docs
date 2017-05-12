@@ -58,7 +58,7 @@ translation.priority.mt:
  Be aware that your commands will be customized by others and design them accordingly. There is no such thing as a hidden command. All Visual Studio commands appear in the **Tools > Customize** dialog, the Command Window, auto-complete, the **Tools > Options > Keyboard** dialog, and the Development Tools Environment (DTE). Make sure to give your commands a name and tooltip in your .ctc file so that users can find them easily.  
   
 ##### Do not duplicate shared commands on an embedded toolbar.  
- It is useful to place commands in close proximity to the area of the user’s focus. One way to do this is to create an embedded toolbar at the top of your tool window or document editor. The commands placed on the toolbar should be specific to the content region within the window. Do not duplicate shared commands on these toolbars. For example, never place a "Save" icon within an embedded toolbar.  
+ It is useful to place commands in close proximity to the area of the user's focus. One way to do this is to create an embedded toolbar at the top of your tool window or document editor. The commands placed on the toolbar should be specific to the content region within the window. Do not duplicate shared commands on these toolbars. For example, never place a "Save" icon within an embedded toolbar.  
   
 ### Content and command visibility  
  Commands exist in the following scopes: **Environment**, **Hierarchy**, and **Document**. Know each scope in order to have confidence in command placement.  

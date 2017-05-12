@@ -76,7 +76,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 |Dynamics CRM web client|Fully supported.|  
 |Dynamics (Ax) 2012 client|Action recording and playback are partially supported. See the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=232677) for details.|  
 |SAP|Not supported.|  
-|Citrix/Terminal Services|We don’t recommend recording actions on a terminal server. The recorder doesn’t support running multiple instances at the same time.|  
+|Citrix/Terminal Services|We don't recommend recording actions on a terminal server. The recorder doesn't support running multiple instances at the same time.|  
 |PowerBuilder|Partially supported.<br /><br /> The support is to the extent accessibility is enabled for PowerBuilder controls.|  
   
  For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).  

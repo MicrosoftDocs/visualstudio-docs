@@ -57,7 +57,7 @@ collatorObj = new Intl.Collator([locales][, options])
   
 -   `usage`. Specifies whether the goal of comparison is sorting or searching. The possible values are "sort" and "search". The default value is "sort".  
   
--   `sensitivity`. Specifies the collator’s sensitivity. The possible values are "base", "accent", "case", and "variant". The default value is `undefined`.  
+-   `sensitivity`. Specifies the collator's sensitivity. The possible values are "base", "accent", "case", and "variant". The default value is `undefined`.  
   
 -   `ignorePunctuation`. Specifies whether punctuation is ignored in the comparison. The possible values are "true" and "false". The default value is `false`.  
   
@@ -71,7 +71,7 @@ collatorObj = new Intl.Collator([locales][, options])
 |||  
 |-|-|  
 |Property|Description|  
-|[compare](../../javascript/reference/compare-property-intl-collator.md)|Returns a function that compares two strings by using the collator’s sort order.|  
+|[compare](../../javascript/reference/compare-property-intl-collator.md)|Returns a function that compares two strings by using the collator's sort order.|  
 |[constructor](../../javascript/reference/constructor-property-intl-collator.md)|Specifies the function that creates a collator.|  
 |[prototype](../../javascript/reference/prototype-property-intl-collator.md)|Returns a reference to the prototype for a collator.|  
   

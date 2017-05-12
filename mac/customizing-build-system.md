@@ -76,7 +76,7 @@ Properties can be referred to from expressions using the `$()` syntax. For examp
 
 #### Items
 
-Items provide a way of dealing with inputs into the build system as lists or sets, and typically represent files. Each item has an item *type*, an item *spec*, and optional arbitrary *metadata*. Note that MSBuild doesn’t operate on individual items, it takes on all the items of a given type–called an item *set*
+Items provide a way of dealing with inputs into the build system as lists or sets, and typically represent files. Each item has an item *type*, an item *spec*, and optional arbitrary *metadata*. Note that MSBuild doesn't operate on individual items, it takes on all the items of a given type–called an item *set*
 
 Items are created by declaring an `ItemGroup`. There can be any number of ItemGroups, which can contain any number of items. 
 

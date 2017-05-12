@@ -35,7 +35,7 @@ translation.priority.ht:
 
 Live Unit Testing currently does not work with .NET Core. We are working to add this support in the future. 
 
-## Why doesn’t Live Unit Testing work when I turn it on? 
+## Why doesn't Live Unit Testing work when I turn it on? 
 
 **Answer:** 
 
@@ -193,7 +193,7 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn’t work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
+Live Unit Testing currently doesn't work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
  
 ## Why does Live Unit Testing does not capture coverage from a new process created by a test?
  

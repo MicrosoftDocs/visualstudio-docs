@@ -113,7 +113,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 -   The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.  
   
 ####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons  
- In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog’s commit buttons are located.  
+ In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog's commit buttons are located.  
   
 -   Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.  
   

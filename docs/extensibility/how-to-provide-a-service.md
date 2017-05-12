@@ -131,7 +131,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     > [!NOTE]
     >  Visual Studio can reject a request to provide a service. It does so if another VSPackage already provides the service.  
   
-3.  Now you can get the service and use its methods. We’ll show this in the initializer, but you can get the service anywhere you want to use the service.  
+3.  Now you can get the service and use its methods. We'll show this in the initializer, but you can get the service anywhere you want to use the service.  
   
     ```c#  
     protected override void Initialize()  

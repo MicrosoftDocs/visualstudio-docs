@@ -59,7 +59,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
 3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.  
   
-4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don’t forget that you must run code coverage again: your previous coverage results and code coloring aren’t automatically hidden when you run tests or update your code.  
+4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don't forget that you must run code coverage again: your previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.  
   
 5.  To turn the custom settings off and on, deselect or select the file in the **Test**, **Test Settings** menu.  
   

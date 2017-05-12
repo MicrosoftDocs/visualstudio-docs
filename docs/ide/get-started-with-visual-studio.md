@@ -50,7 +50,7 @@ Some solution types may include windows called *forms*, such as Windows Presenta
 
 ### Solution Explorer
 
-A tool window called **Solution Explorer** lists all your code files. Solution Explorer can help organize your code by grouping its files into solutions and projects. The project in bold is called the *startup project*. It’s the first code that runs when you start your solution. You can change the startup project. See the video [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) for more information.
+A tool window called **Solution Explorer** lists all your code files. Solution Explorer can help organize your code by grouping its files into solutions and projects. The project in bold is called the *startup project*. It's the first code that runs when you start your solution. You can change the startup project. See the video [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) for more information.
 
 ![Solution Explorer collapsed nodes](../ide/media/VSIDE_SolutionExplorer2_callouts.png)
 

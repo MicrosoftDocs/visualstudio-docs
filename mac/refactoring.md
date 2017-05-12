@@ -14,7 +14,7 @@ Refactoring code is a way to rearrange, restructure, and clarify existing code w
 
 It produces a healthier code base, making it much more useable, readable, and maintainable for you or any other developer or user that might refer to the code.
 
-Visual Studio for Mac's integration with Roslyn, Microsoft’s open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
+Visual Studio for Mac's integration with Roslyn, Microsoft's open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
 
 ## Renaming 
 

@@ -83,7 +83,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
      ![Set the Solution Platform to x86](../cross-platform/media/cppmdd_opengles_solutionplat.png "CPPMDD_OpenGLES_SolutionPlat")  
   
-     Use x86 to target the Android Emulator for Windows. If you are targeting a device, choose the solution platform based on the device processor. If the **Solution Platforms** list isn’t displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
+     Use x86 to target the Android Emulator for Windows. If you are targeting a device, choose the solution platform based on the device processor. If the **Solution Platforms** list isn't displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
 2.  In **Solution Explorer**, open the shortcut menu for MyOpenGLESApp.Android.Packaging project and then choose **Build**.  
   
@@ -101,7 +101,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
 4.  Press F5 to start debugging, or Shift+F5 to start without debugging.  
   
-     Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here’s how the app appears in the Visual Studio emulator for Android.  
+     Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here's how the app appears in the Visual Studio emulator for Android.  
   
      ![App running in Android Emulator](../cross-platform/media/cppmdd_opengles_andemulator.png "CPPMDD_OpenGLES_AndEmulator")  
   
@@ -128,7 +128,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
      ![Set the Solution Platform to x86](../cross-platform/media/cppmdd_opengles_solutionplat.png "CPPMDD_OpenGLES_SolutionPlat")  
   
-     Use x86 to target the iOS Simulator. If you are targeting an iOS device, choose the solution platform based on the device processor (usually an ARM processor). If the **Solution Platforms** list isn’t displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
+     Use x86 to target the iOS Simulator. If you are targeting an iOS device, choose the solution platform based on the device processor (usually an ARM processor). If the **Solution Platforms** list isn't displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
 3.  In Solution Explorer, open the shortcut menu for the MyOpenGLESApp.iOS.Application project and choose **Build**.  
   

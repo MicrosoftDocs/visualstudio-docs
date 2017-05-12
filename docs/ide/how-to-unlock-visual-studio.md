@@ -62,7 +62,7 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
   
  ![Visual Studio User Information Dialog](../ide/media/vs2013_userinfo.png "VS2013_UserInfo")  
   
- This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn’t been refreshed and has gone stale due to one of the following reasons:  
+ This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn't been refreshed and has gone stale due to one of the following reasons:  
   
 1.  You have not used Visual Studio or have had no internet connection for an extend period of time.  
   

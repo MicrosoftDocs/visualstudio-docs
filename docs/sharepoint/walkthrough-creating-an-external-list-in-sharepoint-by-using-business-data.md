@@ -67,7 +67,7 @@ manager: "ghogen"
   
 3.  In the **Templates** pane, choose **SharePoint 2010 Project**, name the project **AdventureWorksTest**, and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** appears. In this wizard, you can specify the site that you’ll use to debug the project and set the trust level of the solution.  
+     The **SharePoint Customization Wizard** appears. In this wizard, you can specify the site that you'll use to debug the project and set the trust level of the solution.  
   
 4.  Choose the **Deploy as a farm solution** option button to set the trust level.  
   
@@ -137,7 +137,7 @@ manager: "ghogen"
   
 2.  On the **BusinessDataConnectivity** tab of the **Toolbox**, add an **Entity** onto the BDC designer.  
   
-     The new entity appears on the designer. Visual Studio adds a file that’s named EntityService.vb (in Visual Basic) or EntityService.cs (in C#) to the project.  
+     The new entity appears on the designer. Visual Studio adds a file that's named EntityService.vb (in Visual Basic) or EntityService.cs (in C#) to the project.  
   
 3.  On the menu bar, choose **View**, **Properties**, **Window**.  
   
@@ -186,7 +186,7 @@ manager: "ghogen"
   
 6.  In the **BDC Explorer**, open the shortcut menu of the **Contact**, and then choose **Add Type Descriptor**.  
   
-     A new type descriptor that’s named **TypeDescriptor1** appears in the **BDC Explorer**.  
+     A new type descriptor that's named **TypeDescriptor1** appears in the **BDC Explorer**.  
   
 7.  In the **Properties** window, set the **Name** property value to **ContactID**.  
   

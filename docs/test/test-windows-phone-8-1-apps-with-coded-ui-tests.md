@@ -70,7 +70,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
     End Class  
     ```  
   
-6.  Press F5 to run your Windows Phone app in the emulator and verify that it’s working.  
+6.  Press F5 to run your Windows Phone app in the emulator and verify that it's working.  
   
      ![Run the Windows Phone app](../test/media/cuit_phone_runapp.png "CUIt_Phone_RunApp")  
   
@@ -78,7 +78,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
 ## Deploy the Windows Phone app  
   
-1.  Before a coded UI test can map an app’s controls, you have to deploy the app.  
+1.  Before a coded UI test can map an app's controls, you have to deploy the app.  
   
      ![Deploy the Windows Phone app](../test/media/cuit_phone_deploy.png "CUIT_Phone_Deploy")  
   
@@ -100,7 +100,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      ![Generate coded UI test using cross&#45;hair tool.](../test/media/cuit_phone_howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
   
-3.  Use the cross-hair tool to select the app, then copy the value for the app’s **AutomationId** property, which will be used later to start the app in the test.  
+3.  Use the cross-hair tool to select the app, then copy the value for the app's **AutomationId** property, which will be used later to start the app in the test.  
   
      ![Copy the app's AutomationId value](../test/media/cuit_phone_getautomationid.png "CUIT_Phone_GetAutomationId")  
   
@@ -303,7 +303,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      ![Build and run the test using Test Explorer](../test/media/cuit_phone_runtestexplorer.png "CUIT_Phone_RunTestExplorer")  
   
-     The Windows Phone app launches, the action to tap the button is completed, and the textbox’s Text property is populated and validated using the assert method.  
+     The Windows Phone app launches, the action to tap the button is completed, and the textbox's Text property is populated and validated using the assert method.  
   
      ![Running Winodws Phone test](../test/media/cuit_phone_runtestexplorerrunning.png "CUIT_Phone_RunTestExplorerRunning")  
   
@@ -330,11 +330,11 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
  **A**: Yes, the coded UI test builder requires that an emulator be running and the app be deployed to it. Otherwise, it will throw an error message saying that no running emulator could be found.  
   
 ###  <a name="TestingPhoneAppsCodedUI_EmulatorDevice"></a> Q: Can tests be executed on the emulator only, or can I also use a physical device?  
- **A**: Either option is supported. The target for test execution is selected by changing the emulator type or selecting device in the device toolbar. If Device is selected, a Phone Blue device needs to be connected to one of the machine’s USB ports.  
+ **A**: Either option is supported. The target for test execution is selected by changing the emulator type or selecting device in the device toolbar. If Device is selected, a Phone Blue device needs to be connected to one of the machine's USB ports.  
   
  ![Select the emulator version, or physcial device](../test/media/cuit_phone_testtarget.png "CUIT_Phone_TestTarget")  
   
-### Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?  
+### Q: Why don't I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?  
  **A**: The option to record is not supported for Windows Phone apps.  
   
 ### Q: Can I create a coded UI test for my Windows Phone apps based on WinJS, Silverlight or HTML5?  
@@ -359,7 +359,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### Q: Can I use the coded UI test builder to map controls using a physical phone device?  
  **A**: No, The builder can only map UI elements if your app has been deployed to the emulator.  
   
-### Q: Why can’t I modify the code in the UIMap.Designer file?  
+### Q: Why can't I modify the code in the UIMap.Designer file?  
  **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   
 ### Q: Can I run a coded UI test on my Windows Phone app from the command-line?  

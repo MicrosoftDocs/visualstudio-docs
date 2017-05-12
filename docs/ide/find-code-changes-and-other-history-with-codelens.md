@@ -209,7 +209,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
      ![CodeLens &#45; Go to unit test definition](../ide/media/codelensunittestdefinition.png "CodeLensUnitTestDefinition")  
   
-5.  Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
+5.  Review the test's results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
   
      ![CodeLens &#45; See unit test result](../ide/media/codelensunittestresult.png "CodeLensUnitTestResult")  
   

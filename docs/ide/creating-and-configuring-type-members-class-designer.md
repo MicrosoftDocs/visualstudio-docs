@@ -151,7 +151,7 @@ You can add these members to types on a class diagram and configure those member
   
 -   **Member Icon**  
   
-     Each kind of member is represented by its own icon. Point the mouse at the member icon to display the member’s signature. Click the member icon or the whitespace to the left of the member icon to select the row.  
+     Each kind of member is represented by its own icon. Point the mouse at the member icon to display the member's signature. Click the member icon or the whitespace to the left of the member icon to select the row.  
   
 -   **Member Name**  
   
@@ -243,7 +243,7 @@ You can add these members to types on a class diagram and configure those member
   
 3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
-     The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
+     The new parameter is added to the method and the method's code. It displays in the Class Details window and the Properties window.  
   
 4.  Optionally, specify other details about the parameter, such as its type.  
   
@@ -259,7 +259,7 @@ You can add these members to types on a class diagram and configure those member
   
 3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
-     The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
+     The new parameter is added to the method and the method's code. It displays in the Class Details window and the Properties window.  
   
 4.  In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.  
   
@@ -314,7 +314,7 @@ You can add these members to types on a class diagram and configure those member
   
  **Read-Only Projects**  
   
- The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don’t save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
+ The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don't save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
   
  **Read-Only Types**  
   
