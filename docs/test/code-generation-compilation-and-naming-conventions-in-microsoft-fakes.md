@@ -35,15 +35,32 @@ This topic discusses options and issues in Fakes code generation and compilation
 -   Visual Studio Enterprise  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
- [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
--   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs) • [Type filtering](#BKMK_Type_filtering) • [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [Internal types](#BKMK_Internal_types) • [Optimizing build times](#BKMK_Optimizing_build_times) • [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+-   [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
- [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+-   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs)
   
--   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions) • [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions) • [Recursive rules](#BKMK_Recursive_rules)  
+-   [Type filtering](#BKMK_Type_filtering)
   
- [External resources](#BKMK_External_resources)  
+-   [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods)
+  
+-   [Internal types](#BKMK_Internal_types)
+  
+-   [Optimizing build times](#BKMK_Optimizing_build_times)
+  
+-   [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+  
+-   [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+  
+-   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions)
+  
+-   [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions)
+  
+-   [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions)
+  
+-   [Recursive rules](#BKMK_Recursive_rules)  
+  
+-   [External resources](#BKMK_External_resources)  
   
 -   [Guidance](#BKMK_Guidance)  
   

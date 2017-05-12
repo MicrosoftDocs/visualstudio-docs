@@ -153,9 +153,9 @@ static void Main(string[] args)
   
  If you point to the icon, a tooltip provides information about why the expression was not evaluated.  If the circling arrows appear, the expression was not evaluated for one of the following reasons:  
   
--   •   An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.  
+-   An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.  
   
--   •   The expression contains a function call which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
+-   The expression contains a function call which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
   
 -   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
   

@@ -31,11 +31,11 @@ translation.priority.mt:
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:  
   
--   **Environment font** — the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.  
+-   **Environment font** - the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.  
   
--   **Text editor** — elements that surface in code and other text-based editors can be customized in the Text Editor page in **Tools > Options**.  
+-   **Text editor** - elements that surface in code and other text-based editors can be customized in the Text Editor page in **Tools > Options**.  
   
--   **Specific collections** — designer windows that offer user customization of their interface elements may expose fonts specific to their design surface in their own settings page in **Tools > Options**.  
+-   **Specific collections** - designer windows that offer user customization of their interface elements may expose fonts specific to their design surface in their own settings page in **Tools > Options**.  
   
 ### Editor font customization and resizing  
  Users often will enlarge or zoom the size and/or color of text in the editor according to their preference, independent of the general user interface. Because the environment font is used on elements that might appear within or as part of an editor/designer, it is important to note the expected behavior when one of these font classifications is changed.  

@@ -762,7 +762,7 @@ Microsoft.VisualStudio.Component.Windows10SDK.10586 | Windows 10 SDK (10.0.10586
 
 **ID:** Microsoft.VisualStudio.Workload.Universal
 
-**Description:** Create applications for the Universal Windows Platform with C#, VB, JavaScript, or optionally C﻿++.
+**Description:** Create applications for the Universal Windows Platform with C#, VB, JavaScript, or optionally C++.
 
 ### Components included by this workload
 

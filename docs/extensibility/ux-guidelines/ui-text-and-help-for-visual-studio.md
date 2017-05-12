@@ -233,7 +233,7 @@ translation.priority.mt:
 ### Components of a well-written error message  
   
 #### Use the shell dialog service for error messages.  
- Using the shell dialog service lets you control the appearance of the message — fonts in particular — without major changes to individual elements. Use the **IErrorInfo** mechanisms and report them using **IVsUIShell::SetErrorInfo/ReportErrorInfo**.  
+ Using the shell dialog service lets you control the appearance of the message, fonts in particular, without major changes to individual elements. Use the **IErrorInfo** mechanisms and report them using **IVsUIShell::SetErrorInfo/ReportErrorInfo**.  
   
 #### Choose an effective and appropriate notification presentation.  
  Use a modal dialog with a critical warning if immediate action is required to avoid loss of data (synchronous notification). Critical icons are reserved for situations in which closing the message without reading it can lead to negative consequences. Loss of data is a critical situation that requires an alarm-level response. Overuse of the critical icon desensitizes users to its importance. If the error message is informational in nature, consider alternatives to a modal dialog (asynchronous notification).  
