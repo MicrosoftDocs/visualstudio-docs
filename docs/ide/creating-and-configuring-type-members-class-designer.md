@@ -81,7 +81,7 @@ You can add these members to types on a class diagram and configure those member
   
 2.  In the context menu, click **Class Details Window**.  
   
- – or -  
+ - or -  
   
 -   Point to **Other Windows** on the View menu and then click **Class Details**.  
   

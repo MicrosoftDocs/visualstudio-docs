@@ -18,7 +18,7 @@ This topic introduces some of the key features of the source editor and explores
 
 ## The Source Editor Experience
 
-Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers – and often between projects.
+Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers - and often between projects.
 
 Visual Studio for Mac offers many powerful features to make cross-platform development as accessible and as useful as possible. The sections below describe some of the highlights.
 

@@ -84,7 +84,7 @@ translation.priority.ht:
 ```xml  
 <!-- Optionally make the import portable across VS versions -->  
   <PropertyGroup>  
-    <!-- Get the Visual Studio version – defaults to 10: -->  
+    <!-- Get the Visual Studio version - defaults to 10: -->  
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>  
     <!-- Keep the next element all on one line: -->  
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>  

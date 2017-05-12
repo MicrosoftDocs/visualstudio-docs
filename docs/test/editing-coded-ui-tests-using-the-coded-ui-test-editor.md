@@ -216,7 +216,7 @@ Edit control properties
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ### FAQ  
  [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  

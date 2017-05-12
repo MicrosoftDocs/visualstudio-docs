@@ -131,7 +131,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |Function|Required. Specifies one or more functions as non-user functions.|  
 |`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
 |`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
-|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  – tells the debugger to step over the matched function.<br />-   `StepInto`  – tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  - tells the debugger to step over the matched function.<br />-   `StepInto`  - tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize call stack behavior  
  You can specify modules, source files, and functions to treat as non-user code in call stacks by specifying them in `*.natjmc` files.  

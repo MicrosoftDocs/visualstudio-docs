@@ -123,7 +123,7 @@ translation.priority.mt:
   
 3.  In the designer, choose the **ExpenseItHome.xaml** tab if it isn't already the active designer tab.  
   
-4.  Choose the `<Title>` element and change the title to **ExpenseIt – Home**.  
+4.  Choose the `<Title>` element and change the title to **ExpenseIt - Home**.  
   
      Your **ExpenseItHome.xaml** file should now look like this in C#:  
   
@@ -208,7 +208,7 @@ translation.priority.mt:
   
 3.  In the designer, choose the **ExpenseReportPage.xaml** tab if it isn't already the active designer tab.  
   
-4.  Choose the `<Title>` element and change the title to **ExpenseIt – View Expense**.  
+4.  Choose the `<Title>` element and change the title to **ExpenseIt - View Expense**.  
   
      Your ExpenseReportPage.xaml file should now look like this in C#:  
   

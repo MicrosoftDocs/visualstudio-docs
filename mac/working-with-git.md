@@ -40,17 +40,17 @@ At the bottom of the window, there are five tabs displayed, as illustrated below
 
 These allow the following actions:
 
-* **Source** – Displays your source code file.
-* **Changes** – Displays the change in code between your local file and the base file. You can also compare different versions of the file from different hashes:
+* **Source** - Displays your source code file.
+* **Changes** - Displays the change in code between your local file and the base file. You can also compare different versions of the file from different hashes:
 
     ![Changes tab](media/version-control-gitChange.png)
 
-* **Blame** – Displays the username of the user associated with each section of code.
-* **Log** – Displays all the commits, times, dates, messages, and users that are responsible for the file:
+* **Blame** - Displays the username of the user associated with each section of code.
+* **Log** - Displays all the commits, times, dates, messages, and users that are responsible for the file:
 
     ![Log tab](media/version-control-gitLog.png)
 
-* **Merge** – This can be used if you have a merge conflict when committing your work. It shows a visual representation of the changes made by you and the other developer, allowing you to combine both sections of code cleanly. 
+* **Merge** - This can be used if you have a merge conflict when committing your work. It shows a visual representation of the changes made by you and the other developer, allowing you to combine both sections of code cleanly. 
 
 ## Switching branches 
 

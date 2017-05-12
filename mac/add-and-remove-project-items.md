@@ -32,5 +32,5 @@ This displays the delete item dialog. Select one of the options to remove it fro
 
 ![Delete item dialog](media/add-and-remove-project-items-image4.png)
 
-* **Delete** – Removes item from project and from disk.
-* **Remove from Project** – Removes item from project, but will not remove it from disk 
+* **Delete** - Removes item from project and from disk.
+* **Remove from Project** - Removes item from project, but will not remove it from disk 

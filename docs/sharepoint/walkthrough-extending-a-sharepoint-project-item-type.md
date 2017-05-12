@@ -225,7 +225,7 @@ manager: "ghogen"
   
 7.  Open the shortcut menu for the SharePointProjectTestBDC project, choose **Add**, and then choose **New Item**.  
   
-8.  In the **Add NewItem – SharePointProjectTestBDC** dialog box, expand the installed language node, expand the **SharePoint** node.  
+8.  In the **Add NewItem - SharePointProjectTestBDC** dialog box, expand the installed language node, expand the **SharePoint** node.  
   
 9. Choose the **2010** node, and then choose the **Business Data Connectivity Model (Farm Solution only)** template.  
   

@@ -33,7 +33,7 @@ translation.priority.mt:
 ### Overview  
  Unlike Microsoft Office, which is a suite that comprises many separate products, Visual Studio contains many products that each contribute their command sets to the global Visual Studio IDE. The IDE manages the complexity of thousands of commands by filtering the functionality available to the user based on context.  
   
- When a user's context changes – such as switching from a design window to a code editing window – functionality unrelated to the new context disappears. At the same time, new functionality surfaces together with related dynamic information, such as Properties and Toolbox options. The user should not notice the swapping of the available command set. If the user is distracted or confused by commands appearing or disappearing, then the UI design needs adjustment. The user's current context is always indicated in one or more ways, such as in the IDE title bar, the Properties window, or the Property Pages dialog box.  
+ When a user's context changes - such as switching from a design window to a code editing window - functionality unrelated to the new context disappears. At the same time, new functionality surfaces together with related dynamic information, such as Properties and Toolbox options. The user should not notice the swapping of the available command set. If the user is distracted or confused by commands appearing or disappearing, then the UI design needs adjustment. The user's current context is always indicated in one or more ways, such as in the IDE title bar, the Properties window, or the Property Pages dialog box.  
   
  Command bars allow for flexibility in the UI. The only command structures inherent to the Visual Studio environment are the main menu and the main command bar, which can both be customized and even hidden. Other command bars appear and disappear based on the state of the application. Tool windows and document editors can also contain embedded toolbars within their window edges.  
   
@@ -65,7 +65,7 @@ translation.priority.mt:
   
  Commands in the **Environment** scope establish primary context and are shared between multiple contexts. They alter the visibility or arrangement of documents and tool windows. Among the commands in the environment scope are **New Project**, **Connect to Server**, **Attach Process**, **Cut**, **Copy**, **Paste**, **Find**, **Options**, **Customize**, **New Window**, and **View Help**.  
   
- Commands in the **Hierarchy** scope manage hierarchies in Visual Studio including **Project**, **Team**, and **Data**. They relate to a project's subcontext – for example, **Debug**, **Build**, **Test**, **Architecture**, or **Analyze**. Among the commands in the Hierarchy scope are **Add New Item**, **New Query**, **Project Settings**, **Add New Data Source**, **Launch Performance Wizard**, and **New Diagram**.  
+ Commands in the **Hierarchy** scope manage hierarchies in Visual Studio including **Project**, **Team**, and **Data**. They relate to a project's subcontext - for example, **Debug**, **Build**, **Test**, **Architecture**, or **Analyze**. Among the commands in the Hierarchy scope are **Add New Item**, **New Query**, **Project Settings**, **Add New Data Source**, **Launch Performance Wizard**, and **New Diagram**.  
   
  Commands in the **Document** scope act on the contents of a document, such as code, design, or a work item query (WIQ). They also act on the view of a tool window or are otherwise specific to that tool window. Document scope commands also act on the file objects that are themselves hierarchy-specific, such as **Remove from Project**. Among the commands in the document scope are **Refactor > Rename**, **Create Copy of Work Item**, **Expand All**, **Collapse All**, and **Create User Task**.  
   
@@ -137,7 +137,7 @@ translation.priority.mt:
   
 -   Flyout menus should contain at least three items and no more than seven.  
   
--   Flyout menus should go only one level deep – some Visual Studio menu items have cascading submenus, but this pattern is not encouraged.  
+-   Flyout menus should go only one level deep - some Visual Studio menu items have cascading submenus, but this pattern is not encouraged.  
   
 -   Use no more than six separators. Groupings should adhere to the following illustration:  
   
@@ -159,7 +159,7 @@ translation.priority.mt:
   
 -   Do not exceed 25 top-level menu items.  
   
--   Flyout menus are acceptable but must not exceed one level deep – never use cascading flyouts.  
+-   Flyout menus are acceptable but must not exceed one level deep - never use cascading flyouts.  
   
 -   Use no more than six separators.  
   

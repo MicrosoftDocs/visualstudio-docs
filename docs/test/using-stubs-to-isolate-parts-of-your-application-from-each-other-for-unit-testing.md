@@ -470,7 +470,7 @@ public void TestGetValue()
 // unit test code  
 var stub = new Fakes.MyClass();  
 stub.CallBase = false;  
-// No delegate set – default delegate:  
+// No delegate set - default delegate:  
 Assert.AreEqual(0, stub.DoVirtual(1));  
   
 stub.CallBase = true;  
@@ -512,7 +512,7 @@ StubBehaviors.Current =
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

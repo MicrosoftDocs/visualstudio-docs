@@ -94,7 +94,7 @@ Cancelled = 900,
 Others = 999,  
 ContentManagementDisabled = 1200,  
 OnlineHelpPreferenceDisabled = 1201  
-UpdateAlreadyRunning = 1300 – (Signals that the update didn't run because another was in progress.)  
+UpdateAlreadyRunning = 1300 - (Signals that the update didn't run because another was in progress.)  
   
 ```  
   

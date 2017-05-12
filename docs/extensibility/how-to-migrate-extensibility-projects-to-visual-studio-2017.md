@@ -168,7 +168,7 @@ If Visual Studio was recently opened, you might see a dialog box like this:
 
 Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis.
 
->**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine – including those from other users, then continue to retry.
+>**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine - including those from other users, then continue to retry.
 
 ## Check when missing the required prerequisites
 

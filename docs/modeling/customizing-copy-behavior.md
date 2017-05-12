@@ -78,7 +78,7 @@ partial class MyDslClipboardCommandSet
   
  Override `ClipboardCommandSet.ProcessOnPasteCommand()` to create the additional links after calling the base method.  
   
- **Customize the formats in which elements can be copied** to external applications – for example, to add a border to the bitmap form.  
+ **Customize the formats in which elements can be copied** to external applications - for example, to add a border to the bitmap form.  
  Override *MyDsl*`ClipboardCommandSet.ProcessOnMenuCopyCommand()` in the DslPackage project.  
   
  **Customize how elements are copied to the clipboard by the copy command, but not in a drag operation.**  
@@ -385,7 +385,7 @@ partial class MyDslClipboardCommandSet
   /// <summary>  
   /// Override ProcessOnMenuCopyCommand() to copy elements to the  
   /// clipboard in different formats, or to perform additional tasks  
-  /// before or after copying – for example deselect the copied elements.  
+  /// before or after copying - for example deselect the copied elements.  
   /// </summary>  
   protected override void ProcessOnMenuCopyCommand()  
   {  

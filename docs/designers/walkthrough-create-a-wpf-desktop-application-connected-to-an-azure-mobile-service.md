@@ -35,7 +35,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 ##  <a name="Requirements"></a> Prerequisites  
  You'll need the following to complete this walkthrough:  
   
--   Visual Studio 2015 – any version that supports WPF development.  
+-   Visual Studio 2015 - any version that supports WPF development.  
   
 -   An active Microsoft Azure account.  
   
@@ -554,7 +554,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      This code allows the application to access the mobile service running on Microsoft Azure.  
   
 ## Test the application  
- That's it – you've created a WPF desktop application that accesses an Azure Mobile Service. Now all that's left is to run the application and see it in action.  
+ That's it - you've created a WPF desktop application that accesses an Azure Mobile Service. Now all that's left is to run the application and see it in action.  
   
 #### To run the application  
   

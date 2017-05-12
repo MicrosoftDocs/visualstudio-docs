@@ -134,7 +134,7 @@ manager: "ghogen"
   
 4.  In **Solution Explorer**, open the shortcut menu for the **ProjectItemDefinition** project, and then choose **Add Reference**.  
   
-5.  In the **Reference Manager – ProjectItemDefinition** dialog box, choose the **Assemblies** node, and then choose the **Framework** node.  
+5.  In the **Reference Manager - ProjectItemDefinition** dialog box, choose the **Assemblies** node, and then choose the **Framework** node.  
   
 6.  Select the check box next to each of the following assemblies:  
   

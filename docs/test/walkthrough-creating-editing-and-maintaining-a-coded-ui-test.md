@@ -151,11 +151,11 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 7.  Select the **Record actions, edit UI map or add assertions** option and choose **OK**.  
   
-     The UIMap – Coded UI Test Builder appears, and the Visual Studio window is minimized.  
+     The UIMap - Coded UI Test Builder appears, and the Visual Studio window is minimized.  
   
      For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   
-8.  Choose **Start Recording** on the UIMap – Coded UI Test Builder.  
+8.  Choose **Start Recording** on the UIMap - Coded UI Test Builder.  
   
      ![Start recording](../test/media/cuit_builder_record.png "CUIT_Builder_Record")  
   
@@ -182,7 +182,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 14. In the Method Name type **SimpleAppTest** and choose **Add and Generate**. In a few seconds, the Coded UI test appears and is added to the Solution.  
   
-15. Close the UIMap – Coded UI Test Builder.  
+15. Close the UIMap - Coded UI Test Builder.  
   
      The CodedUITest1.cs file appears in the Code Editor.  
   
@@ -307,11 +307,11 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 1.  In the CodedUITest1.cs file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.  
   
-     The UIMap – Coded UI Test Builder appears.  
+     The UIMap - Coded UI Test Builder appears.  
   
 2.  Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.  
   
-3.  On the UIMap – Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
+3.  On the UIMap - Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
   
      The **Start** button is enclosed in a blue box and the Coded UI Test Builder takes a few seconds to process the data for the selected control and displays the controls properties. Notice that the **AutomationUId** is named **buttonA**.  
   
@@ -321,17 +321,17 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The status at the bottom of the window verifies the action by displaying **Selected control has been added to the UI control map**.  
   
-6.  On the UIMap – Coded UI Test Builder, choose **Generate Code**.  
+6.  On the UIMap - Coded UI Test Builder, choose **Generate Code**.  
   
-     The Coded UI Test Builder – Generate Code appears with a note indicating that no new method is required and that code will only be generated for the changes to the UI control map.  
+     The Coded UI Test Builder - Generate Code appears with a note indicating that no new method is required and that code will only be generated for the changes to the UI control map.  
   
 7.  Choose **Generate**.  
   
 8.  Close SimpleWPFApp.exe.  
   
-9. Close UIMap – Coded UI Test Builder.  
+9. Close UIMap - Coded UI Test Builder.  
   
-     The UIMap – Coded UI Test Builder takes a few seconds to process the UI control map changes.  
+     The UIMap - Coded UI Test Builder takes a few seconds to process the UI control map changes.  
   
 10. In Solution Explorer, open the UIMap.Designer.cs file.  
   

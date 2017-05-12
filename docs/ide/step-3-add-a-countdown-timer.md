@@ -68,7 +68,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      You just added an `if else` statement, which is how you tell programs to make decisions. An `if else` statement looks like the following.  
   
     > [!NOTE]
-    >  The following example is for illustration only–don't add it to your project.  
+    >  The following example is for illustration only-don't add it to your project.  
   
     ```vb  
     If (something that your program will check) Then  

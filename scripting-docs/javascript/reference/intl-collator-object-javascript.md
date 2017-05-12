@@ -47,9 +47,9 @@ collatorObj = new Intl.Collator([locales][, options])
   
 -   -kn to specify a numeric comparison: "*language*-*region*-u-kn-true&#124;false".  
   
--   –kf to specify whether to sort uppercase or lowercase characters first: "*language*-*region*-u-kf-upper&#124;lower&#124;false"). This extension is not currently supported.  
+-   -kf to specify whether to sort uppercase or lowercase characters first: "*language*-*region*-u-kf-upper&#124;lower&#124;false"). This extension is not currently supported.  
   
- To specify a numeric comparison, you can set the –kn extension in the locale string or use the `numeric` property in the `options` parameter. If you're using the `numeric` property, the –kn value will not apply.  
+ To specify a numeric comparison, you can set the -kn extension in the locale string or use the `numeric` property in the `options` parameter. If you're using the `numeric` property, the -kn value will not apply.  
   
  The `options` parameter may include the following properties:  
   

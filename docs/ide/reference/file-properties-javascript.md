@@ -63,7 +63,7 @@ You can use file properties to indicate what actions the project system should p
   
 -   **Content** - The file is included in the package manifest. For example, this setting is the default value for an .htm, .js, .css, image, audio, or video file.  
   
--   **Manifest** – The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.  
+-   **Manifest** - The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.  
   
 -   **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.  
   

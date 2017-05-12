@@ -47,7 +47,7 @@ public class C
 {  
     [SecuritySafeCritical]  
     [DllImport("kernel32.dll")]  
-    public static extern bool Beep(int frequency, int duration); // CA5122 – safe critical p/invoke  
+    public static extern bool Beep(int frequency, int duration); // CA5122 - safe critical p/invoke  
    }  
   
 ```  

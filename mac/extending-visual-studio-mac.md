@@ -71,10 +71,10 @@ The extension/extension point architecture keeps the development of Visual Studi
 
 The extension node contains a path attribute that specifies the extension point that it is plugging into, in this case `/MonoDevelop/Ide/Commands/Edit`. Additionally, it acts as a parent node to the Command. The Command node has the following attributes:
 
-*   **id** – Specifies the identifier for this Command. Command Identifiers must be declared as enumeration members, and are used to connect Commands to CommandItems.
-*   **_label** – The text to be shown in menus.
-*   **_description** – The text to be shown as a tooltip for toolbar buttons.
-*   **defaultHandler** – Specifies the `CommandHandler` class that will power the Command
+*   **id** - Specifies the identifier for this Command. Command Identifiers must be declared as enumeration members, and are used to connect Commands to CommandItems.
+*   **_label** - The text to be shown in menus.
+*   **_description** - The text to be shown as a tooltip for toolbar buttons.
+*   **defaultHandler** - Specifies the `CommandHandler` class that will power the Command
 
 To invoke the command from the Edit Menu, the walkthrough creates a CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` extension point:
 

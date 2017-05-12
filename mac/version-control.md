@@ -10,9 +10,9 @@ ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 
 # Version control
 
-Version control is a system for managing files over many different versions, and – in software development – is generally contributed to by many developers. The principal purpose of any version control system (_VCS_) is to find a solution that enables all users to work on the codebase at the same time.
+Version control is a system for managing files over many different versions, and - in software development - is generally contributed to by many developers. The principal purpose of any version control system (_VCS_) is to find a solution that enables all users to work on the codebase at the same time.
 
-At the core of any version control system is a _repository_, which acts as the central data store for all the different files – similar to a file server. However, unlike a file server, the repository contains the entire history of the project and all revisions that have been made.
+At the core of any version control system is a _repository_, which acts as the central data store for all the different files - similar to a file server. However, unlike a file server, the repository contains the entire history of the project and all revisions that have been made.
 
 If the repository is the central data store, it is logical for each user to have a local store of the data, allowing them to work on it. This is called a _working copy_. In Visual Studio for Mac your working copy will appear just as any other local directory on your machine, allowing you to read from and write to any of the files. However, because Visual Studio for Mac has Version control system integration, you can leverage the power of Subversion and Git without leaving the IDE.
 

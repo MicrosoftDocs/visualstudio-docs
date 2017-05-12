@@ -122,7 +122,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      ![Populate the .CSV file with data](../test/media/cuit_datadriven_adddatatocsvfile.png "CUIT_dataDriven_AddDataToCSVFile")  
   
-3.  It is important to save the .csv file using the correct encoding. On the **FILE** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) – Codepage 65001** as the encoding.  
+3.  It is important to save the .csv file using the correct encoding. On the **FILE** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.  
   
 4.  The .csv file, must be copied to the output directory, or the test can't run. Use the Properties window to copy it.  
   
@@ -130,7 +130,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      Now that we have the data set created, let's bind the data to the test.  
   
-#### Step 3 – Add data source binding  
+#### Step 3 - Add data source binding  
   
 1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.  
   
@@ -158,7 +158,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      Next, we'll configure the test to use the values in the data source file.  
   
-#### Step 4 – Use the data in the coded UI test  
+#### Step 4 - Use the data in the coded UI test  
   
 1.  Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the CodedUITest.cs file:  
   
@@ -207,7 +207,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 3.  Save the solution.  
   
-#### Step 5 – Run the data-driven test  
+#### Step 5 - Run the data-driven test  
   
 1.  Verify that the test is now data-driven by running the test again.  
   
@@ -215,7 +215,7 @@ To test different conditions, you can run your tests multiple times with differe
   
  **Guidance**  
   
- For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188) and [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ## Q & A  
   

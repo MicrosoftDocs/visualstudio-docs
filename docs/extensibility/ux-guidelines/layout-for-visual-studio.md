@@ -156,15 +156,15 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
  ![Themed dialog dimensions](../../extensibility/ux-guidelines/media/0801-i_themeddialogdimensions.png "0801-i_ThemedDialogDimensions")  
   
- **Figure 08.01-i: Themed dialog – Dimensions**  
+ **Figure 08.01-i: Themed dialog - Dimensions**  
   
  ![Themed dialog fonts](../../extensibility/ux-guidelines/media/0801-j_themeddialogfonts.png "0801-j_ThemedDialogFonts")  
   
- **Figure 08.01-j: Themed dialog – Fonts**  
+ **Figure 08.01-j: Themed dialog - Fonts**  
   
  ![Themed dialog colors](../../extensibility/ux-guidelines/media/0801-k_themeddialogcolors.png "0801-k_ThemedDialogColors")  
   
- **Figure 08.01-k: Themed dialog – Colors**  
+ **Figure 08.01-k: Themed dialog - Colors**  
   
 ## See Also  
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)   

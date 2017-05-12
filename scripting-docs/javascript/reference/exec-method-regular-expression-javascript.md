@@ -42,7 +42,7 @@ rgExp.exec(str)
  Required. The `String` object or string literal on which to perform the search.  
   
 ## Remarks  
- If the `exec` method does not find a match, it returns `null`. If it finds a match, `exec` returns an array, and the properties of the global `RegExp` object are updated to reflect the results of the match. Element zero of the array contains the entire match, while elements 1 – *n* contain any submatches that have occurred within the match. This behavior is identical to the behavior of the `match` method without the global flag (**g**) set.  
+ If the `exec` method does not find a match, it returns `null`. If it finds a match, `exec` returns an array, and the properties of the global `RegExp` object are updated to reflect the results of the match. Element zero of the array contains the entire match, while elements 1 - *n* contain any submatches that have occurred within the match. This behavior is identical to the behavior of the `match` method without the global flag (**g**) set.  
   
  If the global flag is set for a regular expression, `exec` searches the string beginning at the position indicated by the value of `lastIndex`. If the global flag is not set, `exec` ignores the value of `lastIndex` and searches from the beginning of the string.  
   

@@ -15,9 +15,9 @@ Visual Studio for Mac distributes updates for the IDE and supported frameworks o
 
 Visual Studio for Mac provides three channels to get these latest versions:
 
-* **Stable** – Provides thoroughly tested updates. This channel is recommended for the best development experience.
-* **Beta** – Provides early access to updates that are candidates for release in the Stable Channel.
-* **Alpha** – Provides early access to updates that add new features but may not be reliable for everyday use.
+* **Stable** - Provides thoroughly tested updates. This channel is recommended for the best development experience.
+* **Beta** - Provides early access to updates that are candidates for release in the Stable Channel.
+* **Alpha** - Provides early access to updates that add new features but may not be reliable for everyday use.
 
 ## Checking for updates
 

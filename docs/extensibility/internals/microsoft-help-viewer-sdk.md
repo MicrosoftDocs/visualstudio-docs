@@ -83,7 +83,7 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
   
 -   f# or fsharp or fs  
   
--   other – a string that represents a language name  
+-   other - a string that represents a language name  
   
  **Creating a Help Viewer topic**  
   
@@ -280,7 +280,7 @@ some F# code
   
  **F1 Support**  
   
- In Visual Studio, selecting F1 generates values supplied from the placement of the cursor within the IDE and populates a "property bag" with the supplied values (based on cursor location. When the cursor is over feature x, feature x is active/in focus and populates property bag with values.  When F1 is selected the property bag is populated and Visual Studio F1 code looks to see if the customers default Help source is local or online (online is the default), then creates the appropriate string based on the users setting (online is the default) – shell execute (see the Help Administrator Guide for exe launch parameters) with parameters for the local help viewer + keyword(s) from the property bag if local help is the default, or the MSDN URL with the keyword in the parameter list.  
+ In Visual Studio, selecting F1 generates values supplied from the placement of the cursor within the IDE and populates a "property bag" with the supplied values (based on cursor location. When the cursor is over feature x, feature x is active/in focus and populates property bag with values.  When F1 is selected the property bag is populated and Visual Studio F1 code looks to see if the customers default Help source is local or online (online is the default), then creates the appropriate string based on the users setting (online is the default) - shell execute (see the Help Administrator Guide for exe launch parameters) with parameters for the local help viewer + keyword(s) from the property bag if local help is the default, or the MSDN URL with the keyword in the parameter list.  
   
  If three strings are returned for F1, referred to as a multi-value string, take the first term, look for a hit, and if found, we are done; if not, move to the next string.  Order matters. Presentation of the multi-value keywords should be longest string to shortest string.  To verify this in the case for multi-value keywords, look at the online F1 URL string, which will include the chosen keyword.  
   
@@ -369,7 +369,7 @@ some F# code
 |\< meta name="Microsoft.Help.Id" content="[TopicID]"/>|Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID.|  
 |\< meta name="Microsoft.Help.F1" content="[System.Windows.Controls.Primitives.IRecyclingItemContainerGenerator]"/>|Specifies the F1 keyword for this topic. You can specify multiple F1 keywords for a topic, or you can omit this tag if you do not want this topic to be displayed when an application user presses F1. Typically, just one F1 keyword is specified for a topic. "F" keywords from earlier versions of Help can be converted to this property.|  
 |\< meta name="Description" content="[topic description]" />|Provides a short summary of the content in this topic. If this tag is used in a topic, it must be used just once. This property is accessed directly by the query library; it is not stored in the index file.|  
- meta name="Microsoft.Help.TocParent" content="[parent_Id]"/>|Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page – Help Viewer Home|  
+ meta name="Microsoft.Help.TocParent" content="[parent_Id]"/>|Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page - Help Viewer Home|  
 |\< meta name="Microsoft.Help.TocOrder" content="[positive integer]"/>|Specifies where in the table of contents this topic appears relative to its peer topics. This tag is required, and must be used just once in a topic. The value is an integer. A topic that specifies a lower-value integer appears above a topic that specifies a higher-value integer.|  
 |\< meta name="Microsoft.Help.Product" content="[product code]"/>|Specifies the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
 |\< meta name="Microsoft.Help.ProductVersion" content="[version number]"/>|Specifies the version of the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
@@ -418,13 +418,13 @@ some F# code
   
 -   Graphics (logos, icons, etc.)  
   
--   Branding.js – script files supporting content behaviors  
+-   Branding.js - script files supporting content behaviors  
   
--   Branding.xml – strings that are consistently used across catalog content.  Note: for Visual Studio localization text elements in the branding.xml, include _locID="\<unique value>"  
+-   Branding.xml - strings that are consistently used across catalog content.  Note: for Visual Studio localization text elements in the branding.xml, include _locID="\<unique value>"  
   
--   Branding.css – style definitions for presentation consistency  
+-   Branding.css - style definitions for presentation consistency  
   
--   Printing.css – style definitions for consistent printed presentation  
+-   Printing.css - style definitions for consistent printed presentation  
   
  As noted above, Branding Packages are associated with the topic:  
   
@@ -440,7 +440,7 @@ some F# code
   
  The Branding.xml file contains a list elements used for consistently rendering specific items in a topic when the topic contains \<meta name="Microsoft.Help.SelfBranded" content="false"/>.  The Visual Studio list of elements in the Branding.xml file is listed below.  Note that this list is intended to be used as a template for ISO Shell adopters, where they modify these elements (for example logo, feedback, and Copyright) to meet their own product branding needs.  
   
- Note: variables noted by "{n}" have code dependencies – removing or changing these values will cause errors and possibly application crash.Localization identifiers (example _locID="codesnippet.n") are included in the Visual Studio Branding Package.  
+ Note: variables noted by "{n}" have code dependencies - removing or changing these values will cause errors and possibly application crash.Localization identifiers (example _locID="codesnippet.n") are included in the Visual Studio Branding Package.  
   
  **Branding.xml**  
   
@@ -588,9 +588,9 @@ some F# code
   
  The Visual Studio Help Viewer Branding Package contains two css files to support consistent Visual Studio Help content presentation:  
   
--   Branding.css – contains css elements for rendering where SelfBranded=false  
+-   Branding.css - contains css elements for rendering where SelfBranded=false  
   
--   Printer.css – contains css elements for rendering where SelfBranded=false  
+-   Printer.css - contains css elements for rendering where SelfBranded=false  
   
  Branding.css files includes definitions for Visual Studio topic presentation (caveat is that the branding.css contained in the Branding_\<locale>.mshc from the package service may change).  
   

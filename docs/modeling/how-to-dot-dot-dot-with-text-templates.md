@@ -125,7 +125,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
      The implication of the term "model" is that it represents some aspect of your business more directly than the generated program code or other files. For example, it might represent the plan of a communications network that your generated software will supervise.  
   
 ### What is the benefit of using text templates?  
- Typically, you generate multiple code or other files from one model. The model represents the requirements more directly than the generated code. It omits implementation detail and is written in terms of the requirements, rather than the code. When the requirements change – as they usually do – you can update the model more easily and more reliably than the different parts of the program code.  
+ Typically, you generate multiple code or other files from one model. The model represents the requirements more directly than the generated code. It omits implementation detail and is written in terms of the requirements, rather than the code. When the requirements change - as they usually do - you can update the model more easily and more reliably than the different parts of the program code.  
   
  Code generation is therefore a valuable tool from the perspective of agile development methods.  
   

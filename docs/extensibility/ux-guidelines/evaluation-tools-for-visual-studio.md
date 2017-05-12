@@ -227,7 +227,7 @@ translation.priority.mt:
   
 ### Touch-enabled UI  
   
--   Verify that interactive controls are large enough to be easily touchable – minimum **23x23 pixels** in size  
+-   Verify that interactive controls are large enough to be easily touchable - minimum **23x23 pixels** in size  
   
 -   Verify that the most frequently used controls are at least **40x40 pixels** in size.  
   

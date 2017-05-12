@@ -284,19 +284,19 @@ This article describes typical uses of annotations for simple function parameter
   
 -   `_In_reads_to_ptr_(p)`  
   
-     A pointer to an array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
+     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
   
 -   `_In_reads_to_ptr_z_(p)`  
   
-     A pointer to a null-terminated array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
+     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
   
 -   `_Out_writes_to_ptr_(p)`  
   
-     A pointer to an array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
+     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
   
 -   `_Out_writes_to_ptr_z_(p)`  
   
-     A pointer to a null-terminated array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
+     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
   
 ## Optional Pointer Parameters  
  When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:  

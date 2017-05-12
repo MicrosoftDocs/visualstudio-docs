@@ -89,7 +89,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
  ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")  
   
 ##  <a name="AddRelatedCode"></a> Add related code to the map  
- Now you've got a map – what next? If you're working with Visual C# .NET or Visual Basic .NET, add items, such as fields, properties, and other methods, to track what's happening in the code.  
+ Now you've got a map - what next? If you're working with Visual C# .NET or Visual Basic .NET, add items, such as fields, properties, and other methods, to track what's happening in the code.  
   
  Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)  
   

@@ -50,7 +50,7 @@ An increasing number of devices are shipping with "high-resolution" screens. The
   
 -   All text sizes regardless of UI framework are expressed in points, and so are treated by the system as DPI-independent. Text in Win32, WinForms, and WPF already scale up correctly when drawn to the display device.  
   
--   Win32/WinForms dialogs and windows have means for enabling layout that resizes with text – for example, through grid, flow, and table layout panels. These enable avoiding hard-coded pixel locations that are not scaled when the font sizes are increased.  
+-   Win32/WinForms dialogs and windows have means for enabling layout that resizes with text - for example, through grid, flow, and table layout panels. These enable avoiding hard-coded pixel locations that are not scaled when the font sizes are increased.  
   
 -   Icons provided by the system or resources based on system metrics (for example, SM_CXICON and SM_CXSMICON) are already scaled up.  
   

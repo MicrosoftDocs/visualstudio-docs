@@ -30,15 +30,15 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
 -   [Setting the Propagate Delete option of a role](#property)  
   
--   [Overriding the Delete Closure](#closure) – Use this technique where deletion might lead to deletion of neighboring elements.  
+-   [Overriding the Delete Closure](#closure) - Use this technique where deletion might lead to deletion of neighboring elements.  
   
--   [Using OnDeleting and OnDeleted](#ondeleting) – Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
+-   [Using OnDeleting and OnDeleted](#ondeleting) - Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
   
--   [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
+-   [Deletion Rules](#rules) - Use rules to propagate updates of any kind within the store, where one change might lead to others.  
   
--   [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documents.  
+-   [Deletion Events](#rules) - Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documents.  
   
--   [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
+-   [UnMerge](#unmerge) - use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
   
 ##  <a name="default"></a> Default Deletion Behavior  
  By default, the following rules govern delete propagation:  
@@ -81,11 +81,11 @@ Deleting an element usually causes related elements to be deleted also. All rela
 ##  <a name="closure"></a> Defining a Delete Closure  
  The deletion operation uses the class *YourModel***DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:  
   
--   **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element's other links.  
+-   **VisitorFilterResult.Yes**- The element should be deleted and the walker should proceed to try the element's other links.  
   
--   **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
+-   **VisitorFilterResult.DoNotCare** - The element should not be deleted unless another query replies that it should be deleted.  
   
--   **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element's other links.  
+-   **VisitorFilterResult.Never** - The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element's other links.  
   
 ```  
 // When a musician is deleted, delete their albums with a low rating.  
@@ -196,7 +196,7 @@ partial class Artist
   
 ```  
   
- When you perform <xref:Microsoft.VisualStudio.Modeling.ModelElement.Delete%2A> on an element, OnDeleting and OnDeleted will be called. These methods are always performed inline – that is, immediately before and after the actual deletion. If your code deletes two or more elements, OnDeleting and OnDeleted will be called in alternation on all of them in turn.  
+ When you perform <xref:Microsoft.VisualStudio.Modeling.ModelElement.Delete%2A> on an element, OnDeleting and OnDeleted will be called. These methods are always performed inline - that is, immediately before and after the actual deletion. If your code deletes two or more elements, OnDeleting and OnDeleted will be called in alternation on all of them in turn.  
   
 ##  <a name="rules"></a> Deletion Rules and Events  
  As an alternative  to  OnDelete handlers, you can define deletion rules and deletion events.  

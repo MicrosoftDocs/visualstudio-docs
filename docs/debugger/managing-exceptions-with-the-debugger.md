@@ -71,7 +71,7 @@ When an exception occurs, the debugger writes an exception message to the Output
 >  ASP.NET has a top-level exception handler that shows error pages in a browser. It does not break execution unless **Just My Code** is turned on. For an example, see [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) below.  
   
 > [!NOTE]
->  In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error–style error handlers.    
+>  In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error-style error handlers.    
   
 ## Tell the debugger to break when an exception is thrown  
 The debugger can break execution at the point where an exception is thrown, giving you a chance to examine the exception before a handler is invoked.  
