@@ -150,7 +150,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
      Create an Inheritance relationship from the domain class to another class that has a moniker key property.  
   
 ### Avoiding Duplicate Monikers  
- If you use qualified key monikers, it is possible that two elements in a user’s model could have the same value in the key property. For example, if your DSL has a class Person that has a property Name, the user could set the Names of two elements to be the same. Although the model could be saved to file, it would not reload correctly.  
+ If you use qualified key monikers, it is possible that two elements in a user's model could have the same value in the key property. For example, if your DSL has a class Person that has a property Name, the user could set the Names of two elements to be the same. Although the model could be saved to file, it would not reload correctly.  
   
  There are several methods that help avoid this situation:  
   
@@ -187,7 +187,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
  Notice that because a GUID is unique, it is never prefixed by the moniker of its parent.  
   
- If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This will cause it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model’s name or identifier is not used in monikers for Album and its embedded children:  
+ If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This will cause it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model's name or identifier is not used in monikers for Album and its embedded children:  
   
 ```  
 <albumMoniker name="Jazz after Teatime" />  

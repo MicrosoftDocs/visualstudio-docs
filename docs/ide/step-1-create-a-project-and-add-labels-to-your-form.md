@@ -141,7 +141,7 @@ First row of math quiz
   
      You can use the spacer lines to give enough distance between the two rows.  
   
-3.  Change the value of the **Text** property for the second label to **–** (minus sign).  
+3.  Change the value of the **Text** property for the second label to **-** (minus sign).  
   
 4.  Name the first question-mark label **minusLeftLabel**.  
   

@@ -57,7 +57,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
 - <entry>  
   <id>SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa</id>   
   <title type="text">Highlight all occurrences of selected word</title>   
-  <summary type="text">This extends the editor to highlight ….</summary>   
+  <summary type="text">This extends the editor to highlight ....</summary>   
   <published>2011-04-14T14:24:51-07:00</published>   
   <updated>2011-04-14T14:24:22-07:00</updated>   
 - <author>  
@@ -77,7 +77,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
   </entry>  
 - <entry>  
   <id>Template_Wizard_239.Microsoft.3b38a7e3-5cbc-4389-a92a-d82tyc2ed592</id>   
-  …  
+  ...  
   </entry>  
   </feed>  
   

@@ -33,7 +33,7 @@ translation.priority.ht:
 
 # Variable Explorer
 
-The **Variable Explorer** window, opened using **R Tools > Windows > Variable Explorer** (or Ctrl+8 if you've used **R Tools > Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](#interactive-repl.md):
+The **Variable Explorer** window, opened using **R Tools > Windows > Variable Explorer** (or Ctrl+8 if you've used **R Tools > Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](interactive-repl.md):
 
 ```R
 x <- 42

@@ -38,7 +38,7 @@ The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/incl
  An abstraction for a breakpoint set in code. There is a one-to-one relationship between a bound breakpoint and a breakpoint instruction in the code stream. When code unloads, bound breakpoints may unbind.  
   
  causality  
- Provides the ability to track a logical thread of execution across multiple physical threads, processes, and machines, and to reconstruct the call stack of that logical thread at any given point in that thread’s lifetime.  
+ Provides the ability to track a logical thread of execution across multiple physical threads, processes, and machines, and to reconstruct the call stack of that logical thread at any given point in that thread's lifetime.  
   
  code context  
  Provides an abstraction of a position in code known to the debug engine. For most run-time architectures, a code context is an address in a program's instruction stream. For nontraditional languages, in which code may not be represented by instructions, a code context may be represented by other means.  

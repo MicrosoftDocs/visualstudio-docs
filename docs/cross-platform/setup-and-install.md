@@ -47,7 +47,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
 1.  Recommended: a physical Windows computer (not a VM) running Windows 8 or later, for best Android emulator performance. (Did we mention that you need a physical computer and not a VM?)  
   
-2.  You can use a computer with Windows 7 or earlier, in which case you’ll use the Xamarin Player for Android as the emulator. 
+2.  You can use a computer with Windows 7 or earlier, in which case you'll use the Xamarin Player for Android as the emulator. 
     
 3. For either configuration, you can always run apps directly on connected physical devices.  
   
@@ -84,16 +84,16 @@ If you have issues using Xamarin after doing this setup and install, post your q
       
 6.  For testing Android apps, use the [Android SDK Emulator](https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-emulator/android-sdk-emulator/) if you don't have physical devices. See note below.  
   
- **Note about emulators on Windows computers:** Because CPUs support only one virtualization technology at a time, it’s best to have only one in use on a development computer. There are three main virtualizations technologies are Hyper-V (used by the Visual Studio Emulator for Android and the Windows Phone emulator), Virtual Box (used by Genymotion), and Intel HAXM (used by the Android SDK emulator). Because of various issues between Hyper-V and Virtual Box, it’s best to use emulators of only one type on any given computer, hence the recommendations above to use Hyper-V on Windows 8 and above computers, and Intel HAXM emulators on Windows 7 and earlier as well as when running Windows on a Mac.  
+ **Note about emulators on Windows computers:** Because CPUs support only one virtualization technology at a time, it's best to have only one in use on a development computer. There are three main virtualizations technologies are Hyper-V (used by the Visual Studio Emulator for Android and the Windows Phone emulator), Virtual Box (used by Genymotion), and Intel HAXM (used by the Android SDK emulator). Because of various issues between Hyper-V and Virtual Box, it's best to use emulators of only one type on any given computer, hence the recommendations above to use Hyper-V on Windows 8 and above computers, and Intel HAXM emulators on Windows 7 and earlier as well as when running Windows on a Mac.  
   
 ##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
   
-1.  Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
+1.  Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don't have one already. This is necessary for installing and signing into Xcode.  
   
 2.  Download and install Xcode from  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/), and add your Apple ID as described on [Adding Your Account to XCode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).  
   
 3.  Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).  
   
-4.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
+4.  Once you've completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
   
      Note that both computers must be on the same local network.

@@ -80,7 +80,7 @@ manager: "ghogen"
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **GenerateExternalDataLists** project to **Solution Explorer**.  
   
-7.  If the source.extension.vsixmanifest file doesn’t open automatically, open its shortcut menu in the GenerateExternalDataLists project, and then choose **Open**  
+7.  If the source.extension.vsixmanifest file doesn't open automatically, open its shortcut menu in the GenerateExternalDataLists project, and then choose **Open**  
   
 8.  Verify that the source.extension.vsixmanifest file has a non-blank entry (enter Contoso) for the Author field, save the file, and then close it.  
   
@@ -225,7 +225,7 @@ manager: "ghogen"
   
 7.  Open the shortcut menu for the SharePointProjectTestBDC project, choose **Add**, and then choose **New Item**.  
   
-8.  In the **Add NewItem – SharePointProjectTestBDC** dialog box, expand the installed language node, expand the **SharePoint** node.  
+8.  In the **Add NewItem - SharePointProjectTestBDC** dialog box, expand the installed language node, expand the **SharePoint** node.  
   
 9. Choose the **2010** node, and then choose the **Business Data Connectivity Model (Farm Solution only)** template.  
   

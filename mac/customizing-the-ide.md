@@ -16,7 +16,7 @@ Visual Studio for Mac can be customized in a variety of ways, allowing users to 
 
 ![Dark Theme View](media/customizing-the-ide-image7a.png)
 
-You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences… > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** drop-down, as illustrated in the screenshot below:
+You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences... > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** drop-down, as illustrated in the screenshot below:
 
  ![Dark Theme Selection](media/customizing-the-ide-image7b.png)
 
@@ -24,8 +24,8 @@ You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > 
 
 Visual Studio for Mac is localized in 13 languages, enabling it to be accessible to more developers. The languages currently available are listed below:
 
-* Chinese – China
-* Chinese – Taiwan
+* Chinese - China
+* Chinese - Taiwan
 * Czech
 * French
 * German
@@ -38,7 +38,7 @@ Visual Studio for Mac is localized in 13 languages, enabling it to be accessible
 * Spanish
 * Turkish
 
-To change the language displayed by Visual Studio for Mac, browse to  **Visual Studio > Preferences… > Environment > Visual Style** and select your desired language from the **User Interface Language** drop-down, as illustrated in the screenshot below:
+To change the language displayed by Visual Studio for Mac, browse to  **Visual Studio > Preferences... > Environment > Visual Style** and select your desired language from the **User Interface Language** drop-down, as illustrated in the screenshot below:
 
 
 ![Language Selection](media/customizing-the-ide-image11a.png)
@@ -60,7 +60,7 @@ Populated **Name** and **Email** fields will be used to add information to any c
 
 Key bindings allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (Windows), ReSharper, Visual Studio Code, and Xcode.
 
-Key bindings can be set by browsing to **Visual Studio > Preferences… > Environment > Key Bindings**, as illustrated below:
+Key bindings can be set by browsing to **Visual Studio > Preferences... > Environment > Key Bindings**, as illustrated below:
 
  ![Set Key bindings](media/customizing-the-ide-image10a.png)
 
@@ -87,9 +87,9 @@ Pads may also be opened automatically by various commands, such as the **Find in
 Pads can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another pad, above or below another pad, or as a set of tabbed pads enabling you to quickly switch between them.
 
 For frequently used pads, you can also completely detach a pad from the Visual Studio for Mac window, and create a separate window for that pad.
- 
+
 Pads can be hidden and closed by the toggles in the top-right corner of each pad:
- 
+
 ![Hiding and Closing Pads](media/customizing-the-ide-image5a.png)
 
 Auto-hidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad will display it again, and it will be hidden when the mouse and keyboard focus leaves it.
@@ -106,28 +106,22 @@ The state of the open pads is represented by a *layout*. The layouts can be  swi
 There is always one active layout and any change you make in a layout, such as adding or repositioning a pad, will only change the active layout. Once you close Visual Studio for Mac, the changes you have made will not be saved.
 
 
-However, it is possible to create a new layout by using the **View > Save Current Layout…** menu item. This will add your current layout to the menu so that you can select it at any time:
+However, it is possible to create a new layout by using the **View > Save Current Layout...** menu item. This will add your current layout to the menu so that you can select it at any time:
 
 ![Save Current Layout](media/customizing-the-ide-image6a.png)
 
 ### Side-by-side editing support
- 
+
 Visual Studio for Mac allows you to open text editors side-by-side, or to have an editor as a detached floating window.
 
 2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area, as shown below:
 
  ![Two column side-by-side mode](media/customizing-the-ide-sbs.png)
- 
+
 Editor tabs can be dragged out of the document area to create a floating editor window. This floating window also supports side-by-side editors, and can contain several editor tabs:
 
  ![Create new window](media/customizing-the-ide-sbs1.png)
- 
+
  ![Two column side-by-side with additional tabs](media/customizing-the-ide-sbs2.png)
 
 To revert to a single open editor, select **View > Editor Columns > 1 column**.
-
-
-
-
-
-

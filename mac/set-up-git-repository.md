@@ -8,13 +8,13 @@ ms.topic: article
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ---
 
-# Setting Up a Git Repository
+# Setting up a Git repository
 
 Git is a distributed version control system that allows teams to work on the same documents simultaneously. This means that there is a single server that contains all the files, but whenever a repository is checked out from this central source, the entire repository is cloned locally to your machine.
 
 There are many remote hosts that allow you to work with Git for version control, however the most common of these is GitHub. The example below uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
 
-If you wish to use GitHub, ensure that you have your account created and configured before following the steps below. 
+If you wish to use GitHub, ensure that you have an account created and configured before following the steps below. 
 
 To set up a Git repository, execute the following steps:
 
@@ -41,11 +41,11 @@ To set up a Git repository, execute the following steps:
 
     ![](media/version-control-git5.png)
 
-7. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following, press OK: 
+7. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following. Press OK: 
 
     ![Enter git details dialog](media/version-control-git6.png)
 
-    Note that it is also possible to use SSH to connect to git.
+    Note that it is also possible to use SSH to connect to Git.
 
 8. To attempt to publish the app to Git, select the repository just created,  and ensure that both **Module Name** and **Message** text fields are completed:
 
@@ -63,6 +63,6 @@ To set up a Git repository, execute the following steps:
 
     ![Version Control Menu](media/version-control-git10.png)
 
-13. Finally, select **Push Changes…** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
+13. Finally, select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
 
     ![Push Changes to remote repository](media/version-control-git11.png)

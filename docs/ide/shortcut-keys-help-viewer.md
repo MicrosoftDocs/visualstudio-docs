@@ -116,7 +116,7 @@ You can navigate in the Microsoft Help Viewer by using the shortcut keys in the 
 |Alt + D|Change the installation source to disk.|  
 |Alt + O|Change the installation source to online.|  
 |Tab|Change focus to the **Local store path** text box.|  
-|Tab|Change focus to the **Move…** button.|  
+|Tab|Change focus to the **Move...** button.|  
 |Alt + V|Open the **Move Content** dialog box.|  
 |Ctrl + Alt + F|Change focus to the **Filter Documentation** text box.|  
 |Tab|Change focus to the documentation list.|  

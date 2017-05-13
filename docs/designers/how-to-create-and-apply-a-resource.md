@@ -68,7 +68,7 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
   
     -   Apply a resource to a property. In the Properties window, choose the property marker next to the property value, choose **Local Resource** or **System Resource**, and then choose an available resource from the list that appears.  
   
-         If you don't see a resource that you expect to see, it might be because the type of the resource doesn’t match the type of the property.  
+         If you don't see a resource that you expect to see, it might be because the type of the resource doesn't match the type of the property.  
   
     -   Apply a style or control template resource to a control. Open the context menu for a control in the Document Outline window, choose **Edit Template** or **Edit Additional Templates**, choose **Apply Resource**, and then choose the name of the control template from the list that appears.  
   

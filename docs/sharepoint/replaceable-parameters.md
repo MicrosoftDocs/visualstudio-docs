@@ -56,10 +56,10 @@ manager: "ghogen"
 |----------|-----------------|  
 |$SharePoint.Project.FileName$|The name of the containing project file, such as, "NewProj.csproj".|  
 |$SharePoint.Project.FileNameWithoutExtension$|The name of the containing project file without the file name extension. For example, "NewProj".|  
-|$SharePoint.Project.AssemblyFullName$|The display name (strong name) of the containing project’s output assembly.|  
-|$SharePoint.Project.AssemblyFileName$|The name of the containing project’s output assembly.|  
-|$SharePoint.Project.AssemblyFileNameWithoutExtension$|The name of the containing project’s output assembly, without the file name extension.|  
-|$SharePoint.Project.AssemblyPublicKeyToken$|The public key token of the containing project’s output assembly, converted to a string. (16-characters in "x2" hexadecimal format.)|  
+|$SharePoint.Project.AssemblyFullName$|The display name (strong name) of the containing project's output assembly.|  
+|$SharePoint.Project.AssemblyFileName$|The name of the containing project's output assembly.|  
+|$SharePoint.Project.AssemblyFileNameWithoutExtension$|The name of the containing project's output assembly, without the file name extension.|  
+|$SharePoint.Project.AssemblyPublicKeyToken$|The public key token of the containing project's output assembly, converted to a string. (16-characters in "x2" hexadecimal format.)|  
 |$SharePoint.Package.Name$|The name of the containing package.|  
 |$SharePoint.Package.FileName$|The name of the containing package's definition file.|  
 |$SharePoint.Package.FileNameWithoutExtension$|The name (without extension) of the containing package's definition file.|  
@@ -85,7 +85,7 @@ manager: "ghogen"
   
 -   DWP  
   
- These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the …\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
+ These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
   
  You can, however, add additional file extensions to the list. To do this, add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
   

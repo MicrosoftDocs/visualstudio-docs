@@ -52,7 +52,7 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
 4.  On the **View** menu, click **Properties Window** to display the properties of the XML file.  
   
-5.  In the **Properties** window, click the Browse (…) button on the Schemas property.  
+5.  In the **Properties** window, click the Browse (...) button on the Schemas property.  
   
 6.  In the list of XSD schemas, select the vsct.xsd schema. If it is not in the list, click **Add** and then find the file on a local drive. Click **OK** when you are finished.  
   

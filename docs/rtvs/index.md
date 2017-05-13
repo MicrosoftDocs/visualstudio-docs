@@ -109,7 +109,7 @@ A. Yes, you can use any source control system that is integrated into Visual Stu
 
 A. The 1.0 release of RTVS will be English-only. The 1.1 release will be localized to the same set of languages that Visual Studio itself is. In the meantime, use the [English language pack for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48157), or in Visual Studio 2017, run the installer and select English in the **Language Packs** tab.
 
-![](media/FAQ-international-settings.png)
+![International settings for Visual Studio 2017](media/FAQ-international-settings.png)
 
 **Q. Will RTVS work with 32-bit editions of R?**
 

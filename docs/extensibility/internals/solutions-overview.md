@@ -54,7 +54,7 @@ A solution is a grouping of one or more projects that work together to create an
  Specific information relating to the use of these files can be found in [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md) and [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).  
   
 > [!NOTE]
->  If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can’t change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
+>  If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can't change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   

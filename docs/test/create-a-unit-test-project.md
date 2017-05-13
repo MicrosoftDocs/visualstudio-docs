@@ -42,7 +42,7 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
 3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the Accounts project of our example, you would name the project AccountsTests.  
   
-4.  In your unit test project, add a reference to the code under test.  Here’s how to create the reference to a code project in the same solution:  
+4.  In your unit test project, add a reference to the code under test.  Here's how to create the reference to a code project in the same solution:  
   
     1.  Select the project in Solution Explorer.  
   

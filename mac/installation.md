@@ -1,10 +1,11 @@
 ---
 title: "Install Visual Studio for Mac"
-description: 
+description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
 ms.topic: article
+ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---
 
@@ -18,13 +19,13 @@ For working with iOS in Visual Studio you will need the following:
 
 * a Mac with macOS Sierra 10.12 or above
 * Xcode 8.3
-* An Apple ID. You can create this at https://appleid.apple.com if you don’t have one already. This is necessary for installing and signing into Xcode.
+* An Apple ID. You can create this at https://appleid.apple.com if you don't have one already. This is necessary for installing and signing into Xcode.
 
 ## Install
 
 1. Download Visual Studio for Mac from [https://www.visualstudio.com/](https://www.visualstudio.com/)
 
-2. Once the installer package is downloaded, click on the `VisualStudioInstaller.dmg` file to mount the installer and then run it by double-clicking on the logo, as illustrated below:
+2. Once the installer package is downloaded, click on the **VisualStudioInstaller.dmg** file to mount the installer and then run it by double-clicking on the logo, as illustrated below:
 
   ![Installer dialog](media/installer-image1.png)
 
@@ -65,4 +66,3 @@ For working with iOS in Visual Studio you will need the following:
 10. Once the installation is successful, you can start developing apps in Visual Studio by pressing **Start**:
 
   ![Open Visual Studio](media/installer-image11.png)
-

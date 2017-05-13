@@ -172,7 +172,7 @@ translation.priority.mt:
   
      The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
   
-9. With the `FlipView` app running in the Simulator or the Phone Emulator, type `Data.items` in the console window input prompt (next to the “>>” symbol) and press Enter.  
+9. With the `FlipView` app running in the Simulator or the Phone Emulator, type `Data.items` in the console window input prompt (next to the ">>" symbol) and press Enter.  
   
      A visualizer for the `items` object appears in the console window. This indicates that the `items` object instantiated and is available in the current script context. In the console window, you can click through the nodes of an object to view property values (or use the arrow keys). If you click down into the `items._data` object, as you see in this illustration, you'll find that its image source references are incorrect, as expected. The default images (logo.png) are still present in the object, and there are missing images interspersed with the expected images.  
   
@@ -208,7 +208,7 @@ translation.priority.mt:
   
 13. Choose the green arrow symbol to run the script.  
   
-14. Press Ctrl+Alt+M to switch the console input prompt to single-line mode, and then choose **Clear input** (the red “X”) to delete the code from the input prompt.  
+14. Press Ctrl+Alt+M to switch the console input prompt to single-line mode, and then choose **Clear input** (the red "X") to delete the code from the input prompt.  
   
 15. Type `Data.items.length = 3` at the prompt, and then press Enter. This removes the extraneous elements from the data.  
   
@@ -266,7 +266,7 @@ translation.priority.mt:
   
  Single-line mode provides input history. You can navigate through the input history by using the Up Arrow and Down Arrow keys. Single-line mode clears the input prompt when you run scripts. To run a script in single-line mode, press Enter.  
   
- Multiline mode does not clear the input prompt when you run scripts. When you switch to single-line mode from multiline mode, you can clear the input line by pressing **Clear input** (the red “X”). To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window.  
+ Multiline mode does not clear the input prompt when you run scripts. When you switch to single-line mode from multiline mode, you can clear the input line by pressing **Clear input** (the red "X"). To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window.  
   
 ##  <a name="Switching"></a> Switching the script execution context  
  The JavaScript Console window allows you to interact with a single execution context, which represents a single instance of the web platform host (WWAHost.exe), at a time. In some scenarios, your app may start another instance of the host, such as when you use an `iframe`, a share contract, a web worker, or a `WebView` control. If another instance of the host is running, you can select a different execution context while running the app by selecting the execution context in the **Target** list.  

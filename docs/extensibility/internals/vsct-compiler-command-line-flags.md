@@ -82,7 +82,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
   
  The -E switch can be used to emit a C-style header file that contains the symbols that are used by the command table, or to emit a C# file that contains objects for the command symbols.  
   
- The -D and –I switches have the syntax of the Cl.exe C preprocessor flags that have the same name. –D definitions that have the format X=Y are used for the expansion of XML-based \<Defined> tests in `Condition` attributes. –I include paths are used to resolve \<Include>, \<Extern> and \<Bitmap> file references. For more information, see the [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md).  
+ The -D and -I switches have the syntax of the Cl.exe C preprocessor flags that have the same name. -D definitions that have the format X=Y are used for the expansion of XML-based \<Defined> tests in `Condition` attributes. -I include paths are used to resolve \<Include>, \<Extern> and \<Bitmap> file references. For more information, see the [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md).  
   
  The VSCT compiler can also decompile a previously built binary file. To do this, supply a binary file for the \<infile>.   If the binary file was produced by the VSCT compiler, it will have its symbols already embedded and will produce output with the symbolic names in a \<Symbols> section of the output. If the binary was produced by the CTC compiler, the output will contain the actual GUIDs and IDs. If the *.ctsym file that is produced by current versions of Ctc.exe is in the same folder as the binary input file, the symbols will be loaded from that file and used for output.  
   

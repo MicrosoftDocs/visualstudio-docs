@@ -46,7 +46,7 @@ One of the more useful methods of locating information in Help is by performing 
 |Syntax|Description|  
 |------------|-----------------|  
 |Case sensitivity|Searches aren't case-sensitive. Develop your search criteria using uppercase or lowercase characters. For example, "OLE" and "ole" return the same results.|  
-|Character combinations|You can't search only for individual letters (a–z) or numbers (0–9). If you try to search for certain reserved words, such as ”and”, ”from”, and ”with”, they will be ignored. For more information, see "Words Ignored in Searches (Stop Words)" later in this topic.|  
+|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and", "from", and "with", they will be ignored. For more information, see "Words Ignored in Searches (Stop Words)" later in this topic.|  
 |Evaluation order|Search queries are evaluated from left to right.|  
   
 ### Search Syntax  

@@ -71,7 +71,7 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 |Specifier|Format|Original Watch Value|Displays|  
 |---------------|------------|--------------------------|--------------|  
-|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off.|Message “Implicit function evaluation is turned off by the user”|\<value>|  
+|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off.|Message "Implicit function evaluation is turned off by the user"|\<value>|  
 |d|decimal integer|0x0065|101|  
 |dynamic|Displays the specified object using a Dynamic View|Displays all the members of the object, including the Dynamic View|Displays only the Dynamic View|  
 |h|hexadecimal integer|61541|0x0000F065|  

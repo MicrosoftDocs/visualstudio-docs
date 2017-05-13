@@ -88,7 +88,7 @@ You can use the following GUIDs in the .pkgundef file of your isolated shell app
 |Code Snippets|Visual Studio Code Snippets Package|{0B680757-2C29-4531-80FA-535A5178AA98}|  
 |Managed Language Project Support|Visual Studio Component Enumerator|{588205E0-66e0-11D3-8600-00C04F6123B3}|  
 ||Visual Studio Settings and Project Designers Package|{67909B06-91E9-4F3E-AB50-495046BE9A9A}|  
-|Export Template…|Export Template Package|{F1E4CFCA-4573-4345-8718-7BDE2b1F0BE8}|  
+|Export Template...|Export Template Package|{F1E4CFCA-4573-4345-8718-7BDE2b1F0BE8}|  
   
  Some packages should never be removed because many other features take dependencies on them. For example, the ones listed under "Core IDE" should never be removed.  
   
