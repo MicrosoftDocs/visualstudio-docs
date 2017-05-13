@@ -98,7 +98,7 @@ To install Visual Studio 2017 in a language of your choosing, click the **Langua
 By default, the installer program tries to match the language of the operating system when it runs for the first time. The installer remembers this setting. You can change this setting by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-CN, zh-TW, cs-CZ, en-US, fr-FR, de-DE, it-IT, ja-JP, ko-KR, pl-PL, pt-BR, ru-RU, es-ES, and tr-TR.
 
 ## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-visual-studio-2017.md) page for troubleshooting tips.
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
 
 ## See also  
 * [Modify Visual Studio 2017](modify-visual-studio.md)
