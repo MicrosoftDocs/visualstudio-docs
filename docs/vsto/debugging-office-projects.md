@@ -48,7 +48,7 @@ manager: "ghogen"
  If you are debugging a document-level customization for Word, repeatedly stopping the debugger and causing Word to close suddenly can lead to the Normal template becoming corrupted. If this happens, you can delete the corrupted Normal template and it will automatically be recreated the next time you open Word. However, any macros that were stored in the Normal template are not recreated.  
   
 ### Debug Office 2013 VSTO Add-ins by using either Office 2013 or Office 2016  
- If you’re using Visual Studio 2015, and you have both versions of Office installed side-by-side, Visual Studio starts Office 2016. If you’re using Visual Studio 2013, Visual Studio starts Office 2013.  
+ If you're using Visual Studio 2015, and you have both versions of Office installed side-by-side, Visual Studio starts Office 2016. If you're using Visual Studio 2013, Visual Studio starts Office 2013.  
   
  If you want to debug your VSTO Add-in by using a different version of Office (2013 or 2016), open the **Project Designer**, and in the **Debug** tab, choose the **Start external program** option button. Then, browse to the location of the appropriate Office application executable.  
   

@@ -33,7 +33,7 @@ translation.priority.mt:
 # How to: Turn Off Compatibility Warnings for Source Control Plug-ins
 A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.  
   
-### To disable the warning: "To ensure optimal source control integration with Visual Studio…"  
+### To disable the warning: "To ensure optimal source control integration with Visual Studio..."  
   
 -   Set the following registry entry (adding the value if necessary):  
   
@@ -41,7 +41,7 @@ A user may see several compatibility warnings when employing source control in [
   
      This warning is displayed for all non-[!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] plug-ins.  
   
-### To disable the warning: "The installed source control provider does not support all the capabilities…"  
+### To disable the warning: "The installed source control provider does not support all the capabilities..."  
   
 -   Set the following two registry values (adding the values if necessary):  
   

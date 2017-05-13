@@ -27,7 +27,7 @@ For more information, refer to the [Configuration Manager](https://www.youtube.c
 
 ## Run configuration
 
-In previous versions of Xamarin Studio, you could select the option to set a project as a **Startup Project**, which is the project that is run/debugged when using the global run/debug command. This was indicated by a bold typeface for the project’s name in the project pad.
+In previous versions of Xamarin Studio, you could select the option to set a project as a **Startup Project**, which is the project that is run/debugged when using the global run/debug command. This was indicated by a bold typeface for the project's name in the project pad.
 
 In Visual Studio for Mac, instead of setting a startup project, you can set a _run configuration_. The run configurations are presented in a drop-down list in the toolbar, next to the build configuration selector as illustrated below:
 

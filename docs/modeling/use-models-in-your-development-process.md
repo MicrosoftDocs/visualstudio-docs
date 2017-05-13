@@ -62,7 +62,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
  Other aspects of specification that are ordinarily used together with models include the following. Depending on the scale and style of your project, you might use several of these aspects or not use any at all:  
   
--   User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to…." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
+-   User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to...." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
   
 -   Change Requests. A change request in a more formal project is very similar to a user story in an agile project. The agile approach treats all requirements as changes to what was developed in previous iterations.  
   

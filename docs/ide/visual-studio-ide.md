@@ -133,14 +133,14 @@ Let's recap what you did so far: you created a new C# Windows Universal project 
 
 
 ## Debug, test, and improve your code
-Nothing runs perfectly all the time. When you write code, you need to run it and test it for bugs and performance. Visual Studio’s cutting edge debugging system enables you to debug code running in your local project, on a remote device, or on an emulator such as the ones for Android or Windows Phone devices. You can step through code one statement at a time and inspect variables as you go, you can step through multi-threaded applications, and you can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. All of this can be managed in the code editor itself, so that you don't have to leave your code.
+Nothing runs perfectly all the time. When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting edge debugging system enables you to debug code running in your local project, on a remote device, or on an emulator such as the ones for Android or Windows Phone devices. You can step through code one statement at a time and inspect variables as you go, you can step through multi-threaded applications, and you can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. All of this can be managed in the code editor itself, so that you don't have to leave your code.
 
 ![Debugging](../ide/media/VSIDE_Tour_Debugging.png)
 
 For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](https://review.docs.microsoft.com/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Tools](https://docs.microsoft.com/visualstudio/profiling/profiling-tools).
 
 ## Deploy your finished application  
-When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you’re deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
+When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
 
 ## Quick tour of the IDE
 To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use.
@@ -162,7 +162,7 @@ Following are some other common productivity features in Visual Studio.
 
  ![Refactoring](../ide/media/VSIDE_refactor.png)  
 
--  **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It’s like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
+-  **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)  
 
@@ -228,7 +228,7 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. Visual Studio provides tools, controls, and templates from Microsoft, our partners, and the community. To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
 ## Learn more and find out what's new
-If you’ve never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
+If you've never used Visual Studio before, learn the basics, starting with [Get Started with Visual Studio](../ide/get-started-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
 If you want to check out the new features in Visual Studio 2017, see [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
 
 Congratulations on completing the tour of the Visual Studio IDE! We hope you learned something useful about some of its main features.

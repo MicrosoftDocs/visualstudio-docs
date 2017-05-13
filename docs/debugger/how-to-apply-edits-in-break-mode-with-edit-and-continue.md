@@ -71,11 +71,11 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
   
     -   Set a breakpoint in your code, then choose **Start Debugging** from the **Debug** menu and wait for the application to hit the breakpoint.  
   
-         –or–  
+         -or-  
   
     -   Start debugging, and then select **Break All** from the **Debug** menu.  
   
-         –or–  
+         -or-  
   
     -   When an exception occurs, choose **Enable Editing** on the**Exception Assistant**.  
   

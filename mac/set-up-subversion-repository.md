@@ -22,7 +22,7 @@ Before starting to use Subversion, the Xcode command line tools must be installe
 
 2. Open or create a Visual Studio for Mac Project.
 
-3. Right click on the Project and select **Version Control > Publish in Version Control…**: 
+3. Right click on the Project and select **Version Control > Publish in Version Control...**: 
 
     ![Start Publishing Project](media/version-control-subversion2.png)
 

@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Managing VSPackages
-In most cases you don’t need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.  
+In most cases you don't need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.  
   
 ## Using the experimental instance  
  To find out more about the experimental instance, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
@@ -54,7 +54,7 @@ In most cases you don’t need to worry about managing VSPackages, since the pro
 Extensions can impact startup and solution load performance. Learn how Visual Studio extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension. For more information, see [How to: Diagnose Extension Performance](how-to-diagnose-extension-performance.md). 
   
 ## Troubleshooting VSPackages  
- Find out the techniques for troubleshooting VSPackages that don’t load or are experiencing errors: [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)  
+ Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)  
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)

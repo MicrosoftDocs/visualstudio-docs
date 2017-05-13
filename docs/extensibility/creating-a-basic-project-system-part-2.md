@@ -189,7 +189,7 @@ ZipProjects:
 ## Deploying a Visual Studio Template  
  Visual Studio templates do not contain path information. Therefore, the template .zip file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically **\<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates**.  
   
- To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: **…\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates**.  
+ To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: **...\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates**.  
   
 ## Testing a Visual Studio Template  
  Test your project factory to see whether it creates a project hierarchy by using the Visual Studio template.  

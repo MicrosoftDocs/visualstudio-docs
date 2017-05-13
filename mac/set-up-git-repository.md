@@ -63,6 +63,6 @@ To set up a Git repository, execute the following steps:
 
     ![Version Control Menu](media/version-control-git10.png)
 
-13. Finally, select **Push Changes…** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
+13. Finally, select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
 
     ![Push Changes to remote repository](media/version-control-git11.png)

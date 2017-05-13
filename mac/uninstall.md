@@ -40,7 +40,7 @@ rm -rf ~/Library/VisualLodStudio
 
 ## Uninstall Mono SDK (MDK)
 
-Mono is an open source implementation of Microsoft’s .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
+Mono is an open source implementation of Microsoft's .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
 
 > [!WARNING]
 > There are other applications outside of Xamarin which also use Mono, such as Unity.

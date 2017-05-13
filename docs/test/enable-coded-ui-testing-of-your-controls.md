@@ -28,7 +28,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Enable Coded UI Testing of Your Controls
-Your control can be more easily tested if you implement support for the coded UI testing framework. You can add increasing levels of support incrementally. You can start by supporting record and playback and property validation. You can build on that to allow the coded UI test builder to recognize your control’s custom properties, and provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.  
+Your control can be more easily tested if you implement support for the coded UI testing framework. You can add increasing levels of support incrementally. You can start by supporting record and playback and property validation. You can build on that to allow the coded UI test builder to recognize your control's custom properties, and provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.  
   
  **In this topic:**  
   
@@ -81,24 +81,24 @@ Your control can be more easily tested if you implement support for the coded UI
     }  
     ```  
   
-2.  Override the accessible object’s <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.  
+2.  Override the accessible object's <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.  
   
-3.  Implement another accessibility object for the child control and   override the child control’s <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return that accessibility object.  
+3.  Implement another accessibility object for the child control and   override the child control's <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return that accessibility object.  
   
-4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control’s accessibility object.  
+4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control's accessibility object.  
   
 > [!NOTE]
->  This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject> in this procedure, and then builds on that in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in Program.cs with the sample code. You’ll need to add references to Accessibility, System.Drawing, and System.Windows.Forms. You should change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project’s output type to from **Console Application** to **Windows Application** so that a console window doesn’t appear when you run the application.  
+>  This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject> in this procedure, and then builds on that in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in Program.cs with the sample code. You'll need to add references to Accessibility, System.Drawing, and System.Windows.Forms. You should change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project's output type to from **Console Application** to **Windows Application** so that a console window doesn't appear when you run the application.  
   
 ##  <a name="customproprties"></a> Support Custom Property Validation by implementing a Property Provider  
- Once you’ve implemented basic support for record and playback and property validation, you can make your control’s custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control’s CurveLegend child controls.  
+ Once you've implemented basic support for record and playback and property validation, you can make your control's custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control's CurveLegend child controls.  
   
  ![CUIT&#95;CustomProps](../test/media/cuit_customprops.png "CUIT_CustomProps")  
   
 ### To support custom property validation  
  ![CUIT&#95;Props](../test/media/cuit_props.png "CUIT_Props")  
   
-1.  Override the curve legend accessible object’s <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string, separated from the main description (and each other if you are implementing multiple properties) by semicolons (;).  
+1.  Override the curve legend accessible object's <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string, separated from the main description (and each other if you are implementing multiple properties) by semicolons (;).  
   
     ```c#  
     public class CurveLegendAccessibleObject : AccessibleObject  
@@ -108,8 +108,8 @@ Your control can be more easily tested if you implement support for the coded UI
         {  
             get  
             {  
-                // Add “;” and the state value to the end  
-                // of the curve legend’s description  
+                // Add ";" and the state value to the end  
+                // of the curve legend's description  
                 return "CurveLegend; " + State.ToString();  
             }  
         }  
@@ -118,7 +118,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
 2.  Create a UI test extension package for your control by creating a class library project and add references to Accessibility, Microsoft.VisualStudio.TestTools.UITesting, Microsoft.VisualStudio.TestTools.UITest.Common, and Microsoft.VisualStudio.TestTools.Extension. Change the **Embed Interop Types** for Accessibility to **False**.  
   
-3.  Add a property provider class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>.  
+3.  Add a property provider class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>.  
   
     ```c#  
     using System;  
@@ -146,7 +146,7 @@ Your control can be more easily tested if you implement support for the coded UI
 6.  Override the remaining abstract methods of <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider?displayProperty=fullName>.  
   
 <CodeContentPlaceHolder>5</CodeContentPlaceHolder>  
-7.  Add an extension package class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>.  
+7.  Add an extension package class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>.  
   
 <CodeContentPlaceHolder>6</CodeContentPlaceHolder>  
 8.  Define the `UITestExtensionPackage` attribute for the assembly.  
@@ -161,28 +161,28 @@ Your control can be more easily tested if you implement support for the coded UI
 11. Build your binaries and copy them to **%ProgramFiles%\Common\Microsoft Shared\VSTT\10.0\UITestExtensionPackages**.  
   
 > [!NOTE]
->  This extension package will be applied to any control that is of type “Text”. If you’re testing multiple controls of the same type, you’ll need to test them separately and manage which extension packages are deployed when you record the tests.  
+>  This extension package will be applied to any control that is of type "Text". If you're testing multiple controls of the same type, you'll need to test them separately and manage which extension packages are deployed when you record the tests.  
   
 ##  <a name="codegeneration"></a> Support Code Generation by implementing a Class to Access Custom Properties  
  When the coded UI test builder generates code from a session recording, it uses the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl> class to access your controls.  
   
 <CodeContentPlaceHolder>10</CodeContentPlaceHolder>  
- If you’ve implemented a property provider to provide access to your control’s custom properties, you can add a specialized class that is used to access those properties so that the generated code is simplified.  
+ If you've implemented a property provider to provide access to your control's custom properties, you can add a specialized class that is used to access those properties so that the generated code is simplified.  
   
 <CodeContentPlaceHolder>11</CodeContentPlaceHolder>  
 ### To add a specialized class to access your control  
  ![CUIT&#95;CodeGen](../test/media/cuit_codegen.png "CUIT_CodeGen")  
   
-1.  Implement a class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl> and add the control’s type to the search properties collection in the constructor.  
+1.  Implement a class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl> and add the control's type to the search properties collection in the constructor.  
   
 <CodeContentPlaceHolder>12</CodeContentPlaceHolder>  
-2.  Implement your control’s custom properties as properties of the class.  
+2.  Implement your control's custom properties as properties of the class.  
   
 <CodeContentPlaceHolder>13</CodeContentPlaceHolder>  
-3.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass%2A?displayProperty=fullName> method to return the type of the new class for the curve legend child controls.  
+3.  Override your property provider's <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass%2A?displayProperty=fullName> method to return the type of the new class for the curve legend child controls.  
   
 <CodeContentPlaceHolder>14</CodeContentPlaceHolder>  
-4.  Override your property provider’s <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType%2A> method to return the type of the new class’ PropertyNames method.  
+4.  Override your property provider's <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType%2A> method to return the type of the new class' PropertyNames method.  
   
 <CodeContentPlaceHolder>15</CodeContentPlaceHolder>  
 ##  <a name="intentawareactions"></a> Support Intent-Aware Actions by implementing an Action Filter  
@@ -191,7 +191,7 @@ Your control can be more easily tested if you implement support for the coded UI
 ### To support intent-aware actions  
  ![CUIT&#95;Actions](../test/media/cuit_actions.png "CUIT_Actions")  
   
-1.  Implement an action filter class that’s derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>.  
+1.  Implement an action filter class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>.  
   
 <CodeContentPlaceHolder>16</CodeContentPlaceHolder>  
 2.  Override <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>. The example here realpces a double-click action with a single click action.  
@@ -227,7 +227,7 @@ Your control can be more easily tested if you implement support for the coded UI
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  <xref:System.Windows.Forms.AccessibleObject>   

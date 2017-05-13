@@ -48,11 +48,11 @@ You can search for a specific window in Windows view by using its handle, captio
   
 3.  Drag the **Finder Tool** over the target window. As you drag the tool, the **Window Search** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you know the handle of the window you want (for example, from the debugger), you can type it in the **Handle** box.  
   
-     – or –  
+     - or -  
   
      If you know the caption and/or class of the window you want, you can type them in the **Caption** and **Class** text boxes, and clear the **Handle** text box.  
   

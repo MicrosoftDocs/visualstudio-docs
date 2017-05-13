@@ -39,13 +39,13 @@ The Manifest from Resources tool is a console application that takes a list of i
 |-|-|-|  
 |**Switch name**|**Notes**|**Required or Optional**|  
 |/resources|A semicolon-delimited list of images or directories. This list should always contain the full list of images that will be in the manifest. If only a partial list is given, the entries not included will be lost.<br /><br /> If a given resource file is an image strip, the tool will split it into separate images before adding each subimage to the manifest.<br /><br /> If the image is a .png file, we recommended you format the name like this so that the tool can fill in the right attributes for the image: \<Name>.\<Width>.\<Height>.png.|Required|  
-|/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest’s runtime location).|Required|  
+|/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest's runtime location).|Required|  
 |/manifest|The name to give to the generated .imagemanifest file. This can also include an absolute or relative path to create the file in a different location. The default name matches the assembly name.<br /><br /> Default: \<Current Directory>\\<Assembly\>.imagemanifest|Optional|  
 |/guidName|The name to give to the GUID symbol for all of the images in the generated manifest.<br /><br /> Default: AssetsGuid|Optional|  
 |/rootPath|The root path that needs to be stripped off before creating managed resource URIs. (This flag is to help with cases where the tool gets the relative URI path wrong, causing resources to fail to load.)<br /><br /> Default: \<Current Directory>|Optional|  
 |/recursive|Setting this flag tells the tool to recursively search any directories in the /resources argument. Omitting this flag will result in a top-level-only search of directories.|Optional|  
 |/isNative|Set this flag when the assembly argument is a path for a native assembly. Omit this flag when the assembly argument is the name of a managed assembly. (See the Notes section for additional information about this flag.)|Optional|  
-|/newGuids|Setting this flag tells the tool to create a new value for the images’ GUID symbol instead of merging the one from the existing manifest.|Optional|  
+|/newGuids|Setting this flag tells the tool to create a new value for the images' GUID symbol instead of merging the one from the existing manifest.|Optional|  
 |/newIds|Setting this flag tells the tool to create new ID symbol values for every image instead of merging values from the existing manifest.|Optional|  
 |/noLogo|Setting this flag stops product and copyright information from printing.|Optional|  
 |/?|Print out Help information.|Optional|  
@@ -63,15 +63,15 @@ The Manifest from Resources tool is a console application that takes a list of i
   
 -   The tool only supports .png and .xaml files. Any other image or file types will be ignored. A warning is generated for all unsupported types encountered while parsing the resources. If no supported images are found when the tool is finished parsing the resources, an error will be generated  
   
--   By following the suggested format for .png images, the tool will set the size/dimension value for the .png to the format-specified size, even if it differs from the image’s actual size.  
+-   By following the suggested format for .png images, the tool will set the size/dimension value for the .png to the format-specified size, even if it differs from the image's actual size.  
   
--   The width/height format can be omitted for .png images, but the tool will read the image’s actual width/height and use those for the image’s size/dimension value.  
+-   The width/height format can be omitted for .png images, but the tool will read the image's actual width/height and use those for the image's size/dimension value.  
   
 -   Running this tool on the same image strip multiple times for the same .imagemanifest will result in duplicate manifest entries, because the tool attempts to split the image strip into standalone images and add those to the existing manifest.  
   
 -   Merging (omitting /newGuids or /newIds) should only be done for tool-generated manifests. Manifests that have been customized or generated through other means might not be merged correctly.  
   
--   Manifests that are generated for native assemblies might need to be hand-edited after generation to make the ID symbols match the resource IDs from the native assembly’s .rc file.  
+-   Manifests that are generated for native assemblies might need to be hand-edited after generation to make the ID symbols match the resource IDs from the native assembly's .rc file.  
   
 ## Sample Output  
  **Simple image manifest**  

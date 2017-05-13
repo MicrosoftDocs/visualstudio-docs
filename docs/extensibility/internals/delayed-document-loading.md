@@ -33,7 +33,7 @@ When a user reopens a Visual Studio solution, most of the associated documents a
  Your extension may cause project documents to be loaded unnecessarily by querying elements in the documents before they are loaded. This can increase the overall memory footprint for Visual Studio.  
   
 ## Document Loading  
- The stub frame and document are fully initialized when the user accesses the document, for example by selecting the tab of the window frame. The document can also be initialized by an extension that requests the document’s data, either by accessing the RDT directly to acquire the document data, or accessing the RDT indirectly by making one of the following calls:  
+ The stub frame and document are fully initialized when the user accesses the document, for example by selecting the tab of the window frame. The document can also be initialized by an extension that requests the document's data, either by accessing the RDT directly to acquire the document data, or accessing the RDT indirectly by making one of the following calls:  
   
 -   The window frame show method: <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A>.  
   
@@ -53,7 +53,7 @@ When a user reopens a Visual Studio solution, most of the associated documents a
   
  If your extension uses managed code, you should not call <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.GetDocumentInfo%2A> unless you are certain that the document is not in the pending-initialization state, or you want the document to be fully initialized.. This is because this method always returns the doc data object, creating it if necessary. Instead, you should call one of the methods on the IVsRunningDocumentTable4 interface.  
   
- If your extension uses C++, you can pass `null` for the parameters you don’t want.  
+ If your extension uses C++, you can pass `null` for the parameters you don't want.  
   
  You can avoid unnecessary document loading by calling one of the following methods before you ask for the relevant properties: before you ask for other properties.  
   

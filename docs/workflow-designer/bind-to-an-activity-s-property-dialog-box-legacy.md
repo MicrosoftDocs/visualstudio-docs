@@ -35,7 +35,7 @@ This topic describes how use the **Bind to an Activity's Property** dialog box i
   
  An instance type of dependency property can be bound to another activity's public property or event. For more information about activity binding, see [Using Dependency Properties](http://go.microsoft.com/fwlink?LinkID=65007).  
   
- You select a property to bind to using the **Bind to an Activity's Property** dialog box. You open this dialog box by clicking the ellipses **[…]** at the end of the selected property's text box in the **Properties** window, or by clicking the blue exclamation mark icon that appears next to the property name in the property browser.  
+ You select a property to bind to using the **Bind to an Activity's Property** dialog box. You open this dialog box by clicking the ellipses **[...]** at the end of the selected property's text box in the **Properties** window, or by clicking the blue exclamation mark icon that appears next to the property name in the property browser.  
   
  The following table describes the user interface (UI) elements of the **Bind to an Activity's Property** dialog box.  
   

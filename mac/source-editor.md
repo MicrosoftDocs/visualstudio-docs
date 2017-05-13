@@ -18,7 +18,7 @@ This topic introduces some of the key features of the source editor and explores
 
 ## The Source Editor Experience
 
-Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers – and often between projects.
+Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers - and often between projects.
 
 Visual Studio for Mac offers many powerful features to make cross-platform development as accessible and as useful as possible. The sections below describe some of the highlights.
 
@@ -27,7 +27,7 @@ Visual Studio for Mac offers many powerful features to make cross-platform devel
 
 Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements. This is turned off by default in Visual Studio for Mac
 
-To turn on code folding, navigate to **Visual Studio > Preferences… > Text Editor > General > Code Folding**:
+To turn on code folding, navigate to **Visual Studio > Preferences... > Text Editor > General > Code Folding**:
 
 ![Code Folding Options](media/source-editor-image1.png)
 
@@ -62,7 +62,7 @@ The option to show tabs, spaces, and line endings is also available:
 
 ### Ruler
 
-Showing the column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences… > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated below:
+Showing the column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated below:
 
  ![](media/source-editor-image5.png)
 
@@ -71,7 +71,7 @@ Showing the column ruler is useful for determining line lengths, particularly wh
 
 ### Highlight identifier references
 
-When this option is turned on, a developer can place the mouse cursor on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences… > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
+When this option is turned on, a developer can place the mouse cursor on any symbol in the source code and the source editor will provide a visual guide to all other references in that file. This is turned on by navigating to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and selecting _Highlight identifier references_, as illustrated below:
 
 ![](media/source-editor-image6.png)
 

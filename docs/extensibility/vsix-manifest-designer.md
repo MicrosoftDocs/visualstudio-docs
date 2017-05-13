@@ -107,13 +107,13 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
   
  **Version Range** is [12.0, 14.0] and uses the following notation:  
   
--   [ – minimum version inclusive  
+-   [ - minimum version inclusive  
   
--   ] – maximum version inclusive  
+-   ] - maximum version inclusive  
   
 -   ( - minimum version exclusive  
   
--   ) – maximum version exclusive  
+-   ) - maximum version exclusive  
   
 -   Single version # - only the specified version  
   

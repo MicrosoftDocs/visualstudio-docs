@@ -105,7 +105,7 @@ document.write('The caption reads, "After the snow of \'97. Grandma\'s house is 
   
 ```  
   
- You can also iterate code points using the `for…of` statement.  
+ You can also iterate code points using the `for...of` statement.  
   
 ```JavaScript  
 for(var c of "𠮷") {  

@@ -204,7 +204,7 @@ This tells you that the leaked allocation was on line 20 of debug_new.cpp.
   
 4.  Press **RETURN**.  
   
-     The debugger evaluates the call and places the result in the **Value** column. This value will be –1 if you have not set any breakpoints on memory allocations.  
+     The debugger evaluates the call and places the result in the **Value** column. This value will be -1 if you have not set any breakpoints on memory allocations.  
   
 5.  In the **Value** column, replace the value shown with the allocation number of the memory allocation where you want to break.  
   

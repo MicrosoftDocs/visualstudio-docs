@@ -38,9 +38,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Install Visual Studio 2017
-Welcome to a new way to install Visual Studio! In our newest version, we’ve made it easier for you to select and install just the features you need—and we’ve reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need—and we've reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
- Want to know more about what else is new? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs15-relnotes). And for more in-depth info about how we’ve redesigned the installation experience, see our blog posts, “[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)” and “[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/).”  
+ Want to know more about what else is new? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs15-relnotes). And for more in-depth info about how we've redesigned the installation experience, see our blog posts, "[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)" and "[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/)."  
 
  Ready to install? We'll walk you through it, step-by-step. Let's get started.
 
@@ -62,12 +62,12 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 
-3.  You’ll see several status screens that show the progress of the installation. After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want.
+3.  You'll see several status screens that show the progress of the installation. After the installer is finished installing, it's time to pick the feature sets—or workloads—that you want.
 
 ## Install workloads  
  Now, you can customize your installation by using workloads. Select one or more of the workloads you want; each workload contains the features you need for the programming language or platform you prefer.  
 
- Here’s how to get them.  
+ Here's how to get them.  
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.  
 
@@ -83,7 +83,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 ## Install individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 

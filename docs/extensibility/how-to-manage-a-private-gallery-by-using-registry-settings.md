@@ -40,7 +40,7 @@ If you are an administrator or the developer of an Isolated Shell extension, you
 [$RootPath$\ExtensionManager\Repositories\{UniqueGUID}]  
 @={URI}  (REG_SZ)  
 Disabled=0 | 1 (DWORD)  
-Priority=0 (highest priority) … MaxInt (lowest priority) (DWORD) (uint)  
+Priority=0 (highest priority) ... MaxInt (lowest priority) (DWORD) (uint)  
 Protocol=Atom Feed|Sharepoint (REG_SZ)  
 DisplayName={DisplayName} (REG_SZ)  
 DisplayNameResourceID={ID} (REG_SZ)  

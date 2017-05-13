@@ -30,7 +30,7 @@ manager: "ghogen"
   
  When you deploy a SharePoint application, the contents of the mapped folder and all its subfolders are copied by the solution package (.wsp) onto the server that's running SharePoint at the specified location in the SharePoint folder tree. This location is determined by the **Deployment Location** property that's set for the mapped folder. Any subfolders in the mapped folder are relative to **Deployment Location** of the mapped folder. Note that the **Deployment Location** property, not the name of the mapped folder, determines where items are deployed.  
   
- You can add mapped folders to a project by using commands on the menu bar or the shortcut menu for the project. You can use the **Add SharePoint “Images” Mapped Folder** and **Add SharePoint “Layouts” folder** commands to add those mapped folders that are used most often. You can map any of the other available SharePoint folders to your project by using the **Add SharePoint Mapped Folder** command on the shortcut menu and then specifying the folders in the **Add SharePoint Mapped Folder** dialog box.  
+ You can add mapped folders to a project by using commands on the menu bar or the shortcut menu for the project. You can use the **Add SharePoint "Images" Mapped Folder** and **Add SharePoint "Layouts" folder** commands to add those mapped folders that are used most often. You can map any of the other available SharePoint folders to your project by using the **Add SharePoint Mapped Folder** command on the shortcut menu and then specifying the folders in the **Add SharePoint Mapped Folder** dialog box.  
   
 ## Adding Mapped Folders to a Project  
  The following procedure describes how to add two mapped folders to a visual web part project. To start, you create a visual web part project.  
@@ -47,7 +47,7 @@ manager: "ghogen"
   
 5.  In the **SharePoint Customization Wizard**, choose the **Finish** button to retain the default settings.  
   
-6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add SharePoint “Images” Mapped Folder**.  
+6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add SharePoint "Images" Mapped Folder**.  
   
      A folder that's named **Images** appears in your project and contains a subfolder that's named TestProject1. This mapped folder will contain images for the visual web part project.  
   

@@ -31,8 +31,8 @@ manager: "ghogen"
   
  For detailed installation steps, see [How to: Configure a Computer to Develop Office Solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).  
   
-## If project templates don’t appear or they don’t work in Visual Studio  
- If you install a supported version of Visual Studio, the .NET Framework, and Microsoft Office, but Office project templates either don’t appear in the Visual Studio **New Project** dialog box, or you receive an error when you try to use one, check the following:  
+## If project templates don't appear or they don't work in Visual Studio  
+ If you install a supported version of Visual Studio, the .NET Framework, and Microsoft Office, but Office project templates either don't appear in the Visual Studio **New Project** dialog box, or you receive an error when you try to use one, check the following:  
   
 -   Ensure that you have the Microsoft Office developer tools installed on your computer.  
   
@@ -42,7 +42,7 @@ manager: "ghogen"
   
 -   Ensure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify Whether Outlook Is a Click-to-Run Application on a Computer](http://msdn.microsoft.com/library/office/ff864733(v=office.14).aspx).  
   
--   Ensure that you’re running only one version of Microsoft Office.  
+-   Ensure that you're running only one version of Microsoft Office.  
   
  If you continue to experience problems, see [Additional Support for Errors in Office Solutions](../vsto/additional-support-for-errors-in-office-solutions.md).  
   

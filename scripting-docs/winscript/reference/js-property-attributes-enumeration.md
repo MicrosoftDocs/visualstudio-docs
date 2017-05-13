@@ -32,7 +32,7 @@ enum JS_PROPERTY_ATTRIBUTES{   JS_PROPERTY_ATTRIBUTE_NONE = 0,   JS_PROPERTY_HAS
 |----------|-----------------|  
 |`JS_PROPERTY_ATTRIBUTE_NONE`|The property has no attributes.|  
 |`JS_PROPERTY_HAS_CHILDREN`|The property has children.|  
-|`JS_PROPERTY_FAKE`|The property represents a fake node, such as “[Methods]”.|  
+|`JS_PROPERTY_FAKE`|The property represents a fake node, such as "[Methods]".|  
 |`JS_PROPERTY_METHOD`|The property is a method.|  
 |`JS_PROPERTY_READONLY`|The property is read-only.|  
 |`JS_PROPERTY_NATIVE_WINRT_POINTER`|The property is a pointer to a native WinRT object.|  

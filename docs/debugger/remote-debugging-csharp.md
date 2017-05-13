@@ -96,9 +96,9 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
      The required credentials vary depending on your network's security configuration. For example, on a domain computer, you can  enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like **MJO-DL\name@something.com**, along with the correct password.
 
-     You should see that the WPF application’s main window is open on the remote computer.
+     You should see that the WPF application's main window is open on the remote computer.
   
-14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn’t, the symbols for the application haven’t loaded. Retry, and if that doesn't work, get information about loading symbols and how troubleshoot them at [Understanding symbol files and Visual Studio’s symbol settings](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/05/understanding-symbol-files-and-visual-studio-s-symbol-settings.aspx).
+14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn't, the symbols for the application haven't loaded. Retry, and if that doesn't work, get information about loading symbols and how troubleshoot them at [Understanding symbol files and Visual Studio's symbol settings](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/05/understanding-symbol-files-and-visual-studio-s-symbol-settings.aspx).
   
 15. On the Visual Studio machine, you should see that execution has stopped at the breakpoint.
   

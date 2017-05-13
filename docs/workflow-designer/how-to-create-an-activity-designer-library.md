@@ -33,7 +33,7 @@ Custom activity designers allow you to create a user interface for a standard or
   
 1.  Start [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
-2.  On the **File** menu, point to **New**, and then select **Project…** to open the **New Project** dialog box.  
+2.  On the **File** menu, point to **New**, and then select **Project...** to open the **New Project** dialog box.  
   
 3.  In the **Project Types** pane, select **Workflow** from either the **Visual C#** or **Visual Basic** groupings depending on your preferred language.  
   
@@ -46,7 +46,7 @@ Custom activity designers allow you to create a user interface for a standard or
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click on the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click on the solution in **Solution Explorer**, and select **Add**, then **New Project...** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
 8.  The project template creates an activity designer definition in XAML and the code-behind implementation file in source code. The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] opens and displays the canvas for your activity designer.  
   

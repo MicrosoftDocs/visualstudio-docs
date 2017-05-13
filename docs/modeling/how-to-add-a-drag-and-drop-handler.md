@@ -34,7 +34,7 @@ You can add handlers for drag-and-drop events to your DSL, so that users can dra
   
 -   [How to Get the Original Dragged Item](#getOriginal). If the dragged item is a DSL element, you can open the source model and access the element.  
   
--   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape’s fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
+-   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape's fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
   
 ##  <a name="overrideShapeElement"></a> Defining Gesture Handlers by Overriding ShapeElement Methods  
  Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:  
@@ -64,7 +64,7 @@ using System.Linq;
   
     ```  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragDrop%2A> – This method is called if the user releases the mouse button while the mouse pointer rests over this shape or diagram, if `OnDragOver(DiagramDragEventArgs e)` previously set `e.Effect` to a value other than `None`.  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragDrop%2A> - This method is called if the user releases the mouse button while the mouse pointer rests over this shape or diagram, if `OnDragOver(DiagramDragEventArgs e)` previously set `e.Effect` to a value other than `None`.  
   
     ```c#  
     public override void OnDragDrop(DiagramDragEventArgs e)  
@@ -81,7 +81,7 @@ using System.Linq;
   
     ```  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDoubleClick%2A> – This method is called when the user double-clicks the shape or diagram.  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDoubleClick%2A> - This method is called when the user double-clicks the shape or diagram.  
   
      For more information, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).  
   
@@ -135,17 +135,17 @@ using System.Linq;
   
  To discover the formats in which your drag source information is available, run your code in debugging mode, setting a breakpoint at the entry to `OnDragOver()` or `CanDragDrop()`. Inspect the values of the `DiagramDragEventArgs` parameter. The information is provided in two forms:  
   
--   <xref:System.Windows.Forms.IDataObject>  `Data` – This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:  
+-   <xref:System.Windows.Forms.IDataObject>  `Data` - This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:  
   
-    -   diagramEventArgs.Data.GetDataFormats() – Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").  
+    -   diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").  
   
-    -   `diagramEventArgs.Data.GetData(format)` – Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:  
+    -   `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:  
   
          `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`  
   
          You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#mbr).  
   
--   <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` – Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:  
+-   <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` - Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:  
   
     ```c#  
     private bool IsAcceptableDropItem(DiagramDragEventArgs e)  
@@ -336,7 +336,7 @@ using System.Linq;
     ```  
   
 ##  <a name="mouseActions"></a> Using Mouse Actions: Dragging Compartment Items  
- You can write a handler that intercepts mouse actions on a shape’s fields. The following example lets the user re-order the items in a compartment by dragging with the mouse.  
+ You can write a handler that intercepts mouse actions on a shape's fields. The following example lets the user re-order the items in a compartment by dragging with the mouse.  
   
  To build this example, create a solution by using the **Class Diagrams** solution template. Add a code file and add the following code. Adjust the namespace to be the same as your own.  
   
