@@ -144,7 +144,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
  In a less usual scenario, you might want to open a model file for which you have only a filename, and which might not be in the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. In this case, you can open the file by using the technique described in [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
   
 ## Generating multiple files from a template  
- If you want to generate a several files – for example, to generate a separate file for each element in a model, there are several possible approaches. By default, only one file is produced from each template file.  
+ If you want to generate a several files - for example, to generate a separate file for each element in a model, there are several possible approaches. By default, only one file is produced from each template file.  
   
 ### Splitting a long file  
  In this method, you use a template to generate a single file, separated by a delimiter. Then you split the file into its parts. There are two templates, one to generate the single file, and the other to split it.  

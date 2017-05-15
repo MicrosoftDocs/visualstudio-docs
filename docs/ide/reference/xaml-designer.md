@@ -57,7 +57,7 @@ Use this setting to control when and how the XAML Designer appears when editing 
 |-|-|  
 |**Vertical**|XAML source appears on the left side of the XAML view, and the XAML Designer appears on the other side.|  
 |**Horizontal**|The XAML Designer appears on the top of the XAML view, and the XAML source appears below it.|  
-|**Default**|The XAML document uses the split orientation recommended for the platform targeted by the document’s project. For most platforms this is equivalent to **Horizontal**.|  
+|**Default**|The XAML document uses the split orientation recommended for the platform targeted by the document's project. For most platforms this is equivalent to **Horizontal**.|  
 
 ## Zoom by using
 Use this setting to determine how zoom works when editing a XAML document.

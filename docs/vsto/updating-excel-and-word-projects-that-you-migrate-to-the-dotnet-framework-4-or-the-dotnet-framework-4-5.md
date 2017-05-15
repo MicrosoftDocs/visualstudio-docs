@@ -37,7 +37,7 @@ manager: "ghogen"
   
 -   [Collections that derive from CollectionBase](#collections)  
   
- You must also remove the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and references to the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class from Excel projects that are retargeted to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Visual Studio doesn’t remove this attribute or the class reference for you.  
+ You must also remove the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and references to the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class from Excel projects that are retargeted to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Visual Studio doesn't remove this attribute or the class reference for you.  
   
 ## Removing the ExcelLocale1033 Attribute From Excel Projects  
  The Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that is used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. The common language runtime (CLR) in the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later always passes locale ID 1033 to the Excel object model, and you can no longer use this attribute to disable this behavior. For more information, see [Globalization and Localization of Excel Solutions](../vsto/globalization-and-localization-of-excel-solutions.md).  
@@ -62,7 +62,7 @@ manager: "ghogen"
     ```  
   
 ## Removing a Reference to the ExcelLocal1033Proxy class  
- Projects that were created by using Microsoft Visual Studio 2005 Tools for the Microsoft Office System instantiate the Excel <xref:Microsoft.Office.Interop.Excel.Application> object by using the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class. This class has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that’s used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Therefore, you must remove or comment out the line of code that references this class.  
+ Projects that were created by using Microsoft Visual Studio 2005 Tools for the Microsoft Office System instantiate the Excel <xref:Microsoft.Office.Interop.Excel.Application> object by using the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class. This class has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that's used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Therefore, you must remove or comment out the line of code that references this class.  
   
 #### To remove the reference to the ExcelLocal1033Proxy class  
   

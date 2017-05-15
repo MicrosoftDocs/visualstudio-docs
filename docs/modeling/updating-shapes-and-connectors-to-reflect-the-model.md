@@ -80,7 +80,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
 ```  
   
-## Use OnChildConfigured to initialize a shape’s properties  
+## Use OnChildConfigured to initialize a shape's properties  
  To set the properties of a shape when it is first created, the override `OnChildConfigured()` in a partial definition of your diagram class. The diagram class is specified in your DSL Definition, and the generated code is in **Dsl\Generated Code\Diagram.cs**. For example:  
   
 ```c#  
@@ -126,7 +126,7 @@ public partial class ArrowConnector // My connector class.
       if ("IsDirected".Equals(e.PropertyName))  
       {  
         if (e.NewValue.Equals(true))  
-        { // Update the shape’s built-in Decorator feature:  
+        { // Update the shape's built-in Decorator feature:  
           this.DecoratorTo = LinkDecorator.DecoratorEmptyArrow;  
         }  
         else  
@@ -150,6 +150,6 @@ public partial class ArrowConnector // My connector class.
   
 ```  
   
- `AssociateValueWith()` should be called one time for each domain property that you want to register. After it has been called, any changes to the specified property will call `OnAssociatedPropertyChanged()` in any shapes that present the property’s model element.  
+ `AssociateValueWith()` should be called one time for each domain property that you want to register. After it has been called, any changes to the specified property will call `OnAssociatedPropertyChanged()` in any shapes that present the property's model element.  
   
  It is not necessary to call `AssociateValueWith()` for each instance. Although InitializeResources is an instance method, it is invoked only one time for each shape class.

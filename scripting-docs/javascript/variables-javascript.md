@@ -23,7 +23,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Variables (JavaScript)
-In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], a variable contains a value, such as "hello" or 5. When you use the variable, you refer to the data it represents, for example `NumberOfDaysLeft = EndDate – TodaysDate`.  
+In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], a variable contains a value, such as "hello" or 5. When you use the variable, you refer to the data it represents, for example `NumberOfDaysLeft = EndDate - TodaysDate`.  
   
  You use variables to store, retrieve, and manipulate values that appear in your code. Try to give your variables meaningful names to make it easy for other people to understand what your code does.  
   

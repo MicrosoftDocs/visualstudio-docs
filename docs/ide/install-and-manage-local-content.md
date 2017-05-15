@@ -62,7 +62,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
     -   Enter the path of an .msha file or the URL of a service endpoint.  
   
-    -   Choose the Browse (**…**) button to navigate to an .msha file.  
+    -   Choose the Browse (**...**) button to navigate to an .msha file.  
   
     -   In the list, choose the entry that was used most recently.  
   

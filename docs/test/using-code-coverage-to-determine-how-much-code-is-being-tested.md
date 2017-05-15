@@ -60,10 +60,10 @@ To determine what proportion of your project's code is actually being tested by 
 >      If you are working with unmanaged (native) code, use a debug build.  
 > -   Make sure that you are generating .pdb (symbol) files for each assembly.  
 >   
->  If you don’t get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don’t forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.  
+>  If you don't get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.  
   
 ## Reporting in blocks or lines  
- Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program’s control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.  
+ Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program's control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.  
   
  You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. If the test run exercised all the code blocks in any line of code, it is counted as one line. Where a line contains some code blocks that were exercised and some that were not, that is counted as a partial line.  
   
@@ -258,7 +258,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  You can exercise more control over which assemblies and elements are selected for code coverage analysis by writing a .runsettings file. For example, you can exclude assemblies of particular kinds without having to add attributes to their classes. For more information, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).  
   
 ## Analyzing code coverage in the build service  
- When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven’t already set this up, see [Run tests in your build process](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It’s useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don’t usually run on the development machines.  
+ When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven't already set this up, see [Run tests in your build process](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It's useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don't usually run on the development machines.  
   
 1.  In Team Explorer, open **Builds**, and then add or edit a build definition.  
   
@@ -291,7 +291,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   

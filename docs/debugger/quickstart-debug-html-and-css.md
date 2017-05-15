@@ -196,7 +196,7 @@ translation.priority.mt:
     > [!TIP]
     >  You can press Alt+Tab or F12 to switch between Visual Studio and the running app.  
   
-11. In the DOM Explorer window, select the DIV element for the section that has an ID of `"fView"`. Use the arrow keys to view and select the correct DIV element. (The right arrow key allows you to view an element’s children.)  
+11. In the DOM Explorer window, select the DIV element for the section that has an ID of `"fView"`. Use the arrow keys to view and select the correct DIV element. (The right arrow key allows you to view an element's children.)  
   
      ![DOM Explorer](../debugger/media/js_dom_explorer.png "JS_DOM_Explorer")  
   
@@ -209,7 +209,7 @@ translation.priority.mt:
   
      This tab shows the computed, or final, value for each property of the selected DOM element.  
   
-13. Open the height CSS rule. Notice that there’s an inline style set to 100px, which appears inconsistent with the height value of 100% set for the `#fView` CSS selector. Strikethrough text for the `#fView` selector indicates that the inline style is taking precedence over this style.  
+13. Open the height CSS rule. Notice that there's an inline style set to 100px, which appears inconsistent with the height value of 100% set for the `#fView` CSS selector. Strikethrough text for the `#fView` selector indicates that the inline style is taking precedence over this style.  
   
      The following illustration shows the **Computed** tab.  
   
@@ -236,7 +236,7 @@ translation.priority.mt:
   
      Things have improved. However, there is still one more problem to fix: the margins appear too large.  
   
-20. To investigate, switch to Visual Studio and choose the **Layout** tab to look at the element’s box model.  
+20. To investigate, switch to Visual Studio and choose the **Layout** tab to look at the element's box model.  
   
      In the **Layout** tab, you'll see the following values:  
   
@@ -248,7 +248,7 @@ translation.priority.mt:
   
      ![DOM Explorer Layout tab](../debugger/media/js_dom_explorer_layout.png "JS_DOM_Explorer_Layout")  
   
-     This doesn’t seem right. The **Computed** tab also shows the same margin values.  
+     This doesn't seem right. The **Computed** tab also shows the same margin values.  
   
 21. Choose the **Styles** tab and locate the `#fView` CSS selector. Here, you see a value of 25% for the **margin** property.  
   

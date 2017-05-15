@@ -110,7 +110,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 1.  In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.  
   
-2.  In the **Properties** window, select**Parameters**.Then press the ellipsis (**…**) button to open the **Parameters Collection Editor**.  
+2.  In the **Properties** window, select**Parameters**.Then press the ellipsis (**...**) button to open the **Parameters Collection Editor**.  
   
 3.  Select the parameter that allows null values and set the **AllowDbNull** property to `true`.  
   

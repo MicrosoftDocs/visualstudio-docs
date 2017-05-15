@@ -35,7 +35,7 @@ weakmapObj = new WeakMap()
   
  If you add a value to the collection using an existing key, the new value will replace the old value.  
   
- In a `WeakMap` object, references to key objects are held ‘weakly’. This means that `WeakMap` will not prevent a garbage collection from happening on the key objects. When there are no references (other than `WeakMap`) to the key objects, the garbage collector may collect the key objects.  
+ In a `WeakMap` object, references to key objects are held 'weakly'. This means that `WeakMap` will not prevent a garbage collection from happening on the key objects. When there are no references (other than `WeakMap`) to the key objects, the garbage collector may collect the key objects.  
   
 ## Properties  
  The following table lists the properties of the `WeakMap` object.  

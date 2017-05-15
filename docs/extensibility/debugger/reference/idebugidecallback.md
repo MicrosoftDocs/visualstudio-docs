@@ -45,7 +45,7 @@ IDebugIDECallback : IUnknown
  This callback is implemented by the managed debug engine.  
   
 ## Notes for Callers  
- It can be consumed by an expression evaluator to send output to the debugger’s output window.  
+ It can be consumed by an expression evaluator to send output to the debugger's output window.  
   
 ## Methods  
  This interface implements the following method:  

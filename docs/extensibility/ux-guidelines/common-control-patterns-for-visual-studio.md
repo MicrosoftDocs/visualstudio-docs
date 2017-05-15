@@ -321,7 +321,7 @@ Some buttons should always use a graphical image and never include text to conse
 | Delete | ![Graphical "Delete" button](../../extensibility/ux-guidelines/media/070703-14_buttondelete.png "070703-14_ButtonDelete") |
   
 ##### Sizing and spacing  
-Sizing for graphical buttons is the same as for the short version of the **[Browse…]** button (26x23 pixels):  
+Sizing for graphical buttons is the same as for the short version of the **[Browse...]** button (26x23 pixels):  
   
 ![Appearance of a graphical image on button, with and without transparent color showing](../../extensibility/ux-guidelines/media/070703-15_graphicalbuttonspacing.png "070703-15_GraphicalButtonSpacing")<br />Appearance of a graphical image on button, with and without transparent color showing
   

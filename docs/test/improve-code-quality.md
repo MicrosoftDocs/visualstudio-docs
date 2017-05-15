@@ -35,7 +35,7 @@ What is code quality? Correctness, maintainability, and even elegance are all in
   
  **Requirements**  
   
--   Some of the tools and features that are described in this section are available only in specific editions of Visual Studio—they aren’t universally available in Visual Studio. We list the specific edition requirements in the documentation for these tools and features.  
+-   Some of the tools and features that are described in this section are available only in specific editions of Visual Studio—they aren't universally available in Visual Studio. We list the specific edition requirements in the documentation for these tools and features.  
   
 ## In this section  
  In the following table, you can find descriptions of common tasks and links to more information about how you can successfully complete those tasks.  

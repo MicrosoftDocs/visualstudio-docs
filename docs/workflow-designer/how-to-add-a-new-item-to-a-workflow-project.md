@@ -40,7 +40,7 @@ After you have created a workflow project, you can add workflow activities, desi
   
 ### To add a new item to a workflow project  
   
-1.  On the **Project** menu, click **Add New Item…**.  
+1.  On the **Project** menu, click **Add New Item...**.  
   
      The **Add a New Item** dialog box opens.  
   

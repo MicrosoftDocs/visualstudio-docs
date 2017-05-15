@@ -45,11 +45,11 @@ You can search for a specific message in Messages view by using its handle, type
   
 3.  Drag the **Finder Tool** over the desired window. As you drag the tool, the **Message Search** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window whose messages you want to examine, type it into the **Handle** text box.  
   
-     – or –  
+     - or -  
   
      If you know the message type and/or message ID you want, select them from the **Type** and **Message** dropdown menus, and clear the **Handle** text box.  
   

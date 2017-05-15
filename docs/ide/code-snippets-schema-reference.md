@@ -527,7 +527,7 @@ is a great color. I love Blue.
  Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).  
   
 > [!CAUTION]
->  _ and – are not supported characters in C++ snippet shortcuts.  
+>  _ and - are not supported characters in C++ snippet shortcuts.  
   
 ```xml  
 <Shortcut>  

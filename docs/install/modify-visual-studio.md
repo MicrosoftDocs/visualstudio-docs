@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we’ve also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio Installer and make the changes you want.  
+Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio Installer and make the changes you want.  
 
 Here's how.  
 
@@ -44,7 +44,7 @@ Here's how.
 
 1.  Find the Visual Studio Installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
+     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where you'll see it listed as **Visual Studio Installer**.  
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
@@ -65,7 +65,7 @@ Here's how.
 
 ## Modify individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.

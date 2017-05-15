@@ -58,7 +58,7 @@ You can view sample data in your designer as you customize the layout of your pa
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).  
   
 ##  <a name="Existing"></a> Generate sample data from a class  
- If you’ve already created classes that describe the structure of your data, you can generate sample data from them.  
+ If you've already created classes that describe the structure of your data, you can generate sample data from them.  
   
  To generate sample data from a class, open a XAML document, and then in the **Data** panel, click the **Create sample data**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") button, and then click **Create Sample Data from Class**.  
   

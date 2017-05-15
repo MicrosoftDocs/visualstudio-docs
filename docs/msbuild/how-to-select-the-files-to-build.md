@@ -46,7 +46,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSFile Include="form1.cs"/>`  
   
-     – or –  
+     - or -  
   
      `<VBFile Include="form1.vb"/>`  
   
@@ -59,7 +59,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
-     – or –  
+     - or -  
   
      `<VBFile Include="form1.vb;form2.vb"/>`  
   
@@ -92,7 +92,7 @@ When you build a project that contains several files, you can list each file sep
   
      `Include="Images\**\*jpgs\*.*"`  
   
-     – or –  
+     - or -  
   
      `Include="Images\**\*jpgs\*"`  
   
@@ -105,7 +105,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSC Sources="@(CSFile)">...</CSC>`  
   
-     – or –  
+     - or -  
   
      `<VBC Sources="@(VBFile)">...</VBC>`  
   

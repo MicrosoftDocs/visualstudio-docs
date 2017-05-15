@@ -60,7 +60,7 @@ You can examine the objects and members in Visual Studio projects, and the objec
   
  [Code Definition Window (C#, C++)](#BKMK_CodeDefinition)  
   
- You can also use **Solution Explorer** to browse the types and members in your projects, search for symbols, view a method’s Call Hierarchy, find symbol references, and more without having to switch between the multiple tool windows listed previously.  
+ You can also use **Solution Explorer** to browse the types and members in your projects, search for symbols, view a method's Call Hierarchy, find symbol references, and more without having to switch between the multiple tool windows listed previously.  
   
  If you have Visual Studio Enterprise you can use code maps to visualize the structure of your code and its dependencies across the entire solution, and drill down to parts of the code that interest you. For more information, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   

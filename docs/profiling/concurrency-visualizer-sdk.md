@@ -105,13 +105,13 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 1.  To use a new <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>, first create it by using a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object, and then generate marker events directly from the new series.  
   
     ```CSharp  
-    MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries(″Series 1″);  
-    series1.WriteFlag(″My flag″);  
+    MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");  
+    series1.WriteFlag("My flag");  
     ```  
   
     ```VB  
-    Dim series1 As New myMarkerWriter.CreateMarkerSeries(″Series 1″)  
-    series1.WriteFlag(″My flag″)  
+    Dim series1 As New myMarkerWriter.CreateMarkerSeries("Series 1")  
+    series1.WriteFlag("My flag")  
     ```  
   
 #### To use a marker series in a C++ project  

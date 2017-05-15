@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Analyze energy use in Store apps
-The Visual Studio **Energy Consumption** profiler helps you analyze the power and energy consumption of Windows Store apps on low-power tablet devices that run all or part of the time on their own batteries. On a battery-powered device, an app that uses too much energy can cause so much customer dissatisfaction that, eventually, customers might even uninstall it. Optimizing energy use can increase your app’s adoption and use by customers.  
+The Visual Studio **Energy Consumption** profiler helps you analyze the power and energy consumption of Windows Store apps on low-power tablet devices that run all or part of the time on their own batteries. On a battery-powered device, an app that uses too much energy can cause so much customer dissatisfaction that, eventually, customers might even uninstall it. Optimizing energy use can increase your app's adoption and use by customers.  
   
 ##  <a name="BKMK_What_the_Energy_Consumption_tool_is__how_it_works__and_what_it_measures"></a> What the Energy Consumption profiler is, how it works, and what it measures  
  The Energy Consumption profiler captures the activities of the display, CPU, and network connections of a device during a profiling session. It then generates estimates of the power used for those activities and the total amount of energy for the profiling session.  
@@ -89,10 +89,10 @@ if (performance && performance.mark) {
  *markDescription* is a string that contains the message to display in the user mark tooltip.  
   
 ##  <a name="BKMK_Configure_your_environment_for_profiling"></a> Configure your environment for profiling  
- To obtain the good estimates, you’ll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you’ll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
+ To obtain the good estimates, you'll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you'll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
   
 > [!TIP]
->  -   We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
+>  -   We don't recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
 > -   Profile on the target device while it is powered by its batteries.  
 > -   Close other apps that might use the same resources (network, CPU, or display).  
   

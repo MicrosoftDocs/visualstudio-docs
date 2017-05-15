@@ -34,7 +34,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
  You can have the validation constraints execute when the model is saved, when it is opened, and when the user explicitly runs the **Validate** menu command. You can also execute validation under program control. For example, you could execute validation in response to a change in a property value or relationship.  
   
- Validation is particularly important if you are writing text templates or other tools that process your users’ models. Validation ensures that the models fulfill the preconditions assumed by those tools.  
+ Validation is particularly important if you are writing text templates or other tools that process your users' models. Validation ensures that the models fulfill the preconditions assumed by those tools.  
   
 > [!WARNING]
 >  You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
@@ -210,7 +210,7 @@ if (erroneousLinks.Count < 5) { context.LogError( ... ); }
  For example, if your DSL has classes Person and Town, and a relationship PersonLivesInTown with a relationship **1..\*** at the Town role, then for each Person that has no Town, an error message will appear.  
   
 ## Running Validation from Program Code  
- You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram’s DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  
+ You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram's DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  
   
 ```c#  
 using Microsoft.VisualStudio.Modeling;  

@@ -165,7 +165,7 @@ manager: "ghogen"
   
 12. In the **Properties** window, change the value of the **Embed Interop Types** property to **False**.  
   
-13. If you’re developing a Visual Basic project, import the ProjectTemplateWizard namespace into your project by using the **Project Designer**.  
+13. If you're developing a Visual Basic project, import the ProjectTemplateWizard namespace into your project by using the **Project Designer**.  
   
      For more information, see [How to: Add or Remove Imported Namespaces &#40;Visual Basic&#41;](../Topic/How%20to:%20Add%20or%20Remove%20Imported%20Namespaces%20(Visual%20Basic).md).  
   
@@ -181,7 +181,7 @@ manager: "ghogen"
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the code file to the **SharePointCommands** project as a link. The code file is located in the **ProjectTemplateWizard** project, but the code in the file is also compiled in the **SharePointCommands** project.  
   
-5.  In the **SharePointCommands** project, add another code file that’s named Commands.  
+5.  In the **SharePointCommands** project, add another code file that's named Commands.  
   
 6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project**, **Add Reference**.  
   
@@ -196,7 +196,7 @@ manager: "ghogen"
 ## Creating the Wizard Model, Signing Manager, and SharePoint Command IDs  
  Add code to the ProjectTemplateWizard project to implement the following components in the sample:  
   
--   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you’ll add code to the SharePointCommands project to implement the commands.  
+-   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you'll add code to the SharePointCommands project to implement the commands.  
   
 -   The wizard data model.  
   
@@ -240,9 +240,9 @@ manager: "ghogen"
      [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]  
   
     > [!NOTE]  
-    >  The window that’s created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visual-studio/extensibility/creating-and-managing-modal-dialog-boxes).  
+    >  The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visual-studio/extensibility/creating-and-managing-modal-dialog-boxes).  
   
-3.  If you’re developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you’re done, the first line should look like the following example.  
+3.  If you're developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should look like the following example.  
   
     ```  
     <Window x:Class="WizardWindow"  
@@ -509,7 +509,7 @@ manager: "ghogen"
   
     -   In the **Name** box, enter **My Yes/No Column**, and then choose the **Finish** button.  
   
-     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project’s Elements.xml file in the editor.  
+     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project's Elements.xml file in the editor.  
   
 8.  Verify that Elements.xml contains the values that you specified in the wizard.  
   

@@ -76,7 +76,7 @@ Strong-name signing gives a software component a globally unique identity. Stron
   
  You can also point to a key you have already created. For more information about creating keys, see [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/Library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
   
- If you have access only to a public key, you can use delay signing to defer assigning the key. You enable delay signing by selecting the **Delay sign only** check box. A delay-signed project won’t run, and you can’t debug it. However, you can skip verification during development by using the [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6) with the `-Vr` option.  
+ If you have access only to a public key, you can use delay signing to defer assigning the key. You enable delay signing by selecting the **Delay sign only** check box. A delay-signed project won't run, and you can't debug it. However, you can skip verification during development by using the [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6) with the `-Vr` option.  
   
  For information about signing manifests, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
