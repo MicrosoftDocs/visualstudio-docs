@@ -1,7 +1,7 @@
 ---
-title: "Debugging in Python Tools for Visual Studio | Microsoft Docs"
+title: Debugging Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/8/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Debugging Your Python Code
 
-Python Tools for Visual Studio (PTVS) provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more. 
+Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more. 
 
 For a debugging overview, see [Getting Started with PTVS, Part 4: Debugging](https://youtu.be/bO7wpzgy74A?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m30s).
 
@@ -53,7 +53,7 @@ Also see the following scenario-specific debugging topics:
 
 <a name="debugging-without-a-project"</a>
 > [!Tip]
-> PTVS supports debugging without a project. With a stand-alone Python file open in Visual Studio right-click in the editor, select **Start with Debugging**, and PTVS launches the script with the global default environment (see [Python Environments](python-environments.md) and no arguments. But from then on, you have full debugging support.
+> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md) and no arguments. But from then on, you have full debugging support.
 >
 > To control the environment and arguments, you'll need to create a project for the code. You can easily do this with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files).
 

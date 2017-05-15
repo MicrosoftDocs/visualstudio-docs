@@ -34,15 +34,15 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   
  ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png "UWP_CoreExtensions")  
   
- Run your app on a Windows 10 phone, a Windows 10 desktop, or an Xbox. It’s the same app package! With the introduction of the Windows 10 single, unified core, one app package can run across all platforms. Several platforms have Extension SDKs that you can add to your app to take advantage of platform specific behaviors. For example, an extension SDK for mobile handles the back button being pressed on a Windows phone. If you reference an Extension SDK in your project, then just add runtime checks to test if that SDK is available on that platform. That’s how you can have the same app package for each platform!  
+ Run your app on a Windows 10 phone, a Windows 10 desktop, or an Xbox. It's the same app package! With the introduction of the Windows 10 single, unified core, one app package can run across all platforms. Several platforms have Extension SDKs that you can add to your app to take advantage of platform specific behaviors. For example, an extension SDK for mobile handles the back button being pressed on a Windows phone. If you reference an Extension SDK in your project, then just add runtime checks to test if that SDK is available on that platform. That's how you can have the same app package for each platform!  
   
  **What is the Windows Core?**  
   
- For the first time, Windows has been refactored to have a common core across all Windows 10 platforms. There is one common source, one common Windows kernel, one file I/O stack, and one app model. For the UI, there is just one XAML UI framework and one HTML UI framework. So you can concentrate on creating a great app, because we’ve made it easy to have your app run on different Windows 10 devices.  
+ For the first time, Windows has been refactored to have a common core across all Windows 10 platforms. There is one common source, one common Windows kernel, one file I/O stack, and one app model. For the UI, there is just one XAML UI framework and one HTML UI framework. So you can concentrate on creating a great app, because we've made it easy to have your app run on different Windows 10 devices.  
   
  **What exactly is the Universal Windows Platform?**  
   
- It’s simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](http://msdn.microsoft.com/library/windows/apps/dn894631.aspx).  
+ It's simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](http://msdn.microsoft.com/library/windows/apps/dn894631.aspx).  
   
 ## Requirements  
  The Universal Windows App Development tools come with emulators that you can use to see how your app looks on different devices. If you want to use these emulators, you need to install this software on a physical machine. The physical machine must run Windows 8.1 (x64) Professional edition or higher, and have a processor that supports Client Hyper-V and Second Level Address Translation (SLAT). The emulators cannot be used when Visual Studio is installed on a virtual machine.  
@@ -59,9 +59,9 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   
  If you choose to develop Universal Windows apps with Visual Studio 2015 on a platform other than Windows 10, these are the restrictions:  
   
--   Windows 8.1: You can’t run the app locally (only on a remote Windows 10 device). You can use the emulators in Visual Studio, but not the simulator.  
+-   Windows 8.1: You can't run the app locally (only on a remote Windows 10 device). You can use the emulators in Visual Studio, but not the simulator.  
   
--   Windows 7: You can’t run the app locally (only on a remote Windows 10 device). You can’t use the emulators or the simulator in Visual Studio either.  
+-   Windows 7: You can't run the app locally (only on a remote Windows 10 device). You can't use the emulators or the simulator in Visual Studio either.  
   
  You can only use the XAML designer if your development platform is Windows 10.  
   

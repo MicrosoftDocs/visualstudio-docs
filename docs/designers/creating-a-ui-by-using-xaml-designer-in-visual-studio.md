@@ -160,7 +160,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
  Displays or hides artboard elements that correspond to items in the Document Outline. Use the **Show/hide** buttons, which display a symbol of an eye when shown, or press CTRL+H to hide elements and SHIFT+CTRL+H to display them.  
   
  **Lock/unlock**  
- Locks or unlocks artboard elements that correspond to items in the Document Outline. Locked elements can’t be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press CTRL+L to lock elements and SHIFT+CTRL+L to unlock them.  
+ Locks or unlocks artboard elements that correspond to items in the Document Outline. Locked elements can't be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press CTRL+L to lock elements and SHIFT+CTRL+L to unlock them.  
   
  **Return scope to pageRoot**  
  The option at the top of the Document Outline window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.  

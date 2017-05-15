@@ -234,9 +234,9 @@ Composite patterns combine interaction and design elements in distinct configura
   
 -   **Always** position an ambient indicator so that it does not distract or overwhelm the user. If it is impossible to position an ambient indicator in such a way, consider another solution.  
   
--   **Always** position the ambient indicator as close as possible to the content that it’s related to.  
+-   **Always** position the ambient indicator as close as possible to the content that it's related to.  
   
--   **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, “3 references” instead of simply “References”) or think of some other way to summarize the data.  
+-   **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, "3 references" instead of simply "References") or think of some other way to summarize the data.  
   
     -   In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.  
   
@@ -255,7 +255,7 @@ Composite patterns combine interaction and design elements in distinct configura
   
 -   **Always** dismiss the detail content whenever the user presses the Esc key.  
   
--   **Always** consider the context of the on-object UI. For content presenters that allow for interaction within the container, carefully consider whether to show additional information on hover, which is likely to be disruptive to the user’s workflow.  
+-   **Always** consider the context of the on-object UI. For content presenters that allow for interaction within the container, carefully consider whether to show additional information on hover, which is likely to be disruptive to the user's workflow.  
   
 -   **Never** display content on hover that appears to be editable or invites user interaction. This behavior can frustrate users if they try to move the cursor over the detail content, as the standard behavior for a tooltip is to immediately dismiss when the cursor is no longer over the master content that produced it.  
   
@@ -342,7 +342,7 @@ Composite patterns combine interaction and design elements in distinct configura
 |Click an unselected object|Selects the object and displays a dashed line and selection handles, if the object is resizable.|  
 |Click a selected object|Activates in-place editing if the object supports it. Clicking outside the object deactivates the in-place editing mode.|  
 |Double-click an object|Opens the code behind the object for editing, and might insert a default event handler, if appropriate.|  
-|Point to an object|Changes the pointer to the move cursor. The object’s appearance, such as its luminosity or color, might change.|  
+|Point to an object|Changes the pointer to the move cursor. The object's appearance, such as its luminosity or color, might change.|  
 |Point to a selection handle|Changes the pointer to the resize cursor. For objects that support rotation, some selection handles might change the pointer to a rotate cursor as the pointer is positioned differently (for example, moved farther away) with respect to the selection handle.|  
 |Drag|Even if the object is not previously selected, changes the pointer to the move cursor and moves the object.|  
 |Editor loses focus|Deactivates in-place editing mode, although the object retains the content and appearance it had during its last operation/selection state.|  
@@ -375,8 +375,8 @@ Composite patterns combine interaction and design elements in distinct configura
 |Input|Result|  
 |-----------|------------|  
 |Single-click on the container|Selects the container object without directly selecting any of the contained objects. The container may be moved and/or resized with standard mouse and keyboard input (as described above). Contained objects are moved in relation to the container, but contained objects are not resized unless they are also directly selected.|  
-|Hover over the container’s boundary region|Turns the mouse into the move cursor, indicating that the container can be moved.|  
-|Drag the container’s boundary region|Changes the mouse to the move cursor and moves the container (and the contained objects within). The container cannot be moved without first being selected with a single click.|  
+|Hover over the container's boundary region|Turns the mouse into the move cursor, indicating that the container can be moved.|  
+|Drag the container's boundary region|Changes the mouse to the move cursor and moves the container (and the contained objects within). The container cannot be moved without first being selected with a single click.|  
 |Single-click on an object within the container|Deselects the container (if selected) and selects only the clicked object.|  
 |Shift+click OR Ctrl+click on a contained object and/or container|Adds the clicked object to an existing selection or selection group. If the clicked object is already a member of the selection group, it is removed from the selection group.|  
   
@@ -443,7 +443,7 @@ Composite patterns combine interaction and design elements in distinct configura
  The key concept in list selection is that it is row-based, meaning that when a selection is made the whole row is selected as a unit. By contrast, grids can allow specific cells to be selected without affecting any other aspect of the row. Grids might also contain a hierarchy of nested rows (such as in a TreeGrid) that allow entire branches of the hierarchy to be selected and deselected by interacting with the parent rows. Selection in lists is shown by a simple highlight color on the entire row of data. Focus is shown by a single-pixel dotted border around the current editable row or cell (row if all cells are read-only).  
   
 > [!NOTE]
->  **Focus** and **selection** are different concepts. *Focus* is an indication of which UI element is targeted to receive input not explicitly directed at another object, while *selection* refers to the state of an object’s inclusion in a set of objects on which subsequent operations may take place.  
+>  **Focus** and **selection** are different concepts. *Focus* is an indication of which UI element is targeted to receive input not explicitly directed at another object, while *selection* refers to the state of an object's inclusion in a set of objects on which subsequent operations may take place.  
   
  Selections in lists may be contiguous, disjoint, or region. When multiple selections are allowed, contiguous and disjoint selection should always be supported, while support for region (box) selections is optional. Region selections are initiated by dragging in the white space of the list body.  
   
@@ -513,7 +513,7 @@ Composite patterns combine interaction and design elements in distinct configura
 -   When the computer/hard drive is about to be reformatted and set up again  
   
 ### Window configurations  
- A window configuration is the basic presentation of the development environment – it is a scheme consisting of the list of tool windows present and the way in which they are arranged. For windows managed by the IDE (IDE windows), layout information is persisted per user, so when a user launches the IDE, the window layout appears the same as when they last exited Visual Studio. The state and position of IDE windows is persisted in a custom options file in XML format. Tool windows that are created by packages loaded into the IDE persist their state information in the registry and may or may not be per user.  
+ A window configuration is the basic presentation of the development environment - it is a scheme consisting of the list of tool windows present and the way in which they are arranged. For windows managed by the IDE (IDE windows), layout information is persisted per user, so when a user launches the IDE, the window layout appears the same as when they last exited Visual Studio. The state and position of IDE windows is persisted in a custom options file in XML format. Tool windows that are created by packages loaded into the IDE persist their state information in the registry and may or may not be per user.  
   
 #### Profile-specific layouts  
  Each profile includes tool window layouts, organized in a manner familiar to specific developer personas (Visual C++ developers expect to see the **Solution Explorer** on the left side of the IDE, while C# developers expect to see the **Solution Explorer** on the right). Profile-specific window layouts are loaded after the user chooses a profile on startup. A package author should determine the window layout most suitable for their customer's experience, knowing that changes that the user makes to the window configuration will then be persisted.  
@@ -532,7 +532,7 @@ Composite patterns combine interaction and design elements in distinct configura
   
 ||Basic experience|Optimized experience|Elevated experience|  
 |-|----------------------|--------------------------|-------------------------|  
-|Enables users to …|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|  
+|Enables users to ...|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|  
 |Editor|Touch panning and selection<br /><br /> Scrollbar touch to jump and press+drag|Pinch zoom<br /><br /> Fast scroll<br /><br /> Selection<br /><br /> Easy use of context menu||  
 |Top tool windows|List panning<br /><br /> Item selection<br /><br /> Scrollbar touch to jump and press+drag|Easy item scrolling and selection||  
 |Windowing||Resize window<br /><br /> Quick access||  

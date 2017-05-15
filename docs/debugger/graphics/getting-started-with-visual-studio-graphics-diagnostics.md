@@ -102,7 +102,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
  When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
   
-### 4 – Examine captured frames in the Graphics Analyzer  
+### 4 - Examine captured frames in the Graphics Analyzer  
  Now you're ready to examine the frames you just captured. To start analyzing a frame, choose the frame number of the frame you want to examine from the diagnostic session window. This opens the frame in the **Graphics Analyzer**, where you can use the Graphics Diagnostics tools to examine how your app uses Direct3D to track down rendering problems, or use the **Frame Analysis** tool to understand its performance.  
   
  If you selected the wrong frame from the diagnostic session window or you want to examine a different frame you can select a new one from the Graphics Analyzer. On the **Render Target** tab of the graphics log window, under the render target image, expand the **Frame List** and then choose a different frame to examine.  

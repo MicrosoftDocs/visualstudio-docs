@@ -316,7 +316,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
   
 ### Manage the shared items in the platform project  
   
-1.  Find the shared items in the platform project. The items in the shared project appear in the platform project as shared items. You can’t see them in the **Solution Explorer**, but you can walk the project hierarchy to find them. The following method walks the hierarchy and collects all the shared items. It optionally outputs the caption of each item,. The shared items are identified by the new property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7>.  
+1.  Find the shared items in the platform project. The items in the shared project appear in the platform project as shared items. You can't see them in the **Solution Explorer**, but you can walk the project hierarchy to find them. The following method walks the hierarchy and collects all the shared items. It optionally outputs the caption of each item,. The shared items are identified by the new property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7>.  
   
     ```c#  
     private void InspectHierarchyItems(IVsHierarchy hier, uint itemid, int level, List<uint> itemIds, bool getSharedItems, bool printItems)  
@@ -532,7 +532,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
   
     ```  
   
-9. Modify the shared item. You can’t modify shared items in a platform project; instead, you must modify them in the shared project that is the actual owner of these items. You can get the corresponding item ID in the shared project with <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>, giving it the shared item’s full path. Then you can modify the shared item. The change is propagated to the platform projects.  
+9. Modify the shared item. You can't modify shared items in a platform project; instead, you must modify them in the shared project that is the actual owner of these items. You can get the corresponding item ID in the shared project with <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>, giving it the shared item's full path. Then you can modify the shared item. The change is propagated to the platform projects.  
   
     > [!IMPORTANT]
     >  You should find out whether or not a project item is a shared item before modifying it.  

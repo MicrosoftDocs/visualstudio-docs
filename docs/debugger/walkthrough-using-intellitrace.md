@@ -66,7 +66,7 @@ You can use IntelliTrace to collect information about specific events or categor
 5.  Start debugging as usual. (Press **F5** or click **Debug / Start Debugging**.  
   
     > [!TIP]
-    >  Keep the **Locals** and **Autos** windows open while you’re debugging to see and record the values in those windows.  
+    >  Keep the **Locals** and **Autos** windows open while you're debugging to see and record the values in those windows.  
   
 6.  Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
   
@@ -84,7 +84,7 @@ You can use IntelliTrace to collect information about specific events or categor
   
      You can choose the pathname link to open the file. If the full pathname is not available, the **Open File** dialog box appears.  
   
-     Click **Activate Historical Debugging**, which sets the debugger’s context to the time when the selected event was collected, showing historical data in the **Call Stack**, **Locals** and the other participating debugger windows. If source code is available, Visual Studio moves the pointer to the corresponding code in the source window so you can examine it.  
+     Click **Activate Historical Debugging**, which sets the debugger's context to the time when the selected event was collected, showing historical data in the **Call Stack**, **Locals** and the other participating debugger windows. If source code is available, Visual Studio moves the pointer to the corresponding code in the source window so you can examine it.  
   
      The following screenshot is from Visual Studio 2015 Update 1.  
   

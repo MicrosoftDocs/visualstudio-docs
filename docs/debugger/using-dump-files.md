@@ -60,7 +60,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
 ##  <a name="BKMK_What_is_a_dump_file_"></a> What is a dump file?  
  A *dump file* is a snapshot of an app at the point in time the dump is taken. It shows what process was executing and what modules were loaded. If the dump was saved with heap information, the dump file contains a snapshot of what was in the app's memory at that point in time. Opening a dump file with a heap in Visual Studio is like stopping at a breakpoint in a debug session. Although you cannot continue execution, you can examine the stacks, threads, and variable values of the app at the time the dump occurred.  
   
- Dumps are primarily used for debugging issues that occur on machines that the developer doesn’t have access to. For example, you can use a dump file from a customer's machine when you can’t reproduce the customer's crash or hang on your machine. Dumps are also created by testers to save crash or hang data so that the test machine can be used for more testing. The Visual Studio debugger can save dump files for managed or native code. The debugger can load dump files that were created by Visual Studio or by other programs that save files in the *minidump* format.  
+ Dumps are primarily used for debugging issues that occur on machines that the developer doesn't have access to. For example, you can use a dump file from a customer's machine when you can't reproduce the customer's crash or hang on your machine. Dumps are also created by testers to save crash or hang data so that the test machine can be used for more testing. The Visual Studio debugger can save dump files for managed or native code. The debugger can load dump files that were created by Visual Studio or by other programs that save files in the *minidump* format.  
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
@@ -127,11 +127,11 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
      The executable and the .pdb files must match exactly the version and build of the files used when the dump was created.  
   
-     You can debug using the disassembly of the modules if you can’t find the source files,  
+     You can debug using the disassembly of the modules if you can't find the source files,  
   
  **Default search paths for executable files**  
   
- Visual Studio automatically searches these locations for executable files that aren’t included in the dump file:  
+ Visual Studio automatically searches these locations for executable files that aren't included in the dump file:  
   
 1.  The directory that contains the dump file.  
   
@@ -141,7 +141,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  **Using the No Binary / Symbol / Source pages**  
   
- If Visual Studio can’t find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
+ If Visual Studio can't find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   

@@ -299,7 +299,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
  Indicates that this object is an inner class.  
   
  DBG_ATTRIB_MOSTDERIVED  
- Indicates that this object is ‘*most-derived*’. The term "*most-derived*" means the actual type of the object, and not the type of its reference.  
+ Indicates that this object is '*most-derived*'. The term "*most-derived*" means the actual type of the object, and not the type of its reference.  
   
  DBG_ATTRIB_CHILD_ALL  
  Indicates a mask of `DBG_ATTRIB_DATA` through `DBG_ATTRIB_MOSTDERIVED`.  

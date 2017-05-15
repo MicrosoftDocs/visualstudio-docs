@@ -1,7 +1,7 @@
 ---
-title: "Start Working with Python in Visual Studio | Microsoft Docs"
+title: Start Working with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 5/1/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,7 +31,7 @@ translation.priority.ht:
 
 # Getting Started with Python in Visual Studio
 
-Once you have Visual Studio installed with the Python workload (Visual Studio 2017), or with the Python Tools for Visual Studio (Visual Studio 2015 and earlier), you're ready to explore the Python development experience.
+Once you have Visual Studio installed with the Python workload (Visual Studio 2017), or with the Python Tools for Visual Studio (Visual Studio 2015 and earlier), you're ready to explore the Python development experience. (See [Installation](installation.md) if needed.)
 
 In this walkthrough you'll create a new empty Python application, choose a Python environment to work with, and then start writing some code to see IntelliSense at work. You'll then work with the interactive REPL window for a short time to create more code, then complete the program and run it both by itself and in the debugger.
 
@@ -266,3 +266,4 @@ In addition to the "Going deeper" links provided earlier, the following topics c
 - Visual Studio provides the ability to debug your application on remote servers, as explained on [Cross-platform Remote Debugging](debugging-cross-platform-remote.md) and [Azure Remote Debugging](debugging-azure-remote.md).
 - You can evaluate the performance of your Python code by using [Visual Studio Profiling](profiling.md).
 - Unit tests written in Python integrate directly with the Visual Studio Test Explorer, as discussed on [Unit Testing](unit-testing.md).
+- [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)

@@ -64,7 +64,7 @@ translation.priority.mt:
 }  
 ```  
   
- The following code example shows the complete JavaScript code in default.js. The references to WinJS namespaces for this code are in the template’s default.html file.  
+ The following code example shows the complete JavaScript code in default.js. The references to WinJS namespaces for this code are in the template's default.html file.  
   
 ```javascript  
 (function () {  

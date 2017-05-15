@@ -44,11 +44,14 @@ The approach taken here is that for standard CPython extensions as described in 
 
 ## Prerequisites
 
-This walkthrough is written for Visual Studio 2017 Preview with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). In the **Python Development** workload, also check the box on the right for **Python native development tools**, which will set up most of the options described in this topic. (This option will also include the C++ workload automatically.)
+This walkthrough is written for Visual Studio 2017 with both the **Desktop Development with C++** and **Python Development** workloads with their default options (such as Python 3.6 as the default interpreter). In the **Python Development** workload, also check the box on the right for **Python native development tools**, which will set up most of the options described in this topic. (This option will also include the C++ workload automatically.) 
 
 ![Selecting the Python native development tools option](media/cpp-install-native.png)
 
 For more details, see [Installing Python Support for Visual Studio](installation.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This makes sure that you have the necessary debug libraries available if you choose to do a debug build.
+
+> [!Note]
+> Python is also available through the **Data science and analytical applications** workload, which includes Anaconda 3 64-bit (with the latest version of CPython) and the **Python native development tools** option by default.
 
 ## Create the Python application
 
@@ -260,7 +263,7 @@ Now you can call the `tanh` code the module and compare its performance to the P
 
 ## Debug the C++ code
 
-Python support in Visual Studio includes the ability to [debug Python and C++ code together](debugging-mixed-mode.md). To experience this, do the following:
+[Python support in Visual Studio](installation.md) includes the ability to [debug Python and C++ code together](debugging-mixed-mode.md). To experience this, do the following:
 
 1. Right-click the Python project in Solution Explorer, select **Properties**, select the **Debug** tab, and then select the **Debug > Enable native code debugging** option.
 

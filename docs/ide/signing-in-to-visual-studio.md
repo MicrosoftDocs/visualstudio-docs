@@ -37,13 +37,13 @@ You can personalize and optimize your development experience in Visual Studio if
 
 -   **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.  
 
--   **Synchronizes your Visual Studio settings** – Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).  
+-   **Synchronizes your Visual Studio settings** - Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).  
 
--   **Permanently unlocks Visual Studio Express Edition** – You can use any edition of Visual Studio Express for as long as you like, instead of being limited to the trial period of 30 days.  
+-   **Permanently unlocks Visual Studio Express Edition** - You can use any edition of Visual Studio Express for as long as you like, instead of being limited to the trial period of 30 days.  
 
 -   **Unlocks the Visual Studio Community Edition** instead of being limited to the trial period of 30 days.  
 
--   **Extends the Visual Studio trial period** – You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.  
+-   **Extends the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.  
 
 -   **Unlocks Visual Studio if you use an account that's associated with an MSDN or VSO subscription**. See [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).  
 

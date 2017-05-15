@@ -46,7 +46,7 @@ translation.priority.mt:
 > [!TIP]
 >  Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  
   
- To use DOM Explorer to modify aspects of layout that aren’t shown in the box model, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
+ To use DOM Explorer to modify aspects of layout that aren't shown in the box model, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
   
 ## Example of fixing a layout issue  
  This example shows how to select a list element in the Hub/Pivot template, interpret the box model values that are on the **Layout** tab, and then change one of the property values to fix a layout issue.  

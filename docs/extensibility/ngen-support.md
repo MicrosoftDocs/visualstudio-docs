@@ -48,20 +48,20 @@ To enable ngen for an assembly, you can use the **Properties** window in Visual 
 
 There are 4 properties that can be set:
 
-1. **Ngen** (Boolean) – If true, the Visual Studio installer will "ngen" the assembly.
-2. **Ngen application** (string) – Ngen provides the opportunity to use an application’s app.config file in order to resolve assembly dependencies. This value should be set to an application whose app.config you want to use (relative to the Visual Studio install directory).
-3. **Ngen Architecture** (enum) – The architecture to natively compile your assembly. The options are:
+1. **Ngen** (Boolean) - If true, the Visual Studio installer will "ngen" the assembly.
+2. **Ngen application** (string) - Ngen provides the opportunity to use an application's app.config file in order to resolve assembly dependencies. This value should be set to an application whose app.config you want to use (relative to the Visual Studio install directory).
+3. **Ngen Architecture** (enum) - The architecture to natively compile your assembly. The options are:
         a. NotSpecified
         b. X86
         c. X64
         d. All
-4. **Ngen Priority** (integer between 1 and 3) – The Ngen Priority level is documented at [Ngen.exe Priority Levels](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx#Anchor_3).
+4. **Ngen Priority** (integer between 1 and 3) - The Ngen Priority level is documented at [Ngen.exe Priority Levels](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx#Anchor_3).
 
-Here’s a look at the **Properties** window in action:
+Here's a look at the **Properties** window in action:
 
 ![ngen in properties](media/ngen-in-properties.png)
 
-This will add metadata to the project reference inside of the VSIX project’s .csproj file:
+This will add metadata to the project reference inside of the VSIX project's .csproj file:
 
 ```xml
  <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">

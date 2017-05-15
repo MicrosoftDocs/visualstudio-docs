@@ -35,7 +35,7 @@ translation.priority.ht:
 
 Live Unit Testing currently does not work with .NET Core. We are working to add this support in the future. 
 
-## Why doesn’t Live Unit Testing work when I turn it on? 
+## Why doesn't Live Unit Testing work when I turn it on? 
 
 **Answer:** 
 
@@ -83,7 +83,7 @@ For example, there may be a target that produces NuGet packages during a regular
 
 ## Error messages with &lt;OutputPath&gt; or &lt;OutDir&gt;
 
-**Why do I get the following error when Live Unit Testing tries to build my solution: “...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly”?**
+**Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
 
 **Answer:**
 
@@ -193,7 +193,7 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn’t work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
+Live Unit Testing currently doesn't work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
  
 ## Why does Live Unit Testing does not capture coverage from a new process created by a test?
  
@@ -225,7 +225,9 @@ You can do several things to collect more detailed logs:
 
 - Set the `LiveUnitTesting_BuildLog` user environment variable to the name of the file you want to use to capture the MSBuild log. Detailed MSBuild log messages from Live Unit Testing builds can then be retrieved from that file.
 
-- Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output – Tests** tab in Visual Studio. 
+- Set the `LiveUnitTesting_TestPlatformLog` user environment variable to `1` to capture the Test Platform log. Detailed Test Platform log messages from Live Unit Testing runs can then be retrieved from `[Solution Root]\.vs\[Solution Name]\log\[VisualStudio Process ID]`.
+
+- Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output - Tests** tab in Visual Studio. 
  
 ## See also
 

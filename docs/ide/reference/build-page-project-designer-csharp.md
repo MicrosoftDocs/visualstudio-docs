@@ -56,7 +56,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following options enable you to configure several C# compiler settings.  
   
  **Conditional compilation symbols**  
- Specifies symbols on which to perform conditional compilation. Separate symbols with a semi-colon (“;”). For more information, see [/define (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/define-compiler-option).  
+ Specifies symbols on which to perform conditional compilation. Separate symbols with a semi-colon (";"). For more information, see [/define (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/define-compiler-option).  
   
  **Define DEBUG constant**  
  Defines DEBUG as a symbol in all source code files in your app. Selecting this is equivalent to using the `/define:DEBUG` command line option.  

@@ -57,6 +57,6 @@ translation.priority.mt:
 ## How to Investigate a Warning  
  Double-click the message in the Errors List window to navigate to the [Marks View](../profiling/marks-view.md) of the profiling data. Find the **.NET CLR Memory\\# of Gen 0 Collections** and **.NET CLR Memory\\# of Gen 1 Collections** columns. Determine if there are specific phases of program execution where garbage collection is occurring more frequently. Compare these values to the **% Time in GC** column to see if the pattern of managed memory allocations is causing excessive memory management overhead.  
   
- To understand the application’s pattern of managed memory usage, profile it again running a.NET Memory allocation profile and request Object Lifetime measurements.  
+ To understand the application's pattern of managed memory usage, profile it again running a.NET Memory allocation profile and request Object Lifetime measurements.  
   
  For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=148226) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](http://go.microsoft.com/fwlink/?LinkId=177836).

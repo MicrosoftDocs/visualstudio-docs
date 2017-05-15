@@ -77,7 +77,7 @@ Before a solution can run on user computers, you must grant trust in either of t
   
 - Sign the manifests by using a certificate that identifies a known and trusted publisher. For more information, see [Trusting the Solution by Signing the Application and Deployment Manifests](../vsto/granting-trust-to-office-solutions.md#Signing).  
   
-- Install the solution to the Program Files directory on the user’s computer.  
+- Install the solution to the Program Files directory on the user's computer.  
   
 > [!NOTE]  
 > For document-level customizations, the location of the document must also be trusted. For more information, see [Granting Trust to Documents](../vsto/granting-trust-to-documents.md).  
@@ -185,7 +185,7 @@ In your setup application, you must include not only the following components bu
   
 3. In the list of redistributable components, select appropriate the check box for the version of the .NET Framework that your solution targets.  
   
-   For example, if your solution targets the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], select the **Microsoft .NET Framework 4.5 Full** check box. A dialog box might appear asking whether you want to install the redistributable component, which InstallShield requires before you can add the component as a prerequisite. If this dialog box doesn’t appear, the component already exists on your computer.  
+   For example, if your solution targets the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], select the **Microsoft .NET Framework 4.5 Full** check box. A dialog box might appear asking whether you want to install the redistributable component, which InstallShield requires before you can add the component as a prerequisite. If this dialog box doesn't appear, the component already exists on your computer.  
   
 4. If this dialog box appears, choose the **No** button.  
   
@@ -256,7 +256,7 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
   
 12. In the list of redistributable components, select the **Visual Studio 2010 Tools for Office Runtime** check box.  
   
-   A dialog box might appear asking whether you want to install the redistributable component. If this dialog box doesn’t appear, you can skip to the [Specify where you want to deploy the solution on the user's computer](#Location) section of this topic.  
+   A dialog box might appear asking whether you want to install the redistributable component. If this dialog box doesn't appear, you can skip to the [Specify where you want to deploy the solution on the user's computer](#Location) section of this topic.  
   
 13. If this dialog box appears, choose the **No** button.  
   
@@ -270,7 +270,7 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
   
 3. In the list of properties, choose the **Browse** button next to the **INSTALLDIR** property.  
   
-4. In the **Set INSTALLDIR** dialog box, choose a folder on the user’s computer where you want to install the solution.  
+4. In the **Set INSTALLDIR** dialog box, choose a folder on the user's computer where you want to install the solution.  
   
    > [!NOTE]  
    >    You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.  
@@ -284,7 +284,7 @@ If you want to support per-computer installations, create two separate installer
 Per-user installations require only one installer regardless of Office or Windows version.  
   
 > [!NOTE]  
-> This section applies only if you’re deploying an VSTO Add-in. If you’re deploying a document-level customization, you can immediately go to the [Configure a Document-Level Customization](#ConfigureDocument) section.  
+> This section applies only if you're deploying an VSTO Add-in. If you're deploying a document-level customization, you can immediately go to the [Configure a Document-Level Customization](#ConfigureDocument) section.  
   
   
 #### To specify whether you want to support per-user or per-computer installations  
@@ -297,9 +297,9 @@ Per-user installations require only one installer regardless of Office or Window
   
 3. In the list for the **AllUSERS** property, specify whether you want this solution to be installed for all users of the computer or for only the user who installs the solution.  
   
-   To install the VSTO Add-in for the current user, choose **ALLUSERS=”” (Per-user installation)**. To install the VSTO Add-in for all users of the computer, choose **ALLUSERS=1 (Per-machine installation)**  
+   To install the VSTO Add-in for the current user, choose **ALLUSERS="" (Per-user installation)**. To install the VSTO Add-in for all users of the computer, choose **ALLUSERS=1 (Per-machine installation)**  
   
-   In the next procedure, you’ll create registry keys to enable the Office application to discover and load the VSTO Add-in. See [Registry Entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
+   In the next procedure, you'll create registry keys to enable the Office application to discover and load the VSTO Add-in. See [Registry Entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
   
 #### To create registry keys  
@@ -316,7 +316,7 @@ Per-user installations require only one installer regardless of Office or Window
   
 3. Under **Do you want to configure the registry data that your application will install?**, choose the **Yes** option button.  
   
-4. In the **Destination computer’s Registry view** list, add the key hierarchy that enables the type of installer you want to create.  
+4. In the **Destination computer's Registry view** list, add the key hierarchy that enables the type of installer you want to create.  
   
    The path that you configure in this section depends on whether you create a per-user installer or a per-computer installer.  
   
@@ -341,14 +341,14 @@ Per-user installations require only one installer regardless of Office or Window
 |32-bit<br /><br />|**HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />|  
 |64-bit<br /><br />|**HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />**HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />|  
    > [!NOTE]  
-   >    An installer for 64-bit Windows requires two registry paths because it’s possible for users to run 32-bit and 64-bit versions of Office on a computer that runs 64-bit Windows.  
+   >    An installer for 64-bit Windows requires two registry paths because it's possible for users to run 32-bit and 64-bit versions of Office on a computer that runs 64-bit Windows.  
   
    > [!NOTE]  
    >    As a best practice, start the name of your VSTO Add-in with the name of your company. This convention increases the chance that the key will be unique and decreases the chance of conflict with an VSTO Add-in from another supplier. Add-ins that have the same name can, for example, overwrite each other's registration keys. This approach can't guarantee that the key will be unique but can reduce potential name collisions.  
   
-5. After you’ve created the hierarchy of keys, open the shortcut menu for the **SampleCompany.ExcelAddIn** key, choose **New**, and then choose **String Value**.  
+5. After you've created the hierarchy of keys, open the shortcut menu for the **SampleCompany.ExcelAddIn** key, choose **New**, and then choose **String Value**.  
   
-   The new string value appears in **the Destination computer’s Registry data** list. The name of the string value is highlighted so that you can rename it.  
+   The new string value appears in **the Destination computer's Registry data** list. The name of the string value is highlighted so that you can rename it.  
   
 6. Rename the value to **Description**.  
   
@@ -399,9 +399,9 @@ Per-user installations require only one installer regardless of Office or Window
   
   
 ## <a name="ConfigureDocument"></a>Configure a document-level customization  
-This section applies only if you’re deploying a document-level customization. If you’re deploying an VSTO Add-in, you can go immediately to the [Build the Setup Project](#Build) section.  
+This section applies only if you're deploying a document-level customization. If you're deploying an VSTO Add-in, you can go immediately to the [Build the Setup Project](#Build) section.  
   
-Document-level customizations don’t use registry keys. Instead, custom document properties contain the location of the deployment manifest.  
+Document-level customizations don't use registry keys. Instead, custom document properties contain the location of the deployment manifest.  
   
 To modify custom properties, you create a program that removes the document-level customization from the document, modifies the appropriate properties, and then re-attaches customization to the document. You then create a custom action that runs the program, and you add that action to your setup project.  
   
@@ -464,7 +464,7 @@ To modify custom properties, you create a program that removes the document-leve
    A list of events appear in a pane to the side of the screen.  
   
    > [!NOTE]  
-   >    Only a few events that appear in this list are available in InstallShield Limited Edition. In this procedure, you’ll run the program by using the **After Setup Complete Success dialog** event.  
+   >    Only a few events that appear in this list are available in InstallShield Limited Edition. In this procedure, you'll run the program by using the **After Setup Complete Success dialog** event.  
   
 8. In the list of events, under **Custom Actions During Installation**, open the shortcut menu for the **After Setup Complete Success dialog** event, and then choose **New EXE**.  
   
@@ -481,7 +481,7 @@ To modify custom properties, you create a program that removes the document-leve
   
    The location of this file depends on the folder that you specified for the **INSTALLDIR** property of the setup project. For example, if you set that property to a folder that's named **[PersonalFolder]DemoWorkbookApp**, you can find the **SetExcelDocumentProperties.Primary.output** file by browsing to **[ProgramFilesFolder]\DemoWorkbookApp**.  
   
-   In the next few steps, you’ll get the solution ID of the document and then pass that ID as a parameter to the console application. You’ll also pass the location of the document, the deployment manifest, and the document assembly.  
+   In the next few steps, you'll get the solution ID of the document and then pass that ID as a parameter to the console application. You'll also pass the location of the document, the deployment manifest, and the document assembly.  
   
 12. Open the shortcut menu for the **ExcelWorkbook** project, and then choose **Open Folder in Windows Explorer** or **Open Folder in File Explorer** depending on your operating system.  
   
@@ -503,7 +503,7 @@ To modify custom properties, you create a program that removes the document-leve
 16. Replace **Your Solution ID** with the solution ID that you copied to the Clipboard.  
   
    > [!IMPORTANT]  
-   >    Test your installer to verify that the console application that this custom action runs can access documents in the [INSTALLDIR] directory. Some directories on the user’s computer might require administrative access (for example, the Program Files directory). If you’re deploying your solution to a directory that requires administrative access, you should open the **Properties** dialog box of the setup.exe file, choose the **Compatibility** tab, and then select the **Run this program as administrator** check box before you distribute the installer. If you don’t want users to run the setup program with administrative permissions, set the [INSTALLDIR] property to a directory to which the user probably has access already, such as the **Documents** directory. For more information, see the [Specify Where You Want to Install the Solution on the user’s computer](#Location) section of this topic.  
+   >    Test your installer to verify that the console application that this custom action runs can access documents in the [INSTALLDIR] directory. Some directories on the user's computer might require administrative access (for example, the Program Files directory). If you're deploying your solution to a directory that requires administrative access, you should open the **Properties** dialog box of the setup.exe file, choose the **Compatibility** tab, and then select the **Run this program as administrator** check box before you distribute the installer. If you don't want users to run the setup program with administrative permissions, set the [INSTALLDIR] property to a directory to which the user probably has access already, such as the **Documents** directory. For more information, see the [Specify Where You Want to Install the Solution on the user's computer](#Location) section of this topic.  
   
   
 ## <a name="Build"></a>Build the setup project  

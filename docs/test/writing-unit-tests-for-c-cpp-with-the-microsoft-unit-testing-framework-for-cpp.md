@@ -41,7 +41,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 2.  Make the DLL accessible to the test project:  
   
-    -   `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
+    -   `#include` a `.h` file that contains declarations of the DLL's externally-accessible functions.  
   
          The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](/cpp/build/importing-and-exporting).  
   
@@ -397,7 +397,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 -   **Isolation.** Most DLLs are dependent on other subsystems such as databases and other DLLs. These other components are often developed in parallel. To allow unit testing to be performed while the other components are not yet available, you have to substitute mock or  
   
--   **Build Verification Tests.** You can have tests performed on your team’s build server at set intervals. This ensures that bugs are not introduced when the work of several team members is integrated.  
+-   **Build Verification Tests.** You can have tests performed on your team's build server at set intervals. This ensures that bugs are not introduced when the work of several team members is integrated.  
   
 -   **Checkin tests.** You can mandate that some tests are performed before each team member checks code into source control. Typically this is a subset of the complete set of build verification tests.  
   

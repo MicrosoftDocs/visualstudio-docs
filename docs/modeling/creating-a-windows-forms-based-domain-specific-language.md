@@ -83,9 +83,9 @@ A DSL instance, showing a Windows Form UI and the model explorer.
   
 4.  Use the **Named Domain Class** tool to create the following domain classes:  
   
-    -   `Field` – Give this an additional domain property named `Size`.  
+    -   `Field` - Give this an additional domain property named `Size`.  
   
-    -   `Animal` – In the Properties window, set **Inheritance Modifier** to **Abstract**.  
+    -   `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.  
   
 5.  Use the **Domain Class** tool to create the following classes:  
   

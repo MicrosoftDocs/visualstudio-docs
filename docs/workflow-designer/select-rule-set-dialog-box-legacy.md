@@ -39,9 +39,9 @@ This topic describes how use the **Select Rule Set** dialog box in the legacy [!
   
 |UI Element|Description|  
 |----------------|-----------------|  
-|**New…**|Click to open the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) to create a new rule condition.|  
-|**Edit…**|Click to open the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
-|**Rename…**|Click to open a dialog box used to rename the selected rule set.|  
+|**New...**|Click to open the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) to create a new rule condition.|  
+|**Edit...**|Click to open the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
+|**Rename...**|Click to open a dialog box used to rename the selected rule set.|  
 |**Delete**|Click to delete the selected rule set.|  
 |**Rule Set Preview**|Displays the rules in the selected rule set.|  
 |**OK**|Click to assign the selected rule set to the **PolicyActivity** activity.|  

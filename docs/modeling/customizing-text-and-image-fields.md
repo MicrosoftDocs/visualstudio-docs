@@ -58,7 +58,7 @@ public virtual string GetDisplayText(ShapeElement shape)
 { return this.GetValue(shape).ToString(); }  
   
 // Brush determines the text color.  
-// To change the brush for every field, change the shape’s styleset.   
+// To change the brush for every field, change the shape's styleset.   
 // To customize to a brush in the style set, override GetTextBrushId.  
 // To change the brush to non-standard color, override this.  
 // Should take account of whether selected.   
@@ -67,7 +67,7 @@ public virtual Brush GetTextBrush(DiagramClientView view, ShapeElement shape)
   
 // Brush ID selects a brush from a StyleSet.  
 // Either return a member of DiagramBrushes   
-// or add your own brush to the shape or application’s styleset.  
+// or add your own brush to the shape or application's styleset.  
 // Override this to change dynamically or per instance.  
 // To change statically, just assign to default values.   
 public virtual StyleSetResourceId GetTextBrushId(DiagramClientView view, ShapeElement shape)  
@@ -76,7 +76,7 @@ public virtual StyleSetResourceId GetTextBrushId(DiagramClientView view, ShapeEl
 }  
   
 // Font determines the shape and size of the text.  
-// To change the font for every field, change the shape’s styleset.   
+// To change the font for every field, change the shape's styleset.   
 // To customize to a font in the style set, override GetFontId.  
 // To change the font to a non-standard font, override this.   
 public virtual Font GetFont(ShapeElement shape)  
@@ -84,7 +84,7 @@ public virtual Font GetFont(ShapeElement shape)
   
 // Selects a font from a styleset.  
 // Either return a member of DiagramFonts or   
-// add your own font to the shape or application’s styleset.  
+// add your own font to the shape or application's styleset.  
 // To change statically for all instances of this field,   
 // assign to DefaultFontId.  
 // To change per shape or dynamically, override this.   
@@ -120,9 +120,9 @@ public virtual StyleSetResourceId GetFontId(ShapeElement parentShape)
 ```  
   
 ## Dynamic customizations  
- To make the appearance vary dependent on the state of a shape or its model element, derive your own subclass of `TextField` and override one or more `Get...` methods. You must also override your shape’s InitializeShapeFields method, and replace the instance of the TextField with an instance of your own class.  
+ To make the appearance vary dependent on the state of a shape or its model element, derive your own subclass of `TextField` and override one or more `Get...` methods. You must also override your shape's InitializeShapeFields method, and replace the instance of the TextField with an instance of your own class.  
   
- The following example makes the font of a text field dependent on the state of a Boolean domain property of the shape’s model element.  
+ The following example makes the font of a text field dependent on the state of a Boolean domain property of the shape's model element.  
   
  To run this example code, create a new DSL solution using the Minimal Language template. Add a Boolean domain property `AlternateState` to the ExampleElement domain class. Add an icon decorator to the ExampleShape class, and set its image to a bitmap file. Click **Transform All Templates**. Add a new code file in the DSL project, and insert the following code.  
   
@@ -207,7 +207,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
      In your override method, call the base method and then create an instance of your own image field class. Use this to replace the regular image field in the `shapeFields` list.  
   
 ## Dynamic icons  
- This example makes an icon change dependent on the state of the shape’s model element.  
+ This example makes an icon change dependent on the state of the shape's model element.  
   
 > [!WARNING]
 >  This example demonstrates how to make a dynamic image decorator. But if you only want to switch between one or two images depending on the state of a model variable, it is simpler to create several image decorators, locate them in the same position on the shape, and then set the Visibility filter to depend on specific values of the model variable. To set this filter, select the shape map in the DSL Definition, open the DSL Details window, and click the Decorators tab.  

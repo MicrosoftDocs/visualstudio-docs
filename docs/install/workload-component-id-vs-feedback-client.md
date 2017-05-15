@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  04/06/2017
+ms.date:  05/10/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -41,7 +41,7 @@ Also note the following about the page:
 
 * Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
 * By default, the **Required** components will be installed when you install the workload. If you choose to, you can also install the **Recommended** and **Optional** components.
-* We’ve also added a section that lists the additional components that are not affiliated with any workload.
+* We've also added a section that lists the additional components that are not affiliated with any workload.
 
 For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 
@@ -56,7 +56,6 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26208.0 | Required
-
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
@@ -64,7 +63,6 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
-
 
 ## See also
 

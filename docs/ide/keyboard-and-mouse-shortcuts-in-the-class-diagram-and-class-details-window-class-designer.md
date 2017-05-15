@@ -70,7 +70,7 @@ You can use the keyboard in addition to the mouse to perform navigational action
   
 -   You can expand or collapse compartment or property nodes by clicking the arrow symbols to the left of the row.  
   
--   The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members’ compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
+-   The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members' compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
   
 ##  <a name="KeyboardClassDesigner"></a> Using the Keyboard in Class Designer  
  The following keyboard actions are supported in class diagrams:  

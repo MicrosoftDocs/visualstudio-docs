@@ -52,7 +52,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Resolution  
  In Test Explorer, choose **Run All** to verify that the tests run successfully. Fix any failures before using **Analyze Code Coverage**.  
   
-### You’re looking at a previous result  
+### You're looking at a previous result  
  When you modify and re-run your tests, a previous code coverage result can still be visible, including the code coloring from that old run.  
   
 1.  Run Analyze Code Coverage.  

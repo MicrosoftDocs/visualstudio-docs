@@ -53,7 +53,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      ![Record actions](../test/media/cuit_datadriven_cuitbuilder.png "CUIT_dataDriven_CUITBuilder")  
   
-4.  Add 1 plus 2, pause the recorder, and generate the test method. Later we’ll replace the values of this user input with values from a data file.  
+4.  Add 1 plus 2, pause the recorder, and generate the test method. Later we'll replace the values of this user input with values from a data file.  
   
      ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
   
@@ -73,7 +73,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      The test result that shows if the test passed or failed is displayed in the Test Explorer window. To open the Test Explorer window, from the **TEST** menu, choose **Windows** and then choose **Test Explorer**.  
   
-6.  Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let’s add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.  
+6.  Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.  
   
      Map the text control in the calculator that displays the sum.  
   
@@ -102,7 +102,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut:Ctrl + R, T).  
   
-     At this point, all the parameter values are defined in their methods as constants. Next, let’s create a data set to make our test data-driven.  
+     At this point, all the parameter values are defined in their methods as constants. Next, let's create a data set to make our test data-driven.  
   
 #### Step 2 - Create a data set  
   
@@ -122,15 +122,15 @@ To test different conditions, you can run your tests multiple times with differe
   
      ![Populate the .CSV file with data](../test/media/cuit_datadriven_adddatatocsvfile.png "CUIT_dataDriven_AddDataToCSVFile")  
   
-3.  It is important to save the .csv file using the correct encoding. On the **FILE** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) – Codepage 65001** as the encoding.  
+3.  It is important to save the .csv file using the correct encoding. On the **FILE** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.  
   
-4.  The .csv file, must be copied to the output directory, or the test can’t run. Use the Properties window to copy it.  
+4.  The .csv file, must be copied to the output directory, or the test can't run. Use the Properties window to copy it.  
   
      ![Deploy the .CSV file](../test/media/cuit_datadriven_deploycsvfile.png "CUIT_dataDriven_DeployCSVFile")  
   
-     Now that we have the data set created, let’s bind the data to the test.  
+     Now that we have the data set created, let's bind the data to the test.  
   
-#### Step 3 – Add data source binding  
+#### Step 3 - Add data source binding  
   
 1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.  
   
@@ -156,9 +156,9 @@ To test different conditions, you can run your tests multiple times with differe
   
      Notice that the test runs through three iterations. This is because the data source that was bound contains three rows of data. However, you will also notice that the test is still using the constant parameter values and is adding 1 + 2 with a sum of 3 each time.  
   
-     Next, we’ll configure the test to use the values in the data source file.  
+     Next, we'll configure the test to use the values in the data source file.  
   
-#### Step 4 – Use the data in the coded UI test  
+#### Step 4 - Use the data in the coded UI test  
   
 1.  Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the CodedUITest.cs file:  
   
@@ -207,7 +207,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 3.  Save the solution.  
   
-#### Step 5 – Run the data-driven test  
+#### Step 5 - Run the data-driven test  
   
 1.  Verify that the test is now data-driven by running the test again.  
   
@@ -215,7 +215,7 @@ To test different conditions, you can run your tests multiple times with differe
   
  **Guidance**  
   
- For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188) and [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ## Q & A  
   
@@ -257,7 +257,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
  For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8-1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).  
   
-### Q: Why can’t I modify the code in the UIMap.Designer file?  
+### Q: Why can't I modify the code in the UIMap.Designer file?  
  **A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).  
   
  If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  

@@ -24,13 +24,13 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
   
 1.  Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
-    -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
+    -   `ElementAdded` - triggered when a model element, relationship link, shape or connector is created.  
   
-    -   ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
+    -   ElementPropertyChanged - triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
   
          It cannot be applied to the role properties that correspond to relationship links. Instead, use `ElementAdded` to monitor the domain relationship.  
   
-    -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
+    -   `ElementDeleted` - triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
   
 2.  Add a partial class definition for *YourDsl***DocData** in a separate code file in the **DslPackage** project.  
   
@@ -54,7 +54,7 @@ namespace Company.MusicLib
     // Register store events here or in DocView.LoadView().  
     protected override void OnDocumentLoaded()  
     {  
-      base.OnDocumentLoaded(); // Don’t forget this.  
+      base.OnDocumentLoaded(); // Don't forget this.  
   
       #region Store event handler registration.       
       Store store = this.Store;  
@@ -90,9 +90,9 @@ namespace Company.MusicLib
 ## Using Events to Make Undoable Adjustments in the Store  
  Store events are not normally used for propagating changes inside the store, because the event handler executes after the transaction is committed. Instead, you would use a store rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
- However, you could use an event handler to make additional updates to the store, if you want the user to be able to undo the additional updates separately from the original event. For example, suppose that lower case characters are the usual convention for album titles. You could write a store event handler that corrects the title to lower case after the user has typed it in upper case. But the user could use the Undo command to cancel your correction, restoring the upper case characters. A second Undo would remove the user’s change.  
+ However, you could use an event handler to make additional updates to the store, if you want the user to be able to undo the additional updates separately from the original event. For example, suppose that lower case characters are the usual convention for album titles. You could write a store event handler that corrects the title to lower case after the user has typed it in upper case. But the user could use the Undo command to cancel your correction, restoring the upper case characters. A second Undo would remove the user's change.  
   
- By contrast, if you wrote a store rule to do the same thing, the user’s change and your correction would be in the same transaction, so that the user could not undo the adjustment without losing the original change.  
+ By contrast, if you wrote a store rule to do the same thing, the user's change and your correction would be in the same transaction, so that the user could not undo the adjustment without losing the original change.  
   
 ```  
   
@@ -172,7 +172,7 @@ private static void AlbumTitleAdjuster(object sender,
 |`EventManagerDirectory` Property name|Executed when|  
 |-------------------------------------------|-------------------|  
 |ElementAdded|An instance of a domain class, domain relationship, shape, connector or diagram is created.|  
-|ElementDeleted|A model element has been removed from the store’s element directory and is no longer the source or target of any relationship. The element is not actually deleted from memory, but is retained in case of a future Undo.|  
+|ElementDeleted|A model element has been removed from the store's element directory and is no longer the source or target of any relationship. The element is not actually deleted from memory, but is retained in case of a future Undo.|  
 |ElementEventsBegun|Invoked at the end of an outer transaction.|  
 |ElementEventsEnded|Invoked when all other events have been processed.|  
 |ElementMoved|A model element has been moved from one store partition to another.<br /><br /> This is not related to the location of a shape on the diagram.|  

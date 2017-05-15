@@ -755,7 +755,7 @@ Visual Studio Tools for Unity change log.
   
 -   Fixed bug UVS-11: Locals in coroutines.  
   
-## 1.1 – Beta release  
+## 1.1 - Beta release  
  Released 2014-10-09  
   
 ## 1.0.13  
@@ -958,5 +958,5 @@ Visual Studio Tools for Unity change log.
   
 -   Fixed completion for dll inside the Asset folder for UnityScript and Boo.  
   
-## 1.0 – Initial release  
+## 1.0 - Initial release  
  Released 2012-08-22

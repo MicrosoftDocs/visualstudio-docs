@@ -43,10 +43,10 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
   
      The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
-4.  In the experimental instance, open the **Tools / Extensions and Updates** window. You should see the **FirstPackage** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won’t see **FirstPackage**).  
+4.  In the experimental instance, open the **Tools / Extensions and Updates** window. You should see the **FirstPackage** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won't see **FirstPackage**).  
   
 ## Loading the VSPackage  
- At this point the extension does not load, because there is nothing that causes it to load. You can generally load an extension when you interact with its UI (clicking a menu command, opening a tool window), or by specifying that the VSPackage should load in a specific UI context. For more information about loading VSPackages and UI contexts, see [Loading VSPackages](../extensibility/loading-vspackages.md). For this procedure, we’ll show you how to load a VSPackage when a solution is open.  
+ At this point the extension does not load, because there is nothing that causes it to load. You can generally load an extension when you interact with its UI (clicking a menu command, opening a tool window), or by specifying that the VSPackage should load in a specific UI context. For more information about loading VSPackages and UI contexts, see [Loading VSPackages](../extensibility/loading-vspackages.md). For this procedure, we'll show you how to load a VSPackage when a solution is open.  
   
 1.  Open the FirstPackage.cs file. Look for the declaration of the FirstPackage class. Replace the existing attributes with following:  
   
@@ -58,7 +58,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
     public sealed class FirstPackage : Package  
     ```  
   
-2.  Let’s add a message that lets us know that the VSPackage has loaded. We use the VSPackage’s Initialize() method to do this, because you can get Visual Studio services only after the VSPackage has been sited. (For more information about getting services, see [How to: Get a Service](../extensibility/how-to-get-a-service.md).) Replace the Initialize() method of FirstPackage with code that gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, gets the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, and calls its <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox%2A> method.  
+2.  Let's add a message that lets us know that the VSPackage has loaded. We use the VSPackage's Initialize() method to do this, because you can get Visual Studio services only after the VSPackage has been sited. (For more information about getting services, see [How to: Get a Service](../extensibility/how-to-get-a-service.md).) Replace the Initialize() method of FirstPackage with code that gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, gets the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, and calls its <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox%2A> method.  
   
     ```c#  
     protected override void Initialize()  

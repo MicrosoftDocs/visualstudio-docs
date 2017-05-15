@@ -67,7 +67,7 @@ Properties window showing TableLayoutPanel control
      ![Properties window with Fill selected](../ide/media/express_docktable.png "Express_DockTable")  
 Properties window with Fill selected  
   
-     *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the Properties window can be undocked – that is, unattached and free-floating within Visual Studio – or it can be docked against **Solution Explorer**.  
+     *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the Properties window can be undocked - that is, unattached and free-floating within Visual Studio - or it can be docked against **Solution Explorer**.  
   
 7.  After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.  
   

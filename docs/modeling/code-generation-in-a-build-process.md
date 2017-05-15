@@ -32,16 +32,16 @@ translation.priority.ht:
 # Code Generation in a Build Process
 [Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692) of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.  
   
- There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn’t true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.  
+ There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn't true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.  
   
- This means that you can’t access things like project file names in the same way when you build a text template in MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).  
+ This means that you can't access things like project file names in the same way when you build a text template in MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).  
   
 ##  <a name="buildserver"></a> Configure your machines  
  To enable build tasks on your development computer, install Modeling SDK for Visual Studio.
  
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
- If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.  
+ If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for '*'.  
   
 -   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating  
   
@@ -64,11 +64,11 @@ translation.priority.ht:
     -   Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll  
   
 ## To edit the project file  
- You’ll have to edit your project file to configure some of the features in MSBuild.  
+ You'll have to edit your project file to configure some of the features in MSBuild.  
   
  In solution explorer, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.  
   
- When you’ve finished editing, choose **Reload**.  
+ When you've finished editing, choose **Reload**.  
   
 ## Import the Text Transformation Targets  
  In the .vbproj or .csproj file, find a line like this:  
@@ -84,7 +84,7 @@ translation.priority.ht:
 ```xml  
 <!-- Optionally make the import portable across VS versions -->  
   <PropertyGroup>  
-    <!-- Get the Visual Studio version – defaults to 10: -->  
+    <!-- Get the Visual Studio version - defaults to 10: -->  
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>  
     <!-- Keep the next element all on one line: -->  
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>  
@@ -195,7 +195,7 @@ translation.priority.ht:
 </ItemGroup>  
 ```  
   
- Specifying an OutputFileName or OutputFilePath isn’t recommended if you are also transforming templates inside VS using Transform All, or running the single file generator. You will end up with different file paths depending on how you triggered the transformation. This can be very confusing.  
+ Specifying an OutputFileName or OutputFilePath isn't recommended if you are also transforming templates inside VS using Transform All, or running the single file generator. You will end up with different file paths depending on how you triggered the transformation. This can be very confusing.  
   
 ## Adding reference and include paths  
  The host has a default set of paths where it searches for assemblies referenced in templates. To add to this set:  
@@ -252,7 +252,7 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 >  `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters will have default values.  
   
 ##  <a name="msbuild"></a> Using project properties in assembly and include directives  
- Visual Studio macros like $(SolutionDir) don’t work in MSBuild. You can use project properties instead.  
+ Visual Studio macros like $(SolutionDir) don't work in MSBuild. You can use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myLibFolder`:  
   
@@ -283,11 +283,11 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ## Q & A  
  **Why would I want to transform templates in the build server? I already transformed templates in Visual Studio before I checked in my code.**  
   
- If you update an included file, or another file read by the template, Visual Studio doesn’t transform the file automatically. Transforming templates as part of the build makes sure that everything’s up to date.  
+ If you update an included file, or another file read by the template, Visual Studio doesn't transform the file automatically. Transforming templates as part of the build makes sure that everything's up to date.  
   
  **What other options are there for transforming text templates?**  
   
--   The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it’s easier to use MSBuild.  
+-   The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it's easier to use MSBuild.  
   
 -   [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)  
   

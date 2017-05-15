@@ -44,7 +44,7 @@ You might find it convenient to use the **Find Window** dialog box to select a t
   
 3.  From the **Windows** tab, drag the **Finder Tool** over the target window. As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window you want to examine (for example, copied from the debugger), you can type it into the **Handle** text box.  
   

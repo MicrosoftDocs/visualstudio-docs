@@ -89,7 +89,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
 1.  Click the type's shape on a class diagram.  
   
-2.  In the Properties window, next to the **Custom Attributes** property for the type, click the ellipsis (…) button.  
+2.  In the Properties window, next to the **Custom Attributes** property for the type, click the ellipsis (...) button.  
   
 3.  Add one or more custom attributes with one per line. Don't enclose them in brackets.  
   

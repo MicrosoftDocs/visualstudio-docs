@@ -26,7 +26,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Manifest to Code
-The Manifest to Code tool is a console application that takes an .imagemanifest file for the Visual Studio Image Service and generates a wrapper file or files for referencing the image manifest’s values in C++, C#, VB, or .vsct files for Visual Studio extensions. This tool generates wrapper files that can be used for requesting images from the Visual Studio Image Service directly, or for passing the manifest values through APIs if the code does not handle any of its own UI and rendering.  
+The Manifest to Code tool is a console application that takes an .imagemanifest file for the Visual Studio Image Service and generates a wrapper file or files for referencing the image manifest's values in C++, C#, VB, or .vsct files for Visual Studio extensions. This tool generates wrapper files that can be used for requesting images from the Visual Studio Image Service directly, or for passing the manifest values through APIs if the code does not handle any of its own UI and rendering.  
   
 ## How to use the tool  
  **Syntax**  
@@ -43,7 +43,7 @@ The Manifest to Code tool is a console application that takes an .imagemanifest 
 |/imageIdClass|The name of the imageIdClass and the associated file created by the tool. For the C++ language option, only .h files are generated.<br /><br /> Default: \<Manifest Path>\MyImageIds.\<Lang Ext>|Optional|  
 |/monikerClass|The name of the monikerClass and the associated file created by the tool. For the C++ language option, only .h files are generated. This is ignored for the VSCT language.<br /><br /> Default: \<Manifest Path>\MyMonikers.\<Lang Ext>|Optional|  
 |/classAccess|The access modifier for the imageIdClass and the monikerClass. Make sure the access modifier is valid for the given language. This is ignored for the VSCT language option.<br /><br /> Default: Public|Optional|  
-|/namespace|The namespace defined in the code wrapper. This is ignored for the VSCT language option. Either ‘.’ or ‘::’ are valid namespace separators, regardless of the chosen language option.<br /><br /> Default: MyImages|Optional|  
+|/namespace|The namespace defined in the code wrapper. This is ignored for the VSCT language option. Either '.' or '::' are valid namespace separators, regardless of the chosen language option.<br /><br /> Default: MyImages|Optional|  
 |/noLogo|Setting this flag stops product and copyright information from printing.|Optional|  
 |/?|Print out Help information.|Optional|  
 |/help|Print out Help information.|Optional|  

@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,16 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "contributors_to_exclude": ["conceptdev","meganbradley"],
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "manager": "crdun",
+      "ms.topic": "article",
+      "audience": "developer",
+      "ms.prod": "visual-studio-mac",
+      "ms.technology": "vs-ide-general",
+      "searchScope": ["Mac"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "mac"

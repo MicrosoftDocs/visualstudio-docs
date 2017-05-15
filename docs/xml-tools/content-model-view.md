@@ -59,7 +59,7 @@ The Content Model View provides a graphic representation of local and global sch
 |**Show in Graph View**|Switches to the Graph View.|  
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|  
 |**Show Documentation**|Shows or hides Annotation/Documentation node contents.|  
-|**Export Diagram as Image…**|Saves the design surface to an XPS file.|  
+|**Export Diagram as Image...**|Saves the design surface to an XPS file.|  
 |**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|  
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|  
   
