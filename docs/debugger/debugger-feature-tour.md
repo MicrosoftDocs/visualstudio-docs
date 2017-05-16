@@ -84,14 +84,14 @@ In this example, **Step Into Specific** gets us to the code for `Path.set`.
 
 ## Run to a point in your code quickly using the mouse
 
-While in the debugger, hover over a line of code until the **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
 ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
 >  [!NOTE] 
-> The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The **Run to Click** (Run execution to here) button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
-Click the **Run execution to here** button. The debugger advances to the line of code where you clicked.
+Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
 
 Using this button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file).
 
