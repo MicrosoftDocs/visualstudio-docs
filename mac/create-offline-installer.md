@@ -9,4 +9,5 @@ ms.technology: vs-ide-install
 ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B
 ---
 
-> [!WARNING] An offline installer feature is planned for future versions of Visual Studio for Mac.
+> [!WARNING] 
+> An offline installer feature is planned for future versions of Visual Studio for Mac.
