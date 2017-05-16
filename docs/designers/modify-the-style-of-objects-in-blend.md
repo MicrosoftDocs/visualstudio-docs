@@ -68,14 +68,14 @@ The easiest way to customize an object is to set properties in the **Properties*
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Tile Brushes](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes).  
   
 ##  <a name="Styles"></a> Styles and Templates: Create a consistent look and feel across controls  
- You can design the appearance and behavior of a control one time and apply that design to other controls so that you don’t have to maintain them individually.  
+ You can design the appearance and behavior of a control one time and apply that design to other controls so that you don't have to maintain them individually.  
   
- **Should you use a style?**: If you just want to set default properties (such as the color of a button), use a *style*. You can modify a control even after you’ve applied a style to it.  
+ **Should you use a style?**: If you just want to set default properties (such as the color of a button), use a *style*. You can modify a control even after you've applied a style to it.  
   
- **Should you use a template?**: If you want to change the structure of a control, use a *template*. Imagine converting a graphic or logo to a button. You can’t modify a control after you’ve applied a template to it.  
+ **Should you use a template?**: If you want to change the structure of a control, use a *template*. Imagine converting a graphic or logo to a button. You can't modify a control after you've applied a template to it.  
   
 ### Create a template or style  
- There’s two ways to create a template. You can convert any object on your artboard to a control or you can base your template on an existing control.  
+ There's two ways to create a template. You can convert any object on your artboard to a control or you can base your template on an existing control.  
   
  To convert any object to a control template, select the object, and then on the **Tools** menu, choose **Make Into Control**.  
   
@@ -89,14 +89,14 @@ The easiest way to customize an object is to set properties in the **Properties*
   
 -   Choose **Create Empty** to start from scratch.  
   
- The **Edit Current** option appears only if you edit a style or template that you’ve already created. It won’t appear for a control that is still using a default system template.  
+ The **Edit Current** option appears only if you edit a style or template that you've already created. It won't appear for a control that is still using a default system template.  
   
  In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
   
  ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
   
 > [!NOTE]
->  You can’t create styles or templates for every type of control. If a control doesn’t support them, the breadcrumb button won’t appear above the artboard.  
+>  You can't create styles or templates for every type of control. If a control doesn't support them, the breadcrumb button won't appear above the artboard.  
 >   
 >  To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png "55844eb3-ed98-4f20-aa66-a6f5b23eeb2b").  
 >   

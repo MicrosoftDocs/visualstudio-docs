@@ -43,10 +43,10 @@ By using advanced search operators, you can refine your search for content by cr
   
 |To search for|Use|Example|Result|  
 |-------------------|---------|-------------|------------|  
-|A term in the title of the topic|title:|title:binaryreader|Topics that contain “binaryreader” in their titles.|  
+|A term in the title of the topic|title:|title:binaryreader|Topics that contain "binaryreader" in their titles.|  
 |A term in a code example|code:|code:readdouble|Topics that contain "readdouble" in a code example.|  
-|A term in an example of a specific programming language|code:vb:|code:vb:string|Topics that contain “string” in a Visual Basic example.|  
-|A topic that is associated with a specific index keyword|keyword:|keyword:readbyte|Topics that are associated with the “readbyte” index keyword.|  
+|A term in an example of a specific programming language|code:vb:|code:vb:string|Topics that contain "string" in a Visual Basic example.|  
+|A topic that is associated with a specific index keyword|keyword:|keyword:readbyte|Topics that are associated with the "readbyte" index keyword.|  
   
  You can use the code: operator to find content about any of several programming languages, but it returns results only for content that is marked up with a specific programming language. The following table lists the programming languages that this operator supports:  
   

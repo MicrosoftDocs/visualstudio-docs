@@ -59,23 +59,23 @@ translation.priority.mt:
   
 ## How to Fix Violations  
   
--   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
+-   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
   
--   Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.  
+-   Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.  
   
--   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.  
+-   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.  
   
 -   Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.  
   
  .NET 3.5 and earlier  
   
--   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
+-   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
   
--   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
+-   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
   
  .NET 4 and later  
   
--   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the DtdProcessing  property to [Prohibit or Ignore](https://msdn.microsoft.com/en-us/library/system.xml.dtdprocessing.aspx)  
+-   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the DtdProcessing  property to [Prohibit or Ignore](https://msdn.microsoft.com/en-us/library/system.xml.dtdprocessing.aspx)  
   
 -   Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.  
   

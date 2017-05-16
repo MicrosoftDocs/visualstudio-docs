@@ -59,7 +59,7 @@ struct DiaAddressMapEntry { 
   
 1.  Search the map for the entry, `e`, with the largest `rva` less than or equal to `addrA`.  
   
-2.  Set `delta = addrA – e.rva`.  
+2.  Set `delta = addrA - e.rva`.  
   
 3.  Set `addrB = e.rvaTo + delta`.  
   

@@ -42,7 +42,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
  Before you can create an Android Native Activity app, you must make sure you've met all system requirements, and installed the Visual C++ Mobile Development option in Visual Studio 2015. For more information, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). Make sure that the required third-party tools and SDKs are included in the installation, and that the Microsoft Visual Studio Emulator for Android is installed.  
   
 ##  <a name="Create"></a> Create a new Native Activity project  
- In this tutorial, you’ll first create a new Android Native Activity project and then build and run the default app in the Visual Studio Emulator for Android.  
+ In this tutorial, you'll first create a new Android Native Activity project and then build and run the default app in the Visual Studio Emulator for Android.  
   
 #### To create a new project  
   
@@ -73,7 +73,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
   
      ![Solution Platforms dropdown x86 selection](../cross-platform/media/cppmdd_rc_na_solution_x86.png "CPPMDD_RC_NA_Solution_x86")  
   
-     If the **Solution Platforms** list isn’t showing, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
+     If the **Solution Platforms** list isn't showing, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
 2.  On the menu bar, choose **Build**, **Build Solution**.  
   
@@ -85,7 +85,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
   
 4.  Press F5 to start debugging, or Shift+F5 to start without debugging.  
   
-     Here’s what the default app looks like in the Visual Studio emulator for Android.  
+     Here's what the default app looks like in the Visual Studio emulator for Android.  
   
      ![The emulator running your app](../cross-platform/media/cppmdd_emulator_running_app.PNG "CppMDD_Emulator_Running_App")  
   

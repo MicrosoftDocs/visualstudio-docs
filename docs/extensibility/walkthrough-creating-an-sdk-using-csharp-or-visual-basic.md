@@ -28,7 +28,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Walkthrough: Creating an SDK using C# or Visual Basic
-In this walkthrough, you’ll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You’ll complete the following procedures:  
+In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:  
   
 -   [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)  
   
@@ -69,7 +69,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 ##  <a name="createVSIX"></a> To create the SimpleMathVSIX extension project  
   
-1.  On the shortcut menu for the **Solution ‘SimpleMath’** node, choose **Add**, **New Project**.  
+1.  On the shortcut menu for the **Solution 'SimpleMath'** node, choose **Add**, **New Project**.  
   
 2.  In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Extensibility** node, and then choose the **VSIX Project** template.  
   
@@ -184,7 +184,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 9. In the **Browse** list, choose **Simple Math**.  
   
-     You can now explore what’s in the SDK.  
+     You can now explore what's in the SDK.  
   
 10. In **Solution Explorer**, open MainPage.xaml, and replace its contents with the following XAML:  
 

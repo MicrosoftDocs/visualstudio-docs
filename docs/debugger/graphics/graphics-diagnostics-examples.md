@@ -47,7 +47,7 @@ These examples show how to debug rendering problems in DirectX-based apps by usi
 ## Debugging missing objects  
  A missing object (or objects) is one of the most common rendering problems that graphics developers experience. This kind of problem can be difficult to diagnose because several different kinds of errors might cause an object to apparently disappear. Typical causes for missing objects include misconfigured device state, problems in transforming the object's geometry, or a misconfigured graphics pipeline.  
   
- These scenarios demonstrate how you can use Graphics Diagnostics to determine why an object is missing and find the code that’s responsible.  
+ These scenarios demonstrate how you can use Graphics Diagnostics to determine why an object is missing and find the code that's responsible.  
   
 -   [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)  
   

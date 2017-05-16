@@ -47,7 +47,7 @@ while (expression) ;
 ## Remarks  
  Unlike the `while` statement, a `do...while` loop is executed one time before the conditional expression is evaluated.  
   
- On any line in a `do…while` block, you can use the `break` statement to cause the program flow to exit the loop, or you can use the `continue` statement to go directly to the `while` expression.  
+ On any line in a `do...while` block, you can use the `break` statement to cause the program flow to exit the loop, or you can use the `continue` statement to go directly to the `while` expression.  
   
 ## Example  
  In the following example, the statements in the `do...while` loop continue to execute as long as the variable `i` is less than 10.  

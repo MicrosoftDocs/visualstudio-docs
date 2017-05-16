@@ -91,7 +91,7 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  Well-known metadata is read-only item metadata that is initialized by using a predefined value. Well-known metadata provides descriptive information for an item that references a file. For example, the value of the well-known metadata named `FullPath` is the full path of the referenced file. For more information, see [Items](../msbuild/msbuild-items.md).  
   
  multitargeting  
- The ability for an application or assembly project to target many different CLR’s and frameworks from MSBuild and from Visual Studio.  
+ The ability for an application or assembly project to target many different CLR's and frameworks from MSBuild and from Visual Studio.  
   
  profile  
  A subset of the full framework. This is used to minimize the amount that needs to be downloaded to a machine.  

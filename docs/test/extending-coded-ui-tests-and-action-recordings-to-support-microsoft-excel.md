@@ -74,7 +74,7 @@ Architecture Overview
   
  "`%CommonProgramFiles(x86)%\Microsoft Shared\VSTT\<version number>\UITestExtensionPackages\*.*`", where version number could be 11.0, 12.0 etc based on your Visual Studio version.  
   
- The `ExcelUICommunicationHelper` DLL and PDB files are copied to `"%ProgramFiles(x86)%\Microsoft Visual Studio <version number>\Common7\IDE\PrivateAssemblies”`.  
+ The `ExcelUICommunicationHelper` DLL and PDB files are copied to `"%ProgramFiles(x86)%\Microsoft Visual Studio <version number>\Common7\IDE\PrivateAssemblies"`.  
   
  You might have to adjust the exact copy paths, but no additional installation is required. On a 64-bit machine, use the 32-bit Visual Studio Enterprise command prompt to run the `CopyDrop.bat` file.  
   

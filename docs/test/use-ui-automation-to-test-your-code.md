@@ -40,7 +40,7 @@ translation.priority.mt:
 # Use UI Automation To Test Your Code
 Automated tests that drive your application through its user interface (UI) are known as *coded UI tests* (CUITs). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI Tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.  
   
- As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application (F5) and click through the UI controls to verify that things are working correctly. You then might decide to create a coded test so that you don’t need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test, or for an integration test that might or might not include testing at the UI level. If you simply want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can automate the initial (F5) scenario, verifying that code churn does not impact the functionality of your application.  
+ As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application (F5) and click through the UI controls to verify that things are working correctly. You then might decide to create a coded test so that you don't need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test, or for an integration test that might or might not include testing at the UI level. If you simply want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can automate the initial (F5) scenario, verifying that code churn does not impact the functionality of your application.  
   
  ![Testing during application development](../test/media/cuit_overview.png "CUIT_Overview")  
   
@@ -74,13 +74,13 @@ Automated tests that drive your application through its user interface (UI) are 
   
     -   [Debugging](#debugging)  
   
--   [What’s Next](#VerifyCodeUsingCUITWhatsNext)  
+-   [What's Next](#VerifyCodeUsingCUITWhatsNext)  
   
 ##  <a name="VerifyingCodeUsingCUITCreate"></a> Creating Coded UI Tests  
   
 1.  **Create a Coded UI Test project.**  
   
-     Coded UI tests must be contained in a coded UI test project. If you don’t already have a coded UI test project, create one. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project** and then select either **Visual Basic** or **Visual C#**. Next, choose **Test**, **Coded UI Test**.  
+     Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project** and then select either **Visual Basic** or **Visual C#**. Next, choose **Test**, **Coded UI Test**.  
   
     -   *I don't see the **Coded UI Test** project templates.*  
   
@@ -161,14 +161,14 @@ Automated tests that drive your application through its user interface (UI) are 
   
 8.  **Run the test**.  
   
-     Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What’s next?](#VerifyCodeUsingCUITWhatsNext) section at the end of this topic.  
+     Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What's next?](#VerifyCodeUsingCUITWhatsNext) section at the end of this topic.  
   
  The remaining sections in this topic provide more detail about the steps in this procedure.  
   
  For a more detailed example, see  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.  
   
 ###  <a name="starting"></a> Starting and stopping the application under test  
- *I don’t want to start and stop my application, browser, or database separately for each test. How do I avoid that?*  
+ *I don't want to start and stop my application, browser, or database separately for each test. How do I avoid that?*  
   
 -   ![Prerequsite](../test/media/prereq.png "Prereq") If you do not want to record the actions to start your application under test, you must start your application before you choose the **Record** icon.  
   
@@ -191,7 +191,7 @@ Automated tests that drive your application through its user interface (UI) are 
   
  ![Coded UI test properties](../test/media/codedui_2.png "CodedUI_2")  
   
--   *I don’t see any properties when I select a control in my application, or I don’t see the control in the UI Control Map.*  
+-   *I don't see any properties when I select a control in my application, or I don't see the control in the UI Control Map.*  
   
      In the application code, the control that you want to verify must have a unique ID, such as an HTML ID attribute, or a WPF UId. You might need to update the application code to add these IDs.  
   
@@ -243,10 +243,10 @@ Automated tests that drive your application through its user interface (UI) are 
 > [!WARNING]
 >  If you use Microsoft Lync, you must close Lync before you start the Coded UI Test Builder. Microsoft Lync interferes with the **Ctrl+I** keyboard shortcut.  
   
- *I can’t record a mouse hover on a control. Is there a way around this?*  
+ *I can't record a mouse hover on a control. Is there a way around this?*  
  **Manually recording mouse hovers**  
   
- Under some circumstances, a particular control that’s being used in a coded UI test might require you to use the keyboard to manually record mouse hover events. For example, when you test a Windows Form or a Windows Presentation Foundation (WPF) application, there might be custom code. Or, there might be special behavior defined for hovering over a control, such as a tree node expanding when a user hovers over it. To test circumstances like these, you have to manually notify the Coded UI Test Builder that you are hovering over the control by pressing predefined keyboard keys.  
+ Under some circumstances, a particular control that's being used in a coded UI test might require you to use the keyboard to manually record mouse hover events. For example, when you test a Windows Form or a Windows Presentation Foundation (WPF) application, there might be custom code. Or, there might be special behavior defined for hovering over a control, such as a tree node expanding when a user hovers over it. To test circumstances like these, you have to manually notify the Coded UI Test Builder that you are hovering over the control by pressing predefined keyboard keys.  
   
  When you perform your coded UI test, hover over the control. Then press and hold Ctrl, while you press and hold the Shift and R keys on your keyboard. Release the keys. A mouse hover event is recorded by the Coded UT Test Builder.  
   
@@ -282,7 +282,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 ```  
   
- *I’m having issues with recording mouse hovers on a website. Is there a fix for this, too?*  
+ *I'm having issues with recording mouse hovers on a website. Is there a fix for this, too?*  
  **Setting implicit mouse hovers for the web browser**  
   
  In many websites, when you hover over a particular control, it expands to show additional details. Generally, these look like menus in desktop applications. Because this is a common pattern, coded UI tests enable implicit hovers for Web browsing. For example, if you record hovers in Internet Explorer, an event is fired. These events can lead to redundant hovers getting recorded. Because of this, implicit hovers are recorded with `ContinueOnError` set to `true` in the UI test configuration file. This allows playback to continue if a hover event fails.  
@@ -300,7 +300,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ```  
   
 ##  <a name="VerifyingCodeCUITModify"></a> Customizing your coded UI test  
- After you’ve created your coded UI test, you can edit it by using any of the following tools in Visual Studio:  
+ After you've created your coded UI test, you can edit it by using any of the following tools in Visual Studio:  
   
 -   **Coded UI Test Builder:** Use the Coded UI Test Builder to add additional controls and validation to your tests. See the section [Adding controls and validating their properties](#VerifyingCodeUsingCUITGenerateAssertions) in this topic.  
   
@@ -376,7 +376,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
     public partial class UIMap // Same partial class  
     {  
       /// <summary>  
-      /// Add two numbers – parameterized version  
+      /// Add two numbers - parameterized version  
       /// </summary>  
       public void AddTwoNumbers(int firstNumber, int secondNumber)  
       { ...   // Code modified to use parameters.  
@@ -453,7 +453,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ###  <a name="debugging"></a> Debugging  
  You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filter and record important information about your coded UI test runs. The format of the logs lets you debug issues quickly. For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).  
   
-##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What’s next?  
+##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What's next?  
  **Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], or from [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)]. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.  
   
 -   [How to: Run Tests from Microsoft Visual Studio](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)  
@@ -476,14 +476,14 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)  
   
- Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](/devops-test-docs/test_notintoc/creating-manual-test-cases-using-microsoft-test-manager). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/7b5075ee-ddfe-411d-b1d4-94283550a5d0).  
+ Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](/devops-test-docs/test_notintoc/creating-manual-test-cases-using-microsoft-test-manager). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/7b5075ee-ddfe-411d-b1d4-94283550a5d0).  
   
 ## External Resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ### FAQ  
  [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  

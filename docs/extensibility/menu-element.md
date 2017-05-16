@@ -36,7 +36,7 @@ Defines one menu item. These are the six kinds of menus: Context, Menu, MenuCont
 ## Syntax  
   
 ```  
-<Menu guid=”guidMyCommandSet” id=”MyCommand” priority=”0x100” type=”button”>  
+<Menu guid="guidMyCommandSet" id="MyCommand" priority="0x100" type="button">  
   <Parent>... </Parent>  
   <CommandFlag>... </CommandFlag>  
   <Strings>... </Strings>  

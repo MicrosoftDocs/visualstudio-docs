@@ -66,7 +66,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the Web location that is hosting the application’s installer.  
+     Specifies the Web location that is hosting the application's installer.  
   
 -   `BootstrapperComponentFiles`  
   

@@ -48,12 +48,12 @@ This walkthrough shows how to create an extension with a menu command that launc
   
      The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
-4.  In the experimental instance, open the  **Tools / Extensions and Updates** window. You should see the **FirstMenuCommand** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won’t see **FirstMenuCommand**).  
+4.  In the experimental instance, open the  **Tools / Extensions and Updates** window. You should see the **FirstMenuCommand** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won't see **FirstMenuCommand**).  
   
-     Now go to the **Tools** menu in the experimental instance. You should see **Invoke FirstCommand** command. At this point it just brings up a message box that says “FirstCommandPackage Inside FirstMenuCommand.FirstCommand.MenuItemCallback()”. We’ll see how to actually start Notepad from this command in the next section.  
+     Now go to the **Tools** menu in the experimental instance. You should see **Invoke FirstCommand** command. At this point it just brings up a message box that says "FirstCommandPackage Inside FirstMenuCommand.FirstCommand.MenuItemCallback()". We'll see how to actually start Notepad from this command in the next section.  
   
 ## Changing the Menu Command Handler  
- Now let’s update the command handler to start Notepad.  
+ Now let's update the command handler to start Notepad.  
   
 1.  Stop debugging and go back to your working instance of Visual Studio. Open the FirstCommand.cs file and add the following using statement:  
   
@@ -100,7 +100,7 @@ This walkthrough shows how to create an extension with a menu command that launc
      You can use an instance of the <xref:System.Diagnostics.Process> class to run any executable, not just Notepad. Try it with calc.exe, for example.  
   
 ## Cleaning up the Experimental Environment  
- If you are developing multiple extensions, or just exploring outcomes with different versions of your extension code, your experimental environment may stop working the way it should. In this case, you should run the reset script. It’s called **Reset the Visual Studio 2015 Experimental Instance**, and it ships as part of the Visual Studio SDK. This script removes all references to your extensions from the experimental environment, so you can start from scratch.  
+ If you are developing multiple extensions, or just exploring outcomes with different versions of your extension code, your experimental environment may stop working the way it should. In this case, you should run the reset script. It's called **Reset the Visual Studio 2015 Experimental Instance**, and it ships as part of the Visual Studio SDK. This script removes all references to your extensions from the experimental environment, so you can start from scratch.  
   
  You can get to this script in one of two ways:  
   
@@ -114,7 +114,7 @@ This walkthrough shows how to create an extension with a menu command that launc
     ```  
   
 ## Deploying your extension  
- Now that you have your tool extension running the way you want, it’s time to think about sharing it with your friends and colleagues. That’s easy, as long as they have Visual Studio 2015 installed. All you have to do is send them the .vsix file you built. (Be sure to build it in Release mode.)  
+ Now that you have your tool extension running the way you want, it's time to think about sharing it with your friends and colleagues. That's easy, as long as they have Visual Studio 2015 installed. All you have to do is send them the .vsix file you built. (Be sure to build it in Release mode.)  
   
  You can find the .vsix file for this extension in the FirstMenuCommand bin directory. Specifically, assuming you have built the Release configuration, it will be in:  
   
@@ -122,10 +122,10 @@ This walkthrough shows how to create an extension with a menu command that launc
   
  To install the extension, your friend needs to close all open instances of Visual Studio, then double-click the .vsix file, which brings up the **VSIX Installer**. The files are copied to the **%LocalAppData%\Microsoft\VisualStudio\14.0\Extensions** directory.  
   
- When your friend brings up Visual Studio again, he’ll find the FirstMenuCommand extension in **Tools / Extensions and Updates**. He can go to **Extensions and Updates** to uninstall or disable the extension, too.  
+ When your friend brings up Visual Studio again, he'll find the FirstMenuCommand extension in **Tools / Extensions and Updates**. He can go to **Extensions and Updates** to uninstall or disable the extension, too.  
   
 ## Next Steps  
- This walkthrough has shown you only a small part of what you can do with a Visual Studio extension. Here’s a short list of other (reasonably easy) things you can do with Visual Studio extensions:  
+ This walkthrough has shown you only a small part of what you can do with a Visual Studio extension. Here's a short list of other (reasonably easy) things you can do with Visual Studio extensions:  
   
 1.  You can do many more things with a simple menu command:  
   

@@ -38,7 +38,7 @@ When you create an application that manipulates data in a database, you perform 
  This article demonstrates a simple way to get data out of a database in a very fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.  
   
 > [!IMPORTANT]
->  To keep the code simple, it doesn’t include production-ready exception handling.  
+>  To keep the code simple, it doesn't include production-ready exception handling.  
   
  **In this topic**  
   
@@ -68,7 +68,7 @@ When you create an application that manipulates data in a database, you perform 
  This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
   
 ##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
- The sample database for this walkthrough consists of the Customer and Orders tables. The tables contain no data initially, but you’ll add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
+ The sample database for this walkthrough consists of the Customer and Orders tables. The tables contain no data initially, but you'll add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
   
 ##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   

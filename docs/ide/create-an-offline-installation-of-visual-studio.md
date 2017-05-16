@@ -1,8 +1,8 @@
 ---
 title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
-description: "Choose a version and learn how to create an offline installation of Visual Studio."
+description: "Find out how to create an offline installation of Visual Studio."
 ms.custom: ""
-ms.date: "03/27/2017"
+ms.date: "05/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -34,11 +34,9 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Create an offline installation of Visual Studio
+# Create an offline installation of Visual Studio 2017
 
-If you want to create an offline installation layout of Visual Studio so that you can install the product on a computer that doesn't have an internet connection, we can point you in the right direction.
+If you are looking for an offline option for installing Visual Studio 2017, we can point you in the right direction.
 
-Choose the version of Visual Studio you are interested in, and view the details on one of the following pages.
-
-* For **Visual Studio 2015**, see our [Create an Offline Installation of Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx) page on MSDN.
-* For **Visual Studio 2017**, see our [Create an Offline Installation of Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md) page on docs.microsoft.com.
+* If you want to install a single instance of Visual Studio 2017 but your internet connection is unavailable or unreliable, see our [Install Visual Studio 2017 on low bandwidth or unreliable network environments](../install/install-visual-studio-in-offline-environment.md) page.  
+* If you are an enterprise administrator who wants to perform a large deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.

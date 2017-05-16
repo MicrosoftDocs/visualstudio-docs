@@ -60,7 +60,7 @@ int GetBaseIndices (
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- As an example, this function would return ‘5’ for the array created by the following C# code:  
+ As an example, this function would return '5' for the array created by the following C# code:  
   
 ```  
 int[] lengths = { 12 };  

@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting installation issues | Microsoft Docs"
-description: "{{PLACEHOLDER}}"
+description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: "04/14/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Troubleshooting Visual Studio 2017 installation and upgrade failures
+# Troubleshooting Visual Studio 2017 installation and upgrade issues
 
 ## Symptoms
 When you try to install or update Microsoft Visual Studio 2017, the operation fails.
@@ -52,7 +52,7 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 2. Delete the Visual Studio Installer directory. Typically, the directory is C:\Program Files (x86)\Microsoft Visual Studio\Installer.
 3. Run the Visual Studio Installer bootstrapper. You may find the bootstrapper in your Downloads folder with a file name that follows a ```vs_[Visual Studio edition]__*.exe``` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://www.visualstudio.com/downloads/) page and clicking **download** for your edition of Visual Studio. Run this executable to reset your installation metadata.
 4. Try to install or update Visual Studio again. If the Installer continues to fail, go to step 4 immediately below.
-<br/>**Note:** This step will reinstall Visual Studio Installer files and reset installation metadata. 
+<br/>**Note:** This step will reinstall Visual Studio Installer files and reset installation metadata.
 
 ### Step 4 - Report a problem
 In some situations, such as those related to corrupted files, the problems may have to be looked at on a case-by-case basis:
@@ -72,7 +72,10 @@ As a last resort, you can run InstallCleanup.exe. InstallCleanup.exe is a utilit
    * On the **Start** menu, click **Run** (Start + R).
    * Type **cmd**.
    * Right-click **Command Prompt**, and then choose **Run as administrator**.
-3. Type the full path of the InstallCleanup.exe utility, and pass the following command line switch: -f. By default, the path of the utility is as follows:<br/>```C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe```
+3. Type the full path of the InstallCleanup.exe utility, and pass the following command line switch: -f. By default, the path of the utility is as follows:
+   ```
+   C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
+   ```
 4. Rerun the bootstrapper that's described in Step 3.
 5. Try to install or update Visual Studio again.
 
@@ -83,5 +86,3 @@ Here is a table of known issues and some workarounds when installing from a loca
 | ----------- | ---------------------- | -------- |
 | Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
 | New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
-
-

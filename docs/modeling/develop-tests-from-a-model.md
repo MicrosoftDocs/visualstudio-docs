@@ -95,11 +95,11 @@ You can use requirements and architectural models to help you organize the tests
  To test a use case such as Add Item to Order, a test method could include code similar to this:  
   
 ```  
-Order order = … ; // set up an order  
+Order order = ... ; // set up an order  
 // Store prior state:  
 int countBefore = order.MenuItems.Count;   
 // Perform use case:  
-MenuItem chosenItem = …; // choose an item  
+MenuItem chosenItem = ...; // choose an item  
 AddItemToOrder (chosenItem, order);   
 // Verify part of postcondition:  
 int countAfter = order.MenuItems.Count;  

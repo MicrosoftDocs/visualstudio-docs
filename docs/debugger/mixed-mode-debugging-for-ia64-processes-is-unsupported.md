@@ -42,7 +42,7 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
   
 -   Debug your managed and native code in separate debugging sessions.  
   
-     –or–  
+     -or-  
   
      Debug your mixed code as a 32-bit process, as described in the following procedures.  
   

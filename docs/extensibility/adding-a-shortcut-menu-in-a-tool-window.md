@@ -148,7 +148,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     using System.ComponentModel.Design;  
     ```  
   
-3.  Override the tool window’s Initialize() method to get the menu command service and add the control, passing the menu command service to the contructor:  
+3.  Override the tool window's Initialize() method to get the menu command service and add the control, passing the menu command service to the contructor:  
   
     ```c#  
     protected override void Initialize()  

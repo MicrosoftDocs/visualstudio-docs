@@ -50,7 +50,7 @@ void * memcpy(
   
 ```  
   
- Can you tell what this function does? When a function is implemented or called, certain properties must be maintained to ensure program correctness. Just by looking at a declaration such as the one in the example, you don't know what they are. Without SAL annotations, you'd have to rely on documentation or code comments. Here’s what the MSDN documentation for `memcpy` says:  
+ Can you tell what this function does? When a function is implemented or called, certain properties must be maintained to ensure program correctness. Just by looking at a declaration such as the one in the example, you don't know what they are. Without SAL annotations, you'd have to rely on documentation or code comments. Here's what the MSDN documentation for `memcpy` says:  
   
 > "Copies count bytes of src to dest. If the source and destination overlap, the behavior of memcpy is undefined. Use memmove to handle overlapping regions.   
 > **Security Note:** Make sure that the destination buffer is the same size or larger than the source buffer. For more information, see Avoiding Buffer Overruns."  
@@ -184,7 +184,7 @@ void GoodInOptCallee(_In_opt_ int *pInt)
   
 void BadInOptCallee(_In_opt_ int *pInt)  
 {  
-   int i = *pInt; // Dereferencing NULL pointer ‘pInt’  
+   int i = *pInt; // Dereferencing NULL pointer 'pInt'  
 }  
   
 void InOptCaller()  
@@ -199,7 +199,7 @@ void InOptCaller()
  Visual Studio Code Analysis validates that the function checks for NULL before it accesses the buffer.  
   
 ### Example: The _Out\_ Annotation  
- `_Out_` supports a common scenario in which a non-NULL pointer that points to an element buffer is passed in and the function initializes the element. The caller doesn’t have to initialize the buffer before the call; the called function promises to initialize it before it returns.  
+ `_Out_` supports a common scenario in which a non-NULL pointer that points to an element buffer is passed in and the function initializes the element. The caller doesn't have to initialize the buffer before the call; the called function promises to initialize it before it returns.  
   
 ```cpp  
   
@@ -239,7 +239,7 @@ void GoodOutOptCallee(_Out_opt_ int *pInt)
   
 void BadOutOptCallee(_Out_opt_ int *pInt)  
 {  
-   *pInt = 5; // Dereferencing NULL pointer ‘pInt’  
+   *pInt = 5; // Dereferencing NULL pointer 'pInt'  
 }  
   
 void OutOptCaller()  
@@ -278,7 +278,7 @@ void InOutCaller()
 void BadInOutCaller()  
 {  
    int *pInt = NULL;  
-   InOutCallee(pInt); // ‘pInt’ should not be NULL  
+   InOutCallee(pInt); // 'pInt' should not be NULL  
 }  
   
 ```  
@@ -300,7 +300,7 @@ void GoodInOutOptCallee(_Inout_opt_ int *pInt)
   
 void BadInOutOptCallee(_Inout_opt_ int *pInt)  
 {  
-   int i = *pInt; // Dereferencing NULL pointer ‘pInt’  
+   int i = *pInt; // Dereferencing NULL pointer 'pInt'  
    *pInt = 6;  
 }  
   
@@ -365,7 +365,7 @@ void BadOutPtrOptCallee(_Outptr_opt_ int **pInt)
 {  
    int *pInt2 = new int;  
    *pInt2 = 6;  
-   *pInt = pInt2; // Dereferencing NULL pointer ‘pInt’  
+   *pInt = pInt2; // Dereferencing NULL pointer 'pInt'  
 }  
   
 void OutPtrOptCaller()  

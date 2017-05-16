@@ -130,7 +130,7 @@ translation.priority.mt:
   
      You can install and update the Microsoft Visual Studio Emulator for Android from the Visual Studio Gallery.  
   
- In most cases, Visual Studio can detect the configurations for the third-party software you’ve installed, and maintains the installation paths in internal environment variables. You can override the default paths of these cross-platform development tools in the Visual Studio IDE.  
+ In most cases, Visual Studio can detect the configurations for the third-party software you've installed, and maintains the installation paths in internal environment variables. You can override the default paths of these cross-platform development tools in the Visual Studio IDE.  
   
 #### To set the paths for third-party tools  
   

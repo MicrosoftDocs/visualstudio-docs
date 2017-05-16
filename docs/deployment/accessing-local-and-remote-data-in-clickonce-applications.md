@@ -54,7 +54,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../deployment/
  The data directory is intended for application-managed data, which is data that the application explicitly stores and maintains. All static, nondependency files not marked as "data" in the application manifest will instead reside in the Application Directory. This directory is where the application's executable (.exe) files and assemblies reside.  
   
 > [!NOTE]
->  When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user–managed data, such as documents.  
+>  When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user-managed data, such as documents.  
   
 #### Marking Data Files in a ClickOnce Distribution  
  To put an existing file inside the Data Directory, you must mark the existing file as a data file in your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application's application manifest file. For more information, see [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).  

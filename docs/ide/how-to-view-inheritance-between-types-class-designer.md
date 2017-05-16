@@ -53,7 +53,7 @@ You can find the inheritance relationship, if it exists, between a base type and
   
 2.  On the **Class Diagram** menu, choose **Show Derived Classes** or **Show Derived Interfaces**.  
   
-     The type’s derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
+     The type's derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
   
  You can also right-click the type for which you want to see its derived types, and choose **Show Derived Classes** or **Show Derived Interfaces**.  
   

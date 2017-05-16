@@ -48,7 +48,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
     ```  
   
-3.  If you are loading via UI contexts, then you should specify **PackageAutoLoadFlags.BackgroundLoad** for the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> OR the value (0x2) into the flags written as the value of your package’s auto-load entry.  
+3.  If you are loading via UI contexts, then you should specify **PackageAutoLoadFlags.BackgroundLoad** for the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> OR the value (0x2) into the flags written as the value of your package's auto-load entry.  
   
     ```c#  
     [ProvideAutoLoad(UIContextGuid, PackageAutoLoadFlags.BackgroundLoad)]  
@@ -102,7 +102,7 @@ public sealed class TestPackage : AsyncPackage
   
  then your package will load synchronously.  
   
- Note that your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work’s completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don’t immediately block on the resulting task object.  
+ Note that your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work's completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don't immediately block on the resulting task object.  
   
  C#: How to query service asynchronously:  
   

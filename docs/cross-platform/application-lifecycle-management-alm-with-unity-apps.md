@@ -30,11 +30,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Application Lifecycle Management (ALM) with Unity Apps
-Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app’s complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
+Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
   
  Visual Studio together with Visual Studio Team Services and Team Foundation Server provide a variety of DevOps capabilities, also referred to as Application Lifecycle Management or ALM. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity—especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of ALM features don't apply as they would to other kinds of projects built in Visual Studio.  
   
- The tables below identifies how Visual Studio ALM features apply or don’t apply when working with Unity. Refer to the linked documentation for details on the features themselves.  
+ The tables below identifies how Visual Studio ALM features apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.  
   
 ## Agile tools  
  Reference link: **[Work](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)  
@@ -81,7 +81,7 @@ Developing apps for modern platforms involves many more activities than just wri
   
 2.  Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.  
   
-3.  Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don’t need to be versioned along with source code changes. Developers also typically set the project editor’s Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).  
+3.  Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).  
   
 ## Build  
  Reference link: **[Build](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
@@ -104,7 +104,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |Test Manager (record and playback tests)|Windows devices and Android emulators only||  
 |Code coverage|n/a|Not applicable as unit testing happens within Unity and not Visual Studio, see below.|  
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|  
-|[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app’s UI; Unity apps are graphical in nature and so content isn’t readable by the Coded UI test tools.|  
+|[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|  
   
 ## Improve code quality  
  Reference link: **[Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
