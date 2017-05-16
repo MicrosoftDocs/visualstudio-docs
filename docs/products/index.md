@@ -75,11 +75,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
-<<<<<<< HEAD
-                                <a href="https://docs.microsoft.com/visualstudio/mac">
-=======
                                 <a href="/visualstudio/mac">
->>>>>>> 066b83e7457dd630b1aa59cba83d0dec6a84631c
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
