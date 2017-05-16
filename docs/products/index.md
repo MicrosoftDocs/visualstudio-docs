@@ -17,7 +17,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#products1"></a>
                         <ul id="products1" class="cardsC">
                             <li style="flex: 0 1 25%">
-                                <a href="https://docs.microsoft.com/en-us/visualstudio/">
+                                <a href="/visualstudio/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -36,7 +36,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
-                                <a href="https://www.visualstudio.com/en-us/docs/overview">
+                                <a href="https://www.visualstudio.com/docs/overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -74,7 +74,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
-                                <a href="https://developer.xamarin.com/">
+                                <a href="/visualstudio/mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
