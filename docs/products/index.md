@@ -23,7 +23,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
+                                                        <img src="./images/vs-ide.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -42,7 +42,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-teamservices.svg" src="./images/vs-teamservices.svg" alt="" />
+                                                        <img src="./images/vs-teamservices.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -61,7 +61,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
+                                                        <img src="./images/vs-code.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -80,7 +80,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
+                                                        <img src="./images/vs-mac.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
