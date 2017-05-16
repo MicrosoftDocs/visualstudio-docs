@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+searchScope: []
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -17,7 +18,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#products1"></a>
                         <ul id="products1" class="cardsC">
                             <li style="flex: 0 1 25%">
-                                <a href="https://docs.microsoft.com/en-us/visualstudio/">
+                                <a href="/visualstudio/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -36,7 +37,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
-                                <a href="https://www.visualstudio.com/en-us/docs/overview">
+                                <a href="https://www.visualstudio.com/docs/overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -74,7 +75,11 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
+<<<<<<< HEAD
                                 <a href="https://docs.microsoft.com/visualstudio/mac">
+=======
+                                <a href="/visualstudio/mac">
+>>>>>>> 066b83e7457dd630b1aa59cba83d0dec6a84631c
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
