@@ -74,7 +74,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li style="flex: 0 1 25%">
-                                <a href="https://developer.xamarin.com/">
+                                <a href="https://docs.microsoft.com/visualstudio/mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
