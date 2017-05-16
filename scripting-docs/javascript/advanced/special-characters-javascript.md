@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "white space character"
   - "Unicode character"
   - "escape sequence"
-  - "backslash (\)"
+  - "backslash (\\)"
 ms.assetid: 3b38b1bd-1f0f-4748-b13e-55cab36fd126
 caps.latest.revision: 31
 author: "mikejo5000"
