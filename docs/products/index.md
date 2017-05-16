@@ -23,7 +23,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img src="./images/vs-ide.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -42,7 +42,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img src="./images/vs-teamservices.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-teamservices.svg" src="./images/vs-teamservices.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -61,7 +61,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img src="./images/vs-code.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -80,7 +80,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img src="./images/vs-mac.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -98,34 +98,4 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
             </li>
         </ul>
     </div>
-    <!-- <div class="container centered pageFooter">
-        <h2>Keep in touch with us</h2>
-        <ul class="links">
-           <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833100">
-                    Blog
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833101">
-                    Twitter
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833103">
-                    Stack Overflow
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833104">
-                    Issue Reporting
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833105">
-                    User Voice
-                </a>
-            </li>
-        </ul>
-    </div> -->
 </div>
