@@ -75,7 +75,9 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 3.  Open the .vstemplate file in Visual Studio.  
 
-4.  For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
+4.  For a Universal Windows C# project, in the .vstemplate file, add the following XML within the opening `<TemplateData>` tag : `<TemplateID>Microsoft.CSharp.Class</TemplateID>`. 
+
+For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
 
      A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
 
