@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug a C# or VB Project in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -71,7 +71,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
 5.  Make sure the **Working directory** text box is empty.  
   
-6.  Choose **Use remote machine**, and type **MJO-DL:4020** in the text box. (4020 is the port number shown in the remote debugger window).  
+6.  Choose **Use remote machine**, and type **MJO-DL:4022** in the text box. (4022 is the port number shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).  
   
 7.  Make sure that **Enable native code debugging** is not selected.  
   
