@@ -48,10 +48,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
   
 * Do not support x64 configuration.  
   
-## Get started with IntelliTest  
- You'll need Visual Studio Enterprise.  
-  
-### Explore: Use IntelliTest to explore your code and generate unit tests  
+## Explore: Use IntelliTest to explore your code and generate unit tests  
  To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.  
   
 1.  Open your solution in Visual Studio. Then open the class file that has methods you want to test.  
@@ -70,7 +67,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
   
      For tests that pass, check that the reported results in the result column match your expectations for your code. For tests that fail, fix your code as appropriate. Then rerun IntelliTest to validate the fixes.  
   
-### Persist: Save the unit tests as a regression suite  
+## Persist: Save the unit tests as a regression suite  
   
 1.  Select the data rows that you want to save with the parameterized unit test into a test project.  
   
@@ -84,7 +81,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
   
      If the method code changes, rerun IntelliTest to keep the unit tests in sync with the changes.  
   
-### Assist: Use IntelliTest to focus code exploration  
+## Assist: Use IntelliTest to focus code exploration  
   
 1.  If you have more complex code, IntelliTest assists you with focusing exploration of your code. For example, if you have a method that has an interface as a parameter, and there is more than one class that implements that interface, IntelliTest discovers those classes and reports a warning.  
   
@@ -104,8 +101,9 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
   
      ![Rerun IntelliTest to generate the test data](../test/media/pexwarningsfixed.png "PEXWarningsFixed")  
   
-### Specify: Use IntelliTest to validate correctness properties that you specify in code  
- Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.  
+## Specify: Use IntelliTest to validate correctness properties that you specify in code  
+
+Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.  
   
 ##  <a name="QandALink"></a> Q & A  
   
