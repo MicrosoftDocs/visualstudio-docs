@@ -34,8 +34,19 @@ translation.priority.mt:
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, if statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage.  
   
  When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes.  
+
+## Availability and extensions
+
+The **Create IntelliTest** and **Run IntelliTest** menu commands:
+
+* Are available in only the Enterprise Edition of Visual Studio 2015 and later.
+
+* Support only C# code that targets the .NET Framework.
+
+* Are [extensible](#extend-framework), and support emitting tests in MSTest,
+  MSTest V2, NUnit, xUnit format.
   
- IntelliTest is available for C# only and does not support x64 configuration.  
+* Do not support x64 configuration.  
   
 ## Get started with IntelliTest  
  You'll need Visual Studio Enterprise.  
@@ -99,10 +110,12 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
 ##  <a name="QandALink"></a> Q & A  
   
 ### Q: Can you use IntelliTest for unmanaged code?  
- **A:** No, IntelliTest only works with managed code.  
+
+**A:** No, IntelliTest only works with managed code.  
   
 ### Q: When does a generated test pass or fail?  
- **A:** It passes like any other unit test if no exceptions occur. It fails if any assertion fails, or if the code under test throws an unhandled exception.  
+
+**A:** It passes like any other unit test if no exceptions occur. It fails if any assertion fails, or if the code under test throws an unhandled exception.  
   
  If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:  
   
@@ -115,34 +128,48 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
 -   **PexAllowedExceptionFromAssemblyAttribute**  
   
 ### Q: Can I add assumptions to the parameterized unit test?  
- **A:** Yes, use assumptions to specify which test data is not required for the unit test for a specific method. Use the <xref:Microsoft.Pex.Framework.PexAssume> class to add assumptions. For example, you can add an assumption that the lengths variable is not null like this.  
+
+**A:** Yes, use assumptions to specify which test data is not required for the unit test for a specific method. Use the <xref:Microsoft.Pex.Framework.PexAssume> class to add assumptions. For example, you can add an assumption that the lengths variable is not null like this.  
   
  `PexAssume.IsNotNull(lengths);`  
   
  If you add an assumption and rerun IntelliTest, the test data that is no longer relevant will be removed.  
   
 ### Q: Can I add assertions to the parameterized unit test?  
- **A:** Yes, IntelliTest will check that what you are asserting in your statement is in fact correct when it runs the unit tests. Use the <xref:Microsoft.Pex.Framework.PexAssert> class or the assertion API that comes with the test framework to add assertions. For example, you can add an assertion that two variables are equal.  
+
+**A:** Yes, IntelliTest will check that what you are asserting in your statement is in fact correct when it runs the unit tests. Use the <xref:Microsoft.Pex.Framework.PexAssert> class or the assertion API that comes with the test framework to add assertions. For example, you can add an assertion that two variables are equal.  
   
  `PexAssert.AreEqual(a, b);`  
   
  If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.  
   
 ###  <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?  
- **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.  
+
+**A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.  
   
  ![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png "PEXCreateIntelliTest")  
   
  Accept the default format to generate your tests, or change how your project and tests are named. You can create a new test project or save your tests to an existing project.  
   
  ![Create IntelliTest with MSTest default](../test/media/pexcreateintellitestmstest.png "PEXCreateIntelliTestMSTest")  
-  
+
+<a name="extend-framework"></a>  
 ### Q: Can I use other unit test frameworks with IntelliTest?  
- **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:  
+
+**A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md).
+Test framework extensions are also available in Visual Studio Marketplace:
+
+* [NUnit Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
+* [xUnit.net Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
+
+
+After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:  
   
- ![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png "PEXCreateIntelliTestExtensions")  
+![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png "PEXCreateIntelliTestExtensions")  
   
- Then run IntelliTest to generate individual unit tests in their corresponding .g.cs files.  
+Then run IntelliTest to generate individual unit tests in their corresponding .g.cs files.  
+
   
 ### Q: Can I learn more about how the tests are generated?  
- **A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
+
+**A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
