@@ -61,17 +61,8 @@ Properties window
  [Announcing Property Window Selection Tracking](../../misc/announcing-property-window-selection-tracking.md)  
  Describes selection tracking for the **Properties** window.  
   
- [Hiding Properties That Have Child Properties](../../misc/hiding-properties-that-have-child-properties.md)  
- Explains how to hide properties that have child properties by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing> interface.  
-  
  [Providing a Custom Properties Window](../../misc/providing-a-custom-properties-window.md)  
  Details the steps for providing your own property browser.  
-  
- [Getting Field Descriptions from the Properties Window](../../misc/getting-field-descriptions-from-the-properties-window.md)  
- Explains where to find the description area that displays information related to the selected property field.  
-  
- [Updating Property Values in the Properties Window](../../misc/updating-property-values-in-the-properties-window.md)  
- Provides step-by-step instructions that show the two ways to keep the **Properties** window synchronized with property value changes.  
   
 ## Related Sections  
  [Project Types](../../extensibility/internals/project-types.md)  

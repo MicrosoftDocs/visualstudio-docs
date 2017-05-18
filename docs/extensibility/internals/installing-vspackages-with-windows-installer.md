@@ -68,7 +68,3 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vs
   
  [Uninstalling a VSPackage With Windows Installer](../../extensibility/internals/uninstalling-a-vspackage-with-windows-installer.md)  
  Describes the steps your installer must perform when users uninstall your VSPackage.  
-  
-## Related Sections  
- [Installing VSPackages](../../misc/installing-vspackages.md)  
- Discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] at the same time.
