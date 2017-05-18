@@ -63,7 +63,7 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 ## How to Configure Ports in Windows Firewall  
 
-When you install Visual Studio or the remote debugger, the software will try to open the correct ports. However, in some scenarios, you may need to open a port manually. (To verify that ports are open, see [Troubleshooting](#troubleshooting).) Some instructions may be different on older versions of Windows.
+When you install Visual Studio or the remote debugger, the software will try to open the correct ports. However, in some scenarios (such as using a third party firewall), you may need to open a port manually. If you need to verify that ports are open, see [Troubleshooting](#troubleshooting). Some instructions for opening a port may be different on older versions of Windows.
 
 To open a port:
   
@@ -86,7 +86,7 @@ To open a port:
 
 ## <a name="troubleshooting"></a>Troubleshooting
 
-When you install Visual Studio or the remote debugger, the software will try to open the correct ports. In some scenarios, you may need to verify that the correct ports are open.
+When you install Visual Studio or the remote debugger, the software will try to open the correct ports in Windows Firewall. In some scenarios, you may need to verify that the correct ports are open.
 
 ### Verify that the Windows Firewall is configured correctly on the Visual Studio Computer  
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used; on Windows 7 or Windows Server 2008, the word **program** is used;  In the following steps we will use the word **app**.  
