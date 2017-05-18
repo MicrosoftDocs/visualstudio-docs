@@ -36,6 +36,7 @@ rm -rf ~/Library/Preferences/VisualStudio
 rm -rf "~/Library/Preferences/Visual Studio"
 rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualLodStudio
+rm -rf ~/Library/Preferences/Xamarin/
 ```
 
 ## Uninstall Mono SDK (MDK)
