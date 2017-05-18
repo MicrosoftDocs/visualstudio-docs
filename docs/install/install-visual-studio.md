@@ -53,9 +53,6 @@ To start, you'll want to download Visual Studio. To do so, click the following b
  > [!div class="button"]
  [Download Visual Studio 2017](https://www.visualstudio.com/downloads)
 
- <a href="https://www.visualstudio.com/downloads"><img src="media/Download-VS-Button.png"alt="Download the latest version of Visual Studio 2017"></a>
-
-
 ## Install the installer  
 When you download Visual Studio 2017, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
 
