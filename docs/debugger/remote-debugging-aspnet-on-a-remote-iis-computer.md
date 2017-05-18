@@ -154,13 +154,24 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 Required ports:
 
 - 80 - Required for IIS
-- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
 - 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for detailed information.
+- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio.
 - UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules / New Rule / Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+2. Then choose **Inbound Rules / New Rule / Port**, and then click **Next**. (For UDP 3702, choose **Outbound Rules** instead.)
+
+3. Under **Specific local ports**, enter the port number, click **Next**.
+
+4. Click **Allow the Connection**, click **Next**.
+
+5. Select one or more network types to enable for the port and click **Next**.
+
+    The type you select must include the network to which the remote computer is connected.
+6. Add the name (for example, **IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule and click **Finish**.
+
+    You should see your new rule in the Inbound Rules or Outbound Rules list.
 
     If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
