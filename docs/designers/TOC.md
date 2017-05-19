@@ -79,4 +79,4 @@
 #### [How to: Export a Texture that has Premultiplied Alpha](how-to-export-a-texture-that-has-premultiplied-alpha.md)
 #### [How to: Export a Texture for Use with Direct2D or Javascipt Apps](how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)
 ## [The Visual Studio Image Library](the-visual-studio-image-library.md)
-# [Developing Applications with the Workflow Designer](~/workflow-designer)
+# [Developing Applications with the Workflow Designer](../workflow-designer/developing-applications-with-the-workflow-designer.md)
