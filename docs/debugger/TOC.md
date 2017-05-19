@@ -148,7 +148,7 @@
 ## [API Reference for IntelliTrace Extensibility](api-reference-for-intellitrace-extensibility.md)
 # [Debug Applications](debugging-applications.md)
 ## [Debug Windows Store and UWP apps](debugging-windows-store-and-windows-universal-apps.md)
-### [Get started debugging UWP apps](debug-installed-app-package.md)
+### [Debug an installed app package](debug-installed-app-package.md)
 ### [Run Store apps from Visual Studio](run-store-apps-from-visual-studio.md)
 #### [Run Windows Store apps on the local machine](run-windows-store-apps-on-the-local-machine.md)
 #### [Run Windows Store apps in the simulator](run-windows-store-apps-in-the-simulator.md)
