@@ -36,7 +36,7 @@ Specifies the minimum version of the operating system that the project template 
   
  VSTemplate  
 TemplateData  
-…..TargetPlatformName  
+.....TargetPlatformName  
 RequiredPlatformVersion  
   
 ## Syntax  

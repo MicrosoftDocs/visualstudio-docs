@@ -126,7 +126,7 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
     </dependentAssembly>  
   </dependency>  
 <publisherIdentity name="CN=DOMAIN\MyUsername" issuerKeyHash="18312a18a21b215ecf4cdb20f5a0e0b0dd263c08" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">  
-…  
+...  
 </Signature></asmv1:assembly>  
 ```  
   

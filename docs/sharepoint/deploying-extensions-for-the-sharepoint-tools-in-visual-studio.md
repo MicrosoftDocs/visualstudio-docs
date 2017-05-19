@@ -237,7 +237,7 @@ manager: "ghogen"
  The following example shows the contents of an extension.vsixmanifest file for a SharePoint tools extension. The extension is implemented in an assembly that's named Contoso.ProjectExtension.dll. The extension includes a SharePoint command assembly that's named Contoso.ExtensionCommands.dll and an item template under a folder that's named **ItemTemplates** in the VSIX package. This example assumes that both of the assemblies are in the same folder as the extension.vsixmanifest file in the VSIX package.  
   
 ```  
-<PackageManifest Version=”2.0.0” xmlns=”http://schemas.microsoft.com/developer/vsx-schema/2011”>  
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">  
   <Metadata>  
     <Identity Id="CustomActionProjectItem.Microsoft.b99efe4d-cef3-4afd-b9af-034ca0c52743" Version="1.0" Language="en-US" Publisher="Microsoft" />  
     <DisplayName>CustomActionProjectItem</DisplayName>  

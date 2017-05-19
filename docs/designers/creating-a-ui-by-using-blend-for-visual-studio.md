@@ -35,7 +35,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
   
  Since Blend for Visual Studio is included as a part of Visual Studio, you don't need to download it. However, you need to select it in the Visual Studio installer for it to install on your system.  
   
- If you’re new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.  
+ If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.  
   
 > [!NOTE]
 >  To tour the shared design features such as the artboard, Document Outline window, and Device window, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
@@ -67,7 +67,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [The Toolbar](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4).  
   
 ##  <a name="Assets"></a> Tour of the Assets panel  
- You can find all controls in the **Assets** panel, similar to the **Toolbox** in Visual Studio. In addition to controls, you’ll find everything you can add to your artboard in the **Assets** panel, including styles, media, behaviors, and effects.  
+ You can find all controls in the **Assets** panel, similar to the **Toolbox** in Visual Studio. In addition to controls, you'll find everything you can add to your artboard in the **Assets** panel, including styles, media, behaviors, and effects.  
   
  ![Assets panel](../designers/media/blend5_assets_panel.png "Blend5_Assets_panel")  
   
@@ -87,12 +87,12 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 |||  
 |-|-|  
 |![](../designers/media/b1_1.png "B1_1")|**Objects view** View a visual tree of a document. You can drill down to varying levels of detail. You can also add layers to further organize objects on the artboard. That way you can lock and hide them as a group.|  
-|![](../designers/media/b1_2.png "B1_2")|**Record mode indicator** See whether you’re recording property changes in a timeline.|  
-|![](../designers/media/b1_3.png "B1_3")|**Storyboard picker** View a list of storyboards that you’ve created.|  
+|![](../designers/media/b1_2.png "B1_2")|**Record mode indicator** See whether you're recording property changes in a timeline.|  
+|![](../designers/media/b1_3.png "B1_3")|**Storyboard picker** View a list of storyboards that you've created.|  
 |![](../designers/media/b1_4.png "B1_4")|**Close storyboard** Close the current storyboard.|  
 |![](../designers/media/b1_5.png "B1_5")|**Storyboard options** Create, duplicate, reverse, delete, rename, or close a storyboard.|  
 |![](../designers/media/b1_6.png "B1_6")|**Playback controls** Navigate through the timeline. You can also drag the playhead to navigate through (or *scrub*) the timeline.|  
-|![](../designers/media/b1_7.png "B1_7")|**Return scope to** Scope the objects view back to the previous root object or previous scope. You can do this only when you’re modifying a style or template.|  
+|![](../designers/media/b1_7.png "B1_7")|**Return scope to** Scope the objects view back to the previous root object or previous scope. You can do this only when you're modifying a style or template.|  
 |![](../designers/media/b1_8.png "B1_8")|**Record a keyframe** Record a snapshot of the properties of the selected object at the current point in time.|  
 |![](../designers/media/b1_9.png "B1_9")|**Snapping options** Set timeline snapping, snap resolution, and turn off timeline snapping.|  
 |![](../designers/media/97fa60b9-0caf-4387-9225-b57510d32209.png "97fa60b9-0caf-4387-9225-b57510d32209")|**Show/hide**, **Lock/unlock** Show or hide the visibility and locking options for the objects view.|  

@@ -200,9 +200,9 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
     ```  
   
 ## Making the Adornment Appear on Every Line  
- The original adornment appeared on every character ‘a’ in a text file. Now that we have changed the code to add the adornment in response to the ‘+’ character, it adds the adornment only on the line where the ‘+’ is typed. We can change the adornment code so that the adornment once more appears on every ‘a’.  
+ The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the '+' character, it adds the adornment only on the line where the '+' is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
   
- In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the ‘a’ character.  
+ In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the 'a' character.  
   
 ```c#  
 private void CreateVisuals(ITextViewLine line)  
@@ -250,6 +250,6 @@ private void CreateVisuals(ITextViewLine line)
   
 1.  Build the KeyBindingTest solution and run it in the experimental instance.  
   
-2.  Create or open a text file. Type some words containing the character ‘a’, and then type + anywhere in the text view.  
+2.  Create or open a text file. Type some words containing the character 'a', and then type + anywhere in the text view.  
   
-     A purple square should appear on every ‘a’ character in the file.
+     A purple square should appear on every 'a' character in the file.

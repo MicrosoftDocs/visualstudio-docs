@@ -43,11 +43,11 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
  The mechanism may be used by any Visual Studio extension.  
   
 ## Create a Rule-based UI Context  
- Suppose you have an extension called TestPackage, which offers a menu command which applies only to files with “.config” extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext%2A> UI Context was activated. This is not efficient, since the loaded solution may not even contain a .config file. Let us see how rules-based UI Context can be used to activate a UI Context only when a file with .config extension is selected, and load TestPackage when that UI Context is activated.  
+ Suppose you have an extension called TestPackage, which offers a menu command which applies only to files with ".config" extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext%2A> UI Context was activated. This is not efficient, since the loaded solution may not even contain a .config file. Let us see how rules-based UI Context can be used to activate a UI Context only when a file with .config extension is selected, and load TestPackage when that UI Context is activated.  
   
 1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
-     For example, let’s assume a new UIContext “UIContextGuid” is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is “8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B”. You then add the following inside your package class:  
+     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following inside your package class:  
   
     ```c#  
     public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
@@ -68,7 +68,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
      The values of the attribute are added to pkgdef generated during build time afterwards.  
   
-2.  In the VSCT file for the TestPackage’s commands, add the “DynamicVisibility” flag to the appropriate commands:  
+2.  In the VSCT file for the TestPackage's commands, add the "DynamicVisibility" flag to the appropriate commands:  
   
     ```xml  
     <CommandFlag>DynamicVisibility</CommandFlag>  
@@ -158,6 +158,6 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
 ## Extensible UI Context Rules  
  Sometimes, packages cannot use static UI Context rules. For example, suppose you have a package supporting extensibility such that the command state is based on editor types that are supported by imported MEF providers. The command is enabled if there is an extension supporting the current edit type. In such cases the package itself cannot use a static UI Context rule, since the terms would change depending on which MEF extensions are available.  
   
- In order to support such packages, rule based UI Contexts support a hardcoded expression “*” that indicates all the terms below it will be joined with OR. This allows for the master package to define a known rule based UI Context and tie its command state to this context. Afterwards any MEF extension targeted for the master package can add its terms for editors it supports without impacting other terms or the master expression.  
+ In order to support such packages, rule based UI Contexts support a hardcoded expression "*" that indicates all the terms below it will be joined with OR. This allows for the master package to define a known rule based UI Context and tie its command state to this context. Afterwards any MEF extension targeted for the master package can add its terms for editors it supports without impacting other terms or the master expression.  
   
  The constructor <xref:Microsoft.VisualStudio.Shell.ProvideExtensibleUIContextRuleAttribute.%23ctor%2A> documentation shows the syntax for extensible UI Context rules.

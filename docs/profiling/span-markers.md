@@ -44,7 +44,7 @@ A span marker in the Concurrency Visualizer
 The colors of the first five span categories  
   
 ## Span Aggregation Markers  
- Sometimes span markers occur so close to one another in the Concurrency Visualizer that they can’t be drawn individually. When this occurs, a gray *span aggregation marker* that represents the underlying spans is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying spans that are represented. To view the spans, zoom in. If you zoom in all the way and still get an span aggregation marker, you can view the underlying span markers in the [Markers Report](../profiling/markers-report.md). This illustration shows a span aggregation marker:  
+ Sometimes span markers occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *span aggregation marker* that represents the underlying spans is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying spans that are represented. To view the spans, zoom in. If you zoom in all the way and still get an span aggregation marker, you can view the underlying span markers in the [Markers Report](../profiling/markers-report.md). This illustration shows a span aggregation marker:  
   
  ![An aggregate span marker in Concurrency Visualizer](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")  
 A span aggregation marker  

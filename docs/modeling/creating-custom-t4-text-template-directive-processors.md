@@ -42,7 +42,7 @@ The *text template transformation process* takes a *text template* file as the i
 ## Custom Directives  
  A custom directive looks like this:  
   
- `<#@ MyDirective Processor="MyDirectiveProcessor" parameter1="value1" … #>`  
+ `<#@ MyDirective Processor="MyDirectiveProcessor" parameter1="value1" ... #>`  
   
  You can use a custom directive processor when you want to access external data or resources from a text template.  
   

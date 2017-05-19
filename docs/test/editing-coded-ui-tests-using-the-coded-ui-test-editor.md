@@ -40,7 +40,7 @@ The Coded UI Test Editor lets you easily modify your coded UI tests. Using the C
 -   Visual Studio Enterprise  
   
 ## Why should I do this?  
- Using the Coded UI Test Editor is quicker and more efficient than editing the code in your coded UI test methods using the Code Editor. With the Coded UI Test Editor, you can use the toolbar and shortcut menus to quickly locate and modify property values associated with UI actions and controls. For example, you can use the Coded UI Test Editor’s toolbar to perform the following commands:  
+ Using the Coded UI Test Editor is quicker and more efficient than editing the code in your coded UI test methods using the Code Editor. With the Coded UI Test Editor, you can use the toolbar and shortcut menus to quickly locate and modify property values associated with UI actions and controls. For example, you can use the Coded UI Test Editor's toolbar to perform the following commands:  
   
  ![UI Test Edito](../test/media/uitesteditor.png "UITestEditor")  
   
@@ -60,10 +60,10 @@ The Coded UI Test Editor lets you easily modify your coded UI tests. Using the C
   
 8.  [Locate the UI Control](#CodedUITestEditor_LocateUIControl) identifies the location of the control in the UI of application under test.  
   
-9. [Locate All](#CodedUITestEditor_LocateDecendants) helps you verify control property and significant changes to the application’s controls.  
+9. [Locate All](#CodedUITestEditor_LocateDecendants) helps you verify control property and significant changes to the application's controls.  
   
 ## How do I do this?  
- In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], opening the UIMap.uitest file affiliated with your coded UI test in your coded UI test project will automatically display the coded UI test in the Coded UI Test Editor. The following procedures describe how you can then locate and edit your test methods, and properties for the UI actions, and controls using the editor’s toolbar and shortcut menus.  
+ In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], opening the UIMap.uitest file affiliated with your coded UI test in your coded UI test project will automatically display the coded UI test in the Coded UI Test Editor. The following procedures describe how you can then locate and edit your test methods, and properties for the UI actions, and controls using the editor's toolbar and shortcut menus.  
   
 ## Open a coded UI test  
  You can view and edit your Visual C# and Visual Basic-based coded UI test using the Coded UI Test Editor.  
@@ -86,14 +86,14 @@ Edit UI action properties
   
  To modify the properties for a UI action, in the **UI Action** pane, expand the test method that contains a UI action that you want to edit the properties for, select the UI action, and then modify the properties using the Properties window.  
   
- For example, if a server is unavailable, and you have a UI action associated with your Web browser that states **Go to Web page ‘http://Contoso1/default.aspx’**, you could change the URL to `‘http://Contoso2/default.aspx’`.  
+ For example, if a server is unavailable, and you have a UI action associated with your Web browser that states **Go to Web page 'http://Contoso1/default.aspx'**, you could change the URL to `'http://Contoso2/default.aspx'`.  
   
  ![Control properties](../test/media/codeduitestcontrolprop.png "CodedUITestControlProp")  
 Edit control properties  
   
  Modifying the properties for a control is done in the same way as the UI actions. In the **UI Control Map** pane, select the control that you want to edit and modify its properties using the Properties window.  
   
- For example, a developer might have changed the **(ID)** property on a button control in the source code for the application being tested from “idSubmit” to “idLogin.” With the **(ID)** property changed in the application, the coded UI test will not be able to locate the button control and will fail. In this case, the tester can open the **Search Properties** collection and change the **Id** property to match the new value that the developer used in the application. The tester could also change the **Friendly Name** property value from “Submit” to “Login.” By making this change, the associated UI action in the Coded UI Test Editor is updated from “Choose ‘Submit’ button” to “Choose ‘Login’ button.”  
+ For example, a developer might have changed the **(ID)** property on a button control in the source code for the application being tested from "idSubmit" to "idLogin." With the **(ID)** property changed in the application, the coded UI test will not be able to locate the button control and will fail. In this case, the tester can open the **Search Properties** collection and change the **Id** property to match the new value that the developer used in the application. The tester could also change the **Friendly Name** property value from "Submit" to "Login." By making this change, the associated UI action in the Coded UI Test Editor is updated from "Choose 'Submit' button" to "Choose 'Login' button."  
   
  After completing your modifications, save the changes to the UIMap.Designer file by choosing **Save** on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] toolbar.  
   
@@ -104,7 +104,7 @@ Edit control properties
   
 -   ![Tip](../test/media/tip.png "Tip") To undo the property changes you made, select **Undo** from the **Edit** menu, or press Ctrl+Z.  
   
--   ![Tip](../test/media/tip.png "Tip") You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find “Click ‘Login’ button.” This can be useful in large tests. Note that you cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).  
+-   ![Tip](../test/media/tip.png "Tip") You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. Note that you cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).  
   
 -   ![Tip](../test/media/tip.png "Tip") Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][Locating a UI Control in the application under Test](#CodedUITestEditor_LocateUIControl) located further below in this topic.  
   
@@ -148,7 +148,7 @@ Edit control properties
 ##  <a name="CodedUITestEditor_MoveMethods"></a> Move a test method to the UIMap File to facilitate customization  
  If you determine that one of your test methods in your coded UI test requires custom code, you must move it into either the UIMap.cs or UIMap.vb file. Otherwise, your code will be overwritten whenever the coded UI test is recompiled. If you do not move the method, your custom code will be overwritten each time the test is recompiled.  
   
- In the **UI Action** pane, select the test method that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality that won’t be overwritten when the test code is recompiled. Next, choose the **Move Code** button on the Coded UI Test Editor toolbar, or open the shortcut menu for the test method and choose **Move Code**. The test method is removed from the UIMap.uitest file and no longer is displayed in the UI Actions pane. To edit the test file that you moved, open the UIMap.cs or the UIMap.vb file from Solution Explorer.  
+ In the **UI Action** pane, select the test method that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality that won't be overwritten when the test code is recompiled. Next, choose the **Move Code** button on the Coded UI Test Editor toolbar, or open the shortcut menu for the test method and choose **Move Code**. The test method is removed from the UIMap.uitest file and no longer is displayed in the UI Actions pane. To edit the test file that you moved, open the UIMap.cs or the UIMap.vb file from Solution Explorer.  
   
  After you are done moving the method, save the changes to the UIMap.Designer file by choosing **Save** on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] toolbar.  
   
@@ -186,7 +186,7 @@ Edit control properties
   
  ![All controls located](../test/media/codeduilocateall2.png "CodedUILocateAll2")  
   
- In the **UI Control Map** pane, select the container control that you want to locate and view all the descendants for. Next, open the shortcut menu for the control and choose **Locate All**. The container control, and all its descendant controls, are marked in the Coded UI Test Editor with either a green check mark or a red ‘X’. These marks let you know if the controls were successfully located in the application under test.  
+ In the **UI Control Map** pane, select the container control that you want to locate and view all the descendants for. Next, open the shortcut menu for the control and choose **Locate All**. The container control, and all its descendant controls, are marked in the Coded UI Test Editor with either a green check mark or a red 'X'. These marks let you know if the controls were successfully located in the application under test.  
   
  *What else should I know?*  
  **Important issues**  
@@ -216,7 +216,7 @@ Edit control properties
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ### FAQ  
  [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  

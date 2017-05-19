@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough – Including a NuGet in your project"
+title: "Walkthrough - Including a NuGet in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: asb3993
 ms.author: amburns
@@ -28,11 +28,11 @@ First, create a project named `HelloNuget` as illustrated below. This example sh
 
 ## Adding a Package
 
-With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages…**:
+With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages...**:
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
-This launches the _Add Packages…_ window. Ensure that the Source drop-down, is set to `nuget.org`:
+This launches the _Add Packages..._ window. Ensure that the Source drop-down, is set to `nuget.org`:
 
 ![Source list drop-down](media/nuget-walkthrough-Source.png)
 
@@ -74,9 +74,9 @@ Right-click on **Packages** to access the context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **Add Packages** – Opens the window to add more packages to the project.
-*   **Update** – Checks the source server for each package and downloads any newer versions.
-*   **Restore** – Downloads any missing packages (without updating existing packages to newer versions).
+*   **Add Packages** - Opens the window to add more packages to the project.
+*   **Update** - Checks the source server for each package and downloads any newer versions.
+*   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution. 
 
@@ -84,16 +84,16 @@ You can also right-click on individual packages to access a context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackageMenu.png)
 
-*   **Version Number** – The version number is a disabled menu item - it is provided for informational purposes only.
-*   **Update** – Checks the source server and downloads a newer version (if it exists).
-*   **Remove** – Removes the package from this project and removes the relevant assemblies from the project's References.
+*   **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
+*   **Update** - Checks the source server and downloads a newer version (if it exists).
+*   **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
 
 
 ## Adding Package Sources
 
 Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. This can be useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
 
-In Visual Studio for Mac, navigate to **Visual Studio > Preferences… > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory. 
+In Visual Studio for Mac, navigate to **Visual Studio > Preferences... > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory. 
 
 ![Package Sources](media/nuget-walkthrough-PackageSource.png)
 

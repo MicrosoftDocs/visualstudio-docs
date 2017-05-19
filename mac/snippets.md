@@ -17,15 +17,15 @@ This section will explain how to create, insert, and use snippets in code.
 
 There are some different ways to add code snippets, some of which are described below:
  
-* **Tab Expansion** – Start typing the template name, select it from the list and press **TAB TAB** to add it:
+* **Tab Expansion** - Start typing the template name, select it from the list and press **TAB TAB** to add it:
  
   ![Tab Expansion in Code](media/source-editor-image13.png)
 
-* **Toolbox** – Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
+* **Toolbox** - Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
  ![Code snippets in Toolbox](media/source-editor-image14.png)
 
-* **Insert Templates command** – There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences… > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
+* **Insert Templates command** - There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences... > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
 
  ![Inset Template command](media/source-editor-image15.png)
 

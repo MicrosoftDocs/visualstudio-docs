@@ -36,7 +36,7 @@ You can define context menu commands and gesture handlers on dependency diagrams
  You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, and a domain-specific language.  
   
 > [!NOTE]
->  You can also customize architecture validation, in which users’ source code is compared with dependency diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
+>  You can also customize architecture validation, in which users' source code is compared with dependency diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
   
 ## Requirements  
  See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).  

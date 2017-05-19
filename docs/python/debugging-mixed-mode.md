@@ -56,7 +56,7 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
     ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
 
-    The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, you’ll need to repeat these steps and clear the Python code type.
+    The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, you'll need to repeat these steps and clear the Python code type.
 
     It is possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
@@ -88,7 +88,7 @@ When using the Step Into (F11) or Step Out (Shift+F11) commands, the mixed-mode 
 
 ### PyObject values view in native code
 
-When a native (C or C++) frame is active, its local variables show up in the debugger Locals window. In native Python extension modules, many of these are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled "Python view." When expanded, this node shows the variable's Python representation, identical to what you’d see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
+When a native (C or C++) frame is active, its local variables show up in the debugger Locals window. In native Python extension modules, many of these are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled "Python view." When expanded, this node shows the variable's Python representation, identical to what you'd see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
 
 ![Python View](media/mixed-mode-debugging-python-view.png)
 
@@ -132,7 +132,7 @@ The "[C++ View]" node provides a representation of the underlying C/C++ structur
 
 If a child field of an object is of type `PyObject`, or one of the other supported types, then it will have a "[Python View]" representation node (if those are enabled), making it possible to navigate object graphs where links are not directly exposed to Python.
 
-Unlike "[Python View]" nodes, which use Python object metadata to determine the type of the object, there’s no similarly reliable mechanism for "[C++ View]". Generally speaking, given a Python value (that is, a `PyObject` reference ) it's not possible to reliably determine which C/C++ structure is backing it. The mixed-mode debugger tries to guess that type by looking at various fields of the object’s type (such as the `PyTypeObject` referenced by its `ob_type` field) that have function pointer types. If one of those function pointers references a function that can be resolved, and that function has a `self` parameter with type more specific than `PyObject*`, then that type is assumed to be the backing type. For example, if `ob_type->tp_init` of a given object points at the following function:
+Unlike "[Python View]" nodes, which use Python object metadata to determine the type of the object, there's no similarly reliable mechanism for "[C++ View]". Generally speaking, given a Python value (that is, a `PyObject` reference ) it's not possible to reliably determine which C/C++ structure is backing it. The mixed-mode debugger tries to guess that type by looking at various fields of the object's type (such as the `PyTypeObject` referenced by its `ob_type` field) that have function pointer types. If one of those function pointers references a function that can be resolved, and that function has a `self` parameter with type more specific than `PyObject*`, then that type is assumed to be the backing type. For example, if `ob_type->tp_init` of a given object points at the following function:
 
 ```c
 static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {

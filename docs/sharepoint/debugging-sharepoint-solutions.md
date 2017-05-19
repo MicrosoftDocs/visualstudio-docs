@@ -143,7 +143,7 @@ manager: "ghogen"
   
  [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\11.0\SharePointTools]  
   
- If the "EnableDiagnostics" **REG_DWORD** value does not already exist, create it manually. Set the “EnableDiagnostics” value to "1."  
+ If the "EnableDiagnostics" **REG_DWORD** value does not already exist, create it manually. Set the "EnableDiagnostics" value to "1."  
   
  Setting this key value to 1 causes stack trace information to appear in the **Output** window whenever project system errors occur while you are running in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To disable enhanced debugging information, set EnableDiagnostics back to 0, or delete the value.  
   

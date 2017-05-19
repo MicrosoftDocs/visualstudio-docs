@@ -106,7 +106,7 @@ manager: "ghogen"
   
     -   In the **Properties** window for the **Update** button, choose the **Events** button. In the **Click** property, enter **Button1_Click**, and then choose the Enter key.  
   
-     The user control code file opens in Code Editor and the `Button1_Click` event handler appears. Later, you’ll add code to this event handler.  
+     The user control code file opens in Code Editor and the `Button1_Click` event handler appears. Later, you'll add code to this event handler.  
   
 2.  Add the following statements to the top of the user control code file.  
   
@@ -135,7 +135,7 @@ manager: "ghogen"
      [!code-cs[SP_VisualWebPart#4](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#4)]  
   
 ## Testing the web part  
- When you run the project, the SharePoint site opens. The web part is automatically added to the Web Part Gallery in SharePoint. To test this project, you’ll perform the following tasks:  
+ When you run the project, the SharePoint site opens. The web part is automatically added to the Web Part Gallery in SharePoint. To test this project, you'll perform the following tasks:  
   
 -   Add an event to each of two separate calendar lists.  
   

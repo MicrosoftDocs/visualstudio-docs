@@ -76,7 +76,7 @@ translation.priority.ht:
   
 3.  **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.  
   
- If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items; for example, the buttons show x of y Errors. If no filter is applied, the title bar says only “Error List”.  
+ If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items; for example, the buttons show x of y Errors. If no filter is applied, the title bar says only "Error List".  
   
  The list on the right side of the toolbar specifies whether to show errors from the build (errors resulting from a build operation) or from IntelliSense (errors detected before running a build), or from both.  
   

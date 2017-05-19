@@ -36,7 +36,7 @@ You can simply give your code snippets to your friends and have them install the
  You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio Downloads](https://www.visualstudio.com/downloads/).  
 
 ## Setting up the Extension  
- In this procedure we will use the same Hello World code snippet created in [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). We will supply the .snippet text, so you don’t have to go back and make one.  
+ In this procedure we will use the same Hello World code snippet created in [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). We will supply the .snippet text, so you don't have to go back and make one.  
 
 1.  Create a new VSIX project named **TestSnippet**. (**File / New / Project / Visual C# (or Visual Basic / Extensibility**)  
 

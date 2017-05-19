@@ -59,7 +59,7 @@ manager: "ghogen"
   
 2.  Open the **New Project** dialog box, expand the **Office/SharePoint** node under the language that you want to use, and then choose the **SharePoint Solutions** node.  
   
-3.  In the **Visual Studio Installed Templates** pane, choose the **SharePoint 2010 – Empty Project** template. Name the project **MySharePointProject**, and then choose the **OK** button.  
+3.  In the **Visual Studio Installed Templates** pane, choose the **SharePoint 2010 - Empty Project** template. Name the project **MySharePointProject**, and then choose the **OK** button.  
   
      The **SharePoint Customization Wizard** appears. This wizard enables you to select the site that you will use to debug the project and the trust level of the solution.  
   

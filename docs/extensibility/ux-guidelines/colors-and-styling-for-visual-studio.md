@@ -423,12 +423,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\FontAndColors\CSharp T
 "Category"="{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}"  
 "ToolWindowPackage"="{7259e420-6241-4e0d-b535-5b820671d183}"  
   
-    "NameID"=dword:00000064  
+    "NameID"=dword:00000064  
 ```  
 
 For this code example:   
--   `"NameID"` = the resource ID of the localized category name in your package
--   `"ToolWindowPackage"` = Package GUID
+-   `"NameID"` = the resource ID of the localized category name in your package
+-   `"ToolWindowPackage"` = Package GUID
 -   `"Category"="{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}"` is just an example and the actual value can be a new GUID provided by the implementer.  
   
 ### Set the Font and Color property category GUID  

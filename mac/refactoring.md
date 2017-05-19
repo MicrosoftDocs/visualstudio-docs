@@ -14,7 +14,7 @@ Refactoring code is a way to rearrange, restructure, and clarify existing code w
 
 It produces a healthier code base, making it much more useable, readable, and maintainable for you or any other developer or user that might refer to the code.
 
-Visual Studio for Mac's integration with Roslyn, Microsoft’s open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
+Visual Studio for Mac's integration with Roslyn, Microsoft's open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
 
 ## Renaming 
 
@@ -30,7 +30,7 @@ This will highlight the symbol and any references to it. When you start typing a
 
 Context actions allow you to inspect any C# code, and see all possible refactoring options. 
 
-The **Resolve** and **Refactor** context items are combined into a single *Quick Fix…* item that will provide you with all the available Context actions:
+The **Resolve** and **Refactor** context items are combined into a single *Quick Fix...* item that will provide you with all the available Context actions:
 
 ![Display Context Items](media/refactoring-context-action.png)
 

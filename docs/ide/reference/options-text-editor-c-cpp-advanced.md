@@ -55,7 +55,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  The code browsing database won't be automatically updated when source files are modified. However, if you open **Solution Explorer**, open the shortcut menu for the project, and then choose **Rescan Solution**, all out-of-date files will be checked, and the database will be updated.  
   
  **Disable Implicit Files**  
- The code browsing database doesn't collect data for files that aren't specified in a project. A project contains source files and header files that are explicitly specified. Implicit files are included by explicit files (for example, afxwin.h, windows.h, and atlbase.h). Normally, the system finds these files and also indexes them for various browsing features (including Navigate To). If you choose this option, those files aren't indexed, and some features aren't available for them. If you choose this option, “Disable Implicit Cleanup” and “Disable External Dependencies” are also implicitly chosen.  
+ The code browsing database doesn't collect data for files that aren't specified in a project. A project contains source files and header files that are explicitly specified. Implicit files are included by explicit files (for example, afxwin.h, windows.h, and atlbase.h). Normally, the system finds these files and also indexes them for various browsing features (including Navigate To). If you choose this option, those files aren't indexed, and some features aren't available for them. If you choose this option, "Disable Implicit Cleanup" and "Disable External Dependencies" are also implicitly chosen.  
   
  **Disable Implicit Cleanup**  
  The code browsing database doesn't clean up implicit files that are no longer referenced. This option prevents implicit files from being removed from the database when they're no longer used. For example, if you add an `#include` directive that references mapi.h to one of your source files, mapi.h will be found and indexed. If you then remove the #include and the file isn't referenced elsewhere, information about it will eventually be removed unless you choose this option. (See the **Rescan Solution Interval** option.) This option is ignored when you  explicitly rescan the solution.  
@@ -67,7 +67,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  Recreate the code browsing database from nothing the next time that the solution loads. If you choose this option, the SDF database file is deleted the next time you load the solution, thus causing the database to be recreated and all files indexed.  
   
  **Rescan Solution Interval**  
- A ‘Rescan Solution Now’ job is scheduled for the interval that you specify. You must specify between 0 and 5000 minutes. The default value is 60 minutes. While the solution is rescanned, file timestamps are checked to determine whether a file was changed outside of the IDE. (Changes that are made in the IDE are automatically tracked, and files are updated.) Implicitly included files are checked to determine whether they're all still referenced.  
+ A 'Rescan Solution Now' job is scheduled for the interval that you specify. You must specify between 0 and 5000 minutes. The default value is 60 minutes. While the solution is rescanned, file timestamps are checked to determine whether a file was changed outside of the IDE. (Changes that are made in the IDE are automatically tracked, and files are updated.) Implicitly included files are checked to determine whether they're all still referenced.  
   
 ## Diagnostic Logging  
  These options are provided in case Microsoft asks you to collect advanced information to diagnose an issue. The logging information isn't useful for users, and we recommend that you leave it disabled.  
@@ -98,13 +98,13 @@ By changing these options, you can change the behavior related to IntelliSense a
 -   32 - ClassView  
   
 ## Fallback Location  
- The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user’s temp directory.  
+ The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user's temp directory.  
   
  **Always Use Fallback Location**  
- Indicates that the code browsing database and IntelliSense files should always be stored in a folder that you specify as your “Fallback Location”, not next to the .sln file. The IDE will never try to put the SDF or iPCH files next to the solution directory and will always use the fallback location.  
+ Indicates that the code browsing database and IntelliSense files should always be stored in a folder that you specify as your "Fallback Location", not next to the .sln file. The IDE will never try to put the SDF or iPCH files next to the solution directory and will always use the fallback location.  
   
  **Do Not Warn If Fallback Location Used**  
- You aren't informed or prompted if a ‘Fallback Location’ is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.  
+ You aren't informed or prompted if a 'Fallback Location' is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.  
   
  **Fallback Location**  
  This value is used as a secondary location to store the code browsing database or IntelliSense files. By default, your temporary directory is your fallback location. The IDE will create a subdirectory under the specified path (or the temp directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.  
@@ -117,19 +117,19 @@ By changing these options, you can change the behavior related to IntelliSense a
  Disables all IntelliSense features. The IDE does not create VCPkgSrv.exe processes to service IntelliSense requests, and no IntelliSense features will work (QuickInfo, Member List, Auto Complete, Param Help). Semantic colorization and reference highlighting are also disabled. This option doesn't disable browsing features that rely solely on the database (including Navigation Bar, ClassView, and Property window).  
   
  **Disable Auto Updating**  
- IntelliSense updating is delayed until an actual request for IntelliSense is made. This delay can result in a longer execution time of the first IntelliSense operation on a file, but it may be helpful to set this option on very slow or resource-constrained machines. If you choose this option, you also implicitly choose the “Disable Error Reporting” and “Disable Squiggles” options.  
+ IntelliSense updating is delayed until an actual request for IntelliSense is made. This delay can result in a longer execution time of the first IntelliSense operation on a file, but it may be helpful to set this option on very slow or resource-constrained machines. If you choose this option, you also implicitly choose the "Disable Error Reporting" and "Disable Squiggles" options.  
   
  **Disable Error Reporting**  
- Disables reporting of IntelliSense errors through squiggles and the Error List window. Also disables the background parsing that's associated with error reporting. If you choose this option, you also implicitly choose the “Disable Squiggles” option.  
+ Disables reporting of IntelliSense errors through squiggles and the Error List window. Also disables the background parsing that's associated with error reporting. If you choose this option, you also implicitly choose the "Disable Squiggles" option.  
   
  **Disable Squiggles**  
- Disables IntelliSense error squiggles. The red “squiggles” don't show in the editor window, but the error will still appear in the Error List window.  
+ Disables IntelliSense error squiggles. The red "squiggles" don't show in the editor window, but the error will still appear in the Error List window.  
   
  **Disable #include Auto Complete**  
  Disables auto-completion of `#include` statements.  
   
  **Use Forward Slash in #include Auto Complete**  
- Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash ‘\’. The compiler can accept either, so use this option to specify what your code base uses.  
+ Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash '\'. The compiler can accept either, so use this option to specify what your code base uses.  
   
  **Max Cached Translation Units**  
  The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.  
@@ -162,10 +162,10 @@ By changing these options, you can change the behavior related to IntelliSense a
   
 ## References  
  **Disable Resolving**  
- For performance reasons, ‘Find All References’  displays raw textual search results by default instead of using IntelliSense to verify each candidate. You can clear this check box for more accurate results on all find operations. To filter on a per-search basis, open the shortcut menu for  the result list, and then choose "Resolve Results."  
+ For performance reasons, 'Find All References'  displays raw textual search results by default instead of using IntelliSense to verify each candidate. You can clear this check box for more accurate results on all find operations. To filter on a per-search basis, open the shortcut menu for  the result list, and then choose "Resolve Results."  
   
  **Hide Unconfirmed**  
- Hide unconfirmed items in the ‘Find All References’ results. If you unset the “Disable Resolving” option, you can use this option to hide unconfirmed items in the results.  
+ Hide unconfirmed items in the 'Find All References' results. If you unset the "Disable Resolving" option, you can use this option to hide unconfirmed items in the results.  
   
  **Disable Reference Highlighting**  
 

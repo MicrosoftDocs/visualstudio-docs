@@ -137,7 +137,7 @@ manager: "ghogen"
   
 2.  Open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Add Reference**.  
   
-3.  In the **Reference Manager – WebPartNodeExtension** dialog box, choose the **Framework** tab, and then select the check box for each of the following assemblies:  
+3.  In the **Reference Manager - WebPartNodeExtension** dialog box, choose the **Framework** tab, and then select the check box for each of the following assemblies:  
   
     -   System.ComponentModel.Composition  
   
@@ -167,7 +167,7 @@ manager: "ghogen"
   
 5.  Open the shortcut menu for the **WebPartCommands** project again, and choose **Add Reference**.  
   
-6.  In the **Reference Manager – WebPartCommands** dialog box, choose the **Extensions** tab, select the check box for each of the following assemblies, and then choose the **OK** button:  
+6.  In the **Reference Manager - WebPartCommands** dialog box, choose the **Extensions** tab, select the check box for each of the following assemblies, and then choose the **OK** button:  
   
     -   Microsoft.SharePoint  
   

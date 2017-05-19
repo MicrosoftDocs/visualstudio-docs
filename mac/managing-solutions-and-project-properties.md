@@ -20,17 +20,17 @@ Editable options include those to build, run, and set source code and version co
 
 Project options are organized into five different categories which have the following capabilities:
 
-* **General** – Project information such as Name, Description, and Default Namespace can be set here, along with the Location of the project.
-* **Build** – This allows developers to set or change PCL profiles for Portable Class Libraries. It also allows for custom commands, configurations, compiler options to be set. The output path and assembly name can also be set here.
-* **Run** – This allows you to create custom run configurations on a per-project basis.
-* **Source Code** – This allows you to control the formatting of many different file types and naming conventions. You can also set the naming policies and default header styles here.
-* **Version Control** – This allows you to edit the style of the commit message when using Version Control with your project.
+* **General** - Project information such as Name, Description, and Default Namespace can be set here, along with the Location of the project.
+* **Build** - This allows developers to set or change PCL profiles for Portable Class Libraries. It also allows for custom commands, configurations, compiler options to be set. The output path and assembly name can also be set here.
+* **Run** - This allows you to create custom run configurations on a per-project basis.
+* **Source Code** - This allows you to control the formatting of many different file types and naming conventions. You can also set the naming policies and default header styles here.
+* **Version Control** - This allows you to edit the style of the commit message when using Version Control with your project.
 
-Each project can also contain specific project options, depending on the platform. For example, a Xamarin.Android project, like the one illustrated below, will have options relating to the Android build – such as linker options; and the Application – such as permissions:
+Each project can also contain specific project options, depending on the platform. For example, a Xamarin.Android project, like the one illustrated below, will have options relating to the Android build - such as linker options; and the Application - such as permissions:
 
  ![Android Project Options](media/projects-and-solutions-image5.png)
 
-Xamarin.iOS will contain options related to bundle signing – such as the required provisioning profile to use; and relating to the IPA packaging options:
+Xamarin.iOS will contain options related to bundle signing - such as the required provisioning profile to use; and relating to the IPA packaging options:
 
  ![iOS Project Options](media/projects-and-solutions-image6.png)
 

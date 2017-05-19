@@ -29,7 +29,7 @@ String.fromCodePoint(...codePoints);
 ```  
   
 #### Parameters  
- `…codePoints`  
+ `...codePoints`  
  Required. A rest parameter that specifies one or more UTF-16 code point values.  
   
 ## Remarks  

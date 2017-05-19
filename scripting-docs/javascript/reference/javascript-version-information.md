@@ -32,7 +32,7 @@ Different versions of JavaScript support different sets of JavaScript elements. 
  The table that follows shows the Internet Explorer document modes (and Store apps representing [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] and [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)]) that support specific language elements. Document modes that support a given element are shown with the letter **Y**, and document modes that do not support a given element are shown with the letter **N**.  
   
 > [!IMPORTANT]
->  [!INCLUDE[jsv12text](../../javascript/includes/jsv12text-md.md)] (Edge browser in Windows 10) does not include support for legacy document modes. Support for [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)] apps starts with Windows Phone 8.1. Experimental features (about:flags) are indicated by “Exp.”  
+>  [!INCLUDE[jsv12text](../../javascript/includes/jsv12text-md.md)] (Edge browser in Windows 10) does not include support for legacy document modes. Support for [!INCLUDE[winphone_appname](../../javascript/reference/includes/winphone-appname-md.md)] apps starts with Windows Phone 8.1. Experimental features (about:flags) are indicated by "Exp."  
   
  The table contains summary info. For more specific information, see the documentation for the language element.  
   
@@ -146,7 +146,7 @@ Different versions of JavaScript support different sets of JavaScript elements. 
 |[for Statement](../../javascript/reference/for-statement-javascript.md)|Y|Y|Y|Y|Y|Y|Y|  
 |[forEach Method](../../javascript/reference/foreach-method-array-javascript.md)|N|N|Y|Y|Y|Y|Y|  
 |[for...in Statement](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md)|Y|Y|Y|Y|Y|Y|Y|  
-|[for…of Statement](../../javascript/reference/for-dot-dot-dot-of-statement-javascript.md)|N|N|N|N|N|Y|v8.1: N<br />v10: Y|  
+|[for...of Statement](../../javascript/reference/for-dot-dot-dot-of-statement-javascript.md)|N|N|N|N|N|Y|v8.1: N<br />v10: Y|  
 |[freeze Function](../../javascript/reference/object-freeze-function-javascript.md)|N|N|Y|Y|Y|Y|Y|  
 |[fromCharCode Function](../../javascript/reference/string-fromcharcode-function-javascript.md)|Y|Y|Y|Y|Y|Y|Y|  
 |[fromCodePoint Function](../../javascript/reference/string-fromcodepoint-function-javascript.md)|N|N|N|N|N|Y|v8.1: N<br />v10: Y|  

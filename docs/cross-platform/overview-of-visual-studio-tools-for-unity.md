@@ -42,7 +42,7 @@ In this section, you'll learn more about the features Visual Studio Tools for Un
   
 -   Unity console integration displays output from the Unity console right inside Visual Studio's error window.  
   
--   Start debugging your game from Visual Studio – no need to switch back to Unity, just press F5.  
+-   Start debugging your game from Visual Studio - no need to switch back to Unity, just press F5.  
   
 ## Superior Debugging  
  Connect Visual Studio's powerful debugger to your Unity game to debug your C# scripts and DLLs regardless of whether it's running standalone or in the Unity editor. You can use all the debugging features you expect from Visual Studio.  

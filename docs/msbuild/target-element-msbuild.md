@@ -59,8 +59,8 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
         Condition="'String A' == 'String B'">  
         Label="Label">  
     <Task>... </Task>  
-    <PropertyGroup>… </PropertyGroup>  
-    <ItemGroup>… </ItemGroup>  
+    <PropertyGroup>... </PropertyGroup>  
+    <ItemGroup>... </ItemGroup>  
     <OnError... />  
 </Target>  
 ```  
