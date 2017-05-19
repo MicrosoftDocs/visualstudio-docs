@@ -86,7 +86,7 @@ To open a port:
 
 ## <a name="troubleshooting"></a>Troubleshooting
 
-When you install Visual Studio or the remote debugger, the software will try to open the correct ports in Windows Firewall. In some scenarios, you may need to verify that the correct ports are open.
+If you are having trouble attaching to your app with the remote debugger, you may need to verify that the correct ports are open.
 
 ### Verify that the Windows Firewall is configured correctly on the Visual Studio Computer  
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used; on Windows 7 or Windows Server 2008, the word **program** is used;  In the following steps we will use the word **app**.  
