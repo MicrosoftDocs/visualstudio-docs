@@ -72,7 +72,7 @@ manager: "ghogen"
   
 4.  If you have an existing connection to the `AdventureWorksLT` database, choose this connection and click **Next**.  
   
-     Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+     Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 5.  In the **Save the Connection String to the Application Configuration File** page, click **Next**.  
   

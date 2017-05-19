@@ -68,7 +68,7 @@ manager: "ghogen"
   
 #### To add a NamedRange control to a worksheet using the Data Sources window  
   
-1.  Open the **Data Sources** window and create a data source for your project. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+1.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 2.  Drag a single field from the **Data Sources** window to your worksheet.  
   

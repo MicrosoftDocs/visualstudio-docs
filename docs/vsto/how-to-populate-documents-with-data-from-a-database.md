@@ -38,7 +38,7 @@ manager: "ghogen"
   
 1.  Open a Word document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], with the document open in the designer.  
   
-2.  Open the **Data Sources** window and create a data source from a database. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+2.  Open the **Data Sources** window and create a data source from a database. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 3.  Drag the field you want from the **Data Sources** window to your document.  
   
@@ -53,7 +53,7 @@ manager: "ghogen"
   
 -   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md).  
   
--   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](/visual-studio/data-tools/tableadapter-overview).  
+-   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview).  
   
 -   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../Topic/Hierarchical%20Update.md) and [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
   

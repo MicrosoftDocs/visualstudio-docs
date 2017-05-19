@@ -37,7 +37,7 @@ manager: "ghogen"
   
 1.  Open an Excel document-level project in Visual Studio, with the worksheet open in the designer.  
   
-2.  Open the **Data Sources** window and create a data source for your project. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+2.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 3.  Drag the field or table you want from the **Data Sources** window to your worksheet.  
   
