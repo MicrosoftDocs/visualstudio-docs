@@ -1,8 +1,8 @@
 ---
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
-ms.date: "05/19/2017"
-ms.reviewer: "tims"
+ms.date: "05/05/2017"
+ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "vs-ide-install"
@@ -120,23 +120,12 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 As product updates become available, you may want to [update the network install layout](update-a-network-installation-of-visual-studio.md) to incorporate updated packages.
 
 ## How to create a layout for a previous Visual Studio 2017 release
-The [published Visual Studio 2017 bootstrappers](https://www.visualstudio.com/vs/) will download and install the latest servicing release available at the time they are run. However, if you create a layout, installing Visual Studio from that layout will install the specific version that exists in the layout, even though a newer version may exist online.
+**Note**: The VS 2017 bootstrappers available on http://www.visualstudio.com will download and install the latest VS 2017 release available whenever they are run. If you download a VS bootstrapper today and run it 6 months from now, it will install the VS 2017 release that is available at that later time. If you create a layout, installing VS from that layout will install the specific version of VS that exists in the layout. Even though a newer version may exist online, you will get the version of VS that is in the layout.
 
-We recommend and support the latest published servicing release of Visual Studio 2017. However, if you need to create a layout for an older version of Visual Studio 2017 for enterprise deployment, you can use the links below which will allow you to create a network install layout for that older version. These bootstrappers are "fixed" to a specific versioned release, so even if a later version of Visual Studio is published the layout will not be updated.
-
-> [!NOTE]
-> We do not support "fixed" bootstrappers for the Community edition of Visual Studio, since they are only designed to be used for deployment in an enterprise environment.
-
- | **Minor Version**     | **Visual Studio Professional**                                        | **Visual Studio Enterprise**                                      |
- | --------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |
- | 15.1 (build 26403.07) | [Professional](https://aka.ms/vs/15/release/15_1/vs_professional.exe) | [Enterprise](https://aka.ms/vs/15/release/15_1/vs_enterprise.exe) |
- | 15.0 (build 26228.12) | [Professional](https://aka.ms/vs/15/release/15_0/vs_professional.exe) | [Enterprise](https://aka.ms/vs/15/release/15_0/vs_enterprise.exe) |
-
-> [!IMPORTANT]
-> You should not install an older version of Visual Studio on top of a newer version of Visual Studio, as it may have unpredictable results. We do not test in-place installs of older releases over a newer instance.
+If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers for supported versions, which will allow you to create a network install layout for that older version. 
 
 ### How to get support for your offline installer
-If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, we automatically receive the logs needed to help us diagnose and fix the problem.
+If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
 We have other support options available, too. For a list of those, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
 
