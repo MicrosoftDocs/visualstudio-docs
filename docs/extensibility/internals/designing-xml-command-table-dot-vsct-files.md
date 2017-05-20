@@ -76,7 +76,7 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
  The new compiler, vsct.exe, compiles both .ctc and .vsct files. The old ctc.exe compiler, however, will neither recognize nor compile .vsct files.  
   
- You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
+ You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../extensibility/how-to-create-a-dot-vsct-file.md#how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file).  
   
 ## The .vsct File Elements  
  The command table has the following hierarchy and elements:  
