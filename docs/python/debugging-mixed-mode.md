@@ -43,9 +43,6 @@ For an introduction to building, testing, and debugging native C modules with Vi
 > [!Note]
 > Mixed-mode debugging is not available with Python Tools for Visual Studio 1.x.
 
-> [!Note]
-> This 
-
 ## Enabling mixed-mode debugging
 
 1. Right-click the project in Solution Explorer, select **Properties**, select the **Debug** tab, and then turn on the option for **Enable native code debugging**. This enables mixed-mode for all debugging sessions.
