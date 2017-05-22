@@ -64,7 +64,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
      ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")  
   
-3.  To display the annotation outside the activity’s designer, hover over the annotation area in the activity’s designer and click the **Unpin** icon  
+3.  To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon  
   
      ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")  
   

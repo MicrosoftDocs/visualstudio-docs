@@ -48,7 +48,7 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 -   Changing the signature of a type.  
   
--   Adding an anonymous method that captures a variable that hasn’t been captured before.  
+-   Adding an anonymous method that captures a variable that hasn't been captured before.  
   
 -   Adding, removing, or changing attributes.  
   
@@ -67,7 +67,7 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 -   Debugging LINQ code in certain circumstances. For more information, see [Debugging LINQ](../debugger/debugging-linq.md).  
   
-    -   Capturing a variable that hasn’t been captured before.  
+    -   Capturing a variable that hasn't been captured before.  
   
     -   Changing the type of query expression (e.g., select a => select new { A = a };)  
   

@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Shipping Visual Studio Extensions
-After you’ve finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Gallery. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.  
+After you've finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Gallery. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.  
   
 ## Working with VSIX Extensions  
  You can create a VSIX extensions by creating a blank VSIX Project, and then adding different item templates to it. For more information, see [VSIX Project Template](../extensibility/vsix-project-template.md).  
@@ -50,10 +50,10 @@ After you’ve finished developing your extension, you can install it on other m
  As you develop controls, templates, and tools, you can share them with your organization by posting them to a private gallery on your intranet. For more information, see [Private Galleries](../extensibility/private-galleries.md).  
   
 ## Localizing your Extension  
- If you’re planning to release your extension in different locales, you should consider localizing it. For an explanation of what’s involved, see [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md).  
+ If you're planning to release your extension in different locales, you should consider localizing it. For an explanation of what's involved, see [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md).  
   
 ## Updating and Versioning your Extension  
- After you’ve published your extension, there will come a time when you need to update it. To find out how to update an extension that has been published on the Visual Studio Gallery, see [How to: Update an Extension](../extensibility/how-to-update-a-visual-studio-extension.md).  
+ After you've published your extension, there will come a time when you need to update it. To find out how to update an extension that has been published on the Visual Studio Gallery, see [How to: Update an Extension](../extensibility/how-to-update-a-visual-studio-extension.md).  
   
  You can set your extension to support multiple versions of Visual Studio. For more information, see [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md).  
   

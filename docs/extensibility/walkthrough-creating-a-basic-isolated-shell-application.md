@@ -146,13 +146,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     [assembly: AssemblyProduct("Fabrikam Music Editor")]  
     [assembly: AssemblyCopyright("Copyright © Fabrikam 2015")] [assembly: AssemblyCompany("Fabrikam")]  
     [assembly: AssemblyProduct("Fabrikam Music Editor ")]  
-    [assembly: AssemblyCopyright("Copyright © Fabrikam 2015”)]  
+    [assembly: AssemblyCopyright("Copyright © Fabrikam 2015")]  
     ```  
   
 3.  To add a description of the product, change the `AssemblyDescription` value to **The description of Fabrikam Music editor.**:  
   
     ```  
-    [assembly: AssemblyDescription("The description of Fabrikam Music editor.”)]  
+    [assembly: AssemblyDescription("The description of Fabrikam Music editor.")]  
     ```  
   
 4.  Start debugging and in the isolated shell application, open the **Help / About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  

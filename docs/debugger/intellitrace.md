@@ -71,7 +71,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|  
   
 > [!NOTE]
->  If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
+>  If you want to debug a process that is already running, you can't use IntelliTrace. You must start IntelliTrace when the process starts.  
   
 ##  <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
  Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.  
@@ -96,7 +96,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 -   An exception happens.  
   
-     Without IntelliTrace, you get a message about an exception but you don’t have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can’t see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.  
+     Without IntelliTrace, you get a message about an exception but you don't have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can't see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.  
   
 -   Your application crashes on a test computer but runs successfully on a development computer.  
   
@@ -181,7 +181,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 ##  <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
  By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.  
   
- Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ## In this section  
  [IntelliTrace Features](../debugger/intellitrace-features.md)  

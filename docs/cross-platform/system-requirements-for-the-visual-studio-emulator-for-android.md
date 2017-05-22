@@ -106,7 +106,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
 -   Automatically configured DNS and gateway settings  
   
-     It’s not possible to configure DNS and gateway settings manually for the emulator.  
+     It's not possible to configure DNS and gateway settings manually for the emulator.  
   
  To troubleshoot networking issues in the emulator, see the following topics:  
   
@@ -115,7 +115,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 ##  <a name="HyperV"></a> Hyper-V requirements  
  Hyper-V requirements in the BIOS  
   
- Your computer’s BIOS must support the following requirements, and they must be enabled:  
+ Your computer's BIOS must support the following requirements, and they must be enabled:  
   
 -   Hardware-assisted virtualization  
   

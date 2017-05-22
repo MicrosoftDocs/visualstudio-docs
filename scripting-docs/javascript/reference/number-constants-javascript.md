@@ -43,7 +43,7 @@ The following number constants are properties of the `Number` object.
 |`Number.EPSILON`|The smallest number that can be represented in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)]. Equal to approximately 2.2204460492503130808472633361816E-16.|  
 |`Number.MAX_SAFE_INTEGER`|The largest number that can be safely represented in JavaScript. Equal to 9007199254740991.|  
 |`Number.MAX_VALUE`|The largest number that can be represented in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)]. Equal to approximately 1.79E+308.|  
-|`Number.MIN_SAFE_INTEGER`|The smallest number that can be safely represented in JavaScript. Equal to −9007199254740991.|  
+|`Number.MIN_SAFE_INTEGER`|The smallest number that can be safely represented in JavaScript. Equal to -9007199254740991.|  
 |`Number.MIN_VALUE`|The closest number to zero that can be represented in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)]. Equal to approximately 5.00E-324.|  
 |`Number.NaN`|A value that is not a number.<br /><br /> In equality comparisons, `NaN` does not equal any value, including itself. To test whether a value is equivalent to `NaN`, use the [isNaN function](../../javascript/reference/isnan-function-javascript.md).|  
 |`Number.NEGATIVE_INFINITY`|A value that is less than the largest negative number that can be represented in [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].<br /><br /> [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] displays `NEGATIVE_INFINITY` values as `-infinity`.|  

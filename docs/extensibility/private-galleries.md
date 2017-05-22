@@ -65,7 +65,7 @@ You can share the controls, templates, and tools that you develop by posting the
 [$RootPath$\ExtensionManager\Repositories\{UniqueGUID}]  
 @={URI}  (REG_SZ)  
 Disabled=0 | 1 (DWORD)  
-Priority=0 (highest priority) … MaxInt (lowest priority) (DWORD) (uint)  
+Priority=0 (highest priority) ... MaxInt (lowest priority) (DWORD) (uint)  
 Protocol=VSGallery|Atom|Sharepoint (REG_SZ)  
 DisplayName={DisplayName} (REG_SZ)  
 DisplayNameResourceID={ID} (REG_SZ)  

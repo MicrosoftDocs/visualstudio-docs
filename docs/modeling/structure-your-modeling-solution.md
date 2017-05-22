@@ -115,7 +115,7 @@ To use models effectively in a development project, the team members must be abl
 ## Related materials  
  [Organizing and Managing Your Models](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-9-Organizing-and-Managing-Your-Models/) - video by Clint Edmondson.  
   
- [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) – Further guidance on managing models in a team  
+ [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) - Further guidance on managing models in a team  
   
 ## See Also  
  [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)   

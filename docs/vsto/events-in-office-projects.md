@@ -136,7 +136,7 @@ manager: "ghogen"
   
  Code in the `ThisAddIn_Startup` event handler is the first user code to run, unless your VSTO Add-in overrides the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method. In this case, the `ThisAddIn_Startup` event handler is called after <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A>.  
   
- Don’t add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. For more information, see [Accessing a Document When the Office Application Starts](../vsto/programming-vsto-add-ins.md#AccessingDocuments).  
+ Don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. For more information, see [Accessing a Document When the Office Application Starts](../vsto/programming-vsto-add-ins.md#AccessingDocuments).  
   
  For more information about the startup sequence of VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
   

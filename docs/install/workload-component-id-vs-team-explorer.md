@@ -41,7 +41,7 @@ Also note the following about this page:
 
 * Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
 * By default, the **Required** components will be installed when you install the workload. If you choose to, you can also install the **Recommended** and **Optional** components.
-* We’ve also added a section that lists the additional components that are not affiliated with any workload.
+* We've also added a section that lists the additional components that are not affiliated with any workload.
 
 For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 

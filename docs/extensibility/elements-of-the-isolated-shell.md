@@ -78,7 +78,7 @@ You can modify the registry settings, run-time settings, and application entry p
  The substitution strings used in the .pkgdef and .pkgundef files are listed in [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md).  
   
 ## Other Settings  
- If your isolated shell application depends on Microsoft.VisualStudio.GraphModel.dll, you need to add the following binding redirect to your Isolated Shell application’s .config file:  
+ If your isolated shell application depends on Microsoft.VisualStudio.GraphModel.dll, you need to add the following binding redirect to your Isolated Shell application's .config file:  
   
 ```  
 <dependentAssembly>  

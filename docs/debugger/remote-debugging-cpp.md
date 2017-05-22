@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug a Visual C++ Project | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -40,7 +40,7 @@ translation.priority.mt:
 # Remote Debugging a Visual C++ Project in Visual Studio
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
   
-For information about remote debugging apps with Azure backends, see [Debugging an Azure cloud service or virtual machine in Visual Studio](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines). For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
+For information about remote debugging apps with Azure backends, see [Remote debugging on Azure](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines). For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
   
 ## Download and Install the Remote Tools
 

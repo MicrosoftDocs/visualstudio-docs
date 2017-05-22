@@ -62,7 +62,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
     -   Select an appropriate emulator based on your target Android version; if you have an Android development device attached to your computer, you will also see it listed here alongside the emulators:  
   
-        -   Windows 8+: select a **VS Emulator** target in Visual Studio’s debug drop-down as shown below and start the debugger by pressing **F5**. For more details, see [Introducing Visual Studio’s Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog). If you encounter problems getting the emulator to work, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md). You can also create new device profiles for the emulator by selecting **Tools > Visual Studio Emulator for Android...**.  
+        -   Windows 8+: select a **VS Emulator** target in Visual Studio's debug drop-down as shown below and start the debugger by pressing **F5**. For more details, see [Introducing Visual Studio's Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog). If you encounter problems getting the emulator to work, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md). You can also create new device profiles for the emulator by selecting **Tools > Visual Studio Emulator for Android...**.  
   
              ![Selecting the Visual Studio Emulator for Android as a debug target](../cross-platform/media/crossplat-xamarin-verify-3.png "CrossPlat Xamarin Verify 3")  
   
@@ -71,7 +71,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
         -   For Windows 7 and earlier: select the Xamarin Player for Android in the drop-down instead and press F5 to run. For details on the Xamarin Player, its device manager, and troubleshooting tips, read [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player/) (xamarin.com).  
   
 > [!NOTE]
->  In Visual Studio, you may notice the presence of the Android Emulator Manager (AVD) button in the toolbar (show below), which opens the device manager that is specifically used for configuring the Google Android emulator.  This has no impact on either the Visual Studio Emulator for Android or the Xamarin Player, each of which has their own device manager for configuring profiles.  See [Introducing Visual Studio’s Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog) and [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player/) (xamarin.com) for details.  
+>  In Visual Studio, you may notice the presence of the Android Emulator Manager (AVD) button in the toolbar (show below), which opens the device manager that is specifically used for configuring the Google Android emulator.  This has no impact on either the Visual Studio Emulator for Android or the Xamarin Player, each of which has their own device manager for configuring profiles.  See [Introducing Visual Studio's Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog) and [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player/) (xamarin.com) for details.  
 > ![CrossPlat Xamarin Verify 7](../cross-platform/media/crossplat-xamarin-verify-7.png "CrossPlat Xamarin Verify 7")  
   
 ## Windows Phone  
@@ -82,7 +82,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
     -   Right-click the Windows Phone project in Solution Explorer and select **Set as Startup Project**.  
   
-    -   Select an **Emulator 8.1** target or an attached device in Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5.  
+    -   Select an **Emulator 8.1** target or an attached device in Visual Studio's debug drop-down as shown below and start the debugger by pressing F5.  
   
          ![Selecting a Windows Phone emulator as a debug target](../cross-platform/media/crossplat-xamarin-verify-4.png "CrossPlat Xamarin Verify 4")  
   
@@ -92,17 +92,17 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 1.  Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com).  
   
-2.  Validate the storyboard designer: in the iOS project in Solution Explorer, open the **Main.storyboard** file. Here, Visual Studio is hosting the designer that’s running remotely on the Mac.  
+2.  Validate the storyboard designer: in the iOS project in Solution Explorer, open the **Main.storyboard** file. Here, Visual Studio is hosting the designer that's running remotely on the Mac.  
   
 3.  Validate building and debugging:  
   
     1.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
   
-    2.  Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below, or the **iPhone** target if you have a tethered device. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
+    2.  Select the **iPhoneSimulator** target from Visual Studio's build drop-down as shown below, or the **iPhone** target if you have a tethered device. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin's [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
   
          ![Selecting the iPhoneSimulator build target](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin Verify 5")  
   
-    3.  Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio. If you have a physical iPhone or iPad connected to the Mac, it will appear here and you can select it instead. If you do not see any devices or simulators listed, check the connection to the Mac by reviewing the topic linked in step 1 above, or by going to **Tools** >**iOS** >**Xamarin Mac Agent**  
+    3.  Select an iPhone target from Visual Studio's debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you'll interact with the app, while debugging happens in Visual Studio. If you have a physical iPhone or iPad connected to the Mac, it will appear here and you can select it instead. If you do not see any devices or simulators listed, check the connection to the Mac by reviewing the topic linked in step 1 above, or by going to **Tools** >**iOS** >**Xamarin Mac Agent**  
   
          ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")  
   
@@ -114,10 +114,10 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
              ![CrossPlat Xamarin Verify 8](../cross-platform/media/crossplat-xamarin-verify-8.png "CrossPlat Xamarin Verify 8")  
   
-        -   Verify that in your iOS project properties in the iOS bundle signing tab, that the Custom entitlement field is empty for the   active debug configuration.  Note: you should only try removing this setting if you’ve encountered the above error message.  
+        -   Verify that in your iOS project properties in the iOS bundle signing tab, that the Custom entitlement field is empty for the   active debug configuration.  Note: you should only try removing this setting if you've encountered the above error message.  
   
 ##  <a name="missing"></a> Are the Xamarin project templates missing? Try this  
- Templates might be missing if you install Xamarin directly from the Xamarin website and you have Visual Studio 2013 and Visual Studio 2015 installed side-by-side. It’s easy to fix, though: just enable the **Xamarin for Visual Studio 2015** feature in the Xamarin setup program.  
+ Templates might be missing if you install Xamarin directly from the Xamarin website and you have Visual Studio 2013 and Visual Studio 2015 installed side-by-side. It's easy to fix, though: just enable the **Xamarin for Visual Studio 2015** feature in the Xamarin setup program.  
   
 1.  In Control Panel, open **Programs and Features**, choose the **Xamarin** item, and click **Change**.  
   

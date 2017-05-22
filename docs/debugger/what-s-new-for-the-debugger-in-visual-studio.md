@@ -1,5 +1,5 @@
 ---
-title: "What’s New for the Debugger in Visual Studio 2017 | Microsoft Docs"
+title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/07/2016"
 ms.reviewer: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# What’s New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+# What's New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
 The debugger includes these new features:
 

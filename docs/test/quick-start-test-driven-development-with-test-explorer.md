@@ -163,7 +163,7 @@ We recommend that you create unit tests to help keep your code working correctly
 1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
   
     > [!TIP]
-    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don’t lose existing functionality as you work to extend the code.  
+    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don't lose existing functionality as you work to extend the code.  
   
      In your test class, add the following test, which tries a range of input values:  
   

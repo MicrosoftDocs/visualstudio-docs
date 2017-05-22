@@ -56,7 +56,7 @@ Line <#= i #>
  If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
   
 ```c#  
-// Get a service provider – how you do this depends on the context:  
+// Get a service provider - how you do this depends on the context:  
 IServiceProvider serviceProvider = dte; // or dslDiagram.Store, for example   
 // Get the text template service:  
 ITextTemplating t4 = serviceProvider.GetService(typeof(STextTemplating)) as ITextTemplating;  
@@ -114,4 +114,4 @@ string resultText = t.TransformText();
 ## Obtaining arguments from TextTemplate.exe  
   
 > [!IMPORTANT]
->  The `parameter` directive does not retrieve values set in the `–a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.
+>  The `parameter` directive does not retrieve values set in the `-a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.

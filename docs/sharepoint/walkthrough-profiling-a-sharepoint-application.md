@@ -231,7 +231,7 @@ manager: "ghogen"
   
 5.  Close the SharePoint site.  
   
-     After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project’s folder.  
+     After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project's folder.  
   
 ##  <a name="BKMK_ViewResults"></a> Viewing and Interpreting the Profiling Results  
  Now that you have run and profiled the SharePoint application, view the test results.  

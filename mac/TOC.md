@@ -4,7 +4,6 @@
 # [Installation](installation.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
-## [Create an Offline Installer for Visual Studio for Mac](create-offline-installer.md)
 
 # [User Accounts](user-accounts.md)
 ## [Signing In](signing-in.md)
@@ -20,7 +19,7 @@
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
 ## [Managing references in a project](managing-references-in-a-project.md)
-### [Walkthrough – Including a NuGet in your project](nuget-walkthrough.md)
+### [Walkthrough - Including a NuGet in your project](nuget-walkthrough.md)
 ## [Managing App Resources](managing-app-resources.md)
 
 # [Source Editor](source-editor.md)

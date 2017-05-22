@@ -8,7 +8,7 @@ ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
 ---
 
 # Editor themes
-Editor themes can be changed to any of the ten color schemes provided by default in Visual Studio for Mac via the **Visual Studio > Preferences… > Text Editor > Color Themes** menu options:
+Editor themes can be changed to any of the ten color schemes provided by default in Visual Studio for Mac via the **Visual Studio > Preferences... > Text Editor > Color Themes** menu options:
 
  ![Color Theme Selection](media/source-editor-image17.png)
 

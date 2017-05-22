@@ -64,7 +64,7 @@ You often need to get Visual Studio services to access different features. In ge
   
  Because the VSPackage constructor is called before the VSPackage is sited, global services are typically unavailable from within the VSPackage constructor. See [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md) for a workaround.  
   
- Here’s an example of the way to get a service in a tool window or other non-VSPackage element.  
+ Here's an example of the way to get a service in a tool window or other non-VSPackage element.  
   
 ```c#  
 IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;  
@@ -76,7 +76,7 @@ if (log == null) return;
   
  The DTE object implements <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>, which you can use to query for a service by using <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A>.  
   
- Here’s how to get a service from the DTE object.  
+ Here's how to get a service from the DTE object.  
   
 ```c#  
 // Start with the DTE object, for example:   

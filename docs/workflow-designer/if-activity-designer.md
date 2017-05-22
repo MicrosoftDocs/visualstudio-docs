@@ -37,8 +37,8 @@ The <xref:System.Activities.Statements.If> activity evaluates a condition and ex
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Statements.If.Condition%2A>|True|The condition that determines which child activity to execute. To set the <xref:System.Activities.Statements.If.Condition%2A>, type a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] expression in the **Condition** box on the **If** activity designer or in the property grid.|  
-|<xref:System.Activities.Statements.If.Else%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **false**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Else%2A> branch, drop an activity from the **Toolbox** into the **Else** box on the **If** activity designer with hint text “Drop Activity Here”.|  
-|<xref:System.Activities.Statements.If.Then%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **true**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Then%2A> branch, drop an activity from the **Toolbox** into the **Then** box on the **If** activity designer with hint text “Drop Activity Here”.|  
+|<xref:System.Activities.Statements.If.Else%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **false**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Else%2A> branch, drop an activity from the **Toolbox** into the **Else** box on the **If** activity designer with hint text "Drop Activity Here".|  
+|<xref:System.Activities.Statements.If.Then%2A>|False|The activity to execute if the <xref:System.Activities.Statements.If.Condition%2A> is **true**. To add an activity that is executed by the <xref:System.Activities.Statements.If.Then%2A> branch, drop an activity from the **Toolbox** into the **Then** box on the **If** activity designer with hint text "Drop Activity Here".|  
   
 ## See Also  
  [Sequence](../workflow-designer/sequence-activity-designer.md)   

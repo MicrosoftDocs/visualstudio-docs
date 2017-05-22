@@ -85,7 +85,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
   
 #### To examine device context  
   
-1.  Open the **d3d11 device context**. In the **Graphics Pipeline Stages** window, choose the **ID3D11DeviceContext** link that’s part of the `DrawIndexed` call that's displayed at the top of the window.  
+1.  Open the **d3d11 device context**. In the **Graphics Pipeline Stages** window, choose the **ID3D11DeviceContext** link that's part of the `DrawIndexed` call that's displayed at the top of the window.  
   
 2.  Examine the device state that's displayed in the **d3d11 device context** tab to confirm that no pixel shader was active during the draw call. In this scenario, the **shader general information**—displayed under **pixel shader state**—indicates that the shader is **NULL**:  
   

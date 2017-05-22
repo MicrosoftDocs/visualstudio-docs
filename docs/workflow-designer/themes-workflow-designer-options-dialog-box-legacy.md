@@ -41,7 +41,7 @@ This topic describes how use the **Themes, Workflow Designer, Options** dialog b
 |UI Element|Description|  
 |----------------|-----------------|  
 |**New**|Click to open the [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md) to create a new theme.|  
-|**Modify…**|Click to open the [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md) to modify the selected theme.|  
+|**Modify...**|Click to open the [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md) to modify the selected theme.|  
 |**Browse**|Click to browse for a workflow theme file, which uses a .wtm file name extension.|  
 |**Select a Theme**|Theme name column heading of themes list. Select a theme from the list, click **Modify** to edit, or click **OK** to use the selected theme for the workflow.|  
 |**Description**|Theme description column heading of themes list.|  

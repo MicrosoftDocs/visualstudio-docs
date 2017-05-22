@@ -73,7 +73,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 -   [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)  
   
 ## Data Synchronization Exceptions  
- The debugger can identify several data synchronization conditions during execution. When a condition is detected, the debugger enters the break state. You have two options—**Break** or **Continue**. By using the **Exceptions** dialog box, you can configure whether the debugger detects these conditions and also which conditions it will break for. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md). You can also use the **Options** dialog box to specify that the debugger should ignore exceptions if the data that's written doesn’t change the value of the data. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
+ The debugger can identify several data synchronization conditions during execution. When a condition is detected, the debugger enters the break state. You have two options—**Break** or **Continue**. By using the **Exceptions** dialog box, you can configure whether the debugger detects these conditions and also which conditions it will break for. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md). You can also use the **Options** dialog box to specify that the debugger should ignore exceptions if the data that's written doesn't change the value of the data. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
   
 ## Troubleshooting  
   

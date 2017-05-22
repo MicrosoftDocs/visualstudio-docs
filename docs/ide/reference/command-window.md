@@ -129,7 +129,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 >Edit.Find ^^t /regex  
 ```  
   
- A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored. The example shown here demonstrates how to search for the pattern “^t”.  
+ A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored. The example shown here demonstrates how to search for the pattern "^t".  
   
 ## Use Quotes for Path Names with Spaces  
  If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.  

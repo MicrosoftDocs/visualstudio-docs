@@ -201,7 +201,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
 |**XML Attribute**|Attribute names.|  
 |**XML Attribute Quotes**|The quote characters for XML attributes.|  
 |**XML Attribute Value**|Contents of XML attributes.|  
-|**XML Cdata Section**|Contents of \<![CDATA[…]]>.|  
+|**XML Cdata Section**|Contents of \<![CDATA[...]]>.|  
 |**XML Comment**|The contents of \<!-- -->.|  
 |**XML Delimiter**|XML Syntax delimiters, including <, <?, <!, \<!--, -->, ?\>, \<![, ]]>, and [, ].|  
 |**XML Doc Attribute**|The value of an xml documentation attribute, such as \<param name="I"> where the "I" is colorized.|  

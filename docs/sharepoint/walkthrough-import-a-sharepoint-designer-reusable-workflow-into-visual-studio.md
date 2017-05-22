@@ -99,7 +99,7 @@ manager: "ghogen"
   
 6.  In the list of conditions, choose **If current item field equals value**.  
   
-     This step adds a condition that’s named **If field equals value**.  
+     This step adds a condition that's named **If field equals value**.  
   
 7.  In the **If field equals value** condition, choose the **field** link.  
   
@@ -189,7 +189,7 @@ manager: "ghogen"
   
      This displays the list immediately when you debug the project.  
   
-11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn’t import the association property values for the imported workflow, you must enter them. To do this:  
+11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn't import the association property values for the imported workflow, you must enter them. To do this:  
   
     1.  In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.  
   

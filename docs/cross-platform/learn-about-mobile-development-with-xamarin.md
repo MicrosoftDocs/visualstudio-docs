@@ -45,9 +45,9 @@ This topic directs you to overview material that helps you understand developing
 ## Essentials: Overview of the Visual Studio and Xamarin Environment  
  *5-15 minutes*  
   
--   The Windows computer with Visual Studio and Xamarin is where you’ll do most of your work. On this computer you directly build Windows and Android apps and run and debug them on a device or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
+-   The Windows computer with Visual Studio and Xamarin is where you'll do most of your work. On this computer you directly build Windows and Android apps and run and debug them on a device or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
   
--   The Mac with Xcode and Xamarin serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you’ll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
+-   The Mac with Xcode and Xamarin serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you'll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
   
  These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/introduction_to_xamarin_ios_for_visual_studio/) (xamarin.com).  
   
@@ -69,7 +69,7 @@ This topic directs you to overview material that helps you understand developing
   
  Xamarin.Forms provides a generalized set of APIs that lets you write a shared UI layer for all platforms in a portable class library.  Xamarin.Forms  renders to native controls on each target platform to give a native look and feel.  Rather than using a designer, with Xamarin.Forms, you build your UI using C# and XAML.  
   
- You don’t need to decide which approach to take up front; apps can be implemented using a combination of both Xamarin Native and Xamarin.Forms:  
+ You don't need to decide which approach to take up front; apps can be implemented using a combination of both Xamarin Native and Xamarin.Forms:  
   
 -   Use Xamarin.Forms to build general-purpose screens that provide similar UI and capabilities across platforms, such as logins, contact forms, and search results.  
   
@@ -83,7 +83,7 @@ This topic directs you to overview material that helps you understand developing
   
 1.  [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
   
-2.  The first three minutes of James Montemagno’s video [Xamarin.Forms: Native iOS, Android & Windows apps with C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9, 13m3s) gives another overview, and you can continue watching for demos.  
+2.  The first three minutes of James Montemagno's video [Xamarin.Forms: Native iOS, Android & Windows apps with C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9, 13m3s) gives another overview, and you can continue watching for demos.  
   
 3.  (Optional) [An Introduction to Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/introduction-to-xamarin-forms/) (xamarin.com)  
   
@@ -96,15 +96,15 @@ This topic directs you to overview material that helps you understand developing
   
  To debug your cross-platform apps without having to use a physical device, you will need to use the following:  
   
-1.  **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft’s Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
+1.  **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft's Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
   
-    -   **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
+    -   **Windows 8+ machines:** We highly recommend using Microsoft's [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
     -   **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
   
-2.  **Apple’s iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
+2.  **Apple's iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   
-3.  **Microsoft’s Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
+3.  **Microsoft's Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
   
 ##  <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  

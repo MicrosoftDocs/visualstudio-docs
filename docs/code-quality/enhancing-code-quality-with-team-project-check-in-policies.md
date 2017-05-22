@@ -67,4 +67,4 @@ When you use Team Foundation Version Control (TFVC), you can create check-in pol
 ## External resources  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)

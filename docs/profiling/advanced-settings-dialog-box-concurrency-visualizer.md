@@ -82,7 +82,7 @@ By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you
  To edit settings that are associated with an existing provider, select it in the list, and then choose the **Edit provider** button.  You can change the name, GUID, and filtering settings.  
   
 ### Filter Marker Data Out of Concurrency Visualizer Reports  
- If you don’t want data for a particular provider to appear in future traces, clear the check box next to the provider that you want to remove.  
+ If you don't want data for a particular provider to appear in future traces, clear the check box next to the provider that you want to remove.  
   
 ## Files  
  On the **Files** tab, you can specify the directory under which trace files are stored each time a trace is collected.  The Concurrency Visualizer generates four files for each trace it collects:  

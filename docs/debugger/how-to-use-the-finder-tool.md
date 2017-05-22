@@ -50,7 +50,7 @@ Finder Tool in the Find Window dialog box
   
      As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window you want to examine (for example, copied from the debugger), type it into the **Handle** text box.  
   
