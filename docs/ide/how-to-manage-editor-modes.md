@@ -77,5 +77,5 @@ You can display the Visual Studio Code Editor in various display modes.
   
 ## See Also  
  [Customizing the Editor](../ide/customizing-the-editor.md)   
- [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)   
+ [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md)   
  [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

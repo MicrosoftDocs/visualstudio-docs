@@ -56,9 +56,9 @@ manager: "ghogen"
   
 -   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview).  
   
--   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](/visual-studio/data-tools/tableadapter-overview).  
+-   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).  
   
--   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../data-tools/hierarchical-update.md) and [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+-   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../data-tools/hierarchical-update.md) and [TableAdapterManager Reference](../data-tools/fill-datasets-by-using-tableadapters.md#tableadaptermanager-reference).  
   
  When you run the project, the control displays the first record in the data source. You can use the <xref:System.Windows.Forms.BindingSource> to enable users to scroll through the records.  
   
