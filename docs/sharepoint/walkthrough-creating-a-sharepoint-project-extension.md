@@ -100,7 +100,7 @@ manager: "ghogen"
   
 2.  Open the shortcut menu for the **ProjectExtension** project,  and then choose **Add Reference**.  
   
-3.  In the **Reference Manager – CustomProperty** dialog box, choose the **Framework** node, and then select the check box next to the System.ComponentModel.Composition and System.Windows.Forms assemblies.  
+3.  In the **Reference Manager - CustomProperty** dialog box, choose the **Framework** node, and then select the check box next to the System.ComponentModel.Composition and System.Windows.Forms assemblies.  
   
 4.  Choose the **Extensions** node, select the check box next to the Microsoft.VisualStudio.SharePoint and EnvDTE assemblies, and then choose the **OK** button.  
   

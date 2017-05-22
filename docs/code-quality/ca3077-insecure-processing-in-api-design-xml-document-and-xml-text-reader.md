@@ -49,9 +49,9 @@ translation.priority.mt:
   
 ## How to Fix Violations  
   
--   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
+-   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
   
--   Use <xref:System.Xml.XmlSecureResolver>instead of XmlResolver to restrict the resources the XmlTextReader can  access.  
+-   Use <xref:System.Xml.XmlSecureResolver>instead of XmlResolver to restrict the resources the XmlTextReader can  access.  
   
 ## When to Suppress Warnings  
  Unless you're sure that the input is known to be from a trusted source, do not suppress a rule from this warning.  

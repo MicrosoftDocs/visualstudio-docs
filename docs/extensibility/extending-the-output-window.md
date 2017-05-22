@@ -175,7 +175,7 @@ void GetGeneralPane()
  If you add this method to the extension given in the preceding section, when you click the **Invoke TestOutput** command you should see that the **Output** window shows the words **Found General pane** in the pane.  
   
 ## Getting the Build Pane of the Output Window  
- This example shows how to find the Build pane and write to it. Since the Build pane isn’t activated by default, it activates it also.  
+ This example shows how to find the Build pane and write to it. Since the Build pane isn't activated by default, it activates it also.  
   
 ```c#  
 void OutputTaskItemStringExExample(string buildMessage)  

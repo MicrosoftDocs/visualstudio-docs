@@ -53,7 +53,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Make the game more difficult by making the board bigger.  
   
     > [!TIP]
-    >  You'll need to do more than just add rows and columns to the TableLayoutPanel – you'll also need to consider the number of icons you create.  
+    >  You'll need to do more than just add rows and columns to the TableLayoutPanel - you'll also need to consider the number of icons you create.  
   
 -   Make the game more challenging by hiding the first icon if the player is too slow to respond and doesn't choose the second icon before a certain amount of time.  
   

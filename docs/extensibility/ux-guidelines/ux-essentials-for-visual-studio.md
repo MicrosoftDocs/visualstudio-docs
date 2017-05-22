@@ -127,7 +127,7 @@ Forcing the user to read explanatory text before dismissing UI is an anti-patter
  ![Explanatory text anti&#45;pattern &#45; correct](../../extensibility/ux-guidelines/media/explanatorytextanti-pattern-correct.png "Explanatorytextanti-pattern-correct")<br />Correct video link pattern
   
 ### Using command bars for settings  
- **Figure A** represents this anti-pattern: putting a setting underneath a command button that applies to more than just the command. In this sketch, there are commands besides Start Debugging — like View in Browser, Start Without Debugging, and Step Into — that will respect the selected setting.  
+ **Figure A** represents this anti-pattern: putting a setting underneath a command button that applies to more than just the command. In this sketch, there are commands besides Start Debugging — like View in Browser, Start Without Debugging, and Step Into — that will respect the selected setting.  
 
   ![Figure A: Command bar anti-pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figurea.png "Commandbaranti-pattern-FigureA")<br />Figure A: Command bar anti-pattern
   

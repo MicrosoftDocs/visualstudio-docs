@@ -25,7 +25,7 @@ manager: "ghogen"
 # SharePoint Development Samples
   You can use Visual Studio to download and install samples of SharePoint applications from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=254185).  
   
- You can download each sample individually, or you can download a Sample Pack, which contains related samples that share a technology or topic. You’ll receive a notification when source code changes are published for any sample that you download.  
+ You can download each sample individually, or you can download a Sample Pack, which contains related samples that share a technology or topic. You'll receive a notification when source code changes are published for any sample that you download.  
   
 ## See Also  
  [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)   

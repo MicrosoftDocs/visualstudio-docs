@@ -38,7 +38,7 @@ numObj. toExponential([fractionDigits])
  Required. A **Number** object.  
   
  `fractionDigits`  
- Optional. The number of digits after the decimal point. Must be in the range 0 – 20, inclusive.  
+ Optional. The number of digits after the decimal point. Must be in the range 0 - 20, inclusive.  
   
 ## Return Value  
  Returns a string representation of a number in exponential notation. The string contains one digit before the decimal point, and may contain `fractionDigits` digits after it.  

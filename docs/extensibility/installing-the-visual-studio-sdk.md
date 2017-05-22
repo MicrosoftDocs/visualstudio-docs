@@ -31,7 +31,7 @@ translation.priority.mt:
 The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on.  
   
 ## Installing the Visual Studio SDK as Part of a Visual Studio Installation  
- If you’d like to include the VSSDK in your Visual Studio installation, you should install the **Visual Studio extension development** Workload under **Other Toolsets**. This will install the Visual Studio SDK as well as the necessary prerequisites. You can further tune the installation by selecting or unselecting Components from the Summary view. 
+ If you'd like to include the VSSDK in your Visual Studio installation, you should install the **Visual Studio extension development** Workload under **Other Toolsets**. This will install the Visual Studio SDK as well as the necessary prerequisites. You can further tune the installation by selecting or unselecting Components from the Summary view. 
   
 ## Installing the Visual Studio SDK after Installing Visual Studio  
  If you decide to install the Visual Studio SDK after completing your Visual Studio installation, rerun the Visual Studio installer and select the **Visual Studio extension development** Workload.  

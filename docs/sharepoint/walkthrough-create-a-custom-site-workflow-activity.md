@@ -121,7 +121,7 @@ manager: "ghogen"
   
 3.  At the top of the SharePoint webpage, choose the **Site Workflows** link.  
   
-4.  Under the Start a New Workflow section, choose the **AnnouncementBackup – Workflow1** link. This starts the site workflow and runs the code in the custom action.  
+4.  Under the Start a New Workflow section, choose the **AnnouncementBackup - Workflow1** link. This starts the site workflow and runs the code in the custom action.  
   
 5.  On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.  
   

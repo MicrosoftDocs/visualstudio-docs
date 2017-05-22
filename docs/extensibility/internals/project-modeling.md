@@ -51,9 +51,9 @@ The next step in providing automation for your project is to implement the stand
   
 ```  
 Projects  
-  |– Project  
-      |– ProjectItems (a collection of ProjectItem)  
-          |– ProjectItem (single object) or ProjectItems (another collection)  
+  |- Project  
+      |- ProjectItems (a collection of ProjectItem)  
+          |- ProjectItem (single object) or ProjectItems (another collection)  
 ```  
   
  Nesting means that a <xref:EnvDTE.ProjectItem> object can be <xref:EnvDTE.ProjectItems> collection at the same time because a `ProjectItems` collection can contain the nested objects. The Basic Project sample does not demonstrate this nesting. By implementing the `Project` object, you participate in the tree-like structure that characterizes the design of the overall automation model.  

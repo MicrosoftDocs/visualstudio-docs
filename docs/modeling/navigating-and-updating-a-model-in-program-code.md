@@ -376,7 +376,7 @@ using (Transaction t = targetDiagram.Store.
   
  Every node or link shape belongs to one diagram. A binary link shape connects two node shapes.  
   
- Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent – for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
+ Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent - for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
   
 ###  <a name="views"></a> Navigating between shapes and elements  
  Domain model elements and shape elements are related by the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  

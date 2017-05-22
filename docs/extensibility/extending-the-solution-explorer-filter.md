@@ -204,4 +204,4 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
   
 3.  Look for the button you added on the Solution Explorer toolbar. It should be the fourth button from the left.  
   
-4.  When you click the button, all the files should be filtered out, and you should see “All items have been filtered from view.” in the Solution Explorer.
+4.  When you click the button, all the files should be filtered out, and you should see "All items have been filtered from view." in the Solution Explorer.

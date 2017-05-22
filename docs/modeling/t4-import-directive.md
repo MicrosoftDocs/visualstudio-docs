@@ -58,7 +58,7 @@ The file contains: <#=  fileContent #>
   
 -   `Microsoft.VisualStudio.Modeling`  
   
--   Your DSL’s namespace  
+-   Your DSL's namespace  
   
 ## See Also  
  [T4 Assembly Directive](../modeling/t4-assembly-directive.md)

@@ -120,7 +120,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 5.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:  
   
-    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn’t exist, it is assumed to be the current version.  
+    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn't exist, it is assumed to be the current version.  
   
     2.  The default tools version in the MSBuild.exe.config file.  
   

@@ -351,7 +351,7 @@ if (performance.mark && performance.measure) {
 |DOM event|Scripting|A DOM event occurred and was executed.<br /><br /> The `context` property for the DOM event, such as  `DOMContentLoaded` or `click`, is shown in parentheses.|  
 |Event listener|Scripting|An event listener was called and executed.|  
 |Media query listener|Scripting|A registered media query was invalidated which resulted in the execution of its associated listener(s).|  
-|Mutation observer|Scripting|One or more observed DOM elements were modified, which resulted in the execution of a MutationObserver’s associated callback.|  
+|Mutation observer|Scripting|One or more observed DOM elements were modified, which resulted in the execution of a MutationObserver's associated callback.|  
 |Script evaluation|Scripting|A new SCRIPT element was found in the DOM, and an attempt was made to parse and execute the script.|  
 |Timer|Scripting|A scheduled timer elapsed, and this resulted in the execution of its associated callback function.|  
 |Windows Runtime async callback function|Scripting|An async operation that triggered a `Promise` callback function was completed by a Windows Runtime object.|  

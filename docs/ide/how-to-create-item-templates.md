@@ -36,9 +36,9 @@ translation.priority.ht:
 # How to: Create Item Templates
 The steps in the [first procedure](../ide/how-to-create-item-templates.md#export_template) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).  
 
- The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
+ The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app project, you'll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
 
- To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](../ide/how-to-create-multi-file-item-templates.md#enable_templates).  
+ To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](#enable_templates).  
 
  In some cases you may want or need to create an item template manually from scratch. The [third procedure](../ide/how-to-create-item-templates.md#create_template) shows how to do that.  
 
@@ -111,8 +111,9 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
  You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] project by using the **Add New Item** dialog box.  
 
  For more information about parameter names, see [Template Parameters](../ide/template-parameters.md).  
-
-### To enable templates for specific project sub-types  
+  
+ 
+### <a name="enable_templates"></a> To enable templates for specific project sub-types  
 
 1.  The development environment enables you to make project items available from the Add Item dialog box for certain projects. Use this procedure to make custom items available for Windows, Web, Office, or database projects.  
 

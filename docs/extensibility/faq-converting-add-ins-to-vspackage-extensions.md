@@ -50,7 +50,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
  An add-in project can't be converted directly to a VSIX project because the mechanisms used in VSIX projects are not the same as the ones in add-in projects. The VSIX project template, plus the right project item templates have a lot of code that makes it relatively easy to get up and running as a VSIX extension.  
   
 ##  <a name="BKMK_StartDeveloping"></a> How do I start developing VSIX extensions?  
- Here’s how you make a VSIX that has a menu command:  
+ Here's how you make a VSIX that has a menu command:  
   
 #### To make a VSIX extension that has a menu command  
   

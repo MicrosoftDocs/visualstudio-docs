@@ -731,7 +731,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
      YourUserName  
   
-     Fourscore…  
+     Fourscore...  
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

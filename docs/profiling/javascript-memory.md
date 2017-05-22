@@ -407,7 +407,7 @@ if (performance && performance.mark) {
   
     -   Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#JSConsoleCommands).)  
   
-         You can use these commands to help isolate issues that you can’t isolate by manually taking a heap snapshot.  
+         You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.  
   
     -   Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.  
   

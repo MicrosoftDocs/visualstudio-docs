@@ -92,7 +92,7 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 6.  Build the project and start debugging. The experimental instance of Visual Studio should appear.  
   
-7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn’t call ChangeMyCommand().  
+7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn't call ChangeMyCommand().  
   
 8.  On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.  
   

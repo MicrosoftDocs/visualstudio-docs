@@ -54,7 +54,7 @@ manager: "ghogen"
 #### Package Node  
  The **Package** node contains a single file that serves as the distribution mechanism for the SharePoint project. This file, known as a *solution**package*, is .CAB-based with a .WSP extension. A solution package is a deployable, reusable file that contains a set of features, site definitions, and assemblies that apply to SharePoint sites, and that you can enable or disable individually. The **Package** node also always contains a file that is named Package.wspdef, an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] definition file for the package. Once a package is deployed to the server that's running SharePoint, the SharePoint administrator can install it and activate its features.  
   
- You can view or change the package’s contents in the Package Designer either by double-clicking the package node or by opening its shortcut menu and then choosing **Open**. For more information, see [Creating SharePoint Solution Packages](../sharepoint/creating-sharepoint-solution-packages.md).  
+ You can view or change the package's contents in the Package Designer either by double-clicking the package node or by opening its shortcut menu and then choosing **Open**. For more information, see [Creating SharePoint Solution Packages](../sharepoint/creating-sharepoint-solution-packages.md).  
   
 ## SharePoint Project and Project Item Properties  
  SharePoint projects, just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects, display properties in the Properties window and the Properties Page. The properties that are displayed depend on the node that is selected.  

@@ -84,7 +84,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 4.  Open the **Tools** menu in the experimental instance of Visual Studio. Click the **Invoke TestStatusBarCommand** button.  
   
-     You should see that the text in the status bar now reads **“We just wrote to the status bar.”** and the message box that appears has the same text.  
+     You should see that the text in the status bar now reads **"We just wrote to the status bar."** and the message box that appears has the same text.  
   
 #### Updating the progress bar  
   
@@ -118,7 +118,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 4.  Open the **Tools** menu in the experimental instance of Visual Studio. Click **Invoke TestStatusBarCommand** button.  
   
-     You should see that the text in the status bar now reads **“Writing to the progress bar.”** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.  
+     You should see that the text in the status bar now reads **"Writing to the progress bar."** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.  
   
 #### Displaying an animation  
   

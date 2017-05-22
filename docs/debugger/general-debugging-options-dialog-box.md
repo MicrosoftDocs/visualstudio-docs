@@ -120,7 +120,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  When the debugger highlights a breakpoint or current statement, it highlights the entire line.  
   
  **Require source files to exactly match the original version**  
- Tells the debugger to verify that a source file matches the version of the source code used to build the executable you are debugging. If the version does not match, you’ll be prompted to find a matching source. If a matching source is not found, the source code will not be displayed during debugging.  
+ Tells the debugger to verify that a source file matches the version of the source code used to build the executable you are debugging. If the version does not match, you'll be prompted to find a matching source. If a matching source is not found, the source code will not be displayed during debugging.  
   
  **Redirect all Output window text to the Immediate window**  
  Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.  
@@ -145,8 +145,8 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Show parallel stacks diagram bottom-up**  
  Controls the direction in which stacks are displayed in the **Parallel Stacks** window.  
   
- **Ignore GPU memory access exceptions if the data written didn’t change the value**  
- Ignores race conditions that were detected during debugging if the data didn’t change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).  
+ **Ignore GPU memory access exceptions if the data written didn't change the value**  
+ Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).  
   
  **Use Managed Compatibility Mode**  
  Replaces the default debugging engine with a legacy version to enable these scenarios:  
@@ -193,7 +193,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).  
   
  **Apply changes on continue (Native only)**  
- Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the “Apply Code Changes” item under the Debug menu.  
+ Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the "Apply Code Changes" item under the Debug menu.  
   
  **Warn about stale code (Native only)**  
  Get warnings about stale code.  

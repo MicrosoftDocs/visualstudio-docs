@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Talk to Us
-We're interested in your ideas for improving our products and our documentation. We can’t always respond personally, but we’ll make sure that your feedback gets to the right person or team.  
+We're interested in your ideas for improving our products and our documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  
 
 ## I want to report a problem with Visual Studio  
  If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **QuickLaunch**, or choose **Help &#124; Send Feedback &#124; Report a Problem** from the main menu. For more information, see [How to Report a Problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).  
@@ -59,7 +59,7 @@ Microsoft support services are subject to then-current prices, terms, and condit
  If you want to share your questions and answers with other developers, you can use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/index.html) site, the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) and [CodePlex](http://www.codeplex.com/) websites. And last but not least, you can share your expertise by responding to customer feedback in the Comments section on any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/).
 
 ## I want to help improve the Visual Studio documentation  
-  Please use our feedback button (**Was this page helpful?**) at the bottom of the page. You can find this button on all our documentation pages. If you’re looking for an answer and you can’t find it, please tell us what information you’re looking for. (Alternatively, you can add feedback to any Visual Studio page on  [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the Comments section.)
+  Please use our feedback button (**Was this page helpful?**) at the bottom of the page. You can find this button on all our documentation pages. If you're looking for an answer and you can't find it, please tell us what information you're looking for. (Alternatively, you can add feedback to any Visual Studio page on  [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the Comments section.)
 
 ## See Also  
  [How to Report a Problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)

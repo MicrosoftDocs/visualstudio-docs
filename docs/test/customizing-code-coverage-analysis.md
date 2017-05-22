@@ -59,7 +59,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
 3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.  
   
-4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don’t forget that you must run code coverage again: your previous coverage results and code coloring aren’t automatically hidden when you run tests or update your code.  
+4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don't forget that you must run code coverage again: your previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.  
   
 5.  To turn the custom settings off and on, deselect or select the file in the **Test**, **Test Settings** menu.  
   
@@ -149,17 +149,17 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  
   
--   `ModulePath` – Assemblies specified by assembly file path.  
+-   `ModulePath` - Assemblies specified by assembly file path.  
   
--   `CompanyName` – matches assemblies by the Company attribute.  
+-   `CompanyName` - matches assemblies by the Company attribute.  
   
--   `PublicKeyToken` – matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
+-   `PublicKeyToken` - matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
   
--   `Source` – matches elements by the path name of the source file in which they are defined.  
+-   `Source` - matches elements by the path name of the source file in which they are defined.  
   
--   `Attribute` – matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
+-   `Attribute` - matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
   
--   `Function` – matches procedures, functions, or methods by fully qualified name.  
+-   `Function` - matches procedures, functions, or methods by fully qualified name.  
   
  **Matching a function name**  
   

@@ -39,7 +39,7 @@ translation.priority.mt:
   
 -   **Ensure you are presenting clear, actionable messages** that the user can use to invoke the appropriate context for making more complex choices and taking further action.  
   
--   **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user’s task flow.  
+-   **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user's task flow.  
   
 -   **Use modal dialogs only when necessary to prevent the user from taking further action** before acknowledging the message or making a decision presented in the dialog.  
   
@@ -58,8 +58,8 @@ translation.priority.mt:
 |[Mouse cursor changes](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_MouseCursorChanges)|May be used to notify that a process is going on. Also used to notify that there is a state change in the mouse, such as when drag/drop is in progress or that the mouse cursor is in a certain mode, such as drawing mode.|Do not use for short progress changes or if fluttering of the cursor is likely (for example, when tied to parts of a longer running process instead of to the entire process).|  
 |[Progress indicators](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_NotSysProgressIndicators)|Use when you need to report progress (either determinate or indeterminate). There are a variety of progress indicator types and specific usage for each. See [Progress indicators](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ProgressIndicators).||  
 |[Visual Studio Notifications window](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_VSNotificationsToolWindow)|The Notifications window is not publicly extensible. However, it is used to communicate a range of messages about Visual Studio, including critical issues with your license and informational notifications of updates to Visual Studio or to packages.|Do not use for other types of notifications.|  
-|[Error list](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ErrorList)|When the issue relates directly to the user’s currently open solution having an issue (error/warning/info), they might need to take action on the code.<br /><br /> This would include, for example:<br /><br /> - Compiler messages (error/warning/info)<br /><br /> - Code Analyzer/Diagnostic messages about the code<br /><br /> - Build messages<br /><br /> May be appropriate for issues relating to the project or solution files, but consider a Solution Explorer indication first.|Do not use for items that do not have any relation to the user’s open solution code.|  
-|Editor notifications: Light Bulb|Use when you have a fix available to remedy an issue that exists in the open file.<br /><br /> Note that Light Bulb should also be used for hosting Quick Actions that are taken on the user’s code on demand, such as refactorings, but in that case will not appear “notification style.”|Do not use for items that do not have any relation to the open file.|  
+|[Error list](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ErrorList)|When the issue relates directly to the user's currently open solution having an issue (error/warning/info), they might need to take action on the code.<br /><br /> This would include, for example:<br /><br /> - Compiler messages (error/warning/info)<br /><br /> - Code Analyzer/Diagnostic messages about the code<br /><br /> - Build messages<br /><br /> May be appropriate for issues relating to the project or solution files, but consider a Solution Explorer indication first.|Do not use for items that do not have any relation to the user's open solution code.|  
+|Editor notifications: Light Bulb|Use when you have a fix available to remedy an issue that exists in the open file.<br /><br /> Note that Light Bulb should also be used for hosting Quick Actions that are taken on the user's code on demand, such as refactorings, but in that case will not appear "notification style."|Do not use for items that do not have any relation to the open file.|  
 |Editor notifications: Squiggles|Use to alert the user to an issue with a particular span of their open code (for example, a red squiggle for errors).|Do not use for items that do not relate to a particular span of their open code.|  
 |[Embedded status bars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_EmbeddedStatusBars)|Use to provide status related to content or process within context of a specific tool window, document window, or dialog window.|Do not use for general product notifications, processes, or items that do not have any relation to the content within the specific window.|  
 |[Windows tray notifications](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_WindowsTray)|Use to surface notifications for out-of-proc processes or companion applications.|Do not use for notifications that are relevant to the IDE.|  
@@ -163,9 +163,9 @@ translation.priority.mt:
   
 |Progress type|When and how to use|Notes|  
 |-------------------|-------------------------|-----------|  
-|Progress bar (determinate)|Expected duration of >5 seconds.<br /><br /> May include textual description of process details.|**DON’T** embed text into animation.|  
-|Infobar|Messaging associated with contextual UI. See [Infobars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars).<br /><br /> May include textual description of process details.|**DON’T** use multiple infobars when you need to indicate multiple processes. Use stacked progress bars instead.|  
-|Output Window|Transient notification: app-level process that user want to **review** details of after completion.|**DON’T** use if the user will need to refer to data later.|  
+|Progress bar (determinate)|Expected duration of >5 seconds.<br /><br /> May include textual description of process details.|**DON'T** embed text into animation.|  
+|Infobar|Messaging associated with contextual UI. See [Infobars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars).<br /><br /> May include textual description of process details.|**DON'T** use multiple infobars when you need to indicate multiple processes. Use stacked progress bars instead.|  
+|Output Window|Transient notification: app-level process that user want to **review** details of after completion.|**DON'T** use if the user will need to refer to data later.|  
 |Log file|Paired with intransient notification in cases when it is important to **save** details after completion.||  
 |Status bar|Transient notification: app-level process that user will **not need** details of after completion.<br /><br /> Includes an embedded progress bar.<br /><br /> May include textual description of process details.||  
   
@@ -174,10 +174,10 @@ translation.priority.mt:
 |Progress type|When and how to use|Notes|  
 |-------------------|-------------------------|-----------|  
 |Progress bar (indeterminate)|Expected duration of >5 seconds.<br /><br /> May include textual description of process details.|**DON'T** embed text into animation.|  
-|Ants (animated horizontal dots)|Round trip to server.<br /><br /> Placed near point of context across top of parent container.|**DON’T** use if not parented by entire container.|  
+|Ants (animated horizontal dots)|Round trip to server.<br /><br /> Placed near point of context across top of parent container.|**DON'T** use if not parented by entire container.|  
 |Spinner (progress ring)|Process associated with contextual UI, or where space is a consideration.<br /><br /> May include textual description of process details.||  
-|Infobar|Messaging associated with contextual UI. See [Infobars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars).|**DON’T** use multiple infobars when you need to indicate multiple processes. Use stacked progress bars instead.|  
-|Output Window|Transient notification: app-level process that user will want to **review** details of after completion.|**DON’T** use for information that needs to persist across sessions.|  
+|Infobar|Messaging associated with contextual UI. See [Infobars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars).|**DON'T** use multiple infobars when you need to indicate multiple processes. Use stacked progress bars instead.|  
+|Output Window|Transient notification: app-level process that user will want to **review** details of after completion.|**DON'T** use for information that needs to persist across sessions.|  
 |Log file|Paired with intransient notification in cases when it is important to **save** details after completion.||  
 |Status bar|Transient notification: app-level process that user will **not need** details of after completion.<br /><br /> Includes embedded progress bar.<br /><br /> May include textual description of process details.||  
   
@@ -190,19 +190,19 @@ translation.priority.mt:
   
  **Indeterminate progress bar**  
   
- "Indeterminate" means the overall progress of an operation or process cannot be determined. Use indeterminate progress bars for operations that require an unbounded amount of time or that access an unknown number of objects. Use a textual description to accompany what is happening. Use timeouts to give bounds to time-based operations. Indeterminate progress bars use animations to show that progress is being made, but provide no other information. Don’t choose an indeterminate progress bar based only on the possible lack of accuracy alone.  
+ "Indeterminate" means the overall progress of an operation or process cannot be determined. Use indeterminate progress bars for operations that require an unbounded amount of time or that access an unknown number of objects. Use a textual description to accompany what is happening. Use timeouts to give bounds to time-based operations. Indeterminate progress bars use animations to show that progress is being made, but provide no other information. Don't choose an indeterminate progress bar based only on the possible lack of accuracy alone.  
   
 ##### Determinate  
  ![Determinate progress bar](../../extensibility/ux-guidelines/media/0901-05_determinate.png "0901-05_Determinate")  
   
  **Determinate progress bar**  
   
- "Determinate" means that an operation or process requires a bounded amount of time, even if that amount of time cannot be accurately predicted. Clearly indicate completion. Don’t let a progress bar go to 100 percent unless the operation has completed. Determinate progress bar animation moves left-to-right from 0 to 100%.  
+ "Determinate" means that an operation or process requires a bounded amount of time, even if that amount of time cannot be accurately predicted. Clearly indicate completion. Don't let a progress bar go to 100 percent unless the operation has completed. Determinate progress bar animation moves left-to-right from 0 to 100%.  
   
  Never move the progress indicator backward during an operation. The bar should move forward steadily when the operation begins and reach 100% when it ends. The point of the progress bar is to give the user an idea of how long the entire operation takes, regardless of how many steps are involved.  
   
 ##### Concurrent reporting (stacked progress bars)  
- If an operation will take a long time – perhaps several minutes – then two progress bars may be used, one that shows overall progress for an operation and another for the progression of the current step. For example, if a setup program is copying many files, then one progress bar can be used to indicate how long the entire process takes while a second can indicate what percentage of the current file or directory is being copied. Do not report more than five concurrent operations or processes using stacked progress bars. If you have more than five concurrent operations or processes to report, use a modal dialog with a Cancel button and report the progress details to the Output Window.  
+ If an operation will take a long time - perhaps several minutes - then two progress bars may be used, one that shows overall progress for an operation and another for the progression of the current step. For example, if a setup program is copying many files, then one progress bar can be used to indicate how long the entire process takes while a second can indicate what percentage of the current file or directory is being copied. Do not report more than five concurrent operations or processes using stacked progress bars. If you have more than five concurrent operations or processes to report, use a modal dialog with a Cancel button and report the progress details to the Output Window.  
   
 ##### Textual descriptions  
  Use a textual description to accompany what is happening and the estimated time to completion. If it is impossible to determine how long an operation will take, then a better choice for giving feedback might be an animated icon rather than a progress bar.  
@@ -261,7 +261,7 @@ translation.priority.mt:
   
  ![Inline progress messaging](../../extensibility/ux-guidelines/media/0903-09_inlinetext.png "0903-09_InlineText")  
   
- **Server Explorer inline text: Refreshing…**  
+ **Server Explorer inline text: Refreshing...**  
   
 ##### Tool windows  
  Global progress indication is represented by an indeterminate progress bar positioned directly below the tool bar.  
@@ -320,9 +320,9 @@ translation.priority.mt:
   
 -   Keep the text on links and buttons succinct.  
   
--   Ensure the “action” options you provide to users are minimal, showing only required actions.  
+-   Ensure the "action" options you provide to users are minimal, showing only required actions.  
   
-##### Don’t:  
+##### Don't:  
   
 -   Use an infobar to offer standard commands that should be placed in a toolbar.  
   
@@ -431,7 +431,7 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 -   Within a document tab  
   
 > [!IMPORTANT]
->  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with “jump and jerk” of the IDE and should be avoided unless absolutely necessary and appropriate.  
+>  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.  
   
 #### Placing an infobar in a ToolWindowPane  
  The ToolWindowPane.AddInfoBar(IVsInfoBar) method can be used to add an infobar to a tool window. This API can either add an IVsInfoBar (of which InfoBarModel is a default implementation), or an IVsUIElement.  
@@ -518,7 +518,7 @@ public interface IVsInfoBarUIEvents
   
  **Validation involving a round trip to a server**  
   
- Note that adequate available space to the right of the control must be provided in order to accommodate the “Verifying…” and “Retry” text.  
+ Note that adequate available space to the right of the control must be provided in order to accommodate the "Verifying..." and "Retry" text.  
   
 #### In-place warning text  
  When there is room available to put the error message close to the control in a state of error, this is preferable to using the tooltip alone.  

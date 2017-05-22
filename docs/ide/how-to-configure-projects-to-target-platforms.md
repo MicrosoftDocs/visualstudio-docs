@@ -49,7 +49,7 @@ translation.priority.ht:
   
 2.  In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.  
   
-    1.  If the platform that you want doesn’t appear in the **Active solution platform** list, choose **New**.  
+    1.  If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**.  
   
          The **New Solution Platform** dialog box appears.  
   

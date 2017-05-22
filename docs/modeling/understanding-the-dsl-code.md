@@ -59,7 +59,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
 -   Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.  
   
--   Set options in the DSL Definition that cause the generated code to provide ‘hooks’ for your own code.  
+-   Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.  
   
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.  
   

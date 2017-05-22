@@ -46,7 +46,7 @@ result -= expression
  Using the `-=` operator is exactly the same as doing the following:  
   
 ```JavaScript  
-result = result – expression  
+result = result - expression  
 ```  
   
 ## Requirements  

@@ -38,7 +38,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
   
 -   Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.  
   
--   Change source control binding: **File** -> **Source Control** -> **Change Source Control**…  
+-   Change source control binding: **File** -> **Source Control** -> **Change Source Control**...  
   
 ## Common Expected Behavior  
  Changing the source control plug-in for a solution is possible without exiting Visual Studio or reloading the solution. In addition, the current source control plug-in automatically changes to the one used by a solution when that solution is loaded.  

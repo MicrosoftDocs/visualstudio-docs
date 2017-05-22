@@ -72,7 +72,7 @@ In Visual Studio 2015, IntelliSense is available for single code files as well a
 ## Cross-Platform IntelliSense  
  In a shared code project, some IntelliSense features such as squiggles are available even when you are working in an Android context. If you write some code that would result in an error in an inactive project, IntelliSense still shows squiggles, but they are in a different color than squiggles for errors in the current context.  
   
- Here’s an OpenGLES Application that is configured to build for Android and iOS. The illustration shows shared code being edited. In the first image, Android is the active project:  
+ Here's an OpenGLES Application that is configured to build for Android and iOS. The illustration shows shared code being edited. In the first image, Android is the active project:  
   
  ![The Android project is the active project.](../ide/media/intellisensecppcrossplatform.png "IntelliSenseCppCrossPlatform")  
   
@@ -80,7 +80,7 @@ In Visual Studio 2015, IntelliSense is available for single code files as well a
   
 -   The #else branch on line 8 is grayed out to indicate inactive region, because __ANDROID\_\_ is defined for Android project.  
   
--   The greeting variable at line 11 is initialized with identifier HELLO, which has a purple squiggle. This is because no identifier HELLO is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won’t in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.  
+-   The greeting variable at line 11 is initialized with identifier HELLO, which has a purple squiggle. This is because no identifier HELLO is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won't in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.  
   
 -   Line 12 has red squiggle on identifier BYE; this identifier is not defined in the currently selected active project.  
   

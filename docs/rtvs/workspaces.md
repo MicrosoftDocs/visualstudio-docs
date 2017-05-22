@@ -48,7 +48,7 @@ In this topic:
 - [Remote workspaces](#remote-workspaces)
 - [Switching between workspaces](#switching-between-workspaces)
 - [Directories on local and remote computers](#directories-on-local-and-remote-computers)
-- [Copying project files to a remote workspace](#copying-project-files-to-a-remote-workspace)
+- [Copying project files to remote workspaces](#copying-project-files-to-remote-workspaces)
 - [Copying files from a remote workspace](#copying-files-from-a-remote-workspace)
 
 ## Saving and resetting a workspace
