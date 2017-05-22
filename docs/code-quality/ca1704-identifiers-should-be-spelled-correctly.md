@@ -68,7 +68,7 @@ translation.priority.mt:
   
 -   Add words that should cause a violation under the Dictionary/Words/Unrecognized path.  
   
--   Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)for more information.  
+-   Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md) for more information.  
   
 -   Add exceptions to the acronym casing rules to the Dictionary/Acronyms/CasingExceptions path.  
   

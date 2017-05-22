@@ -252,8 +252,10 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 ## <a name="bkmk_freeze"></a> Freezing and thawing thread execution 
 
+You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
+
 > [!TIP]
-> You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
+> If you want to follow a single thread without freezing other threads (also a common debugging scenario), see [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
   
 #### To freeze and unfreeze threads  
   
