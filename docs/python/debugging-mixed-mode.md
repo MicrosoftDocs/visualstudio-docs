@@ -65,9 +65,11 @@ For an introduction to building, testing, and debugging native C modules with Vi
 1. You may also want to have the Python source code itself on hand. For standard Python, this can be obtained from [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/). Download the archive appropriate for your version and extract it to a folder. You'll point Visual Studio to specific files in that folder at whatever point it prompts you.
 
 > [!Note]
-> Mixed-mode debugging as described here is enabled when you have a Python project loaded into Visual Studio. That project determines the Visual Studio's debugging mode, which is what makes the mixed-mode option available. If, however, you have a C++ project loaded (as you would when [embedding Python in another application](https://docs.python.org/3/extending/embedding.html), described on python.org), then Visual Studio will use the native C++ debugger in which mixed-mode debugging isn't provided.
+> Mixed-mode debugging as described here is enabled only when you have a Python project loaded into Visual Studio. That project determines the Visual Studio's debugging mode, which is what makes the mixed-mode option available. If, however, you have a C++ project loaded (as you would when [embedding Python in another application](https://docs.python.org/3/extending/embedding.html), described on python.org), then Visual Studio will use the native C++ debugger in which mixed-mode debugging isn't provided.
 >
 > In this case, start the C++ project without debugging (**Debug > Start without debugging** or Ctrl+F5), and then use **Debug > Attach to Process...**. In the dialog that appears, select the appropriate process, then use the **Select...** button to open the **Select Code Type** dialog in which you can select Python as shown below. Select **OK** to close that dialog, then **Attach** to start the debugger. Note that you may need to introduce a suitable pause or delay in the C++ app to ensure that it doesn't call the Python you want to debug before you can attach the debugger.
+>
+> ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
 
 ## Mixed-mode specific features
 
