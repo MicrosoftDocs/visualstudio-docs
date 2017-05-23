@@ -48,7 +48,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   Services, or service overrides, are loaded on demand, that is, the service provider is loaded when the service it provides is requested by another VSPackage.  
   
--   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [How to: Provide a Service](../extensibility/how-to-provide-a-service.md).  
+-   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [How to: Provide a Service](../../extensibility/how-to-provide-a-service.md).  
   
 -   After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
@@ -72,7 +72,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 ## Use GetGlobalService  
   
-Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control. For more information about these and other scenarios, see [How to: Troubleshoot Services](.,/../extensibility/how-to-troubleshoot-services.md).  
+Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control. For more information about these and other scenarios, see [How to: Troubleshoot Services](../../extensibility/how-to-troubleshoot-services.md).  
   
 You can get most Visual Studio services by calling the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method.  
   
