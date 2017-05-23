@@ -57,8 +57,8 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 <tr>
    <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-preview</td>
-   <td>MSTest.TestFramework 1.0.5-preview</td>
+   <td>MSTest.TestAdapter 1.1.17</td>
+   <td>MSTest.TestFramework 1.1.17</td>
 </tr>
 </table>
 
