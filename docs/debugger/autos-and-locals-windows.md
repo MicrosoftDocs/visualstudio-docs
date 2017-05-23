@@ -1,5 +1,5 @@
 ---
-title: "Inspect Variables in the Debugger in Visual Studio | Microsoft Docs"
+title: "Inspect Variables in the Autos and Locals Windows | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/17/2017"
 ms.reviewer: ""

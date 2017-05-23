@@ -1,7 +1,7 @@
 ---
-title: "Just My Code | Microsoft Docs"
+title: "Debug user code with Just My Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,19 +29,21 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Just My Code
-Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.  
+# Specify whether to debug only user code using Just My Code in Visual Studio
+Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.
+
+For most programming languages, Just My Code is enabled by default. 
   
 ##  <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code  
- To enable or disable Just My Code, choose **Options and Settings** on the **Debug** menu. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.  
+ To enable or disable Just My Code, choose the **Tools / Options** menu. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.  
   
  ![Enable Just My Code in the Options dialog box](../debugger/media/dbg_justmycode_options.png "DBG_JustMyCode_Options")  
   
 > [!NOTE]
 >  The **Enable Just My Code** setting is a global setting that is applied to all Visual Studio projects in all languages.  
   
-###  <a name="BKMK_Override_call_stack_filtering"></a> Override call stack filtering  
- In call stack displays, such as the Call Stack and Tasks windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
+###  <a name="BKMK_Override_call_stack_filtering"></a> Show non-user code in call stack views  
+ In views that show the call stack, such as the **Call Stack** and **Tasks** windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
   
 > [!NOTE]
 >  The **Show External Code** setting is saved to the current user's profiler. It is applied to all projects in all languages that are opened by the user.  

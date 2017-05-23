@@ -1,7 +1,7 @@
 ---
 title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "03/06/2017"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

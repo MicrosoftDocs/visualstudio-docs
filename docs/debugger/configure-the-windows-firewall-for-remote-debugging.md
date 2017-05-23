@@ -57,13 +57,13 @@ This topic describes how to configure the firewall to enable remote debugging on
 |||||  
 |-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|   
-|4022|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. For more information, see [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments).|  
-|4023|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. (Only used to remote debug a 32-bit process from the 64-bit version of the remote debugger.) For more information, see  [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments).| 
+|4022|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. For more information, see [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).|  
+|4023|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. (Only used to remote debug a 32-bit process from the 64-bit version of the remote debugger.) For more information, see  [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).| 
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|    
   
 ## How to Configure Ports in Windows Firewall  
 
-When you install Visual Studio or the remote debugger, the software will try to open the correct ports. However, in some scenarios, you may need to open a port manually. (To verify that ports are open, see [Troubleshooting](#troubleshooting).) Some instructions may be different on older versions of Windows.
+When you install Visual Studio or the remote debugger, the software will try to open the correct ports. However, in some scenarios (such as using a third party firewall), you may need to open a port manually. If you need to verify that ports are open, see [Troubleshooting](#troubleshooting). Some instructions for opening a port may be different on older versions of Windows.
 
 To open a port:
   
@@ -86,9 +86,9 @@ To open a port:
 
 ## <a name="troubleshooting"></a>Troubleshooting
 
-When you install Visual Studio or the remote debugger, the software will try to open the correct ports. In some scenarios, you may need to verify that the correct ports are open.
+If you are having trouble attaching to your app with the remote debugger, you may need to verify that the correct ports are open.
 
-### Verify that the Windows Firewall is configured correctly on the Visual Studio Computer  
+### Verify that ports are open in the Windows Firewall on the Visual Studio Computer  
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used; on Windows 7 or Windows Server 2008, the word **program** is used;  In the following steps we will use the word **app**.  
   
 1.  Open the Windows Firewall page. (In the **Start** menu search box, type **Windows Firewall**).  
@@ -101,7 +101,7 @@ When you install Visual Studio or the remote debugger, the software will try to 
   
 5.  In the **Allowed apps and features** list, select **Visual Studio Remote Debugger**. Check one or more network types (**Domain, Home/Work (Private), Public**) that you want the remote debugging monitor to communicate with. The types must include the network to which the Visual Studio computer is connected. 
 
-### Verify that the Windows Firewall is configured correctly on the remote computer  
+### Verify that ports are open in the Windows Firewall on the remote computer  
  The remote debugging components can be installed on the remote computer or run from a shared directory. The firewall of the remote computer must be configured in both cases. The remote debugging components are located in:  
   
  **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger**  

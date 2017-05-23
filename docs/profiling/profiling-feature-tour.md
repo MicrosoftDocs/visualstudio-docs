@@ -1,7 +1,7 @@
 ---
 title: "Profiling Feature Tour | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/03/2016"
+ms.custom: "H1HackMay2017"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Profiling Feature Tour
+# Feature Tour of Profiling in Visual Studio
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type.
 
