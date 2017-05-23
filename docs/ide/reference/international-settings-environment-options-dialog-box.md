@@ -51,5 +51,5 @@ The International Settings page allows you to change the default language when y
 >  In a system with multiple languages installed, the Visual C++ build tools (cl.exe, link.exe, nmake.exe, bscmake.exe and related files) are not affected by this setting. These tools use the version for last language installed and the tools for the previously installed language are overwritten because the Visual C++ build tools do not use the satellite DLL model.  
   
 ## See Also  
- [Install language packs](../../install/install-visual-studio.md#dinstall-language-packs)   
+ [Install language packs](../../install/install-visual-studio.md#install-language-packs)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

@@ -48,7 +48,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
 -   [Extension Methods](#ExtensionMethods)  
   
- The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
+ The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists](#filtered-completion-lists) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
 ###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
  In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
@@ -64,7 +64,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
-### Filtered Completion Lists  
+### <a name="filtered-completion-lists"></a> Filtered Completion Lists  
  IntelliSense removes unnecessary members from the completion list by using filters.  
   
  Visual C# filters the completion lists that appear for these items:  
@@ -164,8 +164,6 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
 > [!NOTE]
 >  Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
-  
- The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)
