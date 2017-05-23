@@ -1,0 +1,131 @@
+commit 8ad650999dd099fe9138e6f1011e9424830f3d5b
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Tue Nov 15 16:06:14 2016 -0800
+
+    Remove only .md files, codesnippet and media, not includes
+
+commit 3b25a413c978333ac590509c9d6a05ec1901f62e
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Tue Nov 15 16:05:05 2016 -0800
+
+    Revert "Remove misc folder and all its contents"
+    
+    This reverts commit f5005e26886c249fd723add12b28dad54501901b.
+
+commit f5005e26886c249fd723add12b28dad54501901b
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Tue Nov 15 15:49:13 2016 -0800
+
+    Remove misc folder and all its contents
+
+commit 5db97d19b1b823388a465bba15d057b30ff0b3ce
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 20:32:17 2016 -0800
+
+    Try again .. metadata fix
+
+commit ff3aacb9436c1820924a772bd7f0b00609501f43
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 19:35:05 2016 -0800
+
+    Merge
+
+commit cfa19191c57e3772efd68cbdac329cbbac7bd3af
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 19:26:54 2016 -0800
+
+    Revert "Try again .. remove ms.prod"
+    
+    This reverts commit a8c374d5fe227b0bf8f7c1e512779b54da79b881.
+
+commit a8c374d5fe227b0bf8f7c1e512779b54da79b881
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 19:01:40 2016 -0800
+
+    Try again .. remove ms.prod
+
+commit 7824ee0409ba414496d8bd8ebc396a1701db4137
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 18:48:17 2016 -0800
+
+    Revert "Remove ms.prod value, uses default from docfx.json"
+    
+    This reverts commit 140f1e5080ddc8f04d3aa90e652232db664e9488.
+
+commit 140f1e5080ddc8f04d3aa90e652232db664e9488
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 12:54:52 2016 -0800
+
+    Remove ms.prod value, uses default from docfx.json
+
+commit c3f9d240cf95c7adc790889f36849910158c6894
+Author: ghogen@microsoft.com <ghogen@microsoft.com>
+Date:   Sun Nov 13 11:22:47 2016 -0800
+
+    Update metadata to visual-studio-dev15
+
+commit 9b855ce8e2b01a820093fef3630be3738ef7e623
+Author: saisang <v-zhecai@microsoft.com>
+Date:   Fri Nov 4 11:38:07 2016 -0700
+
+    Migration: migration from Caps to OP
+
+commit 30c6c487b876626d5223a54b7405d9bc75baf4a2
+Author: Saisang Cai <v-zhecai@microsoft.com>
+Date:   Fri Nov 4 11:19:01 2016 -0700
+
+    rename the old folder
+
+commit 2ce9c1a22bc12b60ba4870324f495f9ff2158a45
+Author: saisang <v-zhecai@microsoft.com>
+Date:   Thu Nov 3 08:46:15 2016 -0700
+
+    Migration: migration from Caps to OP
+
+commit 1764419a9057932dd0296b2ecf11648f368329b0
+Author: Saisang Cai <v-zhecai@microsoft.com>
+Date:   Thu Nov 3 08:26:46 2016 -0700
+
+    rename the previous folder for new export
+
+commit a095865a9fde175f1a3ac24e835c9059965116b8
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Wed Nov 2 13:53:18 2016 -0700
+
+    New docs and docs_old folders
+
+commit 03a72bcd3a99448dbb9a0271ffe8d5e6cfbc2bdf
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Wed Nov 2 13:43:26 2016 -0700
+
+    Remove docs and docs-old
+
+commit 0722cfead449e87f1db96b41fd77f2c69cd7f518
+Author: saisang <v-zhecai@microsoft.com>
+Date:   Fri Oct 28 00:14:33 2016 -0700
+
+    Migration: migration from Caps to OP
+
+commit 466f6a8a803128a26f4b79da6692d0c9f891ccb3
+Author: Saisang Cai <v-zhecai@microsoft.com>
+Date:   Thu Oct 27 23:58:59 2016 -0700
+
+    delete the previous files for new export
+
+commit 8252a4dab0e8c4b1b47fd372bb15b333fa1c208f
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Sun Oct 23 14:24:12 2016 -0700
+
+    Revert bad commit
+
+commit 8fa5b4f3c62133e6bdcd0252d66d365dd95e0ca8
+Author: Gordon Hogenson <ghogen@microsoft.com>
+Date:   Sun Oct 23 13:45:18 2016 -0700
+
+    Removing old folders
+
+commit 2157c478c28f8ced4e64019778c9b8c7a08f0bfa
+Author: saisang <v-zhecai@microsoft.com>
+Date:   Sun Oct 16 10:25:49 2016 -0700
+
+    Migration: migration from Caps to OP

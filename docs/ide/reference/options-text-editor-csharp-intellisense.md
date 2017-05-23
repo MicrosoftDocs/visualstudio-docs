@@ -78,7 +78,7 @@ Use the **IntelliSense** property page to modify settings that affect the behavi
   
 ## IntelliSense Member Selection  
  **Pre-selects most recently used member**  
- When this option is selected, IntelliSense pre-selects the members that you have recently selected in the pop-up List Members box for automatic object name completion, during your current session in the integrated development environment (IDE). The history of most recently used members is cleared between each session in the IDE. For more information, see [IntelliSense for Most Recently Used Members](../../misc/intellisense-for-most-recently-used-members.md).  
+ When this option is selected, IntelliSense pre-selects the members that you have recently selected in the pop-up List Members box for automatic object name completion, during your current session in the integrated development environment (IDE). The history of most recently used members is cleared between each session in the IDE. For more information, see [IntelliSense for Most Recently Used Members](../../ide/visual-csharp-intellisense.md#most-recently-used-members).  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

@@ -86,7 +86,7 @@ Use this dialog box to modify the settings for editor formatting, code refactori
   
 ## Organize Usings  
  Place 'System' directives first when sorting usings  
- When selected, `System` using directives appear before other using directives. For more information, see [Sort Usings](../../misc/sort-usings.md).  
+ When selected, `System` using directives appear before other using directives. For more information, see Organize usings in [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md#automatic-code-generation).  
   
 ## See Also  
  [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   
