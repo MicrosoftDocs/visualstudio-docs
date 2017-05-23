@@ -33,7 +33,7 @@ translation.priority.ht:
 
 **Answer:**
 
-Live Unit Testing currently does not work with .NET Core. We are working to add this support in the future. 
+Yes. Live Unit Testing works with .NET Core and .NET Frameworks. Support for .NET Core was added recently in Visual Studio 2017 version 15.2. 
 
 ## Why doesn't Live Unit Testing work when I turn it on? 
 
