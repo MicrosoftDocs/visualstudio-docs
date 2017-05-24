@@ -41,13 +41,17 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 
 The actions you should take when you see the Visual Studio Just-in-Time debugger dialog box depend on what you are trying to do:
 
-#### If you want to prevent the dialog box from appearing and just run the app normally
+#### If you want to fix or debug the error (Visual Studio users)
 
-For an unhandled exception, the error must be fixed (or handled) before you can run the app normally. Otherwise, it may be possible to run the app normally. 
+- You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. See [Using JIT](#BKMK_Using_JIT) for more information. If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
 
-1. (Visual Studio users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
+#### If you want to prevent the Just-In-Time Debugger dialog box from appearing
 
-2. If you are running a web app, disable script debugging.
+You can prevent the Just-in-Time Debugger dialog box from appearing. If the app handles the exception, you can run the app normally.
+
+> [!NOTE] If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
+
+1. If you are trying to run a web app, you can disable script debugging.
 
     For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
 
@@ -55,16 +59,14 @@ For an unhandled exception, the error must be fixed (or handled) before you can 
 
     Then re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
 
-3. If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
+2. If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
 
     In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
 
-4. If you are running another type of Windows app, you will need to contact the owner of the app to fix the error, and then re-install the fixed version of the app.
+3. (Visual Studio users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
 
-#### If you want to fix or debug the error (Visual Studio users)
+    If you app encounters an unhandled exception, it must be fixed before the app will run normally.
 
-- You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. See [Using JIT](#BKMK_Using_JIT) for detailed instructions. If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
-  
 ##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging  
  You can enable or disable Just-In-Time debugging from the Visual Studio **Tools / Options** dialog box.  
   
