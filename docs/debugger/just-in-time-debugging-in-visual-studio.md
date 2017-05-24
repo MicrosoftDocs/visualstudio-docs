@@ -74,7 +74,7 @@ You can prevent the Just-in-Time Debugger dialog box from appearing. If the app 
   
 1.  Open Visual Studio with Administrator privileges (right-click and choose **Run as administrator**).
 
-    Enabling or disabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.
+    Enabling or disabling Just-In-Time debugging sets a registry key, and Administrator privileges may be required to change that key.
     
 2. On the **Tools** menu, click **Options**.
   
