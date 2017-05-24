@@ -76,7 +76,7 @@ Extern Element
 <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-  
   18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
     <Extern href="C:\VSCore\vscommon\inc\vsshlids.h"/>  
-    …  
+    ...  
   <Commands package="guidMyPackage">  
 </CommandTable>  
 ```  

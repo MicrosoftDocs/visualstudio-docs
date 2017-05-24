@@ -184,7 +184,7 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
  ![Layout of the environment cube map](../designers/media/gfx_shader_demo_billiard_art_env_texture_top.png "gfx_shader_demo_billiard_art_env_texture_top")  
   
- The image at the top is the positive Y (+Y) cube face; in the middle, from left to right, is the –X, +Z, +X, and –Z cube faces; at the bottom is the –Y cube face.  
+ The image at the top is the positive Y (+Y) cube face; in the middle, from left to right, is the -X, +Z, +X, and -Z cube faces; at the bottom is the -Y cube face.  
   
  Now you can modify the shader to blend the cube map sample into the rest of the shader.  
   

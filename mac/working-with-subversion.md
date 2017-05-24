@@ -24,7 +24,7 @@ The image below illustrates the options provided by Visual Studio for Mac by the
 
 The sections below will explain each option in more detail.
 
-## Checkout…
+## Checkout...
 
 Before starting to use a remote Subversion repository, you will need to check out the repo to create a local, or working, copy of that directory on your local machine.
 
@@ -46,7 +46,7 @@ Review all changes in a project by browsing the **Version Control > Review Solut
 
 This allows viewing all the changes in each file of a project with the option to Revert, Create Patch, or Commit.
 
-To commit a file to the remote repository, press Commit…, enter a commit message, and confirm with the Commit Button:
+To commit a file to the remote repository, press Commit..., enter a commit message, and confirm with the Commit Button:
 
 
 ![Committing a file](media/version-control-svnCommit.png)

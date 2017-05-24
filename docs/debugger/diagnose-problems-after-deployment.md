@@ -231,7 +231,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ###  <a name="WhatElse"></a> What else can I do from here?  
   
--   [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests – all without leaving the editor - use the CodeLens indicators in the editor.  
+-   [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests - all without leaving the editor - use the CodeLens indicators in the editor.  
   
      ![CodeLens &#45; View references to this code](../debugger/media/ffr_itsummarypageperformancecodelensreferences.png "FFR_ITSummaryPagePerformanceCodeLensReferences")  
   

@@ -44,7 +44,7 @@ manager: "ghogen"
 3.  Choose the site, and then, on the menu bar, choose **Edit**, **Delete**.  
   
     > [!NOTE]  
-    >  This step doesn’t delete the underlying site; it deletes only the connection from **Server Explorer**.  
+    >  This step doesn't delete the underlying site; it deletes only the connection from **Server Explorer**.  
   
 ## See Also  
  [Browsing SharePoint Connections Using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)  

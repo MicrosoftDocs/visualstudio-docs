@@ -107,7 +107,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
      The parent of the placeholder button is the **MyMenuControllerGroup**. Add the DynamicItemStart, DynamicVisibility, and TextChanges command flags to the placeholder button. The ButtonText is not displayed.  
   
-     The anchor button holds the icon and the tooltip text. The parent of the anchor button is also the **MyMenuControllerGroup**. You add the NoShowOnMenuController command flag to make sure the button doesn’t actually appear in the menu controller dropdown, and the FixMenuController command flag to make it the permanent anchor.  
+     The anchor button holds the icon and the tooltip text. The parent of the anchor button is also the **MyMenuControllerGroup**. You add the NoShowOnMenuController command flag to make sure the button doesn't actually appear in the menu controller dropdown, and the FixMenuController command flag to make it the permanent anchor.  
   
     ```  
     <!-- The placeholder for the dynamic items that expand to N items at runtime. -->  
@@ -281,7 +281,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     private void OnInvokedDynamicItem(object sender, EventArgs args)  
     {  
         DynamicItemMenuCommand invokedCommand = (DynamicItemMenuCommand)sender;  
-        // If the command is already checked, we don’t need to do anything  
+        // If the command is already checked, we don't need to do anything  
         if (invokedCommand.Checked)  
             return;  
   
@@ -298,7 +298,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     }  
     ```  
   
-2.  Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a “real” item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).  
+2.  Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a "real" item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).  
   
     ```c#  
     private void OnBeforeQueryStatusDynamicItem(object sender, EventArgs args)  
@@ -343,7 +343,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     ```  
   
 ## Setting the VSPackage to load only when a solution has multiple projects  
- Because the **Set Startup Project** command doesn’t make sense unless the active solution has more than one project, you can set your VSPackage to auto-load only in that case. You use <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> together with the UI context <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>. In the DynamicMenuPackage.cs file add the following attributes to the DynamicMenuPackage class:  
+ Because the **Set Startup Project** command doesn't make sense unless the active solution has more than one project, you can set your VSPackage to auto-load only in that case. You use <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> together with the UI context <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>. In the DynamicMenuPackage.cs file add the following attributes to the DynamicMenuPackage class:  
   
 ```c#  
 [PackageRegistration(UseManagedResourcesOnly = true)]  

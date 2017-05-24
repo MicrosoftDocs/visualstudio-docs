@@ -60,7 +60,7 @@ Timer
   
      The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property. That way, if the player chooses the first and second `Label` controls and the timer starts, choosing a third label won't do anything.  
   
-     The code at the bottom of the method sets the `secondClicked` reference variable to track the second `Label` control that the player chose, and then it sets that label's icon color to black to make it visible. Then, it starts the timer in one shot mode, so that it waits 750 milliseconds and then fires a single Tick event. The timer’s Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables so the form is ready for the player to choose another pair of icons.  
+     The code at the bottom of the method sets the `secondClicked` reference variable to track the second `Label` control that the player chose, and then it sets that label's icon color to black to make it visible. Then, it starts the timer in one shot mode, so that it waits 750 milliseconds and then fires a single Tick event. The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables so the form is ready for the player to choose another pair of icons.  
   
 5.  Save and run your program. Choose an icon, and it becomes visible.  
   

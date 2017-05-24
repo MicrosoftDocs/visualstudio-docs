@@ -273,7 +273,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
+9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
   
 10. In the **Shared Documents** page, choose the document, choose the arrow that appears, and then choose the **Edit Properties** menu item.  
   
@@ -281,7 +281,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
+12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
   
 ## Next Steps  
  You can learn more about how to create workflow templates from these topics:  

@@ -55,7 +55,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 1.  In **Solution Explorer**, double-click Counter.cs to open it in the designer.  
   
-2.  Remove the “Click Here !” **Button** that is included by default when you add the Windows Forms Toolbox Control item template.  
+2.  Remove the "Click Here !" **Button** that is included by default when you add the Windows Forms Toolbox Control item template.  
   
 3.  From the **Toolbox**, drag a `Label` control and then a `Button` control below it to the design surface.  
   

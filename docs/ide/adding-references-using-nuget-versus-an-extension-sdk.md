@@ -33,7 +33,7 @@ You can provide a package for consumption within Visual Studio projects by using
   
 -   NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see [NuGet Overview](http://go.microsoft.com/fwlink/?LinkId=254877).  
   
--   An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that’s open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
+-   An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that's open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
 ## Which Mechanism Should I Use?  
  The following table helps you compare the referencing features of an SDK with the referencing features of NuGet.  
@@ -50,9 +50,9 @@ You can provide a package for consumption within Visual Studio projects by using
 |Files and links automatically get added to  the **Reference Manager** dialog box (help links, and so forth auto populate)|Y|The **Reference Manager** dialog box automatically enumerates SDKs, along with help links and the list of SDK dependencies.|N|NuGet provides its own **Manage NuGet Packages** dialog box.|  
 |The mechanism supports multiple architectures.|Y|SDKs can ship multiple configurations. MSBuild consumes the appropriate files for each project configuration.|N||  
 |The mechanism supports multiple configurations.|Y|SDKs can ship multiple configurations. Depending on project architecture, MSBuild consumes the appropriate files for each project architecture.|N||  
-|The mechanism can specify “not to copy.”|Y|Depending on whether files are dropped in the \redist or \designtime folder, you can control which files to copy into the consuming application's package.|N|You declare which files to copy in the package manifest.|  
+|The mechanism can specify "not to copy."|Y|Depending on whether files are dropped in the \redist or \designtime folder, you can control which files to copy into the consuming application's package.|N|You declare which files to copy in the package manifest.|  
 |Content appears in localized files.|Y|Localized XML documents in SDKs are automatically included  for a better design-time experience.|N||  
-|MSBuild supports consuming  multiple versions of an SDK simultaneously.|Y|The SDK supports consuming multiple versions simultaneously.|N|This isn't referencing. You can’t have more than one version of NuGet files in your project at a time.|  
+|MSBuild supports consuming  multiple versions of an SDK simultaneously.|Y|The SDK supports consuming multiple versions simultaneously.|N|This isn't referencing. You can't have more than one version of NuGet files in your project at a time.|  
 |The mechanism supports specifying applicable target frameworks, Visual Studio versions, and project types.|Y|The **Reference Manager** dialog box and the **Toolbox** show only the SDKs that apply to a project, so that users can more easily choose the appropriate SDKs.|Y (partial)|Pivot is the Target Framework. There is no filtering on user interface. At installation time, it might return an error.|  
 |The mechanism supports specifying registration info for native WinMDs.|Y|You can specify the correlation between the .winmd file and the .dll file in SDKManifest.xml.|N||  
 |The mechanism supports specifying dependencies on other SDKs.|Y|The SDK only notifies the user; the user must still install them and reference them manually.|Y|NuGet pulls them automatically; the user isn't notified.|  
@@ -69,7 +69,7 @@ You can provide a package for consumption within Visual Studio projects by using
 |The mechanism supports both stable and pre-release package versions.|Y|The SDK supports adding references to multiple versions.|Y||  
 |The mechanism supports auto-update for installed packages.|Y|If shipped as VSIX or part of Visual Studio automatic updates, SDK provides automatic notifications.|Y||  
 |The mechanism contains a stand-alone .exe file for creating and consuming packages.|Y|The SDK contains MSBuild.exe.|Y||  
-|Packages can be checked into version control.|Y|You can’t check in anything outside the Documents node, which means that the Extension SDKs might not be checked in.The size of Extension SDK might be large.|Y||  
+|Packages can be checked into version control.|Y|You can't check in anything outside the Documents node, which means that the Extension SDKs might not be checked in.The size of Extension SDK might be large.|Y||  
 |You can use a PowerShell interface to create and consume packages.|Y (consumption), N (creation)|No tooling for creating an SDK. Consumption is executing MSBuild on the command line.|Y||  
 |You can use a Symbol package for debugging support.|Y|If you drop .pdb files in the SDK, the files get picked up automatically.|Y||  
 |The mechanism supports package manager auto-updates.|N/A|The SDK gets revised with MSBuild.|Y||  

@@ -31,15 +31,15 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Starting to Develop Visual Studio Extensions
-If you’ve never written a Visual Studio extension before, you probably have some questions. We’ve listed some of the most common ones here. If you don’t see the information you’re looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
+If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
   
 ## What software do I need to develop Visual Studio extensions?  
  You need to install the Visual Studio SDK in addition to Visual Studio in order to develop Visual Studio extensions. You can install the Visual Studio SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## What kinds of things can I do with Visual Studio extensions?  
- The sky’s the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn’t have to be the case. Here are some examples of the kinds of extensions you can build:  
+ The sky's the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn't have to be the case. Here are some examples of the kinds of extensions you can build:  
   
--   Support for languages that aren’t included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
+-   Support for languages that aren't included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
   
 -   Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows  
   

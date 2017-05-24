@@ -24,9 +24,9 @@ To build, rebuild, or clean an entire solution:
 
     ![](media/compiling-and-building-image2.png)
 
-    * **Build All** – Attempts to build all files within project that have changed within the project since the most recent build.
-    * **Rebuild All** – Cleans the solution and then builds it.
-    * **Clean All** – Removes all build products from your solution.
+    * **Build All** - Attempts to build all files within project that have changed within the project since the most recent build.
+    * **Rebuild All** - Cleans the solution and then builds it.
+    * **Clean All** - Removes all build products from your solution.
 
 
 

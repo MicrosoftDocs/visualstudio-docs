@@ -35,7 +35,7 @@ The first step in creating a matching game is to create the project and add a ta
   
 1.  On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  If you’re not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.  
+2.  If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.  
   
 3.  In the list of project templates, choose **Windows Forms Application**, name the project **MatchingGame**, and then choose the **OK** button.  
   
@@ -78,7 +78,7 @@ The first step in creating a matching game is to create the project and add a ta
   
     4.  Set the **TextAlign** property to **MiddleCenter** by choosing the drop-down button next to the property, and then choosing the middle button. This ensures the icon appears in the middle of the cell.  
   
-    5.  Choose the **Font** property. An ellipsis (…) button should appear.  
+    5.  Choose the **Font** property. An ellipsis (...) button should appear.  
   
     6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **72**.  
   

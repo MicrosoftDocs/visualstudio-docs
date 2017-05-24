@@ -35,15 +35,32 @@ This topic discusses options and issues in Fakes code generation and compilation
 -   Visual Studio Enterprise  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
- [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
--   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs) • [Type filtering](#BKMK_Type_filtering) • [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [Internal types](#BKMK_Internal_types) • [Optimizing build times](#BKMK_Optimizing_build_times) • [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+-   [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
- [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+-   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs)
   
--   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions) • [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions) • [Recursive rules](#BKMK_Recursive_rules)  
+-   [Type filtering](#BKMK_Type_filtering)
   
- [External resources](#BKMK_External_resources)  
+-   [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods)
+  
+-   [Internal types](#BKMK_Internal_types)
+  
+-   [Optimizing build times](#BKMK_Optimizing_build_times)
+  
+-   [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+  
+-   [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+  
+-   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions)
+  
+-   [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions)
+  
+-   [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions)
+  
+-   [Recursive rules](#BKMK_Recursive_rules)  
+  
+-   [External resources](#BKMK_External_resources)  
   
 -   [Guidance](#BKMK_Guidance)  
   
@@ -179,7 +196,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.  
   
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
+1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
   
 2.  Add reference to all the System and third-party assemblies you need Fakes for.  
   
@@ -249,7 +266,7 @@ attribute of the Assembly element in the .fakes:
   
  **Special method names** such as property getter or setters are treated as described in the following table.  
   
-|If method is…|Example|Method name appended|  
+|If method is...|Example|Method name appended|  
 |-------------------|-------------|--------------------------|  
 |A **constructor**|`.ctor`|`Constructor`|  
 |A static **constructor**|`.cctor`|`StaticConstructor`|  
@@ -268,11 +285,11 @@ attribute of the Assembly element in the .fakes:
   
 -   **Parameter type** names are transformed and concatenated.  
   
--   **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
+-   **Return type** is ignored unless there's an overload ambiguity. If this is the case, the return type is appended at the end of the name  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   
-|Given|Appended string is…|  
+|Given|Appended string is...|  
 |-----------|-------------------------|  
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|  
 |An **out parameter**`out T`|`TOut`|  
@@ -280,7 +297,7 @@ attribute of the Assembly element in the .fakes:
 |An **array type**`T[]`|`TArray`|  
 |A **multi-dimensional array** type `T[ , , ]`|`T3`|  
 |A **pointer** type `T*`|`TPtr`|  
-|A **generic type**`T<R1, …>`|`TOfR1`|  
+|A **generic type**`T<R1, ...>`|`TOfR1`|  
 |A **generic type argument**`!i` of type `C<TType>`|`Ti`|  
 |A **generic method argument**`!!i` of method `M<MMethod>`|`Mi`|  
 |A **nested type**`N.T`|`N` is appended, then `T`|  
@@ -295,7 +312,7 @@ attribute of the Assembly element in the .fakes:
 ##  <a name="BKMK_External_resources"></a> External resources  
   
 ###  <a name="BKMK_Guidance"></a> Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

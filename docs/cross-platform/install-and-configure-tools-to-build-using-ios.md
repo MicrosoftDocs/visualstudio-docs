@@ -104,7 +104,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
      During the installation, vcremote is installed and developer mode is activated on your Mac. [Homebrew](http://brew.sh/) and two npm packages, vcremote-lib and vcremote-utils, are also installed.  
   
     > [!NOTE]
-    >  To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity –enable`  
+    >  To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity -enable`  
   
  If you update to a new version of Visual Studio, you must update to the current version of the remote agent as well. To update the remote agent, repeat the steps to download and install the remote agent.  
   
