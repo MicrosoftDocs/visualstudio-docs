@@ -51,7 +51,11 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 
-3. (Web app) Re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
+    Then re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
+
+3. If you are hosting an ASP.NET Web site in IIS, disable server-side debugging.
+
+    In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
 
 4. If you are running another type of Windows app, you will need to contact the owner of the app to fix the error, and then re-install the fixed version of the app.
 
@@ -64,15 +68,17 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 #### To enable or disable Just-In-Time debugging  
   
-1.  Open Visual Studio. On the **Tools** menu, click **Options**.  
+1.  Open Visual Studio with Administrator privileges (right-click and choose **Run as administrator**).
+
+    To enable or disable Just-In-Time debugging, you must be running with Administrator privileges. Enabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.
+    
+2. On the **Tools** menu, click **Options**.
   
-2.  In the **Options** dialog box, select the **Debugging** folder.  
+2.  In the **Options** dialog box, expand the **Debugging** node.  
   
-3.  In the **Debugging** folder, select the **Just-In-Time** page.  
+3.  In the **Debugging** node, select **Just-In-Time**.  
   
-4.  In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.  
-  
-     To disable Just-In-Time debugging, once it has been enabled, you must be running with Administrator privileges. Enabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.  
+4.  In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.    
   
 5.  Click **OK**.  
   
@@ -86,7 +92,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger  
+    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\DbgManagedDebugger  
   
 3.  If your computer is running a 64-bit operating system, delete the following registry entries also:  
   
@@ -96,10 +102,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 4.  Take care not to accidentally delete or change any other registry keys.  
   
-5.  Close the **Registry Editor** window.  
-  
-> [!NOTE]
->  If you are trying to disable Just-In-Time debugging for a server-side app and these steps don't resolve the issue, turn off server-side debugging in the IIS application settings and retry.  
+5.  Close the **Registry Editor** window.   
   
 #### To enable Just-In-Time debugging of a Windows Form  
   
