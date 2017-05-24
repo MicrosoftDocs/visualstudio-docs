@@ -71,7 +71,7 @@ int LoadSymbolsFromStreamWithCorModule(
  [in] Object that contains the symbol metadata.  
   
  `pUnkCorDebugModule`  
- [in] Object that implements the [ICorDebugModule Interface](ICorDebugModule%20Interface.xml).  
+ [in] Object that implements the [ICorDebugModule Interface](/dotnet/articles/framework/unmanaged-api/debugging/icordebugmodule-interface).  
   
  `pStream`  
  [in] Data stream that contains the debug symbols to load.  

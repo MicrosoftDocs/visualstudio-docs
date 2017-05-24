@@ -119,4 +119,4 @@ HKEY_LOCAL_MACHINE\
 ```  
   
 ## See Also  
- [VSPackage Essentials](../misc/vspackage-essentials.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

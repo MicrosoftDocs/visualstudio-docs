@@ -48,7 +48,7 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
 > [!NOTE]
 >  To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process. To debug [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
- The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To create the Web Form  
   

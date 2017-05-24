@@ -72,4 +72,4 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
  **CreateExpInstance.exe /Reset /VSInstance=14.0 /RootSuffix=Exp**  
   
 ## See Also  
- [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)
+ [VSPackages](../../extensibility/internals/vspackages.md)

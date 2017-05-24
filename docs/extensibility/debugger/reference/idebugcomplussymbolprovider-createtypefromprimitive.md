@@ -55,7 +55,7 @@ int CreateTypeFromPrimitive(
   
 #### Parameters  
  `dwPrimType`  
- [in] Value from the [CorElementType Enumeration](CorElementType%20Enumeration.xml) that represents the primitive type.  
+ [in] Value from the [CorElementType Enumeration](/dotnet/articles/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.  
   
  `pAddress`  
  [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
