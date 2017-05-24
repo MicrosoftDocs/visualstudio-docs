@@ -46,7 +46,7 @@ VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (To
   
 4.  The automation object of the VSPackage is then used to provide each <xref:EnvDTE.Property> returned by <xref:EnvDTE._DTE.Properties%2A>.  
   
- For a sample implementing a custom Tools Options page, see [VSSDK Samples](../../misc/vssdk-samples.md).  
+ For a sample implementing a custom Tools Options page, see [VSSDK Samples](http://aka.ms/vs2015sdksamples).  
   
 ## See Also  
  [Exposing Project Objects](../../extensibility/internals/exposing-project-objects.md)

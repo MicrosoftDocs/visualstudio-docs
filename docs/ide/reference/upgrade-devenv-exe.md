@@ -53,7 +53,7 @@ devenv SolutionFile | ProjectFile /upgrade
   
  Source-controlled solutions or projects must be checked out before they can be upgraded.  
   
- Using the `/upgrade` switch does not start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], see [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md).  
+ Using the `/upgrade` switch does not start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).  
   
 ## Example  
  This example upgrades a solution file named "MyProject.sln" in your default folder for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] solutions.  
@@ -63,5 +63,4 @@ devenv "MyProject.sln" /upgrade
 ```  
   
 ## See Also  
- [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

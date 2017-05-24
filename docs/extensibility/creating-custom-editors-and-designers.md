@@ -69,7 +69,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
 -   Does your editor need to host ActiveX controls?  
   
-     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../misc/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
+     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../extensibility/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
   
 -   Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.  
   

@@ -219,11 +219,13 @@ manager: "ghogen"
 ## Creating VSIX Packages Manually  
  If you want to manually create the VSIX package for your SharePoint tools extension, perform the following steps:  
   
-1.  Create the extension.vsixmanifest file, the [Content_Types].xml, and the VSIX package file (.vsix file). For more information, see [Anatomy of a VSIX Package](/visual-studio/extensibility/anatomy-of-a-vsix-package) and [How to: Manually Package an Extension &#40;VSIX Deployment&#41;](../Topic/How%20to:%20Manually%20Package%20an%20Extension%20(VSIX%20Deployment).md).  
+1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visual-studio/extensibility/anatomy-of-a-vsix-package).  
   
-2.  Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.  
+2.  In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.  
   
-3.  Modify the extension.vsixmanifest file:  
+3.  Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.  
+  
+4.  Modify the extension.vsixmanifest file:  
   
     -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [NIB: MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
   
