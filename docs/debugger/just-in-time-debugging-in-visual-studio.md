@@ -1,5 +1,5 @@
 ---
-title: "How to respond to the Just-In-Time Debugger dialog box | Microsoft Docs"
+title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# How to respond to the Just-In-Time Debugger dialog box
+# How to: Respond to the Just-In-Time Debugger
 
 The actions you should take when you see the Visual Studio Just-in-Time debugger dialog box depend on what you are trying to do:
 
@@ -44,8 +44,6 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
 You can take steps to prevent the Just-in-Time Debugger dialog box from appearing. If the app handles the error, you can run the app normally.
 
-> [!IMPORTANT] If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
-
 1. (Web apps) If you are trying to run a web app, you can disable script debugging.
 
     For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
@@ -56,7 +54,7 @@ You can take steps to prevent the Just-in-Time Debugger dialog box from appearin
 
 3. (Visual Studio users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](../debugger/debug-using-the-just-in-time-debugger.md) and try to run the app again.
 
-    If you app encounters an unhandled exception, it must be fixed before the app will run normally.
+    > [!IMPORTANT] If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
 
 2. (ASP.NET and IIS) If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
 
