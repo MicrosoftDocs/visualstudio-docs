@@ -41,25 +41,27 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 
 The actions you should take when you see the Visual Studio Just-in-Time debugger dialog box depend on what you are trying to do:
 
-#### If you want to get rid of the dialog box and just run the app normally
+#### If you want to prevent the dialog box from appearing and just run the app normally
 
-1. (Advanced users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
+For an unhandled exception, the error must be fixed (or handled) before you can run the app normally. Otherwise, it may be possible to run the app normally. 
+
+1. (Visual Studio users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](#BKMK_Enabling) and try to run the app again.
 
 2. If you are running a web app, disable script debugging.
 
-    Fpr Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
+    For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 
     Then re-open the web page where you found the error. If this does not resolve the issue, contact the owner of the web app to fix the issue.
 
-3. If you are hosting an ASP.NET Web site in IIS, disable server-side debugging.
+3. If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
 
     In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
 
 4. If you are running another type of Windows app, you will need to contact the owner of the app to fix the error, and then re-install the fixed version of the app.
 
-#### If you want to fix or debug the error (advanced users)
+#### If you want to fix or debug the error (Visual Studio users)
 
 - You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. See [Using JIT](#BKMK_Using_JIT) for detailed instructions. If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
   
@@ -76,7 +78,9 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 2.  In the **Options** dialog box, expand the **Debugging** node.  
   
-3.  In the **Debugging** node, select **Just-In-Time**.  
+3.  In the **Debugging** node, select **Just-In-Time**.
+
+    ![Enable or Disable JIT Debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or Disable JIT Debugging") 
   
 4.  In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.    
   
@@ -135,7 +139,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
  You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).  
   
- When you install Visual Studio, Just-In-Time debugging is enabled by default.  
+ Make sure that Just-In-Time debugging is [enabled](#BKMK_Enabling).
   
  For the purposes of this section, we'll make a C# console app in Visual Studio that throws a [NullReferenceException](http://msdn.microsoft.com/Library/658af786-d893-4114-a3c5-31c7d586056a).  
   
@@ -154,7 +158,7 @@ static void Main(string[] args)
 > [!IMPORTANT]
 >  In order for this procedure to work in a [release configuration](../debugger/how-to-set-debug-and-release-configurations.md), you need to turn off [Just My Code](../debugger/just-my-code.md). In Visual Studio, click **Tools / Options**. In the **Options** dialog, select **Debugging**. Remove the check from **Enable Just My Code**.  
   
- Build the solution (in Visual Studio, choose **Build / Rebuild Solution**). You can choose either the Debug or the Release configuration. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
+ Build the solution (in Visual Studio, choose **Build / Rebuild Solution**). You can choose either the Debug or the Release configuration (choose **Debug** for the full debugging experience). For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   
  The build process creates an executable ThrowsNullException.exe. You can find it under the folder where you created the C# project: **...\ThrowsNullException\ThrowsNullException\bin\Debug** or **...\ThrowsNullException\ThrowsNullException\bin\Release**.  
   
