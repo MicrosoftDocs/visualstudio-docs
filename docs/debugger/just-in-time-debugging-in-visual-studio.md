@@ -1,7 +1,7 @@
 ---
 title: "Just-In-Time Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/08/17"
+ms.date: "05/23/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -70,7 +70,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 1.  Open Visual Studio with Administrator privileges (right-click and choose **Run as administrator**).
 
-    To enable or disable Just-In-Time debugging, you must be running with Administrator privileges. Enabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.
+    Enabling or disabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.
     
 2. On the **Tools** menu, click **Options**.
   
@@ -82,7 +82,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 5.  Click **OK**.  
   
- Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. When Visual Studio is not installed, you cannot disable Just-In-Time debugging from the Visual Studio **Options** dialog box. In that case, you can disable Just-In-Time debugging by editing the Windows registry.  
+Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. When Visual Studio is not installed, you cannot disable Just-In-Time debugging from the Visual Studio **Options** dialog box. In that case, you can disable Just-In-Time debugging by editing the Windows registry.  
   
 #### To disable Just-In-Time debugging by editing the registry  
   
@@ -93,6 +93,8 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\DbgManagedDebugger  
+
+    ![JIT Registry Key](../debugger/media/dbg-jit-registry.png "JIT Registry Key") 
   
 3.  If your computer is running a 64-bit operating system, delete the following registry entries also:  
   
