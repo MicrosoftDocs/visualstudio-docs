@@ -1,7 +1,7 @@
 ---
 title: "Get started with the debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/04/2017"
+ms.custom: "H1HackMay2017"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Get started with the debugger
+# Get started with the Visual Studio debugger
 
 This topic introduces the features of the Visual Studio debugger in an step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 

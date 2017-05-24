@@ -33,7 +33,11 @@ translation.priority.mt:
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.  
   
 ## Working with the Grid  
- The two-column list shows configuration-independent properties that can be changed at design time and their current settings. Note that all properties might not be shown. A property can be set as hidden, for example, by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty%2A> method. Specifically, to hide properties that have child properties see, [Hiding Properties That Have Child Properties](../../misc/hiding-properties-that-have-child-properties.md).  
+ The two-column list shows configuration-independent properties that can be changed at design time and their current settings. Note that all properties might not be shown. A property can be set as hidden, for example, by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty%2A> method. Specifically, to hide properties that have child properties:  
+  
+1.  Set the `pfDisplay` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.DisplayChildProperties%2A> to `FALSE`.  
+  
+2.  Set the `pfHide` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty%2A> to `TRUE`.  
   
  To push information to the **Properties** window, the IDE uses <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is called by VSPackages for each window that contains selectable objects with related properties to be displayed in the **Properties** window. **Solution Explorer**'s implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> calls `GetProperty` using <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> in your project hierarchy to acquire the browseable objects in the hierarchy.  
   

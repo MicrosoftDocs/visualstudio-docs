@@ -1,7 +1,7 @@
 ---
 title: "Remote Debugger Port Assignments | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/28/2017"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

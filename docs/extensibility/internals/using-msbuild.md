@@ -34,14 +34,12 @@ translation.priority.mt:
 # Using MSBuild
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.  
   
- For an end-to-end sample of a language project system based on MSBuild, see the IronPython Sample Deep Dive in the[VSSDK Samples](../../misc/vssdk-samples.md).  
-  
 ## General MSBuild Considerations  
  MSBuild project files, for example, [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] .csproj and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] .vbproj files, contain data that is used at build time, but also can contain data that is used at design time. Build-time data is stored using MSBuild primitives, including [Item Element (MSBuild)](../../msbuild/item-element-msbuild.md) and [Property Element (MSBuild)](../../msbuild/property-element-msbuild.md). Design-time data, which is data specific to the project type and any related project subtypes, is stored in free-form XML reserved for it.  
   
  MSBuild does not have native support for configuration objects, but does provide conditional attributes for specifying configuration-specific data. For example:  
   
-```  
+```xml  
 <OutputDir Condition="'$(Configuration)'=="release'">Bin\MyReleaseConfig</OutputDir>  
 ```  
   
@@ -69,5 +67,5 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 ## See Also  
  [MSBuild Reference](../../msbuild/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](../../msbuild/msbuild.md)   
  [Custom Tools](../../extensibility/internals/custom-tools.md)
