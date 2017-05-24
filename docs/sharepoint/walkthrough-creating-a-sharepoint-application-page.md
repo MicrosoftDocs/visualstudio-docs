@@ -83,8 +83,6 @@ manager: "ghogen"
 ## Designing the Layout of the Application Page  
  The Application Page item enables you to use a designer to add ASP.NET controls to the application page. This designer is the same designer used in Visual Web Developer. Add a label, a radio button list, and a table to the **Source** view of the designer, and then set properties just as you would when you design any standard ASP.NET page.  
   
- For more information about using the designer in Visual Web Developer, see [Visual Studio Web Development Content Map](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539).  
-  
 #### To design the layout of the application page  
   
 1.  On the menu bar, choose **View**, **Toolbox**.  
