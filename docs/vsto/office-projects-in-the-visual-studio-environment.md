@@ -117,7 +117,7 @@ manager: "ghogen"
  The **Properties** window displays properties for project items that are selected in **Solution Explorer**, and for UI elements that are selected in the designer, such as controls or the document in a document-level project. Some properties are specific to the application and document, and some properties are the same across all projects.  
   
 ## Data Sources Window  
- You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Binding controls to data in Visual Studio](../Topic/Binding%20controls%20to%20data%20in%20Visual%20Studio.md).  
+ You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Bind controls to data in Visual Studio](/visualstudio/data-tools/bind-controls-to-data-in-visual-studio).  
   
 ## See Also  
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)   

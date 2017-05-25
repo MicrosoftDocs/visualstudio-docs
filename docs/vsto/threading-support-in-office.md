@@ -41,7 +41,7 @@ manager: "ghogen"
   
 -   Marshaling  
   
- For general information about multithreading, see [Multithreading in Components](../Topic/Multithreading%20in%20Components.md).  
+ For general information about multithreading, see [Managed Threading](/dotnet/articles/standard/threading/).  
   
  Office runs in the main STA. Understanding the implications of this makes it possible to understand how to use multiple threads with Office.  
   
@@ -67,15 +67,15 @@ manager: "ghogen"
  [!code-cs[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
  [!code-vb[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb#5)]  
   
- For more information, see [Managed Threading Best Practices](../Topic/Managed%20Threading%20Best%20Practices.md).  
+ For more information, see [Managed Threading Best Practices](/dotnet/articles/standard/threading/managed-threading-best-practices).  
   
 ## Modeless Forms  
  A modeless form allows some type of interaction with the application while the form is displayed. The user interacts with the form, and the form interacts with the application without closing. The Office object model supports managed modeless forms; however, they should not be used on a background thread.  
   
 ## See Also  
- [Multithreading in Components](../Topic/Multithreading%20in%20Components.md)   
- [Managed Threading](../Topic/Managed%20Threading.md)   
- [Threading &#40;C&#35; and Visual Basic&#41;](../Topic/Threading%20(C%23%20and%20Visual%20Basic).md)   
+ [Managed Threading](/dotnet/articles/standard/threading/)  
+ [Threading (C#)](/dotnet/articles/csharp/programming-guide/concepts/threading/index) 
+ [Threading (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/threading/index)   
  [Using Threads and Threading](../Topic/Using%20Threads%20and%20Threading.md)   
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)  
   
