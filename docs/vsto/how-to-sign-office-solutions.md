@@ -27,7 +27,7 @@ manager: "ghogen"
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
- If you manually edit application and deployment manifests by using the Manifest Generation and Editing Tool (mage.exe and mageui.exe), you must re-sign the manifests before you can use them. For more information, see [How to: Re-sign Application and Deployment Manifests](../Topic/How%20to:%20Re-sign%20Application%20and%20Deployment%20Manifests.md).  
+ If you manually edit application and deployment manifests by using the Manifest Generation and Editing Tool (mage.exe and mageui.exe), you must re-sign the manifests before you can use them. For more information, see [How to: Re-sign Application and Deployment Manifests](/visualstudio/deployment/how-to-re-sign-application-and-deployment-manifests).  
   
 ## Signing by Using a Certificate  
  A certificate is a file that contains a unique key and the identity of the solution publisher. You can purchase certificates from a certificate authority, or create your own certificate and have a certificate authority sign it.  
