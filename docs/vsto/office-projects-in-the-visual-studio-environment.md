@@ -111,7 +111,7 @@ manager: "ghogen"
 ## Code Editor  
  The Code Editor enables you to view and modify the visible code files in your solution. These files contain the code that defines the behavior of your solution.  
   
- For more information about the Code Editor, see [Writing Code in the Code and Text Editor](/visual-studio/ide/writing-code-in-the-code-and-text-editor). For more information about how to write code in Office projects, see [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md).  
+ For more information about the Code Editor, see [Writing Code in the Code and Text Editor](/visualstudio/ide/writing-code-in-the-code-and-text-editor). For more information about how to write code in Office projects, see [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md).  
   
 ## Properties Window  
  The **Properties** window displays properties for project items that are selected in **Solution Explorer**, and for UI elements that are selected in the designer, such as controls or the document in a document-level project. Some properties are specific to the application and document, and some properties are the same across all projects.  

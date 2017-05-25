@@ -49,6 +49,6 @@ manager: "ghogen"
 ## See Also  
  [Securing Office Solutions](../vsto/securing-office-solutions.md)   
  [Granting Trust to Office Solutions](../vsto/granting-trust-to-office-solutions.md)   
- [Signing Page, Project Designer](/visual-studio/ide/reference/signing-page-project-designer)  
+ [Signing Page, Project Designer](/visualstudio/ide/reference/signing-page-project-designer)  
   
   

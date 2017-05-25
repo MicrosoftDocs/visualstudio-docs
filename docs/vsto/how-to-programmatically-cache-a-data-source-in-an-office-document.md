@@ -60,6 +60,6 @@ manager: "ghogen"
  [How to: Cache Data for Use Offline or on a Server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
  [How to: Cache Data in a Password-Protected Document](../vsto/how-to-cache-data-in-a-password-protected-document.md)   
  [Accessing Data in Documents on the Server](../vsto/accessing-data-in-documents-on-the-server.md)   
- [Saving Data](/visual-studio/data-tools/saving-data)  
+ [Saving Data](/visualstudio/data-tools/saving-data)  
   
   
