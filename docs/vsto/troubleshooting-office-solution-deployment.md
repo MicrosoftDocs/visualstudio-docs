@@ -31,13 +31,13 @@ manager: "ghogen"
  You can use the event viewer in Windows to see error messages that are captured by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems. For more information, see [Event Logging for Office Solutions](../vsto/event-logging-for-office-solutions.md).  
   
 ## Changing the Assembly Name Causes Conflicts  
- If you change the **Assembly Name** value in the **Application** page of the **Project Designer** after you’ve already deployed a solution, the publishing tools will modify the Setup package to have one Setup.exe file and two deployment manifests. If you deploy two manifest files, the following conditions might occur:  
+ If you change the **Assembly Name** value in the **Application** page of the **Project Designer** after you've already deployed a solution, the publishing tools will modify the Setup package to have one Setup.exe file and two deployment manifests. If you deploy two manifest files, the following conditions might occur:  
   
 -   If the end user installs both versions, the application will load both VSTO Add-ins.  
   
 -   If the VSTO Add-in was installed before the assembly name was changed, the end user will never receive updates.  
   
- To avoid these conditions, don’t change the solution's **Assembly Name** value after you deploy the solution.  
+ To avoid these conditions, don't change the solution's **Assembly Name** value after you deploy the solution.  
   
 ## Checking for Updates Takes a Long Time  
  Visual Studio 2010 Tools for Office Runtime provides a registry entry that administrators can use to set the time-out value for downloading the manifests and the solution.  

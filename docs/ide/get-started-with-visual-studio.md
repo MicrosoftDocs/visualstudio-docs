@@ -34,7 +34,7 @@ translation.priority.mt:
 ---
 # Get Started with Visual Studio
 
-Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://www.visualstudio.com/vs/). See the video [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
+Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://www.visualstudio.com/vs/). See the video [Getting Started with Visual Studio - Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
 Visual Studio has a group of tool windows, menus, and toolbars collectively known as the integrated development environment, or IDE. The Visual Studio IDE helps you accomplish your development tasks. Here's a quick overview of IDE items you will likely use most often.
@@ -50,7 +50,7 @@ Some solution types may include windows called *forms*, such as Windows Presenta
 
 ### Solution Explorer
 
-A tool window called **Solution Explorer** lists all your code files. Solution Explorer can help organize your code by grouping its files into solutions and projects. The project in bold is called the *startup project*. It’s the first code that runs when you start your solution. You can change the startup project. See the video [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) for more information.
+A tool window called **Solution Explorer** lists all your code files. Solution Explorer can help organize your code by grouping its files into solutions and projects. The project in bold is called the *startup project*. It's the first code that runs when you start your solution. You can change the startup project. See the video [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) for more information.
 
 ![Solution Explorer collapsed nodes](../ide/media/VSIDE_SolutionExplorer2_callouts.png)
 
@@ -74,7 +74,7 @@ Note that toolbar icons and menu commands can change depending on the context, m
 ### Team Explorer
 **Team Explorer** enables you to connect to source control tools such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview) to store your code locally or share it with others on a hosted service. You can also use it to track tasks and more.
 
-See the videos [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) and [Getting Started with Visual Studio – Opening a project from Source Control](https://www.youtube.com/watch?v=pc9vX_4RGV4&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=3) for more information.
+See the videos [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) and [Getting Started with Visual Studio - Opening a project from Source Control](https://www.youtube.com/watch?v=pc9vX_4RGV4&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=3) for more information.
 
 ![Team Explorer](../ide/media/TeamExplorer.png)
 

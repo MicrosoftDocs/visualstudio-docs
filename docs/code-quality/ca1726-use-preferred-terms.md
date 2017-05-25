@@ -60,7 +60,7 @@ translation.priority.mt:
 |Dont|DoNot|  
 |Flag or Flags|There is no replacement term. Do not use.|  
 |Hadnt|HadNot|  
-|Hasn’t|HasNot|  
+|Hasn't|HasNot|  
 |Havent|HaveNot|  
 |Indices|Indexes|  
 |Isnt|IsNot|  

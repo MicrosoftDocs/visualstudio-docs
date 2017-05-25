@@ -63,7 +63,7 @@ You can use Edit and Continue in Visual C++ projects. See [Supported Code Change
 ##  <a name="BKMK_How_to_apply_code_changes_explicitly"></a> How to apply code changes explicitly  
  In Visual C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.  
   
- When you apply code changes explicitly, your program remains in break mode – no execution occurs.  
+ When you apply code changes explicitly, your program remains in break mode - no execution occurs.  
   
 -   To apply code changes explicitly, on the **Debug** menu, choose **Apply Code Changes**.  
   

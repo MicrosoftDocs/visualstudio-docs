@@ -325,7 +325,7 @@ manager: "ghogen"
   
 2.  In the Lists area of the SharePoint site, choose the **Tasks** link.  
   
-     The **Tasks – All Tasks** page appears.  
+     The **Tasks - All Tasks** page appears.  
   
 3.  On the **List Tools** tab of the ribbon, choose the **List** tab, and then, in the **Settings** group, choose **List Settings**.  
   

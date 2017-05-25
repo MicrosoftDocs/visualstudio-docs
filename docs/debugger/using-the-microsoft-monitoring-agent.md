@@ -68,7 +68,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
 4.  Create a secure directory on your web server to store the IntelliTrace logs, for example, **C:\IntelliTraceLogs**.  
   
-     Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that’s not very active.  
+     Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that's not very active.  
   
     > [!IMPORTANT]
     >  IntelliTrace logs might contain personal and sensitive data. Restrict this directory to only those identities that must work with the files. Check your company's privacy policies.  
@@ -109,9 +109,9 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
     2.  On the **Security** tab, choose **Edit**, **Add**.  
   
-    3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it’s not there, choose **Object Types** to add it.  
+    3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it's not there, choose **Object Types** to add it.  
   
-    4.  Make sure your local computer appears in the **From this location** box. If it’s not there, choose **Locations** to change it.  
+    4.  Make sure your local computer appears in the **From this location** box. If it's not there, choose **Locations** to change it.  
   
     5.  In the **Enter the object names to select** box, add the application pool for the web app or SharePoint application.  
   
@@ -152,7 +152,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
     |*\<UInt32>*|Specify the maximum size for the IntelliTrace log. The default maximum size of the IntelliTrace log is 250 MB.<br /><br /> When the log reaches this limit, the agent overwrites the earliest entries to make space for more entries. To change this limit, use the **-MaximumFileSizeInMegabytes** option or edit the `MaximumLogFileSize` attribute in the collection plan.|  
     |*"\<collectionPlanPathAndFileName>"*|Specify the full path or relative path and the file name of the collection plan. This plan is an .xml file that configures settings for the agent.<br /><br /> These plans are included with the agent and work with web apps and SharePoint applications:<br /><br /> -   **collection_plan.ASP.NET.default.xml**<br />     Collects only events, such as exceptions, performance events, database calls, and Web server requests.<br />-   **collection_plan.ASP.NET.trace.xml**<br />     Collects function-level calls plus all the data in default collection plan. This plan is good for detailed analysis but might slow down your app.<br /><br /> You can find localized versions of these plans in the agent's subfolders. You can also [customize these plans or create your own plans](http://go.microsoft.com/fwlink/?LinkId=227871) to avoid slowing down your app. Put any custom plans in the same secure location as the agent.<br /><br /> [Q: How do I get the most data without slowing down my app?](#Minimizing)|  
   
-     For the more information about the full syntax and other examples, run the **get-help Start-WebApplicationMonitoring –detailed** command or the **get-help Start-WebApplicationMonitoring –examples** command.  
+     For the more information about the full syntax and other examples, run the **get-help Start-WebApplicationMonitoring -detailed** command or the **get-help Start-WebApplicationMonitoring -examples** command.  
   
 3.  To check the status of all monitored web apps, run the [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) command.  
   
@@ -263,7 +263,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
      **PS C:>Checkpoint-WebApplicationMonitoring "IIS:sitesFabrikamFabrikamFiber.Web"**  
   
-     For more information, run the **get-help Checkpoint-WebApplicationMonitoring –detailed** command or the **get-help Checkpoint-WebApplicationMonitoring –examples** command.  
+     For more information, run the **get-help Checkpoint-WebApplicationMonitoring -detailed** command or the **get-help Checkpoint-WebApplicationMonitoring -examples** command.  
   
 3.  Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise (but not Professional or Community editions).  
   
@@ -297,7 +297,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
      **PS C:\\>Stop-WebApplicationMonitoring "IIS:\sites\Fabrikam\FabrikamFiber.Web"**  
   
-     For more information, run the **get-help Stop-WebApplicationMonitoring –detailed** command or the **get-help Stop-WebApplicationMonitoring –examples** command.  
+     For more information, run the **get-help Stop-WebApplicationMonitoring -detailed** command or the **get-help Stop-WebApplicationMonitoring -examples** command.  
   
 3.  Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise.  
   

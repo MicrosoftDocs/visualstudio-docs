@@ -52,7 +52,7 @@ translation.priority.mt:
   
 -   **Clarity:** focus on the core metaphor that gives an icon its meaning and individuality.  
   
--   **Simplification:** reduce the icon to its core meaning – get the theme across with just the necessary element(s) and no frills.  
+-   **Simplification:** reduce the icon to its core meaning - get the theme across with just the necessary element(s) and no frills.  
   
 -   **Context:** consider all aspects of an icon's role during concept development, which is crucial when deciding which elements constitute the icon's core metaphor.  
   

@@ -31,7 +31,7 @@ This section includes all the information you are likely to need about data prop
 |-------------------------------|-----------------|-------------|  
 |`value`|The current value of the property.|`undefined`|  
 |`writable`|`true` or `false`. If `writable` is set to `true`, the property value can be modified.|`false`|  
-|`enumerable`|`true` or `false`. If `enumerable` is set to `true`, the property can be enumerated by a `for…in` statement.|`false`|  
+|`enumerable`|`true` or `false`. If `enumerable` is set to `true`, the property can be enumerated by a `for...in` statement.|`false`|  
 |`configurable`|`true` or `false`. If `configurable` is set to `true`, property attributes can be changed, and the property can be deleted.|`false`|  
   
  If the descriptor does not have a `value`, `writable`, `get`, or `set` attribute, and the specified property name does not exist, a data property is added.  
@@ -58,7 +58,7 @@ This section includes all the information you are likely to need about data prop
 |-----------------------------------|-----------------|-------------|  
 |`get`|A function that returns the property value. The function has no parameters.|`undefined`|  
 |`set`|A function that sets the property value. It has one parameter that contains the value to be assigned.|`undefined`|  
-|`enumerable`|`true` or `false`. If `enumerable` is set to `true`, the property can be enumerated by a `for…in` statement.|`false`|  
+|`enumerable`|`true` or `false`. If `enumerable` is set to `true`, the property can be enumerated by a `for...in` statement.|`false`|  
 |`configurable`|`true` or `false`. If `configurable` is set to `true`, property attributes can be changed, and the property can be deleted.|`false`|  
   
  When a `get` accessor is undefined and an attempt is made to access the property value, the value `undefined` is returned. When a `set` accessor is undefined and an attempt is made to assign a value to the accessor property, nothing occurs.  

@@ -35,7 +35,7 @@ If you are writing a Visual Studio extension such as a menu command or [domain-s
 using Microsoft.VisualStudio.TextTemplating;  
 using Microsoft.VisualStudio.TextTemplating.VSHost;  
 ...  
-// Get a service provider – how you do this depends on the context:  
+// Get a service provider - how you do this depends on the context:  
 IServiceProvider serviceProvider = ...; // An instance of EnvDTE, for example   
   
 // Get the text template service:  
@@ -59,7 +59,7 @@ string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath
 using Microsoft.VisualStudio.TextTemplating;  
 using Microsoft.VisualStudio.TextTemplating.VSHost;  
 ...  
-// Get a service provider – how you do this depends on the context:  
+// Get a service provider - how you do this depends on the context:  
 IServiceProvider serviceProvider = dte;   
   
 // Get the text template service:  

@@ -30,7 +30,7 @@ Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);
 >   
 >  `using Microsoft.VisualStudio.Modeling.Diagnostics;`  
 >   
->  `…`  
+>  `...`  
 >   
 >  `StoreViewer.Show(mystore);`  
   

@@ -1,7 +1,7 @@
 ---
-title: "Just My Code | Microsoft Docs"
+title: "Debug user code with Just My Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,22 +29,24 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Just My Code
-Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.  
+# Specify whether to debug only user code using Just My Code in Visual Studio
+Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.
+
+For most programming languages, Just My Code is enabled by default. 
   
 ##  <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code  
- To enable or disable Just My Code, choose **Options and Settings** on the **Debug** menu. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.  
+ To enable or disable Just My Code, choose the **Tools / Options** menu. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.  
   
  ![Enable Just My Code in the Options dialog box](../debugger/media/dbg_justmycode_options.png "DBG_JustMyCode_Options")  
   
 > [!NOTE]
 >  The **Enable Just My Code** setting is a global setting that is applied to all Visual Studio projects in all languages.  
   
-###  <a name="BKMK_Override_call_stack_filtering"></a> Override call stack filtering  
- In call stack displays, such as the Call Stack and Tasks windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
+###  <a name="BKMK_Override_call_stack_filtering"></a> Show non-user code in call stack views  
+ In views that show the call stack, such as the **Call Stack** and **Tasks** windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
   
 > [!NOTE]
->  The **Show External Code** setting is saved to the current user’s profiler. It is applied to all projects in all languages that are opened by the user.  
+>  The **Show External Code** setting is saved to the current user's profiler. It is applied to all projects in all languages that are opened by the user.  
   
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
   
@@ -131,7 +133,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |Function|Required. Specifies one or more functions as non-user functions.|  
 |`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
 |`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
-|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  – tells the debugger to step over the matched function.<br />-   `StepInto`  – tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  - tells the debugger to step over the matched function.<br />-   `StepInto`  - tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize call stack behavior  
  You can specify modules, source files, and functions to treat as non-user code in call stacks by specifying them in `*.natjmc` files.  
@@ -166,7 +168,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one characters) and `*` (zero or more characters). For example,<br /><br /> `<Module Name=”?:\3rdParty\UtilLibs\*” />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
+|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one characters) and `*` (zero or more characters). For example,<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
 |`Company`|Optional. The name of the company that publishes the module that is embedded in the executable file. You can use this attribute to disambiguate the modules.|  
   
  **File element attributes**  
@@ -194,7 +196,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |-|-|  
 |**MyCode**|User code that you own and control.|  
 |**LibraryCode**|Non-user code from libraries that you use regularly and your application relies on to function correctly (for example WinJS or jQuery).|  
-|**UnrelatedCode**|Non-user code that that could be running in your application, but you don’t own and your application doesn’t directly rely on it to function correctly (for example, an advertising SDK that displays ads). In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
+|**UnrelatedCode**|Non-user code that that could be running in your application, but you don't own and your application doesn't directly rely on it to function correctly (for example, an advertising SDK that displays ads). In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
   
  The JavaScript debugger automatically classifies these types of code:  
   
@@ -230,7 +232,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
     -   **LibraryCode** code, the debugger always breaks.  
   
-    -   **UnrelatedCode** code, the debugger doesn’t stop.  
+    -   **UnrelatedCode** code, the debugger doesn't stop.  
   
 ###  <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  
@@ -241,7 +243,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  If first chance exceptions are enabled for the exception on the Exceptions dialog box, and the exception is thrown in **LibraryCode** or **UnrelatedCode** code:  
   
--   If the exception is handled, the debugger doesn’t break.  
+-   If the exception is handled, the debugger doesn't break.  
   
 -   If the exception is not handled, the debugger breaks.  
   
@@ -266,19 +268,19 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
     "Function" : "Classification",  
     "ScriptBlock" : "Classification",  
     "MyCode" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Libraries" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Unrelated" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ]  
 }  
   

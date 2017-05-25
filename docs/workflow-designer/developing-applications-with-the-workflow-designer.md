@@ -57,7 +57,7 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
   
 -   The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] services.  
   
--   The **Add Service Reference…** functionality allows you to generate activities automatically that access Web services.  
+-   The **Add Service Reference...** functionality allows you to generate activities automatically that access Web services.  
   
 ## In This Section  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)  

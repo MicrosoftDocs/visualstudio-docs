@@ -47,7 +47,7 @@ Use the **Messages** tab to select which message types to list in [Messages View
   
 -   Registered: registered with the **RegisterWindowMessage** call  
   
--   Unknown: unknown messages in the range 0 to (WM_USER – 1)  
+-   Unknown: unknown messages in the range 0 to (WM_USER - 1)  
   
  Note that these **Message Groups** do not map to specific entries under **Messages To View**. When you select a group, the selection is applied directly to the message stream.  
   

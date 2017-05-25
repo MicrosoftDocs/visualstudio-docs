@@ -296,7 +296,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      ![Run the coded UI test from Test Explorer](../test/media/cuit_windowsstoreapp_runtest.png "CUIT_WindowsStoreApp_RunTest")  
   
-     The Windows Store app launches, the action to tap the button is completed, and the textbox’s Text property is populated and validated using the assert method.  
+     The Windows Store app launches, the action to tap the button is completed, and the textbox's Text property is populated and validated using the assert method.  
   
      ![Running coded UI test](../test/media/cuit_windowsstoreapp_running.png "CUIT_WindowsStoreApp_Running")  
   
@@ -306,7 +306,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 ## Q & A  
   
-#### Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
+#### Q: Why don't I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
   
 **A**: The option to record is not supported for Windows Store apps.  
   
@@ -329,7 +329,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 After you create the project, authoring a test stays the same as before.  
   
-#### Q: Why can’t I modify the code in the UIMap.Designer file?**  
+#### Q: Why can't I modify the code in the UIMap.Designer file?**  
   
 **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   

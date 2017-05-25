@@ -34,7 +34,7 @@ Historical debugging is a mode of debugging that depends on the information coll
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).  
   
 ## Why use Historical Debugging?  
- Setting breakpoints to find bugs can be a rather hit-or-miss affair. You set a breakpoint close to the place in your code where you suspect the bug to be, then run the application in the debugger and hope your breakpoint gets hit, and that the place where execution breaks can reveal the source of the bug. If not, you’ll have to try setting a breakpoint somewhere else in the code and rerun the debugger, executing your test steps over and over until you find the problem.  
+ Setting breakpoints to find bugs can be a rather hit-or-miss affair. You set a breakpoint close to the place in your code where you suspect the bug to be, then run the application in the debugger and hope your breakpoint gets hit, and that the place where execution breaks can reveal the source of the bug. If not, you'll have to try setting a breakpoint somewhere else in the code and rerun the debugger, executing your test steps over and over until you find the problem.  
   
  ![setting a breakpoint](../debugger/media/breakpointprocesa.png "BreakpointProcesa")  
   
@@ -44,7 +44,7 @@ Historical debugging is a mode of debugging that depends on the information coll
  IntelliTrace is on by default. All you have to do is decide which events and function calls are of interest to you. For more information about defining what you want to look for, see [IntelliTrace Features](../debugger/intellitrace-features.md). For a step-by-step account of debugging with IntelliTrace, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).  
   
 ## Navigating your code with Historical Debugging  
- Let’s start with a simple program that has a bug. In a C# console application, add the following code:  
+ Let's start with a simple program that has a bug. In a C# console application, add the following code:  
   
 ```CSharp  
 static void Main(string[] args)  
@@ -72,7 +72,7 @@ private static int AddInt(int add)
 }  
 ```  
   
- We’ll assume that the expected value of `resultInt` after calling `AddAll()` is 20 (the result of incrementing `testInt` 20 times). (We’ll also assume that you can’t see the bug in `AddInt()`).But the result is actually 44. How can we find the bug without stepping through `AddAll()` 10 times? We can use Historical Debugging to find the bug faster and more easily. Here’s how:  
+ We'll assume that the expected value of `resultInt` after calling `AddAll()` is 20 (the result of incrementing `testInt` 20 times). (We'll also assume that you can't see the bug in `AddInt()`).But the result is actually 44. How can we find the bug without stepping through `AddAll()` 10 times? We can use Historical Debugging to find the bug faster and more easily. Here's how:  
   
 1.  In Tools / Options / IntelliTrace / General, make sure that IntelliTrace is enabled, and select the IntelliTrace events and call information option. If you do not select this option, you will not be able to see the navigation gutter (as explained below).  
   

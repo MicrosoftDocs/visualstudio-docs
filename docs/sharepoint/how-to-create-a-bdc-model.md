@@ -37,7 +37,7 @@ manager: "ghogen"
   
 2.  Under either **Visual Basic** or **Visual C#**, choose **Office/SharePoint**, **SharePoint Solutions**.  
   
-3.  In the **Templates** pane, choose the **SharePoint 2013 – Empty Project** item, and then choose the **OK** button.  
+3.  In the **Templates** pane, choose the **SharePoint 2013 - Empty Project** item, and then choose the **OK** button.  
   
      The **SharePoint Customization Wizard** opens.  
   

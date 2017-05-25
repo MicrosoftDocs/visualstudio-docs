@@ -35,7 +35,7 @@ You can build a solution without building all projects that it contains. For exa
   
 -   Removing it temporarily from the active solution configuration.  
   
--   Creating a solution configuration that doesn’t  include the project.  
+-   Creating a solution configuration that doesn't  include the project.  
   
  For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   

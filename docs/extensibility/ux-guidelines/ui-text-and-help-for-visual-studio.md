@@ -70,7 +70,7 @@ translation.priority.mt:
 -   Follow existing Microsoft guidance for [User Interface Text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx) and [Style and Tone](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477\(v=vs.85\).aspx).  
   
 #### Supplemental instructions  
- Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it’s likely that the user won't fully understand the ramifications of the choice they are making.  
+ Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it's likely that the user won't fully understand the ramifications of the choice they are making.  
   
  ![Supplemental text in Visual Studio](../../extensibility/ux-guidelines/media/0601-b_supplementaltext1.png "0601-b_SupplementalText1")  
   
@@ -121,27 +121,27 @@ translation.priority.mt:
   
      ![Help link in Visual Studio](../../extensibility/ux-guidelines/media/0601-e_helplink.png "0601-e_HelpLink")  
   
-     **An ellipsis (…) in a Help link indicates the task will require additional UI.**  
+     **An ellipsis (...) in a Help link indicates the task will require additional UI.**  
   
--   Links should not start with “Learn,” as that is not the user's intent. The user wants to answer a specific question, not receive a general education.  
+-   Links should not start with "Learn," as that is not the user's intent. The user wants to answer a specific question, not receive a general education.  
   
 -   Phrase help links so that they ask the question that the topic will answer.  
   
      Incorrect:  
-     “Learn more about Windows Azure Mobile Services pricing”  
+     "Learn more about Windows Azure Mobile Services pricing"  
   
      Correct:  
-     “What pricing options are available for Windows Azure Mobile Services?”  
+     "What pricing options are available for Windows Azure Mobile Services?"  
   
--   Never use *Click…* to the link text.  
+-   Never use *Click...* to the link text.  
   
--   Never link only the word “here.” This is problematic for some screen readers, which will voice only the hyperlinked word.  
+-   Never link only the word "here." This is problematic for some screen readers, which will voice only the hyperlinked word.  
   
      Incorrect:  
-     “Find information on Windows Azure Mobile Services **here**”  
+     "Find information on Windows Azure Mobile Services **here**"  
   
      Correct:  
-     “What pricing options are available for Windows Azure Mobile Services?”  
+     "What pricing options are available for Windows Azure Mobile Services?"  
   
 -   For more information on the correct writing style for Help links, see the [Windows Desktop guidance for Help](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742494\(v=vs.85\).aspx).  
   
@@ -199,11 +199,11 @@ translation.priority.mt:
   
 -   Use the correct icon.  
   
--   Make questions easy to understand and use buttons that have clear choices, such as “Delete” and “Cancel.”  
+-   Make questions easy to understand and use buttons that have clear choices, such as "Delete" and "Cancel."  
   
 -   For warnings, be clear about what the consequence of proceeding will be. The buttons should indicate the consequence.  
   
--   For errors, describe what the user can do to fix the problem. Buttons should be actions or say “Close.” Don’t use an “OK” button for an error message.  
+-   For errors, describe what the user can do to fix the problem. Buttons should be actions or say "Close." Don't use an "OK" button for an error message.  
   
 -   Some questions to ask yourself when constructing an error message:  
   
@@ -214,7 +214,7 @@ translation.priority.mt:
     -   Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?  
   
 #### Build errors  
- Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer’s work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren’t set correctly.  
+ Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer's work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren't set correctly.  
   
  Visual Studio users can spend an enormous number of development hours resolving build errors. This resolution time increases when errors have dependencies or when error messages are poorly written, which can make it difficult to uncover the source of the error.  
   
@@ -226,14 +226,14 @@ translation.priority.mt:
   
 -   **Use plain language** that explains the problem with little or no compiler jargon. The text of a build error should not be overly technical.  
   
--   **Outline possible causes.** For example, “Missing a colon between the property and value in the ‘(property) : (value)’ declaration.”  
+-   **Outline possible causes.** For example, "Missing a colon between the property and value in the '(property) : (value)' declaration."  
   
 -   Give details about potential fixes. If there is not enough room, then additional details may be put into the corresponding Help topic.  
   
 ### Components of a well-written error message  
   
 #### Use the shell dialog service for error messages.  
- Using the shell dialog service lets you control the appearance of the message — fonts in particular — without major changes to individual elements. Use the **IErrorInfo** mechanisms and report them using **IVsUIShell::SetErrorInfo/ReportErrorInfo**.  
+ Using the shell dialog service lets you control the appearance of the message, fonts in particular, without major changes to individual elements. Use the **IErrorInfo** mechanisms and report them using **IVsUIShell::SetErrorInfo/ReportErrorInfo**.  
   
 #### Choose an effective and appropriate notification presentation.  
  Use a modal dialog with a critical warning if immediate action is required to avoid loss of data (synchronous notification). Critical icons are reserved for situations in which closing the message without reading it can lead to negative consequences. Loss of data is a critical situation that requires an alarm-level response. Overuse of the critical icon desensitizes users to its importance. If the error message is informational in nature, consider alternatives to a modal dialog (asynchronous notification).  
@@ -241,9 +241,9 @@ translation.priority.mt:
 #### Provide a clean, succinct explanation of why the problem occurred rather than a technical explanation.  
  Overburdening users with technical details in the explanation will make them more likely to ignore error messages. Examples of good messaging:  
   
--   “Unable to open the requested file.”  
+-   "Unable to open the requested file."  
   
--   “Unable to connect to the Internet.”  
+-   "Unable to connect to the Internet."  
   
 #### Provide information about how to fix the problem.  
  Offer the user suggestions of how to fix the problem. Be honest with the user if there are no suggestions. Provide direct links to alternative online sources, such as technical support or community support. Try to point users to specific online information pertinent to the issue. For an error ID, consider linking users to a discussion thread about that specific error. Examples of good messaging:  
@@ -253,7 +253,7 @@ translation.priority.mt:
 -   "Make sure that the file exists and that you have permission to open it."  
   
 #### Write a message that is short and to the point.  
- An error message can notify, explain, and offer a solution but still be ignored if it’s too wordy. One solution is to use progressive disclosure with a details button. For example, give a short description/solution and then put more details under a details button. If users choose to read more information on the error, they can do so.  
+ An error message can notify, explain, and offer a solution but still be ignored if it's too wordy. One solution is to use progressive disclosure with a details button. For example, give a short description/solution and then put more details under a details button. If users choose to read more information on the error, they can do so.  
   
  The language in the message should be:  
   
@@ -265,13 +265,13 @@ translation.priority.mt:
   
 -   **Correct.** Use correct spelling and grammar (even in alphas). Typos are unprofessional and embarrassing.  
   
--   **Contextually appropriate.** Use appropriate button text. Avoid the "OK" button and instead use "Continue" or "Yes/No.”  
+-   **Contextually appropriate.** Use appropriate button text. Avoid the "OK" button and instead use "Continue" or "Yes/No."  
   
 ### Error message examples  
   
 |Good|Bad|  
 |----------|---------|  
-|“The number you dialed is no longer in service. Please check the number and dial again or dial 0 for the operator.”|-   “Error (449): Illegal number”<br />-   “This unhandled exception error indicates that the operation completed successfully.”<br /><br /> ![Bad error message in Visual Studio](../../extensibility/ux-guidelines/media/0602-a_errordialog.png "0602-a_ErrorDialog")|  
+|"The number you dialed is no longer in service. Please check the number and dial again or dial 0 for the operator."|-   "Error (449): Illegal number"<br />-   "This unhandled exception error indicates that the operation completed successfully."<br /><br /> ![Bad error message in Visual Studio](../../extensibility/ux-guidelines/media/0602-a_errordialog.png "0602-a_ErrorDialog")|  
   
 ## Accessing Help  
   

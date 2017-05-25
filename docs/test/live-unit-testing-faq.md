@@ -33,9 +33,9 @@ translation.priority.ht:
 
 **Answer:**
 
-Live Unit Testing currently does not work with .NET Core. We are working to add this support in the future. 
+Yes. Live Unit Testing works with .NET Core and .NET Frameworks. Support for .NET Core was added recently in Visual Studio 2017 version 15.2. 
 
-## Why doesn’t Live Unit Testing work when I turn it on? 
+## Why doesn't Live Unit Testing work when I turn it on? 
 
 **Answer:** 
 
@@ -43,7 +43,7 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
 
 - If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning Live Unit Testing on should resolve this issue. 
 
-- If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.4-preview is required) and `MSTest.TestFramework` (a minimum version of 1.0.5-preview is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#supported-test-frameworks) topic.
+- If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.17 is required) and `MSTest.TestFramework` (a minimum version of 1.1.17 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#supported-test-frameworks) topic.
  
 - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a `.runsettings` file. The `.runsettings` file must have an entry like the one below: 
 
@@ -83,7 +83,7 @@ For example, there may be a target that produces NuGet packages during a regular
 
 ## Error messages with &lt;OutputPath&gt; or &lt;OutDir&gt;
 
-**Why do I get the following error when Live Unit Testing tries to build my solution: “...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly”?**
+**Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
 
 **Answer:**
 
@@ -193,7 +193,7 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn’t work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
+Live Unit Testing currently doesn't work well with the Lightweight Solution load feature if all projects in the solution are not yet loaded. You may get incorrect coverage information in such scenarios.
  
 ## Why does Live Unit Testing does not capture coverage from a new process created by a test?
  
@@ -227,7 +227,7 @@ You can do several things to collect more detailed logs:
 
 - Set the `LiveUnitTesting_TestPlatformLog` user environment variable to `1` to capture the Test Platform log. Detailed Test Platform log messages from Live Unit Testing runs can then be retrieved from `[Solution Root]\.vs\[Solution Name]\log\[VisualStudio Process ID]`.
 
-- Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output – Tests** tab in Visual Studio. 
+- Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output - Tests** tab in Visual Studio. 
  
 ## See also
 

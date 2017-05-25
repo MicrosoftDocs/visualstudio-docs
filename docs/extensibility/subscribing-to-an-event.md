@@ -90,7 +90,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
      This holds the cookie that is returned by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method.  
   
-7.  Override the RDTExplorerWindow’s Initialize() method to register for RDT events. You should always get services in the ToolWindowPane’s Initialize() method, not in the constructor.  
+7.  Override the RDTExplorerWindow's Initialize() method to register for RDT events. You should always get services in the ToolWindowPane's Initialize() method, not in the constructor.  
   
     ```c#  
     protected override void Initialize()  
@@ -103,7 +103,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
      The <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable> service is called to obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable> interface. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method connects RDT events to an object that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>, in this case, a RDTExplorer object.  
   
-8.  Update the RDTExplorerWindow’s Dispose() method.  
+8.  Update the RDTExplorerWindow's Dispose() method.  
   
     ```c#  
     protected override void Dispose(bool disposing)  

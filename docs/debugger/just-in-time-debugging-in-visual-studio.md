@@ -47,7 +47,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
 2. If you are running a web app, disable script debugging.
 
-    Fpr Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
+    For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access this from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 
@@ -181,7 +181,7 @@ static void Main(string[] args)
  You can start debugging at this point. If this were a real application, you would need to find out why the code is throwing the exception.  
   
 ## Just-In-Time debugging errors  
- if you don’t see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](https://msdn.microsoft.com/library/windows/desktop/bb513638\(v=vs.85\).aspx).  
+ if you don't see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](https://msdn.microsoft.com/library/windows/desktop/bb513638\(v=vs.85\).aspx).  
   
  You might see the following error messages that are associated with Just-In-Time debugging.  
   

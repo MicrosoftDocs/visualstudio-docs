@@ -1,5 +1,5 @@
 ---
-title: "View the call stack in the debugger in Visual Studio | Microsoft Docs"
+title: "View the call stack in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/06/2017"
 ms.reviewer: ""
@@ -48,7 +48,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Use the call stack in the Visual Studio debugger
+# View the call stack and use the Call Stack Window in the Visual Studio debugger
 
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
   

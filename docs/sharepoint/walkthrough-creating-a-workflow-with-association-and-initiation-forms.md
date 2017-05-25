@@ -441,7 +441,7 @@ manager: "ghogen"
   
 11. Enter an amount on the initiation page that is less than or equal to the amount entered on the association page (**1200**).  
   
-     When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto–approved.  
+     When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto-approved.  
   
 ## Next Steps  
  You can learn more about how to create workflow templates from these topics:  

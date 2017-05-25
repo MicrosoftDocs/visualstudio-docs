@@ -61,7 +61,7 @@ When you want to understand dependencies across your code, visualize them by cre
 -   [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
   
 ##  <a name="GetStarted"></a> Get started with code maps  
- **To use code maps you’ll need either**:  
+ **To use code maps you'll need either**:  
   
 -   Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
   
@@ -84,7 +84,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 1.  Open the **Architecture** menu.  
   
-2.  If you just opened the solution and haven’t yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
+2.  If you just opened the solution and haven't yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
   
 3.  If your code hasn't changed since the last time you built it, choose **Generate Code Map for Solution Without Building** to get faster performance when creating the map.  
   
@@ -166,7 +166,7 @@ When you want to understand dependencies across your code, visualize them by cre
      In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).  
   
     > [!TIP]
-    >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
+    >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren't interested in.  
   
 7.  To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.  
   
@@ -174,7 +174,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 8.  To examine items and dependencies represented by an aggregate link, first select the link and then open its shortcut menu. Choose **Show Contributing Links** (or **Show Contributing Links on New Code Map**). This expands the groups at both ends of the link and shows only those items and dependencies that participate in the link.  
   
-9. To focus in on specific parts of the map, you can continue to remove items you aren’t interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.  
+9. To focus in on specific parts of the map, you can continue to remove items you aren't interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.  
   
      ![Drilling down to class and member level](../modeling/media/dependencygraph_expandedselectedgroups_2012.png "DependencyGraph_ExpandedSelectedGroups_2012")  
   
@@ -182,7 +182,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
-11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don’t want to see using the **Filters** pane.  
+11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don't want to see using the **Filters** pane.  
   
      ![Filter the containers to simplify the view](../modeling/media/codemapsexpandnewgroups.png "CodeMapsExpandNewGroups")  
   
@@ -241,7 +241,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      To see members that are in the code but don't appear on the map, click the **Refetch Children** icon ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon") in the top left corner of a group.  
   
-6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show…** option for the type of related items to add to the map. For example:  
+6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show...** option for the type of related items to add to the map. For example:  
   
      For an **assembly**, choose:  
   

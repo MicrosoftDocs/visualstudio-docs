@@ -1,7 +1,7 @@
 ---
 title: "Get started debugging multithreaded applications | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/25/2017"
+ms.custom: "H1HackMay2017"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

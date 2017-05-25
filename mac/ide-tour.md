@@ -28,10 +28,10 @@ When launched, Visual Studio for Mac displays a *Welcome Screen* as shown below:
 
 The Welcome Screen contains the following sections:
 
-- **Toolbar** – Provides quick access to the search bar. When a solution is loaded, this is used to set app configurations, for debugging, and for displaying errors.
-- **Getting Started** – Provides quick access to useful topics for developers getting started with Visual Studio for Mac.
-- **Recent Solutions** – Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
-- **Developer News** – A news feed that keeps you up to date on the latest Microsoft Developer information.
+- **Toolbar** - Provides quick access to the search bar. When a solution is loaded, this is used to set app configurations, for debugging, and for displaying errors.
+- **Getting Started** - Provides quick access to useful topics for developers getting started with Visual Studio for Mac.
+- **Recent Solutions** - Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
+- **Developer News** - A news feed that keeps you up to date on the latest Microsoft Developer information.
 
 ## Solutions and Projects
 

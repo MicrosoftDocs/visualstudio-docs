@@ -40,7 +40,7 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
 |Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|  
   
 ## Looking at Elements in the Live Visual Tree  
- Let’s get started with a very simple WPF application that has a list view and a button. Every time you click the button, another item is added to the list. Even-numbered items are colored gray, and odd-numbered items are colored yellow.  
+ Let's get started with a very simple WPF application that has a list view and a button. Every time you click the button, another item is added to the list. Even-numbered items are colored gray, and odd-numbered items are colored yellow.  
   
  Create a new C# WPF application (File / New / Project, then select C# and find WPF Application). Name it **TestXAML**.  
   
@@ -95,9 +95,9 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  Go back to the application window and add a few more items. You should see more list box items appear in the **Live Visual Tree**.  
   
- Now let’s look at the properties of one of the list box items. Select the first list box item in the **Live Visual Tree** and click the **Show Properties** icon on the toolbar. The **Live Property Explorer** should appear. Note that the **Content** field is “Item1”, and the **Background** field is **#FFFFFFE0** (light yellow). Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is “Item2”, and the **Background** field is **#FFD3D3D3** (light gray).  
+ Now let's look at the properties of one of the list box items. Select the first list box item in the **Live Visual Tree** and click the **Show Properties** icon on the toolbar. The **Live Property Explorer** should appear. Note that the **Content** field is "Item1", and the **Background** field is **#FFFFFFE0** (light yellow). Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is "Item2", and the **Background** field is **#FFD3D3D3** (light gray).  
   
- The actual structure of the XAML has a lot of elements that you’re probably not directly interested in, and if you don’t know the code well you might have a hard time navigating the tree to find what you’re looking for. So the **Live Visual Tree** has a couple of ways that let you use the application’s UI to help you find the element you want to examine.  
+ The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.  
   
  **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties.  
   
@@ -108,7 +108,7 @@ private void button_Click(object sender, RoutedEventArgs e)
  **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Enable selection** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.  
   
 ## Using XAML tools with running applications  
- You can use these XAML tools even when you don’t have the source code. When you attach to a running XAML application, you can use the **Live Visual Tree** on the UI elements of that application too. Here’s an example, using the same WPF test application we used before.  
+ You can use these XAML tools even when you don't have the source code. When you attach to a running XAML application, you can use the **Live Visual Tree** on the UI elements of that application too. Here's an example, using the same WPF test application we used before.  
   
 1.  Start the **TestXaml** application in the Release configuration. You cannot attach to a process that is running in a **Debug** configuration.  
   

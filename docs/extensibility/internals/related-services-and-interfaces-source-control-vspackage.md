@@ -70,7 +70,7 @@ This section lists all the source control VSPackage-related interfaces in the [!
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider>|This interface is used in registering the source control VSPackage.|Source Control Stub|Required|  
 |<xref:EnvDTE.SourceControl>|This interface is used in automation. As such, it exposes only functions that can be executed without displaying any UI.|Source control VSPackage|Optional|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>|This interface is used to save the source control settings in the solution (.sln) file. The settings include the source control location and source control status flags.|Source control VSPackage|Recommended|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>|This interface is used to save the source control settings in the solution options (.suo) file. This may include user-specific source control settings such as the current user’s enlistment location.|Source control VSPackage|Recommended|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>|This interface is used to save the source control settings in the solution options (.suo) file. This may include user-specific source control settings such as the current user's enlistment location.|Source control VSPackage|Recommended|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>|This interface is used to monitor events in order to perform operations such as checking in project files before closing solutions, or getting new files from source control when opening a project.|Source control VSPackage|Recommended|  
   
 ## See Also  

@@ -39,7 +39,7 @@ The following table lists [!INCLUDE[javascript](../../javascript/includes/javasc
 |Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to **false**.|[do...while Statement](../../javascript/reference/do-dot-dot-dot-while-statement-javascript.md)|  
 |Executes a block of statements for as long as a specified condition is **true**.|[for Statement](../../javascript/reference/for-statement-javascript.md)|  
 |Executes one or more statements for each element of an object or array.|[for...in Statement](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md)|  
-|Executes one or more statements for each value of an object or each element of an array.|[for…of Statement](../../javascript/reference/for-dot-dot-dot-of-statement-javascript.md)|  
+|Executes one or more statements for each value of an object or each element of an array.|[for...of Statement](../../javascript/reference/for-dot-dot-dot-of-statement-javascript.md)|  
 |Declares a new function.|[function Statement](../../javascript/reference/function-statement-javascript.md)|  
 |Conditionally executes a group of statements, depending on the value of an expression.|[@if Statement](../../javascript/reference/at-if-statement-javascript.md)|  
 |Conditionally executes a group of statements, depending on the value of an expression.|[if...else Statement](../../javascript/reference/if-dot-dot-dot-else-statement-javascript.md)|  

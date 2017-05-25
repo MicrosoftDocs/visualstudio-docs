@@ -65,11 +65,11 @@ translation.priority.ht:
   
  The rule is triggered by the following:  
   
--   Parameters that contain ‘version’ and cannot be parsed to System.Version.  
+-   Parameters that contain 'version' and cannot be parsed to System.Version.  
   
--   Parameters that contain ‘guid’ and cannot be parsed to System.Guid.  
+-   Parameters that contain 'guid' and cannot be parsed to System.Guid.  
   
--   Parameters that contain ‘uri’, 'urn', or ‘url’ and cannot be parsed to System.Uri.  
+-   Parameters that contain 'uri', 'urn', or 'url' and cannot be parsed to System.Uri.  
   
 ## See Also  
  [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

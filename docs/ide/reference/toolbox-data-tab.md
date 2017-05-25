@@ -36,7 +36,7 @@ translation.priority.ht:
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.  
   
 > [!TIP]
->  Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/en-us/28edce21-220a-484c-b461-a75b0232d293).  
+>  Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Add new data sources](../../data-tools/add-new-data-sources.md).  
   
 ## UI Element List  
  To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.  
@@ -49,13 +49,11 @@ Displays data objects you can add to a forms and components. The **Data** tab of
 |<xref:System.Windows.Forms.BindingNavigator>|Represents the navigation and manipulation user interface (UI) for controls on a form that are bound to data.|  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
- [Bind Windows Forms controls to data in Visual Studio](../../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
- [Overview of Data Applications in Visual Studio](../../data-tools/overview-of-data-applications-in-visual-studio.md)   
- [Connecting to Data in Visual Studio](../../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
- [Fetching Data into Your Application](../../data-tools/fetching-data-into-your-application.md)   
+ [Accessing Data in Visual Studio](../../data-tools/accessing-data-in-visual-studio.md)   
+ [Visual Studio data tools for .NET](../../data-tools/visual-studio-data-tools-for-dotnet.md)   
+ [Dataset tools in Visual Studio](../../data-tools/dataset-tools-in-visual-studio.md)   
  [Bind controls to data in Visual Studio](../../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Bind Windows Forms controls to data in Visual Studio](../../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
+ [Edit data in datasets](../../data-tools/edit-data-in-datasets.md)   
+ [Validate data in datasets](../../data-tools/validate-data-in-datasets.md)   
  [Saving Data](../../data-tools/saving-data.md)

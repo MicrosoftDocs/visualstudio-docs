@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 caps.latest.revision: 6
 author: "mikejo5000"

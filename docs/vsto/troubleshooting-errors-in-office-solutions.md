@@ -137,9 +137,9 @@ Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application
   
  This code results in the following compile errors:  
   
--   Visual Basic: "Reference to class ‘DocumentClass’ is not allowed when its assembly is linked using No-PIA mode."  
+-   Visual Basic: "Reference to class 'DocumentClass' is not allowed when its assembly is linked using No-PIA mode."  
   
--   Visual C#: "Interop type ‘Microsoft.Office.Interop.Word.DocumentClass’ cannot be embedded. Use the applicable interface instead."  
+-   Visual C#: "Interop type 'Microsoft.Office.Interop.Word.DocumentClass' cannot be embedded. Use the applicable interface instead."  
   
  To resolve this error, modify the code to reference the corresponding interface instead. For example, rather than reference a <xref:Microsoft.Office.Interop.Word.DocumentClass> object, reference an instance of the <xref:Microsoft.Office.Interop.Word.Document> interface instead.  
   
