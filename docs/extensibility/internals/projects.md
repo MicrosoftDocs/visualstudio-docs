@@ -49,8 +49,8 @@ In Visual Studio, projects are the containers that developers use to organize so
  [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) and [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)  
  Explains what actually occurs when you create a new project.  
   
- [VSSDK Samples](../../misc/vssdk-samples.md)  
- Describes the samples in the VSSDK that deal with projects and solutions.  
+ [VSSDK Samples](http://aka.ms/vs2015sdksamples)  
+ Contains the samples in the VSSDK that deal with projects and solutions.  
   
 ## Related Sections  
  [Inside the Visual Studio SDK](../../extensibility/internals/inside-the-visual-studio-sdk.md)  

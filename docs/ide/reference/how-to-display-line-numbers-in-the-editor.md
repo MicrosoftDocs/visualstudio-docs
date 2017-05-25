@@ -38,7 +38,7 @@ translation.priority.mt:
 You can display or hide line numbering in your code.  
   
 > [!NOTE]
->  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Display Line Numbers in Code  
  Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.  

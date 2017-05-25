@@ -52,7 +52,7 @@ RTVS will not install if you have only the Visual Studio Shell that's included w
 ## Installing RTVS in Visual Studio 2017
 
 > [!Important]
-> Installing RTVS in Visual Studio 2017 on Windows 7 is currently blocked as desribed on [GitHub issue #3561](https://github.com/Microsoft/RTVS/issues/3561). This will be resolved in the 15.3 update to Visual Studio 2017.
+> Installing RTVS in Visual Studio 2017 on Windows 7 is currently blocked as described on [GitHub issue #3561](https://github.com/Microsoft/RTVS/issues/3561). This will be resolved in the 15.3 update to Visual Studio 2017.
 
 1. Run the Visual Studio installer.
 2. Select the **Data science and analytical applications** workload:

@@ -66,7 +66,7 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
   
  [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)  
   
- [Walkthrough: Displaying SmartTags](../misc/walkthrough-displaying-smarttags.md)  
+ [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)  
   
 ## Importing the Service Provider  
  You can also import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> (found in the assembly Microsoft.VisualStudio.Shell.Immutable.10.0) in the same way to get access to Visual Studio services:  

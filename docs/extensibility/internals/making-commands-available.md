@@ -157,7 +157,7 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 ```  
   
 ## See Also  
- [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)   
+ [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)   
  [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)

@@ -123,4 +123,4 @@ STDMETHODIMP CVsPackage::GetAutomationObject(
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>   
- [VSSDK Samples](../../misc/vssdk-samples.md)
+ [VSSDK Samples](http://aka.ms/vs2015sdksamples)

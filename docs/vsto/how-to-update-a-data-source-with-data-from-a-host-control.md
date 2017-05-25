@@ -91,13 +91,13 @@ manager: "ghogen"
 6.  Close the **Formatting and Advanced Binding** dialog box.  
   
 ## Updating the Database  
- If the in-memory data source is associated with a database, you must update the database with the changes to the data source. For more information about updating a database, see [Saving data back to the database](../Topic/Saving%20data%20back%20to%20the%20database.md) and [How to: Update Data by Using a TableAdapter](../Topic/How%20to:%20Update%20Data%20by%20Using%20a%20TableAdapter.md).  
+ If the in-memory data source is associated with a database, you must update the database with the changes to the data source. For more information about updating a database, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  and [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md) .  
   
 #### To update the database  
   
 1.  Call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method of the <xref:System.Windows.Forms.BindingSource> for the control.  
   
-     The <xref:System.Windows.Forms.BindingSource> is automatically generated when you add a data-bound control to a document or workbook at design time. The <xref:System.Windows.Forms.BindingSource> connects the control to the typed dataset in your project. For more information, see [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md).  
+     The <xref:System.Windows.Forms.BindingSource> is automatically generated when you add a data-bound control to a document or workbook at design time. The <xref:System.Windows.Forms.BindingSource> connects the control to the typed dataset in your project. For more information, see [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview).  
   
      The following code example assumes that your project contains a <xref:System.Windows.Forms.BindingSource> named `customersBindingSource`.  
   
@@ -106,7 +106,7 @@ manager: "ghogen"
   
 2.  Call the `Update` method of the generated TableAdapter in your project.  
   
-     The TableAdapter is automatically generated when you add a data-bound control to a document or workbook at design time. The TableAdapter connects the typed dataset in your project to the database. For more information, see [TableAdapter Overview](/visual-studio/data-tools/tableadapter-overview).  
+     The TableAdapter is automatically generated when you add a data-bound control to a document or workbook at design time. The TableAdapter connects the typed dataset in your project to the database. For more information, see [TableAdapter Overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).  
   
      The following code example assumes that you have a connection to the Customers table in the Northwind database, and that your project contains a TableAdapter named `customersTableAdapter` and a typed dataset named `northwindDataSet`.  
   
@@ -115,8 +115,8 @@ manager: "ghogen"
   
 ## See Also  
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Saving data back to the database](../Topic/Saving%20data%20back%20to%20the%20database.md)   
- [How to: Update Data by Using a TableAdapter](../Topic/How%20to:%20Update%20Data%20by%20Using%20a%20TableAdapter.md)   
+ [Save data back to the database](../data-tools/save-data-back-to-the-database.md)    
+ [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)    
  [How to: Scroll Through Database Records in a Worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)   
  [How to: Populate Worksheets with Data from a Database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
  [How to: Populate Documents with Data from Objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   

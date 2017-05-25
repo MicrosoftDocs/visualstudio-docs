@@ -53,8 +53,11 @@ Saving data is the process of persisting changed data in an application's data m
  The following topics describe the concepts and tasks associated with saving data.  
   
 ## Related Topics  
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
+[Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
  Provides an overview of how changes are made in a dataset and how the dataset tracks information about changes in order to save those changes to a database.  
   
- [Saving Entity Data](../data-tools/saving-entity-data.md)  
- Describes how to save changes in [ADO.NET Entity Framework](http://msdn.microsoft.com/Library/a437041f-6899-4ae7-96ce-aabf528d7205) and [WCF Data Services 4.5](http://msdn.microsoft.com/Library/73d2bec3-7c92-4110-b905-11bb0462357a) applications.
+[How to: Add, Modify, and Delete Entities (WCF Data Services)](http://msdn.microsoft.com/Library/a00f8933-b232-4445-95ba-adc634f055d8)  
+Shows how to create, update, and delete entity data in a data service.  
+  
+[How to: Execute Data Service Queries (WCF Data Services)](http://msdn.microsoft.com/Library/62997821-e0c6-4c4d-9fb7-1273fb5e5d18)  
+Shows how to query a data service from a data service application.  
