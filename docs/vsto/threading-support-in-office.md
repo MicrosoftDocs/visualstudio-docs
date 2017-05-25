@@ -76,7 +76,7 @@ manager: "ghogen"
  [Managed Threading](/dotnet/articles/standard/threading/)  
  [Threading (C#)](/dotnet/articles/csharp/programming-guide/concepts/threading/index) 
  [Threading (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/threading/index)   
- [Using Threads and Threading](../Topic/Using%20Threads%20and%20Threading.md)   
+ [Using Threads and Threading](/dotnet/articles/standard/threading/using-threads-and-threading)   
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)  
   
   
