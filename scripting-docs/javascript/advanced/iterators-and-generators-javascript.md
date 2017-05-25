@@ -36,7 +36,7 @@ An iterator is an object that is used to traverse a container object like a list
   
 -   IteratorResult interface  
   
- By using these interfaces, you can create custom iterators. This allows you to traverse an iterable object using the `for...of` statement.  
+ By using these interfaces, you can create custom iterators. This allows you to traverse an iterable object using the `for…of` statement.  
   
 ### Iterable interface  
  The Iterable interface is the required interface for an iterable object (an object for which an iterator can be obtained). For example, `C` in `for (let e of C)` must implement the Iterable interface.  
@@ -49,7 +49,7 @@ obj[Symbol.iterator] = function() { return iterObj; }
   
  This property must be a function that accepts no arguments and returns an object (`iterObject`) that conforms to the `Iterator` interface.  
   
- Many built-in types, including arrays, are now iterable. The `for...of` loop consumes an iterable object. (However, not all built-in iterables are iterators. For example, an Array object is not an iterator itself, but it is iterable, whereas an ArrayIterator is also iterable.)  
+ Many built-in types, including arrays, are now iterable. The `for…of` loop consumes an iterable object. (However, not all built-in iterables are iterators. For example, an Array object is not an iterator itself, but it is iterable, whereas an ArrayIterator is also iterable.)  
   
 ### Iterator interface  
  The object returned by the Symbol.iterator method must implement the `next` method. The `next` method has the following syntax.  
@@ -130,7 +130,7 @@ console.log(si2.next().value);
 // b  
 ```  
   
- You can also create more advanced generators by passing an argument to `next` and using the argument to modify the state of the generator. `next` becomes the result value of the previously executed `yield` expression. In the following example, when you pass a value of 100 to the `next` method, you reset the generator's internal index value.  
+ You can also create more advanced generators by passing an argument to `next` and using the argument to modify the state of the generator. `next` becomes the result value of the previously executed `yield` expression. In the following example, when you pass a value of 100 to the `next` method, you reset the generator’s internal index value.  
   
 ```  
 function* strIter() {  
@@ -141,14 +141,15 @@ function* strIter() {
         if(modify == 100) {  
             idx = 0;  
         }  
-    }  
+    }
+}
   
 var si3 = strIter();  
   
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next(100).value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next(100).value);  
   
 // Output:  
 // j  
@@ -158,4 +159,4 @@ console.log(si2.next(100).value);
   
 ```  
   
- Other advanced generators may call the generator's `throw` method. The thrown error appears to get thrown at the point where the generator is paused (before the next `yield` statement).
+ Other advanced generators may call the generator’s `throw` method. The thrown error appears to get thrown at the point where the generator is paused (before the next `yield` statement).
