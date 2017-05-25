@@ -54,13 +54,13 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Break when exceptions cross AppDomain or managed/native boundaries**  
  In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when the following conditions are true:  
   
- 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
+ 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/articles/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
   
- 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
+ 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](/dotnet/articles/framework/app-domains/index).  
   
- 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](http://msdn.microsoft.com/Library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775).  
+ 3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](/dotnet/articles/csharp/programming-guide/concepts/reflection).  
   
- In 2) and 3), the exception is sometimes caught by managed code in `mscorlib` instead of the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
+ In condition 2 and 3, the exception is sometimes caught by managed code in `mscorlib` instead of the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
   
  **Enable address-level debugging**  
  Enables advanced features for debugging at the address level (the **Disassembly** window, the **Registers** window, and address breakpoints).  
@@ -96,7 +96,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
      Executes an implicit string conversion call when evaluating objects in variables windows. Therefore, that result is displayed as a string instead of the type name. Only applies while debugging in C# code. This setting may be overridden by the DebuggerDisplay attribute (see [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)).  
   
  **Enable source server support**  
- Tells the Visual Studio debugger to get source files from source servers that implement the SrcSrv (`srcsrv.dll`) protocol. Team Foundation Server and the Debugging Tools for Windows are two source servers that implement the protocol. For more information about SrcSrv setup, see the Debugging Tools for Windows documentation. In addition, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
+ Tells the Visual Studio debugger to get source files from source servers that implement the SrcSrv (`srcsrv.dll`) protocol. Team Foundation Server and the Debugging Tools for Windows are two source servers that implement the protocol. For more information about SrcSrv setup, see the [SrcSrv](hhttps://msdn.microsoft.com/en-us/library/windows/hardware/ff558791(v=vs.85).aspx) documentation. In addition, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
 > [!IMPORTANT]
 >  Because reading .pdb files can execute arbitrary code in the files, make sure that you trust the server.  
@@ -117,7 +117,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  When the debugger highlights a breakpoint or current statement, it highlights the entire line.  
   
  **Require source files to exactly match the original version**  
- Tells the debugger to verify that a source file matches the version of the source code used to build the executable you are debugging. If the version does not match, you'll be prompted to find a matching source. If a matching source is not found, the source code will not be displayed during debugging.  
+ Tells the debugger to verify that a source file matches the version of the source code used to build the executable you are debugging. If the version does not match, you'll be prompted to find a matching source. If a matching source is not found, the source code will not be displayed during debugging. 
   
  **Redirect all Output window text to the Immediate window**  
  Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.  
@@ -129,8 +129,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code").
 
  **Enable JavaScript debugging for ASP.NET (Chrome and IE)**
- Enables the script debugger for ASP.NET apps.     
-  
+ Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser on first use to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.    
  **Load dll exports**  
  Loads dll export tables. Symbol information from dll export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you do not have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.  
   
@@ -191,7 +190,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
      Get warnings about stale code.    
 
  **Show run to click button in editor while debugging**
- When this option is selected, the [Run execution to here](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
+ When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
 ## Options supported in older versions of Visual Studio
 
@@ -212,10 +211,7 @@ If you are using an older version of Visual Studio, some additional options migh
  **Use Native Compatibility Mode**  
  When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.  
   
- You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases. 
-
- **Allow precompiling (Native only)**  
- Precompiling is allowed.
+ You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases.
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
