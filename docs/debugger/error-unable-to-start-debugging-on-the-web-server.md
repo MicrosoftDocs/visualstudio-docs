@@ -84,7 +84,7 @@ After taking steps to resolve an issue detailed here, and before trying again to
 
     Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. Try setting the framework version in web.config.
 
-* Create a basic ASP.NET application on the server.
+* Create a basic ASP.NET application on the server (or use a basic web.config file).
 
     If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server (or you can use the default ASP.NET MVC template), and try to debug the basic app. If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
   
