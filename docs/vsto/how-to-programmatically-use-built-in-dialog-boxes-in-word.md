@@ -51,7 +51,7 @@ manager: "ghogen"
  [Word Object Model Overview](../vsto/word-object-model-overview.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)   
  [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)   
- [Reflection (C#)](/dotnet/articles/csharp/programming-guide/concepts/reflection)  
- [Reflection (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/reflection)  
+ [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)  
+ [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)  
   
   

@@ -151,7 +151,7 @@ manager: "ghogen"
  [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
  [Actions Pane Overview](../vsto/actions-pane-overview.md)   
- [Windows Forms Controls](/dotnet/articles/framework/winforms/controls/index)   
+ [Windows Forms Controls](/dotnet/framework/winforms/controls/index)   
  [Limitations of Windows Forms Controls on Office Documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)   
  [How to: Add Windows Forms Controls to Office Documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [How to: Resize Controls Within Worksheet Cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)   
