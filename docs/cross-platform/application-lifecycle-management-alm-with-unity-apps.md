@@ -71,7 +71,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |-------------|--------------------------|-------------------------|  
 |[Use Team Foundation Version Control](http://msdn.microsoft.com/Library/1d629052-c65d-4c5d-81eb-eaa4413fe285) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|  
 |[Getting started with Git in Team Services](http://msdn.microsoft.com/Library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|Yes|See notes after the table.|  
-|[Code analysis/Improve code quality (references, suggested changes, etc.)](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|Yes||  
+|[Improve Code Quality](/visualstudio/test/improve-code-quality)|Yes||  
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||  
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
@@ -107,7 +107,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|  
   
 ## Improve code quality  
- Reference link: **[Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
+ Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  

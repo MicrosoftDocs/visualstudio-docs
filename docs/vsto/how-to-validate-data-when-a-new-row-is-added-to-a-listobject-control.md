@@ -31,7 +31,7 @@ manager: "ghogen"
  Whenever a row is added to a <xref:Microsoft.Office.Tools.Excel.ListObject> that is bound to data, the <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow> event is raised. You can handle this event to perform your data validation. For example, if your application requires that only employees between the ages of 18 and 65 can be added to the data source, you can verify that the age entered falls within that range before the row is added.  
   
 > [!NOTE]  
->  You should always check user input on the server in addition to the client. For more information, see [Secure Client Applications](../Topic/Secure%20Client%20Applications.md).  
+>  You should always check user input on the server in addition to the client. For more information, see [Secure Client Applications](/dotnet/articles/framework/data/adonet/secure-client-applications).  
   
 #### To validate data when a new row is added to data-bound ListObject  
   

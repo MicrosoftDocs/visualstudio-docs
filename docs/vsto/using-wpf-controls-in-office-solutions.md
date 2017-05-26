@@ -21,7 +21,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Using WPF Controls in Office Solutions
-  Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [Introduction to WPF in Visual Studio 2015](../Topic/Introduction%20to%20WPF%20in%20Visual%20Studio%202015.md).  
+  Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [Introduction to WPF in Visual Studio 2015](/dotnet/articles/framework/wpf/getting-started/introduction-to-wpf-in-vs).  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
@@ -97,21 +97,21 @@ manager: "ghogen"
 ## WPF Resources  
  For more information about architectural and design issues for hosting WPF controls on Windows Forms controls and forms, see the following topics:  
   
--   [Windows Forms and WPF Interoperability Input Architecture](../Topic/Windows%20Forms%20and%20WPF%20Interoperability%20Input%20Architecture.md)  
+-   [Windows Forms and WPF Interoperability Input Architecture](/dotnet/articles/framework/wpf/advanced/windows-forms-and-wpf-interoperability-input-architecture)  
   
--   [Windows Forms and WPF Property Mapping](../Topic/Windows%20Forms%20and%20WPF%20Property%20Mapping.md)  
+-   [Windows Forms and WPF Property Mapping](/dotnet/articles/framework/wpf/advanced/windows-forms-and-wpf-property-mapping)  
   
--   [WPF and Windows Forms Interoperation](../Topic/WPF%20and%20Windows%20Forms%20Interoperation.md)  
+-   [WPF and Windows Forms Interoperation](/dotnet/articles/framework/wpf/advanced/wpf-and-windows-forms-interoperation)  
   
--   [Windows Forms Controls and Equivalent WPF Controls](../Topic/Windows%20Forms%20Controls%20and%20Equivalent%20WPF%20Controls.md)  
+-   [Windows Forms Controls and Equivalent WPF Controls](/dotnet/articles/framework/wpf/advanced/windows-forms-controls-and-equivalent-wpf-controls)  
   
  For more information about adding WPF controls to Windows Forms controls and forms in Visual Studio at design time, see the following topics:  
   
--   [Walkthrough: Creating New WPF Content on Windows Forms at Design Time](../Topic/Walkthrough:%20Creating%20New%20WPF%20Content%20on%20Windows%20Forms%20at%20Design%20Time.md)  
+-   [Walkthrough: Creating New WPF Content on Windows Forms at Design Time](/dotnet/articles/framework/winforms/advanced/walkthrough-creating-new-wpf-content-on-windows-forms-at-design-time)  
   
--   [Walkthrough: Arranging WPF Content on Windows Forms at Design Time](../Topic/Walkthrough:%20Arranging%20WPF%20Content%20on%20Windows%20Forms%20at%20Design%20Time.md)  
+-   [Walkthrough: Arranging WPF Content on Windows Forms at Design Time](/dotnet/articles/framework/winforms/advanced/walkthrough-arranging-wpf-content-on-windows-forms-at-design-time)  
   
--   [Walkthrough: Styling WPF Content](../Topic/Walkthrough:%20Styling%20WPF%20Content.md)  
+-   [Walkthrough: Styling WPF Content](/dotnet/articles/framework/winforms/advanced/walkthrough-styling-wpf-content)  
   
 ## See Also  
  [Office UI Customization](../vsto/office-ui-customization.md)   

@@ -278,9 +278,9 @@ manager: "ghogen"
  If you install Microsoft Monitoring Agent on the system that's running SharePoint, you can debug SharePoint solutions by using data that's more specific than the generic information that IntelliTrace returns. The agent works outside of Visual Studio by using PowerShell cmdlets to capture debug information while your SharePoint solution runs.  
   
 > [!NOTE]  
->  The configuration information in this section is specific to this example. For more information about other configuration options, see [Using the IntelliTrace stand-alone collector](/visual-studio/debugger/using-the-intellitrace-stand-alone-collector).  
+>  The configuration information in this section is specific to this example. For more information about other configuration options, see [Using the IntelliTrace stand-alone collector](/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).  
   
-1.  On the computer that's running SharePoint, [set up Microsoft Monitoring Agent and start to monitor your solution](/visual-studio/debugger/using-the-intellitrace-stand-alone-collector).  
+1.  On the computer that's running SharePoint, [set up Microsoft Monitoring Agent and start to monitor your solution](/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).  
   
 2.  Deactivate the feature:  
   
@@ -333,7 +333,7 @@ manager: "ghogen"
   
 ## See Also  
  [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md)   
- [IntelliTrace](/visual-studio/debugger/intellitrace)   
+ [IntelliTrace](/visualstudio/debugger/intellitrace)   
  [NIB: Walkthrough: Verify SharePoint Code by Using Unit Tests](http://msdn.microsoft.com/en-us/3d2c4aaf-3cb5-4825-b21b-f10222abe818)  
   
   

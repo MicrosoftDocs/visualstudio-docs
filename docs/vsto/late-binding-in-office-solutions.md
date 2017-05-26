@@ -66,8 +66,9 @@ manager: "ghogen"
  [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)   
  [Using Type dynamic &#40;C&#35; Programming Guide&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)   
- [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)   
- [Reflection &#40;C&#35; and Visual Basic&#41;](../Topic/Reflection%20(C%23%20and%20Visual%20Basic).md)   
+ [Option Strict Statement](/dotnet/articles/visual-basic/language-reference/statements/option-strict-statement)   
+ [Reflection (C#)](/dotnet/articles/csharp/programming-guide/concepts/reflection)  
+ [Reflection (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/reflection)  
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)  
   
   

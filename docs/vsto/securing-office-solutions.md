@@ -110,7 +110,7 @@ manager: "ghogen"
  [Troubleshooting Office Solution Security](../vsto/troubleshooting-office-solution-security.md)   
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Reference](/visual-studio/deployment/clickonce-reference)   
+ [ClickOnce Reference](/visualstudio/deployment/clickonce-reference)   
  [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
   
   
