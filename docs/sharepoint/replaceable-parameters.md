@@ -26,7 +26,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Replaceable Parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visual-studio/ide/template-parameters).  
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
   
 ## Token Format  
  Tokens begin and end with a dollar sign ($) character. Any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (.wsp) file at deployment time. For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package."  

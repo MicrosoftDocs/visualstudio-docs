@@ -21,18 +21,18 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Application Manifests for Office Solutions
-  An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest schema defined in the [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest) reference.  
+  An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest schema defined in the [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest) reference.  
   
  Application manifests for Office solutions use the following [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] elements and attributes.  
   
 |Element|Description|Attributes|  
 |-------------|-----------------|----------------|  
-|[&#60;assembly&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3Cassembly%3E%20Element%20(ClickOnce%20Application).md)|Required. Top-level element.|`manifestVersion`|  
-|[&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3CassemblyIdentity%3E%20Element%20(ClickOnce%20Application).md)|Required. Identifies the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application's primary assembly.|`name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `language`|  
-|[&#60;trustInfo&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3CtrustInfo%3E%20Element%20(ClickOnce%20Application).md)|Identifies the application security requirements.|None|  
-|[&#60;entryPoint&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3CentryPoint%3E%20Element%20(ClickOnce%20Application).md)|Required. Identifies the application code entry point for execution.|`name`<br /><br /> `dependencyName`<br /><br /> `customHostSpecified`|  
-|[&#60;dependency&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3Cdependency%3E%20Element%20(ClickOnce%20Application).md)|Required. Identifies each dependency required for the application to run. Optionally identifies assemblies that need to be preinstalled.|None|  
-|[&#60;file&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3Cfile%3E%20Element%20(ClickOnce%20Application).md)|Required. Identifies each non-assembly file that is used by the application. Can include Component Object Model (COM) isolation data associated with the file.|`name`<br /><br /> `size`|  
+|[&#60;assembly&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/assembly-element-clickonce-deployment)|Required. Top-level element.|`manifestVersion`|  
+|[&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/assemblyidentity-element-clickonce-deployment)|Required. Identifies the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application's primary assembly.|`name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `language`|  
+|[&#60;trustInfo&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/trustinfo-element-clickonce-application)|Identifies the application security requirements.|None|  
+|[&#60;entryPoint&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/entrypoint-element-clickonce-application)|Required. Identifies the application code entry point for execution.|`name`<br /><br /> `dependencyName`<br /><br /> `customHostSpecified`|  
+|[&#60;dependency&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/dependency-element-clickonce-deployment)|Required. Identifies each dependency required for the application to run. Optionally identifies assemblies that need to be preinstalled.|None|  
+|[&#60;file&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/file-element-clickonce-application)|Required. Identifies each non-assembly file that is used by the application. Can include Component Object Model (COM) isolation data associated with the file.|`name`<br /><br /> `size`|  
   
  Application manifests for Office solutions have the following element in the `co.v1` namespace.  
   
@@ -91,7 +91,7 @@ manager: "ghogen"
 |[&#60;vstoRuntime&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/vstoruntime-element-office-development-in-visual-studio.md)|Required. Describes a specific version of the Visual Studio Tools for Office runtime that is supported by the Office solution.|`release`<br /><br /> `version`<br /><br /> `supportUrl`|  
   
 ## Remarks  
- You can manually edit application and deployment manifests in Office solutions. Afterwards, you must re-sign the application and deployment manifests by using the Manifest Generation and Editing Tool (mage.exe and mageui.exe). For more information, see [How to: Re-sign Application and Deployment Manifests](../Topic/How%20to:%20Re-sign%20Application%20and%20Deployment%20Manifests.md).  
+ You can manually edit application and deployment manifests in Office solutions. Afterwards, you must re-sign the application and deployment manifests by using the Manifest Generation and Editing Tool (mage.exe and mageui.exe). For more information, see [How to: Re-sign Application and Deployment Manifests](/visualstudio/deployment/how-to-re-sign-application-and-deployment-manifests).  
   
 ## File Location  
  An application manifest is specific to a single version of a solution. For this reason, application manifests should be stored separately from deployment manifests. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] places the version-specific files in a subdirectory named after the associated version in the **Application Files** subdirectory in the publish folder.  
@@ -103,6 +103,6 @@ manager: "ghogen"
   
 ## See Also  
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

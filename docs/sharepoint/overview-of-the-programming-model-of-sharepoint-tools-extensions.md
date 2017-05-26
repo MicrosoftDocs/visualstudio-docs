@@ -26,7 +26,7 @@ manager: "ghogen"
   When you create an extension for the SharePoint tools in Visual Studio, you begin by implementing one or more extensibility interfaces that are exposed by the SharePoint tools. In most cases, you will also use other types provided by the SharePoint tools to implement features in your extension. In some scenarios you might also use types in other object models provided by Visual Studio and SharePoint. You must understand the purpose of each of these object models and know how to use them with each other to create extensions for the SharePoint tools.  
   
 ## Extending the SharePoint Tools by Implementing Extensibility Interfaces  
- Visual Studio uses the Managed Extensibility Framework (MEF) in the .NET Framework 4 to provide the extensibility model for the SharePoint tools. MEF is an API (implemented in the System.ComponentModel.Composition assembly) that enables applications to expose extensibility points and to discover and load extensions at run time. For more information about MEF, see [Managed Extensibility Framework &#40;MEF&#41;](../Topic/Managed%20Extensibility%20Framework%20(MEF).md).  
+ Visual Studio uses the Managed Extensibility Framework (MEF) in the .NET Framework 4 to provide the extensibility model for the SharePoint tools. MEF is an API (implemented in the System.ComponentModel.Composition assembly) that enables applications to expose extensibility points and to discover and load extensions at run time. For more information about MEF, see [Managed Extensibility Framework &#40;MEF&#41;](/dotnet/articles/framework/mef/index).  
   
  To extend the SharePoint tools, implement one or more extensibility interfaces that are exposed by Visual Studio. You must also apply the <xref:System.ComponentModel.Composition.ExportAttribute>, and additional SharePoint tools-specific attributes as necessary, to your interface implementation. The following table lists the interfaces you can implement to extend the SharePoint tools.  
   
@@ -72,9 +72,9 @@ manager: "ghogen"
 ### Visual Studio Automation Object Model  
  The Visual Studio automation object model provides APIs that you can use to automate Visual Studio projects and the IDE. Use the Visual Studio object model to perform project-related tasks that are not specific to SharePoint projects, or to perform other general automation tasks in Visual Studio. Traditionally, this object model is often used in Visual Studio add-ins and macros, but you can also use it in SharePoint tools extensions.  
   
- The main part of the Visual Studio automation object model is defined in the EnvDTE.dll assembly. The EnvDTE80.dll, EnvDTE90.dll, EnvDTE100.dll, and EnvDTE110.dll assemblies provide additional functionality that was introduced in Visual Studio 2005, Visual Studio 2008, Visual Studio 2010, and [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], respectively. These assemblies are included with Visual Studio.  
+ The main part of the Visual Studio automation object model is defined in the EnvDTE.dll assembly. The EnvDTE*version*.dll assemblies provide additional functionality that was introduced in specific versions of Visual Studio. These assemblies are included with Visual Studio.  
   
- For more information about the automation object model, see [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md) and [Automation and Extensibility Reference](../Topic/Automation%20and%20Extensibility%20Reference.md).  
+ For more information about the automation object model, see [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).  
   
 ### Visual Studio Integration Object Model  
  The integration object model provides APIs that you can use to add features to Visual Studio by creating a *VSPackage*. A VSPackage is a module that extends the Visual Studio IDE by providing custom features such as tool windows, editors, designers, services, and projects.  
@@ -83,7 +83,7 @@ manager: "ghogen"
   
  This object model is defined in a set of assemblies that are included with the Visual Studio SDK. Some of the main assemblies in this object model include Microsoft.VisualStudio.Shell.11.0.dll, Microsoft.VisualStudio.Shell.Interop.dll, and Microsoft.VisualStudio.OLE.Interop.dll.  
   
- For more information about the integration object model, see [Visual Studio Extensibility Architecture](/cpp/misc/visual-studio-extensibility-architecture) and [Visual Studio SDK Reference](/visual-studio/extensibility/visual-studio-sdk-reference).  
+ For more information about the integration object model, see [Automation Model Overview](/visualstudio/extensibility/internals/automation-model-overview) and [Visual Studio SDK Reference](/visualstudio/extensibility/visual-studio-sdk-reference).  
   
 ### SharePoint Object Models  
  SharePoint tools extensions can use SharePoint APIs to modify a SharePoint site or to retrieve data from a SharePoint site. [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] provide two different object models: a server object model and a client object model.  
