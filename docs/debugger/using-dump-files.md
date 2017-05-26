@@ -1,6 +1,6 @@
 ---
-title: "Using Dump Files | Microsoft Docs"
-ms.custom: ""
+title: "Use Dump Files | Microsoft Docs"
+ms.custom: "H1HackMay2017"
 ms.date: "03/08/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Use Dump Files
+# Use Dump Files with Visual Studio
 Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdbs, and source file for a dump file.  
   
 ##  <a name="BKMK_Contents"></a> Contents  
