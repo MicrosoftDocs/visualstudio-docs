@@ -107,7 +107,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 1.  Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219).  
+     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).  
   
     > [!NOTE]
     >  The remaining steps make the following assumptions about your solution:  
@@ -176,4 +176,4 @@ Visual styles enable the appearance of common controls to change based on the th
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
  [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
  [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
- [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219)
+ [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)

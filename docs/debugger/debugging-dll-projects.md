@@ -46,7 +46,7 @@ The following Visual Studio templates create DLLs:
   
 -   (C++, C#, and Visual Basic): Windows Forms Control Library
   
-     Debugging a Windows Forms Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
+     Debugging a Windows Forms Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).  
 
 -   (C++): Win32 Console DLL project
   

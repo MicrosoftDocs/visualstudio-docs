@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GenerateResource Task
-Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](http://msdn.microsoft.com/Library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4).  
+Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator).  
   
 ## Parameters  
  The following table describes the parameters of the `GenerateResource` task.  
