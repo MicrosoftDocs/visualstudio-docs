@@ -205,7 +205,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
   
  "Customization could not be loaded because the application domain could not be created."  
   
- Visual Studio uses Fusion, the .NET Framework assembly loader, to cache the assemblies before loading Office solutions. Ensure that Visual Studio can write to the Fusion cache, and try again. For more information, see [Shadow Copying Assemblies](/dotnet/articles/framework/app-domains/shadow-copy-assemblies).  
+ Visual Studio uses Fusion, the .NET Framework assembly loader, to cache the assemblies before loading Office solutions. Ensure that Visual Studio can write to the Fusion cache, and try again. For more information, see [Shadow Copying Assemblies](/dotnet/framework/app-domains/shadow-copy-assemblies).  
   
 ### Error When Stopping the Debugger in a Document-Level Project After Using Edit and Continue  
  If you use Edit and Continue to make changes to code in a document-level project for Excel or Word while the project is in break mode, you might see a dialog box with the following error message if you subsequently stop the debugger.  

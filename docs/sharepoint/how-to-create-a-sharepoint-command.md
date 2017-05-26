@@ -52,7 +52,7 @@ manager: "ghogen"
   
     -   It can have a return value, but this is optional.  
   
-    -   The second parameter and return value must be a type that can be serialized by the Windows Communication Foundation (WCF). For more information, see [Types Supported by the Data Contract Serializer](/dotnet/articles/framework/wcf/feature-details/types-supported-by-the-data-contract-serializer) and [Using the XmlSerializer Class](/dotnet/articles/framework/wcf/feature-details/using-the-xmlserializer-class).  
+    -   The second parameter and return value must be a type that can be serialized by the Windows Communication Foundation (WCF). For more information, see [Types Supported by the Data Contract Serializer](/dotnet/framework/wcf/feature-details/types-supported-by-the-data-contract-serializer) and [Using the XmlSerializer Class](/dotnet/framework/wcf/feature-details/using-the-xmlserializer-class).  
   
     -   The method can have any visibility (**public**, **internal**, or **private**), and it can be static or non-static.  
   

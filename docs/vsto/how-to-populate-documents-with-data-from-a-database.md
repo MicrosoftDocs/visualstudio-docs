@@ -51,7 +51,7 @@ manager: "ghogen"
   
 -   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
--   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview).  
+-   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).  
   
 -   A TableAdapter that connects the typed dataset to the database. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
@@ -73,6 +73,6 @@ manager: "ghogen"
  [How to: Update a Data Source with Data from a Host Control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
  [Using Local Database Files in Office Solutions Overview](../vsto/using-local-database-files-in-office-solutions-overview.md)   
  [Connecting to Data in Windows Forms Applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview)  
+ [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)  
   
   

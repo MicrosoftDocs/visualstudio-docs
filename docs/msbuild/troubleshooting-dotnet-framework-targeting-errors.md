@@ -68,6 +68,6 @@ This topic describes MSBuild errors that might occur because of reference issues
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](/dotnet/articles/framework/deployment/client-profile)   
+ [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

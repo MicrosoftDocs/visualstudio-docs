@@ -42,7 +42,7 @@ manager: "ghogen"
   
  The assembly communicates with the application's COM components through the primary interop assembly of the application. For more information, see [Office Primary Interop Assemblies](../vsto/office-primary-interop-assemblies.md) and [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
- If multiple VSTO Add-ins are installed for an application, each VSTO Add-in is loaded in a different application domain. This means that one VSTO Add-in that behaves incorrectly cannot cause other VSTO Add-ins to fail. It also helps to ensure that when the application is closed, all the VSTO Add-in assemblies are unloaded from memory. For more information about application domains, see [Application Domains](/dotnet/articles/framework/app-domains/application-domains).  
+ If multiple VSTO Add-ins are installed for an application, each VSTO Add-in is loaded in a different application domain. This means that one VSTO Add-in that behaves incorrectly cannot cause other VSTO Add-ins to fail. It also helps to ensure that when the application is closed, all the VSTO Add-in assemblies are unloaded from memory. For more information about application domains, see [Application Domains](/dotnet/framework/app-domains/application-domains).  
   
 > [!NOTE]  
 >  VSTO Add-ins that you create by using the Office developer tools in Visual Studio are designed to be used only when the host Microsoft Office application is started by an end user. If the application is started programmatically (for example, by using Automation), the VSTO Add-in might not work as expected.  

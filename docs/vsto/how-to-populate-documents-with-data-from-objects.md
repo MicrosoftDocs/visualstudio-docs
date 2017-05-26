@@ -75,6 +75,6 @@ manager: "ghogen"
  [How to: Populate Documents with Data from a Database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Update a Data Source with Data from a Host Control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
  [Connecting to Data in Windows Forms Applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview)  
+ [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)  
   
   

@@ -290,7 +290,7 @@ manager: "ghogen"
 ## See Also  
  [Accessing the Ribbon at Run Time](../vsto/accessing-the-ribbon-at-run-time.md)   
  [Ribbon Overview](../vsto/ribbon-overview.md)   
- [Language-Integrated Query (LINQ)](/dotnet/articles/csharp/linq/index)   
+ [Language-Integrated Query (LINQ)](/dotnet/csharp/linq/index)   
  [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)   
  [Walkthrough: Creating a Custom Tab by Using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   

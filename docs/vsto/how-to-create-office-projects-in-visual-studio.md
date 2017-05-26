@@ -43,7 +43,7 @@ manager: "ghogen"
      The **New Project** dialog box appears.  
   
     > [!NOTE]  
-    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](/dotnet/articles/framework/deployment/client-profile).  
+    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
   
 2.  In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.  
   
@@ -94,7 +94,7 @@ manager: "ghogen"
      The **New Project** dialog box appears.  
   
     > [!NOTE]  
-    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default.  For more information, see [.NET Framework Client Profile](/dotnet/articles/framework/deployment/client-profile).  
+    >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default.  For more information, see [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile).  
   
 2.  In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.  
   
