@@ -59,7 +59,7 @@ manager: "ghogen"
 ## Accessibility at Run Time  
   
 ### Windows Forms Controls on Office Documents  
- Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Providing Accessibility Information for Controls on a Windows Form](/dotnet/articles/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).  
+ Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Providing Accessibility Information for Controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).  
   
  However, there are some accessibility limitations at run time when Windows Forms controls are hosted on an Excel workbook or Word document:  
   

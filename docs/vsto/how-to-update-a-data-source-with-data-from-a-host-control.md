@@ -97,7 +97,7 @@ manager: "ghogen"
   
 1.  Call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method of the <xref:System.Windows.Forms.BindingSource> for the control.  
   
-     The <xref:System.Windows.Forms.BindingSource> is automatically generated when you add a data-bound control to a document or workbook at design time. The <xref:System.Windows.Forms.BindingSource> connects the control to the typed dataset in your project. For more information, see [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview).  
+     The <xref:System.Windows.Forms.BindingSource> is automatically generated when you add a data-bound control to a document or workbook at design time. The <xref:System.Windows.Forms.BindingSource> connects the control to the typed dataset in your project. For more information, see [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).  
   
      The following code example assumes that your project contains a <xref:System.Windows.Forms.BindingSource> named `customersBindingSource`.  
   

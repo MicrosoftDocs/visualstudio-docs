@@ -41,7 +41,7 @@ manager: "ghogen"
   
 -   Marshaling  
   
- For general information about multithreading, see [Managed Threading](/dotnet/articles/standard/threading/).  
+ For general information about multithreading, see [Managed Threading](/dotnet/standard/threading/).  
   
  Office runs in the main STA. Understanding the implications of this makes it possible to understand how to use multiple threads with Office.  
   
@@ -67,16 +67,16 @@ manager: "ghogen"
  [!code-cs[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
  [!code-vb[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb#5)]  
   
- For more information, see [Managed Threading Best Practices](/dotnet/articles/standard/threading/managed-threading-best-practices).  
+ For more information, see [Managed Threading Best Practices](/dotnet/standard/threading/managed-threading-best-practices).  
   
 ## Modeless Forms  
  A modeless form allows some type of interaction with the application while the form is displayed. The user interacts with the form, and the form interacts with the application without closing. The Office object model supports managed modeless forms; however, they should not be used on a background thread.  
   
 ## See Also  
- [Managed Threading](/dotnet/articles/standard/threading/)  
- [Threading (C#)](/dotnet/articles/csharp/programming-guide/concepts/threading/index) 
- [Threading (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/threading/index)   
- [Using Threads and Threading](/dotnet/articles/standard/threading/using-threads-and-threading)   
+ [Managed Threading](/dotnet/standard/threading/)  
+ [Threading (C#)](/dotnet/csharp/programming-guide/concepts/threading/index) 
+ [Threading (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)   
+ [Using Threads and Threading](/dotnet/standard/threading/using-threads-and-threading)   
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)  
   
   

@@ -134,7 +134,7 @@ manager: "ghogen"
   
  To handle events in a Visual Basic project, select an event from the method name list at the top of the Code Editor.  
   
- To handle events in a C# project, subscribe to control events in the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> method. For more information, see [How to: Subscribe to and Unsubscribe from Events &#40;C&#35; Programming Guide&#41;](/dotnet/articles/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events).  
+ To handle events in a C# project, subscribe to control events in the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> method. For more information, see [How to: Subscribe to and Unsubscribe from Events &#40;C&#35; Programming Guide&#41;](/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events).  
   
  You can change form region properties in the `InitializeManifest` method of the form region factory class.  
   

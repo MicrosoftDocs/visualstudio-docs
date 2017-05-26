@@ -33,7 +33,7 @@ manager: "ghogen"
   
  Host controls extend objects that are in the Word and Excel object models, such as content controls in Word and named ranges in Excel. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  
   
- Both Windows Forms and host controls use the Windows Forms data binding model, which supports both *simple data binding* and *complex data binding* to data sources such as datasets and data tables. For complete information about the data binding model in Windows Forms, see [Data Binding and Windows Forms](/dotnet/articles/framework/winforms/data-binding-and-windows-forms).  
+ Both Windows Forms and host controls use the Windows Forms data binding model, which supports both *simple data binding* and *complex data binding* to data sources such as datasets and data tables. For complete information about the data binding model in Windows Forms, see [Data Binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).  
   
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Consume Database Data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).  
   
@@ -52,7 +52,7 @@ manager: "ghogen"
 ## Complex Data Binding  
  Complex data binding exists when a control property is bound to more than one data element, such as multiple columns in a data table. The <xref:Microsoft.Office.Tools.Excel.ListObject> control for Excel is the only host control that supports complex data binding. There are also many Windows Forms controls that support complex data binding, such as the <xref:System.Windows.Forms.DataGridView> control.  
   
- To perform complex data binding, set the DataSource property of the control to a data source object that is supported by complex data binding. For example, the <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> property of the <xref:Microsoft.Office.Tools.Excel.ListObject> control can be bound to multiple columns in a data table. All of the data in the data table appears in the <xref:Microsoft.Office.Tools.Excel.ListObject> control, and as the data in the data table changes, the <xref:Microsoft.Office.Tools.Excel.ListObject> also changes. For a list of the data sources that you can use for complex data binding, see [Data Sources Supported by Windows Forms](/dotnet/articles/framework/winforms/data-sources-supported-by-windows-forms).  
+ To perform complex data binding, set the DataSource property of the control to a data source object that is supported by complex data binding. For example, the <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> property of the <xref:Microsoft.Office.Tools.Excel.ListObject> control can be bound to multiple columns in a data table. All of the data in the data table appears in the <xref:Microsoft.Office.Tools.Excel.ListObject> control, and as the data in the data table changes, the <xref:Microsoft.Office.Tools.Excel.ListObject> also changes. For a list of the data sources that you can use for complex data binding, see [Data Sources Supported by Windows Forms](/dotnet/framework/winforms/data-sources-supported-by-windows-forms).  
   
  The following code example creates a <xref:System.Data.DataSet> with two <xref:System.Data.DataTable> objects and populates one of the tables with data. The code then binds the <xref:Microsoft.Office.Tools.Excel.ListObject> to the table that contains data. This example is for an Excel document-level project.  
   
@@ -102,8 +102,8 @@ manager: "ghogen"
   
 ## See Also  
  [How Do I: Consume Database Data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287)   
- [Data Binding and Windows Forms](/dotnet/articles/framework/winforms/data-binding-and-windows-forms)   
- [How to: Create a Simple-Bound Control on a Windows Form](/dotnet/articles/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)   
+ [Data Binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)   
+ [How to: Create a Simple-Bound Control on a Windows Form](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)    
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)    
