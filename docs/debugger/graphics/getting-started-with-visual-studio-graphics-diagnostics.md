@@ -53,7 +53,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 #### To install Graphics Tools for Windows 10  
   
-1.  On the **Start** menu, choose **Settings**. The **Settings** dialog appears.  
+1.  Right-click the **Start** menu, choose **Settings**. The **Settings** dialog appears.  
   
 2.  In the **Settings** dialog, choose **System**, then select **Installed apps** from the list of system settings.  
   

@@ -41,7 +41,7 @@ translation.priority.ht:
 In Visual Studio you can use the **File/Advanced Save Options** settings to determine the type of line break characters you want. You can also change the encoding of a file with the same settings.  
   
 > [!NOTE]
->  If you have certain types of development settings (Visual Basic, F#, Web Development) you may not see **Advanced Save Options** on the menu. To change your settings (for example to General), open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  If you have certain types of development settings (Visual Basic, F#, Web Development) you may not see **Advanced Save Options** on the menu. To change your settings (for example to General), open **Tools / Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
  In Visual Studio the following characters are interpreted as line breaks:  
   

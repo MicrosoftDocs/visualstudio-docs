@@ -97,7 +97,7 @@ manager: "ghogen"
  You can also write code to respond to the events of any object, including host control, application, or document events. For more information see [Walkthrough: Programming Against Events of a NamedRange Control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).  
   
 ## Binding Data to Controls on the Actions Pane  
- The controls on the actions pane have the same data binding capabilities as controls on Windows Forms. You can bind the controls to data sources such as data sets, typed data sets, and XML. For more information, see [Data Binding and Windows Forms](../Topic/Data%20Binding%20and%20Windows%20Forms.md).  
+ The controls on the actions pane have the same data binding capabilities as controls on Windows Forms. You can bind the controls to data sources such as data sets, typed data sets, and XML. For more information, see [Data Binding and Windows Forms](/dotnet/articles/framework/winforms/data-binding-and-windows-forms).  
   
  You can bind controls on the actions pane and controls on the document to the same dataset. For example, you can create a master/detail relation between the controls on the actions pane and the controls on the worksheet. For more information, see [Walkthrough: Binding Data to Controls on an Excel Actions Pane](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md).  
   

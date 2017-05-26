@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Import and Export Settings, Environment, Options Dialog Box
-Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
 ## See Also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

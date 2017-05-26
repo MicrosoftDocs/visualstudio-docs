@@ -43,12 +43,6 @@ translation.priority.mt:
  [Adding a Command to the Solution Explorer Toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)  
  Details the steps that you must follow to add a button to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Solution Explorer** toolbar.  
   
- [Adding Web Services to Project Systems](../../misc/adding-web-services-to-project-systems.md)  
- Shows how to integrate Web services into your VSPackage project system.  
-  
- [Renaming Project Hierarchy Nodes (C++)](../../misc/renaming-project-hierarchy-nodes-cpp.md)  
- Shows how to rename a project folder hierarchy node.  
-  
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)  
  Discusses how you can add templates to your project types so that users can create new projects and project items according to a pattern.  
   

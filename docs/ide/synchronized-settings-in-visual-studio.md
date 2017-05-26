@@ -36,7 +36,7 @@ When you sign in to Visual Studio on multiple computers using the same personali
 ## Synchronized settings  
  By default, the following settings are synchronized.  
 
--   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).)  
+-   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).)  
 
 -   The following options in the **Tools &#124; Options** pages:  
 

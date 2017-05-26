@@ -221,7 +221,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
  When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName*.vsix in the \bin\debug\ folder of your project. You can deploy the control by uploading the .vsix file to a network or to a Web site. When a user opens the .vsix file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can find it by browsing in the **Tools / Extension and Updates** dialog.  
   
 ## See Also  
- [Extending the Toolbox](../misc/extending-the-toolbox.md)   
+ [Extending other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Windows Forms Control Development Basics](http://msdn.microsoft.com/Library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)
