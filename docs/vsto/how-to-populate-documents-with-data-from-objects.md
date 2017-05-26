@@ -38,7 +38,7 @@ manager: "ghogen"
   
 #### To add a data object  
   
--   Open the **Data Sources** window and create a data source from an object. For more information, see [How to: Connect to Data in Objects](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md).  
+-   Open the **Data Sources** window and create a data source from an object. For more information, see [Add new data sources](/visualstudio/data-tools/add-new-data-sources).  
   
 ## Connecting the Data Object to the BindingSource  
  In document-level projects, you add controls to your document and bind them to data at design time.  
@@ -69,12 +69,12 @@ manager: "ghogen"
   
 ## See Also  
  
- [Add new data sources](/visual-studio/data-tools/add-new-data-sources)   
- [Bind Windows Forms controls to data in Visual Stduio](/visual-studio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio)
+ [Add new data sources](/visualstudio/data-tools/add-new-data-sources)   
+ [Bind Windows Forms controls to data in Visual Stduio](/visualstudio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio)
  
  [How to: Populate Documents with Data from a Database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Update a Data Source with Data from a Host Control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
- [Connecting to Data in Windows Forms Applications](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)   
+ [Connecting to Data in Windows Forms Applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)   
  [BindingSource Component Overview](/dotnet/articles/framework/winforms/controls/bindingsource-component-overview)  
   
   

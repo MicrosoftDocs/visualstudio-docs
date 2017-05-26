@@ -70,9 +70,9 @@ manager: "ghogen"
   
  To enable access to a control from outside the form region code file, create a property in the form region code file to return that control.  
   
- For more information about how to create properties in C#, see [How to: Declare and Use Read Write Properties &#40;C&#35; Programming Guide&#41;](../Topic/How%20to:%20Declare%20and%20Use%20Read%20Write%20Properties%20(C%23%20Programming%20Guide).md).  
+ For more information about how to create properties in C#, see [How to: Declare and Use Read Write Properties &#40;C&#35; Programming Guide&#41;](/dotnet/articles/csharp/programming-guide/classes-and-structs/how-to-declare-and-use-read-write-properties).  
   
- For more information about how to create properties in Visual Basic, see [NOT IN BUILD: How to: Add Fields and Properties to a Class](http://msdn.microsoft.com/en-us/ae53f61b-3abc-413e-8931-703c5f5e8fc2).  
+ For more information about how to create properties in Visual Basic, see [How to: Create a Property (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/language-features/procedures/how-to-create-a-property).  
   
 ## See Also  
  [Guidelines for Creating Outlook Form Regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   

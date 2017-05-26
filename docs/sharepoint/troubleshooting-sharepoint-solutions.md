@@ -281,6 +281,6 @@ manager: "ghogen"
 ## See Also  
  [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)   
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
- [Debugging in Visual Studio](/visual-studio/debugger/debugging-in-visual-studio)  
+ [Debugging in Visual Studio](/visualstudio/debugger/debugging-in-visual-studio)  
   
   

@@ -96,7 +96,7 @@ manager: "ghogen"
     |**Download prerequisites from the same location as my application**|The prerequisite software is installed with the solution. If you choose this option, Visual Studio copies all of the prerequisite packages to the publish location for you. For this option to work, the prerequisite packages must be on the development computer.|  
     |**Download prerequisites from the following location**|Visual Studio copies all of the prerequisite packages to the location that you specify and installs them with the solution.|  
   
-     See [Prerequisites Dialog Box](/visual-studio/ide/reference/prerequisites-dialog-box).  
+     See [Prerequisites Dialog Box](/visualstudio/ide/reference/prerequisites-dialog-box).  
   
 11. Choose the **Updates** button, specify how often you want each end user's VSTO Add-in or customization to check for updates, and then choose the **OK** button.  
   
@@ -459,7 +459,7 @@ manager: "ghogen"
      The next time that a user opens the application or customized document, the deployment manifest change is detected. The earlier version of the Office solution runs from the ClickOnce cache.  
   
 > [!NOTE]  
->  Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Accessing Local and Remote Data in ClickOnce Applications](/visual-studio/deployment/accessing-local-and-remote-data-in-clickonce-applications).  
+>  Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Accessing Local and Remote Data in ClickOnce Applications](/visualstudio/deployment/accessing-local-and-remote-data-in-clickonce-applications).  
   
 ## See Also  
  [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)   
