@@ -43,7 +43,7 @@ manager: "ghogen"
  [How to: Programmatically Use Built-In Dialog Boxes in Word](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)   
  [Word Object Model Overview](../vsto/word-object-model-overview.md)   
  [Late Binding in Office Solutions](../vsto/late-binding-in-office-solutions.md)   
- [Reflection (C#)](/dotnet/articles/csharp/programming-guide/concepts/reflection)  
- [Reflection (Visual Basic)](/dotnet/articles/visual-basic/programming-guide/concepts/reflection)  
+ [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)  
+ [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)  
   
   
