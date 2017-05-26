@@ -58,7 +58,7 @@ manager: "ghogen"
   
 -   Display custom UI in the Reading Pane and in Inspectors.  
   
- For more information, see [Customizing Form Pages and Form Regions](HV10038632).  
+ For more information, see [Customizing Form Pages and Form Regions](http://msdn.microsoft.com/library/office/ff869060.aspx).  
   
 ##  <a name="Adding"></a> Adding an Outlook Form Region to Your Project  
  You can use the **New Outlook Form Region** wizard to design a new form region or import a form region that was designed in Outlook. Also, if you have a form region that you used in another Outlook VSTO Add-in project, you can reuse your existing form region.  
