@@ -1,14 +1,6 @@
 ### YamlMime:XRefMap
-sorted: true
 hrefUpdated: true
 references:
-- uid: Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke(System.Threading.CancellationToken)
-  commentId: M:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke(System.Threading.CancellationToken)
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.language.intellisense.isuggestedaction.invoke.aspx
-  name: Invoke(CancellationToken)
-  name.vb: Invoke(CancellationToken)
-  fullName: ISuggestedAction.Invoke(CancellationToken)
-  fullName.vb: ISuggestedAction.Invoke(CancellationToken)
 - uid: Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke*
   commentId: M:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke(System.Threading.CancellationToken)
   href: https://msdn.microsoft.com/library/microsoft.visualstudio.language.intellisense.isuggestedaction.invoke.aspx
@@ -16,13 +8,6 @@ references:
   name.vb: Invoke
   fullName: ISuggestedAction.Invoke
   fullName.vb: ISuggestedAction.Invoke
-- uid: Microsoft.VisualStudio.Shell.OleMenuCommand.Text
-  commentId: P:Microsoft.VisualStudio.Shell.OleMenuCommand.Text
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.olemenucommand.text.aspx
-  name: Text
-  name.vb: Text
-  fullName: OleMenuCommand.Text
-  fullName.vb: OleMenuCommand.Text
 - uid: Microsoft.VisualStudio.Shell.OleMenuCommand.Text*
   commentId: P:Microsoft.VisualStudio.Shell.OleMenuCommand.Text
   href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.olemenucommand.text.aspx
@@ -37,7 +22,7 @@ references:
   name.vb: vsFontCharSet
   fullName: EnvDTE.vsFontCharSet
   fullName.vb: EnvDTE.vsFontCharSet
-- uid: System.Activator.CreateInstance
+- uid: System.Activator.CreateInstance*
   commentId: M:System.Activator.CreateInstance
   href: https://msdn.microsoft.com/library/system.activator.createinstance.aspx
   name: CreateInstance
@@ -51,13 +36,13 @@ references:
   name.vb: AddService
   fullName: AsyncPackage.AddService
   fullName.vb: AsyncPackage.AddService
-- uid: Microsoft.VisualStudio.Shell.AsyncPackage.GetServiceAsync*
-  commentId: M:Microsoft.VisualStudio.Shell.AsyncPackage.GetServiceAsync(System.Threading.Tasks.Task{System.Object})
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.asyncpackage.GetServiceAsync.aspx
+- uid: Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync*
+  commentId: M:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync(System.Threading.Tasks.Task{System.Object})
+  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.AsyncServiceProvider.GetServiceAsync.aspx
   name: GetServiceAsync(Type)
   name.vb: GetServiceAsync(Type)
-  fullName: AsyncPackage.GetServiceAsync(Type)
-  fullName.vb: AsyncPackage.GetServiceAsync(Type)
+  fullName: AsyncServiceProvider.GetServiceAsync(Type)
+  fullName.vb: AsyncServiceProvider.GetServiceAsync(Type)
 - uid: Microsoft.VisualStudio.Shell.ThreadHelper.Invoke*
   commentId: M:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke
   href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.threadhelper.invoke.aspx
