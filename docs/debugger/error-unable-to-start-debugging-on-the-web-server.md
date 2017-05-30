@@ -51,9 +51,9 @@ translation.priority.mt:
 # Error: Unable to Start Debugging on the Web Server
 When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`.
   
-In many cases, this error occurs because a change has occurred that requires an update to your Application Pools and/or an IIS reset.
+In many cases, this error occurs because an error or configuration change has occurred that requires an update to your Application Pools, an IIS reset, or both.
 
-## <a name="specificerrors"></a> Specific errors
+## <a name="specificerrors"></a>What is the detailed error message?
 
 The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
@@ -66,7 +66,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - If the Web server is remote, try restarting your Application Pools and then reset IIS. See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck) for more information.
 
 `The web server did not respond in a timely manner.`
-- Try an IIS reset and retry debugging. This will stop For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- Try an IIS reset and retry debugging. If multiple debugger instances are attached to the IIS process, a reset will terminate them. For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 `The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer.`
 - If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the correct ports in the firewall are open.
@@ -114,9 +114,9 @@ If the IIS configuration is not causing the issue, try these steps:
     
 - If multiple instance of Visual Studio are running, re-open your project in one instance of Visual Studio (with elevated privileges), and try again.
 
-- If you are using a HOSTS filewith local addresses, try using the loopback address instead of the machine's IP address.
+- If you are using a HOSTS file with local addresses, try using the loopback address instead of the machine's IP address.
 
-    Also, make sure your HOSTS file includes the same project URL as in your project properties, **Web** tab.
+    If you are not using local addresses, make sure your HOSTS file includes the same project URL as in your project properties, **Web** tab.
 
 ## Additional troubleshooting steps
 
