@@ -53,8 +53,6 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
 |`position()`|The position, or index number, of the context node, relative to the context size.|  
 |`self::node()`|The value of the context node.|  
   
- For more information, see [How to: Change the Debugger Context](../Topic/How%20to:%20Change%20the%20Debugger%20Context.md).  
-  
 ## Output Window  
  The Output window shows any error messages or security exceptions that occur during debugging.  
   
@@ -111,4 +109,4 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
 ## See Also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)
+ [Inspect Variables in the Autos and Locals Windows in Visual Studio](../debugger/autos-and-locals-windows.md)

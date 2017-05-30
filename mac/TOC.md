@@ -4,7 +4,6 @@
 # [Installation](installation.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
-## [Create an Offline Installer for Visual Studio for Mac](create-offline-installer.md)
 
 # [User Accounts](user-accounts.md)
 ## [Signing In](signing-in.md)

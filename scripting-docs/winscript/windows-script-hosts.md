@@ -36,4 +36,4 @@ When implementing Microsoft Windows Script host, you can safely assume that a sc
  None of these restrictions apply to a host that chooses to implement a free-threaded [IActiveScriptSite](../winscript/reference/iactivescriptsite.md) interface and a free-threaded object model. Such a host can use the [IActiveScript](../winscript/reference/iactivescript.md) interface from any thread, without restriction.  
   
 ## See Also  
- [\<PAVE OVER> Microsoft Windows Script Interfaces - Introduction](../Topic/%3CPAVE%20OVER%3E%20Microsoft%20Windows%20Script%20Interfaces%20-%20Introduction.md)
+ [Windows Script Interfaces](../winscript/windows-script-interfaces.md)

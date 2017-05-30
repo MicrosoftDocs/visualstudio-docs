@@ -109,7 +109,7 @@ manager: "ghogen"
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   
  [Walkthrough: Designing an Outlook Form Region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Guidelines for Creating Outlook Form Regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
- [About the form name and message class](HV01044315)   
- [How Outlook forms and items work together](HV01044298)  
+ [Form Name and Message Class Overview](http://msdn.microsoft.com/library/office/ff867629.aspx)   
+ [How Outlook forms and items work together](http://msdn.microsoft.com/library/office/ff869706.aspx)  
   
   

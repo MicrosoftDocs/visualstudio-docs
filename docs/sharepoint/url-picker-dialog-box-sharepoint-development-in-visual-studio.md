@@ -60,6 +60,5 @@ manager: "ghogen"
  [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   
- [Visual Studio Web Development Content Map](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539)  
   
   
