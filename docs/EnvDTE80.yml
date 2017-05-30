@@ -1,0 +1,11 @@
+### YamlMime:XRefMap
+sorted: true
+hrefUpdated: true
+references:
+- uid: EnvDTE80
+  commentId: N:EnvDTE80
+  href: https://msdn.microsoft.com/library/0e105c68.aspx
+  name: EnvDTE80
+  name.vb: EnvDTE80
+  fullName: EnvDTE80
+  fullName.vb: EnvDTE80
