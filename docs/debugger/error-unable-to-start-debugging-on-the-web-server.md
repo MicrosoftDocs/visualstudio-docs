@@ -66,7 +66,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - If the Web server is remote, try restarting your Application Pools and then reset IIS. See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck) for more information.
 
 `The web server did not respond in a timely manner.`
-- Try an IIS reset and retry debugging. For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- Try an IIS reset and retry debugging. This will stop For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 `The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer.`
 - If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the correct ports in the firewall are open.
@@ -83,7 +83,7 @@ After taking steps to resolve an issue detailed here, and before trying again to
 
 * Stop and restart your Application Pools, then retry.
 
-    The Application Pool may have stopped or another configuration change that you made may require that you stop and restart your Application Pool.
+    The Application Pool may have stopped (as a result of an error) or another configuration change that you made may require that you stop and restart your Application Pool.
     
     > [!NOTE]
     > If the Application Pool keeps stopping, you may need to uninstall the URL Rewrite Module from the Control Panel and then reinstall it using the Web Platform Installer (WPI). This could be an issue after a significant system upgrade.
@@ -96,21 +96,9 @@ After taking steps to resolve an issue detailed here, and before trying again to
 
     Make sure that you give IIS_IUSRS or IUSR (or the specific user associated with the Application Pool) read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
 
-* If you are using a HOSTS file with local addresses, try using the loopback address instead of the machine's IP address.
-
-* Bring up the localhost page in the browser on the server.
-
-     If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
-     
-     For more information on deploying to IIS, see [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
-
 * Make sure that the correct version of ASP.NET is installed on IIS.  See [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
-    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. Try setting the framework version in web.config.
-
-* Create a basic ASP.NET application on the server (or use a basic web.config file).
-
-    If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server (or you can use the default ASP.NET MVC template), and try to debug the basic app. If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config.
   
 * Resolve authentication errors if you are using only the IP address
 
@@ -125,6 +113,22 @@ If the IIS configuration is not causing the issue, try these steps:
     Some ASP.NET debugging scenarios such as using Web Deploy require elevated privileges for Visual Studio.
     
 - If multiple instance of Visual Studio are running, re-open your project in one instance of Visual Studio (with elevated privileges), and try again.
+
+- If you are using a HOSTS filewith local addresses, try using the loopback address instead of the machine's IP address.
+
+    Also, make sure your HOSTS file includes the same project URL as in your project properties, **Web** tab.
+
+## Additional troubleshooting steps
+
+* Bring up the localhost page in the browser on the server.
+
+     If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
+     
+     For more information on deploying to IIS, see [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+
+* Create a basic ASP.NET application on the server (or use a basic web.config file).
+
+    If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server (or you can use the default ASP.NET MVC template), and try to debug the basic app. If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
 
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
