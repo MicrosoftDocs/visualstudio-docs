@@ -51,7 +51,31 @@ translation.priority.mt:
 # Error: Unable to Start Debugging on the Web Server
 When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`.
   
-In many cases, this error occurs because IIS is not configured correctly. Also, check [Specific Errors](#specificerrors) for the most common fixes.
+In many cases, this error occurs because a change has occurred that requires an update to your Application Pools and/or an IIS reset.
+
+## <a name="specificerrors"></a> Specific errors
+
+The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
+
+`IIS does not list a website that matches the launch url`
+- Try starting Visual Studio as an Administrator and retry. (Some ASP.NET debugging scenarios require elevated privileges.)
+
+`Unable to connect to the webserver`
+- Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to your local web server when you start debugging (open **Properties / Web / Servers** or **Properties / Debug** depending on your project type).
+
+- If the Web server is remote, try restarting your Application Pools and then reset IIS. See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck) for more information.
+
+`The web server did not respond in a timely manner.`
+- Try an IIS reset and retry debugging. For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+
+`The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer.`
+- If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the correct ports in the firewall are open.
+- If you are using a HOSTS file, make sure it is configured correctly (for example, it needs to include the same project URL as in your project properties, **Web** tab).
+
+`Could not start ASP.NET debugging.`
+- Try restarting the Application Pool and do an IIS reset. For more details, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+ 
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
@@ -102,25 +126,5 @@ If the IIS configuration is not causing the issue, try these steps:
     
 - If multiple instance of Visual Studio are running, re-open your project in one instance of Visual Studio (with elevated privileges), and try again.
 
-## <a name="specificerrors"></a> Specific errors
-
-The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
-
-- `IIS does not list a website that matches the launch url`
-    Try starting Visual Studio as an Administrator and retry.
-- `Unable to connect to the webserver`
-    Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to your local web server when you start debugging (open **Properties / Web / Servers** or **Properties / Debug** depending on your project type).
-
-    If the Web server is remote, try restarting your Application Pools and then reset IIS. See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck) for issues with your Application Pools.
-- `The web server did not respond in a timely manner.`
-    Try an IIS reset and retry debugging.
-- `The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer.`
-    If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the correct ports in the firewall are open.
-    If you are using a HOSTS file, make sure it is configured correctly (for example, it needs to include the same project URL as in your project properties, **Web** tab).
-- `Could not start ASP.NET debugging.`
-    Try restarting the Application Pool and do an IIS reset. See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
-    If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
-
-  
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
