@@ -81,7 +81,7 @@ translation.priority.mt:
 ### Description  
  The following example fixes the violation by changing the property to return a  
   
- <xref:System.Collection.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
+ <xref:System.Collection.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>.  
   
 ### Code  
  [!code-cs[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_3.cs)]
@@ -97,7 +97,7 @@ translation.priority.mt:
  [!code-vb[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_4.vb)]  
   
 ### Comments  
- The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection?displayProperty=fullName>.  
+ The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection%601?displayProperty=fullName>.  
   
 ### Code  
  [!code-vb[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_5.vb)]
