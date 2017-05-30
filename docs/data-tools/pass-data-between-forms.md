@@ -73,7 +73,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 2.  Name the project `PassingDataBetweenForms`.  
   
-3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   

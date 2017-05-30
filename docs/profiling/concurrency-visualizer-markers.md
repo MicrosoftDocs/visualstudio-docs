@@ -57,11 +57,11 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 -   [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)  
   
--   [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23)  
+-   [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl)  
   
--   [Dataflow](http://msdn.microsoft.com/Library/643575d0-d26d-4c35-8de7-a9c403e97dd6)  
+-   [Dataflow](/dotnet/standard/parallel-programming/dataflow-task-parallel-library)  
   
--   [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/Library/3d4d0cd3-bde4-490b-99e7-f4e41be96455)  
+-   [Parallel LINQ (PLINQ)](/dotnet/standard/parallel-programming/parallel-linq-plinq)  
   
 -   [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)  
   
