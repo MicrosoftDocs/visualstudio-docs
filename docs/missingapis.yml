@@ -23,14 +23,14 @@ references:
   fullName: EnvDTE.vsFontCharSet
   fullName.vb: EnvDTE.vsFontCharSet
 - uid: System.Activator.CreateInstance*
-  commentId: M:System.Activator.CreateInstance
+  commentId: Overload:System.Activator.CreateInstance
   href: https://msdn.microsoft.com/library/system.activator.createinstance.aspx
   name: CreateInstance
   name.vb: CreateInstance
   fullName: Activator.CreateInstance
   fullName.vb: Activator.CreateInstance
 - uid: Microsoft.VisualStudio.Shell.AsyncPackage.AddService*
-  commentId: M:Microsoft.VisualStudio.Shell.AsyncPackage.AddService
+  commentId: Overload:Microsoft.VisualStudio.Shell.AsyncPackage.AddService
   href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.asyncpackage.addservice.aspx
   name: AddService
   name.vb: AddService
@@ -44,7 +44,7 @@ references:
   fullName: AsyncServiceProvider.GetServiceAsync(Type)
   fullName.vb: AsyncServiceProvider.GetServiceAsync(Type)
 - uid: Microsoft.VisualStudio.Shell.ThreadHelper.Invoke*
-  commentId: M:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke
+  commentId: Overload:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke
   href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.threadhelper.invoke.aspx
   name: ThreadHelper.Invoke
   name.vb: ThreadHelper.Invoke
