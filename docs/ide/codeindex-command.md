@@ -37,7 +37,7 @@ Use the **CodeIndex** command to manage code indexing on Team Foundation Server.
   
  **Required Permissions**  
   
- To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permission reference for Team Foundation Server](../Topic/Permission%20reference%20for%20Team%20Foundation%20Server.md).  
+ To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](https://www.visualstudio.com/docs/setup-admin/permissions).  
   
 > [!NOTE]
 >  Even if you log on with administrative credentials, you must open an elevated Command Prompt window to run this command. You must also run this command from the application tier for Team Foundation.  

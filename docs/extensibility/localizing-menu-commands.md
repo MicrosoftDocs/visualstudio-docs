@@ -167,5 +167,5 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
- [Globalization and Localization](http://msdn.microsoft.com/Library/9a59696b-d89b-45bd-946d-c75da4732d02)
+ [MenuCommands Vs. OleMenuCommands](../extensibility/menucommands-vs-olemenucommands.md)   
+ [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

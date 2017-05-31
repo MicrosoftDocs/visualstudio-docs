@@ -60,7 +60,7 @@ If you plan on distributing your application to an international audience, you'l
  [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides background information on programming for an international audience.  
   
- [Class Library Overview](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)  
+ [Class Library Overview](/dotnet/standard/class-library-overview)  
  Introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.  
   
  <xref:System.Globalization>  

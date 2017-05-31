@@ -1,7 +1,7 @@
 ---
 title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "5/30/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

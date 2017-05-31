@@ -34,7 +34,7 @@ manager: "ghogen"
   
 1.  Open an Excel application project in Visual Studio.  
   
-2.  Open the **Data Sources** window and create a data source from the database. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+2.  Open the **Data Sources** window and create a data source from the database. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 3.  Expand the table that contains the data that you want to show, and select the specific column.  
   
@@ -42,7 +42,7 @@ manager: "ghogen"
   
 5.  Drag the <xref:Microsoft.Office.Tools.Excel.NamedRange> control onto the cell where you want the data to appear.  
   
-6.  From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator Control Overview &#40;Windows Forms&#41;](../Topic/BindingNavigator%20Control%20Overview%20(Windows%20Forms).md).  
+6.  From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator Control Overview &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).  
   
 ## See Also  
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  

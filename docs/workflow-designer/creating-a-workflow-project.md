@@ -54,7 +54,7 @@ Workflows, [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] work
  Describes how to add additional workflow activities or designers and other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items such as code activities to an existing project.  
   
 ## Related Sections  
- [Designing Workflows](http://msdn.microsoft.com/Library/41f727b5-b142-4c1b-b046-492b96135ae6)  
+ [Designing Workflows](/dotnet/framework/windows-workflow-foundation/designing-workflows)  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

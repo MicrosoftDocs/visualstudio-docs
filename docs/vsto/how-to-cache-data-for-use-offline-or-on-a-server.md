@@ -65,6 +65,6 @@ manager: "ghogen"
  [How to: Programmatically Cache a Data Source in an Office Document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)   
  [How to: Cache Data in a Password-Protected Document](../vsto/how-to-cache-data-in-a-password-protected-document.md)   
  [Accessing Data in Documents on the Server](../vsto/accessing-data-in-documents-on-the-server.md)   
- [Saving Data](/visual-studio/data-tools/saving-data)  
+ [Saving Data](/visualstudio/data-tools/saving-data)  
   
   

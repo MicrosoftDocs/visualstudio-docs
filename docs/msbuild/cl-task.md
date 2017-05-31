@@ -361,7 +361,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, implements standard C++ behavior in [for](/cpp/cpp/for-statement-cpp) loops that use Microsoft extensions ([/Ze](/cpp/build/reference/za-ze-disable-language-extensions)).  
   
-     For more information, see [/Zc:forScope (Force Conformance in for Loop Scope)](http://msdn.microsoft.com/Library/3031f02d-3b14-4ad0-869e-22b0110c3aed).  
+     For more information, see [/Zc:forScope (Force Conformance in for Loop Scope)](/cpp/build/reference/zc-forscope-force-conformance-in-for-loop-scope).  
   
 -   **ForcedIncludeFiles**  
   
@@ -709,7 +709,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, treat the `wchar_t` type as a native type.  
   
-     For more information, see [/Zc:wchar_t (wchar_t Is Native Type)](http://msdn.microsoft.com/Library/b0de5a84-da72-4e5a-9a4e-541099f939e0).  
+     For more information, see [/Zc:wchar_t (wchar_t Is Native Type)](/cpp/build/reference/zc-wchar-t-wchar-t-is-native-type).  
   
 -   **UndefineAllPreprocessorDefinitions**  
   
