@@ -144,3 +144,8 @@ The extension package detailed in the [Walkthrough](~/extending-visual-studio-ma
 *   Refactoring
 *   Execution handlers
 *   Syntax highlighting
+
+## Additional Information
+
+> [!NOTE]
+We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please contact mhutch@microsoft.com
