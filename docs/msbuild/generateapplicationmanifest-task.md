@@ -75,7 +75,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 |`TargetFrameworkSubset`|Optional `String` parameter.<br /><br /> Specifies the name of the .NET Framework subset to target.|  
 |`TargetFrameworkVersion`|Optional `String` parameter.<br /><br /> Specifies the target .NET Framework of the project.|  
 |`TrustInfoFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an XML document that specifies the application security. The root element in the XML document must be a trustInfo node in the asmv2 namespace. If the task is generating a native manifest, this parameter is ignored.|  
-|`UseApplicationTrust`|Optional assetId:///Boolean?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> If true, the `Product`, `Publisher`, and `SupportUrl` properties are written to the application manifest.|  
+|`UseApplicationTrust`|Optional `Boolean` parameter.<br /><br /> If true, the `Product`, `Publisher`, and `SupportUrl` properties are written to the application manifest.|  
   
 ## Remarks  
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.GenerateManifestBase> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of the parameters of the Task class, see [Task Base Class](../msbuild/task-base-class.md).  
