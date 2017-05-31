@@ -80,9 +80,9 @@ manager: "ghogen"
   
     ```  
   
-     For information about how to create post-build event in a C# project, see [How to: Specify Build Events &#40;C&#35;&#41;](../Topic/How%20to:%20Specify%20Build%20Events%20(C%23).md).  
+     For information about how to create post-build event in a C# project, see [How to: Specify Build Events &#40;C&#35;&#41;](/visualstudio/ide/how-to-specify-build-events-csharp).  
   
-     For information about how to create a post-build event in a Visual Basic project, see [How to: Specify Build Events &#40;C&#35;&#41;](../Topic/How%20to:%20Specify%20Build%20Events%20(C%23).md).  
+     For information about how to create a post-build event in a Visual Basic project, see [How to: Specify Build Events &#40;Visual Basic&#41;](/visualstudio/ide/how-to-specify-build-events-visual-basic).  
   
 ##  <a name="Publish"></a> Publish Office Solutions by Using Windows Installer  
  If you publish your solution by using Windows Installer, the Visual Studio 2010 Tools for Office Runtime bypasses the following steps when the VSTO Add-in loads.  

@@ -43,7 +43,7 @@ translation.priority.ht:
 |Breaking Change|Breaking|  
   
 ## Cause  
- A public or protected type contains public fields and is secured by a [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d).  
+ A public or protected type contains public fields and is secured by a [Link Demands](/dotnet/framework/misc/link-demands).  
   
 ## Rule Description  
  If code has access to an instance of a type that is secured by a link demand, the code does not have to satisfy the link demand to access the type's fields.  
@@ -81,5 +81,5 @@ translation.priority.ht:
  [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)  
   
 ## See Also  
- [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)   
- [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
+ [Link Demands](/dotnet/framework/misc/link-demands)   
+ [Data and Modeling](/dotnet/framework/data/index)

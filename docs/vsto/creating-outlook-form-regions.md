@@ -58,7 +58,7 @@ manager: "ghogen"
   
 -   Display custom UI in the Reading Pane and in Inspectors.  
   
- For more information, see [Customizing Form Pages and Form Regions](HV10038632).  
+ For more information, see [Customizing Form Pages and Form Regions](http://msdn.microsoft.com/library/office/ff869060.aspx).  
   
 ##  <a name="Adding"></a> Adding an Outlook Form Region to Your Project  
  You can use the **New Outlook Form Region** wizard to design a new form region or import a form region that was designed in Outlook. Also, if you have a form region that you used in another Outlook VSTO Add-in project, you can reuse your existing form region.  
@@ -134,7 +134,7 @@ manager: "ghogen"
   
  To handle events in a Visual Basic project, select an event from the method name list at the top of the Code Editor.  
   
- To handle events in a C# project, subscribe to control events in the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> method. For more information, see [How to: Subscribe to and Unsubscribe from Events &#40;C&#35; Programming Guide&#41;](../Topic/How%20to:%20Subscribe%20to%20and%20Unsubscribe%20from%20Events%20(C%23%20Programming%20Guide).md).  
+ To handle events in a C# project, subscribe to control events in the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> method. For more information, see [How to: Subscribe to and Unsubscribe from Events &#40;C&#35; Programming Guide&#41;](/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events).  
   
  You can change form region properties in the `InitializeManifest` method of the form region factory class.  
   

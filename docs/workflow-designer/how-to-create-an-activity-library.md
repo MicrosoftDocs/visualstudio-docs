@@ -58,5 +58,5 @@ Custom activities are used to model your particular business processes in a work
     >  You are allowed only one child activity in the body of your custom activity; however, that child activity could be a composite activity, such as a <xref:System.Activities.Statements.Sequence> activity or <xref:System.Activities.Statements.Flowchart> activity.  
   
 ## See Also  
- [How to: Create an Activity](http://msdn.microsoft.com/Library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
+ [How to: Create an Activity](/dotnet/framework/windows-workflow-foundation/how-to-create-an-activity)   
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

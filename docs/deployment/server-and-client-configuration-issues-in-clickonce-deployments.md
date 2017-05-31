@@ -64,7 +64,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
  You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.  
   
- For more information, see [\<defaultProxy> Element (Network Settings)](http://msdn.microsoft.com/Library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
+ For more information, see [\<defaultProxy> Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).  
   
 ## ClickOnce and Web Browser Compatibility  
  Currently, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.  
@@ -102,7 +102,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 |`.msp`|`application/octet-stream`|  
   
 ## ClickOnce and Mapped Drives  
- If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/Library/f9e130a6-8117-49c4-839c-c988f641dc14).  
+ If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client).  
   
 ## FTP Protocol Not Supported for Installing Applications  
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:  

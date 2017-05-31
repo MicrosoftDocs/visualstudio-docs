@@ -496,7 +496,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>   
- [Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)   
+ [Improve Code Quality](../test/improve-code-quality.md)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)   
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   

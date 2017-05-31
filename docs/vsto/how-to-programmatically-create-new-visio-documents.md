@@ -22,7 +22,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # How to: Programmatically Create New Visio Documents
-  When you create a new Microsoft Office Visio drawing document, you add it to the Microsoft.Office.Interop.Visio.Documents collection of open Visio documents. Consequently, the Microsoft.Office.Interop.Visio.Documents.Add method creates a new Visio drawing document. For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Add](HV10069241) method.  
+  When you create a new Microsoft Office Visio drawing document, you add it to the Microsoft.Office.Interop.Visio.Documents collection of open Visio documents. Consequently, the Microsoft.Office.Interop.Visio.Documents.Add method creates a new Visio drawing document. For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Add](http://msdn.microsoft.com/library/office/ff766868.aspx) method.  
   
 ## Creating New Blank Documents  
   
@@ -44,7 +44,7 @@ manager: "ghogen"
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#2](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#2)]  
   
 ## Creating Stencils Copied From Existing Stencils  
- The [Microsoft.Office.Interop.Visio.Documents.Add](HV10069241) method can create a new stencil that is a copy of an existing Visio stencil. You must supply the file name and fully qualified path of the stencil.  
+ The [Microsoft.Office.Interop.Visio.Documents.Add](http://msdn.microsoft.com/library/office/ff766868.aspx) method can create a new stencil that is a copy of an existing Visio stencil. You must supply the file name and fully qualified path of the stencil.  
   
 #### To create a new stencil that is copied from an existing stencil  
   

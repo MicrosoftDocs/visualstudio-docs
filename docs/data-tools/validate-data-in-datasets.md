@@ -102,7 +102,7 @@ Validating data is the process of confirming that the values being entered into 
   
 -   Reject the proposed value by setting the column error (<xref:System.Data.DataRow.SetColumnError%2A>) from within the column-changing event handler.  
   
--   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](http://msdn.microsoft.com/Library/c0f2e231-c5c9-413d-a507-75af2db499b6).  
+-   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](/dotnet/framework/winforms/controls/errorprovider-component-windows-forms).  
   
  Validation can also be performed during the <xref:System.Data.DataTable.RowChanging> event. 
   
@@ -222,5 +222,5 @@ Validating data is the process of confirming that the values being entered into 
      [!code-vb[VbRaddataEditing#22](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_7.vb)]  
   
 ## See Also  
- [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/Library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/Library/3b681a32-9db4-497b-a34b-34980eabee46)
+ [How to: Validate Data in the Windows Forms DataGridView Control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)   
+ [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](/dotnet/framework/winforms/controls/display-error-icons-for-form-validation-with-wf-errorprovider)

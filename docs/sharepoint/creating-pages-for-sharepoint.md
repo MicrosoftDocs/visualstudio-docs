@@ -68,6 +68,5 @@ manager: "ghogen"
 |[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: .aspx content that is merged with a SharePoint master page.|  
 |[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
 |[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
-|[Working with Visual Web Developer](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539)|Describes how to use the designer that appears when you open a Web page in your project.|  
   
   

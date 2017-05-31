@@ -127,7 +127,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
     2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
   
-         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](http://msdn.microsoft.com/Library/e32fa443-0778-4cc3-bf36-5c8ea297d296) to display the details of failed assembly loads.  
+         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer) to display the details of failed assembly loads.  
   
 2.  For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CLSID registry node:  
   

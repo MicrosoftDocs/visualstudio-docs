@@ -39,7 +39,7 @@ translation.priority.mt:
 # Create a Windows Forms user control that supports complex data binding
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.  
   
- For more information on control authoring, see [Developing Windows Forms Controls at Design Time](http://msdn.microsoft.com/Library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
+ For more information on control authoring, see [Developing Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).  
   
  When authoring controls for use in data-binding scenarios you need to implement one of the following data-binding attributes:  
   
@@ -81,7 +81,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 2.  Name the project **ComplexControlWalkthrough**.  
   
-3.  Select **Windows Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **ComplexControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -182,4 +182,4 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)   
- [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)
+ [Windows Forms Controls](/dotnet/framework/winforms/controls/index)

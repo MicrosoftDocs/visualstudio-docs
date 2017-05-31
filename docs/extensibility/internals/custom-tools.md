@@ -42,9 +42,6 @@ translation.priority.mt:
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)  
  Describes how to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface to implement a custom tool.  
   
- [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)  
- Describes how to determine the correct namespace based on the language being used.  
-  
  [Registering Single File Generators](../../extensibility/internals/registering-single-file-generators.md)  
  Provides descriptions for all the registry entries for a custom tool.  
   

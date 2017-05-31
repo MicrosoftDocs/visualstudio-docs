@@ -39,6 +39,3 @@ translation.priority.mt:
   
  [Registering and Unregistering VSPackages](../../extensibility/registering-and-unregistering-vspackages.md)  
  Explains how to register a VSPackage.  
-  
- [Using a Custom Registration Attribute to Register an Extension](../../misc/using-a-custom-registration-attribute-to-register-an-extension.md)  
- Describes how to create a registration manifest that can be used to deploy a managed VSPackage.

@@ -126,7 +126,7 @@ manager: "ghogen"
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.  
   
 ## See Also  
- [Troubleshooting ClickOnce Deployments](/visual-studio/deployment/troubleshooting-clickonce-deployments)   
+ [Troubleshooting ClickOnce Deployments](/visualstudio/deployment/troubleshooting-clickonce-deployments)   
  [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
   
   

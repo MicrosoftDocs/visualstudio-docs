@@ -98,7 +98,7 @@ manager: "ghogen"
  **Publish Language**  
  This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.  
   
- For more information about how to change the **Publish language**, see [How to: Change the Publish Language for a ClickOnce Application](../Topic/How%20to:%20Change%20the%20Publish%20Language%20for%20a%20ClickOnce%20Application.md).  
+ For more information about how to change the **Publish language**, see [How to: Change the Publish Language for a ClickOnce Application](/visualstudio/deployment/how-to-change-the-publish-language-for-a-clickonce-application).  
   
  **Publish Version**  
  Sets the version number for the customization. When the version number is changed, the application is published as an update. A new folder is created for each version during the build process to prevent overwriting the previously published version. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can contain up to five digits.  

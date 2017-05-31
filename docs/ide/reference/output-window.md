@@ -81,4 +81,4 @@ The **Output** window can display status messages for various features in the in
  [How to: Control the Output Window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)   
- [Class Library Overview](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)
+ [Class Library Overview](/dotnet/standard/class-library-overview)
