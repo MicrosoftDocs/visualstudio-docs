@@ -228,7 +228,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
 -   In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
--   In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/Library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
+-   In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](/dotnet/framework/winforms/user-input-validation-in-windows-forms).  
   
 -   In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
   

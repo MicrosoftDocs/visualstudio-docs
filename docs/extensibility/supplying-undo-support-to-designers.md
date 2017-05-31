@@ -55,7 +55,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
   
-     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/Library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
+     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation)  
   
 ## When to Use Explicit Designer Undo Support  
  Designers must supply their own undo management if they use a graphical user interface, referred to as a view adapter, other than the one supplied by <xref:System.Windows.Forms.Control>.  

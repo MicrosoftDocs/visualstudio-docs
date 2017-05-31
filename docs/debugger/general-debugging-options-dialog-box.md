@@ -57,8 +57,8 @@ In managed or mixed-mode debugging, the common language runtime can catch except
 1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/articles/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
   
 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](/dotnet/articles/framework/app-domains/index).  
-  
-3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](/dotnet/articles/csharp/programming-guide/concepts/reflection).  
+
+3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](/dotnet/framework/reflection-and-codedom/reflection).  
   
 In condition 2 and 3, the exception is sometimes caught by managed code in `mscorlib` instead of the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
   

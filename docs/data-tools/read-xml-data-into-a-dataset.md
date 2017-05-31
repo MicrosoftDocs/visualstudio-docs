@@ -68,7 +68,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  Name the project `ReadingXML`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   

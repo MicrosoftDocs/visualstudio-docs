@@ -118,4 +118,4 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

@@ -76,4 +76,4 @@ translation.priority.mt:
  <xref:System.IntPtr?displayProperty=fullName>   
  <xref:System.Object.Finalize%2A?displayProperty=fullName>   
  <xref:System.UIntPtr?displayProperty=fullName>   
- [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
