@@ -66,3 +66,6 @@ For working with iOS in Visual Studio you will need the following:
 10. Once the installation is successful, you can start developing apps in Visual Studio by pressing **Start**:
 
   ![Open Visual Studio](media/installer-image11.png)
+
+> [!NOTE]
+If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/) again if you wish to add the components at a later date.
