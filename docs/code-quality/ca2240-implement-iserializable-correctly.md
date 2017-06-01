@@ -76,15 +76,9 @@ translation.priority.ht:
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236-call-base-class-methods-on-iserializable-types.md)  
-  
  [CA2229: Implement serialization constructors](../code-quality/ca2229-implement-serialization-constructors.md)  
-  
  [CA2238: Implement serialization methods correctly](../code-quality/ca2238-implement-serialization-methods-correctly.md)  
-  
  [CA2235: Mark all non-serializable fields](../code-quality/ca2235-mark-all-non-serializable-fields.md)  
-  
  [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md)  
-  
  [CA2239: Provide deserialization methods for optional fields](../code-quality/ca2239-provide-deserialization-methods-for-optional-fields.md)  
-  
- [CA2120: Secure serialization constructors](../code-quality/ca2120-secure-serialization-constructors.md)
+ [CA2120: Secure serialization constructors](../code-quality/ca2120-secure-serialization-constructors.md)  
