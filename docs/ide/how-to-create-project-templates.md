@@ -50,7 +50,7 @@ This procedure enables you to create a template using the **Export Template** wi
   
 3.  As appropriate, edit the code files to indicate where parameter replacement should take place. For more information on parameter replacement, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
-4.  On the **File** menu, click **Export Template**. The **Export Template** wizard opens.  
+4.  On the **Project** menu, click **Export Template**. The **Export Template** wizard opens.  
   
 5.  Click **Project Template**.  
   

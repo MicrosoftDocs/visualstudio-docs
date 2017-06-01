@@ -85,4 +85,4 @@ translation.priority.ht:
  [CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)  
   
 ## See Also  
- [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
