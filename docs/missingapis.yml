@@ -71,6 +71,13 @@ references:
   name.vb: CreateFormRegionCustomAction
   fullName: Factory.CreateFormRegionCustomAction
   fullName.vb: Factory.CreateFormRegionCustomAction
+- uid: Microsoft.Office.Tools.Word.ControlCollection.AddControl*
+  commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddControl
+  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addcontrol.aspx
+  name: AddControl
+  name.vb: AddControl
+  fullName: ControlCollection.AddControl
+  fullName.vb: ControlCollection.AddControl
 - uid: Microsoft.Office.Tools.Word.ControlCollection.AddContentControl*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl
   href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addcontentcontrol.aspx
