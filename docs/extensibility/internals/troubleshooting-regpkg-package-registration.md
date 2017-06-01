@@ -49,4 +49,4 @@ translation.priority.mt:
  The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.  
   
 ## See Also  
- [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)
+ [VSPackages](../../extensibility/internals/vspackages.md)

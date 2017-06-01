@@ -53,7 +53,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -95,11 +95,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 -   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter,<xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 -   Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
   
-     A <xref:System.Windows.Forms.DataGridView> appears on the form. An [OrdersTableAdapter](../data-tools/tableadapter-overview.md) and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> appears on the form. An `OrdersTableAdapter` and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
 ## Add a reference to the System.Transactions assembly  
  Transactions use the <xref:System.Transactions> namespace. A project reference to the system.transactions assembly is not added by default, so you need to manually add it.  

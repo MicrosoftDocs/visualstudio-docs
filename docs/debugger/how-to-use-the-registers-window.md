@@ -1,5 +1,5 @@
 ---
-title: "View Register Values in the Debugger in Visual Studio | Microsoft Docs"
+title: "View Register Values in the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -43,7 +43,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Use the Registers Window in the Visual Studio Debugger
+# View Register Values and use the Registers Window in the Visual Studio Debugger
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  
   
  The **Registers** window displays register contents. If you keep the **Registers** window open as you step through your program, you can see register values change as your code executes. Values that have changed recently are displayed in red. You can edit register values. For more information, see [How to: Edit a Register Value](../debugger/how-to-edit-a-register-value.md).  
@@ -53,7 +53,7 @@ The Registers window is available only if address-level debugging is enabled in 
  For a high-level introduction to concepts behind registers and the Registers window, see [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md).  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To display the Registers window  
   

@@ -218,7 +218,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  To customize the output in this way, your program must contain a listener, and you must inherit from <xref:System.Diagnostics.TraceListener> and override its <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method.  
   
- For more Information, see [Trace Listeners](http://msdn.microsoft.com/Library/444b0d33-67ea-4c36-9e94-79c50f839025).  
+ For more Information, see [Trace Listeners](/dotnet/framework/debug-trace-profile/trace-listeners).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -229,7 +229,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [Debugger Security](../debugger/debugger-security.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/Library/56d051c3-012c-42c1-9a58-7270edc624aa)   
+ [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)   
+ [How to: Compile Conditionally with Trace and Debug](/dotnet/framework/debug-trace-profile/how-to-compile-conditionally-with-trace-and-debug)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

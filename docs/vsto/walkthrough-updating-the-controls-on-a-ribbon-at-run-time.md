@@ -43,7 +43,7 @@ manager: "ghogen"
 -   Updating controls on the Ribbon at run time.  
   
 > [!NOTE]  
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -290,7 +290,7 @@ manager: "ghogen"
 ## See Also  
  [Accessing the Ribbon at Run Time](../vsto/accessing-the-ribbon-at-run-time.md)   
  [Ribbon Overview](../vsto/ribbon-overview.md)   
- [Language-Integrated Query (LINQ)](../Topic/LINQ%20(Language-Integrated%20Query).md)   
+ [Language-Integrated Query (LINQ)](/dotnet/csharp/linq/index)   
  [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)   
  [Walkthrough: Creating a Custom Tab by Using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   

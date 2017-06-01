@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Tabs and Windows, Environment, Options Dialog Box
-Use this page to set options for how tabbed windows behave in the editor pane, and how tool windows behave. For more information, see [How to: Arrange and Dock Windows](../../misc/how-to-arrange-and-dock-windows.md)  
+Use this page to set options for how tabbed windows behave in the editor pane, and how tool windows behave. For more information, see [Customize window layouts in Visual Studio](../../ide/customizing-window-layouts-in-visual-studio.md)  
   
 ## See Also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

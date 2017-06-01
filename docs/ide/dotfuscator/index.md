@@ -95,7 +95,7 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-[assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
+[assemblies]: https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
 [software-protection]: https://www.preemptive.com/software-protection
 [obfuscation]: https://www.preemptive.com/obfuscation
 [app-protection]: https://www.preemptive.com/application-protection

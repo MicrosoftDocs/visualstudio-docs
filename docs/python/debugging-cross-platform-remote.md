@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Remotely Debugging Python Code
+# Remotely Debugging Python Code on Linux
 
 Visual Studio can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPython using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
 

@@ -49,7 +49,7 @@ manager: "ghogen"
 ### assemblyIdentity  
  Required. The `assemblyIdentity` element in the `vstav3` namespace refers to an existing `assemblyIdentity` element in the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest.  
   
- The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3CassemblyIdentity%3E%20Element%20(ClickOnce%20Application).md).  
+ The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
   
 ## Document-Level Customization Example  
   
@@ -114,6 +114,6 @@ manager: "ghogen"
 ## See Also  
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

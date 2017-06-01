@@ -197,6 +197,6 @@ If you'd like to make suggestion about how we can improve Visual Studio, or to r
 
 ## See Also  
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)  
+* [What's New in C#](https://docs.microsoft.com/en-us/dotnet/csharp/csharp-7)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/en-us/docs/whats-new)
 * [Visual Studio Release Notes](https://www.visualstudio.com/news/vs2015-vs)

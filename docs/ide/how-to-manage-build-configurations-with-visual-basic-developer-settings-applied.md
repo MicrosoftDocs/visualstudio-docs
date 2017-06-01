@@ -40,7 +40,7 @@ translation.priority.ht:
 By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
   
 ## Enabling advanced build configurations  
- By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+ By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](..//ide/reference/application-page-project-designer-visual-basic.md).  
   
 #### To enable advanced build configurations  
   

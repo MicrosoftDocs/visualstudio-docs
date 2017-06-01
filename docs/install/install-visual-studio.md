@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "05/15/2017"
+ms.date: "05/16/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -40,17 +40,26 @@ translation.priority.mt:
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need—and we've reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
- Want to know more about what else is new? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs15-relnotes). And for more in-depth info about how we've redesigned the installation experience, see our blog posts, "[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)" and "[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/)."  
+Want to know more about what else is new? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for more in-depth info about how we've redesigned the installation experience, see our blog posts, "[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)" and "[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/)."  
 
- Ready to install? We'll walk you through it, step-by-step. Let's get started.
+Ready to install? We'll walk you through it, step-by-step.
+
+## Check system requirements
+Before you begin, check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs) to make sure that your computer is ready to install Visual Studio 2017.
+
+## Download Visual Studio
+To start, you'll want to download Visual Studio. To do so, click the following button, click **Save**, and then click **Open folder**.
+
+ > [!div class="button"]
+ > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
 
 ## Install the installer  
- When you download Visual Studio 2017, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
+When you download Visual Studio 2017, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
 
 > [!IMPORTANT]
 > If you have a Preview release of Visual Studio 2017 installed on your computer, you will be prompted to remove it prior to installing Visual Studio 2017.
 
-1.  **[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)** and click **Save**. Then, from your **Downloads** folder, run the bootstrapper file that matches the edition you chose.
+1.  From your **Downloads** folder, double-click the bootstrapper file that matches or is similar to one of the following:
 
   * **vs_enterprise.exe** for Visual Studio Enterprise
   * **vs_professional.exe** for Visual Studio Professional
@@ -58,7 +67,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we've made
 
   If you receive a User Account Control notice, click **Yes**.  
 
-2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Install** to continue.  
+2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.  
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 

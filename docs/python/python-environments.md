@@ -36,8 +36,8 @@ Python in Visual Studio makes it easy to manage multiple Python environments and
 
 Note: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
 
-    - [Working with Python in Visual Studio](python-in-visual-studio.md)
-    - [Installing Python support in Visual Studio](installation.md)
+- [Working with Python in Visual Studio](python-in-visual-studio.md)
+- [Installing Python support in Visual Studio](installation.md)
 
 A Python *environment*, in which you always run Python code, consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
