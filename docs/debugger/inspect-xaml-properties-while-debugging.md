@@ -1,7 +1,7 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/06/17"
+ms.date: "03/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
