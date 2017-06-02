@@ -110,4 +110,4 @@ IPython has many other useful features such as escaping to the system shell, var
 
 - Using the ptvsd library, you can attach the Visual Studio debugger to Python running on remote machines. See [Remotely Debugging Python Code on Azure](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote) and [Remotely Debugging Python Code](https://docs.microsoft.com/visualstudio/python/debugging-cross-platform-remote)
 
-- Azure supports Jupyter (formerly part of IPython) on a Windows or Linux virtual machine, and also provides Azure Notebooks. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).
+- Azure supports Jupyter (formerly part of IPython) on a Windows or Linux virtual machine, and also provides [Azure Notebooks](https://notebooks.azure.com/). For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).

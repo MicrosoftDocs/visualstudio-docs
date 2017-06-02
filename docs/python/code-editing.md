@@ -87,8 +87,7 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 ![Decorator completion](media/code-editing-completion-decorator.png)
 
 > [!Tip]
-> You can configure the behavior of completions through **Tools > Options > Text Editor > Python > Advanced"**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked).
-
+> You can configure the behavior of completions through **Tools > Options > Text Editor > Python > Advanced"**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](options.md#completion-results).
 
 ### Signature help
 

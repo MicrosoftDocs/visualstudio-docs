@@ -15,6 +15,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.General"
   - "VS.ToolsOptionsPages.Python_Tools.Debugging"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
+  - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 
 author: "kraigb"
 ms.author: "kraigb"
@@ -41,11 +42,14 @@ To view Python options, use the **Tools > Options** menu command, make sure **Sh
 
 ![Python options dialog, General tab](media/options-general.png)
 
+There are also additional Python-specific options on the **Text Editor > Python > Advanced** tab.
+
 The specific options are described in the following sections:
 
 - [General options](#general-options)
 - [Debugging options](#debugging-options)
 - [Interactive Windows options](#interactive-windows-options)
+- [Advanced Python editor options](#advanced-python-editor-options)
 
 ## General options
 
@@ -82,7 +86,36 @@ The specific options are described in the following sections:
 | --- | --- | --- |
 | Scripts | n/a | Specifies a general folder for startup scripts to apply to interactive windows for all environments. See [Startup scripts](python-environments.md#startup-scripts). Note, however, that this feature does not currently work. |
 | Up/down arrows navigate history | On | Uses the arrow keys to navigate through history in the interactive window. Clear this setting to use the arrow keys to navigate within the interactive window's output instead. |
-| Completion mode | Only evaluate expressions without function calls | TODO |
-| Hide static analysis suggestions | Off | TODO |
+| Completion mode | Only evaluate expressions without function calls | The process of determining the available members on an expression in the interactive window may require evaluating the current unfinished expression, which result result in side-effects or functions being called multiple times. The default setting, *Only evaluate expressions without function calls* excludes expressions that appear to call a function, but evaluates other expressions. *Never evaluate expressions* prevents all side-effects; *Evaluate all expressions* evaluates everything. |
+| Hide static analysis suggestions | Off | When set, displays only suggestions that are obtained by evaluating the expression. If combined with the Completion mode *Never evaluate expressions*, no useful completions appear in the interactive window. |
 
 ![Python options dialog, Interactive Windows tab](media/options-interactive-windows.png)
+
+
+## Advanced Python editor options
+
+### Completion Results
+
+| Option | Default | Description |
+| --- | --- | --- |
+| Member completion displays intersection of members | Off | When set, shows only completions that are supported by all possible types. |
+| Filter list based on search string | On | Applies filtering of completion suggestions as you type (default is checked). |
+| Automatically show completions for all identifiers | On | Clear this option to disable completions in both the editor and interactive windows. |
+
+### Selection in Completion List
+
+| Option | Default | Description |
+| --- | --- | --- |
+| Committed by typing the following characters | {}[]().,:;+-*/%&|^~=<>#@\ | These characters typically follow an identifier that one ,might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
+| Enter commits current completion | On | When set, the Enter key chooses and applies the currently selected completion as with the characters above (but of course, there isn't a character for Enter so it couldn't go into that list directly!). |
+| Add new line on enter at end of fully typed word | Off | By default, if you type the entire word that appears in the completion popup and press Enter, you simply commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that Enter inserts a new line. |
+
+### Miscellaneous Options
+
+| Option | Default | Description |
+| --- | --- | --- |
+| Enter outlining mode when files open | On | Automatically turn on Visual Studio's outlining feature in the editor when opening a Python code file. |
+| Paste removed REPL prompts | On | Removes >>> and ... from pasted text, allowing easy transfer of code from the interactive window to the editor. Clear this option if you need to retain those characters when pasting from other sources. |
+| Color names based on types | On | Enables syntax coloring in Python code. |
+
+![Python editor options dialog, advanced tab](media/options-editor-advanced.png)

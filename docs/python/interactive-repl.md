@@ -108,6 +108,16 @@ The interactive window also supports several meta-commands. All meta-commands st
 
 The commands are also extensible via MEF (the Managed Extensibility Framework for .NET).
 
+## Code cells
+
+*Visual Studio 2017 only*
+
+When using a code file as a scratchpad, you often have a small block of code you want to send all at once. To simplify this, you can mark a section of code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using Ctrl+Enter inside a code cell sends the entire cell to the interactive window and moves to the next one.
+
+Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading as a Python file, opening in Visual Studio, and using Ctrl+Enter to run each cell.
+
+![Interactive code cells](media/interactive-code-cells.png)
+
 ## Switching scopes
 
 By default, the interactive window for a project is scoped to the project's startup file as if you ran it from the command prompt. For a stand-alone file, it's scopes to that file. At any time, however, drop-down menu along the top of the interactive window lets you change scope at any time during your REPL session:
