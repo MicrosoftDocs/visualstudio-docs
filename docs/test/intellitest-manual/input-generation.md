@@ -283,4 +283,7 @@ to a test, and can be used to implement
 
 * [How does it work?](https://blogs.msdn.microsoft.com/visualstudioalm/2014/12/11/smart-unit-tests-a-mental-model/)
 
-[!INCLUDE [irm-help-support-shared](irm-help-support-shared.md)]
+## Got feedback?
+
+Post your ideas and feature requests on 
+**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.

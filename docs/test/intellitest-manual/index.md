@@ -136,5 +136,7 @@ translation.priority.ht:
   - [Observed call mismatch](warnings-and-errors.md#observed-call-mismatch)
   - [Value stored in static field](warnings-and-errors.md#value-static-field)<p>&nbsp;</p>
 
-[!INCLUDE [irm-help-support-shared](irm-help-support-shared.md)]
+## Got feedback?
 
+Post your ideas and feature requests on 
+**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.

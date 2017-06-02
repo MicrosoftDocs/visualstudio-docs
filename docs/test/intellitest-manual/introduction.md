@@ -264,4 +264,7 @@ by design of the "rethrow" instruction.
 * [Introductory blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2014/11/19/introducing-smart-unit-tests/) on MSDN.
 * [Generate unit tests for your code with IntelliTest](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest)
 
-[!INCLUDE [irm-help-support-shared](irm-help-support-shared.md)]
+## Got feedback?
+
+Post your ideas and feature requests on 
+**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.

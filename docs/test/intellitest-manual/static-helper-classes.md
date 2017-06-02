@@ -230,4 +230,7 @@ public static void AreElementsNotNull<T>(T[] value)
 }
 ```
 
-[!INCLUDE [irm-help-support-shared](irm-help-support-shared.md)]
+## Got feedback?
+
+Post your ideas and feature requests on 
+**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
