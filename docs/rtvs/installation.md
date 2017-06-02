@@ -1,7 +1,7 @@
 ---
 title: "Installing the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 5/24/2017
+ms.date: 6/2/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,10 +51,8 @@ RTVS will not install if you have only the Visual Studio Shell that's included w
 
 ## Installing RTVS in Visual Studio 2017
 
-> [!Important]
-> Installing RTVS in Visual Studio 2017 on Windows 7 is currently blocked as described on [GitHub issue #3561](https://github.com/Microsoft/RTVS/issues/3561). This will be resolved in the 15.3 update to Visual Studio 2017.
+1. Run the Visual Studio installer. (See [Downloads](https://www.visualstudio.com/downloads/) if you don't yet have Visual Studio installed.) On Windows 7, be sure that your installer is updated to show Visual Studio version *15.2 build 26430.12* or later.
 
-1. Run the Visual Studio installer. (See [Downloads](https://www.visualstudio.com/downloads/) if you don't yet have Visual Studio installed.)
 2. Select the **Data science and analytical applications** workload:
 
     ![Data science and analytical applications workload in VS2017](media/installation-data-science-workload.png)
