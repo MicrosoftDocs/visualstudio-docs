@@ -85,3 +85,7 @@
 ### [Analyze the code quality of Store apps using Visual Studio static code analysis](analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
 #### [Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis](analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md)
 #### [Analyze C++ code quality of Store apps using Visual Studio static code analysis](analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
+## [Test Lab Management](lab-management/using-a-lab-environment-for-your-application-lifecycle.md)
+### [Use Build or Release Management for automated testing](lab-management/use-build-or-rm-instead-of-lab-management.md)
+### [Install and configure test agents](lab-management/install-configure-test-agents.md)
+### [Upgrade SCVMM 2008 R2 to SCVMM 2012](lab-management/upgrade-scvmm-2008-r2-scvmm-2012.md)
