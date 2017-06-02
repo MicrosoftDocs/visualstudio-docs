@@ -131,7 +131,7 @@ Startup scripts contain code that the interactive window loads and runs automati
 
 1. When you install an environment, Visual Studio creates a special folder within your **Documents** folder, which you open with the **Explore interactive scripts** command. When you start the interactive window, it loads and runs whatever `.py` files are found here in alphabetical order.
 
-1. The **Scripts** control in **Tools > Options > Python Tools > Interactive Windows** tab (see [Interactive window options](optiond.md#interactive-windows-options)) is intended to specify an additional folder that's not tied to an environment, in which you can place startup scripts to be loaded and run for all environments. However, this feature doesn't work at present.
+1. The **Scripts** control in **Tools > Options > Python Tools > Interactive Windows** tab (see [Interactive windows options](options.md#interactive-windows-options)) is intended to specify an additional folder that's not tied to an environment, in which you can place startup scripts to be loaded and run for all environments. However, this feature doesn't work at present.
 
 
 ### Configure tab
