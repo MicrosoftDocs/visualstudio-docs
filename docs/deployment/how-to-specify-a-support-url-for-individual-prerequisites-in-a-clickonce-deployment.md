@@ -95,7 +95,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
  The support URL is not displayed on the dialog box if the application is marked to run in partial trust.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)   
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
  [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   

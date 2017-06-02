@@ -91,7 +91,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
 -   The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
   
--   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](http://msdn.microsoft.com/Library/7e953b43-1374-4bbc-814f-53ca1b6b52bb).  
+-   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool).  
   
 ### Create a ClickOnce Application  
  A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
@@ -104,7 +104,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
 > [!CAUTION]
 >  We do not recommend that the application be deployed with a test certificate.  
   
- You can also sign the application by using the Mage.exe or MageUI.exe SDK tools. For more information, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). For a full list of command-line options related to deployment signing, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1).  
+ You can also sign the application by using the Mage.exe or MageUI.exe SDK tools. For more information, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). For a full list of command-line options related to deployment signing, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).  
   
 ### Publish the Application  
  As soon as you have signed your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests, the application is ready to publish to your install location. The installation location can be a Web server, a file share, or the local disk. When a client accesses the deployment manifest for the first time, the trust manager must choose whether the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application has been granted authority or not to run at a higher level of trust by an installed trusted publisher. The trust manager makes this choice by comparing the certificate used to sign the deployment with the certificates stored in the client's trusted publisher store. If the trust manager finds a match, the application runs with high trust.  
@@ -116,5 +116,5 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
  You can use Trusted Application Deployment to grant elevated trust to [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications deployed over the Web or through an enterprise file share. You do not have to use Trusted Application Deployment for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications distributed on a CD, because, by default, these applications are granted full trust.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)   
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

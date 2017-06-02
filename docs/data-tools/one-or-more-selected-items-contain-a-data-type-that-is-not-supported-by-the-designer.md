@@ -39,4 +39,4 @@ One or more of the items dragged from **Server Explorer**/**Database Explorer** 
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
- [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)
+ [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

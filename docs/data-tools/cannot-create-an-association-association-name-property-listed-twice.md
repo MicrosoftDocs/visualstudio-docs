@@ -47,4 +47,4 @@ Cannot create an association \<association name>. The same property is listed mo
  [LINQ to SQL Tools in Visual Studio](linq-to-sql-tools-in-visual-studio2.md)   
  [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
- [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)
+ [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

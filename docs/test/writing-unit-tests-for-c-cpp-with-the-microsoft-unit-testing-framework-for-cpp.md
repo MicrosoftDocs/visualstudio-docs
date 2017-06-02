@@ -408,5 +408,5 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
  [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)   
  [An Overview of Managed/Unmanaged Code Interoperability](http://msdn.microsoft.com/library/ms973872.aspx)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](http://msdn.microsoft.com/Library/3ae94848-44e7-4955-bbad-7d40f493e941)   
+ [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)   
  [Importing and Exporting](/cpp/build/importing-and-exporting)

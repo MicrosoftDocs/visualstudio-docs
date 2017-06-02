@@ -46,7 +46,7 @@ manager: "ghogen"
 > [!NOTE]  
 >  SharePoint projects in Visual Studio support only [!INCLUDE[net_v35_long](../sharepoint/includes/net-v35-long-md.md)]. If you select [!INCLUDE[net_v40_long](../sharepoint/includes/net-v40-long-md.md)] for a new SharePoint project, it will still target [!INCLUDE[net_v35_long](../sharepoint/includes/net-v35-long-md.md)].  
   
- For more information about how to install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Installing Visual Studio](../Topic/Installing%20Visual%20Studio.md).  
+ For more information about how to install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Install Visual Studio](../install/install-visual-studio.md).  
   
 ## Vista and Windows 7 User Account Control (UAC)  
  [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] incorporate a security feature that's known as User Account Control (UAC). To develop SharePoint solutions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] systems, UAC requires that you run [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] as a system administrator. On the desktop, open the shortcut menu for [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and then choose **Run as administrator**.  

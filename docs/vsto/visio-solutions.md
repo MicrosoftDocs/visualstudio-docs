@@ -64,7 +64,7 @@ manager: "ghogen"
 |----------|--------------------------|  
 |Customize the ribbon.|[Ribbon Overview](../vsto/ribbon-overview.md)|  
   
- For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](HV10077129) class.  
+ For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](https://msdn.microsoft.com/library/office/ff765763.aspx) class.  
   
 ## See Also  
  [Getting Started Programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)   

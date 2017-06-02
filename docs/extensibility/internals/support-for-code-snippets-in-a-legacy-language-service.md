@@ -127,7 +127,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
 ### Inserting a Code Snippet by using a Menu Command  
  To use a menu command to display the snippet browser, you add a menu command and then call the <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> method in the <xref:Microsoft.VisualStudio.Package.ExpansionProvider> interface in response to that menu command.  
   
-1.  Add a command and a button to your .vsct file. You can find instructions for doing so in [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
+1.  Add a command and a button to your .vsct file. You can find instructions for doing so in [Creating an Extension with a Menu Command](../../extensibility/creating-an-extension-with-a-menu-command.md).  
   
 2.  Derive a class from the <xref:Microsoft.VisualStudio.Package.ViewFilter> class and override the <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> method to indicate support for the new menu command. This example always enables the menu command.  
   
@@ -238,8 +238,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
   
  Here is a version of a <xref:Microsoft.VisualStudio.Package.Declarations> class that handles snippet insertion given a shortcut name. Other methods in the <xref:Microsoft.VisualStudio.Package.Declarations> class have been omitted for clarity. Note that the constructor of this class takes a <xref:Microsoft.VisualStudio.Package.LanguageService> object. This can be passed in from your version of the <xref:Microsoft.VisualStudio.Package.AuthoringScope> object (for example, your implementation of the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class might take the <xref:Microsoft.VisualStudio.Package.LanguageService> object in its constructor and pass that object on to your `TestDeclarations` class constructor).  
   
-```  
-[C#]  
+```c#  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   

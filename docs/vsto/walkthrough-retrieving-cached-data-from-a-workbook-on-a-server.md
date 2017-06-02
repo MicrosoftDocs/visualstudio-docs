@@ -87,7 +87,7 @@ manager: "ghogen"
 ## Defining a Dataset in the Class Library Project  
  Define a typed dataset that contains data from the AdventureWorksLT database for SQL Server 2005. Later in this walkthrough, you will reference this dataset from an Excel workbook project and a console application project.  
   
- The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](/visual-studio/data-tools/dataset-tools-in-visual-studio).  
+ The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
 #### To define a typed dataset in the class library project  
   
@@ -307,6 +307,6 @@ manager: "ghogen"
 ## See Also  
  [Walkthrough: Inserting Data into a Workbook on a Server](../vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md)   
  [Walkthrough: Changing Cached Data in a Workbook on a Server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md)   
- [Connecting to Data in Windows Forms Applications](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)  
+ [Connecting to Data in Windows Forms Applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)  
   
   

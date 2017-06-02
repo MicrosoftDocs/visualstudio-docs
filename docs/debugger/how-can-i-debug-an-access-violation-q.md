@@ -1,7 +1,7 @@
 ---
-title: "How Can I Debug an Access Violation? | Microsoft Docs"
+title: "How Can I Debug a C++ Access Violation? | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/23/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# How Can I Debug an Access Violation?
+# How Can I Debug a C++ Access Violation?
 ## Problem Description  
  My program produces an access violation. How can I debug this?  
   

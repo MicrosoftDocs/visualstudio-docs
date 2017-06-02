@@ -71,6 +71,6 @@ manager: "ghogen"
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

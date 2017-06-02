@@ -70,7 +70,7 @@ int LoadSymbolsFromCallback(
  [in] Object that contains the symbol metadata.  
   
  `pUnkCorDebugModule`  
- [in] Object that implements the [ICorDebugModule Interface](/dotnet/articles/framework/unmanaged-api/debugging/icordebugmodule-interface).  
+ [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).  
   
  `bstrModuleName`  
  [in] Name of the module.  
