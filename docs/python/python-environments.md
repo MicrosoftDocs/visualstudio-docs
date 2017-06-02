@@ -110,12 +110,29 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 
 ### Overview tab
 
-Provides basic information and commands for the environment such as setting it as the default, opening an [interactive (REPL) window](interactive-repl.md) with that environment, and jumping to the dialog to configure the interactive window (identical to the **Tools > Options** menu command, selecting **Python Tools > Interactive Windows** and the name of the environment).
+Provides basic information and commands for the environment:
 
 ![Python Environments overview tab](media/environments-overview-tab.png)
 
-> [!Note]
-> Changing the active environment may cause Visual Studio to briefly become non-responsive while the IntelliSense database is loaded. Environments with many packages may be non-responsive for longer.
+| Command | Description |
+| --- | --- |
+| Make this the default environment for new projects | Sets the active environment, which may cause Visual Studio to briefly become non-responsive while the IntelliSense database is loaded. Environments with many packages may be non-responsive for longer. |
+| Visit the distributor's website | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
+| Open interactive window | Opens the [interactive (REPL) window](interactive-repl.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
+| Use IPython interactive mode | When set, opens the interactive window with IPython by default. This enabled inline plots as well as the extended IPython syntax such as `name?` to view help and `!command` for shell commands. This is recommended when using an Anaconda distribution, as it requires extra packages. See [Using IPython in the Interactive Window](interactive-repl-ipython.md) for more. |
+| Open in PowerShell | Starts the interpreter in a PowerShell command window. |
+| (Folder links) | Provide you quick access to the environment's installation folder, the python.exe interpreter, and the pythonw.exe interpreter. The first opens in Windows Explorer, the latter two open a console window. |
+
+#### Startup scripts
+
+As you use interactive windows in your everyday workflow, you'll likely develop helper functions that you use regularly. For example, you may make a function that opens a DataFrame in Excel, and then save it to this folder so that you can use it in your interactive window.
+
+Startup scripts contain code that the interactive window loads and runs automatically, including imports, function definitions, and literally anything else. Such scripts are referenced in two ways:
+
+1. When you install an environment, Visual Studio creates a special folder within your **Documents** folder, which you open with the **Explore interactive scripts** command. When you start the interactive window, it loads and runs whatever `.py` files are found here in alphabetical order.
+
+1. The **Scripts** control in **Tools > Options > Python Tools > Interactive Windows** tab (see [Interactive window options](optiond.md#interactive-windows-options)) is intended to specify an additional folder that's not tied to an environment, in which you can place startup scripts to be loaded and run for all environments. However, this feature doesn't work at present.
+
 
 ### Configure tab
 
@@ -260,7 +277,7 @@ Cleaning up...
     Removing temporary dir C:\Project\env\build...
 ```
 
-# Search paths
+## Search paths
 
 With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `import <name>` statement, Python first searches its built-in modules for a matching name, then searches folder containing the Python code you're running, then searches the "module search path" as defined by the applicable environment variable. (See [The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) and [Environment variables](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH) in the core Python documentation.)
 
