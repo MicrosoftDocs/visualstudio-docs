@@ -65,7 +65,7 @@ int GetTypeArguments(
  [in, out] An array of fields that will be filled in on return of this method.  
   
  `pFetched`  
- [out] (optional) The number of argument type fields actually returned.  
+ [out] \(optional) The number of argument type fields actually returned.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

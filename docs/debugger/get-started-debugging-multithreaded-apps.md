@@ -1,7 +1,7 @@
 ---
 title: "Get started debugging multithreaded applications | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/25/2017"
+ms.custom: "H1HackMay2017"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -63,7 +63,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, MyThreadWalkthroughApp.cpp, or Module1.vb.  
   
-6.  Delete the code that appears in the source file and replace it with the example code shown here (this is modified code from the "Creating a Thread" section of the topic [Creating Threads and Passing Data at Start Time](/dotnet/articles/standard/threading/creating-threads-and-passing-data-at-start-time).
+6.  Delete the code that appears in the source file and replace it with the example code shown here (this is modified code from the "Creating a Thread" section of the topic [Creating Threads and Passing Data at Start Time](/dotnet/standard/threading/creating-threads-and-passing-data-at-start-time).
 
     ```C#
     using System;

@@ -105,7 +105,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 ### Adding a Service  
   
-1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
+1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
   
     ```c#  
     protected override void Initialize()  

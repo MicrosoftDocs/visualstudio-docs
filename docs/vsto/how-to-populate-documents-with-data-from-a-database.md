@@ -38,7 +38,7 @@ manager: "ghogen"
   
 1.  Open a Word document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], with the document open in the designer.  
   
-2.  Open the **Data Sources** window and create a data source from a database. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+2.  Open the **Data Sources** window and create a data source from a database. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 3.  Drag the field you want from the **Data Sources** window to your document.  
   
@@ -49,13 +49,13 @@ manager: "ghogen"
 ## Objects in the Project  
  In addition to the control, the following data-related objects are automatically added to your project:  
   
--   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visual-studio/data-tools/dataset-tools-in-visual-studio).  
+-   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
--   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md).  
+-   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).  
   
--   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](/visual-studio/data-tools/tableadapter-overview).  
+-   A TableAdapter that connects the typed dataset to the database. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
--   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../Topic/Hierarchical%20Update.md) and [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+-   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../data-tools/hierarchical-update.md) and [TableAdapterManager Reference](../data-tools/fill-datasets-by-using-tableadapters.md#tableadaptermanager-reference).  
   
  When you run the project, the control displays the first record in the data source. You can use the <xref:System.Windows.Forms.BindingSource> to enable users to scroll through the records.  
   
@@ -67,12 +67,12 @@ manager: "ghogen"
   
 ## See Also  
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Add new data sources](/visual-studio/data-tools/add-new-data-sources)   
- [Binding Windows Forms controls to data in Visual Studio](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)   
+ [Add new data sources](/visualstudio/data-tools/add-new-data-sources)   
+ [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [How to: Populate Documents with Data from Objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   
  [How to: Update a Data Source with Data from a Host Control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
  [Using Local Database Files in Office Solutions Overview](../vsto/using-local-database-files-in-office-solutions-overview.md)   
- [Connecting to Data in Windows Forms Applications](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md)  
+ [Connecting to Data in Windows Forms Applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)   
+ [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)  
   
   

@@ -85,7 +85,7 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 *  **Extensions and Updates** for [managing Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
 *  **Code Snippets Manager...** for [organizing Code Snippets](code-snippets.md#code-snippet-manager)
 *  **PreEmptive Protection - Dotfuscator** for launching [Dotfuscator Community Edition (CE)](dotfuscator/index.md) if it is [installed](dotfuscator/install.md)
-*  **Customize...** for [customizing menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio)
+*  **Customize...** for [customizing menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 *  **Options...** for [setting a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
 
 ## Add new tools to the Tools menu 

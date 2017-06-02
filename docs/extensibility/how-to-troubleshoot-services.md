@@ -50,7 +50,7 @@ if (log == null) return;
   
 ### To troubleshoot a service  
   
-1.  Examine the system registry to see whether the service has been correctly registered. For more information, see [Registering Services](../misc/registering-services.md).  
+1.  Examine the system registry to see whether the service has been correctly registered. For more information, see [How to: Provide a Service](../extensibility/how-to-provide-a-service.md).  
   
      The following .reg file fragment shows how the SVsTextManager service might be registered:  
   

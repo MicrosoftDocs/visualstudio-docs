@@ -57,7 +57,7 @@ The tools you need to use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_m
 
 - For threads, the primary tools for debugging threads are the **Threads** window, thread markers in source windows, **Parallel Stacks** window, **Parallel Watch** window, and the **Debug Location** toolbar.  
   
-- For code that uses the <xref:System.Threading.Tasks.Task> in the [Task Parallel Library (TPL)](http://msdn.microsoft.com/Library/b8f99f43-9104-45fd-9bff-385a20488a23), the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/) (native code), the primary tools for debugging multithreaded applications are the **Parallel Stacks** windoww, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports the JavaScript promise object).
+- For code that uses the <xref:System.Threading.Tasks.Task> in the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl), the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime/) (native code), the primary tools for debugging multithreaded applications are the **Parallel Stacks** windoww, the **Parallel Watch** window, and the **Tasks** window (the **Tasks** window also supports the JavaScript promise object).
 
 - For debugging threads on the GPU, the primary tool is the **GPU Threads** windows.  
   

@@ -82,5 +82,5 @@ Certain value types do not always have (or need) a defined value. This is common
  <xref:System.Nullable%601>   
  [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
  [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
- [How to: Identify a Nullable Type](http://msdn.microsoft.com/Library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
+ [How to: Identify a Nullable Type](/dotnet/csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type)   
  [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)

@@ -40,7 +40,7 @@ Globalization is the process of designing and developing a software product that
  Discusses classes that format dates, time, numbers, currency, and other information according to the culture setting.  
   
 ## Related Sections  
- [Globalizing Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)  
+ [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  Provides links to Help pages about globalization of Windows Forms.  
   
  [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  

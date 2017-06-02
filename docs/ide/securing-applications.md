@@ -73,7 +73,7 @@ While most applications possess common security challenges, each application dom
 ## Securing Desktop Applications  
  Designing security for desktop applications is an essential step in application development.  
   
- [Windows Forms Security](http://msdn.microsoft.com/Library/932d438a-5285-46d8-a958-8c93d0ad6cae)  
+ [Windows Forms Security](/dotnet/framework/winforms/windows-forms-security)  
  Provides an overview of the Windows Forms security implementation.  
   
 ## See Also  

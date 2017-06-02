@@ -35,7 +35,7 @@ translation.priority.ht:
 This document describes how to target a version of the .NET Framework when you create a project and how to change the targeted version in an existing Visual Basic, Visual C#, or Visual F# project.  
   
 > [!IMPORTANT]
->  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe).  
+>  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).  
   
  **In this topic**  
   
@@ -72,7 +72,7 @@ This document describes how to target a version of the .NET Framework when you c
      ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")  
   
     > [!IMPORTANT]
-    >  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe).  
+    >  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).  
   
 2.  In the left column of the properties window, choose the **Application** tab.  
   
@@ -97,4 +97,4 @@ This document describes how to target a version of the .NET Framework when you c
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Configuring Projects](http://msdn.microsoft.com/Library/a1489abb-6294-4f8f-b71f-2cb126393526)   
- [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)
+ [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

@@ -66,8 +66,6 @@ This topic lists common issues that may occur when you are working with [!INCLUD
     > [!NOTE]
     >  You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.  
   
- For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/troubleshooting-exceptions-system-servicemodel-security-messagesecurityexception.md).  
-  
 ## Access Level for Generated Classes Setting Has No Effect  
  Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.  
   

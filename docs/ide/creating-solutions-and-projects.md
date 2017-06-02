@@ -42,7 +42,7 @@ translation.priority.mt:
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File**, **New**, **Project** on the main menu, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.
 
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide).
+>  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a project from an installed project template  
  Choose **File**, **New**, **Project** on the main menu to display the New Project dialog. In the left pane under **Installed**, **Templates**, choose the programming language and platform or technology, then choose from the available templates in the middle pane.  
