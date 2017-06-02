@@ -50,7 +50,7 @@ If your application attempts to use a broken reference, an exception error is ge
  The following are remedies to these problems.  
 
 > [!NOTE]
->  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [Programming with Assemblies](http://msdn.microsoft.com/Library/25918b15-701d-42c7-95fc-c290d08648d6).
+>  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [Programming with Assemblies](/dotnet/framework/app-domains/programming-with-assemblies).
 
 ## Reference path is incorrect  
  If projects are shared on different computers, some references might not be found when a component is located in a different directory on each computer. References are stored under the name of the component file (for example, MyComponent). When a reference is added to a project, the folder location of the component file (for example, C:\MyComponents\\) is appended to the **ReferencePath** project property.  
@@ -96,7 +96,7 @@ If your application attempts to use a broken reference, an exception error is ge
  There can be many possible causes for inaccessible files: a failed network connection or a failed authentication, for example. Each cause might have a unique means of recovery; for example, you might have to contact the local administrator for access to the required resources. However, deleting the reference and fixing the code which used it is always an option.
 
 ## COM component is not installed on computer  
- If a user has added a reference to a COM component and a second user tries to run the code on a computer that does not have this component installed, the second user will receive an error that the reference is broken. Installing the component on the second computer will correct the error. For more information about how to use references to COM components in your projects, see [COM Interoperability in .NET Framework Applications](/dotnet/articles/visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications).  
+ If a user has added a reference to a COM component and a second user tries to run the code on a computer that does not have this component installed, the second user will receive an error that the reference is broken. Installing the component on the second computer will correct the error. For more information about how to use references to COM components in your projects, see [COM Interoperability in .NET Framework Applications](/dotnet/visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications).  
 
 ## See also  
  [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)   

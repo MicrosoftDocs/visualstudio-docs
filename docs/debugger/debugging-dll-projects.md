@@ -1,7 +1,7 @@
 ---
 title: "Debugging DLL projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/11/2017"
+ms.date: "05/23/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,20 +42,19 @@ translation.priority.mt:
 # Debugging DLL projects from Visual Studio
 The following Visual Studio templates create DLLs:  
   
--   (C++, C#, and Visual Basic) Class Library  
-  
--   (C++, C#, and Visual Basic): Windows Forms Control Library
-  
-     Debugging a Windows Forms Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](http://msdn.microsoft.com/Library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a).  
+-   (C++, C#, and Visual Basic) Class Library   
 
 -   (C++): Win32 Console DLL project
   
-     For more information, see [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md).  
+     For more information, see [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md).
+
+-   (C++, C#, and Visual Basic): Windows Forms Control Library
+  
+     Debugging a Windows Forms Control Library is similar to debugging a Class Library project. In most cases, you will call the Windows control from another project. When you debug the calling project, you can step into the code of your Windows control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).  
 
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a debug version  
  No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md).  
-  
  For the debugger to attach to code written in C++, the code must emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.  
   
 ##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-Mode debugging  
@@ -123,13 +122,13 @@ If you are debugging a DLL external to your project, the debugging features avai
 
 Your project needs to be able to find the DLL and the .pdb file used for debugging. You can create a custom build task to copy these files to the **\<project folder>\Debug** output folder, or you can copy the files into the output folder manually.
 
-You can easily set locations of header files and *.lib files in the Property Pages (right-click project and choose **View Properties**, and then choose **All Configurations**) without the need to copy them into your output folder:
+You can easily set locations of header files and *.lib files in the Property Pages (right-click the C++ project and choose **View Properties**, and then choose **All Configurations**) without the need to copy them into your output folder:
 
 - C/C++ folder (General category) - Specify the folder containing header files in the **Additional Include Directories** field.
 - Linker folder (General category) - Specify the folder containing the .lib file in the **Additional Libraries Directories** field. 
 - Linker folder (Input category) - Specify the full path and filename for the .lib file in the **Additional Dependencies** field.
 
-When the configuration is correct, you can debug by starting execution from the **Debug** menu
+When the configuration is correct, you can debug by starting execution from the **Debug** menu.
 
 For more information on project settings, see [Property Pages (Visual C++)](/cpp/ide/property-pages-visual-cpp).
   

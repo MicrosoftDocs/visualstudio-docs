@@ -266,6 +266,6 @@ By completing this walkthrough, you'll  become more familiar with several option
  Congratulations: you've successfully completed this walkthrough.  
   
 ## See Also  
- [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/Library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
+ [Walkthrough: Building a Project (C++)](/cpp/ide/walkthrough-building-a-project-cpp)   
  [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
  [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)

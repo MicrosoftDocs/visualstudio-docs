@@ -42,11 +42,14 @@ translation.priority.mt:
 # Port, Migrate, and Upgrade Visual Studio Projects
 
 Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them as you always have, and provided that you don't depend on newer features, Visual Studio preserves backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://www.visualstudio.com/vs/release-notes/) for which features are specific to which versions.)
-Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible. This topic provides details on affected project types in Visual Studio 2017. A list of supported types for Visual Studio 2017 can be found in the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) topic.
 
-> [!Note]
-> Opening certain project types will require adding the appropriate workload through the Visual Studio Installer.
+Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible.
 
+> [!Important]
+> This present topic provides details only for project types in Visual Studio 2017 that involve migration. It does not include supported project types that have no migration issues; that list is found on  found in the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs). Note also that some project types are no longer supported at all in Visual Studio 2017 and therefore cannot be migrated.
+
+> [!Important]
+> Adding appropriate workloads in the Visual Studio installer is necessary for opening certain project types. If you don't have the workload installed, Visual Studio will report an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) topic for details on project support in Visual Studio 2017.
 
 ## Projects
 
@@ -54,7 +57,7 @@ The following list describes support in Visual Studio 2017 for projects that wer
 
 | Type of Project | Support |
 | --- | --- |
-| .NET Core projects (.xproj) | Projects created with Visual Studio 2015 used preview tooling which include a .xproj project file. When you open a .xproj file with Visual Studio 2017, you will be prompted to migrate the file to the .csproj format (a backup of the .xproj file is made). This .csproj format for .NET Core projects is not supported in VS2015 and earlier.  The .xproj format is not supported in Visual Studio 2017 other than for migration to .csproj. For more information, see [Migrating .NET Core projects to the .csproj format](https://docs.microsoft.com/dotnet/articles/core/migration/#visual-studio-2017).|
+| .NET Core projects (.xproj) | Projects created with Visual Studio 2015 used preview tooling which include a .xproj project file. When you open a .xproj file with Visual Studio 2017, you will be prompted to migrate the file to the .csproj format (a backup of the .xproj file is made). This .csproj format for .NET Core projects is not supported in VS2015 and earlier.  The .xproj format is not supported in Visual Studio 2017 other than for migration to .csproj. For more information, see [Migrating .NET Core projects to the .csproj format](https://docs.microsoft.com/dotnet/core/migration/#visual-studio-2017).|
 | ASP.NET Web Application and ASP.NET Core Web Application with Application Insights enabled | For each Visual Studio user, resource information is stored in the registry per user instance. This is used when user don't have a project opened and wants to search Azure Application Insights data. Visual Studio 2015 uses different registry location than Visual Studio 2017 and does not conflict.<br/><br/>Once a user creates an ASP.NET Web Application or ASP.NET Core Web Application, the resource is stored in the .suo file. The user can open the project in Visual Studio 2015 or 2017 and the resource information will be used for both as long as Visual Studio supports projects and solutions being used across both versions. Users will need to authenticate once on each product. For example, if a project is created with Visual Studio 2015 and opened in Visual Studio 2017, the user will need to authenticate on Visual Studio 2017. |
 | C#/Visual Basic Webform or Windows Form | You can open the project in Visual Studio 2017 and Visual Studio 2015. |
 | Database Unit Test Projects (.csproj, .vbproj)	| Older Data Unit test projects will be loaded in Visual Studio 2017 but will use the GAC’d version of dependencies. To upgrade the unit test project to use the latest dependencies right click on the project in Solution Explorer and select **Convert to SQL Server Unit Testing Project...**. |

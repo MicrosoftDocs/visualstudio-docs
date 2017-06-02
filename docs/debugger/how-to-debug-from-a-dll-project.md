@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/12/2017"
+ms.date: "05/24/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -65,17 +65,19 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
   
 ### To specify the calling application in a C# or Visual Basic project  
   
-1.  Right-click the project node in the **Solution Explorer** and select **Properties**.
+1.  Right-click the project node in the **Solution Explorer** and select **Properties**, and then select the **Debug** tab.
 
-2.  Open the **Debug** tab, select **Start external program**, and add the fully-qualified path name of the calling application. 
+2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**.
 
-2.  Make sure that the **Configuration** field at the top of the window is set to **Debug**.  
+3.  (.NET Framework) Select **Start external program**, and add the fully-qualified path name of the calling application.
+
+4.  (.NET Core) Select **Executable** from the **Launch** list, and then add the fully-qualified path name of the calling application in the **Executable** field. 
   
-     If you need to add the external program's command line arguments, add them in the **Command line arguments** field.
+     If you need to add the external program's command line arguments, add them in the **Command line arguments** (or **Application argurments**) field.
 
     ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll-csharp.png "DebuggingPropertiesWindow") 
 
-3.  If you need to, you can also call an application as a URL. (You might want to do this if you are debugging a managed DLL used by a local ASP.NET application.)  
+5.  If you need to, you can also call an application as a URL. (You might want to do this if you are debugging a managed DLL used by a local ASP.NET application.)  
   
      Under **Start Action**, select the **Start browser with URL:** radio button and fill in the URL.
   

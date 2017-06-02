@@ -49,7 +49,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/dotnet/articles/welcome">
+        <a href="/dotnet/welcome">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
