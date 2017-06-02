@@ -242,4 +242,3 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
  [Data in Office Solutions](../vsto/data-in-office-solutions.md)   
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
