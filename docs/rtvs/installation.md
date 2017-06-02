@@ -90,8 +90,9 @@ Offline installation is suitable for computers that are not connected to the Int
     - [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
     - [Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
 
-1. Install Visual Studio from the offline installer.
-1. [Download RTVS](https://aka.ms/rtvs-current) and install it as usual.
+1. Download the offline RTVS installers from [https://aka.ms/rtvs-current-zip](https://aka.ms/rtvs-current-zip) and [https://aka.ms/rtvs-remote-zip](https://aka.ms/rtvs-remote-zip). 
+
+1. Install Visual Studio and RTVS from the offline installers.
 
 ## See also
 
