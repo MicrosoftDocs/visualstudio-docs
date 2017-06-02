@@ -40,7 +40,7 @@ For example, you're running continuous tests with your build and release workflo
 If you need your test agent or test controller to work with TFS 2013, 
 use Agents for Microsoft Visual Studio 2013 Update 5 and configure the test controller.
 
-Also consider if it would be easier to [use Build or Release Management instead](use-build-or-rm-instead-of-lab-management.md).
+Also consider if it would be easier to [use Build or Release Management instead](lab-management/use-build-or-rm-instead-of-lab-management.md).
 
 ## What do I need?
 
