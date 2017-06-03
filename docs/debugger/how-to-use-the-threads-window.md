@@ -84,7 +84,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 1.  Click in the left gutter of the `Console.WriteLine` statement to insert a new breakpoint.  
   
-     In the gutter on the left side of the source code editor, a red ball appears. This indicates that a breakpoint is now set at this location.  
+     In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location.  
   
 2.  On the **Debug** menu, click **Start Debugging** (**F5**).  
   
@@ -261,7 +261,7 @@ You can freeze and thaw (suspend and resume) threads to control the order in whi
   
 1.  In the **Threads** window, right-click any thread and then click **Freeze**.  
   
-2.  Look at the active thread column. The pair of vertical bars now appear there. Those two blue bars indicate that the thread is frozen.  
+2.  Look at the active thread column. The pause icon now appears there. Those pause icon indicates that the thread is frozen.  
   
 3.  Show the **Suspended Count** column by selecting it in the **Columns** list.
 
