@@ -130,8 +130,8 @@ You can see the available code snippets in the Code Snippets Manager (**Tools > 
 
 ![Code Snippets Manager](media/code-editing-code-snippets-manager.png)
 
-To create your own snippets, see [Walkthrough: Creating a Code Snippet](https://docs.microsoft.com/en-us/visualstudio/ide/walkthrough-creating-a-code-snippet).
-Code snippets can be customized by [creating a code snippet](https://msdn.microsoft.com/en-us/library/ms165394.aspx) and importing it through the 
+To create your own snippets, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md).
+Code snippets can be customized by [creating a code snippet](https://msdn.microsoft.com/library/ms165394.aspx) and importing it through the 
 
 If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
 

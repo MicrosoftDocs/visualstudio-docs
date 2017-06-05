@@ -147,4 +147,4 @@ You can also select code, right-click, and select **Send to Defining Module**, w
 
 The interactive window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. This makes suggestions more correct in the interactive window, especially with dynamically-generated code. The drawback is that functions with side-effects (such a logging messages) may impact your development experience.
 
-If this is a problem, change the settings under **Tools > Options > Python Tools > Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive Windows options](options.md#interactive-windows-optons).
+If this is a problem, change the settings under **Tools > Options > Python Tools > Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive Windows options](options.md#interactive-windows-options).

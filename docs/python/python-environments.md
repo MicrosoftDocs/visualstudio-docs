@@ -168,7 +168,7 @@ In the latter case, because the environment is located in a protected area of th
 
 Selecting **Always elevate when installing or removing packages** prevents the dialog from appearing for the environment in question. To make the dialog appear again, go to **Tools > Options > Python Tools > General** and select the button, **Reset all permanently hidden dialogs**. 
 
-In that same options tab you can also select **Always run pip as administrator** to suppress the dialog for all environments. See [Options - General tab](options.md#general-tab).
+In that same options tab you can also select **Always run pip as administrator** to suppress the dialog for all environments. See [Options - General tab](options.md#general-options).
 
 
 ### IntelliSense tab
