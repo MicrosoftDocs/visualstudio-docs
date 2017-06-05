@@ -46,7 +46,7 @@ Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNa
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`AdditionalSearchPaths`|Required [String](assetId:///String?qualifyHint=False&autoUpgrade=True)`[]` parameter.<br /><br /> Gets or sets the search paths for resolving assembly identities of native references.|  
+|`AdditionalSearchPaths`|Required <xref:System.String?displayProperty=fullName>`[]` parameter.<br /><br /> Gets or sets the search paths for resolving assembly identities of native references.|  
 |`ContainedComComponents`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the COM components of the native assembly.|  
 |`ContainedLooseEtcFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose Etc files listed in the native manifest.|  
 |`ContainedLooseTlbFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose .tlb files of the native assembly.|  
