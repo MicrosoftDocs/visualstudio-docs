@@ -56,4 +56,3 @@ manager: "ghogen"
  [How to: Remove Managed Code Extensions from Documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)   
  [Application and Deployment Manifests in Office Solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)  
   
-  

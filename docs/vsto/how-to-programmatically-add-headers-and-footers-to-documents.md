@@ -74,5 +74,4 @@ manager: "ghogen"
  [How to: Programmatically Create New Documents](../vsto/how-to-programmatically-create-new-documents.md)   
  [How to: Programmatically Extend Ranges in Documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)   
  [How to: Programmatically Loop Through Found Items in Documents](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)  
-  
-  
+   

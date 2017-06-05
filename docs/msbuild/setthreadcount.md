@@ -49,7 +49,7 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  The number of threads to use.  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the thread count was updated.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.  
   
 ## Requirements  
  **Header:** FileTracker.h

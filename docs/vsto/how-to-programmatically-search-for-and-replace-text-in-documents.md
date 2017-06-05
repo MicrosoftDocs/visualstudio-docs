@@ -124,4 +124,3 @@ manager: "ghogen"
  [How to: Programmatically Restore Selections After Searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
-  
