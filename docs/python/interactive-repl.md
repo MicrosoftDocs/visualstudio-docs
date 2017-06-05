@@ -71,13 +71,9 @@ Finally, you can select code in file and use the [send code to interactive comma
 
 ## Interactive window options
 
-You can control various aspects of the interactive window through the **Configure interactive window** in the Python Environments window, or through **Tools > Options > Python Tools > Interactive Windows** (see [Options](options.md):
+You can control various aspects of the interactive window through **Tools > Options > Python Tools > Interactive Windows** (see [Options](options.md)):
 
 ![Python interactive window options](media/interactive-window-options.png)
-
-Note that there is also a separate set of options for the **Debug Interactive Window**, which controls behavior when using during a debugging session:
-
-![Python interactive window debug options](media/interactive-window-debug-options.png)
 
 ## Using the interactive window
 
@@ -85,7 +81,7 @@ Once the interactive window is open, you can start entering code line-by-line at
 
 ![Python interactive window](media/interactive-window.png)
 
-The exception is when a statement ends in a colon, as with the `for` statement above, because the interactive window knows that it needs additional lines of code before it can properly execute the code block. In this case, the line prompt changes to `...` indicating that you need to enter additional lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press Enter on a blank line, the interactive window closes the block and executes it in the interpreter.
+The exception is when additional lines of code are needed to make a complete statement, such as when a line ends in a colon, as with the `for` statement above. In this case, the line prompt changes to `...` indicating that you need to enter additional lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press Enter on a blank line, the interactive window closes the block and executes it in the interpreter.
 
 > [!Tip]
 > The interactive window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
@@ -104,17 +100,7 @@ The interactive window also supports several meta-commands. All meta-commands st
 | `$reset` | Resets the execution environment to the initial state, but keeps history. |
 | `$wait` | Waits for at least the specified number of milliseconds. |
 
-The commands are also extensible via MEF (the Managed Extensibility Framework for .NET).
-
-## Code cells
-
-*Visual Studio 2017 only*
-
-When using a code file as a scratchpad, you often have a small block of code you want to send all at once. To simplify this, you can mark a section of code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using Ctrl+Enter inside a code cell sends the entire cell to the interactive window and moves to the next one.
-
-Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading as a Python file, opening in Visual Studio, and using Ctrl+Enter to run each cell.
-
-![Interactive code cells](media/interactive-code-cells.png)
+Commands are also extensible by Visual Studio extensions by implementing and exporting `IInteractiveWindowCommand` ([example](https://github.com/Microsoft/PTVS/blob/master/Python/Product/PythonTools/PythonTools/Repl/InteractiveWindowCommands.cs#L85)).
 
 ## Switching scopes
 
@@ -122,7 +108,7 @@ By default, the interactive window for a project is scoped to the project's star
 
 ![Interactive window scopes](media/interactive-scopes.png)
 
-Once you import a module, such as typing `import os`, you'll see options in the drop-down to switch into any scope in that module. You'll also see a message in the interactive window indicating the new scope, so you can keep track of how you got to a certain state during your session.
+Once you import a module, such as typing `import importlib`, you'll see options in the drop-down to switch into any scope in that module. You'll also see a message in the interactive window indicating the new scope, so you can keep track of how you got to a certain state during your session.
 
 Entering `dir()` in a scope displays valid identifiers in that scope, including function names, classes, and variables. For example, using `$mod importlib` followed by `dir()` shows the following:
 
@@ -132,7 +118,7 @@ Entering `dir()` in a scope displays valid identifiers in that scope, including 
 
 ## Send code to interactive command
 
-In addition to working within the interactive window directly, you can select code in the editor, right-click, and choose **Send to Interactive**:
+In addition to working within the interactive window directly, you can select code in the editor, right-click, and choose **Send to Interactive** or press Ctrl+Enter.
 
 ![Send to interactive menu command](media/interactive-send-to.png)
 
@@ -141,7 +127,13 @@ This is useful for for iterative or evolutionary code development, including tes
 > [!Tip]
 > By default, Visual Studio removes >>> and ... REPL prompts when pasting code from the interactive window into the editor. You can change this behavior on  the **Tools > Options > Text Editor > Python > Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](options.md#miscellaneous-options).
 
-You can also select code, right-click, and select **Send to Defining Module**, which searches the interactive process to find the module that matches the current file being edited. If the command finds the correct module, then it uses the `$mod` meta-command to switch to that module (which becomes part of the interactive window's session history), and pastes the selection into the interactive window for evaluation. This shortcuts the process of copying code in the editor, switching scopes in the interactive window, and pasting manually.
+<!-- After 15.3 is released, you can also press "Undo" after pasting to restore prompts. Press "Undo" a second time to remove the pasted code entirely. -->
+
+When using a code file as a scratchpad, you often have a small block of code you want to send all at once. To simplify this, you can mark a section of code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using Ctrl+Enter inside a code cell sends the entire cell to the interactive window and moves to the next one.
+
+Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading as a Python file, opening in Visual Studio, and using Ctrl+Enter to run each cell.
+
+![Interactive code cells](media/interactive-code-cells.png)
 
 ## IntelliSense behavior
 
