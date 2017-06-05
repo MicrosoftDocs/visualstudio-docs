@@ -73,5 +73,5 @@ translation.priority.mt:
  [!code-cpp[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/CPP/ca1016-mark-assemblies-with-assemblyversionattribute_1.cpp)]  
   
 ## See Also  
- [Assembly Versioning](http://msdn.microsoft.com/Library/775ad4fb-914f-453c-98ef-ce1089b6f903)   
- [How to: Create a Publisher Policy](http://msdn.microsoft.com/Library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)
+ [Assembly Versioning](/dotnet/framework/app-domains/assembly-versioning)   
+ [How to: Create a Publisher Policy](/dotnet/framework/configure-apps/how-to-create-a-publisher-policy)

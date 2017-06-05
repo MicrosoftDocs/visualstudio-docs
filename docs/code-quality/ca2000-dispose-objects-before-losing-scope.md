@@ -176,4 +176,4 @@ End Function
 
 ## See Also  
  <xref:System.IDisposable>   
- [Dispose Pattern](http://msdn.microsoft.com/Library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)

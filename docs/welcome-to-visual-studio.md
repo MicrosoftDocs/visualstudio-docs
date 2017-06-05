@@ -103,7 +103,7 @@ Learn about what's new in Visual Studio.
 |||  
 |-|-|  
 |[What's new in Visual Studio 2017](ide/whats-new-in-visual-studio.md)|[What's new for Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-|[What's New for Visual C#](/dotnet/articles/csharp/csharp-7)|
+|[What's New for Visual C#](/dotnet/csharp/csharp-7)|
 
 
 ## Extend Visual Studio  

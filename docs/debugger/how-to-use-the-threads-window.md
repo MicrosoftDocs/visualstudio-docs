@@ -57,7 +57,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Module1.vb, Program.cs, or MyThreadWalkthroughApp.cpp  
   
-6.  Delete the code that appears in the source file and replace it with the example code that appears in the section "Creating a Thread" of the topic [Creating Threads and Passing Data at Start Time](/dotnet/articles/standard/threading/creating-threads-and-passing-data-at-start-time).  
+6.  Delete the code that appears in the source file and replace it with the example code that appears in the section "Creating a Thread" of the topic [Creating Threads and Passing Data at Start Time](/dotnet/standard/threading/creating-threads-and-passing-data-at-start-time).  
   
 7.  On the **File** menu, click **Save All**.  
   

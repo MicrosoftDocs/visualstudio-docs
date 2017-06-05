@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Test-First Support with the Generate From Usage Feature
-This topic demonstrates how to use the [Generate From Usage](../misc/generate-from-usage.md) feature, which supports test-first development.  
+This topic demonstrates how to use the [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage) feature, which supports test-first development.  
   
  *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.  
   
@@ -184,7 +184,7 @@ Test Results window
 Test Results window  
   
 ## See Also  
- [Generate From Usage](../misc/generate-from-usage.md)   
+ [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)

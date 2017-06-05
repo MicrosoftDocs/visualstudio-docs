@@ -64,9 +64,9 @@ translation.priority.ht:
   
      `mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx`  
   
-     For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)  
+     For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)  
   
 ## See Also  
  [\<fileAssociation> Element](../deployment/fileassociation-element-clickonce-application.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

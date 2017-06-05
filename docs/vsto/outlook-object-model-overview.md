@@ -142,4 +142,3 @@ manager: "ghogen"
 |[Working with Calendar Items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
 |[How to: Programmatically Determine the Current Outlook Item](../vsto/how-to-programmatically-determine-the-current-outlook-item.md)|Shows how to display the name of the current folder and some information about the selected item.|  
   
-  

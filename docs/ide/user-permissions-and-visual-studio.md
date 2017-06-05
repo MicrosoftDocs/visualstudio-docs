@@ -53,7 +53,7 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 ||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
 |Debugging|Debugging applications that run with elevated permissions.|[Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)|  
 ||Debugging applications that a run under a different user account, such as ASP.NET websites.|[Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)|  
-||Debugging in Zone for XAML Browser Applications (XBAP).|[WPF Host (PresentationHost.exe)](http://msdn.microsoft.com/Library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|  
+||Debugging in Zone for XAML Browser Applications (XBAP).|[WPF Host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|  
 ||Using the emulator to debug cloud service projects for Microsoft Azure.|[Debugging a Cloud Service in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=266725)|  
 ||Configuring a firewall for remote debugging.|[Remote Debugging](../debugger/remote-debugging.md)|  
 |Performance tools|Profiling an application.|[Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)|  

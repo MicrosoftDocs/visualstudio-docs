@@ -57,7 +57,9 @@ A TableAdapter component  fills a dataset with data from the database, based on 
 |[How to extend the functionality of a TableAdapter](../data-tools/fill-datasets-by-using-tableadapters.md)|How to add custom code to TableAdapters|  
 |[Read XML data into a dataset](../data-tools/read-xml-data-into-a-dataset.md)|How to work with XML|  
   
-## TableAdapters overview  
+<a name="tableadapter-overview"></a>  
+  
+## TableAdapter overview  
  TableAdapters are designer-generated components that connect to a database, run queries or stored procedures, and fill their DataTable with the returned data. TableAdapters  also  send updated data from your application back to the database. You can run as many queries as you want on a TableAdapter as long as they return data that conforms to the schema of the table with which the TableAdapter is associated. The following diagram shows how TableAdapters interact with databases and other objects in memory:  
   
  ![Data flow in a client application](../data-tools/media/clientdatadiagram.gif "ClientDataDiagram")  
@@ -117,6 +119,24 @@ A TableAdapter component  fills a dataset with data from the database, based on 
 ## TableAdapter support for nullable types  
  TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types.md). For more information about nullable types in C#, see [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types).  
   
+<a name="tableadaptermanager-reference"></a>  
+  
+## TableAdapterManager reference  
+ By default, a `TableAdapterManager` class is generated when you create a dataset that contains related tables. To prevent the class from being generated, change the value of the `Hierarchical Update` property of the dataset to false. When you drag a table that has a relation onto the design surface of a Windows Form or WPF page, Visual Studio declares a member variable of the class. If you don't use databinding, you have to manually declare the variable.  
+  
+ The `TableAdapterManager` class is not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. Therefore, you cannot look it up in the documentation. It is created at design time as part of the dataset creation process.  
+  
+ The following are the frequently used methods and properties of the `TableAdapterManager` class:  
+  
+|Member|Description|  
+|------------|-----------------|  
+|`UpdateAll` method|Saves all data from all data tables.|  
+|`BackUpDataSetBeforeUpdate` property|Determines whether to create a backup copy of the dataset before executing the `TableAdapterManager.UpdateAll` method.Boolean.|  
+|*tableName* `TableAdapter` property|Represents a `TableAdapter`. The generated `TableAdapterManager` contains a property for each `TableAdapter` it manages. For example, a dataset with a Customers and Orders table is generated with a `TableAdapterManager` that contains `CustomersTableAdapter` and `OrdersTableAdapter` properties.|  
+|`UpdateOrder` property|Controls the order of the individual insert, update, and delete commands. Set this to one of the values in the `TableAdapterManager.UpdateOrderOption` enumeration.<br /><br /> By default, the `UpdateOrder` is set to **InsertUpdateDelete**. This means that inserts, then updates, and then deletes are performed for all tables in the dataset.|  
+  
+
+
 ## Security  
  When you use data commands with a `CommandType` property set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.  
   

@@ -57,7 +57,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 5.  Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Create a new project  
  In this step, you  create a Visual Basic or Visual C# project that  contains this walkthrough.  
@@ -68,7 +68,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  Name the project `ReadingXML`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   

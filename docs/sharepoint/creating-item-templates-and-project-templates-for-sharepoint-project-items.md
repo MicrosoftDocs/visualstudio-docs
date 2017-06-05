@@ -30,7 +30,7 @@ manager: "ghogen"
   
  For example, Visual Studio does not include a project template or item template for adding a field to a SharePoint site. You can define a SharePoint project item type that represents a field and then construct an item template that other developers can use to add the field item to a SharePoint project. Or, you can construct a project template so that developers can create a new SharePoint project that contains the field item. In both cases, you can also provide a wizard that appears when developers use your template. This wizard can collect information from developers to configure the new item or project.  
   
- Item templates and project templates are .zip files that contain files that are used by Visual Studio to create a project item or project. For more information about the fundamentals of item templates and project templates, see [Creating Project and Item Templates](/visual-studio/ide/creating-project-and-item-templates).  
+ Item templates and project templates are .zip files that contain files that are used by Visual Studio to create a project item or project. For more information about the fundamentals of item templates and project templates, see [Creating Project and Item Templates](/visualstudio/ide/creating-project-and-item-templates).  
   
 ##  <a name="creatingitemtemplates"></a> Creating Item Templates  
  When you create an item template for a SharePoint project item, there are some files that are always required, and optional files that might be used by certain types of project items. For a walkthrough that demonstrates how to define a SharePoint project item type and create an item template for it, see [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).  
@@ -87,6 +87,6 @@ manager: "ghogen"
  [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)   
  [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)   
  [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)   
- [Creating Project and Item Templates](/visual-studio/ide/creating-project-and-item-templates)  
+ [Creating Project and Item Templates](/visualstudio/ide/creating-project-and-item-templates)  
   
   

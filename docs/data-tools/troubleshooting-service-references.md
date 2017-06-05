@@ -39,7 +39,7 @@ translation.priority.mt:
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] or [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] references in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Error Returning Data from a Service  
- When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize%2A>.  
+ When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.HttpBindingBase.MaxReceivedMessageSize%2A>.  
   
  To fix this error:  
   
@@ -65,8 +65,6 @@ This topic lists common issues that may occur when you are working with [!INCLUD
   
     > [!NOTE]
     >  You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.  
-  
- For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/troubleshooting-exceptions-system-servicemodel-security-messagesecurityexception.md).  
   
 ## Access Level for Generated Classes Setting Has No Effect  
  Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.  

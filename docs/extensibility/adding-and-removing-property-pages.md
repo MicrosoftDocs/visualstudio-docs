@@ -215,7 +215,7 @@ The Project Designer provides a centralized location for managing project proper
     ```  
   
 > [!NOTE]
->  All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
+>  All code examples provided in this topic are parts of a larger example in [VSSDK Samples](http://aka.ms/vs2015sdksamples).  
   
 ## See Also  
  [Project Subtypes](../extensibility/internals/project-subtypes.md)

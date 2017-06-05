@@ -43,13 +43,13 @@ translation.priority.ht:
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- A public or protected member has a [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) and is called by a member that does not perform any security checks.  
+ A public or protected member has a [Link Demands](/dotnet/framework/misc/link-demands) and is called by a member that does not perform any security checks.  
   
 ## Rule Description  
  A link demand checks the permissions of the immediate caller only. If a member `X` makes no security demands of its callers, and calls code protected by a link demand, a caller without the necessary permission can use `X` to access the protected member.  
   
 ## How to Fix Violations  
- Add a security [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6) or link demand to the member so that it no longer provides unsecured access to the link demand-protected member.  
+ Add a security [Data and Modeling](/dotnet/framework/data/index) or link demand to the member so that it no longer provides unsecured access to the link demand-protected member.  
   
 ## When to Suppress Warnings  
  To safely suppress a warning from this rule, you must make sure that your code does not grant its callers access to operations or resources that can be used in a destructive manner.  
@@ -68,6 +68,6 @@ translation.priority.ht:
   
  **Value from unsecured member: seattle.corp.contoso.com**   
 ## See Also  
- [Secure Coding Guidelines](http://msdn.microsoft.com/Library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)   
- [Link Demands](http://msdn.microsoft.com/Library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)   
- [Data and Modeling](http://msdn.microsoft.com/Library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
+ [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)   
+ [Link Demands](/dotnet/framework/misc/link-demands)   
+ [Data and Modeling](/dotnet/framework/data/index)

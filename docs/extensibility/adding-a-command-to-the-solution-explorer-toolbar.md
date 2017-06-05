@@ -126,7 +126,7 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
   
 5.  On the **File** menu, click **Close Solution**. The button disappears from the toolbar.  
   
- The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md).  
+ The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../extensibility/menucommands-vs-olemenucommands.md).  
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
