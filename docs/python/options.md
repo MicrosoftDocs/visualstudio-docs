@@ -104,7 +104,7 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Committed by typing the following characters | {}[]().,:;+-*/%&|^~=<>#@\ | These characters typically follow an identifier that one ,might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
+| Committed by typing the following characters | {}[]().,:;+-*/%&&#124;^~=<>#@\ | These characters typically follow an identifier that one ,might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
 | Enter commits current completion | On | When set, the Enter key chooses and applies the currently selected completion as with the characters above (but of course, there isn't a character for Enter so it couldn't go into that list directly!). |
 | Add new line on enter at end of fully typed word | Off | By default, if you type the entire word that appears in the completion popup and press Enter, you simply commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that Enter inserts a new line. |
 
