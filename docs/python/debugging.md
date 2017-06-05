@@ -207,6 +207,6 @@ The Debug Interactive window supports special meta-commands in addition to the [
 
 Note that the standard debugger windows such as Processes, Threads and Call Stack are not synchronized with the Debug Interactive window. This means that changing the active process, thread, or frame in the Debug Interactive window will not affect the other debugger windows, and similarly, changing the active process, thread, or frame in the other debugger windows will not affect the Debug Interactive window.
 
-The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools >Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged.
+The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools > Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](options.md#debugging-options).
 
 ![Debug Interactive Window Options](media/debugging-interactive-options.png)
