@@ -38,7 +38,7 @@ Just right-click a Python project in Solution Explorer and select **Python > Run
 
 ![PyLint command on context menu for Python projects](media/code-pylint-command.png)
 
-Using the commands prompt you to install PyLint into your active environment if needed.
+Using this command prompts you to install PyLint into your active environment if needed.
 
 PyLint warnings and errors appear in the Error List window:
 
