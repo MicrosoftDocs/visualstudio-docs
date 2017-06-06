@@ -59,7 +59,7 @@ First, switch to the Python Environments window (**View > Other Windows > Python
 
 ![Interactive Window link in the Python Environments window](media/interactive-window-opening.png)
 
-Second, the **View > Other Windows** has **Interactive** commands for each of your environments, typically shown near the bottom of the menu:
+Second, near the bottom of the the **View > Other Windows** menu, there's a ** Python Interactive Window** command for your default environment, as well as a command to switch to the environments window:
 
 ![Interactive Window menu items in View > Other Windows](media/interactive-window-menu.png)
 
@@ -77,7 +77,7 @@ You can control various aspects of the interactive window through **Tools > Opti
 
 ## Using the interactive window
 
-Once the interactive window is open, you can start entering code line-by-line at the `>>>` prompt. The interactive window executes each line as you enter it, which includes importing modules, defining variables, and so on. You can see this in the first two lines shown in the graphic below:
+Once the interactive window is open, you can start entering code line-by-line at the `>>>` prompt. The interactive window executes each line as you enter it, which includes importing modules, defining variables, and so on. You can see this in the graphic below:
 
 ![Python interactive window](media/interactive-window.png)
 
