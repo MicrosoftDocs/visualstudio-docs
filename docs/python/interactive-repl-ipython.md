@@ -32,9 +32,9 @@ translation.priority.ht:
 
 # Using IPython in the Interactive Window
 
-The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window. For this you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](interactive-repl.md) features are also available.
 
-All of the regular features of the interactive window are also available when IPython mode is enabled. Please read the [Interactive Python](interactive-repl.md) section for more information. This section will help you start using IPython mode and ensure that it is enabled.
+For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
@@ -43,7 +43,7 @@ All of the regular features of the interactive window are also available when IP
 
 1. Look at the **Packages** (or **pip**) tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
 
-1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**)/    
+1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).    
 
 1. Select **Open interactive window** to bring up the interactive window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press Enter if only a >>> prompt appears.
 
@@ -61,7 +61,7 @@ All of the regular features of the interactive window are also available when IP
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 
-1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (or press Ctrl-Enter). Try pasting the code below into a new file in the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that when Visual Studio sends code to the interactive window, it sends it as one unit to avoid giving you intermediate or partial graphs. Also note that if you don't have a Python project open with a different environment selected, Visual Studio will open an interactive window for whatever environment is selected as your default in the **Python Environments** window.)
+1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (or press Ctrl-Enter). Try pasting the code below into a new file in the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. Also note that if you don't have a Python project open with a different environment selected, Visual Studio opens an interactive window for whatever environment is selected as your default in the **Python Environments** window.)
 
     ```python
     from mpl_toolkits.mplot3d import Axes3D
@@ -92,6 +92,6 @@ IPython has many other useful features such as escaping to the system shell, var
 
 ## Related topics
 
-- To use Jupyter easily and without installation, we recommend [Azure Notebooks](https://notebooks.azure.com/) for a free, hosted service that lets you keep and share your notebooks with others.
+- To use Jupyter easily and without installation, try the free [Azure Notebooks](https://notebooks.azure.com/) hosted service that lets you keep and share your notebooks with others.
 
 - You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).
