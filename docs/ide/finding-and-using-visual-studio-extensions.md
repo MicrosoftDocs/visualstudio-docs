@@ -72,7 +72,7 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 > [!NOTE]
 >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).  
 
-## Extension Crash Notifications
+## <a name="ext_crash"></a> Extension Crash Notifications
 
 In Visual Studio 2017 (version 15.3 - Preview), Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the top frame and working downward. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it notifies you with a message such as,
 
@@ -82,7 +82,7 @@ You can ignore the notification or take one of the following actions:
 
 -	Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension later if you want.
 
--	Choose **Don’t show again for this extension**. The IDE will no longer shows notifications for crashes associated with this extension, but it will show notifications for crashes associated with other extensions.
+-	Choose **Don’t show again for this extension**. The IDE will no longer show notifications for crashes associated with this extension, but it will show notifications for crashes associated with other extensions.
 
 -	Choose **Learn more** to view this Help topic in your default browser.
 
