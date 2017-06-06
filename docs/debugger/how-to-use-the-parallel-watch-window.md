@@ -42,7 +42,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The context column, in which an arrow indicates the thread with the current debugger context (a yellow arrow indicates the thread that will execute the next statement in your app code).  
+-   The current thread column, in which a yellow arrow indicates the current thread (a green arrow with a curly tail indicates that a non-current thread has the current debugger context).  
   
 -   A configurable column that can display the machine, process, tile, task, and thread.  
   
@@ -73,9 +73,9 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 -   Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.  
   
-### To switch the debugger context to another thread  
+### To switch to another thread  
   
--   Double-click the context column (second column). (Keyboard: Select the row and press Enter.)  
+-   Double-click the current thread column (second column). (Keyboard: Select the row and press Enter.)  
   
 ### To sort a column  
   

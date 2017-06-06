@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Get started debugging a multithreaded application in Visual Studio
-Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use conditional and filter breakpoints, the **Parallel Stacks** window, and **Parallel Watch** window. This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
+Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use conditional breakpoints and filter breakpoints, the **Parallel Stacks** window, and **Parallel Watch** window. This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
 
 Other topics provide additional information on using other multithreaded debugging tools:
 
@@ -295,7 +295,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     In this example, from left to right we get this information:
     
     - The Main thread (left side) has stopped on `Thread.Start` (the stop point is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")).
-    - Two threads have entered the `ServerClass.InstanceMethod`, one of which shows the next statement to execute (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
+    - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting (stopped on `ThreadHelper.ThreadStart`).
 
 2.  Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
@@ -400,7 +400,7 @@ You can set breakpoints on different conditions, such as the thread name or the 
   
 ## More about the multithreaded debugging windows 
 
-#### To switch the debugger context to another thread 
+#### To switch to another thread 
 
 - To switch to another thread, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
   

@@ -50,7 +50,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 -   The flag column, where you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and Unflag Threads](../debugger/how-to-flag-and-unflag-threads.md).  
   
--   The context column, where a yellow arrow indicates the debugger context and the current thread (the thread that will execute the next statement in your code). 
+-   The current thread column, in which a yellow arrow indicates the current thread (an arrow outline indicates the current debugger context for a non-current thread).
   
 -   The **ID** column, which contains the identification number for each thread.  
   
@@ -101,9 +101,9 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
      This action affects only threads that are selected in the **Threads** window. 
 
-### Switch the debugger context to another thread 
+### Switch to another thread 
 
-A yellow arrow indicates the debugger context and the current thread (the thread that will execute the next statement in your code). If the arrow is not yellow the thread has the current debugger context but is not the current thread. 
+A yellow arrow indicates the current thread (and the location of the execution pointer). A green arrow with a curly tail indicates a non-current thread has the current debugger context.
 
 #### To switch to another thread  
   
@@ -111,9 +111,7 @@ A yellow arrow indicates the debugger context and the current thread (the thread
   
     -   Double-click any thread.  
   
-    -   Right-click a thread and click **Switch to Thread**.  
-  
-         An arrow that shows the current debugger context appears next to the thread.
+    -   Right-click a thread and click **Switch to Thread**.
 
 ## Group and Sort Threads  
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as "Worker Thread" or "Unflagged Threads," and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, you can use the tree control to collapse the group.  

@@ -35,10 +35,12 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Switch the Debugger Context to Another Thread While Debugging in Visual Studio
-When you debug a multithreaded application, you can use any one of several methods to switch the debugger context from the thread that you have been working with to another thread.
+# How to: Switch to Another Thread While Debugging in Visual Studio
+When you debug a multithreaded application, you can use any one of several methods to switch from the thread that you have been working with to another thread.
 
 > [!NOTE] If you want to control the order in which threads execute, you need to [freeze and thaw threads](/debugger/get-started-debugging-multithreaded-apps.md).
+
+When you examine threads in the code editor and the different multithreaded debugging windows, the yellow arrow indicates the current thread. A green arrow with a curly tail indicates that a non-current thread has the current debugger context.
   
 ### To switch to any thread that appears 
   
