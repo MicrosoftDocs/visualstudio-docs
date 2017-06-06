@@ -55,7 +55,8 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Show the Output Window when creating virtual environments<br/><br/>Show the Output Window when installing or removing packages | On (both options) | Opens the output window in Visual Studio to show details of the process involved. Clear this option to prevent the window from appearing. |
+| Show the Output Window when creating virtual environments| On | Clear to prevent the output window from appearing. |
+| Show the Output Window when installing or removing packages | On |  Clear to prevent the output window from appearing. |
 | Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. Note that when installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](python-environments.md#pip-tab). |
 | Automatically generate completion DB on first use | On | For [IntelliSense completions](code-editing.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. This is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
 | Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](python-environments.md#search-paths) for details. |
