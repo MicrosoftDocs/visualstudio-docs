@@ -286,7 +286,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     
 ## View the Location of Threads
 
-In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view. In this app, we can use the Threads view.
+In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view, and you can view call stack information for each thread. In this app, we can use the Threads view.
 
 1. Open the **Parallel Stacks** window by choosing **Debug / Windows / Parallel Stacks**. You should see something similar to this (the exact information will be different depending on the current location of each thread, your hardware, and your programming language).
 
@@ -295,7 +295,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     In this example, from left to right we get this information:
     
     - The Main thread (left side) has stopped on `Thread.Start` (the stop point is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")).
-    - Two threads have entered the `ServerClass.InstanceMethod`, one of which shows the current debugger context (yellow arrow), while the other has stopped in `Thread.Sleep`.
+    - Two threads have entered the `ServerClass.InstanceMethod`, one of which shows the next statement to execute (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting (stopped on `ThreadHelper.ThreadStart`).
 
 2.  Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
@@ -400,9 +400,9 @@ You can set breakpoints on different conditions, such as the thread name or the 
   
 ## More about the multithreaded debugging windows 
 
-#### To switch the active thread 
+#### To switch the debugger context to another thread 
 
-- To switch the debugger context, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
+- To switch to another thread, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
   
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   

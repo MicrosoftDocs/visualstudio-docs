@@ -64,7 +64,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
 1.  On the **Start** menu, search for and run `regedit.exe`  
   
-2.  In the **Registry Editor** window, locate and delete the follow registry entries:  
+2.  In the **Registry Editor** window, locate and delete the following registry entries:  
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   

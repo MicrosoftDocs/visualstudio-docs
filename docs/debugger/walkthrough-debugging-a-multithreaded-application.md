@@ -50,7 +50,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 -   The flag column, where you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and Unflag Threads](../debugger/how-to-flag-and-unflag-threads.md).  
   
--   The active thread column, where a yellow arrow indicates an active thread. An outline of an arrow indicates the thread where execution broke into the debugger.  
+-   The context column, where a yellow arrow indicates the debugger context and the current thread (the thread that will execute the next statement in your code). 
   
 -   The **ID** column, which contains the identification number for each thread.  
   
@@ -76,17 +76,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 ### To display or hide a column  
   
--   In the toolbar at the top of the **Threads** window, click **Columns**, then select or clear the name of the column that you want to display or hide.  
-  
-### To switch the active thread  
-  
--   Perform either of the following steps:  
-  
-    -   Double-click any thread.  
-  
-    -   Right-click a thread and click **Switch to Thread**.  
-  
-         The yellow arrow appears next to the new active thread. The gray outline of an arrow identifies the thread where execution broke into the debugger.  
+-   In the toolbar at the top of the **Threads** window, click **Columns**, then select or clear the name of the column that you want to display or hide.    
 
 ## Display Flagged Threads  
  You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag Threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window you can choose to display all the threads or only the flagged threads.  
@@ -110,6 +100,20 @@ In the **Threads** window, you can examine and work with threads in the applicat
 -   In the toolbar at the top of the **Threads** window, click **Freeze Threads** or **Thaw Threads**.  
   
      This action affects only threads that are selected in the **Threads** window. 
+
+### Switch the debugger context to another thread 
+
+A yellow arrow indicates the debugger context and the current thread (the thread that will execute the next statement in your code). If the arrow is not yellow the thread has the current debugger context but is not the current thread. 
+
+#### To switch to another thread  
+  
+-   Perform either of the following steps:  
+  
+    -   Double-click any thread.  
+  
+    -   Right-click a thread and click **Switch to Thread**.  
+  
+         An arrow that shows the current debugger context appears next to the thread.
 
 ## Group and Sort Threads  
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as "Worker Thread" or "Unflagged Threads," and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, you can use the tree control to collapse the group.  
