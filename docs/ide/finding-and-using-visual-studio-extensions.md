@@ -1,7 +1,7 @@
 ---
 title: "Finding and Using Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/05/2017"
+ms.date: "06/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -72,7 +72,7 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 > [!NOTE]
 >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).  
 
-## <a name="ext_crash"></a> Extension Crash Notifications
+## Extension Crash Notifications
 
 In Visual Studio 2017 (version 15.3 - Preview), Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the top frame and working downward. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it notifies you with a message such as,
 
