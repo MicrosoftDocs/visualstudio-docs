@@ -81,7 +81,7 @@ Once the interactive window is open, you can start entering code line-by-line at
 
 ![Python interactive window](media/interactive-window.png)
 
-The exception is when additional lines of code are needed to make a complete statement, such as when a line ends in a colon, as with the `for` statement above. In this case, the line prompt changes to `...` indicating that you need to enter additional lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press Enter on a blank line, the interactive window closes the block and executes it in the interpreter.
+The exception is when additional lines of code are needed to make a complete statement, such as when a 'for' statement ends in a colon as shown above. In these cases, the line prompt changes to `...` indicating that you need to enter additional lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press Enter on a blank line, the interactive window closes the block and runs it in the interpreter.
 
 > [!Tip]
 > The interactive window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
