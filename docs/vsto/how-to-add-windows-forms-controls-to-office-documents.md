@@ -140,4 +140,3 @@ manager: "ghogen"
  [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
-  

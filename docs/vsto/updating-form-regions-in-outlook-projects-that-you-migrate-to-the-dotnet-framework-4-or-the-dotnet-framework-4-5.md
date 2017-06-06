@@ -201,4 +201,3 @@ manager: "ghogen"
  [Migrating Office Solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)  
   
-  

@@ -54,7 +54,8 @@ You can take steps to prevent the Just-in-Time Debugger dialog box from appearin
 
 3. (Visual Studio users) If you have Visual Studio installed (or you had it installed previously and removed it), [disable Just-in-Time debugging](../debugger/debug-using-the-just-in-time-debugger.md) and try to run the app again.
 
-    > [!IMPORTANT] If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
+    > [!IMPORTANT]
+    > If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
 
 2. (ASP.NET and IIS) If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
 

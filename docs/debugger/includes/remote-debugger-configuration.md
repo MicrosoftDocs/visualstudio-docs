@@ -20,7 +20,7 @@ You must have administrative permissions on the remote computer.
   
      If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator** (Or, you can [run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService)). If you are not running it on a remote server, just start it normally.
   
-3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dalog box appears.  
+3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
      ![RemoteDebuggerConfWizardPage](../media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
   

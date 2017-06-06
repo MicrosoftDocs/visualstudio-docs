@@ -45,9 +45,9 @@ translation.priority.ht:
 ## Cause  
  Possible causes include the following situations:  
   
--   A call is made to the default (parameterless) constructor of an exception type that is, or derives from [System.ArgumentException](assetId:///System.ArgumentException?qualifyHint=True&autoUpgrade=True).  
+-   A call is made to the default (parameterless) constructor of an exception type that is, or derives from <xref:System.ArgumentException>.  
   
--   An incorrect string argument is passed to a parameterized constructor of an exception type that is, or derives from [System.ArgumentException.](assetId:///System.ArgumentException.?qualifyHint=True&autoUpgrade=True)  
+-   An incorrect string argument is passed to a parameterized constructor of an exception type that is, or derives from <xref:System.ArgumentException>.  
   
 ## Rule Description  
  Instead of calling the default constructor, call one of the constructor overloads that allows a more meaningful exception message to be provided. The exception message should target the developer and clearly explain the error condition and how to correct or avoid the exception.  
