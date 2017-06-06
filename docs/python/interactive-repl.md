@@ -63,7 +63,7 @@ Second, the **View > Other Windows** has **Interactive** commands for each of yo
 
 ![Interactive Window menu items in View > Other Windows](media/interactive-window-menu.png)
 
-Third, you can open an interactive window on the starup file in your project, or for a stand-alone file, by selecting the **Debug > Execute [Project | File] in Python Interactive** menu command (Shift+Alt+F5):
+Third, you can open an interactive window on the startup file in your project, or for a stand-alone file, by selecting the **Debug > Execute [Project | File] in Python Interactive** menu command (Shift+Alt+F5):
 
 ![Execute Project in Python Interactive menu](media/interactive-execute-project.png)
 
@@ -73,7 +73,7 @@ Finally, you can select code in file and use the [send code to interactive comma
 
 You can control various aspects of the interactive window through **Tools > Options > Python Tools > Interactive Windows** (see [Options](options.md)):
 
-![Python interactive window options](media/interactive-window-options.png)
+![Python interactive window options](media/options-interactive-windows.png)
 
 ## Using the interactive window
 
@@ -110,7 +110,7 @@ By default, the interactive window for a project is scoped to the project's star
 
 Once you import a module, such as typing `import importlib`, you'll see options in the drop-down to switch into any scope in that module. You'll also see a message in the interactive window indicating the new scope, so you can keep track of how you got to a certain state during your session.
 
-Entering `dir()` in a scope displays valid identifiers in that scope, including function names, classes, and variables. For example, using `$mod importlib` followed by `dir()` shows the following:
+Entering `dir()` in a scope displays valid identifiers in that scope, including function names, classes, and variables. For example, using `import importlib` followed by `dir()` shows the following:
 
 ![Interactive window in the importlib scope](media/interactive-importlib-scope.png)
 

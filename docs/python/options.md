@@ -55,7 +55,7 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Show the Output Window when creating virtual environments<br/><br/>Show the Output Window when installing or removing packages | On<br/><br/>On | Opens the output window in Visual Studio to show details of the process involved. Clear this option to prevent the window from appearing. |
+| Show the Output Window when creating virtual environments<br/><br/>Show the Output Window when installing or removing packages | On (both options) | Opens the output window in Visual Studio to show details of the process involved. Clear this option to prevent the window from appearing. |
 | Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. Note that when installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](python-environments.md#pip-tab). |
 | Automatically generate completion DB on first use | On | For [IntelliSense completions](code-editing.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. This is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
 | Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](python-environments.md#search-paths) for details. |
@@ -104,7 +104,7 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Committed by typing the following characters | {}[]().,:;+-*/%&&#124;^~=<>#@\ | These characters typically follow an identifier that one ,might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
+| Committed by typing the following characters | {}[]().,:;+-*/%&&#124;^~=<>#@\ | These characters typically follow an identifier that one might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
 | Enter commits current completion | On | When set, the Enter key chooses and applies the currently selected completion as with the characters above (but of course, there isn't a character for Enter so it couldn't go into that list directly!). |
 | Add new line on enter at end of fully typed word | Off | By default, if you type the entire word that appears in the completion popup and press Enter, you simply commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that Enter inserts a new line. |
 
