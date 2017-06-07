@@ -1,7 +1,7 @@
 ---
 title: "Finding and Using Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/06/2017"
+ms.date: "06/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -59,13 +59,13 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
  To protect your system against extensions that may contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This means that per-user extensions are disabled when Visual Studio is run with administrative user permissions. To do this, go to the **Extensions and Updates** options page (**Tools / Options**, **Environment**, **Extensions and Updates**, or just type **Extension** in the **Quick Launch** window). Clear the **Load per user extensions when running as administrator** check box, then restart Visual Studio.  
 
 ## Automatic Extension Updates  
- Per-user extensions are automatically updated when a new version is available on the Visual Studio Gallery.  The new version of the extension is detected and installed in the background and on the next restart of Visual Studio, the new version of the extension will be running.  
+ Per-user extensions are automatically updated when a new version is available for the Visual Studio Gallery.  The new version of the extension is detected and installed in the background and on the next restart of Visual Studio, the new version of the extension will be running.  
 
- Only per-user extensions can be automatically updated.  Administrative extensions which are installed for all users will not be updated and you still manually install new versions through the **Extensions and Updates** dialog **Updates** node. You can see which extensions will be automatically updated in the extension's details pane of **Extensions and Updates** dialog.  
+ Only per-user extensions can be automatically updated.  Administrative extensions which are installed for all users will not be updated and you still manually install new versions through the **Extensions and Updates** dialog's **Updates** node. You can see which extensions will be automatically updated in the extension's details pane of **Extensions and Updates** dialog.  
 
  If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.  
 
--   To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.  
+-   To disable automatic updates for all extensions, choose the **Change your Extensions and Updates settings** link in the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.  
 
 -   To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extensions and Updates** dialog.  
 
@@ -74,13 +74,13 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 
 ## Extension Crash Notifications
 
-In Visual Studio 2017 (version 15.3 - Preview), Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the top frame and working downward. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it notifies you with a message such as,
+In Visual Studio 2017 (version 15.3 - Preview), Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it notifies you with a message such as,
 
   "A previous session terminated unexpectedly. Disabling extension 'extension_name' might help prevent similar issues."
 
 You can ignore the notification or take one of the following actions:
 
--	Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension later if you want.
+-	Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Extensions and Updates** dialog box if you want.
 
 -	Choose **Don’t show again for this extension**. The IDE will no longer show notifications for crashes associated with this extension, but it will show notifications for crashes associated with other extensions.
 
