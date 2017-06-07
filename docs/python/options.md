@@ -73,7 +73,7 @@ The specific options are described in the following sections:
 | Option | Default | Description |
 | --- | --- | --- |
 | Prompt before running when errors are present | On | When set, prompts you to confirm that you want to run code that contains errors. Clear this option to disable that warning. |
-| Wait for input when process exits abnormally<br/><br/>Wait for input when process exits normally | On<br/><br/>On | A Python program started from Visual Studio runs in its own console window. By default, the window waits for you to press a key before closing it. To remove that prompt and close the window automatically, clear either or both of these options. |
+| Wait for input when process exits abnormally<br/><br/>Wait for input when process exits normally | On (for both) | A Python program started from Visual Studio runs in its own console window. By default, the window waits for you to press a key before closing it regardless of how the program exits. To remove that prompt and close the window automatically, clear either or both of these options. |
 | Tee program output to Debug Output window | On | Displays program output in both a separate console window and the Visual Studio Output window. Clear this option to show output only in the separate console window. |
 | Break on SystemExit exception with exit code of zero | Off | If set, stops the debugger on this exception. When clear, the debugger exits without breaking. |
 | Enable debugging of the Python standard library | Off | Makes it possible to step into the standard library source code while debugging, but increases the time it takes for the debugger to start.|
