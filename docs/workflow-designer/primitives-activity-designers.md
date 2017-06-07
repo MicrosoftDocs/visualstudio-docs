@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Primitives Activity Designers
-Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statement> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.  
+Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statements> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.  
   
 ## In This Section  
  [Assign](../workflow-designer/assign-activity-designer.md)  

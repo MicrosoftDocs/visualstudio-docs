@@ -45,7 +45,7 @@ HRESULT WINAPI ResumeTracking();
 ```  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if tracking was resumed. [E_FAIL](assetId:///E_FAIL?qualifyHint=False&autoUpgrade=True) is returned if tracking cannot be resumed because the context was not available.  
+ An **HRESULT** with the **SUCCEEDED** bit set if tracking was resumed. **E_FAIL** is returned if tracking cannot be resumed because the context was not available.  
   
 ## Requirements  
  **Header:** FileTracker.h  
