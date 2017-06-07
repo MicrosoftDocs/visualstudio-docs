@@ -90,7 +90,7 @@ need.
 * [Test Windows Store Apps with Coded UI Tests](test-windows-store-8-1-apps-with-coded-ui-tests.md)
 * [Test Windows Phone Apps with Coded UI Tests](test-windows-phone-8-1-apps-with-coded-ui-tests.md)
 * [Test SharePoint Applications with Coded UI Tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-* [Introduction to Coded UI Tests with Visual Studio Enterprise 2015 (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
+* [Introduction to Coded UI Tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
 
 <a name="unit-testing"></a>
 ## Effective unit testing with Visual Studio Code Coverage
