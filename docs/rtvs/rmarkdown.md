@@ -32,14 +32,14 @@ translation.priority.ht:
 
 # Creating R Markdown documents
 
-R Markdown (see [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/) os a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
+R Markdown (see [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 
 R Tools for Visual Studio provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
 
 To use R Markdown:
 
 1. Close Visual Studio.
-1. (One time only) Install pandoc from [pandoc.org](http://pandoc.org/installing.html).
+1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
 1. Restart Visual Studio, which should pick up the pandoc installation.
 1. Install the `knitr` and `rmarkdown` packages, which you can do from the [interactive window](interactive-repl.md):
 
