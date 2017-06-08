@@ -159,7 +159,7 @@ In this tutorial, we are using Visual Studio 2017.
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
     
     You should see the ASP.NET web page.
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
