@@ -62,7 +62,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
@@ -189,7 +189,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
     
     You should see the ASP.NET web page.
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
