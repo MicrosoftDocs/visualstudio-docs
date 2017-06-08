@@ -33,10 +33,9 @@ translation.priority.ht:
 As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real-time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
 
 > [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Framework in the Enterprise Edition of Visual Studio 2017. Currently, it is not available with .NET Core.
+> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio 2017.
 
 ## Supported test frameworks
-
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
  
 <table> 
@@ -57,8 +56,8 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 <tr>
    <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-preview</td>
-   <td>MSTest.TestFramework 1.0.5-preview</td>
+   <td>MSTest.TestAdapter 1.1.11</td>
+   <td>MSTest.TestFramework 1.1.11</td>
 </tr>
 </table>
 

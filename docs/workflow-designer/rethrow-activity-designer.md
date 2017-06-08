@@ -44,7 +44,7 @@ The **Rethrow** activity designer is used to create and configure a <xref:System
   
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
-|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.ReThrow> activity. The default is Rethrow.|  
+|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Rethrow> activity. The default is Rethrow.|  
   
 ## See Also  
  [Collection](../workflow-designer/collection-activity-designers.md)   
