@@ -63,7 +63,7 @@ window.alert(s + " (" + s.length + ")");
 ```  
   
 ### Using Prototypes to Derive One Object from Another with Object.create  
- The `prototype` object can be used to derive one object from another. For example, you can use the [Object.create](../../javascript/reference/object-create-function-javascript.md) function to derive a new object `Bicycle` using the prototype of the `Vehicle` object we defined earlier (plus any new properties you need).  
+ The prototype `Object` can be used to derive one object from another. For example, you can use the [Object.create](../../javascript/reference/object-create-function-javascript.md) function to derive a new object `Bicycle` using the prototype of the `Vehicle` object we defined earlier (plus any new properties you need).  
   
 ```JavaScript  
 var Bicycle = Object.create(Object.getPrototypeOf(Vehicle), {  
