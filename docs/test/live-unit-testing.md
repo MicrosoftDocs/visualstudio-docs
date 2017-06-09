@@ -36,7 +36,6 @@ As you are developing an application, Live Unit Testing automatically runs any i
 > Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio 2017.
 
 ## Supported test frameworks
-
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
  
 <table> 
@@ -57,8 +56,8 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 <tr>
    <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.17</td>
-   <td>MSTest.TestFramework 1.1.17</td>
+   <td>MSTest.TestAdapter 1.1.11</td>
+   <td>MSTest.TestFramework 1.1.11</td>
 </tr>
 </table>
 
