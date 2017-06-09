@@ -32,7 +32,7 @@ translation.priority.ht:
 
 # Creating R Markdown documents
 
-R Markdown (see [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
+[R Markdown](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 
 R Tools for Visual Studio provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
 
