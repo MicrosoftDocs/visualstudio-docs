@@ -177,8 +177,8 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     In the first column, you will notice a flag outline icon in each row of the thread list. (The outline means that the thread is unflagged.)  
   
-6.  Click the flag outline icons for two threads, the second and third from the bottom of the list.  
-  
+6.  Click the flag outline icons for two threads, the second and third from the bottom of the list. 
+
     The flag icons become solid red, instead of hollow outlines.  
   
 7.  Click the button at the top of the flag column.  
@@ -235,7 +235,7 @@ You can freeze and thaw (suspend and resume) threads to control the order in whi
   
 1.  In the **Threads** window, right-click any thread and then click **Freeze**.  
   
-2.  Look at the active thread column. The pause icon now appears there. Those pause icon indicates that the thread is frozen.  
+2.  Look at the second column (the current thread column). The pause icon now appears there. Those pause icon indicates that the thread is frozen.  
   
 3.  Show the **Suspended Count** column by selecting it in the **Columns** list.
 
@@ -243,17 +243,17 @@ You can freeze and thaw (suspend and resume) threads to control the order in whi
   
 4.  Right-click the frozen thread and then click **Thaw**.  
   
-     The active thread column and the **Suspended Count** column change. 
+     The current thread column and the **Suspended Count** column change. 
   
 ## Switching the to another thread 
   
 #### To switch threads  
   
-1.  In the **Threads** window, examine the second column from the left. The button at the top of this column has no text or icon.
+1.  In the **Threads** window, examine the second column from the left (the current thread column). The button at the top of this column has no text or icon.
   
-2.  Look at the second column and notice that one thread has a yellow arrow. The yellow arrow indicates that this thread is the current thread (this is the current location of the execution pointer).
+2.  Look at the current thread column and notice that one thread has a yellow arrow. The yellow arrow indicates that this thread is the current thread (this is the current location of the execution pointer).
   
-    Make a note of the thread ID number where you see the current thread icon. You will move the current thread icon to another thread, but you will have to put it back when you have finished.  
+    Make a note of the thread ID number where you see the current thread icon. You will move the current thread icon to another thread, but you will have to put it back when you have finished. 
   
 3.  Right-click another thread and then click **Switch to Thread**.  
   

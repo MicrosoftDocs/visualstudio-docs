@@ -33,9 +33,9 @@ translation.priority.mt:
 ---
 # Get started with the Visual Studio debugger
 
-This topic introduces the features of the Visual Studio debugger in an step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
+This topic introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 
-You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the step-by-step instructions yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
+You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the steps yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
@@ -72,7 +72,7 @@ Although the demo app is C#, the features are applicable to C++, Visual Basic, J
 
 To debug, you need to start your app with the debugger attached to the app process.
 
-1. In the `MainWindow` constructor of MainWindow.xaml.cs, set a breakpoint by clicking in the margin to the left of the first line of code.
+1. In the `MainWindow` constructor of MainWindow.xaml.cs, set a breakpoint by clicking the left margin of the first line of code.
 
      ![Set a breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
 
@@ -80,21 +80,21 @@ To debug, you need to start your app with the debugger attached to the app proce
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
-    F5 either continues running the app to the next breakpoint or, if the app is not yet running, it starts the debugger and stops at the first breakpoint.
+    F5 continues running the app to the next breakpoint. (If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.)
 
-    Breakpoints are a really useful feature when you know the line of code or the section of code that you want to examine in detail.
+    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail.
 
 ## Restart your app quickly
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
 
-    When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code, similar to pressing F5 (if the code isn't executed, you won't hit the breakpoint).
+    When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-    The debugger will stop again at the breakpoint you just set, in the `MainWindow` constructor.
+    The debugger stops again at the breakpoint you set, in the `MainWindow` constructor.
 
 ## Navigate code in the debugger using step commands
 
-Mostly, we will use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
+Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
 1. Press F11 (**Debug / Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
 
@@ -129,16 +129,16 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
 
      The `Update` method in this code looks like it could be interesting, so lets use the debugger to examine that code up close.
 
-5. Hover over the `Update` method until the green **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+5. Hover over the `Update` method until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
      ![Use the Run to Click feature](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
     >  [!NOTE] 
-    > The **Run execution to here** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 in this example instead to advance the debugger.
+    > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 in this example instead to advance the debugger.
 
-6. Click the **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
+6. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
-    Using this button is similar to setting a temporary breakpoint, which is also handy for getting around quickly within a visible region of app code (you can click in any open file).
+    Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
     The debugger advances to the `Update` method implementation.
 
@@ -146,28 +146,28 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
 
      ![Result of stepping into the Update method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
-    Here, we find some more code that looks interesting; it appears the app is getting all *.jpg files residing in a particular directory, and then creating a new Photo object for each file. This gives us a good opportunity to start inspecting your app state (variables) with the debugger.
+    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger.
 
-    Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when trying to debug an issue, you will be attempting to find out whether variables are storing the values that you expect them to have at a particular point of execution.
+    Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
 ## Inspect variables with data tips
 
-1. Hover over the `Add` method call and click the **Run execution to here** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") to pause the debugger on the `Add` method call.
+1. To pause the debugger on the `Add` method call, hover over the `Add` method call and click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
-2. Now, hover over the File object (`f`) and you will see its default property value, the file name `market 031.jpg`.
+2. Now, hover over the File object (`f`) and you see its default property value, the file name `market 031.jpg`.
 
      ![View a data tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
 
-3. Expland the object to see all its properties, such as the `FullPath` property.
+3. Expand the object to see all its properties, such as the `FullPath` property.
 
-    Often, when debugging, you will want a quick way to check property values on objects, and the data tips are a good way to do it.
+    Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
 
     > [!TIP]
-    > In most supported languages, you can edit code in the middle of a debugger session if you find something you want to change. For more info, see [Edit and Continue](../debugger/edit-and-continue.md). To use that feature in this app, we would first need to update the app's version of the .NET Framework.
+    > In most supported languages, you can edit code in the middle of a debugger session if you find something you want to change. For more info, see [Edit and Continue](../debugger/edit-and-continue.md). To use that feature in this app, however, we would first need to update the app's version of the .NET Framework.
 
 ## Inspect variables with the Autos and Locals windows
 
-1. Take a look at the **Autos** window at the bottom of the code editor.
+1. Look at the **Autos** window at the bottom of the code editor.
 
      ![Inspect variables in the Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos Window")
 
@@ -176,7 +176,7 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
     > [!NOTE]
     > In JavaScript, the **Locals** window is supported but not the **Autos** window.
 
-2. Next, take a look at the **Locals** window.
+2. Next, look at the **Locals** window.
 
     The **Locals** window shows you the variables that are in the current scope.
 
@@ -190,16 +190,16 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
 
     You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
-    Now, you have a watch set on the `File` object, and you can see it's value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
+    Now, you have a watch set on the `File` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
     
     > [!TIP]
-    > If you need to track the value of the variable even when it's out of scope, in C# you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
+    > (C#, Visual Basic) If you need to track the value of the variable even when it's out of scope, you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 
     ![Set a watch on a variable](../debugger/media/dbg-tour-watch-window.png "Watch Window")
 
-    You might also see the first picture get added to the main window of the running sample app, but this happens on the UI thread, so images may not be visible yet.
+    You might also see the first picture get added to the main window of the running sample app, but this happens on a different app thread, so images may not be visible yet.
 
     For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
@@ -216,24 +216,24 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
 
     The call stack is a good way to examine and understand the execution flow of an app.
 
-    You can double-click a line of code to go look at that source code (without advancing the debugger) and that also changes the current scope being inspected by the debugger.
+    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
 
-    You can also use right-click menus from the **Call Stack** window to do things like insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
+    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
-1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow pointer on the left and move the yellow arrow pointer up one line to the `foreach` loop.
+1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `foreach` loop.
 
      ![Move the execution pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
-    By changing the execution flow, you can do things like test different code execution paths or simply re-run code without restarting the debugger.
+    By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
 2. Now, press F5.
 
-    You can see the images added to the app window. Because you are re-running code in the `foreach` loop, some of the images have been added twice!
+    You can see the images added to the app window. Because you are rerunning code in the `foreach` loop, some of the images have been added twice!
     
     > [!WARNING]
-    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer does not undo any changes to the state of your application.
+    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
 
 ## Run to cursor
 
@@ -251,11 +251,11 @@ Mostly, we will use the keyboard shortcuts here, because it's a good way to get 
 
 ## Step out
 
-Let's say that you are done examining the `Update` method in Data.cs, then you might want to step out of the function using the **Step Out** command.
+Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
 
 1. Press Shift + F11 (or **Debug / Step Out**).
 
-     This resumes app execution (and advances the debugger) until the current function returns.
+     This command resumes app execution (and advances the debugger) until the current function returns.
 
      You should be back in the `Update` method call in Data.cs.
 
