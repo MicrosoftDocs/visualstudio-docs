@@ -16,7 +16,7 @@ translation.priority.ht:
 ---
 1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 
-2. In the **Publish** dialog box, select **Folder**, click **Browse** and create a new folder, **C:\Publish**.
+2. In the **Publish** dialog box, select **Folder**, click Browse, and create a new folder, **C:\Publish**.
 
     ![RemoteDBG_Publish_Local](../media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
 
@@ -32,7 +32,7 @@ translation.priority.ht:
 
     ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
     
-    The application will publish a **Debug** configuration of the project to the local folder.
+    The application publishes a **Debug** configuration of the project to the local folder.
 
 5. Copy the ASP.NET project directory from the Visual Studio computer to the local directory configured for the ASP.NET app (which we'll call **C:\Publish**) on the Windows Server computer. In this tutorial, we assume you are copying manually, but you can use other tools like PowerShell, Xcopy, or Robocopy.
 
