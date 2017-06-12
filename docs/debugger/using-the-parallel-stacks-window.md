@@ -79,7 +79,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 |B|Show Only Flagged|Shows call stacks only for the threads that are flagged in other debug windows, such as the **GPU Threads** window and the **Parallel Watch** window.|  
 |C|Toggle Method View|Switches between Stack View and Method View. For more information, see Method View.|  
 |D|Auto Scroll To Current Stack Frame|Autoscrolls the diagram so that the current stack frame is in view. This feature is useful when you are changing the current stack frame from other windows or when you are hitting a new breakpoint in large diagrams.|  
-|E|Toggle Zoom Control|Shows or hides the zoom control. You can also zoom by pressing CTRL and turning the mouse wheel, regardless of the visibility of the zoom control.|  
+|E|Toggle Zoom Control|Shows or hides the zoom control. You can also zoom by pressing CTRL and turning the mouse wheel, regardless of the visibility of the zoom control, or by using CTRL+SHIFT+'+' to zoom in and CTRL+SHIFT+'-' to zoom out. Pressing CTRL+F8 will zoom to fit the screen.|  
   
 ### Context Menu Items  
  The following illustration and table describe the shortcut menu items that are available when you right-click a method in either Threads View or Tasks View. The last six items are borrowed directly from the Call Stack window and introduce no new behavior.  
