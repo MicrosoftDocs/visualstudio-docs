@@ -1,7 +1,7 @@
 ---
 title: Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 5/2/2017
+ms.date: 6/13/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
