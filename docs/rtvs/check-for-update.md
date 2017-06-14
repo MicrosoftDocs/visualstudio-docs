@@ -32,9 +32,7 @@ translation.priority.ht:
 
 # RTVS Current Version
 
-The latest version of R Tools for Visual Studio (RTVS) is **1.0.30523.1233**.
-
-This is the 1.0 Release version of RTVS, which is available from [aka.ms/rtvs-current](https://aka.ms/rtvs-current).
+The latest version of R Tools for Visual Studio (RTVS) is **1.0.30523.1233**, which is available from [aka.ms/rtvs-current](https://aka.ms/rtvs-current).
 
 You can check your version by going to **Help > About** in Visual Studio and scrolling down to the **R Tools for Visual Studio** entry: 
 
@@ -44,4 +42,4 @@ To update your version of RTVS in Visual Studio 2017, go to the Visual Studio in
 
 See [Installation](installation.md) for Visual Studio and Windows requirements.
 
-For updates on Microsoft R Open and Microsoft R Server please see: [Microsoft R products.](http://aka.ms/rtvs-msft-r)
+For updates on Microsoft R Open and Microsoft R Server, see: [Microsoft R products.](http://aka.ms/rtvs-msft-r)
