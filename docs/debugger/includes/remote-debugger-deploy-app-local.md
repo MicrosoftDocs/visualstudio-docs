@@ -16,7 +16,7 @@ translation.priority.ht:
 ---
 1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 
-2. In the **Publish** dialog box, select **Folder**, click Browse, and create a new folder, **C:\Publish**.
+2. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
     ![RemoteDBG_Publish_Local](../media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
 
