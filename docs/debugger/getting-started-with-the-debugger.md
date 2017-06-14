@@ -249,6 +249,9 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
 
+    > [!NOTE]
+    > You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
+
 ## Step out
 
 Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
