@@ -193,4 +193,3 @@
 ##### [UpdateManifestForBrowserApplication Task](updatemanifestforbrowserapplication-task.md)
 ### [Special Characters to Escape](special-characters-to-escape.md)
 ## [MSBuild Glossary](msbuild-glossary.md)
-## [Additional MSBuild Resources](additional-msbuild-resources.md)
