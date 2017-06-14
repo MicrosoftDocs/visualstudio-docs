@@ -35,7 +35,7 @@ The remote computer must be running one of the following operating systems:
   
 -   1 GB of available hard disk space  
   
--   5400 RPM hard drive  
+-   5400-RPM hard drive  
   
 -   DirectX 9-capable video card running at 1024 x 768 or higher display resolution  
   
