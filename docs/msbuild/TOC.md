@@ -179,7 +179,6 @@
 ### [MSBuild .Targets Files](msbuild-dot-targets-files.md)
 ### [MSBuild Well-known Item Metadata](msbuild-well-known-item-metadata.md)
 ### [MSBuild Response Files](msbuild-response-files.md)
-### [Additional Resources for MSBuild](additional-resources-for-msbuild.md)
 ### [WPF MSBuild Reference](wpf-msbuild-reference.md)
 #### [WPF .Targets Files](wpf-dot-targets-files.md)
 #### [WPF MSBuild Task Reference](wpf-msbuild-task-reference.md)
