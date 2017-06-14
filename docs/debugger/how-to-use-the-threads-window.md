@@ -84,7 +84,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 1.  Click in the left gutter of the `Console.WriteLine` statement to insert a new breakpoint.  
   
-     In the gutter on the left side of the source code editor, a red ball appears. This indicates that a breakpoint is now set at this location.  
+     In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location.  
   
 2.  On the **Debug** menu, click **Start Debugging** (**F5**).  
   
@@ -177,8 +177,8 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     In the first column, you will notice a flag outline icon in each row of the thread list. (The outline means that the thread is unflagged.)  
   
-6.  Click the flag outline icons for two threads, the second and third from the bottom of the list.  
-  
+6.  Click the flag outline icons for two threads, the second and third from the bottom of the list. 
+
     The flag icons become solid red, instead of hollow outlines.  
   
 7.  Click the button at the top of the flag column.  
@@ -223,33 +223,7 @@ You can flag threads that you want to give special attention. Flagging threads i
 7.  Look at the **Call Stack** window and the **Debug Location** toolbar.  
   
      The contents of the **Call Stack** window have changed. 
-  
-## Switching the Active Thread  
-  
-#### To switch threads  
-  
-1.  In the **Threads** window, examine the second column from the left. The button at the top of this column has no text or icon. This column is the **Active Thread** column.  
-  
-2.  Look at the **Active Thread** column and notice that one thread has a yellow arrow. This is the *active thread indicator*.  
-  
-    Make a note of the thread ID number where the active thread indicator is located. You will move the active thread indicator to another thread, but you will have to put it back when you have finished.  
-  
-3.  Right-click another thread and then click **Switch to Thread**.  
-  
-4.  Look at the **Call Stack** window in the source code editor. The contents have changed.  
-  
-5.  Look at the **Debug Location** toolbar. The active thread has changed there, too.  
-  
-6.  Go to the **Debug Location** toolbar. Select a different thread from the **Thread** list.  
-  
-7.  Look at the **Threads** window. The active thread indicator has changed.  
-  
-8. In the source code editor, right-click a thread marker. On the shortcut menu, point to **Switch to Thread** and click a thread name/ID number.  
-  
-     You have now seen three ways of changing the active thread: using the **Threads** window, the **Thread** list in the **Debug Location** toolbar, and the thread marker in the source code editor.  
-  
-     With the thread marker, you can switch only to threads that are stopped at that particular location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.  
-  
+
 ## <a name="bkmk_freeze"></a> Freezing and thawing thread execution 
 
 You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
@@ -261,7 +235,7 @@ You can freeze and thaw (suspend and resume) threads to control the order in whi
   
 1.  In the **Threads** window, right-click any thread and then click **Freeze**.  
   
-2.  Look at the active thread column. The pair of vertical bars now appear there. Those two blue bars indicate that the thread is frozen.  
+2.  Look at the second column (the current thread column). The pause icon now appears there. Those pause icon indicates that the thread is frozen.  
   
 3.  Show the **Suspended Count** column by selecting it in the **Columns** list.
 
@@ -269,7 +243,33 @@ You can freeze and thaw (suspend and resume) threads to control the order in whi
   
 4.  Right-click the frozen thread and then click **Thaw**.  
   
-     The active thread column and the **Suspended Count** column change.  
+     The current thread column and the **Suspended Count** column change. 
+  
+## Switching the to another thread 
+  
+#### To switch threads  
+  
+1.  In the **Threads** window, examine the second column from the left (the current thread column). The button at the top of this column has no text or icon.
+  
+2.  Look at the current thread column and notice that one thread has a yellow arrow. The yellow arrow indicates that this thread is the current thread (this is the current location of the execution pointer).
+  
+    Make a note of the thread ID number where you see the current thread icon. You will move the current thread icon to another thread, but you will have to put it back when you have finished. 
+  
+3.  Right-click another thread and then click **Switch to Thread**.  
+  
+4.  Look at the **Call Stack** window in the source code editor. The contents have changed.  
+  
+5.  Look at the **Debug Location** toolbar. The current thread icon has changed there, too.  
+  
+6.  Go to the **Debug Location** toolbar. Select a different thread from the **Thread** list.  
+  
+7.  Look at the **Threads** window. The current thread icon has changed.  
+  
+8. In the source code editor, right-click a thread marker. On the shortcut menu, point to **Switch to Thread** and click a thread name/ID number.  
+  
+     You have now seen three ways of changing the current thread icon to another thread: using the **Threads** window, the **Thread** list in the **Debug Location** toolbar, and the thread marker in the source code editor.  
+  
+     With the thread marker, you can switch only to threads that are stopped at that particular location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.   
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
