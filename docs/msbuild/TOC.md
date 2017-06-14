@@ -61,6 +61,7 @@
 #### [Configuring Targets and Tasks](configuring-targets-and-tasks.md)
 ##### [How to: Configure Targets and Tasks](how-to-configure-targets-and-tasks.md)
 #### [Troubleshooting .NET Framework Targeting Errors](troubleshooting-dotnet-framework-targeting-errors.md)
+### [Customize your build](customize-your-build.md)
 ### [MSBuild Best Practices](msbuild-best-practices.md)
 ## [Logging in MSBuild](logging-in-msbuild.md)
 ### [Obtaining Build Logs with MSBuild](obtaining-build-logs-with-msbuild.md)
