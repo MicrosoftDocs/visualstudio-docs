@@ -45,7 +45,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The active thread column, in which a yellow arrow indicates an active thread. An arrow indicates a thread where execution broke into the debugger.  
+-   The current thread column, in which a yellow arrow indicates the current thread.  
   
 -   The **Thread Count** column, which displays the number of threads at the same location.  
   
@@ -79,7 +79,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
   
 7.  One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.  
   
-### To change to a different active thread  
+### To switch to a different thread  
   
 -   Double-click the column. (Keyboard: Select the row and choose Enter.)  
   

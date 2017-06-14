@@ -63,16 +63,17 @@ window.alert(s + " (" + s.length + ")");
 ```  
   
 ### Using Prototypes to Derive One Object from Another with Object.create  
- The `prototype` Object can be used to derive one object from another. For example, you can use the [Object.create](../../javascript/reference/object-create-function-javascript.md) function to derive a new object `bicycle` using the prototype of the `Vehicle` object we defined earlier (plus any new properties you need).  
+
+The prototype `Object` can be used to derive one object from another. For example, you can use the [Object.create](../../javascript/reference/object-create-function-javascript.md) function to derive a new object `Bicycle` using the prototype of the `Vehicle` object we defined earlier (plus any new properties you need).  
   
 ```JavaScript  
-var bicycle = Object.create(Object.getPrototypeOf(Vehicle), {  
+var Bicycle = Object.create(Object.getPrototypeOf(Vehicle), {  
     "pedals" :{value: true}  
 });  
   
 ```  
   
- The `bicycle` object has the properties `wheels`, `engine`, `color`, and `pedals`, and its prototype is `Vehicle.prototype`. The JavaScript engine finds the `pedals` property on `bicycle`, and it looks up the prototype chain to find the `wheels`, `engine`, and `color` properties on `Vehicle`.  
+ The `Bicycle` object has the properties `wheels`, `engine`, `color`, and `pedals`, and its prototype is `Vehicle.prototype`. The JavaScript engine finds the `pedals` property on `Bicycle`, and it looks up the prototype chain to find the `wheels`, `engine`, and `color` properties on `Vehicle`.  
   
 ### Changing an Object's Prototype  
  In Internet Explorer 11, you can replace the internal prototype of an object or function with a new prototype by using the [__proto\_\_](../../javascript/reference/proto-property-object-javascript.md) property. When you use this property, you inherit the properties and methods of the new prototype along with other properties and methods in its prototype chain.  
