@@ -283,5 +283,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 3. Press F5 to continue the app.
 
+To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
+
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

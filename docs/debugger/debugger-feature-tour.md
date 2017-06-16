@@ -217,7 +217,9 @@ Expand the **Exception Settings** node to see more options on how to handle this
 
 ## More features to look at
 
--   [.Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
+-   [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md) Learn how to increase your productivity with the debugger.
+
+-   [Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
 
 -   [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md) Describes how to debug multithreaded applications. 
 
