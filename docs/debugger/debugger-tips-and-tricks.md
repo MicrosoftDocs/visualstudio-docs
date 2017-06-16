@@ -149,7 +149,7 @@ To attach to your running app, the debugger must load symbol (.pdb) files genera
 
 The Modules window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
-![View symbol information in the Modules window](../profiling/media/dbg-tips-modules-window.png "ViewSymbolInformation")
+![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**. In most scenarios, you will not need to do this. But if you are trying to debug non-user code or a version of the app built by someone else, this can be useful information.
 
