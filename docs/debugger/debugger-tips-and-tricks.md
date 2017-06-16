@@ -33,7 +33,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Tips and Tricks for the Visual Studio Debugger
+# Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
 Read here about productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md) or [Get started with the debugger](../debugger/getting-started-with-the-debugger.md). In this topic, we cover some areas that are not included in the feature tour.
 
@@ -41,7 +41,7 @@ Read here about productivity tips and tricks for the Visual Studio debugger. For
 
 If you frequently hover view data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, just click the pin icon while hovering over it. You can pin multiple variables.
 
-![Pinning a Data Tip](../debugger/media/dbg-tips-data-tip-pinned.png "PinningDataTip")
+![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
 
 ## Edit your code and continue debugging (C#, VB, C++)
 
@@ -87,7 +87,7 @@ For more information, see [Create an Object ID](https://docs.microsoft.com/en-us
 
 ## View return values for functions
 
-To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F11** once if you are currently stopped on it). If the window is closed, use **Debug / Windows / Autos** to open the **Autos** window.
+To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug / Windows / Autos** to open the **Autos** window.
 
 ![Immediate Window](../debugger/media/dbg-tips-autos-window.png "ImmediateWindow")
 
@@ -107,7 +107,7 @@ A string vizualizer may help you find out whether a string is malformed, dependi
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizers-json.png "JSONStringVisualizer")
 
-## Break into your code on handled exceptions
+## Break into code on handled exceptions
 
 The debugger will break into your code on unhandled exceptions. However, handled exceptions (such as those that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code even for handled exceptions by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug / Windows / Exception Settings**.
 
@@ -147,9 +147,9 @@ For more information, see [Network Usage](../profiling/network-usage.md).
 
 To attach to your running app, the debugger must load symbol (.pdb) files generated for the exact same build of the app you are trying to debug. You can examine how Visual Studio loads symbol files using the **Modules** window. Some understanding of symbol files will also help you if, while debugging, you run into a message such as `The breakpoint will not currently be hit. No symbols have been loaded for this document`.
 
-The Modules window can tell you what modules the debugger is treating as user code, or *[My Code]*(../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
+The Modules window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
-![View symbol information in the Modules window](../profiling/media/prof-tour-network-usage-details.png "ViewSymbolInformation")
+![View symbol information in the Modules window](../profiling/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**. In most scenarios, you will not need to do this. But if you are trying to debug non-user code or a version of the app built by someone else, this can be useful information.
 
