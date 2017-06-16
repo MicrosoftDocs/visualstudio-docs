@@ -105,7 +105,7 @@ When working with strings, it can be helpful to view the entire formatted string
 
 A string vizualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
-![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizers-json.png "JSONStringVisualizer")
+![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
 ## Break into code on handled exceptions
 
