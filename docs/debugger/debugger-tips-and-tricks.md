@@ -95,7 +95,7 @@ In addition, you can enter functions in the **Immediate** window to view return 
 
 ![Immediate Window](../debugger/media/dbg-tips-immediate-window.png "ImmediateWindow")
 
-You can also use [pseudovariables](..debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
 
 ## Inspect strings in a visualizer
 
