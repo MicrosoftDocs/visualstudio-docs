@@ -267,3 +267,4 @@ In addition to the "Going deeper" links provided earlier, the following topics c
 - You can evaluate the performance of your Python code by using [Visual Studio Profiling](profiling.md).
 - Unit tests written in Python integrate directly with the Visual Studio Test Explorer, as discussed on [Unit Testing](unit-testing.md).
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
+- [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)
