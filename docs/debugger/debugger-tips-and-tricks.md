@@ -35,7 +35,7 @@ translation.priority.mt:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
-Read here about productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md) or [Get started with the debugger](../debugger/getting-started-with-the-debugger.md). In this topic, we cover some areas that are not included in the feature tour.
+Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md) or [Get started with the debugger](../debugger/getting-started-with-the-debugger.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
 
@@ -89,7 +89,7 @@ For more information, see [Create an Object ID](https://docs.microsoft.com/en-us
 
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug / Windows / Autos** to open the **Autos** window.
 
-![Immediate Window](../debugger/media/dbg-tips-autos-window.png "ImmediateWindow")
+![Autos Window](../debugger/media/dbg-tips-autos-window.png "AutosWindow")
 
 In addition, you can enter functions in the **Immediate** window to view return values. (Open it using **Debug / Windows / Immediate**.)
 
@@ -145,12 +145,14 @@ For more information, see [Network Usage](../profiling/network-usage.md).
 
 ## Get more familiar with how the debugger attaches to your app
 
-To attach to your running app, the debugger must load symbol (.pdb) files generated for the exact same build of the app you are trying to debug. You can examine how Visual Studio loads symbol files using the **Modules** window. Some understanding of symbol files will also help you if, while debugging, you run into a message such as `The breakpoint will not currently be hit. No symbols have been loaded for this document`.
+To attach to your running app, the debugger must load symbol (.pdb) files generated for the exact same build of the app you are trying to debug. You can examine how Visual Studio loads symbol files using the **Modules** window. Some understanding of symbol files may also help you if, while debugging, you run into a message such as `The breakpoint will not currently be hit. No symbols have been loaded for this document`. In most scenarios you don't need to worry about this.
 
-The Modules window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
+The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files. 
 
 ![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 
-You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**. In most scenarios, you will not need to do this. But if you are trying to debug non-user code or a version of the app built by someone else, this can be useful information.
+You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.
+
+Sometimes, app developers ship apps without the matching symbol files (to reduce the footprint), but keep a copy of the matching symbol files for the build in case they want to debug a released version later.
 
 To find out how the debugger classifies code as user code, see [Just My Code](../debugger/just-my-code.md). To find out more about symbol files, see [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
