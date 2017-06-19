@@ -13,45 +13,45 @@ ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 
 ## Setup
 
-To start developing native, cross-platform apps as soon as you download Visual Studio for Mac there are a couple of things that you will want to install and setup in preparation.
+To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
 
-For working with iOS in Visual Studio you will need the following:
+For working with iOS in Visual Studio you need the following pieces:
 
 * a Mac with macOS Sierra 10.12 or above
 * Xcode 8.3
-* An Apple ID. You can create this at https://appleid.apple.com if you don't have one already. This is necessary for installing and signing into Xcode.
+* An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary yo have an Apple ID for installing and signing into Xcode.
 
 ## Install
 
 1. Download Visual Studio for Mac from [https://www.visualstudio.com/](https://www.visualstudio.com/)
 
-2. Once the installer package is downloaded, click on the **VisualStudioInstaller.dmg** file to mount the installer and then run it by double-clicking on the logo, as illustrated below:
+2. Once the installer package is downloaded, click the **VisualStudioInstaller.dmg** file to mount the installer and then run it by double-clicking the logo, as illustrated by the following image:
 
   ![Installer dialog](media/installer-image1.png)
 
-3. You might be prompted with an alert dialog similar to the image below. In this case, click **Open**:
+3. You might be prompted with an alert dialog similar to the following image. In this case, click **Open**:
 
   ![alert dialog](media/installer-image2.png)
 
-4. The installer will inspect your system to verify which components need to be installed or updated:
+4. The installer inspects your system to verify which components need to be installed or updated:
 
   ![Assessing your system](media/installer-image3.png)
 
-5. You will then be presented with an alert dialog asking you to acknowledge the Privacy and License terms. Press the **Continue** button to acknowledge the terms:
+5. You'll then be presented with an alert dialog asking you to acknowledge the Privacy and License terms. Press the **Continue** button to acknowledge the terms:
 
   ![License dialog](media/installer-image4.png)
 
-6. The installer will present a list of required components that are missing and that need to be downloaded and installed. Select the products you wish to download here:
+6. The installer presents a list of required components that are missing and that need to be downloaded and installed. Select the products you wish to download here:
 
   ![Select Items](media/installer-image5.png)
 
-  This installation screen displays the version and size of each individual component. You can click on each component to display a list of dependencies for that component (for Android), see additional packages that it will download (for .NET Core), and view any additional applications required (for iOS and macOS):
+  This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
   ![Android additional dependencies](media/installer-image6.png)
 
 7. Once you are happy with your selection, select the **Install and Update** button to start the installation process.
 
-8. The installer will start the download and install process of the selected items:
+8. The installer starts the download and install process of the selected items:
 
   ![Starting Installation](media/installer-image7.png)
 
@@ -68,4 +68,4 @@ For working with iOS in Visual Studio you will need the following:
   ![Open Visual Studio](media/installer-image11.png)
 
 > [!NOTE]
-If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/) again if you wish to add the components at a later date.
+If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/vs/) again if you wish to add the components later.
