@@ -9,18 +9,18 @@ ms.assetid: 6ACF5FD4-D5C1-4050-95E3-467C753F25F1
 
 # Benefits of Visual Studio for Mac over Xamarin Studio 
  
-Visual Studio for Mac has replaced Xamarin Studio as a full-featured IDE on Mac and provides features that allow you to develop web applications and services, cross-platform mobile and desktop apps, and games. Additionally, it makes integrating with Azure a breeze, whether that means publishing to Azure or creating Azure Functions. It has everything you would expect from a modern IDE, including a full-featured source editor, code search and navigation, a powerful debugger, a customizable workspace, git integration, and a rich extension system, all designed natively for the Mac. 
+Visual Studio for Mac has replaced Xamarin Studio as a full-featured IDE on Mac. It provides features that allow you to develop web applications and services, cross-platform mobile and desktop apps, and games. Additionally, it makes integrating with Azure a breeze, whether that means publishing to Azure or creating Azure Functions. It has everything you would expect from a modern IDE, including a full-featured source editor, a powerful debugger, a customizable workspace, git integration, and a rich extension system, all designed natively for the Mac. 
 
 Other features include: 
 
-* Roslyn-based C# IntelliSense, refactoring, analyzers and code fixes 
+* Roslyn-based C# IntelliSense, refactoring, analyzers, and code fixes 
 * NuGet-based package management 
 * Visual Studio compatible project format 
 * MSBuild build engine 
 * Integrated unit testing 
 * Support for F# out-of-the-box 
 
-Note that benefits listed below with the **Preview** tag are only available in the [Alpha channel](https://docs.microsoft.com/en-us/visualstudio/mac/update#Changing_the_Updater_channel). 
+Benefits listed in this guide with the **Preview** tag are only available in the [Alpha channel](https://docs.microsoft.com/en-us/visualstudio/mac/update#Changing_the_Updater_channel). 
 
 ## Language Support 
 
@@ -30,7 +30,7 @@ C# 7 via Roslyn 2.0 is offered only on Visual Studio for Mac
 
 [.NET Core](https://www.microsoft.com/net/core#macos) is a platform for creating applications that run on Windows, Linux, and Mac. Visual Studio for Mac has support for loading, creating, running, and debugging .NET Core projects. 
 
-.NET Core is installed with the Visual Studio for Mac and will work out of the box.
+.NET Core is installed with the Visual Studio for Mac and works out of the box.
 
 .NET Core support includes: 
 
@@ -56,9 +56,9 @@ To publish your web app or service, select the **Publish > Publish to Azure** co
 
 ![](media/benefits-vsmac-over-xs-image2.png)
 
-All published profiles defined in the project will be shown as options within in the Publish menu so that you can deploy again without having to select the App Service a second time. 
+All published profiles defined in the project are shown as options within in the Publish menu so that you can deploy again without having to select the App Service a second time. 
  
-Visual Studio for Mac also adds new web tooling support for HTML, CSS and JSON files. 
+Visual Studio for Mac also adds new web tooling support for HTML, CSS, and JSON files. 
 
 ### HTML 
 
@@ -115,9 +115,9 @@ The following color theme formats are supported in Visual Studio for Mac:
 
 ## Unity 
 
-[Unity](https://unity3d.com/) is a game creation tool you can use to create high quality cross-platform 2D and 3D games for all the major platforms: mobiles, desktops, consoles, AR and VR devices and even the web. 
+[Unity](https://unity3d.com/) is a game creation tool you can use to create high-quality cross-platform 2D and 3D games for all the major platforms: mobiles, desktops, consoles, AR, and VR devices and even the web. 
 
-Starting with Unity 5.6.1, you can use Visual Studio for Mac to write and debug your Unity game. To get started, simply set Visual Studio to be Unity’s 5.6.1 script editor. 
+Starting with Unity 5.6.1, you can use Visual Studio for Mac to write and debug your Unity game. To get started, set Visual Studio to be Unity’s 5.6.1 script editor. 
 
 The Tools for Unity include: 
 
@@ -138,21 +138,21 @@ You can now publish ASP.NET Core apps to Docker containers and run them from an 
 
 To enable Docker support in your project, right-click on your ASP.NET Core web app and select **Add > Add Docker Support**. 
 
-To publish your web app to a Docker container, use the **Publish > Publish to Azure** workflow introduced in Visual Studio for Mac (right-click on the web app project in the Solution Pad).
+To publish your web app to a Docker container, use the **Publish > Publish to Azure** workflow introduced in Visual Studio for Mac.
 
 During publishing the following resources are created on Azure: 
 
-* A container registry is created that the Docker image is published to. Container registry requires Azure storage which will also be created. 
-* An App Service is created that will download the image from the container registry and run it. 
+* A container registry is created that the Docker image is published to. Container registry requires Azure storage, which is also created. 
+* An App Service is created that downloads the image from the container registry and run it. 
 
 During publication: 
 
-* A new Docker image is created, tagged and pushed to the Azure container registry. 
+* A new Docker image is created, tagged, and pushed to the Azure container registry. 
 * The App Service downloads the new image and runs it. 
 
 Note: 
 * If you use an existing Resource Group, it must be in the same region as the App Service Plan you are creating. 
-* If you are creating a new Resource Group, you must set the Container Registry and the App Service plan to be in the same region (e.g. both must be in “West US”). 
+* If you are creating a Resource Group, you must set the Container Registry and the App Service plan to be in the same region (for example both must be in “West US”). 
 * The VM size of the App Service Plan must be S1 or larger. 
 
 ## Xamarin 
@@ -168,10 +168,10 @@ Xamarin Studio
 ### iOS and Mac 
 
 * [iOS signing workflow updates ](https://developer.xamarin.com/guides/cross-platform/macios/apple-account-management/) 
-    * Create new signing identities and install them to the local Keychain. 
-    * Create new Provisioning Profiles. [**Preview**] 
-    * Add a new signing identity to an existing profile. [**Preview**]
-    *  Provision new devices: register a device in the Apple Developer Portal and add them to a provisioning profile. [**Preview**] 
+    * Create signing identities and install them to the local Keychain. 
+    * Create Provisioning Profiles. [**Preview**] 
+    * Add a signing identity to an existing profile. [**Preview**]
+    *  Provision devices: register a device in the Apple Developer Portal and add them to a provisioning profile. [**Preview**] 
 * iOS 11, watchOS 4, and tvOS 2 will only be supported in Visual Studio for Mac, not Xamarin Studio 
 * MacOS High Sierra will only be supported in Visual Studio for Mac, not Xamarin Studio 
 
