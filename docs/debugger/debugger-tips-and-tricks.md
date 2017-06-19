@@ -39,13 +39,13 @@ Read this topic to learn a few productivity tips and tricks for the Visual Studi
 
 ## Pin data tips
 
-If you frequently hover view data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, just click the pin icon while hovering over it. You can pin multiple variables.
+If you frequently hover view data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
 ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
 
 ## Edit your code and continue debugging (C#, VB, C++)
 
-In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To do this, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
 
 ![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
@@ -53,7 +53,7 @@ For more information on using the feature and on feature limitations, see [Edit 
 
 ## Debug issues that are hard to reproduce
 
-If it is difficult or time-consuming to recreate a particular state in your app, consider whether the use of a conditional breakpoint will help. You can use [conditional breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) and filter breakpoints to avoid breaking into your app code until the app enters a desired state (such as a state in which a variable is storing bad data). You can set conditions using expressions, filters, hit counts, and so on.
+If it is difficult or time-consuming to recreate a particular state in your app, consider whether the use of a conditional breakpoint can help. You can use [conditional breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) and filter breakpoints to avoid breaking into your app code until the app enters a desired state (such as a state in which a variable is storing bad data). You can set conditions using expressions, filters, hit counts, and so on.
 
 #### To create a conditional breakpoint
 
@@ -79,7 +79,7 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
     ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
   
-4.  You should see a **$** plus a number in the **Locals** window. This is the object ID.
+4.  You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
   
 5.  Right-click the object ID variable and choose **Add Watch**.
 
@@ -103,27 +103,27 @@ When working with strings, it can be helpful to view the entire formatted string
 
 ![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
 
-A string vizualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
+A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
 ## Break into code on handled exceptions
 
-The debugger will break into your code on unhandled exceptions. However, handled exceptions (such as those that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code even for handled exceptions by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug / Windows / Exception Settings**.
+The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug / Windows / Exception Settings**.
 
-The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger will break into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
+The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
 ![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
 
 ## Debug deadlocks and race conditions
 
-If you need to debug the kinds of issues that are common to multithreaded apps, it will often help to view the location of threads while debugging. You can do this easily using the **Show Threads in Source** button.
+If you need to debug the kinds of issues that are common to multithreaded apps, it often helps to view the location of threads while debugging. You can do this easily using the **Show Threads in Source** button.
 
 #### To show threads in your source code
 
 1.  While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
   
-2.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
+2.  Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
     Notice that a thread marker may be partially concealed by a breakpoint.
   
@@ -135,24 +135,24 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug / Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
-![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "Diag Network Usage")
+![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "NetworkUsageProfTool")
 
 Select an operation in the summary view to view more details.
 
-![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "Diag Network Usage Details")
+![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "DetailedViewNetworkUsage")
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
 ## Get more familiar with how the debugger attaches to your app
 
-To attach to your running app, the debugger must load symbol (.pdb) files generated for the exact same build of the app you are trying to debug. You can examine how Visual Studio loads symbol files using the **Modules** window. Some understanding of symbol files may also help you if, while debugging, you run into a message such as `The breakpoint will not currently be hit. No symbols have been loaded for this document`. In most scenarios you don't need to worry about this.
+To attach to your running app, the debugger loads symbol (.pdb) files generated for the exact same build of the app you are trying to debug. In some scenarios, a little knowledge of symbol files can be helpful. You can examine how Visual Studio loads symbol files using the **Modules** window.
 
-The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger will automatically find symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files. 
+Open the **Modules** window while debugging by selecting **Debug / Windows / Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
 ![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.
 
-Sometimes, app developers ship apps without the matching symbol files (to reduce the footprint), but keep a copy of the matching symbol files for the build in case they want to debug a released version later.
+Sometimes, app developers ship apps without the matching symbol files (to reduce the footprint), but keep a copy of the matching symbol files for the build so that they can debug a released version later.
 
 To find out how the debugger classifies code as user code, see [Just My Code](../debugger/just-my-code.md). To find out more about symbol files, see [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
