@@ -48,6 +48,8 @@ C# 7 via Roslyn 2.0 is offered only on Visual Studio for Mac
 
 Visual Studio for Mac includes ASP.NET Core templates for MVC and Web API projects out of the box.
  
+![HTML Intellisense](media/benefits-vsmac-over-xs-image3.png)
+
 Visual Studio for Mac also adds new web tooling support for HTML, CSS, and JSON files. 
 
 ### HTML 
@@ -83,13 +85,13 @@ Visual Studio for Mac also adds new web tooling support for HTML, CSS, and JSON 
 
 ## Publishing to Azure
 
-It's possible to publish your ASP.NET Core web apps and services to Azure App Service. 
+With Visual Studio for Mac it's possible to publish your ASP.NET Core web apps and services to Azure App Service. 
 
 ![Publish to Azure](media/benefits-vsmac-over-xs-image1.png)
 
 To publish your web app or service, select the **Publish > Publish to Azure** command from the Solution Pad or from the Project menu. Choose the App Service you want to deploy to, or create a new Azure App Service. Output from the publishing will be logged to a Publish output pad and a publishing profile will be created under **Properties\PublishProfiles** in your project.
 
-![](media/benefits-vsmac-over-xs-image2.png)
+![Select App Service](media/benefits-vsmac-over-xs-image2.png)
 
 All published profiles defined in the project are shown as options within in the Publish menu so that you can deploy again without having to select the App Service a second time.
 
@@ -115,7 +117,7 @@ During publication:
 * A new Docker image is created, tagged, and pushed to the Azure container registry. 
 * The App Service downloads the new image and runs it. 
 
-Note: 
+Notes: 
 * If you use an existing Resource Group, it must be in the same region as the App Service Plan you are creating. 
 * If you are creating a Resource Group, you must set the Container Registry and the App Service plan to be in the same region (for example both must be in “West US”). 
 * The VM size of the App Service Plan must be S1 or larger. 
