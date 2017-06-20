@@ -89,12 +89,6 @@ With Visual Studio for Mac it's possible to publish your ASP.NET Core web apps a
 
 ![Publish to Azure](media/benefits-vsmac-over-xs-image1.png)
 
-To publish your web app or service, select the **Publish > Publish to Azure** command from the Solution Pad or from the Project menu. Choose the App Service you want to deploy to, or create a new Azure App Service. Output from the publishing will be logged to a Publish output pad and a publishing profile will be created under **Properties\PublishProfiles** in your project.
-
-![Select App Service](media/benefits-vsmac-over-xs-image2.png)
-
-All published profiles defined in the project are shown as options within in the Publish menu so that you can deploy again without having to select the App Service a second time.
-
 ### Azure Functions (**Preview**)
 
 Azure Functions is a solution for easily running small pieces of code, or functions, in the cloud. Visual Studio for Mac allows you to code and locally debug your Azure Functions. To get started look for Azure Functions under Cloud in the New Project dialog. 
@@ -106,21 +100,6 @@ You can now publish ASP.NET Core apps to Docker containers and run them from an 
 To enable Docker support in your project, right-click on your ASP.NET Core web app and select **Add > Add Docker Support**. 
 
 To publish your web app to a Docker container, use the **Publish > Publish to Azure** workflow introduced in Visual Studio for Mac.
-
-During publishing the following resources are created on Azure: 
-
-* A container registry is created that the Docker image is published to. Container registry requires Azure storage, which is also created. 
-* An App Service is created that downloads the image from the container registry and run it. 
-
-During publication: 
-
-* A new Docker image is created, tagged, and pushed to the Azure container registry. 
-* The App Service downloads the new image and runs it. 
-
-Notes: 
-* If you use an existing Resource Group, it must be in the same region as the App Service Plan you are creating. 
-* If you are creating a Resource Group, you must set the Container Registry and the App Service plan to be in the same region (for example both must be in “West US”). 
-* The VM size of the App Service Plan must be S1 or larger. 
 
 ## Source Editor Improvements 
 
