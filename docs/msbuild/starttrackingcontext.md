@@ -52,7 +52,7 @@ HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskN
  Identifies the tracking context. This name is used to create the log file name.  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the tracking context was created.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.  
   
 ## Requirements  
  **Header:** FileTracker.h

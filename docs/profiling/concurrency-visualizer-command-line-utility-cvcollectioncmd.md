@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
-You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The ools can be used on computers that do not have Visual Studio installed.  
+You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The tools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]
 >  Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103) from the Download Center.  

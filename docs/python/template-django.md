@@ -1,7 +1,7 @@
 ---
 title: Django Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 5/8/2017
+ms.date: 6/11/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,6 +54,9 @@ Visual Studio provides full IntelliSense for Django projects:
 Visual Studio also provides full [debugging support](debugging.md) for Django projects: 
 
 ![Breakpoints](media/template-django-debugging.png)
+
+Note that it's typical for Django projects to be managed through their `manage.py` file, which is an assumption that Visual Studio follows. If you stop using that file as the entry point, you essentially break the project file. In that case you need to [recreate the project from existing files](python-projects.md#creating-a-project-from-existing-files) without marking it as a Django project.
+
 
 ## Django management console
 
