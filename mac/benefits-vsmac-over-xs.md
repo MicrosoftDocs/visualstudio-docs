@@ -24,7 +24,7 @@ Benefits listed in this guide that are marked as **Preview** are only available 
 
 ## Language Support 
 
-C# 7 via Roslyn 2.0 is offered only on Visual Studio for Mac 
+Writing C# 7 code on your Mac is offered only on Visual Studio for Mac.
 
 ## .NET Core  
 
