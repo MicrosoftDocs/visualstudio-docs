@@ -54,17 +54,17 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
  Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
   
-1.  [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
+1.  If you already have a build definition using the ASP.NET Core (.NET Framework) template, you can either [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)
   
-     ![View build definition in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
+     ![View build definition in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
   
-2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
+2.  If you create a new template, choose the ASP.NET Core (.NET Framework) template. 
   
      ![Choose build process template &#45; TFS 2017](../debugger/media/ffr_tfs2017buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")  
   
 3.  Specify where to save the symbols (PDB) file so that your source is indexed automatically.  
   
-     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
+     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.
   
      ![Set up symbols path in build defintion TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
