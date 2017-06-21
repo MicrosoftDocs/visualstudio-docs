@@ -113,6 +113,10 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```
 
     ```C++
+    
+    // In Properties / General tab, you also need to enable CLR support (/clr)
+    #include "stdafx.h"
+
     using namespace System;
     using namespace System::Threading;
 
