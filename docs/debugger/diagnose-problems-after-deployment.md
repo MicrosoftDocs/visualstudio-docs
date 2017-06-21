@@ -38,7 +38,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
  **You'll need:**  
   
--   Visual Studio 2015 or Team Foundation Server 2015, 2013, 2012, or 2010 to set up your build  
+-   Visual Studio 2017, Visual Studio 2015, or Team Foundation Server 2017, 2015, 2013, 2012, or 2010 to set up your build  
   
 -   Microsoft Monitoring Agent to monitor your app and record diagnostic data  
   
@@ -48,7 +48,37 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  Set up your build process to create a build manifest (BuildInfo.config file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.  
   
 ###  <a name="AutomatedBuild"></a> Create the build manifest for an automated build using Team Foundation Server  
- Follow these steps whether you use Team Foundation Version Control or Git.  
+ Follow these steps whether you use Team Foundation Version Control or Git.
+
+####  <a name="TFS2017"></a> Team Foundation Server 2017
+
+ Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
+  
+1.  [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
+  
+     ![View build definition in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
+  
+2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
+  
+     ![Choose build process template &#45; TFS 2017](../debugger/media/ffr_tfs2017buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")  
+  
+3.  Specify where to save the symbols (PDB) file so that your source is indexed automatically.  
+  
+     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
+  
+     ![Set up symbols path in build defintion TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+  
+     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6).  
+  
+4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
+  
+     **/p:IncludeServerNameInBuildInfo=True**  
+  
+     Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
+  
+6.  Run a new build.  
+  
+ **Step 2:** [Step 2: Release your app](#DeployRelease)  
   
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
  Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
@@ -73,8 +103,8 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      **/p:IncludeServerNameInBuildInfo=True**  
   
-     Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.  
-  
+     Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
+
 5.  If you use a custom template, add this MSBuild argument to specify where to save the symbols file:  
   
      **/p:BuildSymbolStorePath=**\<*path to symbols*>  
@@ -88,7 +118,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
        <Import Project=""$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" />  
   
     ```  
-  
+
 6.  Run a new build.  
   
  **Step 2:** [Step 2: Release your app](#DeployRelease)  
