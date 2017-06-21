@@ -42,7 +42,7 @@ translation.priority.mt:
 The Visual Studio debugger allows you to observe the run-time behavior of your program and locate logic errors. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution to step through your code and evaluate variables in your application.  
   
 ## In This Section  
- [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
+ [Get Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
  Explains how to use the debugger to control the execution of your application.  
   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
@@ -50,7 +50,10 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
   
  [Using Breakpoints](../debugger/using-breakpoints.md)  
  Describes what breakpoints are and how to use them.  
-  
+
+ [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md)  
+ Learn how to increase your productivity with the debugger. 
+
  [Debugger Windows](../debugger/debugger-windows.md)  
  Lists the different debugger windows.  
   

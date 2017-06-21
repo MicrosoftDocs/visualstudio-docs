@@ -169,9 +169,6 @@ While debugging, right-click an object and choose **Add Watch**.
 ![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch Window")
 
 In this example, you have a watch set on the `File` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
-    
-> [!TIP]
-> (C# and Visual Basic) If you need to track the value of the variable even when it's out of scope, you can right-click in the **Watch** window and choose [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
@@ -220,7 +217,9 @@ Expand the **Exception Settings** node to see more options on how to handle this
 
 ## More features to look at
 
--   [.Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
+-   [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md) Learn how to increase your productivity with the debugger.
+
+-   [Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
 
 -   [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md) Describes how to debug multithreaded applications. 
 
