@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough - Including a NuGet in your project"
+title: "Walkthrough - Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: asb3993
 ms.author: amburns
@@ -8,7 +8,7 @@ ms.topic: article
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ---
 
-# Including a NuGet in your project
+# Including a NuGet package in your project
 
 NuGet is the most popular package manager for .NET development and is built in to Visual Studio for Mac and Visual Studio on Windows. You can search for and add packages to your Xamarin.iOS and Xamarin.Android projects using either IDE.
 
@@ -49,7 +49,7 @@ Once the package has been downloaded it will be added to your project. The solut
 
 *   The **References** node will contain a list of all the assemblies that are part of a NuGet package.
 *   The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
-*   A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](http://docs.nuget.org/consume/ProjectJson-Intro). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
+*   A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](http://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
 
 ## Using NuGet Packages
 
@@ -107,7 +107,7 @@ Different sources can then be selected when searching for packages:
 
 ## Version Control
 
-The NuGet documentation discusses [using NuGet without committing packages to source control](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages). If you prefer not to store binaries and unused information in source control, you can configure the Visual Studio for Mac to automatically restore packages from the server. This means that when a developer retrieves the project from source control for the first time, the Visual Studio for Mac will automatically download and install the required packages.
+The NuGet documentation discusses [using NuGet without committing packages to source control](https://docs.microsoft.com/nuget/consume-packages/packages-and-source-control). If you prefer not to store binaries and unused information in source control, you can configure the Visual Studio for Mac to automatically restore packages from the server. This means that when a developer retrieves the project from source control for the first time, the Visual Studio for Mac will automatically download and install the required packages.
 
 ![Automatically restore packages](media/nuget-walkthrough-AutoRestore.png)
 

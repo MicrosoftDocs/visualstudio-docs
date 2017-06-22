@@ -100,7 +100,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Verify that the assembly is not loaded from the native image cache.  
   
  Explanation  
- For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](http://msdn.microsoft.com/Library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
+ For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](/dotnet/framework/tools/ngen-exe-native-image-generator).  
   
  Resolution  
  Use an MSIL version of the assembly. Do not process it with NGen.  

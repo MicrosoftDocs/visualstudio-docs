@@ -63,5 +63,5 @@ translation.priority.mt:
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)  
   
 ## See Also  
- [Qualifying .NET Types for Interoperation](http://msdn.microsoft.com/Library/4b8afb52-fb8d-4e65-b47c-fd82956a3cdd)   
- [Interoperating with Unmanaged Code](http://msdn.microsoft.com/Library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ [Qualifying .NET Types for Interoperation](/dotnet/framework/interop/qualifying-net-types-for-interoperation)   
+ [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

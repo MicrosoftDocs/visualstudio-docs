@@ -39,7 +39,7 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
   
  The schemas that are created are then used to provide IntelliSense for the XML document.  
   
- For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/Library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
+ For more information about the schema inference engine, see [Inferring an XML Schema](/dotnet/standard/data/xml/inferring-an-xml-schema).  
   
 ### To create an XML Schema  
   

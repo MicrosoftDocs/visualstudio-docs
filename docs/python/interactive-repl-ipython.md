@@ -1,7 +1,7 @@
 ---
-title: "IPython REPL in Visual Studio | Microsoft Docs"
+title: IPython REPL in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 6/6/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,38 +30,22 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# Using Python in the Interactive Window
+# Using IPython in the Interactive Window
 
-The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window. For this you should have the [Anaconda](https://www.continuum.io) environment is installed, which includes IPython and the necessary libraries.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](interactive-repl.md) features are also available.
+
+For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
 
-1. Make sure the IPython package is installed correctly by going to your Python installation directory and starting IPython in Pylab mode:
+1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select the Python environment that appeared when you started IPython.
 
-  ```bash
-  ipython --pylab
-  ```
+1. Look at the **Packages** (or **pip**) tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
 
-1. Enter the following:
+1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).    
 
-  ```python
-  x = linspace(0, 5, 10)
-  y = x ** 2
-  plot(x, y, 'r')
-  ```
-
-1. If everything is configured properly, you should see something like this:
-
-    ![IPython configuration output ](media/ipython-repl-01.png)
-
-1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select your Python environment.
-1. Look at the **pip** tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
-1. Select the **Overview** tab, select **Configure interactive options**, set **Interactive Mode** to IPython, and select **OK**:
-
-    ![Setting interactive mode to IPython](media/ipython-repl-02.png)
-
-1. Select **Open interactive window** to bring up the interactive window in IPython mode with PyLab. You may need to reset the window if you have just changed the interactive mode:
+1. Select **Open interactive window** to bring up the interactive window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press Enter if only a >>> prompt appears.
 
     ![The interactive window in IPython mode](media/ipython-repl-03.png)
 
@@ -77,7 +61,7 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 
-1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (Ctrl-E,E). Try pasting the code below into the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that when Visual Studio sends code to the interactive window, it sends it as one unit to avoid giving you intermediate or partial graphs.)
+1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (or press Ctrl-Enter). Try pasting the code below into a new file in the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. Also note that if you don't have a Python project open with a different environment selected, Visual Studio opens an interactive window for whatever environment is selected as your default in the **Python Environments** window.)
 
     ```python
     from mpl_toolkits.mplot3d import Axes3D
@@ -104,10 +88,10 @@ The Visual Studio interactive window in IPython mode is an advanced yet user-fri
 
 1. To see the graphs outside of the interactive window, run the code instead using the **Debug > Start without Debugging** command.
     
-1. IPython has a number of useful features such as escaping to the system shell, variable substitution, capturing output, etc. Please refer to the IPython reference guide for further information:
+IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Please refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 
-    ![Escaping to the system shell](media/ipython-repl-06.png)
+## Related topics
 
-1. You can also use IPython in "notebook" mode where you can use any browser on any OS as the canvas. The back-end IPython engine can be local on your machine, or remote. Azure has support for running [IPython on a Windows or Linux VM](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook). Also see the [Azure Notebooks Preview](https://notebooks.azure.com) for free Jupyter Notebooks as a Service on Azure:
+- To use Jupyter easily and without installation, try the free [Azure Notebooks](https://notebooks.azure.com/) hosted service that lets you keep and share your notebooks with others.
 
-    ![IPython notebook mode](media/ipython-repl-07.png)
+- You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).

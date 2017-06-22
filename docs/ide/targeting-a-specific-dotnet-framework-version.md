@@ -55,5 +55,5 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
  Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
- [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
+ [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)  
  Describes how to change settings for Visual C++ projects to target different versions of the .NET Framework and to use different platform toolsets.
