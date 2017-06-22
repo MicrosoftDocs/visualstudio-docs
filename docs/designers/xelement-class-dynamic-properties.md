@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # XElement Class Dynamic Properties
-This section describes the dynamic properties of the <xref:System.Xml.Linq.XElemen?displayProperty=fullName>[t](assetId:///t?qualifyHint=False&autoUpgrade=True) class.  
+This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  
   
 ## In This Section  
   

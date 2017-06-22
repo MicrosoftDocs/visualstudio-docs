@@ -76,4 +76,4 @@ translation.priority.ht:
 ## See Also  
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
  [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)   
- [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/Library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+ [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

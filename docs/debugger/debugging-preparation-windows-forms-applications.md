@@ -71,7 +71,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
   
     3.  Focus and Validation Events.  
   
-     For more information, see [Creating Event Handlers in Windows Forms](http://msdn.microsoft.com/Library/6514e530-c6b8-489c-a8d2-eda7b7072701).  
+     For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).  
   
 3.  On the **Debug** menu, click **Start**.  
   
@@ -84,4 +84,4 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Windows Forms](http://msdn.microsoft.com/Library/627df1e9-b254-41af-bbac-9a4f02810c54)
+ [Windows Forms](/dotnet/framework/winforms/index)

@@ -42,11 +42,14 @@ translation.priority.mt:
 # Port, Migrate, and Upgrade Visual Studio Projects
 
 Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them as you always have, and provided that you don't depend on newer features, Visual Studio preserves backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://www.visualstudio.com/vs/release-notes/) for which features are specific to which versions.)
-Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible. This topic provides details on affected project types in Visual Studio 2017. A list of supported types for Visual Studio 2017 can be found in the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) topic.
 
-> [!Note]
-> Opening certain project types will require adding the appropriate workload through the Visual Studio Installer.
+Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible.
 
+> [!Important]
+> This present topic provides details only for project types in Visual Studio 2017 that involve migration. It does not include supported project types that have no migration issues; that list is found on  found in the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs). Note also that some project types are no longer supported at all in Visual Studio 2017 and therefore cannot be migrated.
+
+> [!Important]
+> Adding appropriate workloads in the Visual Studio installer is necessary for opening certain project types. If you don't have the workload installed, Visual Studio will report an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) topic for details on project support in Visual Studio 2017.
 
 ## Projects
 

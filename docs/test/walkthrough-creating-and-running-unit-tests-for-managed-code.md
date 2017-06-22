@@ -188,7 +188,7 @@ using BankAccountNS;
   
  By analyzing the method under test, we determine that there are at least three behaviors that need to be checked:  
   
-1.  The method throws an [ArgumentOutOfRangeException](assetId:///ArgumentOutOfRangeException?qualifyHint=False&autoUpgrade=True) if the debit amount is greater than the balance.  
+1.  The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is greater than the balance.  
   
 2.  It also throws `ArgumentOutOfRangeException` if the debit amount is less than zero.  
   

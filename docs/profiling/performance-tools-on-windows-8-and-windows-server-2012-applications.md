@@ -1,7 +1,7 @@
 ---
 title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/19/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,10 +30,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Tools on Windows 8 and Windows Server 2012 applications
-Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. Windows Store apps also require new collection techniques. This topic describes the changes for performance tools on Windows 8 and Windows Server 2012 platforms.  
+Enhanced security features starting in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. Windows Store apps also require new collection techniques. This topic describes the changes for performance tools starting onWindows 8 and Windows Server 2012 platforms.
   
 > [!NOTE]
->  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
+>  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Collecting data on Windows Store apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
@@ -89,9 +89,9 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
  Tier interaction profiling (TIP) is not supported using the sampling method.  
   
 ###  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 by using sampling from the Visual Studio IDE  
- These profiling features and options are not supported when profiling Windows 8 desktop applications or Windows Server 2012 applications using the sampling method:  
+ These profiling features and options are not supported when profiling Windows 8 desktop applications or Windows Server 2012 applications using the sampling method:
   
--   Tier interaction profiling (TIP). Collecting TIP data is supported using instrumentation.  
+-   Tier interaction profiling (TIP). Collecting TIP data is supported using instrumentation.
   
 -   Sampling options such as setting the sampling event and timing interval, or collecting additional performance counter data.  
   

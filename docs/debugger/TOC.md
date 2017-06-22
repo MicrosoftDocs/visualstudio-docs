@@ -4,6 +4,7 @@
 ## [Get started with the debugger](getting-started-with-the-debugger.md)
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)
+## [Debugger tips and tricks](debugger-tips-and-tricks.md)
 ## [Debugger windows](debugger-windows.md)
 ### [Inspect variables](autos-and-locals-windows.md)
 ### [Set a watch on variables](watch-and-quickwatch-windows.md)

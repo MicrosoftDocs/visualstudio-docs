@@ -72,4 +72,4 @@ translation.priority.mt:
 ## See Also  
  <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>   
  [Default Marshaling for Boolean Types](http://msdn.microsoft.com/en-us/d4c00537-70f7-4ca6-8197-bfc1ec037ff9)   
- [Interoperating with Unmanaged Code](http://msdn.microsoft.com/Library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)
