@@ -44,6 +44,8 @@ Visual Studio allows you to specify how more than one project is run when you st
 4.  Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
 ## See Also  
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
+ [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+
  [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)
- [Managing Project and Solution Properties](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+
+ [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)
