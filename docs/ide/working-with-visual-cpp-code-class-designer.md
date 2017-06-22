@@ -72,9 +72,9 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 ### Type Resolution Issues  
  Class Designer might not be able to resolve types for the following reasons:  
-
--   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../ide/managing-references-in-a-project.md).  
-
+  
+-   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
+  
 -   The type is not in the correct scope, so Class Designer cannot locate it. Ensure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
 
 -   The type does not exist (or has been commented out). To correct this error, make sure that you have not commented out or deleted the type.  
@@ -89,6 +89,8 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 -   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../ide/managing-references-in-a-project.md).  
 
+-   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
+  
 -   Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
 
 ### Troubleshooting Other Error Messages  

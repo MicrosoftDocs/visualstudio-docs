@@ -136,4 +136,5 @@ You can create several build configurations for a solution. For example, you can
 ## See Also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)
+ [Managing Project and Solution Properties](managing-project-and-solution-properties.md)
+
