@@ -1,7 +1,7 @@
 ---
 title: "Create Custom Visualizers of Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/19/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,9 +47,9 @@ Visualizers are components of the [!INCLUDE[vs_current_short](../code-quality/in
 > [!NOTE]
 >  In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
   
- Visualizers are represented in the debugger by a magnifying glass icon. When you see the magnifying glass icon in a **DataTip**, in a debugger variables window, or in the **QuickWatch** dialog box, you can click the magnifying glass to select a visualizer appropriate to the data type of the corresponding object.  
+ Visualizers are represented in the debugger by a magnifying glass icon. When you see the magnifying glass icon in a **DataTip**, in a debugger variables window, or in the **QuickWatch** dialog box, you can click the magnifying glass to select a visualizer appropriate to the data type of the corresponding object.
   
- Visualizers are not supported on the Compact Framework.  
+ For C++, you can [create custom views of native objects](../debugger/create-custom-views-of-native-objects.md), but not visualizers that open from the magnifying glass icon.
   
 > [!NOTE]
 >  Debugger visualizers require greater privileges than are allowed by a partial trust application. As a result, visualizers do not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.  
