@@ -1,6 +1,6 @@
 ---
 title: "Install Dotfuscator Community Edition (CE) | Microsoft Docs"
-ms.date: "2017-02-08"
+ms.date: "2017-06-22"
 ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
 ms.technology:
@@ -89,8 +89,8 @@ Once the installation is complete, you can start using Dotfuscator CE. For detai
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
 [2017-install]: https://www.visualstudio.com/downloads/#vs-2017
-[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
+[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
 [download]: https://www.preemptive.com/products/dotfuscator/downloads
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_install.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_install.html

@@ -56,7 +56,7 @@ To register Dotfuscator CE, see [the Registering Dotfuscator CE section on the G
 ## Dotfuscator Professional
 
 While Dotfuscator Community Edition provides a basic level of protection,
-***PreEmptive Protection - Dotfuscator* Professional Edition** includes enhanced obfuscation transforms and protection capabilities.
+**_PreEmptive Protection - Dotfuscator_ Professional Edition** includes enhanced obfuscation transforms and protection capabilities.
 These include:
 
 * *Intellectual Property Protection*
@@ -108,7 +108,7 @@ For more information on the advanced application protection features of Dotfusca
 [product-about]: https://www.preemptive.com/products/dotfuscator/overview
 [product-compare]: https://www.preemptive.com/products/dotfuscator/compare-editions
 
-[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_cli.html
-[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html#register
+[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
+[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_upgrades.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
