@@ -1,5 +1,5 @@
 ---
-title: "Context Operator (C++) | Microsoft Docs"
+title: "Context operator in the debugger (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -43,7 +43,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Context Operator (C++)
+# Context Operator in the Visual Studio Debugger (C++)
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   
 ##  <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax  
