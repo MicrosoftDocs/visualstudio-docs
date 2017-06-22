@@ -1,6 +1,7 @@
 ---
 layout: LandingPage
 title: Profiling in Visual Studio
+description: Learn how use Visual Studio 2017 to profile performance of your applications, services, and tools in the language of your choice.
 ---
 #Profiling in Visual Studio
 
