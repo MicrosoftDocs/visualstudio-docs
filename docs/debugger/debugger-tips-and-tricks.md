@@ -65,7 +65,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 3. If you are interested in another type of condition, select **Filter** instead of **Conditional expression** in the **Breakpoint Settings** dialog box, and then follow the filter tips.
 
-## Track an out-of-scope object (.NET)
+## Track an out-of-scope object (C#, Visual Basic)
 
 It's easy to view variables using debugger windows like the **Watch** window. However, when a variable goes out of scope in the **Watch** window, you may notice that it is grayed out. In some app scenarios, the value of a variable may change even when the variable is out of scope, and you might want to watch it closely (for example, a variable may get garbage collected). You can track the variable by creating an Object ID for it in the **Watch** window.
 
