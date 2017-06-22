@@ -45,7 +45,7 @@ stringObj.codePointAt(pos);
   
 ```JavaScript  
 var cp1 = "𠮷".codePointAt(0);  
-vary cp2 = 'abc'.codePointAt(1);  
+var cp2 = 'abc'.codePointAt(1);  
   
 if(console && console.log) {  
     console.log(cp1);  
