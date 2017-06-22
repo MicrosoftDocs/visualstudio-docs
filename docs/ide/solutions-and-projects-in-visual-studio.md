@@ -93,7 +93,7 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
  The easiest way to create a new project is to start with a pre-defined project template, which consists of a basic set of pre-generated code files, config files, assets, and settings that get you started creating a particular type of application or website in a particular programming language. These templates are what you see in the **New Project Dialog** when you choose **File &#124; New &#124; Project** or **File &#124; New &#124; Web Site** from the main menu, and then navigate. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md).  
 
 ## Managing projects in Solution Explorer  
- After you create a new project, you use **Solution Explorer** to view and manage projects and solutions and their associated items. The following illustration shows Server Explorer with a C# solution that contains two projects.  
+ After you create a new project, you use **Solution Explorer** to view and manage projects and solutions and their associated items. The following illustration shows Solution Explorer with a C# solution that contains two projects.  
 
  ![Solution Explorer](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")  
 
