@@ -65,7 +65,7 @@ For more information about these features, see the blog post on updates for [deb
 
 3. Select the name of the app you want to debug under **Running** or **Not Running** and choose **Start** or, if the app is already running, choose **Attach**.
 
-     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
 > [!NOTE]
 > Visual Studio can also attach to any running UWP app process by selecting **Debug**, and then **Attach to Process**. Attaching to a running process doesn't require the original Visual Studio project, but loading the process's symbols will help significantly when debugging a process that you don't have the original code for.
@@ -94,7 +94,7 @@ When you debug an installed app package on a remote computer for the first time,
 
 6. Select the name of the app you want to debug under **Running** or **Not Running** and choose **Start** or (for running apps) **Attach**.
 
-     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app package when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app package when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
      When you debug an installed app package on a connected XBox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. This may take a little bit of time and you will see a message ``Starting remote debugger`` while this is happening.
 
