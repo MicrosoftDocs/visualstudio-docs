@@ -1,8 +1,9 @@
 ---
 layout: LandingPage
-title: Profiling in Visual Studio
+title: Profiling your Apps with Visual Studio
+description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
 ---
-#Profiling in Visual Studio
+# Profiling in Visual Studio
 
 Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate data (such as variable values, function calls, and events) over the time you run your application in the debugger. You can view the state of your application at different points during the execution of your code. 
 

@@ -84,7 +84,7 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
  Windows anti-virus software allows remote debugger connections, but some third-party anti-virus software may block them. Check the documentation for your anti-virus software to find out how to allow these connections.  
   
 ## Network security policy is blocking communication between the remote machine and Visual Studio  
- Review your network security to make sure that it is not blocking communication. For more information about Windows network security policy, see [Security Management](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721855\(v=vs.85\).aspx).  
+ Review your network security to make sure that it is not blocking communication. For more information about Windows network security policy, see [Security policy settings](/windows/device-security/security-policy-settings/security-policy-settings).  
   
 ## The network is too busy to support remote debugging  
  You may need to do remote debugging at a different time, or reschedule work on the network for a different time.  

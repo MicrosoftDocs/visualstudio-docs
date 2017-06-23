@@ -1,5 +1,5 @@
 ---
-title: "Expressions in the Debugger | Microsoft Docs"
+title: "Expressions in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/07/2017"
 ms.reviewer: ""
@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 f1_keywords: 
   - "vs.debug.expressions"
 helpviewer_keywords: 
@@ -40,8 +40,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Expressions in the Debugger
-The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
+# Expressions in the Visual Studio debugger
+The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
   
  The following sections give details about  expressions in different languages.  
   
