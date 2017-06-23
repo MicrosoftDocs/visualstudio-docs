@@ -35,11 +35,11 @@ translation.priority.mt:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
-Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md) or [Get started with the debugger](../debugger/getting-started-with-the-debugger.md). In this topic, we cover some areas that are not included in the feature tour.
+Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
 
-If you frequently hover view data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
+If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
 ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
 
@@ -64,6 +64,17 @@ If it is difficult or time-consuming to recreate a particular state in your app,
     ![Conditional Breakpoint](../debugger/media/dbg-multithreaded-conditional-breakpoint.png "ConditionalBreakpoint")
 
 3. If you are interested in another type of condition, select **Filter** instead of **Conditional expression** in the **Breakpoint Settings** dialog box, and then follow the filter tips.
+
+## Change the execution flow
+
+With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
+
+![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
+
+> [!WARNING]
+> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
 
 ## Track an out-of-scope object (C#, Visual Basic)
 
