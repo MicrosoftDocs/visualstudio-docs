@@ -1,10 +1,10 @@
 ---
 title: "Tips and Tricks for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,7 +13,7 @@ caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -23,33 +23,17 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt: 
+translation.priority.mt:
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
 ---
 # Tips and Tricks for Visual Studio
-You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](http://msdn.microsoft.com/en-us/2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).  
-  
--   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)  
-  
--   [Window Shortcuts](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowShortcuts)  
-  
--   [Visual Studio Search](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Search)  
-  
--   [Editor Find](../ide/tips-and-tricks-for-visual-studio.md#BKMK_EditorFind)  
-  
--   [Code Editor](../ide/tips-and-tricks-for-visual-studio.md#BKMK_CodeEditor)  
-  
--   [Toolbars](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Toolbars)  
-  
--   [Debugging](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Debugging)  
-  
--   [Application Lifecycle Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_ALM)  
-  
+You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. This topic is only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).  
+
 ##  <a name="BKMK_WindowMgmt"></a> Window Management  
-  
+
 |||  
 |-|-|  
 |Drag Off Floating Tab Wells|Ctrl+click for multi-select|  
@@ -58,9 +42,9 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Close Active Document|Ctrl+F4|  
 |Show Open File List|Ctrl+Alt+Down|  
 |Show All Floating Windows|Ctrl+Shift+M|  
-  
+
 ##  <a name="BKMK_WindowShortcuts"></a> Window Shortcuts  
-  
+
 |||  
 |-|-|  
 |Move/Dock Floating Windows|Win+Left / Win+Right|  
@@ -68,9 +52,9 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Show Jump List|Win+Alt+n|  
 |Start New Instance|Win+Shift+n|  
 |Switch Between Windows|Win+n|  
-  
+
 ##  <a name="BKMK_Search"></a> Visual Studio Search  
-  
+
 |||  
 |-|-|  
 |Solution Explorer Search|Ctrl+;|  
@@ -78,9 +62,9 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Quick Launch|Ctrl+Q|  
 |Quick Launch Scope Results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|  
 |Search in Tools Options|Ctrl+E|  
-  
+
 ##  <a name="BKMK_EditorFind"></a> Editor Find  
-  
+
 |||  
 |-|-|  
 |Quick Find|Ctrl+F|  
@@ -93,9 +77,9 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Quick Replace Replace All|Alt+A|  
 |Find in Files|Ctrl+Shift+F|  
 |Replace in Files|Ctrl+Shift+H|  
-  
+
 ##  <a name="BKMK_CodeEditor"></a> Code Editor  
-  
+
 |||  
 |-|-|  
 |IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)|  
@@ -118,18 +102,18 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Navigate between multiple Peek Definition windows|Ctrl+Alt+- and Ctrl+Alt+=|  
 |Navigate between multiple Peek results|F8 and Shift+F8|  
 |Toggle between the code editor window and the Peek Definition window|Shift+Esc|  
-  
+
 ##  <a name="BKMK_Toolbars"></a> Toolbars  
-  
+
 |||  
 |-|-|  
 |Add Buttons|Click toolbar overflow button|  
 |Find Combo in Standard toolbar|Ctrl+D|  
 |Find Textbox Command Mode|Type ">"|  
 |Create new alias|>alias NewAlias Command|  
-  
+
 ##  <a name="BKMK_Debugging"></a> Debugging  
-  
+
 |||  
 |-|-|  
 |Start Debugging|F5|  
@@ -146,10 +130,10 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Immediate Window Command Mode|Type ">"|  
 |Immediate Window Clear Buffer|>cls|  
 |Immediate Window Print Value|?varname|  
-  
+
 ##  <a name="BKMK_ALM"></a> Application Lifecycle Management  
  See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/en-us/35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
-  
+
 ## See Also  
  [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)   
  [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)   
