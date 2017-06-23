@@ -94,7 +94,7 @@ When you debug an installed app package on a remote computer for the first time,
 
 6. Select the name of the app you want to debug under **Running** or **Not Running** and choose **Start** or (for running apps) **Attach**.
 
-     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app package when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+     If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app package when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
      When you debug an installed app package on a connected XBox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. This may take a little bit of time and you will see a message ``Starting remote debugger`` while this is happening.
 
