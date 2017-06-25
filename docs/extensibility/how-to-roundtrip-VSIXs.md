@@ -140,7 +140,8 @@ It is highly recommended to have a reference to a modified csproj open while doi
 #### 2.	Add the VsixType property
 
 * Add the following tag ```<VsixType>v3</VsixType>``` to a property group.
-	* Note: it’s recommended to add this below the ```<OutputType></OutputType>``` tag
+	
+	>**Note:** it’s recommended to add this below the ```<OutputType></OutputType>``` tag
 
 #### 3. Add the debugging properties
 
@@ -200,4 +201,4 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 
 >**Note:** If your project hangs with the message “opening the file” force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the “.vs” folder.
 
-![Finding-a-VSIX](/media/finding-a-VSIX-example.png)
+![Finding a VSIX](/media/finding-a-VSIX-example.png)
