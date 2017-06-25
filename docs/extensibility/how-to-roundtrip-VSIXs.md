@@ -111,9 +111,9 @@ Prerequisites are a new feature with Visual Studio 2017.  In this case we need t
 * Open the extension.vsixmanifest file with a text editor 
 * Add the following tag:
 
-	```<Prerequisites>```
-	```<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />```
-	```</Prerequisites>```
+	```<Prerequisites>```  
+	```<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />```  
+	```</Prerequisites>```  
 * Save and close the file.
 
 >**Note:** If you choose to accomplish this with the VSIX designer in Visual Studio 2017, you will need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017.  This is because the designer will insert the minimum version as your current version of Visual Studio (e.g. 15.0.26208.0).  However, since other users may have an earlier version, you will want to manually edit this to 15.0.
