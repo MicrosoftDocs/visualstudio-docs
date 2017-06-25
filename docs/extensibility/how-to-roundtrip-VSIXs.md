@@ -199,6 +199,6 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 * Ensure that you can see the extension in Tools->Extensions and Updates in the “Installed” section.
 * Attempt to run/use the extension to check that it works
 
-![Finding a VSIX](/media/finding-a-VSIX-example.png)
+![Finding a VSIX](media/finding-a-VSIX-example.png)
 
 >**Note:** If your project hangs with the message “opening the file” force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the “.vs” folder.
