@@ -112,8 +112,7 @@ Prerequisites are a new feature with Visual Studio 2017.  In this case we need t
 * Add the following tag:
 
 	```<Prerequisites>```
-	```<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" 
-	 Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />```
+	```<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />```
 	```</Prerequisites>```
 * Save and close the file.
 
@@ -186,3 +185,19 @@ It is highly recommended to have a reference to a modified csproj open while doi
 	```<Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists(‘packages\ Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…/>``` 
 
 * Save the csproj file and close it.
+
+## Test the extension installs in Visual Studio 2015 and Visual Studio 2017
+
+At this point, your project should be ready to build a VSIXv3 that can install on both Visual Studio 2015 and Visual Studio 2017.
+
+* Open your project in Visual Studio 2015
+* Build your project and confirm in the output that a VSIX builds correctly
+* Navigate to your project directory
+* Open the bin -> Debug folder
+* Double click on the VSIX file and install your extension on Visual Studio 2015 and Visual Studio 2017
+* Ensure that you can see the extension in Tools->Extensions and Updates in the “Installed” section.
+* Attempt to run/use the extension to check that it works
+
+>**Note:** If your project hangs with the message “opening the file” force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the “.vs” folder.
+
+![Finding-a-VSIX](/media/finding-a-VSIX-example.png)
