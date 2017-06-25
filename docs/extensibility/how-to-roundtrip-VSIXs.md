@@ -154,8 +154,8 @@ It is highly recommended to have a reference to a modified csproj open while doi
 
 * Delete all instances of the following from the CSProj file and any  .csproj.user files:
 
-	```<StartAction>Program</StartAction>``` 
-	```<StartPrograms>$(ProgramFiles)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe</StartPrograms>``` 
+	```<StartAction>Program</StartAction>```  
+	```<StartPrograms>$(ProgramFiles)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe</StartPrograms>```  
 	```<StartArguments>/rootsuffix Exp</StartArguments>```  
 
 #### 4. Add conditions to the build tools imports
