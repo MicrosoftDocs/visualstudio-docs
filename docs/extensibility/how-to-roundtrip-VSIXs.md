@@ -127,7 +127,7 @@ At this point, your manifest file should look something like this:
 It is highly recommended to have a reference to a modified csproj open while doing this step.  You can find several examples [here](https://github.com/Microsoft/VSSDK-Extensibility-Samples).  Select any extensibility sample, find the csproj file for reference and execute the following steps:
 
 * Navigate to the project directory in File Explorer
-* Open the myproject.csproj file with a text editor (Notepad ++ is recommended)
+* Open the myproject.csproj file with a text editor
 
 #### 1. Update the MinimumVisualStudioVersion
 
