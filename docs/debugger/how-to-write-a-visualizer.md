@@ -1,7 +1,7 @@
 ---
 title: "How to: Write a Visualizer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/24/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

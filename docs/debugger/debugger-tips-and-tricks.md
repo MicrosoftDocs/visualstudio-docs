@@ -108,15 +108,17 @@ In addition, you can enter functions in the **Immediate** window to view return 
 
 You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
 
-## Inspect strings in a visualizer
+## <a name="string_visualizer"></a>Inspect strings in a visualizer
 
-When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon while hovering over a variable containing a string value. For XAML code, you can also view `DataSet`, `DataView`, and `DataTable` objects in visualizers.
+When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon" while hovering over a variable containing a string value.
 
 ![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+
+For a few other types such as WPF objects that appear in the debugger windows, you can also open visualizers.
 
 ## Break into code on handled exceptions
 
