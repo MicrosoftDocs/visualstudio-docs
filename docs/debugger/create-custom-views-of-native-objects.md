@@ -37,14 +37,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create custom views of native objects
-The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch**, **Locals**, and **Data Tips** windows.  
+The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch** window, **Locals** window, and in **DataTips**.
   
  Natvis supersedes the **autoexp.dat** file that was used in earlier versions of Visual Studio and offers XML syntax, better diagnostics, versioning, and multiple file support.  
   
 > [!NOTE]
 >  You cannot use the Natvis framework for visualizations when:  
 >   
->  -   You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
+>  -  You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
 > -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
 > -   You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
   

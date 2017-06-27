@@ -97,7 +97,7 @@ Using this button is similar to setting a temporary breakpoint. This command is 
 
 ## Advance the debugger out of the current function
 
-Sometime, you might want to continue your debugging session but advance the debugger all the way through the current function.
+Sometimes, you might want to continue your debugging session but advance the debugger all the way through the current function.
 
 Press Shift + F11 (or **Debug / Step Out**).
 

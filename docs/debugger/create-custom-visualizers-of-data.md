@@ -1,5 +1,5 @@
 ---
-title: "Create Custom Visualizers of Data | Microsoft Docs"
+title: "Create Custom Visualizers of Data (C#, Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
 ms.reviewer: ""
@@ -39,18 +39,15 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Create Custom Visualizers of Data
+# Create Custom Visualizers of Data (C#, Visual Basic)
  Visualizers are components of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface. A *visualizer* creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window; a bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers enable you to modify as well as view the data.
 
  The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. These are the text, HTML, XML, and JSON visualizers, all of which work on string objects; the WPF Tree visualizer, for displaying the properties of a WPF object visual tree; and the dataset visualizer, which works for DataSet, DataView, and DataTable objects. Additional visualizers may be available for download from Microsoft Corporation in the future, and are available from third-parties and the community. In addition, you can write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.
 
- In the debugger, visualizers are represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). When you see the magnifying glass icon in a **DataTip**, in a debugger variables window, or in the **QuickWatch** dialog box, you can click the magnifying glass to select a visualizer appropriate to the data type of the corresponding object.
+ In the debugger, visualizers are represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). When you see the magnifying glass icon in a **DataTip**, in a debugger window like the **Watch** window, or in the **QuickWatch** dialog box, you can click the magnifying glass to select a visualizer appropriate to the data type of the corresponding object.
 
  > [!NOTE]
- > For C++, you can [create custom views of native objects](../debugger/create-custom-views-of-native-objects.md) using the Natvis framework, which displays custom views of objects in the standard debugger windows. In C++ and **Store** apps, custom visualizers are not supported.
-  
- > [!NOTE]
- >  Debugger visualizers require greater privileges than are allowed by a partial trust application. As a result, visualizers do not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.
+ > For C++, you can [create custom views of native objects](../debugger/create-custom-views-of-native-objects.md) using the Natvis framework, which displays custom views of objects in the standard debugger windows. In **Store** apps, custom visualizers are not supported.
 
 ## Overview of custom visualizers
 

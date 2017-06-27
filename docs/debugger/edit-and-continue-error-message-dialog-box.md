@@ -45,9 +45,9 @@ This dialog box appears when you are debugging in a language that supports Edit 
 
 -   You tried to edit optimized code. (You may need to switch from a release build to a debug build.)
 
--   You tried to edit code while it was running (instead of while paused in the debugger).
+-   You tried to edit code while it was running (instead of while paused in the debugger). Try [setting a breakpoint](../debugger/using-breakpoints.md) and editing code while paused.
 
--   You tried to edit managed code when unmanaged debugging was enabled. Edit and Continue does not work with mixed-mode debugging.
+-   You tried to edit managed code when unmanaged debugging was enabled. Edit and Continue does not work with [mixed-mode debugging](../debugger/how-to-debug-in-mixed-mode.md).
 
 -   You made a code change that is not supported by Edit and Continue in your programming language. For more info, see topics for unsupported code changes in [C#](../debugger/supported-code-changes-csharp.md), [Visual Basic](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md), and [C++](../debugger/supported-code-changes-cpp.md).
   
