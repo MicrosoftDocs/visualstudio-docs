@@ -274,7 +274,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     Thread.Sleep(3000)
     ```    
   
-#### To discover the thread marker  
+#### <a name="ShowThreadsInSource"></a>To discover the thread marker  
 
 1.  In the Debug Toolbar, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
@@ -288,7 +288,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 5.  Right-click the thread marker to see the available options on the shortcut menu.
     
-## View the Location of Threads
+## <a name="ParallelStacks"></a>View the Location of Threads
 
 In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view, and you can view call stack information for each thread. In this app, we can use the Threads view.
 
