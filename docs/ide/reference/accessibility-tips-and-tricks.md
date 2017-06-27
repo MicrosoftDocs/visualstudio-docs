@@ -33,9 +33,6 @@ translation.priority.ht:
 # Accessibility tips and tricks
 Visual Studio includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing Visual Studio for accessibility as well as some useful shortcut key combinations. Shortcut key combinations enable you to perform tasks in Visual Studio by using the keyboard.
 
-> [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
-
 ## Save your IDE settings  
  You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
 
@@ -61,6 +58,12 @@ Some other useful shortcut key combinations include the following.
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**ENTER**|  
 |Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option.|**BACKSPACE**|  
 
+> [!NOTE]
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.  
 
 ## See also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+
+ [How to: Customize Menus and Toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
