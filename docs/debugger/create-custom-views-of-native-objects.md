@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of native objects | Microsoft Docs"
+title: "Create custom views of native objects in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/27/2017"
 ms.reviewer: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Create custom views of native objects
+# Create custom views of native objects in the Visual Studio debugger
 The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch** window, **Locals** window, and in **DataTips**.
   
  Natvis supersedes the **autoexp.dat** file that was used in earlier versions of Visual Studio and offers XML syntax, better diagnostics, versioning, and multiple file support.  
