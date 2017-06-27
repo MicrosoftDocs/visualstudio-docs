@@ -110,7 +110,7 @@ You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watc
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
 
-When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon" while hovering over a variable containing a string value.
+When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
 
 ![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
 
