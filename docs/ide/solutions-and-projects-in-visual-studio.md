@@ -74,7 +74,7 @@ translation.priority.mt:
 When you create an app, application, website, Web App, script, plug-in, etc in Visual Studio, you start with a *project*. In a logical sense, a project contains of all the source code files, icons, images, data files and anything else that will be compiled into an executable program or web site, or else is needed in order to perform the compilation.  A project also contains all the compiler settings and other configuration files that might be needed by various services or components that your program will communicate with.
 
 > [!NOTE]
->  You don't have use solutions or projects if you don't want to. You can simply open the files into Visual Studio and start editing your code. See [Open Any Folder with Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) for more information.
+>  You don't have to use solutions or projects if you don't want to. You can simply open the files into Visual Studio and start editing your code. See [Open Any Folder with Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) for more information.
 
 
  In a literal sense, a project is an XML file (*.vbproj, \*.csproj, \*.vcxproj) that defines a virtual folder hierarchy along with paths to all the items it "contains" and all the build settings. In Visual Studio, the project file is used by Solution Explorer to display the project contents and settings. When you compile your project, the MSBuild engine consumes the project file to create the executable. You can also customize projects to product other kinds of output.  
@@ -93,7 +93,7 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
  The easiest way to create a new project is to start with a pre-defined project template, which consists of a basic set of pre-generated code files, config files, assets, and settings that get you started creating a particular type of application or website in a particular programming language. These templates are what you see in the **New Project Dialog** when you choose **File &#124; New &#124; Project** or **File &#124; New &#124; Web Site** from the main menu, and then navigate. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md).  
 
 ## Managing projects in Solution Explorer  
- After you create a new project, you use **Solution Explorer** to view and manage projects and solutions and their associated items. The following illustration shows Server Explorer with a C# solution that contains two projects.  
+ After you create a new project, you use **Solution Explorer** to view and manage projects and solutions and their associated items. The following illustration shows Solution Explorer with a C# solution that contains two projects.  
 
  ![Solution Explorer](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")  
 
