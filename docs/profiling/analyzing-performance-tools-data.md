@@ -55,3 +55,5 @@ The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

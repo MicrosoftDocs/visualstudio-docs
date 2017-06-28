@@ -46,4 +46,5 @@ The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Perf
 ![Diagnostics Tools Caller Callee View](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
   
 ## See Also  
- [Profiling Tools](../profiling/profiling-tools.md)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

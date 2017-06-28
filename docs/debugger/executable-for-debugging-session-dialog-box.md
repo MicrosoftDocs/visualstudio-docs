@@ -52,4 +52,5 @@ This dialog box appears when you try to debug a DLL for which no executable is s
  Once entered, these settings are stored in the project Property Pages, so you will not need to enter them again for subsequent debugging sessions. If you need to change the settings, you can open the Property Pages and change the values. For more information on specifying a executable for the debugging session, see [Debugging DLLs](../debugger/how-to-debug-from-a-dll-project.md).  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
