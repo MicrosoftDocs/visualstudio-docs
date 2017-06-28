@@ -5,7 +5,7 @@
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)
 ## [Debugger tips and tricks](debugger-tips-and-tricks.md)
-## [View data values in Data Tips](view-data-values-in-data-tips-in-the-code-editor.md)
+## [View data values in DataTips](view-data-values-in-data-tips-in-the-code-editor.md)
 ## [Debugger windows](debugger-windows.md)
 ### [Inspect variables](autos-and-locals-windows.md)
 ### [Set a watch on variables](watch-and-quickwatch-windows.md)

@@ -49,4 +49,4 @@ translation.priority.ht:
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
