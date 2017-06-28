@@ -57,7 +57,7 @@ Table legend:
  Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.  
   
 ## Related Sections    
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes the following: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
@@ -67,5 +67,6 @@ Table legend:
  Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Ultimate.  
   
 ## See Also  
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Security](../debugger/debugger-security.md)
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
