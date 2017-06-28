@@ -93,10 +93,11 @@ This section covers common debugging problems and techniques for managed applica
  [What's New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)  
  Description of new debugging features added in this release of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- [Debugging Home Page](../debugger/debugging-in-visual-studio.md)  
+ [Debugging Home Page](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
 ## See Also  
  [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)   
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Security](../debugger/debugger-security.md)  
+ [Debugging in Visual Studio](../debugger/index.md) 
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

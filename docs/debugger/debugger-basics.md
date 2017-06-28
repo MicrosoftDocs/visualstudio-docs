@@ -76,4 +76,4 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
  Describes security practices for the debugger.  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
