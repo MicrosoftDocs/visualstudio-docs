@@ -12,11 +12,11 @@ ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 
 ## Show code generation window
 
-This contextually generates code:
+This command contextually generates code:
 
  `⌘ + 1`
 
-![This contextually generates code](media/keyboard-shortcuts-image8.png)
+![A panel appears with options for generating code related to the selected symbol](media/keyboard-shortcuts-image8.png)
 
 ## Search Files, Symbols, and Commands
 
@@ -48,7 +48,7 @@ Allows quick switching between files:
 
 `alt + up/down` 
 
-Use the **alt + up** command to move the current line or current selected lines up, and use the **alt + down** command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scope.
+Use the **alt + up** command to move up the current line or current selected lines, and use the **alt + down** command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scope.
 
 ## Word navigation
 
