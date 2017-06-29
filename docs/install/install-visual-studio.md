@@ -47,20 +47,22 @@ Ready to install? We'll walk you through it, step-by-step.
 ## Check system requirements
 Before you begin, check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs) to make sure that your computer is ready to install Visual Studio 2017.
 
+## Download Visual Studio 
+Next, download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click **Save**, and then click **Open folder**.
+
+ > [!div class="button"]
+ > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
+
+For a demo of this procedure, see the following video: 
+
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/System-Requirement-to-Install-Visual-Studio-2017-1krERGD6D_9411787171" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Download Visual Studio
-To start, you'll want to download Visual Studio. To do so, click the following button, click **Save**, and then click **Open folder**.
-
 ## Install the installer  
-When you download Visual Studio 2017, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
+Next, run the bootstrapper file to install the Visual Studio Installer. This new, lightweight installer includes everything you need to both install and customize Visual Studio 2017.
 
-> [!IMPORTANT]
-> If you have a Preview release of Visual Studio 2017 installed on your computer, you'll be prompted to remove it prior to installing Visual Studio 2017.
-
-1.  From your **Downloads** folder, double-click the bootstrapper file that matches or is similar to one of the following:
+1.  From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
   * **vs_enterprise.exe** for Visual Studio Enterprise
   * **vs_professional.exe** for Visual Studio Professional
@@ -72,14 +74,16 @@ When you download Visual Studio 2017, you'll get a bootstrapper file that in tur
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 
-You’ll see several status screens that show the progress of the installation. After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want.
+For a demo of this procedure, see the following video:  
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Install workloads  
- You can customize your installation by using workloads. Select one or more of the workloads you want; each workload contains the features you need for the programming language or platform you prefer.  
+ After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want. Select one or more of the workloads to customize your installation. Here's how.
 
- Here's how to get them.  
-
-1.  Find the workload you want in the **Installing Visual Studio** screen.  
+1.  Find the workload you want in the **Installing Visual Studio** screen.
 
   ![Visual Studio 2017 setup dialog](media/vs2017-workloads.PNG "Install Visual Studio workloads")
 
@@ -91,21 +95,40 @@ You’ll see several status screens that show the progress of the installation. 
 
 3.  After the new workloads and components are installed, click **Launch**.
 
+For a demo of this procedure, see the following video:  
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171" frameborder="0" allowfullscreen></iframe>
+</div>
+ 
+
 ## Install individual components
 
-If you don't want to use the handy Workloads feature to customize your Visual Studio installation, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To do so, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
+For a demo of this procedure, see the following video:  
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Install language packs
 
-To install Visual Studio 2017 in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
+By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio 2017 in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
 
   ![Visual Studio 2017 - Install language packs](media/vs2017-languages.PNG "Install Visual Studio language packs")
 
+For a demo of this procedure, see the following video:  
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Change the installer language
 
-By default, the installer program tries to match the language of the operating system when it runs for the first time. The installer remembers this setting. You can change this setting by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-CN, zh-TW, cs-CZ, en-US, fr-FR, de-DE, it-IT, ja-JP, ko-KR, pl-PL, pt-BR, ru-RU, es-ES, and tr-TR.
+Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-CN, zh-TW, cs-CZ, en-US, fr-FR, de-DE, it-IT, ja-JP, ko-KR, pl-PL, pt-BR, ru-RU, es-ES, and tr-TR.
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
