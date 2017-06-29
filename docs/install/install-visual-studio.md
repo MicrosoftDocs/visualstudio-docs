@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "05/16/2017"
+ms.date: "06/30/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -47,17 +47,18 @@ Ready to install? We'll walk you through it, step-by-step.
 ## Check system requirements
 Before you begin, check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs) to make sure that your computer is ready to install Visual Studio 2017.
 
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/System-Requirement-to-Install-Visual-Studio-2017-1krERGD6D_9411787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Download Visual Studio
 To start, you'll want to download Visual Studio. To do so, click the following button, click **Save**, and then click **Open folder**.
-
- > [!div class="button"]
- > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
 
 ## Install the installer  
 When you download Visual Studio 2017, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
 
 > [!IMPORTANT]
-> If you have a Preview release of Visual Studio 2017 installed on your computer, you will be prompted to remove it prior to installing Visual Studio 2017.
+> If you have a Preview release of Visual Studio 2017 installed on your computer, you'll be prompted to remove it prior to installing Visual Studio 2017.
 
 1.  From your **Downloads** folder, double-click the bootstrapper file that matches or is similar to one of the following:
 
