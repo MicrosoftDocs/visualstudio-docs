@@ -15,23 +15,22 @@ author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
   - "es-es"
-  - "fr-fr"
-  - "it-it"
   - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
   - "ru-ru"
-  - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+  - "ko-kr"
+  - "cs-cz"
+  - "de-de"
+  - "fr-fr"
+  - "it-it"
+  - "pl-pl"
+  - "pt-br"
+  - "tr-tr"
 ---
 
-
-## Controlling where R code runs with workspaces
+# Controlling where R code runs with workspaces
 
 A workspace in R Tools for Visual Studio (RTVS) lets you configure where an R session runs, which can happen on both local and remote computers. The goal is to allow you to work on either with a comparable user experience, which gives you the ability to take advantage of potentially more powerful cloud-based computers.
 
