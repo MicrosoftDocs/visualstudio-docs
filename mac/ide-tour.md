@@ -73,7 +73,7 @@ To add a dependency to your application, right click on the Dependencies / Packa
 
 ![Add a NuGet package](media/ide-tour-image21.png)
 
-Information on using a NuGet package in an application can be found in the [Including a NuGet in your project](~/nuget-walkthrough.md) topic.
+Information on using a NuGet package in an application can be found in the [Including a NuGet project in your project](~/nuget-walkthrough.md) topic.
 
 ## Refactoring
 
