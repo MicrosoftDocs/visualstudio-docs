@@ -160,4 +160,5 @@ Use the search box to find a node that you are looking for, then use the horizon
 ## See Also  
  [[Memory Usage](../profiling/memory-usage.md)
  [CPU Usage](../profiling/cpu-usage.md)
- [Profiling Tools](../profiling/profiling-tools.md)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
