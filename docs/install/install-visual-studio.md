@@ -47,12 +47,11 @@ Ready to install? We'll walk you through it, step-by-step.
 ## Check system requirements
 Before you begin, check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs) to make sure that your computer is ready to install Visual Studio 2017.
 
-## Download Visual Studio 
+## Download Visual Studio
 Next, download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click **Save**, and then click **Open folder**.
 
  > [!div class="button"]
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
-
 
 ## Install the installer  
 Next, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
@@ -69,15 +68,14 @@ Next, run the bootstrapper file to install the Visual Studio Installer. This new
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 
-For a demo of how to download the Visaal Studio bootstrapper and then install the Visual Studio Installer, see the following video: <br /><br />
+For a demo of how to download the Visual Studio bootstrapper file and then install the Visual Studio Installer, see the following video: <br /><br />
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
 <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
 </div>
 
-
 ## Install workloads  
- After the installer is finished installing, it’s time to pick the feature sets—or workloads—that you want. Select one or more of the workloads to customize your installation. Here's how.
+ After the installer is installed, you can use it to customize your installation by picking the feature sets—or workloads—that you want. Here's how.
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.
 
@@ -96,7 +94,7 @@ For a demo of how to install workloads in Visual Studio, see the following video
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
 <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171" frameborder="0" allowfullscreen></iframe>
 </div>
- 
+
 
 ## Install individual components
 
@@ -104,7 +102,7 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
-For a demo of how to install components in Visual Studio, see the following video: <br /><br /> 
+For a demo of how to install components in Visual Studio, see the following video: <br /><br />
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
 <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171" frameborder="0" allowfullscreen></iframe>
