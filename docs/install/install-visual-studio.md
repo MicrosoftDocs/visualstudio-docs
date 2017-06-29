@@ -53,6 +53,12 @@ Next, download the Visual Studio bootstrapper file. To do so, click the followin
  > [!div class="button"]
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
 
+ For a demo of how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that's right for you, see the following video: <br /><br />
+
+ <div style="padding-top: 56.25%; position: relative; width: 100%;">
+ <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
+ </div>
+
 ## Install the installer  
 Next, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
 
@@ -67,12 +73,6 @@ Next, run the bootstrapper file to install the Visual Studio Installer. This new
 2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.  
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
-
-For a demo of how to download the Visual Studio bootstrapper file and then install the Visual Studio Installer, see the following video: <br /><br />
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ## Install workloads  
  After the installer is installed, you can use it to customize your installation by picking the feature sets—or workloads—that you want. Here's how.
@@ -89,7 +89,7 @@ For a demo of how to download the Visual Studio bootstrapper file and then insta
 
 3.  After the new workloads and components are installed, click **Launch**.
 
-For a demo of how to install workloads in Visual Studio, see the following video: <br /><br />
+For a demo of how to install the Visual Studio Installer and then choose workloads, see the following video: <br /><br />
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
 <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171" frameborder="0" allowfullscreen></iframe>
