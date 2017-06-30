@@ -66,7 +66,7 @@ In ASP.NET versions prior to ASP.NET Core, you need to enable ASP.NET debugging 
   
 4.  Make sure the `debug` attribute value is set to `true`.  
   
-The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements  
+The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements.  
   
 -   element sections between the configuration and system.web elements  
   
