@@ -1,7 +1,7 @@
 ---
 title: Variable Explorer in R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 6/30/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,20 +14,6 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "es-es"
-  - "ja-jp"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-  - "ko-kr"
-  - "cs-cz"
-  - "de-de"
-  - "fr-fr"
-  - "it-it"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Variable Explorer
@@ -58,7 +44,7 @@ Because data is often tabular, you can view any complex data type as a separate 
 
 ![Variable Explorer table view](media/variable-explorer-table-view.png)
 
-Clicking on a column heading sorts the data by column (alternating between ascending and descending). Holding down Shift will and clicking on additional columns add those to the sorting as well. Clicking a column without Shift returns to single column sorting.
+Clicking on a column heading sorts the data by column (alternating between ascending and descending). Holding down Shift and clicking on additional columns adds those columns to the sorting as well. Clicking a column without Shift returns to single column sorting.
 
 The sequence in which you click the column headings determines the order in which the sorting is performed. For example, Shift-clicking the **cyl** column, then Shift-clicking the **mpg** column twice, sorts the list for ascending cylinders and descending miles-per-gallon:
 
@@ -68,15 +54,15 @@ Because Variable Explorer and the table views are in separate Visual Studio wind
 
 ## Open in Excel (or other CSV-capable application)
 
-For further manipulation and analysis, it's often useful to export session variables to CSV, which is done with the small Excel icon (![Excel export icon](media/variable-explorer-excel-icon.png)) next to each node in the Variable Explorer, or by right-clicking an item and selecting **Open in CSV App**. Selecting the icon writes the data to a new CSV file in the `%userprofile%\Documents\RTVS_CSV_Exports` folder and then launches that file, which opens it in whatever application is associated with the `.csv` extension.
+For further manipulation and analysis, it's often useful to export session variables to CSV. Exporting is done with the small Excel icon (![Excel export icon](media/variable-explorer-excel-icon.png)) next to each node in the Variable Explorer, or by right-clicking an item and selecting **Open in CSV App**. Selecting the icon writes the data to a new CSV file in the `%userprofile%\Documents\RTVS_CSV_Exports` folder and then launches that file, which opens it in whatever application is associated with the `.csv` extension.
 
 ## Scopes
 
-By default the Variable Explorer opens to the global scope. You can switch to a package scope by selecting a package from the the drop-down at the top of the window.
+By default the Variable Explorer opens to the global scope. You can switch to a package scope by selecting a package from the drop-down at the top of the window.
 
 ![Variable explorer showing a package scope](media/variable-explorer-package-scopes.png)
 
-You can also switch to a function scope when you're stopped at a breakpoint in the debugger (note that Variable Explorer does not automatically switch to the function scope of the code being debugged):
+You can also switch to a function scope when stopped at a breakpoint in the debugger (note that Variable Explorer does not automatically switch to the function scope of the code being debugged):
 
 ![Variable Explorer showing a data frame during debugging](media/variable-explorer-as-locals-window.png)
 
@@ -87,6 +73,6 @@ Variable Explorer automatically changes function scope as you step through code 
 
 Two commands on the Variable Explorer toolbar, which are also available through the **R Tools > Data** menu, import external CSV datasets into your R session:  **Import Dataset into R Session from Web URL** and **Import Dataset into R Session from Text File**. 
 
-Once you've identified the CSV file to import, R Tools for Visual Studio displays an **Import Dataset** dialog, in which you have options to control how that data file is parsed (that is, what the field separator is and how to handle quotes) and can see a preview of the imported data frame and the original data file:
+Once you've identified the CSV file to import, Visual Studio displays an **Import Dataset** dialog in which you have options to control how that data file is parsed (that is, what the field separator is and how to handle quotes). You can also see a preview of the imported data frame and the original data file:
 
 ![Import dataset dialog](media/variable-explorer-import-dataset-dialog.png)

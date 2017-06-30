@@ -1,7 +1,7 @@
 ---
 title: R Markdown with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/28/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,27 +14,13 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "es-es"
-  - "ja-jp"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-  - "ko-kr"
-  - "cs-cz"
-  - "de-de"
-  - "fr-fr"
-  - "it-it"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Creating R Markdown documents
 
 [R Markdown](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 
-R Tools for Visual Studio provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
+R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
 
 To use R Markdown:
 
@@ -76,4 +62,4 @@ To use R Markdown:
     
     ~~~
 
-1. At any time during editing, right click the in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.
+1. At any time during editing, right-click in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.

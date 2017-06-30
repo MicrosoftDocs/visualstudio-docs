@@ -1,7 +1,7 @@
 ---
 title: "Sample Projects for R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/26/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,20 +14,6 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "es-es"
-  - "ja-jp"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-  - "ko-kr"
-  - "cs-cz"
-  - "de-de"
-  - "fr-fr"
-  - "it-it"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # R Tools for Visual Studio Sample Projects
@@ -35,14 +21,14 @@ translation.priority.ht:
 This collection of samples gets you started on R, R Tools for Visual Studio (RTVS), and Microsoft R Server:
 
 1. Download the [samples zip file](https://github.com/Microsoft/RTVS-docs/archive/master.zip) and extract to a folder of your choice.
-1. Open `examples/Examples.sln`; you'll see two folders in the project:
+1. Open `examples/Examples.sln` to see two folders in the project:
 
     - *A First Look at R* gives a gentle introduction for newcomers to R.
     - *MRS and Machine Learning* gives examples of how to use R and Microsoft R Server for machine learning.
 
 ## A First Look at R
 
-This sample provides an in-depth introduction to R through the extensive comments in the source files. The best way to experience both of these is to place the cursor at the top of the file, then press Ctrl+Enter to send each line, one at a time, to the **R Interactive** window where you can see the results. Note that some lines will install packages which might take a minute or two.
+This sample provides an in-depth introduction to R through the extensive comments in two source files. For the best experience, place the cursor at the top of the file and press Ctrl+Enter to send the code line-by-lie to the **R Interactive** window. (Lines that install packages might take a minute or two to complete.)
 
 - `1-Getting Started with R.R` covers many R fundamentals including using packages, loading and analyzing data, and plotting.
 
@@ -55,11 +41,11 @@ This sample provides an in-depth introduction to R through the extensive comment
 
 ## Microsoft R Server and Machine Learning
 
-This collection of examples shows how to use R and Microsoft R Server to create machine learning models and how to take advantage of the functionality of [Microsoft R Server (MRS)](http://aka.ms/rtvs-msft-r). Note that you'll need to install MRS to run scripts with `MRS` in the title and where noted.
+This collection of examples shows how to use R to create machine learning models and to take advantage of [Microsoft R Server (MRS)](http://aka.ms/rtvs-msft-r). Install MRS to run scripts with `MRS` in the title and where noted.
 
-As with all examples, a great way to experience them is to open the file, place the cursor at the top, and then step through the code line by line with Ctrl+Enter. Also see the markdown files in each folder for additional details.
+As with all examples, open the file, place the cursor at the top, and then step through the code line by line with Ctrl+Enter. The markdown files in each folder also contain additional details.
 
-- `Benchmarks` runs a number of compute-intensive benchmarks to show the performance gains that are possible through the use of Microsoft R Open and the Intel Math Kernel Library (MKL) for fast, parallel linear algebra computations. With simulated data, it specifically compares using two threads versus one for certain matrix related calculations.   
+- `Benchmarks` runs a number of intensive, parallel linear algebra computations to show the performance gains that are possible through the use of Microsoft R Open and the Intel Math Kernel Library (MKL). With simulated data, the benchmarks specifically compare matrix calculations on one thread versus two.
 
     ![Example benchmark plot](media/samples-mro-benchmark-plot.png)
 
@@ -74,23 +60,23 @@ As with all examples, a great way to experience them is to open the file, place 
 
 - `Datasets` contains three `.csv` files used by other samples
 - `Flight_Delays_Prediction_with_R` and `Flight_Delays_Prediction_with_MRS` shows how to predict flight delays using R, machine learning, and historical on-time performance and weather data. 
-- `Machine learning` contains three samples for learning to predict flight delays, housing prices, and bike rentals, demonstrating the application of R and MRS to real-world problems. They also show you how to use several popular machine learning models and deploy them as an Azure Web Service using an [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/) workspace.
+- `Machine learning` contains three samples for learning to predict flight delays, housing prices, and bike rentals. Together, these samples demonstrate the application of R and MRS to real-world problems. They also show you how to use several popular machine learning models and deploy them as an Azure Web Service using an [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/) workspace.
 
-- `R_MRO_MRS_Comparison` is a six-part comparison shows the similarities and differences of R, Microsoft R Open and Microsoft R Server with commands, syntax, constructs, and performance.
+- `R_MRO_MRS_Comparison` is a six-part comparison that shows the similarities and differences of R, Microsoft R Open and Microsoft R Server with commands, syntax, constructs, and performance.
 
 ## What's special about Microsoft R Open and Microsoft R Server?
 
 [Microsoft R Open](http://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
 
-1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/intel-mkl). These are available as a free download from Microsoft for use with Microsoft R Open.
+1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/intel-mkl). The libraries are available as a free download from Microsoft for use with Microsoft R Open.
 
-1. [Reproducible R Toolkit](https://mran.revolutionanalytics.com/rro/#reproducibility), which ensures that the libraries you used to build your R program are always available to others that want to reproduce your work.
+1. [Reproducible R Toolkit](https://mran.revolutionanalytics.com/rro/#reproducibility) ensures that the libraries you used to build your R program are always available to others that want to reproduce your work.
 
 [Microsoft R Server](http://aka.ms/rtvs-msft-r) is an extension of R that allows you to handle more data and handle it faster. It gives R two powerful capabilities:
 
-1. Larger data sets. MRS can process out-of-memory data from a variety of sources including Hadoop clusters, databases and data warehouses. You never have to be limited by your RAM again.
+1. Larger data sets without RAM limitations. MRS can process out-of-memory data from a variety of sources including Hadoop clusters, databases, and data warehouses.
 
-1. Parallel, multi-core processing. MRS can efficiently distribute computation across all the computational resources it has available. On your personal workstation or a remote cluster, MRS will get an answer faster.
+1. Parallel, multi-core processing. MRS can efficiently distribute computation across all the computational resources it has available. On your personal workstation or a remote cluster, MRS gets an answer faster.
 
 The following comparison shows that MRS and MRO with MKL have significantly better computation performance related to certain matrix calculation than R and MRO without MKL. Simulated data is used in this calculation:
 
@@ -98,6 +84,6 @@ The following comparison shows that MRS and MRO with MKL have significantly bett
 
 For a technical comparison of R with MRO and MRS, check out [Lixun Zhang's detailed discussion](http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html) on the topic.
 
-The following figure then compares elapsed time in seconds used in building Logistic Regression models to predict whether the arrival of scheduled passenger flights will be delayed by more than 15 minutes. Elapsed time used in CRAN R increases dramatically when increasing a small number of rows, while MRS only increases by approximately two times. For details of this benchmark, check out the `Benchmarks/rxGlm_benchmark.R` example.
+The following figure then compares elapsed time in seconds used in building Logistic Regression models to predict flight delays greater than 15 minutes.  Elapsed time used in CRAN R increases dramatically when increasing a small number of rows, while MRS increases only by approximately two times. For details of this benchmark, check out the `Benchmarks/rxGlm_benchmark.R` example.
 
 ![rxGlm benchmark](media/samples-rxGLM-benchmark.png)

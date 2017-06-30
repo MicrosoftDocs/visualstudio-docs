@@ -1,7 +1,7 @@
 ---
 title: Code Snippets with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/28/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,20 +14,6 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "es-es"
-  - "ja-jp"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-  - "ko-kr"
-  - "cs-cz"
-  - "de-de"
-  - "fr-fr"
-  - "it-it"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Code snippets
@@ -41,19 +27,17 @@ Some simple examples:
 - type `=` then Tab and RTVS expands it to the `<-` assignment operator.
 - type `>` then Tab and RTVS expands it the `%>%` pipe operator.
 
-Snippets can be much more than just character completion of characters. For example, they can relieve you from having to remember the names of parameters in complex function call, such as this snippet for reading a CSV file with the `read.csv` function:
+Snippets can be much more than just character completion of characters. A snippet for reading a CSV file with the `read.csv` function, for example, can relieve you from having to remember the names or parameters:
 
 ![Animation of using a code snippet to insert a call to read.csv](media/code-snippet-expansion.gif)
 
-In this case, as you type `readc`, IntelliSense displays a completion list. Selecting that completion in the drop down and pressing Tab selects `readc`, and pressing Tab again expands the snippet. (For this reason, snippet expansion is often thought of as "type the snippet and press TAB twice"). In most cases, the first Tab completes the IntelliSense selection and the second Tab triggers the expansion.
+In this case, as you type `readc`, IntelliSense displays a completion list. Selecting that completion in the drop-down and pressing Tab selects `readc`, and pressing Tab again expands the snippet. (For this reason, snippet expansion is often thought of as "type the snippet and press TAB twice"). In most cases, the first Tab completes the IntelliSense selection and the second Tab triggers the expansion.
 
 To see all the available snippets, open the **Tools > Code Snippets Manager...** dialog box (Ctrl+K,B) and select **R** for **Language**. Expand the groups and select individual snippets to see a description and the shortcut text:
 
 ![Code snippets dialog box for R](media/code-snippet-dialog.png)
 
-To create custom code snippets, following the instructions on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md). Ultimately, a code snippet is just an XML file. For example, the following is the snippet for the pipe operation (shortcut `>`)
-
-Note that a code snippet is just an XML file; here's the Code Snippet for the pipe operator:
+To create custom code snippets, following the instructions on [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md). Ultimately, a code snippet is just an XML file. For example, the following code is the snippet for the pipe operation (shortcut `>`):
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
