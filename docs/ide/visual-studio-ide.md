@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE feature tour | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/07/2017"
+ms.date: "06/28/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
