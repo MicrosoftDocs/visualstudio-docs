@@ -4,6 +4,8 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
+ms.technology: 
+  - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
@@ -25,6 +27,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
+
 # Upgrading Custom Project and Item Templates for Visual Studio 2017
 Starting in Visual Studio 2017, Visual Studio is changing the way it discovers project and item templates that have been installed by a .vsix or an .msi. If you own extensions that use custom project or item templates, you need to update your extensions. This topic explains what you must do.  
   
