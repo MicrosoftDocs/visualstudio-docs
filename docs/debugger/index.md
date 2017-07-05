@@ -64,7 +64,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
         <li>
-        <a href="https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/debugger/getting-started-with-the-debugger.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

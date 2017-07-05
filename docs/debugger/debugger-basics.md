@@ -43,7 +43,10 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
   
 ## In This Section  
  [Get Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
- Explains how to use the debugger to control the execution of your application.  
+ Explains how to use debugger features to debug your applications.  
+
+ [Watch a video on the Debugger](../debugger/getting-started-with-the-debugger.md#video)  
+ Shows how to use debugger features to debug your applications.
   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
  Describes how to step through code with the debugger.  

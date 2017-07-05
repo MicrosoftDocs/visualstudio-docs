@@ -39,6 +39,8 @@ translation.priority.ht:
 # Get started debugging a multithreaded application in Visual Studio
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use conditional breakpoints and filter breakpoints, the **Parallel Stacks** window, and **Parallel Watch** window. This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
 
+You can also [watch a video on multithreaded debugging](#video) that shows similar steps.
+
 Other topics provide additional information on using other multithreaded debugging tools:
 
 - For a similar topic that shows how to use the **Debug Location** toolbar and the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
@@ -407,7 +409,13 @@ You can set breakpoints on different conditions, such as the thread name or the 
 #### To switch to another thread 
 
 - To switch to another thread, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
-  
+
+## <a name="video"></a> Watch a video on multithreaded debugging
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=MoZPKMD6D_111787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   
 - See [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stacks-window.md) 
