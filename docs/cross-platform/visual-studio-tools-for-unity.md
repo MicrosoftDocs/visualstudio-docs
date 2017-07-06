@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -47,8 +47,8 @@ In this section, you'll learn about Visual Studio Tools for Unity, a free Visual
  [Getting Started](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md)  
  In this section, you'll learn how to install Visual Studio Tools for Unity for your version of Visual Studio, and how to start using Visual Studio with your Unity project.  
   
- [Using Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md)  
- In this section, you'll learn how to use Visual Studio Tools for Unity's integration and productivity features, and how to use the Visual Studio debugger for Unity development.  
+ [Using Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md)
+In this section, you'll learn how to use Visual Studio Tools for Unity's integration and productivity features, how to use the Visual Studio debugger for Unity development, and how to use Dotfuscator to protect Unity apps from piracy and tampering.
   
  [Programming Visual Studio Tools for Unity](../cross-platform/programming-visual-studio-tools-for-unity.md)  
  In this section, you'll find examples for using the Visual Studio Tools for Unity API.  
