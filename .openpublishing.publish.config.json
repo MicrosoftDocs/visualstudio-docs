@@ -15,9 +15,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "scripting-docs",
@@ -32,8 +30,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "mac",
@@ -48,8 +45,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -63,6 +59,15 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/visualstudio-docs-pr",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
     }
   ],
   "need_generate_pdf_url_template": false
