@@ -6,22 +6,7 @@
     {
       "docset_name": "docs",
       "build_source_folder": "docs",
-      "build_output_subfolder": "vsdocsdocs",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "template_folder": "_themes",
-      "version": 0
-    },
-    {
-      "docset_name": "scripting-docs",
-      "build_source_folder": "scripting-docs",
-      "build_output_subfolder": "scripting-docs",
+      "build_output_subfolder": "visualstudio",
       "locale": "en-us",
       "monikers": [],
       "open_to_public_contributors": true,
@@ -31,24 +16,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
-    },
-    {
-      "docset_name": "mac",
-      "build_source_folder": "mac",
-      "build_output_subfolder": "mac",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
