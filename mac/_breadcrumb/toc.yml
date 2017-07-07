@@ -3,8 +3,8 @@
   topicHref: /
   items:
   - name: Visual Studio
-    tocHref: /visualstudio/
-    topicHref: /visualstudio
+    tocHref: /visualstudio/products/
+    topicHref: /visualstudio/products
     items:
       - name: Mac
         tocHref: /visualstudio/mac/

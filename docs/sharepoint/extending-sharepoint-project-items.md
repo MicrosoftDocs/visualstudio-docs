@@ -72,4 +72,3 @@ manager: "ghogen"
  [Walkthrough: Extending a SharePoint Project Item Type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)   
  [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md)  
   
-  

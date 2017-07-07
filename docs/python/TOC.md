@@ -21,6 +21,7 @@
 ### [Cross-platform Remote Debugging](debugging-cross-platform-remote.md)
 ### [Python/C++ Mixed-Mode Debugging](debugging-mixed-mode.md)
 ### [Symbols for Mixed-Mode Debugging](debugging-symbols-for-mixed-mode.md)
+## [Options](options.md)
 ## [Profiling](profiling.md)
 ## [Unit Testing](unit-testing.md)
 ## [Using the Cookiecutter Extension](cookiecutter.md)

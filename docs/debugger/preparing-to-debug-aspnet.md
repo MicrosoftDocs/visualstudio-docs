@@ -64,6 +64,7 @@ This section describes how to set up [!INCLUDE[vsprvs](../code-quality/includes/
 ## See Also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
+ [Debugging in Visual Studio](../debugger/index.md) 
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [ASP.NET and IIS Configuration](http://msdn.microsoft.com/Library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)

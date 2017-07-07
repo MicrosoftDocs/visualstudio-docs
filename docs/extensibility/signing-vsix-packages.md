@@ -48,7 +48,7 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
   
 1.  Add your VSIX to a project.  
   
-2.  Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see [NuGet Overview](http://docs.nuget.org/) and [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog).  
+2.  Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see see the [NuGet documentation](http://docs.microsoft.com/NuGet) and [Package Manager UI](http://docs.microsoft.com/NuGet/Tools/Package-Manager-UI) topics.  
   
 3.  Search for VSIXSignTool from VisualStudioExtensibility and install the NuGet package.  
   

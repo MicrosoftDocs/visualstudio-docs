@@ -1,7 +1,7 @@
 ---
 title: Start Working with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 5/1/2017
+ms.date: 5/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -88,9 +88,7 @@ Python support in Visual Studio includes a number of [project templates](python-
   print("Hello world")
   ```
 
-1. To run the code, select the **Start** button on the toolbar shown below, press F5, or select **Debug > Start Debugging** menu item.
-
-    ![Start button on the debug toolbar](media/getting-started-coding-3.png)
+1. To run the code, press F5 or select **Debug > Start Debugging** menu item.
 
     > [!Note]
     > If you see a message in Visual Studio 2015 or earlier that there aren't any interpreters, see [selecting and installing a Python interpreter](python-environments.md#selecting-and-installing-python-interpreters) as one is not installed by default.
@@ -135,7 +133,7 @@ In the next step we'll work with the interactive REPL window to write some code 
 
 ## Using the interactive REPL window
 
-The Visual Studio interactive window for Python provides a rich read-evaluate-print-loop experience that greatly shortens the usual edit-build-debug cycle. It is similar to the REPL experience of the Python command line, but provides a few additional features as you'll see here.
+The Visual Studio interactive window for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. It is similar to the REPL experience of the Python command line, but provides a few additional features as you'll see here.
 
 1. Open the interactive window by selecting **View > Other Windows > Python Interactive Windows** from the main Visual Studio menu. The window opens with the usual >>> Python REPL prompt. Note that you can use the drop-down menu on the toolbar to change the environment at any time:
 
@@ -149,7 +147,7 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
     ![Python interactive window with statement continuation](media/getting-started-interactive-3.png)
 
-1. The interactive window provides a full history of everything you've entered, and improves upo the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function above as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
+1. The interactive window provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function above as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
 
 1. Another very helpful feature is the ability to quickly send multiple lines of code from an editor window to the interactive window, where you can work with it in the rapid REPL environment rather than writing other code to run in the debugger. To see this, start by adding the following code to your hello.py file that's open in the editor:
 
@@ -162,7 +160,9 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
     ![Sending code to the interactive window](media/getting-started-interactive-4.png)
 
-1. **Send to Interactive** effectively allows you to paste multiple lines of code (such as something you find online) into the interactive window, which can't be done directly. For example, copy the code below and try pasting (Ctrl+V) into the interactive window and you'll see that nothing happens. But you can paste it into the editor, select it, and used the **Send to Interactive** command to watch it run.
+1. Using Ctrl+Enter with the caret on a single line in the editor is also an easy way to step through your code. Ctrl+Enter will run the current line in the interactive window, then automatically set the caret to the next line. By pressing Ctrl+Enter repeatedly, then, you can run all the code in a file.
+
+1. In Visual Studio 2017 you can paste multiple lines directly into the interactive window (in previous versions you need to paste those lines into an editor window, select them, and then use **Send to Interactive**). WHen pasted, the interactive window will run that code. Try this with the following:
 
   ```python
   for i in range(360):
@@ -172,13 +172,13 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
 
     ![Pasting multiple lines of code using Sending Interactive](media/getting-started-interactive-5.png)
 
-1. Because the function definition is again in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again.
+1. Because the function definition is in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again.
 
-1. When you're satisfied with code you're written, you can select it in the interactive window, right-click and select **Copy Code**, and then paste into the editor. The special feature of the **Copy Code** command is that it automatically omits any output as well as the >>> and ... prompt text. For example, using the command with the selection show below:
+1. When you're satisfied with code you're written in the interactive window, you can select, right-click, select **Copy Code**, and then paste into the editor. This **Copy Code** command automatically omits any output as well as the >>> and ... prompt text. For example, using the command with the selection show below:
 
   ![Interactive window copy code command](media/getting-started-interactive-6.png)
 
-  will paste in only the following:
+  pastes in only the following:
 
   ```python
   make_dot_string(180)
@@ -188,7 +188,7 @@ The Visual Studio interactive window for Python provides a rich read-evaluate-pr
       print(s) 
   ```
 
-1. Finally, the interactive window provides a number of meta-commands that allow you to load files, reset the environment without losing the history, and inserting comments as you go along. See [Interactive Windows - meta-commands](interactive-repl.md#meta-commands) for details.
+1. Finally, the interactive window provides a number of meta-commands to load files, reset the environment without losing the history, and insert comments as you go along. See [Interactive Windows - meta-commands](interactive-repl.md#meta-commands) for details.
 
 ### Going deeper
 
@@ -216,7 +216,7 @@ In addition to managing projects, providing a rich editing experience, and the i
   main()
   ```  
 
-1. Check that the code works properly by selecting **Start** on the toolbar, pressing F5, or selecting the **Debug > Start Debugging** menu command. This runs the code in the debugger, but because we don't have any breakpoints set you'll simply see it print a wave pattern for a few iterations. Pressing any key will close the output window at this point.
+1. Check that the code works properly by pressing F5 or selecting the **Debug > Start Debugging** menu command. This runs the code in the debugger, but because we don't have any breakpoints set you'll simply see it print a wave pattern for a few iterations. Pressing any key closes the output window at this point.
 
     > [!Tip]
     > To close the output window automatically when the program completes, replace the `main()` call with the following code:
@@ -228,7 +228,7 @@ In addition to managing projects, providing a rich editing experience, and the i
     > 
     > Alternately, if you ever encounter situations where the output window closes automatically when you don't want it to, right-click the project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This will cause the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
-1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the *Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
+1. Set a breakpoint on the first line of the `main` function by clicking in the left-hand gray margin by that line, or by placing the caret in that line and using the **Debug > Toggle Breakpoint** command (F9). A red dot will appear in the gray margin to indicate the breakpoint (as noted by the blue arrow below):
 
     ![Setting a breakpoint](media/getting-started-debugging-1.png)
 
@@ -267,3 +267,4 @@ In addition to the "Going deeper" links provided earlier, the following topics c
 - You can evaluate the performance of your Python code by using [Visual Studio Profiling](profiling.md).
 - Unit tests written in Python integrate directly with the Visual Studio Test Explorer, as discussed on [Unit Testing](unit-testing.md).
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
+- [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

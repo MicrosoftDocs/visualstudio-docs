@@ -1,5 +1,5 @@
 ---
-title: "Format Specifiers in C++ | Microsoft Docs"
+title: "Format specifiers in the debugger (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -48,13 +48,13 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Format Specifiers in C++
+# Format specifiers in C++ in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
   
  You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. The DataTip display reflects the format specifier.  
   
 > [!NOTE]
->  The Visual Studio native debugger changed to a new debugging engine. As part of this change, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.  
+>  When the Visual Studio native debugger changed to a new debugging engine, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.
 >   
 >  -   [Format Specifiers](#BKMK_Visual_Studio_2012_format_specifiers) describes the format specifiers in the new debugging engine.  
 > -   [Format specifiers for interop debugging with C++/CLI](#BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue) describes the format specifiers in the older debugging engine.  

@@ -94,7 +94,7 @@ manager: "ghogen"
 ### XML Entries for Safe Controls  
  When you add a safe control entry to a project item or to the project's assembly, a reference is written to the package manifest in the following format:  
   
-```  
+```xml  
 <Assemblies>  
     <Assembly Location="<assembly name>.dll"     
       DeploymentTarget="<'GlobalAssemblyCache' or 'WebApplication'">>  
@@ -112,5 +112,4 @@ manager: "ghogen"
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
  [Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)   
  [Extending SharePoint Packaging and Deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)  
-  
   

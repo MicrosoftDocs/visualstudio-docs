@@ -139,3 +139,5 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Overviews](../profiling/overviews-performance-tools.md)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

@@ -45,7 +45,7 @@ HRESULT WINAPI StopTrackingAndCleanup(void);
 ```  
   
 ## Return Value  
- Returns an [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if tracking was stopped.  
+ Returns an **HRESULT** with the **SUCCEEDED** bit set if tracking was stopped.  
   
 ## Requirements  
  **Header:** FileTracker.h  

@@ -140,7 +140,7 @@ With R services running on the remote computer, you also need to create user acc
 
     However, if you are installing your certificate on an Internet-facing server (such as an Azure VM), use the Fully Qualified Domain Name (FQDN) of your server because the FQDN of an Internet-facing server will never be the same as its NETBIOS name.
 
-    To do this, navigate to where R Services is installed (`%PROGRAM FILES%\R Remote Service for Visual Studio\1.0` by default), open the `Microsoft.R.Host.Broker.Config.json` file in a text editor, and replace its contents with the following, assigning CN to whatever your server's FQDN, suchg as `foo.westus.cloudapp.azure.com`:
+    To do this, navigate to where R Services is installed (`%PROGRAM FILES%\R Remote Service for Visual Studio\1.0` by default), open the `Microsoft.R.Host.Broker.Config.json` file in a text editor, and replace its contents with the following, assigning CN to whatever your server's FQDN, such as `foo.westus.cloudapp.azure.com`:
 
     ```json
     {
