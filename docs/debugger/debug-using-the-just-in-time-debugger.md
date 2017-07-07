@@ -64,7 +64,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
 1.  On the **Start** menu, search for and run `regedit.exe`  
   
-2.  In the **Registry Editor** window, locate and delete the follow registry entries:  
+2.  In the **Registry Editor** window, locate and delete the following registry entries:  
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   
@@ -162,7 +162,7 @@ static void Main(string[] args)
  You can start debugging at this point. If this were a real application, you would need to find out why the code is throwing the exception.  
   
 ## Just-In-Time debugging errors  
- if you don't see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](https://msdn.microsoft.com/library/windows/desktop/bb513638\(v=vs.85\).aspx).  
+ if you don't see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](/windows-hardware/drivers/dashboard/windows-error-reporting-getting-started).  
   
  You might see the following error messages that are associated with Just-In-Time debugging.  
   

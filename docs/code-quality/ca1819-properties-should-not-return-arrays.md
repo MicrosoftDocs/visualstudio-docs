@@ -53,7 +53,7 @@ translation.priority.mt:
  To fix a violation of this rule, either make the property a method or change the property to return a collection.  
   
 ## When to Suppress Warnings  
- Attributes can contain properties that return arrays, but cannot contain properties that return collections. You can suppress a warning that is raised for a property of an attribute that is derived from the [System.Attribute](assetId:///System.Attribute?qualifyHint=False&autoUpgrade=True) class. Otherwise, do not suppress a warning from this rule.  
+ Attributes can contain properties that return arrays, but cannot contain properties that return collections. You can suppress a warning that is raised for a property of an attribute that is derived from the <xref:System.Attribute> class. Otherwise, do not suppress a warning from this rule.  
   
 ## Example Violation  
   
@@ -81,7 +81,7 @@ translation.priority.mt:
 ### Description  
  The following example fixes the violation by changing the property to return a  
   
- <xref:System.Collection.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
+ <xref:System.Collections.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>.  
   
 ### Code  
  [!code-cs[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_3.cs)]
@@ -97,7 +97,7 @@ translation.priority.mt:
  [!code-vb[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_4.vb)]  
   
 ### Comments  
- The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection?displayProperty=fullName>.  
+ The following example fixes the violation by changing the property to return a <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>.  
   
 ### Code  
  [!code-vb[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_5.vb)]

@@ -7,8 +7,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs:
-  - "VB"
   - "CSharp"
+  - "VB"
 helpviewer_keywords:
   - "editor"  
 ms.assetid:

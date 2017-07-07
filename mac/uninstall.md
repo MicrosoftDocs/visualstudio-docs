@@ -35,7 +35,7 @@ rm -rf ~/Library/Caches/VisualStudio
 rm -rf ~/Library/Preferences/VisualStudio
 rm -rf "~/Library/Preferences/Visual Studio"
 rm -rf ~/Library/Logs/VisualStudio
-rm -rf ~/Library/VisualLodStudio
+rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 ```
 
@@ -52,6 +52,7 @@ To remove the Mono Framework from a machine, run the following commands in Termi
 ```bash
 sudo rm -rf /Library/Frameworks/Mono.framework
 sudo pkgutil --forget com.xamarin.mono-MDK.pkg
+sudo rm -rf /etc/paths.d/mono-commands
 ```
 
 ## Uninstall Xamarin.Android
@@ -89,6 +90,7 @@ sudo rm -rf /Library/Frameworks/Xamarin.iOS.framework
 sudo rm -rf /Developer/MonoTouch
 sudo pkgutil --forget com.xamarin.monotouch.pkg
 sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
+sudo pkgutil --forget com.xamarin.xamarin.ios.pkg
 ```
 
 ## Uninstall Xamarin.Mac

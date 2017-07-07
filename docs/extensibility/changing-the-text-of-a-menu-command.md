@@ -60,7 +60,7 @@ The following steps show how to change the text label of a menu command by using
         if (null != myCommand)  
         {  
             myCommand.Text = "New Text";  
-                    }  
+        }  
     }  
     ```  
   

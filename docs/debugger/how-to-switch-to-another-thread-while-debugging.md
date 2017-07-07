@@ -35,8 +35,13 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Switch to Another Thread While Debugging
-When you debug a multithreaded application, you can use any one of several methods to switch the context from the thread that you have been working with to another thread.  
+# How to: Switch to Another Thread While Debugging in Visual Studio
+When you debug a multithreaded application, you can use any one of several methods to switch from the thread that you have been working with to another thread.
+
+> [!NOTE]
+> If you want to control the order in which threads execute, you need to [freeze and thaw threads](/debugger/get-started-debugging-multithreaded-apps.md).
+
+When you examine threads in the code editor and the different multithreaded debugging windows, the yellow arrow indicates the current thread. A green arrow with a curly tail indicates that a non-current thread has the current debugger context.
   
 ### To switch to any thread that appears 
   
@@ -44,13 +49,13 @@ When you debug a multithreaded application, you can use any one of several metho
   
 ### To switch to a thread in a source window  
   
--   In the left gutter, right-click a thread indicator, point to **Switch to**, and then click the name of that thread to which you want to switch. The shortcut menu shows only the threads at that specific location.  
+-   In the left gutter, right-click a thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker"), point to **Switch to**, and then click the name of that thread to which you want to switch. The shortcut menu shows only the threads at that specific location.  
   
-     If no indicators appear, right-click in the **Threads** window and verify that **Show Threads in Source** is selected.  
+     If no thread markers appear, right-click in the **Threads** window and verify that **Show Threads in Source** is selected.  
   
 ### To switch to a thread in the Debug Location toolbar  
   
-1.  On the **Debug Location** toolbar, click the **Thread** box.  
+1.  On the **Debug Location** toolbar, click the **Thread** list.  
   
 2.  In the list, click the thread to which you want to switch.  
   

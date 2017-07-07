@@ -120,8 +120,6 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </div>
         </a>
     </li>
-</ul>
-<ul class="panelContent cardsFTitle">    
     <li>
         <a href="https://mva.microsoft.com/product-training/visual-studio-courses">
         <div class="cardSize">

@@ -87,7 +87,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 
 <!-- VERSIONLESS -->
 ## Export to GPUView or Windows Performance Analyzer
-Starting with Visual Studio 2017, this data can be opened with [GPUView](https://msdn.microsoft.com/library/windows/desktop/ff570133(v=vs.85).aspx) and [Windows Performance Analyzer](https://msdn.microsoft.com/windows/hardware/commercialize/test/wpt/windows-performance-analyzer) by clicking the **Open in GpuView** or **Open in WPA** links located at the lower right of the diagnostic session.
+Starting with Visual Studio 2017, this data can be opened with [GPUView](/windows-hardware/drivers/display/using-gpuview) and [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer) by clicking the **Open in GpuView** or **Open in WPA** links located at the lower right of the diagnostic session.
 
 ![Open in...](media/gfx_diag_open_in.png)
 <!-- /VERSIONLESS -->
@@ -164,5 +164,5 @@ Starting with Visual Studio 2017, this data can be opened with [GPUView](https:/
 -   [GPU Usage Tool in Visual Studio (video)](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)  
 -   [GPU Usage tool in Visual Studio 2013 Update 4 CTP1 (blog)](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx)  
 -   [GPU Usage for DirectX in Visual Studio (blog)](http://blogs.msdn.com/b/ianhu/archive/2014/12/16/gpu-usage-for-directx-in-visual-studio.aspx)
-- [GPUView](https://msdn.microsoft.com/library/windows/desktop/ff570133(v=vs.85).aspx) 
-- [Windows Performance Analyzer](https://msdn.microsoft.com/windows/hardware/commercialize/test/wpt/windows-performance-analyzer)
+- [GPUView](/windows-hardware/drivers/display/using-gpuview) 
+- [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer)
