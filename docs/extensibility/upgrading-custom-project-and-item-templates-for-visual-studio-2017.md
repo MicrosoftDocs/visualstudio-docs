@@ -27,6 +27,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
+
 # Upgrading Custom Project and Item Templates for Visual Studio 2017
 Starting in Visual Studio 2017, Visual Studio is changing the way it discovers project and item templates that have been installed by a .vsix or an .msi. If you own extensions that use custom project or item templates, you need to update your extensions. This topic explains what you must do.  
   
@@ -73,7 +74,7 @@ Starting in Visual Studio 2017, Visual Studio is changing the way it discovers p
 -   If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually-generated manifest to the VSIX project.  
   
 ## File Changes in Project and Item Templates  
- We will show the points of difference between the Visual Studio 2015 version and the Visual Studio "15" version of the template files, so that you can create the new files correctly.  
+We show the points of difference between the Visual Studio 2015 and Visual Studio 2017 versions of the template files, so that you can create the new files correctly.  
   
  Here is the default project .vstemplate file created by Visual Studio 2015:  
   
