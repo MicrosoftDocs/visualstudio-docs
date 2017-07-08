@@ -85,7 +85,7 @@ FastCGI is an interface that works at the request level. IIS receives incoming c
     </handlers>
   </system.webServer>
 </configuration>
-```xml
+```
 
 The `<appSettings>` are available to your app as environment variables:
 - The value for `PYTHONPATH` may be freely extended but must include the root of your site.
