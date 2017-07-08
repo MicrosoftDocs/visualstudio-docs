@@ -63,7 +63,7 @@ After installing the site extension (through either the portal or an Azure Resou
 
 ![Extension list on Azure App Service](media/python-on-azure-extension-list.png)
 
-![Extension details on Azure App Service](media/python-on-azure-extension-details.png)
+![Extension details on Azure App Service](media/python-on-azure-extension-detail.png)
 
 Your next step is to reference the Python installation in the site's `web.config` file for both the FastCGI and Http Platform request handlers.
 
@@ -138,7 +138,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 
 Access Kudu from your App Service blade by selecting **Development Tools > Advanced Tools**, then select **Go** to navigate to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/`:
 
-![The Kudu console for Azure App Service](media/python-on-azure-extension-console01.png)
+![The Kudu console for Azure App Service](media/python-on-azure-console01.png)
 
 Select **Debug console > CMD** to open the console, in which you can navigate into your Python installation and see what libraries are already there.
 
@@ -146,6 +146,8 @@ To install a single package:
 
 1. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
 1. Use `python.exe -m pip install <package_name>` to install a package.
+
+![Example of installing matplotlib through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
 
 To install packages from your `requirements.txt` (recommended):
 
@@ -155,7 +157,7 @@ To install packages from your `requirements.txt` (recommended):
 Using requirements.txt is recommended because it's easy to reproduce your exact package set both locally and on the server.
 
 > [!Note]
-> There’s no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels; for packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
+> There's no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels; for packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
 
 ### Kudu REST API
 
