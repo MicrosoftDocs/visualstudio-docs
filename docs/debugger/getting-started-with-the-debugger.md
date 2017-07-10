@@ -290,7 +290,7 @@ To learn more about the features of the debugger, see [Debugger Tips and Tricks]
 ## <a name="video"></a> Watch a video on debugging
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=sqwiwLD6D_1111787171" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798?l=sqwiwLD6D_1111787171" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## See Also  
