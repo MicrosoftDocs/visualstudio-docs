@@ -413,7 +413,7 @@ You can set breakpoints on different conditions, such as the thread name or the 
 ## <a name="video"></a> Watch a video on multithreaded debugging
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=MoZPKMD6D_111787171" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugging-Multi-threaded-Apps-in-Visual-Studio-2017-MoZPKMD6D_111787171" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### To learn more about the Parallel Stack and Parallel Watch windows  
