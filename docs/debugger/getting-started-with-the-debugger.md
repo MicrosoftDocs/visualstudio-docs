@@ -100,7 +100,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
      >[!NOTE]
      > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
@@ -286,4 +286,5 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
