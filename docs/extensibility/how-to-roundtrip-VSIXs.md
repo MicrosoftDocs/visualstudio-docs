@@ -82,8 +82,10 @@ We need to be sure to add build tools that will allow us to build and debug appr
 
 To build and deploy a VSIXv3 in both Visual Studio 2015 and 2017, you will require the following NuGet packages:
 
-1. Visual Studio 2015 requires: Microsoft.VisualStudio.Sdk.BuildTasks.14.0
-2. Visual Studio 2017 requires: Microsoft.VSSDK.BuildTool
+Version | Built Tools
+--- | ---
+Visual Studio 2015 | Microsoft.VisualStudio.Sdk.BuildTasks.14.0
+Visual Studio 2017 | Microsoft.VSSDK.BuildTool
 
 To do so:
 
