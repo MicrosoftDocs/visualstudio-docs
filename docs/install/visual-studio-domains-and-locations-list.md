@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio list of domains and download servers | Microsoft Docs"
+title: "List of domains and download server URLs for Visual Studio| Microsoft Docs"
 description: ""
 ms.custom: ""
 ms.date: "07/12/2017"
@@ -37,18 +37,18 @@ translation.priority.mt:
 ---
 # List of domains for download servers
 
-To install the workloads and components that you want, the Visual Studio Installer downloads files from various domains and their download servers. This page lists the domain URLs that you might want to include as trusted in your deployment scripts.
+The Visual Studio Installer downloads files from various domains and their download servers. This page lists the domain URLs that you might want to include as trusted in your deployment scripts.
 
-If possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
+If it is possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
 
-## Domains that Microsoft owns
+## Microsoft domains
 * go.microsoft.com
 * aka.ms
 * download.visualstudio.microsoft.com
 * download.microsoft.com
 * dl.xamarin.com
 
-### Optional domains
+### Optional Microsoft domains
 * visualstudiogallery.msdn.microsoft.com
 * download.visualstudio.com
 * www.visualstudio.com
