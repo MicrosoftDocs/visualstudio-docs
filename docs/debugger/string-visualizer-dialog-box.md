@@ -43,6 +43,8 @@ translation.priority.ht:
 # View strings in a string visualizer in Visual Studio
 While you are paused in the debugger, you can open a string visualizer to view strings that are too long to view in a data tip or debugger window. In many scenarios, the visualizer can help you to identify malformed strings.
 
+The standard built-in string visualizers include plain text, XML, HTML, and JSON. For a few other types such as WPF objects that appear in the debugger windows like the **Autos** window, you can also open visualizers.
+
 ## Open a string visualizer
 
 To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
