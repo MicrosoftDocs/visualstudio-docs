@@ -42,30 +42,32 @@ The Visual Studio Installer downloads files from various domains and their downl
 If it is possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
 
 ## Microsoft domains
-* go.microsoft.com
-* aka.ms
-* download.visualstudio.microsoft.com
-* download.microsoft.com
-* dl.xamarin.com
-
-### Optional Microsoft domains
-* visualstudiogallery.msdn.microsoft.com
-* download.visualstudio.com
-* www.visualstudio.com
-* msdn.microsoft.com
-* www.microsoft.com
+| Domain | Purpose |
+| ------ | ------- |
+| go.microsoft.com | Setup URL resolution |
+| aka.ms | Setup URL resolution |
+| download.visualstudio.microsoft.com | Setup packages download location |
+| download.microsoft.com | Setup packages download location |
+| download.visualstudio.com | Setup packages download location |
+| dl.xamarin.com | Setup packages download location |
+| visualstudiogallery.msdn.microsoft.com | Visual Studio Extensions download location |
+| visualstudio.com | ??? |
+| msdn.microsoft.com | ??? |
+| microsoft.com | ??? |
 
 ## Third-party domains
-* archive.apache.org
-* cocos2d-x.org
-* download.epicgames.com
-* download.oracle.com
-* download.unity3d.com
-* netstorage.unity3d.com
-* dl.google.com
-* www.incredibuild.com
-* incredibuildvs2017i.azureedge.net
-* www.python.org
+| Domain | Used to install these workloads |
+| ------ | ------- |
+| archive.apache.org |  Mobile development with JavaScript (Cordova) |
+| cocos2d-x.org | Game development with C++ (Cocos) | 
+| download.epicgames.com | Game development with C++ (Unreal Engine) | 
+| download.oracle.com | Mobile development with JavaScript (Java SDK) <br />Mobile Development with .NET (Java SDK) |
+| download.unity3d.com | Game Development with Unity workload (Unity) | 
+| netstorage.unity3d.com | Game Development with Unity workload (Unity) |
+| dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
+| incredibuild.com | Game development with C++ (Incredibuild) |
+| incredibuildvs2017i.azureedge.net | Game development with C++ (Incredibuild) |
+| python.org | Python development (Python) <br /> Data science and and analytical applications (Python) |
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
