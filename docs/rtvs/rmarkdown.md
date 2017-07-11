@@ -7,6 +7,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc

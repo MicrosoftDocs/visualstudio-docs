@@ -7,8 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 ms.assetid: ef9c04d4-0d5e-405a-842e-8d47fa0e8781
 caps.latest.revision: 1
 author: "kraigb"
