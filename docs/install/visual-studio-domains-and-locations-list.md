@@ -35,11 +35,11 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# List of domains and download servers
+# List of domains for download servers
 
-To install the workloads and components that you want, the Visual Studio Installer downloads files from various download servers. This page lists download servers URLs that you might want to include as trusted in your deployment scripts.
+To install the workloads and components that you want, the Visual Studio Installer downloads files from various domains and their download servers. This page lists the domain URLs that you might want to include as trusted in your deployment scripts.
 
-If possible for your environment, add the following domains with both HTTP and HTTPS protocols.
+If possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
 
 ## Domains that Microsoft owns
 * go.microsoft.com
@@ -47,6 +47,13 @@ If possible for your environment, add the following domains with both HTTP and H
 * download.visualstudio.microsoft.com
 * download.microsoft.com
 * dl.xamarin.com
+
+### Optional domains
+* visualstudiogallery.msdn.microsoft.com
+* download.visualstudio.com
+* www.visualstudio.com
+* msdn.microsoft.com
+* www.microsoft.com
 
 ## Third-party domains
 * archive.apache.org
@@ -59,13 +66,6 @@ If possible for your environment, add the following domains with both HTTP and H
 * www.incredibuild.com
 * incredibuildvs2017i.azureedge.net
 * www.python.org
-
-## Optional domains
-* visualstudiogallery.msdn.microsoft.com
-* download.visualstudio.com
-* www.visualstudio.com
-* msdn.microsoft.com
-* www.microsoft.com
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
