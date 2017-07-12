@@ -65,7 +65,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, MyThreadWalkthroughApp.cpp, or Module1.vb.  
   
-6.  Delete the code that appears in the source file and replace it with the example code shown here (this is modified code from the "Creating a Thread" section of the topic [Creating Threads and Passing Data at Start Time](/dotnet/standard/threading/creating-threads-and-passing-data-at-start-time).
+6.  Delete the code that appears in the source file and replace it with the example code shown here.
 
     ```C#
     using System;
@@ -115,67 +115,38 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```
 
     ```C++
-    
-    // In Properties / General tab, you also need to enable CLR support (/clr)
     #include "stdafx.h"
+    #include <thread>
+    #include <iostream>
+    #include <vector>
 
-    using namespace System;
-    using namespace System::Threading;
+    int count = 0;
 
-    public ref class ServerClass
-    {
-    public:
+    void doSomeWork() {
 
-      static int count = 0;
-
-      // The method that will be called when the thread is started.
-      void InstanceMethod()
-      {
-        Console::WriteLine(
-          "ServerClass.InstanceMethod is running on another thread.");
-
+        std::cout << "The doSomeWork function is running on another thread." << std::endl;
         int data = count++;
         // Pause for a moment to provide a delay to make
         // threads more apparent.
-        Thread::Sleep(3000);
-        Console::WriteLine(
-          "The instance method called by the worker thread has ended.");
-      }
-    };
+        std::this_thread::sleep_for(std::chrono::seconds(3));
+        std::cout << "The function called by the worker thread has ended." << std::endl;
+    }
 
-    public ref class Simple
-    {
-    public:
-      static void Main()
-      {
-        for (size_t i = 0; i < 10; i++)
-        {
-          CreateThreads();
+    int main() {
+        std::vector<std::thread> threads;
+
+        for (int i = 0; i < 10; ++i) {
+
+            threads.push_back(std::thread(doSomeWork));
+            std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
         }
-      }
 
-      static void CreateThreads()
-      {
-        ServerClass^ serverObject = gcnew ServerClass();
+        for (auto& thread : threads) {
+            thread.join();
+        }
 
-        // Create the thread object, passing in the
-        // serverObject.InstanceMethod method using a
-        // ThreadStart delegate.
-        Thread^ InstanceCaller = gcnew Thread(
-          gcnew ThreadStart(serverObject, &ServerClass::InstanceMethod));
-
-        // Start the thread.
-        InstanceCaller->Start();
-
-        Console::WriteLine("The Main() thread calls this after "
-          + "starting the new InstanceCaller thread.");
-      }
-    };
-
-    int main()
-    {
-      Simple::Main();
-    }  
+        return 0;
+    }
     ```
 
     ```VB
