@@ -1,12 +1,13 @@
 ---
 title: Editing Code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/28/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a198ccc3-5506-48e7-b3b2-9399661b80d5
@@ -14,20 +15,6 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Editing R code in Visual Studio
@@ -73,7 +60,7 @@ When typing calls to functions that have many parameters, oftentimes you want to
 
 ![Animation of automatic indentation](media/editing-auto-indentation.gif)
 
-To change this behavior, see [editor options](#editor-options) below for the **Tabs** group.
+To change this behavior, see [editor options](#editor-options) for the **Tabs** group.
 
 Collapsible code regions let you temporarily hide part of code in the editor. Visual Studio creates various regions for you automatically, as for multi-line statements, unless the **Advanced > Outlining > Code outlining** option is set to Off.
 
@@ -85,11 +72,11 @@ By default, Visual Studio inserts spaces when you press the Tab key. You can aga
 
 ## Code navigation
 
-Code navigation gives you quick access to the source code of your R program and its libraries. These navigation features keep you in the flow of your work rather than having to take the time to search for and manually navigate to the code of interest.
+Code navigation gives you quick access to the source code of your R program and its libraries. These features keep you in the flow of your work rather than having to manually search your code.
 
-**Go To Definition** quickly jumps to a function definition or pop up an inline mini-editor to read the source code of a library function. Just right-click the function of interest and select **Go To Definition**, or place the cursor in the function and press F12.
+**Go To Definition** quickly jumps to a function definition or pops up an inline mini-editor to read the source code of a library function. Just right-click the function of interest and select **Go To Definition**, or place the cursor in the function and press F12.
 
-This opens a new editor window containing the source code for the function, and with the cursor conveniently positioned at the start of the function definition.
+This command opens a new editor window containing the source code for the function. The cursor is conveniently positioned at the start of the function definition.
 
 **Peek Definition**, invoked from the right-click menu or Alt+F12, inserts a read-only, scrollable region containing the source code of the function below the function call:
 
@@ -97,7 +84,7 @@ This opens a new editor window containing the source code for the function, and 
 
 ## Sending code to the interactive window
 
-Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). This is done in the R editor by pressing Ctrl+Enter for the current line of code, which then places the cursor on the next line. With Ctrl+Enter, then, you can effectively step through your code from the editor.
+Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). Pressing Ctrl+Enter in the R editor sends the current line of code to the interactive window, then places the cursor on the next line. With Ctrl+Enter, then, you can effectively step through your code from the editor.
 
 You can also select code and press Ctrl+Enter to apply that entire selection. Alternately, right-click the selection and select **Execute in Interactive**.
 
@@ -109,7 +96,7 @@ Visual Studio's automatic formatting keeps the code you write, as well as code y
 f<-function  (a){  return(a + 1) }
 ```
 
-Applying formatting will clean it up to be:
+Applying formatting cleans it up to be:
 
 ```R
 f <- function(a) { return(a + 1) }
@@ -117,9 +104,9 @@ f <- function(a) { return(a + 1) }
 
 To reformat the entire code file, select **Edit > Advanced > Format Document** (Ctrl+E,D).
 
-Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit > Undo** or pressing Ctrl+Z once will undo the formatting; a second Undo will reverse the paste itself.
+Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit > Undo** or pressing Ctrl+Z once reverses the formatting; a second Undo reverses the paste itself.
  
-Formatting options (including turning formatting off) are set through **Tools > Options** on the **Text Editor > R > Advanced** tab, which you can go to directly using either the **R Tools > Editor options...** command or by right-clicking in the editor and selecting **Formatting options...**. See [editor options](#editor-options) below for details.
+Formatting options (including turning off formatting) are set through **Tools > Options** on the **Text Editor > R > Advanced** tab. You can go directly to this page using either the **R Tools > Editor options...** command or by right-clicking in the editor and selecting **Formatting options...**. See the [editor options](#editor-options) section for details.
  
 ## Inserting Roxygen comments
 
@@ -148,7 +135,7 @@ Options on the **R > Advanced** tab are specific to RTVS:
 | | Space after comma | On | Places a space after commas. |
 | | Space after keyword | On | Places a space after keywords like `if`, `while`, and `repeat`. |
 | | Space before { | On | Places a space before and opening {. |
-| | Spaces around = | On | Places spaces around a equal sign. |
+| | Spaces around = | On | Places spaces around an equal sign. |
 | IntelliSense | Commit on Enter key | Off | Commits auto-completion selection when Enter is pressed. |
 | | Commit on Space key | Off | Commits auto-completion selection when Space is pressed.|
 | | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit > IntelliSense > List Members** (Ctrl+J). |
