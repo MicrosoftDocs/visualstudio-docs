@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "devlang-python"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 ms.assetid: a9087b19-275b-4cc1-8d0c-f9c4356c9ce8
 caps.latest.revision: 1
 author: "kraigb"

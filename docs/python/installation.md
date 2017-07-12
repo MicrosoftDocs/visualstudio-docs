@@ -7,6 +7,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ce3d3656-7ba2-490d-92df-0bb3e3badf92
@@ -14,20 +15,6 @@ caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Installing Python support in Visual Studio on Windows
@@ -63,6 +50,8 @@ To quickly test Python support after following the installation steps, Open the 
 
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)
 
+1. If you already have interpreters installed on your computer, see [Creating an environment for an existing interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
+
 ## Visual Studio 2015
 
 1. Run the Visual Studio installer through **Control Panel > Programs and Features**, selecting **Microsoft Visual Studio 2015** and then **Change**.
@@ -73,7 +62,7 @@ To quickly test Python support after following the installation steps, Open the 
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)    
 
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters).
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters). If you already have an interpreter installed, see [Creating an environment for an existing interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 
 ## Visual Studio 2013 and earlier
 
@@ -83,7 +72,7 @@ To quickly test Python support after following the installation steps, Open the 
     - Visual Studio 2012: [PTVS 2.1 for Visual Studio 2012](https://pytools.codeplex.com/downloads/get/920478)
     - Visual Studio 2010: [PTVS 2.1 for Visual Studio 2010](https://pytools.codeplex.com/downloads/get/920479)
 
-1. [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters).
+1. [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters). If you already have an interpreter installed, see [Creating an environment for an existing interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 
 ## Install locations
 

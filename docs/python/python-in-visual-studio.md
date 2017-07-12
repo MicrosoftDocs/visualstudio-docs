@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "devlang-python"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "hero-article"
 ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
 caps.latest.revision: 11
 author: "kraigb"

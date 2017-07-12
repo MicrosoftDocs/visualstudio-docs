@@ -1,12 +1,13 @@
 ---
 title: "Managing Python on Azure App Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "7/7/2017"
+ms.date: 7/12/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e56b5d55-6e6b-48af-af40-5172c768cabc
@@ -59,7 +60,7 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
 
 ## Configuring your site
 
-After installing the site extension (through either the portal or an Azure Resource Manager template), the Python installation path will be something like `d:\home\python361x64\python.exe`. To see the specific path, select the extension in the list shown for your App Service. This opens a description page containing the path:
+After installing the site extension (through either the portal or an Azure Resource Manager template), the Python installation path will be something like `d:\home\python361x64\python.exe`. To see the specific path, select the extension in the list shown for your App Service to open its description page containing the path:
 
 ![Extension list on Azure App Service](media/python-on-azure-extension-list.png)
 
@@ -125,11 +126,10 @@ The `HTTP_PLATFORM_PORT` environment variable shown in the code contains the por
 
 ## Installing packages
 
-Because your app likely depends on a variety of packages, you need to make sure those packages are installed in your Python environment on App Service.
+Because your app likely depends on a variety of packages, you need to make sure those packages are installed in your Python environment on App Service through one of three methods:.
 
-There are three ways to do this:
-- Using the Azure App Service console on the Azure portal
-- Using the Kudu REST API
+- The Azure App Service console on the Azure portal
+- The Kudu REST API
 - Copying each library into the app source code
 
 ### Kudu console
@@ -157,7 +157,7 @@ To install packages from your `requirements.txt` (recommended):
 Using requirements.txt is recommended because it's easy to reproduce your exact package set both locally and on the server.
 
 > [!Note]
-> There's no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels; for packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
+> There's no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
 
 ### Kudu REST API
 
@@ -170,7 +170,8 @@ Instead of using the Kudu console through the Azure portal, you can run commands
 }
 ```
 
-For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). You can also refer to the [helper class of the pybot sample](https://github.com/zooba/pybot/blob/master/_deploy/deploy_helpers.py), which obtains credentials using the [Azure SDK for Python](azure-sdk-for-python.md) and submits commands through the `Site.exec()` method.
+For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). You can also see credentials using the [`az webapp deployment list-publishing-profiles command`](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles) from the Azure CLI. A helper library for posting Kudu commands is also available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
+
 
 ### Copying libraries into app source code
 
@@ -178,5 +179,6 @@ Instead of installing packages directly on the server, you can instead copy libr
 
 The caveat is that these libraries must precisely match the version of Python on the server, otherwise you'll see obscure errors after deployment. However, because the versions of Python in the App Service site extensions are exactly the same as those released on python.org, you can easily obtain a compatible version for local development.
 
-> [!Note] 
-> Although working in a virtual environment locally can help you fully understand the dependencies needed by your site, with this method it's best to just install libraries into your main Python folder to avoid having conflicting dependencies.
+### Avoiding virtual environments
+
+Although working in a virtual environment locally can help you fully understand the dependencies needed by your site, using virtual environments on App Service is not recommended. Instead, just install libraries into your main Python folder and deploy them with your app to avoid having conflicting dependencies.

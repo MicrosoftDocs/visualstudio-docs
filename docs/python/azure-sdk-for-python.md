@@ -7,6 +7,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d30fddae-8e2f-4f50-90d3-8ed2cd35c7a6
@@ -58,4 +59,4 @@ For public APIs without documentation, the unit tests in the The [SDK's GitHub r
 
 The Git repository for the SDK is located at [https://github.com/Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python).
 
-If you find any issues or have any questions regarding the usage of the SDK, please [file issues at the repository](https://github.com/Azure/azure-sdk-for-python/issues).
+[File issues at the repository](https://github.com/Azure/azure-sdk-for-python/issues) if you find any problems or have questions regarding the usage of the SDK.
