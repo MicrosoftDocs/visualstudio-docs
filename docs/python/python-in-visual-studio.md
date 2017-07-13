@@ -1,12 +1,13 @@
 ---
 title: Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/13/2017
+ms.date: 7/13/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
@@ -14,25 +15,11 @@ caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Working with Python in Visual Studio
 
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
+Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
 Visual Studio on Windows provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python development and Data Science workloads (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). Python is not presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code (see [Q&A below](#questions-and-answers).
 
@@ -46,11 +33,11 @@ Follow our [installation instructions](installation.md) to set up the Python wor
 | IPython support | Includes support for IPython/Jupyter in the REPL for inline plots, .NET, and Windows Presentation Foundation (WPF). | n/a |
 | [Rich editing, IntelliSense, and code comprehension](code-editing.md) | Includes syntax coloring, auto-complete across all your code and libraries, [code formatting](code-formatting.md), signature help, class view, Go to Definition, Find All References, code snippets, [refactoring](code-refactoring.md), [PyLint](code-pylint.md), and more. | [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md) |
 | [Interactive Window](interactive-repl.md) | Provides a quick REPL experience for Python with the ability to easily highlight a portion of your code and send it to the Interactive Window. | n/a |
-| [Full-featured debugging](debugging.md) | Debugging can be done with or without a Visual Studio project, including the ability to an existing executable, [Python/C++ mixed-mode debugging](debugging-mixed-mode.md), [remote debugging](debugging-cross-platform-remote.md) to Windows/Linux/Mac, [remote debugging to Azure](debugging-azure-remote.md), and debugging within the Interactive Window. | [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) |
+| [Full-featured debugging](debugging.md) | Debugging can be done with or without a Visual Studio project, including the ability to debug an existing executable, [Python/C++ mixed-mode debugging](debugging-mixed-mode.md), [remote debugging](debugging-cross-platform-remote.md) to Windows/Linux/Mac, [remote debugging to Azure](debugging-azure-remote.md), and debugging within the Interactive Window. | [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) |
 | [Profiling tools with comprehensive reporting](profiling.md) | Explores how time is being spent within your application, including the ability to compare performance between different profiling runs. | [Profiling Tools](../profiling/profiling-tools.md) (not all Visual Studio profiling features are available for Python) |
 | [Unit testing tools](unit-testing.md) | Discover, run, and manage tests in Visual Studio Test Explorer, and easily debug unit tests. | [Unit Test Your Code](../test/unit-test-your-code.md) |
 
-The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services, with support for Windows, Mac OS X, and Linux.
+The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
 Our series of [getting started and deep dive videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) on YouTube give you an overview of the primary features.
 
@@ -64,11 +51,11 @@ A. Not at this time, though it is requested on [UserVoice](https://visualstudio.
 
 **Q. What can I use to build UI with Python?**
 
-A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](http://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.))and [PyQt](https://wiki.python.org/moin/PyQt). At present, Python support in Visual Studio does not include any specific tools for UI development.
+A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](http://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.)) and [PyQt](https://wiki.python.org/moin/PyQt). At present, Python support in Visual Studio does not include any specific tools for UI development.
 
 **Q. Can a Python project produce a stand-alone executable?**
 
-A. Python is generally an interpreted language, with code run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to do this as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
+A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to create executables as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
 
 ## Features Matrix
 
@@ -144,9 +131,9 @@ Supported features by Visual Studio version and edition:
 
 | Azure | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---|
-| Web deploy to web site | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004;<sup>2</sup> |
-| Web deploy to web role | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
-| Web deploy to worker role | ? | ? | ? | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
+| Deploy to web site | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; | &#10004;<sup>2</sup> |
+| Deploy to web role | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
+| Deploy to worker role | ? | ? | ? | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
 | Run in Azure emulator | ? | ? | ? | &#10007; | &#10004;<sup>4</sup> | &#10004;<sup>4</sup> | &#10004;<sup>3</sup> | &#10007; |
 | Remote debugging | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>6</sup> | &#10004;<sup>8</sup> | &#10004;<sup>8</sup> | &#10007; |
 | Server Explorer attach | &#10004; | &#10004; | &#10004; | &#10007; | &#10004;<sup>7</sup> | &#10004;<sup>7</sup> | &#10007; | &#10007; |
@@ -191,7 +178,7 @@ Supported features by Visual Studio version and edition:
 
 5. Django template editor in Visual Studio 2013 has some known issues that are resolved by installing Update 2.
 
-6. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the Attach to Process dialog, but Azure Web Site remote debugging is still possible using the Attach Debugger (Python) command in Server Explorer. This requires [Azure SDK for .NET 2.3 - VS 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
+6. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the Attach to Process dialog, but Azure Web Site remote debugging is still possible using the Attach Debugger (Python) command in Server Explorer. Remote debugging requires [Azure SDK for .NET 2.3 - VS 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
 7. Requires Windows 8 or later. Attach Debugger (Python) command in Server Explorer requires [Azure SDK for .NET 2.3 - VS 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
 

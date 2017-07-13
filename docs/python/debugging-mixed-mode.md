@@ -1,12 +1,13 @@
 ---
 title: Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 5/8/2017
+ms.date: 7/12/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ca86a87-e254-4ab7-b3ba-a0ab99c1da93
@@ -14,23 +15,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
-# Debugging Python and C++ Together
+# Debugging Python and C++ together
 
 Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ where high performance or the ability to directly invoke platform APIs is required (see [Creating a C++ Extension for Python](cpp-and-python.md) for an example. When a Python project is loaded, Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, with combined call stacks, the ability to step between Python and native code, breakpoints in either type of code, and the ability to see Python representations of objects in native frames and vice versa:
 
