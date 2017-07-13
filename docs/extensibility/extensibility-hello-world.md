@@ -25,18 +25,18 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Hello World
+# Hello World - your first Extensionx
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
 
 You should learn the basics of these skills:
 
-* **[Create an Extensibility project](#create-a-project)**
+* **[Create an Extensibility project](#create-an-extensibility-project)**
 * **[Add a Custom command](#add-a-custom-command)**
 * **[Modify the source code](#modify-the-source-code)**
 * **[Run it](#run-it)**
 
-For this example, you'll use Visual C# to add a custom menu button named "Say HelloWorld!" that looks like this:
+For this example, you'll use Visual C# to add a custom menu button named "Say Hello World!" that looks like this:
 
 ![hello world command](media/hello-world-say-hello-world.png)
 
@@ -84,7 +84,7 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
 
 ![command package vsct](media/hello-world-command-package-vsct.png)
 
-2. Change the ButtonText parameter to "Say HelloWorld!"
+2. Change the `ButtonText` parameter to "Say Hello World!"
 
 ```xml
   ...
@@ -98,7 +98,7 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
   ...
 ```
 
-3. Go back to **Solution Explorer** and find the Command.cs file. Change the string message for the command (`string.Format(..`)to "Hello World!"
+3. Go back to **Solution Explorer** and find the Command.cs file. Change the string `message` for the command `string.Format(..)` to "Hello World!"
 
 ```csharp
   ...
@@ -125,14 +125,22 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-1. Click **Start** in the Toolbar. This will build your project and start the debugger launching a new instance of Visual Studio called the **Experimental Instance**. You will see the words "Experimental Instance" in the Visual Studio title bar.
+1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+
+You will see the words "Experimental Instance" in the Visual Studio title bar.
 
 ![experimental instance title bar](media/hello-world-exp-instance.png)
 
-2. On the **Tools** menu of the **Experimental Instance**, click **Say HelloWorld!**.
+2. On the **Tools** menu of the **Experimental Instance**, click **Say Hello World!**.
 
 ![final result](media/hello-world-final-result.png)
 
-You should see the output from your new custom command, in this case the window in the center of the screen that gives you the Hello World message.
+You should see the output from your new custom command, in this case the dialog in the center of the screen that gives you the "Hello World!" message.
 
 ## Next Steps
+
+Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
+
+* [Starting to Develop Visual Studio Extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
+* [What's New in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
+* [Inside the Visual Studio SDK](inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
