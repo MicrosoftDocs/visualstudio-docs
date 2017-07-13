@@ -169,3 +169,10 @@ You can load symbol information directly from the **Modules** window by right-cl
 Sometimes, app developers ship apps without the matching symbol files (to reduce the footprint), but keep a copy of the matching symbol files for the build so that they can debug a released version later.
 
 To find out how the debugger classifies code as user code, see [Just My Code](../debugger/just-my-code.md). To find out more about symbol files, see [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+
+## Learn more
+
+See this visual studio [blog post](https://blogs.msdn.microsoft.com/visualstudio/2017/06/26/7-lesser-known-hacks-for-debugging-in-visual-studio/) that describes some lesser known tips and tricks.
+
+## See Also
+[Keyboard Shortcuts](../ide/tips-and-tricks-for-visual-studio.md)
