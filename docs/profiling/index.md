@@ -46,7 +46,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/watch?v=e-3txyAFzmw">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Watch a Video on the Diagnostics Tools (VS 2015)</h3>
+                        <h3>Watch a Video on the Diagnostics Tools</h3>
                     </div>
                 </div>
             </div>
