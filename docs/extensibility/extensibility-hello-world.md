@@ -27,24 +27,30 @@ translation.priority.mt:
 ---
 # Hello World
 
-This Hello World example walks you through creating a custom command in Visual Studio and executing that command. You should learn the basics of these skills:
+This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
 
-* **[Create a project](#create-a-project)**
+You should learn the basics of these skills:
+
+* **[Create an Extensibility project](#create-a-project)**
 * **[Add a Custom command](#add-a-custom-command)**
 * **[Modify the source code](#modify-the-source-code)**
 * **[Run it](#run-it)**
 
 For this example, you'll use Visual C# to add a custom menu button named "Say HelloWorld!" that looks like this:
 
-![hello world](tbd)
+![hello world command](media/hello-world-say-hello-world.png)
 
-## Create a project
+## Prerequisites
 
-NOTE: Before you start, you may be prompted to download the Extensibility tools which include the VSIX template you'll need and sample code.
+Before you start, make sure you have installed the **Visual Studio extension development** workload which includes the VSIX template you'll need and sample code.
+
+Note: You can use any version of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio Extensibility project.
+
+## Create an Extensibility project
 
 1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
 
-2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**. (Your custom templates can be added to VSIX templates, but you must use a VSIX template for the final project.)
+2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
 
 ![new project](media/hello-world-new-project.png)
 
@@ -86,19 +92,19 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
      <Parent guid="guidCommandPackageCmdSet" id="MyMenuGroup" />
      <Icon guid="guidImages" id="bmpPic1" />
      <Strings>
-        <ButtonText>Say HelloWorld!</ButtonText>
+        <ButtonText>Say Hello World!</ButtonText>
      </Strings>
   </Button>
   ...
 ```
 
-3. Go back to **Solution Explorer** and find the Command.cs file. Change the string message for the command to "Hello World!"
+3. Go back to **Solution Explorer** and find the Command.cs file. Change the string message for the command (`string.Format(..`)to "Hello World!"
 
 ```csharp
   ...
   private void MenuItemCallback(object sender, EventArgs e)
   {
-    string message = "Hello World";
+    string message = "Hello World!";
     string title = "Command1";
 
     // Show a message box to prove we were here
@@ -113,13 +119,17 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
   ...
 ```
 
+Make sure to save your changes to each file.
+
 ## Run it
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-1. Click **Start** tbd. A new instance of Visual Studio opens called **Experimental Instance**.
+1. Click **Start** in the Toolbar. This will build your project and start the debugger launching a new instance of Visual Studio called the **Experimental Instance**. You will see the words "Experimental Instance" in the Visual Studio title bar.
 
-2. On the **Tools** menu of the **Experimental Instance**, click **Say HelloWorld!** 
+![experimental instance title bar](media/hello-world-exp-instance.png)
+
+2. On the **Tools** menu of the **Experimental Instance**, click **Say HelloWorld!**.
 
 ![final result](media/hello-world-final-result.png)
 

@@ -2,6 +2,7 @@
 # [Visual Studio SDK](visual-studio-sdk.md)
 # [Installing the Visual Studio SDK](installing-the-visual-studio-sdk.md)
 # [Starting to Develop Visual Studio Extensions](starting-to-develop-visual-studio-extensions.md)
+# [Hello World](extensibility-hello-world.md)
 # [What's New in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md)
 ## [Breaking Changes in Extensibility](breaking-changes-2017.md)
 ## [Ngen support in VSIX v3](ngen-support.md)
