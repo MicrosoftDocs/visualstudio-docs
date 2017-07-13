@@ -54,7 +54,7 @@ Next, download the Visual Studio bootstrapper file. To do so, click the followin
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
 <br/>
 
-> ![TIP]
+> [!TIP]
 > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171)  on how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that&#39;s right for you.
 
 ## Install the installer  
@@ -87,7 +87,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 3.  After the new workloads and components are installed, click **Launch**.
 
-> ![TIP]
+> [!TIP]
 > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) how to install the Visual Studio Installer and then choose and install a workload by using the Visual Studio Installer.
 
 ## Install individual components
@@ -96,7 +96,7 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
-  > ![TIP]
+  > [!TIP]
   > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171) on how to choose and then install an individual component by using the Visual Studio Installer.
 
 ## Install language packs
@@ -105,12 +105,15 @@ By default, the installer program tries to match the language of the operating s
 
   ![Visual Studio 2017 - Install language packs](media/vs2017-languages.PNG "Install Visual Studio language packs")
 
-  > ![TIP]
+  > [!TIP]
   > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171) on how to choose and then install a language pack by using the Visual Studio Installer.
 
 ### Change the installer language from the command line
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
+
+## Watch a video on how to install Visual Studio 2017
+ > [!VIDEO https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=9oIw0FD6D_3611787171]
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
@@ -120,4 +123,5 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
+  * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [How to report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
