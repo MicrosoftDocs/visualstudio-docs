@@ -25,11 +25,11 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Hello World - your first Extensionx
+# Hello World - your first extension
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
 
-You should learn the basics of these skills:
+In the process, you will learn how to:
 
 * **[Create an Extensibility project](#create-an-extensibility-project)**
 * **[Add a Custom command](#add-a-custom-command)**
@@ -143,4 +143,4 @@ Now that you know the basics of working with Visual Studio Extensibility, here's
 
 * [Starting to Develop Visual Studio Extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
 * [What's New in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
-* [Inside the Visual Studio SDK](inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
+* [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
