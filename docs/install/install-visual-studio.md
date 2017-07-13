@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "06/30/2017"
+ms.date: "07/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -40,7 +40,7 @@ translation.priority.mt:
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
-Want to know more about what else is new? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for more in-depth info about how we've redesigned the installation experience, see our blog posts, "[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)" and "[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/)."  
+Want to know more about what else is new in this version? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).   
 
 Ready to install? We'll walk you through it, step-by-step.
 
@@ -52,19 +52,13 @@ Next, download the Visual Studio bootstrapper file. To do so, click the followin
 
  > [!div class="button"]
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
+<br/>
 
- For a demo of how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that's right for you, see the following video: <br /><br />
-
- > [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171]
-
-<br /><br />
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
-</div>
+> ![TIP]
+> [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171)  on how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that&#39;s right for you.
 
 ## Install the installer  
-Next, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
+Then, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
 
 1.  From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
@@ -93,11 +87,8 @@ Next, run the bootstrapper file to install the Visual Studio Installer. This new
 
 3.  After the new workloads and components are installed, click **Launch**.
 
-For a demo of how to install the Visual Studio Installer and then choose workloads, see the following video: <br /><br />
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171" frameborder="0" allowfullscreen></iframe>
-</div>
+> ![TIP]
+> [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) how to install the Visual Studio Installer and then choose and install a workload by using the Visual Studio Installer.
 
 ## Install individual components
 
@@ -105,11 +96,8 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
-For a demo of how to install components in Visual Studio, see the following video: <br /><br />
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171" frameborder="0" allowfullscreen></iframe>
-</div>
+  > ![TIP]
+  > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171) on how to choose and then install an individual component by using the Visual Studio Installer.
 
 ## Install language packs
 
@@ -117,11 +105,8 @@ By default, the installer program tries to match the language of the operating s
 
   ![Visual Studio 2017 - Install language packs](media/vs2017-languages.PNG "Install Visual Studio language packs")
 
-For a demo of how to install language packs in Visual Studio, see the following video: <br /><br />  
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171" frameborder="0" allowfullscreen></iframe>
-</div>
+  > ![TIP]
+  > [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171) on how to choose and then install a language pack by using the Visual Studio Installer.
 
 ### Change the installer language from the command line
 
