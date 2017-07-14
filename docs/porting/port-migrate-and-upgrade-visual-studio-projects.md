@@ -1,7 +1,7 @@
 ---
 title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/28/2017"
+ms.date: 7/14/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,27 +23,13 @@ ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"  
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
+
 # Port, Migrate, and Upgrade Visual Studio Projects
 
 Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them as you always have, and provided that you don't depend on newer features, Visual Studio preserves backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://www.visualstudio.com/vs/release-notes/) for which features are specific to which versions.)
 
-Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible.
+Support for some types change over time, however. A newer version of Visual Studio may no longer support certain types, or require that they be migrated and updated such that they're no longer backwards-compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://developercommunity.visualstudio.com).
 
 > [!Important]
 > This present topic provides details only for project types in Visual Studio 2017 that involve migration. It does not include supported project types that have no migration issues; that list is found on  found in the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs). Note also that some project types are no longer supported at all in Visual Studio 2017 and therefore cannot be migrated.
@@ -53,7 +39,9 @@ Support for some types change over time, however. A newer version of Visual Stud
 
 ## Projects
 
-The following list describes support in Visual Studio 2017 for projects that were created in earlier versions. If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](https://msdn.microsoft.com/library/hh266747.aspx) and make a note in the comments below.
+The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
+
+If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](https://msdn.microsoft.com/library/hh266747.aspx) and make a note in the comments below.
 
 | Type of Project | Support |
 | --- | --- |
