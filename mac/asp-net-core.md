@@ -135,75 +135,75 @@ To add a controller, do the following:
 
 1. Right-click on the Project name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
-![New File dialog](media/asp-net-core-image8.png)
+    ![New File dialog](media/asp-net-core-image8.png)
 
 2. Add the following code to the new controller:
 
-```
-using System;
-using Microsoft.AspNetCore.Mvc;
-using System.Text.Encodings.Web;
+    ```
+    using System;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Text.Encodings.Web;
 
-namespace Hello_ASP
-{
-	public class HelloWorldController : Controller
-	{
-		//
-		// GET: /HelloWorld/
+    namespace Hello_ASP
+    {
+        public class HelloWorldController : Controller
+        {
+            //
+            // GET: /HelloWorld/
 
-		public string Index()
-		{
-			return "This is my default action...";
-		}
+            public string Index()
+            {
+                return "This is my default action...";
+            }
 
-	}
-}
-```
+        }
+    }
+    ```
 
 3. Add the `Microsoft.AspNetCore.Mvc` dependency to the project by right-clicking the Dependency folder, and selecting **Add Package...**.
 
 4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. This may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
-![Add Nuget](media/asp-net-core-image9.png)
+    ![Add Nuget](media/asp-net-core-image9.png)
 
 5. In the Startup class, remove the `app.Run` lambda and set the URL routing logic used by MVC to determine which code it should invoke to the following:
 
-```csharp
-app.UseMvc(routes =>
-{
-    routes.MapRoute(
-    name: "default",
-    template: "{controller=HelloWorld}/{action=Index}/{id?}");
-});
-```
+    ```csharp
+    app.UseMvc(routes =>
+    {
+        routes.MapRoute(
+        name: "default",
+        template: "{controller=HelloWorld}/{action=Index}/{id?}");
+    });
+    ```
 
-Make sure to remove the `app.Run` lambda, as this will override the routing logic.
+    Make sure to remove the `app.Run` lambda, as this will override the routing logic.
 
-MVC uses the following format, to determine which code to run:
+    MVC uses the following format, to determine which code to run:
 
-`/[Controller]/[ActionName]/[Parameters]`
+    `/[Controller]/[ActionName]/[Parameters]`
 
-When you add the code snippet above, you are telling the app to default to the `HelloWorld` Controller, and the `Index` action method.
+    When you add the code snippet above, you are telling the app to default to the `HelloWorld` Controller, and the `Index` action method.
 
 6. Add the `services.AddMvc();` call to the `ConfigureServices` method, as illustrated below:
 
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddMvc();
-}
-```
+    ```csharp
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddMvc();
+    }
+    ```
 
-You can also pass parameter information from the URL to the controller.
+    You can also pass parameter information from the URL to the controller.
 
 7. Add another method to your HelloWorldController, as illustrated below:
 
-```csharp
-public string Xamarin(string name)
-{
-    return HtmlEncoder.Default.Encode($"Hello {name}, welcome to Visual Studio for Mac");
-}
-```
+    ```csharp
+    public string Xamarin(string name)
+    {
+        return HtmlEncoder.Default.Encode($"Hello {name}, welcome to Visual Studio for Mac");
+    }
+    ```
 
 8. If you run the app now, it should automatically open your browser:
 
