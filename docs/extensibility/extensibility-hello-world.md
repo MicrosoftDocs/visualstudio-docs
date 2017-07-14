@@ -48,9 +48,9 @@ Note: You can use any version of Visual Studio (Community, Professional, or Ente
 
 ## Create an extensibility project
 
-1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
+Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
 
-2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
+Step 2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
 
 ![new project](media/hello-world-new-project.png)
 
