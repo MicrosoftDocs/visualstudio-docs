@@ -42,7 +42,7 @@ Visual Studio provides several commands for automatically transforming and clean
 
 ## Extract method
 
-1. Select the lines of code or the expression to extract to a separate method.
+1. Select the lines of code or the expression to extract into a separate method.
 1. Select the **Edit > Refactor > Extract method...** menu command or type Ctrl-R, M.
 1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
 
@@ -54,11 +54,11 @@ Visual Studio provides several commands for automatically transforming and clean
 
 ## Add import
 
-When you place the caret on an identifier that lacks type information, Visual Studio provides a smart tag (the lightbulb icon to the left of the code) whose commands adds the necessary `import` or `from ... import` statement:
+When you place the caret on an identifier that lacks type information, Visual Studio provides a smart tag (the lightbulb icon to the left of the code) whose commands add the necessary `import` or `from ... import` statement:
 
 ![Add import smart tag](media/code-refactor-add-import-1.png)
 
-Visual Studio offers `import` completions for top-level packages and modules in the current project and the standard library. Visual Studio also offers `from ... import` completions for sub-modules and sub-packages as well as module members. Completions includes functions, classes, or exported data. Selecting either option adds the statement to at the top of the file after other imports, or into an existing `from ... import` statement if the same module is already imported.
+Visual Studio offers `import` completions for top-level packages and modules in the current project and the standard library. Visual Studio also offers `from ... import` completions for submodules and subpackages as well as module members. Completions include functions, classes, or exported data. Selecting either option adds the statement to at the top of the file after other imports, or into an existing `from ... import` statement if the same module is already imported.
 
 ![Result of adding an import](media/code-refactor-add-import-2.png)
 
