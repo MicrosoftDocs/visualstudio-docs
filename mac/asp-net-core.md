@@ -26,24 +26,26 @@ This will display the New Project dialog, allowing you to select a template to c
 
 There are a number of projects that will provide you with a pre-built template to start building your ASP.NET Core Application. These are:
 
- - .NET Core > ASP.NET Core Empty Web Application (illustrated in the screenshot below)
- - Multi-platform > App > Connected App
+- **.NET Core > ASP.NET Core Empty Web Application**
+- **.NET Core > ASP.NET Core Web App**
+- **.NET Core > ASP.NET Core Web API**
+- **Multi-platform > App > Connected App**
 
-![](media/asp-net-core-image11.png)
+![ASP.NET Project Options](media/asp-net-core-image11.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project and Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
 
-![](media/asp-net-core-image4.png)
+![New ASP.NET Core Empty Project view](media/asp-net-core-image4.png)
 
-This creates a web application with two default files: `Program.cs` and `Startup.cs`, and a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty Web Application creates a web application with two default files: `Program.cs` and `Startup.cs`, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
-![](media/asp-net-core-image12.png)
+![Solution Pad displaying dependencies](media/asp-net-core-image12.png)
 
 ### Program.cs
 
 Open and inspect the `Program.cs` file in your project. Notice that two things are happening in the Main method – the entry into your app:
 
-```
+```csharp
 public static void Main(string[] args)
 {
 	var host = new WebHostBuilder()
@@ -56,7 +58,7 @@ public static void Main(string[] args)
 	host.Run();
 }
 ```
- An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
+An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
 
  * `UseKestrel`: Specifies the Kestrel server will be used by the app
  * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
@@ -71,28 +73,28 @@ The Startup class for your app is specified in the `UseStartup()` method on the 
 
 Open and inspect the `Startup.cs` file in your project:
 
-```
+```csharp
 public class Startup
-	{
-		public void ConfigureServices(IServiceCollection services)
-		{
-		}
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+    }
 
-		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-		{
-			loggerFactory.AddConsole();
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+    {
+        loggerFactory.AddConsole();
 
-			if (env.IsDevelopment())
-			{
-				app.UseDeveloperExceptionPage();
-			}
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
 
-			app.Run(async (context) =>
-			{
-				await context.Response.WriteAsync("Hello World!");
-			});
-		}
-	}
+        app.Run(async (context) =>
+        {
+            await context.Response.WriteAsync("Hello World!");
+        });
+    }
+}
 ```
 
 This Startup class must always adhere to the following rules:
@@ -102,7 +104,7 @@ This Startup class must always adhere to the following rules:
 
 The `ConfigureServices` method defines the services that will be used by your app.
 
-The `Configure` allows you to compose your request pipeline using [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware). These are components used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of a nuber of request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
+The `Configure` allows you to compose your request pipeline using [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware). These are components used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of a number of request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
 
 You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApplicationBuilder`, but the `Run` method will never call a next delegate and should always be used at the end of your pipeline.
 
@@ -110,66 +112,31 @@ The `Configure` method of the pre-built template is built to do a few things. Fi
 
 This simple Hello, World project can run now without any additional code being added. To run the app, and view it in your browser, press the Play (Triangular) button in the toolbar:
 
-![](media/asp-net-core-image5.png)
+![Run App](media/asp-net-core-image5.png)
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
 
-![](media/asp-net-core-image6.png)
+![Application Output displaying listening port](media/asp-net-core-image6.png)
 
-Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in step 5. You should see the text `Hello World`:
+Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World`:
 
-![](media/asp-net-core-image7.png)
-
-<!-- We don't have proper support for ASP.NET Webapps right now, so I'm going to comment this out for now
-# Walkthrough
-
-## Creating a New Web App
-
-1. Open Visual Studio for Mac. On the welcome page select **New Project...**
-
-![](media/asp-net-core-image1.png)
-
-2. Browse to **Other > .NET Core**  and select **ASP.NET Core Empty Web Application**. Press Next:
-
-![](media/asp-net-core-image2.png)
-
-3. Give the Project a name, and press **Create**:
-
-![](media/asp-net-core-image3.png)
-
-This loads a new ASP.NET Core app:
-
-![](media/asp-net-core-image4.png)
-
-This simple Hello, World project can run now without any additional code being added. To run the app, and view it in your browser, do the following:
-
-4. Press the Play (Triangular) button in the toolbar:
-
-![](media/asp-net-core-image5.png)
-
-5. Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
-
-[![](Images/image6.png "You should find output similar to that shown below")](Images/image6.png)
-
-6. Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in step 5. You should see the text `Hello World`:
-
-![](media/asp-net-core-image7.png)
+![browser showing text](media/asp-net-core-image7.png)
 
 ## Adding a Controller
 
 ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide a logical separation of responsibilities for each part of the app. MVC consists of the following:
 
-Model: A class that represents the data of the app
-View: Displays the app's user interface (which is often the model data)
-Controller: A class which handles browser requests, responds to user input and interaction.
+- **Model**: A class that represents the data of the app.
+- **View**: Displays the app's user interface (which is often the model data).
+- **Controller**: A class which handles browser requests, responds to user input and interaction.
 
-For more information on using MVC refer to [this](/guides/ios/getting_started/hello,_iOS_multiscreen/hello,_iOS_multiscreen_deepdive/#Model_View_Controller_MVC) guide.
+For more information on using MVC refer to [Overview of ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview) guide.
 
 To add a controller, do the following:
 
-1. Right-click on the Project name and select Add > New Files. Select General > Empty Class, and enter a controller name:
+1. Right-click on the Project name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
-![](media/asp-net-core-image8.png)
+![New File dialog](media/asp-net-core-image8.png)
 
 2. Add the following code to the new controller:
 
@@ -196,18 +163,20 @@ namespace Hello_ASP
 
 3. Add the `Microsoft.AspNetCore.Mvc` dependency to the project by right-clicking the Dependency folder, and selecting **Add Package...**.
 
-4. Use the Search box to browse the nuget library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. This may take a few minutes to install:
+4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. This may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
-![](media/asp-net-core-image9.png)
+![Add Nuget](media/asp-net-core-image9.png)
 
-5. In the Startup class, set the URL routing logic used by MVC to determine which code it should invoke to the following:
+5. In the Startup class, remove the `app.Run` lambda and set the URL routing logic used by MVC to determine which code it should invoke to the following:
 
-    app.UseMvc(routes =>
-        {
-            routes.MapRoute(
-            name: "default",
-            template: "{controller=HelloWorld}/{action=Index}/{id?}");
-        });
+```csharp
+app.UseMvc(routes =>
+{
+    routes.MapRoute(
+    name: "default",
+    template: "{controller=HelloWorld}/{action=Index}/{id?}");
+});
+```
 
 Make sure to remove the `app.Run` lambda, as this will override the routing logic.
 
@@ -219,24 +188,31 @@ When you add the code snippet above, you are telling the app to default to the `
 
 6. Add the `services.AddMvc();` call to the `ConfigureServices` method, as illustrated below:
 
-    public void ConfigureServices(IServiceCollection services)
-		{
-			services.AddMvc();
-		}
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddMvc();
+}
+```
 
 You can also pass parameter information from the URL to the controller.
 
 7. Add another method to your HelloWorldController, as illustrated below:
 
-		public string Xamarin(string name)
-		{
-			return HtmlEncoder.Default.Encode($"Hello {name}, welcome to Visual Studio for Mac");
-		}
+```csharp
+public string Xamarin(string name)
+{
+    return HtmlEncoder.Default.Encode($"Hello {name}, welcome to Visual Studio for Mac");
+}
+```
 
-8. If you run the app and browse to `http://localhost:5000/HelloWorld/Xamarin?name=Amy`, you should see the following:
+8. If you run the app now, it should automatically open your browser:
 
-![](media/asp-net-core-image10.png)
---->
+    ![Running app in browser](media/asp-net-core-image13.png)
+
+9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following:
+
+    ![Running app in browser with arguments](media/asp-net-core-image10.png)
 
 
 ## Troubleshooting
@@ -252,4 +228,7 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 ## Summary
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
-For more information on the next steps from here, refer to the [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs, and this article on [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/en-us/aspnet/core/mobile/native-mobile-backend) which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
+For more information on the next steps from here, refer to the following guides:
+- [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/en-us/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
+- [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
