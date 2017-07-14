@@ -20,12 +20,12 @@ If you have previously had Xamarin Studio installed on your machine, you may als
 
 ## Uninstall Script
 
-An uninstall script has been created [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/tree/master/mac/resources/uninstall-vsmac.sh).
+You can uninstall Visual Studio and its associated components in one go by using the uninstall script, which is located [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/tree/master/mac/resources/uninstall-vsmac.sh).
 
 This uninstall script contains most of the commands that you will find in the article. There are two main omissions from the script and are not included due to possible external dependencies:
 
-- [**Uninstalling Mono**](Uninstall_Mono_SDK_(MDK))
-- [**Uninstalling Android AVD**](#Uninstall_Android_AVD)
+- **Uninstalling Mono**
+- **Uninstalling Android AVD**
 
 To run the script, do the following:
 
