@@ -1,12 +1,13 @@
 ---
 title: Visualizing Data with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 5/1/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 
@@ -14,22 +15,7 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-
 
 # Creating visual data plots with R
 
@@ -58,11 +44,11 @@ Technically speaking, R `plot` commands render their output to an R graphics dev
 
 Plot windows are independent of Visual Studio projects, and remain open as you load and close projects.
 
-Generating a plot will use the "active" plot window, saving any previous plot it the plot history (see [Plot history](#plot-history)). For example, enter `plot(100:1)` and you'll see that the plot of above is replaced with a downward line.
+Generating a plot uses the "active" plot window, saving any previous plot it the plot history (see [Plot history](#plot-history)). For example, enter `plot(100:1)` and the first plot is replaced with a downward line.
 
 Like all other Visual Studio windows. the plot window supports customized layouts (see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md). Plot windows can be docked at different locations within the Visual Studio frame, resized within that frame, or pulled out of the frame entirely for independent resizing. 
 
-Resizing a plot window always re-renders the plot to provide the best quality image. You typically want to do this before exporting the plot to a file or to the clipboard using the commands described in the next section.
+Resizing a plot window always re-renders the plot to provide the best quality image. You typically want to resize a plot before exporting the plot to a file or to the clipboard using the commands described in the next section.
 
 ## Plot window commands
 
@@ -83,26 +69,26 @@ The plot window's toolbar holds applicable commands, most of which are also avai
 
 ## Multiple plot windows
 
-Because data scientists often work with many plots from many different datasets, RTVS lets you create as many independent plot windows as you like that can be arranged however you like within the Visual Studio frame or outside that frame. (See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md) for general information on docking and resizing windows.)
+Because data scientists often work with many plots from many different datasets, RTVS lets you create as many independent plot windows. You can then arrange those windows however you like within the Visual Studio frame or outside that frame altogether. (See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md) for general information on docking and resizing windows.)
 
-You create a new plot window using the toolbar button or **R Tools > Plots > New Plot Window**. The new plot window becomes the *active* window, which is where new plots will be rendered. To change the active window, switch to it and select the Activate Plot Window toolbar button or **R Tools > Plots > Activate Plot Window**.
+You create a new plot window using the toolbar button or **R Tools > Plots > New Plot Window**. The new plot window becomes the *active* window, which is where new plots are rendered. To change the active window, switch to it and select the Activate Plot Window toolbar button or **R Tools > Plots > Activate Plot Window**.
 
-Plots, too, are independent objects, which means you can copy or move them between plot windows using either drag-and-drop with the mouse, or the **Copy**, **Cut**, and **Paste** commands on the right-click context and **Edit** menus.
+Plots, too, are independent objects, which means you can copy or move them between plot windows using either drag-and-drop with the mouse, or by using the **Copy**, **Cut**, and **Paste** commands on the right-click context and **Edit** menus.
 
- The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the Shift key.
+The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the Shift key.
 
 ## Plot history
 
 Plot commands are maintained in a plot history for each window, ensuring that all your plotting within a session is preserved. To navigate the history, use the arrow buttons on the plot window toolbar, or Ctrl+Alt+F11 and Ctrl+Alt+F12. You can also remove single plots or clear all plots from the window again using toolbar buttons or the **R Tools > Plots** menu commands.
 
 To see the entire collection of plots, open the plot history window using the toolbar button or **R Tools > Plots > Plot History Window**.
-This gives you a list of thumbnails for the plots that have been displayed in that window, grouped by the different plot windows (or devices). Using the zoom buttons on the toolbar changes the size of the thumbnails.
+The history gives you a list of thumbnails for the plots that have been displayed in that window, grouped by the different plot windows (or devices). Using the zoom buttons on the toolbar changes the size of the thumbnails.
 
 ![Plot history window](media/plotting-plot-history-window.png)
 
-To open a plot in its associated window, double-clicking that plot, select it and then select the **Show Plot** toolbar button, or right-click and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
+To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button or right-click and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
 
-The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history will be reset.
+The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history is reset.
 
 ## Programmatically manipulating plot windows
 

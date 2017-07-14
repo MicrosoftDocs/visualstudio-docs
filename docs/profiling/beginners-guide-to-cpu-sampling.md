@@ -133,7 +133,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 4.  After you rerun the session, another data file is added to the **Reports** folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
   
-     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).  
+     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
