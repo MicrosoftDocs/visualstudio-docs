@@ -25,14 +25,14 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# Hello World - your first extension
+# Creating your First Extension: Hello World
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
 
 In the process, you will learn how to:
 
-* **[Create an Extensibility project](#create-an-extensibility-project)**
-* **[Add a Custom command](#add-a-custom-command)**
+* **[Create an extensibility project](#create-an-extensibility-project)**
+* **[Add a custom command](#add-a-custom-command)**
 * **[Modify the source code](#modify-the-source-code)**
 * **[Run it](#run-it)**
 
@@ -46,7 +46,7 @@ Before you start, make sure you have installed the **Visual Studio extension dev
 
 Note: You can use any version of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio Extensibility project.
 
-## Create an Extensibility project
+## Create an extensibility project
 
 1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
 
@@ -58,17 +58,17 @@ You should now see the Getting Started page and some sample resources.
 
 If you need to leave this tutorial and come back to it, you can find your new HelloWorld project on the **Start Page** in the **Recent** section.
 
-## Add a Custom command
+## Add a custom command
 
-1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
+Step 1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
 
-2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **User Control**.
+Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **User Control**.
 
-3. Go back to the **Extensibility** section, and then click **Custom Command**.
+Step 3. Go back to the **Extensibility** section, and then click **Custom Command**.
+
+Step 4. In the **Name** field at the bottom, give it a name, for instance Command.cs.
 
 ![custom command](media/hello-world-custom-command.png)
-
-4. In the **Name** field at the bottom, give it a name, for instance Command.cs.
 
 Your new command will be listed in the **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
 
@@ -80,11 +80,11 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
 
 * The CS file is where you can define actions, such as the click handler.
 
-1. In **Solution Explorer**, find the VSCT file for your new command. In this case, it will be called CommandPackage.vsct.
+Step 1. In **Solution Explorer**, find the VSCT file for your new command. In this case, it will be called CommandPackage.vsct.
 
 ![command package vsct](media/hello-world-command-package-vsct.png)
 
-2. Change the `ButtonText` parameter to "Say Hello World!"
+Step 2. Change the `ButtonText` parameter to "Say Hello World!"
 
 ```xml
   ...
@@ -98,7 +98,7 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
   ...
 ```
 
-3. Go back to **Solution Explorer** and find the Command.cs file. Change the string `message` for the command `string.Format(..)` to "Hello World!"
+Step 3. Go back to **Solution Explorer** and find the Command.cs file. Change the string `message` for the command `string.Format(..)` to "Hello World!"
 
 ```csharp
   ...
@@ -125,19 +125,19 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+Step 1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
 
 You will see the words "Experimental Instance" in the Visual Studio title bar.
 
 ![experimental instance title bar](media/hello-world-exp-instance.png)
 
-2. On the **Tools** menu of the **Experimental Instance**, click **Say Hello World!**.
+Step 2. On the **Tools** menu of the **Experimental Instance**, click **Say Hello World!**.
 
 ![final result](media/hello-world-final-result.png)
 
 You should see the output from your new custom command, in this case the dialog in the center of the screen that gives you the "Hello World!" message.
 
-## Next Steps
+## Next steps
 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
