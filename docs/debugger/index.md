@@ -4,7 +4,7 @@ title: Debugging your Apps in Visual Studio
 description: Learn how use Visual Studio 2017 to debug applications, services, and tools in the language of your choice, for your platforms and devices.
 ms.technology: vs-ide-debug
 ---
-# Debugger Feature Tour
+# Debugging in Visual Studio
 
 The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution of your program to examine your code, examine and edit variables, view registers, see the instructions created from your source code, and view the memory space used by your application.
 
@@ -64,7 +64,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
         <li>
-        <a href="https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/debugger/getting-started-with-the-debugger.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
