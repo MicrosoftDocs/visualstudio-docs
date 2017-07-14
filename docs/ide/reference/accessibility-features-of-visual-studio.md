@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Accessibility Features of Visual Studio
-In addition to accessibility features and utilities in Windows, the following features make Visual Studio 2013 more accessible for people with disabilities:  
+In addition to accessibility features and utilities in Windows, the following features make Visual Studio more accessible for people with disabilities:  
   
 -   Toolbar button and text enlargement  
   
