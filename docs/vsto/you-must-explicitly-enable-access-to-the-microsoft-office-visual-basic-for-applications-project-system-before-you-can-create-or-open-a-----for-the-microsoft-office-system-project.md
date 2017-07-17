@@ -44,21 +44,49 @@ manager: "ghogen"
   
 ### To enable or disable access to Visual Basic Projects  
   
-1.  On the **Tools** menu in Word or Excel, point to **Macro**, and then click **Security**.  
+1.  Click the **File** tab.  
   
-2.  In the **Security** dialog box, click the **Trusted Publishers** tab.  
+2.  Click **Options**.  
   
-3.  Select to enable, or clear to disable, **Trust Access to Visual Basic Project**.  
+3.  Click **Trust Center**, and then click **Trust Center Settings**.  
   
-4.  Click **OK**.  
+4.  In the **Trust Center**, click **Macro Settings**.  
+
+5.  Check or uncheck **Trust access to the VBA project object model** to enable or disable access to Visual Basic Projects.  
+
+6.  Click **OK**.
+
+### To enable or disable access to Visual Basic Projects with the 2007 Microsoft Office system  
+
+1.  On the **Tools** menu in Word or Excel, point to **Macro**, and then click **Security**.  
+
+2.  In the **Security** dialog box, click the **Trusted Publishers** tab.  
+
+3.  Select to enable, or clear to disable, **Trust Access to Visual Basic Project**.  
+
+4.  Click **OK**. 
   
 ### To set your Office macro security level  
   
-1.  On the **Tools** menu in Word or Excel, point to **Macro**, and then click **Security**.  
-  
-2.  On the **Security Level** tab, select the desired setting.  
-  
-     The **Security Level** tab contains details about each level. For more information, see the topic "Macro Security Levels" in Office Help.  
+1.  Click the **File** tab.  
+  
+2.  Click **Options**.  
+  
+3.  Click **Trust Center**, and then click **Trust Center Settings**.  
+  
+4.  In the **Trust Center**, click **Macro Settings**.  
+
+5.  In the **Macro Settings** section, select the desired setting.  
+
+6.  Click **OK**.   
+
+### To set your Office macro security level with the 2007 Microsoft Office system
+
+1.  On the **Tools** menu in Word or Excel, point to **Macro**, and then click **Security**.
+
+2.  On the **Security Level** tab, select the desired setting.
+
+    The **Security Level** tab contains details about each level. For more information, see the topic "Macro Security Levels" in Office Help. 
   
 ### To install VBA with the 2007 Microsoft Office system  
   
@@ -78,7 +106,7 @@ manager: "ghogen"
   
 8.  Click **Continue**.  
   
-9. Click **Close**.  
+9.  Click **Close**.  
   
 ### To repair your installation of Office  
   
