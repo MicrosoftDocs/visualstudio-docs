@@ -1,7 +1,7 @@
 ---
 title: "Designing XAML in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 7/17/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,25 +13,18 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+
 ---
 # Designing XAML in Visual Studio
-Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences for XAML-based Windows desktop, web, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. Both share a common set of design and tool windows and a XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.  
+
+Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both tools share a common set of features including a visual XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.  
   
+The process of designing an app depends on the tool you choose and your target platform. This present topic compares the XAML design tools in Visual Studio and Blend for Visual Studio. For more detailed walkthroughs of using the tools, see the following topics:
+
+- [Creating a UI by using XAML Designer in Visual Studio](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Creating a UI by using Blend for Visual Studio](creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Create Modern Desktop Applications with Windows Presentation Foundation](create-modern-desktop-applications-with-windows-presentation-foundation.md)
+
 ## Choosing the Right Tool  
  Your choice of design tools is largely dependent on your skill set. If you are more code-oriented, you can write XAML code in Visual Studio to accomplish even advanced design tasks. If you are more design-oriented, Blend for Visual Studio lets you perform advanced tasks without writing code.  
   
