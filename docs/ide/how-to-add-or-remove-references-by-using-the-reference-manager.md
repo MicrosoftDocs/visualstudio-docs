@@ -1,7 +1,7 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -64,7 +64,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 -   Browse, with the Recent subgroup.  
 
 ## Assemblies tab  
- The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Project References](http://go.microsoft.com/fwlink/?LinkId=238512).  
+ The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Managing references in a project](../ide/managing-references-in-a-project.md).  
 
  When you manually add a reference to any of the EnvDTE namespaces (EnvDTE, EnvDTE80, EnvDTE90, EnvDTE90a, or EnvDTE100), set the Embed Interop Types property of the reference to False in the Properties window. Setting this property to True can cause build issues because of certain EnvDTE properties that can't be embedded.  
 
@@ -226,5 +226,4 @@ You can use the **Reference Manager** dialog box to add and manage references to
  The search bar in the **Reference Manager** dialog box operates over the tab that's in focus. For example, if a user types "System" in the search bar while the **Solution** tab is in focus, the search won't return any results unless the solution consists of a project name that contains "System".  
 
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)

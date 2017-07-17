@@ -37,6 +37,8 @@ This topic introduces the features of the Visual Studio debugger in a step-by-st
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the steps yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
+You can also [watch a video on debugging](#video) that shows similar steps.
+
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
 ## Start the debugger!
@@ -100,7 +102,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we will show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
      >[!NOTE]
      > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
@@ -191,9 +193,6 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
     You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
     Now, you have a watch set on the `File` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
-    
-    > [!TIP]
-    > (C#, Visual Basic) If you need to track the value of the variable even when it's out of scope, you can right-click in the **Watch** windows and choose [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 2. On the `Add` method, click the green ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") button again (or press F11 a few times) to advance through the `foreach` loop.
 
@@ -218,7 +217,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
 
-    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, restart your app using **Run to Cursor**, and to go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
@@ -248,9 +247,6 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 3. Press F5 to advance to the `Add` method where you selected **Run to Cursor**.
 
     This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
-
-    > [!NOTE]
-    > You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
 
 ## Step out
 
@@ -289,5 +285,14 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 3. Press F5 to continue the app.
 
+To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
+
+## <a name="video"></a> Watch a video on debugging
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

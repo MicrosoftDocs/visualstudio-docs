@@ -39,6 +39,8 @@ translation.priority.ht:
 # Get started debugging a multithreaded application in Visual Studio
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use conditional breakpoints and filter breakpoints, the **Parallel Stacks** window, and **Parallel Watch** window. This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
 
+You can also [watch a video on multithreaded debugging](#video) that shows similar steps.
+
 Other topics provide additional information on using other multithreaded debugging tools:
 
 - For a similar topic that shows how to use the **Debug Location** toolbar and the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
@@ -63,7 +65,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      A new console project appears. When the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, MyThreadWalkthroughApp.cpp, or Module1.vb.  
   
-6.  Delete the code that appears in the source file and replace it with the example code shown here (this is modified code from the "Creating a Thread" section of the topic [Creating Threads and Passing Data at Start Time](/dotnet/standard/threading/creating-threads-and-passing-data-at-start-time).
+6.  Delete the code that appears in the source file and replace it with the example code shown here.
 
     ```C#
     using System;
@@ -113,63 +115,38 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```
 
     ```C++
-    using namespace System;
-    using namespace System::Threading;
+    #include "stdafx.h"
+    #include <thread>
+    #include <iostream>
+    #include <vector>
 
-    public ref class ServerClass
-    {
-    public:
+    int count = 0;
 
-      static int count = 0;
+    void doSomeWork() {
 
-      // The method that will be called when the thread is started.
-      void InstanceMethod()
-      {
-        Console::WriteLine(
-          "ServerClass.InstanceMethod is running on another thread.");
-
+        std::cout << "The doSomeWork function is running on another thread." << std::endl;
         int data = count++;
         // Pause for a moment to provide a delay to make
         // threads more apparent.
-        Thread::Sleep(3000);
-        Console::WriteLine(
-          "The instance method called by the worker thread has ended.");
-      }
-    };
+        std::this_thread::sleep_for(std::chrono::seconds(3));
+        std::cout << "The function called by the worker thread has ended." << std::endl;
+    }
 
-    public ref class Simple
-    {
-    public:
-      static void Main()
-      {
-        for (size_t i = 0; i < 10; i++)
-        {
-          CreateThreads();
+    int main() {
+        std::vector<std::thread> threads;
+
+        for (int i = 0; i < 10; ++i) {
+
+            threads.push_back(std::thread(doSomeWork));
+            std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
         }
-      }
 
-      static void CreateThreads()
-      {
-        ServerClass^ serverObject = gcnew ServerClass();
+        for (auto& thread : threads) {
+            thread.join();
+        }
 
-        // Create the thread object, passing in the
-        // serverObject.InstanceMethod method using a
-        // ThreadStart delegate.
-        Thread^ InstanceCaller = gcnew Thread(
-          gcnew ThreadStart(serverObject, &ServerClass::InstanceMethod));
-
-        // Start the thread.
-        InstanceCaller->Start();
-
-        Console::WriteLine("The Main() thread calls this after "
-          + "starting the new InstanceCaller thread.");
-      }
-    };
-
-    int main()
-    {
-      Simple::Main();
-    }  
+        return 0;
+    }
     ```
 
     ```VB
@@ -270,7 +247,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     Thread.Sleep(3000)
     ```    
   
-#### To discover the thread marker  
+#### <a name="ShowThreadsInSource"></a>To discover the thread marker  
 
 1.  In the Debug Toolbar, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
@@ -284,7 +261,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 5.  Right-click the thread marker to see the available options on the shortcut menu.
     
-## View the Location of Threads
+## <a name="ParallelStacks"></a>View the Location of Threads
 
 In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view, and you can view call stack information for each thread. In this app, we can use the Threads view.
 
@@ -403,7 +380,13 @@ You can set breakpoints on different conditions, such as the thread name or the 
 #### To switch to another thread 
 
 - To switch to another thread, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
-  
+
+## <a name="video"></a> Watch a video on multithreaded debugging
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugging-Multi-threaded-Apps-in-Visual-Studio-2017-MoZPKMD6D_111787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   
 - See [How to: Use the Parallel Stack Window](../debugger/using-the-parallel-stacks-window.md) 

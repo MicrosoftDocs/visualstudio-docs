@@ -67,3 +67,7 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
 1.  On the **Debug** menu, choose **Options**.  
   
 2.  Check or clear **Enable Diagnostics Tools while debugging**.
+
+## See Also
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

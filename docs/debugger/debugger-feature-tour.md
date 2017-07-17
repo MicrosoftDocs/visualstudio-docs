@@ -43,7 +43,7 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
-![Set a Breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
+![Set a Breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "Set a breakpoint")
 
 Press F5 (**Debug / Start Debugging**) and the debugger runs to the first breakpoint that it encounters. If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.
 
@@ -97,7 +97,7 @@ Using this button is similar to setting a temporary breakpoint. This command is 
 
 ## Advance the debugger out of the current function
 
-Sometime, you might want to continue your debugging session but advance the debugger all the way through the current function.
+Sometimes, you might want to continue your debugging session but advance the debugger all the way through the current function.
 
 Press Shift + F11 (or **Debug / Step Out**).
 
@@ -122,7 +122,7 @@ This command is useful when you are editing code and want to quickly set a tempo
 
 ## Restart your app quickly
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Restart App") button in the Debug Toolbar (**Ctrl + Shift +F5**).
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
@@ -134,7 +134,7 @@ Now that you know your way around a little, you have a good opportunity to start
 
 While paused in the debugger, hover over an object with the mouse and you see its default property value (in this example, the file name `market 031.jpg` is the default property value).
 
-![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
+![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
 
 Expand the object to see all its properties (such as the `FullPath` property in this example).
 
@@ -147,7 +147,7 @@ Often, when debugging, you want a quick way to check property values on objects,
 
 While debugging, look at the **Autos** window at the bottom of the code editor.
 
-![Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos Window")
+![Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos window")
 
 In the **Autos** window, you see variables along with their current value and their type. The **Autos** window shows all variables used on the current line or the preceding line (In C++, the window shows variables in the preceding three lines of code. Check documentation for language-specific behavior).
 
@@ -156,7 +156,7 @@ In the **Autos** window, you see variables along with their current value and th
 
 Next, look at the **Locals** window. The **Locals** window shows you the variables that are currently in scope.
 
-![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals Window")
+![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals window")
 
 In this example, the `this` object and the object `f` are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
@@ -166,12 +166,9 @@ You can use a **Watch** window to specify a variable (or an expression) that you
 
 While debugging, right-click an object and choose **Add Watch**.
 
-![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch Window")
+![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
 
 In this example, you have a watch set on the `File` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
-    
-> [!TIP]
-> (C# and Visual Basic) If you need to track the value of the variable even when it's out of scope, you can right-click in the **Watch** window and choose [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
@@ -179,7 +176,7 @@ For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debug
 
 Click the **Call Stack** window while you are debugging, which is by default open in the lower right pane.
 
-![Examine the Call Stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
+![Examine the Call Stack](../debugger/media/dbg-tour-call-stack.png "Examine the call stack")
 
 The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in this example). The second line shows that `Update` was called from the `Path.set` property, and so on. The call stack is a good way to examine and understand the execution flow of an app.
 
@@ -188,18 +185,7 @@ The **Call Stack** window shows the order in which methods and functions are get
 
 You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This does not advance the debugger.
 
-You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specific functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md)
-
-## Change the execution flow
-
-With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
-
-![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
-
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-> [!WARNING]
-> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specific functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Examine an exception
 
@@ -220,7 +206,9 @@ Expand the **Exception Settings** node to see more options on how to handle this
 
 ## More features to look at
 
--   [.Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
+-   [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md) Learn how to increase your productivity with the debugger.
+
+-   [Edit and Continue](../debugger/edit-and-continue.md) For a subset of languages (C#, C++, Visual Basic), the Edit and Continue feature allows you to edit code in the middle of a debugging session.
 
 -   [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md) Describes how to debug multithreaded applications. 
 
@@ -233,4 +221,4 @@ Expand the **Exception Settings** node to see more options on how to handle this
 -   [Debug Interface Access SDK](../debugger/debug-interface-access/debug-interface-access-sdk.md) Describes the Microsoft Debug Interface Access Software Development Kit (DIA SDK). The DIA SDK provides access to debug information stored in program database (.pdb) files generated by Microsoft postcompiler tools.  
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugging in Visual Studio](../debugger/index.md)

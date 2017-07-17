@@ -58,25 +58,35 @@ Often, this error occurs because an error or configuration change has occurred t
 
 The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
-`IIS does not list a website that matches the launch url`
-- Try starting Visual Studio as an Administrator and retry. (Some ASP.NET debugging scenarios require elevated privileges.)
+- [IIS does not list a website that matches the launch url](#IISlist)
+- [Unable to connect to the webserver](#unabletoconnect)
+- [The web server did not respond in a timely manner](#webservertimeout)
+- [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
+- [Could not start ASP.NET debugging](#aspnet)
 
-`Unable to connect to the webserver`
+## <a name="IISlist"></a> IIS does not list a website that matches the launch url
+
+- Try starting Visual Studio as an Administrator and retry. (Some ASP.NET debugging scenarios require elevated privileges.) You can configure Visual Studio to always run as an Administrator by right-clicking the Visual Studio shortcut icon, choosing **Properties / Advanced**, and then choosing to always run as an Administrator.
+
+## <a name="unabletoconnect"></a> Unable to connect to the webserver
+
 - Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to the correct Web server or launch URL. (Open **Properties / Web / Servers** or **Properties / Debug** depending on your project type.)
 
 - If the Web server is remote, try restarting your Application Pools and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-`The web server did not respond in a timely manner.`
+## <a name="webservertimeout"></a> The web server did not respond in a timely manner
+
 - Try an IIS reset and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-`The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer.`
-- If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the [correct ports in the firewall](../debugger/configure-the-windows-firewall-for-remote-debugging.md) are open.
+## <a name="msvsmon"></a> The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer
+
+- If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the [correct ports in the firewall](../debugger/remote-debugger-port-assignments.md) are open, especially if you are using a third party firewall.
 - If you are using a HOSTS file, make sure it is configured correctly. For example, it needs to include the same project URL as in your project properties, **Web** tab.
 
-`Could not start ASP.NET debugging.`
+## <a name="aspnet"></a> Could not start ASP.NET debugging
+
 - Try restarting the Application Pool and do an IIS reset. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 - If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
- 
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
@@ -113,7 +123,7 @@ If the IIS configuration is not causing the issue, try these steps:
 
     Some ASP.NET debugging scenarios such as using Web Deploy require elevated privileges for Visual Studio.
     
-- If multiple instances of Visual Studio are running, reopen your project in one instance of Visual Studio (with elevated privileges), and try again.
+- If multiple instances of Visual Studio are running, reopen your project in one instance of Visual Studio (with Administrator privileges), and try again.
 
 - If you are using a HOSTS file with local addresses, try using the loopback address instead of the machine's IP address.
 

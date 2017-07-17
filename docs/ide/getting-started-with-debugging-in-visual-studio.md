@@ -154,7 +154,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
 
  ![Visual Studio breakpoint](../ide/media/vs_ide_gs_debug_breakpoint1.png "Vs_ide_gs_debug_breakpoint1")  
 
- When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing F11. You can also "step over" the line of code by pressing F10. For more details on breakpoint step actions, read [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).  
+ When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing F11. You can also "step over" the line of code by pressing F10. For more details on code stepping, read [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).  
 
  Common uses for breakpoints include:  
 
@@ -200,7 +200,7 @@ Visual Studio provides a powerful integrated set of project build and debugging 
  To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit Test Basics](../test/unit-test-basics.md).  
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)   
  [Debugger Basics](../debugger/debugger-basics.md)

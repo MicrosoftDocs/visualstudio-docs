@@ -17,7 +17,7 @@ translation.priority.ht:
 ### Supported Operating Systems  
 The remote computer must be running one of the following operating systems:  
   
--   Windows 10  
+-   Windows 10 (not phone) 
   
 -   Windows 8 or 8.1  
   
