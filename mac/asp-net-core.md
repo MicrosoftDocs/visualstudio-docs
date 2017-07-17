@@ -13,7 +13,7 @@ ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 
 ## Installing .NET Core
 
-.NET Core is automatically installed when you install Visual Studio for Mac.
+.NET Core 1.1 is automatically installed when you install Visual Studio for Mac.
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 
@@ -36,13 +36,13 @@ Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the P
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-image4.png)
 
-The ASP.NET Core Empty Web Application creates a web application with two default files: `Program.cs` and `Startup.cs`, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty Web Application creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution Pad displaying dependencies](media/asp-net-core-image12.png)
 
 ### Program.cs
 
-Open and inspect the `Program.cs` file in your project. Notice that two things are happening in the Main method – the entry into your app:
+Open and inspect the **Program.cs** file in your project. Notice that two things are happening in the `Main` method – the entry into your app:
 
 ```csharp
 public static void Main(string[] args)
@@ -70,7 +70,7 @@ An ASP.NET Core app creates a web server in its main method by configuring and l
 
 The Startup class for your app is specified in the `UseStartup()` method on the `WebHostBuilder`. It is in this class that you will specify the request handling pipeline, and where you configure any services.
 
-Open and inspect the `Startup.cs` file in your project:
+Open and inspect the **Startup.cs** file in your project:
 
 ```csharp
 public class Startup
@@ -117,7 +117,7 @@ Visual Studio for Mac uses a random port to launch your web project. To find out
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 
-Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World`:
+Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
 ![browser showing text](media/asp-net-core-image7.png)
 
@@ -160,7 +160,7 @@ To add a controller, do the following:
     }
     ```
 
-3. Add the `Microsoft.AspNetCore.Mvc` dependency to the project by right-clicking the Dependency folder, and selecting **Add Package...**.
+3. Add the `Microsoft.AspNetCore.Mvc` dependency to the project by right-clicking the **Dependency** folder, and selecting **Add Package...**.
 
 4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. This may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
@@ -216,7 +216,7 @@ To add a controller, do the following:
 
 ## Troubleshooting
 
-If you need to install .NET Core manually on macOS 10.11 and higher, do the following:
+If you need to install .NET Core manually on Mac OS 10.11 (El Capitan) and higher, do the following:
 
 1. Before you start installing .NET Core, ensure that you have updated all OS updates to the latest stable version. You can check this by going to the App Store application, and selecting the Updates tab.
 
@@ -228,6 +228,6 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
-- [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/en-us/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
+- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
