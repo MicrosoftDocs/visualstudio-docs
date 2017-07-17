@@ -1,12 +1,13 @@
 ---
 title: IntelliSense for R Code Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/28/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d96e3677-e5ec-4e11-82a8-d914a93b1aa9
@@ -14,26 +15,11 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-
 
 # IntelliSense
 
-Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets.md) directly in your line of sight as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](code-editing.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl.md).
+Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](code-editing.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl.md).
 
 ![IntelliSense showing a function signature](media/intellisense-function-signature.png) 
 
@@ -56,7 +42,7 @@ Typing the opening `(` for a function call inserts the closing `)` and brings up
 Again, ESC dismisses the popup; for function signatures, you can bring it up again with Ctrl+Shift+Space.
 
 > [!Tip]
-> If you find the parameter help is obscuring text underneath it, as can be the case in the file editor, you can press and hold the Ctrl key to make the parameter help text translucent.
+> If parameter help obscures text underneath it, press and hold the Ctrl key to make the parameter help text translucent.
 
 ## IntelliSense for user-defined functions and variables
 
@@ -75,6 +61,6 @@ IntelliSense also applies for variables in the same file and the current session
 
 ## Code suggestions
 
-When a light bulb (called smart tag) appears in the margin, Visual Studio is suggesting that there is a shortcut available for a commonly used action. For example, hover over a line that contains a `library` statement in the editor and you'll see a light bulb. Selecting the light bulb displays available options:
+When a light bulb (called smart tag) appears in the margin, Visual Studio is suggesting that there is a shortcut available for a commonly used action. For example, hover over a line that contains a `library` statement in the editor to see a light bulb. Selecting the light bulb displays available options:
 
 ![Smart tags for R in the editor](media/intellisense-smart-tags.png)

@@ -1,33 +1,20 @@
 ---
 title: "Installing the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/2/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
 ms.tgt_pltfrm: ""
+ms.devlang: r
 ms.topic: "article"
 ms.assetid: 3ff60292-1b88-4ee9-b2b2-edd957f1a519
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # How to install R Tools for Visual Studio
@@ -46,7 +33,7 @@ In this topic:
 
 R Tools for Visual Studio (RTVS) is supported on the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://www.visualstudio.com/downloads/) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download). 
 
-RTVS will not install if you have only the Visual Studio Shell that's included with other products such as Visual Studio Test Professional and SQL Server Management Studio. This is because Visual Studio Shell lacks the necessary components for RTVS.
+RTVS does not install if you have only the Visual Studio Shell that's included with products such as Visual Studio Test Professional and SQL Server Management Studio. Visual Studio Shell lacks the necessary components for RTVS.
 
 
 ## Installing RTVS in Visual Studio 2017
@@ -57,7 +44,7 @@ RTVS will not install if you have only the Visual Studio Shell that's included w
 
     ![Data science and analytical applications workload in VS2017](media/installation-data-science-workload.png)
 
-3. Set any additional options on the right side under the same workload name. Note that by default, this workload includes F# and Python support. For R, you must at a minimum select **R language support**, **Runtime support for R development**, and **Microsoft R client**.
+3. Set any additional options on the right side under the same workload name. By default, this workload includes F# and Python support. For R, minimum requirements are **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
 RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio` where `<version>` is typically `2017` and `<edition>` is `Community`, `Professional`, or `Enterprise`.
 
@@ -73,11 +60,11 @@ RTVS requires a 64-bit installation of R version 3.2.1 or higher from one or mor
 * [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started)
 * [CRAN R](https://cran.r-project.org/bin/windows/base/)
 
-Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Microsoft R Client, however, supports only one version and will always use the latest one you installed.
+Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Microsoft R Client, however, supports only one version and always uses the latest one you installed.
 
 ### Install the R tools
 
-Download the current RTVS from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS will check for a suitable version of Visual Studio and will also help you install an R interpreter if you haven't already.
+Download the current RTVS from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS checks for a suitable version of Visual Studio and helps you install an R interpreter if you haven't already.
 
 RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio 14\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`
 
@@ -85,7 +72,7 @@ RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio 14\Common7\ID
 
 Offline installation is suitable for computers that are not connected to the Internet:
 
-1. Follow the instructions to create an offline installer for your version of Visual Studio as below. 
+1. Follow the instructions to create an offline installer for your version of Visual Studio: 
 
     - [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
     - [Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
