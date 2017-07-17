@@ -19,7 +19,7 @@ manager: "ghogen"
 
 # Editing Python code
 
-Developers spend much their time in the code editor, so [Python support in Visual Studio](installation.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
+Developers spend much of their time in the code editor, so [Python support in Visual Studio](installation.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
 
 In this topic:
 
