@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Debug HTML and CSS | Microsoft Docs"
+title: "Debug HTML and CSS (UWP and Windows Store Apps) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -41,10 +41,10 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Quickstart: Debug HTML and CSS
+# Debug HTML and CSS in UWP and Windows Store Apps
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova.  
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Run Windows Store apps on a remote machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/27/2017"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,10 +45,13 @@ To run a Windows Store app on a remote machine, you must attach to it using the 
  To debug on a remote device:  
   
 -   The remote device and the Visual Studio computer must be connected over a network or connected directly through an Ethernet cable. Debugging over the internet is not supported.  
+
+- The remote device must be enabled for development.
+
+    - For Windows 8 and Windows 8.1 devices, a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) must be installed on the remote device.
+    - For Windows 10 devices, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). 
   
--   A developer's license must be installed on the remote device.  
-  
--   The remote device must be running the remote debugging components.  
+-   For Windows 10 devices running a version of Windows 10 earlier than Windows 10 Creator's Update, the remote device must be running the remote debugging components.
   
 -   You must be an administrator on the remote device to configure the firewall during installation. You must have user access to the remote device to run or connect to the remote debugger.  
   

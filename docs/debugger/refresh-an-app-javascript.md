@@ -1,5 +1,5 @@
 ---
-title: "Refresh an app (JavaScript) | Microsoft Docs"
+title: "Refresh an UWP or Windows Store App | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "pl-pl"
   - "tr-tr"
 ---
-# Refresh an app (JavaScript)
+# Refresh a UWP or Windows Store App
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for both Windows Store and Windows Phone Store apps.  
