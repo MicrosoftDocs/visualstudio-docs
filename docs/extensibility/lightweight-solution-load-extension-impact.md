@@ -145,7 +145,7 @@ public void Query()
     var solution = // the solution
     object deferredCount = 0;
     int hr = ((IVsSolution)solution).GetProperty((int)__VSPROPID7.VSPROPID_DeferredProjectCount, out deferredCount);
-    if (ErrorHandler.Succeeded(hr) && ((uint)deferredCount > 0))
+    if (ErrorHandler.Succeeded(hr) && ((int)deferredCount > 0))
     {
         ShowSeeMoreResults();
     }
