@@ -13,21 +13,7 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+
 ---
 # Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service
 You can use Windows Presentation Foundation (WPF) to quickly create a modern desktop application that uses an Azure Mobile Service to store and provide data.  
@@ -35,7 +21,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 ##  <a name="Requirements"></a> Prerequisites  
  You'll need the following to complete this walkthrough:  
   
--   Visual Studio 2015 - any version that supports WPF development.  
+-   Visual Studio 2017 or any version that supports WPF development.  
   
 -   An active Microsoft Azure account.  
   
@@ -575,8 +561,8 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 ## Next Steps  
  You've completed a fairly simplistic example of a WPF desktop application with an Azure backend. Of course, a real application is likely to be much more complex, but the same basic concepts apply. See [WPF in the .NET Framework](https://msdn.microsoft.com/en-us/library/ms754130\(v=vs.100\).aspx).  
   
- You can make the user interface more appealing by adding color, shapes, graphics, and even animations. See [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).  
-  
+ You can make the user interface more appealing by adding color, shapes, graphics, and even animations. See [Creating a UI by using XAML Designer in Visual Studio](creating-a-ui-by-using-xaml-designer-in-visual-studio.md) and [Creating a UI by using Blend for Visual Studio](creating-a-ui-by-using-blend-for-visual-studio.md). For a comparison between the tools, see [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).  
+
  You can connect to existing SQL databases or other sources of data using Azure Mobile Services. See [Mobile Services documentation](http://azure.microsoft.com/en-us/services/app-service/mobile/).  
   
 ## See Also  
