@@ -49,6 +49,9 @@
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
 ## [Working with Subversion](working-with-subversion.md)
 
+# [Workloads](workloads.md)
+## [ASP.NET Core](asp-net-core.md)
+
 # [Troubleshooting](troubleshooting.md)
 ## [Report a Problem](report-a-problem.md)
  
