@@ -22,23 +22,11 @@ caps.latest.revision: 46
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+
 ---
+
 # Create solutions and projects
+
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File**, **New**, **Project** on the main menu, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.
 
 > [!NOTE]
