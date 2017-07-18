@@ -226,11 +226,11 @@ This event is raised after all deferred projects have been loaded. At this point
 /// </summary>
 /// <param name="projectsToLoad">A set of deferred and/or loaded projects to ensure are loaded.</param>
 /// <returns>True if the project is deferred. False if it is any other state, such as loaded, unloaded, or virtual.</returns>
-/// <remarks>Requires Microsoft.VisualStudio.Shell.15.0.dll</remarks>
+/// <remarks>Requires Microsoft.VisualStudio.Shell.Interop.15.0.DesignTime.dll</remarks>
 public static bool IsInDeferredState(IVsHierarchy vsHierarchy)
 {
     object deferred;
-    int hr = vsHierarchy.GetProperty((int)VSConstants.VSITEMID.Root, (uint)__VSHPROPID9.VSHPROPID_IsDeferred, out deferred);
+    int hr = vsHierarchy.GetProperty((uint)VSConstants.VSITEMID.Root, (int)__VSHPROPID9.VSHPROPID_IsDeferred, out deferred);
 
     if (ErrorHandler.Succeeded(hr))
     {
