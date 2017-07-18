@@ -1,12 +1,13 @@
 ---
 title: IPython REPL in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/6/2017
+ms.date: 7/13/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c9bd06b0-2021-4e55-b933-8346476224a8
@@ -14,30 +15,16 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Using IPython in the Interactive Window
 
-The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. In this topic we'll walk through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](interactive-repl.md) features are also available.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This topic walks through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](interactive-repl.md) features are also available.
 
 For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
 > [!Note]
-> IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. You can upvote the [feature request](https://github.com/Microsoft/PTVS/issues/84) or implement it if you'd like.
+> IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. FOr more information see the [feature request](https://github.com/Microsoft/PTVS/issues/84).
 
 1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select the Python environment that appeared when you started IPython.
 
@@ -88,10 +75,10 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 1. To see the graphs outside of the interactive window, run the code instead using the **Debug > Start without Debugging** command.
     
-IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Please refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
+IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 
 ## Related topics
 
-- To use Jupyter easily and without installation, try the free [Azure Notebooks](https://notebooks.azure.com/) hosted service that lets you keep and share your notebooks with others.
+- To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 
 - You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).
