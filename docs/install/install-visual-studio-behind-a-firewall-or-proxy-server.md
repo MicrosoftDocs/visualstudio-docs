@@ -1,8 +1,8 @@
 ---
-title: "List of domains and download server URLs for Visual Studio| Microsoft Docs"
+title: "Install Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "07/12/2017"
+ms.date: "07/18/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# List of domains for download servers
+# Install Visual Studio behind a firewall or proxy server
 
-The Visual Studio Installer downloads files from various domains and their download servers. This page lists the domain URLs that you might want to include as trusted in your deployment scripts.
+The Visual Studio Installer downloads files from various domains and their download servers. This page lists the domain URLs that you might want to "whitelist" as trusted in your deployment scripts.
 
-If it is possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
+If it's possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
 
 ## Microsoft domains
 | Domain | Purpose |
@@ -51,18 +51,18 @@ If it is possible for your environment, consider adding the following domains wi
 | download.visualstudio.com | Setup packages download location |
 | dl.xamarin.com | Setup packages download location |
 | visualstudiogallery.msdn.microsoft.com | Visual Studio Extensions download location |
-| visualstudio.com | ??? |
-| msdn.microsoft.com | ??? |
-| microsoft.com | ??? |
+| visualstudio.com | Documentation location |
+| msdn.microsoft.com | Documentation location |
+| microsoft.com | Documentation location |
 
 ## Third-party domains
 | Domain | Used to install these workloads |
 | ------ | ------- |
 | archive.apache.org |  Mobile development with JavaScript (Cordova) |
-| cocos2d-x.org | Game development with C++ (Cocos) | 
-| download.epicgames.com | Game development with C++ (Unreal Engine) | 
+| cocos2d-x.org | Game development with C++ (Cocos) |
+| download.epicgames.com | Game development with C++ (Unreal Engine) |
 | download.oracle.com | Mobile development with JavaScript (Java SDK) <br />Mobile Development with .NET (Java SDK) |
-| download.unity3d.com | Game Development with Unity workload (Unity) | 
+| download.unity3d.com | Game Development with Unity workload (Unity) |
 | netstorage.unity3d.com | Game Development with Unity workload (Unity) |
 | dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
 | incredibuild.com | Game development with C++ (Incredibuild) |
