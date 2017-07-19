@@ -37,19 +37,19 @@ However, Visual Studio for Mac Tools for Unity extends its IntelliSense function
 
 4.	The selection on the list can be changed in three ways:
 
-  * With the **Up** and **Down** arrow keys.
+    * With the **Up** and **Down** arrow keys.
 
-  * By clicking with the mouse on the desired item.
+    * By clicking with the mouse on the desired item.
 
-  * By continuing to type the name of the desired item.
+    * By continuing to type the name of the desired item.
 
 5.	IntelliSense can insert the selected Unity message, including any necessary parameters:
 
-  * By pressing **Tab**.
+    * By pressing **Tab**.
 
-  * By pressing **Return**.
+    * By pressing **Return**.
 
-  * By double clicking the selected item.
+    * By double clicking the selected item.
 
   ![Insert Unity message from IntelliSense](media/using-vsmac-tools-unity-image3.png)
 
