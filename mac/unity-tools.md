@@ -21,7 +21,7 @@ Here are some of the key features of Visual Studio for Mac Tools for Unity that 
 
 ### IntelliSense for Unity messages
 
-IntelliSense makes it fast and easy to [implement Unity messages](using-vsmac-tools-unity.md) like `OnCollisionEnter`, including their parameters.
+IntelliSense makes it fast and easy to [implement Unity messages](using-vsmac-tools-unity.md#intellisense-for-unity-messages) like `OnCollisionEnter`, including their parameters.
 
 ### Customize the Visual theme
 
@@ -33,7 +33,7 @@ Boost productivity by using the key bindings that you know. Visual Studio for Ma
 
 ### Superior debugging
 
-Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-tools-unity.md) features that you expect from Visual Studio:
+Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-tools-unity.md#unity-debugging) features that you expect from Visual Studio:
 
 *	Set breakpoints, including conditional breakpoints.
 
