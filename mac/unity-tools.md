@@ -49,4 +49,4 @@ Write more usable code with quick menus and keyboard shortcuts for [renaming, re
 
 ### Browse and add new files
 
-Browse Unity projects and [add folders, scripts, or shaders](using-vsmac-tools-unity.md), all within the Visual Studio for Mac IDE.  
+Browse Unity projects and [add folders, scripts, or shaders](using-vsmac-tools-unity.md#adding-new-unity-files-and-folders), all within the Visual Studio for Mac IDE.  
