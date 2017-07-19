@@ -31,13 +31,13 @@ translation.priority.mt:
 ---
 # How to: Make Extensions Compatible with Visual Studio 2017 and Visual Studio 2015
 
-This document explains how to make extensibility projects roundtrip between Visual Studio 2015 and Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2017.  As a reference, some extensions that can roundtrip between Visual Studio 2015 and Visual Studio 2017 can be found [here](https://github.com/Microsoft/VSSDK-Extensibility-Samples) in Microsoft's extensibility examples.
+This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2017.  As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2017 can be found [here](https://github.com/Microsoft/VSSDK-Extensibility-Samples) in Microsoft's extensibility examples.
 
 If you only intend to build in Visual Studio 2017, but want the output VSIX to run in both Visual Studio 2015 and Visual Studio 2017, then refer to the [Extension Migration Document](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
 >**Note:** Due to changes in Visual Studio between versions, some things that worked in one version will not work another. Ensure that the features you are trying to access are available in both versions, or the extension will have unexpected results.
 
-Here is an outline of the steps you'll complete in this document to roundtrip a VSIX:
+Here is an outline of the steps you'll complete in this document to round-trip a VSIX:
 
 1. Import correct NuGet packages.
 2. Update Extension Manifest:

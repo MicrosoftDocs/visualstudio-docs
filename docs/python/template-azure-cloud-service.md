@@ -1,12 +1,13 @@
 ---
 title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 7/13/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2ce82ee-8c73-419a-bbd2-4c3513fd394d
@@ -14,20 +15,6 @@ caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Azure Cloud Service Projects for Python
@@ -51,13 +38,13 @@ This topic contains details about the project template and other support in Visu
 
 1. As the individual role projects are created, you may be prompted to install additional Python packages, such as the Django, Bottle, or Flask frameworks if you selected a role that uses one of those.
 
-1. After adding a new role to your project, you'll see some configuration instructions. These are usually unnecessary, but may be useful for future customization of your projects. Note that when adding multiple roles at the same time, only the instructions for the last role will remain open. However, you can find the instructions and troubleshooting tips for the other roles in their respective `readme.mht` files, located either in the role's root or in the `bin` folder.
+1. After adding a new role to your project, configuration instructions appear. Configuration changes are usually unnecessary, but may be useful for future customization of your projects. Note that when adding multiple roles at the same time, only the instructions for the last role remain open. However, you can find the instructions and troubleshooting tips for the other roles in their respective `readme.mht` files, located either in the role's root or in the `bin` folder.
 
-1. A project's `bin` folder also contains one or two PowerShell scripts that are used to configure the remote virtual machine, including installing Python, any [requirements.txt](#dependencies) file in your project, and setting up IIS if necessary. You may edit these files as desired to your deployment, though most common options can be managed in other ways (see [Configuring role deployment](#configuring-role-deployment) below). We do not suggest removing these files, as a legacy configuration script will be used instead if they are not available.
+1. A project's `bin` folder also contains one or two PowerShell scripts that are used to configure the remote virtual machine, including installing Python, any [requirements.txt](#dependencies) file in your project, and setting up IIS if necessary. You may edit these files as desired to your deployment, though most common options can be managed in other ways (see [Configuring role deployment](#configuring-role-deployment) below). We do not suggest removing these files, as a legacy configuration script is used instead if the files are not available.
 
     ![Worker Role Support Files](media/template-azure-cloud-service-worker-role-support-files.png)
 
-    To add these configuration scripts to a new project, right click the project, select **Add > New Item...**, and select either **Web Role Support Files** or **Worker Role Support Files**.
+    To add these configuration scripts to a new project, right-click the project, select **Add > New Item...**, and select either **Web Role Support Files** or **Worker Role Support Files**.
    
 
 ## Configuring role deployment
@@ -67,11 +54,11 @@ The PowerShell scripts in a role project's `bin` folder control the deployment o
 - `ConfigureCloudService.ps1` is used for web and worker roles, typically to install and configure dependencies and set the Python version.
 - `LaunchWorker.ps1` is used only for worker roles and is used to change startup behavior, add command-line arguments, or add environment variables.
 
-Both files contain instructions for customization. You can also install your own version of Python by adding another task to the main cloud service project's `ServiceDefinition.csdef` file, setting the `PYTHON` variable to its installed `python.exe` (or equivalent) path. When `PYTHON` is set, Python will not be installed from NuGet.
+Both files contain instructions for customization. You can also install your own version of Python by adding another task to the main cloud service project's `ServiceDefinition.csdef` file, setting the `PYTHON` variable to its installed `python.exe` (or equivalent) path. When `PYTHON` is set, Python is not installed from NuGet.
 
 Additional configuration can be accomplished as follows:
 
-1. Install packages using `pip` by updating the `requirements.txt` file in the root directory of your project. The `ConfigureCloudService.ps1` script will install this file on deployment.
+1. Install packages using `pip` by updating the `requirements.txt` file in the root directory of your project. The `ConfigureCloudService.ps1` script installs this file on deployment.
 1. Set environment variables by modifying your `web.config` file (web roles) or the `Runtime` section of your `ServiceDefinition.csdef` file (worker roles).
 1. Specify the script and arguments to use for a worker role by modifying the command line in the `Runtime/EntryPoint` section of your `ServiceDefinitions.csdef` file.
 1. Set the main handler script for a web role through the `web.config` file.
@@ -82,7 +69,7 @@ While writing your roles, you can test your cloud project locally using the Clou
 
 To start the emulator, first ensure your cloud project is the startup project in your solution by right-clicking and selecting **Set as startup project**. Then select **Debug > Start Debugging** (F5) or **Debug > Start without Debugging** (Ctrl+F5).
 
-Note that, due to limitations in the emulator, it is not possible to debug your Python code. We thus recommend you debug roles by running them independently, and then use the emulator for integration testing before publishing.
+Note that due to limitations in the emulator it is not possible to debug your Python code. We thus recommend you debug roles by running them independently, and then use the emulator for integration testing before publishing.
 
 
 ## Deploying a role
@@ -91,18 +78,18 @@ To open the **Publish** wizard, select the role project in Solution Explorer and
 
 The publishing process involves two phases. First, Visual Studio creates a single package containing all the roles for your cloud service. This package is what's deployed to Azure, which initializes one or more virtual machines for each role and deploy the source.
 
-As each virtual machine activates, it executes the `ConfigureCloudService.ps1` script and install any dependencies. This script by default installs a recent version of Python from [nuget](https://www.nuget.org/packages?q=Tags%3A%22python%22+Authors%3A%22Python+Software+Foundation%22) and any packages specified in a `requirements.txt` file. 
+As each virtual machine activates, it executes the `ConfigureCloudService.ps1` script and install any dependencies. This script by default installs a recent version of Python from [NuGet](https://www.nuget.org/packages?q=Tags%3A%22python%22+Authors%3A%22Python+Software+Foundation%22) and any packages specified in a `requirements.txt` file. 
 
 Finally, worker roles execute `LaunchWorker.ps1`, which starts running your Python script; web roles initialize IIS and begin handling web requests.
 
 
 ## Dependencies
 
-For Cloud Service, the `ConfigureCloudService.ps1` script uses `pip` to install a set of Python dependencies. These should be specified in a file named `requirements.txt` (customizable by modifying `ConfigureCloudService.ps1`). The file is executed with `pip install -r requirements.txt` as part of initialization.
+For Cloud Service, the `ConfigureCloudService.ps1` script uses `pip` to install a set of Python dependencies. Dependencies should be specified in a file named `requirements.txt` (customizable by modifying `ConfigureCloudService.ps1`). The file is executed with `pip install -r requirements.txt` as part of initialization.
 
 Note that Cloud Service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
-pip and its dependencies, as well as the packages in `requirements.txt`, will be downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages) for details  on managing `requirements.txt` files.
+pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages) for details on managing `requirements.txt` files.
 
 ## Troubleshooting
 
@@ -116,5 +103,5 @@ If your web or worker role does not behave correctly after deployment, check the
 - Your Python project includes a `requirements.txt` file listing all dependencies (or alternately, a collection of wheel files).
 - Enable Remote Desktop on your Cloud Service and investigate the log files.
 - Logs for `ConfigureCloudService.ps1` and `LaunchWorker.ps1` are stored in `C:\Resources\Directory\%RoleId%.DiagnosticStore\LogFiles` folder on the remote machine.
-- Web roles may write additional logs to a path configured in `web.config`, namely the path in the `WSGI_LOG` appSetting. Rost regular IIS or FastCGI logging will also work.
+- Web roles may write additional logs to a path configured in `web.config`, namely the path in the `WSGI_LOG` appSetting. Most regular IIS or FastCGI logging also works.
 - Currently, the `LaunchWorker.ps1.log` file is the only way to view output or errors displayed by your Python worker role.
