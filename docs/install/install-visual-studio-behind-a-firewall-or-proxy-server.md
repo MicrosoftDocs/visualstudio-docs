@@ -19,21 +19,6 @@ ms.assetid:
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Install Visual Studio behind a firewall or proxy server
 
@@ -56,18 +41,18 @@ If it's possible for your environment, consider adding the following domains wit
 | microsoft.com | Documentation location |
 
 ## Third-party domains
-| Domain | Used to install these workloads |
+| Domain | Installs these workloads |
 | ------ | ------- |
 | archive.apache.org |  Mobile development with JavaScript (Cordova) |
 | cocos2d-x.org | Game development with C++ (Cocos) |
 | download.epicgames.com | Game development with C++ (Unreal Engine) |
-| download.oracle.com | Mobile development with JavaScript (Java SDK) <br />Mobile Development with .NET (Java SDK) |
+| download.oracle.com | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK) |
 | download.unity3d.com | Game Development with Unity workload (Unity) |
 | netstorage.unity3d.com | Game Development with Unity workload (Unity) |
-| dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
-| incredibuild.com | Game development with C++ (Incredibuild) |
-| incredibuildvs2017i.azureedge.net | Game development with C++ (Incredibuild) |
-| python.org | Python development (Python) <br /> Data science and and analytical applications (Python) |
+| dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
+| incredibuild.com | Game development with C++ (IncrediBuild) |
+| incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
+| python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
