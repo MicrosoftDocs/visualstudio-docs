@@ -36,23 +36,23 @@ If it's possible for your environment, consider adding the following domains wit
 | download.visualstudio.com | Setup packages download location |
 | dl.xamarin.com | Setup packages download location |
 | visualstudiogallery.msdn.microsoft.com | Visual Studio Extensions download location |
-| visualstudio.com | Documentation location |
+| www.visualstudio.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
-| microsoft.com | Documentation location |
+| www.microsoft.com | Documentation location |
 
-## Third-party domains
+## Non-Microsoft domains
 | Domain | Installs these workloads |
 | ------ | ------- |
-| archive.apache.org |  Mobile development with JavaScript (Cordova) |
-| cocos2d-x.org | Game development with C++ (Cocos) |
-| download.epicgames.com | Game development with C++ (Unreal Engine) |
-| download.oracle.com | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK) |
-| download.unity3d.com | Game Development with Unity workload (Unity) |
-| netstorage.unity3d.com | Game Development with Unity workload (Unity) |
-| dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
-| incredibuild.com | Game development with C++ (IncrediBuild) |
-| incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
-| python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
+| archive.apache.org |  Mobile development with JavaScript <br />(Cordova) |
+| cocos2d-x.org | Game development with C++ <br />(Cocos) |
+| download.epicgames.com | Game development with C++ <br />(Unreal Engine) |
+| download.oracle.com | Mobile development with JavaScript <br />(Java SDK) <br /><br />Mobile Development with .NET <br />(Java SDK) |
+| download.unity3d.com | Game development with Unity <br />(Unity) |
+| netstorage.unity3d.com | Game development with Unity <br /> (Unity) |
+| dl.google.com | Mobile development with JavaScript <br />(Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET <br />(Android SDK and NDK, Emulator) |
+| www.incredibuild.com | Game development with C++ <br />(IncrediBuild) |
+| incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
+| www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
