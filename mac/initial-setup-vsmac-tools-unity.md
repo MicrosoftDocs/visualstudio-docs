@@ -23,11 +23,11 @@ While the Visual Studio for Mac Tools for Unity extension should be enabled by d
 
 1.  From the Visual Studio menu, select **Extensions...**.
 
-  ![Select Extensions](media\initial-setup-vsmac-tools-unity-image1.png)
+  ![Select Extensions](media/initial-setup-vsmac-tools-unity-image1.png)
 
 2.  Expand the Game Development section and confirm the Visual Studio for Mac Tools for Unity entry.
 
-  ![View Unity Entry](media\initial-setup-vsmac-tools-unity-image2.png)
+  ![View Unity Entry](media/initial-setup-vsmac-tools-unity-image2.png)
 
 ## Install Unity
 
@@ -37,7 +37,7 @@ Visual Studio for Mac Tools for Unity requires Unity version 5.6.1 or above. All
 
 > To verify that Visual Studio Tools for Unity are enabled in your version of Unity, select **About Unity** from the Unity menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
 
->   ![About Unity](media\initial-setup-vsmac-tools-unity-image3.png)
+>   ![About Unity](media/initial-setup-vsmac-tools-unity-image3.png)
 
 ## Configure Unity for use with Visual Studio for Mac
 
@@ -45,16 +45,16 @@ Visual Studio must be set as the external script editor in Unity:
 
 1.	Select **Preferences...** from the Unity menu.
 
-  ![Select Preferences](media\initial-setup-vsmac-tools-unity-image4.png)
+  ![Select Preferences](media/initial-setup-vsmac-tools-unity-image4.png)
 
 2.	In the Preferences dialog, select the **External Tools** tab.
 
 3.	From the External Script Editor dropdown list, choose **Visual Studio** if it is listed, otherwise select **Browse...**.
 
-  ![Select Visual Studio](media\initial-setup-vsmac-tools-unity-image5.png)
+  ![Select Visual Studio](media/initial-setup-vsmac-tools-unity-image5.png)
 
 4.	If **Browse...** was selected, navigate to the Applications directory and select Visual Studio and then click **Open**.
 
-  ![Select Open](media\initial-setup-vsmac-tools-unity-image6.png)
+  ![Select Open](media/initial-setup-vsmac-tools-unity-image6.png)
 
 5.	Once Visual Studio is selected in the External Script Editor menu, close the Preferences dialog to complete the configuration process.

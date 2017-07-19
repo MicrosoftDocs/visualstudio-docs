@@ -16,7 +16,7 @@ Once Visual Studio for Mac has been set as the external script editor for Unity,
 g
 Alternatively, Visual Studio for Mac can be opened with no script open in the source editor by selecting **Open C# Project** from the **Assets** menu in Unity.
 
-![Open C# project](media\using-vsmac-tools-unity-image1.png)
+![Open C# project](media/using-vsmac-tools-unity-image1.png)
 
 ## Unity documentation access
 
@@ -33,7 +33,7 @@ However, Visual Studio for Mac Tools for Unity extends its IntelliSense function
 
 3.	Once the letters "**ont**" have been typed, a list of IntelliSense suggestions appears.
 
-  ![Using IntelliSense](media\using-vsmac-tools-unity-image2.png)
+  ![Using IntelliSense](media/using-vsmac-tools-unity-image2.png)
 
 4.	The selection on the list can be changed in three ways:
 
@@ -51,7 +51,7 @@ However, Visual Studio for Mac Tools for Unity extends its IntelliSense function
 
   * By double clicking the selected item.
 
-  ![Insert Unity message from IntelliSense](media\using-vsmac-tools-unity-image3.png)
+  ![Insert Unity message from IntelliSense](media/using-vsmac-tools-unity-image3.png)
 
 ## Adding new Unity files and folders
 
@@ -61,7 +61,7 @@ While you can always add new files to a Unity project in the Unity editor, Visua
 
 To add a new C# MonoBehaviour script, **right click on the Assets folder** or one of its subdirectories in the Solution pad and select **Add > New MonoBehaviour**.
 
-![Add new MonoBehaviour](media\using-vsmac-tools-unity-image4.png)
+![Add new MonoBehaviour](media/using-vsmac-tools-unity-image4.png)
 
 ### Add a new Unity shader
 
@@ -90,11 +90,11 @@ To start debugging:
 
 1.	Connect Visual Studio to Unity by clicking the **Play** button, or type **Command + Return**, or **F5**.
 
-  ![Click Play in Visual Studio](media\using-vsmac-tools-unity-image5.png)
+  ![Click Play in Visual Studio](media/using-vsmac-tools-unity-image5.png)
 
 2.	Next, switch to Unity and click the **Play** button to run the game in the editor.
 
-  ![Click Play in Unity](media\using-vsmac-tools-unity-image6.png)
+  ![Click Play in Unity](media/using-vsmac-tools-unity-image6.png)
 
 3.	When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
 
@@ -104,7 +104,7 @@ To stop debugging:
 
 1.	Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command + Return**.
 
-  ![Click Stop in Visual Studio](media\using-vsmac-tools-unity-image7.png)
+  ![Click Stop in Visual Studio](media/using-vsmac-tools-unity-image7.png)
 
 ### Learn more about debugging in Visual Studio for Mac
 
