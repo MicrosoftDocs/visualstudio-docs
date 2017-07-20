@@ -218,7 +218,7 @@ Go to specific points in your application's execution when you start debugging f
   
      ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")  
   
- For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
+ For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ###  <a name="ThreadsList"></a> Threads List  
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.  

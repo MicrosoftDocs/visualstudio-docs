@@ -191,4 +191,3 @@ manager: "ghogen"
  [Programming VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   
  [Programming Document-Level Customizations](../vsto/programming-document-level-customizations.md)  
   
-  

@@ -219,5 +219,5 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
  Links to topics that contain reference information.  
   
- Glossary  
+ [Glossary](msbuild-glossary.md)
  Defines common MSBuild terms.

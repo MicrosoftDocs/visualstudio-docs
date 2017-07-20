@@ -254,4 +254,3 @@ manager: "ghogen"
  [How to: Expose Code to VBA in a Visual C&#35; Project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)   
  [Walkthrough: Calling Code from VBA in a Visual Basic Project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md)  
   
-  

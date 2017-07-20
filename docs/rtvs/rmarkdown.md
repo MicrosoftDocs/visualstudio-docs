@@ -1,12 +1,13 @@
 ---
 title: R Markdown with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 4/28/2017
+ms.date: 6/29/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-r"
+ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc
@@ -14,32 +15,18 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Creating R Markdown documents
 
-R Markdown (see [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/) os a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
+[R Markdown](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 
-R Tools for Visual Studio provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
+R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
 
 To use R Markdown:
 
 1. Close Visual Studio.
-1. (One time only) Install pandoc from [pandoc.org](http://pandoc.org/installing.html).
+1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
 1. Restart Visual Studio, which should pick up the pandoc installation.
 1. Install the `knitr` and `rmarkdown` packages, which you can do from the [interactive window](interactive-repl.md):
 
@@ -76,4 +63,4 @@ To use R Markdown:
     
     ~~~
 
-1. At any time during editing, right click the in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.
+1. At any time during editing, right-click in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.

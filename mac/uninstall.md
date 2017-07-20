@@ -18,6 +18,30 @@ This guide can be used to uninstall each product individually by navigating to t
 
 If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in the [uninstall](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/) guide on developer.xamarin.com, in addition to the steps below.
 
+## Uninstall Script
+
+You can uninstall Visual Studio and its associated components in one go by using the uninstall script, which is located [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/tree/master/mac/resources/uninstall-vsmac.sh).
+
+This uninstall script contains most of the commands that you will find in the article. There are two main omissions from the script and are not included due to possible external dependencies:
+
+- **Uninstalling Mono**
+- **Uninstalling Android AVD**
+
+To run the script, do the following:
+
+1. Right-click on the script and select **Save As..** to save the file on your Mac.
+2. Open Terminal and change the working directory to where the script was downloaded:
+
+    ```bash
+    $ cd /location/of/file
+    ```
+3. Make the script executable and the run it with **sudo**:
+
+    ```bash
+    $ chmod +x ./xamarin_uninstall.sh
+    $ sudo ./xamarin_uninstall.sh
+    ```
+4. Finally, delete the uninstall script.
 
 ## Uninstall Visual Studio for Mac
 
@@ -35,7 +59,7 @@ rm -rf ~/Library/Caches/VisualStudio
 rm -rf ~/Library/Preferences/VisualStudio
 rm -rf "~/Library/Preferences/Visual Studio"
 rm -rf ~/Library/Logs/VisualStudio
-rm -rf ~/Library/VisualLodStudio
+rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 ```
 
@@ -44,7 +68,7 @@ rm -rf ~/Library/Preferences/Xamarin/
 Mono is an open source implementation of Microsoft's .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
 
 > [!WARNING]
-> There are other applications outside of Xamarin which also use Mono, such as Unity.
+> There are other applications outside of Visual Studio for Mac that also use Mono, such as Unity.
 > Be sure that there are no other dependencies on Mono before uninstalling it.
 
 To remove the Mono Framework from a machine, run the following commands in Terminal:
@@ -52,6 +76,7 @@ To remove the Mono Framework from a machine, run the following commands in Termi
 ```bash
 sudo rm -rf /Library/Frameworks/Mono.framework
 sudo pkgutil --forget com.xamarin.mono-MDK.pkg
+sudo rm -rf /etc/paths.d/mono-commands
 ```
 
 ## Uninstall Xamarin.Android
@@ -74,6 +99,26 @@ The Android SDK is required for development of Android applications. To complete
 
 The Java SDK (JDK) does not need to be uninstalled, as it is already pre-packaged as part of Mac OS X / macOS.
 
+### Uninstall Android AVD
+
+> [!WARNING]
+> There are other applications outside of Visual Studio for Mac that also use Android AVD and these additional android components, such as Android Studio.
+> Removing this directory may cause projects to break in Android Studio. 
+
+To remove any Android AVDs and additional Android components use the following command:
+
+```bash
+rm -rf ~/.android
+```
+
+To remove only the Android AVDs use the following command:
+
+```bash
+rm -rf ~/.android/avd
+```
+
+ 
+
 ## Uninstall Xamarin.iOS
 
 Xamarin.iOS allows iOS application development using C# or F# with Visual Studio for Mac.
@@ -89,6 +134,7 @@ sudo rm -rf /Library/Frameworks/Xamarin.iOS.framework
 sudo rm -rf /Developer/MonoTouch
 sudo pkgutil --forget com.xamarin.monotouch.pkg
 sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
+sudo pkgutil --forget com.xamarin.xamarin.ios.pkg
 ```
 
 ## Uninstall Xamarin.Mac

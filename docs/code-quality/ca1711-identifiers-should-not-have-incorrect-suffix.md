@@ -85,5 +85,5 @@ translation.priority.ht:
  [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)  
   
 ## See Also  
- [Attributes](http://msdn.microsoft.com/Library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)   
+ [Attributes](/dotnet/standard/design-guidelines/attributes)   
  [NIB: Events and Delegates](http://msdn.microsoft.com/en-us/d98fd58b-fa4f-4598-8378-addf4355a115)

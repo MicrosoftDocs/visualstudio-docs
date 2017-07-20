@@ -10,7 +10,7 @@ ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 
 # Understanding build configurations
 
-## Project build fonfigurations 
+## Project build configurations 
 
 Projects can have multiple configurations and switching between them allows for different outputs at build time. For example, when using a Debug configuration, the output will include debugging symbols, which allows the debugger to resolve function names, parameters, or variables from a crashed application's stack trace. Using a Debug configuration, however, leads to an inflated file size and so would not be ideal for an application intended for distribution.
 

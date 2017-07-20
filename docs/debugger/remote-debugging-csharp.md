@@ -109,7 +109,8 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  

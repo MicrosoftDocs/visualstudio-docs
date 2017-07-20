@@ -45,7 +45,7 @@ HRESULT WINAPI EndTrackingContext();
 ```  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the tracking context was ended.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.  
   
 ## Requirements  
  **Header:** FileTracker.h  

@@ -69,4 +69,3 @@ manager: "ghogen"
  [Visual Studio Tools for Office Runtime Overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Caching Data](../vsto/caching-data.md)  
   
-  

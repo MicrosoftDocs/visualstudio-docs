@@ -75,7 +75,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |-------------|----------------------------|-------------------------|  
 |[Use Team Foundation Version Control](http://msdn.microsoft.com/Library/1d629052-c65d-4c5d-81eb-eaa4413fe285) or Visual Studio Team Services|Yes||  
 |[Getting started with Git in Team Services](http://msdn.microsoft.com/Library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|Yes||  
-|[Code analysis/Improve code quality (references, suggested changes, etc.)](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|Yes||  
+|[Improve Code Quality](/visualstudio/test/improve-code-quality)|Yes||  
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|  
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
@@ -103,7 +103,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin Test Recorder](https://www.xamarin.com/test-cloud/recorder).|  
   
 ## Improve code quality  
- Reference link: **[Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
+ Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  

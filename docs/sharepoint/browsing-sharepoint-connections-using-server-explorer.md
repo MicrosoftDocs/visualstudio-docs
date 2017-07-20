@@ -53,7 +53,6 @@ manager: "ghogen"
 |[How to: Add or Remove SharePoint Connections](../sharepoint/how-to-add-or-remove-sharepoint-connections.md)|Describes the steps that are required for adding a new SharePoint site to the **SharePoint Connections** node in **Server Explorer**.|  
   
 ## See Also  
- [Server Explorer](../Topic/Server%20Explorer.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
   
   

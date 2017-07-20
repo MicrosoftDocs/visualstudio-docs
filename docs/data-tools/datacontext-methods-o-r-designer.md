@@ -59,8 +59,8 @@ translation.priority.mt:
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
- [Stored Procedures](http://msdn.microsoft.com/Library/4d23dd7a-a85f-44ff-a717-af7d0950c0fc)   
+ [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
+ [Stored Procedures](/dotnet/framework/data/adonet/sql/linq/stored-procedures)   
  [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
  [Walkthrough: Customizing the insert, update, and delete behavior of entity classes](../data-tools/walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes.md)   

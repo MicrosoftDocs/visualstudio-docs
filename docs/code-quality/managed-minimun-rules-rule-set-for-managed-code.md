@@ -1,5 +1,5 @@
 ---
-title: "Managed Minimun Rules rule set for managed code | Microsoft Docs"
+title: "Managed Minimum Rules rule set for managed code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -29,7 +29,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Managed Minimun Rules rule set for managed code
+# Managed Minimum Rules rule set for managed code
 The Managed Minimum Rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your projects.  
   
 |Rule|Description|  

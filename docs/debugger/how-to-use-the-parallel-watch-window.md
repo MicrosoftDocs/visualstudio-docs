@@ -42,7 +42,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The frame column, in which an arrow indicates the selected frame.  
+-   The current thread column, in which a yellow arrow indicates the current thread (a green arrow with a curly tail indicates that a non-current thread has the current debugger context).  
   
 -   A configurable column that can display the machine, process, tile, task, and thread.  
   
@@ -67,15 +67,15 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To flag or unflag a thread  
   
--   Select the flag column for the row, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
+-   Select the flag column for the row (first column), or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
   
 ### To display only flagged threads  
   
 -   Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.  
   
-### To switch frames  
+### To switch to another thread  
   
--   Double-click the frame column. (Keyboard: Select the row and press Enter.)  
+-   Double-click the current thread column (second column). (Keyboard: Select the row and press Enter.)  
   
 ### To sort a column  
   
@@ -100,4 +100,4 @@ In the Parallel Watch window, you can simultaneously display the values that one
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

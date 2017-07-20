@@ -94,4 +94,4 @@ Localization is the process of making your application appropriate for a specifi
 ## See Also  
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Globalizing Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)
+ [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)

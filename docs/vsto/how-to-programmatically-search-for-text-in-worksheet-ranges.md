@@ -23,7 +23,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # How to: Programmatically Search for Text in Worksheet Ranges
-  The <xref:Microsoft.Office.Interop.Excel.Range.Find%2A> method of the <xref:Microsoft.Office.Interop.Excel.Range> object enables you to search for text within the range. This text can also be any of the error strings that can appear in a worksheet cell such as `#NULL!` or `#VALUE!`. For more information about error strings, see [Cell Error Values](HV10038459).  
+  The <xref:Microsoft.Office.Interop.Excel.Range.Find%2A> method of the <xref:Microsoft.Office.Interop.Excel.Range> object enables you to search for text within the range. This text can also be any of the error strings that can appear in a worksheet cell such as `#NULL!` or `#VALUE!`. For more information about error strings, see [Cell Error Values](http://msdn.microsoft.com/library/office/ff839168.aspx).  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   

@@ -1,7 +1,7 @@
 ---
-title: "Compiling and Building in Visual Studio | Microsoft Docs"
+title: "Compiling and building in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 7/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,55 +16,42 @@ caps.latest.revision: 28
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-# Compiling and Building in Visual Studio
-You can use Visual Studio to build applications and to create assemblies and executable programs at frequent intervals during a development cycle. By building your code often, you can identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches, earlier. You can also detect and correct run-time errors, such as logic errors and semantic errors, by frequently building and running debug versions of the code.  
-  
- When you have fully developed and sufficiently debugged a project or solution, you can compile its components in a Release build. By default, a Release build is optimized and designed to be smaller and run faster than a debug version. For more information, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
-  
-## Choosing a Build Method  
- You can build an application by using the default build options in the IDE, at a command prompt, or by using Team Foundation Build. Each of these options use MSBuild as the underlying technology, and each approach has specific benefits, as the following table shows.  
-  
-|Build Method|Benefits|For more information|  
-|------------------|--------------|--------------------------|  
-|Using the IDE|-   You can more easily create and run builds immediately.<br />-   You can run multi-processor builds for C++ and C# projects.<br />-   You can customize some aspects of the build system.|[Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)|  
-|Running an MSBuild command line|-   You can build projects without installing Visual Studio.<br />-   You can run multi-processor builds for all project types.<br />-   You can customize most areas of the build system.|[MSBuild](../msbuild/msbuild.md)|  
-|Using Team Foundation Build|-   You can automate your build process. For example, you can build one or more projects nightly or every time that code is checked in. You can also build projects on shared build servers rather than on your development computer.<br />-   You can quickly specify the code that you want to build, the tests that you want to run, and other common options.<br />-   You can modify the build workflow, and as needed, create build activities to perform deeply customized tasks.|[Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|  
-  
-## Building from the IDE  
- When you create a project, default build configurations are defined for it, and a solution build configuration is assigned to it to provide context for builds. Solution configurations define how the projects in solution are built and deployed. Project configurations are a set of project properties that are unique for a platform and build type (for example, Release Win32). You can edit these default configurations, and you can create your own configurations. For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7) and [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67).  
-  
- From within the IDE, you can perform the following additional tasks:  
-  
--   [Change the build output directory](../ide/how-to-change-the-build-output-directory.md).  
-  
--   [Identify projects that are dependent on the output from another project in order to build correctly](../ide/how-to-create-and-remove-project-dependencies.md).  
-  
--   [Change the amount of information included in the build log or Output window for builds](../ide/how-to-view-save-and-configure-build-log-files.md).  
-  
--   [Hide specific compiler warnings for Visual C#, Visual C++, or Visual Basic](../ide/how-to-suppress-compiler-warnings.md).  
-  
--   [Specify custom pre-compile and post-compile actions for a build](../ide/specifying-custom-build-events-in-visual-studio.md).  
-  
--   Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx).  
+
+# Compiling and building in Visual Studio
+
+Running a build create assemblies and executable applications from your source code at any point in your during a development cycle. In general, the build process is very similar across many different project types such as Windows, ASP.NET, mobile apps, and others. The build process is also very similar across programming languages such as C#, Visual Basic, C++, and F#. 
+
+By building your code often, you can quickly identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches. You can also quickly detect and correct run-time errors, such as logic errors and semantic errors, by frequently building and running debug versions of the code.  
+
+A successful build is essentially a validation that the application's source code contains correct syntax and that all static references to libraries, assemblies, and other components have been resolved. This produces an application executable that can then be tested for proper functioning in both a [debugging environment](../debugger/index.md) and through a variety of manual and automated tests to [validate code quality](../test/improve-code-quality.md). Once the application has been fully tested, you can then compile a release version to deploy to your customers. For an introduction to this process, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
+
+Within the Visual Studio product family, there are three methods you can use to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Team Foundation Build on Visual Studio Team Services:
+ 
+| Build Method | Benefits | 
+| --- |--- | --- |  
+| IDE |- Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C++ and C# projects.<br />-   Customize different aspects of the build system. |
+| MSBuild command line| - Build projects without installing Visual Studio.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
+| Team Foundation Build | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited could-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|  
+
+The documentation in this section goes into further details of the IDE-based build process. For more information on the other methods, see [MSBuild](../msbuild/msbuild.md) and [Continuous integration and deployment](https://www.visualstudio.com/docs/build/overview), respectively.
+
+## Overview of building from the IDE  
+
+When you create a project, Visual Studio created default build configurations for the project and the solution that contains the project.  These configurations define how the solutions and projects are built and deployed. Project configurations in particular are unique for a target platform (such as Windows pr Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed.
+
+For a first introduction to building within the IDE, see [Walkthrough: Building an Application](walkthrough-building-an-application.md).  
+
+Next, see [Building and cleaning projects and solutions in Visual Studio](building-and-cleaning-projects-and-solutions-in-visual-studio) to learn about the different aspects customizations you can make to the process. Customizations include [changing output directories](how-to-change-the-build-output-directory.md), [specifying custom build events](specifying-custom-build-events-in-visual-studio.md), [managing project dependencies](how-to-create-and-remove-project-dependencies.md), [managing build log files](how-to-view-save-and-configure-build-log-files.md), and [suppressing compiler warnings](how-to-suppress-compiler-warnings.md).
+
+From there, you can explore a variety of other tasks:
+- [Understand build configurations](understanding-build-configurations.md)
+- [Understand build platforms](understanding-build-platforms.md)
+- [Manage Project and Solution Properties](managing-project-and-solution-properties.md).  
+- Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md). 
+- [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
+- [Build Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).  
   
 ## See Also  
- [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
- [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
- [Building (Compiling) Web Site Projects](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)   
- [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md)
+
+- [Building (Compiling) Web Site Projects](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)   

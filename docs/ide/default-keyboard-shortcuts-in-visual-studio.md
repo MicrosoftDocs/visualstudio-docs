@@ -1,7 +1,7 @@
 ---
 title: "Default Keyboard Shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/02/2017"
+ms.date: "06/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -36,9 +36,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Default Keyboard Shortcuts in Visual Studio
-You can more easily access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This topics lists the default shortcuts for the General Development profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.  
+For more information about keyboard accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the Keyboard Exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
 
- For a list of common keyboard shortcuts and other productivity information, see  [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md) and [Productivity Tips](../ide/productivity-tips-for-visual-studio.md).  
+You can access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This topic lists the default shortcuts for the General Development profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
+
+ For a list of common keyboard shortcuts and other productivity information, see [Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md),  [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md), and [Productivity Tips](../ide/productivity-tips-for-visual-studio.md).
 
  The sections in the following table include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:  
 

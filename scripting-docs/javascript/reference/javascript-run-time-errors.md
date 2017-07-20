@@ -67,7 +67,7 @@ manager: "ghogen"
 |5006|[Date object expected](../../javascript/misc/date-object-expected.md)|  
 |5015|[Enumerator object expected](../../javascript/misc/enumerator-object-expected.md)|  
 |5022|[Exception thrown and not caught](../../javascript/misc/exception-thrown-and-not-caught.md)|  
-|5020|[Expected ')' in regular expression](../Topic/Expected%20'\)'%20in%20regular%20expression%20\(JavaScript\).md)|  
+|5020|[Expected ')' in regular expression](../../javascript/misc/expected-right-parenthesis-in-regular-expression-javascript.md)|  
 |5019|[Expected '&#93;' in regular expression](../../javascript/misc/expected-right-square-bracket-in-regular-expression-javascript.md)|  
 |5023|[Function does not have a valid prototype object](../../javascript/misc/function-does-not-have-a-valid-prototype-object.md)|  
 |5002|[Function expected](../../javascript/misc/function-expected.md)|  

@@ -20,7 +20,7 @@ You must have administrative permissions on the remote computer.
   
      If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator** (Or, you can [run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService)). If you are not running it on a remote server, just start it normally.
   
-3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dalog box appears.  
+3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
      ![RemoteDebuggerConfWizardPage](../media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
   
@@ -34,7 +34,7 @@ You must have administrative permissions on the remote computer.
   
      ![RemoteDebuggerWindow](../media/remotedebuggerwindow.png "RemoteDebuggerWindow")
   
-     The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because you will need this later for configuration in Visual Studio.  
+     The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because you need this information later for configuration in Visual Studio.  
   
  When you are finished debugging and need to stop the remote debugger, click **File / Exit** on the window. You can restart it from the **Start** menu or from the command line:  
   
