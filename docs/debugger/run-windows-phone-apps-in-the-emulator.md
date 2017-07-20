@@ -1,7 +1,7 @@
 ---
-title: "Run Windows Phone apps in the emulator | Microsoft Docs"
+title: "Run Windows Phone 8.1 apps in the emulator | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -34,12 +34,14 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Run Windows Phone apps in the emulator
+# Run Windows Phone 8.1 apps in the emulator
 The Windows Phone emulator provides a virtualized environment in which you can debug and test Windows Phone apps on your computer without a physical device. You can simulate common touch and rotation events and choose the physical screen size and resolution that you want to emulate. You can also test many commonly used features, such as location, networking, notifications, sensors, the accelerometer, and the optional SD card.  
+
+For information on running Windows 10 Mobile in the emulator, see [Test with the Microsoft Emulator](/windows/uwp/debug-test-perf/test-with-the-emulator).
   
- For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
+For more info about the features that you can test in the Windows Phone 8.1 emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
   
- Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
+Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
   
 ##  <a name="BKMK_run"></a> Run a Windows Phone app in the emulator  
  While you're developing a Windows Phone app, you can use Windows Phone Emulator to deploy and test your app quickly. We recommend that you test your app on an actual Windows Phone device, however, before you publish your app in the Windows Phone Store. This lets you experience your app as users will experience it.  

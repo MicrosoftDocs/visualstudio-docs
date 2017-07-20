@@ -1,7 +1,7 @@
 ---
-title: "View data values in DataTips  in the code editor | Microsoft Docs"
+title: "View data values in DataTips in the code editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/26/2017"
+ms.date: "07/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,22 +40,20 @@ translation.priority.ht:
 # View data values in DataTips in the code editor
 DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution.
   
- In [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)], DataTips can be pinned to a specific location in a source file, or they can float on top of all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] windows.  
+### To display a DataTip  
   
-### To display a DataTip (in break mode only)  
+1. Set a breakpoint and start debugging (press **F5**).
+
+2. Where paused in the debugger, place the mouse pointer over any variable in the current scope.
   
-1.  In a source window, place the mouse pointer over any variable in the current scope.  
+     A DataTip appears.
   
-     A DataTip appears.  
-  
+3.  The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or right-click on a variable, then click **Pin to source**.
+
+    ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
+
     > [!NOTE]
-    >  Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
-  
-2.  The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or  
-  
-    -   Right-click on a variable, then click **Pin to source**.  
-  
-     The pinned DataTip closes when the debugging session ends.  
+    > Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.
   
 ### To unpin a DataTip and make it float  
   
@@ -81,16 +79,18 @@ DataTips provide a convenient way to view information about variables in your pr
   
 -   On the **Debug** menu, click **Clear All DataTips Pinned to** *File*.  
   
-## Expanding and Editing Information  
+## Expand and edit information  
  You can use DataTips to expand an array, a structure, or an object to view its members. You can also edit the value of a variable from a DataTip.  
   
 #### To expand a variable to see its elements  
   
 -   In a DataTip, put the mouse pointer over the **+** sign that comes before the variable name.  
   
-     The variable expands to show its elements in tree form.  
+    The variable expands to show its elements in tree form.
+
+    ![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
   
-     When the variable is expanded, you can use the arrow keys on your keyboard to move up and down. Alternatively, you can use the mouse.  
+    When the variable is expanded, you can use the arrow keys on your keyboard to move up and down. Alternatively, you can use the mouse.  
   
 #### To edit the value of a variable using a DataTip  
   
@@ -107,12 +107,12 @@ DataTips provide a convenient way to view information about variables in your pr
   
      The DataTip will remain transparent as long as you hold down the CTRL key.  
   
-## Visualizing Complex Data Types  
- If a magnifying glass icon appears next to a variable name in a DataTip, one or more [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md) are available for variables of that data type. You can use a visualizer to display the information in a more meaningful, usually graphical, manner.  
+## Visualize complex data types  
+ If a magnifying glass icon appears next to a variable name in a DataTip, one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [string visualizers](../debugger/string-visualizer-dialog-box.md), are available for variables of that data type. You can use a visualizer to display the information in a more meaningful, usually graphical, manner.
   
 #### To view the contents of a variable using a visualizer  
   
--   Click the magnifying glass icon to select the default visualizer for the data type.  
+-   Click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") to select the default visualizer for the data type.  
   
      -or-  
   
@@ -120,8 +120,8 @@ DataTips provide a convenient way to view information about variables in your pr
   
      A visualizer displays the information.  
   
-## Adding Information to a Watch Window  
- If you want to continue to watch a variable, you can add the variable to the **Watch** window from a DataTip.  
+## Add information to a Watch window  
+ If you want to continue to watch a variable in a list view, you can add the variable to the **Watch** window from a DataTip.  
   
 #### To add a variable to the Watch window  
   
@@ -129,7 +129,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
      The variable is added to the **Watch** window. If you are using an edition that supports multiple **Watch** windows, the variable is added to **Watch 1.**  
   
-## Importing and Exporting DataTips  
+## Import and export DataTips  
  You can export DataTips to an XML file, which can be shared with a colleague or edited using a text editor.  
   
 #### To Export DataTips  
