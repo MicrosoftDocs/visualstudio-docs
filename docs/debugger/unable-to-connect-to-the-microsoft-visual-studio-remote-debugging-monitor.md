@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
-This error message may appear if you enter an invalid computer name in the **Attach to Process** dialog box or in the project properties (if you are debugging locally). The Remote Debugging Monitor name is usually the same as the machine you are attempting to connect to for remote debugging. This message may also occur because the remote machine does not exist on the network, the remote debugging monitor is not properly set up on the remote machine, or the remote machine is inaccessible due to network problems or the presence of a firewall.  
+This message may occur because the remote debugging monitor is not properly set up on the remote machine or the remote machine is inaccessible due to network problems or the presence of a firewall.
   
 > [!IMPORTANT]
 >  If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio-2017.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
@@ -55,7 +55,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 ## <a name="no_server"></a> There is no server by the specified name running on the remote computer
 
-The remote computer was found, but Visual Studio could not connect to the remote debugger. This message may occur for several reasons:
+Visual Studio could not connect to the remote debugger. This message may occur for several reasons:
 
 1. The remote debugger may be running under a different user account. See [these steps](#user_accounts)
 
@@ -70,7 +70,7 @@ The remote computer exists, but Visual Studio could not connect to the remote de
 
 1. A DNS issue is preventing the connection. See [these steps](#dns).
 
-2. The remote debugger may be running under a different user account. See [these steps](#user_accounts)
+2. The remote debugger may be running under a different user account. Follow [these steps](#user_accounts).
 
 3. The port is blocked on the firewall. Make sure the firewall is [not blocking your request](#firewall), especially if you are using a third-party firewall.
 
@@ -82,7 +82,7 @@ The remote debugger may be running under a different user account. In the remote
 
     For more information, see [The remote debugger is running under a different user account](#user_accounts).
 
-If the error message also mentions a firewall, the firewall on the local machine may be preventing communication back to Visual Studio. See [these steps](#firewall).
+If the error message also mentions a firewall, the firewall on the local machine may be preventing communication from the remote computer back to Visual Studio. See [these steps](#firewall).
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 
@@ -94,7 +94,7 @@ You may see this error if you try to debug on a 64-bit remote computer from a 32
 
 ## <a name="security_package"></a> A security package specific error occurred
 
-This may be a legacy issue specific to Windows XP and Windows 7. See this [post](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package) on StackOverflow. 
+This may be a legacy issue specific to Windows XP and Windows 7. See this [information](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package). 
 
 ## Other causes
 
@@ -102,13 +102,13 @@ This may be a legacy issue specific to Windows XP and Windows 7. See this [post]
 
 If DNS is not able to resolve the remote computer name, try using the IP address instead. You can use `ipconfig` in a command line to get the IPv4 address. If you are using a HOSTS file, verify that it is configured correctly.
 
-If that fails, verify that the remote computer is accessible on the network. Try to [ping](https://technet.microsoft.com/en-us/library/ee624059\(v=ws.10\).aspx) the remote machine.
+If that fails, verify that the remote computer is accessible on the network ([ping](https://technet.microsoft.com/en-us/library/ee624059\(v=ws.10\).aspx) the remote machine).
   
 ### (local debugging only) The server name is set incorrectly or third-party software is interfering with the remote debugger
 
 In Visual Studio, look at the project properties and make sure the server name is correct. See topics for [C# and Visual Basic](../debugger/remote-debugging-csharp.md#remote_csharp) and [C++](../debugger/remote-debugging-cpp.md#remote_cplusplus). For ASP.NET, open **Properties / Web / Servers** or **Properties / Debug** depending on your project type. (If you are attaching to the process, you don't need to set the project properties.)
 
-If the server name is set correctly, your anti-virus software or a third-party firewall may be blocking the remote debugger. This can happen because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The two processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.
+If the server name is set correctly, your anti-virus software or a third-party firewall may be blocking the remote debugger. This can happen because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The 32-bit and 64-bit processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.
 
 ## <a name="user_accounts"></a> The remote debugger is running under a different user account  
  You can solve this in one of the following ways:  
