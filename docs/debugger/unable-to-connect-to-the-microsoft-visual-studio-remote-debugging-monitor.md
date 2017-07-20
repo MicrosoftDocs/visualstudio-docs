@@ -46,12 +46,19 @@ This message may occur because the remote debugging monitor is not properly set 
 
 The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
+- [The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name](#cannot_connect)
 - [There is no server by the specified name running on the remote computer](#no_server)
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
 - [The Visual Studio Remote Debugger on the target computer cannot connect back to this computer](#cant_connect_back)
 - [Invalid access to memory location](#invalid_access)
 - [Access denied](#access_denied)
 - [A security package specific error occurred](#security_package)
+
+## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name
+
+An invalid computer name was entered in the **Attach to Process** dialog box or, if you are [debugging locally](#local), in the project properties.
+
+If correcting the computer name does not resolve this error, follow the steps to [resolve a DNS issue](#dns).
 
 ## <a name="no_server"></a> There is no server by the specified name running on the remote computer
 
@@ -100,18 +107,21 @@ This may be a legacy issue specific to Windows XP and Windows 7. See this [infor
 
 ### <a name="dns"></a> The remote machine is not reachable 
 
-If DNS is not able to resolve the remote computer name, try using the IP address instead. You can use `ipconfig` in a command line to get the IPv4 address. If you are using a HOSTS file, verify that it is configured correctly.
+If DNS is not able to resolve the remote computer name, try using the IP address instead. You can use `ipconfig` in a command line on the remote computer to get the IPv4 address. If you are using a HOSTS file, verify that it is configured correctly.
 
-If that fails, verify that the remote computer is accessible on the network ([ping](https://technet.microsoft.com/en-us/library/ee624059\(v=ws.10\).aspx) the remote machine).
+If that fails, verify that the remote computer is accessible on the network ([ping](https://technet.microsoft.com/en-us/library/cc732509(v=ws.10).aspx) the remote machine). Remote debugging over the Internet is not supported, except in some Microsoft Azure scenarios.
   
-### (local debugging only) The server name is set incorrectly or third-party software is interfering with the remote debugger
+### <a name="local"></a> (local debugging only) The server name is incorrect or third-party software is interfering with the remote debugger
 
 In Visual Studio, look at the project properties and make sure the server name is correct. See topics for [C# and Visual Basic](../debugger/remote-debugging-csharp.md#remote_csharp) and [C++](../debugger/remote-debugging-cpp.md#remote_cplusplus). For ASP.NET, open **Properties / Web / Servers** or **Properties / Debug** depending on your project type. (If you are attaching to the process, you don't need to set the project properties.)
 
 If the server name is set correctly, your anti-virus software or a third-party firewall may be blocking the remote debugger. This can happen because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The 32-bit and 64-bit processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.
 
-## <a name="user_accounts"></a> The remote debugger is running under a different user account  
- You can solve this in one of the following ways:  
+## <a name="user_accounts"></a> The remote debugger is running under a different user account 
+
+The remote debugger will, by default, only accept connections from the user who launched the remote debugger and members of the Administrators group. Additional users must be explicitly granted permissions. 
+ 
+You can solve this in one of the following ways:  
 
 -   Add the Visual Studio user to the remote debugger's permissions (in the remote debugger window, choose **Tools / Permissions**).
 
@@ -131,7 +141,7 @@ If the server name is set correctly, your anti-virus software or a third-party f
  The version of Visual Studio that you are running locally needs to match the version of the remote debugging monitor that is running on the remote machine. To fix this, download and install the matching version of the remote debugging monitor. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
   
 ### The local and remote machines have different authentication modes  
- The local and remote machines need to use the same authentication mode. To fix this, make sure that both machines are using the same authentication mode. You can change the authentication mode on the remote debugger in the **Tools / Options** dialog box.  
+ The local and remote machines need to use the same authentication mode. To fix this, make sure that both machines are using the same authentication mode. You can change the authentication mode. In the remote debugger window, go to the **Tools / Options** dialog box.
   
  For more information about authentication modes, see [Windows Authentication Overview](https://technet.microsoft.com/en-us/library/hh831472.aspx).   
   
