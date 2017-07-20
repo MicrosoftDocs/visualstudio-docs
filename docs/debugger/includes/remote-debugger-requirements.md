@@ -17,15 +17,18 @@ translation.priority.ht:
 ### Supported Operating Systems  
 The remote computer must be running one of the following operating systems:  
   
--   Windows 10  
+-   Windows 10 (not phone) 
   
--   Windows 8 or 8.1  
+-   Windows 8 or 8.1 (not phone)
   
 -   Windows 7 Service Pack 1  
   
 -   Windows Server 2012 or Windows Server 2012 R2  
   
--   Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1  
+-   Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1
+
+> [!NOTE]
+> Windows Phone requires a USB connection to debug (it does not require the remote tools).
   
 ### Supported Hardware Configurations  
   

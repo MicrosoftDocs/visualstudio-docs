@@ -1,7 +1,7 @@
 ---
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/23/17"
+ms.date: "07/06/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -36,6 +36,9 @@ translation.priority.mt:
 Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.
 
 Just-In-Time debugging works for Windows desktop apps. It does not work for Universal Windows Apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.
+
+> [!TIP] 
+> If you just want to know how to respond to the Just-in-Time debugger dialog box, see [this topic](../debugger/just-in-time-debugging-in-visual-studio.md).
 
 ##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging  
 You can enable or disable Just-In-Time debugging from the Visual Studio **Tools / Options** dialog box.

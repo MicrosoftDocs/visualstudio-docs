@@ -29,7 +29,7 @@ translation.priority.ht:
     > [!IMPORTANT]
     >  We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended. In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer. 
     >   
-    >  Surface 3 switched from ARM to x64 architecture. You can get the ARM version of the remote debugger in Visual Studio 2015 downloads only.
+    >  Surface 3 switched from ARM to x64 architecture. An ARM version of the remote tools is not available for Visual Studio 2017. For Visual Studio 2015, find the ARM version in the Visual Studio 2015 RTW download.
   
 3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. Follow the [setup instructions](#bkmk_setup).
 
