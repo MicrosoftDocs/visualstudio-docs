@@ -118,7 +118,7 @@ In Visual Studio, look at the project properties and make sure the server name i
 
 If the server name is set correctly, your anti-virus software or a third-party firewall may be blocking the remote debugger. This can happen because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The 32-bit and 64-bit processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.
 
-## <a name="user_accounts"></a> The remote debugger is running under a different user account 
+### <a name="user_accounts"></a> The remote debugger is running under a different user account 
 
 The remote debugger will, by default, only accept connections from the user who launched the remote debugger and members of the Administrators group. Additional users must be explicitly granted permissions. 
  
@@ -135,7 +135,7 @@ You can solve this in one of the following ways:
   
 -   Alternatively, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools /Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should try this option only if the other options fail, or if you are on a private network.
 
-## <a name="firewall"></a> The firewall on the remote machine doesn't allow incoming connections to the remote debugger  
+### <a name="firewall"></a> The firewall on the remote machine doesn't allow incoming connections to the remote debugger  
  The firewall on the Visual Studio machine and the firewall on the remote machine must be configured to allow communication between Visual Studio and the remote debugger. For information about the ports the remote debugger is using, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). For information about configuring the Windows firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
   
 ### The version of the remote debugger doesn't match the version of Visual Studio  
