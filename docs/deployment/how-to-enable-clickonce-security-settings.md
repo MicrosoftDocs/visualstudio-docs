@@ -72,4 +72,4 @@ Code access security for ClickOnce applications must be enabled in order to publ
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
+ 

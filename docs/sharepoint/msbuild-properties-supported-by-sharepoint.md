@@ -55,6 +55,6 @@ manager: "ghogen"
 >  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.  
   
 ## See Also  
- [MSBuild Reference](/visual-studio/msbuild/msbuild-reference)  
+ [MSBuild Reference](/visualstudio/msbuild/msbuild-reference)  
   
   

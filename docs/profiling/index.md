@@ -1,8 +1,10 @@
 ---
 layout: LandingPage
-title: Profiling in Visual Studio
+title: Profiling your Apps with Visual Studio
+description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
+ms.technology: vs-ide-debug
 ---
-#Profiling in Visual Studio
+# Profiling in Visual Studio
 
 Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate data (such as variable values, function calls, and events) over the time you run your application in the debugger. You can view the state of your application at different points during the execution of your code. 
 
@@ -44,7 +46,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/watch?v=e-3txyAFzmw">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -54,7 +56,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Watch a Video on the Diagnostics Tools (VS 2015)</h3>
+                        <h3>Watch a Video on the Diagnostics Tools</h3>
                     </div>
                 </div>
             </div>

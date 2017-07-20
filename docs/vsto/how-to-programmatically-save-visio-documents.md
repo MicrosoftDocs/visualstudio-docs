@@ -30,7 +30,7 @@ manager: "ghogen"
   
 -   Save a document with specified arguments.  
   
- For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Save](HV10071468) method, [Microsoft.Office.Interop.Visio.Document.SaveAs](HV10071469) method, and [Microsoft.Office.Interop.Visio.Document.SaveAsEx](HV10071470) method.  
+ For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Save](https://msdn.microsoft.com/library/office/ff766478.aspx) method, [Microsoft.Office.Interop.Visio.Document.SaveAs](https://msdn.microsoft.com/library/office/ff765824.aspx) method, and [Microsoft.Office.Interop.Visio.Document.SaveAsEx](https://msdn.microsoft.com/library/office/ff768149.aspx) method.  
   
 ## Saving an Existing Document  
   

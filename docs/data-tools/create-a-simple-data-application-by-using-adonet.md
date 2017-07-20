@@ -144,7 +144,7 @@ When you create an application that manipulates data in a database, you perform 
 5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
->  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/Library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
+>  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).  
   
 ##  <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   

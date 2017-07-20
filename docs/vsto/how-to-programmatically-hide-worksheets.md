@@ -58,4 +58,3 @@ manager: "ghogen"
  [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
  [Global Access to Objects in Office Projects](../vsto/global-access-to-objects-in-office-projects.md)  
   
-  

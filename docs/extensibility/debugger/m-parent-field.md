@@ -30,7 +30,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # m_parent Field
-The backing field for the <xref:System.Threading.Tasks.Task.Parent%2A?displayProperty=fullName> property.  
+The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> `Parent` property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   

@@ -69,4 +69,3 @@ manager: "ghogen"
  [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
-  

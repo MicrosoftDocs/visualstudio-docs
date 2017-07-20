@@ -53,7 +53,7 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 -   By manually creating a .vsix file. To create a .vsix file manually:  
     
-    1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visual-studio/extensibility/anatomy-of-a-vsix-package).  
+    1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visualstudio/extensibility/anatomy-of-a-vsix-package).  
   
     2.  In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.  
   
