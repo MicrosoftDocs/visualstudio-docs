@@ -129,7 +129,7 @@ END;
 
 - The `_RCODE_` placeholder is replaced by the contents of `StoredProcedure.R`.
 - The `_INPUT_QUERY_` placeholder is replaced by the contents of `StoredProcedure.Query.sql`.
-- Edit the the `WITH RESULT SETS` clause to describe the schema of the result set returned from the stored procedure. Specifically identify the columns from the `OutputDataSet` dataframe that you want to return to the caller of the stored procedure. 
+- Edit the `WITH RESULT SETS` clause to describe the schema of the result set returned from the stored procedure. Specifically identify the columns from the `OutputDataSet` dataframe that you want to return to the caller of the stored procedure. 
 
 For example, for the following query:
 
