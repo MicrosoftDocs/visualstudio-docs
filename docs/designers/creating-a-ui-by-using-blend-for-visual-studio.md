@@ -1,7 +1,7 @@
 ---
 title: "Creating a UI by using Blend for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 7/17/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,27 +15,14 @@ caps.latest.revision: 31
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Creating a UI by using Blend for Visual Studio
-Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors.  
+Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. (For a comparison between the tools, see [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).)
   
- Since Blend for Visual Studio is included as a part of Visual Studio, you don't need to download it. However, you need to select it in the Visual Studio installer for it to install on your system.  
-  
- If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.  
+Because Blend for Visual Studio is included as a part of Visual Studio, you don't need to download it. However, you need to select it in the Visual Studio installer for it to install on your system.  
+ 
+If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.  
   
 > [!NOTE]
 >  To tour the shared design features such as the artboard, Document Outline window, and Device window, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  

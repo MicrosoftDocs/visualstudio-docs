@@ -1,12 +1,13 @@
 ---
 title: Django Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/11/2017
+ms.date: 7/13/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c479be58-13eb-4d77-9a27-c97ddc290963
@@ -14,25 +15,11 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Django Web Project Template
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project will include boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the "Django Web Project" template. The resulting project includes boilerplate code as well as a default SQLite database. The "Blank Django Web Project" template is similar but does not include the database.
 
 Visual Studio provides full IntelliSense for Django projects:
 
@@ -55,14 +42,14 @@ Visual Studio also provides full [debugging support](debugging.md) for Django pr
 
 ![Breakpoints](media/template-django-debugging.png)
 
-Note that it's typical for Django projects to be managed through their `manage.py` file, which is an assumption that Visual Studio follows. If you stop using that file as the entry point, you essentially break the project file. In that case you need to [recreate the project from existing files](python-projects.md#creating-a-project-from-existing-files) without marking it as a Django project.
+It's typical for Django projects to be managed through their `manage.py` file, which is an assumption that Visual Studio follows. If you stop using that file as the entry point, you essentially break the project file. In that case you need to [recreate the project from existing files](python-projects.md#creating-a-project-from-existing-files) without marking it as a Django project.
 
 
 ## Django management console
 
-The Django management console is access through various commands on the **Project** menu or by right-clicking the project in Solution Explorer.
+The Django management console is accessed through various commands on the **Project** menu or by right-clicking the project in Solution Explorer.
 
-- **Open Django Shell...**: opens a shell in your application context which enables you to manipulate your models"
+- **Open Django Shell...**: opens a shell in your application context that enables you to manipulate your models"
 
     ![Console](media/template-django-console-shell.png)
 

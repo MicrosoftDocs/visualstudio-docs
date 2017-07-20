@@ -1,7 +1,7 @@
 ---
 title: "Run Windows Store apps on a remote machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/27/2017"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -36,19 +36,27 @@ translation.priority.ht:
 # Run Windows Store apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
-To run a Windows Store app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools app enables you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+To run a Windows Store app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
 
-> [!NOTE]
-> To run Universal Windows Apps (UWP) on a remote machine, see [Debug an Installed App Package](debug-installed-app-package.md). For Windows 10 desktop machines, you must [install the Remote Tools](#BKMK_download) on the remote machine manually first. For most other Windows 10 devices, the remote tools are automatically installed when you first try to debug from Visual Studio.
+In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
+
+- For Windows 10 PCs running Creators Update and later versions, see [Debug an Installed App Package](debug-installed-app-package.md#remote). Remote tools will be installed automatically.
+- For Windows 10 Xbox, IOT, and HoloLens devices, see [Debug an Installed App Package](debug-installed-app-package.md#remote). Remote tools will be installed automatically.
+- For Windows Phone, you must be physically connected to the phone, you must either install a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) (Windows Phone 8 and 8.1) or enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) (Windows Mobile 10), and you must select **Device** as the debug target. Remote tools are not required or supported.
+
+For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic.
   
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
   
 -   The remote device and the Visual Studio computer must be connected over a network or connected directly through an Ethernet cable. Debugging over the internet is not supported.  
+
+- The remote device must be enabled for development.
+
+    - For Windows 8 and Windows 8.1 devices, a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) must be installed on the remote device.
+    - For Windows 10 devices, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). 
   
--   A developer's license must be installed on the remote device.  
-  
--   The remote device must be running the remote debugging components.  
+-   For Windows 10 PCs running a version of Windows 10 earlier than Windows 10 Creator's Update, you must install and run the remote debugging components.
   
 -   You must be an administrator on the remote device to configure the firewall during installation. You must have user access to the remote device to run or connect to the remote debugger.  
   

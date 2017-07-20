@@ -449,7 +449,7 @@ $(PropertyName)
 1.  From the code editor, replace the Message task with this line:  
   
     ```xml  
-    <Message Text="Compile item type contains @(XFiles)" />  
+    <Message Text="XFiles item type contains @(XFiles)" />  
     ```  
   
 2.  Add this item group just after the Import element:  
@@ -471,7 +471,7 @@ $(PropertyName)
 5.  Examine the output. You should see this line:  
   
     ```  
-    Compile item type contains Form1.cs;Program.cs;Properties/Resources.resx  
+    XFiles item type contains Form1.cs;Program.cs;Properties/Resources.resx  
     ```  
   
 ## Item Metadata  
