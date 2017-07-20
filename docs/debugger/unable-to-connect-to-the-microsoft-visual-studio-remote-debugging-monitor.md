@@ -10,6 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.remote_debug"
+  - "vs.debug.error.firewall.remotemachine"
 dev_langs: 
   - "CSharp"
   - "VB"
