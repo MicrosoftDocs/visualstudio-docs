@@ -21,7 +21,7 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
 1.  using an online subscription, or,  
 1.  entering a product key.  
   
-## To unlock Visual Studio using an online subscription  
+ed## To unlock Visual Studio using an online subscription  
  To unlock Visual Studio using an MSDN or Visual Studio Team Service subscription associated with a Microsoft account, or a work or school account:  
   
 1.  Click on the "Sign in" button in the upper right corner of the IDE (or go to File > Account Settings to open the Account Settings dialog and click on the "Sign in" button.)  
@@ -48,7 +48,7 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
   
  This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn't been refreshed and has gone stale due to one of the following reasons:  
   
-1.  You have not used Visual Studio or have had no internet connection for an extend period of time.   
+1.  You have not used Visual Studio or have had no internet connection for an extended period of time.   
 1.  You signed out of Visual Studio.  
   
  Before the license token goes stale, Visual Studio first shows a warning message asking you to reenter your credentials.  
