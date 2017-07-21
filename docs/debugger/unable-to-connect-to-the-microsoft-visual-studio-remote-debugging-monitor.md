@@ -59,7 +59,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 An invalid computer name was entered in the **Attach to Process** dialog box or in the project properties (To set properties, see [these steps](#local)).
 
-If correcting the computer name does not resolve this error, follow the steps for [DNS issues](#dns).
+If correcting the computer name does not resolve this error, see [The remote machine is not unreachable](#dns).
 
 ## <a name="no_server"></a> There is no server by the specified name running on the remote computer
 
@@ -86,9 +86,7 @@ The remote computer exists, but Visual Studio could not connect to the remote de
 
 ## <a name="cant_connect_back"></a> The Visual Studio Remote Debugger on the target computer cannot connect back to this computer
 
-The remote debugger may be running under a different user account. In the remote debugger, open **Tools / Permissions** to add the user to the remote debugger's permissions.
-
-    For more information, see [The remote debugger is running under a different user account](#user_accounts).
+The remote debugger may be running under a different user account. In the remote debugger, open **Tools / Permissions** to add the user to the remote debugger's permissions. For more information, see [The remote debugger is running under a different user account](#user_accounts).
 
 If the error message also mentions a firewall, the firewall on the local machine may be preventing communication from the remote computer back to Visual Studio. See [these steps](#firewall).
 
