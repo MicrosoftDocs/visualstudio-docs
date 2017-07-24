@@ -95,7 +95,7 @@ This topic describes how to save and export performance data files.
   
 6.  Under **Exported report location**, specify the directory.  
   
-7.  Under **Exported report format**, select (Comma delimited) (*.csv), or XML Data (\*.xml).  
+7.  Under **Exported report format**, select (Comma delimited) (\*.csv), or XML Data (\*.xml).  
   
 8.  Click **Export**.  
   
