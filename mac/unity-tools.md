@@ -8,6 +8,7 @@ ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 ---
 
 # Visual Studio for Mac Tools for Unity
+![Overview image](media/vsmac-tools-unity-image1.png)
 
 Visual Studio for Mac Tools for Unity is a free Visual Studio extension that turns Visual Studio for Mac into a powerful tool for developing cross-platform games and apps with the Unity platform.
 
@@ -50,3 +51,10 @@ Write more usable code with quick menus and keyboard shortcuts for [renaming, re
 ### Browse and add new files
 
 Browse Unity projects and [add folders, scripts, or shaders](using-vsmac-tools-unity.md#adding-new-unity-files-and-folders), all within the Visual Studio for Mac IDE.  
+
+## Tips for Unity developers getting started with Visual Studio for Mac
+
+Below are some sections that explain useful features of particular interest to Unity developers just starting with Visual Studio for Mac:
+
+* [Customizing the IDE](https://docs.microsoft.com/en-us/visualstudio/mac/customizing-the-ide) - Learn how to [change the visual theme](https://docs.microsoft.com/en-us/visualstudio/mac/customizing-the-ide#dark-theme) or switch to a more familiar [key binding](https://docs.microsoft.com/en-us/visualstudio/mac/customizing-the-ide#key-bindings) scheme.
+* [Source Editor](https://docs.microsoft.com/en-us/visualstudio/mac/source-editor) - Learn how Visual Studio for Mac can make writing better code faster and easier, including common [keyboard shortcuts](https://docs.microsoft.com/en-us/visualstudio/mac/keyboard-shortcuts).
