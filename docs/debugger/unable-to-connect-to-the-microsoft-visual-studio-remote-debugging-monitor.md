@@ -59,7 +59,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 An invalid computer name was entered in the **Attach to Process** dialog box or in the project properties (To set properties, see [these steps](#local)).
 
-If correcting the computer name does not resolve this error, see [The remote machine is not unreachable](#dns).
+If correcting the computer name does not resolve this error, see [The remote machine is not reachable](#dns).
 
 ## <a name="no_server"></a> There is no server by the specified name running on the remote computer
 
