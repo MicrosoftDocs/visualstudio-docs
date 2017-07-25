@@ -99,9 +99,9 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 
 If you move an existing interpreter to a new location on the file system, Visual Studio doesn't automatically detect the change. Manual steps are necessary to update the list in the Environment window:
 
-- If you originally created an environment for that interpreter manually, create an environment for the new location then remove the environment for the old location using the **Remove** command on the **Configure** tab.
-- If the environment was originally auto-detected, it's best to first restore the Python interpreter to its original location, uninstall it, then reinstall it at the desired location. Restart Visual Studio and it should auto-detect the new location .
-- Alternately, you can refer to [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/) for information on those registry keys. You can then edit the keys manually to point to the new location of an interpreter. This avoids uninstalling and reinstalling but can result in an unstable environment if done incorrectly.
+- If you originally created an environment for that interpreter, create an environment for the new location then remove the environment for the old location using the **Remove** command on the **Configure** tab.
+- If the environment was originally auto-detected, it's best to first restore the Python interpreter to its original location, uninstall it, then reinstall it at the desired location. Restart Visual Studio and it should auto-detect the new location.
+- Alternately, refer to [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/) for information on those registry keys. You can then edit the keys to point to the new location of an interpreter. This avoids uninstalling and reinstalling but can result in an unstable environment if done incorrectly.
 
 ### Overview tab
 
