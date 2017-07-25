@@ -83,7 +83,7 @@ The example above shows that Python 3.4 (32-bit CPython) is installed along with
 
 ### Creating an environment for an existing interpreter
 
-Visual Studio normally locates an installed Python interpreter by checking the registry, but it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
+Visual Studio normally locates an installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/). However, Visual Studio may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
 1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
@@ -99,9 +99,9 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 
 If you move an existing interpreter to a new location on the file system, Visual Studio doesn't automatically detect the change. Manual steps are necessary to update the list in the Environment window:
 
-- If you originally created an environment for that interpreter, create an environment for the new location then remove the environment for the old location using the **Remove** command on the **Configure** tab.
-- If the environment was originally auto-detected, it's best to first restore the Python interpreter to its original location, uninstall it, then reinstall it at the desired location. Restart Visual Studio and it should auto-detect the new location.
-- Alternately, refer to [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/) for information on those registry keys. You can then edit the keys to point to the new location of an interpreter. This avoids uninstalling and reinstalling but can result in an unstable environment if done incorrectly.
+- If you originally created an environment for that interpreter, edit that environment to point to the new location.
+
+- If the environment was originally auto-detected, it was installed on the computer with a distinct installer program that created the registry entries that Visual Studio examines. In this case, first restore the Python interpreter to its original location. Then uninstall it using the installer, which clears the registry entries. Then reinstall the interpreter at the desired location. Restart Visual Studio and it should auto-detect the new location. This process ensures that any other side effects of the installer are properly applied.
 
 ### Overview tab
 
