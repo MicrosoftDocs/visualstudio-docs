@@ -54,7 +54,7 @@ For information about remote debugging apps with Azure backends, see [Remote deb
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
-## Remote debug a Visual C++ project  
+## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
   
 1.  Create an MFC application named **mymfc.**  
