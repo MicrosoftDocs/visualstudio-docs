@@ -82,13 +82,21 @@ When you download the software, you may get requests to grant permission to load
 
 ## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
 
-1. Open the **Internet Information Services (IIS) Manager** and go to **Sites**.
+1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
-2. Right-click the **Default Web Site** node and select **Add Application**.
+2. Open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET project).
+3. Under **Connections** in the left pane, go to **Sites**.
 
-4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
+4. Select the **Default Web Site**, choose **Basic Settings**, and set the **Physical path** to **C:\Publish**.
+
+4. Right-click the **Default Web Site** node and select **Add Application**.
+
+5. Set the **Alias** field to **MyASPApp**, accept the default Application Pool (**DefaultAppPool**), and set the **Physical path** to **C:\Publish**.
+
+6. Under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the Application pool field to **No Managed Code**.
+
+7. Right-click the new site in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for access to the web app is an authorized user with Read & Execute rights.
 
     If you don't see one of these users with access, go through steps to add IUSR as a user with Read & Execute rights.
 
