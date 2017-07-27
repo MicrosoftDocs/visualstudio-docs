@@ -1,6 +1,7 @@
 # [Python in Visual Studio](python-in-visual-studio.md)
 ## [Installation](installation.md)
 ### [Python Environments](python-environments.md)
+### [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
 ### [Azure SDK for Python](azure-sdk-for-python.md)
 ## [Getting Started with Python](getting-started.md)
 ### [Publishing to Azure](publishing-to-azure.md)
