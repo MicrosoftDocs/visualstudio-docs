@@ -48,6 +48,7 @@ This message may occur because the remote debugging monitor is not properly set 
 The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
 - [The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name](#cannot_connect)
+- [Connection request was rejected by the remote debugger](#rejected)
 - [There is no server by the specified name running on the remote computer](#no_server)
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
 - [The Visual Studio Remote Debugger on the target computer cannot connect back to this computer](#cant_connect_back)
@@ -60,6 +61,12 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 An invalid computer name was entered in the **Attach to Process** dialog box or in the project properties (To set properties, see [these steps](#local)).
 
 If correcting the computer name does not resolve this error, see [The remote machine is not reachable](#dns).
+
+## <a name="rejected"></a> Connection request was rejected by the remote debugger
+
+In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+
+If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools / Options**).
 
 ## <a name="no_server"></a> There is no server by the specified name running on the remote computer
 
