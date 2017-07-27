@@ -71,8 +71,13 @@ For more information:
 - [In-database Advanced Analytics with R in SQL Server 2016](https://blogs.technet.microsoft.com/dataplatforminsider/2016/03/29/in-database-advanced-analytics-with-r-in-sql-server-2016/)
 - [Python in SQL Server 2017: enhanced in-database machine learning](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/)
 
-## Azure notebooks
+## Additional services and SDKs
 
-## Python Azure SDK
+In addition to what's in the Data Science and Analytics Applications workload directly, the Azure Notebooks service and the Azure SDK for Python are also helpful for data science.
 
+The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac OSX, and Linux. For more information, see [Azure SDK for Python](../python/azure-sdk-for-python.md)
 
+Azure Notebooks (currently preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. To get started, visiaul [notebooks.azure.com](https://notebooks.azure.com/).
+
+<!--Note link on the image because this one is large -->
+[![Screenshots of Azure Notebooks with the Introduction to R sample](media/data-science-workload-notebooks.png)](media/data-science-workload-notebooks.png)
