@@ -42,7 +42,7 @@ Next, download the Visual Studio bootstrapper file. To do so, click the followin
 
 |         |         |
 |---------|---------|
-|  ![film icon for video](media/video-icon.png "Watch a video")  |   [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171)  on how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that's right for you.      |
+| ![film icon for video](media/video-icon.png "Watch a video") | [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171)  on how to download the Visual Studio bootstrapper file and select the edition of Visual Studio that's right for you.|
 
 
 
@@ -78,7 +78,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 |         |         |
 |---------|---------|
-|  ![film icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) how to install the Visual Studio Installer and then install a workload. |
+|  ![film icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) on how to install the Visual Studio Installer and then install a workload. |
 
 ## Install individual components
 
@@ -103,12 +103,6 @@ By default, the installer program tries to match the language of the operating s
 ### Change the installer language from the command line
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
-
-## Watch a video
-Want to see how to install Visual Studio 2017 in real-time? The following video can help.
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
