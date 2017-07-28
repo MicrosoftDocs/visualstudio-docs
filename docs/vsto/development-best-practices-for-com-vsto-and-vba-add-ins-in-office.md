@@ -36,7 +36,7 @@ If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) inst
 
 If your solution uses an earlier version of .NET, we recommend that you update your solution to use .NET 4.0 or later. Using .NET 4.0 or later reduces runtime prerequisites on newer versions of Windows.
   
-## Avoid using specific Office versions  
+## Avoid depending on specific Office versions  
 If your solution uses functionality that is only available in newer versions of Office, verify that the capability exists (if possible, at the feature level) at runtime (for example, using exception handling or by checking the version). Validate minimum versions, rather than specific versions, using supported APIs in the object model, such as the [Application.Version property](https://msdn.microsoft.com/en-us/library/office/microsoft.office.interop.excel._application.version.aspx). We don’t recommend that you rely on Office binary metadata, installation paths, or registry keys because these can change between installations, environments, and versions.
 
 ## Enable both 32-bit and 64-bit Office usage   
@@ -58,9 +58,9 @@ If the solution consists of an add-in and a process that is external to Office, 
 Set the version number of the binaries in your solution and increment it with each update. This will make it easier for users to identify changes between versions and assess compatibility.
 
 ## Provide support statements for the latest versions of Office
-Customers are asking ISVs to provide support statements for their COM, VSTO and VBA add-ins that run in Office. Listing your explicit support statements will help to ensure that customers who are using Microsoft ProPlus readiness tools are aware of your support. 
+Customers are asking ISVs to provide support statements for their COM, VSTO and VBA add-ins that run in Office. Listing your explicit support statements will help to ensure that customers who are using Office 365 ProPlus readiness tools are aware of your support. 
 
-To provide support statements for Office client applications (for example, Word or Excel), first verify that your add-ins run in the current Office release, and then commit to providing updates if your add-in breaks in a future release. You do not have to test your add-ins when Microsoft releases a new build, or an update to Office  . Microsoft rarely changes the COM, VSTO and VBA extensibility platform in Office, and these changes will be well documented.
+To provide support statements for Office client applications (for example, Word or Excel), first verify that your add-ins run in the current Office release, and then commit to providing updates if your add-in breaks in a future release. You do not have to test your add-ins when Microsoft releases a new build, or an update to Office. Microsoft rarely changes the COM, VSTO and VBA extensibility platform in Office, and these changes will be well documented.
 
 >Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [https://aka.ms/readyforwindows](https://aka.ms/readyforwindows).
 
