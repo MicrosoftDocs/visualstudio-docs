@@ -1,6 +1,6 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: "remotedebugging"
 ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ This topic shows how to:
 * Remote debug ASP.NET Core on an Azure VM
 
 > [!NOTE]
-> To debug ASP.NET Core on Azure Service Fabric (IIS is not required), see [Build a web service front end for your app using ASP.NET Core](/azure/service-fabric/service-fabric-add-a-web-frontend) and [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
+> To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 

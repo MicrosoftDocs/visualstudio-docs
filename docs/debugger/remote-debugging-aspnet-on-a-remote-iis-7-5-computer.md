@@ -1,6 +1,6 @@
 ---
 title: "Remote Debug ASP.NET on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: "remotedebugging"
 ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
