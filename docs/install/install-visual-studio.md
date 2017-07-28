@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "07/13/2017"
+ms.date: "07/28/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -78,7 +78,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 |         |         |
 |---------|---------|
-|  ![film icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) how to install the Visual Studio Installer and then choose and install a workload by using the Visual Studio Installer. |
+|  ![film icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171) how to install the Visual Studio Installer and then install a workload. |
 
 ## Install individual components
 
@@ -88,7 +88,7 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
   |         |         |
   |---------|---------|
-  |  ![film icon for video](media/video-icon.png "Watch a video")  |   [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171) on how to choose and then install an individual component by using the Visual Studio Installer. |
+  |  ![film icon for video](media/video-icon.png "Watch a video")  |   [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171) on how to install an individual component by using the Visual Studio Installer. |
 
 ## Install language packs
 
@@ -98,14 +98,18 @@ By default, the installer program tries to match the language of the operating s
 
   |         |         |
   |---------|---------|
-  |  ![film icon for video](media/video-icon.png "Watch a video")  |   [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171) on how to choose and then install a language pack by using the Visual Studio Installer. |
+  |  ![film icon for video](media/video-icon.png "Watch a video")  |   [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171) on how to install a language pack by using the Visual Studio Installer. |
 
 ### Change the installer language from the command line
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
-## Watch a video on how to install Visual Studio 2017
- > [!VIDEO https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=9oIw0FD6D_3611787171]
+## Watch a video
+Want to see how to install Visual Studio 2017 in real-time? The following video can help.
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
