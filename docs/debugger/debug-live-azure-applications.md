@@ -32,7 +32,7 @@ translation.priority.mt:
 ---
 # Debug live .NET and ASP.NET apps running in Azure App Service
 
-The Snapshot Debugger takes a snapshot of your in-production Azure App Service when code that you are interested in executes. You can set snappoints and logpoints in your code, similar to breakpoints, to instruct the debugger to take a snapshot. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you to dramatically reduce the time it takes to resolve issues that occur in production environments.
+The Snapshot Debugger takes a snapshot of your in-production Azure App Service when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you to dramatically reduce the time it takes to resolve issues that occur in production environments. Snapshots are intended for release builds.
 
 Snapshot collection is available for the following web aps running in Azure App Service:
 
@@ -40,7 +40,7 @@ Snapshot collection is available for the following web aps running in Azure App 
 .NET Core 2.0 and ASP.NET Core 2.0 applications running on Windows.
 
 > [!NOTE]
-> With some additional configuration, you can also view exceptions and snappoint data in Application Insights. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights also supports Service Fabric apps.
+> With some additional configuration, you can also view exceptions and snappoint data in Application Insights. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to App Service.
 
 ## Start the Snapshot Debugger
 
@@ -60,7 +60,7 @@ Snapshot collection is available for the following web aps running in Azure App 
 
     ![Snapshot debugging mode](../debugger/media/snapshot-message.png "Snapshot debugging mode")
 
-   The **Modules** window shows you when all the modules have loaded for the App Service.
+   The **Modules** window shows you when all the modules have loaded for the App Service (choose **Debug / Windows / Modules** to open this window).
 
     ![Check the Modules window](../debugger/media/snapshot-modules.png "Check the Modules window")
 
@@ -70,11 +70,15 @@ Snapshot collection is available for the following web aps running in Azure App 
 
     ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png "Set a snappoint")
 
-    TALKING POINTS
+    > [!NOTE]
+    > Unlike breakpoints, snappoints do not halt the application when hit. Typically, a snapshot taken from a snappoint only increases overhead by 10-20 ms. A shadow copy is created and debugging occurs against the shadow copy.
 
 2. Click **Start Collection** to turn on the snappoint.
 
     ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
+
+    > [!TIP]
+    > You can place multiple snappoints in the same method. When snapshots are captured on a server under load, all snappoints are captured from the same request.
 
 ## Take a snapshot
 
@@ -92,9 +96,10 @@ When the snappoint is hit, a .diagsession window appears in Visual Studio.
 
     ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png "Inspect snapshot data")
 
-    From this view, you can hover over variables to view DataTips, use the **Locals** and **Watches** windows, and alse evaluate expressions.
+    From this view, you can hover over variables to view DataTips, use the **Locals** and **Watches** windows, and also evaluate expressions.
 
-    TALKING POINTS
+    > [!NOTE]
+    > The website itself is still live and end users are not impacted.
 
 ## Set a conditional snappoint
 
@@ -114,7 +119,7 @@ If it is difficult to recreate a particular state in your app, consider whether 
 
 ## Set a logpoint
 
-In addition to taking a snapshot when a snappoint is hit, you can also configure a snappoint to log a message (that is, create a logpoint).
+In addition to taking a snapshot when a snappoint is hit, you can also configure a snappoint to log a message (that is, create a logpoint). You can set logpoints without having to redploy your app. Logpoints are virtually executed and cause no impact and no side effects to your running application.
 
 #### To create a logpoint
 
@@ -128,11 +133,11 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     If you choose **Send to Output Window**, when the logpoint is hit the message will appear in the .diagsession window.
 
-    ![tbd](../debugger/media/snapshot-logpoint.png "t b d")
+    ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint.png "Logpoint data in the .diagsession window")
 
-    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from System.Diagnostics.Trace, such as App Insights.
+    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace`, such as App Insights.
 
-    ![tbd](../debugger/media/snapshot-logpoint.png "t b d")
+    ![Logpoint data in App Insights](../debugger/media/snapshot-logpoint.png "Logpoint data in App Insights")
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)
