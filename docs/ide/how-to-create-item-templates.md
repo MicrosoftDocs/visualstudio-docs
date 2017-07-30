@@ -52,7 +52,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 3.  Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
 
-4.  On the **File** menu, click **Export Template**.  
+4.  On the **Project** menu, click **Export Template**.  
 
 5.  Click **Item Template**, select the project that contains the item, and click **Next**.  
 
