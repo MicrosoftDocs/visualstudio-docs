@@ -58,7 +58,6 @@ Choose the method best suited to your UI elements.
 | You have custom UI that you want to be consistent with the overall VS environment and you have UI elements that match the category and semantic meaning of the shared tokens. | **Common shared colors** | Existing predefined color token names for specific UI elements |
 | You have an individual feature or group of features and there is no shared color for similar elements. | **Custom colors** | Color token names that are specific to an area and not meant to be shared with other UI |
 | You want to allow the end user to customize UI or content (for example, for text editors or specialized designer windows). | **End-user customization**<br /><br />**(Tools &gt; Options dialog)** | Settings defined in the "Fonts and Colors" page of the **Tools &gt; Options** dialog or a specialized page specific to one UI feature. |
-| You have UI that is authored in HTML. | **Daytona** | Allows UI authored in HTML to access the color and font service. |
   
 ### Visual Studio themes  
 Visual Studio features three different color themes: light, dark, and blue. It also detects High Contrast mode, which is a system-wide color theme designed for accessibility.  
@@ -87,9 +86,6 @@ See: [Exposing colors for end users](../../extensibility/ux-guidelines/colors-an
 Sometimes, you will want to allow the end user to customize your UI, like when you are creating a code editor or design surface. Customizable UI components are found in the **Fonts and Colors** section of the **Tools &gt; Options** dialog, where users can choose to change the foreground color, background color, or both.  
   
 ![Tools &gt; Options dialog](../../extensibility/ux-guidelines/media/0301-a_toolsoptionsdialog.png "0301-a_ToolsOptionsDialog")<br />Tools &gt; Options dialog
-  
-### Web UI colors  
-It is becoming common to author UI components using HTML so that they can be used both in Visual Studio Online and within Visual Studio. UI written in HTML must still use the VSColor service when running inside the Visual Studio environment. For information about Daytona and how to use it, see [Daytona and web UI](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_DaytonaAndWebUI).  
   
 ##  <a name="BKMK_TheVSColorService"></a> The VSColor Service  
 Visual Studio provides an environment color service, also called the VSColor service or the shell color service. This service allows you to bind the color values of your UI elements to a name-value color set containing colors for each theme. The VSColor service must be used for all UI elements, so that colors automatically change to reflect the current user-selected theme, and so that UI bound to the environment color service will integrate with new themes in future versions of Visual Studio.  
