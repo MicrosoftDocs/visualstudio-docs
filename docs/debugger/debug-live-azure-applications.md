@@ -36,8 +36,8 @@ The Snapshot Debugger takes a snapshot of your in-production Azure App Service w
 
 Snapshot collection is available for the following web aps running in Azure App Service:
 
-.NET Framework and ASP.NET applications running .NET Framework 4.5 or later.
-.NET Core 2.0 and ASP.NET Core 2.0 applications running on Windows.
+- .NET Framework and ASP.NET applications running .NET Framework 4.5 or later.
+- .NET Core 2.0 and ASP.NET Core 2.0 applications running on Windows.
 
 > [!NOTE]
 > With some additional configuration, you can also view exceptions and snappoint data in Application Insights. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to App Service.
@@ -46,7 +46,7 @@ Snapshot collection is available for the following web aps running in Azure App 
 
 1. On your Visual Studio 2017 computer, install the [Snapshot Debugger extension](https://aka.ms/snapshotdebugger).
 
-2. Start your web site hosted in Azure.
+2. Start your web site hosted in Azure App Service.
 
 3. Open Visual Studio as an Administrator (right-click the shortcut icon and choose **Run as administrator**).
 
