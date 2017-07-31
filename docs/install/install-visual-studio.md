@@ -60,7 +60,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")  
 
 ## Install workloads  
- After the installer is installed, you can use it to customize your installation by picking the feature sets—or workloads—that you want. Here's how.
+ After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.
 
@@ -80,7 +80,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 ## Install individual components
 
-If you don't want to use the handy Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To do so, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To do this, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
