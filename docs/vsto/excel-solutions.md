@@ -119,7 +119,8 @@ manager: "ghogen"
 |[Windows Forms Controls on Office Documents Overview](../vsto/windows-forms-controls-on-office-documents-overview.md)|Describes how you can add Windows Forms controls to Excel worksheets.|  
 |[Walkthrough: Creating Your First Document-Level Customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)|Demonstrates how to create a basic document-level customization for Excel.|  
 |[Walkthrough: Creating Your First VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)|Demonstrates how to create a basic VSTO Add-in for Excel.|  
-|[Walkthrough: Adding Controls to a Worksheet at Run Time in VSTO add-in Project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)|Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at run time by using a VSTO Add-in.|  
+|[Walkthrough: Adding Controls to a Worksheet at Run Time in VSTO add-in Project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)|Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at run time by using a VSTO Add-in.|
+|[Understanding Coauthoring and Add-Ins](./understanding-coauthoring-and-addins.md)|Describes adjustments you might need to make to your solutions to accommodate coauthoring.|  
 |[Excel 2010 in Office Development](http://go.microsoft.com/fwlink/?LinkId=199011)|Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio.|  
   
   
