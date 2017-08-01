@@ -1,6 +1,6 @@
 ---
 title: "Remote Debug a Visual C++ Project | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: "remotedebugging"
 ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
