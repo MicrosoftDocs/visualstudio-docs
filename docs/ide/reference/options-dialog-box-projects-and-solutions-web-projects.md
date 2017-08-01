@@ -35,5 +35,5 @@ Select this option to use IIS Express instead of the Visual Studio Development S
 If this option is set, you will be warned if you try to run your web application when it does not compile  without errors.
 
 ## See Also  
-- [Options Dialog Box,  Projects and Solutions](../../ide/projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box,  Projects and Solutions](projects-and-solutions-options-dialog-box.md)
+- [Options Dialog Box,  Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-web-projects.md)

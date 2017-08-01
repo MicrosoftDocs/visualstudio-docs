@@ -1,7 +1,7 @@
 ---
 title: Python Environments in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 7/25/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/
 
 ## Selecting and installing Python interpreters
 
-Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio automatically detects newly installed interpreters and sets up an environment for them. If it does not, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter) below.
+Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio automatically detects newly installed interpreters and sets up an environment for each. If it does not detect an installed environment, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
 
 | Interpreter | Description | 
 | --- | --- | 
@@ -83,7 +83,7 @@ The example above shows that Python 3.4 (32-bit CPython) is installed along with
 
 ### Creating an environment for an existing interpreter
 
-Visual Studio normally locates an installed Python interpreter by checking the registry, but it but may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
+Visual Studio normally locates an installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)). However, Visual Studio may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
 1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
@@ -93,7 +93,15 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 1. Enter or browse to the path of the interpreter in the **Prefix path** field.
 1. Select **Auto Detect** to have Visual Studio complete the remaining fields, or complete them manually.
 1. Select **Apply** to save the environment.
-1. If you need to remove the environment, select the **Remove** command on the **Configure** tab.
+1. If you need to remove the environment, select the **Remove** command on the **Configure** tab. Auto-detected environments do not provide this option. See the next section for more information.
+
+### Moving an existing interpreter
+
+If you move an existing interpreter to a new location on the file system, Visual Studio doesn't automatically detect the change. Manual steps are necessary to update the list in the Environment window:
+
+- If you originally created an environment for that interpreter, edit that environment to point to the new location.
+
+- If the environment was originally auto-detected, it was installed on the computer with a distinct installer program that created the registry entries that Visual Studio examines. In this case, first restore the Python interpreter to its original location. Then uninstall it using the installer, which clears the registry entries. Then reinstall the interpreter at the desired location. Restart Visual Studio and it should auto-detect the new location. This process ensures that any other side effects of the installer are properly applied.
 
 ### Overview tab
 
