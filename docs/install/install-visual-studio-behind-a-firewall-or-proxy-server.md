@@ -39,6 +39,7 @@ If it's possible for your environment, consider adding the following domains wit
 | www.visualstudio.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
 | www.microsoft.com | Documentation location |
+| docs.microsoft.com | Documentation location |
 
 ## Non-Microsoft domains
 | Domain | Installs these workloads |
