@@ -84,13 +84,14 @@ Go to specific points in your application's execution when you start debugging f
   
 |**Section**|**Contains**|**Collection Source**|  
 |-----------------|------------------|---------------------------|  
-|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
+|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
 |[Exception Data](#ExceptionData)|Exceptions, including the full call stack for each exception|All sources|  
-|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager|  
+|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager|  
 |[System Info](#SystemInfo)|Settings and specifications of the host system|All sources|  
 |[Threads List](#ThreadsList)|Threads that ran during collection|All sources|  
 |[Test Data](#TestData)|Test steps and their results from a test session|Test Manager|  
-|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources|  
+|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources| 
+|[Web Request](#Modules)|Web request data for production IIS web applications and SharePoint 2010 and SharePoint 2013|Microsoft Monitoring Agent and the standalone collector| 
   
  Here's some tips to help you find information in each section:  
   

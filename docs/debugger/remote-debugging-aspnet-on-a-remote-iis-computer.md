@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "03/22/2017"
+ms.custom: "remotedebugging"
+ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,7 +42,7 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 |-|-|-|
 |[Azure App Service](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
 |[Azure VM](../debugger/remote-debugging-azure.md)|If you want more control of the IIS configuration, you can [install the IIS role on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role), download and run the RDP file, and open ports in the Network security group, as described in the [Azure VM tutorial](../debugger/remote-debugging-azure.md).|
-|[Windows Server](#bkmk_configureII)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
+|[Windows Server](#bkmk_configureIIS)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
