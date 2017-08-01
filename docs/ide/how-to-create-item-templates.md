@@ -52,7 +52,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 3.  Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
 
-4.  On the **File** menu, click **Export Template**.  
+4.  On the **Project** menu, click **Export Template**.  
 
 5.  Click **Item Template**, select the project that contains the item, and click **Next**.  
 
@@ -160,7 +160,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 2.  Modify the project item until it is ready to be saved as a template.  
 
-3.  As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see How to: Substitute Parameters in a Template.  
+3.  As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see [How to: Substitute Parameters in a Template.](../ide/how-to-substitute-parameters-in-a-template.md)
 
 4.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your new item template.  
 
