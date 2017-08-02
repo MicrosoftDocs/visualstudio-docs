@@ -50,7 +50,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
   ![update extension vsixmanifest](media/update-extension-vsixmanifest.png)
 
-2. Build your extension in release mode. Now your extension will be packaged as a VSIX in the \bin\Release folder.
+2. Build your extension in **Release** mode. Now your extension will be packaged as a VSIX in the \bin\Release folder.
 
 3. You can double click the VSIX to verify the installation.
 
