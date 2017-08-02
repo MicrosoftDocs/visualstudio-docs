@@ -33,15 +33,15 @@ translation.priority.mt:
 # Color value reference for Visual Studio
 This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes. 
 
-For implementation information about creating new color tokens, see [Color theming tools](../../extensibility/internals/color-theming-tools).
+For implementation information about creating new color tokens, see [Color theming tools](../../extensibility/internals/color-theming-tools.md).
 
-For color tokens to use with existing UI, see [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio).
+For color tokens to use with existing UI, see [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
 When using this reference guide, remember:
 
 -   **Always copy both foreground and background hues together.** Don't choose a foreground from one UI element and a background from another just because you like the hues.  
 
--   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio).
+-   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
 -   **For best results, pair color sets with UI similar to the example.**
 
@@ -582,7 +582,7 @@ When using this reference guide, remember:
 | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF1F1F20 swatch](../../extensibility/ux-guidelines/media/1F1F20.png "#FF1F1F20 swatch")<br />`#FF1F1F20` | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | Drop-down buttons: background on hover |
 | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![#FF1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "#FF1B1B1C swatch")<br />`#FF1B1B1C` | ![#FFEFEFEF swatch](../../extensibility/ux-guidelines/media/EFEFEF.png "#FFEFEFEF swatch")<br />`#FFEFEFEF` | Drop-down list and combo box drop-down menu background |
 | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#FF3F3F46 swatch")<br />`#FF3F3F46` | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | Drop-down list, combo box, and search control drop-down menu: background on hover and mouse down |
-| ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | Drop-down list, combo box, search control, menu and submenu glyphs on hover |
+| ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | Drop-down list, combo box, search control, menu, and submenu glyphs on hover |
 | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF717171` | ![#FF999999 swatch](../../extensibility/ux-guidelines/media/999999.png "#FF999999 swatch")<br />`#FF999999` | ![#FF1B293E swatch](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E swatch")<br />`#FF1B293E` | Drop-down list, menu, and split button: default glyphs |
 | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFE5C365 swatch](../../extensibility/ux-guidelines/media/E5C365.png "#FFE5C365 swatch")<br />`#FFE5C365` | Drop-down list: border on hover and mouse down |
 | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | Drop-down list: default background |
