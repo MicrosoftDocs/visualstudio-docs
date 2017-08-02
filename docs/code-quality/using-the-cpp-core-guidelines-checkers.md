@@ -13,40 +13,21 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # Using the C++ Core Guidelines checkers
-The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers.  Visual Studio now supports additional rules for the code analysis tools to check your code for compliance with the C++ Core Guidelines and to suggest improvements.  
+The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are available as a NuGet package for Visual Studio 2015. For more information, see [Use the C++ Core Check guidelines in Visual Studio 2015 projects](#vs2015_corecheck)
   
 ## The C++ Core Guidelines Project  
- Created by Bjarne Stroustrup and others, the C++ Core Guidelines are a guide to using modern C++ safely and effectively. The Guidelines emphasize static type safety and resource safety. They identify ways to eliminate or minimize the most error-prone parts of the language, and suggest how to  make your code simpler and more performant in a reliable way. These guidelines are maintained by the Standard C++ Foundation. To learn more, see the documentation, [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), and access the C++ Core Guidelines documentation project files on [GitHub](https://github.com/isocpp/CppCoreGuidelines).  
+ Created by Bjarne Stroustrup and others, the C++ Core Guidelines are a guide to using modern C++ safely and effectively. The Guidelines emphasize static type safety and resource safety. They identify ways to eliminate or minimize the most error-prone parts of the language, and suggest how to make your code simpler and more performant in a reliable way. These guidelines are maintained by the Standard C++ Foundation. To learn more, see the documentation, [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), and access the C++ Core Guidelines documentation project files on [GitHub](https://github.com/isocpp/CppCoreGuidelines).  
   
 ## Enable the C++ Core Check guidelines in Code Analysis  
  You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.  
   
  ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png "CPPCoreCheck_CodeAnalysis_General")  
   
- The C++ Core Check rules are extensions to the default rule sets that run when code analysis is enabled. Because the C++ Core Check rules are under development, some rules are well established, and some may not be ready for use on all code, but may be informative during development. The rules are divided into two groups, respectively: released and experimental. You can choose whether to run the released or experimental rules in the properties for your project.  
+ The C++ Core Check rules are extensions to the default rule sets that run when code analysis is enabled. Because the C++ Core Check rules are under development, some rules are well established, and some may not be ready for use on all code, but may still be informative. The rules are divided into two groups: released and experimental. You can choose whether to run the released or experimental rules in the properties for your project.  
   
  ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png "CPPCoreCheck_CodeAnalysis_Extensions")  
   
  To enable or disable the C++ Core Check rule sets, open the **Property Pages** dialog for your project. Under **Configuration Properties**, expand  **Code Analysis**, **Extensions**. In the dropdown control next to **Enable C++ Core Check (Released)** or **Enable C++ Core Check (Experimental)**,  choose **Yes** or **No**. Choose **OK** or **Apply** to save your changes.  
-  
-### Use the C++ Core Check guidelines in Visual Studio 2015 projects  
-  If you use Visual Studio 2015, the C++ Core Check code analysis rule sets are not installed by default. You must perform some additional steps before you can enable the C++ Core Check code analysis tools in Visual Studio 2015. Microsoft provides support for Visual Studio 2015 projects by using a Nuget package. The package is named Microsoft.CppCoreCheck, and it is available at [http://www.nuget.org/packages/Microsoft.CppCoreCheck](http://www.nuget.org/packages/Microsoft.CppCoreCheck). This package requires you have at least Visual Studio 2015 with Update 1 installed.  
-  
- The package also installs another package as a dependency, a header-only Guideline Support Library (GSL). The GSL is also available on GitHub at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).  
-
- Because of the way the code analysis rules are loaded, you must install the Microsoft.CppCoreCheck NuGet package into each C++ project that you want to check within Visual Studio 2015.  
-  
-#### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015  
-  
-1.  In **Solution Explorer**, right-click to open the context menu of your Project in the Solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.  
-  
-2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.  
-  
-     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.PNG "CPPCoreCheck_Nuget_Window")  
-  
-3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.  
-  
- The NuGet package adds an additional MSBuild .targets file to your project that is invoked when you enable code analysis on your project. This .targets file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.  
   
 ## Check Types, Bounds, and Lifetimes  
  The C++ Core Check package currently contains checkers for the [Type safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-type), [Bounds safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-bounds), and [Lifetime safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-lifetime) profiles.  
@@ -95,4 +76,24 @@ c:\users\username\documents\visual studio 2015\projects\corecheckexample\coreche
 The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn't be applied, it's easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
   
 ## Use the Guideline Support Library  
- Starting in Visual Studio 2017, Microsoft's implementation of the Guideline Support Library (GSL) is installed by default when you install a C++ workload. The GSL is also available in standalone form at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). This library is helpful if you want to follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is open source, so if you want to take a look at the library sources, comment, or contribute, the project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
+ The Guideline Support Library is designed to help you follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is available at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). The library is open source, so you can view the sources, make comments, or contribute. The project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
+
+ ## _a name="vs2015_corecheck"></a> Use the C++ Core Check guidelines in Visual Studio 2015 projects  
+  If you use Visual Studio 2015, the C++ Core Check code analysis rule sets are not installed by default. You must perform some additional steps before you can enable the C++ Core Check code analysis tools in Visual Studio 2015. Microsoft provides support for Visual Studio 2015 projects by using a Nuget package. The package is named Microsoft.CppCoreCheck, and it is available at [http://www.nuget.org/packages/Microsoft.CppCoreCheck](http://www.nuget.org/packages/Microsoft.CppCoreCheck). This package requires you have at least Visual Studio 2015 with Update 1 installed.  
+  
+ The package also installs another package as a dependency, a header-only Guideline Support Library (GSL). The GSL is also available on GitHub at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).  
+
+ Because of the way the code analysis rules are loaded, you must install the Microsoft.CppCoreCheck NuGet package into each C++ project that you want to check within Visual Studio 2015.  
+  
+#### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015  
+  
+1.  In **Solution Explorer**, right-click to open the context menu of your Project in the Solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.  
+  
+2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.  
+  
+     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.PNG "CPPCoreCheck_Nuget_Window")  
+  
+3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.  
+  
+ The NuGet package adds an additional MSBuild .targets file to your project that is invoked when you enable code analysis on your project. This .targets file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.  
+  
