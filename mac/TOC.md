@@ -52,7 +52,7 @@
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ## [Unity Game Development](unity-tools.md)
-### [Initial Setup](initial-setup-vsmac-tools-unity.md)
+### [Setup](setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
 
 # [Troubleshooting](troubleshooting.md)

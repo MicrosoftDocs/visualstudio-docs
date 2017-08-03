@@ -92,11 +92,11 @@ To start debugging:
 
   ![Click Play in Visual Studio](media/using-vsmac-tools-unity-image5.png)
 
-2.	Next, switch to Unity and click the **Play** button to run the game in the editor.
+2.	Switch to Unity and click the **Play** button to run the game in the editor.
 
   ![Click Play in Unity](media/using-vsmac-tools-unity-image6.png)
 
-3.	When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
+3.	When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio for Mac.
 
 ### Stop debugging
 
