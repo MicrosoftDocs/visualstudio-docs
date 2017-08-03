@@ -1,5 +1,5 @@
 ---
-title: ".NET Code Style Settings For EditorConfig | Microsoft Docs"
+title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-# .NET Code Convention Settings For EditorConfig
+# .NET Coding Convention Settings For EditorConfig
 .NET coding conventions are configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable/disable individual .NET coding conventions** and **configure the degree at which you want the convention enforced** (via a severity level). To learn more about how to use EditorConfig to enforce consistency on your codebase, read [this article](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
 There are three supported .NET coding convention categories:
