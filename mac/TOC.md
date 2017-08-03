@@ -25,10 +25,10 @@
 
 # [Source Editor](source-editor.md)
 ## [Refactoring](refactoring.md)
-## [Comments](comments.md) 
-## [Editor Behavior](editor-behavior.md) 
+## [Comments](comments.md)
+## [Editor Behavior](editor-behavior.md)
 ## [Task Comments](task-comments.md)
-## [Snippets](snippets.md) 
+## [Snippets](snippets.md)
 ## [Block Selection](block-selection.md)
 ## [Editor Themes](editor-themes.md)
 ## [Common Keyboard Shortcuts](keyboard-shortcuts.md)
@@ -39,12 +39,12 @@
 # [Compiling and Building](compiling-and-building.md)
 ## [Building and Cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md)
 ## [Build Actions](build-actions.md)
-## [Customizing the Build System](customizing-build-system.md) 
-## [Configurations](configurations.md) 
+## [Customizing the Build System](customizing-build-system.md)
+## [Configurations](configurations.md)
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
 # [Version Control](version-control.md)
-## [Setting Up a Git Repository](set-up-git-repository.md) 
+## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
 ## [Working with Subversion](working-with-subversion.md)
@@ -54,8 +54,6 @@
 ## [Unity Game Development](unity-tools.md)
 ### [Initial Setup](initial-setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
-### [Tips](tips-unitydevs-getting-started-vsmac.md)
 
 # [Troubleshooting](troubleshooting.md)
 ## [Report a Problem](report-a-problem.md)
- 
