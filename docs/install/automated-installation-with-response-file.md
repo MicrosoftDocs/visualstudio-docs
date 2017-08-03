@@ -31,13 +31,13 @@ Parameters that are specified on the command-line override settings from the res
 
 # Setting a default configuration for Visual Studio
 
-If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout.
+If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout. If you create a partial layout, this response file includes the workloads and languages that were included in the layout.  Running setup from this layout automatically uses this response.json file, which selects the workloads and components included in the layout.  Users can still select or unselect any workloads in the setup UI before installing Visual Studio. 
 
 Administrators who create a layout can modify the `response.json` file in the layout to control the default settings that their users see when they install Visual Studio from the layout.  For example, if an administrator wants specific workloads and components installed by default, they can configure the `response.json` file to add them.
 
 When Visual Studio setup is run from a layout folder, it _automatically_ uses the response file in the layout folder.  You don't have to use the `--in` option.
 
-You can update the `response.json` file that is created in an offline layout folder to define default setting for users who install from this layout.
+You can update the `response.json` file that is created in an offline layout folder to define the default setting for users who install from this layout.
 
 > [!WARNING]
 > It's critical that you leave the existing properties that were defined when the layout was created.
@@ -53,6 +53,7 @@ The base `response.json` file in a layout should look similar to the following e
   "productId": "Microsoft.VisualStudio.Product.Enterprise"
 }
 ```
+When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated. 
 
 ## Example layout response file content
 The following example installs Visual Studio Enterprise with six common workloads and components, and with both English and French UI languages. You can use this example as a template; just change the workloads and components to those that you want to install:
