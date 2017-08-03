@@ -39,7 +39,7 @@ Documentation can be found on [azure-sdk-for-python.readthedocs.org](http://azur
 
 The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials such as:
 
-  - Creating web apps with [Django](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions) [Flask](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
+  - Creating web apps with [Django](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-django-app) [Flask](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
   - [Blob storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-blob-storage)
   - [Table storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-table-storage)
   - [Queue storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-queue-storage)
