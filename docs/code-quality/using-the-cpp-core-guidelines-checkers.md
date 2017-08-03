@@ -139,7 +139,9 @@ It can be used to suppress warnings on expression and block statements inside of
  Instead of #pragmas, you can use command line options in the file's property page to suppress warnings for a project or a single file. For example, to disable the warning 26400 for a file:
  
  1) Right-click the file in **Solution Explorer**
+
  2) Choose **Properties|C/C++|Command Line**
+
  3) In the **Additional Options** window, add `/wd26400`.
 
  You can use the command line option to temporarily disable all code analysis for a file by specifying `/analyze-`. This will produce warning *D9025 overriding '/analyze' with '/analyze-'*, which will remind you to re-enable code analysis later.
@@ -153,7 +155,7 @@ Sometimes it may be useful to do focused code analysis and still leverage the Vi
 5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
 6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
 7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
-8.	Rebuild the project. It should the common PREFast checks on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
+8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
 
 ## How to use the C++ Core Guidelines Checker outside of Visual Studio
 You can use the C++ Core Guidelines checks in automated builds.
