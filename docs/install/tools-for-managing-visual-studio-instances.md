@@ -1,7 +1,7 @@
 ---
 title: "Tools for detecting and managing Visual Studio instances | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
-ms.date: "04/14/2017"
+ms.date: "08/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -15,22 +15,8 @@ ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: "timsneath"
 ms.author: "tims"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
+
 # Tools for detecting and managing Visual Studio instances
 
 ## Detecting existing Visual Studio instances
@@ -72,4 +58,4 @@ As these entries are not stored in the global registry, there are special instru
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 
 > [!IMPORTANT]
-> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then the file will remain locked and Visual Studio will not be able to start.)
+> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then the file remains locked and Visual Studio will not be able to start.)
