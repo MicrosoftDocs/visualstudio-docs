@@ -12,8 +12,8 @@ In this section, you'll learn how to use Visual Studio for Mac Tools for Unity's
 
 ## Opening Unity scripts in Visual Studio for Mac
 
-Once Visual Studio for Mac has been set as the external script editor for Unity, opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac with the chosen script open.
-g
+Once Visual Studio for Mac has been [set as the external script editor for Unity](/visualstudio/mac/setup-vsmac-tools-unity#configure-unity-for-use-with-visual-studio-for-mac), opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac with the chosen script open.
+
 Alternatively, Visual Studio for Mac can be opened with no script open in the source editor by selecting **Open C# Project** from the **Assets** menu in Unity.
 
 ![Open C# project](media/using-vsmac-tools-unity-image1.png)
@@ -76,8 +76,7 @@ These additions will be reflected in the Project window of the Unity editor.
 ### To rename a file or folder
 **Right click** on the item to rename in the Solution pad and select **Rename...**.
 
-> **Note**
-
+> [!NOTE]]
 >If you have a new Unity project with no scripts and the Assets folder does not show up in the Solution pad in Visual Studio for Mac, add an initial C# script from within the Unity editor.
 
 ## Unity debugging
@@ -105,7 +104,5 @@ To stop debugging:
 1.	Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command + Return**.
 
   ![Click Stop in Visual Studio](media/using-vsmac-tools-unity-image7.png)
-
-### Learn more about debugging in Visual Studio for Mac
 
 To learn more about debugging in Visual Studio for Mac, see [Using the debugger](https://docs.microsoft.com/en-us/visualstudio/mac/debugging).
