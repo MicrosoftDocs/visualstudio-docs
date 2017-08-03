@@ -32,7 +32,7 @@ translation.priority.mt:
 ---
 # Walkthrough: Publishing a Visual Studio Extension
 
-This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Gallery. When you add your extension to the Gallery, developers can use **Extensions and Updates** to browse there for new and updated extensions.
+This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace. When you add your extension to the Marketplace, developers can use **Extensions and Updates** to browse there for new and updated extensions.
 
 ## Prerequisites
 
@@ -64,9 +64,9 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 3. On the **Tools** menu, make sure you see the test command.
 
-## Publish the Extension to the Visual Studio Gallery
+## Publish the Extension to the Visual Studio Marketplace
 
- Now you can publish the extension to the Visual Studio Gallery.
+ As of now, you will still need to use the Visual Studio Gallery to upload your extensions to the Visual Studio Marketplace.
 
 1. Make sure that you have built the Release version of your extension and that it is up-to-date.
 
@@ -92,25 +92,25 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 11. Click **Publish**.
 
-12. Search the Visual Studio Gallery for your extension. The listing for the TestPublish extension should appear.
+12. Search the Visual Studio Marketplace for your extension. The listing for the TestPublish extension may take some time before it appears.
 
-## Install the Extension from the Visual Studio Gallery
+## Install the Extension from the Visual Studio Marketplace
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
 1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates...**.
 
-2. Click **Online** and then search for TestPublish. The listing for the TestPublish extension should appear.
+2. Click **Online** and then search for TestPublish. The listing for the TestPublish extension may take some time to appear.
 
-3. Click **Download**. After the extension is downloaded, click **Install**.
+3. Click **Download**. The extension will then be scheduled for install.
 
-4. To complete the installation, restart Visual Studio.
+4. To complete the installation, close all instances of Visual Studio.
 
 ## Removing the Extension
 
-You can remove the extension from the Visual Studio Gallery and from your computer.
+You can remove the extension from the Visual Studio Marketplace and from your computer.
 
-### To remove the extension from the Visual Studio Gallery
+### To remove the extension from the Visual Studio Marketplace
 
 1. Open the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=194329) website.
 
@@ -122,6 +122,6 @@ You can remove the extension from the Visual Studio Gallery and from your comput
 
 1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
 
-2. Select TestPublish and then click **Uninstall**.
+2. Select TestPublish and then click **Uninstall**. The extension will then be scheduled for uninstall.
 
-3. To complete the uninstallation, restart Visual Studio.
+3. To complete the uninstallation, close all instances of Visual Studio.
