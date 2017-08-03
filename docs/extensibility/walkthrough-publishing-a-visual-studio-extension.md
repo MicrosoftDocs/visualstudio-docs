@@ -42,7 +42,7 @@ This walkthrough shows you how to publish a Visual Studio extension to the Visua
 
 In this case we will use a default VSPackage extension, but the same steps are valid for every kind of extension.
 
-1. Create a VSPackage in C# that has a menu command. For more information, see [Creating your First Extension: Hello World](../extensibility/extensibility-hello-world.md).
+1. Create a VSPackage in C# named "TestPublish" that has a menu command. For more information, see [Creating your First Extension: Hello World](../extensibility/extensibility-hello-world.md).
 
 ## Package your Extension
 
@@ -60,7 +60,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 1. In Visual Studio, start debugging. to open an experimental instance of Visual Studio.
 
-2. In the experimental instance, go to the **Tools** menu and click **Extensions and Updates...**. The TestPublishing extension should appear in the center pane and be enabled.
+2. In the experimental instance, go to the **Tools** menu and click **Extensions and Updates...**. The TestPublish extension should appear in the center pane and be enabled.
 
 3. On the **Tools** menu, make sure you see the test command.
 
