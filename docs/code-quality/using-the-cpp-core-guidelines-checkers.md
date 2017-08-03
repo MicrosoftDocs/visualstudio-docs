@@ -13,7 +13,7 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # Using the C++ Core Guidelines checkers
-The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are available as a NuGet package for Visual Studio 2015. For more information, see [Use the C++ Core Check guidelines in Visual Studio 2015 projects](#vs2015_corecheck)
+The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).
   
 ## The C++ Core Guidelines Project  
  Created by Bjarne Stroustrup and others, the C++ Core Guidelines are a guide to using modern C++ safely and effectively. The Guidelines emphasize static type safety and resource safety. They identify ways to eliminate or minimize the most error-prone parts of the language, and suggest how to make your code simpler and more performant in a reliable way. These guidelines are maintained by the Standard C++ Foundation. To learn more, see the documentation, [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), and access the C++ Core Guidelines documentation project files on [GitHub](https://github.com/isocpp/CppCoreGuidelines).  
@@ -29,10 +29,8 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
   
  To enable or disable the C++ Core Check rule sets, open the **Property Pages** dialog for your project. Under **Configuration Properties**, expand  **Code Analysis**, **Extensions**. In the dropdown control next to **Enable C++ Core Check (Released)** or **Enable C++ Core Check (Experimental)**,  choose **Yes** or **No**. Choose **OK** or **Apply** to save your changes.  
   
-## Check Types, Bounds, and Lifetimes  
- The C++ Core Check package currently contains checkers for the [Type safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-type), [Bounds safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-bounds), and [Lifetime safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-lifetime) profiles.  
-  
- Here's an example of the kind of issues that the C++ Core Check rules can find:  
+## Examples  
+ Here's an example of some of the issues that the C++ Core Check rules can find:  
   
 ```cpp  
 // CoreCheckExample.cpp  
@@ -74,11 +72,144 @@ c:\users\username\documents\visual studio 2015\projects\corecheckexample\coreche
 ```  
   
 The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn't be applied, it's easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
-  
+
+## Supported rule sets
+As new rules are added to the C++ Core Guidelines Checker, the number of warnings that are produced for pre-existing code may increase. You can use predefined rule sets to filter which kinds of rules to enable. As of Visual Studio 2017 version 15.3, the supported rule sets are: 
+  - **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+
+  - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
+
+  - **Raw Pointer Rules** enforce [resource-management checks related to raw pointers from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+
+  - **Unique Pointer Rules** enforce [resource-management checks related to types with unique pointer semantics from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+
+  - **Bounds Rules** enforce the [Bounds profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile).
+
+  - **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
+
+
+ You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
+
+## Macros
+ The C++ Core Guidelines Checker comes with a header file which defines macros that make it easier to suppress entire categories of warnings in code:
+
+```cpp
+ALL_CPPCORECHECK_WARNINGS
+CPPCORECHECK_TYPE_WARNINGS
+CPPCORECHECK_RAW_POINTER_WARNINGS
+CPPCORECHECK_CONST_WARNINGS
+CPPCORECHECK_OWNER_POINTER_WARNINGS
+CPPCORECHECK_UNIQUE_POINTER_WARNINGS
+CPPCORECHECK_BOUNDS_WARNINGS
+```
+
+These macros correspond to the rule sets and expand into a space-separated lists of warning numbers. By using the appropriate pragma constructs you can configure the effective set of rules which is interesting for a project or a section of code. In the following example, code analysis will only warn about missing constant modifiers:
+
+```cpp
+#include <CppCoreCheck\Warnings.h>
+#pragma warning(disable: ALL_CPPCORECHECK_WARNINGS)
+#pragma warning(default: CPPCORECHECK_CONST_WARNINGS)
+```
+
+## Attributes
+ The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute.
+It can be used to suppress warnings on expression and block statements inside of a function.
+
+```cpp
+// Supress only warnings from the 'r.11' rule in expression.
+[[gsl::suppress(r.11)]] new int;
+
+// Supress all warnings from the 'r' rule group (resource management) in block.
+[[gsl::suppress(r)]]
+{ 
+    new int; 
+}
+
+// Suppress only one specific warning number.
+// For declarations, you may need to use the surrounding block.
+// Macros are not expanded inside of attributes.
+// Use plain numbers instead of macros from the warnings.h.
+[[gsl::suppress(26400)]]
+{
+    int *p = new int;
+}
+```  
+
+## Suppressing analysis by using command line options
+ Instead of #pragmas, you can use command line options in the file's property page to suppress warnings for a project or a single file. For example, to disable the warning 26400 for a file:
+ 
+ 1) Right-click the file in **Solution Explorer**
+ 2) Choose **Properties|C/C++|Command Line**
+ 3) In the **Additional Options** window, add `/wd26400`.
+
+ You can use the command line option to temporarily disable all code analysis for a file by specifying `/analyze-`. This will produce warning *D9025 overriding '/analyze' with '/analyze-'*, which will remind you to re-enable code analysis later.
+
+ ## <a name="corecheck_per_file"></a> Enabling the C++ Core Guidelines Checker on specific project files
+Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
+1.	In the command shell set the ``esp.extension` and `esp.annotationbuildlevel` environment variables.
+2.	Start Visual Studio from the command shell to inherit these variables.
+3.	Load your project and open its properties.
+4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
+5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
+6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
+7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
+8.	Rebuild the project. It should the common PREFast checks on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
+
+## How to use the C++ Core Guidelines Checker outside of Visual Studio
+You can use the C++ Core Guidelines checks in automated builds.
+
+### MSBuild
+ The Native Code Analysis checker (PREfast) is integrated into MSBuild environment by custom targets files. You can use project properties to enable it, and add the C++ Core Guidelines Checker (which is based on PREfast):
+
+ ```xaml
+  <PropertyGroup>
+    <EnableCppCoreCheck>true</EnableCppCoreCheck>
+    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>¬¬
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+```
+Make sure you add these properties before the import of the Microsoft.Cpp.targets file. You can pick specific rule sets or create a custom rule set or use the default rule set that includes other PREfast checks.
+
+You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#coreckeck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
+
+```xaml
+<ItemGroup>
+    <BuildMacro Include="Esp_AnnotationBuildLevel">
+      <EnvironmentVariable>true</EnvironmentVariable>
+      <Value>Ignore</Value>
+    </BuildMacro>
+    <BuildMacro Include="Esp_Extensions">
+      <EnvironmentVariable>true</EnvironmentVariable>
+      <ValueCppCoreCheck.dll</Value>
+    </BuildMacro>
+</ItemGroup>
+```
+
+If you don’t want to modify the project file, you can pass properties on the command line:
+
+```cmd
+msbuild /p:EnableCppCoreCheck=true /p:RunCodeAnalysis=true /p:CodeAnalysisRuleSet=CppCoreCheckRules.ruleset ...
+```
+
+### Non-MSBuild projects
+If you use a build system that doesn’t rely on MSBuild you can still run the checker, but you’ll need to get familiar with some internals of the Code Analysis engine configuration (which is not guaranteed to be supported in the future).
+
+You will need to set a few environment variables and use proper command line options for the compiler. It is better to work under the “Native Tools Command Prompt” environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
+
+1.	**Environment variables**
+  - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
+  - `set esp.annotationbuildlevel=ignore` This disables logic which processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a lot of time). This setting is optional, but highly recommended.
+  - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
+2.	**Command line options**
+  - `/analyze` 	Enables code analysis (consider also using /analyze:only and /analyze:quiet).
+  - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
+
+
+
 ## Use the Guideline Support Library  
  The Guideline Support Library is designed to help you follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is available at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). The library is open source, so you can view the sources, make comments, or contribute. The project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
 
- ## _a name="vs2015_corecheck"></a> Use the C++ Core Check guidelines in Visual Studio 2015 projects  
+ ## <a name="vs2015_corecheck"></a> Use the C++ Core Check guidelines in Visual Studio 2015 projects  
   If you use Visual Studio 2015, the C++ Core Check code analysis rule sets are not installed by default. You must perform some additional steps before you can enable the C++ Core Check code analysis tools in Visual Studio 2015. Microsoft provides support for Visual Studio 2015 projects by using a Nuget package. The package is named Microsoft.CppCoreCheck, and it is available at [http://www.nuget.org/packages/Microsoft.CppCoreCheck](http://www.nuget.org/packages/Microsoft.CppCoreCheck). This package requires you have at least Visual Studio 2015 with Update 1 installed.  
   
  The package also installs another package as a dependency, a header-only Guideline Support Library (GSL). The GSL is also available on GitHub at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).  
