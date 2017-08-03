@@ -48,7 +48,7 @@ If you want direct control over where Visual Studio looks for updates, you can m
 
 When an enterprise administrator determines it is time for their users to update to a newer version of Visual Studio, they can [update the layout location](update-a-network-installation-of-visual-studio.md) to incorporate the updated files, as follows.
 
- 1. Use a command that is similar to the following:
+ 1. Use a command that is similar to the following command:
     ```
     vs_enterprise.exe --layout \\server\share\VS2017 --lang en-US
     ```
@@ -70,7 +70,7 @@ You can disable the notifications if you don't want end-users to be notified of 
 Because Visual Studio 2017 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
 
 ```cmd
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2 dword 0
+vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0 
 ```
 (Make sure to replace the directory to match the installed instance that you want to edit.)
 
