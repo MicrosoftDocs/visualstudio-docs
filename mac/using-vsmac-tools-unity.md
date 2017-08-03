@@ -76,8 +76,8 @@ These additions will be reflected in the Project window of the Unity editor.
 ### To rename a file or folder
 **Right click** on the item to rename in the Solution pad and select **Rename...**.
 
-> [!NOTE]]
->If you have a new Unity project with no scripts and the Assets folder does not show up in the Solution pad in Visual Studio for Mac, add an initial C# script from within the Unity editor.
+> [!NOTE]
+> If you have a new Unity project with no scripts and the Assets folder does not show up in the Solution pad in Visual Studio for Mac, add an initial C# script from within the Unity editor.
 
 ## Unity debugging
 
