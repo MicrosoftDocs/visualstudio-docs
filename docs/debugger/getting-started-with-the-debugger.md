@@ -37,7 +37,10 @@ This topic introduces the features of the Visual Studio debugger in a step-by-st
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the steps yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
-You can also [watch a video on debugging](#video) that shows similar steps.
+|         |         |
+|---------|---------|
+
+|![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video on debugging](#video) that shows similar steps.|
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
