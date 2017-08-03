@@ -44,8 +44,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 |         |         |
 |---------|---------|
-
-|![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video on using the diagnostics tools](#video) that shows how to analyze CPU usage and how to analyze memory usage.|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
 
 In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Run profiling tools without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   

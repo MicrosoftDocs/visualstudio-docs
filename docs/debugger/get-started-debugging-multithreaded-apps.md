@@ -41,8 +41,7 @@ Visual Studio provides several tools and user interface elements to help you deb
 
 |         |         |
 |---------|---------|
-
-|![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video on multithreaded debugging](#video) that shows similar steps.|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on multithreaded debugging that shows similar steps. |
 
 Other topics provide additional information on using other multithreaded debugging tools:
 

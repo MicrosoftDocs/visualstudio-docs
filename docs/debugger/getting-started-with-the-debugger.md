@@ -39,8 +39,7 @@ You can either read along to see the features of the debugger or you can downloa
 
 |         |         |
 |---------|---------|
-
-|![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video on debugging](#video) that shows similar steps.|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on debugging that shows similar steps. |
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
