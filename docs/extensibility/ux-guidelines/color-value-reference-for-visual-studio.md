@@ -43,11 +43,16 @@ When using this reference guide, remember:
 
 -   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
+- **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
+
 -   **For best results, pair color sets with UI similar to the example.**
 
 ## Properties window
 
 ![Properties window in Light (left), Dark (center), and Blue (right) themes](../../extensibility/ux-guidelines/media/properties-window-light-dark-blue.png "Properties window in Light, Dark, and Blue themes")<br />Properties window in the Light, Dark, and Blue themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
 
 ### Divider lines
 
@@ -175,6 +180,9 @@ When using this reference guide, remember:
 
 ![Properties grid in Light (left), Dark (center), and Blue (right) themes](../../extensibility/ux-guidelines/media/properties-grid-light-dark-blue.png "Properties grid in the Light theme")<br />Properties grid in Light, Dark, and Blue themes
 
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
+
 ### Content
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
@@ -201,6 +209,9 @@ When using this reference guide, remember:
 > [!NOTE] 
 > CodeLens UI colors are the same for Light, Dark, and Blue themes.
 
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
+
 ### Body
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
@@ -222,6 +233,9 @@ When using this reference guide, remember:
 ## Grid control
 
 ![Grid control in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/grid-control-light-dark-blue.png "Grid control in Light, Dark, and Blue themes")<br />Grid control in Light (top), Dark (center), and Blue (bottom) themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Body
 
@@ -248,6 +262,9 @@ When using this reference guide, remember:
 ## Manifest Designer
 
 ![Manifest Designer in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/manifest-designer-light-dark-blue.png "Manifest Designer in Light, Dark, and Blue themes")<br />Manifest Designer in Light (top), Dark (center), and Blue (bottom) themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Body
 
@@ -290,6 +307,9 @@ When using this reference guide, remember:
 
 ![TFS tagging in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/tagging-light-dark-blue.png "TFS tagging in Light, Dark, and Blue theme")<br />TFS tagging in Light (top), Dark (center), and Blue (bottom) themes
 
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
+
 ### Tags
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
@@ -326,6 +346,9 @@ When using this reference guide, remember:
 | Border (press and hover) | ![#FF0E6198 swatch](../../extensibility/ux-guidelines/media/0E6198.png "#FF0E6198 swatch")<br />`#FF0E6198` | ![#FF0E6198 swatch](../../extensibility/ux-guidelines/media/0E6198.png "#FF0E6198 swatch")<br />`#FF0E6198` | ![#FF0E6198 swatch](../../extensibility/ux-guidelines/media/0E6198.png "#FF0E6198 swatch")<br />`#FF0E6198` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Button controls
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Default
 
@@ -373,6 +396,9 @@ When using this reference guide, remember:
 | Border | ![#3399FF swatch](../../extensibility/ux-guidelines/media/3399FF.png "#3399FF swatch")<br />`#3399FF` | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#3399FF swatch](../../extensibility/ux-guidelines/media/3399FF.png "#3399FF swatch")<br />`#3399FF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Check box controls
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Default
 
@@ -425,6 +451,9 @@ When using this reference guide, remember:
 | Glyph | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#424242 swatch](../../extensibility/ux-guidelines/media/424242.png "#424242 swatch")<br />`#424242` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Drop-down/combo box controls
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Initial appearance
 
