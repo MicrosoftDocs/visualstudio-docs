@@ -65,7 +65,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
     -   `Publisher` - This attribute identifies the publisher of this package, either a company or individual name. The `Publisher` attribute is limited to 100 characters.  
   
--   `<DisplayName>` - This element specifies the user-friendly package name that is displayed in the Extension Manager UI. The `DisplayName` content is limited to 100 characters.  
+-   `<DisplayName>` - This element specifies the user-friendly package name that is displayed in the Extension Manager UI. The `DisplayName` content is limited to 50 characters.  
   
 -   `<Description>` - This optional element is a short description of the package and its contents that is displayed in Extension Manager UI. The `Description` content can contain any text that you want, but it's limited to 1000 characters.  
   
