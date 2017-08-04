@@ -35,7 +35,7 @@ translation.priority.mt:
 ---
 
 # Visual Studio 2017 workload and component IDs
-The following pages list the workload and component IDs you'll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
+Click on the edition names below to see the available workload and component IDs you'll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
