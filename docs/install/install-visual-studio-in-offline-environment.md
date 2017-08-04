@@ -18,7 +18,7 @@ manager: "ghogen"
 ---
 # Special considerations for installing Visual Studio in an offline environment
 
-Visual Studio is primarily designed for installation from an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
+Visual Studio is primarily designed to be installed on an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 
 ## Install certificates needed for Visual Studio offline installation
 The Visual Studio setup engine installs only content that is trusted. It does this by checking Authenticode signatures of the content being downloaded and verifying that all content is trusted before installing it. This keeps your environment safe from attacks where the download location is compromised. Visual Studio setup therefore requires that several standard Microsoft root and intermediate certificates are installed and up-to- date on a user's machine. If the machine has been kept updated with Windows Update, signing certificates are automatically updated, and during installation Visual Studio refreshes certificates as necessary to verify file signatures.
@@ -50,17 +50,17 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 ### What are the certificates files in the `certificates` folder?
 The three `.p12` files in this folder each contain an intermediate certificate and a root certificate. Most systems that are current with Windows Update have these certificates already installed.
 
-1. `ManifestSignCertificates.p12` contains:
+* `ManifestSignCertificates.p12` contains:
     * Intermediate certificate: **Microsoft Code Signing PCA 2011**
         * Not required. Improves performance in some scenarios if present.
     * Root certificate: **Microsoft Root Certificate Authority 2011**
         * Required on Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
-2. `ManifestCounterSignCertificates.p12`
+* `ManifestCounterSignCertificates.p12`
     * Intermediate certificate: **Microsoft Time-Stamp PCA 2010**
         * Not required. Improves performance in some scenarios if present.
     * Root certificate: **Microsoft Root Certificate Authority 2010**
         * Required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
-3. `vs_installer_opc.SignCertificates.p12`
+* `vs_installer_opc.SignCertificates.p12`
     * Intermediate certificate: **Microsoft Code Signing PCA**
         * Required for all systems. Note that systems with all updates applied from Windows Update might not have this certificate.
     * Root certificate: **Microsoft Root Certificate Authority**
@@ -71,20 +71,22 @@ When a signature is verified in an online environment, Windows APIs are used to 
 
 ### Checking if certificates are already installed
 One way to check on the installing system is to follow these steps:
-* Run mmc.exe
-* Click File, and then select **Add/Remove Snap-in**.
-  * Double-click **Certificates**, select **Computer account**, and then click **Next**.
-  * Select **Local computer**, click **Finish**, and then click **OK**.
-  * Expand **Certificates (Local Computer)**.
-  * Expand **Trusted Root Certification Authorities**, and then select **Certificates**.
-    * Check this list for the necessary root certificates.
-  * Expand **Intermediate Certification Authorities**, and then select **Certificates**.
-    * Check this list for the required intermediate certificates.
-* Click File and select **Add/Remove Snap-in**.
-  * Double-click **Certificates**, select **My user account**, click **Finish**, and then click **OK**.
-  * Expand **Certificates – Current User**.
-  * Expand **Intermediate Certification Authorities**, and then select **Certificates**
-    * Check this list for the required intermediate certificates.
+1. Run `mmc.exe`.<br/>
+  a. Click File, and then select **Add/Remove Snap-in**.<br/>
+  b. Double-click **Certificates**, select **Computer account**, and then click **Next**.<br/>
+  c. Select **Local computer**, click **Finish**, and then click **OK**.<br/>
+  d. Expand **Certificates (Local Computer)**.<br/>
+  e. Expand **Trusted Root Certification Authorities**, and then select **Certificates**.<br/>
+    * Check this list for the necessary root certificates.<br/>
+  
+   f. Expand **Intermediate Certification Authorities**, and then select **Certificates**.<br/>
+    * Check this list for the required intermediate certificates.<br/>
+
+2. Click File and select **Add/Remove Snap-in**.<br/>
+  a. Double-click **Certificates**, select **My user account**, click **Finish**, and then click **OK**.<br/>
+  b. Expand **Certificates – Current User**.<br/>
+  c. Expand **Intermediate Certification Authorities**, and then select **Certificates**.<br/>
+    * Check this list for the required intermediate certificates.<br/>
 
 If the certificates names were not in the **Issued To** columns, they must be installed.  If an intermediate certificate was only in the **Current User** Intermediate Certificate store, then it is only available to the user that is logged in and you might need to install it for other users.
 
