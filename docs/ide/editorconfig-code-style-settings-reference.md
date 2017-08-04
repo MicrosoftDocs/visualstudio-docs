@@ -468,7 +468,7 @@ csharp_style_expression_bodied_accessors = false:none
 ### <a name="pattern_matching_is_cast">"is" with "cast" checking (IDE0020)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_pattern_matching_over_is_with_cast_check` | C# 7.0+ | true | Visual Studio 2017 RTW |
+|`csharp_style_pattern_matching_over_is_with_cast_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 
 
 | Value | Description | Applied 
@@ -486,7 +486,7 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 ### <a name="pattern_matching_as_null">"as" with "null" checking (IDE0019)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_pattern_matching_over_as_with_null_check` | C# 7.0+ | true | Visual Studio 2017 RTW |
+|`csharp_style_pattern_matching_over_as_with_null_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 
 
 | Value | Description | Applied 
@@ -504,7 +504,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 ### <a name="inlined_variable_declarations">Inlined variable declarations (IDE0018)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_inlined_variable_declaration` | C# 7.0+ | true | Visual Studio 2017 v. 15.3 |
+|`csharp_style_inlined_variable_declaration` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 
 
 | Value | Description | Applied 
@@ -522,7 +522,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ### <a name="expression_level_default">Simplify `default` expressions (IDE0034) </a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_prefer_simple_default_expression` | C# 7.1+ | true | Visual Studio 2017 v. 15.3 |
+|`csharp_prefer_simple_default_expression` | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
 
 
 | Value | Description | Applied 
@@ -541,7 +541,7 @@ csharp_prefer_simple_default_expression = true:suggestion
 ### <a name="null_checking_throw_expressions">Throw-expressions (IDE0016)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_throw_expression`  | C# 7.0+ | true | Visual Studio 2017 v. 15.3 |
+|`csharp_style_throw_expression`  | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 
 
 | Value | Description | Applied 
@@ -559,7 +559,7 @@ csharp_style_throw_expression = true:suggestion
 ### <a name="null_checking_conditional_delegate_calls">Prefer conditional delegate calls (IDE0041)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_conditional_delegate_call`  | C# 6.0+ | true | Visual Studio 2017  |
+|`csharp_style_conditional_delegate_call`  | C# 6.0+ | true:suggestion | Visual Studio 2017 RTW |
 
 
 | Value | Description | Applied 
@@ -1012,7 +1012,7 @@ csharp_indent_switch_labels = true
 ### <a name="label">Label Positioning</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_indent_labels`  |  C#  | true | Visual Studio 2017 v. 15.3  |
+|`csharp_indent_labels`  |  C#  | one_less | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 
@@ -1057,7 +1057,7 @@ csharp_indent_labels = one_less
 ### <a name="space_after_cast"> Space After Cast </a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| `csharp_space_after_cast` |  C#  | true | Visual Studio 2017 v. 15.3  |
+| `csharp_space_after_cast` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description | Applied |
@@ -1093,7 +1093,7 @@ csharp_space_after_keywords_in_control_flow_statements = true
 ### <a name="space_parameter_list"> Space Between Method Declaration Argument-List Parentheses </a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| `csharp_space_between_method_declaration_parameter_list_parentheses` |  C#  | true | Visual Studio 2017 v. 15.3  |
+| `csharp_space_between_method_declaration_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description | Applied |
@@ -1111,7 +1111,7 @@ csharp_space_between_method_declaration_parameter_list_parentheses = true
 ### <a name="space_method_call"> Space Within Parentheses for Method Call Argument List</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|  `csharp_space_between_method_call_parameter_list_parentheses` |  C#  | true | Visual Studio 2017 v. 15.3  |
+|  `csharp_space_between_method_call_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description | Applied |
@@ -1129,7 +1129,7 @@ csharp_space_between_method_call_parameter_list_parentheses = control_flow_state
 ### <a name="space_other"> Space Within Parentheses for Other Options </a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|  `csharp_space_between_parentheses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
+|  `csharp_space_between_parentheses`  |  C#  | false | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description | Applied |
