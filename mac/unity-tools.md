@@ -55,7 +55,7 @@ Give your eyes a rest with the included [dark theme](/visualstudio/mac/customizi
 
 ## Tips for Unity developers getting started with Visual Studio for Mac
 
-Below are some sections that explain useful features of particular interest to Unity developers just starting with Visual Studio for Mac:
+These links explain useful features for Unity developers just starting with Visual Studio for Mac:
 
 * [Customizing the IDE](/visualstudio/mac/customizing-the-ide) – Learn how to [change the visual theme](/visualstudio/mac/customizing-the-ide#dark-theme) or switch to a more familiar [key binding](/visualstudio/mac/customizing-the-ide#key-bindings) scheme.
 * [Source Editor](/visualstudio/mac/source-editor) – Learn how Visual Studio for Mac can make writing better code faster and easier, including common [keyboard shortcuts](/visualstudio/mac/keyboard-shortcuts).

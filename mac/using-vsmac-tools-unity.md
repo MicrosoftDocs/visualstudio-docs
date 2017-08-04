@@ -12,7 +12,7 @@ In this section, you'll learn how to use Visual Studio for Mac Tools for Unity's
 
 ## Opening Unity scripts in Visual Studio for Mac
 
-Once Visual Studio for Mac has been [set as the external script editor for Unity](/visualstudio/mac/setup-vsmac-tools-unity#configure-unity-for-use-with-visual-studio-for-mac), opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac with the chosen script open.
+Once Visual Studio for Mac is [set as the external script editor for Unity](/visualstudio/mac/setup-vsmac-tools-unity#configure-unity-for-use-with-visual-studio-for-mac), opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac, with the chosen script open.
 
 Alternatively, Visual Studio for Mac can be opened with no script open in the source editor by selecting **Open C# Project** from the **Assets** menu in Unity.
 
@@ -20,7 +20,7 @@ Alternatively, Visual Studio for Mac can be opened with no script open in the so
 
 ## Unity documentation access
 
-Visual Studio for Mac Tools for Unity includes a shortcut for accessing the Unity API documentation. To access Unity API documentation from Visual Studio for Mac, place the cursor over the Unity API you want to learn about and press **⌘ Command + ‘**.
+Visual Studio for Mac Tools for Unity includes a shortcut for accessing the Unity API documentation. To access Unity API documentation from Visual Studio for Mac, place the cursor over the Unity API you want to learn about and press **⌘ command + ‘**.
 
 ## IntelliSense for Unity messages
 The Unity engine broadcasts messages to MonoBehaviour scripts, allowing developers to write code that reacts to messages such as OnMouseDown, OnTriggerEnter, etc. Because these are not virtual methods in the base MonoBehaviour class, some IDEs such as MonoDevelop lack code completion functionality for Unity messages.
@@ -49,7 +49,7 @@ However, Visual Studio for Mac Tools for Unity extends its IntelliSense function
 
     * By pressing **Return**.
 
-    * By double clicking the selected item.
+    * By double-clicking the selected item.
 
   ![Insert Unity message from IntelliSense](media/using-vsmac-tools-unity-image3.png)
 
@@ -59,22 +59,22 @@ While you can always add new files to a Unity project in the Unity editor, Visua
 
 ### Add a new C# MonoBehaviour script
 
-To add a new C# MonoBehaviour script, **right click on the Assets folder** or one of its subdirectories in the Solution pad and select **Add > New MonoBehaviour**.
+To add a new C# MonoBehaviour script, **right-click on the Assets folder** or one of its subdirectories in the Solution pad and select **Add > New MonoBehaviour**.
 
 ![Add new MonoBehaviour](media/using-vsmac-tools-unity-image4.png)
 
 ### Add a new Unity shader
 
-To add a new Unity shader, **right click on the Assets folder** or a subdirectory in the Solution pad and select **Add -> New Shader**.
+To add a new Unity shader, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add -> New Shader**.
 
 ### Add a new folder
 
-To add a new folder, **right click on the Assets folder** or a subdirectory in the Solution pad and select **Add > New Folder**.
+To add a new folder, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add > New Folder**.
 
-These additions will be reflected in the Project window of the Unity editor.
+These additions are reflected in the Project window of the Unity editor.
 
 ### To rename a file or folder
-**Right click** on the item to rename in the Solution pad and select **Rename...**.
+**right-click** on the item to rename in the Solution pad and select **Rename...**.
 
 > [!NOTE]
 > If you have a new Unity project with no scripts and the Assets folder does not show up in the Solution pad in Visual Studio for Mac, add an initial C# script from within the Unity editor.
