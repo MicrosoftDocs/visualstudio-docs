@@ -119,8 +119,9 @@ Depending on the result of the operation, the `%ERRORLEVEL%` environment variabl
 | **Value** | **Result** |
 | --------- | ---------- |
 | 0 | Operation completed successfully |
-| 1602 or 5004 | Operation was canceled |
+| 1602 | Operation was canceled |
 | 3010 | Operation completed successfully, but install requires reboot before it can be used |
+| 5004 | Operation was canceled |
 | 5007 | Operation was blocked - the computer does not meet the requirements |
 | Other | Failure condition occurred - check the logs for more information |
 
