@@ -40,10 +40,10 @@ When you try to install or update Microsoft Visual Studio 2017, the operation fa
 To work around this issue, follow these steps.
 
 ### Step 1 - Check whether this problem is a known issue
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check the [Known Issues section of our release notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#KIinstall) to see if there's a workaround for your problem.
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check the [Known Issues section of our release notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-knownissues) to see if there's a workaround for your problem.
 
 ### Step 2 - Check with the developer community
-Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html. Other members of the community may have documented a solution to your problem.
+Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community may have documented a solution to your problem.
 
 ### Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems
 The Visual Studio Installer bootstrapper is a minimal light-weight executable that installs the rest of the Visual Studio Installer. Deleting Visual Studio Installer files and then rerunning the bootstrapper might solve some update failures. To do this, follow these steps:
@@ -57,7 +57,7 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 ### Step 4 - Report a problem
 In some situations, such as those related to corrupted files, the problems may have to be looked at on a case-by-case basis:
 
-1. Download the [Microsoft Visual Studio and the .NET Framework Log Collection Tool](https://www.microsoft.com/en-us/download/details.aspx?id=12493), and then run it. This tool collects and compiles available setup logs for Visual Studio, .NET Framework, and SQL Server installations.
+1. Download the [Microsoft Visual Studio and the .NET Framework Log Collection Tool](https://aka.ms/vscollect), and then run it. This tool collects and compiles available setup logs for Visual Studio, .NET Framework, and SQL Server installations.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at %TEMP%\vslogs.zip).
