@@ -34,7 +34,7 @@ PyLint warnings and errors appear in the Error List window:
 Double-clicking an error takes you directly to the source code that generated the issue.
 
 > [!Tip]
-> See the [PyLint features reference](https://pylint.readthedocs.io/en/latest/reference_guide/features.html) for a detailed list of all the PyLint output messages.
+> See the [PyLint features reference](https://pylint.readthedocs.io/en/latest/whatsnew/1.6.html#new-features) for a detailed list of all the PyLint output messages.
 
 ## Setting PyLint command-line options
 
