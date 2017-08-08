@@ -43,7 +43,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
     If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
 
-    For more information, see [Memory limits](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [this blog post](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+    For more information, see [Memory limits](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Using /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Configure solution and projects
 
@@ -82,7 +82,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug > Windows > Modules**.)
 
-    For more information, see this [blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/).
+    For more information, see [Understanding symbol files](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/).
 
 - **Disable Diagnostic Tools**
 
@@ -100,7 +100,7 @@ Some tools or extensions may to turned off to improve performance.
 
 ### Managed Language Services (Roslyn)
 
-For information about Roslyn performance considerations, see [this article] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For information about Roslyn performance considerations, see [Performance considerations for large solutions] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
 - **Disable Full Solution Analysis**
 
@@ -142,7 +142,7 @@ To force a garbage collection, use the hotkey: **Ctrl+Alt+Shift+F12**, **Ctrl+Al
 
 If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
 
-For a detailed description of the CLR garbage collector, see the [MSDN article](https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx).
+For a detailed description of the CLR garbage collector, see [Fundamental of Garbage Collection](https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx).
 
 ## See Also  
  [Visual Studio IDE](../ide/index.md)
