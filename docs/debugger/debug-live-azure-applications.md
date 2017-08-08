@@ -32,7 +32,7 @@ translation.priority.mt:
 ---
 # Debug live .NET and ASP.NET apps running in Azure App Service
 
-The Snapshot Debugger takes a snapshot of your in-production Azure App Service when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you to dramatically reduce the time it takes to resolve issues that occur in production environments. Snapshots are intended for release builds.
+The Snapshot Debugger takes a snapshot of your in-production Azure App Service when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you to dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 Snapshot collection is available for the following web aps running in Azure App Service:
 
@@ -44,15 +44,16 @@ Snapshot collection is available for the following web aps running in Azure App 
 
 ## Start the Snapshot Debugger
 
-1. On your Visual Studio 2017 computer, install the [Snapshot Debugger extension](https://aka.ms/snapshotdebugger).
+1. Install the [Visual Studio 15.4 Preview](microsoft.com) or later.
 
-2. Start your web site hosted in Azure App Service.
+2. Install the [Snapshot Debugger extension](https://aka.ms/snapshotdebugger).
 
-3. Open Visual Studio as an Administrator (right-click the shortcut icon and choose **Run as administrator**).
+3. Open the project you would like to snapshot debug. 
 
-4. In Visual Studio, open your Azure project.
+> [!NOTE] 
+> In order to snapshot debug, you need to open the same version of source code that is published to Azure App Services. 
 
-5. Choose **Debug / Launch Snapshot Debugger** to start the Snapshot Debugger.
+4. In the Cloud Explorer, right click the App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
 
     ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
 
@@ -73,22 +74,20 @@ Snapshot collection is available for the following web aps running in Azure App 
     > [!NOTE]
     > Unlike breakpoints, snappoints do not halt the application when hit. Typically, a snapshot taken from a snappoint only increases overhead by 10-20 ms. A shadow copy is created and debugging occurs against the shadow copy.
 
-2. Click **Start Collection** to turn on the snappoint.
+2. Click **Start Collection** to turn on the snappoint.  
 
     ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
 
     > [!TIP]
-    > You can place multiple snappoints in the same method. When snapshots are captured on a server under load, all snappoints are captured from the same request.
+    > You can place multiple snappoints in the same method. When snapshots are captured on a server under load, all snappoints are captured from the same user session.
 
 ## Take a snapshot
 
-Go to the browser view of your web site and take any actions required that will cause your snappoint to be hit (that is, force the code to run where you set the snappoint).
-
-When the snappoint is hit, a .diagsession window appears in Visual Studio.
+When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed is executed. This execution can be caused by a real request on your server. To force the code where you set the snappoint to run, you can also go to the browser view of your web site and take any actions required that will cause your snappoint to be hit.
 
 ## Inspect snapshot data
 
-1. In the .diagsession window in Visual Studio, click on the snappoint to open it.
+1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window (choose **Debug / Windows / Show Diagnostic Tools** to open this window).
 
     ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png "Open a snappoint")
 
@@ -131,13 +130,11 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 3. Select options for output, including the messsage string (which can include variables).
 
-    If you choose **Send to Output Window**, when the logpoint is hit the message will appear in the .diagsession window.
+    If you choose **Send to Output Window**, when the logpoint is hit the message will appear in the Diagnostic Tools window.
 
-    ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint.png "Logpoint data in the .diagsession window")
+    ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint-output.png "Logpoint data in the .diagsession window")
 
-    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace`, such as App Insights.
-
-    ![Logpoint data in App Insights](../debugger/media/snapshot-logpoint.png "Logpoint data in App Insights")
+    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)
