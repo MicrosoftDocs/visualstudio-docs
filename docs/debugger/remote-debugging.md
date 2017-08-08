@@ -51,7 +51,7 @@ For in-depth instructions on remote debugging, see these topics.
 |C++|[Remote Debugging a C++ Project](remote-debugging-cpp.md)|
 |Universal Windows Apps (UWP)|[Debug an Installed App Package](debug-installed-app-package.md)|
 |Azure|[Remote Debugging ASP.NET on Azure](remote-debugging-azure.md)|
-|Azure Service Fabric|[Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).|
+|Azure Service Fabric|[Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application.md#debug-a-remote-service-fabric-application).|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   
