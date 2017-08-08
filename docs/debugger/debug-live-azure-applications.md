@@ -30,7 +30,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Debug live .NET and ASP.NET apps running in Azure App Service
+# Debug live ASP.NET apps running in Azure App Service
 
 The Snapshot Debugger takes a snapshot of your in-production Azure App Service when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you to dramatically reduce the time it takes to resolve issues that occur in production environments.
 
@@ -40,7 +40,7 @@ Snapshot collection is available for the following web aps running in Azure App 
 - .NET Core 2.0 and ASP.NET Core 2.0 applications running on Windows.
 
 > [!NOTE]
-> With some additional configuration, you can also view exceptions and snappoint data in Application Insights. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to App Service.
+> With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to App Service.
 
 ## Start the Snapshot Debugger
 
