@@ -1236,7 +1236,7 @@ The following are valid options for the severity of a naming style rule
 
  `none` and `silent` are synonymous and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.
 
- `suggestion` means that the user will be shown the following in the Error List: and the following in the IDE. The `suggetion` severity will allow the naming rule to run, but it will not cause the build to break.
+ `suggestion` means that the user will be shown the following in the Error List: and the following in the IDE. The `suggestion` severity will allow the naming rule to run, but it will not cause the build to break.
 
 Severity | effect
 ------------ | -------------
