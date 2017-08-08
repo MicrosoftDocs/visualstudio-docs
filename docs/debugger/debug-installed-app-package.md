@@ -1,7 +1,7 @@
 ---
 title: "Debug an installed app package (UWP) | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "12/09/2016"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,7 +53,7 @@ For more information about these features, see the blog post on updates for [deb
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 
-1. Select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
+1. With your UWP project open in Visual Studio, select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
 
 2. Select either **Local Machine** or **Device**.
 
@@ -70,19 +70,21 @@ For more information about these features, see the blog post on updates for [deb
 > [!NOTE]
 > Visual Studio can also attach to any running UWP app process by selecting **Debug**, and then **Attach to Process**. Attaching to a running process doesn't require the original Visual Studio project, but loading the process's symbols will help significantly when debugging a process that you don't have the original code for.
   
-## Debug an Installed or Running App on a Remote Computer 
+## <a name="remote"></a> Debug an Installed or Running App on a Remote Computer 
 
 When you debug an installed app package on a remote computer for the first time, Visual Studio installs the correct version of the remote tools for your target device. Your target device must be a Windows 10 computer, XBox, HoloLens, or IoT device.
 
-1. If you are connecting to a remote Windows 10 desktop computer, first manually [install and start the remote debugger](../debugger/remote-debugging.md).
+1. On your Windows 10 device, enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development).
 
-     For an XBox, HoloLens, or IoT device, you don't need to manually install the remote debugger.
+2. If you are connecting to a remote PC running pre-Creator's Update version of Windows 10, first manually [install and start the remote debugger](../debugger/remote-debugging.md).
 
-2. Select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
+     For an XBox, HoloLens, or IoT device, and Windows devices running Windows 10 Creator's Update, you don't need to manually install the remote debugger. The remote tools will be automatically installed when you deploy the app.
 
-3. From the first drop-down list, choose **Remote Machine**.
+3. Select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
 
-4. Type in the name or IP address of the computer you want to attach to.
+4. From the first drop-down list, choose **Remote Machine**.
+
+5. Type in the name or IP address of the computer you want to attach to.
 
      ![ChooseRemoteComputer](../debugger/media/debug-remote-app-pkg.png "ChooseRemoteComputer")
 

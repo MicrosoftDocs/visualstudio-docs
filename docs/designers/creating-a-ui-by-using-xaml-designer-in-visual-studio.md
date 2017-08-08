@@ -1,7 +1,7 @@
 ---
 title: "Creating a UI by using XAML Designer in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 7/17/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,26 +18,12 @@ caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+
 ---
 # Creating a UI by using XAML Designer in Visual Studio
-The XAML Designer in Visual Studio provides a visual interface to help you design XAML-based Windows Store, Windows Phone, WPF, and Silverlight apps. You can create user interfaces for your apps by dragging controls from the **Toolbox** and setting properties in the **Properties** window. You can also edit XAML directly in XAML view.  
+The XAML Designer in Visual Studio provides a visual interface to help you design XAML-based Windows and Web apps. You can create user interfaces for your apps by dragging controls from the **Toolbox** and setting properties in the **Properties** window. You can also edit XAML directly in XAML view.  
   
- For advanced XAML design tasks such as animations and behaviors, see [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md).  
+ For advanced XAML design tasks such as animations and behaviors, see [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md). Also see [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md) for a comparison between the tools.
   
 ## XAML Designer workspace  
  The workspace in XAML Designer consists of several visual interface elements. These include the artboard, XAML Editor, Device window, Document Outline window, and Properties window. To open the XAML Designer, right-click a XAML file in **Solution Explorer** and choose **View Designer**.  
@@ -103,7 +89,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
  Markup zoom enables you to size XAML view. You can zoom from 20% to 400%.  
   
 ## Device window  
- The Device window in XAML Designer enables you to simulate at design-time various views, displays, and display options for your Windows Store or Windows Phone project. The Device window is available on the **Design** menu when you are working in the XAML Designer. Here's what it looks like:  
+ The Device window in XAML Designer enables you to simulate at design-time various views, displays, and display options for your project. The Device window is available on the **Design** menu when you are working in the XAML Designer. Here's what it looks like:  
   
  ![Device window](../designers/media/xaml_editor_device_panel.png "xaml_editor_device_panel")  
   

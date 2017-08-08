@@ -1,7 +1,7 @@
 ---
-title: "Quickstart: Debug HTML and CSS | Microsoft Docs"
+title: "Debug HTML and CSS (UWP and Windows Store Apps) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,30 +41,12 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Quickstart: Debug HTML and CSS
+# Debug HTML and CSS in UWP and Windows Store Apps
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova.  
   
- Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.  
-  
- In this topic:  
-  
--   [Inspecting the live DOM](#InspectingDOM)  
-  
--   [Selecting elements](#SelectingElements)  
-  
- For additional info on using the DOM Explorer, see the following topics:  
-  
--   [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)  
-  
--   [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)  
-  
--   [View DOM event listeners](../debugger/view-dom-event-listeners.md)  
-  
--   [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)  
-  
--   [Debug a WebView control](../debugger/debug-a-webview-control.md)  
+ Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
   
  For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
