@@ -40,7 +40,7 @@ Snapshot collection is available for the following web aps running in Azure App 
 - .NET Core 2.0 and ASP.NET Core 2.0 applications running on Windows.
 
 > [!NOTE]
-> With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to App Service.
+> With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger.md). Application Insights supports Service Fabric apps in addition to App Service.
 
 ## Start the Snapshot Debugger
 
@@ -134,7 +134,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint-output.png "Logpoint data in the .diagsession window")
 
-    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
+    If you choose **Send to application log**, when the logpoint is hit the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs.md).
 
 ## See Also  
  [Debug Azure apps](../debugger/debug-azure-apps.md)
