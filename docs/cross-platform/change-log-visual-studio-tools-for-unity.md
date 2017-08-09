@@ -41,7 +41,7 @@ Visual Studio Tools for Unity change log.
 
     -   Added support for assembly.json compilation units.
 
-    -   Stopped deploying assemblies on Windows.
+    -   Stopped copying Unity assemblies to the project folder.
     
 -   **Debugger:**  
 
@@ -58,11 +58,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed array creation with implicit size.
     
     -   Fixed compiler generated items with locals.
-
--   **Messaging:**  
-
-    -   Stopped manually managing membership of the multicast transceiver.
-    
+   
 -   **Project Generation:**  
 
     -   Fixed reference to Microsoft.CSharp for 4.6 API level.
