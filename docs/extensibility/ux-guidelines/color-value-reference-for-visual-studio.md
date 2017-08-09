@@ -4,7 +4,7 @@ description: "Reference: Hex codes for creating new Visual Studio color tokens"
 keywords: "color, hex code, hue, themed UI, theming"
 author: "brickgeorge"
 ms.author: "v-brickg"
-ms.date: 08/02/2017
+ms.date: 08/04/2017
 ms.topic: "article"
 ms.prod: ""
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
@@ -43,13 +43,16 @@ When using this reference guide, remember:
 
 -   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
+- **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
+
 -   **For best results, pair color sets with UI similar to the example.**
 
 ## Properties window
 
-| Light theme | Dark theme | Blue theme |
-| :---: | :---: | :---: |
-| ![Properties window in the Light theme](../../extensibility/ux-guidelines/media/wpf-property-window-light-theme.png "Properties window in the Light theme") | ![Properties window in the Dark theme](../../extensibility/ux-guidelines/media/wpf-property-window-dark-theme.png "Properties window in the Dark theme") | ![Properties window in the Blue theme](../../extensibility/ux-guidelines/media/wpf-property-window-blue-theme.png "Properties window in the Blue theme") |
+![Properties window in Light (left), Dark (center), and Blue (right) themes](../../extensibility/ux-guidelines/media/properties-window-light-dark-blue.png "Properties window in Light, Dark, and Blue themes")<br />Properties window in the Light, Dark, and Blue themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
 
 ### Divider lines
 
@@ -175,9 +178,10 @@ When using this reference guide, remember:
 
 ## Properties grid control elements
 
-| Light theme | Dark theme | Blue theme |
-| :---: | :---: | :---: |
-| ![Properties grid in the Light theme](../../extensibility/ux-guidelines/media/grid-properties-window-light-theme.png "Properties grid in the Light theme") | ![Properties grid in the Dark theme](../../extensibility/ux-guidelines/media/grid-properties-window-dark-theme.png "Properties grid in the Dark theme") | ![Properties grid in the Blue theme](../../extensibility/ux-guidelines/media/grid-properties-window-blue-theme.png "Properties grid in the Blue theme") |
+![Properties grid in Light (left), Dark (center), and Blue (right) themes](../../extensibility/ux-guidelines/media/properties-grid-light-dark-blue.png "Properties grid in the Light theme")<br />Properties grid in Light, Dark, and Blue themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Content
 
@@ -205,6 +209,9 @@ When using this reference guide, remember:
 > [!NOTE] 
 > CodeLens UI colors are the same for Light, Dark, and Blue themes.
 
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
+
 ### Body
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
@@ -225,9 +232,10 @@ When using this reference guide, remember:
 
 ## Grid control
 
-| Light theme | Dark theme | Blue theme |
-| :---: | :---: | :---: |
-| ![Grid control in the Light theme](../../extensibility/ux-guidelines/media/grid-control-light-theme.png "Grid control in the Light theme") | ![Grid control in the Dark theme](../../extensibility/ux-guidelines/media/grid-control-dark-theme.png "Grid control in the Dark theme") | ![Grid control in the Blue theme](../../extensibility/ux-guidelines/media/grid-control-blue-theme.png "Grid control in the Blue theme") |
+![Grid control in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/grid-control-light-dark-blue.png "Grid control in Light, Dark, and Blue themes")<br />Grid control in Light (top), Dark (center), and Blue (bottom) themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Body
 
@@ -253,9 +261,10 @@ When using this reference guide, remember:
 
 ## Manifest Designer
 
-| Light theme | Dark theme | Blue theme |
-| :---: | :---: | :---: |
-| ![Manifest Designer in the Light theme](../../extensibility/ux-guidelines/media/manifestDesignerWindowLightTheme.png "Manifest Designer in the Light theme") | ![Manifest Designer in the Dark theme](../../extensibility/ux-guidelines/media/manifestDesignerWindowDarkTheme.png "Manifest Designer in the Dark theme") | ![Manifest Designer in the Blue theme](../../extensibility/ux-guidelines/media/manifestDesignerWindowBlueTheme.png "Manifest Designer in the Blue theme") |
+![Manifest Designer in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/manifest-designer-light-dark-blue.png "Manifest Designer in Light, Dark, and Blue themes")<br />Manifest Designer in Light (top), Dark (center), and Blue (bottom) themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Body
 
@@ -296,9 +305,10 @@ When using this reference guide, remember:
 
 ## TFS tagging
 
-| Light theme | Dark theme | Blue theme |
-| :---: | :---: | :---: |
-| ![TFS tagging in the Light theme](../../extensibility/ux-guidelines/media/Tagging.light.png "TFS tagging in the Light theme") | ![TFS tagging in the Dark theme](../../extensibility/ux-guidelines/media/Tagging.dark.png "TFS tagging in the Dark theme") | ![TFS tagging in the Blue theme](../../extensibility/ux-guidelines/media/Tagging.blue.png "TFS tagging in the Blue theme") |
+![TFS tagging in Light (top), Dark (center), and Blue (bottom) themes](../../extensibility/ux-guidelines/media/tagging-light-dark-blue.png "TFS tagging in Light, Dark, and Blue theme")<br />TFS tagging in Light (top), Dark (center), and Blue (bottom) themes
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Tags
 
@@ -337,6 +347,9 @@ When using this reference guide, remember:
 
 ## Button controls
 
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
+
 ### Default
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
@@ -370,6 +383,7 @@ When using this reference guide, remember:
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Pressed button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.png "Pressed button in the Light theme") | ![Pressed button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.dark.png "Pressed button in the Dark theme") | ![Pressed button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.blue.png "Pressed button in the Blue theme") | ![Pressed button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "Pressed button in the High Contrast theme") |
 | Foreground | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
+| Background | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#007ACCswatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
 | Border | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#007ACCswatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ### Focused
@@ -382,6 +396,9 @@ When using this reference guide, remember:
 | Border | ![#3399FF swatch](../../extensibility/ux-guidelines/media/3399FF.png "#3399FF swatch")<br />`#3399FF` | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#3399FF swatch](../../extensibility/ux-guidelines/media/3399FF.png "#3399FF swatch")<br />`#3399FF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Check box controls
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Default
 
@@ -434,6 +451,9 @@ When using this reference guide, remember:
 | Glyph | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#424242 swatch](../../extensibility/ux-guidelines/media/424242.png "#424242 swatch")<br />`#424242` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Drop-down/combo box controls
+
+> [!NOTE]
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Initial appearance
 
