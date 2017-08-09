@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  05/10/2017
+ms.date:  08/09/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
