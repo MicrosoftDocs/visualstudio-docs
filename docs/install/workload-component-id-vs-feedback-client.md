@@ -56,6 +56,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26208.0 | Required
+
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
@@ -63,6 +64,7 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
+
 
 ## See also
 
