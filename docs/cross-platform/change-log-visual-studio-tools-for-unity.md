@@ -32,6 +32,87 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 3.4.0.0
+ Released 2017-08-14
+
+### New Features  
+
+-   **Project Generation:**  
+
+    -   Added support for assembly.json compilation units.
+
+    -   Stopped deploying assemblies on Windows.
+    
+-   **Debugger:**  
+
+    -   Added support for setting the next statement with the new Unity runtime.
+    
+    -   Added support for Decimal type with the new Unity runtime.
+    
+    -   Added support for implicit/explicit conversions.
+    
+### Bug fixes  
+  
+-   **Evaluation:**  
+
+    -   Fixed array creation with implicit size.
+    
+    -   Fixed compiler generated items with locals.
+
+-   **Messaging:**  
+
+    -   Stopped manually managing membership of the multicast transceiver.
+    
+-   **Project Generation:**  
+
+    -   Fixed reference to Microsoft.CSharp for 4.6 API level.
+
+## 3.3.0.0
+ Released 2017-06-20
+
+### New Features  
+  
+-   **Evaluation:**  
+
+    -   Added support for creating structs with the new Unity runtime.
+    
+    -   Added minimalist support for pointers.
+    
+### Bug fixes  
+  
+-   **Evaluation:**  
+
+    -   Fixed method invocation on primitives.
+    
+    -   Fixed field evaluation with types marked with BeforeFieldInit.
+    
+    -   Fixed non supported calls with binary operators (substract).
+    
+    -   Fixed issues when adding items to the Visual Studio Watch.
+
+-   **Project Generation:**  
+
+    -   Fixed assembly name references with mcs.rsp files.
+    
+    -   Fixed defines with API levels.    
+
+## 3.2.0.0
+ Released 2017-05-10
+
+### New Features  
+  
+-   **Installer:**  
+
+    -   Added support for cleaning the MEF cache.
+  
+### Bug fixes  
+  
+-   **Code Editor:**  
+
+    -   Fixed classification/completion with custom attributes.
+
+    -   Fixed flickering with Unity messages.
+    
 ## 3.1.0.0
  Released 2017-04-07
 
