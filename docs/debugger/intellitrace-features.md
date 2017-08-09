@@ -59,7 +59,10 @@ You can use IntelliTrace to record events and method calls your application, whi
  If you're debugging, stop debugging. Go to **Tools / Options / IntelliTrace / IntelliTrace Events**. Choose the events you want IntelliTrace to record.  
   
 ##  <a name="GoingFurther"></a> Collect IntelliTrace events and call information  
- This isn’t enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools / Options / IntelliTrace / General**, and select **IntelliTrace events and call information**.  
+ This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools / Options / IntelliTrace / General**, and select **IntelliTrace events and call information**.
+
+> [!NOTE]
+> Call information is not currently available for ASP.NET Core apps. 
   
  This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.  
   
@@ -98,7 +101,7 @@ You can use IntelliTrace to record events and method calls your application, whi
  You can configure IntelliTrace to automatically save to a file by going to **Tools / Options / IntelliTrace / Advanced** and selecting **Store IntelliTrace recordings in this directory**. You can also configure a set size for the generated file, which causes IntelliTrace to write over older data when it runs out of space. Visual Studio creates two files for each IntelliTrace session when they are saved automatically and the Visual Studio hosting process (vshost.exe) is turned on.  
   
 > [!TIP]
->  To save disk space, turn off saving files automatically when you don’t need them anymore. Any existing files will not be deleted. You can always save to file on demand from the context menu.  
+>  To save disk space, turn off saving files automatically when you don't need them anymore. Any existing files will not be deleted. You can always save to file on demand from the context menu.  
   
  When you save IntelliTrace data to file, you get one .itrace file for each process that IntelliTrace collected from. You can then open the .itrace file in Visual Studio by going to **File / Open / File** and selecting the .itrace file from the Open File dialog. For more information, see [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).  
   

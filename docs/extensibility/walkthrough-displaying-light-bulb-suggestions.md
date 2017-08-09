@@ -30,7 +30,7 @@ translation.priority.mt:
 # Walkthrough: Displaying Light Bulb Suggestions
 Light bulbs are icons used in the Visual Studio editor that expand to display a set of actions, for example fixes for problems identified by the built-in code analyzers or code refactoring.  
   
- In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform (“Roslyn”) to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
+ In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
   
 -   [How To: Write a C# Diagnostic and Code Fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
   
@@ -38,7 +38,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
  Other languages such as C++ also provide light bulbs for some quick actions, such as a suggestion to create a stub implementation of that function.  
   
- Here’s what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it is invalid. When you mouse over the invalid identifier, a light bulb is displayed near the cursor.  
+ Here's what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it is invalid. When you mouse over the invalid identifier, a light bulb is displayed near the cursor.  
   
  ![light bulb](../extensibility/media/lightbulb.png "LightBulb")  
   
@@ -212,7 +212,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     public event EventHandler<EventArgs> SuggestedActionsChanged;  
     ```  
   
-8.  To complete the implementation, add implementations for the `Dispose()` and `TryGetTelemetryId()` methods. We don’t want to do telemetry, so just return false and set the GUID to Empty.  
+8.  To complete the implementation, add implementations for the `Dispose()` and `TryGetTelemetryId()` methods. We don't want to do telemetry, so just return false and set the GUID to Empty.  
   
     ```c#  
     public void Dispose()  
@@ -355,7 +355,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to “Convert ‘{0}’ to lower case” and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
+11. Don't forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to "Convert '{0}' to lower case" and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
   
 ## Building and Testing the Code  
  To test this code, build the LightBulbTest solution and run it in the Experimental instance.  
@@ -374,4 +374,5 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
      ![test light bulb, expanded](../extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
-6.  If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.
+6.  If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.  
+  

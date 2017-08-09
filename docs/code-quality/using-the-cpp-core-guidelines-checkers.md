@@ -51,7 +51,7 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 ## Check Types, Bounds, and Lifetimes  
  The C++ Core Check package currently contains checkers for the [Type safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-type), [Bounds safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-bounds), and [Lifetime safety](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#SS-lifetime) profiles.  
   
- Here’s an example of the kind of issues that the C++ Core Check rules can find:  
+ Here's an example of the kind of issues that the C++ Core Check rules can find:  
   
 ```cpp  
 // CoreCheckExample.cpp  
@@ -78,7 +78,7 @@ int main()
   
 -   C26485 is rule Bounds.3: No array-to-pointer decay.  
   
--   C26481 is rule Bounds.1: Don’t use pointer arithmetic. Use `span` instead.  
+-   C26481 is rule Bounds.1: Don't use pointer arithmetic. Use `span` instead.  
   
  If the C++ Core Check code analysis rulesets are installed and enabled when you compile this code, the first two warnings are output, but the third is suppressed. Here's the build output from the example code:  
   
@@ -92,7 +92,7 @@ c:\users\username\documents\visual studio 2015\projects\corecheckexample\coreche
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========  
 ```  
   
-The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn’t be applied, it’s easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
+The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn't be applied, it's easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
   
 ## Use the Guideline Support Library  
- Starting in Visual Studio 2017, Microsoft’s implementation of the Guideline Support Library (GSL) is installed by default when you install a C++ workload. The GSL is also available in standalone form at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). This library is helpful if you want to follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is open source, so if you want to take a look at the library sources, comment, or contribute, the project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
+ Starting in Visual Studio 2017, Microsoft's implementation of the Guideline Support Library (GSL) is installed by default when you install a C++ workload. The GSL is also available in standalone form at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). This library is helpful if you want to follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is open source, so if you want to take a look at the library sources, comment, or contribute, the project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).

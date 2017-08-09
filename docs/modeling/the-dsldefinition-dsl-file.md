@@ -63,7 +63,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  Throughout the DslDefinition.dsl file, you can use monikers to make cross-references to specific items. For example, each Relationship definition contains a Source subsection and a Target subsection. Each subsection contains the moniker of the class of object that can be linked with that relationship:  
   
 ```  
-<DomainRelationship …        Name="LibraryHasMembers" Namespace="ExampleNamespace" >    <Source>      <DomainRole …>  
+<DomainRelationship ...        Name="LibraryHasMembers" Namespace="ExampleNamespace" >    <Source>      <DomainRole ...>  
        <RolePlayer>  
          <DomainClassMoniker Name="Library" />  
        </RolePlayer>  
@@ -212,7 +212,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 -   The `PropertyName` attribute specifies the name that is used in the role playing class to access the objects at the other end. This name is used in template or custom code to traverse the relationship. For example, the `PropertyName` attribute of the source role is set to `Targets`. Therefore, the following code will work:  
   
     ```  
-    OutPort op = …; foreach (InPort ip in op.Targets) ...  
+    OutPort op = ...; foreach (InPort ip in op.Targets) ...  
     ```  
   
      By convention, property names are plural if the multiplicity is ZeroMany or OneMany.  
@@ -220,20 +220,20 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
      The multiplicity of a role refers to how many of the opposite role can be associated with each instance of this role. For example, in the relationship ComponentHasPorts, the target role has the `RolePlayer` attribute set to Port, the `PropertyName` attribute set to Component, and the `Multiplicity` attribute set to ZeroOne. Therefore, the appropriate code to use this role is:  
   
     ```  
-    ComponentPort p = …; Component c = p.Component; if (c != null) …  
+    ComponentPort p = ...; Component c = p.Component; if (c != null) ...  
     ```  
   
 -   The role's `Name` is the name that is used within the Relationship class to refer to that end of a link. By convention, a role name is always singular, because each link has only one instance at each end. The following code would work:  
   
     ```  
-    Connection connectionLink = …; OutPort op = connectionLink.Source;  
+    Connection connectionLink = ...; OutPort op = connectionLink.Source;  
     ```  
   
 -   By default, the `IsPropertyGenerator` attribute is set to true. If it is set to false, no property is created on the Role Player class. (In that case, `op.Targets`, for example, would not work). However, it is still possible to use custom code to traverse the relationship or obtain access to the links themselves if the custom code uses the relationship explicitly:  
   
     ```  
-    OutPort op = …; foreach (InPort ip in Connection.GetTargets(op)) …  
-    foreach (Connection link in Connection.GetLinksToTargets(op)) …  
+    OutPort op = ...; foreach (InPort ip in Connection.GetTargets(op)) ...  
+    foreach (Connection link in Connection.GetLinksToTargets(op)) ...  
     ```  
   
 ### Relationship attributes  
@@ -255,7 +255,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 ## Paths  
  Domain paths appear in several locations in the DslDefinition.dsl file. These paths specify a series of links from one element in a model (that is, an instance of the domain-specific language) to another. Path syntax is simple but verbose.  
   
- Paths appear in the DslDefinition.dsl file in `<DomainPath>…</DomainPath>` tags. Although paths can navigate through multiple links, most examples in practice traverse only one link.  
+ Paths appear in the DslDefinition.dsl file in `<DomainPath>...</DomainPath>` tags. Although paths can navigate through multiple links, most examples in practice traverse only one link.  
   
  A path consists of a sequence of segments. Each segment is a hop either from an object to a link or from a link to an object. Therefore, the hops typically alternate in a long path. The first hop is from an object to a link, the second hop is to the object at the other end of the link, the third hop is to the next link, and so on. The occasional exception to this sequence is where a relationship is itself the source or target of another relationship.  
   
@@ -289,7 +289,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  A potential host class, such as Component, will accept a new element only if the host class has an element merge directive for the class of the new element. For example, the DomainClass node with Name="Component" contains:  
   
 ```  
-<DomainClass Name="Component" …> …  
+<DomainClass Name="Component" ...> ...  
     <ElementMergeDirective>  
       <Index>  
         <DomainClassMoniker Name="ComponentPort" />  
@@ -297,7 +297,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
       <LinkCreationPaths>  
         <DomainPath>ComponentHasPorts.Ports</DomainPath>  
       </LinkCreationPaths>  
-    </ElementMergeDirective> …  
+    </ElementMergeDirective> ...  
 ```  
   
  The class moniker that is under the Index node references the class of element that can be accepted. In this case, ComponentPort is the abstract base class of InPort and OutPort. Therefore, either of those elements can be accepted.  
@@ -313,7 +313,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  For example, you can add this element merge directive to the Component class:  
   
 ```  
-<DomainClass Name="Component" …> …  
+<DomainClass Name="Component" ...> ...  
   <ElementMergeDirective>  
     <Index>  
        <DomainClassMoniker Name="Comment"/>  
@@ -347,7 +347,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 -   **ElementName** string, which determines the XML tag of serialized instances of this class. By convention, ElementName is usually the same as the class name except the first letter is lowercase. For example, a sample model file starts with the following:  
   
     ```  
-    <componentModel …  
+    <componentModel ...  
     ```  
   
 -   **MonikerElementName** in the user's serialized model files. This attribute introduces a moniker that references this class.  
@@ -390,7 +390,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  For example, the DslDefinition.dsl file contains:  
   
 ```  
-<XmlClassData ElementName="component" …>  
+<XmlClassData ElementName="component" ...>  
   <DomainClassMoniker Name="Component" />  
   <ElementData>  
     <XmlRelationshipData RoleElementName="ports">  
@@ -404,9 +404,9 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 <component name="Component1"> <!-- parent ->  
    <ports> <!-- role ->  
      <outPort name="OutPort1"> <!-- child element ->  
-       …  
+       ...  
      </outPort>  
-   </ports> …  
+   </ports> ...  
 ```  
   
  If the **UseFullForm** attribute is set to true, an extra layer of nesting is introduced. This layer represents the relationship itself. The attribute must be set to true if the relationship has properties.  
@@ -442,7 +442,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 <component name="Component3">  
   <!-- only one relationship could get here: ->  
   <outPort name="OutPort1">    
-     <targets> …  
+     <targets> ...  
 ```  
   
 ### Serialization of a Domain-Specific Language Definition  
@@ -453,29 +453,29 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
 -   **Classes** is the **RoleElementName** of the relationship between Domain-Specific Language and DomainClass.  
   
 ```  
-<Dsl Name="CmptDsl5" …>  
+<Dsl Name="CmptDsl5" ...>  
   <Classes>  
-    <DomainClass Name="NamedElement" InheritanceModifier="Abstract" …  
+    <DomainClass Name="NamedElement" InheritanceModifier="Abstract" ...  
 ```  
   
 -   The **XmlSerializationBehavior** attribute is embedded under the `Dsl` attribute, but the **OmitElement** attribute has been set on the embedding relationship. Therefore, no `RoleElementName` attribute intervenes. By contrast, a **ClassData** attribute is the `RoleElementName` attribute of the embedding relationship between an **XmlSerializationBehavior** attribute and an **XmlClassData** attribute.  
   
 ```  
-<Dsl Name="CmptDsl5" …> …  
+<Dsl Name="CmptDsl5" ...> ...  
   <XmlSerializationBehavior Name="ComponentsSerializationBehavior" >  
     <ClassData>  
-      <XmlClassData …>…</XmlClassData>  
-      <XmlClassData …>…</XmlClassData>  
+      <XmlClassData ...>...</XmlClassData>  
+      <XmlClassData ...>...</XmlClassData>  
 ```  
   
 -   ConnectorHasDecorators is the embedding relationship between `Connector` and `Decorator`. `UseFullForm` has been set so that the name of the relationship appears with its list of properties for each link from the Connector object. However, `OmitElement` has also been set so that no `RoleElementName` encloses the multiple links that are embedded inside `Connector`:  
   
 ```  
-<Connector Name="AssociationLink" …>  
-  <ConnectorHasDecorators Position="TargetTop" …>  
+<Connector Name="AssociationLink" ...>  
+  <ConnectorHasDecorators Position="TargetTop" ...>  
     <TextDecorator Name="TargetRoleName"   />  
   </ConnectorHasDecorators>  
-  <ConnectorHasDecorators Position="SourceTop" …>  
+  <ConnectorHasDecorators Position="SourceTop" ...>  
     <TextDecorator Name="SourceRoleName"   />  
   </ConnectorHasDecorators>  
 </Connector>  
@@ -521,7 +521,7 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
 <Diagram Name="ComponentDiagram" >  
     <Class>  
       <DomainClassMoniker Name="ComponentModel" />  
-    </Class>…  
+    </Class>...  
 ```  
   
 ### Decorator Maps  

@@ -18,24 +18,9 @@ ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we’ve also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio Installer and make the changes you want.  
+Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; instead, start the new Visual Studio Installer and make the changes you want.
 
 Here's how.  
 
@@ -44,12 +29,12 @@ Here's how.
 
 1.  Find the Visual Studio Installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where you’ll see it listed as **Visual Studio Installer**.  
+     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.  
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
      >[!NOTE]
-     On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.
+     On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
 2.  Click or tap to start the installer, and then select **Modify**.  
 
@@ -65,10 +50,10 @@ Here's how.
 
 ## Modify individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
 
 ## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
 
 ## See also  
 * [Install Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)

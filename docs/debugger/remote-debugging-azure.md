@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "03/31/2017"
+ms.custom: "remotedebugging"
+ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 caps.latest.revision: 6
 author: "mikejo5000"
@@ -42,6 +42,9 @@ This topic shows how to:
 
 * Remote debug ASP.NET Core on an Azure VM
 
+> [!NOTE]
+> To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
+
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
 1. Create a new ASP.NET Core application. (Choose **File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)**)
@@ -62,7 +65,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
@@ -189,7 +192,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
     
     You should see the ASP.NET web page.
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 

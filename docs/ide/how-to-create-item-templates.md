@@ -36,9 +36,9 @@ translation.priority.ht:
 # How to: Create Item Templates
 The steps in the [first procedure](../ide/how-to-create-item-templates.md#export_template) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).  
 
- The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
+ The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app project, you'll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
 
- To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](../ide/how-to-create-multi-file-item-templates.md#enable_templates).  
+ To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](#enable_templates).  
 
  In some cases you may want or need to create an item template manually from scratch. The [third procedure](../ide/how-to-create-item-templates.md#create_template) shows how to do that.  
 
@@ -52,7 +52,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 3.  Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
 
-4.  On the **File** menu, click **Export Template**.  
+4.  On the **Project** menu, click **Export Template**.  
 
 5.  Click **Item Template**, select the project that contains the item, and click **Next**.  
 
@@ -75,11 +75,13 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 3.  Open the .vstemplate file in Visual Studio.  
 
-4.  For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
+4.  For a Universal Windows C# project, in the .vstemplate file, add the following XML within the opening `<TemplateData>` tag : `<TemplateID>Microsoft.CSharp.Class</TemplateID>`. 
 
-     A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
+    For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
 
-     The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
+    A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
+
+    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
 
     ```xml  
     <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
@@ -111,8 +113,9 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
  You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] project by using the **Add New Item** dialog box.  
 
  For more information about parameter names, see [Template Parameters](../ide/template-parameters.md).  
-
-### To enable templates for specific project sub-types  
+  
+ 
+### <a name="enable_templates"></a> To enable templates for specific project sub-types  
 
 1.  The development environment enables you to make project items available from the Add Item dialog box for certain projects. Use this procedure to make custom items available for Windows, Web, Office, or database projects.  
 
@@ -157,7 +160,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
 
 2.  Modify the project item until it is ready to be saved as a template.  
 
-3.  As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see How to: Substitute Parameters in a Template.  
+3.  As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see [How to: Substitute Parameters in a Template.](../ide/how-to-substitute-parameters-in-a-template.md)
 
 4.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your new item template.  
 

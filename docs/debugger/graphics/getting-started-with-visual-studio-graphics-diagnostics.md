@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Visual Studio Graphics Diagnostics | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/09/2017"
+ms.date: "05/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -53,11 +53,11 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 #### To install Graphics Tools for Windows 10  
   
-1.  On the **Start** menu, choose **Settings**. The **Settings** dialog appears.  
+1.  In Search, type **Apps and features** and then open the **Apps & features** settings.
   
-2.  In the **Settings** dialog, choose **System**, then select **Installed apps** from the list of system settings.  
-  
-3.  On the right-hand side of the **Settings** dialog, choose **Manage optional features** under **Installed apps and features**. The **Manage optional features** dialog appears.  
+3.  On the right-hand side of the **Apps & features** dialog, choose **Manage optional features** (under **Apps & features**).
+
+    The **Manage optional features** dialog appears.
   
 4.  In the **Manage optional features** dialog, choose **Add a feature**. A list of optional features you can install appears.  
   
@@ -82,7 +82,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  Make sure you can build the app before moving on.  
   
 ### 2 - Start a Graphics Diagnostics session  
- Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Diagnostics**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.  
+ Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Graphics Debugging**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.  
   
 > [!IMPORTANT]
 >  If you're running your app on Windows 10 and haven't installed the optional Graphics Tools feature yet, you'll be prompted to do so now. You must install it before you can use Graphics Diagnostics on Windows 10.  
@@ -102,7 +102,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
  When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
   
-### 4 – Examine captured frames in the Graphics Analyzer  
+### 4 - Examine captured frames in the Graphics Analyzer  
  Now you're ready to examine the frames you just captured. To start analyzing a frame, choose the frame number of the frame you want to examine from the diagnostic session window. This opens the frame in the **Graphics Analyzer**, where you can use the Graphics Diagnostics tools to examine how your app uses Direct3D to track down rendering problems, or use the **Frame Analysis** tool to understand its performance.  
   
  If you selected the wrong frame from the diagnostic session window or you want to examine a different frame you can select a new one from the Graphics Analyzer. On the **Render Target** tab of the graphics log window, under the render target image, expand the **Frame List** and then choose a different frame to examine.  

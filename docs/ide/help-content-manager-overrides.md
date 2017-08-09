@@ -39,7 +39,7 @@ You can modify the registry to change the default behavior of the Help Viewer an
 |Override BITS job priority|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\Help\v2.2|BITSPriority--Use one of the following values: **foreground**, **high**, **normal**, or **low**.|  
 |Disable Online (and IDE Online option)|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|OnlineHelpPreferenceDisabled--Set to 1 to disable access of online Help content.|  
 |Disable Manage Content|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|ContentManagementDisabled--Set to 1 to disable the **Manage Content** tab in Help Viewer.|  
-|Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.2\Catalogs\VisualStudio11|LocationPath=”*ContentStoreNetworkShare*”|  
+|Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.2\Catalogs\VisualStudio11|LocationPath="*ContentStoreNetworkShare*"|  
 |Disable installation of content at first launch of Visual Studio feature.|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|DisableFirstRunHelpSelection--Set to 1 to disable help features that are configured the first time that Visual Studio starts.|  
   
 ## See Also  

@@ -39,5 +39,5 @@ This message appears when you drag items that do not use the .NET Framework Data
 ## See Also  
  <xref:System.Data.SqlClient>   
     
- [.NET Framework Data Providers](http://msdn.microsoft.com/Library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131)   
+ [.NET Framework Data Providers](/dotnet/framework/data/adonet/data-providers)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   

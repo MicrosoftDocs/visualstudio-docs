@@ -89,11 +89,11 @@ Unit tests give developers and testers a quick way to look for logic errors in t
  [Visual Studio Unit Testing](http://go.microsoft.com/fwlink/?LinkId=224477)  
   
 ### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ### Reference  
  [Content Index for Unit Tests](http://go.microsoft.com/fwlink/?LinkID=254719)  
   
 ## See Also  
- [Improve Code Quality](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)   
+ [Improve Code Quality](/visualstudio/test/improve-code-quality)   
  [Testing the application](/devops-test-docs/test/test-apps-early-and-often)

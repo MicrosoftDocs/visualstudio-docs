@@ -42,10 +42,10 @@ manager: "ghogen"
  Describes how to import database files into your projects, and when you can cache data for offline use.  
   
 ## Related Sections  
- [Accessing Data in Visual Studio](../Topic/Accessing%20Data%20in%20Visual%20Studio.md)  
+ [Accessing Data in Visual Studio](/visualstudio/data-tools/accessing-data-in-visual-studio)  
  Lists topics that illustrate how to work with data in Visual Studio.  
   
- [Saving Data](/visual-studio/data-tools/saving-data)  
+ [Saving Data](/visualstudio/data-tools/saving-data)  
  Provides links to topics about working with datasets, including modifying data in a dataset and writing changes back to the data source.  
   
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)  

@@ -35,7 +35,7 @@ What is code quality? Correctness, maintainability, and even elegance are all in
   
  **Requirements**  
   
--   Some of the tools and features that are described in this section are available only in specific editions of Visual Studio—they aren’t universally available in Visual Studio. We list the specific edition requirements in the documentation for these tools and features.  
+-   Some of the tools and features that are described in this section are available only in specific editions of Visual Studio—they aren't universally available in Visual Studio. We list the specific edition requirements in the documentation for these tools and features.  
   
 ## In this section  
  In the following table, you can find descriptions of common tasks and links to more information about how you can successfully complete those tasks.  
@@ -48,8 +48,8 @@ What is code quality? Correctness, maintainability, and even elegance are all in
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Code metrics is a set of software measures that provide developers better insight into the code they are developing. The metrics include a maintainability index for functions and classes, cyclomatic complexity of functions, the inheritance depth of classes, and the amount of coupling among classes.|  
   
 ## Related Scenarios  
- [Adopting Visual Studio and Team Foundation Server for Application Lifecycle Management](assetId:///7ae9182f-4762-4bd3-b238-39ce987932e5)  
- If you are unfamiliar with Visual Studio Team Foundation, you can learn more about how you can use it in a team development environment to improve productivity and reduce risks that are associated with application development.  
+ [DevOps overview for Team Services and TFS](https://www.visualstudio.com/docs/devops-alm-overview)  
+ If you are unfamiliar with Visual Studio Team Foundation and Visual Studio Team Services, you can learn more about how you can use it in a team development environment to improve productivity and reduce risks that are associated with application development.  
   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)  
  You can use [!INCLUDE[vsPreExt](../test/includes/vspreext_md.md)] to manage the challenges and complexity of designing software. [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] lets you visually model your application, both as it exists now and as you want it to exist in the future. You can create and maintain diagrams to help you visualize the logical models of your application at the same time that they map to the physical models; this enables you to change, validate, and analyze the software that is "under design."  

@@ -1,7 +1,7 @@
 ---
-title: "Just My Code | Microsoft Docs"
+title: "Debug user code with Just My Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,27 +29,31 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Just My Code
-Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.  
+# Specify whether to debug only user code using Just My Code in Visual Studio
+You can configure Visual Studio to automatically step over system, framework, and other non-user calls and collapse those calls in the call stack window. The feature that enables or disables this behavior is called *Just My Code*. This topic describes how to use Just My Code in C#, Visual Basic, C++, and JavaScript projects.
+
+For most programming languages, Just My Code is enabled by default.
   
 ##  <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code  
- To enable or disable Just My Code, choose **Options and Settings** on the **Debug** menu. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.  
+ To enable or disable Just My Code, choose the **Tools / Options** menu in Visual Studio. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.
   
  ![Enable Just My Code in the Options dialog box](../debugger/media/dbg_justmycode_options.png "DBG_JustMyCode_Options")  
   
 > [!NOTE]
 >  The **Enable Just My Code** setting is a global setting that is applied to all Visual Studio projects in all languages.  
   
-###  <a name="BKMK_Override_call_stack_filtering"></a> Override call stack filtering  
- In call stack displays, such as the Call Stack and Tasks windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.  
+###  <a name="BKMK_Override_call_stack_filtering"></a> Show non-user code in call stack views  
+ In views that show the call stack, such as the **Call Stack** and **Tasks** windows, Just My Code collapses non-user code into an annotated frame labeled `[External Code]`. To view the collapsed frames, choose **Show External Code** on the context menu of the call stack display.
+
+ ![Show External Code in the Call Stack Window](../debugger/media/dbg_justmycode_showexternalcode.png "DBG_JustMyCode_ShowExternalCode")
   
 > [!NOTE]
->  The **Show External Code** setting is saved to the current user’s profiler. It is applied to all projects in all languages that are opened by the user.  
+>  The **Show External Code** setting is saved to the current user's profiler. It is applied to all projects in all languages that are opened by the user.
   
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
   
 ###  <a name="BKMK_NET_User_and_non_user_code"></a> User and non-user code  
- To distinguish user code from non-user code, Just My Code looks at symbol (.pdb) files and program optimizations. The debugger considers code to be non-user code when the binary is optimized or when the .pdb file is not available.  
+ To distinguish user code from non-user code, Just My Code looks at symbol (.pdb) files and program optimizations. The debugger considers code to be non-user code when the binary is optimized or when the .pdb file is not available.
   
  Three attributes also affect what the debugger considers to be My Code:  
   
@@ -62,7 +66,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
  All other code is considered to be user code.  
   
 ###  <a name="BKMK_NET_Stepping_behavior"></a> Stepping behavior  
- When you **Step Into** (Keyboard shortcut: F11) non-user code, the debugger steps over the code to the next user statement. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
+ When you **Step Into** (Keyboard shortcut: F11) non-user code, the debugger steps over the code to the next user statement. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered, then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
 ###  <a name="BKMK_NET_Breakpoint_behavior"></a> Breakpoint behavior  
  When Just My Code is enabled, you can choose **Break All** (Keyboard: Ctrl + Alt + Break) and stop execution at a location where there is no user code to display. When this happens, the No Source window is displayed. If you then choose a Step command, the debugger takes you to the next line of user code.  
@@ -94,12 +98,12 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
  You can create your own `.natstepfilter` and `.natjmc` to customize the stepping and call stack window behavior in the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers`.  
   
 ###  <a name="BKMK_CPP_Stepping_behavior"></a> Stepping behavior  
- When you **Step Into** (Keyboard shortcut: F11) non-user code from user code, the debugger steps over the code to the next line of user-code. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
+ When you **Step Into** (Keyboard shortcut: F11) non-user code from user code, the debugger steps over the code to the next line of user-code. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered, then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
  If the debugger breaks in non-user code (for example, if a Break All command stops in non-user code), stepping continues in the non-user code.  
   
 ###  <a name="BKMK_CPP_Exception_behavior"></a> Exception behavior  
- When the debugger hits an exception, it will stop on the exception regardless of whether it is in user or non-user code. The **User-unhandled** options in the **Exceptions** dialog box are ignored.  
+ When the debugger hits an exception, it stops on the exception regardless of whether it is in user or non-user code. The **User-unhandled** options in the **Exceptions** dialog box are ignored.  
   
 ###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize stepping behavior  
  You can specify functions to step over by listing them as non-user code in `*.natstepfilter` files.  
@@ -131,7 +135,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |Function|Required. Specifies one or more functions as non-user functions.|  
 |`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
 |`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
-|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  – tells the debugger to step over the matched function.<br />-   `StepInto`  – tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  - tells the debugger to step over the matched function.<br />-   `StepInto`  - tells the debugger to step into the matched functions, overriding any other `NoStepInto` for the matched functions.|  
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize call stack behavior  
  You can specify modules, source files, and functions to treat as non-user code in call stacks by specifying them in `*.natjmc` files.  
@@ -166,7 +170,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one characters) and `*` (zero or more characters). For example,<br /><br /> `<Module Name=”?:\3rdParty\UtilLibs\*” />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
+|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one character) and `*` (zero or more characters). For example,<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> tells the debugger to treat all modules in `\3rdParty\UtilLibs` on any drive as external code.|  
 |`Company`|Optional. The name of the company that publishes the module that is embedded in the executable file. You can use this attribute to disambiguate the modules.|  
   
  **File element attributes**  
@@ -194,7 +198,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |-|-|  
 |**MyCode**|User code that you own and control.|  
 |**LibraryCode**|Non-user code from libraries that you use regularly and your application relies on to function correctly (for example WinJS or jQuery).|  
-|**UnrelatedCode**|Non-user code that that could be running in your application, but you don’t own and your application doesn’t directly rely on it to function correctly (for example, an advertising SDK that displays ads). In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
+|**UnrelatedCode**|Non-user code that could be running in your application, but you don't own it and your application doesn't directly rely on it to function correctly. (For example, this could include an advertising SDK that displays ads.) In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
   
  The JavaScript debugger automatically classifies these types of code:  
   
@@ -216,21 +220,21 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 -   If a function is not user (**MyCode**) code, **Step Into** (Keyboard shortcut: F11) behaves as **Step Over** (Keyboard: F10).  
   
--   If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, then stepping temporarily behaves as if Just My Code is not enabled. As soon as you step back to user code, Just My Code stepping is re-enabled.  
+-   If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, then stepping temporarily behaves as if Just My Code is not enabled. When you step back to user code, Just My Code stepping is re-enabled.  
   
--   When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code the debugger continues until the next line of user code executes.  
+-   When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code the debugger continues until the next line of user code executes.
   
--   **Step Out** (Keyboard: Shift + F11) stops on the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
+-   **Step Out** (Keyboard: Shift + F11) stops on the next line of user code. If no user code is encountered, then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
 ###  <a name="BKMK_JS_Breakpoint_behavior"></a> Breakpoint behavior  
   
--   Breakpoints that have been set in any code will always be hit regardless of the classification of that code  
+-   Breakpoints set in code will always be hit regardless of the classification of that code  
   
 -   If the `debugger` keyword is encountered in:  
   
     -   **LibraryCode** code, the debugger always breaks.  
   
-    -   **UnrelatedCode** code, the debugger doesn’t stop.  
+    -   **UnrelatedCode** code, the debugger doesn't stop.  
   
 ###  <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  
@@ -241,7 +245,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  If first chance exceptions are enabled for the exception on the Exceptions dialog box, and the exception is thrown in **LibraryCode** or **UnrelatedCode** code:  
   
--   If the exception is handled, the debugger doesn’t break.  
+-   If the exception is handled, the debugger doesn't break.  
   
 -   If the exception is not handled, the debugger breaks.  
   
@@ -266,19 +270,19 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
     "Function" : "Classification",  
     "ScriptBlock" : "Classification",  
     "MyCode" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Libraries" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ],  
     "Unrelated" : [  
-        "UrlOrFileSpec”,  
+        "UrlOrFileSpec",  
         . . .  
-        "UrlOrFileSpec”  
+        "UrlOrFileSpec"  
     ]  
 }  
   

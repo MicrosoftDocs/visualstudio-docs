@@ -1,7 +1,7 @@
 ---
 title: "Run Windows Store apps on a remote machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -36,39 +36,27 @@ translation.priority.ht:
 # Run Windows Store apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- The Visual Studio Remote Tools app enables you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.  
-  
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- You can learn:  
-  
- [Prerequisites](#BKMK_Prerequisites)  
-  
- [Security](#BKMK_Security)  
-  
- [How to connect directly to a remote device](#BKMK_DirectConnect)  
-  
- [Installing the Remote Tools](#BKMK_Installing_the_Remote_Tools)  
-  
- [Starting the Remote Debugger Monitor](#BKMK_Starting_the_Remote_Debugger_Monitor)  
-  
- [Configuring the remote debugger](#BKMK_ConfigureRemoteDebugger)  
-  
- [Configuring the Visual Studio project for remote debugging](#BKMK_ConnectVS)  
-  
--   [Choosing the remote device for C# and Visual Basic projects](#BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects)  
-  
--   [Choosing the remote device for JavaScript and C++ projects](#BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects)  
-  
- [Running a remote debugging session](#BKMK_RunRemoteDebug)  
+To run a Windows Store app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+
+In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
+
+- For Windows 10 PCs running Creators Update and later versions, see [Debug an Installed App Package](debug-installed-app-package.md#remote). Remote tools will be installed automatically.
+- For Windows 10 Xbox, IOT, and HoloLens devices, see [Debug an Installed App Package](debug-installed-app-package.md#remote). Remote tools will be installed automatically.
+- For Windows Phone, you must be physically connected to the phone, you must either install a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) (Windows Phone 8 and 8.1) or enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) (Windows Mobile 10), and you must select **Device** as the debug target. Remote tools are not required or supported.
+
+For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic.
   
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
   
 -   The remote device and the Visual Studio computer must be connected over a network or connected directly through an Ethernet cable. Debugging over the internet is not supported.  
+
+- The remote device must be enabled for development.
+
+    - For Windows 8 and Windows 8.1 devices, a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) must be installed on the remote device.
+    - For Windows 10 devices, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). 
   
--   A developer's license must be installed on the remote device.  
-  
--   The remote device must be running the remote debugging components.  
+-   For Windows 10 PCs running a version of Windows 10 earlier than Windows 10 Creator's Update, you must install and run the remote debugging components.
   
 -   You must be an administrator on the remote device to configure the firewall during installation. You must have user access to the remote device to run or connect to the remote debugger.  
   
@@ -81,79 +69,16 @@ translation.priority.ht:
 ##  <a name="BKMK_DirectConnect"></a> How to connect directly to a remote device  
  To connect directly to a remote device, connect the Visual Studio computer to the device with a standard Ethernet cable. If the device does not have an Ethernet port, you can use a USB to Ethernet adapter to connect to the cable.  
   
-##  <a name="BKMK_Installing_the_Remote_Tools"></a> Installing the Remote Tools  
+## <a name="BKMK_download"></a> Download and Install the Remote Tools
+
+> [!IMPORTANT]
+> Debugging Windows Store apps requires Visual Studio 2013 or more recent versions.
+
+[!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
-> [!NOTE]
->  **Versions and updates**  
->   
->  The **Remote Tools for Visual Studio 2015** are not supported for previous versions of Visual Studio.  
->   
->  We recommend that you install the update version of the Remote Tools for Visual Studio 2015 that matches the update version of your Visual Studio installation.  
->   
->  The VS debugger is compatible with any combination of versions of VS 2015 and the Remote Tools for VS 2015. However, the newest functionality in Visual Studio requires both Visual Studio and the Remote Tools to be on the most up to date version.  
->   
->  Other diagnostic tools might require the same versions of the remote tools and Visual Studio.  
-  
- **Installing the remote debugging components on a remote device**  
-  
- To run or save the installation program for the remote tools, choose one of the links in this table that matches the operating system on the remote device:  
-  
-### Visual Studio 2013  
-  
-|||||  
-|-|-|-|-|  
-|**Update version**|**X86**|**X64**|**ARM**|  
-|**RTM**|[Download](http://go.microsoft.com/fwlink/?LinkId=320706)|[Download](http://go.microsoft.com/fwlink/?LinkId=320707)|[Download](http://go.microsoft.com/fwlink/?LinkId=320708)|  
-|**Update 1**|[Download](http://go.microsoft.com/fwlink/?LinkID=386599)|[Download](http://go.microsoft.com/fwlink/?LinkID=386600)|[Download](http://go.microsoft.com/fwlink/?LinkID=386601)|  
-|**Update 2**|[Download](http://go.microsoft.com/fwlink/?LinkId=393218)|[Download](http://go.microsoft.com/fwlink/?LinkId=393217)|[Download](http://go.microsoft.com/fwlink/?LinkId=393216)|  
-|**Update 3**|[Download](http://go.microsoft.com/fwlink/?LinkId=403046)|[Download](http://go.microsoft.com/fwlink/?LinkId=403047)|[Download](http://go.microsoft.com/fwlink/?LinkId=403048)|  
-|**Update 4**|[Download](http://go.microsoft.com/fwlink/?LinkId=512599)|[Download](http://go.microsoft.com/fwlink/?LinkId=512600)|[Download](http://go.microsoft.com/fwlink/?LinkId=512601)|  
-  
-### Visual Studio 2015  
-  
-|||||  
-|-|-|-|-|  
-|**Version**|**X86**|**X64**|**ARM**|  
-|**Preview**|[Download](http://download.microsoft.com/download/4/8/A/48A0EA60-6097-4BA5-B7D3-EAE49499E1FB/rtools_setup_x86.exe)|[Download](http://download.microsoft.com/download/4/8/A/48A0EA60-6097-4BA5-B7D3-EAE49499E1FB/rtools_setup_x64.exe)|[Download](http://download.microsoft.com/download/4/8/A/48A0EA60-6097-4BA5-B7D3-EAE49499E1FB/rtools_setup_arm.exe)|  
-  
- You can choose to download the install program or you can run it immediately. When you run the install program, accept the user agreement, and then choose **Install**.  
-  
- By default, the remote debugging components are installed in the **C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger** folder.  
-  
-##  <a name="BKMK_Starting_the_Remote_Debugger_Monitor"></a> Starting the Remote Debugger Monitor  
-  
-> [!NOTE]
->  Because the remote debugger configures the firewall to allow communication with the Visual Studio host, you must be an administrator on the remote device when you start the remote debugger for the first time.  
-  
- After you have installed the Remote Tools, choose **Remote Debugger** on the **Start** screen. The **Remote Debugging Configuration** appears the first time that you start the remote debugger.  
-  
- On the **Remote Debugging Configuration** dialog box:  
-  
-1.  If the Windows Web Services API is not installed, choose **Install**  
-  
-2.  In the **Configure Windows Firewall** group, choose the networks that you want to allow connections to. Only those networks that the device is currently connected to are enabled. You must choose at least one network.  
-  
-3.  Choose **Configure remote debugging** to set the firewall options and start the remote debugger.  Open the **Visual Studio Remote Debugging Monitor** dialog box to give users permissions to the remote tools and to set other advanced options.  
-  
-4.  The **Visual Studio Remote Debugging Monitor** dialog box appears. You can give users permissions to the remote tools and set other advanced option from this dialog box.  
-  
-##  <a name="BKMK_ConfigureRemoteDebugger"></a> Configuring the remote debugger  
- You use two tools to modify the configuration of the remote debugger.  
-  
-1.  On the **Tools** menu of the **Visual Studio Remote Debugging Monitor**:  
-  
-    1.  Choose **Options** to change the port number, authentication mode, or timeout interval of the remote debugger.  
-  
-    2.  Choose **Permissions** to add or remove users that have permission for remote debugging.  
-  
-        > [!NOTE]
-        >  Permissions must be granted to every user account that debugs remotely.  
-  
- You use the **Remote Debugger Configuration Wizard** to set advanced options for the remote debugger. To open the wizard, choose **Remote Debugger Configuration Wizard** on the Start screen.  
-  
-1.  On the **Configure the Visual Studio Remote Debugger** page, you can choose to run the remote debugger as a service. In most cases, running as a service is not required.  
-  
-2.  On the **Configure the Windows Firewall for Debugging** page, you can add or remove the type of networks that you want the remote debugger to connect to. Only those networks that the device is currently connected to are enabled. You must choose at least one network.  
+## <a name="BKMK_setup"></a> Set up the remote debugger
+
+[!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
   
 ##  <a name="BKMK_ConnectVS"></a> Configuring the Visual Studio project for remote debugging  
  You specify the remote device to connect to in the properties of the project. The procedure differs depending on the programming language. You can type the network name of the remote device, or you can select it from the Select Remote Debugger Connection dialog box.  

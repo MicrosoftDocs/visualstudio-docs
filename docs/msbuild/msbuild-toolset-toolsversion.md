@@ -60,11 +60,11 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  When you build a solution on the command line and specify a `ToolsVersion` for msbuild.exe, all projects and their project-to-project dependencies are built according to that `ToolsVersion`, even if each project in the solution specifies its own `ToolsVersion`. To define the `ToolsVersion` value on a per project basis, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
   
- The `ToolsVersion` attribute is also used for project migration. For example, if you open a Visual Studio 2008 project in Visual Studio 2010, the project file is updated to include ToolsVersion=”4.0”. If you then try to open that project in Visual Studio 2008, it doesn’t recognize the upgraded `ToolsVersion` and therefore builds the project as though the attribute was still set to 3.5.  
+ The `ToolsVersion` attribute is also used for project migration. For example, if you open a Visual Studio 2008 project in Visual Studio 2010, the project file is updated to include ToolsVersion="4.0". If you then try to open that project in Visual Studio 2008, it doesn't recognize the upgraded `ToolsVersion` and therefore builds the project as though the attribute was still set to 3.5.  
   
- Visual Studio 2010 and Visual Studio 2012 use a ToolsVersion of 4.0. Visual Studio 2013 uses a ToolsVersion of 12.0. In many cases, you can open the project in all three versions of Visual Studio without modification. Visual Studio always uses the correct Toolset, but you will be notified if the version used does not match the version in the project file. In almost all cases, this warning is benign as the Toolsets are compatible in most cases.  
+ Visual Studio 2010 and Visual Studio 2012 use a ToolsVersion of 4.0. Visual Studio 2013 uses a ToolsVersion of 12.0. Visual Studio 2015 uses ToolsVersion 14.0, and Visual Studio 2017 uses ToolsVersion 15.0. In many cases, you can open the project in multiple versions of Visual Studio without modification. Visual Studio always uses the correct Toolset, but you will be notified if the version used does not match the version in the project file. In almost all cases, this warning is benign as the Toolsets are compatible in most cases.  
   
- Sub-toolsets, which are described later in this topic, allow MSBuild to automatically switch which set of tools to use based on the context in which the build is being run. For example, MSBuild uses a newer set of tools when it's run in Visual Studio 2012 than when it's run in Visual Studio 2010, without your having to explicitly change the project file. For more information, see [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md).  
+ Sub-toolsets, which are described later in this topic, allow MSBuild to automatically switch which set of tools to use based on the context in which the build is being run. For example, MSBuild uses a newer set of tools when it's run in Visual Studio 2012 than when it's run in Visual Studio 2010, without your having to explicitly change the project file.  
   
 ## Toolset Implementation  
  Implement a Toolset by selecting the paths of the various tools, targets, and tasks that make up the Toolset. The tools in the Toolset that MSBuild defines come from the following sources:  
@@ -111,11 +111,11 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  Sub-toolsets become active in the presence of the `VisualStudioVersion` build property. This property may take one of these values:  
   
--   “10.0” specifies the .NET Framework 4 sub-toolset  
+-   "10.0" specifies the .NET Framework 4 sub-toolset  
   
--   “11.0” specifies the .NET Framework 4.5 sub-toolset  
+-   "11.0" specifies the .NET Framework 4.5 sub-toolset  
   
--   “12.0” specifies the .NET Framework 4.5.1 sub-toolset  
+-   "12.0" specifies the .NET Framework 4.5.1 sub-toolset  
   
  Sub-toolsets 10.0 and 11.0 should be used with ToolsVersion 4.0. In later versions, the sub-toolset version and the ToolsVersion should match.  
   

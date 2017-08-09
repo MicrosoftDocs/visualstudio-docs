@@ -67,7 +67,7 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
   
      A new file is opened in the editor. The file contains a default XML declaration, `<?xml version="1.0" encoding="utf-8">`.  
   
-3.  In the document properties window, click the browse button (**…**) on the **Schemas** field.  
+3.  In the document properties window, click the browse button (**...**) on the **Schemas** field.  
   
      The **XSD Schemas** dialog box is displayed.  
   

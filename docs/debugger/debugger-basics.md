@@ -1,7 +1,7 @@
 ---
 title: "Debugger Basics | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,19 +42,28 @@ translation.priority.mt:
 The Visual Studio debugger allows you to observe the run-time behavior of your program and locate logic errors. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution to step through your code and evaluate variables in your application.  
   
 ## In This Section  
- [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
- Explains how to use the debugger to control the execution of your application.  
+ [Get Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
+ Explains how to use debugger features to debug your applications.  
+
+ [Watch a video on the Debugger](../debugger/getting-started-with-the-debugger.md#video)  
+ Shows how to use debugger features to debug your applications.
   
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
+ [Navigate through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
  Describes how to step through code with the debugger.  
   
- [Using Breakpoints](../debugger/using-breakpoints.md)  
+ [Use Breakpoints](../debugger/using-breakpoints.md)  
  Describes what breakpoints are and how to use them.  
-  
+
+ [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md)  
+ Learn how to increase your productivity with the debugger. 
+
  [Debugger Windows](../debugger/debugger-windows.md)  
- Lists the different debugger windows.  
+ Lists the different debugger windows.
+
+ [View string values in a visualizer](string-visualizer-dialog-box.md)
+ Explains how to view string values while debugging.
   
- [Just My Code](../debugger/just-my-code.md)  
+ [Debug user code using Just My Code](../debugger/just-my-code.md)  
  Describes the Just My Code feature that lets you step over system, framework, and other non-user calls and that collapses those calls in call stack displays.  
   
  [Exception Handling](../debugger/managing-exceptions-with-the-debugger.md)  
@@ -73,4 +82,4 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
  Describes security practices for the debugger.  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

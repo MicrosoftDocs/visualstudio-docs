@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Unsupported Edits in Visual Basic Edit and Continue
-Edit and Continue les you stop program execution in Break mode, make changes to the executing code, and resume program execution with the newly incorporated changes. Declarative code edits that affect the public structure of a class are generally prohibited, but many edits that you might make to a method, property body, or private declarations within a class are allowed.  
+Edit and Continue lets you stop program execution in Break mode, make changes to the executing code, and resume program execution with the newly incorporated changes. Declarative code edits that affect the public structure of a class are generally prohibited, but many edits that you might make to a method, property body, or private declarations within a class are allowed.  
   
  If you need to make a change that is not supported, you must stop debugging, make the changes, and start a new debugging session.  
   
@@ -55,7 +55,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 -   Adding a `Using` block around the current instruction pointer.  
   
--   Adding a `SynchLock` block around the current instruction pointer.  
+-   Adding a `SyncLock` block around the current instruction pointer.  
   
 ###  <a name="BKMK_AttributeEdits"></a> Attribute Edits  
  Edit and Continue does not support modifying attributes. Specifically, Edit and Continue does not support the following changes:  

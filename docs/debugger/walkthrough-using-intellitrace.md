@@ -66,7 +66,7 @@ You can use IntelliTrace to collect information about specific events or categor
 5.  Start debugging as usual. (Press **F5** or click **Debug / Start Debugging**.  
   
     > [!TIP]
-    >  Keep the **Locals** and **Autos** windows open while you’re debugging to see and record the values in those windows.  
+    >  Keep the **Locals** and **Autos** windows open while you're debugging to see and record the values in those windows.  
   
 6.  Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
   
@@ -84,7 +84,7 @@ You can use IntelliTrace to collect information about specific events or categor
   
      You can choose the pathname link to open the file. If the full pathname is not available, the **Open File** dialog box appears.  
   
-     Click **Activate Historical Debugging**, which sets the debugger’s context to the time when the selected event was collected, showing historical data in the **Call Stack**, **Locals** and the other participating debugger windows. If source code is available, Visual Studio moves the pointer to the corresponding code in the source window so you can examine it.  
+     Click **Activate Historical Debugging**, which sets the debugger's context to the time when the selected event was collected, showing historical data in the **Call Stack**, **Locals** and the other participating debugger windows. If source code is available, Visual Studio moves the pointer to the corresponding code in the source window so you can examine it.  
   
      The following screenshot is from Visual Studio 2015 Update 1.  
   
@@ -93,7 +93,10 @@ You can use IntelliTrace to collect information about specific events or categor
 8.  If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.  
   
 ## Using IntelliTrace with events and function calls  
- IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).  
+ IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).
+
+> [!NOTE]
+> Call information is not currently available for ASP.NET Core apps. 
   
 1.  Turn on call collection. (On **Tools / Options / IntelliTrace / General**, select **IntelliTrace events and call information**. IntelliTrace will start collecting this information when the next debugging session starts.  
   

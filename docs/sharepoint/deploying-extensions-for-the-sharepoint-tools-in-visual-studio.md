@@ -25,7 +25,7 @@ manager: "ghogen"
   
  After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.  
   
- For more information about creating VSIX packages and deploying them to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847), see [Shipping Visual Studio Extensions](/visual-studio/extensibility/shipping-visual-studio-extensions).  
+ For more information about creating VSIX packages and deploying them to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847), see [Shipping Visual Studio Extensions](/visualstudio/extensibility/shipping-visual-studio-extensions).  
   
  You can create a VSIX package by using the **VSIX Project** template in Visual Studio, or you can create a VSIX package manually.  
   
@@ -36,7 +36,7 @@ manager: "ghogen"
   
 -   You can configure the VSIX project to include the build output of your extension project and other files, such as project templates and item templates, in the VSIX package.  
   
- For more information about using a VSIX project, see [VSIX Project Template](/visual-studio/extensibility/vsix-project-template).  
+ For more information about using a VSIX project, see [VSIX Project Template](/visualstudio/extensibility/vsix-project-template).  
   
 ### Organizing Your Projects  
  By default, VSIX projects only generate VSIX packages, not assemblies. Therefore, you typically do not implement a SharePoint tools extension in a VSIX project. You generally work with at least two projects:  
@@ -56,7 +56,7 @@ manager: "ghogen"
  If you include all of the projects in the same Visual Studio solution, you can modify the source.extension.vsixmanifest file in the VSIX project to include the build output of the class library projects.  
   
 ### Editing the VSIX Manifest  
- You must edit the source.extension.vsixmanifest file in the VSIX project to include entries for all the items that you want to include in your extension. When you open the source.extension.vsixmanifest file from its shortcut menu, the file appears in a designer that provides a UI for editing the XML in the file. For more information, see [VSIX Manifest Designer](/visual-studio/extensibility/vsix-manifest-designer).  
+ You must edit the source.extension.vsixmanifest file in the VSIX project to include entries for all the items that you want to include in your extension. When you open the source.extension.vsixmanifest file from its shortcut menu, the file appears in a designer that provides a UI for editing the XML in the file. For more information, see [VSIX Manifest Designer](/visualstudio/extensibility/vsix-manifest-designer).  
   
  You must add entries to the source.extension.vsixmanifest file for the following items:  
   
@@ -219,11 +219,13 @@ manager: "ghogen"
 ## Creating VSIX Packages Manually  
  If you want to manually create the VSIX package for your SharePoint tools extension, perform the following steps:  
   
-1.  Create the extension.vsixmanifest file, the [Content_Types].xml, and the VSIX package file (.vsix file). For more information, see [Anatomy of a VSIX Package](/visual-studio/extensibility/anatomy-of-a-vsix-package) and [How to: Manually Package an Extension &#40;VSIX Deployment&#41;](../Topic/How%20to:%20Manually%20Package%20an%20Extension%20(VSIX%20Deployment).md).  
+1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visualstudio/extensibility/anatomy-of-a-vsix-package).  
   
-2.  Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.  
+2.  In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.  
   
-3.  Modify the extension.vsixmanifest file:  
+3.  Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.  
+  
+4.  Modify the extension.vsixmanifest file:  
   
     -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [NIB: MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
   
@@ -237,7 +239,7 @@ manager: "ghogen"
  The following example shows the contents of an extension.vsixmanifest file for a SharePoint tools extension. The extension is implemented in an assembly that's named Contoso.ProjectExtension.dll. The extension includes a SharePoint command assembly that's named Contoso.ExtensionCommands.dll and an item template under a folder that's named **ItemTemplates** in the VSIX package. This example assumes that both of the assemblies are in the same folder as the extension.vsixmanifest file in the VSIX package.  
   
 ```  
-<PackageManifest Version=”2.0.0” xmlns=”http://schemas.microsoft.com/developer/vsx-schema/2011”>  
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">  
   <Metadata>  
     <Identity Id="CustomActionProjectItem.Microsoft.b99efe4d-cef3-4afd-b9af-034ca0c52743" Version="1.0" Language="en-US" Publisher="Microsoft" />  
     <DisplayName>CustomActionProjectItem</DisplayName>  

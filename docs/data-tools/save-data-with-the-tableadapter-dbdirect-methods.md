@@ -66,7 +66,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Name the project **TableAdapterDbDirectMethodsWalkthrough**.  
   
-3.  Select **Windows Application**, and thenselect**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and thenselect**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -106,7 +106,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 -   Drag the main **Region** node from the **Data Sources** window onto the form.  
   
-     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [RegionTableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), `RegionTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 #### To add buttons that will call the individual TableAdapter DbDirect methods  
   

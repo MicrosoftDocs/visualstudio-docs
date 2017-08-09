@@ -57,8 +57,79 @@ public sealed class BasicPackage : Package
  If for some reason neither of these methods succeeds at uninstalling the extension, you can unregister the VSPackage assembly from the command line as follows:  
   
 ```  
-<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg” /unregister <pathToVSPackage assembly>  
+<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg" /unregister <pathToVSPackage assembly>  
 ```  
+  
+<a name="using-a-custom-registration-attribute-to-register-an-extension"></a>  
+  
+## Use a custom registration attribute to register an extension  
+  
+In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register%2A> and <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister%2A> methods.  
+  
+### Creating a Custom Attribute  
+  
+The following code shows how to create a new registration attribute.  
+  
+```c#  
+[AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]  
+    public class CustomRegistrationAttribute : RegistrationAttribute  
+    {  
+    }  
+```  
+  
+ The <xref:System.AttributeUsageAttribute> is used on attribute classes to specify the program element (class, method, etc.) to which the attribute pertains, whether it can be used more than once, and whether it can be inherited.  
+  
+### Creating a Registry Key  
+  
+In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
+  
+```c#  
+public override void Register(RegistrationAttribute.RegistrationContext context)  
+{  
+    Key packageKey = null;  
+    try  
+    {   
+        packageKey = context.CreateKey(@"Packages\{" + context.ComponentType.GUID + @"}\Custom");  
+        packageKey.SetValue("NewCustom", 1);  
+    }  
+    finally  
+    {  
+        if (packageKey != null)  
+            packageKey.Close();  
+    }  
+}  
+  
+public override void Unregister(RegistrationContext context)  
+{  
+    context.RemoveKey(@"Packages\" + context.ComponentType.GUID + @"}\Custom");  
+}  
+```  
+  
+### Creating a New Value Under an Existing Registry Key  
+  
+You can add custom values to an existing key. The following code shows how to add a new value to a VSPackage registration key.  
+  
+```c#  
+public override void Register(RegistrationAttribute.RegistrationContext context)  
+{  
+    Key packageKey = null;  
+    try  
+    {   
+        packageKey = context.CreateKey(@"Packages\{" + context.ComponentType.GUID + "}");  
+        packageKey.SetValue("NewCustom", 1);  
+    }  
+    finally  
+    {  
+        if (packageKey != null)  
+            packageKey.Close();  
+                }  
+}  
+  
+public override void Unregister(RegistrationContext context)  
+{  
+    context.RemoveValue(@"Packages\" + context.ComponentType.GUID, "NewCustom");  
+}  
+```
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)

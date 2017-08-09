@@ -62,10 +62,10 @@ You can share the controls, templates, and tools that you develop by posting the
  An administrator can make a private gallery available to several computers at the same time by modifying the system registry on each computer. To accomplish this, create a .pkgdef file that describes the new registry keys and their values.  The format of this file is as follows.  
   
 ```  
-[$RootPath$\ExtensionManager\Repositories\{UniqueGUID}]  
+[$RootKey$\ExtensionManager\Repositories\{UniqueGUID}]  
 @={URI}  (REG_SZ)  
 Disabled=0 | 1 (DWORD)  
-Priority=0 (highest priority) … MaxInt (lowest priority) (DWORD) (uint)  
+Priority=0 (highest priority) ... MaxInt (lowest priority) (DWORD) (uint)  
 Protocol=VSGallery|Atom|Sharepoint (REG_SZ)  
 DisplayName={DisplayName} (REG_SZ)  
 DisplayNameResourceID={ID} (REG_SZ)  

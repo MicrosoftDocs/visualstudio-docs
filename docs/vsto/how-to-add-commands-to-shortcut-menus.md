@@ -49,7 +49,7 @@ manager: "ghogen"
   
 7.  In the Code Editor, add XML that describes the shortcut menu and the control that you want to add to the shortcut menu.  
   
-     The following example adds a button, a menu, and a gallery control to the shortcut menu for a word document. The control ID of this shortcut menu is ContextMenuText. For a complete list of Office 2010 shortcut control ID’s, see [Office 2010 Help Files: Office Fluent User Interface Control Identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).  
+     The following example adds a button, a menu, and a gallery control to the shortcut menu for a word document. The control ID of this shortcut menu is ContextMenuText. For a complete list of Office 2010 shortcut control ID's, see [Office 2010 Help Files: Office Fluent User Interface Control Identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).  
   
     ```  
     <?xml version="1.0" encoding="UTF-8"?>  

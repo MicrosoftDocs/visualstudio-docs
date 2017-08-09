@@ -52,7 +52,7 @@ manager: "ghogen"
   
  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../Topic/How%20to:%20Use%20Wizards%20with%20Project%20Templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
+-   Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
   
 -   Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).  
   
@@ -120,7 +120,7 @@ manager: "ghogen"
   
 3.  Make sure that the target framework is set to the .NET Framework 4.5, not the .NET Framework 4.5 Client Profile.  
   
-     For more information, see [How to: Target a Version of the .NET Framework](../Topic/How%20to:%20Target%20a%20Version%20of%20the%20.NET%20Framework.md).  
+     For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
 4.  Open the shortcut menu for the **ProjectTemplateWizard** project, choose **Add**, and then choose **New Item**.  
   
@@ -165,9 +165,9 @@ manager: "ghogen"
   
 12. In the **Properties** window, change the value of the **Embed Interop Types** property to **False**.  
   
-13. If you’re developing a Visual Basic project, import the ProjectTemplateWizard namespace into your project by using the **Project Designer**.  
+13. If you're developing a Visual Basic project, import the ProjectTemplateWizard namespace into your project by using the **Project Designer**.  
   
-     For more information, see [How to: Add or Remove Imported Namespaces &#40;Visual Basic&#41;](../Topic/How%20to:%20Add%20or%20Remove%20Imported%20Namespaces%20(Visual%20Basic).md).  
+     For more information, see [How to: Add or Remove Imported Namespaces &#40;Visual Basic&#41;](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md).  
   
 #### To configure the SharePointCommands project  
   
@@ -181,7 +181,7 @@ manager: "ghogen"
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the code file to the **SharePointCommands** project as a link. The code file is located in the **ProjectTemplateWizard** project, but the code in the file is also compiled in the **SharePointCommands** project.  
   
-5.  In the **SharePointCommands** project, add another code file that’s named Commands.  
+5.  In the **SharePointCommands** project, add another code file that's named Commands.  
   
 6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project**, **Add Reference**.  
   
@@ -196,7 +196,7 @@ manager: "ghogen"
 ## Creating the Wizard Model, Signing Manager, and SharePoint Command IDs  
  Add code to the ProjectTemplateWizard project to implement the following components in the sample:  
   
--   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you’ll add code to the SharePointCommands project to implement the commands.  
+-   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you'll add code to the SharePointCommands project to implement the commands.  
   
 -   The wizard data model.  
   
@@ -240,9 +240,9 @@ manager: "ghogen"
      [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]  
   
     > [!NOTE]  
-    >  The window that’s created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visual-studio/extensibility/creating-and-managing-modal-dialog-boxes).  
+    >  The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).  
   
-3.  If you’re developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you’re done, the first line should look like the following example.  
+3.  If you're developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should look like the following example.  
   
     ```  
     <Window x:Class="WizardWindow"  
@@ -410,7 +410,7 @@ manager: "ghogen"
     </WizardExtension>  
     ```  
   
-     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](/visual-studio/extensibility/wizardextension-element-visual-studio-templates).  
+     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](/visualstudio/extensibility/wizardextension-element-visual-studio-templates).  
   
 3.  Save and close the file.  
   
@@ -509,7 +509,7 @@ manager: "ghogen"
   
     -   In the **Name** box, enter **My Yes/No Column**, and then choose the **Finish** button.  
   
-     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project’s Elements.xml file in the editor.  
+     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project's Elements.xml file in the editor.  
   
 8.  Verify that Elements.xml contains the values that you specified in the wizard.  
   
@@ -543,13 +543,13 @@ manager: "ghogen"
   
 4.  Close both the experimental instance of Visual Studio and the instance in which the CustomActionProjectItem solution is open.  
   
-     For information about how to deploy [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extensions, see [Shipping Visual Studio Extensions](/visual-studio/extensibility/shipping-visual-studio-extensions).  
+     For information about how to deploy [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extensions, see [Shipping Visual Studio Extensions](/visualstudio/extensibility/shipping-visual-studio-extensions).  
   
 ## See Also  
  [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)   
  [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
  [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
- [Visual Studio Template Schema Reference](/visual-studio/extensibility/visual-studio-template-schema-reference)   
- [How to: Use Wizards with Project Templates](../Topic/How%20to:%20Use%20Wizards%20with%20Project%20Templates.md)  
+ [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)   
+ [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)  
   
   

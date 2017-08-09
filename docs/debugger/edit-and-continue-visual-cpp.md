@@ -1,7 +1,7 @@
 ---
 title: "Edit and Continue (Visual C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "05/31/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,31 +39,36 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Edit and Continue (Visual C++)
-You can use Edit and Continue in Visual C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.  
+You can use Edit and Continue in Visual C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
   
- Starting in Visual Studio 2015 Update 1, you can now use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the **/ZI** compiler switch with **/bigobj** switch. You can also use Edit  and Continue with binaries compiled with the **/FASTLINK** switch.  
-  
- Other Update 1 improvements include a new, cancelable wait dialog, and notification when a file does not support Edit and Continue. For more information about Update 1 improvements, see [Improvements for C++ Edit and Continue in Visual Studio 2015 Update 1](http://blogs.msdn.com/b/vcblog/archive/2015/11/30/improvements-for-c-edit-and-continue-in-visual-studio-2015-update-1.aspx).  
+For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/).  
   
  The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option that was introduced in Visual Studio 2013 Update 3 adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](http://msdn.microsoft.com/library/aafb762y.aspx) option.  
   
  **/Zo** disables Edit and Continue. See [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md).  
   
 ##  <a name="BKMK_Enable_or_disable_automatic_invocation_of_Edit_and_Continue"></a> Enable or disable Edit and Continue  
- You may want to  disable the automatic invocation of Edit and Continue if you are making edits to the code that you do not want applied during the current debugging session. You can also re-enable automatic Edit and Continue.  
+ You may want to  disable the automatic invocation of Edit and Continue if you are making edits to the code that you do not want applied during the current debugging session. You can also re-enable automatic Edit and Continue.
+
+> [!IMPORTANT]
+> For required build settings and other information about feature compatibility, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/.
   
-1.  On the **Tools** menu, choose **Options**.  
+1.  If you are in a debugging session, stop debugging (**Shift + F5**).
+
+2. On the **Tools** menu, choose **Options**.
   
-2.  In the **Options** dialog box, select **Debugging / General**.  
+3.  In the **Options** dialog box, select **Debugging / General**.
+
+4.  To enable, select **Enable Edit and Continue**. To disable, clear the checkbox.
   
-3.  In the **Edit and Continue** group, select or clear the **Enable Native Edit and Continue** check box.  
+5.  In the **Edit and Continue** group, select or clear the **Enable Native Edit and Continue** check box.  
   
- Altering this setting affects all projects you work on. You do not need to rebuild your application after changing this setting. You can change the setting even while you are debugging. If you build your application from the command line or from a makefile, but you debug in the Visual Studio  environment, you can still use Edit and Continue if you set the **/ZI** option.  
+ Altering this setting affects all projects you work on. You do not need to rebuild your application after changing this setting. If you build your application from the command line or from a makefile, but you debug in the Visual Studio environment, you can still use Edit and Continue if you set the **/ZI** option.  
   
 ##  <a name="BKMK_How_to_apply_code_changes_explicitly"></a> How to apply code changes explicitly  
  In Visual C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.  
   
- When you apply code changes explicitly, your program remains in break mode – no execution occurs.  
+ When you apply code changes explicitly, your program remains in break mode - no execution occurs.  
   
 -   To apply code changes explicitly, on the **Debug** menu, choose **Apply Code Changes**.  
   

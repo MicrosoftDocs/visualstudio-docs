@@ -55,7 +55,7 @@ To create an inheritance relationship between two types on a class diagram using
 4.  Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.  
   
     > [!NOTE]
-    >  If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes. See [Implementing Abstract Base Classes](../ide/refactoring-classes-and-types-class-designer.md#ImplementingAbstractBaseClasses).  
+    >  If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.  
     >   
     >  Although you can visualize existing generic types, you can't create new generic types. You also can't change the type parameters for existing generic types.  
   

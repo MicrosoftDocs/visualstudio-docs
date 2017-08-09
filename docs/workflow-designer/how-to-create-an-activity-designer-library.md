@@ -33,7 +33,7 @@ Custom activity designers allow you to create a user interface for a standard or
   
 1.  Start [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
-2.  On the **File** menu, point to **New**, and then select **Project…** to open the **New Project** dialog box.  
+2.  On the **File** menu, point to **New**, and then select **Project...** to open the **New Project** dialog box.  
   
 3.  In the **Project Types** pane, select **Workflow** from either the **Visual C#** or **Visual Basic** groupings depending on your preferred language.  
   
@@ -46,11 +46,11 @@ Custom activity designers allow you to create a user interface for a standard or
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click on the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click on the solution in **Solution Explorer**, and select **Add**, then **New Project...** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
 8.  The project template creates an activity designer definition in XAML and the code-behind implementation file in source code. The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] opens and displays the canvas for your activity designer.  
   
-9. Drag [!INCLUDE[avalon1](../workflow-designer/includes/avalon1_md.md)] controls from the **Toolbox** to the design surface to use them in your custom activity designer.  For an example of how to implement a custom activity designer, see [How to: Create a Custom Activity Designer](http://msdn.microsoft.com/Library/2f3aade6-facc-44ef-9657-a407ef8b9b31).  
+9. Drag [!INCLUDE[avalon1](../workflow-designer/includes/avalon1_md.md)] controls from the **Toolbox** to the design surface to use them in your custom activity designer.  For an example of how to implement a custom activity designer, see [How to: Create a Custom Activity Designer](/dotnet/framework/windows-workflow-foundation/how-to-create-a-custom-activity-designer).  
   
     > [!WARNING]
     >  Custom activity designers can be used for custom activities as well as for default [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)]activities.  

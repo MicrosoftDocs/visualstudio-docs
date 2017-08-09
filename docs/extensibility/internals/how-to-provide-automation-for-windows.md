@@ -49,7 +49,7 @@ You can provide automation for document and tool windows. Providing automation i
 ## Automation for Document Windows  
  A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the `T:EnvDTE.Document` object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.  
   
- In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](../../misc/vssdk-samples.md) contributes an RTF document-specific automation object.  
+ In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](http://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

@@ -1,7 +1,7 @@
 ---
-title: "How to: Enable Debugging for ASP.NET Applications | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/04/17"
+title: "Enable Debugging for ASP.NET Applications | Microsoft Docs"
+ms.custom: "H1HackMay2017"
+ms.date: "06/30/17"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,15 +37,13 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Enable Debugging for ASP.NET Applications
-To enable debugging, you must enable it in the application's web.config file and in the project properties. 
+# Enable Debugging for ASP.NET Applications in Visual Studio
+In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file and in the project properties. 
   
 > [!NOTE]  
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/library/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ### To enable ASP.NET debugging in the project properties (Visual Basic/C#)
-
-In ASP.NET versions prior to ASP.NET Core, you need to enable ASP.NET debugging in the project properties. 
   
 1.  In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
   
@@ -66,7 +64,7 @@ In ASP.NET versions prior to ASP.NET Core, you need to enable ASP.NET debugging 
   
 4.  Make sure the `debug` attribute value is set to `true`.  
   
-The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements  
+The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements.  
   
 -   element sections between the configuration and system.web elements  
   

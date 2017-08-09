@@ -29,8 +29,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Analyze Resource Consumption and UI Thread Acitivity (XAML)
-Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the performance of XAML applications by providing a detailed view of the applications’ resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load and Windows resize.  
+# Analyze Resource Consumption and UI Thread Activity (XAML)
+Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the performance of XAML applications by providing a detailed view of the applications' resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load and Windows resize.  
   
  **Application Timeline** is one of the tools you can start with the **Debug / Performance Profiler...** command.  
   
@@ -131,6 +131,8 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |![Customize Timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See Also  
- [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
+ [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
- [Optimizing WPF Application Performance](http://msdn.microsoft.com/Library/ac8c6aa3-3c68-4a24-9827-3b6c829c1ebf)
+ [Optimizing WPF Application Performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

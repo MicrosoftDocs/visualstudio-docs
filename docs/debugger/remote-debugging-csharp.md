@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug a C# or VB Project in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.custom: "remotedebugging"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -54,7 +54,7 @@ For information about remote debugging apps with Azure backends, see [Debugging 
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
   
-## Remote debug the project
+## <a name="remote_csharp"></a> Remote debug the project
 The debugger cannot deploy Visual C# or Visual Basic desktop applications to a remote machine, but you can still debug them remotely as follows. The following procedure assumes that you want to debug it on a computer named **MJO-DL**, as shown in the earlier illustration.
   
 1.  Create a WPF project named **MyWpf**.  
@@ -71,7 +71,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
 5.  Make sure the **Working directory** text box is empty.  
   
-6.  Choose **Use remote machine**, and type **MJO-DL:4020** in the text box. (4020 is the port number shown in the remote debugger window).  
+6.  Choose **Use remote machine**, and type **MJO-DL:4022** in the text box. (4022 is the port number shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).  
   
 7.  Make sure that **Enable native code debugging** is not selected.  
   
@@ -96,9 +96,9 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
      The required credentials vary depending on your network's security configuration. For example, on a domain computer, you can  enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like **MJO-DL\name@something.com**, along with the correct password.
 
-     You should see that the WPF application’s main window is open on the remote computer.
+     You should see that the WPF application's main window is open on the remote computer.
   
-14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn’t, the symbols for the application haven’t loaded. Retry, and if that doesn't work, get information about loading symbols and how troubleshoot them at [Understanding symbol files and Visual Studio’s symbol settings](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/05/understanding-symbol-files-and-visual-studio-s-symbol-settings.aspx).
+14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn't, the symbols for the application haven't loaded. Retry, and if that doesn't work, get information about loading symbols and how troubleshoot them at [Understanding symbol files and Visual Studio's symbol settings](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/05/understanding-symbol-files-and-visual-studio-s-symbol-settings.aspx).
   
 15. On the Visual Studio machine, you should see that execution has stopped at the breakpoint.
   
@@ -109,7 +109,8 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  

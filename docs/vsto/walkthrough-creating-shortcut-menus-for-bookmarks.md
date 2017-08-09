@@ -71,16 +71,16 @@ manager: "ghogen"
   
      The **Add Bookmark Control** dialog box appears.  
   
-2.  Select the words “creating a shortcut menu when you right-click the text”, and then click **OK**.  
+2.  Select the words "creating a shortcut menu when you right-click the text", and then click **OK**.  
   
      `bookmark1` is added to the document.  
   
-3.  Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words “right-click the text in a bookmark”.  
+3.  Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words "right-click the text in a bookmark".  
   
      `bookmark2` is added to the document.  
   
     > [!NOTE]  
-    >  The words “right-click the text” are in both `bookmark1` and `bookmark2`.  
+    >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.  
   
  When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.  
   

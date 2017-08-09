@@ -47,7 +47,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  This walkthrough shows you how to create a project type that has the project file name extension .myproj. This walkthrough borrows from the existing Visual C# project system.  
   
 > [!NOTE]
->  For an end-to-end sample of a complete language project system, see the IronPython Sample Deep Dive in [VSSDK Samples](../misc/vssdk-samples.md).  
+>  For more examples of extension projects, see [VSSDK Samples](http://aka.ms/vs2015sdksamples).  
   
  This walkthrough teaches how to accomplish these tasks:  
   
@@ -113,7 +113,7 @@ In Visual Studio, projects are the containers that developers use to organize so
     ```  
   
     > [!IMPORTANT]
-    >  This is not the final form of the Program.cs code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file’s **BuildAction** is **Content**, you should be able to build and run the project as usual.  
+    >  This is not the final form of the Program.cs code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file's **BuildAction** is **Content**, you should be able to build and run the project as usual.  
   
 1.  Save the file.  
   
@@ -279,7 +279,7 @@ In Visual Studio, projects are the containers that developers use to organize so
         ```  
   
         > [!IMPORTANT]
-        >  Don’t forget the backslash at the end of the path.  
+        >  Don't forget the backslash at the end of the path.  
   
     3.  Reload the project.  
   

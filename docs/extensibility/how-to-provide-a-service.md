@@ -105,7 +105,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 ### Adding a Service  
   
-1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
+1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
   
     ```c#  
     protected override void Initialize()  
@@ -131,7 +131,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     > [!NOTE]
     >  Visual Studio can reject a request to provide a service. It does so if another VSPackage already provides the service.  
   
-3.  Now you can get the service and use its methods. We’ll show this in the initializer, but you can get the service anywhere you want to use the service.  
+3.  Now you can get the service and use its methods. We'll show this in the initializer, but you can get the service anywhere you want to use the service.  
   
     ```c#  
     protected override void Initialize()  
@@ -148,7 +148,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     }  
     ```  
   
-     The value of `helloString` should be “Hello”.  
+     The value of `helloString` should be "Hello".  
   
 ## See Also  
  [How to: Get a Service](../extensibility/how-to-get-a-service.md)   

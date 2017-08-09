@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Building an Application
-By completing this walkthrough, you’ll  become more familiar with several options that you can configure when you build applications with Visual Studio. You’ll create a custom build configuration, hide certain warning messages, and increase build output information, among other tasks, for a sample application.  
+By completing this walkthrough, you'll  become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information, among other tasks, for a sample application.  
   
  This topic contains the following sections:  
   
@@ -46,7 +46,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  [Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)  
   
 ##  <a name="BKMK_installapp"></a> Install the Sample Application  
- You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.  
+ You'll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.  
   
 #### To install the sample application  
   
@@ -87,7 +87,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
 ##  <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration  
  When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
- You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you’ll create a build configuration for testing.  
+ You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you'll create a build configuration for testing.  
   
 #### To create a build configuration  
   
@@ -103,7 +103,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 4.  In the **Active solution platform** list, choose **New**.  
   
-5.  In the **New Solution Platform** dialog box, choose**x64**, and don’t copy settings from the x86 platform.  
+5.  In the **New Solution Platform** dialog box, choose**x64**, and don't copy settings from the x86 platform.  
   
      ![New Solution Platform Dialog Box](../ide/media/buildwalk_newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
   
@@ -118,7 +118,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  ![Solution Configuration option Standard Toolbar](../ide/media/buildwalk_standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
   
 ##  <a name="BKMK_building"></a> Build the Application  
- Next, you’ll build the solution with the custom build configuration.  
+ Next, you'll build the solution with the custom build configuration.  
   
 #### To build the solution  
   
@@ -203,7 +203,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      For example, in the Visual C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
   
-     In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn’t include specific warnings to exclude, so no warnings appear.  
+     In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.  
   
     > [!TIP]
     >  You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.  
@@ -211,7 +211,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
 ##  <a name="BKMK_releasebuild"></a> Create a Release Build  
- You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.  
+ You can build a version of the sample application that's optimized for shipping it. For the release build, you'll specify that the executable is copied to a network share before the build is kicked off.  
   
  For more information, see [How to: Change the Build Output Directory](../ide/how-to-change-the-build-output-directory.md) and [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md).  
   
@@ -232,7 +232,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
      For example, you can specify \\\myserver\builds.  
   
     > [!IMPORTANT]
-    >  A message box might appear, warning you that the network share that you’ve specified might not be a trusted location. If you trust the location that you’ve specified, choose the **OK** button in the message box.  
+    >  A message box might appear, warning you that the network share that you've specified might not be a trusted location. If you trust the location that you've specified, choose the **OK** button in the message box.  
   
 6.  Build the application.  
   
@@ -255,7 +255,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
      For example, you could specify \\\myserver\builds.  
   
     > [!IMPORTANT]
-    >  A message box might appear, warning you that the network share that you’ve specified might not be a trusted location. If you trust the location that you’ve specified, choose the **OK** button in the message box.  
+    >  A message box might appear, warning you that the network share that you've specified might not be a trusted location. If you trust the location that you've specified, choose the **OK** button in the message box.  
   
 6.  Build the application.  
   
@@ -263,9 +263,9 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
  The executable file is copied to the network path that you specified. Its path would be \\\myserver\builds\\*FileName*.exe.  
   
- Congratulations: you’ve successfully completed this walkthrough.  
+ Congratulations: you've successfully completed this walkthrough.  
   
 ## See Also  
- [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/Library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
+ [Walkthrough: Building a Project (C++)](/cpp/ide/walkthrough-building-a-project-cpp)   
  [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
  [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)

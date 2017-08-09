@@ -76,7 +76,7 @@ You can annotate struct and class members by using annotations that act like inv
     typedef _Struct_size_bytes_(nSize)  
     struct MyStruct {  
         size_t nSize;  
-        …  
+        ...  
     };  
   
     ```  

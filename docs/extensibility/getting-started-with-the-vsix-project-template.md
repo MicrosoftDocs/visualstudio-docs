@@ -43,7 +43,7 @@ You can use the VSIX Project template to create an extension or to package an ex
   
     1.  Open the project from which to create a template. This project can be of any project type.  
   
-    2.  On the **File** menu, click **Export Template**. Complete the steps of the wizard.  
+    2.  On the **Project** menu, click **Export Template**. Complete the steps of the wizard.  
   
          A .zip file is created in %USERPROFILE%\My Documents\Visual Studio *\<version>*\My Exported Templates\\.  
   

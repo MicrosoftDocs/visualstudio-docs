@@ -1,7 +1,7 @@
 ---
 title: "Deploying Applications, Services, and Components | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 7/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,42 +26,30 @@ caps.latest.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
+
 # Deploying Applications, Services, and Components
+
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.  
   
- In the following table, you can find descriptions of different deployment scenarios and links to more information about how you can successfully complete those scenarios.  
-  
+The following table describes different deployment scenarios and provides links to more information for each scenario.  
+
+For a discussion of options to create a setup experience for a Windows app, see [Desktop to Universal Windows Platform (UWP) Bridge](/windows/uwp/porting/desktop-to-uwp-root#convert).
+
+ 
 ## In This Section  
   
-|Deployment Scenario|Supporting Content|  
-|-------------------------|------------------------|  
-|**Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](http://msdn.microsoft.com/library/windowsazure/ee460772.aspx)|  
-|**Publish a Windows Store app:** You can easily build, submit, and sell your apps from the Windows Store to customers around the world.|[Packaging, deployment, and query of Windows Store apps](http://msdn.microsoft.com/library/hh446593\(v=vs.85\).aspx)|  
-|**Publish a Windows Phone app:** You can submit a new app or an update to an existing app for certification on the Windows Phone Dev Center.|[Publish a Windows Phone App](http://dev.windowsphone.com/publish)|  
-|**Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment)|  
-|**Deploy a LightSwitch application or service:** After you create applications and OData services by using LightSwitch, you can deploy them to a web server or to Microsoft Azure.|[Deploying LightSwitch Applications](http://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb)|  
-|**Publish an app for SharePoint:** You can publish an app for SharePoint to the Office Store or to an app catalog for an internal organization.|[Publish an app for SharePoint by using Visual Studio](http://msdn.microsoft.com/library/office/jj220044\(v=office.15\).aspx)|  
-|**Publish an app for Office:** You can publish an app for Office to the Office Store or to an app catalog for an internal organization.|[Publishing your app for Office](http://msdn.microsoft.com/library/office/fp123515.aspx)|  
-|**Deploy a WCF service:** Other applications can use WCF RIA services that you deploy to a web server.|[Deploying WCF RIA Services Solutions](http://msdn.microsoft.com/library/ff426912\(v=vs.91\).aspx)|  
-|**Deploy an OData service:** Other applications can use OData services that you deploy to a web server.|[Deploy an OData Service](http://msdn.microsoft.com/library/hh973447.aspx)|  
-|**Deploy a desktop application:** By using ClickOnce deployment, you can publish a desktop application to a web server or a network file share. Users can then install the application with a single click.|[ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)|  
-|**Create a setup program:** You can create a setup program by using InstallShield Limited Edition, which is free.|[InstallShield Limited Edition](../deployment/installshield-limited-edition.md)|  
-|**Maintain an existing setup program:** Continue using a setup program created in an earlier version of Visual Studio by installing the Visual Studio Installer Projects Extension.|[Visual Studio Installer Projects Extension](http://blogs.msdn.com/b/visualstudio/archive/2014/04/17/visual-studio-installer-projects-extension.aspx)<br /><br /> Documentation for installer projects is available here: [Visual Studio Installer Deployment](http://msdn.microsoft.com/library/2kt85ked\(v=vs.100\).aspx)|  
-|**Deploy a Visual C++ application:** You can deploy the Visual C++ runtime with an application by using central deployment, local deployment, or static linking.|[Deploying Native Desktop Applications (Visual C++)](http://msdn.microsoft.com/library/zebw5zk9.aspx)|  
-|**Deploy an application for testing:** You can enable more sophisticated development and testing by deploying your applications into virtual environments.|[Test on a lab environment](/devops-test-docs/test/test-on-a-lab-environment)|  
-|**Install prerequisites:** You can install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper.|[Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)|
+| Deployment Scenario | Supporting Content |
+| --- | --- |  
+| **Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](http://msdn.microsoft.com/library/windowsazure/ee460772.aspx) |
+| **Publish a Windows app:** You can easily build, submit, and sell your apps from the Windows Store to customers around the world. |[Publish Windows apps](https://developer.microsoft.com/store/publish-apps) |
+| **Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment) |
+| **Publish an add-in for Office:** You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
+| **Deploy a WCF or OData service:** Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](https://docs.microsoft.com/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
+| **Deploy a desktop application:** By using ClickOnce deployment, you can publish a desktop application to a web server or a network file share. Users can then install the application with a single click. | [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md) |
+| **Deploy a Visual C++ application:** You can deploy the Visual C++ runtime with an application by using central deployment, local deployment, or static linking. | [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md) |
+| **Create an installer:** an MSI-based WiX installer can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). Note that InstallShield Limited Edition is no longer included with Visual Studio; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about availability for Visual Studio 2017. |
+| **Deploy an application for testing:** You can enable more sophisticated development and testing by deploying your applications into virtual environments.|[Test on a lab environment](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md) | 
+| **Install prerequisites:** You can install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper.|[Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md) |
+| **Deploy a LightSwitch application or service:** LightSwitch is no longer supported in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch Applications](http://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) |  

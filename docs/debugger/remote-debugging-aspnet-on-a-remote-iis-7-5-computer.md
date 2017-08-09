@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug ASP.NET on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "03/22/2017"
+ms.custom: "remotedebugging"
+ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 caps.latest.revision: 6
 author: "mikejo5000"
@@ -41,7 +41,7 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 |-|-|-|
 |[Azure App Service](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
 |[Azure VM](../debugger/remote-debugging-azure.md)|If you want more control of the IIS configuration, you can [install the IIS role on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role), download and run the RDP file, and open ports in the Network security group, as described in the [Azure VM tutorial](../debugger/remote-debugging-azure.md).|
-|[Windows Server](#bkmk_configureII)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
+|[Windows Server](#bkmk_configureIIS)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
@@ -87,13 +87,21 @@ On Windows Server 2012 R2, see [IIS Configuration](https://docs.asp.net/en/lates
 
 ## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
 
-1. Open the **Internet Information Services (IIS) Manager** and go to **Sites**.
+1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
-2. Right-click the **Default Web Site** node and select **Add Application**.
+2. Open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **ASP.NET v4.0** (ASP.NET 4.5 is not an option for the Application pool). Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET project).
+3. Under **Connections** in the left pane, go to **Sites**.
 
-4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these are present, add IUSR as a user with Read & Execute rights.
+4. Select the **Default Web Site**, choose **Basic Settings**, and set the **Physical path** to **C:\Publish**.
+
+5. Right-click the **Default Web Site** node and select **Add Application**.
+
+6. Set the **Alias** field to **MyASPApp**, accept the default Application Pool (**DefaultAppPool**), and set the **Physical path** to **C:\Publish**.
+
+7. Under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the Application pool field to **ASP.NET v4.0** (ASP.NET 4.5 is not an option for the Application pool).
+
+8. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these are present, add IUSR as a user with Read & Execute rights.
 
 ## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
 
@@ -159,7 +167,7 @@ In this tutorial, we are using Visual Studio 2017.
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
     
     You should see the ASP.NET web page.
-9. In the running ASP.NET capplication, click the link to the **About** page.
+9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 

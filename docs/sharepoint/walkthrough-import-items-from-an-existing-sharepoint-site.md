@@ -52,7 +52,7 @@ manager: "ghogen"
   
 2.  Create a subsite off of the main SharePoint site by opening the **Site Actions** menu and then choosing **New Site**.  
   
-3.  In the site’s **Create** dialog box, choose the **Blank Site** type.  
+3.  In the site's **Create** dialog box, choose the **Blank Site** type.  
   
 4.  In the **Title** box, enter **Site Column Test 1**; in the **URL name** box, enter **columntest1**; leave the other settings at their default values; and then choose the **Create** button.  
   

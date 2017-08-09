@@ -68,7 +68,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
     -   [KeepDuplicates Attribute](#BKMK_KeepDuplicates)  
   
 ##  <a name="BKMK_Creating1"></a> Creating Items in a Project File  
- You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
+ You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.  
   
 ```xml  
 <ItemGroup>  
@@ -77,7 +77,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>  
 ```  
   
- The item "file2.cs" doesn’t replace the item "file1.cs"; instead, the file name is appended to the list of values for the `Compile` item type. You can’t remove an item from an item type during the evaluation phase of a build.  
+ The item "file2.cs" doesn't replace the item "file1.cs"; instead, the file name is appended to the list of values for the `Compile` item type. You can't remove an item from an item type during the evaluation phase of a build.  
   
  The following XML creates the same item type by declaring both files in one `Include` attribute. Notice that the file names are separated by a semicolon.  
   
@@ -99,7 +99,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_ReferencingItems"></a> Referencing Items in a Project File  
  To reference item types throughout the project file, you use the syntax @(`ItemType`). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  
   
- By default, the items of an item type are separated by semicolons (;) when it’s expanded. You can use the syntax @(*ItemType*, '*separator*') to specify a separator other than the default. For more information, see [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
+ By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax @(*ItemType*, '*separator*') to specify a separator other than the default. For more information, see [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
   
 ##  <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
  You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
@@ -133,7 +133,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>  
 ```  
   
- The `Exclude` attribute affects only the items that are added by the `Include` attribute in the item element that contains them both. The following example wouldn’t exclude the file Form1.cs, which was added in the preceding item element.  
+ The `Exclude` attribute affects only the items that are added by the `Include` attribute in the item element that contains them both. The following example wouldn't exclude the file Form1.cs, which was added in the preceding item element.  
   
 ```xml  
 <Compile Include="*.cs" />  

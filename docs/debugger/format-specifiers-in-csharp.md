@@ -1,5 +1,5 @@
 ---
-title: "Format Specifiers in C# | Microsoft Docs"
+title: "Format specifiers in the debugger (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -46,7 +46,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Format Specifiers in C# #
+# Format specifiers in C# in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers. You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. DataTips will reflect the format specifier in the DataTip display.  
   
  To use a format specifier, type the expression followed by a comma. After the comma, add the appropriate specifier.  
@@ -71,7 +71,7 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 |Specifier|Format|Original Watch Value|Displays|  
 |---------------|------------|--------------------------|--------------|  
-|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off.|Message “Implicit function evaluation is turned off by the user”|\<value>|  
+|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off.|Message "Implicit function evaluation is turned off by the user"|\<value>|  
 |d|decimal integer|0x0065|101|  
 |dynamic|Displays the specified object using a Dynamic View|Displays all the members of the object, including the Dynamic View|Displays only the Dynamic View|  
 |h|hexadecimal integer|61541|0x0000F065|  

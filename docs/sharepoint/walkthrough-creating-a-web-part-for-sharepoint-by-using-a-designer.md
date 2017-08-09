@@ -40,7 +40,7 @@ manager: "ghogen"
 -   Testing the web part in SharePoint.  
   
     > [!NOTE]  
-    >  Your computer might show different names or locations for some elements of the user interface for Visual Studio in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+    >  Your computer might show different names or locations for some elements of the user interface for Visual Studio in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -106,7 +106,7 @@ manager: "ghogen"
   
     -   In the **Properties** window for the **Update** button, choose the **Events** button. In the **Click** property, enter **Button1_Click**, and then choose the Enter key.  
   
-     The user control code file opens in Code Editor and the `Button1_Click` event handler appears. Later, you’ll add code to this event handler.  
+     The user control code file opens in Code Editor and the `Button1_Click` event handler appears. Later, you'll add code to this event handler.  
   
 2.  Add the following statements to the top of the user control code file.  
   
@@ -135,7 +135,7 @@ manager: "ghogen"
      [!code-cs[SP_VisualWebPart#4](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#4)]  
   
 ## Testing the web part  
- When you run the project, the SharePoint site opens. The web part is automatically added to the Web Part Gallery in SharePoint. To test this project, you’ll perform the following tasks:  
+ When you run the project, the SharePoint site opens. The web part is automatically added to the Web Part Gallery in SharePoint. To test this project, you'll perform the following tasks:  
   
 -   Add an event to each of two separate calendar lists.  
   

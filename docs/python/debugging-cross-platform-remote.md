@@ -1,12 +1,13 @@
 ---
 title: "Python Cross-Platform Remote Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/4/2017
+ms.date: 7/12/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa667357-763f-4ce6-8e47-48f9337658a8
@@ -14,46 +15,32 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
-# Remotely Debugging Python Code
+# Remotely Debugging Python Code on Linux
 
-Visual Studio can launch and debug Python applications locally and remotely on a Windows machine (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPython using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
+Visual Studio can launch and debug Python applications locally and remotely on a Windows computer (see [Remote Debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPython using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
 
-When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote machine to allow TCP connections.
+When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This hosting requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote computer to allow TCP connections.
 
 For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
 
 > [!VIDEO https://www.youtube.com/embed/y1Qq7BrV6Cc]
 
-## Setting up a Linux machine
+## Setting up a Linux computer
 
-To follow this walkthrough you'll need the following:
+The following items are needed to follow this walkthrough:
 
-- A remote machine running Python on an operating system like Mac OSX or Linux.
-- Port 5678 (inbound) opened on that machine's firewall, which is the default for remote debugging.
+- A remote computer running Python on an operating system like Mac OSX or Linux.
+- Port 5678 (inbound) opened on that computer's firewall, which is the default for remote debugging.
 
-You can easily create [Linux virtual machines on Azure](https://docs.microsoft.com/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](https://docs.microsoft.com/azure/virtual-machines/linux/use-remote-desktop) from Windows. Using Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters) for additional Python download locations.
+You can easily create [Linux virtual machines on Azure](https://docs.microsoft.com/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](https://docs.microsoft.com/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters) for additional Python download locations.
 
 For details on creating a firewall rule for an Azure VM, see [Opening ports to a VM in Azure using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal).
 
 ## Preparing the script for debugging
 
-1. On the remote machine, create a Python file called `guessing-game.py` with the following code:
+1. On the remote computer, create a Python file called `guessing-game.py` with the following code:
 
   ```python
     import random
@@ -87,7 +74,7 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
    ptvsd.enable_attach('my_secret')
    ```
 
-   The first argument passed to `enable_attach` (called "secret") restricts access to the running script, and you'll enter this secret when attaching the remote debugger. (Though not recommended, you can allow anyone to connect, use `enable_attach(secret=None)`.)
+   The first argument passed to `enable_attach` (called "secret") restricts access to the running script, and you enter this secret when attaching the remote debugger. (Though not recommended, you can allow anyone to connect, use `enable_attach(secret=None)`.)
 
 1. Save the file and run `python3 guessing-game.py`. The call to `enable_attach` runs in the background and waits for incoming connections as you otherwise interact with the program. If desired, the `wait_for_attach` function can be called after `enable_attach` to block the program until the debugger attaches.
 
@@ -96,45 +83,43 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
 
 ## Attaching remotely from Python Tools
 
-In these steps we'll set a simple breakpoint to stop the remote process.
+In these steps, we set a simple breakpoint to stop the remote process.
 
-1. Create a copy of the remote file on the local machine and open it in Visual Studio. It doesn't matter where the file is located, but its name should match the name of the script on the remote machine that will be attached to.
+1. Create a copy of the remote file on the local computer and open it in Visual Studio. It doesn't matter where the file is located, but its name should match the name of the script on the remote computer.
 
-1. (Optional) To have IntelliSense for ptvsd on your local machine, install the ptvsd package into your Python environment.
+1. (Optional) To have IntelliSense for ptvsd on your local computer, install the ptvsd package into your Python environment.
 
 1. Select **Debug > Attach to Process**.
 
-1. In the **Attach to Process** dialog that appears, set **Connection Type** to **Python remote (ptvsd)**. (On older versions of Visual Studio these are named **Transport** and **Python remote debugging**.)
+1. In the **Attach to Process** dialog that appears, set **Connection Type** to **Python remote (ptvsd)**. (On older versions of Visual Studio these commands are named **Transport** and **Python remote debugging**.)
 
-1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote machine (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number.
+1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote computer (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number.
 
     > [!Warning]
     > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below for [Securing the debugger connection with SSL](#securing-the-debugger-connection-with-ssl).
 
-1. Press Enter to populate the list of available ptvsd processes on that machine:
+1. Press Enter to populate the list of available ptvsd processes on that computer:
 
     ![Entering the connection target and listing processes](media/remote-debugging-qualifier.png)
 
-    If you happen to start another program on the remote machine after populating this list, select the **Refresh** button.
+    If you happen to start another program on the remote computer after populating this list, select the **Refresh** button.
 
 1. Select the process to debug and then **Attach**, or double-click the process.
 
-1. Visual Studio then switches into debugging mode while the script continues to run on the remote machine, providing all the usual [debugging](debugging.md) capabilities. For example, set a breakpoint on the `if guess < number:` line, then switch over to the remote machine and enter another guess. After you do so, Visual Studio on your local machine stops at that breakpoint, shows local variables, and so on:
+1. Visual Studio then switches into debugging mode while the script continues to run on the remote computer, providing all the usual [debugging](debugging.md) capabilities. For example, set a breakpoint on the `if guess < number:` line, then switch over to the remote computer and enter another guess. After you do so, Visual Studio on your local computer stops at that breakpoint, shows local variables, and so on:
 
     ![Breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
 
-1. When you stop debugging, Visual Studio detaches from the program, which continues to run on the remote machine. ptvsd also continues listening for attaching debuggers, so you can re-attach to the process again at any time.
-
-1. If you stop the remote program, Visual Studio will not automatically detach the debugger, but 
+1. When you stop debugging, Visual Studio detaches from the program, which continues to run on the remote computer. ptvsd also continues listening for attaching debuggers, so you can reattach to the process again at any time.
 
 ### Connection troubleshooting
 
 1. Make sure that you've selected **Python remote (ptvsd)** for the **Connection Type** (**Python remote debugging** for **Transport** with older versions.)
 1. Check that the secret in the **Connection Target** (or **Qualifier**) exactly matches the secret in the remote code.
-1. Check that the IP address in the **Connection Target** (or **Qualifier**) matches that of the remote machine.
-1. Check that you're opened the remote debugging port on the remote machine, and that you've included the port suffix in the connection target, such as `:5678`.
+1. Check that the IP address in the **Connection Target** (or **Qualifier**) matches that of the remote computer.
+1. Check that you're opened the remote debugging port on the remote computer, and that you've included the port suffix in the connection target, such as `:5678`.
     - If you need to use a different port, you can specify it in the `enable_attach` call using the `address` argument, as in `ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))`. In this case, open that specific port in the firewall.
-1. Check that the version of ptvsd installed on the remote machine as returned by `pip3 list` matches that used by the version of the Python tools you're using in Visual Studio in the table below. If necessary, update ptvsd on the remote machine.
+1. Check that the version of ptvsd installed on the remote computer as returned by `pip3 list` matches that used by the version of the Python tools you're using in Visual Studio in the table below. If necessary, update ptvsd on the remote computer.
 
     | Visual Studio Version | Python tools/ptvsd version |
     | --- | --- |
@@ -148,7 +133,7 @@ In these steps we'll set a simple breakpoint to stop the remote process.
 
 By default, the connection to the ptvsd remote debug server is secured only by the secret and all data is passed in plain text. For a more secure connection, ptvsd supports SSL, which you set up as follows:
 
-1. On the remote machine, generate separate self-signed certificate and key files using openssl:
+1. On the remote computer, generate separate self-signed certificate and key files using openssl:
     
     ```bash
     openssl req -new -x509 -days 365 -nodes -out cert.cer -keyout cert.key
@@ -158,22 +143,22 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 
     (See [Self-signed certificates](http://docs.python.org/3/library/ssl.html#self-signed-certificates) in the Python `ssl` module docs for additional details. Note that the command in those docs generates only a single combined file.)
 
-1. In the code modify the call to `enable_attach` to include `certfile` and `keyfile` arguments using the filenames as the values (these arguments have the same meaning as for the standard `ssl.wrap_socket` Python function):
+1. In the code, modify the call to `enable_attach` to include `certfile` and `keyfile` arguments using the filenames as the values (these arguments have the same meaning as for the standard `ssl.wrap_socket` Python function):
 
     ```python
     ptvsd.enable_attach(secret='my_secret', certfile='cert.cer', keyfile='cert.key')
     ```
     
-    You can also make the same change in the code file on the local machine, but because this code isn't actually run, it isn't strictly necessary.    
+    You can also make the same change in the code file on the local computer, but because this code isn't actually run, it isn't strictly necessary.    
 
-1. Restart the Python program on the remote machine, making it ready for debugging.
+1. Restart the Python program on the remote computer, making it ready for debugging.
 
-1. Secure the channel by adding the certificate to Trusted Root CA on the Windows machine with Visual Studio:
+1. Secure the channel by adding the certificate to Trusted Root CA on the Windows computer with Visual Studio:
 
-    1. Copy the certificate file from the remote machine to the local machine.
+    1. Copy the certificate file from the remote computer to the local computer.
     1. Open Control Panel and navigate to **Administrative Tools > Manage computer certificates**.
     1. In the window that appears, expand **Trusted Root Certification Authorities** on the left side, right-click **Certificates**, and select **All Tasks > Import...**.
-    1. Navigate to and select the `.cer` file copied from the remote machine, then click through the dialogs to complete the import.
+    1. Navigate to and select the `.cer` file copied from the remote computer, then click through the dialogs to complete the import.
 
 1. Repeat the attach process in Visual Studio as described earlier, now using `tcps://` as the protocol for the **Connection Target** (or **Qualifier**).
 
@@ -181,7 +166,7 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 
 ### Warnings
 
-Visual Studio prompts you about potential certificate issues when connecting over SSL as described below. You may ignore the warnings and proceed, but although the channel will still be encrypted against eavesdropping it can be open to man-in-the-middle attacks.
+Visual Studio prompts you about potential certificate issues when connecting over SSL as described below. You may ignore the warnings and proceed, but although the channel is still be encrypted against eavesdropping it can be open to man-in-the-middle attacks.
 
 1. If you see the "remote certificate is not trusted" warning below, it means you did not properly add the certificate to the Trusted Root CA. Check those steps and try again.
 
@@ -192,4 +177,4 @@ Visual Studio prompts you about potential certificate issues when connecting ove
     ![SSL certificate hostname warning](media/remote-debugging-ssl-warning2.png)
 
 > [!Warning]
-> At present, Visual Studio 2017 Preview will hang when you ignore these warnings. Be sure to correct all problems before attempting to connect.
+> At present, Visual Studio 2017 hangs when you ignore these warnings. Be sure to correct all problems before attempting to connect.

@@ -1,7 +1,7 @@
 ---
 title: "Beginners Guide to Performance Profiling in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,6 +41,10 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+
+|         |         |
+|---------|---------|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
 
 In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Run profiling tools without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
@@ -144,20 +148,27 @@ Here is more information on the column values:
 
 ## <a name="BKMK_External_Code"></a>View external code
 
-External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won’t be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
   
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
   
 ![Choose Filter View, then Show External Code](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
   
-Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[…]**.
+Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
   
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
 > If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+
+## <a name="video"></a> Watch a video on using the diagnostics tools
+
+<div style="padding-top: 56.25%; position: relative; width: 100%;">
+<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171" frameborder="0" allowfullscreen></iframe>
+</div>
   
 ## See Also  
  [[Memory Usage](../profiling/memory-usage.md)
  [CPU Usage](../profiling/cpu-usage.md)
- [Profiling Tools](../profiling/profiling-tools.md)
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

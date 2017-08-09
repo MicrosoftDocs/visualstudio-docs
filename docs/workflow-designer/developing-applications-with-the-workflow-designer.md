@@ -57,7 +57,7 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
   
 -   The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] services.  
   
--   The **Add Service Reference…** functionality allows you to generate activities automatically that access Web services.  
+-   The **Add Service Reference...** functionality allows you to generate activities automatically that access Web services.  
   
 ## In This Section  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)  
@@ -78,5 +78,5 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
  [Designer ReHosting &#91;WF Samples&#93;](http://msdn.microsoft.com/Library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  
  This sample shows how to create the WPF layout to contain the designer.  
   
- [Custom Activity Designers](http://msdn.microsoft.com/Library/dcf14dca-ce6d-4278-96ba-062f0a679075)  
+ [Custom Activity Designers](/dotnet/framework/windows-workflow-foundation/samples/custom-activity-designers)  
  This section contains activity samples that use custom designers for display in the workflow designer.

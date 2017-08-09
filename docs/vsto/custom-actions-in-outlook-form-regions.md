@@ -50,7 +50,7 @@ manager: "ghogen"
 |**Title**|Specifies the label of the custom action button.|  
   
 ## Customizing a Custom Action at Run Time  
- You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](HV05247448) event of the [Action](HV05247650) object.  
+ You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](http://msdn.microsoft.com/library/office/ff862186.aspx) event of the [MailItem object](http://msdn.microsoft.com/library/office/ff861332.aspx).  
   
 ## See Also  
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   

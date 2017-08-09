@@ -15,8 +15,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "scripting-docs",
@@ -24,15 +23,14 @@
       "build_output_subfolder": "scripting-docs",
       "locale": "en-us",
       "monikers": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "mac",
@@ -47,8 +45,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -56,13 +53,24 @@
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/visualstudio-docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/visualstudio-docs-pr",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
     }
   ],
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false
 }

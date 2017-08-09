@@ -26,7 +26,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Debugging Office Projects
-  You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debugging in Visual Studio](/visual-studio/debugger/debugging-in-visual-studio).  
+  You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debugging in Visual Studio](/visualstudio/debugger/debugging-in-visual-studio).  
   
 > [!TIP]  
 >  To simplify debugging, close any open instances of the Office application before you build and debug it.  
@@ -48,7 +48,7 @@ manager: "ghogen"
  If you are debugging a document-level customization for Word, repeatedly stopping the debugger and causing Word to close suddenly can lead to the Normal template becoming corrupted. If this happens, you can delete the corrupted Normal template and it will automatically be recreated the next time you open Word. However, any macros that were stored in the Normal template are not recreated.  
   
 ### Debug Office 2013 VSTO Add-ins by using either Office 2013 or Office 2016  
- If you’re using Visual Studio 2015, and you have both versions of Office installed side-by-side, Visual Studio starts Office 2016. If you’re using Visual Studio 2013, Visual Studio starts Office 2013.  
+ If you're using Visual Studio 2015, and you have both versions of Office installed side-by-side, Visual Studio starts Office 2016. If you're using Visual Studio 2013, Visual Studio starts Office 2013.  
   
  If you want to debug your VSTO Add-in by using a different version of Office (2013 or 2016), open the **Project Designer**, and in the **Debug** tab, choose the **Start external program** option button. Then, browse to the location of the appropriate Office application executable.  
   
@@ -56,13 +56,13 @@ manager: "ghogen"
  When you start debugging an Office project, F10 and F11 do not have the same behavior as when you start debugging other Visual Basic or C# projects. In Visual Basic or C# projects, the debugger stops on the main function; in Office projects, Visual Studio does not have control over the Office application's main function. However, during debugging, F10 and F11 do have the same functions as in Visual Basic and C# projects.  
   
 ## Displaying Exceptions  
- Because of the way that managed code interacts with unmanaged code, Visual Studio does not display errors that are thrown by Microsoft Office applications. For example, if an VSTO Add-in created by using Office development tools in Visual Studio throws an exception, the Microsoft Office application continues without displaying an error. To see these errors, set the debugger to break on common language runtime exceptions. For more information, see [How to: Break When an Exception is Thrown](../Topic/How%20to:%20Break%20When%20an%20Exception%20is%20Thrown.md).  
+ Because of the way that managed code interacts with unmanaged code, Visual Studio does not display errors that are thrown by Microsoft Office applications. For example, if an VSTO Add-in created by using Office development tools in Visual Studio throws an exception, the Microsoft Office application continues without displaying an error. To see these errors, set the debugger to break on common language runtime exceptions. For more information, see [Managing exceptions with the debugger](/visualstudio/debugger/managing-exceptions-with-the-debugger).  
   
  If you set the debugger to break on common language runtime exceptions, all exceptions will now break into the debugger, including ones that you have handled and some first-chance exceptions from the runtime itself, which might not be relevant to your project. Errors referring to msosec not being found appear in every project, but are safe to ignore. These msosec exceptions will not affect your solution.  
   
  You can also use **Try...Catch** statements around your methods to catch exceptions.  
   
- By default, Visual Studio also does not display Just-In-Time debugging errors for Office projects; however, you can enable this feature so that you can see the errors that are raised. For more information, see [Just-In-Time Debugging in Visual Studio](/visual-studio/debugger/just-in-time-debugging-in-visual-studio).  
+ By default, Visual Studio also does not display Just-In-Time debugging errors for Office projects; however, you can enable this feature so that you can see the errors that are raised. For more information, see [Just-In-Time Debugging in Visual Studio](/visualstudio/debugger/just-in-time-debugging-in-visual-studio).  
   
 ## Command Line Arguments  
  If the **Start Action** on the **Debug** property page is set to **Start Project**, Visual Studio does not use command line arguments when debugging the project, even if you have specified command line arguments as start options. If you want to use command line arguments when you start debugging, you must select a **Start Action** other than **Start Project**.  

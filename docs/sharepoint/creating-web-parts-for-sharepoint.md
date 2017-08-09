@@ -55,9 +55,7 @@ manager: "ghogen"
  For more information, see [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md).  
   
 ### Visual Web Part Item  
- A visual web part is a web part that you create by using the Visual Web Developer designer in Visual Studio. See [Visual Studio Web Development Content Map](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539).  
-  
- A visual web part functions the same as any other web part. To add controls, such as buttons and text boxes, to a web part, you add code to an XML file. However, you add controls to a visual web part by dragging or copying them onto the web part from the Visual Studio **Toolbox**. The designer then generates the required code in the XML file. See [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
+ A visual web part is a web part that you create by using the Visual Web Developer designer in Visual Studio. A visual web part functions the same as any other web part. To add controls, such as buttons and text boxes, to a web part, you add code to an XML file. However, you add controls to a visual web part by dragging or copying them onto the web part from the Visual Studio **Toolbox**. The designer then generates the required code in the XML file. See [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
   
 ## SharePoint Controls  
  Visual Studio provides some controls for creating SharePoint pages, such as application pages. These controls appear in the **Toolbox** under **SharePoint Controls**. The functionality for these controls derives from the [Microsoft.SharePoint.WebControls](http://go.microsoft.com/fwlink/?LinkId=235315) namespace, which contains ASP.NET server controls that are used on SharePoint site and list pages.  
@@ -121,6 +119,5 @@ manager: "ghogen"
 |[Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)|Describes how to design a web part for SharePoint.|  
 |[Walkthrough: Creating a Web Part for SharePoint by Using a Designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)|Describes how to design a web part for SharePoint by dragging controls to a visual design surface.|  
 |[Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)|Describes how to design a web part for SharePoint that hosts a Silverlight application and displays data from SharePoint lists.|  
-|[Working with Visual Web Developer](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539)|Describes how to use the designer that appears when you open a webpage in your project.|  
   
   

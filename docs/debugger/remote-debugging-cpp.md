@@ -1,13 +1,13 @@
 ---
 title: "Remote Debug a Visual C++ Project | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.custom: "remotedebugging"
+ms.date: "05/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -40,7 +40,7 @@ translation.priority.mt:
 # Remote Debugging a Visual C++ Project in Visual Studio
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
   
-For information about remote debugging apps with Azure backends, see [Debugging an Azure cloud service or virtual machine in Visual Studio](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines). For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
+For information about remote debugging apps with Azure backends, see [Remote debugging on Azure](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines). For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
   
 ## Download and Install the Remote Tools
 
@@ -54,7 +54,7 @@ For information about remote debugging apps with Azure backends, see [Debugging 
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
-## Remote debug a Visual C++ project  
+## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
   
 1.  Create an MFC application named **mymfc.**  
@@ -107,7 +107,8 @@ For information about remote debugging apps with Azure backends, see [Debugging 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)] 
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  

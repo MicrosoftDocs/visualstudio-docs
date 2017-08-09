@@ -70,5 +70,6 @@ This section describes the debugger-related property settings, and the preparati
  Describes how to set a registry key to indicate to the debugger which version to use.  
   
 ## See Also  
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Security](../debugger/debugger-security.md)
+ [Debugging in Visual Studio](../debugger/index.md)
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

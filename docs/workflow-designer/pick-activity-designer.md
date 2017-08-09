@@ -32,7 +32,7 @@ translation.priority.ht:
 The <xref:System.Activities.Statements.Pick> activity provides event-based control flow. The activity executes one of several branches in response to a triggering event.  
   
 ## The Pick Activity  
- A <xref:System.Activities.Statements.Pick> activity contains a collection of <xref:System.Activities.Statements.PickBranch> objects, one of which the <xref:System.Activities.Statements.Pick> activity can execute due to some incoming event that serves as a trigger. In this way [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides event-based control flow modeling. Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> and an <xref:System.Activities.Statements.PickBranch.Action%2A>. At the beginning of a <xref:System.Activities.Statements.Pick> activity’s execution, all the trigger activities of the <xref:System.Activities.Statements.PickBranch> elements are scheduled. When the first activity completes, the corresponding action activity is scheduled, and all other trigger activities are canceled.  
+ A <xref:System.Activities.Statements.Pick> activity contains a collection of <xref:System.Activities.Statements.PickBranch> objects, one of which the <xref:System.Activities.Statements.Pick> activity can execute due to some incoming event that serves as a trigger. In this way [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides event-based control flow modeling. Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> and an <xref:System.Activities.Statements.PickBranch.Action%2A>. At the beginning of a <xref:System.Activities.Statements.Pick> activity's execution, all the trigger activities of the <xref:System.Activities.Statements.PickBranch> elements are scheduled. When the first activity completes, the corresponding action activity is scheduled, and all other trigger activities are canceled.  
   
 ### How to use the Pick Activity Designer  
  The **Pick** activity designer can be found in the **Control Flow** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)  
@@ -50,5 +50,5 @@ The <xref:System.Activities.Statements.Pick> activity provides event-based contr
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
- [Pick Activity](http://msdn.microsoft.com/Library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
- [Using the Pick Activity](http://msdn.microsoft.com/Library/b89be812-a247-4025-b0e3-ffb20db027a6)
+ [Pick Activity](/dotnet/framework/windows-workflow-foundation/pick-activity)   
+ [Using the Pick Activity](/dotnet/framework/windows-workflow-foundation/samples/using-the-pick-activity)

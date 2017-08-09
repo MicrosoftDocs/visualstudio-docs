@@ -24,7 +24,7 @@ Represents a thread of execution within a particular application.
   
 |Method|Description|  
 |------------|-----------------|  
-|[IRemoteDebugApplicationThread::GetSystemThreadId](../../winscript/reference/iremotedebugapplicationthread-getsystemthreadid.md)|Returns an operating system–dependent identifier associated with the thread.|  
+|[IRemoteDebugApplicationThread::GetSystemThreadId](../../winscript/reference/iremotedebugapplicationthread-getsystemthreadid.md)|Returns an operating system-dependent identifier associated with the thread.|  
 |[IRemoteDebugApplicationThread::GetApplication](../../winscript/reference/iremotedebugapplicationthread-getapplication.md)|Returns the application object associated with this thread.|  
 |[IRemoteDebugApplicationThread::EnumStackFrames](../../winscript/reference/iremotedebugapplicationthread-enumstackframes.md)|Returns an enumerator for the stack frames associated with this thread.|  
 |[IRemoteDebugApplicationThread::GetDescription](../../winscript/reference/iremotedebugapplicationthread-getdescription.md)|Gets the description and state of this thread.|  

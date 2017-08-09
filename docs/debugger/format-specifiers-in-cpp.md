@@ -1,5 +1,5 @@
 ---
-title: "Format Specifiers in C++ | Microsoft Docs"
+title: "Format specifiers in the debugger (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -48,13 +48,13 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Format Specifiers in C++
+# Format specifiers in C++ in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
   
  You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. The DataTip display reflects the format specifier.  
   
 > [!NOTE]
->  The Visual Studio native debugger changed to a new debugging engine. As part of this change, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.  
+>  When the Visual Studio native debugger changed to a new debugging engine, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.
 >   
 >  -   [Format Specifiers](#BKMK_Visual_Studio_2012_format_specifiers) describes the format specifiers in the new debugging engine.  
 > -   [Format specifiers for interop debugging with C++/CLI](#BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue) describes the format specifiers in the older debugging engine.  
@@ -84,19 +84,19 @@ int main() {
 |x<br /><br /> **h**|hexadecimal integer|102|0xcccccccc|  
 |X<br /><br /> **H**|hexadecimal integer|102|0xCCCCCCCC|  
 |c|single character|0x0065, c|101 'e'|  
-|s|const char* string|\<location> “hello world”|"hello world"|  
-|**sb**|const char* string (no quotation marks)|\<location> “hello world”|hello world|  
+|s|const char* string|\<location> "hello world"|"hello world"|  
+|**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|  
 |s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
 |**s8b**|UTF-8 string (no quotation marks)|\<location> "hello world"|hello world|  
-|su|Unicode (UTF-16 encoding) string|\<location> L”hello world”|L"hello world"<br /><br /> u"hello world"|  
-|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L”hello world”|hello world|  
-|bstr|BSTR string|\<location> L”hello world”|L”hello world”|  
+|su|Unicode (UTF-16 encoding) string|\<location> L"hello world"|L"hello world"<br /><br /> u"hello world"|  
+|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L"hello world"|hello world|  
+|bstr|BSTR string|\<location> L"hello world"|L"hello world"|  
 |env|Environment block (double-null terminated string)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
-|**s32**|UTF-32 string|\<location> U”hello world”|U”hello world”|  
-|**s32b**|UTF-32 string (no quotation marks)|\<location> U”hello world”|hello world|  
+|**s32**|UTF-32 string|\<location> U"hello world"|U"hello world"|  
+|**s32b**|UTF-32 string (no quotation marks)|\<location> U"hello world"|hello world|  
 |**en**|enum|Saturday(6)|Saturday|  
-|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, …}|  
-|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value…}|{member=value…}|  
+|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|  
+|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|  
 |**nd**|Displays only the base class information, ignoring derived classes|`(Shape*) square` includes base class and derived class information|Displays only base class information|  
 |hr|HRESULT or Win32 error code. (The debugger now decodes HRESULTs automatically, so this specifier is not required in those cases.|S_OK|S_OK|  
 |wc|Window class flag|0x0010|WC_DEFAULTCHAR|  
@@ -127,7 +127,7 @@ int main() {
 |**l,h**|long or short prefix for: d, i, u, o, x, X|00406042|0x0c22|  
 |**f**|signed floating point|(3./2.), f|1.500000|  
 |**e**|signed scientific notation|(3.0/2.0)|1.500000e+000|  
-|**g**g|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
+|**g**|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
 |c|single character|\<location>|101 'e'|  
 |s|const char*|\<location>|"hello world"|  
 |su|const wchar_t*<br /><br /> const char16_t\*|\<location>|L"hello world"|  

@@ -1,7 +1,7 @@
 ---
-title: "Remote Debugging in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "04/03/17"
+title: "Remote debugging in Visual Studio | Microsoft Docs"
+ms.custom: "remotedebugging"
+ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -46,12 +46,12 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|ASP.NET|[Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
+|ASP.NET|[Remote Debugging ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debugging ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote Debugging a C# or Visual Basic Project](remote-debugging-csharp.md)|
 |C++|[Remote Debugging a C++ Project](remote-debugging-cpp.md)|
 |Universal Windows Apps (UWP)|[Debug an Installed App Package](debug-installed-app-package.md)|
 |Azure|[Remote Debugging ASP.NET on Azure](remote-debugging-azure.md)|
-|Azure Cloud Service|[Debugging an Azure cloud service](https://docs.microsoft.com/en-us/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
+|Azure Service Fabric|[Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   
@@ -97,8 +97,8 @@ For debugging in ASP.NET and other server environments, you must either run the 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  
+ [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

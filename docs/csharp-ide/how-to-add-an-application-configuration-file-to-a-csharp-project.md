@@ -33,10 +33,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Add an Application Configuration File to a C# Project
-By adding an application configuration file (app.config file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the Runtime Locates Assemblies](http://msdn.microsoft.com/Library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34).  
+By adding an application configuration file (app.config file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the Runtime Locates Assemblies](/dotnet/framework/deployment/how-the-runtime-locates-assemblies).  
   
 > [!NOTE]
->  The Windows Store doesn’t support <xref:System.Configuration>. As a result, Store apps don’t contain an app.config template.  
+>  The Windows Store doesn't support <xref:System.Configuration>. As a result, Store apps don't contain an app.config template.  
   
  When you build your project, the development environment automatically copies your app.config file, changes the file name of the copy to match your executable, and then moves the copy to the bin directory.  
   
@@ -54,7 +54,7 @@ By adding an application configuration file (app.config file) to a C# project, y
   
 ## See Also  
  [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)   
- [Configuration File Schema](http://msdn.microsoft.com/Library/69003d39-dc8a-460c-a6be-e6d93e690b38)   
- [Configuring Apps](http://msdn.microsoft.com/Library/86bd26d3-737e-4484-9782-19b17f34cd1f)   
+ [Configuration File Schema](/dotnet/framework/configure-apps/file-schema/index)   
+ [Configuring Apps](/dotnet/framework/configure-apps/index)   
  [How to: Configure an App to Target a .NET Framework Version](http://msdn.microsoft.com/en-us/5247b307-89ca-417b-8dd0-e8f9bd2f4717)   
  [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)

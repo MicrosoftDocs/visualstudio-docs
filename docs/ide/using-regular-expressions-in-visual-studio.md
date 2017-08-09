@@ -39,15 +39,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using Regular Expressions in Visual Studio
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](http://msdn.microsoft.com/Library/521b3f6d-f869-42e1-93e5-158c54a6895d).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).  
   
  Before Visual Studio 2012, Visual Studio used custom regular expression syntax in the Find and Replace windows. See [Visual Studio Regular Expression Conversions](https://msdn.microsoft.com/en-us/library/2k3te2cs\(v=vs.110\).aspx) for an explanation of how to convert some of the more commonly-used custom regular expression symbols to the .NET versions.  
   
 > [!TIP]
->  In Windows operating systems, most lines end in “\r\n” (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET Regular Expression service.  
+>  In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET Regular Expression service.  
   
 > [!TIP]
->  For information about regular expressions that are used in replacement patterns, see [Substitutions](http://msdn.microsoft.com/Library/d1f52431-1c7d-4dc6-8792-6b988256892e). To use a numbered capture group, the syntax is `$1` to specify the numbered group and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.  
+>  For information about regular expressions that are used in replacement patterns, see [Substitutions](/dotnet/standard/base-types/substitutions-in-regular-expressions). To use a numbered capture group, the syntax is `$1` to specify the numbered group and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.  
   
 ## Regular Expressions in Visual Studio  
  Here are some examples  
@@ -56,7 +56,7 @@ translation.priority.ht:
 |-------------|----------------|-------------|  
 |Match any single character (except a line break)|.|`a.o` matches "aro" in "around" and "abo" in "about" but not "acro" in "across".|  
 |Match zero or more occurrences of the preceding expression (match as many characters as possible)|*|`a*r` matches "r" in "rack", "ar" in "ark", and "aar" in "aardvark"|  
-|Match any character zero or more times (Wildcard *)|.*|c.*e matches “cke” in “racket”, “comme” in “comment”, and “code” in “code”|  
+|Match any character zero or more times (Wildcard *)|.*|c.*e matches "cke" in "racket", "comme" in "comment", and "code" in "code"|  
 |Match one or more occurrences of the preceding expression (match as many characters as possible)|+|`e.+e` matches "eede" in "feeder" but not "ee".|  
 |Match any character one or more times (Wildcard ?)|.+|e.+e matches "eede" in "feeder" but not "ee".|  
 |Match zero or more occurrences of the preceding expression (match as few characters as possible)|*?|`e.*?e` matches "ee" in "feeder" but not "eede".|  
@@ -65,13 +65,13 @@ translation.priority.ht:
 |Anchor the match string to the end of a line|\r?$|`End\r?$` matches "end" only when it appears at the end of a line.|  
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc".|  
 |Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below".|  
-|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". ". “\1” refers to the first expression group “[a-z]”.|  
+|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". ". "\1" refers to the first expression group "[a-z]".|  
 |Invalidate a match|(?!abc)|`real (?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|  
 |Match any character that is not in a given set of characters|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath".|  
 |Match either the expression before or the one after the symbol.|&#124;|`(sponge&#124;mud) bath` matches "sponge bath" and "mud bath."|  
 |Escape the character following the backslash|\|`\^` matches the character ^.|  
 |Specify the number of occurrences of the preceding character or group|{x}, where x is the number of occurrences|`x(ab){2}x` matches "xababx", and `x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx".|  
-|Match text in a Unicode character class, where “X” is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|  
+|Match text in a Unicode character class, where "X" is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|  
 |Match a word boundary|`\b` (Outside a character class \b specifies a word boundary, and inside a character class specifies a backspace).|`\bin` matches "in" in "inside" but not "pinto".|  
 |Match a line break (ie a carriage return followed by a new line).|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line.|  
 |Match any alphanumeric character|\w|`a\wd` matches "add" and "a1d" but not "a d".|  

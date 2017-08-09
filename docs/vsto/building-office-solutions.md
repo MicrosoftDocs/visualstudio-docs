@@ -35,7 +35,7 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Building Office Solutions
-  In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compiling and Building in Visual Studio](/visual-studio/ide/compiling-and-building-in-visual-studio).  
+  In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio).  
   
 > [!NOTE]  
 >  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.  
@@ -98,7 +98,7 @@ manager: "ghogen"
 ## Changing the Platform Target  
  By default, the platform target for Office projects is **Any CPU**. Typically, you should not change this setting. Office solutions that are built with the **Any CPU** platform target setting run in 32-bit and 64-bit versions of Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)].  
   
- You should set the platform target to x64 only if you are creating a solution that will run only in 64-bit versions of Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)], and your solution calls native 64-bit APIs. For more information about changing the platform target setting, see [NIB: How to: Optimize an Application for a Specific CPU Type](http://msdn.microsoft.com/en-us/294a75d2-4279-4b72-8298-2bea05be907a).  
+ You should set the platform target to x64 only if you are creating a solution that will run only in 64-bit versions of Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)], and your solution calls native 64-bit APIs. For more information about changing the platform target setting, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).  
   
  If you set the platform target to x64, the solution will not run in 32-bit versions of Windows or Office. The x64 platform target requires the solution to run in a 64-bit process.  
   

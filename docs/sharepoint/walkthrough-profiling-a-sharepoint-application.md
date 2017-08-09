@@ -198,7 +198,7 @@ manager: "ghogen"
   
 2.  On page one of the **Performance Wizard**, leave the method of profiling as **CPU sampling** and choose the **Next** button.  
   
-     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](/visual-studio/profiling/understanding-performance-collection-methods).  
+     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](/visualstudio/profiling/understanding-performance-collection-methods).  
   
 3.  On page two of the **Performance Wizard**, leave the profile target as **ProfileTest** and choose the **Next** button.  
   
@@ -231,7 +231,7 @@ manager: "ghogen"
   
 5.  Close the SharePoint site.  
   
-     After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project’s folder.  
+     After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project's folder.  
   
 ##  <a name="BKMK_ViewResults"></a> Viewing and Interpreting the Profiling Results  
  Now that you have run and profiled the SharePoint application, view the test results.  
@@ -274,9 +274,9 @@ manager: "ghogen"
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.  
   
 ## See Also  
- [Performance Explorer](/visual-studio/profiling/performance-explorer)   
- [Performance Session Overview](/visual-studio/profiling/performance-session-overview)   
- [Beginners Guide to Performance Profiling](/visual-studio/profiling/beginners-guide-to-performance-profiling)   
+ [Performance Explorer](/visualstudio/profiling/performance-explorer)   
+ [Performance Session Overview](/visualstudio/profiling/performance-session-overview)   
+ [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)   
  [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)  
   
   

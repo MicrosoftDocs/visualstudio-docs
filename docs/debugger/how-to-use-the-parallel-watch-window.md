@@ -1,7 +1,7 @@
 ---
-title: "Setting a Watch on Variables in Parallel Threads | Microsoft Docs"
+title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,19 +37,19 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# How to: Use the Parallel Watch Window
+# Set a Watch on Variables in Parallel Threads in Visual Studio
 In the Parallel Watch window, you can simultaneously display the values that one expression holds on multiple threads. Each row represents a thread that is running in an application, but a thread might be represented in multiple rows. More specifically, each row represents a function call whose function signature matches the function on the current stack frame. You can sort, reorder, remove, and group the items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads. The following columns are displayed in the **Parallel Watch** window:  
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The frame column, in which an arrow indicates the selected frame.  
+-   The current thread column, in which a yellow arrow indicates the current thread (a green arrow with a curly tail indicates that a non-current thread has the current debugger context).  
   
 -   A configurable column that can display the machine, process, tile, task, and thread.  
   
     > [!TIP]
-    >  You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
+    >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
   
--   The **\<Add Watch>** column, in which you can enter expressions to watch.  
+-   The blank *add watch* columns, in which you can enter expressions to watch.  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
@@ -63,19 +63,19 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To add a watch expression  
   
--   Select **\<Add Watch>** and then specify a watch expression.  
+-   Select one of the blank *add watch* columns and then enter a watch expression.  
   
 ### To flag or unflag a thread  
   
--   Select the flag column for the row, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
+-   Select the flag column for the row (first column), or open the shortcut menu for the thread and choose **Flag** or **Unflag**.  
   
 ### To display only flagged threads  
   
--   Choose the Show Flagged Only button in the upper-left corner of the **Parallel Watch** window.  
+-   Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.  
   
-### To switch frames  
+### To switch to another thread  
   
--   Double-click the frame column. (Keyboard: Select the row and press Enter.)  
+-   Double-click the current thread column (second column). (Keyboard: Select the row and press Enter.)  
   
 ### To sort a column  
   
@@ -100,4 +100,4 @@ In the Parallel Watch window, you can simultaneously display the values that one
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

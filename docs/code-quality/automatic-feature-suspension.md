@@ -32,7 +32,7 @@ If your available system memory falls to 200MB or less, Visual Studio displays t
   
 -   Full solution analysis for Visual C# and Visual Basic is disabled.  
   
--   [Garbage Collection](http://msdn.microsoft.com/Library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) (GC) low-latency mode for Visual C# and Visual Basic are disabled.  
+-   [Garbage Collection](/dotnet/standard/garbage-collection/index) (GC) low-latency mode for Visual C# and Visual Basic are disabled.  
   
 -   Visual Studio caches are flushed.  
   
@@ -61,5 +61,5 @@ If your available system memory falls to 200MB or less, Visual Studio displays t
   
 ## See Also  
  [How to: Enable and Disable Full Solution Analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)   
- [Fundamentals of Garbage Collection](http://msdn.microsoft.com/Library/67c5a20d-1be1-4ea7-8a9a-92b0b08658d2)   
+ [Fundamentals of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals)   
  [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions)

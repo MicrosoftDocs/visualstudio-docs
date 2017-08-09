@@ -29,20 +29,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Configure unit tests by using a .runsettings file
-Unit tests in Visual Studio can be configured by using a *.runsettings file. (The file name doesn’t matter, provided you use the extension ‘.runsettings.’) For example, you can change the .NET Framework on which the tests will be run, the directory where test results are delivered, and the data collected during a test run.  
+Unit tests in Visual Studio can be configured by using a \*.runsettings file. (The file name doesn't matter, provided you use the extension '.runsettings.') For example, you can change the .NET Framework on which the tests will be run, the directory where test results are delivered, and the data collected during a test run.  
   
- If you don’t want to do any special configuration, you don’t need a *.runsettings file. The most frequent use is to customize [Code Coverage](../test/customizing-code-coverage-analysis.md).  
+ If you don't want to do any special configuration, you don't need a \*.runsettings file. The most frequent use is to customize [Code Coverage](../test/customizing-code-coverage-analysis.md).  
   
 > [!NOTE]
 >  **.runsettings and .testsettings**  
 >   
->  There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests), web performance and load tests, and for customizing some types of diagnostic data adapters such as Intellitrace and event log adapters.  
+>  There are two types of file for configuring tests. \*.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests), web performance and load tests, and for customizing some types of diagnostic data adapters such as Intellitrace and event log adapters.  
 >   
->  In previous editions of Visual Studio up to 2010, unit tests were also customized by using *.testsettings files. You can still do that, but the tests will run more slowly than if you use the equivalent configurations in a \*.runsettings file.  
+>  In previous editions of Visual Studio up to 2010, unit tests were also customized by using \*.testsettings files. You can still do that, but the tests will run more slowly than if you use the equivalent configurations in a \*.runsettings file.  
   
 ## Customizing tests with a .runsettings file  
   
-1.  Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn’t matter, but the extension must be .runsettings.)  
+1.  Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn't matter, but the extension must be .runsettings.)  
   
 2.  Replace the file content with the [example](#example).  
   
@@ -55,7 +55,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
  ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
   
 ##  <a name="example"></a> Copy this example .runsettings file  
- Here is a typical *.runsettings file. Each element of the file is optional, because every value has a default.  
+ Here is a typical \*.runsettings file. Each element of the file is optional, because every value has a default.  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -144,7 +144,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 |`MaxCpuCount`|1|This controls the degree of parallel test execution when running unit tests, using available cores on the machine.  The test execution engine starts as a distinct process on each available core and gives each core a container with tests to run, like an assembly, DLL, or relevant artifact.  The test container is the scheduling unit.  In each container, the tests are run according to the test framework.  If there are many containers, then as processes finish executing the tests in a container, they are given the next available container.<br /><br /> MaxCpuCount can be:<br /><br /> n, where 1 <= n <= number of cores: up to n processes will be launched<br /><br /> n, where n = any other value:  the number of processes launched will be up to as many as available cores on the machine|  
   
 ### Diagnostic Data Adapters (Data Collectors)  
- The `DataCollectors` element specifies settings of diagnostic data adapters. Diagnostic data adapters are used to gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don’t want to use the defaults.  
+ The `DataCollectors` element specifies settings of diagnostic data adapters. Diagnostic data adapters are used to gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.  
   
 #### Code coverage adapter  
  The code coverage data collector creates a log of which parts of the application code have been exercised in the test. For more information about customizing the settings for code coverage, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).  

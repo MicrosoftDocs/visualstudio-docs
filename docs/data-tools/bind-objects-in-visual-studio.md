@@ -49,7 +49,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
  Generally, custom objects do not require any specific interfaces, constructors, or attributes to act as a data source for an application. However, if you want to drag the object from the **Data Sources** window to a design surface to create a data-bound control, and if the object implements the <xref:System.ComponentModel.ITypedList> or <xref:System.ComponentModel.IListSource> interface, the object must have a default constructor. Otherwise, Visual Studio cannot instantiate the data source object, and it displays an error when you drag the item to the design surface.  
   
 ## Examples of using custom objects as data sources  
- While there are countless ways to implement your application logic when working with objects as a data source, for SQL databases there are a few standard operations that can be simplified by using the Visual Studio–generated TableAdapter objects. This page explains how to implement these standard processes using TableAdapters.It is not intended as a guide for creating your custom objects. For example, you will typically perform the following standard operations regardless of the specific implementation of your objects, or application's logic:  
+ While there are countless ways to implement your application logic when working with objects as a data source, for SQL databases there are a few standard operations that can be simplified by using the Visual Studio-generated TableAdapter objects. This page explains how to implement these standard processes using TableAdapters.It is not intended as a guide for creating your custom objects. For example, you will typically perform the following standard operations regardless of the specific implementation of your objects, or application's logic:  
   
 -   Loading data into objects (typically from a database).  
   
@@ -83,7 +83,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
  [!code-vb[VbRaddataConnecting#4](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_1.vb)]  
   
 ### Create a typed collection of objects  
- You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](http://msdn.microsoft.com/Library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9).  
+ You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](/dotnet/framework/winforms/controls/bindingsource-component).  
   
  When you are creating a custom collection class for objects, we suggest that you inherit from <xref:System.ComponentModel.BindingList%601>. This generic class provides functionality to administer your collection, as well as the ability to raise events that send notifications to the data-binding infrastructure in Windows Forms.  
   

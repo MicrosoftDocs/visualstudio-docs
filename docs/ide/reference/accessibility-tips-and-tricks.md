@@ -1,21 +1,21 @@
 ---
-title: "Accessibility Tips and Tricks | Microsoft Docs"
+title: "Accessibility tips and tricks | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/27/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 caps.latest.revision: 22
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -30,36 +30,40 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Accessibility Tips and Tricks
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for accessibility as well as some useful shortcut key combinations.  
-  
-> [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
-## Save Your IDE Settings  
- You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
-## Common Windows Shortcut Key Combinations  
- You can use many of the standard Windows shortcut key combinations to perform tasks within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Some of these shortcut key combinations include:  
-  
-|Description|Key Combination|  
-|-----------------|---------------------|  
-|Switch High Contrast on and off|Left **ALT + Left SHIFT + PRINT SCREEN**|  
-|Select or clear the check box option in a dialog box|**SPACEBAR**|  
-|Display the properties of the selected item. For example, puts focus in the Properties Window if a form is selected or Opens the Property Page dialog box if a project is selected.|**ALT+ENTER**|  
-|Display the items in the active list, such as a drop-down list, in a dialog box|**ALT** + DOWN ARROW|  
-|Display items in an active drop-down list in a grid|**SHIFT** + **ALT** + **DOWN ARROW**|  
-  
-## Hidden Visual Studio Shortcut Key Combinations  
- Some features have shortcut keys available that do not appear in the Options dialog box on the Environment\Keyboard pane. These shortcut key combinations include the following:  
-  
+# Accessibility tips and tricks
+Visual Studio includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing Visual Studio for accessibility as well as some useful shortcut key combinations. Shortcut key combinations enable you to perform tasks in Visual Studio by using the keyboard.
+
+## Save your IDE settings  
+ You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
+
+## Accessing toolbars
+The Visual Studio IDE has toolbars as do many tool windows. The following shortcut key combinations help you access them.
+
 |Feature|Description|Key Combination|  
 |-------------|-----------------|---------------------|  
-|Toolbox window|Move among Toolbox tabs|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|  
-|Toolbox window|Add a control from the Toolbox to a form or designer|**ENTER**|  
-|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option|**BACKSPACE**|  
-|All tool windows|Select the first button on the toolbar of the window|**SHIFT** + **ALT**|  
-|IDE toolbars|Select the first button on the Standard toolbar|**ALT**, **CTRL** + **TAB** **Note:**  Press **CTRL** + **TAB** again to select the first button on the next IDE toolbar.|  
-  
-## See Also  
+|IDE toolbars|Select the first button on the Standard toolbar.|**ALT**, **CTRL** + **TAB**|  
+|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**SHIFT** + **ALT**|
+|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
+
+## Other useful shortcut key combinations  
+Some other useful shortcut key combinations include the following.
+
+|Feature|Description|Key Combination|  
+|-------------|-----------------|---------------------|  
+|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left ALT + Left SHIFT + PRINT SCREEN**|  
+|Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|  
+|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**SHIFT** + **F10**|
+|Menus|Quickly access a menu item by using its accelerator keys. Choose the **ALT** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **ALT** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**ALT** + **[letter]**|
+|Toolbox window|Move among Toolbox tabs.|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|  
+|Toolbox window|Add a control from the Toolbox to a form or designer.|**ENTER**|  
+|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option.|**BACKSPACE**|  
+
+> [!NOTE]
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.  
+
+## See also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+
+ [How to: Customize Menus and Toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)

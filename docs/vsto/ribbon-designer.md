@@ -97,7 +97,7 @@ manager: "ghogen"
   
  Arrange controls by dragging them to the correct positions. You can set the properties of a control by using the **Properties** window.  
   
- You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties Window](/visual-studio/ide/reference/properties-window).  
+ You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties Window](/visualstudio/ide/reference/properties-window).  
   
 ###  <a name="AddTabToRibbon"></a> Adding Custom Tabs to the Ribbon  
  There are three ways to add a custom tab to the Ribbon:  

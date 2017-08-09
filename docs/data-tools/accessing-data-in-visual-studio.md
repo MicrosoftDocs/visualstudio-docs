@@ -60,7 +60,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
   
 ||||  
 |-|-|-|  
-|SQL Server 2005–2016,  including Express and LocalDB|Firebird|MariaDB|  
+|SQL Server 2005-2016,  including Express and LocalDB|Firebird|MariaDB|  
 |MySQL|Oracle|PostgreSQL|  
 |SQLite|||  
   
@@ -147,13 +147,13 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx)  
  Describes the tools that simplify design, exploration, testing, and deploying of data-connected applications and databases.  
   
- [ADO.NET](http://msdn.microsoft.com/Library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
+ [ADO.NET](/dotnet/framework/data/adonet/index)  
  Describes the ADO.NET architecture and how to use the ADO.NET classes to manage application data and interact with data sources and XML.  
   
  [ADO.NET Entity Framework](https://msdn.microsoft.com/data/ef)  
  Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.  
   
- [WCF Data Services 4.5](http://msdn.microsoft.com/Library/73d2bec3-7c92-4110-b905-11bb0462357a)  
+ [WCF Data Services 4.5](/dotnet/framework/data/wcf/index)  
  Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).  
   
  [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
@@ -165,5 +165,5 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)  
  Discusses working with XML data, debugging XSLT, .NET Framework XML features, and the architecture of XML Query.  
   
- [XML Documents and Data](http://msdn.microsoft.com/Library/e695047f-3c0f-4045-8708-5baea91cc380)  
+ [XML Documents and Data](/dotnet/standard/data/xml/index)  
  Provides an overview to a comprehensive and integrated set of classes that work with XML documents and data in the .NET Framework.

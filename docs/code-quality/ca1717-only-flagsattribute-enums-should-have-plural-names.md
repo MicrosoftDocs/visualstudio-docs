@@ -68,4 +68,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.FlagsAttribute?displayProperty=fullName>   
- [Enum Design](http://msdn.microsoft.com/Library/dd53c952-9d9a-4736-86ff-9540e815d545)
+ [Enum Design](/dotnet/standard/design-guidelines/enum)

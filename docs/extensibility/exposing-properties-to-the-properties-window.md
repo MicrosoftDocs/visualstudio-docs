@@ -182,7 +182,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 9. In the experimental instance, open the **MyToolWindow** window.  
   
-     Look for the window’s properties in the **Properties** window. The **IsChecked** property appears at the bottom of the window, under the **My Properties** category.  
+     Look for the window's properties in the **Properties** window. The **IsChecked** property appears at the bottom of the window, under the **My Properties** category.  
   
 10. Check the check box in the **MyToolWindow** window. **IsChecked** in the **Properties** window changes to **True**. Clear the check box in the **MyToolWindow** window. **IsChecked** in the **Properties** window changes to **False**. Change the value of **IsChecked** in the **Properties** window. The check box in the **MyToolWindow** window changes to match the new value.  
   

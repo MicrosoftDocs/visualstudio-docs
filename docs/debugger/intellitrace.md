@@ -1,7 +1,7 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -66,12 +66,12 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](http://go.microsoft.com/fwlink/?LinkID=262248).|  
+|**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services).|  
 |**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|  
   
 > [!NOTE]
->  If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
+>  If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
   
 ##  <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
  Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.  
@@ -82,7 +82,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
  You can save IntelliTrace data from these sources:  
   
--   An IntelliTrace session in Visual Studio 2015 Enterprise or previous versions of Visual Studio Ultimate.  
+-   An IntelliTrace session in Visual Studio 2017 Enterprise, Visual Studio 2015 Enterprise, or previous versions of Visual Studio Ultimate.  
   
 -   A test session in Microsoft Test Manager  
   
@@ -96,7 +96,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 -   An exception happens.  
   
-     Without IntelliTrace, you get a message about an exception but you don’t have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can’t see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.  
+     Without IntelliTrace, you get a message about an exception but you don't have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can't see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.  
   
 -   Your application crashes on a test computer but runs successfully on a development computer.  
   
@@ -139,13 +139,11 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
      By default, IntelliTrace records the most common .NET Framework events. For example:  
   
-    -   For a File Access event, IntelliTrace collects the file name.  
-  
     -   For a Check Checkbox event, IntelliTrace collects the checkbox state and text.  
   
 -   **SharePoint 2010 and SharePoint 2013 application events**  
   
-     You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.  
+     You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2017, Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.  
   
      When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.  
   
@@ -155,7 +153,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
     -   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
-    -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
+    -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)  
   
  **Collecting function call information**  
   
@@ -181,7 +179,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 ##  <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
  By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.  
   
- Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ## In this section  
  [IntelliTrace Features](../debugger/intellitrace-features.md)  

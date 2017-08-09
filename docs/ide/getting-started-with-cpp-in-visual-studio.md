@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Getting Started with C++ in Visual Studio
-By completing this walkthrough, you’ll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  
+By completing this walkthrough, you'll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  
   
@@ -51,10 +51,10 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
   
  ![IDE with Visual C&#43;&#43; settings applied](../ide/media/c--ide_defaultenvironmentlayout.png "C++IDE_DefaultEnvironmentLayout")  
   
- After you open Visual Studio, you can see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. The center of the application window contains the **Start Page**. When you open a solution or project, editors and designers appear in this space. When you develop an application, you’ll spend most of your time in this central area.  
+ After you open Visual Studio, you can see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. The center of the application window contains the **Start Page**. When you open a solution or project, editors and designers appear in this space. When you develop an application, you'll spend most of your time in this central area.  
   
 ##  <a name="BKMK_CreateApp"></a> Create a simple application  
- When you create an app in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows console application.  
+ When you create an app in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows console application.  
   
 #### To create a console app  
   
@@ -80,7 +80,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 ##  <a name="BKMK_AddCode"></a> Add Code to the Application  
  Next, you'll add code to display the word "Hello" in the console window.  
   
-#### To display “Hello” in the console window  
+#### To display "Hello" in the console window  
   
 1.  In the GreetingsConsoleApp.cpp file, enter a blank line before the line `return 0;` and then enter the following code:  
   
@@ -141,7 +141,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
  For more information, see [Console Projects](../debugger/debugging-preparation-console-projects.md).  
   
 ##  <a name="BKMK_BuildRelease"></a> Build a release version of the app  
- Now that you’ve verified that everything works, you can prepare a release build of the application.  
+ Now that you've verified that everything works, you can prepare a release build of the application.  
   
 #### To clean the solution files and build a release version  
   

@@ -84,7 +84,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 ##  <a name="CreateAndRunUnitTestWin8Tailored_Manifest"></a> Edit the Manifest for the Unit Test Project  
  It may be necessary to edit the manifest for the unit test project to provide required capabilities to run the app.  
   
-#### To edit the unit test project’s Windows Store application manifest file  
+#### To edit the unit test project's Windows Store application manifest file  
   
 1.  In Solution Explorer, in the new [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] unit test project, right-click the Package.appxmanifest file and choose **Open**.  
   
@@ -156,7 +156,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
  [Visual Studio Unit Testing](http://go.microsoft.com/fwlink/?LinkId=224477)  
   
 ### MSDN Library  
- [MSDN Library – Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](http://go.microsoft.com/fwlink/?LinkID=223683)  
+ [MSDN Library - Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](http://go.microsoft.com/fwlink/?LinkID=223683)  
   
 ## See Also  
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   

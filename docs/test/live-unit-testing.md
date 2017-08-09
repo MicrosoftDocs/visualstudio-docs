@@ -33,10 +33,9 @@ translation.priority.ht:
 As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real-time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
 
 > [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Framework in the Enterprise Edition of Visual Studio 2017. Currently, it is not available with .NET Core.
+> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio 2017.
 
 ## Supported test frameworks
-
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
  
 <table> 
@@ -57,8 +56,8 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 <tr>
    <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-preview</td>
-   <td>MSTest.TestFramework 1.0.5-preview</td>
+   <td>MSTest.TestAdapter 1.1.11</td>
+   <td>MSTest.TestFramework 1.1.11</td>
 </tr>
 </table>
 
@@ -97,7 +96,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 ##	Viewing coverage visualization in the editor as you type
 
-Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you’re writing is covered by unit tests and whether the tests that cover it are passing.  The following figure shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green “✓” are covered only by passing tests, lines decorated with a red  “🞩” are covered by one or more failing tests, and lines decorated by a blue  “➖” are not covered by any test.
+Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing.  The following figure shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red  "🞩" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
   ![Image](./media/lut-codewindow.png)
 

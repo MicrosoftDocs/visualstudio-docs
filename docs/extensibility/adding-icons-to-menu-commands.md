@@ -79,7 +79,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
         <Bitmap guid="testIcon" href="Resources\<icon file name>" usedList="testIcon1"/>  
         ```  
   
-7.  In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here’s an example of a Button element with those values:  
+7.  In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here's an example of a Button element with those values:  
   
     ```xml  
     <Button guid="guidAddIconCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">  

@@ -40,7 +40,7 @@ manager: "ghogen"
 > [!NOTE]  
 >  Although this walkthrough uses a sequential workflow project, the process is identical for a state machine workflow project.  
 >   
->  Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -273,7 +273,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
+9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
   
 10. In the **Shared Documents** page, choose the document, choose the arrow that appears, and then choose the **Edit Properties** menu item.  
   
@@ -281,7 +281,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
+12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
   
 ## Next Steps  
  You can learn more about how to create workflow templates from these topics:  

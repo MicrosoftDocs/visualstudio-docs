@@ -1,7 +1,7 @@
 ---
 title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "04/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Analyze Memory Usage
-Find memory leaks and inefficient memory while you’re debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
+Find memory leaks and inefficient memory while you're debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
   
 -   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
   
@@ -40,12 +40,12 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
   
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
- Although you can collect memory snapshots at any time in the **Memory Usage** tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminate the noise from the code that doesn’t interest you and can significantly reduce the amount of time it takes you to diagnose an issue.  
+ Although you can collect memory snapshots at any time in the **Memory Usage** tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminate the noise from the code that doesn't interest you and can significantly reduce the amount of time it takes you to diagnose an issue.  
   
  You can also use the memory tool outside of the debugger. See [Memory Usage without Debugging](../profiling/memory-usage-without-debugging2.md).  
   
 > [!NOTE]
->  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  
+>  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, than any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  
 >   
 >  `__declspec(allocator) void* myMalloc(size_t size)` 
 
@@ -108,8 +108,6 @@ The rows of Memory Usage summary table lists the snapshots that you have taken d
 -   The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps 
 
 When you have taken multiple snapshots, the cells of the summary table include the change in the value between the row snapshot and the previous snapshot.  
-  
-![Memory summary table cell](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
 
 To analyze memory usage, click one of the links that opens up a detailed report of memory usage:  
 
@@ -168,7 +166,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
   
      ![Choose a snapshot from the Compare To list](../profiling/media/dbgdiag_mem_choosecompareto.png "DBGDIAG_MEM_ChooseCompareTo")  
   
- The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here’s how a Native Type View diff report might look:  
+ The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:  
   
  ![Native Types Diff Veiw](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")  
   
@@ -180,3 +178,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
  [Visual C++ Blog: Native Memory Diagnostics in VS2015 Preview](http://blogs.msdn.com/b/vcblog/archive/2014/11/21/native-memory-diagnostics-in-vs2015-preview.aspx)  
   
  [Visual C++ Blog: Native Memory Diagnostic Tools for Visual Studio 2015 CTP](http://blogs.msdn.com/b/vcblog/archive/2014/06/04/native-memory-diagnostic-tools-for-visual-studio-14-ctp1.aspx)
+
+## See Also
+ [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

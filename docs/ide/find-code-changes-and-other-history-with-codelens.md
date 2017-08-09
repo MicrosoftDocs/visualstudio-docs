@@ -135,7 +135,7 @@ Stay focused on your work while you find out what happened to your code - withou
 #### Find incoming changes from other branches  
  ![CodeLens: Find code changes in other branches](../ide/media/codelensbranchchangecheckinconceptual.png "CodeLensBranchChangeCheckinConceptual")  
   
- …like this bug fix in the Dev branch here:  
+ ...like this bug fix in the Dev branch here:  
   
  ![CodeLens: Change checked into another branch](../ide/media/codelensbranchchangedevscreenshot.png "CodeLensBranchChangeDevScreenshot")  
   
@@ -209,7 +209,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
      ![CodeLens &#45; Go to unit test definition](../ide/media/codelensunittestdefinition.png "CodeLensUnitTestDefinition")  
   
-5.  Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
+5.  Review the test's results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
   
      ![CodeLens &#45; See unit test result](../ide/media/codelensunittestresult.png "CodeLensUnitTestResult")  
   

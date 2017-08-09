@@ -1,12 +1,13 @@
 ---
 title: Formatting Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 4/10/2017
+ms.date: 7/12/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
   - "devlang-python"
+ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d0f1631-360b-45d4-a0cb-01c3c10d25f2
@@ -14,20 +15,7 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 
 # Formatting Python code
@@ -37,9 +25,9 @@ Visual Studio lets you quick reformat code to match pre-configured formatting op
 - To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
 - To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
 
-Options are set through **Tools > Options > Text Editor > Python > Formatting** and its sub-tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; the other three sub-pages are defined in the following sections.
+Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings the other three tabs are described in this topic.
 
-Python support in Visual Studio also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described below.
+[Python support in Visual Studio](installation.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described that follow.
 
 ## Spacing
 
@@ -49,7 +37,7 @@ Python support in Visual Studio also adds the useful [Fill Comment Paragraph](#f
 - Cleared: removes any spacing.
 - Indeterminate: leaves original formatting in place.
 
-Examples for the various options are provided in the following tables.
+Examples for the various options are provided in the following tables:
 
 | Class Definitions option | Checked | Cleared |
 | --- | --- | --- | 
@@ -93,7 +81,7 @@ Examples for the various options are provided in the following tables.
 
 ## Statements
 
-**Statements** controls automatic re-writing of various statements into more Pythonic forms.
+The **Statements** options control automatic rewriting of various statements into more Pythonic forms.
 
 | Option | Before formatting | After formatting |
 | --- | --- | --- |
@@ -104,7 +92,7 @@ Examples for the various options are provided in the following tables.
 
 ## Wrapping
 
-**Wrapping** lets you set the **Maximum comment width** (default is 80), so that if the **Wrap comments that are too wide** option is set, Visual Studio reformats comments to not exceed that width.
+**Wrapping** lets you set the **Maximum comment width** (default is 80). If the **Wrap comments that are too wide** option is set, Visual Studio reformats comments to not exceed that maximum width.
 
 ```python
 # Wrapped to 40 columns
@@ -121,7 +109,7 @@ Examples for the various options are provided in the following tables.
 
 ## Fill Comment Paragraph command
 
-**Edit > Advanced > Fill Comment Paragraph** (Ctrl+E,Ctrl+P) reflows and formats comment text, combining short lines together and breaking up long ones.
+**Edit > Advanced > Fill Comment Paragraph** (Ctrl+E, P) reflows and formats comment text, combining short lines together and breaking up long ones.
 
 For example:
 

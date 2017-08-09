@@ -279,7 +279,7 @@ manager: "ghogen"
   
 8.  Open the shortcut menu for the EmployeesListDefinition project, choose **Add**, and then choose **New Item**.  
   
-9. In the **Add New Item – EmployeesListDefinition** dialog box, expand the **SharePoint** node, and then choose the **2010** node.  
+9. In the **Add New Item - EmployeesListDefinition** dialog box, expand the **SharePoint** node, and then choose the **2010** node.  
   
 10. Choose the **List** item template, name the item **Employees List**, and then choose the **Add** button.  
   
@@ -413,7 +413,7 @@ manager: "ghogen"
   
      As an alternative, you can choose the **Add new item** link in the item list itself.  
   
-3.  In the **Employees – New Item** window, in the **Title** box, enter **Facilities Manager**.  
+3.  In the **Employees - New Item** window, in the **Title** box, enter **Facilities Manager**.  
   
 4.  In the **First Name** box, enter **Andy**.  
   

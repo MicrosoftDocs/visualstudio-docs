@@ -52,7 +52,7 @@ manager: "ghogen"
   
 -   Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).  
   
--   Project templates in Visual Studio. For more information, see [Creating Project and Item Templates](/visual-studio/ide/creating-project-and-item-templates).  
+-   Project templates in Visual Studio. For more information, see [Creating Project and Item Templates](/visualstudio/ide/creating-project-and-item-templates).  
   
 ## Creating the Projects  
  To complete this walkthrough, you need to create three projects:  
@@ -435,9 +435,9 @@ manager: "ghogen"
   
     -   Adds `ProjectItem` elements for each filethat's included in each project instance.  
   
-    -   Uses the namespace “http://schemas.microsoft.com/developer/vstemplate/2005”. Other project files in this solution use the “http://schemas.microsoft.com/developer/msbuild/2003” namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.  
+    -   Uses the namespace "http://schemas.microsoft.com/developer/vstemplate/2005". Other project files in this solution use the "http://schemas.microsoft.com/developer/msbuild/2003" namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.  
   
-     For more information about the contents of .vstemplate files, see [Visual Studio Template Schema Reference](/visual-studio/extensibility/visual-studio-template-schema-reference).  
+     For more information about the contents of .vstemplate files, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).  
   
 2.  Save and close the file.  
   

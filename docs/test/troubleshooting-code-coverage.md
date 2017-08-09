@@ -52,7 +52,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Resolution  
  In Test Explorer, choose **Run All** to verify that the tests run successfully. Fix any failures before using **Analyze Code Coverage**.  
   
-### You’re looking at a previous result  
+### You're looking at a previous result  
  When you modify and re-run your tests, a previous code coverage result can still be visible, including the code coloring from that old run.  
   
 1.  Run Analyze Code Coverage.  
@@ -100,7 +100,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Verify that the assembly is not loaded from the native image cache.  
   
  Explanation  
- For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](http://msdn.microsoft.com/Library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66).  
+ For performance reasons, native image assemblies are not analyzed. For more information, see [Ngen.exe (Native Image Generator)](/dotnet/framework/tools/ngen-exe-native-image-generator).  
   
  Resolution  
  Use an MSIL version of the assembly. Do not process it with NGen.  

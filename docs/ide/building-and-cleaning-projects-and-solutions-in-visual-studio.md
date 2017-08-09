@@ -47,7 +47,7 @@ translation.priority.mt:
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
   
 > [!NOTE]
->  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To build, rebuild, or clean an entire solution  
   
@@ -110,7 +110,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 1.  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
   
-     If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn’t available when you compile. The compile operation uses the current active solution configuration.  
+     If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
   
 ### To stop a build  
   

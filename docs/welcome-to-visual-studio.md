@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Welcome to Visual Studio 2017!
-We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, Linux, Windows, and others in one integrated development environment (IDE). Get great interactive code help (*IntelliSense*), easy code navigation and debugging, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
+We've got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, Linux, Windows, and others in one integrated development environment (IDE). Get great interactive code help (*IntelliSense*), easy code navigation and debugging, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
 
 > [!NOTE]
 >  Click here for release notes for [Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=834799).    
@@ -42,7 +42,7 @@ We’ve got everything you need to create great apps for devices or desktop apps
 
  You can install Visual Studio 2017 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223). Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get more familiar with the tools.
 
- And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly! Check out the many free Visual Studio videos available on [Channel 9](https://channel9.msdn.com/VisualStudio) and [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!jobf=Developer&lang=1033).
+ And don't forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly! Check out the many free Visual Studio videos available on [Channel 9](https://channel9.msdn.com/VisualStudio) and [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!jobf=Developer&lang=1033).
 
 ## Build cross-platform apps and games  
  You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md).  Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
@@ -94,16 +94,16 @@ Plan, create and run manual and automated tests for your app. Test plans, suites
 
 Diagnose memory and CPU usage and other application-level issues. See [Profiling tools](profiling/profiling-tools.md) for more information.
 
-### Deliver your team’s code faster  
+### Deliver your team's code faster  
  Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](https://www.visualstudio.com/en-us/docs/vsts-tfs-overview) for more details.  
 
-## What’s new?  
+## What's new?  
 Learn about what's new in Visual Studio.
 
 |||  
 |-|-|  
-|[What’s new in Visual Studio 2017](ide/whats-new-in-visual-studio.md)|[What’s new for Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-|[What's New for Visual C#](/dotnet/articles/csharp/csharp-7)|
+|[What's new in Visual Studio 2017](ide/whats-new-in-visual-studio.md)|[What's new for Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
+|[What's New for Visual C#](/dotnet/csharp/csharp-7)|
 
 
 ## Extend Visual Studio  

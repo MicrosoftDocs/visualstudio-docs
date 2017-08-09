@@ -3,12 +3,12 @@ title: "Upgrade Dotfuscator Community Edition (CE) | Microsoft Docs"
 ms.date: "2017-02-08"
 ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
-ms.technology: 
+ms.technology:
   - "dotfuscator"
 ms.topic: "article"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, upgrade, command line
-helpviewer_keywords: 
-  - "PreEmptive Protection - Dotfuscator" 
+helpviewer_keywords:
+  - "PreEmptive Protection - Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
   - "Dotfuscator"
@@ -25,7 +25,7 @@ description: "Learn how to upgrade the free Dotfuscator Community Edition includ
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
 manager: "ghogen"
-translation.priority.ht: 
+translation.priority.ht:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -55,8 +55,8 @@ To register Dotfuscator CE, see [the Registering Dotfuscator CE section on the G
 
 ## Dotfuscator Professional
 
-While Dotfuscator Community Edition provides a basic level of protection, 
-***PreEmptive Protection - Dotfuscator* Professional Edition** includes enhanced obfuscation transforms and protection capabilities.
+While Dotfuscator Community Edition provides a basic level of protection,
+**_PreEmptive Protection - Dotfuscator_ Professional Edition** includes enhanced obfuscation transforms and protection capabilities.
 These include:
 
 * *Intellectual Property Protection*
@@ -108,7 +108,7 @@ For more information on the advanced application protection features of Dotfusca
 [product-about]: https://www.preemptive.com/products/dotfuscator/overview
 [product-compare]: https://www.preemptive.com/products/dotfuscator/compare-editions
 
-[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_cli.html
-[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html#register
+[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
+[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_upgrades.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html

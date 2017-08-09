@@ -41,7 +41,7 @@ translation.priority.ht:
 You can connect to an Access database (either an .mdf file or an .accdb file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your forms.   
   
 ## Prerequisites  
- To use these procedures, you need a Windows Forms application project, and either an Access database (.accdb file) or an Access 2000–2003 database (.mdb file). Follow the procedure that corresponds to your file type.  
+ To use these procedures, you need a Windows Forms application project, and either an Access database (.accdb file) or an Access 2000-2003 database (.mdb file). Follow the procedure that corresponds to your file type.  
   
 ## Creating the dataset for an .accdb file  
  You can connect to databases created through Access 2013, Office 365, Access 2010, or Access 2007 by using the following procedure.  
@@ -126,7 +126,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      The dataset is added to your project, and the tables and views appear in the **Data Sources** window.  
   
 ## Security  
- Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](http://msdn.microsoft.com/Library/1471f580-bcd4-4046-bdaf-d2541ecda2f4).  
+ Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](/dotnet/framework/data/adonet/protecting-connection-information).  
   
 ## Next Steps  
  The dataset that you just created is now available in the **Data Sources** window. You can now perform any of the following tasks:  

@@ -61,7 +61,7 @@ When you build a large project, it is important that previously built components
 </Target>  
 ```  
   
- When inputs and outputs are specified in a target, either each output can map to only one input or there can be no direct mapping between the outputs and inputs. In the previous [Csc Task](../msbuild/csc-task.md), for example, the output, hello.exe, cannot be mapped to any single input – it depends on all of them.  
+ When inputs and outputs are specified in a target, either each output can map to only one input or there can be no direct mapping between the outputs and inputs. In the previous [Csc Task](../msbuild/csc-task.md), for example, the output, hello.exe, cannot be mapped to any single input - it depends on all of them.  
   
 > [!NOTE]
 >  A target in which there is no direct mapping between the inputs and outputs will always build more often than a target in which each output can map to only one input because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] cannot determine which outputs need to be rebuilt if some of the inputs have changed.  
