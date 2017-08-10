@@ -124,7 +124,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Generator|Required string. The name of any file generator that runs on this item.|  
 |LastGenOutput|Required string. The name of the file that was created by any file generator that was run on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
-|Link|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|Link|Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.|  
 |PublishState|Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite|  
 |IsAssembly|Optional boolean. Specifies whether the file is an assembly.|  
 |Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
