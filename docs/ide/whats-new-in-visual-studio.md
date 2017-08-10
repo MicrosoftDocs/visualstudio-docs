@@ -98,7 +98,7 @@ Errors appear in the Error List and squiggles will appear in the text editor sho
 ![Live Architecture Validation](../ide/media/vs2017ide-LiveArchitectureDepedendencyValidation.png "Live Architecture Dependency validation")
 
 #### Live unit testing
-In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for the .NET Framework and supports three test frameworks of MSTest, xUnit, and NUnit.
+In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for both the .NET Framework and .NET Core, and it supports three test frameworks of MSTest, xUnit, and NUnit.
 
 ![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
 
@@ -111,12 +111,25 @@ For more information, see the [CI/CD pipeline for automated tests in DevOps](htt
 
 
 ### Visual Studio IDE enhancements
-#### Interact with Git:
+#### Use new refactorings
+We’ve added a handful of new refactorings, to include:
+*	Resolve merge conflict
+*	Add parameter (from callsite)
+*	Generate overrides
+*	Add named argument
+*	Add null-check for parameters
+*	Insert digit-separators into literals
+*	Change base for numeric literals (for example, hex to binary)
+*	Convert if-to-switch
+*	Remove unused variable
+
+
+#### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
 
 ![Visual Studio 2017 interacts with the Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
-#### View and navigate code with Structure Visualizer:
+#### View and navigate code with Structure Visualizer
 The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use these to visualize and discover what block of code you're in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
@@ -159,8 +172,10 @@ The new Exception Helper helps you view your exception information at-a-glance. 
 For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 ## Cloud app development with Azure
-### Azure Tools
+### Azure Functions Tools
 As part of the "Azure development" workload, we've included tools to help you develop Azure functions by using pre-compiled C# class libraries. Now you can build, run, and debug on your local development machine and then publish directly to Azure from Visual Studio.
+
+For more information, see the [Azure Functions Tools for Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs) page.
 
 ## Mobile app development
 ### Xamarin
@@ -196,7 +211,9 @@ For more information, see the [Visual Studio Tools for Unity](../cross-platform/
 
 The .NET Core platform is made of several components, which includes the managed compilers, the runtime, the base class libraries, and numerous application models, such as ASP.NET Core. .NET Core supports three main operating systems: Windows, Linux, and macOS. You can use .NET Core in device, cloud, and embedded/IoT scenarios.
 
-And, it now includes Docker support.
+And, it now includes Docker support
+
+**New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. (In 15.3, using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.)
 
 For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
 
