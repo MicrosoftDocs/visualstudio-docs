@@ -1,5 +1,5 @@
 ---
-title: "Analyz CPU Usage in Visual Studio | Microsoft Docs"
+title: "Analyze CPU Usage in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""

@@ -89,7 +89,6 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--includeRecommended` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
 | `--includeOptional` | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.  |
 
-
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |
 | `--channelId <id>` | **Optional**: The ID of the channel for the instance that will be installed. This is required for the install command, ignored for other commands if `--installPath` is specified. |
@@ -101,6 +100,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--locale <language-locale>` | **Optional**: Change the display language of the user interface for the installer itself. Setting will be persisted. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | `--cache` | **New in 15.2, optional**: If present, packages will be kept after being installed for subsequent repairs. This will override the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 | `--nocache` | **New in 15.2, optional**: If present, packages will be be deleted after being installed or repaired. They will be downloaded again only if needed and deleted again after use. This will override the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
+| `--noUpdateInstaller` | **New in 15.2, optional**: If present, prevents the installer from updating itself when quiet is specified. The installer will fail the command and return a non-zero exit code if noUpdateInstaller is specified with quiet when an installer update is required. |
 
 ## List of workload IDs and component IDs
 For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
