@@ -148,7 +148,7 @@ It can be used to suppress warnings on expression and block statements inside of
 
  ## <a name="corecheck_per_file"></a> Enabling the C++ Core Guidelines Checker on specific project files
 Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
-1.	In the command shell set the ``esp.extension` and `esp.annotationbuildlevel` environment variables.
+1.	In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
 2.	Start Visual Studio from the command shell to inherit these variables.
 3.	Load your project and open its properties.
 4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
@@ -163,7 +163,7 @@ You can use the C++ Core Guidelines checks in automated builds.
 ### MSBuild
  The Native Code Analysis checker (PREfast) is integrated into MSBuild environment by custom targets files. You can use project properties to enable it, and add the C++ Core Guidelines Checker (which is based on PREfast):
 
- ```xaml
+ ```xml
   <PropertyGroup>
     <EnableCppCoreCheck>true</EnableCppCoreCheck>
     <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>¬¬
@@ -174,7 +174,7 @@ Make sure you add these properties before the import of the Microsoft.Cpp.target
 
 You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#coreckeck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
 
-```xaml
+```xml
 <ItemGroup>
     <BuildMacro Include="Esp_AnnotationBuildLevel">
       <EnvironmentVariable>true</EnvironmentVariable>
