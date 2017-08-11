@@ -91,7 +91,7 @@ As new rules are added to the C++ Core Guidelines Checker, the number of warning
  You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
 
 ## Macros
- The C++ Core Guidelines Checker comes with a header file which defines macros that make it easier to suppress entire categories of warnings in code:
+ The C++ Core Guidelines Checker comes with a header file, which defines macros that make it easier to suppress entire categories of warnings in code:
 
 ```cpp
 ALL_CPPCORECHECK_WARNINGS
@@ -103,7 +103,7 @@ CPPCORECHECK_UNIQUE_POINTER_WARNINGS
 CPPCORECHECK_BOUNDS_WARNINGS
 ```
 
-These macros correspond to the rule sets and expand into a space-separated lists of warning numbers. By using the appropriate pragma constructs you can configure the effective set of rules which is interesting for a project or a section of code. In the following example, code analysis will only warn about missing constant modifiers:
+These macros correspond to the rule sets and expand into a space-separated list of warning numbers. By using the appropriate pragma constructs, you can configure the effective set of rules that is interesting for a project or a section of code. In the following example, code analysis will warn only about missing constant modifiers:
 
 ```cpp
 #include <CppCoreCheck\Warnings.h>
@@ -135,8 +135,8 @@ It can be used to suppress warnings on expression and block statements inside of
 }
 ```  
 
-## Suppressing analysis by using command line options
- Instead of #pragmas, you can use command line options in the file's property page to suppress warnings for a project or a single file. For example, to disable the warning 26400 for a file:
+## Suppressing analysis by using command-line options
+ Instead of #pragmas, you can use command-line options in the file's property page to suppress warnings for a project or a single file. For example, to disable the warning 26400 for a file:
  
  1) Right-click the file in **Solution Explorer**
 
@@ -144,18 +144,19 @@ It can be used to suppress warnings on expression and block statements inside of
 
  3) In the **Additional Options** window, add `/wd26400`.
 
- You can use the command line option to temporarily disable all code analysis for a file by specifying `/analyze-`. This will produce warning *D9025 overriding '/analyze' with '/analyze-'*, which will remind you to re-enable code analysis later.
+ You can use the command-line option to temporarily disable all code analysis for a file by specifying `/analyze-`. This produces warning *D9025 overriding '/analyze' with '/analyze-'*, which reminds you to re-enable code analysis later.
 
  ## <a name="corecheck_per_file"></a> Enabling the C++ Core Guidelines Checker on specific project files
-Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
+Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. The following is a sample scenario that can be used for large projects to save build time and to make it easier to filter results:
+
 1.	In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
 2.	Start Visual Studio from the command shell to inherit these variables.
 3.	Load your project and open its properties.
 4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
 5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
 6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
-7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
-8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
+7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header (PCH); if the PCH compiled with default project options, it will not be compatible.
+8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file that is configured to use it.
 
 ## How to use the C++ Core Guidelines Checker outside of Visual Studio
 You can use the C++ Core Guidelines checks in automated builds.
@@ -187,20 +188,20 @@ You can run the C++ Core Checker only on specified files by using the same appro
 </ItemGroup>
 ```
 
-If you don’t want to modify the project file, you can pass properties on the command line:
+If you don’t want to modify the project file, you can pass properties on the command-line:
 
 ```cmd
 msbuild /p:EnableCppCoreCheck=true /p:RunCodeAnalysis=true /p:CodeAnalysisRuleSet=CppCoreCheckRules.ruleset ...
 ```
 
 ### Non-MSBuild projects
-If you use a build system that doesn’t rely on MSBuild you can still run the checker, but you’ll need to get familiar with some internals of the Code Analysis engine configuration (which is not guaranteed to be supported in the future).
+If you use a build system that doesn’t rely on MSBuild you can still run the checker, but you’ll need to get familiar with some internals of the Code Analysis engine configuration. Note that these internals are not guaranteed to be supported in the future.
 
-You will need to set a few environment variables and use proper command line options for the compiler. It is better to work under the “Native Tools Command Prompt” environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
+You have to to set a few environment variables and use proper command-line options for the compiler. It is better to work under the “Native Tools Command Prompt” environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
 
 1.	**Environment variables**
   - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
-  - `set esp.annotationbuildlevel=ignore` This disables logic which processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a lot of time). This setting is optional, but highly recommended.
+  - `set esp.annotationbuildlevel=ignore` This disables the logic that processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a lot of time). This setting is optional, but highly recommended.
   - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
 2.	**Command line options**
   - `/analyze` 	Enables code analysis (consider also using /analyze:only and /analyze:quiet).
@@ -228,5 +229,5 @@ You will need to set a few environment variables and use proper command line opt
   
 3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.  
   
- The NuGet package adds an additional MSBuild .targets file to your project that is invoked when you enable code analysis on your project. This .targets file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.  
+ The NuGet package adds an additional MSBuild *.targets* file to your project that is invoked when you enable code analysis on your project. This *.targets* file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.  
   

@@ -59,7 +59,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
      [!code-cs[VbRaddataEditing#20](../data-tools/codesnippet/CSharp/query-datasets_3.cs)]
      [!code-vb[VbRaddataEditing#20](../data-tools/codesnippet/VisualBasic/query-datasets_3.vb)]  
   
-## Accessrelated records  
+## Access related records  
  When tables in a dataset are related, a <xref:System.Data.DataRelation> object can make  the related records available in another table. For example, a dataset containing `Customers` and `Orders` tables can be made available.  
   
  You can use a <xref:System.Data.DataRelation> object to locate related records by calling the <xref:System.Data.DataRow.GetChildRows%2A> method of a <xref:System.Data.DataRow> in the parent table.This method returns an array of related child records. Or you can call the <xref:System.Data.DataRow.GetParentRow%2A> method of a <xref:System.Data.DataRow> in the child table.This method returns a single <xref:System.Data.DataRow> from the parent table.  
