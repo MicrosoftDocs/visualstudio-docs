@@ -53,9 +53,7 @@ For more information about these features, see the blog post on updates for [deb
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 
-1. On your Windows 10 device, enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development).
-
-2. With your UWP project open in Visual Studio, select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
+1. With your UWP project open in Visual Studio, select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
 
 2. Select either **Local Machine** or **Device**.
 

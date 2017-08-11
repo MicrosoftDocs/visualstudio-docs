@@ -16,6 +16,10 @@ There are many remote hosts that allow you to work with Git for version control,
 
 If you wish to use GitHub, ensure that you have an account created and configured before following the steps below. 
 
+## Creating a remote repo on GitHub
+
+The example below uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
+
 To set up a Git repository, execute the following steps:
 
 1. Create a new Git repo at github.com:
@@ -31,13 +35,16 @@ To set up a Git repository, execute the following steps:
     ![view and copy address](media/version-control-git3.png)
   You will need the HTTPS address to point Visual Studio for Mac to this repo.
 
+
+## Publishing an existing project
+
 4. Return to your open Project in Visual Studio for Mac. 
 
-5. In the Menu bar, select **Version Control > Checkout**:
+5. In the Menu bar, select **Version Control > Publish in Version Control…**:
 
     ![Start checkout in Visual Studio for Mac](media/version-control-git4-sml.png)
 
-6. This will display the **Select Repository** dialog. Choose the **Registered Repositories** tab, and press the **Add** button:
+6. This will display the **Select Repository** dialog. Choose the **Registered Repositories** tab and press the **Add** button:
 
     ![](media/version-control-git5.png)
 
@@ -59,10 +66,30 @@ To set up a Git repository, execute the following steps:
 
     ![Enter username and password for git](media/version-control-git9-sml.png)
 
-12. After a few seconds, the Solution should be published. Confirm this by browsing the Version Control menu item, which should now be populated with many options: 
+12. After a few seconds, the Solution should be published with its inital commit. Confirm this by browsing the Version Control menu item, which should now be populated with many options: 
 
     ![Version Control Menu](media/version-control-git10.png)
 
-13. Finally, select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
+13. Once you start to make additional changes select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
 
     ![Push Changes to remote repository](media/version-control-git11.png)
+
+## Publishing a new project
+
+The new project dialog can be used to publish a new project using git. To enable it, select the **Use git for version control.** checkbox, as illustrated in the following screenshot. This will initalize your repo and add an optional .gitignore file:
+
+![Push Changes to remote repository](media/version-control-git12.png)
+
+## Troubleshooting
+
+If you have issues with initalizing your project with an empty remote repository, you can try the following steps:
+
+- Go to your solution folder.
+- Press `Command + Shift + . ` To show the hidden files and folders.
+- If there's a `.git` folder, delete it.
+- If there's a `gitignore` file, delete it.
+- Press `Command + Shift + . ` To hide the files and folders.
+- Open your solution in VS for Mac.
+- On the solution pad, select your solution node.
+- Browse to the Version Control menu and choose **Publish in Version Control**.
+- Follow the steps of the above tutorial starting from the step 6.
