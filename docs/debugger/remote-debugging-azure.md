@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "03/31/2017"
+ms.custom: "remotedebugging"
+ms.date: "07/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -41,6 +41,9 @@ This topic shows how to:
 * Remote debug ASP.NET Core on an Azure App Service
 
 * Remote debug ASP.NET Core on an Azure VM
+
+> [!NOTE]
+> To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
@@ -202,7 +205,7 @@ On an Azure VM, you must open ports through the [Network security group](https:/
 Required ports:
 
 - 80 - Required for IIS
-- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information.
+- 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 - UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 In addition, these ports should already be opened by the ASP.NET installation:

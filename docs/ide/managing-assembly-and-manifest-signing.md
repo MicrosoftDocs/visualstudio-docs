@@ -74,12 +74,12 @@ Strong-name signing gives a software component a globally unique identity. Stron
 > [!WARNING]
 >  You should always protect your key file with a password to prevent someone else from using it. You can also secure your keys by using providers or certificate stores.  
   
- You can also point to a key you have already created. For more information about creating keys, see [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/Library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
+ You can also point to a key you have already created. For more information about creating keys, see [How to: Create a Public-Private Key Pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair).  
   
  If you have access only to a public key, you can use delay signing to defer assigning the key. You enable delay signing by selecting the **Delay sign only** check box. A delay-signed project won't run, and you can't debug it. However, you can skip verification during development by using the [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool) with the `-Vr` option.  
   
  For information about signing manifests, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
 ## See Also  
- [Strong-Named Assemblies](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
+ [Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies)   
  [Strong Name Assemblies (Assembly Signing) (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)
