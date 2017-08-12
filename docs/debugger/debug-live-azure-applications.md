@@ -96,7 +96,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
     ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png "Open a snappoint")
 
-2. Double-click the snappoint to open the snapshot in the code editor.
+e2. Double-click the snappoint to open the snapshot in the code editor.
 
     ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png "Inspect snapshot data")
 
@@ -143,7 +143,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint-output.png "Logpoint data in the .diagsession window")
 
-    If you choose **Send to application log**, when the logpoint is hit, the message will appear anywhere that you can see see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
+    If you choose **Send to application log**, when the logpoint is hit, the message will appear anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## Frequently Asked Questions
 
@@ -156,8 +156,8 @@ When you have multiple instances of your app, snappoints get applied to every si
 #### How does the Snapshot Debugger load symbols?
 The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service. The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
 
-#### Does the Snapshot Debugger work against 'release' builds of my application?
-Yes - the Snapshot Debugger is intended to work against 'release' builds. When a snappoint is placed in a function, we temporarily recompile that function back to a 'debug' version, making it more debuggable. When you stop the Snapshot Debugger, functions are returned to their 'release' build. 
+#### Does the Snapshot Debugger work against release builds of my application?
+Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, we temporarily recompile that function back to a debug version, making it more debuggable. When you stop the Snapshot Debugger, functions are returned to their release build. 
 
 #### Can logpoints cause side effects in my production application?
 No - any log messages you add to your app are virtually evaluated. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
