@@ -51,7 +51,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 -   Domain users may access sample profiling only.  
   
--   Some users my deny access to profiling to all other users.  
+-   Some users may deny access to profiling to all other users.  
   
  For more information, see [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
   
