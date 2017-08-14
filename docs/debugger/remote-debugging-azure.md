@@ -161,7 +161,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
-## Requirements
+### Requirements
 
 The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
