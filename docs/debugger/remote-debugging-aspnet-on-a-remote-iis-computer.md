@@ -32,6 +32,10 @@ translation.priority.mt:
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio 2017
 You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
+For Windows Server, the IIS role and the remote debugger must be installed on the computer where you will deploy your app, as shown in the following illustration.
+
+![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
+
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 10
 * Windows Server 2016 and IIS 10
@@ -44,15 +48,17 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 |[Azure App Service](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
 |[Azure VM](../debugger/remote-debugging-azure.md)|If you want more control of the IIS configuration, you can [install the IIS role on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role), download and run the RDP file, and open ports in the Network security group, as described in the [Azure VM tutorial](../debugger/remote-debugging-azure.md).|
 
-For Windows Server or an Azure VM, the remote debugger must be installed on the computer where you will deploy your app, as shown in the following illustration.
-
-![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
-
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (**File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)** . In the **ASP.NET Core** templates section, select **Web Application**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. Create a new ASP.NET Core application. (**File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)** .
 
-2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+    In the **ASP.NET Core** templates section, select **Web Application**.
+
+2. Make sure that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
+
+3. Name the project **MyASPApp**.
+
+4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 

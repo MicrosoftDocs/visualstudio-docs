@@ -49,9 +49,13 @@ This topic shows how to:
 
 1. Create a new ASP.NET Core application. (Choose **File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)**)
 
-    In the **ASP.NET Core** templates section, select **Web Application**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
+    In the **ASP.NET Core** templates section, select **Web Application**.
 
-3. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+2. Make sure that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
+
+3. Name the project **MyASPApp** and click **OK** to create the new solution.
+
+4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
@@ -61,7 +65,9 @@ For Azure App Service, you must deploy your app from Visual Studio to Azure but 
 
 ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
 
-1. In Visual Studio, right-click the solution and choose **Publish**.
+#### To deploy the app and remote debug
+
+1. In Visual Studio, right-click the project node and choose **Publish**.
 
 2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
 
@@ -69,7 +75,7 @@ For Azure App Service, you must deploy your app from Visual Studio to Azure but 
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
-9. In the running ASP.NET application, click the link to the **About** page.
+4. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 

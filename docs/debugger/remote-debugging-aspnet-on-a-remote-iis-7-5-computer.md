@@ -32,6 +32,10 @@ translation.priority.mt:
 # Remote Debug ASP.NET on a Remote IIS Computer
 You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET Core, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
+For Windows Server, the IIS role and the remote debugger must be installed on the computer where you will deploy your app, as shown in the following illustration.
+
+![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
+
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 10 (For Windows Server 2008 R2, server steps are different)
 
@@ -42,10 +46,6 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 |[Windows Server](#bkmk_configureIIS)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
 |[Azure App Service](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
 |[Azure VM](../debugger/remote-debugging-azure.md)|If you want more control of the IIS configuration, you can [install the IIS role on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role), download and run the RDP file, and open ports in the Network security group, as described in the [Azure VM tutorial](../debugger/remote-debugging-azure.md).|
-
-The remote debugger must be installed on the Windows Server computer where you will deploy your app, as shown in the following illustration.
-
-![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
