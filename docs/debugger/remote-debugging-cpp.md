@@ -40,7 +40,7 @@ translation.priority.mt:
 # Remote Debugging a Visual C++ Project in Visual Studio
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, and then deploy and run your app from Visual Studio.
 
-![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
+    ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
 
 For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
   

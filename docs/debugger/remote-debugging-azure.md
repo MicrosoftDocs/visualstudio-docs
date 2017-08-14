@@ -42,6 +42,14 @@ This topic shows how to:
 
 * Remote debug ASP.NET Core on an Azure VM
 
+For Azure App Service, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
+
+    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+
+For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
+
+    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+
 > [!NOTE]
 > To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
@@ -60,10 +68,6 @@ This topic shows how to:
 ## Remote Debug ASP.NET Core on an Azure App Service
 
 From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
-
-For Azure App Service, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
-
-![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
 
 #### To deploy the app and remote debug
 
@@ -88,10 +92,6 @@ You can create an Azure VM for Windows Server and then install and configure IIS
 First, follow all the steps described in [Install and run IIS](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role).
 
 When you open port 80 in the Network security group, also open port 4022 for the Remote Debugger. That way, you won't have to open it later.
-
-For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
-
-![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
 
 ### Update browser security settings on Windows Server
 
