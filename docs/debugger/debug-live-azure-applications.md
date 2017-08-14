@@ -39,7 +39,7 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for Visual Studio Enterprise. 
+Additionally, the Snapshot Debugger is only available for **Visual Studio Enterprise**. 
 
 > [!NOTE]
 > With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
@@ -84,7 +84,7 @@ Additionally, the Snapshot Debugger is only available for Visual Studio Enterpri
     ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
 
     > [!TIP]
-    > You cannot step from a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end user session, even if there are multiple users hitting your app.
+    > You cannot step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end user session, even if there are multiple users hitting your app.
 
 ## Take a snapshot
 
@@ -96,7 +96,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
     ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png "Open a snappoint")
 
-e2. Double-click the snappoint to open the snapshot in the code editor.
+2. Double-click the snappoint to open the snapshot in the code editor.
 
     ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png "Inspect snapshot data")
 
@@ -148,19 +148,19 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 ## Frequently Asked Questions
 
 #### What is the performance cost of taking a snapshot? 
-When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This fork happens in 10-20 milliseconds, but does not immediately copy the full heap of the app; isntead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a very small in-memory cost (on the order of hundreds of kilobytes for most apps). 
+When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app; instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a very small in-memory cost (on the order of hundreds of kilobytes for most apps). 
 
 #### What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
 When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the condtions specified will create a snapshot. If you have multiple snappoints, subsequent snapshots will come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs will send messages from every instance. 
 
 #### How does the Snapshot Debugger load symbols?
-The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service. The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
+The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service (embedded PDBs are currently not supported). The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
 
 #### Does the Snapshot Debugger work against release builds of my application?
-Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, we temporarily recompile that function back to a debug version, making it more debuggable. When you stop the Snapshot Debugger, functions are returned to their release build. 
+Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, we temporarily recompile that function back to a debug version and making it debuggable. When you stop the Snapshot Debugger, the functions are returned to their release build. 
 
 #### Can logpoints cause side effects in my production application?
-No - any log messages you add to your app are virtually evaluated. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
+No - any log messages you add to your app are evaluated virtually. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
 
 #### Does the Snapshot Debugger work if my server is under load?
 Yes - Snapshot Debugging can work for servers under load. The Snapshot Debugger will throttle and not capture snapshots in situations where there is a low amount of free memory on your server.
