@@ -160,10 +160,17 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 ### <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
+
+## Requirements
+
+The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
+
+> [!NOTE]
+> If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ### <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 

@@ -46,13 +46,19 @@ For information about remote debugging apps with Azure backends, see [Remote deb
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
+> [!TIP]
+> In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
+  
 ## Requirements
 
-[!INCLUDE [remote-debugger-requirements](../debugger/includes/remote-debugger-requirements.md)]
+The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. Remote debugging over an Internet connection is not supported. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
+
+> [!NOTE]
+> If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
