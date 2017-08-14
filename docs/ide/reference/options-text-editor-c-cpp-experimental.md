@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, C/C++, Experimental | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "08/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,7 +44,8 @@ By changing these options, you can change the behavior related to IntelliSense a
 ## Enable Predictive Intellisense
 Predictive IntelliSense limits the number of results displayed in the IntelliSense dropdown list so that you see only results that are relevant in the context. For example, if you type <code>int x =</code> and invoke the IntelliSense dropdown, you will see only integers or functions that return integers. Predictive IntelliSense is turned off by default.
 
-## Enable Faster Project Load
+## Enable Faster Project Load 
+**Visual Studio 2017 version 15.3 and later**: This feature is now called **Enable Project Caching** and has moved to the [VC++ Project Settings](vcpp-project-settings-projects-and-solutions-options-dialog-box.md) property page.
 This option enables Visual Studio to cache project data so that when you open the project the next time, it can load that cached data rather than re-computing it from the project files. Using cached data can speed up the project load time significantly.  
 
 ## Additional Features in the Visual Studio Gallery
