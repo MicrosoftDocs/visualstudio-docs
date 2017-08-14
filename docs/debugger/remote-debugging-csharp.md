@@ -38,13 +38,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
-You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.  
-  
-For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
-
-The remote debugger must be installed on the computer where you will deploy your app, as shown in the following illustration.
+To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, and then run your app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
+  
+For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
   
 ## Download and Install the Remote Tools
 
