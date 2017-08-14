@@ -39,7 +39,7 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for Visual Studio Enterprise. 
+Additionally, the Snapshot Debugger is only available for **Visual Studio Enterprise**. 
 
 > [!NOTE]
 > With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
@@ -84,7 +84,7 @@ Additionally, the Snapshot Debugger is only available for Visual Studio Enterpri
     ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
 
     > [!TIP]
-    > You cannot step from a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end user session, even if there are multiple users hitting your app.
+    > You cannot step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end user session, even if there are multiple users hitting your app.
 
 ## Take a snapshot
 
@@ -96,7 +96,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
     ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png "Open a snappoint")
 
-e2. Double-click the snappoint to open the snapshot in the code editor.
+2. Double-click the snappoint to open the snapshot in the code editor.
 
     ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png "Inspect snapshot data")
 
