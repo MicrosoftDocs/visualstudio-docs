@@ -22,6 +22,8 @@ f1_keywords:
 # Optimize Visual Studio Startup Time
 Ideally, Visual Studio should always start up as quickly as possible. However, Visual Studio extensions and open tool windows can adversely affect startup time because they load automatically at startup. The **Manage Visual Studio Performance** window enables you see which extensions and features affect Visual Studio startup time and to control loading behavior of those extensions and features.
 
+For more general tips on improving performance, see [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md).
+
 ## Control startup behavior
 
 To avoid extending startup time, Visual Studio 2017 avoids loading extensions during startup, using an on-demand-load approach. This behavior means that extensions don't open immediately after Visual Studio starts, but on an as-needed basis after startup. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
@@ -92,3 +94,6 @@ Most features of the IDE are fully available when lightweight solution load is e
 - Some third-party extensions may not behave as expected when lightweight solution load is enabled.
 - Edit and Continue doesn't work in projects that are not loaded when you start debugging. The files contained in such a project is read-only and an error is reported that the project has not been loaded if an edit is attempted.
 - When lightweight solution load is enabled, F# projects may not properly build and symbols may not be fully available in GoTo.
+
+## See Also
+[Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)

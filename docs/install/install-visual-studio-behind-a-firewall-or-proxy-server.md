@@ -2,7 +2,7 @@
 title: "Install Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "07/18/2017"
+ms.date: "08/01/2017"
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,8 +37,13 @@ If it's possible for your environment, consider adding the following domains wit
 | dl.xamarin.com | Setup packages download location |
 | visualstudiogallery.msdn.microsoft.com | Visual Studio Extensions download location |
 | www.visualstudio.com | Documentation location |
+| docs.microsoft.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
 | www.microsoft.com | Documentation location |
+| *.windows.net | Sign-in location |
+| *.microsoftonline.com | Sign-in location |
+| *.live.com | Sign-in location |
+
 
 ## Non-Microsoft domains
 | Domain | Installs these workloads |
