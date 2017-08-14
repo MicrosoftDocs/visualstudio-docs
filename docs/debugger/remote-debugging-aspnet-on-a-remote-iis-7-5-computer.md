@@ -39,9 +39,13 @@ There are many ways you can deploy and debug on IIS. Here are a few of the commo
 
 |Scenario|Notes|
 |-|-|-|
+|[Windows Server](#bkmk_configureIIS)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
 |[Azure App Service](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)|From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. To use this option, choose **Microsoft Azure App Service** from the **Publish** dialog box, follow the prompts to publish, and debug in **Server Explorer** by right-clicking on the App Service instance, and choosing **Attach Debugger**.|
 |[Azure VM](../debugger/remote-debugging-azure.md)|If you want more control of the IIS configuration, you can [install the IIS role on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role), download and run the RDP file, and open ports in the Network security group, as described in the [Azure VM tutorial](../debugger/remote-debugging-azure.md).|
-|[Windows Server](#bkmk_configureIIS)|Follow the steps in this tutorial to remote debug on Windows Server or a VM running Windows Server.|
+
+The remote debugger must be installed on the Windows Server computer where you will deploy your app, as shown in the following illustration.
+
+![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
