@@ -32,7 +32,7 @@ translation.priority.mt:
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio 2017
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
+![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
 This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For more information, see [Remote debug on Azure](../debugger/remote-debugging-azure.md).
 

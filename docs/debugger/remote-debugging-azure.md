@@ -44,11 +44,11 @@ This topic shows how to:
 
 For Azure App Service, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
 
 For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
 
 > [!NOTE]
 > To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
