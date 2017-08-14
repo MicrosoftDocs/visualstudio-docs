@@ -93,7 +93,10 @@ You can use IntelliTrace to collect information about specific events or categor
 8.  If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.  
   
 ## Using IntelliTrace with events and function calls  
- IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).  
+ IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).
+
+> [!NOTE]
+> Call information is not currently available for ASP.NET Core apps. 
   
 1.  Turn on call collection. (On **Tools / Options / IntelliTrace / General**, select **IntelliTrace events and call information**. IntelliTrace will start collecting this information when the next debugging session starts.  
   

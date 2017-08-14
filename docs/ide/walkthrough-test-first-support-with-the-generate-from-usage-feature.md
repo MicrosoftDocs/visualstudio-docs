@@ -54,7 +54,21 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
      ![New Test Project dialog](../ide/media/newproject_test.png "NewProject_Test")  
 New Project dialog box  
   
-4.  Click **OK** to close the **New Project** dialog box. You are now ready to begin writing tests  
+4.  Click **OK** to close the **New Project** dialog box.
+
+5.  In your class project, in **Solution Explorer**, right-click the **References** entry and click **Add Reference**.
+
+6.  In the **Reference Manager** dialog box, select **Projects** and then select your unit test project.
+
+7.  Click **OK** to close the **Reference Manager** dialog box.
+
+8.  In the **Class1** file, immediately after the last of the existing **using** statements, add a **using** statement for the test project:
+
+    * In Visual Basic, add `Using UnitTestProject1`
+    
+    * In C#, add `using UnitTestProject1;`
+    
+9.  Save your solution. You are now ready to begin writing tests.  
   
 ### To generate a new class from a unit test  
   

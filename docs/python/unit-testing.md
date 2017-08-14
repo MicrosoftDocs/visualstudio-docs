@@ -31,7 +31,7 @@ By convention, Visual Studio identifies tests are as methods whose names start w
 
 1. Open a [Python project](python-projects.md) loaded in Visual Studio, right-click your project, select **Add > New Item...**, then select **Python Unit Test** followed by **Add**.
 
-1. This action creates a `test1.py file with code that imports the standard `unittest` module, derives a test class from `unittest.TestCase`, and invokes `unittest.main()` if you run the script directly:
+1. This action creates a `test1.py` file with code that imports the standard `unittest` module, derives a test class from `unittest.TestCase`, and invokes `unittest.main()` if you run the script directly:
 
   ```python
   import unittest
