@@ -154,7 +154,7 @@ When the Snapshot Debugger captures a snapshot of your app, it is forking the ap
 When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the condtions specified will create a snapshot. If you have multiple snappoints, subsequent snapshots will come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs will send messages from every instance. 
 
 #### How does the Snapshot Debugger load symbols?
-The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service (we don't currently support embedded PDBs). The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
+The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service (embedded PDBs are currently not supported). The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
 
 #### Does the Snapshot Debugger work against release builds of my application?
 Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, we temporarily recompile that function back to a debug version and making it debuggable. When you stop the Snapshot Debugger, the functions are returned to their release build. 
