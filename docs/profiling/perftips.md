@@ -40,7 +40,7 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
  ![PerfTip](../profiling/media/dbgdiag_perf_perftip.png "DBGDIAG_PERF_PerfTip")  
   
 ## Diagnostics Tools window  
- Breakpoints and associated timing data timing data are recorded in the Diagnostic Tools window  
+ Breakpoints and associated timing data are recorded in the Diagnostic Tools window  
   
  The following graphic shows the Diagnostic Tools window in Visual Studio 2015 Update 1:  
   
