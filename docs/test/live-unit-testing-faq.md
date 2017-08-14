@@ -33,7 +33,7 @@ translation.priority.ht:
 
 **Answer:**
 
-Yes. Live Unit Testing works with .NET Core and .NET Frameworks. Support for .NET Core was added recently in Visual Studio 2017 version 15.3 Preview. 
+Yes. Live Unit Testing works with .NET Core and .NET Frameworks. Support for .NET Core was added recently in Visual Studio 2017 version 15.3. Please upgrade to this version of Visual Studio, if you want Live Unit Testing support for .NET Core. 
 
 ## Why doesn't Live Unit Testing work when I turn it on? 
 
@@ -171,7 +171,9 @@ public class Class1
 
 **Answer:**
 
-There is a known bug that may result in Live Unit Testing builds failing to embed the following Win32 PE Header data: 
+This issue is fixed and does not exist in in Visual Studio 2017 version 15.3. Please upgrade to this version of Visual Studio.
+
+For older versions of Visual Studio 2017, there is a known bug that may result in Live Unit Testing builds failing to embed the following Win32 PE Header data: 
 
 - File Version (specified by @System.Reflection.AssemblyFileVersionAttribute in code). 
 
@@ -199,13 +201,15 @@ Live Unit Testing currently doesn't work well with the Lightweight Solution load
  
 **Answer:**
 
-This is a known issue which we were not able to fix in Visual Studio 2017 release. It should be fixed in a subsequent update of Visual Studio 2017. 
+This is a known issue and should be fixed in a subsequent update of Visual Studio 2017. 
 
 ## Why does nothing happen after I include or exclude tests from the Live Test set? 
 
 **Answer:**
 
-This is a known issue. To work around this, you will need to make an edit to any file after you have included or excluded tests.  
+This issue is fixed and does not exist in in Visual Studio 2017 version 15.3. Please upgrade to this version of Visual Studio. 
+
+For older versions of Visual Studio 2017, this is a known issue. To work around this, you will need to make an edit to any file after you have included or excluded tests.  
 
 ## Live Unit Testing and editor icons 
 
