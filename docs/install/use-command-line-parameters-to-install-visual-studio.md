@@ -78,7 +78,6 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--fix` | **New in 15.3, optional**: Verify the contents of a layout.  If any files are found to be corrupt or missing, they are re-downloaded.  Internet access is required to fix a layout. |
 | `--clean <one or more paths to catalogs>` | **New in 15.3, optional**: Removes old versions of components from a layout that has been updated to a newer version. |
 
-
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |
 | `--channelId <id>` | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, ignored for other commands if `--installPath` is specified. |
