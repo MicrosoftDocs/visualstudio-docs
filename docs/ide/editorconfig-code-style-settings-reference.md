@@ -620,7 +620,7 @@ For formatting options you must specify **true** (prefer this option) or **false
         - [Label Positioning](#label)
     - [Spacing Options](#spacing)
         - [Space After Cast](#space_after_cast)
-        - [Space After Keywoards in Control Flow Statements](#space_control_flow)
+        - [Space After Keywords in Control Flow Statements](#space_control_flow)
         - [Space Between Method Declaration Parameter-List Parentheses](#space_parameter_list)
         - [Space Within Parentheses for Method Call Argument List](#space_method_call)
         - [Space Within Parentheses for Other Options](#space_other)
@@ -1072,7 +1072,7 @@ csharp_indent_labels = one_less
 csharp_space_after_cast = true
 ``` 
 
-### <a name="space_control_flow"> Space After Keywoards in Control Flow Statements </a>
+### <a name="space_control_flow"> Space After Keywords in Control Flow Statements </a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_after_keywords_in_control_flow_statements` |  C#  | true | Visual Studio 2017 v. 15.3  |

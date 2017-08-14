@@ -76,7 +76,7 @@
             topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
           - name: MSBuild
             tocHref: /visualstudio/msbuild/
-            topicHref: /visualstudio/msbuild/msbuild1
+            topicHref: /visualstudio/msbuild/msbuild
       - name: Installation
         tocHref: /visualstudio/install/
         topicHref: /visualstudio/install/install-visual-studio
