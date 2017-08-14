@@ -1,7 +1,7 @@
 ---
 title: "Automatically apply product keys when deploying Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/06/2017"
+ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
@@ -9,39 +9,26 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
-caps.latest.revision: 10
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Automatically apply product keys when deploying Visual Studio
-You can apply your product key programmatically as part of a script used to automate the deployment of Visual Studio. Product keys can be set on a device programmatically during installation of Visual Studio or after an installation completed.
+You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
 ## Apply the license after installation
- You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+ You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 
- Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt, followed by the product key (including the dashes) and the Microsoft Product Code (MPC). Please be sure to include the dashes in the product key.
+ Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
+
+>[!IMPORTANT]
+> Make sure to include the dashes in the product key.
 
  ```
  StorePID.exe [product key including the dashes] [MPC]
  ```
 
- This is an example command line for applying the license for Visual Studio 2017 Enterprise, which has a MPC of 08860, with a product key `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, assuming its installation into a default location:
+ The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
  ```cmd
  "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
@@ -55,7 +42,7 @@ You can apply your product key programmatically as part of a script used to auto
 | Visual Studio Professional 2017      | 08862 |
 | Visual Studio Test Professional 2017 | 08866 |
 
-If `StorePID.exe` successfully applied the product key, it will return an `%ERRORLEVEL%` of 0. If it encounters errors, it will return a code depending on the error condition:
+If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
 
 | Error                     | Code |
 |---------------------------|------|
