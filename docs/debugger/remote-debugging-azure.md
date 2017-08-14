@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "05/14/2017"
+ms.date: "08/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
