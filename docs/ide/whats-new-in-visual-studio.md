@@ -91,9 +91,9 @@ When you use the Roaming Extension Manager, there are three icon types on your l
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed** and is part of your Roaming list, which gives you access to it from any machine.
 
 ### Experience live architecture dependency validation and live unit testing
-Visual Studio can now notify you in real-time of architectural dependency rule violations as you type code in the Code Editor by using Dependency Validation diagrams (a.k.a. Layer diagrams).
+As you type code in the text editor, Visual Studio notifies you in real time of architectural dependency rule violations by using Dependency Validation diagrams (a.k.a. Layer diagrams).
 
-Errors appear in the Error List and squiggles will appear in the text editor showing you the precise location of the violation. You are now less likely to introduce unwanted dependencies.
+Errors appear in the Error List and squiggles appear in the text editor showing you the precise location of the violation. You are now less likely to introduce unwanted dependencies.
 
 ![Live Architecture Validation](../ide/media/vs2017ide-LiveArchitectureDepedendencyValidation.png "Live Architecture Dependency validation")
 
@@ -105,16 +105,16 @@ In Visual Studio Enterprise 2017, live unit testing gives you live unit test res
 For more information, see the [Live Unit Testing in Visual Studio 2017 Enterprise](https://blogs.msdn.microsoft.com/visualstudio/2017/03/09/live-unit-testing-in-visual-studio-2017-enterprise/) blog post.
 
 #### Set up a CI/CD pipeline to run automated tests efficiently
-Automated testing is a key part of any DevOps pipeline, which allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
+Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
 For more information, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
 
 
 ### Visual Studio IDE enhancements
 #### Use new refactorings
-We’ve added a handful of new refactorings, to include:
+In 15.3, we’ve added a handful of new refactorings, to include:
 *	Resolve merge conflict
-*	Add parameter (from callsite)
+*	Add parameter (from CallSite)
 *	Generate overrides
 *	Add named argument
 *	Add null-check for parameters
@@ -123,6 +123,8 @@ We’ve added a handful of new refactorings, to include:
 *	Convert if-to-switch
 *	Remove unused variable
 
+For more information, see the [Refactoring, Code Generation, and Quick Actions in Visual Studio](refactoring-code-generation-quick-actions.md) page.
+
 
 #### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
@@ -130,7 +132,7 @@ When you are working with a project in Visual Studio, you can set up and quickly
 ![Visual Studio 2017 interacts with the Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
 #### View and navigate code with Structure Visualizer
-The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use these to visualize and discover what block of code you're in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
+The Structure Visualizer draws structure guide lines (a.k.a. indent guides) on your code. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering on the lines shows you the tooltips that let you see the opening of that block and its parents. It's  available for all the languages supported via TextMate grammars as well as C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
@@ -147,7 +149,7 @@ We've refreshed the navigation experience to help you get from A to B with great
 
  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
-* **Indent Guides** &ndash; dotted, gray vertical lines act as landmarks in code to provide context within your frame of view. You may recognize these from the popular Productivity Power Tools.
+* **Indent Guides** &ndash; dotted, gray vertical lines act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools.
 
 For more information about our new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
@@ -160,7 +162,7 @@ For complete details, see our [What's New for Visual C++ in Visual 2017](/cpp/to
 
 ### Debugging and Diagnostics
 #### Run to Click:
-Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code that your mouse is over. Your code will run and stop on that line the next time it is hit in your code path.
+Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 
 ![Visual Studio 2017 debug - Run To Click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio debug & diagnostics")
 
@@ -184,7 +186,7 @@ As part of the "Mobile development with .NET" workload, developers familiar with
 For more information, see the [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) page.
 
 ### Entitlements editor
-**New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It's got a user-friendly UI that can be easily browsed. To launch it, double-click your entitlements.plist file.
+**New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your entitlements.plist file.
 
 ![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png "Entitlement editor for Xamarin")
 
@@ -207,9 +209,9 @@ As part of the "Games development for Unity" workload, we've included tools to h
 For more information, see the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) page.
 
 ### .NET Core
-.NET Core is a general purpose, modular, cross-platform and open source implementation of the .NET Standard and contains many of the same APIs as the .NET Framework.
+.NET Core is a general purpose, modular, cross-platform, and open source implementation of the .NET Standard and contains many of the same APIs as the .NET Framework.
 
-The .NET Core platform is made of several components, which includes the managed compilers, the runtime, the base class libraries, and numerous application models, such as ASP.NET Core. .NET Core supports three main operating systems: Windows, Linux, and macOS. You can use .NET Core in device, cloud, and embedded/IoT scenarios.
+The .NET Core platform is made of several components, which include the managed compilers, the runtime, the base class libraries, and numerous application models, such as ASP.NET Core. .NET Core supports three main operating systems: Windows, Linux, and macOS. You can use .NET Core in device, cloud, and embedded/IoT scenarios.
 
 And, it now includes Docker support
 
@@ -218,9 +220,9 @@ And, it now includes Docker support
 For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
 
 ## Talk to us  
- Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives a lot of what we do.
+ Why send feedback to the Visual Studio team? Because we take customer feedback seriously: It drives much what we do.
 
-If you want to make suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to Us](../ide/talk-to-us.md) page for more details.
+If you want to make suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to Us](../ide/talk-to-us.md) page for more information.
 
 ### Report a problem  
  Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots and trace & heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
