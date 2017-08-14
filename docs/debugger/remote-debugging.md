@@ -96,7 +96,7 @@ You can change some aspects of the configuration of the remote debugger after yo
   
 -   If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools / Options**.  
   
-     For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../../debugger/remote-debugger-port-assignments.md).  
+     For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).  
   
      > [!WARNING]
      >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
