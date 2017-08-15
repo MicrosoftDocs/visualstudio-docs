@@ -37,7 +37,7 @@ translation.priority.ht:
 
   - A new beaker icon is now used to distinguish a test method from regular methods. An empty beaker icon indicates that the specific test in not included in Live Unit Testing. 
 
-  - When clicking on a test method from the flyout of a Live Unit Testing coverage icon, you now have the option to debug the test right from that context within the flyout without having to leave the code editor. This is very handy especially when you are looking at a failed test.  
+  - When clicking on a test method from the pop-up UI window of a Live Unit Testing coverage icon, you now have the option to debug the test right from that context within the UI window and without having to leave the code editor. This is very handy especially when you are looking at a failed test.  
 
   - Couple more configurable options have been added to Tools/Options/Live Unit Testing/General. You can cap the memory used for Live Unit Testing. You can also specify the file path for persisted Live Unit Testing data directory for your open solution. 
 
