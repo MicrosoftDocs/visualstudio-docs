@@ -251,7 +251,7 @@ You can do several things to collect more detailed logs:
 - Set the `LiveUnitTesting_TestPlatformLog` user environment variable to `1` to capture the Test Platform log. Detailed Test Platform log messages from Live Unit Testing runs can then be retrieved from `[Solution Root]\.vs\[Solution Name]\log\[VisualStudio Process ID]`.
 
 - Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output - Tests** tab in Visual Studio. 
- 
+  
 ## See also
 
 [Live Unit Testing](live-unit-testing.md)
