@@ -42,6 +42,11 @@ translation.priority.ht:
   - Couple more configurable options have been added to Tools/Options/Live Unit Testing/General. You can cap the memory used for Live Unit Testing. You can also specify the file path for persisted Live Unit Testing data directory for your open solution. 
 
   - Couple more menu items have been added under menu bar of Test/Live Unit Testing. One called 'Reset Clean' to delete the persisted data and generate it again .The other called 'Options', to jump to Tools/Options/Live Unit Testing/General.
+  
+  - We added mechanism to recognize the the following attributes, if you want to specify in source code to exclude targetted test methods from Live Unit Testing.
+    - For xUnit: [Trait("Category", "SkipWhenLiveUnitTesting")]
+    - For NUnit: [Category("SkipWhenLiveUnitTesting")]
+    - For MSTest: [TestCategory("SkipWhenLiveUnitTesting")]
 
 ## Does Live Unit Testing work with .NET Core?  
 
