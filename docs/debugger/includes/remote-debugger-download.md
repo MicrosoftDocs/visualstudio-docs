@@ -34,20 +34,3 @@ translation.priority.ht:
 3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. Follow the [setup instructions](#bkmk_setup).
 
 If you try to copy the remote debugger (msvsmon.exe) to the remote computer and run it, be aware that the **Remote Debugger Configuration Wizard** (**rdbgwiz.exe**) is installed only when you download the tools. You may need to use the wizard for configuration later, especially if you want the remote debugger to run as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
-
-### (Optional) To run the remote debugger from a file share
-
-You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help / Usage** in the remote debugger).
-
-1. Find **msvsmon.exe** in the directory matching your version of Visual Studio. For Visual Studio 2017:
-
-      **Program Files\Microsoft Visual Studio 15.0\Common7\IDE\Remote Debugger\x86\msvsmon.exe**
-      
-      **Program Files\Microsoft Visual Studio 15.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe**
-
-2. Share the **Remote Debugger** folder on the Visual Studio computer.
-
-3. On the remote computer, run **msvsmon.exe**. Follow the [setup instructions](#bkmk_setup).
-
-> [!TIP] 
-> For command line installation and command line reference, see the Help page for **msvsmon.exe** by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help / Usage** in the remote debugger).
