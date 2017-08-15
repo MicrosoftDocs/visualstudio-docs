@@ -1,7 +1,7 @@
 ---
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "08/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using the DebuggerDisplay Attribute
-The [DebuggerDisplayAttribute Class](http://msdn.microsoft.com/Library/918cc8fc-3990-4250-b5c0-7e532602ddb4) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
+The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisplayattribute) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   
  The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.  
   
@@ -192,6 +192,6 @@ class MyHashtable
   
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
- [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
- [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md) 
+ [Create custom views of managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)   
+ [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md)   
  [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
