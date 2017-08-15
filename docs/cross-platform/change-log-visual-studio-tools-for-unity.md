@@ -32,7 +32,7 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
-## 3.3.0.1
+## 3.3.0.2
  Released 2017-08-15
 
 ### Bug fixes  
