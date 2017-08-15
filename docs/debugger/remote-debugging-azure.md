@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "07/26/2017"
+ms.date: "08/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -42,6 +42,14 @@ This topic shows how to:
 
 * Remote debug ASP.NET Core on an Azure VM
 
+For Azure App Service, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
+
+![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+
+For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
+
+![Remote debugger components](../debugger/media/remote-debugger-azure-vm.png "Remote_debugger_components")
+
 > [!NOTE]
 > To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
@@ -49,15 +57,21 @@ This topic shows how to:
 
 1. Create a new ASP.NET Core application. (Choose **File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)**)
 
-    In the **ASP.NET Core** templates section, select **Web Application**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
+    In the **ASP.NET Core** templates section, select **Web Application**.
 
-3. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+2. Make sure that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
+
+3. Name the project **MyASPApp** and click **OK** to create the new solution.
+
+4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
 From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
 
-1. In Visual Studio, right-click the solution and choose **Publish**.
+#### To deploy the app and remote debug
+
+1. In Visual Studio, right-click the project node and choose **Publish**.
 
 2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
 
@@ -65,7 +79,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
-9. In the running ASP.NET application, click the link to the **About** page.
+4. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
@@ -160,10 +174,17 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 ### <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
+
+### Requirements
+
+The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
+
+> [!NOTE]
+> If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ### <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
