@@ -20,7 +20,7 @@ If you have previously had Xamarin Studio installed on your machine, you may als
 
 ## Uninstall Script
 
-You can uninstall Visual Studio and its associated components in one go by using the uninstall script, which is located [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/tree/master/mac/resources/uninstall-vsmac.sh).
+You can uninstall Visual Studio and its associated components in one go by using the uninstall script, which is located [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/master/mac/resources/uninstall-vsmac.sh).
 
 This uninstall script contains most of the commands that you will find in the article. There are two main omissions from the script and are not included due to possible external dependencies:
 
@@ -61,6 +61,7 @@ rm -rf "~/Library/Preferences/Visual Studio"
 rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
+rm -rf ~/Library/Developer/Xamarin
 ```
 
 ## Uninstall Mono SDK (MDK)
@@ -160,6 +161,12 @@ For older versions, you will need to manually remove the following:
 * Delete the Inspector app at `"Applications/Xamarin Inspector.app"`
 * Delete the add-ins: `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` and `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"`
 * Delete Inspector and supporting files here: `/Library/Frameworks/Xamarin.Interactive.framework` and `/Library/Frameworks/Xamarin.Inspector.framework`
+
+# Uninstall the Xamarin Profiler
+
+```bash
+sudo rm -rf "/Applications/Xamarin Profiler.app"
+```
 
 ## Uninstall the Visual Studio Installer
 
