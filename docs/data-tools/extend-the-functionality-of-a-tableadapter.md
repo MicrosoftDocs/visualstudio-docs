@@ -50,11 +50,11 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
 #### To create a partial class for a TableAdapter  
   
-1.  Add a new class to your project by going to the **Project** menu and selecting**Add Class**.  
+1.  Add a new class to your project by going to the **Project** menu and selecting **Add Class**.  
   
 2.  Name the class `CustomersTableAdapterExtended`.  
   
-3.  Select**Add**.  
+3.  Select **Add**.  
   
 4.  Replace the code with the correct namespace and partial class name for your project as follows:  
   

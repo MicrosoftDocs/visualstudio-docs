@@ -159,7 +159,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 5.  Click the drop-down arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data-bound controls on the form  

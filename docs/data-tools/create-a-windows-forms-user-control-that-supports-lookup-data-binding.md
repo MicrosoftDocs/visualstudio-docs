@@ -164,7 +164,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 8.  Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto **Form1**.  
   
 #### To create data-bound controls on the Windows Form  
