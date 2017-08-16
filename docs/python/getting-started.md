@@ -38,7 +38,7 @@ Python support in Visual Studio includes a number of [project templates](python-
 1. Select the "Python Application" template, specify a folder for the project, and select **OK**. (If you want to create a local repository for your project right away, also select the **Add to source control** option).
 
     > [!Tip]
-    > The "From exiting Python Code" template lets you quickly create a Visual Studio project from a folder that already contains Python code, rather than creating a new empty project and importing existing code into it.
+    > The "From existing Python Code" template lets you quickly create a Visual Studio project from a folder that already contains Python code, rather than creating a new empty project and importing existing code into it.
 
 1. After a few moments, the project opens in the Visual Studio Solution Explorer window. Here you can browse the files and folders in your project, as well as manage environments.
 
