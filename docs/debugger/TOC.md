@@ -148,8 +148,6 @@
 ## [Using the Microsoft Monitoring Agent](using-the-microsoft-monitoring-agent.md)
 ## [Using saved IntelliTrace data](using-saved-intellitrace-data.md)
 ## [API Reference for IntelliTrace Extensibility](api-reference-for-intellitrace-extensibility.md)
-# [Debug Azure apps](../debugger/debug-azure-apps.md)
-## [Debug a live Azure app](../debugger/debug-live-azure-applications.md)
 # [Debug applications](debugging-applications.md)
 ## [Debug Windows Store and UWP apps](debugging-windows-store-and-windows-universal-apps.md)
 ### [Debug an installed app package](debug-installed-app-package.md)
