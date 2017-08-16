@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editor"  
 ms.assetid:
 caps.latest.revision: 01
-author: "kaseyu"
+author: "kuhlenh"
 ms.author: "kaseyu"
 manager: "davidcsa"
 translation.priority.ht:
