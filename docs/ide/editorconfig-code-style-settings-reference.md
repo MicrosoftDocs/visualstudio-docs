@@ -36,16 +36,16 @@ translation.priority.ht:
 .NET coding conventions are configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable/disable individual .NET coding conventions** and **configure the degree at which you want the convention enforced** (via a severity level). To learn more about how to use EditorConfig to enforce consistency on your codebase, read [this article](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
 There are three supported .NET coding convention categories:
-- **[Language Conventions](#language)** are rules pertaining to the C# or Visual Basic language, e.g., `var`/explicit type, use expression-bodied member.
-- **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read, e.g., Allman braces, spaces in control blocks.
-- **[Naming Conventions](#naming)** are rules respecting the way objects are named, e.g., `async` methods must end in "Async". 
+- **[Language Conventions](#language)** are rules pertaining to the C# or Visual Basic language, for example, `var`/explicit type, use expression-bodied member.
+- **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read, for example, Allman braces, spaces in control blocks.
+- **[Naming Conventions](#naming)** are rules respecting the way objects are named, for example, `async` methods must end in "Async". 
 
 # <a name="language"> Language Conventions </a>
 ## Overview
 **Rule Format:**
 `options_name = false|true : none|suggestion|warning|error`
 
-For code style option you must specify **true** (prefer this option) or **false** (do not prefer this option), a colon (`:`), and a severity (`none`, `silent`, `suggestion`, `warning`, or `error`). Severity means the level of enforcement for that style you want in your code base.
+For code style option, you must specify **true** (prefer this option) or **false** (do not prefer this option), a colon (`:`), and a severity (`none`, `silent`, `suggestion`, `warning`, or `error`). Severity means the level of enforcement for that style you want in your code base.
 
 `none` and `silent` are synonymous and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.
 
@@ -64,7 +64,7 @@ error | When this style is not being followed, show a compiler error.
         - [Properties](#this_and_me_properties)
         - [Methods](#this_and_me_methods)
         - [Events](#this_and_me_events)
-    - [Language keywords (int, string, etc. ) vs framework type names for type references](#language_keywords)
+    - [Language keywords (int, string, etc.) vs framework type names for type references](#language_keywords)
         - [Locals, parameters, and members](#language_keywords_variables)
         - [Member access expressions](#language_keywords_member_access)
     - [Expression-level Preferences](#expression_level)
@@ -171,7 +171,7 @@ dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
-## <a name="language_keywords">Language keywords (int, string, etc. ) vs framework type names for type references </a>
+## <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references </a>
 ### <a name="language_keywords_variables"> Locals, parameters, and members (IDE0012/IDE0014)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -546,8 +546,8 @@ csharp_prefer_simple_default_expression = true:suggestion
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
-| True | Prefer to use throw expressions instead of throw statements. | **C#:** <br>`this.s = ss ?? throw new ArgumentNullException(nameof(s));`
-| False | Prefer to use throw statements instead of throw expressions.| **C#:** <br>`if (s==null) {throw new ArgumentNullException(nameof(s));} this.s = s;`
+| True | Prefer to use `throw` expressions instead of `throw` statements. | **C#:** <br>`this.s = ss ?? throw new ArgumentNullException(nameof(s));`
+| False | Prefer to use `throw` statements instead of `throw` expressions.| **C#:** <br>`if (s==null) {throw new ArgumentNullException(nameof(s));} this.s = s;`
 
 #### Example editorconfig file:
 ```
@@ -565,7 +565,7 @@ csharp_style_throw_expression = true:suggestion
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
 | True | Prefer to use conditional coalescing operation (`?.`) when invoking a lambda instead of performing a null check. | **C#:** <br>`func?.Invoke(args);`
-| False | Prefer to preform a null check before invoking a lambda instead of using the conditional coalescing operator (`?.`).| **C#:** <br>`if (func!=null) { func(args); }`
+| False | Prefer to perform a null check before invoking a lambda instead of using the conditional coalescing operator (`?.`).| **C#:** <br>`if (func!=null) { func(args); }`
 
 #### Example editorconfig file:
 ```
@@ -598,7 +598,7 @@ csharp_prefer_braces = true:none
 **Rule Format:**
 `options_name = false|true`
 
-For formatting options you must specify **true** (prefer this option) or **false** (do not prefer this option) except in a couple cases where you must instead specify what conditions you want the rule applied to.
+For formatting options, you must specify **true** (prefer this option) or **false** (do not prefer this option) except in a couple cases where you must instead specify what conditions you want the rule applied to.
 
 ## .NET Formatting Options
 
@@ -611,7 +611,7 @@ For formatting options you must specify **true** (prefer this option) or **false
         - [Newline Before `else`](#newline_before_else)
         - [Newline Before `catch`](#newline_before_catch)
         - [Newline Before `finally`](#newline_before_finally)
-        - [Newline Before Members in Object Intializers](#newline_before_object)
+        - [Newline Before Members in Object Initializers](#newline_before_object)
         - [Newline Before Members in Anonymous Types](#newline_before_anonymous)
         - [Newline Before Members in Query Expression Clauses](#newline_before_query)
     - [Indentation Options](#indent)
@@ -808,7 +808,7 @@ try {
 csharp_new_line_before_finally = true
 ``` 
 
-### <a name="newline_before_object"> Newline Before Members in Object Intializers</a>
+### <a name="newline_before_object"> Newline Before Members in Object Initializers</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_members_in_object_initializers`|  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -1228,7 +1228,7 @@ styleTitle:<br>
 `dotnet_naming_style.<styleTitle>.word_separator = string`<br>
 
 ## Writing a Naming Convention
-For naming conventions you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, will be the only rule applied. 
+For naming conventions, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, will be the only rule applied. 
 
 ### Severity
 The following are valid options for the severity of a naming style rule
@@ -1246,7 +1246,7 @@ warning | When this style is not being followed, show a compiler warning.
 error | When this style is not being followed, show a compiler error.
 
 ### Symbol Specification
-Idenfity _what_ symbols _with which_ modifiers and _at what_ accessibility level the naming rule should apply to.
+Identify _what_ symbols _with which_ modifiers and _at what_ accessibility level the naming rule should apply to.
 
 |  Option Name | `dotnet_naming_rule.<namingRuleTitle>.symbols` |
 | ------------- |:-------------:|
