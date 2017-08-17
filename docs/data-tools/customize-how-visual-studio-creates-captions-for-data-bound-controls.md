@@ -124,7 +124,7 @@ When you drag items from the [Data Sources Window](add-new-data-sources.md) onto
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and selec t**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter `(.*)` for the value. This will match the entire string.  
   
