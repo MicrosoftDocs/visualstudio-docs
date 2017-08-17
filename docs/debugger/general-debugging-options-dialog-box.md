@@ -43,7 +43,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # General, Debugging, Options Dialog Box
-The**Tools / Options / Debugging / General** page lets you set the following options:  
+The **Tools > Options > Debugging > General** page lets you set the following options:  
   
 **Ask before deleting all breakpoints**  
 Requires confirmation before completing the **Delete All Breakpoints** command.  
@@ -71,7 +71,7 @@ In condition 2 and 3, the exception is sometimes caught by managed code in `msco
 **Enable breakpoint filters**  
 Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.  
  
-**Use the new Exception Helper**
+**Use the new Exception Helper**  
 Enables the Exception Helper (Visual Studio 2017) that replaces the exception assistant.
   
 > [!NOTE]
@@ -197,7 +197,7 @@ When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to
 
 If you are using an older version of Visual Studio, some additional options might be present.
 
-**Enable the exception assistant**
+**Enable the exception assistant**  
 For managed code, enabled the exception assistant. In Visual Studio 2017, the Exception Helper replaced the exception assistant.
 
 **Unwind the call stack on unhandled exceptions**  

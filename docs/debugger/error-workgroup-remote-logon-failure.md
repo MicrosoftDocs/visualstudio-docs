@@ -61,19 +61,17 @@ This error reads:
   
 ### To add user rights assignments  
   
-1.  Open the Loca  
+1.  Open the **Local Security Policy** window.  
   
-2.  Open the **Local Security Policy** window.  
+2.  Expand the **Local Policies** folder.  
   
-3.  Expand the **Local Policies** folder.  
+3.  Click **User Rights Assignment**.  
   
-4.  Click **User Rights Assignment**.  
-  
-5.  In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
+4.  In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
   
      ![Local Security Policy User Rights](../debugger/media/dbg_err_localsecuritypolicy_userrightsdebugprograms.png "DBG_ERR_LocalSecurityPolicy_UserRightsDebugPrograms")  
   
-6.  To add new users, click the **Add User or Group** button.  
+5.  To add new users, click the **Add User or Group** button.  
   
 ### To change the Sharing and Security Model  
   

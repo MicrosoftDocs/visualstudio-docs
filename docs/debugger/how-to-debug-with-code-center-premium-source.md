@@ -129,7 +129,7 @@ With the [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] d
   
     1.  In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.  
   
-    2.  Select **Debug** and then choose **Enable unmanged code debugging**.  
+    2.  Select **Debug** and then choose **Enable unmanaged code debugging**.  
   
 ### To debug your solution with Code Center Premium source  
   

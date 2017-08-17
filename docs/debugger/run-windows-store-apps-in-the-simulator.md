@@ -160,9 +160,9 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
 ##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
- You can navigate the simulator toolbar by pressing **CTRL+ALT+Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  
+ You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  
   
- You can shut down the simulator by pressing **CTRL+ALT+F4**.  
+ You can shut down the simulator by pressing **CTRL + ALT + F4**.  
   
 ## See Also  
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
