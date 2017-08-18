@@ -1289,8 +1289,8 @@ Identify the naming style to apply to the symbols.
 
 ### Example Naming Convention
 ```
-# CSharp formatting settings:
-[*.cs]
+# Dotnet Naming Conventions
+[*.{cs,vb}] 
 dotnet_naming_rule.async_methods_end_in_async.symbols  = any_async_methods
 dotnet_naming_rule.async_methods_end_in_async.style    = end_in_async
 dotnet_naming_rule.async_methods_end_in_async.severity = suggestion
