@@ -47,11 +47,11 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
  Depending on User Access Permissions settings that an administrator has made available, an individual user might or might not have security permission to create a profiler session on the computer that hosts the ASP.NET process. The following examples illustrate possible differences among users:  
   
--   Some users may access advanced profiling features when the Administrator has set the driver and service to start.  
+-   Some users might access advanced profiling features when the Administrator has set the driver and service to start.  
   
--   Domain users may access sample profiling only.  
+-   Domain users might access sample profiling only.  
   
--   Some users may deny access to profiling to all other users.  
+-   Some users might deny access to profiling to all other users.  
   
  For more information, see [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
   
