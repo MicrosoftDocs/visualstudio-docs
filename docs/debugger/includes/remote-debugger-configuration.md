@@ -36,6 +36,6 @@ You must have administrative permissions on the remote computer.
   
      The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because this must match the configuration you later use in Visual Studio.  
   
- When you are finished debugging and need to stop the remote debugger, click **File / Exit** on the window. You can restart it from the **Start** menu or from the command line:  
+ When you are finished debugging and need to stop the remote debugger, click **File > Exit** on the window. You can restart it from the **Start** menu or from the command line:  
   
  **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger\\<x86, x64, or Appx\msvsmon.exe**.  

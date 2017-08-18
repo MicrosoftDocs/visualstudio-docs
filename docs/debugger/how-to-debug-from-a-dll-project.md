@@ -53,7 +53,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
     A **Debug** configuration is required for this method. 
   
-3.  Go to **Configuration Properties / Debugging**.  
+3.  Go to **Configuration Properties > Debugging**.  
   
 4.  In the **Debugger to launch** list, choose **Local Windows Debugger** or **Remote Windows Debugger**.  
   
@@ -73,7 +73,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
 4.  (.NET Core) Select **Executable** from the **Launch** list, and then add the fully-qualified path name of the calling application in the **Executable** field. 
   
-     If you need to add the external program's command line arguments, add them in the **Command line arguments** (or **Application argurments**) field.
+     If you need to add the external program's command line arguments, add them in the **Command line arguments** (or **Application arguments**) field.
 
     ![Debugging Properties Window](../debugger/media/dbg-debugging-properties-dll-csharp.png "DebuggingPropertiesWindow") 
 
@@ -89,7 +89,7 @@ The C++ property pages differ in layout and content from the C# and Visual Basic
 
     (Also, make sure that the **Solutions Configuration** field is still set to **Debug**.)   
   
-3.  Start debugging (press F5, click the green arrow, or click **Debug / Start Debugging**).
+3.  Start debugging (press F5, click the green arrow, or click **Debug > Start Debugging**).
 
     You will hit the breakpoints in your DLL. If you aren't able to hit the breakpoints, make sure that your DLL output (by default, the **project\Debug** folder) is in a location that the calling application expects to find it.
   

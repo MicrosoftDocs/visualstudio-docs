@@ -222,7 +222,7 @@ In this walkthrough, you use Visual Studio to create a small database that conta
     GO  
     ```  
   
-5.  On the menu bar, select **File** > **Save SqlQuery_1.sql As**.  
+5.  On the menu bar, select **File** > **Save SqlQuery_1.sql As...**.  
   
      The **Save File As** dialog box appears.  
   

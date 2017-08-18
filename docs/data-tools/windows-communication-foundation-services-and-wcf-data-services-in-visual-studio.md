@@ -133,7 +133,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
 #### To select a service endpoint  
   
-1.  Add a reference to a WCF service by right-clicking the project node in Solution Explorer and choosing **Add service reference**  
+1.  Add a reference to a WCF service by right-clicking the project node in Solution Explorer and choosing **Add service reference**.
   
 2.  In the Code Editor, add a constructor for the service reference:  
   

@@ -54,7 +54,7 @@ Edit and Continue works only in debug builds. For native C++, Edit and Continue 
   
 1.  If you are in a debugging session, stop debugging (**Shift + F5**).
 
-2.  Open debugging options page (**Tools / Options / Debugging**).
+2.  Open debugging options page (**Tools > Options > Debugging**).
   
 3.  Select **General**, and scroll down to **Edit and Continue** category (right pane).  
   
