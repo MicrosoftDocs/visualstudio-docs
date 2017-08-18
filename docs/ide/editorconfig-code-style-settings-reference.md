@@ -51,7 +51,7 @@ For code style option, you must specify **true** (prefer this option) or **false
 
 Severity | effect
 ------------ | -------------
-none/silent | Do not show anything to the user when this style is not being followed, however code generation features will generate in this style. 
+none/silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
 suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).
 warning | When this style is not being followed, show a compiler warning.
 error | When this style is not being followed, show a compiler error.
@@ -111,8 +111,8 @@ error | When this style is not being followed, show a compiler error.
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs,*.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_qualification_for_field = false:suggestion
 ```
 
@@ -129,8 +129,8 @@ dotnet_style_qualification_for_field = false:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs,*.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_qualification_for_property = false:suggestion
 ```
 
@@ -148,8 +148,8 @@ dotnet_style_qualification_for_property = false:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_qualification_for_method = false:suggestion
 ```
 
@@ -166,8 +166,8 @@ dotnet_style_qualification_for_method = false:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
@@ -185,8 +185,8 @@ dotnet_style_qualification_for_event = false:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 ``` 
 
@@ -203,8 +203,8 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
@@ -222,8 +222,8 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_object_initializer = true:suggestion
 ``` 
 
@@ -240,8 +240,8 @@ dotnet_style_object_initializer = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_collection_initializer = true:suggestion
 ```
 
@@ -258,8 +258,8 @@ dotnet_style_collection_initializer = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_explicit_tuple_names = true:suggestion
 ``` 
 
@@ -276,8 +276,8 @@ dotnet_style_explicit_tuple_names = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_coalesce_expression = true:suggestion
 ``` 
 
@@ -294,8 +294,8 @@ dotnet_style_coalesce_expression = true:suggestion
 
 #### Example editorconfig file:
 ```
-# CSharp and VisualBasic code style settings:
-[*.cs, *.vb]
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
 dotnet_style_null_propagation = true:suggestion
 ``` 
 
@@ -643,7 +643,7 @@ For formatting options, you must specify **true** (prefer this option) or **fals
 #### Example editorconfig file:
 ```
 # .NET formatting settings:
-[*.cs, *.vb]
+[*.{cs,vb}]
 dotnet_sort_system_directives_first = true
 ``` 
 
@@ -1228,7 +1228,7 @@ styleTitle:<br>
 `dotnet_naming_style.<styleTitle>.word_separator = string`<br>
 
 ## Writing a Naming Convention
-For naming conventions, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, will be the only rule applied. 
+For naming conventions, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, is the only rule applied. 
 
 ### Severity
 The following are valid options for the severity of a naming style rule
@@ -1236,11 +1236,11 @@ The following are valid options for the severity of a naming style rule
 
  `none` and `silent` are synonymous and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.
 
- `suggestion` means that the user will be shown the following in the Error List: and the following in the IDE. The `suggestion` severity will allow the naming rule to run, but it will not cause the build to break.
+ `suggestion` means that the user is shown the following in the Error List: and the following in the IDE. The `suggestion` severity allows the naming rule to run, but it doesn't cause the build to break.
 
 Severity | effect
 ------------ | -------------
-none/silent | Do not show anything to the user when this style is not being followed, however code generation features will generate in this style. 
+none/silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
 suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).
 warning | When this style is not being followed, show a compiler warning.
 error | When this style is not being followed, show a compiler error.
