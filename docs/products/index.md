@@ -7,8 +7,6 @@ searchScope: []
 ---
 <div id="main" class="v2">
     <div class="container">
-    </div>
-    <div class="container">
         <h1>Documentation for Visual Studio Products</h1>
         <ul class="pivots">
             <li>
@@ -16,15 +14,15 @@ searchScope: []
                 <ul id="products">
                     <li>
                         <a href="#products1"></a>
-                        <ul id="products1" class="cardsC">
-                            <li style="flex: 0 1 25%">
-                                <a href="/visualstudio/">
+                        <ul id="products1" class="cardsC cols cols4">
+                            <li>
+                                <a href="/visualstudio/" title="Visual Studio">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="Visual Studio" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -36,14 +34,14 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                            <li style="flex: 0 1 25%">
-                                <a href="https://www.visualstudio.com/docs/overview">
+                            <li>
+                                <a href="https://www.visualstudio.com/docs/overview" title="Visual Studio Team Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-teamservices.svg" src="./images/vs-teamservices.svg" alt="" />
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-teamservices.svg" src="./images/vs-teamservices.svg" alt="Visual Studio Team Services" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -55,14 +53,14 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                            <li style="flex: 0 1 25%">
-                                <a href="https://code.visualstudio.com/docs">
+                            <li>
+                                <a href="https://code.visualstudio.com/docs" title="Visual Studio Code">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -74,14 +72,14 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                            <li style="flex: 0 1 25%">
-                                <a href="/visualstudio/mac">
+                            <li>
+                                <a href="/visualstudio/mac" title="Visual Studio for Mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage cardScaleImage" style="background-size: 120px 120px;">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="Visual Studio for Mac" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
