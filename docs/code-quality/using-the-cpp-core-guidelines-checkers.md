@@ -183,7 +183,7 @@ You can run the C++ Core Checker only on specified files by using the same appro
     </BuildMacro>
     <BuildMacro Include="Esp_Extensions">
       <EnvironmentVariable>true</EnvironmentVariable>
-      <ValueCppCoreCheck.dll</Value>
+      <Value>CppCoreCheck.dll</Value>
     </BuildMacro>
 </ItemGroup>
 ```
