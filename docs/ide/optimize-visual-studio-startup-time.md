@@ -55,45 +55,19 @@ You can always return to this dialog box at any time to change the setting for a
 
 ## Speed up solution load
 
-Visual Studio 2017 supports **lightweight solution load** that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, and/or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load.
-
-Because some IDE features are not fully available when lightweight solution load is enabled, the feature is turned off by default. The following sections help you decide whether or not to enable this feature.
-
-
-
-
-
-
-
 Many solutions contain a large number of projects, which affects the time taken to load those solutions. However, in team environments, developers typically work on a different subset of those projects and don’t need to load all of the individual projects.
 
-In **lightweight solution load** (LSL) mode, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the highly-used features will work under LSL mode, as it provides the ability for you to build, search and debug on the entire solution. (The main exception is currently the edit and continue feature..)
+Visual Studio 2017 supports **lightweight solution load**. When lightweight solution load (LSL) mode is enabled, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the commonly-used IDE features work under LSL mode, and it provides the ability for you to build, search and debug on the entire solution. (The main unsupported feature in LSL mode is edit and continue).
 
-For large solutions with more than 30 projects, LSL typically loads solutions twice as fast (on average).
-While most of the IDE features work in LSL mode, some IDE features may require all the projects to be loaded. In these cases, Visual Studio automatically loads the entire solution so that you can use the feature. In the worst-case scenario, you will end up loading all the projects in the lightweight mode. 
+For large solutions with more than 30 projects, LSL typically loads solutions twice as fast (on average). While most of the IDE features work in LSL mode, some IDE features might require all the projects to be loaded. In these cases, Visual Studio automatically loads the entire solution so that you can use the feature. In the worst-case scenario, you will end up loading all the projects in the lightweight mode. 
+
 If you use an IDE feature on a project that is not currently loaded, Visual Studio loads the appropriate project(s) for you. For example, if you are trying to create or open a class diagram for an unopened project, Visual Studio automatically loads the appropriate projects. The detailed feature list is referenced in this article below.
 
-### How does lightweight solution load work behind the scenes?
-
-When you load your solution, Visual Studio remember which projects you previously opened and loads only those projects. All other projects are visible in the solution explorer but not loaded. As soon as you expand a project or right click on a project, VS auto-loads that project. This usually takes less than a second but can take longer for some projects.
-However, Visual Studio enables IDE features like search, debug, build, source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
-As you expand more projects, Visual Studio remembers the list of expanded projects. When a solution is re-opened, Visual Studio auto-loads projects that you previously expanded.
-
-### Visual Studio prompts developers likely to see significant performance gains
-
-From the Visual Studio telemetry, large solutions with over 30 projects significantly benefit from LSL mode. Consequently, we prompt developers with large solutions to try out LSL mode. The majority of developers who try LSL for the first time end up using it on regular basis. 
-
-We are constantly reviewing Visual Studio usage telemetry to improve heuristics for offering LSL mode to developers who would benefit the most. 
-
-### Visual Studio makes recommendations to turn on lightweight solution load based on heuristics
-
-By default, Visual Studio turns on LSL for users who are most likely to benefit. If you have multiple solutions, Visual Studio will offer LSL mode for solutions that are most likely to see significant performance gains. If you  have selected the lightweight mode option Let Visual Studio decide (default option), Visual Studio may open the solution in lightweight mode based on heuristics. A message bar indicates whether thethe solution is in lightweight mode. When the message bar shows, you have the option to learn more, or update settings.
-
-![Popup window](../ide/media/VSIDE_LSL_Popup.png)
+The following sections show how to enable lightweight solution load and also help you decide whether or not to enable the feature.
 
 ### Enable or disable lightweight solution load
 
-You can right-click  the solution name inSolution Explorer, and select Enable Lightweight Solution Load. After selecting the option, you need to close and re-open the solution to activate lightweight solution load.
+You can right-click  the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and re-open the solution to activate lightweight solution load.
 
 > [!NOTE}
 > The same steps apply for disabling LSL. You need to close and re-open the solution to disable lightweight solution load. 
@@ -105,6 +79,25 @@ You can right-click  the solution name inSolution Explorer, and select Enable Li
 You can globally disable or configure LSL for all the solutions by choosing **Tools > Options > Projects and Solutions**.
 
 ![Tools Options dialog box](../ide/media/VSIDE_LightweightSolutionLoad.png)
+
+### How does lightweight solution load work behind the scenes?
+
+When you load your solution, Visual Studio remembers which projects you previously opened and loads only those projects. All other projects are visible in Solution Explorer but not loaded. As soon as you expand a project or right click on a project, VS auto-loads that project. This usually takes less than a second but can take longer for some projects.
+However, Visual Studio enables IDE features like search, debug, build, source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
+
+As you expand more projects, Visual Studio remembers the list of expanded projects. When a solution is re-opened, Visual Studio auto-loads projects that you previously expanded.
+
+### Visual Studio prompts developers likely to see significant performance gains
+
+From Visual Studio telemetry, large solutions with over 30 projects significantly benefit from LSL mode. Consequently, we prompt developers with large solutions to try out LSL mode. The majority of developers who try LSL for the first time end up using it on regular basis. 
+
+We are constantly reviewing Visual Studio usage telemetry to improve heuristics for offering LSL mode to developers who would benefit the most. 
+
+### Visual Studio makes recommendations to turn on lightweight solution load based on heuristics
+
+By default, Visual Studio turns on LSL for users who are most likely to benefit. If you have multiple solutions, Visual Studio will offer LSL mode for solutions that are most likely to see significant performance gains. If you  have selected the lightweight mode option Let Visual Studio decide (default option), Visual Studio may open the solution in lightweight mode based on heuristics. A message bar indicates whether thethe solution is in lightweight mode. When the message bar shows, you have the option to learn more, or update settings.
+
+![Popup window](../ide/media/VSIDE_LSL_Popup.png)
 
 ### IDE Features fully supported in Lightweight mode
 
