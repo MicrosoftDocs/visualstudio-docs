@@ -70,7 +70,7 @@ The following sections show how to enable lightweight solution load and also hel
 You can right-click  the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and reopen the solution to activate lightweight solution load.
 
 > [!NOTE]
-> The same steps apply for disabling LSL. To disable lightweight solution load, close and reopen the solution . 
+> The same steps apply for disabling LSL. To disable lightweight solution load, deselect **Enable Lightweight Solution Load**, then close and reopen the solution. 
 
 ![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
 
@@ -95,7 +95,7 @@ We are constantly reviewing Visual Studio usage telemetry to improve heuristics 
 
 ### Visual Studio makes recommendations to turn on lightweight solution load based on heuristics
 
-By default, Visual Studio turns on LSL for users who are most likely to benefit. If you have multiple solutions, Visual Studio offers LSL mode for solutions that are most likely to see significant performance gains. If you  have selected the lightweight mode option Let Visual Studio decide (default option), Visual Studio may open the solution in lightweight mode based on heuristics. A message bar indicates whether thethe solution is in lightweight mode. When the message bar shows, you have the option to learn more, or update settings.
+By default, Visual Studio turns on LSL for users who are most likely to benefit. If you have multiple solutions, Visual Studio offers LSL mode for solutions that are most likely to see significant performance gains. If you select the lightweight mode option **Let Visual Studio decide** (default option), Visual Studio may open the solution in lightweight mode based on heuristics. A message bar indicates whether the solution is in lightweight mode. When the message bar shows, you have the option to learn more, or update settings.
 
 ![Popup window](../ide/media/VSIDE_LSL_Popup.png)
 
