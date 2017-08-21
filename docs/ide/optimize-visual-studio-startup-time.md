@@ -1,7 +1,7 @@
 ---
 title: "Optimize Visual Studio Startup Time | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/20/2017
+ms.date: 8/18/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -59,41 +59,107 @@ Visual Studio 2017 supports **lightweight solution load** that reduces the amoun
 
 Because some IDE features are not fully available when lightweight solution load is enabled, the feature is turned off by default. The following sections help you decide whether or not to enable this feature.
 
-### Enable lightweight solution load
 
-You can enable lightweight solution load for the IDE as a whole or for individual solutions.
 
-To change lightweight solution load for settings for all projects and solution, go to **Tools > Options > Projects and Solutions > General** and select one of the three load options:
+
+
+
+
+Many solutions contain a large number of projects, which affects the time taken to load those solutions. However, in team environments, developers typically work on a different subset of those projects and don’t need to load all of the individual projects.
+
+In **lightweight solution load** (LSL) mode, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the highly-used features will work under LSL mode, as it provides the ability for you to build, search and debug on the entire solution. (The main exception is currently the edit and continue feature..)
+
+For large solutions with more than 30 projects, LSL typically loads solutions twice as fast (on average).
+While most of the IDE features work in LSL mode, some IDE features may require all the projects to be loaded. In these cases, Visual Studio automatically loads the entire solution so that you can use the feature. In the worst-case scenario, you will end up loading all the projects in the lightweight mode. 
+If you use an IDE feature on a project that is not currently loaded, Visual Studio loads the appropriate project(s) for you. For example, if you are trying to create or open a class diagram for an unopened project, Visual Studio automatically loads the appropriate projects. The detailed feature list is referenced in this article below.
+
+### How does lightweight solution load work behind the scenes?
+
+When you load your solution, Visual Studio remember which projects you previously opened and loads only those projects. All other projects are visible in the solution explorer but not loaded. As soon as you expand a project or right click on a project, VS auto-loads that project. This usually takes less than a second but can take longer for some projects.
+However, Visual Studio enables IDE features like search, debug, build, source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
+As you expand more projects, Visual Studio remembers the list of expanded projects. When a solution is re-opened, Visual Studio auto-loads projects that you previously expanded.
+
+### Visual Studio prompts developers likely to see significant performance gains
+
+From the Visual Studio telemetry, large solutions with over 30 projects significantly benefit from LSL mode. Consequently, we prompt developers with large solutions to try out LSL mode. The majority of developers who try LSL for the first time end up using it on regular basis. 
+
+We are constantly reviewing Visual Studio usage telemetry to improve heuristics for offering LSL mode to developers who would benefit the most. 
+
+### Visual Studio makes recommendations to turn on lightweight solution load based on heuristics
+
+By default, Visual Studio turns on LSL for users who are most likely to benefit. If you have multiple solutions, Visual Studio will offer LSL mode for solutions that are most likely to see significant performance gains. If you  have selected the lightweight mode option Let Visual Studio decide (default option), Visual Studio may open the solution in lightweight mode based on heuristics. A message bar indicates whether thethe solution is in lightweight mode. When the message bar shows, you have the option to learn more, or update settings.
+
+![Popup window](../ide/media/VSIDE_LSL_Popup.png)
+
+### Enable or disable lightweight solution load
+
+You can right-click  the solution name inSolution Explorer, and select Enable Lightweight Solution Load. After selecting the option, you need to close and re-open the solution to activate lightweight solution load.
+
+> [!NOTE}
+> The same steps apply for disabling LSL. You need to close and re-open the solution to disable lightweight solution load. 
+
+![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
+
+### Configure global settings for  lightweight solution load
+
+You can globally disable or configure LSL for all the solutions by choosing **Tools > Options > Projects and Solutions**.
 
 ![Tools Options dialog box](../ide/media/VSIDE_LightweightSolutionLoad.png)
 
-- **Let Visual Studio choose what's best for my solution:** Visual Studio determines whether to apply lightweight solution load by analyzing each solution when you open it. 
-- **Enable:** Enable lightweight solution load is enabled for this solution regardless of the IDE-wide setting.
-- **Disable:** Lightweight solution load is disabled for this solution regardless of the IDE-wide setting.
+### IDE Features fully supported in Lightweight mode
 
-To enable lightweight solution load for an individual solution, select the top-level solution node in Solution Explorer. In the **Properties** window, choose **Default**, **Enabled**, or **Disabled** for the **Lightweight load** property.
+|Feature|Supported in Lightweight Mode?|
+|-|-|-|
+|Intellisense|Yes|
+|Search|Yes|
+|Debugging|Yes|
+|Build|Yes|
+|Code Navigation (Go To Definition & Find All References)|Yes|
+|Code Lens|Yes|
+|Static Code analysis|Yes|
+|Deploy and Publish|Yes|
+|Adding & removing references|Yes|
+|Multi-targeting|Yes|
+|IntelliTrace|Yes|
+|Live Unit Testing|Yes|
+|IntelliTest|Yes|
+|Microsoft Fakes|Yes|
+|Edit and Continue|Not supported|
+|Unit Testing|Requires loading of test projects  followed by a solution build|
 
-![Solution Explorer](../ide/media/VSIDE_LSL Solution Setting.png)
+### Scenarios in which Lightweight solution loads the appropriate project(s) to complete the operation
 
-You can also right-click the top-level solution node in Solution Explorer and select either **Enable Lightweight Solution Load** (if the feature is presently disabled) or **Disable Lightweight Solution Load** (if the feature is presently enabled):
+If you are not working on a project in the solution, the project is not loaded in lightweight mode. For some features, additional projects are automatically loaded to support the feature scenario. (We intend to minimize this list of scenarios .) For these scenarios, Visual Studio either loads the project(s) itself, or prompts you to load the project(s) as needed.
 
-When you change the lightweight solution load setting, the change takes effect the next time the solution is loaded. You don't need to restart the IDE.
+|Category|Issue|
+|-|-|-|
+|Unit test|Projects that are not currently loaded do not show up in the list of test projects for both the “Create IntelliTest” and “Create Unit Test” wizards. </br>You need to load the projects for which you want to create tests (you can simply expand the project node to load the project).|
+|Class Diagrams|If you create or open a Class Diagram of a project, Visual Studio automatically loads the projects which are direct dependencies of that project. </br>We turn off the validation of obsolete artifacts referenced by a dependency validation diagram if the entire solution is not loaded.|
 
-### Automatically enable lightweight solution load
+### Scenarios in which lightweight solution load loads the entire solution 
 
-When you open a large solution in Visual Studio 2017, you may see a pop-up message offering to enable lightweight solution load. The message appears only for solutions that contain many C#, VB, or C++ projects. Choosing **enable** activated lightweight solution load for that solution only. The IDE-wide setting is not changed.
+For some features, Visual Studio automatically loads the entire solution to support the scenario. This ensures that you always get full functionality. For example, some TFS operations may require the entire solution to be loaded. To provide full functionality, Visual Studio loads the entire solution.
 
-![Popup window](../ide/media/VSIDE_LSL Popup.png)
+|Category|Scenario|
+|-|-|-|
+|TFS SCC command on solution node|If an SCC command is triggered on the solution node (within Solution Explorer), Visual Studio automatically loads the entire solution before completing the command.|
+|Project load|If your solution contains .NET Core projects and Shared projects, Visual Studio always automatically loads these projects during initial solution load itself. These projects do not currently support lightweight mode.|
+|Solution configuration manager|If you use solution configuration manager or batch build, Visual Studio automatically loads the entire solution to provide a full experience.|
+|Nuget package manager|If you open Nuget package manager’s user interface, or the Nuget package manager console, Visual Studio automatically loads the entire solution to provide a full experience.|
 
-You can disable lightweight solution load later in the solution's **Properties** window.
+### Known issues
 
-### Limitations
+There are some scenarios that may not work in LSL mode, and require the loading of additional projects or the entire solution. We are actively working on addressing these cases. 
 
-Most features of the IDE are fully available when lightweight solution load is enabled. However, some IDE features and third-party extensions may not be fully compatible.  The following features are known to not work when lightweight solution load is enabled:
+|Category|Issue|Workaround|
+|-|-|-|-|
+|Intellisense|Intellisense may not get updated after a configuration change (for example, changing a release build to debug and vice versa). The impact will depend on code differences due to configuration change.|Re-load solution after changing the configuration.|
+|Refactoring limitations for C#/VB projects|Code fixes that change project files may fail silently the first time.|Load projects if you need to make code fixes to files of these projects. Lightweight mode will not make fixes to projects that are not loaded.|
+|Unit Test Discovery|Tests discovered on deferred projects do not run when a project is loaded manually.|Rebuild the project to rediscover tests and run selected tests again.|
+|Live unit testing (LUT)|In LSL mode, you may see that LUT is not activated. This happens because LUT needs one of the test projects to get loaded.|Load any test project to activate live unit testing for the solution.|
+|Solution Explorer Search|1.	Solution Explorer search in LSL mode does not search within the files and there are no progression results (that is, only files are shown under the search tree, but not classes, methods, etc).</br>2.	All files belonging to a project are shown as a flat list instead of a tree view. When files belong to a folder of a project, we show the relative path of the file, instead of just the file name on the search view.</br>There are no context menus for the file items in the search view.|Load the entire solution in non-LSL mode to get traditional Solution Explorer search.</br>You can also use Visual Studio IDE search.|
+|Object Browser for C++ Projects|Object Browser will show assembly/WinMD references for only loaded projects.|Appropriate projects need to be loaded to see information in the Object browser for these projects.|
 
-- Some third-party extensions may not behave as expected when lightweight solution load is enabled.
-- Edit and Continue doesn't work in projects that are not loaded when you start debugging. The files contained in such a project is read-only and an error is reported that the project has not been loaded if an edit is attempted.
-- When lightweight solution load is enabled, F# projects may not properly build and symbols may not be fully available in GoTo.
 
 ## See Also
 [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
