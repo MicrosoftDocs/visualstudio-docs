@@ -159,7 +159,7 @@ static void Main(string[] args)
   
 -   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
   
- To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and implicit side effects was turned off, the expression can be evaluated.  
+ To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and other implicit function calls was turned off, the expression can be evaluated.  
   
  If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
   
@@ -240,10 +240,10 @@ public class Program
 ## Using registers in the Watch window (C++ only)  
  If you are debugging native code, you can add register names as well as variable names using **$\<register name>** or **@\<register name>**.  For more information, see [Pseudovariables](../debugger/pseudovariables.md).  
   
-## DynamicView and the Watch window  
+## Dynamic View and the Watch window  
  Some scripting languages (e.g. JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
   
- When the Watch window displays a or an object created from a type that implements the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
+ When the Watch window displays a or an object created from a type that implements the [IDynamicMetaObjectProvider Interface](https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
   
  If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
   
