@@ -161,7 +161,7 @@ namespace WpfApp1
                 {
                     // Exercise for the reader if you are using Northwind:  
                     // Add the Northwind Shippers table to the model.
-
+                    
                     // Acceptable ShipperID values are 1, 2, or 3.  
                     if (add_ShipViaTextBox.Text == "1" || add_ShipViaTextBox.Text == "2"
                         || add_ShipViaTextBox.Text == "3")
