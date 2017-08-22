@@ -42,7 +42,7 @@ HRESULT GetProgramName ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProgramName (   
    out string pbstrProgramName  
 );  

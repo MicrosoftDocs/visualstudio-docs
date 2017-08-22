@@ -64,7 +64,7 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
   
  Add the following command handler to the MainWindow.xaml.cs file:  
   
-```C# 
+```cs 
 int count;
 
 private void button_Click(object sender, RoutedEventArgs e)  

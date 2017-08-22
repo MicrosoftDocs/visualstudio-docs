@@ -42,7 +42,7 @@ HRESULT GetProgram ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProgram (   
    out IDebugProgram2 ppProgram  
 );  

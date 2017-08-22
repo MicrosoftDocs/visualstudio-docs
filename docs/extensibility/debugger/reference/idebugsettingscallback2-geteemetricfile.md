@@ -43,7 +43,7 @@ HRESULT GetEEMetricFile(
 );  
 ```  
   
-```c#  
+```cs  
 private int GetEEMetricFile(  
    ref Guid   guidLang,  
    ref Guid   guidVendor,  

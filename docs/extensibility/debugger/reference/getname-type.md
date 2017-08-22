@@ -49,7 +49,7 @@ enum enum_GETNAME_TYPE { 
 typedef DWORD GETNAME_TYPE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_GETNAME_TYPE {   
    GN_NAME         = 0,  
    GN_FILENAME     = 1,  

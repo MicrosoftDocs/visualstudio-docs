@@ -43,7 +43,7 @@ HRESULT SetPassCount( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetPassCount(   
    BP_PASSCOUNT bpPassCount  
 );  

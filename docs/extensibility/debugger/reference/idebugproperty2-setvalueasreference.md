@@ -45,7 +45,7 @@ HRESULT SetValueAsReference(
 );  
 ```  
   
-```c#  
+```cs  
 int SetValueAsReference(  
    IDebugReference2[] rgpArgs,  
    uint               dwArgCount,  

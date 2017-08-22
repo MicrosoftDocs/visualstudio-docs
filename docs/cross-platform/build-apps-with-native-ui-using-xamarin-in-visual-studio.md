@@ -116,7 +116,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 3.  Replace the entire contents of **Weather.cs** with the following:  
   
-    ```c#  
+    ```cs  
     namespace WeatherApp  
     {  
         public class Weather  
@@ -149,7 +149,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 5.  Replace the entire contents of **DataService.cs** with the following code:  
   
-    ```c#  
+    ```cs  
     using System.Threading.Tasks;  
     using Newtonsoft.Json;  
     using System.Net.Http;  
@@ -180,7 +180,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 7.  Replace the contents of **Core.cs** with the following:  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Threading.Tasks;  
   
@@ -482,7 +482,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 1.  Open the **MainActivity.cs** file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.  
   
-    ```c#  
+    ```cs  
     using System;  
     using Android.App;  
     using Android.Widget;  
@@ -607,7 +607,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 4.  Replace that event handler with the following code.  
   
-    ```c#  
+    ```cs  
     private async void GetWeatherButton_Click(object sender, RoutedEventArgs e)  
     {  
         if (!String.IsNullOrEmpty(zipCodeEntry.Text))  

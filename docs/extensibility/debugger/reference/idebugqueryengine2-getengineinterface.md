@@ -42,7 +42,7 @@ HRESULT GetEngineInterface( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetEngineInterface(   
    out object ppUnk  
 );  

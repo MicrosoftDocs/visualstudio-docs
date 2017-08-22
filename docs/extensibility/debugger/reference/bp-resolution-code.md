@@ -42,7 +42,7 @@ typedef struct _BP_RESOLUTION_CODE { 
 } BP_RESOLUTION_CODE;  
 ```  
   
-```c#  
+```cs  
 public struct BP_RESOLUTION_CODE {   
    public IDebugCodeContext2 pCodeContext;  
 };  

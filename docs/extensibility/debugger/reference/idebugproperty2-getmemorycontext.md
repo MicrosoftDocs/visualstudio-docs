@@ -42,7 +42,7 @@ HRESULT GetMemoryContext ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMemoryContext(  
    out IDebugMemoryContext2 ppMemory  
 );  

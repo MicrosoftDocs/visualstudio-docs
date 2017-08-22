@@ -42,7 +42,7 @@ HRESULT InitSourceDataProvider(
 );  
 ```  
   
-```c#  
+```cs  
 int InitSourceDataProvider(  
    out IEEDataStorage dataOut  
 );  

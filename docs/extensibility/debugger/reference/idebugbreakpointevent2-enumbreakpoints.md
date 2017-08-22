@@ -42,7 +42,7 @@ HRESULT EnumBreakpoints(
 );  
 ```  
   
-```c#  
+```cs  
 int EnumBreakpoints(  
   out IEnumDebugBoundBreakpoints2 ppEnum  
 );  

@@ -44,7 +44,7 @@ typedef enum ConstructorMatchOptions { 
 } CONSTRUCTOR_ENUM;  
 ```  
   
-```c#  
+```cs  
 public enum ConstructorMatchOptions {   
    crAll       = 0,  
    crNonStatic = 1,  

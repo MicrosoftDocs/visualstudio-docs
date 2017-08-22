@@ -43,7 +43,7 @@ HRESULT onRemoveText( 
 );  
 ```  
   
-```c#  
+```cs  
 int onRemoveText(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToRemove  

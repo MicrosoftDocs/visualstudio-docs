@@ -45,7 +45,7 @@ HRESULT WriteAt( 
 );  
 ```  
   
-```c#  
+```cs  
 int WriteAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

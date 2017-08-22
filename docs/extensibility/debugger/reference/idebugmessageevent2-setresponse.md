@@ -43,7 +43,7 @@ HRESULT SetResponse( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetResponse(   
    uint dwResponse  
 );  

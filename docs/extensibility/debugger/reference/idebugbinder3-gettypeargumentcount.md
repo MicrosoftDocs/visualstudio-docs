@@ -42,7 +42,7 @@ HRESULT GetTypeArgumentCount(
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypeArgumentCount(  
    out uint uCount  
 );  

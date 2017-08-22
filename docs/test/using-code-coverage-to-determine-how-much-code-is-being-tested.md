@@ -108,7 +108,7 @@ To determine what proportion of your project's code is actually being tested by 
   
  For example:  
   
-```c#  
+```cs  
   
 using System.Diagnostics.CodeAnalysis;   
 ...  
@@ -140,7 +140,7 @@ class ExampleClass2 { ... }
   
 ```  
   
-```vb#  
+```vb  
 Imports System.Diagnostics.CodeAnalysis  
   
 Class ExampleClass1          

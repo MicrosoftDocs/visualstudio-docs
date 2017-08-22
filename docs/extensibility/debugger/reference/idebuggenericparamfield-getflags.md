@@ -41,7 +41,7 @@ HRESULT GetFlags(
 );  
 ```  
   
-```c#  
+```cs  
 int GetFlags(  
    ref uint pdwFlags  
 );  

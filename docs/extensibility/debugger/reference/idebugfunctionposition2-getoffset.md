@@ -42,7 +42,7 @@ HRESULT GetOffset( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetOffset(  
    TEXT_POSITION[] pPosition  
 );  

@@ -118,7 +118,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 2.  Fill in the SetButton_Click Event Handler as follows.  
   
-    ```c#  
+    ```cs  
     private void SetButton_Click(object sender, RoutedEventArgs e)  
     {  
         try  
@@ -136,7 +136,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 3.  You must also handle the WebFrame_Navigated event:  
   
-    ```c#  
+    ```cs  
     private void WebFrame_Navigated(object sender, EventArgs e)  
     { }  
     ```  

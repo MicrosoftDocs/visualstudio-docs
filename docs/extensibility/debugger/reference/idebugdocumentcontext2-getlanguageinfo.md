@@ -43,7 +43,7 @@ HRESULT GetLanguageInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetLanguageInfo(   
    out string pbstrLanguage,  
    out Guid   pguidLanguage  

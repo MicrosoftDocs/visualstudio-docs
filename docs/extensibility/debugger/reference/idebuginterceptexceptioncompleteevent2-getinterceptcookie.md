@@ -42,7 +42,7 @@ HRESULT GetInterceptCookie(
 );  
 ```  
   
-```c#  
+```cs  
 int GetInterceptCookie(  
    out ulong pqwCookie  
 );  

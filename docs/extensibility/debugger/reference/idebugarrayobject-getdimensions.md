@@ -43,7 +43,7 @@ HRESULT GetDimensions( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDimensions(  
    [In] uint    dwCount,   
    [Out] uint[] dwDimensions  

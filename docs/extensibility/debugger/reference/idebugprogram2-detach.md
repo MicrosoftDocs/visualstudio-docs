@@ -42,7 +42,7 @@ HRESULT Detach( 
 );  
 ```  
   
-```c#  
+```cs  
 int Detach();  
 ```  
   

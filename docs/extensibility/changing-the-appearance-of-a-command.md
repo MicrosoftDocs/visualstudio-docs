@@ -50,19 +50,19 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 2.  In the ChangeMenuText.cs file, add the following using statement:  
   
-    ```c#  
+    ```cs  
     using System.Security.Permissions;  
     ```  
   
 3.  In the ChangeMenuTextPackageGuids.cs file, add the following line:  
   
-    ```c#  
+    ```cs  
     public const string guidChangeMenuTextPackageCmdSet= "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file  
     ```  
   
 4.  In the ChangeMenuText.cs file, replace the code in the ShowMessageBox method with the following:  
   
-    ```c#  
+    ```cs  
     private void ShowMessageBox(object sender, EventArgs e)  
     {  
         var command = sender as OleMenuCommand;  
@@ -73,7 +73,7 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 5.  Obtain the command that you want to update from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> object and then set the appropriate properties on the command object. For example, the following method makes the specified command from a VSPackage command set available or unavailable. The following code makes the menu item named `New Text` unavailable after it has been clicked.  
   
-    ```c#  
+    ```cs  
     public bool ChangeMyCommand(int cmdID, bool enableCmd)  
     {  
         bool cmdUpdated = false;  

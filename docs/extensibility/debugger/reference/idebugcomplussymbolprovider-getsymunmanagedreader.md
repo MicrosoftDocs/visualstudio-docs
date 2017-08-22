@@ -43,7 +43,7 @@ HRESULT GetSymUnmanagedReader(
 );  
 ```  
   
-```c#  
+```cs  
 int GetSymUnmanagedReader(  
    uint       ulAppDomainID,  
    Guid       guidModule,  

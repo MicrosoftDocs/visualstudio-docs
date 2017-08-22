@@ -42,7 +42,7 @@ HRESULT Skip(
 );  
 ```  
   
-```c#  
+```cs  
 int Skip(  
    [In] uint celt  
 );  

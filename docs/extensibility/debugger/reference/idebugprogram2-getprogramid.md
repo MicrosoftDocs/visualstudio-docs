@@ -42,7 +42,7 @@ HRESULT GetProgramId( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProgramId(   
    out Guid pguidProgramId  
 );  

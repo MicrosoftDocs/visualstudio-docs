@@ -43,7 +43,7 @@ enum enum_BP_RES_DATA_FLAGS { 
 typedef DWORD BP_RES_DATA_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BP_RES_DATA_FLAGS {   
    BP_RES_DATA_EMULATED = 0x0001  
 };  

@@ -43,7 +43,7 @@ HRESULT DeReference( 
 );  
 ```  
   
-```c#  
+```cs  
 int Dereference(  
    uint             dwIndex,   
    out IDebugObject ppObject  

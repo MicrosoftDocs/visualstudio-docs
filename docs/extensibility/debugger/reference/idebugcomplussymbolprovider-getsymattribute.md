@@ -47,7 +47,7 @@ HRESULT GetSymAttribute (
 );  
 ```  
   
-```c#  
+```cs  
 int GetSymAttribute (  
    uint      ulAppDomainID,  
    Guid      guidModule,  

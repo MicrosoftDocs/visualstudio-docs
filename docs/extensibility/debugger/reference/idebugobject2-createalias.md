@@ -42,7 +42,7 @@ HRESULT CreateAlias(
 );  
 ```  
   
-```c#  
+```cs  
 int CreateAlias(  
    out IDebugAlias ppAlias  
 );  

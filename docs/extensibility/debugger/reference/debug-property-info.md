@@ -48,7 +48,7 @@ typedef struct tagDEBUG_PROPERTY_INFO { 
 } DEBUG_PROPERTY_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct DEBUG_PROPERTY_INFO {   
    public uint            dwValidFields;  
    public string          bstrFullName;  

@@ -48,7 +48,7 @@ enum enum_MODULE_FLAGS { 
 typedef DWORD MODULE_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_MODULE_FLAGS {   
    MODULE_FLAG_NONE        = 0x0000,  
    MODULE_FLAG_SYSTEM      = 0x0001,  

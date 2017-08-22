@@ -42,7 +42,7 @@ HRESULT RemoveSetException( 
 );  
 ```  
   
-```c#  
+```cs  
 int RemoveSetException(   
    EXCEPTION_INFO[] pException  
 );  

@@ -45,7 +45,7 @@ HRESULT Execute(
 );  
 ```  
   
-```c#  
+```cs  
 int Execute(  
    IDebugThread2 pThread  
 );  
