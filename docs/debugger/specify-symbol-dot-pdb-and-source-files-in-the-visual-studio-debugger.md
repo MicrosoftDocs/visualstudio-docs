@@ -80,9 +80,9 @@ A symbol file also contains the original location of the source files, and optio
 The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
   
 ##  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> Configure where the debugger looks for symbol files and symbol loading behavior
- When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools / Options / Debugging / Symbols**. You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
+ When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project directory. You can specify alternative search paths and symbol servers for Microsoft, Windows, or third-party components in **Tools > Options > Debugging > Symbols**. You can also specify specific modules that you want the debugger to automatically load symbols for. And you can then change these settings manually while you are actively debugging.  
   
-1.  In Visual Studio, open the **Tools / Options / Debugging / Symbols** page.  
+1.  In Visual Studio, open the **Tools > Options > Debugging > Symbols** page.  
   
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](../debugger/media/dbg_tools_options_symbols.gif "DBG_Tools_Options_Symbols")  
   
@@ -90,7 +90,7 @@ The debugger will load only a .pdb file for an executable file that exactly matc
   
 3.  Type the URL or directory path of the symbol server or symbol location. Statement completion helps you find the correct format.
 
-    You can use **Ctrl+Up** and **Ctrl+Down** to change the loading order for symbol locations. Press **F2** to edit a URL or directory path.
+    You can use **Ctrl + Up** and **Ctrl + Down** to change the loading order for symbol locations. Press **F2** to edit a URL or directory path.
   
 4.  To improve symbol loading performance type the path a local directory where symbols can be copied by symbol servers in the **Cache symbols in this directory** box a local directory that symbols can be copied to.  
   
@@ -107,7 +107,7 @@ You can specify the files that you want to be loaded automatically from **Symbol
   
 ### Specify additional symbol options 
   
-You can also set the following options on the **Tools / Options / Debugging / General** page:  
+You can also set the following options on the **Tools > Options > Debugging > General** page:  
   
 **Load DLL exports (native only)**  
   
@@ -160,7 +160,7 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
   
 -   Choose **Browse and find***executable-name***...** to override any symbol options and retry the search paths. The symbol file is loaded if it is found, or a File Explorer is displayed for you to manually select the symbol file.  
   
--   Choose **Change Symbol Settings ...** to display the **Debugging** / **Symbols** page of the VS Options dialog.  
+-   Choose **Change Symbol Settings ...** to display the **Debugging** > **Symbols** page of the VS Options dialog.  
   
 -   Choose **view disassembly** to show the disassembly in a new window one time.  
   
@@ -174,9 +174,9 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
   
 |Option|Description|  
 |------------|-----------------|  
-|**Load Symbols**|Attempts to load symbols from locations specified on the **Debugging** / **Symbols** page of the **Options** dialog box. If the symbol file cannot be found, File Explorer is launched so that you can specify a new location to search.|  
+|**Load Symbols**|Attempts to load symbols from locations specified on the **Debugging**/**Symbols** page of the **Options** dialog box. If the symbol file cannot be found, File Explorer is launched so that you can specify a new location to search.|  
 |**Symbol Load Information**|Presents information showing the location of a loaded symbol file, or the locations that were searched if the debugger cannot find the file.|  
-|**Symbol Settings...**|Opens the **Debugging** / **Symbols** page of the VS **Options** dialog box.|  
+|**Symbol Settings...**|Opens the **Debugging**/**Symbols** page of the VS **Options** dialog box.|  
 |**Always Load Automatically**|Adds the symbol file to the list of files that are automatically loaded by the debugger.|  
   
 ###  <a name="BKMK_Set_compiler_options_for_symbol_files"></a> Set compiler options for symbol files  
@@ -219,11 +219,11 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
   
 2.  Files in the solution that is open in the Visual Studio instance.  
   
-3.  Directories that are specified in the **Common Properties** / **Debug Source Files** page in the properties of the solution. (In the **Solution Explorer**, select the solution node, right-click, and select **Properties**. )  
+3.  Directories that are specified in the **Common Properties**/**Debug Source Files** page in the properties of the solution. (In the **Solution Explorer**, select the solution node, right-click, and select **Properties**. )  
   
 4.  The source information of the .pdb of the module. This can be the location of the source file when the module was built, or it can be a command to a source server.  
   
-###  <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> Find and load source files with the No Source / No Symbols Loaded pages  
+###  <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> Find and load source files with the No Source/No Symbols Loaded pages  
  When the debugger breaks execution at a location where the source file is not available, it will display the **No Source Loaded** or **No Symbols Loaded** pages that can help you find the source file. The **No Symbols Loaded** appears when the debugger cannot find a symbol (.pdb) file for the executable file to complete its search. The No Symbols page provides options to search for the file. If the .pdb is found of after you execute one of the options and the debugger can retrieve the source file using the information in the symbols file, the source is displayed. Otherwise, a **No Source Loaded** page appears that describes the issue. The page displays option links that can perform actions that might resolve the issue.  
   
 ###  <a name="BKMK_Add_source_file_search_paths_to_a_solution"></a> Add source file search paths to a solution  

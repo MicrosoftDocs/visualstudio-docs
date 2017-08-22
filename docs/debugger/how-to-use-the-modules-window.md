@@ -52,7 +52,7 @@ The **Modules** window lists the DLLs and executables (EXE) that are used by you
   
 ### To display the Modules window  
   
--   While you are debugging, select **Debug / Windows** and then click **Modules**.  
+-   While you are debugging, select **Debug > Windows** and then click **Modules**.  
   
      By default, the **Modules** window sorts modules by load order. However, you can choose to sort by any column.  
   

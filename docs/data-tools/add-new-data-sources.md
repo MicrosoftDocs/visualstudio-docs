@@ -64,7 +64,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 ## Data source for a database or a database file  
   
 ### Dataset  
- To create a dataset as a data source, run the **Data Source Configuration Wizard** (**Project** > **Add New Data** Source) and choose the **Database** data-source type. Follow the prompts to specify a new or existing database connection, or a database file.  
+ To create a dataset as a data source, run the **Data Source Configuration Wizard** (**Project** > **Add New Data Source**) and choose the **Database** data-source type. Follow the prompts to specify a new or existing database connection, or a database file.  
   
 ### Entity classes  
  To create an Entity Framework model as a data source, first run the **Entity Data Model Wizard** to create the entity classes (**Project** > **Add New Item** > **ADO.NET Entity Data Model**).  

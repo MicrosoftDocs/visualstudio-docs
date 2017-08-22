@@ -35,7 +35,7 @@ You can configure Visual Studio to automatically step over system, framework, an
 For most programming languages, Just My Code is enabled by default.
   
 ##  <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code  
- To enable or disable Just My Code, choose the **Tools / Options** menu in Visual Studio. In the **Debugging** / **General** node, choose or clear **Enable Just My Code**.
+ To enable or disable Just My Code, choose the **Tools > Options** menu in Visual Studio. In the **Debugging** > **General** node, choose or clear **Enable Just My Code**.
   
  ![Enable Just My Code in the Options dialog box](../debugger/media/dbg_justmycode_options.png "DBG_JustMyCode_Options")  
   

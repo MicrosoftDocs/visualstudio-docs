@@ -55,7 +55,7 @@ For an Azure VM, you must deploy your app from Visual Studio to Azure and you al
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (Choose **File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)**)
+1. Create a new ASP.NET Core application. (Choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)**)
 
     In the **ASP.NET Core** templates section, select **Web Application**.
 
@@ -189,10 +189,10 @@ The remote debugger is supported on Windows Server starting with Windows Server 
 ### <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
 1. On the Visual Studio computer, open the **MyASPApp** solution.
-2. In Visual Studio, click **Debug / Attach to Process** (Ctrl + Alt + P).
+2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug / Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
