@@ -53,11 +53,14 @@ If a tool window is slowing down Visual Studio startup and you wish to change th
 
 You can always return to this dialog box at any time to change the setting for any given tool window.
 
-## Speed up solution load
+## Load large solutions faster in Visual Studio 2017
 
 Many solutions contain a large number of projects, which affects the time taken to load those solutions. However, in team environments, developers typically work on a different subset of those projects and don’t need to load all of the individual projects.
 
 Visual Studio 2017 supports **lightweight solution load**. When lightweight solution load (LSL) mode is enabled, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the commonly used IDE features work under LSL mode, and it provides the ability for you to build, search, and debug on the entire solution. (The main unsupported feature in LSL mode is edit and continue).
+
+> [!NOTE]
+> This content applies to Visual Studio 2017 Update 3
 
 For large solutions with more than 30 projects, LSL typically loads solutions twice as fast (on average). While most of the IDE features work in LSL mode, some IDE features might require all the projects to be loaded. In these cases, Visual Studio automatically loads the entire solution so that you can use the feature. In the worst-case scenario, you end up loading all the projects in the lightweight mode. 
 
@@ -153,6 +156,10 @@ There are some scenarios that may not work in LSL mode, and require the loading 
 |Solution Explorer Search|1.	Solution Explorer search in LSL mode does not search within the files and there are no progression results (that is, only files are shown under the search tree, but not classes, methods, etc.).</br>2.	All files belonging to a project are shown as a flat list instead of a tree view. When files belong to a folder of a project, we show the relative path of the file, instead of just the file name on the search view.</br>There are no context menus for the file items in the search view.|Load the entire solution in non-LSL mode to get traditional Solution Explorer search.</br>You can also use Visual Studio IDE search.|
 |Object Browser for C++ Projects|Object Browser shows assembly/WinMD references for only loaded projects.|Load projects for which you want to see information in the Object browser.|
 
+> [!Note]
+> Thanks to our partners, popular extensions including Resharper also work well with lightweight solution  load.
+
+We are excited about innovations to optimize solution load time performance for developers. Since this is a new feature, we are actively looking at customer feedback, and addressing known issues. We look forward to hearing your feedback. You can email Visual Studio solution load optimization team at lslsupport@microsoft.com
 
 ## See Also
 [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
