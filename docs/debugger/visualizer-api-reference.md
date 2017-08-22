@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visualizer API Reference
-The Visualizer APIs are provided for users who want to write a visualizer for the Visual Studio debugger. A visualizer is a small application that extends the functionality of the Visual Studio debugger user interface. A visualizer can display (and, optionally, edit) a data object of a specific type for which the visualizer is designed.  
+The Visualizer APIs are provided for users who want to write a visualizer for the Visual Studio debugger. A visualizer is a small application that extends the functionality of the Visual Studio debugger user interface. A visualizer can display (and optionally edit) a data object of a specific type for which the visualizer is designed.  
   
 ## In This Section  
   

@@ -57,7 +57,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
 
 2. On the **Tools** menu, choose **Options**.
   
-3.  In the **Options** dialog box, select **Debugging / General**.
+3.  In the **Options** dialog box, select **Debugging > General**.
 
 4.  To enable, select **Enable Edit and Continue**. To disable, clear the checkbox.
   

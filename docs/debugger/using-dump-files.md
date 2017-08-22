@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Use Dump Files with Visual Studio
-Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdbs, and source file for a dump file.
+Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdb's, and source file for a dump file.
   
 ##  <a name="BKMK_What_is_a_dump_file_"></a> What is a dump file?  
  A *dump file* is a snapshot of an app at the point in time the dump is taken. It shows what process was executing and what modules were loaded. If the dump was saved with heap information, the dump file contains a snapshot of what was in the app's memory at that point in time. Opening a dump file with a heap in Visual Studio is like stopping at a breakpoint in a debug session. Although you cannot continue execution, you can examine the stacks, threads, and variable values of the app at the time the dump occurred.  
@@ -118,7 +118,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 3.  The symbol paths specified in the **Debugging**, **Options**, **Symbols** page of the Visual Studio **Tools**, **Options** dialog box. You can add more locations to search on this page.  
   
- **Using the No Binary / Symbol / Source pages**  
+ **Using the No Binary > Symbol > Source pages**  
   
  If Visual Studio can't find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
