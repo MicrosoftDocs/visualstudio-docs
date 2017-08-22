@@ -67,7 +67,7 @@ End Sub
   
 #### To add validation during changes to individual column values  
   
-1.  Open the dataset in The datasetby double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
+1.  Open the dataset in The dataset by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
   
@@ -76,7 +76,7 @@ End Sub
   
 3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
   
-     The following code example validates that the **Quantity** column contains more than 0. If**Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if**Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
+     The following code example validates that the **Quantity** column contains more than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
   
     ```vb#  
     If (e.Column.ColumnName = Me.QuantityColumn.ColumnName) Then  
@@ -117,7 +117,7 @@ End Sub
         }  
     ```  
   
-## Validatechanges to whole rows  
+## Validate changes to whole rows  
  Validate values in whole rows by handling the <xref:System.Data.DataTable.RowChanging> event. The <xref:System.Data.DataTable.RowChanging> event is raised when the values in all columns are committed. It is necessary to validate in the <xref:System.Data.DataTable.RowChanging> event when the value in one column relies on the value in another column. For example, consider OrderDate and RequiredDate in the Orders table in Northwind.  
   
  When orders are being entered, validation makes sure that an order is not entered with a RequiredDate that is on or before the OrderDate. In this example, the values for both the RequiredDate and OrderDate columns need to be compared, so validating an individual column change does not make sense.  
@@ -126,7 +126,7 @@ End Sub
   
 #### To add validation during changes to whole rows  
   
-1.  Open the dataset in The datasetby double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
+1.  Open the dataset in The dataset by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
 2.  Double-click the title bar of the data table on the designer.  
   

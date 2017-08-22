@@ -94,7 +94,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
   
@@ -112,7 +112,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 8.  Click **Finish**.  
   
-     Visual Studio adds a new AdventureWorksLTDataSet.xsd file to the project, and it adds a corresponding **AdventureWorksLTDataSet** item to the **Data Sources** window. The AdventureWorksLTDataSet.xsd file defines a typed dataset named `AdventureWorksLTDataSet` and a TableAdapter named `ProductTableAdapter`. Later in this walkthrough, you will use the `ProductTableAdapter` to fill the dataset with data and save changes back to the database.  
+     Visual Studio adds a new `AdventureWorksLTDataSet.xsd` file to the project, and it adds a corresponding **AdventureWorksLTDataSet** item to the **Data Sources** window. The `AdventureWorksLTDataSet.xsd` file defines a typed dataset named `AdventureWorksLTDataSet` and a TableAdapter named `ProductTableAdapter`. Later in this walkthrough, you will use the `ProductTableAdapter` to fill the dataset with data and save changes back to the database.  
   
 9. Build the project.  
   
@@ -121,13 +121,13 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 #### To load product rows that have photos  
   
-1.  In **Solution Explorer**, double-click the AdventureWorksLTDataSet.xsd file.  
+1.  In **Solution Explorer**, double-click the `AdventureWorksLTDataSet.xsd` file.  
   
      The Dataset designer opens.  
   
-2.  In the designer, right-click the **Fill,GetData()** query and select **Configure**.  
+2.  In the designer, right-click the **Fill, GetData()** query and select **Configure**.  
   
-     The **TableAdapter Configuration**wizard opens.  
+     The **TableAdapter Configuration** wizard opens.  
   
 3.  In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.  
   
@@ -160,7 +160,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Build the project.  
   
-## Createdata-bound controls  
+## Create data-bound controls  
  Create controls that display customer records by dragging the `Product` table from the **Data Sources** window to the WPF Designer.  
   
 #### To create data-bound controls  
@@ -220,7 +220,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-cs[Data_WPFDATASET#3](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_3.cs)]
      [!code-vb[Data_WPFDATASET#3](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_3.vb)]  
   
-## Savechanges to product records  
+## Save changes to product records  
  Add code that enables users to save changes to product records by using the **Save changes** button.  
   
 #### To add the ability to save changes to product records  

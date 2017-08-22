@@ -164,7 +164,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 6.  Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto the form.  
   
 #### To create data-bound controls on the form  

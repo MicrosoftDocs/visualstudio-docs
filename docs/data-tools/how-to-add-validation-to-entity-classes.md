@@ -54,7 +54,7 @@ translation.priority.mt:
   
     1.  Expand the **Method Name** list.  
   
-    2.  Locate the **On***COLUMNNAME***Changing** method for the column you want to add validation to.  
+    2.  Locate the **On*COLUMNNAME*Changing** method for the column you want to add validation to.  
   
     3.  An `On`*COLUMNNAME*`Changing` method is added to the partial class.  
   

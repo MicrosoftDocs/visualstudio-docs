@@ -746,7 +746,7 @@ End Namespace
 |NC29|Close the NewCustomer form, and return focus to the Navigation form.|  
   
 ### FillOrCancel form  
- The FillorCancel form runs a query to return an order when you enter an order ID and select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
+ The FillOrCancel form runs a query to return an order when you enter an order ID and select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
   
 #### Create event handlers  
  Create empty Click event handlers for the four buttons on the form.  

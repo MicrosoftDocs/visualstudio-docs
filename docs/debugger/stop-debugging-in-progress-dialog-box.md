@@ -45,7 +45,7 @@ This dialog box appears when the debugger is trying to stop a debugging session,
  You can wait for the processes to detach and this dialog box to disappear, or use the **Stop Now** button to force immediate termination.  
   
  **Stop Now**  
- Click this button to end the debugging session immediately. Using **Stop Now**will terminate rather than detaching the processes being debugged. If you are debugging system processes, terminating those processes with **Stop Now** can have unexpected and undesired effects.  
+ Click this button to end the debugging session immediately. Using **Stop Now** will terminate rather than detaching the processes being debugged. If you are debugging system processes, terminating those processes with **Stop Now** can have unexpected and undesired effects.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
