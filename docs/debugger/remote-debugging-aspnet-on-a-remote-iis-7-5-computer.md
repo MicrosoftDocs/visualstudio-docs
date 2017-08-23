@@ -41,7 +41,7 @@ These procedures have been tested on these server configurations:
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-1. Create a new MVC ASP.NET application. (**File / New / Project**, then select **Visual C# / Web / ASP.NET Web Application** . In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. Create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application** . In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
 
 2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
 
@@ -152,10 +152,10 @@ The remote debugger is supported on Windows Server starting with Windows Server 
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
 1. On the Visual Studio computer, open the **MyASPApp** solution.
-2. In Visual Studio, click **Debug / Attach to Process** (Ctrl + Alt + P).
+2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug / Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -193,7 +193,7 @@ Required ports:
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules / New Rule / Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+2. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
     If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 

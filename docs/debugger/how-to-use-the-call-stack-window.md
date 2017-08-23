@@ -64,7 +64,7 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
   
 ## View the call stack while in the debugger 
   
--   While debugging, in the **Debug** menu, select **Windows / Call Stack**.
+-   While debugging, in the **Debug** menu, select **Windows > Call Stack**.
 
  ![Call Stack Window](../debugger/media/dbg_basics_callstack_window.png "CallStackWindow")
 
