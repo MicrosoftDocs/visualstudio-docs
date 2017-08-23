@@ -1,4 +1,3 @@
-# [Extensibility in Visual Studio](extensibility-in-visual-studio.md)
 # [Visual Studio SDK](visual-studio-sdk.md)
 # [Installing the Visual Studio SDK](installing-the-visual-studio-sdk.md)
 # [Starting to Develop Visual Studio Extensions](starting-to-develop-visual-studio-extensions.md)
