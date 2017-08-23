@@ -85,7 +85,7 @@ You can globally disable or configure LSL for all the solutions by choosing **To
 
 ### How does lightweight solution load work behind the scenes?
 
-When you load your solution, Visual Studio remembers which projects you previously opened and loads only those projects. All other projects are visible in Solution Explorer but not loaded. As soon as you expand a project or right click on a project, VS auto-loads that project. Auto-loading of projects usually takes less than a second but can take longer for some projects.
+When you load your solution, Visual Studio remembers which projects you previously opened and loads only those projects. All other projects are visible in Solution Explorer but not loaded. As soon as you expand a project or right click on a project, Visual Studio auto-loads that project. Auto-loading of projects usually takes less than a second but can take longer for some projects.
 However, Visual Studio enables IDE features like search, debug, build, and source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
 
 As you expand more projects, Visual Studio remembers the list of expanded projects. When a solution is reopened, Visual Studio auto-loads projects that you previously expanded.
@@ -106,7 +106,7 @@ By default, Visual Studio turns on LSL for users who are most likely to benefit.
 
 |Feature|Supported in Lightweight Mode?|
 |-|-|-|
-|Intellisense|Yes|
+|IntelliSense|Yes|
 |Search|Yes|
 |Debugging|Yes|
 |Build|Yes|
@@ -149,7 +149,7 @@ There are some scenarios that may not work in LSL mode, and require the loading 
 
 |Category|Issue|Workaround|
 |-|-|-|-|
-|Intellisense|Intellisense may not get updated after a configuration change (for example, changing a release build to debug and vice versa). The impact depends on code differences due to configuration change.|Reload solution after changing the configuration.|
+|IntelliSense|IntelliSense may not get updated after a configuration change (for example, changing a release build to debug and vice versa). The impact depends on code differences due to configuration change.|Reload solution after changing the configuration.|
 |Refactoring limitations for C#/VB projects|Code fixes that change project files may fail silently the first time.|Load projects if you need to make code fixes to files of these projects. Lightweight mode does not make fixes to projects that are not loaded.|
 |Unit Test Discovery|Tests discovered on deferred projects do not run when a project is loaded manually.|Rebuild the project to rediscover tests and run selected tests again.|
 |Live unit testing (LUT)|In LSL mode, you may see that LUT is not activated. It is not activated because LUT needs one of the test projects to get loaded.|Load any test project to activate live unit testing for the solution.|
