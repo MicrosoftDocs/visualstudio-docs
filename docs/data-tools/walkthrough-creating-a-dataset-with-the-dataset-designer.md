@@ -123,7 +123,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
 -   Drag the **Order Details** table from **Server Explorer** onto the **Dataset Designer**.  
   
-     An **Order Details** data table, **Order DetailsTableAdapter**, and a data relation between the **Orders** and **Order Details** tables are added to the dataset.  
+     An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.  
   
 ## Next Steps  
   

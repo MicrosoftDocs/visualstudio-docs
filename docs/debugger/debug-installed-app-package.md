@@ -42,7 +42,7 @@ translation.priority.mt:
 ---
 # Debug an installed app package in Visual Studio (UWP)
 
-You can debug any installed app package by selecting **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**. This debugging method is available for Universal Windows Apps (UWP) on these devices:
+You can debug any installed app package by clicking **Debug > Other Debug Targets > Debug Installed App Package**. This debugging method is available for Universal Windows Apps (UWP) on these devices:
 
 * Windows 10 (not supported on phones)
 * XBox
@@ -53,7 +53,7 @@ For more information about these features, see the blog post on updates for [deb
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 
-1. With your UWP project open in Visual Studio, select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
+1. With your UWP project open in Visual Studio, click **Debug > Other Debug Targets > Debug Installed App Package**.
 
 2. Select either **Local Machine** or **Device**.
 
@@ -80,7 +80,7 @@ When you debug an installed app package on a remote computer for the first time,
 
      For an XBox, HoloLens, or IoT device, and Windows devices running Windows 10 Creator's Update, you don't need to manually install the remote debugger. The remote tools will be automatically installed when you deploy the app.
 
-3. Select **Debug**, **Other Debug Targets**, and then **Debug Installed App Package**.
+3. Click **Debug > Other Debug Targets > Debug Installed App Package**.
 
 4. From the first drop-down list, choose **Remote Machine**.
 

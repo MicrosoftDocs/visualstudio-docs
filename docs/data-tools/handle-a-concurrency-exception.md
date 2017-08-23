@@ -77,7 +77,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 3.  In the **Templates** pane, select **Windows Application**.  
   
-4.  Name the project `ConcurrencyWalkthrough`, and then select**OK**.  
+4.  Name the project `ConcurrencyWalkthrough`, and then select **OK**.  
   
      Visual Studio adds the project to **Solution Explorer** and displays a new form in the designer.  
   

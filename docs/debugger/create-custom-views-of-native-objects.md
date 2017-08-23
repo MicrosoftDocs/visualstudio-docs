@@ -45,8 +45,8 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 >  You cannot use the Natvis framework for visualizations when:  
 >   
 >  -  You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
-> -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
-> -   You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
+> -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools > Options > Debugging > General > Use Managed Compatibility Mode**).  
+> -   You are debugging in a Windows desktop application in native compatibility mode (**Tools > Options > Debugging > General > Use Native Compatibility Mode**).  
   
 ##  <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
  You can use the Natvis framework to create visualization rules for the types you create so developers can see them easily during debugging.  
@@ -86,7 +86,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ## Adding .natvis files to your projects  
  You can add .natvis files to any C++ project.  
   
- To add a new .natvis file, with an open C++ project, select the project node in the **Solution Explorer**, and click **Add / New item / Visual C++ / Utility / Debugger visualization file (.natvis)**. The debugger will load Natvis files from C++ projects automatically. By default, Natvis files in your project are also inserted into the .pdb file built by the project. This means that if you debug the binary built by this project, the debugger loads the Natvis file from the .pdb even if you do not have the project open. If you do not want the .natvis file to be included in the .pdb, right-click the .natvis file in the **Solution Explorer**, and in the **Configuration Properties** window set **Excluded from Build** to **Yes**.  
+ To add a new .natvis file, with an open C++ project, select the project node in the **Solution Explorer**, and click **Add > New item > Visual C++ > Utility > Debugger visualization file (.natvis)**. The debugger will load Natvis files from C++ projects automatically. By default, Natvis files in your project are also inserted into the .pdb file built by the project. This means that if you debug the binary built by this project, the debugger loads the Natvis file from the .pdb even if you do not have the project open. If you do not want the .natvis file to be included in the .pdb, right-click the .natvis file in the **Solution Explorer**, and in the **Configuration Properties** window set **Excluded from Build** to **Yes**.  
   
  It is recommended that you edit Natvis files using Visual Studio Any changes you make while debugging take effect automatically when you save the file. You also get an improved editing experience from IntelliSense.  
   
@@ -145,7 +145,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch-SimpleView")  
   
 ##  <a name="BKMK_Diagnosing_Natvis_errors"></a> Diagnosing Natvis errors  
- You can use Natvis diagnostics to troubleshoot syntax and parse errors. When the debugger encounters errors in a visualization entry, it ignores the errors and either displays the type in its raw form or picks another suitable visualization. To understand why a certain visualization entry is ignored and to see what the underlying errors are, you can turn on Natvis diagnostics **Tools / Options / Debugging / Output Window / Natvis diagnostic messages (C++ only)** option. The errors are displayed in the **Output** window.  
+ You can use Natvis diagnostics to troubleshoot syntax and parse errors. When the debugger encounters errors in a visualization entry, it ignores the errors and either displays the type in its raw form or picks another suitable visualization. To understand why a certain visualization entry is ignored and to see what the underlying errors are, you can turn on Natvis diagnostics **Tools > Options > Debugging > Output Window > Natvis diagnostic messages (C++ only)** option. The errors are displayed in the **Output** window.  
   
 ##  <a name="BKMK_Syntax_reference"></a> Natvis syntax reference  
   

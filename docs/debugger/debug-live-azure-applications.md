@@ -52,8 +52,8 @@ Additionally, the Snapshot Debugger is only available for **Visual Studio Enterp
 
 3. Open the project you would like to snapshot debug. 
 
-> [!NOTE] 
-> In order to snapshot debug, you need to open the **same version of source code** that is published to your Azure Azure App Service. 
+    > [!NOTE] 
+    > In order to snapshot debug, you need to open the **same version of source code** that is published to your Azure Azure App Service. 
 
 4. In the Cloud Explorer, right click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
 
@@ -131,7 +131,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 #### To create a logpoint
 
-1. Right-click a snappoint icon (the blue hexagon) and choose **Settings**.
+.1. Right-click a snappoint icon (the blue hexagon) and choose **Settings**.
 
 2. In the snappoint settings window, select **Actions**.
 
@@ -163,7 +163,23 @@ Yes - the Snapshot Debugger is intended to work against release builds. When a s
 No - any log messages you add to your app are evaluated virtually. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
 
 #### Does the Snapshot Debugger work if my server is under load?
-Yes - Snapshot Debugging can work for servers under load. The Snapshot Debugger will throttle and not capture snapshots in situations where there is a low amount of free memory on your server.
+Yes, snapshot debugging can work for servers under load. The Snapshot Debugger will throttle and not capture snapshots in situations where there is a low amount of free memory on your server.
+
+#### How do I uninstall the Snapshot Debugger?
+You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it from **Tools / Extension and Updates**. Uninstalling the Snapshot Debugger site extension from your App Service currently must be done manually. You can uninstall the Snapshot Debuggger site extension on your App Service with the following steps:
+1. Navigate to your App Service's Kudu site (ie yourappservice.**scm**.azurewebsites.net and navigate to the **Debug console**.
+2. Navigate to D:/home/SiteExtensions/Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone and delete the applicationHost.xdt.
+3. Navigate to the **Process explorer** in Kudu and kill all w3wp.exe processes (note that this will restart your site).
+4. Navigate to the **Debug console** and delete the Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone folder from D:/home/SiteExtensions and D:/home/site/siteextensions.
+
+## Known Issues
+
+* Roslyn IL Optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
+* Special variables, ie *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
+* Snapshot Debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+* Snapshot Debugging against [deployment slots](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-staged-publishing) is not currently supported.
+* Snapshot Debugging with multiple Visual Studio clients against the same App Service is not currently supported.
+
 
 ## See Also  
  [Debug Azure apps](../debugger/debug-azure-apps.md)

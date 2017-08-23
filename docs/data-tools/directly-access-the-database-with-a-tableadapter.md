@@ -49,7 +49,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
  If you don't want to create these direct methods, set the TableAdapter's `GenerateDbDirectMethods` property to `false` in the **Properties** window. If any queries  are added to a TableAdapter in addition to the TableAdapter's main query, they are standalone queries that don't generate these DbDirect methods.  
   
-## Sendcommandsdirectly to a database  
+## Send commands directly to a database  
  Call the TableAdapter DbDirect method that performs the task you are trying to accomplish.  
   
 #### To insert new records directly into a database  
@@ -74,7 +74,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To delete records directly from a database  
   
--   Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+-   Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind database as an example.  
   
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  

@@ -89,14 +89,13 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Surround With|Ctrl+K,S|  
 |Show Quick Info|Ctrl+K,I|  
 |Navigate To|Ctrl+,|  
-|Go To Definition|F12|  
-|Peek Definition|Alt+F12|  
-|Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)|  
 |Navigate Highlighted References|Ctrl+Shift+Up (Previous), Ctrl+Shift+Down (Next)|  
 |Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)|  
 |Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys|  
 |Move Line Up/Down|Alt+Up / Alt+Down|  
+|Go To Definition|F12|  
 |Peek Definition|Alt+F12|  
+|Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)|  
 |Close the Peek Definition window|Esc|  
 |Promote the Peek Definition window to a regular document tab|Ctrl+Alt+Home|  
 |Navigate between multiple Peek Definition windows|Ctrl+Alt+- and Ctrl+Alt+=|  

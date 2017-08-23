@@ -39,7 +39,7 @@ You can use IntelliTrace to collect information about specific events or categor
   
  The following steps show how to debug with IntelliTrace events only:  
   
-1.  Turn on the IntelliTrace event for File Access. Go to the **Tools / Options / IntelliTrace / IntelliTrace Events** page, and expand the **File** category. Check the **File** event category. This causes all the file events (access, close, delete) to be checked.  
+1.  Turn on the IntelliTrace event for File Access. Go to the **Tools > Options > IntelliTrace > IntelliTrace Events** page, and expand the **File** category. Check the **File** event category. This causes all the file events (access, close, delete) to be checked.  
   
 2.  Create a C# console application. In the Program.cs file, add the following `using` statement:  
   
@@ -63,12 +63,12 @@ You can use IntelliTrace to collect information about specific events or categor
   
 4.  Set a breakpoint on `Console.WriteLine("done");`  
   
-5.  Start debugging as usual. (Press **F5** or click **Debug / Start Debugging**.  
+5.  Start debugging as usual. (Press **F5** or click **Debug > Start Debugging**.  
   
     > [!TIP]
     >  Keep the **Locals** and **Autos** windows open while you're debugging to see and record the values in those windows.  
   
-6.  Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
+6.  Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug > Windows > IntelliTrace Events**.  
   
      In the **Diagnostic Tools** window, find the **Events** tab (You should see 3 tabs, **Events**, **Memory Usage**, and **CPU Usage**). The **Events** tab shows a chronological list of events, ending with the last event before the debugger broke execution. You should see an event named **Access WordSearchInputs.txt**.  
   
@@ -98,12 +98,12 @@ You can use IntelliTrace to collect information about specific events or categor
 > [!NOTE]
 > Call information is not currently available for ASP.NET Core apps. 
   
-1.  Turn on call collection. (On **Tools / Options / IntelliTrace / General**, select **IntelliTrace events and call information**. IntelliTrace will start collecting this information when the next debugging session starts.  
+1.  Turn on call collection. (On **Tools > Options > IntelliTrace > General**, select **IntelliTrace events and call information**. IntelliTrace will start collecting this information when the next debugging session starts.  
   
     > [!TIP]
-    >  This might slow down your application and increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To get the most call data but minimize the effects, record data from only those modules that interest you. To change the maximum size of your .iTrace files, go to **Tools / Options / IntelliTrace / Advanced**, and specify the maximum amount of disk space. The default is 250 MB.  
+    >  This might slow down your application and increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To get the most call data but minimize the effects, record data from only those modules that interest you. To change the maximum size of your .iTrace files, go to **Tools > Options > IntelliTrace > Advanced**, and specify the maximum amount of disk space. The default is 250 MB.  
   
-2.  Start debugging the C# console application created in the previous section. Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
+2.  Start debugging the C# console application created in the previous section. Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug > Windows > IntelliTrace Events**.  
   
 3.  Switch to the **Calls** tab.  
   
