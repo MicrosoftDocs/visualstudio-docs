@@ -43,7 +43,7 @@ HRESULT GetEEMetricDword(
 );  
 ```  
   
-```c#  
+```cs  
 private int GetEEMetricDword(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

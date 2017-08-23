@@ -122,7 +122,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
  When the project opens in Visual Studio, open the Program.cs file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:  
   
-```C#  
+```cs  
 static void Main(string[] args)  
 {  
     Console.WriteLine("we will now throw a NullReferenceException");  

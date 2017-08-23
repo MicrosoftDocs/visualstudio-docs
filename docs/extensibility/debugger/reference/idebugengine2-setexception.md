@@ -42,7 +42,7 @@ HRESULT SetException( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetException(   
    EXCEPTION_INFO[] pException  
 );  

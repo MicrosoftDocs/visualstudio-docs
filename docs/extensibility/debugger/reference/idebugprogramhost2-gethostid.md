@@ -42,7 +42,7 @@ HRESULT GetHostId( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetHostId(   
    AD_PROCESS_ID[] pdwId  
 );  

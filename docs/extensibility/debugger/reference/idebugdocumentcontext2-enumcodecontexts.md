@@ -42,7 +42,7 @@ HRESULT EnumCodeContexts( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumCodeContexts(   
    out IEnumDebugCodeContexts2 ppEnumCodeCxts  
 );  

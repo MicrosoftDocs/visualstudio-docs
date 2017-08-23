@@ -51,7 +51,7 @@ In-source suppression is the ability to suppress or ignore Code Analysis violati
 <Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>  
 ```  
   
-```c#  
+```cs  
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]  
   
 ```  

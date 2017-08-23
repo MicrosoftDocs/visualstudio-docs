@@ -42,7 +42,7 @@ HRESULT GetKind( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetKind(  
    out enum_FIELD_KIND pdwKind  
 );  

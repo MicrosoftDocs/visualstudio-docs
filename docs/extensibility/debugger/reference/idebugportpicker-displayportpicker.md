@@ -42,7 +42,7 @@ HRESULT DisplayPortPicker(
 );  
 ```  
   
-```c#  
+```cs  
 public int DisplayPortPicker(  
    int hwndParentDialog,  
    out string pbstrPortId  

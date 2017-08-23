@@ -42,7 +42,7 @@ HRESULT GetDocumentContext ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppCxt  
 );  

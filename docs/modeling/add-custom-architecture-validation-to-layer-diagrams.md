@@ -228,7 +228,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 ##  <a name="example"></a> Example code  
   
-```c#  
+```cs  
 using System;  
 using System.ComponentModel.Composition;  
 using System.Globalization;  

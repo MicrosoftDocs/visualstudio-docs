@@ -54,7 +54,7 @@ typedef struct _tagDEBUG_ADDRESS_UNION {
 } DEBUG_ADDRESS_UNION;  
 ```  
   
-```c#  
+```cs  
 public struct DEBUG_ADDRESS_UNION {  
    public ADDRESS_KIND dwKind;  
    public IntPtr       unionmember;  
@@ -121,7 +121,7 @@ public struct DEBUG_ADDRESS_UNION {
 ## Example  
  This example shows how to interpret one kind of address (`METADATA_ADDRESS_ARRAYELEM`) of the `DEBUG_ADDRESS_UNION` structure in C#. The remaining elements can be interpreted in exactly the same way.  
   
-```c#  
+```cs  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

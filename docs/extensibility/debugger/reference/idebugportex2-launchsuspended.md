@@ -49,7 +49,7 @@ HRESULT LaunchSuspended( 
 );  
 ```  
   
-```c#  
+```cs  
 int LaunchSuspended(   
    string             pszExe,  
    string             pszArgs,  

@@ -44,7 +44,7 @@ HRESULT GetNextAddress( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetNextAddress(   
    IDebugAddress     pAddress,  
    bool              fStatementOnly,  

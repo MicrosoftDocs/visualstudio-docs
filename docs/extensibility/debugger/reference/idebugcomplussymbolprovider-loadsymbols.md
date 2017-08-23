@@ -46,7 +46,7 @@ HRESULT LoadSymbols(
 );  
 ```  
   
-```c#  
+```cs  
 int LoadSymbols(  
    uint   ulAppDomainID,  
    Guid   guidModule,  

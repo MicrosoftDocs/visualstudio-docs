@@ -43,7 +43,7 @@ HRESULT CreatePendingBreakpoint( 
 );  
 ```  
   
-```c#  
+```cs  
 int CreatePendingBreakpoint(   
    IDebugBreakpointRequest2     pBPRequest,  
    out IDebugPendingBreakpoint2 ppPendingBP  

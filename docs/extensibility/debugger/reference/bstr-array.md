@@ -43,7 +43,7 @@ typedef struct tagBSTR_ARRAY {
 } BSTR_ARRAY;  
 ```  
   
-```c#  
+```cs  
 struct BSTR_ARRAY {  
    DWORD    dwCount;  
    string[] Members;  

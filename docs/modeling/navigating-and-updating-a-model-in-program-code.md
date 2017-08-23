@@ -381,7 +381,7 @@ using (Transaction t = targetDiagram.Store.
 ###  <a name="views"></a> Navigating between shapes and elements  
  Domain model elements and shape elements are related by the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  
   
-```c#  
+```cs  
 // using Microsoft.VisualStudio.Modeling;  
 // using Microsoft.VisualStudio.Modeling.Diagrams;  
 // using System.Linq;  

@@ -43,7 +43,7 @@ HRESULT GetProgram( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProgram(   
    IDebugProgramNode2 pProgramNode,  
    out IDebugProgram2 ppProgram  

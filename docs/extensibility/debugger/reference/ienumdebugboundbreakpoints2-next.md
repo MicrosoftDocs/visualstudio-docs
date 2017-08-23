@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```cs  
 int Next(  
    uint                     celt,  
    IDebugBoundBreakpoint2[] rgelt,  

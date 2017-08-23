@@ -42,7 +42,7 @@ HRESULT GetField(
 );  
 ```  
   
-```c#  
+```cs  
 int GetField(  
    out IDebugField ppField  
 );  

@@ -42,7 +42,7 @@ HRESULT GetService (
 );  
 ```  
   
-```c#  
+```cs  
 int GetService (  
    Guid       uid,  
    out object ppService  

@@ -42,7 +42,7 @@ HRESULT GetExitCode( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetExitCode(   
    out uint pdwExit  
 );  

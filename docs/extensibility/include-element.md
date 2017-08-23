@@ -37,7 +37,7 @@ The Include element specifies a file that can be located on the supplied include
   
 ## Syntax  
   
-```c#  
+```cs  
 <Include href="stdidcmd.h" />  
 ```  
   

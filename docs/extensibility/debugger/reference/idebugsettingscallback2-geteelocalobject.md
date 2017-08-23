@@ -43,7 +43,7 @@ HRESULT GetEELocalObject(
 );  
 ```  
   
-```c#  
+```cs  
 private int GetEELocalObject(  
    ref Guid          guidLang,  
    ref Guid          guidVendor,  

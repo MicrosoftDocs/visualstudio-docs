@@ -50,7 +50,7 @@ You can divide the declaration of a class or structure among several declaration
 ## Example  
  To split a class definition in Visual Basic, use the `Partial` keyword, as shown in the following example.  
   
-```vb#  
+```vb  
 ' First part of class definition.  
 Partial Public Class Employee  
     Public Sub CalculateWorkHours()  
@@ -67,7 +67,7 @@ End Class
 ## Example  
  To split a class definition in Visual C#, use the `partial` keyword, as shown in the following example.  
   
-```c#  
+```cs  
 // First part of class definition.  
 public partial class Employee  
 {  

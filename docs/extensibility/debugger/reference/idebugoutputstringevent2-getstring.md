@@ -42,7 +42,7 @@ HRESULT GetString( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetString(   
    out string pbstrString  
 );  

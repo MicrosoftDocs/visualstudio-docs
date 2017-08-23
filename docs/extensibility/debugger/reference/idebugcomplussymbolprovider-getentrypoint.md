@@ -43,7 +43,7 @@ HRESULT GetEntryPoint(
 );  
 ```  
   
-```c#  
+```cs  
 int GetEntryPoint(  
    uint              ulAppDomainID,  
    Guid              guidModule,  

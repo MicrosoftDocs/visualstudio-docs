@@ -45,7 +45,7 @@ HRESULT GetMachineUtilities_V7(
 );  
 ```  
   
-```c#  
+```cs  
 int GetMachineUtilities_V7(  
    out IDebugMDMUtil2_V7 ppUtil  
 );  

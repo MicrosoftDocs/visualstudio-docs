@@ -42,7 +42,7 @@ HRESULT AreSymbolsLoaded (
 );  
 ```  
   
-```c#  
+```cs  
 int AreSymbolsLoaded (  
    uint ulAppDomainID,  
    Guid guidModule  

@@ -40,7 +40,7 @@ HRESULT GetOwner(
 );  
 ```  
   
-```c#  
+```cs  
 int GetOwner(  
    out IDebugField ppOwner  
 );  

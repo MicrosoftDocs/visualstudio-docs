@@ -43,7 +43,7 @@ HRESULT GetStringFromValue(
 );  
 ```  
   
-```c#  
+```cs  
 int GetStringFromValue(  
    ulong      value,  
    out string pbstrValue  

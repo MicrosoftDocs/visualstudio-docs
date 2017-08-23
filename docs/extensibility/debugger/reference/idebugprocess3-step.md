@@ -47,7 +47,7 @@ HRESULT Step(
 );  
 ```  
   
-```c#  
+```cs  
 int Step(  
    IDebugThread2 pThread,   
    enum_STEPKIND sk,   

@@ -42,7 +42,7 @@ HRESULT GetNumberOfElements( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetNumberOfElements(  
    out uint pdwNumElements  
 );  

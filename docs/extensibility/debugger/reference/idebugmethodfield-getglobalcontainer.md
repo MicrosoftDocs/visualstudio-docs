@@ -42,7 +42,7 @@ HRESULT GetGlobalContainer(
 );  
 ```  
   
-```c#  
+```cs  
 int GetGlobalContainer(  
    out IDebugClassField ppClass  
 );  

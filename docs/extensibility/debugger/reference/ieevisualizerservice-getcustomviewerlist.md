@@ -45,7 +45,7 @@ HRESULT GetCustomViewerList(
 );  
 ```  
   
-```c#  
+```cs  
 int GetCustomViewerList(  
    uint                  celtSkip,  
    uint                  celtRequested,  

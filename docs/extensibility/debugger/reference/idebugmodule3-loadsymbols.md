@@ -42,7 +42,7 @@ HRESULT LoadSymbols(
 );  
 ```  
   
-```c#  
+```cs  
 int LoadSymbols();  
 ```  
   

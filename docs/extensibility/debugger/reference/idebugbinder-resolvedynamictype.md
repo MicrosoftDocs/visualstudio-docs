@@ -43,7 +43,7 @@ HRESULT ResolveDynamicType (
 );  
 ```  
   
-```c#  
+```cs  
 int ResolveDynamicType(  
    IDebugDynamicField pDynamic,   
    out IDebugField    ppResolved  

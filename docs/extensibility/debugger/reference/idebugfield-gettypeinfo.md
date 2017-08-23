@@ -42,7 +42,7 @@ HRESULT GetTypeInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypeInfo(  
    TYPE_INFO[] pTypeInfo  
 );  

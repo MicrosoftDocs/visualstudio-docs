@@ -57,11 +57,11 @@ manager: "ghogen"
   
  The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.  
   
-```vb#  
+```vb  
 Globals.Sheet1.Application.Run("MyMacro")  
 ```  
   
-```c#  
+```cs  
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,  
     missing, missing, missing, missing, missing, missing, missing,  
     missing, missing, missing, missing, missing, missing, missing,  

@@ -43,7 +43,7 @@ HRESULT GetLogicalThread( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetLogicalThread(   
    IDebugStackFrame2        pStackFrame,  
    out IDebugLogicalThread2 ppLogicalThread  

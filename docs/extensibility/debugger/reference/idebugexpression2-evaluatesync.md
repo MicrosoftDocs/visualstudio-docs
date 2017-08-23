@@ -45,7 +45,7 @@ HRESULT EvaluateSync( 
 );  
 ```  
   
-```c#  
+```cs  
 int EvaluateSync(  
    enum_EVALFLAGS       dwFlags,   
    uint                 dwTimeout,   

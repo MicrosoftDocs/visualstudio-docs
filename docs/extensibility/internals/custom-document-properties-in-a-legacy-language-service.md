@@ -45,7 +45,7 @@ Document properties can be displayed in the [!INCLUDE[vsprvs](../../code-quality
 ### Example  
  Here is an example class derived from <xref:Microsoft.VisualStudio.Package.DocumentProperties>, showing two properties, Filename and Description. When a property is updated, a custom method on the <xref:Microsoft.VisualStudio.Package.LanguageService> class is called to write the property to the source file.  
   
-```c#  
+```cs  
 using System.ComponentModel;  
 using Microsoft.VisualStudio.Package;  
   
@@ -137,7 +137,7 @@ namespace TestLanguagePackage
   
 ### Example  
   
-```c#  
+```cs  
 using System.ComponentModel;  
 using Microsoft.VisualStudio.Package;  
   
@@ -174,7 +174,7 @@ namespace TestLanguagePackage
   
  This example uses the scanner to determine the type of tokens in the first two lines. This example is for illustrative purposes only. A more typical approach to this situation is to parse the source file into what is called a parse tree where each node of the tree contains information about a particular token. The root node would contain the document properties.  
   
-```c#  
+```cs  
 using System.ComponentModel;  
 using Microsoft.VisualStudio.Package;  
   

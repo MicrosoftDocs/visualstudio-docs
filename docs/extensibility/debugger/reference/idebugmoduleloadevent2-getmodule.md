@@ -44,7 +44,7 @@ HRESULT GetModule( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetModule(   
    out IDebugModule2 pModule,  
    ref string        pbstrDebugMessage,  

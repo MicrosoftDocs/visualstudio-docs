@@ -43,7 +43,7 @@ HRESULT GetConstraints(
 );  
 ```  
   
-```c#  
+```cs  
 int GetConstraints(  
    uint              cConstraints,  
    out IDebugField[] ppConstraints,  

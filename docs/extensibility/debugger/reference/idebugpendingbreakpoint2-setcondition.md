@@ -43,7 +43,7 @@ HRESULT SetCondition( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetCondition(   
    BP_CONDITION bpCondition  
 );  

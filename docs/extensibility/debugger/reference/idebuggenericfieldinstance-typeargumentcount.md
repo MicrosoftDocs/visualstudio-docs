@@ -41,7 +41,7 @@ HRESULT TypeArgumentCount(
 );  
 ```  
   
-```c#  
+```cs  
 int TypeArgumentCount(  
    ref uint pcArgs  
 );  

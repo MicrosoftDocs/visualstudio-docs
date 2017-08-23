@@ -83,7 +83,7 @@ translation.priority.mt:
   
 -   The class is passed as a generic type parameter that has a new constraint. For example, the following example will raise this rule.  
   
-    ```c#  
+    ```cs  
     internal class MyClass  
     {     
         public DoSomething()     

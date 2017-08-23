@@ -42,7 +42,7 @@ HRESULT GetServerName(
 );  
 ```  
   
-```c#  
+```cs  
 int GetServerName(  
    out string pbstrName  
 );  

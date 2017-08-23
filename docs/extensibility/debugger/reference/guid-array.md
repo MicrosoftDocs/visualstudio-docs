@@ -42,7 +42,7 @@ typedef struct tagGUID_ARRAY
 } GUID_ARRAY;  
 ```  
   
-```c#  
+```cs  
 public struct GUID_ARRAY  
 {  
    public uint dwCount;  

@@ -42,7 +42,7 @@ HRESULT GetExpression( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetExpression(   
    out IDebugExpression2 ppExpr  
 );  
