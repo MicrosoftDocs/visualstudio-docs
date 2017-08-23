@@ -41,7 +41,7 @@ HRESULT GetSourceServerData(
 );  
 ```  
   
-```c#  
+```cs  
 public int GetSourceServerData(  
    out uint  pDataByteCount,   
    out int[] ppData  

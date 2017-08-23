@@ -42,7 +42,7 @@ HRESULT UnloadSymbols(
 );  
 ```  
   
-```c#  
+```cs  
 int UnloadSymbols(  
    uint ulAppDomainID,  
    Guid guidModule  

@@ -42,7 +42,7 @@ HRESULT GetObject(
 );  
 ```  
   
-```c#  
+```cs  
 int GetObject(  
    Out IDebugObject2 ppObject  
 )  

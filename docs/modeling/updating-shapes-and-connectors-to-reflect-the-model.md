@@ -43,7 +43,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  The following example assumes that you have exposed `FillColor` as a domain property as described in the previous section.  
   
-```c#  
+```cs  
 [RuleOn(typeof(ExampleElement))]  
   class ExampleElementPropertyRule : ChangeRule  
   {  
@@ -83,7 +83,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## Use OnChildConfigured to initialize a shape's properties  
  To set the properties of a shape when it is first created, the override `OnChildConfigured()` in a partial definition of your diagram class. The diagram class is specified in your DSL Definition, and the generated code is in **Dsl\Generated Code\Diagram.cs**. For example:  
   
-```c#  
+```cs  
 partial class MyLanguageDiagram  
 {  
   protected override void OnChildConfigured(ShapeElement child, bool childWasPlaced, bool createdDuringViewFixup)  

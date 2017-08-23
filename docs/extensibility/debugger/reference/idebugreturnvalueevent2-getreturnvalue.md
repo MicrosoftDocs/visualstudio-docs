@@ -42,7 +42,7 @@ HRESULT GetReturnValue ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetReturnValue (   
    out IDebugProperty2 ppReturnValue  
 );  

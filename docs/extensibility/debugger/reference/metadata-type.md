@@ -44,7 +44,7 @@ typedef struct _tagTYPE_METADATA {
 } METADATA_TYPE;  
 ```  
   
-```c#  
+```cs  
 public struct METADATA_TYPE {  
    public uint ulAppDomainID;  
    public Guid guidModule;  

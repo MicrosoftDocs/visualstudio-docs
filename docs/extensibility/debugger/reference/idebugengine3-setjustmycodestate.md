@@ -44,7 +44,7 @@ HRESULT SetJustMyCodeState(
 );  
 ```  
   
-```c#  
+```cs  
 int SetJustMyCodeState(  
    int             fUpdate,   
    uint            dwModules,   

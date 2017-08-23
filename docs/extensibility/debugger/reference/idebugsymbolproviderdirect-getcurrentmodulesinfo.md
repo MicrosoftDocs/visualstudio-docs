@@ -45,7 +45,7 @@ HRESULT GetCurrentModulesInfo(
 );  
 ```  
   
-```c#  
+```cs  
 int GetCurrentModulesInfo(  
    uint       pCount,  
    Guid       ppGuids,  

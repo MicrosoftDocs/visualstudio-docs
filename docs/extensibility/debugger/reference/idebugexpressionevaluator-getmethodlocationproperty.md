@@ -46,7 +46,7 @@ HRESULT GetMethodLocationProperty( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMethodLocationProperty(  
    string               upstrFullyQualifiedMethodPlusOffset,   
    IDebugSymbolProvider pSymbolProvider,   

@@ -42,7 +42,7 @@ HRESULT GetCustomViewerCount(
 );  
 ```  
   
-```c#  
+```cs  
 int GetCustomViewerCount(  
    out uint pcelt  
 );  

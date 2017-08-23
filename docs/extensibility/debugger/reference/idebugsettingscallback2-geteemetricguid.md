@@ -43,7 +43,7 @@ HRESULT GetEEMetricGuid(
 );  
 ```  
   
-```c#  
+```cs  
 HRESULT GetEEMetricGuid(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

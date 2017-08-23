@@ -45,7 +45,7 @@ HRESULT Compare( 
 );  
 ```  
   
-```c#  
+```cs  
 int Compare(   
    enum_ DOCCONTEXT_COMPARE compare,  
    IDebugDocumentContext2[] rgpDocContextSet,  

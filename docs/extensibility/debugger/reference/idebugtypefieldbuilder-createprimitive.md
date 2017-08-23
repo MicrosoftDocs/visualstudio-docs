@@ -42,7 +42,7 @@ HRESULT CreatePrimitive (
 );  
 ```  
   
-```c#  
+```cs  
 int CreatePrimitive (  
    uint            dwElementType,  
    out IDebugField pTypeField  

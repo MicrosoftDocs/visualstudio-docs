@@ -41,7 +41,7 @@ HRESULT SetIDebugIDECallback (
 );  
 ```  
   
-```c#  
+```cs  
 int SetIDebugIDECallback (  
    IDebugIDECallback pCallback  
 );  

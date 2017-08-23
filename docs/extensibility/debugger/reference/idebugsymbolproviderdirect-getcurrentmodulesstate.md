@@ -42,7 +42,7 @@ HRESULT GetCurrentModulesState(
 );  
 ```  
   
-```c#  
+```cs  
 int GetCurrentModulesState(  
     out uint pState,  
     out uint count  

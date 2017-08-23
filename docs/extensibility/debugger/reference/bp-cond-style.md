@@ -45,7 +45,7 @@ enum enum_BP_COND_STYLE { 
 typedef DWORD BP_COND_STYLE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BP_COND_STYLE {   
    BP_COND_NONE         = 0x0000,  
    BP_COND_WHEN_TRUE    = 0x0001,  

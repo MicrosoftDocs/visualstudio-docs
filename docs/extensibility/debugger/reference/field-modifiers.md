@@ -75,7 +75,7 @@ enum enum_FIELD_MODIFIERS { 
 typedef DWORD FIELD_MODIFIERS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_FIELD_MODIFIERS {  
    FIELD_MOD_NONE             = 0x00000000,  
   

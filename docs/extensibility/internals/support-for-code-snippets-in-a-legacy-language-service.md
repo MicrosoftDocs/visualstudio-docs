@@ -131,7 +131,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
   
 2.  Derive a class from the <xref:Microsoft.VisualStudio.Package.ViewFilter> class and override the <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> method to indicate support for the new menu command. This example always enables the menu command.  
   
-    ```c#  
+    ```cs  
     using Microsoft.VisualStudio.Package;  
   
     namespace TestLanguagePackage  
@@ -167,7 +167,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
   
 3.  Override the <xref:Microsoft.VisualStudio.Package.ViewFilter.HandlePreExec%2A> method in the <xref:Microsoft.VisualStudio.Package.ViewFilter> class to obtain the <xref:Microsoft.VisualStudio.Package.ExpansionProvider> object and call the <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> method on that object.  
   
-    ```c#  
+    ```cs  
     using Microsoft.VisualStudio.Package;  
   
     namespace TestLanguagePackage  
@@ -238,7 +238,7 @@ A code snippet is a piece of code that is inserted into the source file. The sni
   
  Here is a version of a <xref:Microsoft.VisualStudio.Package.Declarations> class that handles snippet insertion given a shortcut name. Other methods in the <xref:Microsoft.VisualStudio.Package.Declarations> class have been omitted for clarity. Note that the constructor of this class takes a <xref:Microsoft.VisualStudio.Package.LanguageService> object. This can be passed in from your version of the <xref:Microsoft.VisualStudio.Package.AuthoringScope> object (for example, your implementation of the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class might take the <xref:Microsoft.VisualStudio.Package.LanguageService> object in its constructor and pass that object on to your `TestDeclarations` class constructor).  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   
@@ -357,7 +357,7 @@ namespace TestLanguagePackage
 ### Example  
  Here is an example of how a simple expansion function called `GetName` might be implemented. This expansion function appends a number to a base class name each time the expansion function is instantiated (which corresponds to each time the associated code snippet is inserted).  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Package;  
   
 namespace TestLanguagePackage  

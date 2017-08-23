@@ -55,7 +55,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in managed code.  
   
-```c#  
+```cs  
 namespace EEMC  
 {  
     public class CFieldProperty : IDebugProperty2  

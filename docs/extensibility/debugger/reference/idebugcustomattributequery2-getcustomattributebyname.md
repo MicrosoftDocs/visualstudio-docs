@@ -44,7 +44,7 @@ HRESULT GetCustomAttributeByName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetCustomAttributeByName(  
    [In] string        pszCustomAttributeName,   
    [In, Out] byte[]   ppBlob,   

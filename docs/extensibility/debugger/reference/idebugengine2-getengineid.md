@@ -42,7 +42,7 @@ HRESULT GetEngineID( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetEngineID(   
    out Guid pguidEngine  
 );  

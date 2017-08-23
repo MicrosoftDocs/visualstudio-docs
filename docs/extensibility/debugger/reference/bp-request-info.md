@@ -51,7 +51,7 @@ typedef struct _BP_REQUEST_INFO {
 } BP_REQUEST_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct BP_REQUEST_INFO {  
    public uint           dwFields;  
    public Guid           guidLanguage;  

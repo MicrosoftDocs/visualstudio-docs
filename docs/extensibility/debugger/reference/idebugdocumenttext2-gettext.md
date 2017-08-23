@@ -45,7 +45,7 @@ HRESULT GetText( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetText(   
    eumn_TEXT_POSITION pos,  
    uint               cMaxChars,  
@@ -73,7 +73,7 @@ int GetText( 
 ## Example  
  This example shows how this method can be called from C#.  
   
-```c#  
+```cs  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio;  
 using Microsoft.VisualStudio.Debugger.Interop;  

@@ -43,7 +43,7 @@ HRESULT Bind( 
 );  
 ```  
   
-```c#  
+```cs  
 int Bind();  
 ```  
   

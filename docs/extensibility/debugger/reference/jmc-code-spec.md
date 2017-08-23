@@ -43,7 +43,7 @@ typedef struct _JMC_CODE_SPEC {
 } JMC_CODE_SPEC;  
 ```  
   
-```c#  
+```cs  
 public struct JMC_CODE_SPEC {  
    public int    fIsUserCode;  
    public string bstrModuleName;  

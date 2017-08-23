@@ -42,7 +42,7 @@ HRESULT CanSetObjectForVisualizer(
 );  
 ```  
   
-```c#  
+```cs  
 int CanSetObjectForVisualizer(  
    out int b  
 );  

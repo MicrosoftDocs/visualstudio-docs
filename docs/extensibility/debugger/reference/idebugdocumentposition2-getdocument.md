@@ -42,7 +42,7 @@ HRESULT GetDocument( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDocument(   
    out IDebugDocument2 ppDoc  
 );  

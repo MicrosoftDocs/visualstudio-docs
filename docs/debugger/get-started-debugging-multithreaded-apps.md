@@ -69,7 +69,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 6.  Delete the code that appears in the source file and replace it with the example code shown here.
 
-    ```C#
+    ```cs
     using System;
     using System.Threading;
 

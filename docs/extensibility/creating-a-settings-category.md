@@ -61,7 +61,7 @@ In this walkthrough you create a Visual Studio settings category and use it to s
   
 3.  In MyToolsOptionsPackage.cs, add a `float` property named `OptionFloat` to the `OptionPageGrid` class, as shown in the following example.  
   
-    ```c#  
+    ```cs  
     public class OptionPageGrid : DialogPage  
     {  
         private int optionInt = 256;  
@@ -91,7 +91,7 @@ In this walkthrough you create a Visual Studio settings category and use it to s
   
 4.  Add a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.  
   
-    ```c#  
+    ```cs  
     [ProvideProfileAttribute(typeof(OptionPageGrid),   
         "My Category", "My Settings", 106, 107, isToolsOptionPage:true, DescriptionResourceID = 108)]  
     ```  

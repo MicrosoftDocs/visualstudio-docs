@@ -45,7 +45,7 @@ enum enum_BP_FLAGS { 
 typedef DWORD BP_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BP_FLAGS {   
    BP_FLAG_NONE            = 0x0000,  
    BP_FLAG_MAP_DOCPOSITION = 0x0001,  

@@ -42,7 +42,7 @@ HRESULT ContinueFromSynchronousEvent( 
 );  
 ```  
   
-```c#  
+```cs  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2 pEvent  
 );  

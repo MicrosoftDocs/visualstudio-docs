@@ -42,7 +42,7 @@ HRESULT IsNullReference( 
 );  
 ```  
   
-```c#  
+```cs  
 int IsNullReference(  
    out int pfIsNull  
 );  

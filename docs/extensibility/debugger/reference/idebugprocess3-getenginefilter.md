@@ -41,7 +41,7 @@ HRESULT GetEngineFilter(
 );  
 ```  
   
-```c#  
+```cs  
 public int GetEngineFilter(  
    out GUID_ARRAY[] pEngineArray  
 );  

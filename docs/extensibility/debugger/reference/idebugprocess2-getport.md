@@ -42,7 +42,7 @@ HRESULT GetPort( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPort(   
    out IDebugPort2 ppPort  
 );  

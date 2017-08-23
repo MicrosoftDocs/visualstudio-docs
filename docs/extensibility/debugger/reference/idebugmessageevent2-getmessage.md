@@ -47,7 +47,7 @@ HRESULT GetMessage( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMessage(   
    out enum_MESSAGETYPE pMessageType,  
    out string           pbstrMessage,  

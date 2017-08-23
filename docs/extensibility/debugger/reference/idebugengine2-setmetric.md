@@ -43,7 +43,7 @@ HRESULT SetMetric(
 );  
 ```  
   
-```c#  
+```cs  
 int SetMetric(  
    string pszMetric,  
    object varValue  

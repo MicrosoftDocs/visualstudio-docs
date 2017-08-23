@@ -45,7 +45,7 @@ enum enum_SYMBOL_SEARCH_INFO_FIELDS
 typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
    SSIF_NONE                = 0x00000000,  

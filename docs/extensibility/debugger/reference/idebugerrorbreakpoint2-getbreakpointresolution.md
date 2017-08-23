@@ -42,7 +42,7 @@ HRESULT GetBreakpointResolution( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetBreakpointResolution(   
    out IDebugErrorBreakpointResolution2 ppErrorResolution  
 );  

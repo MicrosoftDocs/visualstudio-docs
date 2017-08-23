@@ -41,7 +41,7 @@ HRESULT IsCustomAttributeDefined(
 );  
 ```  
   
-```c#  
+```cs  
 int IsCustomAttributeDefined(  
    string pszCustomAttributeName  
 );  

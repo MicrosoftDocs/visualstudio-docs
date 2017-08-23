@@ -41,7 +41,7 @@ HRESULT EnsureDCOMUnblocked(
 );  
 ```  
   
-```c#  
+```cs  
 public int EnsureDCOMUnblocked();  
 ```  
   

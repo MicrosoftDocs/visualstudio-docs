@@ -45,7 +45,7 @@ HRESULT GetBytes( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetBytes(  
    uint       dwStart,   
    uint       dwCount,   

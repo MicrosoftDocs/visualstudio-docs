@@ -40,7 +40,7 @@ HRESULT GetIndex(
 );  
 ```  
   
-```c#  
+```cs  
 int GetIndex(  
    out uint pIndex  
 );  

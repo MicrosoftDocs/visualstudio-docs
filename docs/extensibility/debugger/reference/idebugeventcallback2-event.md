@@ -48,7 +48,7 @@ HRESULT Event( 
 );  
 ```  
   
-```c#  
+```cs  
 int Event(   
    IDebugEngine2  pEngine,  
    IDebugProcess2 pProcess,  

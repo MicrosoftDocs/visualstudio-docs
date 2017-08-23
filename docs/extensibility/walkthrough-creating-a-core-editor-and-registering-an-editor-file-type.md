@@ -58,7 +58,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 3.  Reference the following assemblies from your code.  
   
-    ```vb#  
+    ```vb  
     Imports System.Runtime.InteropServices  
     Imports Microsoft.VisualStudio  
     Imports Microsoft.VisualStudio.Shell  
@@ -68,7 +68,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     Imports IOleServiceProvider = Microsoft.VisualStudio.OLE.Interop.IServiceProvider  
     ```  
   
-    ```c#  
+    ```cs  
     using System.Runtime.InteropServices;  
     using Microsoft.VisualStudio;  
     using Microsoft.VisualStudio.Shell;  
@@ -83,23 +83,23 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
      You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
   
-    ```vb#  
+    ```vb  
     <Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")> _  
     ```  
   
-    ```c#  
+    ```cs  
     [Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")]   
     ```  
   
 5.  In the class definition, add two private variables to contain the parent package and a service provider.  
   
-    ```vb#  
+    ```vb  
     Class EditorFactory  
         Private parentPackage As Package  
         Private serviceProvider As IOleServiceProvider  
     ```  
   
-    ```c#  
+    ```cs  
     class EditorFactory  
     {  
         private Package parentPackage;  
@@ -110,13 +110,13 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 6.  Add a public class constructor that takes one parameter of type <xref:Microsoft.VisualStudio.Shell.Package>:  
   
-    ```vb#  
+    ```vb  
     Public Sub New(ByVal parentPackage As Package)  
         Me.parentPackage = parentPackage  
     End Sub  
     ```  
   
-    ```c#  
+    ```cs  
     public EditorFactory(Package parentPackage)  
     {  
         this.parentPackage = parentPackage;  
@@ -125,11 +125,11 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 7.  Modify the `EditorFactory` class declaration to derive from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
-    ```vb#  
+    ```vb  
     Class EditorFactory Implements IVsEditorFacto  
     ```  
   
-    ```c#  
+    ```cs  
     class EditorFactory : IVsEditorFactory  
   
     ```  
@@ -140,29 +140,29 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 9. Replace the contents of the `IVsEditorFactory.Close` method with the following code.  
   
-    ```vb#  
+    ```vb  
     Return VSConstants.S_OK  
     ```  
   
-    ```c#  
+    ```cs  
     return VSConstants.S_OK;  
     ```  
   
 10. Replace the contents of the `IVsEditorFactory.SetSite` with the following code.  
   
-    ```vb#  
+    ```vb  
     Me.serviceProvider = psp  
     Return VSConstants.S_OK  
     ```  
   
-    ```c#  
+    ```cs  
     this.serviceProvider = psp;  
     return VSConstants.S_OK;  
     ```  
   
 11. Replace the contents of the `IVsEditorFactory.MapLogicalView` method with the following code.  
   
-    ```vb#  
+    ```vb  
     Dim retval As Integer = VSConstants.E_NOTIMPL  
     pbstrPhysicalView = Nothing ' We support only one view.  
     If rguidLogicalView.Equals(VSConstants.LOGVIEWID_Designer)OrElse _  
@@ -172,7 +172,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     Return retval  
     ```  
   
-    ```c#  
+    ```cs  
     int retval = VSConstants.E_NOTIMPL;  
     pbstrPhysicalView = null;   // We support only one view.  
     if (rguidLogicalView.Equals(VSConstants.LOGVIEWID_Designer) ||  
@@ -185,7 +185,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 12. Replace the contents of the `IVsEditorFactory.CreateEditorInstance` method with the following code.  
   
-    ```vb#  
+    ```vb  
     Dim retval As Integer = VSConstants.E_FAIL          
   
     ' Initialize these to empty to start with   
@@ -252,7 +252,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     Return retval  
     ```  
   
-    ```c#  
+    ```cs  
     int retval = VSConstants.E_FAIL;  
   
     // Initialize these to empty to start with  
@@ -345,13 +345,13 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 5.  Add the following user attributes just before the `Guid` attribute.  
   
-    ```vb#  
+    ```vb  
     <ProvideEditorFactoryAttribute(GetType(EditorFactory), 101)> _  
     <ProvideEditorExtensionAttribute(GetType(EditorFactory), _  
           ".myext", 32, NameResourceID:=101 )> _  
     ```  
   
-    ```c#  
+    ```cs  
     [ProvideEditorFactory(typeof(EditorFactory), 101)]  
     [ProvideEditorExtension(typeof(EditorFactory),   
           ".myext", 32, NameResourceID = 101)]   
@@ -361,23 +361,23 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 6.  Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
   
-    ```vb#  
+    ```vb  
     Private editorFactory As EditorFactory  
     ```  
   
-    ```c#  
+    ```cs  
     private EditorFactory editorFactory;  
     ```  
   
 7.  Find the `Initialize` method (you may have to open the `Package Members` hidden region) and add the following code after the call to `base.Initialize()`.  
   
-    ```vb#  
+    ```vb  
     'Create our editor factory and register it.   
     Me.editorFactory = New EditorFactory(Me)  
     MyBase.RegisterEditorFactory(Me.editorFactory)  
     ```  
   
-    ```c#  
+    ```cs  
     // Create our editor factory and register it.  
     this.editorFactory = new EditorFactory(this);  
     base.RegisterEditorFactory(this.editorFactory);  

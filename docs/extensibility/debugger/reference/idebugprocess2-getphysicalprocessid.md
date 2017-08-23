@@ -42,7 +42,7 @@ HRESULT GetPhysicalProcessId(
 );  
 ```  
   
-```c#  
+```cs  
 int GetPhysicalProcessId(  
    AD_PROCESS_ID[] pdwProcessId  
 );  

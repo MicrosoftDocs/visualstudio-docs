@@ -58,7 +58,7 @@ enum enum_DEBUGPROP_INFO_FLAGS { 
 typedef DWORD DEBUGPROP_INFO_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_DEBUGPROP_INFO_FLAGS {   
    DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
    DEBUGPROP_INFO_NAME              = 0x00000002,  

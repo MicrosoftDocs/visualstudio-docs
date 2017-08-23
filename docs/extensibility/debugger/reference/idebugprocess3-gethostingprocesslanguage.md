@@ -42,7 +42,7 @@ HRESULT GetHostingProcessLanguage(
 );  
 ```  
   
-```c#  
+```cs  
 int GetHostingProcessLanguage(  
    out Guid pguidLang  
 );  

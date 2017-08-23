@@ -94,7 +94,7 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 6.  Replace the existing code with the following lines.  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Collections.Generic;  
     using System.Text;  
@@ -314,7 +314,7 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 4.  Implement the abstract property `ProductUserContext`:  
   
-    ```c#  
+    ```cs  
     public override string ProductUserContext  
         {  
             get { return ""; }  

@@ -43,7 +43,7 @@ HRESULT GetInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetInfo(   
    enum_ MACHINE_INFO_FIELDS  Fields,  
    MACHINE_INFO[]             pMachineInfo  

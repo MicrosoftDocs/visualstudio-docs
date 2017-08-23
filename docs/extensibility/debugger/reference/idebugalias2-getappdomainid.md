@@ -41,7 +41,7 @@ HRESULT GetAppDomainId (
 );  
 ```  
   
-```c#  
+```cs  
 int GetAppDomainId (  
    out uint pappDomainId  
 );  
