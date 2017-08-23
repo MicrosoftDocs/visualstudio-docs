@@ -116,7 +116,7 @@ private static int subtractVars(int i, int j)
 }  
 ```
 
- Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
+ Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
   
  Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
   
