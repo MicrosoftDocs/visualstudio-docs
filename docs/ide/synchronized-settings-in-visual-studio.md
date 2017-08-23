@@ -76,7 +76,7 @@ In Visual Studio 15.3 and later, we've stopped sharing certain settings, like to
 **NOTE**: To use the new installation specific settings, you must complete a fresh installation. When you perform an upgrade of an existing Visual Studio 2017 installation to the most current update, it will use the existing shared location. If you currently have side-by-side installations of Visual Studio 2017 and decide to upgrade, and want to use the new installation specific settings file location, follow these steps:
 
 1. After the upgrade, use the Import\Export settings wizard to export all our existing settings to some location outside of       `%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx` folder.
-2. Open the **Developer Command Prompt for VS 2017** of the upgraded Visual Studio installation and "run devenv resetuserdata" from it.
+2. Open the **Developer Command Prompt for VS 2017** of the upgraded Visual Studio installation and run `devenv /resetuserdata` from it.
 3. Launch Visual Studio and import the saved settings from the exported settings file.
 
 ## See also
