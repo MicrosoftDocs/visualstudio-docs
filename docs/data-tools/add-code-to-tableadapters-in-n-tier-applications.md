@@ -64,14 +64,14 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
   
 5.  The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:  
   
-    ```vb#  
+    ```vb  
     Partial Public Class CustomersTableAdapter  
         ' Add code here to add functionality   
         ' to the CustomersTableAdapter.  
     End Class  
     ```  
   
-    ```c#  
+    ```cs  
     public partial class CustomersTableAdapter  
     {  
         // Add code here to add functionality  

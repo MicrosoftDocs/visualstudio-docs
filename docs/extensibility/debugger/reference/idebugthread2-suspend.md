@@ -42,7 +42,7 @@ HRESULT Suspend ( 
 );  
 ```  
   
-```c#  
+```cs  
 HRESULT Suspend (   
    out uint pdwSuspendCount  
 );  

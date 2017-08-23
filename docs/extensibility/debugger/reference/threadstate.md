@@ -47,7 +47,7 @@ enum enum_THREADSTATE { 
 typedef DWORD THREADSTATE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_THREADSTATE {   
    THREADSTATE_RUNNING = 0x0001,  
    THREADSTATE_STOPPED = 0x0002,  

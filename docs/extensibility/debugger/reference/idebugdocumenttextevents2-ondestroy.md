@@ -42,7 +42,7 @@ HRESULT onDestroy( 
 );  
 ```  
   
-```c#  
+```cs  
 int onDestroy();  
 ```  
   

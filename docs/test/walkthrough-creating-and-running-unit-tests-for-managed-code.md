@@ -101,7 +101,7 @@ This walkthrough will step you through creating, running, and customizing a seri
   
  In this quick start, we focus on the `Debit` method.The Debit method is called when money is withdrawn an account and contains the following code:  
   
-```c#  
+```cs  
 // method under test  
 public void Debit(double amount)  
 {  
@@ -148,7 +148,7 @@ public void Debit(double amount)
   
  The BankAccountTests.cs file now contains the following code:  
   
-```c#  
+```cs  
 // unit test code  
 using System;  
 using Microsoft.VisualStudio.TestTools.UnitTesting;  
@@ -170,7 +170,7 @@ namespace BankTests
   
  We can also add a using statement to the class to let us to call into the project under test without using fully qualified names. At the top of the class file, add:  
   
-```c#  
+```cs  
 using BankAccountNS;  
 ```  
   
@@ -202,7 +202,7 @@ using BankAccountNS;
   
 2.  Add the following method to that `BankAccountTests` class:  
   
-    ```c#  
+    ```cs  
     // unit test code  
     [TestMethod]  
     public void Debit_WithValidAmount_UpdatesBalance()  
@@ -256,13 +256,13 @@ using BankAccountNS;
   
  To correct the error, simply replace the line  
   
-```c#  
+```cs  
 m_balance += amount;  
 ```  
   
  with  
   
-```c#  
+```cs  
 m_balance -= amount;  
 ```  
   
@@ -285,7 +285,7 @@ m_balance -= amount;
   
  A first attempt at creating a test method to address these issues seems promising:  
   
-```c#  
+```cs  
 //unit test method  
 [TestMethod]  
 [ExpectedException(typeof(ArgumentOutOfRangeException))]  
@@ -322,7 +322,7 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
   
  Looking at the method under test again, we see both conditional statements use an `ArgumentOutOfRangeException` constructor that takes name of the argument as a parameter:  
   
-```c#  
+```cs  
 throw new ArgumentOutOfRangeException("amount");  
 ```  
   
@@ -332,7 +332,7 @@ throw new ArgumentOutOfRangeException("amount");
   
  We first define two constants for the error messages at class scope:  
   
-```c#  
+```cs  
 // class under test  
 public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";  
 public const string DebitAmountLessThanZeroMessage = "Debit amount less than zero";  
@@ -340,7 +340,7 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount less than zer
   
  We then modify the two conditional statements in the `Debit` method:  
   
-```c#  
+```cs  
 // method under test  
 // ...  
     if (amount > m_balance)  
@@ -367,7 +367,7 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount less than zer
   
  A second attempt at revising `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like:  
   
-```c#  
+```cs  
 [TestMethod]  
 public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()  
 {  
@@ -403,7 +403,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
   
  But retesting shows that the test now fails if the correct exception is caught. The catch statement resets the exception and the method continues to execute, failing at the new assert. To resolve the new problem, we add a `return` statement after the `StringAssert`. Retesting confirms that we have fixed our problems. Our final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like the following:  
   
-```c#  
+```cs  
 [TestMethod]  
 public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()  
 {  

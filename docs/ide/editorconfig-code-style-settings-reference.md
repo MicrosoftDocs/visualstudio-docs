@@ -652,7 +652,7 @@ dotnet_sort_system_directives_first = true
 ### <a name="newline_before_brace"> Newline Before Open Brace (`{`)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_new_line_before_open_brace`  |  C#  | true | Visual Studio 2017 v. 15.3  |
+|`csharp_new_line_before_open_brace`  |  C#  | all | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 

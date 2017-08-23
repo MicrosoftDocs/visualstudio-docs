@@ -42,7 +42,7 @@ HRESULT CanDetach(
 );  
 ```  
   
-```c#  
+```cs  
 int CanDetach();  
 ```  
   

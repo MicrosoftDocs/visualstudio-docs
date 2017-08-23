@@ -51,7 +51,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 3.  Go to the DTETest.cs file, and add the following `using` directives:  
   
-    ```c#  
+    ```cs  
     using EnvDTE;  
     using EnvDTE80;  
     using Microsoft.VisualStudio.Shell;  
@@ -60,7 +60,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 4.  In the `GetDTEProvider` class, import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
   
-    ```c#  
+    ```cs  
     [Import]  
     internal SVsServiceProvider ServiceProvider = null;  
   
@@ -68,7 +68,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 5.  In the `GetClassifier()` method, add the following code.  
   
-    ```c#  
+    ```cs  
     DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));  
   
     ```  

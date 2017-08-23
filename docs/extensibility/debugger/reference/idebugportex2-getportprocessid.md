@@ -42,7 +42,7 @@ HRESULT GetPortProcessId ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPortProcessId (   
    out uint pdwProcessId  
 );  

@@ -43,7 +43,7 @@ HRESULT CreateReplacementObject(
 );  
 ```  
   
-```c#  
+```cs  
 int CreateReplacementObject(  
    IEEDataStorage     dataIn,  
    out IEEDataStorage dataOut  

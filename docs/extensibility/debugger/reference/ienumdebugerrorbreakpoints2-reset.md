@@ -42,7 +42,7 @@ HRESULT Reset(
 );  
 ```  
   
-```c#  
+```cs  
 int Reset();  
 ```  
   

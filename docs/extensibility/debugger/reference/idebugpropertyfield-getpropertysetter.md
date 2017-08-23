@@ -42,7 +42,7 @@ HRESULT GetPropertySetter( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPropertySetter(  
    out IDebugMethodField ppField  
 );  

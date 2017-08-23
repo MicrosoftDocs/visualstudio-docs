@@ -44,7 +44,7 @@ HRESULT GetClassTypeByName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetClassTypeByName(  
    string               pszClassName,   
    NAME_MATCH           nameMatch,   

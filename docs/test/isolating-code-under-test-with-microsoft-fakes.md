@@ -72,13 +72,13 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
      Instead, define an interface that can be implemented by the other component, and which can also be implemented by a stub for test purposes:  
   
-    ```c#  
+    ```cs  
     public int GetContosoPrice(IStockFeed feed)  
     { return feed.GetSharePrice("COOO"); }  
   
     ```  
   
-    ```vb#  
+    ```vb  
     Public Function GetContosoPrice(feed As IStockFeed) As Integer  
      Return feed.GetSharePrice("COOO")  
     End Function  
@@ -95,7 +95,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 3.  In your tests, construct instances of the stub and provide code for its methods:  
   
-    ```c#  
+    ```cs  
     [TestClass]  
     class TestStockAnalyzer  
     {  
@@ -126,7 +126,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     <TestClass()> _  
     Class TestStockAnalyzer  
   
@@ -160,7 +160,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  Suppose your component contains calls to `DateTime.Now`:  
   
-```c#  
+```cs  
 // Code under test:  
     public int GetTheCurrentYear()  
     {  
@@ -181,7 +181,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 2.  **Insert a shim in a ShimsContext**  
   
-    ```c#  
+    ```cs  
     [TestClass]  
     public class TestClass1  
     {   
@@ -214,7 +214,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
     ```  
   
-    ```vb#  
+    ```vb  
     <TestClass()> _  
     Public Class TestClass1  
         <TestMethod()> _  

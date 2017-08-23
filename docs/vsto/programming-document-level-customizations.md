@@ -89,21 +89,21 @@ manager: "ghogen"
   
  The following code example shows how to use the Word object model to save the document that is part of a document-level customization for Word. This example is intended to be run from the `ThisDocument` class.  
   
-```vb#  
+```vb  
 Me.Save()  
 ```  
   
-```c#  
+```cs  
 this.Save();  
 ```  
   
  To do the same thing from outside the `ThisDocument` class, use the `Globals` object to access the `ThisDocument` class. For example, you can add this code to an actions pane code file if you want to include a **Save** button in the actions pane UI.  
   
-```vb#  
+```vb  
 Globals.ThisDocument.Save()  
 ```  
   
-```c#  
+```cs  
 Globals.ThisDocument.Save();  
 ```  
   

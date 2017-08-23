@@ -44,7 +44,7 @@ enum enum_DisplayKind
 typedef DWORD DisplayKind;  
 ```  
   
-```c#  
+```cs  
 public enum enum_DisplayKind  
 {  
    DisplayKind_Value = 0x1,  

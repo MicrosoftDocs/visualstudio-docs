@@ -44,7 +44,7 @@ typedef struct _tagTYPE_PDB {
 } PDB_TYPE;  
 ```  
   
-```c#  
+```cs  
 public struct PDB_TYPE {  
    public uint ulAppDomainID;  
    public Guid guidModule;  

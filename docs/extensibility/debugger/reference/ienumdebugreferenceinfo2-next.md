@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```cs  
 int Next(  
    uint                   celt,  
    DEBUG_REFERENCE_INFO[] rgelt,  

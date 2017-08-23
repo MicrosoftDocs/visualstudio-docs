@@ -41,7 +41,7 @@ HRESULT ConstraintCount(
 );  
 ```  
   
-```c#  
+```cs  
 int ConstraintCount(  
    ref uint pcConst  
 );  

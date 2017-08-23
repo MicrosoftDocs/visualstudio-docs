@@ -43,7 +43,7 @@ HRESULT ResolveRuntimeType( 
 );  
 ```  
   
-```c#  
+```cs  
 int ResolveRuntimeType(  
    IDebugObject     pObject,   
    out IDebugField  ppResolved  

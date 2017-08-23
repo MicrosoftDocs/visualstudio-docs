@@ -44,7 +44,7 @@ HRESULT PublishProgram(
 );  
 ```  
   
-```c#  
+```cs  
 int PublishProgram(  
    CONST_GUID_ARRAY Engines,  
    string           szFriendlyName,  

@@ -43,7 +43,7 @@ HRESULT GetName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetName(   
    enum_GETNAME_TYPE  gnType,  
    out string         pbstrName  

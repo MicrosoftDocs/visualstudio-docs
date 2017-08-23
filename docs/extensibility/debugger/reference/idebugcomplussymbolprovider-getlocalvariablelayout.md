@@ -45,7 +45,7 @@ HRESULT GetLocalVariablelayout(
 );  
 ```  
   
-```c#  
+```cs  
 int GetLocalVariablelayout(  
    uint        ulAppDomainID,  
    Guid        guidModule,  

@@ -42,7 +42,7 @@ HRESULT GetProgramNode( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProgramNode(   
    out IDebugProgramNode2 ppProgramNode  
 );  

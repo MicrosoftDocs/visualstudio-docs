@@ -42,7 +42,7 @@ HRESULT GetDocumentClassID( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDocumentClassID(   
    out Guid pclsid  
 );  

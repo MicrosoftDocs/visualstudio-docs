@@ -407,7 +407,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 2.  Add these handler methods to the MainWindow class in MainWindow.xaml.cs, If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
   
-    ```c#  
+    ```cs  
        private void LastCommandHandler(object sender, ExecutedRoutedEventArgs e)  
     {  
         custViewSource.View.MoveCurrentToLast();  

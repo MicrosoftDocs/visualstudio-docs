@@ -43,7 +43,7 @@ HRESULT GetMetricDword(
 );  
 ```  
   
-```c#  
+```cs  
 private int GetMetricDword(  
    string   pszType,  
    ref Guid guidSection,  

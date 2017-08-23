@@ -42,7 +42,7 @@ enum enum_PPROGRAM_DESTROY_FLAGS
 typedef DWORD PROGRAM_DESTROY_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
    PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  

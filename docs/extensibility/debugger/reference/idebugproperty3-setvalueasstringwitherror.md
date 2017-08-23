@@ -45,7 +45,7 @@ HRESULT SetValueAsStringWithError(
 );  
 ```  
   
-```c#  
+```cs  
 int SetValueAsStringWithError(  
    string     pszValue,  
    uint       dwRadix,  

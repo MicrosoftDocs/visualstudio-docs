@@ -43,7 +43,7 @@ HRESULT onUpdateTextAttributes( 
 );  
 ```  
   
-```c#  
+```cs  
 int onUpdateTextAttributes(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToUpdate  

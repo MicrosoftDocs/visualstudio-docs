@@ -42,7 +42,7 @@ HRESULT GetDebugReason(
 );  
 ```  
   
-```c#  
+```cs  
 int GetDebugReason(  
    out enum_DEBUG_REASON pReason  
 );  

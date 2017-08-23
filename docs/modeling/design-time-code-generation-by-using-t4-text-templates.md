@@ -104,7 +104,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
 1.  Change the content of the `.tt` file:  
   
-    ```c#  
+    ```cs  
     <#@ template hostspecific="false" language="C#" #>  
     <#@ output extension=".txt" #>  
     <#int top = 10;  
@@ -115,7 +115,7 @@ Design-time T4 text templates let you generate program code and other files in y
     <# } #>  
     ```  
   
-    ```vb#  
+    ```vb  
     <#@ template hostspecific="false" language="VB" #>  
     <#@ output extension=".txt" #>  
     <#Dim top As Integer = 10  
@@ -162,7 +162,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
 2.  Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:  
   
-    ```c#  
+    ```cs  
   
               <#@ template debug="false" hostspecific="false" language="C#" #>  
     <#@ output extension=".cs" #>  
@@ -177,7 +177,7 @@ Design-time T4 text templates let you generate program code and other files in y
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     <#@ template debug="false" hostspecific="false" language="VB" #>  
     <#@ output extension=".cs" #>  
     <# Dim properties = {"P1", "P2", "P3"} #>  
@@ -234,7 +234,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
  For example, after importing **System.IO**, you could write:  
   
-```c#  
+```cs  
   
       <# var properties = File.ReadLines("C:\\propertyList.txt");#>  
 ...  
@@ -242,7 +242,7 @@ Design-time T4 text templates let you generate program code and other files in y
 ...  
 ```  
   
-```vb#  
+```vb  
 <# For Each propertyName As String In   
              File.ReadLines("C:\\propertyList.txt")  
 #>  
@@ -259,7 +259,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
  Then you can write, for example:  
   
-```c#  
+```cs  
 <# string fileName = this.Host.ResolvePath("filename.txt");  
   string [] properties = File.ReadLines(filename);  
 #>  
@@ -269,7 +269,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
 ```  
   
-```vb#  
+```vb  
 <# Dim fileName = Me.Host.ResolvePath("propertyList.txt")  
    Dim properties = File.ReadLines(filename)  
 #>  

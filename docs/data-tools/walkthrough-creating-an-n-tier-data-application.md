@@ -236,7 +236,7 @@ translation.priority.ht:
   
 2.  Add the following code under the **Add your service operations here** comment:  
   
-    ```vb#  
+    ```vb  
     <OperationContract()> _  
     Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable  
   
@@ -244,7 +244,7 @@ translation.priority.ht:
     Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable  
     ```  
   
-    ```c#  
+    ```cs  
     [OperationContract]  
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();  
   
@@ -257,7 +257,7 @@ translation.priority.ht:
   
 4.  Add the following code to the Service1 class:  
   
-    ```vb#  
+    ```vb  
     Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers  
         Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter  
         Return CustomersTableAdapter1.GetCustomers()  
@@ -269,7 +269,7 @@ translation.priority.ht:
     End Function  
     ```  
   
-    ```c#  
+    ```cs  
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()  
     {  
         DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter  
@@ -351,13 +351,13 @@ translation.priority.ht:
   
 7.  Add the following code to the `Form1_Load` event handler.  
   
-    ```vb#  
+    ```vb  
     Dim DataSvc As New ServiceReference1.Service1Client  
     NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)  
     NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)  
     ```  
   
-    ```c#  
+    ```cs  
     ServiceReference1.Service1Client DataSvc =   
         new ServiceReference1.Service1Client();  
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());  

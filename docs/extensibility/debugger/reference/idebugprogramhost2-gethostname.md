@@ -43,7 +43,7 @@ HRESULT GetHostName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetHostName(   
    uint dwType,  
    out string pbstrHostName  

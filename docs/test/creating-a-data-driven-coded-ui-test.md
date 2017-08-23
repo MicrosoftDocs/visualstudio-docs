@@ -59,7 +59,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      Close the test builder. The method is added to the test:  
   
-    ```c#  
+    ```cs  
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  
@@ -89,7 +89,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      Because the `ValidateSum` method validates the results of the `AddNumbers` method, move it to the bottom of the code block.  
   
-    ```c#  
+    ```cs  
     public void CodedUITestMethod1()  
     {  
   

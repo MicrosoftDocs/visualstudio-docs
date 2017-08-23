@@ -44,12 +44,12 @@ The <xref:System.Resources.SatelliteContractVersionAttribute> class provides ver
   
  The following code shows how to set the satellite contract version. The code can be placed in either a build script or in the AssemblyInfo.vb or AssemblyInfo.cs file.  
   
-```vb#  
+```vb  
 <Assembly: SatelliteContractVersionAttribute("4.3.2.1")>  
   
 ```  
   
-```c#  
+```cs  
 [assembly: SatelliteContractVersionAttribute("4.3.2.1")]  
 ```  
   

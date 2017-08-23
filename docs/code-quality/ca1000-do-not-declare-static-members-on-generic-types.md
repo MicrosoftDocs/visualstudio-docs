@@ -56,7 +56,7 @@ GenericType(Of Integer).SharedMethod()
 someObject.GenericMethod(Of Integer)()  
 ```  
   
-```c#  
+```cs  
 // Static method in a generic type.  
 GenericType<int>.StaticMethod();  
   

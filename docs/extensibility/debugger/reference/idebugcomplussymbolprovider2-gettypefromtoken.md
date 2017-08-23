@@ -44,7 +44,7 @@ HRESULT GetTypeFromToken(
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypeFromToken(  
    uint            appDomain,  
    Guid            guidModule,  

@@ -47,7 +47,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
 1.  Create a console application named `ExtractInterface`, and then replace `Program` with the following code  
   
-    ```c#  
+    ```cs  
     // Invoke Extract Interface on ProtoA.  
     // Note:  the extracted interface will be created in a new file.  
     class ProtoA  
@@ -70,7 +70,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
      You see the new file, IProtoA.cs, and the following code:  
   
-    ```c#  
+    ```cs  
     using System;  
     namespace TopThreeRefactorings  
     {  

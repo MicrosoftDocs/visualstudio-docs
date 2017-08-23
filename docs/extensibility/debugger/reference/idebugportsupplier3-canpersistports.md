@@ -40,7 +40,7 @@ This method determines whether the port supplier can persist ports (by writing t
 HRESULT CanPersistPorts();  
 ```  
   
-```c#  
+```cs  
 int CanPersistPorts();  
 ```  
   

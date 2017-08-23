@@ -46,7 +46,7 @@ HRESULT WatchForExpressionEvaluationOnThread( 
 );  
 ```  
   
-```c#  
+```cs  
 int WatchForExpressionEvaluationOnThread(   
    IDebugProgram2       pOriginatingProgram,  
    uint                  dwTid,  

@@ -42,7 +42,7 @@ HRESULT GetParentField( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetParentField(  
    out IDebugField ppField  
 );  

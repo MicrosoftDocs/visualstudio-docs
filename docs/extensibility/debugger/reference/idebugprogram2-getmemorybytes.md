@@ -42,7 +42,7 @@ HRESULT GetMemoryBytes( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMemoryBytes(   
    out IDebugMemoryBytes2 ppMemoryBytes  
 );  
