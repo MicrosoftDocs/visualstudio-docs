@@ -103,7 +103,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
  
     When Live Unit Testing is paused, your coverage visualization does not appear in the editor, but all the data that was collected is preserved. To resume Live Unit Testing, select **Continue** from the Live Unit Testing menu. Live Unit Testing does the necessary work to catch up with all the edits that have been made while it was paused, and updates the glyphs appropriately. 
 
-- **Stop**, to completely stop Live Unit Testing. Live Unit Testing discards all data that it has collected
+- **Stop**, to completely stop Live Unit Testing. Live Unit Testing discards all data that it has collected.
 
 - **Reset Clean**, which stops Live Unit Testing, deletes persisted data, and restarts Live Unit Testing.
 
@@ -145,6 +145,9 @@ For example, the test failure shown in the previous figure was caused by an inco
 
 Ordinarily, **Test Explorer** provides the interface that lets you run, debug, and analyze your test results. Live Unit Testing integrates with **Test Explorer**. When Live Unit Testing is not enabled or is stopped, **Test Explorer** displays the status of unit tests the last time a test was run. Source code changes require that you rerun the tests. In contrast, when Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You no longer need to explicitly run your unit tests. 
 
+> [!NOTE]
+> You can open **Test Explorer** by selecting **Test**, **Windows**, **Test Explorer** from the top-level Visual Studio menu.  
+
 You may notice in the **Test Explorer** window that some tests are faded out. 
 For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following figure shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests, since Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
 
@@ -157,6 +160,12 @@ There are some differences between Live Unit Testing automatically running and u
 - Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries. 
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
 - Live Unit Testing runs tests in each test assembly sequentially. If you run multiple tests from the **Test Explorer** window and the **Run Tests in Parallel** button is selected, tests run in parallel.
+
+## Live Unit Testing and large solutions
+
+If your solution has 10 or more projects, when you start Live Unit Testing and there is no persisted data, or when you select the **Test**, **Live Unit Testing**, **Reset Clean** option from the top-level Visual Studio menu, Visual Studio displays the following dialog to warn you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all texts in the solution. If you select **Cancel**, you can select the tests to execute. For information on how to do this, see the following section, [Including and excluding test projects and test methods](#including-and-excluding-test-projects-and-test-methods).  
+
+ ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
 ## Including and excluding test projects and test methods
 
