@@ -53,7 +53,7 @@ If a tool window is slowing down Visual Studio startup and you wish to change th
 
 You can always return to this dialog box at any time to change the setting for any given tool window.
 
-## Load large solutions faster in Visual Studio 2017
+## <a name="speed_up_solution_load"></a>Load large solutions faster in Visual Studio 2017
 
 Many solutions contain a large number of projects, which affects the time taken to load those solutions. However, in team environments, developers typically work on a different subset of those projects and don’t need to load all of the individual projects.
 
