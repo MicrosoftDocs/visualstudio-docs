@@ -70,6 +70,39 @@ Directory.Build.props is imported very early in Microsoft.Common.props, so prope
 
 Directory.Build.targets is imported from Microsoft.Common.targets after importing .targets files from NuGet packages. So, it can be used to override properties and targets defined in most of the build logic, but at times it may be necessary to do customizations within the project file after the final import.
 
+## Use case: multi-level merging
+
+Supposing you have this standard solution structure:
+
+````
+\
+  MySolution.sln
+  Directory.Build.props     (1)
+  \src
+    Directory.Build.props   (2-src)
+    \Project1
+    \Project2
+  \test
+    Directory.Build.props   (2-test)
+    \Project1Tests
+    \Project2Tests
+````
+
+It may be desirable to have common properties for all projects `(1)`, common properties for `src` projects `(2-src)`, and common properties for `test` projects `(2-test)`.
+
+For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the "outer" file (`1`), one must take into account that once msbuild finds a `Directory.Build.props` file, it stops further scanning. To continue scanning, and merge into the outer file, place this into both inner files:
+
+`<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props'))" />`
+
+A summary of msbuild's general approach is as follows:
+
+- for any given project, msbuild finds the first `Directory.Build.props` upward in the solution structure, merges it with defaults, and stops scanning for more
+- if you want multiple levels to be found and merged, then `<Import...>` (shown above) the "outer" file from the "inner" file
+- if the "outer" file does not itself also import something above it, then scanning stops there
+- to control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
+
+Or more simply: the first `Directory.Build.props` which doesn't import anything, is where msbuild stops.
+
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
