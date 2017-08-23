@@ -44,7 +44,7 @@ HRESULT GetMethodFieldsByName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMethodFieldsByName(  
    string               pszFullName,   
    NAME_MATCH           nameMatch,   

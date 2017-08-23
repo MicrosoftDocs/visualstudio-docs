@@ -42,7 +42,7 @@ HRESULT DoesInterfaceExist( 
 );  
 ```  
   
-```c#  
+```cs  
 int DoesInterfaceExist(  
    [In] string pszInterfaceName  
 );  

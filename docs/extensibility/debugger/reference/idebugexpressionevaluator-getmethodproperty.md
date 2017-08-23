@@ -46,7 +46,7 @@ HRESULT GetMethodProperty( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetMethodProperty(  
    IDebugSymbolProvider pSymbolProvider,   
    IDebugAddress        pAddress,   

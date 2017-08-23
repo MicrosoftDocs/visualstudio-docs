@@ -43,7 +43,7 @@ HRESULT CreateArrayOfType (
 );  
 ```  
   
-```c#  
+```cs  
 int CreateArrayOfType (  
    IDebugField     pTypeField,  
    uint            rank,  

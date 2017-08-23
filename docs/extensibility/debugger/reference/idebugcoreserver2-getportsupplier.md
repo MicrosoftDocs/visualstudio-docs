@@ -43,7 +43,7 @@ HRESULT GetPortSupplier( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPortSupplier(   
    ref Guid                guidPortSupplier,  
    out IDebugPortSupplier2 ppPortSupplier  

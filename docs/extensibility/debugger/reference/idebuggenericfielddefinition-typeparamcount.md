@@ -41,7 +41,7 @@ HRESULT TypeParamCount(
 );  
 ```  
   
-```c#  
+```cs  
 int TypeParamCount(  
    ref uint pcParams  
 );  

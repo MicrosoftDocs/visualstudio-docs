@@ -42,7 +42,7 @@ HRESULT EnumProcesses( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumProcesses(   
    out IEnumDebugProcesses2 ppEnum  
 );  

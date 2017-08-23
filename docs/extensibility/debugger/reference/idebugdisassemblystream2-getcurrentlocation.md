@@ -42,7 +42,7 @@ HRESULT GetCurrentLocation( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetCurrentLocation(   
    out ulong puCodeLocationId  
 );  

@@ -42,7 +42,7 @@ HRESULT QueryIsLocal(
 );  
 ```  
   
-```c#  
+```cs  
 int QueryIsLocal();  
 ```  
   

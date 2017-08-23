@@ -41,7 +41,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to your VSPackage:  
   
-    ```c#  
+    ```cs  
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));  
     EnvDTE.Project project = dte.Solution.Projects.Item(1);  
   
@@ -55,7 +55,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to the code given in the method in the previous procedure:  
   
-    ```c#  
+    ```cs  
     IVsBuildPropertyStorage buildPropertyStorage =   
         hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
@@ -72,7 +72,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to your VSPackage:  
   
-    ```c#  
+    ```cs  
     IVsHierarchy hierarchy = null;  
     IntPtr hierarchyPtr = IntPtr.Zero;  
     IntPtr selectionContainer = IntPtr.Zero;  

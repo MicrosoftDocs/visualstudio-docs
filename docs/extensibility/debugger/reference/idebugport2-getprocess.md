@@ -43,7 +43,7 @@ HRESULT GetProcess( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetProcess(   
    AD_PROCESS_ID      ProcessId,  
    out IDebugProcess2 ppProcess  

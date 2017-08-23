@@ -40,7 +40,7 @@ HRESULT SetServer(
 );  
 ```  
   
-```c#  
+```cs  
 int SetServer(  
    IDebugCoreServer2 pServer  
 );  

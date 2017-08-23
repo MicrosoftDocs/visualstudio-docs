@@ -44,7 +44,7 @@ HRESULT EnumPossibleEngines( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumPossibleEngines(   
    uint      celtBuffer,  
    GUID[]    rgguidEngines,  

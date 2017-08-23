@@ -101,7 +101,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 7.  In the code editor, replace the `namespace WPFQuickStart.Common` (C#) namespace or the `Public Class QuickStartTask` (VB) method with the following code:  
   
-    ```c#  
+    ```cs  
     namespace WPFQuickStart.Common  
     {  
         /// <summary>  
@@ -291,7 +291,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 7.  In the Code Editor, add the following `using` or `Imports` directives to the top of the file:  
   
-    ```c#  
+    ```cs  
     using Microsoft.WindowsAzure.MobileServices;  
     using Newtonsoft.Json;   
     ```  
@@ -303,7 +303,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 8.  Replace all of the code in the **WPFQuickStart** namespace (C#) or **Class MainWindow** class (VB) with the following code:  
   
-    ```c#  
+    ```cs  
     namespace WPFQuickStart  
     {  
         /// <summary>  
@@ -516,7 +516,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 2.  In the Code Editor, add the following `using` or **Imports** directives to the top of the file:  
   
-    ```c#  
+    ```cs  
     using Microsoft.WindowsAzure.MobileServices;  
     ```  
   
@@ -526,7 +526,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 3.  Add the following declaration to the class, replacing *YOUR-SERVICE_HERE* with the name of the URL for your service, and replacing *YOUR-KEY-HERE* with the application key that you copied in the previous procedure:  
   
-    ```c#  
+    ```cs  
     public static MobileServiceClient MobileService = new MobileServiceClient(  
                  "https://YOUR-SERVICE-HERE.azure-mobile.net/",  
                  "YOUR-KEY-HERE"  

@@ -43,7 +43,7 @@ HRESULT GetRange( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetRange(   
    TEXT_POSITION[] pBegPosition,  
    TEXT_POSITION[] pEndPosition  

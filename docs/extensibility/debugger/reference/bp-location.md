@@ -52,7 +52,7 @@ typedef struct _BP_LOCATION {
 } BP_LOCATION;  
 ```  
   
-```c#  
+```cs  
 public struct BP_LOCATION {  
    public uint   bpLocationType;  
    public IntPtr unionmember1;  
@@ -117,7 +117,7 @@ public struct BP_LOCATION {
 ## Example  
  This example shows how to interpret the `BP_LOCATION` structure in C# for the `BPLT_DATA_STRING` type. This particular type shows how to interpret all four `unionmemberX` members in all possible formats (object, string, and number).  
   
-```c#  
+```cs  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

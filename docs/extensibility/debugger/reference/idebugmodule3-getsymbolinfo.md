@@ -44,7 +44,7 @@ HRESULT GetSymbolInfo(
 );  
 ```  
   
-```c#  
+```cs  
 int GetSymbolInfo(  
    enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,   
    MODULE_SYMBOL_SEARCH_INFO[]    pinfo  

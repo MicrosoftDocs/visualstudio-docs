@@ -45,7 +45,7 @@ HRESULT Seek( 
 );  
 ```  
   
-```c#  
+```cs  
 int Seek(   
    enum_SEEK_START    dwSeekStart,  
    IDebugCodeContext2 pCodeContext,  

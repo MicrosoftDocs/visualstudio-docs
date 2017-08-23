@@ -44,7 +44,7 @@ enum enum_PROVIDER_FIELDS {
 typedef DWORD PROVIDER_FIELDS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_PROVIDER_FIELDS {  
    PFIELD_PROGRAM_NODES       = 0x01,  
    PFIELD_IS_DEBUGGER_PRESENT = 0x02  

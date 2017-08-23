@@ -42,7 +42,7 @@ HRESULT GetExceptionDescription( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetExceptionDescription(   
    out string pbstrDescription  
 );  

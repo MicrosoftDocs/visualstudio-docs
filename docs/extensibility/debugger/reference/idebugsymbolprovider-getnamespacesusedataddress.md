@@ -43,7 +43,7 @@ HRESULT GetNamespacesUsedAtAddress( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetNamespacesUsedAtAddress(  
    IDebugAddress        pAddress,  
    out IEnumDebugFields ppEnum  

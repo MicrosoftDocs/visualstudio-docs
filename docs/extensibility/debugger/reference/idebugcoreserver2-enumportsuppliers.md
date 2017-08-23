@@ -42,7 +42,7 @@ HRESULT EnumPortSuppliers(
 );  
 ```  
   
-```c#  
+```cs  
 int EnumPortSuppliers(  
    out IEnumDebugPortSuppliers2 ppEnum  
 );  

@@ -52,7 +52,7 @@ In the managed package framework (MPF), the language service is proffered by a V
   
 ### Example  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Shell;  
   
 namespace TestLanguagePackage  
@@ -71,7 +71,7 @@ namespace TestLanguagePackage
   
 ### Example  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Shell;  
   
 namespace TestLanguagePackage  
@@ -96,7 +96,7 @@ namespace TestLanguagePackage
   
 ### Example  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Shell;  
   
 namespace TestLanguagePackage  
@@ -115,7 +115,7 @@ namespace TestLanguagePackage
   
 ### Example  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Shell;  
   
 namespace TestLanguagePackage  
@@ -142,7 +142,7 @@ namespace TestLanguagePackage
 ### Example  
  This example shows two property pages, **Options** and **Indenting**, and one node that contains the second property page.  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Shell;  
   
 namespace TestLanguagePackage  
@@ -177,7 +177,7 @@ namespace TestLanguagePackage
 ### Example  
  This example shows a typical approach to proffering a service and supplying an idle timer.  
   
-```c#  
+```cs  
   
 using System;  
 using System.Runtime.InteropServices;  

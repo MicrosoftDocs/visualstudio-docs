@@ -48,7 +48,7 @@ enum enum_MESSAGETYPE { 
 typedef DWORD MESSAGETYPE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_MESSAGETYPE {   
    MT_OUTPUTSTRING      = 0x0000001,  
    MT_MESSAGEBOX        = 0x00000002,  

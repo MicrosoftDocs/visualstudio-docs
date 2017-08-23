@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```cs  
 int Next(  
    uint            celt,  
    IDebugThread2[] rgelt,  

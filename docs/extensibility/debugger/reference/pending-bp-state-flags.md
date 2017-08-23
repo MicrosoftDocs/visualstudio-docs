@@ -44,7 +44,7 @@ enum enum_PENDING_BP_STATE_FLAGS { 
 typedef DWORD PENDING_BP_STATE_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_PENDING_BP_STATE_FLAGS {   
    PBPSF_NONE        = 0x0000,  
    PBPSF_VIRTUALIZED = 0x0001  

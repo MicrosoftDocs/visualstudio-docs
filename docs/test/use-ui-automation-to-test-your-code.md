@@ -132,7 +132,7 @@ Automated tests that drive your application through its user interface (UI) are 
   
      To view the generated code, close the UI Test Builder window. In the code, you can see the names that you gave to each step. The code is in the CUIT file that you created:  
   
-    ```c#  
+    ```cs  
     [CodedUITest]  
     public class CodedUITest1  
     { ...  
@@ -254,7 +254,7 @@ Automated tests that drive your application through its user interface (UI) are 
   
  After you generate the test method, code similar to the following example will be added to the UIMap.Desinger.cs file:  
   
-```c#  
+```cs  
 // Mouse hover '1' label at (87, 9)  
 Mouse.Hover(uIItem1Text, new Point(87, 9));  
   
@@ -331,7 +331,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   **A line in the test method.**  
   
-    ```c#  
+    ```cs  
     [CodedUITest]  
     public class CodedUITest1  
     { ...  
@@ -354,7 +354,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
      Youcan also view the generated method in UIMap.Designer.cs. This method performs the actions that you recorded when you run the test.  
   
-    ```c#  
+    ```cs  
     // File: UIMap.Designer.cs  
     public partial class UIMap  
     {  
@@ -371,7 +371,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
      You can make adapted versions of these methods by copying them to UIMap.cs. For example, you could make a parameterized version that you could call from a test method:  
   
-    ```c#  
+    ```cs  
     // File: UIMap.cs  
     public partial class UIMap // Same partial class  
     {  

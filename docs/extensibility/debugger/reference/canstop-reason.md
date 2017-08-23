@@ -44,7 +44,7 @@ enum enum_CANSTOP_REASON { 
 typedef DWORD CANSTOP_REASON;  
 ```  
   
-```c#  
+```cs  
 public enum enum_CANSTOP_REASON {   
    CANSTOP_ENTRYPOINT = 0x0000,  
    CANSTOP_STEPIN     = 0x0001  

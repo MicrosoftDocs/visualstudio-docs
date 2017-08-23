@@ -38,7 +38,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
   
 3.  In TestAsyncPackage.cs, change the package to inherit from AsyncPackage rather than Package:  
   
-    ```c#  
+    ```cs  
     public sealed class TestAsyncPackage : AsyncPackage  
     ```  
   
@@ -54,7 +54,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
   
 6.  Add the following using statements to the package file:  
   
-    ```c#  
+    ```cs  
     using System.Threading;  
     using System.Threading.Tasks;  
     using System.Runtime.CompilerServices;  
@@ -101,7 +101,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
   
  Here is an example of an AsyncPackage with an asynchronous service registration::  
   
-```c#  
+```cs  
 [ProvideService((typeof(STextWriterService)), IsAsyncQueryable = true)]  
 [ProvideAutoLoad(UIContextGuids80.SolutionExists, PackageAutoLoadFlags.BackgroundLoad)]  
 [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]   
@@ -128,7 +128,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 3.  Implement the callback method as an asynchronous method that creates and returns the service.  
   
-    ```c#  
+    ```cs  
     public async System.Threading.Tasks.Task<object> CreateService(IAsyncServiceContainer container, CancellationToken cancellationToken, Type serviceType)  
     {  
         STextWriterService service = null;  
@@ -146,7 +146,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 1.  We'll show this in the initializer, but you can get the service anywhere you want to use the service.  
   
-    ```c#  
+    ```cs  
     protected override async System.Threading.Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)  
     {  
         this.AddService(typeof(STextWriterService), CreateService);  
@@ -177,7 +177,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
      Move this line to the `InitializeAsync()` method in the AsyncPackageForService.cs file. Since this is in an asynchronous initialization, you must switch to the main thread before you initialize the command using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>. It should now look like this:  
   
-    ```c#  
+    ```cs  
   
     protected override async System.Threading.Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)  
     {  
@@ -208,7 +208,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 6.  Add an asynchronous method named `GetAsyncService()`, which gets the service and uses its methods:  
   
-    ```c#  
+    ```cs  
     private async System.Threading.Tasks.Task GetAsyncService()  
     {  
         ITextWriterService textService =   

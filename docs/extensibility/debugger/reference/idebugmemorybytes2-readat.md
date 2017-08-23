@@ -47,7 +47,7 @@ HRESULT ReadAt( 
 );  
 ```  
   
-```c#  
+```cs  
 int ReadAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

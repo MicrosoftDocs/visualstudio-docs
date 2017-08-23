@@ -44,7 +44,7 @@ HRESULT EnumErrorBreakpoints( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumErrorBreakpoints(   
    enum_BP_ERROR_TYPE              bpErrorType,  
    out IEnumDebugErrorBreakpoints2 ppEnum  

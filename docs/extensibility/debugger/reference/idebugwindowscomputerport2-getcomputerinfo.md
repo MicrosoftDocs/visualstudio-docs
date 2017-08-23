@@ -41,7 +41,7 @@ HRESULT GetComputerInfo(
 );  
 ```  
   
-```c#  
+```cs  
 public int GetComputerInfo(  
    out COMPUTER_INFO[] pInfo  
 );  

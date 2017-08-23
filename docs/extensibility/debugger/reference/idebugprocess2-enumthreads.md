@@ -42,7 +42,7 @@ HRESULT EnumThreads(
 );  
 ```  
   
-```c#  
+```cs  
 int EnumThreads(  
    out IEnumDebugThreads2 ppEnum  
 );  

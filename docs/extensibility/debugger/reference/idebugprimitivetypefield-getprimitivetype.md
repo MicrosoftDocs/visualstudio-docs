@@ -41,7 +41,7 @@ HRESULT GetPrimitiveType (
 );  
 ```  
   
-```c#  
+```cs  
 int GetPrimitiveType (  
    out uint pdwType  
 );  

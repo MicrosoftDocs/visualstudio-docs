@@ -43,7 +43,7 @@ HRESULT GetHitCount( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetHitCount(   
    out uint pdwHitCount  
 );  

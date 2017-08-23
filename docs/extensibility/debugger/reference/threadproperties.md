@@ -48,7 +48,7 @@ typedef struct _tagTHREADPROPERTIES { 
 } THREADPROPERTIES;  
 ```  
   
-```c#  
+```cs  
 public struct THREADPROPERTIES {   
    public uint   dwFields;  
    public uint   dwThreadId;  

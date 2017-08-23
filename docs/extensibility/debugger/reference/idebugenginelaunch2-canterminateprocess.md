@@ -42,7 +42,7 @@ HRESULT CanTerminateProcess ( 
 );  
 ```  
   
-```c#  
+```cs  
 int CanTerminateProcess (   
    IDebugProcess2 pProcess  
 );  
