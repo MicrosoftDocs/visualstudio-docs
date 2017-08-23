@@ -38,7 +38,7 @@ Reduces the amount of time and memory required to load large solutions in the ID
 - **Enabled**: Always applies Lightweight solution load when loading solutions.
 - **Disabled**: Never applies Lightweight solution load.
 
-For more information, see [Optimize Visual Studio Startup Time](../optimize-visual-studio-startup-time.md#speed-up-solution-load)
+For more information, see [Optimize Visual Studio Startup Time](../optimize-visual-studio-startup-time.md#speed_up_solution_load)
 
 **Always show Error List if build finishes with errors**  
 Opens the **Error List** window on build completion, only if a project failed to build. Errors that occur during the build process are displayed. When this option is cleared, the errors still occur but the window does not open when the build is complete. This option is enabled by default.  

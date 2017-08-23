@@ -58,8 +58,8 @@ translation.priority.mt:
 # Use Breakpoints in the Visual Studio Debugger
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.  
   
-##  <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  
- You set a function breakpoint in source code by clicking in the left margin of a source code file, or by putting your cursor on a line of code and pressing F9. The breakpoint appears as a red dot in the left margin, and the line of code is colored as well:  
+##  <a name="BKMK_Overview"></a> Setting a line breakpoint in source code  
+ You set a line breakpoint in source code by clicking in the left margin of a source code file, or by putting your cursor on a line of code and pressing F9. The breakpoint appears as a red dot in the left margin, and the line of code is colored as well:  
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "BasicBreakpoint")  
   
