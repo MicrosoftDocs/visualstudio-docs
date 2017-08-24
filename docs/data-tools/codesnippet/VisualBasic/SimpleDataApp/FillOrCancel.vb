@@ -1,16 +1,16 @@
-﻿'<Snippet1>
-Imports System.Data.SqlClient
+﻿Imports System.Data.SqlClient
 Imports System.Text.RegularExpressions
 
 Public Class FillOrCancel
 
+    '<Snippet1>
     ' Storage for OrderID.  
     Private parsedOrderID As Integer
 
     ''' <summary>
     ''' Verifies that OrderID is valid.
     ''' </summary>
-    Private Function OrderIDIsValid() As Boolean
+    Private Function IsOrderIDValid() As Boolean
 
         ' Check for input in the Order ID text box.  
         If txtOrderID.Text = "" Then
@@ -29,7 +29,9 @@ Public Class FillOrCancel
             Return True
         End If
     End Function
+    '</Snippet1>
 
+    '<Snippet2>
     ''' <summary>
     ''' Executes a t-SQL SELECT query on the database to
     ''' obtain order data for a specified order ID.
@@ -37,7 +39,7 @@ Public Class FillOrCancel
     Private Sub btnFindByOrderID_Click(sender As Object, e As EventArgs) Handles btnFindByOrderID.Click
 
         ' Prepare the connection and the command.
-        If OrderIDIsValid() Then
+        If IsOrderIDValid() Then
 
             ' Create the connection.  
             Using connection As New SqlConnection(My.Settings.connString)
@@ -87,7 +89,7 @@ Public Class FillOrCancel
     Private Sub btnFillOrder_Click(sender As Object, e As EventArgs) Handles btnFillOrder.Click
 
         ' Set up and run stored procedure only if OrderID is valid.  
-        If OrderIDIsValid() Then
+        If IsOrderIDValid() Then
 
             ' Create the connection. 
             Using connection As New SqlConnection(My.Settings.connString)
@@ -129,7 +131,7 @@ Public Class FillOrCancel
     Private Sub btnCancelOrder_Click(sender As Object, e As EventArgs) Handles btnCancelOrder.Click
 
         ' Set up and run the stored procedure only if OrderID is ready.  
-        If OrderIDIsValid() Then
+        If IsOrderIDValid() Then
 
             ' Create the connection. 
             Using connection As New SqlConnection(My.Settings.connString)
@@ -166,5 +168,5 @@ Public Class FillOrCancel
     Private Sub btnFinishUpdates_Click(sender As Object, e As EventArgs) Handles btnFinishUpdates.Click
         Me.Close()
     End Sub
+    '</Snippet2>
 End Class
-'</Snippet1>

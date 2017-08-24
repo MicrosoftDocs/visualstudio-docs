@@ -1,5 +1,6 @@
-﻿'<Snippet1>
-Public Class Navigation
+﻿Public Class Navigation
+
+    '<Snippet1>
     ''' <summary>
     ''' Opens the NewCustomer form as a dialog box, which returns focus to the calling form when it closes.
     ''' </summary>  
@@ -22,5 +23,6 @@ Public Class Navigation
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
+    '</Snippet1>
+
 End Class
-'</Snippet1>

@@ -1,8 +1,7 @@
-﻿//<Snippet1>
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace SimpleDataAppCS
+namespace SimpleDataApp
 {
     public partial class Navigation : Form
     {
@@ -11,6 +10,7 @@ namespace SimpleDataAppCS
             InitializeComponent();
         }
 
+        //<Snippet1
         /// <summary>
         /// Opens the NewCustomer form as a dialog box,
         /// which returns focus to the calling form when it is closed. 
@@ -37,6 +37,6 @@ namespace SimpleDataAppCS
         {
             this.Close();
         }
+        //</Snippet1>
     }
 }
-//</Snippet1>

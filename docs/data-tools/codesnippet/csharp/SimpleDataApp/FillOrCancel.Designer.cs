@@ -1,4 +1,4 @@
-﻿namespace SimpleDataAppCS
+﻿namespace SimpleDataApp
 {
     partial class FillOrCancel
     {

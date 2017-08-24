@@ -1,28 +1,82 @@
-﻿//<Snippet1>
-using System;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace SimpleDataAppCS
+namespace SimpleDataApp
 {
     public partial class NewCustomer : Form
     {
-        // Storage for IDENTITY values returned from database.  
-        private int parsedCustomerID;
-        private int orderID;
-
         public NewCustomer()
         {
             InitializeComponent();
         }
 
+        //<Snippet1>
+        // Storage for IDENTITY values returned from database.  
+        private int parsedCustomerID;
+        private int orderID;
+
+        /// <summary>
+        /// Verifies that the customer name text box is not empty.
+        /// </summary>
+        private bool IsCustomerNameValid()
+        {
+            if (txtCustomerName.Text == "")
+            {
+                MessageBox.Show("Please enter a name.");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        /// <summary>
+        /// Verifies that a customer ID and order amount have been provided.
+        /// </summary>
+        private bool IsOrderDataValid()
+        {
+            // Verify that CustomerID is present.  
+            if (txtCustomerID.Text == "")
+            {
+                MessageBox.Show("Please create customer account before placing order.");
+                return false;
+            }
+            // Verify that Amount isn't 0.   
+            else if ((numOrderAmount.Value < 1))
+            {
+                MessageBox.Show("Please specify an order amount.");
+                return false;
+            }
+            else
+            {
+                // Order can be submitted.  
+                return true;
+            }
+        }
+
+        /// <summary>
+        /// Clears the form data.
+        /// </summary>
+        private void ClearForm()
+        {
+            txtCustomerName.Clear();
+            txtCustomerID.Clear();
+            dtpOrderDate.Value = DateTime.Now;
+            numOrderAmount.Value = 0;
+            this.parsedCustomerID = 0;
+        }
+        //</Snippet1>
+
+        //<Snippet2>
         /// <summary>
         /// Creates a new customer by calling the Sales.uspNewCustomer stored procedure.
         /// </summary>
         private void btnCreateAccount_Click(object sender, EventArgs e)
         {
-            if (CustomerNameIsValid())
+            if (IsCustomerNameValid())
             {
                 // Create the connection.  
                 using (SqlConnection connection = new SqlConnection(Properties.Settings.Default.connStr))
@@ -67,28 +121,12 @@ namespace SimpleDataAppCS
         }
 
         /// <summary>
-        /// Verifies that the customer name text box is not empty.
-        /// </summary>
-        private bool CustomerNameIsValid()
-        {
-            if (txtCustomerName.Text == "")
-            {
-                MessageBox.Show("Please enter a name.");
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
-
-        /// <summary>
         /// Calls the Sales.uspPlaceNewOrder stored procedure to place an order.
         /// </summary>
         private void btnPlaceOrder_Click(object sender, EventArgs e)
         {
             // Ensure the required input is present.  
-            if (IsPlaceOrderReady())
+            if (IsOrderDataValid())
             {
                 // Create the connection.  
                 using (SqlConnection connection = new SqlConnection(Properties.Settings.Default.connStr))
@@ -145,47 +183,11 @@ namespace SimpleDataAppCS
         }
 
         /// <summary>
-        /// Verifies that a customer ID and order amount have been provided.
-        /// </summary>
-        private bool IsPlaceOrderReady()
-        {
-            // Verify that CustomerID is present.  
-            if (txtCustomerID.Text == "")
-            {
-                MessageBox.Show("Please create customer account before placing order.");
-                return false;
-            }
-            // Verify that Amount isn't 0.   
-            else if ((numOrderAmount.Value < 1))
-            {
-                MessageBox.Show("Please specify an order amount.");
-                return false;
-            }
-            else
-            {
-                // Order can be submitted.  
-                return true;
-            }
-        }
-
-        /// <summary>
         /// Clears the form data so another new account can be created.
         /// </summary>
         private void btnAddAnotherAccount_Click(object sender, EventArgs e)
         {
             this.ClearForm();
-        }
-
-        /// <summary>
-        /// Clears the form data.
-        /// </summary>
-        private void ClearForm()
-        {
-            txtCustomerName.Clear();
-            txtCustomerID.Clear();
-            dtpOrderDate.Value = DateTime.Now;
-            numOrderAmount.Value = 0;
-            this.parsedCustomerID = 0;
         }
 
         /// <summary>
@@ -195,6 +197,6 @@ namespace SimpleDataAppCS
         {
             this.Close();
         }
+        //</Snippet2>
     }
 }
-//</Snippet1>

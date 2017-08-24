@@ -1,22 +1,52 @@
-﻿//<Snippet1>
-using System;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace SimpleDataAppCS
+namespace SimpleDataApp
 {
     public partial class FillOrCancel : Form
     {
-        // Storage for the order ID value.
-        private int parsedOrderID;
-
         public FillOrCancel()
         {
             InitializeComponent();
         }
 
+        //<Snippet1>
+        // Storage for the order ID value.
+        private int parsedOrderID;
+
+        /// <summary>
+        /// Verifies that an order ID is present and contains valid characters.
+        /// </summary>
+        private bool IsOrderIDValid()
+        {
+            // Check for input in the Order ID text box.  
+            if (txtOrderID.Text == "")
+            {
+                MessageBox.Show("Please specify the Order ID.");
+                return false;
+            }
+
+            // Check for characters other than integers.  
+            else if (Regex.IsMatch(txtOrderID.Text, @"^\D*$"))
+            {
+                // Show message and clear input.  
+                MessageBox.Show("Customer ID must contain only numbers.");
+                txtOrderID.Clear();
+                return false;
+            }
+            else
+            {
+                // Convert the text in the text box to an integer to send to the database.  
+                parsedOrderID = Int32.Parse(txtOrderID.Text);
+                return true;
+            }
+        }
+        //</Snippet1>
+
+        //<Snippet2>
         /// <summary>
         /// Executes a t-SQL SELECT statement to obtain
         /// order data for a specified order ID, then
@@ -24,7 +54,7 @@ namespace SimpleDataAppCS
         /// </summary>
         private void btnFindByOrderID_Click(object sender, EventArgs e)
         {
-            if (OrderIDIsValid())
+            if (IsOrderIDValid())
             {
                 using (SqlConnection connection = new SqlConnection(Properties.Settings.Default.connStr))
                 {
@@ -78,7 +108,7 @@ namespace SimpleDataAppCS
         /// </summary>
         private void btnCancelOrder_Click(object sender, EventArgs e)
         {
-            if (OrderIDIsValid())
+            if (IsOrderIDValid())
             {
                 // Create the connection.  
                 using (SqlConnection connection = new SqlConnection(Properties.Settings.Default.connStr))
@@ -120,7 +150,7 @@ namespace SimpleDataAppCS
         /// </summary>
         private void btnFillOrder_Click(object sender, EventArgs e)
         {
-            if (OrderIDIsValid())
+            if (IsOrderIDValid())
             {
                 // Create the connection.  
                 using (SqlConnection connection = new SqlConnection(Properties.Settings.Default.connStr))
@@ -160,40 +190,12 @@ namespace SimpleDataAppCS
         }
 
         /// <summary>
-        /// Verifies that an order ID is present and contains valid characters.
-        /// </summary>
-        private bool OrderIDIsValid()
-        {
-            // Check for input in the Order ID text box.  
-            if (txtOrderID.Text == "")
-            {
-                MessageBox.Show("Please specify the Order ID.");
-                return false;
-            }
-
-            // Check for characters other than integers.  
-            else if (Regex.IsMatch(txtOrderID.Text, @"^\D*$"))
-            {
-                // Show message and clear input.  
-                MessageBox.Show("Customer ID must contain only numbers.");
-                txtOrderID.Clear();
-                return false;
-            }
-            else
-            {
-                // Convert the text in the text box to an integer to send to the database.  
-                parsedOrderID = Int32.Parse(txtOrderID.Text);
-                return true;
-            }
-        }
-
-        /// <summary>
         /// Closes the form.
         /// </summary>
         private void btnFinishUpdates_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        //</Snippet2>
     }
 }
-//</Snippet1>

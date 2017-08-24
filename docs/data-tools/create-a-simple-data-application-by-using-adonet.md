@@ -44,9 +44,7 @@ When you create an application that manipulates data in a database, you perform 
   
 -   [Create the forms and add controls](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
   
--   [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
-  
--   [Retrieve the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
+-   [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)   
   
 -   [Write the code for the forms](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
   
@@ -146,7 +144,7 @@ When you create an application that manipulates data in a database, you perform 
 >  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).     
   
 ##  <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
- This section contains brief overviews of what each form does and shows the code that creates the forms. Numbered comments identify sections of the code.  
+ This section contains brief overviews of what each form does and shows the code that creates the forms.  
   
 ### Navigation form  
  The Navigation form opens when you run the application. The **Add an account** button opens the NewCustomer form. The **Fill or cancel orders** button opens the FillOrCancel form. The **Exit** button closes the application.  
@@ -156,40 +154,78 @@ When you create an application that manipulates data in a database, you perform 
   
  If you're using Visual Basic, in **Solution Explorer**, open the **Properties** window, select the **Application** tab, and then select **SimpleDataApp.Navigation** in the **Startup form** list.  
   
-#### Create event handlers  
+#### Create auto-generated event handlers  
  Double-click the three buttons on the Navigation form to create empty event handler methods. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.  
   
-#### Create code for Navigation  
- In the code page for the Navigation form, replace the existing code with the following code.  
+#### Add code for the Navigation form logic   
+ In the code page for the Navigation form, complete the method bodies for the three button click event handlers as shown in the following code.  
   
-[!code-csharp[Navigation#1](../data-tools/codesnippet/CSharp/SimpleDataAppCS/Navigation.cs#1)] 
+[!code-csharp[Navigation#1](../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs#1)] 
 
 [!code-vb[Navigation#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb#1)]   
   
 ### NewCustomer form  
- When you enter a customer name and then select the **Create Account** button, the NewCustomer form creates a customer account, and SQL Server returns an IDENTITY value as the new account number. You then place an order for the new account by specifying an amount and an order date and selecting the **Place Order** button.  
+ When you enter a customer name and then select the **Create Account** button, the NewCustomer form creates a customer account, and SQL Server returns an IDENTITY value as the new customer ID. You can then place an order for the new account by specifying an amount and an order date and selecting the **Place Order** button.  
   
-#### Create event handlers  
- Create an empty Click event handler for each button on the NewCustomer form by double-clicking on each button. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.  
+#### Create auto-generated event handlers  
+ Create an empty Click event handler for each button on the NewCustomer form by double-clicking on each of the four buttons. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.  
   
-#### Create code for NewCustomer  
- Add the following code to the code page for the NewCustomer form.  
+#### Add code for the NewCustomer form logic  
+To complete the NewCustomer form logic, follow these steps.  
 
-[!code-csharp[NewCustomer#1](../data-tools/codesnippet/CSharp/SimpleDataAppCS/NewCustomer.cs#1)]    
+1. Bring the ```System.Data.SqlClient``` namespace into scope so that you don't have to fully qualify the names of its members.  
+
+```cs  
+using System.Data.SqlClient  
+```  
+
+```vb  
+Imports System.Data.SqlClient  
+```  
+
+2. Add some variables and helper methods to the class as shown in the following code.  
+
+[!code-csharp[NewCustomer#1](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#1)]  
 
 [!code-vb[NewCustomer#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#1)]  
 
+3. Complete the method bodies for the four button click event handlers as shown in the following code.  
+
+[!code-csharp[NewCustomer#2](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#2)]    
+
+[!code-vb[NewCustomer#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#2)]  
+
 ### FillOrCancel form  
  The FillorCancel form runs a query to return an order when you enter an order ID and then click the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
-#### Create event handlers  
+#### Create auto-generated event handlers  
  Create empty Click event handlers for the four buttons on the FillOrCancel form by double-clicking the buttons. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.  
   
-#### Create code for FillOrCancel  
- Add the following code to the FillOrCancel form.  
-  
-[!code-csharp[FillOrCancel#1](../data-tools/codesnippet/CSharp/SimpleDataAppCS/FillOrCancel.cs#1)]  
+#### Add code for the FillOrCancel form logic  
+To complete the FillOrCancel form logic, follow these steps.  
+
+1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.  
+
+```cs  
+using System.Data.SqlClient;  
+using System.Text.RegularExpressions;  
+```  
+
+```vb  
+Imports System.Data.SqlClient  
+Imports System.Text.RegularExpressions  
+```  
+
+2. Add some variables and helper methods to the class as shown in the following code.  
+
+[!code-csharp[FillOrCancel#1](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#1)]  
 
 [!code-vb[FillOrCancel#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#1)]  
+
+3. Complete the method bodies for the four button click event handlers as shown in the following code.  
+
+[!code-csharp[FillOrCancel#2](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#2)]  
+
+[!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
 
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
  Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.

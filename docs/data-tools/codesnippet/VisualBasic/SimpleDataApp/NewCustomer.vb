@@ -1,8 +1,8 @@
-﻿'<Snippet1>
-Imports System.Data.SqlClient
+﻿Imports System.Data.SqlClient
 
 Public Class NewCustomer
 
+    '<Snippet1>
     ' Storage for ID values returned from the database.  
     Private parsedCustomerID As Integer
     Private orderID As Integer
@@ -10,7 +10,7 @@ Public Class NewCustomer
     ''' <summary>
     ''' Verifies that the customer name text box is not empty.
     ''' </summary>
-    Private ReadOnly Property HasCustomerName As Boolean
+    Private ReadOnly Property IsCustomerNameValid As Boolean
         Get
             If txtCustomerName.Text = "" Then
                 MessageBox.Show("Please enter a name.")
@@ -22,13 +22,46 @@ Public Class NewCustomer
     End Property
 
     ''' <summary>
+    ''' Verifies the order data is valid. 
+    ''' </summary>
+    Private Function IsOrderDataValid() As Boolean
+
+        ' Verify that CustomerID is present.  
+        If txtCustomerID.Text = "" Then
+            MessageBox.Show("Please create a customer account before placing order.")
+            Return False
+
+            ' Verify that order amount isn't 0.   
+        ElseIf (numOrderAmount.Value < 1) Then
+            MessageBox.Show("Please specify an order amount.")
+            Return False
+        Else
+            ' Order can be submitted.  
+            Return True
+        End If
+    End Function
+
+    ''' <summary>
+    ''' Clears values from controls.
+    ''' </summary>
+    Private Sub ClearForm()
+        txtCustomerName.Clear()
+        txtCustomerID.Clear()
+        dtpOrderDate.Value = DateTime.Now
+        numOrderAmount.Value = 0
+        Me.parsedCustomerID = 0
+    End Sub
+    '</Snippet1>
+
+    '<Snippet2>
+    ''' <summary>
     ''' Creates a new account by executing the Sales.uspNewCustomer
     ''' stored procedure on the database.
     ''' </summary>
     Private Sub btnCreateAccount_Click(sender As Object, e As EventArgs) Handles btnCreateAccount.Click
 
         ' Ensure a customer name has been entered.
-        If HasCustomerName Then
+        If IsCustomerNameValid Then
 
             ' Create the SqlConnection object. 
             Using connection As New SqlConnection(My.Settings.connString)
@@ -74,7 +107,7 @@ Public Class NewCustomer
     ''' </summary>
     Private Sub btnPlaceOrder_Click(sender As Object, e As EventArgs) Handles btnPlaceOrder.Click
 
-        If ReadyToPlaceOrder() Then
+        If IsOrderDataValid() Then
 
             ' Create the connection.  
             Using connection As New SqlConnection(My.Settings.connString)
@@ -127,41 +160,10 @@ Public Class NewCustomer
     End Sub
 
     ''' <summary>
-    ''' Verifies the order data is valid. 
-    ''' </summary>
-    Private Function ReadyToPlaceOrder() As Boolean
-
-        ' Verify that CustomerID is present.  
-        If txtCustomerID.Text = "" Then
-            MessageBox.Show("Please create a customer account before placing order.")
-            Return False
-
-            ' Verify that order amount isn't 0.   
-        ElseIf (numOrderAmount.Value < 1) Then
-            MessageBox.Show("Please specify an order amount.")
-            Return False
-        Else
-            ' Order can be submitted.  
-            Return True
-        End If
-    End Function
-
-    ''' <summary>
     ''' Resets the form for another new account.
     ''' </summary>
     Private Sub btnAddAnotherAccount_Click(sender As Object, e As EventArgs) Handles btnAddAnotherAccount.Click
         Me.ClearForm()
-    End Sub
-
-    ''' <summary>
-    ''' Clears values from controls.
-    ''' </summary>
-    Private Sub ClearForm()
-        txtCustomerName.Clear()
-        txtCustomerID.Clear()
-        dtpOrderDate.Value = DateTime.Now
-        numOrderAmount.Value = 0
-        Me.parsedCustomerID = 0
     End Sub
 
     ''' <summary>
@@ -170,5 +172,5 @@ Public Class NewCustomer
     Private Sub btnAddFinish_Click(sender As Object, e As EventArgs) Handles btnAddFinish.Click
         Me.Close()
     End Sub
+    '</Snippet2>
 End Class
-'</Snippet1>
