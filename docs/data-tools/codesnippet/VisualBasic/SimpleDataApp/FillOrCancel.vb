@@ -19,22 +19,20 @@ Public Class FillOrCancel
 
             ' Check for characters other than integers.  
         ElseIf Regex.IsMatch(txtOrderID.Text, "^\D*$") Then
-
             ' Show message and clear input.  
             MessageBox.Show("Please specify integers only.")
             txtOrderID.Clear()
             Return False
-
         Else
             ' Convert the text in the text box to an integer to send to the database.  
             parsedOrderID = Int32.Parse(txtOrderID.Text)
             Return True
-
         End If
     End Function
 
     ''' <summary>
-    ''' Finds an order.
+    ''' Executes a t-SQL SELECT query on the database to
+    ''' obtain order data for a specified order ID.
     ''' </summary>
     Private Sub btnFindByOrderID_Click(sender As Object, e As EventArgs) Handles btnFindByOrderID.Click
 
@@ -42,45 +40,45 @@ Public Class FillOrCancel
         If OrderIDIsValid() Then
 
             ' Create the connection.  
-            Dim conn As New SqlConnection(My.Settings.connString)
+            Using connection As New SqlConnection(My.Settings.connString)
 
-            ' Define the query string that has a parameter for orderID.  
-            Dim sql As String = "select * from Sales.Orders where orderID = @orderID"
+                ' Define the query string that has a parameter for orderID.  
+                Const sql As String = "select * from Sales.Orders where orderID = @orderID"
 
-            ' Create a SqlCommand object.  
-            Dim cmdOrderID As New SqlCommand(sql, conn)
+                ' Create a SqlCommand object.  
+                Using sqlCommand As New SqlCommand(sql, connection)
 
-            ' Define the @orderID parameter and its value.  
-            cmdOrderID.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
-            cmdOrderID.Parameters("@orderID").Value = parsedOrderID
+                    ' Define the @orderID parameter and its value.  
+                    sqlCommand.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
+                    sqlCommand.Parameters("@orderID").Value = parsedOrderID
 
-            Try
-                ' Open connection.  
-                conn.Open()
+                    Try
+                        ' Open connection.  
+                        connection.Open()
 
-                ' Run the command by using SqlDataReader.  
-                Dim rdr As SqlDataReader = cmdOrderID.ExecuteReader()
+                        ' Execute the query.  
+                        Dim dataReader As SqlDataReader = sqlCommand.ExecuteReader()
 
-                ' Create a data table to hold the retrieved data.  
-                Dim dataTable As New DataTable()
+                        ' Create a data table to hold the retrieved data.  
+                        Dim dataTable As New DataTable()
 
-                ' Load the data from SqlDataReader into the data table.  
-                dataTable.Load(rdr)
+                        ' Load the data from SqlDataReader into the data table.  
+                        dataTable.Load(dataReader)
 
-                ' Display the data from the data table in the data grid view.  
-                Me.dgvCustomerOrders.DataSource = dataTable
+                        ' Display the data from the data table in the data grid view.  
+                        Me.dgvCustomerOrders.DataSource = dataTable
 
-                ' Close the SqlDataReader.  
-                rdr.Close()
-            Catch
-                ' A simple catch.  
-                MessageBox.Show("The requested order could not be loaded into the form.")
-            Finally
-                ' Close the connection.  
-                conn.Close()
-            End Try
+                        ' Close the SqlDataReader.  
+                        dataReader.Close()
+                    Catch
+                        MessageBox.Show("The requested order could not be loaded into the form.")
+                    Finally
+                        ' Close the connection.  
+                        connection.Close()
+                    End Try
+                End Using
+            End Using
         End If
-
     End Sub
 
     ''' <summary>
@@ -92,35 +90,37 @@ Public Class FillOrCancel
         If OrderIDIsValid() Then
 
             ' Create the connection. 
-            Dim conn As New SqlConnection(My.Settings.connString)
+            Using connection As New SqlConnection(My.Settings.connString)
 
-            ' Create command and identify it as a stored procedure.  
-            Dim cmdFillOrder As New SqlCommand("Sales.uspFillOrder", conn)
-            cmdFillOrder.CommandType = CommandType.StoredProcedure
+                ' Create command and identify it as a stored procedure.  
+                Using sqlCommand As New SqlCommand("Sales.uspFillOrder", connection)
 
-            ' Add input parameter from the stored procedure.  
-            cmdFillOrder.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
-            cmdFillOrder.Parameters("@orderID").Value = parsedOrderID
+                    sqlCommand.CommandType = CommandType.StoredProcedure
 
-            ' Add second input parameter.  
-            cmdFillOrder.Parameters.Add(New SqlParameter("@FilledDate", SqlDbType.DateTime, 8))
-            cmdFillOrder.Parameters("@FilledDate").Value = dtpFillDate.Value
+                    ' Add input parameter for the stored procedure.  
+                    sqlCommand.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
+                    sqlCommand.Parameters("@orderID").Value = parsedOrderID
 
-            Try
-                ' Open the connection.  
-                conn.Open()
+                    ' Add second input parameter.  
+                    sqlCommand.Parameters.Add(New SqlParameter("@FilledDate", SqlDbType.DateTime, 8))
+                    sqlCommand.Parameters("@FilledDate").Value = dtpFillDate.Value
 
-                ' Run the SqlCommand.   
-                cmdFillOrder.ExecuteNonQuery()
-            Catch
-                ' A simple catch.  
-                MessageBox.Show("The fill operation was not completed.")
-            Finally
-                ' Close the connection.  
-                conn.Close()
-            End Try
+                    Try
+                        ' Open the connection.  
+                        connection.Open()
+
+                        ' Run the SqlCommand.   
+                        sqlCommand.ExecuteNonQuery()
+                    Catch
+                        ' A simple catch.  
+                        MessageBox.Show("The fill operation was not completed.")
+                    Finally
+                        ' Close the connection.  
+                        connection.Close()
+                    End Try
+                End Using
+            End Using
         End If
-
     End Sub
 
     ''' <summary>
@@ -132,31 +132,32 @@ Public Class FillOrCancel
         If OrderIDIsValid() Then
 
             ' Create the connection. 
-            Dim conn As New SqlConnection(My.Settings.connString)
+            Using connection As New SqlConnection(My.Settings.connString)
 
-            ' Create the command and identify it as a stored procedure.  
-            Dim cmdCancelOrder As New SqlCommand("Sales.uspCancelOrder", conn)
-            cmdCancelOrder.CommandType = CommandType.StoredProcedure
+                ' Create the command and identify it as a stored procedure.  
+                Using sqlCommand As New SqlCommand("Sales.uspCancelOrder", connection)
+                    sqlCommand.CommandType = CommandType.StoredProcedure
 
-            ' Add input parameter from the stored procedure.  
-            cmdCancelOrder.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
-            cmdCancelOrder.Parameters("@orderID").Value = parsedOrderID
+                    ' Add input parameter for the stored procedure.  
+                    sqlCommand.Parameters.Add(New SqlParameter("@orderID", SqlDbType.Int))
+                    sqlCommand.Parameters("@orderID").Value = parsedOrderID
 
-            Try
-                ' Open the connection.  
-                conn.Open()
+                    Try
+                        ' Open the connection.  
+                        connection.Open()
 
-                ' Run the SqlCommand.  
-                cmdCancelOrder.ExecuteNonQuery()
-            Catch
-                ' A simple catch.  
-                MessageBox.Show("The cancel operation was not completed.")
-            Finally
-                ' Close connection.  
-                conn.Close()
-            End Try
+                        ' Run the SqlCommand.  
+                        sqlCommand.ExecuteNonQuery()
+                    Catch
+                        ' A simple catch.  
+                        MessageBox.Show("The cancel operation was not completed.")
+                    Finally
+                        ' Close connection.  
+                        connection.Close()
+                    End Try
+                End Using
+            End Using
         End If
-
     End Sub
 
     ''' <summary>
